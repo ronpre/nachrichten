@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2025-11-02T22:03:42.375Z",
+  "updatedAt": "2025-11-02T23:03:46.273Z",
   "categories": {
     "Politik": [
       {
         "id": "{urn:uuid:073fcc95-175b-4ca0-a28c-d64cc5323316}",
         "title": "Flughafen: Flugverkehr an Bremer Flughafen wegen Drohne unterbrochen",
-        "summary": "Für fast 45 Minuten ging nach einer Drohnensichtung am Bremer Flughafen nichts mehr. Inzwischen läuft der Betrieb wieder, der Ursprung der Drohne ist noch nicht bekannt.",
+        "summary": "Für fast 45 Minuten ging nach einer Drohnensichtung am Bremer Flughafen nichts mehr. Inzwischen läuft der Betrieb wieder.",
         "paragraphs": [
-          "Für fast 45 Minuten ging nach einer Drohnensichtung am Bremer Flughafen nichts mehr. Inzwischen läuft der Betrieb wieder, der Ursprung der Drohne ist noch nicht bekannt."
+          "Für fast 45 Minuten ging nach einer Drohnensichtung am Bremer Flughafen nichts mehr. Inzwischen läuft der Betrieb wieder. Woher die Drohne kam, ist unklar."
         ],
         "link": "https://www.zeit.de/mobilitaet/2025-11/bremen-flughafen-stillstand-drohne",
         "source": "ZEIT Politik",
-        "publishedAt": "2025-11-02T21:38:04.000Z"
+        "publishedAt": "2025-11-02T22:15:27.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/ukraine-krieg-wolodymyr-selenskyj-dankt-friedrich-merz-fuer-hilfe-bei-ausbau-der-luftabwehr-a-e98e28e8-6b21-42e8-81ba-0f56ab2e0538",
@@ -170,6 +170,17 @@
     ],
     "Wirtschaft": [
       {
+        "id": "https://www.handelsblatt.com/politik/international/drohnensichtungen-drohne-in-bremen-gesichtet-flugbetrieb-kurz-unterbrochen/100170729.html",
+        "title": "Drohnensichtungen: Drohne in Bremen gesichtet – Flugbetrieb kurz unterbrochen",
+        "summary": "In der Nähe des Flughafens Bremen wurde am Abend eine Drohne beobachtet. Der Flugbetrieb wurde daraufhin für eine knappe Stunde ausgesetzt.",
+        "paragraphs": [
+          "In der Nähe des Flughafens Bremen wurde am Abend eine Drohne beobachtet. Der Flugbetrieb wurde daraufhin für eine knappe Stunde ausgesetzt."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/drohnensichtungen-drohne-in-bremen-gesichtet-flugbetrieb-kurz-unterbrochen/100170729.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-02T22:00:35.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/energie-opec-erhoeht-oelfoerderung-pause-im-ersten-quartal-geplant/100170723.html",
         "title": "Energie: Opec erhöht Ölförderung – Pause im ersten Quartal geplant",
         "summary": "Die Folgen der US-Sanktionen gegen russische Öl-Konzerne sind noch nicht genau abschätzbar. Das Ölkartell Opec plus sieht dennoch eine stabile Marktlage und öffnet die Förderhähne noch einmal.",
@@ -322,20 +333,20 @@
         "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-wie-der-dax-zum-nasdaq-aufholen-koennte/100168821.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-11-02T13:22:23.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/trump-nach-trump-drohung-nigeria-begruesst-unterstuetzung-der-usa/100170640.html",
-        "title": "Trump: Nach Trump-Drohung – Nigeria begrüßt Unterstützung der USA",
-        "summary": "Im bevölkerungsreichsten Land Afrikas gibt es seit Jahren Streit zwischen Christen und Muslimen. Nun zeigt sich Nigeria offen für US-Hilfe im Kampf gegen islamistische Rebellen.",
-        "paragraphs": [
-          "Im bevölkerungsreichsten Land Afrikas gibt es seit Jahren Streit zwischen Christen und Muslimen. Nun zeigt sich Nigeria offen für US-Hilfe im Kampf gegen islamistische Rebellen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/trump-nach-trump-drohung-nigeria-begruesst-unterstuetzung-der-usa/100170640.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-02T13:17:12.000Z"
       }
     ],
     "Gesellschaft": [
+      {
+        "id": "{urn:uuid:bf608cfe-4763-4988-98a3-6ad811952f34}",
+        "title": "Huntingdon: Britische Polizei lässt nach Messerangriff einen Festgenommenen frei",
+        "summary": "Der mutmaßliche Messerangreifer von Huntingdon soll allein gehandelt haben. Ein Bahnmitarbeiter befindet sich weiter in Lebensgefahr.",
+        "paragraphs": [
+          "Der mutmaßliche Messerangreifer von Huntingdon soll allein gehandelt haben. Ein Bahnmitarbeiter befindet sich weiter in Lebensgefahr."
+        ],
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/grossbritannien-messerangriff-huntingdon-verdaechtiger",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-02T21:55:10.000Z"
+      },
       {
         "id": "{urn:uuid:8fdaed0c-0113-49a5-b950-f03ed07f175a}",
         "title": "Gazastreifen: Hamas übergibt drei Leichen mutmaßlicher Geiseln an Rotes Kreuz",
@@ -489,17 +500,6 @@
         "link": "https://www.spiegel.de/panorama/justiz/bremen-polizei-stoppt-hochzeitskorso-auf-der-autobahn-a-054f8584-0f3e-40ac-971b-79693e7a7032#ref=rss",
         "source": "SPIEGEL Panorama",
         "publishedAt": "2025-11-02T11:10:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/panorama/dressur-olympiasieger-frederic-wandres-hat-sich-mit-seinem-pferdepfleger-verlobt-a-4fbac10e-148f-423a-a70f-c5b667df1ed1",
-        "title": "Dressur-Olympiasieger Frederic Wandres hat sich mit seinem Pferdepfleger verlobt",
-        "summary": "Der Profisportler ging im Italienurlaub vor dem Reiter und Pferdepfleger Lars Ligus auf die Knie. Die beiden sind seit 2017 nicht nur beruflich, sondern auch privat ein Paar.",
-        "paragraphs": [
-          "Der Profisportler ging im Italienurlaub vor dem Reiter und Pferdepfleger Lars Ligus auf die Knie. Die beiden sind seit 2017 nicht nur beruflich, sondern auch privat ein Paar."
-        ],
-        "link": "https://www.spiegel.de/panorama/dressur-olympiasieger-frederic-wandres-hat-sich-mit-seinem-pferdepfleger-verlobt-a-4fbac10e-148f-423a-a70f-c5b667df1ed1#ref=rss",
-        "source": "SPIEGEL Panorama",
-        "publishedAt": "2025-11-02T09:56:00.000Z"
       }
     ],
     "Sport": [
