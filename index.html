@@ -46,6 +46,12 @@
             color: rgba(31, 36, 48, 0.75);
         }
 
+        .updated-at {
+            margin-top: 0.35rem;
+            font-size: 0.85rem;
+            color: rgba(31, 36, 48, 0.6);
+        }
+
         section {
             margin-bottom: 2rem;
         }
@@ -78,6 +84,20 @@
             outline: 2px solid var(--accent);
             outline-offset: 4px;
             border-radius: 0.5rem;
+        }
+
+        .status {
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            color: rgba(31, 36, 48, 0.75);
+        }
+
+        .status.error {
+            color: #c00;
+        }
+
+        .status.hidden {
+            display: none;
         }
 
         .news-meta {
@@ -157,6 +177,7 @@
             }
 
             header p,
+            .updated-at,
             .news-summary,
             .news-meta,
             .source {
@@ -168,96 +189,193 @@
 <body>
     <header>
         <h1>Nachrichtenüberblick</h1>
-        <p>Bitte ersetzen Sie die Platzhalter durch aktuell recherchierte Texte aus zuverlässigen Quellen.</p>
+        <p>Aktuelle Schlagzeilen aus Politik, Wirtschaft, Gesellschaft und Sport verlässlicher Nachrichtenagenturen.</p>
+        <p class="updated-at" id="updated-at" role="status" aria-live="polite"></p>
     </header>
 
-    <main>
-        <section aria-labelledby="politik">
-            <h2 id="politik">Politik</h2>
-            <article class="news-card" data-category="Politik">
-                <button class="news-toggle" type="button" aria-expanded="false">
-                    <div class="news-meta">
-                        <span class="category-tag">Politik</span>
-                        <time datetime="2025-11-02">02.11.2025</time>
-                    </div>
-                    <h3>Kurze Überschrift zur wichtigsten politischen Meldung</h3>
-                    <p class="news-summary">Fassen Sie die wesentlichen Punkte der politischen Nachricht in zwei knappen Sätzen zusammen. Nutzen Sie Fakten aus Quellen wie Reuters oder Süddeutscher Zeitung.</p>
-                </button>
-                <div class="news-body" hidden>
-                    <p>Fügen Sie hier den vollständigen Nachrichtentext ein. Strukturieren Sie ihn in zwei bis drei Absätzen und bleiben Sie eng an der Primärquelle.</p>
-                    <p class="source">Quelle: <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a></p>
-                </div>
-            </article>
-        </section>
-
-        <section aria-labelledby="wirtschaft">
-            <h2 id="wirtschaft">Wirtschaft</h2>
-            <article class="news-card" data-category="Wirtschaft">
-                <button class="news-toggle" type="button" aria-expanded="false">
-                    <div class="news-meta">
-                        <span class="category-tag">Wirtschaft</span>
-                        <time datetime="2025-11-02">02.11.2025</time>
-                    </div>
-                    <h3>Kurze Überschrift zur wichtigsten Wirtschaftsnews</h3>
-                    <p class="news-summary">Tragen Sie eine prägnante Zusammenfassung aus Quellen wie Handelsblatt oder Financial Times ein, die in zwei Zeilen passt.</p>
-                </button>
-                <div class="news-body" hidden>
-                    <p>Beschreiben Sie den wirtschaftlichen Sachverhalt mit Zahlen, Hintergründen und Einschätzungen. Nutzen Sie mehrere Absätze für bessere Lesbarkeit.</p>
-                    <p class="source">Quelle: <a href="https://www.handelsblatt.com" target="_blank" rel="noopener">Handelsblatt</a></p>
-                </div>
-            </article>
-        </section>
-
-        <section aria-labelledby="gesellschaft">
-            <h2 id="gesellschaft">Gesellschaft</h2>
-            <article class="news-card" data-category="Gesellschaft">
-                <button class="news-toggle" type="button" aria-expanded="false">
-                    <div class="news-meta">
-                        <span class="category-tag">Gesellschaft</span>
-                        <time datetime="2025-11-02">02.11.2025</time>
-                    </div>
-                    <h3>Titel zur gesellschaftlichen Meldung</h3>
-                    <p class="news-summary">Verdichten Sie die gesellschaftliche Entwicklung in zwei Sätzen. Arbeiten Sie mit Informationen aus Quellen wie ZEIT oder Spiegel.</p>
-                </button>
-                <div class="news-body" hidden>
-                    <p>Ergänzen Sie Hintergründe, Stimmen und Auswirkungen. Achten Sie auf eine sachliche, quellengestützte Darstellung.</p>
-                    <p class="source">Quelle: <a href="https://www.zeit.de" target="_blank" rel="noopener">Die Zeit</a></p>
-                </div>
-            </article>
-        </section>
-
-        <section aria-labelledby="sport">
-            <h2 id="sport">Sport</h2>
-            <article class="news-card" data-category="Sport">
-                <button class="news-toggle" type="button" aria-expanded="false">
-                    <div class="news-meta">
-                        <span class="category-tag">Sport</span>
-                        <time datetime="2025-11-02">02.11.2025</time>
-                    </div>
-                    <h3>Überschrift zur aktuellen Sportnachricht</h3>
-                    <p class="news-summary">Schildern Sie das sportliche Highlight in zwei Sätzen. Recherchieren Sie bei Agenturen wie dpa, Reuters oder der Süddeutschen.</p>
-                </button>
-                <div class="news-body" hidden>
-                    <p>Geben Sie Resultate, Statistiken und Reaktionen wieder und nennen Sie relevante Zitate oder Ausblicke.</p>
-                    <p class="source">Quelle: <a href="https://www.sueddeutsche.de" target="_blank" rel="noopener">Süddeutsche Zeitung</a></p>
-                </div>
-            </article>
-        </section>
+    <main id="news" aria-live="polite">
+        <p id="status" class="status">Lade aktuelle Nachrichten…</p>
     </main>
 
     <script>
-        const cards = document.querySelectorAll('.news-card');
+        const ORDER = ['Politik', 'Wirtschaft', 'Gesellschaft', 'Sport'];
+        const REFRESH_INTERVAL = 60 * 60 * 1000;
 
-        cards.forEach(card => {
-            const toggle = card.querySelector('.news-toggle');
-            const body = card.querySelector('.news-body');
+        const newsContainer = document.getElementById('news');
+        const statusElement = document.getElementById('status');
+        const updatedAtElement = document.getElementById('updated-at');
+
+        const intlDate = new Intl.DateTimeFormat('de-DE', {
+            dateStyle: 'medium',
+            timeStyle: 'short'
+        });
+
+        function setStatus(message = '', type = 'info') {
+            if (!statusElement) {
+                return;
+            }
+            if (!message) {
+                statusElement.textContent = '';
+                statusElement.className = 'status hidden';
+                return;
+            }
+            statusElement.textContent = message;
+            statusElement.className = `status ${type === 'error' ? 'error' : ''}`.trim();
+        }
+
+        function formatDate(dateLike) {
+            if (!dateLike) {
+                return '';
+            }
+            const date = new Date(dateLike);
+            if (Number.isNaN(date.getTime())) {
+                return '';
+            }
+            return intlDate.format(date);
+        }
+
+        function createCard(category, article) {
+            const card = document.createElement('article');
+            card.className = 'news-card';
+
+            const toggle = document.createElement('button');
+            toggle.className = 'news-toggle';
+            toggle.type = 'button';
+            toggle.setAttribute('aria-expanded', 'false');
+
+            const meta = document.createElement('div');
+            meta.className = 'news-meta';
+
+            const categoryTag = document.createElement('span');
+            categoryTag.className = 'category-tag';
+            categoryTag.textContent = category;
+
+            const time = document.createElement('time');
+            if (article.publishedAt) {
+                time.dateTime = article.publishedAt;
+                time.textContent = formatDate(article.publishedAt);
+            }
+
+            meta.appendChild(categoryTag);
+            if (time.textContent) {
+                meta.appendChild(time);
+            }
+
+            const title = document.createElement('h3');
+            title.textContent = article.title || 'Ohne Titel';
+
+            const summary = document.createElement('p');
+            summary.className = 'news-summary';
+            summary.textContent = article.summary || 'Keine Zusammenfassung verfügbar.';
+
+            toggle.appendChild(meta);
+            toggle.appendChild(title);
+            toggle.appendChild(summary);
+
+            const body = document.createElement('div');
+            body.className = 'news-body';
+            body.hidden = true;
+
+            if (Array.isArray(article.paragraphs) && article.paragraphs.length > 0) {
+                article.paragraphs.forEach(paragraphText => {
+                    const paragraph = document.createElement('p');
+                    paragraph.textContent = paragraphText;
+                    body.appendChild(paragraph);
+                });
+            } else {
+                const fallback = document.createElement('p');
+                fallback.textContent = article.summary || 'Keine weiteren Details verfügbar.';
+                body.appendChild(fallback);
+            }
+
+            const source = document.createElement('p');
+            source.className = 'source';
+            if (article.link) {
+                const link = document.createElement('a');
+                link.href = article.link;
+                link.target = '_blank';
+                link.rel = 'noopener';
+                link.textContent = article.source || 'Quelle';
+                source.append('Quelle: ');
+                source.appendChild(link);
+            } else {
+                source.textContent = `Quelle: ${article.source || 'Unbekannt'}`;
+            }
+            body.appendChild(source);
 
             toggle.addEventListener('click', () => {
                 const expanded = card.classList.toggle('expanded');
                 toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
                 body.hidden = !expanded;
             });
-        });
+
+            card.appendChild(toggle);
+            card.appendChild(body);
+
+            return card;
+        }
+
+        function renderNews(data) {
+            newsContainer.innerHTML = '';
+            if (statusElement) {
+                newsContainer.appendChild(statusElement);
+            }
+
+            const categories = data?.categories || {};
+            let hasArticles = false;
+
+            ORDER.forEach(category => {
+                const articles = categories[category];
+                if (!Array.isArray(articles) || articles.length === 0) {
+                    return;
+                }
+
+                hasArticles = true;
+                const section = document.createElement('section');
+                const headingId = `section-${category.toLowerCase()}`;
+                section.setAttribute('aria-labelledby', headingId);
+
+                const heading = document.createElement('h2');
+                heading.id = headingId;
+                heading.textContent = category;
+                section.appendChild(heading);
+
+                articles.forEach(article => {
+                    section.appendChild(createCard(category, article));
+                });
+
+                newsContainer.appendChild(section);
+            });
+
+            if (!hasArticles) {
+                setStatus('Keine aktuellen Daten gefunden. Bitte führen Sie "npm run update" aus.', 'error');
+            } else {
+                setStatus('');
+            }
+
+            if (updatedAtElement) {
+                const updated = data?.updatedAt ? formatDate(data.updatedAt) : '';
+                updatedAtElement.textContent = updated ? `Zuletzt aktualisiert: ${updated}` : 'Noch keine Aktualisierung durchgeführt.';
+            }
+        }
+
+        async function loadNews() {
+            setStatus('Lade aktuelle Nachrichten…');
+            try {
+                const response = await fetch(`news.json?t=${Date.now()}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                const data = await response.json();
+                renderNews(data);
+            } catch (error) {
+                console.error('Fehler beim Laden der Nachrichten:', error);
+                setStatus('Nachrichten konnten nicht geladen werden. Bitte Verbindung prüfen und später erneut versuchen.', 'error');
+            }
+        }
+
+        loadNews();
+        setInterval(loadNews, REFRESH_INTERVAL);
     </script>
 </body>
 </html>

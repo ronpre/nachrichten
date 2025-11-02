@@ -1,0 +1,13 @@
+{
+  "name": "nachrichten-dashboard",
+  "version": "1.0.0",
+  "description": "Automatisch aktualisierte Nachrichtenübersicht aus verlässlichen Quellen.",
+  "main": "update-news.js",
+  "scripts": {
+    "update": "node update-news.js",
+    "watch": "node update-news.js --watch"
+  },
+  "dependencies": {
+    "rss-parser": "^3.12.0"
+  }
+}
