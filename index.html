@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nachrichtenüberblick</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            font-size: 16px;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.5;
+            --accent: #0a6cf1;
+            --bg: #f5f7fb;
+            --text: #1f2430;
+            --card-bg: #ffffff;
+            --card-border: rgba(15, 30, 60, 0.12);
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        body {
+            max-width: 42rem;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        header h1 {
+            margin: 0 0 0.25rem;
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+        }
+
+        header p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: rgba(31, 36, 48, 0.75);
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin: 1.25rem 0 0.75rem;
+            padding-bottom: 0.35rem;
+            border-bottom: 2px solid var(--accent);
+        }
+
+        .news-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 0.9rem;
+            box-shadow: 0 0.3rem 1.2rem rgba(15, 30, 60, 0.08);
+            margin-bottom: 0.9rem;
+            overflow: hidden;
+        }
+
+        .news-toggle {
+            all: unset;
+            display: block;
+            cursor: pointer;
+            padding: 1rem 1.1rem 0.75rem;
+            width: 100%;
+        }
+
+        .news-toggle:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 4px;
+            border-radius: 0.5rem;
+        }
+
+        .news-meta {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            align-items: baseline;
+            font-size: 0.8rem;
+            color: rgba(31, 36, 48, 0.75);
+        }
+
+        .category-tag {
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-weight: 600;
+        }
+
+        .news-toggle h3 {
+            margin: 0.6rem 0 0.4rem;
+            font-size: 1.05rem;
+        }
+
+        .news-summary {
+            margin: 0;
+            font-size: 0.95rem;
+            color: rgba(31, 36, 48, 0.85);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            max-height: 3rem;
+            transition: max-height 0.25s ease;
+        }
+
+        .news-card.expanded .news-summary {
+            -webkit-line-clamp: unset;
+            line-clamp: unset;
+            max-height: none;
+        }
+
+        .news-body {
+            display: none;
+            padding: 0 1.1rem 1.2rem;
+            font-size: 0.95rem;
+        }
+
+        .news-card.expanded .news-body {
+            display: block;
+        }
+
+        .news-body p {
+            margin: 0 0 0.75rem;
+        }
+
+        .source {
+            font-size: 0.8rem;
+            color: rgba(31, 36, 48, 0.7);
+        }
+
+        .source a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .source a:hover,
+        .source a:focus {
+            text-decoration: underline;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #10141f;
+                --text: #f8f9fc;
+                --card-bg: #141a29;
+                --card-border: rgba(189, 203, 255, 0.12);
+            }
+
+            header p,
+            .news-summary,
+            .news-meta,
+            .source {
+                color: rgba(248, 249, 252, 0.78);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nachrichtenüberblick</h1>
+        <p>Bitte ersetzen Sie die Platzhalter durch aktuell recherchierte Texte aus zuverlässigen Quellen.</p>
+    </header>
+
+    <main>
+        <section aria-labelledby="politik">
+            <h2 id="politik">Politik</h2>
+            <article class="news-card" data-category="Politik">
+                <button class="news-toggle" type="button" aria-expanded="false">
+                    <div class="news-meta">
+                        <span class="category-tag">Politik</span>
+                        <time datetime="2025-11-02">02.11.2025</time>
+                    </div>
+                    <h3>Kurze Überschrift zur wichtigsten politischen Meldung</h3>
+                    <p class="news-summary">Fassen Sie die wesentlichen Punkte der politischen Nachricht in zwei knappen Sätzen zusammen. Nutzen Sie Fakten aus Quellen wie Reuters oder Süddeutscher Zeitung.</p>
+                </button>
+                <div class="news-body" hidden>
+                    <p>Fügen Sie hier den vollständigen Nachrichtentext ein. Strukturieren Sie ihn in zwei bis drei Absätzen und bleiben Sie eng an der Primärquelle.</p>
+                    <p class="source">Quelle: <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a></p>
+                </div>
+            </article>
+        </section>
+
+        <section aria-labelledby="wirtschaft">
+            <h2 id="wirtschaft">Wirtschaft</h2>
+            <article class="news-card" data-category="Wirtschaft">
+                <button class="news-toggle" type="button" aria-expanded="false">
+                    <div class="news-meta">
+                        <span class="category-tag">Wirtschaft</span>
+                        <time datetime="2025-11-02">02.11.2025</time>
+                    </div>
+                    <h3>Kurze Überschrift zur wichtigsten Wirtschaftsnews</h3>
+                    <p class="news-summary">Tragen Sie eine prägnante Zusammenfassung aus Quellen wie Handelsblatt oder Financial Times ein, die in zwei Zeilen passt.</p>
+                </button>
+                <div class="news-body" hidden>
+                    <p>Beschreiben Sie den wirtschaftlichen Sachverhalt mit Zahlen, Hintergründen und Einschätzungen. Nutzen Sie mehrere Absätze für bessere Lesbarkeit.</p>
+                    <p class="source">Quelle: <a href="https://www.handelsblatt.com" target="_blank" rel="noopener">Handelsblatt</a></p>
+                </div>
+            </article>
+        </section>
+
+        <section aria-labelledby="gesellschaft">
+            <h2 id="gesellschaft">Gesellschaft</h2>
+            <article class="news-card" data-category="Gesellschaft">
+                <button class="news-toggle" type="button" aria-expanded="false">
+                    <div class="news-meta">
+                        <span class="category-tag">Gesellschaft</span>
+                        <time datetime="2025-11-02">02.11.2025</time>
+                    </div>
+                    <h3>Titel zur gesellschaftlichen Meldung</h3>
+                    <p class="news-summary">Verdichten Sie die gesellschaftliche Entwicklung in zwei Sätzen. Arbeiten Sie mit Informationen aus Quellen wie ZEIT oder Spiegel.</p>
+                </button>
+                <div class="news-body" hidden>
+                    <p>Ergänzen Sie Hintergründe, Stimmen und Auswirkungen. Achten Sie auf eine sachliche, quellengestützte Darstellung.</p>
+                    <p class="source">Quelle: <a href="https://www.zeit.de" target="_blank" rel="noopener">Die Zeit</a></p>
+                </div>
+            </article>
+        </section>
+
+        <section aria-labelledby="sport">
+            <h2 id="sport">Sport</h2>
+            <article class="news-card" data-category="Sport">
+                <button class="news-toggle" type="button" aria-expanded="false">
+                    <div class="news-meta">
+                        <span class="category-tag">Sport</span>
+                        <time datetime="2025-11-02">02.11.2025</time>
+                    </div>
+                    <h3>Überschrift zur aktuellen Sportnachricht</h3>
+                    <p class="news-summary">Schildern Sie das sportliche Highlight in zwei Sätzen. Recherchieren Sie bei Agenturen wie dpa, Reuters oder der Süddeutschen.</p>
+                </button>
+                <div class="news-body" hidden>
+                    <p>Geben Sie Resultate, Statistiken und Reaktionen wieder und nennen Sie relevante Zitate oder Ausblicke.</p>
+                    <p class="source">Quelle: <a href="https://www.sueddeutsche.de" target="_blank" rel="noopener">Süddeutsche Zeitung</a></p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script>
+        const cards = document.querySelectorAll('.news-card');
+
+        cards.forEach(card => {
+            const toggle = card.querySelector('.news-toggle');
+            const body = card.querySelector('.news-body');
+
+            toggle.addEventListener('click', () => {
+                const expanded = card.classList.toggle('expanded');
+                toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+                body.hidden = !expanded;
+            });
+        });
+    </script>
+</body>
+</html>
