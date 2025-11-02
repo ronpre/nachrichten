@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-11-02T21:03:35.842Z",
+  "updatedAt": "2025-11-02T22:03:42.375Z",
   "categories": {
     "Politik": [
+      {
+        "id": "{urn:uuid:073fcc95-175b-4ca0-a28c-d64cc5323316}",
+        "title": "Flughafen: Flugverkehr an Bremer Flughafen wegen Drohne unterbrochen",
+        "summary": "Für fast 45 Minuten ging nach einer Drohnensichtung am Bremer Flughafen nichts mehr. Inzwischen läuft der Betrieb wieder, der Ursprung der Drohne ist noch nicht bekannt.",
+        "paragraphs": [
+          "Für fast 45 Minuten ging nach einer Drohnensichtung am Bremer Flughafen nichts mehr. Inzwischen läuft der Betrieb wieder, der Ursprung der Drohne ist noch nicht bekannt."
+        ],
+        "link": "https://www.zeit.de/mobilitaet/2025-11/bremen-flughafen-stillstand-drohne",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-02T21:38:04.000Z"
+      },
       {
         "id": "https://www.spiegel.de/politik/ukraine-krieg-wolodymyr-selenskyj-dankt-friedrich-merz-fuer-hilfe-bei-ausbau-der-luftabwehr-a-e98e28e8-6b21-42e8-81ba-0f56ab2e0538",
         "title": "Ukraine-Krieg: Wolodymyr Selenskyj dankt Friedrich Merz für Hilfe bei Ausbau der Luftabwehr",
@@ -155,20 +166,20 @@
         "link": "https://www.zeit.de/politik/ausland/2025-11/usa-pete-hegseth-angriff-boot-drogen-karibik",
         "source": "ZEIT Politik",
         "publishedAt": "2025-11-02T06:51:37.000Z"
-      },
-      {
-        "id": "{urn:uuid:2fc661b0-6112-4111-9728-f90bb4748c08}",
-        "title": "Schweizer \"Service Citoyen\"-Initiative: Alle antreten!",
-        "summary": "Die Schweiz hat, worüber Deutschland streitet: eine Wehrpflicht. Eine Initiative geht noch weiter und fordert eine Dienstpflicht für alle.",
-        "paragraphs": [
-          "Die Schweiz hat, worüber Deutschland streitet: eine Wehrpflicht. Eine Initiative geht noch weiter und fordert eine Dienstpflicht für alle. Bloß kümmert das kaum jemanden."
-        ],
-        "link": "https://www.zeit.de/2025/46/service-citoyen-initiative-schweiz-dienstpflicht-wehrpflicht-gxe",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-02T06:11:26.000Z"
       }
     ],
     "Wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/energie-opec-erhoeht-oelfoerderung-pause-im-ersten-quartal-geplant/100170723.html",
+        "title": "Energie: Opec erhöht Ölförderung – Pause im ersten Quartal geplant",
+        "summary": "Die Folgen der US-Sanktionen gegen russische Öl-Konzerne sind noch nicht genau abschätzbar. Das Ölkartell Opec plus sieht dennoch eine stabile Marktlage und öffnet die Förderhähne noch einmal.",
+        "paragraphs": [
+          "Die Folgen der US-Sanktionen gegen russische Öl-Konzerne sind noch nicht genau abschätzbar. Das Ölkartell Opec plus sieht dennoch eine stabile Marktlage und öffnet die Förderhähne noch einmal."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/energie-opec-erhoeht-oelfoerderung-pause-im-ersten-quartal-geplant/100170723.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-02T21:20:39.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/anschlag-mit-sprengstoff-geplant-haftbefehl-gegen-22-jaehrigen-syrer/100170646.html",
         "title": "Innere Sicherheit: Haftbefehl gegen terrorverdächtigen Syrer – Innenminister spricht von hoher Gefährdungslage",
@@ -322,17 +333,6 @@
         "link": "https://www.handelsblatt.com/politik/international/trump-nach-trump-drohung-nigeria-begruesst-unterstuetzung-der-usa/100170640.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-11-02T13:17:12.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/kooperation-usa-und-vietnam-wollen-bei-ruestung-und-sicherheit-zusammenarbeiten/100170631.html",
-        "title": "Kooperation: USA und Vietnam wollen bei Rüstung und Sicherheit zusammenarbeiten",
-        "summary": "Die USA liefern Schiffe und Flugzeuge nach Vietnam. Ob es bei dem Besuch des US-Außenministers in Südostasien zu einem Abkommen kommt, ist indes unklar.",
-        "paragraphs": [
-          "Die USA liefern Schiffe und Flugzeuge nach Vietnam. Ob es bei dem Besuch des US-Außenministers in Südostasien zu einem Abkommen kommt, ist indes unklar."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/kooperation-usa-und-vietnam-wollen-bei-ruestung-und-sicherheit-zusammenarbeiten/100170631.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-02T12:19:27.000Z"
       }
     ],
     "Gesellschaft": [
@@ -656,9 +656,9 @@
       {
         "id": "li.3333314",
         "title": "Eiskunstläufer Hase/Volodin: Mit seltenen Fehlern auf Platz zwei",
-        "summary": "Die sonst so perfekten Paarlauf-Europameister Minerva Hase und Nikita Volodin müssen sich bei Skate Canada mit Platz zwei begnügen. In den kommenden Wochen wollen sie weiter am Programm tüfteln.",
+        "summary": "Die sonst so perfekten Paarlauf-Europameister Minerva Hase und Nikita Volodin müssen sich bei Skate Canada mit Platz zwei begnügen. Ilia Malinin gelingt bei den Männern eine Weltrekordkür.",
         "paragraphs": [
-          "Die sonst so perfekten Paarlauf-Europameister Minerva Hase und Nikita Volodin müssen sich bei Skate Canada mit Platz zwei begnügen. In den kommenden Wochen wollen sie weiter am Programm tüfteln."
+          "Die sonst so perfekten Paarlauf-Europameister Minerva Hase und Nikita Volodin müssen sich bei Skate Canada mit Platz zwei begnügen. Ilia Malinin gelingt bei den Männern eine Weltrekordkür."
         ],
         "link": "https://www.sueddeutsche.de/sport/eiskunstlauf-hase-volodin-kanada-platz-zwei-li.3333314",
         "source": "Süddeutsche Zeitung Sport",
