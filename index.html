@@ -65,14 +65,76 @@
         }
 
         section {
-            margin-bottom: 1.5rem;
+            margin: 0 0 1.2rem;
+        }
+
+        .category {
+            border: 1px solid var(--card-border);
+            border-radius: 0.9rem;
+            background: var(--card-bg);
+            box-shadow: 0 0.25rem 0.9rem rgba(15, 30, 60, 0.08);
+            overflow: hidden;
         }
 
         h2 {
-            font-size: 1.22rem;
-            margin: 1.1rem 0 0.6rem;
-            padding-bottom: 0.3rem;
-            border-bottom: 2px solid var(--accent);
+            font-size: 1.05rem;
+            margin: 0;
+        }
+
+        .section-toggle {
+            all: unset;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            cursor: pointer;
+            padding: 0.9rem 1.1rem;
+            font-size: 1.02rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .section-toggle:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 4px;
+            border-radius: 0.6rem;
+        }
+
+        .section-label {
+            hyphens: manual;
+            word-break: normal;
+        }
+
+        .section-indicator {
+            font-size: 1.2rem;
+            line-height: 1;
+            margin-left: 0.75rem;
+            color: var(--accent);
+        }
+
+        .section-content {
+            padding: 0 0.8rem 0.95rem;
+        }
+
+        .category.expanded .section-toggle {
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        .section-content[hidden] {
+            display: none;
+        }
+
+        .section-content .news-card {
+            margin: 0.55rem 0 0;
+            box-shadow: none;
+        }
+
+        .section-content .news-card:first-of-type {
+            margin-top: 0.45rem;
+        }
+
+        .section-content .news-card:last-of-type {
+            margin-bottom: 0;
         }
 
         .news-card {
@@ -194,6 +256,8 @@
             header p,
             .updated-at,
             .news-summary,
+            .section-toggle,
+            .section-indicator,
             .news-time,
             .source {
                 color: rgba(248, 249, 252, 0.78);
@@ -345,18 +409,53 @@
 
                 hasArticles = true;
                 const section = document.createElement('section');
+                section.className = 'category';
                 const headingId = `section-${category.toLowerCase()}`;
                 section.setAttribute('aria-labelledby', headingId);
 
                 const heading = document.createElement('h2');
                 heading.id = headingId;
-                heading.textContent = category;
+
+                const sectionToggle = document.createElement('button');
+                sectionToggle.className = 'section-toggle';
+                sectionToggle.type = 'button';
+                sectionToggle.setAttribute('aria-expanded', 'false');
+
+                const sectionLabel = document.createElement('span');
+                sectionLabel.className = 'section-label';
+                sectionLabel.textContent = category;
+
+                const sectionIndicator = document.createElement('span');
+                sectionIndicator.className = 'section-indicator';
+                sectionIndicator.setAttribute('aria-hidden', 'true');
+                sectionIndicator.textContent = '+';
+
+                sectionToggle.appendChild(sectionLabel);
+                sectionToggle.appendChild(sectionIndicator);
+                heading.appendChild(sectionToggle);
                 section.appendChild(heading);
 
+                const content = document.createElement('div');
+                content.className = 'section-content';
+                const contentId = `${headingId}-content`;
+                content.id = contentId;
+                content.hidden = true;
+                sectionToggle.setAttribute('aria-controls', contentId);
+
                 articles.forEach(article => {
-                    section.appendChild(createCard(category, article));
+                    content.appendChild(createCard(category, article));
                 });
 
+                sectionToggle.addEventListener('click', () => {
+                    const expanded = sectionToggle.getAttribute('aria-expanded') === 'true';
+                    const nextExpanded = !expanded;
+                    sectionToggle.setAttribute('aria-expanded', nextExpanded ? 'true' : 'false');
+                    content.hidden = !nextExpanded;
+                    sectionIndicator.textContent = nextExpanded ? '-' : '+';
+                    section.classList.toggle('expanded', nextExpanded);
+                });
+
+                section.appendChild(content);
                 newsContainer.appendChild(section);
             });
 
