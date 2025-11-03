@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2025-11-02T23:03:46.273Z",
+  "updatedAt": "2025-11-03T00:15:46.765Z",
   "categories": {
     "Politik": [
+      {
+        "id": "{urn:uuid:37caa133-1ee2-4809-acd1-35d17a796f41}",
+        "title": "US-Shutdown: Trump-Regierung setzt laut Demokraten Hunger als Waffe ein",
+        "summary": "Die Demokraten werfen der US-Regierung vor, Lebensmittelhilfen absichtlich zurückzuhalten. Die Republikaner seien an einem Ende des Shutdowns nicht wirklich interessiert.",
+        "paragraphs": [
+          "Die Demokraten werfen der US-Regierung vor, Lebensmittelhilfen absichtlich zurückzuhalten. Die Republikaner seien an einem Ende des Shutdowns nicht wirklich interessiert."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/usa-shutdown-lebensmittelhilfen-demokraten-repbulikaner-hunger",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-02T23:54:21.000Z"
+      },
+      {
+        "id": "{urn:uuid:36c2181a-08b9-482e-8031-798483f0b94c}",
+        "title": "Atomtests: Atomwaffentests der USA sollen ohne Explosionen auskommen",
+        "summary": "US-Energieminister Chris Wright präzisiert Donald Trumps Ankündigung neuer Atomwaffentests: Diese seien \"Systemtests\", zu nuklearen Explosionen komme es nicht.",
+        "paragraphs": [
+          "US-Energieminister Chris Wright präzisiert Donald Trumps Ankündigung neuer Atomwaffentests: Diese seien \"Systemtests\", zu nuklearen Explosionen komme es nicht."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/usa-atomwaffen-tests-chris-wright-trump",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-02T23:12:30.000Z"
+      },
       {
         "id": "{urn:uuid:073fcc95-175b-4ca0-a28c-d64cc5323316}",
         "title": "Flughafen: Flugverkehr an Bremer Flughafen wegen Drohne unterbrochen",
@@ -135,17 +157,6 @@
         "publishedAt": "2025-11-02T08:47:00.000Z"
       },
       {
-        "id": "{urn:uuid:e3833ef8-a8fd-4b11-b004-5d324caec343}",
-        "title": "Ukrainekarte aktuell: Russlands Armee besetzt weitere Teile von Pokrowsk",
-        "summary": "Die russische Armee hat ihre Offensive auf Pokrowsk verstärkt, um die strategisch wichtige Stadt einzunehmen. In ihrem Zentrum und im Südosten rückte sie weiter vor.",
-        "paragraphs": [
-          "Die russische Armee hat ihre Offensive auf Pokrowsk verstärkt, um die strategisch wichtige Stadt einzunehmen. In ihrem Zentrum und im Südosten rückte sie weiter vor."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/karte-ukraine-krieg-russland-frontverlauf-truppenbewegungen",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-02T08:16:50.000Z"
-      },
-      {
         "id": "https://www.spiegel.de/politik/deutschland/news-usa-the-atlantic-donald-trump-opposition-a-8de7fe3f-653b-4011-9dc0-10efa8d75f07",
         "title": "News: USA, The Atlantic, Donald Trump, Opposition",
         "summary": "Nur die Opposition in den USA kann den Siegeszug des globalen Populismus verhindern. Das ist die Lage am Sonntag.",
@@ -155,20 +166,31 @@
         "link": "https://www.spiegel.de/politik/deutschland/news-usa-the-atlantic-donald-trump-opposition-a-8de7fe3f-653b-4011-9dc0-10efa8d75f07#ref=rss",
         "source": "SPIEGEL Politik",
         "publishedAt": "2025-11-02T07:17:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:e134f752-8476-4839-b770-60cdd4d9fdab}",
-        "title": "USA: Drei Tote bei US-Angriff auf Boot in der Karibik",
-        "summary": "Die USA haben erneut ein Boot in der Karibik angegriffen, das angeblich Drogen schmuggelte. Dabei starben laut US-Verteidigungsminister Pete Hegseth drei Männer.",
-        "paragraphs": [
-          "Die USA haben erneut ein Boot in der Karibik angegriffen, das angeblich Drogen schmuggelte. Dabei starben laut US-Verteidigungsminister Pete Hegseth drei Männer."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/usa-pete-hegseth-angriff-boot-drogen-karibik",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-02T06:51:37.000Z"
       }
     ],
     "Wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/usa-atomwaffen-sollen-ohne-nukleare-explosionen-getestet-werden/100170747.html",
+        "title": "USA: Atomwaffen sollen ohne nukleare Explosionen getestet werden",
+        "summary": "Die Ankündigung von US-Präsident Trump ließ aufschrecken: Es soll wieder Atomwaffentests in den USA geben. Jetzt präzisiert sein Energieminister, was genau passieren soll.",
+        "paragraphs": [
+          "Die Ankündigung von US-Präsident Trump ließ aufschrecken: Es soll wieder Atomwaffentests in den USA geben. Jetzt präzisiert sein Energieminister, was genau passieren soll."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/usa-atomwaffen-sollen-ohne-nukleare-explosionen-getestet-werden/100170747.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-03T00:03:46.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-sagt-nein-zu-tomahawk-raketen-fuer-die-ukraine/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Trump sagt Nein zu Tomahawk-Raketen für die Ukraine",
+        "summary": "Kreml hält Trump-Putin-Treffen aktuell nicht für denkbar +++ Belgien meldet Drohnensichtung über Nato-Basis +++ Brand in russischem Ölhafen nach Drohnenangriff +++ Der Newsblog.",
+        "paragraphs": [
+          "Kreml hält Trump-Putin-Treffen aktuell nicht für denkbar +++ Belgien meldet Drohnensichtung über Nato-Basis +++ Brand in russischem Ölhafen nach Drohnenangriff +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-sagt-nein-zu-tomahawk-raketen-fuer-die-ukraine/27982126.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-02T23:47:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/drohnensichtungen-drohne-in-bremen-gesichtet-flugbetrieb-kurz-unterbrochen/100170729.html",
         "title": "Drohnensichtungen: Drohne in Bremen gesichtet – Flugbetrieb kurz unterbrochen",
@@ -311,28 +333,6 @@
         "link": "https://www.zeit.de/wirtschaft/2025-11/wirtschaft-stellenstreichungen-wachstum-iw-umfrage",
         "source": "ZEIT Wirtschaft",
         "publishedAt": "2025-11-02T13:28:40.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-kreml-haelt-trump-putin-treffen-aktuell-nicht-fuer-denkbar/27982126.html",
-        "title": "+++ Ukraine-Krieg +++: Kreml hält Trump-Putin-Treffen aktuell nicht für denkbar",
-        "summary": "Belgien meldet Drohnensichtung über Nato-Basis +++ Brand in russischem Ölhafen nach Drohnenangriff +++ Stromausfälle in besetzten ukrainischen Regionen +++ Der Newsblog.",
-        "paragraphs": [
-          "Belgien meldet Drohnensichtung über Nato-Basis +++ Brand in russischem Ölhafen nach Drohnenangriff +++ Stromausfälle in besetzten ukrainischen Regionen +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-kreml-haelt-trump-putin-treffen-aktuell-nicht-fuer-denkbar/27982126.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-02T13:26:57.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-wie-der-dax-zum-nasdaq-aufholen-koennte/100168821.html",
-        "title": "Märkte-Insight: Wie der Dax zum Nasdaq aufholen könnte",
-        "summary": "Eine Jahresendrally ist am deutschen Aktienmarkt bisher nicht in Sicht. Die anstehende Börsenwoche könnte das ändern, meint Handelsblatt-Redakteur Andreas Neuhaus.",
-        "paragraphs": [
-          "Eine Jahresendrally ist am deutschen Aktienmarkt bisher nicht in Sicht. Die anstehende Börsenwoche könnte das ändern, meint Handelsblatt-Redakteur Andreas Neuhaus."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-wie-der-dax-zum-nasdaq-aufholen-koennte/100168821.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-02T13:22:23.000Z"
       }
     ],
     "Gesellschaft": [
