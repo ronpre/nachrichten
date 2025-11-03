@@ -43,8 +43,8 @@ const FEEDS = {
             url: 'https://rss.sueddeutsche.de/rss/Sport'
         },
         {
-            source: 'SPIEGEL Sport',
-            url: 'https://www.spiegel.de/sport/index.rss'
+            source: 'Sportschau',
+            url: 'https://www.sportschau.de/sportschauindex100~_type-rss.feed'
         }
     ]
 };
