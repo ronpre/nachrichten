@@ -83,7 +83,7 @@ function toIsoDate(value) {
     return new Date(timestamp).toISOString();
 }
 
-function summarize(text = '', maxSentences = 2, maxChars = 280) {
+function summarize(text = '', maxSentences = 3, maxChars = 600) {
     const clean = normalizeWhitespace(text);
     if (!clean) {
         return '';
@@ -105,6 +105,30 @@ function toParagraphs(text = '') {
         .split(/\n{2,}|(?<=\.)\s{2,}/)
         .map(paragraph => paragraph.trim())
         .filter(Boolean);
+}
+
+function buildDetailedSummary(paragraphs = [], fallback = '') {
+    const pieces = [];
+
+    if (Array.isArray(paragraphs) && paragraphs.length > 0) {
+        const sliceEnd = Math.min(3, paragraphs.length);
+        pieces.push(paragraphs.slice(0, sliceEnd).join(' '));
+    }
+
+    if (!pieces.length && fallback) {
+        pieces.push(summarize(fallback, 3, 600));
+    }
+
+    const combined = normalizeWhitespace(pieces.join(' '));
+    if (!combined) {
+        return '';
+    }
+
+    if (combined.length <= 900) {
+        return combined;
+    }
+
+    return combined.slice(0, 897).trimEnd() + '…';
 }
 
 async function fetchFeed(feed) {
@@ -134,8 +158,8 @@ function buildArticle({ item, feed }) {
     const summarySource = item.contentSnippet || item.summary || item.content || '';
     const bodySource = item['content:encoded'] || item.content || summarySource;
 
-    const summary = summarize(summarySource);
     const paragraphs = toParagraphs(bodySource);
+    const summary = buildDetailedSummary(paragraphs, summarySource);
 
     return {
         id: item.guid || item.id || item.link || title,
