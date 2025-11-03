@@ -62,9 +62,15 @@ function stripHtml(input = '') {
     return input
         .replace(/<script[\s\S]*?>[\s\S]*?<\/script>/gi, '')
         .replace(/<style[\s\S]*?>[\s\S]*?<\/style>/gi, '')
+        .replace(/<br\s*\/?>(?=\s*<br\s*\/?>(\s*<br\s*\/?>)*)/gi, '\n')
+        .replace(/<br\s*\/?>(?!\s*<br\s*\/?>(\s*<br\s*\/?>)*)/gi, '\n')
+        .replace(/<(\/)?(p|div|section|article|blockquote|li|ul|ol|header|footer|h[1-6])>/gi, '\n')
         .replace(/<[^>]+>/g, ' ')
-        .replace(/[\t\r\n]+/g, ' ')
-        .replace(/\s{2,}/g, ' ')
+        .replace(/\r/g, '')
+        .replace(/[ \t]+\n/g, '\n')
+        .replace(/\n[ \t]+/g, '\n')
+        .replace(/\n{3,}/g, '\n\n')
+        .replace(/[ \t]{2,}/g, ' ')
         .trim();
 }
 
@@ -84,27 +90,26 @@ function toIsoDate(value) {
 }
 
 function toParagraphs(text = '') {
-    const clean = stripHtml(text);
-    if (!clean) {
+    if (!text) {
         return [];
     }
-    return clean
-        .split(/\n{2,}|(?<=\.)\s{2,}/)
+    return text
+        .replace(/\r/g, '')
+        .split(/\n{2,}/)
         .map(paragraph => paragraph.trim())
         .filter(Boolean);
 }
 
-function buildDetailedSummary(paragraphs = [], fallback = '') {
-    const pieces = [];
 
-    if (Array.isArray(paragraphs) && paragraphs.length > 0) {
-        const normalizedParagraphs = paragraphs.map(paragraph => normalizeWhitespace(paragraph));
-        return normalizedParagraphs.join('\n\n');
+function extractFullText(bodySource = '', fallback = '') {
+    const bodyText = stripHtml(bodySource);
+    if (bodyText) {
+        return bodyText;
     }
 
-    if (fallback) {
-        const fallbackText = stripHtml(fallback);
-        return normalizeWhitespace(fallbackText);
+    const fallbackText = stripHtml(fallback);
+    if (fallbackText) {
+        return fallbackText;
     }
 
     return '';
@@ -137,8 +142,9 @@ function buildArticle({ item, feed }) {
     const summarySource = item.contentSnippet || item.summary || item.content || '';
     const bodySource = item['content:encoded'] || item.content || summarySource;
 
-    const paragraphs = toParagraphs(bodySource);
-    const summary = buildDetailedSummary(paragraphs, summarySource) || 'Keine weiteren Details verfügbar.';
+    const fullText = extractFullText(bodySource, summarySource);
+    const paragraphs = toParagraphs(fullText);
+    const summary = fullText || 'Keine weiteren Details verfügbar.';
 
     return {
         id: item.guid || item.id || item.link || title,
