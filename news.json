@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-11-03T09:05:04.828Z",
+  "updatedAt": "2025-11-03T10:04:35.156Z",
   "categories": {
     "Politik": [
+      {
+        "id": "{urn:uuid:bc969687-bdd2-4ab9-b782-7833cdf9c377}",
+        "title": "Stahlindustrie: Lars Klingbeil fordert Stopp aller Stahlimporte aus Russland",
+        "summary": "Trotz Sanktionen darf Russland weiter Stahlbrammen in die EU exportieren. Lars Klingbeil fordert vor dem Stahlgipfel das Ende sämtlicher russischen Stahlimporte.",
+        "paragraphs": [
+          "Trotz Sanktionen darf Russland weiter Stahlbrammen in die EU exportieren. Lars Klingbeil fordert vor dem Stahlgipfel das Ende sämtlicher russischen Stahlimporte."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-11/stahlgipfel-lars-klingbeil-russland-sanktionen-stahlbrammen",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-03T09:32:33.000Z"
+      },
       {
         "id": "{urn:uuid:7d0bb8bc-3f47-4060-9123-f081520d9e24}",
         "title": "Jifat Tomer-Jeruschalmi: Israels Ex-Militäranwältin wegen Videoleaks festgenommen",
@@ -12,17 +23,6 @@
         "link": "https://www.zeit.de/politik/2025-11/israel-video-misshandlung-jifat-tomer-jeruschalmi",
         "source": "ZEIT Politik",
         "publishedAt": "2025-11-03T09:00:55.000Z"
-      },
-      {
-        "id": "{urn:uuid:bc969687-bdd2-4ab9-b782-7833cdf9c377}",
-        "title": "Stahlindustrie: Lars Klingbeil fordert Stopp aller Stahlimporte aus Russland",
-        "summary": "Trotz Sanktionen darf Russland weiter Stahlbrammen in die EU exportieren. Lars Klingbeil fordert vor dem Stahlgipfel das Ende sämtlicher russischen Stahlimporte.",
-        "paragraphs": [
-          "Trotz Sanktionen darf Russland weiter Stahlbrammen in die EU exportieren. Lars Klingbeil fordert vor dem Stahlgipfel das Ende sämtlicher russischen Stahlimporte."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-11/stahlgipfel-lars-klingbeil-russland-sanktionen-stahlbrammen",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-03T08:51:41.000Z"
       },
       {
         "id": "{urn:uuid:e3833ef8-a8fd-4b11-b004-5d324caec343}",
@@ -170,15 +170,81 @@
     ],
     "Wirtschaft": [
       {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/msci-csi-300-kospi-asienboersen-starten-optimistisch-zum-wochenauftakt/100170765.html",
-        "title": "MSCI, CSI 300, Kospi: Asienbörsen starten optimistisch zum Wochenauftakt",
-        "summary": "Die wichtigsten Indizes verzeichnen zum Wochenstart weitere Kursgewinne. In China schichteten Anleger ihr Portfolio jedoch um.",
+        "id": "https://www.handelsblatt.com/politik/konjunktur/maschinenbau-auftraege-brechen-im-september-ein/100170870.html",
+        "title": "Industrie: Maschinenbau-Aufträge brechen im September ein",
+        "summary": "Die exportorientierte Branche kämpft mit Auftragsflaute: Im September sinken Bestellungen um 19 Prozent, der Blick in die Zukunft bleibt trüb. Was das für Jobs und die Produktion bedeutet.",
         "paragraphs": [
-          "Die wichtigsten Indizes verzeichnen zum Wochenstart weitere Kursgewinne. In China schichteten Anleger ihr Portfolio jedoch um. Auch der Devisenmarkt ist in Bewegung."
+          "Die exportorientierte Branche kämpft mit Auftragsflaute: Im September sinken Bestellungen um 19 Prozent, der Blick in die Zukunft bleibt trüb. Was das für Jobs und die Produktion bedeutet."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/msci-csi-300-kospi-asienboersen-starten-optimistisch-zum-wochenauftakt/100170765.html",
+        "link": "https://www.handelsblatt.com/politik/konjunktur/maschinenbau-auftraege-brechen-im-september-ein/100170870.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-03T08:55:22.000Z"
+        "publishedAt": "2025-11-03T09:38:44.000Z"
+      },
+      {
+        "id": "{urn:uuid:d33edca0-6cc7-48ac-a5f5-e9735f951f67}",
+        "title": "ifo Institut: Gedämpfte Stimmung im Einzelhandel vor dem Weihnachtsgeschäft",
+        "summary": "Der deutsche Einzelhandel blickt vor der Weihnachtszeit wenig optimistisch auf sein Geschäft. Der Geschäftsklimaindex stieg im Oktober kaum.",
+        "paragraphs": [
+          "Der deutsche Einzelhandel blickt vor der Weihnachtszeit wenig optimistisch auf sein Geschäft. Der Geschäftsklimaindex stieg im Oktober kaum."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/unternehmen/2025-11/einzelhandel-weihnachten-ifo-geschaeftsklima-umfrage",
+        "source": "ZEIT Wirtschaft",
+        "publishedAt": "2025-11-03T09:37:07.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-gefaehrliches-spiel-diesen-rat-gibt-ein-manager-zu-bauzinsen/100161120.html",
+        "title": "Interview: „Gefährliches Spiel“ – Diesen Rat gibt ein Topmanager zu Bauzinsen",
+        "summary": "Sollten Käufer auf weiter sinkende Zinsen warten oder lieber jetzt eine Immobilie kaufen? Der Co-Chef des Immobilienfinanzierers Europace, Thomas Heiserowski, hat eine eindeutige Empfehlung.",
+        "paragraphs": [
+          "Sollten Käufer auf weiter sinkende Zinsen warten oder lieber jetzt eine Immobilie kaufen? Der Co-Chef des Immobilienfinanzierers Europace, Thomas Heiserowski, hat eine eindeutige Empfehlung."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-gefaehrliches-spiel-diesen-rat-gibt-ein-manager-zu-bauzinsen/100161120.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-03T09:37:03.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-bewegt-sich-am-vormittag-deutlich-ueber-24000-punkte/100170837.html",
+        "title": "Dax aktuell: Dax bewegt sich am Vormittag deutlich über 24.000 Punkte",
+        "summary": "Der Dax steigt klar über die psychologisch wichtige Marke. Damit erholt er sich von den Verlusten der Vorwoche.",
+        "paragraphs": [
+          "Der Dax steigt klar über die psychologisch wichtige Marke. Damit erholt er sich von den Verlusten der Vorwoche. Im Handelsverlauf werden Einkaufsmanagerindizes wichtig."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-bewegt-sich-am-vormittag-deutlich-ueber-24000-punkte/100170837.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-03T09:31:20.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/ruestungsauftraege-das-ist-der-hightech-wunschzettel-der-bundeswehr-01/100168941.html",
+        "title": "Rüstungsaufträge: Was auf dem Hightech-Wunschzettel der Bundeswehr steht",
+        "summary": "Im Eiltempo erhält die Industrie grünes Licht für milliardenschwere Rüstungsprojekte. Mit einigen betritt die Bundeswehr digitales Neuland.",
+        "paragraphs": [
+          "Im Eiltempo erhält die Industrie grünes Licht für milliardenschwere Rüstungsprojekte. Mit einigen betritt die Bundeswehr digitales Neuland."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/ruestungsauftraege-das-ist-der-hightech-wunschzettel-der-bundeswehr-01/100168941.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-03T09:14:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/geld-koennen-finanzielle-unterschiede-bei-freunden-funktionieren/100154689.html",
+        "title": "Friendflation: Warum Geld in Beziehungen relevanter wird",
+        "summary": "Wer gute Freunde hat, kommt leichter durchs Leben, hat eine bessere Beziehung und verringert sein Sterberisiko. Nur was, wenn die Freundschaft am Geld scheitert?",
+        "paragraphs": [
+          "Wer gute Freunde hat, kommt leichter durchs Leben, hat eine bessere Beziehung und verringert sein Sterberisiko. Nur was, wenn die Freundschaft am Geld scheitert?"
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/geld-koennen-finanzielle-unterschiede-bei-freunden-funktionieren/100154689.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-03T09:10:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/anleihen/investoren-eine-komplexe-finanzierung-koennte-deutschlands-kapitalproblem-loesen/100163405.html",
+        "title": "Kapitalmarkt: Eine komplexe Finanzierung könnte Deutschlands Kapitalproblem lösen",
+        "summary": "Vonovia und RWE haben mit Joint-Venture-Finanzierungen Milliarden eingesammelt. Die Deals könnten zum Vorbild für Infrastrukturinvestments werden.",
+        "paragraphs": [
+          "Vonovia und RWE haben mit Joint-Venture-Finanzierungen Milliarden eingesammelt. Die Deals könnten zum Vorbild für Infrastrukturinvestments werden. Doch es bleiben Risiken."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/anleihen/investoren-eine-komplexe-finanzierung-koennte-deutschlands-kapitalproblem-loesen/100163405.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-03T09:08:16.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/immobilien/mietrecht-wie-koennen-mieter-von-nachmieterklauseln-profitieren/100100965.html",
@@ -190,17 +256,6 @@
         "link": "https://www.handelsblatt.com/finanzen/immobilien/mietrecht-wie-koennen-mieter-von-nachmieterklauseln-profitieren/100100965.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-11-03T08:51:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/us-zoelle-supreme-court-verhandelt-ueber-trumps-zoelle-praesident-fehlt/30026990.html",
-        "title": "+++ Handelskrieg +++: Supreme Court verhandelt über Trumps Zölle – Präsident fehlt",
-        "summary": "Trump: „Ohne Zölle fährt unsere Wirtschaft zur Hölle“ +++ Carney entschuldigt sich bei Trump für Werbespot gegen US-Zölle +++ Der Newsblog.",
-        "paragraphs": [
-          "Trump: „Ohne Zölle fährt unsere Wirtschaft zur Hölle“ +++ Carney entschuldigt sich bei Trump für Werbespot gegen US-Zölle +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/us-zoelle-supreme-court-verhandelt-ueber-trumps-zoelle-praesident-fehlt/30026990.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-03T08:37:23.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-auf-welche-innovationen-cathie-wood-in-ihrem-ruestungs-etf-setzt/100169731.html",
@@ -258,17 +313,6 @@
         "publishedAt": "2025-11-03T08:16:15.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-startet-im-plus-leitindex-wieder-ueber-24000-punkten/100170837.html",
-        "title": "Dax aktuell: Dax startet im Plus – Leitindex wieder über 24.000 Punkten",
-        "summary": "Der Dax beginnt den Tag knapp über der wichtigen Marke. Damit erholt er sich etwas von den Verlusten der Vorwoche.",
-        "paragraphs": [
-          "Der Dax beginnt den Tag knapp über der wichtigen Marke. Damit erholt er sich etwas von den Verlusten der Vorwoche. Im Handelsverlauf werden Einkaufsmanagerindizes wichtig."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-startet-im-plus-leitindex-wieder-ueber-24000-punkten/100170837.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-03T08:09:48.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/lap-coffee-cappuccino-fuer-250-euro-gruender-rechnet-gewinn-pro-tasse-vor-01/100168957.html",
         "title": "Lap Coffee: Cappuccino für 2,50 Euro macht Wettbewerber wütend – Gründer rechnet Gewinn pro Tasse vor",
         "summary": "Mit kleinen, einfach möblierten Shops bietet Ralph Hage eine günstige Alternative zu teuren Kaffee-Ketten. In Berlin wird er dafür angefeindet, zugleich gewinnt er namhafte Investoren.",
@@ -289,53 +333,20 @@
         "link": "https://www.handelsblatt.com/unternehmen/energie/viessmann-manager-plaediert-fuer-foerderung-heimischer-heizungshersteller/100165871.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-11-03T07:46:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/konjunktur/eu-vergleich-frauenanteil-in-deutschen-fuehrungsetagen-stagniert/100170843.html",
-        "title": "EU-Vergleich: Frauenanteil in deutschen Führungsetagen stagniert",
-        "summary": "Seit 2014 hat sich der Anteil der weiblichen Führungskräfte in Deutschland praktisch nicht verändert. Damit liegt die deutsche Wirtschaft auch deutlich unter dem europäischen Durchschnitt.",
-        "paragraphs": [
-          "Seit 2014 hat sich der Anteil der weiblichen Führungskräfte in Deutschland praktisch nicht verändert. Damit liegt die deutsche Wirtschaft auch deutlich unter dem europäischen Durchschnitt."
-        ],
-        "link": "https://www.handelsblatt.com/politik/konjunktur/eu-vergleich-frauenanteil-in-deutschen-fuehrungsetagen-stagniert/100170843.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-03T07:40:07.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-das-bedeutet-der-ezb-entscheid-fuer-die-bauzinsen-01/100169068.html",
-        "title": "Immobilien: Gute Einstiegsmöglichkeit: Das bedeutet die EZB-Zinspause für die Bauzinsen",
-        "summary": "Die Europäische Zentralbank hält die Leitzinsen stabil. Welche Ratschläge Finanzierungsexperten den Kaufinteressenten jetzt für einen Hypothekenkredit geben.",
-        "paragraphs": [
-          "Die Europäische Zentralbank hält die Leitzinsen stabil. Welche Ratschläge Finanzierungsexperten den Kaufinteressenten jetzt für einen Hypothekenkredit geben."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-das-bedeutet-der-ezb-entscheid-fuer-die-bauzinsen-01/100169068.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-03T07:36:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/geld-was-politik-und-gesellschaft-fuer-superreiche-bedeuten/100155459.html",
-        "title": "Reichtum: „Nur sehr selten verschwindet ein Milliardenvermögen fast komplett“",
-        "summary": "Museen stiften, Steuern sparen, Bunker bauen: Elitenforscher Michael Hartmann weiß, wie Superreiche ticken. Hier verrät er, was die Psyche der Elite prägt und was sich daraus lernen lässt.",
-        "paragraphs": [
-          "Museen stiften, Steuern sparen, Bunker bauen: Elitenforscher Michael Hartmann weiß, wie Superreiche ticken. Hier verrät er, was die Psyche der Elite prägt und was sich daraus lernen lässt."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/geld-was-politik-und-gesellschaft-fuer-superreiche-bedeuten/100155459.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-03T07:23:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/energie-das-sind-die-haeufigsten-kostenfallen-bei-der-sanierung/100168510.html",
-        "title": "Energetische Sanierung: Kostenfalle Sanierung: Wie sich mit der richtigen Planung viel Geld sparen lässt",
-        "summary": "Preise für Handwerk und Material legen zu. Allein seit 2016 sind die Kosten für Modernisierungen um 56 Prozent gestiegen.",
-        "paragraphs": [
-          "Preise für Handwerk und Material legen zu. Allein seit 2016 sind die Kosten für Modernisierungen um 56 Prozent gestiegen. Experten nennen fünf Kostenfallen – und erklären, wie man sie umgeht."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/energie-das-sind-die-haeufigsten-kostenfallen-bei-der-sanierung/100168510.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-03T07:18:00.000Z"
       }
     ],
     "Gesellschaft": [
+      {
+        "id": "https://www.spiegel.de/panorama/leute/jennifer-aniston-bestaetigt-beziehung-mit-jim-curtis-more-than-friends-a-fd5f43bb-5cb0-496a-b42f-30a395da6947",
+        "title": "Jennifer Aniston bestätigt Beziehung mit Jim Curtis: More than Friends",
+        "summary": "Jennifer Aniston hat sich jetzt zum zweiten Mal innerhalb eines Monats öffentlich zu ihrem Privatleben geäußert. Dieses Mal allerdings hat sie Grund zur Freude.",
+        "paragraphs": [
+          "Jennifer Aniston hat sich jetzt zum zweiten Mal innerhalb eines Monats öffentlich zu ihrem Privatleben geäußert. Dieses Mal allerdings hat sie Grund zur Freude."
+        ],
+        "link": "https://www.spiegel.de/panorama/leute/jennifer-aniston-bestaetigt-beziehung-mit-jim-curtis-more-than-friends-a-fd5f43bb-5cb0-496a-b42f-30a395da6947#ref=rss",
+        "source": "SPIEGEL Panorama",
+        "publishedAt": "2025-11-03T09:35:00.000Z"
+      },
       {
         "id": "https://www.spiegel.de/panorama/afghanistan-mindestens-20-tote-bei-erdbeben-nahe-masar-i-scharif-a-54671217-ea1d-45fc-b439-d0853864504c",
         "title": "Afghanistan: Mindestens 20 Tote bei Erdbeben nahe Masar-i-Scharif",
@@ -349,7 +360,7 @@
       },
       {
         "id": "https://www.spiegel.de/panorama/gesellschaft/hurrikan-melissa-dreitaegige-staatstrauer-in-haiti-a-24bcd591-ca78-46bd-a173-e8efa730eae4",
-        "title": "Hurrikan »Melissa«: Dreitägige Staatstrauer in Haiti",
+        "title": "Haiti: Staatstrauer nach Hurrikan »Melissa« und Notstand in einigen Regionen",
         "summary": "Nach den Zerstörungen von Hurrikan »Melissa« ordnet Haitis Regierung drei Tage Staatstrauer an und ruft für einige Regionen den Notstand aus. In Jamaika soll mit Benefizkonzerten Geld für den Wiederaufbau gesammelt werden.",
         "paragraphs": [
           "Nach den Zerstörungen von Hurrikan »Melissa« ordnet Haitis Regierung drei Tage Staatstrauer an und ruft für einige Regionen den Notstand aus. In Jamaika soll mit Benefizkonzerten Geld für den Wiederaufbau gesammelt werden."
@@ -489,17 +500,6 @@
         "link": "https://www.spiegel.de/panorama/berlin-neukoelln-mann-soll-anschlag-geplant-haben-festnahme-a-592d936e-1ee0-48e6-8513-d273c8bc68e0#ref=rss",
         "source": "SPIEGEL Panorama",
         "publishedAt": "2025-11-02T13:41:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/panorama/leute/donald-trump-so-offen-attackiert-harrison-ford-den-us-praesidenten-a-1a5c1852-91ac-49f1-9960-ac9d310c4ffc",
-        "title": "Donald Trump: So offen attackiert Harrison Ford den US-Präsidenten",
-        "summary": "Donald Trump habe »keine Politik, nur Launen«, seine Ignoranz und seine Lügen seien Furcht einflößend, schimpft Harrison Ford über den US-Präsidenten. Und dann kommt noch ein goldiger Vergleich.",
-        "paragraphs": [
-          "Donald Trump habe »keine Politik, nur Launen«, seine Ignoranz und seine Lügen seien Furcht einflößend, schimpft Harrison Ford über den US-Präsidenten. Und dann kommt noch ein goldiger Vergleich."
-        ],
-        "link": "https://www.spiegel.de/panorama/leute/donald-trump-so-offen-attackiert-harrison-ford-den-us-praesidenten-a-1a5c1852-91ac-49f1-9960-ac9d310c4ffc#ref=rss",
-        "source": "SPIEGEL Panorama",
-        "publishedAt": "2025-11-02T12:47:00.000Z"
       }
     ],
     "Sport": [
