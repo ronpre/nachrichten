@@ -83,19 +83,6 @@ function toIsoDate(value) {
     return new Date(timestamp).toISOString();
 }
 
-function summarize(text = '', maxSentences = 4, maxChars = 900) {
-    const clean = normalizeWhitespace(text);
-    if (!clean) {
-        return '';
-    }
-    const sentences = clean.split(/(?<=[.!?])\s+/);
-    const summary = sentences.slice(0, maxSentences).join(' ');
-    if (summary.length <= maxChars) {
-        return summary;
-    }
-    return summary.slice(0, maxChars - 1).trimEnd() + '…';
-}
-
 function toParagraphs(text = '') {
     const clean = stripHtml(text);
     if (!clean) {
@@ -111,27 +98,16 @@ function buildDetailedSummary(paragraphs = [], fallback = '') {
     const pieces = [];
 
     if (Array.isArray(paragraphs) && paragraphs.length > 0) {
-        const sliceEnd = Math.min(5, paragraphs.length);
-        pieces.push(paragraphs.slice(0, sliceEnd).join(' '));
+        const normalizedParagraphs = paragraphs.map(paragraph => normalizeWhitespace(paragraph));
+        return normalizedParagraphs.join('\n\n');
     }
 
     if (fallback) {
-        const fallbackSummary = summarize(fallback, 4, 900);
-        if (fallbackSummary) {
-            pieces.push(fallbackSummary);
-        }
+        const fallbackText = stripHtml(fallback);
+        return normalizeWhitespace(fallbackText);
     }
 
-    const combined = normalizeWhitespace(pieces.join(' '));
-    if (!combined) {
-        return '';
-    }
-
-    if (combined.length <= 1400) {
-        return combined;
-    }
-
-    return combined.slice(0, 1397).trimEnd() + '…';
+    return '';
 }
 
 async function fetchFeed(feed) {
@@ -162,7 +138,7 @@ function buildArticle({ item, feed }) {
     const bodySource = item['content:encoded'] || item.content || summarySource;
 
     const paragraphs = toParagraphs(bodySource);
-    const summary = buildDetailedSummary(paragraphs, summarySource);
+    const summary = buildDetailedSummary(paragraphs, summarySource) || 'Keine weiteren Details verfügbar.';
 
     return {
         id: item.guid || item.id || item.link || title,
