@@ -83,7 +83,7 @@ function toIsoDate(value) {
     return new Date(timestamp).toISOString();
 }
 
-function summarize(text = '', maxSentences = 3, maxChars = 600) {
+function summarize(text = '', maxSentences = 4, maxChars = 900) {
     const clean = normalizeWhitespace(text);
     if (!clean) {
         return '';
@@ -111,12 +111,15 @@ function buildDetailedSummary(paragraphs = [], fallback = '') {
     const pieces = [];
 
     if (Array.isArray(paragraphs) && paragraphs.length > 0) {
-        const sliceEnd = Math.min(3, paragraphs.length);
+        const sliceEnd = Math.min(5, paragraphs.length);
         pieces.push(paragraphs.slice(0, sliceEnd).join(' '));
     }
 
-    if (!pieces.length && fallback) {
-        pieces.push(summarize(fallback, 3, 600));
+    if (fallback) {
+        const fallbackSummary = summarize(fallback, 4, 900);
+        if (fallbackSummary) {
+            pieces.push(fallbackSummary);
+        }
     }
 
     const combined = normalizeWhitespace(pieces.join(' '));
@@ -124,11 +127,11 @@ function buildDetailedSummary(paragraphs = [], fallback = '') {
         return '';
     }
 
-    if (combined.length <= 900) {
+    if (combined.length <= 1400) {
         return combined;
     }
 
-    return combined.slice(0, 897).trimEnd() + '…';
+    return combined.slice(0, 1397).trimEnd() + '…';
 }
 
 async function fetchFeed(feed) {
