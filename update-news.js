@@ -49,7 +49,7 @@ const FEEDS = {
     ]
 };
 
-const ARTICLES_PER_CATEGORY = 15;
+const ARTICLES_PER_CATEGORY = 30;
 
 const parser = new Parser({
     timeout: 15000,
