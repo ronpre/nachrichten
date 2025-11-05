@@ -791,9 +791,12 @@
 
             if (!hasArticles) {
                 setStatus('Keine aktuellen Daten gefunden. Bitte führen Sie "npm run update" aus.', 'error');
-            } else {
-                setStatus('');
+                appendTickerSection();
+                updateTicker(data?.liveticker || null);
+                return;
             }
+
+            setStatus('');
 
             appendTickerSection();
             updateTicker(data?.liveticker || null);
