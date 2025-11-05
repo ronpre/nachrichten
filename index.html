@@ -293,11 +293,16 @@
         .ticker-table td {
             padding: 0.45rem 0.25rem;
             border-bottom: 1px solid rgba(15, 30, 60, 0.08);
+            text-align: left;
         }
 
-        .ticker-table th:last-child,
-        .ticker-table td:last-child {
+        .ticker-table th.numeric,
+        .ticker-table td.numeric {
             text-align: right;
+        }
+
+        .ticker-table td.team {
+            white-space: normal;
         }
 
         .ticker-table tbody tr:nth-child(odd) {
@@ -449,10 +454,11 @@
             return matchDateFormatter.format(date);
         }
 
-        function selectTickerMatches(matches) {
+        function prepareTickerMatches(matches) {
             if (!Array.isArray(matches)) {
-                return [];
+                return { matchday: null, matches: [], primaryDate: null };
             }
+
             const parsed = matches
                 .map(match => {
                     const kickoffDate = parseIsoDate(match?.kickoff);
@@ -465,20 +471,32 @@
                 .sort((a, b) => a.kickoffDate - b.kickoffDate);
 
             if (!parsed.length) {
-                return [];
+                return { matchday: null, matches: [], primaryDate: null };
             }
 
             const now = new Date();
-            const upcoming = parsed.filter(match => match.kickoffDate >= now);
-            const selectedUpcoming = upcoming.slice(0, 5);
-            if (selectedUpcoming.length === 5) {
-                return selectedUpcoming;
+            const upcoming = parsed.find(match => match.kickoffDate >= now);
+            const fallback = parsed[parsed.length - 1];
+            const targetMatchday = upcoming?.matchday ?? fallback?.matchday ?? null;
+
+            let selected = Array.isArray(parsed) ? parsed : [];
+            if (targetMatchday != null) {
+                const sameMatchday = parsed.filter(match => match.matchday === targetMatchday);
+                if (sameMatchday.length) {
+                    selected = sameMatchday;
+                }
             }
 
-            const deficit = 5 - selectedUpcoming.length;
-            const past = parsed.filter(match => match.kickoffDate < now);
-            const additional = deficit > 0 ? past.slice(-deficit) : [];
-            return selectedUpcoming.concat(additional).sort((a, b) => a.kickoffDate - b.kickoffDate);
+            if (!selected.length) {
+                selected = parsed.slice(0, 5);
+            }
+
+            const primaryDate = selected[0]?.kickoffDate ?? null;
+            return {
+                matchday: targetMatchday,
+                matches: selected,
+                primaryDate
+            };
         }
 
         function createTickerMatchItem(match) {
@@ -512,17 +530,28 @@
         function createTickerTableRow(entry) {
             const row = document.createElement('tr');
 
-            const rankCell = document.createElement('td');
-            rankCell.textContent = Number.isFinite(entry?.rank) ? entry.rank : '-';
-            row.appendChild(rankCell);
+            const appendCell = (value, className) => {
+                const cell = document.createElement('td');
+                cell.textContent = value ?? '-';
+                if (className) {
+                    cell.classList.add(className);
+                }
+                row.appendChild(cell);
+            };
 
-            const teamCell = document.createElement('td');
-            teamCell.textContent = entry?.team || 'Unbekannt';
-            row.appendChild(teamCell);
+            appendCell(Number.isFinite(entry?.rank) ? entry.rank : '-', 'numeric');
+            appendCell(entry?.team || 'Unbekannt', 'team');
+            appendCell(Number.isFinite(entry?.played) ? entry.played : '-', 'numeric');
 
-            const pointsCell = document.createElement('td');
-            pointsCell.textContent = Number.isFinite(entry?.points) ? entry.points : '-';
-            row.appendChild(pointsCell);
+            const goalsFor = Number.isFinite(entry?.goalsFor) ? entry.goalsFor : null;
+            const goalsAgainst = Number.isFinite(entry?.goalsAgainst) ? entry.goalsAgainst : null;
+            const goalsDisplay = goalsFor != null && goalsAgainst != null ? `${goalsFor}:${goalsAgainst}` : '-';
+            appendCell(goalsDisplay, 'numeric');
+
+            const diff = goalsFor != null && goalsAgainst != null ? goalsFor - goalsAgainst : null;
+            appendCell(diff != null ? diff : '-', 'numeric');
+
+            appendCell(Number.isFinite(entry?.points) ? entry.points : '-', 'numeric');
 
             return row;
         }
@@ -551,11 +580,21 @@
                 return;
             }
 
-            const { matchesList, tableBody, status, meta } = tickerElements;
+            const { matchesList, matchesHeading, tableBody, status, meta } = tickerElements;
+
+            const matchInfo = prepareTickerMatches(matchesData?.matches);
+
+            if (matchesHeading) {
+                if (matchInfo.matchday != null) {
+                    matchesHeading.textContent = `spieltag ${matchInfo.matchday}`;
+                } else {
+                    matchesHeading.textContent = 'kommende spiele';
+                }
+            }
 
             if (matchesList) {
                 matchesList.innerHTML = '';
-                const selectedMatches = selectTickerMatches(matchesData?.matches);
+                const selectedMatches = matchInfo.matches;
                 if (!selectedMatches.length) {
                     const placeholder = document.createElement('li');
                     placeholder.className = 'ticker-match ticker-empty';
@@ -570,11 +609,11 @@
 
             if (tableBody) {
                 tableBody.innerHTML = '';
-                const entries = Array.isArray(tableData?.table) ? tableData.table.slice(0, 5) : [];
+                const entries = Array.isArray(tableData?.table) ? tableData.table : [];
                 if (!entries.length) {
                     const emptyRow = document.createElement('tr');
                     const cell = document.createElement('td');
-                    cell.colSpan = 3;
+                    cell.colSpan = 6;
                     cell.className = 'ticker-empty';
                     cell.textContent = 'Keine Tabelle verfügbar.';
                     emptyRow.appendChild(cell);
@@ -602,8 +641,18 @@
                 if (tableData?.source && !sources.includes(tableData.source)) {
                     sources.push(tableData.source);
                 }
+                const metaParts = [];
+                if (matchInfo.matchday != null) {
+                    metaParts.push(`spieltag ${matchInfo.matchday}`);
+                }
+                if (matchInfo.primaryDate) {
+                    metaParts.push(`beginn: ${formatDate(matchInfo.primaryDate)}`);
+                }
                 if (sources.length) {
-                    meta.textContent = `quelle: ${sources.join(' | ')}`;
+                    metaParts.push(`quelle: ${sources.join(' | ')}`);
+                }
+                if (metaParts.length) {
+                    meta.textContent = metaParts.join(' | ');
                     meta.hidden = false;
                 } else {
                     meta.hidden = true;
@@ -900,7 +949,7 @@
 
             const matchesHeading = document.createElement('h3');
             matchesHeading.className = 'ticker-block-title';
-            matchesHeading.textContent = 'nächste spiele';
+            matchesHeading.textContent = 'kommende spiele';
             matchesBlock.appendChild(matchesHeading);
 
             const matchesList = document.createElement('ul');
@@ -924,9 +973,12 @@
             table.className = 'ticker-table';
             const tableHead = document.createElement('thead');
             const headRow = document.createElement('tr');
-            ['platz', 'team', 'pkt'].forEach(label => {
+            ['platz', 'team', 'sp', 'tore', 'diff', 'pkt'].forEach(label => {
                 const th = document.createElement('th');
                 th.textContent = label;
+                if (label !== 'team') {
+                    th.classList.add('numeric');
+                }
                 headRow.appendChild(th);
             });
             tableHead.appendChild(headRow);
@@ -942,6 +994,7 @@
                 status,
                 meta,
                 matchesList,
+                matchesHeading,
                 tableBody
             };
 
