@@ -263,7 +263,6 @@
             font-size: 0.82rem;
             font-weight: 600;
             color: var(--accent);
-            text-transform: lowercase;
         }
 
         .ticker-match-teams {
@@ -273,6 +272,11 @@
         .ticker-match-score {
             font-size: 0.82rem;
             color: rgba(31, 36, 48, 0.7);
+        }
+
+        .ticker-empty {
+            color: rgba(31, 36, 48, 0.6);
+            font-size: 0.82rem;
         }
 
         .ticker-table-wrapper {
@@ -308,12 +312,10 @@
             margin: 0.35rem 0 0.4rem;
             font-size: 0.78rem;
             color: rgba(31, 36, 48, 0.58);
-            text-transform: lowercase;
         }
 
         .ticker-status {
             margin-bottom: 0.3rem;
-            text-transform: lowercase;
         }
 
         @media (min-width: 640px) {
@@ -353,7 +355,8 @@
 
             .ticker-block-title,
             .ticker-match-score,
-            .ticker-meta {
+            .ticker-meta,
+            .ticker-empty {
                 color: rgba(248, 249, 252, 0.7);
             }
 
@@ -425,6 +428,226 @@
                 return '';
             }
             return intlDate.format(date);
+        }
+
+        function parseIsoDate(value) {
+            if (!value) {
+                return null;
+            }
+            const date = new Date(value);
+            if (Number.isNaN(date.getTime())) {
+                return null;
+            }
+            return date;
+        }
+
+        function formatMatchKickoff(dateLike) {
+            const date = dateLike instanceof Date ? dateLike : parseIsoDate(dateLike);
+            if (!date) {
+                return '';
+            }
+            return matchDateFormatter.format(date);
+        }
+
+        function selectTickerMatches(matches) {
+            if (!Array.isArray(matches)) {
+                return [];
+            }
+            const parsed = matches
+                .map(match => {
+                    const kickoffDate = parseIsoDate(match?.kickoff);
+                    if (!kickoffDate) {
+                        return null;
+                    }
+                    return { ...match, kickoffDate };
+                })
+                .filter(Boolean)
+                .sort((a, b) => a.kickoffDate - b.kickoffDate);
+
+            if (!parsed.length) {
+                return [];
+            }
+
+            const now = new Date();
+            const upcoming = parsed.filter(match => match.kickoffDate >= now);
+            const selectedUpcoming = upcoming.slice(0, 5);
+            if (selectedUpcoming.length === 5) {
+                return selectedUpcoming;
+            }
+
+            const deficit = 5 - selectedUpcoming.length;
+            const past = parsed.filter(match => match.kickoffDate < now);
+            const additional = deficit > 0 ? past.slice(-deficit) : [];
+            return selectedUpcoming.concat(additional).sort((a, b) => a.kickoffDate - b.kickoffDate);
+        }
+
+        function createTickerMatchItem(match) {
+            const item = document.createElement('li');
+            item.className = 'ticker-match';
+
+            const kickoff = document.createElement('span');
+            kickoff.className = 'ticker-match-time';
+            kickoff.textContent = formatMatchKickoff(match?.kickoffDate || match?.kickoff) || 'zeit folgt';
+            item.appendChild(kickoff);
+
+            const teams = document.createElement('span');
+            teams.className = 'ticker-match-teams';
+            const home = match?.home || 'Unbekannt';
+            const away = match?.away || 'Unbekannt';
+            teams.textContent = `${home} - ${away}`;
+            item.appendChild(teams);
+
+            const score = document.createElement('span');
+            score.className = 'ticker-match-score';
+            const rawScore = typeof match?.score === 'string' ? match.score.trim() : '';
+            const hasScore = rawScore && rawScore !== '-:-';
+            const displayScore = hasScore ? rawScore : 'Anpfiff';
+            const statusText = match?.status && match.status !== 'Geplant' ? ` (${match.status})` : '';
+            score.textContent = `${displayScore}${statusText}`.trim();
+            item.appendChild(score);
+
+            return item;
+        }
+
+        function createTickerTableRow(entry) {
+            const row = document.createElement('tr');
+
+            const rankCell = document.createElement('td');
+            rankCell.textContent = Number.isFinite(entry?.rank) ? entry.rank : '-';
+            row.appendChild(rankCell);
+
+            const teamCell = document.createElement('td');
+            teamCell.textContent = entry?.team || 'Unbekannt';
+            row.appendChild(teamCell);
+
+            const pointsCell = document.createElement('td');
+            pointsCell.textContent = Number.isFinite(entry?.points) ? entry.points : '-';
+            row.appendChild(pointsCell);
+
+            return row;
+        }
+
+        function withCacheBuster(url) {
+            if (!url) {
+                return '';
+            }
+            const separator = url.includes('?') ? '&' : '?';
+            return `${url}${separator}t=${Date.now()}`;
+        }
+
+        async function fetchTickerJson(url) {
+            if (!url) {
+                return null;
+            }
+            const response = await fetch(withCacheBuster(url));
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+            }
+            return response.json();
+        }
+
+        function renderTicker(matchesData, tableData) {
+            if (!tickerElements) {
+                return;
+            }
+
+            const { matchesList, tableBody, status, meta } = tickerElements;
+
+            if (matchesList) {
+                matchesList.innerHTML = '';
+                const selectedMatches = selectTickerMatches(matchesData?.matches);
+                if (!selectedMatches.length) {
+                    const placeholder = document.createElement('li');
+                    placeholder.className = 'ticker-match ticker-empty';
+                    placeholder.textContent = 'Keine Spiele verfügbar.';
+                    matchesList.appendChild(placeholder);
+                } else {
+                    selectedMatches.forEach(match => {
+                        matchesList.appendChild(createTickerMatchItem(match));
+                    });
+                }
+            }
+
+            if (tableBody) {
+                tableBody.innerHTML = '';
+                const entries = Array.isArray(tableData?.table) ? tableData.table.slice(0, 5) : [];
+                if (!entries.length) {
+                    const emptyRow = document.createElement('tr');
+                    const cell = document.createElement('td');
+                    cell.colSpan = 3;
+                    cell.className = 'ticker-empty';
+                    cell.textContent = 'Keine Tabelle verfügbar.';
+                    emptyRow.appendChild(cell);
+                    tableBody.appendChild(emptyRow);
+                } else {
+                    entries.forEach(entry => {
+                        tableBody.appendChild(createTickerTableRow(entry));
+                    });
+                }
+            }
+
+            if (status) {
+                const updateSource = matchesData?.lastUpdated || tableData?.lastUpdated || null;
+                const formatted = formatDate(updateSource);
+                status.classList.remove('error');
+                status.textContent = formatted ? `stand: ${formatted}` : 'stand: keine aktuellen daten';
+                status.hidden = false;
+            }
+
+            if (meta) {
+                const sources = [];
+                if (matchesData?.source) {
+                    sources.push(matchesData.source);
+                }
+                if (tableData?.source && !sources.includes(tableData.source)) {
+                    sources.push(tableData.source);
+                }
+                if (sources.length) {
+                    meta.textContent = `quelle: ${sources.join(' | ')}`;
+                    meta.hidden = false;
+                } else {
+                    meta.hidden = true;
+                }
+            }
+        }
+
+        async function loadTickerData() {
+            if (!tickerElements || tickerLoading) {
+                return;
+            }
+            tickerLoading = true;
+
+            const { status } = tickerElements;
+            if (status) {
+                status.textContent = 'lade liveticker...';
+                status.classList.remove('error');
+                status.hidden = false;
+            }
+
+            try {
+                const [matchesResult, tableResult] = await Promise.allSettled([
+                    fetchTickerJson(TICKER_MATCHES_URL),
+                    fetchTickerJson(TICKER_TABLE_URL)
+                ]);
+
+                const matchesData = matchesResult.status === 'fulfilled' ? matchesResult.value : null;
+                const tableData = tableResult.status === 'fulfilled' ? tableResult.value : null;
+
+                if (!matchesData && !tableData) {
+                    throw matchesResult.reason || tableResult.reason || new Error('Ticker-Daten nicht verfügbar.');
+                }
+
+                renderTicker(matchesData, tableData);
+            } catch (error) {
+                console.error('Fehler beim Laden des Livetickers:', error);
+                if (status) {
+                    status.textContent = 'liveticker konnte nicht geladen werden.';
+                    status.classList.add('error');
+                    status.hidden = false;
+                }
+            } finally {
+                tickerLoading = false;
+            }
         }
 
         function createCard(category, article) {
@@ -583,9 +806,6 @@
             }
         }
 
-        loadNews();
-        setInterval(loadNews, REFRESH_INTERVAL);
-
         function createStaticSection(label, message) {
             const section = document.createElement('section');
             section.className = 'category';
@@ -643,9 +863,97 @@
             if (!newsContainer) {
                 return;
             }
-            const tickerSection = createStaticSection('Liveticker', 'Noch keine Liveticker verfügbar.');
+
+            if (tickerIntervalId) {
+                clearInterval(tickerIntervalId);
+                tickerIntervalId = null;
+            }
+
+            const tickerSection = createStaticSection('Liveticker', 'lade liveticker...');
+            const content = tickerSection.querySelector('.section-content');
+            if (!content) {
+                newsContainer.appendChild(tickerSection);
+                return;
+            }
+
+            const status = content.querySelector('.status');
+            if (status) {
+                status.id = 'liveticker-status';
+                status.classList.add('ticker-status');
+                status.classList.remove('error');
+                status.hidden = false;
+                status.textContent = 'lade liveticker...';
+            }
+
+            const meta = document.createElement('p');
+            meta.className = 'ticker-meta';
+            meta.hidden = true;
+            content.appendChild(meta);
+
+            const grid = document.createElement('div');
+            grid.className = 'ticker-grid';
+            content.appendChild(grid);
+
+            const matchesBlock = document.createElement('div');
+            matchesBlock.className = 'ticker-block';
+            grid.appendChild(matchesBlock);
+
+            const matchesHeading = document.createElement('h3');
+            matchesHeading.className = 'ticker-block-title';
+            matchesHeading.textContent = 'nächste spiele';
+            matchesBlock.appendChild(matchesHeading);
+
+            const matchesList = document.createElement('ul');
+            matchesList.className = 'ticker-matches';
+            matchesBlock.appendChild(matchesList);
+
+            const tableBlock = document.createElement('div');
+            tableBlock.className = 'ticker-block';
+            grid.appendChild(tableBlock);
+
+            const tableHeading = document.createElement('h3');
+            tableHeading.className = 'ticker-block-title';
+            tableHeading.textContent = 'tabelle';
+            tableBlock.appendChild(tableHeading);
+
+            const tableWrapper = document.createElement('div');
+            tableWrapper.className = 'ticker-table-wrapper';
+            tableBlock.appendChild(tableWrapper);
+
+            const table = document.createElement('table');
+            table.className = 'ticker-table';
+            const tableHead = document.createElement('thead');
+            const headRow = document.createElement('tr');
+            ['platz', 'team', 'pkt'].forEach(label => {
+                const th = document.createElement('th');
+                th.textContent = label;
+                headRow.appendChild(th);
+            });
+            tableHead.appendChild(headRow);
+            table.appendChild(tableHead);
+
+            const tableBody = document.createElement('tbody');
+            table.appendChild(tableBody);
+            tableWrapper.appendChild(table);
+
+            tickerElements = {
+                section: tickerSection,
+                content,
+                status,
+                meta,
+                matchesList,
+                tableBody
+            };
+
             newsContainer.appendChild(tickerSection);
+
+            loadTickerData();
+            tickerIntervalId = setInterval(loadTickerData, TICKER_REFRESH_INTERVAL);
         }
+
+        appendTickerSection();
+        loadNews();
+        setInterval(loadNews, REFRESH_INTERVAL);
     </script>
 </body>
 </html>
