@@ -226,6 +226,114 @@
             text-decoration: underline;
         }
 
+        .ticker-grid {
+            display: grid;
+            gap: 0.9rem;
+            margin-top: 0.75rem;
+        }
+
+        .ticker-block {
+            padding: 0.6rem 0.1rem;
+        }
+
+        .ticker-block-title {
+            margin: 0 0 0.55rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-transform: lowercase;
+            color: rgba(31, 36, 48, 0.7);
+        }
+
+        .ticker-matches {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.65rem;
+        }
+
+        .ticker-match {
+            display: grid;
+            gap: 0.25rem;
+        }
+
+        .ticker-match-time {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: lowercase;
+        }
+
+        .ticker-match-teams {
+            font-size: 0.9rem;
+        }
+
+        .ticker-match-score {
+            font-size: 0.82rem;
+            color: rgba(31, 36, 48, 0.7);
+        }
+
+        .ticker-table-wrapper {
+            overflow-x: auto;
+        }
+
+        .ticker-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.84rem;
+        }
+
+        .ticker-table th,
+        .ticker-table td {
+            padding: 0.45rem 0.25rem;
+            border-bottom: 1px solid rgba(15, 30, 60, 0.08);
+        }
+
+        .ticker-table th:last-child,
+        .ticker-table td:last-child {
+            text-align: right;
+        }
+
+        .ticker-table tbody tr:nth-child(odd) {
+            background: rgba(10, 108, 241, 0.05);
+        }
+
+        .ticker-table tbody tr:hover {
+            background: rgba(10, 108, 241, 0.1);
+        }
+
+        .ticker-meta {
+            margin: 0.35rem 0 0.4rem;
+            font-size: 0.78rem;
+            color: rgba(31, 36, 48, 0.58);
+            text-transform: lowercase;
+        }
+
+        .ticker-status {
+            margin-bottom: 0.3rem;
+            text-transform: lowercase;
+        }
+
+        @media (min-width: 640px) {
+            .ticker-match {
+                grid-template-columns: minmax(6.5rem, auto) 1fr auto;
+                align-items: baseline;
+            }
+
+            .ticker-match-score {
+                text-align: right;
+            }
+        }
+
+        @media (min-width: 780px) {
+            .ticker-grid {
+                grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+                align-items: start;
+            }
+        }
+
         @media (prefers-color-scheme: dark) {
             :root {
                 --bg: #10141f;
@@ -241,6 +349,20 @@
             .section-indicator,
             .source {
                 color: rgba(248, 249, 252, 0.78);
+            }
+
+            .ticker-block-title,
+            .ticker-match-score,
+            .ticker-meta {
+                color: rgba(248, 249, 252, 0.7);
+            }
+
+            .ticker-table tbody tr:nth-child(odd) {
+                background: rgba(96, 165, 250, 0.08);
+            }
+
+            .ticker-table tbody tr:hover {
+                background: rgba(96, 165, 250, 0.16);
             }
         }
     </style>
@@ -258,14 +380,27 @@
     <script>
         const ORDER = ['Politik', 'Wirtschaft', 'Gesellschaft', 'Sport'];
         const REFRESH_INTERVAL = 60 * 60 * 1000;
+        const TICKER_MATCHES_URL = 'liveticker/public/data/regionalliga-nord-matches.json';
+        const TICKER_TABLE_URL = 'liveticker/public/data/regionalliga-nord-table.json';
+        const TICKER_REFRESH_INTERVAL = 5 * 60 * 1000;
 
         const newsContainer = document.getElementById('news');
         const statusElement = document.getElementById('status');
         const updatedAtElement = document.getElementById('updated-at');
+        let tickerElements = null;
+        let tickerIntervalId = null;
+        let tickerLoading = false;
 
         const intlDate = new Intl.DateTimeFormat('de-DE', {
             dateStyle: 'medium',
             timeStyle: 'short'
+        });
+        const matchDateFormatter = new Intl.DateTimeFormat('de-DE', {
+            weekday: 'short',
+            day: '2-digit',
+            month: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit'
         });
 
         function setStatus(message = '', type = 'info') {
