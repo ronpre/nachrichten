@@ -226,27 +226,13 @@
             text-decoration: underline;
         }
 
-        .ticker-table {
+        .ticker-frame {
             width: 100%;
-            border-collapse: collapse;
-            margin: 0.75rem 0 0;
-            font-size: 0.9rem;
-        }
-
-        .ticker-table th,
-        .ticker-table td {
-            padding: 0.45rem 0.5rem;
-            border-bottom: 1px solid var(--card-border);
-            text-align: left;
-        }
-
-        .ticker-table th {
-            font-weight: 600;
-            background: rgba(10, 108, 241, 0.08);
-        }
-
-        .ticker-table tr:last-of-type td {
-            border-bottom: none;
+            border: 0;
+            border-radius: 0.9rem;
+            min-height: clamp(28rem, 70vh, 52rem);
+            box-shadow: 0 0.35rem 1rem rgba(15, 30, 60, 0.12);
+            background: transparent;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -266,8 +252,8 @@
                 color: rgba(248, 249, 252, 0.78);
             }
 
-            .ticker-table th {
-                background: rgba(248, 249, 252, 0.08);
+            .ticker-frame {
+                box-shadow: 0 0.35rem 1.2rem rgba(8, 12, 24, 0.35);
             }
         }
     </style>
@@ -283,11 +269,7 @@
     </main>
 
     <script>
-    const ORDER = ['Wirtschaft', 'Gesellschaft', 'Politik', 'Sport'];
-        const TICKER_SOURCES = [
-            'liveticker/public/data/regionalliga-nord-matches.json',
-            'liveticker/data/regionalliga-nord-matches.json'
-        ];
+        const ORDER = ['Wirtschaft', 'Gesellschaft', 'Politik', 'Sport'];
         const REFRESH_INTERVAL = 60 * 60 * 1000;
 
         const newsContainer = document.getElementById('news');
@@ -543,152 +525,39 @@
                 return;
             }
             const tickerSection = createStaticSection('Liveticker', 'Zum Anzeigen klicken.', ({ content, placeholder }) => {
-                ensureTickerData(content, placeholder);
+                ensureTickerFrame(content, placeholder);
             });
             newsContainer.appendChild(tickerSection.section);
         }
 
-        let tickerDataCache = null;
-        let tickerDataPromise = null;
-
-        async function fetchTickerSource(url) {
-            const response = await fetch(`${url}?t=${Date.now()}`);
-            if (!response.ok) {
-                throw new Error(`HTTP ${response.status}`);
-            }
-            return response.json();
-        }
-
-        async function loadTickerData() {
-            if (tickerDataCache) {
-                return tickerDataCache;
-            }
-            if (tickerDataPromise) {
-                return tickerDataPromise;
-            }
-
-            tickerDataPromise = (async () => {
-                let lastError = null;
-                for (const source of TICKER_SOURCES) {
-                    try {
-                        const data = await fetchTickerSource(source);
-                        tickerDataCache = data;
-                        return data;
-                    } catch (error) {
-                        lastError = error;
-                    }
-                }
-                throw lastError || new Error('Ticker-Daten konnten nicht geladen werden.');
-            })();
-
-            try {
-                return await tickerDataPromise;
-            } finally {
-                tickerDataPromise = null;
-            }
-        }
-
-        function selectTickerMatches(matches) {
-            if (!Array.isArray(matches)) {
-                return [];
-            }
-            return matches.filter(match => match && (match.home || match.away));
-        }
-
-        function renderTicker(content, data) {
-            content.innerHTML = '';
-
-            const { matches, lastUpdated, source } = data || {};
-
-            if (lastUpdated) {
-                const info = document.createElement('p');
-                info.className = 'status';
-                const formatted = formatDate(lastUpdated);
-                info.textContent = formatted ? `update: ${formatted}` : `update: ${lastUpdated}`;
-                content.appendChild(info);
-            }
-
-            const selectedMatches = selectTickerMatches(matches);
-
-            if (!selectedMatches.length) {
-                const empty = document.createElement('p');
-                empty.className = 'status';
-                empty.textContent = 'Keine Liveticker-Daten verfügbar.';
-                content.appendChild(empty);
-                return;
-            }
-
-            const table = document.createElement('table');
-            table.className = 'ticker-table';
-
-            const thead = document.createElement('thead');
-            const headerRow = document.createElement('tr');
-            ['Spieltag', 'Anstoß', 'Heim', 'Ergebnis', 'Auswärts', 'Status'].forEach(label => {
-                const th = document.createElement('th');
-                th.scope = 'col';
-                th.textContent = label;
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-            table.appendChild(thead);
-
-            const tbody = document.createElement('tbody');
-            selectedMatches.forEach(match => {
-                const row = document.createElement('tr');
-
-                const matchdayCell = document.createElement('td');
-                matchdayCell.textContent = match.matchday != null ? `${match.matchday}` : '-';
-                row.appendChild(matchdayCell);
-
-                const kickoffCell = document.createElement('td');
-                kickoffCell.textContent = match.kickoff ? formatDate(match.kickoff) : '';
-                row.appendChild(kickoffCell);
-
-                const homeCell = document.createElement('td');
-                homeCell.textContent = match.home || '';
-                row.appendChild(homeCell);
-
-                const scoreCell = document.createElement('td');
-                scoreCell.textContent = match.score || '-:-';
-                row.appendChild(scoreCell);
-
-                const awayCell = document.createElement('td');
-                awayCell.textContent = match.away || '';
-                row.appendChild(awayCell);
-
-                const statusCell = document.createElement('td');
-                statusCell.textContent = match.status || '';
-                row.appendChild(statusCell);
-
-                tbody.appendChild(row);
-            });
-            table.appendChild(tbody);
-
-            content.appendChild(table);
-
-            if (source) {
-                const sourceInfo = document.createElement('p');
-                sourceInfo.className = 'source';
-                sourceInfo.textContent = `Quelle: ${source}`;
-                content.appendChild(sourceInfo);
-            }
-        }
-
-        async function ensureTickerData(content, placeholder) {
+        function ensureTickerFrame(content, placeholder) {
             if (content.dataset.tickerLoaded === 'true') {
                 return;
             }
+
             if (placeholder) {
                 placeholder.textContent = 'Lade Liveticker…';
             }
+
             try {
-                const data = await loadTickerData();
-                renderTicker(content, data);
+                const iframe = document.createElement('iframe');
+                iframe.src = 'liveticker/index.html';
+                iframe.title = 'Liveticker';
+                iframe.loading = 'lazy';
+                iframe.className = 'ticker-frame';
+
+                iframe.addEventListener('load', () => {
+                    if (placeholder) {
+                        placeholder.remove();
+                    }
+                });
+
+                content.appendChild(iframe);
                 content.dataset.tickerLoaded = 'true';
             } catch (error) {
-                console.error('Fehler beim Laden der Liveticker-Daten:', error);
+                console.error('Fehler beim Einbetten des Livetickers:', error);
                 if (placeholder) {
-                    placeholder.textContent = 'Liveticker konnten nicht geladen werden.';
+                    placeholder.textContent = 'Liveticker konnte nicht geladen werden.';
                 }
             }
         }
