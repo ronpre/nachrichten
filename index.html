@@ -283,8 +283,11 @@
     </main>
 
     <script>
-    const ORDER = ['Politik', 'Wirtschaft', 'Gesellschaft', 'Sport'];
-    const TICKER_SOURCE = 'liveticker/public/data/regionalliga-nord-matches.json';
+        const ORDER = ['Politik', 'Wirtschaft', 'Gesellschaft', 'Sport'];
+        const TICKER_SOURCES = [
+            'liveticker/public/data/regionalliga-nord-matches.json',
+            'liveticker/data/regionalliga-nord-matches.json'
+        ];
         const REFRESH_INTERVAL = 60 * 60 * 1000;
 
         const newsContainer = document.getElementById('news');
@@ -548,6 +551,14 @@
         let tickerDataCache = null;
         let tickerDataPromise = null;
 
+        async function fetchTickerSource(url) {
+            const response = await fetch(`${url}?t=${Date.now()}`);
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+            }
+            return response.json();
+        }
+
         async function loadTickerData() {
             if (tickerDataCache) {
                 return tickerDataCache;
@@ -555,21 +566,26 @@
             if (tickerDataPromise) {
                 return tickerDataPromise;
             }
-            tickerDataPromise = fetch(`${TICKER_SOURCE}?t=${Date.now()}`)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP ${response.status}`);
+
+            tickerDataPromise = (async () => {
+                let lastError = null;
+                for (const source of TICKER_SOURCES) {
+                    try {
+                        const data = await fetchTickerSource(source);
+                        tickerDataCache = data;
+                        return data;
+                    } catch (error) {
+                        lastError = error;
                     }
-                    return response.json();
-                })
-                .then(data => {
-                    tickerDataCache = data;
-                    return data;
-                })
-                .finally(() => {
-                    tickerDataPromise = null;
-                });
-            return tickerDataPromise;
+                }
+                throw lastError || new Error('Ticker-Daten konnten nicht geladen werden.');
+            })();
+
+            try {
+                return await tickerDataPromise;
+            } finally {
+                tickerDataPromise = null;
+            }
         }
 
         function selectTickerMatches(matches) {
