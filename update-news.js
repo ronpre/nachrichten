@@ -43,8 +43,8 @@ const FEEDS = {
             url: 'https://rss.sueddeutsche.de/rss/Sport'
         },
         {
-            source: 'Sportschau',
-            url: 'https://www.sportschau.de/sportschauindex100~_type-rss.feed'
+            source: 'kicker',
+            url: 'https://newsfeed.kicker.de/news/aktuell'
         }
     ]
 };
