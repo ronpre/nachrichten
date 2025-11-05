@@ -540,8 +540,11 @@
             }
 
             try {
+                const baseUrl = new URL('.', window.location.href);
+                const tickerUrl = new URL('liveticker/index.html', baseUrl).toString();
+
                 const iframe = document.createElement('iframe');
-                iframe.src = 'liveticker/index.html';
+                iframe.src = tickerUrl;
                 iframe.title = 'Liveticker';
                 iframe.loading = 'lazy';
                 iframe.className = 'ticker-frame';
