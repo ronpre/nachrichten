@@ -256,7 +256,7 @@
     </main>
 
     <script>
-        const ORDER = ['Politik', 'Wirtschaft', 'Gesellschaft', 'Sport'];
+    const ORDER = ['Politik', 'Wirtschaft', 'Gesellschaft', 'Sport'];
         const REFRESH_INTERVAL = 60 * 60 * 1000;
 
         const newsContainer = document.getElementById('news');
@@ -383,7 +383,7 @@
 
                 const sectionLabel = document.createElement('span');
                 sectionLabel.className = 'section-label';
-                sectionLabel.textContent = category;
+                sectionLabel.textContent = category.toLowerCase();
 
                 const sectionIndicator = document.createElement('span');
                 sectionIndicator.className = 'section-indicator';
@@ -467,7 +467,7 @@
 
             const labelSpan = document.createElement('span');
             labelSpan.className = 'section-label';
-            labelSpan.textContent = label;
+            labelSpan.textContent = label.toLowerCase();
 
             const indicator = document.createElement('span');
             indicator.className = 'section-indicator';
