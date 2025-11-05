@@ -1,0 +1,3003 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live Ergebnisdienst</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0f172a;
+      --bg-alt: #111c32;
+      --card: #1e293b;
+      --border: #293549;
+      --accent: #60a5fa;
+      --accent-soft: rgba(96, 165, 250, 0.12);
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --danger: #f87171;
+      --warning: #fbbf24;
+      font-family: "Inter", "SF Pro Text", "Segoe UI", Roboto, Arial, sans-serif;
+      font-size: 15px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(160deg, var(--bg) 0%, var(--bg-alt) 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 1.8rem 1.2rem 0.8rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+      font-weight: 700;
+    }
+
+    header p {
+      margin: 0.4rem 0 0;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    main {
+      width: min(980px, 92vw);
+      margin: 0 auto 1.4rem;
+      flex: 1 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+
+    .control-panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 0.85rem clamp(0.8rem, 2.2vw, 1.4rem);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.75rem clamp(0.5rem, 1.5vw, 1rem);
+      box-shadow: 0 22px 48px -28px rgba(6, 10, 20, 0.65);
+    }
+
+    .control {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    select,
+    input[type="date"] {
+      appearance: none;
+      border: 1px solid var(--border);
+      border-radius: 0.6rem;
+      padding: 0.5rem 0.7rem;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: rgba(15, 23, 42, 0.7);
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    select:focus,
+    input[type="date"]:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.25);
+    }
+
+    .matchday-group {
+      display: flex;
+      width: 100%;
+    }
+
+    .matchday-select {
+      border: 1px solid var(--border);
+      border-radius: 0.6rem;
+      padding: 0.5rem 0.7rem;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: rgba(15, 23, 42, 0.7);
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      text-align: center;
+      appearance: none;
+      -webkit-appearance: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 100%;
+    }
+
+    .matchday-select:focus-visible {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.25);
+    }
+
+    #status-box {
+      padding: 0.65rem 0.9rem;
+      border-radius: 0.7rem;
+      font-size: 0.82rem;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid rgba(96, 165, 250, 0.32);
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      min-height: 2.6rem;
+    }
+
+    #status-box[data-level="error"] {
+      background: rgba(248, 113, 113, 0.12);
+      color: var(--danger);
+      border-color: rgba(248, 113, 113, 0.28);
+    }
+
+    #status-box[data-level="warning"] {
+      background: rgba(251, 191, 36, 0.14);
+      color: var(--warning);
+      border-color: rgba(251, 191, 36, 0.28);
+    }
+
+    .content-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: clamp(0.75rem, 2vw, 1.2rem);
+      box-shadow: 0 24px 52px -32px rgba(5, 10, 22, 0.7);
+    }
+
+    .content-card h2 {
+      margin: 0 0 1rem;
+      font-size: 1.1rem;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      border-radius: 0.85rem;
+      border: 1px solid var(--border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+      background: var(--card);
+    }
+
+    #results-table {
+      font-size: 0.82rem;
+    }
+
+    #results-table td {
+      white-space: normal;
+    }
+
+    thead {
+      background: rgba(148, 163, 184, 0.08);
+    }
+
+    th,
+    td {
+      padding: 0.55rem 0.75rem;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    tbody tr:hover {
+      background: rgba(148, 163, 184, 0.12);
+    }
+
+    #standings-table th:last-child,
+    #standings-table td:last-child {
+      text-align: right;
+    }
+
+    #standings-table td:last-child {
+      font-weight: 600;
+    }
+
+    #standings-table tr.standings-empty td {
+      text-align: center;
+      font-style: italic;
+      color: var(--muted);
+      padding: 0.85rem;
+    }
+
+    td.score,
+    .col-score {
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-align: right;
+    }
+
+    .col-home,
+    .col-away {
+      line-height: 1.25;
+      font-weight: 600;
+      color: inherit;
+    }
+
+    .team-name {
+      display: block;
+    }
+
+    .empty-state {
+      margin: 1.4rem 0 0;
+      text-align: center;
+      padding: 1.6rem;
+      border-radius: 0.75rem;
+      background: rgba(148, 163, 184, 0.08);
+      border: 1px dashed var(--border);
+      color: var(--muted);
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.1rem 0.8rem 1.6rem;
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 720px) {
+      header {
+        padding-top: 1.4rem;
+      }
+
+      .content-card,
+      .control-panel {
+        border-radius: 0.65rem;
+      }
+
+      th,
+      td {
+        padding: 0.45rem;
+      }
+
+      #results-table thead {
+        display: none;
+      }
+
+      #results-table,
+      #results-table tbody {
+        display: block;
+        width: 100%;
+      }
+
+      #results-table tbody tr {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+          "home score"
+          "away score";
+        gap: 0.2rem 0.5rem;
+        padding: 0.5rem 0.55rem;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        border-radius: 0.6rem;
+        background: rgba(15, 23, 42, 0.7);
+        margin-bottom: 0.45rem;
+      }
+
+      #results-table tbody tr:last-child {
+        margin-bottom: 0;
+      }
+
+      #results-table tbody tr td {
+        padding: 0;
+        border: 0;
+        font-size: 0.84rem;
+      }
+
+      #results-table tbody tr td:nth-child(1) {
+        grid-area: home;
+      }
+
+      #results-table tbody tr td:nth-child(2) {
+        grid-area: away;
+      }
+
+      #results-table tbody tr td:nth-child(3) {
+        grid-area: score;
+        justify-self: end;
+        align-self: center;
+        font-size: 1rem;
+      }
+
+      #results-table tbody tr td:nth-child(1),
+      #results-table tbody tr td:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+      }
+
+      #results-table tbody tr:hover {
+        background: rgba(96, 165, 250, 0.12);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+  </header>
+
+  <main>
+    <section class="control-panel" aria-label="Filter">
+      <div class="control">
+        <label for="sport-select">Sportart</label>
+        <select id="sport-select">
+          <option value="football">Fußball</option>
+          <option value="tennis">Tennis</option>
+        </select>
+      </div>
+
+      <div class="control" id="league-control">
+        <label for="league-select">Wettbewerb</label>
+        <select id="league-select"></select>
+      </div>
+
+      <div class="control">
+        <label for="matchday-current">Spieltag</label>
+        <div class="matchday-group" id="matchday-group" role="group" aria-label="Spieltag auswählen">
+          <select id="matchday-current" class="matchday-select" aria-label="Aktueller Spieltag"></select>
+        </div>
+      </div>
+
+      <div class="control hidden" id="date-control">
+        <label for="date-select">Datum</label>
+        <input type="date" id="date-select" />
+      </div>
+    </section>
+
+    <div id="status-box" role="status" aria-live="polite">Initialisiere Live-Daten …</div>
+
+    <section id="results-section" class="content-card" aria-live="polite">
+      <h2>Ergebnisse</h2>
+      <div class="table-wrapper"
+           id="results-wrapper">
+        <table id="results-table">
+          <thead>
+            <tr>
+              <th>Heim</th>
+              <th>Gast</th>
+              <th>Ergebnis</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="empty-state hidden" id="no-results">Keine Ergebnisse für den gewählten Tag gefunden.</p>
+    </section>
+
+    <section id="table-section" class="content-card hidden">
+      <h2>Tabelle</h2>
+      <div class="table-wrapper">
+        <table id="standings-table">
+          <thead>
+            <tr>
+              <th>Rang</th>
+              <th>Team</th>
+              <th>Pkt</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Automatische Aktualisierung alle 2&nbsp;Minuten (netzwerkschonender Abruf mit Drosselung). Bei ausbleibenden Live-Daten wird eine Simulation angezeigt.</span>
+  </footer>
+
+  <script>
+    (() => {
+      const POLL_INTERVAL_MS = 1000; // lightweight timer that checks whether a refresh is due
+      const MIN_FETCH_INTERVAL_MS = 120000; // throttle real network calls (protect remote APIs)
+      const FETCH_TIMEOUT_MS = 12000;
+      const OPENLIGA_BASE = 'https://api.openligadb.de';
+      const ESPN_FOOTBALL_BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
+      const ESPN_STANDINGS_BASE = 'https://site.api.espn.com/apis/v2/sports/soccer';
+      const ESPN_MATCHDAY_CACHE = new Map();
+      const ESPN_EXPECTED_MATCHES_PER_MATCHDAY = 10;
+
+      const DOM = {
+        sportSelect: document.getElementById('sport-select'),
+        leagueControl: document.getElementById('league-control'),
+        leagueSelect: document.getElementById('league-select'),
+        matchdayGroup: document.getElementById('matchday-group'),
+        matchdayControl: document.getElementById('matchday-current')?.closest('.control'),
+        matchdayCurrent: document.getElementById('matchday-current'),
+        dateControl: document.getElementById('date-control'),
+        dateInput: document.getElementById('date-select'),
+        statusBox: document.getElementById('status-box'),
+        resultsTable: document.getElementById('results-table'),
+        resultsBody: document.querySelector('#results-table tbody'),
+        noResults: document.getElementById('no-results'),
+        tableSection: document.getElementById('table-section'),
+        standingsBody: document.querySelector('#standings-table tbody')
+      };
+
+      const today = new Date();
+      const defaultDate = today.toISOString().slice(0, 10);
+
+      const state = {
+        sport: 'football',
+        league: null,
+        date: defaultDate,
+        matchdays: [],
+        matchdayDateLookup: new Map(),
+        activeMatchdayOrder: null,
+        timerId: null,
+        lastFetchStart: 0,
+        fetchInFlight: false,
+        resolvedSeason: null,
+        resolvedShortcut: null
+      };
+
+      const cache = new Map();
+
+      function getCacheEntry(key, ttl) {
+        if (!key || !cache.has(key)) {
+          return null;
+        }
+        const entry = cache.get(key);
+        if (ttl && ttl > 0) {
+          if (Date.now() - entry.timestamp > ttl) {
+            cache.delete(key);
+            return null;
+          }
+        }
+        return entry.value;
+      }
+
+      function setCacheEntry(key, value) {
+        if (!key) {
+          return;
+        }
+        cache.set(key, { value, timestamp: Date.now() });
+      }
+
+      function decodeBase64Json(base64Text) {
+        if (!base64Text) {
+          return null;
+        }
+        try {
+          const normalized = base64Text.replace(/\s+/g, '');
+          const binary = atob(normalized);
+          const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+          const decoded = new TextDecoder('utf-8').decode(bytes);
+          return JSON.parse(decoded);
+        } catch (error) {
+          console.warn('Base64-Dekodierung fehlgeschlagen', error);
+          return null;
+        }
+      }
+
+      async function fetchText(url, { timeout = FETCH_TIMEOUT_MS, headers } = {}) {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), timeout);
+        try {
+          const response = await fetch(url, { signal: controller.signal, headers });
+          if (!response.ok) {
+            const error = new Error(`${response.status} ${response.statusText}`.trim());
+            error.status = response.status;
+            error.url = url;
+            throw error;
+          }
+          return await response.text();
+        } finally {
+          clearTimeout(timer);
+        }
+      }
+
+      async function fetchTextWithCache(url, { cacheKey, ttl = 60000, headers } = {}) {
+        const cached = cacheKey ? getCacheEntry(cacheKey, ttl) : null;
+        if (cached != null) {
+          return cached;
+        }
+        const value = await fetchText(url, { headers });
+        if (cacheKey) {
+          setCacheEntry(cacheKey, value);
+        }
+        return value;
+      }
+      const FOOTBALL_LEAGUES = [
+        {
+          id: 'bl1',
+          label: '1. Liga',
+          shortcut: 'bl1',
+          provider: 'openliga',
+          table: true
+        },
+        {
+          id: 'bl2',
+          label: '2. Liga',
+          shortcut: 'bl2',
+          provider: 'openliga',
+          table: true
+        },
+        {
+          id: 'bl3',
+          label: '3. Liga',
+          shortcut: 'bl3',
+          provider: 'openliga',
+          table: true
+        },
+        {
+          id: 'dfb',
+          label: 'DFB-Pokal',
+          shortcut: 'dfb',
+          provider: 'openliga',
+          table: false
+        },
+        {
+          id: 'cl-men',
+          label: 'CL',
+          shortcut: (season) => {
+            const mapping = new Map([
+              [2024, 'ucl2024'],
+              [2023, 'uefacl22'],
+              [2022, 'uefacl22'],
+              [2020, 'ucl2020']
+            ]);
+            const direct = mapping.get(season);
+            if (direct) {
+              return { season, shortcut: direct };
+            }
+            return [
+              { season: 2024, shortcut: 'ucl2024' },
+              { season: 2022, shortcut: 'uefacl22' },
+              { season: 2020, shortcut: 'ucl2020' },
+              'cl'
+            ];
+          },
+          provider: 'openliga',
+          table: true,
+          openligaTable: false,
+          matchdayBuilder: buildChampionsLeagueMetadata,
+          espnSlug: 'uefa.champions',
+          espnStandingsSlug: 'uefa.champions'
+        },
+        {
+          id: 'world-cup-men',
+          label: 'WM',
+          shortcut: (season) => {
+            const mapping = [
+              { season: 2022, shortcut: 'wmk' },
+              { season: 2018, shortcut: 'wm2018ru' },
+              { season: 2014, shortcut: 'wm14' }
+            ];
+            const exact = mapping.find((entry) => entry.season === season);
+            return exact || mapping;
+          },
+          provider: 'openliga',
+          table: false
+        },
+        {
+          id: 'euro-men',
+          label: 'EM',
+          shortcut: (season) => {
+            const mapping = [
+              { season: 2024, shortcut: 'em2024' },
+              { season: 2020, shortcut: 'euro20' },
+              { season: 2016, shortcut: 'EM-2016' }
+            ];
+            const exact = mapping.find((entry) => entry.season === season);
+            return exact || mapping;
+          },
+          provider: 'openliga',
+          table: false
+        },
+        {
+          id: 'laliga',
+          label: 'Spanien',
+          provider: 'espn',
+          espnSlug: 'esp.1',
+          table: true
+        },
+        {
+          id: 'pl',
+          label: 'England',
+          provider: 'espn',
+          espnSlug: 'eng.1',
+          table: true
+        }
+      ];
+      const CHAMPIONS_LEAGUE_STAGE_INFO = new Map([
+        [1, { label: 'Ligaphase', expectedMatches: 144, slug: 'league-phase' }],
+        [2, { label: 'Play-offs', expectedMatches: 16, slug: 'knockout-round-playoffs' }],
+        [3, { label: 'Achtelfinale', expectedMatches: 16, slug: 'round-of-16' }],
+        [4, { label: 'Viertelfinale', expectedMatches: 8, slug: 'quarterfinals' }],
+        [5, { label: 'Halbfinale', expectedMatches: 4, slug: 'semifinals' }],
+        [6, { label: 'Finale', expectedMatches: 1, slug: 'final' }]
+      ]);
+      const TENNIS_SCOPE_LABEL = 'ATP & WTA Tour';
+      const TENNIS_SOURCES = [
+        { tour: 'atp', requireMajor: false },
+        { tour: 'wta', requireMajor: false }
+      ];
+
+      init();
+
+      function init() {
+        populateLeagueOptions();
+        DOM.sportSelect.addEventListener('change', onSportChange);
+        DOM.leagueSelect.addEventListener('change', onLeagueChange);
+        if (DOM.matchdayCurrent) {
+          DOM.matchdayCurrent.addEventListener('change', onMatchdaySelect);
+        }
+        if (DOM.dateInput) {
+          DOM.dateInput.value = state.date;
+          DOM.dateInput.addEventListener('change', onDateChange);
+        }
+        updateDateControlVisibility();
+        window.addEventListener('focus', () => requestRefresh(true));
+
+        requestRefresh(true);
+        startPollingLoop();
+      }
+
+      function startPollingLoop() {
+        if (state.timerId) {
+          clearInterval(state.timerId);
+        }
+        state.timerId = setInterval(() => {
+          if (state.fetchInFlight) {
+            return;
+          }
+          if (Date.now() - state.lastFetchStart < MIN_FETCH_INTERVAL_MS) {
+            return;
+          }
+          requestRefresh(false);
+        }, POLL_INTERVAL_MS);
+      }
+
+      function onDateChange(event) {
+        const value = event?.target?.value;
+        const normalized = normalizeToIsoDate(value);
+        if (!normalized) {
+          syncDateInput();
+          return;
+        }
+        if (normalized === state.date) {
+          return;
+        }
+        state.date = normalized;
+        syncDateInput();
+        if (state.sport === 'tennis') {
+          requestRefresh(true);
+        }
+      }
+
+      function onSportChange(event) {
+        state.sport = event.target.value;
+        if (state.sport !== 'football') {
+          state.matchdays = [];
+          state.matchdayDateLookup = new Map();
+          state.activeMatchdayOrder = null;
+          updateMatchdayDisplay();
+        }
+        if (state.sport === 'football') {
+          state.league = state.league || FOOTBALL_LEAGUES[0].id;
+        } else {
+          state.league = null;
+        }
+        populateLeagueOptions();
+        syncDateInput();
+        updateDateControlVisibility();
+        requestRefresh(true);
+      }
+
+      function updateDateControlVisibility() {
+        const showDate = state.sport === 'tennis';
+        if (DOM.dateControl) {
+          DOM.dateControl.classList.toggle('hidden', !showDate);
+        }
+        if (DOM.dateInput) {
+          DOM.dateInput.disabled = !showDate;
+          if (showDate) {
+            DOM.dateInput.value = state.date ?? '';
+          }
+        }
+      }
+
+      function syncDateInput() {
+        if (!DOM.dateInput) {
+          return;
+        }
+        DOM.dateInput.value = state.date ?? '';
+      }
+
+      function onLeagueChange(event) {
+        if (state.sport === 'football') {
+          state.league = event.target.value;
+        } else {
+          return;
+        }
+        requestRefresh(true);
+      }
+
+      function onMatchdaySelect(event) {
+        const select = event.target;
+        if (!select || select.selectedIndex < 0) {
+          return;
+        }
+        const rawValue = select.value;
+        const matchdayOrder = Number.parseInt(rawValue, 10);
+        const metadata = Array.isArray(state.matchdays)
+          ? state.matchdays.find((entry) => entry.order === matchdayOrder)
+          : null;
+        const selectedOption = select.options[select.selectedIndex];
+        const optionDates = selectedOption?.dataset?.dates?.split(',') || [];
+        const primaryDate = metadata?.primaryDate || selectedOption?.dataset?.primaryDate || optionDates[0] || null;
+        const normalizedDate = primaryDate ?? state.date;
+        const changed = updateMatchdayState(normalizedDate, Number.isFinite(matchdayOrder) ? matchdayOrder : undefined);
+        if (!changed) {
+          return;
+        }
+        requestRefresh(true);
+      }
+
+      function resetMatchdayToToday() {
+        const todayIso = new Date().toISOString().slice(0, 10);
+        const matchdays = Array.isArray(state.matchdays) ? state.matchdays : [];
+        let targetDate = todayIso;
+        let targetOrder;
+        if (matchdays.length) {
+          const indexToday = resolveMatchdayIndexByDate(todayIso, matchdays);
+          if (indexToday !== -1) {
+            targetDate = matchdays[indexToday].primaryDate;
+            targetOrder = matchdays[indexToday].order;
+          } else {
+            const closest = findClosestMatchdayIndex(todayIso, matchdays);
+            if (closest !== -1) {
+              targetDate = matchdays[closest].primaryDate;
+              targetOrder = matchdays[closest].order;
+            }
+          }
+        }
+        if (!updateMatchdayState(targetDate, targetOrder)) {
+          return;
+        }
+        requestRefresh(true);
+      }
+
+      function updateMatchdayState(newDate, matchdayOrderOverride) {
+        const matchdays = Array.isArray(state.matchdays) ? state.matchdays : [];
+        const normalizedInputDate = normalizeToIsoDate(newDate);
+
+        if (!matchdays.length) {
+          const normalizedFallback = normalizedInputDate || state.date;
+          if (!normalizedFallback || normalizedFallback === state.date) {
+            return false;
+          }
+          state.date = normalizedFallback;
+          updateMatchdayDisplay();
+          return true;
+        }
+
+        let targetOrder = Number.isFinite(matchdayOrderOverride)
+          ? matchdayOrderOverride
+          : Number.parseInt(matchdayOrderOverride, 10);
+        if (!Number.isFinite(targetOrder)) {
+          targetOrder = null;
+        }
+
+        let targetEntry = targetOrder != null
+          ? matchdays.find((entry) => entry.order === targetOrder)
+          : null;
+
+        if (!targetEntry && normalizedInputDate) {
+          targetEntry = matchdays.find((entry) => entry.primaryDate === normalizedInputDate || entry.dates?.includes(normalizedInputDate)) || null;
+          if (targetEntry) {
+            targetOrder = targetEntry.order;
+          }
+        }
+
+        if (!targetEntry && normalizedInputDate && state.matchdayDateLookup instanceof Map) {
+          const mappedOrder = state.matchdayDateLookup.get(normalizedInputDate);
+          if (Number.isFinite(mappedOrder)) {
+            targetEntry = matchdays.find((entry) => entry.order === mappedOrder) || targetEntry;
+            if (targetEntry) {
+              targetOrder = targetEntry.order;
+            }
+          }
+        }
+
+        let nextDate = targetEntry?.primaryDate || normalizedInputDate || state.date;
+        if (!nextDate && targetEntry?.dates?.length) {
+          nextDate = targetEntry.dates[0];
+        }
+
+        if (targetOrder == null && targetEntry == null) {
+          const currentIndex = getCurrentMatchdayIndex();
+          const fallbackEntry = currentIndex != null ? matchdays[currentIndex] : matchdays[0];
+          if (fallbackEntry) {
+            targetEntry = fallbackEntry;
+            targetOrder = fallbackEntry.order;
+            if (!nextDate) {
+              nextDate = fallbackEntry.primaryDate || fallbackEntry.dates?.[0] || state.date;
+            }
+          }
+        }
+
+        const normalizedDate = normalizeToIsoDate(nextDate) || state.date;
+        if (normalizedDate == null) {
+          return false;
+        }
+
+        const orderChanged = typeof targetOrder === 'number' && targetOrder !== state.activeMatchdayOrder;
+        const dateChanged = normalizedDate !== state.date;
+
+        if (!orderChanged && !dateChanged) {
+          return false;
+        }
+
+        state.date = normalizedDate;
+        syncDateInput();
+        if (typeof targetOrder === 'number') {
+          state.activeMatchdayOrder = targetOrder;
+        }
+        updateMatchdayDisplay();
+        return true;
+      }
+
+      function updateMatchdayDisplay() {
+        if (!DOM.matchdayCurrent) {
+          return;
+        }
+        const matchdays = Array.isArray(state.matchdays) ? state.matchdays : [];
+        const select = DOM.matchdayCurrent;
+        const showMatchday = state.sport === 'football';
+        if (DOM.matchdayControl) {
+          DOM.matchdayControl.classList.toggle('hidden', !showMatchday);
+        }
+        select.disabled = !showMatchday;
+        select.innerHTML = '';
+
+        let nextValue = null;
+        let hasExplicitSelection = false;
+
+        if (matchdays.length) {
+          const activeOrder = determineActiveMatchdayOrder(matchdays);
+          matchdays.forEach((entry) => {
+            const option = document.createElement('option');
+            option.value = String(entry.order);
+            option.textContent = entry.label;
+            option.dataset.matchdayOrder = entry.order;
+            if (entry.primaryDate) {
+              option.dataset.primaryDate = entry.primaryDate;
+            }
+            if (entry.dates?.length) {
+              option.dataset.dates = entry.dates.join(',');
+            }
+            if (entry.order === activeOrder) {
+              option.selected = true;
+              nextValue = option.value;
+              hasExplicitSelection = true;
+            }
+            select.appendChild(option);
+          });
+
+          if (!hasExplicitSelection && select.options.length) {
+            select.options[0].selected = true;
+            const fallbackOrder = select.options[0].dataset.matchdayOrder ? Number.parseInt(select.options[0].dataset.matchdayOrder, 10) : null;
+            if (fallbackOrder != null && !Number.isNaN(fallbackOrder)) {
+              state.activeMatchdayOrder = fallbackOrder;
+            }
+            nextValue = select.options[0].value;
+          }
+          select.value = nextValue != null ? nextValue : select.options[0]?.value ?? '';
+        } else {
+          const option = document.createElement('option');
+          option.value = state.date;
+          option.textContent = formatDateForLocale(state.date) || state.date;
+          option.selected = true;
+          select.appendChild(option);
+        }
+      }
+
+      function determineActiveMatchdayOrder(matchdays) {
+        if (!matchdays.length) {
+          return null;
+        }
+        if (state.activeMatchdayOrder != null && matchdays.some((entry) => entry.order === state.activeMatchdayOrder)) {
+          return state.activeMatchdayOrder;
+        }
+        const indexByDate = resolveMatchdayIndexByDate(state.date, matchdays);
+        if (indexByDate !== -1) {
+          const order = matchdays[indexByDate].order;
+          state.activeMatchdayOrder = order;
+          return order;
+        }
+        const closestIndex = findClosestMatchdayIndex(state.date, matchdays);
+        if (closestIndex !== -1) {
+          const order = matchdays[closestIndex].order;
+          state.activeMatchdayOrder = order;
+          return order;
+        }
+        return null;
+      }
+
+      function resolveMatchdayIndexByDate(isoDate, matchdays) {
+        if (!isoDate || !Array.isArray(matchdays)) {
+          return -1;
+        }
+        return matchdays.findIndex((entry) => Array.isArray(entry.dates) && entry.dates.includes(isoDate));
+      }
+
+      function findClosestMatchdayIndex(isoDate, matchdays) {
+        if (!Array.isArray(matchdays) || !matchdays.length) {
+          return -1;
+        }
+        const reference = normalizeToIsoDate(isoDate);
+        const referenceTime = reference ? Date.parse(reference + 'T00:00:00Z') : NaN;
+        if (Number.isNaN(referenceTime)) {
+          return 0;
+        }
+        let closestIndex = -1;
+        let smallestDelta = Number.POSITIVE_INFINITY;
+        matchdays.forEach((entry, index) => {
+          if (!entry?.primaryDate) {
+            return;
+          }
+          const time = Date.parse(entry.primaryDate + 'T00:00:00Z');
+          if (Number.isNaN(time)) {
+            return;
+          }
+          const delta = Math.abs(time - referenceTime);
+          if (delta < smallestDelta) {
+            smallestDelta = delta;
+            closestIndex = index;
+          }
+        });
+        return closestIndex;
+      }
+
+      function getCurrentMatchdayIndex() {
+        const matchdays = Array.isArray(state.matchdays) ? state.matchdays : [];
+        if (!matchdays.length) {
+          return null;
+        }
+        if (state.activeMatchdayOrder != null) {
+          const indexByOrder = matchdays.findIndex((entry) => entry.order === state.activeMatchdayOrder);
+          if (indexByOrder !== -1) {
+            return indexByOrder;
+          }
+        }
+        const indexByDate = resolveMatchdayIndexByDate(state.date, matchdays);
+        if (indexByDate !== -1) {
+          return indexByDate;
+        }
+        const closestIndex = findClosestMatchdayIndex(state.date, matchdays);
+        return closestIndex !== -1 ? closestIndex : null;
+      }
+
+      function ensureActiveMatchday(matchdays) {
+        if (!Array.isArray(matchdays) || !matchdays.length) {
+          state.activeMatchdayOrder = null;
+          return;
+        }
+        if (state.activeMatchdayOrder != null && matchdays.some((entry) => entry.order === state.activeMatchdayOrder)) {
+          return;
+        }
+        const indexByDate = resolveMatchdayIndexByDate(state.date, matchdays);
+        if (indexByDate !== -1) {
+          state.activeMatchdayOrder = matchdays[indexByDate].order;
+          return;
+        }
+        const closestIndex = findClosestMatchdayIndex(state.date, matchdays);
+        if (closestIndex !== -1) {
+          state.activeMatchdayOrder = matchdays[closestIndex].order;
+          return;
+        }
+        state.activeMatchdayOrder = matchdays[0].order;
+      }
+
+      function buildMatchdayMetadata(matches) {
+        if (!Array.isArray(matches)) {
+          return [];
+        }
+        const grouped = new Map();
+        matches.forEach((match) => {
+          const group = match?.group || match?.Group;
+          const rawOrder = group?.groupOrderID ?? group?.GroupOrderID;
+          const order = Number.parseInt(rawOrder, 10);
+          if (!Number.isFinite(order)) {
+            return;
+          }
+          const label = group?.groupName || group?.GroupName || order + '. Spieltag';
+          const isoDate = normalizeToIsoDate(match.matchDateTimeUTC || match.matchDateTime);
+          if (!grouped.has(order)) {
+            grouped.set(order, {
+              order,
+              label,
+              dates: new Set()
+            });
+          }
+          if (isoDate) {
+            grouped.get(order).dates.add(isoDate);
+          }
+        });
+
+        return Array.from(grouped.values())
+          .map((entry) => {
+            const dates = Array.from(entry.dates).sort();
+            return {
+              order: entry.order,
+              label: entry.label || entry.order + '. Spieltag',
+              primaryDate: dates[0] || null,
+              dates
+            };
+          })
+          .filter((entry) => entry.primaryDate)
+          .sort((a, b) => a.order - b.order);
+      }
+
+      function buildChampionsLeagueMetadata(matches) {
+        if (!Array.isArray(matches)) {
+          return [];
+        }
+
+        const stageBuckets = new Map();
+
+        matches.forEach((match) => {
+          const group = match?.group || match?.Group;
+          const rawOrder = group?.groupOrderID ?? group?.GroupOrderID;
+          const stageOrder = Number.parseInt(rawOrder, 10);
+          if (!Number.isFinite(stageOrder)) {
+            return;
+          }
+          if (!stageBuckets.has(stageOrder)) {
+            stageBuckets.set(stageOrder, []);
+          }
+          stageBuckets.get(stageOrder).push(match);
+        });
+
+        const stageLabels = new Map([
+          [1, 'Ligaphase'],
+          [2, 'Play-offs'],
+          [3, 'Achtelfinale'],
+          [4, 'Viertelfinale'],
+          [5, 'Halbfinale'],
+          [6, 'Finale']
+        ]);
+
+        const metadata = [];
+        let nextOrder = 1;
+
+        const sortedStages = Array.from(stageBuckets.keys()).sort((a, b) => a - b);
+
+        sortedStages.forEach((stageOrder) => {
+          const stageMatches = stageBuckets.get(stageOrder);
+          if (!Array.isArray(stageMatches) || !stageMatches.length) {
+            return;
+          }
+
+          const baseLabel = stageLabels.get(stageOrder)
+            || stageMatches[0]?.group?.groupName
+            || stageMatches[0]?.Group?.GroupName
+            || `Phase ${stageOrder}`;
+
+          const uniqueDates = new Set();
+
+          stageMatches.forEach((match) => {
+            const isoDate = normalizeToIsoDate(match.matchDateTimeUTC || match.matchDateTime);
+            if (isoDate) {
+              uniqueDates.add(isoDate);
+            }
+          });
+
+          if (!uniqueDates.size) {
+            return;
+          }
+
+          const clusters = clusterIsoDates(Array.from(uniqueDates));
+
+          clusters.forEach((dates, index) => {
+            if (!dates.length) {
+              return;
+            }
+
+            let label = baseLabel;
+
+            if (stageOrder === 1) {
+              label = `${baseLabel} · Spieltag ${index + 1}`;
+            } else if (clusters.length === 1) {
+              label = baseLabel;
+            } else if (clusters.length === 2) {
+              label = `${baseLabel} · ${index === 0 ? 'Hinspiele' : 'Rückspiele'}`;
+            } else {
+              label = `${baseLabel} · Termin ${index + 1}`;
+            }
+
+            metadata.push({
+              order: nextOrder++,
+              label,
+              primaryDate: dates[0],
+              dates
+            });
+          });
+        });
+
+        return metadata;
+      }
+
+      function clusterIsoDates(values, maxGapDays = 3) {
+        if (!Array.isArray(values) || !values.length) {
+          return [];
+        }
+
+        const normalized = Array.from(
+          new Set(values.map((value) => normalizeToIsoDate(value)).filter(Boolean))
+        ).sort();
+
+        if (!normalized.length) {
+          return [];
+        }
+
+        const clusters = [];
+        let current = [normalized[0]];
+        clusters.push(current);
+
+        for (let i = 1; i < normalized.length; i += 1) {
+          const isoDate = normalized[i];
+          const previous = normalized[i - 1];
+          const delta = differenceInDays(previous, isoDate);
+          if (!Number.isFinite(delta) || delta > maxGapDays) {
+            current = [isoDate];
+            clusters.push(current);
+          } else {
+            current.push(isoDate);
+          }
+        }
+
+        return clusters;
+      }
+
+      function differenceInDays(startIso, endIso) {
+        if (!startIso || !endIso) {
+          return Number.POSITIVE_INFINITY;
+        }
+
+        const startTime = Date.parse(`${startIso}T00:00:00Z`);
+        const endTime = Date.parse(`${endIso}T00:00:00Z`);
+
+        if (Number.isNaN(startTime) || Number.isNaN(endTime)) {
+          return Number.POSITIVE_INFINITY;
+        }
+
+        return Math.round(Math.abs(endTime - startTime) / 86400000);
+      }
+
+      function enumerateIsoDateRange(startIso, endIso, maxDays = 400) {
+        const start = normalizeToIsoDate(startIso);
+        const end = normalizeToIsoDate(endIso);
+        if (!start || !end) {
+          return [];
+        }
+        const startTime = Date.parse(`${start}T00:00:00Z`);
+        const endTime = Date.parse(`${end}T00:00:00Z`);
+        if (!Number.isFinite(startTime) || !Number.isFinite(endTime)) {
+          return [];
+        }
+        const direction = startTime <= endTime ? 1 : -1;
+        const range = [];
+        let current = startTime;
+        const target = endTime;
+        let steps = 0;
+        while (true) {
+          if (steps >= maxDays) {
+            break;
+          }
+          range.push(new Date(current).toISOString().slice(0, 10));
+          if (current === target) {
+            break;
+          }
+          current += 86400000 * direction;
+          if ((direction === 1 && current > target) || (direction === -1 && current < target)) {
+            break;
+          }
+          steps += 1;
+        }
+        return range;
+      }
+
+      function resolveIsoDateTimestamp(isoDate, { endOfDay = false } = {}) {
+        const normalized = normalizeToIsoDate(isoDate);
+        if (!normalized) {
+          return Number.NaN;
+        }
+        const suffix = endOfDay ? 'T23:59:59Z' : 'T00:00:00Z';
+        const timestamp = Date.parse(`${normalized}${suffix}`);
+        return Number.isFinite(timestamp) ? timestamp : Number.NaN;
+      }
+
+      function shiftIsoDate(isoDate, offsetDays) {
+        const normalized = normalizeToIsoDate(isoDate);
+        if (!normalized || !Number.isFinite(offsetDays) || offsetDays === 0) {
+          return normalized;
+        }
+        const base = new Date(`${normalized}T00:00:00Z`);
+        if (Number.isNaN(base.getTime())) {
+          return normalized;
+        }
+        base.setUTCDate(base.getUTCDate() + Math.trunc(offsetDays));
+        return base.toISOString().slice(0, 10);
+      }
+
+      function formatChampionsLeagueStageLabel(stage, clusterIndex, clusterTotal) {
+        const base = stage?.baseLabel || `Phase ${Number.isFinite(stage?.stageOrder) ? stage.stageOrder : clusterIndex + 1}`;
+        if (stage?.stageOrder === 1) {
+          return `${base} · Spieltag ${clusterIndex + 1}`;
+        }
+        if (clusterTotal === 1) {
+          return base;
+        }
+        if (clusterTotal === 2) {
+          return `${base} · ${clusterIndex === 0 ? 'Hinspiele' : 'Rückspiele'}`;
+        }
+        return `${base} · Termin ${clusterIndex + 1}`;
+      }
+
+      function createMatchdayDateLookup(matchdays) {
+        const lookup = new Map();
+        if (!Array.isArray(matchdays)) {
+          return lookup;
+        }
+        matchdays.forEach((entry) => {
+          if (!entry || typeof entry.order !== 'number' || !Array.isArray(entry.dates)) {
+            return;
+          }
+          entry.dates.forEach((isoDate) => {
+            const normalized = normalizeToIsoDate(isoDate);
+            if (!normalized || lookup.has(normalized)) {
+              return;
+            }
+            lookup.set(normalized, entry.order);
+          });
+        });
+        return lookup;
+      }
+
+      function normalizeToIsoDate(value) {
+        if (!value) {
+          return null;
+        }
+        if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+          return value;
+        }
+        const parsed = new Date(value);
+        if (Number.isNaN(parsed.getTime())) {
+          return null;
+        }
+        return parsed.toISOString().slice(0, 10);
+      }
+
+      function formatDateForLocale(isoDate) {
+        if (!isoDate) {
+          return '';
+        }
+        const parsed = new Date(`${isoDate}T12:00:00Z`);
+        if (Number.isNaN(parsed.getTime())) {
+          return isoDate;
+        }
+        return parsed.toLocaleDateString('de-DE', {
+          weekday: 'short',
+          day: '2-digit',
+          month: '2-digit',
+          year: 'numeric'
+        });
+      }
+
+      function populateLeagueOptions() {
+        DOM.leagueSelect.innerHTML = '';
+
+        if (state.sport === 'football') {
+          DOM.leagueControl.classList.remove('hidden');
+          DOM.leagueSelect.disabled = false;
+          let matchedLeague = false;
+          FOOTBALL_LEAGUES.forEach((league) => {
+            const option = document.createElement('option');
+            option.value = league.id;
+            option.textContent = league.label;
+            if (league.id === state.league) {
+              option.selected = true;
+              matchedLeague = true;
+            }
+            DOM.leagueSelect.appendChild(option);
+          });
+          if (!matchedLeague && DOM.leagueSelect.options.length) {
+            DOM.leagueSelect.options[0].selected = true;
+            state.league = DOM.leagueSelect.options[0].value;
+          }
+          if (!state.league && FOOTBALL_LEAGUES.length) {
+            state.league = FOOTBALL_LEAGUES[0].id;
+          }
+          if (state.league) {
+            DOM.leagueSelect.value = state.league;
+          }
+        } else {
+          DOM.leagueControl.classList.add('hidden');
+          DOM.leagueSelect.disabled = true;
+        }
+      }
+
+      function resolveLeagueShortcuts(leagueConfig, season) {
+        const toEntries = (value) => {
+          if (typeof value === 'function') {
+            return toEntries(value(season));
+          }
+          if (Array.isArray(value)) {
+            return value.flatMap((entry) => toEntries(entry));
+          }
+          if (!value) {
+            return [];
+          }
+          if (typeof value === 'object') {
+            const shortcut = value.shortcut ?? value.id ?? value.code;
+            if (!shortcut) {
+              return [];
+            }
+            const attemptSeason = Number.isFinite(value.season) ? value.season : season;
+            return [{ shortcut, season: attemptSeason }];
+          }
+          return [{ shortcut: String(value), season }];
+        };
+
+        const rawEntries = [...toEntries(leagueConfig.shortcut), ...toEntries(leagueConfig.alternatives)];
+        const seen = new Set();
+        const unique = [];
+        rawEntries.forEach((entry) => {
+          if (!entry || !entry.shortcut) {
+            return;
+          }
+          const normalizedSeason = Number.isFinite(entry.season) ? entry.season : season;
+          const key = `${entry.shortcut}:${normalizedSeason ?? ''}`;
+          if (seen.has(key)) {
+            return;
+          }
+          seen.add(key);
+          unique.push({ shortcut: entry.shortcut, season: normalizedSeason });
+        });
+
+        if (!unique.length && leagueConfig.shortcut) {
+          unique.push({ shortcut: String(leagueConfig.shortcut), season });
+        }
+
+        return unique;
+      }
+
+      async function requestRefresh(explicit) {
+        setStatus(explicit ? 'Lade Live-Daten …' : 'Aktualisiere …', 'info');
+        state.fetchInFlight = true;
+        state.lastFetchStart = Date.now();
+
+        try {
+          if (state.sport === 'football') {
+            await loadFootball();
+          } else {
+            await loadTennis();
+          }
+          const postLevel = DOM.statusBox.dataset.level;
+          if (postLevel === 'info') {
+            setStatus('Letzte Aktualisierung: ' + new Date().toLocaleTimeString('de-DE', {
+              hour: '2-digit',
+              minute: '2-digit',
+              second: '2-digit'
+            }), 'info');
+          }
+        } catch (error) {
+          console.error(error);
+          setStatus('Fehler beim Laden: ' + error.message, 'error');
+        } finally {
+          state.fetchInFlight = false;
+        }
+      }
+
+      async function loadFootball() {
+        const leagueConfig = FOOTBALL_LEAGUES.find((league) => league.id === state.league) || FOOTBALL_LEAGUES[0];
+        if (leagueConfig && leagueConfig.id !== state.league) {
+          state.league = leagueConfig.id;
+          if (DOM.leagueSelect) {
+            DOM.leagueSelect.value = leagueConfig.id;
+          }
+        }
+        const provider = leagueConfig?.provider || 'openliga';
+        if (provider === 'espn') {
+          await loadEspnFootball(leagueConfig);
+          return;
+        }
+        const season = deriveFootballSeason(state.date);
+        const attempts = resolveLeagueShortcuts(leagueConfig, season);
+
+        let rawData = [];
+        let lastError = null;
+        let resolvedSeason = season;
+        let resolvedAttempt = null;
+
+        for (const attempt of attempts) {
+          const targetShortcut = attempt?.shortcut;
+          const targetSeason = Number.isFinite(attempt?.season) ? attempt.season : season;
+          if (!targetShortcut || !Number.isFinite(targetSeason)) {
+            continue;
+          }
+          try {
+            rawData = await fetchJsonWithCache(`${OPENLIGA_BASE}/getmatchdata/${targetShortcut}/${targetSeason}`, {
+              cacheKey: `matches:${targetShortcut}:${targetSeason}`,
+              ttl: 60000
+            });
+            if (Array.isArray(rawData) && rawData.length > 0) {
+              resolvedSeason = targetSeason;
+              resolvedAttempt = { shortcut: targetShortcut, season: targetSeason };
+              break;
+            }
+          } catch (error) {
+            lastError = error;
+          }
+        }
+
+        const isChampionsLeague = leagueConfig?.id === 'cl-men';
+        if ((!Array.isArray(rawData) || rawData.length === 0) && isChampionsLeague) {
+          const fallbackUsed = await loadChampionsLeagueFromEspn(leagueConfig, {
+            season,
+            reason: 'keine OpenLigaDB-Daten für die aktuelle Saison'
+          });
+          if (fallbackUsed) {
+            return;
+          }
+        }
+
+        if (!Array.isArray(rawData) || rawData.length === 0) {
+          const detail = lastError ? ` (${lastError.message})` : '';
+          renderMatches([], 'Keine Spiele für den ausgewählten Tag gefunden.');
+          if (leagueConfig.table) {
+            renderTable([], { emptyMessage: 'Keine Tabellen-Daten hinterlegt.' });
+          } else {
+            hideTable();
+          }
+          setStatus('Keine Daten für ' + leagueConfig.label + ' verfügbar' + detail + '.', 'warning');
+          state.resolvedSeason = null;
+          state.resolvedShortcut = null;
+          return;
+        }
+
+        state.resolvedSeason = resolvedSeason;
+        state.resolvedShortcut = resolvedAttempt?.shortcut || null;
+
+        if (isChampionsLeague && Number.isFinite(season) && Number.isFinite(resolvedSeason) && resolvedSeason < season) {
+          const fallbackUsed = await loadChampionsLeagueFromEspn(leagueConfig, {
+            season,
+            reason: `OpenLigaDB-Saison ${resolvedSeason}/${String((resolvedSeason + 1) % 100).padStart(2, '0')} statt ${season}/${String((season + 1) % 100).padStart(2, '0')}`
+          });
+          if (fallbackUsed) {
+            return;
+          }
+        }
+
+        if (Number.isFinite(season) && Number.isFinite(resolvedSeason) && resolvedSeason !== season) {
+          const resolvedLabel = `${resolvedSeason}/${String((resolvedSeason + 1) % 100).padStart(2, '0')}`;
+          const requestedLabel = `${season}/${String((season + 1) % 100).padStart(2, '0')}`;
+          setStatus(`OpenLigaDB liefert für ${leagueConfig.label} aktuell keine Daten für ${requestedLabel} – zeige Saison ${resolvedLabel}.`, 'warning');
+        }
+
+        if (Array.isArray(rawData)) {
+          const builder = typeof leagueConfig.matchdayBuilder === 'function'
+            ? leagueConfig.matchdayBuilder
+            : buildMatchdayMetadata;
+          const metadata = builder(rawData, { leagueConfig });
+          state.matchdays = metadata;
+          state.matchdayDateLookup = createMatchdayDateLookup(metadata);
+          ensureActiveMatchday(metadata);
+          updateMatchdayDisplay();
+        } else {
+          state.matchdays = [];
+          state.matchdayDateLookup = new Map();
+          state.activeMatchdayOrder = null;
+          updateMatchdayDisplay();
+        }
+
+        const matches = rawData
+          .filter((match) => matchBelongsToActiveMatchday(match))
+          .map((match) => ({
+            id: match.matchId || match.matchID,
+            time: formatTime(match.matchDateTimeUTC || match.matchDateTime),
+            home: match.team1?.teamName || match.Team1?.TeamName || 'Heim',
+            away: match.team2?.teamName || match.Team2?.TeamName || 'Gast',
+            score: formatScore(match.matchResults || match.MatchResults),
+            status: deriveMatchStatus(match),
+            ...extractOpenligaScoreDetails(match)
+          }));
+
+        renderMatches(matches, 'Keine Spiele für den ausgewählten Tag gefunden.');
+
+        const allMatchesPlanned = matches.length > 0 && matches.every((entry) => entry.status === 'Geplant');
+
+        const effectiveShortcut = resolvedAttempt?.shortcut
+          || attempts?.[0]?.shortcut
+          || (typeof leagueConfig.shortcut === 'string' ? leagueConfig.shortcut : null);
+        const effectiveSeason = Number.isFinite(resolvedAttempt?.season) ? resolvedAttempt.season : season;
+  const allowOpenligaTable = leagueConfig.openligaTable !== false;
+  if (leagueConfig.table && effectiveShortcut && allowOpenligaTable) {
+          let matchday = deriveMatchday(rawData, matches);
+          if (!Number.isFinite(matchday) && Number.isFinite(state.activeMatchdayOrder)) {
+            matchday = state.activeMatchdayOrder;
+          }
+          if (!Number.isFinite(matchday)) {
+            matchday = await fetchCurrentGroup(effectiveShortcut, effectiveSeason);
+          }
+          const tableResult = await resolveFootballTable(effectiveShortcut, season, matchday, {
+            preferredSeason: effectiveSeason
+          });
+          if (tableResult.rows.length) {
+            renderTable(tableResult.rows);
+            if (tableResult.notice) {
+              setStatus(tableResult.notice, 'warning');
+            }
+          } else {
+            const emptyMessage = allMatchesPlanned
+              ? 'Tabelle wird nach Abschluss des Spieltags aktualisiert.'
+              : 'Keine Tabellen-Daten für diesen Spieltag verfügbar.';
+            renderTable([], { emptyMessage });
+            if (tableResult.error?.status === 404 || allMatchesPlanned) {
+              setStatus('Für diesen Spieltag liegt noch keine Tabelle vor.', 'info');
+            } else if (tableResult.error) {
+              setStatus('Tabelle konnte nicht geladen werden: ' + tableResult.error.message, 'warning');
+            } else {
+              setStatus('Tabelle konnte nicht bestimmt werden (kein Spieltag gefunden).', 'warning');
+            }
+          }
+        } else {
+          if (leagueConfig.table) {
+            renderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+          } else {
+            hideTable();
+          }
+        }
+      }
+
+      async function loadChampionsLeagueFromEspn(leagueConfig, { season, reason } = {}) {
+        const slug = leagueConfig?.espnSlug || 'uefa.champions';
+        const competitionLabel = leagueConfig?.label || 'Champions League';
+        let baseScoreboard;
+        try {
+          baseScoreboard = await fetchEspnFootballScoreboard(slug);
+        } catch (error) {
+          setStatus('Champions League via ESPN konnte nicht geladen werden: ' + error.message, 'error');
+          return false;
+        }
+
+        const leagueInfo = Array.isArray(baseScoreboard?.leagues) ? baseScoreboard.leagues[0] : null;
+        const stageEntries = [];
+        if (Array.isArray(leagueInfo?.calendar)) {
+          leagueInfo.calendar.forEach((container) => {
+            if (Array.isArray(container?.entries)) {
+              container.entries.forEach((entry) => stageEntries.push(entry));
+            }
+          });
+        }
+
+        if (!stageEntries.length) {
+          setStatus('ESPN liefert derzeit keine Phaseninformationen für die Champions League.', 'warning');
+          return false;
+        }
+
+        const stageContexts = stageEntries.map((entry, index) => {
+          const stageOrderValue = Number.parseInt(entry?.value, 10);
+          const info = CHAMPIONS_LEAGUE_STAGE_INFO.get(stageOrderValue);
+          const stageOrder = Number.isFinite(stageOrderValue) ? stageOrderValue : index + 1;
+          const baseLabel = info?.label || entry?.label || `Phase ${stageOrder}`;
+          const startIso = normalizeToIsoDate(entry?.startDate);
+          const endIso = normalizeToIsoDate(entry?.endDate);
+          return {
+            stageOrder,
+            baseLabel,
+            expectedMatches: Number.isFinite(info?.expectedMatches) ? info.expectedMatches : null,
+            slug: info?.slug || null,
+            startIso,
+            endIso,
+            startMs: resolveIsoDateTimestamp(startIso),
+            endMs: resolveIsoDateTimestamp(endIso, { endOfDay: true }),
+            dateSet: new Set(),
+            matchIdsSet: new Set(),
+            matchIdsPerDate: new Map()
+          };
+        }).filter((entry) => entry != null);
+
+        if (!stageContexts.length) {
+          setStatus('Champions League via ESPN konnte nicht vorbereitet werden (keine Phasen).', 'warning');
+          return false;
+        }
+
+        stageContexts.sort((a, b) => a.stageOrder - b.stageOrder);
+        const stageBySlug = new Map();
+        stageContexts.forEach((stage) => {
+          if (stage.slug) {
+            stageBySlug.set(stage.slug, stage);
+          }
+        });
+
+        const aggregatedMatches = new Map();
+        const visitedDates = new Set();
+        const fetchErrors = [];
+
+        const findStageForDate = (isoDate) => {
+          const timestamp = resolveIsoDateTimestamp(isoDate, { endOfDay: false });
+          if (!Number.isFinite(timestamp)) {
+            return null;
+          }
+          for (const stage of stageContexts) {
+            if (Number.isFinite(stage.startMs) && Number.isFinite(stage.endMs)) {
+              if (timestamp >= stage.startMs && timestamp <= stage.endMs) {
+                return stage;
+              }
+            }
+          }
+          return null;
+        };
+
+        const processScoreboard = (scoreboard, isoHint) => {
+          const matches = extractEspnFootballMatches(scoreboard);
+          matches.forEach((match) => {
+            const identifier = match?.id != null ? String(match.id) : null;
+            if (!identifier) {
+              return;
+            }
+            const fallbackDate = normalizeToIsoDate(scoreboard?.day?.date) || normalizeToIsoDate(isoHint);
+            const isoDate = normalizeToIsoDate(match.timeRaw || match.time) || fallbackDate;
+            if (!isoDate) {
+              return;
+            }
+            let stage = findStageForDate(isoDate);
+            if (!stage && match.seasonSlug && stageBySlug.has(match.seasonSlug)) {
+              stage = stageBySlug.get(match.seasonSlug);
+            }
+            if (!stage) {
+              return;
+            }
+            const existing = aggregatedMatches.get(identifier);
+            const enriched = {
+              ...existing,
+              ...match,
+              isoDate,
+              stageOrder: stage.stageOrder
+            };
+            if (!existing || existing.status !== 'Beendet') {
+              aggregatedMatches.set(identifier, enriched);
+            }
+            if (!stage.matchIdsPerDate.has(isoDate)) {
+              stage.matchIdsPerDate.set(isoDate, new Set());
+            }
+            stage.matchIdsPerDate.get(isoDate).add(identifier);
+            stage.matchIdsSet.add(identifier);
+            stage.dateSet.add(isoDate);
+          });
+        };
+
+        const isWithinStageRange = (stage, isoDate) => {
+          if (!stage || !isoDate) {
+            return false;
+          }
+          const timestamp = resolveIsoDateTimestamp(isoDate);
+          if (!Number.isFinite(timestamp)) {
+            return false;
+          }
+          if (Number.isFinite(stage.startMs) && timestamp < stage.startMs) {
+            return false;
+          }
+          if (Number.isFinite(stage.endMs) && timestamp > stage.endMs) {
+            return false;
+          }
+          return true;
+        };
+
+        const fetchStageDate = async (stage, isoDate, { allowNeighbors = true, scoreboard: preloaded } = {}) => {
+          const normalized = normalizeToIsoDate(isoDate);
+          if (!normalized || !isWithinStageRange(stage, normalized)) {
+            return 0;
+          }
+          const visitKey = `${stage.stageOrder}:${normalized}`;
+          const alreadyVisited = visitedDates.has(visitKey);
+          let scoreboard = preloaded || null;
+          if (!scoreboard && alreadyVisited) {
+            return 0;
+          }
+          if (!scoreboard) {
+            visitedDates.add(visitKey);
+            try {
+              scoreboard = await fetchEspnFootballScoreboard(
+                slug,
+                normalized,
+                stage.slug ? { group: stage.slug } : undefined
+              );
+            } catch (error) {
+              fetchErrors.push({ date: normalized, error });
+              return 0;
+            }
+          } else if (!alreadyVisited) {
+            visitedDates.add(visitKey);
+          }
+
+          const matchCountBefore = stage.matchIdsSet.size;
+          const dateCountBefore = stage.dateSet.size;
+          processScoreboard(scoreboard, normalized);
+          const addedMatches = stage.matchIdsSet.size - matchCountBefore;
+          const addedDates = stage.dateSet.size - dateCountBefore;
+
+          if (allowNeighbors && (addedMatches > 0 || addedDates > 0)) {
+            const neighborOffsets = [-2, -1, 1];
+            for (const offset of neighborOffsets) {
+              const neighbor = shiftIsoDate(normalized, offset);
+              if (!neighbor) {
+                continue;
+              }
+              const neighborKey = `${stage.stageOrder}:${neighbor}`;
+              if (visitedDates.has(neighborKey) || !isWithinStageRange(stage, neighbor)) {
+                continue;
+              }
+              await fetchStageDate(stage, neighbor, { allowNeighbors: false });
+            }
+          }
+
+          return addedMatches;
+        };
+
+        const baseDayIso = normalizeToIsoDate(baseScoreboard?.day?.date);
+        const todayIso = new Date().toISOString().slice(0, 10);
+        const stateIsoDate = normalizeToIsoDate(state.date);
+
+        for (const stage of stageContexts) {
+          const priorityPairs = [
+            [stateIsoDate, true],
+            [todayIso, true],
+            [baseDayIso, true]
+          ];
+          for (const [iso, allowNeighbors] of priorityPairs) {
+            if (!iso || !isWithinStageRange(stage, iso)) {
+              continue;
+            }
+            const scoreboard = iso === baseDayIso ? baseScoreboard : null;
+            await fetchStageDate(stage, iso, { allowNeighbors, scoreboard });
+          }
+        }
+
+        for (const stage of stageContexts) {
+          if (!stage.startIso || !stage.endIso) {
+            continue;
+          }
+          await fetchStageDate(stage, stage.startIso, { allowNeighbors: true });
+
+          let cursor = shiftIsoDate(stage.startIso, 3);
+          let attempts = 0;
+          const maxAttempts = 64;
+
+          while (cursor && attempts < maxAttempts) {
+            const timestamp = resolveIsoDateTimestamp(cursor);
+            if (Number.isFinite(stage.endMs) && Number.isFinite(timestamp) && timestamp > stage.endMs) {
+              break;
+            }
+            const added = await fetchStageDate(stage, cursor, { allowNeighbors: true });
+            if (stage.expectedMatches && stage.matchIdsSet.size >= stage.expectedMatches) {
+              break;
+            }
+            const nextStep = added > 0 ? 7 : 3;
+            const nextCursor = shiftIsoDate(cursor, nextStep);
+            if (!nextCursor) {
+              break;
+            }
+            const nextTimestamp = resolveIsoDateTimestamp(nextCursor);
+            if (Number.isFinite(stage.endMs) && Number.isFinite(nextTimestamp) && nextTimestamp > stage.endMs) {
+              break;
+            }
+            cursor = nextCursor;
+            attempts += 1;
+          }
+
+          await fetchStageDate(stage, stage.endIso, { allowNeighbors: true });
+        }
+
+        if (!aggregatedMatches.size) {
+          const detail = fetchErrors.length ? ' (Fehler bei den ESPN-Anfragen)' : '';
+          setStatus('Keine Champions-League-Begegnungen via ESPN verfügbar' + detail + '.', 'warning');
+          state.matchdays = [];
+          state.matchdayDateLookup = new Map();
+          state.activeMatchdayOrder = null;
+          updateMatchdayDisplay();
+          renderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+          hideTable();
+          state.resolvedSeason = baseScoreboard?.season?.year || leagueInfo?.season?.year || season || null;
+          state.resolvedShortcut = null;
+          return false;
+        }
+
+        const metadata = [];
+        let nextOrder = 1;
+        stageContexts.forEach((stage) => {
+          const dates = Array.from(stage.dateSet).sort();
+          if (!dates.length) {
+            return;
+          }
+          const clusters = clusterIsoDates(dates);
+          clusters.forEach((clusterDates, index) => {
+            if (!clusterDates.length) {
+              return;
+            }
+            const matchIdSet = new Set();
+            clusterDates.forEach((isoDate) => {
+              const ids = stage.matchIdsPerDate.get(isoDate);
+              if (!ids) {
+                return;
+              }
+              ids.forEach((id) => matchIdSet.add(id));
+            });
+            if (!matchIdSet.size) {
+              return;
+            }
+            metadata.push({
+              order: nextOrder++,
+              label: formatChampionsLeagueStageLabel(stage, index, clusters.length),
+              primaryDate: clusterDates[0],
+              dates: clusterDates,
+              matchIds: Array.from(matchIdSet)
+            });
+          });
+        });
+
+        if (!metadata.length) {
+          const fallbackDates = new Map();
+          aggregatedMatches.forEach((match, id) => {
+            const isoDate = normalizeToIsoDate(match.isoDate);
+            if (!isoDate) {
+              return;
+            }
+            if (!fallbackDates.has(isoDate)) {
+              fallbackDates.set(isoDate, new Set());
+            }
+            fallbackDates.get(isoDate).add(id);
+          });
+          const clusters = clusterIsoDates(Array.from(fallbackDates.keys()));
+          clusters.forEach((clusterDates, index) => {
+            if (!clusterDates.length) {
+              return;
+            }
+            const matchIdSet = new Set();
+            clusterDates.forEach((isoDate) => {
+              const ids = fallbackDates.get(isoDate);
+              if (ids) {
+                ids.forEach((id) => matchIdSet.add(id));
+              }
+            });
+            if (!matchIdSet.size) {
+              return;
+            }
+            metadata.push({
+              order: index + 1,
+              label: `${index + 1}. Termin`,
+              primaryDate: clusterDates[0],
+              dates: clusterDates,
+              matchIds: Array.from(matchIdSet)
+            });
+          });
+        }
+
+        if (!metadata.length) {
+          setStatus('Champions League via ESPN konnte keine Spieltage bestimmen.', 'warning');
+          renderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+          hideTable();
+          state.matchdays = [];
+          state.matchdayDateLookup = new Map();
+          state.activeMatchdayOrder = null;
+          updateMatchdayDisplay();
+          state.resolvedSeason = baseScoreboard?.season?.year || leagueInfo?.season?.year || season || null;
+          state.resolvedShortcut = null;
+          return false;
+        }
+
+        state.matchdays = metadata.map((entry) => ({
+          order: entry.order,
+          label: entry.label,
+          primaryDate: entry.primaryDate,
+          dates: Array.isArray(entry.dates) ? [...entry.dates] : [],
+          matchIds: Array.isArray(entry.matchIds) ? entry.matchIds.map((id) => String(id)) : []
+        }));
+        state.matchdayDateLookup = createMatchdayDateLookup(state.matchdays);
+        ensureActiveMatchday(state.matchdays);
+        const activeEntry = state.matchdays.find((entry) => entry.order === state.activeMatchdayOrder) || state.matchdays[0];
+        if (activeEntry) {
+          updateMatchdayState(activeEntry.primaryDate, activeEntry.order);
+        } else {
+          updateMatchdayDisplay();
+        }
+
+        const selectedEntry = state.matchdays.find((entry) => entry.order === state.activeMatchdayOrder) || state.matchdays[0] || null;
+        const expectedIds = new Set(Array.isArray(selectedEntry?.matchIds) ? selectedEntry.matchIds.map((id) => String(id)) : []);
+        const matches = [];
+        aggregatedMatches.forEach((match, id) => {
+          if (!expectedIds.size || expectedIds.has(id)) {
+            matches.push(match);
+          }
+        });
+        matches.sort((a, b) => {
+          const dateCompare = (a.isoDate || '').localeCompare(b.isoDate || '');
+          if (dateCompare !== 0) {
+            return dateCompare;
+          }
+          return (a.timeRaw || '').localeCompare(b.timeRaw || '');
+        });
+
+        const missingMatchIds = expectedIds.size
+          ? Array.from(expectedIds).filter((id) => !aggregatedMatches.has(id))
+          : [];
+
+        renderMatches(matches, 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+
+        let tableWarning = null;
+        if (leagueConfig.table) {
+          try {
+            const standingsData = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug || slug);
+            const rows = formatEspnFootballStandings(standingsData);
+            if (rows.length) {
+              renderTable(rows);
+            } else {
+              renderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+            }
+          } catch (error) {
+            renderTable([], { emptyMessage: 'Tabelle konnte nicht geladen werden.' });
+            tableWarning = 'Tabelle für ' + competitionLabel + ' konnte nicht geladen werden: ' + error.message;
+          }
+        } else {
+          hideTable();
+        }
+
+        state.resolvedSeason = baseScoreboard?.season?.year || leagueInfo?.season?.year || season || null;
+        state.resolvedShortcut = null;
+
+        let statusLevel = reason ? 'warning' : 'info';
+        let statusMessage = reason
+          ? `OpenLigaDB liefert keine aktuellen Daten für ${competitionLabel} – Fallback über ESPN aktiv.`
+          : `${competitionLabel} wird aktuell über ESPN bereitgestellt.`;
+
+        if (fetchErrors.length) {
+          const failedDates = fetchErrors
+            .map((entry) => normalizeToIsoDate(entry.date))
+            .filter(Boolean)
+            .slice(0, 6)
+            .join(', ');
+          if (failedDates) {
+            statusMessage += ` (Fehler bei Tagen: ${failedDates}${fetchErrors.length > 6 ? ' …' : ''})`;
+          } else {
+            statusMessage += ' (einige Tage konnten nicht geladen werden)';
+          }
+          statusLevel = 'warning';
+        }
+
+        if (missingMatchIds.length) {
+          statusMessage += ` (${missingMatchIds.length} Spiele fehlen in den ESPN-Daten)`;
+          statusLevel = 'warning';
+        }
+
+        if (tableWarning) {
+          statusMessage += ` (${tableWarning})`;
+          statusLevel = 'warning';
+        }
+
+        setStatus(statusMessage, statusLevel);
+
+        return true;
+      }
+
+      async function loadEspnFootball(leagueConfig) {
+        const slug = leagueConfig?.espnSlug;
+        const competitionLabel = leagueConfig?.label || 'Wettbewerb';
+        if (!slug) {
+          setStatus('Keine Datenquelle für ' + competitionLabel + ' hinterlegt.', 'error');
+          renderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+          if (leagueConfig.table) {
+            renderTable([], { emptyMessage: 'Keine Tabellen-Daten hinterlegt.' });
+          } else {
+            hideTable();
+          }
+          state.matchdays = [];
+          state.matchdayDateLookup = new Map();
+          state.activeMatchdayOrder = null;
+          updateMatchdayDisplay();
+          state.resolvedSeason = null;
+          state.resolvedShortcut = null;
+          return;
+        }
+
+        let scoreboard;
+        try {
+          scoreboard = await fetchEspnFootballScoreboard(slug);
+        } catch (error) {
+          state.matchdays = [];
+          state.matchdayDateLookup = new Map();
+          state.activeMatchdayOrder = null;
+          updateMatchdayDisplay();
+          renderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+          if (leagueConfig.table) {
+            renderTable([], { emptyMessage: 'Keine Tabellen-Daten hinterlegt.' });
+          } else {
+            hideTable();
+          }
+          setStatus('ESPN-Daten für ' + competitionLabel + ' konnten nicht geladen werden: ' + error.message, 'error');
+          state.resolvedSeason = null;
+          state.resolvedShortcut = null;
+          return;
+        }
+
+        const leagueInfo = Array.isArray(scoreboard?.leagues) ? scoreboard.leagues[0] : null;
+        const metadata = await ensureEspnMatchdayMetadata(slug, scoreboard, leagueInfo);
+
+        if (metadata.length) {
+          state.matchdays = metadata.map((entry) => ({
+            order: entry.order,
+            label: entry.label,
+            primaryDate: entry.primaryDate,
+            dates: Array.isArray(entry.dates) ? [...entry.dates] : [],
+            matchIds: Array.isArray(entry.matchIds) ? [...entry.matchIds] : []
+          }));
+          state.matchdayDateLookup = createMatchdayDateLookup(metadata);
+          ensureActiveMatchday(metadata);
+          const activeEntry = metadata.find((entry) => entry.order === state.activeMatchdayOrder) || metadata[0];
+          if (activeEntry) {
+            updateMatchdayState(activeEntry.primaryDate, activeEntry.order);
+          } else {
+            updateMatchdayDisplay();
+          }
+        } else {
+          state.matchdays = [];
+          state.matchdayDateLookup = new Map();
+          state.activeMatchdayOrder = null;
+          updateMatchdayDisplay();
+        }
+
+        state.resolvedSeason = scoreboard?.season?.year || leagueInfo?.season?.year || null;
+        state.resolvedShortcut = null;
+
+    const selectedEntry = state.matchdays.find((entry) => entry.order === state.activeMatchdayOrder) || state.matchdays[0] || null;
+    const aggregated = new Map();
+        const dateErrors = [];
+        const fetchedDates = new Set();
+
+        addEspnFootballMatches(aggregated, scoreboard);
+        const baseDay = normalizeToIsoDate(scoreboard?.day?.date);
+        if (baseDay) {
+          fetchedDates.add(baseDay);
+        }
+
+        if (selectedEntry?.dates?.length) {
+          for (const isoDate of selectedEntry.dates) {
+            if (!isoDate || fetchedDates.has(isoDate)) {
+              continue;
+            }
+            try {
+              const dayScoreboard = await fetchEspnFootballScoreboard(slug, isoDate);
+              addEspnFootballMatches(aggregated, dayScoreboard);
+              fetchedDates.add(isoDate);
+            } catch (error) {
+              dateErrors.push({ date: isoDate, error });
+            }
+          }
+        }
+
+        if (!aggregated.size && state.date) {
+          try {
+            const fallbackScoreboard = await fetchEspnFootballScoreboard(slug, state.date);
+            addEspnFootballMatches(aggregated, fallbackScoreboard);
+          } catch (error) {
+            dateErrors.push({ date: state.date, error });
+          }
+        }
+
+        let matches = Array.from(aggregated.values());
+        const expectedMatchIds = Array.isArray(selectedEntry?.matchIds)
+          ? selectedEntry.matchIds.map((id) => String(id))
+          : [];
+        const expectedMatchIdSet = new Set(expectedMatchIds);
+        let missingMatchIds = [];
+        if (expectedMatchIdSet.size) {
+          matches = matches.filter((match) => expectedMatchIdSet.has(String(match.id)));
+          missingMatchIds = expectedMatchIds.filter((id) => !aggregated.has(String(id)));
+        }
+        const emptyMessage = 'Keine Spiele für den ausgewählten Spieltag gefunden.';
+
+        if (!matches.length) {
+          renderMatches([], emptyMessage);
+          if (dateErrors.length) {
+            const detail = dateErrors.map((entry) => entry.error?.message).filter(Boolean).join('; ');
+            setStatus('Keine Begegnungen für ' + competitionLabel + ' – Teilabrufe fehlgeschlagen' + (detail ? ` (${detail})` : ''), 'warning');
+          } else if (missingMatchIds.length) {
+            setStatus('Keine Begegnungen für ' + competitionLabel + ' gefunden – fehlende Spiele: ' + missingMatchIds.join(', '), 'warning');
+          } else {
+            setStatus('Keine Begegnungen für ' + competitionLabel + ' gefunden.', 'warning');
+          }
+        } else {
+          renderMatches(matches, emptyMessage);
+          if (dateErrors.length) {
+            const failedDays = dateErrors.map((entry) => entry.date).filter(Boolean).join(', ');
+            setStatus('Daten für ' + competitionLabel + ' teilweise unvollständig (fehlende Tage: ' + failedDays + ').', 'warning');
+          } else if (missingMatchIds.length) {
+            setStatus('Daten für ' + competitionLabel + ' teilweise unvollständig (fehlende Spiele: ' + missingMatchIds.join(', ') + ').', 'warning');
+          }
+        }
+
+        if (leagueConfig.table) {
+          try {
+            const standingsData = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug || slug);
+            const rows = formatEspnFootballStandings(standingsData);
+            if (rows.length) {
+              renderTable(rows);
+            } else {
+              renderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+            }
+          } catch (error) {
+            renderTable([], { emptyMessage: 'Tabelle konnte nicht geladen werden.' });
+            setStatus('Tabelle für ' + competitionLabel + ' konnte nicht geladen werden: ' + error.message, 'warning');
+          }
+        } else {
+          hideTable();
+        }
+      }
+
+      async function fetchEspnFootballScoreboard(slug, isoDate, options = {}) {
+        if (!slug) {
+          throw new Error('ESPN-Slug fehlt.');
+        }
+        const normalizedDate = normalizeToIsoDate(isoDate);
+        const params = ['lang=de', 'region=de'];
+        if (options?.group) {
+          params.push('group=' + encodeURIComponent(options.group));
+        }
+        if (normalizedDate) {
+          params.push('dates=' + normalizedDate.replace(/-/g, ''));
+        }
+        const url = `${ESPN_FOOTBALL_BASE}/${encodeURIComponent(slug)}/scoreboard?${params.join('&')}`;
+        const cacheKeyParts = ['espn-football:scoreboard', slug];
+        if (options?.group) {
+          cacheKeyParts.push(`group=${options.group}`);
+        }
+        cacheKeyParts.push(normalizedDate || 'calendar');
+        const cacheKey = cacheKeyParts.join(':');
+        return fetchJsonWithCache(url, { cacheKey, ttl: 300000 });
+      }
+
+      function buildEspnMatchdayMetadata(calendar) {
+        if (!Array.isArray(calendar) || !calendar.length) {
+          return [];
+        }
+        const uniqueDates = Array.from(new Set(calendar.map((entry) => normalizeToIsoDate(entry)).filter(Boolean))).sort();
+        if (!uniqueDates.length) {
+          return [];
+        }
+        const groups = [];
+        let currentGroup = null;
+        uniqueDates.forEach((isoDate) => {
+          if (!currentGroup) {
+            currentGroup = { dates: [isoDate] };
+            groups.push(currentGroup);
+            return;
+          }
+          const lastDate = currentGroup.dates[currentGroup.dates.length - 1];
+          const delta = Math.abs(Date.parse(`${isoDate}T00:00:00Z`) - Date.parse(`${lastDate}T00:00:00Z`));
+          const dayDiff = Number.isFinite(delta) ? delta / 86400000 : Number.POSITIVE_INFINITY;
+          if (dayDiff <= 4) {
+            currentGroup.dates.push(isoDate);
+          } else {
+            currentGroup = { dates: [isoDate] };
+            groups.push(currentGroup);
+          }
+        });
+
+        return groups.map((group, index) => ({
+          order: index + 1,
+          label: `${index + 1}. Spieltag`,
+          primaryDate: group.dates[0] || null,
+          dates: group.dates
+        })).filter((entry) => entry.primaryDate);
+      }
+
+      async function fetchEspnFootballStandings(slug) {
+        if (!slug) {
+          throw new Error('ESPN-Slug fehlt.');
+        }
+        const url = `${ESPN_STANDINGS_BASE}/${encodeURIComponent(slug)}/standings?lang=de&region=de`;
+        const cacheKey = `espn-football:standings:${slug}`;
+        return fetchJsonWithCache(url, { cacheKey, ttl: 300000 });
+      }
+
+      function extractEspnFootballMatches(scoreboard) {
+        if (!scoreboard || !Array.isArray(scoreboard.events)) {
+          return [];
+        }
+        const matches = [];
+        scoreboard.events.forEach((event) => {
+          const competition = Array.isArray(event?.competitions) ? event.competitions[0] : null;
+          if (!competition) {
+            return;
+          }
+          const competitors = Array.isArray(competition.competitors) ? competition.competitors : [];
+          const home = competitors.find((entry) => entry.homeAway === 'home') || competitors[0];
+          const away = competitors.find((entry) => entry.homeAway === 'away') || competitors[1];
+          if (!home || !away) {
+            return;
+          }
+          const id = String(competition.id || event.id || competition.uid || event.uid || '');
+          const status = mapEspnFootballStatus(competition);
+          const homeScore = parseScoreValue(home?.score);
+          const awayScore = parseScoreValue(away?.score);
+          const winner = status === 'Beendet' ? determineWinner(homeScore, awayScore) : null;
+          matches.push({
+            id,
+            timeRaw: competition.date || competition.startDate || event.date || '',
+            time: formatTime(competition.date || competition.startDate || event.date),
+            home: home.team?.displayName || home.team?.shortDisplayName || home.team?.name || 'Heim',
+            away: away.team?.displayName || away.team?.shortDisplayName || away.team?.name || 'Gast',
+            score: formatEspnFootballScore(home, away, competition),
+            status,
+            homeScore,
+            awayScore,
+            winner,
+            seasonSlug: event?.season?.slug || competition?.season?.slug || null
+          });
+        });
+        return matches;
+      }
+
+      function addEspnFootballMatches(target, scoreboard) {
+        if (!(target instanceof Map)) {
+          return;
+        }
+        const matches = extractEspnFootballMatches(scoreboard);
+        matches.forEach((match) => {
+          const identifier = match?.id != null ? String(match.id) : null;
+          if (!match || !identifier || target.has(identifier)) {
+            return;
+          }
+          target.set(identifier, match);
+        });
+      }
+
+      async function ensureEspnMatchdayMetadata(slug, baseScoreboard, baseLeagueInfo) {
+        const cached = ESPN_MATCHDAY_CACHE.get(slug);
+        if (cached?.matchdays?.length) {
+          return cached.matchdays;
+        }
+
+        const leagueInfo = baseLeagueInfo || (Array.isArray(baseScoreboard?.leagues) ? baseScoreboard.leagues[0] : null);
+        const calendar = Array.isArray(leagueInfo?.calendar)
+          ? leagueInfo.calendar
+          : Array.isArray(baseScoreboard?.leagues?.[0]?.calendar)
+            ? baseScoreboard.leagues[0].calendar
+            : [];
+
+    const uniqueDates = Array.from(new Set(calendar.map((entry) => normalizeToIsoDate(entry)).filter(Boolean))).sort();
+        const seasonMatches = [];
+        const seenMatches = new Set();
+
+        for (const isoDate of uniqueDates) {
+          if (!isoDate) {
+            continue;
+          }
+          let dayScoreboard = baseScoreboard;
+          if (!dayScoreboard || normalizeToIsoDate(dayScoreboard?.day?.date) !== isoDate) {
+            try {
+              dayScoreboard = await fetchEspnFootballScoreboard(slug, isoDate);
+            } catch (error) {
+              console.warn('ESPN scoreboard fetch failed for', slug, isoDate, error);
+              continue;
+            }
+          }
+          const matches = extractEspnFootballMatches(dayScoreboard);
+          matches.forEach((match) => {
+            const identifier = match?.id != null ? String(match.id) : null;
+            if (!identifier || seenMatches.has(identifier)) {
+              return;
+            }
+            seenMatches.add(identifier);
+            const timeRaw = match.timeRaw || match.time || null;
+            const normalizedDate = normalizeToIsoDate(timeRaw) || isoDate;
+            const parsedTimestamp = Date.parse(timeRaw || '');
+            const fallbackTimestamp = Date.parse(`${normalizedDate}T00:00:00Z`);
+            seasonMatches.push({
+              id: identifier,
+              date: normalizedDate,
+              timestamp: Number.isFinite(parsedTimestamp) ? parsedTimestamp : fallbackTimestamp
+            });
+          });
+        }
+
+        if (seasonMatches.length === 0) {
+          const fallbackDates = uniqueDates.slice(0, 38);
+          const fallbackMatchdays = fallbackDates.map((date, index) => ({
+            order: index + 1,
+            label: `${index + 1}. Spieltag`,
+            primaryDate: date,
+            dates: [date],
+            matchIds: []
+          }));
+          ESPN_MATCHDAY_CACHE.set(slug, { matchdays: fallbackMatchdays, timestamp: Date.now() });
+          return fallbackMatchdays;
+        }
+
+        seasonMatches.sort((a, b) => {
+          if (a.timestamp !== b.timestamp) {
+            return a.timestamp - b.timestamp;
+          }
+          return a.id.localeCompare(b.id);
+        });
+
+        const matchdays = [];
+        for (let index = 0; index < seasonMatches.length; index += ESPN_EXPECTED_MATCHES_PER_MATCHDAY) {
+          const slice = seasonMatches.slice(index, index + ESPN_EXPECTED_MATCHES_PER_MATCHDAY);
+          if (!slice.length) {
+            continue;
+          }
+          const dates = Array.from(new Set(slice.map((entry) => entry.date))).sort();
+          const order = matchdays.length + 1;
+          matchdays.push({
+            order,
+            label: `${order}. Spieltag`,
+            primaryDate: dates[0] || null,
+            dates,
+            matchIds: slice.map((entry) => entry.id)
+          });
+        }
+
+        ESPN_MATCHDAY_CACHE.set(slug, { matchdays, timestamp: Date.now() });
+        return matchdays;
+      }
+
+      function formatEspnFootballScore(home, away, competition) {
+        const homeScore = parseScoreValue(home?.score);
+        const awayScore = parseScoreValue(away?.score);
+        const state = competition?.status?.type?.state;
+        const detail = competition?.status?.type?.shortDetail || competition?.status?.type?.detail;
+
+        if (state === 'pre') {
+          return '-- : --';
+        }
+
+        if ((state === 'in' || state === 'post') && homeScore != null && awayScore != null) {
+          let display = `${homeScore} : ${awayScore}`;
+          if (state === 'post' && detail && detail !== 'FT' && detail !== 'Full Time' && detail !== 'Final') {
+            display += ` (${detail})`;
+          }
+          return display;
+        }
+
+        if (homeScore != null && awayScore != null) {
+          return `${homeScore} : ${awayScore}`;
+        }
+
+        if (detail && detail !== 'TBD') {
+          return detail;
+        }
+
+        return '-- : --';
+      }
+
+      function mapEspnFootballStatus(competition) {
+        const state = competition?.status?.type?.state;
+        const name = competition?.status?.type?.name;
+        if (state === 'in') {
+          return 'Live';
+        }
+        if (state === 'post') {
+          if (name === 'STATUS_CANCELLED') {
+            return 'Abgebrochen';
+          }
+          if (name === 'STATUS_POSTPONED') {
+            return 'Verschoben';
+          }
+          return 'Beendet';
+        }
+        if (state === 'suspended') {
+          return 'Unterbrochen';
+        }
+        return 'Geplant';
+      }
+
+      function formatEspnFootballStandings(data) {
+        if (!data) {
+          return [];
+        }
+        const entries = [];
+
+        const collectEntries = (node) => {
+          if (!node) {
+            return;
+          }
+          if (Array.isArray(node?.standings?.entries)) {
+            node.standings.entries.forEach((entry) => entries.push(entry));
+          }
+          if (Array.isArray(node?.children)) {
+            node.children.forEach((child) => collectEntries(child));
+          }
+        };
+
+        collectEntries(data);
+
+        const seen = new Set();
+        const rows = [];
+        entries.forEach((entry, index) => {
+          const teamId = entry?.team?.id || entry?.team?.uid || index;
+          if (seen.has(teamId)) {
+            return;
+          }
+          seen.add(teamId);
+          const stats = Array.isArray(entry?.stats) ? entry.stats : [];
+          const findStat = (...names) => stats.find((stat) => names.includes(stat.name) || names.includes(stat.type));
+          const rankStat = findStat('rank');
+          const pointsStat = findStat('points');
+          const rankValue = rankStat?.displayValue || (Number.isFinite(rankStat?.value) ? String(rankStat.value) : entry?.note?.rank);
+          const pointsValue = pointsStat?.displayValue || (Number.isFinite(pointsStat?.value) ? String(pointsStat.value) : null);
+          rows.push({
+            rank: rankValue != null ? rankValue : String(rows.length + 1),
+            team: entry?.team?.displayName || entry?.team?.name || entry?.team?.shortDisplayName || 'Team',
+            points: pointsValue != null ? pointsValue : '-'
+          });
+        });
+
+        return rows;
+      }
+
+      async function loadTennis() {
+        const date = state.date;
+        const aggregated = new Map();
+        let lastError = null;
+
+        for (const source of TENNIS_SOURCES) {
+          try {
+            const scoreboard = await fetchEspnTennisScoreboard(source.tour, date);
+            const matches = extractEspnTennisMatches(scoreboard, date, { requireMajor: source.requireMajor, tour: source.tour });
+            matches.forEach((match) => {
+              const key = `${source.tour}:${match.id}`;
+              if (!aggregated.has(key)) {
+                aggregated.set(key, match);
+              }
+            });
+          } catch (error) {
+            lastError = error;
+          }
+        }
+
+        let matches = Array.from(aggregated.values())
+          .sort((a, b) => (a.timeRaw || '').localeCompare(b.timeRaw || '') || a.home.localeCompare(b.home));
+
+        if (!matches.length) {
+          matches = buildDemoMatches('Tennis', TENNIS_SCOPE_LABEL, date);
+          const detail = lastError ? ` (Quelle: ${lastError.message})` : '';
+          setStatus('Keine aktuellen Tennis-Daten gefunden – zeige Demo-Ergebnisse' + detail, 'warning');
+        } else if (lastError) {
+          setStatus('Teilweise Tennis-Daten geladen – Fallback aktiv (' + lastError.message + ')', 'warning');
+        }
+
+        renderMatches(matches, 'Keine Tennisbegegnungen für den gewählten Tag gefunden.');
+        hideTable();
+      }
+
+
+      async function fetchEspnTennisScoreboard(tour, isoDate) {
+        const sanitizedTour = tour || 'atp';
+        const compactDate = (isoDate || '').replace(/-/g, '');
+        if (!compactDate || compactDate.length !== 8) {
+          throw new Error('Ungültiges Datum für Tennis-Abruf');
+        }
+        const url = `https://site.api.espn.com/apis/site/v2/sports/tennis/${sanitizedTour}/scoreboard?dates=${compactDate}`;
+        const cacheKey = `espn-tennis:${sanitizedTour}:${compactDate}`;
+        return fetchJsonWithCache(url, { cacheKey, ttl: 60000 });
+      }
+
+      function extractEspnTennisMatches(scoreboard, isoDate, { requireMajor, tour }) {
+        if (!scoreboard || !Array.isArray(scoreboard.events)) {
+          return [];
+        }
+        const targetDate = normalizeToIsoDate(isoDate);
+        const matches = [];
+        scoreboard.events.forEach((event) => {
+          if (requireMajor && !event?.major) {
+            return;
+          }
+          const groupings = Array.isArray(event?.groupings) ? event.groupings : [];
+          groupings.forEach((grouping) => {
+            const competitions = Array.isArray(grouping?.competitions) ? grouping.competitions : [];
+            competitions.forEach((competition) => {
+              const kickoffIso = normalizeToIsoDate(competition?.date || competition?.startDate);
+              if (targetDate && kickoffIso !== targetDate) {
+                return;
+              }
+              const competitors = Array.isArray(competition?.competitors) ? competition.competitors : [];
+              const home = competitors.find((entry) => entry.homeAway === 'home') || competitors[0];
+              const away = competitors.find((entry) => entry.homeAway === 'away') || competitors[1];
+              if (!home || !away) {
+                return;
+              }
+              const id = competition.id || competition.uid || `${tour || 'atp'}-${competition?.date || ''}-${competitors.length}`;
+              matches.push({
+                id,
+                timeRaw: competition?.date || competition?.startDate || '',
+                time: formatTime(competition?.date || competition?.startDate),
+                home: formatEspnTennisCompetitor(home),
+                away: formatEspnTennisCompetitor(away),
+                score: formatEspnTennisScore(home, away, competition),
+                status: mapEspnTennisStatus(competition)
+              });
+            });
+          });
+        });
+        return matches;
+      }
+
+      function formatEspnTennisCompetitor(entry) {
+        if (!entry) {
+          return 'Unbekannt';
+        }
+        if (entry.roster?.displayName) {
+          return entry.roster.displayName;
+        }
+        if (Array.isArray(entry.roster?.athletes) && entry.roster.athletes.length) {
+          return entry.roster.athletes.map((athlete) => athlete.shortName || athlete.displayName || 'Spieler').join(' / ');
+        }
+        if (entry.athlete?.displayName) {
+          return entry.athlete.displayName;
+        }
+        if (entry.team?.displayName) {
+          return entry.team.displayName;
+        }
+        return entry.displayName || entry.shortName || 'Spieler';
+      }
+
+      function formatEspnTennisScore(home, away, competition) {
+        const homeSets = Array.isArray(home?.linescores) ? home.linescores : [];
+        const awaySets = Array.isArray(away?.linescores) ? away.linescores : [];
+        const maxSets = Math.max(homeSets.length, awaySets.length);
+        const sets = [];
+        for (let index = 0; index < maxSets; index += 1) {
+          const homeValue = homeSets[index]?.value;
+          const awayValue = awaySets[index]?.value;
+          if (homeValue == null && awayValue == null) {
+            continue;
+          }
+          const formattedHome = Number.isFinite(homeValue) ? Math.trunc(homeValue) : '-';
+          const formattedAway = Number.isFinite(awayValue) ? Math.trunc(awayValue) : '-';
+          let display = `${formattedHome}:${formattedAway}`;
+          const tieHome = homeSets[index]?.tiebreak;
+          const tieAway = awaySets[index]?.tiebreak;
+          if (Number.isFinite(tieHome) || Number.isFinite(tieAway)) {
+            display += ` (${Number.isFinite(tieHome) ? tieHome : '-'}:${Number.isFinite(tieAway) ? tieAway : '-'})`;
+          }
+          sets.push(display);
+        }
+        if (sets.length) {
+          return sets.join(' · ');
+        }
+        const detail = competition?.status?.type?.detail || competition?.status?.type?.shortDetail;
+        if (detail && detail !== 'TBD') {
+          return detail;
+        }
+        return '-- : --';
+      }
+
+      function mapEspnTennisStatus(competition) {
+        const state = competition?.status?.type?.state;
+        const name = competition?.status?.type?.name;
+        if (state === 'in') {
+          return 'Live';
+        }
+        if (state === 'post') {
+          if (name === 'STATUS_RETIRED') {
+            return 'Aufgegeben';
+          }
+          if (name === 'STATUS_CANCELLED' || name === 'STATUS_WALKOVER') {
+            return 'Abgebrochen';
+          }
+          return 'Beendet';
+        }
+        if (state === 'suspended' || name === 'STATUS_DELAYED') {
+          return 'Unterbrochen';
+        }
+        return 'Geplant';
+      }
+
+      function buildDemoMatches(sportLabel, competitionLabel, isoDate) {
+        const baseDate = normalizeToIsoDate(isoDate) || new Date().toISOString().slice(0, 10);
+        const label = competitionLabel ? `${sportLabel} · ${competitionLabel}` : sportLabel;
+        const createEntry = (offsetHours, home, away, score) => {
+          const date = new Date(`${baseDate}T00:00:00Z`);
+          date.setUTCHours(date.getUTCHours() + offsetHours);
+          return {
+            id: `${sportLabel.toLowerCase()}-demo-${offsetHours}-${home.replace(/\s+/g, '-')}`,
+            time: date.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' }),
+            timeRaw: date.toISOString(),
+            home,
+            away,
+            score,
+            status: 'Simulation'
+          };
+        };
+        return [
+          createEntry(12, `${label} Team A`, `${label} Team B`, '2 : 1'),
+          createEntry(14, `${label} Team C`, `${label} Team D`, '1 : 1'),
+          createEntry(16, `${label} Team E`, `${label} Team F`, '3 : 2')
+        ];
+      }
+
+      function renderMatches(matches, emptyMessage) {
+        DOM.resultsBody.innerHTML = '';
+        if (!matches || !matches.length) {
+          DOM.noResults.textContent = emptyMessage || 'Keine Ergebnisse für den gewählten Tag gefunden.';
+          DOM.noResults.classList.remove('hidden');
+          return;
+        }
+        DOM.noResults.classList.add('hidden');
+
+        matches
+          .sort((a, b) => {
+            const first = a.timeRaw || '';
+            const second = b.timeRaw || '';
+            const rawCompare = first.localeCompare(second);
+            if (rawCompare !== 0) {
+              return rawCompare;
+            }
+            const timeCompare = (a.time || '').localeCompare(b.time || '');
+            if (timeCompare !== 0) {
+              return timeCompare;
+            }
+            return a.home.localeCompare(b.home);
+          })
+          .forEach((match) => {
+            const status = match?.status;
+            const resolvedWinner = match?.winner || (status === 'Beendet' ? determineWinner(match?.homeScore, match?.awayScore) : null);
+            const homeWinner = resolvedWinner === 'home';
+            const awayWinner = resolvedWinner === 'away';
+            const homeName = escapeHtml(match?.home ?? 'Heim');
+            const awayName = escapeHtml(match?.away ?? 'Gast');
+            const homeContent = homeWinner ? `<strong>${homeName}</strong>` : homeName;
+            const awayContent = awayWinner ? `<strong>${awayName}</strong>` : awayName;
+            const row = document.createElement('tr');
+            row.innerHTML = `
+              <td class="col-home">
+                <span class="team-name">${homeContent}</span>
+              </td>
+              <td class="col-away">
+                <span class="team-name">${awayContent}</span>
+              </td>
+              <td class="score col-score">${escapeHtml(match.score)}</td>
+            `;
+            DOM.resultsBody.appendChild(row);
+          });
+      }
+
+      function hideTable() {
+        DOM.tableSection.classList.add('hidden');
+        DOM.standingsBody.innerHTML = '';
+      }
+
+      function renderTable(rows, { emptyMessage = 'Keine Tabellen-Daten verfügbar.' } = {}) {
+        DOM.tableSection.classList.remove('hidden');
+        DOM.standingsBody.innerHTML = '';
+
+        if (!rows || !rows.length) {
+          const emptyRow = document.createElement('tr');
+          emptyRow.className = 'standings-empty';
+          emptyRow.innerHTML = `<td colspan="3">${escapeHtml(emptyMessage)}</td>`;
+          DOM.standingsBody.appendChild(emptyRow);
+          return;
+        }
+
+        rows.forEach((entry) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${entry.rank ?? '-'}</td>
+            <td>${escapeHtml(entry.team ?? '')}</td>
+            <td>${entry.points ?? '-'}</td>
+          `;
+          DOM.standingsBody.appendChild(tr);
+        });
+      }
+
+      function setStatus(message, level) {
+        DOM.statusBox.dataset.level = level || 'info';
+        DOM.statusBox.textContent = message;
+      }
+
+      function matchesSelectedDate(dateValue, selectedDate) {
+        if (!dateValue || !selectedDate) {
+          return false;
+        }
+        const target = typeof dateValue === 'number' ? new Date(dateValue) : new Date(dateValue);
+        const normalized = target.toISOString().slice(0, 10);
+        return normalized === selectedDate;
+      }
+
+      function matchBelongsToActiveMatchday(match) {
+        if (!match) {
+          return false;
+        }
+        const isoDate = normalizeToIsoDate(match.matchDateTimeUTC || match.matchDateTime);
+        if (typeof state.activeMatchdayOrder === 'number' && Number.isFinite(state.activeMatchdayOrder)) {
+          const matchdays = Array.isArray(state.matchdays) ? state.matchdays : [];
+          const activeEntry = matchdays.find((entry) => entry.order === state.activeMatchdayOrder);
+          if (activeEntry?.dates?.length && isoDate && activeEntry.dates.includes(isoDate)) {
+            return true;
+          }
+        }
+        const group = match.group || match.Group;
+        const rawOrder = group?.groupOrderID ?? group?.GroupOrderID;
+        const matchdayOrder = rawOrder != null ? Number.parseInt(rawOrder, 10) : NaN;
+        if (typeof state.activeMatchdayOrder === 'number' && Number.isFinite(state.activeMatchdayOrder) && Number.isFinite(matchdayOrder)) {
+          return matchdayOrder === state.activeMatchdayOrder;
+        }
+        if (isoDate && state.matchdayDateLookup instanceof Map && state.matchdayDateLookup.get(isoDate) === state.activeMatchdayOrder) {
+          return true;
+        }
+        return matchesSelectedDate(match.matchDateTimeUTC || match.matchDateTime, state.date);
+      }
+
+      function deriveFootballSeason(dateStr) {
+        const date = new Date(dateStr + 'T00:00:00Z');
+        const year = date.getUTCFullYear();
+        const month = date.getUTCMonth() + 1;
+        return month >= 7 ? year : year - 1;
+      }
+
+      function deriveMatchStatus(match) {
+        if (match.matchIsFinished || match.MatchIsFinished) {
+          return 'Beendet';
+        }
+        const start = Date.parse(match.matchDateTimeUTC || match.matchDateTime);
+        if (!Number.isNaN(start) && Date.now() >= start) {
+          return 'Live';
+        }
+        return 'Geplant';
+      }
+
+      function formatTime(value, isEpochSeconds = false) {
+        if (!value) {
+          return '--:--';
+        }
+        const date = isEpochSeconds ? new Date(value) : new Date(value);
+        if (Number.isNaN(date.getTime())) {
+          return '--:--';
+        }
+        return date.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' });
+      }
+
+      function formatScore(results) {
+        const final = resolveOpenligaFinalResult(results);
+        if (!final) {
+          return '-- : --';
+        }
+        const home = final.pointsTeam1 ?? final.PointsTeam1 ?? '-';
+        const away = final.pointsTeam2 ?? final.PointsTeam2 ?? '-';
+        return `${home} : ${away}`;
+      }
+
+      function deriveMatchday(rawData, matchesOfDay) {
+        const reference = matchesOfDay?.[0];
+        if (reference && reference.id) {
+          const original = rawData.find((match) => (match.matchId || match.matchID) === reference.id);
+          return original?.group?.groupOrderID || original?.Group?.GroupOrderID;
+        }
+        const fallback = rawData.find((match) => match.group?.groupOrderID || match.Group?.GroupOrderID);
+        return fallback?.group?.groupOrderID || fallback?.Group?.GroupOrderID || null;
+      }
+
+      function resolveOpenligaFinalResult(results) {
+        if (!Array.isArray(results) || !results.length) {
+          return null;
+        }
+        return results.find((entry) => entry.resultTypeID === 2 || entry.resultTypeId === 2) || results[results.length - 1] || null;
+      }
+
+      function extractOpenligaScoreDetails(match) {
+        const results = match?.matchResults || match?.MatchResults;
+        const final = resolveOpenligaFinalResult(results);
+        if (!final) {
+          return {};
+        }
+        const homeScore = parseScoreValue(final.pointsTeam1 ?? final.PointsTeam1);
+        const awayScore = parseScoreValue(final.pointsTeam2 ?? final.PointsTeam2);
+        const finished = Boolean(match?.matchIsFinished ?? match?.MatchIsFinished);
+        let winner = finished ? determineWinner(homeScore, awayScore) : null;
+        if (finished && !winner) {
+          const goals = match?.goals || match?.Goals;
+          if (Array.isArray(goals) && goals.length) {
+            const lastGoal = goals[goals.length - 1];
+            const altHome = parseScoreValue(lastGoal?.scoreTeam1 ?? lastGoal?.ScoreTeam1);
+            const altAway = parseScoreValue(lastGoal?.scoreTeam2 ?? lastGoal?.ScoreTeam2);
+            winner = determineWinner(altHome, altAway) || winner;
+          }
+        }
+        return {
+          homeScore,
+          awayScore,
+          winner
+        };
+      }
+
+      function parseScoreValue(value) {
+        const numeric = Number.parseInt(value, 10);
+        return Number.isFinite(numeric) ? numeric : null;
+      }
+
+      function determineWinner(homeScore, awayScore) {
+        if (!Number.isFinite(homeScore) || !Number.isFinite(awayScore) || homeScore === awayScore) {
+          return null;
+        }
+        return homeScore > awayScore ? 'home' : 'away';
+      }
+
+      async function fetchCurrentGroup(shortcut, season) {
+        try {
+          const group = await fetchJsonWithCache(`${OPENLIGA_BASE}/getcurrentgroup/${shortcut}/${season}`, { cacheKey: `group:${shortcut}:${season}`, ttl: 300000 });
+          return group?.groupOrderID || group?.GroupOrderID || null;
+        } catch (error) {
+          console.warn('getcurrentgroup failed', error);
+          return null;
+        }
+      }
+
+      async function resolveFootballTable(shortcut, season, matchday, { preferredSeason } = {}) {
+        if (!shortcut) {
+          return { rows: [], error: null };
+        }
+        const attempts = [];
+        const seen = new Set();
+
+        const pushAttempt = (targetSeason, targetMatchday) => {
+          const key = `${targetSeason}:${targetMatchday ?? 'full'}`;
+          if (seen.has(key)) {
+            return;
+          }
+          seen.add(key);
+          attempts.push({ season: targetSeason, matchday: targetMatchday });
+        };
+
+        const expectedSeason = Number.isFinite(preferredSeason) ? preferredSeason : season;
+
+        const candidateSeasons = [];
+        if (Number.isFinite(preferredSeason)) {
+          candidateSeasons.push(preferredSeason);
+        }
+        if (Number.isFinite(season) && !candidateSeasons.includes(season)) {
+          candidateSeasons.push(season);
+        }
+
+        candidateSeasons.forEach((seasonValue) => {
+          if (Number.isFinite(seasonValue)) {
+            if (Number.isFinite(matchday)) {
+              pushAttempt(seasonValue, matchday);
+              if (matchday > 1) {
+                pushAttempt(seasonValue, matchday - 1);
+              }
+            }
+            pushAttempt(seasonValue, null);
+          }
+        });
+
+        candidateSeasons.forEach((seasonValue) => {
+          if (Number.isFinite(seasonValue)) {
+            pushAttempt(seasonValue - 1, null);
+          }
+        });
+
+        if (!attempts.length && Number.isFinite(expectedSeason)) {
+          pushAttempt(expectedSeason, Number.isFinite(matchday) ? matchday : null);
+        }
+
+        let lastError = null;
+        for (const attempt of attempts) {
+          try {
+            const suffix = attempt.matchday ? `/${attempt.matchday}` : '';
+            const data = await fetchJsonWithCache(`${OPENLIGA_BASE}/getbltable/${shortcut}/${attempt.season}${suffix}`, {
+              cacheKey: `table:${shortcut}:${attempt.season}:${attempt.matchday ?? 'full'}`,
+              ttl: 300000
+            });
+            if (Array.isArray(data) && data.length) {
+              const formatted = formatTable(data);
+              const baseSeason = Number.isFinite(expectedSeason) ? expectedSeason : season;
+              const notice = Number.isFinite(baseSeason) && attempt.season !== baseSeason
+                ? `Tabelle der Saison ${attempt.season}/${String((attempt.season + 1) % 100).padStart(2, '0')} als Fallback.`
+                : null;
+              return { rows: formatted, notice };
+            }
+          } catch (error) {
+            lastError = error;
+          }
+        }
+
+        return { rows: [], error: lastError };
+      }
+
+      async function fetchJson(url, { timeout = FETCH_TIMEOUT_MS } = {}) {
+        const text = await fetchText(url, { timeout, headers: { Accept: 'application/json,text/plain' } });
+        if (!text) {
+          return null;
+        }
+        const trimmed = text.trim();
+        try {
+          return JSON.parse(trimmed);
+        } catch (error) {
+          const looksLikeBase64 = url?.endsWith('.base64.txt') || /^[A-Za-z0-9+/=\s]+$/.test(trimmed);
+          if (looksLikeBase64) {
+            const decoded = decodeBase64Json(trimmed);
+            if (decoded != null) {
+              return decoded;
+            }
+          }
+          throw error;
+        }
+      }
+
+      async function fetchJsonWithCache(url, { cacheKey, ttl = 60000 } = {}) {
+        const cached = cacheKey ? getCacheEntry(cacheKey, ttl) : null;
+        if (cached != null) {
+          return cached;
+        }
+        const value = await fetchJson(url);
+        if (cacheKey) {
+          setCacheEntry(cacheKey, value);
+        }
+        return value;
+      }
+
+      function formatTable(entries) {
+        if (!Array.isArray(entries)) {
+          return [];
+        }
+        return entries.map((entry, index) => ({
+          rank: entry.rank ?? entry.Rank ?? index + 1,
+          team: entry.teamName ?? entry.TeamName ?? entry.team?.teamName ?? 'Team',
+          wins: entry.won ?? entry.Won,
+          draws: entry.draw ?? entry.Draw,
+          losses: entry.lost ?? entry.Lost,
+          points: entry.points ?? entry.Points
+        }));
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? '')
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#039;');
+      }
+    })();
+  </script>
+</body>
+</html>
