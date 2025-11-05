@@ -13,6 +13,10 @@ const FEEDS = {
             url: 'https://newsfeed.zeit.de/politik/index'
         },
         {
+            source: 'Süddeutsche Zeitung Politik',
+            url: 'https://rss.sueddeutsche.de/rss/Politik'
+        },
+        {
             source: 'SPIEGEL Politik',
             url: 'https://www.spiegel.de/politik/index.rss'
         }
@@ -21,20 +25,20 @@ const FEEDS = {
         {
             source: 'Handelsblatt',
             url: 'https://www.handelsblatt.com/contentexport/feed/wirtschaft'
-        },
-        {
-            source: 'ZEIT Wirtschaft',
-            url: 'https://newsfeed.zeit.de/wirtschaft/index'
         }
     ],
     Gesellschaft: [
         {
-            source: 'ZEIT Gesellschaft',
-            url: 'https://newsfeed.zeit.de/gesellschaft/index'
+            source: 'Squirrel News Gesellschaft',
+            url: 'https://squirrel-news.net/feed'
         },
         {
-            source: 'SPIEGEL Panorama',
-            url: 'https://www.spiegel.de/panorama/index.rss'
+            source: 'Süddeutsche Zeitung Leben',
+            url: 'https://rss.sueddeutsche.de/rss/leben'
+        },
+        {
+            source: 'ZEIT Gesellschaft',
+            url: 'https://newsfeed.zeit.de/gesellschaft/index'
         }
     ],
     Sport: [
