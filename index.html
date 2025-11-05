@@ -386,18 +386,13 @@
     </main>
 
     <script>
-        const ORDER = ['Politik', 'Wirtschaft', 'Gesellschaft', 'Sport'];
-        const REFRESH_INTERVAL = 60 * 60 * 1000;
-        const TICKER_MATCHES_URL = 'liveticker/public/data/regionalliga-nord-matches.json';
-        const TICKER_TABLE_URL = 'liveticker/public/data/regionalliga-nord-table.json';
-        const TICKER_REFRESH_INTERVAL = 5 * 60 * 1000;
+    const ORDER = ['Politik', 'Wirtschaft', 'Gesellschaft', 'Sport'];
+    const REFRESH_INTERVAL = 60 * 60 * 1000;
 
         const newsContainer = document.getElementById('news');
         const statusElement = document.getElementById('status');
         const updatedAtElement = document.getElementById('updated-at');
         let tickerElements = null;
-        let tickerIntervalId = null;
-        let tickerLoading = false;
 
         const intlDate = new Intl.DateTimeFormat('de-DE', {
             dateStyle: 'medium',
@@ -556,25 +551,6 @@
             return row;
         }
 
-        function withCacheBuster(url) {
-            if (!url) {
-                return '';
-            }
-            const separator = url.includes('?') ? '&' : '?';
-            return `${url}${separator}t=${Date.now()}`;
-        }
-
-        async function fetchTickerJson(url) {
-            if (!url) {
-                return null;
-            }
-            const response = await fetch(withCacheBuster(url));
-            if (!response.ok) {
-                throw new Error(`HTTP ${response.status}`);
-            }
-            return response.json();
-        }
-
         function renderTicker(matchesData, tableData) {
             if (!tickerElements) {
                 return;
@@ -657,45 +633,6 @@
                 } else {
                     meta.hidden = true;
                 }
-            }
-        }
-
-        async function loadTickerData() {
-            if (!tickerElements || tickerLoading) {
-                return;
-            }
-            tickerLoading = true;
-
-            const { status } = tickerElements;
-            if (status) {
-                status.textContent = 'lade liveticker...';
-                status.classList.remove('error');
-                status.hidden = false;
-            }
-
-            try {
-                const [matchesResult, tableResult] = await Promise.allSettled([
-                    fetchTickerJson(TICKER_MATCHES_URL),
-                    fetchTickerJson(TICKER_TABLE_URL)
-                ]);
-
-                const matchesData = matchesResult.status === 'fulfilled' ? matchesResult.value : null;
-                const tableData = tableResult.status === 'fulfilled' ? tableResult.value : null;
-
-                if (!matchesData && !tableData) {
-                    throw matchesResult.reason || tableResult.reason || new Error('Ticker-Daten nicht verfügbar.');
-                }
-
-                renderTicker(matchesData, tableData);
-            } catch (error) {
-                console.error('Fehler beim Laden des Livetickers:', error);
-                if (status) {
-                    status.textContent = 'liveticker konnte nicht geladen werden.';
-                    status.classList.add('error');
-                    status.hidden = false;
-                }
-            } finally {
-                tickerLoading = false;
             }
         }
 
@@ -833,6 +770,7 @@
             }
 
             appendTickerSection();
+            updateTicker(data?.liveticker || null);
 
             if (updatedAtElement) {
                 const updated = data?.updatedAt ? formatDate(data.updatedAt) : '';
@@ -911,11 +849,6 @@
         function appendTickerSection() {
             if (!newsContainer) {
                 return;
-            }
-
-            if (tickerIntervalId) {
-                clearInterval(tickerIntervalId);
-                tickerIntervalId = null;
             }
 
             const tickerSection = createStaticSection('Liveticker', 'lade liveticker...');
@@ -999,9 +932,38 @@
             };
 
             newsContainer.appendChild(tickerSection);
+        }
 
-            loadTickerData();
-            tickerIntervalId = setInterval(loadTickerData, TICKER_REFRESH_INTERVAL);
+        function updateTicker(livetickerData) {
+            if (!tickerElements) {
+                return;
+            }
+
+            const matchesData = livetickerData?.matches || null;
+            const tableData = livetickerData?.table || null;
+
+            if (!matchesData && !tableData) {
+                renderTicker({ matches: [] }, { table: [] });
+                if (tickerElements.matchesHeading) {
+                    tickerElements.matchesHeading.textContent = 'keine spiele';
+                }
+                if (tickerElements.status) {
+                    tickerElements.status.textContent = 'keine liveticker-daten verfügbar.';
+                    tickerElements.status.classList.add('error');
+                    tickerElements.status.hidden = false;
+                }
+                if (tickerElements.meta) {
+                    tickerElements.meta.hidden = true;
+                }
+                return;
+            }
+
+            if (tickerElements.status) {
+                tickerElements.status.classList.remove('error');
+                tickerElements.status.hidden = false;
+            }
+
+            renderTicker(matchesData, tableData);
         }
 
         appendTickerSection();
