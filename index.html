@@ -305,6 +305,32 @@
             white-space: normal;
         }
 
+        .ticker-embed-wrapper {
+            margin-top: 1.2rem;
+        }
+
+        .ticker-embed-label {
+            margin: 0 0 0.5rem;
+            font-size: 0.82rem;
+            color: rgba(31, 36, 48, 0.6);
+            text-transform: lowercase;
+        }
+
+        .ticker-embed {
+            width: 100%;
+            min-height: 520px;
+            border: 1px solid var(--card-border);
+            border-radius: 0.9rem;
+            box-shadow: 0 0.35rem 1.2rem rgba(15, 30, 60, 0.08);
+            overflow: hidden;
+        }
+
+        @media (max-width: 640px) {
+            .ticker-embed {
+                min-height: 400px;
+            }
+        }
+
         .ticker-table tbody tr:nth-child(odd) {
             background: rgba(10, 108, 241, 0.05);
         }
@@ -930,6 +956,25 @@
                 matchesHeading,
                 tableBody
             };
+
+            const embedWrapper = document.createElement('div');
+            embedWrapper.className = 'ticker-embed-wrapper';
+
+            const embedLabel = document.createElement('p');
+            embedLabel.className = 'ticker-embed-label';
+            embedLabel.textContent = 'volle liveticker-ansicht';
+            embedWrapper.appendChild(embedLabel);
+
+            const iframe = document.createElement('iframe');
+            iframe.className = 'ticker-embed';
+            iframe.src = 'liveticker/index.html';
+            iframe.title = 'Liveticker Regionalliga Nord';
+            iframe.loading = 'lazy';
+            iframe.setAttribute('referrerpolicy', 'no-referrer');
+            iframe.setAttribute('allowfullscreen', '');
+            embedWrapper.appendChild(iframe);
+
+            content.appendChild(embedWrapper);
 
             newsContainer.appendChild(tickerSection);
         }
