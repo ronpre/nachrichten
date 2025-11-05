@@ -226,147 +226,6 @@
             text-decoration: underline;
         }
 
-        .ticker-grid {
-            display: grid;
-            gap: 0.9rem;
-            margin-top: 0.75rem;
-        }
-
-        .ticker-block {
-            padding: 0.6rem 0.1rem;
-        }
-
-        .ticker-block-title {
-            margin: 0 0 0.55rem;
-            font-size: 0.9rem;
-            font-weight: 600;
-            letter-spacing: 0.03em;
-            text-transform: lowercase;
-            color: rgba(31, 36, 48, 0.7);
-        }
-
-        .ticker-matches {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 0.65rem;
-        }
-
-        .ticker-match {
-            display: grid;
-            gap: 0.25rem;
-        }
-
-        .ticker-match-time {
-            font-size: 0.82rem;
-            font-weight: 600;
-            color: var(--accent);
-        }
-
-        .ticker-match-teams {
-            font-size: 0.9rem;
-        }
-
-        .ticker-match-score {
-            font-size: 0.82rem;
-            color: rgba(31, 36, 48, 0.7);
-        }
-
-        .ticker-empty {
-            color: rgba(31, 36, 48, 0.6);
-            font-size: 0.82rem;
-        }
-
-        .ticker-table-wrapper {
-            overflow-x: auto;
-        }
-
-        .ticker-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 0.84rem;
-        }
-
-        .ticker-table th,
-        .ticker-table td {
-            padding: 0.45rem 0.25rem;
-            border-bottom: 1px solid rgba(15, 30, 60, 0.08);
-            text-align: left;
-        }
-
-        .ticker-table th.numeric,
-        .ticker-table td.numeric {
-            text-align: right;
-        }
-
-        .ticker-table td.team {
-            white-space: normal;
-        }
-
-        .ticker-embed-wrapper {
-            margin-top: 1.2rem;
-        }
-
-        .ticker-embed-label {
-            margin: 0 0 0.5rem;
-            font-size: 0.82rem;
-            color: rgba(31, 36, 48, 0.6);
-            text-transform: lowercase;
-        }
-
-        .ticker-embed {
-            width: 100%;
-            min-height: 520px;
-            border: 1px solid var(--card-border);
-            border-radius: 0.9rem;
-            box-shadow: 0 0.35rem 1.2rem rgba(15, 30, 60, 0.08);
-            overflow: hidden;
-        }
-
-        @media (max-width: 640px) {
-            .ticker-embed {
-                min-height: 400px;
-            }
-        }
-
-        .ticker-table tbody tr:nth-child(odd) {
-            background: rgba(10, 108, 241, 0.05);
-        }
-
-        .ticker-table tbody tr:hover {
-            background: rgba(10, 108, 241, 0.1);
-        }
-
-        .ticker-meta {
-            margin: 0.35rem 0 0.4rem;
-            font-size: 0.78rem;
-            color: rgba(31, 36, 48, 0.58);
-        }
-
-        .ticker-status {
-            margin-bottom: 0.3rem;
-        }
-
-        @media (min-width: 640px) {
-            .ticker-match {
-                grid-template-columns: minmax(6.5rem, auto) 1fr auto;
-                align-items: baseline;
-            }
-
-            .ticker-match-score {
-                text-align: right;
-            }
-        }
-
-        @media (min-width: 780px) {
-            .ticker-grid {
-                grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
-                align-items: start;
-            }
-        }
-
         @media (prefers-color-scheme: dark) {
             :root {
                 --bg: #10141f;
@@ -383,21 +242,6 @@
             .source {
                 color: rgba(248, 249, 252, 0.78);
             }
-
-            .ticker-block-title,
-            .ticker-match-score,
-            .ticker-meta,
-            .ticker-empty {
-                color: rgba(248, 249, 252, 0.7);
-            }
-
-            .ticker-table tbody tr:nth-child(odd) {
-                background: rgba(96, 165, 250, 0.08);
-            }
-
-            .ticker-table tbody tr:hover {
-                background: rgba(96, 165, 250, 0.16);
-            }
         }
     </style>
 </head>
@@ -412,24 +256,16 @@
     </main>
 
     <script>
-    const ORDER = ['Politik', 'Wirtschaft', 'Gesellschaft', 'Sport'];
-    const REFRESH_INTERVAL = 60 * 60 * 1000;
+        const ORDER = ['Politik', 'Wirtschaft', 'Gesellschaft', 'Sport'];
+        const REFRESH_INTERVAL = 60 * 60 * 1000;
 
         const newsContainer = document.getElementById('news');
         const statusElement = document.getElementById('status');
         const updatedAtElement = document.getElementById('updated-at');
-        let tickerElements = null;
 
         const intlDate = new Intl.DateTimeFormat('de-DE', {
             dateStyle: 'medium',
             timeStyle: 'short'
-        });
-        const matchDateFormatter = new Intl.DateTimeFormat('de-DE', {
-            weekday: 'short',
-            day: '2-digit',
-            month: '2-digit',
-            hour: '2-digit',
-            minute: '2-digit'
         });
 
         function setStatus(message = '', type = 'info') {
@@ -454,212 +290,6 @@
                 return '';
             }
             return intlDate.format(date);
-        }
-
-        function parseIsoDate(value) {
-            if (!value) {
-                return null;
-            }
-            const date = new Date(value);
-            if (Number.isNaN(date.getTime())) {
-                return null;
-            }
-            return date;
-        }
-
-        function formatMatchKickoff(dateLike) {
-            const date = dateLike instanceof Date ? dateLike : parseIsoDate(dateLike);
-            if (!date) {
-                return '';
-            }
-            return matchDateFormatter.format(date);
-        }
-
-        function prepareTickerMatches(matches) {
-            if (!Array.isArray(matches)) {
-                return { matchday: null, matches: [], primaryDate: null };
-            }
-
-            const parsed = matches
-                .map(match => {
-                    const kickoffDate = parseIsoDate(match?.kickoff);
-                    if (!kickoffDate) {
-                        return null;
-                    }
-                    return { ...match, kickoffDate };
-                })
-                .filter(Boolean)
-                .sort((a, b) => a.kickoffDate - b.kickoffDate);
-
-            if (!parsed.length) {
-                return { matchday: null, matches: [], primaryDate: null };
-            }
-
-            const now = new Date();
-            const upcoming = parsed.find(match => match.kickoffDate >= now);
-            const fallback = parsed[parsed.length - 1];
-            const targetMatchday = upcoming?.matchday ?? fallback?.matchday ?? null;
-
-            let selected = Array.isArray(parsed) ? parsed : [];
-            if (targetMatchday != null) {
-                const sameMatchday = parsed.filter(match => match.matchday === targetMatchday);
-                if (sameMatchday.length) {
-                    selected = sameMatchday;
-                }
-            }
-
-            if (!selected.length) {
-                selected = parsed.slice(0, 5);
-            }
-
-            const primaryDate = selected[0]?.kickoffDate ?? null;
-            return {
-                matchday: targetMatchday,
-                matches: selected,
-                primaryDate
-            };
-        }
-
-        function createTickerMatchItem(match) {
-            const item = document.createElement('li');
-            item.className = 'ticker-match';
-
-            const kickoff = document.createElement('span');
-            kickoff.className = 'ticker-match-time';
-            kickoff.textContent = formatMatchKickoff(match?.kickoffDate || match?.kickoff) || 'zeit folgt';
-            item.appendChild(kickoff);
-
-            const teams = document.createElement('span');
-            teams.className = 'ticker-match-teams';
-            const home = match?.home || 'Unbekannt';
-            const away = match?.away || 'Unbekannt';
-            teams.textContent = `${home} - ${away}`;
-            item.appendChild(teams);
-
-            const score = document.createElement('span');
-            score.className = 'ticker-match-score';
-            const rawScore = typeof match?.score === 'string' ? match.score.trim() : '';
-            const hasScore = rawScore && rawScore !== '-:-';
-            const displayScore = hasScore ? rawScore : 'Anpfiff';
-            const statusText = match?.status && match.status !== 'Geplant' ? ` (${match.status})` : '';
-            score.textContent = `${displayScore}${statusText}`.trim();
-            item.appendChild(score);
-
-            return item;
-        }
-
-        function createTickerTableRow(entry) {
-            const row = document.createElement('tr');
-
-            const appendCell = (value, className) => {
-                const cell = document.createElement('td');
-                cell.textContent = value ?? '-';
-                if (className) {
-                    cell.classList.add(className);
-                }
-                row.appendChild(cell);
-            };
-
-            appendCell(Number.isFinite(entry?.rank) ? entry.rank : '-', 'numeric');
-            appendCell(entry?.team || 'Unbekannt', 'team');
-            appendCell(Number.isFinite(entry?.played) ? entry.played : '-', 'numeric');
-
-            const goalsFor = Number.isFinite(entry?.goalsFor) ? entry.goalsFor : null;
-            const goalsAgainst = Number.isFinite(entry?.goalsAgainst) ? entry.goalsAgainst : null;
-            const goalsDisplay = goalsFor != null && goalsAgainst != null ? `${goalsFor}:${goalsAgainst}` : '-';
-            appendCell(goalsDisplay, 'numeric');
-
-            const diff = goalsFor != null && goalsAgainst != null ? goalsFor - goalsAgainst : null;
-            appendCell(diff != null ? diff : '-', 'numeric');
-
-            appendCell(Number.isFinite(entry?.points) ? entry.points : '-', 'numeric');
-
-            return row;
-        }
-
-        function renderTicker(matchesData, tableData) {
-            if (!tickerElements) {
-                return;
-            }
-
-            const { matchesList, matchesHeading, tableBody, status, meta } = tickerElements;
-
-            const matchInfo = prepareTickerMatches(matchesData?.matches);
-
-            if (matchesHeading) {
-                if (matchInfo.matchday != null) {
-                    matchesHeading.textContent = `spieltag ${matchInfo.matchday}`;
-                } else {
-                    matchesHeading.textContent = 'kommende spiele';
-                }
-            }
-
-            if (matchesList) {
-                matchesList.innerHTML = '';
-                const selectedMatches = matchInfo.matches;
-                if (!selectedMatches.length) {
-                    const placeholder = document.createElement('li');
-                    placeholder.className = 'ticker-match ticker-empty';
-                    placeholder.textContent = 'Keine Spiele verfügbar.';
-                    matchesList.appendChild(placeholder);
-                } else {
-                    selectedMatches.forEach(match => {
-                        matchesList.appendChild(createTickerMatchItem(match));
-                    });
-                }
-            }
-
-            if (tableBody) {
-                tableBody.innerHTML = '';
-                const entries = Array.isArray(tableData?.table) ? tableData.table : [];
-                if (!entries.length) {
-                    const emptyRow = document.createElement('tr');
-                    const cell = document.createElement('td');
-                    cell.colSpan = 6;
-                    cell.className = 'ticker-empty';
-                    cell.textContent = 'Keine Tabelle verfügbar.';
-                    emptyRow.appendChild(cell);
-                    tableBody.appendChild(emptyRow);
-                } else {
-                    entries.forEach(entry => {
-                        tableBody.appendChild(createTickerTableRow(entry));
-                    });
-                }
-            }
-
-            if (status) {
-                const updateSource = matchesData?.lastUpdated || tableData?.lastUpdated || null;
-                const formatted = formatDate(updateSource);
-                status.classList.remove('error');
-                status.textContent = formatted ? `stand: ${formatted}` : 'stand: keine aktuellen daten';
-                status.hidden = false;
-            }
-
-            if (meta) {
-                const sources = [];
-                if (matchesData?.source) {
-                    sources.push(matchesData.source);
-                }
-                if (tableData?.source && !sources.includes(tableData.source)) {
-                    sources.push(tableData.source);
-                }
-                const metaParts = [];
-                if (matchInfo.matchday != null) {
-                    metaParts.push(`spieltag ${matchInfo.matchday}`);
-                }
-                if (matchInfo.primaryDate) {
-                    metaParts.push(`beginn: ${formatDate(matchInfo.primaryDate)}`);
-                }
-                if (sources.length) {
-                    metaParts.push(`quelle: ${sources.join(' | ')}`);
-                }
-                if (metaParts.length) {
-                    meta.textContent = metaParts.join(' | ');
-                    meta.hidden = false;
-                } else {
-                    meta.hidden = true;
-                }
-            }
         }
 
         function createCard(category, article) {
@@ -753,7 +383,7 @@
 
                 const sectionLabel = document.createElement('span');
                 sectionLabel.className = 'section-label';
-                sectionLabel.textContent = category.toLowerCase();
+                sectionLabel.textContent = category;
 
                 const sectionIndicator = document.createElement('span');
                 sectionIndicator.className = 'section-indicator';
@@ -791,15 +421,11 @@
 
             if (!hasArticles) {
                 setStatus('Keine aktuellen Daten gefunden. Bitte führen Sie "npm run update" aus.', 'error');
-                appendTickerSection();
-                updateTicker(data?.liveticker || null);
-                return;
+            } else {
+                setStatus('');
             }
 
-            setStatus('');
-
             appendTickerSection();
-            updateTicker(data?.liveticker || null);
 
             if (updatedAtElement) {
                 const updated = data?.updatedAt ? formatDate(data.updatedAt) : '';
@@ -822,6 +448,9 @@
             }
         }
 
+        loadNews();
+        setInterval(loadNews, REFRESH_INTERVAL);
+
         function createStaticSection(label, message) {
             const section = document.createElement('section');
             section.className = 'category';
@@ -838,7 +467,7 @@
 
             const labelSpan = document.createElement('span');
             labelSpan.className = 'section-label';
-            labelSpan.textContent = label.toLowerCase();
+            labelSpan.textContent = label;
 
             const indicator = document.createElement('span');
             indicator.className = 'section-indicator';
@@ -879,144 +508,9 @@
             if (!newsContainer) {
                 return;
             }
-
-            const tickerSection = createStaticSection('Liveticker', 'lade liveticker...');
-            const content = tickerSection.querySelector('.section-content');
-            if (!content) {
-                newsContainer.appendChild(tickerSection);
-                return;
-            }
-
-            const status = content.querySelector('.status');
-            if (status) {
-                status.id = 'liveticker-status';
-                status.classList.add('ticker-status');
-                status.classList.remove('error');
-                status.hidden = false;
-                status.textContent = 'lade liveticker...';
-            }
-
-            const meta = document.createElement('p');
-            meta.className = 'ticker-meta';
-            meta.hidden = true;
-            content.appendChild(meta);
-
-            const grid = document.createElement('div');
-            grid.className = 'ticker-grid';
-            content.appendChild(grid);
-
-            const matchesBlock = document.createElement('div');
-            matchesBlock.className = 'ticker-block';
-            grid.appendChild(matchesBlock);
-
-            const matchesHeading = document.createElement('h3');
-            matchesHeading.className = 'ticker-block-title';
-            matchesHeading.textContent = 'kommende spiele';
-            matchesBlock.appendChild(matchesHeading);
-
-            const matchesList = document.createElement('ul');
-            matchesList.className = 'ticker-matches';
-            matchesBlock.appendChild(matchesList);
-
-            const tableBlock = document.createElement('div');
-            tableBlock.className = 'ticker-block';
-            grid.appendChild(tableBlock);
-
-            const tableHeading = document.createElement('h3');
-            tableHeading.className = 'ticker-block-title';
-            tableHeading.textContent = 'tabelle';
-            tableBlock.appendChild(tableHeading);
-
-            const tableWrapper = document.createElement('div');
-            tableWrapper.className = 'ticker-table-wrapper';
-            tableBlock.appendChild(tableWrapper);
-
-            const table = document.createElement('table');
-            table.className = 'ticker-table';
-            const tableHead = document.createElement('thead');
-            const headRow = document.createElement('tr');
-            ['platz', 'team', 'sp', 'tore', 'diff', 'pkt'].forEach(label => {
-                const th = document.createElement('th');
-                th.textContent = label;
-                if (label !== 'team') {
-                    th.classList.add('numeric');
-                }
-                headRow.appendChild(th);
-            });
-            tableHead.appendChild(headRow);
-            table.appendChild(tableHead);
-
-            const tableBody = document.createElement('tbody');
-            table.appendChild(tableBody);
-            tableWrapper.appendChild(table);
-
-            tickerElements = {
-                section: tickerSection,
-                content,
-                status,
-                meta,
-                matchesList,
-                matchesHeading,
-                tableBody
-            };
-
-            const embedWrapper = document.createElement('div');
-            embedWrapper.className = 'ticker-embed-wrapper';
-
-            const embedLabel = document.createElement('p');
-            embedLabel.className = 'ticker-embed-label';
-            embedLabel.textContent = 'volle liveticker-ansicht';
-            embedWrapper.appendChild(embedLabel);
-
-            const iframe = document.createElement('iframe');
-            iframe.className = 'ticker-embed';
-            iframe.src = './liveticker/index.html';
-            iframe.title = 'Liveticker Regionalliga Nord';
-            iframe.loading = 'lazy';
-            iframe.setAttribute('referrerpolicy', 'no-referrer');
-            iframe.setAttribute('allowfullscreen', '');
-            embedWrapper.appendChild(iframe);
-
-            content.appendChild(embedWrapper);
-
+            const tickerSection = createStaticSection('Liveticker', 'Noch keine Liveticker verfügbar.');
             newsContainer.appendChild(tickerSection);
         }
-
-        function updateTicker(livetickerData) {
-            if (!tickerElements) {
-                return;
-            }
-
-            const matchesData = livetickerData?.matches || null;
-            const tableData = livetickerData?.table || null;
-
-            if (!matchesData && !tableData) {
-                renderTicker({ matches: [] }, { table: [] });
-                if (tickerElements.matchesHeading) {
-                    tickerElements.matchesHeading.textContent = 'keine spiele';
-                }
-                if (tickerElements.status) {
-                    tickerElements.status.textContent = 'keine liveticker-daten verfügbar.';
-                    tickerElements.status.classList.add('error');
-                    tickerElements.status.hidden = false;
-                }
-                if (tickerElements.meta) {
-                    tickerElements.meta.hidden = true;
-                }
-                return;
-            }
-
-            if (tickerElements.status) {
-                tickerElements.status.classList.remove('error');
-                tickerElements.status.hidden = false;
-            }
-
-            renderTicker(matchesData, tableData);
-        }
-
-        appendTickerSection();
-        loadNews();
-        setInterval(loadNews, REFRESH_INTERVAL);
     </script>
 </body>
 </html>

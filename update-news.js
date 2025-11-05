@@ -3,21 +3,6 @@ const fs = require('fs/promises');
 const path = require('path');
 const Parser = require('rss-parser');
 
-const LIVETICKER_MATCHES_FILE = path.join(
-    __dirname,
-    'liveticker',
-    'public',
-    'data',
-    'regionalliga-nord-matches.json'
-);
-const LIVETICKER_TABLE_FILE = path.join(
-    __dirname,
-    'liveticker',
-    'public',
-    'data',
-    'regionalliga-nord-table.json'
-);
-
 const OUTPUT_FILE = path.join(__dirname, 'news.json');
 const UPDATE_INTERVAL_MS = 60 * 60 * 1000;
 
@@ -182,32 +167,6 @@ async function collectCategory(category, feeds, limit = ARTICLES_PER_CATEGORY) {
     return articles;
 }
 
-async function loadJson(filePath) {
-    try {
-        const raw = await fs.readFile(filePath, 'utf-8');
-        return JSON.parse(raw);
-    } catch (error) {
-        console.warn(`Liveticker-Datei konnte nicht geladen werden (${filePath}):`, error.message);
-        return null;
-    }
-}
-
-async function loadLivetickerData() {
-    const [matches, table] = await Promise.all([
-        loadJson(LIVETICKER_MATCHES_FILE),
-        loadJson(LIVETICKER_TABLE_FILE)
-    ]);
-
-    if (!matches && !table) {
-        return null;
-    }
-
-    return {
-        matches: matches || null,
-        table: table || null
-    };
-}
-
 async function updateNews() {
     const start = Date.now();
     const categories = {};
@@ -215,12 +174,9 @@ async function updateNews() {
         categories[category] = await collectCategory(category, feeds);
     }
 
-    const liveticker = await loadLivetickerData();
-
     const payload = {
         updatedAt: new Date().toISOString(),
-        categories,
-        liveticker
+        categories
     };
 
     await fs.writeFile(OUTPUT_FILE, JSON.stringify(payload, null, 2), 'utf-8');
@@ -232,11 +188,7 @@ async function ensureInitialFile() {
     try {
         await fs.access(OUTPUT_FILE);
     } catch (error) {
-        await fs.writeFile(
-            OUTPUT_FILE,
-            JSON.stringify({ updatedAt: null, categories: {}, liveticker: null }, null, 2),
-            'utf-8'
-        );
+        await fs.writeFile(OUTPUT_FILE, JSON.stringify({ updatedAt: null, categories: {} }, null, 2), 'utf-8');
     }
 }
 
