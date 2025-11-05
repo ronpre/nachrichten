@@ -425,6 +425,8 @@
                 setStatus('');
             }
 
+            appendTickerSection();
+
             if (updatedAtElement) {
                 const updated = data?.updatedAt ? formatDate(data.updatedAt) : '';
                 updatedAtElement.textContent = updated ? `Zuletzt aktualisiert: ${updated}` : 'Noch keine Aktualisierung durchgeführt.';
@@ -448,6 +450,67 @@
 
         loadNews();
         setInterval(loadNews, REFRESH_INTERVAL);
+
+        function createStaticSection(label, message) {
+            const section = document.createElement('section');
+            section.className = 'category';
+
+            const headingId = `section-${label.toLowerCase()}`;
+            section.setAttribute('aria-labelledby', headingId);
+            const heading = document.createElement('h2');
+            heading.id = headingId;
+
+            const toggle = document.createElement('button');
+            toggle.className = 'section-toggle';
+            toggle.type = 'button';
+            toggle.setAttribute('aria-expanded', 'false');
+
+            const labelSpan = document.createElement('span');
+            labelSpan.className = 'section-label';
+            labelSpan.textContent = label;
+
+            const indicator = document.createElement('span');
+            indicator.className = 'section-indicator';
+            indicator.setAttribute('aria-hidden', 'true');
+            indicator.textContent = '+';
+
+            toggle.appendChild(labelSpan);
+            toggle.appendChild(indicator);
+            heading.appendChild(toggle);
+            section.appendChild(heading);
+
+            const content = document.createElement('div');
+            content.className = 'section-content';
+            content.hidden = true;
+            const contentId = `${headingId}-content`;
+            content.id = contentId;
+            toggle.setAttribute('aria-controls', contentId);
+
+            const placeholder = document.createElement('p');
+            placeholder.className = 'status';
+            placeholder.textContent = message;
+            content.appendChild(placeholder);
+
+            toggle.addEventListener('click', () => {
+                const expanded = toggle.getAttribute('aria-expanded') === 'true';
+                const nextExpanded = !expanded;
+                toggle.setAttribute('aria-expanded', nextExpanded ? 'true' : 'false');
+                indicator.textContent = nextExpanded ? '-' : '+';
+                content.hidden = !nextExpanded;
+                section.classList.toggle('expanded', nextExpanded);
+            });
+
+            section.appendChild(content);
+            return section;
+        }
+
+        function appendTickerSection() {
+            if (!newsContainer) {
+                return;
+            }
+            const tickerSection = createStaticSection('Liveticker', 'Noch keine Liveticker verfügbar.');
+            newsContainer.appendChild(tickerSection);
+        }
     </script>
 </body>
 </html>
