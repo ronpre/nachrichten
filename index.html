@@ -375,12 +375,12 @@
             let hasArticles = false;
 
             ORDER.forEach(category => {
-                const articles = categories[category];
-                if (!Array.isArray(articles) || articles.length === 0) {
-                    return;
+                const rawArticles = categories[category];
+                const articles = Array.isArray(rawArticles) ? rawArticles : [];
+                if (articles.length > 0) {
+                    hasArticles = true;
                 }
 
-                hasArticles = true;
                 const section = document.createElement('section');
                 section.className = 'category';
                 const headingId = `section-${category.toLowerCase()}`;
@@ -415,9 +415,16 @@
                 content.hidden = true;
                 sectionToggle.setAttribute('aria-controls', contentId);
 
-                articles.forEach(article => {
-                    content.appendChild(createCard(category, article));
-                });
+                if (articles.length > 0) {
+                    articles.forEach(article => {
+                        content.appendChild(createCard(category, article));
+                    });
+                } else {
+                    const emptyMessage = document.createElement('p');
+                    emptyMessage.className = 'status';
+                    emptyMessage.textContent = 'Keine Daten verfügbar.';
+                    content.appendChild(emptyMessage);
+                }
 
                 sectionToggle.addEventListener('click', () => {
                     const expanded = sectionToggle.getAttribute('aria-expanded') === 'true';
@@ -432,10 +439,10 @@
                 newsContainer.appendChild(section);
             });
 
-            if (!hasArticles) {
-                setStatus('Keine aktuellen Daten gefunden. Bitte führen Sie "npm run update" aus.', 'error');
-            } else {
+            if (hasArticles) {
                 setStatus('');
+            } else {
+                setStatus('Keine aktuellen Daten gefunden. Bitte führen Sie "npm run update" aus.', 'error');
             }
 
             appendTickerSection();
