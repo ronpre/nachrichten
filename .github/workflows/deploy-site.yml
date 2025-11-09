@@ -8,6 +8,7 @@ on:
       - index.html
       - news.json
       - liveticker/**
+      - geschichte/**
       - update-news.js
       - package.json
       - package-lock.json
@@ -30,6 +31,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -47,7 +50,14 @@ jobs:
           mkdir -p dist
           cp index.html dist/index.html
           cp news.json dist/news.json
-          rsync -a --delete --exclude '.DS_Store' liveticker dist/liveticker
+          rsync -a --delete --exclude '.DS_Store' liveticker/ dist/liveticker/
+          rsync -a --delete \
+            --exclude '.DS_Store' \
+            --exclude '.git' \
+            --exclude '.github' \
+            --exclude '.venv' \
+            --exclude '__pycache__' \
+            geschichte/ dist/geschichte/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
