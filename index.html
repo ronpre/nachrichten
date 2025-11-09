@@ -270,6 +270,10 @@
 
     <script>
         const ORDER = ['Wirtschaft', 'Gesellschaft', 'Politik', 'Sport'];
+        const STATIC_ROUTES = {
+            Liveticker: 'liveticker/index.html',
+            Geschichte: 'geschichte/index.html'
+        };
         const REFRESH_INTERVAL = 60 * 60 * 1000;
 
         const newsContainer = document.getElementById('news');
@@ -446,6 +450,7 @@
             }
 
             appendTickerSection();
+            appendHistorySection();
 
             if (updatedAtElement) {
                 const updated = data?.updatedAt ? formatDate(data.updatedAt) : '';
@@ -528,31 +533,42 @@
         }
 
         function appendTickerSection() {
+            appendStaticSection('Liveticker', 'Zum Anzeigen klicken.', ensureStaticFrame);
+        }
+
+        function appendHistorySection() {
+            appendStaticSection('Geschichte', 'Zum Anzeigen klicken.', ensureStaticFrame);
+        }
+
+        function appendStaticSection(label, message, loadFn) {
             if (!newsContainer) {
                 return;
             }
-            const tickerSection = createStaticSection('Liveticker', 'Zum Anzeigen klicken.', ({ content, placeholder }) => {
-                ensureTickerFrame(content, placeholder);
+            const staticSection = createStaticSection(label, message, ({ content, placeholder }) => {
+                loadFn(label, content, placeholder);
             });
-            newsContainer.appendChild(tickerSection.section);
+            newsContainer.appendChild(staticSection.section);
         }
 
-        function ensureTickerFrame(content, placeholder) {
-            if (content.dataset.tickerLoaded === 'true') {
+        function ensureStaticFrame(label, content, placeholder) {
+            if (content.dataset.staticLoaded === 'true') {
                 return;
             }
 
             if (placeholder) {
-                placeholder.textContent = 'Lade Liveticker…';
+                placeholder.textContent = 'Lade Ansicht…';
             }
 
             try {
                 const baseUrl = new URL('.', window.location.href);
-                const tickerUrl = new URL('liveticker/index.html', baseUrl).toString();
-
+                const staticPath = STATIC_ROUTES[label];
+                const targetUrl = staticPath ? new URL(staticPath, baseUrl).toString() : null;
+                if (!targetUrl) {
+                    throw new Error(`Kein Pfad für ${label} definiert.`);
+                }
                 const iframe = document.createElement('iframe');
-                iframe.src = tickerUrl;
-                iframe.title = 'Liveticker';
+                iframe.src = targetUrl;
+                iframe.title = label;
                 iframe.loading = 'lazy';
                 iframe.className = 'ticker-frame';
 
@@ -560,14 +576,48 @@
                     if (placeholder) {
                         placeholder.remove();
                     }
+                    try {
+                        const doc = iframe.contentDocument;
+                        const win = iframe.contentWindow;
+                        if (!doc || !win) {
+                            return;
+                        }
+                        const docEl = doc.documentElement;
+                        const body = doc.body;
+                        const computeHeight = () => {
+                            const docHeight = Math.max(
+                                docEl?.scrollHeight || 0,
+                                body?.scrollHeight || 0,
+                                docEl?.offsetHeight || 0,
+                                body?.offsetHeight || 0
+                            );
+                            if (Number.isFinite(docHeight) && docHeight > 0) {
+                                const minFrameHeightValue = window.getComputedStyle(iframe).minHeight;
+                                const minFrameHeight = Number.parseFloat(minFrameHeightValue) || 0;
+                                const targetHeight = Math.max(docHeight, minFrameHeight);
+                                iframe.style.height = `${targetHeight}px`;
+                            }
+                        };
+                        computeHeight();
+                        if (typeof win.ResizeObserver === 'function') {
+                            const observer = new win.ResizeObserver(computeHeight);
+                            observer.observe(body || docEl);
+                            iframe.addEventListener('load', () => observer.disconnect(), { once: true });
+                        } else {
+                            win.addEventListener('resize', computeHeight);
+                            iframe.addEventListener('load', () => win.removeEventListener('resize', computeHeight), { once: true });
+                        }
+                    } catch (resizeError) {
+                        console.warn(`Konnte Höhe für ${label} nicht anpassen:`, resizeError);
+                    }
                 });
 
                 content.appendChild(iframe);
-                content.dataset.tickerLoaded = 'true';
+                content.dataset.staticLoaded = 'true';
             } catch (error) {
-                console.error('Fehler beim Einbetten des Livetickers:', error);
+                console.error(`Fehler beim Einbetten der ${label}-Ansicht:`, error);
                 if (placeholder) {
-                    placeholder.textContent = 'Liveticker konnte nicht geladen werden.';
+                    placeholder.textContent = `${label} konnte nicht geladen werden.`;
                 }
             }
         }
