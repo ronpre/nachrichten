@@ -270,11 +270,18 @@
 
     <script>
         const ORDER = ['Wirtschaft', 'Gesellschaft', 'Politik', 'Sport'];
+        const CATEGORY_REFRESH_SCHEDULE = [
+            { hour: 7, minute: 0 },
+            { hour: 19, minute: 0 }
+        ];
         const STATIC_ROUTES = {
             Liveticker: 'liveticker/index.html',
-            Geschichte: 'geschichte/index.html'
+            History: 'geschichte/index.html'
         };
-        const REFRESH_INTERVAL = 60 * 60 * 1000;
+        const STATIC_REFRESH_RULES = {
+            Liveticker: { type: 'interval', intervalMs: 60 * 1000 },
+            History: { type: 'schedule', times: [{ hour: 8, minute: 0 }] }
+        };
 
         const newsContainer = document.getElementById('news');
         const statusElement = document.getElementById('status');
@@ -472,9 +479,7 @@
                 setStatus('Nachrichten konnten nicht geladen werden. Bitte Verbindung prüfen und später erneut versuchen.', 'error');
             }
         }
-
-        loadNews();
-        setInterval(loadNews, REFRESH_INTERVAL);
+        loadNews().finally(scheduleNextNewsRefresh);
 
         function createStaticSection(label, message, onExpand) {
             const section = document.createElement('section');
@@ -537,7 +542,7 @@
         }
 
         function appendHistorySection() {
-            appendStaticSection('Geschichte', 'Zum Anzeigen klicken.', ensureStaticFrame);
+            appendStaticSection('History', 'Zum Anzeigen klicken.', ensureStaticFrame);
         }
 
         function appendStaticSection(label, message, loadFn) {
@@ -614,12 +619,112 @@
 
                 content.appendChild(iframe);
                 content.dataset.staticLoaded = 'true';
+                if (content.dataset.staticRefreshConfigured !== 'true') {
+                    setupStaticRefresh(label, iframe);
+                    content.dataset.staticRefreshConfigured = 'true';
+                }
             } catch (error) {
                 console.error(`Fehler beim Einbetten der ${label}-Ansicht:`, error);
                 if (placeholder) {
                     placeholder.textContent = `${label} konnte nicht geladen werden.`;
                 }
             }
+        }
+
+        let newsRefreshTimeoutId;
+
+        function scheduleNextNewsRefresh() {
+            if (newsRefreshTimeoutId) {
+                clearTimeout(newsRefreshTimeoutId);
+            }
+            const delay = getNextDelayForSchedule(CATEGORY_REFRESH_SCHEDULE);
+            if (!Number.isFinite(delay) || delay <= 0) {
+                return;
+            }
+            newsRefreshTimeoutId = window.setTimeout(async () => {
+                try {
+                    await loadNews();
+                } catch (error) {
+                    console.error('Geplante Aktualisierung fehlgeschlagen:', error);
+                } finally {
+                    scheduleNextNewsRefresh();
+                }
+            }, delay);
+        }
+
+        function setupStaticRefresh(label, iframe) {
+            const rule = STATIC_REFRESH_RULES[label];
+            if (!rule) {
+                return;
+            }
+
+            if (rule.type === 'interval') {
+                const startInterval = () => {
+                    if (iframe.dataset.refreshIntervalId) {
+                        return;
+                    }
+                    const intervalId = window.setInterval(() => {
+                        try {
+                            iframe.contentWindow?.location.reload();
+                        } catch (reloadError) {
+                            console.warn(`Konnte ${label} nicht neu laden:`, reloadError);
+                        }
+                    }, rule.intervalMs);
+                    iframe.dataset.refreshIntervalId = String(intervalId);
+                };
+
+                if (iframe.contentDocument?.readyState === 'complete') {
+                    startInterval();
+                } else {
+                    iframe.addEventListener('load', startInterval, { once: true });
+                }
+            } else if (rule.type === 'schedule') {
+                const scheduleReload = () => {
+                    const delay = getNextDelayForSchedule(rule.times);
+                    if (!Number.isFinite(delay) || delay <= 0) {
+                        return;
+                    }
+                    const timeoutId = window.setTimeout(() => {
+                        iframe.addEventListener('load', scheduleReload, { once: true });
+                        try {
+                            iframe.contentWindow?.location.reload();
+                        } catch (reloadError) {
+                            console.warn(`Konnte ${label} nicht neu laden:`, reloadError);
+                            scheduleReload();
+                        }
+                    }, delay);
+                    iframe.dataset.refreshTimeoutId = String(timeoutId);
+                };
+
+                if (iframe.contentDocument?.readyState === 'complete') {
+                    scheduleReload();
+                } else {
+                    iframe.addEventListener('load', scheduleReload, { once: true });
+                }
+            }
+        }
+
+        function getNextDelayForSchedule(schedule, referenceDate = new Date()) {
+            if (!Array.isArray(schedule) || schedule.length === 0) {
+                return null;
+            }
+            let shortestDelay = Number.POSITIVE_INFINITY;
+            schedule.forEach(entry => {
+                if (!entry || typeof entry.hour !== 'number') {
+                    return;
+                }
+                const minutes = typeof entry.minute === 'number' ? entry.minute : 0;
+                const candidate = new Date(referenceDate);
+                candidate.setHours(entry.hour, minutes, 0, 0);
+                if (candidate <= referenceDate) {
+                    candidate.setDate(candidate.getDate() + 1);
+                }
+                const diff = candidate.getTime() - referenceDate.getTime();
+                if (Number.isFinite(diff) && diff < shortestDelay) {
+                    shortestDelay = diff;
+                }
+            });
+            return Number.isFinite(shortestDelay) ? shortestDelay : null;
         }
     </script>
 </body>
