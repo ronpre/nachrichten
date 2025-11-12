@@ -2731,12 +2731,11 @@
             const row = document.createElement('tr');
             row.innerHTML = `
               <td class="col-home">
-                <span class="team-name">${homeContent}</span>
                 ${dateMarkup}
+                <span class="team-name">${homeContent}</span>
               </td>
               <td class="col-away">
                 <span class="team-name">${awayContent}</span>
-                ${dateMarkup}
               </td>
               <td class="score col-score">${escapeHtml(match.score)}</td>
             `;
