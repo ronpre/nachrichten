@@ -120,6 +120,12 @@
             border-bottom: 1px solid var(--card-border);
         }
 
+        .section-meta {
+            margin: 0.35rem 0 0.6rem;
+            font-size: 0.82rem;
+            color: rgba(31, 36, 48, 0.65);
+        }
+
         .section-content[hidden] {
             display: none;
         }
@@ -279,6 +285,7 @@
             .news-summary,
             .section-toggle,
             .section-indicator,
+            .section-meta,
             .source {
                 color: rgba(248, 249, 252, 0.78);
             }
@@ -467,6 +474,15 @@
                 content.hidden = true;
                 sectionToggle.setAttribute('aria-controls', contentId);
 
+                const latestUpdateCandidate = getLatestPublishedDate(articles) || data?.updatedAt || null;
+
+                if (latestUpdateCandidate) {
+                    const sectionMeta = document.createElement('p');
+                    sectionMeta.className = 'section-meta';
+                    sectionMeta.textContent = `update: ${formatDate(latestUpdateCandidate)}`;
+                    content.appendChild(sectionMeta);
+                }
+
                 if (articles.length > 0) {
                     articles.forEach(article => {
                         content.appendChild(createCard(category, article));
@@ -505,6 +521,27 @@
                 const updated = data?.updatedAt ? formatDate(data.updatedAt) : '';
                 updatedAtElement.textContent = updated ? `update: ${updated}` : 'Noch keine Aktualisierung durchgeführt.';
             }
+        }
+
+        function getLatestPublishedDate(articles) {
+            if (!Array.isArray(articles) || articles.length === 0) {
+                return null;
+            }
+            let latest = null;
+            articles.forEach((article) => {
+                const published = article?.publishedAt;
+                if (!published) {
+                    return;
+                }
+                const date = new Date(published);
+                if (Number.isNaN(date.getTime())) {
+                    return;
+                }
+                if (!latest || date > latest) {
+                    latest = date;
+                }
+            });
+            return latest ? latest.toISOString() : null;
         }
 
         async function loadNews() {
