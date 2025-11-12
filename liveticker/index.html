@@ -2707,8 +2707,26 @@
             const awayName = escapeHtml(match?.away ?? 'Gast');
             const homeContent = homeWinner ? `<strong>${homeName}</strong>` : homeName;
             const awayContent = awayWinner ? `<strong>${awayName}</strong>` : awayName;
-            const isoDate = match?.isoDate || (match?.timeRaw ? normalizeToIsoDate(match.timeRaw) : null);
-            const dateLabel = match?.dateLabel || (isoDate ? formatDateForLocale(isoDate) : '');
+            const explicitLabel = typeof match?.dateLabel === 'string' ? match.dateLabel.trim() : '';
+            let isoDate = match?.isoDate || null;
+            if (!isoDate) {
+              const dateCandidates = [
+                match?.kickoff,
+                match?.date,
+                match?.matchDateTimeUTC,
+                match?.matchDateTime,
+                match?.timeRaw,
+                match?.startTime
+              ];
+              for (const candidate of dateCandidates) {
+                const normalized = normalizeToIsoDate(candidate);
+                if (normalized) {
+                  isoDate = normalized;
+                  break;
+                }
+              }
+            }
+            const dateLabel = explicitLabel || (isoDate ? formatDateForLocale(isoDate) : '');
             const dateMarkup = showMatchDate && dateLabel ? `<span class="match-date">${escapeHtml(dateLabel)}</span>` : '';
             const row = document.createElement('tr');
             row.innerHTML = `
