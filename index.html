@@ -526,8 +526,11 @@
         function createStaticSection(label, message, onExpand) {
             const section = document.createElement('section');
             section.className = 'category';
+            const sectionName = label.toLowerCase();
+            section.id = sectionName;
+            section.dataset.sectionName = sectionName;
 
-            const headingId = `section-${label.toLowerCase()}`;
+            const headingId = `${sectionName}-heading`;
             section.setAttribute('aria-labelledby', headingId);
             const heading = document.createElement('h2');
             heading.id = headingId;
@@ -539,11 +542,7 @@
 
             const labelSpan = document.createElement('span');
             labelSpan.className = 'section-label';
-            const displayLabel = label === 'History' ? '' : label.toLowerCase();
-            labelSpan.textContent = displayLabel;
-            if (!displayLabel) {
-                toggle.setAttribute('aria-label', label);
-            }
+            labelSpan.textContent = label.toLowerCase();
 
             const indicator = document.createElement('span');
             indicator.className = 'section-indicator';
@@ -558,7 +557,7 @@
             const content = document.createElement('div');
             content.className = 'section-content';
             content.hidden = true;
-            const contentId = `${headingId}-content`;
+            const contentId = `${sectionName}-content`;
             content.id = contentId;
             toggle.setAttribute('aria-controls', contentId);
 
