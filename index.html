@@ -235,6 +235,27 @@
             background: transparent;
         }
 
+        .resource-list {
+            list-style: none;
+            margin: 0.6rem 0 0;
+            padding: 0;
+        }
+
+        .resource-item + .resource-item {
+            margin-top: 0.5rem;
+        }
+
+        .resource-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .resource-link:hover,
+        .resource-link:focus {
+            text-decoration: underline;
+        }
+
         @media (prefers-color-scheme: dark) {
             :root {
                 --bg: #10141f;
@@ -282,6 +303,16 @@
             Liveticker: { type: 'interval', intervalMs: 60 * 1000 },
             History: { type: 'schedule', times: [{ hour: 9, minute: 0 }] }
         };
+        const BADMINTON_LINKS = [
+            {
+                label: '1. Mannschaft',
+                href: 'https://dbv.turnier.de/sport/league/draw?id=925D6245-1FA1-496D-9810-1439487E5801&draw=25'
+            },
+            {
+                label: '2. Mannschaft',
+                href: 'https://dbv.turnier.de/sport/league/draw?id=925D6245-1FA1-496D-9810-1439487E5801&draw=70'
+            }
+        ];
 
         const newsContainer = document.getElementById('news');
         const statusElement = document.getElementById('status');
@@ -458,6 +489,7 @@
 
             appendTickerSection();
             appendHistorySection();
+            appendBadmintonSection();
 
             if (updatedAtElement) {
                 const updated = data?.updatedAt ? formatDate(data.updatedAt) : '';
@@ -545,6 +577,10 @@
             appendStaticSection('History', 'Zum Anzeigen klicken.', ensureStaticFrame);
         }
 
+        function appendBadmintonSection() {
+            appendStaticSection('Badminton', 'Zum Anzeigen klicken.', ensureBadmintonLinks);
+        }
+
         function appendStaticSection(label, message, loadFn) {
             if (!newsContainer) {
                 return;
@@ -629,6 +665,35 @@
                     placeholder.textContent = `${label} konnte nicht geladen werden.`;
                 }
             }
+        }
+
+        function ensureBadmintonLinks(label, content, placeholder) {
+            if (content.dataset.badmintonLoaded === 'true') {
+                return;
+            }
+
+            if (placeholder) {
+                placeholder.remove();
+            }
+
+            const list = document.createElement('ul');
+            list.className = 'resource-list';
+
+            BADMINTON_LINKS.forEach((entry) => {
+                const item = document.createElement('li');
+                item.className = 'resource-item';
+                const anchor = document.createElement('a');
+                anchor.className = 'resource-link';
+                anchor.href = entry.href;
+                anchor.target = '_blank';
+                anchor.rel = 'noopener';
+                anchor.textContent = entry.label;
+                item.appendChild(anchor);
+                list.appendChild(item);
+            });
+
+            content.appendChild(list);
+            content.dataset.badmintonLoaded = 'true';
         }
 
         let newsRefreshTimeoutId;
