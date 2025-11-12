@@ -241,6 +241,13 @@
       display: block;
     }
 
+    .match-date {
+      display: block;
+      font-size: 0.72rem;
+      font-weight: 400;
+      color: var(--muted);
+    }
+
     .empty-state {
       margin: 1.4rem 0 0;
       text-align: center;
@@ -1531,15 +1538,22 @@
 
         const matches = rawData
           .filter((match) => matchBelongsToActiveMatchday(match))
-          .map((match) => ({
-            id: match.matchId || match.matchID,
-            time: formatTime(match.matchDateTimeUTC || match.matchDateTime),
-            home: match.team1?.teamName || match.Team1?.TeamName || 'Heim',
-            away: match.team2?.teamName || match.Team2?.TeamName || 'Gast',
-            score: formatScore(match.matchResults || match.MatchResults),
-            status: deriveMatchStatus(match),
-            ...extractOpenligaScoreDetails(match)
-          }));
+          .map((match) => {
+            const kickoffRaw = match.matchDateTimeUTC || match.matchDateTime || '';
+            const isoDate = normalizeToIsoDate(kickoffRaw);
+            return {
+              id: match.matchId || match.matchID,
+              time: formatTime(kickoffRaw),
+              timeRaw: kickoffRaw,
+              isoDate,
+              dateLabel: isoDate ? formatDateForLocale(isoDate) : '',
+              home: match.team1?.teamName || match.Team1?.TeamName || 'Heim',
+              away: match.team2?.teamName || match.Team2?.TeamName || 'Gast',
+              score: formatScore(match.matchResults || match.MatchResults),
+              status: deriveMatchStatus(match),
+              ...extractOpenligaScoreDetails(match)
+            };
+          });
 
         renderMatches(matches, 'Keine Spiele für den ausgewählten Tag gefunden.');
 
@@ -2259,10 +2273,14 @@
           const homeScore = parseScoreValue(home?.score);
           const awayScore = parseScoreValue(away?.score);
           const winner = status === 'Beendet' ? determineWinner(homeScore, awayScore) : null;
+          const timeRaw = competition.date || competition.startDate || event.date || '';
+          const isoDate = normalizeToIsoDate(timeRaw);
           matches.push({
             id,
-            timeRaw: competition.date || competition.startDate || event.date || '',
-            time: formatTime(competition.date || competition.startDate || event.date),
+            timeRaw,
+            isoDate,
+            dateLabel: isoDate ? formatDateForLocale(isoDate) : '',
+            time: formatTime(timeRaw),
             home: home.team?.displayName || home.team?.shortDisplayName || home.team?.name || 'Heim',
             away: away.team?.displayName || away.team?.shortDisplayName || away.team?.name || 'Gast',
             score: formatEspnFootballScore(home, away, competition),
@@ -2664,6 +2682,8 @@
         }
         DOM.noResults.classList.add('hidden');
 
+        const showMatchDate = state.sport === 'football';
+
         matches
           .sort((a, b) => {
             const first = a.timeRaw || '';
@@ -2687,13 +2707,18 @@
             const awayName = escapeHtml(match?.away ?? 'Gast');
             const homeContent = homeWinner ? `<strong>${homeName}</strong>` : homeName;
             const awayContent = awayWinner ? `<strong>${awayName}</strong>` : awayName;
+            const isoDate = match?.isoDate || (match?.timeRaw ? normalizeToIsoDate(match.timeRaw) : null);
+            const dateLabel = match?.dateLabel || (isoDate ? formatDateForLocale(isoDate) : '');
+            const dateMarkup = showMatchDate && dateLabel ? `<span class="match-date">${escapeHtml(dateLabel)}</span>` : '';
             const row = document.createElement('tr');
             row.innerHTML = `
               <td class="col-home">
                 <span class="team-name">${homeContent}</span>
+                ${dateMarkup}
               </td>
               <td class="col-away">
                 <span class="team-name">${awayContent}</span>
+                ${dateMarkup}
               </td>
               <td class="score col-score">${escapeHtml(match.score)}</td>
             `;
