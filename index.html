@@ -245,10 +245,24 @@
             margin-top: 0.5rem;
         }
 
+        .resource-label {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.55rem 0.9rem;
+            border-radius: 0.75rem;
+            border: 1px solid var(--card-border);
+            background: var(--card-bg);
+            box-shadow: 0 0.15rem 0.4rem rgba(15, 30, 60, 0.1);
+        }
+
         .resource-link {
             color: var(--accent);
             text-decoration: none;
             font-weight: 600;
+            font-family: "Homemade Apple", "Bradley Hand", "Comic Sans MS", cursive;
+            font-size: 1.05rem;
+            letter-spacing: 0.02em;
         }
 
         .resource-link:hover,
@@ -682,13 +696,16 @@
             BADMINTON_LINKS.forEach((entry) => {
                 const item = document.createElement('li');
                 item.className = 'resource-item';
+                const labelWrapper = document.createElement('div');
+                labelWrapper.className = 'resource-label';
                 const anchor = document.createElement('a');
                 anchor.className = 'resource-link';
                 anchor.href = entry.href;
                 anchor.target = '_blank';
                 anchor.rel = 'noopener';
                 anchor.textContent = entry.label;
-                item.appendChild(anchor);
+                labelWrapper.appendChild(anchor);
+                item.appendChild(labelWrapper);
                 list.appendChild(item);
             });
 
