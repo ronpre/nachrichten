@@ -539,7 +539,11 @@
 
             const labelSpan = document.createElement('span');
             labelSpan.className = 'section-label';
-            labelSpan.textContent = label.toLowerCase();
+            const displayLabel = label === 'History' ? '' : label.toLowerCase();
+            labelSpan.textContent = displayLabel;
+            if (!displayLabel) {
+                toggle.setAttribute('aria-label', label);
+            }
 
             const indicator = document.createElement('span');
             indicator.className = 'section-indicator';
