@@ -623,7 +623,10 @@
         }
 
         function appendHistorySection() {
-            appendStaticSection('History', 'Zum Anzeigen klicken.', ensureStaticFrame);
+            const historySection = appendStaticSection('History', 'Zum Anzeigen klicken.', ensureStaticFrame);
+            if (historySection) {
+                ensureStaticFrame('History', historySection.content, historySection.placeholder);
+            }
         }
 
         function appendBadmintonSection() {
@@ -638,6 +641,7 @@
                 loadFn(label, content, placeholder);
             });
             newsContainer.appendChild(staticSection.section);
+            return staticSection;
         }
 
         function ensureStaticFrame(label, content, placeholder) {
