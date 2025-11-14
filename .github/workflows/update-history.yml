@@ -1,0 +1,34 @@
+name: Sync history content
+
+on:
+  schedule:
+    - cron: '10 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Update history submodule
+        run: git submodule update --init --remote geschichte
+
+      - name: Commit and push if history changed
+        run: |
+          if git diff --quiet --exit-code -- geschichte; then
+            echo "Submodule geschichte already up to date"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add geschichte
+            git commit -m "chore: sync history content"
+            git push
+          fi
