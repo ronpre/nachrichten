@@ -1,561 +1,711 @@
 {
-  "updatedAt": "2025-11-18T06:01:37.857Z",
+  "updatedAt": "2025-11-18T18:01:36.518Z",
   "categories": {
     "Politik": [
       {
-        "id": "li.3340220",
-        "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
-        "summary": "SZ am Morgen",
+        "id": "{urn:uuid:14788890-f8ed-460e-affc-028ef5825aa6}",
+        "title": "Rentenstreit: Junge SPD-Abgeordnete stellen sich hinter das Rentenpaket",
+        "summary": "30 junge SPD-Abgeordnete haben den Vorwurf der Unions-Jugend am Rentenpaket zurückgewiesen: Die als Generationengerechtigkeit verkaufte Kritik sei Etikettenschwindel.",
         "paragraphs": [
-          "SZ am Morgen"
+          "30 junge SPD-Abgeordnete haben den Vorwurf der Unions-Jugend am Rentenpaket zurückgewiesen: Die als Generationengerechtigkeit verkaufte Kritik sei Etikettenschwindel."
         ],
-        "link": "https://www.sueddeutsche.de/politik/un-sicherheitsrat-fuer-trumps-friedensplan-rente-belastet-juengere-deutschland-schafft-wm-qualifikation-li.3340220",
+        "link": "https://www.zeit.de/politik/deutschland/2025-11/spd-abgeordnete-rentenpaket-streit-junge-union",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T17:48:38.000Z"
+      },
+      {
+        "id": "{urn:uuid:a12a7367-7229-48d2-8421-cdf8e4b4b2ff}",
+        "title": "Digitalgipfel in Berlin: Merz und Macron werben für digitale Unabhängigkeit von USA und China",
+        "summary": "Deutschland und Frankreich wollen bei digitalen Technologien aufholen. Der Kanzler und Frankreichs Präsident warnten davor, zum Spielball Chinas und der USA zu werden.",
+        "paragraphs": [
+          "Deutschland und Frankreich wollen bei digitalen Technologien aufholen. Der Kanzler und Frankreichs Präsident warnten davor, zum Spielball Chinas und der USA zu werden."
+        ],
+        "link": "https://www.zeit.de/digital/2025-11/digitalgipfel-eu-friedrich-merz",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T17:46:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Ukraine meldet Einsatz von ATACMS-Raketen gegen Ziel in Russland",
+        "summary": "Trump soll Angriffe mit US-Raketen gegen russische Ziele nach monatelanger Sperre kürzlich wieder freigegeben haben. Jetzt kam es offenbar zu einem Einsatz. Das Liveblog",
+        "paragraphs": [
+          "Trump soll Angriffe mit US-Raketen gegen russische Ziele nach monatelanger Sperre kürzlich wieder freigegeben haben. Jetzt kam es offenbar zu einem Einsatz. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T17:31:42.000Z"
+      },
+      {
+        "id": "{urn:uuid:6e26b1de-90a3-4ff2-ac2a-805049997e5d}",
+        "title": "Westbalkan: Außenminister Wadephul fordert Serbien und Kosovo zu Dialog auf",
+        "summary": "Die \"Nadelstiche\" zwischen Serbien und dem Kosovo müssten ein Ende finden, sagt Johann Wadephul. Die Regierungen würden am Willen zur Veränderung gemessen.",
+        "paragraphs": [
+          "Die \"Nadelstiche\" zwischen Serbien und dem Kosovo müssten ein Ende finden, sagt Johann Wadephul. Die Regierungen würden am Willen zur Veränderung gemessen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/johann-wadephul-pristina-kosovo-serbien-dialog-europaeische-union",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T17:14:09.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/news-des-tages-verliert-friedrich-merz-den-kampf-um-die-herzen-der-jungen-union-a-6744cc77-dc24-4a0f-a380-9de74d4f1877",
+        "title": "News des Tages: Verliert Friedrich Merz den Kampf um die Herzen der Jungen Union?",
+        "summary": "Den Kampf um die Herzen und Stimmen der Jungen Union droht Friedrich Merz zu verlieren. Der mutmaßliche Haupttäter belastet Christina Block im Entführungsprozess schwer. Und Eltern von Gamer-Kindern dürfen hoffen. Das ist die Lage am Dienstagabend.",
+        "paragraphs": [
+          "Den Kampf um die Herzen und Stimmen der Jungen Union droht Friedrich Merz zu verlieren. Der mutmaßliche Haupttäter belastet Christina Block im Entführungsprozess schwer. Und Eltern von Gamer-Kindern dürfen hoffen. Das ist die Lage am Dienstagabend."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-verliert-friedrich-merz-den-kampf-um-die-herzen-der-jungen-union-a-6744cc77-dc24-4a0f-a380-9de74d4f1877#ref=rss",
+        "source": "SPIEGEL Politik",
+        "publishedAt": "2025-11-18T16:36:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:f373e98f-de65-424e-99e5-614ce3cd69e8}",
+        "title": "EU-Kommission: Bundesregierung darf Energiekonzern mit Milliarden entschädigen",
+        "summary": "Die EU-Kommission hat eine Milliardenzahlung der Bundesregierung an das Energieunternehmen Leag genehmigt. Die Zahlung ist eine Entschädigung für den Kohleausstieg.",
+        "paragraphs": [
+          "Die EU-Kommission hat eine Milliardenzahlung der Bundesregierung an das Energieunternehmen Leag genehmigt. Die Zahlung ist eine Entschädigung für den Kohleausstieg."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-11/eu-kommission-bundesregierung-leag-entschaedigung-milliarden-kohleausstieg",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T16:26:52.000Z"
+      },
+      {
+        "id": "li.3338729",
+        "title": "Schwangerschaftsberatung: Frauen mit mehreren Kindern „dramatisch überrepräsentiert“",
+        "summary": "Einen Schein für eine Abtreibung bekommt man bei der katholischen Schwangerschaftsberatung der Caritas nicht. Die Beratungen bieten aber einen Einblick in die Herausforderungen, mit denen viele Familien in Deutschland kämpfen.",
+        "paragraphs": [
+          "Einen Schein für eine Abtreibung bekommt man bei der katholischen Schwangerschaftsberatung der Caritas nicht. Die Beratungen bieten aber einen Einblick in die Herausforderungen, mit denen viele Familien in Deutschland kämpfen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/schwangerenberatung-deutschland-herausforderungen-trends-li.3338729",
         "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-18T05:46:09.000Z"
+        "publishedAt": "2025-11-18T16:25:57.000Z"
       },
       {
-        "id": "https://www.spiegel.de/politik/deutschland/jens-spahn-bekraeftigt-festhalten-an-brandmauer-zur-afd-a-e747ba2c-a3be-47c7-b1cd-bcaea4029654",
-        "title": "Jens Spahn bekräftigt Festhalten an Brandmauer zur AfD",
-        "summary": "Kanzler Merz lehnt eine Annäherung an die AfD entschieden ab, andere in der Union wollten die Brandmauer zuletzt aufweichen. Fraktionschef Spahn hält dagegen – mit deutlichen Worten.",
-        "paragraphs": [
-          "Kanzler Merz lehnt eine Annäherung an die AfD entschieden ab, andere in der Union wollten die Brandmauer zuletzt aufweichen. Fraktionschef Spahn hält dagegen – mit deutlichen Worten."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/jens-spahn-bekraeftigt-festhalten-an-brandmauer-zur-afd-a-e747ba2c-a3be-47c7-b1cd-bcaea4029654#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-18T05:31:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:f46a6783-a858-4f13-81c2-7ca11c68ed8a}",
-        "title": "Rentenpaket: Was das neue Rentenpaket für Jung und Alt bedeutet",
-        "summary": "Das geplante Rentenpaket der Bundesregierung sei zu teuer und ungerecht, sagen Kritiker. Wir erklären seine Feinheiten. Und: Europa will digital unabhängig werden.",
-        "paragraphs": [
-          "Das geplante Rentenpaket der Bundesregierung sei zu teuer und ungerecht, sagen Kritiker. Wir erklären seine Feinheiten. Und: Europa will digital unabhängig werden."
-        ],
-        "link": "https://www.zeit.de/politik/2025-11/rentenpaket-bundesregierung-streit-koalition-nachrichtenpodcast",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-18T05:23:59.000Z"
-      },
-      {
-        "id": "{urn:uuid:1bdba3d5-f6a1-4d48-9b4c-b81db4868fea}",
-        "title": "Vereinte Nationen: UN-Sicherheitsrat sichert Gazafriedensplan ab",
-        "summary": "Die Vereinten Nationen unterstützen den US-Plan für eine Waffenruhe in Gaza mit einer Resolution. 13 von 15 Mitgliedsländern des Sicherheitsrates stimmten dafür.",
-        "paragraphs": [
-          "Die Vereinten Nationen unterstützen den US-Plan für eine Waffenruhe in Gaza mit einer Resolution. 13 von 15 Mitgliedsländern des Sicherheitsrates stimmten dafür."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/un-sicherheitsrat-resolution-gaza-friedensplan",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-18T04:06:21.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/bundeswehr-deutsche-marine-kauft-kanadisches-kampfsystem-a-7376223e-8a9d-4699-8e14-5b415176b852",
-        "title": "Bundeswehr: Deutsche Marine kauft kanadisches Kampfsystem",
-        "summary": "Die Schiffe der deutschen Marine erhalten ein neues Führungs- und Waffeneinsatzsystem. Die Regierung in Berlin hat dafür ein Regierungsabkommen mit Kanada geschlossen. Die Bundeswehr spricht von einem »Meilenstein«.",
-        "paragraphs": [
-          "Die Schiffe der deutschen Marine erhalten ein neues Führungs- und Waffeneinsatzsystem. Die Regierung in Berlin hat dafür ein Regierungsabkommen mit Kanada geschlossen. Die Bundeswehr spricht von einem »Meilenstein«."
-        ],
-        "link": "https://www.spiegel.de/politik/bundeswehr-deutsche-marine-kauft-kanadisches-kampfsystem-a-7376223e-8a9d-4699-8e14-5b415176b852#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-18T03:40:00.000Z"
-      },
-      {
-        "id": "li.3339884",
-        "title": "Abstimmung im UN-Sicherheitsrat: Trumps Frieden oder kein Frieden",
-        "summary": "Viele Details sind ungeklärt, das Magengrummeln war deutlich vernehmbar. Dennoch hat der UN-Sicherheitsrat für Trumps Friedensplan für Gaza gestimmt und eine entsprechende Resolution auf den Weg gebracht. Wohl auch, weil es an Alternativen mangelte.",
-        "paragraphs": [
-          "Viele Details sind ungeklärt, das Magengrummeln war deutlich vernehmbar. Dennoch hat der UN-Sicherheitsrat für Trumps Friedensplan für Gaza gestimmt und eine entsprechende Resolution auf den Weg gebracht. Wohl auch, weil es an Alternativen mangelte."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/vereinte-nationen-sicherheitsrat-resolution-gazastreifen-usa-israel-li.3339884",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-18T03:18:20.000Z"
-      },
-      {
-        "id": "li.3336216",
-        "title": "Krieg in Nahost: UN-Sicherheitsrat sichert Gaza-Friedensplan ab – Hamas lehnt ab",
-        "summary": "13 Mitgliedsländer des Rates stimmen in New York für den von den USA eingebrachten Vorschlag. Doch die Hamas lehnt die Resolution ab: Sie entspreche nicht den Wünschen des palästinensischen Volkes.",
-        "paragraphs": [
-          "13 Mitgliedsländer des Rates stimmen in New York für den von den USA eingebrachten Vorschlag. Doch die Hamas lehnt die Resolution ab: Sie entspreche nicht den Wünschen des palästinensischen Volkes."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/nahost-liveblog-news-israel-un-sicherheitsrat-gaza-friedensplan-resolution-hamas-li.3336216",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-18T01:13:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:a382a0ff-745f-4c9b-9847-358f8d76fd3b}",
-        "title": "Slowakei: Zehntausende demonstrieren gegen Regierung von Robert Fico",
-        "summary": "Mehr als 50.000 Menschen sind gegen die slowakische Regierung auf die Straße gegangen. Robert Fico werde verlieren \"wie die Kommunisten\", sagt der Oppositionsführer.",
-        "paragraphs": [
-          "Mehr als 50.000 Menschen sind gegen die slowakische Regierung auf die Straße gegangen. Robert Fico werde verlieren \"wie die Kommunisten\", sagt der Oppositionsführer."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/slowakei-proteste-robert-fico-revolution-november-1989",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-18T01:08:52.000Z"
-      },
-      {
-        "id": "{urn:uuid:e74a294a-0ed1-48a8-9dca-5c52a2adb9b9}",
-        "title": "Rauschgifthandel: Trump schließt Angriffe gegen Mexiko nicht aus",
-        "summary": "Ein Angriff auf Mexiko, um den Drogenhandel zu stoppen, sei \"okay\", sagt US-Präsident Donald Trump. Sein Außenminister hat vergangene Woche das Gegenteil versichert.",
-        "paragraphs": [
-          "Ein Angriff auf Mexiko, um den Drogenhandel zu stoppen, sei \"okay\", sagt US-Präsident Donald Trump. Sein Außenminister hat vergangene Woche das Gegenteil versichert."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/mexiko-usa-donal-trump-angriff-moeglichkeit",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-18T00:01:04.000Z"
-      },
-      {
-        "id": "{urn:uuid:f225bff8-962e-4292-9092-02a43d588ed9}",
-        "title": "Waffenexporte: USA wollen F-35-Kampfjets an Saudi-Arabien verkaufen",
-        "summary": "Vor dem Besuch des saudischen Kronprinzen in Washington hat US-Präsident Trump den Verkauf von F-35-Kampfjets an das Land angekündigt. Weitere Waffen könnten folgen.",
-        "paragraphs": [
-          "Vor dem Besuch des saudischen Kronprinzen in Washington hat US-Präsident Trump den Verkauf von F-35-Kampfjets an das Land angekündigt. Weitere Waffen könnten folgen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/donald-trump-will-mohammed-bin-salman-f-35-kampjets-verkaufen",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-17T22:28:16.000Z"
-      },
-      {
-        "id": "{urn:uuid:961a3c5d-2de4-4d1a-913d-ec0981c95a07}",
-        "title": "Panne an Regierungsflieger: Flugzeug von Bundeslandwirtschaftsminister Alois Rainer muss umdrehen",
-        "summary": "Nach Problemen mit der Treibstoffanzeige ist der Regierungsflieger von Bundeslandwirtschaftsminister Rainer umgekehrt. Die Panne bringt seinen USA-Besuch durcheinander.",
-        "paragraphs": [
-          "Nach Problemen mit der Treibstoffanzeige ist der Regierungsflieger von Bundeslandwirtschaftsminister Rainer umgekehrt. Die Panne bringt seinen USA-Besuch durcheinander."
-        ],
-        "link": "https://www.zeit.de/politik/2025-11/usa-reise-alois-rainer-flugzeug-panne",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-17T21:21:04.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/cop30-in-belem-deutschland-gibt-weitere-60-millionen-fuer-globalen-klimafonds-a-cd209969-6275-4d6e-a40b-e7ad098c615f",
-        "title": "COP30 in Belém: Deutschland gibt weitere 60 Millionen für globalen Klimafonds",
-        "summary": "Auf der Weltklimakonferenz hat Umweltminister Schneider Entwicklungsländern Unterstützung beim Schutz vor Extremwetter zugesagt. Es soll nicht die letzte deutsche Zahlungsankündigung in Belém bleiben.",
-        "paragraphs": [
-          "Auf der Weltklimakonferenz hat Umweltminister Schneider Entwicklungsländern Unterstützung beim Schutz vor Extremwetter zugesagt. Es soll nicht die letzte deutsche Zahlungsankündigung in Belém bleiben."
-        ],
-        "link": "https://www.spiegel.de/politik/cop30-in-belem-deutschland-gibt-weitere-60-millionen-fuer-globalen-klimafonds-a-cd209969-6275-4d6e-a40b-e7ad098c615f#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-17T20:59:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/landwirtschaftsminister-alois-rainer-muss-flug-in-die-usa-abbrechen-a-9976265d-f1fe-4b56-b69f-f89eb0f2713c",
-        "title": "Landwirtschaftsminister Alois Rainer muss Flug in die USA abbrechen",
-        "summary": "Aus technischen Gründen ist der Flieger mit Alois Rainer auf dem Weg in die Vereinigten Staaten nach Deutschland zurückgeflogen. Der Minister muss umplanen und mit einem Linienflugzeug reisen.",
-        "paragraphs": [
-          "Aus technischen Gründen ist der Flieger mit Alois Rainer auf dem Weg in die Vereinigten Staaten nach Deutschland zurückgeflogen. Der Minister muss umplanen und mit einem Linienflugzeug reisen."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/landwirtschaftsminister-alois-rainer-muss-flug-in-die-usa-abbrechen-a-9976265d-f1fe-4b56-b69f-f89eb0f2713c#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-17T20:58:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:ff1e40f0-cdd8-411a-ae1c-b955608d09af}",
-        "title": "Weltklimakonferenz: Deutschland gibt 60 Millionen Euro für Klimawandelfonds",
-        "summary": "Mit dem Anpassungsfonds sollen Länder gestärkt werden, die besonders vom Klimawandel betroffen sind. Deutschland will sich erneut mit 60 Millionen Euro beteiligen.",
-        "paragraphs": [
-          "Mit dem Anpassungsfonds sollen Länder gestärkt werden, die besonders vom Klimawandel betroffen sind. Deutschland will sich erneut mit 60 Millionen Euro beteiligen."
-        ],
-        "link": "https://www.zeit.de/politik/2025-11/weltklimakonferenz-klimawandel-deutschland-anpassungsfonds-zahlung",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-17T20:41:19.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/eu-gipfel-zur-souveraenitaet-symbolpolitik-oder-echter-fortschritt-a-9c460911-e7e6-4ada-94cf-998d8a5592e7",
-        "title": "EU: Gipfel zur Souveränität - Symbolpolitik oder echter Fortschritt?",
-        "summary": "Kanzler Merz und Frankreichs Präsident Macron wollen die massive Tech-Abhängigkeit der EU verringern. In Berlin treffen sich am Dienstag die wichtigsten Akteure zu einem Gipfel. Der Überblick.",
-        "paragraphs": [
-          "Kanzler Merz und Frankreichs Präsident Macron wollen die massive Tech-Abhängigkeit der EU verringern. In Berlin treffen sich am Dienstag die wichtigsten Akteure zu einem Gipfel. Der Überblick."
-        ],
-        "link": "https://www.spiegel.de/politik/eu-gipfel-zur-souveraenitaet-symbolpolitik-oder-echter-fortschritt-a-9c460911-e7e6-4ada-94cf-998d8a5592e7#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-17T20:20:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:9e346979-cfd3-4a86-87f2-d9c1096a656f}",
-        "title": "Friedrich Merz: Der Kanzler kämpft um seine Koalition",
-        "summary": "Es ist längst mehr als der Rentenstreit: Die Union wird nervöser, der Druck auf die Abweichler steigt – und der Kanzler dringt mit einem Argument kaum noch durch.",
-        "paragraphs": [
-          "Es ist längst mehr als der Rentenstreit: Die Union wird nervöser, der Druck auf die Abweichler steigt – und der Kanzler dringt mit einem Argument kaum noch durch."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-11/friedrich-merz-rente-schwarz-rote-koalition-minderheitsregierung",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-17T19:17:54.000Z"
-      },
-      {
-        "id": "{urn:uuid:ab9793fb-723d-4985-b728-3be77284902a}",
-        "title": "Tschechien: Tausende Menschen protestieren in Prag gegen geplante Regierung",
-        "summary": "Aus Protest gegen den Kurs der geplanten Regierung haben in Prag Tausende Menschen demonstriert. Gegenwind für Wahlsieger Andrej Babiš kam auch vom Staatspräsidenten.",
-        "paragraphs": [
-          "Aus Protest gegen den Kurs der geplanten Regierung haben in Prag Tausende Menschen demonstriert. Gegenwind für Wahlsieger Andrej Babiš kam auch vom Staatspräsidenten."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/tschechien-prag-proteste-gegen-neue-regierung-babis",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-17T19:17:17.000Z"
-      },
-      {
-        "id": "{urn:uuid:4fe27281-ebdb-473b-996a-681b2386c00f}",
-        "title": "Rentenpaket: Friedrich Merz will Rentenpaket bis Jahresende verabschieden",
-        "summary": "Der Bundeskanzler drängt auf zügige Entscheidungen zur Zukunft der Rente. \"Ich wünsche mir, dass wir diese Diskussion zum Jahresende abgeschlossen haben\", sagte Merz.",
-        "paragraphs": [
-          "Der Bundeskanzler drängt auf zügige Entscheidungen zur Zukunft der Rente. \"Ich wünsche mir, dass wir diese Diskussion zum Jahresende abgeschlossen haben\", sagte Merz."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-11/rentenpaket-friedrich-merz-zuegige-beendigung-diskussion-gxe",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-17T19:13:50.000Z"
-      },
-      {
-        "id": "{urn:uuid:a0ceb4e8-e78f-4bb2-9c88-2c174036706d}",
-        "title": "Lars Klingbeil in China: Mit China reden",
-        "summary": "Die Beziehungen zwischen Deutschland und China waren zuletzt angespannt. Vizekanzler Lars Klingbeil will in Peking nun die Wogen glätten – und findet sehr warme Worte.",
-        "paragraphs": [
-          "Die Beziehungen zwischen Deutschland und China waren zuletzt angespannt. Vizekanzler Lars Klingbeil will in Peking nun die Wogen glätten – und findet sehr warme Worte."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/lars-klingbeil-china-finanzminister-reise-rohstoffe-handel",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-17T19:04:47.000Z"
-      },
-      {
-        "id": "li.3335119",
-        "title": "USA: Anklage gegen Ex-FBI-Chef Comey wackelt",
-        "summary": "In seiner ersten Amtszeit feuerte Donald Trump den damaligen FBI-Chef. James Comey wurde später angeklagt, nach Trumps Druck auf die Justiz. Doch jetzt gerät die US-Regierung selbst in den Fokus.",
-        "paragraphs": [
-          "In seiner ersten Amtszeit feuerte Donald Trump den damaligen FBI-Chef. James Comey wurde später angeklagt, nach Trumps Druck auf die Justiz. Doch jetzt gerät die US-Regierung selbst in den Fokus."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-comey-anklage-li.3335119",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-17T19:02:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/buendnis-sahra-wagenknecht-bestaetigt-kontakte-zweier-abgeordneter-nach-russland-a-af2d7019-6c39-4c2e-878e-317477e7ca60",
-        "title": "Bündnis Sahra Wagenknecht bestätigt Kontakte zweier Abgeordneter nach Russland",
-        "summary": "Vertraute von Kremlchef Putin haben nicht nur AfD-Politiker nach Russland geladen – auch zwei BSW-Abgeordnete wurden umgarnt. Die Spitze um Parteichefin Wagenknecht spielt die Reise herunter.",
-        "paragraphs": [
-          "Vertraute von Kremlchef Putin haben nicht nur AfD-Politiker nach Russland geladen – auch zwei BSW-Abgeordnete wurden umgarnt. Die Spitze um Parteichefin Wagenknecht spielt die Reise herunter."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/buendnis-sahra-wagenknecht-bestaetigt-kontakte-zweier-abgeordneter-nach-russland-a-af2d7019-6c39-4c2e-878e-317477e7ca60#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-17T18:36:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/rente-so-ticken-die-rebellen-von-der-jungen-union-a-09cd2b2f-2cf2-45e3-87b3-80789852ce88",
-        "title": "Rente: So ticken die Rebellen von der Jungen Union",
-        "summary": "Die jungen Unionsabgeordneten um Johannes Winkel bleiben im Streit über das geplante Rentenpaket stur. Wären sie bereit, die Koalition platzen zu lassen?",
-        "paragraphs": [
-          "Die jungen Unionsabgeordneten um Johannes Winkel bleiben im Streit über das geplante Rentenpaket stur. Wären sie bereit, die Koalition platzen zu lassen?"
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/rente-so-ticken-die-rebellen-von-der-jungen-union-a-09cd2b2f-2cf2-45e3-87b3-80789852ce88#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-17T18:29:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:41488493-8923-47a4-a071-a1ed8ca73b58}",
-        "title": "USA: Was Donald Trump wirklich fürchten muss",
-        "summary": "Die Republikaner sollen nun der Veröffentlichung der Epstein-Dokumente zustimmen. Das zeigt, wie sehr Trump unter Druck ist. Sein größtes Problem ist aber ein anderes.",
-        "paragraphs": [
-          "Die Republikaner sollen nun der Veröffentlichung der Epstein-Dokumente zustimmen. Das zeigt, wie sehr Trump unter Druck ist. Sein größtes Problem ist aber ein anderes."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/usa-praesident-donald-trump-preisanstieg-epstein-emails-gefahr-gxe",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-17T18:21:38.000Z"
-      },
-      {
-        "id": "li.3339796",
-        "title": "Regierungskoalition: Klingbeils Renten-Basta",
-        "summary": "Den SPD-Chef und Vizekanzler verfolgt auf seiner China-Reise die Rentendebatte daheim. Er will nichts mehr ändern und fordert eine schnelle Abstimmung im Bundestag. Der Frage nach einem drohenden Koalitionsbruch weicht er aus.",
-        "paragraphs": [
-          "Den SPD-Chef und Vizekanzler verfolgt auf seiner China-Reise die Rentendebatte daheim. Er will nichts mehr ändern und fordert eine schnelle Abstimmung im Bundestag. Der Frage nach einem drohenden Koalitionsbruch weicht er aus."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/klingbeil-rentenstreit-peking-union-gesetzentwurf-li.3339796",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-17T17:33:25.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/afghanistan-deutschlands-moralische-kapitulation-vor-den-taliban-meinung-a-9ec50886-ea48-4280-8a24-639f53b45e1a",
-        "title": "Afghanistan: Deutschlands moralische Kapitulation vor den Taliban - Meinung",
-        "summary": "Die militärische Niederlage liegt mehr als vier Jahre zurück. Doch geht es nach den Plänen des Bundesinnenministeriums, kapituliert Deutschland auch moralisch vor den afghanischen Taliban. Eine Schande.",
-        "paragraphs": [
-          "Die militärische Niederlage liegt mehr als vier Jahre zurück. Doch geht es nach den Plänen des Bundesinnenministeriums, kapituliert Deutschland auch moralisch vor den afghanischen Taliban. Eine Schande."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/afghanistan-deutschlands-moralische-kapitulation-vor-den-taliban-meinung-a-9ec50886-ea48-4280-8a24-639f53b45e1a#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-17T17:26:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/europa-warum-die-brandmauer-gegen-extremismus-broeckelt-a-9ec19c16-d16d-442e-ab73-7d31d77dcfd3",
-        "title": "Europa: Warum die Brandmauer gegen Extremismus bröckelt",
-        "summary": "Die europäischen Konservativen lassen es auf eine Mehrheit mit Rechtsextremen ankommen, um das Lieferkettengesetz zu lockern. Ist das das Ende der Brandmauer im EU-Parlament? Und: Wer hat sich im Vorfeld verzockt?",
-        "paragraphs": [
-          "Die europäischen Konservativen lassen es auf eine Mehrheit mit Rechtsextremen ankommen, um das Lieferkettengesetz zu lockern. Ist das das Ende der Brandmauer im EU-Parlament? Und: Wer hat sich im Vorfeld verzockt?"
-        ],
-        "link": "https://www.spiegel.de/politik/europa-warum-die-brandmauer-gegen-extremismus-broeckelt-a-9ec19c16-d16d-442e-ab73-7d31d77dcfd3#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-17T17:23:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/eu-parlament-konservative-riskieren-mehrheit-mit-rechtsextremen-brandmauer-broeckelt-podcast-a-a69be873-3410-4dc9-8e03-a8411e9e1375",
-        "title": "EU-Parlament: Konservative riskieren Mehrheit mit Rechtsextremen - Brandmauer bröckelt - Podcast",
-        "summary": "Die europäischen Konservativen lassen es auf eine Mehrheit mit Rechtsextremen ankommen, um das Lieferkettengesetz zu lockern. Ist das das Ende der Brandmauer im EU-Parlament? Und: Wer hat sich im Vorfeld verzockt?",
-        "paragraphs": [
-          "Die europäischen Konservativen lassen es auf eine Mehrheit mit Rechtsextremen ankommen, um das Lieferkettengesetz zu lockern. Ist das das Ende der Brandmauer im EU-Parlament? Und: Wer hat sich im Vorfeld verzockt?"
-        ],
-        "link": "https://www.spiegel.de/politik/eu-parlament-konservative-riskieren-mehrheit-mit-rechtsextremen-brandmauer-broeckelt-podcast-a-a69be873-3410-4dc9-8e03-a8411e9e1375#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-17T17:23:00.000Z"
-      },
-      {
-        "id": "li.3339849",
-        "title": "SZ am Abend: Nachrichten vom 17. November 2025",
+        "id": "li.3340576",
+        "title": "SZ am Abend: Nachrichten vom 18. November 2025",
         "summary": "Was heute wichtig war.",
         "paragraphs": [
           "Was heute wichtig war."
         ],
-        "link": "https://www.sueddeutsche.de/politik/news-merz-israel-ukraine-kampfjets-li.3339849",
+        "link": "https://www.sueddeutsche.de/politik/news-warnung-koalitionsbruch-kronprinz-saudi-arabien-trump-polen-russland-anschlag-li.3340576",
         "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-17T16:55:48.000Z"
+        "publishedAt": "2025-11-18T16:15:36.000Z"
       },
       {
-        "id": "https://www.spiegel.de/politik/deutschland/news-des-tages-union-und-die-rentenreform-israel-und-waffenlieferungen-festnahmen-in-istanbul-a-490a6b42-a1ce-4f26-819d-351f55843f1c",
-        "title": "News des Tages: Union und die Rentenreform, Israel und Waffenlieferungen, Festnahmen in Istanbul",
-        "summary": "CDU und CSU mäandern bei der Rente. Israel bekommt wieder Waffen aus Deutschland. Und Mediziner zweifeln an der Theorie, die deutsche Familie in Istanbul sei an einer Lebensmittelvergiftung gestorben. Das ist die Lage am Montagabend.",
+        "id": "li.3340472",
+        "title": "SZ-Podcast „Auf den Punkt“: Epstein-Akten: Was wusste Trump?",
+        "summary": "Trump wird den Skandal um seine Verbindungen zum verurteilten Sexualstraftäter Jeffrey Epstein nicht los. Wie gefährlich kann ihm das werden?",
         "paragraphs": [
-          "CDU und CSU mäandern bei der Rente. Israel bekommt wieder Waffen aus Deutschland. Und Mediziner zweifeln an der Theorie, die deutsche Familie in Istanbul sei an einer Lebensmittelvergiftung gestorben. Das ist die Lage am Montagabend."
+          "Trump wird den Skandal um seine Verbindungen zum verurteilten Sexualstraftäter Jeffrey Epstein nicht los. Wie gefährlich kann ihm das werden?"
         ],
-        "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-union-und-die-rentenreform-israel-und-waffenlieferungen-festnahmen-in-istanbul-a-490a6b42-a1ce-4f26-819d-351f55843f1c#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-17T16:53:00.000Z"
+        "link": "https://www.sueddeutsche.de/politik/trump-epstein-skandal-verbindungen-files-akten-abstimmung-li.3340472",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T16:12:36.000Z"
       },
       {
-        "id": "https://www.spiegel.de/politik/deutschland/tarifverhandlungen-ver-di-fordert-sieben-prozent-mehr-geld-fuer-angestellte-a-c04f1d4a-af51-4700-97db-49fede69e9e6",
-        "title": "Tarifverhandlungen: Ver.di fordert sieben Prozent mehr Geld für Angestellte",
-        "summary": "Ver.di-Chef Werneke fordert vor dem Auftakt der Verhandlungen in wenigen Wochen mehr Geld für die Angestellten im öffentlichen Dienst der Länder. Die Gegenseite weist die Forderungen umgehend zurück.",
+        "id": "{urn:uuid:1f432d08-52aa-4eeb-9f21-08fd58fc799d}",
+        "title": "Gazafriedensplan: Gazaplan – Überraschung im UN-Sicherheitsrat",
+        "summary": "Mit großer Mehrheit wurde die Resolution zum Friedensplan verabschiedet. Ist damit ein dauerhafter Frieden möglich? Und: Deutschland sagt 60 Millionen für Klimafonds zu.",
         "paragraphs": [
-          "Ver.di-Chef Werneke fordert vor dem Auftakt der Verhandlungen in wenigen Wochen mehr Geld für die Angestellten im öffentlichen Dienst der Länder. Die Gegenseite weist die Forderungen umgehend zurück."
+          "Mit großer Mehrheit wurde die Resolution zum Friedensplan verabschiedet. Ist damit ein dauerhafter Frieden möglich? Und: Deutschland sagt 60 Millionen für Klimafonds zu."
         ],
-        "link": "https://www.spiegel.de/politik/deutschland/tarifverhandlungen-ver-di-fordert-sieben-prozent-mehr-geld-fuer-angestellte-a-c04f1d4a-af51-4700-97db-49fede69e9e6#ref=rss",
+        "link": "https://www.zeit.de/politik/2025-11/gaza-friedensplan-un-sicherheitsrat-nachrichtenpodcast",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T16:12:08.000Z"
+      },
+      {
+        "id": "{urn:uuid:3e19831d-b221-4346-9462-a39ad34d1bf5}",
+        "title": "Debatte über Ludwig-Erhard-Gipfel: Opposition fordert von Weimer Aufklärung zu Beteiligung an Unternehmen",
+        "summary": "Grüne und Linke fürchten Interessenkonflikte durch die Beteiligung des Kulturstaatsministers an einem Medienunternehmen. Dieses soll mit Einfluss auf Ministerien werben.",
+        "paragraphs": [
+          "Grüne und Linke fürchten Interessenkonflikte durch die Beteiligung des Kulturstaatsministers an einem Medienunternehmen. Dieses soll mit Einfluss auf Ministerien werben."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-11/wolfram-weimer-media-group-ludwig-erhard-gipfel-interessenkonflikt-opposition",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T16:11:02.000Z"
+      },
+      {
+        "id": "li.3339455",
+        "title": "Vereinigtes Königreich: „Illegale Einwanderung zerreißt das Land“",
+        "summary": "Die britische Innenministerin Shabana Mahmood stellt radikale Reformen in der Asylpolitik nach dem Vorbild Dänemarks vor. Teile der rechten Opposition loben sie – ganz anders als der linke Flügel der eigenen Partei.",
+        "paragraphs": [
+          "Die britische Innenministerin Shabana Mahmood stellt radikale Reformen in der Asylpolitik nach dem Vorbild Dänemarks vor. Teile der rechten Opposition loben sie – ganz anders als der linke Flügel der eigenen Partei."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/asylpolitik-grossbritannien-fluechtlinge-starmer-reformen-li.3339455",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T15:54:09.000Z"
+      },
+      {
+        "id": "{urn:uuid:ceaa7d64-bd8f-4aad-b6d9-adb18fef906f}",
+        "title": "Spionage: Britischer Geheimdienst warnt vor chinesischen Spionen auf Jobportalen",
+        "summary": "Der britische Geheimdienst hat Politiker vor neuen beruflichen Kontakten auf Online-Jobnetzwerken gewarnt. Hinter manchen Anfragen vermutet der MI5 chinesische Spione.",
+        "paragraphs": [
+          "Der britische Geheimdienst hat Politiker vor neuen beruflichen Kontakten auf Online-Jobnetzwerken gewarnt. Hinter manchen Anfragen vermutet der MI5 chinesische Spione."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/gross-britannien-spionage-china-netzwerke-beruf-linkedin",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T15:41:08.000Z"
+      },
+      {
+        "id": "li.3340621",
+        "title": "Ukraine: Selenskij will neue Verhandlungen",
+        "summary": "Keine weiteren Details verfügbar.",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/ukraine-selenskij-will-neue-verhandlungen-li.3340621",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T15:30:03.000Z"
+      },
+      {
+        "id": "li.3340156",
+        "title": "Glosse: Das Streiflicht",
+        "summary": "Der preußische General Scharnhorst hat die Wehrpflicht ersonnen. Was würde er sehen, denken, fühlen, käme er dieser Tage zur Besichtigung einer Bundeswehrkaserne zurück?",
+        "paragraphs": [
+          "Der preußische General Scharnhorst hat die Wehrpflicht ersonnen. Was würde er sehen, denken, fühlen, käme er dieser Tage zur Besichtigung einer Bundeswehrkaserne zurück?"
+        ],
+        "link": "https://www.sueddeutsche.de/politik/glosse-das-streiflicht-li.3340156",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T15:14:23.000Z"
+      },
+      {
+        "id": "{urn:uuid:dde81e71-8385-4cc3-9ea0-eccddcb212dd}",
+        "title": "Belgien: Festnahmen wegen mutmaßlicher Anschlagspläne gegen Staatsanwalt",
+        "summary": "In Belgien sollen mehrere Personen einen Anschlag auf einen führenden Staatsanwalt geplant haben. Sie sollen Verbindungen zur organisierten Drogenkriminalität haben.",
+        "paragraphs": [
+          "In Belgien sollen mehrere Personen einen Anschlag auf einen führenden Staatsanwalt geplant haben. Sie sollen Verbindungen zur organisierten Drogenkriminalität haben."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/belgien-staatsanwaltschaft-anschlag-plaene-vorwurf-festnahmen",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T15:06:10.000Z"
+      },
+      {
+        "id": "li.3336796",
+        "title": "Liechtenstein: Die erste Frau im Staat – nach 100 Jahren Männer-Herrschaft",
+        "summary": "Im reichen Liechtenstein waren mehr als ein Jahrhundert lang nur Männer an der Macht. Seit diesem Frühjahr aber führt Brigitte Haas die Regierung. Was sie den rechtspopulistischen Kräften entgegensetzen will.",
+        "paragraphs": [
+          "Im reichen Liechtenstein waren mehr als ein Jahrhundert lang nur Männer an der Macht. Seit diesem Frühjahr aber führt Brigitte Haas die Regierung. Was sie den rechtspopulistischen Kräften entgegensetzen will."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/liechtenstein-brigitte-haas-regierungschefin-li.3336796",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T15:05:46.000Z"
+      },
+      {
+        "id": "{urn:uuid:cb8e94da-591d-4c3f-9c5d-47c40a423b82}",
+        "title": "Klimakonferenz: Merz stößt brasilianische Politiker mit Äußerungen vor den Kopf",
+        "summary": "Nach seiner Rückkehr aus Brasilien hatte Bundeskanzler Friedrich Merz vor Unternehmern über die dortigen Lebensumstände gesprochen. Dafür steht er nun in der Kritik.",
+        "paragraphs": [
+          "Nach seiner Rückkehr aus Brasilien hatte Bundeskanzler Friedrich Merz vor Unternehmern über die dortigen Lebensumstände gesprochen. Dafür steht er nun in der Kritik."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-11/brasilien-merz-belem-klimakonferenz",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T15:01:54.000Z"
+      },
+      {
+        "id": "li.3339720",
+        "title": "Polen und Deutschland: „Wir vergeben und bitten um Vergebung“",
+        "summary": "Wie ein Brief polnischer Bischöfe an ihre deutschen Brüder zur Inspiration für Willy Brandts Kniefall in Warschau wurde – und warum er heute wieder umstritten ist.",
+        "paragraphs": [
+          "Wie ein Brief polnischer Bischöfe an ihre deutschen Brüder zur Inspiration für Willy Brandts Kniefall in Warschau wurde – und warum er heute wieder umstritten ist."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/versoehnung-polen-deutschland-jahre-bischofsbrief-li.3339720",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T14:55:24.000Z"
+      },
+      {
+        "id": "li.3340293",
+        "title": "Sexueller Missbrauch: Kirchen, Kinderschutz- und Sportverbände fordern Hilfe für Missbrauchsopfer",
+        "summary": "In einer ungewöhnlich breiten Initiative wenden sich 27 Institutionen an Unions- und SPD-Fraktion: Sie fordern, dass der Fonds Sexueller Missbrauch fortgesetzt wird. Doch es gibt rechtliche Bedenken.",
+        "paragraphs": [
+          "In einer ungewöhnlich breiten Initiative wenden sich 27 Institutionen an Unions- und SPD-Fraktion: Sie fordern, dass der Fonds Sexueller Missbrauch fortgesetzt wird. Doch es gibt rechtliche Bedenken."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/fonds-missbrauch-kirchen-verbaende-unterstuetzung-li.3340293",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T14:37:58.000Z"
+      },
+      {
+        "id": "li.3340575",
+        "title": "Parteilogo: AfD unterliegt in Markenstreit",
+        "summary": "Keine weiteren Details verfügbar.",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/parteilogo-afd-unterliegt-in-markenstreit-li.3340575",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T14:33:46.000Z"
+      },
+      {
+        "id": "li.3340289",
+        "title": "Parteinahe Stiftungen: Kommt die AfD jetzt an das große Steuergeld?",
+        "summary": "Die AfD fordert Millionen für ihre parteinahe Stiftung. Nun hat das Innenministerium erstmals Mittel in den Haushalt eingestellt. Doch noch ist nicht sicher, ob der Aufbau eines rechten Bildungswerks damit wirklich näher rückt.",
+        "paragraphs": [
+          "Die AfD fordert Millionen für ihre parteinahe Stiftung. Nun hat das Innenministerium erstmals Mittel in den Haushalt eingestellt. Doch noch ist nicht sicher, ob der Aufbau eines rechten Bildungswerks damit wirklich näher rückt."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/afd-steuermittel-desiderius-erasmus-stiftung-li.3340289",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T14:33:39.000Z"
+      },
+      {
+        "id": "li.3339694",
+        "title": "Nahost-Krieg: Störfeuer gegen Trumps Gaza-Plan",
+        "summary": "Eine internationale Truppe soll einen künftigen Frieden in Nahost absichern. Aber gegen das Vorhaben Washingtons regt sich Widerstand – nicht nur von der Hamas.",
+        "paragraphs": [
+          "Eine internationale Truppe soll einen künftigen Frieden in Nahost absichern. Aber gegen das Vorhaben Washingtons regt sich Widerstand – nicht nur von der Hamas."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/gaza-friedensplan-strategie-hamas-widerstand-li.3339694",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T14:30:12.000Z"
+      },
+      {
+        "id": "li.3339724",
+        "title": "China und Japan: Ein Satz und seine Folgen",
+        "summary": "Japans neue Premierministerin Sanae Takaichi spricht deutlicher über das Risiko im Konflikt um Taiwan als ihre Vorgänger. Prompt rächt sich China mit wütenden Boykotten. Tokio muss eine Krise lösen, deren Auslöser vielleicht nur ein Versehen war.",
+        "paragraphs": [
+          "Japans neue Premierministerin Sanae Takaichi spricht deutlicher über das Risiko im Konflikt um Taiwan als ihre Vorgänger. Prompt rächt sich China mit wütenden Boykotten. Tokio muss eine Krise lösen, deren Auslöser vielleicht nur ein Versehen war."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/japan-china-zorn-sicherheit-taiwan-li.3339724",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T14:27:30.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/sahra-wagenknecht-hat-sie-chancen-auf-neuauszaehlung-der-bundestagswahl-a-cfc3c34a-9259-464a-9c5b-678ca3a404c6",
+        "title": "Sahra Wagenknecht: Hat sie Chancen auf Neuauszählung der Bundestagswahl?",
+        "summary": "Sahra Wagenknecht zweifelt das Ergebnis der Bundestagswahl an und fordert eine Neuauszählung der abgegebenen Stimmen. Zu Recht? Die Argumente ihres BSW im Faktencheck.",
+        "paragraphs": [
+          "Sahra Wagenknecht zweifelt das Ergebnis der Bundestagswahl an und fordert eine Neuauszählung der abgegebenen Stimmen. Zu Recht? Die Argumente ihres BSW im Faktencheck."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/sahra-wagenknecht-hat-sie-chancen-auf-neuauszaehlung-der-bundestagswahl-a-cfc3c34a-9259-464a-9c5b-678ca3a404c6#ref=rss",
         "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-17T16:41:00.000Z"
+        "publishedAt": "2025-11-18T14:25:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:5ffd5415-a7bf-46c3-a82b-6cc6d2c882a3}",
+        "title": "Streit um Rentensystem: Besser eine schlechte Rentenreform als eine Regierungskrise",
+        "summary": "Die Bundesregierung darf sich nicht wegen des Rentenstreits zerlegen. Das Ergebnis wäre nicht mehr Generationengerechtigkeit – sondern eine noch stärkere AfD.",
+        "paragraphs": [
+          "Die Bundesregierung darf sich nicht wegen des Rentenstreits zerlegen. Das Ergebnis wäre nicht mehr Generationengerechtigkeit – sondern eine noch stärkere AfD."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-11/reform-rentensystem-bundesregierung-koalition-krise-junge-union",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T14:23:26.000Z"
+      },
+      {
+        "id": "{urn:uuid:85537525-0e22-4a08-bb1c-7f810c702bc6}",
+        "title": "Mutmaßlicher Sprengstoffanschlag: Polen macht Russland für Explosion auf Bahnstrecke verantwortlich",
+        "summary": "Hinter dem mutmaßlichen Sprengstoffanschlag vermutet Polen den russischen Geheimdienst als Auftraggeber. Zwei Verdächtige sollen sich nach Belarus abgesetzt haben.",
+        "paragraphs": [
+          "Hinter dem mutmaßlichen Sprengstoffanschlag vermutet Polen den russischen Geheimdienst als Auftraggeber. Zwei Verdächtige sollen sich nach Belarus abgesetzt haben."
+        ],
+        "link": "https://www.zeit.de/politik/2025-11/polen-russland-anschlag-bahnstrecke-gxe",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T14:18:20.000Z"
+      },
+      {
+        "id": "li.3340324",
+        "title": "Geld statt Schutz: Fast alle Afghanen lehnen Dobrindts Angebot ab",
+        "summary": "Die Bundesregierung hat bedrohten Afghanen mit deutscher Aufnahmezusage Tausende Euro angeboten, wenn sie nicht nach Deutschland kommen. Kaum jemand geht darauf ein.",
+        "paragraphs": [
+          "Die Bundesregierung hat bedrohten Afghanen mit deutscher Aufnahmezusage Tausende Euro angeboten, wenn sie nicht nach Deutschland kommen. Kaum jemand geht darauf ein."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/afghanen-pakistan-dobrindt-angebot-geld-schutz-li.3340324",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-18T14:12:55.000Z"
+      },
+      {
+        "id": "{urn:uuid:5a5c3905-3eec-4406-85f8-3954af80f590}",
+        "title": "Saudi-Arabien: Khashoggis Witwe kritisiert US-Besuch des saudischen Kronprinzen",
+        "summary": "Vor der Washington-Reise des saudischen Kronprinzen meldet sich die Witwe von Jamal Khashoggi zu Wort. Sie hofft, dass US-Vertreter dessen Ermordung ansprechen.",
+        "paragraphs": [
+          "Vor der Washington-Reise des saudischen Kronprinzen meldet sich die Witwe von Jamal Khashoggi zu Wort. Sie hofft, dass US-Vertreter dessen Ermordung ansprechen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/usa-saudi-arabien-jamal-khashoggi-witwe-bin-salman-donald-trump",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-18T14:06:57.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/neuer-wehrdienst-gruene-dienstpflichtanhaenger-halten-sich-zustimmung-offen-a-26deea73-4ecd-4abb-a4d4-79e349f15613",
+        "title": "Neuer Wehrdienst: Grüne Dienstpflichtanhänger halten sich Zustimmung offen",
+        "summary": "Einige Grünenabgeordnete plädieren für eine gesellschaftliche Dienstpflicht. Den Wehrdienstkompromiss von Schwarz-Rot wollen sie zumindest prüfen. Die Fraktionsführung hat sich indes bereits festgelegt.",
+        "paragraphs": [
+          "Einige Grünenabgeordnete plädieren für eine gesellschaftliche Dienstpflicht. Den Wehrdienstkompromiss von Schwarz-Rot wollen sie zumindest prüfen. Die Fraktionsführung hat sich indes bereits festgelegt."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/neuer-wehrdienst-gruene-dienstpflichtanhaenger-halten-sich-zustimmung-offen-a-26deea73-4ecd-4abb-a4d4-79e349f15613#ref=rss",
+        "source": "SPIEGEL Politik",
+        "publishedAt": "2025-11-18T14:02:00.000Z"
       }
     ],
     "Wirtschaft": [
       {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/kryptowaehrung-bitcoin-rutscht-unter-90000-dollar/100175631.html",
-        "title": "Kryptowährung: Bitcoin rutscht erstmals seit sieben Monaten unter 90.000 Dollar",
-        "summary": "Die weltgrößte Kryptowährung setzt ihre Verluste fort. Die Jahresgewinne hat der Bitcoin mittlerweile komplett abgegeben. Optionshändler sichern sich gegen weitere Verluste ab.",
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-sorge-um-ki-blase-drueckt-kurse-an-wall-street/100175824.html",
+        "title": "Dow Jones, S&P 500, Nasdaq: „Kein Unternehmen wird immun sein“ – Sorge um KI-Blase drückt Kurse an Wall Street",
+        "summary": "Neben Analysten warnt auch der Alphabet-Chef Sundar Pichai vor „Irrationalitäten“ bei den großen KI-Investitionen. Mehrere Tech-Werte verlieren am Dienstag.",
         "paragraphs": [
-          "Die weltgrößte Kryptowährung setzt ihre Verluste fort. Die Jahresgewinne hat der Bitcoin mittlerweile komplett abgegeben. Optionshändler sichern sich gegen weitere Verluste ab."
+          "Neben Analysten warnt auch der Alphabet-Chef Sundar Pichai vor „Irrationalitäten“ bei den großen KI-Investitionen. Mehrere Tech-Werte verlieren am Dienstag."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/kryptowaehrung-bitcoin-rutscht-unter-90000-dollar/100175631.html",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-sorge-um-ki-blase-drueckt-kurse-an-wall-street/100175824.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T05:52:59.000Z"
+        "publishedAt": "2025-11-18T17:54:57.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/deutschland/klimaschutz-verkehrs-und-gebaeudesektor-verfehlen-co-obergrenzen-deutlich/100175149.html",
-        "title": "Klimaschutz: Verkehrs- und Gebäudesektor verfehlen CO₂-Obergrenzen deutlich – nun drohen Strafzahlungen",
-        "summary": "Sowohl Verkehrs- als auch Gebäudesektor haben 2024 in Deutschland deutlich mehr CO₂ emittiert als zulässig. Das könnte teuer werden: Strafzahlungen an andere EU-Staaten werden damit wahrscheinlich.",
+        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/tap-polizeirazzia-wegen-korruption-bei-portugals-staatsfluggesellschaft/100175926.html",
+        "title": "TAP: Polizeirazzia wegen Korruption bei Portugals Staatsfluggesellschaft",
+        "summary": "Bei den Ermittlungen geht es um ein komplexes Flugzeugleasinggeschäft. Der Verdacht der Staatsanwaltschaft bringt auch den Flugzeugbauer Airbus in Erklärungsnot.",
         "paragraphs": [
-          "Sowohl Verkehrs- als auch Gebäudesektor haben 2024 in Deutschland deutlich mehr CO₂ emittiert als zulässig. Das könnte teuer werden: Strafzahlungen an andere EU-Staaten werden damit wahrscheinlich."
+          "Bei den Ermittlungen geht es um ein komplexes Flugzeugleasinggeschäft. Der Verdacht der Staatsanwaltschaft bringt auch den Flugzeugbauer Airbus in Erklärungsnot."
         ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/klimaschutz-verkehrs-und-gebaeudesektor-verfehlen-co-obergrenzen-deutlich/100175149.html",
+        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/tap-polizeirazzia-wegen-korruption-bei-portugals-staatsfluggesellschaft/100175926.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T05:44:41.000Z"
+        "publishedAt": "2025-11-18T17:39:23.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/usa-oekonom-summers-will-wegen-epstein-kontakt-aufgaben-ruhen-lassen/100175599.html",
-        "title": "USA: US-Ökonom Larry Summers zieht sich wegen Epstein-Kontakten von öffentlichen Aufgaben zurück",
-        "summary": "Der einflussreiche Wissenschaftler zieht Konsequenzen aus der jüngsten Veröffentlichung der Epstein-Files. Er schäme sich zutiefst für sein Handeln, sagte der Ex-Finanzminister.",
+        "id": "https://www.handelsblatt.com/politik/deutschland/urteil-landgericht-berlin-weist-afd-antrag-gegen-handelsblatt-ab/100175911.html",
+        "title": "Urteil: Landgericht Berlin weist Antrag der AfD gegen das Handelsblatt ab",
+        "summary": "Die AfD ist mit dem Versuch gescheitert, dem Handelsblatt die Berichterstattung in einem brisanten Fall zu untersagen. Das Landgericht Berlin stärkt der Presse damit den Rücken.",
         "paragraphs": [
-          "Der einflussreiche Wissenschaftler zieht Konsequenzen aus der jüngsten Veröffentlichung der Epstein-Files. Er schäme sich zutiefst für sein Handeln, sagte der Ex-Finanzminister."
+          "Die AfD ist mit dem Versuch gescheitert, dem Handelsblatt die Berichterstattung in einem brisanten Fall zu untersagen. Das Landgericht Berlin stärkt der Presse damit den Rücken."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/usa-oekonom-summers-will-wegen-epstein-kontakt-aufgaben-ruhen-lassen/100175599.html",
+        "link": "https://www.handelsblatt.com/politik/deutschland/urteil-landgericht-berlin-weist-afd-antrag-gegen-handelsblatt-ab/100175911.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T05:29:42.000Z"
+        "publishedAt": "2025-11-18T17:22:36.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-        "title": "Börse am 18. November: Sieben Punkte, die für Anleger heute wichtig sind",
-        "summary": "Nach dem schwachen Wochenstart dürfte der Dax weiter ins Minus rutschen. Negative Vorgaben aus Asien und den USA drücken die Kurse vor Handelsbeginn.",
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-voigt-offen-fuer-russisches-gas-nach-kriegsende/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Thüringens Ministerpräsident Voigt offen für russisches Gas nach Kriegsende",
+        "summary": "Selenskyj trifft spanischen König +++ Mittwoch sind Gespräche mit Selenskyj in der Türkei geplant +++ US-Gesandter Witkoff soll ebenfalls teilnehmen +++ Der Newsblog.",
         "paragraphs": [
-          "Nach dem schwachen Wochenstart dürfte der Dax weiter ins Minus rutschen. Negative Vorgaben aus Asien und den USA drücken die Kurse vor Handelsbeginn."
+          "Selenskyj trifft spanischen König +++ Mittwoch sind Gespräche mit Selenskyj in der Türkei geplant +++ US-Gesandter Witkoff soll ebenfalls teilnehmen +++ Der Newsblog."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-voigt-offen-fuer-russisches-gas-nach-kriegsende/27982126.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T05:15:00.000Z"
+        "publishedAt": "2025-11-18T17:16:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiatische-boersen-rutschen-ab-anleger-warten-auf-us-datenflut/100175592.html",
-        "title": "Nikkei, Yen, Hang Seng: Asiatische Börsen rutschen ab – Anleger warten auf US-Datenflut",
-        "summary": "Die asiatischen Börsen sind zum Wochenstart teils deutlich unter Druck geraten. Anleger richten ihren Blick auf verspätete US-Konjunkturdaten und auf die Federal Reserve.",
+        "id": "https://www.handelsblatt.com/politik/international/suedamerika-merz-aussagen-zu-brasilien-sorgen-fuer-heftige-kritik/100175699.html",
+        "title": "Südamerika: „Arrogant und überheblich“ – Merz Aussagen zu Brasilien sorgen für heftige Kritik",
+        "summary": "Ein Kommentar des Kanzlers führt in Brasilien zu politischen Irritationen. Das Land ist Gastgeber des Klimagipfels COP30 und wichtigster Partner Deutschlands in Südamerika.",
         "paragraphs": [
-          "Die asiatischen Börsen sind zum Wochenstart teils deutlich unter Druck geraten. Anleger richten ihren Blick auf verspätete US-Konjunkturdaten und auf die Federal Reserve."
+          "Ein Kommentar des Kanzlers führt in Brasilien zu politischen Irritationen. Das Land ist Gastgeber des Klimagipfels COP30 und wichtigster Partner Deutschlands in Südamerika."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiatische-boersen-rutschen-ab-anleger-warten-auf-us-datenflut/100175592.html",
+        "link": "https://www.handelsblatt.com/politik/international/suedamerika-merz-aussagen-zu-brasilien-sorgen-fuer-heftige-kritik/100175699.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T04:26:48.000Z"
+        "publishedAt": "2025-11-18T17:13:48.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/berater-roland-berger-und-ralf-schmitz-top-sanierer-verbuenden-sich/100174213.html",
-        "title": "„Perfect match“: Start am 1. Januar: Top-Sanierer Roland Berger und Ralf Schmitz verbünden sich",
-        "summary": "Die beiden führenden deutschen Restrukturierungsberater gründen gemeinsam eine neue Gesellschaft für kriselnde Unternehmen. Was steckt dahinter?",
+        "id": "https://www.handelsblatt.com/politik/deutschland/regierung-ein-ex-banker-soll-deutschland-aus-der-investitionskrise-holen/100174758.html",
+        "title": "Martin Blessing: Ein Ex-Banker soll Deutschland aus der Krise holen – Neuer Investitionsbeauftragter erstmals in Aktion",
+        "summary": "Der frühere Commerzbank-Chef Blessing soll als Investitionsbeauftragter des Kanzlers Geldgeber nach Deutschland locken. Erster Termin: Abu Dhabi. Aber reicht es, Visitenkarten zu verteilen?",
         "paragraphs": [
-          "Die beiden führenden deutschen Restrukturierungsberater gründen gemeinsam eine neue Gesellschaft für kriselnde Unternehmen. Was steckt dahinter?"
+          "Der frühere Commerzbank-Chef Blessing soll als Investitionsbeauftragter des Kanzlers Geldgeber nach Deutschland locken. Erster Termin: Abu Dhabi. Aber reicht es, Visitenkarten zu verteilen?"
         ],
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/berater-roland-berger-und-ralf-schmitz-top-sanierer-verbuenden-sich/100174213.html",
+        "link": "https://www.handelsblatt.com/politik/deutschland/regierung-ein-ex-banker-soll-deutschland-aus-der-investitionskrise-holen/100174758.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T03:14:07.000Z"
+        "publishedAt": "2025-11-18T17:02:47.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-sich-bahnhofsviertel-zu-bevorzugten-standorten-entwickeln/100166230.html",
-        "title": "Bürogebäude: Immobilienprofis drängen an Deutschlands Bahnhöfe",
-        "summary": "Zwischen Wettbüros und Spielhallen entstehen in München und anderswo schicke Büros. Warum sich das rentiert und was den Trend zum Arbeiten im Bahnhofsviertel verstärkt.",
+        "id": "https://www.handelsblatt.com/politik/international/sabotage-polen-sieht-russland-hinter-anschlag-auf-bahnstrecke/100175905.html",
+        "title": "Sabotage: Polen sieht Russland hinter Anschlag auf Bahnstrecke",
+        "summary": "Zwei Ukrainer stehen im Verdacht, bei einer Explosion an einer Bahnstrecke im Auftrag Moskaus gehandelt zu haben. Nach Einschätzung Warschaus geht es dem Kreml nicht nur um unmittelbare Folgen.",
         "paragraphs": [
-          "Zwischen Wettbüros und Spielhallen entstehen in München und anderswo schicke Büros. Warum sich das rentiert und was den Trend zum Arbeiten im Bahnhofsviertel verstärkt."
+          "Zwei Ukrainer stehen im Verdacht, bei einer Explosion an einer Bahnstrecke im Auftrag Moskaus gehandelt zu haben. Nach Einschätzung Warschaus geht es dem Kreml nicht nur um unmittelbare Folgen."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-sich-bahnhofsviertel-zu-bevorzugten-standorten-entwickeln/100166230.html",
+        "link": "https://www.handelsblatt.com/politik/international/sabotage-polen-sieht-russland-hinter-anschlag-auf-bahnstrecke/100175905.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T03:11:40.000Z"
+        "publishedAt": "2025-11-18T16:38:04.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/deutschland/digitalgipfel-wirtschaft-fordert-tempo-macron-will-merz-ueberzeugen/100175274.html",
-        "title": "Digitalgipfel: Wirtschaft fordert Tempo – Macron will Merz überzeugen",
-        "summary": "Wie wird Europa digital souverän? Wirtschaftsverbände aus Deutschland und Frankreich machen Vorschläge und erhöhen den Druck auf Merz und Macron. Bisher verfolgen sie keine gemeinsame Linie.",
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-fondsmanager-furcht-vor-ki-blase-noch-einmal-deutlich-gestiegen/100173400.html",
+        "title": "Geldanlage: Warum Fondsmanager laut einer viel beachteten Umfrage eine KI-Blase befürchten",
+        "summary": "Internationale Portfoliomanager sorgen sich um die Ausgaben und die Bewertungen der großen Tech-Konzerne. Ihre Aktienbestände reduzieren sie aber nur leicht.",
         "paragraphs": [
-          "Wie wird Europa digital souverän? Wirtschaftsverbände aus Deutschland und Frankreich machen Vorschläge und erhöhen den Druck auf Merz und Macron. Bisher verfolgen sie keine gemeinsame Linie."
+          "Internationale Portfoliomanager sorgen sich um die Ausgaben und die Bewertungen der großen Tech-Konzerne. Ihre Aktienbestände reduzieren sie aber nur leicht."
         ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/digitalgipfel-wirtschaft-fordert-tempo-macron-will-merz-ueberzeugen/100175274.html",
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-fondsmanager-furcht-vor-ki-blase-noch-einmal-deutlich-gestiegen/100173400.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T03:06:54.000Z"
+        "publishedAt": "2025-11-18T16:29:48.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/deutschland/energiewende-gruengas-quote-koennte-verbraucher-pro-jahr-178-euro-kosten/100174392.html",
-        "title": "Energiewende: Geplante Grüngas-Quote könnte Verbraucher pro Jahr 178 Euro kosten",
-        "summary": "Die Bundesregierung plant eine Quote, um den Wasserstoffhochlauf voranzutreiben. Eine exklusive Studie zeigt: Die Mehrkosten wären immens. Betroffen wären private Haushalte und Industrie.",
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/jp-morgan-japans-aktien-bieten-langfristig-die-groessten-chancen/100175846.html",
+        "title": "Langfristprognose: Japans Aktien bieten laut JP Morgan langfristig die besten Chancen für Anleger",
+        "summary": "Die Vermögensverwalter der größten US-Bank rechnen mit strukturellen Veränderungen an den Kapitalmärkten. Sie sehen trotzdem gute Chancen für Investoren im nächsten Jahrzehnt.",
         "paragraphs": [
-          "Die Bundesregierung plant eine Quote, um den Wasserstoffhochlauf voranzutreiben. Eine exklusive Studie zeigt: Die Mehrkosten wären immens. Betroffen wären private Haushalte und Industrie."
+          "Die Vermögensverwalter der größten US-Bank rechnen mit strukturellen Veränderungen an den Kapitalmärkten. Sie sehen trotzdem gute Chancen für Investoren im nächsten Jahrzehnt."
         ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/energiewende-gruengas-quote-koennte-verbraucher-pro-jahr-178-euro-kosten/100174392.html",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/jp-morgan-japans-aktien-bieten-langfristig-die-groessten-chancen/100175846.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T03:04:48.000Z"
+        "publishedAt": "2025-11-18T15:55:04.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/verteidigungsindustrie-drei-beispiele-so-draengt-der-mittelstand-in-die-ruestung/100173177.html",
-        "title": "Verteidigungsindustrie: „Wir werden von Interessenten überrannt“: Der Mittelstand drängt in die Rüstung",
-        "summary": "Der Rüstungsverband der Wirtschaft bekommt immer mehr Zulauf, vor allem Familienunternehmen treten bei. Der Kurswechsel bietet Chancen – schafft aber auch Probleme. Drei Beispiele.",
+        "id": "https://www.handelsblatt.com/politik/deutschland/rentenreform-bas-warnt-junge-gruppe-vor-ausloesen-einer-regierungskrise/100175680.html",
+        "title": "Renten-Streit: „Wer gerade die Koalition gefährdet, sitzt in der Union“: Bas warnt Junge Gruppe vor Auslösen einer Regierungskrise",
+        "summary": "Die Koalition streitet heftig über die Rente ab 2031. Auch die jungen Vertreter von Union und SPD stehen sich gegenüber. Indes zeigen neue Ifo-Zahlen, wie stark der Rentenzuschuss steigt.",
         "paragraphs": [
-          "Der Rüstungsverband der Wirtschaft bekommt immer mehr Zulauf, vor allem Familienunternehmen treten bei. Der Kurswechsel bietet Chancen – schafft aber auch Probleme. Drei Beispiele."
+          "Die Koalition streitet heftig über die Rente ab 2031. Auch die jungen Vertreter von Union und SPD stehen sich gegenüber. Indes zeigen neue Ifo-Zahlen, wie stark der Rentenzuschuss steigt."
         ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/verteidigungsindustrie-drei-beispiele-so-draengt-der-mittelstand-in-die-ruestung/100173177.html",
+        "link": "https://www.handelsblatt.com/politik/deutschland/rentenreform-bas-warnt-junge-gruppe-vor-ausloesen-einer-regierungskrise/100175680.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T02:59:38.000Z"
+        "publishedAt": "2025-11-18T15:53:57.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-studie-vertrauen-in-aktien-zur-altersvorsorge-auf-rekordhoch/100175584.html",
-        "title": "Geldanlage: Vertrauen in Aktien für Altersvorsorge laut Studie auf Rekordwert",
-        "summary": "Die Deutschen setzen verstärkt auf Aktien, um langfristig Vermögen aufzubauen. Erstmals wurde in der Studie auch die Meinung der Verbraucher zu Kryptowährungen abgefragt.",
+        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-aus-diesen-gruenden-ist-die-nachmieterklausel-im-mietvertrag-wichtig/100100965.html",
+        "title": "Immobilien: Warum eigentlich ist die Nachmieterklausel im Mietvertrag so wichtig?",
+        "summary": "Aus einem Mietverhältnis kommen Mieter regulär nicht so leicht raus – außer mit einer Nachmieterklausel. Worauf sie achten müssen, um von dieser Sonderkündigung zu profitieren.",
         "paragraphs": [
-          "Die Deutschen setzen verstärkt auf Aktien, um langfristig Vermögen aufzubauen. Erstmals wurde in der Studie auch die Meinung der Verbraucher zu Kryptowährungen abgefragt."
+          "Aus einem Mietverhältnis kommen Mieter regulär nicht so leicht raus – außer mit einer Nachmieterklausel. Worauf sie achten müssen, um von dieser Sonderkündigung zu profitieren."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-studie-vertrauen-in-aktien-zur-altersvorsorge-auf-rekordhoch/100175584.html",
+        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-aus-diesen-gruenden-ist-die-nachmieterklausel-im-mietvertrag-wichtig/100100965.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-18T02:27:26.000Z"
+        "publishedAt": "2025-11-18T15:51:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/nahost-un-sicherheitsrat-stimmt-fuer-us-resolution-zum-gazastreifen/100175554.html",
-        "title": "Nahost: UN-Sicherheitsrat stimmt für US-Resolution zum Gazastreifen",
-        "summary": "Der UN-Sicherheitsrat hat den US-Plan für eine internationale Stabilisierungstruppe im Gazastreifen gebilligt. Der Schritt gilt als wichtiges Signal für die fragile Waffenruhe.",
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/kryptowelt-us-senatoren-erheben-vorwuerfe-gegen-kryptofirma-der-trumps/100175839.html",
+        "title": "Kryptowelt: US-Senatoren erheben Vorwürfe gegen Kryptofirma der Trumps",
+        "summary": "Zwei US-Senatoren fordern eine Untersuchung von World Liberty Financial. Sie sehen die nationale Sicherheit gefährdet, da das Unternehmen Verbindungen zu Nordkorea und Russland habe.",
         "paragraphs": [
-          "Der UN-Sicherheitsrat hat den US-Plan für eine internationale Stabilisierungstruppe im Gazastreifen gebilligt. Der Schritt gilt als wichtiges Signal für die fragile Waffenruhe."
+          "Zwei US-Senatoren fordern eine Untersuchung von World Liberty Financial. Sie sehen die nationale Sicherheit gefährdet, da das Unternehmen Verbindungen zu Nordkorea und Russland habe."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/nahost-un-sicherheitsrat-stimmt-fuer-us-resolution-zum-gazastreifen/100175554.html",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/kryptowelt-us-senatoren-erheben-vorwuerfe-gegen-kryptofirma-der-trumps/100175839.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-17T23:44:36.000Z"
+        "publishedAt": "2025-11-18T15:46:29.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/luftfahrt-emirate-bestellen-100-neue-flugzeuge-bei-airbus/100175531.html",
-        "title": "Luftfahrt: „Ein Riesenauftrag“ – Emirate bestellen 100 neue Flugzeuge bei Airbus",
-        "summary": "Der deutsch-französische Flugzeughersteller sichert sich einen Großauftrag aus den Vereinigten Arabischen Emiraten. Aber auch Konkurrent Boeing bekommt Bestellungen aus der Golfregion.",
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/finanzforscher-es-reicht-vollkommen-wenn-sie-mit-dem-markt-investieren/100124450.html",
+        "title": "Geldanlage: „Auch eine Rentnerin kann 100 Prozent Aktien vertragen“",
+        "summary": "Martin Weber hat über Jahrzehnte das Verhalten von Anlegern erforscht. Im Gespräch erklärt er, worauf es beim Aufbau eines Depots ankommt und welchem Irrglauben Anleger nicht anhängen sollten.",
         "paragraphs": [
-          "Der deutsch-französische Flugzeughersteller sichert sich einen Großauftrag aus den Vereinigten Arabischen Emiraten. Aber auch Konkurrent Boeing bekommt Bestellungen aus der Golfregion."
+          "Martin Weber hat über Jahrzehnte das Verhalten von Anlegern erforscht. Im Gespräch erklärt er, worauf es beim Aufbau eines Depots ankommt und welchem Irrglauben Anleger nicht anhängen sollten."
         ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/luftfahrt-emirate-bestellen-100-neue-flugzeuge-bei-airbus/100175531.html",
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/finanzforscher-es-reicht-vollkommen-wenn-sie-mit-dem-markt-investieren/100124450.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-17T21:16:19.000Z"
+        "publishedAt": "2025-11-18T15:44:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/deutschland/deutschland-marine-kauft-kampfsystem-fuer-mehr-als-eine-milliarde-euro/100175544.html",
-        "title": "Deutschland: Marine kauft Kampfsystem für mehr als eine Milliarde Euro",
-        "summary": "Die Deutsche Marine modernisiert ihre Überwasserschiffe mit einem neuen Kampfsystem aus Kanada. Das Projekt soll die IT-Systeme vereinheitlichen und ist auf rund 25 Jahre angelegt.",
+        "id": "https://www.handelsblatt.com/finanzen/friendflation-weshalb-geld-in-beziehungen-relevanter-wird/100154689.html",
+        "title": "Friendflation: Warum Geld in Beziehungen relevanter wird",
+        "summary": "Wer gute Freunde hat, kommt leichter durchs Leben, hat eine bessere Beziehung und verringert sein Sterberisiko. Nur was, wenn die Freundschaft am Geld scheitert?",
         "paragraphs": [
-          "Die Deutsche Marine modernisiert ihre Überwasserschiffe mit einem neuen Kampfsystem aus Kanada. Das Projekt soll die IT-Systeme vereinheitlichen und ist auf rund 25 Jahre angelegt."
+          "Wer gute Freunde hat, kommt leichter durchs Leben, hat eine bessere Beziehung und verringert sein Sterberisiko. Nur was, wenn die Freundschaft am Geld scheitert?"
         ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/deutschland-marine-kauft-kampfsystem-fuer-mehr-als-eine-milliarde-euro/100175544.html",
+        "link": "https://www.handelsblatt.com/finanzen/friendflation-weshalb-geld-in-beziehungen-relevanter-wird/100154689.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-17T20:55:42.000Z"
+        "publishedAt": "2025-11-18T15:37:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/usa-trump-will-saudi-arabien-f-35-kampfjets-verkaufen/29669594.html",
-        "title": "+++ USA +++: Trump will Saudi-Arabien F-35-Kampfjets verkaufen",
-        "summary": "Trump will designierten New Yorker Bürgermeister Mamdani treffen +++ Trump fordert Veröffentlichung bei Epstein-Files +++ US-Luftverkehr nimmt Normalbetrieb wieder auf +++ Der Newsblog.",
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-knds-arbeitet-an-nachfolger-fuer-leopard-panzer/100173459.html",
+        "title": "Rüstung: Wie viele neue Leoparden braucht die Bundeswehr? Kritiker warnen vor „Panzerblase“",
+        "summary": "KNDS arbeitet am Leopard 3, der weit über bisherige Entwicklungen hinausgeht. Doch Experten bezweifeln, dass schwere Kettenpanzer noch die richtige Antwort in Zeiten des Drohnenkriegs sind.",
         "paragraphs": [
-          "Trump will designierten New Yorker Bürgermeister Mamdani treffen +++ Trump fordert Veröffentlichung bei Epstein-Files +++ US-Luftverkehr nimmt Normalbetrieb wieder auf +++ Der Newsblog."
+          "KNDS arbeitet am Leopard 3, der weit über bisherige Entwicklungen hinausgeht. Doch Experten bezweifeln, dass schwere Kettenpanzer noch die richtige Antwort in Zeiten des Drohnenkriegs sind."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/usa-trump-will-saudi-arabien-f-35-kampfjets-verkaufen/29669594.html",
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-knds-arbeitet-an-nachfolger-fuer-leopard-panzer/100173459.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-17T20:46:00.000Z"
+        "publishedAt": "2025-11-18T15:34:21.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/deutschland/wolfram-weimer-bayern-ueberprueft-unterstuetzung-von-ludwig-erhard-gipfel/100175534.html",
-        "title": "Wolfram Weimer: Bayern überprüft Unterstützung von Ludwig-Erhard-Gipfel",
-        "summary": "Die Kritik rund um den von Wolfram Weimer einst ins Leben gerufenen Ludwig-Erhard-Gipfel reißt nicht ab. Streicht Bayern die staatliche Unterstützung?",
+        "id": "https://www.handelsblatt.com/politik/international/eu-wechsel-zur-weltbank-donohoe-tritt-als-euro-gruppen-chef-zurueck/100175825.html",
+        "title": "Europäische Union: Wechsel zur Weltbank: Donohoe tritt als Euro-Gruppen-Chef zurück",
+        "summary": "Der irische Finanzminister geht nach Washington. Seine Bilanz bei der Euro-Gruppe fällt durchwachsen aus. Der Nachfolger könnte aus einem einstigen Krisenland kommen.",
         "paragraphs": [
-          "Die Kritik rund um den von Wolfram Weimer einst ins Leben gerufenen Ludwig-Erhard-Gipfel reißt nicht ab. Streicht Bayern die staatliche Unterstützung?"
+          "Der irische Finanzminister geht nach Washington. Seine Bilanz bei der Euro-Gruppe fällt durchwachsen aus. Der Nachfolger könnte aus einem einstigen Krisenland kommen."
         ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/wolfram-weimer-bayern-ueberprueft-unterstuetzung-von-ludwig-erhard-gipfel/100175534.html",
+        "link": "https://www.handelsblatt.com/politik/international/eu-wechsel-zur-weltbank-donohoe-tritt-als-euro-gruppen-chef-zurueck/100175825.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-17T20:27:00.000Z"
+        "publishedAt": "2025-11-18T15:32:11.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/fleisch-clemens-toennies-zieht-sich-im-poker-um-vion-schlachthoefe-zurueck/100175516.html",
-        "title": "Fleisch: Unerwartete Kehrtwende – Clemens Tönnies zieht sich im Übernahmekampf um Vion-Schlachthöfe zurück",
-        "summary": "Das Kartellamt untersagte der Premium Food Group, drei Rinderschlachthöfe von Vion zu übernehmen. Nun überlässt Deutschlands größter Schlachter überraschend Westfleisch das Feld.",
+        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/patagonia-warum-tragen-so-viele-investmentbanker-outdoor-westen/100120898.html",
+        "title": "Patagonia: Warum tragen so viele Investmentbanker Outdoor-Westen?",
+        "summary": "Patagonia steht für Umweltschutz und Outdoor, Investmentbanker für schnelles Geld und Büro. Trotzdem tragen sie die Westen wie eine Uniform. Wie kann das sein?",
         "paragraphs": [
-          "Das Kartellamt untersagte der Premium Food Group, drei Rinderschlachthöfe von Vion zu übernehmen. Nun überlässt Deutschlands größter Schlachter überraschend Westfleisch das Feld."
+          "Patagonia steht für Umweltschutz und Outdoor, Investmentbanker für schnelles Geld und Büro. Trotzdem tragen sie die Westen wie eine Uniform. Wie kann das sein?"
         ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/fleisch-clemens-toennies-zieht-sich-im-poker-um-vion-schlachthoefe-zurueck/100175516.html",
+        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/patagonia-warum-tragen-so-viele-investmentbanker-outdoor-westen/100120898.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-17T19:37:36.000Z"
+        "publishedAt": "2025-11-18T15:31:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/hendrik-leber-im-interview-wir-bevorzugen-jetzt-wieder-langweilige-unternehmen/100171320.html",
-        "title": "Interview: Fondsprofi Hendrik Leber: „Wir bevorzugen jetzt wieder langweilige Unternehmen“",
-        "summary": "Der Vermögensverwalter und Fondsmanager über seine Meinung zu Tech-Aktien wie Nvidia und Palantir, die Gefahr einer Spekulationsblase und das Problem unerfahrener Anleger.",
+        "id": "https://www.handelsblatt.com/politik/deutschland/staatshilfe-eu-kommission-erlaubt-milliarden-fuer-leag-kohleausstieg/100175880.html",
+        "title": "Staatshilfe: EU-Kommission erlaubt Milliarden für Leag-Kohleausstieg",
+        "summary": "Energiekonzerne wie die Leag bekommen vom Staat Milliarden, um aus der Kohle auszusteigen. Ist das wettbewerbskonform? Ja, urteilte die EU-Kommission.",
         "paragraphs": [
-          "Der Vermögensverwalter und Fondsmanager über seine Meinung zu Tech-Aktien wie Nvidia und Palantir, die Gefahr einer Spekulationsblase und das Problem unerfahrener Anleger."
+          "Energiekonzerne wie die Leag bekommen vom Staat Milliarden, um aus der Kohle auszusteigen. Ist das wettbewerbskonform? Ja, urteilte die EU-Kommission."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/hendrik-leber-im-interview-wir-bevorzugen-jetzt-wieder-langweilige-unternehmen/100171320.html",
+        "link": "https://www.handelsblatt.com/politik/deutschland/staatshilfe-eu-kommission-erlaubt-milliarden-fuer-leag-kohleausstieg/100175880.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-17T19:00:07.000Z"
+        "publishedAt": "2025-11-18T15:29:58.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/luftfahrt-berliner-flughafen-nimmt-erstmals-geld-ohne-staatsgarantien-auf/100173193.html",
-        "title": "Luftfahrt: Berliner Flughafen beschafft sich erstmals Geld ohne Garantien des Staates",
-        "summary": "Erst bremsten Baumängel, dann die Pandemie. Ohne die Hilfe der Länder und des Bundes ging es beim BER nicht. Nun gelingt eine große Refinanzierung. Interessant sind die Details.",
+        "id": "https://www.handelsblatt.com/unternehmen/management/konflikte-so-meistern-fuehrungskraefte-widerstaende-aus-den-eigenen-reihen/100175475.html",
+        "title": "Managementfrage der Woche: So werden Widerstände aus den eigenen Reihen für Führungskräfte zum Vorteil",
+        "summary": "Die Union zerlegt sich im Streit um das Rentenpaket. Wie Sie es selbst besser machen, sich anbahnende Konflikte erkennen und deeskalieren, erklärt eine Management-Forscherin.",
         "paragraphs": [
-          "Erst bremsten Baumängel, dann die Pandemie. Ohne die Hilfe der Länder und des Bundes ging es beim BER nicht. Nun gelingt eine große Refinanzierung. Interessant sind die Details."
+          "Die Union zerlegt sich im Streit um das Rentenpaket. Wie Sie es selbst besser machen, sich anbahnende Konflikte erkennen und deeskalieren, erklärt eine Management-Forscherin."
         ],
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/luftfahrt-berliner-flughafen-nimmt-erstmals-geld-ohne-staatsgarantien-auf/100173193.html",
+        "link": "https://www.handelsblatt.com/unternehmen/management/konflikte-so-meistern-fuehrungskraefte-widerstaende-aus-den-eigenen-reihen/100175475.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-17T18:31:24.000Z"
+        "publishedAt": "2025-11-18T15:14:04.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/digitalgipfel-europa-ruestet-sich-im-globalen-technologie-wettstreit/100175429.html",
-        "title": "Datennutzung: Digitalgipfel in Berlin: Europa rüstet sich im globalen Technologie-Wettstreit",
-        "summary": "Die dem Handelsblatt vorab vorliegende Abschlusserklärung des Digitalgipfels in Berlin zeigt: Die EU forciert die Eigenständigkeit bei Themen wie Cloud und KI. Der Schlüssel: Zusammenarbeit.",
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-auf-diesen-wendepunkt-sollten-aktionaere-jetzt-achten/100175323.html",
+        "title": "Märkte-Insight: Auf diesen Wendepunkt sollten Aktionäre jetzt achten",
+        "summary": "Hohe Bewertungen gehen mit höheren Gewinnen und Erwartungen einher. Aber was passiert, wenn der Gleichklang kippt? Hilfreich ist ein Vergleich mit der Jahrtausendwende, schreibt Ulf Sommer.",
         "paragraphs": [
-          "Die dem Handelsblatt vorab vorliegende Abschlusserklärung des Digitalgipfels in Berlin zeigt: Die EU forciert die Eigenständigkeit bei Themen wie Cloud und KI. Der Schlüssel: Zusammenarbeit."
+          "Hohe Bewertungen gehen mit höheren Gewinnen und Erwartungen einher. Aber was passiert, wenn der Gleichklang kippt? Hilfreich ist ein Vergleich mit der Jahrtausendwende, schreibt Ulf Sommer."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/digitalgipfel-europa-ruestet-sich-im-globalen-technologie-wettstreit/100175429.html",
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-auf-diesen-wendepunkt-sollten-aktionaere-jetzt-achten/100175323.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-11-17T18:19:34.000Z"
+        "publishedAt": "2025-11-18T14:59:26.000Z"
       }
     ],
     "Gesellschaft": [
+      {
+        "id": "{urn:uuid:309c1f8d-d366-4518-be01-ab27621119e8}",
+        "title": "Türkei: Familie starb laut vorläufigem Bericht durch Vergiftung in Hotel",
+        "summary": "Nach dem Tod einer Familie sieht ein vorläufiger Bericht die Schuld bei einem Istanbuler Hotel. Dort könnte die Hamburger Familie durch Chemikalien vergiftet worden sein.",
+        "paragraphs": [
+          "Nach dem Tod einer Familie sieht ein vorläufiger Bericht die Schuld bei einem Istanbuler Hotel. Dort könnte die Hamburger Familie durch Chemikalien vergiftet worden sein."
+        ],
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/tuerkei-istanbul-tod-familie-hamburg-bericht-vergiftung-hotel",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T17:24:12.000Z"
+      },
+      {
+        "id": "{urn:uuid:faa89412-2bbc-4f45-a014-953107583817}",
+        "title": "Kessler-Zwillinge: Wie ist die Rechtslage bei Sterbehilfe und assistiertem Suizid?",
+        "summary": "Die Kessler-Zwillinge erlaubten ausdrücklich, über ihren assistierten Suizid im Nachhinein zu sprechen. Das Thema begleitet Politik und Justiz schon länger. Ein Überblick",
+        "paragraphs": [
+          "Die Kessler-Zwillinge erlaubten ausdrücklich, über ihren assistierten Suizid im Nachhinein zu sprechen. Das Thema begleitet Politik und Justiz schon länger. Ein Überblick"
+        ],
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/sterbehilfe-kessler-zwillinge-suizid",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T16:55:20.000Z"
+      },
+      {
+        "id": "{urn:uuid:c4f2f78e-628c-4d54-ba8c-7042b9b84cf2}",
+        "title": "Schiffsunglück im Pazifik: \"Eine Welt, in der Waren oft besser versichert sind als Menschen\"",
+        "summary": "Als ein Frachter mit Tausenden Kühen und 43 Seeleuten in einem Taifun untergeht, zeigt sich die dunkle Seite der globalen Schifffahrt. Warum fuhr das Schiff in den Sturm?",
+        "paragraphs": [
+          "Als ein Frachter mit Tausenden Kühen und 43 Seeleuten in einem Taifun untergeht, zeigt sich die dunkle Seite der globalen Schifffahrt. Warum fuhr das Schiff in den Sturm?"
+        ],
+        "link": "https://www.zeit.de/gesellschaft/2025-11/schiffsunglueck-pazifik-viehfrachter-verbrechen-video-podcast",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T16:10:52.000Z"
+      },
+      {
+        "id": "li.3340328",
+        "title": "Momentaufnahmen im November: Bilder des Tages",
+        "summary": "Schönes, Erschreckendes, Absurdes und ganz Alltägliches: Momentaufnahmen aus allen Ecken der Welt, laufend aktualisiert.",
+        "paragraphs": [
+          "Schönes, Erschreckendes, Absurdes und ganz Alltägliches: Momentaufnahmen aus allen Ecken der Welt, laufend aktualisiert."
+        ],
+        "link": "https://www.sueddeutsche.de/leben/momentaufnahmen-im-november-bilder-des-tages-li.3340328",
+        "source": "Süddeutsche Zeitung Leben",
+        "publishedAt": "2025-11-18T16:05:46.000Z"
+      },
+      {
+        "id": "{urn:uuid:8d320d68-111a-4af7-bc75-def2dfdab404}",
+        "title": "Sicherheit: Magdeburger Weihnachtsmarkt öffnet planmäßig am Donnerstag",
+        "summary": "Nach vorläufigen Sicherheitsbedenken eröffnet der Weihnachtsmarkt in Magdeburg doch nach Plan. Das Bundeskriminalamt hat keine Hinweise auf konkrete Gefahren.",
+        "paragraphs": [
+          "Nach vorläufigen Sicherheitsbedenken eröffnet der Weihnachtsmarkt in Magdeburg doch nach Plan. Das Bundeskriminalamt hat keine Hinweise auf konkrete Gefahren."
+        ],
+        "link": "https://www.zeit.de/gesellschaft/2025-11/weihnachtsmarkt-magdeburg-sicherheitskonzept-anschlag",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T15:53:37.000Z"
+      },
+      {
+        "id": "{urn:uuid:81f9d830-6163-49bf-b583-525d992f753b}",
+        "title": "Wehrpflicht: Zahl der Kriegsdienstverweigerer so hoch wie zuletzt 2011",
+        "summary": "Mit der Debatte um den Wehrdienst steigt auch die Zahl der Menschen, die den Kriegsdienst verweigern. Fast die Hälfte von ihnen sind Reservisten.",
+        "paragraphs": [
+          "Mit der Debatte um den Wehrdienst steigt auch die Zahl der Menschen, die den Kriegsdienst verweigern. Fast die Hälfte von ihnen sind Reservisten."
+        ],
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/kriegsdienstverweigerer-wehrpflicht-bundeswehr",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T15:45:17.000Z"
+      },
+      {
+        "id": "{urn:uuid:aca9473c-2d95-49e4-97d9-c5abf4d83261}",
+        "title": "Landgericht Hamburg: Verfahren um Messerangriff im Hamburger Hauptbahnhof hat begonnen",
+        "summary": "In Hamburg läuft der Prozess gegen eine Frau, die im Mai zahlreiche Menschen verletzt haben soll. Wegen einer psychischen Erkrankung gilt sie als schuldunfähig.",
+        "paragraphs": [
+          "In Hamburg läuft der Prozess gegen eine Frau, die im Mai zahlreiche Menschen verletzt haben soll. Wegen einer psychischen Erkrankung gilt sie als schuldunfähig."
+        ],
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/hamburg-messer-angriff-hauptbahnhof-prozess-landgericht",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T15:20:52.000Z"
+      },
+      {
+        "id": "{urn:uuid:4166ae43-f7ab-42e1-9bad-edda04200cb6}",
+        "title": "Gulf Livestock 1: Kurs ins Auge des Sturms",
+        "summary": "Ein Viehfrachter mit 6.000 Kühen gerät mitten im Pazifik in einen Taifun. Was wie Naturgewalt klingt, entpuppt sich als System aus Billigflaggen, Zeitdruck und Schweigen.",
+        "paragraphs": [
+          "Ein Viehfrachter mit 6.000 Kühen gerät mitten im Pazifik in einen Taifun. Was wie Naturgewalt klingt, entpuppt sich als System aus Billigflaggen, Zeitdruck und Schweigen."
+        ],
+        "link": "https://www.zeit.de/gesellschaft/2025-11/gulf-livestock-1-schiffsunglueck-taifun-verbrechen-podcast",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T14:27:10.000Z"
+      },
+      {
+        "id": "{urn:uuid:5779890a-c129-49b4-966b-6fef8198dc6e}",
+        "title": "Bochum: Mädchen soll vor Polizeischuss unmittelbar vor Beamten gestanden haben",
+        "summary": "Nach der lebensgefährlichen Verletzung einer Zwölfjährigen durch einen Polizisten liegt ein erstes Ergebnis der Ermittlung vor. Demnach schoss der Mann im letzten Moment.",
+        "paragraphs": [
+          "Nach der lebensgefährlichen Verletzung einer Zwölfjährigen durch einen Polizisten liegt ein erstes Ergebnis der Ermittlung vor. Demnach schoss der Mann im letzten Moment."
+        ],
+        "link": "https://www.zeit.de/gesellschaft/2025-11/bochum-polizei-maedchen-schuss-vermisst-gxe",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T13:04:29.000Z"
+      },
+      {
+        "id": "https://squirrel-news.net/?p=8539",
+        "title": "#39: From viewing to doing: How to use entertainment to change society",
+        "summary": "Nick Hudson and his organisation E2CA (entertainment to affect change) are bridging the gap between two worlds: entertainment and non-profits. In this episode, Nick explains to us, how he came to create a \"philantropic Netflix\", how E2CA inspires movie lovers to take action, and why donating and supporting a cause can be addictive.",
+        "paragraphs": [
+          "Nick Hudson and his organisation E2CA (entertainment to affect change) are bridging the gap between two worlds: entertainment and non-profits. In this episode, Nick explains to us, how he came to create a \"philantropic Netflix\", how E2CA inspires movie lovers to take action, and why donating and supporting a cause can be addictive."
+        ],
+        "link": "https://squirrel-news.net/news/39-from-viewing-to-doing-how-to-use-entertainment-to-change-society/",
+        "source": "Squirrel News Gesellschaft",
+        "publishedAt": "2025-11-18T10:48:07.000Z"
+      },
+      {
+        "id": "li.3331485",
+        "title": "Emma Heming Willis über Demenz: „Ich bin froh, dass Bruce seine Krankheit nicht kennt“",
+        "summary": "Emma Heming Willis pflegt ihren an Demenz erkrankten Mann, den Schauspieler Bruce Willis – bis sie selbst eine Depression diagnostiziert bekommt. Wie sie ihr Leben verändert hat, was sie Pflegenden empfiehlt und welchen Satz sie nie mehr hören will.",
+        "paragraphs": [
+          "Emma Heming Willis pflegt ihren an Demenz erkrankten Mann, den Schauspieler Bruce Willis – bis sie selbst eine Depression diagnostiziert bekommt. Wie sie ihr Leben verändert hat, was sie Pflegenden empfiehlt und welchen Satz sie nie mehr hören will."
+        ],
+        "link": "https://www.sueddeutsche.de/leben/bruce-willis-emma-heming-willis-demenz-ehe-scheidung-krankheit-kinder-buch-li.3331485",
+        "source": "Süddeutsche Zeitung Leben",
+        "publishedAt": "2025-11-18T10:47:17.000Z"
+      },
+      {
+        "id": "{urn:uuid:e2471734-5b20-4ec3-b97f-766c164082ed}",
+        "title": "Überschwemmungen: Zwei Menschen sterben bei Unwetter in Italien",
+        "summary": "Im Norden Italiens ist es zu schweren Überschwemmungen gekommen. Zwei Menschen wurden getötet – darunter auch ein Deutscher, der wohl seine Nachbarin retten wollte.",
+        "paragraphs": [
+          "Im Norden Italiens ist es zu schweren Überschwemmungen gekommen. Zwei Menschen wurden getötet – darunter auch ein Deutscher, der wohl seine Nachbarin retten wollte."
+        ],
+        "link": "https://www.zeit.de/gesellschaft/2025-11/ueberschwemmung-unwetter-italien-tote-gxe",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T09:26:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:a1065626-fe01-412e-9866-4bab96b4d52c}",
+        "title": "Konflikte in der Familie: Wie unbedachte Worte Familien auseinandertreiben",
+        "summary": "Oft äußern sich Familienkonflikte nicht in lautem Streit, sondern in subtilen Bemerkungen. Doch die vergiften das Klima, und prägen leider auch das Selbstbild der Kinder.",
+        "paragraphs": [
+          "Oft äußern sich Familienkonflikte nicht in lautem Streit, sondern in subtilen Bemerkungen. Doch die vergiften das Klima, und prägen leider auch das Selbstbild der Kinder."
+        ],
+        "link": "https://www.zeit.de/familie/2025-11/streit-familie-konflikte-passiv-aggressiv-eltern-kinder",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T09:21:40.000Z"
+      },
+      {
+        "id": "{urn:uuid:63d04221-69a8-4793-a04a-9ab506f9efb9}",
+        "title": "Sündenwäldchen: Polizei räumt besetztes Waldstück am Tagebau Hambach",
+        "summary": "Im Rheinischen Revier protestieren weiter Menschen gegen Rodungen, die Polizei räumt ein letztes Waldstück. Die Aktivisten kündigten Widerstand an – \"solange wir können\".",
+        "paragraphs": [
+          "Im Rheinischen Revier protestieren weiter Menschen gegen Rodungen, die Polizei räumt ein letztes Waldstück. Die Aktivisten kündigten Widerstand an – \"solange wir können\"."
+        ],
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/hambach-tagebau-polizei-raeumung-aktivisten-camp-gxe",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-18T09:05:03.000Z"
+      },
       {
         "id": "{urn:uuid:8aeed6f3-8aa7-4cef-92b3-7cb802d5759a}",
         "title": "Weltklimagipfel in Belém: Papst vermisst politischen Willen beim Klimaschutz",
@@ -579,50 +729,6 @@
         "publishedAt": "2025-11-17T18:42:20.000Z"
       },
       {
-        "id": "{urn:uuid:21960ff7-d186-4687-9cca-9440ab184120}",
-        "title": "Anschlagsdrohung an Schulen: Was, wenn es doch kein Fake ist?",
-        "summary": "Am Sonntag kursierte eine Anschlagsdrohung gegen mehrere Berliner Schulen. Die Sorge unter Eltern war groß. Wie sie mit Desinformation umgehen können.",
-        "paragraphs": [
-          "Am Sonntag kursierte eine Anschlagsdrohung gegen mehrere Berliner Schulen. Die Sorge unter Eltern war groß. Wie sie mit Desinformation umgehen können."
-        ],
-        "link": "https://www.zeit.de/familie/2025-11/schulen-fake-drohung-eltern-berlin-desinformation",
-        "source": "ZEIT Gesellschaft",
-        "publishedAt": "2025-11-17T17:17:55.000Z"
-      },
-      {
-        "id": "{urn:uuid:7a122afe-104c-46e2-be12-8c5ba2e1b1cd}",
-        "title": "Louvre in Paris: TikToker hängen eigenes Bild in die Nähe der Mona Lisa",
-        "summary": "Im Pariser Louvre haben zwei TikToker für ein paar Minuten ihr eigenes Bild aufgehängt. Das Museum plant, rechtliche Schritte gegen sie einzuleiten.",
-        "paragraphs": [
-          "Im Pariser Louvre haben zwei TikToker für ein paar Minuten ihr eigenes Bild aufgehängt. Das Museum plant, rechtliche Schritte gegen sie einzuleiten."
-        ],
-        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/paris-louvre-tiktok-eigenes-bild-mona-lisa",
-        "source": "ZEIT Gesellschaft",
-        "publishedAt": "2025-11-17T16:22:57.000Z"
-      },
-      {
-        "id": "{urn:uuid:56e0a996-7851-4234-afb0-725e0bea0772}",
-        "title": "Islamischer Staat: Gericht verurteilt früheren IS-Kämpfer zu mehreren Jahren Haft",
-        "summary": "Vor rund acht Jahren soll ein Iraker für die Terrormiliz IS gekämpft haben. Das Oberlandesgericht Düsseldorf verurteilte ihn dafür zu dreieinhalb Jahren Haft.",
-        "paragraphs": [
-          "Vor rund acht Jahren soll ein Iraker für die Terrormiliz IS gekämpft haben. Das Oberlandesgericht Düsseldorf verurteilte ihn dafür zu dreieinhalb Jahren Haft."
-        ],
-        "link": "https://www.zeit.de/gesellschaft/2025-11/islamischer-staat-duesseldorf-haft",
-        "source": "ZEIT Gesellschaft",
-        "publishedAt": "2025-11-17T16:03:47.000Z"
-      },
-      {
-        "id": "{urn:uuid:efe2e476-23f3-487d-a1a4-94fefbc836e5}",
-        "title": "Cinque Pi: Pasta mit fünf P",
-        "summary": "Unsere Food-Kolumnistin präsentiert das Lieblingsrezept vieler Schweizer. Erfunden hat es die fiktive Kochbuchautorin Betty Bossi.",
-        "paragraphs": [
-          "Unsere Food-Kolumnistin präsentiert das Lieblingsrezept vieler Schweizer. Erfunden hat es die fiktive Kochbuchautorin Betty Bossi."
-        ],
-        "link": "https://www.zeit.de/gesellschaft/2025-11/cinque-pi-betty-bossi-rezept-essen-schweiz",
-        "source": "ZEIT Gesellschaft",
-        "publishedAt": "2025-11-17T15:16:29.000Z"
-      },
-      {
         "id": "https://squirrel-news.net/?p=8534",
         "title": "Free college education for anyone, free rent in Atlanta, puppies stopping poachers",
         "summary": "Today in Squirrel News, a US-accredited university offers online college education and degrees to the world tuition-free, an Atlanta nonprofit offers grants that pay a full year's rent to income-qualified tenants, and specially trained puppies from Wales are tracking poachers in Africa to save wildlife.",
@@ -632,72 +738,6 @@
         "link": "https://squirrel-news.net/news/free-college-education-for-anyone-free-rent-in-atlanta-puppies-stopping-poachers/",
         "source": "Squirrel News Gesellschaft",
         "publishedAt": "2025-11-17T15:06:54.000Z"
-      },
-      {
-        "id": "{urn:uuid:e9a04cd8-934b-4005-ba7b-71dfb805fb75}",
-        "title": "Bochum: Bewaffnete Zwölfjährige bei Polizeieinsatz lebensgefährlich verletzt",
-        "summary": "In Bochum ist eine gehörlose Zwölfjährige mit Messern auf Polizisten zugegangen – einer schoss auf das Kind. Es schwebte in Lebensgefahr, sei nach einer OP aber stabil.",
-        "paragraphs": [
-          "In Bochum ist eine gehörlose Zwölfjährige mit Messern auf Polizisten zugegangen – einer schoss auf das Kind. Es schwebte in Lebensgefahr, sei nach einer OP aber stabil."
-        ],
-        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/bochum-bewaffnete-zwoelfjaehrige-lebensbedrohlich-verletzt-gxe",
-        "source": "ZEIT Gesellschaft",
-        "publishedAt": "2025-11-17T15:04:49.000Z"
-      },
-      {
-        "id": "li.3339473",
-        "title": "Momentaufnahmen im November: Bilder des Tages",
-        "summary": "Schönes, Erschreckendes, Absurdes und ganz Alltägliches: Momentaufnahmen aus allen Ecken der Welt, laufend aktualisiert.",
-        "paragraphs": [
-          "Schönes, Erschreckendes, Absurdes und ganz Alltägliches: Momentaufnahmen aus allen Ecken der Welt, laufend aktualisiert."
-        ],
-        "link": "https://www.sueddeutsche.de/leben/momentaufnahmen-im-november-bilder-des-tages-li.3339473",
-        "source": "Süddeutsche Zeitung Leben",
-        "publishedAt": "2025-11-17T15:01:44.000Z"
-      },
-      {
-        "id": "{urn:uuid:310ccce6-cc6f-432c-90be-4b3e70240871}",
-        "title": "Nigeria: Bewaffnete entführen 25 Schülerinnen aus Internat in Nigeria",
-        "summary": "Im Nordwesten Nigerias haben Unbekannte 25 Schülerinnen aus ihren Schlafsälen entführt. Ein Lehrer wurde erschossen, die Polizei fahndet nach den Tätern.",
-        "paragraphs": [
-          "Im Nordwesten Nigerias haben Unbekannte 25 Schülerinnen aus ihren Schlafsälen entführt. Ein Lehrer wurde erschossen, die Polizei fahndet nach den Tätern."
-        ],
-        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/nigeria-internat-schuelerinnen-entfuehrung-lehrer-erschossen",
-        "source": "ZEIT Gesellschaft",
-        "publishedAt": "2025-11-17T15:01:09.000Z"
-      },
-      {
-        "id": "{urn:uuid:2915e11d-b409-481e-951b-b1821dcc5659}",
-        "title": "Syrien: \"Viele von uns haben jetzt zwei Heimaten\"",
-        "summary": "Politiker der Union stellen den Schutzstatus syrischer Geflüchteter infrage. Während manche Betroffene ihre Abschiebung fürchten, wollen andere freiwillig zurückkehren.",
-        "paragraphs": [
-          "Politiker der Union stellen den Schutzstatus syrischer Geflüchteter infrage. Während manche Betroffene ihre Abschiebung fürchten, wollen andere freiwillig zurückkehren."
-        ],
-        "link": "https://www.zeit.de/gesellschaft/2025-11/syrien-gefluechtete-migration-schutzstatus-abschiebung",
-        "source": "ZEIT Gesellschaft",
-        "publishedAt": "2025-11-17T14:26:12.000Z"
-      },
-      {
-        "id": "{urn:uuid:1652df10-a786-4a41-afa2-7ae754b1a434}",
-        "title": "Saudi-Arabien: Viele tote Pilger bei Busunglück in Saudi-Arabien",
-        "summary": "Auf einer Busfahrt zwischen den heiligen Städten Mekka und Medina sind in Saudi-Arabien über 40 Menschen ums Leben gekommen. Die Pilger sollen aus Indien kommen.",
-        "paragraphs": [
-          "Auf einer Busfahrt zwischen den heiligen Städten Mekka und Medina sind in Saudi-Arabien über 40 Menschen ums Leben gekommen. Die Pilger sollen aus Indien kommen."
-        ],
-        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/busunfall-medina-indische-pilger-viele-tote-gxe",
-        "source": "ZEIT Gesellschaft",
-        "publishedAt": "2025-11-17T14:14:16.000Z"
-      },
-      {
-        "id": "{urn:uuid:09efd00a-6997-4544-980f-641a78eae09c}",
-        "title": "Wohnungslosigkeit: Mehr als eine Million Menschen haben keine Wohnung",
-        "summary": "Die Zahl der Wohnungslosen in Deutschland hat die Marke von einer Million überschritten. Rund ein Viertel der Betroffenen ist minderjährig.",
-        "paragraphs": [
-          "Die Zahl der Wohnungslosen in Deutschland hat die Marke von einer Million überschritten. Rund ein Viertel der Betroffenen ist minderjährig."
-        ],
-        "link": "https://www.zeit.de/gesellschaft/2025-11/wohnungslos-obdachlos-minderjaehrig-gxe",
-        "source": "ZEIT Gesellschaft",
-        "publishedAt": "2025-11-17T13:42:08.000Z"
       },
       {
         "id": "er.e186759",
@@ -810,28 +850,6 @@
         "publishedAt": "2025-11-13T14:09:00.000Z"
       },
       {
-        "id": "li.3337008",
-        "title": "Familien-Newsletter: Wem wollen Sie Danke sagen?",
-        "summary": "Unsere Autorin ist sich sicher: Ohne ihre Schwester wäre sie heute ein anderer Mensch. Möchten auch Sie sich bei jemandem bedanken? Wir freuen uns auf ganz persönliche Heldengeschichten.",
-        "paragraphs": [
-          "Unsere Autorin ist sich sicher: Ohne ihre Schwester wäre sie heute ein anderer Mensch. Möchten auch Sie sich bei jemandem bedanken? Wir freuen uns auf ganz persönliche Heldengeschichten."
-        ],
-        "link": "https://www.sueddeutsche.de/leben/danke-aufruf-familie-li.3337008",
-        "source": "Süddeutsche Zeitung Leben",
-        "publishedAt": "2025-11-13T12:36:15.000Z"
-      },
-      {
-        "id": "li.3323391",
-        "title": "Interview mit Florian Illies: „Diesem Zufall verdanke ich mein Leben“",
-        "summary": "Bestsellerautor Florian Illies über seinen Vater, der als junger Mann die Schlacht bei Monte Cassino überlebte, das Drama der Familie von Thomas Mann im französischen Exil 1933 und seine Lust am Erzählen.",
-        "paragraphs": [
-          "Bestsellerautor Florian Illies über seinen Vater, der als junger Mann die Schlacht bei Monte Cassino überlebte, das Drama der Familie von Thomas Mann im französischen Exil 1933 und seine Lust am Erzählen."
-        ],
-        "link": "https://www.sueddeutsche.de/leben/interview-florian-illies-thomas-mann-exil-li.3323391",
-        "source": "Süddeutsche Zeitung Leben",
-        "publishedAt": "2025-11-13T11:50:19.000Z"
-      },
-      {
         "id": "https://squirrel-news.net/bank-accounts-for-homeless-people-frances-composting-capital-mob-grazing/",
         "title": "Bank accounts for homeless people, France’s composting capital, mob grazing",
         "summary": "Today at Squirrel News, we're talking about how the five biggest UK banks have launched a pilot scheme to make banking accessible for homeless people, how a small city in France managed to cut organic waste by 40%, and a unique solution to restoring Senegal's degraded grasslands.",
@@ -863,360 +881,338 @@
         "link": "https://squirrel-news.net/free-electricity-in-australia-lithuania-halves-suicide-rate-litter-picking-becomes-global-competitive-sport/",
         "source": "Squirrel News Gesellschaft",
         "publishedAt": "2025-11-07T13:49:56.000Z"
-      },
-      {
-        "id": "https://squirrel-news.net/australias-treaty-with-aboriginal-peoples-nyc-elects-first-muslim-mayor-europes-landmark-climate-ruling/",
-        "title": "Australia’s treaty with Aboriginal peoples, NYC elects first Muslim mayor, Europe’s landmark climate ruling",
-        "summary": "In today's edition, we're exploring a first-of-its-kind legislation between Australia's First Peoples and the Victorian parliament, Zohran Mamdani's landslide win making him New York's first Muslim mayor, and the EHRC's new ruling to strengthen climate accountability for fossil fuel projects.",
-        "paragraphs": [
-          "In today's edition, we're exploring a first-of-its-kind legislation between Australia's First Peoples and the Victorian parliament, Zohran Mamdani's landslide win making him New York's first Muslim mayor, and the EHRC's new ruling to strengthen climate accountability for fossil fuel projects."
-        ],
-        "link": "https://squirrel-news.net/australias-treaty-with-aboriginal-peoples-nyc-elects-first-muslim-mayor-europes-landmark-climate-ruling/",
-        "source": "Squirrel News Gesellschaft",
-        "publishedAt": "2025-11-05T12:47:10.000Z"
-      },
-      {
-        "id": "https://squirrel-news.net/maldives-bans-smoking-for-new-generations-worlds-largest-heat-pump-global-extinction-rates-slow/",
-        "title": "Maldives bans smoking for new generations, world’s largest heat pump, global extinction rates slow",
-        "summary": "At Squirrel News, we're kicking off November talking about how the Maldives became the only country in the world with a generational smoking ban, the world's largest heat pump entering construction in Germany, and new research suggesting that extinction rates are slowing across the globe.",
-        "paragraphs": [
-          "At Squirrel News, we're kicking off November talking about how the Maldives became the only country in the world with a generational smoking ban, the world's largest heat pump entering construction in Germany, and new research suggesting that extinction rates are slowing across the globe."
-        ],
-        "link": "https://squirrel-news.net/maldives-bans-smoking-for-new-generations-worlds-largest-heat-pump-global-extinction-rates-slow/",
-        "source": "Squirrel News Gesellschaft",
-        "publishedAt": "2025-11-03T12:48:31.000Z"
       }
     ],
     "Sport": [
       {
-        "id": "https://www.kicker.de/las-vegas-gegen-dallas-2025-nfl-5040165/spielbericht#omrss",
-        "title": "Prescott überragt: Cowboys dominieren Raiders",
-        "summary": "Die Dallas Cowboys haben in Las Vegas einen ihrer stärksten Auftritte der Saison hingelegt und die Raiders mit einem überzeugenden 33:16-Sieg klar in die Schranken gewiesen. Von Beginn an dominierten die Texaner das Geschehen, setzten offensiv wie defensiv Akzente und kontrollierten das Spiel nahezu durchgehend.",
+        "id": "https://www.kicker.de/live-karl-zur-stelle-u-21-fuehrt-in-georgien-1166623/artikel#omrss",
+        "title": "LIVE! Karl zur Stelle: U 21 führt in Georgien",
+        "summary": "Wenige Tage nach dem 6:0 gegen Außenseiter Malta strebt die deutsche U-21-Auswahl den nächsten Kantersieg an. In Tiflis wartet das Duell mit Gastgeber Georgien.",
         "paragraphs": [
-          "Die Dallas Cowboys haben in Las Vegas einen ihrer stärksten Auftritte der Saison hingelegt und die Raiders mit einem überzeugenden 33:16-Sieg klar in die Schranken gewiesen. Von Beginn an dominierten die Texaner das Geschehen, setzten offensiv wie defensiv Akzente und kontrollierten das Spiel nahezu durchgehend."
+          "Wenige Tage nach dem 6:0 gegen Außenseiter Malta strebt die deutsche U-21-Auswahl den nächsten Kantersieg an. In Tiflis wartet das Duell mit Gastgeber Georgien."
         ],
-        "link": "https://www.kicker.de/las-vegas-gegen-dallas-2025-nfl-5040165/spielbericht#omrss",
+        "link": "https://www.kicker.de/live-karl-zur-stelle-u-21-fuehrt-in-georgien-1166623/artikel#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-18T05:39:08.000Z"
+        "publishedAt": "2025-11-18T17:50:12.000Z"
       },
       {
-        "id": "https://www.kicker.de/nagelsmann-jeder-hat-gearbeitet-wie-das-rosafarbene-tier-1166766/artikel#omrss",
-        "title": "Nagelsmann: \"Jeder hat gearbeitet wie das rosafarbene Tier\"",
-        "summary": "Nach einer insgesamt keineswegs leichten Qualifikationsrunde in der Gruppe A gelang der DFB-Elf mit dem 6:0-Kantersieg gegen die Slowakei ein erfolgreicher und versöhnlicher Abschluss, der zugleich das WM-Ticket löste. Kein Wunder, dass auch der Bundestrainer zufrieden war.",
+        "id": "https://www.kicker.de/tristesse-beim-psv-neumuenster-eigentlich-koennen-wir-den-ball-direkt-in-unser-tor-schiessen-1166948/artikel#omrss",
+        "title": "Tristesse beim PSV Neumünster: \"Eigentlich können wir den Ball direkt in unser Tor schießen\"",
+        "summary": "Der PSV Neumünster kämpft mit starken Formschwankungen und personellen Problemen. Letzteres will das Trainerduo Voss/Buthmann nicht als Ausrede gelten lassen und fordert: \"Wir müssen schnell in die Erfolgsspur zurückkehren.\"",
         "paragraphs": [
-          "Nach einer insgesamt keineswegs leichten Qualifikationsrunde in der Gruppe A gelang der DFB-Elf mit dem 6:0-Kantersieg gegen die Slowakei ein erfolgreicher und versöhnlicher Abschluss, der zugleich das WM-Ticket löste. Kein Wunder, dass auch der Bundestrainer zufrieden war."
+          "Der PSV Neumünster kämpft mit starken Formschwankungen und personellen Problemen. Letzteres will das Trainerduo Voss/Buthmann nicht als Ausrede gelten lassen und fordert: \"Wir müssen schnell in die Erfolgsspur zurückkehren.\""
         ],
-        "link": "https://www.kicker.de/nagelsmann-jeder-hat-gearbeitet-wie-das-rosafarbene-tier-1166766/artikel#omrss",
+        "link": "https://www.kicker.de/tristesse-beim-psv-neumuenster-eigentlich-koennen-wir-den-ball-direkt-in-unser-tor-schiessen-1166948/artikel#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-17T23:16:30.000Z"
+        "publishedAt": "2025-11-18T17:18:48.000Z"
       },
       {
-        "id": "https://www.kicker.de/kimmich-beantwortet-frage-des-schmerzes-schlotterbecks-klare-wm-ansage-1166765/artikel#omrss",
-        "title": "Kimmich beantwortet \"Frage des Schmerzes\" - Schlotterbecks klare WM-Ansage",
-        "summary": "Beim 6:0 gegen die Slowakei standen Nico Schlotterbeck und Joshua Kimmich jeweils wieder auf dem Platz - obwohl es zumindest bei einem von beiden knapp gewesen war.",
+        "id": "https://www.kicker.de/rueckkehrer-bader-ist-frohen-mutes-und-lobt-die-konkurrenz-1167000/artikel#omrss",
+        "title": "Rückkehrer Bader ist \"frohen Mutes\" - und lobt die Konkurrenz",
+        "summary": "Eigentlich sollte Matthias Bader nach seinem Kreuzbandriss schon im Sommer wieder in die Mannschaft des SV Darmstadt 98 zurückkehren. Doch erst im Oktober kam es dann zum Comeback. Nun will er zurück in die Startelf.",
         "paragraphs": [
-          "Beim 6:0 gegen die Slowakei standen Nico Schlotterbeck und Joshua Kimmich jeweils wieder auf dem Platz - obwohl es zumindest bei einem von beiden knapp gewesen war."
+          "Eigentlich sollte Matthias Bader nach seinem Kreuzbandriss schon im Sommer wieder in die Mannschaft des SV Darmstadt 98 zurückkehren. Doch erst im Oktober kam es dann zum Comeback. Nun will er zurück in die Startelf."
         ],
-        "link": "https://www.kicker.de/kimmich-beantwortet-frage-des-schmerzes-schlotterbecks-klare-wm-ansage-1166765/artikel#omrss",
+        "link": "https://www.kicker.de/rueckkehrer-bader-ist-frohen-mutes-und-lobt-die-konkurrenz-1167000/artikel#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-17T23:13:48.000Z"
+        "publishedAt": "2025-11-18T17:06:33.000Z"
       },
       {
-        "id": "https://www.kicker.de/34-von-48-diese-teams-sind-fuer-die-wm-2026-qualifiziert-1100446/artikel#omrss",
-        "title": "34 von 48: Diese Teams sind für die WM 2026 qualifiziert",
-        "summary": "2026 findet in den USA, Kanada und Mexiko erstmals eine WM mit 48 Teams statt. Wer ist alles dabei?",
+        "id": "https://www.kicker.de/ea-sports-drosselt-die-drehzahl-f1-26-wird-kein-eigenstaendiges-spiel-1166987/artikel#omrss",
+        "title": "EA SPORTS drosselt die Drehzahl: F1 26 wird kein eigenständiges Spiel",
+        "summary": "EA SPORTS und Codemasters brechen im kommenden Jahr mit einer alten Tradition: 2026 wird kein eigenständiges F1-Spiel erscheinen - eine kostenpflichtige Erweiterung bringt die neue Saison auf die Bildschirme.",
         "paragraphs": [
-          "2026 findet in den USA, Kanada und Mexiko erstmals eine WM mit 48 Teams statt. Wer ist alles dabei?"
+          "EA SPORTS und Codemasters brechen im kommenden Jahr mit einer alten Tradition: 2026 wird kein eigenständiges F1-Spiel erscheinen - eine kostenpflichtige Erweiterung bringt die neue Saison auf die Bildschirme."
         ],
-        "link": "https://www.kicker.de/34-von-48-diese-teams-sind-fuer-die-wm-2026-qualifiziert-1100446/artikel#omrss",
+        "link": "https://www.kicker.de/ea-sports-drosselt-die-drehzahl-f1-26-wird-kein-eigenstaendiges-spiel-1166987/artikel#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-17T22:37:20.000Z"
+        "publishedAt": "2025-11-18T16:54:21.000Z"
       },
       {
-        "id": "https://www.kicker.de/wenn-der-immer-so-spielen-wuerde-san-als-positives-sinnbild-1166764/video#omrss",
-        "title": "\"Wenn der immer so spielen würde, …\": Sané als positives Sinnbild",
-        "summary": "Nach dem überzeugenden 6:0-Sieg gegen die Slowakei und der damit einhergehenden WM-Qualifikation ordnete kicker-Chefreporter Oliver Hartmann den Erfolg ein. Die Leistung der Mannschaft wurde \"zurecht frenetisch bejubelt\".",
+        "id": "https://www.kicker.de/gewinner-und-verlierer-eindrucksvoller-mr-wankelmut-und-ein-perfekter-einstand-1166963/artikel#omrss",
+        "title": "Gewinner und Verlierer: Eindrucksvoller Mr. Wankelmut und ein perfekter Einstand",
+        "summary": "Das WM-Ticket hat der DFB gelöst, durch das 6:0 gegen die Slowakei gelang zumindest der Schlussakt sogar höchst eindrucksvoll. Nun geht es darum, welche Spieler in den USA, Mexiko und Kanada dabei sind. Auch der November brachte Gewinner und Verlierer hervor.",
         "paragraphs": [
-          "Nach dem überzeugenden 6:0-Sieg gegen die Slowakei und der damit einhergehenden WM-Qualifikation ordnete kicker-Chefreporter Oliver Hartmann den Erfolg ein. Die Leistung der Mannschaft wurde \"zurecht frenetisch bejubelt\"."
+          "Das WM-Ticket hat der DFB gelöst, durch das 6:0 gegen die Slowakei gelang zumindest der Schlussakt sogar höchst eindrucksvoll. Nun geht es darum, welche Spieler in den USA, Mexiko und Kanada dabei sind. Auch der November brachte Gewinner und Verlierer hervor."
         ],
-        "link": "https://www.kicker.de/wenn-der-immer-so-spielen-wuerde-san-als-positives-sinnbild-1166764/video#omrss",
+        "link": "https://www.kicker.de/gewinner-und-verlierer-eindrucksvoller-mr-wankelmut-und-ein-perfekter-einstand-1166963/artikel#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-17T22:25:00.000Z"
+        "publishedAt": "2025-11-18T16:50:17.000Z"
       },
       {
-        "id": "https://www.kicker.de/lage-in-europa-diese-entscheidungen-fallen-am-dienstag-1165019/artikel#omrss",
-        "title": "Lage in Europa: Diese Entscheidungen fallen am Dienstag",
-        "summary": "Im Oktober hatte England als erster Vertreter aus Europa das WM-Ticket gelöst. Zuletzt folgten Frankreich, Kroatien, Portugal, Norwegen, Deutschland und die Niederlande - wer macht das Rennen in den Entscheidungsspielen am Dienstag?",
+        "id": "https://www.kicker.de/antirassismus-ist-eine-daueraufgabe-1166812/artikel#omrss",
+        "title": "\"Antirassismus ist eine Daueraufgabe\"",
+        "summary": "Trotz vieler Kampagnen und Aktionen - das Thema Rassismus im Fußball bleibt präsent. Professor Aladin El-Mafaalani aus Dortmund analysiert es.",
         "paragraphs": [
-          "Im Oktober hatte England als erster Vertreter aus Europa das WM-Ticket gelöst. Zuletzt folgten Frankreich, Kroatien, Portugal, Norwegen, Deutschland und die Niederlande - wer macht das Rennen in den Entscheidungsspielen am Dienstag?"
+          "Trotz vieler Kampagnen und Aktionen - das Thema Rassismus im Fußball bleibt präsent. Professor Aladin El-Mafaalani aus Dortmund analysiert es."
         ],
-        "link": "https://www.kicker.de/lage-in-europa-diese-entscheidungen-fallen-am-dienstag-1165019/artikel#omrss",
+        "link": "https://www.kicker.de/antirassismus-ist-eine-daueraufgabe-1166812/artikel#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-17T22:19:23.000Z"
+        "publishedAt": "2025-11-18T16:42:50.000Z"
       },
       {
-        "id": "https://www.kicker.de/wm-ticket-und-wm-hoffnung-1166747/artikel#omrss",
-        "title": "WM-Ticket und WM-Hoffnung",
-        "summary": "Die DFB-Elf hat eine bis Montagabend quälende WM-Qualifikation mit einer 6:0-Gala beendet und zum ersten Mal das getan, was Julian Nagelsmann zum Ziel erklärt hatte. Dafür haben die Mannschaft und der Bundestrainer nach viel Kritik dieses Mal Komplimente verdient. Ein Kommentar von kicker-Reporter Sebastian Wolff.",
+        "id": "li.3340300",
+        "title": "Assan Ouédraogo: Der Nächste aus der Schalker Schmiede",
+        "summary": "Neuer, Özil, Höwedes und Co: Der legendäre Schalker Jugendtrainer Norbert Elgert hat viele Nationalspieler hervorgebracht – auch DFB-Debütant Assan Ouédraogo gilt als besonders vielversprechend.",
         "paragraphs": [
-          "Die DFB-Elf hat eine bis Montagabend quälende WM-Qualifikation mit einer 6:0-Gala beendet und zum ersten Mal das getan, was Julian Nagelsmann zum Ziel erklärt hatte. Dafür haben die Mannschaft und der Bundestrainer nach viel Kritik dieses Mal Komplimente verdient. Ein Kommentar von kicker-Reporter Sebastian Wolff."
+          "Neuer, Özil, Höwedes und Co: Der legendäre Schalker Jugendtrainer Norbert Elgert hat viele Nationalspieler hervorgebracht – auch DFB-Debütant Assan Ouédraogo gilt als besonders vielversprechend."
         ],
-        "link": "https://www.kicker.de/wm-ticket-und-wm-hoffnung-1166747/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T22:00:30.000Z"
-      },
-      {
-        "id": "li.3340054",
-        "title": "DFB-Team in der Einzelkritik: Wie es alle erwartet haben: Sané schießt Deutschland zur WM",
-        "summary": "Der Angreifer trifft doppelt und bastelt an einer ungewöhnlichen Erfolgsstory. Florian Wirtz lässt seinen Doppelgänger diesmal in England. Die DFB-Elf in der Einzelkritik.",
-        "paragraphs": [
-          "Der Angreifer trifft doppelt und bastelt an einer ungewöhnlichen Erfolgsstory. Florian Wirtz lässt seinen Doppelgänger diesmal in England. Die DFB-Elf in der Einzelkritik."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/dfb-team-slowakei-einzelkritik-wm-quali-li.3340054",
+        "link": "https://www.sueddeutsche.de/sport/nationalelf-ouedraogo-schalke-nagelsmann-li.3340300",
         "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-17T21:57:49.000Z"
+        "publishedAt": "2025-11-18T16:05:15.000Z"
       },
       {
-        "id": "li.3340123",
-        "title": "Deutschland schafft WM-Qualifikation: Willkommen in Lostopf 1",
-        "summary": "Die deutsche Nationalmannschaft fliegt zur Fußball-WM 2026 nach Nordamerika. Die Zweifel? Mögliche Playoffs? Sind beim furiosen 6:0 gegen die Slowakei ganz schnell kein Thema mehr.",
+        "id": "li.3339877",
+        "title": "Sportpolitik: Mit Salamitaktik zur Sportmilliarde",
+        "summary": "Einst war von vier Milliarden Euro die Rede, nun will der Bund etwas mehr als eine Milliarde für die Sanierung maroder Sportstätten investieren. Doch auf viele Vereine und Kommunen warten schon die nächsten Hürden.",
         "paragraphs": [
-          "Die deutsche Nationalmannschaft fliegt zur Fußball-WM 2026 nach Nordamerika. Die Zweifel? Mögliche Playoffs? Sind beim furiosen 6:0 gegen die Slowakei ganz schnell kein Thema mehr."
+          "Einst war von vier Milliarden Euro die Rede, nun will der Bund etwas mehr als eine Milliarde für die Sanierung maroder Sportstätten investieren. Doch auf viele Vereine und Kommunen warten schon die nächsten Hürden."
         ],
-        "link": "https://www.sueddeutsche.de/sport/nationalmannschaft-dfb-slowakei-spielbericht-wm-ticket-li.3340123",
+        "link": "https://www.sueddeutsche.de/sport/sportmilliarde-sportstaetten-sanierung-dosb-li.3339877",
         "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-17T21:54:47.000Z"
+        "publishedAt": "2025-11-18T15:59:01.000Z"
       },
       {
-        "id": "https://www.kicker.de/nach-spuck-attacke-nfl-sperrt-chase-1166758/artikel#omrss",
-        "title": "Nach Spuck-Attacke: NFL sperrt Chase",
-        "summary": "Die NFL hat auf die Spuck-Attacke von Ja'Marr Chase reagiert. Der Wide Receiver der Cincinnati Bengals bekommt eine Sperre, dieser will die Entscheidung aber anfechten.",
+        "id": "li.3340288",
+        "title": "Deutsche Nationalmannschaft: Deutschland als WM-Favorit? Da gibt es andere",
+        "summary": "Bundestrainer Nagelsmann tut gut daran, nach der erfolgreichen WM-Qualifikation nicht gleich höchste Ziele auszurufen.",
         "paragraphs": [
-          "Die NFL hat auf die Spuck-Attacke von Ja'Marr Chase reagiert. Der Wide Receiver der Cincinnati Bengals bekommt eine Sperre, dieser will die Entscheidung aber anfechten."
+          "Bundestrainer Nagelsmann tut gut daran, nach der erfolgreichen WM-Qualifikation nicht gleich höchste Ziele auszurufen."
         ],
-        "link": "https://www.kicker.de/nach-spuck-attacke-nfl-sperrt-chase-1166758/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T21:51:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wm-play-offs-wer-schon-sicher-dabei-ist-1164965/artikel#omrss",
-        "title": "WM-Play-offs: Wer schon sicher dabei ist",
-        "summary": "Wenn am 5. Dezember die Gruppen der WM 2026 ausgelost werden, stehen sechs Teilnehmer noch gar nicht fest. Diese werden erst im März ermittelt - doch schon an diesem Donnerstag wird es spannend. Alle Infos zu den Play-offs.",
-        "paragraphs": [
-          "Wenn am 5. Dezember die Gruppen der WM 2026 ausgelost werden, stehen sechs Teilnehmer noch gar nicht fest. Diese werden erst im März ermittelt - doch schon an diesem Donnerstag wird es spannend. Alle Infos zu den Play-offs."
-        ],
-        "link": "https://www.kicker.de/wm-play-offs-wer-schon-sicher-dabei-ist-1164965/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T21:49:41.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/dfb-fahrplan-testspiele-statt-play-offs-erste-gegner-stehen-schon-fest-1143644/artikel#omrss",
-        "title": "DFB-Fahrplan: Testspiele statt Play-offs - Erste Gegner stehen schon fest",
-        "summary": "Wie geht es für die deutsche Nationalmannschaft nach der erfolgreichen WM-Qualifikation im neuen Jahr weiter? Der Fahrplan der DFB-Elf im Überblick.",
-        "paragraphs": [
-          "Wie geht es für die deutsche Nationalmannschaft nach der erfolgreichen WM-Qualifikation im neuen Jahr weiter? Der Fahrplan der DFB-Elf im Überblick."
-        ],
-        "link": "https://www.kicker.de/dfb-fahrplan-testspiele-statt-play-offs-erste-gegner-stehen-schon-fest-1143644/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T21:42:26.000Z"
-      },
-      {
-        "id": "li.3340124",
-        "title": "Der Weg zur WM 2026: Jetzt muss Nagelsmann zum besonnenen Baumeister werden",
-        "summary": "Der Bundestrainer hat die Stabilität seiner Nationalelf immer wieder überschätzt und ihr deshalb zu viel zugemutet. Mit Blick auf die WM muss er eine entscheidende Lehre ziehen.",
-        "paragraphs": [
-          "Der Bundestrainer hat die Stabilität seiner Nationalelf immer wieder überschätzt und ihr deshalb zu viel zugemutet. Mit Blick auf die WM muss er eine entscheidende Lehre ziehen."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/dfb-wm-qualifikation-ticket-kommentar-nagelsmann-li.3340124",
+        "link": "https://www.sueddeutsche.de/sport/fussball-wm-qualifikation-nagelsmann-nationalmannschaft-dfb-favoriten-li.3340288",
         "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-17T21:40:48.000Z"
+        "publishedAt": "2025-11-18T15:58:22.000Z"
       },
       {
-        "id": "https://www.kicker.de/niederlande-gegen-litauen-2025-wm-qualifikation-europa-4969609/spielbericht#omrss",
-        "title": "Starkes Pressing, Elfer und Konter: Oranje bucht das WM-Ticket",
-        "summary": "Die Niederlande haben das WM-Ticket nicht mehr nur praktisch sicher. Durch ein souveränes 4:0 gegen Litauen, bei dem drei der vier Tore binnen vier Minuten fielen, tütete die Elftal ihre Teilnahme ein.",
+        "id": "li.3340467",
+        "title": "Podcast „Und nun zum Sport“: Deutsche Nationalelf: „Diese Quali war insgesamt extrem zäh“",
+        "summary": "Mal so, mal so: Wie gut ist die DFB-Elf jetzt eigentlich, wo die WM-Teilnahme feststeht? Nach dem 6:0 gegen die Slowakei gibt es positive Signale – aber auch weiter bestehende Kritikpunkte.",
         "paragraphs": [
-          "Die Niederlande haben das WM-Ticket nicht mehr nur praktisch sicher. Durch ein souveränes 4:0 gegen Litauen, bei dem drei der vier Tore binnen vier Minuten fielen, tütete die Elftal ihre Teilnahme ein."
+          "Mal so, mal so: Wie gut ist die DFB-Elf jetzt eigentlich, wo die WM-Teilnahme feststeht? Nach dem 6:0 gegen die Slowakei gibt es positive Signale – aber auch weiter bestehende Kritikpunkte."
         ],
-        "link": "https://www.kicker.de/niederlande-gegen-litauen-2025-wm-qualifikation-europa-4969609/spielbericht#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T21:37:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/teurer-vertrag-nach-der-wm-ancelotti-bringt-pk-raum-zum-lachen-1166744/video#omrss",
-        "title": "Teurer Vertrag nach der WM? Ancelotti bringt PK-Raum zum Lachen",
-        "summary": "Carlo Ancelotti fühlt sich in Brasilien wohl und zeigte sich einer möglichen Vertragsverlängerung gegenüber offen. Der Trainer scherzte dabei, dass ein möglicher Vertrag nach der WM teurer werden könnte.",
-        "paragraphs": [
-          "Carlo Ancelotti fühlt sich in Brasilien wohl und zeigte sich einer möglichen Vertragsverlängerung gegenüber offen. Der Trainer scherzte dabei, dass ein möglicher Vertrag nach der WM teurer werden könnte."
-        ],
-        "link": "https://www.kicker.de/teurer-vertrag-nach-der-wm-ancelotti-bringt-pk-raum-zum-lachen-1166744/video#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T20:43:16.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wetzlar-gegen-gummersbach-2025-handball-bundesliga-5097383/spielbericht#omrss",
-        "title": "Trotz 14 technischer Fehler: Gummersbach kämpft sich zum Sieg in Wetzlar",
-        "summary": "Der VfL Gummersbach zeigte sich bei der HSG Wetzlar ungewohnt fehleranfällig. Aus einer starken Leistung von Bertram Obling konnten die Oberbergischen mit zahlreichen Fehlpässen besonders in der ersten Hälfte keinen Profit schlagen. Schließlich erkämpften sich die Gäste dank des Torhütervorteils jedoch einen 31:29-Auswärtssieg.",
-        "paragraphs": [
-          "Der VfL Gummersbach zeigte sich bei der HSG Wetzlar ungewohnt fehleranfällig. Aus einer starken Leistung von Bertram Obling konnten die Oberbergischen mit zahlreichen Fehlpässen besonders in der ersten Hälfte keinen Profit schlagen. Schließlich erkämpften sich die Gäste dank des Torhütervorteils jedoch einen 31:29-Auswärtssieg."
-        ],
-        "link": "https://www.kicker.de/wetzlar-gegen-gummersbach-2025-handball-bundesliga-5097383/spielbericht#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T19:51:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/fuerth-halbiert-durch-verlust-die-eigenkapitalquote-1166690/artikel#omrss",
-        "title": "Fürth halbiert durch Verlust die Eigenkapitalquote",
-        "summary": "Die SpVgg Greuther Fürth hat bei der Jahreshauptversammlung die Bilanzzahlen des Geschäftsjahres 2024/25 präsentiert. Daraus lässt sich einiges ablesen.",
-        "paragraphs": [
-          "Die SpVgg Greuther Fürth hat bei der Jahreshauptversammlung die Bilanzzahlen des Geschäftsjahres 2024/25 präsentiert. Daraus lässt sich einiges ablesen."
-        ],
-        "link": "https://www.kicker.de/fuerth-halbiert-durch-verlust-die-eigenkapitalquote-1166690/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T19:00:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ohne-guirassy-drei-nominierte-fuer-die-wahl-zu-afrikas-fussballer-des-jahres-1166705/artikel#omrss",
-        "title": "Ohne Guirassy: Drei Nominierte für die Wahl zu Afrikas Fußballer des Jahres",
-        "summary": "Der afrikanische Fußballverband hat die drei Spieler bekanntgegeben, die als Afrikas Fußballer des Jahres nominiert sind. Der Dortmunder Serhou Guirassy steht nicht mehr auf der Shortlist.",
-        "paragraphs": [
-          "Der afrikanische Fußballverband hat die drei Spieler bekanntgegeben, die als Afrikas Fußballer des Jahres nominiert sind. Der Dortmunder Serhou Guirassy steht nicht mehr auf der Shortlist."
-        ],
-        "link": "https://www.kicker.de/ohne-guirassy-drei-nominierte-fuer-die-wahl-zu-afrikas-fussballer-des-jahres-1166705/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T18:04:56.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/titz-stuetzt-bundu-meine-geduld-ist-ausdehnbar-1166720/artikel#omrss",
-        "title": "Titz stützt Bundu: \"Meine Geduld ist ausdehnbar\"",
-        "summary": "Hannover 96 hat in dieser Saison zwar ordentlich getroffen, trotzdem ist die Effizienz deutlich ausbaufähig. Trainer Christian Titz vertraut seinen Spielern weiterhin.",
-        "paragraphs": [
-          "Hannover 96 hat in dieser Saison zwar ordentlich getroffen, trotzdem ist die Effizienz deutlich ausbaufähig. Trainer Christian Titz vertraut seinen Spielern weiterhin."
-        ],
-        "link": "https://www.kicker.de/titz-stuetzt-bundu-meine-geduld-ist-ausdehnbar-1166720/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T17:57:17.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/abwehr-duo-schneider-und-noack-fehlt-union-laengerfristig-1166717/artikel#omrss",
-        "title": "Abwehr-Duo Schneider und Noack fehlt Union \"längerfristig\"",
-        "summary": "Aufsteiger Union hat am Montag den Ausfall von zwei Abwehrspielerinnen bekanntgegeben, allerdings ohne die Diagnose zu verraten: Tomke Schneider und Mariann Noack fehlen den Berlinerinnen.",
-        "paragraphs": [
-          "Aufsteiger Union hat am Montag den Ausfall von zwei Abwehrspielerinnen bekanntgegeben, allerdings ohne die Diagnose zu verraten: Tomke Schneider und Mariann Noack fehlen den Berlinerinnen."
-        ],
-        "link": "https://www.kicker.de/abwehr-duo-schneider-und-noack-fehlt-union-laengerfristig-1166717/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T17:48:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/straubing-holt-ehemaligen-nhl-erstrunden-draftpick-merkley-1166714/artikel#omrss",
-        "title": "Straubing holt ehemaligen NHL-Erstrunden-Draftpick Merkley",
-        "summary": "Die Straubing Tigers haben auf die jüngsten Verletzungen in ihrer Abwehr reagiert und mit Ryan Merkley einen durchaus prominenten Neuzugang verpflichtet.",
-        "paragraphs": [
-          "Die Straubing Tigers haben auf die jüngsten Verletzungen in ihrer Abwehr reagiert und mit Ryan Merkley einen durchaus prominenten Neuzugang verpflichtet."
-        ],
-        "link": "https://www.kicker.de/straubing-holt-ehemaligen-nhl-erstrunden-draftpick-merkley-1166714/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T17:34:42.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/fields-auf-die-bank-jets-wechseln-den-qb-1166716/artikel#omrss",
-        "title": "Fields auf die Bank: Jets wechseln den QB",
-        "summary": "Die New York Jets haben sich angesichts der anhaltenden Misere laut übereinstimmenden Medienberichten dazu entschlossen, auf der Quarterback-Position zu wechseln. Justin Fields wechselt damit vorerst auf die Bank.",
-        "paragraphs": [
-          "Die New York Jets haben sich angesichts der anhaltenden Misere laut übereinstimmenden Medienberichten dazu entschlossen, auf der Quarterback-Position zu wechseln. Justin Fields wechselt damit vorerst auf die Bank."
-        ],
-        "link": "https://www.kicker.de/fields-auf-die-bank-jets-wechseln-den-qb-1166716/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-17T17:28:00.000Z"
-      },
-      {
-        "id": "li.3340096",
-        "title": "Tennis: Schüttler tritt als Kapitän zurück",
-        "summary": "Teamchef Rainer Schüttler legt nach dem Abstieg der deutschen Tennisfrauen aus der Weltgruppe sein Amt nieder. Der 49-Jährige wolle „Raum für neue Impulse und eine personelle Neuausrichtung schaffen“. Wer nachfolgt, ist offen.",
-        "paragraphs": [
-          "Teamchef Rainer Schüttler legt nach dem Abstieg der deutschen Tennisfrauen aus der Weltgruppe sein Amt nieder. Der 49-Jährige wolle „Raum für neue Impulse und eine personelle Neuausrichtung schaffen“. Wer nachfolgt, ist offen."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/rainer-schuettler-kapitaen-tennisfrauen-li.3340096",
+        "link": "https://www.sueddeutsche.de/sport/dfb-elf-slowakei-podcast-und-nun-zum-sport-li.3340467",
         "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-17T17:26:36.000Z"
+        "publishedAt": "2025-11-18T15:54:49.000Z"
       },
       {
-        "id": "https://www.kicker.de/mentalitaet-schlaegt-klasse-fm26-tipps-von-conference-league-sieger-bowen-1166672/artikel#omrss",
-        "title": "Mentalität schlägt Klasse: FM26-Tipps von Conference-League-Sieger Bowen",
-        "summary": "Beim Entwickler vor Ort hatte West-Ham-Profi Bowen den FM26 angespielt - und im Gespräch mit Sports Interactive auf sein Siegtor im Conference-League-Finale 2022/2023 zurückgeblickt. Nicht fehlen durften daraus resultierende Tipps für den FM.",
+        "id": "https://www.kicker.de/berufung-abgelehnt-weinheim-bleibt-tischtennis-meister-1166957/artikel#omrss",
+        "title": "Berufung abgelehnt: Weinheim bleibt Tischtennis-Meister",
+        "summary": "Tischtennis-Seriensieger ttc berlin eastside ist im Streit um den \"Hitze-Titel\" auch mit der Berufung gescheitert, die Frauen des TTC Weinheim bleiben die deutschen Meisterinnen.",
         "paragraphs": [
-          "Beim Entwickler vor Ort hatte West-Ham-Profi Bowen den FM26 angespielt - und im Gespräch mit Sports Interactive auf sein Siegtor im Conference-League-Finale 2022/2023 zurückgeblickt. Nicht fehlen durften daraus resultierende Tipps für den FM."
+          "Tischtennis-Seriensieger ttc berlin eastside ist im Streit um den \"Hitze-Titel\" auch mit der Berufung gescheitert, die Frauen des TTC Weinheim bleiben die deutschen Meisterinnen."
         ],
-        "link": "https://www.kicker.de/mentalitaet-schlaegt-klasse-fm26-tipps-von-conference-league-sieger-bowen-1166672/artikel#omrss",
+        "link": "https://www.kicker.de/berufung-abgelehnt-weinheim-bleibt-tischtennis-meister-1166957/artikel#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-17T17:11:13.000Z"
+        "publishedAt": "2025-11-18T15:06:57.000Z"
       },
       {
-        "id": "li.3339964",
-        "title": "Sportpolitik: Der DOSB-Präsident soll künftig Geld bekommen",
-        "summary": "Bisher waren die Mitglieder des DOSB-Präsidiums streng ehrenamtlich tätig. Das kann sich nun ändern – allerdings soll es nur eine kleine Summe geben.",
+        "id": "https://www.kicker.de/1860-praesident-mang-ich-will-ein-stadion-und-keine-arena-1166828/artikel#omrss",
+        "title": "1860-Präsident Mang: \"Ich will ein Stadion und keine Arena\"",
+        "summary": "Der TSV 1860 München und die ewige Stadionfrage. Wie es aktuell in Sachen Planung steht.",
         "paragraphs": [
-          "Bisher waren die Mitglieder des DOSB-Präsidiums streng ehrenamtlich tätig. Das kann sich nun ändern – allerdings soll es nur eine kleine Summe geben."
+          "Der TSV 1860 München und die ewige Stadionfrage. Wie es aktuell in Sachen Planung steht."
         ],
-        "link": "https://www.sueddeutsche.de/sport/dosb-praesidium-entlohnung-hoehe-li.3339964",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-17T16:59:02.000Z"
+        "link": "https://www.kicker.de/1860-praesident-mang-ich-will-ein-stadion-und-keine-arena-1166828/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T14:55:20.000Z"
       },
       {
-        "id": "li.3339880",
-        "title": "Tennis: Pokal und Quotenrekord für Sinner",
-        "summary": "Die Nummer zwei der Tennis-Weltrangliste gewinnt das ATP-Finale in Turin gegen Carlos Alcaraz und wird von seinen Landsleuten gefeiert.",
+        "id": "https://www.kicker.de/nach-fast-vier-monaten-ueberglueckliche-kleinherne-erstmals-im-wolfsburger-kader-1166949/artikel#omrss",
+        "title": "Nach fast vier Monaten: \"Überglückliche\" Kleinherne erstmals im Wolfsburger Kader",
+        "summary": "Nach fast viermonatiger Zwangspause wegen einer Muskel- und Sehnenverletzung steht Neuzugang Sophia Kleinherne erstmals im Aufgebot des VfL Wolfsburg.",
         "paragraphs": [
-          "Die Nummer zwei der Tennis-Weltrangliste gewinnt das ATP-Finale in Turin gegen Carlos Alcaraz und wird von seinen Landsleuten gefeiert."
+          "Nach fast viermonatiger Zwangspause wegen einer Muskel- und Sehnenverletzung steht Neuzugang Sophia Kleinherne erstmals im Aufgebot des VfL Wolfsburg."
         ],
-        "link": "https://www.sueddeutsche.de/sport/jannik-sinner-alcaraz-quotenrekord-turin-li.3339880",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-17T16:56:51.000Z"
+        "link": "https://www.kicker.de/nach-fast-vier-monaten-ueberglueckliche-kleinherne-erstmals-im-wolfsburger-kader-1166949/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T14:41:03.000Z"
       },
       {
-        "id": "li.3339493",
-        "title": "Beachvolleyball-WM: Neue Zeitrechnung am River Torrens",
-        "summary": "Sieben deutsche Beachvolleyball-Duos kämpfen bei der WM in Adelaide um Medaillen. Wickler/Ehlers, Müller/Tillmann und Co. haben die Vorrunde gut überstanden – aber auch mit vielen Strukturproblemen zu kämpfen.",
+        "id": "https://www.kicker.de/rb-muss-bis-jahresende-auf-landenberger-verzichten-1166933/artikel#omrss",
+        "title": "RB muss bis Jahresende auf Landenberger verzichten",
+        "summary": "Innenverteidigerin Julia Landenberger wird wegen einer Knieverletzung mehrere Wochen ausfallen. Damit fehlt die 21-Jährige nicht nur ihrem Verein im Hinrunden-Endspurt, sondern auch der U-23-Nationalmannschaft.",
         "paragraphs": [
-          "Sieben deutsche Beachvolleyball-Duos kämpfen bei der WM in Adelaide um Medaillen. Wickler/Ehlers, Müller/Tillmann und Co. haben die Vorrunde gut überstanden – aber auch mit vielen Strukturproblemen zu kämpfen."
+          "Innenverteidigerin Julia Landenberger wird wegen einer Knieverletzung mehrere Wochen ausfallen. Damit fehlt die 21-Jährige nicht nur ihrem Verein im Hinrunden-Endspurt, sondern auch der U-23-Nationalmannschaft."
         ],
-        "link": "https://www.sueddeutsche.de/sport/beachvollyball-wm-adelaide-dvv-li.3339493",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-17T14:56:22.000Z"
+        "link": "https://www.kicker.de/rb-muss-bis-jahresende-auf-landenberger-verzichten-1166933/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T14:24:43.000Z"
       },
       {
-        "id": "li.3339432",
-        "title": "Italien in der WM-Qualifikation: Das Land der Verteidiger verlernt das Verteidigen",
-        "summary": "Ein 1:4 gegen Norwegen beschert Italiens Fußball eine historische Krise, schon wieder muss die Squadra Azzurra in die Playoffs – und die größte Stärke von einst ist zur Schwäche geworden.",
+        "id": "https://www.kicker.de/zur-rettung-des-projekts-das-ist-bayers-neuer-plan-fuer-den-campus-1166901/artikel#omrss",
+        "title": "Zur Rettung des Projekts: Das ist Bayers neuer Plan für den Campus",
+        "summary": "Um das Campus-Projekt zu retten, hat Bayer 04 den Parteien in Monheim einen Vorschlag für eine abgespeckte Version unterbreitet. Jetzt nennt der Klub die Details, die einen Kompromiss herbeiführen sollen.",
         "paragraphs": [
-          "Ein 1:4 gegen Norwegen beschert Italiens Fußball eine historische Krise, schon wieder muss die Squadra Azzurra in die Playoffs – und die größte Stärke von einst ist zur Schwäche geworden."
+          "Um das Campus-Projekt zu retten, hat Bayer 04 den Parteien in Monheim einen Vorschlag für eine abgespeckte Version unterbreitet. Jetzt nennt der Klub die Details, die einen Kompromiss herbeiführen sollen."
         ],
-        "link": "https://www.sueddeutsche.de/sport/wm-qualifikation-italien-norwegen-1-4-mailand-verteidiger-li.3339432",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-17T13:55:23.000Z"
+        "link": "https://www.kicker.de/zur-rettung-des-projekts-das-ist-bayers-neuer-plan-fuer-den-campus-1166901/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T14:05:41.000Z"
       },
       {
-        "id": "li.3339464",
-        "title": "Konflikt im deutschen Tennis: Becker vs. Zverev – ein Tenniskleinkrieg, der keinem hilft",
-        "summary": "Der immer heftiger geführte Zwist zwischen Deutschlands bestem Tennisprofi Alexander Zverev und Boris Becker schadet beiden. Den Streithähnen würde mehr Gelassenheit helfen – und Selbstkritik.",
+        "id": "https://www.kicker.de/der-preis-der-unsterblichkeit-gumayusi-verlaesst-weltmeister-t1-1166860/artikel#omrss",
+        "title": "Der Preis der Unsterblichkeit: 'Gumayusi' verlässt Weltmeister T1",
+        "summary": "Das einstige \"Dream Team\" bei T1 wurde schon 2024 durch den Abgang von 'Zeus' gesprengt - nun verabschiedet sich auch 'Gumayusi'. Wie lange kann der Weltmeister seine Dominanz noch aufrechterhalten?",
         "paragraphs": [
-          "Der immer heftiger geführte Zwist zwischen Deutschlands bestem Tennisprofi Alexander Zverev und Boris Becker schadet beiden. Den Streithähnen würde mehr Gelassenheit helfen – und Selbstkritik."
+          "Das einstige \"Dream Team\" bei T1 wurde schon 2024 durch den Abgang von 'Zeus' gesprengt - nun verabschiedet sich auch 'Gumayusi'. Wie lange kann der Weltmeister seine Dominanz noch aufrechterhalten?"
         ],
-        "link": "https://www.sueddeutsche.de/sport/becker-zverev-konflikt-kritik-tennis-kommentar-li.3339464",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-17T13:30:07.000Z"
+        "link": "https://www.kicker.de/der-preis-der-unsterblichkeit-gumayusi-verlaesst-weltmeister-t1-1166860/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T14:01:53.000Z"
       },
       {
-        "id": "li.3339322",
-        "title": "Troy Parrott in der WM-Quali: Ein Platz in Irlands Himmel neben Arthur Guinness",
-        "summary": "Stürmer Troy Parrott wahrt Irland mit fünf Toren binnen drei Tagen die Chance auf die WM-Qualifikation – ein Drama in der Nachspielzeit inklusive. Im Interview kommen ihm die Tränen.",
+        "id": "https://www.kicker.de/amoura-und-daghim-sind-vorzeitig-zurueck-ein-tempomacher-faellt-sicher-aus-1166903/artikel#omrss",
+        "title": "Amoura und Daghim sind vorzeitig zurück - ein Tempomacher fällt sicher aus",
+        "summary": "Der VfL Wolfsburg muss gegen Bayer Leverkusen auf seinen schnellsten Spieler verzichten.",
         "paragraphs": [
-          "Stürmer Troy Parrott wahrt Irland mit fünf Toren binnen drei Tagen die Chance auf die WM-Qualifikation – ein Drama in der Nachspielzeit inklusive. Im Interview kommen ihm die Tränen."
+          "Der VfL Wolfsburg muss gegen Bayer Leverkusen auf seinen schnellsten Spieler verzichten."
         ],
-        "link": "https://www.sueddeutsche.de/sport/wm-qualifikation-2026-irland-troy-parrott-ungarn-matchwinner-li.3339322",
+        "link": "https://www.kicker.de/amoura-und-daghim-sind-vorzeitig-zurueck-ein-tempomacher-faellt-sicher-aus-1166903/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T14:00:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/schlusslicht-leipzig-verliert-stammtorwart-ebner-1166939/artikel#omrss",
+        "title": "Schlusslicht Leipzig verliert Stammtorwart Ebner",
+        "summary": "Der SC DHfK Leipzig ist aktuelles Schlusslicht der Handball-Bundesliga. Die Sachsen müssen schon seit Längerem immer wieder Leistungsträger ziehen lassen, nun kündigte eine weitere Stammkraft ihren Abschied an.",
+        "paragraphs": [
+          "Der SC DHfK Leipzig ist aktuelles Schlusslicht der Handball-Bundesliga. Die Sachsen müssen schon seit Längerem immer wieder Leistungsträger ziehen lassen, nun kündigte eine weitere Stammkraft ihren Abschied an."
+        ],
+        "link": "https://www.kicker.de/schlusslicht-leipzig-verliert-stammtorwart-ebner-1166939/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T14:00:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/auf-den-schultern-der-giganten-rainbox-six-siege-x-wagt-den-neustart-1166856/artikel#omrss",
+        "title": "\"Auf den Schultern der Giganten\": Rainbox Six Siege X wagt den Neustart",
+        "summary": "X soll frischen Schwung in Rainbow Six Siege bringen: Neues Gameplay, neue Technik, neue Ideen. Entwickler Joshua Mills erklärt den Modernisierungsprozess und wie man auch skeptische Spieler abholen will.",
+        "paragraphs": [
+          "X soll frischen Schwung in Rainbow Six Siege bringen: Neues Gameplay, neue Technik, neue Ideen. Entwickler Joshua Mills erklärt den Modernisierungsprozess und wie man auch skeptische Spieler abholen will."
+        ],
+        "link": "https://www.kicker.de/auf-den-schultern-der-giganten-rainbox-six-siege-x-wagt-den-neustart-1166856/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T13:52:35.000Z"
+      },
+      {
+        "id": "li.3340525",
+        "title": "Nations League: Berger kehrt in DFB-Kader für Spanien-Spiele zurück",
+        "summary": "Die deutschen Fußballerinnen können in den Finalpartien der Nations League wieder auf Stammtorhüterin Ann-Katrin Berger setzen. Eine EM-Entdeckung fällt aus.",
+        "paragraphs": [
+          "Die deutschen Fußballerinnen können in den Finalpartien der Nations League wieder auf Stammtorhüterin Ann-Katrin Berger setzen. Eine EM-Entdeckung fällt aus."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/dfb-frauen-nations-league-finale-ann-katrin-berger-li.3340525",
         "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-17T10:34:04.000Z"
+        "publishedAt": "2025-11-18T13:49:00.000Z"
+      },
+      {
+        "id": "li.3340518",
+        "title": "Borussia Mönchengladbach: Polanski erhält Vertrag bis 2028",
+        "summary": "Nach dem Aufwärtstrend in der Bundesliga bindet Borussia Mönchengladbach den bisherigen Interimstrainer Eugen Polanski langfristig.",
+        "paragraphs": [
+          "Nach dem Aufwärtstrend in der Bundesliga bindet Borussia Mönchengladbach den bisherigen Interimstrainer Eugen Polanski langfristig."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/borussia-moenchengladbach-eugen-polanski-vertrag-cheftrainer-li.3340518",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-18T13:48:49.000Z"
+      },
+      {
+        "id": "li.3340053",
+        "title": "Basketball-Überraschung Trier: Der Visionär und seine Gladiatoren",
+        "summary": "Aufsteiger Trier begeistert in der Bundesliga mit schnellem Team-Basketball und steht so verdient wie überraschend an der Tabellenspitze. Grund für den Erfolg? Die Pläne eines Machers, den auch Sisyphusarbeit nicht abschreckt.",
+        "paragraphs": [
+          "Aufsteiger Trier begeistert in der Bundesliga mit schnellem Team-Basketball und steht so verdient wie überraschend an der Tabellenspitze. Grund für den Erfolg? Die Pläne eines Machers, den auch Sisyphusarbeit nicht abschreckt."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/gladiators-trier-basketball-bundesliga-aufstieg-fc-bayern-li.3340053",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-18T13:14:39.000Z"
+      },
+      {
+        "id": "li.3340287",
+        "title": "Stürmer im Nationalteam: Ein’ Woltemade, es gibt nur ein’ Woltemade",
+        "summary": "Nach jahrelanger Suche hat das DFB-Team in Nick Woltemade endlich wieder einen verlässlichen Mittelstürmer. Wobei er dem Team noch viel mehr gibt als Tore.",
+        "paragraphs": [
+          "Nach jahrelanger Suche hat das DFB-Team in Nick Woltemade endlich wieder einen verlässlichen Mittelstürmer. Wobei er dem Team noch viel mehr gibt als Tore."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/nationalmannschaft-woltemade-dfb-mittelstuermer-klose-nachfolger-li.3340287",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-18T13:09:35.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/andere-sind-viel-weiter-wo-steht-das-dfb-team-nach-dem-6-0-statement-1166914/artikel#omrss",
+        "title": "\"Andere sind viel weiter\": Wo steht das DFB-Team nach dem 6:0-Statement?",
+        "summary": "Die neue Folge kicker Daily!",
+        "paragraphs": [
+          "Die neue Folge kicker Daily!"
+        ],
+        "link": "https://www.kicker.de/andere-sind-viel-weiter-wo-steht-das-dfb-team-nach-dem-6-0-statement-1166914/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T12:51:42.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/auf-den-leipziger-weg-zurueckgefunden-was-rb-gerade-erfolgreich-macht-1166915/artikel#omrss",
+        "title": "\"Auf den Leipziger Weg zurückgefunden\": Was RB gerade erfolgreich macht",
+        "summary": "Die neue Folge kicker Daily!",
+        "paragraphs": [
+          "Die neue Folge kicker Daily!"
+        ],
+        "link": "https://www.kicker.de/auf-den-leipziger-weg-zurueckgefunden-was-rb-gerade-erfolgreich-macht-1166915/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T12:51:36.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wueck-ueber-schueller-sie-weiss-an-welchen-faktoren-sie-arbeiten-muss-1166888/artikel#omrss",
+        "title": "Wück über Schüller: \"Sie weiß, an welchen Faktoren sie arbeiten muss\"",
+        "summary": "Vor den beiden Finalspielen in der Nations League gegen Spanien hat Bundestrainer Christian Wück seinen Kader bekanntgegeben. Wer im Angriff starten wird, ließ er offen.",
+        "paragraphs": [
+          "Vor den beiden Finalspielen in der Nations League gegen Spanien hat Bundestrainer Christian Wück seinen Kader bekanntgegeben. Wer im Angriff starten wird, ließ er offen."
+        ],
+        "link": "https://www.kicker.de/wueck-ueber-schueller-sie-weiss-an-welchen-faktoren-sie-arbeiten-muss-1166888/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T12:47:10.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wuerzburger-kickers-kampf-ja-kreativitaet-nein-1166514/artikel#omrss",
+        "title": "Würzburger Kickers: Kampf ja, Kreativität nein",
+        "summary": "Im Schatten von Eroll Zejnullahus Abwesenheit kämpfen die Würzburger Kickers weiter um kreative Impulse und bleiben dennoch ungeschlagen.",
+        "paragraphs": [
+          "Im Schatten von Eroll Zejnullahus Abwesenheit kämpfen die Würzburger Kickers weiter um kreative Impulse und bleiben dennoch ungeschlagen."
+        ],
+        "link": "https://www.kicker.de/wuerzburger-kickers-kampf-ja-kreativitaet-nein-1166514/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T12:37:57.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/vertrag-bis-2028-gladbach-macht-polanski-zur-dauerloesung-900955/artikel#omrss",
+        "title": "Vertrag bis 2028: Gladbach macht Polanski zur Dauerlösung",
+        "summary": "Die Verkündung der Nachricht war nach dem jüngsten Aufschwung nur eine Frage der Zeit: Borussia Mönchengladbach hat Eugen Polanski fest als Cheftrainer installiert und mit einem Vertrag bis 2028 ausgestattet.",
+        "paragraphs": [
+          "Die Verkündung der Nachricht war nach dem jüngsten Aufschwung nur eine Frage der Zeit: Borussia Mönchengladbach hat Eugen Polanski fest als Cheftrainer installiert und mit einem Vertrag bis 2028 ausgestattet."
+        ],
+        "link": "https://www.kicker.de/vertrag-bis-2028-gladbach-macht-polanski-zur-dauerloesung-900955/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-18T12:37:33.000Z"
+      },
+      {
+        "id": "li.3340302",
+        "title": "Fall Adeyemi beim DFB: „Das ist naiv oder dumm“",
+        "summary": "Nationalspieler Karim Adeyemi hat Ärger wegen eines Strafbefehls wegen illegalen Waffenbesitzes. DFB-Sportdirektor Rudi Völler will „hinter dem Jungen stehen“, wird in seiner Wortwahl trotzdem deutlich.",
+        "paragraphs": [
+          "Nationalspieler Karim Adeyemi hat Ärger wegen eines Strafbefehls wegen illegalen Waffenbesitzes. DFB-Sportdirektor Rudi Völler will „hinter dem Jungen stehen“, wird in seiner Wortwahl trotzdem deutlich."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/adeyemi-strafbefehl-waffenbesitz-bvb-voeller-li.3340302",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-18T12:37:00.000Z"
+      },
+      {
+        "id": "li.3340256",
+        "title": "Deutsche Nationalmannschaft: Und jetzt: schwierige Entscheidungen",
+        "summary": "Das 6:0 gegen die Slowakei zeigt, wie viele Lösungen im deutschen Kader stecken. Die Aufgabe des Bundestrainers besteht nun darin, die richtigen zu finden. Allein die Personalie Leroy Sané zeigt, wie kompliziert das wird.",
+        "paragraphs": [
+          "Das 6:0 gegen die Slowakei zeigt, wie viele Lösungen im deutschen Kader stecken. Die Aufgabe des Bundestrainers besteht nun darin, die richtigen zu finden. Allein die Personalie Leroy Sané zeigt, wie kompliziert das wird."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/nationalmannschaft-nagelsmann-wm-kader-entscheidungen-sane-musiala-havertz-li.3340256",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-18T11:43:22.000Z"
       }
     ]
   }
