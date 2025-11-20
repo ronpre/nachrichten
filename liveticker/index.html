@@ -209,16 +209,16 @@
 
     #standings-table th:nth-child(3),
     #standings-table td:nth-child(3) {
-      text-align: center;
-    }
-
-    #standings-table th:last-child,
-    #standings-table td:last-child {
       text-align: right;
     }
 
-    #standings-table td:last-child {
+    #standings-table td:nth-child(3) {
       font-weight: 600;
+    }
+
+    #standings-table th:nth-child(4),
+    #standings-table td:nth-child(4) {
+      text-align: center;
     }
 
     #standings-table tr.standings-empty td {
@@ -420,8 +420,8 @@
             <tr>
               <th>Rang</th>
               <th>Team</th>
-              <th>Spieltage</th>
               <th>Pkt</th>
+              <th>Spiele</th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -2491,11 +2491,13 @@
           const rankValue = rankStat?.displayValue || (Number.isFinite(rankStat?.value) ? String(rankStat.value) : entry?.note?.rank);
           const pointsValue = pointsStat?.displayValue || (Number.isFinite(pointsStat?.value) ? String(pointsStat.value) : null);
           const matchdaysValueRaw = matchdaysStat?.displayValue || (Number.isFinite(matchdaysStat?.value) ? String(matchdaysStat.value) : null);
+          const gamesValue = matchdaysValueRaw != null ? matchdaysValueRaw : DEFAULT_MATCHDAY_COUNT_FALLBACK;
           rows.push({
             rank: rankValue != null ? rankValue : String(rows.length + 1),
             team: entry?.team?.displayName || entry?.team?.name || entry?.team?.shortDisplayName || 'Team',
-            matchdays: matchdaysValueRaw != null ? matchdaysValueRaw : DEFAULT_MATCHDAY_COUNT_FALLBACK,
-            points: pointsValue != null ? pointsValue : '-'
+            points: pointsValue != null ? pointsValue : '-',
+            games: gamesValue,
+            matchdays: gamesValue
           });
         });
 
@@ -2774,13 +2776,14 @@
           const tr = document.createElement('tr');
           const rankValue = escapeHtml(entry.rank ?? '-');
           const teamValue = escapeHtml(entry.team ?? '');
-          const matchdaysValue = escapeHtml(entry.matchdays ?? '-');
           const pointsValue = escapeHtml(entry.points ?? '-');
+          const gamesRaw = entry.games ?? entry.matchdays;
+          const gamesValue = escapeHtml(gamesRaw ?? '-');
           tr.innerHTML = `
             <td>${rankValue}</td>
             <td>${teamValue}</td>
-            <td>${matchdaysValue}</td>
             <td>${pointsValue}</td>
+            <td>${gamesValue}</td>
           `;
           DOM.standingsBody.appendChild(tr);
         });
@@ -3036,15 +3039,19 @@
         if (!Array.isArray(entries)) {
           return [];
         }
-        return entries.map((entry, index) => ({
-          rank: entry.rank ?? entry.Rank ?? index + 1,
-          team: entry.teamName ?? entry.TeamName ?? entry.team?.teamName ?? 'Team',
-          wins: entry.won ?? entry.Won,
-          draws: entry.draw ?? entry.Draw,
-          losses: entry.lost ?? entry.Lost,
-          matchdays: resolveMatchdayCount(entry),
-          points: entry.points ?? entry.Points
-        }));
+        return entries.map((entry, index) => {
+          const gamesValue = resolveMatchdayCount(entry);
+          return {
+            rank: entry.rank ?? entry.Rank ?? index + 1,
+            team: entry.teamName ?? entry.TeamName ?? entry.team?.teamName ?? 'Team',
+            wins: entry.won ?? entry.Won,
+            draws: entry.draw ?? entry.Draw,
+            losses: entry.lost ?? entry.Lost,
+            points: entry.points ?? entry.Points,
+            games: gamesValue,
+            matchdays: gamesValue
+          };
+        });
       }
 
       function resolveMatchdayCount(entry) {
