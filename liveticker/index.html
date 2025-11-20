@@ -207,6 +207,11 @@
       background: rgba(148, 163, 184, 0.12);
     }
 
+    #standings-table th:nth-child(3),
+    #standings-table td:nth-child(3) {
+      text-align: center;
+    }
+
     #standings-table th:last-child,
     #standings-table td:last-child {
       text-align: right;
@@ -415,6 +420,7 @@
             <tr>
               <th>Rang</th>
               <th>Team</th>
+              <th>Spieltage</th>
               <th>Pkt</th>
             </tr>
           </thead>
@@ -438,6 +444,7 @@
       const ESPN_STANDINGS_BASE = 'https://site.api.espn.com/apis/v2/sports/soccer';
       const ESPN_MATCHDAY_CACHE = new Map();
       const ESPN_EXPECTED_MATCHES_PER_MATCHDAY = 10;
+      const DEFAULT_MATCHDAY_COUNT_FALLBACK = '-';
 
       const DOM = {
         sportSelect: document.getElementById('sport-select'),
@@ -2480,11 +2487,14 @@
           const findStat = (...names) => stats.find((stat) => names.includes(stat.name) || names.includes(stat.type));
           const rankStat = findStat('rank');
           const pointsStat = findStat('points');
+          const matchdaysStat = findStat('gamesPlayed', 'played', 'eventsPlayed', 'matchesPlayed', 'matches');
           const rankValue = rankStat?.displayValue || (Number.isFinite(rankStat?.value) ? String(rankStat.value) : entry?.note?.rank);
           const pointsValue = pointsStat?.displayValue || (Number.isFinite(pointsStat?.value) ? String(pointsStat.value) : null);
+          const matchdaysValueRaw = matchdaysStat?.displayValue || (Number.isFinite(matchdaysStat?.value) ? String(matchdaysStat.value) : null);
           rows.push({
             rank: rankValue != null ? rankValue : String(rows.length + 1),
             team: entry?.team?.displayName || entry?.team?.name || entry?.team?.shortDisplayName || 'Team',
+            matchdays: matchdaysValueRaw != null ? matchdaysValueRaw : DEFAULT_MATCHDAY_COUNT_FALLBACK,
             points: pointsValue != null ? pointsValue : '-'
           });
         });
@@ -2755,17 +2765,22 @@
         if (!rows || !rows.length) {
           const emptyRow = document.createElement('tr');
           emptyRow.className = 'standings-empty';
-          emptyRow.innerHTML = `<td colspan="3">${escapeHtml(emptyMessage)}</td>`;
+          emptyRow.innerHTML = `<td colspan="4">${escapeHtml(emptyMessage)}</td>`;
           DOM.standingsBody.appendChild(emptyRow);
           return;
         }
 
         rows.forEach((entry) => {
           const tr = document.createElement('tr');
+          const rankValue = escapeHtml(entry.rank ?? '-');
+          const teamValue = escapeHtml(entry.team ?? '');
+          const matchdaysValue = escapeHtml(entry.matchdays ?? '-');
+          const pointsValue = escapeHtml(entry.points ?? '-');
           tr.innerHTML = `
-            <td>${entry.rank ?? '-'}</td>
-            <td>${escapeHtml(entry.team ?? '')}</td>
-            <td>${entry.points ?? '-'}</td>
+            <td>${rankValue}</td>
+            <td>${teamValue}</td>
+            <td>${matchdaysValue}</td>
+            <td>${pointsValue}</td>
           `;
           DOM.standingsBody.appendChild(tr);
         });
@@ -3027,8 +3042,27 @@
           wins: entry.won ?? entry.Won,
           draws: entry.draw ?? entry.Draw,
           losses: entry.lost ?? entry.Lost,
+          matchdays: resolveMatchdayCount(entry),
           points: entry.points ?? entry.Points
         }));
+      }
+
+      function resolveMatchdayCount(entry) {
+        const playedCandidates = [
+          entry.matches ?? entry.Matches,
+          entry.games ?? entry.Games,
+          entry.matchesPlayed ?? entry.MatchesPlayed,
+          entry.played ?? entry.Played
+        ];
+        for (const candidate of playedCandidates) {
+          if (Number.isFinite(candidate)) {
+            return String(candidate);
+          }
+          if (typeof candidate === 'string' && candidate.trim()) {
+            return candidate.trim();
+          }
+        }
+        return DEFAULT_MATCHDAY_COUNT_FALLBACK;
       }
 
       function escapeHtml(value) {
