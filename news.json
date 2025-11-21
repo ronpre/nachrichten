@@ -1,28 +1,116 @@
 {
-  "updatedAt": "2025-11-21T06:01:39.486Z",
+  "updatedAt": "2025-11-21T08:48:36.550Z",
   "categories": {
     "Politik": [
       {
+        "id": "{urn:uuid:e3833ef8-a8fd-4b11-b004-5d324caec343}",
+        "title": "Ukrainekarte aktuell: Russland besetzt Siedlung bei Huljaipole",
+        "summary": "Im Kampf um die Stadt Huljaipole in der Region Saporischschja sind russische Truppen weiter vorgerückt. Ukrainische Streitkräfte stießen zugleich bei Kostjantyniwka vor.",
+        "paragraphs": [
+          "Im Kampf um die Stadt Huljaipole in der Region Saporischschja sind russische Truppen weiter vorgerückt. Ukrainische Streitkräfte stießen zugleich bei Kostjantyniwka vor."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/karte-ukraine-krieg-russland-frontverlauf-truppenbewegungen",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-21T08:39:52.000Z"
+      },
+      {
+        "id": "{urn:uuid:6a09af5f-11d6-443c-9623-2c70195903d5}",
+        "title": "US-Handelspolitik: USA schaffen Strafzölle auf Waren aus Brasilien wieder ab",
+        "summary": "Wegen der Verurteilung des Ex-Präsidenten Jair Bolsonaro hatte Donald Trump Strafzölle gegen Brasilien verhängt. Wenige Monate später heben die USA diese wieder auf.",
+        "paragraphs": [
+          "Wegen der Verurteilung des Ex-Präsidenten Jair Bolsonaro hatte Donald Trump Strafzölle gegen Brasilien verhängt. Wenige Monate später heben die USA diese wieder auf."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/usa-brasilien-strafzoelle-donald-trump-jair-bolsonaro",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-21T08:29:39.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/csd-neonazi-jugendgruppen-gehen-strategisch-gegen-christopher-street-days-vor-a-e9def6d0-f08c-4d55-928d-ec60f1d3daa2",
+        "title": "CSD: Neonazi-Jugendgruppen gehen strategisch gegen Christopher Street Days vor",
+        "summary": "Jede fünfte CSD- und Pride-Veranstaltung war in diesem Jahr von rechtsextremen Gegenversammlungen und Störaktionen betroffen. Etablierte Neonazis wollen von der Stimmungsmache profitieren.",
+        "paragraphs": [
+          "Jede fünfte CSD- und Pride-Veranstaltung war in diesem Jahr von rechtsextremen Gegenversammlungen und Störaktionen betroffen. Etablierte Neonazis wollen von der Stimmungsmache profitieren."
+        ],
+        "link": "https://www.spiegel.de/politik/csd-neonazi-jugendgruppen-gehen-strategisch-gegen-christopher-street-days-vor-a-e9def6d0-f08c-4d55-928d-ec60f1d3daa2#ref=rss",
+        "source": "SPIEGEL Politik",
+        "publishedAt": "2025-11-21T08:11:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:6bdb7371-af3b-47fb-9f09-5c25ed1e0266}",
+        "title": "USA: US-Gesundheitsbehörde suggeriert Verbindung von Impfungen und Autismus",
+        "summary": "Dass Impfungen Autismus auslösen können, ist wissenschaftlich widerlegt. Die US-Gesundheitsbehörde zweifelt das jetzt trotzdem an. Kritik kommt auch von Republikanern.",
+        "paragraphs": [
+          "Dass Impfungen Autismus auslösen können, ist wissenschaftlich widerlegt. Die US-Gesundheitsbehörde zweifelt das jetzt trotzdem an. Kritik kommt auch von Republikanern."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/usa-gesundheitsbehoerde-cdc-impfungen-autismus",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-21T07:53:10.000Z"
+      },
+      {
+        "id": "{urn:uuid:a7eba9c7-8509-48c4-aa72-ad1832db4664}",
+        "title": "Friedensnobelpreisträgerin: Venezuela droht Oppositionsführerin Machado wegen Reise nach Norwegen",
+        "summary": "Sollte María Corina Machado Venezuela verlassen, würde sie für die dortige Staatsanwaltschaft zur Flüchtigen. Das gilt auch für die Friedensnobelpreisverleihung in Oslo.",
+        "paragraphs": [
+          "Sollte María Corina Machado Venezuela verlassen, würde sie für die dortige Staatsanwaltschaft zur Flüchtigen. Das gilt auch für die Friedensnobelpreisverleihung in Oslo."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/friedensnobelpreis-verleihung-venezuela-maria-corina-machado",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-21T07:37:29.000Z"
+      },
+      {
+        "id": "li.3335119",
+        "title": "USA: Trump droht mehreren Demokraten mit Todesstrafe",
+        "summary": "Der US-Präsident wirft mehreren Parlamentariern „aufständisches Verhalten von Verrätern“ vor. Dies sei mit dem Tod bestrafbar.",
+        "paragraphs": [
+          "Der US-Präsident wirft mehreren Parlamentariern „aufständisches Verhalten von Verrätern“ vor. Dies sei mit dem Tod bestrafbar."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-demokraten-todesstrafe-li.3335119",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-21T06:40:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:cb81ff98-50a1-4835-a7b7-04a3e93bd48e}",
+        "title": "COP30: Gemeinsame Abschlusserklärung zur Klimakonferenz ist fraglich",
+        "summary": "Etwa 30 Länder, auch Deutschland, fordern einen Plan für den Ausstieg aus fossiler Energie. Da der im Entwurf für eine Abschlusserklärung nicht vorkommt, gibt es Streit.",
+        "paragraphs": [
+          "Etwa 30 Länder, auch Deutschland, fordern einen Plan für den Ausstieg aus fossiler Energie. Da der im Entwurf für eine Abschlusserklärung nicht vorkommt, gibt es Streit."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/weltklimagipfel-abschlusserklaerung-fossile-energien-ausstieg",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-21T06:38:19.000Z"
+      },
+      {
+        "id": "{urn:uuid:0c29b618-333a-4d64-ad0a-5f2ac240afec}",
+        "title": "USA: US-Küstenwache stuft Hakenkreuz offenbar nicht mehr als Hasssymbol ein",
+        "summary": "Die Verwendung des Hakenkreuzes ist in Deutschland strafbar – in den USA nicht. Die US-Küstenwache will nun offenbar auch die Kategorisierung als Hasssymbol aufheben.",
+        "paragraphs": [
+          "Die Verwendung des Hakenkreuzes ist in Deutschland strafbar – in den USA nicht. Die US-Küstenwache will nun offenbar auch die Kategorisierung als Hasssymbol aufheben."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/usa-kuestenwache-hakenkreuz-hasssymbol-einstufung",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-21T06:34:54.000Z"
+      },
+      {
         "id": "{urn:uuid:8a26b057-4369-42b0-8f4d-6aed957fc76e}",
-        "title": "Krieg gegen die Ukraine: US-Plan sieht Abtretung von Donezk und Luhansk an Russland vor",
+        "title": "Friedensplan für die Ukraine: US-Plan sieht Abtretung von Donezk und Luhansk an Russland vor",
         "summary": "Die USA sind laut ihres Friedensplans bereit, den Donbass als russisch anzuerkennen. Die Auflistung sieht außerdem eine Reintegration Russlands in die Weltwirtschaft vor.",
         "paragraphs": [
           "Die USA sind laut ihres Friedensplans bereit, den Donbass als russisch anzuerkennen. Die Auflistung sieht außerdem eine Reintegration Russlands in die Weltwirtschaft vor."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/ukraine-krieg-us-friedensplan-donezk-luhansk",
+        "link": "https://www.zeit.de/politik/ausland/2025-11/ukraine-krieg-us-friedensplan-donezk-luhansk-gxe",
         "source": "ZEIT Politik",
-        "publishedAt": "2025-11-21T05:38:08.000Z"
+        "publishedAt": "2025-11-21T06:12:26.000Z"
       },
       {
-        "id": "{urn:uuid:cb81ff98-50a1-4835-a7b7-04a3e93bd48e}",
-        "title": "COP30: Gemeinsame Abschlusserklärung zur Klimakonferenz steht auf der Kippe",
-        "summary": "Etwa 30 Länder fordern laut einem Bericht einen Plan für den Ausstieg aus fossiler Energie. Doch in der Führung der COP will man diesen offenbar nicht berücksichtigen.",
+        "id": "li.3341995",
+        "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
+        "summary": "SZ am Morgen",
         "paragraphs": [
-          "Etwa 30 Länder fordern laut einem Bericht einen Plan für den Ausstieg aus fossiler Energie. Doch in der Führung der COP will man diesen offenbar nicht berücksichtigen."
+          "SZ am Morgen"
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/weltklimagipfel-abschlusserklaerung-fossile-energien-ausstieg",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-21T05:33:46.000Z"
+        "link": "https://www.sueddeutsche.de/politik/haeusliche-gewalt-selenskij-zu-us-friedensplan-gewerkschaft-droht-adidas-li.3341995",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-21T06:09:24.000Z"
       },
       {
         "id": "{urn:uuid:68cc8d55-e4db-4567-bc75-f6e1877d3acf}",
@@ -102,17 +190,6 @@
         "publishedAt": "2025-11-20T21:53:12.000Z"
       },
       {
-        "id": "li.3335119",
-        "title": "USA: Bundesrichterin erklärt Einsatz der Nationalgarde in Washington für illegal",
-        "summary": "Die Regierung Trump hätte die Truppen nicht ohne Anforderung der lokalen Behörden aktivieren dürfen, so die Richterin. Die Entscheidung tritt jedoch erst im Dezember in Kraft.",
-        "paragraphs": [
-          "Die Regierung Trump hätte die Truppen nicht ohne Anforderung der lokalen Behörden aktivieren dürfen, so die Richterin. Die Entscheidung tritt jedoch erst im Dezember in Kraft."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-nationalgarde-washington-bundesgericht-li.3335119",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-20T21:25:00.000Z"
-      },
-      {
         "id": "https://www.spiegel.de/politik/deutschland/dieter-nuhr-im-spiegel-talk-ich-sehe-bei-den-gruenen-jede-menge-spiesser-a-0aa423af-5785-435d-9f6d-38058451ac08",
         "title": "Dieter Nuhr im SPIEGEL-Talk: »Ich sehe bei den Grünen jede Menge Spießer«",
         "summary": "Provokant, politisch, polarisierend: Im SPIEGEL-Talk spricht Kabarettist Dieter Nuhr über Cancel-Culture, seine politische Sozialisation bei den Ur-Grünen und das Gag-Potenzial von Kanzler Merz und Björn Höcke.",
@@ -168,28 +245,6 @@
         "publishedAt": "2025-11-20T18:35:01.000Z"
       },
       {
-        "id": "{urn:uuid:c1445985-4821-41ea-ab81-0a005af62312}",
-        "title": "Deutsche Ostpolitik: Die Fehler der deutschen Ostpolitik",
-        "summary": "Politiker wie Angela Merkel und Gerhard Schröder rechtfertigen ihre Politik gegenüber Russland bis heute. Warum fällt es ihnen so schwer, ihre Fehler einzugestehen?",
-        "paragraphs": [
-          "Politiker wie Angela Merkel und Gerhard Schröder rechtfertigen ihre Politik gegenüber Russland bis heute. Warum fällt es ihnen so schwer, ihre Fehler einzugestehen?"
-        ],
-        "link": "https://www.zeit.de/politik/2025-11/deutsche-ostpolitik-wladimir-putin-russland-podcast",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-20T17:26:53.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Wolodymyr Selenskyj will mit Trump über US-Friedensplan sprechen",
-        "summary": "Die Ukraine hat den Entwurf des US-Friedensplans erhalten. Präsident Wolodymyr Selenskyj zeigte sich bereit, mit Donald Trump darüber zu beraten. Das Liveblog",
-        "paragraphs": [
-          "Die Ukraine hat den Entwurf des US-Friedensplans erhalten. Präsident Wolodymyr Selenskyj zeigte sich bereit, mit Donald Trump darüber zu beraten. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-20T17:24:51.000Z"
-      },
-      {
         "id": "li.3341889",
         "title": "SZ am Abend: Nachrichten vom 20. November 2025",
         "summary": "Was heute wichtig war.",
@@ -199,39 +254,6 @@
         "link": "https://www.sueddeutsche.de/politik/news-ukraine-us-friedensplan-putin-stellenabbau-man-weimer-li.3341889",
         "source": "Süddeutsche Zeitung Politik",
         "publishedAt": "2025-11-20T17:19:43.000Z"
-      },
-      {
-        "id": "{urn:uuid:ccc27ecd-450a-44be-8225-47adef2a10c4}",
-        "title": "AfD-Vorwahlkampf: CDU oder SPD? \"Ich wüsste nicht, dass die hier präsent sind\"",
-        "summary": "Während andere Parteien noch nicht mal von Wahlkampf reden, führt die AfD ihn längst. Wie sie das stärkt, zeigt ein Bürgerdialog im hintersten Winkel von Sachsen-Anhalt.",
-        "paragraphs": [
-          "Während andere Parteien noch nicht mal von Wahlkampf reden, führt die AfD ihn längst. Wie sie das stärkt, zeigt ein Bürgerdialog im hintersten Winkel von Sachsen-Anhalt."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-11/afd-sachsen-anhalt-parteien-wahlkampf-ulrich-siegmund-cdu-spd",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-20T17:03:06.000Z"
-      },
-      {
-        "id": "{urn:uuid:b29902a5-adb8-4f00-89b9-5c2852bc8fa1}",
-        "title": "Russland: Russland belegt sogenannte Auslandsagenten mit höheren Steuern",
-        "summary": "Das russische Parlament will mit einem neuen Spitzensteuersatz gegen sogenannte Auslandsagenten vorgehen. So bezeichnet die Regierung Oppositionelle und Andersdenkende.",
-        "paragraphs": [
-          "Das russische Parlament will mit einem neuen Spitzensteuersatz gegen sogenannte Auslandsagenten vorgehen. So bezeichnet die Regierung Oppositionelle und Andersdenkende."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/russland-parlament-auslandsagent-steuern-opposition",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-20T16:49:11.000Z"
-      },
-      {
-        "id": "{urn:uuid:41dfdbb4-8d3f-4857-8fb7-ba4fa4699b12}",
-        "title": "Justizskandal: Spaniens Generalstaatsanwalt zu Berufsverbot verurteilt",
-        "summary": "Spaniens oberster Staatsanwalt soll Geheimnisse aus einem Verfahren durchgestochen haben. Zwei Jahre darf er daher seinen Beruf nicht ausüben, urteilte das Gericht.",
-        "paragraphs": [
-          "Spaniens oberster Staatsanwalt soll Geheimnisse aus einem Verfahren durchgestochen haben. Zwei Jahre darf er daher seinen Beruf nicht ausüben, urteilte das Gericht."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/spanien-generalstaatsanwalt-ortiz-urteil",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-20T16:48:05.000Z"
       },
       {
         "id": "er.e309585",
@@ -309,32 +331,188 @@
         "link": "https://www.sueddeutsche.de/politik/friedensplan-ukraine-selenskij-verhandlungen-usa-russland-li.3341548",
         "source": "Süddeutsche Zeitung Politik",
         "publishedAt": "2025-11-20T15:28:48.000Z"
-      },
-      {
-        "id": "li.3341781",
-        "title": "Migration: Bundesverfassungsgericht rügt Polizeipraxis bei Abschiebung",
-        "summary": "Die Polizei darf ein Zimmer einer Flüchtlingsunterkunft bei einer geplanten Abschiebung nur dann durchsuchen, wenn dies zuvor ein Richter erlaubt hat. Es geht vor allem um den Unterschied zwischen „betreten“ und „durchsuchen“.",
-        "paragraphs": [
-          "Die Polizei darf ein Zimmer einer Flüchtlingsunterkunft bei einer geplanten Abschiebung nur dann durchsuchen, wenn dies zuvor ein Richter erlaubt hat. Es geht vor allem um den Unterschied zwischen „betreten“ und „durchsuchen“."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesverfassungsgericht-polizeipraxis-abschiebungen-berlin-li.3341781",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-20T15:20:55.000Z"
-      },
-      {
-        "id": "li.3341790",
-        "title": "Bundesverfassungsgericht: Abschiebung nicht ohne Durchsuchungsbeschluss",
-        "summary": "Keine weiteren Details verfügbar.",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/bundesverfassungsgericht-abschiebung-nicht-ohne-durchsuchungsbeschluss-li.3341790",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-20T15:19:56.000Z"
       }
     ],
     "Wirtschaft": [
       {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-faellt-unter-23000-punkte-ki-sorgen-sind-zurueck/100176909.html",
+        "title": "Dax aktuell: Dax fällt unter 23.000 Punkte – KI-Sorgen sind zurück",
+        "summary": "Der deutsche Leitindex vollzieht die Verluste in den USA und Asien nach und fällt auf den niedrigsten Stand seit Mai. Neben KI-Werten gerät am Freitag vor allem die Konjunktur in den Blick.",
+        "paragraphs": [
+          "Der deutsche Leitindex vollzieht die Verluste in den USA und Asien nach und fällt auf den niedrigsten Stand seit Mai. Neben KI-Werten gerät am Freitag vor allem die Konjunktur in den Blick."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-faellt-unter-23000-punkte-ki-sorgen-sind-zurueck/100176909.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T08:41:24.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/deutschland-wie-ein-opa-mit-kritik-an-seiner-cdu-zum-influencer-wurde-01/100173058.html",
+        "title": "Deutschland: CDU-Opa gegen rechts – „Wir benehmen uns wie halbstarke Schläger“",
+        "summary": "Der CDU-Lokalpolitiker Dieter Breymann beklagt in viralen Videos den konservativen Kurs der Partei. Auch die Kritik an Friedrich Merz ist groß – trotzdem fürchtet er sich vor dessen Aus.",
+        "paragraphs": [
+          "Der CDU-Lokalpolitiker Dieter Breymann beklagt in viralen Videos den konservativen Kurs der Partei. Auch die Kritik an Friedrich Merz ist groß – trotzdem fürchtet er sich vor dessen Aus."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/deutschland-wie-ein-opa-mit-kritik-an-seiner-cdu-zum-influencer-wurde-01/100173058.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T08:31:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/kuka-chef-eigentlich-muessten-wir-in-der-dach-region-besonders-stark-sein/100172627.html",
+        "title": "Automatisierung: Neuer Kuka-Chef: „Was in den USA Tage dauert, dauert hier Monate“",
+        "summary": "Der Roboterbauer verliert Umsatz und baut Stellen ab. Im ersten großen Interview erklärt Christoph Schell, wie er die Verluste in Europa stoppen will und was er unter Robotik 2.0 versteht.",
+        "paragraphs": [
+          "Der Roboterbauer verliert Umsatz und baut Stellen ab. Im ersten großen Interview erklärt Christoph Schell, wie er die Verluste in Europa stoppen will und was er unter Robotik 2.0 versteht."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/kuka-chef-eigentlich-muessten-wir-in-der-dach-region-besonders-stark-sein/100172627.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T08:25:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/bahnsparte-flixtrain-chef-will-trotz-erwarteter-verluste-nicht-aufgeben/100175768.html",
+        "title": "Flixtrain: Flix-Chef rechnet mit weiteren Verlusten im Bahngeschäft",
+        "summary": "Die Bahnsparte ist für den Fernbusbetreiber Flix bislang ein Verlustgeschäft. Daran werde sich auch in den kommenden Jahren nichts ändern, sagt der Chef. Aufgeben will er aber nicht.",
+        "paragraphs": [
+          "Die Bahnsparte ist für den Fernbusbetreiber Flix bislang ein Verlustgeschäft. Daran werde sich auch in den kommenden Jahren nichts ändern, sagt der Chef. Aufgeben will er aber nicht."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/bahnsparte-flixtrain-chef-will-trotz-erwarteter-verluste-nicht-aufgeben/100175768.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T08:22:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/bitcoin-kryptowaehrung-faellt-unter-85000-dollar/100176924.html",
+        "title": "Kryptowährungen: Ausverkauf geht weiter: Bitcoin fällt unter 85.000 Dollar",
+        "summary": "Die größte und wichtigste Digitalwährung notiert damit auf dem tiefsten Stand seit April. Ether verliert gut zehn Prozent.",
+        "paragraphs": [
+          "Die größte und wichtigste Digitalwährung notiert damit auf dem tiefsten Stand seit April. Ether verliert gut zehn Prozent."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/bitcoin-kryptowaehrung-faellt-unter-85000-dollar/100176924.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T08:21:10.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-hat-friedensplan-der-usa-erhalten-treffen-mit-trump/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Selenskyj hat Friedensplan der USA erhalten – Treffen mit Trump in den „kommenden Tagen“",
+        "summary": "Rubio: Arbeiten an Ideen für Kriegsende in der Ukraine +++ Ukraine will US-Vorschläge sorgfältig prüfen +++ US-Vertreter informieren am Freitag EU-Botschafter in Kiew +++ Der Newsblog.",
+        "paragraphs": [
+          "Rubio: Arbeiten an Ideen für Kriegsende in der Ukraine +++ Ukraine will US-Vorschläge sorgfältig prüfen +++ US-Vertreter informieren am Freitag EU-Botschafter in Kiew +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-hat-friedensplan-der-usa-erhalten-treffen-mit-trump/27982126.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T08:20:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/deutsche-bank-dws-zieht-sich-aus-private-credit-geschaeft-in-asien-zurueck/100176928.html",
+        "title": "Deutsche Bank: DWS zieht sich aus Private-Credit-Geschäft in Asien zurück",
+        "summary": "Alternative Anlagen verlieren offenbar an Bedeutung für die Fondstochter der Deutschen Bank. Das Team in Asien soll DWS laut einem Bericht bereits entlassen haben.",
+        "paragraphs": [
+          "Alternative Anlagen verlieren offenbar an Bedeutung für die Fondstochter der Deutschen Bank. Das Team in Asien soll DWS laut einem Bericht bereits entlassen haben."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/deutsche-bank-dws-zieht-sich-aus-private-credit-geschaeft-in-asien-zurueck/100176928.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T08:15:26.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-hoehere-erbschaftsteuer-so-rigoros-sind-andere-eu-staaten/100173450.html",
+        "title": "Immobilien: Höhere Erbschaftsteuer? So rigoros sind andere EU-Staaten",
+        "summary": "Das Bundesverfassungsgericht fällt bald ein Urteil über die Erbschaftsteuer – auch bei Immobilien. Sind die Regeln für Häuser und Wohnungen hierzulande bisher großzügiger als anderswo?",
+        "paragraphs": [
+          "Das Bundesverfassungsgericht fällt bald ein Urteil über die Erbschaftsteuer – auch bei Immobilien. Sind die Regeln für Häuser und Wohnungen hierzulande bisher großzügiger als anderswo?"
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-hoehere-erbschaftsteuer-so-rigoros-sind-andere-eu-staaten/100173450.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T08:10:40.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/immobilien-das-sind-die-eckpunkte-des-gebaeudetyps-e/100176369.html",
+        "title": "Immobilien: „Einfach, effizient, experimentell“ – das sind die Eckpunkte des Gebäudetyps E",
+        "summary": "Die Bundesregierung will Bauen vereinfachen und dadurch mehr Wohnraum schaffen. Das soll mit dem „Gebäudetyp E“ gelingen. Bauherren können so von hohen und teuren Standards abweichen.",
+        "paragraphs": [
+          "Die Bundesregierung will Bauen vereinfachen und dadurch mehr Wohnraum schaffen. Das soll mit dem „Gebäudetyp E“ gelingen. Bauherren können so von hohen und teuren Standards abweichen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/immobilien-das-sind-die-eckpunkte-des-gebaeudetyps-e/100176369.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T07:57:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/scope-award-2026-das-sind-die-gewinner-des-diesjaehrigen-scope-awards/100174183.html",
+        "title": "Scope Award 2026: Das sind die Gewinner des diesjährigen Scope Awards",
+        "summary": "Rekordmärkte und steigende Fondsvolumen prägen das Jahr. Die Scope Awards machen sichtbar, welche Anbieter in diesem Umfeld mit stabiler Qualität auffallen.",
+        "paragraphs": [
+          "Rekordmärkte und steigende Fondsvolumen prägen das Jahr. Die Scope Awards machen sichtbar, welche Anbieter in diesem Umfeld mit stabiler Qualität auffallen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/scope-award-2026-das-sind-die-gewinner-des-diesjaehrigen-scope-awards/100174183.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T07:53:53.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/finanzamt-bfh-verneint-anspruch-auf-akteneinsicht-bei-anonymen-anzeigen/100172081.html",
+        "title": "Finanzamt: Vorsicht, anonyme Anzeige – Redliche Steuerzahler können beim Finanzamt leicht angeschwärzt werden",
+        "summary": "Die Justiz schützt Steueranzeiger. Ermittelt das Finanzamt aufgrund einer anonymen Anzeige, haben Beschuldigte keinen Anspruch auf Akteneinsicht. Auch die DSGVO hilft dabei nicht.",
+        "paragraphs": [
+          "Die Justiz schützt Steueranzeiger. Ermittelt das Finanzamt aufgrund einer anonymen Anzeige, haben Beschuldigte keinen Anspruch auf Akteneinsicht. Auch die DSGVO hilft dabei nicht."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/finanzamt-bfh-verneint-anspruch-auf-akteneinsicht-bei-anonymen-anzeigen/100172081.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T07:38:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/energie-katar-droht-offenbar-weiter-mit-stopp-von-gaslieferungen-01/100174757.html",
+        "title": "Energie: Katar spielt seine Macht aus: Emirat droht offenbar weiter mit Stopp von Gaslieferungen",
+        "summary": "Katar stört sich an der EU-Lieferkettenregulierung und könnte LNG-Lieferungen einstellen. Daran hat der Besuch von Reiche offenbar nichts geändert. Deutschland wäre mittelbar getroffen.",
+        "paragraphs": [
+          "Katar stört sich an der EU-Lieferkettenregulierung und könnte LNG-Lieferungen einstellen. Daran hat der Besuch von Reiche offenbar nichts geändert. Deutschland wäre mittelbar getroffen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/energie-katar-droht-offenbar-weiter-mit-stopp-von-gaslieferungen-01/100174757.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T07:36:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/lkw-hersteller-warum-man-in-deutschland-2300-jobs-streicht/100176293.html",
+        "title": "Lkw-Hersteller: MAN streicht 2300 Jobs in Deutschland – und wendet sich Polen zu",
+        "summary": "Bei der Marke aus der VW-Trucksparte sinken die Gewinne. Nun will der Hersteller gegensteuern und den Karosseriebau verlagern. Die Gewerkschaft sieht den Standort München in Gefahr.",
+        "paragraphs": [
+          "Bei der Marke aus der VW-Trucksparte sinken die Gewinne. Nun will der Hersteller gegensteuern und den Karosseriebau verlagern. Die Gewerkschaft sieht den Standort München in Gefahr."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/lkw-hersteller-warum-man-in-deutschland-2300-jobs-streicht/100176293.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T07:35:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-will-ueber-us-plan-beraten-und-betont-differenzen/100176904.html",
+        "title": "Ukraine-Krieg: Selenskyj will über US-Plan beraten – und betont Differenzen",
+        "summary": "Der ukrainische Präsident macht sich den Plan der USA ausdrücklich nicht zu eigen, deutet aber Gesprächsbereitschaft an. Die Europäer sind unterdessen außen vor.",
+        "paragraphs": [
+          "Der ukrainische Präsident macht sich den Plan der USA ausdrücklich nicht zu eigen, deutet aber Gesprächsbereitschaft an. Die Europäer sind unterdessen außen vor."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-will-ueber-us-plan-beraten-und-betont-differenzen/100176904.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T07:24:20.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/autos-was-die-groessten-fallen-beim-wechsel-der-kfz-versicherung-sind/100175402.html",
+        "title": "Versicherungen: Die Prämie ist nicht alles – Die größten Fallen beim Wechsel der Kfz-Versicherung",
+        "summary": "Zum Jahreswechsel erhöhen viele Autoversicherer erneut die Preise. Verbraucher können mit einem Anbieterwechsel sparen – aber es gibt auch Fallstricke.",
+        "paragraphs": [
+          "Zum Jahreswechsel erhöhen viele Autoversicherer erneut die Preise. Verbraucher können mit einem Anbieterwechsel sparen – aber es gibt auch Fallstricke."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/autos-was-die-groessten-fallen-beim-wechsel-der-kfz-versicherung-sind/100175402.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T07:24:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/reichtum-wo-stehen-sie-in-der-vermoegensverteilung-in-deutschland/100149729.html",
+        "title": "Vermögen: Bin ich schon reich oder nicht? Dieser Rechner liefert Ihnen die Antwort",
+        "summary": "Trotz Inflation: Daten zeigen, dass die Vermögen in Deutschland gewachsen sind. Der neue Handelsblatt-Rechner zeigt, wo Sie im Vergleich stehen.",
+        "paragraphs": [
+          "Trotz Inflation: Daten zeigen, dass die Vermögen in Deutschland gewachsen sind. Der neue Handelsblatt-Rechner zeigt, wo Sie im Vergleich stehen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/reichtum-wo-stehen-sie-in-der-vermoegensverteilung-in-deutschland/100149729.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-21T07:01:00.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/japan-takaichi-legt-konjunkturprogramm-ueber-135-milliarden-dollar-auf/100176886.html",
-        "title": "Japan: Takaichi legt Konjunkturprogramm über 135 Milliarden Dollar auf",
+        "title": "Investitionsoffensive: Japan legt Konjunkturprogramm über 135 Milliarden Dollar auf",
         "summary": "Die neue Regierungschefin Japans setzt ihre Ankündigungen in die Tat um und will neue Schulden aufnehmen, um die Wirtschaft anzukurbeln. Die Finanzmärkte reagieren deutlich.",
         "paragraphs": [
           "Die neue Regierungschefin Japans setzt ihre Ankündigungen in die Tat um und will neue Schulden aufnehmen, um die Wirtschaft anzukurbeln. Die Finanzmärkte reagieren deutlich."
@@ -367,7 +545,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-        "title": "Börse am 21. November: Fällt der Dax unter 23.000 Punkte? Sechs Punkte, die für Anleger heute wichtig sind",
+        "title": "Börse am 21. November: Fällt der Dax unter 23.000 Zähler? Sechs Punkte, die für Anleger heute wichtig sind",
         "summary": "Der letzte Handelstag der Woche wird von globalen Konjunkturdaten dominiert. Neben dem deutschen Einkaufsmanagerindex werden unter anderem wichtige Stimmungsindikatoren aus den USA erwartet.",
         "paragraphs": [
           "Der letzte Handelstag der Woche wird von globalen Konjunkturdaten dominiert. Neben dem deutschen Einkaufsmanagerindex werden unter anderem wichtige Stimmungsindikatoren aus den USA erwartet."
@@ -375,185 +553,20 @@
         "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-11-21T05:16:50.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-28-punkte-fuer-frieden-in-der-ukraine/100176864.html",
-        "title": "Ukraine-Krieg: Das steht im 28-Punkte-Plan für die Ukraine",
-        "summary": "Ein ukrainischer Abgeordneter hat die Details des US-Plans für ein Ende des Ukraine-Kriegs veröffentlicht. Finanziell sollen vor allem die USA von dem Vorschlag profitieren.",
-        "paragraphs": [
-          "Ein ukrainischer Abgeordneter hat die Details des US-Plans für ein Ende des Ukraine-Kriegs veröffentlicht. Finanziell sollen vor allem die USA von dem Vorschlag profitieren."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-28-punkte-fuer-frieden-in-der-ukraine/100176864.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T05:09:06.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/solarstrom-warum-die-energiewende-bei-mehrfamilienhaeusern-nicht-vorankommt/100173454.html",
-        "title": "Solarstrom: Warum die Energiewende bei Mehrfamilienhäusern nicht vorankommt",
-        "summary": "Das Potenzial für Solaranlagen auf Mehrfamilienhäusern ist beträchtlich, wird aber kaum genutzt. Das liegt am schleppenden Einbau von intelligenten Stromzählern – aber nicht nur daran.",
-        "paragraphs": [
-          "Das Potenzial für Solaranlagen auf Mehrfamilienhäusern ist beträchtlich, wird aber kaum genutzt. Das liegt am schleppenden Einbau von intelligenten Stromzählern – aber nicht nur daran."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/solarstrom-warum-die-energiewende-bei-mehrfamilienhaeusern-nicht-vorankommt/100173454.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T05:08:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/trinkwasser-was-eigentuemer-ueber-den-austausch-von-bleirohren-wissen-muessen/100173882.html",
-        "title": "Trinkwasser: Was Eigentümer über den Austausch von Bleirohren wissen müssen",
-        "summary": "Bis Januar 2026 müssen alte Bleirohre endgültig verschwinden. Warum das auch für Mieter wichtig ist – und warum Eigentümer belastete Trinkwasserleitungen rechtzeitig austauschen sollten.",
-        "paragraphs": [
-          "Bis Januar 2026 müssen alte Bleirohre endgültig verschwinden. Warum das auch für Mieter wichtig ist – und warum Eigentümer belastete Trinkwasserleitungen rechtzeitig austauschen sollten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/trinkwasser-was-eigentuemer-ueber-den-austausch-von-bleirohren-wissen-muessen/100173882.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T05:06:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/tobias-just-einkommensstarke-haushalte-nicht-mit-kappungsgrenze-schuetzen/100170104.html",
-        "title": "Tobias Just: „Einkommensstarke Haushalte nicht mit Kappungsgrenze schützen“",
-        "summary": "Tobias Just, Leiter der IREBS Immobilienakademie, würde die Kappungsgrenzen im Wohnungsmietrecht so ändern, dass sie nur noch für einkommensschwache Haushalte gelten.",
-        "paragraphs": [
-          "Tobias Just, Leiter der IREBS Immobilienakademie, würde die Kappungsgrenzen im Wohnungsmietrecht so ändern, dass sie nur noch für einkommensschwache Haushalte gelten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/tobias-just-einkommensstarke-haushalte-nicht-mit-kappungsgrenze-schuetzen/100170104.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T05:04:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/einfaches-bauen-eckpunkte-fuer-gebaeudetyp-e-vorgestellt/100176593.html",
-        "title": "Einfaches Bauen: Eckpunkte für „Gebäudetyp E“ vorgestellt",
-        "summary": "Die Bundesregierung will das Bauen mit dem „Gebäudetyp E“ vereinfachen. Bauherren können damit von teuren Standards abweichen. Die vorgelegten Eckpunkte zeigen, wo gespart werden darf.",
-        "paragraphs": [
-          "Die Bundesregierung will das Bauen mit dem „Gebäudetyp E“ vereinfachen. Bauherren können damit von teuren Standards abweichen. Die vorgelegten Eckpunkte zeigen, wo gespart werden darf."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/einfaches-bauen-eckpunkte-fuer-gebaeudetyp-e-vorgestellt/100176593.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T05:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/wohnungsmangel-bis-2040-fehlen-277000-wohnheimplaetze-fuer-junge-menschen/100176209.html",
-        "title": "Wohnungsmangel: Bis 2040 fehlen 277.000 Wohnheimplätze für junge Menschen",
-        "summary": "Bezahlbarer Wohnraum für Auszubildende und Studierende ist knapp. Bis 2040 dürfte sich daran wenig ändern, zeigt eine Studie. Was den Mangel an Wohnheimplätzen mildern könnte.",
-        "paragraphs": [
-          "Bezahlbarer Wohnraum für Auszubildende und Studierende ist knapp. Bis 2040 dürfte sich daran wenig ändern, zeigt eine Studie. Was den Mangel an Wohnheimplätzen mildern könnte."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/wohnungsmangel-bis-2040-fehlen-277000-wohnheimplaetze-fuer-junge-menschen/100176209.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T05:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/wohnen-foerderung-fuer-altersgerechten-umbau-kehrt-zurueck/100176206.html",
-        "title": "Wohnen: Förderung für altersgerechten Umbau kehrt zurück",
-        "summary": "Ab 2026 soll es wieder Zuschüsse für den altersgerechten Umbau von Wohnraum geben. Der Haushaltsausschuss des Bundestages hat 50 Millionen Euro eingeplant. Zu wenig, meinen Kritiker.",
-        "paragraphs": [
-          "Ab 2026 soll es wieder Zuschüsse für den altersgerechten Umbau von Wohnraum geben. Der Haushaltsausschuss des Bundestages hat 50 Millionen Euro eingeplant. Zu wenig, meinen Kritiker."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/wohnen-foerderung-fuer-altersgerechten-umbau-kehrt-zurueck/100176206.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T05:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/facharzttermin-warken-schlaegt-gebuehr-fuer-facharztbesuch-ohne-ueberweisung-vor/100176528.html",
-        "title": "Gesundheitspolitik: Warken schlägt Gebühren für Facharztbesuche ohne Überweisung vor – SPD lehnt Vorstoß ab",
-        "summary": "Die Gesundheitsministerin will Patienten stärker an den Behandlungskosten beteiligen. Ein neues System könnte kürzere Wartezeiten bei Ärzten und Entlastung für Krankenkassen zur Folge haben.",
-        "paragraphs": [
-          "Die Gesundheitsministerin will Patienten stärker an den Behandlungskosten beteiligen. Ein neues System könnte kürzere Wartezeiten bei Ärzten und Entlastung für Krankenkassen zur Folge haben."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/facharzttermin-warken-schlaegt-gebuehr-fuer-facharztbesuch-ohne-ueberweisung-vor/100176528.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T03:09:35.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/steuern-recht/recht/erbe-wer-nur-ein-kind-hat-braucht-kein-testament-falsch/100173398.html",
-        "title": "Erbe: Wer nur ein Kind hat, braucht kein Testament? Falsch!",
-        "summary": "Mit nur einem Kind ist die Erbfolge klar. Doch manche Konstellationen können das Vermögen im Erbfall gefährden. Wie Sie das verhindern und Ihren Erben schnell handlungsfähig machen.",
-        "paragraphs": [
-          "Mit nur einem Kind ist die Erbfolge klar. Doch manche Konstellationen können das Vermögen im Erbfall gefährden. Wie Sie das verhindern und Ihren Erben schnell handlungsfähig machen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/recht/erbe-wer-nur-ein-kind-hat-braucht-kein-testament-falsch/100173398.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T03:08:02.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/hoteliers-chef-lindner-zehn-monate-ging-es-um-unsere-existenz/100173819.html",
-        "title": "Hoteliers: Chef Adrian Linder: „Zehn Monate ging es um unsere Existenz“",
-        "summary": "Nach der Insolvenz der familiengeführten Düsseldorfer Hotelgruppe Lindner übernimmt die dritte Generation die Leitung. Doch der Neuanfang gleicht einem Kraftakt.",
-        "paragraphs": [
-          "Nach der Insolvenz der familiengeführten Düsseldorfer Hotelgruppe Lindner übernimmt die dritte Generation die Leitung. Doch der Neuanfang gleicht einem Kraftakt."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/hoteliers-chef-lindner-zehn-monate-ging-es-um-unsere-existenz/100173819.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T03:07:39.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/deutschland-wie-ein-opa-mit-kritik-an-seiner-cdu-zum-influencer-wurde/100173058.html",
-        "title": "Deutschland: CDU-Opa gegen rechts – „Wir benehmen uns wie halbstarke Schläger“",
-        "summary": "Der CDU-Lokalpolitiker Dieter Breymann beklagt in viralen Videos den konservativen Kurs der Partei. Auch die Kritik an Friedrich Merz ist groß – trotzdem fürchtet er sich vor dessen Aus.",
-        "paragraphs": [
-          "Der CDU-Lokalpolitiker Dieter Breymann beklagt in viralen Videos den konservativen Kurs der Partei. Auch die Kritik an Friedrich Merz ist groß – trotzdem fürchtet er sich vor dessen Aus."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/deutschland-wie-ein-opa-mit-kritik-an-seiner-cdu-zum-influencer-wurde/100173058.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T03:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/essay-wie-grossbritannien-immer-weiter-ins-chaos-schlittert/100171285.html",
-        "title": "Essay: Notruf von der Insel des gesunden Menschenverstands – Wie Großbritannien ins Chaos schlittert",
-        "summary": "Großbritannien galt als liberales Korrektiv in Europa. Jetzt droht dem Königreich ein Trauma: Populisten von rechts und links gefährden die Stabilität. Und verbauen die Wiederannäherung an die EU.",
-        "paragraphs": [
-          "Großbritannien galt als liberales Korrektiv in Europa. Jetzt droht dem Königreich ein Trauma: Populisten von rechts und links gefährden die Stabilität. Und verbauen die Wiederannäherung an die EU."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/essay-wie-grossbritannien-immer-weiter-ins-chaos-schlittert/100171285.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T03:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/cop30-verhandlungen-auf-weltklimakonferenz-gehen-nach-feuer-weiter/100176847.html",
-        "title": "COP30: Verhandlungen auf Weltklimakonferenz gehen nach Feuer weiter",
-        "summary": "Nach einem Feuer in Belem werden die COP30-Verhandlungen am Freitag fortgesetzt. Die Delegationen ringen um Fortschritte beim Ausstieg aus fossilen Energien und der Klimafinanzierung.",
-        "paragraphs": [
-          "Nach einem Feuer in Belem werden die COP30-Verhandlungen am Freitag fortgesetzt. Die Delegationen ringen um Fortschritte beim Ausstieg aus fossilen Energien und der Klimafinanzierung."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/cop30-verhandlungen-auf-weltklimakonferenz-gehen-nach-feuer-weiter/100176847.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T02:46:07.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/it-medien/uebernahmepoker-grosse-us-medienhaeuser-bieten-um-warner-bros-discovery/100176834.html",
-        "title": "Übernahmepoker: Große US-Medienhäuser bieten um Warner Bros Discovery",
-        "summary": "Paramount, Comcast und Netflix haben erste Gebote für Warner Bros Discovery abgegeben. Der Medienkonzern prüft nach der Ablehnung eines 60-Milliarden-Dollar-Angebots weitere Optionen.",
-        "paragraphs": [
-          "Paramount, Comcast und Netflix haben erste Gebote für Warner Bros Discovery abgegeben. Der Medienkonzern prüft nach der Ablehnung eines 60-Milliarden-Dollar-Angebots weitere Optionen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/it-medien/uebernahmepoker-grosse-us-medienhaeuser-bieten-um-warner-bros-discovery/100176834.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-21T02:01:11.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/aktien/formel-1-toto-wolff-verkauft-anteile-neuer-investor-bei-mercedes/100176820.html",
-        "title": "Formel 1: Toto Wolff verkauft Anteile – Neuer Investor bei Mercedes",
-        "summary": "Toto Wolff ist nicht nur Sportchef bei Mercedes, ihm gehören auch Anteile am Rennstall. Einen Teil davon hat er nun verkauft – und das Team ganz offiziell zu einem der wertvollsten gemacht.",
-        "paragraphs": [
-          "Toto Wolff ist nicht nur Sportchef bei Mercedes, ihm gehören auch Anteile am Rennstall. Einen Teil davon hat er nun verkauft – und das Team ganz offiziell zu einem der wertvollsten gemacht."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/aktien/formel-1-toto-wolff-verkauft-anteile-neuer-investor-bei-mercedes/100176820.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-20T23:43:55.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/usa-trump-unterschreibt-gesetz-zur-freigabe-von-epstein-akten/29669594.html",
-        "title": "+++ USA +++: Trump unterschreibt Gesetz zur Freigabe von Epstein-Akten",
-        "summary": "USA bauen Energieministerium um – Fokus auf Fossile und Kernkraft +++ Trump droht Demokraten nach Videobotschaft an Militär mit Todesstrafe +++ Der Newsblog.",
-        "paragraphs": [
-          "USA bauen Energieministerium um – Fokus auf Fossile und Kernkraft +++ Trump droht Demokraten nach Videobotschaft an Militär mit Todesstrafe +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/usa-trump-unterschreibt-gesetz-zur-freigabe-von-epstein-akten/29669594.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-20T21:05:08.000Z"
       }
     ],
     "Gesellschaft": [
+      {
+        "id": "{urn:uuid:4b269d9a-d7e8-4110-ada6-8e1575b8d7da}",
+        "title": "Bangladesch: Mindestens drei Tote nach Erdbeben in Bangladesch",
+        "summary": "Ein Erdbeben der Stärke 5,5 hat Bangladesch erschüttert. Mindestens drei Menschen wurden dabei getötet. Das Beben war hunderte Kilometer vom Epizentrum entfernt spürbar.",
+        "paragraphs": [
+          "Ein Erdbeben der Stärke 5,5 hat Bangladesch erschüttert. Mindestens drei Menschen wurden dabei getötet. Das Beben war hunderte Kilometer vom Epizentrum entfernt spürbar."
+        ],
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/bangladesch-erdbeben-drei-tote-dhaka",
+        "source": "ZEIT Gesellschaft",
+        "publishedAt": "2025-11-21T08:39:16.000Z"
+      },
       {
         "id": "{urn:uuid:fc1951f7-4b6f-49f0-a636-8729f4598a3d}",
         "title": "Problemverhalten bei Teenagern: Mein Kind – was hast du getan?",
@@ -688,7 +701,7 @@
       },
       {
         "id": "li.3336987",
-        "title": "Historie: Der ignorierte Krieg",
+        "title": "Sudan: Der ignorierte Krieg",
         "summary": "Die Welt blickt nach Nahost oder in die Ukraine. Die Katastrophe im Sudan hingegen wird in Europa wenig wahrgenommen. Über Geschichte und Ursachen eines der brutalsten Konflikte der Gegenwart.",
         "paragraphs": [
           "Die Welt blickt nach Nahost oder in die Ukraine. Die Katastrophe im Sudan hingegen wird in Europa wenig wahrgenommen. Über Geschichte und Ursachen eines der brutalsten Konflikte der Gegenwart."
@@ -841,17 +854,6 @@
         "publishedAt": "2025-11-20T09:03:43.000Z"
       },
       {
-        "id": "{urn:uuid:7877060a-2be1-45ed-a518-a8a80faa39da}",
-        "title": "Insel Java: Mindestens 23 Tote nach Erdrutschen in Indonesien",
-        "summary": "Auf der indonesischen Insel Java sind nach Erdrutschen weitere Leichen geborgen worden. Zuvor hatte es stark geregnet. Nach weiteren Vermissten wird noch gesucht.",
-        "paragraphs": [
-          "Auf der indonesischen Insel Java sind nach Erdrutschen weitere Leichen geborgen worden. Zuvor hatte es stark geregnet. Nach weiteren Vermissten wird noch gesucht."
-        ],
-        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-11/indonesien-erdrutsch-tote-gxe",
-        "source": "ZEIT Gesellschaft",
-        "publishedAt": "2025-11-20T06:42:26.000Z"
-      },
-      {
         "id": "https://squirrel-news.net/countries-step-up-on-climate-action-brazil-creates-new-indigenous-territories-las-pop-up-wetlands/",
         "title": "Countries step up on climate action, Brazil creates new Indigenous territories, LA’s pop-up wetlands",
         "summary": "In today's edition, we're exploring how global climate action is picking up speed, Brazil's move to establish new Indigenous territories, and the guerrilla campaign in LA reconnecting waterways with nature.",
@@ -886,6 +888,94 @@
       }
     ],
     "Sport": [
+      {
+        "id": "https://www.kicker.de/formel-1-in-den-usa-zwischen-riesenwachstum-und-winzigkeit-1167823/artikel#omrss",
+        "title": "Formel 1 in den USA: Zwischen Riesenwachstum und Winzigkeit",
+        "summary": "Den jüngsten Beweis für den massiven Wertzuwachs rund um die Formel 1 lieferte Mercedes-Motorsportchef Toto Wolff höchstpersönlich.",
+        "paragraphs": [
+          "Den jüngsten Beweis für den massiven Wertzuwachs rund um die Formel 1 lieferte Mercedes-Motorsportchef Toto Wolff höchstpersönlich."
+        ],
+        "link": "https://www.kicker.de/formel-1-in-den-usa-zwischen-riesenwachstum-und-winzigkeit-1167823/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-21T08:17:49.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/carragher-ueber-wirtz-seine-besten-spiele-waren-in-der-champions-league-1167718/video#omrss",
+        "title": "Carragher über Wirtz: \"Seine besten Spiele waren in der Champions League\"",
+        "summary": "Der ehemalige Liverpool-Verteidiger Jamie Carragher kritisiert die Leistung der Reds in der Premier League. Seiner Meinung nach sind die jetzigen Spieler des Vereins nicht für die Liga gemacht.",
+        "paragraphs": [
+          "Der ehemalige Liverpool-Verteidiger Jamie Carragher kritisiert die Leistung der Reds in der Premier League. Seiner Meinung nach sind die jetzigen Spieler des Vereins nicht für die Liga gemacht."
+        ],
+        "link": "https://www.kicker.de/carragher-ueber-wirtz-seine-besten-spiele-waren-in-der-champions-league-1167718/video#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-21T07:42:36.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/die-skispassfahrerin-dsv-ass-aicher-vor-naechsten-coups-1167817/artikel#omrss",
+        "title": "Die Skispaßfahrerin: DSV-Ass Aicher vor nächsten Coups?",
+        "summary": "Emma Aicher will vor allem Skifahren und Spaß haben. So stürmt sie gen Weltspitze. Wie weit kann es gehen für die 22-Jährige im Olympia-Winter? Sie bleibt cool - der Verbandsboss wird deutlich.",
+        "paragraphs": [
+          "Emma Aicher will vor allem Skifahren und Spaß haben. So stürmt sie gen Weltspitze. Wie weit kann es gehen für die 22-Jährige im Olympia-Winter? Sie bleibt cool - der Verbandsboss wird deutlich."
+        ],
+        "link": "https://www.kicker.de/die-skispassfahrerin-dsv-ass-aicher-vor-naechsten-coups-1167817/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-21T07:41:58.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/struff-lobt-fans-argentinier-sind-ein-bisschen-lauter-1167765/video#omrss",
+        "title": "Struff lobt Fans: \"Argentinier sind ein bisschen lauter\"",
+        "summary": "Jan-Lennard Struff verliert den Davis-Cup-Auftakt gegen Argentinien knapp mit 6:7, 6:7. Trotz der Niederlage zeigt sich der Deutsche von der aufgeladenen Atmosphäre in Bologna beeindruckt.",
+        "paragraphs": [
+          "Jan-Lennard Struff verliert den Davis-Cup-Auftakt gegen Argentinien knapp mit 6:7, 6:7. Trotz der Niederlage zeigt sich der Deutsche von der aufgeladenen Atmosphäre in Bologna beeindruckt."
+        ],
+        "link": "https://www.kicker.de/struff-lobt-fans-argentinier-sind-ein-bisschen-lauter-1167765/video#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-21T07:32:46.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/er-trifft-und-trifft-und-trifft-ovechkin-glaenzt-beim-12-tore-spektakel-1167811/video#omrss",
+        "title": "Er trifft und trifft und trifft: Ovechkin glänzt beim 12-Tore-Spektakel",
+        "summary": "Hier sind die Highlights der Partie.",
+        "paragraphs": [
+          "Hier sind die Highlights der Partie."
+        ],
+        "link": "https://www.kicker.de/er-trifft-und-trifft-und-trifft-ovechkin-glaenzt-beim-12-tore-spektakel-1167811/video#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-21T07:13:54.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/drama-pur-sensationelle-parade-leitet-oilers-niederlage-ein-1167810/video#omrss",
+        "title": "Drama pur: Sensationelle Parade leitet Oilers-Niederlage ein",
+        "summary": "In der Overtime entschieden Millimeter: Tampas Star-Goalie Andrei Vasilevskiy rettete sensationell gegen den einschussbereiten Jack Roslovic, daraus entstand der Konter, den Jake Guentzel zum Sieg Tampas veredelte. Hier sind die Highlights.",
+        "paragraphs": [
+          "In der Overtime entschieden Millimeter: Tampas Star-Goalie Andrei Vasilevskiy rettete sensationell gegen den einschussbereiten Jack Roslovic, daraus entstand der Konter, den Jake Guentzel zum Sieg Tampas veredelte. Hier sind die Highlights."
+        ],
+        "link": "https://www.kicker.de/drama-pur-sensationelle-parade-leitet-oilers-niederlage-ein-1167810/video#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-21T07:12:15.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/tampa-bay-gegen-edmonton-2025-nhl-5091740/spielbericht#omrss",
+        "title": "Eine knappe Oilers-Niederlage als Fortschritt",
+        "summary": "Es fehlte nicht viel und die Edmonton Oilers hätten bei der Tampa Bay Lightning einen Sieg gefeiert. Doch die Gastgeber glichen spät aus und siegten in der Overtime dramatisch-spektakulär mit 2:1.",
+        "paragraphs": [
+          "Es fehlte nicht viel und die Edmonton Oilers hätten bei der Tampa Bay Lightning einen Sieg gefeiert. Doch die Gastgeber glichen spät aus und siegten in der Overtime dramatisch-spektakulär mit 2:1."
+        ],
+        "link": "https://www.kicker.de/tampa-bay-gegen-edmonton-2025-nhl-5091740/spielbericht#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-21T06:05:48.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/maxey-mit-karrierebestwert-kings-kollabieren-fox-laesst-spurs-marschieren-1167785/artikel#omrss",
+        "title": "Maxey mit Karrierebestwert, Kings kollabieren, Fox lässt Spurs marschieren",
+        "summary": "Während Memphis den Kings ein historisches Blowout zufügte, explodierte Tyrese Maxey in Milwaukee mit einem Karrierebestwert. Dazu gewinnt San Antonio erneut ohne Wembanyama. Hier sind die Spiele der Nacht im Überblick.",
+        "paragraphs": [
+          "Während Memphis den Kings ein historisches Blowout zufügte, explodierte Tyrese Maxey in Milwaukee mit einem Karrierebestwert. Dazu gewinnt San Antonio erneut ohne Wembanyama. Hier sind die Spiele der Nacht im Überblick."
+        ],
+        "link": "https://www.kicker.de/maxey-mit-karrierebestwert-kings-kollabieren-fox-laesst-spurs-marschieren-1167785/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-21T05:46:42.000Z"
+      },
       {
         "id": "https://www.kicker.de/grand-prix-von-las-vegas-2025/1167594/formel1-rennbericht#omrss",
         "title": "Loser Kanaldeckel sorgt für Unterbrechungen",
@@ -970,7 +1060,7 @@
         "paragraphs": [
           "Nach 0:1-Rückstand gewinnen die Münchner Fußballerinnen bei PSG mit 3:1 und klettern auf Platz fünf der Tabelle in der Königsklasse."
         ],
-        "link": "https://www.sueddeutsche.de/sport/fc-bayern-champions-league-der-frauen-psg-li.3341902",
+        "link": "https://www.sueddeutsche.de/sport/champions-league-der-frauen-fc-bayern-paris-saint-germain-li.3341902",
         "source": "Süddeutsche Zeitung Sport",
         "publishedAt": "2025-11-20T22:06:55.000Z"
       },
@@ -1019,81 +1109,15 @@
         "publishedAt": "2025-11-20T21:18:25.000Z"
       },
       {
-        "id": "https://www.kicker.de/mueller-erinnert-sich-an-bundesliga-duelle-mit-son-haben-sie-jedes-mal-platt-gemacht-1167768/video#omrss",
-        "title": "Müller erinnert sich an Bundesliga-Duelle mit Son: \"Haben sie jedes Mal platt gemacht\"",
-        "summary": "Thomas Müller erinnerte sich vor dem Play-off-Duell gegen den LAFC an seine Spiele gegen Heung-Min Son in der Bundesliga. Zu dieser Zeit gewann Bayern häufig hoch gegen den ehemaligen Bundesliga-Dino HSV, bei dem auch Son spielte.",
+        "id": "https://www.kicker.de/haben-sie-jedes-mal-platt-gemacht-mueller-ueber-hsv-spiele-gegen-son-1167768/video#omrss",
+        "title": "\"Haben sie jedes Mal platt gemacht\": Müller über HSV-Spiele gegen Son",
+        "summary": "Thomas Müller erinnerte sich vor dem Play-off-Duell gegen den LAFC an seine Spiele gegen Heung-Min Son in der Bundesliga. Zu dieser Zeit gewann Bayern häufig hoch gegen den HSV, bei dem auch Son spielte.",
         "paragraphs": [
-          "Thomas Müller erinnerte sich vor dem Play-off-Duell gegen den LAFC an seine Spiele gegen Heung-Min Son in der Bundesliga. Zu dieser Zeit gewann Bayern häufig hoch gegen den ehemaligen Bundesliga-Dino HSV, bei dem auch Son spielte."
+          "Thomas Müller erinnerte sich vor dem Play-off-Duell gegen den LAFC an seine Spiele gegen Heung-Min Son in der Bundesliga. Zu dieser Zeit gewann Bayern häufig hoch gegen den HSV, bei dem auch Son spielte."
         ],
-        "link": "https://www.kicker.de/mueller-erinnert-sich-an-bundesliga-duelle-mit-son-haben-sie-jedes-mal-platt-gemacht-1167768/video#omrss",
+        "link": "https://www.kicker.de/haben-sie-jedes-mal-platt-gemacht-mueller-ueber-hsv-spiele-gegen-son-1167768/video#omrss",
         "source": "kicker",
         "publishedAt": "2025-11-20T21:02:31.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/eine-frage-des-stils-interimscoach-johrden-will-nicht-alles-auf-links-drehen-1167752/artikel#omrss",
-        "title": "Eine Frage des Stils: Interimscoach Johrden will \"nicht alles auf links drehen\"",
-        "summary": "Nur wenige Tage nach der Trennung von Cheftrainer Theodoros Dedes steht für die TSG Hoffenheim am Sonntag die Bewährungsprobe beim FC Bayern München auf dem Plan - erstmals mit Interimstrainer Thomas Johrden an der Seitenlinie.",
-        "paragraphs": [
-          "Nur wenige Tage nach der Trennung von Cheftrainer Theodoros Dedes steht für die TSG Hoffenheim am Sonntag die Bewährungsprobe beim FC Bayern München auf dem Plan - erstmals mit Interimstrainer Thomas Johrden an der Seitenlinie."
-        ],
-        "link": "https://www.kicker.de/eine-frage-des-stils-interimscoach-johrden-will-nicht-alles-auf-links-drehen-1167752/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-20T19:52:42.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/stuttgart-gegen-minden-2025-handball-bundesliga-5097396/spielbericht#omrss",
-        "title": "Bann gebrochen? TVB dominiert im Kellerduell",
-        "summary": "Nach ausgeglichenen 10 Minuten wussten die Aufsteiger aus Minden den Stuttgartern vor allem defensiv nichts mehr entgegenzusetzen. Stück für Stück zog der TVB davon und führte zur Halbzeit mit 12 Toren. Am Ende feierten die Hausherren einen ungefährdeten 35:26-Sieg und schlossen dadurch tabellarisch zur GWD auf.",
-        "paragraphs": [
-          "Nach ausgeglichenen 10 Minuten wussten die Aufsteiger aus Minden den Stuttgartern vor allem defensiv nichts mehr entgegenzusetzen. Stück für Stück zog der TVB davon und führte zur Halbzeit mit 12 Toren. Am Ende feierten die Hausherren einen ungefährdeten 35:26-Sieg und schlossen dadurch tabellarisch zur GWD auf."
-        ],
-        "link": "https://www.kicker.de/stuttgart-gegen-minden-2025-handball-bundesliga-5097396/spielbericht#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-20T19:44:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/us-sender-schlagen-zu-tv-rechte-in-der-champions-league-ab-2027-neu-vergeben-1167729/artikel#omrss",
-        "title": "US-Sender schlagen zu: TV-Rechte in der Champions League ab 2027 neu vergeben",
-        "summary": "Die Vergabe der TV-Rechte in der Champions League ab 2027 ist wohl geschehen. Es wird sich demnach einiges ändern.",
-        "paragraphs": [
-          "Die Vergabe der TV-Rechte in der Champions League ab 2027 ist wohl geschehen. Es wird sich demnach einiges ändern."
-        ],
-        "link": "https://www.kicker.de/us-sender-schlagen-zu-tv-rechte-in-der-champions-league-ab-2027-neu-vergeben-1167729/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-20T19:41:45.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hannover-gegen-bergischer-hc-2025-handball-bundesliga-5097389/spielbericht#omrss",
-        "title": "Recken mit Arbeitssieg, nächster Verletzungsschock beim Bergischen HC",
-        "summary": "Die TSV Hannover-Burgdorf musste hart kämpfen, konnte sich am Ende aber mit den besseren Reserven zum Ende der Halbzeiten mit 34:30 (17:15) knapp behaupten. Die Bergischen Löwen hatten beherzt gekämpft, auch den Verletzungsschock um Yannick Fraatz weggesteckt, ließ dann aber zu viele Möglichkeiten liegen.",
-        "paragraphs": [
-          "Die TSV Hannover-Burgdorf musste hart kämpfen, konnte sich am Ende aber mit den besseren Reserven zum Ende der Halbzeiten mit 34:30 (17:15) knapp behaupten. Die Bergischen Löwen hatten beherzt gekämpft, auch den Verletzungsschock um Yannick Fraatz weggesteckt, ließ dann aber zu viele Möglichkeiten liegen."
-        ],
-        "link": "https://www.kicker.de/hannover-gegen-bergischer-hc-2025-handball-bundesliga-5097389/spielbericht#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-20T19:39:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/frankfurt-gegen-psv-2025-uefa-women-s-europa-cup-5177577/spielbericht#omrss",
-        "title": "Spiel gegen PSV erneut gedreht: Frankfurt steht im Europa-Cup-Viertelfinale",
-        "summary": "Eintracht Frankfurt steht im Viertelfinale des Europa Cups. Erneut drehte die SGE gegen die PSV Eindhoven einen Rückstand und gewann souverän mit 3:1. Anyomi glänzte mit einem Doppelpack.",
-        "paragraphs": [
-          "Eintracht Frankfurt steht im Viertelfinale des Europa Cups. Erneut drehte die SGE gegen die PSV Eindhoven einen Rückstand und gewann souverän mit 3:1. Anyomi glänzte mit einem Doppelpack."
-        ],
-        "link": "https://www.kicker.de/frankfurt-gegen-psv-2025-uefa-women-s-europa-cup-5177577/spielbericht#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-20T19:27:30.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/sc-coach-schuster-ich-werde-das-ignorieren-1167745/artikel#omrss",
-        "title": "SC-Coach Schuster: \"Ich werde das ignorieren\"",
-        "summary": "Mehr Vorbereitungszeit als zuletzt und viele fitte Spieler - die Voraussetzungen beim SC Freiburg sind gut vor dem nächsten Versuch, aus München mal mehr als einen Punkt mitzubringen.",
-        "paragraphs": [
-          "Mehr Vorbereitungszeit als zuletzt und viele fitte Spieler - die Voraussetzungen beim SC Freiburg sind gut vor dem nächsten Versuch, aus München mal mehr als einen Punkt mitzubringen."
-        ],
-        "link": "https://www.kicker.de/sc-coach-schuster-ich-werde-das-ignorieren-1167745/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-20T19:15:46.000Z"
       },
       {
         "id": "li.3341904",
@@ -1102,7 +1126,7 @@
         "paragraphs": [
           "1974 war der gebürtige Oberhausener Teil der Deutschen Fußball-Nationalmannschaft, die bei der WM den Titel holte. Zwei Jahre später wechselte der frühere Flügelstürmer von Fortuna Düsseldorf in die zweite Liga."
         ],
-        "link": "https://www.sueddeutsche.de/sport/dieter-herzog-wm-1974-nachruf-li.3341904",
+        "link": "https://www.sueddeutsche.de/sport/dieter-herzog-tot-wm-1974-li.3341904",
         "source": "Süddeutsche Zeitung Sport",
         "publishedAt": "2025-11-20T18:48:33.000Z"
       },
@@ -1116,28 +1140,6 @@
         "link": "https://www.sueddeutsche.de/sport/tv-rechte-champions-league-dazn-paramount-amazon-li.3341905",
         "source": "Süddeutsche Zeitung Sport",
         "publishedAt": "2025-11-20T18:36:42.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kampf-um-wm-titel-von-2008-gericht-laesst-klage-von-massa-zu-1167740/artikel#omrss",
-        "title": "Kampf um WM-Titel von 2008: Gericht lässt Klage von Massa zu",
-        "summary": "Der frühere Formel-1-Pilot Felipe Massa kann seinen Kampf um den verlorenen Weltmeister-Titel 2008 vor Gericht fortsetzen.",
-        "paragraphs": [
-          "Der frühere Formel-1-Pilot Felipe Massa kann seinen Kampf um den verlorenen Weltmeister-Titel 2008 vor Gericht fortsetzen."
-        ],
-        "link": "https://www.kicker.de/kampf-um-wm-titel-von-2008-gericht-laesst-klage-von-massa-zu-1167740/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-20T18:34:58.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/keeper-verstappen-unterschreibt-in-aschaffenburg-fuer-nur-zwei-spiele-1167735/artikel#omrss",
-        "title": "Keeper Verstappen unterschreibt in Aschaffenburg - für nur zwei Spiele",
-        "summary": "Kurioses Kurzzeit-Engagement für Eric Verstappen: Der Schlussmann schließt sich Viktoria Aschaffenburg von Sportvorstand Felix Magath an. Lange allerdings wird er nicht beim Regionalligisten verweilen.",
-        "paragraphs": [
-          "Kurioses Kurzzeit-Engagement für Eric Verstappen: Der Schlussmann schließt sich Viktoria Aschaffenburg von Sportvorstand Felix Magath an. Lange allerdings wird er nicht beim Regionalligisten verweilen."
-        ],
-        "link": "https://www.kicker.de/keeper-verstappen-unterschreibt-in-aschaffenburg-fuer-nur-zwei-spiele-1167735/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-20T18:24:15.000Z"
       },
       {
         "id": "li.3341614",
@@ -1197,7 +1199,7 @@
         "paragraphs": [
           "Warum wechselt man den Skihersteller? Bringt einen das nicht eher aus dem Konzept? Felix Neureuther, der selbst einst eine richtungsweisende Umstellung vornahm, erklärt die Entscheidung von Slalom-Ass Linus Straßer."
         ],
-        "link": "https://www.sueddeutsche.de/sport/skifahren-material-wechsel-strasser-neureuther-li.3341409",
+        "link": "https://www.sueddeutsche.de/sport/ski-material-wechsel-strasser-neureuther-li.3341409",
         "source": "Süddeutsche Zeitung Sport",
         "publishedAt": "2025-11-20T14:59:18.000Z"
       },
