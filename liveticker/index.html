@@ -473,6 +473,7 @@
         matchdays: [],
         matchdayDateLookup: new Map(),
         activeMatchdayOrder: null,
+        footballSelections: new Map(),
         timerId: null,
         lastFetchStart: 0,
         fetchInFlight: false,
@@ -820,6 +821,7 @@
           }
           state.date = normalizedFallback;
           updateMatchdayDisplay();
+          persistFootballMatchdaySelection();
           return true;
         }
 
@@ -877,6 +879,7 @@
         const dateChanged = normalizedDate !== state.date;
 
         if (!orderChanged && !dateChanged) {
+          persistFootballMatchdaySelection();
           return false;
         }
 
@@ -886,6 +889,7 @@
           state.activeMatchdayOrder = targetOrder;
         }
         updateMatchdayDisplay();
+        persistFootballMatchdaySelection();
         return true;
       }
 
@@ -1026,19 +1030,25 @@
           return;
         }
         if (state.activeMatchdayOrder != null && matchdays.some((entry) => entry.order === state.activeMatchdayOrder)) {
+          persistFootballMatchdaySelection();
           return;
         }
+        let nextOrder = null;
         const indexByDate = resolveMatchdayIndexByDate(state.date, matchdays);
         if (indexByDate !== -1) {
-          state.activeMatchdayOrder = matchdays[indexByDate].order;
-          return;
+          nextOrder = matchdays[indexByDate].order;
         }
-        const closestIndex = findClosestMatchdayIndex(state.date, matchdays);
-        if (closestIndex !== -1) {
-          state.activeMatchdayOrder = matchdays[closestIndex].order;
-          return;
+        if (nextOrder == null) {
+          const closestIndex = findClosestMatchdayIndex(state.date, matchdays);
+          if (closestIndex !== -1) {
+            nextOrder = matchdays[closestIndex].order;
+          }
         }
-        state.activeMatchdayOrder = matchdays[0].order;
+        if (nextOrder == null) {
+          nextOrder = matchdays[0].order;
+        }
+        state.activeMatchdayOrder = nextOrder;
+        persistFootballMatchdaySelection();
       }
 
       function buildMatchdayMetadata(matches) {
@@ -1305,6 +1315,57 @@
           });
         });
         return lookup;
+      }
+
+      function persistFootballMatchdaySelection() {
+        if (state.sport !== 'football') {
+          return;
+        }
+        const leagueId = state.league;
+        if (!leagueId) {
+          return;
+        }
+        const matchdays = Array.isArray(state.matchdays) ? state.matchdays : [];
+        if (!matchdays.length) {
+          return;
+        }
+        const order = Number.isFinite(state.activeMatchdayOrder) ? state.activeMatchdayOrder : null;
+        if (order == null) {
+          return;
+        }
+        const normalizedDate = normalizeToIsoDate(state.date) || null;
+        if (!(state.footballSelections instanceof Map)) {
+          state.footballSelections = new Map();
+        }
+        state.footballSelections.set(leagueId, { order, date: normalizedDate });
+      }
+
+      function restoreFootballMatchdaySelection(matchdays, leagueId) {
+        if (!Array.isArray(matchdays) || !matchdays.length) {
+          return false;
+        }
+        if (!(state.footballSelections instanceof Map)) {
+          return false;
+        }
+        const key = leagueId || state.league;
+        if (!key || !state.footballSelections.has(key)) {
+          return false;
+        }
+        const saved = state.footballSelections.get(key);
+        let restored = false;
+        if (Number.isFinite(saved?.order) && matchdays.some((entry) => entry.order === saved.order)) {
+          state.activeMatchdayOrder = saved.order;
+          restored = true;
+        }
+        const normalizedDate = normalizeToIsoDate(saved?.date);
+        if (normalizedDate) {
+          const hasDate = matchdays.some((entry) => Array.isArray(entry.dates) && entry.dates.includes(normalizedDate));
+          if (hasDate) {
+            state.date = normalizedDate;
+            restored = true;
+          }
+        }
+        return restored;
       }
 
       function normalizeToIsoDate(value) {
@@ -1585,7 +1646,11 @@
           apply(() => {
             state.matchdays = metadata;
             state.matchdayDateLookup = createMatchdayDateLookup(metadata);
-            ensureActiveMatchday(metadata);
+            const restored = restoreFootballMatchdaySelection(state.matchdays, effectiveLeagueId);
+            if (!restored) {
+              state.activeMatchdayOrder = null;
+            }
+            ensureActiveMatchday(state.matchdays);
             updateMatchdayDisplay();
           });
         } else {
@@ -2039,21 +2104,26 @@
           return false;
         }
 
-        state.matchdays = metadata.map((entry) => ({
-          order: entry.order,
-          label: entry.label,
-          primaryDate: entry.primaryDate,
-          dates: Array.isArray(entry.dates) ? [...entry.dates] : [],
-          matchIds: Array.isArray(entry.matchIds) ? entry.matchIds.map((id) => String(id)) : []
-        }));
-        state.matchdayDateLookup = createMatchdayDateLookup(state.matchdays);
-        ensureActiveMatchday(state.matchdays);
-        const activeEntry = state.matchdays.find((entry) => entry.order === state.activeMatchdayOrder) || state.matchdays[0];
-        if (activeEntry) {
-          updateMatchdayState(activeEntry.primaryDate, activeEntry.order);
-        } else {
-          updateMatchdayDisplay();
-        }
+        applyState(() => {
+          state.matchdays = metadata.map((entry) => ({
+            order: entry.order,
+            label: entry.label,
+            primaryDate: entry.primaryDate,
+            dates: Array.isArray(entry.dates) ? [...entry.dates] : [],
+            matchIds: Array.isArray(entry.matchIds) ? entry.matchIds.map((id) => String(id)) : []
+          }));
+          state.matchdayDateLookup = createMatchdayDateLookup(state.matchdays);
+          const restored = restoreFootballMatchdaySelection(state.matchdays, leagueConfig.id || slug);
+          if (!restored) {
+            state.activeMatchdayOrder = null;
+          }
+          ensureActiveMatchday(state.matchdays);
+          const activeEntry = state.matchdays.find((entry) => entry.order === state.activeMatchdayOrder) || state.matchdays[0] || null;
+          const selectionChanged = activeEntry ? updateMatchdayState(activeEntry.primaryDate, activeEntry.order) : false;
+          if (!selectionChanged) {
+            updateMatchdayDisplay();
+          }
+        });
 
         const selectedEntry = state.matchdays.find((entry) => entry.order === state.activeMatchdayOrder) || state.matchdays[0] || null;
         const expectedIds = new Set(Array.isArray(selectedEntry?.matchIds) ? selectedEntry.matchIds.map((id) => String(id)) : []);
@@ -2218,12 +2288,15 @@
               dates: Array.isArray(entry.dates) ? [...entry.dates] : [],
               matchIds: Array.isArray(entry.matchIds) ? [...entry.matchIds] : []
             }));
-            state.matchdayDateLookup = createMatchdayDateLookup(metadata);
-            ensureActiveMatchday(metadata);
-            const activeEntry = metadata.find((entry) => entry.order === state.activeMatchdayOrder) || metadata[0];
-            if (activeEntry) {
-              updateMatchdayState(activeEntry.primaryDate, activeEntry.order);
-            } else {
+            state.matchdayDateLookup = createMatchdayDateLookup(state.matchdays);
+            const restored = restoreFootballMatchdaySelection(state.matchdays, leagueConfig.id || slug);
+            if (!restored) {
+              state.activeMatchdayOrder = null;
+            }
+            ensureActiveMatchday(state.matchdays);
+            const activeEntry = state.matchdays.find((entry) => entry.order === state.activeMatchdayOrder) || state.matchdays[0] || null;
+            const selectionChanged = activeEntry ? updateMatchdayState(activeEntry.primaryDate, activeEntry.order) : false;
+            if (!selectionChanged) {
               updateMatchdayDisplay();
             }
           });
