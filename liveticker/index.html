@@ -476,6 +476,7 @@
         timerId: null,
         lastFetchStart: 0,
         fetchInFlight: false,
+        refreshToken: null,
         resolvedSeason: null,
         resolvedShortcut: null
       };
@@ -1415,15 +1416,22 @@
       }
 
       async function requestRefresh(explicit) {
-        setStatus(explicit ? 'Lade Live-Daten …' : 'Aktualisiere …', 'info');
+        const requestedSport = state.sport;
+        const requestedLeague = state.league;
+        const refreshToken = Symbol('refresh');
+        state.refreshToken = refreshToken;
         state.fetchInFlight = true;
         state.lastFetchStart = Date.now();
+        setStatus(explicit ? 'Lade Live-Daten …' : 'Aktualisiere …', 'info');
 
         try {
-          if (state.sport === 'football') {
-            await loadFootball();
+          if (requestedSport === 'football') {
+            await loadFootball({ refreshToken, leagueId: requestedLeague });
           } else {
-            await loadTennis();
+            await loadTennis({ refreshToken });
+          }
+          if (state.refreshToken !== refreshToken) {
+            return;
           }
           const postLevel = DOM.statusBox.dataset.level;
           if (postLevel === 'info') {
@@ -1434,26 +1442,60 @@
             }), 'info');
           }
         } catch (error) {
-          console.error(error);
-          setStatus('Fehler beim Laden: ' + error.message, 'error');
+          if (state.refreshToken === refreshToken) {
+            console.error(error);
+            setStatus('Fehler beim Laden: ' + error.message, 'error');
+          } else {
+            console.error(error);
+          }
         } finally {
-          state.fetchInFlight = false;
+          if (state.refreshToken === refreshToken) {
+            state.fetchInFlight = false;
+          }
         }
       }
 
-      async function loadFootball() {
-        const leagueConfig = FOOTBALL_LEAGUES.find((league) => league.id === state.league) || FOOTBALL_LEAGUES[0];
-        if (leagueConfig && leagueConfig.id !== state.league) {
-          state.league = leagueConfig.id;
-          if (DOM.leagueSelect) {
-            DOM.leagueSelect.value = leagueConfig.id;
+      async function loadFootball(options = {}) {
+        const refreshToken = options.refreshToken;
+        const requestedLeagueId = options.leagueId ?? state.league ?? FOOTBALL_LEAGUES[0]?.id ?? null;
+        const isLatest = () => !refreshToken || state.refreshToken === refreshToken;
+        const apply = (fn) => {
+          if (isLatest()) {
+            fn();
           }
+        };
+        const applyRenderMatches = (matches, emptyMessage) => apply(() => renderMatches(matches, emptyMessage));
+        const applyRenderTable = (rows, config) => apply(() => renderTable(rows, config));
+        const applyHideTable = () => apply(() => hideTable());
+        const applyStatus = (message, level) => apply(() => setStatus(message, level));
+
+        let leagueConfig = FOOTBALL_LEAGUES.find((league) => league.id === requestedLeagueId) || null;
+        let effectiveLeagueId = requestedLeagueId;
+
+        if (!leagueConfig && FOOTBALL_LEAGUES.length) {
+          leagueConfig = FOOTBALL_LEAGUES[0];
+          effectiveLeagueId = leagueConfig.id;
+          apply(() => {
+            state.league = leagueConfig.id;
+            if (DOM.leagueSelect) {
+              DOM.leagueSelect.value = leagueConfig.id;
+            }
+          });
         }
-        const provider = leagueConfig?.provider || 'openliga';
-        if (provider === 'espn') {
-          await loadEspnFootball(leagueConfig);
+
+        if (!leagueConfig) {
+          applyRenderMatches([], 'Keine Spiele für den ausgewählten Tag gefunden.');
+          applyHideTable();
+          applyStatus('Keine Wettbewerbe konfiguriert.', 'warning');
           return;
         }
+
+        const provider = leagueConfig.provider || 'openliga';
+        if (provider === 'espn') {
+          await loadEspnFootball(leagueConfig, { refreshToken, leagueId: effectiveLeagueId });
+          return;
+        }
+
         const season = deriveFootballSeason(state.date);
         const attempts = resolveLeagueShortcuts(leagueConfig, season);
 
@@ -1487,7 +1529,9 @@
         if ((!Array.isArray(rawData) || rawData.length === 0) && isChampionsLeague) {
           const fallbackUsed = await loadChampionsLeagueFromEspn(leagueConfig, {
             season,
-            reason: 'keine OpenLigaDB-Daten für die aktuelle Saison'
+            reason: 'keine OpenLigaDB-Daten für die aktuelle Saison',
+            refreshToken,
+            leagueId: effectiveLeagueId
           });
           if (fallbackUsed) {
             return;
@@ -1496,25 +1540,31 @@
 
         if (!Array.isArray(rawData) || rawData.length === 0) {
           const detail = lastError ? ` (${lastError.message})` : '';
-          renderMatches([], 'Keine Spiele für den ausgewählten Tag gefunden.');
+          applyRenderMatches([], 'Keine Spiele für den ausgewählten Tag gefunden.');
           if (leagueConfig.table) {
-            renderTable([], { emptyMessage: 'Keine Tabellen-Daten hinterlegt.' });
+            applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten hinterlegt.' });
           } else {
-            hideTable();
+            applyHideTable();
           }
-          setStatus('Keine Daten für ' + leagueConfig.label + ' verfügbar' + detail + '.', 'warning');
-          state.resolvedSeason = null;
-          state.resolvedShortcut = null;
+          applyStatus('Keine Daten für ' + leagueConfig.label + ' verfügbar' + detail + '.', 'warning');
+          apply(() => {
+            state.resolvedSeason = null;
+            state.resolvedShortcut = null;
+          });
           return;
         }
 
-        state.resolvedSeason = resolvedSeason;
-        state.resolvedShortcut = resolvedAttempt?.shortcut || null;
+        apply(() => {
+          state.resolvedSeason = resolvedSeason;
+          state.resolvedShortcut = resolvedAttempt?.shortcut || null;
+        });
 
         if (isChampionsLeague && Number.isFinite(season) && Number.isFinite(resolvedSeason) && resolvedSeason < season) {
           const fallbackUsed = await loadChampionsLeagueFromEspn(leagueConfig, {
             season,
-            reason: `OpenLigaDB-Saison ${resolvedSeason}/${String((resolvedSeason + 1) % 100).padStart(2, '0')} statt ${season}/${String((season + 1) % 100).padStart(2, '0')}`
+            reason: `OpenLigaDB-Saison ${resolvedSeason}/${String((resolvedSeason + 1) % 100).padStart(2, '0')} statt ${season}/${String((season + 1) % 100).padStart(2, '0')}`,
+            refreshToken,
+            leagueId: effectiveLeagueId
           });
           if (fallbackUsed) {
             return;
@@ -1524,7 +1574,7 @@
         if (Number.isFinite(season) && Number.isFinite(resolvedSeason) && resolvedSeason !== season) {
           const resolvedLabel = `${resolvedSeason}/${String((resolvedSeason + 1) % 100).padStart(2, '0')}`;
           const requestedLabel = `${season}/${String((season + 1) % 100).padStart(2, '0')}`;
-          setStatus(`OpenLigaDB liefert für ${leagueConfig.label} aktuell keine Daten für ${requestedLabel} – zeige Saison ${resolvedLabel}.`, 'warning');
+          applyStatus(`OpenLigaDB liefert für ${leagueConfig.label} aktuell keine Daten für ${requestedLabel} – zeige Saison ${resolvedLabel}.`, 'warning');
         }
 
         if (Array.isArray(rawData)) {
@@ -1532,15 +1582,23 @@
             ? leagueConfig.matchdayBuilder
             : buildMatchdayMetadata;
           const metadata = builder(rawData, { leagueConfig });
-          state.matchdays = metadata;
-          state.matchdayDateLookup = createMatchdayDateLookup(metadata);
-          ensureActiveMatchday(metadata);
-          updateMatchdayDisplay();
+          apply(() => {
+            state.matchdays = metadata;
+            state.matchdayDateLookup = createMatchdayDateLookup(metadata);
+            ensureActiveMatchday(metadata);
+            updateMatchdayDisplay();
+          });
         } else {
-          state.matchdays = [];
-          state.matchdayDateLookup = new Map();
-          state.activeMatchdayOrder = null;
-          updateMatchdayDisplay();
+          apply(() => {
+            state.matchdays = [];
+            state.matchdayDateLookup = new Map();
+            state.activeMatchdayOrder = null;
+            updateMatchdayDisplay();
+          });
+        }
+
+        if (!isLatest()) {
+          return;
         }
 
         const matches = rawData
@@ -1562,7 +1620,7 @@
             };
           });
 
-        renderMatches(matches, 'Keine Spiele für den ausgewählten Tag gefunden.');
+        applyRenderMatches(matches, 'Keine Spiele für den ausgewählten Tag gefunden.');
 
         const allMatchesPlanned = matches.length > 0 && matches.every((entry) => entry.status === 'Geplant');
 
@@ -1570,8 +1628,9 @@
           || attempts?.[0]?.shortcut
           || (typeof leagueConfig.shortcut === 'string' ? leagueConfig.shortcut : null);
         const effectiveSeason = Number.isFinite(resolvedAttempt?.season) ? resolvedAttempt.season : season;
-  const allowOpenligaTable = leagueConfig.openligaTable !== false;
-  if (leagueConfig.table && effectiveShortcut && allowOpenligaTable) {
+        const allowOpenligaTable = leagueConfig.openligaTable !== false;
+
+        if (leagueConfig.table && effectiveShortcut && allowOpenligaTable) {
           let matchday = deriveMatchday(rawData, matches);
           if (!Number.isFinite(matchday) && Number.isFinite(state.activeMatchdayOrder)) {
             matchday = state.activeMatchdayOrder;
@@ -1582,41 +1641,71 @@
           const tableResult = await resolveFootballTable(effectiveShortcut, season, matchday, {
             preferredSeason: effectiveSeason
           });
+          if (!isLatest()) {
+            return;
+          }
           if (tableResult.rows.length) {
-            renderTable(tableResult.rows);
+            applyRenderTable(tableResult.rows);
             if (tableResult.notice) {
-              setStatus(tableResult.notice, 'warning');
+              applyStatus(tableResult.notice, 'warning');
             }
           } else {
             const emptyMessage = allMatchesPlanned
               ? 'Tabelle wird nach Abschluss des Spieltags aktualisiert.'
               : 'Keine Tabellen-Daten für diesen Spieltag verfügbar.';
-            renderTable([], { emptyMessage });
+            applyRenderTable([], { emptyMessage });
             if (tableResult.error?.status === 404 || allMatchesPlanned) {
-              setStatus('Für diesen Spieltag liegt noch keine Tabelle vor.', 'info');
+              applyStatus('Für diesen Spieltag liegt noch keine Tabelle vor.', 'info');
             } else if (tableResult.error) {
-              setStatus('Tabelle konnte nicht geladen werden: ' + tableResult.error.message, 'warning');
+              applyStatus('Tabelle konnte nicht geladen werden: ' + tableResult.error.message, 'warning');
             } else {
-              setStatus('Tabelle konnte nicht bestimmt werden (kein Spieltag gefunden).', 'warning');
+              applyStatus('Tabelle konnte nicht bestimmt werden (kein Spieltag gefunden).', 'warning');
             }
           }
         } else {
           if (leagueConfig.table) {
-            renderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+            applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
           } else {
-            hideTable();
+            applyHideTable();
           }
         }
       }
 
-      async function loadChampionsLeagueFromEspn(leagueConfig, { season, reason } = {}) {
+      async function loadChampionsLeagueFromEspn(leagueConfig, { season, reason, refreshToken } = {}) {
+        const isLatest = () => !refreshToken || state.refreshToken === refreshToken;
+        const applyStatus = (message, level) => {
+          if (isLatest()) {
+            setStatus(message, level);
+          }
+        };
+        const applyRenderMatches = (matches, emptyMessage) => {
+          if (isLatest()) {
+            renderMatches(matches, emptyMessage);
+          }
+        };
+        const applyRenderTable = (rows, config) => {
+          if (isLatest()) {
+            renderTable(rows, config);
+          }
+        };
+        const applyHideTable = () => {
+          if (isLatest()) {
+            hideTable();
+          }
+        };
+        const applyState = (fn) => {
+          if (isLatest()) {
+            fn();
+          }
+        };
+
         const slug = leagueConfig?.espnSlug || 'uefa.champions';
         const competitionLabel = leagueConfig?.label || 'Champions League';
         let baseScoreboard;
         try {
           baseScoreboard = await fetchEspnFootballScoreboard(slug);
         } catch (error) {
-          setStatus('Champions League via ESPN konnte nicht geladen werden: ' + error.message, 'error');
+          applyStatus('Champions League via ESPN konnte nicht geladen werden: ' + error.message, 'error');
           return false;
         }
 
@@ -1631,7 +1720,7 @@
         }
 
         if (!stageEntries.length) {
-          setStatus('ESPN liefert derzeit keine Phaseninformationen für die Champions League.', 'warning');
+          applyStatus('ESPN liefert derzeit keine Phaseninformationen für die Champions League.', 'warning');
           return false;
         }
 
@@ -1658,7 +1747,7 @@
         }).filter((entry) => entry != null);
 
         if (!stageContexts.length) {
-          setStatus('Champions League via ESPN konnte nicht vorbereitet werden (keine Phasen).', 'warning');
+          applyStatus('Champions League via ESPN konnte nicht vorbereitet werden (keine Phasen).', 'warning');
           return false;
         }
 
@@ -1851,15 +1940,17 @@
 
         if (!aggregatedMatches.size) {
           const detail = fetchErrors.length ? ' (Fehler bei den ESPN-Anfragen)' : '';
-          setStatus('Keine Champions-League-Begegnungen via ESPN verfügbar' + detail + '.', 'warning');
-          state.matchdays = [];
-          state.matchdayDateLookup = new Map();
-          state.activeMatchdayOrder = null;
-          updateMatchdayDisplay();
-          renderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
-          hideTable();
-          state.resolvedSeason = baseScoreboard?.season?.year || leagueInfo?.season?.year || season || null;
-          state.resolvedShortcut = null;
+          applyStatus('Keine Champions-League-Begegnungen via ESPN verfügbar' + detail + '.', 'warning');
+          applyState(() => {
+            state.matchdays = [];
+            state.matchdayDateLookup = new Map();
+            state.activeMatchdayOrder = null;
+            updateMatchdayDisplay();
+            state.resolvedSeason = baseScoreboard?.season?.year || leagueInfo?.season?.year || season || null;
+            state.resolvedShortcut = null;
+          });
+          applyRenderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+          applyHideTable();
           return false;
         }
 
@@ -1934,15 +2025,17 @@
         }
 
         if (!metadata.length) {
-          setStatus('Champions League via ESPN konnte keine Spieltage bestimmen.', 'warning');
-          renderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
-          hideTable();
-          state.matchdays = [];
-          state.matchdayDateLookup = new Map();
-          state.activeMatchdayOrder = null;
-          updateMatchdayDisplay();
-          state.resolvedSeason = baseScoreboard?.season?.year || leagueInfo?.season?.year || season || null;
-          state.resolvedShortcut = null;
+          applyStatus('Champions League via ESPN konnte keine Spieltage bestimmen.', 'warning');
+          applyRenderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+          applyHideTable();
+          applyState(() => {
+            state.matchdays = [];
+            state.matchdayDateLookup = new Map();
+            state.activeMatchdayOrder = null;
+            updateMatchdayDisplay();
+            state.resolvedSeason = baseScoreboard?.season?.year || leagueInfo?.season?.year || season || null;
+            state.resolvedShortcut = null;
+          });
           return false;
         }
 
@@ -1982,7 +2075,7 @@
           ? Array.from(expectedIds).filter((id) => !aggregatedMatches.has(id))
           : [];
 
-        renderMatches(matches, 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+        applyRenderMatches(matches, 'Keine Spiele für den ausgewählten Spieltag gefunden.');
 
         let tableWarning = null;
         if (leagueConfig.table) {
@@ -1990,20 +2083,22 @@
             const standingsData = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug || slug);
             const rows = formatEspnFootballStandings(standingsData);
             if (rows.length) {
-              renderTable(rows);
+              applyRenderTable(rows);
             } else {
-              renderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+              applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
             }
           } catch (error) {
-            renderTable([], { emptyMessage: 'Tabelle konnte nicht geladen werden.' });
+            applyRenderTable([], { emptyMessage: 'Tabelle konnte nicht geladen werden.' });
             tableWarning = 'Tabelle für ' + competitionLabel + ' konnte nicht geladen werden: ' + error.message;
           }
         } else {
-          hideTable();
+          applyHideTable();
         }
 
-        state.resolvedSeason = baseScoreboard?.season?.year || leagueInfo?.season?.year || season || null;
-        state.resolvedShortcut = null;
+        applyState(() => {
+          state.resolvedSeason = baseScoreboard?.season?.year || leagueInfo?.season?.year || season || null;
+          state.resolvedShortcut = null;
+        });
 
         let statusLevel = reason ? 'warning' : 'info';
         let statusMessage = reason
@@ -2034,28 +2129,58 @@
           statusLevel = 'warning';
         }
 
-        setStatus(statusMessage, statusLevel);
+        applyStatus(statusMessage, statusLevel);
 
         return true;
       }
 
-      async function loadEspnFootball(leagueConfig) {
+      async function loadEspnFootball(leagueConfig, options = {}) {
+        const refreshToken = options.refreshToken;
+        const isLatest = () => !refreshToken || state.refreshToken === refreshToken;
+        const applyStatus = (message, level) => {
+          if (isLatest()) {
+            setStatus(message, level);
+          }
+        };
+        const applyRenderMatches = (matches, emptyMessage) => {
+          if (isLatest()) {
+            renderMatches(matches, emptyMessage);
+          }
+        };
+        const applyRenderTable = (rows, config) => {
+          if (isLatest()) {
+            renderTable(rows, config);
+          }
+        };
+        const applyHideTable = () => {
+          if (isLatest()) {
+            hideTable();
+          }
+        };
+        const applyState = (fn) => {
+          if (isLatest()) {
+            fn();
+          }
+        };
+
         const slug = leagueConfig?.espnSlug;
         const competitionLabel = leagueConfig?.label || 'Wettbewerb';
         if (!slug) {
-          setStatus('Keine Datenquelle für ' + competitionLabel + ' hinterlegt.', 'error');
-          renderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+          applyStatus('Keine Datenquelle für ' + competitionLabel + ' hinterlegt.', 'error');
+          applyRenderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
           if (leagueConfig.table) {
-            renderTable([], { emptyMessage: 'Keine Tabellen-Daten hinterlegt.' });
+            applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten hinterlegt.' });
           } else {
-            hideTable();
+            applyHideTable();
           }
-          state.matchdays = [];
-          state.matchdayDateLookup = new Map();
-          state.activeMatchdayOrder = null;
-          updateMatchdayDisplay();
-          state.resolvedSeason = null;
-          state.resolvedShortcut = null;
+          applyState(() => {
+            state.matchdays = [];
+            state.matchdayDateLookup = new Map();
+            state.activeMatchdayOrder = null;
+            updateMatchdayDisplay();
+            state.resolvedSeason = null;
+            state.resolvedShortcut = null;
+          });
           return;
         }
 
@@ -2063,19 +2188,21 @@
         try {
           scoreboard = await fetchEspnFootballScoreboard(slug);
         } catch (error) {
-          state.matchdays = [];
-          state.matchdayDateLookup = new Map();
-          state.activeMatchdayOrder = null;
-          updateMatchdayDisplay();
-          renderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+          applyState(() => {
+            state.matchdays = [];
+            state.matchdayDateLookup = new Map();
+            state.activeMatchdayOrder = null;
+            updateMatchdayDisplay();
+            state.resolvedSeason = null;
+            state.resolvedShortcut = null;
+          });
+          applyRenderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
           if (leagueConfig.table) {
-            renderTable([], { emptyMessage: 'Keine Tabellen-Daten hinterlegt.' });
+            applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten hinterlegt.' });
           } else {
-            hideTable();
+            applyHideTable();
           }
-          setStatus('ESPN-Daten für ' + competitionLabel + ' konnten nicht geladen werden: ' + error.message, 'error');
-          state.resolvedSeason = null;
-          state.resolvedShortcut = null;
+          applyStatus('ESPN-Daten für ' + competitionLabel + ' konnten nicht geladen werden: ' + error.message, 'error');
           return;
         }
 
@@ -2083,30 +2210,36 @@
         const metadata = await ensureEspnMatchdayMetadata(slug, scoreboard, leagueInfo);
 
         if (metadata.length) {
-          state.matchdays = metadata.map((entry) => ({
-            order: entry.order,
-            label: entry.label,
-            primaryDate: entry.primaryDate,
-            dates: Array.isArray(entry.dates) ? [...entry.dates] : [],
-            matchIds: Array.isArray(entry.matchIds) ? [...entry.matchIds] : []
-          }));
-          state.matchdayDateLookup = createMatchdayDateLookup(metadata);
-          ensureActiveMatchday(metadata);
-          const activeEntry = metadata.find((entry) => entry.order === state.activeMatchdayOrder) || metadata[0];
-          if (activeEntry) {
-            updateMatchdayState(activeEntry.primaryDate, activeEntry.order);
-          } else {
-            updateMatchdayDisplay();
-          }
+          applyState(() => {
+            state.matchdays = metadata.map((entry) => ({
+              order: entry.order,
+              label: entry.label,
+              primaryDate: entry.primaryDate,
+              dates: Array.isArray(entry.dates) ? [...entry.dates] : [],
+              matchIds: Array.isArray(entry.matchIds) ? [...entry.matchIds] : []
+            }));
+            state.matchdayDateLookup = createMatchdayDateLookup(metadata);
+            ensureActiveMatchday(metadata);
+            const activeEntry = metadata.find((entry) => entry.order === state.activeMatchdayOrder) || metadata[0];
+            if (activeEntry) {
+              updateMatchdayState(activeEntry.primaryDate, activeEntry.order);
+            } else {
+              updateMatchdayDisplay();
+            }
+          });
         } else {
-          state.matchdays = [];
-          state.matchdayDateLookup = new Map();
-          state.activeMatchdayOrder = null;
-          updateMatchdayDisplay();
+          applyState(() => {
+            state.matchdays = [];
+            state.matchdayDateLookup = new Map();
+            state.activeMatchdayOrder = null;
+            updateMatchdayDisplay();
+          });
         }
 
-        state.resolvedSeason = scoreboard?.season?.year || leagueInfo?.season?.year || null;
-        state.resolvedShortcut = null;
+        applyState(() => {
+          state.resolvedSeason = scoreboard?.season?.year || leagueInfo?.season?.year || null;
+          state.resolvedShortcut = null;
+        });
 
     const selectedEntry = state.matchdays.find((entry) => entry.order === state.activeMatchdayOrder) || state.matchdays[0] || null;
     const aggregated = new Map();
@@ -2143,6 +2276,10 @@
           }
         }
 
+        if (!isLatest()) {
+          return;
+        }
+
         let matches = Array.from(aggregated.values());
         const expectedMatchIds = Array.isArray(selectedEntry?.matchIds)
           ? selectedEntry.matchIds.map((id) => String(id))
@@ -2156,22 +2293,22 @@
         const emptyMessage = 'Keine Spiele für den ausgewählten Spieltag gefunden.';
 
         if (!matches.length) {
-          renderMatches([], emptyMessage);
+          applyRenderMatches([], emptyMessage);
           if (dateErrors.length) {
             const detail = dateErrors.map((entry) => entry.error?.message).filter(Boolean).join('; ');
-            setStatus('Keine Begegnungen für ' + competitionLabel + ' – Teilabrufe fehlgeschlagen' + (detail ? ` (${detail})` : ''), 'warning');
+            applyStatus('Keine Begegnungen für ' + competitionLabel + ' – Teilabrufe fehlgeschlagen' + (detail ? ` (${detail})` : ''), 'warning');
           } else if (missingMatchIds.length) {
-            setStatus('Keine Begegnungen für ' + competitionLabel + ' gefunden – fehlende Spiele: ' + missingMatchIds.join(', '), 'warning');
+            applyStatus('Keine Begegnungen für ' + competitionLabel + ' gefunden – fehlende Spiele: ' + missingMatchIds.join(', '), 'warning');
           } else {
-            setStatus('Keine Begegnungen für ' + competitionLabel + ' gefunden.', 'warning');
+            applyStatus('Keine Begegnungen für ' + competitionLabel + ' gefunden.', 'warning');
           }
         } else {
-          renderMatches(matches, emptyMessage);
+          applyRenderMatches(matches, emptyMessage);
           if (dateErrors.length) {
             const failedDays = dateErrors.map((entry) => entry.date).filter(Boolean).join(', ');
-            setStatus('Daten für ' + competitionLabel + ' teilweise unvollständig (fehlende Tage: ' + failedDays + ').', 'warning');
+            applyStatus('Daten für ' + competitionLabel + ' teilweise unvollständig (fehlende Tage: ' + failedDays + ').', 'warning');
           } else if (missingMatchIds.length) {
-            setStatus('Daten für ' + competitionLabel + ' teilweise unvollständig (fehlende Spiele: ' + missingMatchIds.join(', ') + ').', 'warning');
+            applyStatus('Daten für ' + competitionLabel + ' teilweise unvollständig (fehlende Spiele: ' + missingMatchIds.join(', ') + ').', 'warning');
           }
         }
 
@@ -2180,16 +2317,16 @@
             const standingsData = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug || slug);
             const rows = formatEspnFootballStandings(standingsData);
             if (rows.length) {
-              renderTable(rows);
+              applyRenderTable(rows);
             } else {
-              renderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+              applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
             }
           } catch (error) {
-            renderTable([], { emptyMessage: 'Tabelle konnte nicht geladen werden.' });
-            setStatus('Tabelle für ' + competitionLabel + ' konnte nicht geladen werden: ' + error.message, 'warning');
+            applyRenderTable([], { emptyMessage: 'Tabelle konnte nicht geladen werden.' });
+            applyStatus('Tabelle für ' + competitionLabel + ' konnte nicht geladen werden: ' + error.message, 'warning');
           }
         } else {
-          hideTable();
+          applyHideTable();
         }
       }
 
@@ -2331,10 +2468,13 @@
     const uniqueDates = Array.from(new Set(calendar.map((entry) => normalizeToIsoDate(entry)).filter(Boolean))).sort();
         const seasonMatches = [];
         const seenMatches = new Set();
+        const TARGET_MATCH_COUNT = ESPN_EXPECTED_MATCHES_PER_MATCHDAY * 40;
+        const MAX_CONCURRENT_FETCHES = 5;
+        let cursor = 0;
 
-        for (const isoDate of uniqueDates) {
+        const processDate = async (isoDate) => {
           if (!isoDate) {
-            continue;
+            return;
           }
           let dayScoreboard = baseScoreboard;
           if (!dayScoreboard || normalizeToIsoDate(dayScoreboard?.day?.date) !== isoDate) {
@@ -2342,7 +2482,7 @@
               dayScoreboard = await fetchEspnFootballScoreboard(slug, isoDate);
             } catch (error) {
               console.warn('ESPN scoreboard fetch failed for', slug, isoDate, error);
-              continue;
+              return;
             }
           }
           const matches = extractEspnFootballMatches(dayScoreboard);
@@ -2362,7 +2502,22 @@
               timestamp: Number.isFinite(parsedTimestamp) ? parsedTimestamp : fallbackTimestamp
             });
           });
-        }
+        };
+
+        const worker = async () => {
+          while (cursor < uniqueDates.length) {
+            if (seasonMatches.length >= TARGET_MATCH_COUNT) {
+              break;
+            }
+            const index = cursor;
+            cursor += 1;
+            const isoDate = uniqueDates[index];
+            await processDate(isoDate);
+          }
+        };
+
+        const workerCount = Math.min(MAX_CONCURRENT_FETCHES, uniqueDates.length || 1);
+        await Promise.all(Array.from({ length: workerCount }, worker));
 
         if (seasonMatches.length === 0) {
           const fallbackDates = uniqueDates.slice(0, 38);
@@ -2504,7 +2659,25 @@
         return rows;
       }
 
-      async function loadTennis() {
+      async function loadTennis(options = {}) {
+        const refreshToken = options.refreshToken;
+        const isLatest = () => !refreshToken || state.refreshToken === refreshToken;
+        const applyStatus = (message, level) => {
+          if (isLatest()) {
+            setStatus(message, level);
+          }
+        };
+        const applyRenderMatches = (matches, emptyMessage) => {
+          if (isLatest()) {
+            renderMatches(matches, emptyMessage);
+          }
+        };
+        const applyHideTable = () => {
+          if (isLatest()) {
+            hideTable();
+          }
+        };
+
         const date = state.date;
         const aggregated = new Map();
         let lastError = null;
@@ -2530,13 +2703,13 @@
         if (!matches.length) {
           matches = buildDemoMatches('Tennis', TENNIS_SCOPE_LABEL, date);
           const detail = lastError ? ` (Quelle: ${lastError.message})` : '';
-          setStatus('Keine aktuellen Tennis-Daten gefunden – zeige Demo-Ergebnisse' + detail, 'warning');
+          applyStatus('Keine aktuellen Tennis-Daten gefunden – zeige Demo-Ergebnisse' + detail, 'warning');
         } else if (lastError) {
-          setStatus('Teilweise Tennis-Daten geladen – Fallback aktiv (' + lastError.message + ')', 'warning');
+          applyStatus('Teilweise Tennis-Daten geladen – Fallback aktiv (' + lastError.message + ')', 'warning');
         }
 
-        renderMatches(matches, 'Keine Tennisbegegnungen für den gewählten Tag gefunden.');
-        hideTable();
+        applyRenderMatches(matches, 'Keine Tennisbegegnungen für den gewählten Tag gefunden.');
+        applyHideTable();
       }
 
 
