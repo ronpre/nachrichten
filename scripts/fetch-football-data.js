@@ -119,7 +119,7 @@ async function fetchFromFootballData(endpoint, params = {}) {
   return response.json();
 }
 
-function normalizeMatch(match) {
+function normalizeMatch(match, competitionCode) {
   const id = String(match.id);
   const utcDate = match.utcDate || null;
   const isoDate = utcDate ? new Date(utcDate).toISOString().slice(0, 10) : null;
@@ -127,6 +127,11 @@ function normalizeMatch(match) {
   const stage = match.stage || null;
   const group = match.group || null;
   const matchday = Number.isFinite(match.matchday) ? match.matchday : null;
+  let stageOrder = null;
+  if (competitionCode === 'CL') {
+    const stageKey = typeof stage === 'string' ? stage.toUpperCase() : '';
+    stageOrder = CL_STAGE_ORDER.get(stageKey) ?? null;
+  }
 
   const fullTime = match.score?.fullTime ?? {};
   const penalties = match.score?.penalties ?? {};
@@ -140,6 +145,7 @@ function normalizeMatch(match) {
     stage,
     group,
     matchday,
+    stageOrder,
     homeTeam: {
       id: match.homeTeam?.id ?? null,
       name: match.homeTeam?.name ?? 'Heim',
@@ -510,7 +516,7 @@ async function main() {
   }
 
   const matches = Array.isArray(matchesResponse.matches)
-    ? matchesResponse.matches.map(normalizeMatch)
+    ? matchesResponse.matches.map((match) => normalizeMatch(match, competitionCode))
     : [];
   const matchdays = createMatchdayMetadata(matches, competitionCode);
   const standings = standingsResponse
