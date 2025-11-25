@@ -213,6 +213,102 @@ function normalizeStandings(standingsPayload) {
   return rows;
 }
 
+function deriveStandingsFromMatches(matches) {
+  if (!Array.isArray(matches) || !matches.length) {
+    return [];
+  }
+
+  const table = new Map();
+
+  const ensureTeam = (team) => {
+    const teamId = team?.id != null ? String(team.id) : null;
+    const key = teamId || (team?.shortName && team.shortName.trim()) || (team?.name && team.name.trim());
+    if (!key) {
+      return null;
+    }
+    if (!table.has(key)) {
+      table.set(key, {
+        key,
+        teamId,
+        team: team?.shortName || team?.name || 'Team',
+        group: null,
+        played: 0,
+        wins: 0,
+        draws: 0,
+        losses: 0,
+        goalsFor: 0,
+        goalsAgainst: 0,
+        goalDifference: 0,
+        points: 0
+      });
+    }
+    return table.get(key);
+  };
+
+  matches.forEach((match) => {
+    const homeScore = match?.score?.fullTime?.home;
+    const awayScore = match?.score?.fullTime?.away;
+    if (!Number.isFinite(homeScore) || !Number.isFinite(awayScore)) {
+      return;
+    }
+
+    const homeTeam = ensureTeam(match?.homeTeam);
+    const awayTeam = ensureTeam(match?.awayTeam);
+    if (!homeTeam || !awayTeam) {
+      return;
+    }
+
+    homeTeam.played += 1;
+    awayTeam.played += 1;
+
+    homeTeam.goalsFor += homeScore;
+    homeTeam.goalsAgainst += awayScore;
+    awayTeam.goalsFor += awayScore;
+    awayTeam.goalsAgainst += homeScore;
+
+    if (homeScore > awayScore) {
+      homeTeam.wins += 1;
+      homeTeam.points += 3;
+      awayTeam.losses += 1;
+    } else if (homeScore < awayScore) {
+      awayTeam.wins += 1;
+      awayTeam.points += 3;
+      homeTeam.losses += 1;
+    } else {
+      homeTeam.draws += 1;
+      awayTeam.draws += 1;
+      homeTeam.points += 1;
+      awayTeam.points += 1;
+    }
+  });
+
+  const rows = Array.from(table.values())
+    .map((row) => {
+      row.goalDifference = row.goalsFor - row.goalsAgainst;
+      return row;
+    })
+    .filter((row) => row.played > 0);
+
+  rows.sort((a, b) => {
+    if (b.points !== a.points) {
+      return b.points - a.points;
+    }
+    if (b.goalDifference !== a.goalDifference) {
+      return b.goalDifference - a.goalDifference;
+    }
+    if (b.goalsFor !== a.goalsFor) {
+      return b.goalsFor - a.goalsFor;
+    }
+    return (a.team || '').localeCompare(b.team || '');
+  });
+
+  rows.forEach((row, index) => {
+    row.rank = index + 1;
+  });
+
+  return rows;
+}
+
 async function main() {
   const cliOptions = parseCliArguments(process.argv);
   const competitionCode = (cliOptions.competition || 'CL').toUpperCase();
@@ -249,6 +345,8 @@ async function main() {
     ? normalizeStandings(standingsResponse.standings)
     : [];
 
+  const standingsWithFallback = standings.length ? standings : deriveStandingsFromMatches(matches);
+
   const payload = {
     generatedAt: new Date().toISOString(),
     source: 'football-data.org',
@@ -266,7 +364,7 @@ async function main() {
     },
     matchdays,
     matches,
-    standings
+    standings: standingsWithFallback
   };
 
   await fs.mkdir(path.dirname(outputFile), { recursive: true });
