@@ -1,7 +1,12 @@
 #!/usr/bin/env node
-const fs = require('fs/promises');
-const path = require('path');
-const Parser = require('rss-parser');
+
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import Parser from 'rss-parser';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const OUTPUT_FILE = path.join(__dirname, 'news.json');
 const UPDATE_INTERVAL_MS = 60 * 60 * 1000;
@@ -183,7 +188,7 @@ async function updateNews() {
         categories
     };
 
-    await fs.writeFile(OUTPUT_FILE, JSON.stringify(payload, null, 2), 'utf-8');
+    await fs.writeFile(OUTPUT_FILE, JSON.stringify(payload, null, 2), 'utf8');
 
     console.log(`News aktualisiert (${new Date(payload.updatedAt).toLocaleString('de-DE')}), Dauer ${(Date.now() - start)}ms`);
 }
@@ -192,7 +197,7 @@ async function ensureInitialFile() {
     try {
         await fs.access(OUTPUT_FILE);
     } catch (error) {
-        await fs.writeFile(OUTPUT_FILE, JSON.stringify({ updatedAt: null, categories: {} }, null, 2), 'utf-8');
+        await fs.writeFile(OUTPUT_FILE, JSON.stringify({ updatedAt: null, categories: {} }, null, 2), 'utf8');
     }
 }
 
