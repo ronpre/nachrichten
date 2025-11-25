@@ -809,21 +809,56 @@
         }
       }
 
+      function resolveFootballDataFinalScore(score) {
+        if (!score || typeof score !== 'object') {
+          return { home: null, away: null, source: null, fallbackHome: null, fallbackAway: null };
+        }
+        const toNumber = (value) => {
+          if (typeof value === 'number') {
+            return Number.isFinite(value) ? value : null;
+          }
+          if (typeof value === 'string' && value.trim() !== '') {
+            const parsed = Number.parseInt(value, 10);
+            return Number.isFinite(parsed) ? parsed : null;
+          }
+          return null;
+        };
+        const fullHome = toNumber(score?.fullTime?.home);
+        const fullAway = toNumber(score?.fullTime?.away);
+        const extraHome = toNumber(score?.extraTime?.home);
+        const extraAway = toNumber(score?.extraTime?.away);
+        const penHome = toNumber(score?.penalties?.home);
+        const penAway = toNumber(score?.penalties?.away);
+
+        if (penHome != null && penAway != null && penHome !== penAway) {
+          return { home: penHome, away: penAway, source: 'penalties', fallbackHome: fullHome, fallbackAway: fullAway };
+        }
+        if (
+          extraHome != null &&
+          extraAway != null &&
+          (extraHome !== fullHome || extraAway !== fullAway)
+        ) {
+          return { home: extraHome, away: extraAway, source: 'extraTime', fallbackHome: fullHome, fallbackAway: fullAway };
+        }
+        if (fullHome != null && fullAway != null) {
+          return { home: fullHome, away: fullAway, source: 'fullTime', fallbackHome: fullHome, fallbackAway: fullAway };
+        }
+        return { home: null, away: null, source: null, fallbackHome: fullHome, fallbackAway: fullAway };
+      }
+
       function formatFootballDataScore(score, rawStatus) {
         const status = typeof rawStatus === 'string' ? rawStatus.toUpperCase() : '';
-        const fullHome = Number.isFinite(score?.fullTime?.home) ? score.fullTime.home : null;
-        const fullAway = Number.isFinite(score?.fullTime?.away) ? score.fullTime.away : null;
 
-        if (fullHome == null || fullAway == null) {
-          if (status === 'IN_PLAY' || status === 'LIVE') {
-            const liveHome = Number.isFinite(fullHome) ? fullHome : 0;
-            const liveAway = Number.isFinite(fullAway) ? fullAway : 0;
-            return `${liveHome} : ${liveAway}`;
-          }
-          return '-- : --';
+        const finalScore = resolveFootballDataFinalScore(score);
+        if (finalScore.home != null && finalScore.away != null) {
+          return `${finalScore.home} : ${finalScore.away}`;
         }
-
-        return `${fullHome} : ${fullAway}`;
+        if (status === 'IN_PLAY' || status === 'LIVE') {
+          const fallbackHome = Number.isFinite(finalScore.fallbackHome) ? finalScore.fallbackHome : 0;
+          const fallbackAway = Number.isFinite(finalScore.fallbackAway) ? finalScore.fallbackAway : 0;
+          return `${fallbackHome} : ${fallbackAway}`;
+        }
+        return '-- : --';
       }
 
       function formatFootballDataMatch(rawMatch) {
@@ -834,8 +869,29 @@
         const isoDate = normalizeToIsoDate(rawMatch.isoDate || rawMatch.utcDate || rawMatch.timeRaw);
         const homeName = rawMatch.homeTeam?.name || rawMatch.home || 'Heim';
         const awayName = rawMatch.awayTeam?.name || rawMatch.away || 'Gast';
-        const fullHome = Number.isFinite(rawMatch?.score?.fullTime?.home) ? rawMatch.score.fullTime.home : null;
-        const fullAway = Number.isFinite(rawMatch?.score?.fullTime?.away) ? rawMatch.score.fullTime.away : null;
+        const finalScore = resolveFootballDataFinalScore(rawMatch.score);
+        const fullHome = Number.isFinite(finalScore.home) ? finalScore.home : Number.isFinite(finalScore.fallbackHome) ? finalScore.fallbackHome : null;
+        const fullAway = Number.isFinite(finalScore.away) ? finalScore.away : Number.isFinite(finalScore.fallbackAway) ? finalScore.fallbackAway : null;
+        const statusLabel = mapFootballDataStatus(rawMatch.status);
+        let winner = null;
+        if (statusLabel === 'Beendet') {
+          winner = determineWinner(finalScore.home, finalScore.away);
+          if (!winner && typeof rawMatch?.score?.winner === 'string') {
+            const normalized = rawMatch.score.winner.toLowerCase();
+            if (normalized.includes('home')) {
+              winner = 'home';
+            } else if (normalized.includes('away')) {
+              winner = 'away';
+            }
+          }
+          if (!winner) {
+            const penHome = Number.isFinite(rawMatch?.score?.penalties?.home) ? rawMatch.score.penalties.home : null;
+            const penAway = Number.isFinite(rawMatch?.score?.penalties?.away) ? rawMatch.score.penalties.away : null;
+            if (penHome != null && penAway != null && penHome !== penAway) {
+              winner = determineWinner(penHome, penAway);
+            }
+          }
+        }
         return {
           id: String(rawMatch.id ?? rawMatch.matchId ?? ''),
           timeRaw,
@@ -845,10 +901,10 @@
           home: homeName,
           away: awayName,
           score: formatFootballDataScore(rawMatch.score || {}, rawMatch.status),
-          status: mapFootballDataStatus(rawMatch.status),
+          status: statusLabel,
           homeScore: fullHome,
           awayScore: fullAway,
-          winner: determineWinner(fullHome, fullAway),
+          winner,
           stageOrder: Number.isFinite(rawMatch.stageOrder) ? rawMatch.stageOrder : null
         };
       }
@@ -938,6 +994,7 @@
         window.__clFootballDataHelpers = {
           deriveMatchdaysFromFootballData,
           mapFootballDataStatus,
+          resolveFootballDataFinalScore,
           formatFootballDataScore,
           formatFootballDataMatch,
           loadFootballDataFallbackMatches,
