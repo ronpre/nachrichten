@@ -25,6 +25,204 @@
       box-sizing: border-box;
     }
 
+  function deriveMatchdaysFromFootballData(matches) {
+    if (!Array.isArray(matches)) {
+      return [];
+    }
+    const byMatchday = new Map();
+    matches.forEach((match) => {
+      const order = Number.isFinite(match?.matchday) ? match.matchday : null;
+      if (order == null) {
+        return;
+      }
+      if (!byMatchday.has(order)) {
+        byMatchday.set(order, { dates: new Set(), matchIds: new Set() });
+      }
+      const bucket = byMatchday.get(order);
+      const isoDate = normalizeToIsoDate(match?.utcDate || match?.isoDate);
+      if (isoDate) {
+        bucket.dates.add(isoDate);
+      }
+      if (match?.id != null) {
+        bucket.matchIds.add(String(match.id));
+      }
+    });
+    return Array.from(byMatchday.entries())
+      .sort((a, b) => a[0] - b[0])
+      .map(([order, bucket]) => {
+        const dates = Array.from(bucket.dates).sort();
+        return {
+          order,
+          label: `${order}. Spieltag`,
+          primaryDate: dates[0] ?? null,
+          dates,
+          matchIds: Array.from(bucket.matchIds)
+        };
+      });
+  }
+
+  function mapFootballDataStatus(rawStatus) {
+    const upper = typeof rawStatus === 'string' ? rawStatus.toUpperCase() : '';
+    switch (upper) {
+      case 'SCHEDULED':
+      case 'TIMED':
+      case 'PLANNED':
+        return 'Geplant';
+      case 'IN_PLAY':
+      case 'LIVE':
+      case 'PAUSED':
+        return 'Live';
+      case 'FINISHED':
+      case 'AWARDED':
+        return 'Beendet';
+      case 'POSTPONED':
+      case 'SUSPENDED':
+        return 'Unterbrochen';
+      case 'CANCELLED':
+      case 'ABANDONED':
+        return 'Abgebrochen';
+      default:
+        return 'Geplant';
+    }
+  }
+
+  function formatFootballDataScore(score, rawStatus) {
+    const status = typeof rawStatus === 'string' ? rawStatus.toUpperCase() : '';
+    const fullHome = Number.isFinite(score?.fullTime?.home) ? score.fullTime.home : null;
+    const fullAway = Number.isFinite(score?.fullTime?.away) ? score.fullTime.away : null;
+    const extraHome = Number.isFinite(score?.extraTime?.home) ? score.extraTime.home : null;
+    const extraAway = Number.isFinite(score?.extraTime?.away) ? score.extraTime.away : null;
+    const penHome = Number.isFinite(score?.penalties?.home) ? score.penalties.home : null;
+    const penAway = Number.isFinite(score?.penalties?.away) ? score.penalties.away : null;
+
+    if (fullHome == null || fullAway == null) {
+      if (status === 'IN_PLAY' || status === 'LIVE') {
+        const liveHome = Number.isFinite(fullHome) ? fullHome : 0;
+        const liveAway = Number.isFinite(fullAway) ? fullAway : 0;
+        return `${liveHome} : ${liveAway}`;
+      }
+      return '-- : --';
+    }
+
+    let display = `${fullHome} : ${fullAway}`;
+    if (penHome != null && penAway != null) {
+      display += ` (${penHome}:${penAway} n.E.)`;
+    } else if (
+      extraHome != null && extraAway != null && (extraHome !== fullHome || extraAway !== fullAway)
+    ) {
+      display += ` (${extraHome}:${extraAway} n.V.)`;
+    }
+    return display;
+  }
+
+  function formatFootballDataMatch(rawMatch) {
+    if (!rawMatch) {
+      return null;
+    }
+    const timeRaw = rawMatch.utcDate || rawMatch.timeRaw || null;
+    const isoDate = normalizeToIsoDate(rawMatch.isoDate || rawMatch.utcDate || rawMatch.timeRaw);
+    const homeName = rawMatch.homeTeam?.name || rawMatch.home || 'Heim';
+    const awayName = rawMatch.awayTeam?.name || rawMatch.away || 'Gast';
+    const fullHome = Number.isFinite(rawMatch?.score?.fullTime?.home) ? rawMatch.score.fullTime.home : null;
+    const fullAway = Number.isFinite(rawMatch?.score?.fullTime?.away) ? rawMatch.score.fullTime.away : null;
+    return {
+      id: String(rawMatch.id ?? rawMatch.matchId ?? ''),
+      timeRaw,
+      isoDate,
+      time: formatTime(timeRaw),
+      dateLabel: isoDate ? formatDateForLocale(isoDate) : '',
+      home: homeName,
+      away: awayName,
+      score: formatFootballDataScore(rawMatch.score || {}, rawMatch.status),
+      status: mapFootballDataStatus(rawMatch.status),
+      homeScore: fullHome,
+      awayScore: fullAway,
+      winner: determineWinner(fullHome, fullAway),
+      stageOrder: Number.isFinite(rawMatch.stageOrder) ? rawMatch.stageOrder : null
+    };
+  }
+
+  async function loadFootballDataFallbackMatches(matchMap, selectedEntry, slug, stageGroup) {
+    if (!slug) {
+      return { matches: [], errors: [] };
+    }
+    const aggregated = new Map();
+    const errors = [];
+    const rawDates = Array.isArray(selectedEntry?.dates) && selectedEntry.dates.length
+      ? selectedEntry.dates
+      : [selectedEntry?.primaryDate, state.date].filter(Boolean);
+    const uniqueDates = Array.from(new Set(rawDates.map((date) => normalizeToIsoDate(date)).filter(Boolean)));
+
+    for (const isoDate of uniqueDates) {
+      try {
+        const scoreboard = await fetchEspnFootballScoreboard(
+          slug,
+          isoDate,
+          stageGroup ? { group: stageGroup } : undefined
+        );
+        const matches = extractEspnFootballMatches(scoreboard);
+        matches.forEach((match) => {
+          const identifier = match?.id != null ? String(match.id) : null;
+          if (!identifier || aggregated.has(identifier) || matchMap.has(identifier)) {
+            return;
+          }
+          const mappedStatus = match?.status;
+          let normalizedStatus = 'SCHEDULED';
+          if (mappedStatus === 'Live') {
+            normalizedStatus = 'IN_PLAY';
+          } else if (mappedStatus === 'Beendet') {
+            normalizedStatus = 'FINISHED';
+          } else if (mappedStatus === 'Unterbrochen') {
+            normalizedStatus = 'SUSPENDED';
+          } else if (mappedStatus === 'Abgebrochen') {
+            normalizedStatus = 'CANCELLED';
+          }
+          aggregated.set(identifier, {
+            id: identifier,
+            utcDate: match.timeRaw || null,
+            isoDate: match.isoDate || normalizeToIsoDate(match.timeRaw),
+            status: normalizedStatus,
+            stageOrder: Number.isFinite(selectedEntry?.stageOrder) ? selectedEntry.stageOrder : null,
+            homeTeam: { name: match.home, shortName: match.home },
+            awayTeam: { name: match.away, shortName: match.away },
+            score: {
+              fullTime: {
+                home: Number.isFinite(match.homeScore) ? match.homeScore : null,
+                away: Number.isFinite(match.awayScore) ? match.awayScore : null
+              },
+              extraTime: { home: null, away: null },
+              penalties: { home: null, away: null }
+            }
+          });
+        });
+      } catch (error) {
+        errors.push({ date: isoDate, error });
+      }
+    }
+
+    return { matches: Array.from(aggregated.values()), errors };
+  }
+
+  function formatFootballDataStandings(rows) {
+    if (!Array.isArray(rows)) {
+      return [];
+    }
+    return rows
+      .map((row) => {
+        const rank = Number.isFinite(row?.rank) ? row.rank : null;
+        const team = row?.team || 'Team';
+        const points = Number.isFinite(row?.points) ? row.points : null;
+        const games = Number.isFinite(row?.played) ? row.played : Number.isFinite(row?.games) ? row.games : null;
+        return {
+          rank: rank ?? '-',
+          team,
+          points: points ?? '-',
+          games: games ?? '-'
+        };
+      })
+      .filter((entry) => entry != null);
+  }
+
     body {
       margin: 0;
       background: linear-gradient(160deg, var(--bg) 0%, var(--bg-alt) 100%);
@@ -581,28 +779,9 @@
         {
           id: 'cl-men',
           label: 'CL',
-          shortcut: (season) => {
-            const mapping = new Map([
-              [2024, 'ucl2024'],
-              [2023, 'uefacl22'],
-              [2022, 'uefacl22'],
-              [2020, 'ucl2020']
-            ]);
-            const direct = mapping.get(season);
-            if (direct) {
-              return { season, shortcut: direct };
-            }
-            return [
-              { season: 2024, shortcut: 'ucl2024' },
-              { season: 2022, shortcut: 'uefacl22' },
-              { season: 2020, shortcut: 'ucl2020' },
-              'cl'
-            ];
-          },
-          provider: 'openliga',
+          provider: 'football-data',
           table: true,
-          openligaTable: false,
-          matchdayBuilder: buildChampionsLeagueMetadata,
+          footballDataPath: 'public/data/cl-football-data.json',
           espnSlug: 'uefa.champions',
           espnStandingsSlug: 'uefa.champions'
         },
@@ -747,6 +926,195 @@
             DOM.dateInput.value = state.date ?? '';
           }
         }
+      }
+
+      async function loadChampionsLeagueFromFootballData(leagueConfig, { refreshToken } = {}) {
+        const isLatest = () => !refreshToken || state.refreshToken === refreshToken;
+        const applyStatus = (message, level) => {
+          if (isLatest()) {
+            setStatus(message, level);
+          }
+        };
+        const applyRenderMatches = (matches, emptyMessage) => {
+          if (isLatest()) {
+            renderMatches(matches, emptyMessage);
+          }
+        };
+        const applyRenderTable = (rows, config) => {
+          if (isLatest()) {
+            renderTable(rows, config);
+          }
+        };
+        const applyHideTable = () => {
+          if (isLatest()) {
+            hideTable();
+          }
+        };
+        const applyState = (fn) => {
+          if (isLatest()) {
+            fn();
+          }
+        };
+
+        const dataPath = leagueConfig?.footballDataPath || 'public/data/cl-football-data.json';
+        let payload;
+        const fetchErrors = [];
+
+        try {
+          const cacheBust = state.refreshToken ? String(state.refreshToken).replace(/[^a-z0-9]/gi, '') : Date.now().toString(36);
+          const response = await fetch(`${dataPath}?v=${cacheBust}`);
+          if (!response.ok) {
+            throw new Error(`${response.status} ${response.statusText}`);
+          }
+          payload = await response.json();
+        } catch (error) {
+          applyStatus('CL-Daten (football-data.org) konnten nicht geladen werden: ' + error.message, 'warning');
+          return loadChampionsLeagueFromEspn(leagueConfig, {
+            reason: 'lokaler CL-Datensatz nicht verfügbar',
+            refreshToken
+          });
+        }
+
+        const matchesArray = Array.isArray(payload?.matches) ? payload.matches : [];
+        const matchMap = new Map();
+        matchesArray.forEach((match) => {
+          if (!match?.id) {
+            return;
+          }
+          matchMap.set(String(match.id), match);
+        });
+
+        let matchdays = Array.isArray(payload?.matchdays) ? payload.matchdays : [];
+        if (!matchdays.length && matchMap.size) {
+          matchdays = deriveMatchdaysFromFootballData(matchesArray);
+        }
+
+        const normalizedMatchdays = matchdays
+          .map((entry, index) => {
+            const order = Number.isFinite(entry?.order) ? entry.order : index + 1;
+            const dates = Array.isArray(entry?.dates)
+              ? entry.dates.map((date) => normalizeToIsoDate(date)).filter(Boolean)
+              : [];
+            const matchIds = Array.isArray(entry?.matchIds)
+              ? entry.matchIds.map((id) => String(id)).filter(Boolean)
+              : [];
+            return {
+              order,
+              label: entry?.label || `${order}. Spieltag`,
+              primaryDate: normalizeToIsoDate(entry?.primaryDate) || dates[0] || null,
+              dates,
+              matchIds,
+              stageOrder: Number.isFinite(entry?.stageOrder) ? entry.stageOrder : null
+            };
+          })
+          .filter((entry) => Number.isFinite(entry.order));
+
+        applyState(() => {
+          state.matchdays = normalizedMatchdays;
+          state.matchdayDateLookup = createMatchdayDateLookup(state.matchdays);
+          const restored = restoreFootballMatchdaySelection(state.matchdays, leagueConfig.id);
+          if (!restored) {
+            state.activeMatchdayOrder = null;
+          }
+          ensureActiveMatchday(state.matchdays);
+          updateMatchdayDisplay();
+        });
+
+        const selectedEntry = state.matchdays.find((entry) => entry.order === state.activeMatchdayOrder) || state.matchdays[0] || null;
+        if (!selectedEntry) {
+          applyRenderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+          applyHideTable();
+          applyStatus('Keine Champions-League-Spieltage im lokalen Datensatz gefunden.', 'warning');
+          return false;
+        }
+
+        let matches = selectedEntry.matchIds
+          .map((id) => matchMap.get(id))
+          .filter((entry) => entry != null)
+          .map((match) => formatFootballDataMatch(match))
+          .filter((entry) => entry != null);
+
+        if (!matches.length && matchMap.size) {
+          matches = Array.from(matchMap.values())
+            .map((match) => formatFootballDataMatch(match))
+            .filter((entry) => entry != null);
+          const targetDates = new Set(selectedEntry.dates);
+          matches = matches.filter((match) => !targetDates.size || targetDates.has(match.isoDate));
+        }
+
+        if (!matches.length && matchMap.size) {
+          const fallbackStageOrder = Number.isFinite(selectedEntry.stageOrder) ? selectedEntry.stageOrder : null;
+          const fallbackStageInfo = fallbackStageOrder != null ? CHAMPIONS_LEAGUE_STAGE_INFO.get(fallbackStageOrder) : null;
+          const fallbackGroup = fallbackStageInfo?.slug || null;
+          const { matches: fallbackMatches, errors: fallbackErrors } = await loadFootballDataFallbackMatches(matchMap, selectedEntry, leagueConfig?.espnSlug, fallbackGroup);
+          if (Array.isArray(fallbackErrors) && fallbackErrors.length) {
+            fetchErrors.push(...fallbackErrors);
+          }
+          if (fallbackMatches.length) {
+            matches = fallbackMatches
+              .map((entry) => formatFootballDataMatch(entry))
+              .filter((entry) => entry != null);
+          }
+        }
+
+        if (!matches.length) {
+          const fallbackUsed = await loadChampionsLeagueFromEspn(leagueConfig, {
+            reason: 'lokaler CL-Datensatz enthält keine Begegnungen',
+            refreshToken
+          });
+          return fallbackUsed;
+        }
+
+        matches.sort((a, b) => {
+          const dateCompare = (a.isoDate || '').localeCompare(b.isoDate || '');
+          if (dateCompare !== 0) {
+            return dateCompare;
+          }
+          return (a.timeRaw || '').localeCompare(b.timeRaw || '');
+        });
+
+        applyRenderMatches(matches, 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+
+        if (leagueConfig.table) {
+          const tableRows = formatFootballDataStandings(Array.isArray(payload?.standings) ? payload.standings : []);
+          if (tableRows.length) {
+            applyRenderTable(tableRows);
+          } else {
+            applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+          }
+        } else {
+          applyHideTable();
+        }
+
+        applyState(() => {
+          const seasonYear = Number.isFinite(payload?.season?.year) ? payload.season.year : null;
+          state.resolvedSeason = seasonYear;
+          state.resolvedShortcut = null;
+        });
+
+        const generatedAt = payload?.generatedAt ? new Date(payload.generatedAt) : null;
+        const generatedLabel = generatedAt && !Number.isNaN(generatedAt.getTime())
+          ? generatedAt.toLocaleString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })
+          : null;
+        let statusLevel = fetchErrors.length ? 'warning' : 'info';
+        let statusMessage = generatedLabel
+          ? `Champions League über lokalen Datensatz aktualisiert (${generatedLabel}).`
+          : 'Champions League über lokalen Datensatz aktualisiert.';
+        if (fetchErrors.length) {
+          const failedDates = fetchErrors
+            .map((entry) => normalizeToIsoDate(entry?.date))
+            .filter(Boolean)
+            .slice(0, 6)
+            .join(', ');
+          if (failedDates) {
+            statusMessage += ` (Fallback via ESPN fehlgeschlagen für: ${failedDates}${fetchErrors.length > 6 ? ' …' : ''})`;
+          } else {
+            statusMessage += ' (Fallback via ESPN teilweise fehlgeschlagen)';
+          }
+        }
+        applyStatus(statusMessage, statusLevel);
+
+        return true;
       }
 
       function syncDateInput() {
@@ -1554,6 +1922,10 @@
         const provider = leagueConfig.provider || 'openliga';
         if (provider === 'espn') {
           await loadEspnFootball(leagueConfig, { refreshToken, leagueId: effectiveLeagueId });
+          return;
+        }
+        if (provider === 'football-data') {
+          await loadChampionsLeagueFromFootballData(leagueConfig, { refreshToken, leagueId: effectiveLeagueId });
           return;
         }
 

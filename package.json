@@ -5,7 +5,8 @@
   "main": "update-news.js",
   "scripts": {
     "update": "node update-news.js",
-    "watch": "node update-news.js --watch"
+    "watch": "node update-news.js --watch",
+    "fetch:cl": "node scripts/fetch-cl.js"
   },
   "dependencies": {
     "rss-parser": "^3.12.0"
