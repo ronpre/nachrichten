@@ -928,6 +928,24 @@
         }
       }
 
+      function buildFootballDataCandidatePaths(basePath) {
+        if (!basePath) {
+          return [];
+        }
+        if (/^[a-z]+:\/\//i.test(basePath)) {
+          return [basePath];
+        }
+        const normalized = basePath.replace(/^\.\//, '').replace(/^\//, '');
+        const candidates = new Set();
+        candidates.add(basePath);
+        candidates.add(`./${normalized}`);
+        candidates.add(normalized);
+        candidates.add(`/liveticker/${normalized}`);
+        candidates.add(`./liveticker/${normalized}`);
+        candidates.add(`/${normalized}`);
+        return Array.from(candidates).filter(Boolean);
+      }
+
       async function loadChampionsLeagueFromFootballData(leagueConfig, { refreshToken } = {}) {
         const isLatest = () => !refreshToken || state.refreshToken === refreshToken;
         const applyStatus = (message, level) => {
@@ -957,23 +975,58 @@
         };
 
         const dataPath = leagueConfig?.footballDataPath || 'public/data/cl-football-data.json';
+        const cacheBust = state.refreshToken
+          ? String(state.refreshToken).replace(/[^a-z0-9]/gi, '')
+          : Date.now().toString(36);
+        const candidatePaths = buildFootballDataCandidatePaths(dataPath);
         let payload;
-        const fetchErrors = [];
+        let lastLoadError = null;
+        const attemptedPaths = [];
 
-        try {
-          const cacheBust = state.refreshToken ? String(state.refreshToken).replace(/[^a-z0-9]/gi, '') : Date.now().toString(36);
-          const response = await fetch(`${dataPath}?v=${cacheBust}`);
-          if (!response.ok) {
-            throw new Error(`${response.status} ${response.statusText}`);
+        for (const candidate of candidatePaths) {
+          try {
+            const url = new URL(candidate, window.location.href);
+            if (cacheBust) {
+              url.searchParams.set('v', cacheBust);
+            }
+            attemptedPaths.push(url.toString());
+            const response = await fetch(url.toString(), { cache: 'no-store' });
+            if (!response.ok) {
+              const error = new Error(`${response.status} ${response.statusText}`.trim());
+              error.status = response.status;
+              throw error;
+            }
+            payload = await response.json();
+            break;
+          } catch (error) {
+            lastLoadError = error instanceof Error ? error : new Error(String(error));
           }
-          payload = await response.json();
-        } catch (error) {
-          applyStatus('CL-Daten (football-data.org) konnten nicht geladen werden: ' + error.message, 'warning');
+        }
+
+        if (!payload) {
+          const detail = lastLoadError?.message || 'unbekannter Fehler';
+          const attemptedLabel = attemptedPaths.length
+            ? ` (versucht: ${attemptedPaths.map((entry) => {
+              try {
+                const url = new URL(entry);
+                return url.pathname + (url.search || '');
+              } catch (e) {
+                return entry;
+              }
+            }).join(', ')})`
+            : '';
+          console.warn('CL-Datensatz konnte nicht geladen werden.', {
+            attemptedPaths,
+            error: lastLoadError
+          });
+          applyStatus('CL-Daten (football-data.org) konnten nicht geladen werden: ' + detail + attemptedLabel, 'warning');
           return loadChampionsLeagueFromEspn(leagueConfig, {
             reason: 'lokaler CL-Datensatz nicht verfügbar',
             refreshToken
           });
         }
+
+        const fallbackErrors = [];
 
         const matchesArray = Array.isArray(payload?.matches) ? payload.matches : [];
         const matchMap = new Map();
@@ -1046,9 +1099,9 @@
           const fallbackStageOrder = Number.isFinite(selectedEntry.stageOrder) ? selectedEntry.stageOrder : null;
           const fallbackStageInfo = fallbackStageOrder != null ? CHAMPIONS_LEAGUE_STAGE_INFO.get(fallbackStageOrder) : null;
           const fallbackGroup = fallbackStageInfo?.slug || null;
-          const { matches: fallbackMatches, errors: fallbackErrors } = await loadFootballDataFallbackMatches(matchMap, selectedEntry, leagueConfig?.espnSlug, fallbackGroup);
-          if (Array.isArray(fallbackErrors) && fallbackErrors.length) {
-            fetchErrors.push(...fallbackErrors);
+          const { matches: fallbackMatches, errors: fallbackLoadErrors } = await loadFootballDataFallbackMatches(matchMap, selectedEntry, leagueConfig?.espnSlug, fallbackGroup);
+          if (Array.isArray(fallbackLoadErrors) && fallbackLoadErrors.length) {
+            fallbackErrors.push(...fallbackLoadErrors);
           }
           if (fallbackMatches.length) {
             matches = fallbackMatches
@@ -1096,18 +1149,18 @@
         const generatedLabel = generatedAt && !Number.isNaN(generatedAt.getTime())
           ? generatedAt.toLocaleString('de-DE', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })
           : null;
-        let statusLevel = fetchErrors.length ? 'warning' : 'info';
+        let statusLevel = fallbackErrors.length ? 'warning' : 'info';
         let statusMessage = generatedLabel
           ? `Champions League über lokalen Datensatz aktualisiert (${generatedLabel}).`
           : 'Champions League über lokalen Datensatz aktualisiert.';
-        if (fetchErrors.length) {
-          const failedDates = fetchErrors
+        if (fallbackErrors.length) {
+          const failedDates = fallbackErrors
             .map((entry) => normalizeToIsoDate(entry?.date))
             .filter(Boolean)
             .slice(0, 6)
             .join(', ');
           if (failedDates) {
-            statusMessage += ` (Fallback via ESPN fehlgeschlagen für: ${failedDates}${fetchErrors.length > 6 ? ' …' : ''})`;
+            statusMessage += ` (Fallback via ESPN fehlgeschlagen für: ${failedDates}${fallbackErrors.length > 6 ? ' …' : ''})`;
           } else {
             statusMessage += ' (Fallback via ESPN teilweise fehlgeschlagen)';
           }
