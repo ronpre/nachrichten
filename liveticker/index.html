@@ -1109,6 +1109,8 @@
         }
 
         const fallbackErrors = [];
+        let standingsFallbackError = null;
+        let standingsFromEspn = false;
 
         const matchesArray = Array.isArray(payload?.matches) ? payload.matches : [];
         const matchMap = new Map();
@@ -1210,7 +1212,20 @@
         applyRenderMatches(matches, 'Keine Spiele für den ausgewählten Spieltag gefunden.');
 
         if (leagueConfig.table) {
-          const tableRows = formatFootballDataStandings(Array.isArray(payload?.standings) ? payload.standings : []);
+          let tableRows = formatFootballDataStandings(Array.isArray(payload?.standings) ? payload.standings : []);
+          if (!tableRows.length && leagueConfig?.espnStandingsSlug) {
+            try {
+              const espnStandings = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug);
+              const espnRows = formatEspnFootballStandings(espnStandings);
+              if (espnRows.length) {
+                tableRows = espnRows;
+                standingsFromEspn = true;
+              }
+            } catch (error) {
+              const normalizedError = error instanceof Error ? error : new Error(String(error));
+              standingsFallbackError = normalizedError;
+            }
+          }
           if (tableRows.length) {
             applyRenderTable(tableRows);
           } else {
@@ -1245,6 +1260,13 @@
           } else {
             statusMessage += ' (Fallback via ESPN teilweise fehlgeschlagen)';
           }
+          statusLevel = 'warning';
+        }
+        if (standingsFromEspn) {
+          statusMessage += ' (Tabelle via ESPN aktualisiert)';
+        } else if (standingsFallbackError) {
+          statusMessage += ` (Tabelle konnte nicht geladen werden: ${standingsFallbackError.message})`;
+          statusLevel = 'warning';
         }
         applyStatus(statusMessage, statusLevel);
 
