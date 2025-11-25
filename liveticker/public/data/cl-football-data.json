@@ -1,0 +1,6544 @@
+{
+  "generatedAt": "2025-11-25T22:02:06.117Z",
+  "source": "football-data.org",
+  "season": {
+    "year": 2025,
+    "startDate": null,
+    "endDate": null,
+    "matchday": null
+  },
+  "matchdays": [
+    {
+      "order": 1,
+      "label": "1. Spieltag",
+      "primaryDate": "2025-09-16",
+      "dates": [
+        "2025-09-16",
+        "2025-09-17",
+        "2025-09-18",
+        "2026-02-17",
+        "2026-02-18",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-04-07",
+        "2026-04-08",
+        "2026-04-28",
+        "2026-04-29"
+      ],
+      "matchIds": [
+        "551981",
+        "552049",
+        "551941",
+        "551991",
+        "552012",
+        "551927",
+        "552023",
+        "552031",
+        "551936",
+        "551946",
+        "551959",
+        "551908",
+        "551975",
+        "551995",
+        "551958",
+        "551965",
+        "552000",
+        "552027",
+        "552052",
+        "552053",
+        "552054",
+        "552055",
+        "552056",
+        "552057",
+        "552058",
+        "552059",
+        "552068",
+        "552069",
+        "552070",
+        "552071",
+        "552072",
+        "552073",
+        "552074",
+        "552075",
+        "552084",
+        "552085",
+        "552086",
+        "552087",
+        "552092",
+        "552093"
+      ]
+    },
+    {
+      "order": 2,
+      "label": "2. Spieltag",
+      "primaryDate": "2025-09-30",
+      "dates": [
+        "2025-09-30",
+        "2025-10-01",
+        "2026-02-24",
+        "2026-02-25",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-04-14",
+        "2026-04-15",
+        "2026-05-05",
+        "2026-05-06"
+      ],
+      "matchIds": [
+        "551982",
+        "551930",
+        "551951",
+        "551997",
+        "552015",
+        "552020",
+        "551915",
+        "551917",
+        "551935",
+        "552039",
+        "552044",
+        "551944",
+        "551952",
+        "551968",
+        "551972",
+        "551978",
+        "552002",
+        "552026",
+        "552060",
+        "552061",
+        "552062",
+        "552063",
+        "552064",
+        "552065",
+        "552066",
+        "552067",
+        "552076",
+        "552077",
+        "552078",
+        "552079",
+        "552080",
+        "552081",
+        "552082",
+        "552083",
+        "552088",
+        "552089",
+        "552090",
+        "552091",
+        "552094",
+        "552095"
+      ]
+    },
+    {
+      "order": 3,
+      "label": "3. Spieltag",
+      "primaryDate": "2025-10-21",
+      "dates": [
+        "2025-10-21",
+        "2025-10-22"
+      ],
+      "matchIds": [
+        "551955",
+        "552045",
+        "551938",
+        "551945",
+        "551960",
+        "551964",
+        "551976",
+        "551992",
+        "552048",
+        "552025",
+        "552040",
+        "551947",
+        "551984",
+        "552016",
+        "552022",
+        "551910",
+        "551919",
+        "551925"
+      ]
+    },
+    {
+      "order": 4,
+      "label": "4. Spieltag",
+      "primaryDate": "2025-11-04",
+      "dates": [
+        "2025-11-04",
+        "2025-11-05"
+      ],
+      "matchIds": [
+        "551979",
+        "551999",
+        "552003",
+        "552009",
+        "552021",
+        "552024",
+        "552029",
+        "551909",
+        "551924",
+        "552014",
+        "551922",
+        "551937",
+        "551939",
+        "551954",
+        "551971",
+        "551985",
+        "552033",
+        "552047"
+      ]
+    },
+    {
+      "order": 5,
+      "label": "5. Spieltag",
+      "primaryDate": "2025-11-25",
+      "dates": [
+        "2025-11-25",
+        "2025-11-26"
+      ],
+      "matchIds": [
+        "551990",
+        "552043",
+        "551940",
+        "551963",
+        "552004",
+        "552017",
+        "552035",
+        "552037",
+        "551916",
+        "552042",
+        "552046",
+        "551948",
+        "551961",
+        "551983",
+        "551994",
+        "551911",
+        "551928",
+        "551934"
+      ]
+    },
+    {
+      "order": 6,
+      "label": "6. Spieltag",
+      "primaryDate": "2025-12-09",
+      "dates": [
+        "2025-12-09",
+        "2025-12-10"
+      ],
+      "matchIds": [
+        "552032",
+        "551912",
+        "551953",
+        "552008",
+        "552018",
+        "552019",
+        "552041",
+        "551918",
+        "551931",
+        "552013",
+        "552034",
+        "551942",
+        "551969",
+        "551974",
+        "551977",
+        "551989",
+        "552005",
+        "551923"
+      ]
+    },
+    {
+      "order": 7,
+      "label": "7. Spieltag",
+      "primaryDate": "2026-01-20",
+      "dates": [
+        "2026-01-20",
+        "2026-01-21"
+      ],
+      "matchIds": [
+        "551996",
+        "551966",
+        "551943",
+        "551962",
+        "551973",
+        "552011",
+        "552038",
+        "551929",
+        "551933",
+        "552001",
+        "552010",
+        "551949",
+        "551956",
+        "551986",
+        "551988",
+        "552036",
+        "551914",
+        "551921"
+      ]
+    },
+    {
+      "order": 8,
+      "label": "8. Spieltag",
+      "primaryDate": "2026-01-28",
+      "dates": [
+        "2026-01-28"
+      ],
+      "matchIds": [
+        "551950",
+        "551957",
+        "551967",
+        "551970",
+        "551980",
+        "551987",
+        "551993",
+        "551998",
+        "552006",
+        "552007",
+        "552028",
+        "552030",
+        "552050",
+        "552051",
+        "551913",
+        "551920",
+        "551926",
+        "551932"
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "id": "551981",
+      "utcDate": "2025-09-16T16:45:00Z",
+      "isoDate": "2025-09-16",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 77,
+        "name": "Athletic Club",
+        "shortName": "Athletic"
+      },
+      "awayTeam": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "shortName": "Arsenal"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552049",
+      "utcDate": "2025-09-16T16:45:00Z",
+      "isoDate": "2025-09-16",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 674,
+        "name": "PSV",
+        "shortName": "PSV"
+      },
+      "awayTeam": {
+        "id": 3929,
+        "name": "Royale Union Saint-Gilloise",
+        "shortName": "Union SG"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 3
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551941",
+      "utcDate": "2025-09-16T19:00:00Z",
+      "isoDate": "2025-09-16",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "Juventus"
+      },
+      "awayTeam": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund"
+      },
+      "score": {
+        "fullTime": {
+          "home": 4,
+          "away": 4
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551991",
+      "utcDate": "2025-09-16T19:00:00Z",
+      "isoDate": "2025-09-16",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 1903,
+        "name": "Sport Lisboa e Benfica",
+        "shortName": "SL Benfica"
+      },
+      "awayTeam": {
+        "id": 611,
+        "name": "Qarabağ Ağdam FK",
+        "shortName": "Qarabağ Ağdam"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 3
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552012",
+      "utcDate": "2025-09-16T19:00:00Z",
+      "isoDate": "2025-09-16",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "shortName": "Tottenham"
+      },
+      "awayTeam": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "shortName": "Villarreal"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551927",
+      "utcDate": "2025-09-16T19:00:00Z",
+      "isoDate": "2025-09-16",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "shortName": "Real Madrid"
+      },
+      "awayTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "Marseille"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552023",
+      "utcDate": "2025-09-17T16:45:00Z",
+      "isoDate": "2025-09-17",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 930,
+        "name": "SK Slavia Praha",
+        "shortName": "Slavia Praha"
+      },
+      "awayTeam": {
+        "id": 5721,
+        "name": "FK Bodø/Glimt",
+        "shortName": "Bodø/Glimt"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552031",
+      "utcDate": "2025-09-17T16:45:00Z",
+      "isoDate": "2025-09-17",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 654,
+        "name": "PAE Olympiakos SFP",
+        "shortName": "Olympiakos"
+      },
+      "awayTeam": {
+        "id": 11034,
+        "name": "Paphos FC",
+        "shortName": "Paphos FC"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551936",
+      "utcDate": "2025-09-17T19:00:00Z",
+      "isoDate": "2025-09-17",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 678,
+        "name": "AFC Ajax",
+        "shortName": "Ajax"
+      },
+      "awayTeam": {
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "shortName": "Inter"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551946",
+      "utcDate": "2025-09-17T19:00:00Z",
+      "isoDate": "2025-09-17",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "shortName": "Liverpool"
+      },
+      "awayTeam": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "shortName": "Atleti"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551959",
+      "utcDate": "2025-09-17T19:00:00Z",
+      "isoDate": "2025-09-17",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "shortName": "PSG"
+      },
+      "awayTeam": {
+        "id": 102,
+        "name": "Atalanta BC",
+        "shortName": "Atalanta"
+      },
+      "score": {
+        "fullTime": {
+          "home": 4,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551908",
+      "utcDate": "2025-09-17T19:00:00Z",
+      "isoDate": "2025-09-17",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "Bayern"
+      },
+      "awayTeam": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "shortName": "Chelsea"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551975",
+      "utcDate": "2025-09-18T16:45:00Z",
+      "isoDate": "2025-09-18",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 1876,
+        "name": "FC København",
+        "shortName": "København"
+      },
+      "awayTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551995",
+      "utcDate": "2025-09-18T16:45:00Z",
+      "isoDate": "2025-09-18",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 851,
+        "name": "Club Brugge KV",
+        "shortName": "Club Brugge"
+      },
+      "awayTeam": {
+        "id": 548,
+        "name": "AS Monaco FC",
+        "shortName": "Monaco"
+      },
+      "score": {
+        "fullTime": {
+          "home": 4,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551958",
+      "utcDate": "2025-09-18T19:00:00Z",
+      "isoDate": "2025-09-18",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 67,
+        "name": "Newcastle United FC",
+        "shortName": "Newcastle"
+      },
+      "awayTeam": {
+        "id": 81,
+        "name": "FC Barcelona",
+        "shortName": "Barça"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551965",
+      "utcDate": "2025-09-18T19:00:00Z",
+      "isoDate": "2025-09-18",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 65,
+        "name": "Manchester City FC",
+        "shortName": "Man City"
+      },
+      "awayTeam": {
+        "id": 113,
+        "name": "SSC Napoli",
+        "shortName": "Napoli"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552000",
+      "utcDate": "2025-09-18T19:00:00Z",
+      "isoDate": "2025-09-18",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "Frankfurt"
+      },
+      "awayTeam": {
+        "id": 610,
+        "name": "Galatasaray SK",
+        "shortName": "Galatasaray"
+      },
+      "score": {
+        "fullTime": {
+          "home": 5,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552027",
+      "utcDate": "2025-09-18T19:00:00Z",
+      "isoDate": "2025-09-18",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": 498,
+        "name": "Sporting Clube de Portugal",
+        "shortName": "Sporting CP"
+      },
+      "awayTeam": {
+        "id": 10601,
+        "name": "FK Kairat",
+        "shortName": "FK Kairat"
+      },
+      "score": {
+        "fullTime": {
+          "home": 4,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551982",
+      "utcDate": "2025-09-30T16:45:00Z",
+      "isoDate": "2025-09-30",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 102,
+        "name": "Atalanta BC",
+        "shortName": "Atalanta"
+      },
+      "awayTeam": {
+        "id": 851,
+        "name": "Club Brugge KV",
+        "shortName": "Club Brugge"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551930",
+      "utcDate": "2025-09-30T16:45:00Z",
+      "isoDate": "2025-09-30",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 10601,
+        "name": "FK Kairat",
+        "shortName": "FK Kairat"
+      },
+      "awayTeam": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "shortName": "Real Madrid"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 5
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551951",
+      "utcDate": "2025-09-30T19:00:00Z",
+      "isoDate": "2025-09-30",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 610,
+        "name": "Galatasaray SK",
+        "shortName": "Galatasaray"
+      },
+      "awayTeam": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "shortName": "Liverpool"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551997",
+      "utcDate": "2025-09-30T19:00:00Z",
+      "isoDate": "2025-09-30",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "shortName": "Atleti"
+      },
+      "awayTeam": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "Frankfurt"
+      },
+      "score": {
+        "fullTime": {
+          "home": 5,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552015",
+      "utcDate": "2025-09-30T19:00:00Z",
+      "isoDate": "2025-09-30",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "Marseille"
+      },
+      "awayTeam": {
+        "id": 678,
+        "name": "AFC Ajax",
+        "shortName": "Ajax"
+      },
+      "score": {
+        "fullTime": {
+          "home": 4,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552020",
+      "utcDate": "2025-09-30T19:00:00Z",
+      "isoDate": "2025-09-30",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 5721,
+        "name": "FK Bodø/Glimt",
+        "shortName": "Bodø/Glimt"
+      },
+      "awayTeam": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "shortName": "Tottenham"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551915",
+      "utcDate": "2025-09-30T19:00:00Z",
+      "isoDate": "2025-09-30",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 11034,
+        "name": "Paphos FC",
+        "shortName": "Paphos FC"
+      },
+      "awayTeam": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "Bayern"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 5
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551917",
+      "utcDate": "2025-09-30T19:00:00Z",
+      "isoDate": "2025-09-30",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "shortName": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 1903,
+        "name": "Sport Lisboa e Benfica",
+        "shortName": "SL Benfica"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551935",
+      "utcDate": "2025-09-30T19:00:00Z",
+      "isoDate": "2025-09-30",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "shortName": "Inter"
+      },
+      "awayTeam": {
+        "id": 930,
+        "name": "SK Slavia Praha",
+        "shortName": "Slavia Praha"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552039",
+      "utcDate": "2025-10-01T16:45:00Z",
+      "isoDate": "2025-10-01",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 611,
+        "name": "Qarabağ Ağdam FK",
+        "shortName": "Qarabağ Ağdam"
+      },
+      "awayTeam": {
+        "id": 1876,
+        "name": "FC København",
+        "shortName": "København"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552044",
+      "utcDate": "2025-10-01T16:45:00Z",
+      "isoDate": "2025-10-01",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 3929,
+        "name": "Royale Union Saint-Gilloise",
+        "shortName": "Union SG"
+      },
+      "awayTeam": {
+        "id": 67,
+        "name": "Newcastle United FC",
+        "shortName": "Newcastle"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 4
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551944",
+      "utcDate": "2025-10-01T19:00:00Z",
+      "isoDate": "2025-10-01",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund"
+      },
+      "awayTeam": {
+        "id": 77,
+        "name": "Athletic Club",
+        "shortName": "Athletic"
+      },
+      "score": {
+        "fullTime": {
+          "home": 4,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551952",
+      "utcDate": "2025-10-01T19:00:00Z",
+      "isoDate": "2025-10-01",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 81,
+        "name": "FC Barcelona",
+        "shortName": "Barça"
+      },
+      "awayTeam": {
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "shortName": "PSG"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551968",
+      "utcDate": "2025-10-01T19:00:00Z",
+      "isoDate": "2025-10-01",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 548,
+        "name": "AS Monaco FC",
+        "shortName": "Monaco"
+      },
+      "awayTeam": {
+        "id": 65,
+        "name": "Manchester City FC",
+        "shortName": "Man City"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551972",
+      "utcDate": "2025-10-01T19:00:00Z",
+      "isoDate": "2025-10-01",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen"
+      },
+      "awayTeam": {
+        "id": 674,
+        "name": "PSV",
+        "shortName": "PSV"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551978",
+      "utcDate": "2025-10-01T19:00:00Z",
+      "isoDate": "2025-10-01",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "shortName": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 654,
+        "name": "PAE Olympiakos SFP",
+        "shortName": "Olympiakos"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552002",
+      "utcDate": "2025-10-01T19:00:00Z",
+      "isoDate": "2025-10-01",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "shortName": "Villarreal"
+      },
+      "awayTeam": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "Juventus"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552026",
+      "utcDate": "2025-10-01T19:00:00Z",
+      "isoDate": "2025-10-01",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": 113,
+        "name": "SSC Napoli",
+        "shortName": "Napoli"
+      },
+      "awayTeam": {
+        "id": 498,
+        "name": "Sporting Clube de Portugal",
+        "shortName": "Sporting CP"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551955",
+      "utcDate": "2025-10-21T16:45:00Z",
+      "isoDate": "2025-10-21",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 81,
+        "name": "FC Barcelona",
+        "shortName": "Barça"
+      },
+      "awayTeam": {
+        "id": 654,
+        "name": "PAE Olympiakos SFP",
+        "shortName": "Olympiakos"
+      },
+      "score": {
+        "fullTime": {
+          "home": 6,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552045",
+      "utcDate": "2025-10-21T16:45:00Z",
+      "isoDate": "2025-10-21",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 10601,
+        "name": "FK Kairat",
+        "shortName": "FK Kairat"
+      },
+      "awayTeam": {
+        "id": 11034,
+        "name": "Paphos FC",
+        "shortName": "Paphos FC"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551938",
+      "utcDate": "2025-10-21T19:00:00Z",
+      "isoDate": "2025-10-21",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 3929,
+        "name": "Royale Union Saint-Gilloise",
+        "shortName": "Union SG"
+      },
+      "awayTeam": {
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "shortName": "Inter"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 4
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551945",
+      "utcDate": "2025-10-21T19:00:00Z",
+      "isoDate": "2025-10-21",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 1876,
+        "name": "FC København",
+        "shortName": "København"
+      },
+      "awayTeam": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 4
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551960",
+      "utcDate": "2025-10-21T19:00:00Z",
+      "isoDate": "2025-10-21",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen"
+      },
+      "awayTeam": {
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "shortName": "PSG"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 7
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551964",
+      "utcDate": "2025-10-21T19:00:00Z",
+      "isoDate": "2025-10-21",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "shortName": "Villarreal"
+      },
+      "awayTeam": {
+        "id": 65,
+        "name": "Manchester City FC",
+        "shortName": "Man City"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551976",
+      "utcDate": "2025-10-21T19:00:00Z",
+      "isoDate": "2025-10-21",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "shortName": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "shortName": "Atleti"
+      },
+      "score": {
+        "fullTime": {
+          "home": 4,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551992",
+      "utcDate": "2025-10-21T19:00:00Z",
+      "isoDate": "2025-10-21",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 67,
+        "name": "Newcastle United FC",
+        "shortName": "Newcastle"
+      },
+      "awayTeam": {
+        "id": 1903,
+        "name": "Sport Lisboa e Benfica",
+        "shortName": "SL Benfica"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552048",
+      "utcDate": "2025-10-21T19:00:00Z",
+      "isoDate": "2025-10-21",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 674,
+        "name": "PSV",
+        "shortName": "PSV"
+      },
+      "awayTeam": {
+        "id": 113,
+        "name": "SSC Napoli",
+        "shortName": "Napoli"
+      },
+      "score": {
+        "fullTime": {
+          "home": 6,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552025",
+      "utcDate": "2025-10-22T16:45:00Z",
+      "isoDate": "2025-10-22",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 610,
+        "name": "Galatasaray SK",
+        "shortName": "Galatasaray"
+      },
+      "awayTeam": {
+        "id": 5721,
+        "name": "FK Bodø/Glimt",
+        "shortName": "Bodø/Glimt"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552040",
+      "utcDate": "2025-10-22T16:45:00Z",
+      "isoDate": "2025-10-22",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 77,
+        "name": "Athletic Club",
+        "shortName": "Athletic"
+      },
+      "awayTeam": {
+        "id": 611,
+        "name": "Qarabağ Ağdam FK",
+        "shortName": "Qarabağ Ağdam"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551947",
+      "utcDate": "2025-10-22T19:00:00Z",
+      "isoDate": "2025-10-22",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "Frankfurt"
+      },
+      "awayTeam": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "shortName": "Liverpool"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 5
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551984",
+      "utcDate": "2025-10-22T19:00:00Z",
+      "isoDate": "2025-10-22",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 102,
+        "name": "Atalanta BC",
+        "shortName": "Atalanta"
+      },
+      "awayTeam": {
+        "id": 930,
+        "name": "SK Slavia Praha",
+        "shortName": "Slavia Praha"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552016",
+      "utcDate": "2025-10-22T19:00:00Z",
+      "isoDate": "2025-10-22",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 498,
+        "name": "Sporting Clube de Portugal",
+        "shortName": "Sporting CP"
+      },
+      "awayTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "Marseille"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552022",
+      "utcDate": "2025-10-22T19:00:00Z",
+      "isoDate": "2025-10-22",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 548,
+        "name": "AS Monaco FC",
+        "shortName": "Monaco"
+      },
+      "awayTeam": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "shortName": "Tottenham"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551910",
+      "utcDate": "2025-10-22T19:00:00Z",
+      "isoDate": "2025-10-22",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "Bayern"
+      },
+      "awayTeam": {
+        "id": 851,
+        "name": "Club Brugge KV",
+        "shortName": "Club Brugge"
+      },
+      "score": {
+        "fullTime": {
+          "home": 4,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551919",
+      "utcDate": "2025-10-22T19:00:00Z",
+      "isoDate": "2025-10-22",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "shortName": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 678,
+        "name": "AFC Ajax",
+        "shortName": "Ajax"
+      },
+      "score": {
+        "fullTime": {
+          "home": 5,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551925",
+      "utcDate": "2025-10-22T19:00:00Z",
+      "isoDate": "2025-10-22",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 3,
+      "homeTeam": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "shortName": "Real Madrid"
+      },
+      "awayTeam": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "Juventus"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551979",
+      "utcDate": "2025-11-04T17:45:00Z",
+      "isoDate": "2025-11-04",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 930,
+        "name": "SK Slavia Praha",
+        "shortName": "Slavia Praha"
+      },
+      "awayTeam": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "shortName": "Arsenal"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 3
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551999",
+      "utcDate": "2025-11-04T17:45:00Z",
+      "isoDate": "2025-11-04",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 113,
+        "name": "SSC Napoli",
+        "shortName": "Napoli"
+      },
+      "awayTeam": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "Frankfurt"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552003",
+      "utcDate": "2025-11-04T20:00:00Z",
+      "isoDate": "2025-11-04",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "Juventus"
+      },
+      "awayTeam": {
+        "id": 498,
+        "name": "Sporting Clube de Portugal",
+        "shortName": "Sporting CP"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552009",
+      "utcDate": "2025-11-04T20:00:00Z",
+      "isoDate": "2025-11-04",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "shortName": "Atleti"
+      },
+      "awayTeam": {
+        "id": 3929,
+        "name": "Royale Union Saint-Gilloise",
+        "shortName": "Union SG"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552021",
+      "utcDate": "2025-11-04T20:00:00Z",
+      "isoDate": "2025-11-04",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "shortName": "Tottenham"
+      },
+      "awayTeam": {
+        "id": 1876,
+        "name": "FC København",
+        "shortName": "København"
+      },
+      "score": {
+        "fullTime": {
+          "home": 4,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552024",
+      "utcDate": "2025-11-04T20:00:00Z",
+      "isoDate": "2025-11-04",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 5721,
+        "name": "FK Bodø/Glimt",
+        "shortName": "Bodø/Glimt"
+      },
+      "awayTeam": {
+        "id": 548,
+        "name": "AS Monaco FC",
+        "shortName": "Monaco"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552029",
+      "utcDate": "2025-11-04T20:00:00Z",
+      "isoDate": "2025-11-04",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 654,
+        "name": "PAE Olympiakos SFP",
+        "shortName": "Olympiakos"
+      },
+      "awayTeam": {
+        "id": 674,
+        "name": "PSV",
+        "shortName": "PSV"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551909",
+      "utcDate": "2025-11-04T20:00:00Z",
+      "isoDate": "2025-11-04",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "shortName": "PSG"
+      },
+      "awayTeam": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "Bayern"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551924",
+      "utcDate": "2025-11-04T20:00:00Z",
+      "isoDate": "2025-11-04",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "shortName": "Liverpool"
+      },
+      "awayTeam": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "shortName": "Real Madrid"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552014",
+      "utcDate": "2025-11-05T17:45:00Z",
+      "isoDate": "2025-11-05",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 11034,
+        "name": "Paphos FC",
+        "shortName": "Paphos FC"
+      },
+      "awayTeam": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "shortName": "Villarreal"
+      },
+      "score": {
+        "fullTime": {
+          "home": 1,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551922",
+      "utcDate": "2025-11-05T17:45:00Z",
+      "isoDate": "2025-11-05",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 611,
+        "name": "Qarabağ Ağdam FK",
+        "shortName": "Qarabağ Ağdam"
+      },
+      "awayTeam": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "shortName": "Chelsea"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 2
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551937",
+      "utcDate": "2025-11-05T20:00:00Z",
+      "isoDate": "2025-11-05",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "shortName": "Inter"
+      },
+      "awayTeam": {
+        "id": 10601,
+        "name": "FK Kairat",
+        "shortName": "FK Kairat"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551939",
+      "utcDate": "2025-11-05T20:00:00Z",
+      "isoDate": "2025-11-05",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 65,
+        "name": "Manchester City FC",
+        "shortName": "Man City"
+      },
+      "awayTeam": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund"
+      },
+      "score": {
+        "fullTime": {
+          "home": 4,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551954",
+      "utcDate": "2025-11-05T20:00:00Z",
+      "isoDate": "2025-11-05",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 851,
+        "name": "Club Brugge KV",
+        "shortName": "Club Brugge"
+      },
+      "awayTeam": {
+        "id": 81,
+        "name": "FC Barcelona",
+        "shortName": "Barça"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 3
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551971",
+      "utcDate": "2025-11-05T20:00:00Z",
+      "isoDate": "2025-11-05",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 1903,
+        "name": "Sport Lisboa e Benfica",
+        "shortName": "SL Benfica"
+      },
+      "awayTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551985",
+      "utcDate": "2025-11-05T20:00:00Z",
+      "isoDate": "2025-11-05",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "Marseille"
+      },
+      "awayTeam": {
+        "id": 102,
+        "name": "Atalanta BC",
+        "shortName": "Atalanta"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 1
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552033",
+      "utcDate": "2025-11-05T20:00:00Z",
+      "isoDate": "2025-11-05",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 678,
+        "name": "AFC Ajax",
+        "shortName": "Ajax"
+      },
+      "awayTeam": {
+        "id": 610,
+        "name": "Galatasaray SK",
+        "shortName": "Galatasaray"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 3
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552047",
+      "utcDate": "2025-11-05T20:00:00Z",
+      "isoDate": "2025-11-05",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 4,
+      "homeTeam": {
+        "id": 67,
+        "name": "Newcastle United FC",
+        "shortName": "Newcastle"
+      },
+      "awayTeam": {
+        "id": 77,
+        "name": "Athletic Club",
+        "shortName": "Athletic"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 0
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551990",
+      "utcDate": "2025-11-25T17:45:00Z",
+      "isoDate": "2025-11-25",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 678,
+        "name": "AFC Ajax",
+        "shortName": "Ajax"
+      },
+      "awayTeam": {
+        "id": 1903,
+        "name": "Sport Lisboa e Benfica",
+        "shortName": "SL Benfica"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 2
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": "552043",
+      "utcDate": "2025-11-25T17:45:00Z",
+      "isoDate": "2025-11-25",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 610,
+        "name": "Galatasaray SK",
+        "shortName": "Galatasaray"
+      },
+      "awayTeam": {
+        "id": 3929,
+        "name": "Royale Union Saint-Gilloise",
+        "shortName": "Union SG"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 1
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": "551940",
+      "utcDate": "2025-11-25T20:00:00Z",
+      "isoDate": "2025-11-25",
+      "status": "IN_PLAY",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund"
+      },
+      "awayTeam": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "shortName": "Villarreal"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": "551963",
+      "utcDate": "2025-11-25T20:00:00Z",
+      "isoDate": "2025-11-25",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 65,
+        "name": "Manchester City FC",
+        "shortName": "Man City"
+      },
+      "awayTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 2
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": "552004",
+      "utcDate": "2025-11-25T20:00:00Z",
+      "isoDate": "2025-11-25",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 5721,
+        "name": "FK Bodø/Glimt",
+        "shortName": "Bodø/Glimt"
+      },
+      "awayTeam": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "Juventus"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 3
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": "552017",
+      "utcDate": "2025-11-25T20:00:00Z",
+      "isoDate": "2025-11-25",
+      "status": "IN_PLAY",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "Marseille"
+      },
+      "awayTeam": {
+        "id": 67,
+        "name": "Newcastle United FC",
+        "shortName": "Newcastle"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 1
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": "552035",
+      "utcDate": "2025-11-25T20:00:00Z",
+      "isoDate": "2025-11-25",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 930,
+        "name": "SK Slavia Praha",
+        "shortName": "Slavia Praha"
+      },
+      "awayTeam": {
+        "id": 77,
+        "name": "Athletic Club",
+        "shortName": "Athletic"
+      },
+      "score": {
+        "fullTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": "552037",
+      "utcDate": "2025-11-25T20:00:00Z",
+      "isoDate": "2025-11-25",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 113,
+        "name": "SSC Napoli",
+        "shortName": "Napoli"
+      },
+      "awayTeam": {
+        "id": 611,
+        "name": "Qarabağ Ağdam FK",
+        "shortName": "Qarabağ Ağdam"
+      },
+      "score": {
+        "fullTime": {
+          "home": 2,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": "551916",
+      "utcDate": "2025-11-25T20:00:00Z",
+      "isoDate": "2025-11-25",
+      "status": "FINISHED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "shortName": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 81,
+        "name": "FC Barcelona",
+        "shortName": "Barça"
+      },
+      "score": {
+        "fullTime": {
+          "home": 3,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 0,
+          "away": 0
+        }
+      }
+    },
+    {
+      "id": "552042",
+      "utcDate": "2025-11-26T17:45:00Z",
+      "isoDate": "2025-11-26",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 11034,
+        "name": "Paphos FC",
+        "shortName": "Paphos FC"
+      },
+      "awayTeam": {
+        "id": 548,
+        "name": "AS Monaco FC",
+        "shortName": "Monaco"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552046",
+      "utcDate": "2025-11-26T17:45:00Z",
+      "isoDate": "2025-11-26",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 1876,
+        "name": "FC København",
+        "shortName": "København"
+      },
+      "awayTeam": {
+        "id": 10601,
+        "name": "FK Kairat",
+        "shortName": "FK Kairat"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551948",
+      "utcDate": "2025-11-26T20:00:00Z",
+      "isoDate": "2025-11-26",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "shortName": "Liverpool"
+      },
+      "awayTeam": {
+        "id": 674,
+        "name": "PSV",
+        "shortName": "PSV"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551961",
+      "utcDate": "2025-11-26T20:00:00Z",
+      "isoDate": "2025-11-26",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "shortName": "PSG"
+      },
+      "awayTeam": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "shortName": "Tottenham"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551983",
+      "utcDate": "2025-11-26T20:00:00Z",
+      "isoDate": "2025-11-26",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "Frankfurt"
+      },
+      "awayTeam": {
+        "id": 102,
+        "name": "Atalanta BC",
+        "shortName": "Atalanta"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551994",
+      "utcDate": "2025-11-26T20:00:00Z",
+      "isoDate": "2025-11-26",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 498,
+        "name": "Sporting Clube de Portugal",
+        "shortName": "Sporting CP"
+      },
+      "awayTeam": {
+        "id": 851,
+        "name": "Club Brugge KV",
+        "shortName": "Club Brugge"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551911",
+      "utcDate": "2025-11-26T20:00:00Z",
+      "isoDate": "2025-11-26",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "shortName": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "Bayern"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551928",
+      "utcDate": "2025-11-26T20:00:00Z",
+      "isoDate": "2025-11-26",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 654,
+        "name": "PAE Olympiakos SFP",
+        "shortName": "Olympiakos"
+      },
+      "awayTeam": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "shortName": "Real Madrid"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551934",
+      "utcDate": "2025-11-26T20:00:00Z",
+      "isoDate": "2025-11-26",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 5,
+      "homeTeam": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "shortName": "Atleti"
+      },
+      "awayTeam": {
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "shortName": "Inter"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552032",
+      "utcDate": "2025-12-09T15:30:00Z",
+      "isoDate": "2025-12-09",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 10601,
+        "name": "FK Kairat",
+        "shortName": "FK Kairat"
+      },
+      "awayTeam": {
+        "id": 654,
+        "name": "PAE Olympiakos SFP",
+        "shortName": "Olympiakos"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551912",
+      "utcDate": "2025-12-09T17:45:00Z",
+      "isoDate": "2025-12-09",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "Bayern"
+      },
+      "awayTeam": {
+        "id": 498,
+        "name": "Sporting Clube de Portugal",
+        "shortName": "Sporting CP"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551953",
+      "utcDate": "2025-12-09T20:00:00Z",
+      "isoDate": "2025-12-09",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 81,
+        "name": "FC Barcelona",
+        "shortName": "Barça"
+      },
+      "awayTeam": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "Frankfurt"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552008",
+      "utcDate": "2025-12-09T20:00:00Z",
+      "isoDate": "2025-12-09",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 674,
+        "name": "PSV",
+        "shortName": "PSV"
+      },
+      "awayTeam": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "shortName": "Atleti"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552018",
+      "utcDate": "2025-12-09T20:00:00Z",
+      "isoDate": "2025-12-09",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 3929,
+        "name": "Royale Union Saint-Gilloise",
+        "shortName": "Union SG"
+      },
+      "awayTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "Marseille"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552019",
+      "utcDate": "2025-12-09T20:00:00Z",
+      "isoDate": "2025-12-09",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "shortName": "Tottenham"
+      },
+      "awayTeam": {
+        "id": 930,
+        "name": "SK Slavia Praha",
+        "shortName": "Slavia Praha"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552041",
+      "utcDate": "2025-12-09T20:00:00Z",
+      "isoDate": "2025-12-09",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 548,
+        "name": "AS Monaco FC",
+        "shortName": "Monaco"
+      },
+      "awayTeam": {
+        "id": 610,
+        "name": "Galatasaray SK",
+        "shortName": "Galatasaray"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551918",
+      "utcDate": "2025-12-09T20:00:00Z",
+      "isoDate": "2025-12-09",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 102,
+        "name": "Atalanta BC",
+        "shortName": "Atalanta"
+      },
+      "awayTeam": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "shortName": "Chelsea"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551931",
+      "utcDate": "2025-12-09T20:00:00Z",
+      "isoDate": "2025-12-09",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "shortName": "Inter"
+      },
+      "awayTeam": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "shortName": "Liverpool"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552013",
+      "utcDate": "2025-12-10T17:45:00Z",
+      "isoDate": "2025-12-10",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "shortName": "Villarreal"
+      },
+      "awayTeam": {
+        "id": 1876,
+        "name": "FC København",
+        "shortName": "København"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552034",
+      "utcDate": "2025-12-10T17:45:00Z",
+      "isoDate": "2025-12-10",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 611,
+        "name": "Qarabağ Ağdam FK",
+        "shortName": "Qarabağ Ağdam"
+      },
+      "awayTeam": {
+        "id": 678,
+        "name": "AFC Ajax",
+        "shortName": "Ajax"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551942",
+      "utcDate": "2025-12-10T20:00:00Z",
+      "isoDate": "2025-12-10",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund"
+      },
+      "awayTeam": {
+        "id": 5721,
+        "name": "FK Bodø/Glimt",
+        "shortName": "Bodø/Glimt"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551969",
+      "utcDate": "2025-12-10T20:00:00Z",
+      "isoDate": "2025-12-10",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 77,
+        "name": "Athletic Club",
+        "shortName": "Athletic"
+      },
+      "awayTeam": {
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "shortName": "PSG"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551974",
+      "utcDate": "2025-12-10T20:00:00Z",
+      "isoDate": "2025-12-10",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen"
+      },
+      "awayTeam": {
+        "id": 67,
+        "name": "Newcastle United FC",
+        "shortName": "Newcastle"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551977",
+      "utcDate": "2025-12-10T20:00:00Z",
+      "isoDate": "2025-12-10",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 851,
+        "name": "Club Brugge KV",
+        "shortName": "Club Brugge"
+      },
+      "awayTeam": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "shortName": "Arsenal"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551989",
+      "utcDate": "2025-12-10T20:00:00Z",
+      "isoDate": "2025-12-10",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 1903,
+        "name": "Sport Lisboa e Benfica",
+        "shortName": "SL Benfica"
+      },
+      "awayTeam": {
+        "id": 113,
+        "name": "SSC Napoli",
+        "shortName": "Napoli"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552005",
+      "utcDate": "2025-12-10T20:00:00Z",
+      "isoDate": "2025-12-10",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "Juventus"
+      },
+      "awayTeam": {
+        "id": 11034,
+        "name": "Paphos FC",
+        "shortName": "Paphos FC"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551923",
+      "utcDate": "2025-12-10T20:00:00Z",
+      "isoDate": "2025-12-10",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 6,
+      "homeTeam": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "shortName": "Real Madrid"
+      },
+      "awayTeam": {
+        "id": 65,
+        "name": "Manchester City FC",
+        "shortName": "Man City"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551996",
+      "utcDate": "2026-01-20T15:30:00Z",
+      "isoDate": "2026-01-20",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 10601,
+        "name": "FK Kairat",
+        "shortName": "FK Kairat"
+      },
+      "awayTeam": {
+        "id": 851,
+        "name": "Club Brugge KV",
+        "shortName": "Club Brugge"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551966",
+      "utcDate": "2026-01-20T17:45:00Z",
+      "isoDate": "2026-01-20",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 5721,
+        "name": "FK Bodø/Glimt",
+        "shortName": "Bodø/Glimt"
+      },
+      "awayTeam": {
+        "id": 65,
+        "name": "Manchester City FC",
+        "shortName": "Man City"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551943",
+      "utcDate": "2026-01-20T20:00:00Z",
+      "isoDate": "2026-01-20",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "shortName": "Tottenham"
+      },
+      "awayTeam": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551962",
+      "utcDate": "2026-01-20T20:00:00Z",
+      "isoDate": "2026-01-20",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 498,
+        "name": "Sporting Clube de Portugal",
+        "shortName": "Sporting CP"
+      },
+      "awayTeam": {
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "shortName": "PSG"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551973",
+      "utcDate": "2026-01-20T20:00:00Z",
+      "isoDate": "2026-01-20",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 654,
+        "name": "PAE Olympiakos SFP",
+        "shortName": "Olympiakos"
+      },
+      "awayTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552011",
+      "utcDate": "2026-01-20T20:00:00Z",
+      "isoDate": "2026-01-20",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "shortName": "Villarreal"
+      },
+      "awayTeam": {
+        "id": 678,
+        "name": "AFC Ajax",
+        "shortName": "Ajax"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552038",
+      "utcDate": "2026-01-20T20:00:00Z",
+      "isoDate": "2026-01-20",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 1876,
+        "name": "FC København",
+        "shortName": "København"
+      },
+      "awayTeam": {
+        "id": 113,
+        "name": "SSC Napoli",
+        "shortName": "Napoli"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551929",
+      "utcDate": "2026-01-20T20:00:00Z",
+      "isoDate": "2026-01-20",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "shortName": "Real Madrid"
+      },
+      "awayTeam": {
+        "id": 548,
+        "name": "AS Monaco FC",
+        "shortName": "Monaco"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551933",
+      "utcDate": "2026-01-20T20:00:00Z",
+      "isoDate": "2026-01-20",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "shortName": "Inter"
+      },
+      "awayTeam": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "shortName": "Arsenal"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552001",
+      "utcDate": "2026-01-21T17:45:00Z",
+      "isoDate": "2026-01-21",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 611,
+        "name": "Qarabağ Ağdam FK",
+        "shortName": "Qarabağ Ağdam"
+      },
+      "awayTeam": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "Frankfurt"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552010",
+      "utcDate": "2026-01-21T17:45:00Z",
+      "isoDate": "2026-01-21",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 610,
+        "name": "Galatasaray SK",
+        "shortName": "Galatasaray"
+      },
+      "awayTeam": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "shortName": "Atleti"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551949",
+      "utcDate": "2026-01-21T20:00:00Z",
+      "isoDate": "2026-01-21",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "Marseille"
+      },
+      "awayTeam": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "shortName": "Liverpool"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551956",
+      "utcDate": "2026-01-21T20:00:00Z",
+      "isoDate": "2026-01-21",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 930,
+        "name": "SK Slavia Praha",
+        "shortName": "Slavia Praha"
+      },
+      "awayTeam": {
+        "id": 81,
+        "name": "FC Barcelona",
+        "shortName": "Barça"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551986",
+      "utcDate": "2026-01-21T20:00:00Z",
+      "isoDate": "2026-01-21",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 102,
+        "name": "Atalanta BC",
+        "shortName": "Atalanta"
+      },
+      "awayTeam": {
+        "id": 77,
+        "name": "Athletic Club",
+        "shortName": "Athletic"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551988",
+      "utcDate": "2026-01-21T20:00:00Z",
+      "isoDate": "2026-01-21",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "Juventus"
+      },
+      "awayTeam": {
+        "id": 1903,
+        "name": "Sport Lisboa e Benfica",
+        "shortName": "SL Benfica"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552036",
+      "utcDate": "2026-01-21T20:00:00Z",
+      "isoDate": "2026-01-21",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 67,
+        "name": "Newcastle United FC",
+        "shortName": "Newcastle"
+      },
+      "awayTeam": {
+        "id": 674,
+        "name": "PSV",
+        "shortName": "PSV"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551914",
+      "utcDate": "2026-01-21T20:00:00Z",
+      "isoDate": "2026-01-21",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "Bayern"
+      },
+      "awayTeam": {
+        "id": 3929,
+        "name": "Royale Union Saint-Gilloise",
+        "shortName": "Union SG"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551921",
+      "utcDate": "2026-01-21T20:00:00Z",
+      "isoDate": "2026-01-21",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 7,
+      "homeTeam": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "shortName": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 11034,
+        "name": "Paphos FC",
+        "shortName": "Paphos FC"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551950",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "shortName": "Liverpool"
+      },
+      "awayTeam": {
+        "id": 611,
+        "name": "Qarabağ Ağdam FK",
+        "shortName": "Qarabağ Ağdam"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551957",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 81,
+        "name": "FC Barcelona",
+        "shortName": "Barça"
+      },
+      "awayTeam": {
+        "id": 1876,
+        "name": "FC København",
+        "shortName": "København"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551967",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 65,
+        "name": "Manchester City FC",
+        "shortName": "Man City"
+      },
+      "awayTeam": {
+        "id": 610,
+        "name": "Galatasaray SK",
+        "shortName": "Galatasaray"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551970",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 3,
+        "name": "Bayer 04 Leverkusen",
+        "shortName": "Leverkusen"
+      },
+      "awayTeam": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "shortName": "Villarreal"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551980",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "shortName": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 10601,
+        "name": "FK Kairat",
+        "shortName": "FK Kairat"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551987",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 3929,
+        "name": "Royale Union Saint-Gilloise",
+        "shortName": "Union SG"
+      },
+      "awayTeam": {
+        "id": 102,
+        "name": "Atalanta BC",
+        "shortName": "Atalanta"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551993",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 851,
+        "name": "Club Brugge KV",
+        "shortName": "Club Brugge"
+      },
+      "awayTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "shortName": "Marseille"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551998",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 19,
+        "name": "Eintracht Frankfurt",
+        "shortName": "Frankfurt"
+      },
+      "awayTeam": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "shortName": "Tottenham"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552006",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 548,
+        "name": "AS Monaco FC",
+        "shortName": "Monaco"
+      },
+      "awayTeam": {
+        "id": 109,
+        "name": "Juventus FC",
+        "shortName": "Juventus"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552007",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "shortName": "Atleti"
+      },
+      "awayTeam": {
+        "id": 5721,
+        "name": "FK Bodø/Glimt",
+        "shortName": "Bodø/Glimt"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552028",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 77,
+        "name": "Athletic Club",
+        "shortName": "Athletic"
+      },
+      "awayTeam": {
+        "id": 498,
+        "name": "Sporting Clube de Portugal",
+        "shortName": "Sporting CP"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552030",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 678,
+        "name": "AFC Ajax",
+        "shortName": "Ajax"
+      },
+      "awayTeam": {
+        "id": 654,
+        "name": "PAE Olympiakos SFP",
+        "shortName": "Olympiakos"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552050",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "shortName": "PSG"
+      },
+      "awayTeam": {
+        "id": 67,
+        "name": "Newcastle United FC",
+        "shortName": "Newcastle"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552051",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 11034,
+        "name": "Paphos FC",
+        "shortName": "Paphos FC"
+      },
+      "awayTeam": {
+        "id": 930,
+        "name": "SK Slavia Praha",
+        "shortName": "Slavia Praha"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551913",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 674,
+        "name": "PSV",
+        "shortName": "PSV"
+      },
+      "awayTeam": {
+        "id": 5,
+        "name": "FC Bayern München",
+        "shortName": "Bayern"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551920",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 113,
+        "name": "SSC Napoli",
+        "shortName": "Napoli"
+      },
+      "awayTeam": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "shortName": "Chelsea"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551926",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 1903,
+        "name": "Sport Lisboa e Benfica",
+        "shortName": "SL Benfica"
+      },
+      "awayTeam": {
+        "id": 86,
+        "name": "Real Madrid CF",
+        "shortName": "Real Madrid"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "551932",
+      "utcDate": "2026-01-28T20:00:00Z",
+      "isoDate": "2026-01-28",
+      "status": "TIMED",
+      "stage": "LEAGUE_STAGE",
+      "group": null,
+      "matchday": 8,
+      "homeTeam": {
+        "id": 4,
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund"
+      },
+      "awayTeam": {
+        "id": 108,
+        "name": "FC Internazionale Milano",
+        "shortName": "Inter"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552052",
+      "utcDate": "2026-02-17T00:00:00Z",
+      "isoDate": "2026-02-17",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552053",
+      "utcDate": "2026-02-17T00:00:00Z",
+      "isoDate": "2026-02-17",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552054",
+      "utcDate": "2026-02-17T00:00:00Z",
+      "isoDate": "2026-02-17",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552055",
+      "utcDate": "2026-02-17T00:00:00Z",
+      "isoDate": "2026-02-17",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552056",
+      "utcDate": "2026-02-18T00:00:00Z",
+      "isoDate": "2026-02-18",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552057",
+      "utcDate": "2026-02-18T00:00:00Z",
+      "isoDate": "2026-02-18",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552058",
+      "utcDate": "2026-02-18T00:00:00Z",
+      "isoDate": "2026-02-18",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552059",
+      "utcDate": "2026-02-18T00:00:00Z",
+      "isoDate": "2026-02-18",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552060",
+      "utcDate": "2026-02-24T00:00:00Z",
+      "isoDate": "2026-02-24",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552061",
+      "utcDate": "2026-02-24T00:00:00Z",
+      "isoDate": "2026-02-24",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552062",
+      "utcDate": "2026-02-24T00:00:00Z",
+      "isoDate": "2026-02-24",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552063",
+      "utcDate": "2026-02-24T00:00:00Z",
+      "isoDate": "2026-02-24",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552064",
+      "utcDate": "2026-02-25T00:00:00Z",
+      "isoDate": "2026-02-25",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552065",
+      "utcDate": "2026-02-25T00:00:00Z",
+      "isoDate": "2026-02-25",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552066",
+      "utcDate": "2026-02-25T00:00:00Z",
+      "isoDate": "2026-02-25",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552067",
+      "utcDate": "2026-02-25T00:00:00Z",
+      "isoDate": "2026-02-25",
+      "status": "SCHEDULED",
+      "stage": "PLAYOFFS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552068",
+      "utcDate": "2026-03-10T00:00:00Z",
+      "isoDate": "2026-03-10",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552069",
+      "utcDate": "2026-03-10T00:00:00Z",
+      "isoDate": "2026-03-10",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552070",
+      "utcDate": "2026-03-10T00:00:00Z",
+      "isoDate": "2026-03-10",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552071",
+      "utcDate": "2026-03-10T00:00:00Z",
+      "isoDate": "2026-03-10",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552072",
+      "utcDate": "2026-03-11T00:00:00Z",
+      "isoDate": "2026-03-11",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552073",
+      "utcDate": "2026-03-11T00:00:00Z",
+      "isoDate": "2026-03-11",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552074",
+      "utcDate": "2026-03-11T00:00:00Z",
+      "isoDate": "2026-03-11",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552075",
+      "utcDate": "2026-03-11T00:00:00Z",
+      "isoDate": "2026-03-11",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552076",
+      "utcDate": "2026-03-17T00:00:00Z",
+      "isoDate": "2026-03-17",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552077",
+      "utcDate": "2026-03-17T00:00:00Z",
+      "isoDate": "2026-03-17",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552078",
+      "utcDate": "2026-03-17T00:00:00Z",
+      "isoDate": "2026-03-17",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552079",
+      "utcDate": "2026-03-17T00:00:00Z",
+      "isoDate": "2026-03-17",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552080",
+      "utcDate": "2026-03-18T00:00:00Z",
+      "isoDate": "2026-03-18",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552081",
+      "utcDate": "2026-03-18T00:00:00Z",
+      "isoDate": "2026-03-18",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552082",
+      "utcDate": "2026-03-18T00:00:00Z",
+      "isoDate": "2026-03-18",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552083",
+      "utcDate": "2026-03-18T00:00:00Z",
+      "isoDate": "2026-03-18",
+      "status": "SCHEDULED",
+      "stage": "LAST_16",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552084",
+      "utcDate": "2026-04-07T00:00:00Z",
+      "isoDate": "2026-04-07",
+      "status": "SCHEDULED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552085",
+      "utcDate": "2026-04-07T00:00:00Z",
+      "isoDate": "2026-04-07",
+      "status": "SCHEDULED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552086",
+      "utcDate": "2026-04-08T00:00:00Z",
+      "isoDate": "2026-04-08",
+      "status": "SCHEDULED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552087",
+      "utcDate": "2026-04-08T00:00:00Z",
+      "isoDate": "2026-04-08",
+      "status": "SCHEDULED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552088",
+      "utcDate": "2026-04-14T00:00:00Z",
+      "isoDate": "2026-04-14",
+      "status": "SCHEDULED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552089",
+      "utcDate": "2026-04-14T00:00:00Z",
+      "isoDate": "2026-04-14",
+      "status": "SCHEDULED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552090",
+      "utcDate": "2026-04-15T00:00:00Z",
+      "isoDate": "2026-04-15",
+      "status": "SCHEDULED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552091",
+      "utcDate": "2026-04-15T00:00:00Z",
+      "isoDate": "2026-04-15",
+      "status": "SCHEDULED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552092",
+      "utcDate": "2026-04-28T00:00:00Z",
+      "isoDate": "2026-04-28",
+      "status": "SCHEDULED",
+      "stage": "SEMI_FINALS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552093",
+      "utcDate": "2026-04-29T00:00:00Z",
+      "isoDate": "2026-04-29",
+      "status": "SCHEDULED",
+      "stage": "SEMI_FINALS",
+      "group": null,
+      "matchday": 1,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552094",
+      "utcDate": "2026-05-05T00:00:00Z",
+      "isoDate": "2026-05-05",
+      "status": "SCHEDULED",
+      "stage": "SEMI_FINALS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552095",
+      "utcDate": "2026-05-06T00:00:00Z",
+      "isoDate": "2026-05-06",
+      "status": "SCHEDULED",
+      "stage": "SEMI_FINALS",
+      "group": null,
+      "matchday": 2,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "id": "552096",
+      "utcDate": "2026-05-30T16:00:00Z",
+      "isoDate": "2026-05-30",
+      "status": "TIMED",
+      "stage": "FINAL",
+      "group": null,
+      "matchday": null,
+      "homeTeam": {
+        "id": null,
+        "name": "Heim",
+        "shortName": "Heim"
+      },
+      "awayTeam": {
+        "id": null,
+        "name": "Gast",
+        "shortName": "Gast"
+      },
+      "score": {
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": null,
+          "away": null
+        },
+        "penalties": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ],
+  "standings": []
+}

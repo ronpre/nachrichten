@@ -1,6 +1,7 @@
 {
   "name": "nachrichten-dashboard",
   "version": "1.0.0",
+  "type": "module",
   "description": "Automatisch aktualisierte Nachrichtenübersicht aus verlässlichen Quellen.",
   "main": "update-news.js",
   "scripts": {

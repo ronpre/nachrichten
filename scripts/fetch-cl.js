@@ -189,16 +189,32 @@ function normalizeStandings(standingsPayload) {
 async function main() {
   const season = getSeasonFromArgs();
 
-  const [matchesResponse, standingsResponse] = await Promise.all([
-    fetchFromFootballData(`/competitions/${COMPETITION_CODE}/matches`, { season }),
-    fetchFromFootballData(`/competitions/${COMPETITION_CODE}/standings`, { season })
-  ]);
+  const matchesResponse = await fetchFromFootballData(
+    `/competitions/${COMPETITION_CODE}/matches`,
+    { season }
+  );
+
+  let standingsResponse = null;
+  try {
+    standingsResponse = await fetchFromFootballData(
+      `/competitions/${COMPETITION_CODE}/standings`,
+      { season }
+    );
+  } catch (error) {
+    if (error instanceof Error && error.message.includes('404')) {
+      console.warn('Standings endpoint returned 404 – skipping standings for this season.');
+    } else {
+      throw error;
+    }
+  }
 
   const matches = Array.isArray(matchesResponse.matches)
     ? matchesResponse.matches.map(normalizeMatch)
     : [];
   const matchdays = createMatchdayMetadata(matches);
-  const standings = normalizeStandings(standingsResponse.standings);
+  const standings = standingsResponse
+    ? normalizeStandings(standingsResponse.standings)
+    : [];
 
   const payload = {
     generatedAt: new Date().toISOString(),
