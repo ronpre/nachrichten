@@ -2145,6 +2145,45 @@
             }
           });
         }
+
+        if (!matches.length) {
+          const fallbackStageOrder = Number.isFinite(selectedEntry?.stageOrder) ? selectedEntry.stageOrder : null;
+          const fallbackStageInfo = fallbackStageOrder != null ? CHAMPIONS_LEAGUE_STAGE_INFO.get(fallbackStageOrder) : null;
+          const fallbackGroup = fallbackStageInfo?.slug || null;
+          const fallbackMap = new Map();
+          const visitedDates = new Set();
+          const candidateDates = Array.isArray(selectedEntry?.dates) && selectedEntry.dates.length
+            ? selectedEntry.dates
+            : [selectedEntry?.primaryDate, state.date].filter(Boolean);
+          for (const isoDate of candidateDates) {
+            const normalizedDate = normalizeToIsoDate(isoDate);
+            if (!normalizedDate || visitedDates.has(normalizedDate)) {
+              continue;
+            }
+            visitedDates.add(normalizedDate);
+            try {
+              const dayScoreboard = await fetchEspnFootballScoreboard(slug, normalizedDate, fallbackGroup ? { group: fallbackGroup } : undefined);
+              const dayMatches = extractEspnFootballMatches(dayScoreboard);
+              dayMatches.forEach((match) => {
+                const identifier = match?.id != null ? String(match.id) : null;
+                if (!identifier || fallbackMap.has(identifier)) {
+                  return;
+                }
+                const derivedDate = normalizeToIsoDate(match.timeRaw || match.isoDate) || normalizedDate;
+                fallbackMap.set(identifier, {
+                  ...match,
+                  isoDate: derivedDate,
+                  stageOrder: fallbackStageOrder
+                });
+              });
+            } catch (error) {
+              fetchErrors.push({ date: normalizedDate, error });
+            }
+          }
+          if (fallbackMap.size) {
+            matches = Array.from(fallbackMap.values());
+          }
+        }
         matches.sort((a, b) => {
           const dateCompare = (a.isoDate || '').localeCompare(b.isoDate || '');
           if (dateCompare !== 0) {
