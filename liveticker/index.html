@@ -25,204 +25,6 @@
       box-sizing: border-box;
     }
 
-  function deriveMatchdaysFromFootballData(matches) {
-    if (!Array.isArray(matches)) {
-      return [];
-    }
-    const byMatchday = new Map();
-    matches.forEach((match) => {
-      const order = Number.isFinite(match?.matchday) ? match.matchday : null;
-      if (order == null) {
-        return;
-      }
-      if (!byMatchday.has(order)) {
-        byMatchday.set(order, { dates: new Set(), matchIds: new Set() });
-      }
-      const bucket = byMatchday.get(order);
-      const isoDate = normalizeToIsoDate(match?.utcDate || match?.isoDate);
-      if (isoDate) {
-        bucket.dates.add(isoDate);
-      }
-      if (match?.id != null) {
-        bucket.matchIds.add(String(match.id));
-      }
-    });
-    return Array.from(byMatchday.entries())
-      .sort((a, b) => a[0] - b[0])
-      .map(([order, bucket]) => {
-        const dates = Array.from(bucket.dates).sort();
-        return {
-          order,
-          label: `${order}. Spieltag`,
-          primaryDate: dates[0] ?? null,
-          dates,
-          matchIds: Array.from(bucket.matchIds)
-        };
-      });
-  }
-
-  function mapFootballDataStatus(rawStatus) {
-    const upper = typeof rawStatus === 'string' ? rawStatus.toUpperCase() : '';
-    switch (upper) {
-      case 'SCHEDULED':
-      case 'TIMED':
-      case 'PLANNED':
-        return 'Geplant';
-      case 'IN_PLAY':
-      case 'LIVE':
-      case 'PAUSED':
-        return 'Live';
-      case 'FINISHED':
-      case 'AWARDED':
-        return 'Beendet';
-      case 'POSTPONED':
-      case 'SUSPENDED':
-        return 'Unterbrochen';
-      case 'CANCELLED':
-      case 'ABANDONED':
-        return 'Abgebrochen';
-      default:
-        return 'Geplant';
-    }
-  }
-
-  function formatFootballDataScore(score, rawStatus) {
-    const status = typeof rawStatus === 'string' ? rawStatus.toUpperCase() : '';
-    const fullHome = Number.isFinite(score?.fullTime?.home) ? score.fullTime.home : null;
-    const fullAway = Number.isFinite(score?.fullTime?.away) ? score.fullTime.away : null;
-    const extraHome = Number.isFinite(score?.extraTime?.home) ? score.extraTime.home : null;
-    const extraAway = Number.isFinite(score?.extraTime?.away) ? score.extraTime.away : null;
-    const penHome = Number.isFinite(score?.penalties?.home) ? score.penalties.home : null;
-    const penAway = Number.isFinite(score?.penalties?.away) ? score.penalties.away : null;
-
-    if (fullHome == null || fullAway == null) {
-      if (status === 'IN_PLAY' || status === 'LIVE') {
-        const liveHome = Number.isFinite(fullHome) ? fullHome : 0;
-        const liveAway = Number.isFinite(fullAway) ? fullAway : 0;
-        return `${liveHome} : ${liveAway}`;
-      }
-      return '-- : --';
-    }
-
-    let display = `${fullHome} : ${fullAway}`;
-    if (penHome != null && penAway != null) {
-      display += ` (${penHome}:${penAway} n.E.)`;
-    } else if (
-      extraHome != null && extraAway != null && (extraHome !== fullHome || extraAway !== fullAway)
-    ) {
-      display += ` (${extraHome}:${extraAway} n.V.)`;
-    }
-    return display;
-  }
-
-  function formatFootballDataMatch(rawMatch) {
-    if (!rawMatch) {
-      return null;
-    }
-    const timeRaw = rawMatch.utcDate || rawMatch.timeRaw || null;
-    const isoDate = normalizeToIsoDate(rawMatch.isoDate || rawMatch.utcDate || rawMatch.timeRaw);
-    const homeName = rawMatch.homeTeam?.name || rawMatch.home || 'Heim';
-    const awayName = rawMatch.awayTeam?.name || rawMatch.away || 'Gast';
-    const fullHome = Number.isFinite(rawMatch?.score?.fullTime?.home) ? rawMatch.score.fullTime.home : null;
-    const fullAway = Number.isFinite(rawMatch?.score?.fullTime?.away) ? rawMatch.score.fullTime.away : null;
-    return {
-      id: String(rawMatch.id ?? rawMatch.matchId ?? ''),
-      timeRaw,
-      isoDate,
-      time: formatTime(timeRaw),
-      dateLabel: isoDate ? formatDateForLocale(isoDate) : '',
-      home: homeName,
-      away: awayName,
-      score: formatFootballDataScore(rawMatch.score || {}, rawMatch.status),
-      status: mapFootballDataStatus(rawMatch.status),
-      homeScore: fullHome,
-      awayScore: fullAway,
-      winner: determineWinner(fullHome, fullAway),
-      stageOrder: Number.isFinite(rawMatch.stageOrder) ? rawMatch.stageOrder : null
-    };
-  }
-
-  async function loadFootballDataFallbackMatches(matchMap, selectedEntry, slug, stageGroup) {
-    if (!slug) {
-      return { matches: [], errors: [] };
-    }
-    const aggregated = new Map();
-    const errors = [];
-    const rawDates = Array.isArray(selectedEntry?.dates) && selectedEntry.dates.length
-      ? selectedEntry.dates
-      : [selectedEntry?.primaryDate, state.date].filter(Boolean);
-    const uniqueDates = Array.from(new Set(rawDates.map((date) => normalizeToIsoDate(date)).filter(Boolean)));
-
-    for (const isoDate of uniqueDates) {
-      try {
-        const scoreboard = await fetchEspnFootballScoreboard(
-          slug,
-          isoDate,
-          stageGroup ? { group: stageGroup } : undefined
-        );
-        const matches = extractEspnFootballMatches(scoreboard);
-        matches.forEach((match) => {
-          const identifier = match?.id != null ? String(match.id) : null;
-          if (!identifier || aggregated.has(identifier) || matchMap.has(identifier)) {
-            return;
-          }
-          const mappedStatus = match?.status;
-          let normalizedStatus = 'SCHEDULED';
-          if (mappedStatus === 'Live') {
-            normalizedStatus = 'IN_PLAY';
-          } else if (mappedStatus === 'Beendet') {
-            normalizedStatus = 'FINISHED';
-          } else if (mappedStatus === 'Unterbrochen') {
-            normalizedStatus = 'SUSPENDED';
-          } else if (mappedStatus === 'Abgebrochen') {
-            normalizedStatus = 'CANCELLED';
-          }
-          aggregated.set(identifier, {
-            id: identifier,
-            utcDate: match.timeRaw || null,
-            isoDate: match.isoDate || normalizeToIsoDate(match.timeRaw),
-            status: normalizedStatus,
-            stageOrder: Number.isFinite(selectedEntry?.stageOrder) ? selectedEntry.stageOrder : null,
-            homeTeam: { name: match.home, shortName: match.home },
-            awayTeam: { name: match.away, shortName: match.away },
-            score: {
-              fullTime: {
-                home: Number.isFinite(match.homeScore) ? match.homeScore : null,
-                away: Number.isFinite(match.awayScore) ? match.awayScore : null
-              },
-              extraTime: { home: null, away: null },
-              penalties: { home: null, away: null }
-            }
-          });
-        });
-      } catch (error) {
-        errors.push({ date: isoDate, error });
-      }
-    }
-
-    return { matches: Array.from(aggregated.values()), errors };
-  }
-
-  function formatFootballDataStandings(rows) {
-    if (!Array.isArray(rows)) {
-      return [];
-    }
-    return rows
-      .map((row) => {
-        const rank = Number.isFinite(row?.rank) ? row.rank : null;
-        const team = row?.team || 'Team';
-        const points = Number.isFinite(row?.points) ? row.points : null;
-        const games = Number.isFinite(row?.played) ? row.played : Number.isFinite(row?.games) ? row.games : null;
-        return {
-          rank: rank ?? '-',
-          team,
-          points: points ?? '-',
-          games: games ?? '-'
-        };
-      })
-      .filter((entry) => entry != null);
-  }
-
     body {
       margin: 0;
       background: linear-gradient(160deg, var(--bg) 0%, var(--bg-alt) 100%);
@@ -944,6 +746,204 @@
         candidates.add(`./liveticker/${normalized}`);
         candidates.add(`/${normalized}`);
         return Array.from(candidates).filter(Boolean);
+      }
+
+      function deriveMatchdaysFromFootballData(matches) {
+        if (!Array.isArray(matches)) {
+          return [];
+        }
+        const byMatchday = new Map();
+        matches.forEach((match) => {
+          const order = Number.isFinite(match?.matchday) ? match.matchday : null;
+          if (order == null) {
+            return;
+          }
+          if (!byMatchday.has(order)) {
+            byMatchday.set(order, { dates: new Set(), matchIds: new Set() });
+          }
+          const bucket = byMatchday.get(order);
+          const isoDate = normalizeToIsoDate(match?.utcDate || match?.isoDate);
+          if (isoDate) {
+            bucket.dates.add(isoDate);
+          }
+          if (match?.id != null) {
+            bucket.matchIds.add(String(match.id));
+          }
+        });
+        return Array.from(byMatchday.entries())
+          .sort((a, b) => a[0] - b[0])
+          .map(([order, bucket]) => {
+            const dates = Array.from(bucket.dates).sort();
+            return {
+              order,
+              label: `${order}. Spieltag`,
+              primaryDate: dates[0] ?? null,
+              dates,
+              matchIds: Array.from(bucket.matchIds)
+            };
+          });
+      }
+
+      function mapFootballDataStatus(rawStatus) {
+        const upper = typeof rawStatus === 'string' ? rawStatus.toUpperCase() : '';
+        switch (upper) {
+          case 'SCHEDULED':
+          case 'TIMED':
+          case 'PLANNED':
+            return 'Geplant';
+          case 'IN_PLAY':
+          case 'LIVE':
+          case 'PAUSED':
+            return 'Live';
+          case 'FINISHED':
+          case 'AWARDED':
+            return 'Beendet';
+          case 'POSTPONED':
+          case 'SUSPENDED':
+            return 'Unterbrochen';
+          case 'CANCELLED':
+          case 'ABANDONED':
+            return 'Abgebrochen';
+          default:
+            return 'Geplant';
+        }
+      }
+
+      function formatFootballDataScore(score, rawStatus) {
+        const status = typeof rawStatus === 'string' ? rawStatus.toUpperCase() : '';
+        const fullHome = Number.isFinite(score?.fullTime?.home) ? score.fullTime.home : null;
+        const fullAway = Number.isFinite(score?.fullTime?.away) ? score.fullTime.away : null;
+        const extraHome = Number.isFinite(score?.extraTime?.home) ? score.extraTime.home : null;
+        const extraAway = Number.isFinite(score?.extraTime?.away) ? score.extraTime.away : null;
+        const penHome = Number.isFinite(score?.penalties?.home) ? score.penalties.home : null;
+        const penAway = Number.isFinite(score?.penalties?.away) ? score.penalties.away : null;
+
+        if (fullHome == null || fullAway == null) {
+          if (status === 'IN_PLAY' || status === 'LIVE') {
+            const liveHome = Number.isFinite(fullHome) ? fullHome : 0;
+            const liveAway = Number.isFinite(fullAway) ? fullAway : 0;
+            return `${liveHome} : ${liveAway}`;
+          }
+          return '-- : --';
+        }
+
+        let display = `${fullHome} : ${fullAway}`;
+        if (penHome != null && penAway != null) {
+          display += ` (${penHome}:${penAway} n.E.)`;
+        } else if (
+          extraHome != null && extraAway != null && (extraHome !== fullHome || extraAway !== fullAway)
+        ) {
+          display += ` (${extraHome}:${extraAway} n.V.)`;
+        }
+        return display;
+      }
+
+      function formatFootballDataMatch(rawMatch) {
+        if (!rawMatch) {
+          return null;
+        }
+        const timeRaw = rawMatch.utcDate || rawMatch.timeRaw || null;
+        const isoDate = normalizeToIsoDate(rawMatch.isoDate || rawMatch.utcDate || rawMatch.timeRaw);
+        const homeName = rawMatch.homeTeam?.name || rawMatch.home || 'Heim';
+        const awayName = rawMatch.awayTeam?.name || rawMatch.away || 'Gast';
+        const fullHome = Number.isFinite(rawMatch?.score?.fullTime?.home) ? rawMatch.score.fullTime.home : null;
+        const fullAway = Number.isFinite(rawMatch?.score?.fullTime?.away) ? rawMatch.score.fullTime.away : null;
+        return {
+          id: String(rawMatch.id ?? rawMatch.matchId ?? ''),
+          timeRaw,
+          isoDate,
+          time: formatTime(timeRaw),
+          dateLabel: isoDate ? formatDateForLocale(isoDate) : '',
+          home: homeName,
+          away: awayName,
+          score: formatFootballDataScore(rawMatch.score || {}, rawMatch.status),
+          status: mapFootballDataStatus(rawMatch.status),
+          homeScore: fullHome,
+          awayScore: fullAway,
+          winner: determineWinner(fullHome, fullAway),
+          stageOrder: Number.isFinite(rawMatch.stageOrder) ? rawMatch.stageOrder : null
+        };
+      }
+
+      async function loadFootballDataFallbackMatches(matchMap, selectedEntry, slug, stageGroup) {
+        if (!slug) {
+          return { matches: [], errors: [] };
+        }
+        const aggregated = new Map();
+        const errors = [];
+        const rawDates = Array.isArray(selectedEntry?.dates) && selectedEntry.dates.length
+          ? selectedEntry.dates
+          : [selectedEntry?.primaryDate, state.date].filter(Boolean);
+        const uniqueDates = Array.from(new Set(rawDates.map((date) => normalizeToIsoDate(date)).filter(Boolean)));
+
+        for (const isoDate of uniqueDates) {
+          try {
+            const scoreboard = await fetchEspnFootballScoreboard(
+              slug,
+              isoDate,
+              stageGroup ? { group: stageGroup } : undefined
+            );
+            const matches = extractEspnFootballMatches(scoreboard);
+            matches.forEach((match) => {
+              const identifier = match?.id != null ? String(match.id) : null;
+              if (!identifier || aggregated.has(identifier) || matchMap.has(identifier)) {
+                return;
+              }
+              const mappedStatus = match?.status;
+              let normalizedStatus = 'SCHEDULED';
+              if (mappedStatus === 'Live') {
+                normalizedStatus = 'IN_PLAY';
+              } else if (mappedStatus === 'Beendet') {
+                normalizedStatus = 'FINISHED';
+              } else if (mappedStatus === 'Unterbrochen') {
+                normalizedStatus = 'SUSPENDED';
+              } else if (mappedStatus === 'Abgebrochen') {
+                normalizedStatus = 'CANCELLED';
+              }
+              aggregated.set(identifier, {
+                id: identifier,
+                utcDate: match.timeRaw || null,
+                isoDate: match.isoDate || normalizeToIsoDate(match.timeRaw),
+                status: normalizedStatus,
+                stageOrder: Number.isFinite(selectedEntry?.stageOrder) ? selectedEntry.stageOrder : null,
+                homeTeam: { name: match.home, shortName: match.home },
+                awayTeam: { name: match.away, shortName: match.away },
+                score: {
+                  fullTime: {
+                    home: Number.isFinite(match.homeScore) ? match.homeScore : null,
+                    away: Number.isFinite(match.awayScore) ? match.awayScore : null
+                  },
+                  extraTime: { home: null, away: null },
+                  penalties: { home: null, away: null }
+                }
+              });
+            });
+          } catch (error) {
+            errors.push({ date: isoDate, error });
+          }
+        }
+
+        return { matches: Array.from(aggregated.values()), errors };
+      }
+
+      function formatFootballDataStandings(rows) {
+        if (!Array.isArray(rows)) {
+          return [];
+        }
+        return rows
+          .map((row) => {
+            const rank = Number.isFinite(row?.rank) ? row.rank : null;
+            const team = row?.team || 'Team';
+            const points = Number.isFinite(row?.points) ? row.points : null;
+            const games = Number.isFinite(row?.played) ? row.played : Number.isFinite(row?.games) ? row.games : null;
+            return {
+              rank: rank ?? '-',
+              team,
+              points: points ?? '-',
+              games: games ?? '-'
+            };
+          })
+          .filter((entry) => entry != null);
       }
 
       async function loadChampionsLeagueFromFootballData(leagueConfig, { refreshToken } = {}) {
