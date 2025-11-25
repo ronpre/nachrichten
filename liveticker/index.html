@@ -813,10 +813,6 @@
         const status = typeof rawStatus === 'string' ? rawStatus.toUpperCase() : '';
         const fullHome = Number.isFinite(score?.fullTime?.home) ? score.fullTime.home : null;
         const fullAway = Number.isFinite(score?.fullTime?.away) ? score.fullTime.away : null;
-        const extraHome = Number.isFinite(score?.extraTime?.home) ? score.extraTime.home : null;
-        const extraAway = Number.isFinite(score?.extraTime?.away) ? score.extraTime.away : null;
-        const penHome = Number.isFinite(score?.penalties?.home) ? score.penalties.home : null;
-        const penAway = Number.isFinite(score?.penalties?.away) ? score.penalties.away : null;
 
         if (fullHome == null || fullAway == null) {
           if (status === 'IN_PLAY' || status === 'LIVE') {
@@ -827,15 +823,7 @@
           return '-- : --';
         }
 
-        let display = `${fullHome} : ${fullAway}`;
-        if (penHome != null && penAway != null) {
-          display += ` (${penHome}:${penAway} n.E.)`;
-        } else if (
-          extraHome != null && extraAway != null && (extraHome !== fullHome || extraAway !== fullAway)
-        ) {
-          display += ` (${extraHome}:${extraAway} n.V.)`;
-        }
-        return display;
+        return `${fullHome} : ${fullAway}`;
       }
 
       function formatFootballDataMatch(rawMatch) {
