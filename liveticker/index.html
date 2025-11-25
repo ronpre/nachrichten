@@ -946,6 +946,20 @@
           .filter((entry) => entry != null);
       }
 
+      if (typeof window !== 'undefined') {
+        window.__clFootballDataHelpers = {
+          deriveMatchdaysFromFootballData,
+          mapFootballDataStatus,
+          formatFootballDataScore,
+          formatFootballDataMatch,
+          loadFootballDataFallbackMatches,
+          formatFootballDataStandings
+        };
+        if (typeof window.formatFootballDataMatch !== 'function') {
+          window.formatFootballDataMatch = formatFootballDataMatch;
+        }
+      }
+
       async function loadChampionsLeagueFromFootballData(leagueConfig, { refreshToken } = {}) {
         const isLatest = () => !refreshToken || state.refreshToken === refreshToken;
         const applyStatus = (message, level) => {
