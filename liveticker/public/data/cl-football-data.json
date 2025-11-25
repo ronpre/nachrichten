@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2025-11-25T22:02:06.117Z",
+  "generatedAt": "2025-11-25T22:37:22.934Z",
   "source": "football-data.org",
+  "competition": {
+    "code": "CL",
+    "label": "Champions League",
+    "name": "UEFA Champions League",
+    "emblem": "https://crests.football-data.org/CL.png"
+  },
   "season": {
     "year": 2025,
     "startDate": null,
@@ -2748,7 +2754,7 @@
       "id": "551940",
       "utcDate": "2025-11-25T20:00:00Z",
       "isoDate": "2025-11-25",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LEAGUE_STAGE",
       "group": null,
       "matchday": 5,
@@ -2764,7 +2770,7 @@
       },
       "score": {
         "fullTime": {
-          "home": 3,
+          "home": 4,
           "away": 0
         },
         "extraTime": {
@@ -2847,7 +2853,7 @@
       "id": "552017",
       "utcDate": "2025-11-25T20:00:00Z",
       "isoDate": "2025-11-25",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LEAGUE_STAGE",
       "group": null,
       "matchday": 5,

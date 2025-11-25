@@ -584,6 +584,7 @@
           provider: 'football-data',
           table: true,
           footballDataPath: 'public/data/cl-football-data.json',
+          footballDataFallback: 'espn-cl',
           espnSlug: 'uefa.champions',
           espnStandingsSlug: 'uefa.champions'
         },
@@ -620,15 +621,21 @@
         {
           id: 'laliga',
           label: 'Spanien',
-          provider: 'espn',
+          provider: 'football-data',
+          footballDataPath: 'public/data/laliga-football-data.json',
+          footballDataFallback: 'espn',
           espnSlug: 'esp.1',
+          espnStandingsSlug: 'esp.1',
           table: true
         },
         {
           id: 'pl',
           label: 'England',
-          provider: 'espn',
+          provider: 'football-data',
+          footballDataPath: 'public/data/pl-football-data.json',
+          footballDataFallback: 'espn',
           espnSlug: 'eng.1',
+          espnStandingsSlug: 'eng.1',
           table: true
         }
       ];
@@ -1005,7 +1012,7 @@
         }
       }
 
-      async function loadChampionsLeagueFromFootballData(leagueConfig, { refreshToken } = {}) {
+      async function loadFootballDataFromFile(leagueConfig, { refreshToken, leagueId } = {}) {
         const isLatest = () => !refreshToken || state.refreshToken === refreshToken;
         const applyStatus = (message, level) => {
           if (isLatest()) {
@@ -1031,6 +1038,25 @@
           if (isLatest()) {
             fn();
           }
+        };
+
+        const competitionLabel = leagueConfig?.label || 'Wettbewerb';
+        const selectionKey = leagueId || leagueConfig?.id || null;
+        const fallbackStrategy = leagueConfig?.footballDataFallback || (leagueConfig?.id === 'cl-men' ? 'espn-cl' : null);
+
+        const triggerFallback = async ({ reason, season } = {}) => {
+          if (fallbackStrategy === 'espn') {
+            await loadEspnFootball(leagueConfig, { refreshToken });
+            return true;
+          }
+          if (fallbackStrategy === 'espn-cl') {
+            return loadChampionsLeagueFromEspn(leagueConfig, {
+              season,
+              reason,
+              refreshToken
+            });
+          }
+          return false;
         };
 
         const dataPath = leagueConfig?.footballDataPath || 'public/data/cl-football-data.json';
@@ -1074,15 +1100,12 @@
               }
             }).join(', ')})`
             : '';
-          console.warn('CL-Datensatz konnte nicht geladen werden.', {
+          console.warn(`${competitionLabel}-Datensatz konnte nicht geladen werden.`, {
             attemptedPaths,
             error: lastLoadError
           });
-          applyStatus('CL-Daten (football-data.org) konnten nicht geladen werden: ' + detail + attemptedLabel, 'warning');
-          return loadChampionsLeagueFromEspn(leagueConfig, {
-            reason: 'lokaler CL-Datensatz nicht verfügbar',
-            refreshToken
-          });
+          applyStatus(`${competitionLabel}-Daten (football-data.org) konnten nicht geladen werden: ${detail}${attemptedLabel}`, 'warning');
+          return triggerFallback({ reason: 'lokaler Datensatz nicht verfügbar' });
         }
 
         const fallbackErrors = [];
@@ -1124,7 +1147,7 @@
         applyState(() => {
           state.matchdays = normalizedMatchdays;
           state.matchdayDateLookup = createMatchdayDateLookup(state.matchdays);
-          const restored = restoreFootballMatchdaySelection(state.matchdays, leagueConfig.id);
+          const restored = restoreFootballMatchdaySelection(state.matchdays, selectionKey);
           if (!restored) {
             state.activeMatchdayOrder = null;
           }
@@ -1136,7 +1159,7 @@
         if (!selectedEntry) {
           applyRenderMatches([], 'Keine Spiele für den ausgewählten Spieltag gefunden.');
           applyHideTable();
-          applyStatus('Keine Champions-League-Spieltage im lokalen Datensatz gefunden.', 'warning');
+          applyStatus(`Keine Spieltage für ${competitionLabel} im lokalen Datensatz gefunden.`, 'warning');
           return false;
         }
 
@@ -1156,7 +1179,9 @@
 
         if (!matches.length && matchMap.size) {
           const fallbackStageOrder = Number.isFinite(selectedEntry.stageOrder) ? selectedEntry.stageOrder : null;
-          const fallbackStageInfo = fallbackStageOrder != null ? CHAMPIONS_LEAGUE_STAGE_INFO.get(fallbackStageOrder) : null;
+          const fallbackStageInfo = fallbackStrategy === 'espn-cl' && fallbackStageOrder != null
+            ? CHAMPIONS_LEAGUE_STAGE_INFO.get(fallbackStageOrder)
+            : null;
           const fallbackGroup = fallbackStageInfo?.slug || null;
           const { matches: fallbackMatches, errors: fallbackLoadErrors } = await loadFootballDataFallbackMatches(matchMap, selectedEntry, leagueConfig?.espnSlug, fallbackGroup);
           if (Array.isArray(fallbackLoadErrors) && fallbackLoadErrors.length) {
@@ -1170,11 +1195,8 @@
         }
 
         if (!matches.length) {
-          const fallbackUsed = await loadChampionsLeagueFromEspn(leagueConfig, {
-            reason: 'lokaler CL-Datensatz enthält keine Begegnungen',
-            refreshToken
-          });
-          return fallbackUsed;
+          const fallbackSeason = Number.isFinite(payload?.season?.year) ? payload.season.year : undefined;
+          return triggerFallback({ reason: 'lokaler Datensatz enthält keine Begegnungen', season: fallbackSeason });
         }
 
         matches.sort((a, b) => {
@@ -1210,8 +1232,8 @@
           : null;
         let statusLevel = fallbackErrors.length ? 'warning' : 'info';
         let statusMessage = generatedLabel
-          ? `Champions League über lokalen Datensatz aktualisiert (${generatedLabel}).`
-          : 'Champions League über lokalen Datensatz aktualisiert.';
+          ? `${competitionLabel} über lokalen Datensatz aktualisiert (${generatedLabel}).`
+          : `${competitionLabel} über lokalen Datensatz aktualisiert.`;
         if (fallbackErrors.length) {
           const failedDates = fallbackErrors
             .map((entry) => normalizeToIsoDate(entry?.date))
@@ -2037,7 +2059,7 @@
           return;
         }
         if (provider === 'football-data') {
-          await loadChampionsLeagueFromFootballData(leagueConfig, { refreshToken, leagueId: effectiveLeagueId });
+          await loadFootballDataFromFile(leagueConfig, { refreshToken, leagueId: effectiveLeagueId });
           return;
         }
 

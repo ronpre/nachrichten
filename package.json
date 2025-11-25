@@ -7,7 +7,10 @@
   "scripts": {
     "update": "node update-news.js",
     "watch": "node update-news.js --watch",
-    "fetch:cl": "node scripts/fetch-cl.js"
+    "fetch:cl": "node scripts/fetch-football-data.js --competition=CL --output=liveticker/public/data/cl-football-data.json",
+    "fetch:pl": "node scripts/fetch-football-data.js --competition=PL --output=liveticker/public/data/pl-football-data.json",
+    "fetch:laliga": "node scripts/fetch-football-data.js --competition=PD --output=liveticker/public/data/laliga-football-data.json",
+    "fetch:football-data": "npm run fetch:cl && npm run fetch:pl && npm run fetch:laliga"
   },
   "dependencies": {
     "rss-parser": "^3.12.0"
