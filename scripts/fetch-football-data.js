@@ -24,6 +24,31 @@ const DEFAULT_LABELS = new Map([
   ['PD', 'La Liga']
 ]);
 
+const CL_STAGE_ORDER = new Map([
+  ['LEAGUE_STAGE', 1],
+  ['LEAGUE_PHASE', 1],
+  ['FIRST_STAGE', 1],
+  ['PLAYOFFS', 2],
+  ['KNOCKOUT_ROUND_PLAYOFFS', 2],
+  ['KNOCKOUT_PLAY_OFFS', 2],
+  ['ROUND_OF_16', 3],
+  ['LAST_16', 3],
+  ['QUARTER_FINALS', 4],
+  ['QUARTERFINALS', 4],
+  ['SEMI_FINALS', 5],
+  ['SEMIFINALS', 5],
+  ['FINAL', 6]
+]);
+
+const CL_STAGE_LABELS = new Map([
+  [1, 'Ligaphase'],
+  [2, 'Play-offs'],
+  [3, 'Achtelfinale'],
+  [4, 'Viertelfinale'],
+  [5, 'Halbfinale'],
+  [6, 'Finale']
+]);
+
 function parseCliArguments(argv) {
   const options = {};
   argv.slice(2).forEach((arg) => {
@@ -142,42 +167,189 @@ function normalizeMatch(match) {
   };
 }
 
-function createMatchdayMetadata(matches) {
+function toIsoDate(value) {
+  if (!value) {
+    return null;
+  }
+  try {
+    const parsed = new Date(value);
+    if (Number.isNaN(parsed.getTime())) {
+      return null;
+    }
+    return parsed.toISOString().slice(0, 10);
+  } catch (error) {
+    return null;
+  }
+}
+
+function createDefaultMatchdayMetadata(matches) {
+  if (!Array.isArray(matches)) {
+    return [];
+  }
   const byMatchday = new Map();
 
   matches.forEach((match) => {
-    const key = Number.isFinite(match.matchday) ? match.matchday : null;
+    const key = Number.isFinite(match?.matchday) ? match.matchday : null;
     if (key == null) {
       return;
     }
     if (!byMatchday.has(key)) {
       byMatchday.set(key, {
-        order: key,
         dates: new Set(),
         matchIds: new Set()
       });
     }
     const entry = byMatchday.get(key);
-    if (match.isoDate) {
-      entry.dates.add(match.isoDate);
+    const isoDate = match.isoDate || toIsoDate(match.utcDate);
+    if (isoDate) {
+      entry.dates.add(isoDate);
     }
-    entry.matchIds.add(match.id);
+    if (match?.id != null) {
+      entry.matchIds.add(String(match.id));
+    }
   });
 
-  const sorted = Array.from(byMatchday.entries())
+  return Array.from(byMatchday.entries())
     .sort((a, b) => a[0] - b[0])
-    .map(([order, entry]) => {
+    .map(([matchday, entry]) => {
       const dates = Array.from(entry.dates).sort();
       return {
-        order,
-        label: `${order}. Spieltag`,
+        order: matchday,
+        label: `${matchday}. Spieltag`,
         primaryDate: dates[0] ?? null,
         dates,
         matchIds: Array.from(entry.matchIds)
       };
     });
+}
 
-  return sorted;
+function createChampionsLeagueMetadata(matches) {
+  if (!Array.isArray(matches)) {
+    return [];
+  }
+
+  const leagueMatches = matches.filter((match) => {
+    const stageKey = typeof match?.stage === 'string' ? match.stage.toUpperCase() : '';
+    return stageKey === 'LEAGUE_STAGE' || stageKey === 'LEAGUE_PHASE' || stageKey === 'FIRST_STAGE';
+  });
+
+  const byMatchday = new Map();
+  leagueMatches.forEach((match) => {
+    const matchday = Number.isFinite(match?.matchday) ? match.matchday : null;
+    if (matchday == null) {
+      return;
+    }
+    if (!byMatchday.has(matchday)) {
+      byMatchday.set(matchday, {
+        dates: new Set(),
+        matchIds: new Set()
+      });
+    }
+    const bucket = byMatchday.get(matchday);
+    const isoDate = match.isoDate || toIsoDate(match.utcDate);
+    if (isoDate) {
+      bucket.dates.add(isoDate);
+    }
+    if (match?.id != null) {
+      bucket.matchIds.add(String(match.id));
+    }
+  });
+
+  const leagueEntries = Array.from(byMatchday.entries())
+    .sort((a, b) => a[0] - b[0])
+    .map(([matchday, bucket]) => {
+      const dates = Array.from(bucket.dates).sort();
+      return {
+        order: matchday,
+        label: `Ligaphase · ${matchday}. Spieltag`,
+        primaryDate: dates[0] ?? null,
+        dates,
+        matchIds: Array.from(bucket.matchIds),
+        stageOrder: 1
+      };
+    });
+
+  const stageBuckets = new Map();
+  matches.forEach((match) => {
+    const stageKey = typeof match?.stage === 'string' ? match.stage.toUpperCase() : '';
+    const stageOrder = CL_STAGE_ORDER.get(stageKey) ?? null;
+    if (!stageOrder || stageOrder === 1) {
+      return;
+    }
+    if (!stageBuckets.has(stageOrder)) {
+      stageBuckets.set(stageOrder, {
+        matches: [],
+        rawStage: stageKey
+      });
+    }
+    stageBuckets.get(stageOrder).matches.push(match);
+  });
+
+  const stageEntries = Array.from(stageBuckets.entries())
+    .sort((a, b) => a[0] - b[0])
+    .map(([stageOrder, bucket]) => {
+      const ids = new Set();
+      const dates = new Set();
+      bucket.matches.forEach((match) => {
+        if (match?.id != null) {
+          ids.add(String(match.id));
+        }
+        const isoDate = match.isoDate || toIsoDate(match.utcDate);
+        if (isoDate) {
+          dates.add(isoDate);
+        }
+      });
+      if (!ids.size) {
+        return null;
+      }
+      const sortedDates = Array.from(dates).sort();
+      const baseLabel = CL_STAGE_LABELS.get(stageOrder) || bucket.rawStage || `Phase ${stageOrder}`;
+      return {
+        order: Infinity,
+        label: baseLabel,
+        primaryDate: sortedDates[0] ?? null,
+        dates: sortedDates,
+        matchIds: Array.from(ids),
+        stageOrder
+      };
+    })
+    .filter((entry) => entry != null);
+
+  const combined = [...leagueEntries, ...stageEntries];
+  if (!combined.length) {
+    return [];
+  }
+
+  combined.sort((a, b) => {
+    if (a.stageOrder !== b.stageOrder) {
+      return (a.stageOrder ?? Number.POSITIVE_INFINITY) - (b.stageOrder ?? Number.POSITIVE_INFINITY);
+    }
+    if ((a.stageOrder ?? 0) === 1 && (b.stageOrder ?? 0) === 1) {
+      return a.order - b.order;
+    }
+    const aTime = a.primaryDate ? Date.parse(a.primaryDate) : Number.POSITIVE_INFINITY;
+    const bTime = b.primaryDate ? Date.parse(b.primaryDate) : Number.POSITIVE_INFINITY;
+    if (aTime !== bTime) {
+      return aTime - bTime;
+    }
+    return a.label.localeCompare(b.label);
+  });
+
+  combined.forEach((entry, index) => {
+    entry.order = index + 1;
+  });
+
+  return combined;
+}
+
+function createMatchdayMetadata(matches, competitionCode) {
+  if (competitionCode === 'CL') {
+    const championsLeagueEntries = createChampionsLeagueMetadata(matches);
+    if (championsLeagueEntries.length) {
+      return championsLeagueEntries;
+    }
+  }
+  return createDefaultMatchdayMetadata(matches);
 }
 
 function normalizeStandings(standingsPayload) {
@@ -340,7 +512,7 @@ async function main() {
   const matches = Array.isArray(matchesResponse.matches)
     ? matchesResponse.matches.map(normalizeMatch)
     : [];
-  const matchdays = createMatchdayMetadata(matches);
+  const matchdays = createMatchdayMetadata(matches, competitionCode);
   const standings = standingsResponse
     ? normalizeStandings(standingsResponse.standings)
     : [];
