@@ -2047,7 +2047,8 @@
               label: formatChampionsLeagueStageLabel(stage, index, clusters.length),
               primaryDate: clusterDates[0],
               dates: clusterDates,
-              matchIds: Array.from(matchIdSet)
+              matchIds: Array.from(matchIdSet),
+              stageOrder: stage.stageOrder
             });
           });
         });
@@ -2084,7 +2085,8 @@
               label: `${index + 1}. Termin`,
               primaryDate: clusterDates[0],
               dates: clusterDates,
-              matchIds: Array.from(matchIdSet)
+              matchIds: Array.from(matchIdSet),
+              stageOrder: null
             });
           });
         }
@@ -2110,7 +2112,8 @@
             label: entry.label,
             primaryDate: entry.primaryDate,
             dates: Array.isArray(entry.dates) ? [...entry.dates] : [],
-            matchIds: Array.isArray(entry.matchIds) ? entry.matchIds.map((id) => String(id)) : []
+            matchIds: Array.isArray(entry.matchIds) ? entry.matchIds.map((id) => String(id)) : [],
+            stageOrder: entry.stageOrder ?? null
           }));
           state.matchdayDateLookup = createMatchdayDateLookup(state.matchdays);
           const restored = restoreFootballMatchdaySelection(state.matchdays, leagueConfig.id || slug);
@@ -2133,6 +2136,15 @@
             matches.push(match);
           }
         });
+
+        if (!matches.length && aggregatedMatches.size) {
+          const targetStageOrder = selectedEntry?.stageOrder ?? null;
+          aggregatedMatches.forEach((match) => {
+            if (targetStageOrder == null || match?.stageOrder === targetStageOrder) {
+              matches.push(match);
+            }
+          });
+        }
         matches.sort((a, b) => {
           const dateCompare = (a.isoDate || '').localeCompare(b.isoDate || '');
           if (dateCompare !== 0) {
@@ -2286,7 +2298,8 @@
               label: entry.label,
               primaryDate: entry.primaryDate,
               dates: Array.isArray(entry.dates) ? [...entry.dates] : [],
-              matchIds: Array.isArray(entry.matchIds) ? [...entry.matchIds] : []
+              matchIds: Array.isArray(entry.matchIds) ? [...entry.matchIds] : [],
+              stageOrder: entry.stageOrder ?? null
             }));
             state.matchdayDateLookup = createMatchdayDateLookup(state.matchdays);
             const restored = restoreFootballMatchdaySelection(state.matchdays, leagueConfig.id || slug);
