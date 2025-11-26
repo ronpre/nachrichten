@@ -1207,6 +1207,48 @@
           return (a.timeRaw || '').localeCompare(b.timeRaw || '');
         });
 
+        const rawSeasonYear = payload?.season?.year;
+        const parsedSeasonYear = Number.isFinite(rawSeasonYear)
+          ? rawSeasonYear
+          : Number.parseInt(rawSeasonYear, 10);
+        const datasetSeasonYear = Number.isFinite(parsedSeasonYear) ? parsedSeasonYear : null;
+        const stateIsoDate = normalizeToIsoDate(state.date) || new Date().toISOString().slice(0, 10);
+        const stateSeasonYear = stateIsoDate ? deriveFootballSeason(stateIsoDate) : null;
+        const hasFinishedMatch = matches.some((match) => match?.status === 'Beendet');
+        let datasetSeemsFuture = false;
+
+        if (!hasFinishedMatch && matches.length) {
+          if (
+            Number.isFinite(datasetSeasonYear) &&
+            Number.isFinite(stateSeasonYear) &&
+            datasetSeasonYear > stateSeasonYear
+          ) {
+            datasetSeemsFuture = true;
+          } else {
+            const earliestIso = matches
+              .map((match) => normalizeToIsoDate(match?.isoDate))
+              .filter(Boolean)
+              .sort()[0] || null;
+            if (earliestIso && stateIsoDate) {
+              const earliestMs = Date.parse(`${earliestIso}T00:00:00Z`);
+              const stateMs = Date.parse(`${stateIsoDate}T00:00:00Z`);
+              if (Number.isFinite(earliestMs) && Number.isFinite(stateMs)) {
+                const deltaDays = Math.round((earliestMs - stateMs) / 86400000);
+                if (deltaDays > 120) {
+                  datasetSeemsFuture = true;
+                }
+              }
+            }
+          }
+        }
+
+        if (datasetSeemsFuture) {
+          return triggerFallback({
+            reason: 'lokaler Datensatz scheint zur zukünftigen Saison zu gehören',
+            season: datasetSeasonYear
+          });
+        }
+
         applyRenderMatches(matches, 'Keine Spiele für den ausgewählten Spieltag gefunden.');
 
         if (leagueConfig.table) {
