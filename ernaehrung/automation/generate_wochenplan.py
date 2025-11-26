@@ -5,7 +5,8 @@ from __future__ import annotations
 
 import random
 import sys
-from datetime import date
+from collections import defaultdict
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 MEALS = [
@@ -643,8 +644,9 @@ def build_html(today: date, meals: list[dict[str, str]], snacks: list[dict[str, 
 
 
 def build_index_html(plan_files: list[Path]) -> str:
-    """Erstellt eine Liste mit allen vorhandenen Wochenplaenen."""
-    entries: dict[tuple[int, int], tuple[date, str, str]] = {}
+    """Erstellt eine Liste mit allen vorhandenen Wochenplaenen gruppiert nach Kalenderjahr."""
+    grouped: dict[int, list[tuple[date, str, str]]] = defaultdict(list)
+
     for path in plan_files:
         stem = path.stem
         if not stem.startswith("wochenplan_"):
@@ -655,24 +657,36 @@ def build_index_html(plan_files: list[Path]) -> str:
         except ValueError:
             continue
         iso_year, iso_week, _ = plan_date.isocalendar()
-        href = f"kw{iso_week:02d}.html"
-        if not (OUTPUT_DIR / href).exists():
+        alias_candidates = [
+            f"kw{iso_week:02d}-{iso_year}.html",
+            f"kw{iso_week:02d}.html",
+            path.name,
+        ]
+        alias_path: Path | None = None
+        for candidate in alias_candidates:
+            candidate_path = OUTPUT_DIR / candidate
+            if candidate_path.exists():
+                alias_path = candidate_path
+                break
+        if alias_path is None:
             continue
-        label = f"KW {iso_week:02d} ({iso_year})"
-        key = (iso_year, iso_week)
-        existing = entries.get(key)
-        if existing is None or plan_date > existing[0]:
-            entries[key] = (plan_date, href, label)
+        period = format_period(plan_date)
+        label = f"KW {iso_week:02d}/{iso_year} - {period}"
+        grouped[iso_year].append((plan_date, alias_path.name, label))
 
-    if not entries:
+    if not grouped:
         body = "<p>Noch keine Wochenplaene verfuegbar.</p>"
     else:
-        ordered = sorted(entries.values(), key=lambda item: item[0], reverse=True)
-        items = "".join(
-            f"<li><a href='{href}'>{label}</a></li>"
-            for _, href, label in ordered
-        )
-        body = f"<ul>{items}</ul>"
+        sections: list[str] = []
+        for year in sorted(grouped.keys(), reverse=True):
+            entries = sorted(grouped[year], key=lambda item: item[0], reverse=True)
+            items = "".join(
+                f"<li><a href='{href}'>{label}</a></li>" for _, href, label in entries
+            )
+            sections.append(f"<section><h2>{year}</h2><ul>{items}</ul></section>")
+        body = "".join(sections)
+
+    generated_at = datetime.now().strftime("%d.%m.%Y %H:%M")
 
     html = f"""
 <!DOCTYPE html>
@@ -681,19 +695,29 @@ def build_index_html(plan_files: list[Path]) -> str:
   <meta charset="utf-8" />
   <title>Ernaehrungsplaene</title>
   <style>
-    body {{ font-family: Arial, sans-serif; line-height: 1.5; margin: 2rem; }}
+    body {{ font-family: Arial, sans-serif; line-height: 1.5; margin: 2rem; max-width: 720px; }}
     h1 {{ color: #1f4d3a; }}
-    ul {{ margin-left: 1.5rem; }}
+    h2 {{ color: #1f4d3a; margin-top: 1.75rem; }}
+    ul {{ list-style: none; margin: 0.75rem 0 0; padding: 0; }}
+    li {{ background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; margin: 0 0 0.75rem; padding: 0.75rem 1rem; }}
+    li a {{ color: #1f4d3a; font-weight: 600; text-decoration: none; }}
+    li a:hover {{ text-decoration: underline; }}
+    .meta {{ color: #4f6b6b; font-size: 0.95rem; margin: 0.5rem 0 1.5rem; }}
   </style>
 </head>
 <body>
   <h1>Alle Wochenplaene</h1>
-  <p>Hier finden sich alle automatisch erzeugten Ernaehrungsplaene.</p>
+  <p class="meta">Aktualisiert am {generated_at}</p>
   {body}
 </body>
 </html>
 """
     return "".join(line.rstrip() for line in html.splitlines(True))
+
+
+def format_period(start_date: date) -> str:
+    end_date = start_date + timedelta(days=6)
+    return f"{start_date.strftime('%d.%m.%Y')} - {end_date.strftime('%d.%m.%Y')}"
 
 
 def ensure_friday(force: bool) -> None:
@@ -710,7 +734,7 @@ def build_output_paths(today: date) -> tuple[Path, Path, Path, Path, int, int]:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     base_name = f"wochenplan_{today.isoformat()}"
     iso_year, iso_week, _ = today.isocalendar()
-    alias_name = f"kw{iso_week:02d}"
+    alias_name = f"kw{iso_week:02d}-{iso_year}"
     return (
         OUTPUT_DIR / f"{base_name}.txt",
         OUTPUT_DIR / f"{base_name}.html",
@@ -740,6 +764,12 @@ def main() -> None:
 
     text_path.write_text(content, encoding="utf-8")
     html_path.write_text(html_content, encoding="utf-8")
+
+    if kw_text_path.exists():
+        kw_text_path.unlink()
+    if kw_html_path.exists():
+        kw_html_path.unlink()
+
     kw_text_path.write_text(content, encoding="utf-8")
     kw_html_path.write_text(html_content, encoding="utf-8")
 
@@ -749,7 +779,7 @@ def main() -> None:
 
     print(
         "Wochenplaene gespeichert unter"
-        f" {text_path.name}, {html_path.name} sowie Alias kw{iso_week:02d}.html (KW {iso_week:02d}/{iso_year})"
+        f" {text_path.name}, {html_path.name} sowie Alias {kw_html_path.name} (KW {iso_week:02d}/{iso_year})"
     )
 
 

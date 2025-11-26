@@ -6,6 +6,7 @@ import argparse
 import datetime as dt
 import html
 import re
+from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Sequence
@@ -60,48 +61,55 @@ STYLE_BLOCK = """  <style>
   </style>"""
 
 INDEX_STYLE_BLOCK = """  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.5;
-      margin: 2rem auto;
-      max-width: 680px;
-      padding: 0 1rem;
-    }
-    h1 {
-      color: #1f4d3a;
-    }
-    ul {
-      list-style: none;
-      margin: 2rem 0 0;
-      padding: 0;
-    }
-    li {
-      background: #f6f8fa;
-      border: 1px solid #d0d7de;
-      border-radius: 6px;
-      margin: 0 0 1rem;
-      padding: 0.75rem 1rem;
-    }
-    li a {
-      color: #1f4d3a;
-      font-weight: 600;
-      text-decoration: none;
-    }
-    li a:hover {
-      text-decoration: underline;
-    }
-    li span {
-      color: #4f6b6b;
-      display: block;
-      font-size: 0.9rem;
-      margin-top: 0.25rem;
-    }
-    .meta {
-      color: #4f6b6b;
-      font-size: 0.95rem;
-      margin: 0.5rem 0 0;
-    }
-  </style>"""
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin: 2rem auto;
+            max-width: 720px;
+            padding: 0 1rem;
+        }
+        h1 {
+            color: #1f4d3a;
+        }
+        .meta {
+            color: #4f6b6b;
+            font-size: 0.95rem;
+            margin: 0.35rem 0 1.5rem;
+        }
+        section.year-group {
+            margin-bottom: 2.5rem;
+        }
+        section.year-group h2 {
+            color: #1f4d3a;
+            margin: 0 0 0.75rem;
+        }
+        section.year-group ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        section.year-group li {
+            background: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            margin: 0 0 0.75rem;
+            padding: 0.75rem 1rem;
+        }
+        section.year-group li a {
+            color: #1f4d3a;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        section.year-group li a:hover {
+            text-decoration: underline;
+        }
+        section.year-group li span {
+            color: #4f6b6b;
+            display: block;
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+        }
+    </style>"""
 
 SECTION_HEADINGS = {
     "Zwischenmahlzeiten-Empfehlung",
@@ -326,7 +334,13 @@ def write_plan_files(plan: Plan, target_dir: Path) -> None:
 def render_index(plans: Sequence[Plan]) -> str:
     if not plans:
         raise ValueError("No plans found, cannot render index")
-    sorted_plans = sorted(plans, key=lambda plan: plan.start_date, reverse=True)
+
+    grouped: dict[int, List[Plan]] = defaultdict(list)
+    for plan in plans:
+        grouped[plan.iso_year].append(plan)
+
+    generated_at = dt.datetime.now().astimezone().strftime("%d.%m.%Y %H:%M %Z")
+
     lines: List[str] = [
         "<!DOCTYPE html>",
         "<html lang=\"de\">",
@@ -337,19 +351,29 @@ def render_index(plans: Sequence[Plan]) -> str:
         INDEX_STYLE_BLOCK,
         "</head>",
         "<body>",
-    "  <h1>Wochenplan mit Rezepten</h1>",
-        "  <ul>",
+        "  <h1>Wochenplan mit Rezepten</h1>",
+        f"  <p class=\"meta\">Aktualisiert am {html.escape(generated_at)}</p>",
     ]
-    for plan in sorted_plans:
-        lines.extend(
-            [
-                "    <li>",
-                f"      <a href=\"{plan.kw_filename}\">KW {plan.iso_week:02d}/{plan.iso_year}</a>",
-                f"      <span>{html.escape(plan.title)}</span>",
-                "    </li>",
-            ]
-        )
-    lines.extend(["  </ul>", "</body>", "</html>"])
+
+    for year in sorted(grouped.keys(), reverse=True):
+        year_plans = sorted(grouped[year], key=lambda plan: plan.start_date, reverse=True)
+        lines.append("  <section class=\"year-group\">")
+        lines.append(f"    <h2>{year}</h2>")
+        lines.append("    <ul>")
+        for plan in year_plans:
+            period = format_period_text(plan.start_date)
+            lines.extend(
+                [
+                    "      <li>",
+                    f"        <a href=\"{plan.canonical_filename}\">KW {plan.iso_week:02d}/{plan.iso_year}</a>",
+                    f"        <span>{html.escape(plan.title)} &ndash; {html.escape(period)}</span>",
+                    "      </li>",
+                ]
+            )
+        lines.append("    </ul>")
+        lines.append("  </section>")
+
+    lines.extend(["</body>", "</html>"])
     return "\n".join(lines) + "\n"
 
 
