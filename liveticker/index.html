@@ -1249,6 +1249,40 @@
           });
         }
 
+        const staleMatches = [];
+        if (matches.length) {
+          const now = Date.now();
+          const staleToleranceMs = 2 * 60 * 60 * 1000; // allow two hours buffer after Anpfiff
+          const selectedIds = new Set(selectedEntry.matchIds || []);
+          matchMap.forEach((rawMatch, rawId) => {
+            if (selectedIds.size && !selectedIds.has(rawId)) {
+              return;
+            }
+            const kickoffRaw = rawMatch.utcDate || rawMatch.timeRaw || rawMatch.isoDate || null;
+            const kickoffTime = kickoffRaw ? Date.parse(kickoffRaw) : NaN;
+            if (!Number.isFinite(kickoffTime)) {
+              return;
+            }
+            if (now <= kickoffTime + staleToleranceMs) {
+              return;
+            }
+            const finalScore = resolveFootballDataFinalScore(rawMatch.score || {});
+            const homeDone = Number.isFinite(finalScore.home);
+            const awayDone = Number.isFinite(finalScore.away);
+            const statusFinished = typeof rawMatch.status === 'string' && /FINISHED|AWARDED/i.test(rawMatch.status);
+            if (!statusFinished && (!homeDone || !awayDone)) {
+              staleMatches.push(rawMatch);
+            }
+          });
+        }
+
+        if (staleMatches.length && staleMatches.length >= Math.ceil(matches.length / 2)) {
+          return triggerFallback({
+            reason: 'lokaler Datensatz enthält keine aktualisierten Endstände',
+            season: datasetSeasonYear
+          });
+        }
+
         applyRenderMatches(matches, 'Keine Spiele für den ausgewählten Spieltag gefunden.');
 
         if (leagueConfig.table) {
