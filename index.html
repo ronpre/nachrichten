@@ -313,13 +313,11 @@
         ];
         const STATIC_ROUTES = {
             Liveticker: 'liveticker/index.html',
-            History: 'geschichte/index.html',
-            Ernaehrung: 'ernaehrung/automation/wochenplaene/index.html'
+            History: 'geschichte/index.html'
         };
         const STATIC_REFRESH_RULES = {
             Liveticker: { type: 'interval', intervalMs: 60 * 1000 },
-            History: { type: 'schedule', times: [{ hour: 6, minute: 0 }] },
-            Ernaehrung: { type: 'schedule', times: [{ hour: 7, minute: 0 }] }
+            History: { type: 'schedule', times: [{ hour: 6, minute: 0 }] }
         };
         const BADMINTON_LINKS = [
             {
@@ -517,7 +515,6 @@
             appendTickerSection();
             appendHistorySection();
             appendBadmintonSection();
-            appendErnaehrungSection();
 
             if (updatedAtElement) {
                 const updated = data?.updatedAt ? formatDate(data.updatedAt) : '';
@@ -634,13 +631,6 @@
 
         function appendBadmintonSection() {
             appendStaticSection('Badminton', 'Zum Anzeigen klicken.', ensureBadmintonLinks);
-        }
-
-        function appendErnaehrungSection() {
-            const ernaehrungSection = appendStaticSection('Ernaehrung', 'Zum Anzeigen klicken.', ensureStaticFrame);
-            if (ernaehrungSection) {
-                ensureStaticFrame('Ernaehrung', ernaehrungSection.content, ernaehrungSection.placeholder);
-            }
         }
 
         function appendStaticSection(label, message, loadFn) {

@@ -3,11 +3,9 @@
 
 from __future__ import annotations
 
-import argparse
 import random
 import sys
-from collections import defaultdict
-from datetime import date, datetime, timedelta
+from datetime import date
 from pathlib import Path
 
 MEALS = [
@@ -645,9 +643,8 @@ def build_html(today: date, meals: list[dict[str, str]], snacks: list[dict[str, 
 
 
 def build_index_html(plan_files: list[Path]) -> str:
-    """Erstellt eine Liste mit allen vorhandenen Wochenplaenen gruppiert nach Kalenderjahr."""
-    grouped: dict[int, dict[int, tuple[date, str, str]]] = defaultdict(dict)
-
+    """Erstellt eine Liste mit allen vorhandenen Wochenplaenen."""
+    entries: dict[tuple[int, int], tuple[date, str, str]] = {}
     for path in plan_files:
         stem = path.stem
         if not stem.startswith("wochenplan_"):
@@ -658,38 +655,24 @@ def build_index_html(plan_files: list[Path]) -> str:
         except ValueError:
             continue
         iso_year, iso_week, _ = plan_date.isocalendar()
-        alias_candidates = [
-            f"kw{iso_week:02d}-{iso_year}.html",
-            f"kw{iso_week:02d}.html",
-            path.name,
-        ]
-        alias_path: Path | None = None
-        for candidate in alias_candidates:
-            candidate_path = OUTPUT_DIR / candidate
-            if candidate_path.exists():
-                alias_path = candidate_path
-                break
-        if alias_path is None:
+        href = f"kw{iso_week:02d}.html"
+        if not (OUTPUT_DIR / href).exists():
             continue
-        period = format_period(plan_date)
-        label = f"KW {iso_week:02d}/{iso_year} - {period}"
-        existing = grouped[iso_year].get(iso_week)
-        if existing is None or plan_date < existing[0]:
-            grouped[iso_year][iso_week] = (plan_date, alias_path.name, label)
+        label = f"KW {iso_week:02d} ({iso_year})"
+        key = (iso_year, iso_week)
+        existing = entries.get(key)
+        if existing is None or plan_date > existing[0]:
+            entries[key] = (plan_date, href, label)
 
-    if not grouped:
+    if not entries:
         body = "<p>Noch keine Wochenplaene verfuegbar.</p>"
     else:
-        sections: list[str] = []
-        for year in sorted(grouped.keys(), reverse=True):
-            entries = sorted(grouped[year].values(), key=lambda item: item[0], reverse=True)
-            items = "".join(
-                f"<li><a href='{href}'>{label}</a></li>" for _, href, label in entries
-            )
-            sections.append(f"<section><h2>{year}</h2><ul>{items}</ul></section>")
-        body = "".join(sections)
-
-    generated_at = datetime.now().strftime("%d.%m.%Y %H:%M")
+        ordered = sorted(entries.values(), key=lambda item: item[0], reverse=True)
+        items = "".join(
+            f"<li><a href='{href}'>{label}</a></li>"
+            for _, href, label in ordered
+        )
+        body = f"<ul>{items}</ul>"
 
     html = f"""
 <!DOCTYPE html>
@@ -698,29 +681,19 @@ def build_index_html(plan_files: list[Path]) -> str:
   <meta charset="utf-8" />
   <title>Ernaehrungsplaene</title>
   <style>
-    body {{ font-family: Arial, sans-serif; line-height: 1.5; margin: 2rem; max-width: 720px; }}
+    body {{ font-family: Arial, sans-serif; line-height: 1.5; margin: 2rem; }}
     h1 {{ color: #1f4d3a; }}
-    h2 {{ color: #1f4d3a; margin-top: 1.75rem; }}
-    ul {{ list-style: none; margin: 0.75rem 0 0; padding: 0; }}
-    li {{ background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; margin: 0 0 0.75rem; padding: 0.75rem 1rem; }}
-    li a {{ color: #1f4d3a; font-weight: 600; text-decoration: none; }}
-    li a:hover {{ text-decoration: underline; }}
-    .meta {{ color: #4f6b6b; font-size: 0.95rem; margin: 0.5rem 0 1.5rem; }}
+    ul {{ margin-left: 1.5rem; }}
   </style>
 </head>
 <body>
   <h1>Alle Wochenplaene</h1>
-  <p class="meta">Aktualisiert am {generated_at}</p>
+  <p>Hier finden sich alle automatisch erzeugten Ernaehrungsplaene.</p>
   {body}
 </body>
 </html>
 """
     return "".join(line.rstrip() for line in html.splitlines(True))
-
-
-def format_period(start_date: date) -> str:
-    end_date = start_date + timedelta(days=6)
-    return f"{start_date.strftime('%d.%m.%Y')} - {end_date.strftime('%d.%m.%Y')}"
 
 
 def ensure_friday(force: bool) -> None:
@@ -732,105 +705,43 @@ def ensure_friday(force: bool) -> None:
         )
 
 
-def resolve_week_start(target: date) -> date:
-    """Ermittelt den Montag der Kalenderwoche fuer das gegebene Datum."""
-    return target - timedelta(days=target.weekday())
-
-
-def build_output_paths(week_start: date) -> tuple[Path, Path, Path, Path, Path, Path, int, int]:
+def build_output_paths(today: date) -> tuple[Path, Path, Path, Path, int, int]:
     """Gibt Pfade fuer Text/HTML und KW-Aliasse zurueck und legt Ordner an."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    base_name = f"wochenplan_{week_start.isoformat()}"
-    iso_year, iso_week, _ = week_start.isocalendar()
-    alias_name_year = f"kw{iso_week:02d}-{iso_year}"
-    legacy_alias_name = f"kw{iso_week:02d}"
+    base_name = f"wochenplan_{today.isoformat()}"
+    iso_year, iso_week, _ = today.isocalendar()
+    alias_name = f"kw{iso_week:02d}"
     return (
         OUTPUT_DIR / f"{base_name}.txt",
         OUTPUT_DIR / f"{base_name}.html",
-        OUTPUT_DIR / f"{alias_name_year}.txt",
-        OUTPUT_DIR / f"{alias_name_year}.html",
-        OUTPUT_DIR / f"{legacy_alias_name}.txt",
-        OUTPUT_DIR / f"{legacy_alias_name}.html",
+        OUTPUT_DIR / f"{alias_name}.txt",
+        OUTPUT_DIR / f"{alias_name}.html",
         iso_week,
         iso_year,
     )
-
-
-def parse_args(argv: list[str]) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        description="Erzeugt eine Wochenplan-Datei fuer die Ernaehrungssektion"
-    )
-    parser.add_argument("--force", action="store_true", help="Ueberschreibt vorhandene Dateien")
-    parser.add_argument(
-        "--week-offset",
-        type=int,
-        default=0,
-        help="Anzahl der Wochen, die relativ zur aktuellen Woche verschoben werden sollen",
-    )
-    parser.add_argument(
-        "--week-start",
-        type=str,
-        help="ISO-Datum (YYYY-MM-DD) fuer den Wochenstart (Montag)",
-    )
-    return parser.parse_args(argv)
 
 
 def main() -> None:
     """Erzeugt bei Bedarf eine neue Plan-Datei."""
-    args = parse_args(sys.argv[1:])
-    force = args.force
+    force = "--force" in sys.argv
     ensure_friday(force)
 
     today = date.today()
-    week_start = resolve_week_start(today)
-
-    if args.week_offset:
-        week_start += timedelta(days=7 * args.week_offset)
-
-    if args.week_start:
-        try:
-            week_start = date.fromisoformat(args.week_start)
-        except ValueError as exc:
-            raise SystemExit(f"Ungueltiges Datum fuer --week-start: {args.week_start}") from exc
-
-    paths = build_output_paths(week_start)
-    (
-        text_path,
-        html_path,
-        kw_year_text_path,
-        kw_year_html_path,
-        kw_legacy_text_path,
-        kw_legacy_html_path,
-        iso_week,
-        iso_year,
-    ) = paths
-    if (
-        text_path.exists()
-        or html_path.exists()
-        or kw_year_text_path.exists()
-        or kw_year_html_path.exists()
-        or kw_legacy_text_path.exists()
-        or kw_legacy_html_path.exists()
-    ) and not force:
+    paths = build_output_paths(today)
+    text_path, html_path, kw_text_path, kw_html_path, iso_week, iso_year = paths
+    if (text_path.exists() or html_path.exists() or kw_text_path.exists() or kw_html_path.exists()) and not force:
         raise SystemExit(
             "Es existiert bereits eine Datei fuer heute. Nutze --force, um sie zu ueberschreiben."
         )
 
     meals, snacks, beverage_tip = select_plan()
-    content = build_text(week_start, meals, snacks, beverage_tip)
-    html_content = build_html(week_start, meals, snacks, beverage_tip)
+    content = build_text(today, meals, snacks, beverage_tip)
+    html_content = build_html(today, meals, snacks, beverage_tip)
 
     text_path.write_text(content, encoding="utf-8")
     html_path.write_text(html_content, encoding="utf-8")
-
-    for alias_path in (kw_year_text_path, kw_year_html_path, kw_legacy_text_path, kw_legacy_html_path):
-        if alias_path.exists():
-            alias_path.unlink()
-
-    kw_year_text_path.write_text(content, encoding="utf-8")
-    kw_year_html_path.write_text(html_content, encoding="utf-8")
-    kw_legacy_text_path.write_text(content, encoding="utf-8")
-    kw_legacy_html_path.write_text(html_content, encoding="utf-8")
+    kw_text_path.write_text(content, encoding="utf-8")
+    kw_html_path.write_text(html_content, encoding="utf-8")
 
     html_plans = sorted(OUTPUT_DIR.glob("wochenplan_*.html"), reverse=True)
     index_content = build_index_html(html_plans)
@@ -838,8 +749,7 @@ def main() -> None:
 
     print(
         "Wochenplaene gespeichert unter"
-        f" {text_path.name}, {html_path.name} sowie Alias"
-        f" {kw_year_html_path.name} / {kw_legacy_html_path.name} (KW {iso_week:02d}/{iso_year})"
+        f" {text_path.name}, {html_path.name} sowie Alias kw{iso_week:02d}.html (KW {iso_week:02d}/{iso_year})"
     )
 
 
