@@ -729,17 +729,20 @@ def ensure_friday(force: bool) -> None:
         )
 
 
-def build_output_paths(today: date) -> tuple[Path, Path, Path, Path, int, int]:
+def build_output_paths(today: date) -> tuple[Path, Path, Path, Path, Path, Path, int, int]:
     """Gibt Pfade fuer Text/HTML und KW-Aliasse zurueck und legt Ordner an."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     base_name = f"wochenplan_{today.isoformat()}"
     iso_year, iso_week, _ = today.isocalendar()
-    alias_name = f"kw{iso_week:02d}-{iso_year}"
+    alias_name_year = f"kw{iso_week:02d}-{iso_year}"
+    legacy_alias_name = f"kw{iso_week:02d}"
     return (
         OUTPUT_DIR / f"{base_name}.txt",
         OUTPUT_DIR / f"{base_name}.html",
-        OUTPUT_DIR / f"{alias_name}.txt",
-        OUTPUT_DIR / f"{alias_name}.html",
+        OUTPUT_DIR / f"{alias_name_year}.txt",
+        OUTPUT_DIR / f"{alias_name_year}.html",
+        OUTPUT_DIR / f"{legacy_alias_name}.txt",
+        OUTPUT_DIR / f"{legacy_alias_name}.html",
         iso_week,
         iso_year,
     )
@@ -752,8 +755,24 @@ def main() -> None:
 
     today = date.today()
     paths = build_output_paths(today)
-    text_path, html_path, kw_text_path, kw_html_path, iso_week, iso_year = paths
-    if (text_path.exists() or html_path.exists() or kw_text_path.exists() or kw_html_path.exists()) and not force:
+    (
+        text_path,
+        html_path,
+        kw_year_text_path,
+        kw_year_html_path,
+        kw_legacy_text_path,
+        kw_legacy_html_path,
+        iso_week,
+        iso_year,
+    ) = paths
+    if (
+        text_path.exists()
+        or html_path.exists()
+        or kw_year_text_path.exists()
+        or kw_year_html_path.exists()
+        or kw_legacy_text_path.exists()
+        or kw_legacy_html_path.exists()
+    ) and not force:
         raise SystemExit(
             "Es existiert bereits eine Datei fuer heute. Nutze --force, um sie zu ueberschreiben."
         )
@@ -765,13 +784,14 @@ def main() -> None:
     text_path.write_text(content, encoding="utf-8")
     html_path.write_text(html_content, encoding="utf-8")
 
-    if kw_text_path.exists():
-        kw_text_path.unlink()
-    if kw_html_path.exists():
-        kw_html_path.unlink()
+    for alias_path in (kw_year_text_path, kw_year_html_path, kw_legacy_text_path, kw_legacy_html_path):
+        if alias_path.exists():
+            alias_path.unlink()
 
-    kw_text_path.write_text(content, encoding="utf-8")
-    kw_html_path.write_text(html_content, encoding="utf-8")
+    kw_year_text_path.write_text(content, encoding="utf-8")
+    kw_year_html_path.write_text(html_content, encoding="utf-8")
+    kw_legacy_text_path.write_text(content, encoding="utf-8")
+    kw_legacy_html_path.write_text(html_content, encoding="utf-8")
 
     html_plans = sorted(OUTPUT_DIR.glob("wochenplan_*.html"), reverse=True)
     index_content = build_index_html(html_plans)
@@ -779,7 +799,8 @@ def main() -> None:
 
     print(
         "Wochenplaene gespeichert unter"
-        f" {text_path.name}, {html_path.name} sowie Alias {kw_html_path.name} (KW {iso_week:02d}/{iso_year})"
+        f" {text_path.name}, {html_path.name} sowie Alias"
+        f" {kw_year_html_path.name} / {kw_legacy_html_path.name} (KW {iso_week:02d}/{iso_year})"
     )
 
 

@@ -152,6 +152,10 @@ class Plan:
     def kw_filename(self) -> str:
         return f"kw{self.iso_week:02d}-{self.iso_year}.html"
 
+    @property
+    def legacy_kw_filename(self) -> str:
+        return f"kw{self.iso_week:02d}.html"
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -329,6 +333,7 @@ def write_plan_files(plan: Plan, target_dir: Path) -> None:
     html_text = render_plan_html(plan)
     (target_dir / plan.canonical_filename).write_text(html_text, encoding="utf-8")
     (target_dir / plan.kw_filename).write_text(html_text, encoding="utf-8")
+    (target_dir / plan.legacy_kw_filename).write_text(html_text, encoding="utf-8")
 
 
 def render_index(plans: Sequence[Plan]) -> str:
