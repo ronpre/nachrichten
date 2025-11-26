@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import random
 import sys
 from collections import defaultdict
@@ -645,7 +646,7 @@ def build_html(today: date, meals: list[dict[str, str]], snacks: list[dict[str, 
 
 def build_index_html(plan_files: list[Path]) -> str:
     """Erstellt eine Liste mit allen vorhandenen Wochenplaenen gruppiert nach Kalenderjahr."""
-    grouped: dict[int, list[tuple[date, str, str]]] = defaultdict(list)
+    grouped: dict[int, dict[int, tuple[date, str, str]]] = defaultdict(dict)
 
     for path in plan_files:
         stem = path.stem
@@ -672,14 +673,16 @@ def build_index_html(plan_files: list[Path]) -> str:
             continue
         period = format_period(plan_date)
         label = f"KW {iso_week:02d}/{iso_year} - {period}"
-        grouped[iso_year].append((plan_date, alias_path.name, label))
+        existing = grouped[iso_year].get(iso_week)
+        if existing is None or plan_date < existing[0]:
+            grouped[iso_year][iso_week] = (plan_date, alias_path.name, label)
 
     if not grouped:
         body = "<p>Noch keine Wochenplaene verfuegbar.</p>"
     else:
         sections: list[str] = []
         for year in sorted(grouped.keys(), reverse=True):
-            entries = sorted(grouped[year], key=lambda item: item[0], reverse=True)
+            entries = sorted(grouped[year].values(), key=lambda item: item[0], reverse=True)
             items = "".join(
                 f"<li><a href='{href}'>{label}</a></li>" for _, href, label in entries
             )
@@ -729,11 +732,16 @@ def ensure_friday(force: bool) -> None:
         )
 
 
-def build_output_paths(today: date) -> tuple[Path, Path, Path, Path, Path, Path, int, int]:
+def resolve_week_start(target: date) -> date:
+    """Ermittelt den Montag der Kalenderwoche fuer das gegebene Datum."""
+    return target - timedelta(days=target.weekday())
+
+
+def build_output_paths(week_start: date) -> tuple[Path, Path, Path, Path, Path, Path, int, int]:
     """Gibt Pfade fuer Text/HTML und KW-Aliasse zurueck und legt Ordner an."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    base_name = f"wochenplan_{today.isoformat()}"
-    iso_year, iso_week, _ = today.isocalendar()
+    base_name = f"wochenplan_{week_start.isoformat()}"
+    iso_year, iso_week, _ = week_start.isocalendar()
     alias_name_year = f"kw{iso_week:02d}-{iso_year}"
     legacy_alias_name = f"kw{iso_week:02d}"
     return (
@@ -748,13 +756,44 @@ def build_output_paths(today: date) -> tuple[Path, Path, Path, Path, Path, Path,
     )
 
 
+def parse_args(argv: list[str]) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Erzeugt eine Wochenplan-Datei fuer die Ernaehrungssektion"
+    )
+    parser.add_argument("--force", action="store_true", help="Ueberschreibt vorhandene Dateien")
+    parser.add_argument(
+        "--week-offset",
+        type=int,
+        default=0,
+        help="Anzahl der Wochen, die relativ zur aktuellen Woche verschoben werden sollen",
+    )
+    parser.add_argument(
+        "--week-start",
+        type=str,
+        help="ISO-Datum (YYYY-MM-DD) fuer den Wochenstart (Montag)",
+    )
+    return parser.parse_args(argv)
+
+
 def main() -> None:
     """Erzeugt bei Bedarf eine neue Plan-Datei."""
-    force = "--force" in sys.argv
+    args = parse_args(sys.argv[1:])
+    force = args.force
     ensure_friday(force)
 
     today = date.today()
-    paths = build_output_paths(today)
+    week_start = resolve_week_start(today)
+
+    if args.week_offset:
+        week_start += timedelta(days=7 * args.week_offset)
+
+    if args.week_start:
+        try:
+            week_start = date.fromisoformat(args.week_start)
+        except ValueError as exc:
+            raise SystemExit(f"Ungueltiges Datum fuer --week-start: {args.week_start}") from exc
+
+    paths = build_output_paths(week_start)
     (
         text_path,
         html_path,
@@ -778,8 +817,8 @@ def main() -> None:
         )
 
     meals, snacks, beverage_tip = select_plan()
-    content = build_text(today, meals, snacks, beverage_tip)
-    html_content = build_html(today, meals, snacks, beverage_tip)
+    content = build_text(week_start, meals, snacks, beverage_tip)
+    html_content = build_html(week_start, meals, snacks, beverage_tip)
 
     text_path.write_text(content, encoding="utf-8")
     html_path.write_text(html_content, encoding="utf-8")
