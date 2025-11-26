@@ -1254,8 +1254,12 @@
           }
         }
 
+        let fallbackRefreshPromise = null;
+        let fallbackNotice = null;
+
         if (datasetSeemsFuture) {
-          return triggerFallback({
+          fallbackNotice = `${competitionLabel}: lokaler Datensatz gehört offenbar zur kommenden Saison – aktualisiere über ESPN…`;
+          fallbackRefreshPromise = triggerFallback({
             reason: 'lokaler Datensatz scheint zur zukünftigen Saison zu gehören',
             season: datasetSeasonYear
           });
@@ -1288,10 +1292,20 @@
           });
         }
 
-        if (staleMatches.length && staleMatches.length >= Math.ceil(matches.length / 2)) {
-          return triggerFallback({
+        if (!fallbackRefreshPromise && staleMatches.length && staleMatches.length >= Math.ceil(matches.length / 2)) {
+          fallbackNotice = `${competitionLabel}: prüfe ESPN auf aktuellere Ergebnisse…`;
+          fallbackRefreshPromise = triggerFallback({
             reason: 'lokaler Datensatz enthält keine aktualisierten Endstände',
             season: datasetSeasonYear
+          });
+        }
+
+        if (fallbackRefreshPromise) {
+          if (fallbackNotice) {
+            applyStatus(fallbackNotice, 'info');
+          }
+          fallbackRefreshPromise.catch((error) => {
+            console.warn('Champions-League-Fallback fehlgeschlagen:', error);
           });
         }
 
