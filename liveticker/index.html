@@ -832,10 +832,22 @@
         };
         const fullHome = toNumber(score?.fullTime?.home);
         const fullAway = toNumber(score?.fullTime?.away);
-        const extraHome = toNumber(score?.extraTime?.home);
-        const extraAway = toNumber(score?.extraTime?.away);
+        let extraHome = toNumber(score?.extraTime?.home);
+        let extraAway = toNumber(score?.extraTime?.away);
         const penHome = toNumber(score?.penalties?.home);
         const penAway = toNumber(score?.penalties?.away);
+
+        const hasFullScore = Number.isFinite(fullHome) || Number.isFinite(fullAway);
+        if (
+          hasFullScore &&
+          Number.isFinite(extraHome) &&
+          Number.isFinite(extraAway) &&
+          extraHome === 0 &&
+          extraAway === 0
+        ) {
+          extraHome = null;
+          extraAway = null;
+        }
 
         if (penHome != null && penAway != null && penHome !== penAway) {
           return { home: penHome, away: penAway, source: 'penalties', fallbackHome: fullHome, fallbackAway: fullAway };
