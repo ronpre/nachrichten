@@ -647,6 +647,34 @@
         [5, { label: 'Halbfinale', expectedMatches: 4, slug: 'semifinals' }],
         [6, { label: 'Finale', expectedMatches: 1, slug: 'final' }]
       ]);
+      const TEAM_NAME_STOPWORDS = new Set([
+        'fc',
+        'sc',
+        'ac',
+        'bc',
+        'kv',
+        'club',
+        'cf',
+        'cd',
+        'sd',
+        'ud',
+        'ss',
+        'fk',
+        'nk',
+        'if',
+        'as',
+        'de',
+        'da',
+        'del',
+        'la',
+        'el',
+        'at',
+        'sv',
+        'us',
+        'ad',
+        'clube',
+        'sport'
+      ]);
       const TENNIS_SCOPE_LABEL = 'ATP & WTA Tour';
       const TENNIS_SOURCES = [
         { tour: 'atp', requireMajor: false },
@@ -928,10 +956,28 @@
         };
       }
 
-      async function loadFootballDataFallbackMatches(matchMap, selectedEntry, slug, stageGroup) {
+      function sortFormattedMatches(matchList) {
+        if (!Array.isArray(matchList)) {
+          return [];
+        }
+        return matchList.sort((a, b) => {
+          const dateCompare = (a.isoDate || '').localeCompare(b.isoDate || '');
+          if (dateCompare !== 0) {
+            return dateCompare;
+          }
+          const timeCompare = (a.timeRaw || '').localeCompare(b.timeRaw || '');
+          if (timeCompare !== 0) {
+            return timeCompare;
+          }
+          return (a.home || '').localeCompare(b.home || '');
+        });
+      }
+
+      async function loadFootballDataFallbackMatches(matchMap, selectedEntry, slug, stageGroup, options = {}) {
         if (!slug) {
           return { matches: [], errors: [] };
         }
+        const includeExisting = options?.includeExisting === true;
         const aggregated = new Map();
         const errors = [];
         const rawDates = Array.isArray(selectedEntry?.dates) && selectedEntry.dates.length
@@ -949,7 +995,13 @@
             const matches = extractEspnFootballMatches(scoreboard);
             matches.forEach((match) => {
               const identifier = match?.id != null ? String(match.id) : null;
-              if (!identifier || aggregated.has(identifier) || matchMap.has(identifier)) {
+              if (!identifier) {
+                return;
+              }
+              if (!includeExisting && matchMap.has(identifier)) {
+                return;
+              }
+              if (aggregated.has(identifier)) {
                 return;
               }
               const mappedStatus = match?.status;
@@ -987,6 +1039,229 @@
         }
 
         return { matches: Array.from(aggregated.values()), errors };
+      }
+
+      function normalizeTeamNameBase(name) {
+        return String(name || '')
+          .toLowerCase()
+          .replace(/ä/g, 'ae')
+          .replace(/ö/g, 'oe')
+          .replace(/ü/g, 'ue')
+          .replace(/ß/g, 'ss')
+          .normalize('NFD')
+          .replace(/[\x00-\x1f]/g, '')
+          .replace(/[\x7f-\x9f]/g, '')
+          .replace(/[\u0300-\u036f]/g, '')
+          .replace(/ph/g, 'f')
+          .replace(/&/g, ' ')
+          .replace(/[^a-z0-9\s]/g, ' ');
+      }
+
+      function createTeamTokenSet(name) {
+        const normalized = normalizeTeamNameBase(name);
+        if (!normalized) {
+          return new Set();
+        }
+        const tokens = normalized
+          .split(/\s+/)
+          .map((token) => token.trim())
+          .filter((token) => token && token.length > 1 && !TEAM_NAME_STOPWORDS.has(token));
+        return new Set(tokens);
+      }
+
+      function countTokenOverlap(primary, secondary) {
+        if (!(primary instanceof Set) || !(secondary instanceof Set) || !primary.size || !secondary.size) {
+          return 0;
+        }
+        let count = 0;
+        primary.forEach((token) => {
+          if (secondary.has(token)) {
+            count += 1;
+          }
+        });
+        return count;
+      }
+
+      function buildFootballDataMatchIndex(matchMap, matchIds) {
+        if (!(matchMap instanceof Map)) {
+          return [];
+        }
+        const ids = Array.isArray(matchIds) ? matchIds : [];
+        return ids
+          .map((rawId) => {
+            const identifier = String(rawId);
+            const rawMatch = matchMap.get(identifier);
+            if (!rawMatch) {
+              return null;
+            }
+            const isoDate = normalizeToIsoDate(rawMatch?.isoDate || rawMatch?.utcDate || rawMatch?.timeRaw);
+            const kickoffSource = rawMatch?.utcDate || rawMatch?.timeRaw || rawMatch?.isoDate || null;
+            const kickoffParsed = kickoffSource ? Date.parse(kickoffSource) : NaN;
+            const homeName = rawMatch?.homeTeam?.name || rawMatch?.homeTeam?.shortName || rawMatch?.home;
+            const awayName = rawMatch?.awayTeam?.name || rawMatch?.awayTeam?.shortName || rawMatch?.away;
+            return {
+              id: identifier,
+              raw: rawMatch,
+              isoDate,
+              kickoffMs: Number.isFinite(kickoffParsed) ? kickoffParsed : NaN,
+              homeTokens: createTeamTokenSet(homeName),
+              awayTokens: createTeamTokenSet(awayName)
+            };
+          })
+          .filter((entry) => entry != null);
+      }
+
+      function mergeFallbackScoresIntoFootballData(matchMap, matchIds, fallbackMatches) {
+        if (!Array.isArray(fallbackMatches) || !fallbackMatches.length) {
+          return { updated: 0 };
+        }
+        const index = buildFootballDataMatchIndex(matchMap, matchIds);
+        if (!index.length) {
+          return { updated: 0 };
+        }
+        const usedTargets = new Set();
+        let updated = 0;
+
+        fallbackMatches.forEach((fallbackMatch) => {
+          const isoDate = normalizeToIsoDate(fallbackMatch?.isoDate || fallbackMatch?.utcDate || fallbackMatch?.timeRaw);
+          const homeTokens = createTeamTokenSet(fallbackMatch?.homeTeam?.name || fallbackMatch?.homeTeam?.shortName || fallbackMatch?.home);
+          const awayTokens = createTeamTokenSet(fallbackMatch?.awayTeam?.name || fallbackMatch?.awayTeam?.shortName || fallbackMatch?.away);
+          const kickoffRaw = fallbackMatch?.utcDate || fallbackMatch?.timeRaw || fallbackMatch?.isoDate || null;
+          const kickoffParsed = kickoffRaw ? Date.parse(kickoffRaw) : NaN;
+
+          let bestCandidate = null;
+          let bestScore = 0;
+
+          for (const candidate of index) {
+            if (usedTargets.has(candidate.id)) {
+              continue;
+            }
+            if (isoDate && candidate.isoDate && isoDate !== candidate.isoDate) {
+              continue;
+            }
+
+            const directHome = countTokenOverlap(candidate.homeTokens, homeTokens);
+            const directAway = countTokenOverlap(candidate.awayTokens, awayTokens);
+            const swapHome = countTokenOverlap(candidate.homeTokens, awayTokens);
+            const swapAway = countTokenOverlap(candidate.awayTokens, homeTokens);
+
+            let score = 0;
+            let swapped = false;
+            if (directHome > 0 && directAway > 0) {
+              score = directHome + directAway + 8;
+            } else if (swapHome > 0 && swapAway > 0) {
+              score = swapHome + swapAway + 6;
+              swapped = true;
+            } else {
+              const defaultScore = directHome + directAway;
+              const swappedScore = swapHome + swapAway;
+              if (defaultScore > swappedScore && defaultScore > 0) {
+                score = defaultScore;
+              } else if (swappedScore > 0) {
+                score = swappedScore;
+                swapped = true;
+              }
+            }
+
+            if (score <= 0) {
+              continue;
+            }
+
+            if (Number.isFinite(kickoffParsed) && Number.isFinite(candidate.kickoffMs)) {
+              const delta = Math.abs(candidate.kickoffMs - kickoffParsed);
+              if (delta <= 30 * 60 * 1000) {
+                score += 2;
+              } else if (delta <= 2 * 60 * 60 * 1000) {
+                score += 1;
+              }
+            }
+
+            if (score > bestScore) {
+              bestScore = score;
+              bestCandidate = { candidate, swapped };
+            }
+          }
+
+          if (!bestCandidate || bestScore < 3) {
+            return;
+          }
+
+          const scorePayload = fallbackMatch?.score?.fullTime || null;
+          const homeScore = Number.isFinite(scorePayload?.home) ? scorePayload.home : null;
+          const awayScore = Number.isFinite(scorePayload?.away) ? scorePayload.away : null;
+          if (homeScore == null || awayScore == null) {
+            return;
+          }
+
+          const target = bestCandidate.candidate;
+          const localRaw = target.raw;
+          if (!localRaw || typeof localRaw !== 'object') {
+            return;
+          }
+
+          if (!localRaw.score || typeof localRaw.score !== 'object') {
+            localRaw.score = {
+              fullTime: { home: null, away: null },
+              extraTime: { home: null, away: null },
+              penalties: { home: null, away: null }
+            };
+          }
+          if (!localRaw.score.fullTime) {
+            localRaw.score.fullTime = { home: null, away: null };
+          }
+          if (!localRaw.score.extraTime) {
+            localRaw.score.extraTime = { home: null, away: null };
+          }
+          if (!localRaw.score.penalties) {
+            localRaw.score.penalties = { home: null, away: null };
+          }
+
+          if (bestCandidate.swapped) {
+            localRaw.score.fullTime.home = awayScore;
+            localRaw.score.fullTime.away = homeScore;
+          } else {
+            localRaw.score.fullTime.home = homeScore;
+            localRaw.score.fullTime.away = awayScore;
+          }
+
+          localRaw.score.extraTime.home = null;
+          localRaw.score.extraTime.away = null;
+          localRaw.score.penalties.home = null;
+          localRaw.score.penalties.away = null;
+          localRaw.status = 'FINISHED';
+          usedTargets.add(target.id);
+          updated += 1;
+        });
+
+        return { updated };
+      }
+
+      function findStaleFootballDataMatches(matchMap, selectedEntry, { toleranceMs = 2 * 60 * 60 * 1000 } = {}) {
+        if (!(matchMap instanceof Map) || !matchMap.size) {
+          return [];
+        }
+        const now = Date.now();
+        const selectedIds = new Set(Array.isArray(selectedEntry?.matchIds) ? selectedEntry.matchIds.map((id) => String(id)) : []);
+        const stale = [];
+        matchMap.forEach((rawMatch, rawId) => {
+          const identifier = String(rawId);
+          if (selectedIds.size && !selectedIds.has(identifier)) {
+            return;
+          }
+          const kickoffSource = rawMatch?.utcDate || rawMatch?.timeRaw || rawMatch?.isoDate || null;
+          const kickoffParsed = kickoffSource ? Date.parse(kickoffSource) : NaN;
+          if (!Number.isFinite(kickoffParsed) || now <= kickoffParsed + toleranceMs) {
+            return;
+          }
+          const finalScore = resolveFootballDataFinalScore(rawMatch?.score || {});
+          const homeDone = Number.isFinite(finalScore.home);
+          const awayDone = Number.isFinite(finalScore.away);
+          const statusFinished = typeof rawMatch?.status === 'string' && /FINISHED|AWARDED/i.test(rawMatch.status);
+          if (!statusFinished && (!homeDone || !awayDone)) {
+            stale.push(rawMatch);
+          }
+        });
+        return stale;
       }
 
       function formatFootballDataStandings(rows) {
@@ -1175,8 +1450,14 @@
           return false;
         }
 
+        const fallbackStageOrder = Number.isFinite(selectedEntry?.stageOrder) ? selectedEntry.stageOrder : null;
+        const fallbackStageInfo = fallbackStrategy === 'espn-cl' && fallbackStageOrder != null
+          ? CHAMPIONS_LEAGUE_STAGE_INFO.get(fallbackStageOrder)
+          : null;
+        const fallbackGroup = fallbackStageInfo?.slug || null;
+
         let matches = selectedEntry.matchIds
-          .map((id) => matchMap.get(id))
+          .map((id) => matchMap.get(String(id)))
           .filter((entry) => entry != null)
           .map((match) => formatFootballDataMatch(match))
           .filter((entry) => entry != null);
@@ -1190,12 +1471,12 @@
         }
 
         if (!matches.length && matchMap.size) {
-          const fallbackStageOrder = Number.isFinite(selectedEntry.stageOrder) ? selectedEntry.stageOrder : null;
-          const fallbackStageInfo = fallbackStrategy === 'espn-cl' && fallbackStageOrder != null
-            ? CHAMPIONS_LEAGUE_STAGE_INFO.get(fallbackStageOrder)
-            : null;
-          const fallbackGroup = fallbackStageInfo?.slug || null;
-          const { matches: fallbackMatches, errors: fallbackLoadErrors } = await loadFootballDataFallbackMatches(matchMap, selectedEntry, leagueConfig?.espnSlug, fallbackGroup);
+          const { matches: fallbackMatches, errors: fallbackLoadErrors } = await loadFootballDataFallbackMatches(
+            matchMap,
+            selectedEntry,
+            leagueConfig?.espnSlug,
+            fallbackGroup
+          );
           if (Array.isArray(fallbackLoadErrors) && fallbackLoadErrors.length) {
             fallbackErrors.push(...fallbackLoadErrors);
           }
@@ -1211,13 +1492,7 @@
           return triggerFallback({ reason: 'lokaler Datensatz enthält keine Begegnungen', season: fallbackSeason });
         }
 
-        matches.sort((a, b) => {
-          const dateCompare = (a.isoDate || '').localeCompare(b.isoDate || '');
-          if (dateCompare !== 0) {
-            return dateCompare;
-          }
-          return (a.timeRaw || '').localeCompare(b.timeRaw || '');
-        });
+        matches = sortFormattedMatches(matches);
 
         const rawSeasonYear = payload?.season?.year;
         const parsedSeasonYear = Number.isFinite(rawSeasonYear)
@@ -1265,31 +1540,36 @@
           });
         }
 
-        const staleMatches = [];
-        if (matches.length) {
-          const now = Date.now();
-          const staleToleranceMs = 2 * 60 * 60 * 1000; // allow two hours buffer after Anpfiff
-          const selectedIds = new Set(selectedEntry.matchIds || []);
-          matchMap.forEach((rawMatch, rawId) => {
-            if (selectedIds.size && !selectedIds.has(rawId)) {
-              return;
+        let mergedScoreCount = 0;
+        let staleMatches = findStaleFootballDataMatches(matchMap, selectedEntry);
+
+        if (fallbackStrategy === 'espn-cl' && staleMatches.length) {
+          const { matches: fallbackScoreMatches, errors: fallbackScoreErrors } = await loadFootballDataFallbackMatches(
+            matchMap,
+            selectedEntry,
+            leagueConfig?.espnSlug,
+            fallbackGroup,
+            { includeExisting: true }
+          );
+          if (Array.isArray(fallbackScoreErrors) && fallbackScoreErrors.length) {
+            fallbackErrors.push(...fallbackScoreErrors);
+          }
+          if (fallbackScoreMatches.length) {
+            const mergeMatchIds = Array.isArray(selectedEntry.matchIds) && selectedEntry.matchIds.length
+              ? selectedEntry.matchIds
+              : matches.map((entry) => entry?.id).filter(Boolean);
+            const mergeResult = mergeFallbackScoresIntoFootballData(matchMap, mergeMatchIds, fallbackScoreMatches);
+            if (mergeResult.updated) {
+              mergedScoreCount = mergeResult.updated;
+              matches = selectedEntry.matchIds
+                .map((id) => matchMap.get(String(id)))
+                .filter((entry) => entry != null)
+                .map((match) => formatFootballDataMatch(match))
+                .filter((entry) => entry != null);
+              matches = sortFormattedMatches(matches);
+              staleMatches = findStaleFootballDataMatches(matchMap, selectedEntry);
             }
-            const kickoffRaw = rawMatch.utcDate || rawMatch.timeRaw || rawMatch.isoDate || null;
-            const kickoffTime = kickoffRaw ? Date.parse(kickoffRaw) : NaN;
-            if (!Number.isFinite(kickoffTime)) {
-              return;
-            }
-            if (now <= kickoffTime + staleToleranceMs) {
-              return;
-            }
-            const finalScore = resolveFootballDataFinalScore(rawMatch.score || {});
-            const homeDone = Number.isFinite(finalScore.home);
-            const awayDone = Number.isFinite(finalScore.away);
-            const statusFinished = typeof rawMatch.status === 'string' && /FINISHED|AWARDED/i.test(rawMatch.status);
-            if (!statusFinished && (!homeDone || !awayDone)) {
-              staleMatches.push(rawMatch);
-            }
-          });
+          }
         }
 
         if (!fallbackRefreshPromise && staleMatches.length && staleMatches.length >= Math.ceil(matches.length / 2)) {
@@ -1336,6 +1616,10 @@
         let statusMessage = generatedLabel
           ? `${competitionLabel} über lokalen Datensatz aktualisiert (${generatedLabel}).`
           : `${competitionLabel} über lokalen Datensatz aktualisiert.`;
+        if (mergedScoreCount) {
+          const mergedLabel = mergedScoreCount === 1 ? 'Spiel' : 'Spiele';
+          statusMessage += ` (Endstände für ${mergedScoreCount} ${mergedLabel} via ESPN ergänzt)`;
+        }
         if (fallbackErrors.length) {
           const failedDates = fallbackErrors
             .map((entry) => normalizeToIsoDate(entry?.date))
