@@ -2382,6 +2382,17 @@
           if (state.refreshToken !== refreshToken) {
             return;
           }
+          if (requestedSport === 'football' && requestedLeague) {
+            if (state.league !== requestedLeague) {
+              state.league = requestedLeague;
+            }
+            if (DOM.leagueSelect && DOM.leagueSelect.value !== requestedLeague) {
+              const options = Array.from(DOM.leagueSelect.options || []);
+              if (options.some((option) => option.value === requestedLeague)) {
+                DOM.leagueSelect.value = requestedLeague;
+              }
+            }
+          }
           const postLevel = DOM.statusBox.dataset.level;
           if (postLevel === 'info') {
             setStatus('Letzte Aktualisierung: ' + new Date().toLocaleTimeString('de-DE', {
