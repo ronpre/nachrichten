@@ -1306,9 +1306,11 @@
             setStatus(message, level);
           }
         };
-        const applyRenderMatches = (matches, emptyMessage) => {
+        const MATCHDAY_EMPTY_MESSAGE = 'Keine Spiele für den ausgewählten Spieltag gefunden.';
+        const applyRenderMatches = (matches, emptyMessage = MATCHDAY_EMPTY_MESSAGE) => {
           if (isLatest()) {
-            renderMatches(matches, emptyMessage);
+            const message = typeof emptyMessage === 'string' && emptyMessage.length ? emptyMessage : MATCHDAY_EMPTY_MESSAGE;
+            renderMatches(matches, message);
           }
         };
         const applyRenderTable = (rows, config) => {
@@ -1541,6 +1543,7 @@
         }
 
         let mergedScoreCount = 0;
+        let tableReloadedViaEspn = false;
         let staleMatches = findStaleFootballDataMatches(matchMap, selectedEntry);
 
         if (fallbackStrategy === 'espn-cl' && staleMatches.length) {
@@ -1567,7 +1570,22 @@
                 .map((match) => formatFootballDataMatch(match))
                 .filter((entry) => entry != null);
               matches = sortFormattedMatches(matches);
+              applyRenderMatches(matches);
               staleMatches = findStaleFootballDataMatches(matchMap, selectedEntry);
+              if (leagueConfig.table) {
+                try {
+                  const standingsData = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug || leagueConfig.espnSlug || 'uefa.champions');
+                  const rows = formatEspnFootballStandings(standingsData);
+                  if (rows.length) {
+                    applyRenderTable(rows);
+                  } else {
+                    applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+                  }
+                  tableReloadedViaEspn = true;
+                } catch (error) {
+                  console.warn('ESPN-Tabelle konnte nicht geladen werden:', error);
+                }
+              }
             }
           }
         }
@@ -1589,14 +1607,16 @@
           });
         }
 
-        applyRenderMatches(matches, 'Keine Spiele für den ausgewählten Spieltag gefunden.');
+        applyRenderMatches(matches);
 
         if (leagueConfig.table) {
-          const tableRows = formatFootballDataStandings(Array.isArray(payload?.standings) ? payload.standings : []);
-          if (tableRows.length) {
-            applyRenderTable(tableRows);
-          } else {
-            applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+          if (!tableReloadedViaEspn) {
+            const tableRows = formatFootballDataStandings(Array.isArray(payload?.standings) ? payload.standings : []);
+            if (tableRows.length) {
+              applyRenderTable(tableRows);
+            } else {
+              applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+            }
           }
         } else {
           applyHideTable();
@@ -1619,6 +1639,9 @@
         if (mergedScoreCount) {
           const mergedLabel = mergedScoreCount === 1 ? 'Spiel' : 'Spiele';
           statusMessage += ` (Endstände für ${mergedScoreCount} ${mergedLabel} via ESPN ergänzt)`;
+        }
+        if (tableReloadedViaEspn) {
+          statusMessage += ' (Tabelle via ESPN aktualisiert)';
         }
         if (fallbackErrors.length) {
           const failedDates = fallbackErrors
@@ -3331,7 +3354,7 @@
             applyStatus('Keine Begegnungen für ' + competitionLabel + ' gefunden.', 'warning');
           }
         } else {
-          applyRenderMatches(matches, emptyMessage);
+              applyRenderMatches(matches);
           if (dateErrors.length) {
             const failedDays = dateErrors.map((entry) => entry.date).filter(Boolean).join(', ');
             applyStatus('Daten für ' + competitionLabel + ' teilweise unvollständig (fehlende Tage: ' + failedDays + ').', 'warning');
