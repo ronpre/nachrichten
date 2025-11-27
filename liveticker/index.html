@@ -1544,6 +1544,25 @@
 
         let mergedScoreCount = 0;
         let tableReloadedViaEspn = false;
+        const reloadTableFromEspn = async () => {
+          if (!leagueConfig.table || tableReloadedViaEspn) {
+            return false;
+          }
+          try {
+            const standingsData = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug || leagueConfig.espnSlug || 'uefa.champions');
+            const rows = formatEspnFootballStandings(standingsData);
+            if (rows.length) {
+              applyRenderTable(rows);
+            } else {
+              applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
+            }
+            tableReloadedViaEspn = true;
+            return true;
+          } catch (error) {
+            console.warn('ESPN-Tabelle konnte nicht geladen werden:', error);
+            return false;
+          }
+        };
         let staleMatches = findStaleFootballDataMatches(matchMap, selectedEntry);
 
         if (fallbackStrategy === 'espn-cl' && staleMatches.length) {
@@ -1572,20 +1591,7 @@
               matches = sortFormattedMatches(matches);
               applyRenderMatches(matches);
               staleMatches = findStaleFootballDataMatches(matchMap, selectedEntry);
-              if (leagueConfig.table) {
-                try {
-                  const standingsData = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug || leagueConfig.espnSlug || 'uefa.champions');
-                  const rows = formatEspnFootballStandings(standingsData);
-                  if (rows.length) {
-                    applyRenderTable(rows);
-                  } else {
-                    applyRenderTable([], { emptyMessage: 'Keine Tabellen-Daten verfügbar.' });
-                  }
-                  tableReloadedViaEspn = true;
-                } catch (error) {
-                  console.warn('ESPN-Tabelle konnte nicht geladen werden:', error);
-                }
-              }
+              await reloadTableFromEspn();
             }
           }
         }
@@ -1608,6 +1614,10 @@
         }
 
         applyRenderMatches(matches);
+
+        if (fallbackStrategy === 'espn-cl') {
+          await reloadTableFromEspn();
+        }
 
         if (leagueConfig.table) {
           if (!tableReloadedViaEspn) {
