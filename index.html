@@ -152,64 +152,6 @@
             overflow: hidden;
         }
 
-        .tv-card {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 0.9rem;
-            box-shadow: 0 0.25rem 0.9rem rgba(15, 30, 60, 0.06);
-            padding: 0.85rem 1rem;
-            margin-bottom: 0.75rem;
-        }
-
-        .tv-channel {
-            margin: 0 0 0.55rem;
-            font-size: 1rem;
-            font-weight: 600;
-            letter-spacing: 0.01em;
-        }
-
-        .tv-slot {
-            display: grid;
-            grid-template-columns: 3.6rem 1fr;
-            gap: 0.75rem;
-            margin-bottom: 0.65rem;
-            align-items: flex-start;
-        }
-
-        .tv-slot:last-of-type {
-            margin-bottom: 0;
-        }
-
-        .tv-time {
-            font-weight: 600;
-            font-size: 0.9rem;
-            color: rgba(31, 36, 48, 0.7);
-        }
-
-        .tv-title {
-            margin: 0;
-            font-weight: 600;
-            font-size: 0.97rem;
-        }
-
-        .tv-description {
-            margin: 0.2rem 0 0;
-            color: rgba(31, 36, 48, 0.7);
-            font-size: 0.9rem;
-        }
-
-        .tv-meta {
-            margin: 0 0 0.85rem;
-            font-size: 0.85rem;
-            color: rgba(31, 36, 48, 0.65);
-        }
-
-        .tv-empty {
-            margin: 0;
-            font-size: 0.9rem;
-            color: rgba(31, 36, 48, 0.65);
-        }
-
         .news-toggle {
             all: unset;
             display: block;
@@ -371,8 +313,7 @@
         ];
         const STATIC_ROUTES = {
             Liveticker: 'liveticker/index.html',
-            History: 'geschichte/index.html',
-            TV: 'tv%20programm/index.html'
+            History: 'geschichte/index.html'
         };
         const STATIC_REFRESH_RULES = {
             Liveticker: { type: 'interval', intervalMs: 60 * 1000 },
@@ -573,7 +514,6 @@
 
             appendTickerSection();
             appendHistorySection();
-            appendTvSection();
             appendBadmintonSection();
 
             if (updatedAtElement) {
@@ -687,10 +627,6 @@
             if (historySection) {
                 ensureStaticFrame('History', historySection.content, historySection.placeholder);
             }
-        }
-
-        function appendTvSection() {
-            appendStaticSection('TV', 'Zum Anzeigen klicken.', ensureStaticFrame);
         }
 
         function appendBadmintonSection() {
