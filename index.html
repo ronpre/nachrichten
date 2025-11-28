@@ -633,7 +633,7 @@
         }
 
         function appendTvSection() {
-            const tvSection = appendStaticSection('TV', 'Zum Anzeigen klicken.', ensureStaticFrame);
+            const tvSection = appendStaticSection('TV', 'Zum Anzeigen klicken.', ensureStaticFrame, { afterSectionId: 'history' });
             if (tvSection) {
                 ensureStaticFrame('TV', tvSection.content, tvSection.placeholder);
             }
@@ -643,14 +643,37 @@
             appendStaticSection('Badminton', 'Zum Anzeigen klicken.', ensureBadmintonLinks);
         }
 
-        function appendStaticSection(label, message, loadFn) {
+        function appendStaticSection(label, message, loadFn, options = {}) {
             if (!newsContainer) {
                 return;
             }
             const staticSection = createStaticSection(label, message, ({ content, placeholder }) => {
                 loadFn(label, content, placeholder);
             });
-            newsContainer.appendChild(staticSection.section);
+            const afterId = typeof options.afterSectionId === 'string' ? options.afterSectionId : null;
+            const beforeId = typeof options.insertBeforeId === 'string' ? options.insertBeforeId : null;
+            if (beforeId) {
+                const beforeElement = newsContainer.querySelector(`#${beforeId}`);
+                if (beforeElement && beforeElement.parentElement === newsContainer) {
+                    newsContainer.insertBefore(staticSection.section, beforeElement);
+                } else {
+                    newsContainer.appendChild(staticSection.section);
+                }
+            } else if (afterId) {
+                const afterElement = newsContainer.querySelector(`#${afterId}`);
+                if (afterElement && afterElement.parentElement === newsContainer) {
+                    const reference = afterElement.nextSibling;
+                    if (reference) {
+                        newsContainer.insertBefore(staticSection.section, reference);
+                    } else {
+                        newsContainer.appendChild(staticSection.section);
+                    }
+                } else {
+                    newsContainer.appendChild(staticSection.section);
+                }
+            } else {
+                newsContainer.appendChild(staticSection.section);
+            }
             return staticSection;
         }
 
