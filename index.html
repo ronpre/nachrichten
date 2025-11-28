@@ -692,7 +692,15 @@
             try {
                 const staticPath = STATIC_ROUTES[label];
                 const baseUrl = new URL(window.location.href);
-                baseUrl.pathname = baseUrl.pathname.replace(/[^/]*$/, '');
+                let basePath = baseUrl.pathname || '/';
+                if (basePath.endsWith('/')) {
+                    // already points to a directory
+                } else if (basePath.includes('.')) {
+                    basePath = basePath.replace(/[^/]*$/, '');
+                } else {
+                    basePath = `${basePath}/`;
+                }
+                baseUrl.pathname = basePath;
                 const targetUrl = staticPath ? new URL(staticPath, baseUrl).toString() : null;
                 if (!targetUrl) {
                     throw new Error(`Kein Pfad für ${label} definiert.`);
