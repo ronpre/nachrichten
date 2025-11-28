@@ -514,6 +514,7 @@
 
             appendTickerSection();
             appendHistorySection();
+            appendTvSection();
             appendBadmintonSection();
 
             if (updatedAtElement) {
@@ -627,6 +628,21 @@
             if (historySection) {
                 ensureStaticFrame('History', historySection.content, historySection.placeholder);
             }
+        }
+
+        function appendTvSection() {
+            if (!newsContainer) {
+                return;
+            }
+            const tvSection = createStaticSection('TV', '', null);
+            if (!tvSection) {
+                return;
+            }
+            if (tvSection.placeholder) {
+                tvSection.placeholder.remove();
+            }
+            tvSection.content.dataset.staticLoaded = 'true';
+            newsContainer.appendChild(tvSection.section);
         }
 
         function appendBadmintonSection() {
