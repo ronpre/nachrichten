@@ -313,11 +313,13 @@
         ];
         const STATIC_ROUTES = {
             Liveticker: 'liveticker/index.html',
-            History: 'geschichte/index.html'
+            History: 'geschichte/index.html',
+            TV: 'tv programm/index.html'
         };
         const STATIC_REFRESH_RULES = {
             Liveticker: { type: 'interval', intervalMs: 60 * 1000 },
-            History: { type: 'schedule', times: [{ hour: 6, minute: 0 }] }
+            History: { type: 'schedule', times: [{ hour: 6, minute: 0 }] },
+            TV: { type: 'schedule', times: [{ hour: 5, minute: 0 }] }
         };
         const BADMINTON_LINKS = [
             {
@@ -514,6 +516,7 @@
 
             appendTickerSection();
             appendHistorySection();
+            appendTvSection();
             appendBadmintonSection();
 
             if (updatedAtElement) {
@@ -626,6 +629,13 @@
             const historySection = appendStaticSection('History', 'Zum Anzeigen klicken.', ensureStaticFrame);
             if (historySection) {
                 ensureStaticFrame('History', historySection.content, historySection.placeholder);
+            }
+        }
+
+        function appendTvSection() {
+            const tvSection = appendStaticSection('TV', 'Zum Anzeigen klicken.', ensureStaticFrame);
+            if (tvSection) {
+                ensureStaticFrame('TV', tvSection.content, tvSection.placeholder);
             }
         }
 
