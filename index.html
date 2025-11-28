@@ -152,6 +152,64 @@
             overflow: hidden;
         }
 
+        .tv-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 0.9rem;
+            box-shadow: 0 0.25rem 0.9rem rgba(15, 30, 60, 0.06);
+            padding: 0.85rem 1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .tv-channel {
+            margin: 0 0 0.55rem;
+            font-size: 1rem;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+        }
+
+        .tv-slot {
+            display: grid;
+            grid-template-columns: 3.6rem 1fr;
+            gap: 0.75rem;
+            margin-bottom: 0.65rem;
+            align-items: flex-start;
+        }
+
+        .tv-slot:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .tv-time {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: rgba(31, 36, 48, 0.7);
+        }
+
+        .tv-title {
+            margin: 0;
+            font-weight: 600;
+            font-size: 0.97rem;
+        }
+
+        .tv-description {
+            margin: 0.2rem 0 0;
+            color: rgba(31, 36, 48, 0.7);
+            font-size: 0.9rem;
+        }
+
+        .tv-meta {
+            margin: 0 0 0.85rem;
+            font-size: 0.85rem;
+            color: rgba(31, 36, 48, 0.65);
+        }
+
+        .tv-empty {
+            margin: 0;
+            font-size: 0.9rem;
+            color: rgba(31, 36, 48, 0.65);
+        }
+
         .news-toggle {
             all: unset;
             display: block;
@@ -313,13 +371,11 @@
         ];
         const STATIC_ROUTES = {
             Liveticker: 'liveticker/index.html',
-            History: 'geschichte/index.html',
-            TV: 'tv programm/index.html'
+            History: 'geschichte/index.html'
         };
         const STATIC_REFRESH_RULES = {
             Liveticker: { type: 'interval', intervalMs: 60 * 1000 },
-            History: { type: 'schedule', times: [{ hour: 6, minute: 0 }] },
-            TV: { type: 'schedule', times: [{ hour: 5, minute: 0 }, { hour: 17, minute: 0 }] }
+            History: { type: 'schedule', times: [{ hour: 6, minute: 0 }] }
         };
         const BADMINTON_LINKS = [
             {
@@ -633,9 +689,159 @@
         }
 
         function appendTvSection() {
-            const tvSection = appendStaticSection('TV', 'Zum Anzeigen klicken.', ensureStaticFrame);
+            const tvSection = appendStaticSection('TV', 'Lade TV-Programm…', ensureTvSection);
             if (tvSection) {
-                ensureStaticFrame('TV', tvSection.content, tvSection.placeholder);
+                ensureTvSection('TV', tvSection.content, tvSection.placeholder);
+            }
+        }
+
+        const TV_REFRESH_INTERVAL_MS = 60 * 60 * 1000;
+
+        async function ensureTvSection(label, content, placeholder) {
+            const lastLoadedAt = Number.parseInt(content.dataset.tvLoadedAt || '', 10);
+            const shouldRefresh = !Number.isFinite(lastLoadedAt) || Date.now() - lastLoadedAt >= TV_REFRESH_INTERVAL_MS;
+            if (content.dataset.tvLoading === 'true') {
+                return;
+            }
+            if (content.dataset.tvLoaded === 'true' && !shouldRefresh) {
+                if (placeholder) {
+                    placeholder.remove();
+                }
+                return;
+            }
+
+            content.dataset.tvLoading = 'true';
+            if (placeholder) {
+                placeholder.textContent = 'Lade TV-Programm…';
+            }
+
+            try {
+                const baseUrl = new URL('.', window.location.href);
+                const dataUrl = new URL('tv programm/programm.json', baseUrl);
+                dataUrl.searchParams.set('t', Date.now().toString());
+                const response = await fetch(dataUrl.toString(), { cache: 'no-store' });
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                const schedule = await response.json();
+                renderTvSchedule(content, schedule);
+                content.dataset.tvLoaded = 'true';
+                content.dataset.tvLoadedAt = String(Date.now());
+                if (placeholder) {
+                    placeholder.remove();
+                }
+            } catch (error) {
+                console.error('TV-Programm konnte nicht geladen werden:', error);
+                if (placeholder) {
+                    placeholder.textContent = 'TV-Programm konnte nicht geladen werden.';
+                } else {
+                    const status = document.createElement('p');
+                    status.className = 'status';
+                    status.textContent = 'TV-Programm konnte nicht geladen werden.';
+                    content.appendChild(status);
+                }
+            } finally {
+                delete content.dataset.tvLoading;
+            }
+        }
+
+        function renderTvSchedule(content, schedule) {
+            if (!schedule || typeof schedule !== 'object') {
+                content.innerHTML = '';
+                const empty = document.createElement('p');
+                empty.className = 'tv-empty';
+                empty.textContent = 'Keine Programmdaten vorhanden.';
+                content.appendChild(empty);
+                return;
+            }
+
+            const today = new Date();
+            const dayKey = resolveTvDayKey(today);
+            const readableDate = new Intl.DateTimeFormat('de-DE', {
+                weekday: 'long',
+                day: '2-digit',
+                month: '2-digit'
+            }).format(today);
+
+            content.innerHTML = '';
+            const meta = document.createElement('p');
+            meta.className = 'tv-meta';
+            meta.textContent = `Programm für ${readableDate}`;
+            content.appendChild(meta);
+
+            const channels = Object.keys(schedule);
+            if (!channels.length) {
+                const empty = document.createElement('p');
+                empty.className = 'tv-empty';
+                empty.textContent = 'Keine Programmdaten vorhanden.';
+                content.appendChild(empty);
+                return;
+            }
+
+            channels.forEach((channel) => {
+                const channelData = schedule[channel];
+                const slots = Array.isArray(channelData?.[dayKey]) ? channelData[dayKey] : [];
+                const card = document.createElement('article');
+                card.className = 'tv-card';
+
+                const heading = document.createElement('h3');
+                heading.className = 'tv-channel';
+                heading.textContent = channel;
+                card.appendChild(heading);
+
+                if (!slots.length) {
+                    const emptySlot = document.createElement('p');
+                    emptySlot.className = 'tv-empty';
+                    emptySlot.textContent = 'Für heute liegt kein Programm vor.';
+                    card.appendChild(emptySlot);
+                } else {
+                    slots.forEach((slot) => {
+                        if (!slot || typeof slot !== 'object') {
+                            return;
+                        }
+                        const slotRow = document.createElement('div');
+                        slotRow.className = 'tv-slot';
+
+                        const time = document.createElement('span');
+                        time.className = 'tv-time';
+                        time.textContent = slot.time || '--:--';
+                        slotRow.appendChild(time);
+
+                        const details = document.createElement('div');
+                        const title = document.createElement('p');
+                        title.className = 'tv-title';
+                        title.textContent = slot.title || 'Sendung';
+                        details.appendChild(title);
+
+                        if (slot.description) {
+                            const description = document.createElement('p');
+                            description.className = 'tv-description';
+                            description.textContent = slot.description;
+                            details.appendChild(description);
+                        }
+
+                        slotRow.appendChild(details);
+                        card.appendChild(slotRow);
+                    });
+                }
+
+                content.appendChild(card);
+            });
+        }
+
+        function resolveTvDayKey(date) {
+            const key = new Intl.DateTimeFormat('en-GB', { weekday: 'long' }).format(date).toLowerCase();
+            switch (key) {
+                case 'monday':
+                case 'tuesday':
+                case 'wednesday':
+                case 'thursday':
+                case 'friday':
+                case 'saturday':
+                case 'sunday':
+                    return key;
+                default:
+                    return 'monday';
             }
         }
 
