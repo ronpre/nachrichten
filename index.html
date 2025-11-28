@@ -618,6 +618,21 @@
             return { section, content, placeholder, toggle, indicator };
         }
 
+        function appendTickerSection() {
+            appendStaticSection('Liveticker', 'Zum Anzeigen klicken.', ensureStaticFrame);
+        }
+
+        function appendHistorySection() {
+            const historySection = appendStaticSection('History', 'Zum Anzeigen klicken.', ensureStaticFrame);
+            if (historySection) {
+                ensureStaticFrame('History', historySection.content, historySection.placeholder);
+            }
+        }
+
+        function appendBadmintonSection() {
+            appendStaticSection('Badminton', 'Zum Anzeigen klicken.', ensureBadmintonLinks);
+        }
+
         function appendStaticSection(label, message, loadFn) {
             if (!newsContainer) {
                 return;
