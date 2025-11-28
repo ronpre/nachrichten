@@ -1,0 +1,58 @@
+name: Refresh live ticker data
+
+on:
+  schedule:
+    - cron: '*/2 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/fetch-football-data.js
+      - package.json
+      - package-lock.json
+      - .github/workflows/update-liveticker.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-liveticker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Configure football-data token
+        run: |
+          token=${{ secrets.FOOTBALL_DATA_TOKEN }}
+          if [ -z "$token" ]; then
+            echo "FOOTBALL_DATA_TOKEN secret is not configured" >&2
+            exit 1
+          fi
+          echo "FOOTBALL_DATA_TOKEN=$token" >> "$GITHUB_ENV"
+
+      - name: Fetch football data
+        run: npm run fetch:football-data
+
+      - name: Commit updated data
+        run: |
+          if [[ -n $(git status --porcelain 'liveticker/public/data') ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add liveticker/public/data
+            git commit -m "chore: refresh live ticker data"
+          else
+            echo "No live ticker changes to commit"
+          fi
+
+      - name: Push changes
+        if: success()
+        run: git push

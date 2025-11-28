@@ -2,7 +2,7 @@ name: Refresh news feed
 
 on:
   schedule:
-    - cron: '0 6,18 * * *'
+    - cron: '0 */2 * * *'
   workflow_dispatch:
   push:
     paths:
