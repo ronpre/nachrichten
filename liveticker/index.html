@@ -478,6 +478,7 @@
         lastFetchStart: 0,
         fetchInFlight: false,
         refreshToken: null,
+        refreshSeed: Date.now(),
         resolvedSeason: null,
         resolvedShortcut: null
       };
@@ -1349,9 +1350,8 @@
         };
 
         const dataPath = leagueConfig?.footballDataPath || 'public/data/cl-football-data.json';
-        const cacheBust = state.refreshToken
-          ? String(state.refreshToken).replace(/[^a-z0-9]/gi, '')
-          : Date.now().toString(36);
+        const cacheBustSource = Number.isFinite(state.refreshSeed) ? state.refreshSeed : state.lastFetchStart || Date.now();
+        const cacheBust = cacheBustSource ? cacheBustSource.toString(36) : Date.now().toString(36);
         const candidatePaths = buildFootballDataCandidatePaths(dataPath);
         let payload;
         let lastLoadError = null;
@@ -1549,7 +1549,11 @@
             return false;
           }
           try {
-            const standingsData = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug || leagueConfig.espnSlug || 'uefa.champions');
+            const cacheSuffix = Number.isFinite(state.refreshSeed) ? state.refreshSeed : state.lastFetchStart || Date.now();
+            const standingsData = await fetchEspnFootballStandings(
+              leagueConfig.espnStandingsSlug || leagueConfig.espnSlug || 'uefa.champions',
+              { cacheSuffix, ttl: 60000 }
+            );
             const rows = formatEspnFootballStandings(standingsData);
             if (rows.length) {
               applyRenderTable(rows);
@@ -2402,6 +2406,7 @@
         const requestedLeague = state.league;
         const refreshToken = Symbol('refresh');
         state.refreshToken = refreshToken;
+        state.refreshSeed = Date.now();
         state.fetchInFlight = true;
         state.lastFetchStart = Date.now();
         setStatus(explicit ? 'Lade Live-Daten …' : 'Aktualisiere …', 'info');
@@ -3137,7 +3142,11 @@
         let tableWarning = null;
         if (leagueConfig.table) {
           try {
-            const standingsData = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug || slug);
+            const cacheSuffix = Number.isFinite(state.refreshSeed) ? state.refreshSeed : state.lastFetchStart || Date.now();
+            const standingsData = await fetchEspnFootballStandings(
+              leagueConfig.espnStandingsSlug || slug,
+              { cacheSuffix, ttl: 60000 }
+            );
             const rows = formatEspnFootballStandings(standingsData);
             if (rows.length) {
               applyRenderTable(rows);
@@ -3375,7 +3384,11 @@
 
         if (leagueConfig.table) {
           try {
-            const standingsData = await fetchEspnFootballStandings(leagueConfig.espnStandingsSlug || slug);
+            const cacheSuffix = Number.isFinite(state.refreshSeed) ? state.refreshSeed : state.lastFetchStart || Date.now();
+            const standingsData = await fetchEspnFootballStandings(
+              leagueConfig.espnStandingsSlug || slug,
+              { cacheSuffix, ttl: 60000 }
+            );
             const rows = formatEspnFootballStandings(standingsData);
             if (rows.length) {
               applyRenderTable(rows);
@@ -3448,13 +3461,34 @@
         })).filter((entry) => entry.primaryDate);
       }
 
-      async function fetchEspnFootballStandings(slug) {
+      async function fetchEspnFootballStandings(slug, options = {}) {
         if (!slug) {
           throw new Error('ESPN-Slug fehlt.');
         }
-        const url = `${ESPN_STANDINGS_BASE}/${encodeURIComponent(slug)}/standings?lang=de&region=de`;
-        const cacheKey = `espn-football:standings:${slug}`;
-        return fetchJsonWithCache(url, { cacheKey, ttl: 300000 });
+        const params = new URLSearchParams({ lang: 'de', region: 'de' });
+        if (options?.group) {
+          params.set('group', options.group);
+        }
+        if (options?.season) {
+          params.set('season', String(options.season));
+        }
+        if (options?.cacheSuffix != null) {
+          params.set('_ts', String(options.cacheSuffix));
+        }
+        const url = `${ESPN_STANDINGS_BASE}/${encodeURIComponent(slug)}/standings?${params.toString()}`;
+        const cacheKeyParts = ['espn-football:standings', slug];
+        if (options?.group) {
+          cacheKeyParts.push(`group=${options.group}`);
+        }
+        if (options?.season) {
+          cacheKeyParts.push(`season=${options.season}`);
+        }
+        if (options?.cacheSuffix != null) {
+          cacheKeyParts.push(String(options.cacheSuffix));
+        }
+        const cacheKey = cacheKeyParts.join(':');
+        const ttl = Number.isFinite(options?.ttl) && options.ttl > 0 ? options.ttl : 300000;
+        return fetchJsonWithCache(url, { cacheKey, ttl });
       }
 
       function extractEspnFootballMatches(scoreboard) {
