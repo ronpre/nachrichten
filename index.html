@@ -312,14 +312,12 @@
             { hour: 18, minute: 0 }
         ];
         const STATIC_ROUTES = {
-            Liveticker: './liveticker/index.html',
-            History: './geschichte/index.html',
-            TV: './tv-programm/index.html'
+            Liveticker: 'liveticker/index.html',
+            History: 'geschichte/index.html'
         };
         const STATIC_REFRESH_RULES = {
             Liveticker: { type: 'interval', intervalMs: 60 * 1000 },
-            History: { type: 'schedule', times: [{ hour: 6, minute: 0 }] },
-            TV: { type: 'schedule', times: [{ hour: 5, minute: 0 }] }
+            History: { type: 'schedule', times: [{ hour: 6, minute: 0 }] }
         };
         const BADMINTON_LINKS = [
             {
@@ -516,7 +514,6 @@
 
             appendTickerSection();
             appendHistorySection();
-            appendTvSection();
             appendBadmintonSection();
 
             if (updatedAtElement) {
@@ -621,62 +618,14 @@
             return { section, content, placeholder, toggle, indicator };
         }
 
-        function appendTickerSection() {
-            appendStaticSection('Liveticker', 'Zum Anzeigen klicken.', ensureStaticFrame);
-        }
-
-        function appendHistorySection() {
-            const historySection = appendStaticSection('History', 'Zum Anzeigen klicken.', ensureStaticFrame);
-            if (historySection) {
-                ensureStaticFrame('History', historySection.content, historySection.placeholder);
-            }
-        }
-
-        function appendTvSection() {
-            const tvSection = appendStaticSection('TV', 'Zum Anzeigen klicken.', ensureStaticFrame, { afterSectionId: 'history' });
-            if (tvSection) {
-                ensureStaticFrame('TV', tvSection.content, tvSection.placeholder);
-                if (tvSection.section) {
-                    tvSection.section.dataset.sectionName = 'tv';
-                }
-            }
-        }
-
-        function appendBadmintonSection() {
-            appendStaticSection('Badminton', 'Zum Anzeigen klicken.', ensureBadmintonLinks);
-        }
-
-        function appendStaticSection(label, message, loadFn, options = {}) {
+        function appendStaticSection(label, message, loadFn) {
             if (!newsContainer) {
                 return;
             }
             const staticSection = createStaticSection(label, message, ({ content, placeholder }) => {
                 loadFn(label, content, placeholder);
             });
-            const afterId = typeof options.afterSectionId === 'string' ? options.afterSectionId : null;
-            const beforeId = typeof options.insertBeforeId === 'string' ? options.insertBeforeId : null;
-            if (beforeId) {
-                const beforeElement = newsContainer.querySelector(`#${beforeId}`);
-                if (beforeElement && beforeElement.parentElement === newsContainer) {
-                    newsContainer.insertBefore(staticSection.section, beforeElement);
-                } else {
-                    newsContainer.appendChild(staticSection.section);
-                }
-            } else if (afterId) {
-                const afterElement = newsContainer.querySelector(`#${afterId}`);
-                if (afterElement && afterElement.parentElement === newsContainer) {
-                    const reference = afterElement.nextSibling;
-                    if (reference) {
-                        newsContainer.insertBefore(staticSection.section, reference);
-                    } else {
-                        newsContainer.appendChild(staticSection.section);
-                    }
-                } else {
-                    newsContainer.appendChild(staticSection.section);
-                }
-            } else {
-                newsContainer.appendChild(staticSection.section);
-            }
+            newsContainer.appendChild(staticSection.section);
             return staticSection;
         }
 
@@ -690,8 +639,9 @@
             }
 
             try {
+                const baseUrl = new URL('.', window.location.href);
                 const staticPath = STATIC_ROUTES[label];
-                const targetUrl = staticPath ? new URL(staticPath, document.baseURI).toString() : null;
+                const targetUrl = staticPath ? new URL(staticPath, baseUrl).toString() : null;
                 if (!targetUrl) {
                     throw new Error(`Kein Pfad für ${label} definiert.`);
                 }
@@ -701,7 +651,7 @@
                 iframe.loading = 'lazy';
                 iframe.className = 'ticker-frame';
 
-                const handleLoad = () => {
+                iframe.addEventListener('load', () => {
                     if (placeholder) {
                         placeholder.remove();
                     }
@@ -709,16 +659,6 @@
                         const doc = iframe.contentDocument;
                         const win = iframe.contentWindow;
                         if (!doc || !win) {
-                            return;
-                        }
-                        const pageTitle = doc?.title || '';
-                        const bodyText = doc?.body?.textContent || '';
-                        if (/404/.test(pageTitle) || /File not found/i.test(bodyText)) {
-                            const warning = document.createElement('p');
-                            warning.className = 'status error';
-                            warning.textContent = `${label} konnte nicht geladen werden (404).`;
-                            content.appendChild(warning);
-                            iframe.remove();
                             return;
                         }
                         const docEl = doc.documentElement;
@@ -748,14 +688,6 @@
                         }
                     } catch (resizeError) {
                         console.warn(`Konnte Höhe für ${label} nicht anpassen:`, resizeError);
-                    }
-                };
-
-                iframe.addEventListener('load', handleLoad);
-                iframe.addEventListener('error', () => {
-                    console.warn(`${label}-Iframe konnte nicht geladen werden.`);
-                    if (placeholder) {
-                        placeholder.textContent = `${label} konnte nicht geladen werden.`;
                     }
                 });
 
