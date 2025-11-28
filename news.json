@@ -1,28 +1,238 @@
 {
-  "updatedAt": "2025-11-28T14:08:35.347Z",
+  "updatedAt": "2025-11-28T16:09:58.280Z",
   "categories": {
     "Politik": [
       {
-        "id": "{urn:uuid:500e58be-a99e-4868-b0be-beb249c470f1}",
-        "title": "Bundestag beschließt Haushalt für 2026",
-        "summary": "None",
+        "id": "{urn:uuid:7c6ecbde-1892-4872-b8c0-4aeee2271c7b}",
+        "title": "Ukraine: Selenskyjs Stabschef Jermak tritt wegen Korruptionsaffäre zurück",
+        "summary": "Die Korruptionsaffäre in der Ukraine weitet sich aus. Nach einer Hausdurchsuchung bei Stabschef Andrij Jermak hat dieser sein Amt niedergelegt.",
         "paragraphs": [
-          "None"
+          "Die Korruptionsaffäre in der Ukraine weitet sich aus. Nach einer Hausdurchsuchung bei Stabschef Andrij Jermak hat dieser sein Amt niedergelegt."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-11/selenskyjs-stabschef-jermak-tritt-wegen-korruptionsaffaere-zurueck",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-28T16:02:52.000Z"
+      },
+      {
+        "id": "{urn:uuid:61ab7ee3-3d8b-4308-a414-06731d0e1987}",
+        "title": "Rechtspopulismus in Ostdeutschland: Ist das mentale Erbe der DDR schuld am Erfolg der AfD?",
+        "summary": "Was man gegen den schier unaufhaltsamen Aufstieg der Rechtspopulisten im Osten unternehmen kann. Eine Live-Folge von \"Das Politikteil\" mit Anne Rabe.",
+        "paragraphs": [
+          "Was man gegen den schier unaufhaltsamen Aufstieg der Rechtspopulisten im Osten unternehmen kann. Eine Live-Folge von \"Das Politikteil\" mit Anne Rabe."
+        ],
+        "link": "https://www.zeit.de/politik/2025-11/rechtspopulismus-ostdeutschland-afd-ddr-politikpodcast",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-28T16:00:15.000Z"
+      },
+      {
+        "id": "li.3345932",
+        "title": "Ungarn: Viktor Orbán hat es wieder getan",
+        "summary": "Der ungarische Ministerpräsident besucht am Freitag erneut Wladimir Putin. Warum seine Reise nach Moskau gerade jetzt als besonders irritierend empfunden wird.",
+        "paragraphs": [
+          "Der ungarische Ministerpräsident besucht am Freitag erneut Wladimir Putin. Warum seine Reise nach Moskau gerade jetzt als besonders irritierend empfunden wird."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/orban-putin-moskau-besuch-ukraine-li.3345932",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T15:53:38.000Z"
+      },
+      {
+        "id": "er.e311402",
+        "title": "Rechtsextremismus: „Wenn unsere Demokratie nicht ihre Waffen zeigt, wird die AfD sie zerstören“",
+        "summary": "Ein AfD-Verbot sei dringend geboten, sagt Thüringens Innenminister Georg Maier – Berlins Justizsenatorin Felor Badenberg hält das für zu riskant. Und was ist mit Björn Höcke und seiner AfD in Thüringen? Ein Streitgespräch.",
+        "paragraphs": [
+          "Ein AfD-Verbot sei dringend geboten, sagt Thüringens Innenminister Georg Maier – Berlins Justizsenatorin Felor Badenberg hält das für zu riskant. Und was ist mit Björn Höcke und seiner AfD in Thüringen? Ein Streitgespräch."
+        ],
+        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/afd-verbot-argumente-pro-contra-interview-e311402/",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T15:48:00.000Z"
+      },
+      {
+        "id": "li.3341431",
+        "title": "Krieg in der Ukraine: Selenskijs Stabschef Jermak tritt im Zuge von Korruptionsermittlungen zurück",
+        "summary": "Zuvor hatten die Antikorruptionsbehörden des Landes Jermaks Wohnung durchsucht. Es ist der nächste Korruptionsskandal im Umfeld des ukrainischen Präsidenten.",
+        "paragraphs": [
+          "Zuvor hatten die Antikorruptionsbehörden des Landes Jermaks Wohnung durchsucht. Es ist der nächste Korruptionsskandal im Umfeld des ukrainischen Präsidenten."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-ukraine-korruptionsverdacht-jermak-putin-orban-li.3341431",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T15:48:00.000Z"
+      },
+      {
+        "id": "li.3346276",
+        "title": "Israel: Militär tötet Mann im Gazastreifen",
+        "summary": "Keine weiteren Details verfügbar.",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/israel-militaer-toetet-mann-im-gazastreifen-li.3346276",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T15:18:59.000Z"
+      },
+      {
+        "id": "li.3344221",
+        "title": "Spanien: „Dieses Verbrechen haben Deutsche begangen“",
+        "summary": "Frank-Walter Steinmeier reist als erster Bundespräsident in die spanische Stadt Guernica, um die Verantwortung seines Landes für das Massaker einzugestehen.",
+        "paragraphs": [
+          "Frank-Walter Steinmeier reist als erster Bundespräsident in die spanische Stadt Guernica, um die Verantwortung seines Landes für das Massaker einzugestehen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/guernica-1937-deutsche-verantwortung-steinmeier-li.3344221",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T15:18:17.000Z"
+      },
+      {
+        "id": "li.3346274",
+        "title": "Europäische Verteidigung: Großbritannien tritt „Safe“ nicht bei",
+        "summary": "Keine weiteren Details verfügbar.",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/europaeische-verteidigung-grossbritannien-tritt-safe-nicht-bei-li.3346274",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T15:15:11.000Z"
+      },
+      {
+        "id": "li.3346273",
+        "title": "Nahost: Israel greift in Syrien an",
+        "summary": "Keine weiteren Details verfügbar.",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/nahost-israel-greift-in-syrien-an-li.3346273",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T15:13:24.000Z"
+      },
+      {
+        "id": "{urn:uuid:48da5904-eb44-4aa9-bdd2-771ce7a68861}",
+        "title": "Bundesregierung: Friedrich Merz bittet EU schriftlich um Aufweichung von Verbrenner-Aus",
+        "summary": "Das Kabinett hat sich auf weniger strenge Regeln beim Verbrenner-Aus verständigt, der Kanzler hat deswegen der EU geschrieben. Er bat die EU-Kommission um Änderungen.",
+        "paragraphs": [
+          "Das Kabinett hat sich auf weniger strenge Regeln beim Verbrenner-Aus verständigt, der Kanzler hat deswegen der EU geschrieben. Er bat die EU-Kommission um Änderungen."
+        ],
+        "link": "https://www.zeit.de/politik/2025-11/bundeskanzler-friedrich-merz-verbrenner-aus-brief-eu-kommission",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-28T15:13:13.000Z"
+      },
+      {
+        "id": "li.3345587",
+        "title": "Rentenpaket: Merz und Klingbeil geben Rentenrebellen zwei Versprechen",
+        "summary": "Die Koalition bleibt bei ihrem umstrittenen Rentenpaket, kündigt aber Reformen an.  Die kritischen jungen Abgeordneten sollen eingebunden werden.",
+        "paragraphs": [
+          "Die Koalition bleibt bei ihrem umstrittenen Rentenpaket, kündigt aber Reformen an.  Die kritischen jungen Abgeordneten sollen eingebunden werden."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/rentenpaket-koalitionsausschuss-rebellen-streit-berlin-reformen-li.3345587",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T15:09:26.000Z"
+      },
+      {
+        "id": "{urn:uuid:500e58be-a99e-4868-b0be-beb249c470f1}",
+        "title": "Bundeshaushalt: Bundestag beschließt Haushalt für 2026",
+        "summary": "Der Bundestag hat den Haushalt für 2026 verabschiedet. Geplant sind Ausgaben von knapp 525 Milliarden Euro. Die Neuverschuldung liegt bei rund 180 Milliarden Euro.",
+        "paragraphs": [
+          "Der Bundestag hat den Haushalt für 2026 verabschiedet. Geplant sind Ausgaben von knapp 525 Milliarden Euro. Die Neuverschuldung liegt bei rund 180 Milliarden Euro."
         ],
         "link": "https://www.zeit.de/politik/deutschland/2025-11/bundestag-beschliesst-haushalt-fuer-2026",
         "source": "ZEIT Politik",
-        "publishedAt": "2025-11-28T14:01:49.000Z"
+        "publishedAt": "2025-11-28T15:09:15.000Z"
+      },
+      {
+        "id": "li.3345142",
+        "title": "Glosse: Das Streiflicht",
+        "summary": "Der Kanzler wünscht sich seit jeher mehr Sauerland für alle. Jetzt bekommt er zumindest einen Weihnachtsbaum von dort und die Regierung zum ersten Mal echten Glanz.",
+        "paragraphs": [
+          "Der Kanzler wünscht sich seit jeher mehr Sauerland für alle. Jetzt bekommt er zumindest einen Weihnachtsbaum von dort und die Regierung zum ersten Mal echten Glanz."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/glosse-das-streiflicht-li.3345142",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T15:02:47.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/ehud-olmert-vor-gruenen-parteitag-israels-ex-premier-warnt-vor-vorzeitiger-anerkennung-palaestinas-a-e8c51392-3f12-448c-ae93-46d47728c878",
+        "title": "Ehud Olmert vor Grünen-Parteitag: Israels Ex-Premier warnt vor vorzeitiger Anerkennung Palästinas",
+        "summary": "Viele Grüne finden, Deutschland solle Palästina jetzt als Staat anerkennen. Auf dem Parteitag am Wochenende wollen sie einen entsprechenden Antrag beschließen. Für Gastredner Ehud Olmert der falsche Weg.",
+        "paragraphs": [
+          "Viele Grüne finden, Deutschland solle Palästina jetzt als Staat anerkennen. Auf dem Parteitag am Wochenende wollen sie einen entsprechenden Antrag beschließen. Für Gastredner Ehud Olmert der falsche Weg."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/ehud-olmert-vor-gruenen-parteitag-israels-ex-premier-warnt-vor-vorzeitiger-anerkennung-palaestinas-a-e8c51392-3f12-448c-ae93-46d47728c878#ref=rss",
+        "source": "SPIEGEL Politik",
+        "publishedAt": "2025-11-28T14:49:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:a7ac38d5-2d3c-42be-8c98-57eb4c6bc081}",
+        "title": "Bundesaufnahmeprogramm: Flüge mit 71 Afghanen mit Aufnahmezusage in Deutschland gelandet",
+        "summary": "Zum zehnten Mal seit Antritt der Koalition sind Flieger aus Afghanistan in Deutschland gelandet. Gerichte hatten zuvor den Druck auf die Bundesregierung erhöht.",
+        "paragraphs": [
+          "Zum zehnten Mal seit Antritt der Koalition sind Flieger aus Afghanistan in Deutschland gelandet. Gerichte hatten zuvor den Druck auf die Bundesregierung erhöht."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-11/afghanistan-pakistan-bundesaufnahmeprogramm-flug",
+        "source": "ZEIT Politik",
+        "publishedAt": "2025-11-28T14:38:41.000Z"
+      },
+      {
+        "id": "li.3346243",
+        "title": "Auslieferung aus Italien: Nordstream-Verdächtiger in U-Haft",
+        "summary": "Keine weiteren Details verfügbar.",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/auslieferung-aus-italien-nordstream-verdaechtiger-in-u-haft-li.3346243",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T14:33:43.000Z"
+      },
+      {
+        "id": "li.3346146",
+        "title": "Umfrage der Gewerkschaft: Schulleiter beklagen Mängel",
+        "summary": "Keine weiteren Details verfügbar.",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/umfrage-der-gewerkschaft-schulleiter-beklagen-maengel-li.3346146",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T14:28:13.000Z"
+      },
+      {
+        "id": "li.3345893",
+        "title": "Einspruch des BSW: Vorerst keine Neuauszählung der Bundestagswahl",
+        "summary": "Der Wahlprüfungsausschuss des Bundestages wird den Einspruch des BSW aller Voraussicht nach zurückweisen. Mit welcher Begründung – und wie reagiert Sahra Wagenknecht?",
+        "paragraphs": [
+          "Der Wahlprüfungsausschuss des Bundestages wird den Einspruch des BSW aller Voraussicht nach zurückweisen. Mit welcher Begründung – und wie reagiert Sahra Wagenknecht?"
+        ],
+        "link": "https://www.sueddeutsche.de/politik/bundestagswahl-neu-auszaehlung-bsw-wagenknecht-li.3345893",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T14:18:36.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/bundestag-beschliesst-haushalt-fuer-2026-a-f3a27909-f6b7-454d-b196-8f7ac449c044",
+        "title": "Bundestag beschließt Haushalt für 2026",
+        "summary": "Der Bundeshaushalt für das kommende Jahr steht: Die Ausgaben sollen 525 Milliarden Euro betragen, insgesamt sind Kredite von rund 180 Milliarden Euro geplant. Am meisten soll in Straßen, Brücken und Schienen investiert werden.",
+        "paragraphs": [
+          "Der Bundeshaushalt für das kommende Jahr steht: Die Ausgaben sollen 525 Milliarden Euro betragen, insgesamt sind Kredite von rund 180 Milliarden Euro geplant. Am meisten soll in Straßen, Brücken und Schienen investiert werden."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/bundestag-beschliesst-haushalt-fuer-2026-a-f3a27909-f6b7-454d-b196-8f7ac449c044#ref=rss",
+        "source": "SPIEGEL Politik",
+        "publishedAt": "2025-11-28T14:16:00.000Z"
+      },
+      {
+        "id": "li.3344769",
+        "title": "Österreich: Wie SOS-Kinderdorf nach Missbrauchsfällen die „Unkultur des Schweigens“ beenden will",
+        "summary": "Der Gründer von SOS-Kinderdorf, Hermann Gmeiner, soll acht Jungen sexuell missbraucht haben. Die Organsiation hat das wie andere Skandale lange geheim gehalten. Nun will sie diese „Unkultur des Schweigens“ beenden.",
+        "paragraphs": [
+          "Der Gründer von SOS-Kinderdorf, Hermann Gmeiner, soll acht Jungen sexuell missbraucht haben. Die Organsiation hat das wie andere Skandale lange geheim gehalten. Nun will sie diese „Unkultur des Schweigens“ beenden."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/oesterreich-sos-kinderdorf-gmeiner-missbrauch-skandal-li.3344769",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T14:03:22.000Z"
       },
       {
         "id": "{urn:uuid:c0d6c687-341e-4f57-8b0b-794d6aaf1cc5}",
         "title": "Reaktion auf Rentenkompromiss: Grüne wollen in Rentenkommission mitarbeiten",
-        "summary": "Die Grünen bewerten das Ergebnis im Rentenstreit als \"durchwachsen\", an der nächsten Reform wollen sie gerne mitarbeiten. Kritik kam von ifo-Institut und Linkspartei.",
+        "summary": "Die Grünen bewerten das Ergebnis im Rentenstreit als \"durchwachsen\", an der nächsten Reform wollen sie mitarbeiten. Kritik kam von ifo Institut und Linkspartei.",
         "paragraphs": [
-          "Die Grünen bewerten das Ergebnis im Rentenstreit als \"durchwachsen\", an der nächsten Reform wollen sie gerne mitarbeiten. Kritik kam von ifo-Institut und Linkspartei."
+          "Die Grünen bewerten das Ergebnis im Rentenstreit als \"durchwachsen\", an der nächsten Reform wollen sie mitarbeiten. Kritik kam von ifo Institut und Linkspartei."
         ],
         "link": "https://www.zeit.de/politik/deutschland/2025-11/rente-kompromiss-reaktion-opposition-kritik",
         "source": "ZEIT Politik",
         "publishedAt": "2025-11-28T14:01:40.000Z"
+      },
+      {
+        "id": "li.3344108",
+        "title": "Libanon: Wenn der Papst kommt, fließen auch Strom und Wasser",
+        "summary": "Die Probleme in Libanon wird Leo XIV. nicht lösen können, vielleicht kommt es sogar zum Krieg mit Israel. Dennoch setzen die Christen hier viel Hoffnung in den Papstbesuch.",
+        "paragraphs": [
+          "Die Probleme in Libanon wird Leo XIV. nicht lösen können, vielleicht kommt es sogar zum Krieg mit Israel. Dennoch setzen die Christen hier viel Hoffnung in den Papstbesuch."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/papst-libanon-besuch-li.3344108",
+        "source": "Süddeutsche Zeitung Politik",
+        "publishedAt": "2025-11-28T14:00:46.000Z"
       },
       {
         "id": "{urn:uuid:0357d4b3-3fd2-493e-b0fe-d611f1bd9682}",
@@ -45,17 +255,6 @@
         "publishedAt": "2025-11-28T13:34:26.000Z"
       },
       {
-        "id": "{urn:uuid:a7ac38d5-2d3c-42be-8c98-57eb4c6bc081}",
-        "title": "Bundesaufnahmeprogramm: Flüge mit 71 Afghanen mit Aufnahmezusage in Deutschland gelandet",
-        "summary": "Zum zehnten Mal seit Antritt der Koalition sind Flieger aus Afghanistan in Deutschland gelandet. Gerichte hatten zuvor den Druck auf die Bundesregierung erhöht.",
-        "paragraphs": [
-          "Zum zehnten Mal seit Antritt der Koalition sind Flieger aus Afghanistan in Deutschland gelandet. Gerichte hatten zuvor den Druck auf die Bundesregierung erhöht."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-11/afghanistan-pakistan-bundesaufnahmeprogramm-flug",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-28T13:26:36.000Z"
-      },
-      {
         "id": "{urn:uuid:16641a0c-7ebc-4035-88a5-944f813cc367}",
         "title": "Rentenreform: Dieser Kompromiss ist eine Chance",
         "summary": "Der Beschluss des Koalitionsausschusses könnte die Grundlage für eine umfassende Rentenreform werden. Voraussetzung: Alle beruhigen sich jetzt ein bisschen.",
@@ -65,17 +264,6 @@
         "link": "https://www.zeit.de/wirtschaft/2025-11/rentenreform-schwarz-rote-koalition-ausschuss-bundesregierung",
         "source": "ZEIT Politik",
         "publishedAt": "2025-11-28T13:24:26.000Z"
-      },
-      {
-        "id": "li.3345939",
-        "title": "Europäische Union: Streit um Ukraine-Hilfe der EU eskaliert",
-        "summary": "Die EU-Kommission will eingefrorene russische Gelder in Kredite für die Ukraine umwandeln. Belgien stellt sich seit Längerem quer, jetzt erhöht Premier Bart De Wever noch einmal den Druck. Dabei drängt die Zeit.",
-        "paragraphs": [
-          "Die EU-Kommission will eingefrorene russische Gelder in Kredite für die Ukraine umwandeln. Belgien stellt sich seit Längerem quer, jetzt erhöht Premier Bart De Wever noch einmal den Druck. Dabei drängt die Zeit."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/eu-ukraine-russland-vermoegen-li.3345939",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T13:23:39.000Z"
       },
       {
         "id": "{urn:uuid:88894fb9-50f2-4e7c-b9c2-57e2b1321043}",
@@ -111,28 +299,6 @@
         "publishedAt": "2025-11-28T12:35:10.000Z"
       },
       {
-        "id": "li.3345665",
-        "title": "Union und SPD: Die wichtigsten Beschlüsse der Koalition",
-        "summary": "Das Rentenpaket bleibt, Social Leasing kommt und das Verbrenner-Aus soll aufgeweicht werden: Worauf sich Union und SPD geeinigt haben, wie es dazu kam – und wie es jetzt weitergeht.",
-        "paragraphs": [
-          "Das Rentenpaket bleibt, Social Leasing kommt und das Verbrenner-Aus soll aufgeweicht werden: Worauf sich Union und SPD geeinigt haben, wie es dazu kam – und wie es jetzt weitergeht."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/koalitionsausschuss-ergebnisse-rente-verbrenner-aus-e-auto-foerderung-2026-li.3345665",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T12:27:49.000Z"
-      },
-      {
-        "id": "li.3345663",
-        "title": "Koalitionsausschuss: Bange Stunden für den Kanzler",
-        "summary": "Die Operation „Rebellen bändigen“ beginnt für Friedrich Merz schon früh am Tag, und je länger der dauert, desto deutlicher wird: Zufrieden sind die 18 jungen Unionsabgeordneten mit den Rentenbeschlüssen nicht. Es kann nächste Woche eng werden.",
-        "paragraphs": [
-          "Die Operation „Rebellen bändigen“ beginnt für Friedrich Merz schon früh am Tag, und je länger der dauert, desto deutlicher wird: Zufrieden sind die 18 jungen Unionsabgeordneten mit den Rentenbeschlüssen nicht. Es kann nächste Woche eng werden."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-rentenreform-koalitionsausschuss-junge-gruppe-merz-li.3345663",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T12:20:49.000Z"
-      },
-      {
         "id": "{urn:uuid:88bce8ba-4799-4ee2-bbcb-1e8ea3389329}",
         "title": "Protest in Georgien: Wo steht Georgien nach einem Jahr Protest?",
         "summary": "Während Georgiens Regierung immer unverhohlener auf die EU schimpft, kämpft die Bevölkerung für einen Beitritt. Was sind die Folgen? Antworten auf die wichtigsten Fragen",
@@ -153,193 +319,138 @@
         "link": "https://www.zeit.de/politik/ausland/2025-11/rassemblement-national-jordan-bardella-marine-le-pen-frankreich-rechtspopulismus",
         "source": "ZEIT Politik",
         "publishedAt": "2025-11-28T11:35:19.000Z"
-      },
-      {
-        "id": "li.3345583",
-        "title": "Anschläge auf Gas-Pipelines: Nord-Stream-Verdächtiger in U-Haft",
-        "summary": "Die Anschläge auf die Gas-Pipelines in der Ostsee hatten 2022 weltweit Schlagzeilen gemacht. Im Sommer wurde der mutmaßliche Koordinator der Anschläge in Italien verhaftet. Nach seiner Auslieferung nach Deutschland ist er jetzt in Untersuchungshaft.",
-        "paragraphs": [
-          "Die Anschläge auf die Gas-Pipelines in der Ostsee hatten 2022 weltweit Schlagzeilen gemacht. Im Sommer wurde der mutmaßliche Koordinator der Anschläge in Italien verhaftet. Nach seiner Auslieferung nach Deutschland ist er jetzt in Untersuchungshaft."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/nord-stream-verdaechtiger-auslieferung-deutschland-untersuchungshaft-li.3345583",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T11:31:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/bundeswehr-hier-wird-die-luftwaffe-bald-wieder-tief-fliegen-a-1221b445-5d1a-4a9e-9855-8a7448fdbd5d",
-        "title": "Bundeswehr: Hier wird die Luftwaffe wieder tief fliegen",
-        "summary": "Nur etwa 76 Meter über dem Boden: Sieben deutsche Regionen sind künftig für das Training von Zielanflügen in Kampfjets freigegeben. Der Überblick.",
-        "paragraphs": [
-          "Nur etwa 76 Meter über dem Boden: Sieben deutsche Regionen sind künftig für das Training von Zielanflügen in Kampfjets freigegeben. Der Überblick."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/bundeswehr-hier-wird-die-luftwaffe-bald-wieder-tief-fliegen-a-1221b445-5d1a-4a9e-9855-8a7448fdbd5d#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-28T11:16:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/rente-friedrich-merz-und-markus-soeder-umschmeicheln-junge-abgeordnete-a-a564763c-89a0-4156-990c-a6c1da43d6bf",
-        "title": "Rente: Friedrich Merz und Markus Söder umschmeicheln junge Abgeordnete",
-        "summary": "Mit einer Kommission und zusätzlichen Millionen wollen Union und SPD den Rentenstreit belegen. Die Parteichefs loben den Kompromiss und versprechen keine »Laberrunde«. Ifo-Präsident Fuest sieht das grundsätzlich anders.",
-        "paragraphs": [
-          "Mit einer Kommission und zusätzlichen Millionen wollen Union und SPD den Rentenstreit belegen. Die Parteichefs loben den Kompromiss und versprechen keine »Laberrunde«. Ifo-Präsident Fuest sieht das grundsätzlich anders."
-        ],
-        "link": "https://www.spiegel.de/politik/rente-friedrich-merz-und-markus-soeder-umschmeicheln-junge-abgeordnete-a-a564763c-89a0-4156-990c-a6c1da43d6bf#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-28T11:12:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/gruene-jugend-forderung-nach-linkerer-ausrichtung-der-partei-a-ee74e107-e861-45fd-b9b9-c9d38810fe59",
-        "title": "Grüne Jugend: Forderung nach linkerer Ausrichtung der Partei",
-        "summary": "Die Stadtbild-Debatte als verpasste Chance, die Partei nach links zu rücken: Der Co-Chef der Grünen Jugend kritisiert die Mutterpartei scharf. Auch bei den Themen Wohnen und Wehrpflicht fordert er eine klare Haltung.",
-        "paragraphs": [
-          "Die Stadtbild-Debatte als verpasste Chance, die Partei nach links zu rücken: Der Co-Chef der Grünen Jugend kritisiert die Mutterpartei scharf. Auch bei den Themen Wohnen und Wehrpflicht fordert er eine klare Haltung."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/gruene-jugend-forderung-nach-linkerer-ausrichtung-der-partei-a-ee74e107-e861-45fd-b9b9-c9d38810fe59#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-28T11:06:00.000Z"
-      },
-      {
-        "id": "er.e062742",
-        "title": "NS-Verbrechen: Schon mal von den Dachauer Prozessen gehört?",
-        "summary": "Anders als bei den Nürnberger Prozessen standen hier zwischen 1945 und 1948 nicht die Hauptkriegsverbrecher, sondern gewöhnliche Deutsche vor Gericht. Heute lagert die Polizei im ehemaligen Gerichtssaal Partyzelte. Ein Besuch im Abstellraum der Geschichte.",
-        "paragraphs": [
-          "Anders als bei den Nürnberger Prozessen standen hier zwischen 1945 und 1948 nicht die Hauptkriegsverbrecher, sondern gewöhnliche Deutsche vor Gericht. Heute lagert die Polizei im ehemaligen Gerichtssaal Partyzelte. Ein Besuch im Abstellraum der Geschichte."
-        ],
-        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/dachau-nationalsozialismus-konzentrationslager-gedenkstaette-erinnerungskultur-e062742/",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T11:00:00.000Z"
-      },
-      {
-        "id": "li.3303828",
-        "title": "Sonntagsfrage: So würden die Deutschen wählen, wenn Bundestagswahl wäre",
-        "summary": "Die Regierungsparteien Union und SPD sind unbeliebt, AfD und Linke gewinnen an Unterstützung. Eine Übersicht zur Wählerstimmung in der Sonntagsfrage in Grafiken.",
-        "paragraphs": [
-          "Die Regierungsparteien Union und SPD sind unbeliebt, AfD und Linke gewinnen an Unterstützung. Eine Übersicht zur Wählerstimmung in der Sonntagsfrage in Grafiken."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/umfrage-bundestagswahl-sonntagsfrage-deutschland-li.3303828",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T10:55:00.000Z"
-      },
-      {
-        "id": "li.3336216",
-        "title": "Krieg in Nahost: Israelischer Militäreinsatz im Westjordanland sorgt für Empörung",
-        "summary": "Israelische Soldaten sollen zwei Palästinenser erschossen haben, die sich bereits ergeben hatten. Israels Armee untersucht den Vorfall.",
-        "paragraphs": [
-          "Israelische Soldaten sollen zwei Palästinenser erschossen haben, die sich bereits ergeben hatten. Israels Armee untersucht den Vorfall."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/nahost-liveblog-news-israel-westjordanland-li.3336216",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T10:15:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:075773a4-f047-488a-8eec-03f0831eef3a}",
-        "title": "Koalitionsausschuss: Koalitionsspitzen einigen sich bei Rentenreform und Verbrenner-Aus",
-        "summary": "Die schwarz-rote Koalition hat ein Papier zur Rentenreform beschlossen. Das Rentenpaket wird laut Bundeskanzler Merz dem Bundestag ohne Veränderungen vorgelegt.",
-        "paragraphs": [
-          "Die schwarz-rote Koalition hat ein Papier zur Rentenreform beschlossen. Das Rentenpaket wird laut Bundeskanzler Merz dem Bundestag ohne Veränderungen vorgelegt."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-11/koalitionsspitzen-beschliessen-papier-zu-grundsaetzlicher-rentenreform",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-28T09:50:36.000Z"
-      },
-      {
-        "id": "li.3341978",
-        "title": "Bundespolitik: Merz: Rentenpaket soll kommende Woche durch den Bundestag gehen",
-        "summary": "Der Gesetzentwurf soll dem Kanzler zufolge nicht mehr geändert und bereits in wenigen Tagen im Bundestag beschlossen werden. Die Koalition will sich zudem für Ausnahmen vom EU-Verbrenner-Aus einsetzen.",
-        "paragraphs": [
-          "Der Gesetzentwurf soll dem Kanzler zufolge nicht mehr geändert und bereits in wenigen Tagen im Bundestag beschlossen werden. Die Koalition will sich zudem für Ausnahmen vom EU-Verbrenner-Aus einsetzen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-deutschland-news-koalitionsausschuss-rentenpaket-merz-abstimmung-li.3341978",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T09:30:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/rente-heizungsgesetz-verbrenner-aus-union-und-spd-stellen-nach-einigung-ergebnisse-vor-a-f7c41355-0666-4fb9-8457-23a4a23e7ec9",
-        "title": "Rente, Heizungsgesetz, Verbrenner-Aus: Union und SPD stellen nach Einigung Ergebnisse vor",
-        "summary": "Bis in die Nacht haben die Spitzen der Koalition beraten. Neben Heizungsgesetz und Verbrenner-Aus sorgte vor allem das Rentenpaket für Streit. Sehen Sie hier, was Kanzler Merz und Vizekanzler Klingbeil zur Einigung sagen.",
-        "paragraphs": [
-          "Bis in die Nacht haben die Spitzen der Koalition beraten. Neben Heizungsgesetz und Verbrenner-Aus sorgte vor allem das Rentenpaket für Streit. Sehen Sie hier, was Kanzler Merz und Vizekanzler Klingbeil zur Einigung sagen."
-        ],
-        "link": "https://www.spiegel.de/politik/rente-heizungsgesetz-verbrenner-aus-union-und-spd-stellen-nach-einigung-ergebnisse-vor-a-f7c41355-0666-4fb9-8457-23a4a23e7ec9#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-28T08:35:00.000Z"
-      },
-      {
-        "id": "li.3345482",
-        "title": "Koalitionsausschuss: So will die Koalition die Zustimmung der Jungen Gruppe gewinnen",
-        "summary": "Die Spitzen von Union und SPD planen einen Begleittext zum unveränderten Rentenpaket. Unklar ist, ob das die Jungen in der Unionsfraktion überzeugt.",
-        "paragraphs": [
-          "Die Spitzen von Union und SPD planen einen Begleittext zum unveränderten Rentenpaket. Unklar ist, ob das die Jungen in der Unionsfraktion überzeugt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-rentenpaket-junge-gruppe-unionsfraktion-zustimmung-begleittext-li.3345482",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T08:09:14.000Z"
-      },
-      {
-        "id": "li.3341431",
-        "title": "Krieg in der Ukraine: Antikorruptionsbehörden durchsuchen Büro von Selenskijs Stabschef",
-        "summary": "Die Maßnahmen bei Andrij Jermak seien der Behörde zufolge Teil laufender Ermittlungen. Der ungarische Ministerpräsident Orbán reist am heutigen Freitag zu Kremlchef Putin.",
-        "paragraphs": [
-          "Die Maßnahmen bei Andrij Jermak seien der Behörde zufolge Teil laufender Ermittlungen. Der ungarische Ministerpräsident Orbán reist am heutigen Freitag zu Kremlchef Putin."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-ukraine-korruptionsverdacht-jermak-putin-orban-li.3341431",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T07:48:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/bundesregierung-koalitionsausschuss-einigt-sich-im-rentenstreit-a-06cf3e75-923f-4cf4-9b73-58567b8a6d58",
-        "title": "Bundesregierung: Koalitionsausschuss einigt sich im Rentenstreit",
-        "summary": "Bis spät in die Nacht wurde gerungen. Nach SPIEGEL-Informationen gibt es jetzt eine Einigung im Streit über die Rente. Offen ist, ob der Kompromiss die jungen Unionsabgeordneten überzeugt.",
-        "paragraphs": [
-          "Bis spät in die Nacht wurde gerungen. Nach SPIEGEL-Informationen gibt es jetzt eine Einigung im Streit über die Rente. Offen ist, ob der Kompromiss die jungen Unionsabgeordneten überzeugt."
-        ],
-        "link": "https://www.spiegel.de/politik/bundesregierung-koalitionsausschuss-einigt-sich-im-rentenstreit-a-06cf3e75-923f-4cf4-9b73-58567b8a6d58#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-28T07:47:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:29d51642-2982-49b6-bfe7-91d55fcf17b2}",
-        "title": "Ukrainekonflikt: Und was springt für mich dabei raus?",
-        "summary": "Russland weiß: Donald Trump lässt sich mit Deals, Schmeicheleien und Geld beeindrucken. Der US-Präsident zerstört damit die Diplomatie, wie wir sie kennen.",
-        "paragraphs": [
-          "Russland weiß: Donald Trump lässt sich mit Deals, Schmeicheleien und Geld beeindrucken. Der US-Präsident zerstört damit die Diplomatie, wie wir sie kennen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-11/ukraine-konflikt-diplomatie-steve-witkoff-kirill-dmitriev-donald-trump-5vor8",
-        "source": "ZEIT Politik",
-        "publishedAt": "2025-11-28T06:31:37.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/bundesregierung-koalitionsausschuss-beraet-bis-tief-in-die-nacht-a-44ce16fa-3a6b-40cc-8b3f-61905cc37539",
-        "title": "Bundesregierung: Koalitionsausschuss berät bis tief in die Nacht",
-        "summary": "Union und SPD haben fast sechs Stunden lang im Koalitionsausschuss beraten, vor allem über die Rente, das Verbrenner-Aus und das Heizungsgesetz. Ergebnisse wollen Merz und Klingbeil zeitnah vorstellen.",
-        "paragraphs": [
-          "Union und SPD haben fast sechs Stunden lang im Koalitionsausschuss beraten, vor allem über die Rente, das Verbrenner-Aus und das Heizungsgesetz. Ergebnisse wollen Merz und Klingbeil zeitnah vorstellen."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/bundesregierung-koalitionsausschuss-beraet-bis-tief-in-die-nacht-a-44ce16fa-3a6b-40cc-8b3f-61905cc37539#ref=rss",
-        "source": "SPIEGEL Politik",
-        "publishedAt": "2025-11-28T06:18:00.000Z"
-      },
-      {
-        "id": "li.3345861",
-        "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
-        "summary": "SZ am Morgen.",
-        "paragraphs": [
-          "SZ am Morgen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ergebnisse-des-koalitionsausschusses-erwartet-brand-in-hongkong-gruene-jugend-kritisiert-mutterpartei-li.3345861",
-        "source": "Süddeutsche Zeitung Politik",
-        "publishedAt": "2025-11-28T06:02:13.000Z"
       }
     ],
     "Wirtschaft": [
       {
-        "id": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-bundestag-beschliesst-haushalt-2026/100137034.html",
-        "title": "Bundesregierung: Bundestag beschließt Haushalt 2026",
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/edelmetall-silberpreis-erreicht-rekordhoch/100179203.html",
+        "title": "Edelmetall: Silberpreis erreicht Rekordhoch – Höchststand aus Oktober übertroffen",
+        "summary": "Silber auf Gewinnkurs: Das Edelmetall überschreitet erstmals die Marke von 55 Dollar pro Feinunze. Nicht nur gestiegene Hoffnungen auf eine weitere Zinssenkung der Fed stärken den Preis.",
+        "paragraphs": [
+          "Silber auf Gewinnkurs: Das Edelmetall überschreitet erstmals die Marke von 55 Dollar pro Feinunze. Nicht nur gestiegene Hoffnungen auf eine weitere Zinssenkung der Fed stärken den Preis."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/edelmetall-silberpreis-erreicht-rekordhoch/100179203.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T15:57:57.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nach-thanksgiving-startet-wall-street-mit-gewinnen/100179216.html",
+        "title": "Dow Jones, S&P 500, Nasdaq: Nach Thanksgiving startet Wall Street mit Gewinnen",
+        "summary": "Die Wall Street kommt mit einem Plus aus der Thanksgiving-Pause vom Vortag. Doch eine schwere Störung beim Börsenbetreiber CME Group sorgt zum Handelsauftakt für Nervosität.",
+        "paragraphs": [
+          "Die Wall Street kommt mit einem Plus aus der Thanksgiving-Pause vom Vortag. Doch eine schwere Störung beim Börsenbetreiber CME Group sorgt zum Handelsauftakt für Nervosität."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nach-thanksgiving-startet-wall-street-mit-gewinnen/100179216.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T15:55:12.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/deutsche-boerse-was-bringt-die-rekorduebernahme-von-allfunds/100179061.html",
+        "title": "Rekordinvestition: Was sich die Deutsche Börse von Allfunds verspricht – und warum der Kauf noch scheitern könnte",
+        "summary": "Die 5,3 Milliarden Euro schwere Übernahme der Fondsplattform wäre der größte Deal der Konzern-Geschichte. Jetzt gilt es, Brüssel zu überzeugen. Die wichtigsten Fragen.",
+        "paragraphs": [
+          "Die 5,3 Milliarden Euro schwere Übernahme der Fondsplattform wäre der größte Deal der Konzern-Geschichte. Jetzt gilt es, Brüssel zu überzeugen. Die wichtigsten Fragen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/deutsche-boerse-was-bringt-die-rekorduebernahme-von-allfunds/100179061.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T15:52:01.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-selenskyjs-bueroleiter-jermak-tritt-zurueck/100179239.html",
+        "title": "Ukraine: Selenskyjs Büroleiter Jermak tritt zurück",
+        "summary": "Die Ukraine wird von einem Korruptionsskandal erschüttert. Nach Durchsuchungen von Anti-Korruptionsermittlern in seiner Wohnung ist Selenskyjs Bürochef zurückgetreten.",
+        "paragraphs": [
+          "Die Ukraine wird von einem Korruptionsskandal erschüttert. Nach Durchsuchungen von Anti-Korruptionsermittlern in seiner Wohnung ist Selenskyjs Bürochef zurückgetreten."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-selenskyjs-bueroleiter-jermak-tritt-zurueck/100179239.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T15:45:24.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/wirtschaft-indiens-premier-modi-empfaengt-kremlchef-putin-zum-staatsbesuch/100179233.html",
+        "title": "Wirtschaft: Indiens Premier Modi empfängt Kremlchef Putin zum Staatsbesuch",
+        "summary": "Die beiden Staatschefs treffen sich im Dezember in Neu-Delhi, um über den Ausbau ihrer „strategische Partnerschaft“ zu sprechen. Auch Öl dürfte ein Thema sein.",
+        "paragraphs": [
+          "Die beiden Staatschefs treffen sich im Dezember in Neu-Delhi, um über den Ausbau ihrer „strategische Partnerschaft“ zu sprechen. Auch Öl dürfte ein Thema sein."
+        ],
+        "link": "https://www.handelsblatt.com/politik/wirtschaft-indiens-premier-modi-empfaengt-kremlchef-putin-zum-staatsbesuch/100179233.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T15:43:44.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/geschaeftsmodell-puky-oder-woom-wer-baut-das-bessere-fahrrad-fuer-kinder/100178706.html",
+        "title": "Räder: Kleine Räder, großes Duell – Ein Familienunternehmen und ein Start-up wetteifern ums beste Kinderrad",
+        "summary": "Im Markt für Kinderfahrräder kämpft Puky gegen Woom. Lustig? Eher ein Duell um die Frage, wer die Nase vorn hat: Familienunternehmen oder Start-up mit Investorenhilfe.",
+        "paragraphs": [
+          "Im Markt für Kinderfahrräder kämpft Puky gegen Woom. Lustig? Eher ein Duell um die Frage, wer die Nase vorn hat: Familienunternehmen oder Start-up mit Investorenhilfe."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/geschaeftsmodell-puky-oder-woom-wer-baut-das-bessere-fahrrad-fuer-kinder/100178706.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T15:30:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-das-sind-die-haeufigsten-kostenfallen-bei-der-sanierung/100168510.html",
+        "title": "Energetische Sanierung: Kostenfalle Sanierung: Wie sich mit der richtigen Planung viel Geld sparen lässt",
+        "summary": "Preise für Handwerk und Material legen zu. Allein seit 2016 sind die Kosten für Modernisierungen um 56 Prozent gestiegen. Experten nennen fünf Kostenfallen – und erklären, wie man sie umgeht.",
+        "paragraphs": [
+          "Preise für Handwerk und Material legen zu. Allein seit 2016 sind die Kosten für Modernisierungen um 56 Prozent gestiegen. Experten nennen fünf Kostenfallen – und erklären, wie man sie umgeht."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-das-sind-die-haeufigsten-kostenfallen-bei-der-sanierung/100168510.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T15:06:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/haushalt-bundestag-beschliesst-haushalt-2026-mit-hohen-schulden/100179199.html",
+        "title": "Haushalt: Bundestag beschließt Haushalt 2026 mit hohen Schulden",
+        "summary": "Das Budget der Regierung für 2026 steht. Die Opposition spricht vom „größten Haushalt ever“ – doch sieht falsche Prioritäten. Wofür darf Schwarz-Rot im nächsten Jahr Geld ausgeben?",
+        "paragraphs": [
+          "Das Budget der Regierung für 2026 steht. Die Opposition spricht vom „größten Haushalt ever“ – doch sieht falsche Prioritäten. Wofür darf Schwarz-Rot im nächsten Jahr Geld ausgeben?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/haushalt-bundestag-beschliesst-haushalt-2026-mit-hohen-schulden/100179199.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T14:23:49.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/russland-orban-besucht-putin-und-provoziert-bruessel/100179045.html",
+        "title": "Viktor Orban: Ungarns Ministerpräsident besucht russischen Staatschef und provoziert Brüssel – Merz übt Kritik",
+        "summary": "Wieder macht der ungarische Regierungschef dem Kremlherrscher seine Aufwartung. Es geht um Trumps „Friedensplan“ – und einen Deal mit Gazprom.",
+        "paragraphs": [
+          "Wieder macht der ungarische Regierungschef dem Kremlherrscher seine Aufwartung. Es geht um Trumps „Friedensplan“ – und einen Deal mit Gazprom."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/russland-orban-besucht-putin-und-provoziert-bruessel/100179045.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T14:21:44.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/bitcoin-vier-faktoren-die-den-kryptomarkt-erschuettern-koennten/100178856.html",
+        "title": "Bitcoin: Das Saylor-Risiko – Vier Faktoren, die den Kryptomarkt erschüttern könnten",
+        "summary": "Durch die jüngsten Turbulenzen am Kryptomarkt rückt der schillernde Investor Michael Saylor in den Fokus. Sollte er scheitern, warnen Experten vor unabsehbaren Folgen.",
+        "paragraphs": [
+          "Durch die jüngsten Turbulenzen am Kryptomarkt rückt der schillernde Investor Michael Saylor in den Fokus. Sollte er scheitern, warnen Experten vor unabsehbaren Folgen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/bitcoin-vier-faktoren-die-den-kryptomarkt-erschuettern-koennten/100178856.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T14:19:21.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/zehn-lieder-fuer-mehr-umsatz-im-weihnachtsgeschaeft/100174632.html",
+        "title": "Handel: Last Christmas please! Zehn Weihnachtslieder, die Händlern mehr Umsatz bescheren",
+        "summary": "Studien zeigen: Läuft im Laden Musik, läuft der Laden besser. Wir haben die zehn Weihnachtslieder ermittelt, bei denen Kunden besonders gerne Geld ausgeben.",
+        "paragraphs": [
+          "Studien zeigen: Läuft im Laden Musik, läuft der Laden besser. Wir haben die zehn Weihnachtslieder ermittelt, bei denen Kunden besonders gerne Geld ausgeben."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/zehn-lieder-fuer-mehr-umsatz-im-weihnachtsgeschaeft/100174632.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-11-28T14:14:44.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-ifo-chef-fuest-kritisiert-rentenplaene/100137034.html",
+        "title": "Bundesregierung: Ifo-Chef Fuest kritisiert Rentenpläne",
         "summary": "Schneider: Autoindustrie erhält mehr Flexibilität +++ Bundestag soll kommende Woche über Rentenpaket abstimmen +++ Koalition will Lockerung von EU-Verbrenner-Aus ab 2035 +++ Der Newsblog.",
         "paragraphs": [
           "Schneider: Autoindustrie erhält mehr Flexibilität +++ Bundestag soll kommende Woche über Rentenpaket abstimmen +++ Koalition will Lockerung von EU-Verbrenner-Aus ab 2035 +++ Der Newsblog."
         ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-bundestag-beschliesst-haushalt-2026/100137034.html",
+        "link": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-ifo-chef-fuest-kritisiert-rentenplaene/100137034.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-11-28T14:03:45.000Z"
       },
@@ -388,17 +499,6 @@
         "publishedAt": "2025-11-28T13:48:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-inflationsrate-bleibt-bei-23-prozent/100177746.html",
-        "title": "Inflation: Inflationsrate bleibt bei 2,3 Prozent",
-        "summary": "Die Teuerungsrate liegt in Deutschland weiterhin über dem Ziel der Europäischen Zentralbank. Daran dürfte sich vorerst auch nichts ändern, prognostizieren Experten.",
-        "paragraphs": [
-          "Die Teuerungsrate liegt in Deutschland weiterhin über dem Ziel der Europäischen Zentralbank. Daran dürfte sich vorerst auch nichts ändern, prognostizieren Experten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-inflationsrate-bleibt-bei-23-prozent/100177746.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T13:37:03.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern-deshalb-sind-diese-laender-bei-auswanderern-besonders-beliebt/100133033.html",
         "title": "Aufenthaltsrecht: Niedrige Steuern, hohe Lebensqualität – Diese Länder sind attraktiv für Auswanderer",
         "summary": "Wer Deutschland verlässt, kann oft viel Geld sparen – zumindest, wenn er weiß, wohin. Einige Länder bieten clevere Sonderregeln für Zuwanderer – und ein Leben mit mehr Netto vom Brutto.",
@@ -441,119 +541,20 @@
         "link": "https://www.handelsblatt.com/politik/international/eu-verteidigungsfonds-gespraeche-ueber-beitritt-grossbritanniens-gescheitert/100179143.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-11-28T13:07:59.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/energie/energie-welche-vorgaben-sie-beim-aufstellen-der-waermepumpe-beachten-muessen/100103914.html",
-        "title": "Heizung: Wohin mit der Wärmepumpe?",
-        "summary": "Wärmepumpen sind keine Schönheiten. Deshalb sollten sie idealerweise unauffällig sein. Über den optimalen Standort entscheidet jedoch nicht nur die Ästhetik – weitere Vorgaben setzen Grenzen.",
-        "paragraphs": [
-          "Wärmepumpen sind keine Schönheiten. Deshalb sollten sie idealerweise unauffällig sein. Über den optimalen Standort entscheidet jedoch nicht nur die Ästhetik – weitere Vorgaben setzen Grenzen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/energie/energie-welche-vorgaben-sie-beim-aufstellen-der-waermepumpe-beachten-muessen/100103914.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T13:05:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/mittelstand/fahrradindustrie-puky-gegen-woom-das-grosse-duell-mit-den-kleinen-raedern/100178706.html",
-        "title": "Räder: Kleine Räder, großes Duell – Ein Familienunternehmen und ein Start-up wetteifern ums beste Kinderrad",
-        "summary": "Im Markt für Kinderfahrräder kämpft Puky gegen Woom. Lustig? Eher ein Duell um die Frage, wer die Nase vorn hat: Familienunternehmen oder Start-up mit Investorenhilfe.",
-        "paragraphs": [
-          "Im Markt für Kinderfahrräder kämpft Puky gegen Woom. Lustig? Eher ein Duell um die Frage, wer die Nase vorn hat: Familienunternehmen oder Start-up mit Investorenhilfe."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/fahrradindustrie-puky-gegen-woom-das-grosse-duell-mit-den-kleinen-raedern/100178706.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T13:03:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rentnerparadies-so-koennen-sie-ihren-ruhestand-in-italien-geniessen/100139821.html",
-        "title": "Rentnerparadies: Steuerschnäppchen und gute Versorgung – So kann der Ruhestand in Italien gelingen",
-        "summary": "Zwischen Dolce Vita, Steuertricks und italienischer Bürokratie: Wie drei Deutsche ihren Ruhestand am Gardasee und in der Toskana gestalten.",
-        "paragraphs": [
-          "Zwischen Dolce Vita, Steuertricks und italienischer Bürokratie: Wie drei Deutsche ihren Ruhestand am Gardasee und in der Toskana gestalten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rentnerparadies-so-koennen-sie-ihren-ruhestand-in-italien-geniessen/100139821.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T13:01:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/anschlag-mutmasslicher-nord-stream-saboteur-muss-in-u-haft/100179068.html",
-        "title": "Anschlag: Mutmaßlicher Nord-Stream-Saboteur muss in Deutschland in U-Haft",
-        "summary": "Nach drei Monaten in italienischer Untersuchungshaft muss ein Verdächtiger der Sprengungen der Nord-Stream-Pipelines auch hierzulande in Haft. Das ordnete ein Richter in Karlsruhe an.",
-        "paragraphs": [
-          "Nach drei Monaten in italienischer Untersuchungshaft muss ein Verdächtiger der Sprengungen der Nord-Stream-Pipelines auch hierzulande in Haft. Das ordnete ein Richter in Karlsruhe an."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/anschlag-mutmasslicher-nord-stream-saboteur-muss-in-u-haft/100179068.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T12:27:47.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/mittelstand/geld-der-wohlstand-dieses-landes-ist-gefesselt/100115336.html",
-        "title": "Reichtum: „Millionäre in Deutschland haben 60 Mal mehr Vermögen als Milliardäre“",
-        "summary": "Der langjährige Stiftungsfunktionär Felix Oldenburg hat mit Vermögenden gesprochen. Hier erklärt er, was Milliardäre antreibt – und wie Vermögensverwalter ihnen Steuersparmodelle bauen.",
-        "paragraphs": [
-          "Der langjährige Stiftungsfunktionär Felix Oldenburg hat mit Vermögenden gesprochen. Hier erklärt er, was Milliardäre antreibt – und wie Vermögensverwalter ihnen Steuersparmodelle bauen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/geld-der-wohlstand-dieses-landes-ist-gefesselt/100115336.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T11:54:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/nord-stream-nach-deutschland-ueberstellt-nord-stream-verdaechtiger-in-haft/100179140.html",
-        "title": "Nord-Stream: Nach Deutschland überstellt – Nord-Stream-Verdächtiger in Haft",
-        "summary": "Nach drei Monaten in italienischer Untersuchungshaft konnte ein Verdächtiger im Nord-Stream-Komplex nach Deutschland überstellt werden. Nun wurde ihm in Karlsruhe der Haftbefehl eröffnet.",
-        "paragraphs": [
-          "Nach drei Monaten in italienischer Untersuchungshaft konnte ein Verdächtiger im Nord-Stream-Komplex nach Deutschland überstellt werden. Nun wurde ihm in Karlsruhe der Haftbefehl eröffnet."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/nord-stream-nach-deutschland-ueberstellt-nord-stream-verdaechtiger-in-haft/100179140.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T11:23:44.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-mit-diesen-strategien-vermeiden-sie-die-spekulationssteuer/100132692.html",
-        "title": "Immobilien: So verkaufen Sie Ihre Immobilie nach weniger als zehn Jahren steuerfrei",
-        "summary": "Wer eine Immobilie nicht selbst nutzt und in weniger als zehn Jahren ab Kauf wieder veräußert, muss Spekulationssteuer zahlen. Doch es gibt Ausnahmen.",
-        "paragraphs": [
-          "Wer eine Immobilie nicht selbst nutzt und in weniger als zehn Jahren ab Kauf wieder veräußert, muss Spekulationssteuer zahlen. Doch es gibt Ausnahmen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-mit-diesen-strategien-vermeiden-sie-die-spekulationssteuer/100132692.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T11:05:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-was-bei-der-nachmieterklausel-im-mietvertrag-gilt/100100965.html",
-        "title": "Immobilien: Warum eigentlich ist die Nachmieterklausel im Mietvertrag so wichtig?",
-        "summary": "Aus einem Mietverhältnis kommen Mieter regulär nicht so leicht raus – außer mit einer Nachmieterklausel. Worauf sie achten müssen, um von dieser Sonderkündigung zu profitieren.",
-        "paragraphs": [
-          "Aus einem Mietverhältnis kommen Mieter regulär nicht so leicht raus – außer mit einer Nachmieterklausel. Worauf sie achten müssen, um von dieser Sonderkündigung zu profitieren."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-was-bei-der-nachmieterklausel-im-mietvertrag-gilt/100100965.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T11:02:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/nahost-merz-will-anfang-dezember-nach-israel-reisen/100136895.html",
-        "title": "+++ Nahost +++: Merz will Anfang Dezember nach Israel reisen",
-        "summary": "Tote und Verletzte bei großem Militäreinsatz Israels in Syrien +++ Siedler dringen in Syrien ein +++ Israel startete neuen Einsatz im Westjordanland +++ Der Newsblog.",
-        "paragraphs": [
-          "Tote und Verletzte bei großem Militäreinsatz Israels in Syrien +++ Siedler dringen in Syrien ein +++ Israel startete neuen Einsatz im Westjordanland +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/nahost-merz-will-anfang-dezember-nach-israel-reisen/100136895.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T10:56:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/black-friday-2025-was-sie-zum-grossen-schnaeppchen-tag-wissen-muessen/100178458.html",
-        "title": "Einzelhandel: Was Sie zum Black Friday 2025 wissen müssen",
-        "summary": "Im Einzelhandel gilt der Black Friday als Umsatzbringer. Schnäppchenjäger suchen am Shopping-Tag nach tatsächlich niedrigen Preisen. Worauf Sie beim Einkauf achten sollten.",
-        "paragraphs": [
-          "Im Einzelhandel gilt der Black Friday als Umsatzbringer. Schnäppchenjäger suchen am Shopping-Tag nach tatsächlich niedrigen Preisen. Worauf Sie beim Einkauf achten sollten."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/black-friday-2025-was-sie-zum-grossen-schnaeppchen-tag-wissen-muessen/100178458.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-11-28T10:48:00.000Z"
       }
     ],
     "Gesellschaft": [
+      {
+        "id": "li.3346081",
+        "title": "Momentaufnahmen im November: Bilder des Tages",
+        "summary": "Schönes, Erschreckendes, Absurdes und ganz Alltägliches: Momentaufnahmen aus allen Ecken der Welt, laufend aktualisiert.",
+        "paragraphs": [
+          "Schönes, Erschreckendes, Absurdes und ganz Alltägliches: Momentaufnahmen aus allen Ecken der Welt, laufend aktualisiert."
+        ],
+        "link": "https://www.sueddeutsche.de/leben/momentaufnahmen-im-november-bilder-des-tages-li.3346081",
+        "source": "Süddeutsche Zeitung Leben",
+        "publishedAt": "2025-11-28T15:58:30.000Z"
+      },
       {
         "id": "er.e130073",
         "title": "Spiele mit Apps: Wenn die Technik mitspielt",
@@ -764,17 +765,6 @@
         "publishedAt": "2025-11-27T15:47:25.000Z"
       },
       {
-        "id": "li.3345306",
-        "title": "Momentaufnahmen im November: Bilder des Tages",
-        "summary": "Schönes, Erschreckendes, Absurdes und ganz Alltägliches: Momentaufnahmen aus allen Ecken der Welt, laufend aktualisiert.",
-        "paragraphs": [
-          "Schönes, Erschreckendes, Absurdes und ganz Alltägliches: Momentaufnahmen aus allen Ecken der Welt, laufend aktualisiert."
-        ],
-        "link": "https://www.sueddeutsche.de/leben/momentaufnahmen-im-november-bilder-des-tages-li.3345306",
-        "source": "Süddeutsche Zeitung Leben",
-        "publishedAt": "2025-11-27T15:39:11.000Z"
-      },
-      {
         "id": "li.3343391",
         "title": "Wohnungslose Frauen: Die Unsichtbaren",
         "summary": "Mehr als eine Million Menschen in Deutschland haben keine Wohnung. Von den betroffenen Frauen wollen viele nicht, dass man das merkt – sie schlafen auf Sofas von Bekannten, sitzen nachts im 24-Stunden-Café. Unterwegs mit zwei von ihnen in Berlin.",
@@ -887,59 +877,297 @@
     ],
     "Sport": [
       {
-        "id": "https://www.kicker.de/karlsson-gewinnt-auftakt-in-ruka-hennig-dotzler-mit-mehr-ps-1170354/artikel#omrss",
-        "title": "Karlsson gewinnt Auftakt in Ruka - Hennig Dotzler mit \"mehr PS\"",
-        "summary": "Frida Karlsson hat das erste Weltcup-Rennen in dieser Langlauf-Saison gewonnen. Hinter der erfolgreichen Schwedin reihten sich einige Landsfrauen ein - der DSV kann auf ein gutes Team-Ergebnis verweisen.",
+        "id": "https://www.kicker.de/glasner-fordert-neuen-stuermer-fuer-crystal-palace-1170438/artikel#omrss",
+        "title": "Glasner fordert neuen Stürmer für Crystal Palace",
+        "summary": "Oliver Glasner sagt klar und deutlich \"Ja\" zu einem neuen Stürmer und lächelnd \"Nein\" zum Weihnachtsstress. Nur davor und danach gibt es mächtig viel zu tun für Crystal Palace.",
         "paragraphs": [
-          "Frida Karlsson hat das erste Weltcup-Rennen in dieser Langlauf-Saison gewonnen. Hinter der erfolgreichen Schwedin reihten sich einige Landsfrauen ein - der DSV kann auf ein gutes Team-Ergebnis verweisen."
+          "Oliver Glasner sagt klar und deutlich \"Ja\" zu einem neuen Stürmer und lächelnd \"Nein\" zum Weihnachtsstress. Nur davor und danach gibt es mächtig viel zu tun für Crystal Palace."
         ],
-        "link": "https://www.kicker.de/karlsson-gewinnt-auftakt-in-ruka-hennig-dotzler-mit-mehr-ps-1170354/artikel#omrss",
+        "link": "https://www.kicker.de/glasner-fordert-neuen-stuermer-fuer-crystal-palace-1170438/artikel#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-28T13:48:33.000Z"
+        "publishedAt": "2025-11-28T15:35:41.000Z"
       },
       {
-        "id": "er.e684541",
+        "id": "https://www.kicker.de/loewen-holen-youngster-edigin-aus-tschechien-1170432/artikel#omrss",
+        "title": "Löwen holen Youngster Edigin aus Tschechien",
+        "summary": "Die Löwen Braunschweig haben noch einmal einen deutschen Spieler verpflichtet. Aus Tschechien kommt Esli Edigin nach Niedersachsen.",
+        "paragraphs": [
+          "Die Löwen Braunschweig haben noch einmal einen deutschen Spieler verpflichtet. Aus Tschechien kommt Esli Edigin nach Niedersachsen."
+        ],
+        "link": "https://www.kicker.de/loewen-holen-youngster-edigin-aus-tschechien-1170432/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T15:29:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/absurde-aufholjagd-im-video-litauen-mit-neun-punkten-in-9-8-sekunden-1170404/video#omrss",
+        "title": "Absurde Aufholjagd im Video: Litauen mit neun Punkten in 9,8 Sekunden",
+        "summary": "Litauen lag 9,8 Sekunden vor Schluss noch mit sieben Punkten zurück. Was dann passierte, ist eine historische Aufholjagd in Person von Ignas Sargiunas.",
+        "paragraphs": [
+          "Litauen lag 9,8 Sekunden vor Schluss noch mit sieben Punkten zurück. Was dann passierte, ist eine historische Aufholjagd in Person von Ignas Sargiunas."
+        ],
+        "link": "https://www.kicker.de/absurde-aufholjagd-im-video-litauen-mit-neun-punkten-in-9-8-sekunden-1170404/video#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T15:28:12.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/probleme-am-hinteren-oberschenkel-stock-fehlt-hansa-langfristig-1170426/artikel#omrss",
+        "title": "Probleme am hinteren Oberschenkel: Stock fehlt Hansa langfristig",
+        "summary": "Der FC Hansa Rostock muss in den kommenden Wochen auf die Dienste von Paul Stock verzichten. Der 28-Jährige hat sich am Oberschenkel verletzt und fällt langfristig aus.",
+        "paragraphs": [
+          "Der FC Hansa Rostock muss in den kommenden Wochen auf die Dienste von Paul Stock verzichten. Der 28-Jährige hat sich am Oberschenkel verletzt und fällt langfristig aus."
+        ],
+        "link": "https://www.kicker.de/probleme-am-hinteren-oberschenkel-stock-fehlt-hansa-langfristig-1170426/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T15:21:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/pruefstein-fuer-den-dbb-was-israel-fuer-den-quali-start-so-gefaehrlich-macht-1170242/artikel#omrss",
+        "title": "Prüfstein für den DBB? Was Israel für den Quali-Start so gefährlich macht",
+        "summary": "Israel reist mit einer schwierigen Vorbereitung, politisch bedingten Sonderumständen und einem spät zusammenkommenden Kader nach Neu-Ulm. Trotzdem verfügt das Team über individuelle Qualität, die den Quali-Auftakt für Deutschland zu einer echten Prüfung machen könnten.",
+        "paragraphs": [
+          "Israel reist mit einer schwierigen Vorbereitung, politisch bedingten Sonderumständen und einem spät zusammenkommenden Kader nach Neu-Ulm. Trotzdem verfügt das Team über individuelle Qualität, die den Quali-Auftakt für Deutschland zu einer echten Prüfung machen könnten."
+        ],
+        "link": "https://www.kicker.de/pruefstein-fuer-den-dbb-was-israel-fuer-den-quali-start-so-gefaehrlich-macht-1170242/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T15:14:55.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/vorm-bvb-kracher-bayers-wunsch-nach-bestaetigung-1170396/artikel#omrss",
+        "title": "Vorm BVB-Kracher: Bayers Wunsch nach Bestätigung",
+        "summary": "Beim 2:0-Sieg bei ManCity zeigte Bayer 04 seine erste überzeugende Leistung gegen ein Top-Team in dieser Saison. In den Duellen gegen den BVB geht es jetzt um die Bestätigung, dass das Zeichen vom Dienstag für einen klaren Trend steht.",
+        "paragraphs": [
+          "Beim 2:0-Sieg bei ManCity zeigte Bayer 04 seine erste überzeugende Leistung gegen ein Top-Team in dieser Saison. In den Duellen gegen den BVB geht es jetzt um die Bestätigung, dass das Zeichen vom Dienstag für einen klaren Trend steht."
+        ],
+        "link": "https://www.kicker.de/vorm-bvb-kracher-bayers-wunsch-nach-bestaetigung-1170396/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T15:14:08.000Z"
+      },
+      {
+        "id": "li.3346260",
+        "title": "Österreichische Bundesliga: Peter Stöger bei Rapid entlassen",
+        "summary": "Keine weiteren Details verfügbar.",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/sport/peter-stoeger-rapid-wien-entlassung-li.3346260",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-28T15:12:10.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/investor-springt-ab-freaks-4u-meldet-insolvenz-an-1170400/artikel#omrss",
+        "title": "Investor springt ab: Freaks 4U meldet Insolvenz an",
+        "summary": "Freaks 4U Gaming steht vor dem Aus: Nachdem sich die indische Mutterfirma Nodwin von dem Projekt zurückgezogen hatte, stellte die Agentur und Produktionsfirma Antrag auf ein Insolvenzverfahren.",
+        "paragraphs": [
+          "Freaks 4U Gaming steht vor dem Aus: Nachdem sich die indische Mutterfirma Nodwin von dem Projekt zurückgezogen hatte, stellte die Agentur und Produktionsfirma Antrag auf ein Insolvenzverfahren."
+        ],
+        "link": "https://www.kicker.de/investor-springt-ab-freaks-4u-meldet-insolvenz-an-1170400/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T15:12:06.000Z"
+      },
+      {
+        "id": "li.3346261",
+        "title": "Fußball-WM: Iranische Delegation boykottiert Auslosung",
+        "summary": "Keine weiteren Details verfügbar.",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/sport/fussball-wm-auslosung-iran-boykott-li.3346261",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-28T15:02:26.000Z"
+      },
+      {
+        "id": "er.e242449",
         "title": "Die Fußballgötter: Schnell schießt keine Tore",
         "summary": "Beim FC St. Pauli haben sie einen rasanten Kicker. Aber trifft er gegen Bayern auch mal?",
         "paragraphs": [
           "Beim FC St. Pauli haben sie einen rasanten Kicker. Aber trifft er gegen Bayern auch mal?"
         ],
-        "link": "https://www.sueddeutsche.de/projekte/artikel/sport/comic-fussballgoetter-st-paul-fc-bayern-e684541/",
+        "link": "https://www.sueddeutsche.de/projekte/artikel/sport/comic-fussballgoetter-fc-st-pauli-bundesliga-fussball-e242449/",
         "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-28T13:40:00.000Z"
+        "publishedAt": "2025-11-28T15:02:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/auf-meiner-werder-festplatte-ist-noch-platz-pieper-verlaengert-in-bremen-1170419/artikel#omrss",
+        "title": "\"Auf meiner Werder-Festplatte ist noch Platz\": Pieper verlängert in Bremen",
+        "summary": "Nach der Hüftverletzung, die ihn zu Saisonbeginn ausgebremst hatte, sammelte Amos Pieper zuletzt dicke Argumente für eine Weiterbeschäftigung in Bremen. Am Freitag verlängerten der SV Werder und der 27-Jährige den auslaufenden Vertrag.",
+        "paragraphs": [
+          "Nach der Hüftverletzung, die ihn zu Saisonbeginn ausgebremst hatte, sammelte Amos Pieper zuletzt dicke Argumente für eine Weiterbeschäftigung in Bremen. Am Freitag verlängerten der SV Werder und der 27-Jährige den auslaufenden Vertrag."
+        ],
+        "link": "https://www.kicker.de/auf-meiner-werder-festplatte-ist-noch-platz-pieper-verlaengert-in-bremen-1170419/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T14:58:28.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/noko-auftakt-in-kuusamo-schmid-knapp-hinter-lamparter-zweiter-1169895/artikel#omrss",
+        "title": "NoKo-Auftakt in Kuusamo: Schmid knapp hinter Lamparter Zweiter",
+        "summary": "Das erste Kräftemessen der Nordischen Kombinierer ist in den Büchern. Julian Schmid hat den deutschen Kombinierern gleich beim Saisonauftakt als Zweiter den ersten Podestplatz beschert.",
+        "paragraphs": [
+          "Das erste Kräftemessen der Nordischen Kombinierer ist in den Büchern. Julian Schmid hat den deutschen Kombinierern gleich beim Saisonauftakt als Zweiter den ersten Podestplatz beschert."
+        ],
+        "link": "https://www.kicker.de/noko-auftakt-in-kuusamo-schmid-knapp-hinter-lamparter-zweiter-1169895/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T14:54:17.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/deutschland-nun-offiziell-interessent-fuer-olympia-austragung-1170422/artikel#omrss",
+        "title": "Deutschland nun offiziell Interessent für Olympia-Austragung",
+        "summary": "Deutschland macht im Bewerbungsprozess um die Austragung Olympischer und Paralympischer Spiele den nächsten Schritt. Der Deutsche Olympische Sportbund tritt in Gespräche mit dem IOC ein.",
+        "paragraphs": [
+          "Deutschland macht im Bewerbungsprozess um die Austragung Olympischer und Paralympischer Spiele den nächsten Schritt. Der Deutsche Olympische Sportbund tritt in Gespräche mit dem IOC ein."
+        ],
+        "link": "https://www.kicker.de/deutschland-nun-offiziell-interessent-fuer-olympia-austragung-1170422/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T14:49:57.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nach-kontrolle-stoppschild-fuer-elfadli-1170408/artikel#omrss",
+        "title": "Nach Kontrolle: Stoppschild für Elfadli",
+        "summary": "Zu Beginn der Trainingswoche hatte Merlin Polzin noch leise Hoffnung auf womöglich sogar zwei Comebacks, am Freitag aber stellte Hamburgs Trainer klar: Mindestens am Sonntag gegen den VfB Stuttgart muss er noch auf Daniel Elfadli und Yussuf Poulsen verzichten.",
+        "paragraphs": [
+          "Zu Beginn der Trainingswoche hatte Merlin Polzin noch leise Hoffnung auf womöglich sogar zwei Comebacks, am Freitag aber stellte Hamburgs Trainer klar: Mindestens am Sonntag gegen den VfB Stuttgart muss er noch auf Daniel Elfadli und Yussuf Poulsen verzichten."
+        ],
+        "link": "https://www.kicker.de/nach-kontrolle-stoppschild-fuer-elfadli-1170408/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T14:49:46.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/flick-teilt-gegen-experten-aus-haben-keine-ahnung-wie-wir-spielen-wollen-1170421/video#omrss",
+        "title": "Flick teilt gegen Experten aus: \"Haben keine Ahnung, wie wir spielen wollen\"",
+        "summary": "Nach der 0:3-Niederlage gegen Chelsea verteidigte Hansi Flick Barcelonas Spielweise und richtete sich an die Experten, die keine Ahnung hätten, wie seine Mannschaft spielen will.",
+        "paragraphs": [
+          "Nach der 0:3-Niederlage gegen Chelsea verteidigte Hansi Flick Barcelonas Spielweise und richtete sich an die Experten, die keine Ahnung hätten, wie seine Mannschaft spielen will."
+        ],
+        "link": "https://www.kicker.de/flick-teilt-gegen-experten-aus-haben-keine-ahnung-wie-wir-spielen-wollen-1170421/video#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T14:43:50.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wolfsburg-kein-lebloser-haufen-bauer-vor-naechster-herkules-aufgabe-1170386/artikel#omrss",
+        "title": "Wolfsburg \"kein lebloser Haufen\" - Bauer vor nächster Herkules-Aufgabe",
+        "summary": "VfL-Interimstrainer Daniel Bauer will Selbstvertrauen und Zuversicht verbreiten. Dafür liefert der selbstbewusste Coach Argumente und spricht über seine persönliche Zukunft.",
+        "paragraphs": [
+          "VfL-Interimstrainer Daniel Bauer will Selbstvertrauen und Zuversicht verbreiten. Dafür liefert der selbstbewusste Coach Argumente und spricht über seine persönliche Zukunft."
+        ],
+        "link": "https://www.kicker.de/wolfsburg-kein-lebloser-haufen-bauer-vor-naechster-herkules-aufgabe-1170386/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T14:40:49.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kohfeldt-freut-sich-auf-ein-ziemlich-geiles-spiel-1170409/artikel#omrss",
+        "title": "Kohfeldt freut sich auf \"ein ziemlich geiles Spiel\"",
+        "summary": "Vergangene Saison verlor der SV Darmstadt 98 beide Spiele gegen Elversberg. Das wollen die Lilien nun besser machen. Der Coach ist voller Vorfreude auf die Partie und kann voraussichtlich aus dem Vollen schöpfen.",
+        "paragraphs": [
+          "Vergangene Saison verlor der SV Darmstadt 98 beide Spiele gegen Elversberg. Das wollen die Lilien nun besser machen. Der Coach ist voller Vorfreude auf die Partie und kann voraussichtlich aus dem Vollen schöpfen."
+        ],
+        "link": "https://www.kicker.de/kohfeldt-freut-sich-auf-ein-ziemlich-geiles-spiel-1170409/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T14:38:08.000Z"
+      },
+      {
+        "id": "li.3345523",
+        "title": "Startrecht bei Olympischen Spielen: In der Transgender-Frage hat Trump einfach recht",
+        "summary": "Das Thema ist kompliziert und sensibel, am Ende ist die Haltung des US-Präsidenten in diesem Fall aber richtig: Trans Sportler sollten bei Frauenwettbewerben von Olympischen Spielen nicht starten dürfen.",
+        "paragraphs": [
+          "Das Thema ist kompliziert und sensibel, am Ende ist die Haltung des US-Präsidenten in diesem Fall aber richtig: Trans Sportler sollten bei Frauenwettbewerben von Olympischen Spielen nicht starten dürfen."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/donald-trump-ioc-kirsty-coventry-imane-khelif-kommentar-li.3345523",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-28T14:34:06.000Z"
       },
       {
         "id": "https://www.kicker.de/grand-prix-von-katar-2025/1169934/formel1-rennbericht#omrss",
-        "title": "LIVE! Auftakt für Norris und Co.",
-        "summary": "Das vorletzte Rennen der Formel 1 steht an. Inklusive Sprint. Lando Norris könnte sich vorzeitig zum Champion küren.",
+        "title": "Piastri vor Norris - Hamilton tut sich schwer",
+        "summary": "Das vorletzte Rennen der Formel 1 steht an. Inklusive Sprint. Lando Norris könnte sich vorzeitig zum Champion küren. Sein Teamkollege Oscar Piastri aber hatte im Freien Training die Nase vorne.",
         "paragraphs": [
-          "Das vorletzte Rennen der Formel 1 steht an. Inklusive Sprint. Lando Norris könnte sich vorzeitig zum Champion küren."
+          "Das vorletzte Rennen der Formel 1 steht an. Inklusive Sprint. Lando Norris könnte sich vorzeitig zum Champion küren. Sein Teamkollege Oscar Piastri aber hatte im Freien Training die Nase vorne."
         ],
         "link": "https://www.kicker.de/grand-prix-von-katar-2025/1169934/formel1-rennbericht#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-28T13:23:56.000Z"
+        "publishedAt": "2025-11-28T14:34:04.000Z"
       },
       {
-        "id": "https://www.kicker.de/warum-ludwigsburgs-hoehenflug-absurd-wirkt-und-trotzdem-erklaerbar-ist-1169579/artikel#omrss",
-        "title": "Warum Ludwigsburgs Höhenflug absurd wirkt - und trotzdem erklärbar ist",
-        "summary": "Die MHP RIESEN Ludwigsburg gehen mit vier Siegen in Serie in die Länderspielpause. Trotz schwachem Start, fehlender Spielmacher und miserabler Quoten. Doch was steckt hinter dem unerwarteten Höhenflug? Ein Blick auf die Identität, Mentalität, Veteranen und neue Rituale.",
+        "id": "https://www.kicker.de/nach-zehenbruch-maresca-bestaetigt-vorzeitiges-palmer-comeback-1170399/artikel#omrss",
+        "title": "Nach Zehenbruch: Maresca bestätigt vorzeitiges Palmer-Comeback",
+        "summary": "Cole Palmer hat in der aktuellen Premier-League-Spielzeit erst drei Partien absolviert. Der Star des FC Chelsea fehlte erst mit Leistenproblemen und brach sich dann den kleinen Zeh. Jetzt steht er rechtzeitig zum Topspiel gegen Arsenal vor dem Comeback.",
         "paragraphs": [
-          "Die MHP RIESEN Ludwigsburg gehen mit vier Siegen in Serie in die Länderspielpause. Trotz schwachem Start, fehlender Spielmacher und miserabler Quoten. Doch was steckt hinter dem unerwarteten Höhenflug? Ein Blick auf die Identität, Mentalität, Veteranen und neue Rituale."
+          "Cole Palmer hat in der aktuellen Premier-League-Spielzeit erst drei Partien absolviert. Der Star des FC Chelsea fehlte erst mit Leistenproblemen und brach sich dann den kleinen Zeh. Jetzt steht er rechtzeitig zum Topspiel gegen Arsenal vor dem Comeback."
         ],
-        "link": "https://www.kicker.de/warum-ludwigsburgs-hoehenflug-absurd-wirkt-und-trotzdem-erklaerbar-ist-1169579/artikel#omrss",
+        "link": "https://www.kicker.de/nach-zehenbruch-maresca-bestaetigt-vorzeitiges-palmer-comeback-1170399/artikel#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-28T13:20:00.000Z"
+        "publishedAt": "2025-11-28T14:29:51.000Z"
       },
       {
-        "id": "https://www.kicker.de/flick-droht-mit-einem-trio-und-fordert-den-trainings-modus-1170360/artikel#omrss",
-        "title": "Flick \"droht\" mit einem Trio - und fordert den \"Trainings-Modus\"",
-        "summary": "Der FC Barcelona will nach dem 0:3 in London unter der Woche schnell zurück in die Erfolgsspur finden. Für das Heimspiel gegen Alaves versprüht Trainer Hansi Flick schon wieder Optimismus.",
+        "id": "li.3322967",
+        "title": "Slalom, Super-G und Abfahrt: Ski Alpin Kalender 2025/26: Alle Weltcup-Rennen im Überblick",
+        "summary": "42 Rennen fahren die Frauen und Männer in der Ski-Alpin-Saison 2025/26. Wann und wo welcher Wettbewerb stattfindet, erfahren Sie in unserer Übersicht.",
         "paragraphs": [
-          "Der FC Barcelona will nach dem 0:3 in London unter der Woche schnell zurück in die Erfolgsspur finden. Für das Heimspiel gegen Alaves versprüht Trainer Hansi Flick schon wieder Optimismus."
+          "42 Rennen fahren die Frauen und Männer in der Ski-Alpin-Saison 2025/26. Wann und wo welcher Wettbewerb stattfindet, erfahren Sie in unserer Übersicht."
         ],
-        "link": "https://www.kicker.de/flick-droht-mit-einem-trio-und-fordert-den-trainings-modus-1170360/artikel#omrss",
+        "link": "https://www.sueddeutsche.de/sport/ski-alpin-kalender-saison-2025-26-rennen-weltcup-uebersicht-li.3322967",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-28T14:26:00.000Z"
+      },
+      {
+        "id": "li.3345999",
+        "title": "Tischtennis: Eine Kleinstadt will den chinesischen Markt erobern",
+        "summary": "Der TSV Bad Königshofen, aktuell Tabellenletzter der Bundesliga, meldet die Verpflichtung eines chinesischen Nationalspielers. Xue Fei soll den Klassenverbleib sichern – und dem 6000-Einwohner-Städtchen Chancen eröffnen.",
+        "paragraphs": [
+          "Der TSV Bad Königshofen, aktuell Tabellenletzter der Bundesliga, meldet die Verpflichtung eines chinesischen Nationalspielers. Xue Fei soll den Klassenverbleib sichern – und dem 6000-Einwohner-Städtchen Chancen eröffnen."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/tischtennis-china-bad-koenigshofen-xue-verpflichtung-li.3345999",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-28T14:25:45.000Z"
+      },
+      {
+        "id": "li.3345697",
+        "title": "Dreikampf um den Formel-1-Titel: Ausgangslage: explosiv",
+        "summary": "Beim Grand Prix von Katar kann sich Lando Norris erstmals zum Formel-1-Weltmeister krönen. Allerdings sitzt ihm nicht nur sein Teamkollege im Nacken – sondern auch Titelverteidiger Max Verstappen, der Mann mit dem kältesten Blut.",
+        "paragraphs": [
+          "Beim Grand Prix von Katar kann sich Lando Norris erstmals zum Formel-1-Weltmeister krönen. Allerdings sitzt ihm nicht nur sein Teamkollege im Nacken – sondern auch Titelverteidiger Max Verstappen, der Mann mit dem kältesten Blut."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/formel-1-katar-verstappen-norris-piastri-dreikampf-li.3345697",
+        "source": "Süddeutsche Zeitung Sport",
+        "publishedAt": "2025-11-28T14:24:48.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/entscheidung-gefallen-ulm-sieht-von-nachverpflichtung-von-tibor-pleiss-ab-1170365/artikel#omrss",
+        "title": "Entscheidung gefallen: Ulm sieht von Nachverpflichtung von Tibor Pleiß ab",
+        "summary": "Infolge der vielen Verletzungen verpflichtete ratiopharm Ulm erst jüngst Allrounder Justin Simon nach. Zu einer weiteren Verstärkung soll es indes nicht mehr kommen.",
+        "paragraphs": [
+          "Infolge der vielen Verletzungen verpflichtete ratiopharm Ulm erst jüngst Allrounder Justin Simon nach. Zu einer weiteren Verstärkung soll es indes nicht mehr kommen."
+        ],
+        "link": "https://www.kicker.de/entscheidung-gefallen-ulm-sieht-von-nachverpflichtung-von-tibor-pleiss-ab-1170365/artikel#omrss",
         "source": "kicker",
-        "publishedAt": "2025-11-28T13:16:46.000Z"
+        "publishedAt": "2025-11-28T14:24:46.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/hoffenheims-hlozek-wieder-fit-1170412/artikel#omrss",
+        "title": "Hoffenheims Hlozek wieder fit",
+        "summary": "Die grundsätzliche Strategie von Hoffenheims Trainer Christian Ilzer zeigt einige Parallelen zu dem Ansatz, den sein Augsburger Kollege Sandro Wagner beim FCA verfolgt.",
+        "paragraphs": [
+          "Die grundsätzliche Strategie von Hoffenheims Trainer Christian Ilzer zeigt einige Parallelen zu dem Ansatz, den sein Augsburger Kollege Sandro Wagner beim FCA verfolgt."
+        ],
+        "link": "https://www.kicker.de/hoffenheims-hlozek-wieder-fit-1170412/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T14:16:45.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/henriksens-analyse-zu-viel-angst-1170411/artikel#omrss",
+        "title": "Henriksens Analyse: \"Zu viel Angst\"",
+        "summary": "Für Mainz geht es weiter Schlag auf Schlag. Mit Blick auf die Spiele, aber auch hinsichtlich der Personalprobleme.",
+        "paragraphs": [
+          "Für Mainz geht es weiter Schlag auf Schlag. Mit Blick auf die Spiele, aber auch hinsichtlich der Personalprobleme."
+        ],
+        "link": "https://www.kicker.de/henriksens-analyse-zu-viel-angst-1170411/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T14:16:39.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-springen-der-frauen-bieten-schmid-co-maruyama-paroli-1169907/artikel#omrss",
+        "title": "LIVE! Springen der Frauen: Bieten Schmid & Co. Maruyama Paroli?",
+        "summary": "Nozomi Maruyama legte einen starken Saisonstart hin und gewann beide Wettbewerbe in Lillehammer. Auch in Falun springen die Frauen von der Großschanze - wie schlagen sich die deutschen Athletinnen um Katharina Schmid?",
+        "paragraphs": [
+          "Nozomi Maruyama legte einen starken Saisonstart hin und gewann beide Wettbewerbe in Lillehammer. Auch in Falun springen die Frauen von der Großschanze - wie schlagen sich die deutschen Athletinnen um Katharina Schmid?"
+        ],
+        "link": "https://www.kicker.de/live-springen-der-frauen-bieten-schmid-co-maruyama-paroli-1169907/artikel#omrss",
+        "source": "kicker",
+        "publishedAt": "2025-11-28T14:11:08.000Z"
       },
       {
         "id": "li.3345897",
@@ -948,24 +1176,13 @@
         "paragraphs": [
           "Fast zwei Jahre nach seinem schweren Sturz feiert Aleksander Aamodt Kilde ein emotionales Comeback beim Super-G in den USA. Seine Verlobte Mikaela Shiffrin wird von Rührung überwältigt."
         ],
-        "link": "https://www.sueddeutsche.de/sport/ski-kilde-comeback-emotionen-shiffrin-sturz-li.3345897",
+        "link": "https://www.sueddeutsche.de/sport/ski-alpin-kilde-comeback-emotionen-shiffrin-sturz-li.3345897",
         "source": "Süddeutsche Zeitung Sport",
         "publishedAt": "2025-11-28T12:45:48.000Z"
       },
       {
-        "id": "https://www.kicker.de/van-persie-nach-profi-debuet-des-sohnes-ich-bin-stolz-1170363/artikel#omrss",
-        "title": "Van Persie nach Profi-Debüt des Sohnes: \"Ich bin stolz\"",
-        "summary": "Robin van Persie steckt mit Feyenoord Rotterdam nach der Niederlage gegen Celtic Glasgow ordentlich in der Krise. Grund für ein wenig Freude gab es aber dennoch: Denn Shaquel van Persie feierte im Spiel sein Profi-Debüt unter seinem Vater.",
-        "paragraphs": [
-          "Robin van Persie steckt mit Feyenoord Rotterdam nach der Niederlage gegen Celtic Glasgow ordentlich in der Krise. Grund für ein wenig Freude gab es aber dennoch: Denn Shaquel van Persie feierte im Spiel sein Profi-Debüt unter seinem Vater."
-        ],
-        "link": "https://www.kicker.de/van-persie-nach-profi-debuet-des-sohnes-ich-bin-stolz-1170363/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T12:43:03.000Z"
-      },
-      {
         "id": "li.3345699",
-        "title": "Krise des FC St. Pauli: Kaderumbau mit Folgeeffekten",
+        "title": "Krise des FC St. Pauli: Erst umgebaut, dann abgebaut",
         "summary": "Acht Niederlagen in Serie: Der FC St. Pauli befindet sich in der schwächsten Episode seiner Bundesligageschichte. Die Verantwortlichen müssen sich die Frage stellen, ob die Personalentscheidungen im Sommer wirklich nötig waren.",
         "paragraphs": [
           "Acht Niederlagen in Serie: Der FC St. Pauli befindet sich in der schwächsten Episode seiner Bundesligageschichte. Die Verantwortlichen müssen sich die Frage stellen, ob die Personalentscheidungen im Sommer wirklich nötig waren."
@@ -973,105 +1190,6 @@
         "link": "https://www.sueddeutsche.de/sport/st-pauli-krise-bundesliga-analyse-bayern-li.3345699",
         "source": "Süddeutsche Zeitung Sport",
         "publishedAt": "2025-11-28T12:31:11.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kovac-zoegert-noch-bei-brandt-und-formuliert-einen-wunsch-bei-anselmino-1170359/artikel#omrss",
-        "title": "Kovac zögert noch bei Brandt - und formuliert einen Wunsch bei Anselmino",
-        "summary": "Vor dem Schlagerspiel in Leverkusen gab sich Niko Kovac ausgesprochen locker. Ein Fragezeichen hinterließ der BVB-Coach bei Maximilian Beier und Julian Brandt, für Aaron Anselmino formulierte er derweil einen Wunsch.",
-        "paragraphs": [
-          "Vor dem Schlagerspiel in Leverkusen gab sich Niko Kovac ausgesprochen locker. Ein Fragezeichen hinterließ der BVB-Coach bei Maximilian Beier und Julian Brandt, für Aaron Anselmino formulierte er derweil einen Wunsch."
-        ],
-        "link": "https://www.kicker.de/kovac-zoegert-noch-bei-brandt-und-formuliert-einen-wunsch-bei-anselmino-1170359/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T12:29:27.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-noko-auftakt-in-kuusamo-mach-und-schmid-vorn-dabei-1169895/artikel#omrss",
-        "title": "LIVE! NoKo-Auftakt in Kuusamo: Mach und Schmid vorn dabei",
-        "summary": "Schon seit November 2002 ist Kuusamo Schauplatz des ersten Weltcup-Wettbewerbs der Nordischen Kombinierer. Auch in diesem Winter erfolgt das erste Kräftemessen der Nordischen Kombinierer im finnischen Wintersportzentrum. Noch ohne den verletzten Gesamt-Weltcup-Sieger Vinzenz Geiger ruhen die deutschen Hoffnungen auch auf Julian Schmid.",
-        "paragraphs": [
-          "Schon seit November 2002 ist Kuusamo Schauplatz des ersten Weltcup-Wettbewerbs der Nordischen Kombinierer. Auch in diesem Winter erfolgt das erste Kräftemessen der Nordischen Kombinierer im finnischen Wintersportzentrum. Noch ohne den verletzten Gesamt-Weltcup-Sieger Vinzenz Geiger ruhen die deutschen Hoffnungen auch auf Julian Schmid."
-        ],
-        "link": "https://www.kicker.de/live-noko-auftakt-in-kuusamo-mach-und-schmid-vorn-dabei-1169895/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T12:16:42.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/das-ist-verrueckt-fc-26-ikonen-kassieren-abwertungen-durch-upgrade-1170312/artikel#omrss",
-        "title": "\"Das ist verrückt\": FC-26-Ikonen kassieren Abwertungen durch Upgrade",
-        "summary": "Pünktlich zum Black Friday standen FC 26 Aufwertungen einiger Legenden ins Haus. Nach Veröffentlichung der angepassten Werte staunten die Besitzer der Vorbesteller-Boni nicht schlecht: allerdings aus den falschen Gründen.",
-        "paragraphs": [
-          "Pünktlich zum Black Friday standen FC 26 Aufwertungen einiger Legenden ins Haus. Nach Veröffentlichung der angepassten Werte staunten die Besitzer der Vorbesteller-Boni nicht schlecht: allerdings aus den falschen Gründen."
-        ],
-        "link": "https://www.kicker.de/das-ist-verrueckt-fc-26-ikonen-kassieren-abwertungen-durch-upgrade-1170312/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T12:10:40.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ein-anderer-zug-im-training-kapitaen-sonnenberg-glaubt-an-die-trendwende-1170349/artikel#omrss",
-        "title": "\"Ein anderer Zug im Training\": Kapitän Sonnenberg glaubt an die Trendwende",
-        "summary": "Der 1. FC Saarbrücken kommt aktuell nicht zur Ruhe. Jetzt soll die Trainerentlassung von Alois Schwartz den entscheidenden Impuls geben. Kapitän Sven Sonnenberg nimmt schon erste Verbesserungen wahr - er mahnt aber gleichzeitig zur Vorsicht.",
-        "paragraphs": [
-          "Der 1. FC Saarbrücken kommt aktuell nicht zur Ruhe. Jetzt soll die Trainerentlassung von Alois Schwartz den entscheidenden Impuls geben. Kapitän Sven Sonnenberg nimmt schon erste Verbesserungen wahr - er mahnt aber gleichzeitig zur Vorsicht."
-        ],
-        "link": "https://www.kicker.de/ein-anderer-zug-im-training-kapitaen-sonnenberg-glaubt-an-die-trendwende-1170349/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T11:57:01.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/trotz-hoher-ausgaben-im-sommer-warum-kiel-nicht-in-tritt-kommt-1170353/artikel#omrss",
-        "title": "Trotz hoher Ausgaben im Sommer: Warum Kiel nicht in Tritt kommt",
-        "summary": "Die neue Folge kicker Daily!",
-        "paragraphs": [
-          "Die neue Folge kicker Daily!"
-        ],
-        "link": "https://www.kicker.de/trotz-hoher-ausgaben-im-sommer-warum-kiel-nicht-in-tritt-kommt-1170353/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T11:42:58.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/tut-extrem-weh-der-irrtum-der-frankfurt-gerade-auf-die-fuesse-faellt-1170352/artikel#omrss",
-        "title": "\"Tut extrem weh\": Der Irrtum, der Frankfurt gerade auf die Füße fällt",
-        "summary": "Die neue Folge kicker Daily!",
-        "paragraphs": [
-          "Die neue Folge kicker Daily!"
-        ],
-        "link": "https://www.kicker.de/tut-extrem-weh-der-irrtum-der-frankfurt-gerade-auf-die-fuesse-faellt-1170352/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T11:42:02.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/noch-nie-gehoert-kompany-lernt-das-wort-weltpokalsiegerbesieger-1170361/video#omrss",
-        "title": "\"Noch nie gehört\": Kompany lernt das Wort \"Weltpokalsiegerbesieger\"",
-        "summary": "Vincent Kompany lernt vor dem Spiel gegen den FC St. Pauli das Wort \"Weltpokalsiegerbesieger\" und erklärt, keine Pokale verschenken zu wollen.",
-        "paragraphs": [
-          "Vincent Kompany lernt vor dem Spiel gegen den FC St. Pauli das Wort \"Weltpokalsiegerbesieger\" und erklärt, keine Pokale verschenken zu wollen."
-        ],
-        "link": "https://www.kicker.de/noch-nie-gehoert-kompany-lernt-das-wort-weltpokalsiegerbesieger-1170361/video#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T11:40:16.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/trainerbeben-in-huetteldorf-rapid-trennt-sich-von-stoeger-1170362/artikel#omrss",
-        "title": "Trainerbeben in Hütteldorf: Rapid trennt sich von Stöger",
-        "summary": "Einen Tag nach dem Debakel gegen Rakow Tschenstochau in der Conference League hat Rapid Wien die Trennung von Trainer Peter Stöger und seinem Assistenten Thomas Sageder bekanntgegeben.",
-        "paragraphs": [
-          "Einen Tag nach dem Debakel gegen Rakow Tschenstochau in der Conference League hat Rapid Wien die Trennung von Trainer Peter Stöger und seinem Assistenten Thomas Sageder bekanntgegeben."
-        ],
-        "link": "https://www.kicker.de/trainerbeben-in-huetteldorf-rapid-trennt-sich-von-stoeger-1170362/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T11:38:36.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/herbert-kehrt-nach-erkrankung-zurueck-1170182/artikel#omrss",
-        "title": "Herbert kehrt nach Erkrankung zurück",
-        "summary": "Zwei Wochen lang war es ruhig um den erkrankten Bayern-Trainer Gordon Herbert gewesen. Nun ist der Weltmeister-Coach wieder zurück. Co-Trainer TJ Parker verabschiedet sich hingegen.",
-        "paragraphs": [
-          "Zwei Wochen lang war es ruhig um den erkrankten Bayern-Trainer Gordon Herbert gewesen. Nun ist der Weltmeister-Coach wieder zurück. Co-Trainer TJ Parker verabschiedet sich hingegen."
-        ],
-        "link": "https://www.kicker.de/herbert-kehrt-nach-erkrankung-zurueck-1170182/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T11:36:50.000Z"
       },
       {
         "id": "li.3345704",
@@ -1083,138 +1201,6 @@
         "link": "https://www.sueddeutsche.de/sport/bundesliga-leverkusen-maza-bvb-lob-guardiola-li.3345704",
         "source": "Süddeutsche Zeitung Sport",
         "publishedAt": "2025-11-28T11:25:56.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/pause-kommt-wie-gerufen-barloschky-setzt-auf-reset-im-abstiegskampf-1170350/artikel#omrss",
-        "title": "\"Pause kommt wie gerufen\": Barloschky setzt auf Reset im Abstiegskampf",
-        "summary": "Die Veolia Hamburg Towers wollen die Nationalmannschaftspause nutzen, um nach einem komplett misslungenen Saisonstart einen Neuanfang einzuleiten. Cheftrainer Benka Barloschky spricht im Interview offen über verpasste Vorstellungen, harte Trainingsarbeit - und darüber, wie das Team den Weg aus dem Tabellenkeller finden soll.",
-        "paragraphs": [
-          "Die Veolia Hamburg Towers wollen die Nationalmannschaftspause nutzen, um nach einem komplett misslungenen Saisonstart einen Neuanfang einzuleiten. Cheftrainer Benka Barloschky spricht im Interview offen über verpasste Vorstellungen, harte Trainingsarbeit - und darüber, wie das Team den Weg aus dem Tabellenkeller finden soll."
-        ],
-        "link": "https://www.kicker.de/pause-kommt-wie-gerufen-barloschky-setzt-auf-reset-im-abstiegskampf-1170350/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T11:20:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wollen-ans-regionalliga-tor-klopfen-erlbach-verlaengert-mit-ex-profi-lechner-und-co-trainer-1170346/artikel#omrss",
-        "title": "\"Wollen ans Regionalliga-Tor klopfen\": Erlbach verlängert mit Ex-Profi Lechner und Co-Trainer",
-        "summary": "Trainer Lukas Lechner und sein spielender Co-Trainer Maximilian Sammereier werden auch über diese Saison hinaus die Bayernligamannschaft des SV Erlbach betreuen. Das Duo hat seine auslaufenden Verträge trotz anderer Angebote frühzeitig verlängert.",
-        "paragraphs": [
-          "Trainer Lukas Lechner und sein spielender Co-Trainer Maximilian Sammereier werden auch über diese Saison hinaus die Bayernligamannschaft des SV Erlbach betreuen. Das Duo hat seine auslaufenden Verträge trotz anderer Angebote frühzeitig verlängert."
-        ],
-        "link": "https://www.kicker.de/wollen-ans-regionalliga-tor-klopfen-erlbach-verlaengert-mit-ex-profi-lechner-und-co-trainer-1170346/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T11:10:32.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/braunschweigs-obiesie-von-schroeder-erstaunt-seine-tage-muessen-laenger-sein-1169615/artikel#omrss",
-        "title": "Braunschweigs Obiesie von Schröder erstaunt: \"Seine Tage müssen länger sein\"",
-        "summary": "Frankreich, Griechenland, USA - und wieder Deutschland. Nach mehreren internationalen Stationen ist Nationalspieler Joshua Obiesie zurück in der BBL. Gegenüber Basketball-World.news erzählte der 25-Jährige, was für seine Rückkehr ausschlaggebend war und welche Rolle Dennis Schröder dabei spielte.",
-        "paragraphs": [
-          "Frankreich, Griechenland, USA - und wieder Deutschland. Nach mehreren internationalen Stationen ist Nationalspieler Joshua Obiesie zurück in der BBL. Gegenüber Basketball-World.news erzählte der 25-Jährige, was für seine Rückkehr ausschlaggebend war und welche Rolle Dennis Schröder dabei spielte."
-        ],
-        "link": "https://www.kicker.de/braunschweigs-obiesie-von-schroeder-erstaunt-seine-tage-muessen-laenger-sein-1169615/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T11:00:00.000Z"
-      },
-      {
-        "id": "li.3332889",
-        "title": "Weltcup-Saison 2025/26: Biathlon-Auftakt in Östersund: Wo sehe ich die Rennen im Fernsehen?",
-        "summary": "Die Biathlon-Saison geht wieder los. Am 29. November trifft sich die Welt-Elite in Östersund. Wann welches Rennen stattfindet und wer im Fernsehen und Stream überträgt.",
-        "paragraphs": [
-          "Die Biathlon-Saison geht wieder los. Am 29. November trifft sich die Welt-Elite in Östersund. Wann welches Rennen stattfindet und wer im Fernsehen und Stream überträgt."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/biathlon-live-tv-livestream-weltcup-auftakt-oestersund-li.3332889",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-28T10:50:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hannover-burgdorf-und-prokop-trennen-sich-1170342/artikel#omrss",
-        "title": "Hannover-Burgdorf und Prokop trennen sich",
-        "summary": "Die Zeichen standen schon seit längerem auf Trennung. Nun hat die TSV Hannover-Burgdorf verkündet, dass Trainer Christian Prokop den Handball-Bundesligisten verlassen wird.",
-        "paragraphs": [
-          "Die Zeichen standen schon seit längerem auf Trennung. Nun hat die TSV Hannover-Burgdorf verkündet, dass Trainer Christian Prokop den Handball-Bundesligisten verlassen wird."
-        ],
-        "link": "https://www.kicker.de/hannover-burgdorf-und-prokop-trennen-sich-1170342/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T10:41:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/es-braucht-niemand-zu-denken-heidenheim-boss-sanwald-zaehlt-spieler-an-1170340/artikel#omrss",
-        "title": "\"Es braucht niemand zu denken ...\": Heidenheim-Boss Sanwald zählt Spieler an",
-        "summary": "In der Bundesliga hat der FCH zuletzt zwei schlimme Pleiten erlitten, sowohl gegen Leverkusen als auch gegen Mönchengladbach. Fast schon paradox, dass der Tabellenletzte nach all den Tiefschlägen noch nicht angeschlagen ist. Holger Sanwald fand vor der Partie gegen Union deutliche Worte.",
-        "paragraphs": [
-          "In der Bundesliga hat der FCH zuletzt zwei schlimme Pleiten erlitten, sowohl gegen Leverkusen als auch gegen Mönchengladbach. Fast schon paradox, dass der Tabellenletzte nach all den Tiefschlägen noch nicht angeschlagen ist. Holger Sanwald fand vor der Partie gegen Union deutliche Worte."
-        ],
-        "link": "https://www.kicker.de/es-braucht-niemand-zu-denken-heidenheim-boss-sanwald-zaehlt-spieler-an-1170340/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T10:38:35.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/chancen-auf-rodgers-comeback-steigen-1170321/artikel#omrss",
-        "title": "Chancen auf Rodgers-Comeback steigen",
-        "summary": "Das Comeback von Aaron Rodgers scheint immer näher zu rücken. Der Quarterback der Pittsburgh Steelers trainiert bereits zum zweiten Mal in Folge ohne Einschränkungen. Derweil konnten drei weitere Leistungsträger wieder trainieren.",
-        "paragraphs": [
-          "Das Comeback von Aaron Rodgers scheint immer näher zu rücken. Der Quarterback der Pittsburgh Steelers trainiert bereits zum zweiten Mal in Folge ohne Einschränkungen. Derweil konnten drei weitere Leistungsträger wieder trainieren."
-        ],
-        "link": "https://www.kicker.de/chancen-auf-rodgers-comeback-steigen-1170321/artikel#omrss",
-        "source": "kicker",
-        "publishedAt": "2025-11-28T10:24:00.000Z"
-      },
-      {
-        "id": "li.3345263",
-        "title": "Mikaela Shiffrin: Die Skirennläuferin, die Siege sammelt wie andere Gartenzwerge",
-        "summary": "Mit 15 Jahren fuhr die US-Amerikanerin ihr erstes Weltcuprennen, heute ist sie die Beste in ihrer Disziplin. Doch auch Schicksalsschläge zeichnen ihre beeindruckende Karriere.",
-        "paragraphs": [
-          "Mit 15 Jahren fuhr die US-Amerikanerin ihr erstes Weltcuprennen, heute ist sie die Beste in ihrer Disziplin. Doch auch Schicksalsschläge zeichnen ihre beeindruckende Karriere."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/mikaela-shiffrin-skirennen-weltcup-sieg-li.3345263",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-28T10:10:30.000Z"
-      },
-      {
-        "id": "li.3345777",
-        "title": "Fußball: Stuttgart siegt, seine Fans erhalten ein Betretungsverbot",
-        "summary": "Ein Großteil der VfB-Anhänger tritt beim 4:0-Auswärtserfolg in Deventer vorzeitig die Heimreise an. Freiburg bleibt auch im fünften Europa-League-Spiel ohne Niederlage. Mainz verliert in der Conference League in Rumänien.",
-        "paragraphs": [
-          "Ein Großteil der VfB-Anhänger tritt beim 4:0-Auswärtserfolg in Deventer vorzeitig die Heimreise an. Freiburg bleibt auch im fünften Europa-League-Spiel ohne Niederlage. Mainz verliert in der Conference League in Rumänien."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/fussball-europa-league-conference-league-freiburg-stuttgart-mainz-li.3345777",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-27T22:28:59.000Z"
-      },
-      {
-        "id": "li.3345390",
-        "title": "Handball-WM: Das Feuer ist entfacht",
-        "summary": "Die deutschen Handballerinnen tun sich bei ihrem Sieg gegen Island im WM-Eröffnungsspiel anfangs schwer. Doch am Ende überzeugt das Team die über 5000 Zuschauer in der Halle – und auch sich selbst.",
-        "paragraphs": [
-          "Die deutschen Handballerinnen tun sich bei ihrem Sieg gegen Island im WM-Eröffnungsspiel anfangs schwer. Doch am Ende überzeugt das Team die über 5000 Zuschauer in der Halle – und auch sich selbst."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/handball-wm-2025-frauen-deutschland-island-li.3345390",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-27T15:10:15.000Z"
-      },
-      {
-        "id": "li.3344301",
-        "title": "Biathlon: Die Französinnen bieten ein Drama nach dem anderen",
-        "summary": "Erst flog Julia Simon in der Kreditkartenaffäre auf, nun soll Jeanne Richard versucht haben, das Sportgewehr einer Kollegin zu manipulieren: Frankreichs Biathletinnen halten die Szene in Atem.",
-        "paragraphs": [
-          "Erst flog Julia Simon in der Kreditkartenaffäre auf, nun soll Jeanne Richard versucht haben, das Sportgewehr einer Kollegin zu manipulieren: Frankreichs Biathletinnen halten die Szene in Atem."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/biathlon-franzoesinnen-kreditkarten-simon-gewehr-li.3344301",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-27T14:34:31.000Z"
-      },
-      {
-        "id": "li.3345298",
-        "title": "Basketball: Mit dem B-Team zum Hochsicherheitsspiel nach Neu-Ulm",
-        "summary": "Wenn Deutschland im WM-Qualifikationsspiel Israel empfängt, werden einmal mehr die besten Spieler fehlen. Nicht der einzige besondere Umstand der Partie in Neu-Ulm.",
-        "paragraphs": [
-          "Wenn Deutschland im WM-Qualifikationsspiel Israel empfängt, werden einmal mehr die besten Spieler fehlen. Nicht der einzige besondere Umstand der Partie in Neu-Ulm."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/basketball-wm-qualifikation-israel-deutschland-neu-ulm-li.3345298",
-        "source": "Süddeutsche Zeitung Sport",
-        "publishedAt": "2025-11-27T14:17:44.000Z"
       }
     ]
   }
