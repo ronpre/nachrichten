@@ -30,17 +30,15 @@ jobs:
       - name: Install dependencies
         run: npm ci || npm install
 
-      - name: Configure football-data token
-        run: |
-          token=${{ secrets.FOOTBALL_DATA_TOKEN }}
-          if [ -z "$token" ]; then
-            echo "FOOTBALL_DATA_TOKEN secret is not configured" >&2
-            exit 1
-          fi
-          echo "FOOTBALL_DATA_TOKEN=$token" >> "$GITHUB_ENV"
-
       - name: Fetch football data
+        if: ${{ secrets.FOOTBALL_DATA_TOKEN != '' }}
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: npm run fetch:football-data
+
+      - name: Warn when football-data token missing
+        if: ${{ secrets.FOOTBALL_DATA_TOKEN == '' }}
+        run: echo "::warning::FOOTBALL_DATA_TOKEN secret is not configured – skipping live ticker refresh"
 
       - name: Commit updated data
         run: |
