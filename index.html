@@ -691,17 +691,7 @@
 
             try {
                 const staticPath = STATIC_ROUTES[label];
-                const baseUrl = new URL(window.location.href);
-                let basePath = baseUrl.pathname || '/';
-                if (basePath.endsWith('/')) {
-                    // already points to a directory
-                } else if (basePath.includes('.')) {
-                    basePath = basePath.replace(/[^/]*$/, '');
-                } else {
-                    basePath = `${basePath}/`;
-                }
-                baseUrl.pathname = basePath;
-                const targetUrl = staticPath ? new URL(staticPath, baseUrl).toString() : null;
+                const targetUrl = staticPath ? new URL(staticPath, document.baseURI).toString() : null;
                 if (!targetUrl) {
                     throw new Error(`Kein Pfad für ${label} definiert.`);
                 }
@@ -711,7 +701,7 @@
                 iframe.loading = 'lazy';
                 iframe.className = 'ticker-frame';
 
-                iframe.addEventListener('load', () => {
+                const handleLoad = () => {
                     if (placeholder) {
                         placeholder.remove();
                     }
@@ -719,6 +709,16 @@
                         const doc = iframe.contentDocument;
                         const win = iframe.contentWindow;
                         if (!doc || !win) {
+                            return;
+                        }
+                        const pageTitle = doc?.title || '';
+                        const bodyText = doc?.body?.textContent || '';
+                        if (/404/.test(pageTitle) || /File not found/i.test(bodyText)) {
+                            const warning = document.createElement('p');
+                            warning.className = 'status error';
+                            warning.textContent = `${label} konnte nicht geladen werden (404).`;
+                            content.appendChild(warning);
+                            iframe.remove();
                             return;
                         }
                         const docEl = doc.documentElement;
@@ -748,6 +748,14 @@
                         }
                     } catch (resizeError) {
                         console.warn(`Konnte Höhe für ${label} nicht anpassen:`, resizeError);
+                    }
+                };
+
+                iframe.addEventListener('load', handleLoad);
+                iframe.addEventListener('error', () => {
+                    console.warn(`${label}-Iframe konnte nicht geladen werden.`);
+                    if (placeholder) {
+                        placeholder.textContent = `${label} konnte nicht geladen werden.`;
                     }
                 });
 
