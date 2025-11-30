@@ -54,3 +54,9 @@ jobs:
       - name: Push changes
         if: success()
         run: git push
+
+  test-always-runs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Always run test step
+        run: echo "Test-Job wurde ausgeführt. Workflow-Trigger funktioniert."
