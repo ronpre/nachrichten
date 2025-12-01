@@ -9,7 +9,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const OUTPUT_FILE = path.join(__dirname, 'news.json');
-const UPDATE_INTERVAL_MS = 60 * 60 * 1000;
+// 12 Stunden in Millisekunden
+const UPDATE_INTERVAL_MS = 12 * 60 * 60 * 1000;
 
 const FEEDS = {
     Politik: [
@@ -206,9 +207,34 @@ async function ensureInitialFile() {
     await updateNews();
 
     if (process.argv.includes('--watch')) {
-        console.log('Starte 60-Minuten-Intervall für automatische Aktualisierung.');
-        setInterval(() => {
-            updateNews().catch(error => console.error('Aktualisierung fehlgeschlagen:', error));
-        }, UPDATE_INTERVAL_MS);
+            // Berechne die Zeit bis zum nächsten 7:00 oder 19:00 Uhr
+            function getNextUpdateDelay() {
+                const now = new Date();
+                const hours = now.getHours();
+                const minutes = now.getMinutes();
+                const seconds = now.getSeconds();
+                const ms = now.getMilliseconds();
+                let next = new Date(now);
+                if (hours < 7 || (hours === 7 && minutes === 0)) {
+                    next.setHours(7, 0, 0, 0);
+                } else if (hours < 19 || (hours === 19 && minutes === 0)) {
+                    next.setHours(19, 0, 0, 0);
+                } else {
+                    next.setDate(next.getDate() + 1);
+                    next.setHours(7, 0, 0, 0);
+                }
+                return next - now;
+            }
+
+            async function scheduleNextUpdate() {
+                const delay = getNextUpdateDelay();
+                console.log(`Nächste automatische Aktualisierung in ${Math.round(delay / 1000 / 60)} Minuten.`);
+                setTimeout(async () => {
+                    await updateNews();
+                    scheduleNextUpdate();
+                }, delay);
+            }
+
+            scheduleNextUpdate();
     }
 })();
