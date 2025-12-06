@@ -7,7 +7,8 @@
   "scripts": {
     "update:news": "node update-news.js",
     "update:history": "node update-history.js",
-    "start:schedule": "node schedule-updates.js"
+    "start:schedule": "node schedule-updates.js",
+    "update:laliga": "node liveticker/scripts/update_laliga_from_espn.js"
   },
   "dependencies": {
     "node-cron": "^3.0.3",
