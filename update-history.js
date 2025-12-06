@@ -8,7 +8,7 @@ const DATA_FILE = path.join(__dirname, "news.json");
 
 const HISTORY_SOURCE = "Wikipedia On This Day";
 const FALLBACK_SOURCE = "Kuratiertes Archiv";
-const PRE_MODERN_YEAR = 1700; // vor dem 18. Jahrhundert
+const PRE_MODERN_YEAR = 1800; // vor 1800
 const MODERN_THRESHOLD = 1800; // neuere Geschichte
 const MODERN_COUNT = 4;
 const HISTORY_TOTAL = MODERN_COUNT + 1;
@@ -155,7 +155,7 @@ function takeEntries(primary, fallbackSpecs, needed, prefix) {
   }
 
   if (entries.length < needed) {
-    throw new Error(`Nicht genug ${prefix === "pre" ? "Vor-1700" : "moderne"} Ereignisse gefunden.`);
+    throw new Error(`Nicht genug ${prefix === "pre" ? "Vor-1800" : "moderne"} Ereignisse gefunden.`);
   }
   return entries;
 }
@@ -236,7 +236,7 @@ async function updateHistory() {
 
   await persist(next);
   console.log(
-    `Geschichte aktualisiert (${historyItems.length} Einträge: ${MODERN_COUNT} modern + 1 vor 1700).`
+    `Geschichte aktualisiert (${historyItems.length} Einträge: ${MODERN_COUNT} modern + 1 vor 1800).`
   );
 }
 
