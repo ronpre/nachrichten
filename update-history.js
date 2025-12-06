@@ -121,13 +121,12 @@ function slugify(value) {
 
 function buildLearningNarrative(baseSummary, sourceLabel, title) {
   const fact = baseSummary || `Der Beitrag "${title}" beleuchtet ein Schlüsselereignis der Zeitgeschichte.`;
-  const consequence = `${sourceLabel} ordnet ein, welche gesellschaftlichen und politischen Folgen daraus erwuchsen und welche Handlungsspielräume Akteurinnen und Akteure ausloteten.`;
-  const parallels = `${sourceLabel} zieht Linien zu aktuellen Debatten und lädt dazu ein, Parallelen, wiederkehrende Konfliktmuster und mögliche Lernchancen zu erkennen.`;
-
   return [
-    `Was geschah: ${fact}`,
-    `Warum es zählt: ${consequence}`,
-    `Parallelen heute: ${parallels}`
+    `Ereignis: ${fact}`,
+    `Auswirkungen: ${sourceLabel} dokumentiert die direkten politischen, gesellschaftlichen oder kulturellen Verschiebungen, die das Ereignis auslöste, und beschreibt, welche Akteure an Einfluss gewannen oder verloren.`,
+    `Folgen: ${sourceLabel} zeigt, wie sich Entscheidungen und Reaktionen langfristig auf Institutionen, internationale Beziehungen oder Alltagsleben ausgewirkt haben.`,
+    `Lehre: ${sourceLabel} filtert heraus, welche Strategien erfolgreich waren, welche Fehler vermieden werden sollten und welches Wissen daraus abgeleitet wurde.`,
+    `Parallelen heute: ${sourceLabel} verknüpft das historische Motiv mit aktuellen Konflikten oder Chancen und lädt dazu ein, heutige Entwicklungen im Spiegel der Vergangenheit zu deuten.`
   ];
 }
 
