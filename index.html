@@ -176,56 +176,17 @@
         line-height: 1.4;
       }
 
-      .liveticker-meta {
-        font-size: 0.82rem;
-        color: var(--ink-soft);
-      }
-
-      .liveticker-list {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 0.85rem;
-      }
-
-      .liveticker-item {
-        display: flex;
-        flex-direction: column;
-        gap: 0.3rem;
-      }
-
-      .liveticker-row {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        gap: 0.5rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.02em;
-      }
-
-      .liveticker-team {
-        flex: 1;
-        white-space: nowrap;
+      .liveticker-embed {
+        border-radius: 14px;
         overflow: hidden;
-        text-overflow: ellipsis;
+        border: 1px solid rgba(0, 0, 0, 0.08);
       }
 
-      .liveticker-team.away {
-        text-align: right;
-      }
-
-      .liveticker-score {
-        min-width: 64px;
-        text-align: center;
-        font-variant-numeric: tabular-nums;
-      }
-
-      .liveticker-meta-line {
-        font-size: 0.8rem;
-        color: var(--ink-soft);
+      .liveticker-embed iframe {
+        width: 100%;
+        height: 500px;
+        border: 0;
+        background: #0f172a;
       }
 
       #badminton-links a {
@@ -295,14 +256,14 @@
         <ol class="stories"></ol>
       </section>
 
-      <section class="panel collapsed" data-section="liveticker">
+      <section class="panel collapsed" id="liveticker">
         <div class="section-head">
           <h2 tabindex="0" role="button" aria-expanded="false">liveticker</h2>
         </div>
-        <div class="liveticker-meta">
-          <span data-liveticker-status>lade Fussballdaten...</span>
+        <p class="story-meta">Direkter Einblick in den separaten Live-Ergebnisdienst.</p>
+        <div class="liveticker-embed">
+          <iframe src="liveticker/index.html" title="Live-Ergebnisse" loading="lazy"></iframe>
         </div>
-        <ul class="liveticker-list"></ul>
       </section>
 
       <section class="panel collapsed" id="badminton">
@@ -421,109 +382,9 @@
         }
       }
 
-      const statusMap = {
-        FINISHED: "Beendet",
-        IN_PLAY: "Live",
-        PAUSED: "Halbzeit",
-        SCHEDULED: "Termin steht fest",
-        TIMED: "Anpfiff geplant",
-        POSTPONED: "Verschoben",
-        SUSPENDED: "Unterbrochen",
-        CANCELED: "Abgesagt"
-      };
-
-      const formatMatchStatus = (status) => statusMap[status] || status || "Unbekannt";
-
-      const formatMatchScore = (match) => {
-        const home = match.score?.fullTime?.home;
-        const away = match.score?.fullTime?.away;
-        const hasScore = typeof home === "number" && typeof away === "number" && match.status === "FINISHED";
-        if (hasScore) {
-          return `${home} : ${away}`;
-        }
-        return "vs";
-      };
-
-      async function loadLiveticker() {
-        const section = document.querySelector('[data-section="liveticker"]');
-        if (!section) return;
-        const statusEl = section.querySelector("[data-liveticker-status]");
-        const list = section.querySelector(".liveticker-list");
-        if (!list) return;
-        try {
-          if (statusEl) statusEl.textContent = "Lade aktuelle Spiele...";
-          const res = await fetch(`liveticker/public/data/cl-football-data.json?cb=${Date.now()}`);
-          if (!res.ok) throw new Error("Liveticker-Daten nicht erreichbar");
-          const data = await res.json();
-          const matches = (data.matches || [])
-            .map((match) => ({
-              ...match,
-              parsedDate: match.utcDate ? new Date(match.utcDate) : null
-            }))
-            .filter((match) => match.parsedDate instanceof Date && !isNaN(match.parsedDate));
-
-          const now = Date.now();
-          const upcoming = matches.filter((match) => match.parsedDate.getTime() >= now).sort((a, b) => a.parsedDate - b.parsedDate);
-          const finished = matches.filter((match) => match.parsedDate.getTime() < now).sort((a, b) => b.parsedDate - a.parsedDate);
-          const selection = [...upcoming.slice(0, 5)];
-          if (selection.length < 5) {
-            selection.push(...finished.slice(0, 5 - selection.length));
-          }
-
-          list.innerHTML = "";
-          if (!selection.length) {
-            const fallback = document.createElement("li");
-            fallback.textContent = "Keine Partien gefunden.";
-            list.append(fallback);
-          } else {
-            selection.forEach((match) => {
-              const li = document.createElement("li");
-              li.className = "liveticker-item";
-
-              const row = document.createElement("div");
-              row.className = "liveticker-row";
-              const home = document.createElement("span");
-              home.className = "liveticker-team home";
-              home.textContent = match.homeTeam?.shortName || match.homeTeam?.name || "Heim";
-              const score = document.createElement("span");
-              score.className = "liveticker-score";
-              score.textContent = formatMatchScore(match);
-              const away = document.createElement("span");
-              away.className = "liveticker-team away";
-              away.textContent = match.awayTeam?.shortName || match.awayTeam?.name || "Auswärts";
-              row.append(home, score, away);
-              li.append(row);
-
-              const meta = document.createElement("div");
-              meta.className = "liveticker-meta-line";
-              const dateLabel = match.parsedDate ? formatTime(match.parsedDate) : "Termin offen";
-              meta.textContent = `${dateLabel} · ${formatMatchStatus(match.status)}`;
-              li.append(meta);
-
-              list.append(li);
-            });
-          }
-
-          if (statusEl) {
-            const generated = data.generatedAt ? formatTime(data.generatedAt) : "-";
-            statusEl.textContent = `Quelle: ${data.competition?.label || data.competition?.name || "Liveticker"} · Stand ${generated}`;
-          }
-        } catch (error) {
-          console.error(error);
-          if (statusEl) statusEl.textContent = "Liveticker aktuell nicht verfügbar.";
-          if (list && !list.children.length) {
-            const fallback = document.createElement("li");
-            fallback.textContent = "Keine Daten geladen.";
-            list.append(fallback);
-          }
-        }
-      }
-
       initSectionToggles();
       loadNews();
-      loadLiveticker();
       setInterval(loadNews, 5 * 60 * 1000);
-      setInterval(loadLiveticker, 5 * 60 * 1000);
     </script>
   </body>
 </html>
