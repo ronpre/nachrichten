@@ -589,36 +589,6 @@
           espnStandingsSlug: 'uefa.champions'
         },
         {
-          id: 'world-cup-men',
-          label: 'WM',
-          shortcut: (season) => {
-            const mapping = [
-              { season: 2022, shortcut: 'wmk' },
-              { season: 2018, shortcut: 'wm2018ru' },
-              { season: 2014, shortcut: 'wm14' }
-            ];
-            const exact = mapping.find((entry) => entry.season === season);
-            return exact || mapping;
-          },
-          provider: 'openliga',
-          table: false
-        },
-        {
-          id: 'euro-men',
-          label: 'EM',
-          shortcut: (season) => {
-            const mapping = [
-              { season: 2024, shortcut: 'em2024' },
-              { season: 2020, shortcut: 'euro20' },
-              { season: 2016, shortcut: 'EM-2016' }
-            ];
-            const exact = mapping.find((entry) => entry.season === season);
-            return exact || mapping;
-          },
-          provider: 'openliga',
-          table: false
-        },
-        {
           id: 'laliga',
           label: 'Spanien',
           provider: 'football-data',
@@ -1347,11 +1317,24 @@
       }
 
       function onLeagueChange(event) {
-        if (state.sport === 'football') {
-          state.league = event.target.value;
-        } else {
+        if (state.sport !== 'football') {
           return;
         }
+        const selectedLeague = event?.target?.value;
+        if (!selectedLeague) {
+          return;
+        }
+        state.league = selectedLeague;
+        state.activeMatchdayOrder = null;
+        state.matchdays = [];
+        state.matchdayDateLookup = new Map();
+        if (state.footballSelections instanceof Map) {
+          state.footballSelections.delete(selectedLeague);
+        }
+        const todayIso = new Date().toISOString().slice(0, 10);
+        state.date = todayIso;
+        syncDateInput();
+        updateMatchdayDisplay();
         requestRefresh(true);
       }
 
