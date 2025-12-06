@@ -8,6 +8,72 @@ const DATA_FILE = path.join(__dirname, "news.json");
 const HISTORY_SOURCE = "Wikipedia On This Day";
 const CUTOFF_YEAR = 1800;
 
+const FALLBACK_EVENTS = [
+  {
+    year: 1697,
+    title: "Treaty of Ryswick",
+    summary:
+      "Europa beendet den Pfälzischen Erbfolgekrieg mit dem Frieden von Rijswijk und bestätigt damit die Grenzen vor dem Konflikt.",
+    link: "https://en.wikipedia.org/wiki/Treaty_of_Ryswick"
+  },
+  {
+    year: 1759,
+    title: "Publication of Candide",
+    summary:
+      "Voltaire veröffentlicht 'Candide' anonym und kritisiert darin bitter-satirisch Krieg, Klerus und Optimismus seiner Zeit.",
+    link: "https://en.wikipedia.org/wiki/Candide"
+  },
+  {
+    year: 1666,
+    title: "Great Fire of London",
+    summary:
+      "Ein Feuer zerstört große Teile Londons, beschleunigt aber den späteren Wiederaufbau mit modernerer Stadtplanung.",
+    link: "https://en.wikipedia.org/wiki/Great_Fire_of_London"
+  }
+];
+
+function sanitizeText(value) {
+  if (!value) return "";
+  return value.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function buildEntryFromSource(entry) {
+  const page = entry.pages?.[0];
+  const rawText = entry.text?.trim() || page?.extract || "Historischer Eintrag";
+  const link =
+    page?.content_urls?.desktop?.page ||
+    page?.content_urls?.mobile?.page ||
+    "https://en.wikipedia.org/wiki/Portal:History";
+  const normalizedTitle = sanitizeText(page?.titles?.display || rawText || "Historisches Ereignis");
+
+  return {
+    id: `history-${entry.year}-${page?.pageid || normalizedTitle.slice(0, 16)}`,
+    title: `${entry.year}: ${normalizedTitle}`,
+    summary: rawText,
+    paragraphs: rawText ? [rawText] : [],
+    link,
+    source: HISTORY_SOURCE,
+    publishedAt: new Date().toISOString(),
+    year: entry.year || null
+  };
+}
+
+function buildFallbackEntry() {
+  const today = new Date();
+  const index = today.getUTCDate() % FALLBACK_EVENTS.length;
+  const base = FALLBACK_EVENTS[index];
+  return {
+    id: `history-fallback-${base.year}-${index}`,
+    title: `${base.year}: ${base.title}`,
+    summary: base.summary,
+    paragraphs: [base.summary],
+    link: base.link,
+    source: HISTORY_SOURCE,
+    publishedAt: new Date().toISOString(),
+    year: base.year
+  };
+}
+
 async function fetchHistoryEntry() {
   const today = new Date();
   const month = today.getUTCMonth() + 1;
@@ -31,28 +97,11 @@ async function fetchHistoryEntry() {
   );
 
   if (!candidates.length) {
-    throw new Error(`Kein History-Beitrag vor ${CUTOFF_YEAR} gefunden.`);
+    console.warn(`Kein History-Beitrag vor ${CUTOFF_YEAR} gefunden – verwende Fallback.`);
+    return buildFallbackEntry();
   }
 
-  const entry = candidates[0];
-  const page = entry.pages?.[0];
-  const rawText = entry.text?.trim() || page?.extract || "Historischer Eintrag";
-  const link =
-    page?.content_urls?.desktop?.page ||
-    page?.content_urls?.mobile?.page ||
-    "https://en.wikipedia.org/wiki/Portal:History";
-  const normalizedTitle = page?.titles?.display || rawText;
-
-  return {
-    id: `history-${entry.year}-${page?.pageid || normalizedTitle.slice(0, 16)}`,
-    title: `${entry.year}: ${normalizedTitle}`,
-    summary: rawText,
-    paragraphs: rawText ? [rawText] : [],
-    link,
-    source: HISTORY_SOURCE,
-    publishedAt: new Date().toISOString(),
-    year: entry.year || null
-  };
+  return buildEntryFromSource(candidates[0]);
 }
 
 async function loadExisting() {
