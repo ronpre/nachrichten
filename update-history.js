@@ -5,30 +5,76 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, "news.json");
-const HISTORY_SOURCE = "Wikipedia On This Day";
-const CUTOFF_YEAR = 1800;
 
-const FALLBACK_EVENTS = [
+const HISTORY_SOURCE = "Wikipedia On This Day";
+const FALLBACK_SOURCE = "Kuratiertes Archiv";
+const PRE_MODERN_YEAR = 1700; // vor dem 18. Jahrhundert
+const MODERN_THRESHOLD = 1800; // neuere Geschichte
+const MODERN_COUNT = 4;
+const HISTORY_TOTAL = MODERN_COUNT + 1;
+
+const FALLBACK_PRE_MODERN = [
+  {
+    year: 1648,
+    title: "Westfälischer Friede beendet den Dreißigjährigen Krieg",
+    summary:
+      "Mit dem Westfälischen Frieden einigen sich die europäischen Großmächte auf ein neues Machtgleichgewicht und die völkerrechtliche Anerkennung souveräner Staaten.",
+    link: "https://en.wikipedia.org/wiki/Peace_of_Westphalia",
+    slug: "peace-of-westphalia"
+  },
+  {
+    year: 1683,
+    title: "Die Zweite Wiener Türkenbelagerung scheitert",
+    summary:
+      "Ein vereinigtes europäisches Heer stoppt das Osmanische Reich vor Wien und leitet die Gegenoffensive der Habsburger ein.",
+    link: "https://en.wikipedia.org/wiki/Battle_of_Vienna",
+    slug: "battle-of-vienna"
+  },
   {
     year: 1697,
-    title: "Treaty of Ryswick",
+    title: "Frieden von Rijswijk beendet den Pfälzischen Erbfolgekrieg",
     summary:
-      "Europa beendet den Pfälzischen Erbfolgekrieg mit dem Frieden von Rijswijk und bestätigt damit die Grenzen vor dem Konflikt.",
-    link: "https://en.wikipedia.org/wiki/Treaty_of_Ryswick"
+      "Frankreich erkennt in Rijswijk die europäische Machtbalance erneut an und zieht seine Truppen aus mehreren besetzten Gebieten ab.",
+    link: "https://en.wikipedia.org/wiki/Treaty_of_Ryswick",
+    slug: "treaty-of-ryswick"
+  }
+];
+
+const FALLBACK_MODERN = [
+  {
+    year: 1804,
+    title: "Napoleon Bonaparte krönt sich zum Kaiser der Franzosen",
+    summary: "In Notre-Dame hebt Napoleon das Kaiserreich aus der Taufe und stellt die Machtverhältnisse Europas erneut auf die Probe.",
+    link: "https://en.wikipedia.org/wiki/Napoleon",
+    slug: "napoleon-emperor"
   },
   {
-    year: 1759,
-    title: "Publication of Candide",
-    summary:
-      "Voltaire veröffentlicht 'Candide' anonym und kritisiert darin bitter-satirisch Krieg, Klerus und Optimismus seiner Zeit.",
-    link: "https://en.wikipedia.org/wiki/Candide"
+    year: 1871,
+    title: "Gründung des Deutschen Kaiserreichs in Versailles",
+    summary: "Wilhelm I. wird im Spiegelsaal zum Kaiser ausgerufen – ein Meilenstein der europäischen Nationalstaatsbildung.",
+    link: "https://en.wikipedia.org/wiki/German_Empire",
+    slug: "german-empire"
   },
   {
-    year: 1666,
-    title: "Great Fire of London",
-    summary:
-      "Ein Feuer zerstört große Teile Londons, beschleunigt aber den späteren Wiederaufbau mit modernerer Stadtplanung.",
-    link: "https://en.wikipedia.org/wiki/Great_Fire_of_London"
+    year: 1919,
+    title: "Die Weimarer Verfassung tritt in Kraft",
+    summary: "Deutschland erhält erstmals eine parlamentarische Demokratie mit Grundrechten und Gewaltenteilung.",
+    link: "https://en.wikipedia.org/wiki/Weimar_Constitution",
+    slug: "weimar-constitution"
+  },
+  {
+    year: 1949,
+    title: "Das Grundgesetz begründet die Bundesrepublik Deutschland",
+    summary: "Mit dem Grundgesetz entsteht ein föderaler Staat mit festen Grundrechten und parlamentarischem System.",
+    link: "https://en.wikipedia.org/wiki/Basic_Law_for_the_Federal_Republic_of_Germany",
+    slug: "basic-law"
+  },
+  {
+    year: 1989,
+    title: "Fall der Berliner Mauer",
+    summary: "Der friedliche Druck der Bürgerbewegungen öffnet die innerdeutsche Grenze und leitet die Wiedervereinigung ein.",
+    link: "https://en.wikipedia.org/wiki/Berlin_Wall",
+    slug: "berlin-wall"
   }
 ];
 
@@ -37,44 +83,100 @@ function sanitizeText(value) {
   return value.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
-function buildEntryFromSource(entry) {
-  const page = entry.pages?.[0];
-  const rawText = entry.text?.trim() || page?.extract || "Historischer Eintrag";
+function slugify(value) {
+  if (!value) return "entry";
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 48) || "entry";
+}
+
+function buildEntryFromEvent(event) {
+  if (typeof event.year !== "number") return null;
+  const page = event.pages?.[0];
+  const rawSummary = event.text?.trim() || page?.extract || "Historischer Eintrag";
+  const summary = sanitizeText(rawSummary);
+  const titleText = sanitizeText(page?.titles?.display || event.text || "Historisches Ereignis");
+  const slug = slugify(titleText);
   const link =
     page?.content_urls?.desktop?.page ||
     page?.content_urls?.mobile?.page ||
     "https://en.wikipedia.org/wiki/Portal:History";
-  const normalizedTitle = sanitizeText(page?.titles?.display || rawText || "Historisches Ereignis");
 
   return {
-    id: `history-${entry.year}-${page?.pageid || normalizedTitle.slice(0, 16)}`,
-    title: `${entry.year}: ${normalizedTitle}`,
-    summary: rawText,
-    paragraphs: rawText ? [rawText] : [],
+    id: `history-wiki-${event.year}-${slug}`,
+    title: `${event.year}: ${titleText}`,
+    summary,
+    paragraphs: summary ? [summary] : [],
     link,
     source: HISTORY_SOURCE,
     publishedAt: new Date().toISOString(),
-    year: entry.year || null
+    year: event.year
   };
 }
 
-function buildFallbackEntry() {
-  const today = new Date();
-  const index = today.getUTCDate() % FALLBACK_EVENTS.length;
-  const base = FALLBACK_EVENTS[index];
+function buildEntryFromFallback(item, prefix) {
+  const summary = sanitizeText(item.summary);
+  const slug = item.slug || slugify(item.title);
   return {
-    id: `history-fallback-${base.year}-${index}`,
-    title: `${base.year}: ${base.title}`,
-    summary: base.summary,
-    paragraphs: [base.summary],
-    link: base.link,
-    source: HISTORY_SOURCE,
+    id: `history-${prefix}-${item.year}-${slug}`,
+    title: `${item.year}: ${item.title}`,
+    summary,
+    paragraphs: summary ? [summary] : [],
+    link: item.link,
+    source: item.source || FALLBACK_SOURCE,
     publishedAt: new Date().toISOString(),
-    year: base.year
+    year: item.year
   };
 }
 
-async function fetchHistoryEntry() {
+function takeEntries(primary, fallbackSpecs, needed, prefix) {
+  const entries = [];
+  const seen = new Set();
+
+  for (const item of primary) {
+    if (!item || entries.length >= needed) break;
+    const key = `${item.year}-${item.title}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    entries.push(item);
+  }
+
+  if (entries.length < needed) {
+    for (const spec of fallbackSpecs) {
+      if (entries.length >= needed) break;
+      const fallbackEntry = buildEntryFromFallback(spec, prefix);
+      const key = `${fallbackEntry.year}-${fallbackEntry.title}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      entries.push(fallbackEntry);
+    }
+  }
+
+  if (entries.length < needed) {
+    throw new Error(`Nicht genug ${prefix === "pre" ? "Vor-1700" : "moderne"} Ereignisse gefunden.`);
+  }
+  return entries;
+}
+
+function normalizeWikipediaEvents(events = []) {
+  const normalized = [];
+  const seen = new Set();
+
+  for (const event of events) {
+    const entry = buildEntryFromEvent(event);
+    if (!entry) continue;
+    const key = `${entry.year}-${entry.title}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    normalized.push(entry);
+  }
+
+  return normalized.sort((a, b) => b.year - a.year);
+}
+
+async function fetchHistoryItems() {
   const today = new Date();
   const month = today.getUTCMonth() + 1;
   const day = today.getUTCDate();
@@ -92,16 +194,15 @@ async function fetchHistoryEntry() {
   }
 
   const payload = await response.json();
-  const candidates = (payload.events || []).filter(
-    (event) => typeof event.year === "number" && event.year < CUTOFF_YEAR
-  );
+  const normalized = normalizeWikipediaEvents(payload.events || []);
 
-  if (!candidates.length) {
-    console.warn(`Kein History-Beitrag vor ${CUTOFF_YEAR} gefunden – verwende Fallback.`);
-    return buildFallbackEntry();
-  }
+  const modernCandidates = normalized.filter((item) => item.year >= MODERN_THRESHOLD);
+  const preModernCandidates = normalized.filter((item) => item.year < PRE_MODERN_YEAR);
 
-  return buildEntryFromSource(candidates[0]);
+  const modernEntries = takeEntries(modernCandidates, FALLBACK_MODERN, MODERN_COUNT, "modern");
+  const preEntry = takeEntries(preModernCandidates, FALLBACK_PRE_MODERN, 1, "pre")[0];
+
+  return [...modernEntries, preEntry];
 }
 
 async function loadExisting() {
@@ -122,19 +223,21 @@ async function persist(payload) {
 
 async function updateHistory() {
   const existing = await loadExisting();
-  const historyEntry = await fetchHistoryEntry();
+  const historyItems = await fetchHistoryItems();
 
   const next = {
     ...existing,
     updatedAt: new Date().toISOString(),
     categories: {
       ...existing.categories,
-      history: [historyEntry]
+      history: historyItems
     }
   };
 
   await persist(next);
-  console.log(`Geschichte aktualisiert (${historyEntry.year}) aus ${HISTORY_SOURCE}.`);
+  console.log(
+    `Geschichte aktualisiert (${historyItems.length} Einträge: ${MODERN_COUNT} modern + 1 vor 1700).`
+  );
 }
 
 updateHistory().catch((error) => {
