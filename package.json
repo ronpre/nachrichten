@@ -12,5 +12,8 @@
   "dependencies": {
     "node-cron": "^3.0.3",
     "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "pm2": "^6.0.14"
   }
 }
