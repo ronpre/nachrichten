@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, "news.json");
 
-const HISTORY_SOURCE = "Wikipedia On This Day";
+const HISTORY_SOURCE = "Wikipedia (de) On This Day";
 const FALLBACK_SOURCE = "Kuratiertes Archiv";
 const PRE_MODERN_YEAR = 1800; // vor 1800
 const MODERN_THRESHOLD = 1800; // neuere Geschichte
@@ -19,7 +19,7 @@ const FALLBACK_PRE_MODERN = [
     title: "Westfälischer Friede beendet den Dreißigjährigen Krieg",
     summary:
       "Mit dem Westfälischen Frieden einigen sich die europäischen Großmächte auf ein neues Machtgleichgewicht und die völkerrechtliche Anerkennung souveräner Staaten.",
-    link: "https://en.wikipedia.org/wiki/Peace_of_Westphalia",
+    link: "https://de.wikipedia.org/wiki/Westf%C3%A4lischer_Friede",
     slug: "peace-of-westphalia"
   },
   {
@@ -27,7 +27,7 @@ const FALLBACK_PRE_MODERN = [
     title: "Die Zweite Wiener Türkenbelagerung scheitert",
     summary:
       "Ein vereinigtes europäisches Heer stoppt das Osmanische Reich vor Wien und leitet die Gegenoffensive der Habsburger ein.",
-    link: "https://en.wikipedia.org/wiki/Battle_of_Vienna",
+    link: "https://de.wikipedia.org/wiki/Entsatz_von_Wien",
     slug: "battle-of-vienna"
   },
   {
@@ -35,7 +35,7 @@ const FALLBACK_PRE_MODERN = [
     title: "Frieden von Rijswijk beendet den Pfälzischen Erbfolgekrieg",
     summary:
       "Frankreich erkennt in Rijswijk die europäische Machtbalance erneut an und zieht seine Truppen aus mehreren besetzten Gebieten ab.",
-    link: "https://en.wikipedia.org/wiki/Treaty_of_Ryswick",
+    link: "https://de.wikipedia.org/wiki/Frieden_von_Rijswijk",
     slug: "treaty-of-ryswick"
   }
 ];
@@ -45,35 +45,35 @@ const FALLBACK_MODERN = [
     year: 1804,
     title: "Napoleon Bonaparte krönt sich zum Kaiser der Franzosen",
     summary: "In Notre-Dame hebt Napoleon das Kaiserreich aus der Taufe und stellt die Machtverhältnisse Europas erneut auf die Probe.",
-    link: "https://en.wikipedia.org/wiki/Napoleon",
+    link: "https://de.wikipedia.org/wiki/Napoleon_Bonaparte",
     slug: "napoleon-emperor"
   },
   {
     year: 1871,
     title: "Gründung des Deutschen Kaiserreichs in Versailles",
     summary: "Wilhelm I. wird im Spiegelsaal zum Kaiser ausgerufen – ein Meilenstein der europäischen Nationalstaatsbildung.",
-    link: "https://en.wikipedia.org/wiki/German_Empire",
+    link: "https://de.wikipedia.org/wiki/Deutsches_Kaiserreich",
     slug: "german-empire"
   },
   {
     year: 1919,
     title: "Die Weimarer Verfassung tritt in Kraft",
     summary: "Deutschland erhält erstmals eine parlamentarische Demokratie mit Grundrechten und Gewaltenteilung.",
-    link: "https://en.wikipedia.org/wiki/Weimar_Constitution",
+    link: "https://de.wikipedia.org/wiki/Weimarer_Verfassung",
     slug: "weimar-constitution"
   },
   {
     year: 1949,
     title: "Das Grundgesetz begründet die Bundesrepublik Deutschland",
     summary: "Mit dem Grundgesetz entsteht ein föderaler Staat mit festen Grundrechten und parlamentarischem System.",
-    link: "https://en.wikipedia.org/wiki/Basic_Law_for_the_Federal_Republic_of_Germany",
+    link: "https://de.wikipedia.org/wiki/Grundgesetz_f%C3%BCr_die_Bundesrepublik_Deutschland",
     slug: "basic-law"
   },
   {
     year: 1989,
     title: "Fall der Berliner Mauer",
     summary: "Der friedliche Druck der Bürgerbewegungen öffnet die innerdeutsche Grenze und leitet die Wiedervereinigung ein.",
-    link: "https://en.wikipedia.org/wiki/Berlin_Wall",
+    link: "https://de.wikipedia.org/wiki/Berliner_Mauer",
     slug: "berlin-wall"
   }
 ];
@@ -180,7 +180,7 @@ async function fetchHistoryItems() {
   const today = new Date();
   const month = today.getUTCMonth() + 1;
   const day = today.getUTCDate();
-  const endpoint = `https://en.wikipedia.org/api/rest_v1/feed/onthisday/events/${month}/${day}`;
+  const endpoint = `https://de.wikipedia.org/api/rest_v1/feed/onthisday/events/${month}/${day}`;
 
   const response = await fetch(endpoint, {
     headers: {
