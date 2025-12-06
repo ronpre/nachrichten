@@ -445,6 +445,27 @@
       const ESPN_MATCHDAY_CACHE = new Map();
       const ESPN_EXPECTED_MATCHES_PER_MATCHDAY = 10;
       const DEFAULT_MATCHDAY_COUNT_FALLBACK = '-';
+      const TEAM_NAME_STOP_WORDS = new Set([
+        'club',
+        'de',
+        'del',
+        'la',
+        'el',
+        'cf',
+        'fc',
+        'cd',
+        'sd',
+        'ud',
+        'rcd',
+        'ac',
+        'sc',
+        'ad',
+        'balompie',
+        'balompié',
+        'futbol',
+        'fútbol',
+        'deportivo'
+      ]);
 
       const DOM = {
         sportSelect: document.getElementById('sport-select'),
@@ -898,6 +919,83 @@
         };
       }
 
+      function normalizeTeamNameForIdentity(value) {
+        if (!value) {
+          return '';
+        }
+        const ascii = value
+          .normalize('NFD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .replace(/&/g, ' and ')
+          .toLowerCase();
+        const tokens = ascii.split(/[^a-z0-9]+/).filter(Boolean);
+        if (!tokens.length) {
+          return ascii.replace(/[^a-z0-9]+/g, '');
+        }
+        const filtered = tokens.filter((token) => !TEAM_NAME_STOP_WORDS.has(token));
+        const candidates = filtered.length ? filtered : tokens;
+        return candidates.join('');
+      }
+
+      function buildMatchIdentityFromNames(homeName, awayName, isoDate) {
+        const normalizedDate = normalizeToIsoDate(isoDate);
+        if (!normalizedDate) {
+          return null;
+        }
+        const homeKey = normalizeTeamNameForIdentity(homeName);
+        const awayKey = normalizeTeamNameForIdentity(awayName);
+        if (!homeKey || !awayKey) {
+          return null;
+        }
+        return `${normalizedDate}|${homeKey}|${awayKey}`;
+      }
+
+      function buildFootballDataMatchIdentity(rawMatch) {
+        if (!rawMatch) {
+          return null;
+        }
+        const isoDate = normalizeToIsoDate(rawMatch.isoDate || rawMatch.utcDate || rawMatch.timeRaw);
+        const homeCandidates = [
+          rawMatch?.homeTeam?.name,
+          rawMatch?.homeTeam?.shortName,
+          rawMatch?.homeTeam?.tla,
+          rawMatch?.homeTeam?.abbreviation,
+          rawMatch?.homeTeam?.id != null ? String(rawMatch.homeTeam.id) : null
+        ].filter(Boolean);
+        const awayCandidates = [
+          rawMatch?.awayTeam?.name,
+          rawMatch?.awayTeam?.shortName,
+          rawMatch?.awayTeam?.tla,
+          rawMatch?.awayTeam?.abbreviation,
+          rawMatch?.awayTeam?.id != null ? String(rawMatch.awayTeam.id) : null
+        ].filter(Boolean);
+        const homeName = homeCandidates.find((entry) => normalizeTeamNameForIdentity(entry)) || homeCandidates[0];
+        const awayName = awayCandidates.find((entry) => normalizeTeamNameForIdentity(entry)) || awayCandidates[0];
+        return buildMatchIdentityFromNames(homeName, awayName, isoDate);
+      }
+
+      function buildFormattedMatchIdentity(match) {
+        if (!match) {
+          return null;
+        }
+        const isoDate = normalizeToIsoDate(match.isoDate || match.timeRaw || match.dateLabel);
+        return buildMatchIdentityFromNames(match.home, match.away, isoDate);
+      }
+
+      function buildFootballDataIdentityLookup(matchMap) {
+        const lookup = new Map();
+        if (!(matchMap instanceof Map)) {
+          return lookup;
+        }
+        matchMap.forEach((rawMatch, rawId) => {
+          const identity = buildFootballDataMatchIdentity(rawMatch);
+          if (identity && !lookup.has(identity)) {
+            lookup.set(identity, String(rawId));
+          }
+        });
+        return lookup;
+      }
+
       async function loadFootballDataFallbackMatches(matchMap, selectedEntry, slug, stageGroup, { includeExisting = false } = {}) {
         if (!slug) {
           return { matches: [], errors: [] };
@@ -1103,6 +1201,7 @@
           }
           matchMap.set(String(match.id), match);
         });
+        const matchIdentityLookup = buildFootballDataIdentityLookup(matchMap);
 
         let matchdays = Array.isArray(payload?.matchdays) ? payload.matchdays : [];
         if (!matchdays.length && matchMap.size) {
@@ -1158,15 +1257,26 @@
           : null;
         const fallbackGroup = fallbackStageInfo?.slug || null;
 
+        const attachIdentity = (entry, { allowRemap = false } = {}) => {
+          if (entry) {
+            const identity = buildFormattedMatchIdentity(entry);
+            entry.identityKey = identity;
+            if (allowRemap && identity && matchIdentityLookup.has(identity)) {
+              entry.id = matchIdentityLookup.get(identity);
+            }
+          }
+          return entry;
+        };
+
         let matches = expectedMatchIds
           .map((id) => matchMap.get(id))
           .filter((entry) => entry != null)
-          .map((match) => formatFootballDataMatch(match))
+          .map((match) => attachIdentity(formatFootballDataMatch(match)))
           .filter((entry) => entry != null);
 
         if (!matches.length && matchMap.size) {
           matches = Array.from(matchMap.values())
-            .map((match) => formatFootballDataMatch(match))
+            .map((match) => attachIdentity(formatFootballDataMatch(match)))
             .filter((entry) => entry != null);
           const targetDates = new Set(selectedEntry.dates);
           matches = matches.filter((match) => !targetDates.size || targetDates.has(match.isoDate));
@@ -1179,7 +1289,7 @@
           }
           if (fallbackMatches.length) {
             matches = fallbackMatches
-              .map((entry) => formatFootballDataMatch(entry))
+              .map((entry) => attachIdentity(formatFootballDataMatch(entry), { allowRemap: true }))
               .filter((entry) => entry != null);
           }
         }
@@ -1272,22 +1382,55 @@
           }
           if (Array.isArray(staleFallbackMatches) && staleFallbackMatches.length) {
             const formattedFallback = staleFallbackMatches
-              .map((entry) => formatFootballDataMatch(entry))
+              .map((entry) => attachIdentity(formatFootballDataMatch(entry), { allowRemap: true }))
               .filter((entry) => entry != null);
             if (formattedFallback.length) {
               const allowedIds = expectedMatchIdSet.size ? expectedMatchIdSet : null;
               const fallbackById = new Map();
+              const fallbackByIdentity = new Map();
               formattedFallback.forEach((entry) => {
-                if (entry?.id && (!allowedIds || allowedIds.has(entry.id))) {
+                if (!entry) {
+                  return;
+                }
+                const identity = entry.identityKey || buildFormattedMatchIdentity(entry);
+                if (identity && !entry.identityKey) {
+                  entry.identityKey = identity;
+                }
+                let assigned = false;
+                if (entry.id && (!allowedIds || allowedIds.has(entry.id))) {
                   fallbackById.set(entry.id, entry);
+                  assigned = true;
+                } else if (identity && matchIdentityLookup.has(identity)) {
+                  const mappedId = matchIdentityLookup.get(identity);
+                  if (mappedId && (!allowedIds || allowedIds.has(mappedId))) {
+                    entry.id = mappedId;
+                    fallbackById.set(mappedId, entry);
+                    assigned = true;
+                  }
+                }
+                if (!assigned && identity) {
+                  fallbackByIdentity.set(identity, entry);
                 }
               });
-              if (fallbackById.size) {
+              if (fallbackById.size || fallbackByIdentity.size) {
                 let replacedAny = false;
                 matches = matches.map((match) => {
-                  const replacement = fallbackById.get(match.id);
+                  if (!match) {
+                    return match;
+                  }
+                  const identity = match.identityKey || buildFormattedMatchIdentity(match);
+                  if (identity && !match.identityKey) {
+                    match.identityKey = identity;
+                  }
+                  const replacement = (match.id && fallbackById.get(match.id))
+                    || (identity ? fallbackByIdentity.get(identity) : null);
                   if (replacement) {
-                    fallbackById.delete(match.id);
+                    if (replacement.id && match.id && replacement.id !== match.id) {
+                      fallbackById.delete(replacement.id);
+                    }
+                    if (match.id) {
+                      fallbackById.delete(match.id);
+                    }
                     replacedAny = true;
                     return replacement;
                   }
@@ -1296,6 +1439,7 @@
                 if (fallbackById.size) {
                   matches = matches.concat(Array.from(fallbackById.values()));
                   replacedAny = true;
+                  fallbackById.clear();
                 }
                 if (replacedAny) {
                   staleFallbackApplied = true;
