@@ -547,6 +547,7 @@
         { key: "politik", limit: 20 },
         { key: "sport", limit: 20 }
       ];
+      const HISTORY_LESSON_LIMIT = 6;
 
       const formatTime = (value) => {
         if (!value) return "-";
@@ -558,6 +559,15 @@
         } catch (err) {
           return value;
         }
+      };
+
+      const pickText = (...values) => {
+        for (const value of values) {
+          if (typeof value === "string" && value.trim()) {
+            return value.trim();
+          }
+        }
+        return null;
       };
 
       function initSectionToggles() {
@@ -608,74 +618,6 @@
         return li;
       }
 
-      function buildHistoryLessonCard(lesson) {
-        const card = document.createElement("article");
-        card.className = "history-card";
-
-        if (lesson.themeLabel) {
-          const pill = document.createElement("span");
-          pill.className = "lesson-pill";
-          pill.textContent = lesson.themeLabel;
-          card.append(pill);
-        }
-
-        const title = document.createElement("h3");
-        const anchor = document.createElement("a");
-        anchor.href = lesson.link || "#";
-        anchor.target = "_blank";
-        anchor.rel = "noopener noreferrer";
-        anchor.textContent = lesson.title;
-        title.append(anchor);
-        card.append(title);
-
-        if (lesson.context) {
-          const context = document.createElement("p");
-          context.className = "history-context";
-          context.textContent = lesson.context;
-          card.append(context);
-        }
-
-        if (lesson.keyTakeaways?.length) {
-          const takeaways = document.createElement("ul");
-          takeaways.className = "history-takeaways";
-          lesson.keyTakeaways.forEach((line) => {
-            const li = document.createElement("li");
-            li.textContent = line;
-            takeaways.append(li);
-          });
-          card.append(takeaways);
-        }
-
-        const narrative = document.createElement("div");
-        narrative.className = "history-narrative";
-        [lesson.impact, lesson.consequences, lesson.lessonsLearned, lesson.parallels]
-          .filter(Boolean)
-          .forEach((text) => {
-            const p = document.createElement("p");
-            p.textContent = text;
-            narrative.append(p);
-          });
-        if (narrative.children.length) card.append(narrative);
-
-        if (lesson.reflection) {
-          const reflection = document.createElement("p");
-          reflection.className = "history-reflection";
-          reflection.textContent = lesson.reflection;
-          card.append(reflection);
-        }
-
-        const metaRow = document.createElement("div");
-        metaRow.className = "history-meta-row";
-        const source = document.createElement("span");
-        source.textContent = lesson.source || "Quelle unbekannt";
-        const time = document.createElement("time");
-        time.dateTime = lesson.publishedAt || "";
-        time.textContent = formatTime(lesson.publishedAt);
-        metaRow.append(source, time);
-        card.append(metaRow);
-
-        return card;
-      }
       function createHistoryStep(label, text) {
         if (!text) return null;
         const wrapper = document.createElement("div");
@@ -688,10 +630,10 @@
         return wrapper;
       }
 
+      function buildHistoryLessonCard(lesson) {
+        const card = document.createElement("article");
+        card.className = "history-card";
 
-      function renderHistoryLessons(data) {
-        const container = document.getElementById("history-lessons");
-        if (!container) return;
         const head = document.createElement("div");
         head.className = "history-card-head";
 
@@ -706,45 +648,47 @@
         reminder.className = "history-reminder";
         reminder.textContent = "Nächster Impuls";
         const reminderTime = document.createElement("time");
-        reminderTime.dateTime = lesson.reinforceAfter || "";
-        reminderTime.textContent = formatTime(lesson.reinforceAfter);
+        reminderTime.dateTime = lesson.reinforceAfter || lesson.publishedAt || "";
+        reminderTime.textContent = formatTime(lesson.reinforceAfter || lesson.publishedAt);
         reminder.append(reminderTime);
         head.append(reminder);
         card.append(head);
 
-        if (lesson.spark) {
-          const spark = document.createElement("p");
-          spark.className = "history-spark";
-          spark.textContent = lesson.spark;
-          card.append(spark);
+        const spark = pickText(lesson.spark, lesson.context, lesson.summary);
+        if (spark) {
+          const sparkBlock = document.createElement("p");
+          sparkBlock.className = "history-spark";
+          sparkBlock.textContent = spark;
+          card.append(sparkBlock);
         }
 
         const question = document.createElement("h3");
         question.className = "history-question";
-        question.textContent = lesson.coreQuestion || lesson.title;
+        question.textContent = pickText(lesson.coreQuestion, lesson.title);
         card.append(question);
 
-        if (lesson.timeline) {
+        const timelineDetail = pickText(lesson.timeline?.detail, lesson.timelineDetail, lesson.period, lesson.year && `Jahr ${lesson.year}`);
+        if (timelineDetail) {
           const timeline = document.createElement("div");
           timeline.className = "history-timeline";
           const label = document.createElement("strong");
-          label.textContent = lesson.timeline.label || "Zeitfenster";
+          label.textContent = lesson.timeline?.label || lesson.timelineLabel || "Zeitfenster";
           const detail = document.createElement("p");
-          detail.textContent = lesson.timeline.detail || "";
+          detail.textContent = timelineDetail;
           timeline.append(label, detail);
           card.append(timeline);
         }
 
-        const insight = createHistoryStep("Kern-Befund", lesson.insight);
+        const insight = createHistoryStep("Kern-Befund", pickText(lesson.insight, lesson.impact));
         if (insight) card.append(insight);
 
-        const chain = createHistoryStep("Kettenreaktion", lesson.chainReaction);
+        const chain = createHistoryStep("Kettenreaktion", pickText(lesson.chainReaction, lesson.consequences));
         if (chain) card.append(chain);
 
-        const application = createHistoryStep("Heute anwenden", lesson.application);
+        const application = createHistoryStep("Heute anwenden", pickText(lesson.application, lesson.lessonsLearned));
         if (application) card.append(application);
 
-        const transfer = createHistoryStep("Parallelen", lesson.transfer);
+        const transfer = createHistoryStep("Parallelen", pickText(lesson.transfer, lesson.parallels));
         if (transfer) card.append(transfer);
 
         if (lesson.quizPrompt) {
@@ -761,15 +705,16 @@
           card.append(reflection);
         }
 
-        if (lesson.spark || lesson.link) {
+        const deepDiveCopy = pickText(lesson.deepDive, spark, lesson.context);
+        if (deepDiveCopy || lesson.link) {
           const deepdive = document.createElement("details");
           deepdive.className = "history-deepdive";
           const summary = document.createElement("summary");
           summary.textContent = "Vertiefen & Quelle";
           deepdive.append(summary);
-          if (lesson.spark) {
+          if (deepDiveCopy) {
             const deepText = document.createElement("p");
-            deepText.textContent = lesson.spark;
+            deepText.textContent = deepDiveCopy;
             deepdive.append(deepText);
           }
           if (lesson.link) {
@@ -803,5 +748,65 @@
         footer.append(cta);
 
         card.append(footer);
-            const section = document.querySelector(`[data-section="${key}"]`);
         return card;
+      }
+
+      function renderHistoryLessons(lessons = []) {
+        const container = document.getElementById("history-lessons");
+        if (!container) return;
+        container.innerHTML = "";
+
+        if (!lessons.length) {
+          const empty = document.createElement("p");
+          empty.className = "story-meta";
+          empty.textContent = "Keine Lernkarten verfügbar.";
+          container.append(empty);
+          return;
+        }
+
+        lessons.slice(0, HISTORY_LESSON_LIMIT).forEach((lesson) => {
+          container.append(buildHistoryLessonCard(lesson));
+        });
+      }
+
+      function renderNewsSections(categories = {}) {
+        sectionConfig.forEach(({ key, limit }) => {
+          const section = document.querySelector(`[data-section="${key}"]`);
+          if (!section) return;
+          const list = section.querySelector("ol.stories");
+          if (!list) return;
+          list.innerHTML = "";
+          const stories = categories[key] || [];
+          stories.slice(0, limit).forEach((story) => list.append(buildStory(story)));
+        });
+      }
+
+      function updateMeta(updatedAt) {
+        const target = document.querySelector("[data-updated]");
+        if (!target) return;
+        target.textContent = updatedAt ? formatTime(updatedAt) : "Fehler beim Laden";
+      }
+
+      async function loadNews() {
+        try {
+          const response = await fetch(`news.json?ts=${Date.now()}`);
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+          const payload = await response.json();
+          renderNewsSections(payload.categories || {});
+          renderHistoryLessons(payload.historyLessons || payload.categories?.history || []);
+          updateMeta(payload.updatedAt || payload.historyUpdatedAt || null);
+        } catch (error) {
+          console.error("Fehler beim Laden der Daten", error);
+          updateMeta(null);
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        initSectionToggles();
+        loadNews();
+      });
+    </script>
+  </body>
+</html>
