@@ -20,6 +20,8 @@ const HISTORY_COUNT = 5;
 const HISTORY_LOG_LIMIT = 500;
 const BRITANNICA_BASE = "https://www.britannica.com";
 
+const PRE_MODERN_YEAR = 1800;
+
 async function fetchFeed(feed) {
   try {
     const data = await parser.parseURL(feed.url);
@@ -169,17 +171,17 @@ function chooseHistoryItems(pool, log) {
   const used = new Set(log.used_slugs || []);
   const chosen = [];
 
-  const pre1700 = pool.filter((item) => typeof item.year === "number" && item.year < 1700);
-  let freshPre1700 = pre1700.find((item) => !used.has(item.slug));
-  if (!freshPre1700) {
-    if (!pre1700.length) {
-      throw new Error("Kein History-Eintrag vor 1700 verfügbar.");
+  const preModern = pool.filter((item) => typeof item.year === "number" && item.year < PRE_MODERN_YEAR);
+  let freshPreModern = preModern.find((item) => !used.has(item.slug));
+  if (!freshPreModern) {
+    if (!preModern.length) {
+      throw new Error("Kein History-Eintrag vor 1800 verfuegbar.");
     }
-    console.warn("Kein neuer Vor-1700-Eintrag verfügbar – verwende bestehenden Eintrag erneut.");
-    freshPre1700 = pre1700[0];
+    console.warn("Kein neuer Vor-1800-Eintrag verfuegbar – verwende bestehenden Eintrag erneut.");
+    freshPreModern = preModern[0];
   }
-  chosen.push(freshPre1700);
-  used.add(freshPre1700.slug);
+  chosen.push(freshPreModern);
+  used.add(freshPreModern.slug);
 
   for (const item of pool) {
     if (chosen.length >= HISTORY_COUNT) break;
