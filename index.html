@@ -21,6 +21,10 @@
         --panel-dark: rgba(20, 24, 28, 0.85);
         --accent: #d75f2a;
         --accent-soft: #f4c095;
+        --history-panel: #f7f9ff;
+        --history-ink: #0e1c2a;
+        --history-pill: #dfe8ff;
+        --history-pill-text: #1a2b45;
         font-family: "Space Grotesk", "Helvetica Neue", sans-serif;
       }
 
@@ -88,6 +92,26 @@
           background: var(--panel-dark);
           box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
         }
+
+        .history-panel {
+          background: radial-gradient(circle at top, rgba(13, 22, 35, 0.95), rgba(5, 9, 15, 0.9));
+          border-color: rgba(255, 255, 255, 0.08);
+          color: #f2f6ff;
+        }
+
+        .history-card {
+          background: rgba(7, 12, 20, 0.85);
+          border-color: rgba(255, 255, 255, 0.08);
+          color: #f3f6ff;
+        }
+
+        .history-tags span {
+          background: rgba(255, 255, 255, 0.08);
+        }
+
+        .history-takeaways li::before {
+          color: var(--accent-soft);
+        }
       }
 
       .section-head {
@@ -131,6 +155,149 @@
 
       section.panel.collapsed > :not(.section-head) {
         display: none;
+      }
+
+      .history-panel {
+        background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), var(--history-panel));
+        border: 1px solid rgba(14, 28, 42, 0.08);
+        color: var(--history-ink);
+        overflow: hidden;
+        position: relative;
+      }
+
+      .history-panel::after {
+        content: "";
+        position: absolute;
+        inset: 20px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(87, 114, 255, 0.15), transparent 60%);
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .history-panel > * {
+        position: relative;
+        z-index: 1;
+      }
+
+      .history-meta {
+        font-size: 0.92rem;
+        color: rgba(14, 28, 42, 0.8);
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .history-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        font-size: 0.78rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .history-tags span {
+        background: rgba(14, 28, 42, 0.08);
+        border-radius: 999px;
+        padding: 0.2rem 0.75rem;
+      }
+
+      .history-lessons {
+        display: grid;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      @media (min-width: 900px) {
+        .history-lessons {
+          grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+      }
+
+      .history-card {
+        background: rgba(255, 255, 255, 0.92);
+        border-radius: 16px;
+        padding: 1rem;
+        border: 1px solid rgba(14, 28, 42, 0.08);
+        box-shadow: 0 18px 40px rgba(9, 12, 18, 0.07);
+        display: flex;
+        flex-direction: column;
+        gap: 0.65rem;
+      }
+
+      .history-card h3 {
+        margin: 0;
+        font-size: 1.05rem;
+      }
+
+      .history-card a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .history-card a:hover,
+      .history-card a:focus {
+        color: var(--accent);
+      }
+
+      .lesson-pill {
+        align-self: flex-start;
+        background: var(--history-pill);
+        color: var(--history-pill-text);
+        padding: 0.15rem 0.65rem;
+        border-radius: 999px;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .history-context {
+        font-size: 0.85rem;
+        color: rgba(14, 28, 42, 0.75);
+      }
+
+      .history-takeaways {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        font-size: 0.9rem;
+      }
+
+      .history-takeaways li {
+        padding-left: 1.1rem;
+        position: relative;
+      }
+
+      .history-takeaways li::before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: var(--accent);
+      }
+
+      .history-narrative {
+        font-size: 0.85rem;
+        line-height: 1.4;
+        display: flex;
+        flex-direction: column;
+        gap: 0.35rem;
+      }
+
+      .history-reflection {
+        font-size: 0.85rem;
+        font-style: italic;
+        color: rgba(14, 28, 42, 0.9);
+      }
+
+      .history-meta-row {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.78rem;
+        color: rgba(14, 28, 42, 0.6);
       }
 
 
@@ -249,11 +416,22 @@
         <ol class="stories"></ol>
       </section>
 
-      <section class="panel collapsed" data-section="history">
+      <section class="panel collapsed history-panel" data-section="history">
         <div class="section-head">
           <h2 tabindex="0" role="button" aria-expanded="false">geschichte</h2>
         </div>
-        <ol class="stories"></ol>
+        <div class="history-meta">
+          <p>
+            Kuratierte Lernpfade aus ZEIT, SZ, SPIEGEL und Wikipedia: Jede Karte übersetzt ein Ereignis in Auswirkungen,
+            Kettenreaktionen, heutige Parallelen und eine Reflexionsfrage.
+          </p>
+          <div class="history-tags">
+            <span>Dichte Briefings</span>
+            <span>Transferfragen</span>
+            <span>Max. 6 Karten</span>
+          </div>
+        </div>
+        <div class="history-lessons" id="history-lessons"></div>
       </section>
 
       <section class="panel collapsed" id="liveticker">
@@ -293,8 +471,7 @@
       const sectionConfig = [
         { key: "wirtschaft", limit: 20 },
         { key: "politik", limit: 20 },
-        { key: "sport", limit: 20 },
-        { key: "history", limit: 5 }
+        { key: "sport", limit: 20 }
       ];
 
       const formatTime = (value) => {
@@ -357,6 +534,89 @@
         return li;
       }
 
+      function buildHistoryLessonCard(lesson) {
+        const card = document.createElement("article");
+        card.className = "history-card";
+
+        if (lesson.themeLabel) {
+          const pill = document.createElement("span");
+          pill.className = "lesson-pill";
+          pill.textContent = lesson.themeLabel;
+          card.append(pill);
+        }
+
+        const title = document.createElement("h3");
+        const anchor = document.createElement("a");
+        anchor.href = lesson.link || "#";
+        anchor.target = "_blank";
+        anchor.rel = "noopener noreferrer";
+        anchor.textContent = lesson.title;
+        title.append(anchor);
+        card.append(title);
+
+        if (lesson.context) {
+          const context = document.createElement("p");
+          context.className = "history-context";
+          context.textContent = lesson.context;
+          card.append(context);
+        }
+
+        if (lesson.keyTakeaways?.length) {
+          const takeaways = document.createElement("ul");
+          takeaways.className = "history-takeaways";
+          lesson.keyTakeaways.forEach((line) => {
+            const li = document.createElement("li");
+            li.textContent = line;
+            takeaways.append(li);
+          });
+          card.append(takeaways);
+        }
+
+        const narrative = document.createElement("div");
+        narrative.className = "history-narrative";
+        [lesson.impact, lesson.consequences, lesson.lessonsLearned, lesson.parallels]
+          .filter(Boolean)
+          .forEach((text) => {
+            const p = document.createElement("p");
+            p.textContent = text;
+            narrative.append(p);
+          });
+        if (narrative.children.length) card.append(narrative);
+
+        if (lesson.reflection) {
+          const reflection = document.createElement("p");
+          reflection.className = "history-reflection";
+          reflection.textContent = lesson.reflection;
+          card.append(reflection);
+        }
+
+        const metaRow = document.createElement("div");
+        metaRow.className = "history-meta-row";
+        const source = document.createElement("span");
+        source.textContent = lesson.source || "Quelle unbekannt";
+        const time = document.createElement("time");
+        time.dateTime = lesson.publishedAt || "";
+        time.textContent = formatTime(lesson.publishedAt);
+        metaRow.append(source, time);
+        card.append(metaRow);
+
+        return card;
+      }
+
+      function renderHistoryLessons(data) {
+        const container = document.getElementById("history-lessons");
+        if (!container) return;
+        container.innerHTML = "";
+        const lessons = data.historyLessons || [];
+        if (!lessons.length) {
+          const fallback = document.createElement("p");
+          fallback.textContent = "Noch keine Lernkarten – bitte später erneut laden.";
+          container.append(fallback);
+          return;
+        }
+        lessons.forEach((lesson) => container.append(buildHistoryLessonCard(lesson)));
+      }
+
       async function loadNews() {
         try {
           const res = await fetch(`news.json?cb=${Date.now()}`);
@@ -377,6 +637,8 @@
               stories.append(fallback);
             }
           });
+
+          renderHistoryLessons(data);
         } catch (error) {
           console.error(error);
         }

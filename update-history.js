@@ -33,6 +33,7 @@ const PRE_MODERN_YEAR = 1800; // vor 1800
 const MODERN_THRESHOLD = 1800; // neuere Geschichte
 const MODERN_COUNT = 4;
 const HISTORY_TOTAL = MODERN_COUNT + 1;
+const HISTORY_LESSON_LIMIT = 6;
 
 const rssParser = new Parser({
   headers: {
@@ -121,68 +122,151 @@ function slugify(value) {
 
 const HISTORY_LEARNING_THEMES = [
   {
+    id: "religion",
+    label: "Religionskonflikte",
+    topic: "Glauben & Identität",
     keywords: ["islam", "religion", "moschee", "kirche", "kopftuch", "glauben", "theolog"],
-    impact: "Auswirkungen (Einordnung): {{source}} nutzt \"{{title}}\" als Fallstudie und zeigt anhand von {{detail}} , wie Religionspolitik, Schulalltag und Minderheitenschutz neu austariert werden – inklusive der Institutionen, die sofort reagieren müssen.",
-    consequences: "Folgen (Kettenreaktion): {{source}} verfolgt Gerichtsverfahren, Gesetzesinitiativen und gesellschaftliche Allianzen, die langfristig aus diesem Streit um Glaubensfreiheit und staatliche Neutralität erwachsen.",
-    lesson: "Lerneffekt: {{source}} arbeitet heraus, dass tragfähige Integrationskonzepte Transparenz, Schutz vor Extremismus und Räume für pluralistische Spiritualität brauchen – eine Erkenntnis, die die Analyse von \"{{title}}\" untermauert.",
-    parallels: "Parallelen heute: {{source}} verbindet Debatten über religiöse Symbole, Moscheefinanzierung und Schulpolitik mit aktuellen Auseinandersetzungen um Demokratie und sozialen Frieden und stellt explizit Verknüpfungen zu \"{{title}}\" her."
+    impact:
+      "Auswirkungen: {{source}} nutzt \"{{title}}\" als Fallstudie und zeigt anhand von {{detail}}, wie Religionspolitik, Schulalltag und Minderheitenschutz neu austariert werden – inklusive der Institutionen, die sofort reagieren müssen.",
+    consequences:
+      "Folgen: {{source}} verfolgt Gerichtsverfahren, Gesetzesinitiativen und gesellschaftliche Allianzen, die langfristig aus diesem Streit um Glaubensfreiheit und staatliche Neutralität erwachsen.",
+    lesson:
+      "Lerneffekt: {{source}} arbeitet heraus, dass tragfähige Integrationskonzepte Transparenz, Schutz vor Extremismus und Räume für pluralistische Spiritualität brauchen – eine Erkenntnis, die die Analyse von \"{{title}}\" untermauert.",
+    parallels:
+      "Parallelen heute: {{source}} verbindet Debatten über religiöse Symbole, Moscheefinanzierung und Schulpolitik mit aktuellen Auseinandersetzungen um Demokratie und sozialen Frieden und stellt explizit Verknüpfungen zu \"{{title}}\" her.",
+    reflection:
+      "Reflexion: Wo kollidieren Freiheitsrechte heute mit Sicherheitsinteressen – und was lässt sich aus \"{{title}}\" für einen fairen Ausgleich lernen?"
   },
   {
+    id: "konflikt",
+    label: "Konflikte & Sicherheit",
+    topic: "Krisen & Waffenstillstände",
     keywords: ["krieg", "konflikt", "milit", "front", "waffe", "soldat", "angriff", "besatzung"],
-    impact: "Auswirkungen (Einordnung): {{source}} beschreibt, wie \"{{title}}\" – konkret {{detail}} – Kräfteverhältnisse, Bündnisse und Sicherheitsarchitekturen verschiebt und welche Akteure Terrain gewinnen oder verlieren.",
-    consequences: "Folgen (Langfristperspektive): {{source}} verfolgt Effekte von Wiederaufbau über Flüchtlingsbewegungen bis hin zu neuem internationalen Recht, die aus den beschriebenen Operationen resultieren.",
-    lesson: "Lerneffekt: {{source}} extrahiert, welche diplomatischen, humanitären oder militärischen Strategien in der geschilderten Lage funktionierten und welche Eskalationsmuster künftig vermieden werden sollten.",
-    parallels: "Parallelen heute: {{source}} legt offen, wie Narrative und Erfahrungen aus \"{{title}}\" in aktuelle Kriege, Friedensmissionen oder Rüstungsdebatten hineinwirken."
+    impact:
+      "Auswirkungen: {{source}} beschreibt, wie \"{{title}}\" – konkret {{detail}} – Kräfteverhältnisse, Bündnisse und Sicherheitsarchitekturen verschiebt und welche Akteure Terrain gewinnen oder verlieren.",
+    consequences:
+      "Folgen: {{source}} verfolgt Effekte von Wiederaufbau über Flüchtlingsbewegungen bis hin zu neuem internationalen Recht, die aus den beschriebenen Operationen resultieren.",
+    lesson:
+      "Lerneffekt: {{source}} extrahiert, welche diplomatischen, humanitären oder militärischen Strategien in der geschilderten Lage funktionierten und welche Eskalationsmuster künftig vermieden werden sollten.",
+    parallels:
+      "Parallelen heute: {{source}} legt offen, wie Narrative und Erfahrungen aus \"{{title}}\" in aktuelle Kriege, Friedensmissionen oder Rüstungsdebatten hineinwirken.",
+    reflection:
+      "Reflexion: Welche roten Linien sollten Entscheidungsträger heute ziehen, um die Fehler aus \"{{title}}\" nicht zu wiederholen?"
   },
   {
+    id: "kolonial",
+    label: "Kolonialerbe",
+    topic: "Imperien & Erinnerung",
     keywords: ["kolon", "imperium", "reich", "expansion", "mission", "kolonie", "imperial"],
-    impact: "Auswirkungen (Kolonialordnung): {{source}} beleuchtet anhand von \"{{title}}\" , wie {{detail}} Machtprojektion, Ausbeutung und Wissensproduktion in kolonialen Strukturen verankerte.",
-    consequences: "Folgen (Nachwirkungen): {{source}} verfolgt Grenzziehungen, ökonomische Abhängigkeiten und Erinnerungspolitiken, die weit über das Ende des Kolonialismus hinaus bestehen bleiben.",
-    lesson: "Lerneffekt: {{source}} extrahiert Reform- und Wiedergutmachungsansätze, die Gerechtigkeit fördern können, und zeigt, wo vorschnelle Narrative koloniale Blindflecken reproduzieren.",
-    parallels: "Parallelen heute: {{source}} verbindet koloniale Kontinuitäten mit Debatten über globale Lieferketten, Restitution und geopolitische Spannungen und zieht Linien zu aktuellen Konflikten."
+    impact:
+      "Auswirkungen: {{source}} beleuchtet anhand von \"{{title}}\", wie {{detail}} Machtprojektion, Ausbeutung und Wissensproduktion in kolonialen Strukturen verankerte.",
+    consequences:
+      "Folgen: {{source}} verfolgt Grenzziehungen, ökonomische Abhängigkeiten und Erinnerungspolitiken, die weit über das Ende des Kolonialismus hinaus bestehen bleiben.",
+    lesson:
+      "Lerneffekt: {{source}} extrahiert Reform- und Wiedergutmachungsansätze, die Gerechtigkeit fördern können, und zeigt, wo vorschnelle Narrative koloniale Blindflecken reproduzieren.",
+    parallels:
+      "Parallelen heute: {{source}} verbindet koloniale Kontinuitäten mit Debatten über globale Lieferketten, Restitution und geopolitische Spannungen und zieht Linien zu aktuellen Konflikten.",
+    reflection:
+      "Reflexion: Welche Verantwortung tragen heutige Institutionen für koloniale Kontinuitäten, die in \"{{title}}\" sichtbar werden?"
   },
   {
+    id: "politik",
+    label: "Demokratien",
+    topic: "Politik & Institutionen",
     keywords: ["wahl", "partei", "demokr", "regierung", "kanzler", "bundestag", "parlament", "präsident"],
-    impact: "Auswirkungen (Politikbetrieb): {{source}} zeigt, wie \"{{title}}\" mit den beschriebenen Entwicklungen – {{detail}} – Machtverhältnisse neu sortiert und Reformstau oder Bewegungen offenlegt.",
-    consequences: "Folgen (Regelwerk): {{source}} verfolgt Gesetzespakete, Koalitionswechsel und gesellschaftliche Erwartungen, die aus diesem politischen Schwenk hervorgehen.",
-    lesson: "Lerneffekt: {{source}} erklärt, welche Kommunikations- und Beteiligungsstrategien Vertrauen schaffen und wo Institutionen widerstandsfähiger werden müssen, wenn Situationen wie in \"{{title}}\" auftreten.",
-    parallels: "Parallelen heute: {{source}} zieht Linien zu aktuellen Wahlkämpfen, Populismusdebatten und Fragen nach repräsentativer Legitimation und nutzt die Erkenntnisse aus \"{{title}}\" als Bezugsrahmen."
+    impact:
+      "Auswirkungen: {{source}} zeigt, wie \"{{title}}\" mit den beschriebenen Entwicklungen – {{detail}} – Machtverhältnisse neu sortiert und Reformstau oder Bewegungen offenlegt.",
+    consequences:
+      "Folgen: {{source}} verfolgt Gesetzespakete, Koalitionswechsel und gesellschaftliche Erwartungen, die aus diesem politischen Schwenk hervorgehen.",
+    lesson:
+      "Lerneffekt: {{source}} erklärt, welche Kommunikations- und Beteiligungsstrategien Vertrauen schaffen und wo Institutionen widerstandsfähiger werden müssen, wenn Situationen wie in \"{{title}}\" auftreten.",
+    parallels:
+      "Parallelen heute: {{source}} zieht Linien zu aktuellen Wahlkämpfen, Populismusdebatten und Fragen nach repräsentativer Legitimation und nutzt die Erkenntnisse aus \"{{title}}\" als Bezugsrahmen.",
+    reflection:
+      "Reflexion: Welche demokratischen Werkzeuge würdest du einsetzen, um ähnliche Spannungen wie in \"{{title}}\" zu entschärfen?"
   },
   {
+    id: "kultur",
+    label: "Kultur & Erinnerung",
+    topic: "Kunst & Identität",
     keywords: ["literatur", "kultur", "kunst", "schriftsteller", "autor", "lyrik", "theater", "musik", "film"],
-    impact: "Auswirkungen (Kultur): {{source}} analysiert, wie \"{{title}}\" – konkret {{detail}} – ästhetische Strömungen, Subkulturen und kulturelle Identität prägt.",
-    consequences: "Folgen (Kanon): {{source}} beschreibt Kanonbildungen, Förderstrukturen und internationale Rezeption, die aus dem künstlerischen Impuls hervorgehen.",
-    lesson: "Lerneffekt: {{source}} zeigt, wie künstlerische Experimente gesellschaftliche Selbstbilder hinterfragen und neue Ausdrucksformen etablieren – ein Kernmotiv der Analyse von \"{{title}}\".",
-    parallels: "Parallelen heute: {{source}} verknüpft das Motiv mit Debatten zu kultureller Aneignung, digitalen Plattformen oder Popkultur und leitet konkrete Handlungsimpulse für heutige Kulturschaffende ab."
+    impact:
+      "Auswirkungen: {{source}} analysiert, wie \"{{title}}\" – konkret {{detail}} – ästhetische Strömungen, Subkulturen und kulturelle Identität prägt.",
+    consequences:
+      "Folgen: {{source}} beschreibt Kanonbildungen, Förderstrukturen und internationale Rezeption, die aus dem künstlerischen Impuls hervorgehen.",
+    lesson:
+      "Lerneffekt: {{source}} zeigt, wie künstlerische Experimente gesellschaftliche Selbstbilder hinterfragen und neue Ausdrucksformen etablieren – ein Kernmotiv der Analyse von \"{{title}}\".",
+    parallels:
+      "Parallelen heute: {{source}} verknüpft das Motiv mit Debatten zu kultureller Aneignung, digitalen Plattformen oder Popkultur und leitet konkrete Handlungsimpulse für heutige Kulturschaffende ab.",
+    reflection:
+      "Reflexion: Wo entdeckst du heute künstlerische Strategien, die ähnlich unbequem sind wie die in \"{{title}}\" beschriebenen?"
   },
   {
+    id: "wirtschaft",
+    label: "Ökonomie",
+    topic: "Wirtschaft & Wandel",
     keywords: ["wirtschaft", "industrie", "markt", "arbeit", "finanz", "innovation", "technologie", "unternehmen"],
-    impact: "Auswirkungen (Ökonomie): {{source}} erklärt, wie \"{{title}}\" und die beschriebenen Entwicklungen – {{detail}} – Lieferketten, Arbeitsmärkte und Wohlstandserwartungen neu justieren.",
-    consequences: "Folgen (Steuerung): {{source}} zeigt Investitionswellen, Krisenprävention oder Regulierungen, die aus dem wirtschaftlichen Impuls folgen und benennt Gewinner wie Verlierer.",
-    lesson: "Lerneffekt: {{source}} destilliert Best Practices für Innovationspolitik, soziale Abfederung und strategische Unabhängigkeit, die direkt aus den im Artikel diskutierten Erfahrungen hervorgehen.",
-    parallels: "Parallelen heute: {{source}} verbindet historische Konjunkturen mit aktuellen Diskussionen über Resilienz, KI oder Transformationsfonds und nutzt \"{{title}}\" als Argumentationsbasis."
+    impact:
+      "Auswirkungen: {{source}} erklärt, wie \"{{title}}\" und die beschriebenen Entwicklungen – {{detail}} – Lieferketten, Arbeitsmärkte und Wohlstandserwartungen neu justieren.",
+    consequences:
+      "Folgen: {{source}} zeigt Investitionswellen, Krisenprävention oder Regulierungen, die aus dem wirtschaftlichen Impuls folgen und benennt Gewinner wie Verlierer.",
+    lesson:
+      "Lerneffekt: {{source}} destilliert Best Practices für Innovationspolitik, soziale Abfederung und strategische Unabhängigkeit, die direkt aus den im Artikel diskutierten Erfahrungen hervorgehen.",
+    parallels:
+      "Parallelen heute: {{source}} verbindet historische Konjunkturen mit aktuellen Diskussionen über Resilienz, KI oder Transformationsfonds und nutzt \"{{title}}\" als Argumentationsbasis.",
+    reflection:
+      "Reflexion: Welche wirtschaftspolitischen Leitplanken wären heute nötig, um ähnliche Fehlentwicklungen wie in \"{{title}}\" zu vermeiden?"
   },
   {
+    id: "gesellschaft",
+    label: "Gesellschaft",
+    topic: "Zivilgesellschaft & Rechte",
     keywords: ["gesellschaft", "bewegung", "protest", "gerechtigkeit", "frauen", "rechte", "bildung", "sozial"],
-    impact: "Auswirkungen (Gesellschaft): {{source}} zeigt, wie \"{{title}}\" mit den beschriebenen Dynamiken – {{detail}} – Normen, Rollenbilder und Teilhaberechte verschiebt.",
-    consequences: "Folgen (Strukturen): {{source}} dokumentiert Reformen, Netzwerke und kulturelle Lernprozesse, die aus dem zivilgesellschaftlichen Druck entstehen.",
-    lesson: "Lerneffekt: {{source}} erklärt, wie Beharrlichkeit, Bündnisse und strategische Kommunikation strukturellen Wandel ermöglichen und welche Stolpersteine aus \"{{title}}\" abzuleiten sind.",
-    parallels: "Parallelen heute: {{source}} spiegelt die Forderungen in aktuellen Bewegungen für Klimaschutz, Gleichstellung oder digitale Rechte an den Erfahrungen, die in \"{{title}}\" sichtbar werden."
+    impact:
+      "Auswirkungen: {{source}} zeigt, wie \"{{title}}\" mit den beschriebenen Dynamiken – {{detail}} – Normen, Rollenbilder und Teilhaberechte verschiebt.",
+    consequences:
+      "Folgen: {{source}} dokumentiert Reformen, Netzwerke und kulturelle Lernprozesse, die aus dem zivilgesellschaftlichen Druck entstehen.",
+    lesson:
+      "Lerneffekt: {{source}} erklärt, wie Beharrlichkeit, Bündnisse und strategische Kommunikation strukturellen Wandel ermöglichen und welche Stolpersteine aus \"{{title}}\" abzuleiten sind.",
+    parallels:
+      "Parallelen heute: {{source}} spiegelt die Forderungen in aktuellen Bewegungen für Klimaschutz, Gleichstellung oder digitale Rechte an den Erfahrungen, die in \"{{title}}\" sichtbar werden.",
+    reflection:
+      "Reflexion: Welche heutigen Bewegungen greifen Strategien auf, die \"{{title}}\" bereits vorgedacht hat?"
   },
   {
+    id: "klima",
+    label: "Klima & Umwelt",
+    topic: "Ökologie & Zukunft",
     keywords: ["klima", "umwelt", "natur", "ressource", "energie", "planet", "oekologie", "umwelt"],
-    impact: "Auswirkungen (Umwelt): {{source}} analysiert, wie \"{{title}}\" mit den geschilderten Befunden – {{detail}} – Ökosysteme, Infrastruktur und Risikowahrnehmung verändert.",
-    consequences: "Folgen (Lebenswelten): {{source}} beschreibt Gesetzgebung, technologische Innovationen und soziale Bewegungen, die als Antwort auf ökologische Krisen entstehen.",
-    lesson: "Lerneffekt: {{source}} zeigt, welche Governance-Modelle Klimaanpassung, Nachhaltigkeit und Gerechtigkeit miteinander verbinden können und leitet Empfehlungen direkt aus \"{{title}}\" ab.",
-    parallels: "Parallelen heute: {{source}} verknüpft historische Umweltkonflikte mit aktuellen Klimagipfeln, Energiekrisen oder Transformationsstrategien und nutzt das Beispiel aus \"{{title}}\" als Argumentationsanker."
+    impact:
+      "Auswirkungen: {{source}} analysiert, wie \"{{title}}\" mit den geschilderten Befunden – {{detail}} – Ökosysteme, Infrastruktur und Risikowahrnehmung verändert.",
+    consequences:
+      "Folgen: {{source}} beschreibt Gesetzgebung, technologische Innovationen und soziale Bewegungen, die als Antwort auf ökologische Krisen entstehen.",
+    lesson:
+      "Lerneffekt: {{source}} zeigt, welche Governance-Modelle Klimaanpassung, Nachhaltigkeit und Gerechtigkeit miteinander verbinden können und leitet Empfehlungen direkt aus \"{{title}}\" ab.",
+    parallels:
+      "Parallelen heute: {{source}} verknüpft historische Umweltkonflikte mit aktuellen Klimagipfeln, Energiekrisen oder Transformationsstrategien und nutzt das Beispiel aus \"{{title}}\" als Argumentationsanker.",
+    reflection:
+      "Reflexion: Welche lokalen Entscheidungen könntest du beeinflussen, um die in \"{{title}}\" beschriebenen Umweltfolgen zu begrenzen?"
   }
 ];
 
+const DEFAULT_REFLECTION =
+  "Reflexion: Welche Linien lassen sich von \"{{title}}\" zu aktuellen Entscheidungen ziehen – und was würdest du heute anders machen?";
+
 const DEFAULT_HISTORY_THEME = {
-  impact: "Auswirkungen (Kontext): {{source}} ordnet \"{{title}}\" und die beschriebenen Entwicklungen – {{detail}} – im größeren historischen Kontext ein und zeigt, welche Institutionen, Regionen oder Milieus unmittelbar betroffen waren.",
-  consequences: "Folgen (Zeithorizont): {{source}} zeichnet nach, welche politischen Beschlüsse, ökonomischen Trends oder kulturellen Narrative langfristig bestehen blieben.",
-  lesson: "Lerneffekt: {{source}} extrahiert Prinzipien für strategisches Handeln, Risikobewertung und Resilienz, die sich aus der Fallstudie ableiten lassen.",
-  parallels: "Parallelen heute: {{source}} zieht Bezüge zu aktuellen Entwicklungen und lädt dazu ein, Gegenwartspolitik im Spiegel der Vergangenheit zu reflektieren – immer mit Blick auf die konkreten Lehren aus \"{{title}}\"."
+  id: "zeitgeschichte",
+  label: "Zeitgeschichte",
+  topic: "Historische Perspektive",
+  impact:
+    "Auswirkungen: {{source}} ordnet \"{{title}}\" und die beschriebenen Entwicklungen – {{detail}} – im größeren historischen Kontext ein und zeigt, welche Institutionen, Regionen oder Milieus unmittelbar betroffen waren.",
+  consequences:
+    "Folgen: {{source}} zeichnet nach, welche politischen Beschlüsse, ökonomischen Trends oder kulturellen Narrative langfristig bestehen blieben.",
+  lesson:
+    "Lerneffekt: {{source}} extrahiert Prinzipien für strategisches Handeln, Risikobewertung und Resilienz, die sich aus der Fallstudie ableiten lassen.",
+  parallels:
+    "Parallelen heute: {{source}} zieht Bezüge zu aktuellen Entwicklungen und lädt dazu ein, Gegenwartspolitik im Spiegel der Vergangenheit zu reflektieren – immer mit Blick auf die konkreten Lehren aus \"{{title}}\".",
+  reflection: DEFAULT_REFLECTION
 };
 
 function fillTemplate(template, replacements) {
@@ -202,18 +286,30 @@ function selectHistoryTheme(detail, title) {
   return DEFAULT_HISTORY_THEME;
 }
 
+function buildKeyTakeaways(title, sourceLabel, themeLabel) {
+  return [
+    `${themeLabel}: ${sourceLabel} nutzt "${title}" als Fallstudie, um historische Entscheidungsräume sichtbar zu machen.`,
+    `Transfer: Welche Situationen heute erinnern dich an "${title}" und welche Antworten wären möglich?`
+  ];
+}
+
 function buildLearningNarrative(baseSummary, sourceLabel, title) {
   const detail = baseSummary || `Der Beitrag "${title}" beleuchtet ein Schlüsselereignis der Zeitgeschichte.`;
   const theme = selectHistoryTheme(detail, title);
   const context = { source: sourceLabel, detail, title };
+  const reflectionTemplate = theme.reflection || DEFAULT_REFLECTION;
 
-  return [
-    `Ereignis: ${detail}`,
-    fillTemplate(theme.impact, context),
-    fillTemplate(theme.consequences, context),
-    fillTemplate(theme.lesson, context),
-    fillTemplate(theme.parallels, context)
-  ];
+  return {
+    topic: theme.topic || DEFAULT_HISTORY_THEME.topic,
+    themeLabel: theme.label || DEFAULT_HISTORY_THEME.label,
+    context: `Kontext: ${detail}`,
+    impact: fillTemplate(theme.impact || DEFAULT_HISTORY_THEME.impact, context),
+    consequences: fillTemplate(theme.consequences || DEFAULT_HISTORY_THEME.consequences, context),
+    lessons: fillTemplate(theme.lesson || DEFAULT_HISTORY_THEME.lesson, context),
+    parallels: fillTemplate(theme.parallels || DEFAULT_HISTORY_THEME.parallels, context),
+    reflection: fillTemplate(reflectionTemplate, context),
+    keyTakeaways: buildKeyTakeaways(title, sourceLabel, theme.label || DEFAULT_HISTORY_THEME.label)
+  };
 }
 
 function buildEntryFromEvent(event) {
@@ -300,13 +396,11 @@ function normalizeWikipediaEvents(events = []) {
   return normalized.sort((a, b) => b.year - a.year);
 }
 
-function buildExternalHistoryEntry(item, source) {
+function normalizeExternalArticle(item, source) {
   if (!item || !source) return null;
   const title = sanitizeText(item.title || "Historischer Kontext");
-  if (!title) {
-    return null;
-  }
-  const baseSummary = sanitizeText(
+  if (!title) return null;
+  const summary = sanitizeText(
     item.contentSnippet || item.content || item.summary || item.description || "Analyse und Hintergrund aus den Leitmedien."
   );
   const slug = slugify(`${source.id}-${title}`);
@@ -315,17 +409,58 @@ function buildExternalHistoryEntry(item, source) {
   const publishedIso = Number.isNaN(publishedDate.getTime()) ? new Date().toISOString() : publishedDate.toISOString();
   const dateToken = (publishedIso.slice(0, 10) || "undated").replace(/-/g, "");
   const link = item.link || item.guid || "https://www.zeit.de/geschichte";
-  const narrative = buildLearningNarrative(baseSummary, source.label, title);
 
   return {
-    id: `history-${source.id}-${slug}-${dateToken}`,
+    idBase: `history-${source.id}-${slug}`,
     title,
-    summary: narrative[0],
-    paragraphs: narrative,
+    summary,
     link,
     source: source.label,
     publishedAt: publishedIso,
-    year: null
+    dateToken
+  };
+}
+
+function buildLessonFromArticle(article) {
+  if (!article) return null;
+  const narrative = buildLearningNarrative(article.summary, article.source, article.title);
+  return {
+    id: `${article.idBase}-${article.dateToken}`,
+    title: article.title,
+    topic: narrative.topic,
+    themeLabel: narrative.themeLabel,
+    source: article.source,
+    link: article.link,
+    publishedAt: article.publishedAt,
+    context: narrative.context,
+    impact: narrative.impact,
+    consequences: narrative.consequences,
+    lessonsLearned: narrative.lessons,
+    parallels: narrative.parallels,
+    reflection: narrative.reflection,
+    keyTakeaways: narrative.keyTakeaways
+  };
+}
+
+function buildLessonFromHistoricalEvent(event) {
+  if (!event) return null;
+  const summary = sanitizeText(event.summary || event.paragraphs?.[0] || "Historischer Kontext");
+  const narrative = buildLearningNarrative(summary, event.source || HISTORY_SOURCE, event.title);
+  return {
+    id: `${event.id}-lesson`,
+    title: event.title,
+    topic: narrative.topic,
+    themeLabel: narrative.themeLabel,
+    source: event.source || HISTORY_SOURCE,
+    link: event.link,
+    publishedAt: event.publishedAt,
+    context: narrative.context,
+    impact: narrative.impact,
+    consequences: narrative.consequences,
+    lessonsLearned: narrative.lessons,
+    parallels: narrative.parallels,
+    reflection: narrative.reflection,
+    keyTakeaways: narrative.keyTakeaways
   };
 }
 
@@ -340,7 +475,7 @@ async function fetchExternalHistoryArticles() {
         const items = Array.isArray(feed?.items) ? feed.items : [];
         return items
           .slice(0, source.limit || 1)
-          .map((entry) => buildExternalHistoryEntry(entry, source))
+          .map((entry) => normalizeExternalArticle(entry, source))
           .filter(Boolean);
       } catch (error) {
         console.warn(`RSS-Feed für ${source.label} konnte nicht geladen werden:`, error.message);
@@ -381,13 +516,46 @@ async function fetchHistoryItems() {
   return [...modernEntries, preEntry];
 }
 
+function buildHistoryLessons(externalArticles, historyItems) {
+  const seen = new Set();
+  const lessonsFromArticles = externalArticles
+    .map((article) => buildLessonFromArticle(article))
+    .filter(Boolean)
+    .sort((a, b) => new Date(b.publishedAt || 0).getTime() - new Date(a.publishedAt || 0).getTime());
+
+  const lessons = [];
+  for (const lesson of lessonsFromArticles) {
+    if (lessons.length >= HISTORY_LESSON_LIMIT) break;
+    if (seen.has(lesson.id)) continue;
+    seen.add(lesson.id);
+    lessons.push(lesson);
+  }
+
+  if (lessons.length < HISTORY_LESSON_LIMIT) {
+    const fallbackLessons = historyItems.map((event) => buildLessonFromHistoricalEvent(event)).filter(Boolean);
+    for (const fallback of fallbackLessons) {
+      if (lessons.length >= HISTORY_LESSON_LIMIT) break;
+      if (seen.has(fallback.id)) continue;
+      seen.add(fallback.id);
+      lessons.push(fallback);
+    }
+  }
+
+  return lessons;
+}
+
 async function loadExisting() {
   try {
     const raw = await fs.readFile(DATA_FILE, "utf8");
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    parsed.categories = parsed.categories || { wirtschaft: [], politik: [], sport: [], history: [] };
+    parsed.historyLessons = parsed.historyLessons || [];
+    return parsed;
   } catch {
     return {
       updatedAt: null,
+      historyUpdatedAt: null,
+      historyLessons: [],
       categories: { wirtschaft: [], politik: [], sport: [], history: [] }
     };
   }
@@ -403,25 +571,23 @@ async function updateHistory() {
     fetchHistoryItems(),
     fetchExternalHistoryArticles()
   ]);
-  const sortedExternal = [...externalArticles].sort((a, b) => {
-    const dateA = new Date(a.publishedAt || 0).getTime();
-    const dateB = new Date(b.publishedAt || 0).getTime();
-    return dateB - dateA;
-  });
-  const combinedHistory = sortedExternal.length ? sortedExternal : historyItems;
+  const lessons = buildHistoryLessons(externalArticles, historyItems);
+  const timestamp = new Date().toISOString();
 
   const next = {
     ...existing,
-    updatedAt: new Date().toISOString(),
+    updatedAt: timestamp,
+    historyUpdatedAt: timestamp,
+    historyLessons: lessons,
     categories: {
       ...existing.categories,
-      history: combinedHistory
+      history: historyItems
     }
   };
 
   await persist(next);
   console.log(
-    `Geschichte aktualisiert (${historyItems.length} On-this-day + ${externalArticles.length} Artikel von ZEIT/SZ/SPIEGEL).`
+    `Geschichte aktualisiert (${lessons.length} Lernkarten + ${historyItems.length} On-this-day-Einträge, ${externalArticles.length} Artikelquellen).`
   );
 }
 
