@@ -14,19 +14,19 @@ const EXTERNAL_HISTORY_SOURCES = [
     id: "zeit",
     label: "ZEIT Geschichte",
     rss: "https://newsfeed.zeit.de/wissen/zeit-geschichte/index",
-    limit: 1
+    limit: 3
   },
   {
     id: "sueddeutsche",
     label: "Süddeutsche Zeitung",
     rss: "https://rss.sueddeutsche.de/rss/leben",
-    limit: 1
+    limit: 3
   },
   {
     id: "spiegel",
     label: "SPIEGEL Geschichte",
     rss: "https://www.spiegel.de/geschichte/index.rss",
-    limit: 1
+    limit: 3
   }
 ];
 const PRE_MODERN_YEAR = 1800; // vor 1800
@@ -119,14 +119,100 @@ function slugify(value) {
     .slice(0, 48) || "entry";
 }
 
+const HISTORY_LEARNING_THEMES = [
+  {
+    keywords: ["islam", "religion", "moschee", "kirche", "kopftuch", "glauben", "theolog"],
+    impact: "Auswirkungen: {{source}} zeigt, wie \"{{detail}}\" Religionspolitik, Schulalltag und Minderheitenschutz neu ausbalanciert und welche Institutionen reagieren müssen.",
+    consequences: "Folgen: {{source}} dokumentiert Gerichtsverfahren, Gesetzesinitiativen und gesellschaftliche Allianzen, die aus dem Streit um Glaubensfreiheit und staatliche Neutralität entstehen.",
+    lesson: "Lerneffekt: {{source}} arbeitet heraus, dass tragfähige Integrationskonzepte Transparenz, Schutz vor Extremismus und Räume für pluralistische Spiritualität erfordern.",
+    parallels: "Parallelen heute: {{source}} verbindet Auseinandersetzungen um religiöse Symbole, Moscheefinanzierung und Schulpolitik mit aktuellen Debatten zu Demokratie und sozialem Frieden."
+  },
+  {
+    keywords: ["krieg", "konflikt", "milit", "front", "waffe", "soldat", "angriff", "besatzung"],
+    impact: "Auswirkungen: {{source}} beschreibt, wie \"{{detail}}\" Kräfteverhältnisse, Bündnisse und Sicherheitsarchitekturen verschiebt.",
+    consequences: "Folgen: {{source}} verfolgt langfristige Effekte – vom Wiederaufbau über Flüchtlingsbewegungen bis zu neuem internationalen Recht.",
+    lesson: "Lerneffekt: {{source}} extrahiert, welche diplomatischen, humanitären oder militärischen Strategien funktionierten und welche Eskalationsmuster sich vermeiden lassen.",
+    parallels: "Parallelen heute: {{source}} legt offen, wie Narrative aus {{detail}} bis in aktuelle Kriege, Friedensmissionen oder Rüstungsdebatten hineinwirken."
+  },
+  {
+    keywords: ["kolon", "imperium", "reich", "expansion", "mission", "kolonie", "imperial"],
+    impact: "Auswirkungen: {{source}} beleuchtet, wie \"{{detail}}\" Machtprojektion, Ausbeutung und Wissensproduktion in kolonialen Strukturen verankerte.",
+    consequences: "Folgen: {{source}} verfolgt Grenzziehungen, ökonomische Abhängigkeiten und Erinnerungspolitiken, die nach dem Kolonialismus fortbestehen.",
+    lesson: "Lerneffekt: {{source}} extrahiert, welche Reformen oder Wiedergutmachungsansätze Gerechtigkeit fördern können und wo vorschnelle Narrative koloniale Blindflecken reproduzieren.",
+    parallels: "Parallelen heute: {{source}} verbindet koloniale Kontinuitäten mit Debatten über globale Lieferketten, Restitution und geopolitische Spannungen."
+  },
+  {
+    keywords: ["wahl", "partei", "demokr", "regierung", "kanzler", "bundestag", "parlament", "präsident"],
+    impact: "Auswirkungen: {{source}} zeigt, wie \"{{detail}}\" Machtverhältnisse, Reformstau oder neue Bewegungen im demokratischen System freilegt.",
+    consequences: "Folgen: {{source}} verfolgt Gesetzespakete, Koalitionswechsel und gesellschaftliche Erwartungen, die aus dem politischen Schwenk resultieren.",
+    lesson: "Lerneffekt: {{source}} erklärt, welche Kommunikations- und Beteiligungsstrategien Vertrauen schaffen und wo Institutionen widerstandsfähiger werden müssen.",
+    parallels: "Parallelen heute: {{source}} zieht Linien zu aktuellen Wahlkämpfen, Populismusdebatten und Fragen nach repräsentativer Legitimation."
+  },
+  {
+    keywords: ["literatur", "kultur", "kunst", "schriftsteller", "autor", "lyrik", "theater", "musik", "film"],
+    impact: "Auswirkungen: {{source}} analysiert, wie \"{{detail}}\" ästhetische Strömungen, Subkulturen und kulturelle Identität prägt.",
+    consequences: "Folgen: {{source}} beschreibt Kanonbildungen, Förderstrukturen und internationale Rezeption, die aus dem Impuls hervorgehen.",
+    lesson: "Lerneffekt: {{source}} zeigt, wie künstlerische Experimente gesellschaftliche Selbstbilder hinterfragen und neue Ausdrucksformen etablieren.",
+    parallels: "Parallelen heute: {{source}} verknüpft das Motiv mit gegenwärtigen Debatten zu kultureller Aneignung, digitalen Plattformen oder Popkultur."
+  },
+  {
+    keywords: ["wirtschaft", "industrie", "markt", "arbeit", "finanz", "innovation", "technologie", "unternehmen"],
+    impact: "Auswirkungen: {{source}} erklärt, wie \"{{detail}}\" Lieferketten, Arbeitsmärkte und Wohlstandserwartungen neu justiert.",
+    consequences: "Folgen: {{source}} zeigt Investitionswellen, Krisenprävention oder Regulierungen, die aus dem wirtschaftlichen Impuls folgen.",
+    lesson: "Lerneffekt: {{source}} destilliert Best Practices für Innovationspolitik, soziale Abfederung und strategische Unabhängigkeit.",
+    parallels: "Parallelen heute: {{source}} verbindet historische Konjunkturen mit aktuellen Diskussionen über Resilienz, KI oder Transformationsfonds."
+  },
+  {
+    keywords: ["gesellschaft", "bewegung", "protest", "gerechtigkeit", "frauen", "rechte", "bildung", "sozial"],
+    impact: "Auswirkungen: {{source}} zeigt, wie \"{{detail}}\" Normen, Rollenbilder und Teilhaberechte verschiebt.",
+    consequences: "Folgen: {{source}} dokumentiert Reformen, Netzwerke und kulturelle Lernprozesse, die aus zivilgesellschaftlichem Druck entstehen.",
+    lesson: "Lerneffekt: {{source}} erklärt, wie Beharrlichkeit, Bündnisse und strategische Kommunikation strukturellen Wandel ermöglichen.",
+    parallels: "Parallelen heute: {{source}} spiegelt die Forderungen in aktuellen Bewegungen für Klimaschutz, Gleichstellung oder digitale Rechte."
+  },
+  {
+    keywords: ["klima", "umwelt", "natur", "ressource", "energie", "planet", "oekologie", "umwelt"],
+    impact: "Auswirkungen: {{source}} analysiert, wie \"{{detail}}\" Ökosysteme, Infrastruktur und Risikowahrnehmung verändert.",
+    consequences: "Folgen: {{source}} beschreibt Gesetzgebung, technologische Innovationen und soziale Bewegungen, die als Antwort auf ökologische Krisen entstehen.",
+    lesson: "Lerneffekt: {{source}} zeigt, welche Governance-Modelle Klimaanpassung, Nachhaltigkeit und Gerechtigkeit miteinander verbinden können.",
+    parallels: "Parallelen heute: {{source}} verknüpft historische Umweltkonflikte mit aktuellen Klimagipfeln, Energiekrisen oder Transformationsstrategien."
+  }
+];
+
+const DEFAULT_HISTORY_THEME = {
+  impact: "Auswirkungen: {{source}} ordnet \"{{detail}}\" im größeren historischen Kontext ein und zeigt, welche Institutionen, Regionen oder Milieus unmittelbar betroffen waren.",
+  consequences: "Folgen: {{source}} zeichnet nach, welche politischen Beschlüsse, ökonomischen Trends oder kulturellen Narrative langfristig bestehen blieben.",
+  lesson: "Lerneffekt: {{source}} extrahiert Prinzipien für strategisches Handeln, Risikobewertung und Resilienz.",
+  parallels: "Parallelen heute: {{source}} zieht Bezüge zu aktuellen Entwicklungen und lädt dazu ein, Gegenwartspolitik im Spiegel der Vergangenheit zu reflektieren."
+};
+
+function fillTemplate(template, replacements) {
+  return template
+    .replace(/{{source}}/g, replacements.source)
+    .replace(/{{detail}}/g, replacements.detail)
+    .replace(/{{title}}/g, replacements.title);
+}
+
+function selectHistoryTheme(detail, title) {
+  const haystack = `${title} ${detail}`.toLowerCase();
+  for (const theme of HISTORY_LEARNING_THEMES) {
+    if (theme.keywords.some((keyword) => haystack.includes(keyword))) {
+      return theme;
+    }
+  }
+  return DEFAULT_HISTORY_THEME;
+}
+
 function buildLearningNarrative(baseSummary, sourceLabel, title) {
-  const fact = baseSummary || `Der Beitrag "${title}" beleuchtet ein Schlüsselereignis der Zeitgeschichte.`;
+  const detail = baseSummary || `Der Beitrag "${title}" beleuchtet ein Schlüsselereignis der Zeitgeschichte.`;
+  const theme = selectHistoryTheme(detail, title);
+  const context = { source: sourceLabel, detail, title };
+
   return [
-    `Ereignis: ${fact}`,
-    `Auswirkungen: ${sourceLabel} dokumentiert die direkten politischen, gesellschaftlichen oder kulturellen Verschiebungen, die das Ereignis auslöste, und beschreibt, welche Akteure an Einfluss gewannen oder verloren.`,
-    `Folgen: ${sourceLabel} zeigt, wie sich Entscheidungen und Reaktionen langfristig auf Institutionen, internationale Beziehungen oder Alltagsleben ausgewirkt haben.`,
-    `Lehre: ${sourceLabel} filtert heraus, welche Strategien erfolgreich waren, welche Fehler vermieden werden sollten und welches Wissen daraus abgeleitet wurde.`,
-    `Parallelen heute: ${sourceLabel} verknüpft das historische Motiv mit aktuellen Konflikten oder Chancen und lädt dazu ein, heutige Entwicklungen im Spiegel der Vergangenheit zu deuten.`
+    `Ereignis: ${detail}`,
+    fillTemplate(theme.impact, context),
+    fillTemplate(theme.consequences, context),
+    fillTemplate(theme.lesson, context),
+    fillTemplate(theme.parallels, context)
   ];
 }
 
@@ -227,11 +313,12 @@ function buildExternalHistoryEntry(item, source) {
   const rawPublished = item.isoDate || item.pubDate || new Date().toISOString();
   const publishedDate = new Date(rawPublished);
   const publishedIso = Number.isNaN(publishedDate.getTime()) ? new Date().toISOString() : publishedDate.toISOString();
+  const dateToken = (publishedIso.slice(0, 10) || "undated").replace(/-/g, "");
   const link = item.link || item.guid || "https://www.zeit.de/geschichte";
   const narrative = buildLearningNarrative(baseSummary, source.label, title);
 
   return {
-    id: `history-${source.id}-${slug}`,
+    id: `history-${source.id}-${slug}-${dateToken}`,
     title,
     summary: narrative[0],
     paragraphs: narrative,
@@ -316,8 +403,12 @@ async function updateHistory() {
     fetchHistoryItems(),
     fetchExternalHistoryArticles()
   ]);
-  // Prioritise journalistische Einschätzungen, damit die Website zuerst ZEIT/SZ/SPIEGEL zeigt
-  const combinedHistory = [...externalArticles, ...historyItems];
+  const sortedExternal = [...externalArticles].sort((a, b) => {
+    const dateA = new Date(a.publishedAt || 0).getTime();
+    const dateB = new Date(b.publishedAt || 0).getTime();
+    return dateB - dateA;
+  });
+  const combinedHistory = sortedExternal.length ? sortedExternal : historyItems;
 
   const next = {
     ...existing,
