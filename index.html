@@ -102,11 +102,46 @@
         margin: 0;
         text-transform: lowercase;
         font-size: 1.4rem;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+      }
+
+      .section-head h2:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
       }
 
       .section-head span {
         font-size: 0.85rem;
         color: var(--ink-soft);
+      }
+
+      section.panel > :not(.section-head) {
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+        padding-top: 1rem;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        section.panel > :not(.section-head) {
+          border-color: rgba(255, 255, 255, 0.15);
+        }
+      }
+
+      section.panel.collapsed > :not(.section-head) {
+        display: none;
+      }
+
+      .section-head h2::after {
+        content: "+";
+        font-size: 1.2rem;
+        line-height: 0.9;
+        color: var(--ink-soft);
+      }
+
+      section.panel:not(.collapsed) .section-head h2::after {
+        content: "-";
       }
 
       ol.stories {
@@ -192,7 +227,7 @@
     <main>
       <section class="panel" data-section="wirtschaft">
         <div class="section-head">
-          <h2>wirtschaft</h2>
+          <h2 tabindex="0" role="button" aria-expanded="true">wirtschaft</h2>
           <span data-count>0 von 20</span>
         </div>
         <ol class="stories"></ol>
@@ -200,7 +235,7 @@
 
       <section class="panel" data-section="politik">
         <div class="section-head">
-          <h2>politik</h2>
+          <h2 tabindex="0" role="button" aria-expanded="true">politik</h2>
           <span data-count>0 von 20</span>
         </div>
         <ol class="stories"></ol>
@@ -208,7 +243,7 @@
 
       <section class="panel" data-section="sport">
         <div class="section-head">
-          <h2>sport</h2>
+          <h2 tabindex="0" role="button" aria-expanded="true">sport</h2>
           <span data-count>0 von 20</span>
         </div>
         <ol class="stories"></ol>
@@ -216,7 +251,7 @@
 
       <section class="panel" data-section="history">
         <div class="section-head">
-          <h2>geschichte</h2>
+          <h2 tabindex="0" role="button" aria-expanded="true">geschichte</h2>
           <span data-count>0 von 5</span>
         </div>
         <ol class="stories"></ol>
@@ -224,7 +259,7 @@
 
       <section class="panel" id="badminton">
         <div class="section-head">
-          <h2>badminton</h2>
+          <h2 tabindex="0" role="button" aria-expanded="true">badminton</h2>
           <span>2 kuratierte Links</span>
         </div>
         <div id="badminton-links">
@@ -243,7 +278,7 @@
 
       <section class="panel" id="prompt">
         <div class="section-head">
-          <h2>prompt</h2>
+          <h2 tabindex="0" role="button" aria-expanded="true">prompt</h2>
           <span>Referenz fuer kuenftige Tasks</span>
         </div>
         <pre>
@@ -275,6 +310,24 @@
           return value;
         }
       };
+
+      function initSectionToggles() {
+        document.querySelectorAll("section.panel .section-head h2").forEach((heading) => {
+          const section = heading.closest("section.panel");
+          if (!section) return;
+          const toggle = () => {
+            const collapsed = section.classList.toggle("collapsed");
+            heading.setAttribute("aria-expanded", String(!collapsed));
+          };
+          heading.addEventListener("click", toggle);
+          heading.addEventListener("keydown", (event) => {
+            if (event.key === "Enter" || event.key === " ") {
+              event.preventDefault();
+              toggle();
+            }
+          });
+        });
+      }
 
       function buildStory(item, includeYear = false) {
         const li = document.createElement("li");
@@ -331,6 +384,7 @@
         }
       }
 
+      initSectionToggles();
       loadNews();
       setInterval(loadNews, 5 * 60 * 1000);
     </script>
