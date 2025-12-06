@@ -1,0 +1,17 @@
+{
+  "name": "nachrichten",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automatisch aktualisierte Nachrichtenübersicht mit Wirtschaft, Politik, Sport und History.",
+  "license": "MIT",
+  "scripts": {
+    "update:news": "node update-news.js",
+    "update:history": "node update-history.js",
+    "start:schedule": "node schedule-updates.js"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "node-html-parser": "^6.1.11",
+    "rss-parser": "^3.13.0"
+  }
+}

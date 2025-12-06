@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nachrichtenradar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f6f6f2;
+        --bg-dark: #101418;
+        --ink: #1b1f23;
+        --ink-soft: #4a5059;
+        --panel: rgba(255, 255, 255, 0.9);
+        --panel-dark: rgba(20, 24, 28, 0.85);
+        --accent: #d75f2a;
+        --accent-soft: #f4c095;
+        font-family: "Space Grotesk", "Helvetica Neue", sans-serif;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: linear-gradient(135deg, var(--bg) 20%, #e4eef6 50%, #fef5ec 80%);
+        color: var(--ink);
+        display: flex;
+        flex-direction: column;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: radial-gradient(circle at top, #1f2a32, #0b0f12 70%);
+          color: #f4f5f6;
+        }
+      }
+
+      header {
+        padding: 2rem clamp(1rem, 4vw, 4rem) 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: clamp(2rem, 4vw, 3rem);
+        letter-spacing: -0.5px;
+      }
+
+      header p {
+        margin: 0;
+        color: var(--ink-soft);
+        max-width: 60ch;
+      }
+
+      .meta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        font-size: 0.95rem;
+        color: var(--ink-soft);
+      }
+
+      main {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: clamp(1rem, 3vw, 1.5rem);
+        padding: 0 clamp(1rem, 4vw, 4rem) 3rem;
+      }
+
+      section.panel {
+        background: var(--panel);
+        border-radius: 18px;
+        padding: 1.25rem;
+        box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
+        backdrop-filter: blur(6px);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        section.panel {
+          background: var(--panel-dark);
+          box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
+        }
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 1rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .section-head h2 {
+        margin: 0;
+        text-transform: lowercase;
+        font-size: 1.4rem;
+      }
+
+      .section-head span {
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
+
+      ol.stories {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+      }
+
+      li.story {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        border-left: 3px solid rgba(215, 95, 42, 0.35);
+        padding-left: 0.75rem;
+      }
+
+      li.story h3 {
+        margin: 0;
+        font-size: 1rem;
+      }
+
+      li.story a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      li.story a:hover,
+      li.story a:focus {
+        color: var(--accent);
+      }
+
+      .story-meta {
+        font-size: 0.82rem;
+        color: var(--ink-soft);
+      }
+
+      .story-summary {
+        font-size: 0.9rem;
+        line-height: 1.4;
+      }
+
+      #badminton-links a {
+        font-style: italic;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        text-decoration: none;
+        color: var(--accent);
+      }
+
+      #badminton-links a::after {
+        content: "->";
+        font-style: normal;
+        font-size: 0.85rem;
+      }
+
+      #prompt pre {
+        margin: 0;
+        font-family: "Space Grotesk", "Courier New", monospace;
+        font-size: 0.85rem;
+        white-space: pre-wrap;
+      }
+
+      footer {
+        padding: 1rem clamp(1rem, 4vw, 4rem);
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>kompakter nachrichtenmonitor</h1>
+      <p>
+        Wirtschaft, Politik, Sport erhalten jeweils 20 aktuelle Schlagzeilen aus
+        ZEIT, SPIEGEL, Sueddeutsche, Handelsblatt und Kicker. History fasst jeden
+        Morgen fuenf einzigartige Ereignisse zusammen (inklusive mindestens eines
+        Pre-1700-Eintrags) aus ZEIT, SPIEGEL, SZ, Britannica sowie Wikipedia als
+        Fallback. Badminton sammelt zwei direkte Verweise auf die wichtigsten
+        Tour- und Ranglisten.
+      </p>
+      <div class="meta-row">
+        <span>Letztes Update: <strong data-updated>-</strong></span>
+        <span>News: 06:00, 10:00, 14:00, 18:00, 22:00 | History: 09:00</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel" data-section="wirtschaft">
+        <div class="section-head">
+          <h2>wirtschaft</h2>
+          <span data-count>0 von 20</span>
+        </div>
+        <ol class="stories"></ol>
+      </section>
+
+      <section class="panel" data-section="politik">
+        <div class="section-head">
+          <h2>politik</h2>
+          <span data-count>0 von 20</span>
+        </div>
+        <ol class="stories"></ol>
+      </section>
+
+      <section class="panel" data-section="sport">
+        <div class="section-head">
+          <h2>sport</h2>
+          <span data-count>0 von 20</span>
+        </div>
+        <ol class="stories"></ol>
+      </section>
+
+      <section class="panel" data-section="history">
+        <div class="section-head">
+          <h2>history</h2>
+          <span data-count>0 von 5</span>
+        </div>
+        <ol class="stories"></ol>
+      </section>
+
+      <section class="panel" id="badminton">
+        <div class="section-head">
+          <h2>badminton</h2>
+          <span>2 kuratierte Links</span>
+        </div>
+        <div id="badminton-links">
+          <p>
+            <a href="https://bwfworldtour.bwfbadminton.com/calendar/" target="_blank" rel="noopener noreferrer">
+              <em>BWF World Tour Spielplan</em>
+            </a>
+          </p>
+          <p>
+            <a href="https://bwfbadminton.com/rankings/?id=4&cat_id=6" target="_blank" rel="noopener noreferrer">
+              <em>Aktuelle Weltrangliste (Einzel)</em>
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <section class="panel" id="prompt">
+        <div class="section-head">
+          <h2>prompt</h2>
+          <span>Referenz fuer kuenftige Tasks</span>
+        </div>
+        <pre>
+Erstelle eine HTML-Startseite mit den Abschnitten "wirtschaft", "politik", "sport", "history" und "badminton". Wirtschaft/Politik/Sport zeigen je 20 News mit Quelle und Link, aktualisiert automatisch aus ZEIT, SPIEGEL, Sueddeutsche, Handelsblatt und Kicker. History liefert taeglich um 09:00 Uhr genau fuenf eindeutige Beitraege (inklusive mindestens eines Jahres vor 1700) aus ZEIT, SPIEGEL, Sueddeutsche, Britannica; falls noetig ergaenze per Wikipedia. Badminton enthaelt zwei kursiv formatierte Direktlinks zu offiziellen Turnier- und Rankingseiten. News werden taeglich 06:00-22:00 Uhr alle vier Stunden erneuert. Halte das Layout kompakt und reduziere Rueckfragen - "allow gilt fuer alles".
+        </pre>
+      </section>
+    </main>
+
+    <footer>
+      Datenquelle: lokales `news.json`, automatisch erzeugt durch Node-Skripte.
+    </footer>
+
+    <script>
+      const sectionConfig = [
+        { key: "wirtschaft", limit: 20 },
+        { key: "politik", limit: 20 },
+        { key: "sport", limit: 20 },
+        { key: "history", limit: 5 }
+      ];
+
+      const formatTime = (value) => {
+        if (!value) return "-";
+        try {
+          return new Intl.DateTimeFormat("de-DE", {
+            dateStyle: "medium",
+            timeStyle: "short"
+          }).format(new Date(value));
+        } catch (err) {
+          return value;
+        }
+      };
+
+      function buildStory(item, includeYear = false) {
+        const li = document.createElement("li");
+        li.className = "story";
+
+        const title = document.createElement("h3");
+        const anchor = document.createElement("a");
+        anchor.href = item.link;
+        anchor.target = "_blank";
+        anchor.rel = "noopener noreferrer";
+        anchor.textContent = includeYear && item.year ? `${item.year}: ${item.title}` : item.title;
+        title.append(anchor);
+        li.append(title);
+
+        if (item.summary) {
+          const summary = document.createElement("p");
+          summary.className = "story-summary";
+          summary.textContent = item.summary;
+          li.append(summary);
+        }
+
+        const meta = document.createElement("p");
+        meta.className = "story-meta";
+        const published = formatTime(item.publishedAt);
+        meta.textContent = `${item.source || ""} ${published ? "- " + published : ""}`.trim();
+        li.append(meta);
+
+        return li;
+      }
+
+      async function loadNews() {
+        try {
+          const res = await fetch(`news.json?cb=${Date.now()}`);
+          if (!res.ok) throw new Error("news.json nicht erreichbar");
+          const data = await res.json();
+          document.querySelector("[data-updated]").textContent = formatTime(data.updatedAt);
+
+          sectionConfig.forEach(({ key, limit }) => {
+            const section = document.querySelector(`[data-section="${key}"]`);
+            if (!section) return;
+            const stories = section.querySelector(".stories");
+            stories.innerHTML = "";
+            const entries = (data.categories?.[key] || []).slice(0, limit);
+            entries.forEach((item) => stories.append(buildStory(item, key === "history")));
+            section.querySelector("[data-count]").textContent = `${entries.length} von ${limit}`;
+            if (!entries.length) {
+              const fallback = document.createElement("p");
+              fallback.textContent = "Noch keine Meldungen.";
+              stories.append(fallback);
+            }
+          });
+        } catch (error) {
+          console.error(error);
+        }
+      }
+
+      loadNews();
+      setInterval(loadNews, 5 * 60 * 1000);
+    </script>
+  </body>
+</html>
