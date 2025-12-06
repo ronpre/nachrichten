@@ -36,6 +36,44 @@ const HISTORY_TOTAL = MODERN_COUNT + 1;
 const HISTORY_LESSON_LIMIT = 6;
 const MS_IN_DAY = 24 * 60 * 60 * 1000;
 
+const HISTORICAL_KEYWORDS = [
+  "geschichte",
+  "historisch",
+  "historiker",
+  "jahrhundert",
+  "jahrtausend",
+  "antike",
+  "mittelalter",
+  "renaissance",
+  "reformation",
+  "kaiserreich",
+  "dynastie",
+  "imperium",
+  "kolonie",
+  "kolonial",
+  "revolution",
+  "aufstand",
+  "weltkrieg",
+  "krieg",
+  "friedensschluss",
+  "mauer",
+  "ddr",
+  "rom",
+  "römer",
+  "athen",
+  "perser",
+  "wikinger",
+  "pharao",
+  "bibel",
+  "antik",
+  "archäolog",
+  "chronik"
+];
+
+const ERA_TOKENS = ["v. chr", "vor christus", "n. chr", "nach christus", "bc", "ad"];
+const MIN_HISTORICAL_SCORE = 3;
+const CENTURY_REGEX = /\b\d{1,2}\.?\s*jahrhundert\b/i;
+
 const rssParser = new Parser({
   headers: {
     "User-Agent": "nachrichten-dashboard/1.0 (https://github.com/ronpre/nachrichten)"
@@ -287,6 +325,53 @@ function selectHistoryTheme(detail, title) {
   return DEFAULT_HISTORY_THEME;
 }
 
+function extractNumericYears(text = "") {
+  const currentYear = new Date().getFullYear();
+  const matches = text.matchAll(/\b(\d{3,4})\b/g);
+  const years = [];
+  for (const match of matches) {
+    const year = Number(match[1]);
+    if (Number.isNaN(year)) continue;
+    if (year < 1 || year > currentYear) continue;
+    years.push(year);
+  }
+  return [...new Set(years)];
+}
+
+function mentionsEraTokens(text = "") {
+  const haystack = text.toLowerCase();
+  return ERA_TOKENS.some((token) => haystack.includes(token));
+}
+
+function computeHistoricalScore(article) {
+  const haystack = `${article.title || ""} ${article.summary || ""}`.toLowerCase();
+  let score = 0;
+  const years = extractNumericYears(haystack);
+  const currentYear = new Date().getFullYear();
+
+  for (const year of years) {
+    if (year <= currentYear - 30) score += 3;
+    else if (year <= currentYear - 5) score += 1;
+    if (year < 1900) score += 1;
+    if (year < 1500) score += 1;
+  }
+
+  if (CENTURY_REGEX.test(haystack)) score += 2;
+  if (mentionsEraTokens(haystack)) score += 2;
+
+  for (const keyword of HISTORICAL_KEYWORDS) {
+    if (haystack.includes(keyword)) score += 1;
+  }
+
+  return score;
+}
+
+function isHistoricalArticle(article) {
+  const score = computeHistoricalScore(article);
+  article.historicalScore = score;
+  return score >= MIN_HISTORICAL_SCORE;
+}
+
 function extractFirstSentence(text = "") {
   const sanitized = text.trim();
   if (!sanitized) return "";
@@ -524,10 +609,19 @@ async function fetchExternalHistoryArticles() {
       try {
         const feed = await rssParser.parseURL(source.rss);
         const items = Array.isArray(feed?.items) ? feed.items : [];
-        return items
-          .slice(0, source.limit || 1)
+        const perFeedLimit = source.limit || 1;
+        const candidateWindow = Math.min(items.length, Math.max(perFeedLimit * 5, perFeedLimit + 4));
+        const normalized = items
+          .slice(0, candidateWindow)
           .map((entry) => normalizeExternalArticle(entry, source))
           .filter(Boolean);
+        const qualified = normalized.filter((article) => isHistoricalArticle(article));
+        if (!qualified.length) {
+          console.warn(
+            `Hinweis: ${source.label} lieferte keine passenden historischen Artikel (Feedeinträge: ${items.length}).`
+          );
+        }
+        return qualified.slice(0, perFeedLimit);
       } catch (error) {
         console.warn(`RSS-Feed für ${source.label} konnte nicht geladen werden:`, error.message);
         return [];
