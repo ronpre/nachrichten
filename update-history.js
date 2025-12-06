@@ -304,7 +304,8 @@ async function updateHistory() {
     fetchHistoryItems(),
     fetchExternalHistoryArticles()
   ]);
-  const combinedHistory = [...historyItems, ...externalArticles];
+  // Prioritise journalistische Einschätzungen, damit die Website zuerst ZEIT/SZ/SPIEGEL zeigt
+  const combinedHistory = [...externalArticles, ...historyItems];
 
   const next = {
     ...existing,
