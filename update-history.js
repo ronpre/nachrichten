@@ -17,6 +17,7 @@ const HISTORY_FEEDS = [
 ];
 
 const HISTORY_COUNT = 5;
+const HISTORY_LOG_LIMIT = 500;
 const BRITANNICA_BASE = "https://www.britannica.com";
 
 async function fetchFeed(feed) {
@@ -169,9 +170,13 @@ function chooseHistoryItems(pool, log) {
   const chosen = [];
 
   const pre1700 = pool.filter((item) => typeof item.year === "number" && item.year < 1700);
-  const freshPre1700 = pre1700.find((item) => !used.has(item.slug));
+  let freshPre1700 = pre1700.find((item) => !used.has(item.slug));
   if (!freshPre1700) {
-    throw new Error("Kein neuer History-Eintrag vor 1700 verfügbar.");
+    if (!pre1700.length) {
+      throw new Error("Kein History-Eintrag vor 1700 verfügbar.");
+    }
+    console.warn("Kein neuer Vor-1700-Eintrag verfügbar – verwende bestehenden Eintrag erneut.");
+    freshPre1700 = pre1700[0];
   }
   chosen.push(freshPre1700);
   used.add(freshPre1700.slug);
@@ -187,8 +192,9 @@ function chooseHistoryItems(pool, log) {
     throw new Error("Nicht genug einzigartige History-Artikel gefunden.");
   }
 
-  const updatedLog = [...(log.used_slugs || []), ...chosen.map((item) => item.slug)].slice();
-  return { items: chosen.slice(0, HISTORY_COUNT), slugs: updatedLog };
+  const updatedLog = [...(log.used_slugs || []), ...chosen.map((item) => item.slug)];
+  const trimmedLog = updatedLog.slice(-HISTORY_LOG_LIMIT);
+  return { items: chosen.slice(0, HISTORY_COUNT), slugs: trimmedLog };
 }
 
 async function updateHistory() {
