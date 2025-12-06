@@ -122,67 +122,67 @@ function slugify(value) {
 const HISTORY_LEARNING_THEMES = [
   {
     keywords: ["islam", "religion", "moschee", "kirche", "kopftuch", "glauben", "theolog"],
-    impact: "Auswirkungen: {{source}} zeigt, wie \"{{detail}}\" Religionspolitik, Schulalltag und Minderheitenschutz neu ausbalanciert und welche Institutionen reagieren müssen.",
-    consequences: "Folgen: {{source}} dokumentiert Gerichtsverfahren, Gesetzesinitiativen und gesellschaftliche Allianzen, die aus dem Streit um Glaubensfreiheit und staatliche Neutralität entstehen.",
-    lesson: "Lerneffekt: {{source}} arbeitet heraus, dass tragfähige Integrationskonzepte Transparenz, Schutz vor Extremismus und Räume für pluralistische Spiritualität erfordern.",
-    parallels: "Parallelen heute: {{source}} verbindet Auseinandersetzungen um religiöse Symbole, Moscheefinanzierung und Schulpolitik mit aktuellen Debatten zu Demokratie und sozialem Frieden."
+    impact: "Auswirkungen (Einordnung): {{source}} nutzt \"{{title}}\" als Fallstudie und zeigt anhand von {{detail}} , wie Religionspolitik, Schulalltag und Minderheitenschutz neu austariert werden – inklusive der Institutionen, die sofort reagieren müssen.",
+    consequences: "Folgen (Kettenreaktion): {{source}} verfolgt Gerichtsverfahren, Gesetzesinitiativen und gesellschaftliche Allianzen, die langfristig aus diesem Streit um Glaubensfreiheit und staatliche Neutralität erwachsen.",
+    lesson: "Lerneffekt: {{source}} arbeitet heraus, dass tragfähige Integrationskonzepte Transparenz, Schutz vor Extremismus und Räume für pluralistische Spiritualität brauchen – eine Erkenntnis, die die Analyse von \"{{title}}\" untermauert.",
+    parallels: "Parallelen heute: {{source}} verbindet Debatten über religiöse Symbole, Moscheefinanzierung und Schulpolitik mit aktuellen Auseinandersetzungen um Demokratie und sozialen Frieden und stellt explizit Verknüpfungen zu \"{{title}}\" her."
   },
   {
     keywords: ["krieg", "konflikt", "milit", "front", "waffe", "soldat", "angriff", "besatzung"],
-    impact: "Auswirkungen: {{source}} beschreibt, wie \"{{detail}}\" Kräfteverhältnisse, Bündnisse und Sicherheitsarchitekturen verschiebt.",
-    consequences: "Folgen: {{source}} verfolgt langfristige Effekte – vom Wiederaufbau über Flüchtlingsbewegungen bis zu neuem internationalen Recht.",
-    lesson: "Lerneffekt: {{source}} extrahiert, welche diplomatischen, humanitären oder militärischen Strategien funktionierten und welche Eskalationsmuster sich vermeiden lassen.",
-    parallels: "Parallelen heute: {{source}} legt offen, wie Narrative aus {{detail}} bis in aktuelle Kriege, Friedensmissionen oder Rüstungsdebatten hineinwirken."
+    impact: "Auswirkungen (Einordnung): {{source}} beschreibt, wie \"{{title}}\" – konkret {{detail}} – Kräfteverhältnisse, Bündnisse und Sicherheitsarchitekturen verschiebt und welche Akteure Terrain gewinnen oder verlieren.",
+    consequences: "Folgen (Langfristperspektive): {{source}} verfolgt Effekte von Wiederaufbau über Flüchtlingsbewegungen bis hin zu neuem internationalen Recht, die aus den beschriebenen Operationen resultieren.",
+    lesson: "Lerneffekt: {{source}} extrahiert, welche diplomatischen, humanitären oder militärischen Strategien in der geschilderten Lage funktionierten und welche Eskalationsmuster künftig vermieden werden sollten.",
+    parallels: "Parallelen heute: {{source}} legt offen, wie Narrative und Erfahrungen aus \"{{title}}\" in aktuelle Kriege, Friedensmissionen oder Rüstungsdebatten hineinwirken."
   },
   {
     keywords: ["kolon", "imperium", "reich", "expansion", "mission", "kolonie", "imperial"],
-    impact: "Auswirkungen: {{source}} beleuchtet, wie \"{{detail}}\" Machtprojektion, Ausbeutung und Wissensproduktion in kolonialen Strukturen verankerte.",
-    consequences: "Folgen: {{source}} verfolgt Grenzziehungen, ökonomische Abhängigkeiten und Erinnerungspolitiken, die nach dem Kolonialismus fortbestehen.",
-    lesson: "Lerneffekt: {{source}} extrahiert, welche Reformen oder Wiedergutmachungsansätze Gerechtigkeit fördern können und wo vorschnelle Narrative koloniale Blindflecken reproduzieren.",
-    parallels: "Parallelen heute: {{source}} verbindet koloniale Kontinuitäten mit Debatten über globale Lieferketten, Restitution und geopolitische Spannungen."
+    impact: "Auswirkungen (Kolonialordnung): {{source}} beleuchtet anhand von \"{{title}}\" , wie {{detail}} Machtprojektion, Ausbeutung und Wissensproduktion in kolonialen Strukturen verankerte.",
+    consequences: "Folgen (Nachwirkungen): {{source}} verfolgt Grenzziehungen, ökonomische Abhängigkeiten und Erinnerungspolitiken, die weit über das Ende des Kolonialismus hinaus bestehen bleiben.",
+    lesson: "Lerneffekt: {{source}} extrahiert Reform- und Wiedergutmachungsansätze, die Gerechtigkeit fördern können, und zeigt, wo vorschnelle Narrative koloniale Blindflecken reproduzieren.",
+    parallels: "Parallelen heute: {{source}} verbindet koloniale Kontinuitäten mit Debatten über globale Lieferketten, Restitution und geopolitische Spannungen und zieht Linien zu aktuellen Konflikten."
   },
   {
     keywords: ["wahl", "partei", "demokr", "regierung", "kanzler", "bundestag", "parlament", "präsident"],
-    impact: "Auswirkungen: {{source}} zeigt, wie \"{{detail}}\" Machtverhältnisse, Reformstau oder neue Bewegungen im demokratischen System freilegt.",
-    consequences: "Folgen: {{source}} verfolgt Gesetzespakete, Koalitionswechsel und gesellschaftliche Erwartungen, die aus dem politischen Schwenk resultieren.",
-    lesson: "Lerneffekt: {{source}} erklärt, welche Kommunikations- und Beteiligungsstrategien Vertrauen schaffen und wo Institutionen widerstandsfähiger werden müssen.",
-    parallels: "Parallelen heute: {{source}} zieht Linien zu aktuellen Wahlkämpfen, Populismusdebatten und Fragen nach repräsentativer Legitimation."
+    impact: "Auswirkungen (Politikbetrieb): {{source}} zeigt, wie \"{{title}}\" mit den beschriebenen Entwicklungen – {{detail}} – Machtverhältnisse neu sortiert und Reformstau oder Bewegungen offenlegt.",
+    consequences: "Folgen (Regelwerk): {{source}} verfolgt Gesetzespakete, Koalitionswechsel und gesellschaftliche Erwartungen, die aus diesem politischen Schwenk hervorgehen.",
+    lesson: "Lerneffekt: {{source}} erklärt, welche Kommunikations- und Beteiligungsstrategien Vertrauen schaffen und wo Institutionen widerstandsfähiger werden müssen, wenn Situationen wie in \"{{title}}\" auftreten.",
+    parallels: "Parallelen heute: {{source}} zieht Linien zu aktuellen Wahlkämpfen, Populismusdebatten und Fragen nach repräsentativer Legitimation und nutzt die Erkenntnisse aus \"{{title}}\" als Bezugsrahmen."
   },
   {
     keywords: ["literatur", "kultur", "kunst", "schriftsteller", "autor", "lyrik", "theater", "musik", "film"],
-    impact: "Auswirkungen: {{source}} analysiert, wie \"{{detail}}\" ästhetische Strömungen, Subkulturen und kulturelle Identität prägt.",
-    consequences: "Folgen: {{source}} beschreibt Kanonbildungen, Förderstrukturen und internationale Rezeption, die aus dem Impuls hervorgehen.",
-    lesson: "Lerneffekt: {{source}} zeigt, wie künstlerische Experimente gesellschaftliche Selbstbilder hinterfragen und neue Ausdrucksformen etablieren.",
-    parallels: "Parallelen heute: {{source}} verknüpft das Motiv mit gegenwärtigen Debatten zu kultureller Aneignung, digitalen Plattformen oder Popkultur."
+    impact: "Auswirkungen (Kultur): {{source}} analysiert, wie \"{{title}}\" – konkret {{detail}} – ästhetische Strömungen, Subkulturen und kulturelle Identität prägt.",
+    consequences: "Folgen (Kanon): {{source}} beschreibt Kanonbildungen, Förderstrukturen und internationale Rezeption, die aus dem künstlerischen Impuls hervorgehen.",
+    lesson: "Lerneffekt: {{source}} zeigt, wie künstlerische Experimente gesellschaftliche Selbstbilder hinterfragen und neue Ausdrucksformen etablieren – ein Kernmotiv der Analyse von \"{{title}}\".",
+    parallels: "Parallelen heute: {{source}} verknüpft das Motiv mit Debatten zu kultureller Aneignung, digitalen Plattformen oder Popkultur und leitet konkrete Handlungsimpulse für heutige Kulturschaffende ab."
   },
   {
     keywords: ["wirtschaft", "industrie", "markt", "arbeit", "finanz", "innovation", "technologie", "unternehmen"],
-    impact: "Auswirkungen: {{source}} erklärt, wie \"{{detail}}\" Lieferketten, Arbeitsmärkte und Wohlstandserwartungen neu justiert.",
-    consequences: "Folgen: {{source}} zeigt Investitionswellen, Krisenprävention oder Regulierungen, die aus dem wirtschaftlichen Impuls folgen.",
-    lesson: "Lerneffekt: {{source}} destilliert Best Practices für Innovationspolitik, soziale Abfederung und strategische Unabhängigkeit.",
-    parallels: "Parallelen heute: {{source}} verbindet historische Konjunkturen mit aktuellen Diskussionen über Resilienz, KI oder Transformationsfonds."
+    impact: "Auswirkungen (Ökonomie): {{source}} erklärt, wie \"{{title}}\" und die beschriebenen Entwicklungen – {{detail}} – Lieferketten, Arbeitsmärkte und Wohlstandserwartungen neu justieren.",
+    consequences: "Folgen (Steuerung): {{source}} zeigt Investitionswellen, Krisenprävention oder Regulierungen, die aus dem wirtschaftlichen Impuls folgen und benennt Gewinner wie Verlierer.",
+    lesson: "Lerneffekt: {{source}} destilliert Best Practices für Innovationspolitik, soziale Abfederung und strategische Unabhängigkeit, die direkt aus den im Artikel diskutierten Erfahrungen hervorgehen.",
+    parallels: "Parallelen heute: {{source}} verbindet historische Konjunkturen mit aktuellen Diskussionen über Resilienz, KI oder Transformationsfonds und nutzt \"{{title}}\" als Argumentationsbasis."
   },
   {
     keywords: ["gesellschaft", "bewegung", "protest", "gerechtigkeit", "frauen", "rechte", "bildung", "sozial"],
-    impact: "Auswirkungen: {{source}} zeigt, wie \"{{detail}}\" Normen, Rollenbilder und Teilhaberechte verschiebt.",
-    consequences: "Folgen: {{source}} dokumentiert Reformen, Netzwerke und kulturelle Lernprozesse, die aus zivilgesellschaftlichem Druck entstehen.",
-    lesson: "Lerneffekt: {{source}} erklärt, wie Beharrlichkeit, Bündnisse und strategische Kommunikation strukturellen Wandel ermöglichen.",
-    parallels: "Parallelen heute: {{source}} spiegelt die Forderungen in aktuellen Bewegungen für Klimaschutz, Gleichstellung oder digitale Rechte."
+    impact: "Auswirkungen (Gesellschaft): {{source}} zeigt, wie \"{{title}}\" mit den beschriebenen Dynamiken – {{detail}} – Normen, Rollenbilder und Teilhaberechte verschiebt.",
+    consequences: "Folgen (Strukturen): {{source}} dokumentiert Reformen, Netzwerke und kulturelle Lernprozesse, die aus dem zivilgesellschaftlichen Druck entstehen.",
+    lesson: "Lerneffekt: {{source}} erklärt, wie Beharrlichkeit, Bündnisse und strategische Kommunikation strukturellen Wandel ermöglichen und welche Stolpersteine aus \"{{title}}\" abzuleiten sind.",
+    parallels: "Parallelen heute: {{source}} spiegelt die Forderungen in aktuellen Bewegungen für Klimaschutz, Gleichstellung oder digitale Rechte an den Erfahrungen, die in \"{{title}}\" sichtbar werden."
   },
   {
     keywords: ["klima", "umwelt", "natur", "ressource", "energie", "planet", "oekologie", "umwelt"],
-    impact: "Auswirkungen: {{source}} analysiert, wie \"{{detail}}\" Ökosysteme, Infrastruktur und Risikowahrnehmung verändert.",
-    consequences: "Folgen: {{source}} beschreibt Gesetzgebung, technologische Innovationen und soziale Bewegungen, die als Antwort auf ökologische Krisen entstehen.",
-    lesson: "Lerneffekt: {{source}} zeigt, welche Governance-Modelle Klimaanpassung, Nachhaltigkeit und Gerechtigkeit miteinander verbinden können.",
-    parallels: "Parallelen heute: {{source}} verknüpft historische Umweltkonflikte mit aktuellen Klimagipfeln, Energiekrisen oder Transformationsstrategien."
+    impact: "Auswirkungen (Umwelt): {{source}} analysiert, wie \"{{title}}\" mit den geschilderten Befunden – {{detail}} – Ökosysteme, Infrastruktur und Risikowahrnehmung verändert.",
+    consequences: "Folgen (Lebenswelten): {{source}} beschreibt Gesetzgebung, technologische Innovationen und soziale Bewegungen, die als Antwort auf ökologische Krisen entstehen.",
+    lesson: "Lerneffekt: {{source}} zeigt, welche Governance-Modelle Klimaanpassung, Nachhaltigkeit und Gerechtigkeit miteinander verbinden können und leitet Empfehlungen direkt aus \"{{title}}\" ab.",
+    parallels: "Parallelen heute: {{source}} verknüpft historische Umweltkonflikte mit aktuellen Klimagipfeln, Energiekrisen oder Transformationsstrategien und nutzt das Beispiel aus \"{{title}}\" als Argumentationsanker."
   }
 ];
 
 const DEFAULT_HISTORY_THEME = {
-  impact: "Auswirkungen: {{source}} ordnet \"{{detail}}\" im größeren historischen Kontext ein und zeigt, welche Institutionen, Regionen oder Milieus unmittelbar betroffen waren.",
-  consequences: "Folgen: {{source}} zeichnet nach, welche politischen Beschlüsse, ökonomischen Trends oder kulturellen Narrative langfristig bestehen blieben.",
-  lesson: "Lerneffekt: {{source}} extrahiert Prinzipien für strategisches Handeln, Risikobewertung und Resilienz.",
-  parallels: "Parallelen heute: {{source}} zieht Bezüge zu aktuellen Entwicklungen und lädt dazu ein, Gegenwartspolitik im Spiegel der Vergangenheit zu reflektieren."
+  impact: "Auswirkungen (Kontext): {{source}} ordnet \"{{title}}\" und die beschriebenen Entwicklungen – {{detail}} – im größeren historischen Kontext ein und zeigt, welche Institutionen, Regionen oder Milieus unmittelbar betroffen waren.",
+  consequences: "Folgen (Zeithorizont): {{source}} zeichnet nach, welche politischen Beschlüsse, ökonomischen Trends oder kulturellen Narrative langfristig bestehen blieben.",
+  lesson: "Lerneffekt: {{source}} extrahiert Prinzipien für strategisches Handeln, Risikobewertung und Resilienz, die sich aus der Fallstudie ableiten lassen.",
+  parallels: "Parallelen heute: {{source}} zieht Bezüge zu aktuellen Entwicklungen und lädt dazu ein, Gegenwartspolitik im Spiegel der Vergangenheit zu reflektieren – immer mit Blick auf die konkreten Lehren aus \"{{title}}\"."
 };
 
 function fillTemplate(template, replacements) {
