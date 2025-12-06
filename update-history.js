@@ -34,6 +34,7 @@ const MODERN_THRESHOLD = 1800; // neuere Geschichte
 const MODERN_COUNT = 4;
 const HISTORY_TOTAL = MODERN_COUNT + 1;
 const HISTORY_LESSON_LIMIT = 6;
+const MS_IN_DAY = 24 * 60 * 60 * 1000;
 
 const rssParser = new Parser({
   headers: {
@@ -286,29 +287,73 @@ function selectHistoryTheme(detail, title) {
   return DEFAULT_HISTORY_THEME;
 }
 
-function buildKeyTakeaways(title, sourceLabel, themeLabel) {
-  return [
-    `${themeLabel}: ${sourceLabel} nutzt "${title}" als Fallstudie, um historische Entscheidungsräume sichtbar zu machen.`,
-    `Transfer: Welche Situationen heute erinnern dich an "${title}" und welche Antworten wären möglich?`
-  ];
+function extractFirstSentence(text = "") {
+  const sanitized = text.trim();
+  if (!sanitized) return "";
+  const sentenceMatch = sanitized.match(/.+?(?:[.!?](?:\s|$)|$)/);
+  const sentence = (sentenceMatch ? sentenceMatch[0] : sanitized).trim();
+  return sentence.length > 220 ? `${sentence.slice(0, 217)}…` : sentence;
 }
 
-function buildLearningNarrative(baseSummary, sourceLabel, title) {
+function buildCoreQuestion(title, topic) {
+  return `Wie verändert "${title}" deinen Blick auf ${topic}?`;
+}
+
+function buildQuizPrompt(title, sourceLabel) {
+  return `Welchen Wendepunkt beschreibt ${sourceLabel} in Bezug auf "${title}"?`;
+}
+
+function computeReinforceAfter(referenceIso) {
+  const base = referenceIso ? new Date(referenceIso) : new Date();
+  const safeBase = Number.isNaN(base.getTime()) ? new Date() : base;
+  return new Date(safeBase.getTime() + 3 * MS_IN_DAY).toISOString();
+}
+
+function formatTimelineLabel(value) {
+  if (!value) return null;
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return null;
+  return date.toLocaleDateString("de-DE", { day: "2-digit", month: "short", year: "numeric" });
+}
+
+function buildTimelineMeta({ title, year, publishedAt }) {
+  if (typeof year === "number" && Number.isFinite(year)) {
+    return {
+      label: `Jahr ${year}`,
+      detail: title.replace(/^\d{4}:\s*/, "")
+    };
+  }
+  const formatted = formatTimelineLabel(publishedAt);
+  if (formatted) {
+    return {
+      label: formatted,
+      detail: "Analyse veröffentlicht"
+    };
+  }
+  return {
+    label: "Zeitfenster",
+    detail: title
+  };
+}
+
+function buildLessonBlueprint(baseSummary, sourceLabel, title, publishedAt) {
   const detail = baseSummary || `Der Beitrag "${title}" beleuchtet ein Schlüsselereignis der Zeitgeschichte.`;
   const theme = selectHistoryTheme(detail, title);
   const context = { source: sourceLabel, detail, title };
   const reflectionTemplate = theme.reflection || DEFAULT_REFLECTION;
 
   return {
-    topic: theme.topic || DEFAULT_HISTORY_THEME.topic,
     themeLabel: theme.label || DEFAULT_HISTORY_THEME.label,
-    context: `Kontext: ${detail}`,
-    impact: fillTemplate(theme.impact || DEFAULT_HISTORY_THEME.impact, context),
-    consequences: fillTemplate(theme.consequences || DEFAULT_HISTORY_THEME.consequences, context),
-    lessons: fillTemplate(theme.lesson || DEFAULT_HISTORY_THEME.lesson, context),
-    parallels: fillTemplate(theme.parallels || DEFAULT_HISTORY_THEME.parallels, context),
+    topic: theme.topic || DEFAULT_HISTORY_THEME.topic,
+    spark: extractFirstSentence(detail),
+    coreQuestion: buildCoreQuestion(title, theme.topic || DEFAULT_HISTORY_THEME.topic),
+    insight: fillTemplate(theme.impact || DEFAULT_HISTORY_THEME.impact, context),
+    chainReaction: fillTemplate(theme.consequences || DEFAULT_HISTORY_THEME.consequences, context),
+    application: fillTemplate(theme.lesson || DEFAULT_HISTORY_THEME.lesson, context),
+    transfer: fillTemplate(theme.parallels || DEFAULT_HISTORY_THEME.parallels, context),
     reflection: fillTemplate(reflectionTemplate, context),
-    keyTakeaways: buildKeyTakeaways(title, sourceLabel, theme.label || DEFAULT_HISTORY_THEME.label)
+    quizPrompt: buildQuizPrompt(title, sourceLabel),
+    reinforceAfter: computeReinforceAfter(publishedAt)
   };
 }
 
@@ -423,44 +468,50 @@ function normalizeExternalArticle(item, source) {
 
 function buildLessonFromArticle(article) {
   if (!article) return null;
-  const narrative = buildLearningNarrative(article.summary, article.source, article.title);
+  const blueprint = buildLessonBlueprint(article.summary, article.source, article.title, article.publishedAt);
   return {
     id: `${article.idBase}-${article.dateToken}`,
     title: article.title,
-    topic: narrative.topic,
-    themeLabel: narrative.themeLabel,
+    topic: blueprint.topic,
+    themeLabel: blueprint.themeLabel,
     source: article.source,
     link: article.link,
     publishedAt: article.publishedAt,
-    context: narrative.context,
-    impact: narrative.impact,
-    consequences: narrative.consequences,
-    lessonsLearned: narrative.lessons,
-    parallels: narrative.parallels,
-    reflection: narrative.reflection,
-    keyTakeaways: narrative.keyTakeaways
+    spark: blueprint.spark,
+    coreQuestion: blueprint.coreQuestion,
+    insight: blueprint.insight,
+    chainReaction: blueprint.chainReaction,
+    application: blueprint.application,
+    transfer: blueprint.transfer,
+    reflection: blueprint.reflection,
+    quizPrompt: blueprint.quizPrompt,
+    timeline: buildTimelineMeta({ title: article.title, publishedAt: article.publishedAt }),
+    reinforceAfter: blueprint.reinforceAfter
   };
 }
 
 function buildLessonFromHistoricalEvent(event) {
   if (!event) return null;
   const summary = sanitizeText(event.summary || event.paragraphs?.[0] || "Historischer Kontext");
-  const narrative = buildLearningNarrative(summary, event.source || HISTORY_SOURCE, event.title);
+  const blueprint = buildLessonBlueprint(summary, event.source || HISTORY_SOURCE, event.title, event.publishedAt);
   return {
     id: `${event.id}-lesson`,
     title: event.title,
-    topic: narrative.topic,
-    themeLabel: narrative.themeLabel,
+    topic: blueprint.topic,
+    themeLabel: blueprint.themeLabel,
     source: event.source || HISTORY_SOURCE,
     link: event.link,
     publishedAt: event.publishedAt,
-    context: narrative.context,
-    impact: narrative.impact,
-    consequences: narrative.consequences,
-    lessonsLearned: narrative.lessons,
-    parallels: narrative.parallels,
-    reflection: narrative.reflection,
-    keyTakeaways: narrative.keyTakeaways
+    spark: blueprint.spark,
+    coreQuestion: blueprint.coreQuestion,
+    insight: blueprint.insight,
+    chainReaction: blueprint.chainReaction,
+    application: blueprint.application,
+    transfer: blueprint.transfer,
+    reflection: blueprint.reflection,
+    quizPrompt: blueprint.quizPrompt,
+    timeline: buildTimelineMeta({ title: event.title, year: event.year }),
+    reinforceAfter: blueprint.reinforceAfter
   };
 }
 

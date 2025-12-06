@@ -100,7 +100,7 @@
         }
 
         .history-card {
-          background: rgba(7, 12, 20, 0.85);
+          background: rgba(7, 12, 20, 0.92);
           border-color: rgba(255, 255, 255, 0.08);
           color: #f3f6ff;
         }
@@ -109,8 +109,8 @@
           background: rgba(255, 255, 255, 0.08);
         }
 
-        .history-takeaways li::before {
-          color: var(--accent-soft);
+        .history-step {
+          border-color: rgba(255, 255, 255, 0.12);
         }
       }
 
@@ -216,88 +216,162 @@
       }
 
       .history-card {
-        background: rgba(255, 255, 255, 0.92);
-        border-radius: 16px;
-        padding: 1rem;
-        border: 1px solid rgba(14, 28, 42, 0.08);
-        box-shadow: 0 18px 40px rgba(9, 12, 18, 0.07);
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+        padding: 1.2rem;
+        border: 1px solid rgba(14, 28, 42, 0.12);
+        box-shadow: 0 25px 45px rgba(9, 12, 18, 0.08);
         display: flex;
         flex-direction: column;
-        gap: 0.65rem;
+        gap: 0.9rem;
       }
 
-      .history-card h3 {
-        margin: 0;
-        font-size: 1.05rem;
-      }
-
-      .history-card a {
-        text-decoration: none;
-        color: inherit;
-      }
-
-      .history-card a:hover,
-      .history-card a:focus {
-        color: var(--accent);
+      .history-card-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 0.5rem;
       }
 
       .lesson-pill {
-        align-self: flex-start;
         background: var(--history-pill);
         color: var(--history-pill-text);
-        padding: 0.15rem 0.65rem;
+        padding: 0.2rem 0.75rem;
         border-radius: 999px;
         font-size: 0.75rem;
         text-transform: uppercase;
         letter-spacing: 0.08em;
       }
 
-      .history-context {
-        font-size: 0.85rem;
-        color: rgba(14, 28, 42, 0.75);
+      .history-reminder {
+        text-align: right;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: rgba(14, 28, 42, 0.6);
       }
 
-      .history-takeaways {
-        list-style: none;
-        padding: 0;
+      .history-reminder time {
+        display: block;
+        font-size: 0.85rem;
+        color: var(--history-ink);
+      }
+
+      .history-spark {
         margin: 0;
+        font-size: 0.92rem;
+        background: rgba(87, 114, 255, 0.08);
+        border-left: 3px solid rgba(87, 114, 255, 0.6);
+        padding: 0.6rem 0.75rem;
+        border-radius: 10px;
+        color: rgba(14, 28, 42, 0.85);
+      }
+
+      .history-question {
+        margin: 0;
+        font-size: 1.2rem;
+        line-height: 1.3;
+        color: var(--history-ink);
+      }
+
+      .history-timeline {
         display: flex;
         flex-direction: column;
-        gap: 0.3rem;
-        font-size: 0.9rem;
+        gap: 0.25rem;
+        padding: 0.6rem 0.9rem;
+        border-radius: 12px;
+        background: rgba(14, 28, 42, 0.05);
       }
 
-      .history-takeaways li {
-        padding-left: 1.1rem;
-        position: relative;
+      .history-timeline strong {
+        font-size: 0.78rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: rgba(14, 28, 42, 0.7);
       }
 
-      .history-takeaways li::before {
-        content: "→";
-        position: absolute;
-        left: 0;
-        color: var(--accent);
-      }
-
-      .history-narrative {
-        font-size: 0.85rem;
-        line-height: 1.4;
+      .history-step {
+        border: 1px solid rgba(14, 28, 42, 0.08);
+        border-radius: 14px;
+        padding: 0.75rem;
         display: flex;
         flex-direction: column;
         gap: 0.35rem;
       }
 
-      .history-reflection {
-        font-size: 0.85rem;
-        font-style: italic;
+      .history-step strong {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: rgba(14, 28, 42, 0.7);
+      }
+
+      .history-step p {
+        margin: 0;
+        font-size: 0.9rem;
+        line-height: 1.35;
+      }
+
+      .history-quiz {
+        border-left: 3px solid var(--accent);
+        padding-left: 0.75rem;
+        font-size: 0.9rem;
         color: rgba(14, 28, 42, 0.9);
       }
 
-      .history-meta-row {
+      .history-reflection {
+        font-size: 0.9rem;
+        font-style: italic;
+        color: rgba(14, 28, 42, 0.95);
+      }
+
+      .history-deepdive {
+        border: 1px dashed rgba(14, 28, 42, 0.2);
+        border-radius: 12px;
+        padding: 0.6rem 0.75rem;
+      }
+
+      .history-deepdive summary {
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--accent);
+      }
+
+      .history-deepdive p {
+        margin: 0.5rem 0 0;
+        font-size: 0.85rem;
+        color: rgba(14, 28, 42, 0.8);
+      }
+
+      .history-card-footer {
         display: flex;
         justify-content: space-between;
-        font-size: 0.78rem;
-        color: rgba(14, 28, 42, 0.6);
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.82rem;
+        color: rgba(14, 28, 42, 0.65);
+      }
+
+      .history-card-footer a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .history-cta {
+        background: var(--accent);
+        color: #fff;
+        padding: 0.45rem 1rem;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+      }
+
+      .history-cta::after {
+        content: "↗";
+        font-size: 0.85rem;
       }
 
 
@@ -602,51 +676,132 @@
 
         return card;
       }
+      function createHistoryStep(label, text) {
+        if (!text) return null;
+        const wrapper = document.createElement("div");
+        wrapper.className = "history-step";
+        const heading = document.createElement("strong");
+        heading.textContent = label;
+        const body = document.createElement("p");
+        body.textContent = text;
+        wrapper.append(heading, body);
+        return wrapper;
+      }
+
 
       function renderHistoryLessons(data) {
         const container = document.getElementById("history-lessons");
         if (!container) return;
-        container.innerHTML = "";
-        const lessons = data.historyLessons || [];
-        if (!lessons.length) {
-          const fallback = document.createElement("p");
-          fallback.textContent = "Noch keine Lernkarten – bitte später erneut laden.";
-          container.append(fallback);
-          return;
+        const head = document.createElement("div");
+        head.className = "history-card-head";
+
+        if (lesson.themeLabel) {
+          const pill = document.createElement("span");
+          pill.className = "lesson-pill";
+          pill.textContent = lesson.themeLabel;
+          head.append(pill);
         }
-        lessons.forEach((lesson) => container.append(buildHistoryLessonCard(lesson)));
-      }
 
-      async function loadNews() {
-        try {
-          const res = await fetch(`news.json?cb=${Date.now()}`);
-          if (!res.ok) throw new Error("news.json nicht erreichbar");
-          const data = await res.json();
-          document.querySelector("[data-updated]").textContent = formatTime(data.updatedAt);
+        const reminder = document.createElement("div");
+        reminder.className = "history-reminder";
+        reminder.textContent = "Nächster Impuls";
+        const reminderTime = document.createElement("time");
+        reminderTime.dateTime = lesson.reinforceAfter || "";
+        reminderTime.textContent = formatTime(lesson.reinforceAfter);
+        reminder.append(reminderTime);
+        head.append(reminder);
+        card.append(head);
 
-          sectionConfig.forEach(({ key, limit }) => {
+        if (lesson.spark) {
+          const spark = document.createElement("p");
+          spark.className = "history-spark";
+          spark.textContent = lesson.spark;
+          card.append(spark);
+        }
+
+        const question = document.createElement("h3");
+        question.className = "history-question";
+        question.textContent = lesson.coreQuestion || lesson.title;
+        card.append(question);
+
+        if (lesson.timeline) {
+          const timeline = document.createElement("div");
+          timeline.className = "history-timeline";
+          const label = document.createElement("strong");
+          label.textContent = lesson.timeline.label || "Zeitfenster";
+          const detail = document.createElement("p");
+          detail.textContent = lesson.timeline.detail || "";
+          timeline.append(label, detail);
+          card.append(timeline);
+        }
+
+        const insight = createHistoryStep("Kern-Befund", lesson.insight);
+        if (insight) card.append(insight);
+
+        const chain = createHistoryStep("Kettenreaktion", lesson.chainReaction);
+        if (chain) card.append(chain);
+
+        const application = createHistoryStep("Heute anwenden", lesson.application);
+        if (application) card.append(application);
+
+        const transfer = createHistoryStep("Parallelen", lesson.transfer);
+        if (transfer) card.append(transfer);
+
+        if (lesson.quizPrompt) {
+          const quiz = document.createElement("div");
+          quiz.className = "history-quiz";
+          quiz.textContent = lesson.quizPrompt;
+          card.append(quiz);
+        }
+
+        if (lesson.reflection) {
+          const reflection = document.createElement("p");
+          reflection.className = "history-reflection";
+          reflection.textContent = lesson.reflection;
+          card.append(reflection);
+        }
+
+        if (lesson.spark || lesson.link) {
+          const deepdive = document.createElement("details");
+          deepdive.className = "history-deepdive";
+          const summary = document.createElement("summary");
+          summary.textContent = "Vertiefen & Quelle";
+          deepdive.append(summary);
+          if (lesson.spark) {
+            const deepText = document.createElement("p");
+            deepText.textContent = lesson.spark;
+            deepdive.append(deepText);
+          }
+          if (lesson.link) {
+            const link = document.createElement("a");
+            link.href = lesson.link;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = lesson.source ? `${lesson.source} lesen` : "Zur Quelle";
+            deepdive.append(link);
+          }
+          card.append(deepdive);
+        }
+
+        const footer = document.createElement("div");
+        footer.className = "history-card-footer";
+        const sourceBlock = document.createElement("div");
+        const source = document.createElement("span");
+        source.textContent = lesson.source || "Quelle unbekannt";
+        const time = document.createElement("time");
+        time.dateTime = lesson.publishedAt || "";
+        time.textContent = formatTime(lesson.publishedAt);
+        sourceBlock.append(source, time);
+        footer.append(sourceBlock);
+
+        const cta = document.createElement("a");
+        cta.className = "history-cta";
+        cta.href = lesson.link || "#";
+        cta.target = "_blank";
+        cta.rel = "noopener noreferrer";
+        cta.textContent = "Artikel öffnen";
+        footer.append(cta);
+
+        card.append(footer);
             const section = document.querySelector(`[data-section="${key}"]`);
-            if (!section) return;
-            const stories = section.querySelector(".stories");
-            stories.innerHTML = "";
-            const entries = (data.categories?.[key] || []).slice(0, limit);
-            entries.forEach((item) => stories.append(buildStory(item, key === "history")));
-            if (!entries.length) {
-              const fallback = document.createElement("p");
-              fallback.textContent = "Noch keine Meldungen.";
-              stories.append(fallback);
-            }
-          });
-
-          renderHistoryLessons(data);
-        } catch (error) {
-          console.error(error);
-        }
-      }
-
-      initSectionToggles();
-      loadNews();
-      setInterval(loadNews, 5 * 60 * 1000);
-    </script>
-  </body>
-</html>
+        return card;
