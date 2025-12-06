@@ -119,6 +119,18 @@ function slugify(value) {
     .slice(0, 48) || "entry";
 }
 
+function buildLearningNarrative(baseSummary, sourceLabel, title) {
+  const fact = baseSummary || `Der Beitrag "${title}" beleuchtet ein Schlüsselereignis der Zeitgeschichte.`;
+  const consequence = `${sourceLabel} ordnet ein, welche gesellschaftlichen und politischen Folgen daraus erwuchsen und welche Handlungsspielräume Akteurinnen und Akteure ausloteten.`;
+  const parallels = `${sourceLabel} zieht Linien zu aktuellen Debatten und lädt dazu ein, Parallelen, wiederkehrende Konfliktmuster und mögliche Lernchancen zu erkennen.`;
+
+  return [
+    `Was geschah: ${fact}`,
+    `Warum es zählt: ${consequence}`,
+    `Parallelen heute: ${parallels}`
+  ];
+}
+
 function buildEntryFromEvent(event) {
   if (typeof event.year !== "number") return null;
   const page = event.pages?.[0];
@@ -209,7 +221,7 @@ function buildExternalHistoryEntry(item, source) {
   if (!title) {
     return null;
   }
-  const summary = sanitizeText(
+  const baseSummary = sanitizeText(
     item.contentSnippet || item.content || item.summary || item.description || "Analyse und Hintergrund aus den Leitmedien."
   );
   const slug = slugify(`${source.id}-${title}`);
@@ -217,12 +229,13 @@ function buildExternalHistoryEntry(item, source) {
   const publishedDate = new Date(rawPublished);
   const publishedIso = Number.isNaN(publishedDate.getTime()) ? new Date().toISOString() : publishedDate.toISOString();
   const link = item.link || item.guid || "https://www.zeit.de/geschichte";
+  const narrative = buildLearningNarrative(baseSummary, source.label, title);
 
   return {
     id: `history-${source.id}-${slug}`,
     title,
-    summary,
-    paragraphs: summary ? [summary] : [],
+    summary: narrative[0],
+    paragraphs: narrative,
     link,
     source: source.label,
     publishedAt: publishedIso,
