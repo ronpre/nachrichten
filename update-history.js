@@ -2,16 +2,43 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import Parser from "rss-parser";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, "news.json");
 
 const HISTORY_SOURCE = "Wikipedia (de) On This Day";
 const FALLBACK_SOURCE = "Kuratiertes Archiv";
+const EXTERNAL_HISTORY_SOURCES = [
+  {
+    id: "zeit",
+    label: "ZEIT Geschichte",
+    rss: "https://newsfeed.zeit.de/wissen/zeit-geschichte/index",
+    limit: 1
+  },
+  {
+    id: "sueddeutsche",
+    label: "Süddeutsche Zeitung",
+    rss: "https://rss.sueddeutsche.de/rss/leben",
+    limit: 1
+  },
+  {
+    id: "spiegel",
+    label: "SPIEGEL Geschichte",
+    rss: "https://www.spiegel.de/geschichte/index.rss",
+    limit: 1
+  }
+];
 const PRE_MODERN_YEAR = 1800; // vor 1800
 const MODERN_THRESHOLD = 1800; // neuere Geschichte
 const MODERN_COUNT = 4;
 const HISTORY_TOTAL = MODERN_COUNT + 1;
+
+const rssParser = new Parser({
+  headers: {
+    "User-Agent": "nachrichten-dashboard/1.0 (https://github.com/ronpre/nachrichten)"
+  }
+});
 
 const FALLBACK_PRE_MODERN = [
   {
@@ -176,6 +203,56 @@ function normalizeWikipediaEvents(events = []) {
   return normalized.sort((a, b) => b.year - a.year);
 }
 
+function buildExternalHistoryEntry(item, source) {
+  if (!item || !source) return null;
+  const title = sanitizeText(item.title || "Historischer Kontext");
+  if (!title) {
+    return null;
+  }
+  const summary = sanitizeText(
+    item.contentSnippet || item.content || item.summary || item.description || "Analyse und Hintergrund aus den Leitmedien."
+  );
+  const slug = slugify(`${source.id}-${title}`);
+  const rawPublished = item.isoDate || item.pubDate || new Date().toISOString();
+  const publishedDate = new Date(rawPublished);
+  const publishedIso = Number.isNaN(publishedDate.getTime()) ? new Date().toISOString() : publishedDate.toISOString();
+  const link = item.link || item.guid || "https://www.zeit.de/geschichte";
+
+  return {
+    id: `history-${source.id}-${slug}`,
+    title,
+    summary,
+    paragraphs: summary ? [summary] : [],
+    link,
+    source: source.label,
+    publishedAt: publishedIso,
+    year: null
+  };
+}
+
+async function fetchExternalHistoryArticles() {
+  const articleBuckets = await Promise.all(
+    EXTERNAL_HISTORY_SOURCES.map(async (source) => {
+      if (!source?.rss) {
+        return [];
+      }
+      try {
+        const feed = await rssParser.parseURL(source.rss);
+        const items = Array.isArray(feed?.items) ? feed.items : [];
+        return items
+          .slice(0, source.limit || 1)
+          .map((entry) => buildExternalHistoryEntry(entry, source))
+          .filter(Boolean);
+      } catch (error) {
+        console.warn(`RSS-Feed für ${source.label} konnte nicht geladen werden:`, error.message);
+        return [];
+      }
+    })
+  );
+
+  return articleBuckets.flat();
+}
+
 async function fetchHistoryItems() {
   const today = new Date();
   const month = today.getUTCMonth() + 1;
@@ -223,20 +300,24 @@ async function persist(payload) {
 
 async function updateHistory() {
   const existing = await loadExisting();
-  const historyItems = await fetchHistoryItems();
+  const [historyItems, externalArticles] = await Promise.all([
+    fetchHistoryItems(),
+    fetchExternalHistoryArticles()
+  ]);
+  const combinedHistory = [...historyItems, ...externalArticles];
 
   const next = {
     ...existing,
     updatedAt: new Date().toISOString(),
     categories: {
       ...existing.categories,
-      history: historyItems
+      history: combinedHistory
     }
   };
 
   await persist(next);
   console.log(
-    `Geschichte aktualisiert (${historyItems.length} Einträge: ${MODERN_COUNT} modern + 1 vor 1800).`
+    `Geschichte aktualisiert (${historyItems.length} On-this-day + ${externalArticles.length} Artikel von ZEIT/SZ/SPIEGEL).`
   );
 }
 
