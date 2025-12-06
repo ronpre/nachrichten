@@ -898,7 +898,7 @@
         };
       }
 
-      async function loadFootballDataFallbackMatches(matchMap, selectedEntry, slug, stageGroup) {
+      async function loadFootballDataFallbackMatches(matchMap, selectedEntry, slug, stageGroup, { includeExisting = false } = {}) {
         if (!slug) {
           return { matches: [], errors: [] };
         }
@@ -919,7 +919,10 @@
             const matches = extractEspnFootballMatches(scoreboard);
             matches.forEach((match) => {
               const identifier = match?.id != null ? String(match.id) : null;
-              if (!identifier || aggregated.has(identifier) || matchMap.has(identifier)) {
+              if (!identifier || aggregated.has(identifier)) {
+                return;
+              }
+              if (!includeExisting && matchMap?.has(identifier)) {
                 return;
               }
               const mappedStatus = match?.status;
@@ -1145,7 +1148,17 @@
           return false;
         }
 
-        let matches = selectedEntry.matchIds
+        const expectedMatchIds = Array.isArray(selectedEntry.matchIds)
+          ? selectedEntry.matchIds.map((id) => String(id))
+          : [];
+        const expectedMatchIdSet = new Set(expectedMatchIds);
+        const fallbackStageOrder = Number.isFinite(selectedEntry.stageOrder) ? selectedEntry.stageOrder : null;
+        const fallbackStageInfo = fallbackStrategy === 'espn-cl' && fallbackStageOrder != null
+          ? CHAMPIONS_LEAGUE_STAGE_INFO.get(fallbackStageOrder)
+          : null;
+        const fallbackGroup = fallbackStageInfo?.slug || null;
+
+        let matches = expectedMatchIds
           .map((id) => matchMap.get(id))
           .filter((entry) => entry != null)
           .map((match) => formatFootballDataMatch(match))
@@ -1160,11 +1173,6 @@
         }
 
         if (!matches.length && matchMap.size) {
-          const fallbackStageOrder = Number.isFinite(selectedEntry.stageOrder) ? selectedEntry.stageOrder : null;
-          const fallbackStageInfo = fallbackStrategy === 'espn-cl' && fallbackStageOrder != null
-            ? CHAMPIONS_LEAGUE_STAGE_INFO.get(fallbackStageOrder)
-            : null;
-          const fallbackGroup = fallbackStageInfo?.slug || null;
           const { matches: fallbackMatches, errors: fallbackLoadErrors } = await loadFootballDataFallbackMatches(matchMap, selectedEntry, leagueConfig?.espnSlug, fallbackGroup);
           if (Array.isArray(fallbackLoadErrors) && fallbackLoadErrors.length) {
             fallbackErrors.push(...fallbackLoadErrors);
@@ -1180,14 +1188,6 @@
           const fallbackSeason = Number.isFinite(payload?.season?.year) ? payload.season.year : undefined;
           return triggerFallback({ reason: 'lokaler Datensatz enthält keine Begegnungen', season: fallbackSeason });
         }
-
-        matches.sort((a, b) => {
-          const dateCompare = (a.isoDate || '').localeCompare(b.isoDate || '');
-          if (dateCompare !== 0) {
-            return dateCompare;
-          }
-          return (a.timeRaw || '').localeCompare(b.timeRaw || '');
-        });
 
         const rawSeasonYear = payload?.season?.year;
         const parsedSeasonYear = Number.isFinite(rawSeasonYear)
@@ -1235,9 +1235,9 @@
         if (matches.length) {
           const now = Date.now();
           const staleToleranceMs = 2 * 60 * 60 * 1000; // allow two hours buffer after Anpfiff
-          const selectedIds = new Set(selectedEntry.matchIds || []);
+          const selectedIds = expectedMatchIdSet.size ? expectedMatchIdSet : null;
           matchMap.forEach((rawMatch, rawId) => {
-            if (selectedIds.size && !selectedIds.has(rawId)) {
+            if (selectedIds && !selectedIds.has(String(rawId))) {
               return;
             }
             const kickoffRaw = rawMatch.utcDate || rawMatch.timeRaw || rawMatch.isoDate || null;
@@ -1258,12 +1258,67 @@
           });
         }
 
-        if (staleMatches.length && staleMatches.length >= Math.ceil(matches.length / 2)) {
+        let staleFallbackApplied = false;
+        if (staleMatches.length && leagueConfig?.espnSlug) {
+          const { matches: staleFallbackMatches, errors: staleFallbackErrors } = await loadFootballDataFallbackMatches(
+            matchMap,
+            selectedEntry,
+            leagueConfig.espnSlug,
+            fallbackGroup,
+            { includeExisting: true }
+          );
+          if (Array.isArray(staleFallbackErrors) && staleFallbackErrors.length) {
+            fallbackErrors.push(...staleFallbackErrors);
+          }
+          if (Array.isArray(staleFallbackMatches) && staleFallbackMatches.length) {
+            const formattedFallback = staleFallbackMatches
+              .map((entry) => formatFootballDataMatch(entry))
+              .filter((entry) => entry != null);
+            if (formattedFallback.length) {
+              const allowedIds = expectedMatchIdSet.size ? expectedMatchIdSet : null;
+              const fallbackById = new Map();
+              formattedFallback.forEach((entry) => {
+                if (entry?.id && (!allowedIds || allowedIds.has(entry.id))) {
+                  fallbackById.set(entry.id, entry);
+                }
+              });
+              if (fallbackById.size) {
+                let replacedAny = false;
+                matches = matches.map((match) => {
+                  const replacement = fallbackById.get(match.id);
+                  if (replacement) {
+                    fallbackById.delete(match.id);
+                    replacedAny = true;
+                    return replacement;
+                  }
+                  return match;
+                });
+                if (fallbackById.size) {
+                  matches = matches.concat(Array.from(fallbackById.values()));
+                  replacedAny = true;
+                }
+                if (replacedAny) {
+                  staleFallbackApplied = true;
+                }
+              }
+            }
+          }
+        }
+
+        if (!staleFallbackApplied && staleMatches.length && staleMatches.length >= Math.ceil(matches.length / 2)) {
           return triggerFallback({
             reason: 'lokaler Datensatz enthält keine aktualisierten Endstände',
             season: datasetSeasonYear
           });
         }
+
+        matches.sort((a, b) => {
+          const dateCompare = (a.isoDate || '').localeCompare(b.isoDate || '');
+          if (dateCompare !== 0) {
+            return dateCompare;
+          }
+          return (a.timeRaw || '').localeCompare(b.timeRaw || '');
+        });
 
         applyRenderMatches(matches, 'Keine Spiele für den ausgewählten Spieltag gefunden.');
 
