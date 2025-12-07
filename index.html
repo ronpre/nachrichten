@@ -560,6 +560,15 @@
         return null;
       };
 
+      const snipSentence = (text = "", maxLength = 140) => {
+        const trimmed = text.trim();
+        if (!trimmed) return null;
+        const sentenceMatch = trimmed.match(/[^.!?]+[.!?]?/);
+        const sentence = (sentenceMatch ? sentenceMatch[0] : trimmed).trim();
+        if (!sentence) return null;
+        return sentence.length > maxLength ? `${sentence.slice(0, maxLength - 1)}…` : sentence;
+      };
+
       function initSectionToggles() {
         document.querySelectorAll("section.panel .section-head h2").forEach((heading) => {
           const section = heading.closest("section.panel");
@@ -660,7 +669,18 @@
         if (lesson.reflection) {
           const reflection = document.createElement("p");
           reflection.className = "history-reflection";
-          reflection.textContent = lesson.reflection;
+          const questionSpan = document.createElement("span");
+          questionSpan.textContent = lesson.reflection;
+          reflection.append(questionSpan);
+          const answerSource = pickText(lesson.reflectionAnswer, lesson.application, lesson.transfer, lesson.insight);
+          const shortAnswer = answerSource ? snipSentence(answerSource) : null;
+          if (shortAnswer) {
+            const br = document.createElement("br");
+            const answerSpan = document.createElement("span");
+            answerSpan.className = "history-reflection-answer";
+            answerSpan.textContent = `Antwort: ${shortAnswer}`;
+            reflection.append(br, answerSpan);
+          }
           card.append(reflection);
         }
 
