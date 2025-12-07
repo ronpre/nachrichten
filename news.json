@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-07T13:34:27.612Z",
+  "updatedAt": "2025-12-07T13:49:50.156Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:a62d9dab-e451-4a28-9031-598aafde6766}",
+        "title": "Skigebiete in den Alpen: Das Geld fällt nicht mehr vom Himmel",
+        "summary": "US-Investoren, ägyptische Milliardäre oder Vater Staat: Worauf die Skiorte in den österreichischen Alpen ihre Zukunft bauen – und welche Risiken sie dabei eingehen.",
+        "paragraphs": [
+          "US-Investoren, ägyptische Milliardäre oder Vater Staat: Worauf die Skiorte in den österreichischen Alpen ihre Zukunft bauen – und welche Risiken sie dabei eingehen."
+        ],
+        "link": "https://www.zeit.de/2025/52/skigebiete-alpen-tourismus-investoren-vail-resorts-schweiz-oesterreich",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-07T13:41:24.000Z"
+      },
       {
         "id": "{urn:uuid:b352f04f-00d2-4602-b88c-c5e5f69557c9}",
         "title": "Weihnachten: Einzelhandel größtenteils unzufrieden mit Weihnachtsgeschäft",
@@ -190,13 +201,13 @@
         "publishedAt": "2025-12-07T09:50:42.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/deutschland/nahost-merz-betont-ewiges-einstehen-fuer-existenz-und-sicherheit-israels/100180573.html",
-        "title": "Nahost: Merz betont ewiges Einstehen für Existenz und Sicherheit Israels",
-        "summary": "Im Sommer herrschte zwischen Merz und Netanjahu wochenlang Funkstille. Nun will der Kanzler das deutsch-israelische Verhältnis reparieren – und hebt die Verantwortung Deutschlands hervor.",
+        "id": "https://www.handelsblatt.com/politik/deutschland/nahost-merz-heikles-treffen-mit-netanjahu-komme-als-freund-israels/100180573.html",
+        "title": "Nahost: Merz heikles Treffen mit Netanjahu – „Komme als Freund Israels“",
+        "summary": "Im Sommer herrschte zwischen Merz und dem israelischen Premier Funkstille. Nun will der Kanzler das deutsch-israelische Verhältnis kitten – setzt dabei aber auch auf kritische Zwischentöne.",
         "paragraphs": [
-          "Im Sommer herrschte zwischen Merz und Netanjahu wochenlang Funkstille. Nun will der Kanzler das deutsch-israelische Verhältnis reparieren – und hebt die Verantwortung Deutschlands hervor."
+          "Im Sommer herrschte zwischen Merz und dem israelischen Premier Funkstille. Nun will der Kanzler das deutsch-israelische Verhältnis kitten – setzt dabei aber auch auf kritische Zwischentöne."
         ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/nahost-merz-betont-ewiges-einstehen-fuer-existenz-und-sicherheit-israels/100180573.html",
+        "link": "https://www.handelsblatt.com/politik/deutschland/nahost-merz-heikles-treffen-mit-netanjahu-komme-als-freund-israels/100180573.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-07T09:31:10.000Z"
       },
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/politik/international/usa-der-trumpismus-ist-ein-aufschrei-gegen-die-moderne/100179597.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-07T09:30:00.000Z"
-      },
-      {
-        "id": "li.3350485",
-        "title": "Milliarden-Projekt: Deutsche Bahn will „lückenlose Aufklärung“ zu Stuttgart 21",
-        "summary": "Die neue Bahnchefin Evelyn Palla kündigt eine interne Untersuchung zu den massiven Verzögerungen bei dem Vorzeigeprojekt an. Es soll „kein Stein auf dem anderen“ bleiben.",
-        "paragraphs": [
-          "Die neue Bahnchefin Evelyn Palla kündigt eine interne Untersuchung zu den massiven Verzögerungen bei dem Vorzeigeprojekt an. Es soll „kein Stein auf dem anderen“ bleiben."
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/deutsche-bahn-stuttgart-21-aufklaerung-verzoegerungen-li.3350485",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-07T09:21:43.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:73c886fb-2d98-4e2d-b13f-59b635fe31f5}",
+        "title": "Venezuela-Krise: Wirklich wichtig ist ihnen Maduro am Ende nicht",
+        "summary": "Das Regime in Venezuela hat mit China und Russland zwei mächtige Freunde. Jetzt wird es von der Trump-Regierung bedroht. Kann sich Maduro auf Xi und Putin verlassen?",
+        "paragraphs": [
+          "Das Regime in Venezuela hat mit China und Russland zwei mächtige Freunde. Jetzt wird es von der Trump-Regierung bedroht. Kann sich Maduro auf Xi und Putin verlassen?"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/venezuela-krise-nicolas-maduro-us-regierung-donald-trump-bedrohung",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-07T13:38:06.000Z"
+      },
       {
         "id": "https://www.spiegel.de/politik/friedrich-merz-kann-der-kanzler-nur-die-eigenen-finanzen-sanieren-kolumne-a-80fe5097-6b0c-4781-885e-c17d68026aae",
         "title": "Friedrich Merz: Kann der Kanzler nur die eigenen Finanzen sanieren? – Kolumne",
@@ -308,7 +319,7 @@
         "paragraphs": [
           "Die erste Phase des Friedensplans sei fast abgeschlossen, sagt Israels Premier. Noch im Dezember will er Donald Trump treffen. Merz glaubt an einen dauerhaften Frieden."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/israel-friedrich-merz-benjamin-netanjahu-krieg-nahost",
+        "link": "https://www.zeit.de/politik/ausland/2025-12/israel-friedrich-merz-benjamin-netanjahu-krieg-nahost-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-07T13:10:04.000Z"
       },
@@ -432,20 +443,42 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/sudan-angriff-kalogi-tote-zivilisten-kinder-rsf-miliz",
         "source": "ZEIT",
         "publishedAt": "2025-12-07T10:12:43.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/asien-japan-wirft-china-gefaehrliche-provokation-mit-kampfjets-vor/100181661.html",
-        "title": "Asien: Japan wirft China gefährliche Provokation mit Kampfjets vor",
-        "summary": "Japans Verteidigungsminister Koizumi spricht von einem „bedauerlichen“ Vorfall gegen den man Protest eingelegt habe. Zuvor hatten chinesische Kampfjets japanische Maschinen ins Visier genommen.",
-        "paragraphs": [
-          "Japans Verteidigungsminister Koizumi spricht von einem „bedauerlichen“ Vorfall gegen den man Protest eingelegt habe. Zuvor hatten chinesische Kampfjets japanische Maschinen ins Visier genommen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/asien-japan-wirft-china-gefaehrliche-provokation-mit-kampfjets-vor/100181661.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-07T10:06:31.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/live-fuerth-gleicht-postwendend-aus-nutzt-kiel-seine-ueberzahl-1172236/artikel#omrss",
+        "title": "LIVE! Fürth gleicht postwendend aus - Nutzt Kiel seine Überzahl?",
+        "summary": "Im Max-Morlock-Stadion bittet der 1. FCN das arg kriselnde Kleeblatt zum Derby. Hält die Siegesserie der Hertha gegen das Schlusslicht aus Magdeburg an? Braunschweig und Kiel stehen im Kellerduell unter Druck.",
+        "paragraphs": [
+          "Im Max-Morlock-Stadion bittet der 1. FCN das arg kriselnde Kleeblatt zum Derby. Hält die Siegesserie der Hertha gegen das Schlusslicht aus Magdeburg an? Braunschweig und Kiel stehen im Kellerduell unter Druck."
+        ],
+        "link": "https://www.kicker.de/live-fuerth-gleicht-postwendend-aus-nutzt-kiel-seine-ueberzahl-1172236/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-07T13:44:04.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-erstes-bundesliga-nordderby-seit-ueber-sieben-jahren-hamburg-gegen-bremen-unter-druck-1172582/artikel#omrss",
+        "title": "LIVE! Erstes Bundesliga-Nordderby seit über sieben Jahren: Hamburg gegen Bremen unter Druck",
+        "summary": "Wie steckt der HSV die bittere Pokalpleite gegen Kiel weg? Bremen verlor nur eines der letzten sieben Partien und könnte mit einem Sieg an den Europa-Plätzen schnuppern. Der HSV will nach dem 0:2 gegen St. Pauli, die zweite Derby-Heimniederlage der Saison unbedingt verhindern.",
+        "paragraphs": [
+          "Wie steckt der HSV die bittere Pokalpleite gegen Kiel weg? Bremen verlor nur eines der letzten sieben Partien und könnte mit einem Sieg an den Europa-Plätzen schnuppern. Der HSV will nach dem 0:2 gegen St. Pauli, die zweite Derby-Heimniederlage der Saison unbedingt verhindern."
+        ],
+        "link": "https://www.kicker.de/live-erstes-bundesliga-nordderby-seit-ueber-sieben-jahren-hamburg-gegen-bremen-unter-druck-1172582/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-07T13:35:30.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/grand-prix-von-abu-dhabi-2025/1172565/formel1-rennbericht#omrss",
+        "title": "LIVE! Der große Formel-1-Showdown: Wer wird Weltmeister?",
+        "summary": "Showdown in Abu Dhabi: Wer krönt sich im Dreikampf zwischen Lando Norris, Max Verstappen und Oscar Piastri zum neuen Weltmeister? Norris hat die besten Chancen, doch Titelverteidiger Verstappen startet von vorn.",
+        "paragraphs": [
+          "Showdown in Abu Dhabi: Wer krönt sich im Dreikampf zwischen Lando Norris, Max Verstappen und Oscar Piastri zum neuen Weltmeister? Norris hat die besten Chancen, doch Titelverteidiger Verstappen startet von vorn."
+        ],
+        "link": "https://www.kicker.de/grand-prix-von-abu-dhabi-2025/1172565/formel1-rennbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-07T13:32:54.000Z"
+      },
       {
         "id": "https://www.kicker.de/hauser-gewinnt-verfolgung-vor-minkkinen-voigt-von-32-auf-10-1172862/artikel#omrss",
         "title": "Hauser gewinnt Verfolgung vor Minkkinen - Voigt von 32 auf 10",
@@ -491,30 +524,8 @@
         "publishedAt": "2025-12-07T13:00:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-reichert-verhindert-fcn-eigentor-kiel-gleicht-in-ueberzahl-aus-fcm-haelt-dagegen-1172236/artikel#omrss",
-        "title": "LIVE! Reichert verhindert FCN-Eigentor - Kiel gleicht in Überzahl aus - FCM hält dagegen",
-        "summary": "Im Max-Morlock-Stadion bittet der 1. FCN das arg kriselnde Kleeblatt zum Derby. Hält die Siegesserie der Hertha gegen das Schlusslicht aus Magdeburg an? Braunschweig und Kiel stehen im Kellerduell unter Druck.",
-        "paragraphs": [
-          "Im Max-Morlock-Stadion bittet der 1. FCN das arg kriselnde Kleeblatt zum Derby. Hält die Siegesserie der Hertha gegen das Schlusslicht aus Magdeburg an? Braunschweig und Kiel stehen im Kellerduell unter Druck."
-        ],
-        "link": "https://www.kicker.de/live-reichert-verhindert-fcn-eigentor-kiel-gleicht-in-ueberzahl-aus-fcm-haelt-dagegen-1172236/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-07T12:54:53.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/grand-prix-von-abu-dhabi-2025/1172565/formel1-rennbericht#omrss",
-        "title": "LIVE! Der große Formel-1-Showdown: Wer wird Weltmeister?",
-        "summary": "Showdown in Abu Dhabi: Wer krönt sich im Dreikampf zwischen Lando Norris, Max Verstappen und Oscar Piastri zum neuen Weltmeister? Norris hat die besten Chancen, doch Titelverteidiger Verstappen startet von vorn.",
-        "paragraphs": [
-          "Showdown in Abu Dhabi: Wer krönt sich im Dreikampf zwischen Lando Norris, Max Verstappen und Oscar Piastri zum neuen Weltmeister? Norris hat die besten Chancen, doch Titelverteidiger Verstappen startet von vorn."
-        ],
-        "link": "https://www.kicker.de/grand-prix-von-abu-dhabi-2025/1172565/formel1-rennbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-07T12:48:54.000Z"
-      },
-      {
         "id": "https://www.kicker.de/hoffenheim-gegen-union-berlin-2025-frauen-bundesliga-5076275/spielbericht#omrss",
-        "title": "LIVE! Findet die TSG gegen Aufsteiger Union wieder in die Spur?",
+        "title": "LIVE! Rettungstat von Union landet im Tor",
         "summary": "Mit dem 4:6-Pokal-Aus gegen Frankfurt hat die TSG Hoffenheim drei Spiele in Serie verloren. Gegen die Aufsteigerinnen von Union Berlin soll nun mal wieder ein Sieg her. Doch die Eisernen brauchen ebenfalls dringend Punkte. Wer findet wieder zurück in die Spur?",
         "paragraphs": [
           "Mit dem 4:6-Pokal-Aus gegen Frankfurt hat die TSG Hoffenheim drei Spiele in Serie verloren. Gegen die Aufsteigerinnen von Union Berlin soll nun mal wieder ein Sieg her. Doch die Eisernen brauchen ebenfalls dringend Punkte. Wer findet wieder zurück in die Spur?"
@@ -535,13 +546,13 @@
         "publishedAt": "2025-12-07T12:37:15.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-thannheimer-schielt-aufs-podium-auch-schmid-lauert-1172863/artikel#omrss",
-        "title": "LIVE! Thannheimer schielt aufs Podium - Auch Schmid lauert",
+        "id": "https://www.kicker.de/schmid-an-thannheimer-vorbei-aufs-podium-lamparter-gelingt-20-sieg-1172863/artikel#omrss",
+        "title": "Schmid an Thannheimer vorbei aufs Podium - Lamparter gelingt 20. Sieg",
         "summary": "Der Weltcup in Trondheim endet für die Nordischen Kombinierer heute mit einem Gundersen-Wettbewerb. Das Springen und der 10-Kilometer-Lauf hier im Ticker.",
         "paragraphs": [
           "Der Weltcup in Trondheim endet für die Nordischen Kombinierer heute mit einem Gundersen-Wettbewerb. Das Springen und der 10-Kilometer-Lauf hier im Ticker."
         ],
-        "link": "https://www.kicker.de/live-thannheimer-schielt-aufs-podium-auch-schmid-lauert-1172863/artikel#omrss",
+        "link": "https://www.kicker.de/schmid-an-thannheimer-vorbei-aufs-podium-lamparter-gelingt-20-sieg-1172863/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-07T12:33:33.000Z"
       },
@@ -563,7 +574,7 @@
         "paragraphs": [
           "Trainer Urs Fischer soll den Mainzern in der Tabelle nach oben helfen. Unter seinem Vorgänger Bo Henriksen fanden sie sich dort auf dem letzten Platz."
         ],
-        "link": "https://www.zeit.de/sport/2025-12/urs-fischer-mainz-05-trainer",
+        "link": "https://www.zeit.de/sport/2025-12/urs-fischer-mainz-05-trainer-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-07T12:29:59.000Z"
       },
@@ -602,7 +613,7 @@
       },
       {
         "id": "https://www.kicker.de/mannheim-gegen-saarbruecken-2025-liga-5057490/spielbericht#omrss",
-        "title": "LIVE! Boyd bedankt sich: Picks Aussetzer bringt Mannheim wieder in Führung",
+        "title": "LIVE! Boyd verpasst aus fünf Metern das 3:1",
         "summary": "Am Sonntagnachmittag ist Saarbrücken nach neun Spielen ohne Sieg gegen Mannheim unter Druck. Waldhof hingegen kann mit einem Sieg oben angreifen.",
         "paragraphs": [
           "Am Sonntagnachmittag ist Saarbrücken nach neun Spielen ohne Sieg gegen Mannheim unter Druck. Waldhof hingegen kann mit einem Sieg oben angreifen."
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/handball-am-sonntag-fuenf-hbl-kracher-und-viel-wm-1145542/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-07T11:44:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/fca-fans-gratulieren-imagewechsel-zur-lachnummer-der-liga-1173170/artikel#omrss",
-        "title": "FCA-Fans gratulieren: \"Imagewechsel zur Lachnummer der Liga\"",
-        "summary": "Sandro Wagner ist weg, die Fans des FC Augsburg aber sind trotzdem nicht besänftigt. Über die nächste Banner-Flut.",
-        "paragraphs": [
-          "Sandro Wagner ist weg, die Fans des FC Augsburg aber sind trotzdem nicht besänftigt. Über die nächste Banner-Flut."
-        ],
-        "link": "https://www.kicker.de/fca-fans-gratulieren-imagewechsel-zur-lachnummer-der-liga-1173170/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-07T11:39:24.000Z"
       }
     ],
     "history": [
@@ -677,7 +677,7 @@
         ],
         "link": "https://de.wikipedia.org/wiki/Parteitag_der_CDU_Deutschlands_2018_(Dezember)",
         "source": "Wikipedia (de) On This Day",
-        "publishedAt": "2025-12-07T00:35:02.287Z",
+        "publishedAt": "2025-12-07T13:49:50.139Z",
         "year": 2018
       },
       {
@@ -689,7 +689,7 @@
         ],
         "link": "https://de.wikipedia.org/wiki/Sozialdemokratische_Partei_Deutschlands",
         "source": "Wikipedia (de) On This Day",
-        "publishedAt": "2025-12-07T00:35:02.287Z",
+        "publishedAt": "2025-12-07T13:49:50.139Z",
         "year": 2017
       },
       {
@@ -701,7 +701,7 @@
         ],
         "link": "https://de.wikipedia.org/wiki/Financial_Times_Deutschland",
         "source": "Wikipedia (de) On This Day",
-        "publishedAt": "2025-12-07T00:35:02.287Z",
+        "publishedAt": "2025-12-07T13:49:50.139Z",
         "year": 2012
       },
       {
@@ -713,7 +713,7 @@
         ],
         "link": "https://de.wikipedia.org/wiki/UN-Klimakonferenz_in_Kopenhagen_2009",
         "source": "Wikipedia (de) On This Day",
-        "publishedAt": "2025-12-07T00:35:02.287Z",
+        "publishedAt": "2025-12-07T13:49:50.139Z",
         "year": 2009
       },
       {
@@ -725,7 +725,7 @@
         ],
         "link": "https://de.wikipedia.org/wiki/Op%C3%A9ra-Comique_(Paris)",
         "source": "Wikipedia (de) On This Day",
-        "publishedAt": "2025-12-07T00:35:02.288Z",
+        "publishedAt": "2025-12-07T13:49:50.140Z",
         "year": 1799
       }
     ]
@@ -843,7 +843,7 @@
       "themeLabel": "Demokratien",
       "source": "Wikipedia (de) On This Day",
       "link": "https://de.wikipedia.org/wiki/Parteitag_der_CDU_Deutschlands_2018_(Dezember)",
-      "publishedAt": "2025-12-07T00:35:02.287Z",
+      "publishedAt": "2025-12-07T13:49:50.139Z",
       "spark": "Beim 31.",
       "coreQuestion": "Wie verändert \"2018: Parteitag der CDU Deutschlands 2018 (Dezember)\" deinen Blick auf Politik & Institutionen?",
       "insight": "Auswirkungen: Wikipedia (de) On This Day zeigt, wie \"2018: Parteitag der CDU Deutschlands 2018 (Dezember)\" mit den beschriebenen Entwicklungen – Beim 31. Parteitag der CDU in Hamburg wird Annegret Kramp-Karrenbauer im zweiten Wahlgang zur Nachfolgerin von Angela Merkel als Parteivorsitzende gewählt, die zuvor 18 Jahre lang das Amt innehatte. – Machtverhältnisse neu sortiert und Reformstau oder Bewegungen offenlegt.",
@@ -855,8 +855,8 @@
         "label": "Jahr 2018",
         "detail": "Parteitag der CDU Deutschlands 2018 (Dezember)"
       },
-      "reinforceAfter": "2025-12-10T00:35:02.287Z"
+      "reinforceAfter": "2025-12-10T13:49:50.139Z"
     }
   ],
-  "historyUpdatedAt": "2025-12-07T00:35:02.304Z"
+  "historyUpdatedAt": "2025-12-07T13:49:50.156Z"
 }
