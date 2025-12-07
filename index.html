@@ -645,12 +645,6 @@
         card.append(head);
 
         const spark = pickText(lesson.spark, lesson.context, lesson.summary);
-        if (spark) {
-          const sparkBlock = document.createElement("p");
-          sparkBlock.className = "history-spark";
-          sparkBlock.textContent = spark;
-          card.append(sparkBlock);
-        }
 
         const question = document.createElement("h3");
         question.className = "history-question";
