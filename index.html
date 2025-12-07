@@ -652,16 +652,6 @@
         card.append(question);
 
         const timelineDetail = pickText(lesson.timeline?.detail, lesson.timelineDetail, lesson.period, lesson.year && `Jahr ${lesson.year}`);
-        if (timelineDetail) {
-          const timeline = document.createElement("div");
-          timeline.className = "history-timeline";
-          const label = document.createElement("strong");
-          label.textContent = lesson.timeline?.label || lesson.timelineLabel || "Zeitfenster";
-          const detail = document.createElement("p");
-          detail.textContent = timelineDetail;
-          timeline.append(label, detail);
-          card.append(timeline);
-        }
 
         const insight = createHistoryStep("Kern-Befund", pickText(lesson.insight, lesson.impact));
         if (insight) card.append(insight);
