@@ -173,9 +173,9 @@ function shuffle(items) {
 }
 
 function pickArticles(limit = DAILY_LIMIT) {
-  const eligible = CURATED_ARTICLES.filter((item) => item.year <= 1900);
+  const eligible = CURATED_ARTICLES.filter((item) => item.year <= 1990);
   if (eligible.length < limit) {
-    throw new Error("Nicht genug kuratierte Ereignisse vor 1900 verfügbar.");
+    throw new Error("Nicht genug kuratierte Ereignisse vor 1990 verfügbar.");
   }
 
   const pool = shuffle(eligible);
