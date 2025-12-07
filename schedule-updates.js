@@ -50,7 +50,7 @@ if (!runOnce) {
   );
 
   historyJob = cron.schedule(
-    "0 9 * * *",
+    "0 10 * * *",
     () => runScript("history", "update-history.js"),
     { timezone: berlinTZ }
   );
@@ -58,7 +58,7 @@ if (!runOnce) {
   newsJob.start();
   historyJob.start();
 
-  log("Scheduler aktiv: News alle 4h zwischen 06-22 Uhr, History täglich um 09 Uhr.");
+  log("Scheduler aktiv: News alle 4h zwischen 06-22 Uhr, History täglich um 10 Uhr.");
 } else {
   log("RUN_ONCE Modus aktiv – führe nur den Initialdurchlauf aus.");
 }

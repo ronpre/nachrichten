@@ -30,6 +30,14 @@ const SECTION_CONFIG = {
 };
 
 const SECTION_SIZE = 20;
+const SECTION_KEYS = Object.keys(SECTION_CONFIG);
+
+function createEmptyCategories() {
+  return SECTION_KEYS.reduce((acc, key) => {
+    acc[key] = [];
+    return acc;
+  }, {});
+}
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -76,11 +84,20 @@ function dedupe(items) {
 async function loadExisting() {
   try {
     const raw = await fs.readFile(DATA_FILE, "utf8");
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    const sourceCategories =
+      parsed && typeof parsed.categories === "object" ? parsed.categories : {};
+    return {
+      updatedAt: parsed?.updatedAt || null,
+      categories: SECTION_KEYS.reduce((acc, key) => {
+        acc[key] = Array.isArray(sourceCategories[key]) ? sourceCategories[key] : [];
+        return acc;
+      }, createEmptyCategories())
+    };
   } catch {
     return {
       updatedAt: null,
-      categories: { wirtschaft: [], politik: [], sport: [], history: [] }
+      categories: createEmptyCategories()
     };
   }
 }
@@ -92,7 +109,7 @@ async function saveData(payload) {
 
 async function updateSections() {
   const existing = await loadExisting();
-  const next = { ...existing, categories: { ...existing.categories } };
+  const next = { ...existing, categories: createEmptyCategories() };
 
   for (const [section, feeds] of Object.entries(SECTION_CONFIG)) {
     const results = [];
