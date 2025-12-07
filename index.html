@@ -634,14 +634,6 @@
           head.append(pill);
         }
 
-        const reminder = document.createElement("div");
-        reminder.className = "history-reminder";
-        reminder.textContent = "Nächster Impuls";
-        const reminderTime = document.createElement("time");
-        reminderTime.dateTime = lesson.reinforceAfter || lesson.publishedAt || "";
-        reminderTime.textContent = formatTime(lesson.reinforceAfter || lesson.publishedAt);
-        reminder.append(reminderTime);
-        head.append(reminder);
         card.append(head);
 
         const spark = pickText(lesson.spark, lesson.context, lesson.summary);
