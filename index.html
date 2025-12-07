@@ -178,14 +178,6 @@
           color: rgba(242, 246, 255, 0.85);
         }
       }
-      .geschichte-context {
-        margin: 0;
-        font-size: 0.85rem;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: rgba(14, 28, 42, 0.6);
-      }
-
       .geschichte-source {
         margin: 0;
         font-size: 0.85rem;
@@ -208,7 +200,6 @@
 
       .geschichte-field h4 {
         margin: 0 0 0.35rem;
-        font-size: 0.85rem;
         text-transform: uppercase;
         letter-spacing: 0.08em;
         color: rgba(14, 28, 42, 0.65);
@@ -476,16 +467,9 @@
         title.textContent = entry.title || "Historischer Beitrag";
         article.append(title);
 
-        const contextLine = document.createElement("p");
-        contextLine.className = "geschichte-context";
-        contextLine.textContent = [entry.year && `Jahr ${entry.year}`, entry.era, entry.region].filter(Boolean).join(" • ");
-        article.append(contextLine);
-
         const sourceBlock = document.createElement("p");
         sourceBlock.className = "geschichte-source";
-        const sourceLabel = document.createElement("span");
-        sourceLabel.textContent = entry.source || "Quelle unbekannt";
-        sourceBlock.append(sourceLabel);
+        sourceBlock.textContent = entry.source || "Quelle unbekannt";
         article.append(sourceBlock);
 
         const fields = [
