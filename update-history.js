@@ -325,6 +325,18 @@ function selectHistoryTheme(detail, title) {
   return DEFAULT_HISTORY_THEME;
 }
 
+function extendWithDetail(baseText = "", detailSentence = "", prefix = "") {
+  const trimmedBase = baseText.trim();
+  if (!detailSentence) return trimmedBase;
+  const normalizedBase = trimmedBase.toLowerCase();
+  const normalizedDetail = detailSentence.toLowerCase();
+  if (normalizedBase.includes(normalizedDetail)) {
+    return trimmedBase;
+  }
+  const addition = prefix ? `${prefix} ${detailSentence}` : detailSentence;
+  return `${trimmedBase} ${addition}`.trim();
+}
+
 function extractNumericYears(text = "") {
   const currentYear = new Date().getFullYear();
   const matches = text.matchAll(/\b(\d{3,4})\b/g);
@@ -426,17 +438,36 @@ function buildLessonBlueprint(baseSummary, sourceLabel, title, publishedAt) {
   const theme = selectHistoryTheme(detail, title);
   const context = { source: sourceLabel, detail, title };
   const reflectionTemplate = theme.reflection || DEFAULT_REFLECTION;
+  const sparkSentence = extractFirstSentence(detail);
+  const detailSentence = sparkSentence || extractFirstSentence(detail);
+
+  const applicationText = extendWithDetail(
+    fillTemplate(theme.lesson || DEFAULT_HISTORY_THEME.lesson, context),
+    detailSentence,
+    "Praxis heute:"
+  );
+
+  const transferText = extendWithDetail(
+    fillTemplate(theme.parallels || DEFAULT_HISTORY_THEME.parallels, context),
+    detailSentence,
+    "Parallele heute:"
+  );
+
+  const reflectionText = extendWithDetail(
+    fillTemplate(reflectionTemplate, context),
+    detailSentence,
+    "Merke dir:"
+  );
 
   return {
     themeLabel: theme.label || DEFAULT_HISTORY_THEME.label,
     topic: theme.topic || DEFAULT_HISTORY_THEME.topic,
-    spark: extractFirstSentence(detail),
+    spark: sparkSentence,
     coreQuestion: buildCoreQuestion(title, theme.topic || DEFAULT_HISTORY_THEME.topic),
     insight: fillTemplate(theme.impact || DEFAULT_HISTORY_THEME.impact, context),
-    chainReaction: fillTemplate(theme.consequences || DEFAULT_HISTORY_THEME.consequences, context),
-    application: fillTemplate(theme.lesson || DEFAULT_HISTORY_THEME.lesson, context),
-    transfer: fillTemplate(theme.parallels || DEFAULT_HISTORY_THEME.parallels, context),
-    reflection: fillTemplate(reflectionTemplate, context),
+    application: applicationText,
+    transfer: transferText,
+    reflection: reflectionText,
     quizPrompt: buildQuizPrompt(title, sourceLabel),
     reinforceAfter: computeReinforceAfter(publishedAt)
   };
@@ -565,7 +596,6 @@ function buildLessonFromArticle(article) {
     spark: blueprint.spark,
     coreQuestion: blueprint.coreQuestion,
     insight: blueprint.insight,
-    chainReaction: blueprint.chainReaction,
     application: blueprint.application,
     transfer: blueprint.transfer,
     reflection: blueprint.reflection,
@@ -590,7 +620,6 @@ function buildLessonFromHistoricalEvent(event) {
     spark: blueprint.spark,
     coreQuestion: blueprint.coreQuestion,
     insight: blueprint.insight,
-    chainReaction: blueprint.chainReaction,
     application: blueprint.application,
     transfer: blueprint.transfer,
     reflection: blueprint.reflection,

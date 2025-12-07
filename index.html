@@ -657,9 +657,6 @@
         const insight = createHistoryStep("Kern-Befund", pickText(lesson.insight, lesson.impact));
         if (insight) card.append(insight);
 
-        const chain = createHistoryStep("Kettenreaktion", pickText(lesson.chainReaction, lesson.consequences));
-        if (chain) card.append(chain);
-
         const application = createHistoryStep("Heute anwenden", pickText(lesson.application, lesson.lessonsLearned));
         if (application) card.append(application);
 
