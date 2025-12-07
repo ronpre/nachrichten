@@ -217,9 +217,15 @@
         align-items: baseline;
       }
 
-      .geschichte-source a {
+      .geschichte-link {
+        margin: 1rem 0 0;
+        font-size: 0.85rem;
+      }
+
+      .geschichte-link a {
         color: var(--accent);
         text-decoration: none;
+        font-weight: 600;
       }
 
       .geschichte-field h4 {
@@ -504,17 +510,6 @@
         const sourceLabel = document.createElement("span");
         sourceLabel.textContent = entry.source || "Quelle unbekannt";
         sourceBlock.append(sourceLabel);
-        if (entry.sourceUrl) {
-          const divider = document.createElement("span");
-          divider.textContent = "·";
-          divider.setAttribute("aria-hidden", "true");
-          const link = document.createElement("a");
-          link.href = entry.sourceUrl;
-          link.target = "_blank";
-          link.rel = "noopener noreferrer";
-          link.textContent = "Artikel öffnen";
-          sourceBlock.append(divider, link);
-        }
         article.append(sourceBlock);
 
         const fields = [
@@ -535,6 +530,18 @@
           wrapper.append(heading, body);
           article.append(wrapper);
         });
+
+        if (entry.sourceUrl) {
+          const linkRow = document.createElement("p");
+          linkRow.className = "geschichte-link";
+          const link = document.createElement("a");
+          link.href = entry.sourceUrl;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = "Artikel öffnen";
+          linkRow.append(link);
+          article.append(linkRow);
+        }
 
         return article;
       }
