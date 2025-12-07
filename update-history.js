@@ -412,7 +412,7 @@ function buildTimelineMeta({ title, year, publishedAt }) {
   if (formatted) {
     return {
       label: formatted,
-      detail: "Analyse veröffentlicht"
+      detail: title.replace(/^[^:]+:\s*/, "")
     };
   }
   return {
