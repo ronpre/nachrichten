@@ -172,26 +172,6 @@
         color: var(--history-ink);
       }
 
-      .geschichte-head {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        margin-bottom: 1.5rem;
-      }
-
-      @media (min-width: 900px) {
-        .geschichte-head {
-          flex-direction: row;
-          align-items: flex-end;
-          justify-content: space-between;
-        }
-      }
-
-      .geschichte-head h3 {
-        margin: 0;
-        font-size: clamp(1.4rem, 2.5vw, 2rem);
-      }
-
       .geschichte-meta {
         margin: 0;
         font-size: 0.95rem;
@@ -412,19 +392,6 @@
         <h2 tabindex="0" role="button" aria-expanded="false">geschichte</h2>
       </div>
       <div class="geschichte-inner">
-        <div class="geschichte-head">
-          <div>
-            <p class="geschichte-context">Kuratiertes Archiv</p>
-            <h3>Fünf Lektionen vor 1900</h3>
-          </div>
-          <div>
-            <p class="geschichte-meta">Quellen: ZEIT Geschichte · SPIEGEL Geschichte · P.M. History</p>
-            <p class="geschichte-meta">
-              Automatisches Update täglich um 10:00 Uhr · Letztes Update:
-              <strong data-geschichte-updated>-</strong>
-            </p>
-          </div>
-        </div>
         <div class="geschichte-grid" id="geschichte-grid"></div>
       </div>
     </section>
