@@ -657,13 +657,6 @@
         const transfer = createHistoryStep("Parallelen", pickText(lesson.transfer, lesson.parallels));
         if (transfer) card.append(transfer);
 
-        if (lesson.quizPrompt) {
-          const quiz = document.createElement("div");
-          quiz.className = "history-quiz";
-          quiz.textContent = lesson.quizPrompt;
-          card.append(quiz);
-        }
-
         if (lesson.reflection) {
           const reflection = document.createElement("p");
           reflection.className = "history-reflection";
