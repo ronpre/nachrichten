@@ -325,16 +325,22 @@ function selectHistoryTheme(detail, title) {
   return DEFAULT_HISTORY_THEME;
 }
 
-function extendWithDetail(baseText = "", detailSentence = "", prefix = "") {
-  const trimmedBase = baseText.trim();
+function stripLeadingLabel(text = "") {
+  const trimmed = text.trim();
+  if (!trimmed) return "";
+  const withoutLeading = trimmed.replace(/^[^:]{2,40}:\s*/, "").trim();
+  return withoutLeading || trimmed;
+}
+
+function extendWithDetail(baseText = "", detailSentence = "") {
+  const trimmedBase = stripLeadingLabel(baseText);
   if (!detailSentence) return trimmedBase;
   const normalizedBase = trimmedBase.toLowerCase();
   const normalizedDetail = detailSentence.toLowerCase();
   if (normalizedBase.includes(normalizedDetail)) {
     return trimmedBase;
   }
-  const addition = prefix ? `${prefix} ${detailSentence}` : detailSentence;
-  return `${trimmedBase} ${addition}`.trim();
+  return `${trimmedBase} ${detailSentence}`.trim();
 }
 
 function extractNumericYears(text = "") {
@@ -392,6 +398,15 @@ function extractFirstSentence(text = "") {
   return sentence.length > 220 ? `${sentence.slice(0, 217)}…` : sentence;
 }
 
+function extractSecondSentence(text = "") {
+  const sanitized = text.trim();
+  if (!sanitized) return "";
+  const matches = sanitized.match(/[^.!?]+[.!?]?/g);
+  if (!matches || matches.length < 2) return "";
+  const second = matches[1].trim();
+  return second.length > 220 ? `${second.slice(0, 217)}…` : second;
+}
+
 function buildCoreQuestion(title, topic) {
   return `Wie verändert "${title}" deinen Blick auf ${topic}?`;
 }
@@ -439,24 +454,21 @@ function buildLessonBlueprint(baseSummary, sourceLabel, title, publishedAt) {
   const context = { source: sourceLabel, detail, title };
   const reflectionTemplate = theme.reflection || DEFAULT_REFLECTION;
   const sparkSentence = extractFirstSentence(detail);
-  const detailSentence = sparkSentence || extractFirstSentence(detail);
+  const supportingSentence = extractSecondSentence(detail) || sparkSentence;
 
   const applicationText = extendWithDetail(
     fillTemplate(theme.lesson || DEFAULT_HISTORY_THEME.lesson, context),
-    detailSentence,
-    "Praxis heute:"
+    supportingSentence
   );
 
   const transferText = extendWithDetail(
     fillTemplate(theme.parallels || DEFAULT_HISTORY_THEME.parallels, context),
-    detailSentence,
-    "Parallele heute:"
+    supportingSentence
   );
 
   const reflectionText = extendWithDetail(
     fillTemplate(reflectionTemplate, context),
-    detailSentence,
-    "Merke dir:"
+    supportingSentence
   );
 
   return {
