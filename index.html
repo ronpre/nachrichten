@@ -729,14 +729,6 @@
         sourceBlock.append(source, time);
         footer.append(sourceBlock);
 
-        const cta = document.createElement("a");
-        cta.className = "history-cta";
-        cta.href = lesson.link || "#";
-        cta.target = "_blank";
-        cta.rel = "noopener noreferrer";
-        cta.textContent = "Artikel öffnen";
-        footer.append(cta);
-
         card.append(footer);
         return card;
       }
