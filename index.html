@@ -154,8 +154,16 @@
         display: none;
       }
 
-      .geschichte-section {
+      .geschichte-panel {
         margin: 0 clamp(1rem, 4vw, 4rem) 3rem;
+      }
+
+      .geschichte-panel > :not(.section-head) {
+        border-top: none;
+        padding-top: 0;
+      }
+
+      .geschichte-inner {
         background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.95), rgba(247, 249, 255, 0.9));
         border-radius: 24px;
         border: 1px solid rgba(14, 28, 42, 0.08);
@@ -179,9 +187,9 @@
         }
       }
 
-      .geschichte-head h2 {
+      .geschichte-head h3 {
         margin: 0;
-        font-size: clamp(1.8rem, 3vw, 2.4rem);
+        font-size: clamp(1.4rem, 2.5vw, 2rem);
       }
 
       .geschichte-meta {
@@ -195,23 +203,23 @@
         color: var(--history-ink);
       }
 
-      .geschichte-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-        gap: 1.25rem;
+      .geschichte-inner {
+        background: radial-gradient(circle at top, rgba(15, 25, 38, 0.95), rgba(4, 8, 14, 0.92));
+        border-color: rgba(255, 255, 255, 0.08);
+        color: #f2f6ff;
       }
 
       .geschichte-article {
-        background: #fff;
-        border-radius: 18px;
-        padding: 1.25rem;
-        border: 1px solid rgba(14, 28, 42, 0.08);
-        display: flex;
-        flex-direction: column;
-        gap: 0.85rem;
-        min-height: 100%;
+        background: rgba(7, 12, 20, 0.92);
+        border-color: rgba(255, 255, 255, 0.08);
       }
 
+      .geschichte-field h4,
+      .geschichte-source,
+      .geschichte-meta,
+      .geschichte-field p {
+        color: rgba(242, 246, 255, 0.85);
+      }
       .geschichte-context {
         margin: 0;
         font-size: 0.85rem;
@@ -399,21 +407,26 @@
       </section>
     </main>
 
-    <section class="geschichte-section" id="geschichte">
-      <div class="geschichte-head">
-        <div>
-          <p class="geschichte-context">Geschichte</p>
-          <h2>Fünf Lektionen vor 1900</h2>
-        </div>
-        <div>
-          <p class="geschichte-meta">Quellen: ZEIT Geschichte · SPIEGEL Geschichte · P.M. History</p>
-          <p class="geschichte-meta">
-            Automatisches Update täglich um 10:00 Uhr · Letztes Update:
-            <strong data-geschichte-updated>-</strong>
-          </p>
-        </div>
+    <section class="panel collapsed geschichte-panel" data-section="geschichte" id="geschichte">
+      <div class="section-head">
+        <h2 tabindex="0" role="button" aria-expanded="false">geschichte</h2>
       </div>
-      <div class="geschichte-grid" id="geschichte-grid"></div>
+      <div class="geschichte-inner">
+        <div class="geschichte-head">
+          <div>
+            <p class="geschichte-context">Kuratiertes Archiv</p>
+            <h3>Fünf Lektionen vor 1900</h3>
+          </div>
+          <div>
+            <p class="geschichte-meta">Quellen: ZEIT Geschichte · SPIEGEL Geschichte · P.M. History</p>
+            <p class="geschichte-meta">
+              Automatisches Update täglich um 10:00 Uhr · Letztes Update:
+              <strong data-geschichte-updated>-</strong>
+            </p>
+          </div>
+        </div>
+        <div class="geschichte-grid" id="geschichte-grid"></div>
+      </div>
     </section>
 
     <footer>
