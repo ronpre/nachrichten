@@ -3166,3 +3166,25 @@ Error: EPERM: operation not permitted, open '/Users/rp/Documents/projekte/nachri
 }
 
 Node.js v24.7.0
+node:fs:440
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: EPERM: operation not permitted, open '/Users/rp/Documents/projekte/nachrichten/schedule-updates.js'
+    at Object.readFileSync (node:fs:440:20)
+    at defaultLoadImpl (node:internal/modules/cjs/loader:1131:17)
+    at loadSource (node:internal/modules/cjs/loader:1765:20)
+    at Object..js (node:internal/modules/cjs/loader:1864:44)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'open',
+  path: '/Users/rp/Documents/projekte/nachrichten/schedule-updates.js'
+}
+
+Node.js v24.7.0
