@@ -316,6 +316,7 @@
         <div class="section-head">
           <h2 tabindex="0" role="button" aria-expanded="false">wirtschaft</h2>
         </div>
+        <p class="story-meta">update: <span data-section-updated="wirtschaft">-</span></p>
         <ol class="stories"></ol>
       </section>
 
@@ -323,6 +324,7 @@
         <div class="section-head">
           <h2 tabindex="0" role="button" aria-expanded="false">politik</h2>
         </div>
+        <p class="story-meta">update: <span data-section-updated="politik">-</span></p>
         <ol class="stories"></ol>
       </section>
 
@@ -330,6 +332,7 @@
         <div class="section-head">
           <h2 tabindex="0" role="button" aria-expanded="false">sport</h2>
         </div>
+        <p class="story-meta">update: <span data-section-updated="sport">-</span></p>
         <ol class="stories"></ol>
       </section>
 
@@ -558,7 +561,11 @@
       function updateMeta(updatedAt) {
         const target = document.querySelector("[data-updated]");
         if (!target) return;
-        target.textContent = updatedAt ? formatTime(updatedAt) : "Fehler beim Laden";
+        const value = updatedAt ? formatTime(updatedAt) : "Fehler beim Laden";
+        target.textContent = value;
+        document.querySelectorAll("[data-section-updated]").forEach((span) => {
+          span.textContent = value;
+        });
       }
 
       async function loadNews() {
