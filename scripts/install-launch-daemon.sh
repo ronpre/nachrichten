@@ -11,9 +11,16 @@ LOG_DIR="$REPO_DIR/logs"
 PLIST_LABEL="com.nachrichten.scheduler.daemon"
 PLIST_PATH="/Library/LaunchDaemons/${PLIST_LABEL}.plist"
 NODE_BIN="${NODE_BIN:-$(command -v node)}"
+RUN_USER="${TARGET_USER:-${SUDO_USER:-$(stat -f %Su "$REPO_DIR")}}"
+RUN_GROUP="${TARGET_GROUP:-$(id -gn "$RUN_USER")}" 
 
 if [[ -z "${NODE_BIN}" ]]; then
   echo "[nachrichten:launch-daemon] Fehler: Node.js wurde nicht gefunden." >&2
+  exit 1
+fi
+
+if [[ -z "${RUN_USER}" || -z "${RUN_GROUP}" ]]; then
+  echo "[nachrichten:launch-daemon] Fehler: Zielbenutzer konnte nicht bestimmt werden." >&2
   exit 1
 fi
 
@@ -33,6 +40,12 @@ cat > "$PLIST_PATH" <<'PLIST'
     </array>
     <key>WorkingDirectory</key>
     <string>%WORKDIR%</string>
+    <key>UserName</key>
+    <string>%USERNAME%</string>
+    <key>GroupName</key>
+    <string>%GROUPNAME%</string>
+    <key>SessionCreate</key>
+    <true/>
     <key>EnvironmentVariables</key>
     <dict>
       <key>RUN_ONCE</key>
@@ -53,7 +66,7 @@ cat > "$PLIST_PATH" <<'PLIST'
 </plist>
 PLIST
 
-perl -0pi -e "s#%LABEL%#${PLIST_LABEL}#g; s#%NODE%#${NODE_BIN}#g; s#%SCRIPT%#${REPO_DIR}/schedule-updates.js#g; s#%WORKDIR%#${REPO_DIR}#g; s#%LOGDIR%#${LOG_DIR}#g" "$PLIST_PATH"
+perl -0pi -e "s#%LABEL%#${PLIST_LABEL}#g; s#%NODE%#${NODE_BIN}#g; s#%SCRIPT%#${REPO_DIR}/schedule-updates.js#g; s#%WORKDIR%#${REPO_DIR}#g; s#%LOGDIR%#${LOG_DIR}#g; s#%USERNAME%#${RUN_USER}#g; s#%GROUPNAME%#${RUN_GROUP}#g" "$PLIST_PATH"
 
 chown root:wheel "$PLIST_PATH"
 chmod 644 "$PLIST_PATH"
