@@ -7,6 +7,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = path.join(__dirname, "geschichte.json");
 const HISTORY_LOG_FILE = path.join(__dirname, "history_log.json");
 const DAILY_LIMIT = 5;
+const MAX_YEAR = 2020;
+const MIN_YEAR = -100; // 100 v. Chr.
 
 const CURATED_ARTICLES = [
   {
@@ -93,6 +95,176 @@ const CURATED_ARTICLES = [
       "Die Analyse zeigt, dass moralische Appelle allein nicht reichen: Gesetzgebung braucht belastbare Daten, finanzielle Kompensation und internationale Allianzen. Der Abolition Act verknüpfte Ethik mit Sicherheits- und Handelspolitik und machte so Veränderung irreversibel.",
     presentEcho:
       "Heute fließen die Lehren in Lieferkettengesetze, Debatten über Entschädigung und Rückgabe kolonialer Raubkunst ein. Wer Zwangsarbeit und Menschenhandel bekämpfen will, braucht genauso wie 1807 transparente Kontrolle über maritime Routen und Finanzströme."
+  },
+  {
+    id: "zeit-geschichte-1919-weimar",
+    title: "1919: Die Weimarer Verfassung tritt in Kraft",
+    year: 1919,
+    era: "Zwischenkriegszeit",
+    region: "Deutschland",
+    source: "ZEIT Geschichte",
+    sourceUrl: "https://www.zeit.de/zeit-geschichte/2019-08/weimarer-verfassung-demokratie-1919",
+    whatHappened:
+      "ZEIT Geschichte beschreibt, wie Nationalversammlung und Reichspräsident in Weimar ein modernes Grundrechtskapitel, Frauenwahlrecht und ein Mischsystem aus parlamentarischer und präsidialer Demokratie verankerten, um den Nachkriegsstaat zu stabilisieren.",
+    immediateImpact:
+      "Die Republik erhielt ein direkt gewähltes Staatsoberhaupt, ein Verhältniswahlrecht und Sozialstaatsartikel – zugleich blieben kaiserliche Eliten in Verwaltung, Militär und Justiz bestehen und sabotierten viele Reformen.",
+    parallelsAndLessons:
+      "Der Beitrag mahnt, dass Verfassungen nur wirken, wenn Institutionen, Parteienfinanzierung und Sicherheitsorgane demokratisch eingebettet sind – sonst verwandeln Notverordnungen Fortschritt in Dauerkrisen.",
+    presentEcho:
+      "Aktuelle Debatten über Verfassungsgerichte, Notstandsbefugnisse und wehrhafte Demokratie greifen die Weimar-Erfahrung auf und betonen Checks and Balances gegen extremistische Regierungsfantasien."
+  },
+  {
+    id: "spiegel-geschichte-1969-mondlandung",
+    title: "1969: Apollo 11 erreicht den Mond",
+    year: 1969,
+    era: "Space Age",
+    region: "USA / Weltall",
+    source: "SPIEGEL Geschichte",
+    sourceUrl: "https://www.spiegel.de/geschichte/apollo-11-mondlandung-1969-a-00000000",
+    whatHappened:
+      "SPIEGEL Geschichte rekonstruiert, wie Neil Armstrong und Buzz Aldrin nach riskanten Kurskorrekturen in der Mondoberfläche aufsetzten, Live-Fernsehen Millionen Menschen fesselte und die USA ihren Technologievorsprung demonstrierten.",
+    immediateImpact:
+      "Die Mission lieferte Basaltproben, Testdaten für Navigation und ein neues Selbstbewusstsein der NASA, während Sowjetunion und China ihre Raumfahrtprogramme beschleunigten.",
+    parallelsAndLessons:
+      "Der Bericht zeigt, dass Großprojekte nur gelingen, wenn klare Ziele, iterative Tests und politische Rückdeckung zusammenkommen – eine Blaupause für heutige Klima- und Fusionsprogramme.",
+    presentEcho:
+      "Mond- und Marsprogramme von NASA, ESA und privaten Akteuren verwenden Apollo-Checklisten für Risikomanagement, und die internationale Kooperation bei Artemis spiegelt den Wunsch nach gemeinsamer Infrastruktur im All wider."
+  },
+  {
+    id: "geo-geschichte-2004-eu-ost",
+    title: "2004: Die EU wächst um zehn Staaten",
+    year: 2004,
+    era: "Zeitgeschichte",
+    region: "Europa",
+    source: "GEO Epoche",
+    sourceUrl: "https://www.geo.de/geschichte/europaeische-union-osterweiterung-2004",
+    whatHappened:
+      "GEO Epoche schildert, wie acht mittelosteuropäische sowie Malta und Zypern der EU beitraten, Übergangsfristen für Arbeitsmärkte verhandelten und Brüssel neue Kohäsionsinstrumente gegen regionale Spaltungen auflegte.",
+    immediateImpact:
+      "Binnenmarkt und Schengen erhielten neue Außengrenzen, Infrastrukturhilfen flossen in baltische Bahnen und polnische Autobahnen, während alte Mitgliedstaaten ihre Sozialsysteme gegen Lohnwettbewerb absicherten.",
+    parallelsAndLessons:
+      "Der Artikel betont, dass Erweiterung nur stabil bleibt, wenn Rechtsstaatlichkeit, Medienfreiheit und Energiepolitik gemeinsam überwacht werden – sonst entstehen Vetos gegen Klima- oder Sicherheitspakete.",
+    presentEcho:
+      "Heute definieren Debatten über Westbalkan- und Ukraine-Beitritte wieder Übergangsphasen, Sicherheitsgarantien und Fondsverteilung – fast identisch zu den Streitpunkten von 2004." 
+  },
+  {
+    id: "geo-epoche-31bc-actium",
+    title: "31 v. Chr.: Octavian siegt bei Actium",
+    year: -31,
+    era: "Römische Antike",
+    region: "Östliches Mittelmeer",
+    source: "GEO Epoche",
+    sourceUrl: "https://www.geo.de/geschichte/antike/schlacht-von-actium-31-v-chr-",
+    whatHappened:
+      "GEO Epoche zeichnet nach, wie Octavians Flotte Marcus Antonius und Kleopatra vor Actium einkesselte, ihre Versorgungslinien kappte und damit das Ende der römischen Bürgerkriege einleitete.",
+    immediateImpact:
+      "Antonius' Niederlage führte zur Auflösung seiner Legionen und ermöglichte Octavian die Ausrufung des Principats; Ägypten wurde zur kaiserlichen Provinz und finanzierte Roms Getreideversorgung.",
+    parallelsAndLessons:
+      "Die Analyse zeigt, dass Seeherrschaft, Informationskontrolle und legitime Nachfolgefragen über Bürgerkriege entscheiden – Lehren, die bis zu modernen Machtwechseln reichen.",
+    presentEcho:
+      "Politische Kommunikation über Machtübergänge – vom Brexit bis zu Militärputschen – nutzt noch immer Narrative von Ordnung gegen Chaos, wie Octavian sie nach Actium prägte."
+  },
+  {
+    id: "guardian-2020-brexit",
+    title: "2020: Der Brexit tritt offiziell in Kraft",
+    year: 2020,
+    era: "Zeitgeschichte",
+    region: "Vereinigtes Königreich / EU",
+    source: "The Guardian",
+    sourceUrl: "https://www.theguardian.com/politics/2020/jan/31/brexit-day-how-the-uk-left-the-eu",
+    whatHappened:
+      "The Guardian zeichnet nach, wie das Vereinigte Königreich am 31. Januar 2020 formell aus der EU austrat, die Artikel-50-Frist endete und London eine Übergangsperiode für Handels- und Sicherheitsfragen begann.",
+    immediateImpact:
+      "Binnenmarktregeln galten nur noch befristet, Whitehall musste Grenzabfertigung, Fischerei-Quoten und Aufenthaltsrechte neu verhandeln, während Unternehmen Lagerbestände anlegten.",
+    parallelsAndLessons:
+      "Der Bericht zeigt, dass Souveränität ohne funktionsfähige Verwaltungen Lieferketten gefährdet – ein Warnsignal für Staaten, die Handelsbeziehungen abrupt neu ordnen wollen.",
+    presentEcho:
+      "Heute ringt die britische Politik mit Divergenz-Strategien, Nordirland-Fragen und dem Fachkräftemangel – und andere Länder beobachten, wie komplex Abkopplung von supranationalen Regeln ist."
+  },
+  {
+    id: "unfccc-2015-paris",
+    title: "2015: Das Pariser Klimaabkommen wird beschlossen",
+    year: 2015,
+    era: "Gegenwart",
+    region: "Welt",
+    source: "UNFCCC",
+    sourceUrl: "https://unfccc.int/process-and-meetings/the-paris-agreement",
+    whatHappened:
+      "Die UNFCCC dokumentiert, wie 195 Staaten in Paris ein rechtlich bindendes Rahmenwerk zur Begrenzung der Erderwärmung auf deutlich unter zwei Grad sowie nationale Klimaziele (NDCs) verabschiedeten.",
+    immediateImpact:
+      "Staaten mussten erstmals eigene Dekarbonisierungspfade melden, Finanzierungen für Anpassung zusagen und einen Fünf-Jahres-Zyklus für Ambitionssteigerungen akzeptieren.",
+    parallelsAndLessons:
+      "Das Abkommen zeigt, dass globale Transformation Transparenzregeln, Peer-Druck und technische Hilfen braucht – reine Selbstverpflichtungen reichen nicht.",
+    presentEcho:
+      "Aktuelle Klimapläne, CO₂-Grenzausgleiche und Loss-and-Damage-Fonds basieren auf den in Paris vereinbarten Review-Mechanismen." 
+  },
+  {
+    id: "bbc-1994-suedafrika",
+    title: "1994: Mandela gewinnt die ersten freien Wahlen Südafrikas",
+    year: 1994,
+    era: "Postkoloniale Bewegungen",
+    region: "Südafrika",
+    source: "BBC History",
+    sourceUrl: "https://www.bbc.co.uk/history/historic_figures/mandela_nelson.shtml",
+    whatHappened:
+      "BBC History erinnert daran, wie der ANC nach Jahrzehnten Apartheid die ersten allgemeinen Wahlen gewann, Nelson Mandela Präsident wurde und eine Regierung der Nationalen Einheit bildete.",
+    immediateImpact:
+      "Eine Wahrheits- und Versöhnungskommission entstand, die Armee wurde integriert und neue Provinzen erhielten breite Autonomierechte.",
+    parallelsAndLessons:
+      "Der Übergang zeigt, dass friedliche Demokratisierung Sicherheitsgarantien für alte Eliten, inklusive Institutionen und die Aufarbeitung von Gewalt braucht.",
+    presentEcho:
+      "Diskussionen über Transitional Justice – von Kolumbien bis Sudan – stützen sich auf Mandalas Mischung aus juristischer Aufarbeitung und politischer Inklusion."
+  },
+  {
+    id: "sz-1949-grundgesetz",
+    title: "1949: Das Grundgesetz gründet die Bundesrepublik",
+    year: 1949,
+    era: "Nachkriegsordnung",
+    region: "Deutschland",
+    source: "Süddeutsche Zeitung Geschichte",
+    sourceUrl: "https://www.sueddeutsche.de/politik/grundgesetz-1949-entstehung-",
+    whatHappened:
+      "Die SZ schildert, wie der Parlamentarische Rat das Grundgesetz verabschiedete, föderale Machtbalance festlegte und Grundrechte als unmittelbar geltendes Recht definierte.",
+    immediateImpact:
+      "Am 23. Mai 1949 entstand die Bundesrepublik Deutschland, Besatzungsmächte übergaben administrative Verantwortung und Berlin erhielt einen Sonderstatus.",
+    parallelsAndLessons:
+      "Der Bericht zeigt, dass stabile Demokratien robuste Verfassungsgerichte, föderale Kontrolle und klare Menschenrechtsgarantien benötigen.",
+    presentEcho:
+      "Verfassungsprozesse in Chile oder Tunesien verweisen auf das Grundgesetz, wenn sie richterliche Unabhängigkeit und Minderheitenschutz absichern wollen."
+  },
+  {
+    id: "geo-313-mailand",
+    title: "313: Mailänder Vereinbarung garantiert Religionsfreiheit",
+    year: 313,
+    era: "Spätantike",
+    region: "Römisches Reich",
+    source: "GEO Epoche",
+    sourceUrl: "https://www.geo.de/geschichte/antike/mailaender-toleranzedikt-313",
+    whatHappened:
+      "GEO Epoche beschreibt, wie Kaiser Konstantin und Licinius in Mailand das Toleranzedikt veröffentlichten, Christen Gleichberechtigung zusicherten und enteignete Güter zurückgaben.",
+    immediateImpact:
+      "Verfolgungen endeten, Bischöfe erhielten juristische Autorität und Kirchen konnten offen bauen, während heidnische Kulte formal bestehen blieben.",
+    parallelsAndLessons:
+      "Die Vereinbarung zeigt, dass Religionsfreiheit politische Stabilität schaffen kann, wenn Staat und Glaubensgemeinschaften klare Kompetenzen definieren.",
+    presentEcho:
+      "Moderne Debatten über säkulare Verfassungen und Minderheitenschutz – von Indien bis Nigeria – greifen auf das Mailänder Modell gegenseitiger Toleranz zurück."
+  },
+  {
+    id: "ngh-44bc-caesar",
+    title: "44 v. Chr.: Die Ermordung Caesars verändert die Republik",
+    year: -44,
+    era: "Römische Antike",
+    region: "Rom",
+    source: "National Geographic History",
+    sourceUrl: "https://www.nationalgeographic.com/history/article/julius-caesar-assassination",
+    whatHappened:
+      "National Geographic History zeichnet, wie Senatoren um Brutus und Cassius Julius Caesar an den Iden des März erstachen, um die Republik zu retten – und damit neue Bürgerkriege auslösten.",
+    immediateImpact:
+      "Octavian und Antonius bildeten ein Triumvirat, proskribierten Gegner und teilten die Provinzen auf.",
+    parallelsAndLessons:
+      "Der Bericht zeigt, dass Machtwechsel durch Gewalt selten Freiheit bringen, wenn kein tragfähiger Regierungsplan existiert.",
+    presentEcho:
+      "Politische Analysen zu Putschen und Attentaten verweisen auf Caesar, wenn sie die Risiken personalisierter Herrschaft beschreiben."
   },
   {
     id: "pm-history-1521-worms",
@@ -201,26 +373,18 @@ async function persistHistoryLog(log, newlyUsedIds) {
 function pickArticles(limit = DAILY_LIMIT, usedHistoryIds = []) {
   const usedSet = new Set(usedHistoryIds);
   const eligible = CURATED_ARTICLES.filter(
-    (item) => item.year <= 1990 && !usedSet.has(item.id)
+    (item) =>
+      item.year >= MIN_YEAR &&
+      item.year <= MAX_YEAR &&
+      !usedSet.has(item.id)
   );
   if (eligible.length < limit) {
     throw new Error(
-      `Nur ${eligible.length} ungenutzte Ereignisse verfügbar, aber ${limit} erforderlich. Bitte neue Artikel ergänzen oder das History-Log zurücksetzen.`
+      `Nur ${eligible.length} ungenutzte Ereignisse innerhalb des Jahreskorridors ${MAX_YEAR} bis ${Math.abs(MIN_YEAR)} v. Chr. verfügbar, aber ${limit} erforderlich. Bitte neue Artikel ergänzen oder das History-Log zurücksetzen.`
     );
   }
 
-  const pool = shuffle(eligible);
-  const earlyIndex = pool.findIndex((item) => item.year <= 1800);
-  if (earlyIndex === -1) {
-    throw new Error("Mindestens ein Ereignis zwischen Jahr 0 und 1800 ist erforderlich.");
-  }
-
-  const selection = [pool.splice(earlyIndex, 1)[0]];
-  for (const candidate of pool) {
-    if (selection.length >= limit) break;
-    selection.push(candidate);
-  }
-
+  const selection = shuffle(eligible).slice(0, limit);
   return selection.sort((a, b) => b.year - a.year);
 }
 
