@@ -2,7 +2,7 @@
   "name": "nachrichten",
   "version": "1.0.0",
   "type": "module",
-  "description": "Automatisch aktualisierte Nachrichtenübersicht mit Wirtschaft, Politik, Sport und History.",
+  "description": "Manuell gepflegte Nachrichtenübersicht mit Wirtschaft, Politik, Sport und History.",
   "license": "MIT",
   "scripts": {
     "update:news": "node update-news.js",
