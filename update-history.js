@@ -5,6 +5,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = path.join(__dirname, "geschichte.json");
+const HISTORY_LOG_FILE = path.join(__dirname, "history_log.json");
 const DAILY_LIMIT = 5;
 
 const CURATED_ARTICLES = [
@@ -172,10 +173,40 @@ function shuffle(items) {
   return arr;
 }
 
-function pickArticles(limit = DAILY_LIMIT) {
-  const eligible = CURATED_ARTICLES.filter((item) => item.year <= 1990);
+async function loadHistoryLog() {
+  try {
+    const raw = await fs.readFile(HISTORY_LOG_FILE, "utf-8");
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed === "object" ? parsed : { used_history_ids: [] };
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return { used_history_ids: [] };
+    }
+    throw error;
+  }
+}
+
+async function persistHistoryLog(log, newlyUsedIds) {
+  const existing = Array.isArray(log.used_history_ids) ? log.used_history_ids : [];
+  const merged = Array.from(new Set([...existing, ...newlyUsedIds]));
+  const payload = {
+    ...log,
+    used_history_ids: merged
+  };
+
+  await fs.writeFile(HISTORY_LOG_FILE, JSON.stringify(payload, null, 2));
+  return payload;
+}
+
+function pickArticles(limit = DAILY_LIMIT, usedHistoryIds = []) {
+  const usedSet = new Set(usedHistoryIds);
+  const eligible = CURATED_ARTICLES.filter(
+    (item) => item.year <= 1990 && !usedSet.has(item.id)
+  );
   if (eligible.length < limit) {
-    throw new Error("Nicht genug kuratierte Ereignisse vor 1990 verfügbar.");
+    throw new Error(
+      `Nur ${eligible.length} ungenutzte Ereignisse verfügbar, aber ${limit} erforderlich. Bitte neue Artikel ergänzen oder das History-Log zurücksetzen.`
+    );
   }
 
   const pool = shuffle(eligible);
@@ -216,8 +247,13 @@ async function saveGeschichte(articles) {
 }
 
 async function main() {
-  const articles = pickArticles();
+  const historyLog = await loadHistoryLog();
+  const usedHistoryIds = Array.isArray(historyLog.used_history_ids)
+    ? historyLog.used_history_ids
+    : [];
+  const articles = pickArticles(DAILY_LIMIT, usedHistoryIds);
   const payload = await saveGeschichte(articles);
+  await persistHistoryLog(historyLog, articles.map((article) => article.id));
   console.log(
     `Geschichte aktualisiert (${payload.articles.length} kuratierte Artikel, geplant täglich um 10:00 Uhr).`
   );

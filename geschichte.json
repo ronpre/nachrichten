@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2025-12-09T14:50:01.420Z",
+  "updatedAt": "2025-12-09T14:55:58.161Z",
   "articles": [
-    {
-      "id": "zeit-geschichte-1890-bismarck",
-      "title": "1890: Der Sturz Bismarcks",
-      "year": 1890,
-      "era": "Sozialstaat im Werden",
-      "region": "Deutsches Reich",
-      "source": "ZEIT Geschichte",
-      "sourceUrl": "https://www.zeit.de/zeit-geschichte/2024-02/otto-von-bismarck-entlassung-wilhelm-ii",
-      "whatHappened": "ZEIT Geschichte beschreibt, wie Kaiser Wilhelm II. seinen Reichskanzler Otto von Bismarck nach eskalierenden Konflikten über Sozialgesetze und Außenpolitik entließ. Der junge Monarch wollte das Reich weniger repressiv regieren und stellte damit das Machtgefüge aus Militär, Adel und Industrie auf den Kopf.",
-      "immediateImpact": "Mit dem Kanzlerwechsel fielen die Sozialistengesetze, Gewerkschaften durften offen agieren und Caprivi leitete Handels- sowie Arbeitsschutzreformen ein. Gleichzeitig verlor das Auswärtige Amt seinen strikten Rückversicherungs-Kurs, wodurch Bündnissysteme in Bewegung gerieten.",
-      "parallelsAndLessons": "Die Episode zeigt laut ZEIT Geschichte, wie riskant ungeklärte Führungswechsel sind: Wird Sozialpolitik nur taktisch eingesetzt, entstehen sofort Loyalitätskrisen bei Industrie und Arbeiterschaft. Dauerhafte Stabilität braucht nachvollziehbare Reformfahrpläne und verlässliche Partnerkommunikation.",
-      "presentEcho": "Regierungswechsel in Berlin oder Paris müssen bis heute demonstrieren, dass Sozialstaatsversprechen nicht bloß Krisenfeuerwehr sind. Die Entlassung Bismarcks erinnert daran, Koalitionen transparent zu begründen und Sicherheits- wie Wohlfahrtsinteressen gleichermaßen zu bedienen."
-    },
     {
       "id": "spiegel-geschichte-1871-versailles",
       "title": "1871: Gründung des Kaiserreichs in Versailles",
@@ -26,6 +13,19 @@
       "immediateImpact": "Noch in Versailles unterzeichneten Bayern, Württemberg und Baden Militär- und Zollverträge, die Berlin außenpolitisch das Sagen gaben. Frankreich musste Reparationen zusagen, was die Pariser Kommune befeuerte und Europa die neue deutsche Großmachtrolle schlagartig vor Augen führte.",
       "parallelsAndLessons": "SPIEGEL Geschichte zeigt, wie fragil Bündnisse sind, wenn Mitbestimmung hinter Siegestheater zurücktritt. Die Lehre lautet, föderale Loyalität nicht zu erzwingen, sondern durch transparente Finanzströme, Rechtsgarantien und gemeinsame Infrastrukturprojekte zu stabilisieren.",
       "presentEcho": "Heute spiegeln Debatten über europäische Rüstungsprojekte, Klima-Investitionen und Sicherheitsarchitektur die Frage wider, wie Deutschland Führungsansprüche kommuniziert. Wer aus 1871 lernt, setzt auf Partnerschaft statt auf nationale Alleingänge und bindet Nachbarn früh in Entscheidungsprozesse ein."
+    },
+    {
+      "id": "spiegel-geschichte-1868-meiji",
+      "title": "1868: Die Meiji-Restauration öffnet Japan",
+      "year": 1868,
+      "era": "Globalisierung der Moderne",
+      "region": "Japan",
+      "source": "SPIEGEL Geschichte",
+      "sourceUrl": "https://www.spiegel.de/geschichte/meiji-restauration-japan-moderne-a-00000000",
+      "whatHappened": "SPIEGEL Geschichte zeigt, wie junge Samurai den Shogun stürzten, den Tennō politisch rehabilitierten und Tokyo zum Labor westlich inspirierter Reformen machten. In wenigen Jahren wurden Ständeprivilegien abgeschafft, Schulen nach europäischen Vorbildern aufgebaut und Fabriken mit britischem Know-how bestückt.",
+      "immediateImpact": "Das neue Kabinett führte allgemeine Wehrpflicht, eine landesweite Steuerreform sowie eine Eisenbahnoffensive ein. Daimyos verloren ihre Lehen, erhielten aber Staatsanleihen, wodurch Kapitalmärkte entstanden und Japan binnen eines Jahrzehnts zur asiatischen Regionalmacht aufstieg.",
+      "parallelsAndLessons": "Die Meiji-Restauration illustriert laut SPIEGEL Geschichte, dass Modernisierung nur gelingt, wenn traditionelle Eliten Kompensationen erhalten und Bildungsaufstiege breit zugänglich werden. Reformen müssen zudem lokal übersetzt werden, sonst rebellieren Provinzen gegen den Zentralismus.",
+      "presentEcho": "Asiatische und europäische Transformationsprogramme – von Südkoreas Digitalstrategie bis zu Deutschlands Energiewende – greifen die Meiji-Erfahrung auf: Große Investitionen wirken nur, wenn Verwaltung, Militär und Wirtschaft gemeinsame Innovationsziele teilen."
     },
     {
       "id": "zeit-geschichte-1807-abolition",
@@ -54,17 +54,17 @@
       "presentEcho": "Katastrophenschutzpläne von Lissabon bis Tokio stützen sich auf Pombals Ideen: Evakuierungsachsen, Bauvorschriften und Versicherungsfonds werden heute als Versprechen politischer Handlungsfähigkeit gelesen – genau wie 1755."
     },
     {
-      "id": "pm-history-79-vesuv",
-      "title": "79 n. Chr.: Der Vesuv verschüttet Pompeji",
-      "year": 79,
-      "era": "Antike",
-      "region": "Römisches Reich",
+      "id": "pm-history-1521-worms",
+      "title": "1521: Luther trotzt dem Reichstag zu Worms",
+      "year": 1521,
+      "era": "Reformation",
+      "region": "Heiliges Römisches Reich",
       "source": "P.M. History",
-      "sourceUrl": "https://www.pm-history.de/pompeji-vesuv-ausbruch",
-      "whatHappened": "P.M. History beschreibt anhand von Plinius dem Jüngeren, wie eine 20 Kilometer hohe Aschewolke den Golf von Neapel in Dunkelheit hüllte und Pompeji, Herculaneum sowie Stabiae unter Lapilli begrub. Handelshäuser, Thermen und Villen erstarrten in Sekunden zu archäologischen Momentaufnahmen.",
-      "immediateImpact": "Römische Behörden evakuierten Häfen Richtung Pozzuoli, während Legionäre versuchten, Überlebende per Schiff zu bergen. Die Region verlor binnen Tagen ihre wirtschaftliche Drehscheibe, woraufhin Agrarpreise im gesamten Italien stiegen.",
-      "parallelsAndLessons": "Der Bericht zeigt, wie fehlende Frühwarnsysteme Katastrophen verstärken. Bürgerliche Selbstorganisation und improvisierte Rettungswege retteten mehr Menschen als der kaiserliche Verwaltungsapparat – eine Lehre für moderne Disaster-Response-Modelle.",
-      "presentEcho": "Heute nutzen Vulkanolog:innen Satellitendaten und offene Sensor-Netzwerke, um dicht besiedelte Regionen wie Neapel oder den Ätna zu schützen. Zivilschutzübungen, Evakuierungsapps und Versicherungsfonds greifen auf Erkenntnisse aus Pompeji zurück: Resilienz entsteht vor dem Ausbruch, nicht währenddessen."
+      "sourceUrl": "https://www.pm-history.de/reformation-reichstag-worms",
+      "whatHappened": "P.M. History zeichnet, wie Martin Luther trotz Bannandrohung sein Gewissen über die Autorität von Kaiser Karl V. und Papst stellte. Vor Fürsten, Bischöfen und Gesandten verweigerte er den Widerruf seiner Schriften und zwang das Reich, Glaubensfragen öffentlich zu verhandeln.",
+      "immediateImpact": "Kurz darauf verhängte das Wormser Edikt Reichsacht über Luther, doch sächsische Verbündete versteckten ihn auf der Wartburg. Dort übersetzte er das Neue Testament, wodurch eine gemeinsame Bibelsprache entstand und Fürsten theologischen Reformdruck bekamen.",
+      "parallelsAndLessons": "Der Bericht betont, dass Gewissensfreiheit institutionelle Rückendeckung braucht: Ohne politische Schutzmächte wäre die Reformation erstickt. Die Episode lehrt, dissidente Stimmen nicht nur zu tolerieren, sondern rechtlich zu verankern.",
+      "presentEcho": "Moderne Debatten über Whistleblower, Religionspluralismus und akademische Freiheit greifen dieses Erbe auf. Staaten, die Transparenz wollen, müssen – wie Kurfürst Friedrich der Weise – Schutzschilde für unbequeme Ideen anbieten."
     }
   ]
 }
