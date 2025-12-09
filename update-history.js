@@ -255,7 +255,7 @@ async function main() {
   const payload = await saveGeschichte(articles);
   await persistHistoryLog(historyLog, articles.map((article) => article.id));
   console.log(
-    `Geschichte aktualisiert (${payload.articles.length} kuratierte Artikel, geplant täglich um 10:00 Uhr).`
+    `Geschichte aktualisiert (${payload.articles.length} kuratierte Artikel).`
   );
 }
 

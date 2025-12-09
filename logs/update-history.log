@@ -2,3 +2,11 @@ Geschichte aktualisiert (6 Lernkarten + 5 On-this-day-Einträge, 5 Artikelquelle
 Geschichte aktualisiert (5 kuratierte Artikel, geplant täglich um 10:00 Uhr).
 [2025-12-08T20:29:12.930Z] Geschichte aktualisiert (5 kuratierte Artikel, geplant täglich um 10:00 Uhr).
 [2025-12-08T20:29:12.930Z] Job abgeschlossen.
+[2025-12-09T16:34:42.333Z] stderr:     at pickArticles (file:///Users/rp/Documents/projekte/nachrichten/update-history.js:207:11)
+[2025-12-09T16:34:42.333Z] stderr: Geschichte-Update fehlgeschlagen Error: Nur 4 ungenutzte Ereignisse verfügbar, aber 5 erforderlich. Bitte neue Artikel ergänzen oder das History-Log zurücksetzen.
+[2025-12-09T16:34:42.333Z] Fehler: Command failed: /opt/homebrew/Cellar/node/24.7.0/bin/node /Users/rp/Documents/projekte/nachrichten/update-history.js
+Geschichte-Update fehlgeschlagen Error: Nur 4 ungenutzte Ereignisse verfügbar, aber 5 erforderlich. Bitte neue Artikel ergänzen oder das History-Log zurücksetzen.
+    at pickArticles (file:///Users/rp/Documents/projekte/nachrichten/update-history.js:207:11)
+    at main (file:///Users/rp/Documents/projekte/nachrichten/update-history.js:254:20)
+
+[2025-12-09T16:34:42.333Z] stderr:     at main (file:///Users/rp/Documents/projekte/nachrichten/update-history.js:254:20)

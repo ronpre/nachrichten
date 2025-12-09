@@ -1,4 +1,3 @@
-import cron from "node-cron";
 import { execFile } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -8,6 +7,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const LOG_DIR = path.join(__dirname, "logs");
 let logDirReady;
+const TASKS = [
+  { label: "news", script: "update-news.js" },
+  { label: "history", script: "update-history.js" }
+];
 
 function ensureLogDir() {
   if (!logDirReady) {
@@ -78,43 +81,15 @@ function runScript(label, scriptPath) {
   });
 }
 
-const berlinTZ = "Europe/Berlin";
-const runOnce = process.env.RUN_ONCE === "true";
-
-let newsJob;
-let historyJob;
-
-if (!runOnce) {
-  newsJob = cron.schedule(
-    "0 6-22/4 * * *",
-    () => runScript("news", "update-news.js"),
-    { timezone: berlinTZ }
-  );
-
-  historyJob = cron.schedule(
-    "0 10 * * *",
-    () => runScript("history", "update-history.js"),
-    { timezone: berlinTZ }
-  );
-
-  newsJob.start();
-  historyJob.start();
-
-  log("Scheduler aktiv: News alle 4h zwischen 06-22 Uhr, History täglich um 10 Uhr.");
-} else {
-  log("RUN_ONCE Modus aktiv – führe nur den Initialdurchlauf aus.");
-}
-
-// Initial refresh on startup to avoid waiting for the next cron window.
-try {
+async function runManualUpdates() {
   await ensureLogDir();
-  await runScript("news", "update-news.js");
-  await runScript("history", "update-history.js");
-} catch (err) {
-  log(`Initialer Lauf fehlgeschlagen: ${err.message}`);
-} finally {
-  if (runOnce) {
-    log("RUN_ONCE abgeschlossen – Scheduler wird beendet.");
-    process.exit(0);
+  for (const task of TASKS) {
+    await runScript(task.label, task.script);
   }
+  log("Alle manuellen Updates abgeschlossen. Anwendung kann beendet werden.");
 }
+
+runManualUpdates().catch((error) => {
+  log(`Manueller Lauf fehlgeschlagen: ${error.message}`);
+  process.exitCode = 1;
+});
