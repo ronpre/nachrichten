@@ -5896,7 +5896,7 @@
       "id": "544354",
       "utcDate": "2025-12-07T17:30:00Z",
       "isoDate": "2025-12-07",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "REGULAR_SEASON",
       "group": null,
       "matchday": 15,
@@ -5913,8 +5913,8 @@
       },
       "score": {
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         },
         "extraTime": {
           "home": null,
@@ -5930,7 +5930,7 @@
       "id": "544356",
       "utcDate": "2025-12-07T20:00:00Z",
       "isoDate": "2025-12-07",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "REGULAR_SEASON",
       "group": null,
       "matchday": 15,
@@ -5947,8 +5947,8 @@
       },
       "score": {
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         },
         "extraTime": {
           "home": null,
@@ -5964,7 +5964,7 @@
       "id": "544358",
       "utcDate": "2025-12-08T20:00:00Z",
       "isoDate": "2025-12-08",
-      "status": "TIMED",
+      "status": "FINISHED",
       "stage": "REGULAR_SEASON",
       "group": null,
       "matchday": 15,
@@ -5981,8 +5981,8 @@
       },
       "score": {
         "fullTime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         },
         "extraTime": {
           "home": null,
