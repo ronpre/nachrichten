@@ -26,6 +26,10 @@ const SECTION_CONFIG = {
     { source: "SPIEGEL", url: "https://www.spiegel.de/sport/index.rss" },
     { source: "Sueddeutsche", url: "https://rss.sueddeutsche.de/rss/Sport" },
     { source: "Kicker", url: "https://newsfeed.kicker.de/news/aktuell" }
+  ],
+  edv: [
+    { source: "c't", url: "https://www.heise.de/ct/feed.xml" },
+    { source: "heise", url: "https://www.heise.de/rss/heise-atom.xml" }
   ]
 };
 
