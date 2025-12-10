@@ -332,7 +332,75 @@ const CURATED_ARTICLES = [
     parallelsAndLessons:
       "Die Analyse zeigt, dass Krisenkommunikation, Datenerhebung und sozialer Wiederaufbau parallel laufen müssen. Wer Entscheidungen zentralisiert, braucht transparente Kriterien, sonst kehren alte Eliten unter neuen Vorzeichen zurück.",
     presentEcho:
-      "Katastrophenschutzpläne von Lissabon bis Tokio stützen sich auf Pombals Ideen: Evakuierungsachsen, Bauvorschriften und Versicherungsfonds werden heute als Versprechen politischer Handlungsfähigkeit gelesen – genau wie 1755." 
+        "Katastrophenschutzpläne von Lissabon bis Tokio stützen sich auf Pombals Ideen: Evakuierungsachsen, Bauvorschriften und Versicherungsfonds werden heute als Versprechen politischer Handlungsfähigkeit gelesen – genau wie 1755."
+      },
+      {
+    id: "tagesschau-1989-mauerfall",
+    title: "1989: Die Berliner Mauer fällt",
+    year: 1989,
+    era: "Zeitgeschichte",
+    region: "Deutschland",
+    source: "tagesschau.de",
+    sourceUrl: "https://www.tagesschau.de/inland/berlin-mauerfall-101.html",
+    whatHappened:
+      "Tagesschau zeichnet nach, wie die SED-Führung am 9. November 1989 eine schlecht vorbereitete Reiseregel verkündete, Grenzsoldaten den Druck der Menge nicht mehr kontrollieren konnten und Berlinerinnen und Berliner die Mauerstellen von Bornholmer bis Checkpoint Charlie im Freudentaumel öffneten.",
+    immediateImpact:
+      "Binnen Stunden rollten Trabis durch Westberlin, die D-Mark wurde als Übergangswährung eingeführt und die DDR-Staatsmacht verlor sichtbar jede Autorität; die Grenztruppen erhielten Rückzugssignale und Oppositionsgruppen nutzten die Nacht, um runde Tische zu fordern.",
+    parallelsAndLessons:
+      "Der Bericht macht deutlich, dass autoritäre Systeme kollabieren, wenn Informationskontrolle und ökonomische Legitimation gleichzeitig erodieren. Wer Reformankündigungen macht, braucht belastbare Fahrpläne – sonst beschleunigt Unsicherheit den Exodus.",
+    presentEcho:
+      "Debatten über offene Grenzen, EU-Freizügigkeit und die Transformation Ostdeutschlands greifen die Erfahrungen von 1989 auf: Vertrauen wächst, wenn Mobilität mit sozialer Sicherheit, Wohnraum und Beteiligung einhergeht."
+  },
+  {
+    id: "dw-1986-tschernobyl",
+    title: "1986: Der GAU von Tschernobyl",
+    year: 1986,
+    era: "Kaltes Kriegszeitalter",
+    region: "Ukraine / UdSSR",
+    source: "Deutsche Welle",
+    sourceUrl: "https://www.dw.com/de/tschernobyl-1986-wie-es-zum-gau-kam/a-13225860",
+    whatHappened:
+      "Die Deutsche Welle rekonstruiert, wie ein fehlgeschlagener Sicherheitstest im Reaktorblock 4 von Tschernobyl zu einer Kernschmelze führte, Graphitfragmente auf die Anlage regneten und radioaktive Wolken über Europa drifteten, während die sowjetische Führung die Lage zunächst vertuschte.",
+    immediateImpact:
+      "Hunderttausende Liquidatoren wurden eingezogen, Pripjat komplett evakuiert und landwirtschaftliche Produkte in Skandinavien, Polen und Bayern auf Kontamination geprüft; internationale Atomabkommen verlangten neue Meldewege.",
+    parallelsAndLessons:
+      "Der GAU zeigt, dass Sicherheitskultur, Transparenz und redundante Systeme wichtiger sind als Produktionsrekorde. Wenn Behörden Risiken verschweigen, verlieren sie in Krisen jede Glaubwürdigkeit.",
+    presentEcho:
+        "Energie- und Klimapolitik diskutiert Tschernobyl bis heute: Von EU-Stresstests über ukrainische Schutzkuppeln bis zur Debatte über neue Reaktorgenerationen dient der Unfall als Referenzpunkt für Haftung, Katastrophenschutz und Bürgerdialog."
+  },
+  {
+    id: "bbc-1997-hongkong",
+    title: "1997: Hongkong kehrt zu China zurück",
+    year: 1997,
+    era: "Postkoloniale Neuordnung",
+    region: "Hongkong / Vereinigtes Königreich / China",
+    source: "BBC News",
+    sourceUrl: "https://www.bbc.com/news/world-asia-china-40410638",
+    whatHappened:
+      "BBC News beschreibt, wie Großbritannien am 1. Juli 1997 die Kronkolonie Hongkong an die Volksrepublik China übergab, Prinz Charles und Premier Blair im strömenden Regen abzogen und Peking das Modell 'Ein Land, zwei Systeme' versprach.",
+    immediateImpact:
+      "Der Basic Law trat in Kraft, die Volksbefreiungsarmee übernahm Kasernen und Finanzmärkte reagierten mit Nervosität auf die Frage, ob Rechtsstaat und Pressefreiheit erhalten bleiben würden.",
+    parallelsAndLessons:
+      "Der Beitrag zeigt, dass Übergangsabkommen nur funktionieren, wenn Garantien justiziabel sind und Zivilgesellschaft eingebunden wird; sonst entstehen Misstrauen und Protestbewegungen.",
+    presentEcho:
+      "Aktuelle Diskussionen über Autonomiegesetzgebung, Sicherheitsgesetze und Auswanderungswellen in Hongkong beziehen sich direkt auf die gebrochenen Versprechen von 1997 und liefern Blaupausen für andere Sonderverwaltungszonen."
+  },
+  {
+    id: "wired-2009-bitcoin",
+    title: "2009: Bitcoin startet als Open-Source-Geldexperiment",
+    year: 2009,
+    era: "Digitale Gegenwart",
+    region: "Welt",
+    source: "WIRED",
+    sourceUrl: "https://www.wired.com/story/the-rise-and-fall-of-bitcoin/",
+    whatHappened:
+      "WIRED schildert, wie der pseudonyme Entwickler Satoshi Nakamoto am 9. Januar 2009 den ersten Bitcoin-Client veröffentlichte, den Genesis-Block mit dem Hinweis auf die Finanzkrise versah und damit ein dezentrales Peer-to-Peer-Bezahlsystem startete.",
+    immediateImpact:
+      "Frühe Cypherpunks und Kryptographen betrieben Nodes, diskutierten Proof-of-Work und experimentierten mit Faucets; die Community etablierte Foren wie Bitcointalk und legte Grundsteine für Mining-Pools.",
+    parallelsAndLessons:
+      "Der Artikel betont, dass technologische Revolutionen nur tragen, wenn Governance-Fragen, Energieverbrauch und Regulierung mitgedacht werden – offene Protokolle allein lösen keine sozialen Konflikte.",
+    presentEcho:
+      "Debatten über digitale Zentralbankwährungen, DeFi und Krypto-Regulierung greifen die Bitcoin-Erfahrung auf: Wer Vertrauen ohne Mittler schaffen will, braucht nachvollziehbare Regeln für Sicherheit, Haftung und Klimabilanz."
   }
 ];
 
