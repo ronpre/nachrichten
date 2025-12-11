@@ -401,6 +401,74 @@ const CURATED_ARTICLES = [
       "Der Artikel betont, dass technologische Revolutionen nur tragen, wenn Governance-Fragen, Energieverbrauch und Regulierung mitgedacht werden – offene Protokolle allein lösen keine sozialen Konflikte.",
     presentEcho:
       "Debatten über digitale Zentralbankwährungen, DeFi und Krypto-Regulierung greifen die Bitcoin-Erfahrung auf: Wer Vertrauen ohne Mittler schaffen will, braucht nachvollziehbare Regeln für Sicherheit, Haftung und Klimabilanz."
+  },
+  {
+    id: "smth-1963-march-on-washington",
+    title: "1963: Der Marsch auf Washington fordert Gleichberechtigung",
+    year: 1963,
+    era: "US-Bürgerrechtsbewegung",
+    region: "USA",
+    source: "Smithsonian Magazine",
+    sourceUrl: "https://www.smithsonianmag.com/history/march-washington-changed-america-180959355/",
+    whatHappened:
+      "Smithsonian Magazine erinnert daran, wie mehr als 200.000 Menschen vor dem Lincoln Memorial für Jobs und Freiheit demonstrierten, Martin Luther King Jr. seine 'I Have a Dream'-Rede hielt und landesweite Fernsehübertragungen das Bürgerrechtsanliegen in jedes Wohnzimmer brachten.",
+    immediateImpact:
+      "Der Druck des Marsches beschleunigte die Verhandlungen zum Civil Rights Act und Voting Rights Act, während Gewerkschaften und Religionsgemeinschaften erstmals geschlossen hinter der Bewegung standen.",
+    parallelsAndLessons:
+      "Der Beitrag zeigt, dass breite Allianzen, stringente Logistik und klare Forderungen selbst in polarisierten Demokratien Fortschritt ermöglichen.",
+    presentEcho:
+      "Proteste für Polizeireformen oder Wahlrechtsgarantien greifen die Inszenierungskraft von 1963 auf und kombinieren Massenmobilisierung mit konkreten Gesetzesvorschlägen."
+  },
+  {
+    id: "dw-1957-roemische-vertraege",
+    title: "1957: Die Römischen Verträge begründen die EWG",
+    year: 1957,
+    era: "Europäische Integration",
+    region: "Europa",
+    source: "Deutsche Welle",
+    sourceUrl: "https://www.dw.com/de/1957-r%C3%B6mische-verträge-weg-in-die-eu/a-38013514",
+    whatHappened:
+      "Die Deutsche Welle zeichnet nach, wie sechs Staaten in Rom den Vertrag über die Europäische Wirtschaftsgemeinschaft unterzeichneten, Zollschranken abbauen wollten und eine gemeinsame Agrarpolitik entwarfen.",
+    immediateImpact:
+      "Binnenmarkt-Zeitpläne wurden festgelegt, Investitionsbanken gegründet und die Montanunion in ein breiteres Integrationsprojekt überführt.",
+    parallelsAndLessons:
+      "Die Episode zeigt, dass Wachstumsbündnisse nur tragen, wenn soziale Ausgleichsmechanismen und Parlamentarisierung mitgedacht werden.",
+    presentEcho:
+      "Diskussionen über EU-Erweiterung, Energieunion und gemeinsame Schulden knüpfen an die in Rom vereinbarte Balance aus Souveränität und supranationaler Steuerung an."
+  },
+  {
+    id: "zeit-geschichte-1918-spanische-grippe",
+    title: "1918: Die Spanische Grippe fordert Millionen Leben",
+    year: 1918,
+    era: "Krisen des 20. Jahrhunderts",
+    region: "Welt",
+    source: "ZEIT Geschichte",
+    sourceUrl: "https://www.zeit.de/zeit-geschichte/2020-03/spanische-grippe-1918-pandemie",
+    whatHappened:
+      "ZEIT Geschichte analysiert, wie die Influenza-Pandemie in drei Wellen Soldatenlager, Großstädte und ländliche Regionen traf, Züge und Truppentransporter zum Superspreading beitrugen und Behörden zwischen Kriegszensur und Gesundheitswarnungen schwankten.",
+    immediateImpact:
+      "Städte verhängten Maskenpflichten, Theater- und Schulschließungen, während Ärzte frühe Surveillance-Systeme entwickelten und Sanatorien überfüllt waren.",
+    parallelsAndLessons:
+      "Die Analyse macht deutlich, dass Transparenz, Datenaustausch und soziale Sicherung die einzigen Wege sind, um Pandemien zu dämpfen – ein Versäumnis von 1918, das 2020 vielerorts wiederholt wurde.",
+    presentEcho:
+      "COVID-19-Strategien, Long-COVID-Forschung und Debatten über WHO-Kompetenzen verweisen explizit auf die Fehler und Fortschritte der Spanischen Grippe."
+  },
+  {
+    id: "geo-epoche-1878-berliner-kongress",
+    title: "1878: Der Berliner Kongress ordnet den Balkan neu",
+    year: 1878,
+    era: "Imperiale Rivalitäten",
+    region: "Europa / Osmanisches Reich",
+    source: "GEO Epoche",
+    sourceUrl: "https://www.geo.de/geschichte/berliner-kongress-1878",
+    whatHappened:
+      "GEO Epoche beschreibt, wie Bismarck in Berlin die Großmächte zusammentrommelte, um den Russisch-Osmanischen Krieg diplomatisch zu beenden, Grenzen Bulgariens zu verkleinern und neue Fürstentümer wie Rumänien und Serbien international anzuerkennen.",
+    immediateImpact:
+      "Österreich-Ungarn erhielt das Mandat für Bosnien, Großbritannien sicherte sich Zypern, und nationale Bewegungen auf dem Balkan gewannen wie auch verloren territoriale Hoffnungen.",
+    parallelsAndLessons:
+      "Der Kongress zeigt, dass Friedensabkommen ohne Beteiligung der lokalen Bevölkerung instabil bleiben – eine Mahnung für heutige Vermittlungsmissionen.",
+    presentEcho:
+      "Diskussionen über EU-Beitritt Westbalkans, Kosovo-Status oder bosnische Verfassungsreformen verweisen auf die bis heute spürbaren Linien von 1878."
   }
 ];
 
