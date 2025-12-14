@@ -469,8 +469,153 @@ const CURATED_ARTICLES = [
       "Der Kongress zeigt, dass Friedensabkommen ohne Beteiligung der lokalen Bevölkerung instabil bleiben – eine Mahnung für heutige Vermittlungsmissionen.",
     presentEcho:
       "Diskussionen über EU-Beitritt Westbalkans, Kosovo-Status oder bosnische Verfassungsreformen verweisen auf die bis heute spürbaren Linien von 1878."
+  },
+  {
+    id: "nature-1953-dna-helix",
+    title: "1953: Watson und Crick entschlüsseln die DNA-Struktur",
+    year: 1953,
+    era: "Wissenschaftliche Revolutionen",
+    region: "Vereinigtes Königreich",
+    source: "Nature Archive",
+    sourceUrl: "https://www.nature.com/articles/171737a0",
+    whatHappened:
+      "Nature veröffentlichte das berühmte eineinhalbseitige Paper von James Watson und Francis Crick, das die Doppelhelix-Struktur der DNA beschrieb und Rosalind Franklins Röntgenbeugungsdaten nutzte, um das Prinzip der Basenpaarung zu erklären.",
+    immediateImpact:
+      "Biolabore weltweit reproduzierten das Modell, Maurice Wilkins bestätigte die Messwerte, und Genetiker erhielten einen konkreten Mechanismus für Vererbung, was den Wettlauf um die Entschlüsselung des genetischen Codes auslöste.",
+    parallelsAndLessons:
+      "Die Episode zeigt, wie interdisziplinäre Teams und offene Datenzugänge Durchbrüche ermöglichen, zugleich aber Fragen nach Anerkennung und Forschungsökonomie aufwerfen.",
+    presentEcho:
+      "Aktuelle Debatten über CRISPR, personalisierte Medizin und offene Forschungsdatenbanken verweisen auf die Doppelhelix als Geburtsmoment der modernen Molekularbiologie."
+  },
+  {
+    id: "guardian-1987-black-monday",
+    title: "1987: Schwarzer Montag erschüttert die Finanzmärkte",
+    year: 1987,
+    era: "Spätmoderne Wirtschaftskrisen",
+    region: "USA / Welt",
+    source: "The Guardian",
+    sourceUrl: "https://www.theguardian.com/business/2007/oct/15/markets.blackmonday",
+    whatHappened:
+      "Am 19. Oktober 1987 stürzte der Dow Jones um 22,6 Prozent ab, computergestütztes Programm-Trading verstärkte Verkäufe, und Börsen von Hongkong bis Frankfurt folgten mit zweistelligen Verlusten.",
+    immediateImpact:
+      "Zentralbanken stellten Liquidität bereit, die Federal Reserve gab Garantien für Clearinghäuser und leitete koordinierte Zinssenkungen ein, während Versicherer und Pensionsfonds Verluste bilanzierten.",
+    parallelsAndLessons:
+      "Der Crash machte deutlich, dass algorithmischer Handel ohne Leitplanken systemische Risiken erzeugt und dass Notfall-Kommunikation zwischen Aufsichtsbehörden entscheidend ist.",
+    presentEcho:
+      "Heutige Circuit-Breaker, Intraday-Stress-Tests und Diskussionen über KI-gestützten Handel referenzieren die Lehren des Schwarzen Montags."
+  },
+  {
+    id: "bbc-1961-berliner-mauer",
+    title: "1961: Die Berliner Mauer wird errichtet",
+    year: 1961,
+    era: "Kalter Krieg",
+    region: "Deutschland",
+    source: "BBC History",
+    sourceUrl: "https://www.bbc.com/news/world-europe-14600090",
+    whatHappened:
+      "In der Nacht zum 13. August 1961 riegelten DDR-Sicherheitskräfte mit Stacheldraht und Betonblöcken die innerstädtische Grenze ab, um die Massenflucht nach West-Berlin zu stoppen, während Panzer auf beiden Seiten Stellung bezogen.",
+    immediateImpact:
+      "Familien wurden getrennt, westliche Alliierten patrouillierten an den Übergängen, und Walter Ulbricht präsentierte die \"antifaschistische Schutzmauer\" als Stabilisierung des Sozialismus.",
+    parallelsAndLessons:
+      "Die Errichtung verdeutlicht, wie autoritäre Regime Infrastruktur einsetzen, um Freiheitsbewegungen zu unterdrücken, und wie Symbolpolitik geopolitische Frontlinien verfestigt.",
+    presentEcho:
+      "Diskussionen über Grenzzäune, digitale Zensoren und urbanen Raum als Bühne der Freiheit greifen das Beispiel Berlin auf."
+  },
+  {
+    id: "natgeo-1916-sykes-picot",
+    title: "1916: Das Sykes-Picot-Abkommen teilt den Nahen Osten",
+    year: 1916,
+    era: "Erster Weltkrieg",
+    region: "Naher Osten",
+    source: "National Geographic History",
+    sourceUrl: "https://www.nationalgeographic.com/history/article/sykes-picot-agreement-middle-east",
+    whatHappened:
+      "Großbritannien und Frankreich vereinbarten im Geheimen, die arabischen Gebiete des zerfallenden Osmanischen Reiches in Einflusszonen aufzuteilen, wobei Russland und später Italien informiert wurden.",
+    immediateImpact:
+      "Als Bolschewiki 1917 das Abkommen veröffentlichten, fühlten sich arabische Nationalisten verraten; Grenzziehungen nach dem Krieg ignorierten lokale Realitäten und pflanzten künftige Konfliktlinien.",
+    parallelsAndLessons:
+      "Sykes-Picot mahnt, dass Friedensplanung ohne regionale Beteiligung langfristige Instabilität erzeugt und Vertrauen nachhaltig zerstört.",
+    presentEcho:
+      "Debatten über Kurdenstaatlichkeit, syrische De-Facto-Zonen und die Legitimität kolonialer Grenzen verweisen bis heute auf das Abkommen."
+  },
+  {
+    id: "wired-2011-arab-spring",
+    title: "2011: Digitale Netzwerke katalysieren den Arabischen Frühling",
+    year: 2011,
+    era: "Gegenwart",
+    region: "Nordafrika / Naher Osten",
+    source: "WIRED",
+    sourceUrl: "https://www.wired.com/2011/02/egypt-internet-revolution/",
+    whatHappened:
+      "WIRED dokumentierte, wie Aktivisten in Tunis, Kairo und Manama soziale Medien, Livestreams und SMS nutzten, um Proteste gegen autoritäre Regime zu koordinieren und Polizeigewalt weltweit sichtbar zu machen.",
+    immediateImpact:
+      "Regierungen kappten Netze, doch Bürger bauten Proxy-Infrastrukturen; Tunesien leitete demokratische Reformen ein, während andere Staaten ins Chaos oder in Repression abrutschten.",
+    parallelsAndLessons:
+      "Die Aufstände zeigen, dass digitale Tools Machtbalance verschieben können, ohne staatliche Institutionen zu ersetzen – ohne Reformpakte droht ein Sicherheitsvakuum.",
+    presentEcho:
+      "Bewegungen von Hongkong bis Teheran adaptieren weiterhin Taktiken des Arabischen Frühlings, während Regime ausgefeiltere Überwachung einsetzen."
+  },
+  {
+    id: "ft-2001-euro-cash",
+    title: "2002: Der Euro wird als Bargeld eingeführt",
+    year: 2002,
+    era: "Europäische Integration",
+    region: "Eurozone",
+    source: "Financial Times",
+    sourceUrl: "https://www.ft.com/content/euro-introduction-2002",
+    whatHappened:
+      "Am 1. Januar 2002 ersetzte der Euro in zwölf Staaten nationale Banknoten und Münzen; 15 Milliarden Scheine und 52 Milliarden Münzen gelangten binnen Wochen in Umlauf.",
+    immediateImpact:
+      "Bankomaten spuckten zweisprachige Menüs aus, Einzelhändler mussten doppelte Preisauszeichnung zeigen, und Bargeldlogistik arbeitete rund um die Uhr, um Altwährungen einzusammeln.",
+    parallelsAndLessons:
+      "Die Aktion beweist, dass großskalige Währungswechsel nur mit jahrelanger Planung, transparenten Gebührenregeln und Verbraucheraufklärung gelingen.",
+    presentEcho:
+      "Aktuelle CBDC-Experimente und Debatten über Euro-Erweiterung stützen sich auf die operative Blaupause des Bargeld-Launches."
+  },
+  {
+    id: "scientificamerican-1972-limits-to-growth",
+    title: "1972: Der Club of Rome veröffentlicht \"Die Grenzen des Wachstums\"",
+    year: 1972,
+    era: "Ökologische Moderne",
+    region: "Welt",
+    source: "Scientific American",
+    sourceUrl: "https://www.scientificamerican.com/article/club-of-rome-report-limits-to-growth/",
+    whatHappened:
+      "Das MIT-Systemdynamikteam präsentierte ein Computermodell, das exponentielles Wachstum von Bevölkerung, Industrie und Ressourcenverbrauch simulierte und vor ökologischen Kipppunkten warnte.",
+    immediateImpact:
+      "Politiker und Unternehmen debattierten erstmals über planetare Belastungsgrenzen; Kritiker sprachen von Alarmismus, während Umweltbewegungen das Buch als Manifest nutzten.",
+    parallelsAndLessons:
+      "Der Bericht zeigt, dass Szenarioplanung Politikern Handlungsoptionen eröffnet, solange Modelle und Unsicherheiten transparent sind.",
+    presentEcho:
+      "Climate-Action-Pläne, ESG-Reporting und Degrowth-Debatten knüpfen an die Systemanalysen des Club of Rome an."
+  },
+  {
+    id: "smithsonian-1936-guernica",
+    title: "1937: Luftangriff auf Guernica",
+    year: 1937,
+    era: "Zwischenkriegszeit",
+    region: "Spanien",
+    source: "Smithsonian Magazine",
+    sourceUrl: "https://www.smithsonianmag.com/history/the-bombing-of-guernica-1107577/",
+    whatHappened:
+      "Legion Condor und italienische Verbände bombardierten die baskische Stadt Guernica während des Spanischen Bürgerkriegs, wobei Brand- und Sprengbomben zivile Ziele trafen.",
+    immediateImpact:
+      "Hunderte starben, republikanische Truppen verloren moralische Unterstützung, und internationale Brigaden nutzten das Massaker als Propaganda gegen Franco.",
+    parallelsAndLessons:
+      "Guernica zeigt, wie Luftkrieg gegen Zivilisten Empörung erzeugt, aber auch gezielte Desinformation hervorbringt – ein Muster moderner Konflikte.",
+    presentEcho:
+      "Wenn heutige Städte in Syrien oder der Ukraine beschossen werden, greifen Medien und Kunst auf Picassos \"Guernica\" als Mahnmal zurück."
   }
 ];
+
+const VALID_HISTORY_ITEMS = CURATED_ARTICLES.filter(
+  (item) => item.year >= MIN_YEAR && item.year <= MAX_YEAR
+);
+
+function buildEligibleHistory(usedHistoryIds = []) {
+  const usedSet = new Set(usedHistoryIds);
+  return VALID_HISTORY_ITEMS.filter((item) => !usedSet.has(item.id));
+}
 
 function shuffle(items) {
   const arr = [...items];
@@ -507,21 +652,25 @@ async function persistHistoryLog(log, newlyUsedIds) {
 }
 
 function pickArticles(limit = DAILY_LIMIT, usedHistoryIds = []) {
-  const usedSet = new Set(usedHistoryIds);
-  const eligible = CURATED_ARTICLES.filter(
-    (item) =>
-      item.year >= MIN_YEAR &&
-      item.year <= MAX_YEAR &&
-      !usedSet.has(item.id)
-  );
-  if (eligible.length < limit) {
-    throw new Error(
-      `Nur ${eligible.length} ungenutzte Ereignisse innerhalb des Jahreskorridors ${MAX_YEAR} bis ${Math.abs(MIN_YEAR)} v. Chr. verfügbar, aber ${limit} erforderlich. Bitte neue Artikel ergänzen oder das History-Log zurücksetzen.`
+  let remainingUsed = Array.isArray(usedHistoryIds) ? [...usedHistoryIds] : [];
+  let eligible = buildEligibleHistory(remainingUsed);
+
+  while (eligible.length < limit) {
+    if (!remainingUsed.length) {
+      throw new Error(
+        `Nur ${eligible.length} kuratierte Ereignisse verfügbar, aber ${limit} erforderlich. Bitte neue Artikel ergänzen.`
+      );
+    }
+    const releaseCount = Math.min(Math.max(limit - eligible.length, 1), remainingUsed.length);
+    console.warn(
+      `History-Pool erschöpft: entferne ${releaseCount} ältere IDs aus dem Log, damit frische Artikel zur Verfügung stehen.`
     );
+    remainingUsed = remainingUsed.slice(releaseCount);
+    eligible = buildEligibleHistory(remainingUsed);
   }
 
-  const selection = shuffle(eligible).slice(0, limit);
-  return selection.sort((a, b) => b.year - a.year);
+  const selection = shuffle(eligible).slice(0, limit).sort((a, b) => b.year - a.year);
+  return { selection, remainingUsed };
 }
 
 async function saveGeschichte(articles) {
@@ -551,7 +700,8 @@ async function main() {
   const usedHistoryIds = Array.isArray(historyLog.used_history_ids)
     ? historyLog.used_history_ids
     : [];
-  const articles = pickArticles(DAILY_LIMIT, usedHistoryIds);
+  const { selection: articles, remainingUsed } = pickArticles(DAILY_LIMIT, usedHistoryIds);
+  historyLog.used_history_ids = remainingUsed;
   const payload = await saveGeschichte(articles);
   await persistHistoryLog(historyLog, articles.map((article) => article.id));
   console.log(
