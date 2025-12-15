@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-15T12:47:02.536Z",
+  "updatedAt": "2025-12-15T13:09:46.911Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:d5d10b84-a10d-4ba4-961e-91e775cc37df}",
+        "title": "Bruttoinlandsprodukt: Bessere Bildung könnte Deutschland laut Ifo Billionen Euro einbringen",
+        "summary": "Deutschlands Wirtschaftsleistung könnte durch eine bessere Bildung um mehrere Billionen Euro wachsen. Eine Modellrechnung des Ifo nennt drei Faktoren, damit das gelingt.",
+        "paragraphs": [
+          "Deutschlands Wirtschaftsleistung könnte durch eine bessere Bildung um mehrere Billionen Euro wachsen. Eine Modellrechnung des Ifo nennt drei Faktoren, damit das gelingt."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/ifo-bildung-wirtschaftsleistung-billionen-euro-schueler",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-15T12:54:06.000Z"
+      },
       {
         "id": "https://www.spiegel.de/wirtschaft/rente-drv-stellt-barauszahlung-zum-jahreswechsel-ein-a-48bebe00-cbe7-4460-a716-adcf10545829",
         "title": "Rente: DRV stellt Barauszahlung zum Jahreswechsel ein",
@@ -210,28 +221,61 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/rheinmetall-und-knds-bundeskartellamt-genehmigt-panzerprojekt/100183984.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-15T10:35:46.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-wie-sie-klumpenrisiken-in-ihrem-portfolio-beseitigen/100144561.html",
-        "title": "Geldanlage: Wie ich versuchte, mein Klumpenrisiko im ETF-Depot zu minimieren",
-        "summary": "Lange warnten Experten vor der US-Dominanz im MSCI World. Die rächt sich jetzt. Wie unsere Autorin ihr ETF-Portfolio änderte – und warum sie dabei nicht nur auf typische Anlagetipps setzte.",
-        "paragraphs": [
-          "Lange warnten Experten vor der US-Dominanz im MSCI World. Die rächt sich jetzt. Wie unsere Autorin ihr ETF-Portfolio änderte – und warum sie dabei nicht nur auf typische Anlagetipps setzte."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-wie-sie-klumpenrisiken-in-ihrem-portfolio-beseitigen/100144561.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-15T10:24:00.000Z"
       }
     ],
     "politik": [
       {
-        "id": "{urn:uuid:b2bd8aff-8363-4603-8d63-86707ed8b5e4}",
-        "title": "Tourismusbranche: Spanien verhängt Strafe gegen AirBnb",
-        "summary": "64 Millionen Euro muss AirBnb zur Strafe für nicht lizenzierte Touristenunterkünfte zahlen. Spaniens Verbraucherschutzministerium will so Einheimische schützen.",
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Bundespräsident Steinmeier empfängt Selenskyj in Schloss Bellevue",
+        "summary": "Frank-Walter Steinmeier hat Selenskyj in Berlin begrüßt. Die Gespräche im Kanzleramt mit der US-Delegation sind vorbei. Das Liveblog",
         "paragraphs": [
-          "64 Millionen Euro muss AirBnb zur Strafe für nicht lizenzierte Touristenunterkünfte zahlen. Spaniens Verbraucherschutzministerium will so Einheimische schützen."
+          "Frank-Walter Steinmeier hat Selenskyj in Berlin begrüßt. Die Gespräche im Kanzleramt mit der US-Delegation sind vorbei. Das Liveblog"
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/airbnb-spanien-strafe-tourismus-barcelona",
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-15T13:01:46.000Z"
+      },
+      {
+        "id": "li.3354666",
+        "title": "Verhandlungen in Berlin: Deutschland baut Rüstungskooperation mit Ukraine aus",
+        "summary": "Während in Berlin über die Zukunft der Ukraine verhandelt wird, möchte die Bundesregierung die Zusammenarbeit mit ukrainischen Rüstungsunternehmen verstärken. Das soll auch Deutschland zugutekommen.",
+        "paragraphs": [
+          "Während in Berlin über die Zukunft der Ukraine verhandelt wird, möchte die Bundesregierung die Zusammenarbeit mit ukrainischen Rüstungsunternehmen verstärken. Das soll auch Deutschland zugutekommen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/berlin-treffen-selenskij-usa-ukraine-krieg-trump-merz-li.3354666",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-15T13:01:40.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/ukraine-bundesregierung-legt-zehn-punkte-plan-fuer-ruestungskooperation-vor/100183971.html",
+        "title": "Ukraine: Bundesregierung legt Zehn-Punkte-Plan für Rüstungskooperation mit Ukraine vor",
+        "summary": "Die Bundesregierung will die Ukraine bei der Verteidigung gegen Russland stärken und die militärische Zusammenarbeit forcieren. Das sind die Eckpunkte im Detail.",
+        "paragraphs": [
+          "Die Bundesregierung will die Ukraine bei der Verteidigung gegen Russland stärken und die militärische Zusammenarbeit forcieren. Das sind die Eckpunkte im Detail."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/ukraine-bundesregierung-legt-zehn-punkte-plan-fuer-ruestungskooperation-vor/100183971.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-15T13:01:16.000Z"
+      },
+      {
+        "id": "li.3353907",
+        "title": "Krieg in der Ukraine: Ukraine bereit zu Verzicht auf Nato-Beitritt",
+        "summary": "Im Gegenzug verlangt Selenskij Sicherheitsgarantien der USA und anderer europäischer Partner. Die Beratungen zwischen dem ukrainischen Präsidenten und dem US-Sondergesandten Witkoff gehen an diesem Montag weiter.",
+        "paragraphs": [
+          "Im Gegenzug verlangt Selenskij Sicherheitsgarantien der USA und anderer europäischer Partner. Die Beratungen zwischen dem ukrainischen Präsidenten und dem US-Sondergesandten Witkoff gehen an diesem Montag weiter."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-verhandlungen-usa-witkoff-nato-beitritt-verzicht-li.3353907",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-15T12:41:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:b2bd8aff-8363-4603-8d63-86707ed8b5e4}",
+        "title": "Tourismusbranche: Spanien verhängt Strafe gegen Airbnb",
+        "summary": "64 Millionen Euro muss Airbnb zur Strafe für nicht lizenzierte Touristenunterkünfte zahlen. Spaniens Verbraucherschutzministerium will so Einheimische schützen.",
+        "paragraphs": [
+          "64 Millionen Euro muss Airbnb zur Strafe für nicht lizenzierte Touristenunterkünfte zahlen. Spaniens Verbraucherschutzministerium will so Einheimische schützen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/airbnb-spanien-strafe-tourismus-barcelona-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-15T12:33:27.000Z"
       },
@@ -242,7 +286,7 @@
         "paragraphs": [
           "Die Unesco warnt vor einer beispiellosen Verschlechterung der Presse- und Meinungsfreiheit. Besonders stark habe sich die Lage ab dem Jahr 2020 verschlechtert."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/unesco-meinungsfreiheit-pressefreiheit-weltweit-verschlechtert",
+        "link": "https://www.zeit.de/politik/ausland/2025-12/unesco-meinungsfreiheit-pressefreiheit-weltweit-verschlechtert-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-15T12:30:46.000Z"
       },
@@ -256,17 +300,6 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/sudan-krieg-luftbruecke-eu-dafur",
         "source": "ZEIT",
         "publishedAt": "2025-12-15T12:28:37.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Selenskyj und US-Delegation zu Gesprächen im Kanzleramt eingetroffen",
-        "summary": "Im Kanzleramt sind der ukrainische Präsident und die Delegation des US-Gesandten Witkoff zu Verhandlungen angekommen. Tausende Polizeikräfte sind im Einsatz. Das Liveblog",
-        "paragraphs": [
-          "Im Kanzleramt sind der ukrainische Präsident und die Delegation des US-Gesandten Witkoff zu Verhandlungen angekommen. Tausende Polizeikräfte sind im Einsatz. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-15T12:13:08.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/usa-was-trumps-america-first-politik-wirklich-bewirkt-03/100180637.html",
@@ -410,39 +443,6 @@
         "link": "https://www.zeit.de/politik/deutschland/2025-12/bauernproteste-anklage-staatsanwaltschaft-robert-habeck-faehre",
         "source": "ZEIT",
         "publishedAt": "2025-12-15T11:00:31.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/konjunktur/gtai-studie-china-nicht-mehr-in-der-top-5-der-deutschen-exportziele/100183933.html",
-        "title": "GTAI-Studie: China nicht mehr in der Top 5 der deutschen Exportziele",
-        "summary": "Der chinesische Binnenmarkt schwächelt. Das macht sich auch für die deutschen Exporteure bemerkbar: Die Ausfuhren gehen zurück. Die Exporte zu den EU-Nachbarn legen dagegen zu.",
-        "paragraphs": [
-          "Der chinesische Binnenmarkt schwächelt. Das macht sich auch für die deutschen Exporteure bemerkbar: Die Ausfuhren gehen zurück. Die Exporte zu den EU-Nachbarn legen dagegen zu."
-        ],
-        "link": "https://www.handelsblatt.com/politik/konjunktur/gtai-studie-china-nicht-mehr-in-der-top-5-der-deutschen-exportziele/100183933.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-15T10:59:25.000Z"
-      },
-      {
-        "id": "{urn:uuid:1be7d21c-fa0d-445c-8bd5-fbf5a3f568e0}",
-        "title": "Russische Zensur: Russland stuft Pussy Riot als extremistische Gruppe ein",
-        "summary": "Nach mehreren Verurteilungen wegen angeblicher Falschinformation gegen ihre Mitglieder wird die Gruppe Pussy Riot in Russland verboten. Sie floh bereits ins Ausland.",
-        "paragraphs": [
-          "Nach mehreren Verurteilungen wegen angeblicher Falschinformation gegen ihre Mitglieder wird die Gruppe Pussy Riot in Russland verboten. Sie floh bereits ins Ausland."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/pussy-riot-band-russland-extremistisch-eingestuft-zensur",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-15T10:54:18.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/chile-das-sind-jose-antonio-kasts-plaene-fuer-chiles-wirtschaft/100182721.html",
-        "title": "Rohstoffe: Deutsche Unternehmen sehen Chance auf Wirtschaftswende durch Chiles neuen Präsidenten",
-        "summary": "Die marktliberale Orientierung, für die der neue chilenische Präsident José Antonio Kast steht, bedeutet eine 180-Grad-Wende für das Land. Für internationale Partner könnte es dadurch attraktiver werden.",
-        "paragraphs": [
-          "Die marktliberale Orientierung, für die der neue chilenische Präsident José Antonio Kast steht, bedeutet eine 180-Grad-Wende für das Land. Für internationale Partner könnte es dadurch attraktiver werden."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/chile-das-sind-jose-antonio-kasts-plaene-fuer-chiles-wirtschaft/100182721.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-15T10:37:34.000Z"
       }
     ],
     "sport": [
@@ -456,6 +456,28 @@
         "link": "https://www.kicker.de/fraeulein-millas-gespuer-fuers-padel-abc-1176002/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-15T12:40:19.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/werder-gibt-leichte-entwarnung-bei-kapitaen-friedl-1173730/artikel#omrss",
+        "title": "Werder gibt leichte Entwarnung bei Kapitän Friedl",
+        "summary": "Der SV Werder Bremen darf zum Jahresabschluss auf einen Einsatz seines Kapitäns hoffen. Das würde Trainer Horst Steffen einen großen Engpass ersparen.",
+        "paragraphs": [
+          "Der SV Werder Bremen darf zum Jahresabschluss auf einen Einsatz seines Kapitäns hoffen. Das würde Trainer Horst Steffen einen großen Engpass ersparen."
+        ],
+        "link": "https://www.kicker.de/werder-gibt-leichte-entwarnung-bei-kapitaen-friedl-1173730/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-15T12:39:45.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/petersen-brutal-gut-geile-kicker-1176030/video#omrss",
+        "title": "Petersen : \"Brutal gut, geile Kicker\"",
+        "summary": "Nils Petersen freut sich auf die WM 2026. Der Ex-Nationalspieler analysiert die deutschen Gruppengegner Ecuador, Curaçao und die Elfenbeinküste und verrät, warum er sich für die DFB-Elf auch nachts den Wecker stellen wird.",
+        "paragraphs": [
+          "Nils Petersen freut sich auf die WM 2026. Der Ex-Nationalspieler analysiert die deutschen Gruppengegner Ecuador, Curaçao und die Elfenbeinküste und verrät, warum er sich für die DFB-Elf auch nachts den Wecker stellen wird."
+        ],
+        "link": "https://www.kicker.de/petersen-brutal-gut-geile-kicker-1176030/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-15T12:30:51.000Z"
       },
       {
         "id": "https://www.kicker.de/woltemade-untroestlich-sunderland-aergert-newcastle-mit-foto-1176019/artikel#omrss",
@@ -643,31 +665,42 @@
         "link": "https://www.kicker.de/van-dijk-wir-hoffen-alle-dass-mo-vom-afrika-cup-zurueckkommt-1175972/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-15T10:21:45.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-manuel-neuer-erleidet-muskelverletzung-a-2d168d9c-833f-401a-aa1d-2df34c5a1e72",
-        "title": "FC Bayern München: Manuel Neuer erleidet Muskelverletzung",
-        "summary": "Im Sommer läuft der Vertrag von Manuel Neuer beim FC Bayern aus. Eine Fortsetzung hängt auch von seinem Gesundheitszustand ab. Nun gab es für den 39-Jährigen vor dem letzten Spiel des Jahres einen (muskulären) Rückschlag.",
-        "paragraphs": [
-          "Im Sommer läuft der Vertrag von Manuel Neuer beim FC Bayern aus. Eine Fortsetzung hängt auch von seinem Gesundheitszustand ab. Nun gab es für den 39-Jährigen vor dem letzten Spiel des Jahres einen (muskulären) Rückschlag."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-manuel-neuer-erleidet-muskelverletzung-a-2d168d9c-833f-401a-aa1d-2df34c5a1e72#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-15T10:18:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/elf-des-tages-horn-zum-fuenften-mal-dabei-trio-aus-paderborn-1175973/artikel#omrss",
-        "title": "Elf des Tages: Horn zum fünften Mal dabei - Trio aus Paderborn",
-        "summary": "Timo Horn schaffte es auch am 16. Spieltag in die Elf des Tages - zum fünften Mal in dieser Saison. Daneben sind gleich drei Spieler aus Paderborn dabei.",
-        "paragraphs": [
-          "Timo Horn schaffte es auch am 16. Spieltag in die Elf des Tages - zum fünften Mal in dieser Saison. Daneben sind gleich drei Spieler aus Paderborn dabei."
-        ],
-        "link": "https://www.kicker.de/elf-des-tages-horn-zum-fuenften-mal-dabei-trio-aus-paderborn-1175973/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-15T10:13:03.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-Unternehmensprozesse-mit-Multi-Agenten-Systemen-automatisieren-11107559.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Unternehmensprozesse mit Multi-Agenten-Systemen automatisieren",
+        "summary": "Lernen Sie, wie Sie LLMs lokal ausführen, für spezifische Einsatzzwecke im Unternehmen konfigurieren und Prozesse mit Multi-Agenten-Systemen automatisieren.",
+        "paragraphs": [
+          "Lernen Sie, wie Sie LLMs lokal ausführen, für spezifische Einsatzzwecke im Unternehmen konfigurieren und Prozesse mit Multi-Agenten-Systemen automatisieren."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Unternehmensprozesse-mit-Multi-Agenten-Systemen-automatisieren-11107559.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-15T13:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Gefaehrlich-nahe-Starlink-Satellit-angeblich-knapp-einer-Kollision-entgangen-11115249.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„Gefährlich nahe“: Starlink-Satellit angeblich knapp einer Kollision entgangen",
+        "summary": "Vor wenigen Tagen ist ein neu gestarteter Satellit vergleichsweise knapp an einem Starlink-Satelliten vorbeigerast. SpaceX übt deshalb grundsätzliche Kritik.",
+        "paragraphs": [
+          "Vor wenigen Tagen ist ein neu gestarteter Satellit vergleichsweise knapp an einem Starlink-Satelliten vorbeigerast. SpaceX übt deshalb grundsätzliche Kritik."
+        ],
+        "link": "https://www.heise.de/news/Gefaehrlich-nahe-Starlink-Satellit-angeblich-knapp-einer-Kollision-entgangen-11115249.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-15T12:46:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/BSI-checkt-E-Mail-Programme-11115384.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "BSI checkt E-Mail-Programme",
+        "summary": "Das Bundesamt für Sicherheit in der Informationstechnik hat getestet, wie sicher E-Mail-Programme sind. Die sind offenbar ok.",
+        "paragraphs": [
+          "Das Bundesamt für Sicherheit in der Informationstechnik hat getestet, wie sicher E-Mail-Programme sind. Die sind offenbar ok."
+        ],
+        "link": "https://www.heise.de/news/BSI-checkt-E-Mail-Programme-11115384.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-15T12:41:00.000Z"
+      },
       {
         "id": "https://www.heise.de/ratgeber/Game-Streaming-via-GeForce-NOW-auf-Steam-Deck-ausprobiert-11091260.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "title": "heise+ | Game-Streaming via GeForce NOW auf Steam Deck ausprobiert",
@@ -854,39 +887,6 @@
         "link": "https://www.heise.de/news/React2Shell-Patch-unzureichend-Angriffe-weiten-sich-aus-11114849.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-15T08:17:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/iRobot-ist-insolvent-chinesischer-Zulieferer-Picea-uebernimmt-Geschaeft-11114819.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "iRobot ist insolvent, chinesischer Zulieferer Picea übernimmt Geschäft",
-        "summary": "Der Staubsaugerroboterhersteller iRobot hat Insolvenz angemeldet. Retten soll ihn der chinesische Zulieferer Picea, der das Unternehmen vollständig übernimmt.",
-        "paragraphs": [
-          "Der Staubsaugerroboterhersteller iRobot hat Insolvenz angemeldet. Retten soll ihn der chinesische Zulieferer Picea, der das Unternehmen vollständig übernimmt."
-        ],
-        "link": "https://www.heise.de/news/iRobot-ist-insolvent-chinesischer-Zulieferer-Picea-uebernimmt-Geschaeft-11114819.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-15T08:04:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/ratgeber/Von-Kika-bis-Youtube-Kids-So-sicher-sind-Streaming-Dienste-fuer-Kinder-10617636.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Von Kika bis Youtube Kids: So sicher sind Streaming-Dienste für Kinder",
-        "summary": "Die Kinder im Feiertagsstress kurz mit einer Serie zu beschäftigen, klingt verlockend. Wir erklären, wie Sie für ein altersgerechtes Programm sorgen.",
-        "paragraphs": [
-          "Die Kinder im Feiertagsstress kurz mit einer Serie zu beschäftigen, klingt verlockend. Wir erklären, wie Sie für ein altersgerechtes Programm sorgen."
-        ],
-        "link": "https://www.heise.de/ratgeber/Von-Kika-bis-Youtube-Kids-So-sicher-sind-Streaming-Dienste-fuer-Kinder-10617636.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2025-12-15T08:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/ratgeber/Bahn-Chaos-im-Griff-Strategien-bei-Zugausfall-und-Verspaetung-10991199.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Bahn-Chaos im Griff: Strategien bei Zugausfall und Verspätung",
-        "summary": "Wo finde ich Infos zu Verspätungen und wie kann ich mich darauf einstellen? Tipps und Tricks, wie man beim Bahnfahren mehr weiß und seltener überrascht wird.",
-        "paragraphs": [
-          "Wo finde ich Infos zu Verspätungen und wie kann ich mich darauf einstellen? Tipps und Tricks, wie man beim Bahnfahren mehr weiß und seltener überrascht wird."
-        ],
-        "link": "https://www.heise.de/ratgeber/Bahn-Chaos-im-Griff-Strategien-bei-Zugausfall-und-Verspaetung-10991199.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2025-12-15T07:30:00.000Z"
       }
     ]
   }
