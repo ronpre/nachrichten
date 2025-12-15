@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2025-12-15T16:32:05.831Z",
+  "updatedAt": "2025-12-15T16:52:01.952Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:b3e0cba1-de5f-4cfd-81e5-687190f6b3ce}",
+        "title": "Strompreis: Bundesregierung will bundesweite Strompreiszone beibehalten",
+        "summary": "Der Verband europäischer Stromnetzbetreiber hatte angeregt, die Preiszone in fünf Gebiete aufzuteilen. Die Bundesregierung hält jedoch an der bundesweiten Lösung fest.",
+        "paragraphs": [
+          "Der Verband europäischer Stromnetzbetreiber hatte angeregt, die Preiszone in fünf Gebiete aufzuteilen. Die Bundesregierung hält jedoch an der bundesweiten Lösung fest."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/bundesregierung-wirtschaftsministerium-strompreis-gebotszone",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-15T16:47:22.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/it-medien/hubert-burda-media-verlagschef-philipp-welte-geht-nicht-in-verwaltungsrat/100183950.html",
+        "title": "Burda-Verlag: „Ich fand es richtig, zur Seite zu treten“: Philipp Welte geht nicht in den Verwaltungsrat",
+        "summary": "Der scheidende Burda-Chef wechselt doch nicht in den Verwaltungsrat des Konzerns. Im Interview spricht Philipp Welte über Fehler im Umgang mit Google – und übt Kritik an den Kartellwächtern.",
+        "paragraphs": [
+          "Der scheidende Burda-Chef wechselt doch nicht in den Verwaltungsrat des Konzerns. Im Interview spricht Philipp Welte über Fehler im Umgang mit Google – und übt Kritik an den Kartellwächtern."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/it-medien/hubert-burda-media-verlagschef-philipp-welte-geht-nicht-in-verwaltungsrat/100183950.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-15T16:31:56.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/geldpolitik/john-williams-fed-notenbanker-sieht-geldpolitik-nach-zinssenkung-auf-neutralem-kurs/100184105.html",
         "title": "John Williams: Fed-Notenbanker sieht Geldpolitik nach Zinssenkung auf neutralem Kurs",
@@ -47,17 +69,6 @@
         "publishedAt": "2025-12-15T16:09:09.000Z"
       },
       {
-        "id": "{urn:uuid:b3e0cba1-de5f-4cfd-81e5-687190f6b3ce}",
-        "title": "Strompreis: Bundesregierung will bundesweite Strompreiszone beibehalten",
-        "summary": "Der Verband europäischer Stromnetzbetreiber hatte angeregt, die Preiszone in fünf Gebiete aufzuteilen. Die Bundesregierung hält jedoch an der bundesweiten Lösung fest.",
-        "paragraphs": [
-          "Der Verband europäischer Stromnetzbetreiber hatte angeregt, die Preiszone in fünf Gebiete aufzuteilen. Die Bundesregierung hält jedoch an der bundesweiten Lösung fest."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/bundesregierung-wirtschaftsministerium-strompreis-gebotszone",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-15T16:05:41.000Z"
-      },
-      {
         "id": "li.3354623",
         "title": "Deutsche Bahn: Bahnchefin zu S21: „Niemand ist glücklich über diese Situation“",
         "summary": "Die neue Bahnchefin Evelyn Palla bekennt sich gegenüber dem Land Baden-Württemberg und der Stadt Stuttgart ausdrücklich zur Fortsetzung des Milliardenprojekts Stuttgart 21. Bis zum Sommer 2026 sollen die Verzögerungen lückenlos aufgeklärt werden.",
@@ -81,10 +92,10 @@
       },
       {
         "id": "li.3354637",
-        "title": "Meyer-Werft: Milliardenauftrag in Sicht",
-        "summary": "Es gibt sie noch, die guten Nachrichten: Kurz vor Weihnachten ereilt Tausende Werftmitarbeiter in Papenburg und Rostock eine frohe Botschaft: Mehrere Kreuzfahrtschiffe sollen gebaut werden. Das freut auch den Haupteigentümer: den Staat.",
+        "title": "Schiffbau: Großes Geschäft soll Krisen-Werft sichern",
+        "summary": "Kurz vor Weihnachten ereilt Tausende Mitarbeiter in Papenburg und Rostock eine frohe Botschaft: Die Meyer Werft soll mehrere Kreuzfahrtschiffe bauen. Das freut auch den Haupteigentümer: den Staat.",
         "paragraphs": [
-          "Es gibt sie noch, die guten Nachrichten: Kurz vor Weihnachten ereilt Tausende Werftmitarbeiter in Papenburg und Rostock eine frohe Botschaft: Mehrere Kreuzfahrtschiffe sollen gebaut werden. Das freut auch den Haupteigentümer: den Staat."
+          "Kurz vor Weihnachten ereilt Tausende Mitarbeiter in Papenburg und Rostock eine frohe Botschaft: Die Meyer Werft soll mehrere Kreuzfahrtschiffe bauen. Das freut auch den Haupteigentümer: den Staat."
         ],
         "link": "https://www.sueddeutsche.de/wirtschaft/meyer-werft-neuer-auftrag-reiche-streit-li.3354637",
         "source": "Sueddeutsche",
@@ -210,20 +221,31 @@
         "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-die-wichtigsten-ausnahmeregeln-bei-der-spekulationssteuer-02/100132692.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-15T14:20:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/mittelstand/geld-viele-vermoegende-haben-ueberhaupt-keine-liquiden-mittel-03/100115336.html",
-        "title": "Reichtum: „Millionäre in Deutschland haben 60 Mal mehr Vermögen als Milliardäre“",
-        "summary": "Der langjährige Stiftungsfunktionär Felix Oldenburg hat mit Vermögenden gesprochen. Hier erklärt er, was Milliardäre antreibt – und wie Vermögensverwalter ihnen Steuersparmodelle bauen.",
-        "paragraphs": [
-          "Der langjährige Stiftungsfunktionär Felix Oldenburg hat mit Vermögenden gesprochen. Hier erklärt er, was Milliardäre antreibt – und wie Vermögensverwalter ihnen Steuersparmodelle bauen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/geld-viele-vermoegende-haben-ueberhaupt-keine-liquiden-mittel-03/100115336.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-15T14:16:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Wolodymyr Selenskyj nennt Ukraine-Gespräche \"produktiv\"",
+        "summary": "Die Verhandlungen in Berlin sind nach Einschätzung der Ukraine gut verlaufen. Friedrich Merz stellt der Ukraine weitere Wirtschaftshilfen in Aussicht. Das Liveblog",
+        "paragraphs": [
+          "Die Verhandlungen in Berlin sind nach Einschätzung der Ukraine gut verlaufen. Friedrich Merz stellt der Ukraine weitere Wirtschaftshilfen in Aussicht. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-15T16:38:20.000Z"
+      },
+      {
+        "id": "li.3353907",
+        "title": "Krieg in der Ukraine: Merz und Selenskij über die Ukraine-Verhandlungen in Berlin",
+        "summary": "Zwei Tage lang haben Vertreter der USA und der Ukraine im Kanzleramt über den Plan beraten, den Krieg in der Ukraine zu beenden. Verfolgen Sie die Pressekonferenz des Kanzlers und des ukrainischen Präsidenten im Livestream.",
+        "paragraphs": [
+          "Zwei Tage lang haben Vertreter der USA und der Ukraine im Kanzleramt über den Plan beraten, den Krieg in der Ukraine zu beenden. Verfolgen Sie die Pressekonferenz des Kanzlers und des ukrainischen Präsidenten im Livestream."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-verhandlungen-usa-witkoff-nato-beitritt-verzicht-li.3353907",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-15T16:33:00.000Z"
+      },
       {
         "id": "er.e274049",
         "title": "Krieg in der Ukraine: Wie Selenskij sich gegen Putins Propaganda wehrt",
@@ -302,17 +324,6 @@
         "publishedAt": "2025-12-15T15:57:02.000Z"
       },
       {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Ukrainischer Chefunterhändler spricht von \"echten Fortschritten\"",
-        "summary": "Rustem Umerov nennt die Gespräche im Kanzleramt konstruktiv und produktiv. Selenskyj bedankt sich bei Klöckner für 11,5 Milliarden Euro Verteidigungshilfen.",
-        "paragraphs": [
-          "Rustem Umerov nennt die Gespräche im Kanzleramt konstruktiv und produktiv. Selenskyj bedankt sich bei Klöckner für 11,5 Milliarden Euro Verteidigungshilfen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-15T15:42:53.000Z"
-      },
-      {
         "id": "li.3355196",
         "title": "Russland: „Pussy Riot“ als extremistische Organisation eingestuft",
         "summary": "",
@@ -360,17 +371,6 @@
         "link": "https://www.sueddeutsche.de/politik/cdu-wohnungsbau-beschleunigen-li.3355170",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-15T15:10:10.000Z"
-      },
-      {
-        "id": "li.3353907",
-        "title": "Krieg in der Ukraine: Ukraine bereit zu Verzicht auf Nato-Beitritt - Gespräche in Berlin beendet",
-        "summary": "Im Gegenzug verlangt Selenskij Sicherheitsgarantien der USA und anderer europäischer Partner. Die Beratungen zwischen dem ukrainischen Präsidenten und dem US-Sondergesandten Witkoff sind am Montagnachmittag zu Ende gegangen.",
-        "paragraphs": [
-          "Im Gegenzug verlangt Selenskij Sicherheitsgarantien der USA und anderer europäischer Partner. Die Beratungen zwischen dem ukrainischen Präsidenten und dem US-Sondergesandten Witkoff sind am Montagnachmittag zu Ende gegangen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-verhandlungen-usa-witkoff-nato-beitritt-verzicht-li.3353907",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-15T15:10:00.000Z"
       },
       {
         "id": "li.3355169",
@@ -626,6 +626,17 @@
         "publishedAt": "2025-12-15T14:29:15.000Z"
       },
       {
+        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "title": "Nürnberg schickt Mustapha zurück - Eintracht lockt Ebnoutalib - Genk entlässt Fink",
+        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
+        "paragraphs": [
+          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
+        ],
+        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-15T14:27:54.000Z"
+      },
+      {
         "id": "https://www.kicker.de/duesseldorf-hat-einen-starken-und-bleibenden-eindruck-hinterlassen-1176057/artikel#omrss",
         "title": "\"Düsseldorf hat einen starken und bleibenden Eindruck hinterlassen\"",
         "summary": "Am Rande der Finals in Barcelona lobt Premier-Padel-Boss David Sugden die deutschen Veranstalter in den höchsten Tönen. Eine Fortsetzung in 2026 ist garantiert. Noch in dieser Woche soll der neue Terminkalender Fakten schaffen.",
@@ -646,17 +657,6 @@
         "link": "https://www.kicker.de/hanning-ueber-wm-silber-der-frauen-ein-fast-perfekter-dritter-advent-1176069/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-15T14:07:53.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/gleichgewicht-bestimmt-wettbewerbssituation-1176018/artikel#omrss",
-        "title": "\"Gleichgewicht bestimmt Wettbewerbssituation\"",
-        "summary": "Wie geht es weiter in Sachen 50+1? Es gilt nicht, einen Kompromiss zu finden zwischen Partizipation und Autonomie. Das legt eine Studie der HHL nahe.",
-        "paragraphs": [
-          "Wie geht es weiter in Sachen 50+1? Es gilt nicht, einen Kompromiss zu finden zwischen Partizipation und Autonomie. Das legt eine Studie der HHL nahe."
-        ],
-        "link": "https://www.kicker.de/gleichgewicht-bestimmt-wettbewerbssituation-1176018/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-15T14:03:25.000Z"
       }
     ],
     "edv": [
@@ -815,17 +815,6 @@
         "publishedAt": "2025-12-15T12:41:00.000Z"
       },
       {
-        "id": "https://www.heise.de/ratgeber/Game-Streaming-via-GeForce-NOW-auf-Steam-Deck-ausprobiert-11091260.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Game-Streaming via GeForce NOW auf Steam Deck ausprobiert",
-        "summary": "GeForce NOW bringt High-End-Grafik auf Low-End-Hardware. Wir haben den Online-Dienst auf dem Steam Deck getestet und geben Tipps für optimale Bildqualität.",
-        "paragraphs": [
-          "GeForce NOW bringt High-End-Grafik auf Low-End-Hardware. Wir haben den Online-Dienst auf dem Steam Deck getestet und geben Tipps für optimale Bildqualität."
-        ],
-        "link": "https://www.heise.de/ratgeber/Game-Streaming-via-GeForce-NOW-auf-Steam-Deck-ausprobiert-11091260.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2025-12-15T12:30:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Pentest-Linux-Kali-2025-4-mit-neuen-Desktops-Wayland-und-Halloween-Modus-11115229.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Pentest-Linux Kali 2025.4 mit neuen Desktops, Wayland und Halloween-Modus",
         "summary": "Die Entwickler des aus Backtrack hervorgegangenen Kali-Linux für Pentester haben Version 2025.4 freigegeben. Es aktualisiert die Desktops.",
@@ -848,17 +837,6 @@
         "publishedAt": "2025-12-15T11:03:00.000Z"
       },
       {
-        "id": "https://www.heise.de/tests/Kleine-Batterie-grosser-Preis-VW-e-Transporter-im-Test-11080763.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Kleine Batterie, großer Preis: VW e-Transporter im Test",
-        "summary": "Für die neuen Vans kooperiert Volkswagen mit Ford. Der e-Transporter wurde so zwar ein solides kleines NFZ, aber VW-Fans erhofften sich wahrscheinlich mehr.",
-        "paragraphs": [
-          "Für die neuen Vans kooperiert Volkswagen mit Ford. Der e-Transporter wurde so zwar ein solides kleines NFZ, aber VW-Fans erhofften sich wahrscheinlich mehr."
-        ],
-        "link": "https://www.heise.de/tests/Kleine-Batterie-grosser-Preis-VW-e-Transporter-im-Test-11080763.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2025-12-15T11:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Microsoft-Cloud-Security-Drei-kostenlose-Tools-die-jeder-Admin-kennen-sollte-11113757.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "heise-Angebot: Microsoft-Cloud-Security: Drei kostenlose Tools, die jeder Admin kennen sollte",
         "summary": "M365 ist kein Security-Highlight. Firmen und Behörden sollten deshalb ihre Cloud-Dienste prüfen und optimieren. Das Webinar gibt dazu den Schnelleinstieg.",
@@ -879,6 +857,28 @@
         "link": "https://www.heise.de/news/Angreifer-koennen-mit-TeamViewer-DEX-verwaltete-PCs-attackieren-11114835.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-15T10:30:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Rollender-Roboter-Steppenlaeufer-nutzt-Wind-zur-Fortbewegung-und-fliegt-11114961.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Rollender Roboter-Steppenläufer nutzt Wind zur Fortbewegung – und fliegt",
+        "summary": "Roboter Hermes hat einen Steppenläufer als Vorbild und wird von Wind angetrieben. Der Roboter funktioniert sogar noch effizienter als das biologische Vorbild.",
+        "paragraphs": [
+          "Roboter Hermes hat einen Steppenläufer als Vorbild und wird von Wind angetrieben. Der Roboter funktioniert sogar noch effizienter als das biologische Vorbild."
+        ],
+        "link": "https://www.heise.de/news/Rollender-Roboter-Steppenlaeufer-nutzt-Wind-zur-Fortbewegung-und-fliegt-11114961.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-15T10:23:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Gartner-Prognosen-KI-macht-denkfaul-und-schafft-neue-Abhaengigkeiten-11114957.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Gartner-Prognosen: KI macht denkfaul und schafft neue Abhängigkeiten",
+        "summary": "Gartner prognostiziert gravierende Umbrüche durch KI: von KI als Zauberer über neue Abhängigkeiten bis zu Milliardenkosten durch Regulierung.",
+        "paragraphs": [
+          "Gartner prognostiziert gravierende Umbrüche durch KI: von KI als Zauberer über neue Abhängigkeiten bis zu Milliardenkosten durch Regulierung."
+        ],
+        "link": "https://www.heise.de/news/Gartner-Prognosen-KI-macht-denkfaul-und-schafft-neue-Abhaengigkeiten-11114957.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-15T09:48:00.000Z"
       }
     ]
   }
