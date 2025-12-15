@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-15T12:09:21.488Z",
+  "updatedAt": "2025-12-15T12:24:56.809Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "li.3354694",
+        "title": "Finanzbranche: Bafin greift erneut bei Online-Bank N26 durch",
+        "summary": "Die Finanzaufsicht hat gravierende Mängel im Risiko- und Beschwerdemanagement sowie in der Organisation des Kreditgeschäfts festgestellt.",
+        "paragraphs": [
+          "Die Finanzaufsicht hat gravierende Mängel im Risiko- und Beschwerdemanagement sowie in der Organisation des Kreditgeschäfts festgestellt."
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/n26-bafin-li.3354694",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-15T12:10:29.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/usa-was-trumps-america-first-politik-wirklich-bewirkt-03/100180637.html",
         "title": "USA: Der Preis von „America first“ – So sieht die Bilanz von Trumps Handelspolitik aus",
@@ -210,20 +221,53 @@
         "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rentnerparadies-das-berichten-deutsche-im-ruhestand-ueber-italien/100139821.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-15T10:23:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/matthias-moosdorf-anklage-gegen-afd-abgeordneten-wegen-hitlergruss-im-bundestag/100183977.html",
-        "title": "Ermittlungen: Anklage gegen AfD-Abgeordneten wegen Hitlergruß im Bundestag",
-        "summary": "Nach dem Vorwurf des Hitlergrußes im Bundestag verliert Matthias Moosdorf seine Immunität. Auch innerhalb der AfD-Fraktion gab es zuletzt Spannungen um den Politiker.",
-        "paragraphs": [
-          "Nach dem Vorwurf des Hitlergrußes im Bundestag verliert Matthias Moosdorf seine Immunität. Auch innerhalb der AfD-Fraktion gab es zuletzt Spannungen um den Politiker."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/matthias-moosdorf-anklage-gegen-afd-abgeordneten-wegen-hitlergruss-im-bundestag/100183977.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-15T10:21:59.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Selenskyj und US-Delegation zu Gesprächen im Kanzleramt eingetroffen",
+        "summary": "Im Kanzleramt sind der ukrainische Präsident und die Delegation des US-Gesandten Witkoff zu Verhandlungen angekommen. Tausende Polizeikräfte sind im Einsatz. Das Liveblog",
+        "paragraphs": [
+          "Im Kanzleramt sind der ukrainische Präsident und die Delegation des US-Gesandten Witkoff zu Verhandlungen angekommen. Tausende Polizeikräfte sind im Einsatz. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-15T12:13:08.000Z"
+      },
+      {
+        "id": "{urn:uuid:655d012f-ddb2-4c96-af7e-97acf9bf47b8}",
+        "title": "Freie Meinungsäußerung: Meinungsfreiheit hat sich laut Unesco weltweit deutlich verschlechtert",
+        "summary": "Die Unesco warnt vor einer beispiellosen Verschlechterung der Presse- und Meinungsfreiheit. Besonders stark habe sich die Lage ab dem Jahr 2020 verschlechtert.",
+        "paragraphs": [
+          "Die Unesco warnt vor einer beispiellosen Verschlechterung der Presse- und Meinungsfreiheit. Besonders stark habe sich die Lage ab dem Jahr 2020 verschlechtert."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/unesco-meinungsfreiheit-pressefreiheit-weltweit-verschlechtert",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-15T12:07:27.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/usa-was-trumps-america-first-politik-wirklich-bewirkt-03/100180637.html",
+        "title": "USA: Der Preis von „America first“ – So sieht die Bilanz von Trumps Handelspolitik aus",
+        "summary": "Donald Trump feiert seine Handelskriege als Erfolge. Tatsächlich brechen Lieferketten, steigen Preise, die Industrie verliert an Kraft. Eine Rekonstruktion, wie sein Protektionismus den USA zum Verhängnis wurde.",
+        "paragraphs": [
+          "Donald Trump feiert seine Handelskriege als Erfolge. Tatsächlich brechen Lieferketten, steigen Preise, die Industrie verliert an Kraft. Eine Rekonstruktion, wie sein Protektionismus den USA zum Verhängnis wurde."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/usa-was-trumps-america-first-politik-wirklich-bewirkt-03/100180637.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-15T12:05:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/unternehmen-bund-will-24-stunden-gruendung-schleswig-holstein-als-vorbild/100167775.html",
+        "title": "Start-up-Hafen: Von Eiderstedt nach Berlin: Schleswig-Holstein soll als Vorbild für Gründungen binnen 24 Stunden dienen",
+        "summary": "Die Beschleunigung von Unternehmensgründungen steht im Koalitionsvertrag. Ein lokales Pilotprojekt ermöglicht sie jetzt schon. Von den Erfolgen soll der Bund lernen.",
+        "paragraphs": [
+          "Die Beschleunigung von Unternehmensgründungen steht im Koalitionsvertrag. Ein lokales Pilotprojekt ermöglicht sie jetzt schon. Von den Erfolgen soll der Bund lernen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/unternehmen-bund-will-24-stunden-gruendung-schleswig-holstein-als-vorbild/100167775.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-15T12:00:54.000Z"
+      },
       {
         "id": "li.3354958",
         "title": "Bundesregierung: Hitlergruß im Bundestag: AfD-Abgeordneter angeklagt",
@@ -231,7 +275,7 @@
         "paragraphs": [
           "Weil er im Reichstagsgebäude die verbotene Geste gezeigt haben soll, hat die Staatsanwaltschaft Berlin Anklage gegen den AfD-Abgeordneten Matthias Moosdorf erhoben."
         ],
-        "link": "https://www.sueddeutsche.de/politik/afd-bundestag-abgeordneter-hitlergruss-li.3354958",
+        "link": "https://www.sueddeutsche.de/politik/afd-bundestag-abgeordneter-matthias-moosdorf-hitlergruss-anklage-li.3354958",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-15T12:00:21.000Z"
       },
@@ -346,17 +390,6 @@
         "publishedAt": "2025-12-15T11:00:31.000Z"
       },
       {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Russische Zentralbank verklagt Euroclear auf Schadensersatz",
-        "summary": "Vom Finanzdienstleister Euroclear fordert die russische Zentralbank 195 Milliarden Euro Schadensersatz. Wadephul richtet Appell zu Verhandlungen an Russland. Das Liveblog",
-        "paragraphs": [
-          "Vom Finanzdienstleister Euroclear fordert die russische Zentralbank 195 Milliarden Euro Schadensersatz. Wadephul richtet Appell zu Verhandlungen an Russland. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-15T10:59:28.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/konjunktur/gtai-studie-china-nicht-mehr-in-der-top-5-der-deutschen-exportziele/100183933.html",
         "title": "GTAI-Studie: China nicht mehr in der Top 5 der deutschen Exportziele",
         "summary": "Der chinesische Binnenmarkt schwächelt. Das macht sich auch für die deutschen Exporteure bemerkbar: Die Ausfuhren gehen zurück. Die Exporte zu den EU-Nachbarn legen dagegen zu.",
@@ -410,42 +443,20 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/matthias-moosdorf-anklage-gegen-afd-abgeordneten-wegen-hitlergruss-im-bundestag/100183977.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-15T10:21:59.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/hitlergruss-im-bundestag-anklage-gegen-afd-bundestagsabgeordneten-matthias-moosdorf-a-595697b8-d54a-4b68-9f4b-dacf1e7b24df",
-        "title": "Hitlergruß im Bundestag: Anklage gegen AfD-Bundestagsabgeordneten Matthias Moosdorf",
-        "summary": "Die Staatsanwaltschaft Berlin hat wegen eines Hitlergrußes im Garderobenbereich des Bundestags Anklage gegen den 60-jährigen AfD-Abgeordneten Matthias Moosdorf erhoben. Seine Immunität hatte er bereits im Oktober verloren.",
-        "paragraphs": [
-          "Die Staatsanwaltschaft Berlin hat wegen eines Hitlergrußes im Garderobenbereich des Bundestags Anklage gegen den 60-jährigen AfD-Abgeordneten Matthias Moosdorf erhoben. Seine Immunität hatte er bereits im Oktober verloren."
-        ],
-        "link": "https://www.spiegel.de/politik/hitlergruss-im-bundestag-anklage-gegen-afd-bundestagsabgeordneten-matthias-moosdorf-a-595697b8-d54a-4b68-9f4b-dacf1e7b24df#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-15T09:45:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/mercosur-abkommen-koennte-kurz-vor-abschluss-doch-noch-scheitern/100182725.html",
-        "title": "Freihandel: Mercosur-Abkommen könnte kurz vor Abschluss doch noch scheitern",
-        "summary": "Kanzler Merz hatte den Handelsdeal der EU mit dem südamerikanischen Staatenbund schon für beschlossen erklärt. Doch Frankreich will nicht zustimmen. In Brüssel wird vor einem endgültigen Aus gewarnt.",
-        "paragraphs": [
-          "Kanzler Merz hatte den Handelsdeal der EU mit dem südamerikanischen Staatenbund schon für beschlossen erklärt. Doch Frankreich will nicht zustimmen. In Brüssel wird vor einem endgültigen Aus gewarnt."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/mercosur-abkommen-koennte-kurz-vor-abschluss-doch-noch-scheitern/100182725.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-15T09:41:57.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/kfw-analyse-unternehmen-fahren-investitionen-zum-klimaschutz-runter/100183955.html",
-        "title": "KfW-Analyse: Unternehmen fahren Investitionen zum Klimaschutz runter",
-        "summary": "Der Klimaschutz spielt insbesondere für große Unternehmen eine untergeordnete Rolle, zeigt eine neue KfW-Auswertung. Im Mittelstand wird dagegen noch investiert.",
-        "paragraphs": [
-          "Der Klimaschutz spielt insbesondere für große Unternehmen eine untergeordnete Rolle, zeigt eine neue KfW-Auswertung. Im Mittelstand wird dagegen noch investiert."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/kfw-analyse-unternehmen-fahren-investitionen-zum-klimaschutz-runter/100183955.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-15T09:35:10.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/woltemade-untroestlich-sunderland-aergert-newcastle-mit-foto-1176019/artikel#omrss",
+        "title": "Woltemade untröstlich - Sunderland ärgert Newcastle mit Foto",
+        "summary": "Newcastle United erleidet die schmerzhafteste Niederlage der Saison - ausgerechnet wegen Nick Woltemade. Erzrivale Sunderland kostet den Triumph genüsslich aus.",
+        "paragraphs": [
+          "Newcastle United erleidet die schmerzhafteste Niederlage der Saison - ausgerechnet wegen Nick Woltemade. Erzrivale Sunderland kostet den Triumph genüsslich aus."
+        ],
+        "link": "https://www.kicker.de/woltemade-untroestlich-sunderland-aergert-newcastle-mit-foto-1176019/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-15T12:20:57.000Z"
+      },
       {
         "id": "https://www.kicker.de/rapps-aerger-es-werden-viel-zu-viele-elfmeter-gepfiffen-1176005/artikel#omrss",
         "title": "Rapps Ärger: \"Es werden viel zu viele Elfmeter gepfiffen\"",
@@ -654,17 +665,6 @@
         "link": "https://www.sueddeutsche.de/sport/bundesliga-fc-bayern-kompany-musiala-ito-davies-li.3354584",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-15T10:03:24.000Z"
-      },
-      {
-        "id": "li.3332886",
-        "title": "Saison 2025/26: Skisprung-Kalender: Alle Wettbewerbe in der Übersicht",
-        "summary": "Es geht wieder los im Skisprungzirkus. Alle Wettbewerbe der Männer und Frauen zur Weltcup-Saison 2025/26 finden Sie in unserem Kalender.",
-        "paragraphs": [
-          "Es geht wieder los im Skisprungzirkus. Alle Wettbewerbe der Männer und Frauen zur Weltcup-Saison 2025/26 finden Sie in unserem Kalender."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/skispringen-weltcup-saison-2025-26-termine-kalender-zeitplan-li.3332886",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-15T10:01:00.000Z"
       }
     ],
     "edv": [
