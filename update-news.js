@@ -16,10 +16,9 @@ const SECTION_CONFIG = {
     { source: "Handelsblatt", url: "https://www.handelsblatt.com/contentexport/feed/wirtschaft" }
   ],
   politik: [
-    { source: "ZEIT", url: "https://newsfeed.zeit.de/politik/index" },
     { source: "SPIEGEL", url: "https://www.spiegel.de/politik/index.rss" },
-    { source: "Sueddeutsche", url: "https://rss.sueddeutsche.de/rss/Politik" },
-    { source: "Handelsblatt", url: "https://www.handelsblatt.com/contentexport/feed/politik" }
+    { source: "Handelsblatt", url: "https://www.handelsblatt.com/contentexport/feed/politik" },
+    { source: "Focus", url: "https://www.focus.de/politik/rssfeed.xml" }
   ],
   sport: [
     { source: "ZEIT", url: "https://newsfeed.zeit.de/sport/index" },
