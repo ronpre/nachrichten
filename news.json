@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-15T18:44:40.822Z",
+  "updatedAt": "2025-12-15T18:57:58.620Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:0e2f491e-769d-409a-bbaf-3e6ab3a0f129}",
+        "title": "Anschlag in Sydney: Zwei Terroristen und ein Held",
+        "summary": "Mit strengen Waffengesetzen wollte sich Australien vor Anschlägen schützen. Dann töten zwei Männer in Sydney mindestens 15 Menschen. Die Reaktion: noch schärfere Regeln.",
+        "paragraphs": [
+          "Mit strengen Waffengesetzen wollte sich Australien vor Anschlägen schützen. Dann töten zwei Männer in Sydney mindestens 15 Menschen. Die Reaktion: noch schärfere Regeln."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/anschlag-sydney-taeter-polizei-terror-antisemitismus",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-15T18:38:44.000Z"
+      },
+      {
         "id": "{urn:uuid:6eb8c2a4-f00b-44ce-87c3-89eac5df21ca}",
         "title": "Ukraineverhandlungen in Berlin: US-Regierung laut Friedrich Merz zu Garantien für die Ukraine bereit",
         "summary": "Bei den Ukraineberatungen beobachtet der Bundeskanzler eine \"positive Dynamik\". Demnach könnten die USA zu umfassenden Sicherheitsgarantien für die Ukraine bereit sein.",
@@ -233,7 +244,7 @@
         ],
         "link": "https://www.zeit.de/politik/ausland/2025-12/ukraine-verhandlungen-berlin-friedrich-merz-wolodymyr-selenskyj-us-sicherheitsgarantien",
         "source": "ZEIT",
-        "publishedAt": "2025-12-15T18:16:43.000Z"
+        "publishedAt": "2025-12-15T18:38:37.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-europaeer-treffen-im-kanzleramt-ein-trump-schaltet-sich-hinzu/27982126.html",
@@ -428,20 +439,20 @@
         "link": "https://www.sueddeutsche.de/politik/eu-bruessel-sanktioniert-ehemaligen-vize-sheriff-li.3355195",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-15T15:38:09.000Z"
-      },
-      {
-        "id": "li.3354675",
-        "title": "Corona: Führte die Covid-Impfung zum Hörsturz?",
-        "summary": "Der Bundesgerichtshof verhandelt erstmals über eine Schadensersatzklage gegen einen Impfstoffhersteller. Betroffene können auf einen Teilerfolg hoffen.",
-        "paragraphs": [
-          "Der Bundesgerichtshof verhandelt erstmals über eine Schadensersatzklage gegen einen Impfstoffhersteller. Betroffene können auf einen Teilerfolg hoffen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesgerichtshof-astrazeneca-impfschaden-gehoersturz-haftung-schadenersatz-li.3354675",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-15T15:16:44.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/guenter-braucht-kein-jobsharing-bin-noch-nicht-alt-und-fuehle-mich-super-1176142/artikel#omrss",
+        "title": "Günter braucht kein Jobsharing: \"Bin noch nicht alt und fühle mich super\"",
+        "summary": "Christian Günter ist Rekordspieler des SC Freiburg und Kapitän, muss sich aber in dieser Saison manchmal mit dem Bankplatz begnügen, vor allem in der Liga. Beim Remis gegen Dortmund war er aber von Beginn an gefragt.",
+        "paragraphs": [
+          "Christian Günter ist Rekordspieler des SC Freiburg und Kapitän, muss sich aber in dieser Saison manchmal mit dem Bankplatz begnügen, vor allem in der Liga. Beim Remis gegen Dortmund war er aber von Beginn an gefragt."
+        ],
+        "link": "https://www.kicker.de/guenter-braucht-kein-jobsharing-bin-noch-nicht-alt-und-fuehle-mich-super-1176142/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-15T18:42:00.000Z"
+      },
       {
         "id": "https://www.spiegel.de/sport/handball/zweiter-platz-bei-der-handball-wm-die-zauberkraft-des-kurzen-ruhms-a-ad82fdf7-5e23-4bf9-a7ff-ea2ba6ff72c0",
         "title": "Zweiter Platz bei der Handball-WM: Die Zauberkraft des kurzen Ruhms",
@@ -553,17 +564,6 @@
         "publishedAt": "2025-12-15T16:09:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/tuerchen-oeffner-doan-der-frankfurter-1-0-spezialist-1175968/artikel#omrss",
-        "title": "Türchen-Öffner Doan: Der Frankfurter 1:0-Spezialist",
-        "summary": "Ritsu Doan ist bei Eintracht Frankfurt der Mann für die wichtigen Momente. Dabei kann der Japaner längst noch nicht sein volles Potenzial entfalten, viel muss er sich selbst erarbeiten.",
-        "paragraphs": [
-          "Ritsu Doan ist bei Eintracht Frankfurt der Mann für die wichtigen Momente. Dabei kann der Japaner längst noch nicht sein volles Potenzial entfalten, viel muss er sich selbst erarbeiten."
-        ],
-        "link": "https://www.kicker.de/tuerchen-oeffner-doan-der-frankfurter-1-0-spezialist-1175968/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-15T15:57:03.000Z"
-      },
-      {
         "id": "li.3355026",
         "title": "Podcast „Und nun zum Sport“: Aufstieg von Lennart Karl: „Die Diskussion, ob noch Platz für Musiala bleibt, ist absurd“",
         "summary": "Probetraining in Madrid, Kimmich-Trikot im Kinderzimmer und jede Menge Selbstvertrauen: Der Weg von Lennart Karl zur angesagten Nummer bei den Bayern begann in einem Dorf im Spessart – und er ist noch lange nicht zu Ende.",
@@ -664,6 +664,17 @@
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/IT-Ausfall-im-Bundestag-Grosse-Nervositaet-waehrend-Ukraine-Verhandlungen-11115852.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Netzwerk des Bundestags am Montag stundenlang ausgefallen",
+        "summary": "Ein Ausfall der Bundestags-IT weckt schlimmste Befürchtungen. Ob zurecht, steht noch nicht fest.",
+        "paragraphs": [
+          "Ein Ausfall der Bundestags-IT weckt schlimmste Befürchtungen. Ob zurecht, steht noch nicht fest."
+        ],
+        "link": "https://www.heise.de/news/IT-Ausfall-im-Bundestag-Grosse-Nervositaet-waehrend-Ukraine-Verhandlungen-11115852.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-15T18:35:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Vodafone-Stiftung-Wirksame-Altersverifikation-fuer-Social-Media-gefordert-11115740.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Vodafone Stiftung: Wirksame Altersverifikation für Social Media gefordert",
@@ -872,17 +883,6 @@
         "link": "https://www.heise.de/news/VW-ID-Polo-Technik-erklaert-Ein-Baukasten-fuer-die-Kleinen-11106964.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "source": "heise",
         "publishedAt": "2025-12-15T11:03:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Microsoft-Cloud-Security-Drei-kostenlose-Tools-die-jeder-Admin-kennen-sollte-11113757.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: Microsoft-Cloud-Security: Drei kostenlose Tools, die jeder Admin kennen sollte",
-        "summary": "M365 ist kein Security-Highlight. Firmen und Behörden sollten deshalb ihre Cloud-Dienste prüfen und optimieren. Das Webinar gibt dazu den Schnelleinstieg.",
-        "paragraphs": [
-          "M365 ist kein Security-Highlight. Firmen und Behörden sollten deshalb ihre Cloud-Dienste prüfen und optimieren. Das Webinar gibt dazu den Schnelleinstieg."
-        ],
-        "link": "https://www.heise.de/news/Microsoft-Cloud-Security-Drei-kostenlose-Tools-die-jeder-Admin-kennen-sollte-11113757.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-15T11:00:00.000Z"
       }
     ]
   }
