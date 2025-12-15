@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-15T23:30:34.419Z",
+  "updatedAt": "2025-12-15T23:44:35.253Z",
   "categories": {
     "wirtschaft": [
       {
@@ -15,7 +15,7 @@
       },
       {
         "id": "{urn:uuid:552f4682-f871-4899-9822-49b7846beb49}",
-        "title": "Forbes: Elon Musks geschätztes Vermögen steigt auf 677 Milliarden US-Dollar",
+        "title": "\"Forbes\": Elon Musks geschätztes Vermögen steigt auf 677 Milliarden US-Dollar",
         "summary": "Ein Magazin schätzt das Vermögen von Elon Musk auf über 600 Milliarden US-Dollar. Offenbar hängt der plötzliche Zuwachs mit seinem Unternehmen SpaceX zusammen.",
         "paragraphs": [
           "Ein Magazin schätzt das Vermögen von Elon Musk auf über 600 Milliarden US-Dollar. Offenbar hängt der plötzliche Zuwachs mit seinem Unternehmen SpaceX zusammen."
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Einigung zum Kriegsende laut Donald Trump \"näher als je zuvor\"",
+        "summary": "US-Präsident Donald Trump sieht die Gespräche über ein Ende des Ukrainekriegs auf einem guten Weg. Die Beratungen in Berlin wurden unterdessen beendet. Das Liveblog",
+        "paragraphs": [
+          "US-Präsident Donald Trump sieht die Gespräche über ein Ende des Ukrainekriegs auf einem guten Weg. Die Beratungen in Berlin wurden unterdessen beendet. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-15T23:30:09.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-europaeer-sagen-ukraine-multinationale-truppe-zu/100183907.html",
+        "title": "Waffenstillstand: Europäer sagen Ukraine Sicherheitsgarantien und „multinationale Truppe“ zu",
+        "summary": "Bundeskanzler Friedrich Merz hält einen Waffenstillstand in der Ukraine nach den Gesprächen in Berlin für „greifbar“. Die USA hätten „beachtliche“ Zugeständnisse gemacht. Doch reicht das?",
+        "paragraphs": [
+          "Bundeskanzler Friedrich Merz hält einen Waffenstillstand in der Ukraine nach den Gesprächen in Berlin für „greifbar“. Die USA hätten „beachtliche“ Zugeständnisse gemacht. Doch reicht das?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-europaeer-sagen-ukraine-multinationale-truppe-zu/100183907.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-15T23:20:22.000Z"
+      },
+      {
         "id": "{urn:uuid:4f9643d4-17f8-49ba-9cff-0e976d116f05}",
         "title": "Ukrainegipfel in Berlin: Donald Trump sieht Einigung zum Kriegsende \"näher als je zuvor\"",
         "summary": "Nach den Ukrainegesprächen in Berlin zeigt sich der US-Präsident optimistisch. Spitzen der EU stellen eine multinationale Truppe in Aussicht – mit Unterstützung der USA.",
@@ -267,17 +289,6 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/ukraine-verhandlungen-berlin-friedrich-merz-wolodymyr-selenskyj-us-sicherheitsgarantien",
         "source": "ZEIT",
         "publishedAt": "2025-12-15T21:07:57.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Einigung zum Kriegsende laut Donald Trump \"näher als je zuvor\"",
-        "summary": "US-Präsident Donald Trump sieht die Gespräche über ein Ende des Ukrainekriegs auf einem guten Weg. Die Beratungen in Berlin wurden unterdessen beendet. Das Liveblog",
-        "paragraphs": [
-          "US-Präsident Donald Trump sieht die Gespräche über ein Ende des Ukrainekriegs auf einem guten Weg. Die Beratungen in Berlin wurden unterdessen beendet. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-15T21:06:19.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-europaeer-beenden-ukraine-treffen-im-kanzleramt/27982126.html",
@@ -333,17 +344,6 @@
         "link": "https://www.handelsblatt.com/politik/international/ungarn-massenproteste-gegen-missbrauch-bringen-orban-in-bedraengnis/100184130.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-15T20:05:38.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-europaeer-sagen-ukraine-multinationale-truppe-zu/100183907.html",
-        "title": "Waffenstillstand: Europäer sagen Ukraine Sicherheitsgarantien und „multinationale Truppe“ zu",
-        "summary": "Bundeskanzler Friedrich Merz hält einen Waffenstillstand in der Ukraine nach den Gesprächen in Berlin für „greifbar“. Die USA hätten „beachtliche“ Zugeständnisse gemacht. Doch reicht das?",
-        "paragraphs": [
-          "Bundeskanzler Friedrich Merz hält einen Waffenstillstand in der Ukraine nach den Gesprächen in Berlin für „greifbar“. Die USA hätten „beachtliche“ Zugeständnisse gemacht. Doch reicht das?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-europaeer-sagen-ukraine-multinationale-truppe-zu/100183907.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-15T19:56:17.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/bundestag-internet-faellt-waehrend-besuch-von-wolodymyr-selenskyj-aus-a-a5b7a8d1-6de0-4b8f-b6eb-de0b29d4da8e",
