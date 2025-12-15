@@ -308,7 +308,6 @@
       <h1>nachrichten</h1>
       <div class="meta-row">
         <span>update: <strong data-updated>09.12.2025, 17:33</strong></span>
-        <span>updates manuell npm run update:news &amp;&amp; npm run update:history</span>
       </div>
     </header>
 
@@ -378,6 +377,32 @@
               <em>2. Mannschaft</em>
             </a>
           </p>
+        </div>
+      </section>
+
+      <section class="panel collapsed" id="manual-update">
+        <div class="section-head">
+          <h2 tabindex="0" role="button" aria-expanded="false">manual update</h2>
+        </div>
+        <div>
+          <ol class="stories">
+            <li class="story">
+              <h3>Skripte lokal ausführen</h3>
+              <p class="story-summary"><code>npm run update:news</code> bzw. <code>node schedule-updates.js</code> starten. Optional <code>npm run update:history</code>, falls nur History aktualisiert werden soll.</p>
+            </li>
+            <li class="story">
+              <h3>Ergebnis prüfen</h3>
+              <p class="story-summary"><code>news.json</code> und <code>geschichte.json</code> auf frische <code>updatedAt</code>-Werte prüfen oder kurzfristig <code>npx http-server -p 8080 -c-1</code> starten und lokal testen.</p>
+            </li>
+            <li class="story">
+              <h3>Änderungen committen</h3>
+              <p class="story-summary"><code>git add news.json geschichte.json history_log.json logs/update-news.log logs/update-history.log</code> gefolgt von <code>git commit -m "Update feeds YYYY-MM-DD"</code>.</p>
+            </li>
+            <li class="story">
+              <h3>Push & GitHub Pages aktualisieren</h3>
+              <p class="story-summary"><code>git push origin main</code> ausführen, damit GitHub Pages die neue Version übernimmt.</p>
+            </li>
+          </ol>
         </div>
       </section>
     </main>
