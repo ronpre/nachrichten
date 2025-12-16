@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-16T19:06:17.505Z",
+  "updatedAt": "2025-12-16T19:18:38.954Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/digitalpolitik-ist-das-freie-internet-in-gefahr/100183106.html",
+        "title": "Digitalpolitik: „Eine gemeinsame Vision oder keine“ – ist das freie Internet in Gefahr?",
+        "summary": "Die Vereinten Nationen diskutieren über die Zukunft des Internets. Digitalminister Wildberger plädiert für ein freies, offenes Netz – und steht in den USA vor einer diplomatischen Bewährungsprobe.",
+        "paragraphs": [
+          "Die Vereinten Nationen diskutieren über die Zukunft des Internets. Digitalminister Wildberger plädiert für ein freies, offenes Netz – und steht in den USA vor einer diplomatischen Bewährungsprobe."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/digitalpolitik-ist-das-freie-internet-in-gefahr/100183106.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-16T18:57:27.000Z"
+      },
       {
         "id": "{urn:uuid:8a5906aa-38c3-431a-98ea-bdfa846caf3b}",
         "title": "Rentenkommission: Wie geht es weiter mit der Rente?",
@@ -210,20 +221,20 @@
         "link": "https://www.zeit.de/wirtschaft/2025-12/waermepumpe-kauf-kosten-heizung-wohnen",
         "source": "ZEIT",
         "publishedAt": "2025-12-16T15:59:06.000Z"
-      },
-      {
-        "id": "li.3355486",
-        "title": "SZ-Podcast „Auf den Punkt“: Verbrenner-Aus: Ist der Rückzieher gut für die deutsche Wirtschaft?",
-        "summary": "Die EU-Kommission will das geplante Verbrenner-Aus wieder zurücknehmen. Aber profitiert die Wirtschaft wirklich davon?",
-        "paragraphs": [
-          "Die EU-Kommission will das geplante Verbrenner-Aus wieder zurücknehmen. Aber profitiert die Wirtschaft wirklich davon?"
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/verbrenner-aus-auswirkungen-wirtschaft-li.3355486",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-16T15:55:27.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/digitalpolitik-ist-das-freie-internet-in-gefahr/100183106.html",
+        "title": "Digitalpolitik: „Eine gemeinsame Vision oder keine“ – ist das freie Internet in Gefahr?",
+        "summary": "Die Vereinten Nationen diskutieren über die Zukunft des Internets. Digitalminister Wildberger plädiert für ein freies, offenes Netz – und steht in den USA vor einer diplomatischen Bewährungsprobe.",
+        "paragraphs": [
+          "Die Vereinten Nationen diskutieren über die Zukunft des Internets. Digitalminister Wildberger plädiert für ein freies, offenes Netz – und steht in den USA vor einer diplomatischen Bewährungsprobe."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/digitalpolitik-ist-das-freie-internet-in-gefahr/100183106.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-16T18:57:27.000Z"
+      },
       {
         "id": "{urn:uuid:8a5906aa-38c3-431a-98ea-bdfa846caf3b}",
         "title": "Rentenkommission: Wie geht es weiter mit der Rente?",
@@ -430,17 +441,6 @@
         "link": "https://www.zeit.de/politik/2025-12/eu-bezahlbarer-wohnraum-aktionsplan-subventionen",
         "source": "ZEIT",
         "publishedAt": "2025-12-16T15:59:45.000Z"
-      },
-      {
-        "id": "li.3355477",
-        "title": "Bundesregierung: Koalition einigt sich zu Bürgergeld-Reform",
-        "summary": "Was muss passieren, damit die Jobcenter Menschen das Bürgergeld ganz streichen können? Die Bundesregierung hat diesen heiklen Punkt nun für sich geklärt.",
-        "paragraphs": [
-          "Was muss passieren, damit die Jobcenter Menschen das Bürgergeld ganz streichen können? Die Bundesregierung hat diesen heiklen Punkt nun für sich geklärt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/buergergeld-reform-koalition-gesetz-li.3355477",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-16T15:59:05.000Z"
       }
     ],
     "sport": [
@@ -667,6 +667,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/bestenlisten/ratgeber/funk-sticks-fuer-home-assistant-zigbee-thread-z-wave-und-bluetooth/pkr3zc2?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Funk-Sticks für Home Assistant: Zigbee, Thread, Z-Wave & Bluetooth",
+        "summary": "Tausende Geräte mit Home Assistant nutzen – aber welcher Dongle ist der richtige? Dieser Ratgeber erklärt die Auswahl und was bei der Installation wichtig ist.",
+        "paragraphs": [
+          "Tausende Geräte mit Home Assistant nutzen – aber welcher Dongle ist der richtige? Dieser Ratgeber erklärt die Auswahl und was bei der Installation wichtig ist."
+        ],
+        "link": "https://www.heise.de/bestenlisten/ratgeber/funk-sticks-fuer-home-assistant-zigbee-thread-z-wave-und-bluetooth/pkr3zc2?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-16T19:00:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Dominanz-auf-hoher-See-China-enteilt-Europa-bei-Offshore-Windkraft-11117302.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Dominanz auf hoher See: China enteilt Europa bei Offshore-Windkraft",
         "summary": "Satellitendaten des DLR belegen eine massive Verschiebung der globalen Marktanteile bei Windenergie auf See. KI-gestützte Analysen machen den Zuwachs sichtbar.",
@@ -874,17 +885,6 @@
         "link": "https://www.heise.de/hintergrund/Zahlen-bitte-440-Milliarden-Garnelen-pro-Jahr-als-Weltnahrung-11116263.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-16T12:37:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Bundesbank-Zahlungen-per-Smartphone-steigen-sprunghaft-11116753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Bundesbank: Zahlungen per Smartphone steigen sprunghaft",
-        "summary": "Immer mehr Menschen zücken zum Bezahlen das Smartphone. Hinter den allermeisten Transaktionen stecken heute noch Debitkarten. Das könnte sich bald ändern.",
-        "paragraphs": [
-          "Immer mehr Menschen zücken zum Bezahlen das Smartphone. Hinter den allermeisten Transaktionen stecken heute noch Debitkarten. Das könnte sich bald ändern."
-        ],
-        "link": "https://www.heise.de/news/Bundesbank-Zahlungen-per-Smartphone-steigen-sprunghaft-11116753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-16T12:34:00.000Z"
       }
     ]
   }
