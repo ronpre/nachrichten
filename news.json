@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-16T10:23:35.495Z",
+  "updatedAt": "2025-12-16T10:41:26.770Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:f1ba3c9d-efe4-4551-9674-8d72aafaf0cf}",
+        "title": "Haussanierung: \"Die Sanierung war fast eine halbe Million Euro teurer als gedacht\"",
+        "summary": "Sie kaufen ein Haus. Es beginnt die härteste Phase ihres Lebens. Handwerker? Pfuschen. Kosten? Explodieren. Konto? Leer. Beziehung? Gefährdet. Gelernt? Haben sie viel.",
+        "paragraphs": [
+          "Sie kaufen ein Haus. Es beginnt die härteste Phase ihres Lebens. Handwerker? Pfuschen. Kosten? Explodieren. Konto? Leer. Beziehung? Gefährdet. Gelernt? Haben sie viel."
+        ],
+        "link": "https://www.zeit.de/geld/2025-12/haussanierung-immobilienkauf-renovierung-gipser-rechtsschutz",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-16T10:30:16.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/bewertungen-dekabank-kauft-anteile-an-europaeischer-ratingagentur-scope/100184309.html",
         "title": "Bewertungen: DekaBank kauft Anteile an europäischer Ratingagentur Scope",
@@ -210,20 +221,42 @@
         "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/fire-bewegung-diese-fehler-lassen-den-traum-der-fruehen-rente-platzen/100164519.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-16T08:38:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-gegen-mittag-mit-leichten-verlusten/100184239.html",
-        "title": "Dax aktuell: „Die letzten Meter sind wie immer die schwersten“ – Dax gegen Mittag mit leichten Verlusten",
-        "summary": "Der Leitindex verliert seine Gewinne vom Vortag und entfernt sich damit weiter von seinem Rekord. Wichtig werden heute Konjunkturdaten – nicht nur aus Deutschland.",
-        "paragraphs": [
-          "Der Leitindex verliert seine Gewinne vom Vortag und entfernt sich damit weiter von seinem Rekord. Wichtig werden heute Konjunkturdaten – nicht nur aus Deutschland."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-gegen-mittag-mit-leichten-verlusten/100184239.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-16T08:16:26.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.handelsblatt.com/politik/konjunktur/prognose-konjunkturerwartungen-der-boersianer-steigen-laut-zew-ueberraschend-deutlich/100184314.html",
+        "title": "Prognose: Konjunkturerwartungen der Börsianer steigen laut ZEW überraschend deutlich",
+        "summary": "Das ZEW-Barometer steigt im Dezember auf den höchsten Stand seit Juli und signalisiert wachsendes Vertrauen in die deutsche Konjunktur. Ökonomen sehen dennoch Risiken durch geopolitische Spannungen.",
+        "paragraphs": [
+          "Das ZEW-Barometer steigt im Dezember auf den höchsten Stand seit Juli und signalisiert wachsendes Vertrauen in die deutsche Konjunktur. Ökonomen sehen dennoch Risiken durch geopolitische Spannungen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/konjunktur/prognose-konjunkturerwartungen-der-boersianer-steigen-laut-zew-ueberraschend-deutlich/100184314.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-16T10:26:42.000Z"
+      },
+      {
+        "id": "{urn:uuid:f181619d-db01-428a-b333-7ae78a6eb407}",
+        "title": "Handelskonflikt: China kündigt Zölle auf Schweinefleisch aus der EU an",
+        "summary": "Für importiertes Schweinefleisch aus der EU will China bald veränderte Zölle erheben. Der EU wirft China vor, Schweinefleischerzeugnisse zu Dumpingpreisen zu exportieren.",
+        "paragraphs": [
+          "Für importiertes Schweinefleisch aus der EU will China bald veränderte Zölle erheben. Der EU wirft China vor, Schweinefleischerzeugnisse zu Dumpingpreisen zu exportieren."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/china-eu-zoelle-schweinefleisch-dumping",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-16T10:25:02.000Z"
+      },
+      {
+        "id": "{urn:uuid:9ec56fb4-d163-4f1b-b58d-7d382b5f7fb0}",
+        "title": "Weißes Haus: US-Regierung begründet raschen Ballsaalbau mit nationaler Sicherheit",
+        "summary": "Eine Denkmalschutzorganisation klagt gegen den Bau des Ballsaals im Weißen Haus. Die US-Regierung begründet die schnelle Fertigstellung allgemein mit Sicherheitsfragen.",
+        "paragraphs": [
+          "Eine Denkmalschutzorganisation klagt gegen den Bau des Ballsaals im Weißen Haus. Die US-Regierung begründet die schnelle Fertigstellung allgemein mit Sicherheitsfragen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/ballsaal-weisses-haus-washington-usa-klage-denkmalschutz-baufortschritt",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-16T10:22:48.000Z"
+      },
       {
         "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
         "title": "Krieg gegen die Ukraine: Russland will nicht von territorialen Forderungen abrücken",
@@ -233,7 +266,7 @@
         ],
         "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
         "source": "ZEIT",
-        "publishedAt": "2025-12-16T10:12:57.000Z"
+        "publishedAt": "2025-12-16T10:20:15.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/friedrich-merz-und-die-konrad-adenauer-stiftung-die-naechste-machtprobe-fuer-den-kanzler-a-7a4a2b2c-a659-498c-97ed-ef5111560312",
@@ -247,17 +280,6 @@
         "publishedAt": "2025-12-16T10:12:00.000Z"
       },
       {
-        "id": "{urn:uuid:f181619d-db01-428a-b333-7ae78a6eb407}",
-        "title": "Handelskonflikt: China kündigt Zölle auf Schweinefleisch aus der EU an",
-        "summary": "Für importiertes Schweinefleisch aus der EU will China bald veränderte Zölle erheben. Der EU wirft China vor, Schweinefleischerzeugnisse zu Dumpingpreisen zu exportieren.",
-        "paragraphs": [
-          "Für importiertes Schweinefleisch aus der EU will China bald veränderte Zölle erheben. Der EU wirft China vor, Schweinefleischerzeugnisse zu Dumpingpreisen zu exportieren."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/china-eu-zoelle-schweinefleisch-dumping",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-16T10:09:54.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/deutschland/produkthaftung-software-und-ki-auch-von-schadensersatz-betroffen/100184109.html",
         "title": "Produkthaftung: Hersteller sollen in Deutschland unbegrenzt haften – Software und KI auch von Schadensersatz betroffen",
         "summary": "Justizministerin Hubig plant eine Verschärfung der 36 Jahre alten Regeln zur Produkthaftung. Der Gesetzentwurf zeigt, dass künftig mehr Hersteller haften sollen. Und zwar ohne Höchstgrenze.",
@@ -267,17 +289,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/produkthaftung-software-und-ki-auch-von-schadensersatz-betroffen/100184109.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-16T10:07:47.000Z"
-      },
-      {
-        "id": "{urn:uuid:9ec56fb4-d163-4f1b-b58d-7d382b5f7fb0}",
-        "title": "Weißes Haus: US-Regierung begründet raschen Ballsaal-Bau mit nationaler Sicherheit",
-        "summary": "Eine Denkmalschutzorganisation klagt gegen den Bau des Ballsaals im Weißen Haus. Die US-Regierung begründet die schnelle Fertigstellung allgemein mit Sicherheitsfragen.",
-        "paragraphs": [
-          "Eine Denkmalschutzorganisation klagt gegen den Bau des Ballsaals im Weißen Haus. Die US-Regierung begründet die schnelle Fertigstellung allgemein mit Sicherheitsfragen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/ballsaal-weisses-haus-washington-usa-klage-denkmalschutz-baufortschritt",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-16T10:06:12.000Z"
       },
       {
         "id": "{urn:uuid:c71fdbfe-dded-4001-b723-aa9bb92290ef}",
@@ -432,20 +443,31 @@
         "link": "https://www.handelsblatt.com/politik/international/europaeische-union-griechenland-zahlt-vorzeitig-milliardenkredit-zurueck-01/100184063.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-16T06:36:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:77d86bdc-90ab-4baa-b899-0ad3e4671dba}",
-        "title": "Markus Söder: Einmal so klingen wie Donald Trump",
-        "summary": "Markus Söder findet, das Leben von Polizisten sei mehr wert als das von Schwerverbrechern. Der verbale Tabubruch wird zur Mode in der deutschen Politik.",
-        "paragraphs": [
-          "Markus Söder findet, das Leben von Polizisten sei mehr wert als das von Schwerverbrechern. Der verbale Tabubruch wird zur Mode in der deutschen Politik."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/markus-soeder-rhetorik-donald-trump-polizisten-verbrecher",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-16T06:31:11.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/preuss-kehrt-zum-jahresabschluss-zurueck-grotian-muss-passen-1176249/artikel#omrss",
+        "title": "Preuß kehrt zum Jahresabschluss zurück, Grotian muss passen",
+        "summary": "Zum Abschluss des ersten Trimesters geht es für das deutsche Biathlon-Team zum Weltcup nach Annecy. In den französischen Alpen erwartet der Deutsche Ski-Verband schwierige Bedingungen - und die Rückkehr von Vorjahres-Gesamtsiegerin Franziska Preuß, die zuletzt aus gesundheitlichen Gründen absagen musste.",
+        "paragraphs": [
+          "Zum Abschluss des ersten Trimesters geht es für das deutsche Biathlon-Team zum Weltcup nach Annecy. In den französischen Alpen erwartet der Deutsche Ski-Verband schwierige Bedingungen - und die Rückkehr von Vorjahres-Gesamtsiegerin Franziska Preuß, die zuletzt aus gesundheitlichen Gründen absagen musste."
+        ],
+        "link": "https://www.kicker.de/preuss-kehrt-zum-jahresabschluss-zurueck-grotian-muss-passen-1176249/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-16T10:34:59.000Z"
+      },
+      {
+        "id": "li.3354688",
+        "title": "Sport-Großveranstaltungen: Die Darts-WM ist ein aufgeblähtes Event, das dem Sport schadet",
+        "summary": "128 Teilnehmer und die große Langeweile: Die Darts-WM in London könnte einen bitteren Vorgeschmack auf die Fußball-WM in den USA geben.",
+        "paragraphs": [
+          "128 Teilnehmer und die große Langeweile: Die Darts-WM in London könnte einen bitteren Vorgeschmack auf die Fußball-WM in den USA geben."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/darts-wm-langeweile-qualitaet-kommentar-li.3354688",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-16T10:31:06.000Z"
+      },
       {
         "id": "https://www.kicker.de/ein-4-4-das-amorim-ploetzlich-vergleiche-mit-sir-alex-einbringt-1176231/artikel#omrss",
         "title": "Ein 4:4, das Amorim plötzlich Vergleiche mit Sir Alex einbringt",
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/nfl-der-aktuelle-playoff-stand-chiefs-erstmals-seit-2014-nicht-dabei-1169024/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-16T05:47:12.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wahnsinnsprogramm-der-hbf-kaum-pause-fuer-nationalspielerinnen-1176106/artikel#omrss",
-        "title": "Wahnsinnsprogramm der HBF: Kaum Pause für Nationalspielerinnen",
-        "summary": "Deutschland belohnte eine überragende Handball-Weltmeisterschaft mit der Silber-Medaille. Zeit, das Geschaffte zu verarbeiten und durchzuschnaufen, bleibt allerdings nicht allen DHB-Spielerinnen: Zwei von ihnen müssen am Sonntag (21. Dezember) schon wieder in der HBF ran.",
-        "paragraphs": [
-          "Deutschland belohnte eine überragende Handball-Weltmeisterschaft mit der Silber-Medaille. Zeit, das Geschaffte zu verarbeiten und durchzuschnaufen, bleibt allerdings nicht allen DHB-Spielerinnen: Zwei von ihnen müssen am Sonntag (21. Dezember) schon wieder in der HBF ran."
-        ],
-        "link": "https://www.kicker.de/wahnsinnsprogramm-der-hbf-kaum-pause-fuer-nationalspielerinnen-1176106/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-16T05:30:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/pittsburgh-gegen-miami-2025-nfl-5040211/spielbericht#omrss",
-        "title": "Starke Rodgers-Performance: Steelers setzen sich klar gegen Dolphins durch",
-        "summary": "In Pittsburgh sicherten sich die Steelers am Montagabend einen deutlichen 28:15-Sieg gegen die Miami Dolphins und festigten damit ihre Position in der AFC North. Dabei überzeugte vor allem Quarterback Aaron Rodgers, der sein Team mit zwei Touchdown-Pässen maßgeblich zum Erfolg führte.",
-        "paragraphs": [
-          "In Pittsburgh sicherten sich die Steelers am Montagabend einen deutlichen 28:15-Sieg gegen die Miami Dolphins und festigten damit ihre Position in der AFC North. Dabei überzeugte vor allem Quarterback Aaron Rodgers, der sein Team mit zwei Touchdown-Pässen maßgeblich zum Erfolg führte."
-        ],
-        "link": "https://www.kicker.de/pittsburgh-gegen-miami-2025-nfl-5040211/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-16T05:26:23.000Z"
       }
     ],
     "edv": [
