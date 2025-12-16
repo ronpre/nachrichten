@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-16T21:45:35.764Z",
+  "updatedAt": "2025-12-16T21:52:57.909Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:7dbc89da-c864-427a-bc13-99f73564b428}",
+        "title": "Tesla: Tesla will künftig auch Batteriezellen in Deutschland produzieren",
+        "summary": "Bisher kommen die Zellen aus den USA, Tesla möchte aber die gesamte Produktion in Gründheide bündeln. Dafür soll ein dreistelliger Millionenbetrag investiert werden.",
+        "paragraphs": [
+          "Bisher kommen die Zellen aus den USA, Tesla möchte aber die gesamte Produktion in Gründheide bündeln. Dafür soll ein dreistelliger Millionenbetrag investiert werden."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/tesla-elon-musk-gruenheide-batteriezellen-produktion",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-16T21:40:30.000Z"
+      },
       {
         "id": "https://www.spiegel.de/wirtschaft/usa-stoppen-technologie-deal-mit-grossbritannien-vorerst-a-e38fd8b4-ef89-4eb2-8b26-59ab9519a1dc",
         "title": "USA stoppen Technologie-Deal mit Großbritannien vorerst",
@@ -210,17 +221,6 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/euro-zukunft-bezahlens-deutschland-li.3335036",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-16T16:02:16.000Z"
-      },
-      {
-        "id": "li.3355451",
-        "title": "Wirtschaftsministerium: Reiche rüstet auf",
-        "summary": "Lange hat sich die Bundeswirtschaftsministerin rargemacht, jetzt wirkt sie geradezu omnipräsent. Doch wo immer sie auftritt, ein Thema verfolgt sie: die Frage der Verteidigungsfähigkeit.",
-        "paragraphs": [
-          "Lange hat sich die Bundeswirtschaftsministerin rargemacht, jetzt wirkt sie geradezu omnipräsent. Doch wo immer sie auftritt, ein Thema verfolgt sie: die Frage der Verteidigungsfähigkeit."
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/reiche-aufruestung-israel-li.3355451",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-16T16:02:09.000Z"
       }
     ],
     "politik": [
@@ -238,9 +238,9 @@
       {
         "id": "li.3352720",
         "title": "USA: Hegseth lehnt Freigabe von brisantem Video ab",
-        "summary": "Dem US-Verteidigungsminister wird ein Verstoß gegen das Völkerrecht vorgeworfen. Das Video der Attacke auf ein angebliches Drogenboot in der Karibik im September sollen aber nur die zuständigen Kongressausschüsse zu sehen bekommen.",
+        "summary": "Dem US-Verteidigungsminister wird ein Verstoß gegen das Völkerrecht vorgeworfen. Das Video der Attacke auf mutmaßliche Drogenschmuggler in der Karibik im September sollen aber nur die zuständigen Kongressausschüsse zu sehen bekommen.",
         "paragraphs": [
-          "Dem US-Verteidigungsminister wird ein Verstoß gegen das Völkerrecht vorgeworfen. Das Video der Attacke auf ein angebliches Drogenboot in der Karibik im September sollen aber nur die zuständigen Kongressausschüsse zu sehen bekommen."
+          "Dem US-Verteidigungsminister wird ein Verstoß gegen das Völkerrecht vorgeworfen. Das Video der Attacke auf mutmaßliche Drogenschmuggler in der Karibik im September sollen aber nur die zuständigen Kongressausschüsse zu sehen bekommen."
         ],
         "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-hegseth-video-li.3352720",
         "source": "Sueddeutsche",
@@ -445,15 +445,26 @@
     ],
     "sport": [
       {
+        "id": "{urn:uuid:dc9bc34a-ab99-4102-9af3-fd62280dc6d0}",
+        "title": "Fußball Weltmeisterscahft: DFB-Fans haben Chance auf günstigere WM-Tickets",
+        "summary": "Die FIFA führt nach Protesten günstigere Ticketspreise für die WM ein. Aus dem Sonderkontingent wird auch der DFB erschwinglichere Karten an seine Fans verteilen können.",
+        "paragraphs": [
+          "Die FIFA führt nach Protesten günstigere Ticketspreise für die WM ein. Aus dem Sonderkontingent wird auch der DFB erschwinglichere Karten an seine Fans verteilen können."
+        ],
+        "link": "https://www.zeit.de/sport/2025-12/fussball-weltmeisterschaft-dfb-fifa-tickets",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-16T21:48:14.000Z"
+      },
+      {
         "id": "https://www.kicker.de/cardiff-gegen-chelsea-2025-league-cup-5178301/spielbericht#omrss",
-        "title": "LIVE! Ekstase in Cardiff: Drittligist gleich gegen Chelsea aus",
+        "title": "LIVE! Das nächste Jokertor: Pedro Neto bringt Chelsea wieder in Front",
         "summary": "In einem torreichen Spiel im Achtelfinale des League Cups schlug Chelsea die Wolverhampton Wanderers mit 4:3. Nun wartet mit Cardiff City im Viertelfinale ein Drittligist auf die Blues.",
         "paragraphs": [
           "In einem torreichen Spiel im Achtelfinale des League Cups schlug Chelsea die Wolverhampton Wanderers mit 4:3. Nun wartet mit Cardiff City im Viertelfinale ein Drittligist auf die Blues."
         ],
         "link": "https://www.kicker.de/cardiff-gegen-chelsea-2025-league-cup-5178301/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2025-12-16T21:37:06.000Z"
+        "publishedAt": "2025-12-16T21:43:27.000Z"
       },
       {
         "id": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
@@ -567,7 +578,7 @@
       },
       {
         "id": "https://www.kicker.de/guadalajara-gegen-barcelona-2025-copa-del-rey-5180777/spielbericht#omrss",
-        "title": "LIVE! Ter Stegen im Tor: Barca tut sich bei Drittligist Guadalajara schwer",
+        "title": "LIVE! Zweimal Rashford: Barca müht sich bei Drittligist Guadalajara zu Chancen",
         "summary": "Der FC Barcelona möchte ins Achtelfinale des spanischen Pokals einziehen. Dafür muss die Hürde CD Guadalajara genommen werden. Die Katalanen sind ab 21.30 Uhr beim Drittligisten zu Gast.",
         "paragraphs": [
           "Der FC Barcelona möchte ins Achtelfinale des spanischen Pokals einziehen. Dafür muss die Hürde CD Guadalajara genommen werden. Die Katalanen sind ab 21.30 Uhr beim Drittligisten zu Gast."
@@ -652,17 +663,6 @@
         "link": "https://www.kicker.de/dompe-bleibt-das-hsv-sorgenkind-1176384/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-16T17:52:52.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/diesmal-ohne-traenen-dembele-nun-auch-fifa-weltfussballer-1176007/artikel#omrss",
-        "title": "Diesmal ohne Tränen: Dembelé nun auch FIFA-Weltfußballer",
-        "summary": "Den Ballon d'Or hatte Ousmane Dembelé Ende September bereits gewonnen. Nun wurde der PSG-Angreifer auch bei der FIFA-Wahl zum Weltfußballer 2025 gekürt.",
-        "paragraphs": [
-          "Den Ballon d'Or hatte Ousmane Dembelé Ende September bereits gewonnen. Nun wurde der PSG-Angreifer auch bei der FIFA-Wahl zum Weltfußballer 2025 gekürt."
-        ],
-        "link": "https://www.kicker.de/diesmal-ohne-traenen-dembele-nun-auch-fifa-weltfussballer-1176007/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-16T17:41:34.000Z"
       }
     ],
     "edv": [
