@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-16T04:43:43.438Z",
+  "updatedAt": "2025-12-16T04:58:14.470Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-anleger-vor-us-daten-vorsichtig-asiens-boersen-geben-nach/100184202.html",
+        "title": "Nikkei, Yen, Hang Seng: Anleger vor US-Daten vorsichtig – Asiens Börsen geben nach",
+        "summary": "Anleger in Asien halten sich vor wichtigen US-Konjunkturdaten zurück. Schwächere Kurse in Japan, China und Hongkong spiegeln die Sorge vor einer restriktiveren Geldpolitik der US-Notenbank.",
+        "paragraphs": [
+          "Anleger in Asien halten sich vor wichtigen US-Konjunkturdaten zurück. Schwächere Kurse in Japan, China und Hongkong spiegeln die Sorge vor einer restriktiveren Geldpolitik der US-Notenbank."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-anleger-vor-us-daten-vorsichtig-asiens-boersen-geben-nach/100184202.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-16T04:50:17.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/hongkong-trump-fordert-lais-freilassung-peking-warnt-vor-einmischung/100184196.html",
         "title": "Hongkong: Trump fordert Lais Freilassung – Peking warnt vor Einmischung",
@@ -78,17 +89,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/it-medien/medien-trump-reicht-berichten-zufolge-milliardenklage-gegen-bbc-ein/100184189.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-16T02:00:47.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-europaeer-sagen-ukraine-multinationale-truppe-zu/100183907.html",
-        "title": "Waffenstillstand: Europäer sagen Ukraine Sicherheitsgarantien und „multinationale Truppe“ zu",
-        "summary": "Bundeskanzler Friedrich Merz hält einen Waffenstillstand in der Ukraine nach den Gesprächen in Berlin für „greifbar“. Die USA hätten „beachtliche“ Zugeständnisse gemacht. Doch reicht das?",
-        "paragraphs": [
-          "Bundeskanzler Friedrich Merz hält einen Waffenstillstand in der Ukraine nach den Gesprächen in Berlin für „greifbar“. Die USA hätten „beachtliche“ Zugeständnisse gemacht. Doch reicht das?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-europaeer-sagen-ukraine-multinationale-truppe-zu/100183907.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-15T23:20:22.000Z"
       },
       {
         "id": "{urn:uuid:552f4682-f871-4899-9822-49b7846beb49}",
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:84fdbac0-36ad-494e-a24a-03b9c05cd8b0}",
+        "title": "Terroranschlag in Sydney: Angreifer von Sydney sollen vom IS beeinflusst gewesen sein",
+        "summary": "Im Auto der mutmaßlichen Täter sind zwei IS-Flaggen gefunden worden. Hinweise für die Beteiligung weiterer Personen an dem Anschlag sieht die Polizei derzeit nicht.",
+        "paragraphs": [
+          "Im Auto der mutmaßlichen Täter sind zwei IS-Flaggen gefunden worden. Hinweise für die Beteiligung weiterer Personen an dem Anschlag sieht die Polizei derzeit nicht."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/terroranschlag-sydney-polizei-is-flaggen",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-16T04:50:47.000Z"
+      },
+      {
+        "id": "li.3355326",
+        "title": "Anschlag in Sydney: Premier Albanese: Täter waren von IS-Ideologie beeinflusst",
+        "summary": "Die beiden Attentäter sollen australischen Medien zufolge im November auf die Philippinen gereist sein und dort militärisch geschult worden sein. Der Süden des Inselstaates gilt als Hotspot für die Ausbildung von Islamisten.",
+        "paragraphs": [
+          "Die beiden Attentäter sollen australischen Medien zufolge im November auf die Philippinen gereist sein und dort militärisch geschult worden sein. Der Süden des Inselstaates gilt als Hotspot für die Ausbildung von Islamisten."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/sydney-anschlag-is-terror-australien-li.3355326",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-16T04:35:26.000Z"
+      },
+      {
         "id": "{urn:uuid:4f9643d4-17f8-49ba-9cff-0e976d116f05}",
         "title": "Ukrainegipfel in Berlin: Donald Trump sieht Einigung zum Kriegsende \"näher als je zuvor\"",
         "summary": "Nach den Ukrainegesprächen in Berlin zeigt sich der US-Präsident optimistisch. Spitzen der EU schlagen eine multinationale Truppe vor – mit Unterstützung der USA.",
@@ -245,17 +267,6 @@
         "link": "https://www.handelsblatt.com/politik/international/hongkong-trump-fordert-lais-freilassung-peking-warnt-vor-einmischung/100184196.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-16T03:39:09.000Z"
-      },
-      {
-        "id": "{urn:uuid:84fdbac0-36ad-494e-a24a-03b9c05cd8b0}",
-        "title": "Terroranschlag in Sydney: Angreifer von Sydney sollen vom IS beeinflusst gewesen sein",
-        "summary": "Im Auto der mutmaßlichen Täter sind zwei IS-Flaggen gefunden worden. Hinweise für die Beteiligung weiterer Personen an dem Anschlag sieht die Polizei derzeit nicht.",
-        "paragraphs": [
-          "Im Auto der mutmaßlichen Täter sind zwei IS-Flaggen gefunden worden. Hinweise für die Beteiligung weiterer Personen an dem Anschlag sieht die Polizei derzeit nicht."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/terroranschlag-sydney-polizei-is-flaggen",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-16T03:38:38.000Z"
       },
       {
         "id": "{urn:uuid:7242af9d-ba95-42ef-b229-063143276245}",
@@ -432,17 +443,6 @@
         "link": "https://www.sueddeutsche.de/politik/berlin-treffen-selenskij-usa-ukraine-krieg-trump-merz-li.3354666",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-15T20:19:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ungarn-massenproteste-gegen-missbrauch-bringen-orban-in-bedraengnis/100184130.html",
-        "title": "Ungarn: Orban zum Rücktritt aufgefordert – Massenproteste gegen Missbrauch bringen den Premier in Bedrängnis",
-        "summary": "Tausende Kinder und Jugendliche sollen in staatlichen Einrichtungen misshandelt worden sein. Vier Monate vor der Wahl setzt Oppositionsführer Peter Magyar die Regierung damit unter Druck.",
-        "paragraphs": [
-          "Tausende Kinder und Jugendliche sollen in staatlichen Einrichtungen misshandelt worden sein. Vier Monate vor der Wahl setzt Oppositionsführer Peter Magyar die Regierung damit unter Druck."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ungarn-massenproteste-gegen-missbrauch-bringen-orban-in-bedraengnis/100184130.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-15T20:05:38.000Z"
       }
     ],
     "sport": [
@@ -670,7 +670,7 @@
     "edv": [
       {
         "id": "https://www.heise.de/news/Tech-Force-US-Konzerne-leihen-Trump-ihre-Mitarbeiter-11115954.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Tech Force: US-Konzerne leihen Trump ihre Mitarbeiter",
+        "title": "Nach Kündigungswelle: US-Behörden suchen dringend Tech-Experten",
         "summary": "US-Behörden suchen rund 1.000 IT-Experten, von KI über IT-Sicherheit bis zu Projektmanagement. Das ist eine Gelegenheit für Trump-Spender.",
         "paragraphs": [
           "US-Behörden suchen rund 1.000 IT-Experten, von KI über IT-Sicherheit bis zu Projektmanagement. Das ist eine Gelegenheit für Trump-Spender."
