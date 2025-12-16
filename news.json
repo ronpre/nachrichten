@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-16T13:59:09.309Z",
+  "updatedAt": "2025-12-16T14:11:30.296Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "li.3355615",
+        "title": "Autoindustrie: Ford stellt mehrere E-Auto-Modelle ein",
+        "summary": "Allein im November ist die Nachfrage nach batteriebetriebenen Fahrzeugen in den USA um 40 Prozent eingebrochen. Der Konzern reagiert nun auf die Politik von Donald Trump.",
+        "paragraphs": [
+          "Allein im November ist die Nachfrage nach batteriebetriebenen Fahrzeugen in den USA um 40 Prozent eingebrochen. Der Konzern reagiert nun auf die Politik von Donald Trump."
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/ford-abschreibungen-e-autos-li.3355615",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-16T13:57:29.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/geldpolitik/usa-us-arbeitslosigkeit-steigt-auf-den-hoechsten-stand-seit-2021/100184271.html",
         "title": "USA: US-Firmen schaffen nur halb so viele Stellen wie im September",
@@ -12,17 +23,6 @@
         "link": "https://www.handelsblatt.com/finanzen/geldpolitik/usa-us-arbeitslosigkeit-steigt-auf-den-hoechsten-stand-seit-2021/100184271.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-16T13:54:28.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/handelsabkommen-eu-parlament-macht-weg-fuer-unterzeichnung-von-mercosur-frei/100184391.html",
-        "title": "Handelsabkommen: EU-Parlament macht Weg für Unterzeichnung von Mercosur frei",
-        "summary": "EU-Parlament stärkt Mercosur-Pakt: Schutzmechanismen für Landwirte beschlossen. Verhandlungen mit Rat und EU-Kommission sind gestartet – eine mögliche Unterzeichnung rückt näher.",
-        "paragraphs": [
-          "EU-Parlament stärkt Mercosur-Pakt: Schutzmechanismen für Landwirte beschlossen. Verhandlungen mit Rat und EU-Kommission sind gestartet – eine mögliche Unterzeichnung rückt näher."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/handelsabkommen-eu-parlament-macht-weg-fuer-unterzeichnung-von-mercosur-frei/100184391.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-16T13:50:41.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-wie-rolf-dobelli-investiert-und-warum-er-nachrichten-meidet/100105520.html",
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:7499a7ca-be02-417b-83c0-82d668c7f85e}",
+        "title": "Europäische Union: EU-Parlament stimmt für abgeschwächtes Lieferkettengesetz",
+        "summary": "Das EU-Parlament hat seine Lieferkettenrichtlinie gelockert. Unternehmen haben weniger Berichtspflichten, außerdem sollen die Regeln ein Jahr später gelten als geplant.",
+        "paragraphs": [
+          "Das EU-Parlament hat seine Lieferkettenrichtlinie gelockert. Unternehmen haben weniger Berichtspflichten, außerdem sollen die Regeln ein Jahr später gelten als geplant."
+        ],
+        "link": "https://www.zeit.de/politik/2025-12/eu-parlament-lieferkettengesetz-berichtspflichten-unternehmen",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-16T14:02:39.000Z"
+      },
+      {
+        "id": "li.3353712",
+        "title": "Kommission der Bundesregierung: Das sind die Streitthemen bei der Rente",
+        "summary": "Am Mittwoch setzt das Kabinett die Rentenkommission ein. Sie soll vorschlagen, wie die Altersvorsorge endlich generationengerecht werden kann. Einfach wird das nicht.",
+        "paragraphs": [
+          "Am Mittwoch setzt das Kabinett die Rentenkommission ein. Sie soll vorschlagen, wie die Altersvorsorge endlich generationengerecht werden kann. Einfach wird das nicht."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/rentenreform-rente-baerbel-bas-rentenalter-generationengerechtigkeit-li.3353712",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-16T14:02:21.000Z"
+      },
+      {
         "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
         "title": "Krieg gegen die Ukraine: Russischer Regierungssprecher lehnt Feuerpause an Weihnachten ab",
         "summary": "Russland will laut Sprecher Peskow ein dauerhaftes Friedensabkommen, keine Feuerpause an Weihnachten. Hunderttausende Haushalte in Odessa weiter ohne Strom. Das Liveblog",
@@ -265,17 +287,6 @@
         "link": "https://www.sueddeutsche.de/politik/foederalismus-boris-rhein-fordert-finanzreform-li.3355637",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-16T13:43:07.000Z"
-      },
-      {
-        "id": "{urn:uuid:7499a7ca-be02-417b-83c0-82d668c7f85e}",
-        "title": "Europäische Union: EU-Parlament stimmt für abgeschwächtes Lieferkettengesetz",
-        "summary": "Das EU-Parlament hat seine Lieferkettenrichtlinie gelockert. Unternehmen haben weniger Berichtspflichten, außerdem sollen die Regeln ein Jahr später gelten als geplant.",
-        "paragraphs": [
-          "Das EU-Parlament hat seine Lieferkettenrichtlinie gelockert. Unternehmen haben weniger Berichtspflichten, außerdem sollen die Regeln ein Jahr später gelten als geplant."
-        ],
-        "link": "https://www.zeit.de/politik/2025-12/eu-parlament-lieferkettengesetz-berichtspflichten-unternehmen",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-16T13:26:43.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/mecklenburg-vorpommern-afd-will-kommunalpolitiker-wegen-demuetigung-von-jugendlichen-rauswerfen-a-9cfc8c0b-1413-4405-947e-dd6b3afaf6e2",
@@ -368,9 +379,9 @@
       {
         "id": "{urn:uuid:3d8b75d0-07cd-437f-b540-e46a04b95505}",
         "title": "Ales Bjaljazki: \"Ein Teil von mir ist noch immer in der Strafkolonie\"",
-        "summary": "Der belarussische Menschenrechtler Ales Bjaljazki ist frei. Im Interview spricht er über seine Haft, Hoffnung – und wie er im Gefängnis vom Friedensnobelpreis erfuhr.",
+        "summary": "Der belarussische Menschenrechtler Ales Bjaljazki ist frei. Hier spricht er über seine Haft, die Hoffnung und darüber, wie er im Gefängnis vom Friedensnobelpreis erfuhr.",
         "paragraphs": [
-          "Der belarussische Menschenrechtler Ales Bjaljazki ist frei. Im Interview spricht er über seine Haft, Hoffnung – und wie er im Gefängnis vom Friedensnobelpreis erfuhr."
+          "Der belarussische Menschenrechtler Ales Bjaljazki ist frei. Hier spricht er über seine Haft, die Hoffnung und darüber, wie er im Gefängnis vom Friedensnobelpreis erfuhr."
         ],
         "link": "https://www.zeit.de/politik/ausland/2025-12/ales-bjaljazki-gefaengnis-belarus-opposition-friedensnobelpreis-usa-deal",
         "source": "ZEIT",
@@ -430,20 +441,20 @@
         "link": "https://www.handelsblatt.com/politik/konjunktur/prognose-konjunkturerwartungen-der-boersianer-steigen-laut-zew/100184314.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-16T10:26:42.000Z"
-      },
-      {
-        "id": "{urn:uuid:f181619d-db01-428a-b333-7ae78a6eb407}",
-        "title": "Handelskonflikt: China kündigt Zölle auf Schweinefleisch aus der EU an",
-        "summary": "Für importiertes Schweinefleisch aus der EU will China bald veränderte Zölle erheben. Der EU wirft China vor, Schweinefleischerzeugnisse zu Dumpingpreisen zu exportieren.",
-        "paragraphs": [
-          "Für importiertes Schweinefleisch aus der EU will China bald veränderte Zölle erheben. Der EU wirft China vor, Schweinefleischerzeugnisse zu Dumpingpreisen zu exportieren."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/china-eu-zoelle-schweinefleisch-dumping-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-16T10:25:02.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/arbeitsgericht-entscheidet-paris-muss-mbappe-rund-60-millionen-euro-zahlen-1176316/artikel#omrss",
+        "title": "Arbeitsgericht entscheidet: Paris muss Mbappé rund 60 Millionen Euro zahlen",
+        "summary": "Die juristische Auseinandersetzung zwischen Paris Saint-Germain und Kylian Mbappé zieht sich seit mehreren Jahren. Am Dienstag fällte ein Arbeitsgericht in Paris nun eine Entscheidung - zu Gunsten des Weltmeisters von 2018.",
+        "paragraphs": [
+          "Die juristische Auseinandersetzung zwischen Paris Saint-Germain und Kylian Mbappé zieht sich seit mehreren Jahren. Am Dienstag fällte ein Arbeitsgericht in Paris nun eine Entscheidung - zu Gunsten des Weltmeisters von 2018."
+        ],
+        "link": "https://www.kicker.de/arbeitsgericht-entscheidet-paris-muss-mbappe-rund-60-millionen-euro-zahlen-1176316/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-16T14:00:41.000Z"
+      },
       {
         "id": "https://www.kicker.de/fifa-awards-donnarumma-schlaegt-neuer-jahn-arzt-ausgezeichnet-1175945/artikel#omrss",
         "title": "FIFA-Awards: Donnarumma schlägt Neuer - Jahn-Arzt ausgezeichnet",
@@ -652,20 +663,31 @@
         "link": "https://www.kicker.de/spalier-fuer-musiala-1176283/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-16T12:00:57.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/gaugisch-zum-ersten-mal-dass-ich-weiss-welcher-tag-heute-ist-1176277/video#omrss",
-        "title": "Gaugisch: \"Zum ersten Mal, dass ich weiß, welcher Tag heute ist\"",
-        "summary": "Nach der gewonnenen Silbermedaille bei der Handball-Weltmeisterschaft wurde die deutsche Frauen-Nationalmannschaft in Dortmund empfangen und durfte sich ins Goldene Buch eintragen. Bundestrainer Markus Gaugisch erklärte den Grundstein zum Erfolg.",
-        "paragraphs": [
-          "Nach der gewonnenen Silbermedaille bei der Handball-Weltmeisterschaft wurde die deutsche Frauen-Nationalmannschaft in Dortmund empfangen und durfte sich ins Goldene Buch eintragen. Bundestrainer Markus Gaugisch erklärte den Grundstein zum Erfolg."
-        ],
-        "link": "https://www.kicker.de/gaugisch-zum-ersten-mal-dass-ich-weiss-welcher-tag-heute-ist-1176277/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-16T11:55:41.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/tests/19-M-2-SSDs-mit-PCIe-4-0-und-5-0-im-Test-10514412.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | 19 M.2-SSDs mit PCIe 4.0 und 5.0 im Test",
+        "summary": "Dieser Artikel versammelt SSDs von schnell bis superschnell. Darunter sind Neuheiten von Samsung und Raspberry Pi sowie aktuelle sparsame PCIe-5.0-Technik.",
+        "paragraphs": [
+          "Dieser Artikel versammelt SSDs von schnell bis superschnell. Darunter sind Neuheiten von Samsung und Raspberry Pi sowie aktuelle sparsame PCIe-5.0-Technik."
+        ],
+        "link": "https://www.heise.de/tests/19-M-2-SSDs-mit-PCIe-4-0-und-5-0-im-Test-10514412.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2025-12-16T14:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Visuelles-Feuerwerk-mit-duenner-Story-Avatar-Fire-and-Ash-11114911.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Visuelles Feuerwerk mit dünner Story: „Avatar: Fire and Ash“",
+        "summary": "Am 17. Dezember kommt der dritte Avatar-Film in die Kinos. James Cameron brennt darin wieder ein Feuerwerk visueller Effekte ab, diesmal mit roter Farbpalette.",
+        "paragraphs": [
+          "Am 17. Dezember kommt der dritte Avatar-Film in die Kinos. James Cameron brennt darin wieder ein Feuerwerk visueller Effekte ab, diesmal mit roter Farbpalette."
+        ],
+        "link": "https://www.heise.de/news/Visuelles-Feuerwerk-mit-duenner-Story-Avatar-Fire-and-Ash-11114911.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-16T14:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Warum-Zahlen-zum-Wasserverbrauch-von-Rechenzentren-oft-irrefuehrend-sind-11116970.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Warum Zahlen zum Wasserverbrauch von Rechenzentren oft irreführend sind",
@@ -863,28 +885,6 @@
         "link": "https://www.heise.de/news/Sicherheitsluecken-HPE-ProLiant-Server-mit-Intel-QuickAssist-sind-verwundbar-11116372.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-16T09:59:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Apple-TV-App-fuer-Android-bekommt-Cast-Unterstuetzung-11116337.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Apple TV-App für Android bekommt Cast-Unterstützung",
-        "summary": "Apple liefert die Cast-Unterstützung für seine TV-App auf Android-Geräten nach. Eine Funktion, die Netflix erst kürzlich gestrichen hatte.",
-        "paragraphs": [
-          "Apple liefert die Cast-Unterstützung für seine TV-App auf Android-Geräten nach. Eine Funktion, die Netflix erst kürzlich gestrichen hatte."
-        ],
-        "link": "https://www.heise.de/news/Apple-TV-App-fuer-Android-bekommt-Cast-Unterstuetzung-11116337.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-16T09:51:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/BOB-Konferenz-2026-Vortraege-zur-funktionalen-Programmierung-und-mehr-11115696.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "BOB-Konferenz 2026: Vorträge zur funktionalen Programmierung und mehr",
-        "summary": "Die Konferenz bringt Vorträge und Tutorials zu Themen jenseits des Mainstreams und KI, von denen sich viele mit funktionaler Programmierung beschäftigen.",
-        "paragraphs": [
-          "Die Konferenz bringt Vorträge und Tutorials zu Themen jenseits des Mainstreams und KI, von denen sich viele mit funktionaler Programmierung beschäftigen."
-        ],
-        "link": "https://www.heise.de/news/BOB-Konferenz-2026-Vortraege-zur-funktionalen-Programmierung-und-mehr-11115696.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-16T09:38:00.000Z"
       }
     ]
   }
