@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2025-12-17T12:09:06.220Z",
+  "updatedAt": "2025-12-17T12:24:28.628Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:8a5906aa-38c3-431a-98ea-bdfa846caf3b}",
+        "title": "Rentenkommission: Wie geht es weiter mit der Rente?",
+        "summary": "Das Kabinett hat eine Kommission zur Ausarbeitung einer umfassenden Rentenreform eingesetzt. Wer gehört ihr an und wie wird sie arbeiten? Die wichtigsten Antworten",
+        "paragraphs": [
+          "Das Kabinett hat eine Kommission zur Ausarbeitung einer umfassenden Rentenreform eingesetzt. Wer gehört ihr an und wie wird sie arbeiten? Die wichtigsten Antworten"
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/rentenkommission-union-spd-positionen-faq",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-17T12:10:34.000Z"
+      },
+      {
+        "id": "{urn:uuid:e9a93134-a26a-4ff1-9ad9-c2407105a6a6}",
+        "title": "Batteriefabrik in Salzgitter: Neue deutsche Zelle",
+        "summary": "Kein deutsches Unternehmen hat bisher erfolgreich Batterien für Elektroautos hergestellt. Volkswagen wagt das jetzt in Salzgitter – ausgerechnet mit chinesischer Hilfe.",
+        "paragraphs": [
+          "Kein deutsches Unternehmen hat bisher erfolgreich Batterien für Elektroautos hergestellt. Volkswagen wagt das jetzt in Salzgitter – ausgerechnet mit chinesischer Hilfe."
+        ],
+        "link": "https://www.zeit.de/2025/54/batteriefabrik-salzgitter-vw-elektroauto-batteriezellen-produktion-china",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-17T12:10:08.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-kabinett-bringt-riester-reform-auf-den-weg/100137034.html",
         "title": "+++ Bundesregierung +++: Kabinett bringt Riester-Reform auf den Weg",
@@ -23,17 +45,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/it-medien/urteil-amazon-darf-video-kunden-keine-werbung-aufzwaengen/100184708.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-17T12:05:38.000Z"
-      },
-      {
-        "id": "{urn:uuid:8a5906aa-38c3-431a-98ea-bdfa846caf3b}",
-        "title": "Rentenkommission: Wie geht es weiter mit der Rente?",
-        "summary": "Eine Rentenkommission soll eine umfassende Reform ausarbeiten. Wann geht es los? Wie wird sie besetzt? Und was wollen Parteien und Ökonomen? Die wichtigsten Antworten",
-        "paragraphs": [
-          "Eine Rentenkommission soll eine umfassende Reform ausarbeiten. Wann geht es los? Wie wird sie besetzt? Und was wollen Parteien und Ökonomen? Die wichtigsten Antworten"
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/rentenkommission-union-spd-positionen-faq",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-17T11:57:59.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-merz-laesst-deutsche-beteiligung-an-ukraine-truppe-offen/27982126.html",
@@ -201,29 +212,40 @@
         "publishedAt": "2025-12-17T10:28:45.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/marktstudie-forscher-warnen-vor-chipknappheit-weniger-handys-hoehere-preise/100184648.html",
-        "title": "Marktstudie: Forscher warnen vor Chipknappheit – weniger Handys, höhere Preise",
-        "summary": "Weltweite Smartphone-Produktion vor Rückgang. Ein Mangel an Chips droht, die Kosten zu erhöhen. Laut Counterpoint-Analyse ist Apple jedoch in einer guten Position.",
+        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/marktstudie-forscher-warnen-vor-chipknappheit-und-hoeheren-handypreisen/100184648.html",
+        "title": "Marktstudie: Forscher warnen vor Chipknappheit und höheren Handypreisen",
+        "summary": "Die weltweite Smartphone-Produktion steht vor einem Rückgang. Ein Mangel an Chips droht, die Kosten zu erhöhen. Zu diesem Ergebnis kommt eine Marktforschungsanalyse.",
         "paragraphs": [
-          "Weltweite Smartphone-Produktion vor Rückgang. Ein Mangel an Chips droht, die Kosten zu erhöhen. Laut Counterpoint-Analyse ist Apple jedoch in einer guten Position."
+          "Die weltweite Smartphone-Produktion steht vor einem Rückgang. Ein Mangel an Chips droht, die Kosten zu erhöhen. Zu diesem Ergebnis kommt eine Marktforschungsanalyse."
         ],
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/marktstudie-forscher-warnen-vor-chipknappheit-weniger-handys-hoehere-preise/100184648.html",
+        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/marktstudie-forscher-warnen-vor-chipknappheit-und-hoeheren-handypreisen/100184648.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-17T10:22:51.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/konsum-wie-die-alkoholskepsis-das-geschaeft-deutscher-winzer-bedroht/100130916.html",
-        "title": "Wein: Kein Alkohol ist auch keine Lösung? Wie die zunehmende Abstinenz das Geschäft der Winzer bedroht",
-        "summary": "Alkohol steht immer stärker in der Kritik. Wissenschaftler raten zu Abstinenz. Die Weinwirtschaft sieht ihr Geschäftsmodell bedroht. Wie viel Genuss ist noch möglich?",
-        "paragraphs": [
-          "Alkohol steht immer stärker in der Kritik. Wissenschaftler raten zu Abstinenz. Die Weinwirtschaft sieht ihr Geschäftsmodell bedroht. Wie viel Genuss ist noch möglich?"
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/konsum-wie-die-alkoholskepsis-das-geschaeft-deutscher-winzer-bedroht/100130916.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-17T10:16:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3353907",
+        "title": "Krieg in der Ukraine: Kreml: Ausländische Soldaten in der Ukraine Gegenstand von Verhandlungen",
+        "summary": "Die russische Position zur Stationierung sei bekannt, betont Kremlsprecher Peskow. Was er genau damit mein, ist unklar. Auch von welchen Verhandlungen er spricht, bleibt offen.",
+        "paragraphs": [
+          "Die russische Position zur Stationierung sei bekannt, betont Kremlsprecher Peskow. Was er genau damit mein, ist unklar. Auch von welchen Verhandlungen er spricht, bleibt offen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-kreml-peskow-nato-truppen-li.3353907",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-17T12:17:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:8a5906aa-38c3-431a-98ea-bdfa846caf3b}",
+        "title": "Rentenkommission: Wie geht es weiter mit der Rente?",
+        "summary": "Das Kabinett hat eine Kommission zur Ausarbeitung einer umfassenden Rentenreform eingesetzt. Wer gehört ihr an und wie wird sie arbeiten? Die wichtigsten Antworten",
+        "paragraphs": [
+          "Das Kabinett hat eine Kommission zur Ausarbeitung einer umfassenden Rentenreform eingesetzt. Wer gehört ihr an und wie wird sie arbeiten? Die wichtigsten Antworten"
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/rentenkommission-union-spd-positionen-faq",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-17T12:10:34.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-kabinett-bringt-riester-reform-auf-den-weg/100137034.html",
         "title": "+++ Bundesregierung +++: Kabinett bringt Riester-Reform auf den Weg",
@@ -236,17 +258,6 @@
         "publishedAt": "2025-12-17T12:10:00.000Z"
       },
       {
-        "id": "li.3353907",
-        "title": "Krieg in der Ukraine: Kreml nennt ausländische Soldaten „Thema von Verhandlungen“",
-        "summary": "Bisher hatte Russlands Führung die Stationierung von Nato-Truppen in der Ukraine strikt abgelehnt. Eine Beteiligung deutscher Truppen an einem solchen Einsatz lässt Kanzler Merz weiter offen.",
-        "paragraphs": [
-          "Bisher hatte Russlands Führung die Stationierung von Nato-Truppen in der Ukraine strikt abgelehnt. Eine Beteiligung deutscher Truppen an einem solchen Einsatz lässt Kanzler Merz weiter offen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-kreml-peskow-nato-truppen-li.3353907",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-17T12:02:00.000Z"
-      },
-      {
         "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
         "title": "Krieg gegen die Ukraine: Wladimir Putin wirft dem Westen Kriegshysterie vor",
         "summary": "Der russische Präsident wirft dem Westen vor, Ängste vor einem großen Krieg zu schüren. Das EU-Parlament verabschiedet den Ausstieg aus russischem Gas. Das Liveblog",
@@ -256,17 +267,6 @@
         "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
         "source": "ZEIT",
         "publishedAt": "2025-12-17T11:59:35.000Z"
-      },
-      {
-        "id": "{urn:uuid:8a5906aa-38c3-431a-98ea-bdfa846caf3b}",
-        "title": "Rentenkommission: Wie geht es weiter mit der Rente?",
-        "summary": "Eine Rentenkommission soll eine umfassende Reform ausarbeiten. Wann geht es los? Wie wird sie besetzt? Und was wollen Parteien und Ökonomen? Die wichtigsten Antworten",
-        "paragraphs": [
-          "Eine Rentenkommission soll eine umfassende Reform ausarbeiten. Wann geht es los? Wie wird sie besetzt? Und was wollen Parteien und Ökonomen? Die wichtigsten Antworten"
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/rentenkommission-union-spd-positionen-faq",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-17T11:57:59.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-merz-laesst-deutsche-beteiligung-an-ukraine-truppe-offen/27982126.html",
@@ -297,7 +297,7 @@
         "paragraphs": [
           "Nach nur drei Jahren ist das Bürgergeld so gut wie wieder abgeschafft: Das Kabinett hat die neue Grundsicherung beschlossen. Sie sieht vor allem strengere Sanktionen vor."
         ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/kabinett-buergergeld-grundsicherung",
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/kabinett-buergergeld-grundsicherung-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-17T11:44:27.000Z"
       },
@@ -330,7 +330,7 @@
         "paragraphs": [
           "Große Bauprojekte dauern in Deutschland meist viele Jahre. Für eine schnellere Umsetzung sollen Planungs- und Genehmigungsverfahren vereinfacht und beschleunigt werden."
         ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/bundeskabinett-gesetzentwurf-schnellere-planungsverfahren-infrastruktur-bauprojekte",
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/bundeskabinett-gesetzentwurf-schnellere-planungsverfahren-infrastruktur-bauprojekte-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-17T11:05:49.000Z"
       },
@@ -446,6 +446,17 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/flamengo-als-antithese-warum-luis-enrique-ein-grosses-finale-erwartet-1176561/artikel#omrss",
+        "title": "Flamengo als Antithese: Warum Luis Enrique ein \"großes Finale\" erwartet",
+        "summary": "Paris Saint-Germain winkt am Mittwochabend der sechste Titel der Saison 2024/25. Luis Enrique bewertet die \"historische\" Chance nicht über - und warnt vor dem Finalgegner.",
+        "paragraphs": [
+          "Paris Saint-Germain winkt am Mittwochabend der sechste Titel der Saison 2024/25. Luis Enrique bewertet die \"historische\" Chance nicht über - und warnt vor dem Finalgegner."
+        ],
+        "link": "https://www.kicker.de/flamengo-als-antithese-warum-luis-enrique-ein-grosses-finale-erwartet-1176561/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-17T12:19:13.000Z"
+      },
       {
         "id": "https://www.kicker.de/mitgliederversammlung-kollidiert-dfb-verlegt-frankfurt-hoffenheim-1175065/artikel#omrss",
         "title": "Mitgliederversammlung kollidiert: DFB verlegt Frankfurt-Hoffenheim",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/dreesen-werden-das-schmuckkaestchen-noch-ein-bisschen-aufhuebschen-1176526/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-17T10:15:19.000Z"
-      },
-      {
-        "id": "li.3340935",
-        "title": "Fußball-Weltmeisterschaft 2026: Alle WM-Spielorte und Stadien im Überblick",
-        "summary": "Zum ersten Mal wird eine Fußball-Weltmeisterschaft in drei Ländern ausgetragen, zum ersten Mal an 16 verschiedenen Spielorten. Ein Überblick über die Stadien der Fußball-WM 2026.",
-        "paragraphs": [
-          "Zum ersten Mal wird eine Fußball-Weltmeisterschaft in drei Ländern ausgetragen, zum ersten Mal an 16 verschiedenen Spielorten. Ein Überblick über die Stadien der Fußball-WM 2026."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/fussball-wm-2026-stadien-spielorte-li.3340935",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-17T09:59:00.000Z"
       }
     ],
     "edv": [
