@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-17T22:54:10.787Z",
+  "updatedAt": "2025-12-17T23:05:43.314Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:1e80ac61-2248-493d-b5e0-b5ca6a104948}",
+        "title": "USA: US-Senat bestätigt Jared Isaacman als neuen Nasa-Chef",
+        "summary": "Jared Isaacman soll sicherstellen, dass die USA vor China auf den Mond zurückkehren. Trump hatte seine Nominierung erst zurückgezogen – und ihn dann erneut nominiert.",
+        "paragraphs": [
+          "Jared Isaacman soll sicherstellen, dass die USA vor China auf den Mond zurückkehren. Trump hatte seine Nominierung erst zurückgezogen – und ihn dann erneut nominiert."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/us-senat-nasa-chef-jared-isaacman",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-17T22:54:02.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/deutschland/hendrik-streeck-im-spiegel-talk-in-einigen-milieus-ist-es-fast-normal-geworden-kokain-zu-konsumieren-a-23ccb027-58d3-46dd-b58b-fe61ff6c9f5e",
         "title": "Hendrik Streeck im SPIEGEL-Talk: »In einigen Milieus ist es fast normal geworden, Kokain zu konsumieren«",
         "summary": "Er war der Rebell unter den Virologen, jetzt ist er Drogenbeauftragter der Bundesregierung. Hier spricht Neupolitiker Hendrik Streeck über Koks-Taxis, seine Lehren aus der Pandemie und ob 98-Jährige noch neue Hüftgelenke brauchen.",
@@ -432,20 +443,42 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/parteien-streit-mit-hoecke-afd-abgeordnetem-drohen-konsequenzen/100184805.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-17T17:04:08.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/bayern-mehrfach-vorbestrafter-28-jaehriger-per-linienflug-nach-afghanistan-abgeschoben-a-10c42a28-3505-47e3-9617-d3fb4c609ef3",
-        "title": "Bayern: Mehrfach vorbestrafter 28-Jähriger per Linienflug nach Afghanistan abgeschoben",
-        "summary": "Der Bundesinnenminister hat mehr Abschiebungen angekündigt, unter anderem nach Afghanistan. Ein Intensivtäter wurde nun aus Bayern per Linienflug in sein Heimatland gebracht. Weitere Rückführungen sind laut Dobrindt schon geplant.",
-        "paragraphs": [
-          "Der Bundesinnenminister hat mehr Abschiebungen angekündigt, unter anderem nach Afghanistan. Ein Intensivtäter wurde nun aus Bayern per Linienflug in sein Heimatland gebracht. Weitere Rückführungen sind laut Dobrindt schon geplant."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/bayern-mehrfach-vorbestrafter-28-jaehriger-per-linienflug-nach-afghanistan-abgeschoben-a-10c42a28-3505-47e3-9617-d3fb4c609ef3#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-17T17:03:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/starker-schindler-wackelt-in-runde-1-nur-kurz-1176771/artikel#omrss",
+        "title": "Starker Schindler wackelt in Runde 1 nur kurz",
+        "summary": "Martin Schindler, die deutsche Nummer 1, hat seine Auftakthürde bei der Darts-WM gemeistert. Beim 3:1 gegen Stephen Burton wackelte \"The Wall\" nur kurz.",
+        "paragraphs": [
+          "Martin Schindler, die deutsche Nummer 1, hat seine Auftakthürde bei der Darts-WM gemeistert. Beim 3:1 gegen Stephen Burton wackelte \"The Wall\" nur kurz."
+        ],
+        "link": "https://www.kicker.de/starker-schindler-wackelt-in-runde-1-nur-kurz-1176771/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-17T23:01:15.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
+        "title": "Der Spielplan der Darts-WM 2026",
+        "summary": "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick.",
+        "paragraphs": [
+          "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick."
+        ],
+        "link": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-17T22:59:25.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nhl-ticker-kekaelaeinen-wird-gm-in-buffalo-reichel-in-die-ahl-1030078/artikel#omrss",
+        "title": "NHL-Ticker: Kekäläinen wird GM in Buffalo - Reichel in die AHL",
+        "summary": "Der Sommer brachte in der NHL ungewöhnlich wenig Aktivität auf dem Transfermarkt. Nun steht die Saison 2025/26 unmittelbar bevor. Die wichtigsten Personalien im Überblick ...",
+        "paragraphs": [
+          "Der Sommer brachte in der NHL ungewöhnlich wenig Aktivität auf dem Transfermarkt. Nun steht die Saison 2025/26 unmittelbar bevor. Die wichtigsten Personalien im Überblick ..."
+        ],
+        "link": "https://www.kicker.de/nhl-ticker-kekaelaeinen-wird-gm-in-buffalo-reichel-in-die-ahl-1030078/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-17T22:49:16.000Z"
+      },
       {
         "id": "https://www.kicker.de/wolfsburg-gegen-chelsea-2025-frauen-champions-league-5176044/spielbericht#omrss",
         "title": "Führung verspielt: Wölfinnen verpassen direkten Viertelfinal-Einzug",
@@ -632,39 +665,6 @@
         "link": "https://www.kicker.de/darum-ist-stoeger-in-gladbach-ein-wechselkandidat-1176681/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-17T17:36:40.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/gislason-diese-zwei-gruende-sprachen-gegen-freihoefer-1176657/artikel#omrss",
-        "title": "Gislason: Diese zwei Gründe sprachen gegen Freihöfer",
-        "summary": "Dass Tim Freihöfer im deutschen EM-Kader fehlt, sorgt für Diskussionsstoff. Statt des Berliners setzt Bundestrainer Alfred Gislason auf den Kieler Rune Dahmke. Diese Entscheidung beruht vor allem auf zwei Faktoren.",
-        "paragraphs": [
-          "Dass Tim Freihöfer im deutschen EM-Kader fehlt, sorgt für Diskussionsstoff. Statt des Berliners setzt Bundestrainer Alfred Gislason auf den Kieler Rune Dahmke. Diese Entscheidung beruht vor allem auf zwei Faktoren."
-        ],
-        "link": "https://www.kicker.de/gislason-diese-zwei-gruende-sprachen-gegen-freihoefer-1176657/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-17T16:49:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/afrika-cup-2025-modus-favoriten-uebertragung-980442/artikel#omrss",
-        "title": "Afrika-Cup 2025: Modus, Favoriten, Übertragung",
-        "summary": "Im kommenden Jahr steht nicht nur die WM als absolutes fußballerisches Highlight an, auch einige Spiele des Afrika-Cups 2025 werden im Jahr 2026 ausgetragen - und das führt dazu, dass einige Bundesligisten auf ihre Stars verzichten müssen. Alle Infos zum Afrika-Cup im Überblick.",
-        "paragraphs": [
-          "Im kommenden Jahr steht nicht nur die WM als absolutes fußballerisches Highlight an, auch einige Spiele des Afrika-Cups 2025 werden im Jahr 2026 ausgetragen - und das führt dazu, dass einige Bundesligisten auf ihre Stars verzichten müssen. Alle Infos zum Afrika-Cup im Überblick."
-        ],
-        "link": "https://www.kicker.de/afrika-cup-2025-modus-favoriten-uebertragung-980442/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-17T16:46:38.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/infantinos-historischer-schritt-das-neue-fifa-erscheint-exklusiv-bei-netflix-1176655/artikel#omrss",
-        "title": "Infantinos \"historischer Schritt\": Das neue FIFA erscheint exklusiv bei Netflix",
-        "summary": "Völlig aus dem Nichts hat Netflix am Dienstag ein neues FIFA angekündigt. Spielen wird es nur können, wer den Streaming-Dienst abonniert hat - denn die Fußball-Simulation erscheint exklusiv für Netflix Games.",
-        "paragraphs": [
-          "Völlig aus dem Nichts hat Netflix am Dienstag ein neues FIFA angekündigt. Spielen wird es nur können, wer den Streaming-Dienst abonniert hat - denn die Fußball-Simulation erscheint exklusiv für Netflix Games."
-        ],
-        "link": "https://www.kicker.de/infantinos-historischer-schritt-das-neue-fifa-erscheint-exklusiv-bei-netflix-1176655/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-17T16:41:51.000Z"
       }
     ],
     "edv": [
