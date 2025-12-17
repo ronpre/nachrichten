@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-17T18:13:59.052Z",
+  "updatedAt": "2025-12-17T18:31:59.600Z",
   "categories": {
     "wirtschaft": [
       {
@@ -16,9 +16,9 @@
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/verbrenner-aus-bmw-chef-zipse-kritisiert-regeln-fuer-dienstwagen-scharf/100184721.html",
         "title": "Verbrenner-Aus: „Geht komplett an der Marktrealität vorbei“: BMW-Chef Zipse kritisiert Regeln für Dienstwagen",
-        "summary": "Der Vorstandschef des Münchner Autobauers sieht positive und negative Aspekte der neuen Regulierung. Insbesondere bei zwei Punkten hat Zipse wenig Verständnis für das Vorgehen der EU.",
+        "summary": "Der Vorstandschef des Münchener Autobauers sieht positive und negative Aspekte der neuen Regulierung. Insbesondere bei zwei Punkten hat Zipse wenig Verständnis für das Vorgehen der EU.",
         "paragraphs": [
-          "Der Vorstandschef des Münchner Autobauers sieht positive und negative Aspekte der neuen Regulierung. Insbesondere bei zwei Punkten hat Zipse wenig Verständnis für das Vorgehen der EU."
+          "Der Vorstandschef des Münchener Autobauers sieht positive und negative Aspekte der neuen Regulierung. Insbesondere bei zwei Punkten hat Zipse wenig Verständnis für das Vorgehen der EU."
         ],
         "link": "https://www.handelsblatt.com/unternehmen/industrie/verbrenner-aus-bmw-chef-zipse-kritisiert-regeln-fuer-dienstwagen-scharf/100184721.html",
         "source": "Handelsblatt",
@@ -224,6 +224,17 @@
       }
     ],
     "politik": [
+      {
+        "id": "li.3356378",
+        "title": "Verteidigung: Polen will Grenze zu Russland mit Antipersonenminen sichern",
+        "summary": "Die Minen sollen Teil des Verteidigungsprojekts sein, das die 800 Kilometer lange Ostgrenze sichert. Dafür tritt Polen aus der Ottawa-Konvention aus, die den Einsatz von Antipersonenminen verbietet.",
+        "paragraphs": [
+          "Die Minen sollen Teil des Verteidigungsprojekts sein, das die 800 Kilometer lange Ostgrenze sichert. Dafür tritt Polen aus der Ottawa-Konvention aus, die den Einsatz von Antipersonenminen verbietet."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/polen-landminen-verteidigung-grenze-russland-li.3356378",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-17T18:14:14.000Z"
+      },
       {
         "id": "https://www.spiegel.de/politik/friedrich-merz-regierungserklaerung-im-bundestag-kritik-von-gruenenchefin-droege-a-bfc923e5-c6d4-4e0c-9620-b95e981167ce",
         "title": "Friedrich Merz: Regierungserklärung im Bundestag - Kritik von Grünenchefin Dröge",
@@ -432,30 +443,19 @@
         "link": "https://www.zeit.de/politik/deutschland/2025-12/verteidigung-ruestung-ausgaben-auftraege-haushaltsausschuss-bundestag",
         "source": "ZEIT",
         "publishedAt": "2025-12-17T16:26:56.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/aussenpolitik-ruestungsindustrie-beklagt-neue-hindernisse-bei-israel-exporten/100183935.html",
-        "title": "Außenpolitik: Rüstungsindustrie beklagt neue Hindernisse bei Israel-Exporten - Reiche verspricht vor Ort Anpassungen",
-        "summary": "Die Bundesregierung hat das Lieferembargo gegen Israel aufgehoben, aber es gibt weiter Probleme. Wirtschaftsministerin Reiche verspricht Industrievertretern Hilfe – nach einem emotionalen Besuch.",
-        "paragraphs": [
-          "Die Bundesregierung hat das Lieferembargo gegen Israel aufgehoben, aber es gibt weiter Probleme. Wirtschaftsministerin Reiche verspricht Industrievertretern Hilfe – nach einem emotionalen Besuch."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/aussenpolitik-ruestungsindustrie-beklagt-neue-hindernisse-bei-israel-exporten/100183935.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-17T16:16:37.000Z"
       }
     ],
     "sport": [
       {
         "id": "https://www.kicker.de/paris-sg-gegen-flamengo-2025-interkontinental-pokal-5153330/spielbericht#omrss",
-        "title": "LIVE! Finale in Doha: PSG führt dank Kvaratskhelia gegen Flamengo",
+        "title": "LIVE! Spannung in Doha: Jorginho trifft zum Ausgleich für Flamengo",
         "summary": "Wer wird Nachfolger von Real Madrid? In der zweiten Ausgabe treffen im Finale des Interkontinental-Pokals der europäische Champions-League-Sieger Paris Saint-Germain und Copa-Libertadores-Champion Flamengo aufeinander.",
         "paragraphs": [
           "Wer wird Nachfolger von Real Madrid? In der zweiten Ausgabe treffen im Finale des Interkontinental-Pokals der europäische Champions-League-Sieger Paris Saint-Germain und Copa-Libertadores-Champion Flamengo aufeinander."
         ],
         "link": "https://www.kicker.de/paris-sg-gegen-flamengo-2025-interkontinental-pokal-5153330/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2025-12-17T17:51:48.000Z"
+        "publishedAt": "2025-12-17T18:24:46.000Z"
       },
       {
         "id": "https://www.kicker.de/das-wird-teuer-die-wolfsburger-millionen-optionen-bei-seelt-und-daghim-1176648/artikel#omrss",
@@ -669,6 +669,39 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Docker-Inc-macht-gehaertete-Abbilder-kostenlos-verfuegbar-11118764.html",
+        "title": "Docker Inc. macht gehärtete Abbilder kostenlos verfügbar",
+        "summary": "Gehärtete Docker-Images sind auf ein Minimum reduziert, sodass möglichst wenig Angriffsfläche bleibt. Docker Inc. stellt solche jetzt kostenfrei zur Verfügung.",
+        "paragraphs": [
+          "Gehärtete Docker-Images sind auf ein Minimum reduziert, sodass möglichst wenig Angriffsfläche bleibt. Docker Inc. stellt solche jetzt kostenfrei zur Verfügung."
+        ],
+        "link": "https://www.heise.de/news/Docker-Inc-macht-gehaertete-Abbilder-kostenlos-verfuegbar-11118764.html",
+        "source": "c't",
+        "publishedAt": "2025-12-17T18:21:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Docker-Inc-macht-gehaertete-Abbilder-kostenlos-verfuegbar-11118764.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Docker Inc. macht gehärtete Abbilder kostenlos verfügbar",
+        "summary": "Gehärtete Docker-Images sind auf ein Minimum reduziert, sodass möglichst wenig Angriffsfläche bleibt. Docker Inc. stellt solche jetzt kostenfrei zur Verfügung.",
+        "paragraphs": [
+          "Gehärtete Docker-Images sind auf ein Minimum reduziert, sodass möglichst wenig Angriffsfläche bleibt. Docker Inc. stellt solche jetzt kostenfrei zur Verfügung."
+        ],
+        "link": "https://www.heise.de/news/Docker-Inc-macht-gehaertete-Abbilder-kostenlos-verfuegbar-11118764.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-17T18:21:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Spionagesoftware-enttarnt-Wie-Belarus-Journalisten-mit-ResidentBat-ueberwacht-11118846.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Spionagesoftware enttarnt: Wie Belarus Journalisten mit \"ResidentBat\" überwacht",
+        "summary": "Forscher haben eine Android-Spyware identifiziert, die seit Jahren direkt gegen Medienakteure in Weißrussland eingesetzt wird. Sie baut auf dreiste Täuschung.",
+        "paragraphs": [
+          "Forscher haben eine Android-Spyware identifiziert, die seit Jahren direkt gegen Medienakteure in Weißrussland eingesetzt wird. Sie baut auf dreiste Täuschung."
+        ],
+        "link": "https://www.heise.de/news/Spionagesoftware-enttarnt-Wie-Belarus-Journalisten-mit-ResidentBat-ueberwacht-11118846.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-17T18:05:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Update-fuers-Haftungsrecht-Wenn-der-Algorithmus-Schaeden-verursacht-11118796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Update fürs Haftungsrecht: Wenn der Algorithmus Schäden verursacht",
         "summary": "Die Bundesregierung bringt die Modernisierung der Produkthaftung auf den Weg. Künftig stehen Softwarehersteller und KI-Entwickler bei Fehlern in der Pflicht.",
@@ -736,7 +769,7 @@
       },
       {
         "id": "https://www.heise.de/hintergrund/Pharmaunternehmen-und-EU-Gesundheitsdaten-Ueber-Chancen-und-Herausforderungen-11118335.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Gesundheitsforschung: „Patienten sollten für Datenfreigabe incentiviert werden“",
+        "title": "EU-Gesundheitsdatenraum: Zwischen Fortschritt, Datenschutz und Profitinteressen",
         "summary": "Das Medizinregistergesetz verspricht Fortschritt, es gibt aber noch Klärungsbedarf. Ein Interview über Gesetze zur Datennutzung, Fragen zum Gemeinwohl und mehr.",
         "paragraphs": [
           "Das Medizinregistergesetz verspricht Fortschritt, es gibt aber noch Klärungsbedarf. Ein Interview über Gesetze zur Datennutzung, Fragen zum Gemeinwohl und mehr."
@@ -854,39 +887,6 @@
         "link": "https://www.heise.de/tests/Buchkritik-Das-seltsamste-Teilchen-der-Welt-11080965.html",
         "source": "c't",
         "publishedAt": "2025-12-17T14:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/KI-Update-kompakt-Chip-Preise-Gemini-Microsoft-Copilot-KI-macht-denkfaul-11117803.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Update kompakt: Chip-Preise, Gemini, Microsoft Copilot, KI macht denkfaul",
-        "summary": "Das \"KI-Update\" liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
-        "paragraphs": [
-          "Das \"KI-Update\" liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen."
-        ],
-        "link": "https://www.heise.de/news/KI-Update-kompakt-Chip-Preise-Gemini-Microsoft-Copilot-KI-macht-denkfaul-11117803.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-17T14:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Siri-Fail-Chip-Highlights-Goldgeschenke-Das-Apple-Jahr-2025-Mac-i-Podcast-11118373.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Siri-Fail, Chip-Highlights, Goldgeschenke: Das Apple-Jahr 2025 | Mac & i-Podcast",
-        "summary": "Von hervorragender Hardware über glasige Software bis zu EU-Scharmützeln auf dem Rücken der Nutzer: Der Blick zurück auf Apples bewegtes 2025.",
-        "paragraphs": [
-          "Von hervorragender Hardware über glasige Software bis zu EU-Scharmützeln auf dem Rücken der Nutzer: Der Blick zurück auf Apples bewegtes 2025."
-        ],
-        "link": "https://www.heise.de/news/Siri-Fail-Chip-Highlights-Goldgeschenke-Das-Apple-Jahr-2025-Mac-i-Podcast-11118373.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-17T13:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Urteil-Amazon-darf-Video-Kunden-keine-Werbung-aufzwaengen-11118365.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Werbefreiheit erkämpft: Amazon Prime Video muss Werbespots einstellen",
-        "summary": "Amazon Prime Video sendet seit 2024 Werbespots. Ein Gericht schreitet ein und untersagt dem US-Unternehmen, die Vertragsbedingungen einseitig zu ändern.",
-        "paragraphs": [
-          "Amazon Prime Video sendet seit 2024 Werbespots. Ein Gericht schreitet ein und untersagt dem US-Unternehmen, die Vertragsbedingungen einseitig zu ändern."
-        ],
-        "link": "https://www.heise.de/news/Urteil-Amazon-darf-Video-Kunden-keine-Werbung-aufzwaengen-11118365.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-17T13:21:00.000Z"
       }
     ]
   }
