@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-17T17:21:24.735Z",
+  "updatedAt": "2025-12-17T17:39:23.727Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:e7989970-0407-4b34-ad14-b9585ff14bcf}",
+        "title": "Streaming: Amazon darf Kunden auf Prime Video nicht zu Werbung zwingen",
+        "summary": "Eigentlich gab es bei Amazon Prime keine Werbung, später kostete werbefreies Streaming zusätzlich Geld. Dagegen hatten Verbraucherschützer geklagt – mit Erfolg.",
+        "paragraphs": [
+          "Eigentlich gab es bei Amazon Prime keine Werbung, später kostete werbefreies Streaming zusätzlich Geld. Dagegen hatten Verbraucherschützer geklagt – mit Erfolg."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/amazon-urteil-video-kunden-werbung",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-17T17:22:57.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/alterssicherung-reparaturen-an-der-rente-bundesregierung-setzt-kommission-ein/100184602.html",
         "title": "Alterssicherung: Reparaturarbeiten an der Rente – Bundesregierung setzt Kommission ein",
@@ -12,17 +23,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/alterssicherung-reparaturen-an-der-rente-bundesregierung-setzt-kommission-ein/100184602.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-17T17:12:38.000Z"
-      },
-      {
-        "id": "{urn:uuid:e7989970-0407-4b34-ad14-b9585ff14bcf}",
-        "title": "Streaming: Amazon darf Kunden auf Prime Video nicht zu Werbung zwingen",
-        "summary": "Eigentlich gab es bei Amazon Prime keine Werbung, später kostete werbefreies Streaming zusätzlich Geld. Dagegen hatten Verbraucherschützer geklagt – mit Erfolg.",
-        "paragraphs": [
-          "Eigentlich gab es bei Amazon Prime keine Werbung, später kostete werbefreies Streaming zusätzlich Geld. Dagegen hatten Verbraucherschützer geklagt – mit Erfolg."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/amazon-urteil-video-kunden-werbung",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-17T17:04:26.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/parteien-streit-mit-hoecke-afd-abgeordnetem-drohen-konsequenzen/100184805.html",
@@ -225,6 +225,50 @@
     ],
     "politik": [
       {
+        "id": "https://www.spiegel.de/politik/deutschland/from-the-river-to-the-sea-berliner-gericht-stuft-parole-als-terror-kennzeichen-ein-a-98c61e5a-8129-47c8-b640-38f159e0176c",
+        "title": "»From the river to the sea«: Berliner Gericht stuft Parole als Terror-Kennzeichen ein",
+        "summary": "Bisher bewerten Gerichte den Spruch »From the river to the sea, Palestine will be free« unterschiedlich. Ein Urteil aus Berlin ebnet nun wohl den Weg für eine höchstrichterliche Klärung.",
+        "paragraphs": [
+          "Bisher bewerten Gerichte den Spruch »From the river to the sea, Palestine will be free« unterschiedlich. Ein Urteil aus Berlin ebnet nun wohl den Weg für eine höchstrichterliche Klärung."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/from-the-river-to-the-sea-berliner-gericht-stuft-parole-als-terror-kennzeichen-ein-a-98c61e5a-8129-47c8-b640-38f159e0176c#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-17T17:36:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:17bbe009-afed-4049-8639-2898d7a9048b}",
+        "title": "Christopher Anderson: \"Susie war überraschend fügsam\"",
+        "summary": "Ein Artikel über Donald Trumps Stabschefin erregt weltweit Aufsehen – auch wegen der Bilder von Christopher Anderson. Hier spricht er über das ungewöhnliche Fotoshooting.",
+        "paragraphs": [
+          "Ein Artikel über Donald Trumps Stabschefin erregt weltweit Aufsehen – auch wegen der Bilder von Christopher Anderson. Hier spricht er über das ungewöhnliche Fotoshooting."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/christopher-anderson-fotograf-susie-wiles-donald-trump-usa",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-17T17:24:55.000Z"
+      },
+      {
+        "id": "li.3356032",
+        "title": "Karsten Wildberger: Alles, nur kein normaler Minister",
+        "summary": "Die Entwicklung des Media-Markt-Managers Karsten Wildberger zur Hoffnung der Regierung überrascht – auch weil sich der Digitalminister nicht komplett dem Politikbetrieb anpasst.",
+        "paragraphs": [
+          "Die Entwicklung des Media-Markt-Managers Karsten Wildberger zur Hoffnung der Regierung überrascht – auch weil sich der Digitalminister nicht komplett dem Politikbetrieb anpasst."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/karsten-wildberger-digital-minister-zwischenbilanz-new-york-li.3356032",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-17T17:24:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/alterssicherung-reparaturen-an-der-rente-bundesregierung-setzt-kommission-ein/100184602.html",
+        "title": "Alterssicherung: Reparaturarbeiten an der Rente – Bundesregierung setzt Kommission ein",
+        "summary": "Das Gremium soll Vorschläge für sichere und nachhaltige Renten machen. Die Arbeitgeber kritisieren den unkonkreten Auftrag, Gewerkschafter warnen vor Verschlechterungen für Ruheständler.",
+        "paragraphs": [
+          "Das Gremium soll Vorschläge für sichere und nachhaltige Renten machen. Die Arbeitgeber kritisieren den unkonkreten Auftrag, Gewerkschafter warnen vor Verschlechterungen für Ruheständler."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/alterssicherung-reparaturen-an-der-rente-bundesregierung-setzt-kommission-ein/100184602.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-17T17:12:38.000Z"
+      },
+      {
         "id": "li.3356365",
         "title": "SZ am Abend: Nachrichten vom 17. Dezember 2025",
         "summary": "Was heute wichtig war.",
@@ -368,17 +412,6 @@
         "publishedAt": "2025-12-17T16:26:56.000Z"
       },
       {
-        "id": "li.3356032",
-        "title": "Karsten Wildberger: Alles, nur kein normaler Minister",
-        "summary": "Die Entwicklung des Media-Markt-Managers Karsten Wildberger zur Hoffnung der Regierung überrascht – auch weil sich der Digitalminister nicht komplett dem Politikbetrieb anpasst.",
-        "paragraphs": [
-          "Die Entwicklung des Media-Markt-Managers Karsten Wildberger zur Hoffnung der Regierung überrascht – auch weil sich der Digitalminister nicht komplett dem Politikbetrieb anpasst."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/karsten-wildberger-digital-minister-zwischenbilanz-new-york-li.3356032",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-17T16:25:43.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/deutschland/aussenpolitik-ruestungsindustrie-beklagt-neue-hindernisse-bei-israel-exporten/100183935.html",
         "title": "Außenpolitik: Rüstungsindustrie beklagt neue Hindernisse bei Israel-Exporten - Reiche verspricht vor Ort Anpassungen",
         "summary": "Die Bundesregierung hat das Lieferembargo gegen Israel aufgehoben, aber es gibt weiter Probleme. Wirtschaftsministerin Reiche verspricht Industrievertretern Hilfe – nach einem emotionalen Besuch.",
@@ -410,52 +443,30 @@
         "link": "https://www.sueddeutsche.de/politik/afd-bundestag-wehrpflicht-ordnungsverfahren-lucassen-hoecke-kritik-li.3356025",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-17T16:14:28.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/bundestag-friedrich-merz-stellt-sich-fragen-und-gibt-regierungserklaerung-ab-a-39ddce12-be96-469c-b16d-3ad7151599c2",
-        "title": "Bundestag: Fünf Lehren aus der Debatte",
-        "summary": "Schicksalsfragen für Deutschland und Europa, und zwar gleich mehrere: Diese hat Friedrich Merz vor dem EU-Gipfel beschworen. Die AfD empfahl hingegen, der Trump-Regierung zu folgen. Die Bundestagsaussprache in der Analyse.",
-        "paragraphs": [
-          "Schicksalsfragen für Deutschland und Europa, und zwar gleich mehrere: Diese hat Friedrich Merz vor dem EU-Gipfel beschworen. Die AfD empfahl hingegen, der Trump-Regierung zu folgen. Die Bundestagsaussprache in der Analyse."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/bundestag-friedrich-merz-stellt-sich-fragen-und-gibt-regierungserklaerung-ab-a-39ddce12-be96-469c-b16d-3ad7151599c2#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-17T16:10:00.000Z"
-      },
-      {
-        "id": "li.3356030",
-        "title": "Verteidigung: Aufrüstung im Rekordtempo",
-        "summary": "Der Haushaltsausschuss des Bundestags hat Material für die Bundeswehr in Höhe von 51 Milliarden Euro genehmigt – so viel auf einmal wie noch nie. Vielen geht das zu schnell.",
-        "paragraphs": [
-          "Der Haushaltsausschuss des Bundestags hat Material für die Bundeswehr in Höhe von 51 Milliarden Euro genehmigt – so viel auf einmal wie noch nie. Vielen geht das zu schnell."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundeswehr-pistorius-beschaffungen-li.3356030",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-17T15:56:41.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/bundeswehr-haushaltsausschuss-winkt-50-milliarden-fuer-ruestungsprojekte-durch-a-a66a921d-8b2d-4f28-af8b-c7dfeb92fa13",
-        "title": "Bundeswehr: Haushaltsausschuss winkt 50 Milliarden für Rüstungsprojekte durch",
-        "summary": "Die Bundeswehr will in neue Ausrüstung, Raketenabwehr und Schützenpanzer investieren. Der Haushaltsausschuss hat nun den Weg für die milliardenschweren Vorhaben freigegeben. Die Opposition nennt das »kopflose Beschaffungen«.",
-        "paragraphs": [
-          "Die Bundeswehr will in neue Ausrüstung, Raketenabwehr und Schützenpanzer investieren. Der Haushaltsausschuss hat nun den Weg für die milliardenschweren Vorhaben freigegeben. Die Opposition nennt das »kopflose Beschaffungen«."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/bundeswehr-haushaltsausschuss-winkt-50-milliarden-fuer-ruestungsprojekte-durch-a-a66a921d-8b2d-4f28-af8b-c7dfeb92fa13#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-17T15:42:00.000Z"
       }
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/darum-ist-stoeger-in-gladbach-ein-wechselkandidat-1176681/artikel#omrss",
+        "title": "Darum ist Stöger in Gladbach ein Wechselkandidat",
+        "summary": "Bei der Borussia ist die Konkurrenz auf der Offensivposition im Mittelfeld groß. Bei einem Routinier könnte daher ein Wintertransfer anstehen.",
+        "paragraphs": [
+          "Bei der Borussia ist die Konkurrenz auf der Offensivposition im Mittelfeld groß. Bei einem Routinier könnte daher ein Wintertransfer anstehen."
+        ],
+        "link": "https://www.kicker.de/darum-ist-stoeger-in-gladbach-ein-wechselkandidat-1176681/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-17T17:36:40.000Z"
+      },
+      {
         "id": "https://www.kicker.de/paris-sg-gegen-flamengo-2025-interkontinental-pokal-5153330/spielbericht#omrss",
-        "title": "LIVE! Finale in Doha: VAR nimmt PSG-Führung zurück",
+        "title": "LIVE! Finale in Doha: PSG sucht nach Lücken in Flamengos Defensive",
         "summary": "Wer wird Nachfolger von Real Madrid? In der zweiten Ausgabe treffen im Finale des Interkontinental-Pokals der europäische Champions-League-Sieger Paris Saint-Germain und Copa-Libertadores-Champion Flamengo aufeinander.",
         "paragraphs": [
           "Wer wird Nachfolger von Real Madrid? In der zweiten Ausgabe treffen im Finale des Interkontinental-Pokals der europäische Champions-League-Sieger Paris Saint-Germain und Copa-Libertadores-Champion Flamengo aufeinander."
         ],
         "link": "https://www.kicker.de/paris-sg-gegen-flamengo-2025-interkontinental-pokal-5153330/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2025-12-17T17:16:40.000Z"
+        "publishedAt": "2025-12-17T17:32:56.000Z"
       },
       {
         "id": "https://www.kicker.de/polzins-ziel-bei-poulsen-1176659/artikel#omrss",
@@ -654,17 +665,6 @@
         "link": "https://www.sueddeutsche.de/sport/darts-wm-2026-heute-live-tv-stream-spielplan-deutsche-schindler-li.3332890",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-17T14:43:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/reverse-dunk-von-wemby-und-dagger-von-hart-knicks-cup-sieg-im-video-1176574/video#omrss",
-        "title": "Reverse-Dunk von Wemby und Dagger von Hart: Knicks' Cup-Sieg im Video",
-        "summary": "Die Knicks konnten mit dem Gewinn des NBA Cups eine Titellose Serie von 52 Jahren beenden. Das Team aus New York gewann das Match gegen die Spurs 124:113.",
-        "paragraphs": [
-          "Die Knicks konnten mit dem Gewinn des NBA Cups eine Titellose Serie von 52 Jahren beenden. Das Team aus New York gewann das Match gegen die Spurs 124:113."
-        ],
-        "link": "https://www.kicker.de/reverse-dunk-von-wemby-und-dagger-von-hart-knicks-cup-sieg-im-video-1176574/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-17T14:12:50.000Z"
       }
     ],
     "edv": [
@@ -681,7 +681,7 @@
       },
       {
         "id": "https://www.heise.de/news/EU-Endspurt-bei-Apple-iPhone-wird-ungewollt-offener-11118716.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "EU-Endspurt bei Apple: iPhone wird ungewollt offener",
+        "title": "iPhone muss sich weiter öffnen: Apple hält EU-Deadline ein",
         "summary": "Gerade noch fristgerecht hat Apple erste Interoperabilitätsvorgaben der EU-Kommission umgesetzt. iOS und iPadOS macht das ein Stück kompatibler.",
         "paragraphs": [
           "Gerade noch fristgerecht hat Apple erste Interoperabilitätsvorgaben der EU-Kommission umgesetzt. iOS und iPadOS macht das ein Stück kompatibler."
@@ -704,9 +704,9 @@
       {
         "id": "https://www.heise.de/hintergrund/Pharmaunternehmen-und-EU-Gesundheitsdaten-Ueber-Chancen-und-Herausforderungen-11118335.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Pharmaunternehmen und Gesundheitsdaten: Über Chancen und Herausforderungen",
-        "summary": "Das Medizinregistergesetz verspricht Fortschritt, es gibt aber noch Klärungsbedarf. Ein Interview über Datennutzung, Gemeinwohl und Geschäftsgeheimnisse.",
+        "summary": "Das Medizinregistergesetz verspricht Fortschritt, es gibt aber noch Klärungsbedarf. Ein Interview über Gesetze zur Datennutzung, Fragen zum Gemeinwohl und mehr.",
         "paragraphs": [
-          "Das Medizinregistergesetz verspricht Fortschritt, es gibt aber noch Klärungsbedarf. Ein Interview über Datennutzung, Gemeinwohl und Geschäftsgeheimnisse."
+          "Das Medizinregistergesetz verspricht Fortschritt, es gibt aber noch Klärungsbedarf. Ein Interview über Gesetze zur Datennutzung, Fragen zum Gemeinwohl und mehr."
         ],
         "link": "https://www.heise.de/hintergrund/Pharmaunternehmen-und-EU-Gesundheitsdaten-Ueber-Chancen-und-Herausforderungen-11118335.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
