@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-18T11:29:35.022Z",
+  "updatedAt": "2025-12-18T11:38:57.828Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:a660d249-b4b6-4e08-9acb-f055b837b38b}",
+        "title": "EU-Recht: Frontex ist laut Urteil haftbar für Grundrechtsverletzungen",
+        "summary": "Während Abschiebungen ist die EU-Grenzschutzagentur Frontex zum Schutz der Grundrechte verpflichtet, urteilt der EuGH. Eine syrische Familie hatte Schadenersatz verlangt.",
+        "paragraphs": [
+          "Während Abschiebungen ist die EU-Grenzschutzagentur Frontex zum Schutz der Grundrechte verpflichtet, urteilt der EuGH. Eine syrische Familie hatte Schadenersatz verlangt."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/eu-recht-europaeischer-gerichtshof-frontex",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-18T11:24:11.000Z"
+      },
+      {
+        "id": "{urn:uuid:387dddae-1b72-4bd3-b9ba-7397403a1446}",
+        "title": "Krankenkassenbeiträge: Ein fauler Deal",
+        "summary": "Gesetzliche Kassen könnten die Beiträge im kommenden Jahr stabil halten. Was die Koalition aber verschweigt: Dafür werden sie später umso stärker steigen müssen.",
+        "paragraphs": [
+          "Gesetzliche Kassen könnten die Beiträge im kommenden Jahr stabil halten. Was die Koalition aber verschweigt: Dafür werden sie später umso stärker steigen müssen."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/nina-warken-gesetzliche-kassenbeitraege-defizit-bundestag",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-18T11:22:21.000Z"
+      },
+      {
         "id": "{urn:uuid:dfeed1c0-90d2-4c5f-a0cf-656c110994cb}",
         "title": "Staatsschulden: Regierung will sich 2026 erstmals mehr als 500 Milliarden Euro leihen",
         "summary": "Ein neuer Rekordwert an geliehenem Geld: Der Bund will eine halbe Billion Euro am Finanzmarkt aufnehmen. Auch die Neuverschuldung soll rekordverdächtig hoch sein.",
@@ -421,31 +443,20 @@
         "link": "https://www.zeit.de/politik/deutschland/2025-12/letzte-verteidigungswelle-anklage-bundesanwalt-terror-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-18T09:46:44.000Z"
-      },
-      {
-        "id": "li.3356529",
-        "title": "Justiz: EuGH: Polens Justiz hat gegen Vorrang des europäischen Rechts verstoßen",
-        "summary": "Polen hatte sich geweigert, Entscheidungen des EuGH umzusetzen, wenn diese nicht der polnischen Verfassung entsprächen. Die EU-Kommission hatte das Land deswegen vor dem EuGH in Luxemburg verklagt.",
-        "paragraphs": [
-          "Polen hatte sich geweigert, Entscheidungen des EuGH umzusetzen, wenn diese nicht der polnischen Verfassung entsprächen. Die EU-Kommission hatte das Land deswegen vor dem EuGH in Luxemburg verklagt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/polen-europaeischer-gerichtshof-justiz-li.3356529",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-18T09:30:17.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/konjunktur/studie-china-faellt-aus-den-top-5-der-deutschen-exportziele/100183933.html",
-        "title": "GTAI-Studie: China nicht mehr in der Top 5 der deutschen Exportziele",
-        "summary": "Der chinesische Binnenmarkt schwächelt. Das macht sich auch für die deutschen Exporteure bemerkbar: Die Ausfuhren gehen zurück. Die Exporte zu den EU-Nachbarn legen dagegen zu.",
-        "paragraphs": [
-          "Der chinesische Binnenmarkt schwächelt. Das macht sich auch für die deutschen Exporteure bemerkbar: Die Ausfuhren gehen zurück. Die Exporte zu den EU-Nachbarn legen dagegen zu."
-        ],
-        "link": "https://www.handelsblatt.com/politik/konjunktur/studie-china-faellt-aus-den-top-5-der-deutschen-exportziele/100183933.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-18T09:23:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/live-wer-triumphiert-auf-der-saslong-wegen-nebel-start-auf-13-uhr-verschoben-1176751/artikel#omrss",
+        "title": "LIVE! Wer triumphiert auf der Saslong? - Wegen Nebel Start auf 13 Uhr verschoben",
+        "summary": "Am 14. Februar 1969 fand erstmals eine Weltcup-Abfahrt in Gröden statt. Seither ist das Rennen auf der Saslong mit ihren spektakulären Kamelbuckeln ein echter Klassiker.",
+        "paragraphs": [
+          "Am 14. Februar 1969 fand erstmals eine Weltcup-Abfahrt in Gröden statt. Seither ist das Rennen auf der Saslong mit ihren spektakulären Kamelbuckeln ein echter Klassiker."
+        ],
+        "link": "https://www.kicker.de/live-wer-triumphiert-auf-der-saslong-wegen-nebel-start-auf-13-uhr-verschoben-1176751/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-18T11:30:36.000Z"
+      },
       {
         "id": "https://www.kicker.de/geerdeter-kniat-und-wir-beschweren-uns-ueber-ein-unentschieden-gegen-kaiserslautern-1176859/artikel#omrss",
         "title": "Geerdeter Kniat: \"... und wir beschweren uns über ein Unentschieden gegen Kaiserslautern\"",
@@ -467,17 +478,6 @@
         "link": "https://www.kicker.de/live-engel-gegen-prizmic-unter-siegzwang-1176827/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-18T11:06:26.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-wer-triumphiert-auf-der-saslong-wegen-nebel-start-auf-1230-uhr-verschoben-1176751/artikel#omrss",
-        "title": "LIVE! Wer triumphiert auf der Saslong? - Wegen Nebel Start auf 12.30 Uhr verschoben",
-        "summary": "Am 14. Februar 1969 fand erstmals eine Weltcup-Abfahrt in Gröden statt. Seither ist das Rennen auf der Saslong mit ihren spektakulären Kamelbuckeln ein echter Klassiker.",
-        "paragraphs": [
-          "Am 14. Februar 1969 fand erstmals eine Weltcup-Abfahrt in Gröden statt. Seither ist das Rennen auf der Saslong mit ihren spektakulären Kamelbuckeln ein echter Klassiker."
-        ],
-        "link": "https://www.kicker.de/live-wer-triumphiert-auf-der-saslong-wegen-nebel-start-auf-1230-uhr-verschoben-1176751/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-18T10:49:02.000Z"
       },
       {
         "id": "https://www.spiegel.de/sport/rennrutschen-cedric-koehnke-ist-deutscher-meister-und-spricht-ueber-adrenalinkicks-a-d852e8de-22f1-4220-97d0-71efdb64fcee",
@@ -502,13 +502,13 @@
         "publishedAt": "2025-12-18T10:36:10.000Z"
       },
       {
-        "id": "https://www.kicker.de/werder-laesst-trainerdiskussion-nicht-zu-drei-fragezeichen-fuer-steffen-1176871/artikel#omrss",
-        "title": "Werder lässt Trainerdiskussion nicht zu - Drei Fragezeichen für Steffen",
+        "id": "https://www.kicker.de/steffen-kennt-beide-seiten-des-geschaefts-trio-um-friedl-fraglich-1176871/artikel#omrss",
+        "title": "Steffen kennt \"beide Seiten des Geschäfts\" - Trio um Friedl fraglich",
         "summary": "Bei Werder wächst vor Weihnachten die Unruhe, Kritik an Horst Steffen gibt es aber nur von außen. Der Trainer will von einer Krise nichts wissen, bangt vor dem Augsburg-Spiel aber um ein Trio.",
         "paragraphs": [
           "Bei Werder wächst vor Weihnachten die Unruhe, Kritik an Horst Steffen gibt es aber nur von außen. Der Trainer will von einer Krise nichts wissen, bangt vor dem Augsburg-Spiel aber um ein Trio."
         ],
-        "link": "https://www.kicker.de/werder-laesst-trainerdiskussion-nicht-zu-drei-fragezeichen-fuer-steffen-1176871/artikel#omrss",
+        "link": "https://www.kicker.de/steffen-kennt-beide-seiten-des-geschaefts-trio-um-friedl-fraglich-1176871/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-18T10:15:26.000Z"
       },
@@ -668,6 +668,17 @@
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Apache-Commons-Text-Codeschmuggel-Luecke-in-aelteren-Versionen-11119672.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Apache Commons Text: Codeschmuggel-Lücke in älteren Versionen",
+        "summary": "Apache Commons Text dient zur Verarbeitung von Zeichenketten in Java-Apps. Eine kritische Lücke ermöglicht einschleusen von Schadcode.",
+        "paragraphs": [
+          "Apache Commons Text dient zur Verarbeitung von Zeichenketten in Java-Apps. Eine kritische Lücke ermöglicht einschleusen von Schadcode."
+        ],
+        "link": "https://www.heise.de/news/Apache-Commons-Text-Codeschmuggel-Luecke-in-aelteren-Versionen-11119672.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-18T11:24:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Micron-verdient-sich-an-der-Speicherkrise-eine-goldene-Nase-11119644.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Micron verdient sich an der Speicherkrise eine goldene Nase",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Umfrage-der-Datenschutzbeauftragten-Ohne-Sicherheit-kein-Vertrauen-in-die-ePA-11119242.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-18T08:57:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Meta-testet-Limit-fuer-Link-Beitraege-11119175.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Meta testet Limit für Link-Beiträge",
-        "summary": "Noch zweimal am Tag können professionelle Nutzer und Seitenbetreiber Links in einem Beitrag auf Facebook posten. Mehr kostet Geld.",
-        "paragraphs": [
-          "Noch zweimal am Tag können professionelle Nutzer und Seitenbetreiber Links in einem Beitrag auf Facebook posten. Mehr kostet Geld."
-        ],
-        "link": "https://www.heise.de/news/Meta-testet-Limit-fuer-Link-Beitraege-11119175.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-18T08:49:00.000Z"
       }
     ]
   }
