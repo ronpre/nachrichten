@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-18T19:52:42.148Z",
+  "updatedAt": "2025-12-18T20:05:46.175Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:f4a0e473-0586-46dc-b516-1999b7879dfe}",
+        "title": "EU-Handelsbeziehungen: Von der Leyen will Unterzeichnung von Mercosur-Abkommen verschieben",
+        "summary": "Die EU und die Mercosur-Staaten verhandeln seit Langem über ein Handelsabkommen. Kommissionspräsidentin von der Leyen will die Unterzeichnung nun auf Januar verschieben.",
+        "paragraphs": [
+          "Die EU und die Mercosur-Staaten verhandeln seit Langem über ein Handelsabkommen. Kommissionspräsidentin von der Leyen will die Unterzeichnung nun auf Januar verschieben."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/mercosur-abkommen-unterzeichnung-ursula-von-der-leyen",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-18T20:04:38.000Z"
+      },
+      {
         "id": "{urn:uuid:d949721b-8f39-480e-9e2e-2cbd675b5d26}",
         "title": "Bundestagswahl: Bundestag lehnt vom BSW geforderte Neuauszählung der Wahl ab",
         "summary": "Der Bundestag will die Bundestagswahl nicht noch einmal zählen lassen und folgt damit der Empfehlung des Wahlprüfungsausschusses. Das BSW will nun in Karlsruhe klagen.",
@@ -233,7 +244,49 @@
         ],
         "link": "https://www.zeit.de/politik/deutschland/2025-12/bundestagswahl-bsw-neuauszaehlung-wahlpruefungsausschuss",
         "source": "ZEIT",
-        "publishedAt": "2025-12-18T19:40:41.000Z"
+        "publishedAt": "2025-12-18T20:00:39.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/mercosur-abkommen-meloni-verhindert-verhandlungen-ueber-freihandelszone-a-2e72c942-8904-4c81-b08f-c6ca566a5727",
+        "title": "Mercosur-Abkommen: Meloni verhindert Verhandlungen über Freihandelszone",
+        "summary": "Eigentlich sollte in dieser Woche das größte Freihandelsabkommen der Welt zwischen der EU und Südamerika unterzeichnet werden. Doch Italiens Ministerpräsidentin stoppte den Prozess in letzter Minute.",
+        "paragraphs": [
+          "Eigentlich sollte in dieser Woche das größte Freihandelsabkommen der Welt zwischen der EU und Südamerika unterzeichnet werden. Doch Italiens Ministerpräsidentin stoppte den Prozess in letzter Minute."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/mercosur-abkommen-meloni-verhindert-verhandlungen-ueber-freihandelszone-a-2e72c942-8904-4c81-b08f-c6ca566a5727#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-18T19:57:00.000Z"
+      },
+      {
+        "id": "li.3352720",
+        "title": "USA: Aus dem „Kennedy Center“ wird das „Trump Kennedy Center“",
+        "summary": "Das nationale Kulturzentrum der Vereinigten Staaten in Washington D.C. soll in Zukunft soll es auch Trumps Namen tragen. Ein weiterer Schritt, die Hauptstadt in seinem Sinne umzugestalten.",
+        "paragraphs": [
+          "Das nationale Kulturzentrum der Vereinigten Staaten in Washington D.C. soll in Zukunft soll es auch Trumps Namen tragen. Ein weiterer Schritt, die Hauptstadt in seinem Sinne umzugestalten."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-kennedy-center-li.3352720",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-18T19:55:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:d1a445b8-5093-4f88-b7a0-bb6a1ff03271}",
+        "title": "Venezuela: Brasilien und Mexiko bieten Vermittlung zwischen USA und Venezuela an",
+        "summary": "Im US-Venezuala-Konflikt wollen Brasilien und Mexiko eine militärische Eskalation verhindern. Zuvor hatte Russland die US-Regierung zur \"Deeskalation\" aufgerufen.",
+        "paragraphs": [
+          "Im US-Venezuala-Konflikt wollen Brasilien und Mexiko eine militärische Eskalation verhindern. Zuvor hatte Russland die US-Regierung zur \"Deeskalation\" aufgerufen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-krise-vermittlung-brasilien-mexiko",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-18T19:48:52.000Z"
+      },
+      {
+        "id": "li.3357002",
+        "title": "BSW scheitert mit Einspruch: Keine Neuauszählung der Bundestagswahl",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/bsw-scheitert-mit-einspruch-keine-neuauszaehlung-der-bundestagswahl-li.3357002",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-18T19:47:42.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/bundestag-lehnt-beschwerde-des-buendnis-sahra-wagenknecht-ab-keine-neuauszaehlung-a-2472273a-3750-4cbc-bf97-32d64ec03070",
@@ -245,17 +298,6 @@
         "link": "https://www.spiegel.de/politik/deutschland/bundestag-lehnt-beschwerde-des-buendnis-sahra-wagenknecht-ab-keine-neuauszaehlung-a-2472273a-3750-4cbc-bf97-32d64ec03070#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-18T19:33:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:d1a445b8-5093-4f88-b7a0-bb6a1ff03271}",
-        "title": "Venezuela: Brasilien und Mexiko bieten Vermittlung zwischen USA und Venezuela an",
-        "summary": "Im US-Venezuala-Konflikt wollen Brasilien und Mexiko eine militärische Eskalation verhindern. Zuvor hatte Russland die US-Regierung zur \"Deeskalation\" aufgerufen.",
-        "paragraphs": [
-          "Im US-Venezuala-Konflikt wollen Brasilien und Mexiko eine militärische Eskalation verhindern. Zuvor hatte Russland die US-Regierung zur \"Deeskalation\" aufgerufen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-krise-vermittlung-brasilien-mexiko",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-18T19:25:16.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/katherina-reiche-die-unabhaengige/100178490.html",
@@ -399,50 +441,6 @@
         "link": "https://www.sueddeutsche.de/politik/moskau-prozess-karnevalswagen-bauer-jacques-tilly-li.3356971",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-18T17:14:34.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/news-des-tages-showdown-in-bruessel-um-eingefrorenes-russisches-vermoegen-neue-details-zum-nord-stream-anschlag-missbrauchsprozess-in-erfurt-a-e5834721-6751-4e28-a426-90a71ef156d2",
-        "title": "News des Tages: Showdown in Brüssel um eingefrorenes russisches Vermögen, Neue Details zum Nord-Stream-Anschlag, Missbrauchsprozess in Erfurt",
-        "summary": "Beim EU-Gipfel geht es um eingefrorene russische Vermögen. Zu einem mutmaßlichen Nord-Stream-Saboteur gibt es neue Erkenntnisse. Und in Erfurt startet der Missbrauchsprozess gegen einen Lehrer. Das ist die Lage am Donnerstagabend.",
-        "paragraphs": [
-          "Beim EU-Gipfel geht es um eingefrorene russische Vermögen. Zu einem mutmaßlichen Nord-Stream-Saboteur gibt es neue Erkenntnisse. Und in Erfurt startet der Missbrauchsprozess gegen einen Lehrer. Das ist die Lage am Donnerstagabend."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-showdown-in-bruessel-um-eingefrorenes-russisches-vermoegen-neue-details-zum-nord-stream-anschlag-missbrauchsprozess-in-erfurt-a-e5834721-6751-4e28-a426-90a71ef156d2#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-18T17:02:00.000Z"
-      },
-      {
-        "id": "li.3356421",
-        "title": "Glosse: Das Streiflicht",
-        "summary": "Wenn die Kinder im Auto unablässig fragen, wann wir da sind, wird es höchste Zeit für eine durch und durch philosophische Antwort.",
-        "paragraphs": [
-          "Wenn die Kinder im Auto unablässig fragen, wann wir da sind, wird es höchste Zeit für eine durch und durch philosophische Antwort."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/glosse-das-streiflicht-li.3356421",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-18T16:59:24.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/eu-gipfel-bauern-protestieren-mit-kartoffeln-und-rauchbomben-a-43bf20ad-0d7b-4e75-a6db-b9c32dfbccdd",
-        "title": "EU-Gipfel: Bauern protestieren mit Kartoffeln und Rauchbomben",
-        "summary": "In Brüssel blockierten Landwirte aus ganz Europa die Stadt. Mit brennenden Barrikaden wollen sie ein Freihandelsabkommen verhindern, das seit 1999 verhandelt wird. Und das 700 Millionen Menschen betreffen könnte.",
-        "paragraphs": [
-          "In Brüssel blockierten Landwirte aus ganz Europa die Stadt. Mit brennenden Barrikaden wollen sie ein Freihandelsabkommen verhindern, das seit 1999 verhandelt wird. Und das 700 Millionen Menschen betreffen könnte."
-        ],
-        "link": "https://www.spiegel.de/politik/eu-gipfel-bauern-protestieren-mit-kartoffeln-und-rauchbomben-a-43bf20ad-0d7b-4e75-a6db-b9c32dfbccdd#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-18T16:36:00.000Z"
-      },
-      {
-        "id": "er.e706349",
-        "title": "Russland und der Krieg: „Es ist nicht okay, dass die Friedensverhandler nicht über die ukrainischen Kinder sprechen“",
-        "summary": "Seit Kriegsbeginn hat der Kreml etwa 20 000 Kinder nach Russland verschleppen lassen. Nur ein kleiner Teil von ihnen ist zurückgekehrt, einige wenige auch mithilfe von Melania Trump.   Den Einsatz der First Lady weiß die Friedensnobelpreisträgerin Oleksandra Matwijtschuk zu schätzen. Aber sie kritisiert: Die Weltgemeinschaft vergisst die Kinder in den besetzen Gebieten.",
-        "paragraphs": [
-          "Seit Kriegsbeginn hat der Kreml etwa 20 000 Kinder nach Russland verschleppen lassen. Nur ein kleiner Teil von ihnen ist zurückgekehrt, einige wenige auch mithilfe von Melania Trump.   Den Einsatz der First Lady weiß die Friedensnobelpreisträgerin Oleksandra Matwijtschuk zu schätzen. Aber sie kritisiert: Die Weltgemeinschaft vergisst die Kinder in den besetzen Gebieten."
-        ],
-        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/ukraine-kinder-russland-illegal-melania-trump-matwijtschuk-e706349/",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-18T16:34:00.000Z"
       }
     ],
     "sport": [
