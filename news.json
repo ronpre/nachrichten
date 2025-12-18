@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-18T06:57:54.929Z",
+  "updatedAt": "2025-12-18T07:11:40.204Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/finanzmarkt-schweizer-wettbewerbshueter-decken-haendlerabsprachen-auf/100184941.html",
+        "title": "Finanzmarkt: Schweizer Wettbewerbshüter decken Händlerabsprachen auf",
+        "summary": "Über Jahre hat die Schweizer Wettbewerbskommission mögliche Absprachen auf den Finanzmärkten untersucht. Nun legt die Behörde ein Ergebnis vor.",
+        "paragraphs": [
+          "Über Jahre hat die Schweizer Wettbewerbskommission mögliche Absprachen auf den Finanzmärkten untersucht. Nun legt die Behörde ein Ergebnis vor."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/finanzmarkt-schweizer-wettbewerbshueter-decken-haendlerabsprachen-auf/100184941.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-18T06:58:14.000Z"
+      },
       {
         "id": "{urn:uuid:9854ae32-c1f6-453f-bc6a-768f5ee06178}",
         "title": "Mehrwertsteuer: Gastroketten wollen Mehrwertsteuersenkung nicht an Kunden weitergeben",
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/unternehmen/start-ups/longevity-diese-gruender-wollen-longevity-clubs-in-europa-etablieren/100182916.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-18T03:14:34.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-anhaltende-zinspause-erwartet-neue-prognose-zum-inflationsschub/100182257.html",
-        "title": "Geldpolitik: Erneute Zinspause der EZB erwartet – neue Prognose zum Inflationsschub",
-        "summary": "Die Euro-Notenbank wird am Donnerstag den Einlagenzins beibehalten. Neue EZB-Prognosen liefern Hinweise, wann die Preise wieder steigen könnten – und ob 2026 ein Zinsschritt denkbar ist.",
-        "paragraphs": [
-          "Die Euro-Notenbank wird am Donnerstag den Einlagenzins beibehalten. Neue EZB-Prognosen liefern Hinweise, wann die Preise wieder steigen könnten – und ob 2026 ein Zinsschritt denkbar ist."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-anhaltende-zinspause-erwartet-neue-prognose-zum-inflationsschub/100182257.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-18T03:13:05.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:070cbe7f-9002-441c-b2fd-2868408d497b}",
+        "title": "Australien: Anthony Albanese räumt Versäumnisse im Kampf gegen Antisemitismus ein",
+        "summary": "Nach dem antisemitischen Anschlag in Sydney will Premierminister Albanese den Einsatz gegen Extremisten verstärken. So soll etwa das Aufenthaltsrecht verschärft werden.",
+        "paragraphs": [
+          "Nach dem antisemitischen Anschlag in Sydney will Premierminister Albanese den Einsatz gegen Extremisten verstärken. So soll etwa das Aufenthaltsrecht verschärft werden."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/australien-bondi-beach-terrorangriff-antisemitismus-anthony-albanese",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-18T06:56:17.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/usa-usa-genehmigen-groesstes-waffenpaket-aller-zeiten-fuer-taiwan/29669594.html",
         "title": "+++ USA +++: USA genehmigen größtes Waffenpaket aller Zeiten für Taiwan",
@@ -256,17 +267,6 @@
         "link": "https://www.spiegel.de/politik/deutschland/deutschland-lars-klingbeil-bereitet-buerger-auf-sparkurs-vor-a-5bf7efe6-0d1d-4d4f-a898-61e3f9c511cb#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-18T06:30:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:070cbe7f-9002-441c-b2fd-2868408d497b}",
-        "title": "Australien: Anthony Albanese räumt Versäumnisse im Kampf gegen Antisemitismus ein",
-        "summary": "Nach dem antisemitischen Anschlag in Sydney will Premierminister Albanese den Einsatz gegen Extremisten verstärken. So soll etwa das Aufenthaltsrecht verschärft werden.",
-        "paragraphs": [
-          "Nach dem antisemitischen Anschlag in Sydney will Premierminister Albanese den Einsatz gegen Extremisten verstärken. So soll etwa das Aufenthaltsrecht verschärft werden."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/australien-bondi-beach-terrorangriff-antisemitismus-anthony-albanese",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-18T06:29:27.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-welche-folgen-der-zugriff-auf-russische-vermoegen-haette-03/100182346.html",
@@ -669,6 +669,61 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/ratgeber/Kubernetes-Cluster-von-Ingress-Nginx-zu-Traefik-migrieren-11094019.html",
+        "title": "heise+ | Kubernetes-Cluster von Ingress Nginx zu Traefik migrieren",
+        "summary": "Das Kubernetes-Projekt wickelt Ingress Nginx zum März ab. Administratoren müssen ihre Cluster jetzt zukunftsfähig machen. Wir zeigen den Wechsel zu Traefik.",
+        "paragraphs": [
+          "Das Kubernetes-Projekt wickelt Ingress Nginx zum März ab. Administratoren müssen ihre Cluster jetzt zukunftsfähig machen. Wir zeigen den Wechsel zu Traefik."
+        ],
+        "link": "https://www.heise.de/ratgeber/Kubernetes-Cluster-von-Ingress-Nginx-zu-Traefik-migrieren-11094019.html",
+        "source": "c't",
+        "publishedAt": "2025-12-18T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/hintergrund/Wie-Volvo-Software-fuer-seine-Autos-testet-11099040.html",
+        "title": "heise+ | Wie Volvo Software für seine Autos testet",
+        "summary": "Volvo betreibt im schwedischen Göteborg ein Testzentrum, in dem es nicht um die Autos an sich dreht, sondern rein um deren Software. Ein Ortsbesuch.",
+        "paragraphs": [
+          "Volvo betreibt im schwedischen Göteborg ein Testzentrum, in dem es nicht um die Autos an sich dreht, sondern rein um deren Software. Ein Ortsbesuch."
+        ],
+        "link": "https://www.heise.de/hintergrund/Wie-Volvo-Software-fuer-seine-Autos-testet-11099040.html",
+        "source": "c't",
+        "publishedAt": "2025-12-18T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Es-geht-bei-Cowboy-weiter-Rebirth-Group-uebernimmt-Mehrheit-11118552.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Es geht bei Cowboy weiter: Rebirth Group übernimmt Mehrheit",
+        "summary": "Der belgische E-Bike-Hersteller Cowboy ist nun gerettet. Die französische Rebirth Group wird Mehrheitseigner und will das Unternehmen stabilisieren.",
+        "paragraphs": [
+          "Der belgische E-Bike-Hersteller Cowboy ist nun gerettet. Die französische Rebirth Group wird Mehrheitseigner und will das Unternehmen stabilisieren."
+        ],
+        "link": "https://www.heise.de/news/Es-geht-bei-Cowboy-weiter-Rebirth-Group-uebernimmt-Mehrheit-11118552.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-18T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/KI-Coding-Tools-im-Vergleich-GitHub-Copilot-Cursor-Claude-Code-und-mehr-11117637.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: KI-Coding-Tools im Vergleich – GitHub Copilot, Cursor, Claude Code und mehr",
+        "summary": "KI-gestützte Entwicklungstools prägen den Programmieralltag. Unser Experte zeigt die wichtigsten Tools und demonstriert, wie man sie optimal einsetzt.",
+        "paragraphs": [
+          "KI-gestützte Entwicklungstools prägen den Programmieralltag. Unser Experte zeigt die wichtigsten Tools und demonstriert, wie man sie optimal einsetzt."
+        ],
+        "link": "https://www.heise.de/news/KI-Coding-Tools-im-Vergleich-GitHub-Copilot-Cursor-Claude-Code-und-mehr-11117637.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-18T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Ladeinfrastruktur-2025-Geringeres-Wachstum-und-mehr-Leistung-an-Schnellladern-11116482.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Ladeinfrastruktur 2025: Geringeres Wachstum und mehr Leistung an Schnellladern",
+        "summary": "Der Ausbau der Ladeinfrastruktur hat sich im Jahr 2025 weiter verlangsamt. Dafür hat die Bedeutung von DC-Ladesäulen weiter zugenommen.",
+        "paragraphs": [
+          "Der Ausbau der Ladeinfrastruktur hat sich im Jahr 2025 weiter verlangsamt. Dafür hat die Bedeutung von DC-Ladesäulen weiter zugenommen."
+        ],
+        "link": "https://www.heise.de/news/Ladeinfrastruktur-2025-Geringeres-Wachstum-und-mehr-Leistung-an-Schnellladern-11116482.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-18T06:56:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Angriffe-auf-Zero-Day-Luecken-Cisco-Sonicwall-und-Asus-Live-Update-11119069.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Angriffe auf Zero-Day-Lücken: Cisco, Sonicwall und Asus Live Update",
         "summary": "Die CISA warnt vor beobachteten Angriffen auf Cisco-, Sonicwall- und Asus-Sicherheitslücken. Updates sind teils verfügbar.",
@@ -832,61 +887,6 @@
         "link": "https://www.heise.de/news/Docker-Inc-macht-gehaertete-Abbilder-kostenlos-verfuegbar-11118764.html",
         "source": "c't",
         "publishedAt": "2025-12-17T18:21:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Docker-Inc-macht-gehaertete-Abbilder-kostenlos-verfuegbar-11118764.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Docker Inc. macht gehärtete Abbilder kostenlos verfügbar",
-        "summary": "Gehärtete Docker-Images sind auf ein Minimum reduziert, sodass möglichst wenig Angriffsfläche bleibt. Docker Inc. stellt solche jetzt kostenfrei zur Verfügung.",
-        "paragraphs": [
-          "Gehärtete Docker-Images sind auf ein Minimum reduziert, sodass möglichst wenig Angriffsfläche bleibt. Docker Inc. stellt solche jetzt kostenfrei zur Verfügung."
-        ],
-        "link": "https://www.heise.de/news/Docker-Inc-macht-gehaertete-Abbilder-kostenlos-verfuegbar-11118764.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-17T18:21:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Spionagesoftware-enttarnt-Wie-Belarus-Journalisten-mit-ResidentBat-ueberwacht-11118846.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Spionagesoftware enttarnt: Wie Belarus Journalisten mit \"ResidentBat\" überwacht",
-        "summary": "Forscher haben eine Android-Spyware identifiziert, die seit Jahren direkt gegen Medienakteure in Weißrussland eingesetzt wird. Sie baut auf dreiste Täuschung.",
-        "paragraphs": [
-          "Forscher haben eine Android-Spyware identifiziert, die seit Jahren direkt gegen Medienakteure in Weißrussland eingesetzt wird. Sie baut auf dreiste Täuschung."
-        ],
-        "link": "https://www.heise.de/news/Spionagesoftware-enttarnt-Wie-Belarus-Journalisten-mit-ResidentBat-ueberwacht-11118846.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-17T18:05:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Update-fuers-Haftungsrecht-Wenn-der-Algorithmus-Schaeden-verursacht-11118796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Update fürs Haftungsrecht: Wenn der Algorithmus Schäden verursacht",
-        "summary": "Die Bundesregierung bringt die Modernisierung der Produkthaftung auf den Weg. Künftig stehen Softwarehersteller und KI-Entwickler bei Fehlern in der Pflicht.",
-        "paragraphs": [
-          "Die Bundesregierung bringt die Modernisierung der Produkthaftung auf den Weg. Künftig stehen Softwarehersteller und KI-Entwickler bei Fehlern in der Pflicht."
-        ],
-        "link": "https://www.heise.de/news/Update-fuers-Haftungsrecht-Wenn-der-Algorithmus-Schaeden-verursacht-11118796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-17T17:45:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/GeForce-Grafikkarten-Nvidia-will-GPU-Produktion-angeblich-massiv-senken-11118770.html",
-        "title": "GeForce-Grafikkarten: Nvidia will GPU-Produktion angeblich massiv senken",
-        "summary": "Gerüchten zufolge reduziert Nvidia die Produktion seiner GeForce-GPUs um 30 bis 40 Prozent. Betroffen sollen vor allem zwei Modelle sein.",
-        "paragraphs": [
-          "Gerüchten zufolge reduziert Nvidia die Produktion seiner GeForce-GPUs um 30 bis 40 Prozent. Betroffen sollen vor allem zwei Modelle sein."
-        ],
-        "link": "https://www.heise.de/news/GeForce-Grafikkarten-Nvidia-will-GPU-Produktion-angeblich-massiv-senken-11118770.html",
-        "source": "c't",
-        "publishedAt": "2025-12-17T17:38:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/GeForce-Grafikkarten-Nvidia-will-GPU-Produktion-angeblich-massiv-senken-11118770.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "GeForce-Grafikkarten: Nvidia will GPU-Produktion angeblich massiv senken",
-        "summary": "Gerüchten zufolge reduziert Nvidia die Produktion seiner GeForce-GPUs um 30 bis 40 Prozent. Betroffen sollen vor allem zwei Modelle sein.",
-        "paragraphs": [
-          "Gerüchten zufolge reduziert Nvidia die Produktion seiner GeForce-GPUs um 30 bis 40 Prozent. Betroffen sollen vor allem zwei Modelle sein."
-        ],
-        "link": "https://www.heise.de/news/GeForce-Grafikkarten-Nvidia-will-GPU-Produktion-angeblich-massiv-senken-11118770.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-17T17:38:00.000Z"
       }
     ]
   }
