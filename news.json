@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-18T18:50:39.338Z",
+  "updatedAt": "2025-12-18T19:05:50.402Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Merz will auch in Deutschland eingefrorenes Geld für Ukraine nutzen",
+        "summary": "210 Milliarden Euro russischen Geldes sind in der EU eingefroren, etwa ein Tausendstel davon in Deutschland. Auch diese Mittel will der Kanzler einsetzen. Das Liveblog",
+        "paragraphs": [
+          "210 Milliarden Euro russischen Geldes sind in der EU eingefroren, etwa ein Tausendstel davon in Deutschland. Auch diese Mittel will der Kanzler einsetzen. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-18T18:47:48.000Z"
+      },
+      {
         "id": "{urn:uuid:d08b4fca-e8fc-45c8-8bdd-30d1a64c79fb}",
         "title": "Brüssel: Bauernproteste gegen Mercosur-Abkommen der EU schlagen in Gewalt um",
         "summary": "In Brüssel ist die Sicherheitslage angesichts der gewaltvollen Bauernproteste angespannt. Mehrere EU-Gebäude wurden beschädigt, mindestens eine Person wurde verletzt.",
@@ -432,20 +443,53 @@
         "link": "https://www.spiegel.de/politik/ukrainischer-ex-kommandeur-bestaetigt-verdaechtiger-war-zur-tatzeit-elitesoldat-a-48a843bc-3945-4d05-9b01-4ede00706335#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-18T15:31:00.000Z"
-      },
-      {
-        "id": "li.3356042",
-        "title": "AfD: Der Verteidigungspolitiker, der sich selbst verteidigen muss",
-        "summary": "Rüdiger Lucassen kritisierte den Thüringer Landesvorsitzenden wegen dessen Aussagen zur Wehrpflicht scharf. Nun drohen ihm Strafen. Und die beiden Männer führen stellvertretend eine Auseinandersetzung über die Richtung ihrer Partei.",
-        "paragraphs": [
-          "Rüdiger Lucassen kritisierte den Thüringer Landesvorsitzenden wegen dessen Aussagen zur Wehrpflicht scharf. Nun drohen ihm Strafen. Und die beiden Männer führen stellvertretend eine Auseinandersetzung über die Richtung ihrer Partei."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ruediger-lucassen-streit-wehrpflicht-afd-bjoern-hoecke-li.3356042",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-18T15:22:39.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/live-ex-bundesliga-coach-reis-mit-samsunspor-in-mainz-zu-gast-1176131/artikel#omrss",
+        "title": "LIVE! Ex-Bundesliga-Coach Reis mit Samsunspor in Mainz zu Gast",
+        "summary": "In der Conference League ist es für die Mainzer ein völlig anderes Gefühl, auf die Tabelle zu blicken: Denn dort stehen sie weit oben und können das Jahr sogar in den Top 8 abschließen. Am 6. Spieltag ist Samsunspor in der Mewa Arena zu Gast.",
+        "paragraphs": [
+          "In der Conference League ist es für die Mainzer ein völlig anderes Gefühl, auf die Tabelle zu blicken: Denn dort stehen sie weit oben und können das Jahr sogar in den Top 8 abschließen. Am 6. Spieltag ist Samsunspor in der Mewa Arena zu Gast."
+        ],
+        "link": "https://www.kicker.de/live-ex-bundesliga-coach-reis-mit-samsunspor-in-mainz-zu-gast-1176131/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-18T18:57:03.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/rekordjahr-spielervermittler-knacken-die-milliardenmarke-1177037/artikel#omrss",
+        "title": "Rekordjahr: Spielervermittler knacken die Milliardenmarke",
+        "summary": "Seit Jahren wird versucht, die Einnahmen der Spielerberater zu begrenzen - mit überschaubarem Erfolg. Jetzt kam heraus, dass die Spielervermittler im laufenden Jahr so viel verdient haben wie noch nie zuvor.",
+        "paragraphs": [
+          "Seit Jahren wird versucht, die Einnahmen der Spielerberater zu begrenzen - mit überschaubarem Erfolg. Jetzt kam heraus, dass die Spielervermittler im laufenden Jahr so viel verdient haben wie noch nie zuvor."
+        ],
+        "link": "https://www.kicker.de/rekordjahr-spielervermittler-knacken-die-milliardenmarke-1177037/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-18T18:55:16.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/schuster-muss-wieder-auf-beste-und-lienhart-verzichten-1177054/artikel#omrss",
+        "title": "Schuster muss wieder auf Beste und Lienhart verzichten",
+        "summary": "Der SC Freiburg ist in allen drei Wettbewerben noch dabei, aber im Kerngeschäft Bundesliga nicht ganz zufrieden - und hofft in Wolfsburg auf einen positiven Jahresabschluss.",
+        "paragraphs": [
+          "Der SC Freiburg ist in allen drei Wettbewerben noch dabei, aber im Kerngeschäft Bundesliga nicht ganz zufrieden - und hofft in Wolfsburg auf einen positiven Jahresabschluss."
+        ],
+        "link": "https://www.kicker.de/schuster-muss-wieder-auf-beste-und-lienhart-verzichten-1177054/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-18T18:51:12.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-blitzstart-im-topspiel-haie-und-muenchen-mit-pflichtaufgaben-1176705/artikel#omrss",
+        "title": "LIVE! Blitzstart im Topspiel - Haie und München mit Pflichtaufgaben",
+        "summary": "Der 29. Spieltag in der DEL beginnt am Donnerstag mit diesmal sogar gleich drei Partien. Darunter das Top-Spiel in Ingolstadt, denn der Tabellenführer empfängt Meister Berlin. Köln und München gehen als Favoriten in ihre Heimspiele gegen Wolfsburg beziehungsweise Schwenningen.",
+        "paragraphs": [
+          "Der 29. Spieltag in der DEL beginnt am Donnerstag mit diesmal sogar gleich drei Partien. Darunter das Top-Spiel in Ingolstadt, denn der Tabellenführer empfängt Meister Berlin. Köln und München gehen als Favoriten in ihre Heimspiele gegen Wolfsburg beziehungsweise Schwenningen."
+        ],
+        "link": "https://www.kicker.de/live-blitzstart-im-topspiel-haie-und-muenchen-mit-pflichtaufgaben-1176705/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-18T18:50:03.000Z"
+      },
       {
         "id": "https://www.spiegel.de/sport/darts-wm-kenianer-david-munyua-trotzt-rueckstand-rechenfehlern-und-einer-wespe-a-168141ed-6ebd-4c67-b750-4edef01d97d2",
         "title": "Darts-WM: Kenianer David Munyua trotzt Rückstand, Rechenfehlern und einer Wespe",
@@ -458,22 +502,11 @@
         "publishedAt": "2025-12-18T18:31:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-eisbaeren-beim-tabellenfuehrer-haie-und-muenchen-mit-pflichtaufgaben-1176705/artikel#omrss",
-        "title": "LIVE! Eisbären beim Tabellenführer - Haie und München mit Pflichtaufgaben",
-        "summary": "Der 29. Spieltag in der DEL beginnt am Donnerstag mit diesmal sogar gleich drei Partien. Darunter das Top-Spiel in Ingolstadt, denn der Tabellenführer empfängt Meister Berlin. Köln und München gehen als Favoriten in ihre Heimspiele gegen Wolfsburg beziehungsweise Schwenningen.",
-        "paragraphs": [
-          "Der 29. Spieltag in der DEL beginnt am Donnerstag mit diesmal sogar gleich drei Partien. Darunter das Top-Spiel in Ingolstadt, denn der Tabellenführer empfängt Meister Berlin. Köln und München gehen als Favoriten in ihre Heimspiele gegen Wolfsburg beziehungsweise Schwenningen."
-        ],
-        "link": "https://www.kicker.de/live-eisbaeren-beim-tabellenfuehrer-haie-und-muenchen-mit-pflichtaufgaben-1176705/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-18T18:29:00.000Z"
-      },
-      {
         "id": "https://www.kicker.de/neapel-gegen-milan-2025-supercoppa-5176136/spielbericht#omrss",
         "title": "LIVE! Topspiel im Supercup: Milan zu Gast bei Napoli",
-        "summary": "In der Serie A sind die SSC Neapel und der AC Mailand auf Rang 2 und 3 die beiden Verfolger von Spitzenreiter Inter, nun kommt es jedoch im Supercup zum direkten Aufeinandertreffen. Wer behält die Oberhand?",
+        "summary": "In der Serie A sind die SSC Neapel und der AC Mailand auf Rang 2 und 3 die beiden Verfolger von Spitzenreiter Inter, nun kommt es jedoch im Supercup zum direkten Aufeinandertreffen. Wer behält in Riad die Oberhand?",
         "paragraphs": [
-          "In der Serie A sind die SSC Neapel und der AC Mailand auf Rang 2 und 3 die beiden Verfolger von Spitzenreiter Inter, nun kommt es jedoch im Supercup zum direkten Aufeinandertreffen. Wer behält die Oberhand?"
+          "In der Serie A sind die SSC Neapel und der AC Mailand auf Rang 2 und 3 die beiden Verfolger von Spitzenreiter Inter, nun kommt es jedoch im Supercup zum direkten Aufeinandertreffen. Wer behält in Riad die Oberhand?"
         ],
         "link": "https://www.kicker.de/neapel-gegen-milan-2025-supercoppa-5176136/spielbericht#omrss",
         "source": "Kicker",
@@ -511,6 +544,17 @@
         "link": "https://www.kicker.de/finalissima-2026-spanien-fordert-titelverteidiger-argentinien-in-doha-1177020/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-18T18:05:31.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/dahmke-und-reichmann-aeussern-sich-zu-freihoefer-verzicht-1177026/artikel#omrss",
+        "title": "Dahmke und Reichmann äußern sich zu Freihöfer-Verzicht",
+        "summary": "Rune Dahmke steht im deutschen EM-Kader, Tim Freihöfer musste weichen. Nach viel Kritik äußerten sich nun auch der Kieler selbst sowie Tobias Reichmann.",
+        "paragraphs": [
+          "Rune Dahmke steht im deutschen EM-Kader, Tim Freihöfer musste weichen. Nach viel Kritik äußerten sich nun auch der Kieler selbst sowie Tobias Reichmann."
+        ],
+        "link": "https://www.kicker.de/dahmke-und-reichmann-aeussern-sich-zu-freihoefer-verzicht-1177026/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-18T17:57:00.000Z"
       },
       {
         "id": "https://www.kicker.de/ally-pally-bebt-sakai-tanzt-kenianer-munyua-schockt-de-decker-1177029/video#omrss",
@@ -613,50 +657,6 @@
         "link": "https://www.kicker.de/nicht-selbstverstaendlich-preussen-halten-batmaz-1177005/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-18T17:06:59.000Z"
-      },
-      {
-        "id": "li.3355761",
-        "title": "Boxduell Joshua – Paul: Der Kampf des Jahres – und es geht nicht mal um einen großen Titel",
-        "summary": "Der frühere Schwergewichtsweltmeister Anthony Joshua boxt gegen den Influencer Jake Paul. Dabei geht es vor allem um Aufmerksamkeit, aber auch um die Frage, was geblieben ist von jenem Versprechen, das Joshua einst war.",
-        "paragraphs": [
-          "Der frühere Schwergewichtsweltmeister Anthony Joshua boxt gegen den Influencer Jake Paul. Dabei geht es vor allem um Aufmerksamkeit, aber auch um die Frage, was geblieben ist von jenem Versprechen, das Joshua einst war."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/anthony-joshua-jake-paul-boxkampf-miami-li.3355761",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-18T16:52:24.000Z"
-      },
-      {
-        "id": "li.3356024",
-        "title": "Afrika-Cup-Gastgeber Marokko: Milliardenschwere Fußballoffensive – und ganz andere Probleme",
-        "summary": "Erst Afrika-Cup, dann WM 2030: Der Sport soll Marokkos Wandel beschleunigen. Aber während das größte Stadion der Welt gebaut wird, suchen viele Menschen im Land Arbeit – und Tausende protestieren.",
-        "paragraphs": [
-          "Erst Afrika-Cup, dann WM 2030: Der Sport soll Marokkos Wandel beschleunigen. Aber während das größte Stadion der Welt gebaut wird, suchen viele Menschen im Land Arbeit – und Tausende protestieren."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/fussball-wm-marokko-afrika-cup-probleme-li.3356024",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-18T16:52:06.000Z"
-      },
-      {
-        "id": "{urn:uuid:69180c0f-b518-4331-b23d-9a235d1a1ab0}",
-        "title": "Florian Lipowitz: \"Ich bin nicht der Typ, der sagt: Ich möchte die Tour gewinnen\"",
-        "summary": "Der Aufsteiger des Jahres im Sport heißt Florian Lipowitz. Nun spricht der stille Radfahrer erstmals über seinen 3. Platz bei der Tour de France und seine nächsten Ziele.",
-        "paragraphs": [
-          "Der Aufsteiger des Jahres im Sport heißt Florian Lipowitz. Nun spricht der stille Radfahrer erstmals über seinen 3. Platz bei der Tour de France und seine nächsten Ziele."
-        ],
-        "link": "https://www.zeit.de/sport/2025-12/florian-lipowitz-tour-de-france-radrennfahrer-sponsoring-ralph-denk",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-18T16:50:16.000Z"
-      },
-      {
-        "id": "li.3356702",
-        "title": "Frauenhandball: Das Buch zur Medaille",
-        "summary": "Übersichtlich und kurzweilig: „Sheroes“ bringt den Frauenhandball und dessen Protagonistinnen näher – und füllt eine Lücke.",
-        "paragraphs": [
-          "Übersichtlich und kurzweilig: „Sheroes“ bringt den Frauenhandball und dessen Protagonistinnen näher – und füllt eine Lücke."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/handball-buch-sheroes-rezension-li.3356702",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-18T16:46:17.000Z"
       }
     ],
     "edv": [
