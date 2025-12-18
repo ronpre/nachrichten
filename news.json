@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-18T22:05:32.704Z",
+  "updatedAt": "2025-12-18T22:17:37.892Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:226d2d35-6e4a-4d72-bee2-c5f523ad1a94}",
+        "title": "Epstein-Affäre: Demokraten veröffentlichen weitere Fotos aus Epsteins Nachlass",
+        "summary": "Einen Tag vor Ablauf der Frist zur Freigabe von Epsteins Akten haben die Demokraten neue Fotos veröffentlicht. Zu sehen sind erneut Prominenten, darunter Noam Chomsky.",
+        "paragraphs": [
+          "Einen Tag vor Ablauf der Frist zur Freigabe von Epsteins Akten haben die Demokraten neue Fotos veröffentlicht. Zu sehen sind erneut Prominenten, darunter Noam Chomsky."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/epstein-affaere-usa-justizministerium-akten-fotos",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-18T22:01:27.000Z"
+      },
+      {
         "id": "li.3356562",
         "title": "EU-Gipfeltreffen: „Entweder heute Geld oder morgen Blut“",
         "summary": "Die europäischen Staats- und Regierungschefs streiten darüber, wie die Ukraine in den nächsten Jahren finanziert werden soll. In einem sind sie sich einig: Ein Scheitern hätte dramatische Folgen.",
@@ -234,17 +245,6 @@
         "link": "https://www.sueddeutsche.de/politik/eu-gipfel-geld-fuer-die-ukraine-belgien-russland-li.3356562",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-18T21:47:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:226d2d35-6e4a-4d72-bee2-c5f523ad1a94}",
-        "title": "Epstein-Affäre: Demokraten veröffentlichen weitere Fotos aus Epsteins Nachlass",
-        "summary": "Einen Tag vor Ablauf der Frist zur Freigabe von Epsteins Akten haben die Demokraten neue Fotos veröffentlicht. Zu sehen sind erneut Prominenten, darunter Bill Gates.",
-        "paragraphs": [
-          "Einen Tag vor Ablauf der Frist zur Freigabe von Epsteins Akten haben die Demokraten neue Fotos veröffentlicht. Zu sehen sind erneut Prominenten, darunter Bill Gates."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/epstein-affaere-usa-justizministerium-akten-fotos",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-18T21:30:45.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/kuenstliche-intelligenz-usa-holen-microsoft-und-google-fuer-ki-initiative-genesis-mission-an-bord/100185210.html",
@@ -445,15 +445,37 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/widmer-bringt-den-fsv-in-die-spur-mainz-loest-das-direkte-achtelfinal-ticket-1176131/artikel#omrss",
-        "title": "Widmer bringt den FSV in die Spur: Mainz löst das direkte Achtelfinal-Ticket",
-        "summary": "In der Bundesliga Tabellenletzter, in der Conference League oben dabei - und nun direkt im Achtelfinale. Der 1. FSV Mainz 05 hat mit einem verdienten Sieg gegen Samsunspor in der Mewa Arena in den Top 8 abgeschlossen und umgeht so den Umweg Play-offs.",
+        "id": "https://www.kicker.de/valencia-serie-reisst-pao-mit-big-point-real-gewinnt-krimi-gegen-paris-1177041/artikel#omrss",
+        "title": "Valencia-Serie reißt, PAO mit Big Point - Real gewinnt Krimi gegen Paris",
+        "summary": "Zunächst musste sich Valencia nach zuletzt fünf Siegen in Serie geschlagen geben. Tabellenführer Hapoel hat gegen Panathinaikos Athen eine bittere Niederlage hinnehmen müssen, während Fenerbahce in Mailand souverän blieb. Außerdem setzten sich die Königlichen gegen Paris durch.",
         "paragraphs": [
-          "In der Bundesliga Tabellenletzter, in der Conference League oben dabei - und nun direkt im Achtelfinale. Der 1. FSV Mainz 05 hat mit einem verdienten Sieg gegen Samsunspor in der Mewa Arena in den Top 8 abgeschlossen und umgeht so den Umweg Play-offs."
+          "Zunächst musste sich Valencia nach zuletzt fünf Siegen in Serie geschlagen geben. Tabellenführer Hapoel hat gegen Panathinaikos Athen eine bittere Niederlage hinnehmen müssen, während Fenerbahce in Mailand souverän blieb. Außerdem setzten sich die Königlichen gegen Paris durch."
         ],
-        "link": "https://www.kicker.de/widmer-bringt-den-fsv-in-die-spur-mainz-loest-das-direkte-achtelfinal-ticket-1176131/artikel#omrss",
+        "link": "https://www.kicker.de/valencia-serie-reisst-pao-mit-big-point-real-gewinnt-krimi-gegen-paris-1177041/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2025-12-18T21:56:47.000Z"
+        "publishedAt": "2025-12-18T22:10:01.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mainz-gegen-samsun-2025-europa-conference-league-5170574/spielbericht#omrss",
+        "title": "Angeführt vom umtriebigen Amiri: Mainz zieht direkt ins Achtelfinale ein",
+        "summary": "Vor dem Abstiegskracher am Sonntag gegen St. Pauli hat Mainz in der Conference League eine historische Leistung erbracht. Durch ein 2:0 gegen Samsun buchte der FSV erstmals in seiner Vereinsgeschichte das Ticket für ein Europapokal-Achtelfinale.",
+        "paragraphs": [
+          "Vor dem Abstiegskracher am Sonntag gegen St. Pauli hat Mainz in der Conference League eine historische Leistung erbracht. Durch ein 2:0 gegen Samsun buchte der FSV erstmals in seiner Vereinsgeschichte das Ticket für ein Europapokal-Achtelfinale."
+        ],
+        "link": "https://www.kicker.de/mainz-gegen-samsun-2025-europa-conference-league-5170574/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-18T22:00:24.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/das-kann-auf-dauer-nicht-sein-wie-plant-der-vfb-mit-stergiou-und-milosevic-1176982/artikel#omrss",
+        "title": "\"Das kann auf Dauer nicht sein\": Wie plant der VfB mit Stergiou und Milosevic?",
+        "summary": "Viel wird sich im Winter-Transferfenster beim VfB Stuttgart nicht tun. Bei Leonidas Stergiou und Jovan Milosevic muss allerdings eine Lösung her. Wie denkt Sebastian Hoeneß über das Duo?",
+        "paragraphs": [
+          "Viel wird sich im Winter-Transferfenster beim VfB Stuttgart nicht tun. Bei Leonidas Stergiou und Jovan Milosevic muss allerdings eine Lösung her. Wie denkt Sebastian Hoeneß über das Duo?"
+        ],
+        "link": "https://www.kicker.de/das-kann-auf-dauer-nicht-sein-wie-plant-der-vfb-mit-stergiou-und-milosevic-1176982/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-18T22:00:00.000Z"
       },
       {
         "id": "https://www.kicker.de/nach-hartem-kampf-beeindruckter-ally-pally-neuling-gruellich-scheidet-aus-1177079/artikel#omrss",
@@ -588,17 +610,6 @@
         "publishedAt": "2025-12-18T18:55:16.000Z"
       },
       {
-        "id": "https://www.kicker.de/schuster-muss-wieder-auf-beste-und-lienhart-verzichten-1177054/artikel#omrss",
-        "title": "Schuster muss wieder auf Beste und Lienhart verzichten",
-        "summary": "Der SC Freiburg ist in allen drei Wettbewerben noch dabei, aber im Kerngeschäft Bundesliga nicht ganz zufrieden - und hofft in Wolfsburg auf einen positiven Jahresabschluss.",
-        "paragraphs": [
-          "Der SC Freiburg ist in allen drei Wettbewerben noch dabei, aber im Kerngeschäft Bundesliga nicht ganz zufrieden - und hofft in Wolfsburg auf einen positiven Jahresabschluss."
-        ],
-        "link": "https://www.kicker.de/schuster-muss-wieder-auf-beste-und-lienhart-verzichten-1177054/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-18T18:51:12.000Z"
-      },
-      {
         "id": "https://www.spiegel.de/sport/darts-wm-kenianer-david-munyua-trotzt-rueckstand-rechenfehlern-und-einer-wespe-a-168141ed-6ebd-4c67-b750-4edef01d97d2",
         "title": "Darts-WM: Kenianer David Munyua trotzt Rückstand, Rechenfehlern und einer Wespe",
         "summary": "Den ersten Auftritt eines Kenianers bei einer Darts-WM wird das Ally Pally nicht so schnell vergessen. David Munyua dreht die Partie nach 0:2-Rückstand und macht seinem Spitznamen »Why not« alle Ehre.",
@@ -608,17 +619,6 @@
         "link": "https://www.spiegel.de/sport/darts-wm-kenianer-david-munyua-trotzt-rueckstand-rechenfehlern-und-einer-wespe-a-168141ed-6ebd-4c67-b750-4edef01d97d2#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-18T18:31:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/baumgarts-vorfreude-auf-die-rueckkehr-zum-fc-1177036/artikel#omrss",
-        "title": "Baumgarts Vorfreude auf die Rückkehr zum FC",
-        "summary": "Zweieinhalb Jahre wirbelte Trainer Steffen Baumgart beim 1. FC Köln an der Seitenlinie. Nun will er den Rheinländern mit Union Berlin wichtige Punkte abringen.",
-        "paragraphs": [
-          "Zweieinhalb Jahre wirbelte Trainer Steffen Baumgart beim 1. FC Köln an der Seitenlinie. Nun will er den Rheinländern mit Union Berlin wichtige Punkte abringen."
-        ],
-        "link": "https://www.kicker.de/baumgarts-vorfreude-auf-die-rueckkehr-zum-fc-1177036/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-18T18:17:23.000Z"
       },
       {
         "id": "https://www.kicker.de/finalissima-2026-spanien-fordert-titelverteidiger-argentinien-in-doha-1177020/artikel#omrss",
@@ -666,6 +666,17 @@
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Sekundenbruchteile-verraten-Nordkoreaner-11120504.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Sekundenbruchteile verraten Nordkoreaner",
+        "summary": "Die Tastenanschläge eines externen Mitarbeiters waren verdächtig verzögert. Amazon.com erkannte ihn als Nordkoreaner.",
+        "paragraphs": [
+          "Die Tastenanschläge eines externen Mitarbeiters waren verdächtig verzögert. Amazon.com erkannte ihn als Nordkoreaner."
+        ],
+        "link": "https://www.heise.de/news/Sekundenbruchteile-verraten-Nordkoreaner-11120504.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-18T22:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Oesterreichs-Hoechstgericht-verbietet-Meta-Platforms-Geschaeftsmodell-11120486.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Österreichs Höchstgericht: Personalisierte Werbung Meta Platforms’ unzulässig",
@@ -874,17 +885,6 @@
         "link": "https://www.heise.de/news/Phishingversuch-bei-Outfittery-Datenleck-beim-Kleiderversand-11119889.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-18T14:38:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Jahresrueckblick-der-Stoerungen-Die-groessten-Online-Ausfaelle-2025-11119971.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Jahresrückblick der Störungen: Die größten Online-Ausfälle 2025",
-        "summary": "Ein Blick auf das Jahr 2025 zeigt, welche Online-Dienste die weitreichendsten Ausfälle in Europa verzeichneten – von Gaming-Plattformen bis zu Cloud-Anbietern.",
-        "paragraphs": [
-          "Ein Blick auf das Jahr 2025 zeigt, welche Online-Dienste die weitreichendsten Ausfälle in Europa verzeichneten – von Gaming-Plattformen bis zu Cloud-Anbietern."
-        ],
-        "link": "https://www.heise.de/news/Jahresrueckblick-der-Stoerungen-Die-groessten-Online-Ausfaelle-2025-11119971.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-18T14:10:00.000Z"
       }
     ]
   }
