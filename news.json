@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-19T19:45:49.890Z",
+  "updatedAt": "2025-12-19T19:53:26.562Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/zahlungsverkehr-eu-staaten-wollen-haendler-zur-annahme-von-bargeld-verpflichten/100185174.html",
+        "title": "Zahlungsverkehr: EU-Staaten wollen Händler zur Annahme von Bargeld verpflichten",
+        "summary": "Der Europäische Rat stimmt dafür, die Entwicklung des digitalen Euros voranzutreiben. Zugleich will er verhindern, dass Kunden künftig das Bezahlen mit Münzen und Scheinen verwehrt wird.",
+        "paragraphs": [
+          "Der Europäische Rat stimmt dafür, die Entwicklung des digitalen Euros voranzutreiben. Zugleich will er verhindern, dass Kunden künftig das Bezahlen mit Münzen und Scheinen verwehrt wird."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/zahlungsverkehr-eu-staaten-wollen-haendler-zur-annahme-von-bargeld-verpflichten/100185174.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-19T19:38:29.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/cdu-kramp-karrenbauer-zur-chefin-der-adenauer-stiftung-gewaehlt/100185478.html",
         "title": "CDU: Gegen Merz' Kandidaten: Kramp-Karrenbauer zur Chefin der Adenauer-Stiftung gewählt",
@@ -210,20 +221,20 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/europa-fokus-tech-oligarchen-politik-li.3356037",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-19T14:51:28.000Z"
-      },
-      {
-        "id": "{urn:uuid:62f7d1d2-6a99-4641-a2bb-e83d622b08a5}",
-        "title": "Pariser Gericht: Onlinehändler Shein darf weiter nach Frankreich verkaufen",
-        "summary": "Wegen Angebots illegaler Waren wollte der französische Staat den chinesischen E-Commerce-Riesen Shein für drei Monate sperren lassen. Nun scheitert er damit vor Gericht.",
-        "paragraphs": [
-          "Wegen Angebots illegaler Waren wollte der französische Staat den chinesischen E-Commerce-Riesen Shein für drei Monate sperren lassen. Nun scheitert er damit vor Gericht."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/shein-frankreich-sperre-gericht",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-19T14:50:32.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:db897013-01dd-480e-b285-bf772334bde7}",
+        "title": "Union: Kramp-Karrenbauer wird neue Chefin der Konrad-Adenauer-Stiftung",
+        "summary": "Zum ersten Mal gab es eine Kampfabstimmung um den Vorsitz der Adenauer-Stiftung. AKK gewann gegen einen Kandidaten, der von Friedrich Merz vorgeschlagen wurde.",
+        "paragraphs": [
+          "Zum ersten Mal gab es eine Kampfabstimmung um den Vorsitz der Adenauer-Stiftung. AKK gewann gegen einen Kandidaten, der von Friedrich Merz vorgeschlagen wurde."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/kramp-karrenbauer-zur-chefin-der-adenauer-stiftung-gewaehlt",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-19T19:47:04.000Z"
+      },
       {
         "id": "https://www.spiegel.de/politik/brandenburg-bsw-politiker-fordern-rueckzug-von-abgeordneten-a-5e828913-d4b3-414a-a751-576f09fd5ec5",
         "title": "Brandenburg: BSW-Politiker fordern Rückzug von Abgeordneten",
@@ -432,17 +443,6 @@
         "link": "https://www.zeit.de/politik/2025-12/ukraine-hilfe-kredit-russisches-vermoegen-nachrichtenpodcast",
         "source": "ZEIT",
         "publishedAt": "2025-12-19T16:07:36.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/potsdamer-treffen-gericht-weist-klage-gegen-correctiv-ab-a-69d06c4a-a7da-4677-8810-7fbd46052101",
-        "title": "Potsdamer Treffen: Gericht weist Klage gegen »Correctiv« ab",
-        "summary": "Mit einem Bericht über das »Potsdamer Treffen« hatte das Recherchenetzwerk »Correctiv« in Deutschland riesige Proteste gegen rechts ausgelöst. Die Veranstalter des Treffens klagten vergeblich gegen die Berichterstattung.",
-        "paragraphs": [
-          "Mit einem Bericht über das »Potsdamer Treffen« hatte das Recherchenetzwerk »Correctiv« in Deutschland riesige Proteste gegen rechts ausgelöst. Die Veranstalter des Treffens klagten vergeblich gegen die Berichterstattung."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/potsdamer-treffen-gericht-weist-klage-gegen-correctiv-ab-a-69d06c4a-a7da-4677-8810-7fbd46052101#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-19T16:00:00.000Z"
       }
     ],
     "sport": [
@@ -509,13 +509,13 @@
         "publishedAt": "2025-12-19T18:44:03.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-suele-einer-von-fuenf-neuen-angeschlagener-bvb-empfaengt-gladbach-1176682/artikel#omrss",
-        "title": "LIVE! Süle einer von fünf Neuen - Angeschlagener BVB empfängt Gladbach",
+        "id": "https://www.kicker.de/live-flanke-suele-direktabnahme-brandt-bvb-erwischt-traumstart-1176682/artikel#omrss",
+        "title": "LIVE! Flanke Süle, Direktabnahme Brandt: BVB erwischt Traumstart",
         "summary": "Der BVB hat eine enttäuschende englische Woche hinter sich und konnte die Patzer von Bayern und Leipzig am vergangenen Spieltag nicht ausnutzen. Legen die Dortmunder gegen Gladbach vor und setzen die Konkurrenz unter Druck? Die Fohlen würden mit einem Sieg vorübergehend auf Platz 8 springen.",
         "paragraphs": [
           "Der BVB hat eine enttäuschende englische Woche hinter sich und konnte die Patzer von Bayern und Leipzig am vergangenen Spieltag nicht ausnutzen. Legen die Dortmunder gegen Gladbach vor und setzen die Konkurrenz unter Druck? Die Fohlen würden mit einem Sieg vorübergehend auf Platz 8 springen."
         ],
-        "link": "https://www.kicker.de/live-suele-einer-von-fuenf-neuen-angeschlagener-bvb-empfaengt-gladbach-1176682/artikel#omrss",
+        "link": "https://www.kicker.de/live-flanke-suele-direktabnahme-brandt-bvb-erwischt-traumstart-1176682/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-19T18:30:00.000Z"
       },
