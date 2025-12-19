@@ -1,17 +1,39 @@
 {
-  "updatedAt": "2025-12-19T07:53:14.058Z",
+  "updatedAt": "2025-12-19T08:07:17.243Z",
   "categories": {
     "wirtschaft": [
       {
-        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/geldpolitik-japanische-notenbank-hebt-den-leitzins-an/100185276.html",
-        "title": "Geldpolitik: Japanische Notenbank hebt den Leitzins auf den höchsten Stand seit 30 Jahren",
-        "summary": "Die Bank of Japan vollzieht die wohl wichtigste Zinsentscheidung seit Jahrzehnten und hebt den Leitzins auf das höchste Niveau seit 1995. Das soll die geldpolitische Wende einleiten.",
+        "id": "{urn:uuid:e7de577b-d185-4c0a-95ad-c85c5e44cec8}",
+        "title": "Erschwinglichkeit: Erschwinglichkeit wird zur neuen sozialen Frage",
+        "summary": "Wenn sogar die Mittelschicht jeden Euro zweimal umdrehen muss, droht ein Hang zur Wahl extremer Parteien. Die Politik muss endlich besser gegensteuern.",
         "paragraphs": [
-          "Die Bank of Japan vollzieht die wohl wichtigste Zinsentscheidung seit Jahrzehnten und hebt den Leitzins auf das höchste Niveau seit 1995. Das soll die geldpolitische Wende einleiten."
+          "Wenn sogar die Mittelschicht jeden Euro zweimal umdrehen muss, droht ein Hang zur Wahl extremer Parteien. Die Politik muss endlich besser gegensteuern."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/geldpolitik-japanische-notenbank-hebt-den-leitzins-an/100185276.html",
+        "link": "https://www.zeit.de/wirtschaft/2025-12/erschwinglichkeit-lebensqualitaet-finanzen-wirtschaftspolitik",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-19T07:53:52.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/nike-schwache-marge-belastet-die-aktie/100185222.html",
+        "title": "Sportartikelhersteller: Schwache Marge belastet die Nike-Aktie",
+        "summary": "Konzernchef Elliott Hill will den Sportartikelriesen umfassend umstrukturieren. Für die Trendwende investiert Nike massiv ins Marketing – doch das hat einen hohen Preis.",
+        "paragraphs": [
+          "Konzernchef Elliott Hill will den Sportartikelriesen umfassend umstrukturieren. Für die Trendwende investiert Nike massiv ins Marketing – doch das hat einen hohen Preis."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/nike-schwache-marge-belastet-die-aktie/100185222.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-12-19T07:40:25.000Z"
+        "publishedAt": "2025-12-19T07:52:57.000Z"
+      },
+      {
+        "id": "{urn:uuid:c2cda63a-b656-4053-b539-2b6dc39d6935}",
+        "title": "Arbeitsmarkt: ifo-Beschäftigungsbarometer sinkt auf tiefsten Stand seit 2020",
+        "summary": "Deutsche Unternehmen schaffen nur wenige neue Stellen, bauen aber viele ab. Vor allem in der Industrie sinkt die Nachfrage nach Arbeitskräften.",
+        "paragraphs": [
+          "Deutsche Unternehmen schaffen nur wenige neue Stellen, bauen aber viele ab. Vor allem in der Industrie sinkt die Nachfrage nach Arbeitskräften."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/arbeitsmarkt-ifo-institut-beschaeftigung-stellenabbau",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-19T07:47:32.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/abgang-des-jahres-holger-klein-personifiziertes-dilemma/100178903.html",
@@ -199,28 +221,6 @@
         "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/wohnimmobilien-ende-des-wohnungsmangels-nicht-in-sicht-was-helfen-koennte/100184323.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-19T05:08:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/gewaehrleistung-wie-bauherren-maengel-erkennen-und-richtig-handeln/100183972.html",
-        "title": "Gewährleistung: Wie Bauherren Mängel erkennen und richtig handeln",
-        "summary": "Baumängel sind keine Seltenheit. Wie Bauherren Fehler am Bau rechtssicher reklamieren – und warum Kooperation oft weiterführt als Konfrontation.",
-        "paragraphs": [
-          "Baumängel sind keine Seltenheit. Wie Bauherren Fehler am Bau rechtssicher reklamieren – und warum Kooperation oft weiterführt als Konfrontation."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/gewaehrleistung-wie-bauherren-maengel-erkennen-und-richtig-handeln/100183972.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-19T05:06:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/thomas-beyerle-baugenehmigungen-digital-transparent-und-verbindlich-erteilen/100181967.html",
-        "title": "Thomas Beyerle: „Baugenehmigungen digital, transparent und verbindlich erteilen“",
-        "summary": "Beschleunigte Genehmigungsverfahren in den Bauämtern sind der Schlüssel für schnelleres Bauen, ist Thomas Beyerle überzeugt. Er hat auch eine konkrete Idee, wie das zügig zu erreichen wäre.",
-        "paragraphs": [
-          "Beschleunigte Genehmigungsverfahren in den Bauämtern sind der Schlüssel für schnelleres Bauen, ist Thomas Beyerle überzeugt. Er hat auch eine konkrete Idee, wie das zügig zu erreichen wäre."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/thomas-beyerle-baugenehmigungen-digital-transparent-und-verbindlich-erteilen/100181967.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-19T05:04:00.000Z"
       }
     ],
     "politik": [
@@ -314,10 +314,10 @@
       },
       {
         "id": "{urn:uuid:ab733ac0-5bc2-4dc0-8205-e0068912ad06}",
-        "title": "EU-Gipfel: Im europäischen Dickicht verheddert",
-        "summary": "Die EU findet zögerliche Kompromisse zu Ukrainehilfen und russischem Vermögen. Reicht das, um Wladimir Putin und Donald Trump zu beeindrucken?",
+        "title": "EU-Gipfel:  Reicht das, um Russland zu beeindrucken?",
+        "summary": "Die EU findet zögerliche Kompromisse zu Ukrainehilfen und russischem Vermögen. Und Friedrich Merz hat sich im europäischen Dickicht verheddert.",
         "paragraphs": [
-          "Die EU findet zögerliche Kompromisse zu Ukrainehilfen und russischem Vermögen. Reicht das, um Wladimir Putin und Donald Trump zu beeindrucken?"
+          "Die EU findet zögerliche Kompromisse zu Ukrainehilfen und russischem Vermögen. Und Friedrich Merz hat sich im europäischen Dickicht verheddert."
         ],
         "link": "https://www.zeit.de/politik/ausland/2025-12/eu-gipfel-ukraine-kredit-russisches-vermoegen",
         "source": "ZEIT",
@@ -446,6 +446,17 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/boston-gegen-edmonton-2025-nhl-5091951/spielbericht#omrss",
+        "title": "Oilers siegen bei Sturm und verlieren Jarry",
+        "summary": "Dritter Sieg im vierten Spiel auf dem Road Trip an der Ostküste, aber neue Sorgen im Tor: Die Edmonton Oilers von Leon Draisaitl bangen um ihren neuen Goalie Tristan Jarry, der beim 3:1 in Boston verletzt vom Eis musste.",
+        "paragraphs": [
+          "Dritter Sieg im vierten Spiel auf dem Road Trip an der Ostküste, aber neue Sorgen im Tor: Die Edmonton Oilers von Leon Draisaitl bangen um ihren neuen Goalie Tristan Jarry, der beim 3:1 in Boston verletzt vom Eis musste."
+        ],
+        "link": "https://www.kicker.de/boston-gegen-edmonton-2025-nhl-5091951/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-19T07:12:34.000Z"
+      },
       {
         "id": "https://www.kicker.de/doncic-mit-monster-statline-brunson-trifft-gamewinner-mavs-feiern-statement-sieg-1177116/artikel#omrss",
         "title": "Doncic mit Monster-Statline, Brunson trifft Gamewinner, Mavs feiern Statement-Sieg",
@@ -654,20 +665,42 @@
         "link": "https://www.kicker.de/das-kann-auf-dauer-nicht-sein-wie-plant-der-vfb-mit-stergiou-und-milosevic-1176982/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-18T22:00:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/neapel-gegen-milan-2025-supercoppa-5176136/spielbericht#omrss",
-        "title": "Supercoppa: Höjlund und David Neres schießen Napoli ins Finale",
-        "summary": "Dank eines 2:0-Erfolgs über Milan steht die SSC Neapel im Finale der Supercoppa 2025. Gegen den Titelverteidiger war der italienische Meister die effizientere Mannschaft.",
-        "paragraphs": [
-          "Dank eines 2:0-Erfolgs über Milan steht die SSC Neapel im Finale der Supercoppa 2025. Gegen den Titelverteidiger war der italienische Meister die effizientere Mannschaft."
-        ],
-        "link": "https://www.kicker.de/neapel-gegen-milan-2025-supercoppa-5176136/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-18T20:59:51.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/ratgeber/Wie-Sie-automatisierte-Reports-mit-KI-Agenten-erstellen-11067405.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | Wie Sie automatisierte Reports mit KI-Agenten erstellen",
+        "summary": "KI-Agenten lassen sich für Reporting nutzen: Sie sammeln Daten, werten sie aus und verteilen Ergebnisse. Beim Einsatz gibt es jedoch einiges zu beachten.",
+        "paragraphs": [
+          "KI-Agenten lassen sich für Reporting nutzen: Sie sammeln Daten, werten sie aus und verteilen Ergebnisse. Beim Einsatz gibt es jedoch einiges zu beachten."
+        ],
+        "link": "https://www.heise.de/ratgeber/Wie-Sie-automatisierte-Reports-mit-KI-Agenten-erstellen-11067405.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2025-12-19T08:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Was-Thunderbird-Nutzer-2026-erwartet-Datenbank-Umbau-und-iOS-App-11120644.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Was Thunderbird-Nutzer 2026 erwartet: Datenbank-Umbau und iOS-App",
+        "summary": "Das Thunderbird-Team resümiert 2025 mit wichtigen Neuerungen wie Exchange-Support und kündigt für 2026 grundlegende Verbesserungen an.",
+        "paragraphs": [
+          "Das Thunderbird-Team resümiert 2025 mit wichtigen Neuerungen wie Exchange-Support und kündigt für 2026 grundlegende Verbesserungen an."
+        ],
+        "link": "https://www.heise.de/news/Was-Thunderbird-Nutzer-2026-erwartet-Datenbank-Umbau-und-iOS-App-11120644.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-19T07:55:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Boom-erneuerbarer-Energien-zum-Durchbruch-des-Jahres-gekuert-11120630.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Boom erneuerbarer Energien zum Durchbruch des Jahres gekürt",
+        "summary": "„Science“ kürt Boom erneuerbarer Energien zum Durchbruch des Jahres 2025. Erstmals lieferten Solar und Wind weltweit mehr Strom als Kohle.",
+        "paragraphs": [
+          "„Science“ kürt Boom erneuerbarer Energien zum Durchbruch des Jahres 2025. Erstmals lieferten Solar und Wind weltweit mehr Strom als Kohle."
+        ],
+        "link": "https://www.heise.de/news/Boom-erneuerbarer-Energien-zum-Durchbruch-des-Jahres-gekuert-11120630.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-19T07:50:00.000Z"
+      },
       {
         "id": "https://www.heise.de/ratgeber/Deutsche-Glasfaser-will-Kundin-an-leeren-Anschluss-fesseln-10387729.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Deutsche Glasfaser will Kundin an leeren Anschluss fesseln",
@@ -854,39 +887,6 @@
         "link": "https://www.heise.de/news/Biometrie-Deal-mit-den-USA-EU-Rat-ebnet-Weg-fuer-weitreichenden-Datenaustausch-11120410.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-18T17:35:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/Portraet-von-John-Ternus-Ist-er-Apples-naechster-CEO-11091127.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Porträt von John Ternus: Ist er Apples nächster CEO?",
-        "summary": "John Ternus leitet Apples Hardware-Entwicklung und führt iPhones und Macs zu immer neuen Höhen. Wer ist der Ingenieur, der Tim Cooks Nachfolger werden könnte?",
-        "paragraphs": [
-          "John Ternus leitet Apples Hardware-Entwicklung und führt iPhones und Macs zu immer neuen Höhen. Wer ist der Ingenieur, der Tim Cooks Nachfolger werden könnte?"
-        ],
-        "link": "https://www.heise.de/hintergrund/Portraet-von-John-Ternus-Ist-er-Apples-naechster-CEO-11091127.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2025-12-18T17:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Streit-ueber-Bestpreis-Teilerfolg-fuer-ueber-tausend-Hoteliers-gegen-Booking-com-11120357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Zu Schadenersatz verpflichtet: Teilerfolg für Hoteliers gegen Booking.com",
-        "summary": "Das Landgericht Berlin hat geurteilt: Booking.com haftet prinzipiell für Schäden, die durch unzulässige Preisvorgaben entstanden sind. 1099 Kläger profitieren.",
-        "paragraphs": [
-          "Das Landgericht Berlin hat geurteilt: Booking.com haftet prinzipiell für Schäden, die durch unzulässige Preisvorgaben entstanden sind. 1099 Kläger profitieren."
-        ],
-        "link": "https://www.heise.de/news/Streit-ueber-Bestpreis-Teilerfolg-fuer-ueber-tausend-Hoteliers-gegen-Booking-com-11120357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-18T17:08:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Digitalpakt-2-0-erneut-5-Milliarden-die-nun-haelftig-geteilt-werden-11120161.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Digitalpakt 2.0 – erneut 5 Milliarden, die nun hälftig geteilt werden",
-        "summary": "Wie der versprochene Digitalpakt 2.0 genau aussehen wird, blieb lange unsicher. Nun gibt es eine letzte politische Einigung. Eine Dauerlösung ist sie nicht.",
-        "paragraphs": [
-          "Wie der versprochene Digitalpakt 2.0 genau aussehen wird, blieb lange unsicher. Nun gibt es eine letzte politische Einigung. Eine Dauerlösung ist sie nicht."
-        ],
-        "link": "https://www.heise.de/news/Digitalpakt-2-0-erneut-5-Milliarden-die-nun-haelftig-geteilt-werden-11120161.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-18T16:45:00.000Z"
       }
     ]
   }
