@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-19T20:18:24.455Z",
+  "updatedAt": "2025-12-19T20:33:04.465Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:b9f55d67-10fc-4f40-a75e-786054da4d2f}",
+        "title": "USA: US-Außenminister Marco Rubio sieht AfD-Kontakte als Teil seiner Arbeit",
+        "summary": "Nach der USA-Reise von AfD-Politikern spielt Marco Rubio die Kontakte herunter. Er müsse das ganze politische Spektrum verstehen – auch für den Fall eines AfD-Wahlsiegs.",
+        "paragraphs": [
+          "Nach der USA-Reise von AfD-Politikern spielt Marco Rubio die Kontakte herunter. Er müsse das ganze politische Spektrum verstehen – auch für den Fall eines AfD-Wahlsiegs."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/us-aussenminister-marco-rubio-kontakte-afd",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-19T20:27:14.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/deutschland/ukraine-krieg-russland-laesst-laut-general-joachim-kaschke-keinen-friedenswillen-erkennen-a-0389ce78-792a-4961-8ca4-7a70f37ecbe6",
         "title": "Ukraine-Krieg: Russland lässt laut General Joachim Kaschke keinen Friedenswillen erkennen",
         "summary": "Während die Europäer Sicherheitsgarantien für die Ukraine diskutieren, scheint Russland seine Angriffe zu intensivieren. Der Koordinator der deutschen Militärhilfe sagt, Putin wolle mit den Schlägen die Verhandlungen beeinflussen.",
@@ -432,20 +443,42 @@
         "link": "https://www.handelsblatt.com/politik/international/frankreich-pariser-gericht-lehnt-shein-sperre-ab/100185303.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-19T16:21:02.000Z"
-      },
-      {
-        "id": "{urn:uuid:1dcdf18f-1e6c-4470-848e-0a4d03ada056}",
-        "title": "Bundesrat: Bundesrat beschließt Wehrdienst, Rentenpaket und Haushalt für 2026",
-        "summary": "In der letzten Sitzung im Jahr 2025 hat der Bundesrat Gesetze zur Rente und zu Steuerentlastungen gebilligt. Auch den Haushalt 2026 gab die Länderkammer frei.",
-        "paragraphs": [
-          "In der letzten Sitzung im Jahr 2025 hat der Bundesrat Gesetze zur Rente und zu Steuerentlastungen gebilligt. Auch den Haushalt 2026 gab die Länderkammer frei."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/bundesrat-rente-haushalt-steuersenkungen-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-19T16:13:33.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.spiegel.de/sport/tennis/stanislas-wawrinka-tennisprofi-kuendigt-karriere-ende-an-a-c428e399-2d73-4054-87d9-f08852d50a00",
+        "title": "Stanislas Wawrinka: Tennisprofi kündigt Karriere-Ende an",
+        "summary": "»One last Push«: Stanislas Wawrinka wurde Olympiasieger im Doppel und gewann drei Grand-Slam-Turniere. Nun will sich der Schweizer zurückziehen.",
+        "paragraphs": [
+          "»One last Push«: Stanislas Wawrinka wurde Olympiasieger im Doppel und gewann drei Grand-Slam-Turniere. Nun will sich der Schweizer zurückziehen."
+        ],
+        "link": "https://www.spiegel.de/sport/tennis/stanislas-wawrinka-tennisprofi-kuendigt-karriere-ende-an-a-c428e399-2d73-4054-87d9-f08852d50a00#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-19T20:29:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/bologna-gegen-inter-2025-supercoppa-5176138/spielbericht#omrss",
+        "title": "LIVE! Knifflig: Elfmeter für Inter nach VAR-Check zurückgenommen",
+        "summary": "Bereits am Donnerstag setzte sich die SSC Neapel im ersten Halbfinale der italienischen Supercoppa gegen Titelverteidiger Milan durch. Am Freitag machen Pokalsieger Bologna und Inter den zweiten Finalisten unter sich aus.",
+        "paragraphs": [
+          "Bereits am Donnerstag setzte sich die SSC Neapel im ersten Halbfinale der italienischen Supercoppa gegen Titelverteidiger Milan durch. Am Freitag machen Pokalsieger Bologna und Inter den zweiten Finalisten unter sich aus."
+        ],
+        "link": "https://www.kicker.de/bologna-gegen-inter-2025-supercoppa-5176138/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-19T20:24:43.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/monaco-gegen-muenchen-2025-euroleague-5098999/spielbericht#omrss",
+        "title": "Bayern demontiert: Monaco fügt FCBB achte Niederlage am Stück zu",
+        "summary": "Der FC Bayern München hat auch das achte Spiel in Folge in der EuroLeague verloren. Bei der AS Monaco um Daniel Theis war der deutsche Meister nach gutem Start komplett chancenlos und unterlag deutlich mit 77:103.",
+        "paragraphs": [
+          "Der FC Bayern München hat auch das achte Spiel in Folge in der EuroLeague verloren. Bei der AS Monaco um Daniel Theis war der deutsche Meister nach gutem Start komplett chancenlos und unterlag deutlich mit 77:103."
+        ],
+        "link": "https://www.kicker.de/monaco-gegen-muenchen-2025-euroleague-5098999/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-19T20:21:50.000Z"
+      },
       {
         "id": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
         "title": "Der Spielplan der Darts-WM 2026",
@@ -458,6 +491,17 @@
         "publishedAt": "2025-12-19T20:10:56.000Z"
       },
       {
+        "id": "https://www.kicker.de/memetis-satter-abschluss-anyomi-zu-schnell-frankfurt-souveraen-1177345/video#omrss",
+        "title": "Memetis satter Abschluss, Anyomi zu schnell: Frankfurt souverän",
+        "summary": "Hier gibt es die Highlights der Partie SGS Essen gegen Eintracht Frankfurt.",
+        "paragraphs": [
+          "Hier gibt es die Highlights der Partie SGS Essen gegen Eintracht Frankfurt."
+        ],
+        "link": "https://www.kicker.de/memetis-satter-abschluss-anyomi-zu-schnell-frankfurt-souveraen-1177345/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-19T19:58:02.000Z"
+      },
+      {
         "id": "https://www.kicker.de/hertha-gegen-bielefeld-2025-bundesliga-5051198/spielbericht#omrss",
         "title": "In der letzten Sekunde: Arminias Russo entreißt Hertha den Sieg",
         "summary": "Im letzten Spiel des Jahres gab Hertha BSC gegen Arminia Bielefeld einen sicher geglaubten Dreier noch aus der Hand. Durch Russos Traumtor in letzter Sekunde bleibt die Alte Dame zum dritten Mal in Serie ohne Sieg.",
@@ -467,17 +511,6 @@
         "link": "https://www.kicker.de/hertha-gegen-bielefeld-2025-bundesliga-5051198/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-19T19:47:07.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bologna-gegen-inter-2025-supercoppa-5176138/spielbericht#omrss",
-        "title": "LIVE! Pechvogel Bisseck: Bologna gleicht per Elfmeter aus",
-        "summary": "Bereits am Donnerstag setzte sich die SSC Neapel im ersten Halbfinale der italienischen Supercoppa gegen Titelverteidiger Milan durch. Am Freitag machen Pokalsieger Bologna und Inter den zweiten Finalisten unter sich aus.",
-        "paragraphs": [
-          "Bereits am Donnerstag setzte sich die SSC Neapel im ersten Halbfinale der italienischen Supercoppa gegen Titelverteidiger Milan durch. Am Freitag machen Pokalsieger Bologna und Inter den zweiten Finalisten unter sich aus."
-        ],
-        "link": "https://www.kicker.de/bologna-gegen-inter-2025-supercoppa-5176138/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-19T19:37:36.000Z"
       },
       {
         "id": "li.3357566",
@@ -531,13 +564,13 @@
         "publishedAt": "2025-12-19T18:44:03.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-nicolas-verhindert-das-2-0-fuer-den-bvb-gladbach-wird-gefaehrlicher-1176682/artikel#omrss",
-        "title": "LIVE! Nicolas verhindert das 2:0 für den BVB - Gladbach wird gefährlicher",
+        "id": "https://www.kicker.de/live-erste-moeglichkeiten-fuer-gladbach-schlotterbeck-raeumt-auf-und-schliesst-ab-1176682/artikel#omrss",
+        "title": "LIVE! Erste Möglichkeiten für Gladbach - Schlotterbeck räumt auf und schließt ab",
         "summary": "Der BVB hat eine enttäuschende englische Woche hinter sich und konnte die Patzer von Bayern und Leipzig am vergangenen Spieltag nicht ausnutzen. Legen die Dortmunder gegen Gladbach vor und setzen die Konkurrenz unter Druck? Die Fohlen würden mit einem Sieg vorübergehend auf Platz 8 springen.",
         "paragraphs": [
           "Der BVB hat eine enttäuschende englische Woche hinter sich und konnte die Patzer von Bayern und Leipzig am vergangenen Spieltag nicht ausnutzen. Legen die Dortmunder gegen Gladbach vor und setzen die Konkurrenz unter Druck? Die Fohlen würden mit einem Sieg vorübergehend auf Platz 8 springen."
         ],
-        "link": "https://www.kicker.de/live-nicolas-verhindert-das-2-0-fuer-den-bvb-gladbach-wird-gefaehrlicher-1176682/artikel#omrss",
+        "link": "https://www.kicker.de/live-erste-moeglichkeiten-fuer-gladbach-schlotterbeck-raeumt-auf-und-schliesst-ab-1176682/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-19T18:30:00.000Z"
       },
@@ -551,17 +584,6 @@
         "link": "https://www.kicker.de/grand-slam-sieger-wawrinka-kuendigt-karriereende-an-1177330/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-19T18:25:06.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-hohe-huerde-monaco-kommen-die-bayern-in-die-spur-1177051/artikel#omrss",
-        "title": "LIVE! Hohe Hürde Monaco: Kommen die Bayern in die Spur?",
-        "summary": "Es will einfach nicht funktionieren für die Bayern in der Euroleague. Endet die Misere am Abend bei der AS Monaco?",
-        "paragraphs": [
-          "Es will einfach nicht funktionieren für die Bayern in der Euroleague. Endet die Misere am Abend bei der AS Monaco?"
-        ],
-        "link": "https://www.kicker.de/live-hohe-huerde-monaco-kommen-die-bayern-in-die-spur-1177051/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-19T18:20:00.000Z"
       },
       {
         "id": "https://www.kicker.de/live-bleiben-die-adler-an-ingolstadt-dran-schlusslicht-dresden-in-nuernberg-1177174/artikel#omrss",
@@ -619,17 +641,6 @@
         "publishedAt": "2025-12-19T16:55:31.000Z"
       },
       {
-        "id": "https://www.kicker.de/sgs-essen-gegen-frankfurt-2025-frauen-bundesliga-5076291/spielbericht#omrss",
-        "title": "Offensiv-Trio überragt: SGE schießt sich in Essen aus der Krise",
-        "summary": "Nach drei sieglosen Partien in Serie schoss sich die SGE im Auswärtsspiel in Essen den Frust von der Seele. Dabei überragte vor allem die Offensive um Doppelpackerin Anyomi - die nur von der starken Essen-Keeperin Sindermann zu stoppen war.",
-        "paragraphs": [
-          "Nach drei sieglosen Partien in Serie schoss sich die SGE im Auswärtsspiel in Essen den Frust von der Seele. Dabei überragte vor allem die Offensive um Doppelpackerin Anyomi - die nur von der starken Essen-Keeperin Sindermann zu stoppen war."
-        ],
-        "link": "https://www.kicker.de/sgs-essen-gegen-frankfurt-2025-frauen-bundesliga-5076291/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-19T16:54:34.000Z"
-      },
-      {
         "id": "https://www.kicker.de/xabi-alonso-noten-werden-am-ende-des-kurses-vergeben-1177311/video#omrss",
         "title": "Xabi Alonso: \"Noten werden am Ende des Kurses vergeben\"",
         "summary": "Wenig überraschend sieht sich Xabi Alonso bei Real Madrid einem deutlich höheren Druck ausgesetzt als noch zu Leverkusener Zeiten. Der Trainer versichert jedoch vor Jahresende, dass alle im Verein an einem Strang ziehen.",
@@ -650,17 +661,6 @@
         "link": "https://www.kicker.de/cottbus-gegen-regensburg-2025-liga-5057514/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-19T16:17:07.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/backhaus-besonderes-duell-schalke-fan-seit-ich-laufen-kann-1177289/artikel#omrss",
-        "title": "Backhaus' besonderes Duell: \"Schalke-Fan, seit ich laufen kann\"",
-        "summary": "Daraus, dass das Aufeinandertreffen mit Herbstmeister Schalke im Hinrundenfinale ein besonderes ist für Braunschweigs Trainer Heiner Backhaus, machte er vor der Partie keinen Hehl. Seinem Herzensverein wünscht der 43-Jährige den großen Wurf, will dem Favoriten vorher aber ein Bein stellen.",
-        "paragraphs": [
-          "Daraus, dass das Aufeinandertreffen mit Herbstmeister Schalke im Hinrundenfinale ein besonderes ist für Braunschweigs Trainer Heiner Backhaus, machte er vor der Partie keinen Hehl. Seinem Herzensverein wünscht der 43-Jährige den großen Wurf, will dem Favoriten vorher aber ein Bein stellen."
-        ],
-        "link": "https://www.kicker.de/backhaus-besonderes-duell-schalke-fan-seit-ich-laufen-kann-1177289/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-19T16:04:44.000Z"
       }
     ],
     "edv": [
