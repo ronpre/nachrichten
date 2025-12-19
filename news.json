@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-19T21:17:41.112Z",
+  "updatedAt": "2025-12-19T21:29:31.985Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Mindestens sieben Tote nach russischem Angriff auf Odessa",
+        "summary": "Bei einem russischen Raketenangriff auf Odessa sind zahlreiche Menschen getötet und verletzt worden. Die USA wollen keinen zu einem Friedensabkommen zwingen. Das Liveblog",
+        "paragraphs": [
+          "Bei einem russischen Raketenangriff auf Odessa sind zahlreiche Menschen getötet und verletzt worden. Die USA wollen keinen zu einem Friedensabkommen zwingen. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-19T21:16:13.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/usa-us-justizministerium-gibt-erste-epstein-akten-frei/29669594.html",
+        "title": "+++ USA +++: US-Justizministerium gibt erste Epstein-Akten frei",
+        "summary": "Trump schließt Krieg gegen Venezuela nicht aus +++ Trump setzt Green-Card-Lotterie nach Schüssen an Universität aus +++ Aus dem Kennedy Center wird das Trump Kennedy Center +++ Der Newsblog.",
+        "paragraphs": [
+          "Trump schließt Krieg gegen Venezuela nicht aus +++ Trump setzt Green-Card-Lotterie nach Schüssen an Universität aus +++ Aus dem Kennedy Center wird das Trump Kennedy Center +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/usa-us-justizministerium-gibt-erste-epstein-akten-frei/29669594.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-19T21:09:19.000Z"
+      },
+      {
         "id": "{urn:uuid:b9f55d67-10fc-4f40-a75e-786054da4d2f}",
         "title": "USA: US-Außenminister Marco Rubio sieht AfD-Kontakte als Teil seiner Arbeit",
         "summary": "Nach der USA-Reise von AfD-Politikern spielt Marco Rubio die Kontakte herunter. Er müsse das ganze politische Spektrum verstehen – auch für den Fall eines AfD-Wahlsiegs.",
@@ -412,17 +434,6 @@
         "publishedAt": "2025-12-19T16:50:16.000Z"
       },
       {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Europäische Unterhändler an Ukrainegesprächen in den USA beteiligt",
-        "summary": "Vertreter Deutschlands, Frankreichs und Großbritanniens nehmen in Miami an Ukraineberatungen teil. Laut Putin sind 700.000 russische Soldaten in der Ukraine. Das Liveblog",
-        "paragraphs": [
-          "Vertreter Deutschlands, Frankreichs und Großbritanniens nehmen in Miami an Ukraineberatungen teil. Laut Putin sind 700.000 russische Soldaten in der Ukraine. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-19T16:49:13.000Z"
-      },
-      {
         "id": "li.3357046",
         "title": "Glosse: Das Streiflicht",
         "summary": "Echte Patrioten kennen keine Grenzen: Die AfD-Goofys sind kürzlich nach Disneyland gereist, um von dort aus das Vaterland zu retten.",
@@ -432,30 +443,41 @@
         "link": "https://www.sueddeutsche.de/politik/glosse-das-streiflicht-li.3357046",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-19T16:47:51.000Z"
-      },
-      {
-        "id": "li.3353907",
-        "title": "Krieg in der Ukraine: Merz' Unterhändler reist zu Ukraine-Gesprächen nach Florida",
-        "summary": "Günter Sautter hat die Ukraine-Verhandlungen in Berlin maßgeblich vorbereitet und gestaltet. Auch für die nächsten Gespräche wird er sich am Wochenende in Miami bereithalten.",
-        "paragraphs": [
-          "Günter Sautter hat die Ukraine-Verhandlungen in Berlin maßgeblich vorbereitet und gestaltet. Auch für die nächsten Gespräche wird er sich am Wochenende in Miami bereithalten."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-merz-li.3353907",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-19T16:43:00.000Z"
       }
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/live-bvb-macht-alles-klar-beier-setzt-den-schlusspunkt-1176682/artikel#omrss",
+        "title": "LIVE! BVB macht alles klar: Beier setzt den Schlusspunkt",
+        "summary": "Der BVB hat eine enttäuschende englische Woche hinter sich und konnte die Patzer von Bayern und Leipzig am vergangenen Spieltag nicht ausnutzen. Legen die Dortmunder gegen Gladbach vor und setzen die Konkurrenz unter Druck? Die Fohlen würden mit einem Sieg vorübergehend auf Platz 8 springen.",
+        "paragraphs": [
+          "Der BVB hat eine enttäuschende englische Woche hinter sich und konnte die Patzer von Bayern und Leipzig am vergangenen Spieltag nicht ausnutzen. Legen die Dortmunder gegen Gladbach vor und setzen die Konkurrenz unter Druck? Die Fohlen würden mit einem Sieg vorübergehend auf Platz 8 springen."
+        ],
+        "link": "https://www.kicker.de/live-bvb-macht-alles-klar-beier-setzt-den-schlusspunkt-1176682/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-19T21:26:00.000Z"
+      },
+      {
         "id": "https://www.kicker.de/bologna-gegen-inter-2025-supercoppa-5176138/spielbericht#omrss",
-        "title": "\"Copy and Paste\" im Elfmeterschießen: Bologna macht über Inter das Finale gegen Napoli klar",
+        "title": "\"Copy and Paste\" im Elfmeterschießen: Bologna macht über Inter das Finale klar",
         "summary": "Nachdem sich Meister SSC Neapel am Donnerstag für das Finale der Supercoppa qualifiziert hatte, zog nun Pokalsieger Bologna nach. Die Rosoblu machten dabei gegen Inter einen Rückstand wett, hielten dann Dauerdruck stand und gewannen schließlich in einem kuriosen Elfmeterschießen mit 3:2.",
         "paragraphs": [
           "Nachdem sich Meister SSC Neapel am Donnerstag für das Finale der Supercoppa qualifiziert hatte, zog nun Pokalsieger Bologna nach. Die Rosoblu machten dabei gegen Inter einen Rückstand wett, hielten dann Dauerdruck stand und gewannen schließlich in einem kuriosen Elfmeterschießen mit 3:2."
         ],
         "link": "https://www.kicker.de/bologna-gegen-inter-2025-supercoppa-5176138/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2025-12-19T21:14:27.000Z"
+        "publishedAt": "2025-12-19T21:21:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/pk-ohne-journalisten-monaco-coach-spanoulis-nimmt-s-mit-humor-1177360/video#omrss",
+        "title": "PK ohne Journalisten: Monaco-Coach Spanoulis nimmt's mit Humor",
+        "summary": "Nach dem Sieg der AS Monaco gegen den FC Bayern München kommt Coach Vassilis Spanoulis zur üblichen Pressekonferenz. Das Problem? Kein Journalist ist da.",
+        "paragraphs": [
+          "Nach dem Sieg der AS Monaco gegen den FC Bayern München kommt Coach Vassilis Spanoulis zur üblichen Pressekonferenz. Das Problem? Kein Journalist ist da."
+        ],
+        "link": "https://www.kicker.de/pk-ohne-journalisten-monaco-coach-spanoulis-nimmt-s-mit-humor-1177360/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-19T21:18:08.000Z"
       },
       {
         "id": "https://www.kicker.de/cottbus-gegen-regensburg-2025-liga-5057514/spielbericht#omrss",
@@ -575,17 +597,6 @@
         "publishedAt": "2025-12-19T18:44:03.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-kein-elfmeter-fuer-den-bvb-eingewechselter-mohya-verpasst-den-ausgleich-1176682/artikel#omrss",
-        "title": "LIVE! Kein Elfmeter für den BVB - Eingewechselter Mohya verpasst den Ausgleich",
-        "summary": "Der BVB hat eine enttäuschende englische Woche hinter sich und konnte die Patzer von Bayern und Leipzig am vergangenen Spieltag nicht ausnutzen. Legen die Dortmunder gegen Gladbach vor und setzen die Konkurrenz unter Druck? Die Fohlen würden mit einem Sieg vorübergehend auf Platz 8 springen.",
-        "paragraphs": [
-          "Der BVB hat eine enttäuschende englische Woche hinter sich und konnte die Patzer von Bayern und Leipzig am vergangenen Spieltag nicht ausnutzen. Legen die Dortmunder gegen Gladbach vor und setzen die Konkurrenz unter Druck? Die Fohlen würden mit einem Sieg vorübergehend auf Platz 8 springen."
-        ],
-        "link": "https://www.kicker.de/live-kein-elfmeter-fuer-den-bvb-eingewechselter-mohya-verpasst-den-ausgleich-1176682/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-19T18:30:00.000Z"
-      },
-      {
         "id": "https://www.kicker.de/grand-slam-sieger-wawrinka-kuendigt-karriereende-an-1177330/artikel#omrss",
         "title": "Grand-Slam-Sieger Wawrinka kündigt Karriereende an",
         "summary": "In der Ära von Federer, Nadal und Djokovic gewinnt Stan Wawrinka drei Grand-Slam-Turniere und Olympia-Gold im Doppel. 2026 will der 40-Jährige aufhören - aber nicht ohne eine große Abschiedstournee.",
@@ -650,17 +661,6 @@
         "link": "https://www.kicker.de/xabi-alonso-noten-werden-am-ende-des-kurses-vergeben-1177311/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-19T16:43:18.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/backhaus-besonderes-duell-schalke-fan-seit-ich-laufen-kann-1177289/artikel#omrss",
-        "title": "Backhaus' besonderes Duell: \"Schalke-Fan, seit ich laufen kann\"",
-        "summary": "Daraus, dass das Aufeinandertreffen mit Herbstmeister Schalke im Hinrundenfinale ein besonderes ist für Braunschweigs Trainer Heiner Backhaus, machte er vor der Partie keinen Hehl. Seinem Herzensverein wünscht der 43-Jährige den großen Wurf, will dem Favoriten vorher aber ein Bein stellen.",
-        "paragraphs": [
-          "Daraus, dass das Aufeinandertreffen mit Herbstmeister Schalke im Hinrundenfinale ein besonderes ist für Braunschweigs Trainer Heiner Backhaus, machte er vor der Partie keinen Hehl. Seinem Herzensverein wünscht der 43-Jährige den großen Wurf, will dem Favoriten vorher aber ein Bein stellen."
-        ],
-        "link": "https://www.kicker.de/backhaus-besonderes-duell-schalke-fan-seit-ich-laufen-kann-1177289/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-19T16:04:44.000Z"
       }
     ],
     "edv": [
