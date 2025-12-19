@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-19T06:57:23.129Z",
+  "updatedAt": "2025-12-19T07:11:00.672Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Macron plädiert für neue Gespräche mit Putin",
+        "summary": "Mit Putin direkt zu sprechen, wäre \"sinnvoll\", meint der französische Präsident. Die Ukraine meldet Tote und Verletzte nach russischen Angriffen auf Odessa. Das Liveblog",
+        "paragraphs": [
+          "Mit Putin direkt zu sprechen, wäre \"sinnvoll\", meint der französische Präsident. Die Ukraine meldet Tote und Verletzte nach russischen Angriffen auf Odessa. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-19T06:56:25.000Z"
+      },
+      {
         "id": "{urn:uuid:7433d872-d477-4373-a711-7c54fa8b3b6c}",
         "title": "US-Militäreinsätze im Pazifik: Fünf Menschen bei neuem US-Angriff auf angebliche Drogenboote getötet",
         "summary": "Trotz großer Kritik setzen die USA ihre Angriffe auf angebliche Drogenboote im Pazifik fort. Bei einem neuen Angriff wurden nach Militärangaben fünf Menschen getötet.",
@@ -238,9 +249,9 @@
       {
         "id": "{urn:uuid:ab733ac0-5bc2-4dc0-8205-e0068912ad06}",
         "title": "EU-Gipfel: Im europäischen Dickicht verheddert",
-        "summary": "Die EU findet zögerliche Kompromisse zu Ukraine-Hilfen und russischem Vermögen. Reicht das, um Wladimir Putin und Donald Trump zu beeindrucken?",
+        "summary": "Die EU findet zögerliche Kompromisse zu Ukrainehilfen und russischem Vermögen. Reicht das, um Wladimir Putin und Donald Trump zu beeindrucken?",
         "paragraphs": [
-          "Die EU findet zögerliche Kompromisse zu Ukraine-Hilfen und russischem Vermögen. Reicht das, um Wladimir Putin und Donald Trump zu beeindrucken?"
+          "Die EU findet zögerliche Kompromisse zu Ukrainehilfen und russischem Vermögen. Reicht das, um Wladimir Putin und Donald Trump zu beeindrucken?"
         ],
         "link": "https://www.zeit.de/politik/ausland/2025-12/eu-gipfel-ukraine-kredit-russisches-vermoegen",
         "source": "ZEIT",
@@ -267,17 +278,6 @@
         "link": "https://www.handelsblatt.com/politik/international/ukraine-ukraine-erhaelt-kredit-von-90-milliarden-euro/100182377.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-19T06:39:04.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Macron plädiert für neue Gespräche mit Putin",
-        "summary": "Mit Putin direkt zu sprechen wäre \"sinnvoll\", meint der französische Präsident. Die Ukraine meldet Tote und Verletzte nach russischen Angriffen auf Odessa. Das Liveblog",
-        "paragraphs": [
-          "Mit Putin direkt zu sprechen wäre \"sinnvoll\", meint der französische Präsident. Die Ukraine meldet Tote und Verletzte nach russischen Angriffen auf Odessa. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-19T06:25:49.000Z"
       },
       {
         "id": "{urn:uuid:5b135845-9491-43ea-8832-738e0b64c08a}",
@@ -491,6 +491,17 @@
         "publishedAt": "2025-12-19T04:12:46.000Z"
       },
       {
+        "id": "https://www.kicker.de/vor-den-augen-von-crouch-gruellich-kaempft-vergebens-mvg-mit-enormen-problemen-1177111/video#omrss",
+        "title": "Vor den Augen von Crouch: Grüllich kämpft vergebens, MvG mit enormen Problemen",
+        "summary": "Ally-Pally-Debütant Dominik Grüllich ist bei der Darts-WM in der ersten Runde ausgeschieden. Michael van Gerwen mühte sich bei seinem Auftaktmatch völlig unerwartet gegen den Japaner Mitsuhiko Tatsunami 3:2.",
+        "paragraphs": [
+          "Ally-Pally-Debütant Dominik Grüllich ist bei der Darts-WM in der ersten Runde ausgeschieden. Michael van Gerwen mühte sich bei seinem Auftaktmatch völlig unerwartet gegen den Japaner Mitsuhiko Tatsunami 3:2."
+        ],
+        "link": "https://www.kicker.de/vor-den-augen-von-crouch-gruellich-kaempft-vergebens-mvg-mit-enormen-problemen-1177111/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-19T00:11:15.000Z"
+      },
+      {
         "id": "https://www.kicker.de/torfestival-im-topspiel-fuenf-punkte-mann-breton-fuehrt-ingolstadt-zum-sieg-1177110/video#omrss",
         "title": "Torfestival im Topspiel: Fünf-Punkte-Mann Breton führt Ingolstadt zum Sieg",
         "summary": "Es war ein Hin und Her zwischen dem ERC Ingolstadt und Meister Eisbären Berlin, bei dem sich der Tabellenführer am Ende durchsetzte. Das 13-Tore-Spektakel gibt es hier im Video.",
@@ -654,20 +665,31 @@
         "link": "https://www.kicker.de/das-sagt-freihoefer-zur-nicht-nominierung-1177082/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-18T20:51:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/tebas-fordert-keine-reform-ohne-das-okay-aller-1177074/artikel#omrss",
-        "title": "Tebas fordert: \"Keine Reform ohne das Okay aller\"",
-        "summary": "Dass Javier Tebas kein Freund der immer stärker aufgeblähten Klubwettbewerbe ist, ist keine Breaking News. Nun fordert Spaniens Liga-Boss erstmals ein Veto-Recht für die Ligen mit Blick auf den Status quo.",
-        "paragraphs": [
-          "Dass Javier Tebas kein Freund der immer stärker aufgeblähten Klubwettbewerbe ist, ist keine Breaking News. Nun fordert Spaniens Liga-Boss erstmals ein Veto-Recht für die Ligen mit Blick auf den Status quo."
-        ],
-        "link": "https://www.kicker.de/tebas-fordert-keine-reform-ohne-das-okay-aller-1177074/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-18T20:43:09.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/hintergrund/Unabhaengiger-Browser-Ladybird-mit-neuer-Engine-im-Check-10699290.html",
+        "title": "heise+ | Unabhängiger Browser Ladybird mit neuer Engine im Check",
+        "summary": "Der Browser Ladybird basiert auf einer eigenen, neu entwickelten Engine. Wir haben uns das Projekt angesehen und ausprobiert, wie weit Ladybird schon ist.",
+        "paragraphs": [
+          "Der Browser Ladybird basiert auf einer eigenen, neu entwickelten Engine. Wir haben uns das Projekt angesehen und ausprobiert, wie weit Ladybird schon ist."
+        ],
+        "link": "https://www.heise.de/hintergrund/Unabhaengiger-Browser-Ladybird-mit-neuer-Engine-im-Check-10699290.html",
+        "source": "c't",
+        "publishedAt": "2025-12-19T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/MedConf-by-heise-2026-Jetzt-Vortraege-einreichen-11117974.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: MedConf by heise 2026: Jetzt Vorträge einreichen",
+        "summary": "Im Mai 2026 findet in München-Unterhaching die Medizintechnik-Konferenz MedConf by heise statt. Interessierte können bis 15. Februar Vorträge einreichen.",
+        "paragraphs": [
+          "Im Mai 2026 findet in München-Unterhaching die Medizintechnik-Konferenz MedConf by heise statt. Interessierte können bis 15. Februar Vorträge einreichen."
+        ],
+        "link": "https://www.heise.de/news/MedConf-by-heise-2026-Jetzt-Vortraege-einreichen-11117974.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-19T07:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/ratgeber/Web-Suche-fuer-die-lokale-KI-So-schliessen-Ihre-LLMs-Wissensluecken-11116805.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "title": "heise+ | Web-Suche für die lokale KI: So schließen Ihre LLMs Wissenslücken",
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/ratgeber/Framework-SGLang-fuer-schnelle-LLM-Inferenz-kurz-vorgestellt-10963079.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "source": "heise",
         "publishedAt": "2025-12-18T16:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Riechen-fuer-mehr-Immersion-Escents-bringt-Gerueche-in-die-Virtual-Reality-11120253.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Riechen für mehr Immersion: „Escents“ bringt Gerüche in die Virtual Reality",
-        "summary": "Das tragbare Gerät „Escents“ will Gerüche in VR und AR einbinden und setzt dabei auf magnetische Duftkapseln, Bluetooth-Anbindung und Unity-Unterstützung.",
-        "paragraphs": [
-          "Das tragbare Gerät „Escents“ will Gerüche in VR und AR einbinden und setzt dabei auf magnetische Duftkapseln, Bluetooth-Anbindung und Unity-Unterstützung."
-        ],
-        "link": "https://www.heise.de/news/Riechen-fuer-mehr-Immersion-Escents-bringt-Gerueche-in-die-Virtual-Reality-11120253.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-18T16:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Windows-Microsoft-will-SSD-Performance-massiv-verbessern-11120249.html",
-        "title": "Windows: Microsoft will SSD-Performance massiv verbessern",
-        "summary": "Microsoft erneuert seinen Software-Stack für Datenträger. Zuerst ist Windows Server 2025 dran. Windows 11 folgt hoffentlich.",
-        "paragraphs": [
-          "Microsoft erneuert seinen Software-Stack für Datenträger. Zuerst ist Windows Server 2025 dran. Windows 11 folgt hoffentlich."
-        ],
-        "link": "https://www.heise.de/news/Windows-Microsoft-will-SSD-Performance-massiv-verbessern-11120249.html",
-        "source": "c't",
-        "publishedAt": "2025-12-18T16:23:00.000Z"
       }
     ]
   }
