@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2025-12-19T09:11:13.230Z",
+  "updatedAt": "2025-12-19T09:30:54.419Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:38516406-8c21-48fd-be9f-7242d211f83c}",
+        "title": "Konjunkturprognose: Leider nur gedopt",
+        "summary": "Nächstes Jahr kommt der Aufschwung, sagen Konjunkturforscher. Das stimmt vielleicht sogar. Doch er hätte wenig mit Stärke zu tun.",
+        "paragraphs": [
+          "Nächstes Jahr kommt der Aufschwung, sagen Konjunkturforscher. Das stimmt vielleicht sogar. Doch er hätte wenig mit Stärke zu tun."
+        ],
+        "link": "https://www.zeit.de/2025/54/konjunkturprognose-aufschwung-deutschland-wirtschaftslage-schulden-bundesregierung",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-19T09:23:26.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/krankenkassen-bundestag-billigt-kompromiss-fuer-kassenbeitraege/100185347.html",
+        "title": "Krankenkassen: Bundestag billigt Kompromiss für Kassenbeiträge",
+        "summary": "Die Koalition will vermeiden, dass Versicherte 2026 auf breiter Front noch mehr für die Krankenkasse zahlen müssen. Eine Lösung für ein zunächst gestopptes Sparpaket nimmt die erste Hürde.",
+        "paragraphs": [
+          "Die Koalition will vermeiden, dass Versicherte 2026 auf breiter Front noch mehr für die Krankenkasse zahlen müssen. Eine Lösung für ein zunächst gestopptes Sparpaket nimmt die erste Hürde."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/krankenkassen-bundestag-billigt-kompromiss-fuer-kassenbeitraege/100185347.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-19T09:16:45.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/energie/erderwaermung-dax-konzerne-planen-klima-schocks-nicht-ein/100177410.html",
         "title": "Erderwärmung: Risiko ohne Rückstellung: Dax-Unternehmen sorgen für Klimaschocks zu wenig vor",
@@ -119,7 +141,7 @@
         "paragraphs": [
           "Deutsche Unternehmen schaffen nur wenige neue Stellen, bauen aber viele ab. Vor allem in der Industrie sinkt die Nachfrage nach Arbeitskräften."
         ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/arbeitsmarkt-ifo-institut-beschaeftigung-stellenabbau",
+        "link": "https://www.zeit.de/wirtschaft/2025-12/arbeitsmarkt-ifo-institut-beschaeftigung-stellenabbau-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-19T08:15:51.000Z"
       },
@@ -199,31 +221,31 @@
         "link": "https://www.handelsblatt.com/politik/konjunktur/konsum-gfk-konsumlaune-truebt-sich-ein/100185309.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-19T07:22:08.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/service/gastrosteuer-senkung-ist-ein-sieg-des-lobbyismus-a-7778ca00-1b4d-48fe-85c5-2c67fd4c71f7",
-        "title": "Gastrosteuer-Senkung ist ein Sieg des Lobbyismus",
-        "summary": "Der Bundesrat soll heute die Mehrwertsteuersenkung für Gastronomen absegnen, trotz knapper Kassen und Expertenprotest. Es ist ein Sieg für Markus Söder und ein Lehrstück über lobbygetriebene Politik.",
-        "paragraphs": [
-          "Der Bundesrat soll heute die Mehrwertsteuersenkung für Gastronomen absegnen, trotz knapper Kassen und Expertenprotest. Es ist ein Sieg für Markus Söder und ein Lehrstück über lobbygetriebene Politik."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/service/gastrosteuer-senkung-ist-ein-sieg-des-lobbyismus-a-7778ca00-1b4d-48fe-85c5-2c67fd4c71f7#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-19T07:18:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-ifo-beschaeftigungsbarometer-faellt-auf-tiefsten-stand-seit-2020/100185301.html",
-        "title": "Arbeitsmarkt: Ifo-Beschäftigungsbarometer fällt auf tiefsten Stand seit 2020",
-        "summary": "Die schwache Konjunktur scheint den Arbeitsmarkt weiter auszubremsen. In der Industrie setzen nahezu alle Branchen den Stellenabbau fort. Auch im Handel zeichnet sich ein ähnliches Bild ab.",
-        "paragraphs": [
-          "Die schwache Konjunktur scheint den Arbeitsmarkt weiter auszubremsen. In der Industrie setzen nahezu alle Branchen den Stellenabbau fort. Auch im Handel zeichnet sich ein ähnliches Bild ab."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-ifo-beschaeftigungsbarometer-faellt-auf-tiefsten-stand-seit-2020/100185301.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-19T07:13:08.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/krankenkassen-bundestag-billigt-kompromiss-fuer-kassenbeitraege/100185347.html",
+        "title": "Krankenkassen: Bundestag billigt Kompromiss für Kassenbeiträge",
+        "summary": "Die Koalition will vermeiden, dass Versicherte 2026 auf breiter Front noch mehr für die Krankenkasse zahlen müssen. Eine Lösung für ein zunächst gestopptes Sparpaket nimmt die erste Hürde.",
+        "paragraphs": [
+          "Die Koalition will vermeiden, dass Versicherte 2026 auf breiter Front noch mehr für die Krankenkasse zahlen müssen. Eine Lösung für ein zunächst gestopptes Sparpaket nimmt die erste Hürde."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/krankenkassen-bundestag-billigt-kompromiss-fuer-kassenbeitraege/100185347.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-19T09:16:45.000Z"
+      },
+      {
+        "id": "{urn:uuid:a313a198-9346-461b-843a-60daa3e86a40}",
+        "title": "USA: US-Präsident Donald Trump setzt Green-Card-Lotterie aus",
+        "summary": "Nach dem Anschlag auf die Brown University unterbricht Donald Trump die Verlosung von Einwanderungsvisa. Der Tatverdächtige war über die Green Card in die USA eingereist.",
+        "paragraphs": [
+          "Nach dem Anschlag auf die Brown University unterbricht Donald Trump die Verlosung von Einwanderungsvisa. Der Tatverdächtige war über die Green Card in die USA eingereist."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-donald-trump-green-card-lotterie",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-19T09:16:44.000Z"
+      },
       {
         "id": "li.3352720",
         "title": "USA: Regierung setzt Greencard-Lotterie aus",
@@ -421,31 +443,31 @@
         "link": "https://www.zeit.de/politik/2025-12/aussenpolitik-afd-usa-nachrichtenpodcast",
         "source": "ZEIT",
         "publishedAt": "2025-12-19T05:02:23.000Z"
-      },
-      {
-        "id": "{urn:uuid:981c19e3-b265-4b9e-8b15-6f7ab989ff0b}",
-        "title": "Jahresrückblick 2025: Jede Menge Fragen an das alte Jahr. Und viel Hoffnung für das neue.",
-        "summary": "Zum Ende eines mitunter ungemütlichen Jahres blicken die Hosts zurück auf Momente, die sie besonders bewegt haben. Und beantworten die Fragen der Hörerinnen und Hörer.",
-        "paragraphs": [
-          "Zum Ende eines mitunter ungemütlichen Jahres blicken die Hosts zurück auf Momente, die sie besonders bewegt haben. Und beantworten die Fragen der Hörerinnen und Hörer."
-        ],
-        "link": "https://www.zeit.de/politik/2025-12/jahresrueckblick-2025-ausblick-2026-politikpodcast",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-19T05:00:07.000Z"
-      },
-      {
-        "id": "{urn:uuid:65441c39-d531-46cc-9d2f-754567badfc6}",
-        "title": "Brown University: Tatverdächtiger des Angriffs auf Eliteuniversität tot aufgefunden",
-        "summary": "An der Brown University waren am Wochenende zwei Studierende getötet worden. Der Tatverdächtige war flüchtig, nun haben Behörden den Fund seiner Leiche bekannt gegeben.",
-        "paragraphs": [
-          "An der Brown University waren am Wochenende zwei Studierende getötet worden. Der Tatverdächtige war flüchtig, nun haben Behörden den Fund seiner Leiche bekannt gegeben."
-        ],
-        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-12/usa-brown-university-angriff-tatverdaechtiger-tot-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-19T04:50:27.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "li.3323990",
+        "title": "Weltmeisterschaft in Mexiko, Kanada und den USA: Spielplan der Fußball-WM 2026: Alle Gruppen, Spiele und Termine",
+        "summary": "104 Spiele bei einer Weltmeisterschaft: Mit dem neuen Modus verändert sich bei der kommenden WM einiges. Wir bieten einen Überblick über alle Spiele, Termine und Gruppen.",
+        "paragraphs": [
+          "104 Spiele bei einer Weltmeisterschaft: Mit dem neuen Modus verändert sich bei der kommenden WM einiges. Wir bieten einen Überblick über alle Spiele, Termine und Gruppen."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/spielplan-fussball-wm-2026-gruppen-deutschland-spiele-li.3323990",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-19T09:19:00.000Z"
+      },
+      {
+        "id": "li.3340935",
+        "title": "Fußball-Weltmeisterschaft 2026: Alle WM-Spielorte und Stadien im Überblick",
+        "summary": "Zum ersten Mal wird eine Fußball-Weltmeisterschaft in drei Ländern ausgetragen, zum ersten Mal an 16 verschiedenen Spielorten. Ein Überblick über die Stadien der Fußball-WM 2026.",
+        "paragraphs": [
+          "Zum ersten Mal wird eine Fußball-Weltmeisterschaft in drei Ländern ausgetragen, zum ersten Mal an 16 verschiedenen Spielorten. Ein Überblick über die Stadien der Fußball-WM 2026."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/fussball-wm-2026-stadien-spielorte-li.3340935",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-19T09:15:00.000Z"
+      },
       {
         "id": "li.3332890",
         "title": "Darts-WM 2026: Spielplan und Anwurfzeit der deutschen Teilnehmer im Überblick",
@@ -537,9 +559,9 @@
       {
         "id": "https://www.kicker.de/ueberragende-szenen-ally-pally-feiert-crouch-mvg-mit-enormen-problemen-1177111/video#omrss",
         "title": "Überragende Szenen: Ally Pally feiert Crouch - MvG mit enormen Problemen",
-        "summary": "Ally-Pally-Debütant Dominik Grüllich ist bei der Darts-WM in der ersten Runde ausgeschieden. Michael van Gerwen mühte sich bei seinem Auftaktmatch völlig unerwartet gegen den Japaner Mitsuhiko Tatsunami zum 3:2.",
+        "summary": "Ally-Pally-Debütant Dominik Grüllich ist bei der Darts-WM in der ersten Runde ausgeschieden. Michael van Gerwen mühte sich bei seinem Auftaktmatch völlig unerwartet gegen den Japaner Mitsuhiko Tatsunami zum 3:1.",
         "paragraphs": [
-          "Ally-Pally-Debütant Dominik Grüllich ist bei der Darts-WM in der ersten Runde ausgeschieden. Michael van Gerwen mühte sich bei seinem Auftaktmatch völlig unerwartet gegen den Japaner Mitsuhiko Tatsunami zum 3:2."
+          "Ally-Pally-Debütant Dominik Grüllich ist bei der Darts-WM in der ersten Runde ausgeschieden. Michael van Gerwen mühte sich bei seinem Auftaktmatch völlig unerwartet gegen den Japaner Mitsuhiko Tatsunami zum 3:1."
         ],
         "link": "https://www.kicker.de/ueberragende-szenen-ally-pally-feiert-crouch-mvg-mit-enormen-problemen-1177111/video#omrss",
         "source": "Kicker",
@@ -643,31 +665,31 @@
         "link": "https://www.kicker.de/er-hat-nun-sein-letztes-spiel-bestritten-norwegische-trainer-legende-hareide-gestorben-1177096/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-18T22:27:50.000Z"
-      },
-      {
-        "id": "{urn:uuid:a253bfe8-fa46-42bd-9f78-a0ecee66d193}",
-        "title": "Conference League: Mainz feiert erstmaligen Einzug ins Europapokal-Achtelfinale",
-        "summary": "Zum ersten Mal steht der FSV Mainz 05 im Achtelfinale eines europäischen Wettbewerbs. Im Heimspiel konnten sich die Mainzer gegen Samsunspor durchsetzen.",
-        "paragraphs": [
-          "Zum ersten Mal steht der FSV Mainz 05 im Achtelfinale eines europäischen Wettbewerbs. Im Heimspiel konnten sich die Mainzer gegen Samsunspor durchsetzen."
-        ],
-        "link": "https://www.zeit.de/sport/2025-12/uefa-conference-league-mainz-samsunspor",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-18T22:27:07.000Z"
-      },
-      {
-        "id": "li.3357014",
-        "title": "Conference League: Mainz erstmals in einem Europapokal-Achtelfinale",
-        "summary": "Dem neuen Chefcoach der 05-er, Urs Fischer, gelingt gleich in seinem ersten Heimspiel für die Rheinhessen ein Novum: Dank eines 2:0-Erfolgs gegen Samsunspor überspringt das Team die Playoffs.",
-        "paragraphs": [
-          "Dem neuen Chefcoach der 05-er, Urs Fischer, gelingt gleich in seinem ersten Heimspiel für die Rheinhessen ein Novum: Dank eines 2:0-Erfolgs gegen Samsunspor überspringt das Team die Playoffs."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/conference-league-mainz-05-achtelfinale-sieg-samsunspor-li.3357014",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-18T22:18:21.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Peanuts-Franchise-Sony-uebernimmt-Mehrheit-an-Snoopy-und-Charlie-Brown-11120856.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Peanuts-Franchise: Sony übernimmt Mehrheit an Snoopy und Charlie Brown",
+        "summary": "Charles M. Schulz' Peanuts-Franchise mit Snoopy, Charlie Brown und weiteren hat bei Sony ein neues Zuhause.",
+        "paragraphs": [
+          "Charles M. Schulz' Peanuts-Franchise mit Snoopy, Charlie Brown und weiteren hat bei Sony ein neues Zuhause."
+        ],
+        "link": "https://www.heise.de/news/Peanuts-Franchise-Sony-uebernimmt-Mehrheit-an-Snoopy-und-Charlie-Brown-11120856.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-19T09:17:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Apple-Bugs-AirDrop-Ausfall-AirPods-Pro-3-Knacken-und-Studio-Display-Flickern-11120724.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Apple-Bugs: AirDrop-Ausfall, AirPods-Pro-3-Knacken und Studio-Display-Flickern",
+        "summary": "Seit den jüngsten iOS- und macOS-Versionen berichten Nutzer über Schwierigkeiten mit AirDrop und Apple-Displays. Ein weiterer Fehler betrifft AirPods Pro 3.",
+        "paragraphs": [
+          "Seit den jüngsten iOS- und macOS-Versionen berichten Nutzer über Schwierigkeiten mit AirDrop und Apple-Displays. Ein weiterer Fehler betrifft AirPods Pro 3."
+        ],
+        "link": "https://www.heise.de/news/Apple-Bugs-AirDrop-Ausfall-AirPods-Pro-3-Knacken-und-Studio-Display-Flickern-11120724.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-19T09:05:00.000Z"
+      },
       {
         "id": "https://www.heise.de/hintergrund/c-t-Story-Stille-Nacht-stuermische-Nacht-11080825.html",
         "title": "heise+ | c’t-Story: Stille Nacht, stürmische Nacht",
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/news/Vorsicht-Kunde-Glasfaseranschluss-verzoegert-sich-11120446.html",
         "source": "c't",
         "publishedAt": "2025-12-19T05:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Vorsicht-Kunde-Glasfaseranschluss-verzoegert-sich-11120446.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Vorsicht, Kunde! – Glasfaseranschluss verzögert sich",
-        "summary": "Was tun, wenn der versprochene Glasfaseranschluss auf sich warten lässt? Wer im Vorfeld handelt und passende Fristen setzt, kann sein Recht besser durchsetzen.",
-        "paragraphs": [
-          "Was tun, wenn der versprochene Glasfaseranschluss auf sich warten lässt? Wer im Vorfeld handelt und passende Fristen setzt, kann sein Recht besser durchsetzen."
-        ],
-        "link": "https://www.heise.de/news/Vorsicht-Kunde-Glasfaseranschluss-verzoegert-sich-11120446.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-19T05:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/TikTok-unterzeichnet-Deal-zum-Verkauf-von-Anteilen-der-US-Tochter-an-Investoren-11120556.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "TikTok unterzeichnet Deal zum Verkauf von Anteilen der US-Tochter an Investoren",
-        "summary": "Um eine Sperre in den USA zu vermeiden, verkauft TikTok etliche Anteile der US-Tochter an US-amerikanische und internationale Investoren. Das ist nun bestätigt.",
-        "paragraphs": [
-          "Um eine Sperre in den USA zu vermeiden, verkauft TikTok etliche Anteile der US-Tochter an US-amerikanische und internationale Investoren. Das ist nun bestätigt."
-        ],
-        "link": "https://www.heise.de/news/TikTok-unterzeichnet-Deal-zum-Verkauf-von-Anteilen-der-US-Tochter-an-Investoren-11120556.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-19T01:44:00.000Z"
       }
     ]
   }
