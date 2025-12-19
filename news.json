@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-19T09:30:54.419Z",
+  "updatedAt": "2025-12-19T09:46:38.437Z",
   "categories": {
     "wirtschaft": [
       {
@@ -42,7 +42,7 @@
         "paragraphs": [
           "Inflationsangst und Rentensorgen: Die Deutschen neigen laut einer Umfrage so sehr zum Sparen wie seit 2008 nicht mehr. Zugleich sinkt die Hoffnung auf höhere Einkommen."
         ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/konsum-deutschland-inflation-rente-umfrage",
+        "link": "https://www.zeit.de/wirtschaft/2025-12/konsum-deutschland-inflation-rente-umfrage-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-19T08:50:04.000Z"
       },
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:7d1a2350-a907-4034-bfd5-5104a85e52e2}",
+        "title": "Frankreich: Französischer Haushaltsentwurf scheitert im Parlament",
+        "summary": "Der Kompromiss über Frankreichs Haushalt für das kommende Jahr ist gescheitert. Nun soll der laufende Etat mit einem Sondergesetz verlängert werden.",
+        "paragraphs": [
+          "Der Kompromiss über Frankreichs Haushalt für das kommende Jahr ist gescheitert. Nun soll der laufende Etat mit einem Sondergesetz verlängert werden."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/frankreich-haushalt-parlament-gescheitert",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-19T09:34:28.000Z"
+      },
+      {
+        "id": "{urn:uuid:851526ff-5f5d-4194-bb0d-7777905ed5b4}",
+        "title": "EU-Ukraine-Hilfen: Klingbeil lobt EU-Kompromiss zur Ukraine, Grüne sehen Merz gescheitert",
+        "summary": "Die EU gibt der Ukraine einen Kredit, greift dabei aber nicht auf russisches Geld zurück. Die Bundesregierung wertet das als Erfolg, die Grünen beklagen Mutlosigkeit.",
+        "paragraphs": [
+          "Die EU gibt der Ukraine einen Kredit, greift dabei aber nicht auf russisches Geld zurück. Die Bundesregierung wertet das als Erfolg, die Grünen beklagen Mutlosigkeit."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/ukraine-eu-kredit-russland-staatsvermoegen-kritik",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-19T09:25:32.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/krankenkassen-bundestag-billigt-kompromiss-fuer-kassenbeitraege/100185347.html",
         "title": "Krankenkassen: Bundestag billigt Kompromiss für Kassenbeiträge",
         "summary": "Die Koalition will vermeiden, dass Versicherte 2026 auf breiter Front noch mehr für die Krankenkasse zahlen müssen. Eine Lösung für ein zunächst gestopptes Sparpaket nimmt die erste Hürde.",
@@ -264,7 +286,7 @@
         "paragraphs": [
           "Der Bundesnachrichtendienst soll künftig nicht nur spionieren dürfen, sondern mehr Handlungsfreiheit erhalten. Dazu zählt laut einem Bericht sogar Sabotage im Kriegsfall."
         ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/bnd-soll-mehr-befugnisse-bekommen-sabotage-cyberangriffe",
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/bnd-soll-mehr-befugnisse-bekommen-sabotage-cyberangriffe-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-19T08:40:31.000Z"
       },
@@ -421,31 +443,53 @@
         "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-auf-eu-gipfel-fuehrung-versprochen-brueckenloesung-bekommen-a-56e0dca8-fae7-40de-ab07-b24cdc233e9b#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-19T05:56:00.000Z"
-      },
-      {
-        "id": "li.3357097",
-        "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
-        "summary": "SZ am Morgen.",
-        "paragraphs": [
-          "SZ am Morgen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/eu-sichert-ukraine-finanzierung-mercosur-abkommen-vertagt-deutschlandfonds-vorgestellt-li.3357097",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-19T05:53:10.000Z"
-      },
-      {
-        "id": "{urn:uuid:b1c019c7-1652-4590-97d0-f3f55970e62d}",
-        "title": "Außenpolitik der AfD: Was AfD-Abgeordnete wirklich in den USA gemacht haben",
-        "summary": "Mit 100.000 Euro Steuergeld in die USA – die AfD-Reise verlief anders als angekündigt. Und: Nur ein Teil der Afghanen mit Aufnahmezusage kommt nach Deutschland.",
-        "paragraphs": [
-          "Mit 100.000 Euro Steuergeld in die USA – die AfD-Reise verlief anders als angekündigt. Und: Nur ein Teil der Afghanen mit Aufnahmezusage kommt nach Deutschland."
-        ],
-        "link": "https://www.zeit.de/politik/2025-12/aussenpolitik-afd-usa-nachrichtenpodcast",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-19T05:02:23.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/ich-muss-schon-noch-ein-paar-tore-machen-niederlechner-verlaengert-bei-1860-1177158/artikel#omrss",
+        "title": "\"Ich muss schon noch ein paar Tore machen\": Niederlechner verlängert bei 1860",
+        "summary": "Im Sommer kehrte Florian Niederlechner nach verschiedenen Stationen zu seinem Jugend- und Herzensklub 1860 München zurück. Vor dem Topspiel gegen den Dritten Verl verlängerte er seinen Vertrag bei den Löwen nun vorzeitig bis 2027 - und hat noch einiges vor.",
+        "paragraphs": [
+          "Im Sommer kehrte Florian Niederlechner nach verschiedenen Stationen zu seinem Jugend- und Herzensklub 1860 München zurück. Vor dem Topspiel gegen den Dritten Verl verlängerte er seinen Vertrag bei den Löwen nun vorzeitig bis 2027 - und hat noch einiges vor."
+        ],
+        "link": "https://www.kicker.de/ich-muss-schon-noch-ein-paar-tore-machen-niederlechner-verlaengert-bei-1860-1177158/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-19T09:41:28.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/sport/fussball/hertha-bsc-pal-dardai-verlaesst-den-klub-nach-28-jahren-a-21c0df98-e1f6-4664-9279-bb070a95249b",
+        "title": "Hertha BSC: Pál Dárdai verlässt den Klub nach 28 Jahren",
+        "summary": "Spieler, Trainer, Retter vor dem Abstieg, Jugendcoach, Scout: Pál Dárdai hat so ziemlich jede Position bei Hertha BSC bekleidet. Jetzt verlässt die Ikone den Klub nach 28 Jahren und beginnt ein neues Abenteuer.",
+        "paragraphs": [
+          "Spieler, Trainer, Retter vor dem Abstieg, Jugendcoach, Scout: Pál Dárdai hat so ziemlich jede Position bei Hertha BSC bekleidet. Jetzt verlässt die Ikone den Klub nach 28 Jahren und beginnt ein neues Abenteuer."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/hertha-bsc-pal-dardai-verlaesst-den-klub-nach-28-jahren-a-21c0df98-e1f6-4664-9279-bb070a95249b#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-19T09:37:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/bocholts-suche-nach-einem-unverbrauchten-trainer-mit-ausstrahlung-1176898/artikel#omrss",
+        "title": "Bocholts Suche nach einem \"unverbrauchten Trainer mit Ausstrahlung\"",
+        "summary": "Nach einer \"enttäuschenden\" ersten Saisonhälfte befindet sich der 1. FC Bocholt auf Trainersuche. Im Hintergrund läuft derweil die Professionalisierung weiter.",
+        "paragraphs": [
+          "Nach einer \"enttäuschenden\" ersten Saisonhälfte befindet sich der 1. FC Bocholt auf Trainersuche. Im Hintergrund läuft derweil die Professionalisierung weiter."
+        ],
+        "link": "https://www.kicker.de/bocholts-suche-nach-einem-unverbrauchten-trainer-mit-ausstrahlung-1176898/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-19T09:33:47.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kwasniok-ueber-buelter-seit-er-papa-ist-hakt-es-etwas-1176998/artikel#omrss",
+        "title": "Kwasniok über Bülter: \"Seit er Papa ist, hakt es etwas\"",
+        "summary": "Sportlich lief es für den 1. FC Köln zuletzt nicht rund. Ungewöhnlich ist das nicht, meint Lukas Kwasniok. Der Coach zieht ein positives Zwischenfazit, blickt auf den Jahresabschluss gegen Union Berlin und den Transfer-Winter.",
+        "paragraphs": [
+          "Sportlich lief es für den 1. FC Köln zuletzt nicht rund. Ungewöhnlich ist das nicht, meint Lukas Kwasniok. Der Coach zieht ein positives Zwischenfazit, blickt auf den Jahresabschluss gegen Union Berlin und den Transfer-Winter."
+        ],
+        "link": "https://www.kicker.de/kwasniok-ueber-buelter-seit-er-papa-ist-hakt-es-etwas-1176998/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-19T09:30:07.000Z"
+      },
       {
         "id": "li.3323990",
         "title": "Weltmeisterschaft in Mexiko, Kanada und den USA: Spielplan der Fußball-WM 2026: Alle Gruppen, Spiele und Termine",
@@ -621,53 +665,42 @@
         "link": "https://www.kicker.de/fischer-mussten-viel-aushalten-viel-leiden-1177101/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-18T22:40:19.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/fussball/mainz-05-der-letzte-der-bundesliga-steht-im-europapokal-achtelfinale-a-7a93869a-5b9c-4900-9998-c73254b7a9d9",
-        "title": "Mainz 05: Der Letzte der Bundesliga steht im Europapokal-Achtelfinale",
-        "summary": "In der Liga dümpelt Mainz 05 im Tabellenkeller umher, international feiert der Klub einen historischen Erfolg. Beim Sieg über Samsunspor trifft Trainer Urs Fischer an der Seitenlinie auf ein bekanntes Gesicht.",
-        "paragraphs": [
-          "In der Liga dümpelt Mainz 05 im Tabellenkeller umher, international feiert der Klub einen historischen Erfolg. Beim Sieg über Samsunspor trifft Trainer Urs Fischer an der Seitenlinie auf ein bekanntes Gesicht."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/mainz-05-der-letzte-der-bundesliga-steht-im-europapokal-achtelfinale-a-7a93869a-5b9c-4900-9998-c73254b7a9d9#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-18T22:35:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
-        "title": "Der Spielplan der Darts-WM 2026",
-        "summary": "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick.",
-        "paragraphs": [
-          "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick."
-        ],
-        "link": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-18T22:34:01.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ally-pally-neuling-gruellich-raus-bei-van-gerwen-funktioniert-kaum-etwas-1177079/artikel#omrss",
-        "title": "Ally-Pally-Neuling Grüllich raus - Bei van Gerwen funktioniert kaum etwas",
-        "summary": "Dominik Grüllich hat bei seinem ersten Auftritt im Ally Pally einen starken Eindruck hinterlassen. Die Darts-WM ist für den jungen Mann aus Oberbayern dennoch schon wieder vorbei.",
-        "paragraphs": [
-          "Dominik Grüllich hat bei seinem ersten Auftritt im Ally Pally einen starken Eindruck hinterlassen. Die Darts-WM ist für den jungen Mann aus Oberbayern dennoch schon wieder vorbei."
-        ],
-        "link": "https://www.kicker.de/ally-pally-neuling-gruellich-raus-bei-van-gerwen-funktioniert-kaum-etwas-1177079/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-18T22:32:06.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/er-hat-nun-sein-letztes-spiel-bestritten-norwegische-trainer-legende-hareide-gestorben-1177096/artikel#omrss",
-        "title": "\"Er hat nun sein letztes Spiel bestritten\": Norwegische Trainer-Legende Hareide gestorben",
-        "summary": "Der Fußball in Nordeuropa trauert um Age Hareide. Die norwegische Trainer-Legende ist im Alter von 72 Jahren einer Krebserkrankung erlegen.",
-        "paragraphs": [
-          "Der Fußball in Nordeuropa trauert um Age Hareide. Die norwegische Trainer-Legende ist im Alter von 72 Jahren einer Krebserkrankung erlegen."
-        ],
-        "link": "https://www.kicker.de/er-hat-nun-sein-letztes-spiel-bestritten-norwegische-trainer-legende-hareide-gestorben-1177096/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-18T22:27:50.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/ratgeber/Oxocard-in-C-programmieren-10964639.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | Oxocard in C programmieren",
+        "summary": "Durch den ESP32-Mikroprozessor als Oxocard-Basis bietet sich die Arduino-IDE mit C++ als Entwicklungsumgebung für Oxocard-Projekte an.",
+        "paragraphs": [
+          "Durch den ESP32-Mikroprozessor als Oxocard-Basis bietet sich die Arduino-IDE mit C++ als Entwicklungsumgebung für Oxocard-Projekte an."
+        ],
+        "link": "https://www.heise.de/ratgeber/Oxocard-in-C-programmieren-10964639.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2025-12-19T09:30:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Jugendschutz-OpenAI-und-Anthropic-erweitern-Sicherheit-11120712.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Jugendschutz: OpenAI und Anthropic erweitern Sicherheit",
+        "summary": "Anthropic schätzt künftig das Alter der Claude-Nutzer. Bei OpenAI ist Sicherheit neuerdings die oberste Priorität.",
+        "paragraphs": [
+          "Anthropic schätzt künftig das Alter der Claude-Nutzer. Bei OpenAI ist Sicherheit neuerdings die oberste Priorität."
+        ],
+        "link": "https://www.heise.de/news/Jugendschutz-OpenAI-und-Anthropic-erweitern-Sicherheit-11120712.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-19T09:24:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Industrieverbaende-warnen-vor-faktischem-Verkaufsstopp-fuer-Batterien-11120800.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Industrieverbände warnen vor faktischem Verkaufsstopp für Batterien",
+        "summary": "Das kommende Batteriedurchführungsgesetz könnte verhindern, dass einige Batterien in den Verkauf gelangen. Drei Verbände fordern eine Aussetzung des Gesetzes.",
+        "paragraphs": [
+          "Das kommende Batteriedurchführungsgesetz könnte verhindern, dass einige Batterien in den Verkauf gelangen. Drei Verbände fordern eine Aussetzung des Gesetzes."
+        ],
+        "link": "https://www.heise.de/news/Industrieverbaende-warnen-vor-faktischem-Verkaufsstopp-fuer-Batterien-11120800.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-19T09:22:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Peanuts-Franchise-Sony-uebernimmt-Mehrheit-an-Snoopy-und-Charlie-Brown-11120856.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Peanuts-Franchise: Sony übernimmt Mehrheit an Snoopy und Charlie Brown",
@@ -854,39 +887,6 @@
         "link": "https://www.heise.de/tests/Waipu-tv-im-Test-Streaming-Stick-fuers-Internetfernsehen-10748165.html",
         "source": "c't",
         "publishedAt": "2025-12-19T06:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Update-ausser-der-Reihe-Microsoft-fixt-Message-Queuing-Probleme-11120586.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Windows-Notfall-Update korrigiert Message-Queuing-Probleme",
-        "summary": "Windows-Sicherheitsupdates führen zu Störungen des Message Queuing (MSMQ) von Windows 10 und Server bis 2019. Notfallupdates lösen das.",
-        "paragraphs": [
-          "Windows-Sicherheitsupdates führen zu Störungen des Message Queuing (MSMQ) von Windows 10 und Server bis 2019. Notfallupdates lösen das."
-        ],
-        "link": "https://www.heise.de/news/Update-ausser-der-Reihe-Microsoft-fixt-Message-Queuing-Probleme-11120586.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-19T06:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Freitag-TikTok-bestaetigt-Investoren-Deal-Tastenverzoegerung-verraet-Nordkoreaner-11120570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Freitag: TikTok bestätigt Investoren-Deal, Tastenverzögerung verrät Nordkoreaner",
-        "summary": "TikTok-Joint-Venture mit Oracle + IT-Maulwurf bei Amazon.com + Urteil gegen personalisierte Werbung + Malware auf Fähre + Verbraucherschutzpodcast zu Glasfaser",
-        "paragraphs": [
-          "TikTok-Joint-Venture mit Oracle + IT-Maulwurf bei Amazon.com + Urteil gegen personalisierte Werbung + Malware auf Fähre + Verbraucherschutzpodcast zu Glasfaser"
-        ],
-        "link": "https://www.heise.de/news/Freitag-TikTok-bestaetigt-Investoren-Deal-Tastenverzoegerung-verraet-Nordkoreaner-11120570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-19T05:15:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Vorsicht-Kunde-Glasfaseranschluss-verzoegert-sich-11120446.html",
-        "title": "Vorsicht, Kunde! – Glasfaseranschluss verzögert sich",
-        "summary": "Was tun, wenn der versprochene Glasfaseranschluss auf sich warten lässt? Wer im Vorfeld handelt und passende Fristen setzt, kann sein Recht besser durchsetzen.",
-        "paragraphs": [
-          "Was tun, wenn der versprochene Glasfaseranschluss auf sich warten lässt? Wer im Vorfeld handelt und passende Fristen setzt, kann sein Recht besser durchsetzen."
-        ],
-        "link": "https://www.heise.de/news/Vorsicht-Kunde-Glasfaseranschluss-verzoegert-sich-11120446.html",
-        "source": "c't",
-        "publishedAt": "2025-12-19T05:00:00.000Z"
       }
     ]
   }
