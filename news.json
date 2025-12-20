@@ -1,17 +1,28 @@
 {
-  "updatedAt": "2025-12-20T15:54:14.874Z",
+  "updatedAt": "2025-12-20T16:05:35.773Z",
   "categories": {
     "wirtschaft": [
       {
-        "id": "li.3357788",
-        "title": "Blue Origin: Zwei Deutsche fliegen ins All",
-        "summary": "Die Ingenieurin Michaela Benthaus ist der erste Mensch mit Querschnittslähmung im Weltraum. Der Flug mit Blue Origin dauert insgesamt elf Minuten.",
+        "id": "{urn:uuid:77cf859b-1717-4c79-a4ae-6403238026c9}",
+        "title": "Geschenke zur Geburt: Von Edelmetall bis Heavy Metal",
+        "summary": "Nicht nur die Heiligen Drei Könige beschenkten ein Neugeborenes mit Gold. Heute werden die Geschenke immer größer.",
         "paragraphs": [
-          "Die Ingenieurin Michaela Benthaus ist der erste Mensch mit Querschnittslähmung im Weltraum. Der Flug mit Blue Origin dauert insgesamt elf Minuten."
+          "Nicht nur die Heiligen Drei Könige beschenkten ein Neugeborenes mit Gold. Heute werden die Geschenke immer größer."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/geschenke-zur-geburt-von-edelmetall-bis-heavy-metal",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-20T15:51:51.000Z"
+      },
+      {
+        "id": "li.3357788",
+        "title": "Blue Origin: Zwei Deutsche nach Trip ins All wieder auf der Erde",
+        "summary": "Die Ingenieurin Michaela Benthaus ist der erste Mensch mit Querschnittslähmung im Weltraum. Der Flug mit Blue Origin dauert nur elf Minuten.",
+        "paragraphs": [
+          "Die Ingenieurin Michaela Benthaus ist der erste Mensch mit Querschnittslähmung im Weltraum. Der Flug mit Blue Origin dauert nur elf Minuten."
         ],
         "link": "https://www.sueddeutsche.de/wirtschaft/deutsche-all-blue-origin-rakete-li.3357788",
         "source": "Sueddeutsche",
-        "publishedAt": "2025-12-20T14:41:43.000Z"
+        "publishedAt": "2025-12-20T15:51:00.000Z"
       },
       {
         "id": "{urn:uuid:ad951173-7ceb-4d0b-bb23-48447c635e6d}",
@@ -26,7 +37,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/katherina-reiche-die-unabhaengige/100178490.html",
-        "title": "Politikerin des Jahres: Frei von parteipolitischen Ritualen und Zwängen – Diese Unabhängigkeit ist Katherina Reiches Machtbasis",
+        "title": "Politikerin des Jahres: Frei von parteipolitischen Ritualen und Zwängen – Katherina Reiches Machtbasis",
         "summary": "Die Bundeswirtschaftsministerin hat Erfahrung in der Politik genauso wie in der Wirtschaft. Eine gute Voraussetzung für einen neuen – besseren – Politikertypus. Was macht sie daraus?",
         "paragraphs": [
           "Die Bundeswirtschaftsministerin hat Erfahrung in der Politik genauso wie in der Wirtschaft. Eine gute Voraussetzung für einen neuen – besseren – Politikertypus. Was macht sie daraus?"
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/verkehr-fuehrerschein-bleibt-teuer-minister-raet-vom-warten-ab/100185639.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-20T09:39:15.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rentnerparadies-so-kann-der-ruhestand-in-italien-aussehen-03/100139821.html",
-        "title": "Rentnerparadies: Steuerschnäppchen und gute Versorgung – So kann der Ruhestand in Italien gelingen",
-        "summary": "Zwischen Dolce Vita, Steuertricks und italienischer Bürokratie: Wie drei Deutsche ihren Ruhestand am Gardasee und in der Toskana gestalten.",
-        "paragraphs": [
-          "Zwischen Dolce Vita, Steuertricks und italienischer Bürokratie: Wie drei Deutsche ihren Ruhestand am Gardasee und in der Toskana gestalten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rentnerparadies-so-kann-der-ruhestand-in-italien-aussehen-03/100139821.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-20T09:36:00.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/live-1-durchgang-hoffmann-und-raimund-gut-dabei-1177312/artikel#omrss",
+        "title": "LIVE! 1. Durchgang: Hoffmann und Raimund gut dabei",
+        "summary": "Felix Hoffmann hat zum Auftakt des Weltcup-Wochenendes in Engelberg überrascht und die Qualifikation auf der Gross-Titlis-Schanze gewonnen. Und heute? Die Generalprobe für die Vierschanzentournee im Ticker.",
+        "paragraphs": [
+          "Felix Hoffmann hat zum Auftakt des Weltcup-Wochenendes in Engelberg überrascht und die Qualifikation auf der Gross-Titlis-Schanze gewonnen. Und heute? Die Generalprobe für die Vierschanzentournee im Ticker."
+        ],
+        "link": "https://www.kicker.de/live-1-durchgang-hoffmann-und-raimund-gut-dabei-1177312/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T15:56:16.000Z"
+      },
+      {
         "id": "https://www.kicker.de/live-grifo-gleicht-per-elfer-aus-vfb-muss-wechseln-1176662/artikel#omrss",
         "title": "LIVE! Grifo gleicht per Elfer aus - VfB muss wechseln",
         "summary": "Der 1. FC Köln durfte seit fünf Ligaspielen keinen Sieg mehr bejubeln. Ändert sich das im Duell mit Union? Während Hamburg, Augsburg und Wolfsburg den Weg aus dem Tabellenkeller suchen, will sich der VfB im Kampf um die internationalen Plätze gegen eine formstarke TSG behaupten.",
@@ -514,7 +525,7 @@
       },
       {
         "id": "https://www.kicker.de/muenchen-gegen-verl-2025-liga-5057518/spielbericht#omrss",
-        "title": "LIVE! Mhamdi trifft sehenswert: Verl führt früh im Topspiel",
+        "title": "LIVE! Mhamdi trifft sehenswert: Dominante Verler im Topspiel verdient vorne",
         "summary": "Im Topspiel des 19. Spieltags hat 1860 München den SC Verl zu Gast. Beide Teams sind in einem Formhoch: Bleibt 1860 München an den Aufstiegsrängen dran oder überwintert Verl auf einem direkten Aufstiegsrang?",
         "paragraphs": [
           "Im Topspiel des 19. Spieltags hat 1860 München den SC Verl zu Gast. Beide Teams sind in einem Formhoch: Bleibt 1860 München an den Aufstiegsrängen dran oder überwintert Verl auf einem direkten Aufstiegsrang?"
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/nhl-ticker-danault-und-marchment-wechseln-vor-roster-freeze-1030078/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-20T13:15:06.000Z"
-      },
-      {
-        "id": "{urn:uuid:c92402f1-c93b-4d7c-a6df-a54b2536cc04}",
-        "title": "Fußball in Krisenzeiten: 90 Minuten süßes Vergessen, Urlaub von der Welt",
-        "summary": "Die Welt ist in einem desolaten Zustand, weiß auch unser Kolumnist. Umso wichtiger ist ihm der Fußball. Er kann im Kleinen lehren, was wir im Großen brauchen: Hoffnung.",
-        "paragraphs": [
-          "Die Welt ist in einem desolaten Zustand, weiß auch unser Kolumnist. Umso wichtiger ist ihm der Fußball. Er kann im Kleinen lehren, was wir im Großen brauchen: Hoffnung."
-        ],
-        "link": "https://www.zeit.de/sport/2025-12/fussball-krisenzeiten-hoffnung-ritual-gemeinschaft",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-20T13:08:38.000Z"
       }
     ],
     "edv": [
@@ -790,17 +790,6 @@
         "publishedAt": "2025-12-20T08:01:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
-        "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
-        "paragraphs": [
-          "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
-        ],
-        "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-20T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
         "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
@@ -808,6 +797,17 @@
           "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
         ],
         "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-20T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
+        "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
+        "paragraphs": [
+          "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
+        ],
+        "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-20T07:00:00.000Z"
       },
