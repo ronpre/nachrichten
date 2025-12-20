@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-20T18:56:02.618Z",
+  "updatedAt": "2025-12-20T19:05:12.235Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:dc4b2596-927d-40a5-8945-bebedc3abbd7}",
+        "title": "Südamerika: USA beschlagnahmen offenbar weiteres Schiff vor der Küste Venezuelas",
+        "summary": "Laut Medien hat die US-Küstenwache ein weiteres venezolanisches Schiff beschlagnahmt. Hintergrund ist möglicherweise eine von US-Präsident Trump verkündete Seeblockade.",
+        "paragraphs": [
+          "Laut Medien hat die US-Küstenwache ein weiteres venezolanisches Schiff beschlagnahmt. Hintergrund ist möglicherweise eine von US-Präsident Trump verkündete Seeblockade."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-beschlagnahme-schiff-venezuela",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-20T19:01:23.000Z"
+      },
+      {
         "id": "li.3353907",
         "title": "Krieg in der Ukraine: Selenskij: USA wollen wieder direkte Gespräche zwischen Russland und Ukraine",
         "summary": "Offenbar sollen sich die nationalen Sicherheitsberater aus allen drei Ländern treffen. Es wäre die erste direkte Begegnung zwischen Kiew und Moskau seit Monaten.",
@@ -234,17 +245,6 @@
         "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-treffen-li.3353907",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-20T18:50:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:dc4b2596-927d-40a5-8945-bebedc3abbd7}",
-        "title": "Südamerika: USA beschlagnahmen offenbar weiteres Schiff vor der Küste Venezuelas",
-        "summary": "Laut Medien hat die US-Küstenwache ein weiteres venezolanisches Schiff beschlagnahmt. Hintergrund ist möglicherweise eine von US-Präsident Trump verkündete Seeblockade.",
-        "paragraphs": [
-          "Laut Medien hat die US-Küstenwache ein weiteres venezolanisches Schiff beschlagnahmt. Hintergrund ist möglicherweise eine von US-Präsident Trump verkündete Seeblockade."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-beschlagnahme-schiff-venezuela",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-20T18:46:35.000Z"
       },
       {
         "id": "{urn:uuid:1c6b0abc-1240-4580-b59a-6517223fba6f}",
@@ -447,6 +447,28 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/live-terrier-trifft-wade-statt-ins-tor-1176688/artikel#omrss",
+        "title": "LIVE! Terrier trifft Wade statt ins Tor",
+        "summary": "Nachdem die Leipziger beim 1:3 an der alten Försterei vorne zu ideenlos und hinten zu unaufmerksam agierten, kommt mit Leverkusen nochmal ein anderes Kaliber auf den Tabellenzweiten zu. Die Werkself reist nach dem 2:0-Derbysieg gegen Köln mit Rückenwind an und würde RBL mit einem klaren Sieg sogar überholen.",
+        "paragraphs": [
+          "Nachdem die Leipziger beim 1:3 an der alten Försterei vorne zu ideenlos und hinten zu unaufmerksam agierten, kommt mit Leverkusen nochmal ein anderes Kaliber auf den Tabellenzweiten zu. Die Werkself reist nach dem 2:0-Derbysieg gegen Köln mit Rückenwind an und würde RBL mit einem klaren Sieg sogar überholen."
+        ],
+        "link": "https://www.kicker.de/live-terrier-trifft-wade-statt-ins-tor-1176688/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T18:57:19.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/goeppingen-gegen-flensburg-2025-handball-bundesliga-5097438/spielbericht#omrss",
+        "title": "Trotz Gislason-Blitzrot: Flensburg zittert sich in Göppingen zum Sieg",
+        "summary": "Das war ein hartes Stück Arbeit: Bis zum Schluss musste die SG Flensburg-Handewitt bei Frisch Auf Göppingen zittern. In der ersten Hälfte lagen die Fördestädter mit bis zu vier Treffern zurück, am Ende jubelten die Gäste über ein 33:32 (15:13), weil der letzte Angriff der Hausherren erfolgslos blieb.",
+        "paragraphs": [
+          "Das war ein hartes Stück Arbeit: Bis zum Schluss musste die SG Flensburg-Handewitt bei Frisch Auf Göppingen zittern. In der ersten Hälfte lagen die Fördestädter mit bis zu vier Treffern zurück, am Ende jubelten die Gäste über ein 33:32 (15:13), weil der letzte Angriff der Hausherren erfolgslos blieb."
+        ],
+        "link": "https://www.kicker.de/goeppingen-gegen-flensburg-2025-handball-bundesliga-5097438/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T18:44:00.000Z"
+      },
+      {
         "id": "https://www.kicker.de/live-kellerduell-in-kiel-verlaesst-dynamo-den-letzten-platz-1176635/artikel#omrss",
         "title": "LIVE! Kellerduell in Kiel: Verlässt Dynamo den letzten Platz?",
         "summary": "Wer geht mit dem besseren Gefühl in die Winterpause? Im Samstagabendspiel der 2. Bundesliga treffen sich Absteiger Kiel und Schlusslicht Dresden im Keller.",
@@ -480,17 +502,6 @@
         "publishedAt": "2025-12-20T18:25:10.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-bayer-dreht-das-spiel-schick-schlaegt-haken-und-vollendet-1176688/artikel#omrss",
-        "title": "LIVE! Bayer dreht das Spiel: Schick schlägt Haken und vollendet",
-        "summary": "Nachdem die Leipziger beim 1:3 an der alten Försterei vorne zu ideenlos und hinten zu unaufmerksam agierten, kommt mit Leverkusen nochmal ein anderes Kaliber auf den Tabellenzweiten zu. Die Werkself reist nach dem 2:0-Derbysieg gegen Köln mit Rückenwind an und würde RBL mit einem klaren Sieg sogar überholen.",
-        "paragraphs": [
-          "Nachdem die Leipziger beim 1:3 an der alten Försterei vorne zu ideenlos und hinten zu unaufmerksam agierten, kommt mit Leverkusen nochmal ein anderes Kaliber auf den Tabellenzweiten zu. Die Werkself reist nach dem 2:0-Derbysieg gegen Köln mit Rückenwind an und würde RBL mit einem klaren Sieg sogar überholen."
-        ],
-        "link": "https://www.kicker.de/live-bayer-dreht-das-spiel-schick-schlaegt-haken-und-vollendet-1176688/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T18:16:29.000Z"
-      },
-      {
         "id": "https://www.kicker.de/hsv-trotzt-den-problemen-und-feiert-standesgemaesses-jahres-ende-1177552/artikel#omrss",
         "title": "HSV trotzt den Problemen und feiert standesgemäßes Jahres-Ende",
         "summary": "Der Jahreskehraus geriet standesgemäß. Der HSV lief personell auf der letzten Rille, musste am Samstag nach dem Aufwärmprogramm auch noch Jordan Torunarigha ersetzen - und erkämpfte sich gegen Eintracht Frankfurt beim 1:1 dennoch den nächsten wichtigen Heimpunkt.",
@@ -503,7 +514,7 @@
       },
       {
         "id": "https://www.kicker.de/tottenham-gegen-liverpool-2025-premier-league-5045172/spielbericht#omrss",
-        "title": "LIVE! Xavi sieht Rot - Nutzt Liverpool die Überzahl?",
+        "title": "LIVE! Wirtz gelingt erster Premier-League-Scorerpunkt - Liverpool legt nach Alu-Glück nach",
         "summary": "Nach dem Sieg gegen Brighton will Liverpool weiter an den Champions-League-Rängen dranbleiben - Gegner Tottenham den nächsten Tiefschlag vermeiden.",
         "paragraphs": [
           "Nach dem Sieg gegen Brighton will Liverpool weiter an den Champions-League-Rängen dranbleiben - Gegner Tottenham den nächsten Tiefschlag vermeiden."
@@ -632,17 +643,6 @@
         "link": "https://www.zeit.de/sport/2025-12/fussball-bundesliga-15-spieltag-vfl-wolfsburg-sc-freiburg",
         "source": "ZEIT",
         "publishedAt": "2025-12-20T16:55:04.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-goeppingen-verliert-krimi-knapp-1176929/artikel#omrss",
-        "title": "LIVE! Göppingen verliert Krimi knapp",
-        "summary": "Am Samstagabend stehen gleich vier Partien in der Handball-Bundesliga auf dem Programm: Göppingen (gegen Flensburg), Erlangen (gegen Melsungen) und der BHC (gegen Lemgo) wollen ihre Außenseiterrolle nutzen. Kiel hat dann ab 20 Uhr die Recken aus Hannover zu Gast.",
-        "paragraphs": [
-          "Am Samstagabend stehen gleich vier Partien in der Handball-Bundesliga auf dem Programm: Göppingen (gegen Flensburg), Erlangen (gegen Melsungen) und der BHC (gegen Lemgo) wollen ihre Außenseiterrolle nutzen. Kiel hat dann ab 20 Uhr die Recken aus Hannover zu Gast."
-        ],
-        "link": "https://www.kicker.de/live-goeppingen-verliert-krimi-knapp-1176929/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T16:39:58.000Z"
       },
       {
         "id": "https://www.kicker.de/southampton-gegen-coventry-2025-championship-5050442/spielbericht#omrss",
@@ -812,17 +812,6 @@
         "publishedAt": "2025-12-20T08:01:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
-        "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
-        "paragraphs": [
-          "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
-        ],
-        "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-20T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
         "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
@@ -830,6 +819,17 @@
           "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
         ],
         "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-20T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
+        "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
+        "paragraphs": [
+          "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
+        ],
+        "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-20T07:00:00.000Z"
       },
