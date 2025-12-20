@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-20T13:19:24.279Z",
+  "updatedAt": "2025-12-20T13:34:22.710Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:1c3c0ecd-d773-4c57-a960-fdfddc45debc}",
+        "title": "Nahost: Trump sieht \"glänzende Zukunft\" für Syrien",
+        "summary": "In der Nacht hat das US-Militär über 70 IS-Ziele in Syrien angegriffen. Mindestens fünf mutmaßliche IS-Mitglieder wurden dabei getötet, darunter auch ein Anführer.",
+        "paragraphs": [
+          "In der Nacht hat das US-Militär über 70 IS-Ziele in Syrien angegriffen. Mindestens fünf mutmaßliche IS-Mitglieder wurden dabei getötet, darunter auch ein Anführer."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/us-militaer-syrien-luftangriffe-gxe",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-20T13:17:45.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/caesar-act-usa-heben-sanktionen-komplett-auf-syrien-hofft-auf-neuanfang/100185633.html",
         "title": "„Caesar Act“: USA heben Sanktionen komplett auf – Syrien hofft auf Neuanfang",
         "summary": "Ein Jahr nach dem Sturz von Assad: Während das US-Militär IS-Ziele in Syrien angreift, hebt Präsident Trump alle Wirtschaftssanktionen auf. Ein Wendepunkt in der Geschichte Syriens.",
@@ -432,20 +443,20 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/pakistan-haftstrafe-ex-ministerpraesident-imran-khan-korruption-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-20T09:42:13.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/verkehr-fuehrerschein-bleibt-teuer-minister-raet-vom-warten-ab/100185639.html",
-        "title": "Verkehr: Führerschein bleibt teuer – Minister rät vom Warten ab",
-        "summary": "Verkehrsminister Schnieder empfiehlt, den Führerschein nicht aufzuschieben. Auch mit der geplanten Reform wird es so schnell nicht günstiger.",
-        "paragraphs": [
-          "Verkehrsminister Schnieder empfiehlt, den Führerschein nicht aufzuschieben. Auch mit der geplanten Reform wird es so schnell nicht günstiger."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/verkehr-fuehrerschein-bleibt-teuer-minister-raet-vom-warten-ab/100185639.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-20T09:39:15.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/odermatt-ausgestochen-von-allmen-gewinnt-auf-der-saslong-1177286/artikel#omrss",
+        "title": "Odermatt ausgestochen: Von Allmen gewinnt auf der Saslong",
+        "summary": "Bei der zweiten Abfahrt in Gröden stehen wieder zwei Schweizer oben auf dem Podest. Den Deutschen fehlt weiterhin einiges zur Spitze - auch wenn es einen kleinen Lichtblick gibt.",
+        "paragraphs": [
+          "Bei der zweiten Abfahrt in Gröden stehen wieder zwei Schweizer oben auf dem Podest. Den Deutschen fehlt weiterhin einiges zur Spitze - auch wenn es einen kleinen Lichtblick gibt."
+        ],
+        "link": "https://www.kicker.de/odermatt-ausgestochen-von-allmen-gewinnt-auf-der-saslong-1177286/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T13:19:35.000Z"
+      },
       {
         "id": "https://www.kicker.de/nhl-ticker-danault-und-marchment-wechseln-vor-roster-freeze-1030078/artikel#omrss",
         "title": "NHL-Ticker: Danault und Marchment wechseln vor \"Roster Freeze\"",
@@ -470,7 +481,7 @@
       },
       {
         "id": "https://www.kicker.de/newcastle-gegen-chelsea-2025-premier-league-5045171/spielbericht#omrss",
-        "title": "LIVE! Doppelpack Woltemade nach 20 Minuten!",
+        "title": "LIVE! Knapp am Hattrick vorbei: Woltemade wie entfesselt",
         "summary": "Zuletzt lief es bei beiden Teams in der Liga eher holprig: Kommt Chelsea in Newcastle im Kampf um die Champions League wieder in den Tritt? Oder machen die Magpies die bittere Derby-Niederlage wieder wett?",
         "paragraphs": [
           "Zuletzt lief es bei beiden Teams in der Liga eher holprig: Kommt Chelsea in Newcastle im Kampf um die Champions League wieder in den Tritt? Oder machen die Magpies die bittere Derby-Niederlage wieder wett?"
@@ -481,7 +492,7 @@
       },
       {
         "id": "https://www.kicker.de/hoffenheim-gegen-jena-2025-frauen-bundesliga-5076288/spielbericht#omrss",
-        "title": "Cerci mit drei Scorern: Hoffenheim schießt harmloses Jena ab",
+        "title": "Cerci mit drei Scorerpunkten: Hoffenheim schießt harmloses Jena ab",
         "summary": "Mit 5:1 besiegte die TSG Hoffenheim Carl Zeiss Jena am letzten Spieltag des Kalenderjahres. Matchwinnerin war einmal mehr Cerci mit drei Torbeteiligungen gegen ein harmloses und defensiv anfälliges Schlusslicht.",
         "paragraphs": [
           "Mit 5:1 besiegte die TSG Hoffenheim Carl Zeiss Jena am letzten Spieltag des Kalenderjahres. Matchwinnerin war einmal mehr Cerci mit drei Torbeteiligungen gegen ein harmloses und defensiv anfälliges Schlusslicht."
@@ -502,13 +513,13 @@
         "publishedAt": "2025-12-20T12:15:13.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-glueck-fuer-aue-rostock-fuehrt-dank-dirkner-frueh-janssen-trifft-fuer-rwe-1176625/artikel#omrss",
-        "title": "LIVE! Glück für Aue - Rostock führt dank Dirkner früh - Janssen trifft für RWE",
+        "id": "https://www.kicker.de/live-kraetschmer-trifft-ins-eigene-tor-rizzuto-kontert-dirkner-gjasula-erhoeht-fuer-rwe-1176625/artikel#omrss",
+        "title": "LIVE! Krätschmer trifft ins eigene Tor - Rizzuto kontert Dirkner - Gjasula erhöht für RWE",
         "summary": "Sowohl Osnabrück als auch Rostock haben die Chance, mit einem Sieg unter den ersten drei Plätzen zu überwintern. Kann Schweinfurt nach der Havelse-Pleite in Aue doch noch punkten, die selbst dringend einen Dreier brauchen?",
         "paragraphs": [
           "Sowohl Osnabrück als auch Rostock haben die Chance, mit einem Sieg unter den ersten drei Plätzen zu überwintern. Kann Schweinfurt nach der Havelse-Pleite in Aue doch noch punkten, die selbst dringend einen Dreier brauchen?"
         ],
-        "link": "https://www.kicker.de/live-glueck-fuer-aue-rostock-fuehrt-dank-dirkner-frueh-janssen-trifft-fuer-rwe-1176625/artikel#omrss",
+        "link": "https://www.kicker.de/live-kraetschmer-trifft-ins-eigene-tor-rizzuto-kontert-dirkner-gjasula-erhoeht-fuer-rwe-1176625/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-20T12:11:56.000Z"
       },
@@ -599,17 +610,6 @@
         "link": "https://www.kicker.de/aufregung-in-der-u-19-regionalliga-umstrittener-paragraf-kostet-bfc-dynamo-den-aufstieg-1177236/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-20T10:35:42.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-odermatt-ausgestochen-van-allmen-gewinnt-auf-der-saslong-1177286/artikel#omrss",
-        "title": "LIVE! Odermatt ausgestochen: Van Allmen gewinnt auf der Saslong",
-        "summary": "Die erste Abfahrt in Gröden am Donnerstag hat Marco Odermatt gewonnen, auch in der zweiten am Samstag (11.45 Uhr) ist der Schweizer favorisiert.",
-        "paragraphs": [
-          "Die erste Abfahrt in Gröden am Donnerstag hat Marco Odermatt gewonnen, auch in der zweiten am Samstag (11.45 Uhr) ist der Schweizer favorisiert."
-        ],
-        "link": "https://www.kicker.de/live-odermatt-ausgestochen-van-allmen-gewinnt-auf-der-saslong-1177286/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T10:17:45.000Z"
       },
       {
         "id": "https://www.kicker.de/gladbacher-lernansatz-fuer-2026-polanski-will-die-gier-auf-tore-neu-wecken-1177437/artikel#omrss",
