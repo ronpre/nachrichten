@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-20T22:39:46.962Z",
+  "updatedAt": "2025-12-20T22:47:51.864Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:04eb0d2f-7d1d-40b4-93af-bedb957a286d}",
+        "title": "Südamerika: Milei begrüßt Druck auf Venezuela, Lula warnt vor Krieg",
+        "summary": "Argentiniens Präsident lobt Donald Trumps Vorgehen zur \"Befreiung des venezolanischen Volkes\". Brasiliens Staatschef sieht die Gefahr einer humanitären Katastrophe.",
+        "paragraphs": [
+          "Argentiniens Präsident lobt Donald Trumps Vorgehen zur \"Befreiung des venezolanischen Volkes\". Brasiliens Staatschef sieht die Gefahr einer humanitären Katastrophe."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/suedamerika-javier-milei-argentinien-venezuela-usa",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-20T22:41:27.000Z"
+      },
+      {
         "id": "li.3352720",
         "title": "USA: USA beschlagnahmen erneut Öltanker vor Venezuela",
         "summary": "Heimatschutzministerin Noem kündigt an, weiter gegen die illegale Verschiffung von sanktioniertem Öl vorzugehen. Demokraten und Republikaner kritisieren Schwärzungen in den „Epstein Files“.",
@@ -432,17 +443,6 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/sharif-osman-hadi-bangladesch-beerdigung-studentenbewegung",
         "source": "ZEIT",
         "publishedAt": "2025-12-20T12:49:35.000Z"
-      },
-      {
-        "id": "li.3357684",
-        "title": "Vergeltungsschlag gegen IS: US-Militär greift mehr als 70 Ziele in Syrien an",
-        "summary": "US-Verteidigungsminister Hegseth begründet den Schlag gegen Dutzende Ziele der Terrormiliz IS in Syrien mit Rache für den Tod amerikanischer Soldaten vor einer Woche. Diese Vergeltung sei noch nicht abgeschlossen – Zuspruch kommt aus Syrien selbst und aus Australien.",
-        "paragraphs": [
-          "US-Verteidigungsminister Hegseth begründet den Schlag gegen Dutzende Ziele der Terrormiliz IS in Syrien mit Rache für den Tod amerikanischer Soldaten vor einer Woche. Diese Vergeltung sei noch nicht abgeschlossen – Zuspruch kommt aus Syrien selbst und aus Australien."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/us-militaer-is-syrien-vergeltungsschlaege-anschlag-li.3357684",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-20T12:45:00.000Z"
       }
     ],
     "sport": [
@@ -823,17 +823,6 @@
         "publishedAt": "2025-12-20T08:01:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
-        "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
-        "paragraphs": [
-          "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
-        ],
-        "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-20T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
         "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
@@ -841,6 +830,17 @@
           "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
         ],
         "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-20T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
+        "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
+        "paragraphs": [
+          "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
+        ],
+        "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-20T07:00:00.000Z"
       },
