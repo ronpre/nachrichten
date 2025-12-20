@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-20T05:54:26.709Z",
+  "updatedAt": "2025-12-20T06:20:42.017Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:efedef61-9cee-4781-b365-52cf3e0a1a5d}",
+        "title": "Ukraine-Verhandlungen: Gespräche zur Ukraine werden in Miami mit Russland fortgeführt",
+        "summary": "Nach Verhandlungen mit Ukrainern und Europäern sollen die Friedensgespräche in Miami fortgesetzt werden. Aus Moskau reist laut Berichten Putinberater Kirill Dmitrijew an.",
+        "paragraphs": [
+          "Nach Verhandlungen mit Ukrainern und Europäern sollen die Friedensgespräche in Miami fortgesetzt werden. Aus Moskau reist laut Berichten Putinberater Kirill Dmitrijew an."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/ukraine-verhandlungen-usa-russland-kirill-dmitrijew-miami",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-20T06:13:05.000Z"
+      },
+      {
+        "id": "li.3357462",
+        "title": "SZ-Podcast „Auf den Punkt“: Wie nah sind wir einem Frieden in der Ukraine wirklich?",
+        "summary": "In diesen Tagen findet ein Ukraine-Gipfel nach dem nächsten statt: erst in Berlin, dann in Brüssel – am Wochenende in Miami. Nur: Wie könnte ein Frieden in der Ukraine aussehen?",
+        "paragraphs": [
+          "In diesen Tagen findet ein Ukraine-Gipfel nach dem nächsten statt: erst in Berlin, dann in Brüssel – am Wochenende in Miami. Nur: Wie könnte ein Frieden in der Ukraine aussehen?"
+        ],
+        "link": "https://www.sueddeutsche.de/politik/frieden-ukraine-verhandlungen-eu-unterstuetzung-li.3357462",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-20T06:01:00.000Z"
+      },
+      {
         "id": "{urn:uuid:34460f5d-4a92-4b44-8d6c-1e9add1faba5}",
         "title": "US-Überblick am Morgen: USA greifen Ziele in Syrien an, Elon Musk bekommt Milliardenvergütung",
         "summary": "Das US-Militär hat in einem Vergeltungsschlag 70 Ziele in Syrien angegriffen. Musk bekommt noch mehr Geld. Zum Epstein-Fall wurden neue Akten veröffentlicht. Die Nacht",
@@ -292,10 +314,10 @@
       },
       {
         "id": "{urn:uuid:398bcf46-1a03-4cab-8832-3e7941037c10}",
-        "title": "Freigabe der Epstein-Akten: Ein Anfang, nicht mehr",
-        "summary": "Die US-Regierung hat einen Teil der Akten zu dem verstorbenen Sexualstraftäter Epstein veröffentlicht. Aber viele Fragen bleiben offen.",
+        "title": "Freigabe der Epstein-Akten: Die US-Regierung verschleiert weiter",
+        "summary": "Ein Teil der Epstein-Akten ist nun vom Justizministerium veröffentlicht worden. Dabei wird eine Agenda deutlich, die Donald Trump nicht helfen wird.",
         "paragraphs": [
-          "Die US-Regierung hat einen Teil der Akten zu dem verstorbenen Sexualstraftäter Epstein veröffentlicht. Aber viele Fragen bleiben offen."
+          "Ein Teil der Epstein-Akten ist nun vom Justizministerium veröffentlicht worden. Dabei wird eine Agenda deutlich, die Donald Trump nicht helfen wird."
         ],
         "link": "https://www.zeit.de/politik/ausland/2025-12/freigabe-epstein-akten-veroeffentlichung-us-justizministerium",
         "source": "ZEIT",
@@ -421,28 +443,6 @@
         "link": "https://www.sueddeutsche.de/politik/epstein-files-fragen-antworten-li.3342273",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-19T21:59:58.000Z"
-      },
-      {
-        "id": "{urn:uuid:b2e423e2-b888-46c4-8703-43af1089a2d9}",
-        "title": "Jeffrey Epstein: US-Justizministerium veröffentlicht neue Epstein-Akten",
-        "summary": "Die US-Regierung hat neue Akten im Fall Epstein veröffentlicht. Viele davon rücken Ex-Präsident Bill Clinton in ein schlechtes Licht – Trump kommt hingegen kaum vor.",
-        "paragraphs": [
-          "Die US-Regierung hat neue Akten im Fall Epstein veröffentlicht. Viele davon rücken Ex-Präsident Bill Clinton in ein schlechtes Licht – Trump kommt hingegen kaum vor."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/jeffrey-epstein-neue-dokumente-veroeffentlicht",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-19T21:54:39.000Z"
-      },
-      {
-        "id": "{urn:uuid:b9f55d67-10fc-4f40-a75e-786054da4d2f}",
-        "title": "USA: US-Außenminister Marco Rubio sieht AfD-Kontakte als Teil seiner Arbeit",
-        "summary": "Nach der USA-Reise von AfD-Politikern spielt Marco Rubio die Kontakte herunter. Er müsse das ganze politische Spektrum verstehen – auch für den Fall eines AfD-Wahlsiegs.",
-        "paragraphs": [
-          "Nach der USA-Reise von AfD-Politikern spielt Marco Rubio die Kontakte herunter. Er müsse das ganze politische Spektrum verstehen – auch für den Fall eines AfD-Wahlsiegs."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/us-aussenminister-marco-rubio-kontakte-afd",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-19T20:45:34.000Z"
       }
     ],
     "sport": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Trotz-Irrefuehrung-Elon-Musk-erhaelt-aberkannte-Tesla-Aktien-zurueck-11121995.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Trotz Irreführung: Elon Musk erhält aberkannte Tesla-Aktien zurück",
+        "summary": "Das damals größte Wertpapierpaket der Geschichte für einen Manager war unfair und rechtswidrig. Dennoch spricht ein Berufungsgericht Elon Musk die Anteile zu.",
+        "paragraphs": [
+          "Das damals größte Wertpapierpaket der Geschichte für einen Manager war unfair und rechtswidrig. Dennoch spricht ein Berufungsgericht Elon Musk die Anteile zu."
+        ],
+        "link": "https://www.heise.de/news/Trotz-Irrefuehrung-Elon-Musk-erhaelt-aberkannte-Tesla-Aktien-zurueck-11121995.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-20T06:15:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Zugreisen-Smarter-planen-und-buchen-Hintergruende-verstehen-c-t-uplink-11120966.html",
         "title": "Zugreisen: Smarter planen und buchen, Hintergründe verstehen | c’t uplink",
         "summary": "Im Podcast diskutieren wir, was die Bahn-Digitalisierung bremst. Wir erklären, wie Sie smart buchen, und stellen Tools vor, mit denen Sie unterwegs mehr wissen.",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Firefox-Mozilla-verspricht-AI-Kill-Switch-nach-Kritik-an-KI-Strategie-11121377.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-19T12:50:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Apple-Account-gesperrt-Guthabenkarte-loest-tagelange-Sperre-aus-11121403.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Apple-Account gesperrt: Guthabenkarte löst Sperre aus",
-        "summary": "Ein Apple-Nutzer erlebte einen Albtraum, als eine Guthabenkarte seinen Account tagelang sperrte und Daten unbrauchbar machte. Der Vorfall wirft Fragen auf.",
-        "paragraphs": [
-          "Ein Apple-Nutzer erlebte einen Albtraum, als eine Guthabenkarte seinen Account tagelang sperrte und Daten unbrauchbar machte. Der Vorfall wirft Fragen auf."
-        ],
-        "link": "https://www.heise.de/news/Apple-Account-gesperrt-Guthabenkarte-loest-tagelange-Sperre-aus-11121403.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-19T12:32:00.000Z"
       }
     ]
   }
