@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-20T20:44:21.220Z",
+  "updatedAt": "2025-12-20T20:53:05.251Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Vertreter Russlands und der USA sprechen in Miami über Frieden in der Ukraine",
+        "summary": "Selenskyj – USA schlagen neues Format für Friedensgespräche vor +++ Selenskyj schließt Wahlen in besetzten Gebieten aus +++ Lage in Region Odessa nach Angriffen schwierig +++ Der Newsblog.",
+        "paragraphs": [
+          "Selenskyj – USA schlagen neues Format für Friedensgespräche vor +++ Selenskyj schließt Wahlen in besetzten Gebieten aus +++ Lage in Region Odessa nach Angriffen schwierig +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-20T20:42:43.000Z"
+      },
       {
         "id": "{urn:uuid:5ed2c309-10bf-42b9-8b63-3578dbbb1b88}",
         "title": "3D-Druck im Maschinenbau: Aufgeben ausgeschlossen",
@@ -56,17 +67,6 @@
         "link": "https://www.zeit.de/2025/54/schrumpfung-laendlicher-raum-demografie-digitalisierung-infrastruktur",
         "source": "ZEIT",
         "publishedAt": "2025-12-20T16:37:41.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
-        "title": "+++ Ukraine-Krieg +++: Selenskyj: USA schlagen neues Format für Friedensgespräche vor",
-        "summary": "Selenskyj schließt Wahlen in besetzten Gebieten aus +++ Lage in Region Odessa nach Angriffen schwierig +++ Ukraine und Portugal vereinbaren Co-Produktion von Seedrohnen +++ Der Newsblog.",
-        "paragraphs": [
-          "Selenskyj schließt Wahlen in besetzten Gebieten aus +++ Lage in Region Odessa nach Angriffen schwierig +++ Ukraine und Portugal vereinbaren Co-Produktion von Seedrohnen +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-20T16:28:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/nahost-tuerkischer-geheimdienstchef-trifft-hamas-zu-gaza-gespraechen/100136895.html",
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/perfekt-gesetzter-kopfball-bellingham-erloest-real-1177616/video#omrss",
+        "title": "Perfekt gesetzter Kopfball: Bellingham erlöst Real",
+        "summary": "Real Madrid geht durch Jude Bellingham mit 1:0 gegen Sevilla in Führung. Das Tor seht ihr hier im Video.",
+        "paragraphs": [
+          "Real Madrid geht durch Jude Bellingham mit 1:0 gegen Sevilla in Führung. Das Tor seht ihr hier im Video."
+        ],
+        "link": "https://www.kicker.de/perfekt-gesetzter-kopfball-bellingham-erloest-real-1177616/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T20:45:05.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-kiel-dreht-spiel-ecke-findet-abnehmer-1176635/artikel#omrss",
+        "title": "LIVE! Kiel dreht Spiel: Ecke findet Abnehmer",
+        "summary": "Wer geht mit dem besseren Gefühl in die Winterpause? Im Samstagabendspiel der 2. Bundesliga treffen sich Absteiger Kiel und Schlusslicht Dresden im Keller.",
+        "paragraphs": [
+          "Wer geht mit dem besseren Gefühl in die Winterpause? Im Samstagabendspiel der 2. Bundesliga treffen sich Absteiger Kiel und Schlusslicht Dresden im Keller."
+        ],
+        "link": "https://www.kicker.de/live-kiel-dreht-spiel-ecke-findet-abnehmer-1176635/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T20:41:10.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/geniale-hacken-vorlage-conceicao-laesst-juve-jubeln-1177614/video#omrss",
+        "title": "Geniale Hacken-Vorlage: Conceicao lässt Juve jubeln",
+        "summary": "Juventus Turin führt im Spitzenspiel gegen die AS Rom mit 1:0. Den Treffer gibt es hier im Video.",
+        "paragraphs": [
+          "Juventus Turin führt im Spitzenspiel gegen die AS Rom mit 1:0. Den Treffer gibt es hier im Video."
+        ],
+        "link": "https://www.kicker.de/geniale-hacken-vorlage-conceicao-laesst-juve-jubeln-1177614/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T20:36:36.000Z"
+      },
+      {
         "id": "https://www.kicker.de/trotz-pejcinovic-wolfsburg-mischt-bei-ebnoutalib-mit-1177600/artikel#omrss",
         "title": "Trotz Pejcinovic: Wolfsburg mischt bei Ebnoutalib mit",
         "summary": "Der VfL Wolfsburg fahndet trotz Dreierpacker Dzenan Pejcinovic nach einem zusätzlichen Mittelstürmer. Elversbergs Younes Ebnoutalib ist dabei ein heißer Kandidat.",
@@ -513,17 +546,6 @@
         "publishedAt": "2025-12-20T20:02:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-dresden-laesst-sich-ueberrumpeln-kiel-gleicht-aus-1176635/artikel#omrss",
-        "title": "LIVE! Dresden lässt sich überrumpeln: Kiel gleicht aus",
-        "summary": "Wer geht mit dem besseren Gefühl in die Winterpause? Im Samstagabendspiel der 2. Bundesliga treffen sich Absteiger Kiel und Schlusslicht Dresden im Keller.",
-        "paragraphs": [
-          "Wer geht mit dem besseren Gefühl in die Winterpause? Im Samstagabendspiel der 2. Bundesliga treffen sich Absteiger Kiel und Schlusslicht Dresden im Keller."
-        ],
-        "link": "https://www.kicker.de/live-dresden-laesst-sich-ueberrumpeln-kiel-gleicht-aus-1176635/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T20:00:08.000Z"
-      },
-      {
         "id": "https://www.kicker.de/tottenham-gegen-liverpool-2025-premier-league-5045172/spielbericht#omrss",
         "title": "Erster Scorerpunkt mit dickem Wermutstropfen: Wirtz leitet Liverpools Zittersieg ein",
         "summary": "Der FC Liverpool gewinnt in doppelter Überzahl, Florian Wirtz gelingt die erste Torbeteiligung in der Premier League. Doch die Reds bezahlen den am Ende turbulenten 2:1-Sieg bei den Spurs teuer.",
@@ -536,7 +558,7 @@
       },
       {
         "id": "https://www.kicker.de/real-madrid-gegen-fc-sevilla-2025-la-liga-5055045/spielbericht#omrss",
-        "title": "LIVE! Xabi Alonso weiter unter Druck: Legt Real gegen Sevilla vor?",
+        "title": "LIVE! Bellingham applaudiert Bellingham - Real geht in Führung",
         "summary": "Unter der Woche entging Real Madrid der Pokal-Blamage beim Drittligisten Talavera nur knapp: Am Samstagabend ist das Team von Xabi Alonso gegen den FC Sevilla gefordert.",
         "paragraphs": [
           "Unter der Woche entging Real Madrid der Pokal-Blamage beim Drittligisten Talavera nur knapp: Am Samstagabend ist das Team von Xabi Alonso gegen den FC Sevilla gefordert."
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/erlangen-gegen-melsungen-2025-handball-bundesliga-5097439/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-20T19:00:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/goeppingen-gegen-flensburg-2025-handball-bundesliga-5097438/spielbericht#omrss",
-        "title": "Trotz Gislason-Blitzrot: Flensburg zittert sich in Göppingen zum Sieg",
-        "summary": "Das war ein hartes Stück Arbeit: Bis zum Schluss musste die SG Flensburg-Handewitt bei Frisch Auf Göppingen zittern. In der ersten Hälfte lagen die Fördestädter mit bis zu vier Treffern zurück, am Ende jubelten die Gäste über ein 33:32 (15:13), weil der letzte Angriff der Hausherren erfolgslos blieb.",
-        "paragraphs": [
-          "Das war ein hartes Stück Arbeit: Bis zum Schluss musste die SG Flensburg-Handewitt bei Frisch Auf Göppingen zittern. In der ersten Hälfte lagen die Fördestädter mit bis zu vier Treffern zurück, am Ende jubelten die Gäste über ein 33:32 (15:13), weil der letzte Angriff der Hausherren erfolgslos blieb."
-        ],
-        "link": "https://www.kicker.de/goeppingen-gegen-flensburg-2025-handball-bundesliga-5097438/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T18:44:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
-        "title": "Der Spielplan der Darts-WM 2026",
-        "summary": "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick.",
-        "paragraphs": [
-          "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick."
-        ],
-        "link": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T18:26:18.000Z"
       }
     ],
     "edv": [
@@ -823,17 +823,6 @@
         "publishedAt": "2025-12-20T08:01:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
-        "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
-        "paragraphs": [
-          "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
-        ],
-        "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-20T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
         "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
@@ -841,6 +830,17 @@
           "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
         ],
         "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-20T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
+        "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
+        "paragraphs": [
+          "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
+        ],
+        "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-20T07:00:00.000Z"
       },
