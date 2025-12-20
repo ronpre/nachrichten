@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-20T18:19:37.069Z",
+  "updatedAt": "2025-12-20T18:36:22.720Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:1c6b0abc-1240-4580-b59a-6517223fba6f}",
+        "title": "Anschlag auf Weihnachtsmarkt: Merz äußert Verständnis für \"Wut und Zorn\" bei Gedenken in Magdeburg",
+        "summary": "Vor einem Jahr tötete ein Attentäter sechs Menschen auf dem Magdeburger Weihnachtsmarkt. Bei der Gedenkveranstaltung mahnte der Bundeskanzler zu \"Trost und Zuspruch\".",
+        "paragraphs": [
+          "Vor einem Jahr tötete ein Attentäter sechs Menschen auf dem Magdeburger Weihnachtsmarkt. Bei der Gedenkveranstaltung mahnte der Bundeskanzler zu \"Trost und Zuspruch\"."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/magdeburg-gedenken-anschlag-weihnachtsmarkt-friedrich-merz",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-20T18:31:17.000Z"
+      },
+      {
+        "id": "{urn:uuid:3cd8eec3-96aa-4779-a8b9-8348cddf2947}",
+        "title": "Jeffrey Epstein: Trump gab laut US-Justizministerium keine Anweisungen zu Epstein-Akten",
+        "summary": "In den veröffentlichen Epstein-Akten kommt Donald Trump kaum vor. Das Justizministerium weist Vorwürfe, den Präsidenten mit Schwärzungen schützen zu wollen, aber zurück.",
+        "paragraphs": [
+          "In den veröffentlichen Epstein-Akten kommt Donald Trump kaum vor. Das Justizministerium weist Vorwürfe, den Präsidenten mit Schwärzungen schützen zu wollen, aber zurück."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-epstein-akten-donald-trump-us-justizministerium",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-20T18:22:50.000Z"
+      },
+      {
         "id": "li.3357774",
         "title": "USA: Was das neue Epstein-Material zeigt - und was nicht",
         "summary": "Die Debatte um den Sexualstraftäter Jeffrey Epstein und dessen prominente Freunde geht in eine neue Runde. Fotos von Bill Clinton erregen Aufmerksamkeit, und Donald Trump wird Vertuschung vorgeworfen.",
@@ -421,31 +443,53 @@
         "link": "https://www.spiegel.de/politik/deutschland/lars-klingbeil-und-spd-intern-nennen-sie-ihn-parolen-lars-die-kleinen-hiebe-nehmen-zu-a-5cf86327-fd25-4363-b28c-86bcfc1348c9#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-20T11:51:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Ukraine meldet erneut russischen Angriff auf Hafen bei Odessa",
-        "summary": "Bei einem russischen Raketenangriff auf Odessa waren acht Menschen getötet worden, nun gibt es einen neuen Angriff. Die USA wollen mit Russland sprechen. Das Liveblog",
-        "paragraphs": [
-          "Bei einem russischen Raketenangriff auf Odessa waren acht Menschen getötet worden, nun gibt es einen neuen Angriff. Die USA wollen mit Russland sprechen. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-20T11:45:57.000Z"
-      },
-      {
-        "id": "{urn:uuid:9f9722aa-ac56-4ea2-98b8-9f1f4f7144ab}",
-        "title": "Nachrichtenpodcast: Der Was jetzt?-Jahresrückblick",
-        "summary": "Donald Trump, eine neue Groko, der Krieg in der Ukraine und der in Gaza prägten dieses Jahr. Doch 2025 hat auch Überraschungen und Erleichterung gebracht.",
-        "paragraphs": [
-          "Donald Trump, eine neue Groko, der Krieg in der Ukraine und der in Gaza prägten dieses Jahr. Doch 2025 hat auch Überraschungen und Erleichterung gebracht."
-        ],
-        "link": "https://www.zeit.de/politik/2025-12/nachrichten-2025-jahresrueckblick-donald-trump-groko-ukraine-gaza-nachrichtenpodcast",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-20T11:40:12.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/live-kellerduell-in-kiel-verlaesst-dynamo-den-letzten-platz-1176635/artikel#omrss",
+        "title": "LIVE! Kellerduell in Kiel: Verlässt Dynamo den letzten Platz?",
+        "summary": "Wer geht mit dem besseren Gefühl in die Winterpause? Im Samstagabendspiel der 2. Bundesliga treffen sich Absteiger Kiel und Schlusslicht Dresden im Keller.",
+        "paragraphs": [
+          "Wer geht mit dem besseren Gefühl in die Winterpause? Im Samstagabendspiel der 2. Bundesliga treffen sich Absteiger Kiel und Schlusslicht Dresden im Keller."
+        ],
+        "link": "https://www.kicker.de/live-kellerduell-in-kiel-verlaesst-dynamo-den-letzten-platz-1176635/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T18:29:52.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
+        "title": "Der Spielplan der Darts-WM 2026",
+        "summary": "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick.",
+        "paragraphs": [
+          "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick."
+        ],
+        "link": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T18:26:18.000Z"
+      },
+      {
+        "id": "li.3357279",
+        "title": "1860 in der 3. Liga: Die Löwen-Siegesserie endet abrupt",
+        "summary": "Besinnlichkeit trotz Niederlage: Der Abstand zur Spitze mag mit dem 0:2 gegen Verl noch einmal ein wenig größer geworden sein, aber in der Rückrunde geht es noch um etwas für die Sechziger.",
+        "paragraphs": [
+          "Besinnlichkeit trotz Niederlage: Der Abstand zur Spitze mag mit dem 0:2 gegen Verl noch einmal ein wenig größer geworden sein, aber in der Rückrunde geht es noch um etwas für die Sechziger."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/1860-verl-0-2-3-liga-li.3357279",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-20T18:25:10.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-bayer-dreht-das-spiel-schick-schlaegt-haken-und-vollendet-1176688/artikel#omrss",
+        "title": "LIVE! Bayer dreht das Spiel: Schick schlägt Haken und vollendet",
+        "summary": "Nachdem die Leipziger beim 1:3 an der alten Försterei vorne zu ideenlos und hinten zu unaufmerksam agierten, kommt mit Leverkusen nochmal ein anderes Kaliber auf den Tabellenzweiten zu. Die Werkself reist nach dem 2:0-Derbysieg gegen Köln mit Rückenwind an und würde RBL mit einem klaren Sieg sogar überholen.",
+        "paragraphs": [
+          "Nachdem die Leipziger beim 1:3 an der alten Försterei vorne zu ideenlos und hinten zu unaufmerksam agierten, kommt mit Leverkusen nochmal ein anderes Kaliber auf den Tabellenzweiten zu. Die Werkself reist nach dem 2:0-Derbysieg gegen Köln mit Rückenwind an und würde RBL mit einem klaren Sieg sogar überholen."
+        ],
+        "link": "https://www.kicker.de/live-bayer-dreht-das-spiel-schick-schlaegt-haken-und-vollendet-1176688/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T18:16:29.000Z"
+      },
       {
         "id": "https://www.kicker.de/hsv-trotzt-den-problemen-und-feiert-standesgemaesses-jahres-ende-1177552/artikel#omrss",
         "title": "HSV trotzt den Problemen und feiert standesgemäßes Jahres-Ende",
@@ -467,17 +511,6 @@
         "link": "https://www.kicker.de/tottenham-gegen-liverpool-2025-premier-league-5045172/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-20T17:59:14.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-terrier-gleicht-per-kopfball-sehenswert-aus-1176688/artikel#omrss",
-        "title": "LIVE! Terrier gleicht per Kopfball sehenswert aus",
-        "summary": "Nachdem die Leipziger beim 1:3 an der alten Försterei vorne zu ideenlos und hinten zu unaufmerksam agierten, kommt mit Leverkusen nochmal ein anderes Kaliber auf den Tabellenzweiten zu. Die Werkself reist nach dem 2:0-Derbysieg gegen Köln mit Rückenwind an und würde RBL mit einem klaren Sieg sogar überholen.",
-        "paragraphs": [
-          "Nachdem die Leipziger beim 1:3 an der alten Försterei vorne zu ideenlos und hinten zu unaufmerksam agierten, kommt mit Leverkusen nochmal ein anderes Kaliber auf den Tabellenzweiten zu. Die Werkself reist nach dem 2:0-Derbysieg gegen Köln mit Rückenwind an und würde RBL mit einem klaren Sieg sogar überholen."
-        ],
-        "link": "https://www.kicker.de/live-terrier-gleicht-per-kopfball-sehenswert-aus-1176688/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T17:50:11.000Z"
       },
       {
         "id": "https://www.kicker.de/muenchen-gegen-verl-2025-liga-5057518/spielbericht#omrss",
@@ -511,6 +544,17 @@
         "link": "https://www.kicker.de/rueckkehr-nach-20-jahren-thiago-silva-unterschreibt-in-porto-1177536/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-20T17:23:35.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-alba-empfaengt-ulm-ostduell-in-chemnitz-1177060/artikel#omrss",
+        "title": "LIVE! Alba empfängt Ulm - Ostduell in Chemnitz",
+        "summary": "Für Alba Berlin läuft es in der BBL ordentlich, gegen Ulm wollen die Hauptstädter ihre Play-off-Ambitionen untermauern. Chemnitz empfängt Rostock später am Abend zum Nordost-Vergleich.",
+        "paragraphs": [
+          "Für Alba Berlin läuft es in der BBL ordentlich, gegen Ulm wollen die Hauptstädter ihre Play-off-Ambitionen untermauern. Chemnitz empfängt Rostock später am Abend zum Nordost-Vergleich."
+        ],
+        "link": "https://www.kicker.de/live-alba-empfaengt-ulm-ostduell-in-chemnitz-1177060/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T17:20:00.000Z"
       },
       {
         "id": "https://www.kicker.de/hoert-kampl-nach-schicksalsschlag-auf-es-ist-noch-nichts-entschieden-1177540/artikel#omrss",
@@ -621,50 +665,6 @@
         "link": "https://www.kicker.de/live-goeppingen-will-sg-ausbremsen-holt-hannover-in-kiel-punkte-1176929/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-20T16:21:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/toennesen-verletzung-naechster-rueckschlag-fuer-flensburg-1177527/artikel#omrss",
-        "title": "Tönnesen-Verletzung nächster Rückschlag für Flensburg",
-        "summary": "Nach der Niederlage im Pokal-Viertelfinale beim SC Magdeburg vermeldet der SC Magdeburg vor dem heutigen Liga-Spiel in Göppingen den nächsten Rückschlag: Kent Robin Tönnesen musste verletzt abreisen und wird den Norddeutschen vermutlich mehrere Wochen nicht zur Verfügung stehen.",
-        "paragraphs": [
-          "Nach der Niederlage im Pokal-Viertelfinale beim SC Magdeburg vermeldet der SC Magdeburg vor dem heutigen Liga-Spiel in Göppingen den nächsten Rückschlag: Kent Robin Tönnesen musste verletzt abreisen und wird den Norddeutschen vermutlich mehrere Wochen nicht zur Verfügung stehen."
-        ],
-        "link": "https://www.kicker.de/toennesen-verletzung-naechster-rueckschlag-fuer-flensburg-1177527/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T16:19:00.000Z"
-      },
-      {
-        "id": "li.3357810",
-        "title": "Basketball: FC Bayern trennt sich von Trainer Gordon Herbert",
-        "summary": "Die zahlreichen Niederlagen in der Euroleague waren zu viel: Nach einer weiteren hohen Pleite gegen Monaco muss bei den Münchnern der Coach gehen.",
-        "paragraphs": [
-          "Die zahlreichen Niederlagen in der Euroleague waren zu viel: Nach einer weiteren hohen Pleite gegen Monaco muss bei den Münchnern der Coach gehen."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/fc-bayern-basketball-herbert-li.3357810",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-20T16:07:10.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/erster-saisonsieg-fuer-friedrich-im-zweierbob-weltcup-1177515/artikel#omrss",
-        "title": "Erster Saisonsieg für Friedrich im Zweierbob-Weltcup",
-        "summary": "Beim dritten Dreifacherfolg der Deutschen gibt es im lettischen Sigulda erstmals eine andere Reihenfolge: Francesco Friedrich siegt vor seinem Rivalen Johannes Lochner. Für einen viermaligen Olympiasieger war es das letzte Zweierbob-Rennen.",
-        "paragraphs": [
-          "Beim dritten Dreifacherfolg der Deutschen gibt es im lettischen Sigulda erstmals eine andere Reihenfolge: Francesco Friedrich siegt vor seinem Rivalen Johannes Lochner. Für einen viermaligen Olympiasieger war es das letzte Zweierbob-Rennen."
-        ],
-        "link": "https://www.kicker.de/erster-saisonsieg-fuer-friedrich-im-zweierbob-weltcup-1177515/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T16:02:11.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/unfreiwillige-hackenvorlage-und-fernschusstor-union-schlaegt-nuernberg-1177516/video#omrss",
-        "title": "Unfreiwillige Hackenvorlage und Fernschusstor - Union schlägt Nürnberg",
-        "summary": "In der Frauen-Bundesliga setzte sich Union Berlin mit 2:1 gegen den 1. FC Nürnberg durch. Alle Highlights der Partie gibt es hier.",
-        "paragraphs": [
-          "In der Frauen-Bundesliga setzte sich Union Berlin mit 2:1 gegen den 1. FC Nürnberg durch. Alle Highlights der Partie gibt es hier."
-        ],
-        "link": "https://www.kicker.de/unfreiwillige-hackenvorlage-und-fernschusstor-union-schlaegt-nuernberg-1177516/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T16:00:52.000Z"
       }
     ],
     "edv": [
