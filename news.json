@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-20T23:17:32.105Z",
+  "updatedAt": "2025-12-20T23:28:52.163Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:dc4b2596-927d-40a5-8945-bebedc3abbd7}",
+        "title": "Südamerika: USA beschlagnahmen Tanker vor der Küste Venezuelas",
+        "summary": "Die US-Küstenwache hat einen Öltanker unter panamaischer Flagge beschlagnahmt. Laut US-Medienberichten war auch das Militär an der Aktion beteiligt.",
+        "paragraphs": [
+          "Die US-Küstenwache hat einen Öltanker unter panamaischer Flagge beschlagnahmt. Laut US-Medienberichten war auch das Militär an der Aktion beteiligt."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-beschlagnahme-schiff-venezuela",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-20T23:22:32.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
         "title": "+++ Ukraine-Krieg +++: Putin-Gesandter spricht von konstruktiven Gesprächen mit den USA",
         "summary": "Vertreter Russlands und der USA sprechen in Miami über Frieden in der Ukraine +++ Selenskyj – USA schlagen neues Format für Friedensgespräche vor +++ Der Newsblog.",
@@ -256,17 +267,6 @@
         "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-venezuela-tanker-li.3352720",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-20T22:00:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:dc4b2596-927d-40a5-8945-bebedc3abbd7}",
-        "title": "Südamerika: USA beschlagnahmen Tanker vor der Küste Venezuelas",
-        "summary": "Die US-Küstenwache hat einen Öltanker unter panamaischer Flagge beschlagnahmt. Laut US-Medienberichten war auch das Militär an der Aktion beteiligt.",
-        "paragraphs": [
-          "Die US-Küstenwache hat einen Öltanker unter panamaischer Flagge beschlagnahmt. Laut US-Medienberichten war auch das Militär an der Aktion beteiligt."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-beschlagnahme-schiff-venezuela",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-20T21:32:08.000Z"
       },
       {
         "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
@@ -446,6 +446,17 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/sturm-setzt-schlusspunkt-gegen-oilers-stuetzle-sticht-heraus-1177647/artikel#omrss",
+        "title": "Sturm setzt Schlusspunkt gegen Oilers - Stützle sticht heraus",
+        "summary": "Die Edmonton Oilers um Leon Draisaitl haben das deutsche Duell gegen Minnesota Wild um Nico Sturm 2:5 verloren - Letzterer setzte dabei sogar den Schlusspunkt. Eine klasse Leistung lieferte auch Tim Stützle beim 6:4-Sieg der Ottawa Senators gegen die Chicago Blackhawks ab.",
+        "paragraphs": [
+          "Die Edmonton Oilers um Leon Draisaitl haben das deutsche Duell gegen Minnesota Wild um Nico Sturm 2:5 verloren - Letzterer setzte dabei sogar den Schlusspunkt. Eine klasse Leistung lieferte auch Tim Stützle beim 6:4-Sieg der Ottawa Senators gegen die Chicago Blackhawks ab."
+        ],
+        "link": "https://www.kicker.de/sturm-setzt-schlusspunkt-gegen-oilers-stuetzle-sticht-heraus-1177647/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-20T23:25:32.000Z"
+      },
       {
         "id": "https://www.kicker.de/zuspruch-fuer-kaempferischen-stamm-doch-die-statistik-spricht-gegen-dynamo-1177643/artikel#omrss",
         "title": "Zuspruch für kämpferischen Stamm - doch die Statistik spricht gegen Dynamo",
@@ -654,17 +665,6 @@
         "link": "https://www.sueddeutsche.de/sport/leverkusen-leipzig-bundesliga-li.3357842",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-20T20:02:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/tottenham-gegen-liverpool-2025-premier-league-5045172/spielbericht#omrss",
-        "title": "Erster Scorerpunkt mit dickem Wermutstropfen: Wirtz leitet Liverpools Zittersieg ein",
-        "summary": "Der FC Liverpool gewinnt in doppelter Überzahl, Florian Wirtz gelingt die erste Torbeteiligung in der Premier League. Doch die Reds bezahlen den am Ende turbulenten 2:1-Sieg bei den Spurs teuer.",
-        "paragraphs": [
-          "Der FC Liverpool gewinnt in doppelter Überzahl, Florian Wirtz gelingt die erste Torbeteiligung in der Premier League. Doch die Reds bezahlen den am Ende turbulenten 2:1-Sieg bei den Spurs teuer."
-        ],
-        "link": "https://www.kicker.de/tottenham-gegen-liverpool-2025-premier-league-5045172/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T19:50:20.000Z"
       }
     ],
     "edv": [
@@ -823,17 +823,6 @@
         "publishedAt": "2025-12-20T08:01:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
-        "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
-        "paragraphs": [
-          "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
-        ],
-        "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-20T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
         "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
@@ -841,6 +830,17 @@
           "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
         ],
         "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-20T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
+        "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
+        "paragraphs": [
+          "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
+        ],
+        "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-20T07:00:00.000Z"
       },
