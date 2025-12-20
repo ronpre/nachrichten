@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-20T20:53:05.251Z",
+  "updatedAt": "2025-12-20T21:04:26.658Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:dc4b2596-927d-40a5-8945-bebedc3abbd7}",
+        "title": "Südamerika: USA beschlagnahmen offenbar weiteres Schiff vor der Küste Venezuelas",
+        "summary": "Laut Medien hat die US-Küstenwache ein weiteres Schiff beschlagnahmt. Hintergrund ist möglicherweise eine von US-Präsident Trump verkündete Seeblockade.",
+        "paragraphs": [
+          "Laut Medien hat die US-Küstenwache ein weiteres Schiff beschlagnahmt. Hintergrund ist möglicherweise eine von US-Präsident Trump verkündete Seeblockade."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-beschlagnahme-schiff-venezuela",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-20T20:58:28.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Vertreter Russlands und der USA sprechen in Miami über Frieden in der Ukraine",
+        "summary": "Selenskyj – USA schlagen neues Format für Friedensgespräche vor +++ Selenskyj schließt Wahlen in besetzten Gebieten aus +++ Lage in Region Odessa nach Angriffen schwierig +++ Der Newsblog.",
+        "paragraphs": [
+          "Selenskyj – USA schlagen neues Format für Friedensgespräche vor +++ Selenskyj schließt Wahlen in besetzten Gebieten aus +++ Lage in Region Odessa nach Angriffen schwierig +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-20T20:42:43.000Z"
+      },
+      {
         "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
         "title": "Krieg gegen die Ukraine: Russischer Präsidentenberater Dmitrijew wohl in Miami angekommen",
         "summary": "In den USA finden erneut Verhandlungen zum Ukrainekrieg statt. Laut Selenskyj ist auch ein direktes Treffen ukrainischer und russischer Vertreter geplant. Das Liveblog",
@@ -256,17 +278,6 @@
         "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-venezuela-tanker-li.3352720",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-20T19:25:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:dc4b2596-927d-40a5-8945-bebedc3abbd7}",
-        "title": "Südamerika: USA beschlagnahmen offenbar weiteres Schiff vor der Küste Venezuelas",
-        "summary": "Laut Medien hat die US-Küstenwache ein weiteres venezolanisches Schiff beschlagnahmt. Hintergrund ist möglicherweise eine von US-Präsident Trump verkündete Seeblockade.",
-        "paragraphs": [
-          "Laut Medien hat die US-Küstenwache ein weiteres venezolanisches Schiff beschlagnahmt. Hintergrund ist möglicherweise eine von US-Präsident Trump verkündete Seeblockade."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-beschlagnahme-schiff-venezuela",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-20T19:01:23.000Z"
       },
       {
         "id": "li.3353907",
@@ -322,17 +333,6 @@
         "link": "https://www.handelsblatt.com/politik/international/usa-usa-beschlagnahmen-offenbar-schiff-vor-venezolanischer-kueste/29669594.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-20T17:28:50.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
-        "title": "+++ Ukraine-Krieg +++: Selenskyj: USA schlagen neues Format für Friedensgespräche vor",
-        "summary": "Selenskyj schließt Wahlen in besetzten Gebieten aus +++ Lage in Region Odessa nach Angriffen schwierig +++ Ukraine und Portugal vereinbaren Co-Produktion von Seedrohnen +++ Der Newsblog.",
-        "paragraphs": [
-          "Selenskyj schließt Wahlen in besetzten Gebieten aus +++ Lage in Region Odessa nach Angriffen schwierig +++ Ukraine und Portugal vereinbaren Co-Produktion von Seedrohnen +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-20T16:28:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/nahost-tuerkischer-geheimdienstchef-trifft-hamas-zu-gaza-gespraechen/100136895.html",
@@ -823,17 +823,6 @@
         "publishedAt": "2025-12-20T08:01:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
-        "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
-        "paragraphs": [
-          "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
-        ],
-        "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-20T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
         "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
@@ -841,6 +830,17 @@
           "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
         ],
         "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-20T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
+        "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
+        "paragraphs": [
+          "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
+        ],
+        "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-20T07:00:00.000Z"
       },
