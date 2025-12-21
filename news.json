@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-21T06:43:34.735Z",
+  "updatedAt": "2025-12-21T06:56:21.509Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:b647e32e-1124-4cfc-a50b-49c9f15ba7c8}",
+        "title": "AfD: Sie wollen ein anderes Land",
+        "summary": "Ist eine Regierungsbeteiligung der AfD am Ende gar nicht so schlimm? Wer so denkt, erkennt nicht, was das Besondere an der radikalen Rechten in Deutschland ist.",
+        "paragraphs": [
+          "Ist eine Regierungsbeteiligung der AfD am Ende gar nicht so schlimm? Wer so denkt, erkennt nicht, was das Besondere an der radikalen Rechten in Deutschland ist."
+        ],
+        "link": "https://www.zeit.de/2025/54/afd-regierungsbeteiligung-rechtsextremismus-brandmauer",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-21T06:39:43.000Z"
+      },
+      {
         "id": "{urn:uuid:125db988-5927-4c60-9da6-699b095fdc09}",
         "title": "Terroranschlag am Bondi Beach: Australien lässt Geheimdienste nach Anschlag in Sydney überprüfen",
         "summary": "Der australische Regierungschef hat eine Überprüfung der Geheimdienste seines Landes angekündigt. Dabei sollen auch deren Befugnisse untersucht werden, sagte Albanese.",
@@ -234,6 +245,17 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/australien-anschlag-bondi-beach-geheimdienst-untersuchung",
         "source": "ZEIT",
         "publishedAt": "2025-12-21T06:22:43.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/geopolitik-der-kampf-der-beiden-supermaechte-wird-niemals-enden/100176249.html",
+        "title": "Geopolitik: „Der Kampf der beiden Supermächte wird niemals enden“",
+        "summary": "Oxford-Historiker Peter Frankopan kritisiert die Führungsschwäche europäischer Politiker und fordert einen anderen Umgang mit China. Sein Ausblick für 2026 ist überraschend gut.",
+        "paragraphs": [
+          "Oxford-Historiker Peter Frankopan kritisiert die Führungsschwäche europäischer Politiker und fordert einen anderen Umgang mit China. Sein Ausblick für 2026 ist überraschend gut."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/geopolitik-der-kampf-der-beiden-supermaechte-wird-niemals-enden/100176249.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-21T06:12:00.000Z"
       },
       {
         "id": "li.3353907",
@@ -421,28 +443,6 @@
         "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-warum-der-kanzler-so-viel-redet-und-buerger-verwirrt-a-fe681687-2a50-400f-8acf-83ff60d09edc#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-20T19:27:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:1c6b0abc-1240-4580-b59a-6517223fba6f}",
-        "title": "Anschlag auf Weihnachtsmarkt: Merz äußert Verständnis für \"Wut und Zorn\" bei Gedenken in Magdeburg",
-        "summary": "Vor einem Jahr tötete ein Attentäter sechs Menschen auf dem Magdeburger Weihnachtsmarkt. Bei der Gedenkveranstaltung mahnte der Bundeskanzler zu \"Trost und Zuspruch\".",
-        "paragraphs": [
-          "Vor einem Jahr tötete ein Attentäter sechs Menschen auf dem Magdeburger Weihnachtsmarkt. Bei der Gedenkveranstaltung mahnte der Bundeskanzler zu \"Trost und Zuspruch\"."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/magdeburg-gedenken-anschlag-weihnachtsmarkt-friedrich-merz",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-20T18:31:17.000Z"
-      },
-      {
-        "id": "{urn:uuid:3cd8eec3-96aa-4779-a8b9-8348cddf2947}",
-        "title": "Jeffrey Epstein: Trump gab laut US-Justizministerium keine Anweisungen zu Epstein-Akten",
-        "summary": "In den veröffentlichten Epstein-Akten kommt Donald Trump kaum vor. Das Justizministerium weist Vorwürfe, den Präsidenten mit Schwärzungen schützen zu wollen, aber zurück.",
-        "paragraphs": [
-          "In den veröffentlichten Epstein-Akten kommt Donald Trump kaum vor. Das Justizministerium weist Vorwürfe, den Präsidenten mit Schwärzungen schützen zu wollen, aber zurück."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-epstein-akten-donald-trump-us-justizministerium",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-20T18:22:50.000Z"
       }
     ],
     "sport": [
@@ -823,17 +823,6 @@
         "publishedAt": "2025-12-20T08:01:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
-        "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
-        "paragraphs": [
-          "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
-        ],
-        "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-20T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
         "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
@@ -841,6 +830,17 @@
           "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
         ],
         "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-20T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
+        "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
+        "paragraphs": [
+          "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
+        ],
+        "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-20T07:00:00.000Z"
       },
