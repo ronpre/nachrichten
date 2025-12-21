@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-21T17:05:01.557Z",
+  "updatedAt": "2025-12-21T17:17:07.086Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,39 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:ed52fdaa-6454-429b-81ae-b79e9e1cf3ff}",
+        "title": "Kriegsschiff: Macron kündigt Baubeginn von neuem französischen Flugzeugträger an",
+        "summary": "Der ältere Flugzeugträger Charles de Gaulle soll ersetzt werden, hat Frankreichs Präsident Emmanuel Macron mitgeteilt. Der Nachfolger soll in 13 Jahren fertig sein.",
+        "paragraphs": [
+          "Der ältere Flugzeugträger Charles de Gaulle soll ersetzt werden, hat Frankreichs Präsident Emmanuel Macron mitgeteilt. Der Nachfolger soll in 13 Jahren fertig sein."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/macron-flugzeugtraeger-frankreich-neu-bau",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-21T17:13:00.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/ludwigshafen-noch-oberbuergermeisterin-jutta-steinruck-tritt-wieder-in-die-spd-ein-a-ccd87f25-c9e2-4b22-b0ce-02a9e23731cc",
+        "title": "Ludwigshafen: Noch-Oberbürgermeisterin Jutta Steinruck tritt wieder in die SPD ein",
+        "summary": "Ihren letzten Monat im Amt bestreitet Jutta Steinruck wieder als SPD-Genossin. Die Oberbürgermeisterin von Ludwigshafen trat 2023 überraschend aus der Partei aus. Auch die Wahl ihres Nachfolgers sorgte für Aufsehen.",
+        "paragraphs": [
+          "Ihren letzten Monat im Amt bestreitet Jutta Steinruck wieder als SPD-Genossin. Die Oberbürgermeisterin von Ludwigshafen trat 2023 überraschend aus der Partei aus. Auch die Wahl ihres Nachfolgers sorgte für Aufsehen."
+        ],
+        "link": "https://www.spiegel.de/politik/ludwigshafen-noch-oberbuergermeisterin-jutta-steinruck-tritt-wieder-in-die-spd-ein-a-ccd87f25-c9e2-4b22-b0ce-02a9e23731cc#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-21T17:10:00.000Z"
+      },
+      {
+        "id": "li.3352720",
+        "title": "USA: Justizministerium: Epstein-Dateien auf Bitten Betroffener gelöscht",
+        "summary": "Erst veröffentlicht das US-Justizministerium Tausende Epstein-Akten, dann löscht es keine 24 Stunden später einige davon. Nun präsentiert der Vize-Justizminister eine Erklärung dafür.",
+        "paragraphs": [
+          "Erst veröffentlicht das US-Justizministerium Tausende Epstein-Akten, dann löscht es keine 24 Stunden später einige davon. Nun präsentiert der Vize-Justizminister eine Erklärung dafür."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-epstein-akten-foto-geloescht-li.3352720",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-21T16:55:00.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/usa-us-kuestenwache-bringt-oeltanker-vor-venezuela-unter-kontrolle/29669594.html",
         "title": "+++ USA +++: US-Küstenwache bringt Öltanker vor Venezuela unter Kontrolle",
         "summary": "Vertreter beider US-Parteien kritisieren geschwärzte Epstein-Akten +++ Clinton will nichts von Taten in Epstein-Affäre gewusst haben +++ Der Newsblog.",
@@ -234,17 +267,6 @@
         "link": "https://www.handelsblatt.com/politik/international/usa-us-kuestenwache-bringt-oeltanker-vor-venezuela-unter-kontrolle/29669594.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-21T16:46:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:ed52fdaa-6454-429b-81ae-b79e9e1cf3ff}",
-        "title": "Kriegsschiff: Macron kündigt Baubeginn von neuem französischen Flugzeugträger an",
-        "summary": "Der ältere Flugzeugträger Charles de Gaulle soll ersetzt werden, hat Frankreichs Präsident Emmanuel Macron mitgeteilt. Der Nachfolger soll in 13 Jahren fertig sein.",
-        "paragraphs": [
-          "Der ältere Flugzeugträger Charles de Gaulle soll ersetzt werden, hat Frankreichs Präsident Emmanuel Macron mitgeteilt. Der Nachfolger soll in 13 Jahren fertig sein."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/macron-flugzeugtraeger-frankreich-neu-bau",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-21T16:24:29.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/politische-weihnachtsgruesse-kloeckner-uebertrumpft-soeder-mit-schwerem-backwerk-a-9445cac8-e687-44cf-a4b2-ca7db88dab1e",
@@ -411,31 +433,53 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/immobilien-bundesregierung-will-indexmieten-deckeln/100185815.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-21T14:14:21.000Z"
-      },
-      {
-        "id": "li.3357841",
-        "title": "Glosse: Das Streiflicht",
-        "summary": "Vor fünfzig Jahren wurde es Pflicht, sich im Auto anzuschnallen. Fühlen wir uns deshalb heute sicherer?",
-        "paragraphs": [
-          "Vor fünfzig Jahren wurde es Pflicht, sich im Auto anzuschnallen. Fühlen wir uns deshalb heute sicherer?"
-        ],
-        "link": "https://www.sueddeutsche.de/politik/glosse-das-streiflicht-li.3357841",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-21T14:09:55.000Z"
-      },
-      {
-        "id": "li.3357208",
-        "title": "Medienfreiheit in Litauen: Wenn Katzen Rundfunkdirektoren wählen",
-        "summary": "In Litauen laufen seit Wochen Demos gegen das geplante Mediengesetz, Kritiker bangen um die Freiheit des öffentlich-rechtlichen Rundfunks. Der Präsident warnt vor Spaltung – und die Opposition stellt Scherz-Anträge.",
-        "paragraphs": [
-          "In Litauen laufen seit Wochen Demos gegen das geplante Mediengesetz, Kritiker bangen um die Freiheit des öffentlich-rechtlichen Rundfunks. Der Präsident warnt vor Spaltung – und die Opposition stellt Scherz-Anträge."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/litauen-mediengesetz-proteste-oeffentlich-rechtlicher-rundfunk-li.3357208",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-21T14:08:56.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/villarreal-gegen-barcelona-2025-la-liga-5055048/spielbericht#omrss",
+        "title": "Aussetzer von Renato Veiga: Barcelona siegt bei Villarreal",
+        "summary": "Barcelona hat das Spitzenspiel in La Liga mit 2:0 bei Villarreal gewonnen. Die Katalanen machten im ersten Durchgang allerdings viele Fehler und konnten froh sein, kein Gegentor bekommen zu haben. Zudem profitierte Barca vom Blackout von Renato Veiga.",
+        "paragraphs": [
+          "Barcelona hat das Spitzenspiel in La Liga mit 2:0 bei Villarreal gewonnen. Die Katalanen machten im ersten Durchgang allerdings viele Fehler und konnten froh sein, kein Gegentor bekommen zu haben. Zudem profitierte Barca vom Blackout von Renato Veiga."
+        ],
+        "link": "https://www.kicker.de/villarreal-gegen-barcelona-2025-la-liga-5055048/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-21T17:09:55.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/niederlage-in-braunschweig-muslic-ist-enttaeuscht-aber-schon-sehr-sehr-stolz-1177819/artikel#omrss",
+        "title": "Niederlage in Braunschweig: Muslic ist \"enttäuscht, aber schon sehr, sehr stolz\"",
+        "summary": "Die außerordentlich positive Hinrunde konnte der FC Schalke 04 nicht mit einem Erfolgserlebnis krönen. Nach der Niederlage bei Eintracht Braunschweig zollte Miron Muslic dem Gegner seinen Respekt.",
+        "paragraphs": [
+          "Die außerordentlich positive Hinrunde konnte der FC Schalke 04 nicht mit einem Erfolgserlebnis krönen. Nach der Niederlage bei Eintracht Braunschweig zollte Miron Muslic dem Gegner seinen Respekt."
+        ],
+        "link": "https://www.kicker.de/niederlage-in-braunschweig-muslic-ist-enttaeuscht-aber-schon-sehr-sehr-stolz-1177819/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-21T17:09:55.000Z"
+      },
+      {
+        "id": "{urn:uuid:1a630ac0-1d49-4c31-b577-c3e39366ec6f}",
+        "title": "Bundesliga, 15. Spieltag – Sonntag: Mainz 05 und der FC St. Pauli trennen sich torlos",
+        "summary": "In einem Spiel auf niedrigem Niveau hat der Tabellenletzte Mainz 05 den erhofften Heimsieg verpasst. Auch Gegner St. Pauli erzielte kein Tor. Der Spielbericht",
+        "paragraphs": [
+          "In einem Spiel auf niedrigem Niveau hat der Tabellenletzte Mainz 05 den erhofften Heimsieg verpasst. Auch Gegner St. Pauli erzielte kein Tor. Der Spielbericht"
+        ],
+        "link": "https://www.zeit.de/sport/2025-12/bundesliga-15-spieltag-sonntag-mainz-05-st-pauli",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-21T17:04:25.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-ramaj-sieht-erneut-nicht-gut-aus-bayern-schon-klar-auf-kurs-1176714/artikel#omrss",
+        "title": "LIVE! Ramaj sieht erneut nicht gut aus: Bayern schon klar auf Kurs",
+        "summary": "Der FC Bayern tritt zum Jahresende beim 1. FC Heidenheim an. Die ohnehin gebeutelten Münchner müssen auf ein Quartett kurzfristig verzichten. Löst das Team von Vincent Kompany die Aufgabe trotzdem?",
+        "paragraphs": [
+          "Der FC Bayern tritt zum Jahresende beim 1. FC Heidenheim an. Die ohnehin gebeutelten Münchner müssen auf ein Quartett kurzfristig verzichten. Löst das Team von Vincent Kompany die Aufgabe trotzdem?"
+        ],
+        "link": "https://www.kicker.de/live-ramaj-sieht-erneut-nicht-gut-aus-bayern-schon-klar-auf-kurs-1176714/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-21T17:03:16.000Z"
+      },
       {
         "id": "li.3358148",
         "title": "Fußball-Bundesliga: Nullnummer im Kellerduell",
@@ -444,17 +488,6 @@
         "link": "https://www.sueddeutsche.de/sport/fussball-bundesliga-nullnummer-im-kellerduell-li.3358148",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-21T16:47:43.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-heidenheim-zu-beginn-ueberfordert-bayern-fuehrt-hochverdient-1176714/artikel#omrss",
-        "title": "LIVE! Heidenheim zu Beginn überfordert: Bayern führt hochverdient",
-        "summary": "Der FC Bayern tritt zum Jahresende beim 1. FC Heidenheim an. Die ohnehin gebeutelten Münchner müssen auf ein Quartett kurzfristig verzichten. Löst das Team von Vincent Kompany die Aufgabe trotzdem?",
-        "paragraphs": [
-          "Der FC Bayern tritt zum Jahresende beim 1. FC Heidenheim an. Die ohnehin gebeutelten Münchner müssen auf ein Quartett kurzfristig verzichten. Löst das Team von Vincent Kompany die Aufgabe trotzdem?"
-        ],
-        "link": "https://www.kicker.de/live-heidenheim-zu-beginn-ueberfordert-bayern-fuehrt-hochverdient-1176714/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-21T16:46:00.000Z"
       },
       {
         "id": "https://www.kicker.de/barca-spielt-flipper-im-strafraum-lamine-yamal-mit-der-pike-zum-2-0-1177830/video#omrss",
@@ -466,17 +499,6 @@
         "link": "https://www.kicker.de/barca-spielt-flipper-im-strafraum-lamine-yamal-mit-der-pike-zum-2-0-1177830/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-21T16:43:36.000Z"
-      },
-      {
-        "id": "{urn:uuid:1a630ac0-1d49-4c31-b577-c3e39366ec6f}",
-        "title": "Bundesliga, 15. Spieltag – Sonntag: Mainz 05 spielt zuhause unentschieden gegen St. Pauli",
-        "summary": "Nach einer ereignislosen ersten Halbzeit sind auch in der zweiten Hälfte keine Tore gefallen. Mainz 05 und St. Pauli haben unentschieden gespielt. Der Spielbericht",
-        "paragraphs": [
-          "Nach einer ereignislosen ersten Halbzeit sind auch in der zweiten Hälfte keine Tore gefallen. Mainz 05 und St. Pauli haben unentschieden gespielt. Der Spielbericht"
-        ],
-        "link": "https://www.zeit.de/sport/2025-12/bundesliga-15-spieltag-sonntag-mainz-05-st-pauli",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-21T16:43:09.000Z"
       },
       {
         "id": "https://www.spiegel.de/sport/fussball/darts-wm-max-hopps-comeback-endet-in-runde-zwei-a-8a1d8401-e0b4-44ee-840e-d9c06826b032",
@@ -627,31 +649,20 @@
         "link": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-21T15:40:35.000Z"
-      },
-      {
-        "id": "li.3358094",
-        "title": "Wintersport vor Weihnachten: Freitag stürzt, Loch triumphiert",
-        "summary": "Selina Freitag sorgt für einen Schreckmoment, die Rodler feiern Siege, das deutsche Biathlonteam nähert sich der Olympiaform. Das Wintersport-Wochenende im Überblick.",
-        "paragraphs": [
-          "Selina Freitag sorgt für einen Schreckmoment, die Rodler feiern Siege, das deutsche Biathlonteam nähert sich der Olympiaform. Das Wintersport-Wochenende im Überblick."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/wintersport-ueberblick-li.3358094",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-21T15:35:36.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hearts-gegen-rangers-2025-scottish-premiership-5047713/spielbericht#omrss",
-        "title": "Doppelschlag nach Tiefschlaf: Hearts stoppen Röhls Rangers-Höhenflug",
-        "summary": "Heißt der schottische Meister 2026 mal nicht Celtic Glasgow oder Glasgow Rangers? Spitzenreiter Heart of Midlothian sendete am Sonntag zumindest das nächste Signal - mit einem Heimsieg gegen zuvor unter Danny Röhl in der Liga noch ungeschlagene Rangers.",
-        "paragraphs": [
-          "Heißt der schottische Meister 2026 mal nicht Celtic Glasgow oder Glasgow Rangers? Spitzenreiter Heart of Midlothian sendete am Sonntag zumindest das nächste Signal - mit einem Heimsieg gegen zuvor unter Danny Röhl in der Liga noch ungeschlagene Rangers."
-        ],
-        "link": "https://www.kicker.de/hearts-gegen-rangers-2025-scottish-premiership-5047713/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-21T15:33:56.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Visa-Verzoegerungen-Apple-und-Google-warnen-US-Mitarbeiter-vor-Reisen-11122402.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Visa-Verzögerungen: Apple und Google warnen US-Mitarbeiter vor Reisen",
+        "summary": "Einem Medienbericht zufolge bitten Apple und Google ihre Mitarbeiter, die mit einem Visum in den USA leben, das Land nicht zu verlassen.",
+        "paragraphs": [
+          "Einem Medienbericht zufolge bitten Apple und Google ihre Mitarbeiter, die mit einem Visum in den USA leben, das Land nicht zu verlassen."
+        ],
+        "link": "https://www.heise.de/news/Visa-Verzoegerungen-Apple-und-Google-warnen-US-Mitarbeiter-vor-Reisen-11122402.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-21T17:07:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Fuer-E-Scooter-kommen-neue-Regeln-Bundesrat-stimmt-zu-11122113.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Für E-Scooter kommen neue Regeln – Bundesrat stimmt zu",
@@ -860,17 +871,6 @@
         "link": "https://www.heise.de/bestenlisten/testbericht/guenstige-waermebildkamera-fuer-einsteiger-ab-90-euro-yourealstar-yxi96-pro-im-test/m83d6y9?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-20T15:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Airbus-sucht-eine-souveraene-EU-Cloud-11122080.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Airbus sucht eine souveräne EU-Cloud",
-        "summary": "Airbus sieht bei sich einen großen Cloud-Bedarf: Dabei will der Flugzeughersteller aber unbedingt auf eine europäische Lösung setzen.",
-        "paragraphs": [
-          "Airbus sieht bei sich einen großen Cloud-Bedarf: Dabei will der Flugzeughersteller aber unbedingt auf eine europäische Lösung setzen."
-        ],
-        "link": "https://www.heise.de/news/Airbus-sucht-eine-souveraene-EU-Cloud-11122080.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-20T14:52:00.000Z"
       }
     ]
   }
