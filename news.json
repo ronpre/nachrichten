@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-21T08:20:01.616Z",
+  "updatedAt": "2025-12-21T08:36:27.574Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:83990497-a7c4-42bd-bf1e-6bb8ec26e426}",
+        "title": "Selbstbedienungsläden auf dem Land: Der Neue im Dorf",
+        "summary": "Mit den Menschen verlassen oft auch die alten Versorger den ländlichen Raum. Selbstbedienungsläden sollen helfen, wo Supermärkte und Tante Emma fehlen.",
+        "paragraphs": [
+          "Mit den Menschen verlassen oft auch die alten Versorger den ländlichen Raum. Selbstbedienungsläden sollen helfen, wo Supermärkte und Tante Emma fehlen."
+        ],
+        "link": "https://www.zeit.de/2025/54/selbstbedienungslaeden-land-nahversorgung-hybrid-tante-enso",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-21T08:26:43.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/mobilitaet-eauto-praemie-foerdert-importe-aus-china-warnen-experten/100185779.html",
         "title": "Mobilität: Experten warnen: E‑Auto-Prämie fördert auch Importe aus China",
@@ -210,20 +221,42 @@
         "link": "https://www.handelsblatt.com/finanzen/immobilien/gewaehrleistung-wie-bauherren-maengel-erkennen-und-richtig-handeln/100183972.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-20T14:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-miete-bauzins-kaufpreis-so-wird-der-immobilienmarkt-2026/100177898.html",
-        "title": "Immobilien: Miete, Bauzins, Kaufpreis – so wird der Immobilienmarkt 2026",
-        "summary": "Der Immobilienmarkt hat sich zuletzt leicht erholt – ist aber von alten Höhen noch entfernt. Wie geht es weiter? Diese grundlegenden Entwicklungen erwarten Experten im kommenden Jahr.",
-        "paragraphs": [
-          "Der Immobilienmarkt hat sich zuletzt leicht erholt – ist aber von alten Höhen noch entfernt. Wie geht es weiter? Diese grundlegenden Entwicklungen erwarten Experten im kommenden Jahr."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-miete-bauzins-kaufpreis-so-wird-der-immobilienmarkt-2026/100177898.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-20T12:31:07.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3350561",
+        "title": "Sozialstaat: Das Märchen von den armen Kindern",
+        "summary": "Geht es in Deutschland wirklich immer unsozialer zu? Der ehemalige Generalsekretär der Caritas, Georg Cremer, hält viele Klagen für „empiriefreie Empörung“ und fordert, genauer auf die Fakten zu schauen.",
+        "paragraphs": [
+          "Geht es in Deutschland wirklich immer unsozialer zu? Der ehemalige Generalsekretär der Caritas, Georg Cremer, hält viele Klagen für „empiriefreie Empörung“ und fordert, genauer auf die Fakten zu schauen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/armut-deutschland-sozialstaat-realitaet-mythen-georg-cremer-alles-schrecklich-ungerecht-li.3350561",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-21T08:33:04.000Z"
+      },
+      {
+        "id": "li.3345370",
+        "title": "Biografie über Margaret Thatcher: Die Erbin des Empire",
+        "summary": "Es gab den einen Thatcherismus gar nicht, schreibt der Historiker Franz-Josef Brüggemeier in seiner Biografie über die britische Premierministerin. Er schaut lieber auf die Brüche und Widersprüche konservativer Politik.",
+        "paragraphs": [
+          "Es gab den einen Thatcherismus gar nicht, schreibt der Historiker Franz-Josef Brüggemeier in seiner Biografie über die britische Premierministerin. Er schaut lieber auf die Brüche und Widersprüche konservativer Politik."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/margaret-thatcher-biografie-einfluss-grossbritannien-franz-josef-brueggemeier-die-eiserne-lady-li.3345370",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-21T08:32:39.000Z"
+      },
+      {
+        "id": "{urn:uuid:e3833ef8-a8fd-4b11-b004-5d324caec343}",
+        "title": "Ukrainekarte aktuell: Ukrainische Kräfte stoßen in Kupjansk vor",
+        "summary": "Ukrainische Soldaten sind entlang einer Autobahn im Zentrum der umkämpften Stadt Kupjansk vorgerückt. Zugleich drangen russische Kräfte in der Region Saporischschja vor.",
+        "paragraphs": [
+          "Ukrainische Soldaten sind entlang einer Autobahn im Zentrum der umkämpften Stadt Kupjansk vorgerückt. Zugleich drangen russische Kräfte in der Region Saporischschja vor."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/karte-ukraine-krieg-russland-frontverlauf-truppenbewegungen",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-21T08:19:57.000Z"
+      },
       {
         "id": "https://www.spiegel.de/politik/deutschland/news-friedrich-merz-annegret-kramp-karrenbauer-elon-musk-a-a6d3a199-bfec-4961-92f5-24d50dc48b9f",
         "title": "News: Friedrich Merz, Annegret Kramp-Karrenbauer, Elon Musk",
@@ -410,42 +443,31 @@
         "link": "https://www.handelsblatt.com/politik/international/eskalation-in-der-karibik-usa-setzen-weiteren-oeltanker-fest-caracas-spricht-von-akt-der-piraterie/100185744.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-21T03:27:45.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
-        "title": "+++ Ukraine-Krieg +++: Insider berichten: US-Geheimdienste widersprechen Trump bei Putins Zielen",
-        "summary": "Putin-Gesandter spricht von konstruktiven Gesprächen mit den USA +++ Vertreter Russlands und der USA sprechen in Miami über Frieden in der Ukraine +++ Der Newsblog.",
-        "paragraphs": [
-          "Putin-Gesandter spricht von konstruktiven Gesprächen mit den USA +++ Vertreter Russlands und der USA sprechen in Miami über Frieden in der Ukraine +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-usa-schlagen-neues-format-fuer-friedensgespraeche-vor/27982126.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-21T03:10:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:b634d0b3-f0f6-4659-9129-c556d2c50417}",
-        "title": "Sicherheit: Özdemir fordert Ausweitung von KI-gestützter Videoüberwachung",
-        "summary": "Der Grünen-Spitzenkandidat für die Landtagswahl in Baden-Württemberg sieht ein KI-Pilotprojekt als Vorbild. Auch der Bundesinnenminister fordert mehr Videoüberwachung.",
-        "paragraphs": [
-          "Der Grünen-Spitzenkandidat für die Landtagswahl in Baden-Württemberg sieht ein KI-Pilotprojekt als Vorbild. Auch der Bundesinnenminister fordert mehr Videoüberwachung."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/cem-oezdemir-baden-wuerttemberg-videoueberwachung-kuenstliche-intelligenz",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-21T03:02:24.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/affaere-um-sexualstraftaeter-us-demokraten-kritisieren-loeschung-einer-epstein-datei/100185740.html",
-        "title": "Affäre um Sexualstraftäter: US-Opposition kritisiert Löschung einer Epstein-Datei",
-        "summary": "Kurz vor dem Wochenende beginnt das US-Justizministerium mit der Freigabe von Epstein-Akten. Nur einen Tag später fehlen plötzlich mehrere Dateien – eine Erklärung dafür gibt das Ministerium nicht.",
-        "paragraphs": [
-          "Kurz vor dem Wochenende beginnt das US-Justizministerium mit der Freigabe von Epstein-Akten. Nur einen Tag später fehlen plötzlich mehrere Dateien – eine Erklärung dafür gibt das Ministerium nicht."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/affaere-um-sexualstraftaeter-us-demokraten-kritisieren-loeschung-einer-epstein-datei/100185740.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-21T03:00:32.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/rodeln-loch-nach-sieg-neuer-weltcup-fuehrender-1177680/artikel#omrss",
+        "title": "Rodeln: Loch nach Sieg neuer Weltcup-Führender",
+        "summary": "Rodel-Olympiasieger Felix Loch hat im Männer-Einsitzer in Lake Placid den zweiten Saisonsieg eingefahren. Auch im Mixed-Wettbewerb standen zwei deutsche Paare ganz oben.",
+        "paragraphs": [
+          "Rodel-Olympiasieger Felix Loch hat im Männer-Einsitzer in Lake Placid den zweiten Saisonsieg eingefahren. Auch im Mixed-Wettbewerb standen zwei deutsche Paare ganz oben."
+        ],
+        "link": "https://www.kicker.de/rodeln-loch-nach-sieg-neuer-weltcup-fuehrender-1177680/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-21T08:20:41.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wir-sehen-beide-gut-aus-stimmt-s-crouchy-woltemade-trifft-aufs-original-1177675/artikel#omrss",
+        "title": "\"Wir sehen beide gut aus, stimmt's?\": \"Crouchy\" Woltemade trifft aufs Original",
+        "summary": "Auf Augenhöhe und auf einer Wellenlänge: Nick Woltemade hat am Samstag die englische Stürmerlegende Peter Crouch kennengelernt. Es entwickelte sich ein humorvoller Austausch.",
+        "paragraphs": [
+          "Auf Augenhöhe und auf einer Wellenlänge: Nick Woltemade hat am Samstag die englische Stürmerlegende Peter Crouch kennengelernt. Es entwickelte sich ein humorvoller Austausch."
+        ],
+        "link": "https://www.kicker.de/wir-sehen-beide-gut-aus-stimmt-s-crouchy-woltemade-trifft-aufs-original-1177675/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-21T08:16:19.000Z"
+      },
       {
         "id": "https://www.kicker.de/heintz-aergert-sich-und-warnt-jeder-fehler-wird-bestraft-1016743/artikel#omrss",
         "title": "Heintz ärgert sich und warnt: \"Jeder Fehler wird bestraft\"",
@@ -601,17 +623,6 @@
         "publishedAt": "2025-12-20T22:10:31.000Z"
       },
       {
-        "id": "https://www.kicker.de/everton-gegen-arsenal-2025-premier-league-5045167/spielbericht#omrss",
-        "title": "Volleyball-Einlage entscheidet: Arsenal schlägt Everton knapp",
-        "summary": "Der FC Arsenal tat sich beim FC Everton schwer, bejubelte am Ende aber trotzdem einen knappen Sieg. Entscheidend war eine kuriose Aktion von Everton-Verteidiger Jake O'Brien, dessen Handspiel zu einem Elfmeter führte.",
-        "paragraphs": [
-          "Der FC Arsenal tat sich beim FC Everton schwer, bejubelte am Ende aber trotzdem einen knappen Sieg. Entscheidend war eine kuriose Aktion von Everton-Verteidiger Jake O'Brien, dessen Handspiel zu einem Elfmeter führte."
-        ],
-        "link": "https://www.kicker.de/everton-gegen-arsenal-2025-premier-league-5045167/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T21:58:01.000Z"
-      },
-      {
         "id": "https://www.kicker.de/neuer-job-matarazzo-soll-real-sociedad-retten-1177617/artikel#omrss",
         "title": "Neuer Job: Matarazzo soll Real Sociedad retten",
         "summary": "Pellegrino Matarazzo hat einen neuen Job. Der ehemalige Coach des VfB Stuttgart und der TSG Hoffenheim wird neuer Trainer von Real Sociedad.",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/perfekt-gesetzter-kopfball-bellingham-erloest-real-1177616/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-20T20:45:05.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/geniale-hacken-vorlage-conceicao-laesst-juve-jubeln-1177614/video#omrss",
-        "title": "Geniale Hacken-Vorlage: Conceicao lässt Juve jubeln",
-        "summary": "Juventus Turin führt im Spitzenspiel gegen die AS Rom mit 1:0. Den Treffer gibt es hier im Video.",
-        "paragraphs": [
-          "Juventus Turin führt im Spitzenspiel gegen die AS Rom mit 1:0. Den Treffer gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/geniale-hacken-vorlage-conceicao-laesst-juve-jubeln-1177614/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-20T20:36:36.000Z"
       }
     ],
     "edv": [
@@ -845,17 +845,6 @@
         "publishedAt": "2025-12-20T08:01:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
-        "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
-        "paragraphs": [
-          "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
-        ],
-        "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-20T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Die Farbe Blau: Bringen Sie Ihre Favoriten im c't-Foto-Wettbewerb nach vorn",
         "summary": "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen.",
@@ -863,6 +852,17 @@
           "Das Jahr neigt sich dem Ende zu – ebenso unser Fotowettbewerb \"Die Farbe Blau\". Nutzen Sie die freien Tage, um Ihre Favoriten mit Punkten zu belohnen."
         ],
         "link": "https://www.heise.de/news/Die-Farbe-Blau-Bringen-Sie-Ihre-Favoriten-im-c-t-Foto-Wettbewerb-nach-vorn-11118570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-20T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Blau, Blase, Badewanne: Die Bilder der Woche 51",
+        "summary": "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie.",
+        "paragraphs": [
+          "Von Lapplands Licht bis zur bunten Treppe – die spannendsten Fotos der Woche warten auf Sie."
+        ],
+        "link": "https://www.heise.de/news/Blau-Blase-Badewanne-Die-Bilder-der-Woche-51-11121309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-20T07:00:00.000Z"
       },
