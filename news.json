@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-21T10:45:43.621Z",
+  "updatedAt": "2025-12-21T10:53:12.546Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:a4ba6320-313e-4b09-87c7-65bdab559855}",
+        "title": "Thailand und Kambodscha: Rund 900.000 Menschen auf der Flucht vor Grenzkonflikt",
+        "summary": "Auf beiden Seiten der Grenze zwischen Thailand und Kambodscha mussten Hunderttausende fliehen. Grund dafür ist ein Grenzstreit, bei dem es wiederholt zu Kämpfen kommt.",
+        "paragraphs": [
+          "Auf beiden Seiten der Grenze zwischen Thailand und Kambodscha mussten Hunderttausende fliehen. Grund dafür ist ein Grenzstreit, bei dem es wiederholt zu Kämpfen kommt."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/thailand-kambodscha-grenzkonflikt-flucht-vertriebene",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-21T10:43:10.000Z"
+      },
+      {
         "id": "{urn:uuid:504c026e-b47d-4958-a475-0c3bcdb9eae1}",
         "title": "Nahost: Israel beschließt den Bau von 19 weiteren Siedlungen im Westjordanland",
         "summary": "Trotz internationaler Kritik plant Israel den Bau neuer Siedlungen im besetzten Westjordanland. Viele davon sollen in dicht besiedelten Gebieten entstehen.",
@@ -245,17 +256,6 @@
         "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-putin-macron-treffen-li.3353907",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-21T10:36:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:a4ba6320-313e-4b09-87c7-65bdab559855}",
-        "title": "Thailand und Kambodscha: Rund 900.000 Menschen auf der Flucht vor Grenzkonflikt",
-        "summary": "Auf beiden Seiten der Grenze zwischen Thailand und Kambodscha mussten Hunderttausende fliehen. Grund dafür ist ein Grenzkonflikt, bei dem es wiederholt zu Kämpfen kommt.",
-        "paragraphs": [
-          "Auf beiden Seiten der Grenze zwischen Thailand und Kambodscha mussten Hunderttausende fliehen. Grund dafür ist ein Grenzkonflikt, bei dem es wiederholt zu Kämpfen kommt."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/thailand-kambodscha-grenzkonflikt-flucht-vertriebene",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-21T10:26:59.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/energie-wasserstoff-netzausbau-laeuft-nach-plan-525-kilometer-gebaut/100185801.html",
@@ -446,6 +446,28 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/sueles-erstaunliches-comeback-keine-ueberraschung-1177699/artikel#omrss",
+        "title": "Süles erstaunliches Comeback: \"Keine Überraschung\"",
+        "summary": "Hinten abgeräumt, zwei Tore eingeleitet: Niklas Süle überzeugte beim Sieg von Borussia Dortmund aus dem Stand und bekommt Lob von den BVB-Verantwortlichen.",
+        "paragraphs": [
+          "Hinten abgeräumt, zwei Tore eingeleitet: Niklas Süle überzeugte beim Sieg von Borussia Dortmund aus dem Stand und bekommt Lob von den BVB-Verantwortlichen."
+        ],
+        "link": "https://www.kicker.de/sueles-erstaunliches-comeback-keine-ueberraschung-1177699/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-21T10:44:34.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/der-logische-letzte-akt-frankfurt-schleppt-sich-in-die-winterpause-1177677/artikel#omrss",
+        "title": "Der logische letzte Akt: Frankfurt schleppt sich in die Winterpause",
+        "summary": "Nicht Fisch, nicht Fleisch. Die Eintracht muss nach schwierigen Wochen Kraft aus der kurzen Pause ziehen. Einmal mehr fordert Sportvorstand Markus Krösche eine realistische Erwartungshaltung.",
+        "paragraphs": [
+          "Nicht Fisch, nicht Fleisch. Die Eintracht muss nach schwierigen Wochen Kraft aus der kurzen Pause ziehen. Einmal mehr fordert Sportvorstand Markus Krösche eine realistische Erwartungshaltung."
+        ],
+        "link": "https://www.kicker.de/der-logische-letzte-akt-frankfurt-schleppt-sich-in-die-winterpause-1177677/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-21T10:43:22.000Z"
+      },
       {
         "id": "https://www.kicker.de/mislintat-laesst-anfangs-zukunft-offen-und-verteidigt-sein-handeln-1177694/artikel#omrss",
         "title": "Mislintat lässt Anfangs Zukunft offen - und verteidigt sein Handeln",
@@ -643,28 +665,6 @@
         "link": "https://www.spiegel.de/sport/fussball/afrika-cup-2025-das-muessen-sie-ueber-das-turnier-in-marokko-wissen-a-82e8904c-05b8-4c13-bd29-b6d5600a343f#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-21T07:20:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/silber-coach-gaugisch-keine-anfragen-aus-maenner-bundesliga-1177666/artikel#omrss",
-        "title": "Silber-Coach Gaugisch: Keine Anfragen aus Männer-Bundesliga",
-        "summary": "Der deutsche Verband würde Frauen-Bundestrainer Markus Gaugisch nach dem Einzug ins WM-Finale gern halten. Er äußert sich im \"Sportstudio\" dazu, ob es andere Interessenten gibt.",
-        "paragraphs": [
-          "Der deutsche Verband würde Frauen-Bundestrainer Markus Gaugisch nach dem Einzug ins WM-Finale gern halten. Er äußert sich im \"Sportstudio\" dazu, ob es andere Interessenten gibt."
-        ],
-        "link": "https://www.kicker.de/silber-coach-gaugisch-keine-anfragen-aus-maenner-bundesliga-1177666/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-21T07:08:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bane-trifft-gamewinner-in-ot-sieg-der-magic-lakers-verlieren-trotz-lebron-gala-1177659/artikel#omrss",
-        "title": "Bane trifft Gamewinner in OT-Sieg der Magic - Lakers verlieren trotz LeBron-Gala",
-        "summary": "Die Orlando Magic haben sich bei den Utah Jazz zu einem dramatischen Sieg nach Verlängerung gemüht, bei dem Desmond Bane den entscheidenden Korb erzielte. Indes verloren die Lakers das Stadtduell und die Warriors beendeten ihre Niederlagenserie.",
-        "paragraphs": [
-          "Die Orlando Magic haben sich bei den Utah Jazz zu einem dramatischen Sieg nach Verlängerung gemüht, bei dem Desmond Bane den entscheidenden Korb erzielte. Indes verloren die Lakers das Stadtduell und die Warriors beendeten ihre Niederlagenserie."
-        ],
-        "link": "https://www.kicker.de/bane-trifft-gamewinner-in-ot-sieg-der-magic-lakers-verlieren-trotz-lebron-gala-1177659/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-21T06:59:24.000Z"
       }
     ],
     "edv": [
