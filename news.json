@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-22T08:21:46.639Z",
+  "updatedAt": "2025-12-22T08:43:31.096Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/iw-studie-deutsche-autoindustrie-leidet-am-staerksten-unter-us-zoellen/100185967.html",
+        "title": "IW-Studie: Deutsche Autoindustrie leidet am stärksten unter US-Zöllen",
+        "summary": "Exporte in die USA werden für die deutsche Industrie immer teurer. Doch einige Branchen treffen die neuen Zölle deutlich härter, zeigt eine neue IW-Studie.",
+        "paragraphs": [
+          "Exporte in die USA werden für die deutsche Industrie immer teurer. Doch einige Branchen treffen die neuen Zölle deutlich härter, zeigt eine neue IW-Studie."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/iw-studie-deutsche-autoindustrie-leidet-am-staerksten-unter-us-zoellen/100185967.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-22T08:24:38.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-eroeffnet-kurze-handelswoche-unveraendert/100185958.html",
         "title": "Dax aktuell: Dax eröffnet kurze Handelswoche unverändert",
@@ -201,17 +212,6 @@
         "publishedAt": "2025-12-22T06:48:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/iw-studie-deutsche-autoindustrie-leidet-am-staerksten-unter-us-zoellen/100185967.html",
-        "title": "IW-Studie: Deutsche Autoindustrie leidet am stärksten unter US-Zöllen",
-        "summary": "Exporte in die USA werden für die deutsche Industrie immer teurer. Doch einige Branchen treffen die neuen Zölle deutlich härter, zeigt eine neue IW-Studie.",
-        "paragraphs": [
-          "Exporte in die USA werden für die deutsche Industrie immer teurer. Doch einige Branchen treffen die neuen Zölle deutlich härter, zeigt eine neue IW-Studie."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/iw-studie-deutsche-autoindustrie-leidet-am-staerksten-unter-us-zoellen/100185967.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-22T06:44:15.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/ruestungsprojekte-deutsche-drohnenwaffe-ist-komplett-gefechtskopf-getestet/100185944.html",
         "title": "Rüstungsprojekte: Deutsche Drohnenwaffe ist komplett – Gefechtskopf getestet",
         "summary": "Scharfer Schuss unter Laborbedingungen: Auf einem Sprengplatz haben Rüstungsunternehmen die Wirkung einer Kamikazedrohne gegen gepanzerte Ziele ausprobiert.",
@@ -225,17 +225,6 @@
     ],
     "politik": [
       {
-        "id": "{urn:uuid:fd3dd716-465e-4c44-b571-828f99f10610}",
-        "title": "Russland: Russischer General in Moskau mutmaßlich durch Autobombe getötet",
-        "summary": "Den russischen Behörden zufolge ist in Moskau eine Autobombe explodiert. Dabei sei ein hochrangiger russischer General getötet worden.",
-        "paragraphs": [
-          "Den russischen Behörden zufolge ist in Moskau eine Autobombe explodiert. Dabei sei ein hochrangiger russischer General getötet worden."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/russland-moskau-general-auto-bombe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-22T07:54:18.000Z"
-      },
-      {
         "id": "{urn:uuid:9a27d987-91eb-468d-8aac-3bc2d344ad2c}",
         "title": "Jeff Landry: Donald Trump ernennt Sondergesandten für Grönland",
         "summary": "Trump erhebt weiterhin Besitzansprüche auf die Insel im Nordatlantik. Der neue US-Sondergesandte Landry will dazu beitragen, \"Grönland zu einem Teil der USA zu machen\".",
@@ -244,7 +233,29 @@
         ],
         "link": "https://www.zeit.de/politik/ausland/2025-12/jeff-landry-usa-sondergesandter-groenland",
         "source": "ZEIT",
-        "publishedAt": "2025-12-22T07:48:35.000Z"
+        "publishedAt": "2025-12-22T08:28:46.000Z"
+      },
+      {
+        "id": "{urn:uuid:ae3db5db-910d-4c55-9233-0e9579d719c1}",
+        "title": "Kämpfe im Grenzgebiet: Thailand und Kambodscha planen diese Woche Gespräche",
+        "summary": "Die Gefechte zwischen Thailand und Kambodscha halten an. Am Mittwoch wollen Vertreter der Länder Gespräche abhalten. Die Asean-Staaten und China wollen vermitteln.",
+        "paragraphs": [
+          "Die Gefechte zwischen Thailand und Kambodscha halten an. Am Mittwoch wollen Vertreter der Länder Gespräche abhalten. Die Asean-Staaten und China wollen vermitteln."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/thailand-kambodscha-konflikt-vermittlung-gespraeche-24-dezember",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-22T08:27:26.000Z"
+      },
+      {
+        "id": "{urn:uuid:fd3dd716-465e-4c44-b571-828f99f10610}",
+        "title": "Russland: Russischer General in Moskau mutmaßlich durch Autobombe getötet",
+        "summary": "In Moskau ist ein hochrangiger russischer General bei einer Explosion getötet worden. Generalleutnant Fanil Sarwarow sei für die operative Ausbildung zuständig gewesen.",
+        "paragraphs": [
+          "In Moskau ist ein hochrangiger russischer General bei einer Explosion getötet worden. Generalleutnant Fanil Sarwarow sei für die operative Ausbildung zuständig gewesen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/russland-moskau-general-auto-bombe",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-22T08:14:56.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/konjunktur/grossbritannien-britische-wirtschaft-waechst-im-dritten-quartal-nur-schwach/100185983.html",
@@ -432,20 +443,31 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/israel-aufruf-juden-auswanderung-antisemitismus",
         "source": "ZEIT",
         "publishedAt": "2025-12-22T03:28:07.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/innere-sicherheit-dobrindt-plant-sicherheitsoffensive/100185214.html",
-        "title": "Innere Sicherheit: Neuer Kurs in der Innenpolitik: Dobrindt will Geheimdiensten deutlich mehr Macht geben",
-        "summary": "Gesichtserkennung, Vorratsdatenspeicherung, Cyberabwehr: Der Bundesinnenminister will die Befugnisse der Sicherheitsbehörden deutlich ausweiten. Israel spielt dabei eine wichtige Rolle.",
-        "paragraphs": [
-          "Gesichtserkennung, Vorratsdatenspeicherung, Cyberabwehr: Der Bundesinnenminister will die Befugnisse der Sicherheitsbehörden deutlich ausweiten. Israel spielt dabei eine wichtige Rolle."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/innere-sicherheit-dobrindt-plant-sicherheitsoffensive/100185214.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-22T03:04:51.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/das-grosse-bangen-um-bruno-fernandes-1177993/artikel#omrss",
+        "title": "Das große Bangen um Bruno Fernandes",
+        "summary": "Bruno Fernandes fällt eigentlich nie aus - jetzt muss Manchester United wohl in einigen wichtigen Spielen ohne den Kapitän auskommen und fragt sich: Wie soll das gehen?",
+        "paragraphs": [
+          "Bruno Fernandes fällt eigentlich nie aus - jetzt muss Manchester United wohl in einigen wichtigen Spielen ohne den Kapitän auskommen und fragt sich: Wie soll das gehen?"
+        ],
+        "link": "https://www.kicker.de/das-grosse-bangen-um-bruno-fernandes-1177993/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-22T08:30:25.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-slalom-auf-der-gran-risa-strasser-mit-der-11-1177987/artikel#omrss",
+        "title": "LIVE! Slalom auf der Gran Risa - Straßer mit der 11",
+        "summary": "Zwei Tage vor Weihnachten steht für die Technik-Spezialisten in Alta Badia noch ein Slalom auf dem Programm. Der erste Durchgang auf der Gran Risa startet um 10 Uhr, der entscheidende zweite um 13.30 Uhr.",
+        "paragraphs": [
+          "Zwei Tage vor Weihnachten steht für die Technik-Spezialisten in Alta Badia noch ein Slalom auf dem Programm. Der erste Durchgang auf der Gran Risa startet um 10 Uhr, der entscheidende zweite um 13.30 Uhr."
+        ],
+        "link": "https://www.kicker.de/live-slalom-auf-der-gran-risa-strasser-mit-der-11-1177987/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-22T08:27:23.000Z"
+      },
       {
         "id": "https://www.kicker.de/edmonton-gegen-vegas-2025-nhl-5091986/spielbericht#omrss",
         "title": "Draisaitl bereitet nur noch vor und siegt - Matchwinner Seider",
@@ -557,13 +579,13 @@
         "publishedAt": "2025-12-22T06:14:10.000Z"
       },
       {
-        "id": "https://www.kicker.de/nfl-das-aktuelle-playoff-picture-ravens-und-lions-zittern-1169024/artikel#omrss",
-        "title": "NFL: Das aktuelle Playoff Picture - Ravens und Lions zittern",
+        "id": "https://www.kicker.de/nfl-das-aktuelle-playoff-picture-bears-und-49ers-dabei-ravens-und-lions-zittern-1169024/artikel#omrss",
+        "title": "NFL: Das aktuelle Playoff Picture - Bears und 49ers dabei, Ravens und Lions zittern",
         "summary": "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Der aktuelle Stand.",
         "paragraphs": [
           "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Der aktuelle Stand."
         ],
-        "link": "https://www.kicker.de/nfl-das-aktuelle-playoff-picture-ravens-und-lions-zittern-1169024/artikel#omrss",
+        "link": "https://www.kicker.de/nfl-das-aktuelle-playoff-picture-bears-und-49ers-dabei-ravens-und-lions-zittern-1169024/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-22T05:51:00.000Z"
       },
@@ -643,31 +665,20 @@
         "link": "https://www.kicker.de/voigtmann-das-ist-eine-grosse-ehre-1177929/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-21T22:11:29.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/neugebauer-was-soll-ich-sagen-geiler-abend-1177925/video#omrss",
-        "title": "Neugebauer: \"Was soll ich sagen, geiler Abend\"",
-        "summary": "Zehnkampf-Weltmeister Leo Neugebauer wurde am Sonntag als Sportler des Jahres ausgezeichnet. Im Anschluss an die Gala sprach er im Interview von einem \"geilen Abend\".",
-        "paragraphs": [
-          "Zehnkampf-Weltmeister Leo Neugebauer wurde am Sonntag als Sportler des Jahres ausgezeichnet. Im Anschluss an die Gala sprach er im Interview von einem \"geilen Abend\"."
-        ],
-        "link": "https://www.kicker.de/neugebauer-was-soll-ich-sagen-geiler-abend-1177925/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-21T21:57:17.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wie-la-liga-ihre-medieneinnahmen-um-102-millionen-euro-steigerte-1177892/artikel#omrss",
-        "title": "Wie La Liga ihre Medieneinnahmen um 102 Millionen Euro steigerte",
-        "summary": "Um exakt 102 Millionen Euro pro Jahr konnte La Liga ihre Medienrechte-Einnahmen für den nächsten Zyklus steigern. Javier Tebas sieht zwei Hauptgründe für das Wachstum.",
-        "paragraphs": [
-          "Um exakt 102 Millionen Euro pro Jahr konnte La Liga ihre Medienrechte-Einnahmen für den nächsten Zyklus steigern. Javier Tebas sieht zwei Hauptgründe für das Wachstum."
-        ],
-        "link": "https://www.kicker.de/wie-la-liga-ihre-medieneinnahmen-um-102-millionen-euro-steigerte-1177892/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-21T21:16:40.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/l-f-Reverse-Engineering-Schritt-fuer-Schritt-KI-hilft-auch-mit-11122535.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "l+f: Reverse Engineering Schritt-für-Schritt – KI hilft auch mit",
+        "summary": "Ein Sicherheitsforscher nimmt Interessierte mit auf eine Reise in eine IP-Kamera-Firmware. Das Ergebnis sind Patches für TP-Links Tapo-C200-Modell.",
+        "paragraphs": [
+          "Ein Sicherheitsforscher nimmt Interessierte mit auf eine Reise in eine IP-Kamera-Firmware. Das Ergebnis sind Patches für TP-Links Tapo-C200-Modell."
+        ],
+        "link": "https://www.heise.de/news/l-f-Reverse-Engineering-Schritt-fuer-Schritt-KI-hilft-auch-mit-11122535.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-22T08:14:00.000Z"
+      },
       {
         "id": "https://www.heise.de/tests/GWM-Wey-03-mit-Plug-in-Hybrid-im-Test-Von-allem-reichlich-aber-auch-gut-11080946.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "title": "heise+ | GWM Wey 03 mit Plug-in-Hybrid im Test: Von allem reichlich, aber auch gut?",
@@ -757,17 +768,6 @@
         "publishedAt": "2025-12-22T06:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/ratgeber/Die-Erfahrungen-von-Behoerden-und-Unternehmen-mit-freien-MS-Office-Alternativen-11069385.html",
-        "title": "heise+ | Die Erfahrungen von Behörden und Unternehmen mit freien MS-Office-Alternativen",
-        "summary": "Nicht wunschlos glücklich, aber zufrieden: Wir haben Vorreiter wie Schleswig-Holstein und Schwäbisch-Hall zu ihren Erfahrungen mit LibreOffice & Co. befragt.",
-        "paragraphs": [
-          "Nicht wunschlos glücklich, aber zufrieden: Wir haben Vorreiter wie Schleswig-Holstein und Schwäbisch-Hall zu ihren Erfahrungen mit LibreOffice & Co. befragt."
-        ],
-        "link": "https://www.heise.de/ratgeber/Die-Erfahrungen-von-Behoerden-und-Unternehmen-mit-freien-MS-Office-Alternativen-11069385.html",
-        "source": "c't",
-        "publishedAt": "2025-12-22T06:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/ratgeber/Microsoft-Office-Was-den-Datenaustausch-so-problematisch-macht-11069367.html",
         "title": "heise+ | Microsoft Office: Was den Datenaustausch so problematisch macht",
         "summary": "Alternative Office-Programme können Microsoft-Dateien grundsätzlich lesen und bearbeiten, bereiten aber im Detail Probleme. Wir beleuchten die Hintergründe.",
@@ -775,6 +775,17 @@
           "Alternative Office-Programme können Microsoft-Dateien grundsätzlich lesen und bearbeiten, bereiten aber im Detail Probleme. Wir beleuchten die Hintergründe."
         ],
         "link": "https://www.heise.de/ratgeber/Microsoft-Office-Was-den-Datenaustausch-so-problematisch-macht-11069367.html",
+        "source": "c't",
+        "publishedAt": "2025-12-22T06:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/ratgeber/Die-Erfahrungen-von-Behoerden-und-Unternehmen-mit-freien-MS-Office-Alternativen-11069385.html",
+        "title": "heise+ | Die Erfahrungen von Behörden und Unternehmen mit freien MS-Office-Alternativen",
+        "summary": "Nicht wunschlos glücklich, aber zufrieden: Wir haben Vorreiter wie Schleswig-Holstein und Schwäbisch-Hall zu ihren Erfahrungen mit LibreOffice & Co. befragt.",
+        "paragraphs": [
+          "Nicht wunschlos glücklich, aber zufrieden: Wir haben Vorreiter wie Schleswig-Holstein und Schwäbisch-Hall zu ihren Erfahrungen mit LibreOffice & Co. befragt."
+        ],
+        "link": "https://www.heise.de/ratgeber/Die-Erfahrungen-von-Behoerden-und-Unternehmen-mit-freien-MS-Office-Alternativen-11069385.html",
         "source": "c't",
         "publishedAt": "2025-12-22T06:00:00.000Z"
       },
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Fuer-E-Scooter-kommen-neue-Regeln-Bundesrat-stimmt-zu-11122113.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-21T16:02:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Russland-will-sein-ISS-Modul-fuer-neue-Raumstation-verwenden-11122382.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Russisches ISS-Modul soll in neue Raumstation wandern",
-        "summary": "Das russische Modul der ISS soll zukünftig weiter in einer geplanten neuen russischen Raumstation dienen. Das sorgt auch für Kritik.",
-        "paragraphs": [
-          "Das russische Modul der ISS soll zukünftig weiter in einer geplanten neuen russischen Raumstation dienen. Das sorgt auch für Kritik."
-        ],
-        "link": "https://www.heise.de/news/Russland-will-sein-ISS-Modul-fuer-neue-Raumstation-verwenden-11122382.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-21T16:00:00.000Z"
       }
     ]
   }
