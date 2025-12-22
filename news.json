@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2025-12-22T07:54:50.840Z",
+  "updatedAt": "2025-12-22T08:07:36.098Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:a258a82f-7bc1-4352-a0c4-477be48a1f41}",
+        "title": "US-Zollpolitik: Deutsche Autoindustrie leidet am stärksten unter US-Zöllen",
+        "summary": "Wegen der zeitweise besonders hohen Zölle hat die deutsche Autoindustrie weniger in die USA exportiert. Auch das US-Geschäft der deutschen Maschinenbauer brach ein.",
+        "paragraphs": [
+          "Wegen der zeitweise besonders hohen Zölle hat die deutsche Autoindustrie weniger in die USA exportiert. Auch das US-Geschäft der deutschen Maschinenbauer brach ein."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/auto-industrie-deutschland-usa-zoll",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-22T07:58:59.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/wirtschaft/holcim-gericht-in-der-schweiz-laesst-klimaklage-gegen-zementhersteller-zu-a-fda76973-c2dd-4f5a-8434-ce098af2fa50",
+        "title": "Holcim: Gericht in der Schweiz lässt Klimaklage gegen Zementhersteller zu",
+        "summary": "Der Zementhersteller Holcim soll sich laut einem Gericht den Vorwürfen indonesischer Inselbewohner stellen. Sie werfen dem Schweizer Konzern vor, zu wenig gegen CO₂-Emissionen zu tun. Holcim will sich wehren.",
+        "paragraphs": [
+          "Der Zementhersteller Holcim soll sich laut einem Gericht den Vorwürfen indonesischer Inselbewohner stellen. Sie werfen dem Schweizer Konzern vor, zu wenig gegen CO₂-Emissionen zu tun. Holcim will sich wehren."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/holcim-gericht-in-der-schweiz-laesst-klimaklage-gegen-zementhersteller-zu-a-fda76973-c2dd-4f5a-8434-ce098af2fa50#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-22T07:57:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/konjunktur/grossbritannien-britische-wirtschaft-waechst-im-dritten-quartal-nur-schwach/100185983.html",
         "title": "Großbritannien: Britische Wirtschaft wächst im dritten Quartal nur schwach",
@@ -78,17 +100,6 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/drohnen-schaeffler-helsing-ruestung-autozulieferer-li.3348564",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-22T07:19:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:a258a82f-7bc1-4352-a0c4-477be48a1f41}",
-        "title": "US-Zollpolitik: Deutsche Autoindustrie leidet am stärksten unter US-Zöllen",
-        "summary": "Wegen der zeitweise besonders hohen Zölle hat die deutsche Autoindustrie weniger in die USA exportiert. Auch das US-Geschäft der deutschen Maschinenbauer brach ein.",
-        "paragraphs": [
-          "Wegen der zeitweise besonders hohen Zölle hat die deutsche Autoindustrie weniger in die USA exportiert. Auch das US-Geschäft der deutschen Maschinenbauer brach ein."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/auto-industrie-deutschland-usa-zoll",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-22T07:18:23.000Z"
       },
       {
         "id": "https://www.spiegel.de/wirtschaft/aerzte-medizinischer-dienst-fordert-offenlegung-von-behandlungsfehlern-a-cd1cf2ba-c3a0-49a9-82c9-e68546fdb2ed",
@@ -210,20 +221,20 @@
         "link": "https://www.spiegel.de/wirtschaft/mehrwertsteuer-senkung-warum-gans-und-schnitzel-im-restaurant-nicht-billiger-werden-a-57be03e8-ef1d-495a-94e3-c8e47c0f87cc#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-22T06:01:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/epstein-affaere-geloeschtes-trump-bild-soll-nach-kritik-wieder-online-gehen/100185957.html",
-        "title": "Epstein-Affäre: Gelöschtes Trump-Bild soll nach Kritik wieder online gehen",
-        "summary": "In den USA tobt nach der Veröffentlichung der Epstein-Akten die Debatte über die geschwärzten Inhalte. Ein nachträglich gelöschtes Foto von Trump soll wieder veröffentlicht werden.",
-        "paragraphs": [
-          "In den USA tobt nach der Veröffentlichung der Epstein-Akten die Debatte über die geschwärzten Inhalte. Ein nachträglich gelöschtes Foto von Trump soll wieder veröffentlicht werden."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/epstein-affaere-geloeschtes-trump-bild-soll-nach-kritik-wieder-online-gehen/100185957.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-22T05:50:52.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:fd3dd716-465e-4c44-b571-828f99f10610}",
+        "title": "Russland: Russischer General in Moskau mutmaßlich durch Autobombe getötet",
+        "summary": "Den russischen Behörden zufolge ist in Moskau eine Autobombe explodiert. Dabei sei ein hochrangiger russischer General getötet worden.",
+        "paragraphs": [
+          "Den russischen Behörden zufolge ist in Moskau eine Autobombe explodiert. Dabei sei ein hochrangiger russischer General getötet worden."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/russland-moskau-general-auto-bombe",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-22T07:54:18.000Z"
+      },
       {
         "id": "{urn:uuid:9a27d987-91eb-468d-8aac-3bc2d344ad2c}",
         "title": "Jeff Landry: Donald Trump ernennt Sondergesandten für Grönland",
@@ -245,6 +256,17 @@
         "link": "https://www.handelsblatt.com/politik/konjunktur/grossbritannien-britische-wirtschaft-waechst-im-dritten-quartal-nur-schwach/100185983.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-22T07:45:30.000Z"
+      },
+      {
+        "id": "li.3353907",
+        "title": "Krieg in der Ukraine: General bei Autobombenanschlag in Moskau getötet",
+        "summary": "Es werde nicht ausgeschlossen, dass die Bombe von ukrainischen Spezialkräften gelegt worden sei, erklärt das staatliche russische Ermittlungskomitee.",
+        "paragraphs": [
+          "Es werde nicht ausgeschlossen, dass die Bombe von ukrainischen Spezialkräften gelegt worden sei, erklärt das staatliche russische Ermittlungskomitee."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-russland-general-autobombe-anschlag-moskau-li.3353907",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-22T07:45:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-explosion-in-moskau-russischer-general-mit-autobombe-getoetet/27982126.html",
@@ -335,17 +357,6 @@
         "publishedAt": "2025-12-22T05:24:26.000Z"
       },
       {
-        "id": "li.3353907",
-        "title": "Krieg in der Ukraine: Verhandlungen in Florida enden ohne Ergebnis",
-        "summary": "Der US-Sondergesandte Witkoff hat in Miami mit Unterhändlern der Ukraine und Russlands gesprochen. Allseits wird betont, wie „produktiv und konstruktiv“ die Gespräche verlaufen seien. Bislang liegen aber keine konkreten Ergebnisse vor.",
-        "paragraphs": [
-          "Der US-Sondergesandte Witkoff hat in Miami mit Unterhändlern der Ukraine und Russlands gesprochen. Allseits wird betont, wie „produktiv und konstruktiv“ die Gespräche verlaufen seien. Bislang liegen aber keine konkreten Ergebnisse vor."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-witkoff-miami-ukraine-frieden-li.3353907",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-22T05:05:00.000Z"
-      },
-      {
         "id": "{urn:uuid:1702a2fa-5bf9-42a0-8e81-732a77ceb646}",
         "title": "Maga-Bewegung: \"Die Risse in der Bewegung schließen sich nicht, sie werden weiter\"",
         "summary": "In Phoenix bejubelt Amerikas konservative Jugend ihre Stars. Was verrät das Treffen über den Zustand der Maga-Bewegung? Und: Australien gedenkt der Opfer vom Bondi Beach.",
@@ -363,7 +374,7 @@
         "paragraphs": [
           "Die US-Küstenwache verfolgt offenbar ein weiteres Schiff vor der Küste Venezuelas. Das Thema Antisemitismus spaltet die Rechten in den USA. Die Nacht"
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/venezuela-richtungsstreit-republikaner-bondi-groenland-ueberblick-usa",
+        "link": "https://www.zeit.de/politik/ausland/2025-12/venezuela-richtungsstreit-republikaner-bondi-groenland-ueberblick-usa-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-22T04:59:41.000Z"
       },
@@ -432,17 +443,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/innere-sicherheit-dobrindt-plant-sicherheitsoffensive/100185214.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-22T03:04:51.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-bka-chef-in-diesem-jahr-ueber-1000-drohnenfluege-registriert/100137034.html",
-        "title": "+++ Bundesregierung +++: BKA-Chef: In diesem Jahr über 1.000 Drohnenflüge registriert",
-        "summary": "Verdi-Chef will Vermögende für Rente zur Kasse bitten +++ Schneider drückt aufs Tempo bei Atommüll-Endlagersuche +++ Spahn: Jedes Vorhaben auf Nutzen fürs Wachstum prüfen +++ Der Newsblog.",
-        "paragraphs": [
-          "Verdi-Chef will Vermögende für Rente zur Kasse bitten +++ Schneider drückt aufs Tempo bei Atommüll-Endlagersuche +++ Spahn: Jedes Vorhaben auf Nutzen fürs Wachstum prüfen +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-bka-chef-in-diesem-jahr-ueber-1000-drohnenfluege-registriert/100137034.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-22T02:46:00.000Z"
       }
     ],
     "sport": [
@@ -478,6 +478,17 @@
         "link": "https://www.spiegel.de/sport/fussball/afrika-cup-fallrueckzieher-sichert-marokko-den-auftaktsieg-gegen-komoren-a-7254ae3d-4e59-45ed-abf9-ec33b5452c20#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-22T07:05:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mit-punkterekord-zadrazil-ist-oesterreichs-fussballerin-des-jahres-1177983/artikel#omrss",
+        "title": "Mit Punkterekord: Zadrazil ist Österreichs Fußballerin des Jahres",
+        "summary": "Zum zweiten Mal ist Sarah Zadrazil zu Österreichs Fußballerin des Jahres gewählt worden. Nach einer fantastischen Saison mit dem FC Bayern ist die Auszeichnung für die aktuell verletzte 128-malige ÖFB-Nationalspielerin der würdige Abschluss des Jahres.",
+        "paragraphs": [
+          "Zum zweiten Mal ist Sarah Zadrazil zu Österreichs Fußballerin des Jahres gewählt worden. Nach einer fantastischen Saison mit dem FC Bayern ist die Auszeichnung für die aktuell verletzte 128-malige ÖFB-Nationalspielerin der würdige Abschluss des Jahres."
+        ],
+        "link": "https://www.kicker.de/mit-punkterekord-zadrazil-ist-oesterreichs-fussballerin-des-jahres-1177983/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-22T06:56:05.000Z"
       },
       {
         "id": "li.3358199",
@@ -535,13 +546,13 @@
         "publishedAt": "2025-12-22T06:14:10.000Z"
       },
       {
-        "id": "https://www.kicker.de/nfl-das-aktuelle-playoff-picture-chiefs-und-cowboys-nicht-mehr-im-rennen-1169024/artikel#omrss",
-        "title": "NFL: Das aktuelle Playoff Picture - Chiefs und Cowboys nicht mehr im Rennen",
-        "summary": "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Während viele Teams auf bestem Wege sind oder zumindest gut auf Kurs liegen, sind andere schon jetzt kurz vor dem Aus - darunter auch mal wieder die Chiefs.",
+        "id": "https://www.kicker.de/nfl-das-aktuelle-playoff-picture-chiefs-und-lions-nicht-mehr-im-rennen-1169024/artikel#omrss",
+        "title": "NFL: Das aktuelle Playoff Picture - Chiefs und Lions nicht mehr im Rennen",
+        "summary": "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Der aktuelle Stand.",
         "paragraphs": [
-          "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Während viele Teams auf bestem Wege sind oder zumindest gut auf Kurs liegen, sind andere schon jetzt kurz vor dem Aus - darunter auch mal wieder die Chiefs."
+          "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Der aktuelle Stand."
         ],
-        "link": "https://www.kicker.de/nfl-das-aktuelle-playoff-picture-chiefs-und-cowboys-nicht-mehr-im-rennen-1169024/artikel#omrss",
+        "link": "https://www.kicker.de/nfl-das-aktuelle-playoff-picture-chiefs-und-lions-nicht-mehr-im-rennen-1169024/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-22T05:51:00.000Z"
       },
@@ -569,7 +580,7 @@
       },
       {
         "id": "https://www.kicker.de/detroit-gegen-pittsburgh-2025-nfl-5040228/spielbericht#omrss",
-        "title": "Verrücktes Drama: Lions verlieren in letzter Sekunde gegen Steelers",
+        "title": "Verrücktes Drama um St. Brown: Lions verlieren in letzter Sekunde gegen Steelers",
         "summary": "In der ersten Halbzeit dominierten die Defensiven die Partie. Erst kurz vor der Pause gelang den Detroit Lions der erste Touchdown, die Pittsburgh Steelers konterten umgehend. Nach der Pause übernahmen die Gäste die Partie und setzten sich ab. Die Lions kämpften sich allerdings zurück und hatten noch die Chance auf den Sieg, allerdings erlaubte sich Amon-Ra St. Brown einen entscheidenden Fehler.",
         "paragraphs": [
           "In der ersten Halbzeit dominierten die Defensiven die Partie. Erst kurz vor der Pause gelang den Detroit Lions der erste Touchdown, die Pittsburgh Steelers konterten umgehend. Nach der Pause übernahmen die Gäste die Partie und setzten sich ab. Die Lions kämpften sich allerdings zurück und hatten noch die Chance auf den Sieg, allerdings erlaubte sich Amon-Ra St. Brown einen entscheidenden Fehler."
@@ -654,20 +665,20 @@
         "link": "https://www.kicker.de/cleveland-gegen-buffalo-2025-nfl-5040218/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-21T21:16:57.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wie-la-liga-ihre-medieneinnahmen-um-102-mio-euro-steigerte-1177892/artikel#omrss",
-        "title": "Wie La Liga ihre Medieneinnahmen um 102 Mio. Euro steigerte",
-        "summary": "Um exakt 102 Millionen Euro pro Jahr konnte La Liga ihre Medienrechte-Einnahmen für den nächsten Zyklus steigern. Javier Tebas sieht zwei Hauptgründe für das Wachstum.",
-        "paragraphs": [
-          "Um exakt 102 Millionen Euro pro Jahr konnte La Liga ihre Medienrechte-Einnahmen für den nächsten Zyklus steigern. Javier Tebas sieht zwei Hauptgründe für das Wachstum."
-        ],
-        "link": "https://www.kicker.de/wie-la-liga-ihre-medieneinnahmen-um-102-mio-euro-steigerte-1177892/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-21T21:16:40.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/tests/GWM-Wey-03-mit-Plug-in-Hybrid-im-Test-Von-allem-reichlich-aber-auch-gut-11080946.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | GWM Wey 03 mit Plug-in-Hybrid im Test: Von allem reichlich, aber auch gut?",
+        "summary": "Knapp 29 kWh netto in einer Traktionsbatterie bietet kaum ein anderer Plug-in-Hybrid. Macht das den GWM Wey 03 automatisch zu einem der besten PHEV?",
+        "paragraphs": [
+          "Knapp 29 kWh netto in einer Traktionsbatterie bietet kaum ein anderer Plug-in-Hybrid. Macht das den GWM Wey 03 automatisch zu einem der besten PHEV?"
+        ],
+        "link": "https://www.heise.de/tests/GWM-Wey-03-mit-Plug-in-Hybrid-im-Test-Von-allem-reichlich-aber-auch-gut-11080946.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2025-12-22T08:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Nick-Clegg-und-Yann-LeCun-Start-up-fuer-Advanced-Machine-Intelligence-11122511.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Nick Clegg und Yann LeCun: Start-up für Advanced Machine Intelligence",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Russland-will-sein-ISS-Modul-fuer-neue-Raumstation-verwenden-11122382.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-21T16:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/bestenlisten/testbericht/mecpow-m1-im-test-guenstiger-laser-cutter-und-engraver-ab-135-euro/pdwtxfm?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Mecpow M1 im Test: Günstiger Laser-Cutter & Engraver",
-        "summary": "Die kompakte Laser-Graviermaschine Mecpow M1 mit 5 Watt Laserleistung verspricht Sicherheit und einfache Bedienung.",
-        "paragraphs": [
-          "Die kompakte Laser-Graviermaschine Mecpow M1 mit 5 Watt Laserleistung verspricht Sicherheit und einfache Bedienung."
-        ],
-        "link": "https://www.heise.de/bestenlisten/testbericht/mecpow-m1-im-test-guenstiger-laser-cutter-und-engraver-ab-135-euro/pdwtxfm?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-21T15:00:00.000Z"
       }
     ]
   }
