@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-22T23:17:21.531Z",
+  "updatedAt": "2025-12-22T23:29:43.201Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:341f18c5-767f-4b81-a5a2-eb7c76d0207b}",
+        "title": "Frankreich: Frankreich will Haushalt mit Notgesetz verlängern",
+        "summary": "Frankreich will den Haushalt ins kommende Jahr verlängern und im Januar einen Kompromiss finden. Zwei Regierungschefs sind an den Verhandlungen bereits gescheitert.",
+        "paragraphs": [
+          "Frankreich will den Haushalt ins kommende Jahr verlängern und im Januar einen Kompromiss finden. Zwei Regierungschefs sind an den Verhandlungen bereits gescheitert."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/frankreich-haushalt-verlaengerung-notgesetz-sebastien-lecornu",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-22T23:22:02.000Z"
+      },
+      {
         "id": "{urn:uuid:2a070cbd-d783-4d70-91d3-c8d211853fb2}",
         "title": "USA: Trump zieht weltweit Diplomaten der Biden-Regierung zurück",
         "summary": "Zahlreiche US-Diplomaten, die während der Amtszeit von Joe Biden berufen wurden, müssen offenbar gehen. Einige Betroffene sollen am Telefon informiert worden sein.",
@@ -432,30 +443,41 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/lettlang-verlaengerung-grenzschutz-belarus",
         "source": "ZEIT",
         "publishedAt": "2025-12-22T16:38:54.000Z"
-      },
-      {
-        "id": "li.3358675",
-        "title": "SZ am Abend: Nachrichten vom 22. Dezember 2025",
-        "summary": "Was heute wichtig war.",
-        "paragraphs": [
-          "Was heute wichtig war."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/news-ukraine-russland-aserbaidschan-prozess-li.3358675",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-22T16:16:56.000Z"
       }
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/aegypten-gegen-simbabwe-2025-afrika-cup-4996083/spielbericht#omrss",
-        "title": "Marmoush und Salah bewahren Ägypten vor Fehlstart",
-        "summary": "Rekordsieger Ägypten ist zum Start des Afrika-Cups 2025 beinahe gestolpert. Doch zwei namhafte Premier-League-Profis haben die stolze Nation noch zum Sieg geführt.",
+        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "title": "Füllkrug schon in Mailand - Leipzig bricht Leihe ab",
+        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
         "paragraphs": [
-          "Rekordsieger Ägypten ist zum Start des Afrika-Cups 2025 beinahe gestolpert. Doch zwei namhafte Premier-League-Profis haben die stolze Nation noch zum Sieg geführt."
+          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
         ],
-        "link": "https://www.kicker.de/aegypten-gegen-simbabwe-2025-afrika-cup-4996083/spielbericht#omrss",
+        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2025-12-22T23:02:05.000Z"
+        "publishedAt": "2025-12-22T23:20:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kein-respekt-fuer-die-conference-league-glasner-kritisiert-die-efl-1178166/artikel#omrss",
+        "title": "Kein Respekt für die Conference League? Glasner kritisiert die EFL",
+        "summary": "Crystal Palace befindet sich zwischen den Jahren im Dauerstress. Vor dem League-Cup-Duell bei Arsenal kritisierte Oliver Glasner nun die English Football League.",
+        "paragraphs": [
+          "Crystal Palace befindet sich zwischen den Jahren im Dauerstress. Vor dem League-Cup-Duell bei Arsenal kritisierte Oliver Glasner nun die English Football League."
+        ],
+        "link": "https://www.kicker.de/kein-respekt-fuer-die-conference-league-glasner-kritisiert-die-efl-1178166/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-22T23:13:28.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nach-fehlstart-marmoush-und-spaeter-salah-entscheidend-fuer-aegypten-1178237/video#omrss",
+        "title": "Nach Fehlstart: Marmoush und später Salah entscheidend für Ägypten",
+        "summary": "Omar Marmoush und ein ganz später Mohamed Salah schießen Ägypten gegen Simbabwe zum Sieg. Nach anfänglichem Rückstand wenden die beiden Premier-League-Stars die Niederlage ab. Die Highlights gibt es hier im Video.",
+        "paragraphs": [
+          "Omar Marmoush und ein ganz später Mohamed Salah schießen Ägypten gegen Simbabwe zum Sieg. Nach anfänglichem Rückstand wenden die beiden Premier-League-Stars die Niederlage ab. Die Highlights gibt es hier im Video."
+        ],
+        "link": "https://www.kicker.de/nach-fehlstart-marmoush-und-spaeter-salah-entscheidend-fuer-aegypten-1178237/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-22T23:03:01.000Z"
       },
       {
         "id": "https://www.spiegel.de/sport/paul-lim-und-david-munyua-die-darts-wm-verliert-ihre-publikumslieblinge-a-cbe9668c-8b85-4194-a80f-e58244113795",
@@ -511,6 +533,17 @@
         "link": "https://www.kicker.de/humphries-problemlos-gegen-oldie-lim-weiter-clemens-wartet-in-runde-3-1178198/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-22T22:15:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kein-arrowhead-mehr-kansas-city-chiefs-schaffen-klarheit-in-stadion-frage-1178226/artikel#omrss",
+        "title": "Kein Arrowhead mehr: Kansas City Chiefs schaffen Klarheit in Stadion-Frage",
+        "summary": "Die Kansas City Chiefs haben eine Lösung bei ihrer Stadion-Frage gefunden. Das Team aus Missouri wird ab 2031 in ein neues, überdachtes Stadion wechseln und verabschiedet sich damit vom legendären Arrowhead Stadium - ihrem lautstarken sowie in die Jahre gekommenen Tempel.",
+        "paragraphs": [
+          "Die Kansas City Chiefs haben eine Lösung bei ihrer Stadion-Frage gefunden. Das Team aus Missouri wird ab 2031 in ein neues, überdachtes Stadion wechseln und verabschiedet sich damit vom legendären Arrowhead Stadium - ihrem lautstarken sowie in die Jahre gekommenen Tempel."
+        ],
+        "link": "https://www.kicker.de/kein-arrowhead-mehr-kansas-city-chiefs-schaffen-klarheit-in-stadion-frage-1178226/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-22T22:00:00.000Z"
       },
       {
         "id": "https://www.kicker.de/eine-frechheit-nur-einen-elfmeter-hinterfragt-paetzold-nicht-1178204/artikel#omrss",
@@ -632,39 +665,6 @@
         "link": "https://www.kicker.de/op-erfolgreich-ueberstanden-wie-geht-s-jetzt-weiter-mit-neymar-1178187/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-22T18:30:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/double-trouble-bei-nijman-clemens-ueberraschend-klarer-sieg-im-video-1178192/video#omrss",
-        "title": "Double-Trouble bei Nijman: Clemens' überraschend klarer Sieg im Video",
-        "summary": "Am Nachmittag des zwölften Tages gab es aus deutscher Sicht gute Nachrichten: Gabriel \"Gaga\" Clemens zog souverän gegen Wessel Nijman in die 3. Runde der Darts-WM ein. Ricky Evans hatte sich zudem gegen James Wade behauptet, während Kevin Doets deutlich gegen David Munyua gewann. Die Highlights gibt es hier im Video.",
-        "paragraphs": [
-          "Am Nachmittag des zwölften Tages gab es aus deutscher Sicht gute Nachrichten: Gabriel \"Gaga\" Clemens zog souverän gegen Wessel Nijman in die 3. Runde der Darts-WM ein. Ricky Evans hatte sich zudem gegen James Wade behauptet, während Kevin Doets deutlich gegen David Munyua gewann. Die Highlights gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/double-trouble-bei-nijman-clemens-ueberraschend-klarer-sieg-im-video-1178192/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-22T18:26:59.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nicht-zu-akzeptierende-forderungen-milan-gegen-como-nicht-in-perth-1178180/artikel#omrss",
-        "title": "\"Nicht zu akzeptierende Forderungen\": Milan gegen Como nicht in Perth",
-        "summary": "Das Duell zwischen der AC Mailand und Como in Perth sollte der Serie A einen Vermarktungsschub bringen. Doch die Pläne sind endgültig gescheitert. Nun muss ein neuer Spielort her.",
-        "paragraphs": [
-          "Das Duell zwischen der AC Mailand und Como in Perth sollte der Serie A einen Vermarktungsschub bringen. Doch die Pläne sind endgültig gescheitert. Nun muss ein neuer Spielort her."
-        ],
-        "link": "https://www.kicker.de/nicht-zu-akzeptierende-forderungen-milan-gegen-como-nicht-in-perth-1178180/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-22T18:05:38.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vom-pechvogel-zum-torjaeger-terriers-spaetes-comeback-und-ein-hohes-ziel-1177661/artikel#omrss",
-        "title": "Vom Pechvogel zum Torjäger: Terriers spätes Comeback und ein hohes Ziel",
-        "summary": "Nach langer Leidenszeit hat sich Martin Terrier in Leipzig mit seinem zweiten Treffer in den jüngsten zwei Partien als Torjäger zurückgemeldet. Für den 28-Jährigen auch mental ein wichtiger Schub, zumal er noch ein sehr ambitioniertes Ziel verfolgt.",
-        "paragraphs": [
-          "Nach langer Leidenszeit hat sich Martin Terrier in Leipzig mit seinem zweiten Treffer in den jüngsten zwei Partien als Torjäger zurückgemeldet. Für den 28-Jährigen auch mental ein wichtiger Schub, zumal er noch ein sehr ambitioniertes Ziel verfolgt."
-        ],
-        "link": "https://www.kicker.de/vom-pechvogel-zum-torjaeger-terriers-spaetes-comeback-und-ein-hohes-ziel-1177661/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-22T17:00:00.000Z"
       }
     ],
     "edv": [
