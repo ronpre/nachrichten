@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-22T23:05:20.112Z",
+  "updatedAt": "2025-12-22T23:17:21.531Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:2a070cbd-d783-4d70-91d3-c8d211853fb2}",
+        "title": "USA: Trump zieht weltweit Diplomaten der Biden-Regierung zurück",
+        "summary": "Zahlreiche US-Diplomaten, die während der Amtszeit von Joe Biden berufen wurden, müssen offenbar gehen. Einige Betroffene sollen am Telefon informiert worden sein.",
+        "paragraphs": [
+          "Zahlreiche US-Diplomaten, die während der Amtszeit von Joe Biden berufen wurden, müssen offenbar gehen. Einige Betroffene sollen am Telefon informiert worden sein."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-donald-trump-abzug-diplomaten-weltweit-biden-regierung",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-22T23:08:02.000Z"
+      },
+      {
         "id": "li.3352720",
         "title": "USA: Trump ruft offenbar Dutzende Diplomaten der Biden-Zeit zurück",
         "summary": "Die US-Regierung will, dass Diplomaten im Ausland nach der Devise „Amerika zuerst!“ handeln. Die Diplomaten aus der Biden-Zeit werden Berichten zufolge abrupt zurückgerufen.",
@@ -432,20 +443,20 @@
         "link": "https://www.sueddeutsche.de/politik/news-ukraine-russland-aserbaidschan-prozess-li.3358675",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-22T16:16:56.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-afd-will-ex-generalsekretaer-schmidt-rauswerfen-a-08d67f5e-d722-4031-9965-196cbadfbbd1",
-        "title": "Sachsen-Anhalt: AfD will Ex-Generalsekretär Schmidt rauswerfen",
-        "summary": "Sachsen-Anhalts AfD-Landesverband hat ein Parteiausschlussverfahren gegen den früheren Generalsekretär Jan Wenzel Schmidt auf den Weg gebracht. Beide Lager werfen einander Korruption vor.",
-        "paragraphs": [
-          "Sachsen-Anhalts AfD-Landesverband hat ein Parteiausschlussverfahren gegen den früheren Generalsekretär Jan Wenzel Schmidt auf den Weg gebracht. Beide Lager werfen einander Korruption vor."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-afd-will-ex-generalsekretaer-schmidt-rauswerfen-a-08d67f5e-d722-4031-9965-196cbadfbbd1#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-22T16:14:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/aegypten-gegen-simbabwe-2025-afrika-cup-4996083/spielbericht#omrss",
+        "title": "Marmoush und Salah bewahren Ägypten vor Fehlstart",
+        "summary": "Rekordsieger Ägypten ist zum Start des Afrika-Cups 2025 beinahe gestolpert. Doch zwei namhafte Premier-League-Profis haben die stolze Nation noch zum Sieg geführt.",
+        "paragraphs": [
+          "Rekordsieger Ägypten ist zum Start des Afrika-Cups 2025 beinahe gestolpert. Doch zwei namhafte Premier-League-Profis haben die stolze Nation noch zum Sieg geführt."
+        ],
+        "link": "https://www.kicker.de/aegypten-gegen-simbabwe-2025-afrika-cup-4996083/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-22T23:02:05.000Z"
+      },
       {
         "id": "https://www.spiegel.de/sport/paul-lim-und-david-munyua-die-darts-wm-verliert-ihre-publikumslieblinge-a-cbe9668c-8b85-4194-a80f-e58244113795",
         "title": "Paul Lim und David Munyua: Die Darts-WM verliert ihre Publikumslieblinge",
@@ -456,6 +467,17 @@
         "link": "https://www.spiegel.de/sport/paul-lim-und-david-munyua-die-darts-wm-verliert-ihre-publikumslieblinge-a-cbe9668c-8b85-4194-a80f-e58244113795#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-22T22:58:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nach-schlag-gegen-fan-nfl-sperrt-metcalf-1178233/artikel#omrss",
+        "title": "Nach Schlag gegen Fan: NFL sperrt Metcalf",
+        "summary": "Die Pittsburgh Steelers müssen vorübergehend auf D.K. Metcalf verzichten. Der oft mit hitzigem Gemüt auffallende Wide Receiver wird von der NFL für seinen Schlag gegen einen Fan hart bestraft. Derweil gibt es zwei verschiedene Versionen, was dort passiert sein soll.",
+        "paragraphs": [
+          "Die Pittsburgh Steelers müssen vorübergehend auf D.K. Metcalf verzichten. Der oft mit hitzigem Gemüt auffallende Wide Receiver wird von der NFL für seinen Schlag gegen einen Fan hart bestraft. Derweil gibt es zwei verschiedene Versionen, was dort passiert sein soll."
+        ],
+        "link": "https://www.kicker.de/nach-schlag-gegen-fan-nfl-sperrt-metcalf-1178233/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-22T22:45:00.000Z"
       },
       {
         "id": "https://www.kicker.de/traenen-vor-der-kurve-verlaesst-schueller-den-fc-bayern-im-winter-1178222/artikel#omrss",
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/vom-pechvogel-zum-torjaeger-terriers-spaetes-comeback-und-ein-hohes-ziel-1177661/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-22T17:00:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/basketball/basketball-bayern-muenchen-der-alte-svetislav-pesic-macht-es-noch-einmal-bei-den-bayern-a-3d8b2b96-752d-4640-8874-4fbb7109add9",
-        "title": "Basketball Bayern München: Der alte Svetislav Pešić macht es noch einmal bei den Bayern",
-        "summary": "76 Jahre ist er mittlerweile alt, aber Svetislav Pešić sucht immer noch die Herausforderung. Jetzt soll der Basketball-Routinier Bayern München als Trainer aus der Krise führen.",
-        "paragraphs": [
-          "76 Jahre ist er mittlerweile alt, aber Svetislav Pešić sucht immer noch die Herausforderung. Jetzt soll der Basketball-Routinier Bayern München als Trainer aus der Krise führen."
-        ],
-        "link": "https://www.spiegel.de/sport/basketball/basketball-bayern-muenchen-der-alte-svetislav-pesic-macht-es-noch-einmal-bei-den-bayern-a-3d8b2b96-752d-4640-8874-4fbb7109add9#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-22T16:57:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/die-eine-unwaegbarkeit-in-bayerns-transfer-winter-1178154/artikel#omrss",
-        "title": "Die eine Unwägbarkeit in Bayerns Transfer-Winter",
-        "summary": "Nachrüsten muss und will der FC Bayern auf dem Transfermarkt nicht, im Gegenteil. Aber: Passiert auch etwas?",
-        "paragraphs": [
-          "Nachrüsten muss und will der FC Bayern auf dem Transfermarkt nicht, im Gegenteil. Aber: Passiert auch etwas?"
-        ],
-        "link": "https://www.kicker.de/die-eine-unwaegbarkeit-in-bayerns-transfer-winter-1178154/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-22T16:55:00.000Z"
       }
     ],
     "edv": [
