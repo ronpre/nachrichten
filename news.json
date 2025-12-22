@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-22T18:43:59.787Z",
+  "updatedAt": "2025-12-22T18:57:03.789Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/mdax-konzern-gerresheimer-hat-umsaetze-falsch-verbucht/100186178.html",
+        "title": "MDax-Konzern: Gerresheimer hat Umsätze falsch verbucht",
+        "summary": "Die Finanzaufsicht Bafin ermittelte bei dem Düsseldorfer Verpackungskonzern. Nun stellte sich heraus, dass Gerresheimer jahrelang einen Fehler gemacht hat.",
+        "paragraphs": [
+          "Die Finanzaufsicht Bafin ermittelte bei dem Düsseldorfer Verpackungskonzern. Nun stellte sich heraus, dass Gerresheimer jahrelang einen Fehler gemacht hat."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/mdax-konzern-gerresheimer-hat-umsaetze-falsch-verbucht/100186178.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-22T18:52:06.000Z"
+      },
       {
         "id": "{urn:uuid:ee1b7e72-f297-49ed-9a0f-9944b8134532}",
         "title": "Dieselskandal: Mercedes-Benz einigt sich mit US-Staaten auf Zahlung im Dieselskandal",
@@ -26,7 +37,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/wirtschaft-europas-niedergang-der-mythos-vom-abgehaengten-kontinent/100181774.html",
-        "title": "Wirtschaft im Faktencheck: Europas Niedergang? Der Mythos vom abgehängten Kontinent",
+        "title": "Wirtschaftskraft: Amerika boomt, Europa verliert den Anschluss – oder doch nicht? Ein Faktencheck",
         "summary": "Die USA ziehen Europas Wirtschaft davon, heißt es oft. Doch stimmt das? Ein Blick auf das mittlere Einkommen und die Lebenserwartung zeichnet ein anderes Bild.",
         "paragraphs": [
           "Die USA ziehen Europas Wirtschaft davon, heißt es oft. Doch stimmt das? Ein Blick auf das mittlere Einkommen und die Lebenserwartung zeichnet ein anderes Bild."
@@ -210,30 +221,19 @@
         "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-anleger-geben-die-hoffnung-auf-eine-weihnachtsrally-an-der-boerse-auf/100185980.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-22T14:22:35.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-deutsche-bank-schickt-privatkunden-manager-in-fuehrungsgremium-02/100185826.html",
-        "title": "Banken: Exklusiv: Deutsche Bank schickt Privatkunden-Manager in Führungsgremium",
-        "summary": "Mit dem Schritt stärkt das Institut sein Privatkundengeschäft. Innerhalb der Sparte sorgt der Schritt aber für Fragen, denn nur einer von zwei deutschen Top-Managern kommt zum Zug.",
-        "paragraphs": [
-          "Mit dem Schritt stärkt das Institut sein Privatkundengeschäft. Innerhalb der Sparte sorgt der Schritt aber für Fragen, denn nur einer von zwei deutschen Top-Managern kommt zum Zug."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-deutsche-bank-schickt-privatkunden-manager-in-fuehrungsgremium-02/100185826.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-22T14:20:00.000Z"
       }
     ],
     "politik": [
       {
         "id": "{urn:uuid:662c5ab7-875b-4cc5-af88-eb7357c377f1}",
         "title": "Korruptionsvorwürfe: AfD in Sachsen-Anhalt will Jan Wenzel Schmidt ausschließen",
-        "summary": "Sachsen-Anhalts AfD-Landesverband hat ein Parteiausschlussverfahren gegen seinen früheren Generalsekretär Schmidt angestoßen. Beide Seiten werfen sich Korruption vor.",
+        "summary": "Sachsen-Anhalts AfD-Landesverband hat ein Parteiausschlussverfahren gegen seinen früheren Generalsekretär Schmidt angestoßen. Beide Seiten werfen einander Korruption vor.",
         "paragraphs": [
-          "Sachsen-Anhalts AfD-Landesverband hat ein Parteiausschlussverfahren gegen seinen früheren Generalsekretär Schmidt angestoßen. Beide Seiten werfen sich Korruption vor."
+          "Sachsen-Anhalts AfD-Landesverband hat ein Parteiausschlussverfahren gegen seinen früheren Generalsekretär Schmidt angestoßen. Beide Seiten werfen einander Korruption vor."
         ],
         "link": "https://www.zeit.de/politik/deutschland/2025-12/afd-sachsen-anhalt-jan-wenzel-schmidt-partei-auschluss-verfahren",
         "source": "ZEIT",
-        "publishedAt": "2025-12-22T18:27:12.000Z"
+        "publishedAt": "2025-12-22T18:42:05.000Z"
       },
       {
         "id": "{urn:uuid:9e6c8add-fca6-4dab-9c01-32ca8130e3ca}",
@@ -259,7 +259,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/wirtschaft-europas-niedergang-der-mythos-vom-abgehaengten-kontinent/100181774.html",
-        "title": "Wirtschaft im Faktencheck: Europas Niedergang? Der Mythos vom abgehängten Kontinent",
+        "title": "Wirtschaftskraft: Amerika boomt, Europa verliert den Anschluss – oder doch nicht? Ein Faktencheck",
         "summary": "Die USA ziehen Europas Wirtschaft davon, heißt es oft. Doch stimmt das? Ein Blick auf das mittlere Einkommen und die Lebenserwartung zeichnet ein anderes Bild.",
         "paragraphs": [
           "Die USA ziehen Europas Wirtschaft davon, heißt es oft. Doch stimmt das? Ein Blick auf das mittlere Einkommen und die Lebenserwartung zeichnet ein anderes Bild."
@@ -448,14 +448,25 @@
     "sport": [
       {
         "id": "https://www.kicker.de/leverkusen-gegen-bayern-2025-frauen-bundesliga-5076292/spielbericht#omrss",
-        "title": "LIVE! Strittiger Elfmeter: Tanikawa erhöht vom Punkt",
+        "title": "LIVE! Dritter Elfmeter: Vorentscheidung in Leverkusen",
         "summary": "In bislang 13 Bundesliga-Spielen ging der FC Bayern München zwölfmal als Sieger vom Platz, einmal teilte der amtierende Doublesieger die Punkte. Beim Siebten Bayer Leverkusen wollen die Münchnerinnen nun zum Jahresabschluss zum Auftakt der Rückrunde ihre Ungeschlagen-Serie fortsetzen.",
         "paragraphs": [
           "In bislang 13 Bundesliga-Spielen ging der FC Bayern München zwölfmal als Sieger vom Platz, einmal teilte der amtierende Doublesieger die Punkte. Beim Siebten Bayer Leverkusen wollen die Münchnerinnen nun zum Jahresabschluss zum Auftakt der Rückrunde ihre Ungeschlagen-Serie fortsetzen."
         ],
         "link": "https://www.kicker.de/leverkusen-gegen-bayern-2025-frauen-bundesliga-5076292/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2025-12-22T18:38:18.000Z"
+        "publishedAt": "2025-12-22T18:48:36.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/neapel-gegen-bologna-2025-supercoppa-5176137/spielbericht#omrss",
+        "title": "LIVE! Meister gegen Pokalsieger: Wer gewinnt die Supercoppa Italiana?",
+        "summary": "In der saudi-arabischen Hauptstadt Riad, genauer gesagt im hiesigen Al-Awwal Park, spielen am heutigen Montagabend die SSC Neapel und der FC Bologna um den italienischen Supercup. Anstoß zwischen dem amtierenden Meister und dem aktuellen Pokalsieger ist um 20 Uhr (Ortszeit 22 Uhr).",
+        "paragraphs": [
+          "In der saudi-arabischen Hauptstadt Riad, genauer gesagt im hiesigen Al-Awwal Park, spielen am heutigen Montagabend die SSC Neapel und der FC Bologna um den italienischen Supercup. Anstoß zwischen dem amtierenden Meister und dem aktuellen Pokalsieger ist um 20 Uhr (Ortszeit 22 Uhr)."
+        ],
+        "link": "https://www.kicker.de/neapel-gegen-bologna-2025-supercoppa-5176137/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-22T18:30:00.000Z"
       },
       {
         "id": "https://www.kicker.de/op-erfolgreich-ueberstanden-wie-geht-s-jetzt-weiter-mit-neymar-1178187/artikel#omrss",
@@ -650,17 +661,6 @@
         "link": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-22T15:21:21.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/darts-wm-gabriel-clemens-erreicht-durch-sieg-ueber-wessel-nijman-die-dritte-runde-a-9f12db5d-dadd-4e8d-ac47-530248f923c9",
-        "title": "Darts-WM: Gabriel Clemens erreicht durch Sieg über Wessel Nijman die dritte Runde",
-        "summary": "»Das war gut von mir«: Gabriel Clemens hat in diesem Jahr noch nicht viel jubeln können. Aber bei der Darts-WM erreicht er Runde drei. Nun kann er auf einen Topfavoriten treffen.",
-        "paragraphs": [
-          "»Das war gut von mir«: Gabriel Clemens hat in diesem Jahr noch nicht viel jubeln können. Aber bei der Darts-WM erreicht er Runde drei. Nun kann er auf einen Topfavoriten treffen."
-        ],
-        "link": "https://www.spiegel.de/sport/darts-wm-gabriel-clemens-erreicht-durch-sieg-ueber-wessel-nijman-die-dritte-runde-a-9f12db5d-dadd-4e8d-ac47-530248f923c9#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-22T15:20:00.000Z"
       }
     ],
     "edv": [
