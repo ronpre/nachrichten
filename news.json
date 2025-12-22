@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2025-12-22T15:32:23.129Z",
+  "updatedAt": "2025-12-22T15:45:51.721Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:809e1998-5586-4bdd-9f89-ea3ce9670d4e}",
+        "title": "Giftd: Schrankleichen",
+        "summary": "Ein Start-up verschenkt, wofür niemand Geld ausgeben will. Und will damit Rendite machen. Wie soll das funktionieren?",
+        "paragraphs": [
+          "Ein Start-up verschenkt, wofür niemand Geld ausgeben will. Und will damit Rendite machen. Wie soll das funktionieren?"
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/giftd-schrankleichen",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-22T15:42:27.000Z"
+      },
+      {
+        "id": "li.3358373",
+        "title": "Nettogehalt: Die Deutschen verdienen mehr Einkommen",
+        "summary": "Die 2020er waren für viele Beschäftigte finanziell bislang verlorene Jahre. Die Bundesregierung sollte mit einer großen Steuerreform gegensteuern – das Geld dafür wäre da.",
+        "paragraphs": [
+          "Die 2020er waren für viele Beschäftigte finanziell bislang verlorene Jahre. Die Bundesregierung sollte mit einer großen Steuerreform gegensteuern – das Geld dafür wäre da."
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/einkommen-deutschland-steuer-nettogehalt-datev-afd-merz-inflation-li.3358373",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-22T15:27:33.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/nahost-netanjahu-blockiert-unabhaengige-untersuchung-zum-7-oktober/100136895.html",
         "title": "+++ Nahost +++: Witkoff sieht Fortschritte bei erster Phase von Gaza-Friedensplan",
@@ -199,31 +221,20 @@
         "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-buffett-schafft-es-den-markt-langfristig-outzuperformen/100105520.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-22T13:15:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/handel-eu-zieht-mindestpreise-fuer-chinesische-e-autos-alternativ-zu-zoellen-in-betracht/100186096.html",
-        "title": "Handel: EU zieht Mindestpreise für chinesische E-Autos alternativ zu Zöllen in Betracht",
-        "summary": "Die EU-Kommission erwägt Preisuntergrenzen für chinesische Elektroautos statt Zöllen. Auch deutsche Hersteller würden die Folgen der Entscheidung spüren.",
-        "paragraphs": [
-          "Die EU-Kommission erwägt Preisuntergrenzen für chinesische Elektroautos statt Zöllen. Auch deutsche Hersteller würden die Folgen der Entscheidung spüren."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/handel-eu-zieht-mindestpreise-fuer-chinesische-e-autos-alternativ-zu-zoellen-in-betracht/100186096.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-22T13:06:32.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/patagonia-warum-so-viele-investmentbanker-outdoor-westen-tragen/100120898.html",
-        "title": "Patagonia: Warum tragen so viele Investmentbanker Outdoor-Westen?",
-        "summary": "Patagonia steht für Umweltschutz und Outdoor, Investmentbanker für schnelles Geld und Büro. Trotzdem tragen sie die Westen wie eine Uniform. Wie kann das sein?",
-        "paragraphs": [
-          "Patagonia steht für Umweltschutz und Outdoor, Investmentbanker für schnelles Geld und Büro. Trotzdem tragen sie die Westen wie eine Uniform. Wie kann das sein?"
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/patagonia-warum-so-viele-investmentbanker-outdoor-westen-tragen/100120898.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-22T13:04:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:cb58032c-699d-473a-8e44-a5ff59aed1bf}",
+        "title": "Sozialdemokraten: SPD-Mitgliederbegehren gegen Bürgergeldreform nimmt erste Hürde",
+        "summary": "In der SPD gibt es Kritiker, die gegen verschärfte Sanktionen beim Bürgergeld sind. Für ein entsprechendes Mitgliederbegehren sind genügend Unterschriften vorhanden.",
+        "paragraphs": [
+          "In der SPD gibt es Kritiker, die gegen verschärfte Sanktionen beim Bürgergeld sind. Für ein entsprechendes Mitgliederbegehren sind genügend Unterschriften vorhanden."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/spd-genuegend-unterschriften-mitgliederbegehren-buergergeld",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-22T15:26:16.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/nahost-netanjahu-blockiert-unabhaengige-untersuchung-zum-7-oktober/100136895.html",
         "title": "+++ Nahost +++: Witkoff sieht Fortschritte bei erster Phase von Gaza-Friedensplan",
@@ -424,20 +435,20 @@
         "link": "https://www.sueddeutsche.de/politik/sydney-attentat-albanese-islamismus-li.3358302",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-22T13:03:51.000Z"
-      },
-      {
-        "id": "li.3353679",
-        "title": "Modellprojekt am Gymnasium: Nächste Stunde: KI",
-        "summary": "An einem Gymnasium in Rheinland-Pfalz steht „Künstliche Intelligenz“ als Fach im Stundenplan. Ist das vorschnell – oder überfällig? Ein Besuch in der 8a.",
-        "paragraphs": [
-          "An einem Gymnasium in Rheinland-Pfalz steht „Künstliche Intelligenz“ als Fach im Stundenplan. Ist das vorschnell – oder überfällig? Ein Besuch in der 8a."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/schule-kuenstliche-intelligenz-digitalisierung-li.3353679",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-22T12:57:45.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "li.3358409",
+        "title": "Fürth-Trainer Heiko Vogel: Auf der Suche nach der alten Identität",
+        "summary": "13 Jahre lang arbeitete Fußballtrainer Heiko Vogel beim FC Bayern, mit Basel gewann er einst das Double, zuletzt war er zwei Jahre lang vereinslos. Nun hat er den abstiegsbedrohten Zweitligisten Greuther Fürth übernommen, der sich selbst verloren hat.",
+        "paragraphs": [
+          "13 Jahre lang arbeitete Fußballtrainer Heiko Vogel beim FC Bayern, mit Basel gewann er einst das Double, zuletzt war er zwei Jahre lang vereinslos. Nun hat er den abstiegsbedrohten Zweitligisten Greuther Fürth übernommen, der sich selbst verloren hat."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/bundesliga-zweite-liga-li.3358409",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-22T15:37:05.000Z"
+      },
       {
         "id": "https://www.kicker.de/erster-winter-neuzugang-ingolstadt-holt-antzoulas-aus-helsinki-1178145/artikel#omrss",
         "title": "Erster Winter-Neuzugang: Ingolstadt holt Antzoulas aus Helsinki",
@@ -646,17 +657,6 @@
         "link": "https://www.spiegel.de/sport/fussball/manchester-city-guardiola-kontrolliert-spielergewicht-nach-feiertagen-a-12f6c100-084c-4ca8-96e0-d42f4e7fbc3d#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-22T13:30:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/darts-wm-rob-cross-spricht-ueber-mentale-probleme-und-medikamentenverzicht-a-4f4b5d9f-6694-4c2c-84ba-bd132c9bada4",
-        "title": "Darts-WM: Rob Cross spricht über mentale Probleme und Medikamentenverzicht",
-        "summary": "2018 ist Rob Cross überraschend Darts-Weltmeister geworden. Bei der diesjährigen WM steht er in der dritten Runde. Schon lange nahm er Medikamente wegen seiner mentalen Probleme – bis jetzt.",
-        "paragraphs": [
-          "2018 ist Rob Cross überraschend Darts-Weltmeister geworden. Bei der diesjährigen WM steht er in der dritten Runde. Schon lange nahm er Medikamente wegen seiner mentalen Probleme – bis jetzt."
-        ],
-        "link": "https://www.spiegel.de/sport/darts-wm-rob-cross-spricht-ueber-mentale-probleme-und-medikamentenverzicht-a-4f4b5d9f-6694-4c2c-84ba-bd132c9bada4#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-22T13:20:00.000Z"
       }
     ],
     "edv": [
@@ -673,7 +673,7 @@
       },
       {
         "id": "https://www.heise.de/news/Tech-Milliardaer-Ellison-garantiert-Teil-des-Warner-Gebots-11123223.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Tech-Milliardär Ellison garantiert Teil des Warner-Gebots",
+        "title": "Übernahmeangebot: Tech-Milliardär Ellison garantiert Teil des Warner-Gebots",
         "summary": "Das Hollywood-Urgestein Warner Brothers ließ die Familie des Tech-Milliardärs Larry Ellison mit einem Übernahmeangebot abblitzen. Ellison bessert nun nach.",
         "paragraphs": [
           "Das Hollywood-Urgestein Warner Brothers ließ die Familie des Tech-Milliardärs Larry Ellison mit einem Übernahmeangebot abblitzen. Ellison bessert nun nach."
