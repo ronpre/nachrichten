@@ -1,10 +1,21 @@
 {
-  "updatedAt": "2025-12-23T10:07:04.177Z",
+  "updatedAt": "2025-12-23T10:20:14.989Z",
   "categories": {
     "wirtschaft": [
       {
+        "id": "li.3359018",
+        "title": "Automobilindustrie: ZF verkauft Geschäft mit Fahrerassistenzsystemen an Samsung-Tochter",
+        "summary": "Der Autozulieferer veräußert die Sparte mit Rechnern, Kameras, Radartechnologie und Fahrerassistenz-Software an Harman. Mit dem Geld sollen Schulden abgebaut werden.",
+        "paragraphs": [
+          "Der Autozulieferer veräußert die Sparte mit Rechnern, Kameras, Radartechnologie und Fahrerassistenz-Software an Harman. Mit dem Geld sollen Schulden abgebaut werden."
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/zf-fahrerassistenzsysteme-harman-li.3359018",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-23T10:07:57.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/wirtschaft/service/von-rente-bis-deutschlandticket-das-aendert-sich-2026-fuer-sie-a-cbdd53ee-f081-43db-9f1d-3df9e35aecae",
-        "title": "Von Rente bis Deutschlandticket: Das ändert sich 2026 für Sie",
+        "title": "Von Rente bis Deutschlandticket – das ändert sich 2026 für Sie",
         "summary": "Das neue Jahr bringt zahlreiche neue Regeln. Dieser Überblick zeigt Ihnen die wichtigsten Anpassungen: Wer profitiert und wer mehr bezahlen muss.",
         "paragraphs": [
           "Das neue Jahr bringt zahlreiche neue Regeln. Dieser Überblick zeigt Ihnen die wichtigsten Anpassungen: Wer profitiert und wer mehr bezahlen muss."
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/studie-wie-sich-das-bevoelkerungswachstum-in-deutschland-entwickelt/100186031.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-23T08:51:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-miete-an-inflation-koppeln-vier-fakten-zur-indexmiete/100184275.html",
-        "title": "Immobilien: Miete an die Inflation koppeln: Das sollten Vermieter zur Indexmiete wissen",
-        "summary": "Indexmieten sind in Deutschland vor allem in Großstädten und dort in Neubauten verbreitet. Für Vermieter eine Gelegenheit, Mietpreisbremsen zu umgehen – aber mit hohen rechtlichen Hürden.",
-        "paragraphs": [
-          "Indexmieten sind in Deutschland vor allem in Großstädten und dort in Neubauten verbreitet. Für Vermieter eine Gelegenheit, Mietpreisbremsen zu umgehen – aber mit hohen rechtlichen Hürden."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-miete-an-inflation-koppeln-vier-fakten-zur-indexmiete/100184275.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-23T08:48:50.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:10739c26-2fd1-4be4-951e-78188326e814}",
+        "title": "Epstein-Files: Trump beklagt Rufschädigung von \"Unbeteiligten\" durch Epstein-Files",
+        "summary": "Der US-Präsident hat seine Attacken auf Gegner nach den Epstein-Files auffällig zurückgehalten. Er beklagt, unbeteiligte Menschen würden geschädigt – auch Bill Clinton.",
+        "paragraphs": [
+          "Der US-Präsident hat seine Attacken auf Gegner nach den Epstein-Files auffällig zurückgehalten. Er beklagt, unbeteiligte Menschen würden geschädigt – auch Bill Clinton."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/donald-trump-usa-praesident-epstein-dokumente-clinton-rufschaedigung-gxe",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-23T10:02:37.000Z"
+      },
       {
         "id": "{urn:uuid:812b5585-6398-48f9-82fe-6b5ffd90a1c1}",
         "title": "Saskia Esken: \"Angela Merkel und ich haben eine Menge Dinge zu besprechen\"",
@@ -388,17 +399,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/energie-wasserstoff-netzausbau-geht-voran/100185801.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-23T08:02:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:10739c26-2fd1-4be4-951e-78188326e814}",
-        "title": "Epstein-Files: Trump beklagt Rufschädigung von \"Unbeteiligten\" durch Epstein-Files",
-        "summary": "Der US-Präsident hat seine Attacken auf Gegner nach den Epstein-Files auffällig zurückgehalten. Er beklagt, unbeteiligte Menschen würden geschädigt – auch Bill Clinton.",
-        "paragraphs": [
-          "Der US-Präsident hat seine Attacken auf Gegner nach den Epstein-Files auffällig zurückgehalten. Er beklagt, unbeteiligte Menschen würden geschädigt – auch Bill Clinton."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/donald-trump-usa-praesident-epstein-dokumente-clinton-rufschaedigung-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-23T07:54:19.000Z"
       },
       {
         "id": "li.3358851",
@@ -601,13 +601,13 @@
         "publishedAt": "2025-12-23T07:44:17.000Z"
       },
       {
-        "id": "https://www.spiegel.de/sport/cricket-duell-the-ashes-england-diskutiert-ueber-trinkgewohnheiten-der-spieler-a-f3e68e19-23dc-490e-9c53-f84dac7ecfed",
-        "title": "Cricket-Duell The Ashes: England diskutiert über Trinkgewohnheiten der Spieler",
+        "id": "https://www.spiegel.de/sport/cricket-duell-the-ashes-england-verliert-haben-die-spieler-zu-tief-ins-glas-geschaut-a-f3e68e19-23dc-490e-9c53-f84dac7ecfed",
+        "title": "Cricket-Duell »The Ashes«: England verliert – haben die Spieler zu tief ins Glas geschaut?",
         "summary": "Der Cricketwettbewerb »The Ashes« gehört in England zu den Sportklassikern. Die Duelle mit Australien werden in diesem Jahr aber von einer Debatte überschattet: Haben die Engländer zu tief ins Glas geschaut?",
         "paragraphs": [
           "Der Cricketwettbewerb »The Ashes« gehört in England zu den Sportklassikern. Die Duelle mit Australien werden in diesem Jahr aber von einer Debatte überschattet: Haben die Engländer zu tief ins Glas geschaut?"
         ],
-        "link": "https://www.spiegel.de/sport/cricket-duell-the-ashes-england-diskutiert-ueber-trinkgewohnheiten-der-spieler-a-f3e68e19-23dc-490e-9c53-f84dac7ecfed#ref=rss",
+        "link": "https://www.spiegel.de/sport/cricket-duell-the-ashes-england-verliert-haben-die-spieler-zu-tief-ins-glas-geschaut-a-f3e68e19-23dc-490e-9c53-f84dac7ecfed#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-23T06:59:00.000Z"
       },
@@ -623,13 +623,13 @@
         "publishedAt": "2025-12-23T06:22:18.000Z"
       },
       {
-        "id": "https://www.spiegel.de/sport/american-football/nfl-team-aus-missouri-die-kansas-city-chiefs-ziehen-um-nach-kansas-a-ac569614-9f2c-45ec-8a2e-c0ca58ca44b8",
-        "title": "NFL-Team aus Missouri: Die Kansas City Chiefs ziehen um – nach Kansas",
+        "id": "https://www.spiegel.de/sport/american-football/nfl-die-kansas-city-chiefs-ziehen-von-missouri-nach-kansas-um-a-ac569614-9f2c-45ec-8a2e-c0ca58ca44b8",
+        "title": "NFL: Die Kansas City Chiefs ziehen von Missouri nach Kansas um",
         "summary": "Die Kansas City Chiefs suchen sich eine neue Heimat und verlassen ihren Spielort in Missouri. Der Klub hat einen Umzug in den Nachbarstaat Kansas beschlossen.",
         "paragraphs": [
           "Die Kansas City Chiefs suchen sich eine neue Heimat und verlassen ihren Spielort in Missouri. Der Klub hat einen Umzug in den Nachbarstaat Kansas beschlossen."
         ],
-        "link": "https://www.spiegel.de/sport/american-football/nfl-team-aus-missouri-die-kansas-city-chiefs-ziehen-um-nach-kansas-a-ac569614-9f2c-45ec-8a2e-c0ca58ca44b8#ref=rss",
+        "link": "https://www.spiegel.de/sport/american-football/nfl-die-kansas-city-chiefs-ziehen-von-missouri-nach-kansas-um-a-ac569614-9f2c-45ec-8a2e-c0ca58ca44b8#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-23T06:21:00.000Z"
       },
@@ -668,6 +668,28 @@
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Darknet-Diaries-Deutsch-Hacker-im-Staatsdienst-11099816.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "\"Darknet Diaries Deutsch\": Hacker im Staatsdienst",
+        "summary": "Ein staatlicher Hacker erhält den Auftrag, in das Netzwerk einer ausländischen Regierung einzudringen. Doch dann verursacht die Spyware Probleme.",
+        "paragraphs": [
+          "Ein staatlicher Hacker erhält den Auftrag, in das Netzwerk einer ausländischen Regierung einzudringen. Doch dann verursacht die Spyware Probleme."
+        ],
+        "link": "https://www.heise.de/news/Darknet-Diaries-Deutsch-Hacker-im-Staatsdienst-11099816.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-23T10:02:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Notfall-in-Colorado-Garmin-Autopilot-landet-Flugzeug-ohne-menschliche-Hilfe-11123662.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Notfall in Colorado: Garmin-Autopilot landet Flugzeug ohne menschliche Hilfe",
+        "summary": "Eine Beechcraft King Air B200 ist am 20. Dezember in Colorado autonom gelandet, nachdem der Pilot ausgefallen war.",
+        "paragraphs": [
+          "Eine Beechcraft King Air B200 ist am 20. Dezember in Colorado autonom gelandet, nachdem der Pilot ausgefallen war."
+        ],
+        "link": "https://www.heise.de/news/Notfall-in-Colorado-Garmin-Autopilot-landet-Flugzeug-ohne-menschliche-Hilfe-11123662.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-23T09:43:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Uber-und-Lyft-bringen-Robotaxis-nach-London-11123686.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Uber und Lyft bringen Robotaxis nach London",
@@ -863,28 +885,6 @@
           "Programmierbare Thermostate drücken die Heizkosten und rentieren sich meist schnell, gleichzeitig erhöhen sie den Wohnkomfort."
         ],
         "link": "https://www.heise.de/ratgeber/Mehr-Komfort-niedrigere-Kosten-Warum-sich-Smart-Home-Technik-beim-Heizen-lohnt-11076534.html",
-        "source": "c't",
-        "publishedAt": "2025-12-23T06:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/ratgeber/Smarte-Thermostate-mit-Home-Assistant-ausreizen-11076793.html",
-        "title": "heise+ | Smarte Thermostate mit Home Assistant ausreizen",
-        "summary": "Der kostenlose Home Assistant bringt smarten Thermostaten Dinge wie Heizpläne oder Abwesenheitserkennung bei, die sie nicht können oder die extra kosten.",
-        "paragraphs": [
-          "Der kostenlose Home Assistant bringt smarten Thermostaten Dinge wie Heizpläne oder Abwesenheitserkennung bei, die sie nicht können oder die extra kosten."
-        ],
-        "link": "https://www.heise.de/ratgeber/Smarte-Thermostate-mit-Home-Assistant-ausreizen-11076793.html",
-        "source": "c't",
-        "publishedAt": "2025-12-23T06:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/Das-aendert-sich-2026-bei-IT-Energie-und-Verbraucherschutz-11084915.html",
-        "title": "heise+ | Das ändert sich 2026 bei IT, Energie und Verbraucherschutz",
-        "summary": "Neues Jahr, neue Regeln: Sinkende Netzentgelte, steigende Abgaben für CO₂ und USB-C-Ladepflicht für Notebooks. Das EU-Wallet kommt und KI wird reguliert.",
-        "paragraphs": [
-          "Neues Jahr, neue Regeln: Sinkende Netzentgelte, steigende Abgaben für CO₂ und USB-C-Ladepflicht für Notebooks. Das EU-Wallet kommt und KI wird reguliert."
-        ],
-        "link": "https://www.heise.de/hintergrund/Das-aendert-sich-2026-bei-IT-Energie-und-Verbraucherschutz-11084915.html",
         "source": "c't",
         "publishedAt": "2025-12-23T06:00:00.000Z"
       }
