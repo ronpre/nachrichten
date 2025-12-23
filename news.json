@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-23T00:49:16.791Z",
+  "updatedAt": "2025-12-23T01:23:12.801Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:f61fdafa-88b6-48ca-9633-e8c70ee21ff7}",
+        "title": "Aufrüstung: US-Marine plant neue Schlachtschiffe der \"Trump-Klasse\"",
+        "summary": "Die US-Marine will ihre Kriegsflotte um eine neue Generation von Schlachtschiffen erweitern. Sie soll den Namen von US-Präsident Donald Trump tragen.",
+        "paragraphs": [
+          "Die US-Marine will ihre Kriegsflotte um eine neue Generation von Schlachtschiffen erweitern. Sie soll den Namen von US-Präsident Donald Trump tragen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/donald-trump-neues-schlachtschiff-goldene-flotte",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-23T01:05:16.000Z"
+      },
+      {
         "id": "{urn:uuid:7ba8841f-eefd-45f5-b797-bea88162006c}",
         "title": "Venezuela: US-Regierung fordert Rücktritt von Nicolás Maduro",
         "summary": "US-Präsident Donald Trump zufolge wäre der Rücktritt des venezolanischen Präsidenten \"klug\". US-Heimatschutzministerin Kristi Noem sagt, dass \"er gehen muss\".",
@@ -432,17 +443,6 @@
         "link": "https://www.handelsblatt.com/politik/international/russland-autobombe-toetet-russischen-general-in-moskau/100186166.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-22T16:55:52.000Z"
-      },
-      {
-        "id": "{urn:uuid:a85219d7-9359-48f2-822a-1e5f2e881567}",
-        "title": "Autobombe in Moskau: Wie verwundbar ist Russland?",
-        "summary": "In Moskau stirbt ein russischer General durch die Explosion einer Autobombe. Wer steckt dahinter? Und: Internetanbieter sollen künftig IP-Adressen speichern.",
-        "paragraphs": [
-          "In Moskau stirbt ein russischer General durch die Explosion einer Autobombe. Wer steckt dahinter? Und: Internetanbieter sollen künftig IP-Adressen speichern."
-        ],
-        "link": "https://www.zeit.de/politik/2025-12/autobombe-moskau-fanil-sarwarow-nachrichtenpodcast",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-22T16:49:22.000Z"
       }
     ],
     "sport": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/US-Zustelldienst-Instacart-stoppt-KI-Preismanipulation-11123516.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "US-Zustelldienst Instacart stoppt KI-Preismanipulation",
+        "summary": "Selbes Produkt, selbe Zeit, selbe Filiale, Selbstabholung. Dennoch setzte Instacarts KI heimlich unterschiedliche Preise an. Der US-Dienst gelobt Besserung.",
+        "paragraphs": [
+          "Selbes Produkt, selbe Zeit, selbe Filiale, Selbstabholung. Dennoch setzte Instacarts KI heimlich unterschiedliche Preise an. Der US-Dienst gelobt Besserung."
+        ],
+        "link": "https://www.heise.de/news/US-Zustelldienst-Instacart-stoppt-KI-Preismanipulation-11123516.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-23T01:02:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Marsrover-Perseverance-ist-auf-Rekordkurs-11123385.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Marsrover Perseverance ist auf Rekordkurs",
         "summary": "Der Marsrover Perseverance ist seit fünf Jahren auf dem Mars und hat fast soviel Strecke zurückgelegt wie der Rover Opportunity. Dessen Rekord wackelt.",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Sicherheitspatches-DoS-Attacken-auf-IBM-App-Connect-Enterprise-moeglich-11122938.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-22T11:54:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/KI-simuliert-Evolution-So-entstehen-Insekten-und-Linsenaugen-11122775.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI simuliert Evolution: So entstehen Insekten- und Linsenaugen",
-        "summary": "Ein Forschungsteam hat die Evolution des Auges in einer Physik-Simulation nachgebaut. Die Ergebnisse zeigen, warum die Natur so unterschiedliche Formen wählte.",
-        "paragraphs": [
-          "Ein Forschungsteam hat die Evolution des Auges in einer Physik-Simulation nachgebaut. Die Ergebnisse zeigen, warum die Natur so unterschiedliche Formen wählte."
-        ],
-        "link": "https://www.heise.de/news/KI-simuliert-Evolution-So-entstehen-Insekten-und-Linsenaugen-11122775.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-22T11:47:00.000Z"
       }
     ]
   }
