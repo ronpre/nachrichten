@@ -1,7 +1,51 @@
 {
-  "updatedAt": "2025-12-23T08:21:49.351Z",
+  "updatedAt": "2025-12-23T08:43:00.195Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:c743e7e3-f118-4f6c-b907-a55955cb30b1}",
+        "title": "Deutsche Wirtschaft: Importpreise sinken so stark wie seit eineinhalb Jahren nicht mehr",
+        "summary": "Die Importpreise sind im November so stark gefallen wie seit März 2024 nicht mehr. Insbesondere Energieimporte kosten weniger, bestimmte Nahrungsmittel dagegen mehr.",
+        "paragraphs": [
+          "Die Importpreise sind im November so stark gefallen wie seit März 2024 nicht mehr. Insbesondere Energieimporte kosten weniger, bestimmte Nahrungsmittel dagegen mehr."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/importpreise-wirtschaft-energiepreise-nahrungsmittel-statistisches-bundesamt",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-23T08:33:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-nachfrage-nach-luxuswohnungen-in-griechenland-steigt/100183966.html",
+        "title": "Immobilien: Preise von fast 10.800 Euro pro Quadratmeter: Luxuswohnungen in Griechenland werden immer gefragter",
+        "summary": "Früher suchten Ausländer landestypische Ferienwohnungen, jetzt konkurriert Griechenland im obersten Preissegment mit Mallorca, Ibiza und der Toskana. Das liegt auch an Steuervorteilen.",
+        "paragraphs": [
+          "Früher suchten Ausländer landestypische Ferienwohnungen, jetzt konkurriert Griechenland im obersten Preissegment mit Mallorca, Ibiza und der Toskana. Das liegt auch an Steuervorteilen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-nachfrage-nach-luxuswohnungen-in-griechenland-steigt/100183966.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-23T08:25:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/autozulieferer-samsung-tochter-harman-kauft-zf-sparte/100186314.html",
+        "title": "Autozulieferer: Samsung-Tochter Harman kauft ZF-Sparte",
+        "summary": "Das Geschäft des deutschen Autozulieferers ZF mit Fahrassistenzsystemen wechselt in einem Milliardendeal den Besitzer. Der Käufer der Sparte kommt aus Südkorea.",
+        "paragraphs": [
+          "Das Geschäft des deutschen Autozulieferers ZF mit Fahrassistenzsystemen wechselt in einem Milliardendeal den Besitzer. Der Käufer der Sparte kommt aus Südkorea."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/autozulieferer-samsung-tochter-harman-kauft-zf-sparte/100186314.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-23T08:24:19.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/immobilien-bundesregierung-plant-begrenzung-von-indexmieten/100185815.html",
+        "title": "Immobilien: Bundesregierung will Indexmieten deckeln",
+        "summary": "Justizministerin Hubig geht beim Mieterschutz den nächsten Schritt: In angespannten Wohnungsmärkten soll die Steigerung bei Indexmieten begrenzt werden.",
+        "paragraphs": [
+          "Justizministerin Hubig geht beim Mieterschutz den nächsten Schritt: In angespannten Wohnungsmärkten soll die Steigerung bei Indexmieten begrenzt werden."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/immobilien-bundesregierung-plant-begrenzung-von-indexmieten/100185815.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-23T08:23:00.000Z"
+      },
       {
         "id": "li.3358943",
         "title": "Studie: Chinas Wirtschaftswachstum nur halb so hoch wie offiziell angegeben",
@@ -34,17 +78,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/abnehmpille-novo-nordisk-erhaelt-us-zulassung-fuer-neue-abnehmpille/100186282.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-23T08:07:47.000Z"
-      },
-      {
-        "id": "{urn:uuid:c743e7e3-f118-4f6c-b907-a55955cb30b1}",
-        "title": "Deutsche Wirtschaft: Importpreise sinken so stark wie seit eineinhalb Jahren nicht mehr",
-        "summary": "Die Importpreise sind im November so stark gefallen wie seit März 2024 nicht mehr. Insbesondere Energieimporte kosten weniger, bestimmte Nahrungsmittel dagegen mehr.",
-        "paragraphs": [
-          "Die Importpreise sind im November so stark gefallen wie seit März 2024 nicht mehr. Insbesondere Energieimporte kosten weniger, bestimmte Nahrungsmittel dagegen mehr."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/importpreise-wirtschaft-energiepreise-nahrungsmittel-statistisches-bundesamt",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-23T08:06:10.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/energie-wasserstoff-netzausbau-geht-voran/100185801.html",
@@ -188,42 +221,64 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/energiewende-biogas-droht-durch-reiche-plaene-das-aus-in-deutschen-netzen-01/100184464.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-23T06:31:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/mittelstand-es-faellt-mir-heute-leichter-ein-deutsches-werk-zu-verkaufen/100164572.html",
-        "title": "Mittelstand: „Es fällt mir heute leichter, ein deutsches Werk zu verkaufen“",
-        "summary": "Paul Niederstein führt Deutschlands ältestes Familienunternehmen. Nun gehört es ihm auch wieder ganz, doch dafür musste er ein Tabu brechen. Ein Lehrstück über die Sorgen des Mittelstands.",
-        "paragraphs": [
-          "Paul Niederstein führt Deutschlands ältestes Familienunternehmen. Nun gehört es ihm auch wieder ganz, doch dafür musste er ein Tabu brechen. Ein Lehrstück über die Sorgen des Mittelstands."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/mittelstand-es-faellt-mir-heute-leichter-ein-deutsches-werk-zu-verkaufen/100164572.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-23T06:15:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/soziales/tafeln-armut-in-deutschland-fast-jeder-dritte-kunde-ist-ein-kind-a-d80ccc09-e06f-4471-b5cd-11b7eb481eba",
-        "title": "Tafeln: Armut in Deutschland – Fast jeder dritte Kunde ist ein Kind",
-        "summary": "Der Anteil der Kinder, die auf Lebensmittelhilfe angewiesen sind, steigt. Der Verband Tafel Deutschland spricht von einer besorgniserregenden Entwicklung und hofft auf politische Lösungen.",
-        "paragraphs": [
-          "Der Anteil der Kinder, die auf Lebensmittelhilfe angewiesen sind, steigt. Der Verband Tafel Deutschland spricht von einer besorgniserregenden Entwicklung und hofft auf politische Lösungen."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/soziales/tafeln-armut-in-deutschland-fast-jeder-dritte-kunde-ist-ein-kind-a-d80ccc09-e06f-4471-b5cd-11b7eb481eba#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-23T06:12:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-nato-chef-warnt-europas-sicherheit-haengt-an-ukraine/27982126.html",
-        "title": "+++ Ukraine-Krieg +++: Nato-Chef warnt: Europas Sicherheit hängt an Ukraine",
-        "summary": "Wadephul fordert US-Sicherheitsgarantien für Kiew +++ Strom-Notabschaltungen nach russischen Angriffen +++ CSU-Politiker befürwortet Gespräche der Europäer mit Putin +++ Der Newsblog.",
-        "paragraphs": [
-          "Wadephul fordert US-Sicherheitsgarantien für Kiew +++ Strom-Notabschaltungen nach russischen Angriffen +++ CSU-Politiker befürwortet Gespräche der Europäer mit Putin +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-nato-chef-warnt-europas-sicherheit-haengt-an-ukraine/27982126.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-23T06:08:04.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-baubranche-mit-mehr-umsatz-trotz-auftragsflaute/100186317.html",
+        "title": "Konjunktur: Baubranche mit mehr Umsatz trotz Auftragsflaute",
+        "summary": "Im Oktober verbucht die Baubranche deutlich weniger neue Aufträge als im September. Dennoch ist die Umsatzbilanz bislang positiv.",
+        "paragraphs": [
+          "Im Oktober verbucht die Baubranche deutlich weniger neue Aufträge als im September. Dennoch ist die Umsatzbilanz bislang positiv."
+        ],
+        "link": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-baubranche-mit-mehr-umsatz-trotz-auftragsflaute/100186317.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-23T08:34:33.000Z"
+      },
+      {
+        "id": "li.3358645",
+        "title": "Trumps Sondergesandter: Früher Golfkrieg, heute Grönland",
+        "summary": "Jeff Landry ist neuer US-Sondergesandter für Grönland. Während Trump erneut seinen Anspruch auf die Insel in der Arktis bekräftigt, fragt man sich: Was ist das für ein Posten – und wer ist dieser Landry überhaupt?",
+        "paragraphs": [
+          "Jeff Landry ist neuer US-Sondergesandter für Grönland. Während Trump erneut seinen Anspruch auf die Insel in der Arktis bekräftigt, fragt man sich: Was ist das für ein Posten – und wer ist dieser Landry überhaupt?"
+        ],
+        "link": "https://www.sueddeutsche.de/politik/groenland-us-sondergesandter-reaktionen-trump-landry-li.3358645",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-23T08:30:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:e3833ef8-a8fd-4b11-b004-5d324caec343}",
+        "title": "Ukrainekarte aktuell: Ukrainische Soldaten befreien Großteil eines Dorfs bei Kostjantyniwka",
+        "summary": "Nach der Offensive im Norden konzentrieren sich die Kämpfe wieder auf die Region Donezk: Südlich von Kostjantyniwka rückten beide Seiten vor.",
+        "paragraphs": [
+          "Nach der Offensive im Norden konzentrieren sich die Kämpfe wieder auf die Region Donezk: Südlich von Kostjantyniwka rückten beide Seiten vor."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/karte-ukraine-krieg-russland-frontverlauf-truppenbewegungen",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-23T08:29:51.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/immobilien-bundesregierung-plant-begrenzung-von-indexmieten/100185815.html",
+        "title": "Immobilien: Bundesregierung will Indexmieten deckeln",
+        "summary": "Justizministerin Hubig geht beim Mieterschutz den nächsten Schritt: In angespannten Wohnungsmärkten soll die Steigerung bei Indexmieten begrenzt werden.",
+        "paragraphs": [
+          "Justizministerin Hubig geht beim Mieterschutz den nächsten Schritt: In angespannten Wohnungsmärkten soll die Steigerung bei Indexmieten begrenzt werden."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/immobilien-bundesregierung-plant-begrenzung-von-indexmieten/100185815.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-23T08:23:00.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/pressefreiheit-zunehmende-angriffe-bedrohen-demokratische-grundlagen-a-28a77596-c5d9-48ec-b2e6-18b9c9f13b2f",
+        "title": "Pressefreiheit: Zunehmende Angriffe bedrohen demokratische Grundlagen",
+        "summary": "Angriffe auf die Medien nehmen zu. Das nagt an den Grundlagen der Demokratie.",
+        "paragraphs": [
+          "Angriffe auf die Medien nehmen zu. Das nagt an den Grundlagen der Demokratie."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/pressefreiheit-zunehmende-angriffe-bedrohen-demokratische-grundlagen-a-28a77596-c5d9-48ec-b2e6-18b9c9f13b2f#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-23T08:19:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/energie-wasserstoff-netzausbau-geht-voran/100185801.html",
         "title": "Energie: Wasserstoff-Netzausbau läuft nach Plan",
@@ -388,64 +443,20 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/wadephul-ukraine-russland-usa-sicherheitsgarantien",
         "source": "ZEIT",
         "publishedAt": "2025-12-23T04:51:59.000Z"
-      },
-      {
-        "id": "{urn:uuid:43cb9a2d-e203-46d2-a733-d707bcd7491c}",
-        "title": "Donald Trump: Rache als Regierungsstil",
-        "summary": "Im Wahlkampf versprach US-Präsident Donald Trump seinen Anhängern: \"Ich bin eure Vergeltung.\" Und er hat Wort gehalten. Eine Übersicht",
-        "paragraphs": [
-          "Im Wahlkampf versprach US-Präsident Donald Trump seinen Anhängern: \"Ich bin eure Vergeltung.\" Und er hat Wort gehalten. Eine Übersicht"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/donald-trump-us-praesident-gegner-rache",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-23T04:35:12.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/news-uno-sicherheistrat-zu-venezuela-asylstreit-in-der-koalition-fehlende-weihnachtsbaeume-a-184c65c3-6b01-4295-9445-b6102c25aefc",
-        "title": "News: Uno-Sicherheitsrat zu Venezuela, Asylstreit in der Koalition, fehlende Weihnachtsbäume",
-        "summary": "In der Karibik nehmen die Spannungen zu. In der Koalition ist wieder Ärger angesagt. Und in Dänemark fehlen eine Million Weihnachtsbäume. Das ist die Lage am Dienstagmorgen.",
-        "paragraphs": [
-          "In der Karibik nehmen die Spannungen zu. In der Koalition ist wieder Ärger angesagt. Und in Dänemark fehlen eine Million Weihnachtsbäume. Das ist die Lage am Dienstagmorgen."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/news-uno-sicherheistrat-zu-venezuela-asylstreit-in-der-koalition-fehlende-weihnachtsbaeume-a-184c65c3-6b01-4295-9445-b6102c25aefc#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-23T04:35:00.000Z"
-      },
-      {
-        "id": "li.3352720",
-        "title": "USA: Trump kündigt Bau von neuen Schlachtschiffen „Trump Class“ an",
-        "summary": "Glaubt man dem US-Präsidenten, so handelt es sich um die „größten Kriegsschiffe der Welt“. Der Schritt ist Teil der von der Regierung verfolgten Sicherheitsstrategie „Frieden durch Stärke“ – trotzdem sagt Trump, er hoffe, die Schiffe niemals einsetzen zu müssen.",
-        "paragraphs": [
-          "Glaubt man dem US-Präsidenten, so handelt es sich um die „größten Kriegsschiffe der Welt“. Der Schritt ist Teil der von der Regierung verfolgten Sicherheitsstrategie „Frieden durch Stärke“ – trotzdem sagt Trump, er hoffe, die Schiffe niemals einsetzen zu müssen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-kriegsschiffe-schlachtschiffe-trump-class-li.3352720",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-23T04:35:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:4ea57a8b-8d11-48fa-b8cb-10dfc2df0584}",
-        "title": "US-Überblick am Morgen: Trump bekräftigt Anspruch auf Grönland, USA fordern Maduros Rücktritt",
-        "summary": "Grönland ist Trump zufolge nötig für die \"nationale Sicherheit\" der USA. Die US-Heimatschutzministerin fordert den Rücktritt des venezolanischen Präsidenten. Die Nacht",
-        "paragraphs": [
-          "Grönland ist Trump zufolge nötig für die \"nationale Sicherheit\" der USA. Die US-Heimatschutzministerin fordert den Rücktritt des venezolanischen Präsidenten. Die Nacht"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-ueberblick-trump-groenland-maduro",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-23T04:01:30.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/suedostasien-grenzkonflikt-mit-80-toten-thailand-und-kambodscha-vereinbaren-gespraeche/100186255.html",
-        "title": "Südostasien: Grenzkonflikt mit 80 Toten – Thailand und Kambodscha vereinbaren Gespräche",
-        "summary": "Der wieder aufgeflammte Grenzkonflikt zwischen Thailand und Kambodscha geht zwar weiter. Aber nun gibt es vorsichtige Hoffnung auf eine Waffenruhe.",
-        "paragraphs": [
-          "Der wieder aufgeflammte Grenzkonflikt zwischen Thailand und Kambodscha geht zwar weiter. Aber nun gibt es vorsichtige Hoffnung auf eine Waffenruhe."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/suedostasien-grenzkonflikt-mit-80-toten-thailand-und-kambodscha-vereinbaren-gespraeche/100186255.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-23T03:45:38.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/nfl-draft-order-2026-die-aktuelle-top-10-reihenfolge-im-ueberblick-1170683/artikel#omrss",
+        "title": "NFL Draft Order 2026: Die aktuelle Top-10-Reihenfolge im Überblick",
+        "summary": "Während die NFL-Saison in ihre entscheidende Phase geht und zahlreiche Teams um die Playoffs kämpfen, entsteht am Tabellenende bereits ein klareres Bild der Draft-Reihenfolge für 2026. Aber welche Teams dürften laut aktuellem Stand in den Top 10 ihre Stars von morgen auswählen?",
+        "paragraphs": [
+          "Während die NFL-Saison in ihre entscheidende Phase geht und zahlreiche Teams um die Playoffs kämpfen, entsteht am Tabellenende bereits ein klareres Bild der Draft-Reihenfolge für 2026. Aber welche Teams dürften laut aktuellem Stand in den Top 10 ihre Stars von morgen auswählen?"
+        ],
+        "link": "https://www.kicker.de/nfl-draft-order-2026-die-aktuelle-top-10-reihenfolge-im-ueberblick-1170683/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-23T08:28:00.000Z"
+      },
       {
         "id": "https://www.kicker.de/rambo-zambo-und-ehrgeiz-nach-schlaganfall-die-geschichte-der-deutschen-ue-75-weltmeister-1178026/artikel#omrss",
         "title": "\"Rambo-Zambo\" und Ehrgeiz nach Schlaganfall: Die Geschichte der deutschen Ü-75-Weltmeister",
@@ -654,20 +665,31 @@
         "link": "https://www.kicker.de/eine-frechheit-nur-einen-elfmeter-hinterfragt-paetzold-nicht-1178204/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-22T21:11:20.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ludwigsburg-gegen-vechta-2025-bbl-5141325/spielbericht#omrss",
-        "title": "Ludwigsburg gibt nächste hohe Führung her, Brown überragt bei Vechta-Sieg",
-        "summary": "Ludwigsburg hat gegen Rasta Vechta die nächste hohe Führung aus der Hand gegeben und ging am Ende wieder als Verlierer vom Parkett. Bei den Niedersachsen war Tevin Brown der überragende Mann.",
-        "paragraphs": [
-          "Ludwigsburg hat gegen Rasta Vechta die nächste hohe Führung aus der Hand gegeben und ging am Ende wieder als Verlierer vom Parkett. Bei den Niedersachsen war Tevin Brown der überragende Mann."
-        ],
-        "link": "https://www.kicker.de/ludwigsburg-gegen-vechta-2025-bbl-5141325/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-22T21:03:42.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Jetzt-patchen-In-Deutschland-sind-noch-11-000-WatchGuard-Firewalls-angreifbar-11123634.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Jetzt patchen! In Deutschland sind noch 11.000 WatchGuard-Firewalls angreifbar",
+        "summary": "Sicherheitsforscher warnen, dass weltweit noch mehr als 117.000 WatchGuard-Firewalls der Firebox-Serie ohne Sicherheitsupdate sind.",
+        "paragraphs": [
+          "Sicherheitsforscher warnen, dass weltweit noch mehr als 117.000 WatchGuard-Firewalls der Firebox-Serie ohne Sicherheitsupdate sind."
+        ],
+        "link": "https://www.heise.de/news/Jetzt-patchen-In-Deutschland-sind-noch-11-000-WatchGuard-Firewalls-angreifbar-11123634.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-23T08:35:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/ChatGPT-Wrapped-Chats-statt-Musik-Playlisten-11123590.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "ChatGPT Wrapped: Chats statt Musik-Playlisten",
+        "summary": "OpenAI führt für ChatGPT einen persönlichen Jahresrückblick ein, der an Spotifys Wrapped erinnert. \"Dein Jahr in...\"",
+        "paragraphs": [
+          "OpenAI führt für ChatGPT einen persönlichen Jahresrückblick ein, der an Spotifys Wrapped erinnert. \"Dein Jahr in...\""
+        ],
+        "link": "https://www.heise.de/news/ChatGPT-Wrapped-Chats-statt-Musik-Playlisten-11123590.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-23T08:30:00.000Z"
+      },
       {
         "id": "https://www.heise.de/tests/VW-Tayron-eHybrid-im-Test-Der-grosse-Brummer-11104535.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "title": "heise+ | VW Tayron eHybrid im Test: Der große Brummer",
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/news/Unerwuenschtes-Spotify-Backup-zeigt-Statistiken-und-Metadaten-11123532.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-23T04:55:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Hitparade-Youtube-liefert-Billboard-keine-Streaming-Statistik-mehr-11123504.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Hitparade: Youtube liefert Billboard keine Streaming-Statistik mehr",
-        "summary": "Seit bald 13 Jahren basieren Billboards Hitparaden auch auf Youtubes Musikstreaming. Bei der Gewichtung scheiden sich die Geister.",
-        "paragraphs": [
-          "Seit bald 13 Jahren basieren Billboards Hitparaden auch auf Youtubes Musikstreaming. Bei der Gewichtung scheiden sich die Geister."
-        ],
-        "link": "https://www.heise.de/news/Hitparade-Youtube-liefert-Billboard-keine-Streaming-Statistik-mehr-11123504.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-23T04:23:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Mercedes-Benzstrebt-Millionen-Vergleich-im-Diesel-Streit-in-den-USA-an-11123405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Mercedes-Benz strebt Millionen-Vergleich im Diesel-Streit in den USA an",
-        "summary": "Mercedes-Benz will in den USA den Streit um zu hohe Abgaswerte bei Dieselautos mit einer Millionen-Zahlung beilegen. Was das für die Verfahren bedeutet.",
-        "paragraphs": [
-          "Mercedes-Benz will in den USA den Streit um zu hohe Abgaswerte bei Dieselautos mit einer Millionen-Zahlung beilegen. Was das für die Verfahren bedeutet."
-        ],
-        "link": "https://www.heise.de/news/Mercedes-Benzstrebt-Millionen-Vergleich-im-Diesel-Streit-in-den-USA-an-11123405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-23T04:05:00.000Z"
       }
     ]
   }
