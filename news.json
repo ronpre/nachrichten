@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2025-12-23T08:43:00.195Z",
+  "updatedAt": "2025-12-23T08:57:20.183Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:4b6716b0-7c90-4f63-b665-89051caa1f8d}",
+        "title": "Schaumweinsteuer: Deutsche trinken weniger Sekt, Prosecco und Champagner",
+        "summary": "In Deutschland wird offenbar immer seltener mit Sekt und Co. angestoßen. Im Zehnjahresvergleich sank die Menge des verkauften Schaumweins um fast ein Fünftel.",
+        "paragraphs": [
+          "In Deutschland wird offenbar immer seltener mit Sekt und Co. angestoßen. Im Zehnjahresvergleich sank die Menge des verkauften Schaumweins um fast ein Fünftel."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/sekt-konsum-deutschland-schaumweinsteuer-destatis",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-23T08:46:15.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-baubranche-mit-mehr-umsatz-trotz-auftragsflaute/100186317.html",
+        "title": "Konjunktur: Baubranche mit mehr Umsatz trotz Auftragsflaute",
+        "summary": "Im Oktober verbucht die Baubranche deutlich weniger neue Aufträge als im September. Dennoch ist die Umsatzbilanz bislang positiv.",
+        "paragraphs": [
+          "Im Oktober verbucht die Baubranche deutlich weniger neue Aufträge als im September. Dennoch ist die Umsatzbilanz bislang positiv."
+        ],
+        "link": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-baubranche-mit-mehr-umsatz-trotz-auftragsflaute/100186317.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-23T08:34:33.000Z"
+      },
       {
         "id": "{urn:uuid:c743e7e3-f118-4f6c-b907-a55955cb30b1}",
         "title": "Deutsche Wirtschaft: Importpreise sinken so stark wie seit eineinhalb Jahren nicht mehr",
@@ -58,13 +80,13 @@
         "publishedAt": "2025-12-23T08:19:12.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-oeffnet-am-letzten-handelstag-vor-weihnachten-nahezu-unveraendert/100186292.html",
-        "title": "Dax aktuell: Dax öffnet am letzten Handelstag vor Weihnachten nahezu unverändert – US-Daten im Blick",
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-eroeffnet-am-letzten-handelstag-vor-weihnachten-nahezu-unveraendert/100186292.html",
+        "title": "Dax aktuell: Dax eröffnet am letzten Handelstag vor Weihnachten nahezu unverändert – US-Daten im Blick",
         "summary": "Nach einem ruhigen Wochenauftakt hoffen Anleger am Dienstag auf neue Impulse, die den Dax aus der Seitwärtsbewegung locken. Im Fokus stehen diverse Konjunkturdaten aus den USA.",
         "paragraphs": [
           "Nach einem ruhigen Wochenauftakt hoffen Anleger am Dienstag auf neue Impulse, die den Dax aus der Seitwärtsbewegung locken. Im Fokus stehen diverse Konjunkturdaten aus den USA."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-oeffnet-am-letzten-handelstag-vor-weihnachten-nahezu-unveraendert/100186292.html",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-eroeffnet-am-letzten-handelstag-vor-weihnachten-nahezu-unveraendert/100186292.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-23T08:14:25.000Z"
       },
@@ -89,17 +111,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/energie-wasserstoff-netzausbau-geht-voran/100185801.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-23T08:02:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:4b6716b0-7c90-4f63-b665-89051caa1f8d}",
-        "title": "Schaumweinsteuer: Konsum von Sekt, Prosecco und Champagner in Deutschland sinkt",
-        "summary": "In Deutschland wird offenbar immer seltener mit Sekt und Co. angestoßen. Im Zehnjahresvergleich sank die Menge des verkauften Schaumweins um fast ein Fünftel.",
-        "paragraphs": [
-          "In Deutschland wird offenbar immer seltener mit Sekt und Co. angestoßen. Im Zehnjahresvergleich sank die Menge des verkauften Schaumweins um fast ein Fünftel."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/sekt-konsum-deutschland-schaumweinsteuer-destatis",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-23T07:58:24.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/konjunktur-schwache-wirtschaft-bremst-nachfrage-nach-rohstoffen/100185955.html",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/finanzen/maerkte/anleihen/schulden-deutschland-braucht-mehr-als-eine-halbe-billion-euro-von-anlegern-03/100182286.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-23T06:46:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/energiewende-biogas-droht-durch-reiche-plaene-das-aus-in-deutschen-netzen-01/100184464.html",
-        "title": "Energiewende: Biogas droht durch Pläne von Wirtschaftsministerin Reiche das Aus in deutschen Netzen",
-        "summary": "Die Bundesregierung plant eine Novelle des Energiewirtschaftsgesetzes mit tiefen Einschnitten. Biomethan-Produzenten sind alarmiert. Wie reagiert die Branche auf die Pläne?",
-        "paragraphs": [
-          "Die Bundesregierung plant eine Novelle des Energiewirtschaftsgesetzes mit tiefen Einschnitten. Biomethan-Produzenten sind alarmiert. Wie reagiert die Branche auf die Pläne?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/energiewende-biogas-droht-durch-reiche-plaene-das-aus-in-deutschen-netzen-01/100184464.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-23T06:31:00.000Z"
       }
     ],
     "politik": [
@@ -297,7 +297,7 @@
         "paragraphs": [
           "Der US-Präsident hat seine Attacken auf Gegner nach den Epstein-Files auffällig zurückgehalten. Er beklagt, unbeteiligte Menschen würden geschädigt – auch Bill Clinton."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/donald-trump-usa-praesident-epstein-dokumente-clinton-rufschaedigung",
+        "link": "https://www.zeit.de/politik/ausland/2025-12/donald-trump-usa-praesident-epstein-dokumente-clinton-rufschaedigung-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-23T07:54:19.000Z"
       },
@@ -407,7 +407,7 @@
         "paragraphs": [
           "Die Zahl der Getöteten im angeblichen Kampf gegen Drogen steigt: Das Südkommando des US-Militärs hat ein weiteres Boot angegriffen und dabei einen Menschen getötet."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-militaer-angriff-boot-drogen-schmuggel-tote-pazifik",
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-militaer-angriff-boot-drogen-schmuggel-tote-pazifik-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-23T05:31:17.000Z"
       },
@@ -440,12 +440,23 @@
         "paragraphs": [
           "Dem Außenminister zufolge ist die Sicherheit in Europa \"nur aus einer Position der Stärke\" möglich. Die Unterstützung der Ukraine liege deshalb im eigenen Interesse."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/wadephul-ukraine-russland-usa-sicherheitsgarantien",
+        "link": "https://www.zeit.de/politik/ausland/2025-12/wadephul-ukraine-russland-usa-sicherheitsgarantien-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-23T04:51:59.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.spiegel.de/sport/fussball/nfl-dk-metcalf-von-den-pittsburgh-steelers-wegen-fan-attacke-suspendiert-a-18ee6e28-e9dc-4952-a3e5-4e309222b3da",
+        "title": "NFL: DK Metcalf von den Pittsburgh Steelers wegen Fan-Attacke suspendiert",
+        "summary": "Der US-Footballspieler DK Metcalf geriet mit einem Fan aneinander – und schlug in Richtung seines Gesichts. Dafür muss der Passempfänger der Pittsburgh Steelers nun zwei Spiele pausieren. Was löste den Vorfall aus?",
+        "paragraphs": [
+          "Der US-Footballspieler DK Metcalf geriet mit einem Fan aneinander – und schlug in Richtung seines Gesichts. Dafür muss der Passempfänger der Pittsburgh Steelers nun zwei Spiele pausieren. Was löste den Vorfall aus?"
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/nfl-dk-metcalf-von-den-pittsburgh-steelers-wegen-fan-attacke-suspendiert-a-18ee6e28-e9dc-4952-a3e5-4e309222b3da#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-23T08:42:00.000Z"
+      },
       {
         "id": "https://www.kicker.de/nfl-draft-order-2026-die-aktuelle-top-10-reihenfolge-im-ueberblick-1170683/artikel#omrss",
         "title": "NFL Draft Order 2026: Die aktuelle Top-10-Reihenfolge im Überblick",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/kein-arrowhead-mehr-kansas-city-chiefs-schaffen-klarheit-in-stadion-frage-1178226/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-22T22:00:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/eine-frechheit-nur-einen-elfmeter-hinterfragt-paetzold-nicht-1178204/artikel#omrss",
-        "title": "\"Eine Frechheit\": Nur einen Elfmeter hinterfragt Pätzold nicht",
-        "summary": "Der FC Bayern München hat sich mit einem deutlichen Sieg bei Bayer 04 Leverkusen in die Winterpause der Frauen-Bundesliga verabschiedet. Für Roberto Pätzold hatte das aber einen Beigeschmack, der Werkself-Coach haderte mit der Leistung der Schiedsrichterin.",
-        "paragraphs": [
-          "Der FC Bayern München hat sich mit einem deutlichen Sieg bei Bayer 04 Leverkusen in die Winterpause der Frauen-Bundesliga verabschiedet. Für Roberto Pätzold hatte das aber einen Beigeschmack, der Werkself-Coach haderte mit der Leistung der Schiedsrichterin."
-        ],
-        "link": "https://www.kicker.de/eine-frechheit-nur-einen-elfmeter-hinterfragt-paetzold-nicht-1178204/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-22T21:11:20.000Z"
       }
     ],
     "edv": [
