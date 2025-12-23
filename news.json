@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-23T04:24:19.408Z",
+  "updatedAt": "2025-12-23T04:44:18.903Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:43cb9a2d-e203-46d2-a733-d707bcd7491c}",
+        "title": "Donald Trump: Rache als Regierungsstil",
+        "summary": "Im Wahlkampf versprach US-Präsident Donald Trump seinen Anhängern: \"Ich bin eure Vergeltung.\" Und er hat Wort gehalten. Eine Übersicht",
+        "paragraphs": [
+          "Im Wahlkampf versprach US-Präsident Donald Trump seinen Anhängern: \"Ich bin eure Vergeltung.\" Und er hat Wort gehalten. Eine Übersicht"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/donald-trump-us-praesident-gegner-rache",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-23T04:35:12.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/news-uno-sicherheistrat-zu-venezuela-asylstreit-in-der-koalition-fehlende-weihnachtsbaeume-a-184c65c3-6b01-4295-9445-b6102c25aefc",
+        "title": "News: Uno-Sicherheitsrat zu Venezuela, Asylstreit in der Koalition, fehlende Weihnachtsbäume",
+        "summary": "In der Karibik nehmen die Spannungen zu. In der Koalition ist wieder Ärger angesagt. Und in Dänemark fehlen eine Million Weihnachtsbäume. Das ist die Lage am Dienstagmorgen.",
+        "paragraphs": [
+          "In der Karibik nehmen die Spannungen zu. In der Koalition ist wieder Ärger angesagt. Und in Dänemark fehlen eine Million Weihnachtsbäume. Das ist die Lage am Dienstagmorgen."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/news-uno-sicherheistrat-zu-venezuela-asylstreit-in-der-koalition-fehlende-weihnachtsbaeume-a-184c65c3-6b01-4295-9445-b6102c25aefc#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-23T04:35:00.000Z"
+      },
+      {
         "id": "{urn:uuid:4ea57a8b-8d11-48fa-b8cb-10dfc2df0584}",
         "title": "US-Überblick am Morgen: Trump bekräftigt Anspruch auf Grönland, USA fordern Maduros Rücktritt",
         "summary": "Grönland ist Trump zufolge nötig für die \"nationale Sicherheit\" der USA. Die US-Heimatschutzministerin fordert den Rücktritt des venezolanischen Präsidenten. Die Nacht",
@@ -421,31 +443,20 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/usa-regierung-stoppt-bau-offshore-windparks-us-kueste-nationale-sicherheit",
         "source": "ZEIT",
         "publishedAt": "2025-12-22T20:48:51.000Z"
-      },
-      {
-        "id": "li.3205796",
-        "title": "Bundespolitik: SPD-Mitgliederbegehren gegen Bürgergeld nimmt erste Hürde",
-        "summary": "Die Initiatoren wollen erreichen, dass Sanktionen beim Bürgergeld nicht verschärft werden: „Wer auf Unterstützung angewiesen ist, darf nicht in Existenzangst gedrängt werden.“",
-        "paragraphs": [
-          "Die Initiatoren wollen erreichen, dass Sanktionen beim Bürgergeld nicht verschärft werden: „Wer auf Unterstützung angewiesen ist, darf nicht in Existenzangst gedrängt werden.“"
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-spd-buergergeld-li.3205796",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-22T20:02:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/cem-oezdemir-rapper-haftbefehl-kommt-bei-60-geburtstag-des-gruenen-politikers-vorbei-a-6f9ff7ca-2898-441c-a1e1-1f84e347327b",
-        "title": "Cem Özdemir: Rapper Haftbefehl kommt bei 60. Geburtstag des Grünen-Politikers vorbei",
-        "summary": "Cem Özdemir möchte im kommenden Jahr Ministerpräsident von Baden-Württemberg werden. An seinem 60. Geburtstag bekam der Grüne nun zahlreichen Besuch – auch von Rapper Haftbefehl. Der beeindruckte wohl nicht nur als Künstler.",
-        "paragraphs": [
-          "Cem Özdemir möchte im kommenden Jahr Ministerpräsident von Baden-Württemberg werden. An seinem 60. Geburtstag bekam der Grüne nun zahlreichen Besuch – auch von Rapper Haftbefehl. Der beeindruckte wohl nicht nur als Künstler."
-        ],
-        "link": "https://www.spiegel.de/politik/cem-oezdemir-rapper-haftbefehl-kommt-bei-60-geburtstag-des-gruenen-politikers-vorbei-a-6f9ff7ca-2898-441c-a1e1-1f84e347327b#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-22T19:52:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/nfl-das-aktuelle-playoff-picture-colts-fast-raus-jaguars-chargers-und-bills-dabei-1169024/artikel#omrss",
+        "title": "NFL: Das aktuelle Playoff Picture - Colts fast raus, Jaguars, Chargers und Bills dabei",
+        "summary": "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Der aktuelle Stand.",
+        "paragraphs": [
+          "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Der aktuelle Stand."
+        ],
+        "link": "https://www.kicker.de/nfl-das-aktuelle-playoff-picture-colts-fast-raus-jaguars-chargers-und-bills-dabei-1169024/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-23T04:33:34.000Z"
+      },
       {
         "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
         "title": "Füllkrug schon in Mailand - Leipzig bricht Leihe ab",
@@ -654,20 +665,20 @@
         "link": "https://www.zeit.de/sport/2025-12/niclas-fuellkrug-wechsel-ac-mailand",
         "source": "ZEIT",
         "publishedAt": "2025-12-22T19:21:47.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/op-erfolgreich-ueberstanden-wie-geht-s-jetzt-weiter-mit-neymar-1178187/artikel#omrss",
-        "title": "OP erfolgreich überstanden: Wie geht's jetzt weiter mit Neymar?",
-        "summary": "Nach dem erfolgreichen Klassenerhalt mit seinem Heimatverein FC Santos hatte sich Neymar unters Messer legen müssen. Inzwischen wurde die Operation erfolgreich vollzogen.",
-        "paragraphs": [
-          "Nach dem erfolgreichen Klassenerhalt mit seinem Heimatverein FC Santos hatte sich Neymar unters Messer legen müssen. Inzwischen wurde die Operation erfolgreich vollzogen."
-        ],
-        "link": "https://www.kicker.de/op-erfolgreich-ueberstanden-wie-geht-s-jetzt-weiter-mit-neymar-1178187/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-22T18:30:00.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Hitparade-Youtube-liefert-Billboard-keine-Streaming-Statistik-mehr-11123504.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Hitparade: Youtube liefert Billboard keine Streaming-Statistik mehr",
+        "summary": "Seit bald 13 Jahren basieren Billboards Hitparaden auch auf Youtubes Musikstreaming. Bei der Gewichtung scheiden sich die Geister.",
+        "paragraphs": [
+          "Seit bald 13 Jahren basieren Billboards Hitparaden auch auf Youtubes Musikstreaming. Bei der Gewichtung scheiden sich die Geister."
+        ],
+        "link": "https://www.heise.de/news/Hitparade-Youtube-liefert-Billboard-keine-Streaming-Statistik-mehr-11123504.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-23T04:23:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Mercedes-Benzstrebt-Millionen-Vergleich-im-Diesel-Streit-in-den-USA-an-11123405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Mercedes-Benzstrebt Millionen-Vergleich im Diesel-Streit in den USA an",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/tests/Bluthochdruckwarner-in-der-Apple-Watch-So-arbeitet-die-neue-Funktion-11090317.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "source": "heise",
         "publishedAt": "2025-12-22T12:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Festplattenfunde-im-Heizungskeller-Gemeinde-erklaert-sich-11122974.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Festplattenfunde im Heizungskeller: Gemeinde erklärt sich",
-        "summary": "Wir berichteten über ungesichert gelagerte Datenträger einer Gemeinde. Der Bürgermeister räumt nun ein, dass er einen Abfluss der Daten nicht ausschließen kann.",
-        "paragraphs": [
-          "Wir berichteten über ungesichert gelagerte Datenträger einer Gemeinde. Der Bürgermeister räumt nun ein, dass er einen Abfluss der Daten nicht ausschließen kann."
-        ],
-        "link": "https://www.heise.de/news/Festplattenfunde-im-Heizungskeller-Gemeinde-erklaert-sich-11122974.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-22T12:18:00.000Z"
       }
     ]
   }
