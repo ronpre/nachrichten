@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-23T10:48:23.191Z",
+  "updatedAt": "2025-12-23T10:57:00.767Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:a5628a55-8585-421f-8607-484ad519cd32}",
+        "title": "Wohnen: Preise für Wohneigentum steigen zum vierten Mal in Folge",
+        "summary": "Häuser und Wohnungen sind in Deutschland teurer als im Vorjahr. Im dritten Quartal 2025 stiegen die Preise durchschnittlich um 3,3 Prozent.",
+        "paragraphs": [
+          "Häuser und Wohnungen sind in Deutschland teurer als im Vorjahr. Im dritten Quartal 2025 stiegen die Preise durchschnittlich um 3,3 Prozent."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/wohneigentum-immobilien-preise-wohnungsmarkt",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-23T10:45:25.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-sparkassenmanager-gehen-pessimistisch-wie-lange-nicht-ins-neue-jahr/100186318.html",
         "title": "Finanzbarometer: „Merz-Aufschwung“ verpufft: Sparkassen blicken pessimistisch wie lange nicht aufs neue Jahr",
@@ -12,17 +23,6 @@
         "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-sparkassenmanager-gehen-pessimistisch-wie-lange-nicht-ins-neue-jahr/100186318.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-23T10:43:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:a5628a55-8585-421f-8607-484ad519cd32}",
-        "title": "Wohnen: Preise für Wohneigentum steigen zum vierten Mal in Folge",
-        "summary": "Häuser und Wohnungen sind in Deutschland teurer als im Vorjahr. Im dritten Quartal 2025 stiegen die Preise durchschnittlich um 3,3 Prozent.",
-        "paragraphs": [
-          "Häuser und Wohnungen sind in Deutschland teurer als im Vorjahr. Im dritten Quartal 2025 stiegen die Preise durchschnittlich um 3,3 Prozent."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/wohneigentum-immobilien-preise-wohnungsmarkt",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-23T10:35:35.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/luftfahrt-ryanair-muss-in-italien-millionenstrafe-zahlen/100186336.html",
@@ -227,13 +227,13 @@
       {
         "id": "{urn:uuid:9bb0dd78-ea04-4198-8a6e-8bba762bceef}",
         "title": "Offener Brief: Prominente bitten Bundesregierung um Aufnahme von Afghanen",
-        "summary": "Trotz Zusage warten Hunderte Afghanen seit Jahren auf die Aufnahme durch Deutschland. Kurz vor Weihnachten wenden sich deshalb rund 50 Prominente an die Bundesregierung.",
+        "summary": "Trotz Zusage warten weiter hunderte Afghanen auf ihre Aufnahme. Zahlreiche Prominente – darunter Hape Kerkeling und Herta Müller – wenden sich nun an die Bundesregierung.",
         "paragraphs": [
-          "Trotz Zusage warten Hunderte Afghanen seit Jahren auf die Aufnahme durch Deutschland. Kurz vor Weihnachten wenden sich deshalb rund 50 Prominente an die Bundesregierung."
+          "Trotz Zusage warten weiter hunderte Afghanen auf ihre Aufnahme. Zahlreiche Prominente – darunter Hape Kerkeling und Herta Müller – wenden sich nun an die Bundesregierung."
         ],
         "link": "https://www.zeit.de/politik/deutschland/2025-12/afghanistan-bundesregierung-offener-brief-prominente",
         "source": "ZEIT",
-        "publishedAt": "2025-12-23T10:21:03.000Z"
+        "publishedAt": "2025-12-23T10:47:38.000Z"
       },
       {
         "id": "li.3205796",
@@ -447,6 +447,28 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/der-winterfahrplan-der-drittligisten-wer-legt-wann-wieder-los-1178139/artikel#omrss",
+        "title": "Der Winterfahrplan der Drittligisten: Wer legt wann wieder los?",
+        "summary": "Die Winterpause der Drittliga-Teams fällt unterschiedlich lang aus. Zahlreiche Klubs fahren nicht ins Trainingslager.",
+        "paragraphs": [
+          "Die Winterpause der Drittliga-Teams fällt unterschiedlich lang aus. Zahlreiche Klubs fahren nicht ins Trainingslager."
+        ],
+        "link": "https://www.kicker.de/der-winterfahrplan-der-drittligisten-wer-legt-wann-wieder-los-1178139/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-23T10:47:49.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/krupp-im-interview-draisaitl-ist-ein-messi-ein-ronaldo-1177435/artikel#omrss",
+        "title": "Krupp im Interview: \"Draisaitl ist ein Messi, ein Ronaldo\"",
+        "summary": "Er gewann als NHL-Verteidiger zweimal den Stanley Cup, war Bundestrainer, steht seit dieser Saison beim EV Landshut hinter der Bande. Es gibt wenig kompetentere Gesprächspartner über Eishockey als Uwe Krupp.",
+        "paragraphs": [
+          "Er gewann als NHL-Verteidiger zweimal den Stanley Cup, war Bundestrainer, steht seit dieser Saison beim EV Landshut hinter der Bande. Es gibt wenig kompetentere Gesprächspartner über Eishockey als Uwe Krupp."
+        ],
+        "link": "https://www.kicker.de/krupp-im-interview-draisaitl-ist-ein-messi-ein-ronaldo-1177435/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-23T10:42:33.000Z"
+      },
+      {
         "id": "https://www.kicker.de/stuetzle-ueber-olympia-werden-eine-sehr-coole-mannschaft-haben-1178315/video#omrss",
         "title": "Stützle über Olympia: \"Werden eine sehr coole Mannschaft haben\"",
         "summary": "Erstmals seit zwölf Jahren werden bei den Olympischen Winterspielen wieder die NHL-Stars dabei sein. Ottawas Tim Stützle ist voller Freude auf das Turnier.",
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/reus-schwaermt-von-los-angeles-kaum-schoenere-flecken-1178264/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-23T07:45:24.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/laimer-erstmals-oesterreichs-fussballer-des-jahres-1178263/artikel#omrss",
-        "title": "Laimer erstmals Österreichs Fußballer des Jahres",
-        "summary": "Konrad Laimer ist zum ersten Mal Österreichs Fußballer des Jahres. Bei der Wahl ließ er den Vorjahressieger deutlich hinter sich.",
-        "paragraphs": [
-          "Konrad Laimer ist zum ersten Mal Österreichs Fußballer des Jahres. Bei der Wahl ließ er den Vorjahressieger deutlich hinter sich."
-        ],
-        "link": "https://www.kicker.de/laimer-erstmals-oesterreichs-fussballer-des-jahres-1178263/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-23T07:44:17.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/cricket-duell-the-ashes-england-verliert-haben-die-spieler-zu-tief-ins-glas-geschaut-a-f3e68e19-23dc-490e-9c53-f84dac7ecfed",
-        "title": "Cricket-Duell »The Ashes«: England verliert – haben die Spieler zu tief ins Glas geschaut?",
-        "summary": "Der Cricketwettbewerb »The Ashes« gehört in England zu den Sportklassikern. Die Duelle mit Australien werden in diesem Jahr aber von einer Debatte überschattet: Haben die Engländer zu tief ins Glas geschaut?",
-        "paragraphs": [
-          "Der Cricketwettbewerb »The Ashes« gehört in England zu den Sportklassikern. Die Duelle mit Australien werden in diesem Jahr aber von einer Debatte überschattet: Haben die Engländer zu tief ins Glas geschaut?"
-        ],
-        "link": "https://www.spiegel.de/sport/cricket-duell-the-ashes-england-verliert-haben-die-spieler-zu-tief-ins-glas-geschaut-a-f3e68e19-23dc-490e-9c53-f84dac7ecfed#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-23T06:59:00.000Z"
       }
     ],
     "edv": [
