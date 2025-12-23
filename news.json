@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-23T17:37:48.678Z",
+  "updatedAt": "2025-12-23T17:48:02.601Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:4591de00-dd6d-4cad-bac0-67fb41430dcb}",
+        "title": "Staatsverschuldung: Parlament in Paris verabschiedet Notgesetz zum Haushalt",
+        "summary": "Monatelang konnte sich Frankreichs Parlament nicht auf einen Haushalt einigen. Ein nun verabschiedetes Notgesetz erlaubt es, die Entscheidung auf Januar zu vertagen.",
+        "paragraphs": [
+          "Monatelang konnte sich Frankreichs Parlament nicht auf einen Haushalt einigen. Ein nun verabschiedetes Notgesetz erlaubt es, die Entscheidung auf Januar zu vertagen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/frankreich-haushalt-streit-defizit-notgesetz",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-23T17:37:50.000Z"
+      },
+      {
         "id": "{urn:uuid:0463641e-b132-40d5-8e3f-7e147b4ec1e1}",
         "title": "Epstein-Files: US-Präsident Trump taucht mehrfach in neuen Epstein-Unterlagen auf",
         "summary": "Im bisher größten veröffentlichten Datensatz im Fall Epstein gibt es mehrere Bezüge zu Donald Trump. Es geht um Flüge in Epsteins Jet und einen handgeschriebenen Brief.",
@@ -428,17 +439,6 @@
         "link": "https://www.sueddeutsche.de/politik/straftaeter-abschiebung-nach-syrien-li.3359190",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-23T14:23:05.000Z"
-      },
-      {
-        "id": "li.3358843",
-        "title": "Glosse: Das Streiflicht",
-        "summary": "Weihnachten ist gemeinhin lauter, als es vom Wesen her sein sollte. Es sei denn, man feiert das Fest in Venedig.",
-        "paragraphs": [
-          "Weihnachten ist gemeinhin lauter, als es vom Wesen her sein sollte. Es sei denn, man feiert das Fest in Venedig."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/glosse-das-streiflicht-li.3358843",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-23T14:12:43.000Z"
       }
     ],
     "sport": [
@@ -465,13 +465,13 @@
         "publishedAt": "2025-12-23T17:20:42.000Z"
       },
       {
-        "id": "https://www.kicker.de/meikle-und-rydz-nach-krimi-weiter-wattimena-schmeisst-shaggy-raus-1178356/artikel#omrss",
-        "title": "Meikle und Rydz nach Krimi weiter - Wattimena schmeißt \"Shaggy\" raus",
+        "id": "https://www.kicker.de/drei-krimis-im-ally-pally-wattimena-schmeisst-shaggy-raus-1178356/artikel#omrss",
+        "title": "Drei Krimis im Ally Pally: Wattimena schmeißt \"Shaggy\" raus",
         "summary": "Die ersten drei Partien der Darts-WM am Dienstagnachmittag endeten alle im fünften Satz. Letztlich setzten sich Ryan Meikle, Callan Rydz und Jermaine Wattimena durch.",
         "paragraphs": [
           "Die ersten drei Partien der Darts-WM am Dienstagnachmittag endeten alle im fünften Satz. Letztlich setzten sich Ryan Meikle, Callan Rydz und Jermaine Wattimena durch."
         ],
-        "link": "https://www.kicker.de/meikle-und-rydz-nach-krimi-weiter-wattimena-schmeisst-shaggy-raus-1178356/artikel#omrss",
+        "link": "https://www.kicker.de/drei-krimis-im-ally-pally-wattimena-schmeisst-shaggy-raus-1178356/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-23T17:18:33.000Z"
       },
