@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-24T10:05:40.021Z",
+  "updatedAt": "2025-12-24T10:18:07.982Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-kospi-anleger-an-asiatischen-boersen-nervoes/100186542.html",
+        "title": "Nikkei und Kospi: Anleger an asiatischen Börsen nervös",
+        "summary": "Anlegerinnen und Anleger halten sich an den asiatischen Börsen zurück. Die Zweifel an einer weiteren Zinssenkung wachsen. Derweil erreicht Gold erneut einen Höchststand.",
+        "paragraphs": [
+          "Anlegerinnen und Anleger halten sich an den asiatischen Börsen zurück. Die Zweifel an einer weiteren Zinssenkung wachsen. Derweil erreicht Gold erneut einen Höchststand."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-kospi-anleger-an-asiatischen-boersen-nervoes/100186542.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-24T10:10:17.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/energiewende-bund-subventioniert-strompreise-2026-mit-295-milliarden-euro/100182362.html",
         "title": "Energiewende: Neues Rekordhoch: Bund subventioniert Strompreise 2026 mit 29,5 Milliarden Euro",
@@ -45,17 +56,6 @@
         "link": "https://www.handelsblatt.com/politik/international/bedrohung-polen-verstaerkt-grenze-zu-belarus-mit-humanitaeren-folgen/100181103.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-24T09:07:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-kospi-nervositaet-an-asiatischen-boersen-vor-nvidia-quartalszahlen/100186542.html",
-        "title": "Nikkei und Kospi: Nervosität an asiatischen Börsen vor Nvidia-Quartalszahlen",
-        "summary": "Der Chip-Riese veröffentlicht seine Zahlen nach US-Börsenschluss. Anleger an den asiatischen Börsen hielten sich vor den mit Spannung erwarteten Quartalszahlen von Nvidia zurück.",
-        "paragraphs": [
-          "Der Chip-Riese veröffentlicht seine Zahlen nach US-Börsenschluss. Anleger an den asiatischen Börsen hielten sich vor den mit Spannung erwarteten Quartalszahlen von Nvidia zurück."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-kospi-nervositaet-an-asiatischen-boersen-vor-nvidia-quartalszahlen/100186542.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-24T08:44:46.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-wo-strategen-den-deutschen-leitindex-ende-2026-sehen/100175469.html",
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Selenskyj präsentiert 20-Punkte-Plan zur Beendung des Krieges",
+        "summary": "Der ukrainische Präsident spricht über die Ergebnisse der Beratungen mit den USA – noch gebe es offene Punkte. Von Russland wird nun eine Reaktion erwartet. Das Liveblog",
+        "paragraphs": [
+          "Der ukrainische Präsident spricht über die Ergebnisse der Beratungen mit den USA – noch gebe es offene Punkte. Von Russland wird nun eine Reaktion erwartet. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-24T10:10:20.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/energiewende-bund-subventioniert-strompreise-2026-mit-295-milliarden-euro/100182362.html",
         "title": "Energiewende: Neues Rekordhoch: Bund subventioniert Strompreise 2026 mit 29,5 Milliarden Euro",
         "summary": "Der Bund wendet mittlerweile einen zweistelligen Milliardenbetrag auf, um die Strompreise auf ein erträgliches Niveau herunterzusubventionieren. Aus Sicht von Fachleuten ist das nicht nachhaltig.",
@@ -300,17 +311,6 @@
         "link": "https://www.handelsblatt.com/politik/international/bedrohung-polen-verstaerkt-grenze-zu-belarus-mit-humanitaeren-folgen/100181103.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-24T09:07:04.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Ukraine erwartet russische Antwort auf Friedensplan bis Mittwoch",
-        "summary": "Selenskyj rechnet zeitnah mit einer Reaktion Russlands auf den jüngst ausgehandelten Friedensplan-Entwurf. Russland meldet Drohnenangriffe auf Moskau. Das Liveblog",
-        "paragraphs": [
-          "Selenskyj rechnet zeitnah mit einer Reaktion Russlands auf den jüngst ausgehandelten Friedensplan-Entwurf. Russland meldet Drohnenangriffe auf Moskau. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-24T09:00:44.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/afghanistan-offener-brief-an-friedrich-merz-zur-aufnahme-von-afghanen-a-07fb5069-a874-4ae1-a5a8-00547dcb3b04",
