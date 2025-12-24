@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-24T18:21:13.437Z",
+  "updatedAt": "2025-12-24T18:42:44.628Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:ccfd24ed-0ffe-4e8b-b754-7a38a72c0027}",
+        "title": "Krieg in Gaza: Gruppe westlicher Länder verurteilt Siedlungspläne im Westjordanland",
+        "summary": "Deutschland und weitere Länder kritisieren Genehmigungen für neue Siedlungen. Sie befürchten Folgen für den Friedensprozess im Gazastreifen. Das Liveblog",
+        "paragraphs": [
+          "Deutschland und weitere Länder kritisieren Genehmigungen für neue Siedlungen. Sie befürchten Folgen für den Friedensprozess im Gazastreifen. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-24T18:20:56.000Z"
+      },
+      {
         "id": "li.3359479",
         "title": "Waffenruhe in Nahost: Christen feiern erstmals wieder Weihnachten in Bethlehem",
         "summary": "Nach zwei Jahren mit kriegsbedingt stark eingeschränkten Festlichkeiten begrüßen Tausende Menschen den Lateinischen Patriarchen von Jerusalem in Bethlehem.",
@@ -267,17 +278,6 @@
         "link": "https://www.zeit.de/politik/deutschland/2025-12/hateaid-sanktionen-usa-bundesjustizministerin-stefanie-hubig-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-24T15:46:53.000Z"
-      },
-      {
-        "id": "{urn:uuid:ccfd24ed-0ffe-4e8b-b754-7a38a72c0027}",
-        "title": "Krieg in Gaza: Israel wirft der Hamas anhaltende Verstöße gegen Waffenstillstand vor",
-        "summary": "Ein israelischer Offizier soll mit einer Sprengvorrichtung der Hamas verletzt worden sein. Israel kündigt eine nicht näher beschriebene Reaktion an. Das Liveblog",
-        "paragraphs": [
-          "Ein israelischer Offizier soll mit einer Sprengvorrichtung der Hamas verletzt worden sein. Israel kündigt eine nicht näher beschriebene Reaktion an. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-24T14:52:04.000Z"
       },
       {
         "id": "{urn:uuid:4759127c-77f7-4f72-afe0-7cda7ab4cdda}",
@@ -735,17 +735,6 @@
         "publishedAt": "2025-12-24T09:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren",
-        "summary": "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen.",
-        "paragraphs": [
-          "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-24T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "KI-Kontroverse: „Clair Obscur – Expedition 33“ verliert \"Indie-Spiel des Jahres\"",
         "summary": "Eigentlich war „Clair Obscur – Expedition 33“ auch das Indie-Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis.",
@@ -753,6 +742,17 @@
           "Eigentlich war „Clair Obscur – Expedition 33“ auch das Indie-Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis."
         ],
         "link": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-24T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren",
+        "summary": "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen.",
+        "paragraphs": [
+          "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-24T09:00:00.000Z"
       },
