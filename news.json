@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-24T13:23:16.251Z",
+  "updatedAt": "2025-12-24T13:41:44.660Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:76991645-7ec6-456e-b935-b36c183156fd}",
+        "title": "Falschinformationen: Parlament in Südkorea verabschiedet Gesetz gegen Fake News",
+        "summary": "Ein Gesetz in Südkorea soll die Verbreitung falscher Informationen verhindern. Kritiker sehen darin eine Gefahr für Journalisten und die freie Berichterstattung.",
+        "paragraphs": [
+          "Ein Gesetz in Südkorea soll die Verbreitung falscher Informationen verhindern. Kritiker sehen darin eine Gefahr für Journalisten und die freie Berichterstattung."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/suedkorea-parlament-gesetz-fakenews",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-24T13:29:22.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/rentenpolitik-die-rente-war-mal-sicher-bis-die-politik-sie-demontierte/100179758.html",
         "title": "Rentenpolitik: Die Rente war mal sicher – Wie das System aus dem Gleichgewicht geriet",
         "summary": "Vor 15 Jahren galt die Rente als ausreformiert. Dann brachten Union und SPD das stabile System mit ineffektiven Maßnahmen in eine kritische Schieflage.",
@@ -432,17 +443,6 @@
         "link": "https://www.zeit.de/politik/deutschland/2025-12/kritik-bsw-thueringen-arbeitskreis-suessmuth-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-24T08:59:11.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/spd-linke-wollen-gegen-buergergeld-reform-auf-die-strasse-a-69c7db24-e81d-402c-8fb7-9df0bc6c6941",
-        "title": "SPD-Linke wollen gegen Bürgergeld-Reform auf die Straße",
-        "summary": "Der Druck auf die SPD-Führung beim Bürgergeld bleibt hoch. Die Initiatorinnen des Mitgliederbegehrens planen einen bundesweiten Aktionstag, um den Protest in die Gesellschaft zu tragen.",
-        "paragraphs": [
-          "Der Druck auf die SPD-Führung beim Bürgergeld bleibt hoch. Die Initiatorinnen des Mitgliederbegehrens planen einen bundesweiten Aktionstag, um den Protest in die Gesellschaft zu tragen."
-        ],
-        "link": "https://www.spiegel.de/politik/spd-linke-wollen-gegen-buergergeld-reform-auf-die-strasse-a-69c7db24-e81d-402c-8fb7-9df0bc6c6941#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-24T07:58:00.000Z"
       }
     ],
     "sport": [
@@ -691,17 +691,6 @@
         "publishedAt": "2025-12-24T09:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren",
-        "summary": "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen.",
-        "paragraphs": [
-          "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-24T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "KI-Kontroverse: „Clair Obscur – Expedition 33“ verliert \"Indie-Spiel des Jahres\"",
         "summary": "Eigentlich war „Clair Obscur – Expedition 33“ auch das Indie-Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis.",
@@ -709,6 +698,17 @@
           "Eigentlich war „Clair Obscur – Expedition 33“ auch das Indie-Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis."
         ],
         "link": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-24T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren",
+        "summary": "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen.",
+        "paragraphs": [
+          "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-24T09:00:00.000Z"
       },
