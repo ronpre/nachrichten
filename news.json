@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-24T14:54:16.322Z",
+  "updatedAt": "2025-12-24T15:05:35.453Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,13 +225,24 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:ccfd24ed-0ffe-4e8b-b754-7a38a72c0027}",
+        "title": "Krieg in Gaza: Israel wirft der Hamas anhaltende Verstöße gegen Waffenstillstand vor",
+        "summary": "Ein israelischer Offizier soll mit einer Sprengvorrichtung der Hamas verletzt worden sein. Israel kündigt eine nicht näher beschriebene Reaktion an. Das Liveblog",
+        "paragraphs": [
+          "Ein israelischer Offizier soll mit einer Sprengvorrichtung der Hamas verletzt worden sein. Israel kündigt eine nicht näher beschriebene Reaktion an. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-24T14:52:04.000Z"
+      },
+      {
         "id": "{urn:uuid:4759127c-77f7-4f72-afe0-7cda7ab4cdda}",
         "title": "Weihnachtsansprache: Bundeskanzler Merz stimmt Deutschland auf Verantwortung für Europa ein",
         "summary": "Friedrich Merz hält für 2026 Geduld und \"einen langen Atem\" für notwendig. Auch bedankte sich der Kanzler bei Menschen, die an Heiligabend arbeiten.",
         "paragraphs": [
           "Friedrich Merz hält für 2026 Geduld und \"einen langen Atem\" für notwendig. Auch bedankte sich der Kanzler bei Menschen, die an Heiligabend arbeiten."
         ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/weihnachtsansprache-bundeskanzler-merz-bittet-um-geduld",
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/weihnachtsansprache-bundeskanzler-merz-bittet-um-geduld-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-24T14:43:44.000Z"
       },
@@ -242,20 +253,9 @@
         "paragraphs": [
           "Delegationen aus Thailand und Kambodscha sind an einem Grenzkontrollpunkt eingetroffen. Dort verhandeln sie vier Tage lang über ein Ende der Kämpfe."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/thailand-kambodscha-grenzkonflikt-beratungen",
+        "link": "https://www.zeit.de/politik/ausland/2025-12/thailand-kambodscha-grenzkonflikt-beratungen-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-24T14:25:26.000Z"
-      },
-      {
-        "id": "{urn:uuid:ccfd24ed-0ffe-4e8b-b754-7a38a72c0027}",
-        "title": "Krieg in Gaza: Israel wirft der Hamas anhaltende Verstöße gegen Waffenstillstand vor",
-        "summary": "Ein israelischer Offizier soll mit einer Sprengvorrichtung der Hamas verletzt worden sein. Israel kündigt eine nicht näher beschriebene Reaktion an. Das Liveblog",
-        "paragraphs": [
-          "Ein israelischer Offizier soll mit einer Sprengvorrichtung der Hamas verletzt worden sein. Israel kündigt eine nicht näher beschriebene Reaktion an. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-24T14:20:56.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/sanktionen-bundesregierung-weist-us-vorwuerfe-gegen-hateaid-zurueck/100186553.html",
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/enttaeuschung-trotz-platz-11-koeln-braucht-ein-paar-tage-abstand-1178044/artikel#omrss",
+        "title": "Enttäuschung trotz Platz 11: Köln braucht \"ein paar Tage Abstand\"",
+        "summary": "Zum sechsten Mal in Folge blieb der 1. FC Köln am Samstag sieglos, verlor gegen Union Berlin mit 0:1. Noch zehrt der Aufsteiger von dem starken Saisonbeginn, doch der Negativlauf drückt auf die Stimmung.",
+        "paragraphs": [
+          "Zum sechsten Mal in Folge blieb der 1. FC Köln am Samstag sieglos, verlor gegen Union Berlin mit 0:1. Noch zehrt der Aufsteiger von dem starken Saisonbeginn, doch der Negativlauf drückt auf die Stimmung."
+        ],
+        "link": "https://www.kicker.de/enttaeuschung-trotz-platz-11-koeln-braucht-ein-paar-tage-abstand-1178044/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-24T14:56:35.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/er-ist-gefaehrlich-was-die-vier-deutschen-zum-drittrunden-einzug-sagen-1178603/artikel#omrss",
+        "title": "\"Er ist gefährlich\": Was die vier Deutschen zum Drittrunden-Einzug sagen",
+        "summary": "Ein deutsches Quartett wird auch nach Weihnachten bei der Darts-WM zu sehen sein. Einer von ihnen hat besonders gute Karten auf den Einzug ins Achtelfinale.",
+        "paragraphs": [
+          "Ein deutsches Quartett wird auch nach Weihnachten bei der Darts-WM zu sehen sein. Einer von ihnen hat besonders gute Karten auf den Einzug ins Achtelfinale."
+        ],
+        "link": "https://www.kicker.de/er-ist-gefaehrlich-was-die-vier-deutschen-zum-drittrunden-einzug-sagen-1178603/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-24T14:51:48.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/leihgeschaeft-bahnt-sich-an-jovanovic-vor-rueckkehr-zu-roter-stern-1178599/artikel#omrss",
+        "title": "Leihgeschäft bahnt sich an: Jovanovic vor Rückkehr zu Roter Stern",
+        "summary": "Für rund 4,5 Millionen Euro hatte sich der VfB Stuttgart im Sommer die Dienste von Lazar Jovanovic von Roter Stern Belgrad gesichert. Der 19-jährige Offensivspieler machte aber nur sechs Pflichtspiele und steht nun per Leihgeschäft vor der Rückkehr zu seinem Ex-Klub.",
+        "paragraphs": [
+          "Für rund 4,5 Millionen Euro hatte sich der VfB Stuttgart im Sommer die Dienste von Lazar Jovanovic von Roter Stern Belgrad gesichert. Der 19-jährige Offensivspieler machte aber nur sechs Pflichtspiele und steht nun per Leihgeschäft vor der Rückkehr zu seinem Ex-Klub."
+        ],
+        "link": "https://www.kicker.de/leihgeschaeft-bahnt-sich-an-jovanovic-vor-rueckkehr-zu-roter-stern-1178599/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-24T14:51:43.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/sport/fussball/2-bundesliga-joerg-schmadtke-wird-sportgeschaeftsfuehrer-bei-hannover-96-a-4fdfd1f2-fc1c-47b4-9f28-dff1f66a60d7",
         "title": "2. Bundesliga: Jörg Schmadtke wird Sportgeschäftsführer bei Hannover 96",
         "summary": "Er arbeitete bereits von Mai 2009 bis April 2013 für Hannover 96, nun beginnt Jörg Schmadtke eine weitere Amtszeit bei dem Fußball-Zweiligisten. Zuletzt war er beim FC Liverpool tätig gewesen.",
@@ -632,42 +665,20 @@
         "link": "https://www.kicker.de/tuerchen-24-der-hauptpreis-dein-exklusives-vip-fussballwochenende-1176077/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-24T07:35:34.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/darts-wm-2026-arno-merk-wirft-ex-weltmeister-peter-wright-aus-dem-turnier-a-91ff58b4-536d-470f-bb30-8f6ee1a1e839",
-        "title": "Darts-WM 2026: Arno Merk wirft Ex-Weltmeister Peter Wright aus dem Turnier",
-        "summary": "Der deutsche Dartsspieler Arno Merk hat bei der WM für eine Überraschung gesorgt. Er bezwang den früheren Weltmeister Peter Wright und ist nun der vierte Deutsche in der dritten Runde. Dort wartet der nächste Star.",
-        "paragraphs": [
-          "Der deutsche Dartsspieler Arno Merk hat bei der WM für eine Überraschung gesorgt. Er bezwang den früheren Weltmeister Peter Wright und ist nun der vierte Deutsche in der dritten Runde. Dort wartet der nächste Star."
-        ],
-        "link": "https://www.spiegel.de/sport/darts-wm-2026-arno-merk-wirft-ex-weltmeister-peter-wright-aus-dem-turnier-a-91ff58b4-536d-470f-bb30-8f6ee1a1e839#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-24T07:33:00.000Z"
-      },
-      {
-        "id": "li.3359375",
-        "title": "Biathlon: Norwegischer Weltcupsieger stirbt mit 27 Jahren",
-        "summary": "Der norwegische Biathlet Silvert Guttorm Bakken wird tot in seinem Hotelzimmer aufgefunden. Die Biathlonszene ist erschüttert.",
-        "paragraphs": [
-          "Der norwegische Biathlet Silvert Guttorm Bakken wird tot in seinem Hotelzimmer aufgefunden. Die Biathlonszene ist erschüttert."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/biathlon-norwegen-bakken-tot-li.3359375",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-24T07:32:59.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/dritte-niederlage-im-fuenften-spiel-okc-unterliegen-wemby-und-spurs-erneut-1178508/artikel#omrss",
-        "title": "Dritte Niederlage im fünften Spiel: OKC unterliegen Wemby und Spurs erneut",
-        "summary": "Nach einem Saisonstart, indem sie nahezu unbesiegbar wirkten, scheinen die Thunder zunehmend zu menscheln. Im Pokal-Rematch gegen die Spurs kassierte der Meister bereits seine dritte Niederlage im fünften Spiel.",
-        "paragraphs": [
-          "Nach einem Saisonstart, indem sie nahezu unbesiegbar wirkten, scheinen die Thunder zunehmend zu menscheln. Im Pokal-Rematch gegen die Spurs kassierte der Meister bereits seine dritte Niederlage im fünften Spiel."
-        ],
-        "link": "https://www.kicker.de/dritte-niederlage-im-fuenften-spiel-okc-unterliegen-wemby-und-spurs-erneut-1178508/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-24T06:46:02.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/bestenlisten/testbericht/powerstation-ecoflow-delta-3-max-plus-im-test-3000-watt-dauerleistung-und-2-kwh/vdn47w6?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Powerstation Ecoflow Delta 3 Max Plus im Test: 3 kW Leistung und 2 kWh",
+        "summary": "Das 3-kW-Kraftwerk im Härtetest: Setzt Ecoflows neues High-End-Modell den Standard für Camper, Handwerker und Notstrom?",
+        "paragraphs": [
+          "Das 3-kW-Kraftwerk im Härtetest: Setzt Ecoflows neues High-End-Modell den Standard für Camper, Handwerker und Notstrom?"
+        ],
+        "link": "https://www.heise.de/bestenlisten/testbericht/powerstation-ecoflow-delta-3-max-plus-im-test-3000-watt-dauerleistung-und-2-kwh/vdn47w6?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-24T15:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Mechanik-stirbt-vor-Display-Doppelscharnier-Smartphone-im-Haertetest-11124690.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Mechanik stirbt vor Display: Doppelscharnier-Smartphone im Härtetest",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Asus-baut-Noctuas-und-Phanteks-High-End-Luefter-nach-11124035.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-23T15:45:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Krankenkassen-wollen-einheitliches-Portal-fuer-Arzttermine-11124309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Krankenkassen wollen einheitliches Portal für Arzttermine",
-        "summary": "Die Suche nach einem Arzttermin treibt viele in die Verzweiflung. Die gesetzlichen Krankenkassen schlagen eine digitale Lösung vor. Doch es gibt auch Kritik.",
-        "paragraphs": [
-          "Die Suche nach einem Arzttermin treibt viele in die Verzweiflung. Die gesetzlichen Krankenkassen schlagen eine digitale Lösung vor. Doch es gibt auch Kritik."
-        ],
-        "link": "https://www.heise.de/news/Krankenkassen-wollen-einheitliches-Portal-fuer-Arzttermine-11124309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-23T15:11:00.000Z"
       }
     ]
   }
