@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-24T13:41:44.660Z",
+  "updatedAt": "2025-12-24T13:53:58.794Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:5f53b599-7aab-4a51-a65d-97a1658c2a99}",
+        "title": "Geldanlage: Goldpreis steigt erstmals über 4.500 Dollar je Feinunze",
+        "summary": "Angesichts von Krisen, Kriegen und wirtschaftlicher Instabilität vertrauen Anleger auf Gold als Anlagegut. Der Preis des Edelmetalls hat einen neuen Höchstwert erreicht.",
+        "paragraphs": [
+          "Angesichts von Krisen, Kriegen und wirtschaftlicher Instabilität vertrauen Anleger auf Gold als Anlagegut. Der Preis des Edelmetalls hat einen neuen Höchstwert erreicht."
+        ],
+        "link": "https://www.zeit.de/geld/2025-12/gold-geldanlage-rekordhoch",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-24T13:49:40.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/it-medien/la-repubblica-medienvielfalt-in-italien-unter-druck/100184384.html",
         "title": "„La Repubblica“: Wichtige Oppositionszeitungen vor dem Verkauf: Medienvielfalt in Italien unter Druck",
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/afd-cdu-politiker-warnen-eigene-partei-vor-zusammenarbeit-mit-afd/100186466.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-24T03:58:47.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/speedcat-wie-retrosneakers-puma-aufpeppen-sollten/100180350.html",
-        "title": "Speedcat: Wie Retrosneakers die Konzernmarke aufpeppen sollen  – und daran bisher scheitern",
-        "summary": "Konkurrent Adidas dominiert den Retrotrend. Doch dann brachte Puma den ikonischen Motorsport-Schuh Speedcat auf den Markt. Ein Erfolg. Nur bleibt die Frage, wie viel der Puma bringt.",
-        "paragraphs": [
-          "Konkurrent Adidas dominiert den Retrotrend. Doch dann brachte Puma den ikonischen Motorsport-Schuh Speedcat auf den Markt. Ein Erfolg. Nur bleibt die Frage, wie viel der Puma bringt."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/speedcat-wie-retrosneakers-puma-aufpeppen-sollten/100180350.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-24T03:00:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:fe8ff263-976e-4c3e-8a1d-9566be2f49f2}",
+        "title": "Sanktionen gegen HateAid: Bundesregierung verteidigt HateAid gegen Vorwürfe der US-Regierung",
+        "summary": "Die USA haben Sanktionen gegen die Chefinnen der Organisation HateAid verhängt. Außenminister Wadephul und Justizministerin Hubig kritisieren den Schritt deutlich.",
+        "paragraphs": [
+          "Die USA haben Sanktionen gegen die Chefinnen der Organisation HateAid verhängt. Außenminister Wadephul und Justizministerin Hubig kritisieren den Schritt deutlich."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/hateaid-sanktionen-usa-bundesjustizministerin-stefanie-hubig-gxe",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-24T13:43:42.000Z"
+      },
       {
         "id": "{urn:uuid:76991645-7ec6-456e-b935-b36c183156fd}",
         "title": "Falschinformationen: Parlament in Südkorea verabschiedet Gesetz gegen Fake News",
@@ -233,7 +244,7 @@
         ],
         "link": "https://www.zeit.de/politik/ausland/2025-12/suedkorea-parlament-gesetz-fakenews",
         "source": "ZEIT",
-        "publishedAt": "2025-12-24T13:29:22.000Z"
+        "publishedAt": "2025-12-24T13:42:33.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/rentenpolitik-die-rente-war-mal-sicher-bis-die-politik-sie-demontierte/100179758.html",
@@ -267,17 +278,6 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/ukraine-krieg-russland-friendsplan-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-24T12:31:34.000Z"
-      },
-      {
-        "id": "{urn:uuid:fe8ff263-976e-4c3e-8a1d-9566be2f49f2}",
-        "title": "Sanktionen gegen HateAid: Bundesregierung verteidigt HateAid gegen Vorwürfe der US-Regierung",
-        "summary": "Die USA haben Sanktionen gegen die Chefinnen der Organisation HateAid verhängt. Außenminister Wadephul und Justizministerin Hubig kritisieren den Schritt deutlich.",
-        "paragraphs": [
-          "Die USA haben Sanktionen gegen die Chefinnen der Organisation HateAid verhängt. Außenminister Wadephul und Justizministerin Hubig kritisieren den Schritt deutlich."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/hateaid-sanktionen-usa-bundesjustizministerin-stefanie-hubig-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-24T12:07:48.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-praesentiert-entwurf-von-20-punkte-friedensplan/100186562.html",
@@ -446,6 +446,17 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/weltfussballerin-aitana-plant-comeback-noch-in-dieser-saison-1178583/artikel#omrss",
+        "title": "Weltfußballerin Aitana plant Comeback noch in dieser Saison",
+        "summary": "Erst vergangene Woche feierte Aitana Bonmati ihren Hattrick als Weltfußballerin, der FIFA-Feier konnte sie wegen ihrer Verletzung nicht beiwohnen. Doch die Spanierin will in dieser Saison noch eingreifen.",
+        "paragraphs": [
+          "Erst vergangene Woche feierte Aitana Bonmati ihren Hattrick als Weltfußballerin, der FIFA-Feier konnte sie wegen ihrer Verletzung nicht beiwohnen. Doch die Spanierin will in dieser Saison noch eingreifen."
+        ],
+        "link": "https://www.kicker.de/weltfussballerin-aitana-plant-comeback-noch-in-dieser-saison-1178583/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-24T13:45:00.000Z"
+      },
       {
         "id": "https://www.kicker.de/das-bundesliga-quiz-bist-du-der-spieltag-experte-1178378/artikel#omrss",
         "title": "Quiz: Zehn Fragen zur bisherigen Bundesliga-Saison",
@@ -654,17 +665,6 @@
         "link": "https://www.zeit.de/sport/2025-12/sport-jahresrueckblick-2025-quiz",
         "source": "ZEIT",
         "publishedAt": "2025-12-24T05:56:24.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/13-tore-im-del-klassiker-adler-duepieren-den-meister-1178499/video#omrss",
-        "title": "13 Tore im DEL-Klassiker: Adler düpieren den Meister",
-        "summary": "Der DEL-Klassiker zwischen Mannheim und Berlin gestaltete sich am Ende weniger deutlich, als es das Ergebnis vermuten ließ. Zweimal kamen die Eisbären nach hohen Rückständen beinahe zurück. Die Partie gibt es hier im Video.",
-        "paragraphs": [
-          "Der DEL-Klassiker zwischen Mannheim und Berlin gestaltete sich am Ende weniger deutlich, als es das Ergebnis vermuten ließ. Zweimal kamen die Eisbären nach hohen Rückständen beinahe zurück. Die Partie gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/13-tore-im-del-klassiker-adler-duepieren-den-meister-1178499/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-23T23:17:17.000Z"
       }
     ],
     "edv": [
@@ -691,17 +691,6 @@
         "publishedAt": "2025-12-24T09:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Kontroverse: „Clair Obscur – Expedition 33“ verliert \"Indie-Spiel des Jahres\"",
-        "summary": "Eigentlich war „Clair Obscur – Expedition 33“ auch das Indie-Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis.",
-        "paragraphs": [
-          "Eigentlich war „Clair Obscur – Expedition 33“ auch das Indie-Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis."
-        ],
-        "link": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-24T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren",
         "summary": "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen.",
@@ -709,6 +698,17 @@
           "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen."
         ],
         "link": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-24T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI-Kontroverse: „Clair Obscur – Expedition 33“ verliert \"Indie-Spiel des Jahres\"",
+        "summary": "Eigentlich war „Clair Obscur – Expedition 33“ auch das Indie-Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis.",
+        "paragraphs": [
+          "Eigentlich war „Clair Obscur – Expedition 33“ auch das Indie-Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis."
+        ],
+        "link": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-24T09:00:00.000Z"
       },
