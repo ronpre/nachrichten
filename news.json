@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-24T10:18:07.982Z",
+  "updatedAt": "2025-12-24T10:33:17.025Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,15 +225,37 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:59053c77-30f8-4c8f-86f4-34df83c258bd}",
+        "title": "Flugzeugabsturz in der Türkei: Blackbox nach Absturz von Flugzeug des libyschen Militärchefs gefunden",
+        "summary": "Bei einem Flugzeugabsturz in der Türkei war der libysche General Al-Haddad umgekommen. Ermittler aus Libyen und der Türkei gehen von einem technischen Fehler aus.",
+        "paragraphs": [
+          "Bei einem Flugzeugabsturz in der Türkei war der libysche General Al-Haddad umgekommen. Ermittler aus Libyen und der Türkei gehen von einem technischen Fehler aus."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/flugzeugabsturz-tuerkei-blackbox-libyscher-general",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-24T10:21:28.000Z"
+      },
+      {
+        "id": "li.3359295",
+        "title": "Einreiseverbote: USA sanktionieren Führung der deutschen Organisation Hate Aid",
+        "summary": "Die beiden Geschäftsführerinnen Anna-Lena von Hodenberg und Josephine Ballon dürfen nicht mehr in die USA einreisen.",
+        "paragraphs": [
+          "Die beiden Geschäftsführerinnen Anna-Lena von Hodenberg und Josephine Ballon dürfen nicht mehr in die USA einreisen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/usa-hate-aid-einreiseverbote-li.3359295",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-24T10:21:00.000Z"
+      },
+      {
         "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Selenskyj präsentiert 20-Punkte-Plan zur Beendung des Krieges",
+        "title": "Krieg gegen die Ukraine: Selenskyj präsentiert 20-Punkte-Plan zur Beendigung des Krieges",
         "summary": "Der ukrainische Präsident spricht über die Ergebnisse der Beratungen mit den USA – noch gebe es offene Punkte. Von Russland wird nun eine Reaktion erwartet. Das Liveblog",
         "paragraphs": [
           "Der ukrainische Präsident spricht über die Ergebnisse der Beratungen mit den USA – noch gebe es offene Punkte. Von Russland wird nun eine Reaktion erwartet. Das Liveblog"
         ],
         "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
         "source": "ZEIT",
-        "publishedAt": "2025-12-24T10:10:20.000Z"
+        "publishedAt": "2025-12-24T10:15:44.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/energiewende-bund-subventioniert-strompreise-2026-mit-295-milliarden-euro/100182362.html",
@@ -325,7 +347,7 @@
       },
       {
         "id": "{urn:uuid:854d29dd-d058-47ce-b322-b891b9c9d7a8}",
-        "title": "Brombeer-Koalition: BSW-Aktionskreis in Thüringen kritisiert eigenen Landesvorstand",
+        "title": "Brombeerkoalition: BSW-Aktionskreis in Thüringen kritisiert eigenen Landesvorstand",
         "summary": "Die Regierung mit CDU und SPD in Thüringen steht innerhalb des BSW in der Kritik. Nun wenden sich rund 80 Mitglieder eines neuen Aktionskreises gegen den Landesvorstand.",
         "paragraphs": [
           "Die Regierung mit CDU und SPD in Thüringen steht innerhalb des BSW in der Kritik. Nun wenden sich rund 80 Mitglieder eines neuen Aktionskreises gegen den Landesvorstand."
@@ -379,17 +401,6 @@
         "publishedAt": "2025-12-24T05:41:53.000Z"
       },
       {
-        "id": "li.3359295",
-        "title": "Einreiseverbote: USA sanktionieren Führung der deutschen Organisation Hate Aid",
-        "summary": "Die beiden Geschäftsführerinnen Anna-Lena von Hodenberg und Josephine Ballon dürfen nicht mehr in die USA einreisen.",
-        "paragraphs": [
-          "Die beiden Geschäftsführerinnen Anna-Lena von Hodenberg und Josephine Ballon dürfen nicht mehr in die USA einreisen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-hate-aid-einreiseverbote-li.3359295",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-24T05:21:00.000Z"
-      },
-      {
         "id": "{urn:uuid:c33521b3-ea0b-48b2-a7d8-0b7ee2fcbcdd}",
         "title": "Telefonseelsorge: Ein offenes Ohr an Weihnachten",
         "summary": "Besonders in den Weihnachtstagen suchen viele Menschen Halt bei der Telefonseelsorge. Und: Yiwu gilt als Zentrum der Weihnachtsdeko. Sind die US-Zölle auch dort spürbar?",
@@ -432,20 +443,20 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/russland-syrien-militaer-zusammenarbeit-verbuendete-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-24T03:53:37.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/china-wo-shanghai-als-vorbild-fuer-europas-staedte-taugt/100176905.html",
-        "title": "China: Viele E-Autos, smarte Technik, hohe Lebensqualität – wo Shanghai Vorbild für Europas Städte ist",
-        "summary": "Chinas Wirtschaftsmetropole gilt als Vorreiter urbaner Entwicklung. Vieles hier könnte als Vorbild für westliche Städte dienen. Wenn da nicht der große Nachteil des Modells wäre.",
-        "paragraphs": [
-          "Chinas Wirtschaftsmetropole gilt als Vorreiter urbaner Entwicklung. Vieles hier könnte als Vorbild für westliche Städte dienen. Wenn da nicht der große Nachteil des Modells wäre."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/china-wo-shanghai-als-vorbild-fuer-europas-staedte-taugt/100176905.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-24T03:00:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/blockbuster-trade-ineos-grenadiers-holt-tourvierten-onley-1178551/artikel#omrss",
+        "title": "Blockbuster-Trade: Ineos Grenadiers holt Tourvierten Onley",
+        "summary": "Ineos Grenadiers dominierte lange Zeit den Radsport nach Belieben, zuletzt blieben Erfolge aber aus. Oscar Onley soll den britischen Rennstall wieder in eine glorreiche Zukunft führen.",
+        "paragraphs": [
+          "Ineos Grenadiers dominierte lange Zeit den Radsport nach Belieben, zuletzt blieben Erfolge aber aus. Oscar Onley soll den britischen Rennstall wieder in eine glorreiche Zukunft führen."
+        ],
+        "link": "https://www.kicker.de/blockbuster-trade-ineos-grenadiers-holt-tourvierten-onley-1178551/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-24T10:20:00.000Z"
+      },
       {
         "id": "https://www.kicker.de/berger-hat-noch-viel-vor-wm-ist-das-groesste-1178547/artikel#omrss",
         "title": "Berger hat noch viel vor: \"WM ist das Größte\"",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/beste-partie-der-wm-bisher-hood-spielt-sich-in-einen-rausch-1178474/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-23T20:56:31.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/wintersport/biathlon-norweger-sivert-guttorm-bakken-mit-27-gestorben-a-150dd9ad-a7af-4f89-8e40-22e3b1fce70e",
-        "title": "Biathlon: Norweger Sivert Guttorm Bakken mit 27 gestorben",
-        "summary": "Der norwegische Biathlet Sivert Guttorm Bakken ist tot. Nach einem gesundheitlichen Rückschlag hatte der 27-Jährige erst kürzlich den Weg zurück in den Weltcup gefunden. Die Nachricht hat seine Weggefährten tief erschüttert.",
-        "paragraphs": [
-          "Der norwegische Biathlet Sivert Guttorm Bakken ist tot. Nach einem gesundheitlichen Rückschlag hatte der 27-Jährige erst kürzlich den Weg zurück in den Weltcup gefunden. Die Nachricht hat seine Weggefährten tief erschüttert."
-        ],
-        "link": "https://www.spiegel.de/sport/wintersport/biathlon-norweger-sivert-guttorm-bakken-mit-27-gestorben-a-150dd9ad-a7af-4f89-8e40-22e3b1fce70e#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-23T20:53:00.000Z"
       }
     ],
     "edv": [
@@ -680,17 +680,6 @@
         "publishedAt": "2025-12-24T09:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Kontroverse: „Clair Obscur – Expedition 33“ verliert Preis \"Spiel des Jahres\"",
-        "summary": "Eigentlich war „Clair Obscur – Expedition 33“ das Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis.",
-        "paragraphs": [
-          "Eigentlich war „Clair Obscur – Expedition 33“ das Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis."
-        ],
-        "link": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-24T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren",
         "summary": "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen.",
@@ -698,6 +687,17 @@
           "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen."
         ],
         "link": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11109357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-24T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI-Kontroverse: „Clair Obscur – Expedition 33“ verliert Preis \"Spiel des Jahres\"",
+        "summary": "Eigentlich war „Clair Obscur – Expedition 33“ das Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis.",
+        "paragraphs": [
+          "Eigentlich war „Clair Obscur – Expedition 33“ das Spiel des Jahres 2025. Interview-Aussagen werden dem Spielestudio zum Verhängnis."
+        ],
+        "link": "https://www.heise.de/news/Clair-Obscur-Expedition-33-verliert-GOTY-Status-11124492.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-24T09:00:00.000Z"
       },
