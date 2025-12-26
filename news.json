@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-26T11:17:13.206Z",
+  "updatedAt": "2025-12-26T11:28:50.813Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:83974119-d29b-4e6a-b17d-5a4c8a50a043}",
+        "title": "Wein: Bauernverband sieht deutschen Weinbau in \"historischer Krise\"",
+        "summary": "Die 2025 geernteten Weintrauben sind von hoher Qualität – die Erntemenge jedoch war die geringste seit 15 Jahren. Der Deutsche Bauernverband zeigt sich alarmiert.",
+        "paragraphs": [
+          "Die 2025 geernteten Weintrauben sind von hoher Qualität – die Erntemenge jedoch war die geringste seit 15 Jahren. Der Deutsche Bauernverband zeigt sich alarmiert."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/wein-deutschland-ernte-export-usa",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-26T11:21:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/haushalt-richterbund-geldwaesche-volumen-bei-100-milliarden-im-jahr/100186862.html",
         "title": "Haushalt: Richterbund: Geldwäsche-Volumen bei 100 Milliarden im Jahr",
@@ -12,17 +23,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/haushalt-richterbund-geldwaesche-volumen-bei-100-milliarden-im-jahr/100186862.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-26T11:03:03.000Z"
-      },
-      {
-        "id": "{urn:uuid:83974119-d29b-4e6a-b17d-5a4c8a50a043}",
-        "title": "Deutscher Weinanbau: Bauernverband sieht deutschen Weinbau in \"historischer Krise\"",
-        "summary": "Die Ernte war 2025 von hoher Qualität. Trotzdem spricht der Bauernverband von einem alarmierendem wirtschaftlichen Zustand beim Deutschen Weinanbau.",
-        "paragraphs": [
-          "Die Ernte war 2025 von hoher Qualität. Trotzdem spricht der Bauernverband von einem alarmierendem wirtschaftlichen Zustand beim Deutschen Weinanbau."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/wein-deutschland-ernte-export-usa",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-26T11:00:44.000Z"
       },
       {
         "id": "li.3335536",
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/tuerkei-weitere-festnahmen-im-wettskandal-1178757/artikel#omrss",
+        "title": "Türkei: Weitere Festnahmen im Wettskandal",
+        "summary": "Der Wettskandal im türkischen Fußball weitet sich immer mehr aus. Jetzt kommt es zu weiteren Inhaftierungen. Auch ein früherer Spitzenfunktionär von Galatasaray ist darunter.",
+        "paragraphs": [
+          "Der Wettskandal im türkischen Fußball weitet sich immer mehr aus. Jetzt kommt es zu weiteren Inhaftierungen. Auch ein früherer Spitzenfunktionär von Galatasaray ist darunter."
+        ],
+        "link": "https://www.kicker.de/tuerkei-weitere-festnahmen-im-wettskandal-1178757/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-26T11:20:35.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/von-wegen-vize-finn-ein-jahr-fuer-die-ewigkeit-1172671/artikel#omrss",
+        "title": "Von wegen \"Vize-Finn\": Ein Jahr für die Ewigkeit",
+        "summary": "Vom ewigen Zweiten zum strahlenden Sieger: eSportler Levy Finn Rieck hat das Narrativ seiner Karriere um 180 Grad gedreht - und dabei einen Fluch gebrochen, an den er selbst nie glaubte.",
+        "paragraphs": [
+          "Vom ewigen Zweiten zum strahlenden Sieger: eSportler Levy Finn Rieck hat das Narrativ seiner Karriere um 180 Grad gedreht - und dabei einen Fluch gebrochen, an den er selbst nie glaubte."
+        ],
+        "link": "https://www.kicker.de/von-wegen-vize-finn-ein-jahr-fuer-die-ewigkeit-1172671/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-26T11:17:36.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/redick-knallhart-lakers-unprofessionell-und-desinteressiert-1178754/video#omrss",
+        "title": "Redick knallhart: Lakers unprofessionell und desinteressiert",
+        "summary": "Nach der 96:116-Niederlage gegen die Houston Rockets kritisierte Lakers-Trainer JJ Redick den Mangel an Interesse und Professionalität seiner Mannschaft. Das war in dieser Saison auch schon anders.",
+        "paragraphs": [
+          "Nach der 96:116-Niederlage gegen die Houston Rockets kritisierte Lakers-Trainer JJ Redick den Mangel an Interesse und Professionalität seiner Mannschaft. Das war in dieser Saison auch schon anders."
+        ],
+        "link": "https://www.kicker.de/redick-knallhart-lakers-unprofessionell-und-desinteressiert-1178754/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-26T11:14:09.000Z"
+      },
+      {
         "id": "https://www.kicker.de/tv-liebling-fussball-frauen-schlagen-erneut-die-maenner-1178750/artikel#omrss",
         "title": "TV-Liebling Fußball: Frauen schlagen erneut die Männer",
         "summary": "Was die Sportfans am liebsten im TV schauen: Bei der Fernseh-Bilanz des Jahres ist die Frauenfußball-Nationalmannschaft die Nummer eins. Im Quoten-Ranking gibt es weitere interessante Zahlen.",
@@ -632,39 +665,6 @@
         "link": "https://www.kicker.de/oklahoma-gegen-san-antonio-2025-nba-5159894/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-25T22:04:22.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/washington-gegen-dallas-2025-nfl-5040010/spielbericht#omrss",
-        "title": "Eine gute Halbzeit reicht: Cowboys schlagen Commanders",
-        "summary": "Die Dallas Cowboys haben das Christmas Game gegen die Washington Commanders mit 30:23 für sich entschieden. In einer über weite Strecken kontrollierten Partie setzte Dallas früh Akzente, musste im zweiten Durchgang aber noch einmal zittern, ehe Kicker Brandon Aubrey mit starken Nerven den Sieg absicherte.",
-        "paragraphs": [
-          "Die Dallas Cowboys haben das Christmas Game gegen die Washington Commanders mit 30:23 für sich entschieden. In einer über weite Strecken kontrollierten Partie setzte Dallas früh Akzente, musste im zweiten Durchgang aber noch einmal zittern, ehe Kicker Brandon Aubrey mit starken Nerven den Sieg absicherte."
-        ],
-        "link": "https://www.kicker.de/washington-gegen-dallas-2025-nfl-5040010/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-25T21:05:41.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/new-york-gegen-cleveland-2025-nba-5159893/spielbericht#omrss",
-        "title": "Wilde Aufholjagd: Knicks ringen Cleveland nieder",
-        "summary": "Die New York Knicks haben dank eines furiosen Schlussspurts das erste Christmas Game für sich entschieden. Gegen die Cleveland Cavaliers setzten sich die Knicks mit 126:124 durch, obwohl man im vierten Viertel noch mit 17 Punkten hinten lag.",
-        "paragraphs": [
-          "Die New York Knicks haben dank eines furiosen Schlussspurts das erste Christmas Game für sich entschieden. Gegen die Cleveland Cavaliers setzten sich die Knicks mit 126:124 durch, obwohl man im vierten Viertel noch mit 17 Punkten hinten lag."
-        ],
-        "link": "https://www.kicker.de/new-york-gegen-cleveland-2025-nba-5159893/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-25T19:46:53.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/koeln-gegen-bremerhaven-topspiel-in-mannheim-1178651/artikel#omrss",
-        "title": "Köln gegen Bremerhaven - Topspiel in Mannheim",
-        "summary": "Zweiter Weihnachtsfeiertag in der DEL: Im Rahmen des 32. Spieltag empfangen die Kölner Haie schon um 14 Uhr Bremerhaven. Später am Nachmittag (16.30 Uhr) kommt es zum Spitzenspiel von Tabellenführer Adler Mannheim gegen den ERC Ingolstadt, der nur zwei Punkte dahinter auf Platz vier liegt.",
-        "paragraphs": [
-          "Zweiter Weihnachtsfeiertag in der DEL: Im Rahmen des 32. Spieltag empfangen die Kölner Haie schon um 14 Uhr Bremerhaven. Später am Nachmittag (16.30 Uhr) kommt es zum Spitzenspiel von Tabellenführer Adler Mannheim gegen den ERC Ingolstadt, der nur zwei Punkte dahinter auf Platz vier liegt."
-        ],
-        "link": "https://www.kicker.de/koeln-gegen-bremerhaven-topspiel-in-mannheim-1178651/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-25T18:37:04.000Z"
       }
     ],
     "edv": [
