@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-27T18:06:54.602Z",
+  "updatedAt": "2025-12-27T18:20:25.769Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:8f39a879-d19d-4549-928d-c01a751fcd38}",
+        "title": "Iran: Irans Präsident wirft USA, Israel und Europa \"umfassenden Krieg\" vor",
+        "summary": "Irans Präsident Massud Peseschkian sieht sein Land nach eigenen Angaben in einem Krieg mit den USA, Israel und Europa. Dieser Krieg sei schlimmer als der Iran-Irak-Krieg.",
+        "paragraphs": [
+          "Irans Präsident Massud Peseschkian sieht sein Land nach eigenen Angaben in einem Krieg mit den USA, Israel und Europa. Dieser Krieg sei schlimmer als der Iran-Irak-Krieg."
+        ],
+        "link": "https://www.zeit.de/politik/2025-12/iran-praesident-massud-peseschkian-krieg-usa-israel-europa",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-27T18:04:54.000Z"
+      },
+      {
         "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
         "title": "Krieg gegen die Ukraine: Trump will Selenskyj am Sonntag um 21 Uhr MEZ in Florida empfangen",
         "summary": "Selenskyj reist zu Trumps Anwesen nach Palm Beach. Bei russischen Angriffen ist eine Frau gestorben. Das Liveblog",
@@ -432,20 +443,31 @@
         "link": "https://www.zeit.de/politik/deutschland/2025-12/koalitionsvertrag-thorsten-frei-dirk-wiese-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-27T11:29:25.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/eu-parlament-weber-schliesst-abstimmungen-mit-rechtsradikalen-nicht-aus/100187016.html",
-        "title": "Brandmauer: Weber schließt gemeinsame Abstimmungen mit Rechtsradikalen im EU-Parlament nicht aus",
-        "summary": "Erst im November konnte die EVP das Lieferkettengesetz im Europaparlament nur mit den Stimmen rechter und rechtsextremer Parteien abschwächen. Weitere Zusammenarbeit scheint möglich.",
-        "paragraphs": [
-          "Erst im November konnte die EVP das Lieferkettengesetz im Europaparlament nur mit den Stimmen rechter und rechtsextremer Parteien abschwächen. Weitere Zusammenarbeit scheint möglich."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/eu-parlament-weber-schliesst-abstimmungen-mit-rechtsradikalen-nicht-aus/100187016.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-27T11:24:42.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/das-herzstueck-der-neuen-fuechse-berlin-bindet-vier-u-21-weltmeister-1179047/artikel#omrss",
+        "title": "Das Herzstück der neuen Füchse: Berlin bindet vier U-21-Weltmeister",
+        "summary": "Traditionell im Weihnachtsspiel legen sich die Füchse Berlin gerne selbst Geschenke unter den Weihnachtsbaum. Vor dem Heimspiel in der Daikin HBL gegen Frisch Auf Göppingen verkündete Manager Bob Hanning gleich mehrere Vertragsverlängerungen und machte auch weitere Ankündigungen.",
+        "paragraphs": [
+          "Traditionell im Weihnachtsspiel legen sich die Füchse Berlin gerne selbst Geschenke unter den Weihnachtsbaum. Vor dem Heimspiel in der Daikin HBL gegen Frisch Auf Göppingen verkündete Manager Bob Hanning gleich mehrere Vertragsverlängerungen und machte auch weitere Ankündigungen."
+        ],
+        "link": "https://www.kicker.de/das-herzstueck-der-neuen-fuechse-berlin-bindet-vier-u-21-weltmeister-1179047/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T18:02:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ratajskis-furioses-comeback-18-mal-180-zwischen-clayton-und-zonneveld-1179046/video#omrss",
+        "title": "Ratajskis furioses Comeback - 18 mal 180 zwischen Clayton und Zonneveld",
+        "summary": "Nach einer dreitägigen Pause bekamen die Fans bei der Darts-WM am Samstag bereits in Session 1 einiges geboten. Krzysztof Ratajski gelang das Comeback gegen den Niederländer Wesley Plaisier. Im Duell zwischen Jonny Clayton und Niels Zonneveld fiel die Entscheidung erst in Satz sieben.",
+        "paragraphs": [
+          "Nach einer dreitägigen Pause bekamen die Fans bei der Darts-WM am Samstag bereits in Session 1 einiges geboten. Krzysztof Ratajski gelang das Comeback gegen den Niederländer Wesley Plaisier. Im Duell zwischen Jonny Clayton und Niels Zonneveld fiel die Entscheidung erst in Satz sieben."
+        ],
+        "link": "https://www.kicker.de/ratajskis-furioses-comeback-18-mal-180-zwischen-clayton-und-zonneveld-1179046/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T17:53:02.000Z"
+      },
       {
         "id": "https://www.kicker.de/senegal-gegen-dr-kongo-2025-afrika-cup-4996099/spielbericht#omrss",
         "title": "Senegal und DR Kongo bringen sich um den vorzeitigen Achtelfinal-Einzug",
@@ -547,7 +569,7 @@
       },
       {
         "id": "https://www.kicker.de/chelsea-gegen-villa-2025-premier-league-5045177/spielbericht#omrss",
-        "title": "LIVE! Villa sehr passiv: Chelsea-Führung liegt in der Luft",
+        "title": "LIVE! Ein Standard muss herhalten: Chelsea verdient vorne",
         "summary": "Das Spiel zwischen Chelsea und Aston Villa ist in der Premier League ein echtes Top-Duell: Der Fünfte empfängt den Dritten. Können die Blues den Anschluss zu den Villans halten?",
         "paragraphs": [
           "Das Spiel zwischen Chelsea und Aston Villa ist in der Premier League ein echtes Top-Duell: Der Fünfte empfängt den Dritten. Können die Blues den Anschluss zu den Villans halten?"
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/kommt-aus-ahlen-lewejohann-ist-neuer-bocholt-coach-1179024/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T16:44:04.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/irres-rennen-in-der-afc-fuenf-teams-kaempfen-um-platz-1-1178567/artikel#omrss",
-        "title": "Irres Rennen in der AFC: Fünf Teams kämpfen um Platz 1",
-        "summary": "In der AFC ist an den verbleibenden zwei Spieltagen noch alles offen. Zwar stehen die Playoff-Teilnehmer weitgehend fest, doch fünf Teams kämpfen an der Spitze der Conference um den begehrten ersten Platz und die damit verbundene Bye Week in der ersten Runde der NFL Playoffs.",
-        "paragraphs": [
-          "In der AFC ist an den verbleibenden zwei Spieltagen noch alles offen. Zwar stehen die Playoff-Teilnehmer weitgehend fest, doch fünf Teams kämpfen an der Spitze der Conference um den begehrten ersten Platz und die damit verbundene Bye Week in der ersten Runde der NFL Playoffs."
-        ],
-        "link": "https://www.kicker.de/irres-rennen-in-der-afc-fuenf-teams-kaempfen-um-platz-1-1178567/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T16:16:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/fussball/fc-liverpool-soehne-von-diogo-jota-als-einlaufkinder-bei-spiel-gegen-wolverhampton-a-509939f2-aae8-4d8b-baf7-1a0c4e452a92",
-        "title": "FC Liverpool: Söhne von Diogo Jota als Einlaufkinder bei Spiel gegen Wolverhampton",
-        "summary": "Erstmals seit dem Tod von Diogo Jota trafen seine Ex-Klubs FC Liverpool und Wolverhampton Wanderers aufeinander. Während die Fans an den Stürmer erinnerten, betraten Jotas Kinder gemeinsam mit Virgil van Dijk den Rasen.",
-        "paragraphs": [
-          "Erstmals seit dem Tod von Diogo Jota trafen seine Ex-Klubs FC Liverpool und Wolverhampton Wanderers aufeinander. Während die Fans an den Stürmer erinnerten, betraten Jotas Kinder gemeinsam mit Virgil van Dijk den Rasen."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/fc-liverpool-soehne-von-diogo-jota-als-einlaufkinder-bei-spiel-gegen-wolverhampton-a-509939f2-aae8-4d8b-baf7-1a0c4e452a92#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-27T15:59:00.000Z"
       }
     ],
     "edv": [
