@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-27T16:18:31.902Z",
+  "updatedAt": "2025-12-27T16:34:22.469Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:d1fb8ba8-72f5-4ab4-9784-9406e20565f0}",
+        "title": "Nach Luftangriffen: Saudi-Arabien fordert Separatisten zum Rückzug auf",
+        "summary": "Nach überraschenden Luftangriffen hat Saudi-Arabien den Separatisten im Jemen mit weiteren Attacken gedroht. Diese wollen allerdings nicht von ihren Zielen abrücken.",
+        "paragraphs": [
+          "Nach überraschenden Luftangriffen hat Saudi-Arabien den Separatisten im Jemen mit weiteren Attacken gedroht. Diese wollen allerdings nicht von ihren Zielen abrücken."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/jemen-saudi-arabien-separatisten-rueckzug",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-27T16:25:48.000Z"
+      },
+      {
         "id": "li.3360122",
         "title": "Millionenvermögen beschlagnahmt: Mutmaßliche Hamas-Unterstützer in Italien festgenommen",
         "summary": "Ermittler decken ein mutmaßliches Netzwerk zur Unterstützung der islamistischen Organisation auf. Unter dem Deckmantel von Wohltätigkeit sollen aus Italien Millionen an die Hamas geflossen sein.",
@@ -432,20 +443,31 @@
         "link": "https://www.spiegel.de/politik/deutschland/ursula-von-der-leyen-ein-katastrophales-jahr-fuer-die-eu-kommissionschefin-a-2b32ee6b-c967-4993-a52f-fd36924d191c#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-27T10:57:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/friedrich-merz-knigge-experte-lobt-umgangsformen-des-bundeskanzlers-a-c26fab59-6eea-45a8-95ea-575cc853f57a",
-        "title": "Friedrich Merz: Knigge-Experte lobt Umgangsformen des Bundeskanzlers",
-        "summary": "Bundeskanzler Friedrich Merz beweist gute Manieren, meint der Vorsitzende der Deutschen Knigge-Gesellschaft. Für seine Krawatten mit Tiermotiven nennt er klare Regeln.",
-        "paragraphs": [
-          "Bundeskanzler Friedrich Merz beweist gute Manieren, meint der Vorsitzende der Deutschen Knigge-Gesellschaft. Für seine Krawatten mit Tiermotiven nennt er klare Regeln."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-knigge-experte-lobt-umgangsformen-des-bundeskanzlers-a-c26fab59-6eea-45a8-95ea-575cc853f57a#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-27T10:49:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/irres-rennen-in-der-afc-fuenf-teams-kaempfen-um-platz-1-1178567/artikel#omrss",
+        "title": "Irres Rennen in der AFC: Fünf Teams kämpfen um Platz 1",
+        "summary": "In der AFC ist an den verbleibenden zwei Spieltagen noch alles offen. Zwar stehen die Playoff-Teilnehmer weitgehend fest, doch fünf Teams kämpfen an der Spitze der Conference um den begehrten ersten Platz und die damit verbundene Bye Week in der ersten Runde der NFL Playoffs.",
+        "paragraphs": [
+          "In der AFC ist an den verbleibenden zwei Spieltagen noch alles offen. Zwar stehen die Playoff-Teilnehmer weitgehend fest, doch fünf Teams kämpfen an der Spitze der Conference um den begehrten ersten Platz und die damit verbundene Bye Week in der ersten Runde der NFL Playoffs."
+        ],
+        "link": "https://www.kicker.de/irres-rennen-in-der-afc-fuenf-teams-kaempfen-um-platz-1-1178567/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T16:16:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
+        "title": "Der Spielplan der Darts-WM 2026",
+        "summary": "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick.",
+        "paragraphs": [
+          "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick."
+        ],
+        "link": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T16:15:04.000Z"
+      },
       {
         "id": "https://www.spiegel.de/sport/fussball/fc-liverpool-soehne-von-diogo-jota-als-einlaufkinder-bei-spiel-gegen-wolverhampton-a-509939f2-aae8-4d8b-baf7-1a0c4e452a92",
         "title": "FC Liverpool: Söhne von Diogo Jota als Einlaufkinder bei Spiel gegen Wolverhampton",
@@ -491,13 +513,13 @@
         "publishedAt": "2025-12-27T14:33:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-wirtz-erzielt-erstes-tor-fuer-liverpool-schade-schnuert-doppelpack-arsenal-auf-kurs-1178992/artikel#omrss",
-        "title": "LIVE! Wirtz erzielt erstes Tor für Liverpool - Schade schnürt Doppelpack - Arsenal auf Kurs",
+        "id": "https://www.kicker.de/live-wirtz-erzielt-erstes-tor-fuer-liverpool-schade-schnuert-doppelpack-arsenal-zittert-ploetzlich-1178992/artikel#omrss",
+        "title": "LIVE! Wirtz erzielt erstes Tor für Liverpool - Schade schnürt Doppelpack - Arsenal zittert plötzlich",
         "summary": "Der FC Liverpool empfängt am 18. Spieltag der Premier League das Schlusslicht aus Wolverhampton. Zeitgleich muss der FC Arsenal gegen Fabian Hürzelers Brighton ran.",
         "paragraphs": [
           "Der FC Liverpool empfängt am 18. Spieltag der Premier League das Schlusslicht aus Wolverhampton. Zeitgleich muss der FC Arsenal gegen Fabian Hürzelers Brighton ran."
         ],
-        "link": "https://www.kicker.de/live-wirtz-erzielt-erstes-tor-fuer-liverpool-schade-schnuert-doppelpack-arsenal-auf-kurs-1178992/artikel#omrss",
+        "link": "https://www.kicker.de/live-wirtz-erzielt-erstes-tor-fuer-liverpool-schade-schnuert-doppelpack-arsenal-zittert-ploetzlich-1178992/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T14:19:43.000Z"
       },
@@ -514,7 +536,7 @@
       },
       {
         "id": "https://www.kicker.de/senegal-gegen-dr-kongo-2025-afrika-cup-4996099/spielbericht#omrss",
-        "title": "LIVE! Vorzeitiger Achtelfinal-Einzug möglich: Senegal beißt sich an der DR Kongo die Zähne aus",
+        "title": "LIVE! Bakambus Abstauber schockt den Senegal",
         "summary": "Sowohl Senegal als auch Kongo hat am 1. Spieltag des Afrika-Cups gewonnen. Dadurch haben beide Nationen schon an Spieltag 2 die Chance, den Einzug ins Achtelfinale klarzumachen.",
         "paragraphs": [
           "Sowohl Senegal als auch Kongo hat am 1. Spieltag des Afrika-Cups gewonnen. Dadurch haben beide Nationen schon an Spieltag 2 die Chance, den Einzug ins Achtelfinale klarzumachen."
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/eintracht-praesident-kritisiert-eigene-fans-diese-dinge-machen-mich-wuetend-1178940/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T10:52:19.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/darts-weltmeister-littler-spricht-ueber-augen-op-als-kind-1178949/artikel#omrss",
-        "title": "Darts-Weltmeister Littler spricht über Augen-OP als Kind",
-        "summary": "Vom schielenden Kind zum jüngsten Darts-Champion: Wie Luke Littlers Augen-OP ihm die Sicht auf eine außergewöhnliche Karriere eröffnete.",
-        "paragraphs": [
-          "Vom schielenden Kind zum jüngsten Darts-Champion: Wie Luke Littlers Augen-OP ihm die Sicht auf eine außergewöhnliche Karriere eröffnete."
-        ],
-        "link": "https://www.kicker.de/darts-weltmeister-littler-spricht-ueber-augen-op-als-kind-1178949/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T10:36:39.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/fussball/afrika-cup-mohamed-salahs-tor-sichert-aegypten-den-einzug-ins-achtelfinale-a-8b9788c3-0ab8-4cbb-8cdf-17e70512ec4e",
-        "title": "Afrika-Cup: Liverpool-Star Mohamed Salah schießt Ägypten ins Achtelfinale",
-        "summary": "Beim FC Liverpool durchlebt Mohamed Salah gerade eine schwere Zeit, im Nationaltrikot erlebt er hingegen einen Glücksmoment: Ägypten steht dank eines Tors des Stürmers im Achtelfinale des Afrika-Cups.",
-        "paragraphs": [
-          "Beim FC Liverpool durchlebt Mohamed Salah gerade eine schwere Zeit, im Nationaltrikot erlebt er hingegen einen Glücksmoment: Ägypten steht dank eines Tors des Stürmers im Achtelfinale des Afrika-Cups."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/afrika-cup-mohamed-salahs-tor-sichert-aegypten-den-einzug-ins-achtelfinale-a-8b9788c3-0ab8-4cbb-8cdf-17e70512ec4e#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-27T10:19:00.000Z"
       }
     ],
     "edv": [
@@ -703,7 +703,7 @@
       },
       {
         "id": "https://www.heise.de/news/Ueber-220-m3-Flaeche-Neuer-Satellit-von-AST-SpaceMobile-ist-noch-groesser-11125164.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Über 220 m³ Fläche: Neuer Satellit von AST SpaceMobile ist noch größer",
+        "title": "Über 220 m² Fläche: Neuer Satellit von AST SpaceMobile ist noch größer",
         "summary": "An riesige Satelliten will AST SpaceMobile handelsübliche Smartphones direkt anbinden. Nun ist ein noch größerer gestartet, dutzende sollen 2026 folgen.",
         "paragraphs": [
           "An riesige Satelliten will AST SpaceMobile handelsübliche Smartphones direkt anbinden. Nun ist ein noch größerer gestartet, dutzende sollen 2026 folgen."
