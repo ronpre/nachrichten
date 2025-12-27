@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-27T17:17:07.277Z",
+  "updatedAt": "2025-12-27T17:29:43.137Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Trump will Selenskyj am Sonntag um 21 Uhr MEZ in Florida empfangen",
+        "summary": "Selenskyj reist zu Trumps Anwesen nach Palm Beach. Bei russischen Angriffen ist eine Frau gestorben. Das Liveblog",
+        "paragraphs": [
+          "Selenskyj reist zu Trumps Anwesen nach Palm Beach. Bei russischen Angriffen ist eine Frau gestorben. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-27T17:11:21.000Z"
+      },
+      {
         "id": "{urn:uuid:f45a0cfa-e73d-4607-b484-f475e0503a62}",
         "title": "Israelische Anerkennung Somalilands: Was will Israel von Somaliland?",
         "summary": "Arabische Staaten und die Türkei kritisieren Israels Anerkennung von Somaliland. Warum es dabei zunächst wohl nicht um die Umsiedlung von Palästinensern geht.",
@@ -432,26 +443,59 @@
         "link": "https://www.handelsblatt.com/politik/international/eu-parlament-weber-schliesst-abstimmungen-mit-rechtsradikalen-nicht-aus/100187016.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-27T11:24:42.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/diplomatie-israel-erkennt-somaliland-als-staat-an/100187013.html",
-        "title": "Diplomatie: Israel erkennt Somaliland als Staat an",
-        "summary": "Als erstes Land hat Israel die Region im Norden Somalias als souveränen Staat anerkannt. Der Schritt sorgt in der Region für Empörung. Welche Absichten verfolgt Israel mit dem Vorgehen?",
-        "paragraphs": [
-          "Als erstes Land hat Israel die Region im Norden Somalias als souveränen Staat anerkannt. Der Schritt sorgt in der Region für Empörung. Welche Absichten verfolgt Israel mit dem Vorgehen?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/diplomatie-israel-erkennt-somaliland-als-staat-an/100187013.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-27T11:10:32.000Z"
       }
     ],
     "sport": [
       {
+        "id": "https://www.spiegel.de/sport/wintersport/skispringen-katharina-schmid-will-karriere-nach-olympischen-spielen-beenden-a-23588cb7-ce11-4da4-acbc-5016d8cfc993",
+        "title": "Skispringen: Katharina Schmid will Karriere nach Olympischen Spielen beenden",
+        "summary": "Katharina Schmid, die einen Teil ihrer Erfolge unter dem Namen Althaus einfuhr, gehört zu den größten Skispringerinnen der Geschichte. Doch nach diesem Winter ist Schluss – damit wird sie einen Meilenstein verpassen.",
+        "paragraphs": [
+          "Katharina Schmid, die einen Teil ihrer Erfolge unter dem Namen Althaus einfuhr, gehört zu den größten Skispringerinnen der Geschichte. Doch nach diesem Winter ist Schluss – damit wird sie einen Meilenstein verpassen."
+        ],
+        "link": "https://www.spiegel.de/sport/wintersport/skispringen-katharina-schmid-will-karriere-nach-olympischen-spielen-beenden-a-23588cb7-ce11-4da4-acbc-5016d8cfc993#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-27T17:21:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/brentford-gegen-bournemouth-2025-premier-league-5045175/spielbericht#omrss",
+        "title": "Dreifacher Schade schießt Brentford zum Sieg gegen Bournemouth",
+        "summary": "Dank eines Dreierpacks von Kevin Schade gewinnt der FC Brentford mit 4:1 gegen Bournemouth. Auch ein Hackentreffer von Antoine Semenyo brachte die Partie nicht zum Kippen.",
+        "paragraphs": [
+          "Dank eines Dreierpacks von Kevin Schade gewinnt der FC Brentford mit 4:1 gegen Bournemouth. Auch ein Hackentreffer von Antoine Semenyo brachte die Partie nicht zum Kippen."
+        ],
+        "link": "https://www.kicker.de/brentford-gegen-bournemouth-2025-premier-league-5045175/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T17:18:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/die-winter-neuzugaenge-der-drittligisten-im-ueberblick-986927/artikel#omrss",
+        "title": "Die Winter-Neuzugänge der Drittligisten im Überblick",
+        "summary": "In der Winterpause haben die 20 Drittligisten die Möglichkeit, ihre Kader nachzurüsten. Die bisherigen Winter-Neuzugänge im Überblick ...",
+        "paragraphs": [
+          "In der Winterpause haben die 20 Drittligisten die Möglichkeit, ihre Kader nachzurüsten. Die bisherigen Winter-Neuzugänge im Überblick ..."
+        ],
+        "link": "https://www.kicker.de/die-winter-neuzugaenge-der-drittligisten-im-ueberblick-986927/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T17:16:53.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/torschuetze-im-pokalfinale-osnabrueck-holt-kania-aus-bielefeld-1178743/artikel#omrss",
+        "title": "Torschütze im Pokalfinale: Osnabrück holt Kania aus Bielefeld",
+        "summary": "Der VfL Osnabrück hat in der Abteilung Attacke nachgelegt und sich eine Spielklasse höher bedient. Der neue Stürmer weiß, wie man in der 3. Liga Tore macht.",
+        "paragraphs": [
+          "Der VfL Osnabrück hat in der Abteilung Attacke nachgelegt und sich eine Spielklasse höher bedient. Der neue Stürmer weiß, wie man in der 3. Liga Tore macht."
+        ],
+        "link": "https://www.kicker.de/torschuetze-im-pokalfinale-osnabrueck-holt-kania-aus-bielefeld-1178743/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T17:14:32.000Z"
+      },
+      {
         "id": "li.3360118",
         "title": "Premier League: Große Erleichterung: Wirtz trifft erstmals für Liverpool",
-        "summary": "Am 18. Spieltag gelingt dem deutschen Nationalspieler sein erster Premier-League-Treffer. Auch Tabellenführer Arsenal jubelt.",
+        "summary": "In seinem 23. Spiel für Liverpool gelingt dem deutschen Nationalspieler sein erster Premier-League-Treffer. Auch Tabellenführer Arsenal jubelt.",
         "paragraphs": [
-          "Am 18. Spieltag gelingt dem deutschen Nationalspieler sein erster Premier-League-Treffer. Auch Tabellenführer Arsenal jubelt."
+          "In seinem 23. Spiel für Liverpool gelingt dem deutschen Nationalspieler sein erster Premier-League-Treffer. Auch Tabellenführer Arsenal jubelt."
         ],
         "link": "https://www.sueddeutsche.de/sport/premier-league-liverpool-arsenal-wirtz-ergebnisse-tore-tabelle-li.3360118",
         "source": "Sueddeutsche",
@@ -489,6 +533,17 @@
         "link": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T17:00:24.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/sensationelles-comeback-von-ratajski-krimi-zwischen-clayton-und-zonneveld-1178959/artikel#omrss",
+        "title": "Sensationelles Comeback von Ratajski - Krimi zwischen Clayton und Zonneveld",
+        "summary": "Zum Start in die 3. Runde lieferte die Darts-WM neben hochklassigen Duellen auch enorme Spannung. Zwar ließen sich die Favoriten nicht lumpen, mussten jedoch ihr ganzes Können beweisen.",
+        "paragraphs": [
+          "Zum Start in die 3. Runde lieferte die Darts-WM neben hochklassigen Duellen auch enorme Spannung. Zwar ließen sich die Favoriten nicht lumpen, mussten jedoch ihr ganzes Können beweisen."
+        ],
+        "link": "https://www.kicker.de/sensationelles-comeback-von-ratajski-krimi-zwischen-clayton-und-zonneveld-1178959/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T16:59:01.000Z"
       },
       {
         "id": "https://www.kicker.de/livingston-gegen-celtic-2025-scottish-premiership-5047720/spielbericht#omrss",
@@ -579,17 +634,6 @@
         "publishedAt": "2025-12-27T15:01:01.000Z"
       },
       {
-        "id": "https://www.kicker.de/nottingham-gegen-mancity-2025-premier-league-5045181/spielbericht#omrss",
-        "title": "Cherki per feinem Dropkick: ManCity feiert Arbeitssieg in Nottingham",
-        "summary": "Manchester City gewinnt wettbewerbsübergreifend auch das achte Spiel in Folge und erhöht an der Tabellenspitze den Druck auf Konkurrent Arsenal. Beim mühsamen 2:1 in Nottingham brachte ein Traumtor von Rayan Cherki den Sieg für die Skyblues.",
-        "paragraphs": [
-          "Manchester City gewinnt wettbewerbsübergreifend auch das achte Spiel in Folge und erhöht an der Tabellenspitze den Druck auf Konkurrent Arsenal. Beim mühsamen 2:1 in Nottingham brachte ein Traumtor von Rayan Cherki den Sieg für die Skyblues."
-        ],
-        "link": "https://www.kicker.de/nottingham-gegen-mancity-2025-premier-league-5045181/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T14:42:18.000Z"
-      },
-      {
         "id": "https://www.spiegel.de/sport/fussball/nachruf-auf-john-robertson-der-held-mit-dem-fischerhut-der-hamburg-den-titel-klaute-a-a8a9ae53-a4c7-4645-9c9b-b19064b2453e",
         "title": "John Robertson ist tot: Der Held mit dem Fischerhut, der Hamburg den Titel klaute",
         "summary": "John Robertson führte seinen Klub Nottingham Forest auf den europäischen Thron. Die Fans liebten ihn, auch weil er Schicksalsschläge verkraften musste. Nun ist er im Alter von 72 Jahren gestorben.",
@@ -621,50 +665,6 @@
         "link": "https://www.kicker.de/senegal-gegen-dr-kongo-2025-afrika-cup-4996099/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T14:00:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/parma-gegen-fiorentina-2025-serie-a-5042202/spielbericht#omrss",
-        "title": "Niederlage in Parma: Nächster Rückschlag für Schlusslicht Florenz bei Gosens-Comeback",
-        "summary": "Die AC Florenz kommt aus dem aktuellen Negativstrudel einfach nicht heraus. Auch gegen Abstiegskonkurrent Parma Calcio musste die Fiorentina, nachdem man zuletzt zumindest mal den ersten Sieg einfahren konnte, erneut eine Pleite hinnehmen.",
-        "paragraphs": [
-          "Die AC Florenz kommt aus dem aktuellen Negativstrudel einfach nicht heraus. Auch gegen Abstiegskonkurrent Parma Calcio musste die Fiorentina, nachdem man zuletzt zumindest mal den ersten Sieg einfahren konnte, erneut eine Pleite hinnehmen."
-        ],
-        "link": "https://www.kicker.de/parma-gegen-fiorentina-2025-serie-a-5042202/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T13:44:20.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/am-semmering-dritter-streich-fuer-scheib-duerr-10-1178755/artikel#omrss",
-        "title": "Am Semmering: Dritter Streich für Scheib - Dürr 10.",
-        "summary": "Julia Scheib gewinnt vor heimischer Kulisse am Zauberberg von Semmering, feiert damit im Riesenslalom bereits ihren dritten Saisonsieg und übernimmt die Führung in der Disziplinwertung. Lena Dürr landete in den Top Ten.",
-        "paragraphs": [
-          "Julia Scheib gewinnt vor heimischer Kulisse am Zauberberg von Semmering, feiert damit im Riesenslalom bereits ihren dritten Saisonsieg und übernimmt die Führung in der Disziplinwertung. Lena Dürr landete in den Top Ten."
-        ],
-        "link": "https://www.kicker.de/am-semmering-dritter-streich-fuer-scheib-duerr-10-1178755/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T13:12:18.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/sportswashing-in-diesen-sportarten-stecken-milliarden-aus-saudi-arabien-a-bd3ca954-4470-44c1-9a12-85415fdb4e54",
-        "title": "Sportswashing: In diesen Sportarten stecken Milliarden aus Saudi-Arabien",
-        "summary": "Mit mehr als 50 Milliarden Euro versucht Saudi-Arabien, sein Image aufzupolieren, und erkauft sich dafür Einfluss auf mehr als 25 Sportarten. Auch wenn die Athleten für ganz andere Werte einstehen als der autoritäre Staat.",
-        "paragraphs": [
-          "Mit mehr als 50 Milliarden Euro versucht Saudi-Arabien, sein Image aufzupolieren, und erkauft sich dafür Einfluss auf mehr als 25 Sportarten. Auch wenn die Athleten für ganz andere Werte einstehen als der autoritäre Staat."
-        ],
-        "link": "https://www.spiegel.de/sport/sportswashing-in-diesen-sportarten-stecken-milliarden-aus-saudi-arabien-a-bd3ca954-4470-44c1-9a12-85415fdb4e54#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-27T13:08:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/parrondo-das-ganze-jahr-war-nicht-normal-1178931/artikel#omrss",
-        "title": "Parrondo: \"Das ganze Jahr war nicht normal\"",
-        "summary": "Die Hinrunde lief für die MT Melsungen ganz und gar nicht nach Plan. Immer wieder fehlten zahlreiche Leistungsträger. Auch beim 33:28 gegen den TVB Stuttgart saß Co-Trainer Isaias Guardiola mit auf der Bank, weil acht Spieler fehlten. Chefcoach Roberto Garcia Parrondo hat nur einen Wunsch fürs neue Jahr.",
-        "paragraphs": [
-          "Die Hinrunde lief für die MT Melsungen ganz und gar nicht nach Plan. Immer wieder fehlten zahlreiche Leistungsträger. Auch beim 33:28 gegen den TVB Stuttgart saß Co-Trainer Isaias Guardiola mit auf der Bank, weil acht Spieler fehlten. Chefcoach Roberto Garcia Parrondo hat nur einen Wunsch fürs neue Jahr."
-        ],
-        "link": "https://www.kicker.de/parrondo-das-ganze-jahr-war-nicht-normal-1178931/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T12:51:00.000Z"
       }
     ],
     "edv": [
