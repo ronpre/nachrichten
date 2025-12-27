@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-27T09:18:04.061Z",
+  "updatedAt": "2025-12-27T09:31:12.281Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:0f645db0-54d9-4ad0-a26d-b64f13ac053d}",
+        "title": "EU-Parlament: Manfred Weber schließt Votieren mit Rechtsextremen nicht aus",
+        "summary": "Der EVP-Chef sieht in einzelnen gemeinsamen Abstimmungen mit rechtsextremen Parteien im Europaparlament kein Problem. Die Brandmauer stehe, sagte Weber.",
+        "paragraphs": [
+          "Der EVP-Chef sieht in einzelnen gemeinsamen Abstimmungen mit rechtsextremen Parteien im Europaparlament kein Problem. Die Brandmauer stehe, sagte Weber."
+        ],
+        "link": "https://www.zeit.de/politik/2025-12/evp-manfred-weber-brandmauer",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-27T09:19:35.000Z"
+      },
+      {
         "id": "{urn:uuid:9172d84e-1f85-46f9-8002-b2d07726cb36}",
         "title": "Bundestagspräsidentin: Julia Klöckner fordert besseren Schutz des Bundestags",
         "summary": "Bundestagspräsidentin Julia Klöckner hat neue Regeln für den Schutz des Bundestags angeregt. Unter anderem soll die Bundestagspolizei mehr Befugnisse bekommen.",
@@ -236,22 +247,11 @@
         "publishedAt": "2025-12-27T09:08:29.000Z"
       },
       {
-        "id": "{urn:uuid:0f645db0-54d9-4ad0-a26d-b64f13ac053d}",
-        "title": "EU-Parlament: Manfred Weber schließt Votieren mit Rechtsextremen nicht aus",
-        "summary": "Der EVP-Chef sieht in einzelnen gemeinsamen Abstimmungen mit rechtsextremen Parteien im Europaparlament kein Problem. Die Brandmauer stehe, sagte Weber.",
-        "paragraphs": [
-          "Der EVP-Chef sieht in einzelnen gemeinsamen Abstimmungen mit rechtsextremen Parteien im Europaparlament kein Problem. Die Brandmauer stehe, sagte Weber."
-        ],
-        "link": "https://www.zeit.de/politik/2025-12/evp-manfred-weber-brandmauer",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-27T08:58:07.000Z"
-      },
-      {
         "id": "https://www.spiegel.de/politik/manfred-weber-evp-chef-schliesst-erneute-mehrheiten-mit-rechtsextremen-nicht-aus-a-9d6d4cd0-f469-4e19-8375-ec4082be5b34",
         "title": "Manfred Weber: EVP-Chef schließt erneute Mehrheiten mit Rechtsextremen nicht aus",
-        "summary": "Eine strukturierte Zusammenarbeit mit rechtsradikalen Parteien will EVP-Vorsitzende Manfred Weber zwar nicht. Gemeinsame Mehrheiten, um »illegale Migration zu stoppen und unseren Wohlstand zu sichern« scheinen ihm aber recht zu sein.",
+        "summary": "Eine strukturierte Zusammenarbeit mit rechtsradikalen Parteien will der EVP-Vorsitzende Manfred Weber zwar nicht. Gemeinsame Mehrheiten, um »illegale Migration zu stoppen und unseren Wohlstand zu sichern« scheinen ihm aber recht zu sein.",
         "paragraphs": [
-          "Eine strukturierte Zusammenarbeit mit rechtsradikalen Parteien will EVP-Vorsitzende Manfred Weber zwar nicht. Gemeinsame Mehrheiten, um »illegale Migration zu stoppen und unseren Wohlstand zu sichern« scheinen ihm aber recht zu sein."
+          "Eine strukturierte Zusammenarbeit mit rechtsradikalen Parteien will der EVP-Vorsitzende Manfred Weber zwar nicht. Gemeinsame Mehrheiten, um »illegale Migration zu stoppen und unseren Wohlstand zu sichern« scheinen ihm aber recht zu sein."
         ],
         "link": "https://www.spiegel.de/politik/manfred-weber-evp-chef-schliesst-erneute-mehrheiten-mit-rechtsextremen-nicht-aus-a-9d6d4cd0-f469-4e19-8375-ec4082be5b34#ref=rss",
         "source": "SPIEGEL",
@@ -447,15 +447,26 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-riesenslalom-am-semmering-1178755/artikel#omrss",
-        "title": "LIVE! Riesenslalom am Semmering",
+        "id": "https://www.kicker.de/eisbaeren-suchen-weg-aus-der-krise-gibt-kein-wunderrezept-1178925/artikel#omrss",
+        "title": "Eisbären suchen Weg aus der Krise: \"Gibt kein Wunderrezept\"",
+        "summary": "Angesichts der Serie von vier Niederlagen in der DEL besteht beim deutschen Meister Verbesserungsbedarf. Trainer Serge Aubin setzt auf den Teamgeist seiner Profis und hofft auf weniger Fehler.",
+        "paragraphs": [
+          "Angesichts der Serie von vier Niederlagen in der DEL besteht beim deutschen Meister Verbesserungsbedarf. Trainer Serge Aubin setzt auf den Teamgeist seiner Profis und hofft auf weniger Fehler."
+        ],
+        "link": "https://www.kicker.de/eisbaeren-suchen-weg-aus-der-krise-gibt-kein-wunderrezept-1178925/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T09:18:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-riesenslalom-am-semmering-hector-einen-wimpernschlag-vorn-1178755/artikel#omrss",
+        "title": "LIVE! Riesenslalom am Semmering: Hector einen Wimpernschlag vorn",
         "summary": "Der Ski-Weltcup am Semmering feiert sein 30. Jubiläum. Bei der Doppel-Veranstaltung steht am Samstag ein Riesenslalom und am Sonntag ein Slalom auf dem Programm.",
         "paragraphs": [
           "Der Ski-Weltcup am Semmering feiert sein 30. Jubiläum. Bei der Doppel-Veranstaltung steht am Samstag ein Riesenslalom und am Sonntag ein Slalom auf dem Programm."
         ],
-        "link": "https://www.kicker.de/live-riesenslalom-am-semmering-1178755/artikel#omrss",
+        "link": "https://www.kicker.de/live-riesenslalom-am-semmering-hector-einen-wimpernschlag-vorn-1178755/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2025-12-27T08:45:04.000Z"
+        "publishedAt": "2025-12-27T09:17:30.000Z"
       },
       {
         "id": "https://www.kicker.de/trotz-starkem-embiid-sixers-geben-sieg-mit-2-13-lauf-spaet-aus-der-hand-1178902/artikel#omrss",
@@ -654,20 +665,20 @@
         "link": "https://www.kicker.de/knapp-gescheitert-bis-historisch-schlecht-die-dsv-bilanz-seit-hannawalds-tournee-sieg-986435/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-26T15:52:07.000Z"
-      },
-      {
-        "id": "li.3356843",
-        "title": "Granit Xhaka im Interview: „Die A-Lizenz hilft mir, den Fußball aus einer anderen Perspektive zu betrachten“",
-        "summary": "Granit Xhaka besitzt als aktiver Fußballer auch den Trainerschein. Im Interview spricht er über seine Rolle als „zweiter Coach“ beim AFC Sunderland und erklärt, warum ihm Xabi Alonso beibrachte, auf dem Feld Gegenspieler zu zählen.",
-        "paragraphs": [
-          "Granit Xhaka besitzt als aktiver Fußballer auch den Trainerschein. Im Interview spricht er über seine Rolle als „zweiter Coach“ beim AFC Sunderland und erklärt, warum ihm Xabi Alonso beibrachte, auf dem Feld Gegenspieler zu zählen."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/fc-arsenal-afc-sunderland-xhaka-interview-li.3356843",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-26T15:33:44.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Das-Deutschlandticket-wird-wieder-teurer-und-ab-2027-11125090.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Das Deutschlandticket wird wieder teurer – und ab 2027?",
+        "summary": "Das Deutschlandticket ist langfristig gesichert. Der Abo-Preis aber steigt erneut. Warum das so ist und wie es weitergeht.",
+        "paragraphs": [
+          "Das Deutschlandticket ist langfristig gesichert. Der Abo-Preis aber steigt erneut. Warum das so ist und wie es weitergeht."
+        ],
+        "link": "https://www.heise.de/news/Das-Deutschlandticket-wird-wieder-teurer-und-ab-2027-11125090.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-27T09:26:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Unsere-Highlights-aus-2025-11123976.html",
         "title": "Unsere Highlights aus 2025",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Nasa-Mondmission-Maskottchen-Entwurf-aus-Deutschland-nominiert-11124865.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-25T14:51:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Nvidia-Vertragsschluss-mit-Inferenz-Chip-Startup-11124836.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Nvidia: Vertragsschluss mit Inferenz-Chip-Startup",
-        "summary": "Nvidia hat einen Lizenzvertrag mit dem Chip-Startup Groq vereinbart, auch wechseln Groq Mitarbeiter im Rahmen des 20-Milliarden-Deals zu Nvidia.",
-        "paragraphs": [
-          "Nvidia hat einen Lizenzvertrag mit dem Chip-Startup Groq vereinbart, auch wechseln Groq Mitarbeiter im Rahmen des 20-Milliarden-Deals zu Nvidia."
-        ],
-        "link": "https://www.heise.de/news/Nvidia-Vertragsschluss-mit-Inferenz-Chip-Startup-11124836.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-25T14:45:00.000Z"
       }
     ]
   }
