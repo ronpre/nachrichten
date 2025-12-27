@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-27T14:17:22.410Z",
+  "updatedAt": "2025-12-27T14:30:26.492Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:739056ee-70f0-4567-a6ef-dc65ce0946df}",
+        "title": "Frankreich: Vertrauen in Frankreichs Präsident Macron sinkt auf Tiefstand",
+        "summary": "Nur 25 Prozent der Franzosen glauben, dass ihr Staatschef eine gute Politik für ihr Land betreibt. Macron steht wegen innenpolitischer Herausforderungen unter Druck.",
+        "paragraphs": [
+          "Nur 25 Prozent der Franzosen glauben, dass ihr Staatschef eine gute Politik für ihr Land betreibt. Macron steht wegen innenpolitischer Herausforderungen unter Druck."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/macron-vertrauen-tiefstand-frankreich",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-27T14:22:07.000Z"
+      },
+      {
         "id": "{urn:uuid:5908e5bf-d8f6-4f5f-b5fa-30d909efba7a}",
         "title": "Ukraine: Korruptionsermittlungen gegen mehrere ukrainische Abgeordnete",
         "summary": "Das ukrainische Antikorruptionsbüro hat Ermittlungen gegen Parlamentsabgeordnete aufgenommen. Für ihr Abstimmungsverhalten sollen diese illegale Vorteile erhalten haben.",
@@ -432,20 +443,20 @@
         "link": "https://www.handelsblatt.com/politik/international/konflikt-thailand-und-kambodscha-einigen-sich-auf-waffenruhe/100186998.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-27T09:37:58.000Z"
-      },
-      {
-        "id": "{urn:uuid:9172d84e-1f85-46f9-8002-b2d07726cb36}",
-        "title": "Bundestagspräsidentin: Julia Klöckner fordert besseren Schutz des Bundestags",
-        "summary": "Bundestagspräsidentin Julia Klöckner hat neue Regeln für den Schutz des Bundestags angeregt. Unter anderem soll die Bundestagspolizei mehr Befugnisse bekommen.",
-        "paragraphs": [
-          "Bundestagspräsidentin Julia Klöckner hat neue Regeln für den Schutz des Bundestags angeregt. Unter anderem soll die Bundestagspolizei mehr Befugnisse bekommen."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/julia-kloeckner-bundestagspraesidentin-schutz-bundestag-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-27T09:34:28.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/live-liverpool-mit-wirtz-gegen-die-wolves-aergern-huerzeler-und-gruda-arsenal-1178992/artikel#omrss",
+        "title": "LIVE! Liverpool mit Wirtz gegen die Wolves - Ärgern Hürzeler und Gruda Arsenal?",
+        "summary": "Der FC Liverpool empfängt am 18. Spieltag der Premier League das Schlusslicht aus Wolverhampton. Zeitgleich muss der FC Arsenal gegen Fabian Hürzelers Brighton ran.",
+        "paragraphs": [
+          "Der FC Liverpool empfängt am 18. Spieltag der Premier League das Schlusslicht aus Wolverhampton. Zeitgleich muss der FC Arsenal gegen Fabian Hürzelers Brighton ran."
+        ],
+        "link": "https://www.kicker.de/live-liverpool-mit-wirtz-gegen-die-wolves-aergern-huerzeler-und-gruda-arsenal-1178992/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T14:19:43.000Z"
+      },
       {
         "id": "https://www.kicker.de/union-erwartet-naechsten-entwicklungsschritt-abwehr-talent-helgesen-kommt-aus-norwegen-1178985/artikel#omrss",
         "title": "Union erwartet nächsten Entwicklungsschritt: Abwehr-Talent Helgesen kommt aus Norwegen",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/erst-anspannung-dann-erleichterung-panenka-elfmeter-von-salah-1178933/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T09:43:39.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/amorims-bruch-mit-dem-eigenen-dogma-symptomatische-szene-mit-woltemade-1178917/artikel#omrss",
-        "title": "Amorims Bruch mit dem eigenen Dogma - Symptomatische Szene mit Woltemade",
-        "summary": "Manchester United ist zurück in der Erfolgsspur. Auch weil Trainer Ruben Amorim am Boxing Day von seinen eigenen Prinzipien abkehrte.",
-        "paragraphs": [
-          "Manchester United ist zurück in der Erfolgsspur. Auch weil Trainer Ruben Amorim am Boxing Day von seinen eigenen Prinzipien abkehrte."
-        ],
-        "link": "https://www.kicker.de/amorims-bruch-mit-dem-eigenen-dogma-symptomatische-szene-mit-woltemade-1178917/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T09:40:54.000Z"
       }
     ],
     "edv": [
@@ -736,7 +736,7 @@
       },
       {
         "id": "https://www.heise.de/news/Unsere-Highlights-aus-2025-11123976.html",
-        "title": "Unsere Highlights aus 2025",
+        "title": "Unsere Highlights aus 2025 | c't 3003",
         "summary": "Röhrenmonitore, ein Laufband und The New Yorker: Dinge, die uns 2025 glücklich gemacht haben.",
         "paragraphs": [
           "Röhrenmonitore, ein Laufband und The New Yorker: Dinge, die uns 2025 glücklich gemacht haben."
