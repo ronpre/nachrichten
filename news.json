@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-27T17:05:20.886Z",
+  "updatedAt": "2025-12-27T17:17:07.277Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:f45a0cfa-e73d-4607-b484-f475e0503a62}",
+        "title": "Israelische Anerkennung Somalilands: Was will Israel von Somaliland?",
+        "summary": "Arabische Staaten und die Türkei kritisieren Israels Anerkennung von Somaliland. Warum es dabei zunächst wohl nicht um die Umsiedlung von Palästinensern geht.",
+        "paragraphs": [
+          "Arabische Staaten und die Türkei kritisieren Israels Anerkennung von Somaliland. Warum es dabei zunächst wohl nicht um die Umsiedlung von Palästinensern geht."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/israel-anerkennung-somaliland-partnerschaft-ostafrika",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-27T16:58:36.000Z"
+      },
+      {
         "id": "{urn:uuid:d1fb8ba8-72f5-4ab4-9784-9406e20565f0}",
         "title": "Nach Luftangriffen: Saudi-Arabien fordert Separatisten zum Rückzug auf",
         "summary": "Nach überraschenden Luftangriffen hat Saudi-Arabien den Separatisten im Jemen mit weiteren Attacken gedroht. Diese wollen allerdings nicht von ihren Zielen abrücken.",
@@ -432,20 +443,53 @@
         "link": "https://www.handelsblatt.com/politik/international/diplomatie-israel-erkennt-somaliland-als-staat-an/100187013.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-27T11:10:32.000Z"
-      },
-      {
-        "id": "li.3352720",
-        "title": "USA: Internetnutzer machen Schwärzungen in Epstein-Akten rückgängig",
-        "summary": "Viele Dokumente zum Sexualstraftäter Jeffrey Epstein wurden stark zensiert veröffentlicht. Dass die Schwärzungen nun teils rückgängig gemacht werden, hängt offenbar auch mit einem dilettantischen Vorgehen des US-Justizministeriums zusammen.",
-        "paragraphs": [
-          "Viele Dokumente zum Sexualstraftäter Jeffrey Epstein wurden stark zensiert veröffentlicht. Dass die Schwärzungen nun teils rückgängig gemacht werden, hängt offenbar auch mit einem dilettantischen Vorgehen des US-Justizministeriums zusammen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-epstein-schwaerzungen-rueckgaengig-li.3352720",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-27T10:58:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "li.3360118",
+        "title": "Premier League: Große Erleichterung: Wirtz trifft erstmals für Liverpool",
+        "summary": "Am 18. Spieltag gelingt dem deutschen Nationalspieler sein erster Premier-League-Treffer. Auch Tabellenführer Arsenal jubelt.",
+        "paragraphs": [
+          "Am 18. Spieltag gelingt dem deutschen Nationalspieler sein erster Premier-League-Treffer. Auch Tabellenführer Arsenal jubelt."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/premier-league-liverpool-arsenal-wirtz-ergebnisse-tore-tabelle-li.3360118",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-27T17:07:42.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/chelsea-gegen-villa-2025-premier-league-5045177/spielbericht#omrss",
+        "title": "LIVE! Verfolgerduell an der Stamford Bridge: Aston Villa bei Chelsea zu Gast",
+        "summary": "Das Spiel zwischen Chelsea und Aston Villa ist in der Premier League ein echtes Top-Duell: Der Fünfte empfängt den Dritten. Können die Blues den Anschluss zu den Villans halten?",
+        "paragraphs": [
+          "Das Spiel zwischen Chelsea und Aston Villa ist in der Premier League ein echtes Top-Duell: Der Fünfte empfängt den Dritten. Können die Blues den Anschluss zu den Villans halten?"
+        ],
+        "link": "https://www.kicker.de/chelsea-gegen-villa-2025-premier-league-5045177/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T17:05:05.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/liverpool-gegen-wolves-2025-premier-league-5045179/spielbericht#omrss",
+        "title": "Wirtz trifft erstmals: Liverpool schlägt Schlusslicht Wolverhampton knapp",
+        "summary": "Zum Jahresabschluss hat der FC Liverpool einen knappen Heimsieg gegen die Wolverhampton Wanderers eingefahren. Florian Wirtz erzielte im Duell mit dem Tabellenschlusslicht seinen ersten Treffer für die Reds.",
+        "paragraphs": [
+          "Zum Jahresabschluss hat der FC Liverpool einen knappen Heimsieg gegen die Wolverhampton Wanderers eingefahren. Florian Wirtz erzielte im Duell mit dem Tabellenschlusslicht seinen ersten Treffer für die Reds."
+        ],
+        "link": "https://www.kicker.de/liverpool-gegen-wolves-2025-premier-league-5045179/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T17:02:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
+        "title": "Der Spielplan der Darts-WM 2026",
+        "summary": "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick.",
+        "paragraphs": [
+          "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick."
+        ],
+        "link": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T17:00:24.000Z"
+      },
       {
         "id": "https://www.kicker.de/livingston-gegen-celtic-2025-scottish-premiership-5047720/spielbericht#omrss",
         "title": "Hearts entzaubert - Celtic pirscht sich an - Rangers rehabilitiert",
@@ -456,6 +500,17 @@
         "link": "https://www.kicker.de/livingston-gegen-celtic-2025-scottish-premiership-5047720/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T16:58:19.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/skispringerin-schmid-macht-nach-olympia-winter-schluss-1179030/artikel#omrss",
+        "title": "Skispringerin Schmid macht nach Olympia-Winter Schluss",
+        "summary": "Schluss mit 29: Skispringerin Katharina Schmid beendet nach diesem Winter ihre aktive Karriere. Dieser Schritt hatte sich bereits abgezeichnet.",
+        "paragraphs": [
+          "Schluss mit 29: Skispringerin Katharina Schmid beendet nach diesem Winter ihre aktive Karriere. Dieser Schritt hatte sich bereits abgezeichnet."
+        ],
+        "link": "https://www.kicker.de/skispringerin-schmid-macht-nach-olympia-winter-schluss-1179030/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T16:56:29.000Z"
       },
       {
         "id": "https://www.kicker.de/vierschanzentournee-zeitplan-uebertragung-und-modus-979759/artikel#omrss",
@@ -502,17 +557,6 @@
         "publishedAt": "2025-12-27T16:16:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
-        "title": "Der Spielplan der Darts-WM 2026",
-        "summary": "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick.",
-        "paragraphs": [
-          "Die Darts-WM 2026 läuft. Bis zum 3. Januar duellieren sich die besten Spieler der Welt im \"Ally Pally\" in London. Der Spielplan im Überblick."
-        ],
-        "link": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T16:15:04.000Z"
-      },
-      {
         "id": "https://www.spiegel.de/sport/fussball/fc-liverpool-soehne-von-diogo-jota-als-einlaufkinder-bei-spiel-gegen-wolverhampton-a-509939f2-aae8-4d8b-baf7-1a0c4e452a92",
         "title": "FC Liverpool: Söhne von Diogo Jota als Einlaufkinder bei Spiel gegen Wolverhampton",
         "summary": "Erstmals seit dem Tod von Diogo Jota trafen seine Ex-Klubs FC Liverpool und Wolverhampton Wanderers aufeinander. Während die Fans an den Stürmer erinnerten, betraten Jotas Kinder gemeinsam mit Virgil van Dijk den Rasen.",
@@ -555,17 +599,6 @@
         "link": "https://www.spiegel.de/sport/fussball/nachruf-auf-john-robertson-der-held-mit-dem-fischerhut-der-hamburg-den-titel-klaute-a-a8a9ae53-a4c7-4645-9c9b-b19064b2453e#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-27T14:33:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wirtz-erzielt-erstes-tor-fuer-liverpool-schade-schnuert-doppelpack-arsenal-bleibt-erster-1178992/artikel#omrss",
-        "title": "Wirtz erzielt erstes Tor für Liverpool - Schade schnürt Doppelpack - Arsenal bleibt Erster",
-        "summary": "Florian Wirtz hat beim 2:1 des FC Liverpool gegen Wolverhampton seinen ersten Treffer für den LFC erzielt. Zeitgleich setzte sich Arsenal ebenfalls mit 2:1 gegen Brighton durch. Bei Brentfords 3:1 über Bournemouth traf der ehemalige Freiburger Kevin Schade doppelt.",
-        "paragraphs": [
-          "Florian Wirtz hat beim 2:1 des FC Liverpool gegen Wolverhampton seinen ersten Treffer für den LFC erzielt. Zeitgleich setzte sich Arsenal ebenfalls mit 2:1 gegen Brighton durch. Bei Brentfords 3:1 über Bournemouth traf der ehemalige Freiburger Kevin Schade doppelt."
-        ],
-        "link": "https://www.kicker.de/wirtz-erzielt-erstes-tor-fuer-liverpool-schade-schnuert-doppelpack-arsenal-bleibt-erster-1178992/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T14:19:43.000Z"
       },
       {
         "id": "https://www.kicker.de/union-erwartet-naechsten-entwicklungsschritt-abwehr-talent-helgesen-kommt-aus-norwegen-1178985/artikel#omrss",
@@ -632,42 +665,20 @@
         "link": "https://www.kicker.de/parrondo-das-ganze-jahr-war-nicht-normal-1178931/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T12:51:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/schach/magnus-carlsen-bei-schach-wm-alle-schauen-auf-seine-hose-a-0bbba239-7796-4205-a076-4c9aad013b64",
-        "title": "Magnus Carlsen bei Schach-WM: Alle schauen auf seine Hose",
-        "summary": "Seine Jeans ging in die Schachgeschichte ein: Superstar Magnus Carlsen löste bei der Schnellschach-WM 2024 einen Eklat aus. Nun ist er zurück. Und der Schiedsrichter drückt direkt ein Auge zu.",
-        "paragraphs": [
-          "Seine Jeans ging in die Schachgeschichte ein: Superstar Magnus Carlsen löste bei der Schnellschach-WM 2024 einen Eklat aus. Nun ist er zurück. Und der Schiedsrichter drückt direkt ein Auge zu."
-        ],
-        "link": "https://www.spiegel.de/sport/schach/magnus-carlsen-bei-schach-wm-alle-schauen-auf-seine-hose-a-0bbba239-7796-4205-a076-4c9aad013b64#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-27T12:39:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/schwarz-siegt-beim-super-g-jocher-rast-auf-platz-5-1178756/artikel#omrss",
-        "title": "Schwarz siegt beim Super G - Jocher rast auf Platz 5",
-        "summary": "Marco Schwarz heißt der Sieger des Super G bei der Weltcup-Premiere von Livigno. Der Österreicher verwies ein Schweizer Trio inklusive Marco Odermatt auf die Plätze. Für eine positive Überraschung sorgte DSV-Athlet Simon Jocher.",
-        "paragraphs": [
-          "Marco Schwarz heißt der Sieger des Super G bei der Weltcup-Premiere von Livigno. Der Österreicher verwies ein Schweizer Trio inklusive Marco Odermatt auf die Plätze. Für eine positive Überraschung sorgte DSV-Athlet Simon Jocher."
-        ],
-        "link": "https://www.kicker.de/schwarz-siegt-beim-super-g-jocher-rast-auf-platz-5-1178756/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T11:59:24.000Z"
-      },
-      {
-        "id": "li.3332890",
-        "title": "Darts-WM 2026: Spielplan und Anwurfzeit der deutschen Teilnehmer im Überblick",
-        "summary": "Das Dartboard erobert wieder den Alexandra Palace in London. Vom 11. Dezember an wird der neue Weltmeister gesucht. Mit dabei: acht Deutsche. Wann sie gegen wen spielen.",
-        "paragraphs": [
-          "Das Dartboard erobert wieder den Alexandra Palace in London. Vom 11. Dezember an wird der neue Weltmeister gesucht. Mit dabei: acht Deutsche. Wann sie gegen wen spielen."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/darts-wm-2026-heute-live-tv-stream-spielplan-deutsche-3-runde-pietreczko-li.3332890",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-27T11:08:00.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/meinung/Stranger-Things-Staffel-5-Teil-2-Jenseits-des-Grauens-11125138.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„Stranger Things Staffel 5, Teil 2“: Jenseits des Grauens",
+        "summary": "Der Anfang der zweiten Hälfte des Finales von „Stranger Things“ ist da. Originell ist der krachende Abschluss eher nicht, aber noch einmal sehr nostalgisch.",
+        "paragraphs": [
+          "Der Anfang der zweiten Hälfte des Finales von „Stranger Things“ ist da. Originell ist der krachende Abschluss eher nicht, aber noch einmal sehr nostalgisch."
+        ],
+        "link": "https://www.heise.de/meinung/Stranger-Things-Staffel-5-Teil-2-Jenseits-des-Grauens-11125138.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-27T17:03:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Nun-auch-Gmail-Nutzer-duerfen-bald-ihre-Mail-Adresse-aendern-11125224.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Nun auch Gmail: Nutzer dürfen bald ihre Mail-Adresse ändern",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/hintergrund/Letterboxd-Datenverwertung-bedroht-den-Hort-der-digitalen-Filmkultur-11081205.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "source": "heise",
         "publishedAt": "2025-12-26T16:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Verfassungsrechtler-und-Politiker-fordern-Klarnamenpflicht-im-Internet-11125022.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Verfassungsrechtler und Politiker fordern Klarnamenpflicht im Internet",
-        "summary": "Im Interview mit dem Tagesspiegel forderte der Verfassungsrechtler Andreas Voßkuhle eine Klarnamenpflicht im Internet. Erste Politiker pflichten ihm nun bei.",
-        "paragraphs": [
-          "Im Interview mit dem Tagesspiegel forderte der Verfassungsrechtler Andreas Voßkuhle eine Klarnamenpflicht im Internet. Erste Politiker pflichten ihm nun bei."
-        ],
-        "link": "https://www.heise.de/news/Verfassungsrechtler-und-Politiker-fordern-Klarnamenpflicht-im-Internet-11125022.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-26T15:30:00.000Z"
       }
     ]
   }
