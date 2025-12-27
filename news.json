@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-27T18:41:50.878Z",
+  "updatedAt": "2025-12-27T18:55:09.074Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:8f39a879-d19d-4549-928d-c01a751fcd38}",
+        "title": "Iran: Irans Präsident wirft USA, Israel und Europa \"umfassenden Krieg\" vor",
+        "summary": "Irans Präsident Massud Peseschkian sieht sein Land nach eigenen Angaben in einem Krieg mit den USA, Israel und Europa. Dieser Krieg sei schlimmer als der Iran-Irak-Krieg.",
+        "paragraphs": [
+          "Irans Präsident Massud Peseschkian sieht sein Land nach eigenen Angaben in einem Krieg mit den USA, Israel und Europa. Dieser Krieg sei schlimmer als der Iran-Irak-Krieg."
+        ],
+        "link": "https://www.zeit.de/politik/2025-12/iran-praesident-massud-peseschkian-krieg-usa-israel-europa",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-27T18:46:46.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/afd-im-parlament-die-neue-dominanz-a-95b1a5e8-db99-428c-8c05-e220e195011e",
         "title": "Rechtsextremisten im Parlament: Wie die AfD im Bundestag Angst verbreitet",
         "summary": "Die AfD tritt im Parlament immer selbstbewusster auf. Die Rechtsextremen stören, pöbeln, drohen. Wo einst eine vertrauensvolle Atmosphäre herrschte, wächst ein hässliches Gefühl. Der SPIEGEL-Report.",
@@ -234,17 +245,6 @@
         "link": "https://www.spiegel.de/politik/afd-im-parlament-die-neue-dominanz-a-95b1a5e8-db99-428c-8c05-e220e195011e#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-27T18:39:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:8f39a879-d19d-4549-928d-c01a751fcd38}",
-        "title": "Iran: Irans Präsident wirft USA, Israel und Europa \"umfassenden Krieg\" vor",
-        "summary": "Irans Präsident Massud Peseschkian sieht sein Land nach eigenen Angaben in einem Krieg mit den USA, Israel und Europa. Dieser Krieg sei schlimmer als der Iran-Irak-Krieg.",
-        "paragraphs": [
-          "Irans Präsident Massud Peseschkian sieht sein Land nach eigenen Angaben in einem Krieg mit den USA, Israel und Europa. Dieser Krieg sei schlimmer als der Iran-Irak-Krieg."
-        ],
-        "link": "https://www.zeit.de/politik/2025-12/iran-praesident-massud-peseschkian-krieg-usa-israel-europa",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-27T18:04:54.000Z"
       },
       {
         "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
@@ -447,6 +447,28 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/gehaelter-nicht-gezahlt-cvancara-kuendigt-und-kehrt-zur-borussia-zurueck-1179050/artikel#omrss",
+        "title": "Gehälter nicht gezahlt: Cvancara kündigt und kehrt zur Borussia zurück",
+        "summary": "Mit einem überraschenden Rückkehrer wird Borussia Mönchengladbach ins Trainingslager nach Belek aufbrechen: Tomas Cvancara hat seinen Vertrag in der Türkei aufgekündigt.",
+        "paragraphs": [
+          "Mit einem überraschenden Rückkehrer wird Borussia Mönchengladbach ins Trainingslager nach Belek aufbrechen: Tomas Cvancara hat seinen Vertrag in der Türkei aufgekündigt."
+        ],
+        "link": "https://www.kicker.de/gehaelter-nicht-gezahlt-cvancara-kuendigt-und-kehrt-zur-borussia-zurueck-1179050/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T18:48:51.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kein-sieg-wie-jeder-andere-was-guardiola-an-bayern-und-barcelona-erinnert-1179025/artikel#omrss",
+        "title": "Kein Sieg wie jeder andere: Was Guardiola an Bayern und Barcelona erinnert",
+        "summary": "Manchester City hält den Druck auf Premier-League-Spitzenreiter Arsenal hoch. Am Samstag sogar mit einem Sieg in einem Spiel, das die Skyblues laut Pep Guardiola in der letzten Saison definitiv verloren hätten.",
+        "paragraphs": [
+          "Manchester City hält den Druck auf Premier-League-Spitzenreiter Arsenal hoch. Am Samstag sogar mit einem Sieg in einem Spiel, das die Skyblues laut Pep Guardiola in der letzten Saison definitiv verloren hätten."
+        ],
+        "link": "https://www.kicker.de/kein-sieg-wie-jeder-andere-was-guardiola-an-bayern-und-barcelona-erinnert-1179025/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-27T18:46:32.000Z"
+      },
+      {
         "id": "{urn:uuid:86ad9eb2-72d5-44b0-b69c-c52890a9c29a}",
         "title": "Habsburger: Mehr Drama geht gar nicht",
         "summary": "Eine Dynastie voller Macht, Intrigen und Exzesse: Der Historiker Roman Sandgruber zeigt in seinem neuen Buch, warum die Geschichten der Habsburger bis heute weiterleben.",
@@ -502,13 +524,13 @@
         "publishedAt": "2025-12-27T17:37:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-enges-ostderby-in-eisenach-fuechse-vs-frisch-auf-1178780/artikel#omrss",
-        "title": "LIVE! Enges Ostderby in Eisenach - Füchse vs. Frisch Auf",
+        "id": "https://www.kicker.de/live-scm-gewinnt-enges-ostderby-fuechse-muessen-sich-strecken-1178780/artikel#omrss",
+        "title": "LIVE! SCM gewinnt enges Ostderby - Füchse müssen sich strecken",
         "summary": "An diesem Samstag setzt die Handball-Bundesliga ihren 19. Spieltag mit fünf Partien fort. Auch Primus Magdeburg und Meister Berlin sind gefordert.",
         "paragraphs": [
           "An diesem Samstag setzt die Handball-Bundesliga ihren 19. Spieltag mit fünf Partien fort. Auch Primus Magdeburg und Meister Berlin sind gefordert."
         ],
-        "link": "https://www.kicker.de/live-enges-ostderby-in-eisenach-fuechse-vs-frisch-auf-1178780/artikel#omrss",
+        "link": "https://www.kicker.de/live-scm-gewinnt-enges-ostderby-fuechse-muessen-sich-strecken-1178780/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T17:36:13.000Z"
       },
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/skispringerin-schmid-macht-nach-olympia-winter-schluss-1179030/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T16:56:29.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vierschanzentournee-zeitplan-uebertragung-und-modus-979759/artikel#omrss",
-        "title": "Vierschanzentournee: Zeitplan, Übertragung und Modus",
-        "summary": "Wie jedes Jahr freuen sich Wintersport-Fans auf ein absolutes Highlight: Die Vierschanzentournee steht an. Der kicker liefert alles Wichtige zum prestigeträchtigen Skisprung-Wettbewerb.",
-        "paragraphs": [
-          "Wie jedes Jahr freuen sich Wintersport-Fans auf ein absolutes Highlight: Die Vierschanzentournee steht an. Der kicker liefert alles Wichtige zum prestigeträchtigen Skisprung-Wettbewerb."
-        ],
-        "link": "https://www.kicker.de/vierschanzentournee-zeitplan-uebertragung-und-modus-979759/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T16:53:19.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/neue-tournee-rolle-fuer-skispringer-aussenseiter-favoriten-1179026/artikel#omrss",
-        "title": "Neue Tournee-Rolle für Skispringer: \"Außenseiter-Favoriten\"",
-        "summary": "Die deutschen Skispringer kommen mit guten Vorleistungen zur Tournee, gelten aber nicht als Topfavoriten. Bundestrainer Horngacher ist von der neuen Rolle seiner Athleten angetan.",
-        "paragraphs": [
-          "Die deutschen Skispringer kommen mit guten Vorleistungen zur Tournee, gelten aber nicht als Topfavoriten. Bundestrainer Horngacher ist von der neuen Rolle seiner Athleten angetan."
-        ],
-        "link": "https://www.kicker.de/neue-tournee-rolle-fuer-skispringer-aussenseiter-favoriten-1179026/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T16:47:01.000Z"
       }
     ],
     "edv": [
