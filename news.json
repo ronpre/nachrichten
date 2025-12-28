@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-28T09:17:57.139Z",
+  "updatedAt": "2025-12-28T09:31:24.505Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:af4295da-eff5-4417-a98d-76316dc420ca}",
+        "title": "Bio: Umsatz mit Bio-Lebensmitteln erneut gewachsen",
+        "summary": "Der Bauernverband geht von einem deutlichen Wachstum für die Bio-Branche in diesem Jahr aus. Die heimische Produktion fällt jedoch hinter der Nachfrage zurück.",
+        "paragraphs": [
+          "Der Bauernverband geht von einem deutlichen Wachstum für die Bio-Branche in diesem Jahr aus. Die heimische Produktion fällt jedoch hinter der Nachfrage zurück."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/bio-lebensmittel-deutscher-bauernverband-nachfrage-produktion",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-28T09:12:36.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-idpolo-25000-euro-auto-zunaechst-nicht-fuer-25000-euro-bestellbar/100186088.html",
         "title": "ID.Polo: Volkswagens 25.000-Euro-Elektroauto ist zunächst nicht für 25.000 Euro bestellbar",
@@ -12,17 +23,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-idpolo-25000-euro-auto-zunaechst-nicht-fuer-25000-euro-bestellbar/100186088.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-28T08:42:41.000Z"
-      },
-      {
-        "id": "{urn:uuid:af4295da-eff5-4417-a98d-76316dc420ca}",
-        "title": "Bio: Umsatz mit Bio-Lebensmittel erneut gewachsen",
-        "summary": "Der Bauernverband geht von einem deutlichen Wachstum für die Bio-Branche in diesem Jahr aus. Die heimische Produktion fällt jedoch hinter der Nachfrage zurück.",
-        "paragraphs": [
-          "Der Bauernverband geht von einem deutlichen Wachstum für die Bio-Branche in diesem Jahr aus. Die heimische Produktion fällt jedoch hinter der Nachfrage zurück."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/bio-lebensmittel-deutscher-bauernverband-nachfrage-produktion",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-28T08:36:12.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-selenskyj-will-mit-trump-ueber-frieden-und-sicherheit-reden/100187157.html",
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Wladimir Putin hält zeitnahe Eroberung von Donezk für möglich",
+        "summary": "Vor dem Selenskyj-Trump-Gipfel gibt sich Putin siegesgewiss: Sein Interesse an einem Abzug der Ukraine aus Donezk gehe wegen Russlands Erfolgen \"gegen Null\". Das Liveblog",
+        "paragraphs": [
+          "Vor dem Selenskyj-Trump-Gipfel gibt sich Putin siegesgewiss: Sein Interesse an einem Abzug der Ukraine aus Donezk gehe wegen Russlands Erfolgen \"gegen Null\". Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-28T09:24:54.000Z"
+      },
+      {
         "id": "{urn:uuid:e3833ef8-a8fd-4b11-b004-5d324caec343}",
         "title": "Ukrainekarte aktuell: Ukraine drängt russische Truppen in Kupjansk weiter zurück",
         "summary": "In Charkiw haben ukrainische Soldaten die russischen Angreifer aus Großteilen der Stadt Kupjansk vertrieben. Indes rückten russische Einheiten in und bei Huljajpole vor.",
@@ -423,17 +434,6 @@
         "publishedAt": "2025-12-28T04:18:11.000Z"
       },
       {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Donald Trump empfängt Wolodymyr Selenskyj in Florida",
-        "summary": "Der ukrainische Präsident trifft heute Abend deutscher Zeit den US-Präsidenten. Putin wirft der Ukraine vor, den Krieg nicht friedlich beenden zu wollen. Das Liveblog",
-        "paragraphs": [
-          "Der ukrainische Präsident trifft heute Abend deutscher Zeit den US-Präsidenten. Putin wirft der Ukraine vor, den Krieg nicht friedlich beenden zu wollen. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-28T03:52:08.000Z"
-      },
-      {
         "id": "{urn:uuid:1768dd33-7d19-4e6f-b153-e60729ed18e5}",
         "title": "Brasilien: Ex-Präsident Bolsonaro wegen chronischen Schluckaufs operiert",
         "summary": "Jair Bolsonaro ist für drei Operationen kurzfristig aus dem Gefängnis freigekommen. Das oberste Gericht hat Anhänger des früheren Präsidenten zu Hausarrest verurteilt.",
@@ -446,6 +446,17 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/teste-dein-wissen-das-quiz-zur-zweitliga-hinrunde-1178421/artikel#omrss",
+        "title": "Teste dein Wissen: Das Quiz zur Zweitliga-Hinrunde",
+        "summary": "Auch in dieser Saison geht es in der 2. Bundesliga spannend zu. Was hast du von der Hinrunde mitbekommen? Teste hier dein Wissen.",
+        "paragraphs": [
+          "Auch in dieser Saison geht es in der 2. Bundesliga spannend zu. Was hast du von der Hinrunde mitbekommen? Teste hier dein Wissen."
+        ],
+        "link": "https://www.kicker.de/teste-dein-wissen-das-quiz-zur-zweitliga-hinrunde-1178421/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-28T09:15:05.000Z"
+      },
       {
         "id": "https://www.kicker.de/60-jahre-hansa-rostock-ein-sehr-sehr-spezieller-verein-1179115/artikel#omrss",
         "title": "60 Jahre Hansa Rostock: Ein \"sehr, sehr spezieller\" Verein",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/verteidiger-ausgetanzt-yildiz-macht-alles-klar-1179082/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-27T21:41:18.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/flugkopfball-kontert-handelfmeter-uganda-und-tansania-teilen-die-punkte-1179078/video#omrss",
-        "title": "Flugkopfball kontert Handelfmeter: Uganda und Tansania teilen die Punkte",
-        "summary": "Uganda und Tansania trennen sich am zweiten Spieltag der Gruppe C mit 1:1. Nach Tansanias Führung vom Elfmeterpunkt, ist es ein starker Kopfball, der Uganda den Punkt sichert.",
-        "paragraphs": [
-          "Uganda und Tansania trennen sich am zweiten Spieltag der Gruppe C mit 1:1. Nach Tansanias Führung vom Elfmeterpunkt, ist es ein starker Kopfball, der Uganda den Punkt sichert."
-        ],
-        "link": "https://www.kicker.de/flugkopfball-kontert-handelfmeter-uganda-und-tansania-teilen-die-punkte-1179078/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-27T21:33:13.000Z"
       }
     ],
     "edv": [
