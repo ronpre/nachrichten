@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-28T10:05:18.901Z",
+  "updatedAt": "2025-12-28T10:18:05.913Z",
   "categories": {
     "wirtschaft": [
       {
@@ -31,7 +31,7 @@
         "paragraphs": [
           "Der Bauernverband geht von einem deutlichen Wachstum für die Bio-Branche in diesem Jahr aus. Die heimische Produktion fällt jedoch hinter der Nachfrage zurück."
         ],
-        "link": "https://www.zeit.de/wirtschaft/2025-12/bio-lebensmittel-deutscher-bauernverband-nachfrage-produktion",
+        "link": "https://www.zeit.de/wirtschaft/2025-12/bio-lebensmittel-deutscher-bauernverband-nachfrage-produktion-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-28T09:12:36.000Z"
       },
@@ -202,7 +202,7 @@
       },
       {
         "id": "https://www.spiegel.de/wirtschaft/knigge-quiz-wie-gut-kennen-sie-die-benimmregeln-a-3215a2e4-3079-4214-b201-a303ce6a81a7",
-        "title": "Knigge-Quiz: Wie gut kennen Sie die Benimmregeln?",
+        "title": "Knigge-Quiz: Haben Sie Manieren? Testen Sie Ihr Benimm-Wissen",
         "summary": "Man muss nicht alle Anstandsregeln beherrschen. Diese hier schon. Beantworten Sie zehn Fragen – und Sie erfahren, ob Sie Ihr Knigge-Wissen auffrischen müssen.",
         "paragraphs": [
           "Man muss nicht alle Anstandsregeln beherrschen. Diese hier schon. Beantworten Sie zehn Fragen – und Sie erfahren, ob Sie Ihr Knigge-Wissen auffrischen müssen."
@@ -224,6 +224,17 @@
       }
     ],
     "politik": [
+      {
+        "id": "er.e794082",
+        "title": "Nachruf: Wie es ihr gefiel",
+        "summary": "Brigitte Bardot hat gemacht, was sie wollte. Im Film, aber auch im Leben. Erstaunlich ist vor allem, dass es ihr trotz aller rechtsnationalen Eskapaden nicht gelungen ist, ihren eigenen Mythos zu zerstören.",
+        "paragraphs": [
+          "Brigitte Bardot hat gemacht, was sie wollte. Im Film, aber auch im Leben. Erstaunlich ist vor allem, dass es ihr trotz aller rechtsnationalen Eskapaden nicht gelungen ist, ihren eigenen Mythos zu zerstören."
+        ],
+        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/brigitte-bardot-film-nachruf-bardot-schauspielerin-e794082/",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-28T10:06:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/deutschlandticket-deutschlandticket-wieder-teurer-wie-es-weitergeht/100187167.html",
         "title": "Deutschlandticket: Deutschlandticket wieder teurer – wie es weitergeht",
@@ -432,17 +443,6 @@
         "link": "https://www.spiegel.de/politik/deutschland/news-acht-politische-wuensche-fuer-2026-a-723ce69b-b7ca-4cfb-aed9-1fad3d6f8d5c#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-28T05:54:00.000Z"
-      },
-      {
-        "id": "li.3205796",
-        "title": "Bundespolitik: CSU-Landesgruppenchef will AfD von Siko ausschließen",
-        "summary": "Obwohl US-Vizepräsident J. D. Vance Deutschland im letzten Jahr vorwarf, damit die Demokratie zu gefährden, will CSU-Politiker Hoffmann die AfD erneut von der Münchner Sicherheitskonferenz ausschließen. Er fürchtet den Abfluss von Informationen nach Moskau und Peking.",
-        "paragraphs": [
-          "Obwohl US-Vizepräsident J. D. Vance Deutschland im letzten Jahr vorwarf, damit die Demokratie zu gefährden, will CSU-Politiker Hoffmann die AfD erneut von der Münchner Sicherheitskonferenz ausschließen. Er fürchtet den Abfluss von Informationen nach Moskau und Peking."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-afd-sicherheitskonferenz-li.3205796",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-28T05:43:00.000Z"
       }
     ],
     "sport": [
@@ -669,8 +669,19 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Tesla-Werksleiter-lehnt-Tarifvertrag-ab-IG-Metall-wirbt-11125387.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Tesla-Werksleiter lehnt Tarifvertrag ab – IG Metall wirbt",
+        "summary": "Die IG Metall kämpft für die Einführung eines Tariflohns beim US-Autobauer Tesla in Grünheide. Die Werksführung lehnt das ab.",
+        "paragraphs": [
+          "Die IG Metall kämpft für die Einführung eines Tariflohns beim US-Autobauer Tesla in Grünheide. Die Werksführung lehnt das ab."
+        ],
+        "link": "https://www.heise.de/news/Tesla-Werksleiter-lehnt-Tarifvertrag-ab-IG-Metall-wirbt-11125387.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-28T10:12:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/39C3-Navigationssystem-R-Mode-gegen-den-Baltic-Jammer-11125381.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "39C3: Navigationssystem „R-Mode“ gegen den Baltic Jammer",
+        "title": "39C3: Satellitenunabhängiges Navigationssystem R-Mode soll Ende 2026 starten",
         "summary": "DLR-Forscher haben angesichts von Störsendern in der Ostsee wie dem Baltic Jammer eine GPS-Alternative entwickelt, die im Lauf von 2026 Fahrt aufnehmen wird.",
         "paragraphs": [
           "DLR-Forscher haben angesichts von Störsendern in der Ostsee wie dem Baltic Jammer eine GPS-Alternative entwickelt, die im Lauf von 2026 Fahrt aufnehmen wird."
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Das-Deutschlandticket-wird-wieder-teurer-und-ab-2027-11125090.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-27T09:26:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Unsere-Highlights-aus-2025-11123976.html",
-        "title": "Unsere Highlights aus 2025 | c't 3003",
-        "summary": "Röhrenmonitore, ein Laufband und The New Yorker: Dinge, die uns 2025 glücklich gemacht haben.",
-        "paragraphs": [
-          "Röhrenmonitore, ein Laufband und The New Yorker: Dinge, die uns 2025 glücklich gemacht haben."
-        ],
-        "link": "https://www.heise.de/news/Unsere-Highlights-aus-2025-11123976.html",
-        "source": "c't",
-        "publishedAt": "2025-12-27T09:05:00.000Z"
       }
     ]
   }
