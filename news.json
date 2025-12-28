@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-28T15:05:29.534Z",
+  "updatedAt": "2025-12-28T15:17:45.180Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:360a7a65-27c5-49f1-8cbf-f4531e5adffc}",
+        "title": "Ehemaliger SPD-Politiker: Kevin Kühnert wird Moderator",
+        "summary": "Nach seinem Ausstieg aus der aktiven Politik hat Kevin Kühnert einen weiteren Job angenommen. Er wird die Gesprächsreihe \"Missverstehen Sie mich richtig\" moderieren.",
+        "paragraphs": [
+          "Nach seinem Ausstieg aus der aktiven Politik hat Kevin Kühnert einen weiteren Job angenommen. Er wird die Gesprächsreihe \"Missverstehen Sie mich richtig\" moderieren."
+        ],
+        "link": "https://www.zeit.de/kultur/2025-12/kevin-kuehnert-neuer-job-moderator",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-28T15:02:43.000Z"
+      },
+      {
         "id": "li.3360273",
         "title": "Verhandlungen über den Ukraine-Krieg: Viele offene Fragen",
         "summary": "Vor Beginn der Gespräche in Florida mit US-Präsident Donald Trump versuchte der ukrainische Staatschef Selenskij, die Erwartungen zu dämpfen. Die russische Armee überzog die Ukraine am Wochenende mit Raketen- und Drohnenangriffen.",
@@ -341,7 +352,7 @@
         "paragraphs": [
           "Der ukrainische Präsident hat die Partner der Ukraine zu mehr Druck auf Russland aufgerufen, um den Krieg zu beenden. Am Abend wird er Donald Trump in Palm Beach treffen."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/wolodymyr-selenskyj-russland-donald-trump-ukraine-krieg",
+        "link": "https://www.zeit.de/politik/ausland/2025-12/wolodymyr-selenskyj-russland-donald-trump-ukraine-krieg-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-28T13:48:35.000Z"
       },
@@ -396,7 +407,7 @@
         "paragraphs": [
           "SPD-Mitglieder wollen Verschärfungen bei Sozialleistungen verhindern. Doch bis der parteiinterne Prozess ein Ergebnis liefert, dürfte das Gesetz bereits beschlossen sein."
         ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/spd-buergergeld-mitglieder-entscheid-bundestag",
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/spd-buergergeld-mitglieder-entscheid-bundestag-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-28T13:24:08.000Z"
       },
@@ -430,20 +441,31 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-spd-entscheid-zum-buergergeld-kommt-voraussichtlich-zu-spaet/100137034.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-28T12:22:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:1adc24bf-6439-48f8-973b-c96e0f03f81a}",
-        "title": "Rentenreform: CDU-Wirtschaftsrat fordert höheres Rentenalter",
-        "summary": "Ein CDU-naher Verein fordert, das Renteneintrittsalter von derzeit 67 Jahren \"konsequent\" zu erhöhen. Das Beispiel mehrerer nordischer Länder zeige, dass das möglich sei.",
-        "paragraphs": [
-          "Ein CDU-naher Verein fordert, das Renteneintrittsalter von derzeit 67 Jahren \"konsequent\" zu erhöhen. Das Beispiel mehrerer nordischer Länder zeige, dass das möglich sei."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2025-12/rentenreform-cdu-wirtschaftsrat-rentenalter",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-28T12:16:09.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.spiegel.de/sport/fussball/bundesliga-ailton-kauft-torjaegerkanone-nach-18-jahren-zurueck-a-9b76939f-87a6-4aeb-bdf6-3037f216ee95",
+        "title": "Bundesliga: Ailton kauft Torjägerkanone nach 18 Jahren zurück",
+        "summary": "2004 schoss Ailton Werder Bremen zum Meistertitel. Die damals vom »Kicker« überreichte Torjägerkanone fiel jedoch bald in die Hände seines damaligen Beraters. Nun hat sich der Brasilianer die Trophäe zurückgeholt.",
+        "paragraphs": [
+          "2004 schoss Ailton Werder Bremen zum Meistertitel. Die damals vom »Kicker« überreichte Torjägerkanone fiel jedoch bald in die Hände seines damaligen Beraters. Nun hat sich der Brasilianer die Trophäe zurückgeholt."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/bundesliga-ailton-kauft-torjaegerkanone-nach-18-jahren-zurueck-a-9b76939f-87a6-4aeb-bdf6-3037f216ee95#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-28T15:13:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-quali-in-oberstdorf-zum-auftakt-der-vierschanzentournee-1178773/artikel#omrss",
+        "title": "LIVE! Quali in Oberstdorf zum Auftakt der Vierschanzentournee",
+        "summary": "Die 74. Vierschanzentournee geht los - mit der Qualifikation in Oberstdorf. Hoffnungsträger im DSV-Team sind Philipp Raimund und Felix Hoffmann.",
+        "paragraphs": [
+          "Die 74. Vierschanzentournee geht los - mit der Qualifikation in Oberstdorf. Hoffnungsträger im DSV-Team sind Philipp Raimund und Felix Hoffmann."
+        ],
+        "link": "https://www.kicker.de/live-quali-in-oberstdorf-zum-auftakt-der-vierschanzentournee-1178773/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-28T14:59:42.000Z"
+      },
       {
         "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
         "title": "Medien: Girona will ter Stegen verpflichten - Eintracht blitzt mit erstem Ebnoutalib-Angebot ab",
@@ -589,7 +611,7 @@
       },
       {
         "id": "https://www.kicker.de/cremonese-gegen-neapel-2025-serie-a-5042199/spielbericht#omrss",
-        "title": "LIVE! Höjlunds Doppelpack bringt Napoli früh auf die Siegkurs",
+        "title": "LIVE! Höjlunds Doppelpack bringt Napoli früh auf Siegkurs",
         "summary": "Im letzten Spiel des Jahres 2025 ist die SSC Neapel bei Aufsteiger US Cremonese zu Gast. Für die Mannschaft von Antonio Conte geht es darum, im Titelrennen an Inter und AC Mailand dranzubleiben, die aktuell zwei bzw. vier Punkte vor den Süditalienern liegen.",
         "paragraphs": [
           "Im letzten Spiel des Jahres 2025 ist die SSC Neapel bei Aufsteiger US Cremonese zu Gast. Für die Mannschaft von Antonio Conte geht es darum, im Titelrennen an Inter und AC Mailand dranzubleiben, die aktuell zwei bzw. vier Punkte vor den Süditalienern liegen."
@@ -621,6 +643,17 @@
         "publishedAt": "2025-12-28T12:57:13.000Z"
       },
       {
+        "id": "https://www.kicker.de/wer-soll-den-sc-magdeburg-schlagen-1179190/artikel#omrss",
+        "title": "Wer soll den SC Magdeburg schlagen?",
+        "summary": "19 Spiele, 17 Siege: Magdeburgs Handballer steuern im Eiltempo auf die Meisterschaft zu. Die Verfolger liefern sich ein Rennen um die Champions-League-Plätze. Was bewirkt der Berliner \"Attacke-Modus\"?",
+        "paragraphs": [
+          "19 Spiele, 17 Siege: Magdeburgs Handballer steuern im Eiltempo auf die Meisterschaft zu. Die Verfolger liefern sich ein Rennen um die Champions-League-Plätze. Was bewirkt der Berliner \"Attacke-Modus\"?"
+        ],
+        "link": "https://www.kicker.de/wer-soll-den-sc-magdeburg-schlagen-1179190/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-28T12:55:00.000Z"
+      },
+      {
         "id": "https://www.kicker.de/abstauber-nach-modric-knaller-nkunku-schnuert-den-doppelpack-1179189/video#omrss",
         "title": "Abstauber nach Modric-Knaller: Nkunku schnürt den Doppelpack",
         "summary": "Einen präzisen Distanzschuss von Modric lenkt Montipo zunächst an den Pfosten, doch Nkunku eilt heran und staubt ab. Der Treffer hier im Video.",
@@ -630,39 +663,6 @@
         "link": "https://www.kicker.de/abstauber-nach-modric-knaller-nkunku-schnuert-den-doppelpack-1179189/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-28T12:53:53.000Z"
-      },
-      {
-        "id": "li.3360157",
-        "title": "Skispringerin Katharina Schmid: Die Pionierin hört auf",
-        "summary": "Katharina Schmid bereitete dem Skispringen der Frauen den Weg, gewann sieben Weltmeistertitel, erlebte viele Premieren des Sports. Am Saisonende tritt sie zurück – und könnte ausgerechnet die erste Vierschanzentournee der Frauen verpassen.",
-        "paragraphs": [
-          "Katharina Schmid bereitete dem Skispringen der Frauen den Weg, gewann sieben Weltmeistertitel, erlebte viele Premieren des Sports. Am Saisonende tritt sie zurück – und könnte ausgerechnet die erste Vierschanzentournee der Frauen verpassen."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/katharina-schmid-althaus-skispringen-frauensport-gleichstellung-vierschanzentournee-li.3360157",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-28T12:53:18.000Z"
-      },
-      {
-        "id": "li.3360247",
-        "title": "Premier League: Ganz Liverpool seufzt vor Erleichterung mit Florian Wirtz",
-        "summary": "Dem Nationalspieler gelingt endlich sein erstes Tor für seinen neuen Klub, ein kompliziertes Halbjahr endet versöhnlich. Doch alle Probleme im Luxuskader der Reds sind längst nicht ausgeräumt.",
-        "paragraphs": [
-          "Dem Nationalspieler gelingt endlich sein erstes Tor für seinen neuen Klub, ein kompliziertes Halbjahr endet versöhnlich. Doch alle Probleme im Luxuskader der Reds sind längst nicht ausgeräumt."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/wirtz-liverpool-erstes-tor-wolverhampton-li.3360247",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-28T12:32:11.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/fans-traeumen-vom-titel-aston-villa-egalisiert-ueber-100-jahre-alten-klubrekord-1179153/artikel#omrss",
-        "title": "Fans träumen vom Titel: Aston Villa egalisiert über 100 Jahre alten Klubrekord",
-        "summary": "Gemeinsam mit Manchester City ist Aston Villa in der Premier League derzeit zweifellos das Team der Stunde. Durch den Sieg beim FC Chelsea setzten sich die Villans nicht nur an den Spitzenplätzen fest, sondern egalisierten auch einen über 100 Jahre alten Klubrekord.",
-        "paragraphs": [
-          "Gemeinsam mit Manchester City ist Aston Villa in der Premier League derzeit zweifellos das Team der Stunde. Durch den Sieg beim FC Chelsea setzten sich die Villans nicht nur an den Spitzenplätzen fest, sondern egalisierten auch einen über 100 Jahre alten Klubrekord."
-        ],
-        "link": "https://www.kicker.de/fans-traeumen-vom-titel-aston-villa-egalisiert-ueber-100-jahre-alten-klubrekord-1179153/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-28T12:18:47.000Z"
       }
     ],
     "edv": [
