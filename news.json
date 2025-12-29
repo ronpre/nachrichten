@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-29T11:35:40.981Z",
+  "updatedAt": "2025-12-29T11:45:05.456Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:f325e310-3716-446e-b7ff-3b8cf2cfb7e8}",
+        "title": "Sicherheitsgefühl: \"Immer zu betonen, wie sicher das Leben hier ist, bringt nichts.\"",
+        "summary": "Eine Frau bewaffnet sich, ein 17-Jähriger stirbt. Sind unsere Städte gefährlicher geworden – oder fühlt es sich nur so an? Was man von Bad Godesberg lernen kann.",
+        "paragraphs": [
+          "Eine Frau bewaffnet sich, ein 17-Jähriger stirbt. Sind unsere Städte gefährlicher geworden – oder fühlt es sich nur so an? Was man von Bad Godesberg lernen kann."
+        ],
+        "link": "https://www.zeit.de/2025-12/sicherheitsgefuehl-angst-unsicherheit-orte-gruende",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-29T11:32:30.000Z"
+      },
+      {
+        "id": "{urn:uuid:83bffda9-17c5-4974-8f36-d3a2a9650b06}",
+        "title": "China: Taiwan verurteilt \"militärische Einschüchterung\" durch China",
+        "summary": "Taiwan hat seine Truppen zum eigenständigen Reagieren auf chinesische Bedrohungen ermächtigt. Die Regierung sieht die internationale Ordnung in Gefahr.",
+        "paragraphs": [
+          "Taiwan hat seine Truppen zum eigenständigen Reagieren auf chinesische Bedrohungen ermächtigt. Die Regierung sieht die internationale Ordnung in Gefahr."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/taiwan-china-militaermanoever-reaktion",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-29T11:30:25.000Z"
+      },
+      {
         "id": "{urn:uuid:95724846-bc13-4de7-b5c8-e554ab61e4bb}",
         "title": "Grenzkonflikt: Thailand wirft Kambodscha Bruch von Waffenruhe vor",
         "summary": "Am Samstag hatten sich Thailand und Kambodscha auf ein Ende von Kämpfen an der Grenze geeinigt. Nun soll Kambodscha den Nachbarn angeblich mit Drohnen attackiert haben.",
@@ -245,17 +267,6 @@
         "link": "https://www.handelsblatt.com/politik/konjunktur/arbeitsmarkt-kosten-der-arbeitslosigkeit-deutlich-gestiegen/100187398.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-29T11:15:37.000Z"
-      },
-      {
-        "id": "{urn:uuid:83bffda9-17c5-4974-8f36-d3a2a9650b06}",
-        "title": "China: Taiwan verurteilt \"militärische Einschüchterung\" durch China",
-        "summary": "Taiwan hat seine Truppen zum eigenständigen Reagieren auf chinesische Bedrohungen ermächtigt. Die Regierung sieht die internationale Ordnung in Gefahr.",
-        "paragraphs": [
-          "Taiwan hat seine Truppen zum eigenständigen Reagieren auf chinesische Bedrohungen ermächtigt. Die Regierung sieht die internationale Ordnung in Gefahr."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/taiwan-china-militaermanoever-reaktion",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-29T11:11:55.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/gesundheitssystem-nina-warken-unter-druck-2026-wird-fuer-sie-zur-bewaehrungsprobe/100181414.html",
@@ -432,17 +443,6 @@
         "link": "https://www.zeit.de/politik/ausland/karte-ukraine-krieg-russland-frontverlauf-truppenbewegungen",
         "source": "ZEIT",
         "publishedAt": "2025-12-29T08:18:42.000Z"
-      },
-      {
-        "id": "{urn:uuid:f6e1b1d1-1edc-4dab-9936-61fd11e18809}",
-        "title": "Ukraine-Diplomatie: Auf wessen Seite ist er denn?",
-        "summary": "Will Trump einen schnellen Deal oder ein für die Ukraine akzeptables Abkommen? Selenskyj hat Erfolge erzielt. Doch auch Putin glaubt, die USA auf seiner Seite zu wissen.",
-        "paragraphs": [
-          "Will Trump einen schnellen Deal oder ein für die Ukraine akzeptables Abkommen? Selenskyj hat Erfolge erzielt. Doch auch Putin glaubt, die USA auf seiner Seite zu wissen."
-        ],
-        "link": "https://www.zeit.de/2026/01/ukraine-diplomatie-donald-trump-wolodymyr-selenskyj-wladimir-putin-krieg",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-29T07:52:00.000Z"
       }
     ],
     "sport": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/hintergrund/39C3-Wie-sich-international-sicher-auf-klinischen-Daten-rechnen-laesst-11125646.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "39C3: Wie sich international sicher auf klinischen Daten rechnen lässt",
+        "summary": "Eine datensparsame Möglichkeit, mit Gesundheitsdaten zu forschen, ist Secure Multiparty Computation. Über die erfolgreiche Umsetzung des Verfahrens.",
+        "paragraphs": [
+          "Eine datensparsame Möglichkeit, mit Gesundheitsdaten zu forschen, ist Secure Multiparty Computation. Über die erfolgreiche Umsetzung des Verfahrens."
+        ],
+        "link": "https://www.heise.de/hintergrund/39C3-Wie-sich-international-sicher-auf-klinischen-Daten-rechnen-laesst-11125646.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-29T11:40:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/QEMU-10-2-ist-schneller-unter-I-O-Last-und-dank-neuer-Richtlinie-sicherer-11125706.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "QEMU 10.2 ist schneller unter I/O-Last und dank neuer Richtlinie \"sicherer\"",
         "summary": "QEMU 10.2 überarbeitet Sicherheitsrichtlinien, modernisiert das Krypto-Subsystem und beschleunigt asynchrones I/O unter Linux.",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/hintergrund/Metas-SAM-3-Die-Augen-fuer-Sprachmodelle-11125421.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-28T12:01:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Mitmachen-auf-der-API-Konferenz-von-heise-Jetzt-Proposals-einreichen-11115515.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: Mitmachen auf der API-Konferenz von heise – Jetzt Proposals einreichen",
-        "summary": "Die Online-Konferenz betterCode() API 2026 sucht Expertinnen und Experten für das API-Event am 12. Mai 2026: Know-how, Praxisberichte oder Workshops.",
-        "paragraphs": [
-          "Die Online-Konferenz betterCode() API 2026 sucht Expertinnen und Experten für das API-Event am 12. Mai 2026: Know-how, Praxisberichte oder Workshops."
-        ],
-        "link": "https://www.heise.de/news/Mitmachen-auf-der-API-Konferenz-von-heise-Jetzt-Proposals-einreichen-11115515.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-28T12:00:00.000Z"
       }
     ]
   }
