@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-29T14:47:08.468Z",
+  "updatedAt": "2025-12-29T14:56:18.462Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,37 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:ccfd24ed-0ffe-4e8b-b754-7a38a72c0027}",
+        "title": "Krieg in Gaza: Hamas bestätigt Tod von Mohammed ​Sinwar und Abu ‌Ubaida",
+        "summary": "Der Hamas zufolge sind ihr ehemaliger Chef in Gaza und der Sprecher des bewaffneten Flügels seit Monaten tot. Humanitäre Hilfe wird laut UN weiter behindert. Das Liveblog",
+        "paragraphs": [
+          "Der Hamas zufolge sind ihr ehemaliger Chef in Gaza und der Sprecher des bewaffneten Flügels seit Monaten tot. Humanitäre Hilfe wird laut UN weiter behindert. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-29T14:49:29.000Z"
+      },
+      {
+        "id": "{urn:uuid:f24def69-09ef-486c-ae20-656a8fd77d5b}",
+        "title": "Gesetzliche Krankenkassen: Hausärzteverband lehnt Kontaktgebühr für Arztbesuche ab",
+        "summary": "Eine Kontaktgebühr für Arztbesuche wäre ein \"Herumdoktern am Symptom\", kritisiert der Hausärzteverband. Vielmehr brauche es \"grundlegende Strukturreformen\".",
+        "paragraphs": [
+          "Eine Kontaktgebühr für Arztbesuche wäre ein \"Herumdoktern am Symptom\", kritisiert der Hausärzteverband. Vielmehr brauche es \"grundlegende Strukturreformen\"."
+        ],
+        "link": "https://www.zeit.de/gesundheit/2025-12/kontaktgebuehr-arztbesuche-kritik-hausaerzteverband",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-29T14:47:08.000Z"
+      },
+      {
+        "id": "li.3360682",
+        "title": "Fallschirmjägerregiment in Rheinland-Pfalz: Ermittlungen gegen Soldaten",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/fallschirmjaegerregiment-in-rheinland-pfalz-ermittlungen-gegen-soldaten-li.3360682",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-29T14:46:03.000Z"
+      },
+      {
         "id": "li.3360681",
         "title": "Landtagswahlen in Ostdeutschland: BKA-Chef warnt vor AfD",
         "summary": "",
@@ -406,42 +437,20 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/krankenkassen-kassenaerzte-chef-fuer-gebuehr-bei-arztbesuch/100187326.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-29T11:40:26.000Z"
-      },
-      {
-        "id": "{urn:uuid:f325e310-3716-446e-b7ff-3b8cf2cfb7e8}",
-        "title": "Sicherheitsgefühl: \"Immer zu betonen, wie sicher das Leben hier ist, bringt nichts\"",
-        "summary": "Eine Frau bewaffnet sich, ein 17-Jähriger stirbt. Sind unsere Städte gefährlicher geworden – oder fühlt es sich nur so an? Was man von Bad Godesberg lernen kann",
-        "paragraphs": [
-          "Eine Frau bewaffnet sich, ein 17-Jähriger stirbt. Sind unsere Städte gefährlicher geworden – oder fühlt es sich nur so an? Was man von Bad Godesberg lernen kann"
-        ],
-        "link": "https://www.zeit.de/2025-12/sicherheitsgefuehl-angst-unsicherheit-orte-gruende",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-29T11:32:30.000Z"
-      },
-      {
-        "id": "{urn:uuid:95724846-bc13-4de7-b5c8-e554ab61e4bb}",
-        "title": "Grenzkonflikt: Thailand wirft Kambodscha Bruch von Waffenruhe vor",
-        "summary": "Am Samstag hatten sich Thailand und Kambodscha auf ein Ende von Kämpfen an der Grenze geeinigt. Nun soll Kambodscha den Nachbarn angeblich mit Drohnen attackiert haben.",
-        "paragraphs": [
-          "Am Samstag hatten sich Thailand und Kambodscha auf ein Ende von Kämpfen an der Grenze geeinigt. Nun soll Kambodscha den Nachbarn angeblich mit Drohnen attackiert haben."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/thailand-kambodscha-grenzkonflikt-waffenruhe-bruch-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-29T11:21:30.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/konjunktur/arbeitsmarkt-kosten-der-arbeitslosigkeit-deutlich-gestiegen/100187398.html",
-        "title": "Arbeitsmarkt: Kosten der Arbeitslosigkeit deutlich gestiegen",
-        "summary": "Die Ausgaben für Arbeitslosigkeit waren 2024 so hoch wie seit rund zehn Jahren nicht mehr. Warum die Kosten explodieren und was das für die Zukunft bedeutet.",
-        "paragraphs": [
-          "Die Ausgaben für Arbeitslosigkeit waren 2024 so hoch wie seit rund zehn Jahren nicht mehr. Warum die Kosten explodieren und was das für die Zukunft bedeutet."
-        ],
-        "link": "https://www.handelsblatt.com/politik/konjunktur/arbeitsmarkt-kosten-der-arbeitslosigkeit-deutlich-gestiegen/100187398.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-29T11:15:37.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "li.3353796",
+        "title": "Interview: „Alkohol konterkariert den Sinn eines Trainings“",
+        "summary": "Stephan Listabarth war Langstreckenläufer, jetzt arbeitet er als Arzt in der Alkoholforschung. Er erklärt, was im Körper nach dem Konsum passiert – und warum es kritisch wird, wenn Bier von Mannschaften fest eingeplant wird.",
+        "paragraphs": [
+          "Stephan Listabarth war Langstreckenläufer, jetzt arbeitet er als Arzt in der Alkoholforschung. Er erklärt, was im Körper nach dem Konsum passiert – und warum es kritisch wird, wenn Bier von Mannschaften fest eingeplant wird."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/alkohol-sport-auswirkungen-athleten-jugendliche-interview-li.3353796",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-29T14:45:03.000Z"
+      },
       {
         "id": "https://www.kicker.de/two-nights-tour-der-springerinnen-geld-statt-shampoo-1179442/artikel#omrss",
         "title": "Two-Nights-Tour der Springerinnen: Geld statt Shampoo",
@@ -650,17 +659,6 @@
         "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-29T11:12:51.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/erstmals-assistent-toprak-folgt-matarazzo-zu-real-sociedad-1179361/artikel#omrss",
-        "title": "Erstmals Assistent: Toprak folgt Matarazzo zu Real Sociedad",
-        "summary": "Überraschend kommt wenn überhaupt nur der Zeitpunkt: Ömer Toprak (36) startet seine Trainer-Karriere - als Assistent von Pellegrino Matarazzo bei Real Sociedad.",
-        "paragraphs": [
-          "Überraschend kommt wenn überhaupt nur der Zeitpunkt: Ömer Toprak (36) startet seine Trainer-Karriere - als Assistent von Pellegrino Matarazzo bei Real Sociedad."
-        ],
-        "link": "https://www.kicker.de/erstmals-assistent-toprak-folgt-matarazzo-zu-real-sociedad-1179361/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-29T10:59:28.000Z"
       }
     ],
     "edv": [
@@ -742,17 +740,6 @@
         "publishedAt": "2025-12-29T09:07:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: c’t-Workshop: Struktur statt Tool-Chaos in Microsoft 365",
-        "summary": "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices.",
-        "paragraphs": [
-          "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices."
-        ],
-        "link": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-29T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/hintergrund/Integration-Tests-mit-TestContainers-Von-der-Theorie-zur-Praxis-11123105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Integration-Tests mit TestContainers: Von der Theorie zur Praxis",
         "summary": "TestContainers ermöglichen realistische Integration-Tests mit echten Diensten in Docker-Containern – schnell, isoliert und ohne Mocks.",
@@ -760,6 +747,17 @@
           "TestContainers ermöglichen realistische Integration-Tests mit echten Diensten in Docker-Containern – schnell, isoliert und ohne Mocks."
         ],
         "link": "https://www.heise.de/hintergrund/Integration-Tests-mit-TestContainers-Von-der-Theorie-zur-Praxis-11123105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-29T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: c’t-Workshop: Struktur statt Tool-Chaos in Microsoft 365",
+        "summary": "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices.",
+        "paragraphs": [
+          "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices."
+        ],
+        "link": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-29T09:00:00.000Z"
       },
