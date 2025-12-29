@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-29T19:06:04.337Z",
+  "updatedAt": "2025-12-29T19:17:58.954Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:db6beec3-8f57-4e87-8d69-4a0ac41b3081}",
+        "title": "Krieg in der Ukraine: Russland wirft Ukraine Drohnenangriff auf Putins Residenz vor",
+        "summary": "Russland beschuldigt die Ukraine, einen Wohnsitz Putins angegriffen zu haben. Selenskyj widerspricht: Es handle sich um einen Vorwand, die Verhandlungen zu sabotieren.",
+        "paragraphs": [
+          "Russland beschuldigt die Ukraine, einen Wohnsitz Putins angegriffen zu haben. Selenskyj widerspricht: Es handle sich um einen Vorwand, die Verhandlungen zu sabotieren."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/krieg-russland-ukraine-angriff-residenz-wladimir-putin-wolodymyr-selenskyj-gxe",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-29T19:07:52.000Z"
+      },
+      {
         "id": "{urn:uuid:d0ab94de-59e5-4384-87de-dda7525bb45a}",
         "title": "Münchner Sicherheitskonferenz: Chef der Münchner Sicherheitskonferenz verteidigt Einladung der AfD",
         "summary": "Erstmals seit Jahren sind AfD-Politiker zur Münchner Sicherheitskonferenz eingeladen. Der Vorsitzende Wolfgang Ischinger sieht damit keine Brandmauer eingerissen.",
@@ -357,17 +368,6 @@
         "publishedAt": "2025-12-29T16:39:00.000Z"
       },
       {
-        "id": "{urn:uuid:db6beec3-8f57-4e87-8d69-4a0ac41b3081}",
-        "title": "Krieg in der Ukraine: Russland wirft Ukraine Drohnenangriff auf Putins Residenz vor",
-        "summary": "Russland beschuldigt die Ukraine, einen Wohnsitz Putins angegriffen zu haben. Selenskyj widerspricht: Es handle sich um einen Vorwand, die Verhandlungen zu sabotieren.",
-        "paragraphs": [
-          "Russland beschuldigt die Ukraine, einen Wohnsitz Putins angegriffen zu haben. Selenskyj widerspricht: Es handle sich um einen Vorwand, die Verhandlungen zu sabotieren."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/krieg-russland-ukraine-angriff-residenz-wladimir-putin-wolodymyr-selenskyj-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-29T16:35:55.000Z"
-      },
-      {
         "id": "https://www.spiegel.de/politik/landtagswahl-in-rheinland-pfalz-keine-hilfe-vom-grossen-bruder-a-e2af2a66-ae5d-4f00-af68-e0ff1eb4d4d2",
         "title": "Landtagswahl in Rheinland-Pfalz: Keine Hilfe vom großen Bruder",
         "summary": "CDU-Mann Gordon Schnieder will im März Ministerpräsident von Rheinland-Pfalz werden. Die Chancen stehen nicht schlecht – wäre da nicht die Politik der Bundesregierung, in der sein Bruder als Verkehrsminister sitzt.",
@@ -446,6 +446,28 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/roma-gegen-genoa-2025-serie-a-5042204/spielbericht#omrss",
+        "title": "LIVE! De-Rossi-Rückkehr: Klettert die Roma gegen Genua auf Rang 4?",
+        "summary": "Im letzten Spiel des Jahres 2025 empfängt die AS Rom den Tabellen-17. CFC Genua. Während die Gäste das Kalenderjahr über dem Strich beenden möchte, könnten die in diesem Jahr sehr erfolgreichen Giallorossi mit einem Sieg auf den CL-Platz 4 springen - und die Tabellenspitze so unglaublich eng zusammenrücken lassen.",
+        "paragraphs": [
+          "Im letzten Spiel des Jahres 2025 empfängt die AS Rom den Tabellen-17. CFC Genua. Während die Gäste das Kalenderjahr über dem Strich beenden möchte, könnten die in diesem Jahr sehr erfolgreichen Giallorossi mit einem Sieg auf den CL-Platz 4 springen - und die Tabellenspitze so unglaublich eng zusammenrücken lassen."
+        ],
+        "link": "https://www.kicker.de/roma-gegen-genoa-2025-serie-a-5042204/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-29T19:15:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/katheterablation-lazio-coach-sarri-am-herzen-operiert-1179489/artikel#omrss",
+        "title": "Katheterablation: Lazio-Coach Sarri am Herzen operiert",
+        "summary": "Wie Lazio Rom an diesem Montag offiziell mitgeteilt hat, hat sich Trainer Maurizio Sarri erfolgreich einem Eingriff am Herzen unterzogen.",
+        "paragraphs": [
+          "Wie Lazio Rom an diesem Montag offiziell mitgeteilt hat, hat sich Trainer Maurizio Sarri erfolgreich einem Eingriff am Herzen unterzogen."
+        ],
+        "link": "https://www.kicker.de/katheterablation-lazio-coach-sarri-am-herzen-operiert-1179489/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-29T19:05:00.000Z"
+      },
       {
         "id": "https://www.spiegel.de/sport/wintersport/vierschanzentournee-domen-prevc-gewinnt-auftaktspringen-in-oberstdorf-felix-hoffmann-wird-dritter-a-9cf5115f-3f3c-4d11-bdde-047113254468",
         "title": "Vierschanzentournee: Domen Prevc gewinnt Auftaktspringen in Oberstdorf – Felix Hoffmann wird Dritter",
@@ -643,28 +665,6 @@
         "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-lea-schueller-verlaesst-bayern-und-wechselt-zu-manchester-united-a-797b1157-449c-47d7-8177-5f76d53e959b#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-29T16:01:00.000Z"
-      },
-      {
-        "id": "li.3360694",
-        "title": "Vierschanzentournee: Bei Karl Geiger zeigt sich, was passiert, wenn das System versagt",
-        "summary": "Skispringen ist komplex, wenn ein Rädchen nicht mehr ins andere greift, folgt oft der Absturz – wie bei Karl Geiger. Doch ihm könnte bei Olympia trotzdem ein Comeback gelingen.",
-        "paragraphs": [
-          "Skispringen ist komplex, wenn ein Rädchen nicht mehr ins andere greift, folgt oft der Absturz – wie bei Karl Geiger. Doch ihm könnte bei Olympia trotzdem ein Comeback gelingen."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/skispringen-karl-geiger-systemversagen-vierschanzentournee-kommentar-li.3360694",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-29T15:17:16.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/neustart-in-england-schueller-unterschreibt-bei-manunited-1177597/artikel#omrss",
-        "title": "Neustart in England: Schüller unterschreibt bei ManUnited",
-        "summary": "Lea Schüller hat beim FC Bayern und in der Nationalmannschaft zuletzt an Stellenwert eingebüßt. Nun wechselt sie zu Manchester United, um ihrer Karriere neuen Schwung zu geben.",
-        "paragraphs": [
-          "Lea Schüller hat beim FC Bayern und in der Nationalmannschaft zuletzt an Stellenwert eingebüßt. Nun wechselt sie zu Manchester United, um ihrer Karriere neuen Schwung zu geben."
-        ],
-        "link": "https://www.kicker.de/neustart-in-england-schueller-unterschreibt-bei-manunited-1177597/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-29T15:14:41.000Z"
       }
     ],
     "edv": [
@@ -856,17 +856,6 @@
         "publishedAt": "2025-12-29T09:07:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: c’t-Workshop: Struktur statt Tool-Chaos in Microsoft 365",
-        "summary": "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices.",
-        "paragraphs": [
-          "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices."
-        ],
-        "link": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-29T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/hintergrund/Integration-Tests-mit-TestContainers-Von-der-Theorie-zur-Praxis-11123105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Integration-Tests mit TestContainers: Von der Theorie zur Praxis",
         "summary": "TestContainers ermöglichen realistische Integration-Tests mit echten Diensten in Docker-Containern – schnell, isoliert und ohne Mocks.",
@@ -874,6 +863,17 @@
           "TestContainers ermöglichen realistische Integration-Tests mit echten Diensten in Docker-Containern – schnell, isoliert und ohne Mocks."
         ],
         "link": "https://www.heise.de/hintergrund/Integration-Tests-mit-TestContainers-Von-der-Theorie-zur-Praxis-11123105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-29T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: c’t-Workshop: Struktur statt Tool-Chaos in Microsoft 365",
+        "summary": "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices.",
+        "paragraphs": [
+          "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices."
+        ],
+        "link": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-29T09:00:00.000Z"
       },
