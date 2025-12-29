@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-29T18:43:46.262Z",
+  "updatedAt": "2025-12-29T18:56:08.784Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:d0ab94de-59e5-4384-87de-dda7525bb45a}",
+        "title": "Münchner Sicherheitskonferenz: Chef der Münchner Sicherheitskonferenz verteidigt Einladung der AfD",
+        "summary": "Erstmals seit Jahren sind AfD-Politiker zur Münchner Sicherheitskonferenz eingeladen. Der Vorsitzende Wolfgang Ischinger sieht damit keine Brandmauer eingerissen.",
+        "paragraphs": [
+          "Erstmals seit Jahren sind AfD-Politiker zur Münchner Sicherheitskonferenz eingeladen. Der Vorsitzende Wolfgang Ischinger sieht damit keine Brandmauer eingerissen."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/muenchner-sicherheitskonferenz-vorsitzender-wolfgang-ischinger-verteidigt-einladung-afd",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-29T18:46:41.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/deutschland/olaf-scholz-sahra-wagenknecht-robert-habeck-die-politischen-absteiger-2025-a-21e6ee1d-1b1d-4dc6-a297-eebaf04f01d5",
         "title": "Olaf Scholz, Sahra Wagenknecht, Robert Habeck: Die politischen Absteiger 2025",
         "summary": "Ein Kanzler, der früh scheiterte, eine Parteichefin, die hinwarf, und ein Minister, der seine Niederlage schlecht verkraftete: Hier sind die politischen Verlierer des Jahres.",
@@ -432,18 +443,20 @@
         "link": "https://www.sueddeutsche.de/politik/israel-laserwaffen-luftabwehr-iron-beam-li.3360658",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-29T15:35:48.000Z"
-      },
-      {
-        "id": "li.3360978",
-        "title": "Gaza: Hamas bestätigt Todesfälle",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/gaza-hamas-bestaetigt-todesfaelle-li.3360978",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-29T15:31:19.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "{urn:uuid:97b1a5c3-1f00-49d8-b1e9-7cf055b2fece}",
+        "title": "Oberstdorf: Slowene Domen Prevc gewinnt Auftaktspringen der Vierschanzentournee",
+        "summary": "Der Slowene Domen Prevc erreicht beim Auftakt der Vierschanzentournee mit 141,5 Metern den ersten Platz. Ein Deutscher darf nachträglich doch noch aufs Siegertreppchen.",
+        "paragraphs": [
+          "Der Slowene Domen Prevc erreicht beim Auftakt der Vierschanzentournee mit 141,5 Metern den ersten Platz. Ein Deutscher darf nachträglich doch noch aufs Siegertreppchen."
+        ],
+        "link": "https://www.zeit.de/sport/2025-12/domen-prevc-gewinnt-auftakt-vierschanzentournee",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-29T18:41:51.000Z"
+      },
       {
         "id": "https://www.kicker.de/simbabwe-gegen-suedafrika-2025-afrika-cup-4996108/spielbericht#omrss",
         "title": "Kuriose Treffer auf beiden Seiten: Südafrika folgt Ägypten ins Achtelfinale",
@@ -454,17 +467,6 @@
         "link": "https://www.kicker.de/simbabwe-gegen-suedafrika-2025-afrika-cup-4996108/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-29T18:22:04.000Z"
-      },
-      {
-        "id": "{urn:uuid:97b1a5c3-1f00-49d8-b1e9-7cf055b2fece}",
-        "title": "Oberstdorf: Slowene Domen Prevc gewinnt Auftaktspringen der Vierschanzentournee",
-        "summary": "Der Slowene Domen Prevc erreicht beim Auftakt der Vierschanzentournee mit 141,5 Metern klar den ersten Platz. Die deutschen Springer verpassen knapp das Siegertreppchen.",
-        "paragraphs": [
-          "Der Slowene Domen Prevc erreicht beim Auftakt der Vierschanzentournee mit 141,5 Metern klar den ersten Platz. Die deutschen Springer verpassen knapp das Siegertreppchen."
-        ],
-        "link": "https://www.zeit.de/sport/2025-12/domen-prevc-gewinnt-auftakt-vierschanzentournee",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-29T18:07:03.000Z"
       },
       {
         "id": "https://www.kicker.de/doets-mit-perfekter-antwort-auf-big-fish-von-aspinall-naechster-favorit-raus-1179486/video#omrss",
