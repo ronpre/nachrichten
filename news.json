@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-29T15:38:18.009Z",
+  "updatedAt": "2025-12-29T15:48:38.598Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "li.3360658",
+        "title": "Nahost: Israel zückt das Lichtschwert",
+        "summary": "Die Laserkanone „Iron Beam“ soll das bisherige Raketenabwehrsystem des Landes ergänzen und gleichzeitig die Kosten der Luftabwehr senken.",
+        "paragraphs": [
+          "Die Laserkanone „Iron Beam“ soll das bisherige Raketenabwehrsystem des Landes ergänzen und gleichzeitig die Kosten der Luftabwehr senken."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/israel-laserwaffen-luftabwehr-iron-beam-li.3360658",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-29T15:35:48.000Z"
+      },
+      {
         "id": "li.3360978",
         "title": "Gaza: Hamas bestätigt Todesfälle",
         "summary": "",
@@ -422,17 +433,6 @@
         "link": "https://www.zeit.de/2026/01/jeffrey-epstein-akten-elite-missbrauch-skandal-usa",
         "source": "ZEIT",
         "publishedAt": "2025-12-29T13:30:13.000Z"
-      },
-      {
-        "id": "li.3357235",
-        "title": "SZ-Podcast „Auf den Punkt“: 2025: Was wurde aus ICE-Deportationen, Gaza-Kriegsverbrechen und Russlands Eroberungen?",
-        "summary": "Was für ein Klima schaffen die Abschiebungen in den USA? Hat Israel Kriegsverbrechen in Gaza aufgeklärt? Und: wie die Kreml-Propaganda im Ukraine-Krieg wirkt.",
-        "paragraphs": [
-          "Was für ein Klima schaffen die Abschiebungen in den USA? Hat Israel Kriegsverbrechen in Gaza aufgeklärt? Und: wie die Kreml-Propaganda im Ukraine-Krieg wirkt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/2025-jahresrueckblick-li.3357235",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-29T13:15:35.000Z"
       }
     ],
     "sport": [
@@ -659,8 +659,19 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Der-Outsider-der-IBM-rettete-zum-Tode-von-Lou-Gerstner-11125940.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Der Outsider, der IBM rettete – zum Tode von Lou Gerstner",
+        "summary": "Der ehemalige IBM-Präsident Lou Gerstner, der den IT-Konzern von 1992 bis 2002 leitete und vor der Zerschlagung bewahrte, ist im Alter von 83 Jahren gestorben.",
+        "paragraphs": [
+          "Der ehemalige IBM-Präsident Lou Gerstner, der den IT-Konzern von 1992 bis 2002 leitete und vor der Zerschlagung bewahrte, ist im Alter von 83 Jahren gestorben."
+        ],
+        "link": "https://www.heise.de/news/Der-Outsider-der-IBM-rettete-zum-Tode-von-Lou-Gerstner-11125940.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-29T15:38:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/App-Tracking-Transparenz-Apple-zahlt-in-Italien-fast-100-Millionen-Euro-Strafe-11123347.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "App-Tracking-Transparenz: Apple zahlt in Italien fast 100 Millionen Euro Strafe",
+        "title": "100 Millionen in Italien: Strafen für Apples App-Tracking-Transparenz sind teuer",
         "summary": "Apple will seine Nutzer auf dem iPhone vor App-übergreifendem Tracking schützen. Regulierer halten das für einen Markteingriff – und verlangen fette Gebühren.",
         "paragraphs": [
           "Apple will seine Nutzer auf dem iPhone vor App-übergreifendem Tracking schützen. Regulierer halten das für einen Markteingriff – und verlangen fette Gebühren."
@@ -758,17 +769,6 @@
         "publishedAt": "2025-12-29T09:07:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: c’t-Workshop: Struktur statt Tool-Chaos in Microsoft 365",
-        "summary": "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices.",
-        "paragraphs": [
-          "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices."
-        ],
-        "link": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-29T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/hintergrund/Integration-Tests-mit-TestContainers-Von-der-Theorie-zur-Praxis-11123105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Integration-Tests mit TestContainers: Von der Theorie zur Praxis",
         "summary": "TestContainers ermöglichen realistische Integration-Tests mit echten Diensten in Docker-Containern – schnell, isoliert und ohne Mocks.",
@@ -776,6 +776,17 @@
           "TestContainers ermöglichen realistische Integration-Tests mit echten Diensten in Docker-Containern – schnell, isoliert und ohne Mocks."
         ],
         "link": "https://www.heise.de/hintergrund/Integration-Tests-mit-TestContainers-Von-der-Theorie-zur-Praxis-11123105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-29T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: c’t-Workshop: Struktur statt Tool-Chaos in Microsoft 365",
+        "summary": "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices.",
+        "paragraphs": [
+          "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices."
+        ],
+        "link": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-29T09:00:00.000Z"
       },
@@ -866,17 +877,6 @@
         "link": "https://www.heise.de/hintergrund/39C3-Skynet-Starter-Kit-Forscher-uebernehmen-humanoide-Roboter-per-Funk-und-KI-11125594.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-28T17:12:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/39C3-Am-Di-Day-weg-von-Tech-Monopolen-aus-den-USA-und-China-11125535.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "39C3: „Digital Independence Day“ gegen Tech-Monopole",
-        "summary": "Zusammen mit anderen Organisationen ruft der CCC zum „Digital Independence Day“ auf. An jedem 1. Sonntag eines Monats sollen Wechselpartys stattfinden.",
-        "paragraphs": [
-          "Zusammen mit anderen Organisationen ruft der CCC zum „Digital Independence Day“ auf. An jedem 1. Sonntag eines Monats sollen Wechselpartys stattfinden."
-        ],
-        "link": "https://www.heise.de/news/39C3-Am-Di-Day-weg-von-Tech-Monopolen-aus-den-USA-und-China-11125535.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-28T16:09:00.000Z"
       }
     ]
   }
