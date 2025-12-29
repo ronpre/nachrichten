@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-29T05:16:33.936Z",
+  "updatedAt": "2025-12-29T05:33:03.800Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,13 +225,24 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:5dc9df51-a0f9-4b13-b769-8fed5b009354}",
+        "title": "Taiwan: China testet erneut Kampfbereitschaft rund um Taiwan",
+        "summary": "China hat ein weiteres großes Militärmanöver vor der Küste Tawains begonnen. Die Übung sei eine \"ernste Warnung\" an Kräfte, die eine Unabhängigkeit der Insel förderten.",
+        "paragraphs": [
+          "China hat ein weiteres großes Militärmanöver vor der Küste Tawains begonnen. Die Übung sei eine \"ernste Warnung\" an Kräfte, die eine Unabhängigkeit der Insel förderten."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/china-taiwan-militaeruebung-justice-mission",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-29T05:20:01.000Z"
+      },
+      {
         "id": "li.3360523",
         "title": "„Ernste Warnung“: China beginnt militärisches Großmanöver rund um Taiwan",
         "summary": "Das Manöver „Mission Gerechtigkeit 2025“ ist die erste größere Militärübung Chinas seit April. Sie soll als „ernste Warnung“ an „separatistische“ Kräfte verstanden werden.",
         "paragraphs": [
           "Das Manöver „Mission Gerechtigkeit 2025“ ist die erste größere Militärübung Chinas seit April. Sie soll als „ernste Warnung“ an „separatistische“ Kräfte verstanden werden."
         ],
-        "link": "https://www.sueddeutsche.de/politik/china-militaeruebung-taiwan-mission-gerechtigkeit-2025-li.3360523",
+        "link": "https://www.sueddeutsche.de/politik/china-militaeruebung-taiwan-li.3360523",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-29T04:50:11.000Z"
       },
@@ -271,24 +282,13 @@
       {
         "id": "{urn:uuid:97f96182-3058-4ebb-b42c-59581c1e1398}",
         "title": "Somaliland: Huthi-Miliz droht Israel mit möglichen Angriffen in Somaliland",
-        "summary": "Die vom Iran finanzierten Huthi-Rebellen warnen Israel vor weiteren Schritten in Somaliland: Jegliche israelische Präsenz werde als militärisches Ziel gewertet.",
+        "summary": "Die vom Iran finanzierten Huthis warnen Israel vor weiteren Schritten in Somaliland: Jegliche israelische Präsenz werde als militärisches Ziel gewertet.",
         "paragraphs": [
-          "Die vom Iran finanzierten Huthi-Rebellen warnen Israel vor weiteren Schritten in Somaliland: Jegliche israelische Präsenz werde als militärisches Ziel gewertet."
+          "Die vom Iran finanzierten Huthis warnen Israel vor weiteren Schritten in Somaliland: Jegliche israelische Präsenz werde als militärisches Ziel gewertet."
         ],
         "link": "https://www.zeit.de/politik/ausland/2025-12/israel-somaliland-huthi-anerkennung",
         "source": "ZEIT",
         "publishedAt": "2025-12-29T03:52:57.000Z"
-      },
-      {
-        "id": "{urn:uuid:5dc9df51-a0f9-4b13-b769-8fed5b009354}",
-        "title": "Taiwan: China testet erneut Kampfbereitschaft rund um Taiwan",
-        "summary": "China hat ein weiteres großes Militärmanöver vor der Küste Tawains begonnen. Die Übung sei eine \"ernste Warnung\" an Kräfte, die eine Unabhängigkeit der Insel förderten.",
-        "paragraphs": [
-          "China hat ein weiteres großes Militärmanöver vor der Küste Tawains begonnen. Die Übung sei eine \"ernste Warnung\" an Kräfte, die eine Unabhängigkeit der Insel förderten."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/china-taiwan-militaeruebung-justice-mission",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-29T03:27:18.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/asien-china-kuendigt-neues-grossmanoever-rund-um-taiwan-an/100187283.html",
@@ -667,6 +667,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Milliarden-Grab-oder-Effizienz-Wunder-Der-steinige-Weg-zur-EU-Interoperabilitaet-11125574.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Milliarden-Grab oder Effizienz-Wunder? Der steinige Weg zur EU-Interoperabilität",
+        "summary": "Die EU-Kommission verspricht 5 Milliarden Euro Ersparnis pro Jahr durch vernetzte Ämter. Doch ihre erste Bilanz zeigt: Bisher wurde vor allem Papier produziert.",
+        "paragraphs": [
+          "Die EU-Kommission verspricht 5 Milliarden Euro Ersparnis pro Jahr durch vernetzte Ämter. Doch ihre erste Bilanz zeigt: Bisher wurde vor allem Papier produziert."
+        ],
+        "link": "https://www.heise.de/news/Milliarden-Grab-oder-Effizienz-Wunder-Der-steinige-Weg-zur-EU-Interoperabilitaet-11125574.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-29T05:22:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/39C3-Digital-Independence-Day-CCC-Sprecher-ueber-Weg-raus-aus-Big-Tech-11125634.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "39C3: Digital Independence Day – CCC-Sprecher über Weg raus aus Big Tech",
         "summary": "Auf dem Hackerkongress 39C3 wurde der Digital Independence Day ausgerufen. Warum und was das bedeutet, erklärt CCC-Sprecher Linus Neumann im Interview.",
@@ -874,17 +885,6 @@
         "link": "https://www.heise.de/news/39C3-CCC-Sprecher-erdgeist-ueber-autoritaere-Trends-in-der-Tech-Branche-11125211.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-27T18:59:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/39C3-Wie-ein-Forscher-das-sichere-Mail-Netz-der-Medizin-erneut-ueberlistete-11125264.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "39C3: Wie ein Forscher das sichere Mail-Netz der Medizin erneut überlistete",
-        "summary": "Ein Sicherheitsexperte zeigte auf dem 39C3, wie sich bei der E-Ärztepost KIM Nachrichten fälschen, Identitäten stehlen und sensible Metadaten abgreifen lassen.",
-        "paragraphs": [
-          "Ein Sicherheitsexperte zeigte auf dem 39C3, wie sich bei der E-Ärztepost KIM Nachrichten fälschen, Identitäten stehlen und sensible Metadaten abgreifen lassen."
-        ],
-        "link": "https://www.heise.de/news/39C3-Wie-ein-Forscher-das-sichere-Mail-Netz-der-Medizin-erneut-ueberlistete-11125264.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-27T17:27:00.000Z"
       }
     ]
   }
