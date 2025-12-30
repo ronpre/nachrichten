@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-30T04:05:06.491Z",
+  "updatedAt": "2025-12-30T04:25:09.320Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:0e186688-ebdc-4bce-a53a-39f19fd575ab}",
+        "title": "Dringlichkeitssitzung: Kritik im UN-Sicherheitsrat nach Israels Anerkennung von Somaliland",
+        "summary": "Israel hat Somaliland als unabhängigen Staat anerkannt und damit eine Debatte im UN-Sicherheitsrat ausgelöst. Slowenien wies auf Unterschiede zu Palästina hin.",
+        "paragraphs": [
+          "Israel hat Somaliland als unabhängigen Staat anerkannt und damit eine Debatte im UN-Sicherheitsrat ausgelöst. Slowenien wies auf Unterschiede zu Palästina hin."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/somaliland-israel-anerkennung-un-sicherheitsrat-debatte",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-30T04:16:35.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/konflikt-in-ostasien-china-setzt-militaermanoever-rund-um-taiwan-fort/100187535.html",
         "title": "Konflikt in Ostasien: China setzt Militärmanöver rund um Taiwan fort",
         "summary": "Die Übungen der Volksbefreiungsarmee gehen in den zweiten Tag. Derweil meldet Taipeh 130 chinesische Flugbewegungen binnen eines Tages.",
@@ -432,17 +443,6 @@
         "link": "https://www.zeit.de/politik/deutschland/2025-12/muenchner-sicherheitskonferenz-vorsitzender-wolfgang-ischinger-verteidigt-einladung-afd",
         "source": "ZEIT",
         "publishedAt": "2025-12-29T19:15:08.000Z"
-      },
-      {
-        "id": "{urn:uuid:db6beec3-8f57-4e87-8d69-4a0ac41b3081}",
-        "title": "Krieg in der Ukraine: Russland wirft Ukraine Drohnenangriff auf Putins Residenz vor",
-        "summary": "Russland beschuldigt die Ukraine, einen Wohnsitz Putins angegriffen zu haben. Selenskyj widerspricht: Es handle sich um einen Vorwand, die Verhandlungen zu sabotieren.",
-        "paragraphs": [
-          "Russland beschuldigt die Ukraine, einen Wohnsitz Putins angegriffen zu haben. Selenskyj widerspricht: Es handle sich um einen Vorwand, die Verhandlungen zu sabotieren."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/krieg-russland-ukraine-angriff-residenz-wladimir-putin-wolodymyr-selenskyj-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-29T19:07:52.000Z"
       }
     ],
     "sport": [
@@ -878,13 +878,13 @@
         "publishedAt": "2025-12-29T09:07:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Integration-Tests-mit-TestContainers-Von-der-Theorie-zur-Praxis-11123105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Integration-Tests mit TestContainers: Von der Theorie zur Praxis",
-        "summary": "TestContainers ermöglichen realistische Integration-Tests mit echten Diensten in Docker-Containern – schnell, isoliert und ohne Mocks.",
+        "id": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: c’t-Workshop: Struktur statt Tool-Chaos in Microsoft 365",
+        "summary": "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices.",
         "paragraphs": [
-          "TestContainers ermöglichen realistische Integration-Tests mit echten Diensten in Docker-Containern – schnell, isoliert und ohne Mocks."
+          "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices."
         ],
-        "link": "https://www.heise.de/hintergrund/Integration-Tests-mit-TestContainers-Von-der-Theorie-zur-Praxis-11123105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-29T09:00:00.000Z"
       }
