@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-30T05:46:49.502Z",
+  "updatedAt": "2025-12-30T05:55:17.916Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,39 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:2d2fe636-4cb1-48ca-818a-4d69d2db9df2}",
+        "title": "Südamerika: Trump bestätigt US-Angriff auf Hafengebiet in Venezuela",
+        "summary": "Die USA hätten einen \"Drogenumschlagplatz\" in einem Hafengebiet Venezuelas angegriffen, sagt Donald Trump. Laut Berichten soll die CIA daran beteiligt gewesen sein.",
+        "paragraphs": [
+          "Die USA hätten einen \"Drogenumschlagplatz\" in einem Hafengebiet Venezuelas angegriffen, sagt Donald Trump. Laut Berichten soll die CIA daran beteiligt gewesen sein."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/donald-trump-angriff-venezuela-hafen",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-30T05:47:14.000Z"
+      },
+      {
+        "id": "li.3360936",
+        "title": "Naher Osten: Trump droht nach Gespräch mit Netanjahu der Hamas und Iran",
+        "summary": "Mit dem Friedensplan für den Gazastreifen geht es nicht voran. Der US-Präsident macht die Hamas verantwortlich, der israelische Ministerpräsident ist und bleibt für ihn ein „Held“.",
+        "paragraphs": [
+          "Mit dem Friedensplan für den Gazastreifen geht es nicht voran. Der US-Präsident macht die Hamas verantwortlich, der israelische Ministerpräsident ist und bleibt für ihn ein „Held“."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/trump-netanjahu-treffen-li.3360936",
+        "source": "Sueddeutsche",
+        "publishedAt": "2025-12-30T05:45:48.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/sanktionen-gegen-hate-aid-weitere-us-massnahmen-gegen-deutsche-befuerchtet-a-e0c8b6d9-95e2-4e76-8360-4ea9e3e1dc3d",
+        "title": "Sanktionen gegen Hate Aid: Weitere US-Maßnahmen gegen Deutsche befürchtet",
+        "summary": "Die Sanktionen gegen HateAid könnten erst der Anfang sein. Die Trump-Regierung erwog nach SPIEGEL-Recherchen schon vor Monaten, deutsche Staatsdiener zu bestrafen – weil der Verfassungsschutz die AfD überwacht.",
+        "paragraphs": [
+          "Die Sanktionen gegen HateAid könnten erst der Anfang sein. Die Trump-Regierung erwog nach SPIEGEL-Recherchen schon vor Monaten, deutsche Staatsdiener zu bestrafen – weil der Verfassungsschutz die AfD überwacht."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/sanktionen-gegen-hate-aid-weitere-us-massnahmen-gegen-deutsche-befuerchtet-a-e0c8b6d9-95e2-4e76-8360-4ea9e3e1dc3d#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-30T05:44:00.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/umfrage-unternehmen-kritisieren-hohe-steuern-und-abgaben-der-mitarbeiter/100182684.html",
         "title": "Umfrage: Unternehmen kritisieren hohe Steuern und Abgaben der Mitarbeiter",
         "summary": "Laut einer Umfrage gilt die hohe Belastung der Belegschaft unter Firmenchefs inzwischen als größeres Problem als die Unternehmensteuern – sie wirke leistungsfeindlich.",
@@ -245,17 +278,6 @@
         "link": "https://www.spiegel.de/politik/deutschland/news-russland-ukraine-krieg-silvesternacht-am-koelner-hauptbahnhof-whiskey-krise-a-2e1dc422-96a4-404a-b8ee-44d428c64189#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-30T04:45:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/sanktionen-gegen-hate-aid-weitere-us-massnahmen-gegen-deutsche-befuerchtet-a-e0c8b6d9-95e2-4e76-8360-4ea9e3e1dc3d",
-        "title": "Sanktionen gegen Hate Aid: Weitere US-Maßnahmen gegen Deutsche befürchtet",
-        "summary": "Die Sanktionen gegen HateAid könnten erst der Anfang sein. Die Trump-Regierung erwog nach SPIEGEL-Recherchen schon vor Monaten, deutsche Staatsdiener zu bestrafen – weil der Verfassungsschutz die AfD überwacht.",
-        "paragraphs": [
-          "Die Sanktionen gegen HateAid könnten erst der Anfang sein. Die Trump-Regierung erwog nach SPIEGEL-Recherchen schon vor Monaten, deutsche Staatsdiener zu bestrafen – weil der Verfassungsschutz die AfD überwacht."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/sanktionen-gegen-hate-aid-weitere-us-massnahmen-gegen-deutsche-befuerchtet-a-e0c8b6d9-95e2-4e76-8360-4ea9e3e1dc3d#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-30T04:28:00.000Z"
       },
       {
         "id": "{urn:uuid:0c3aa7a2-e260-4ca3-be10-7b6c7fa0ff68}",
@@ -421,28 +443,6 @@
         "link": "https://www.zeit.de/politik/deutschland/2025-12/ermittlungen-bundeswehr-fallschirmjaeger-rechtsextremismus-sexualisierte-gewalt-antisemitismus",
         "source": "ZEIT",
         "publishedAt": "2025-12-29T21:04:18.000Z"
-      },
-      {
-        "id": "li.3353911",
-        "title": "Krieg in Nahost: Israels Präsident weist Trumps Darstellung zu Netanjahu-Begnadigung zurück",
-        "summary": "Herzog dementiert damit die Behauptung des US-Präsidenten, eine Begnadigung stehe unmittelbar bevor. Netanjahu ist in Florida eingetroffen, um mit Trump über die nächsten Schritte zur dauerhaften Beendigung des Gaza-Kriegs zu sprechen.",
-        "paragraphs": [
-          "Herzog dementiert damit die Behauptung des US-Präsidenten, eine Begnadigung stehe unmittelbar bevor. Netanjahu ist in Florida eingetroffen, um mit Trump über die nächsten Schritte zur dauerhaften Beendigung des Gaza-Kriegs zu sprechen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/nahost-liveblog-news-gazastreifen-trump-netanjahu-treffen-florida-li.3353911",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-29T20:27:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/nahost-trump-unterstuetzt-erneute-angriffe-auf-iran-bei-wiederaufruestung/100136895.html",
-        "title": "+++ Nahost +++: Trump unterstützt erneute Angriffe auf Iran bei Wiederaufrüstung",
-        "summary": "Huthi: Israels Präsenz in Somaliland wäre militärisches Ziel +++ Hamas bestätigt Tod mehrerer führender Mitglieder +++ Der Newsblog.",
-        "paragraphs": [
-          "Huthi: Israels Präsenz in Somaliland wäre militärisches Ziel +++ Hamas bestätigt Tod mehrerer führender Mitglieder +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/nahost-trump-unterstuetzt-erneute-angriffe-auf-iran-bei-wiederaufruestung/100136895.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-29T20:10:46.000Z"
       }
     ],
     "sport": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Partnerschaft-besiegelt-Nvidia-kauft-Intel-Aktien-11126207.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Partnerschaft besiegelt: Nvidia kauft Intel-Aktien",
+        "summary": "Nvidia, das wertvollste Unternehmen der Welt, beteiligt sich mit rund 4,5 Prozent an Intel. Es ist eine Kombination aus Kapitalspritze und Partnerschaft.",
+        "paragraphs": [
+          "Nvidia, das wertvollste Unternehmen der Welt, beteiligt sich mit rund 4,5 Prozent an Intel. Es ist eine Kombination aus Kapitalspritze und Partnerschaft."
+        ],
+        "link": "https://www.heise.de/news/Partnerschaft-besiegelt-Nvidia-kauft-Intel-Aktien-11126207.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-30T05:52:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/MacBook-Pro-M5-Apple-erleichtert-Akkuwechsel-11124285.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "MacBook Pro M5: Apple erleichtert Akkuwechsel",
         "summary": "Bislang musste man das komplette Gehäuseoberteil tauschen, wenn man seinem MacBook Pro einen neuen Akku spendierte. Apple ändert das – bei einem Modell.",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/39C3-Sicherheitsforscher-kapert-KI-Coding-Assistenten-mit-Prompt-Injection-11125630.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-29T09:07:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: c’t-Workshop: Struktur statt Tool-Chaos in Microsoft 365",
-        "summary": "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices.",
-        "paragraphs": [
-          "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices."
-        ],
-        "link": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-29T09:00:00.000Z"
       }
     ]
   }
