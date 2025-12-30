@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-30T02:15:58.716Z",
+  "updatedAt": "2025-12-30T03:00:16.649Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:5eb98fe5-fa9c-4d53-a8fb-692739b2d668}",
+        "title": "Nahost: Saudi-arabisch geführte Militärkoalition kündigt Angriff im Jemen an",
+        "summary": "Eine von Saudi-Arabien angeführte Militärkoalition hat Zivilisten im jemenitischen Mukalla aufgerufen, den Hafen zu verlassen. Dort soll ein Angriff bevorstehen.",
+        "paragraphs": [
+          "Eine von Saudi-Arabien angeführte Militärkoalition hat Zivilisten im jemenitischen Mukalla aufgerufen, den Hafen zu verlassen. Dort soll ein Angriff bevorstehen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/jemen-mukalla-angriff-ankuendigung-saudi-arabien-militaerkoalition",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-30T02:28:43.000Z"
+      },
+      {
         "id": "{urn:uuid:5e24216c-805d-4906-83b6-b88801938c2e}",
         "title": "Pazifik: US-Militär tötet bei Angriff auf angebliches Drogenboot zwei Menschen",
         "summary": "Trotz internationaler Kritik führt die US-Regierung ihre Luftangriffe auf Boote im Pazifik fort. Nun melden die amerikanischen Streitkräfte einen weiteren Schlag.",
@@ -432,17 +443,6 @@
         "link": "https://www.spiegel.de/politik/deutschland/vorfaelle-in-zweibruecken-worum-es-bei-den-vorwuerfen-gegen-die-fallschirmjaegereinheit-geht-a-14ebc6dd-d4cc-409c-b966-31a7f12c53e1#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-29T18:16:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/news-des-tages-mtv-ohne-musikvideos-immobilienpreise-praxisgebuehr-a-ecb01cd3-f66b-4dd0-82a9-071701714cb9",
-        "title": "News des Tages: MTV ohne Musikvideos, Immobilienpreise, Praxisgebühr",
-        "summary": "Kohorten ehemaliger Teenager nehmen Abschied von einem Musiksender, der bald keine Musikvideos mehr spielt. In fünf deutschen Städten können sich sogar Gutverdienende kaum noch eine Immobilie leisten. Und der Streit über die Praxisgebühr kehrt zurück. Das ist die Lage am Montagabend.",
-        "paragraphs": [
-          "Kohorten ehemaliger Teenager nehmen Abschied von einem Musiksender, der bald keine Musikvideos mehr spielt. In fünf deutschen Städten können sich sogar Gutverdienende kaum noch eine Immobilie leisten. Und der Streit über die Praxisgebühr kehrt zurück. Das ist die Lage am Montagabend."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-mtv-ohne-musikvideos-immobilienpreise-praxisgebuehr-a-ecb01cd3-f66b-4dd0-82a9-071701714cb9#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-29T18:06:00.000Z"
       }
     ],
     "sport": [
@@ -878,13 +878,13 @@
         "publishedAt": "2025-12-29T09:07:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: c’t-Workshop: Struktur statt Tool-Chaos in Microsoft 365",
-        "summary": "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices.",
+        "id": "https://www.heise.de/hintergrund/Integration-Tests-mit-TestContainers-Von-der-Theorie-zur-Praxis-11123105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Integration-Tests mit TestContainers: Von der Theorie zur Praxis",
+        "summary": "TestContainers ermöglichen realistische Integration-Tests mit echten Diensten in Docker-Containern – schnell, isoliert und ohne Mocks.",
         "paragraphs": [
-          "Wie Microsoft 365 vom Zeit- und Informationsfresser zur funktionierenden Arbeitsplattform wird, zeigt der Workshop mit Beispielen, Übungen und Best Practices."
+          "TestContainers ermöglichen realistische Integration-Tests mit echten Diensten in Docker-Containern – schnell, isoliert und ohne Mocks."
         ],
-        "link": "https://www.heise.de/news/c-t-Workshop-Struktur-statt-Tool-Chaos-in-Microsoft-365-11115282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/hintergrund/Integration-Tests-mit-TestContainers-Von-der-Theorie-zur-Praxis-11123105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-29T09:00:00.000Z"
       }
