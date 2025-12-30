@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-30T07:30:38.600Z",
+  "updatedAt": "2025-12-30T07:45:20.591Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dividenden-aktien-so-sichern-sie-passives-einkommen-mit-der-graham-methode-01/100094589.html",
+        "title": "Dividenden-Aktien: Passives Einkommen mit der Graham-Methode sichern",
+        "summary": "Schütten Unternehmen Gewinne aus, verdienen Aktionäre nebenbei Geld. Allerdings nur mit den richtigen Aktien. Die Strategie eines bekannten Investors soll bei der Auswahl helfen.",
+        "paragraphs": [
+          "Schütten Unternehmen Gewinne aus, verdienen Aktionäre nebenbei Geld. Allerdings nur mit den richtigen Aktien. Die Strategie eines bekannten Investors soll bei der Auswahl helfen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dividenden-aktien-so-sichern-sie-passives-einkommen-mit-der-graham-methode-01/100094589.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-30T09:00:00.000Z"
+      },
       {
         "id": "https://www.spiegel.de/wirtschaft/wettbewerbsfaehigkeit-bankenpraesident-sewing-schwoert-deutsche-auf-mehrarbeit-ein-a-2a7d3a8b-3454-4e0f-b32f-231433635517",
         "title": "Wettbewerbsfähigkeit: Bankenpräsident Sewing schwört Deutsche auf Mehrarbeit ein",
@@ -113,17 +124,6 @@
         "publishedAt": "2025-12-30T06:35:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/karibik-usa-haben-laut-trump-erstmals-ziel-in-venezuela-angegriffen/100187484.html",
-        "title": "Karibik: USA haben laut Trump erstmals Ziel in Venezuela angegriffen",
-        "summary": "Eine große Explosion hat ein Hafengebiet in Venezuela erschüttert. Einem Medienbericht zufolge leitete der US-Geheimdienst CIA den Drohnenangriff.",
-        "paragraphs": [
-          "Eine große Explosion hat ein Hafengebiet in Venezuela erschüttert. Einem Medienbericht zufolge leitete der US-Geheimdienst CIA den Drohnenangriff."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/karibik-usa-haben-laut-trump-erstmals-ziel-in-venezuela-angegriffen/100187484.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-30T06:32:57.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/international/nahost-boeing-erhaelt-milliarden-auftrag-fuer-f-15-jets-fuer-israel/100136895.html",
         "title": "+++ Nahost +++: Boeing erhält Milliarden-Auftrag für F-15-Jets für Israel",
         "summary": "USA verteidigen Israels Anerkennung von Somaliland als Staat +++ Trump: Hamas muss sich bald entwaffnen – sonst Konsequenzen +++ Der Newsblog.",
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:b2ed54e5-b45a-4127-84a9-5bce4ceaa5c6}",
+        "title": "Proteste im Iran: Irans Präsident äußert Verständnis für Proteste gegen Wirtschaftskrise",
+        "summary": "Der Kurs der iranischen Währung Riad fällt, im Zentrum Teherans protestieren Händler gegen die Wirtschaftslage. Präsident Massud Peseschkian kündigte Gespräche an.",
+        "paragraphs": [
+          "Der Kurs der iranischen Währung Riad fällt, im Zentrum Teherans protestieren Händler gegen die Wirtschaftslage. Präsident Massud Peseschkian kündigte Gespräche an."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/proteste-iran-teheran-wirtschaftskrise-massud-peseschkian-rial",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-30T07:35:13.000Z"
+      },
+      {
+        "id": "{urn:uuid:57df534f-2dcd-4563-b239-68d801f6da25}",
+        "title": "Sachsen-Anhalt: Reiner Haseloff sieht Wiedervereinigung als \"historisches Glück\"",
+        "summary": "Mit Blick auf die Entwicklung anderer Länder nach 1989 könne man \"eigentlich nur dankbar sein\", sagt Ministerpräsident Haseloff. Besonders hob er den Umweltschutz hervor.",
+        "paragraphs": [
+          "Mit Blick auf die Entwicklung anderer Länder nach 1989 könne man \"eigentlich nur dankbar sein\", sagt Ministerpräsident Haseloff. Besonders hob er den Umweltschutz hervor."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/reiner-haseloff-osten-westen-wiedervereinigung",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-30T07:30:26.000Z"
+      },
+      {
         "id": "{urn:uuid:5eb98fe5-fa9c-4d53-a8fb-692739b2d668}",
         "title": "Nahost: Saudi-arabisch geführte Militärkoalition meldet Luftangriff im Jemen",
         "summary": "Eine von Saudi-Arabien angeführte Militärkoalition hat offenbar Schiffe im jemenitischen Mukalla angegriffen. Regierungsvertreter riefen den Notstand aus.",
@@ -247,13 +269,13 @@
         "publishedAt": "2025-12-30T07:08:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-prueft-nach-angeblichem-angriff-position-in-gespraechen/100187462.html",
-        "title": "Ukraine-Krieg: Putin prüft nach angeblichem ukrainischen Angriff Position in Verhandlungen",
-        "summary": "Kremlchef Putin und US-Präsident Trump haben ein weiteres Telefonat über ein mögliches Kriegsende geführt. Darin verwies Putin auf einen angeblichen Drohnenangriff auf seine Residenz.",
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-wirft-ukraine-drohnenangriff-auf-seine-residenz-vor/100187462.html",
+        "title": "Ukraine-Krieg: Putin wirft Ukraine Drohnenangriff auf seine Residenz vor – Trump kritisiert Kiew",
+        "summary": "Der Kremlchef hat dem US-Präsidenten in einem Telefonat von einem angeblichen Angriff auf seine Villa erzählt. Die Ukraine bezeichnet das als Lüge. Trump kümmert das zunächst kaum.",
         "paragraphs": [
-          "Kremlchef Putin und US-Präsident Trump haben ein weiteres Telefonat über ein mögliches Kriegsende geführt. Darin verwies Putin auf einen angeblichen Drohnenangriff auf seine Residenz."
+          "Der Kremlchef hat dem US-Präsidenten in einem Telefonat von einem angeblichen Angriff auf seine Villa erzählt. Die Ukraine bezeichnet das als Lüge. Trump kümmert das zunächst kaum."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-prueft-nach-angeblichem-angriff-position-in-gespraechen/100187462.html",
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-wirft-ukraine-drohnenangriff-auf-seine-residenz-vor/100187462.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-30T06:50:44.000Z"
       },
@@ -421,31 +443,20 @@
         "link": "https://www.zeit.de/politik/deutschland/2025-12/spd-landtagswahlen-2026-ministerpraesidenten-5-prozent-huerde",
         "source": "ZEIT",
         "publishedAt": "2025-12-30T04:23:34.000Z"
-      },
-      {
-        "id": "{urn:uuid:0e186688-ebdc-4bce-a53a-39f19fd575ab}",
-        "title": "Dringlichkeitssitzung: Kritik im UN-Sicherheitsrat nach Israels Anerkennung von Somaliland",
-        "summary": "Israel hat Somaliland als unabhängigen Staat anerkannt und damit eine Debatte im UN-Sicherheitsrat ausgelöst. Slowenien wies auf Unterschiede zu Palästina hin.",
-        "paragraphs": [
-          "Israel hat Somaliland als unabhängigen Staat anerkannt und damit eine Debatte im UN-Sicherheitsrat ausgelöst. Slowenien wies auf Unterschiede zu Palästina hin."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/somaliland-israel-anerkennung-un-sicherheitsrat-debatte",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-30T04:16:35.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/konflikt-in-ostasien-china-setzt-militaermanoever-rund-um-taiwan-fort/100187535.html",
-        "title": "Konflikt in Ostasien: China setzt Militärmanöver rund um Taiwan fort",
-        "summary": "Die Übungen der Volksbefreiungsarmee gehen in den zweiten Tag. Derweil meldet Taipeh 130 chinesische Flugbewegungen binnen eines Tages.",
-        "paragraphs": [
-          "Die Übungen der Volksbefreiungsarmee gehen in den zweiten Tag. Derweil meldet Taipeh 130 chinesische Flugbewegungen binnen eines Tages."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/konflikt-in-ostasien-china-setzt-militaermanoever-rund-um-taiwan-fort/100187535.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-30T03:40:50.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/nfl-das-playoff-picture-endspiele-mit-bucs-panthers-steelers-und-ravens-stehen-an-1169024/artikel#omrss",
+        "title": "NFL: Das Playoff Picture - Endspiele mit Bucs, Panthers, Steelers und Ravens stehen an",
+        "summary": "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Zwölf davon sind bereits vergeben, zwei weitere folgen in Endspielen. Der aktuelle Stand.",
+        "paragraphs": [
+          "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Zwölf davon sind bereits vergeben, zwei weitere folgen in Endspielen. Der aktuelle Stand."
+        ],
+        "link": "https://www.kicker.de/nfl-das-playoff-picture-endspiele-mit-bucs-panthers-steelers-und-ravens-stehen-an-1169024/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-30T07:40:07.000Z"
+      },
       {
         "id": "https://www.kicker.de/nuggets-bangen-um-jokic-spurs-erhalten-den-naechsten-daempfer-1179544/artikel#omrss",
         "title": "Nuggets bangen um Jokic - Spurs erhalten den nächsten Dämpfer",
@@ -654,20 +665,20 @@
         "link": "https://www.zeit.de/sport/2025-12/domen-prevc-gewinnt-auftakt-vierschanzentournee",
         "source": "ZEIT",
         "publishedAt": "2025-12-29T19:25:37.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/katheterablation-lazio-coach-sarri-am-herzen-operiert-1179489/artikel#omrss",
-        "title": "Katheterablation: Lazio-Coach Sarri am Herzen operiert",
-        "summary": "Wie Lazio Rom an diesem Montag offiziell mitgeteilt hat, hat sich Trainer Maurizio Sarri erfolgreich einem Eingriff am Herzen unterzogen.",
-        "paragraphs": [
-          "Wie Lazio Rom an diesem Montag offiziell mitgeteilt hat, hat sich Trainer Maurizio Sarri erfolgreich einem Eingriff am Herzen unterzogen."
-        ],
-        "link": "https://www.kicker.de/katheterablation-lazio-coach-sarri-am-herzen-operiert-1179489/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-29T19:05:00.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/hintergrund/Schnelles-Boot-statt-Bus-und-Bahn-Was-sich-von-London-und-New-York-lernen-laesst-11124765.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Schnelles Boot statt Bus und Bahn: Was sich von London und New York lernen lässt",
+        "summary": "Durch die meisten deutschen Großstädte fließt ein Fluss. Doch gut ausgebauter Bootsverkehr ist selten. Dabei funktioniert das an Themse und East River gut.",
+        "paragraphs": [
+          "Durch die meisten deutschen Großstädte fließt ein Fluss. Doch gut ausgebauter Bootsverkehr ist selten. Dabei funktioniert das an Themse und East River gut."
+        ],
+        "link": "https://www.heise.de/hintergrund/Schnelles-Boot-statt-Bus-und-Bahn-Was-sich-von-London-und-New-York-lernen-laesst-11124765.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-30T07:09:00.000Z"
+      },
       {
         "id": "https://www.heise.de/blog/Software-Testing-Ask-Me-Anything-zu-KI-Automatisierung-und-Shift-Left-11119139.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Software Testing: Ask Me Anything zu KI, Automatisierung und Shift Left",
@@ -691,17 +702,6 @@
         "publishedAt": "2025-12-30T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Fortgeschrittene-Administration-von-Kubernetes-11116650.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Fortgeschrittene Administration von Kubernetes",
-        "summary": "Lernen Sie fortgeschrittene Techniken für das Applikationsmanagement und die Implementierung von Service-Mesh-Technologien.",
-        "paragraphs": [
-          "Lernen Sie fortgeschrittene Techniken für das Applikationsmanagement und die Implementierung von Service-Mesh-Technologien."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-Fortgeschrittene-Administration-von-Kubernetes-11116650.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-30T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/39C3-Konzerne-ruinieren-das-Netz-Cory-Doctorows-Ideen-gegen-Enshittification-11126178.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "39C3: Konzerne ruinieren das Netz – Cory Doctorows Ideen gegen Enshittification",
         "summary": "US-Plattformen entwickeln sich stetig von der Lösung zum Problem. Im Interview mit heise online nennt Doctorow Wege, wie Staaten und Nutzer sich wehren können.",
@@ -709,6 +709,17 @@
           "US-Plattformen entwickeln sich stetig von der Lösung zum Problem. Im Interview mit heise online nennt Doctorow Wege, wie Staaten und Nutzer sich wehren können."
         ],
         "link": "https://www.heise.de/news/39C3-Konzerne-ruinieren-das-Netz-Cory-Doctorows-Ideen-gegen-Enshittification-11126178.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-30T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-Fortgeschrittene-Administration-von-Kubernetes-11116650.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Fortgeschrittene Administration von Kubernetes",
+        "summary": "Lernen Sie fortgeschrittene Techniken für das Applikationsmanagement und die Implementierung von Service-Mesh-Technologien.",
+        "paragraphs": [
+          "Lernen Sie fortgeschrittene Techniken für das Applikationsmanagement und die Implementierung von Service-Mesh-Technologien."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Fortgeschrittene-Administration-von-Kubernetes-11116650.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-30T07:00:00.000Z"
       },
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/China-will-anthropomorphe-KI-streng-regulieren-11125712.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-29T13:04:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/iX-Workshop-Windows-11-im-Unternehmen-absichern-11116632.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Windows 11 im Unternehmen absichern",
-        "summary": "Lernen Sie an praktischen Beispielen, wie Sie Windows 11 Pro und Enterprise in Ihrem Unternehmen sicher und effektiv einsetzen.",
-        "paragraphs": [
-          "Lernen Sie an praktischen Beispielen, wie Sie Windows 11 Pro und Enterprise in Ihrem Unternehmen sicher und effektiv einsetzen."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-Windows-11-im-Unternehmen-absichern-11116632.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-29T13:00:00.000Z"
       }
     ]
   }
