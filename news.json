@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-30T06:58:18.444Z",
+  "updatedAt": "2025-12-30T07:11:56.186Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.spiegel.de/wirtschaft/iw-studie-ein-job-im-haushalt-ist-in-der-regel-schwarzarbeit-a-800fa72a-6933-4ba4-804b-c80fe64b0237",
+        "title": "IW-Studie: Ein Job im Haushalt ist in der Regel Schwarzarbeit",
+        "summary": "Fast vier Millionen Haushalte setzen auf Schwarzarbeit. Warum viele Arbeitgeber die Anmeldung umgehen und wie viel Geld dabei wirklich fließt.",
+        "paragraphs": [
+          "Fast vier Millionen Haushalte setzen auf Schwarzarbeit. Warum viele Arbeitgeber die Anmeldung umgehen und wie viel Geld dabei wirklich fließt."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/iw-studie-ein-job-im-haushalt-ist-in-der-regel-schwarzarbeit-a-800fa72a-6933-4ba4-804b-c80fe64b0237#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2025-12-30T06:59:00.000Z"
+      },
       {
         "id": "{urn:uuid:f93dc38b-d403-4d11-9b3c-83aae734c5cb}",
         "title": "Inflation: Große Schwankungen bei Preisen für Lebensmittel",
@@ -12,6 +23,17 @@
         "link": "https://www.zeit.de/wirtschaft/2025-12/lebensmittel-preise-2025-schwankungen-inflation",
         "source": "ZEIT",
         "publishedAt": "2025-12-30T06:53:43.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-prueft-nach-angeblichem-angriff-position-in-gespraechen/100187462.html",
+        "title": "Ukraine-Krieg: Putin prüft nach angeblichem ukrainischen Angriff Position in Verhandlungen",
+        "summary": "Kremlchef Putin und US-Präsident Trump haben ein weiteres Telefonat über ein mögliches Kriegsende geführt. Darin verwies Putin auf einen angeblichen Drohnenangriff auf seine Residenz.",
+        "paragraphs": [
+          "Kremlchef Putin und US-Präsident Trump haben ein weiteres Telefonat über ein mögliches Kriegsende geführt. Darin verwies Putin auf einen angeblichen Drohnenangriff auf seine Residenz."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-prueft-nach-angeblichem-angriff-position-in-gespraechen/100187462.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-30T06:50:44.000Z"
       },
       {
         "id": "{urn:uuid:5c027e6b-6753-4abf-b04e-2ee07b2a7031}",
@@ -199,18 +221,9 @@
         "link": "https://www.handelsblatt.com/politik/international/interview-es-ist-unrealistisch-dass-alle-syrischen-fluechtlinge-zurueckkehren/100178784.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-30T03:20:01.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/finanzpolitik-bankenpraesident-sewing-fordert-mehr-arbeitsbereitschaft/100187518.html",
-        "title": "Finanzpolitik: Sewing: Deutsche müssen Einschnitte hinnehmen und mehr arbeiten",
-        "summary": "Der Chef der Deutschen Bank sieht eine Notwendigkeit für unangenehme Entscheidungen, um das Wirtschaftswachstum wieder anzukurbeln. Dazu gehöre auch mehr Arbeit.",
-        "paragraphs": [
-          "Der Chef der Deutschen Bank sieht eine Notwendigkeit für unangenehme Entscheidungen, um das Wirtschaftswachstum wieder anzukurbeln. Dazu gehöre auch mehr Arbeit."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/finanzpolitik-bankenpraesident-sewing-fordert-mehr-arbeitsbereitschaft/100187518.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-30T01:08:25.000Z"
-      },
+      }
+    ],
+    "politik": [
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-prueft-nach-angeblichem-angriff-position-in-gespraechen/100187462.html",
         "title": "Ukraine-Krieg: Putin prüft nach angeblichem ukrainischen Angriff Position in Verhandlungen",
@@ -220,10 +233,8 @@
         ],
         "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-prueft-nach-angeblichem-angriff-position-in-gespraechen/100187462.html",
         "source": "Handelsblatt",
-        "publishedAt": "2025-12-30T00:04:15.000Z"
-      }
-    ],
-    "politik": [
+        "publishedAt": "2025-12-30T06:50:44.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/karibik-usa-haben-laut-trump-erstmals-ziel-in-venezuela-angegriffen/100187484.html",
         "title": "Karibik: USA haben laut Trump erstmals Ziel in Venezuela angegriffen",
@@ -432,20 +443,31 @@
         "link": "https://www.handelsblatt.com/politik/international/interview-es-ist-unrealistisch-dass-alle-syrischen-fluechtlinge-zurueckkehren/100178784.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-30T03:20:01.000Z"
-      },
-      {
-        "id": "{urn:uuid:5eb98fe5-fa9c-4d53-a8fb-692739b2d668}",
-        "title": "Nahost: Saudi-arabisch geführte Militärkoalition meldet Luftangriff im Jemen",
-        "summary": "Eine von Saudi-Arabien angeführte Militärkoalition hat offenbar Schiffe im jemenitischen Mukalla angegriffen. Diese hätten Waffen an Separatisten geliefert, hieß es.",
-        "paragraphs": [
-          "Eine von Saudi-Arabien angeführte Militärkoalition hat offenbar Schiffe im jemenitischen Mukalla angegriffen. Diese hätten Waffen an Separatisten geliefert, hieß es."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/jemen-mukalla-angriff-ankuendigung-saudi-arabien-militaerkoalition",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-30T02:28:43.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/nuggets-bangen-um-jokic-spurs-erhalten-den-naechsten-daempfer-1179544/artikel#omrss",
+        "title": "Nuggets bangen um Jokic - Spurs erhalten den nächsten Dämpfer",
+        "summary": "Nikola Jokic humpelt bei der Niederlage der Denver Nuggets in Miami in die Kabine. Die San Antonio Spurs verlieren zum zweiten Mal in Folge, während die Oklahoma City Thunder wieder in der Spur sind.",
+        "paragraphs": [
+          "Nikola Jokic humpelt bei der Niederlage der Denver Nuggets in Miami in die Kabine. Die San Antonio Spurs verlieren zum zweiten Mal in Folge, während die Oklahoma City Thunder wieder in der Spur sind."
+        ],
+        "link": "https://www.kicker.de/nuggets-bangen-um-jokic-spurs-erhalten-den-naechsten-daempfer-1179544/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-30T05:56:46.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/toronto-gegen-orlando-2025-nba-5159926/spielbericht#omrss",
+        "title": "Magic-Einbruch im vierten Viertel: Banchero-Triple-Double reicht in Toronto nicht",
+        "summary": "Die Orlando Magic haben bei den Toronto Raptors eine bittere Niederlage einstecken müssen. Ohne die Wagner-Brüder verspielt Orlando eine hohe Führung und gibt diese spät ab. Die Raptors setzen sich mit 107:106 durch.",
+        "paragraphs": [
+          "Die Orlando Magic haben bei den Toronto Raptors eine bittere Niederlage einstecken müssen. Ohne die Wagner-Brüder verspielt Orlando eine hohe Führung und gibt diese spät ab. Die Raptors setzen sich mit 107:106 durch."
+        ],
+        "link": "https://www.kicker.de/toronto-gegen-orlando-2025-nba-5159926/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-30T05:16:55.000Z"
+      },
       {
         "id": "https://www.kicker.de/im-video-cross-laesst-set-ausgleich-dramatisch-liegen-und-unterliegt-littler-1179537/video#omrss",
         "title": "Im Video: Cross lässt Set-Ausgleich dramatisch liegen und unterliegt Littler",
@@ -643,31 +665,53 @@
         "link": "https://www.kicker.de/katheterablation-lazio-coach-sarri-am-herzen-operiert-1179489/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-29T19:05:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/wintersport/vierschanzentournee-domen-prevc-gewinnt-auftaktspringen-in-oberstdorf-felix-hoffmann-wird-dritter-a-9cf5115f-3f3c-4d11-bdde-047113254468",
-        "title": "Vierschanzentournee: Eine Disqualifikation bringt Felix Hoffmann überraschend aufs Podest",
-        "summary": "Domen Prevc dominiert das erste Springen der Vierschanzentournee und gewinnt deutlich. Ebenfalls unter den besten Drei steht Felix Hoffmann, während Andreas Wellinger in Oberstdorf das nächste Debakel erlebt.",
-        "paragraphs": [
-          "Domen Prevc dominiert das erste Springen der Vierschanzentournee und gewinnt deutlich. Ebenfalls unter den besten Drei steht Felix Hoffmann, während Andreas Wellinger in Oberstdorf das nächste Debakel erlebt."
-        ],
-        "link": "https://www.spiegel.de/sport/wintersport/vierschanzentournee-domen-prevc-gewinnt-auftaktspringen-in-oberstdorf-felix-hoffmann-wird-dritter-a-9cf5115f-3f3c-4d11-bdde-047113254468#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-29T19:01:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/simbabwe-gegen-suedafrika-2025-afrika-cup-4996108/spielbericht#omrss",
-        "title": "Kuriose Treffer auf beiden Seiten: Südafrika folgt Ägypten ins Achtelfinale",
-        "summary": "Südafrika hat sich Rang 2 in Gruppe B des Afrika-Cups gesichert und folgt Ägypten damit in die Runde der letzten 16. Im direkten Duell gegen Simbabwe setzte sich Bafana Bafana knapp mit 3:2 durch - die Tore auf beiden Seiten entstanden dabei teils auf kuriose Weise.",
-        "paragraphs": [
-          "Südafrika hat sich Rang 2 in Gruppe B des Afrika-Cups gesichert und folgt Ägypten damit in die Runde der letzten 16. Im direkten Duell gegen Simbabwe setzte sich Bafana Bafana knapp mit 3:2 durch - die Tore auf beiden Seiten entstanden dabei teils auf kuriose Weise."
-        ],
-        "link": "https://www.kicker.de/simbabwe-gegen-suedafrika-2025-afrika-cup-4996108/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-29T18:22:04.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/blog/Software-Testing-Ask-Me-Anything-zu-KI-Automatisierung-und-Shift-Left-11119139.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Software Testing: Ask Me Anything zu KI, Automatisierung und Shift Left",
+        "summary": "In dieser Episode lädt Richard Seidl zum Jahresrück- und Ausblick rund um die Themen Software Testing, KI und den Podcast.",
+        "paragraphs": [
+          "In dieser Episode lädt Richard Seidl zum Jahresrück- und Ausblick rund um die Themen Software Testing, KI und den Podcast."
+        ],
+        "link": "https://www.heise.de/blog/Software-Testing-Ask-Me-Anything-zu-KI-Automatisierung-und-Shift-Left-11119139.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-30T07:02:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/hintergrund/Defekter-Personalausweis-Was-man-bei-Stoerung-des-Speicherchips-tun-kann-11098465.html",
+        "title": "heise+ | Defekter Personalausweis: Was man bei Störung des Speicherchips tun kann",
+        "summary": "Ärgerlich, wenn der Perso-Chip plötzlich nicht mehr funktioniert. Aber muss man dann zwingend einen neuen beantragen? Und wer trägt die Kosten?",
+        "paragraphs": [
+          "Ärgerlich, wenn der Perso-Chip plötzlich nicht mehr funktioniert. Aber muss man dann zwingend einen neuen beantragen? Und wer trägt die Kosten?"
+        ],
+        "link": "https://www.heise.de/hintergrund/Defekter-Personalausweis-Was-man-bei-Stoerung-des-Speicherchips-tun-kann-11098465.html",
+        "source": "c't",
+        "publishedAt": "2025-12-30T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/39C3-Konzerne-ruinieren-das-Netz-Cory-Doctorows-Ideen-gegen-Enshittification-11126178.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "39C3: Konzerne ruinieren das Netz – Cory Doctorows Ideen gegen Enshittification",
+        "summary": "US-Plattformen entwickeln sich stetig von der Lösung zum Problem. Im Interview mit heise online nennt Doctorow Wege, wie Staaten und Nutzer sich wehren können.",
+        "paragraphs": [
+          "US-Plattformen entwickeln sich stetig von der Lösung zum Problem. Im Interview mit heise online nennt Doctorow Wege, wie Staaten und Nutzer sich wehren können."
+        ],
+        "link": "https://www.heise.de/news/39C3-Konzerne-ruinieren-das-Netz-Cory-Doctorows-Ideen-gegen-Enshittification-11126178.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-30T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-Fortgeschrittene-Administration-von-Kubernetes-11116650.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Fortgeschrittene Administration von Kubernetes",
+        "summary": "Lernen Sie fortgeschrittene Techniken für das Applikationsmanagement und die Implementierung von Service-Mesh-Technologien.",
+        "paragraphs": [
+          "Lernen Sie fortgeschrittene Techniken für das Applikationsmanagement und die Implementierung von Service-Mesh-Technologien."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Fortgeschrittene-Administration-von-Kubernetes-11116650.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-30T07:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/CO2-Flottengrenzwert-fuer-Neuwagen-Warum-das-Jahr-2030-bedeutsam-ist-11125692.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "title": "heise+ | CO2-Flottengrenzwert für Neuwagen: Warum das Jahr 2030 bedeutsam ist",
@@ -843,50 +887,6 @@
         "link": "https://www.heise.de/news/iX-Workshop-Windows-11-im-Unternehmen-absichern-11116632.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-29T13:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/KI-Bilder-statt-Modefotografie-11125753.html",
-        "title": "KI-Bilder statt Modefotografie",
-        "summary": "Nach Zalando und H&M kündigt nun auch die Fast-Fashion-Marke Zara an, anstelle von Fotoshootings KI-generierte Bilder mit digitalen Klonen der Models zu nutzen.",
-        "paragraphs": [
-          "Nach Zalando und H&M kündigt nun auch die Fast-Fashion-Marke Zara an, anstelle von Fotoshootings KI-generierte Bilder mit digitalen Klonen der Models zu nutzen."
-        ],
-        "link": "https://www.heise.de/news/KI-Bilder-statt-Modefotografie-11125753.html",
-        "source": "c't",
-        "publishedAt": "2025-12-29T12:56:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/KI-Bilder-statt-Modefotografie-11125753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Bilder statt Modefotografie",
-        "summary": "Nach Zalando und H&M kündigt nun auch die Fast-Fashion-Marke Zara an, anstelle von Fotoshootings KI-generierte Bilder mit digitalen Klonen der Models zu nutzen.",
-        "paragraphs": [
-          "Nach Zalando und H&M kündigt nun auch die Fast-Fashion-Marke Zara an, anstelle von Fotoshootings KI-generierte Bilder mit digitalen Klonen der Models zu nutzen."
-        ],
-        "link": "https://www.heise.de/news/KI-Bilder-statt-Modefotografie-11125753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-29T12:56:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/39C3-Wie-sich-international-sicher-auf-klinischen-Daten-rechnen-laesst-11125646.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "39C3: Wie sich international sicher auf klinischen Daten rechnen lässt",
-        "summary": "Eine datensparsame Möglichkeit, mit Gesundheitsdaten zu forschen, ist Secure Multiparty Computation. Über die erfolgreiche Umsetzung des Verfahrens.",
-        "paragraphs": [
-          "Eine datensparsame Möglichkeit, mit Gesundheitsdaten zu forschen, ist Secure Multiparty Computation. Über die erfolgreiche Umsetzung des Verfahrens."
-        ],
-        "link": "https://www.heise.de/hintergrund/39C3-Wie-sich-international-sicher-auf-klinischen-Daten-rechnen-laesst-11125646.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-29T11:40:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/QEMU-10-2-ist-schneller-unter-I-O-Last-und-dank-neuer-Richtlinie-sicherer-11125706.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "QEMU 10.2 ist schneller unter I/O-Last und dank neuer Richtlinie \"sicherer\"",
-        "summary": "QEMU 10.2 überarbeitet Sicherheitsrichtlinien, modernisiert das Krypto-Subsystem und beschleunigt asynchrones I/O unter Linux.",
-        "paragraphs": [
-          "QEMU 10.2 überarbeitet Sicherheitsrichtlinien, modernisiert das Krypto-Subsystem und beschleunigt asynchrones I/O unter Linux."
-        ],
-        "link": "https://www.heise.de/news/QEMU-10-2-ist-schneller-unter-I-O-Last-und-dank-neuer-Richtlinie-sicherer-11125706.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-29T11:10:00.000Z"
       }
     ]
   }
