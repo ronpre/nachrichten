@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-30T17:53:40.298Z",
+  "updatedAt": "2025-12-30T18:07:37.789Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:a1dfef1b-4ff1-41b7-b11f-826c90e89e4e}",
+        "title": "Böllerverbot: Gebt den Wutbürgern kein Futter",
+        "summary": "Böllerverbot an Silvester?! Dafür gibt es viele gute Argumente. Doch in diesem Jahr spricht ein Wichtiges dagegen. Es ist die Politik.",
+        "paragraphs": [
+          "Böllerverbot an Silvester?! Dafür gibt es viele gute Argumente. Doch in diesem Jahr spricht ein Wichtiges dagegen. Es ist die Politik."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/boellerverbot-feuerwerk-silvester-bevoelkerung-frust",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-30T17:59:18.000Z"
+      },
+      {
         "id": "{urn:uuid:9d407c44-d272-42d1-84d1-056525a8d110}",
         "title": "Taiwan: Bundesregierung äußert Sorge über chinesisches Militärmanöver",
         "summary": "Am zweiten Tag des chinesischen Militärmanövers vor Taiwan haben Deutschland, Frankreich und die EU vor einer Eskalation gewarnt. Sie forderten Zurückhaltung.",
@@ -428,18 +439,20 @@
         "link": "https://www.sueddeutsche.de/politik/italien-haushalt-verabschiedet-li.3361450",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-30T15:21:23.000Z"
-      },
-      {
-        "id": "li.3361448",
-        "title": "Jemen: Emirate ziehen Truppen ab",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/jemen-emirate-ziehen-truppen-ab-li.3361448",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-30T15:19:18.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/drei-jahre-nach-barca-abschied-pjanic-macht-karriereende-offiziell-1179700/artikel#omrss",
+        "title": "Drei Jahre nach Barca-Abschied: Pjanic macht Karriereende offiziell",
+        "summary": "Zu seinen Glanzzeiten zählte Miralem Pjanic zu den besten Mittelfeldspielern Europas. Nun hat er im Alter von 35 Jahren sein Karriereende bekannt gegeben.",
+        "paragraphs": [
+          "Zu seinen Glanzzeiten zählte Miralem Pjanic zu den besten Mittelfeldspielern Europas. Nun hat er im Alter von 35 Jahren sein Karriereende bekannt gegeben."
+        ],
+        "link": "https://www.kicker.de/drei-jahre-nach-barca-abschied-pjanic-macht-karriereende-offiziell-1179700/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-30T17:52:03.000Z"
+      },
       {
         "id": "https://www.kicker.de/diagnose-ist-da-jokic-fehlt-den-nuggets-wochenlang-1179698/artikel#omrss",
         "title": "Diagnose ist da: Jokic fehlt den Nuggets wochenlang",
@@ -648,17 +661,6 @@
         "link": "https://www.kicker.de/winter-maerchen-im-tischtennis-auch-boll-ist-beeindruckt-1179645/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-30T12:50:28.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/meine-frau-hatte-angst-suedafrika-coach-kritisiert-gastgeber-marokko-1179501/artikel#omrss",
-        "title": "\"Meine Frau hatte Angst\": Südafrika-Coach kritisiert Gastgeber Marokko",
-        "summary": "Mit der Ausrichtung des Afrika-Cups will Marokko sich für die WM 2030 rüsten. Doch Südafrikas Trainer Hugo Broos hat die Organisation im Gastgeberland nun deutlich kritisiert.",
-        "paragraphs": [
-          "Mit der Ausrichtung des Afrika-Cups will Marokko sich für die WM 2030 rüsten. Doch Südafrikas Trainer Hugo Broos hat die Organisation im Gastgeberland nun deutlich kritisiert."
-        ],
-        "link": "https://www.kicker.de/meine-frau-hatte-angst-suedafrika-coach-kritisiert-gastgeber-marokko-1179501/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-30T12:50:04.000Z"
       }
     ],
     "edv": [
