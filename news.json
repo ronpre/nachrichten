@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2025-12-30T06:45:17.099Z",
+  "updatedAt": "2025-12-30T06:58:18.444Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:f93dc38b-d403-4d11-9b3c-83aae734c5cb}",
+        "title": "Inflation: Große Schwankungen bei Preisen für Lebensmittel",
+        "summary": "Butter um gut ein Fünftel günstiger, Dosenobst und Schokolade deutlich teurer: Die Nahrungsmittelpreise haben sich im Jahresvergleich sehr unterschiedlich entwickelt.",
+        "paragraphs": [
+          "Butter um gut ein Fünftel günstiger, Dosenobst und Schokolade deutlich teurer: Die Nahrungsmittelpreise haben sich im Jahresvergleich sehr unterschiedlich entwickelt."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/lebensmittel-preise-2025-schwankungen-inflation",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-30T06:53:43.000Z"
+      },
+      {
+        "id": "{urn:uuid:5c027e6b-6753-4abf-b04e-2ee07b2a7031}",
+        "title": "Erbschaftsrechner: Das passiert mit Ihrem Vermögen, wenn Sie kein Testament haben",
+        "summary": "Vererben kann kompliziert sein. Unser Rechner zeigt, wer in Ihrer Familie wie viel bekäme, wie hoch die Steuer wäre – und wie das richtige Testament diese senken könnte.",
+        "paragraphs": [
+          "Vererben kann kompliziert sein. Unser Rechner zeigt, wer in Ihrer Familie wie viel bekäme, wie hoch die Steuer wäre – und wie das richtige Testament diese senken könnte."
+        ],
+        "link": "https://www.zeit.de/geld/2025-12/erbschaft-rechner-steuer-vermoegen-familie-kinder-testament",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-30T06:46:07.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-zahl-der-volksbanken-und-sparkassen-sinkt-erstmals-unter-markante-marke-01/100186405.html",
         "title": "Banken: Zahl der Volksbanken und Sparkassen sinkt erstmals unter markante Marke",
@@ -199,28 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-prueft-nach-angeblichem-angriff-position-in-gespraechen/100187462.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-30T00:04:15.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/us-notenbank-trump-schiebt-fed-chef-nominierung-ins-neue-jahr-und-bekraeftigt-drohung-gegen-powell/100187491.html",
-        "title": "US-Notenbank: Trump schiebt Fed-Chef-Nominierung ins neue Jahr und bekräftigt Drohung gegen Powell",
-        "summary": "Wer die besten Chancen auf die Nachfolge hat, ist noch unklar. Fest steht für Trump aber: Die neue Leitung der US-Notenbank soll den Ansichten des US-Präsidenten folgen.",
-        "paragraphs": [
-          "Wer die besten Chancen auf die Nachfolge hat, ist noch unklar. Fest steht für Trump aber: Die neue Leitung der US-Notenbank soll den Ansichten des US-Präsidenten folgen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/us-notenbank-trump-schiebt-fed-chef-nominierung-ins-neue-jahr-und-bekraeftigt-drohung-gegen-powell/100187491.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-29T22:45:17.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-im-minus-edelmetalle-verlieren/100187379.html",
-        "title": "Dow Jones, S&P 500, Nasdaq: Wall Street schließt im Minus – Edelmetalle verlieren",
-        "summary": "Die Wall Street steht vor einem Rekordjahr. Neben verschiedenen Tech-Aktien verlieren auch die Edelmetalle.",
-        "paragraphs": [
-          "Die Wall Street steht vor einem Rekordjahr. Neben verschiedenen Tech-Aktien verlieren auch die Edelmetalle."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-im-minus-edelmetalle-verlieren/100187379.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-29T21:47:00.000Z"
       }
     ],
     "politik": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/CO2-Flottengrenzwert-fuer-Neuwagen-Warum-das-Jahr-2030-bedeutsam-ist-11125692.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | CO2-Flottengrenzwert für Neuwagen: Warum das Jahr 2030 bedeutsam ist",
+        "summary": "Der notwendige Hochlauf der Verkaufszahlen von Elektroautos ist deutlich steiler als bisher. Denn die kommenden Grenzwerte sind anders nicht zu erreichen.",
+        "paragraphs": [
+          "Der notwendige Hochlauf der Verkaufszahlen von Elektroautos ist deutlich steiler als bisher. Denn die kommenden Grenzwerte sind anders nicht zu erreichen."
+        ],
+        "link": "https://www.heise.de/news/CO2-Flottengrenzwert-fuer-Neuwagen-Warum-das-Jahr-2030-bedeutsam-ist-11125692.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2025-12-30T06:48:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Partnerschaft-besiegelt-Nvidia-kauft-Intel-Aktien-11126207.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Partnerschaft besiegelt: Nvidia kauft Intel-Aktien",
         "summary": "Nvidia, das wertvollste Unternehmen der Welt, beteiligt sich mit rund 4,5 Prozent an Intel. Es ist eine Kombination aus Kapitalspritze und Partnerschaft.",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/QEMU-10-2-ist-schneller-unter-I-O-Last-und-dank-neuer-Richtlinie-sicherer-11125706.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-29T11:10:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/39C3-Sicherheitsforscher-kapert-KI-Coding-Assistenten-mit-Prompt-Injection-11125630.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "39C3: Sicherheitsforscher kapert KI-Coding-Assistenten mit Prompt Injection",
-        "summary": "Auf dem 39C3 zeigte Johann Rehberger, wie leicht sich KI-Coding-Assistenten kapern lassen. Viele Lücken wurden gefixt, doch das Grundproblem bleibt.",
-        "paragraphs": [
-          "Auf dem 39C3 zeigte Johann Rehberger, wie leicht sich KI-Coding-Assistenten kapern lassen. Viele Lücken wurden gefixt, doch das Grundproblem bleibt."
-        ],
-        "link": "https://www.heise.de/news/39C3-Sicherheitsforscher-kapert-KI-Coding-Assistenten-mit-Prompt-Injection-11125630.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-29T09:07:00.000Z"
       }
     ]
   }
