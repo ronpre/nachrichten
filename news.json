@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-31T19:53:04.951Z",
+  "updatedAt": "2025-12-31T20:05:40.262Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:d482d1db-8205-40a6-9e17-2c5ef7b69d53}",
+        "title": "Leo XIV.: Papst kritisiert Aufteilung der Welt durch Großmächte",
+        "summary": "Leo XIV. hat die Machtinteressen der Großmächte angeprangert. Er verurteilte dabei auch \"falsche religiöse Beweggründe\" bei der Eroberung von Märkten und Gebieten.",
+        "paragraphs": [
+          "Leo XIV. hat die Machtinteressen der Großmächte angeprangert. Er verurteilte dabei auch \"falsche religiöse Beweggründe\" bei der Eroberung von Märkten und Gebieten."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/papst-leo-rom-kritik-grossmaechte",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-31T20:01:57.000Z"
+      },
+      {
         "id": "{urn:uuid:dd515c4f-9f5b-461b-aaf4-110b8c86c99f}",
         "title": "Europäische Union: Zypern übernimmt EU-Ratspräsidentschaft für sechs Monate",
         "summary": "\"Eine autonome Union. Offen für die Welt\" ist das Motto der EU-Ratspräsidentschaft von Zypern im ersten Halbjahr 2026. Der Inselstaat folgt damit auf Dänemark.",
@@ -432,17 +443,6 @@
         "link": "https://www.sueddeutsche.de/politik/afghanistan-deutschland-einreise-bundesregierung-taliban-pakistan-li.3361603",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-31T12:48:39.000Z"
-      },
-      {
-        "id": "li.3361629",
-        "title": "Humanitäre Lage: Israel wirft 37 Hilfsorganisationen aus dem Gazastreifen",
-        "summary": "Ärzte ohne Grenzen und andere namhafte Hilfsorganisationen müssen ihre Arbeit im Gazastreifen einstellen – offiziell wegen Problemen mit ihren Personallisten. Die NGOs werfen Israel dagegen systematische Behinderung vor.",
-        "paragraphs": [
-          "Ärzte ohne Grenzen und andere namhafte Hilfsorganisationen müssen ihre Arbeit im Gazastreifen einstellen – offiziell wegen Problemen mit ihren Personallisten. Die NGOs werfen Israel dagegen systematische Behinderung vor."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/israel-hilfsorganisationen-gaza-verbot-li.3361629",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-31T12:12:33.000Z"
       }
     ],
     "sport": [
@@ -691,17 +691,6 @@
         "publishedAt": "2025-12-31T17:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Bericht-iPhone-18-Bildsensor-von-Samsung-made-in-Texas-11125769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Bericht: iPhone-18-Bildsensor von Samsung made in Texas",
-        "summary": "Auf Druck der Trump-Administration holt Apple mehr Produktion nach Hause. Dieses Mal geht es südkoreanischen Medien zufolge um Foto-Hardware.",
-        "paragraphs": [
-          "Auf Druck der Trump-Administration holt Apple mehr Produktion nach Hause. Dieses Mal geht es südkoreanischen Medien zufolge um Foto-Hardware."
-        ],
-        "link": "https://www.heise.de/news/Bericht-iPhone-18-Bildsensor-von-Samsung-made-in-Texas-11125769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-31T15:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/UMTS-in-der-Schweiz-Swisscom-schaltet-3G-Netz-ab-11126697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "UMTS in der Schweiz: Swisscom schaltet 3G-Netz ab",
         "summary": "Die Mobilfunktechnologie UMTS, der Mobilfunkstandard der dritten Generation (3G), ist bald Technikgeschichte, Swisscom beginnt zum Jahreswechsel abzuschalten.",
@@ -709,6 +698,17 @@
           "Die Mobilfunktechnologie UMTS, der Mobilfunkstandard der dritten Generation (3G), ist bald Technikgeschichte, Swisscom beginnt zum Jahreswechsel abzuschalten."
         ],
         "link": "https://www.heise.de/news/UMTS-in-der-Schweiz-Swisscom-schaltet-3G-Netz-ab-11126697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-31T15:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Bericht-iPhone-18-Bildsensor-von-Samsung-made-in-Texas-11125769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Bericht: iPhone-18-Bildsensor von Samsung made in Texas",
+        "summary": "Auf Druck der Trump-Administration holt Apple mehr Produktion nach Hause. Dieses Mal geht es südkoreanischen Medien zufolge um Foto-Hardware.",
+        "paragraphs": [
+          "Auf Druck der Trump-Administration holt Apple mehr Produktion nach Hause. Dieses Mal geht es südkoreanischen Medien zufolge um Foto-Hardware."
+        ],
+        "link": "https://www.heise.de/news/Bericht-iPhone-18-Bildsensor-von-Samsung-made-in-Texas-11125769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-31T15:00:00.000Z"
       },
