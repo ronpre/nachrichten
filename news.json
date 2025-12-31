@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-31T06:58:31.675Z",
+  "updatedAt": "2025-12-31T07:12:19.287Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:da3a5e64-0ef2-4804-b8db-03aea404af06}",
+        "title": "Autoindustrie: Tesla erwartet Steigerung der Produktion in Grünheide",
+        "summary": "Der Leiter des deutschen Tesla-Werks blickt optimistisch ins neue Jahr. Schon 2025 habe der US-Autokonzern seine Produktion in Grünheide kontinuierlich ausgebaut.",
+        "paragraphs": [
+          "Der Leiter des deutschen Tesla-Werks blickt optimistisch ins neue Jahr. Schon 2025 habe der US-Autokonzern seine Produktion in Grünheide kontinuierlich ausgebaut."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/tesla-e-autos-fabrik-gruenheide-steigerung",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-31T07:05:49.000Z"
+      },
       {
         "id": "https://www.spiegel.de/wirtschaft/ki-draengt-auf-den-arbeitsmarkt-die-digitalen-agenten-kommen-a-3f7d2647-7820-4f09-96f4-d82e16daf3ad",
         "title": "Künstliche Intelligenz: Steht dank KI-Agenten das Ende der bezahlten Arbeit bevor?",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/luftfahrt-knappe-plaetze-und-wenig-flugzeuge-sorgen-2026-fuer-teure-tickets/100179911.html",
         "source": "Handelsblatt",
         "publishedAt": "2025-12-30T15:42:44.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/eurotunnel-zuege-fahren-teilweise-wieder-unter-dem-aermelkanal-a-0b06bb6c-2b9a-4535-ba28-fd3f482bb796",
-        "title": "Eurotunnel: Züge fahren teilweise wieder unter dem Ärmelkanal",
-        "summary": "Kurz vor Silvester sorgt ein Problem mit der Oberleitung für Chaos im Eurotunnel. Zwischen Großbritannien und dem Kontinent ging zwischenzeitlich nichts mehr, nun wird der Bahnverkehr langsam wieder aufgenommen.",
-        "paragraphs": [
-          "Kurz vor Silvester sorgt ein Problem mit der Oberleitung für Chaos im Eurotunnel. Zwischen Großbritannien und dem Kontinent ging zwischenzeitlich nichts mehr, nun wird der Bahnverkehr langsam wieder aufgenommen."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/eurotunnel-zuege-fahren-teilweise-wieder-unter-dem-aermelkanal-a-0b06bb6c-2b9a-4535-ba28-fd3f482bb796#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2025-12-30T15:40:00.000Z"
       }
     ],
     "politik": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/iX-Workshop-Sicheres-Active-Directory-Adminrechte-mit-Tiering-schuetzen-11109415.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Sicheres Active Directory – Adminrechte mit Tiering schützen",
+        "summary": "Erfahren Sie, wie Sie mit dem Enterprise Access Model eine Rechteausweitung verhindern und so die Active-Directory-Domäne Ihres Unternehmens schützen.",
+        "paragraphs": [
+          "Erfahren Sie, wie Sie mit dem Enterprise Access Model eine Rechteausweitung verhindern und so die Active-Directory-Domäne Ihres Unternehmens schützen."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Sicheres-Active-Directory-Adminrechte-mit-Tiering-schuetzen-11109415.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-31T07:00:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/China-LLMs-muessen-sich-outen-11126627.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "China: LLMs müssen sich outen",
         "summary": "Kann ein LLM menschlich wirken, muss es in China bald \"vorläufige Maßnahmen\" befolgen: Transparenz, Sicherheit und Sozialismus.",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/c-t-Webinar-Wenn-KI-zum-Pinsel-wird-11114969.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-30T09:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/Team-und-Softwarearchitektur-im-Einklang-ein-soziotechnisches-System-11107015.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Team und Softwarearchitektur im Einklang – ein soziotechnisches System",
-        "summary": "Mit modernen Methoden zur Organisation von Entwicklungsteams wie Team Topologies rücken die Einflussmöglichkeiten von Softwarearchitekten in den Vordergrund.",
-        "paragraphs": [
-          "Mit modernen Methoden zur Organisation von Entwicklungsteams wie Team Topologies rücken die Einflussmöglichkeiten von Softwarearchitekten in den Vordergrund."
-        ],
-        "link": "https://www.heise.de/hintergrund/Team-und-Softwarearchitektur-im-Einklang-ein-soziotechnisches-System-11107015.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-30T08:34:00.000Z"
       }
     ]
   }
