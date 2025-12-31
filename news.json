@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-31T11:17:22.234Z",
+  "updatedAt": "2025-12-31T11:28:59.278Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:bc826bf3-d5c1-4eee-a908-756660dac665}",
+        "title": "Zeitenwende: Die Frage ist: Was für eine Macht will Deutschland sein?",
+        "summary": "Hat irgendjemand Zeitenwende gesagt? Die Deutschen sollen wehrhaft werden, haben aber vor allem: Angst. Traditionell vor sich selbst. Und genau da liegt das Problem.",
+        "paragraphs": [
+          "Hat irgendjemand Zeitenwende gesagt? Die Deutschen sollen wehrhaft werden, haben aber vor allem: Angst. Traditionell vor sich selbst. Und genau da liegt das Problem."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/zeitenwende-deutsche-kriegsangst-wehrhaftigkeit-bundeswehr",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-31T11:12:22.000Z"
+      },
+      {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Russisches Video soll angeblichen Angriff auf Putin-Residenz beweisen",
+        "summary": "Russland hat der Ukraine erneut vorgeworfen, Putins Residenz angegriffen zu haben – ein Video einer Drohne soll das beweisen. Odessa meldet Stromausfälle. Das Liveblog.",
+        "paragraphs": [
+          "Russland hat der Ukraine erneut vorgeworfen, Putins Residenz angegriffen zu haben – ein Video einer Drohne soll das beweisen. Odessa meldet Stromausfälle. Das Liveblog."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-31T11:11:19.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/deutschland/scheinwahlen-in-myanmar-gruener-boris-mijatovic-kritisiert-kuerzungen-bei-uno-mechanismus-iimm-a-44a8bc6c-5b32-4337-8397-4d2d7e93a785",
         "title": "Scheinwahlen in Myanmar: Grüner Boris Mijatović kritisiert Kürzungen bei Uno-Mechanismus IIMM",
         "summary": "In Myanmar lassen die Militärs Abstimmungen bis Januar durchführen. Der Grünen-Außenpolitiker Boris Mijatović spricht von einer Farce und stellt eine Forderung an die Bundesregierung.",
@@ -242,7 +264,7 @@
         "paragraphs": [
           "Seit Sonntag gibt es im Iran Proteste gegen hohe Lebenshaltungskosten. Der Generalstaatsanwalt droht den Teilnehmern mit Konsequenzen, sollte die Lage eskalieren."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/iran-proteste-teheran-studenten",
+        "link": "https://www.zeit.de/politik/ausland/2025-12/iran-proteste-teheran-studenten-gxe",
         "source": "ZEIT",
         "publishedAt": "2025-12-31T10:28:18.000Z"
       },
@@ -368,17 +390,6 @@
         "publishedAt": "2025-12-31T08:12:29.000Z"
       },
       {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Russland bombardiert Region Odessa",
-        "summary": "Die russische Armee hat die Region Odessa mit Drohnen angegriffen. Nach einem Feuer nahe Moskau ist für mehr als 100.000 Menschen der Strom ausgefallen. Das Liveblog",
-        "paragraphs": [
-          "Die russische Armee hat die Region Odessa mit Drohnen angegriffen. Nach einem Feuer nahe Moskau ist für mehr als 100.000 Menschen der Strom ausgefallen. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-31T08:10:53.000Z"
-      },
-      {
         "id": "{urn:uuid:e3833ef8-a8fd-4b11-b004-5d324caec343}",
         "title": "Ukrainekarte aktuell: Ukrainische Truppen rücken bei Kupjansk und Pokrowsk vor",
         "summary": "Die ukrainische Armee ist weiter in die umkämpften Städte Kupjansk und Pokrowsk vorgedrungen. Ukrainische Drohnen trafen russische Militärziele in der Region Donezk.",
@@ -432,20 +443,42 @@
         "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-parteispenden-cdu-afd-li.3205796",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-31T06:21:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:bac9081b-a2d7-431a-b63a-9a8f784efaed}",
-        "title": "Koalition der Willigen: Wolodymyr Selenskyj kündigt neuen Ukrainegipfel an",
-        "summary": "Der ukrainische Präsident Selenskyj hat weitere Treffen mit Unterstützern der Ukraine für Anfang Januar angekündigt. Auch US-Präsident Donald Trump soll dabei sein.",
-        "paragraphs": [
-          "Der ukrainische Präsident Selenskyj hat weitere Treffen mit Unterstützern der Ukraine für Anfang Januar angekündigt. Auch US-Präsident Donald Trump soll dabei sein."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/ukraine-ankuendigung-gipfel-januar-2026-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-31T06:07:08.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/sogar-vuskovic-im-blickfeld-barcelona-braucht-einen-innenverteidiger-1179831/artikel#omrss",
+        "title": "Sogar Vuskovic im Blickfeld? Barcelona braucht einen Innenverteidiger",
+        "summary": "Als La-Liga-Spitzenreiter und mit sieben Pflichtspielsiegen am Stück hat der FC Barcelona das Kalenderjahr beschlossen. Dennoch sehen die Verantwortlichen Handlungsbedarf.",
+        "paragraphs": [
+          "Als La-Liga-Spitzenreiter und mit sieben Pflichtspielsiegen am Stück hat der FC Barcelona das Kalenderjahr beschlossen. Dennoch sehen die Verantwortlichen Handlungsbedarf."
+        ],
+        "link": "https://www.kicker.de/sogar-vuskovic-im-blickfeld-barcelona-braucht-einen-innenverteidiger-1179831/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-31T11:24:18.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-bbl-an-silvester-alba-empfaengt-braunschweig-schon-mittags-1179796/artikel#omrss",
+        "title": "LIVE! BBL an Silvester: Alba empfängt Braunschweig schon mittags",
+        "summary": "Mit zwei Partien beschließt die Basketball-Bundesliga am heutigen Silvester-Tag das Jahr. Alba Berlin empfängt schon um 12.30 Uhr Braunschweig, die Bayern sind im Anschluss in Rostock zu Gast.",
+        "paragraphs": [
+          "Mit zwei Partien beschließt die Basketball-Bundesliga am heutigen Silvester-Tag das Jahr. Alba Berlin empfängt schon um 12.30 Uhr Braunschweig, die Bayern sind im Anschluss in Rostock zu Gast."
+        ],
+        "link": "https://www.kicker.de/live-bbl-an-silvester-alba-empfaengt-braunschweig-schon-mittags-1179796/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-31T11:15:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nicht-ganz-fit-hennig-dotzler-steigt-bei-der-tour-de-ski-aus-1179839/artikel#omrss",
+        "title": "Nicht ganz fit: Hennig Dotzler steigt bei der Tour de Ski aus",
+        "summary": "Langlauf-Olympiasiegerin Katharina Hennig Dotzler ist vor dem dritten Teilstück der Tour de Ski ausgestiegen.",
+        "paragraphs": [
+          "Langlauf-Olympiasiegerin Katharina Hennig Dotzler ist vor dem dritten Teilstück der Tour de Ski ausgestiegen."
+        ],
+        "link": "https://www.kicker.de/nicht-ganz-fit-hennig-dotzler-steigt-bei-der-tour-de-ski-aus-1179839/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-31T10:53:56.000Z"
+      },
       {
         "id": "https://www.kicker.de/oberliga-westfalen-wattenscheid-09-als-massstab-fast-ueberall-1179365/artikel#omrss",
         "title": "Oberliga Westfalen: Wattenscheid 09 als Maßstab - fast überall",
@@ -632,39 +665,6 @@
         "link": "https://www.kicker.de/schweiz-gegen-deutschland-2025-eishockey-junioren-wm-5061575/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-30T23:22:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kirks-hattrick-reicht-nicht-eisbaeren-rutschen-in-der-tabelle-ab-1179763/video#omrss",
-        "title": "Kirks Hattrick reicht nicht: Eisbären rutschen in der Tabelle ab",
-        "summary": "Die Eisbären Berlin kommen in der DEL weiterhin nicht auf Touren. Trotz eines Hattricks des Briten Liam Kirk, der den Meister zurück ins Spiel brachte, unterlagen die Hauptstädter noch beim direkten Konkurrenten Bremerhaven.",
-        "paragraphs": [
-          "Die Eisbären Berlin kommen in der DEL weiterhin nicht auf Touren. Trotz eines Hattricks des Briten Liam Kirk, der den Meister zurück ins Spiel brachte, unterlagen die Hauptstädter noch beim direkten Konkurrenten Bremerhaven."
-        ],
-        "link": "https://www.kicker.de/kirks-hattrick-reicht-nicht-eisbaeren-rutschen-in-der-tabelle-ab-1179763/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-30T23:21:47.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/van-gerwen-verliert-prestige-duell-mit-anderson-1179761/video#omrss",
-        "title": "Van Gerwen verliert Prestige-Duell mit Anderson",
-        "summary": "Michael van Gerwen musste sich im Duell der Weltmeister gegen Gary Anderson mit 1:4 geschlagen geben. In den beiden anderen Partien blieben jeweils die Überraschungen aus. Gian van Veen setzte sich mit 4:1 gegen Charlie Manby durch und auch Luke Humphries ließ gegen Kevin Doets nichts anbrennen.",
-        "paragraphs": [
-          "Michael van Gerwen musste sich im Duell der Weltmeister gegen Gary Anderson mit 1:4 geschlagen geben. In den beiden anderen Partien blieben jeweils die Überraschungen aus. Gian van Veen setzte sich mit 4:1 gegen Charlie Manby durch und auch Luke Humphries ließ gegen Kevin Doets nichts anbrennen."
-        ],
-        "link": "https://www.kicker.de/van-gerwen-verliert-prestige-duell-mit-anderson-1179761/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-30T23:10:20.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/traumhafte-hackenvorlage-dr-kongo-schlaegt-botsuana-deutlich-1179758/video#omrss",
-        "title": "Traumhafte Hackenvorlage: DR Kongo schlägt Botsuana deutlich",
-        "summary": "Die DR Kongo setzte sich deutlich mit 3:0 gegen Botswana durch - auch dank einer traumhaften Hackenvorlage beim ersten Tor. Die Highlights der Partie gibt es hier im Video.",
-        "paragraphs": [
-          "Die DR Kongo setzte sich deutlich mit 3:0 gegen Botswana durch - auch dank einer traumhaften Hackenvorlage beim ersten Tor. Die Highlights der Partie gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/traumhafte-hackenvorlage-dr-kongo-schlaegt-botsuana-deutlich-1179758/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-30T22:34:34.000Z"
       }
     ],
     "edv": [
