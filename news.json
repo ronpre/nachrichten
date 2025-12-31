@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-31T04:44:35.862Z",
+  "updatedAt": "2025-12-31T04:59:18.252Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:3925907a-7ad7-4697-9d57-b8a7b3e12e99}",
+        "title": "Parteispenden: Union nimmt mit Abstand die meisten Großspenden an",
+        "summary": "Im Wahljahr 2025 hat die Union mehr Geld mit Großspenden eingenommen als alle anderen im Bundestag vertretenen Parteien. Auch die AfD hat mehrere Millionen gesammelt.",
+        "paragraphs": [
+          "Im Wahljahr 2025 hat die Union mehr Geld mit Großspenden eingenommen als alle anderen im Bundestag vertretenen Parteien. Auch die AfD hat mehrere Millionen gesammelt."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2025-12/parteispenden-2025-cdu-spitze",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-31T04:49:31.000Z"
+      },
+      {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Russland bombardiert Region Odessa",
+        "summary": "Die russische Armee hat die Region Odessa mit Drohnen angegriffen. Nach einem Feuer nahe Moskau ist für mehr als 100.000 Menschen der Strom ausgefallen. Das Liveblog",
+        "paragraphs": [
+          "Die russische Armee hat die Region Odessa mit Drohnen angegriffen. Nach einem Feuer nahe Moskau ist für mehr als 100.000 Menschen der Strom ausgefallen. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-31T04:48:10.000Z"
+      },
+      {
         "id": "{urn:uuid:bcee5f57-78b8-4d00-b236-0b0d5e96a22b}",
         "title": "Eurofighter-Nachfolger: Deutschland und Frankreich schieben Entscheidung über FCAS auf",
         "summary": "Deutschland und Frankreich haben die Frist für eine Entscheidung über den geplanten europäischen Kampfjet verstreichen lassen. Einen neuen Termin gibt es nicht.",
@@ -421,28 +443,6 @@
         "link": "https://www.spiegel.de/politik/deutschland/thueringer-verfassungsschutzchef-kritisiert-afd-einladung-zur-muenchner-sicherheitskonferenz-a-4daf2361-f383-4afa-89a0-33b717ee77bc#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-30T17:23:00.000Z"
-      },
-      {
-        "id": "li.3353907",
-        "title": "Krieg in der Ukraine: Selenskij: Neues Treffen mit Trump im Januar in Paris",
-        "summary": "Bereits Anfang Januar soll es einen weiteren Gipfel auf der Ebene der Staatschefs geben, kündigt der ukrainische Präsident an. Außerdem sei ein Treffen mit der „Koalition der Willigen“ in der Ukraine geplant.",
-        "paragraphs": [
-          "Bereits Anfang Januar soll es einen weiteren Gipfel auf der Ebene der Staatschefs geben, kündigt der ukrainische Präsident an. Außerdem sei ein Treffen mit der „Koalition der Willigen“ in der Ukraine geplant."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-trump-paris-koalition-der-willigen-li.3353907",
-        "source": "Sueddeutsche",
-        "publishedAt": "2025-12-30T17:13:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/jemen-konflikt-droht-jetzt-krieg-zwischen-saudi-arabien-und-den-emiraten/100187645.html",
-        "title": "Jemen-Konflikt: Droht jetzt Krieg zwischen Saudi-Arabien  und den Emiraten?",
-        "summary": "Eigentlich kämpfen Saudis und die Vereinigten Arabischen Emirate Seite an Seite gegen die Huthi-Rebellen. Doch jetzt lässt Riad Waffenlieferungen des Verbündeten bombardieren. Warum?",
-        "paragraphs": [
-          "Eigentlich kämpfen Saudis und die Vereinigten Arabischen Emirate Seite an Seite gegen die Huthi-Rebellen. Doch jetzt lässt Riad Waffenlieferungen des Verbündeten bombardieren. Warum?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/jemen-konflikt-droht-jetzt-krieg-zwischen-saudi-arabien-und-den-emiraten/100187645.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-30T17:06:00.000Z"
       }
     ],
     "sport": [
