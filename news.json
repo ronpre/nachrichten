@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2025-12-31T13:23:32.106Z",
+  "updatedAt": "2025-12-31T13:42:05.648Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/maengel-porsche-und-vw-rufen-tausende-autos-in-usa-zurueck/100187835.html",
+        "title": "Mängel: Porsche und VW rufen Tausende Autos in USA zurück",
+        "summary": "Bei Porsche zeigt die Rückfahrkamera der zurückgerufenen Fahrzeuge teils kein Bild. Auch Volkswagen muss handeln – doch aus einem anderen Grund.",
+        "paragraphs": [
+          "Bei Porsche zeigt die Rückfahrkamera der zurückgerufenen Fahrzeuge teils kein Bild. Auch Volkswagen muss handeln – doch aus einem anderen Grund."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/maengel-porsche-und-vw-rufen-tausende-autos-in-usa-zurueck/100187835.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2025-12-31T13:24:37.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/behoerden-irrsinn-wie-sich-unser-staat-selbst-laehmt/100103747.html",
         "title": "Die kranke Republik: 5,3 Millionen Beschäftigte und trotzdem überfordert: An welchen sieben Punkten der Staat besser werden muss",
@@ -78,17 +89,6 @@
         "link": "https://www.spiegel.de/wirtschaft/service/kuenstliche-intelligenz-ueber-geldanlage-wenn-ich-im-gold-baden-will-buche-ich-einen-wellness-urlaub-a-2a56ed19-d116-4e75-8179-5d031cf6c6ce#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2025-12-31T11:51:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/maengel-porsche-und-vw-rufen-tausende-autos-in-usa-zurueck/100187835.html",
-        "title": "Mängel: Porsche und VW rufen Tausende Autos in USA zurück",
-        "summary": "Bei Porsche zeigt die Rückfahrkamera der zurückgerufenen Fahrzeuge teils kein Bild. Auch Volkswagen muss handeln – doch aus einem anderen Grund.",
-        "paragraphs": [
-          "Bei Porsche zeigt die Rückfahrkamera der zurückgerufenen Fahrzeuge teils kein Bild. Auch Volkswagen muss handeln – doch aus einem anderen Grund."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/maengel-porsche-und-vw-rufen-tausende-autos-in-usa-zurueck/100187835.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2025-12-31T10:45:58.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/rohstoffe-fossile-energien-kommt-nach-dem-preisrutsch-die-trendwende/100173895.html",
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:a40088d7-80ad-4263-9f3c-1414f487542e}",
+        "title": "Kommunikationskabel beschädigt: Finnische Küstenwache setzt verdächtiges Schiff fest",
+        "summary": "In der Ostsee ist erneut ein Unterseekabel beschädigt worden. Die finnische Küstenwache setzte daraufhin ein verdächtiges Schiff fest und leitete Ermittlungen ein.",
+        "paragraphs": [
+          "In der Ostsee ist erneut ein Unterseekabel beschädigt worden. Die finnische Küstenwache setzte daraufhin ein verdächtiges Schiff fest und leitete Ermittlungen ein."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/finnland-schiff-untersee-kommunikationskabels-ostsee-gxe",
+        "source": "ZEIT",
+        "publishedAt": "2025-12-31T13:39:02.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/behoerden-irrsinn-wie-sich-unser-staat-selbst-laehmt/100103747.html",
         "title": "Die kranke Republik: 5,3 Millionen Beschäftigte und trotzdem überfordert: An welchen sieben Punkten der Staat besser werden muss",
         "summary": "Spätestens seit der Tat von Aschaffenburg ist „Staatsversagen“ zum Kampfbegriff geworden. Nicht nur den Behörden scheint immer weniger zu gelingen. Sieben Befunde und eine Therapieempfehlung.",
@@ -256,17 +267,6 @@
         "link": "https://www.sueddeutsche.de/politik/afghanistan-deutschland-einreise-bundesregierung-taliban-pakistan-li.3361603",
         "source": "Sueddeutsche",
         "publishedAt": "2025-12-31T12:48:39.000Z"
-      },
-      {
-        "id": "{urn:uuid:a40088d7-80ad-4263-9f3c-1414f487542e}",
-        "title": "Kommunikationskabel beschädigt: Finnische Küstenwache setzt verdächtiges Schiff fest",
-        "summary": "In der Ostsee ist erneut ein Unterseekabel beschädigt worden. Die finnische Küstenwache setzte daraufhin ein verdächtiges Schiff fest und leitete Ermittlungen ein.",
-        "paragraphs": [
-          "In der Ostsee ist erneut ein Unterseekabel beschädigt worden. Die finnische Küstenwache setzte daraufhin ein verdächtiges Schiff fest und leitete Ermittlungen ein."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/finnland-schiff-untersee-kommunikationskabels-ostsee",
-        "source": "ZEIT",
-        "publishedAt": "2025-12-31T12:44:39.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-finnland-prueft-schiff-wegen-unterseekabelschaden/27982126.html",
@@ -447,15 +447,26 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-two-nights-tour-in-garmisch-partenkirchen-faengt-freitag-prevc-noch-ab-1179598/artikel#omrss",
-        "title": "LIVE! Two-Nights-Tour in Garmisch-Partenkirchen: Fängt Freitag Prevc noch ab?",
-        "summary": "Erste Station der sogenannten Two-Nights-Tour der Skispringerinnen. In Garmisch-Partenkirchen sind an Silvester diesmal zuerst die Frauen mit ihrem Springen (13.00 Uhr) und dann die Männer (16.00 Uhr) mit ihrer Qualifikation dran.",
+        "id": "https://www.kicker.de/two-nights-tour-in-garmisch-partenkirchen-freitag-fliegt-auf-platz-2-1179598/artikel#omrss",
+        "title": "Two-Nights-Tour in Garmisch-Partenkirchen: Freitag fliegt auf Platz 2",
+        "summary": "Selina Freitag ist zum Auftakt der Two-Nights-Tour der Skispringerinnen auf den zweiten Platz geflogen. In Garmisch-Partenkirchen stand einmal mehr Nika Prevc ganz oben auf dem Podest.",
         "paragraphs": [
-          "Erste Station der sogenannten Two-Nights-Tour der Skispringerinnen. In Garmisch-Partenkirchen sind an Silvester diesmal zuerst die Frauen mit ihrem Springen (13.00 Uhr) und dann die Männer (16.00 Uhr) mit ihrer Qualifikation dran."
+          "Selina Freitag ist zum Auftakt der Two-Nights-Tour der Skispringerinnen auf den zweiten Platz geflogen. In Garmisch-Partenkirchen stand einmal mehr Nika Prevc ganz oben auf dem Podest."
         ],
-        "link": "https://www.kicker.de/live-two-nights-tour-in-garmisch-partenkirchen-faengt-freitag-prevc-noch-ab-1179598/artikel#omrss",
+        "link": "https://www.kicker.de/two-nights-tour-in-garmisch-partenkirchen-freitag-fliegt-auf-platz-2-1179598/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2025-12-31T13:17:25.000Z"
+        "publishedAt": "2025-12-31T13:35:33.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/berlin-gegen-braunschweig-2025-bbl-5141342/spielbericht#omrss",
+        "title": "Alba lässt es Dreier regnen: Braunschweig ohne Chance in Berlin",
+        "summary": "Alba Berlin hat sich zum Ende des Kalenderjahres wieder auf Platz zwei in der Basketball-Bundesliga gesetzt. Gegen die Löwen Braunschweig setzten sich die Albatrosse mit 104:73 durch.",
+        "paragraphs": [
+          "Alba Berlin hat sich zum Ende des Kalenderjahres wieder auf Platz zwei in der Basketball-Bundesliga gesetzt. Gegen die Löwen Braunschweig setzten sich die Albatrosse mit 104:73 durch."
+        ],
+        "link": "https://www.kicker.de/berlin-gegen-braunschweig-2025-bbl-5141342/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-31T13:28:02.000Z"
       },
       {
         "id": "https://www.kicker.de/live-verteidigt-rydzek-ihren-podestplatz-1179795/artikel#omrss",
@@ -480,13 +491,13 @@
         "publishedAt": "2025-12-31T13:08:08.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-bbl-an-silvester-alba-setzt-sich-gegen-braunschweig-ab-bayern-in-rostock-1179796/artikel#omrss",
-        "title": "LIVE! BBL an Silvester: Alba setzt sich gegen Braunschweig ab - Bayern in Rostock",
-        "summary": "Mit zwei Partien beschließt die Basketball-Bundesliga am heutigen Silvester-Tag das Jahr. Alba Berlin empfängt schon um 12.30 Uhr Braunschweig, die Bayern sind im Anschluss in Rostock zu Gast.",
+        "id": "https://www.kicker.de/live-bbl-an-silvester-alba-deklassiert-braunschweig-bayern-in-rostock-1179796/artikel#omrss",
+        "title": "LIVE! BBL an Silvester: Alba deklassiert Braunschweig - Bayern in Rostock",
+        "summary": "Mit zwei Partien beschließt die Basketball-Bundesliga am heutigen Silvester-Tag das Jahr. Alba Berlin hatte zur Mittagszeit mit Braunschweig wenig Mühe, die Bayern sind zur Stunde in Rostock zu Gast.",
         "paragraphs": [
-          "Mit zwei Partien beschließt die Basketball-Bundesliga am heutigen Silvester-Tag das Jahr. Alba Berlin empfängt schon um 12.30 Uhr Braunschweig, die Bayern sind im Anschluss in Rostock zu Gast."
+          "Mit zwei Partien beschließt die Basketball-Bundesliga am heutigen Silvester-Tag das Jahr. Alba Berlin hatte zur Mittagszeit mit Braunschweig wenig Mühe, die Bayern sind zur Stunde in Rostock zu Gast."
         ],
-        "link": "https://www.kicker.de/live-bbl-an-silvester-alba-setzt-sich-gegen-braunschweig-ab-bayern-in-rostock-1179796/artikel#omrss",
+        "link": "https://www.kicker.de/live-bbl-an-silvester-alba-deklassiert-braunschweig-bayern-in-rostock-1179796/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-31T12:53:53.000Z"
       },
@@ -544,6 +555,17 @@
         "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-31T11:53:35.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/hanning-entscheidung-bei-dika-mem-naht-1179845/artikel#omrss",
+        "title": "Hanning: Entscheidung bei Dika Mem naht",
+        "summary": "Gidsel, Pytlick und jetzt Mem? Die Berliner arbeiten weiter an ihrem Star-Ensemble. Bob Hanning nennt einen Zeitplan und ein Gefühl.",
+        "paragraphs": [
+          "Gidsel, Pytlick und jetzt Mem? Die Berliner arbeiten weiter an ihrem Star-Ensemble. Bob Hanning nennt einen Zeitplan und ein Gefühl."
+        ],
+        "link": "https://www.kicker.de/hanning-entscheidung-bei-dika-mem-naht-1179845/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2025-12-31T11:52:00.000Z"
       },
       {
         "id": "https://www.kicker.de/sogar-vuskovic-im-blickfeld-barcelona-braucht-einen-innenverteidiger-1179831/artikel#omrss",
@@ -643,31 +665,20 @@
         "link": "https://www.kicker.de/arteta-spielplan-ist-sehr-sehr-anspruchsvoll-1179826/video#omrss",
         "source": "Kicker",
         "publishedAt": "2025-12-31T09:25:46.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ciao-fussballjahr-2025-der-kicker-daily-jahresrueckblick-1176732/artikel#omrss",
-        "title": "Ciao, Fußballjahr 2025! Der kicker Daily Jahresrückblick",
-        "summary": "Die neue Folge kicker Daily!",
-        "paragraphs": [
-          "Die neue Folge kicker Daily!"
-        ],
-        "link": "https://www.kicker.de/ciao-fussballjahr-2025-der-kicker-daily-jahresrueckblick-1176732/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-31T09:01:49.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/huerzeler-aergert-var-vermutung-und-verteidigt-die-panenka-panne-1179799/artikel#omrss",
-        "title": "Hürzeler ärgert \"VAR-Vermutung\" - und verteidigt die Panenka-Panne",
-        "summary": "Brighton & Hove Albion hat den Dezember ohne einen Premier-League-Sieg beendet. Nach dem 2:2 bei West Ham ärgerte sich Trainer Fabian Hürzeler vor allem über eine VAR-Entscheidung.",
-        "paragraphs": [
-          "Brighton & Hove Albion hat den Dezember ohne einen Premier-League-Sieg beendet. Nach dem 2:2 bei West Ham ärgerte sich Trainer Fabian Hürzeler vor allem über eine VAR-Entscheidung."
-        ],
-        "link": "https://www.kicker.de/huerzeler-aergert-var-vermutung-und-verteidigt-die-panenka-panne-1179799/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2025-12-31T08:54:52.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Warren-Buffett-uebergibt-die-Fuehrung-seines-Investmentkonzerns-11126740.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Warren Buffett übergibt die Führung seines Investmentkonzerns",
+        "summary": "Warren Buffetts aufgebauter Konzern steht vor einer neuen Führungsära. Nach Jahrzehnten übergibt der wohl berühmteste Investor der Welt schrittweise das Ruder.",
+        "paragraphs": [
+          "Warren Buffetts aufgebauter Konzern steht vor einer neuen Führungsära. Nach Jahrzehnten übergibt der wohl berühmteste Investor der Welt schrittweise das Ruder."
+        ],
+        "link": "https://www.heise.de/news/Warren-Buffett-uebergibt-die-Fuehrung-seines-Investmentkonzerns-11126740.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-31T13:28:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Ruckelt-sich-noch-zurecht-Apples-Foldable-Produktion-11123413.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Ruckelt sich noch zurecht: Apples Foldable-Produktion",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Irland-will-EU-weite-Identitaetspflicht-fuer-Social-Media-einfuehren-11126396.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-30T13:48:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/39C3-Kritik-an-der-CUII-und-Netzsperren-in-Deutschland-11126328.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "39C3: Anhaltende Kritik an der Clearingstelle und Netzsperren in Deutschland",
-        "summary": "Die Clearingstelle Urheberrecht im Internet sperrt Webseiten auch ohne rechtliche Grundlage und steht dafür in der Kritik. Was bisher geschah.",
-        "paragraphs": [
-          "Die Clearingstelle Urheberrecht im Internet sperrt Webseiten auch ohne rechtliche Grundlage und steht dafür in der Kritik. Was bisher geschah."
-        ],
-        "link": "https://www.heise.de/news/39C3-Kritik-an-der-CUII-und-Netzsperren-in-Deutschland-11126328.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-30T13:08:00.000Z"
       }
     ]
   }
