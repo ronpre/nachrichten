@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-01T19:28:59.572Z",
+  "updatedAt": "2026-01-01T19:37:33.100Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:ecbcf673-3a11-4897-ae08-05ddd6cd00ea}",
+        "title": "Südamerika: Mehr als 80 politische Häftlinge in Venezuela freigelassen",
+        "summary": "Die Regierung Venezuelas hat 87 Inhaftierte aus Gefängnissen entlassen. Viele waren bei Protesten gegen die Wiederwahl des Präsidenten Maduro festgenommen worden.",
+        "paragraphs": [
+          "Die Regierung Venezuelas hat 87 Inhaftierte aus Gefängnissen entlassen. Viele waren bei Protesten gegen die Wiederwahl des Präsidenten Maduro festgenommen worden."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/suedamerika-venezuela-haeftlinge-nicolas-maduro",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-01T19:28:31.000Z"
+      },
+      {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Selenskyj erwartet Fortschritt bei Verhandlung in den nächsten Tagen",
+        "summary": "Der ukrainische Präsident denkt, dass es bei den Verhandlungen zu Sicherheitsgarantien vorangehen könnte. Ukraine setzt neue Patriot-Flugabwehrsysteme ein. Das Liveblog",
+        "paragraphs": [
+          "Der ukrainische Präsident denkt, dass es bei den Verhandlungen zu Sicherheitsgarantien vorangehen könnte. Ukraine setzt neue Patriot-Flugabwehrsysteme ein. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-01T19:25:21.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/migration-bundespolizei-verzeichnet-2025-deutlich-weniger-illegale-einreisen-nach-deutschland-a-b432ec19-980a-443b-807f-56cad4b10e33",
         "title": "Migration: Bundespolizei verzeichnet 2025 deutlich weniger illegale Einreisen nach Deutschland",
         "summary": "Seit September 2024 gelten an allen deutschen Landesgrenzen wieder Grenzkontrollen – tatsächlich registrierten die Behörden seitdem weniger illegale Einreisen. Mit den Maßnahmen von Innenminister Dobrindt hat das wohl nur zum Teil zu tun.",
@@ -245,17 +267,6 @@
         "link": "https://www.spiegel.de/politik/uneinigkeit-in-berlin-und-paris-entscheidung-ueber-luftkampfsystem-fcas-erneut-vertagt-a-aca484ee-bc38-40e4-9d85-adcd75c9e954#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-01T19:21:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Selenskyj erwartet Fortschritt bei Verhandlung in den nächsten Tagen",
-        "summary": "Der ukrainische Präsident denkt, dass es bei den Verhandlungen zu Sicherheitsgarantien vorangehen könnte. Ukraine greift russische Energieinfrastruktur an. Das Liveblog",
-        "paragraphs": [
-          "Der ukrainische Präsident denkt, dass es bei den Verhandlungen zu Sicherheitsgarantien vorangehen könnte. Ukraine greift russische Energieinfrastruktur an. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-01T19:15:23.000Z"
       },
       {
         "id": "li.3362104",
@@ -426,18 +437,20 @@
         "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-hegt-zweifel-an-ukrainischem-drohnen-angriff-auf-putin/100187948.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-01T14:30:40.000Z"
-      },
-      {
-        "id": "li.3361965",
-        "title": "Zum Jahreswechsel: 42 Krankenkassen erhöhen Beitrag",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/zum-jahreswechsel-42-krankenkassen-erhoehen-beitrag-li.3361965",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-01T14:23:07.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/liverpool-gegen-leeds-2026-premier-league-5045189/spielbericht#omrss",
+        "title": "Wirtz engagiert, aber ohne Glück: Leeds und Farke stoppen Liverpools Siegesserie",
+        "summary": "Nach schwachem Saisonstart hatte der FC Liverpool zuletzt vier Siege in Serie geholt. Zu Hause gegen das formstarke Leeds United um Trainer Daniel Farke sprang aber zum Jahresbeginn nur ein Remis heraus.",
+        "paragraphs": [
+          "Nach schwachem Saisonstart hatte der FC Liverpool zuletzt vier Siege in Serie geholt. Zu Hause gegen das formstarke Leeds United um Trainer Daniel Farke sprang aber zum Jahresbeginn nur ein Remis heraus."
+        ],
+        "link": "https://www.kicker.de/liverpool-gegen-leeds-2026-premier-league-5045189/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-01T19:26:11.000Z"
+      },
       {
         "id": "https://www.kicker.de/wahi-kehrt-nach-frankreich-zurueck-1179701/artikel#omrss",
         "title": "Wahi kehrt nach Frankreich zurück",
@@ -547,17 +560,6 @@
         "link": "https://www.kicker.de/unwirklicher-vorsprung-fuer-ueberflieger-prevc-hoffmann-und-raimund-begeistern-1179984/video#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-01T16:34:38.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/liverpool-gegen-leeds-2026-premier-league-5045189/spielbericht#omrss",
-        "title": "LIVE! Leeds jubelt für zwei Sekunden - van Dijk köpft vorbei - Slot wechselt auch Wirtz aus",
-        "summary": "Nach schwachem Saisonstart sorgte Liverpool gegen Wolverhampton mit dem vierten Sieg in Serie für einen versöhnlichen Jahresabschluss. Zudem erzielte Florian Wirtz seinen ersten Treffer für die Reds. Darf der Ex-Leverkusener gegen das formstarke Leeds wieder jubeln?",
-        "paragraphs": [
-          "Nach schwachem Saisonstart sorgte Liverpool gegen Wolverhampton mit dem vierten Sieg in Serie für einen versöhnlichen Jahresabschluss. Zudem erzielte Florian Wirtz seinen ersten Treffer für die Reds. Darf der Ex-Leverkusener gegen das formstarke Leeds wieder jubeln?"
-        ],
-        "link": "https://www.kicker.de/liverpool-gegen-leeds-2026-premier-league-5045189/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-01T16:29:52.000Z"
       },
       {
         "id": "https://www.kicker.de/neustart-in-sydney-zverev-verspuert-neue-hoffnung-fuer-2026-1179979/artikel#omrss",
@@ -771,17 +773,6 @@
         "publishedAt": "2025-12-31T17:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/UMTS-in-der-Schweiz-Swisscom-schaltet-3G-Netz-ab-11126697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "UMTS in der Schweiz: Swisscom schaltet 3G-Netz ab",
-        "summary": "Die Mobilfunktechnologie UMTS, der Mobilfunkstandard der dritten Generation (3G), ist bald Technikgeschichte, Swisscom beginnt zum Jahreswechsel abzuschalten.",
-        "paragraphs": [
-          "Die Mobilfunktechnologie UMTS, der Mobilfunkstandard der dritten Generation (3G), ist bald Technikgeschichte, Swisscom beginnt zum Jahreswechsel abzuschalten."
-        ],
-        "link": "https://www.heise.de/news/UMTS-in-der-Schweiz-Swisscom-schaltet-3G-Netz-ab-11126697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-31T15:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Bericht-iPhone-18-Bildsensor-von-Samsung-made-in-Texas-11125769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Bericht: iPhone-18-Bildsensor von Samsung made in Texas",
         "summary": "Auf Druck der Trump-Administration holt Apple mehr Produktion nach Hause. Dieses Mal geht es südkoreanischen Medien zufolge um Foto-Hardware.",
@@ -789,6 +780,17 @@
           "Auf Druck der Trump-Administration holt Apple mehr Produktion nach Hause. Dieses Mal geht es südkoreanischen Medien zufolge um Foto-Hardware."
         ],
         "link": "https://www.heise.de/news/Bericht-iPhone-18-Bildsensor-von-Samsung-made-in-Texas-11125769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2025-12-31T15:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/UMTS-in-der-Schweiz-Swisscom-schaltet-3G-Netz-ab-11126697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "UMTS in der Schweiz: Swisscom schaltet 3G-Netz ab",
+        "summary": "Die Mobilfunktechnologie UMTS, der Mobilfunkstandard der dritten Generation (3G), ist bald Technikgeschichte, Swisscom beginnt zum Jahreswechsel abzuschalten.",
+        "paragraphs": [
+          "Die Mobilfunktechnologie UMTS, der Mobilfunkstandard der dritten Generation (3G), ist bald Technikgeschichte, Swisscom beginnt zum Jahreswechsel abzuschalten."
+        ],
+        "link": "https://www.heise.de/news/UMTS-in-der-Schweiz-Swisscom-schaltet-3G-Netz-ab-11126697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2025-12-31T15:00:00.000Z"
       },
