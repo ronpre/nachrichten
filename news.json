@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-01T20:46:06.575Z",
+  "updatedAt": "2026-01-01T20:54:43.674Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:25c59c07-7367-47d9-afa1-200d6b4149f7}",
+        "title": "Migration: Deutlich weniger Menschen unerlaubt nach Deutschland eingereist",
+        "summary": "Die Bundespolizei hat 2025 im Vergleich zu 2023 halb so viel unerlaubte Einreisen festgestellt. An den deutschen Grenzen kam es 2025 zu 62.526 illegale Einreisen.",
+        "paragraphs": [
+          "Die Bundespolizei hat 2025 im Vergleich zu 2023 halb so viel unerlaubte Einreisen festgestellt. An den deutschen Grenzen kam es 2025 zu 62.526 illegale Einreisen."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2026-01/deutschland-migration-unerlaubte-einreise-bundespolizei",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-01T20:44:54.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/migration-deutlich-weniger-unerlaubte-einreisen-nach-deutschland-2025/100187997.html",
         "title": "Migration: Deutlich weniger unerlaubte Einreisen nach Deutschland 2025",
         "summary": "Die Zahl unerlaubter Einreisen nach Deutschland ist binnen zwei Jahren erneut gesunken. Rund 62.000 Fälle stellte die Bundespolizei im letzten Jahr fest.",
@@ -426,20 +437,31 @@
         "link": "https://www.sueddeutsche.de/projekte/artikel/politik/japan-smartphone-internet-screentime-e512120/",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-01T15:00:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/ricarda-lang-ich-musste-mich-regelrecht-zwingen-das-erste-mal-ins-gym-zu-gehen-a-65b6af60-21c6-4607-b9c0-4d7df8c05046",
-        "title": "Ricarda Lang: »Ich musste mich regelrecht zwingen, das erste Mal ins Gym zu gehen«",
-        "summary": "Ricarda Lang scheiterte als Grünenchefin, dann erfand sie sich neu. Hier spricht sie über das Abnehmen, über Ehrlichkeit in der Politik und darüber, wie sie sich von ihren Ängsten befreit hat.",
-        "paragraphs": [
-          "Ricarda Lang scheiterte als Grünenchefin, dann erfand sie sich neu. Hier spricht sie über das Abnehmen, über Ehrlichkeit in der Politik und darüber, wie sie sich von ihren Ängsten befreit hat."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/ricarda-lang-ich-musste-mich-regelrecht-zwingen-das-erste-mal-ins-gym-zu-gehen-a-65b6af60-21c6-4607-b9c0-4d7df8c05046#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-01T14:44:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.spiegel.de/sport/darts-wm-titelverteidiger-luke-littler-stuermt-im-eiltempo-ins-halbfinale-a-15cfafdb-d00c-48d6-8261-cec8c109af76",
+        "title": "Darts-WM: Titelverteidiger Luke Littler stürmt im Eiltempo ins Halbfinale",
+        "summary": "Zuletzt hatte Luke Littler mit Buhrufen zu kämpfen, bei der Machtdemonstration gegen Krzysztof Ratajski geht es harmonischer zu. Im Halbfinale trifft er auf Ryan Searle, der bereits Martin Schindler rausgeworfen hatte.",
+        "paragraphs": [
+          "Zuletzt hatte Luke Littler mit Buhrufen zu kämpfen, bei der Machtdemonstration gegen Krzysztof Ratajski geht es harmonischer zu. Im Halbfinale trifft er auf Ryan Searle, der bereits Martin Schindler rausgeworfen hatte."
+        ],
+        "link": "https://www.spiegel.de/sport/darts-wm-titelverteidiger-luke-littler-stuermt-im-eiltempo-ins-halbfinale-a-15cfafdb-d00c-48d6-8261-cec8c109af76#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-01T20:45:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/aue-findet-neuen-sport-geschaeftsfuehrer-tarnat-macht-s-1180003/artikel#omrss",
+        "title": "Aue findet neuen Sport-Geschäftsführer: Tarnat macht's",
+        "summary": "Nach der Trennung von Sport-Geschäftsführer Mathias Heidrich hatte Steffen Ziffert den Posten übergangsweise bekleidet. Jetzt haben die Veilchen eine dauerhafte Lösung gefunden: Michael Tarnat.",
+        "paragraphs": [
+          "Nach der Trennung von Sport-Geschäftsführer Mathias Heidrich hatte Steffen Ziffert den Posten übergangsweise bekleidet. Jetzt haben die Veilchen eine dauerhafte Lösung gefunden: Michael Tarnat."
+        ],
+        "link": "https://www.kicker.de/aue-findet-neuen-sport-geschaeftsfuehrer-tarnat-macht-s-1180003/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-01T20:44:35.000Z"
+      },
       {
         "id": "https://www.kicker.de/der-spielplan-der-darts-wm-2026-1071066/artikel#omrss",
         "title": "Der Spielplan der Darts-WM 2026",
@@ -637,28 +659,6 @@
         "link": "https://www.sueddeutsche.de/sport/chelsea-trainer-entlassung-maresca-li.3362071",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-01T15:50:56.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vierschanzentournee-zeitplan-uebertragung-und-modus-979759/artikel#omrss",
-        "title": "Vierschanzentournee: Zeitplan, Übertragung und Modus",
-        "summary": "Wie jedes Jahr freuen sich Wintersport-Fans auf ein absolutes Highlight: Die Vierschanzentournee steht an. Der kicker liefert alles Wichtige zum prestigeträchtigen Skisprung-Wettbewerb.",
-        "paragraphs": [
-          "Wie jedes Jahr freuen sich Wintersport-Fans auf ein absolutes Highlight: Die Vierschanzentournee steht an. Der kicker liefert alles Wichtige zum prestigeträchtigen Skisprung-Wettbewerb."
-        ],
-        "link": "https://www.kicker.de/vierschanzentournee-zeitplan-uebertragung-und-modus-979759/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-01T15:37:28.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bayer-quartett-bleibt-beim-afrika-cup-ein-neuzugang-laengst-fix-1179947/artikel#omrss",
-        "title": "Bayer-Quartett bleibt beim Afrika-Cup - Ein Neuzugang längst fix",
-        "summary": "Auf die vier Profis beim Afrika-Cup wird Bayer 04 Leverkusen noch etwas warten müssen, alle haben das Achtelfinale erreicht. Dafür kann der schon 2024 fixierte Transfer von Issa Traoré nun vollzogen werden.",
-        "paragraphs": [
-          "Auf die vier Profis beim Afrika-Cup wird Bayer 04 Leverkusen noch etwas warten müssen, alle haben das Achtelfinale erreicht. Dafür kann der schon 2024 fixierte Transfer von Issa Traoré nun vollzogen werden."
-        ],
-        "link": "https://www.kicker.de/bayer-quartett-bleibt-beim-afrika-cup-ein-neuzugang-laengst-fix-1179947/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-01T15:33:07.000Z"
       }
     ],
     "edv": [
