@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-01T15:05:28.520Z",
+  "updatedAt": "2026-01-01T15:18:02.888Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:5f73948c-c0f1-472c-9896-64655f482f1d}",
+        "title": "KI in der Industrie: Denkt doch endlich mit",
+        "summary": "Selbstlernende Maschinen könnten für die deutsche Industrie entscheidend werden, aber viele Firmen zögern. Drei Beispiele zeigen, was schon möglich ist.",
+        "paragraphs": [
+          "Selbstlernende Maschinen könnten für die deutsche Industrie entscheidend werden, aber viele Firmen zögern. Drei Beispiele zeigen, was schon möglich ist."
+        ],
+        "link": "https://www.zeit.de/zeit-fuer-unternehmer/2025/04/ki-industrie-fabrik-maschinen-lernen",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-01T15:10:59.000Z"
+      },
       {
         "id": "https://www.spiegel.de/wirtschaft/unternehmen/mehrwertsteuersenkung-in-der-gastronomie-drei-wirte-berichten-was-sie-wirklich-bringt-a-93a77196-3014-436e-a189-7c79557d581c",
         "title": "Mehrwertsteuersenkung in der Gastronomie: Drei Wirte berichten, was sie wirklich bringt",
@@ -25,13 +36,13 @@
         "publishedAt": "2026-01-01T14:37:07.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-laut-cia-offenbar-kein-angriff-kiews-auf-putins-residenz/100187948.html",
-        "title": "Ukraine-Krieg: Medien: Laut CIA kein Angriff Kiews auf Putins Residenz",
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-hegt-zweifel-an-ukrainischem-drohnen-angriff-auf-putin/100187948.html",
+        "title": "Ukraine-Krieg: Trump hegt Zweifel an ukrainischem Drohnen-Angriff auf Putin",
         "summary": "Nach Anschuldigungen Moskaus werden Erkenntnisse der US-Geheimdienste zum angeblichen Angriff der Ukraine auf Putins Residenz öffentlich. Trump teilt russlandkritischen Kommentar.",
         "paragraphs": [
           "Nach Anschuldigungen Moskaus werden Erkenntnisse der US-Geheimdienste zum angeblichen Angriff der Ukraine auf Putins Residenz öffentlich. Trump teilt russlandkritischen Kommentar."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-laut-cia-offenbar-kein-angriff-kiews-auf-putins-residenz/100187948.html",
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-hegt-zweifel-an-ukrainischem-drohnen-angriff-auf-putin/100187948.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-01T14:30:40.000Z"
       },
@@ -210,20 +221,47 @@
         "link": "https://www.handelsblatt.com/politik/international/iran-offenbar-ein-toter-bei-protesten/100187973.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-01T11:51:30.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/krankenversicherung-42-krankenkassen-erhoehen-beitraege-millionen-zahlen-mehr/100187978.html",
-        "title": "Krankenversicherung: 42 Krankenkassen erhöhen Beiträge – Millionen zahlen mehr",
-        "summary": "Für viele gesetzlich Versicherte wird die Krankenversicherung teurer. Denn die Kosten sind zuletzt massiv gestiegen. Der Druck für rasche Reformen im Gesundheitssystem nimmt zu.",
-        "paragraphs": [
-          "Für viele gesetzlich Versicherte wird die Krankenversicherung teurer. Denn die Kosten sind zuletzt massiv gestiegen. Der Druck für rasche Reformen im Gesundheitssystem nimmt zu."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/krankenversicherung-42-krankenkassen-erhoehen-beitraege-millionen-zahlen-mehr/100187978.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-01T11:45:30.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3362060",
+        "title": "US-Großstädte: Trump zieht Nationalgarde ab",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/us-grossstaedte-trump-zieht-nationalgarde-ab-li.3362060",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-01T15:08:08.000Z"
+      },
+      {
+        "id": "li.3362043",
+        "title": "New York: Zohran Mamdani als Bürgermeister vereidigt",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/new-york-zohran-mamdani-als-buergermeister-vereidigt-li.3362043",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-01T15:06:38.000Z"
+      },
+      {
+        "id": "li.3362037",
+        "title": "Wegen fehlender Rechtsstaatlichkeit: Ungarn verliert EU-Hilfen",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/wegen-fehlender-rechtsstaatlichkeit-ungarn-verliert-eu-hilfen-li.3362037",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-01T15:04:16.000Z"
+      },
+      {
+        "id": "li.3361935",
+        "title": "Russlands Krieg gegen die Ukraine: CIA widerspricht Putin",
+        "summary": "Der US-Geheimdienst informiert Präsident Donald Trump, dass die Ukraine die Residenz des russischen Diktators nicht attackiert habe – anders als von Putin behauptet.  Trump reagiert auf Social Media.",
+        "paragraphs": [
+          "Der US-Geheimdienst informiert Präsident Donald Trump, dass die Ukraine die Residenz des russischen Diktators nicht attackiert habe – anders als von Putin behauptet.  Trump reagiert auf Social Media."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/trump-putin-cia-anschlag-ukraine-li.3361935",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-01T15:03:21.000Z"
+      },
       {
         "id": "https://www.spiegel.de/politik/deutschland/ricarda-lang-ich-musste-mich-regelrecht-zwingen-das-erste-mal-ins-gym-zu-gehen-a-65b6af60-21c6-4607-b9c0-4d7df8c05046",
         "title": "Ricarda Lang: »Ich musste mich regelrecht zwingen, das erste Mal ins Gym zu gehen«",
@@ -236,13 +274,13 @@
         "publishedAt": "2026-01-01T14:44:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-laut-cia-offenbar-kein-angriff-kiews-auf-putins-residenz/100187948.html",
-        "title": "Ukraine-Krieg: Medien: Laut CIA kein Angriff Kiews auf Putins Residenz",
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-hegt-zweifel-an-ukrainischem-drohnen-angriff-auf-putin/100187948.html",
+        "title": "Ukraine-Krieg: Trump hegt Zweifel an ukrainischem Drohnen-Angriff auf Putin",
         "summary": "Nach Anschuldigungen Moskaus werden Erkenntnisse der US-Geheimdienste zum angeblichen Angriff der Ukraine auf Putins Residenz öffentlich. Trump teilt russlandkritischen Kommentar.",
         "paragraphs": [
           "Nach Anschuldigungen Moskaus werden Erkenntnisse der US-Geheimdienste zum angeblichen Angriff der Ukraine auf Putins Residenz öffentlich. Trump teilt russlandkritischen Kommentar."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-laut-cia-offenbar-kein-angriff-kiews-auf-putins-residenz/100187948.html",
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-hegt-zweifel-an-ukrainischem-drohnen-angriff-auf-putin/100187948.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-01T14:30:40.000Z"
       },
@@ -395,63 +433,41 @@
         "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukraine-setzt-zwei-neue-patriot-flugabwehrsysteme-ein/27982126.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-01T11:33:00.000Z"
-      },
-      {
-        "id": "li.3361278",
-        "title": "Italien: Spendengelder für Nahrung und Medikamente – oder für die Hamas?",
-        "summary": "Unter dem Deckmantel der Wohltätigkeit soll ein italienisches Netzwerk die palästinensische Terrororganisation finanziert haben, sieben Personen wurden festgenommen. Nun diskutiert Italien über die Solidarität mit Gaza.",
-        "paragraphs": [
-          "Unter dem Deckmantel der Wohltätigkeit soll ein italienisches Netzwerk die palästinensische Terrororganisation finanziert haben, sieben Personen wurden festgenommen. Nun diskutiert Italien über die Solidarität mit Gaza."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/italien-hamas-geld-hilfe-genua-li.3361278",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-01T11:18:09.000Z"
-      },
-      {
-        "id": "li.3361967",
-        "title": "Katholische Kirche: Umfassender Friedensaufruf des Papstes zu Jahresbeginn",
-        "summary": "Bei einem Gottesdienst im Petersdom aus Anlass des katholischen Weltfriedenstages übt Papst Leo XIV. scharfe Kritik an einer zunehmenden Militarisierung des Denkens, an steigenden Rüstungsausgaben und an einer religiösen Überhöhung des Krieges.",
-        "paragraphs": [
-          "Bei einem Gottesdienst im Petersdom aus Anlass des katholischen Weltfriedenstages übt Papst Leo XIV. scharfe Kritik an einer zunehmenden Militarisierung des Denkens, an steigenden Rüstungsausgaben und an einer religiösen Überhöhung des Krieges."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/papst-leo-frieden-neujahr-li.3361967",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-01T11:06:57.000Z"
-      },
-      {
-        "id": "er.e786852",
-        "title": "Ideas: The Other Way the ‘Super Woke’ Left Discriminates",
-        "summary": "Race and gender aren’t the only categories that determine who gets special treatment.",
-        "paragraphs": [
-          "Race and gender aren’t the only categories that determine who gets special treatment."
-        ],
-        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/the-other-way-the-super-woke-left-discriminates-e786852/",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-01T10:59:00.000Z"
-      },
-      {
-        "id": "er.e681198",
-        "title": "Politics: Trump Is Suddenly Looking a Lot Smaller",
-        "summary": "The president is no longer dominating his party or the country in the way he once did.",
-        "paragraphs": [
-          "The president is no longer dominating his party or the country in the way he once did."
-        ],
-        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/trump-is-suddenly-looking-a-lot-smaller-e681198/",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-01T10:58:00.000Z"
       }
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-neujahrsspringen-hoffmann-und-raimund-stark-kobayashi-fuehrt-1179613/artikel#omrss",
-        "title": "LIVE! Neujahrsspringen: Hoffmann und Raimund stark - Kobayashi führt",
-        "summary": "Zum traditionellen Neujahrsskispringen, dem zweiten Event im Rahmen der Vierschanzentournee, strömen Jahr für Jahr über 25.000 Besucher zur großen Olympiaschanze in Garmisch-Partenkirchen.",
+        "id": "li.3355086",
+        "title": "Skispringen: TV-Übertragung und Termine zur Vierschanzentournee",
+        "summary": "Vier Schanzen in zehn Tagen: Bei der diesjährigen Tournee geht Daniel Tschofenig als Titelverteidiger an den Start. Wann sind die Springen, und welche Deutsche haben Chancen auf den goldenen Adler?",
         "paragraphs": [
-          "Zum traditionellen Neujahrsskispringen, dem zweiten Event im Rahmen der Vierschanzentournee, strömen Jahr für Jahr über 25.000 Besucher zur großen Olympiaschanze in Garmisch-Partenkirchen."
+          "Vier Schanzen in zehn Tagen: Bei der diesjährigen Tournee geht Daniel Tschofenig als Titelverteidiger an den Start. Wann sind die Springen, und welche Deutsche haben Chancen auf den goldenen Adler?"
         ],
-        "link": "https://www.kicker.de/live-neujahrsspringen-hoffmann-und-raimund-stark-kobayashi-fuehrt-1179613/artikel#omrss",
+        "link": "https://www.sueddeutsche.de/sport/vierschanzentournee-2025-26-heute-live-tv-neujahrsspringen-gesamtwertung-li.3355086",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-01T15:11:00.000Z"
+      },
+      {
+        "id": "li.3361491",
+        "title": "Münchner Verein FC Mainaustraße: Fußball spielen, um kurz die Angst vor der Abschiebung zu verdrängen",
+        "summary": "Beim preisgekrönten Münchner FC Mainaustraße spielen Geflüchtete aus mehreren Nationen zusammen Fußball. Der schwerste Gegner bislang: die Bürokratie.",
+        "paragraphs": [
+          "Beim preisgekrönten Münchner FC Mainaustraße spielen Geflüchtete aus mehreren Nationen zusammen Fußball. Der schwerste Gegner bislang: die Bürokratie."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/muenchen-verein-fussball-fluechtlinge-mainaustrasse-li.3361491",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-01T15:10:27.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/prevc-siegt-auch-beim-neujahrsspringen-hoffmann-und-raimund-stark-1179613/artikel#omrss",
+        "title": "Prevc siegt auch beim Neujahrsspringen - Hoffmann und Raimund stark",
+        "summary": "Beim traditionellen Neujahrsskispringen auf der Olympiaschanze in Garmisch-Partenkirchen dominierte einmal mehr Domen Prevc, der Slowene baut seinen Vorsprung bei der 74. Vierschanzentournee aus. Eine starke Vorstellung zeigten die beiden DSV-Adler Felix Hoffmann und Philipp Raimund.",
+        "paragraphs": [
+          "Beim traditionellen Neujahrsskispringen auf der Olympiaschanze in Garmisch-Partenkirchen dominierte einmal mehr Domen Prevc, der Slowene baut seinen Vorsprung bei der 74. Vierschanzentournee aus. Eine starke Vorstellung zeigten die beiden DSV-Adler Felix Hoffmann und Philipp Raimund."
+        ],
+        "link": "https://www.kicker.de/prevc-siegt-auch-beim-neujahrsspringen-hoffmann-und-raimund-stark-1179613/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-01-01T14:58:30.000Z"
+        "publishedAt": "2026-01-01T15:09:00.000Z"
       },
       {
         "id": "li.3361490",
@@ -639,31 +655,20 @@
         "link": "https://www.sueddeutsche.de/sport/skispringen-vierschanzentournee-anzuege-disqualifikation-kontrolleur-li.3361474",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-01T10:42:35.000Z"
-      },
-      {
-        "id": "li.3355086",
-        "title": "Skispringen: TV-Übertragung und Termine zur Vierschanzentournee",
-        "summary": "Vier Schanzen in zehn Tagen: Bei der diesjährigen Tournee geht Daniel Tschofenig als Titelverteidiger an den Start. Wann sind die Springen, und welche Deutsche haben Chancen auf den goldenen Adler?",
-        "paragraphs": [
-          "Vier Schanzen in zehn Tagen: Bei der diesjährigen Tournee geht Daniel Tschofenig als Titelverteidiger an den Start. Wann sind die Springen, und welche Deutsche haben Chancen auf den goldenen Adler?"
-        ],
-        "link": "https://www.sueddeutsche.de/sport/vierschanzentournee-2025-26-heute-live-tv-neujahrsspringen-garmisch-partenkirchen-li.3355086",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-01T10:23:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/chaos-in-gabun-trainer-entlassen-nationalmannschaft-suspendiert-1179926/artikel#omrss",
-        "title": "Chaos in Gabun: Trainer entlassen, Nationalmannschaft suspendiert",
-        "summary": "Mit null Punkten aus drei Spielen verabschiedete sich Gabun aus dem Afrika-Cup in Marokko. Der Sportminister zog drastische Konsequenzen und stellte nicht nur Nationaltrainer Thierry Mouyouma frei.",
-        "paragraphs": [
-          "Mit null Punkten aus drei Spielen verabschiedete sich Gabun aus dem Afrika-Cup in Marokko. Der Sportminister zog drastische Konsequenzen und stellte nicht nur Nationaltrainer Thierry Mouyouma frei."
-        ],
-        "link": "https://www.kicker.de/chaos-in-gabun-trainer-entlassen-nationalmannschaft-suspendiert-1179926/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-01T10:05:04.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/tests/Die-zehn-besten-Spiele-aus-zehn-Jahren-VR-11046652.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Die zehn besten Spiele aus zehn Jahren VR",
+        "summary": "Im Jahr 2016 starteten Oculus Rift, HTC Vive und PS VR eine neue VR-Ära. Wir küren die zehn wichtigsten modernen Spiele-Klassiker in Virtual Reality.",
+        "paragraphs": [
+          "Im Jahr 2016 starteten Oculus Rift, HTC Vive und PS VR eine neue VR-Ära. Wir küren die zehn wichtigsten modernen Spiele-Klassiker in Virtual Reality."
+        ],
+        "link": "https://www.heise.de/tests/Die-zehn-besten-Spiele-aus-zehn-Jahren-VR-11046652.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-01T15:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Space-Forge-erhitzt-erstmals-Fertigungsofen-im-Weltall-auf-1000-Grad-11126873.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Space Forge erhitzt erstmals Fertigungsofen im Weltall auf 1000 Grad",
@@ -872,17 +877,6 @@
         "link": "https://www.heise.de/tests/Buchkritik-Enshittification-11081123.html",
         "source": "c't",
         "publishedAt": "2025-12-31T09:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/iX-Workshop-Sicheres-Active-Directory-Adminrechte-mit-Tiering-schuetzen-11109415.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Sicheres Active Directory – Adminrechte mit Tiering schützen",
-        "summary": "Erfahren Sie, wie Sie mit dem Enterprise Access Model eine Rechteausweitung verhindern und so die Active-Directory-Domäne Ihres Unternehmens schützen.",
-        "paragraphs": [
-          "Erfahren Sie, wie Sie mit dem Enterprise Access Model eine Rechteausweitung verhindern und so die Active-Directory-Domäne Ihres Unternehmens schützen."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-Sicheres-Active-Directory-Adminrechte-mit-Tiering-schuetzen-11109415.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2025-12-31T07:00:00.000Z"
       }
     ]
   }
