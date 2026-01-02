@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-02T23:17:07.360Z",
+  "updatedAt": "2026-01-02T23:29:03.809Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:73e450e0-c920-44ca-aa1e-b0e01d9a5e24}",
+        "title": "Grenzkonflikt: Kambodscha wirft Thailand \"illegale Annexion\" von Territorien vor",
+        "summary": "Im Dezember haben sich Thailand und Kambodscha nach wochenlangen Gefechten auf eine Waffenruhe geeinigt. Nun kam es erneut zu Auseinandersetzungen über eine Grenzlinie.",
+        "paragraphs": [
+          "Im Dezember haben sich Thailand und Kambodscha nach wochenlangen Gefechten auf eine Waffenruhe geeinigt. Nun kam es erneut zu Auseinandersetzungen über eine Grenzlinie."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/grenzkonflikt-thailand-kambodscha-vorwurf-annexion",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-02T23:16:40.000Z"
+      },
+      {
         "id": "{urn:uuid:9076983d-16a5-41e9-9afc-755cd5928af5}",
         "title": "Krieg in der Ukraine: Selenskyj will Verteidigungsminister erneut auswechseln",
         "summary": "Denys Schmyhal war erst im Sommer zum Verteidigungsminister ernannt worden, nun soll Vizepremier Mychajlo Fedorow das Amt übernehmen. Das Parlament muss noch zustimmen.",
@@ -428,20 +439,31 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/ukraine-wolodymyr-selenskyj-kyrylo-budanow-andrij-jermak-nachfolger",
         "source": "ZEIT",
         "publishedAt": "2026-01-02T16:10:20.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/migration-scharfe-kritik-an-csu-vorstoss-zu-haerterem-umgang-mit-syrern/100188125.html",
-        "title": "Migration: „Im Anti-Asyl-Wahn gefangen“ – CSU zettelt Streit über syrische Flüchtlinge an",
-        "summary": "Die CSU im Bundestag will die Migrationspolitik verschärfen. Nicht nur SPD und Grüne lehnen die Pläne ab: Selbst in der CDU hinterfragt man die Prioritäten der Schwesterpartei.",
-        "paragraphs": [
-          "Die CSU im Bundestag will die Migrationspolitik verschärfen. Nicht nur SPD und Grüne lehnen die Pläne ab: Selbst in der CDU hinterfragt man die Prioritäten der Schwesterpartei."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/migration-scharfe-kritik-an-csu-vorstoss-zu-haerterem-umgang-mit-syrern/100188125.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-02T15:35:47.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "li.3362555",
+        "title": "Darts: Littler stürmt erneut ins WM-Finale",
+        "summary": "Der 18-jährige Weltranglistenerste trifft im Endspiel auf den Niederländer Gian van Veen. Vor allem dank seines starken Scorings sicherte sich Littler Satz für Satz.",
+        "paragraphs": [
+          "Der 18-jährige Weltranglistenerste trifft im Endspiel auf den Niederländer Gian van Veen. Vor allem dank seines starken Scorings sicherte sich Littler Satz für Satz."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/luke-littler-wm-finale-london-li.3362555",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-02T23:10:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/matchwinner-nach-bandencrash-schnarr-schiesst-haie-zum-sieg-gegen-straubing-1180294/video#omrss",
+        "title": "Matchwinner nach Bandencrash: Schnarr schießt Haie zum Sieg gegen Straubing",
+        "summary": "Im Topduell zwischen den Kölner Haien und den Straubing Tigers bot sich den Fans ein spannendes Match, bei dem die Haie beinahe eine 3:0-Führung aus der Hand gaben. Letztlich sorgte Nate Schnarr mit seinem 4:2 für die Entscheidung.",
+        "paragraphs": [
+          "Im Topduell zwischen den Kölner Haien und den Straubing Tigers bot sich den Fans ein spannendes Match, bei dem die Haie beinahe eine 3:0-Führung aus der Hand gaben. Letztlich sorgte Nate Schnarr mit seinem 4:2 für die Entscheidung."
+        ],
+        "link": "https://www.kicker.de/matchwinner-nach-bandencrash-schnarr-schiesst-haie-zum-sieg-gegen-straubing-1180294/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-02T23:00:12.000Z"
+      },
       {
         "id": "https://www.kicker.de/die-junge-generation-raeumt-ab-littler-und-van-veen-stuermen-ins-wm-finale-1180266/artikel#omrss",
         "title": "Die junge Generation räumt ab: Littler und van Veen stürmen ins WM-Finale",
@@ -520,17 +542,6 @@
         "publishedAt": "2026-01-02T21:30:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/koeln-gewinnt-zum-achten-mal-in-serie-torfestival-in-augsburg-dresden-jubelt-auswaerts-1179810/artikel#omrss",
-        "title": "Köln gewinnt zum achten Mal in Serie - Torfestival in Augsburg - Dresden jubelt auswärts",
-        "summary": "Im Duell der Formstarken holte Tabellenführer Köln gegen Straubing seinen achten Sieg in Serie. Der 35. DEL-Spieltag hatte auch ein Torfestival in Augsburg zu bieten - und einen Auswärtssieg des Schlusslichts Dresden.",
-        "paragraphs": [
-          "Im Duell der Formstarken holte Tabellenführer Köln gegen Straubing seinen achten Sieg in Serie. Der 35. DEL-Spieltag hatte auch ein Torfestival in Augsburg zu bieten - und einen Auswärtssieg des Schlusslichts Dresden."
-        ],
-        "link": "https://www.kicker.de/koeln-gewinnt-zum-achten-mal-in-serie-torfestival-in-augsburg-dresden-jubelt-auswaerts-1179810/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-02T21:25:55.000Z"
-      },
-      {
         "id": "https://www.kicker.de/wie-reagiert-koeln-auf-die-abwehr-not-1180259/artikel#omrss",
         "title": "Wie reagiert Köln auf die Abwehr-Not?",
         "summary": "Besonders in der Defensive ist die Personaldecke des 1. FC Köln dünn. Legt der Aufsteiger in diesem Winter noch mal nach? Es gibt Indizien dafür - aber keinen Druck, findet der Trainer.",
@@ -540,17 +551,6 @@
         "link": "https://www.kicker.de/wie-reagiert-koeln-auf-die-abwehr-not-1180259/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-02T21:20:51.000Z"
-      },
-      {
-        "id": "li.3362555",
-        "title": "Darts: Littler stürmt erneut ins WM-Finale",
-        "summary": "Der 18-jährige Weltranglistenerste trifft im Endspiel auf Gary Anderson oder Gian van Veen. Vor allem dank seines starken Scorings sicherte sich Littler Satz für Satz.",
-        "paragraphs": [
-          "Der 18-jährige Weltranglistenerste trifft im Endspiel auf Gary Anderson oder Gian van Veen. Vor allem dank seines starken Scorings sicherte sich Littler Satz für Satz."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/luke-littler-wm-finale-london-li.3362555",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-02T21:10:11.000Z"
       },
       {
         "id": "https://www.kicker.de/die-halbfinals-im-ticker-zum-nachlesen-littler-und-van-veen-brillieren-1180192/artikel#omrss",
