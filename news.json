@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-02T18:21:11.930Z",
+  "updatedAt": "2026-01-02T18:43:16.770Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:b6c3757a-4d99-43cf-b051-c949e55fc8e3}",
+        "title": "North Carolina: FBI vereitelte offenbar Anschlag an Silvester",
+        "summary": "Ein 18-Jähriger hat laut FBI geplant, an Silvester Menschen in North Carolina anzugreifen. Es sei bereits der zweite vereitelte Anschlagsversuch innerhalb weniger Wochen.",
+        "paragraphs": [
+          "Ein 18-Jähriger hat laut FBI geplant, an Silvester Menschen in North Carolina anzugreifen. Es sei bereits der zweite vereitelte Anschlagsversuch innerhalb weniger Wochen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/mint-hill-usa-fbi-terrorangriff-russ-ferguson-pam-bondi",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-02T18:27:31.000Z"
+      },
+      {
         "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
         "title": "Krieg gegen die Ukraine: Ukraine will mehr als 3.000 Kinder aus Dörfern an der Front evakuieren",
         "summary": "Kinder und deren Eltern sollen aus umkämpften Gebieten in Saporischschja und Dnipropetrowsk evakuiert werden. In Charkiw gab es Verletzte bei einem Angriff. Das Liveblog",
@@ -260,9 +271,9 @@
       {
         "id": "https://www.spiegel.de/politik/iran-bietet-offenbar-verkauf-von-fortschrittlichen-waffensystemen-gegen-kryptogeld-an-a-97c6b0b7-4f4a-4de2-b919-331af5105b2a",
         "title": "Iran bietet offenbar Verkauf von fortschrittlichen Waffensystemen gegen Kryptogeld an",
-        "summary": "Drohnen, ballistische Raketen, Kriegsschiffe: Das Regime in Teheran versucht offenbar, die westlichen Sanktionen zu umgehen und mit seinen kriegserprobten Rüstungsgütern Kasse zu machen.",
+        "summary": "Drohnen, ballistische Raketen, Kriegsschiffe: Das Regime in Teheran versucht laut einem Medienbericht, die westlichen Sanktionen zu umgehen und mit seinen kriegserprobten Rüstungsgütern Kasse zu machen.",
         "paragraphs": [
-          "Drohnen, ballistische Raketen, Kriegsschiffe: Das Regime in Teheran versucht offenbar, die westlichen Sanktionen zu umgehen und mit seinen kriegserprobten Rüstungsgütern Kasse zu machen."
+          "Drohnen, ballistische Raketen, Kriegsschiffe: Das Regime in Teheran versucht laut einem Medienbericht, die westlichen Sanktionen zu umgehen und mit seinen kriegserprobten Rüstungsgütern Kasse zu machen."
         ],
         "link": "https://www.spiegel.de/politik/iran-bietet-offenbar-verkauf-von-fortschrittlichen-waffensystemen-gegen-kryptogeld-an-a-97c6b0b7-4f4a-4de2-b919-331af5105b2a#ref=rss",
         "source": "SPIEGEL",
@@ -426,20 +437,31 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/indonesien-sex-ehe-strafgesetzbuch-verbot",
         "source": "ZEIT",
         "publishedAt": "2026-01-02T14:24:33.000Z"
-      },
-      {
-        "id": "li.3362254",
-        "title": "Lateinamerika: Venezuela bietet USA Gespräche über Drogenschmuggel an",
-        "summary": "Das US-Militär setzt weiter Öltanker vor venezolanischen Häfen fest und schießt auf mutmaßliche Drogenkuriere. Präsident Maduro will trotzdem nicht auf sein Amt verzichten – sondern lieber Geschäfte machen.",
-        "paragraphs": [
-          "Das US-Militär setzt weiter Öltanker vor venezolanischen Häfen fest und schießt auf mutmaßliche Drogenkuriere. Präsident Maduro will trotzdem nicht auf sein Amt verzichten – sondern lieber Geschäfte machen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/venezuela-usa-drogenschmuggel-maduro-li.3362254",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-02T13:53:08.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/live-treffen-der-formstarken-in-koeln-fernduell-um-platz-6-1179810/artikel#omrss",
+        "title": "LIVE! Treffen der Formstarken in Köln - Fernduell um Platz 6",
+        "summary": "Im Duell der Formstarken gastiert Straubing (sieben Siege aus den letzten acht Spielen) am Freitagabend im Rahmen des 35. DEL-Spieltags bei Tabellenführer Köln (sieben Siege in Folge, nur eine Niederlage aus den letzten 14 Spielen).",
+        "paragraphs": [
+          "Im Duell der Formstarken gastiert Straubing (sieben Siege aus den letzten acht Spielen) am Freitagabend im Rahmen des 35. DEL-Spieltags bei Tabellenführer Köln (sieben Siege in Folge, nur eine Niederlage aus den letzten 14 Spielen)."
+        ],
+        "link": "https://www.kicker.de/live-treffen-der-formstarken-in-koeln-fernduell-um-platz-6-1179810/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-02T18:32:06.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/so-geht-es-beim-hsv-ohne-kuntz-weiter-1180233/artikel#omrss",
+        "title": "So geht es beim HSV ohne Kuntz weiter",
+        "summary": "Zum Trainingsstart in Hamburg kam der Wintereinbruch und erforderte Improvisationsvermögen. Der kurzfristige Umzug auf den Kunstrasenplatz taugt zum Symbolbild für den HSV im neuen Jahr: Der Aufsteiger muss nach dem Aus von Stefan Kuntz auch auf der Führungsebene außerplanmäßig reagieren.",
+        "paragraphs": [
+          "Zum Trainingsstart in Hamburg kam der Wintereinbruch und erforderte Improvisationsvermögen. Der kurzfristige Umzug auf den Kunstrasenplatz taugt zum Symbolbild für den HSV im neuen Jahr: Der Aufsteiger muss nach dem Aus von Stefan Kuntz auch auf der Führungsebene außerplanmäßig reagieren."
+        ],
+        "link": "https://www.kicker.de/so-geht-es-beim-hsv-ohne-kuntz-weiter-1180233/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-02T18:27:17.000Z"
+      },
       {
         "id": "https://www.kicker.de/fruehstarter-in-muenchen-musiala-legt-vor-allen-anderen-los-1180223/artikel#omrss",
         "title": "Frühstarter in München: Musiala legt vor allen anderen los",
@@ -637,28 +659,6 @@
         "link": "https://www.kicker.de/so-laeuft-die-em-vorbereitung-von-dhb-gruppengegner-oesterreich-1180189/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-02T15:23:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vier-neue-um-thompson-und-hughes-usa-nominieren-olympia-kader-1180168/artikel#omrss",
-        "title": "Vier Neue um Thompson und Hughes: USA nominieren Olympia-Kader",
-        "summary": "Nach Kanada bereits am 31. Dezember haben am Freitag auch die USA ihren Kader für die olympischen Winterspiele in Mailand im Februar 2026 bekanntgegeben. Gerade in der Defensive verfügen die Vereinigten Staaten beinahe schon über ein Überangebot an exzellenten Spielern.",
-        "paragraphs": [
-          "Nach Kanada bereits am 31. Dezember haben am Freitag auch die USA ihren Kader für die olympischen Winterspiele in Mailand im Februar 2026 bekanntgegeben. Gerade in der Defensive verfügen die Vereinigten Staaten beinahe schon über ein Überangebot an exzellenten Spielern."
-        ],
-        "link": "https://www.kicker.de/vier-neue-um-thompson-und-hughes-usa-nominieren-olympia-kader-1180168/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-02T15:07:37.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/farke-das-ist-nicht-wie-auf-der-playstation-1180204/video#omrss",
-        "title": "Farke: \"Das ist nicht wie auf der PlayStation\"",
-        "summary": "Trainer Daniel Farke erklärt die taktische Flexibilität von Leeds United. Der 49-Jährige betont, dass Systemwechsel harte Arbeit erfordern und lobt die Spielintelligenz seiner Mannschaft.",
-        "paragraphs": [
-          "Trainer Daniel Farke erklärt die taktische Flexibilität von Leeds United. Der 49-Jährige betont, dass Systemwechsel harte Arbeit erfordern und lobt die Spielintelligenz seiner Mannschaft."
-        ],
-        "link": "https://www.kicker.de/farke-das-ist-nicht-wie-auf-der-playstation-1180204/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-02T15:05:43.000Z"
       }
     ],
     "edv": [
@@ -753,9 +753,9 @@
       {
         "id": "https://www.heise.de/news/D-Ticket-App-endlich-mit-Apple-Wallet-Support-wenn-man-weiss-wo-11127429.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "D-Ticket-App endlich mit Apple-Wallet-Support – wenn man weiß wo",
-        "summary": "Seit 2023 hatten Nutzer der D-Ticket-App von HanseCom auf Apple-Wallet-Unterstützung gehofft. Nun ist sie da – nach etwas Suchen.",
+        "summary": "Seit 2023 hatten Nutzer der D-Ticket-App von HanseCom auf Apple-Wallet-Unterstützung gehofft. Nun ist sie da. Nach etwas Suchen.",
         "paragraphs": [
-          "Seit 2023 hatten Nutzer der D-Ticket-App von HanseCom auf Apple-Wallet-Unterstützung gehofft. Nun ist sie da – nach etwas Suchen."
+          "Seit 2023 hatten Nutzer der D-Ticket-App von HanseCom auf Apple-Wallet-Unterstützung gehofft. Nun ist sie da. Nach etwas Suchen."
         ],
         "link": "https://www.heise.de/news/D-Ticket-App-endlich-mit-Apple-Wallet-Support-wenn-man-weiss-wo-11127429.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
