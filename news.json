@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-02T13:42:09.288Z",
+  "updatedAt": "2026-01-02T13:54:15.986Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.spiegel.de/wirtschaft/bankschliessfaecher-sicherheit-und-versicherung-was-sie-wissen-sollten-a-82cf2554-ee20-4410-8e54-4898afaaf030",
+        "title": "Bankschließfächer: Sicherheit und Versicherung – was Sie wissen sollten",
+        "summary": "Viele Menschen in Deutschland verwahren ihre Wertsachen im Schließfach. Doch der spektakuläre Einbruch bei der Sparkasse Gelsenkirchen zeigt: Sicherheit hat Grenzen. Worauf Sie achten müssen.",
+        "paragraphs": [
+          "Viele Menschen in Deutschland verwahren ihre Wertsachen im Schließfach. Doch der spektakuläre Einbruch bei der Sparkasse Gelsenkirchen zeigt: Sicherheit hat Grenzen. Worauf Sie achten müssen."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/bankschliessfaecher-sicherheit-und-versicherung-was-sie-wissen-sollten-a-82cf2554-ee20-4410-8e54-4898afaaf030#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-02T13:42:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/nrw-auch-in-halle-in-westfalen-mehrere-schliessfaecher-in-bank-aufgebrochen/100188132.html",
         "title": "NRW: Auch in Halle in Westfalen mehrere Schließfächer in Bank aufgebrochen",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/studie-so-entwickelt-sich-die-deutsche-bevoelkerung-bis-2035/100186031.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-02T09:32:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:90c3b795-ea63-40a8-9265-a019126ab95f}",
-        "title": "US-Zollpolitik: USA senken Zölle auf italienische Pasta",
-        "summary": "Ab diesem Jahr sollte auf Pasta aus Italien eigentlich ein Zoll von 106 Prozent fällig werden. Für mehrere Marken haben die USA einen deutlich geringeren Satz verhängt.",
-        "paragraphs": [
-          "Ab diesem Jahr sollte auf Pasta aus Italien eigentlich ein Zoll von 106 Prozent fällig werden. Für mehrere Marken haben die USA einen deutlich geringeren Satz verhängt."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/usa-zoll-italien-pasta-donald-trump-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T08:57:00.000Z"
       }
     ],
     "politik": [
@@ -467,9 +467,9 @@
       {
         "id": "li.3362099",
         "title": "Skispringen: Wer Materialdoping betreibt, muss mit den harten Folgen leben können",
-        "summary": "Man wird den Eindruck nicht los, dass manche Teams bei der Vierschanzentournee weiterhin versuchen, zu tricksen.",
+        "summary": "Man wird den Eindruck nicht los, dass manche Teams bei der Vierschanzentournee weiterhin versuchen zu tricksen.",
         "paragraphs": [
-          "Man wird den Eindruck nicht los, dass manche Teams bei der Vierschanzentournee weiterhin versuchen, zu tricksen."
+          "Man wird den Eindruck nicht los, dass manche Teams bei der Vierschanzentournee weiterhin versuchen zu tricksen."
         ],
         "link": "https://www.sueddeutsche.de/sport/vierschanzentournee-skispringen-materialdoping-kommentar-li.3362099",
         "source": "Sueddeutsche",
@@ -665,6 +665,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/heise-meets-Die-KI-wird-eher-den-CIO-ersetzen-als-den-Zusteller-11127517.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise meets … „Die KI wird eher den CIO ersetzen als den Zusteller\"",
+        "summary": "Was jüngst in Dänemark geschah, ist erst der Anfang. Früher oder später könnte die Zustellung von Briefen in Deutschland ebenfalls Geschichte sein.",
+        "paragraphs": [
+          "Was jüngst in Dänemark geschah, ist erst der Anfang. Früher oder später könnte die Zustellung von Briefen in Deutschland ebenfalls Geschichte sein."
+        ],
+        "link": "https://www.heise.de/news/heise-meets-Die-KI-wird-eher-den-CIO-ersetzen-als-den-Zusteller-11127517.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-02T13:38:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Apple-Vision-Pro-Werbebudget-um-95-Prozent-gekuerzt-11127425.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Apple Vision Pro: Werbebudget um 95 Prozent gekürzt",
         "summary": "Nach enttäuschenden Verkaufszahlen zieht Apple die Reißleine: Das Unternehmen kürzt das Werbebudget. Es gibt auch Angaben zu Stückzahlen.",
@@ -699,7 +710,7 @@
       },
       {
         "id": "https://www.heise.de/news/Baden-Wuerttemberg-Cyberangriff-auf-Online-Shop-von-THE-LAeND-11127295.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Baden-Württemberg: Cyberangriff auf Online-Shop von „THE LÄND“",
+        "title": "Cyberangriff auf „Fänshop\" von Baden-Württemberg, viele weitere Shops gefährdet",
         "summary": "Cyberangriff auf den Fan-Shop von Baden-Württemberg. Betrüger manipulierten die Bezahlseite, Kundendaten könnten betroffen sein.",
         "paragraphs": [
           "Cyberangriff auf den Fan-Shop von Baden-Württemberg. Betrüger manipulierten die Bezahlseite, Kundendaten könnten betroffen sein."
@@ -872,17 +883,6 @@
         "link": "https://www.heise.de/news/Trump-Mobile-T1-Smartphone-verpasst-Startdatum-11126999.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-02T07:42:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Fuer-Sicherheit-im-Orbit-SpaceX-will-Starlink-Satelliten-absenken-11126985.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Starlink: SpaceX will Orbit der Internetsatelliten merklich absenken",
-        "summary": "SpaceX hat etwa 10.000 Satelliten in eine Umlaufbahn von mehr als 550 km Höhe geschossen. In den kommenden Monaten sollen viele deutlich niedriger kommen.",
-        "paragraphs": [
-          "SpaceX hat etwa 10.000 Satelliten in eine Umlaufbahn von mehr als 550 km Höhe geschossen. In den kommenden Monaten sollen viele deutlich niedriger kommen."
-        ],
-        "link": "https://www.heise.de/news/Fuer-Sicherheit-im-Orbit-SpaceX-will-Starlink-Satelliten-absenken-11126985.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-02T07:27:00.000Z"
       }
     ]
   }
