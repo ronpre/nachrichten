@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-02T05:23:10.401Z",
+  "updatedAt": "2026-01-02T05:40:38.893Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:8febb450-bf13-4ba9-955e-d0c20a90f898}",
+        "title": "Migrationspolitik: CSU fordert Ausreise von syrischen und ukrainischen Geflüchteten",
+        "summary": "Der CSU zufolge entfällt mit dem Ende des Bürgerkrieges der Schutzgrund für Syrer. Ukrainische Männer sollten \"ihren Beitrag zur Verteidigung ihres Landes leisten\".",
+        "paragraphs": [
+          "Der CSU zufolge entfällt mit dem Ende des Bürgerkrieges der Schutzgrund für Syrer. Ukrainische Männer sollten \"ihren Beitrag zur Verteidigung ihres Landes leisten\"."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2026-01/csu-verschaerfungen-migrationspolitik",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-02T05:17:14.000Z"
+      },
+      {
         "id": "{urn:uuid:09bddb79-0767-4921-b8d6-2cdb171317d8}",
         "title": "Brand in Schweizer Skiort: \"Eine der schlimmsten Tragödien\" in der Schweizer Geschichte",
         "summary": "Nach dem tödlichen Feuer in Crans-Montana trauert die Schweiz um viele junge Opfer. Die Ermittlungen laufen. Außerdem: Wer könnte 2026 die deutsche Politik prägen?",
@@ -311,17 +322,6 @@
         "link": "https://www.handelsblatt.com/politik/international/usa-new-yorks-neuer-buergermeister-will-seine-prinzipien-nicht-aufgeben/29669594.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-02T01:11:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:8febb450-bf13-4ba9-955e-d0c20a90f898}",
-        "title": "Migrationspolitik: CSU fordert Ausreise von syrischen und ukrainischen Geflüchteten",
-        "summary": "Der CSU zufolge entfällt mit dem Ende des Bürgerkrieges der Schutzgrund für Syrer. Ukrainische Männer sollten \"ihren Beitrag zur Verteidigung ihres Landes leisten\".",
-        "paragraphs": [
-          "Der CSU zufolge entfällt mit dem Ende des Bürgerkrieges der Schutzgrund für Syrer. Ukrainische Männer sollten \"ihren Beitrag zur Verteidigung ihres Landes leisten\"."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2026-01/csu-verschaerfungen-migrationspolitik",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T01:06:40.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/csu-und-die-fluechtlinge-partei-will-die-meisten-menschen-aus-syrien-abschieben-a-99e9f95a-3a42-4c5b-ba3b-206894b5749b",
@@ -670,7 +670,7 @@
     "edv": [
       {
         "id": "https://www.heise.de/news/Teslas-Bestellung-von-Akku-Kathoden-Statt-2-9-Milliarden-nur-7-000-Dollar-11126643.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Teslas Bestellung von Akku-Kathoden: Statt 2,9 Milliarden nur 7.000 Dollar",
+        "title": "Teslas Kathoden-Auftrag verpufft: Statt 2,9 Milliarden nur 7.000 Dollar",
         "summary": "Teslas Cybertruck braucht Akkuzellen im 4680-Format. Doch wer braucht Cybertrucks? Ausbaden müssen das Zulieferer, zum Beispiel in Korea.",
         "paragraphs": [
           "Teslas Cybertruck braucht Akkuzellen im 4680-Format. Doch wer braucht Cybertrucks? Ausbaden müssen das Zulieferer, zum Beispiel in Korea."
