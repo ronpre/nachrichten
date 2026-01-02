@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-02T13:54:15.986Z",
+  "updatedAt": "2026-01-02T14:05:28.187Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,15 +225,15 @@
     ],
     "politik": [
       {
-        "id": "{urn:uuid:3cb69f62-aaaa-46c2-afbe-621cde82598e}",
-        "title": "Crans-Montana: \"Drei Minuten später ist drinnen alles explodiert\"",
-        "summary": "Nach der Tragödie von Crans-Montana fragen sich Oscar und Adrien: Was, wenn ich auch in den Club reingekommen wäre?",
+        "id": "li.3362254",
+        "title": "Lateinamerika: Venezuela bietet USA Gespräche über Drogenschmuggel an",
+        "summary": "Das US-Militär setzt weiter Öltanker vor venezolanischen Häfen fest und schießt auf mutmaßliche Drogenkuriere. Präsident Maduro will trotzdem nicht auf sein Amt verzichten – sondern lieber Geschäfte machen.",
         "paragraphs": [
-          "Nach der Tragödie von Crans-Montana fragen sich Oscar und Adrien: Was, wenn ich auch in den Club reingekommen wäre?"
+          "Das US-Militär setzt weiter Öltanker vor venezolanischen Häfen fest und schießt auf mutmaßliche Drogenkuriere. Präsident Maduro will trotzdem nicht auf sein Amt verzichten – sondern lieber Geschäfte machen."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/crans-montana-schweiz-skigebiet-sylvester-brand-bar",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T13:31:47.000Z"
+        "link": "https://www.sueddeutsche.de/politik/venezuela-usa-drogenschmuggel-maduro-li.3362254",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-02T13:53:08.000Z"
       },
       {
         "id": "{urn:uuid:a0cce5cb-fd71-4dba-a0a8-b3092ad5d52b}",
@@ -244,7 +244,18 @@
         ],
         "link": "https://www.zeit.de/politik/ausland/2026-01/indonesien-sex-ehe-strafgesetzbuch-verbot",
         "source": "ZEIT",
-        "publishedAt": "2026-01-02T13:28:35.000Z"
+        "publishedAt": "2026-01-02T13:52:11.000Z"
+      },
+      {
+        "id": "{urn:uuid:3cb69f62-aaaa-46c2-afbe-621cde82598e}",
+        "title": "Crans-Montana: \"Drei Minuten später ist drinnen alles explodiert\"",
+        "summary": "Nach der Tragödie von Crans-Montana fragen sich Oscar und Adrien: Was, wenn ich auch in den Club reingekommen wäre?",
+        "paragraphs": [
+          "Nach der Tragödie von Crans-Montana fragen sich Oscar und Adrien: Was, wenn ich auch in den Club reingekommen wäre?"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/crans-montana-schweiz-skigebiet-sylvester-brand-bar",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-02T13:31:47.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/entwurf-fuer-csu-klausur-der-landesgruppe-in-seeon-spd-politiker-stegner-lehnt-csu-abschiebeoffensive-ab-a-2773cc7e-0c20-46b3-8b58-085a8c8d7a34",
@@ -428,20 +439,20 @@
         "link": "https://www.sueddeutsche.de/politik/demonstrationen-demokratie-parteienverbot-muenchen-li.3361460",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-02T10:02:18.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/studie-so-entwickelt-sich-die-deutsche-bevoelkerung-bis-2035/100186031.html",
-        "title": "Studie: Wo die Bevölkerung in Deutschland wächst – und wo nicht",
-        "summary": "Neue Entwicklungen stellen viele Regionen vor harte Proben. Die Zuwanderung gilt dabei als maßgeblicher Faktor für eine stabile Gesamtbevölkerung.",
-        "paragraphs": [
-          "Neue Entwicklungen stellen viele Regionen vor harte Proben. Die Zuwanderung gilt dabei als maßgeblicher Faktor für eine stabile Gesamtbevölkerung."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/studie-so-entwickelt-sich-die-deutsche-bevoelkerung-bis-2035/100186031.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-02T09:32:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/verrueckter-vogel-nicht-zu-fangen-prevc-dominiert-tournee-1180147/artikel#omrss",
+        "title": "\"Verrückter Vogel\" nicht zu fangen: Prevc dominiert Tournee",
+        "summary": "Der Sieger der Vierschanzentournee scheint schon vor dem dritten Wettkampf festzustehen, mit weitem Abstand führt Domen Prevc. Der slowenische Überflieger kommt aus einer echten Skisprung-Dynastie.",
+        "paragraphs": [
+          "Der Sieger der Vierschanzentournee scheint schon vor dem dritten Wettkampf festzustehen, mit weitem Abstand führt Domen Prevc. Der slowenische Überflieger kommt aus einer echten Skisprung-Dynastie."
+        ],
+        "link": "https://www.kicker.de/verrueckter-vogel-nicht-zu-fangen-prevc-dominiert-tournee-1180147/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-02T13:52:49.000Z"
+      },
       {
         "id": "li.3362207",
         "title": "Vierschanzentournee: Der Bundestrainer muss einen Spagat schaffen",
@@ -650,17 +661,6 @@
         "link": "https://www.sueddeutsche.de/sport/profil-nika-prevc-skispringen-familie-prevc-garmisch-partenkirchen-li.3362220",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-02T11:54:29.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bereits-46-bundesliga-einsaetze-kiel-verstaerkt-sich-mit-tohumcu-1180108/artikel#omrss",
-        "title": "Bereits 46 Bundesliga-Einsätze: Kiel verstärkt sich mit Tohumcu",
-        "summary": "Holstein Kiel hat auf dem Transfermarkt zugeschlagen und sich mit Umut Tohumcu verstärkt. Der 21-jährige Antreiber kommt auf Leihbasis von der TSG Hoffenheim.",
-        "paragraphs": [
-          "Holstein Kiel hat auf dem Transfermarkt zugeschlagen und sich mit Umut Tohumcu verstärkt. Der 21-jährige Antreiber kommt auf Leihbasis von der TSG Hoffenheim."
-        ],
-        "link": "https://www.kicker.de/bereits-46-bundesliga-einsaetze-kiel-verstaerkt-sich-mit-tohumcu-1180108/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-02T11:53:02.000Z"
       }
     ],
     "edv": [
