@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-02T15:45:52.518Z",
+  "updatedAt": "2026-01-02T15:54:57.384Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:caa99315-bf3a-4c03-a127-f12a154722a9}",
+        "title": "Elektromobilität: Tesla ist nicht mehr der weltweit größte Hersteller von E-Autos",
+        "summary": "Unter der Trump-Regierung werden Elektroautos nicht mehr subventioniert. Teslas Zahlen brechen ein. Der neue größte E-Autoproduzent ist der chinesische Hersteller BYD.",
+        "paragraphs": [
+          "Unter der Trump-Regierung werden Elektroautos nicht mehr subventioniert. Teslas Zahlen brechen ein. Der neue größte E-Autoproduzent ist der chinesische Hersteller BYD."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/eletromobilitaet-tesla-auslieferung-usa-subventionen",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-02T15:42:27.000Z"
+      },
       {
         "id": "https://www.spiegel.de/wirtschaft/energie-woher-der-deutsche-strom-2025-kam-sechs-trends-und-fakten-a-70c4a250-b973-4335-bb13-04aa7a85a701",
         "title": "Energie: Woher der deutsche Strom 2025 kam – sechs Trends und Fakten",
@@ -56,17 +67,6 @@
         "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-startet-stark-ins-neue-jahr/100188034.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-02T15:02:32.000Z"
-      },
-      {
-        "id": "{urn:uuid:caa99315-bf3a-4c03-a127-f12a154722a9}",
-        "title": "Elektromobilität: Tesla-Auslieferungen sinken nach Ende von US-Elektro-Subventionen",
-        "summary": "Unter der Trump-Regierung werden Elektroautos nicht mehr subventioniert. Das schlägt sich bei Tesla deutlich in den Auslieferungszahlen des letzten Quartals nieder.",
-        "paragraphs": [
-          "Unter der Trump-Regierung werden Elektroautos nicht mehr subventioniert. Das schlägt sich bei Tesla deutlich in den Auslieferungszahlen des letzten Quartals nieder."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/eletromobilitaet-tesla-auslieferung-usa-subventionen",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T14:56:45.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/gold-und-silber-wetten-auf-edelmetalle-verlieren-an-attraktivitaet/100188050.html",
@@ -224,6 +224,17 @@
       }
     ],
     "politik": [
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/migration-scharfe-kritik-an-csu-vorstoss-zu-haerterem-umgang-mit-syrern/100188125.html",
+        "title": "Migration: „Im Anti-Asyl-Wahn gefangen“ – CSU zettelt Streit über syrische Flüchtlinge an",
+        "summary": "Die CSU im Bundestag will die Migrationspolitik verschärfen. Nicht nur SPD und Grüne lehnen die Pläne ab: Selbst in der CDU hinterfragt man die Prioritäten der Schwesterpartei.",
+        "paragraphs": [
+          "Die CSU im Bundestag will die Migrationspolitik verschärfen. Nicht nur SPD und Grüne lehnen die Pläne ab: Selbst in der CDU hinterfragt man die Prioritäten der Schwesterpartei."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/migration-scharfe-kritik-an-csu-vorstoss-zu-haerterem-umgang-mit-syrern/100188125.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-02T15:35:47.000Z"
+      },
       {
         "id": "li.3362494",
         "title": "UN: Israel soll Gesetz zur Todesstrafe fallen lassen",
@@ -424,26 +435,26 @@
         "link": "https://www.handelsblatt.com/politik/international/nahost-israel-greift-mehrere-ziele-im-sueden-des-libanons-an/100136895.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-02T12:06:00.000Z"
-      },
-      {
-        "id": "li.3362226",
-        "title": "Migrationspolitik: CSU verlangt „große Abschiebeoffensive“",
-        "summary": "Die von der Regierung beschlossene Migrationspolitik geht den Christsozialen nicht weit genug: Auf ihrer Klausur in Kloster Seeon wollen sie weitere deutliche Verschärfungen verlangen. Sie fordern unter anderem die Rückkehr der meisten Syrer.",
-        "paragraphs": [
-          "Die von der Regierung beschlossene Migrationspolitik geht den Christsozialen nicht weit genug: Auf ihrer Klausur in Kloster Seeon wollen sie weitere deutliche Verschärfungen verlangen. Sie fordern unter anderem die Rückkehr der meisten Syrer."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/csu-kloster-seeon-migrationspolitik-abschiebeoffensive-dennis-radtke-li.3362226",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-02T11:50:49.000Z"
       }
     ],
     "sport": [
       {
-        "id": "er.e669250",
-        "title": "Fußballhistorie: Deutsch-deutsche Geisterspiele",
-        "summary": "Offiziell gab es nur zwei Fußball-Länderspiele zwischen der BRD und der DDR. In Wahrheit waren es sechs. Über ein fast vergessenes Kapitel des Kalten Krieges im Sport.",
+        "id": "https://www.kicker.de/wird-okpala-zum-zankapfel-waldhof-von-transfer-ueberrascht-1180209/artikel#omrss",
+        "title": "Wird Okpala zum Zankapfel? Waldhof von Transfer überrascht",
+        "summary": "Am Freitag hat der SC Paderborn den Wechsel von Kennedy Okpala offiziell bekanntgegeben - und damit für Verwunderung beim abgebenden SV Waldhof Mannheim gesorgt. Geht der Transfer gar vor das Arbeitsgericht?",
         "paragraphs": [
-          "Offiziell gab es nur zwei Fußball-Länderspiele zwischen der BRD und der DDR. In Wahrheit waren es sechs. Über ein fast vergessenes Kapitel des Kalten Krieges im Sport."
+          "Am Freitag hat der SC Paderborn den Wechsel von Kennedy Okpala offiziell bekanntgegeben - und damit für Verwunderung beim abgebenden SV Waldhof Mannheim gesorgt. Geht der Transfer gar vor das Arbeitsgericht?"
+        ],
+        "link": "https://www.kicker.de/wird-okpala-zum-zankapfel-waldhof-von-transfer-ueberrascht-1180209/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-02T15:48:47.000Z"
+      },
+      {
+        "id": "er.e669250",
+        "title": "Fußballhistorie: Die vergessenen deutsch-deutschen Spiele",
+        "summary": "Offiziell gab es nur zwei Fußball-Länderspiele zwischen der BRD und der DDR. In Wahrheit waren es sechs. Über ein fast verdrängtes Kapitel des Kalten Krieges im Sport.",
+        "paragraphs": [
+          "Offiziell gab es nur zwei Fußball-Länderspiele zwischen der BRD und der DDR. In Wahrheit waren es sechs. Über ein fast verdrängtes Kapitel des Kalten Krieges im Sport."
         ],
         "link": "https://www.sueddeutsche.de/projekte/artikel/sport/ddr-westdeutschland-historie-geisterspiele-sparwasser-beckenbauer-e669250/",
         "source": "Sueddeutsche",
@@ -635,17 +646,6 @@
         "link": "https://www.kicker.de/ein-weiterer-baustein-fuer-ulm-el-zein-kommt-aus-magdeburg-1180115/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-02T12:31:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/passt-hervorragend-paderborn-eist-okpala-aus-mannheim-los-1180120/artikel#omrss",
-        "title": "\"Passt hervorragend\": Paderborn eist Okpala aus Mannheim los",
-        "summary": "Der SC Paderborn hat am Freitag seinen ersten Winter-Neuzugang präsentiert: Kennedy Okpala kommt von Drittligist Waldhof Mannheim, bei dem der Stürmer eine Lücke reißen wird.",
-        "paragraphs": [
-          "Der SC Paderborn hat am Freitag seinen ersten Winter-Neuzugang präsentiert: Kennedy Okpala kommt von Drittligist Waldhof Mannheim, bei dem der Stürmer eine Lücke reißen wird."
-        ],
-        "link": "https://www.kicker.de/passt-hervorragend-paderborn-eist-okpala-aus-mannheim-los-1180120/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-02T12:26:52.000Z"
       },
       {
         "id": "https://www.kicker.de/schalke-gibt-cisse-an-partnerverein-aarau-ab-1180110/artikel#omrss",
