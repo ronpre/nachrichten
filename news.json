@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-02T17:53:51.736Z",
+  "updatedAt": "2026-01-02T18:07:16.542Z",
   "categories": {
     "wirtschaft": [
       {
@@ -11,7 +11,7 @@
         ],
         "link": "https://www.zeit.de/wirtschaft/2026-01/strom-energie-photovoltaik-solar-braunkohle",
         "source": "ZEIT",
-        "publishedAt": "2026-01-02T17:42:36.000Z"
+        "publishedAt": "2026-01-02T17:58:04.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-leicht-im-plus-bei-24539-punkten/100188036.html",
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:f41b826c-4b57-4d0e-84f4-0e353be85c27}",
+        "title": "Hilfsorganisationen in Gaza: \"Was droht, ist noch mehr Chaos und noch mehr Leid\"",
+        "summary": "Viele Menschen in Gaza kämpfen ums Überleben. Jetzt entzieht Israel internationalen Hilfsorganisationen die Lizenz. Die NGO Oxfam warnt vor sozialen Folgen.",
+        "paragraphs": [
+          "Viele Menschen in Gaza kämpfen ums Überleben. Jetzt entzieht Israel internationalen Hilfsorganisationen die Lizenz. Die NGO Oxfam warnt vor sozialen Folgen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/hilfsorganisationen-gaza-israel-lizenz",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-02T17:55:11.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/iran-bietet-offenbar-verkauf-von-fortschrittlichen-waffensystemen-gegen-kryptogeld-an-a-97c6b0b7-4f4a-4de2-b919-331af5105b2a",
         "title": "Iran bietet offenbar Verkauf von fortschrittlichen Waffensystemen gegen Kryptogeld an",
         "summary": "Drohnen, ballistische Raketen, Kriegsschiffe: Das Regime in Teheran versucht offenbar, die westlichen Sanktionen zu umgehen und mit seinen kriegserprobten Rüstungsgütern Kasse zu machen.",
@@ -426,20 +437,20 @@
         "link": "https://www.spiegel.de/politik/deutschland/entwurf-fuer-csu-klausur-der-landesgruppe-in-seeon-spd-politiker-stegner-lehnt-csu-abschiebeoffensive-ab-a-2773cc7e-0c20-46b3-8b58-085a8c8d7a34#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-02T13:25:00.000Z"
-      },
-      {
-        "id": "li.3353907",
-        "title": "Krieg in der Ukraine: Selenskij macht Geheimdienstchef Budanow zu seinem Büroleiter",
-        "summary": "Als Leiter des Militärgeheimdienstes war Budanow für zahlreiche Militäroperationen verantwortlich. Jetzt soll er der wichtigste Mitarbeiter von Präsident Selenskij werden.",
-        "paragraphs": [
-          "Als Leiter des Militärgeheimdienstes war Budanow für zahlreiche Militäroperationen verantwortlich. Jetzt soll er der wichtigste Mitarbeiter von Präsident Selenskij werden."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-budanow-bueroleiter-jermak-li.3353907",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-02T13:11:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/tietz-soll-in-mainz-erst-der-anfang-sein-1180235/artikel#omrss",
+        "title": "Tietz soll in Mainz erst der Anfang sein",
+        "summary": "Pünktlich zum Trainingsauftakt hat sich Mainz 05 die Dienste von Phillip Tietz gesichert. Sportdirektor Niko Bungert kündigt weitere Verstärkungen an. Schlechte Nachrichten gibt es hingegen von Anthony Caci.",
+        "paragraphs": [
+          "Pünktlich zum Trainingsauftakt hat sich Mainz 05 die Dienste von Phillip Tietz gesichert. Sportdirektor Niko Bungert kündigt weitere Verstärkungen an. Schlechte Nachrichten gibt es hingegen von Anthony Caci."
+        ],
+        "link": "https://www.kicker.de/tietz-soll-in-mainz-erst-der-anfang-sein-1180235/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-02T17:54:17.000Z"
+      },
       {
         "id": "https://www.kicker.de/viel-zuversicht-und-jobgarantie-fuer-stamm-gonther-nimmt-arbeit-in-dresden-auf-1180227/artikel#omrss",
         "title": "Viel Zuversicht und Jobgarantie für Stamm: Gonther nimmt Arbeit in Dresden auf",
@@ -464,7 +475,7 @@
       },
       {
         "id": "https://www.kicker.de/deutschland-gegen-daenemark-2026-eishockey-junioren-wm-5179159/spielbericht#omrss",
-        "title": "LIVE! Steigt die U 20 ab? Relegation gegen Dänemark",
+        "title": "LIVE! Relegationsspiel: Deutsche U 20 mit Blitzstart",
         "summary": "Nach dem verlorenen \"Endspiel\" gegen die Schweiz erwartet die deutsche U 20 heute das Relegationsspiel gegen Dänemark. Wie schon 2024 gegen Norwegen (5:4) und ein Jahr später gegen Kasachstan (4:3) geht es nun um den Abstieg. Der Verlierer der Relegation steigt aus der Top-Gruppe ab.",
         "paragraphs": [
           "Nach dem verlorenen \"Endspiel\" gegen die Schweiz erwartet die deutsche U 20 heute das Relegationsspiel gegen Dänemark. Wie schon 2024 gegen Norwegen (5:4) und ein Jahr später gegen Kasachstan (4:3) geht es nun um den Abstieg. Der Verlierer der Relegation steigt aus der Top-Gruppe ab."
@@ -648,17 +659,6 @@
         "link": "https://www.spiegel.de/sport/fussball/fussball-transfer-news-niclas-fuellkrug-zur-ac-mailand-a-cf1dae84-59eb-46f4-b4d6-849c0d9fc7bf#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-02T14:04:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/potenzial-und-perspektive-cottbus-holt-pelzer-aus-hoffenheim-1180145/artikel#omrss",
-        "title": "\"Potenzial und Perspektive\": Cottbus holt Pelzer aus Hoffenheim",
-        "summary": "Der FC Energie Cottbus hat mit Gianluca Pelzer ein 19-jähriges Abwehrtalent unter Vertrag genommen. Pelzer kommt von der TSG Hoffenheim II. Sein Nachname ist in der 3. Liga noch wohlbekannt.",
-        "paragraphs": [
-          "Der FC Energie Cottbus hat mit Gianluca Pelzer ein 19-jähriges Abwehrtalent unter Vertrag genommen. Pelzer kommt von der TSG Hoffenheim II. Sein Nachname ist in der 3. Liga noch wohlbekannt."
-        ],
-        "link": "https://www.kicker.de/potenzial-und-perspektive-cottbus-holt-pelzer-aus-hoffenheim-1180145/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-02T14:02:02.000Z"
       }
     ],
     "edv": [
