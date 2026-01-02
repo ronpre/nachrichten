@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-02T16:18:38.697Z",
+  "updatedAt": "2026-01-02T16:35:21.034Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:ff4aab12-edf2-4ac9-935e-d8f940ab33fe}",
+        "title": "Bankeinbruch in Gelsenkirchen: \"Das waren Schließfächer von Leuten, die 40 Jahre malocht haben\"",
+        "summary": "In Gelsenkirchen haben Einbrecher Tausende Schließfächer aufgebrochen und so Millionen erbeutet. Nun fragen sich viele in der Stadt: Warum lagerte hier so viel Geld?",
+        "paragraphs": [
+          "In Gelsenkirchen haben Einbrecher Tausende Schließfächer aufgebrochen und so Millionen erbeutet. Nun fragen sich viele in der Stadt: Warum lagerte hier so viel Geld?"
+        ],
+        "link": "https://www.zeit.de/geld/2026-01/bankeinbruch-gelsenkirchen-schliessfaecher-einbrecher",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-02T16:28:07.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/goldminenaktien-lohnt-sich-2026-der-einstieg/100185106.html",
         "title": "Edelmetalle: Lohnt sich 2026 der Einstieg in Goldminenaktien?",
@@ -82,9 +93,9 @@
       {
         "id": "li.3362469",
         "title": "Automobilindustrie: Schwache Zahlen für Tesla – BYD größter E-Auto-Produzent der Welt",
-        "summary": "Das Minus bei Tesla beträgt im Jahr 2025 mehr als acht Prozent: Firmenchef Elon Musk sagt aber, das sei gar kein Problem.",
+        "summary": "Der chinesische Konzern eilt bei den Auslieferungen der Konkurrenz von Tesla davon. Firmenchef Elon Musk sagt aber, das sei gar kein Problem.",
         "paragraphs": [
-          "Das Minus bei Tesla beträgt im Jahr 2025 mehr als acht Prozent: Firmenchef Elon Musk sagt aber, das sei gar kein Problem."
+          "Der chinesische Konzern eilt bei den Auslieferungen der Konkurrenz von Tesla davon. Firmenchef Elon Musk sagt aber, das sei gar kein Problem."
         ],
         "link": "https://www.sueddeutsche.de/wirtschaft/tesla-byd-e-autos-li.3362469",
         "source": "Sueddeutsche",
@@ -210,20 +221,73 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/e-auto-in-norwegen-fast-nur-noch-e-autos-bei-neuzulassungen/100188098.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-02T11:54:03.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/dry-january-so-kommen-sie-trocken-aber-voller-genuss-durch-den-januar/100188042.html",
-        "title": "Dry January: So kommen Sie trocken, aber voller Genuss durch den Januar",
-        "summary": "Die umfangreichste Verkostung alkoholfreier Wein- und Schaumwein-Alternativen zeigt die besten Erzeugnisse – und dabei komplexe, präzise und eigenständige Produkte.",
-        "paragraphs": [
-          "Die umfangreichste Verkostung alkoholfreier Wein- und Schaumwein-Alternativen zeigt die besten Erzeugnisse – und dabei komplexe, präzise und eigenständige Produkte."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/dry-january-so-kommen-sie-trocken-aber-voller-genuss-durch-den-januar/100188042.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-02T11:38:02.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/csu-und-die-migration-warum-der-neue-abschiebeplan-fast-alle-zu-verlierern-machen-wuerde-a-624e63ad-2df4-4ec8-bf31-78bb893ebd26",
+        "title": "CSU und die Migration: Warum der neue Abschiebeplan fast alle zu Verlierern machen würde",
+        "summary": "Hunderttausende Syrerinnen und Syrer haben in Deutschland Schutz erhalten. Die CSU will die meisten von ihnen loswerden. Wie das genau funktionieren soll, bleibt ihr Geheimnis.",
+        "paragraphs": [
+          "Hunderttausende Syrerinnen und Syrer haben in Deutschland Schutz erhalten. Die CSU will die meisten von ihnen loswerden. Wie das genau funktionieren soll, bleibt ihr Geheimnis."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/csu-und-die-migration-warum-der-neue-abschiebeplan-fast-alle-zu-verlierern-machen-wuerde-a-624e63ad-2df4-4ec8-bf31-78bb893ebd26#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-02T16:28:00.000Z"
+      },
+      {
+        "id": "li.3362517",
+        "title": "SZ am Abend: Nachrichten vom 2. Januar 2026",
+        "summary": "Was heute wichtig war.",
+        "paragraphs": [
+          "Was heute wichtig war."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/news-li.3362517",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-02T16:27:11.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/news-des-tages-feuer-in-crans-montana-residenz-von-wladimir-putin-donald-trump-und-iran-a-7bc5771c-fedb-4cb1-a2dc-694b4e5faa52",
+        "title": "News des Tages: Feuer in Crans-Montana, Residenz von Wladimir Putin, Donald Trump und Iran",
+        "summary": "Die Brandursache von Crans-Montana scheint klar, doch hätte das Unglück verhindert werden können? Moskau präsentiert angebliche Beweise für einen ukrainischen Drohnenangriff. Und Trump droht Iran. Das ist die Lage am Freitagabend.",
+        "paragraphs": [
+          "Die Brandursache von Crans-Montana scheint klar, doch hätte das Unglück verhindert werden können? Moskau präsentiert angebliche Beweise für einen ukrainischen Drohnenangriff. Und Trump droht Iran. Das ist die Lage am Freitagabend."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-feuer-in-crans-montana-residenz-von-wladimir-putin-donald-trump-und-iran-a-7bc5771c-fedb-4cb1-a2dc-694b4e5faa52#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-02T16:21:00.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/viele-verletzte-nach-raketenangriff-auf-charkiw-a-d9201e31-a8e8-47b1-9f97-27d3842e1b64",
+        "title": "Viele Verletzte nach Raketenangriff auf Charkiw",
+        "summary": "In der zweitgrößten Stadt der Ukraine haben russische Raketen ein Wohngebiet getroffen. Derzeit suchen Rettungskräfte in den Trümmern nach Verletzten. Die Stadt Cherson beklagt ein Opfer nach den jüngsten russischen Angriffen.",
+        "paragraphs": [
+          "In der zweitgrößten Stadt der Ukraine haben russische Raketen ein Wohngebiet getroffen. Derzeit suchen Rettungskräfte in den Trümmern nach Verletzten. Die Stadt Cherson beklagt ein Opfer nach den jüngsten russischen Angriffen."
+        ],
+        "link": "https://www.spiegel.de/politik/viele-verletzte-nach-raketenangriff-auf-charkiw-a-d9201e31-a8e8-47b1-9f97-27d3842e1b64#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-02T16:16:00.000Z"
+      },
+      {
+        "id": "li.3362367",
+        "title": "Obdachlosenhilfe in Berlin: Drei Kältebusse angezündet",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/obdachlosenhilfe-in-berlin-drei-kaeltebusse-angezuendet-li.3362367",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-02T16:14:02.000Z"
+      },
+      {
+        "id": "{urn:uuid:8a9fa2ee-fe52-4433-b200-b1bc332d1619}",
+        "title": "Ukraine: Geheimdienstchef Kyrylo Budanow wird Selenskyjs neuer Stabschef",
+        "summary": "Als Selenskyjs Büroleiter galt Andrij Jermak bis zu seiner Entlassung als zweitmächtigster Mann der Ukraine. HUR-Chef Budanow soll nun sein Nachfolger werden.",
+        "paragraphs": [
+          "Als Selenskyjs Büroleiter galt Andrij Jermak bis zu seiner Entlassung als zweitmächtigster Mann der Ukraine. HUR-Chef Budanow soll nun sein Nachfolger werden."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/ukraine-wolodymyr-selenskyj-kyrylo-budanow-andrij-jermak-nachfolger",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-02T16:10:20.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/migration-scharfe-kritik-an-csu-vorstoss-zu-haerterem-umgang-mit-syrern/100188125.html",
         "title": "Migration: „Im Anti-Asyl-Wahn gefangen“ – CSU zettelt Streit über syrische Flüchtlinge an",
@@ -342,17 +406,6 @@
         "publishedAt": "2026-01-02T13:11:00.000Z"
       },
       {
-        "id": "{urn:uuid:8a9fa2ee-fe52-4433-b200-b1bc332d1619}",
-        "title": "Ukraine: Geheimdienstchef Kyrylo Budanow wird Selenskyjs neuer Stabschef",
-        "summary": "Als Selenskyjs Büroleiter galt Andrij Jermak bis zu seiner Entlassung als zweitmächtigster Mann der Ukraine. HUR-Chef Budanow soll nun sein Nachfolger werden.",
-        "paragraphs": [
-          "Als Selenskyjs Büroleiter galt Andrij Jermak bis zu seiner Entlassung als zweitmächtigster Mann der Ukraine. HUR-Chef Budanow soll nun sein Nachfolger werden."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/ukraine-wolodymyr-selenskyj-kyrylo-budanow-andrij-jermak-nachfolger",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T13:03:19.000Z"
-      },
-      {
         "id": "li.3362082",
         "title": "Proteste gegen Irans Regime: Der gefährliche Aufstand der Kaufleute",
         "summary": "Die desolate Wirtschaftslage treibt iranische Bürger auf die Straßen, der Mittelstand ist in Aufruhr. Das bedroht die Herrschaft der Mullahs mehr als frühere Demonstrationen. Dazu kommt die Drohung der USA und Israels, militärisch zuzuschlagen.",
@@ -380,61 +433,6 @@
         "link": "https://www.sueddeutsche.de/politik/petition-der-polizeigewerkschaft-millionen-unterschriften-fuer-boellerverbot-li.3362413",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-02T12:48:09.000Z"
-      },
-      {
-        "id": "{urn:uuid:4eb40d8f-473e-46ea-9947-e595d7b4ca5b}",
-        "title": "Digitalisierung: Digitalminister Wildberger sieht Fortschritte bei Staatsmodernisierung",
-        "summary": "Weniger Bürokratie, mehr Digitalisierung: Bundesdigitalminister Karsten Wildberger sieht Deutschland auf einem guten Weg. Bald würden Veränderungen für Bürger spürbar.",
-        "paragraphs": [
-          "Weniger Bürokratie, mehr Digitalisierung: Bundesdigitalminister Karsten Wildberger sieht Deutschland auf einem guten Weg. Bald würden Veränderungen für Bürger spürbar."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2026-01/staatsmodernisierung-buerokratie-digitalisierung-karsten-wildberger",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T12:18:06.000Z"
-      },
-      {
-        "id": "{urn:uuid:ddb57787-5e63-43bd-a256-6cdbec60acff}",
-        "title": "Jemen: Konflikt im Jemen droht weiter zu eskalieren",
-        "summary": "Nach einem Bruch zwischen den Partnern Saudi-Arabien und den Vereinigten Emiraten verschärft sich die Lage im Jemen. Die Provinz Hadramaut will Gebiete zurückerobern.",
-        "paragraphs": [
-          "Nach einem Bruch zwischen den Partnern Saudi-Arabien und den Vereinigten Emiraten verschärft sich die Lage im Jemen. Die Provinz Hadramaut will Gebiete zurückerobern."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/jemen-saudi-arabien-vereinigte-arabische-emirate-konflikt-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T12:15:44.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Geheimdienstchef Budanow soll Selenskyjs Stabschef werden",
-        "summary": "Der Militärgeheimdienstler Kyrylo Budanow soll das ukrainische Präsidentenamt leiten. Damit folgt er auf Selenskyjs langjährigen Wegbegleiter Andrij Jermak. Das Liveblog",
-        "paragraphs": [
-          "Der Militärgeheimdienstler Kyrylo Budanow soll das ukrainische Präsidentenamt leiten. Damit folgt er auf Selenskyjs langjährigen Wegbegleiter Andrij Jermak. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T12:14:19.000Z"
-      },
-      {
-        "id": "li.3360643",
-        "title": "Kommunalpolitik: Strategien gegen Schnappatmung",
-        "summary": "Kommunalpolitiker sind der Aggression von rechts außen besonders ausgesetzt. Doch wie man Ängsten und Verschwörungsmythen im Wahlkampf am besten begegnet, lässt sich lernen.",
-        "paragraphs": [
-          "Kommunalpolitiker sind der Aggression von rechts außen besonders ausgesetzt. Doch wie man Ängsten und Verschwörungsmythen im Wahlkampf am besten begegnet, lässt sich lernen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/kommunalpolitik-afd-seminar-narrative-li.3360643",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-02T12:07:19.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/nahost-israel-greift-mehrere-ziele-im-sueden-des-libanons-an/100136895.html",
-        "title": "+++ Nahost +++: Israel greift mehrere Ziele im Süden des Libanons an",
-        "summary": "Netanjahu sieht viele Gemeinsamkeiten mit Trump bei Westjordanland +++ USA und Israel setzen Hamas offenbar Frist für Waffenabgabe+++ Der Newsblog.",
-        "paragraphs": [
-          "Netanjahu sieht viele Gemeinsamkeiten mit Trump bei Westjordanland +++ USA und Israel setzen Hamas offenbar Frist für Waffenabgabe+++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/nahost-israel-greift-mehrere-ziele-im-sueden-des-libanons-an/100136895.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-02T12:06:00.000Z"
       }
     ],
     "sport": [
@@ -485,9 +483,9 @@
       {
         "id": "er.e669250",
         "title": "Fußballhistorie: Die vergessenen deutsch-deutschen Spiele",
-        "summary": "Offiziell gab es nur zwei Fußball-Länderspiele zwischen der BRD und der DDR. In Wahrheit waren es sechs. Über ein fast verdrängtes Kapitel des Kalten Krieges im Sport.",
+        "summary": "Offiziell gab es nur zwei Fußball-Länderspiele zwischen der BRD und der DDR. In Wahrheit waren es sechs. Über ein kurioses Kapitel des Kalten Krieges im Sport.",
         "paragraphs": [
-          "Offiziell gab es nur zwei Fußball-Länderspiele zwischen der BRD und der DDR. In Wahrheit waren es sechs. Über ein fast verdrängtes Kapitel des Kalten Krieges im Sport."
+          "Offiziell gab es nur zwei Fußball-Länderspiele zwischen der BRD und der DDR. In Wahrheit waren es sechs. Über ein kurioses Kapitel des Kalten Krieges im Sport."
         ],
         "link": "https://www.sueddeutsche.de/projekte/artikel/sport/ddr-westdeutschland-historie-geisterspiele-sparwasser-beckenbauer-e669250/",
         "source": "Sueddeutsche",
@@ -661,11 +659,22 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/China-Bilder-sollen-elektromagnetische-Drohnenkatapulte-auf-LKW-zeigen-11127393.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "China: Bilder sollen elektromagnetische Drohnenkatapulte auf LKW zeigen",
+        "summary": "Im chinesischen Internet kursieren Bilder, die mobile Drohnenkatapulte zeigen sollen. Entsprechende Pläne wurden bereits vorgestellt.",
+        "paragraphs": [
+          "Im chinesischen Internet kursieren Bilder, die mobile Drohnenkatapulte zeigen sollen. Entsprechende Pläne wurden bereits vorgestellt."
+        ],
+        "link": "https://www.heise.de/news/China-Bilder-sollen-elektromagnetische-Drohnenkatapulte-auf-LKW-zeigen-11127393.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-02T16:18:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/ratgeber/KI-Suche-Nummern-Fotos-Co-Was-nach-dem-Fahrrad-Diebstahl-helfen-koennte-11127569.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Fahrrad gestohlen: Diese Schritte erhöhen die Chance auf ein Wiederfinden",
-        "summary": "Anzeige erstatten, Technik nutzen, Online‑Marktplätze prüfen: Welche Schritte nach dem Diebstahl wirklich helfen und was viele Betroffene übersehen.",
+        "summary": "Anzeige erstatten, Technik nutzen, Online‑Marktplätze prüfen: Was präventiv getan werden kann und welche Schritte nach dem Diebstahl wirklich helfen.",
         "paragraphs": [
-          "Anzeige erstatten, Technik nutzen, Online‑Marktplätze prüfen: Welche Schritte nach dem Diebstahl wirklich helfen und was viele Betroffene übersehen."
+          "Anzeige erstatten, Technik nutzen, Online‑Marktplätze prüfen: Was präventiv getan werden kann und welche Schritte nach dem Diebstahl wirklich helfen."
         ],
         "link": "https://www.heise.de/ratgeber/KI-Suche-Nummern-Fotos-Co-Was-nach-dem-Fahrrad-Diebstahl-helfen-koennte-11127569.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
@@ -868,17 +877,6 @@
         "link": "https://www.heise.de/hintergrund/Smartpens-Ihr-kurzes-Dasein-und-warum-sie-vom-Markt-verschwunden-sind-11077513.html",
         "source": "c't",
         "publishedAt": "2026-01-02T09:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/CD-Projekt-verkauft-Spieleplattform-GOG-11127077.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CD Projekt verkauft Spieleplattform GOG an Mitgründer",
-        "summary": "Die polnische Spielefirma CD Projekt verkauft ihre Spieleplattform GOG. Käufer ist Michał Kiciński, der beide Firmen mitgegründet hat.",
-        "paragraphs": [
-          "Die polnische Spielefirma CD Projekt verkauft ihre Spieleplattform GOG. Käufer ist Michał Kiciński, der beide Firmen mitgegründet hat."
-        ],
-        "link": "https://www.heise.de/news/CD-Projekt-verkauft-Spieleplattform-GOG-11127077.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-02T08:31:00.000Z"
       }
     ]
   }
