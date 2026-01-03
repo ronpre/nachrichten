@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-03T07:53:06.843Z",
+  "updatedAt": "2026-01-03T08:06:19.365Z",
   "categories": {
     "wirtschaft": [
       {
@@ -11,7 +11,7 @@
         ],
         "link": "https://www.handelsblatt.com/politik/international/venezuela-berichte-ueber-explosionen-in-venezuelas-hauptstadt-caracas/100188255.html",
         "source": "Handelsblatt",
-        "publishedAt": "2026-01-03T07:21:29.000Z"
+        "publishedAt": "2026-01-03T07:50:07.000Z"
       },
       {
         "id": "{urn:uuid:3e962031-b92d-4e3e-a712-df327d8973ce}",
@@ -225,15 +225,15 @@
     ],
     "politik": [
       {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-berichte-ueber-explosionen-in-venezuelas-hauptstadt-caracas/100188255.html",
-        "title": "Venezuela: Berichte über Explosionen in Venezuelas Hauptstadt Caracas",
-        "summary": "Auf Bildern sind Feuer und Rauchwolken zu sehen. Die venezolanische Regierung äußert sich zunächst nicht. Zuletzt waren die Spannungen zwischen den USA und Venezuela eskaliert.",
+        "id": "{urn:uuid:ccfd24ed-0ffe-4e8b-b754-7a38a72c0027}",
+        "title": "Krieg in Gaza: Vereinte Nationen kritisieren israelische Einschränkungen für NGOs",
+        "summary": "Israel hat angekündigt, mehreren NGOs die Zulassung für die Arbeit im Gazastreifen zu entziehen. Kritik kam unter anderem vom UN-Generalsekretär. Das Liveblog",
         "paragraphs": [
-          "Auf Bildern sind Feuer und Rauchwolken zu sehen. Die venezolanische Regierung äußert sich zunächst nicht. Zuletzt waren die Spannungen zwischen den USA und Venezuela eskaliert."
+          "Israel hat angekündigt, mehreren NGOs die Zulassung für die Arbeit im Gazastreifen zu entziehen. Kritik kam unter anderem vom UN-Generalsekretär. Das Liveblog"
         ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-berichte-ueber-explosionen-in-venezuelas-hauptstadt-caracas/100188255.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-03T07:21:29.000Z"
+        "link": "https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-03T08:00:15.000Z"
       },
       {
         "id": "{urn:uuid:bfda7ac5-7c8a-473f-962a-1e1d10d4d8d5}",
@@ -244,7 +244,29 @@
         ],
         "link": "https://www.zeit.de/politik/ausland/2026-01/explosionen-in-venezuelas-hauptstadt-caracas",
         "source": "ZEIT",
-        "publishedAt": "2026-01-03T07:17:28.000Z"
+        "publishedAt": "2026-01-03T07:52:33.000Z"
+      },
+      {
+        "id": "{urn:uuid:9076983d-16a5-41e9-9afc-755cd5928af5}",
+        "title": "Krieg in der Ukraine: Wolodymyr Selenskyj will Verteidigungsminister erneut auswechseln",
+        "summary": "In der Ukraine soll der Vizeregierungschef und Minister für digitale Transformation das Amt des Verteidigungsministers übernehmen. Das Parlament muss dem zustimmen.",
+        "paragraphs": [
+          "In der Ukraine soll der Vizeregierungschef und Minister für digitale Transformation das Amt des Verteidigungsministers übernehmen. Das Parlament muss dem zustimmen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/wolodmyr-selenskyj-verteidigungsminister-wechsel-denys-schmyhal-mychajlo-fedorow",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-03T07:51:29.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/venezuela-berichte-ueber-explosionen-in-venezuelas-hauptstadt-caracas/100188255.html",
+        "title": "Venezuela: Berichte über Explosionen in Venezuelas Hauptstadt Caracas",
+        "summary": "Auf Bildern sind Feuer und Rauchwolken zu sehen. Die venezolanische Regierung äußert sich zunächst nicht. Zuletzt waren die Spannungen zwischen den USA und Venezuela eskaliert.",
+        "paragraphs": [
+          "Auf Bildern sind Feuer und Rauchwolken zu sehen. Die venezolanische Regierung äußert sich zunächst nicht. Zuletzt waren die Spannungen zwischen den USA und Venezuela eskaliert."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/venezuela-berichte-ueber-explosionen-in-venezuelas-hauptstadt-caracas/100188255.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-03T07:50:07.000Z"
       },
       {
         "id": "li.3362622",
@@ -368,17 +390,6 @@
         "publishedAt": "2026-01-02T23:16:40.000Z"
       },
       {
-        "id": "{urn:uuid:9076983d-16a5-41e9-9afc-755cd5928af5}",
-        "title": "Krieg in der Ukraine: Selenskyj will Verteidigungsminister erneut auswechseln",
-        "summary": "Denys Schmyhal war erst im Sommer zum Verteidigungsminister ernannt worden, nun soll Vizepremier Mychajlo Fedorow das Amt übernehmen. Das Parlament muss noch zustimmen.",
-        "paragraphs": [
-          "Denys Schmyhal war erst im Sommer zum Verteidigungsminister ernannt worden, nun soll Vizepremier Mychajlo Fedorow das Amt übernehmen. Das Parlament muss noch zustimmen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/wolodmyr-selenskyj-verteidigungsminister-wechsel-denys-schmyhal-mychajlo-fedorow",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T21:08:20.000Z"
-      },
-      {
         "id": "li.3353907",
         "title": "Krieg in der Ukraine: Selenskij will erneut Verteidigungsminister auswechseln",
         "summary": "Der Präsident, der jüngst wegen mehrerer Korruptionsskandale in seiner Regierung unter Druck stand, kündigt eine Welle von Veränderungen an. Der bisherige Verteidigungsminister Denys Schmyhal hatte das Amt erst im Sommer übernommen.",
@@ -430,17 +441,6 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/mint-hill-usa-fbi-terrorangriff-russ-ferguson-pam-bondi",
         "source": "ZEIT",
         "publishedAt": "2026-01-02T18:49:11.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Ukraine will mehr als 3.000 Kinder aus Dörfern an der Front evakuieren",
-        "summary": "Kinder und deren Eltern sollen aus umkämpften Gebieten in Saporischschja und Dnipropetrowsk evakuiert werden. In Charkiw gab es Verletzte bei einem Angriff. Das Liveblog",
-        "paragraphs": [
-          "Kinder und deren Eltern sollen aus umkämpften Gebieten in Saporischschja und Dnipropetrowsk evakuiert werden. In Charkiw gab es Verletzte bei einem Angriff. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T18:48:22.000Z"
       }
     ],
     "sport": [
