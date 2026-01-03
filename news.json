@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-03T12:23:11.740Z",
+  "updatedAt": "2026-01-03T12:46:18.570Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,17 +225,6 @@
     ],
     "politik": [
       {
-        "id": "{urn:uuid:1078b963-a70c-443a-8b57-1aea3681dfe9}",
-        "title": "US-Angriff auf Venezuela: Russland und Iran verurteilen US-Militäreinsatz in Venezuela",
-        "summary": "Russland wertet den US-Angriff als \"Akt bewaffneter Aggression\", der Iran sieht darin eine \"eklatante Verletzung\" nationaler Souveränität. In Berlin tagt der Krisenstab.",
-        "paragraphs": [
-          "Russland wertet den US-Angriff als \"Akt bewaffneter Aggression\", der Iran sieht darin eine \"eklatante Verletzung\" nationaler Souveränität. In Berlin tagt der Krisenstab."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-usa-angriff-reaktionen-russland-iran-eu",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-03T12:07:13.000Z"
-      },
-      {
         "id": "{urn:uuid:7620dedd-eaa8-4101-a376-31388feb7a41}",
         "title": "Festnahme von Nicolás Maduro: Venezuelas Vizepräsidentin fordert Lebenszeichen von Maduro",
         "summary": "Delcy Rodríguez fordert von den USA Informationen über den Verbleib Maduros und dessen Frau. Ihre Regierung beantragte zudem eine Sondersitzung des UN-Sicherheitsrats.",
@@ -244,7 +233,18 @@
         ],
         "link": "https://www.zeit.de/politik/ausland/2026-01/festnahme-nicolas-maduro-reaktion-venezuela-un-sitzung",
         "source": "ZEIT",
-        "publishedAt": "2026-01-03T12:04:54.000Z"
+        "publishedAt": "2026-01-03T12:18:56.000Z"
+      },
+      {
+        "id": "{urn:uuid:1078b963-a70c-443a-8b57-1aea3681dfe9}",
+        "title": "US-Angriff auf Venezuela: Russland und Iran verurteilen US-Militäreinsatz in Venezuela",
+        "summary": "Russland wertet den US-Angriff als \"Akt bewaffneter Aggression\", der Iran sieht darin eine \"eklatante Verletzung\" nationaler Souveränität. In Berlin tagt der Krisenstab.",
+        "paragraphs": [
+          "Russland wertet den US-Angriff als \"Akt bewaffneter Aggression\", der Iran sieht darin eine \"eklatante Verletzung\" nationaler Souveränität. In Berlin tagt der Krisenstab."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-usa-angriff-reaktionen-russland-iran-eu-gxe",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-03T12:07:13.000Z"
       },
       {
         "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
@@ -446,6 +446,17 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/treffer-am-knoechel-romulo-muss-rb-training-vorzeitig-abbrechen-1180387/artikel#omrss",
+        "title": "Treffer am Knöchel: Romulo muss RB-Training vorzeitig abbrechen",
+        "summary": "Am zweiten Tag des Leipziger Trainingslagers in Portugal gibt es die ersten neuen Sorgenfalten auf der Stirn von Cheftrainer Ole Werner: Stürmer Romulo musste das Training am Samstag angeschlagen abbrechen.",
+        "paragraphs": [
+          "Am zweiten Tag des Leipziger Trainingslagers in Portugal gibt es die ersten neuen Sorgenfalten auf der Stirn von Cheftrainer Ole Werner: Stürmer Romulo musste das Training am Samstag angeschlagen abbrechen."
+        ],
+        "link": "https://www.kicker.de/treffer-am-knoechel-romulo-muss-rb-training-vorzeitig-abbrechen-1180387/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-03T12:35:30.000Z"
+      },
       {
         "id": "https://www.kicker.de/live-kransjka-gora-rast-vorne-goggia-eroeffnet-lauf-2-furios-1179858/artikel#omrss",
         "title": "LIVE! Kransjka Gora: Rast vorne - Goggia eröffnet Lauf 2 furios",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/fehlende-perspektive-rochelt-wechselt-auf-leihbasis-zur-arminia-1180336/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-03T09:41:26.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nach-viereinhalb-jahren-kiel-holt-meffert-zurueck-1179370/artikel#omrss",
-        "title": "Nach viereinhalb Jahren: Kiel holt Meffert zurück",
-        "summary": "Bei Holstein Kiel reifte Jonas Meffert zum Führungsspieler, ehe er die vergangenen viereinhalb Jahre für den Hamburger SV spielte. Nun kehrt der 31-Jährige an die Förde zurück.",
-        "paragraphs": [
-          "Bei Holstein Kiel reifte Jonas Meffert zum Führungsspieler, ehe er die vergangenen viereinhalb Jahre für den Hamburger SV spielte. Nun kehrt der 31-Jährige an die Förde zurück."
-        ],
-        "link": "https://www.kicker.de/nach-viereinhalb-jahren-kiel-holt-meffert-zurueck-1179370/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-03T09:34:09.000Z"
       }
     ],
     "edv": [
