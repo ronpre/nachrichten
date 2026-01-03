@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-03T08:36:06.379Z",
+  "updatedAt": "2026-01-03T08:48:30.339Z",
   "categories": {
     "wirtschaft": [
       {
@@ -233,7 +233,29 @@
         ],
         "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-caracas-staatschef-nicolas-maduro-notstand",
         "source": "ZEIT",
-        "publishedAt": "2026-01-03T08:10:06.000Z"
+        "publishedAt": "2026-01-03T08:45:44.000Z"
+      },
+      {
+        "id": "{urn:uuid:bfda7ac5-7c8a-473f-962a-1e1d10d4d8d5}",
+        "title": "Venezuela: Explosionen in Venezuelas Hauptstadt Caracas",
+        "summary": "In der venezolanischen Hauptstadt hat es Explosionen gegeben, Teile der Stadt sind ohne Strom. Mehrere US-Medien berichten, Donald Trump habe einen Angriff genehmigt.",
+        "paragraphs": [
+          "In der venezolanischen Hauptstadt hat es Explosionen gegeben, Teile der Stadt sind ohne Strom. Mehrere US-Medien berichten, Donald Trump habe einen Angriff genehmigt."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/explosionen-in-venezuelas-hauptstadt-caracas",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-03T08:38:56.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/suedamerika-venezuela-meldet-us-angriffe-und-ruft-notstand-aus/100188255.html",
+        "title": "Südamerika: Venezuela meldet US-Angriffe – Berichte über Explosionen in Venezuelas Hauptstadt Caracas",
+        "summary": "Über Monate haben die Vereinigten Staaten ihre Militärpräsenz in der Karibik erhöht. Jetzt greift das US-Militär offenbar Ziele in Venezuela an. Die Regierung in Caracas gibt sich kämpferisch.",
+        "paragraphs": [
+          "Über Monate haben die Vereinigten Staaten ihre Militärpräsenz in der Karibik erhöht. Jetzt greift das US-Militär offenbar Ziele in Venezuela an. Die Regierung in Caracas gibt sich kämpferisch."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/suedamerika-venezuela-meldet-us-angriffe-und-ruft-notstand-aus/100188255.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-03T08:27:55.000Z"
       },
       {
         "id": "{urn:uuid:ccfd24ed-0ffe-4e8b-b754-7a38a72c0027}",
@@ -258,17 +280,6 @@
         "publishedAt": "2026-01-03T07:58:44.000Z"
       },
       {
-        "id": "{urn:uuid:bfda7ac5-7c8a-473f-962a-1e1d10d4d8d5}",
-        "title": "Venezuela: Explosionen in Venezuelas Hauptstadt Caracas",
-        "summary": "Über der venezolanischen Hauptstadt Caracas steigt Rauch auf. Berichten zufolge hat es Explosionen gegeben. In einigen Teilen der Stadt gibt es keinen Strom mehr.",
-        "paragraphs": [
-          "Über der venezolanischen Hauptstadt Caracas steigt Rauch auf. Berichten zufolge hat es Explosionen gegeben. In einigen Teilen der Stadt gibt es keinen Strom mehr."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/explosionen-in-venezuelas-hauptstadt-caracas",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-03T07:52:33.000Z"
-      },
-      {
         "id": "{urn:uuid:9076983d-16a5-41e9-9afc-755cd5928af5}",
         "title": "Krieg in der Ukraine: Wolodymyr Selenskyj will Verteidigungsminister erneut auswechseln",
         "summary": "In der Ukraine soll der Vizeregierungschef und Minister für digitale Transformation das Amt des Verteidigungsministers übernehmen. Das Parlament muss dem zustimmen.",
@@ -280,17 +291,6 @@
         "publishedAt": "2026-01-03T07:51:29.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-berichte-ueber-explosionen-in-venezuelas-hauptstadt-caracas/100188255.html",
-        "title": "Venezuela: Berichte über Explosionen in Venezuelas Hauptstadt Caracas",
-        "summary": "Auf Bildern sind Feuer und Rauchwolken zu sehen. Die venezolanische Regierung ruft den Notstand aus. Zuletzt waren die Spannungen zwischen den USA und Venezuela eskaliert.",
-        "paragraphs": [
-          "Auf Bildern sind Feuer und Rauchwolken zu sehen. Die venezolanische Regierung ruft den Notstand aus. Zuletzt waren die Spannungen zwischen den USA und Venezuela eskaliert."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-berichte-ueber-explosionen-in-venezuelas-hauptstadt-caracas/100188255.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-03T07:50:07.000Z"
-      },
-      {
         "id": "li.3362622",
         "title": "Explosionen in Caracas: USA haben Medienberichten zufolge Venezuela angegriffen - Maduro ruft Notstand aus",
         "summary": "Über der Stadt sind in der Nacht auf Samstag Rauchwolken zu sehen. Teilweise gibt es keinen Strom. Die venezolanische Regierung spricht von einem Angriff auf das Land.",
@@ -300,6 +300,17 @@
         "link": "https://www.sueddeutsche.de/politik/venezuela-li.3362622",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-03T06:51:13.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/ukraine-krieg-marie-agnes-strack-zimmermann-und-roderich-kiesewetter-halten-bundeswehrbeteiligung-nach-friedensplan-fuer-moeglich-a-c7ad4acf-859f-41e1-8582-a581fea033a0",
+        "title": "Ukraine-Krieg: Marie-Agnes Strack-Zimmermann und Roderich Kiesewetter halten Bundeswehrbeteiligung nach Friedensplan für möglich",
+        "summary": "Kommende Woche treffen sich Verbündete der Ukraine in Paris. EU-Politikerin Strack-Zimmermann und CDU-Verteidigungsexperte Kiesewetter fordern ein starkes Signal – auch für die Zeit nach einem Friedensschluss.",
+        "paragraphs": [
+          "Kommende Woche treffen sich Verbündete der Ukraine in Paris. EU-Politikerin Strack-Zimmermann und CDU-Verteidigungsexperte Kiesewetter fordern ein starkes Signal – auch für die Zeit nach einem Friedensschluss."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/ukraine-krieg-marie-agnes-strack-zimmermann-und-roderich-kiesewetter-halten-bundeswehrbeteiligung-nach-friedensplan-fuer-moeglich-a-c7ad4acf-859f-41e1-8582-a581fea033a0#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-03T06:21:00.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/news-deutschlands-rolle-in-der-ukraine-csu-in-seeon-linken-chef-jan-van-aken-a-f3649da5-825e-45fd-8b1e-d002e0cb4cc9",
@@ -430,17 +441,6 @@
         "link": "https://www.sueddeutsche.de/politik/jemen-separatisten-kuendigen-referendum-an-li.3362551",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-02T20:01:33.000Z"
-      },
-      {
-        "id": "{urn:uuid:2828ffd6-8644-4f9d-80a0-7d1ad26930ad}",
-        "title": "Rechtsextremismus: AfD nimmt Klage gegen das Land Brandenburg zurück",
-        "summary": "Die AfD Brandenburg hat eine Klage zurückgezogen. Die Partei ist gesichert rechtsextremistisch, die Klage gegen den Status als Verdachtsfall hätte sich also \"erledigt\".",
-        "paragraphs": [
-          "Die AfD Brandenburg hat eine Klage zurückgezogen. Die Partei ist gesichert rechtsextremistisch, die Klage gegen den Status als Verdachtsfall hätte sich also \"erledigt\"."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2026-01/rechtsextremismus-afd-brandenburg-rene-springer",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-02T19:06:44.000Z"
       }
     ],
     "sport": [
@@ -667,6 +667,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/CES-2026-KI-auf-der-Sinnsuche-11127621.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: CES 2026: KI auf der Sinnsuche",
+        "summary": "Ab dem 6. Januar ist Las Vegas wieder der Nabel der Technikwelt. Ohne KI geht auf der CES nichts mehr, ob im Haushaltsroboter oder Elektroauto.",
+        "paragraphs": [
+          "Ab dem 6. Januar ist Las Vegas wieder der Nabel der Technikwelt. Ohne KI geht auf der CES nichts mehr, ob im Haushaltsroboter oder Elektroauto."
+        ],
+        "link": "https://www.heise.de/news/CES-2026-KI-auf-der-Sinnsuche-11127621.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-03T08:30:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Developer-Haeppchen-fuers-Wochenende-Kleinere-News-der-Woche-11127281.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Developer-Häppchen fürs Wochenende – Kleinere News der Woche",
         "summary": "Kleine, aber interessante Meldungshäppchen vom News-Buffet zu GitHub Actions, Microsoft, Symfony, Infineon, EventMesh und Nvidia.",
@@ -874,17 +885,6 @@
         "link": "https://www.heise.de/news/Astronomie-Erstmals-praezise-Masse-eines-einsamen-Exoplaneten-ermittelt-11127291.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-02T12:50:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Baden-Wuerttemberg-Cyberangriff-auf-Online-Shop-von-THE-LAeND-11127295.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Cyberangriff auf „Fänshop\" von Baden-Württemberg, viele weitere Shops gefährdet",
-        "summary": "Cyberangriff auf den Fan-Shop von Baden-Württemberg. Betrüger manipulierten die Bezahlseite, Kundendaten könnten betroffen sein.",
-        "paragraphs": [
-          "Cyberangriff auf den Fan-Shop von Baden-Württemberg. Betrüger manipulierten die Bezahlseite, Kundendaten könnten betroffen sein."
-        ],
-        "link": "https://www.heise.de/news/Baden-Wuerttemberg-Cyberangriff-auf-Online-Shop-von-THE-LAeND-11127295.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-02T12:45:00.000Z"
       }
     ]
   }
