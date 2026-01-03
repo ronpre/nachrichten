@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-03T09:22:45.912Z",
+  "updatedAt": "2026-01-03T09:36:09.746Z",
   "categories": {
     "wirtschaft": [
       {
@@ -14,13 +14,13 @@
         "publishedAt": "2026-01-03T08:49:36.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-us-sender-trump-hat-angriff-in-venezuela-angeordnet/100188261.html",
-        "title": "+++ Venezuela +++: Maduro ruft Notstand aus – US-Sender: Trump hat Angriff in Venezuela angeordnet",
+        "id": "https://www.handelsblatt.com/politik/international/venezuela-us-medien-trump-hat-angriff-in-venezuela-angeordnet/100188261.html",
+        "title": "+++ Venezuela +++: Maduro ruft Notstand aus – US-Medien: Trump hat Angriff in Venezuela angeordnet",
         "summary": "Berichte über Explosionen in Venezuelas Hauptstadt Caracas +++ Offenbar kein Strom im südlichen Teil der Stadt +++ Der Newsblog.",
         "paragraphs": [
           "Berichte über Explosionen in Venezuelas Hauptstadt Caracas +++ Offenbar kein Strom im südlichen Teil der Stadt +++ Der Newsblog."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-us-sender-trump-hat-angriff-in-venezuela-angeordnet/100188261.html",
+        "link": "https://www.handelsblatt.com/politik/international/venezuela-us-medien-trump-hat-angriff-in-venezuela-angeordnet/100188261.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-03T07:58:44.000Z"
       },
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:bfda7ac5-7c8a-473f-962a-1e1d10d4d8d5}",
+        "title": "Venezuela: Explosionen in Caracas, US-Medien berichten von US-Militäreinsatz",
+        "summary": "In der venezolanischen Hauptstadt hat es Explosionen gegeben, der Präsident beschuldigt die USA. Mehrere US-Medien berichten, Donald Trump habe einen Angriff genehmigt.",
+        "paragraphs": [
+          "In der venezolanischen Hauptstadt hat es Explosionen gegeben, der Präsident beschuldigt die USA. Mehrere US-Medien berichten, Donald Trump habe einen Angriff genehmigt."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/explosionen-in-venezuelas-hauptstadt-caracas",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-03T09:22:15.000Z"
+      },
+      {
+        "id": "li.3362622",
+        "title": "Explosionen in Caracas: USA haben Venezuela angegriffen - Maduro ruft Notstand aus",
+        "summary": "Über der Hauptstadt sind in der Nacht auf Samstag Rauchwolken zu sehen. Teilweise gibt es keinen Strom. Die venezolanische Regierung spricht von einem Angriff auf das Land.",
+        "paragraphs": [
+          "Über der Hauptstadt sind in der Nacht auf Samstag Rauchwolken zu sehen. Teilweise gibt es keinen Strom. Die venezolanische Regierung spricht von einem Angriff auf das Land."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/venezuela-li.3362622",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-03T09:20:00.000Z"
+      },
+      {
         "id": "{urn:uuid:e3833ef8-a8fd-4b11-b004-5d324caec343}",
         "title": "Ukrainekarte aktuell: Russische Kräfte rücken in der Region Saporischschja vor",
         "summary": "Russische Streitkräfte haben die ukrainische Verteidigungslinie westlich der Stadt Orichiw erreicht. Ukrainische Drohnen trafen mehrere russische Militärziele.",
@@ -247,17 +269,6 @@
         "publishedAt": "2026-01-03T08:49:36.000Z"
       },
       {
-        "id": "{urn:uuid:bfda7ac5-7c8a-473f-962a-1e1d10d4d8d5}",
-        "title": "Venezuela: Explosionen in Venezuelas Hauptstadt Caracas",
-        "summary": "In der venezolanischen Hauptstadt hat es Explosionen gegeben, Teile der Stadt sind ohne Strom. Mehrere US-Medien berichten, Donald Trump habe einen Angriff genehmigt.",
-        "paragraphs": [
-          "In der venezolanischen Hauptstadt hat es Explosionen gegeben, Teile der Stadt sind ohne Strom. Mehrere US-Medien berichten, Donald Trump habe einen Angriff genehmigt."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/explosionen-in-venezuelas-hauptstadt-caracas",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-03T08:47:06.000Z"
-      },
-      {
         "id": "{urn:uuid:92c64b9c-99b8-4faf-a136-6d8c21a68afb}",
         "title": "Explosionen in Caracas: Venezuelas Präsident ruft nationalen Notstand aus",
         "summary": "Nicolás Maduro wirft den USA einen \"schweren militärischen Angriff\" vor. Der Präsident ordnete die Mobilisierung der Bevölkerung an.",
@@ -267,17 +278,6 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-caracas-staatschef-nicolas-maduro-notstand",
         "source": "ZEIT",
         "publishedAt": "2026-01-03T08:45:44.000Z"
-      },
-      {
-        "id": "li.3362622",
-        "title": "Explosionen in Caracas: USA haben Venezuela angegriffen - Maduro ruft Notstand aus",
-        "summary": "Über der Hauptstadt sind in der Nacht auf Samstag Rauchwolken zu sehen. Teilweise gibt es keinen Strom. Die venezolanische Regierung spricht von einem Angriff auf das Land.",
-        "paragraphs": [
-          "Über der Hauptstadt sind in der Nacht auf Samstag Rauchwolken zu sehen. Teilweise gibt es keinen Strom. Die venezolanische Regierung spricht von einem Angriff auf das Land."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/venezuela-li.3362622",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-03T08:42:00.000Z"
       },
       {
         "id": "{urn:uuid:ccfd24ed-0ffe-4e8b-b754-7a38a72c0027}",
@@ -291,13 +291,13 @@
         "publishedAt": "2026-01-03T08:00:15.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-us-sender-trump-hat-angriff-in-venezuela-angeordnet/100188261.html",
-        "title": "+++ Venezuela +++: Maduro ruft Notstand aus – US-Sender: Trump hat Angriff in Venezuela angeordnet",
+        "id": "https://www.handelsblatt.com/politik/international/venezuela-us-medien-trump-hat-angriff-in-venezuela-angeordnet/100188261.html",
+        "title": "+++ Venezuela +++: Maduro ruft Notstand aus – US-Medien: Trump hat Angriff in Venezuela angeordnet",
         "summary": "Berichte über Explosionen in Venezuelas Hauptstadt Caracas +++ Offenbar kein Strom im südlichen Teil der Stadt +++ Der Newsblog.",
         "paragraphs": [
           "Berichte über Explosionen in Venezuelas Hauptstadt Caracas +++ Offenbar kein Strom im südlichen Teil der Stadt +++ Der Newsblog."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-us-sender-trump-hat-angriff-in-venezuela-angeordnet/100188261.html",
+        "link": "https://www.handelsblatt.com/politik/international/venezuela-us-medien-trump-hat-angriff-in-venezuela-angeordnet/100188261.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-03T07:58:44.000Z"
       },
