@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-01-03T15:55:40.406Z",
+  "updatedAt": "2026-01-03T16:06:57.246Z",
   "categories": {
     "wirtschaft": [
       {
         "id": "https://www.handelsblatt.com/politik/international/nahost-das-regime-im-iran-steht-vor-seiner-groessten-herausforderung/100188063.html",
-        "title": "Nahost: „Könnte eng werden für die Hardliner“ - Irans Regime unter Druck von Trump, Israel und der Bevölkerung",
+        "title": "Nahost: „Könnte eng werden für die Hardliner“ – Irans Regime unter Druck von Trump, Israel und der Bevölkerung",
         "summary": "Und noch ein Regime wankt: Die Wirtschaftskrise im Iran spitzt sich zu. Landesweit gegen Zehntausende auf die Straße. Finden die Mullahs noch einen Ausweg?",
         "paragraphs": [
           "Und noch ein Regime wankt: Die Wirtschaftskrise im Iran spitzt sich zu. Landesweit gegen Zehntausende auf die Straße. Finden die Mullahs noch einen Ausweg?"
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "USA und Venezuela: Oppositionsführerin Maria Corina Machado setzt auf Machtwechsel",
+        "summary": "Die USA haben Venezuela angegriffen. Staatschef Nicolás Maduro wird laut Trump nach New York gebracht. Er ist dort wegen Drogenschmuggels angeklagt. Das Liveblog",
+        "paragraphs": [
+          "Die USA haben Venezuela angegriffen. Staatschef Nicolás Maduro wird laut Trump nach New York gebracht. Er ist dort wegen Drogenschmuggels angeklagt. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-03T15:51:51.000Z"
+      },
+      {
         "id": "{urn:uuid:612a50b5-9ac0-473c-b403-7d2f58875f51}",
         "title": "US-Militäreinsatz in Venezuela: Das also versteht Donald Trump unter Großmachtpolitik",
         "summary": "Die US-Militäraktion gegen Venezuela und dessen Präsidenten ist nicht nur schlicht völkerrechtswidrig. Donald Trumps Vorgehen birgt weltpolitisch unüberschaubare Risiken.",
@@ -237,7 +248,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/nahost-das-regime-im-iran-steht-vor-seiner-groessten-herausforderung/100188063.html",
-        "title": "Nahost: „Könnte eng werden für die Hardliner“ - Irans Regime unter Druck von Trump, Israel und der Bevölkerung",
+        "title": "Nahost: „Könnte eng werden für die Hardliner“ – Irans Regime unter Druck von Trump, Israel und der Bevölkerung",
         "summary": "Und noch ein Regime wankt: Die Wirtschaftskrise im Iran spitzt sich zu. Landesweit gegen Zehntausende auf die Straße. Finden die Mullahs noch einen Ausweg?",
         "paragraphs": [
           "Und noch ein Regime wankt: Die Wirtschaftskrise im Iran spitzt sich zu. Landesweit gegen Zehntausende auf die Straße. Finden die Mullahs noch einen Ausweg?"
@@ -291,17 +302,6 @@
         "publishedAt": "2026-01-03T14:59:43.000Z"
       },
       {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "USA und Venezuela: Nicolás Maduro wird laut Trump nach New York gebracht",
-        "summary": "Die USA haben Venezuela angegriffen. Staatschef Maduro soll in New York der Prozess gemacht werden. Er befindet sich Trump zufolge auf einem Kriegsschiff. Das Liveblog",
-        "paragraphs": [
-          "Die USA haben Venezuela angegriffen. Staatschef Maduro soll in New York der Prozess gemacht werden. Er befindet sich Trump zufolge auf einem Kriegsschiff. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-03T14:52:12.000Z"
-      },
-      {
         "id": "li.3352720",
         "title": "USA: US-Justizministerin: Maduro in New York angeklagt",
         "summary": "Der gefangen genommene venezolanische Präsident soll sich in New York vor Gericht verantworten, teilt US-Justizministerin Pam Bondi mit. Maduro und seiner Ehefrau wird unter anderem „Verschwörung zum Kokainimport“ vorgeworfen.",
@@ -337,9 +337,9 @@
       {
         "id": "{urn:uuid:3b73280a-6a5f-46a3-ab55-1a5202bdb705}",
         "title": "Angriffe in Caracas: Welches Ziel verfolgt Trump?",
-        "summary": "Die USA haben im Zuge eines Militärschlags Venezuelas Präsident Nicolás Maduro gefangengenommen. Folgt nun ein Regimewechsel? Versinkt das Land im Chaos?",
+        "summary": "Die USA haben im Zuge eines Militärschlags Nicolás Maduro gefangengenommen. Folgt nun ein Regimewechsel in Venezuela? Versinkt das Land im Chaos?",
         "paragraphs": [
-          "Die USA haben im Zuge eines Militärschlags Venezuelas Präsident Nicolás Maduro gefangengenommen. Folgt nun ein Regimewechsel? Versinkt das Land im Chaos?"
+          "Die USA haben im Zuge eines Militärschlags Nicolás Maduro gefangengenommen. Folgt nun ein Regimewechsel in Venezuela? Versinkt das Land im Chaos?"
         ],
         "link": "https://www.zeit.de/politik/ausland/2026-01/angriffe-caracas-venezuela-explosion-usa-eskalation",
         "source": "ZEIT",
@@ -446,6 +446,39 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/verstaerkung-im-aufstiegskampf-verl-eist-foti-aus-dortmund-los-1180445/artikel#omrss",
+        "title": "Verstärkung im Aufstiegskampf: Verl eist Foti aus Dortmund los",
+        "summary": "Pünktlich zum Start im Trainingslager hat Drittliga-Aufstiegskandidat SC Verl seinen ersten Winter-Neuzugang präsentiert: Von der Dortmunder Zweitvertretung kommt Antonio Foti.",
+        "paragraphs": [
+          "Pünktlich zum Start im Trainingslager hat Drittliga-Aufstiegskandidat SC Verl seinen ersten Winter-Neuzugang präsentiert: Von der Dortmunder Zweitvertretung kommt Antonio Foti."
+        ],
+        "link": "https://www.kicker.de/verstaerkung-im-aufstiegskampf-verl-eist-foti-aus-dortmund-los-1180445/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-03T16:01:41.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/sport/wintersport/vierschanzentournee-in-innsbruck-domen-prevc-schwaechelt-philipp-raimund-kracht-in-bande-a-71b96cab-ebbd-405a-9bc8-cc30ac4459d4",
+        "title": "Vierschanzentournee in Innsbruck: Domen Prevc schwächelt, Philipp Raimund kracht in Bande",
+        "summary": "Die Vierschanzentournee schien nach zwei Springen schon entschieden, doch in der Qualifikation am Berg Isel erfuhr der Führende Domen Prevc, was noch alles schiefgehen kann. Philipp Raimund sorgte für eine Schrecksekunde.",
+        "paragraphs": [
+          "Die Vierschanzentournee schien nach zwei Springen schon entschieden, doch in der Qualifikation am Berg Isel erfuhr der Führende Domen Prevc, was noch alles schiefgehen kann. Philipp Raimund sorgte für eine Schrecksekunde."
+        ],
+        "link": "https://www.spiegel.de/sport/wintersport/vierschanzentournee-in-innsbruck-domen-prevc-schwaechelt-philipp-raimund-kracht-in-bande-a-71b96cab-ebbd-405a-9bc8-cc30ac4459d4#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-03T15:56:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/die-winter-neuzugaenge-der-drittligisten-im-ueberblick-986927/artikel#omrss",
+        "title": "Die Winter-Neuzugänge der Drittligisten im Überblick",
+        "summary": "In der Winterpause haben die 20 Drittligisten die Möglichkeit, ihre Kader nachzurüsten. Die bisherigen Winter-Neuzugänge im Überblick ...",
+        "paragraphs": [
+          "In der Winterpause haben die 20 Drittligisten die Möglichkeit, ihre Kader nachzurüsten. Die bisherigen Winter-Neuzugänge im Überblick ..."
+        ],
+        "link": "https://www.kicker.de/die-winter-neuzugaenge-der-drittligisten-im-ueberblick-986927/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-03T15:53:41.000Z"
+      },
       {
         "id": "https://www.spiegel.de/sport/wintersport/ski-alpin-in-kranjska-gora-riesenslalom-siegerin-camille-rast-erinnert-an-opfer-von-crans-montana-a-1c55d0b5-a56b-4046-a526-4f076f734eff",
         "title": "Ski alpin in Kranjska Gora: Riesenslalom-Siegerin Camille Rast erinnert an Opfer von Crans-Montana",
@@ -632,39 +665,6 @@
         "link": "https://www.kicker.de/aus-privaten-gruenden-kampls-vertrag-in-leipzig-aufgeloest-1180363/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-03T14:00:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/die-winter-neuzugaenge-der-bundesligisten-im-ueberblick-986926/artikel#omrss",
-        "title": "Die Winter-Neuzugänge der Bundesligisten im Überblick",
-        "summary": "Im Wintertransferfenster haben die 18 Bundesligisten die Möglichkeit, ihre Kader nachzurüsten. Die bisherigen Neuzugänge im Überblick ...",
-        "paragraphs": [
-          "Im Wintertransferfenster haben die 18 Bundesligisten die Möglichkeit, ihre Kader nachzurüsten. Die bisherigen Neuzugänge im Überblick ..."
-        ],
-        "link": "https://www.kicker.de/die-winter-neuzugaenge-der-bundesligisten-im-ueberblick-986926/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-03T13:52:49.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/augsburg-wirft-elias-raus-1180410/artikel#omrss",
-        "title": "Augsburg wirft Elias raus",
-        "summary": "Die Augsburger Panther trennen sich mit sofortiger Wirkung von Florian Elias, wie der DEL-Klub am Samstag mitteilte.",
-        "paragraphs": [
-          "Die Augsburger Panther trennen sich mit sofortiger Wirkung von Florian Elias, wie der DEL-Klub am Samstag mitteilte."
-        ],
-        "link": "https://www.kicker.de/augsburg-wirft-elias-raus-1180410/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-03T13:46:33.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/anton-ueber-wm-chancen-im-kopf-ist-es-nicht-1180407/video#omrss",
-        "title": "Anton über WM-Chancen: \"Im Kopf ist es nicht\"",
-        "summary": "Im Dortmunder Trainingslager in Marbella sprach Waldemar Anton über den Abgang von Pascal Groß, seine Chancen auf die bevorstehende WM und verriet auch einige Freizeitaktivitäten der Spieler.",
-        "paragraphs": [
-          "Im Dortmunder Trainingslager in Marbella sprach Waldemar Anton über den Abgang von Pascal Groß, seine Chancen auf die bevorstehende WM und verriet auch einige Freizeitaktivitäten der Spieler."
-        ],
-        "link": "https://www.kicker.de/anton-ueber-wm-chancen-im-kopf-ist-es-nicht-1180407/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-03T13:42:25.000Z"
       }
     ],
     "edv": [
