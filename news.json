@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-03T22:31:19.156Z",
+  "updatedAt": "2026-01-03T22:45:21.350Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "USA und Venezuela: Maduro ist offenbar in New York angekommen",
+        "summary": "Ein Flugzeug mit dem venezolanischen Staatschef und seiner Frau ist laut Berichten in New York gelandet. Venezuelas Ölexporte sind zum Erliegen gekommen. Das Liveblog",
+        "paragraphs": [
+          "Ein Flugzeug mit dem venezolanischen Staatschef und seiner Frau ist laut Berichten in New York gelandet. Venezuelas Ölexporte sind zum Erliegen gekommen. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-03T22:30:56.000Z"
+      },
+      {
         "id": "{urn:uuid:e2ef9a4c-26eb-47cb-82bb-9ecf80a792f4}",
         "title": "Donald Trump zum US-Einsatz: Am Ende geht es doch wieder ums Öl",
         "summary": "Donald Trump hat sich nach der US-Militäraktion gegen Venezuela nur vage zur Zukunft des Landes geäußert. Fünf Erkenntnisse lassen sich daraus dennoch ziehen.",
@@ -245,17 +256,6 @@
         "link": "https://www.handelsblatt.com/politik/international/delcy-rodriguez-venezuelas-vizepraesidentin-fordert-freilassung-von-maduro/100188357.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-03T21:09:38.000Z"
-      },
-      {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "USA und Venezuela: Venezuelas Vizepräsidentin fordert erneut Freilassung von Maduro",
-        "summary": "Die Vizepräsidentin von Venezuela, Delcy Rodríguez, hat erneut gefordert, Nicolás Maduro freizulassen. Die US-Regierung will Venezuela vorerst selbst führen. Das Liveblog",
-        "paragraphs": [
-          "Die Vizepräsidentin von Venezuela, Delcy Rodríguez, hat erneut gefordert, Nicolás Maduro freizulassen. Die US-Regierung will Venezuela vorerst selbst führen. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-03T20:53:04.000Z"
       },
       {
         "id": "{urn:uuid:4b2274d3-b916-4869-a83e-12a4a53caeb5}",
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/littler-zitiert-anthony-joshua-und-beherzt-lennart-karls-worte-1180541/artikel#omrss",
+        "title": "Littler zitiert Anthony Joshua - und beherzt Lennart Karls Worte",
+        "summary": "Nach 2025 heißt auch 2026 der Darts-Weltmeister Luke Littler. \"The Nuke\" fegte im Finale über den Niederländer Gian van Veen hinweg, nahm sich eine Nachricht von Bayerns Lennart Karl zu Herzen - und zitierte am Ende Box-Ikone Anthony Joshua.",
+        "paragraphs": [
+          "Nach 2025 heißt auch 2026 der Darts-Weltmeister Luke Littler. \"The Nuke\" fegte im Finale über den Niederländer Gian van Veen hinweg, nahm sich eine Nachricht von Bayerns Lennart Karl zu Herzen - und zitierte am Ende Box-Ikone Anthony Joshua."
+        ],
+        "link": "https://www.kicker.de/littler-zitiert-anthony-joshua-und-beherzt-lennart-karls-worte-1180541/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-03T22:34:51.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mali-gegen-tunesien-2026-afrika-cup-4995911/spielbericht#omrss",
+        "title": "Trotz Unterzahl und Rückstand: Mali bezwingt Tunesien im Elfmeterschießen",
+        "summary": "In der Vorrunde erarbeitete sich Mali mit drei Unentschieden den Einzug ins Achtelfinale. Und auch gegen Tunesien ging es über 120 Minuten. Am Ende behielten die Westafrikaner trotz langer Unterzahl im Elfmeterschießen die Oberhand.",
+        "paragraphs": [
+          "In der Vorrunde erarbeitete sich Mali mit drei Unentschieden den Einzug ins Achtelfinale. Und auch gegen Tunesien ging es über 120 Minuten. Am Ende behielten die Westafrikaner trotz langer Unterzahl im Elfmeterschießen die Oberhand."
+        ],
+        "link": "https://www.kicker.de/mali-gegen-tunesien-2026-afrika-cup-4995911/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-03T22:29:07.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/espanyol-gegen-barcelona-2026-la-liga-5055052/spielbericht#omrss",
+        "title": "Flicks goldenes Händchen: Dani Olmo und Lewandowski bescheren Barcelona den Sieg im Stadtderby",
+        "summary": "Lange hatte Espanyol den Stadtrivalen am Rande eines Punktgewinns - doch Garcia und eine mangelhafte Chancenverwertung verhinderten dies. Joker Dani Olmo bestrafte den Wucher spät mit einem Geniestreich - und besorgte den neunten La-Liga-Sieg in Serie.",
+        "paragraphs": [
+          "Lange hatte Espanyol den Stadtrivalen am Rande eines Punktgewinns - doch Garcia und eine mangelhafte Chancenverwertung verhinderten dies. Joker Dani Olmo bestrafte den Wucher spät mit einem Geniestreich - und besorgte den neunten La-Liga-Sieg in Serie."
+        ],
+        "link": "https://www.kicker.de/espanyol-gegen-barcelona-2026-la-liga-5055052/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-03T22:20:23.000Z"
+      },
+      {
         "id": "https://www.kicker.de/tampa-bay-gegen-carolina-2026-nfl-5040247/spielbericht#omrss",
         "title": "LIVE! Plötzlicher Einbruch: Mayfield mit Interception, Panthers mit Score",
         "summary": "Week 18 und damit der Abschluss dieser Regular Season ist voll mit großen Entscheidungsspielen - angefangen mit dem NFC-South-Vergleich zwischen den Tampa Bay Buccaneers und Carolina Panthers. Beide Teams brauchen einen Sieg, der Verlierer ist derweil (fast) sicher ausgeschieden.",
@@ -458,13 +491,13 @@
         "publishedAt": "2026-01-03T22:15:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/darts-szene-nimmt-abschied-von-zwei-praegenden-stimmen-1180544/artikel#omrss",
-        "title": "Darts-Szene nimmt Abschied von zwei prägenden Stimmen",
+        "id": "https://www.kicker.de/wespe-stoert-ablauf-bei-wm-finale-1180544/artikel#omrss",
+        "title": "Wespe stört Ablauf bei WM-Finale",
         "summary": "Auch abseits des dominanten Finalsieges von Luke Littler beim Duell mit Gian van Veen bot das Darts-Finale Schlagzeilen - wie dem Comeback der Alexandra-Palace-Weste sowie dem Abschied von zwei bekannten Stimmen.",
         "paragraphs": [
           "Auch abseits des dominanten Finalsieges von Luke Littler beim Duell mit Gian van Veen bot das Darts-Finale Schlagzeilen - wie dem Comeback der Alexandra-Palace-Weste sowie dem Abschied von zwei bekannten Stimmen."
         ],
-        "link": "https://www.kicker.de/darts-szene-nimmt-abschied-von-zwei-praegenden-stimmen-1180544/artikel#omrss",
+        "link": "https://www.kicker.de/wespe-stoert-ablauf-bei-wm-finale-1180544/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-03T22:13:00.000Z"
       },
@@ -632,39 +665,6 @@
         "link": "https://www.kicker.de/sudan-traumtor-reicht-nicht-pape-gueye-dreht-partie-mithilfe-von-jackson-und-man-1180514/video#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-03T19:32:32.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/harders-turbulenter-transfer-sommer-und-das-grosse-ziel-wm-1180399/artikel#omrss",
-        "title": "Harders turbulenter Transfer-Sommer - und das große Ziel WM",
-        "summary": "Auf den letzten Drücker komplettierte Mittelstürmer Conrad Harder (20) den Kader von RB Leipzig für diese Saison. Inzwischen hat sich der wuchtige Däne in der Stammformation festgespielt - und will dort auch nach Romulos Rückkehr bleiben.",
-        "paragraphs": [
-          "Auf den letzten Drücker komplettierte Mittelstürmer Conrad Harder (20) den Kader von RB Leipzig für diese Saison. Inzwischen hat sich der wuchtige Däne in der Stammformation festgespielt - und will dort auch nach Romulos Rückkehr bleiben."
-        ],
-        "link": "https://www.kicker.de/harders-turbulenter-transfer-sommer-und-das-grosse-ziel-wm-1180399/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-03T19:30:07.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/neujahrs-ueberraschung-in-balingen-coach-isik-geht-zum-saisonende-1180513/artikel#omrss",
-        "title": "Neujahrs-Überraschung in Balingen: Coach Isik geht zum Saisonende",
-        "summary": "Murat Isik wird seinen auslaufenden Vertrag bei der TSG Balingen nicht verlängern, dem abstiegsbedrohten Regionalligisten jedoch noch bis zum Saisonende als Cheftrainer erhalten bleiben.",
-        "paragraphs": [
-          "Murat Isik wird seinen auslaufenden Vertrag bei der TSG Balingen nicht verlängern, dem abstiegsbedrohten Regionalligisten jedoch noch bis zum Saisonende als Cheftrainer erhalten bleiben."
-        ],
-        "link": "https://www.kicker.de/neujahrs-ueberraschung-in-balingen-coach-isik-geht-zum-saisonende-1180513/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-03T19:27:52.000Z"
-      },
-      {
-        "id": "li.3332890",
-        "title": "Darts-WM 2026: Finale zwischen zwei Youngstern",
-        "summary": "Das Dartboard erobert wieder den Alexandra Palace in London. Vom 11. Dezember an wird der neue Weltmeister gesucht. Im Finale stehen sich zwei der Jung-Stars gegenüber.",
-        "paragraphs": [
-          "Das Dartboard erobert wieder den Alexandra Palace in London. Vom 11. Dezember an wird der neue Weltmeister gesucht. Im Finale stehen sich zwei der Jung-Stars gegenüber."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/darts-wm-2026-heute-live-tv-stream-finale-littler-van-veen-sport1-li.3332890",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-03T19:05:00.000Z"
       }
     ],
     "edv": [
