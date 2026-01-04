@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-04T15:55:45.016Z",
+  "updatedAt": "2026-01-04T16:06:45.690Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,26 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:75ca0414-0118-4ae9-bfca-d7bdc86e221e}",
+        "title": "Dänemark: Frau von Trump-Berater postet Grönland-Karte in US-Farben",
+        "summary": "Katie Miller, Ehefrau eines prominenten Beraters von Donald Trump, hat Irritationen in Dänemark ausgelöst. Miller postete eine Grönland-Karte mit der Flagge der USA.",
+        "paragraphs": [
+          "Katie Miller, Ehefrau eines prominenten Beraters von Donald Trump, hat Irritationen in Dänemark ausgelöst. Miller postete eine Grönland-Karte mit der Flagge der USA."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/groenland-karte-farben-usa-daenemark-katie-miller",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T15:51:41.000Z"
+      },
+      {
+        "id": "li.3363067",
+        "title": "Mutmaßlicher Anschlag: Verdächtiger nach Tadschikistan ausgereist",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/mutmasslicher-anschlag-verdaechtiger-nach-tadschikistan-ausgereist-li.3363067",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-04T15:49:03.000Z"
+      },
+      {
         "id": "{urn:uuid:7380803e-9cfa-4300-b12e-314955ed3b0a}",
         "title": "Venezuela: Grüne werfen Merz \"fatale Strategie\" nach US-Angriff auf Venezuela vor",
         "summary": "Die USA hätten in Venezuela das Völkerrecht gebrochen, sagte Grünen-Fraktionschefin Katharina Dröge. Sie rief Bundeskanzler Friedrich Merz auf, dies zu klar zu benennen.",
@@ -233,7 +253,7 @@
         ],
         "link": "https://www.zeit.de/politik/ausland/2026-01/gruene-kritisiern-merz-reaktion-venezuela",
         "source": "ZEIT",
-        "publishedAt": "2026-01-04T15:33:37.000Z"
+        "publishedAt": "2026-01-04T15:47:51.000Z"
       },
       {
         "id": "li.3363065",
@@ -417,34 +437,12 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/regimewechsel-venezuela-donald-trump-usa-nicolas-maduro-ok-america",
         "source": "ZEIT",
         "publishedAt": "2026-01-04T13:57:15.000Z"
-      },
-      {
-        "id": "li.3351274",
-        "title": "Wohnen: Ein entscheidendes Jahr für Mieter",
-        "summary": "Die Koalition hat ein wichtiges Versprechen gegeben, Justizministerin Hubig muss es nun umsetzen. Wird sie der Aufgabe gerecht? Eine erste Bilanz.",
-        "paragraphs": [
-          "Die Koalition hat ein wichtiges Versprechen gegeben, Justizministerin Hubig muss es nun umsetzen. Wird sie der Aufgabe gerecht? Eine erste Bilanz."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/mieten-mietrecht-stefanie-hubig-deutscher-mieterbund-li.3351274",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-04T13:21:24.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/berlin-stromausfall-im-suedwesten-dauert-wahrscheinlich-bis-donnerstag/100188465.html",
-        "title": "Berlin: Stromausfall in Berlin dauert wahrscheinlich bis Donnerstag – Notunterkünfte füllen sich",
-        "summary": "45.000 Haushalte und 2200 Unternehmen in Berlin sind von einem großflächigen Stromausfall betroffen. Die Reparatur ist äußerst komplex. Die Täter kommen offenbar aus dem linksextremen Lager.",
-        "paragraphs": [
-          "45.000 Haushalte und 2200 Unternehmen in Berlin sind von einem großflächigen Stromausfall betroffen. Die Reparatur ist äußerst komplex. Die Täter kommen offenbar aus dem linksextremen Lager."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/berlin-stromausfall-im-suedwesten-dauert-wahrscheinlich-bis-donnerstag/100188465.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-04T13:13:43.000Z"
       }
     ],
     "sport": [
       {
         "id": "li.3362957",
-        "title": "Vierschanzentournee: Die Maschine ist auch nur ein Mensch",
+        "title": "Vierschanzentournee: Die Maschine ist besiegt",
         "summary": "Selbst der Tournee-Dominator kann nervös werden: Domen Prevc muss beim Springen in Innsbruck dem Japaner Ren Nikaido den Tagessieg knapp überlassen. Doch den Vorsprung in der Gesamtwertung baut er weiter aus.",
         "paragraphs": [
           "Selbst der Tournee-Dominator kann nervös werden: Domen Prevc muss beim Springen in Innsbruck dem Japaner Ren Nikaido den Tagessieg knapp überlassen. Doch den Vorsprung in der Gesamtwertung baut er weiter aus."
@@ -452,6 +450,17 @@
         "link": "https://www.sueddeutsche.de/sport/vierschanzentournee-innsbruck-nikaido-prevc-embacher-wintersport-li.3362957",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-04T15:43:46.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nach-sattem-freistoss-eigengewaechs-gonzalo-koepft-real-in-front-1180714/video#omrss",
+        "title": "Nach sattem Freistoß: Eigengewächs Gonzalo köpft Real in Front",
+        "summary": "Rodrygo findet per sauberem Freistoß von der Strafraumkante den am zweiten Pfosten perfekt positionierten Gonzalo, der den Ball zur Real-Führung einköpft.",
+        "paragraphs": [
+          "Rodrygo findet per sauberem Freistoß von der Strafraumkante den am zweiten Pfosten perfekt positionierten Gonzalo, der den Ball zur Real-Führung einköpft."
+        ],
+        "link": "https://www.kicker.de/nach-sattem-freistoss-eigengewaechs-gonzalo-koepft-real-in-front-1180714/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-04T15:43:42.000Z"
       },
       {
         "id": "https://www.kicker.de/kalimuendo-leihe-vor-abschluss-wahi-trifft-beim-debuet-1180689/artikel#omrss",
@@ -620,7 +629,7 @@
       },
       {
         "id": "https://www.kicker.de/real-madrid-gegen-betis-2026-la-liga-5055056/spielbericht#omrss",
-        "title": "LIVE! Dominanter Auftakt von Real: Gonzalo köpft zur verdienten Führung ein",
+        "title": "LIVE! Dominantes Real dank Gonzalos Kopfballtreffer verdient vorne",
         "summary": "Um den Anschluss an Tabellenführer Barcelona nicht zu verlieren, ist Real Madrid zum Siegen verdammt. Zum ersten Spiel im neuen Jahr fordert der Tabellensechste Real Betis das Team von Xabi Alonso im Bernabeu heraus.",
         "paragraphs": [
           "Um den Anschluss an Tabellenführer Barcelona nicht zu verlieren, ist Real Madrid zum Siegen verdammt. Zum ersten Spiel im neuen Jahr fordert der Tabellensechste Real Betis das Team von Xabi Alonso im Bernabeu heraus."
@@ -650,17 +659,6 @@
         "link": "https://www.sueddeutsche.de/sport/magath-aschaffenburg-regionalliga-fussball-li.3362525",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-04T14:11:10.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/boxen/boxen-tyson-fury-mit-erneuter-rueckkehr-a-1022fb6a-0c64-4cb7-8d17-487c1a3eec5b",
-        "title": "Boxen: Tyson Fury mit erneuter Rückkehr",
-        "summary": "Es ist der Running Gag der Boxwelt: Seit mehr als zehn Jahren kündigt Tyson Fury Karriereende und Comeback im Wechsel an. Jetzt kehrt er mal wieder zurück in den Ring – mit markigen Worten.",
-        "paragraphs": [
-          "Es ist der Running Gag der Boxwelt: Seit mehr als zehn Jahren kündigt Tyson Fury Karriereende und Comeback im Wechsel an. Jetzt kehrt er mal wieder zurück in den Ring – mit markigen Worten."
-        ],
-        "link": "https://www.spiegel.de/sport/boxen/boxen-tyson-fury-mit-erneuter-rueckkehr-a-1022fb6a-0c64-4cb7-8d17-487c1a3eec5b#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-04T14:02:00.000Z"
       }
     ],
     "edv": [
