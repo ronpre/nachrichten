@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-04T09:39:35.599Z",
+  "updatedAt": "2026-01-04T09:47:34.195Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:919e25d2-8aad-4a25-a0b1-9e31a99b11cc}",
+        "title": "Pressestimmen zu Venezuela: \"Eine fatale Botschaft an die Welt\"",
+        "summary": "Internationale Medien sehen im Vorgehen der USA in Venezuela einen Bruch des Völkerrechts. Die US-Regierung habe \"das Grundprinzip der Nachkriegsordnung aufgegeben\".",
+        "paragraphs": [
+          "Internationale Medien sehen im Vorgehen der USA in Venezuela einen Bruch des Völkerrechts. Die US-Regierung habe \"das Grundprinzip der Nachkriegsordnung aufgegeben\"."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/us-militaereinsatz-venezuela-nicolas-maduro-voelkerrecht-donald-trump",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T09:38:30.000Z"
+      },
+      {
         "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
         "title": "USA und Venezuela: Trump will auf Truppen verzichten, wenn Interimspräsidentin kooperiert",
         "summary": "Solange Venezuelas Interimspräsidentin \"das tut, was wir wollen\", will Trump keine US-Truppen schicken. Delcy Rodríguez kündigt jedoch Widerstand an. Das Liveblog",
@@ -238,9 +249,9 @@
       {
         "id": "https://www.handelsblatt.com/politik/international/venezuela-augenzeuge-aus-caracas-es-laeuft-den-ganzen-tag-propaganda/100188368.html",
         "title": "Venezuela: Augenzeuge aus Caracas: „Es läuft den ganzen Tag Propaganda“",
-        "summary": "In Venezuela sorgt der Militärschlag der USA für Hoffnung und Verunsicherung zugleich. Ein Einwohner Caracas, der den Angriff vor Ort erlebte, schildert, was danach geschah.",
+        "summary": "In Venezuela sorgt der Militärschlag der USA für Hoffnung und Verunsicherung zugleich. Ein Einwohner von Caracas, der den Angriff vor Ort erlebte, schildert, was danach geschah.",
         "paragraphs": [
-          "In Venezuela sorgt der Militärschlag der USA für Hoffnung und Verunsicherung zugleich. Ein Einwohner Caracas, der den Angriff vor Ort erlebte, schildert, was danach geschah."
+          "In Venezuela sorgt der Militärschlag der USA für Hoffnung und Verunsicherung zugleich. Ein Einwohner von Caracas, der den Angriff vor Ort erlebte, schildert, was danach geschah."
         ],
         "link": "https://www.handelsblatt.com/politik/international/venezuela-augenzeuge-aus-caracas-es-laeuft-den-ganzen-tag-propaganda/100188368.html",
         "source": "Handelsblatt",
@@ -289,17 +300,6 @@
         "link": "https://www.sueddeutsche.de/politik/venezuela-pressestimmen-li.3362906",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-04T09:04:14.000Z"
-      },
-      {
-        "id": "{urn:uuid:919e25d2-8aad-4a25-a0b1-9e31a99b11cc}",
-        "title": "Pressestimmen zu Venezuela: \"Eine fatale Botschaft an die Welt\"",
-        "summary": "Internationale Medien sehen im Vorgehen der USA in Venezuela einen Bruch des Völkerrechts. Die US-Regierung habe \"das Grundprinzip der Nachkriegsordnung aufgegeben\".",
-        "paragraphs": [
-          "Internationale Medien sehen im Vorgehen der USA in Venezuela einen Bruch des Völkerrechts. Die US-Regierung habe \"das Grundprinzip der Nachkriegsordnung aufgegeben\"."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/us-militaereinsatz-venezuela-nicolas-maduro-voelkerrecht-donald-trump",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-04T08:45:35.000Z"
       },
       {
         "id": "{urn:uuid:46471996-e8a8-48cb-8daa-f35767e8ab7a}",
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/ein-brasilianer-fuer-erfurt-rot-weiss-holt-falcao-aus-finnland-zurueck-1180591/artikel#omrss",
+        "title": "Ein Brasilianer für Erfurt: Rot-Weiß holt Falcao aus Finnland zurück",
+        "summary": "Der FC Rot-Weiß Erfurt verstärkt seine Offensive: Lucas Falcao, einst bei Viktoria Berlin unter Vertrag, unterschreibt bei den Rot-Weißen bis zum 30. Juni 2027.",
+        "paragraphs": [
+          "Der FC Rot-Weiß Erfurt verstärkt seine Offensive: Lucas Falcao, einst bei Viktoria Berlin unter Vertrag, unterschreibt bei den Rot-Weißen bis zum 30. Juni 2027."
+        ],
+        "link": "https://www.kicker.de/ein-brasilianer-fuer-erfurt-rot-weiss-holt-falcao-aus-finnland-zurueck-1180591/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-04T09:39:10.000Z"
+      },
+      {
         "id": "https://www.kicker.de/vom-toptalent-zum-freischwimmer-1180590/artikel#omrss",
         "title": "Vom Toptalent zum Freischwimmer",
         "summary": "Der BVB hat zahlreiche Talente mit ins Trainingslager nach Marbella genommen, damit sie sich präsentieren können. Trainer Niko Kovac nimmt die Jugend in die Pflicht. Ein anderer Youngster reist vorzeitig ab.",
@@ -502,13 +513,13 @@
         "publishedAt": "2026-01-04T08:45:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-slalom-in-kranjska-gora-aicher-vor-duerr-rast-noch-schneller-als-shiffrin-1179857/artikel#omrss",
-        "title": "LIVE! Slalom in Kranjska Gora: Aicher vor Dürr - Rast noch schneller als Shiffrin",
+        "id": "https://www.kicker.de/live-slalom-in-kranjska-gora-rast-schneller-als-shiffrin-aicher-schielt-richtung-podium-1179857/artikel#omrss",
+        "title": "LIVE! Slalom in Kranjska Gora: Rast schneller als Shiffrin - Aicher schielt Richtung Podium",
         "summary": "Zum Auftakt im Jahr 2026 steht bei den Frauen der Tanz durch den Stangenwald in Kranjska Gora auf dem Programm. Klare Favoritin ist natürlich die mit bisher fünf Siegen alles überstrahlende Mikaela Shiffrin. Wie beginnt das Jahr für Lena Dürr und Emma Aicher?",
         "paragraphs": [
           "Zum Auftakt im Jahr 2026 steht bei den Frauen der Tanz durch den Stangenwald in Kranjska Gora auf dem Programm. Klare Favoritin ist natürlich die mit bisher fünf Siegen alles überstrahlende Mikaela Shiffrin. Wie beginnt das Jahr für Lena Dürr und Emma Aicher?"
         ],
-        "link": "https://www.kicker.de/live-slalom-in-kranjska-gora-aicher-vor-duerr-rast-noch-schneller-als-shiffrin-1179857/artikel#omrss",
+        "link": "https://www.kicker.de/live-slalom-in-kranjska-gora-rast-schneller-als-shiffrin-aicher-schielt-richtung-podium-1179857/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-04T08:37:49.000Z"
       },
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/ausgleich-in-der-96-minute-mali-gewinnt-elfmeter-krimi-1180553/video#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-03T23:32:48.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kurz-vor-abpfiff-olmo-und-lewandowski-brechen-espanyols-derbyherz-1180549/video#omrss",
-        "title": "Kurz vor Abpfiff: Olmo und Lewandowski brechen Espanyols Derbyherz",
-        "summary": "Es war ein Abnutzungskampf im katalanischen Derby zwischen Espanyol und dem FC Barcelona. Der Knoten platzte durch Dani Olmos Geniestreich von der Strafraumkante, später machte Robert Lewandowski alles klar. Die Highlights der Partie gibt es hier im Video.",
-        "paragraphs": [
-          "Es war ein Abnutzungskampf im katalanischen Derby zwischen Espanyol und dem FC Barcelona. Der Knoten platzte durch Dani Olmos Geniestreich von der Strafraumkante, später machte Robert Lewandowski alles klar. Die Highlights der Partie gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/kurz-vor-abpfiff-olmo-und-lewandowski-brechen-espanyols-derbyherz-1180549/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-03T23:04:04.000Z"
       }
     ],
     "edv": [
