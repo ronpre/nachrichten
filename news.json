@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-04T20:54:01.173Z",
+  "updatedAt": "2026-01-04T21:04:58.404Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "USA und Venezuela: Trump droht neuer Staatschefin Venezuelas",
+        "summary": "Sollte Venezuelas neue Staatschefin laut Trump \"nicht das Richtige tun, werde sie einen sehr hohen Preis zahlen\". Trump nimmt Grönland und Kuba in den Blick. Das Liveblog",
+        "paragraphs": [
+          "Sollte Venezuelas neue Staatschefin laut Trump \"nicht das Richtige tun, werde sie einen sehr hohen Preis zahlen\". Trump nimmt Grönland und Kuba in den Blick. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T20:52:56.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/usa-new-yorks-neuer-buergermeister-will-seine-prinzipien-nicht-aufgeben/29669594.html",
         "title": "+++ USA +++: Nach provokantem X-Post: Dänischer Botschafter warnt USA mit Blick auf Grönland",
         "summary": "Trump zu Debatte über Gesundheitszustand: „Ich habe sehr gute Gene“ +++ New Yorks neuer Bürgermeister will seine „Prinzipien nicht aufgeben“+++ Der Newsblog.",
@@ -234,17 +245,6 @@
         "link": "https://www.handelsblatt.com/politik/international/usa-new-yorks-neuer-buergermeister-will-seine-prinzipien-nicht-aufgeben/29669594.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-04T20:25:02.000Z"
-      },
-      {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "USA und Venezuela: Trump droht neuer Staatschefin Venezuelas",
-        "summary": "Sollte Venezuelas neue Staatschefin laut Trump \"nicht das Richtige tun, werde sie einen sehr hohen Preis zahlen\". Trump nimmt Grönland und Kuba in den Blick. Das Liveblog",
-        "paragraphs": [
-          "Sollte Venezuelas neue Staatschefin laut Trump \"nicht das Richtige tun, werde sie einen sehr hohen Preis zahlen\". Trump nimmt Grönland und Kuba in den Blick. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-04T20:12:08.000Z"
       },
       {
         "id": "{urn:uuid:c56bc019-a513-4a12-8a6e-f248803e0ee6}",
@@ -755,17 +755,6 @@
         "publishedAt": "2026-01-04T12:50:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Mission-Muellabfuhr-Warum-Weltraumschrott-uns-alle-betrifft-11057091.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Gefahr im All: Wie Roboter und Plasmastrahlen vor Weltraumschrott retten sollen",
-        "summary": "Von Navigation bis Wettervorhersage – die moderne Welt hängt an Satelliten. Die Müllwolke im Orbit droht alles zum Absturz zu bringen. Doch es gibt Lösungen.",
-        "paragraphs": [
-          "Von Navigation bis Wettervorhersage – die moderne Welt hängt an Satelliten. Die Müllwolke im Orbit droht alles zum Absturz zu bringen. Doch es gibt Lösungen."
-        ],
-        "link": "https://www.heise.de/hintergrund/Mission-Muellabfuhr-Warum-Weltraumschrott-uns-alle-betrifft-11057091.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2026-01-04T12:30:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/hintergrund/Automatisierter-VM-Konfigurator-Cloud-init-fuer-Proxmox-im-Ueberblick-11099850.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "title": "heise+ | Automatisierter VM-Konfigurator Cloud-init für Proxmox im Überblick",
         "summary": "Cloud-init stellt für Proxmox neue VM- und Containerinstanzen automatisiert bereit. Gastsysteme entstehen reproduzierbar und ohne Nacharbeiten.",
@@ -773,6 +762,17 @@
           "Cloud-init stellt für Proxmox neue VM- und Containerinstanzen automatisiert bereit. Gastsysteme entstehen reproduzierbar und ohne Nacharbeiten."
         ],
         "link": "https://www.heise.de/hintergrund/Automatisierter-VM-Konfigurator-Cloud-init-fuer-Proxmox-im-Ueberblick-11099850.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2026-01-04T12:30:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/hintergrund/Mission-Muellabfuhr-Warum-Weltraumschrott-uns-alle-betrifft-11057091.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | Gefahr im All: Wie Roboter und Plasmastrahlen vor Weltraumschrott retten sollen",
+        "summary": "Von Navigation bis Wettervorhersage – die moderne Welt hängt an Satelliten. Die Müllwolke im Orbit droht alles zum Absturz zu bringen. Doch es gibt Lösungen.",
+        "paragraphs": [
+          "Von Navigation bis Wettervorhersage – die moderne Welt hängt an Satelliten. Die Müllwolke im Orbit droht alles zum Absturz zu bringen. Doch es gibt Lösungen."
+        ],
+        "link": "https://www.heise.de/hintergrund/Mission-Muellabfuhr-Warum-Weltraumschrott-uns-alle-betrifft-11057091.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "source": "heise",
         "publishedAt": "2026-01-04T12:30:00.000Z"
       },
