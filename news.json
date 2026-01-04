@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-04T09:05:13.345Z",
+  "updatedAt": "2026-01-04T09:17:16.946Z",
   "categories": {
     "wirtschaft": [
       {
@@ -180,7 +180,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/csu-partei-will-steuern-auf-einkommen-erbe-und-immobilienkauf-senken/100188065.html",
-        "title": "Klausur in Seeon: Einkommen, Erbe und Immobilienkauf: CSU will Entlastungen –  und auch eine Zumutung",
+        "title": "Klausur in Seeon: Einkommen, Erbe und Immobilienkauf: CSU will Entlastungen – und auch eine Zumutung",
         "summary": "Die CDU-Schwesterpartei fordert, Bürger und Unternehmen zu entlasten. Das geht aus einem Beschlussentwurf für die Klausur in Seeon hervor – der auch einen heiklen Vorschlag enthält.",
         "paragraphs": [
           "Die CDU-Schwesterpartei fordert, Bürger und Unternehmen zu entlasten. Das geht aus einem Beschlussentwurf für die Klausur in Seeon hervor – der auch einen heiklen Vorschlag enthält."
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:e3833ef8-a8fd-4b11-b004-5d324caec343}",
+        "title": "Ukrainekarte aktuell: Ukrainische Armee stößt weiter in Kupjansk vor",
+        "summary": "In der umkämpften Stadt Kupjansk sind ukrainische Truppen entlang einer zentral gelegenen Autobahn vorgerückt. Russische Kräfte drangen in der Donezk vor.",
+        "paragraphs": [
+          "In der umkämpften Stadt Kupjansk sind ukrainische Truppen entlang einer zentral gelegenen Autobahn vorgerückt. Russische Kräfte drangen in der Donezk vor."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/karte-ukraine-krieg-russland-frontverlauf-truppenbewegungen",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T09:09:28.000Z"
+      },
+      {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "USA und Venezuela: Trump will auf Truppen verzichten, wenn Interimspräsidentin kooperiert",
+        "summary": "Solange Venezuelas Interimspräsidentin \"das tut, was wir wollen\", will Trump keine US-Truppen schicken. Mexiko fordert Vereinte Nationen zum Handeln auf. Das Liveblog",
+        "paragraphs": [
+          "Solange Venezuelas Interimspräsidentin \"das tut, was wir wollen\", will Trump keine US-Truppen schicken. Mexiko fordert Vereinte Nationen zum Handeln auf. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T09:06:06.000Z"
+      },
+      {
         "id": "{urn:uuid:8abe59bc-d4a4-4d4c-8bd1-c27c50117928}",
         "title": "Venezuela: Oberstes Gericht ernennt Delcy Rodríguez zur Interimspräsidentin",
         "summary": "Venezuelas bisherige Vizepräsidentin übernimmt die Staatsführung nach der Festnahme des Präsidenten. Mit der US-Regierung will sie nicht kooperieren.",
@@ -236,15 +258,15 @@
         "publishedAt": "2026-01-04T09:04:33.000Z"
       },
       {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "USA und Venezuela: Trump will auf Truppen verzichten, wenn Interimspräsidentin kooperiert",
-        "summary": "Solange Venezuelas Interimspräsidentin \"das tut, was wir wollen\", will Trump keine US-Truppen schicken. Mexiko fordert Vereinte Nationen zum Handeln auf. Das Liveblog",
+        "id": "li.3362906",
+        "title": "Pressestimmen zu Venezuela: „Internationales Recht gilt nicht mehr“",
+        "summary": "Medien weltweit kritisieren den Militäreinsatz der USA und befürchten, dass sich autoritäre Regimes ein Beispiel daran nehmen. Manche können aber auch etwas Gutes an der Gefangennahme von Präsident Maduro finden.",
         "paragraphs": [
-          "Solange Venezuelas Interimspräsidentin \"das tut, was wir wollen\", will Trump keine US-Truppen schicken. Mexiko fordert Vereinte Nationen zum Handeln auf. Das Liveblog"
+          "Medien weltweit kritisieren den Militäreinsatz der USA und befürchten, dass sich autoritäre Regimes ein Beispiel daran nehmen. Manche können aber auch etwas Gutes an der Gefangennahme von Präsident Maduro finden."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-04T08:54:24.000Z"
+        "link": "https://www.sueddeutsche.de/politik/venezuela-pressestimmen-li.3362906",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-04T09:04:14.000Z"
       },
       {
         "id": "{urn:uuid:919e25d2-8aad-4a25-a0b1-9e31a99b11cc}",
@@ -421,31 +443,20 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/jemen-rueckeroberung-saudi-arabien-gebiete-separatisten-hadramaut-gxe",
         "source": "ZEIT",
         "publishedAt": "2026-01-04T04:47:24.000Z"
-      },
-      {
-        "id": "li.3362798",
-        "title": "Venezuela: Bomben, eine Gefangennahme und viele Fragen",
-        "summary": "Präsident Maduro ist gestürzt, wie aber geht es weiter in Venezuela? Ein denkwürdiger Auftritt Donald Trumps nährt den Verdacht, dass die USA dafür keinen konkreten Plan haben – auch wenn der US-Präsident ankündigt, man werde das Land nun selbst regieren.",
-        "paragraphs": [
-          "Präsident Maduro ist gestürzt, wie aber geht es weiter in Venezuela? Ein denkwürdiger Auftritt Donald Trumps nährt den Verdacht, dass die USA dafür keinen konkreten Plan haben – auch wenn der US-Präsident ankündigt, man werde das Land nun selbst regieren."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/venezuela-sturz-maduro-folgen-li.3362798",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-04T04:10:33.000Z"
-      },
-      {
-        "id": "li.3362824",
-        "title": "Angriff auf Venezuela: Was über die Operation „Absolute Entschlossenheit“ bekannt ist",
-        "summary": "Donald Trump hat am Bildschirm verfolgt, wie Spezialeinheiten in Venezuela Türen aufbrechen und den venezolanischen Präsidenten Nicolás Maduro gefangen nehmen.  Die US-Soldaten hatten den Einsatz an einem Modell von dessen Unterkunft geübt.",
-        "paragraphs": [
-          "Donald Trump hat am Bildschirm verfolgt, wie Spezialeinheiten in Venezuela Türen aufbrechen und den venezolanischen Präsidenten Nicolás Maduro gefangen nehmen.  Die US-Soldaten hatten den Einsatz an einem Modell von dessen Unterkunft geübt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/venezuela-usa-operation-absolute-entschlossenheit-militaer-li.3362824",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-04T04:10:29.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "{urn:uuid:fa932f3b-ba5e-4397-93ee-2b4ce8f39056}",
+        "title": "Darts-WM: Zu gut für den Ally Pally",
+        "summary": "Der erst 18-jährige Luke Littler verteidigt seinen Titel mit beunruhigender Leichtigkeit. Aufhalten kann ihn weder das gelangweilte, buhende Publikum – noch eine Wespe.",
+        "paragraphs": [
+          "Der erst 18-jährige Luke Littler verteidigt seinen Titel mit beunruhigender Leichtigkeit. Aufhalten kann ihn weder das gelangweilte, buhende Publikum – noch eine Wespe."
+        ],
+        "link": "https://www.zeit.de/sport/2026-01/darts-wm-luke-littler-finale",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T08:59:51.000Z"
+      },
       {
         "id": "https://www.kicker.de/akpoguma-ende-einer-aera-1180479/artikel#omrss",
         "title": "Akpoguma: Ende einer Ära?",
@@ -654,20 +665,20 @@
         "link": "https://www.zeit.de/sport/2026-01/darts-weltmeisterschaft-luke-littler-sieg",
         "source": "ZEIT",
         "publishedAt": "2026-01-03T22:48:37.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/big-fish-gegen-chancenlosen-van-veen-littlers-titelverteidigung-im-video-1180547/video#omrss",
-        "title": "\"Big Fish\" gegen chancenlosen van Veen: Littlers Titelverteidigung im Video",
-        "summary": "Luke Littler spielte auch im Finale Darts auf einem ganz anderen Level. Lediglich eine Ally-Pally-Wespe brachte ihn auf der Zielgeraden kurz ins Schwitzen. Die Machtdemonstration gibt es hier im Video.",
-        "paragraphs": [
-          "Luke Littler spielte auch im Finale Darts auf einem ganz anderen Level. Lediglich eine Ally-Pally-Wespe brachte ihn auf der Zielgeraden kurz ins Schwitzen. Die Machtdemonstration gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/big-fish-gegen-chancenlosen-van-veen-littlers-titelverteidigung-im-video-1180547/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-03T22:44:34.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-Keycloak-Die-Grundlagen-fuer-effizientes-IAM-und-SSO-11100899.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop Keycloak: Die Grundlagen für effizientes IAM und SSO",
+        "summary": "SSO und Multifaktor-Authentifizierung – mehr Sicherheit und einfache Zugangsverwaltung mit dem OpenID-Connect-Provider Keycloak.",
+        "paragraphs": [
+          "SSO und Multifaktor-Authentifizierung – mehr Sicherheit und einfache Zugangsverwaltung mit dem OpenID-Connect-Provider Keycloak."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Keycloak-Die-Grundlagen-fuer-effizientes-IAM-und-SSO-11100899.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-04T09:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/hintergrund/Missing-Link-Unsichtbare-Revolution-wie-der-Bund-die-Verwaltung-mit-KI-flutet-11127439.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Missing Link: Unsichtbare Revolution – wie der Bund die Verwaltung mit KI flutet",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Developer-Haeppchen-fuers-Wochenende-Kleinere-News-der-Woche-11127281.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-03T08:23:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/Spiele-Glaskugel-2026-GTA-Goetterdaemmerung-11127421.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Spiele-Glaskugel 2026: \"GTA\"-Götterdämmerung",
-        "summary": "Das Videospieljahr 2026 verspricht neben dem sicheren Milliardenhit \"GTA 6\" auch einiges an Überraschungspotenzial.",
-        "paragraphs": [
-          "Das Videospieljahr 2026 verspricht neben dem sicheren Milliardenhit \"GTA 6\" auch einiges an Überraschungspotenzial."
-        ],
-        "link": "https://www.heise.de/hintergrund/Spiele-Glaskugel-2026-GTA-Goetterdaemmerung-11127421.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-03T07:04:00.000Z"
       }
     ]
   }
