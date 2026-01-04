@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-04T15:04:58.829Z",
+  "updatedAt": "2026-01-04T15:17:11.057Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,15 +225,26 @@
     ],
     "politik": [
       {
-        "id": "{urn:uuid:9a64f4a7-3e3e-4eaf-8241-03236f31c8e3}",
-        "title": "Stromausfall in Berlin: Stadt Berlin hofft nach Stromausfall auf Hilfe der Bundeswehr",
-        "summary": "Die Bundesregierung sagt Berlin nach dem großflächigen Stromausfall Unterstützung zu. Ein Bekennerschreiben von Linksextremisten stuft die Polizei als glaubhaft ein.",
+        "id": "li.3355769",
+        "title": "Winterklausur in Oberbayern: Der dritte Mann der CSU tritt aus dem Schatten",
+        "summary": "Alexander Hoffmann ist Chef der CSU im Bundestag. Die Klausur in Kloster Seeon soll ihn bekannter machen. In Berlin gilt er bereits als Brückenbauer zur SPD.",
         "paragraphs": [
-          "Die Bundesregierung sagt Berlin nach dem großflächigen Stromausfall Unterstützung zu. Ein Bekennerschreiben von Linksextremisten stuft die Polizei als glaubhaft ein."
+          "Alexander Hoffmann ist Chef der CSU im Bundestag. Die Klausur in Kloster Seeon soll ihn bekannter machen. In Berlin gilt er bereits als Brückenbauer zur SPD."
         ],
-        "link": "https://www.zeit.de/politik/deutschland/2026-01/stromausfall-berlin-anschlag-linksextremismus-vulkangruppe-kai-wegner-gxe",
+        "link": "https://www.sueddeutsche.de/politik/alexander-hoffmann-portraet-kloster-seeon-klausur-csu-landesgruppe-li.3355769",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-04T15:14:31.000Z"
+      },
+      {
+        "id": "{urn:uuid:5e8ea5ec-c765-4c60-a047-598fc76f0ee6}",
+        "title": "US-Angriff auf Venezuela: Wie die USA Nicolás Maduro entführten",
+        "summary": "In der Nacht des 3. Januar erlebte Venezuelas Hauptstadt eine minutiös geplante US-Militäroperation. Wir zeigen Satellitenbilder der Zerstörung. Eine Rekonstruktion",
+        "paragraphs": [
+          "In der Nacht des 3. Januar erlebte Venezuelas Hauptstadt eine minutiös geplante US-Militäroperation. Wir zeigen Satellitenbilder der Zerstörung. Eine Rekonstruktion"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/us-angriff-venezuela-rekonstruktion-militaer-festnahme-nicolas-maduro",
         "source": "ZEIT",
-        "publishedAt": "2026-01-04T14:55:52.000Z"
+        "publishedAt": "2026-01-04T15:04:02.000Z"
       },
       {
         "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
@@ -244,7 +255,40 @@
         ],
         "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
         "source": "ZEIT",
-        "publishedAt": "2026-01-04T14:50:44.000Z"
+        "publishedAt": "2026-01-04T15:02:20.000Z"
+      },
+      {
+        "id": "li.3362823",
+        "title": "Glosse: Das Streiflicht",
+        "summary": "Der Dry January ist gefürchtet, denn er duldet keinerlei Aufschub im neuen Jahr. Aber werden gute Vorsätze nicht ein wenig überschätzt?",
+        "paragraphs": [
+          "Der Dry January ist gefürchtet, denn er duldet keinerlei Aufschub im neuen Jahr. Aber werden gute Vorsätze nicht ein wenig überschätzt?"
+        ],
+        "link": "https://www.sueddeutsche.de/politik/streiflicht-gute-vorsaetze-tucholsky-wein-trump-li.3362823",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-04T14:59:05.000Z"
+      },
+      {
+        "id": "li.3362801",
+        "title": "US-Intervention in Venezuela: Der Coup von Caracas",
+        "summary": "Nach der amerikanischen Kommandoaktion und der Festnahme von Venezuelas Staatspräsidenten Nicolás Maduro ist unklar, wie es nun in dem lateinamerikanischen Land weitergeht.",
+        "paragraphs": [
+          "Nach der amerikanischen Kommandoaktion und der Festnahme von Venezuelas Staatspräsidenten Nicolás Maduro ist unklar, wie es nun in dem lateinamerikanischen Land weitergeht."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/us-militaerintervention-caracas-maduro-venezuela-li.3362801",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-04T14:58:03.000Z"
+      },
+      {
+        "id": "{urn:uuid:9a64f4a7-3e3e-4eaf-8241-03236f31c8e3}",
+        "title": "Stromausfall in Berlin: Stadt Berlin hofft nach Stromausfall auf Hilfe der Bundeswehr",
+        "summary": "Die Bundesregierung sagt Berlin nach dem großflächigen Stromausfall Unterstützung zu. Ein Bekennerschreiben von Linksextremisten stuft die Polizei als glaubhaft ein.",
+        "paragraphs": [
+          "Die Bundesregierung sagt Berlin nach dem großflächigen Stromausfall Unterstützung zu. Ein Bekennerschreiben von Linksextremisten stuft die Polizei als glaubhaft ein."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2026-01/stromausfall-berlin-anschlag-linksextremismus-vulkangruppe-kai-wegner-gxe",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T14:55:52.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/venezuela-maduro-sitzt-in-beruechtigtem-gefaengnis-in-brooklyn/100188261.html",
@@ -399,53 +443,20 @@
         "link": "https://www.handelsblatt.com/politik/international/nahost-das-regime-im-iran-steht-vor-seiner-groessten-herausforderung/100188063.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-04T11:42:43.000Z"
-      },
-      {
-        "id": "{urn:uuid:d398388b-ca03-4d05-9638-4e1206b6b104}",
-        "title": "Venezuela: US-Behörden veröffentlichen Video von Nicolás Maduro in Handschellen",
-        "summary": "Nach seiner Gefangennahme ist Venezuelas Präsident in New York eingetroffen. Ein Video zeigt ihn in Handschellen, begleitet von Beamten der US-Drogenbehörde.",
-        "paragraphs": [
-          "Nach seiner Gefangennahme ist Venezuelas Präsident in New York eingetroffen. Ein Video zeigt ihn in Handschellen, begleitet von Beamten der US-Drogenbehörde."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/nicolas-maduro-festnahme-new-york-video-handschellen-dea-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-04T11:34:23.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-mit-maduros-abgang-entsteht-ein-machtvakuum/100188369.html",
-        "title": "Venezuela: „Der Kopf der Schlange ist abgeschlagen“: Mit Maduros Abgang entsteht ein Machtvakuum",
-        "summary": "Der Sturz des Präsidenten ist für viele Venezolaner eine freudige Nachricht. Doch die Angst vor dem, was jetzt kommt, ist groß. Eine von den USA eingesetzte Interimsregierung lehnen viele ab.",
-        "paragraphs": [
-          "Der Sturz des Präsidenten ist für viele Venezolaner eine freudige Nachricht. Doch die Angst vor dem, was jetzt kommt, ist groß. Eine von den USA eingesetzte Interimsregierung lehnen viele ab."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-mit-maduros-abgang-entsteht-ein-machtvakuum/100188369.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-04T11:23:46.000Z"
-      },
-      {
-        "id": "er.e558429",
-        "title": "Venezuela: Vergesst die Welt von gestern",
-        "summary": "Was war das in Venezuela, ein Coup, ein Staatsstreich? Sicher ist nur, dass die von Trump befehligte US-Militäraktion gegen den Diktator Maduro ein Bruch mit der Weltordnung ist, ein Rückfall in Zeiten von Kolonialismus und Imperialismus. Und jetzt?",
-        "paragraphs": [
-          "Was war das in Venezuela, ein Coup, ein Staatsstreich? Sicher ist nur, dass die von Trump befehligte US-Militäraktion gegen den Diktator Maduro ein Bruch mit der Weltordnung ist, ein Rückfall in Zeiten von Kolonialismus und Imperialismus. Und jetzt?"
-        ],
-        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/maduro-trump-venezuela-drogen-angriff-oel-e558429/",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-04T11:00:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:6b12f880-cc64-442d-82ad-51f83799bb58}",
-        "title": "US-Angriff auf Venezuela: Wer ist Delcy Rodríguez, Venezuelas neue Interimspräsidentin?",
-        "summary": "Nach der Gefangennahme Maduros durch die USA hat das oberste Gericht Venezuelas die bisherige Vizepräsidentin zur Interimspräsidentin ernannt. Wofür steht sie?",
-        "paragraphs": [
-          "Nach der Gefangennahme Maduros durch die USA hat das oberste Gericht Venezuelas die bisherige Vizepräsidentin zur Interimspräsidentin ernannt. Wofür steht sie?"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/delcy-rodr-guez-interimspraesidentin-usa-angriff-venezuela-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-04T10:53:14.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "{urn:uuid:4938fd99-790b-45a9-b0c2-7d7d485858c8}",
+        "title": "Vierschanzentournee: Ren Nikaido gewinnt am Bergisel vor Domen Prevc",
+        "summary": "Ren Nikaido hat das Bergiselspringen der Vierschanzentournee gewonnen. Domen Prevc ist Zweiter, führt aber in der Gesamtwertung. Bester Deutscher wurde Felix Hoffmann.",
+        "paragraphs": [
+          "Ren Nikaido hat das Bergiselspringen der Vierschanzentournee gewonnen. Domen Prevc ist Zweiter, führt aber in der Gesamtwertung. Bester Deutscher wurde Felix Hoffmann."
+        ],
+        "link": "https://www.zeit.de/sport/2026-01/nikaido-gewinnt-innsbruck-vierschanzetournee-prevc",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T15:03:07.000Z"
+      },
       {
         "id": "https://www.kicker.de/leitl-form-und-stimmung-hochhalten-1180684/artikel#omrss",
         "title": "Leitl: \"Form und Stimmung hochhalten\"",
@@ -613,7 +624,7 @@
       },
       {
         "id": "https://www.kicker.de/marokko-gegen-tansania-2026-afrika-cup-4995912/spielbericht#omrss",
-        "title": "LIVE! Turnier-Gastgeber gegen Underdog: Marokko trifft auf Tansania",
+        "title": "LIVE! Hakimi zurück in der Startelf: Gastgeber Marokko trifft auf Underdog Tansania",
         "summary": "Tansania konnte im laufenden Turnier noch kein Spiel gewinnen - und trifft nun auf den ungeschlagenen Gastgeber. Die Marokkaner um die Torjäger Brahim Diaz und El Kaabi wollen im Stade Prince Moulay Abdallah unter die letzten Acht.",
         "paragraphs": [
           "Tansania konnte im laufenden Turnier noch kein Spiel gewinnen - und trifft nun auf den ungeschlagenen Gastgeber. Die Marokkaner um die Torjäger Brahim Diaz und El Kaabi wollen im Stade Prince Moulay Abdallah unter die letzten Acht."
@@ -654,20 +665,20 @@
         "link": "https://www.kicker.de/lazio-gegen-neapel-2026-serie-a-5042214/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-04T13:40:24.000Z"
-      },
-      {
-        "id": "li.3362956",
-        "title": "Transfermarkt: Der BVB spürt seltsame Zentrifugalkräfte",
-        "summary": "Pascal Groß zieht die Konsequenzen aus seiner Nebenrolle in Dortmund und kehrt nach Brighton zurück – auch mit Blick auf die WM. Überhaupt gibt es Spannungen im BVB-Kader.",
-        "paragraphs": [
-          "Pascal Groß zieht die Konsequenzen aus seiner Nebenrolle in Dortmund und kehrt nach Brighton zurück – auch mit Blick auf die WM. Überhaupt gibt es Spannungen im BVB-Kader."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/pascal-gross-transfer-brighton-bvb-fussball-bundesliga-li.3362956",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-04T13:39:39.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/bestenlisten/testbericht/creality-falcon-a1-im-test-laserklasse-1-engraver-mit-gehaeuse/j39q6ek?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Creality Falcon A1 im Test: Laserklasse-1-Engraver mit Gehäuse",
+        "summary": "Der Creality Falcon A1 kombiniert einen 10-Watt-Diodenlaser mit geschlossenem Gehäuse und zahlreichen Sicherheitsfeatures.",
+        "paragraphs": [
+          "Der Creality Falcon A1 kombiniert einen 10-Watt-Diodenlaser mit geschlossenem Gehäuse und zahlreichen Sicherheitsfeatures."
+        ],
+        "link": "https://www.heise.de/bestenlisten/testbericht/creality-falcon-a1-im-test-laserklasse-1-engraver-mit-gehaeuse/j39q6ek?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-04T15:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/ratgeber/Fototour-Hamburger-Bunker-Von-Kriegsrelikten-zur-Stadtarchitektur-11116016.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "title": "heise+ | Fototour Hamburger Bunker: Von Kriegsrelikten zur Stadtarchitektur",
@@ -691,17 +702,6 @@
         "publishedAt": "2026-01-04T12:50:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Automatisierter-VM-Konfigurator-Cloud-init-fuer-Proxmox-im-Ueberblick-11099850.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Automatisierter VM-Konfigurator Cloud-init für Proxmox im Überblick",
-        "summary": "Cloud-init stellt für Proxmox neue VM- und Containerinstanzen automatisiert bereit. Gastsysteme entstehen reproduzierbar und ohne Nacharbeiten.",
-        "paragraphs": [
-          "Cloud-init stellt für Proxmox neue VM- und Containerinstanzen automatisiert bereit. Gastsysteme entstehen reproduzierbar und ohne Nacharbeiten."
-        ],
-        "link": "https://www.heise.de/hintergrund/Automatisierter-VM-Konfigurator-Cloud-init-fuer-Proxmox-im-Ueberblick-11099850.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2026-01-04T12:30:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/hintergrund/Mission-Muellabfuhr-Warum-Weltraumschrott-uns-alle-betrifft-11057091.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "title": "heise+ | Gefahr im All: Wie Roboter und Plasmastrahlen vor Weltraumschrott retten sollen",
         "summary": "Von Navigation bis Wettervorhersage – die moderne Welt hängt an Satelliten. Die Müllwolke im Orbit droht alles zum Absturz zu bringen. Doch es gibt Lösungen.",
@@ -709,6 +709,17 @@
           "Von Navigation bis Wettervorhersage – die moderne Welt hängt an Satelliten. Die Müllwolke im Orbit droht alles zum Absturz zu bringen. Doch es gibt Lösungen."
         ],
         "link": "https://www.heise.de/hintergrund/Mission-Muellabfuhr-Warum-Weltraumschrott-uns-alle-betrifft-11057091.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2026-01-04T12:30:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/hintergrund/Automatisierter-VM-Konfigurator-Cloud-init-fuer-Proxmox-im-Ueberblick-11099850.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | Automatisierter VM-Konfigurator Cloud-init für Proxmox im Überblick",
+        "summary": "Cloud-init stellt für Proxmox neue VM- und Containerinstanzen automatisiert bereit. Gastsysteme entstehen reproduzierbar und ohne Nacharbeiten.",
+        "paragraphs": [
+          "Cloud-init stellt für Proxmox neue VM- und Containerinstanzen automatisiert bereit. Gastsysteme entstehen reproduzierbar und ohne Nacharbeiten."
+        ],
+        "link": "https://www.heise.de/hintergrund/Automatisierter-VM-Konfigurator-Cloud-init-fuer-Proxmox-im-Ueberblick-11099850.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "source": "heise",
         "publishedAt": "2026-01-04T12:30:00.000Z"
       },
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Digitalminister-Wildberger-Bei-Staatsmodernisierung-brutal-fokussieren-11127960.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-03T12:58:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/c-t-Webinar-Waermepumpentechnik-fuer-Einsteiger-erklaert-11115167.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: c’t-Webinar – Wärmepumpentechnik für Einsteiger erklärt",
-        "summary": "Das Webinar bietet eine herstellerunabhängige Einführung in die Wärmepumpentechnik, hilft die Machbarkeit zu beurteilen und räumt mit Vorurteilen auf.",
-        "paragraphs": [
-          "Das Webinar bietet eine herstellerunabhängige Einführung in die Wärmepumpentechnik, hilft die Machbarkeit zu beurteilen und räumt mit Vorurteilen auf."
-        ],
-        "link": "https://www.heise.de/news/c-t-Webinar-Waermepumpentechnik-fuer-Einsteiger-erklaert-11115167.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-03T12:00:00.000Z"
       }
     ]
   }
