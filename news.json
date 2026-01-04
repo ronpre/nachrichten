@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-04T13:21:15.320Z",
+  "updatedAt": "2026-01-04T13:40:16.891Z",
   "categories": {
     "wirtschaft": [
       {
@@ -49,9 +49,9 @@
       {
         "id": "https://www.handelsblatt.com/unternehmen/dienstleister/griechenland-massive-stoerung-legt-nahezu-gesamten-flugverkehr-lahm/100188443.html",
         "title": "Luftfahrt: Massive Störung legt Flugverkehr in Griechenland lahm",
-        "summary": "Ein Problem in den zentralen Funk- und Kommunikationssystemen der Kontrollzentren führt zu einem fast leeren griechischen Luftraum. Bis auf Weiteres werden alle Flüge umgeleitet.",
+        "summary": "Ein Problem in den zentralen Funk- und Kommunikationssystemen der Kontrollzentren führt zu einem fast leeren griechischen Luftraum. Erst am Nachmittag tritt Besserung ein.",
         "paragraphs": [
-          "Ein Problem in den zentralen Funk- und Kommunikationssystemen der Kontrollzentren führt zu einem fast leeren griechischen Luftraum. Bis auf Weiteres werden alle Flüge umgeleitet."
+          "Ein Problem in den zentralen Funk- und Kommunikationssystemen der Kontrollzentren führt zu einem fast leeren griechischen Luftraum. Erst am Nachmittag tritt Besserung ein."
         ],
         "link": "https://www.handelsblatt.com/unternehmen/dienstleister/griechenland-massive-stoerung-legt-nahezu-gesamten-flugverkehr-lahm/100188443.html",
         "source": "Handelsblatt",
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:9a64f4a7-3e3e-4eaf-8241-03236f31c8e3}",
+        "title": "Stromausfall in Berlin: Polizei hält Bekennerschreiben von Linksextremisten für glaubhaft",
+        "summary": "Nach dem Stromausfall in Berlin gehen Politik und Polizei von einem linksextremistischen Hintergrund aus. Bürgermeister Wegner spricht von einem inakzeptablen Angriff.",
+        "paragraphs": [
+          "Nach dem Stromausfall in Berlin gehen Politik und Polizei von einem linksextremistischen Hintergrund aus. Bürgermeister Wegner spricht von einem inakzeptablen Angriff."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2026-01/stromausfall-berlin-anschlag-linksextremismus-vulkangruppe-kai-wegner",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T13:26:25.000Z"
+      },
+      {
+        "id": "li.3351274",
+        "title": "Wohnen: Ein entscheidendes Jahr für Mieter",
+        "summary": "Die Koalition hat ein wichtiges Versprechen gegeben, Justizministerin Hubig muss es nun umsetzen. Wird sie der Aufgabe gerecht? Eine erste Bilanz.",
+        "paragraphs": [
+          "Die Koalition hat ein wichtiges Versprechen gegeben, Justizministerin Hubig muss es nun umsetzen. Wird sie der Aufgabe gerecht? Eine erste Bilanz."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/mieten-mietrecht-stefanie-hubig-deutscher-mieterbund-li.3351274",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-04T13:21:24.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/berlin-stromausfall-im-suedwesten-dauert-wahrscheinlich-bis-donnerstag/100188465.html",
         "title": "Berlin: Stromausfall in Berlin dauert wahrscheinlich bis Donnerstag – Notunterkünfte füllen sich",
         "summary": "45.000 Haushalte und 2200 Unternehmen in Berlin sind von einem großflächigen Stromausfall betroffen. Die Reparatur ist äußerst komplex. Die Täter kommen offenbar aus dem linksextremen Lager.",
@@ -249,11 +271,11 @@
       {
         "id": "{urn:uuid:7ab112b9-df5a-4b09-bb77-cde036f0d552}",
         "title": "Myanmar: Junta in Myanmar begnadigt über 6.000 Gefangene zum Unabhängigkeitstag",
-        "summary": "Zum Gedenken an Myanmars Unabhängigkeit hat die Militärjunta in Myanmar mehr als sechstausend Häftlinge entlassen. Unter den Begnadigten sind mehr als 50 Ausländer.",
+        "summary": "Zum Gedenken an Myanmars Unabhängigkeit hat die Militärjunta in Myanmar mehr als 6.000 Häftlinge entlassen. Unter den Begnadigten sind mehr als 50 Ausländer.",
         "paragraphs": [
-          "Zum Gedenken an Myanmars Unabhängigkeit hat die Militärjunta in Myanmar mehr als sechstausend Häftlinge entlassen. Unter den Begnadigten sind mehr als 50 Ausländer."
+          "Zum Gedenken an Myanmars Unabhängigkeit hat die Militärjunta in Myanmar mehr als 6.000 Häftlinge entlassen. Unter den Begnadigten sind mehr als 50 Ausländer."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/myanmar-militaerjunta-begnadigung-gefangene-unabhaengigkeitstag-haft",
+        "link": "https://www.zeit.de/politik/ausland/2026-01/myanmar-militaerjunta-begnadigung-gefangene-unabhaengigkeitstag-haft-gxe",
         "source": "ZEIT",
         "publishedAt": "2026-01-04T12:50:59.000Z"
       },
@@ -267,17 +289,6 @@
         "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
         "source": "ZEIT",
         "publishedAt": "2026-01-04T12:18:45.000Z"
-      },
-      {
-        "id": "{urn:uuid:9a64f4a7-3e3e-4eaf-8241-03236f31c8e3}",
-        "title": "Stromausfall in Berlin: Polizei hält Bekennerschreiben von Linksextremisten für glaubhaft",
-        "summary": "Nach dem Stromausfall in Berlin gehen Politik und Polizei von einem linksextremistischen Hintergrund aus. Bürgermeister Wegner spricht von einem inakzeptablen Angriff.",
-        "paragraphs": [
-          "Nach dem Stromausfall in Berlin gehen Politik und Polizei von einem linksextremistischen Hintergrund aus. Bürgermeister Wegner spricht von einem inakzeptablen Angriff."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2026-01/stromausfall-berlin-anschlag-linksextremismus-vulkangruppe-kai-wegner",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-04T12:09:00.000Z"
       },
       {
         "id": "li.3352720",
@@ -432,30 +443,19 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/usa-einsatz-venezuela-reaktionen-lateinamerika",
         "source": "ZEIT",
         "publishedAt": "2026-01-04T08:45:11.000Z"
-      },
-      {
-        "id": "li.3339994",
-        "title": "Europäische Union: Angst um eine Erfolgsgeschichte",
-        "summary": "Gerald Knaus und seine Tochter Francesca haben ein freundliches Buch über das friedliche Europa seit 1945 geschrieben. Doch ihre Thesen, wie sich dieses „Wunder“ verteidigen ließe, bleiben vage.",
-        "paragraphs": [
-          "Gerald Knaus und seine Tochter Francesca haben ein freundliches Buch über das friedliche Europa seit 1945 geschrieben. Doch ihre Thesen, wie sich dieses „Wunder“ verteidigen ließe, bleiben vage."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/gerald-knaus-europa-eu-erfolgsgeschichte-herausforderungen-francesca-knaus-welches-europa-brauchen-wir-li.3339994",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-04T08:44:16.000Z"
       }
     ],
     "sport": [
       {
         "id": "https://www.kicker.de/lazio-gegen-neapel-2026-serie-a-5042214/spielbericht#omrss",
-        "title": "LIVE! Napoli führt, Lazio in Unterzahl",
-        "summary": "Rasmus Höjlund ist derzeit in Topform, traf zuletzt doppelt. Wird der Däne auch gegen Lazio zum Matchwinner der SSC?",
+        "title": "Politano als Wegbereiter und drei Platzverweise: Napoli siegt bei Lazio",
+        "summary": "Napoli feierte einen ebenso souveränen wie verdienten 2:0-Erfolg bei Lazio Rom. Der Meister hatte gegen enttäuschende Hauptstädter alles unter Kontrolle, in der Schlussphase kam viel Farbe ins Spiel",
         "paragraphs": [
-          "Rasmus Höjlund ist derzeit in Topform, traf zuletzt doppelt. Wird der Däne auch gegen Lazio zum Matchwinner der SSC?"
+          "Napoli feierte einen ebenso souveränen wie verdienten 2:0-Erfolg bei Lazio Rom. Der Meister hatte gegen enttäuschende Hauptstädter alles unter Kontrolle, in der Schlussphase kam viel Farbe ins Spiel"
         ],
         "link": "https://www.kicker.de/lazio-gegen-neapel-2026-serie-a-5042214/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-01-04T13:13:23.000Z"
+        "publishedAt": "2026-01-04T13:29:09.000Z"
       },
       {
         "id": "li.3362959",
@@ -546,13 +546,13 @@
         "publishedAt": "2026-01-04T12:18:32.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-nach-wackler-in-der-quali-geht-die-prevc-show-am-bergisel-weiter-1180199/artikel#omrss",
-        "title": "LIVE! Nach Wackler in der Quali: Geht die Prevc-Show am Bergisel weiter?",
+        "id": "https://www.kicker.de/live-springen-am-bergisel-drei-vor-prevc-hoffmann-aktuell-sechster-1180199/artikel#omrss",
+        "title": "LIVE! Springen am Bergisel: Drei vor Prevc - Hoffmann aktuell Sechster",
         "summary": "Domen Prevc war sowohl in Oberstdorf als auch in Garmisch-Partenkirchen eine Klasse für sich, der Slowene gewann beide Springen. Setzt sich der Dominator auch bei der dritten Station der Vierschanzentournee in Innsbruck auf der Bergisel-Schanze durch?",
         "paragraphs": [
           "Domen Prevc war sowohl in Oberstdorf als auch in Garmisch-Partenkirchen eine Klasse für sich, der Slowene gewann beide Springen. Setzt sich der Dominator auch bei der dritten Station der Vierschanzentournee in Innsbruck auf der Bergisel-Schanze durch?"
         ],
-        "link": "https://www.kicker.de/live-nach-wackler-in-der-quali-geht-die-prevc-show-am-bergisel-weiter-1180199/artikel#omrss",
+        "link": "https://www.kicker.de/live-springen-am-bergisel-drei-vor-prevc-hoffmann-aktuell-sechster-1180199/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-04T12:06:28.000Z"
       },
