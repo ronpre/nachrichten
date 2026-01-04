@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-04T00:51:13.131Z",
+  "updatedAt": "2026-01-04T01:34:20.487Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:ff3b7c2a-5c6f-4aa0-b2aa-7134d979b80a}",
+        "title": "Nord- und Südkorea: Südkorea meldet erneuten Raketentest Nordkoreas",
+        "summary": "Nordkorea soll eine ballistische Rakete Richtung Meer abgefeuert haben. Südkoreas Präsident war zuvor zu einem Treffen mit Chinas Staatschef aufgebrochen.",
+        "paragraphs": [
+          "Nordkorea soll eine ballistische Rakete Richtung Meer abgefeuert haben. Südkoreas Präsident war zuvor zu einem Treffen mit Chinas Staatschef aufgebrochen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/suedkorea-raketentest-nordkorea-meldung-treffen-china-staatschef",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T01:21:36.000Z"
+      },
+      {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "USA und Venezuela: Maduro ist in den USA angekommen",
+        "summary": "Ein Flugzeug mit dem venezolanischen Staatschef und seiner Frau ist im Bundesstaat New York gelandet. US-Regierung bringt Venezuelas Ölexporte zum Erliegen. Das Liveblog",
+        "paragraphs": [
+          "Ein Flugzeug mit dem venezolanischen Staatschef und seiner Frau ist im Bundesstaat New York gelandet. US-Regierung bringt Venezuelas Ölexporte zum Erliegen. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T01:01:02.000Z"
+      },
+      {
         "id": "li.3353911",
         "title": "Krieg in Nahost: Britische und französische Luftwaffe greifen IS in Syrien an",
         "summary": "Der Angriff zielte auf eine unterirdische Anlage nördlich von Palmyra ab, die der Terrormiliz als Waffenlager gedient haben soll. Die britische Regierung will damit ein Wiederaufleben des IS verhindern.",
@@ -237,7 +259,7 @@
       },
       {
         "id": "{urn:uuid:fa5fe71d-fa04-4c18-ae42-7131d649bd7f}",
-        "title": "Bürgerkrieg im Jemen : Jemen meldet Rückeroberung von ölreichem Gebiet",
+        "title": "Bürgerkrieg im Jemen: Jemen meldet Rückeroberung von ölreichem Gebiet",
         "summary": "Ein von Saudi-Arabien angeführtes Militärbündnis will die Region Hadramaut unter Kontrolle gebracht haben. Das saudische Außenministerium ruft zum Dialog auf.",
         "paragraphs": [
           "Ein von Saudi-Arabien angeführtes Militärbündnis will die Region Hadramaut unter Kontrolle gebracht haben. Das saudische Außenministerium ruft zum Dialog auf."
@@ -248,25 +270,14 @@
       },
       {
         "id": "{urn:uuid:8377bd59-6fec-4339-87b3-1bcfa514133c}",
-        "title": "Syrien: Großbritannien und Frankreich bombardieren mutmaßliches IS-Lager",
-        "summary": "Die Terrormiliz IS soll in den Bergen vor Palmyra unterirdisch Waffen lagern. Das britische und französische Militär versucht, die Erstarkung des IS zu verhindern.",
+        "title": "Syrien: Großbritannien und Frankreich bombardieren mutmaßliches IS-Waffenlager",
+        "summary": "Die Terrormiliz IS soll in den Bergen vor Palmyra unterirdisch Waffen lagern. Das britische und das französische Militär versuchen, die Erstarkung des IS zu verhindern.",
         "paragraphs": [
-          "Die Terrormiliz IS soll in den Bergen vor Palmyra unterirdisch Waffen lagern. Das britische und französische Militär versucht, die Erstarkung des IS zu verhindern."
+          "Die Terrormiliz IS soll in den Bergen vor Palmyra unterirdisch Waffen lagern. Das britische und das französische Militär versuchen, die Erstarkung des IS zu verhindern."
         ],
         "link": "https://www.zeit.de/politik/ausland/2026-01/syrien-is-waffenlager-grossbritannien-frankreich",
         "source": "ZEIT",
         "publishedAt": "2026-01-04T00:24:26.000Z"
-      },
-      {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "USA und Venezuela: Maduro ist in den USA angekommen",
-        "summary": "Ein Flugzeug mit dem venezolanischen Staatschef und seiner Frau ist im Bundesstaat New York gelandet. US-Regierung bringt Venezuelas Ölexporte zum Erliegen. Das Liveblog",
-        "paragraphs": [
-          "Ein Flugzeug mit dem venezolanischen Staatschef und seiner Frau ist im Bundesstaat New York gelandet. US-Regierung bringt Venezuelas Ölexporte zum Erliegen. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-03T23:14:19.000Z"
       },
       {
         "id": "{urn:uuid:e2ef9a4c-26eb-47cb-82bb-9ecf80a792f4}",
@@ -390,17 +401,6 @@
         "publishedAt": "2026-01-03T18:06:56.000Z"
       },
       {
-        "id": "{urn:uuid:b3d6cb1b-d84f-4b24-8380-6d8822614d5c}",
-        "title": "US-Außenpolitik in Lateinamerika: Gibt es Parallelen zur Geschichte?",
-        "summary": "Der Angriff auf Venezuela steht in einer langen Reihe von US-Interventionen in Lateinamerika. Selbst eine Entführung gab es bereits – genau vor 36 Jahren.",
-        "paragraphs": [
-          "Der Angriff auf Venezuela steht in einer langen Reihe von US-Interventionen in Lateinamerika. Selbst eine Entführung gab es bereits – genau vor 36 Jahren."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/us-aussenpolitik-lateinamerika-kommunismus-drogen-diktatoren",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-03T18:04:57.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/international/venezuela-trump-veroeffentlicht-foto-von-maduro-an-bord-von-us-kriegsschiff/100188255.html",
         "title": "Südamerika: USA greifen Venezuela an – Trump veröffentlicht Foto von Maduro an Bord von US-Kriegsschiff",
         "summary": "Die Vereinigten Staaten haben einen Militärschlag gegen mehrere Ziele ausgeführt. Laut US-Präsident Donald Trump wurde Venezuelas Machthaber Maduro außer Landes gebracht. Was bisher bekannt ist.",
@@ -410,17 +410,6 @@
         "link": "https://www.handelsblatt.com/politik/international/venezuela-trump-veroeffentlicht-foto-von-maduro-an-bord-von-us-kriegsschiff/100188255.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-03T16:50:56.000Z"
-      },
-      {
-        "id": "{urn:uuid:14e5884f-b353-46b8-8f16-65a90918574d}",
-        "title": "Hintergründe zum US-Angriff: Machtwechsel oder Übergangsphase? Venezuelas ungewisse Zukunft",
-        "summary": "Nach dem Angriff der USA auf Venezuela ist unklar, wie es in dem Land weitergeht. Aber ein \"regime change\" wäre gefährlich. Über die Hintergründe und Folgen des Angriffs.",
-        "paragraphs": [
-          "Nach dem Angriff der USA auf Venezuela ist unklar, wie es in dem Land weitergeht. Aber ein \"regime change\" wäre gefährlich. Über die Hintergründe und Folgen des Angriffs."
-        ],
-        "link": "https://www.zeit.de/politik/2026-01/hintergruende-us-angriff-venezuela-nachrichtenpodcast",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-03T16:42:38.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/venezuela-wer-koennte-auf-maduro-folgen/100188328.html",
@@ -443,6 +432,17 @@
         "link": "https://www.handelsblatt.com/politik/international/nahost-das-regime-im-iran-steht-vor-seiner-groessten-herausforderung/100188063.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-03T15:29:55.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/venezuela-merz-rechtliche-einordnung-ist-komplex/100188261.html",
+        "title": "+++ Venezuela +++: Merz: Rechtliche Einordnung ist komplex",
+        "summary": "Machado: Oppositioneller González soll Präsident werden +++ Bondi: Maduro in New York angeklagt +++ Der Newsblog.",
+        "paragraphs": [
+          "Machado: Oppositioneller González soll Präsident werden +++ Bondi: Maduro in New York angeklagt +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/venezuela-merz-rechtliche-einordnung-ist-komplex/100188261.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-03T15:24:12.000Z"
       }
     ],
     "sport": [
