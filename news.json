@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-04T04:51:51.791Z",
+  "updatedAt": "2026-01-04T05:10:47.319Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "USA und Venezuela: Venezuelas Vizepräsidentin übernimmt Staatsführung",
+        "summary": "Das oberste Gericht Venezuelas hat Delcy Rodríguez zur Interimspräsidentin ernannt. Der entmachtete Staatschef Nicolás Maduro ist in New York gelandet. Das Liveblog",
+        "paragraphs": [
+          "Das oberste Gericht Venezuelas hat Delcy Rodríguez zur Interimspräsidentin ernannt. Der entmachtete Staatschef Nicolás Maduro ist in New York gelandet. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T04:48:43.000Z"
+      },
+      {
+        "id": "{urn:uuid:fa5fe71d-fa04-4c18-ae42-7131d649bd7f}",
+        "title": "Bürgerkrieg im Jemen: Regierungstruppen im Jemen erobern ölreiches Gebiet zurück",
+        "summary": "Ein von Saudi-Arabien unterstütztes Militärbündnis hat die Region Hadramaut unter Kontrolle gebracht. Nun erklären sich auch Separatisten im Süden zu Gesprächen bereit.",
+        "paragraphs": [
+          "Ein von Saudi-Arabien unterstütztes Militärbündnis hat die Region Hadramaut unter Kontrolle gebracht. Nun erklären sich auch Separatisten im Süden zu Gesprächen bereit."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/jemen-rueckeroberung-saudi-arabien-gebiete-separatisten-hadramaut",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T04:47:24.000Z"
+      },
+      {
         "id": "li.3362798",
         "title": "Venezuela: Bomben, eine Gefangennahme und viele Fragen",
         "summary": "Maduro ist gestürzt, wie aber geht es nun weiter in Venezuela? Ein denkwürdiger Auftritt Donald Trumps nährt den Verdacht, dass die USA dafür keinen rechten Plan zu haben scheinen – abgesehen von neuen Drohungen.",
@@ -258,17 +280,6 @@
         "publishedAt": "2026-01-04T03:47:00.000Z"
       },
       {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "USA und Venezuela: Venezuelas Vizepräsidentin übernimmt Staatsführung",
-        "summary": "Das oberste Gericht Venezuelas hat Delcy Rodríguez zur Interimspräsidentin ernannt. Der entmachtete Staatschef Nicolás Maduro ist in New York gelandet. Das Liveblog",
-        "paragraphs": [
-          "Das oberste Gericht Venezuelas hat Delcy Rodríguez zur Interimspräsidentin ernannt. Der entmachtete Staatschef Nicolás Maduro ist in New York gelandet. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-04T03:03:56.000Z"
-      },
-      {
         "id": "{urn:uuid:1cfca464-fbd0-40f2-9493-e8e3a81f8519}",
         "title": "Asylpolitik: Zahl der Asylanträge sinkt um ein Drittel",
         "summary": "Im Jahr 2025 beantragten laut einem Bericht erneut deutlich weniger Menschen in Deutschland Asyl. Bundesinnenminister Alexander Dobrindt spricht von einem klaren Signal.",
@@ -300,17 +311,6 @@
         "link": "https://www.sueddeutsche.de/politik/nahost-liveblog-news-islamischer-staat-syrien-palmyra-li.3353911",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-04T00:45:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:fa5fe71d-fa04-4c18-ae42-7131d649bd7f}",
-        "title": "Bürgerkrieg im Jemen: Jemen meldet Rückeroberung von ölreichem Gebiet",
-        "summary": "Ein von Saudi-Arabien angeführtes Militärbündnis will die Region Hadramaut unter Kontrolle gebracht haben. Das saudische Außenministerium ruft zum Dialog auf.",
-        "paragraphs": [
-          "Ein von Saudi-Arabien angeführtes Militärbündnis will die Region Hadramaut unter Kontrolle gebracht haben. Das saudische Außenministerium ruft zum Dialog auf."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/jemen-rueckeroberung-saudi-arabien-gebiete-separatisten-hadramaut",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-04T00:38:59.000Z"
       },
       {
         "id": "{urn:uuid:8377bd59-6fec-4339-87b3-1bcfa514133c}",
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Festung-im-All-Wie-Europa-Satelliten-gegen-Cyberangriffe-und-Geopolitik-wappnet-11128069.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Festung im All: Wie Europa Satelliten gegen Cyberangriffe und Geopolitik wappnet",
+        "summary": "Von Grönland bis in den Orbit: Die EU investiert viel in neue Laser-Technologien und eigene Infrastrukturen, um sich aus der Abhängigkeit von den USA zu lösen.",
+        "paragraphs": [
+          "Von Grönland bis in den Orbit: Die EU investiert viel in neue Laser-Technologien und eigene Infrastrukturen, um sich aus der Abhängigkeit von den USA zu lösen."
+        ],
+        "link": "https://www.heise.de/news/Festung-im-All-Wie-Europa-Satelliten-gegen-Cyberangriffe-und-Geopolitik-wappnet-11128069.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-04T05:03:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/bestenlisten/testsieger/top-10-der-beste-guenstige-mini-pc-mit-windows-11-bis-300-euro-erstaunlich-gut/flxjgm9?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Top 10: Der beste günstige Mini-PC mit Windows 11 bis 300 Euro",
         "summary": "Selbst günstige Mini-PCs bieten richtig gute Ausstattung. Wir zeigen aus über 80 Tests die besten Mini-Computer bis 300 Euro.",
@@ -875,17 +886,6 @@
         ],
         "link": "https://www.heise.de/news/39C3-Die-Krux-mit-der-digitalen-Souveraenitaet-c-t-uplink-11126946.html",
         "source": "c't",
-        "publishedAt": "2026-01-03T05:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/39C3-Die-Krux-mit-der-digitalen-Souveraenitaet-c-t-uplink-11126946.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "39C3: Die Krux mit der digitalen Souveränität | c’t uplink",
-        "summary": "Warum der Staat weiter auf Big Tech setzt und was das Problem mit dem Begriff digitale Souveränität ist, war das Thema der c’t-uplink-Sonderfolge auf dem 39C3.",
-        "paragraphs": [
-          "Warum der Staat weiter auf Big Tech setzt und was das Problem mit dem Begriff digitale Souveränität ist, war das Thema der c’t-uplink-Sonderfolge auf dem 39C3."
-        ],
-        "link": "https://www.heise.de/news/39C3-Die-Krux-mit-der-digitalen-Souveraenitaet-c-t-uplink-11126946.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
         "publishedAt": "2026-01-03T05:30:00.000Z"
       }
     ]
