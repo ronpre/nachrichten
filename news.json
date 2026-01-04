@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-04T00:26:33.791Z",
+  "updatedAt": "2026-01-04T00:51:13.131Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,39 @@
     ],
     "politik": [
       {
+        "id": "li.3353911",
+        "title": "Krieg in Nahost: Britische und französische Luftwaffe greifen IS in Syrien an",
+        "summary": "Der Angriff zielte auf eine unterirdische Anlage nördlich von Palmyra ab, die der Terrormiliz als Waffenlager gedient haben soll. Die britische Regierung will damit ein Wiederaufleben des IS verhindern.",
+        "paragraphs": [
+          "Der Angriff zielte auf eine unterirdische Anlage nördlich von Palmyra ab, die der Terrormiliz als Waffenlager gedient haben soll. Die britische Regierung will damit ein Wiederaufleben des IS verhindern."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/nahost-liveblog-news-islamischer-staat-syrien-palmyra-li.3353911",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-04T00:45:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:fa5fe71d-fa04-4c18-ae42-7131d649bd7f}",
+        "title": "Bürgerkrieg im Jemen : Jemen meldet Rückeroberung von ölreichem Gebiet",
+        "summary": "Ein von Saudi-Arabien angeführtes Militärbündnis will die Region Hadramaut unter Kontrolle gebracht haben. Das saudische Außenministerium ruft zum Dialog auf.",
+        "paragraphs": [
+          "Ein von Saudi-Arabien angeführtes Militärbündnis will die Region Hadramaut unter Kontrolle gebracht haben. Das saudische Außenministerium ruft zum Dialog auf."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/jemen-rueckeroberung-saudi-arabien-gebiete-separatisten-hadramaut",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T00:38:59.000Z"
+      },
+      {
+        "id": "{urn:uuid:8377bd59-6fec-4339-87b3-1bcfa514133c}",
+        "title": "Syrien: Großbritannien und Frankreich bombardieren mutmaßliches IS-Lager",
+        "summary": "Die Terrormiliz IS soll in den Bergen vor Palmyra unterirdisch Waffen lagern. Das britische und französische Militär versucht, die Erstarkung des IS zu verhindern.",
+        "paragraphs": [
+          "Die Terrormiliz IS soll in den Bergen vor Palmyra unterirdisch Waffen lagern. Das britische und französische Militär versucht, die Erstarkung des IS zu verhindern."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/syrien-is-waffenlager-grossbritannien-frankreich",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-04T00:24:26.000Z"
+      },
+      {
         "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
         "title": "USA und Venezuela: Maduro ist in den USA angekommen",
         "summary": "Ein Flugzeug mit dem venezolanischen Staatschef und seiner Frau ist im Bundesstaat New York gelandet. US-Regierung bringt Venezuelas Ölexporte zum Erliegen. Das Liveblog",
@@ -390,17 +423,6 @@
         "publishedAt": "2026-01-03T16:42:38.000Z"
       },
       {
-        "id": "{urn:uuid:44417333-2b97-469a-99bf-8194abe51119}",
-        "title": "USA und Venezuela: Jetzt live: Die US-Regierung zum US-Einsatz in Venezuela",
-        "summary": "Der US-Präsident äußert sich zum Angriff in Caracas. Die USA haben den venezolanischen Staatschef Nicolás Maduro gefangengenommen und außer Landes gebracht.",
-        "paragraphs": [
-          "Der US-Präsident äußert sich zum Angriff in Caracas. Die USA haben den venezolanischen Staatschef Nicolás Maduro gefangengenommen und außer Landes gebracht."
-        ],
-        "link": "https://www.zeit.de/politik/2026-01/usa-venezuela-konflikt-donald-trump-nicolas-maduro-livestream",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-03T16:39:30.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/international/venezuela-wer-koennte-auf-maduro-folgen/100188328.html",
         "title": "Venezuela: Nach Maduros Festnahme: Wer könnte auf den venezolanischen Präsidenten folgen?",
         "summary": "Kann Venezuelas Vizepräsidentin Rodríguez das Land ohne Maduro führen? Setzt sich die von den USA gestützte Opposition durch – oder greift das Militär im Machtvakuum ein?",
@@ -412,17 +434,6 @@
         "publishedAt": "2026-01-03T16:17:35.000Z"
       },
       {
-        "id": "{urn:uuid:612a50b5-9ac0-473c-b403-7d2f58875f51}",
-        "title": "US-Militäreinsatz in Venezuela: Das also versteht Donald Trump unter Großmachtpolitik",
-        "summary": "Die US-Militäraktion gegen Venezuela ist nicht nur schlicht völkerrechtswidrig. Donald Trumps Vorgehen birgt weltpolitisch unüberschaubare Risiken.",
-        "paragraphs": [
-          "Die US-Militäraktion gegen Venezuela ist nicht nur schlicht völkerrechtswidrig. Donald Trumps Vorgehen birgt weltpolitisch unüberschaubare Risiken."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/usa-militaereinsatz-venezuela-donald-trump-voelkerrecht-un",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-03T15:39:11.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/international/nahost-das-regime-im-iran-steht-vor-seiner-groessten-herausforderung/100188063.html",
         "title": "Nahost: „Könnte eng werden für die Hardliner“ – Irans Regime unter Druck von Trump, Israel und der Bevölkerung",
         "summary": "Und noch ein Regime wankt: Die Wirtschaftskrise im Iran spitzt sich zu. Landesweit gegen Zehntausende auf die Straße. Finden die Mullahs noch einen Ausweg?",
@@ -432,30 +443,30 @@
         "link": "https://www.handelsblatt.com/politik/international/nahost-das-regime-im-iran-steht-vor-seiner-groessten-herausforderung/100188063.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-03T15:29:55.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-merz-rechtliche-einordnung-ist-komplex/100188261.html",
-        "title": "+++ Venezuela +++: Merz: Rechtliche Einordnung ist komplex",
-        "summary": "Machado: Oppositioneller González soll Präsident werden +++ Bondi: Maduro in New York angeklagt +++ Der Newsblog.",
-        "paragraphs": [
-          "Machado: Oppositioneller González soll Präsident werden +++ Bondi: Maduro in New York angeklagt +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-merz-rechtliche-einordnung-ist-komplex/100188261.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-03T15:24:12.000Z"
       }
     ],
     "sport": [
       {
         "id": "https://www.kicker.de/tampa-bay-gegen-carolina-2026-nfl-5040247/spielbericht#omrss",
-        "title": "LIVE! Buccaneers weiter auf Kurs - Panthers brauchen schnell Punkte",
-        "summary": "Week 18 und damit der Abschluss dieser Regular Season ist voll mit großen Entscheidungsspielen - angefangen mit dem NFC-South-Vergleich zwischen den Tampa Bay Buccaneers und Carolina Panthers. Beide Teams brauchen einen Sieg, der Verlierer ist derweil (fast) sicher ausgeschieden.",
+        "title": "Knapper Sieg über Panthers: Buccaneers klammern sich am Playoff-Strohhalm fest",
+        "summary": "Week 18 und damit der Abschluss dieser Regular Season fuhr direkt mit dem mit Spannung erwarteten NFC-South-Vergleich zwischen den Tampa Bay Buccaneers und Carolina Panthers auf. Hier erwiesen sich die Gastgeber jedoch direkt vom Start als fokussierter, frischer, besser - und erhielten am Ende mit einem knappen Sieg ihre Playoff-Chance.",
         "paragraphs": [
-          "Week 18 und damit der Abschluss dieser Regular Season ist voll mit großen Entscheidungsspielen - angefangen mit dem NFC-South-Vergleich zwischen den Tampa Bay Buccaneers und Carolina Panthers. Beide Teams brauchen einen Sieg, der Verlierer ist derweil (fast) sicher ausgeschieden."
+          "Week 18 und damit der Abschluss dieser Regular Season fuhr direkt mit dem mit Spannung erwarteten NFC-South-Vergleich zwischen den Tampa Bay Buccaneers und Carolina Panthers auf. Hier erwiesen sich die Gastgeber jedoch direkt vom Start als fokussierter, frischer, besser - und erhielten am Ende mit einem knappen Sieg ihre Playoff-Chance."
         ],
         "link": "https://www.kicker.de/tampa-bay-gegen-carolina-2026-nfl-5040247/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-01-04T00:00:40.000Z"
+        "publishedAt": "2026-01-04T00:30:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nfl-das-playoff-picture-steelers-und-ravens-im-ultimativen-showdown-1169024/artikel#omrss",
+        "title": "NFL: Das Playoff Picture - Steelers und Ravens im ultimativen Showdown",
+        "summary": "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Zwölf davon sind bereits vergeben, zwei weitere folgen in Endspielen. Der aktuelle Stand.",
+        "paragraphs": [
+          "Auch in diesem Jahr werden wieder 14 Playoff-Tickets nach der Regular Season der NFL vergeben. Zwölf davon sind bereits vergeben, zwei weitere folgen in Endspielen. Der aktuelle Stand."
+        ],
+        "link": "https://www.kicker.de/nfl-das-playoff-picture-steelers-und-ravens-im-ultimativen-showdown-1169024/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-04T00:30:00.000Z"
       },
       {
         "id": "https://www.kicker.de/kurz-vor-abpfiff-olmo-und-lewandowski-brechen-espanyols-derbyherz-1180549/video#omrss",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/openda-laesst-entscheidung-liegen-juventus-stolpert-gegen-lecce-1180522/video#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-03T20:21:13.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/endlich-hat-s-geklappt-lobinger-schliesst-sich-dem-msv-an-1180504/artikel#omrss",
-        "title": "\"Endlich hat's geklappt\": Lobinger schließt sich dem MSV an",
-        "summary": "Mit einem starken dritten Platz beendete der MSV Duisburg die Hinrunde in der 3. Liga. Um in der Rückrunde auch weiter oben mitzuspielen, holen sich die Zebras Wunschstürmer Lex Tyger Lobinger von Ligakonkurrent Viktoria Köln.",
-        "paragraphs": [
-          "Mit einem starken dritten Platz beendete der MSV Duisburg die Hinrunde in der 3. Liga. Um in der Rückrunde auch weiter oben mitzuspielen, holen sich die Zebras Wunschstürmer Lex Tyger Lobinger von Ligakonkurrent Viktoria Köln."
-        ],
-        "link": "https://www.kicker.de/endlich-hat-s-geklappt-lobinger-schliesst-sich-dem-msv-an-1180504/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-03T19:40:39.000Z"
       }
     ],
     "edv": [
