@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-05T19:55:02.177Z",
+  "updatedAt": "2026-01-05T20:05:51.940Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken-ceo-verlaesst-oldenburgische-landesbank-ein-franzose-uebernimmt/100188768.html",
+        "title": "Nach Verkauf: Vorstandschef verlässt Oldenburgische Landesbank – ein Franzose übernimmt",
+        "summary": "Stefan Barth tritt nach der Übernahme durch das französische Genossenschaftsinstitut Crédit Mutuel ab. Sein Nachfolger kommt von der deutschen Tochter Targobank.",
+        "paragraphs": [
+          "Stefan Barth tritt nach der Übernahme durch das französische Genossenschaftsinstitut Crédit Mutuel ab. Sein Nachfolger kommt von der deutschen Tochter Targobank."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken-ceo-verlaesst-oldenburgische-landesbank-ein-franzose-uebernimmt/100188768.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-05T19:43:04.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/venezuela-rodriguez-als-geschaeftsfuehrende-praesidentin-venezuelas-vereidigt/100188261.html",
         "title": "+++ Venezuela +++: Rodríguez als geschäftsführende Präsidentin Venezuelas vereidigt",
@@ -80,13 +91,13 @@
         "publishedAt": "2026-01-05T17:13:31.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/verteidigung-anspruch-auf-groenland-so-koennte-europa-trump-abschrecken/100188616.html",
-        "title": "Verteidigung: „Wir brauchen Grönland unbedingt“: So könnten die Europäer Trump abschrecken",
+        "id": "https://www.handelsblatt.com/politik/international/groenland-so-koennte-sich-europa-gegen-trumps-machtfantasien-wehren/100188616.html",
+        "title": "Grönland: „Wir brauchen Grönland unbedingt“: So könnten die Europäer Trump abschrecken",
         "summary": "Nach dem Angriff auf Venezuela hat US-Präsident Donald Trump seinen Anspruch auf Grönland bekräftigt. Die Europäer sind alarmiert – und verfügen nur über wenige Machthebel.",
         "paragraphs": [
           "Nach dem Angriff auf Venezuela hat US-Präsident Donald Trump seinen Anspruch auf Grönland bekräftigt. Die Europäer sind alarmiert – und verfügen nur über wenige Machthebel."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/verteidigung-anspruch-auf-groenland-so-koennte-europa-trump-abschrecken/100188616.html",
+        "link": "https://www.handelsblatt.com/politik/international/groenland-so-koennte-sich-europa-gegen-trumps-machtfantasien-wehren/100188616.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-05T16:56:02.000Z"
       },
@@ -210,20 +221,42 @@
         "link": "https://www.handelsblatt.com/finanzen/vorsorge/zwischen-boomern-und-gen-z-eine-generation-in-der-rushhour-des-lebens-02/100170215.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-05T15:40:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/mieterbund-recht-auf-mietminderung-auch-bei-strom-und-heizausfall-durch-sabotage-a-b0685420-cc7e-41eb-b89e-0bcebc23465f",
-        "title": "Mieterbund: Recht auf Mietminderung auch bei Strom- und Heizausfall durch Sabotage",
-        "summary": "Strom und Heizung fallen aus und der Grund dafür ist eine technische Störung oder Sabotage? Auch wenn Vermieter nicht schuld sind: Deutschlands Dachorganisation sieht Verbraucher berechtigt, Miete teilweise einzubehalten.",
-        "paragraphs": [
-          "Strom und Heizung fallen aus und der Grund dafür ist eine technische Störung oder Sabotage? Auch wenn Vermieter nicht schuld sind: Deutschlands Dachorganisation sieht Verbraucher berechtigt, Miete teilweise einzubehalten."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/mieterbund-recht-auf-mietminderung-auch-bei-strom-und-heizausfall-durch-sabotage-a-b0685420-cc7e-41eb-b89e-0bcebc23465f#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-05T15:28:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:88b9f28d-80a5-4be6-948c-8d76e400364b}",
+        "title": "Lage in Venezuela: Kann sich Venezuelas Regime an der Macht halten?",
+        "summary": "Nicolás Maduro ist entmachtet, doch sein System ist nicht gestürzt. Die entscheidende Macht hat nun das Militär – und die Menschen im Land berichten von Einschüchterung.",
+        "paragraphs": [
+          "Nicolás Maduro ist entmachtet, doch sein System ist nicht gestürzt. Die entscheidende Macht hat nun das Militär – und die Menschen im Land berichten von Einschüchterung."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/lage-venezuela-us-angriff-regierung-nicolas-maduro-delcy-rodriguez",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T19:56:30.000Z"
+      },
+      {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "US-Angriff auf Venezuela: Delcy Rodríguez als Interimspräsidentin Venezuelas vereidigt",
+        "summary": "Vor Gericht weist Nicolás Maduro alle Anklagepunkte zurück. Venezuelas Vizepräsidentin Delcy Rodríguez wird in Caracas als Interimspräsidentin vereidigt. Das Liveblog",
+        "paragraphs": [
+          "Vor Gericht weist Nicolás Maduro alle Anklagepunkte zurück. Venezuelas Vizepräsidentin Delcy Rodríguez wird in Caracas als Interimspräsidentin vereidigt. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T19:49:17.000Z"
+      },
+      {
+        "id": "{urn:uuid:16cce363-bd4d-4ff8-89a2-59837a951c34}",
+        "title": "New York: Nicolás Maduro plädiert bei Gerichtstermin auf nicht schuldig",
+        "summary": "\"Ich bin ein anständiger Mann\": Vor einem US-Gericht hat Venezuelas Staatschef Maduro seine Unschuld beteuert. Er bezeichnete sich weiter als Präsident seines Landes.",
+        "paragraphs": [
+          "\"Ich bin ein anständiger Mann\": Vor einem US-Gericht hat Venezuelas Staatschef Maduro seine Unschuld beteuert. Er bezeichnete sich weiter als Präsident seines Landes."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/nicolas-maduro-gericht-new-york-plaediert-auf-nicht-schuldig",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T19:47:01.000Z"
+      },
       {
         "id": "li.3352720",
         "title": "US-Angriff auf Venezuela: Rodríguez als geschäftsführende Präsidentin Venezuelas vereidigt",
@@ -245,28 +278,6 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/groenland-jens-frederik-nielsen-usa",
         "source": "ZEIT",
         "publishedAt": "2026-01-05T19:44:14.000Z"
-      },
-      {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "US-Angriff auf Venezuela: Delcy Rodríguez als Interimspräsidentin Venezuelas vereidigt",
-        "summary": "Vor Gericht weist Nicolás Maduro alle Anklagepunkte zurück. Venezuelas Vizepräsidentin Delcy Rodríguez wird in Caracas als Interimspräsidentin vereidigt. Das Liveblog",
-        "paragraphs": [
-          "Vor Gericht weist Nicolás Maduro alle Anklagepunkte zurück. Venezuelas Vizepräsidentin Delcy Rodríguez wird in Caracas als Interimspräsidentin vereidigt. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-05T19:38:28.000Z"
-      },
-      {
-        "id": "{urn:uuid:16cce363-bd4d-4ff8-89a2-59837a951c34}",
-        "title": "New York: Nicolás Maduro plädiert bei Gerichtstermin auf nicht schuldig",
-        "summary": "\"Ich bin ein anständiger Mann\": Vor einem US-Gericht hat Venezuelas Staatschef Maduro seine Unschuld beteuert. Er bezeichnete sich weiter als Präsident seines Landes.",
-        "paragraphs": [
-          "\"Ich bin ein anständiger Mann\": Vor einem US-Gericht hat Venezuelas Staatschef Maduro seine Unschuld beteuert. Er bezeichnete sich weiter als Präsident seines Landes."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/nicolas-maduro-gericht-new-york-plaediert-auf-nicht-schuldig",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-05T19:30:25.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/venezuela-rodriguez-als-geschaeftsfuehrende-praesidentin-venezuelas-vereidigt/100188261.html",
@@ -423,26 +434,15 @@
         "publishedAt": "2026-01-05T17:05:54.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/verteidigung-anspruch-auf-groenland-so-koennte-europa-trump-abschrecken/100188616.html",
-        "title": "Verteidigung: „Wir brauchen Grönland unbedingt“: So könnten die Europäer Trump abschrecken",
+        "id": "https://www.handelsblatt.com/politik/international/groenland-so-koennte-sich-europa-gegen-trumps-machtfantasien-wehren/100188616.html",
+        "title": "Grönland: „Wir brauchen Grönland unbedingt“: So könnten die Europäer Trump abschrecken",
         "summary": "Nach dem Angriff auf Venezuela hat US-Präsident Donald Trump seinen Anspruch auf Grönland bekräftigt. Die Europäer sind alarmiert – und verfügen nur über wenige Machthebel.",
         "paragraphs": [
           "Nach dem Angriff auf Venezuela hat US-Präsident Donald Trump seinen Anspruch auf Grönland bekräftigt. Die Europäer sind alarmiert – und verfügen nur über wenige Machthebel."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/verteidigung-anspruch-auf-groenland-so-koennte-europa-trump-abschrecken/100188616.html",
+        "link": "https://www.handelsblatt.com/politik/international/groenland-so-koennte-sich-europa-gegen-trumps-machtfantasien-wehren/100188616.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-05T16:56:02.000Z"
-      },
-      {
-        "id": "li.3363265",
-        "title": "SZ-Podcast „Auf den Punkt“: Venezuela: Und für die Menschen ändert sich nichts?",
-        "summary": "Was wird nun in Venezuela passieren? Es scheint, als wisse das nicht einmal die Trump-Regierung.",
-        "paragraphs": [
-          "Was wird nun in Venezuela passieren? Es scheint, als wisse das nicht einmal die Trump-Regierung."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-usa-venezuela-trump-maduro-li.3363265",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-05T16:35:33.000Z"
       }
     ],
     "sport": [
@@ -489,6 +489,17 @@
         "link": "https://www.zeit.de/2026/01/andrij-naumow-ukraine-geheimdienst-wien-russland-auslieferung",
         "source": "ZEIT",
         "publishedAt": "2026-01-05T19:21:44.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/endrick-zum-wechsel-ich-wollte-den-rat-von-ancelotti-befolgen-1181077/video#omrss",
+        "title": "Endrick zum Wechsel: \"Ich wollte den Rat von Ancelotti befolgen\"",
+        "summary": "Endrick spielt für den Rest der Saison auf Leihbasis für Olympique Lyon. Zu diesem Schritt hat ihn auch ein Gespräch mit Ex-Real-Trainer Carlo Ancelotti bewogen, erklärt der Brasilianer.",
+        "paragraphs": [
+          "Endrick spielt für den Rest der Saison auf Leihbasis für Olympique Lyon. Zu diesem Schritt hat ihn auch ein Gespräch mit Ex-Real-Trainer Carlo Ancelotti bewogen, erklärt der Brasilianer."
+        ],
+        "link": "https://www.kicker.de/endrick-zum-wechsel-ich-wollte-den-rat-von-ancelotti-befolgen-1181077/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-05T19:05:49.000Z"
       },
       {
         "id": "https://www.kicker.de/tarnats-erste-eindruecke-ich-habe-erst-gedacht-es-ist-die-isar-1181069/artikel#omrss",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/rewe-juniorcup-2026-lokalhalle-als-grosse-buehne-1181039/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-05T16:16:04.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nach-nur-einem-monat-celtic-trennt-sich-von-trainer-nancy-1181046/artikel#omrss",
-        "title": "Nach nur einem Monat: Celtic trennt sich von Trainer Nancy",
-        "summary": "Celtic Glasgow hat mit einem furiosen Personalschnitt auf die Derbyniederlage gegen die Rangers reagiert. Auch Trainer Wilfried Nancy muss schon wieder gehen.",
-        "paragraphs": [
-          "Celtic Glasgow hat mit einem furiosen Personalschnitt auf die Derbyniederlage gegen die Rangers reagiert. Auch Trainer Wilfried Nancy muss schon wieder gehen."
-        ],
-        "link": "https://www.kicker.de/nach-nur-einem-monat-celtic-trennt-sich-von-trainer-nancy-1181046/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-05T16:12:06.000Z"
       }
     ],
     "edv": [
