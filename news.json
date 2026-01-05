@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-05T17:46:44.321Z",
+  "updatedAt": "2026-01-05T17:55:40.789Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.spiegel.de/wirtschaft/deutschlands-kritische-infrastruktur-ist-ein-leichtes-ziel-a-aefeb4d3-98a3-4ce1-8546-365b479cdc74",
+        "title": "Deutschlands kritische Infrastruktur ist ein leichtes Ziel",
+        "summary": "In Berlin sind noch immer Zehntausende Haushalte ohne Strom. Der Vorfall zeigt, wie schlecht Deutschland auf derartige Krisenfälle vorbereitet ist. Schnelle Besserung ist dabei nicht in Sicht.",
+        "paragraphs": [
+          "In Berlin sind noch immer Zehntausende Haushalte ohne Strom. Der Vorfall zeigt, wie schlecht Deutschland auf derartige Krisenfälle vorbereitet ist. Schnelle Besserung ist dabei nicht in Sicht."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/deutschlands-kritische-infrastruktur-ist-ein-leichtes-ziel-a-aefeb4d3-98a3-4ce1-8546-365b479cdc74#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-05T17:51:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/sparkassen-einbruch-giroverband-raet-kunden-versicherungsschutz-zu-pruefen/100188696.html",
         "title": "Sparkassen-Einbruch: Giroverband rät Kunden, Versicherungsschutz zu prüfen",
@@ -169,7 +180,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/munich-re-rueckversicherer-startet-neues-transformationsprogramm/100188669.html",
-        "title": "Rückversicherer: Munich Re startet neues Transformationsprogramm",
+        "title": "Rückversicherer: Munich Re startet neues Transformations-Programm",
         "summary": "Vorstand Achim Kassow soll in den nächsten Jahren die IT-Planung und Prozesse verschlanken. Zudem prüft der Rückversicherer die Verlagerung von Verwaltungsaufgaben ins Ausland.",
         "paragraphs": [
           "Vorstand Achim Kassow soll in den nächsten Jahren die IT-Planung und Prozesse verschlanken. Zudem prüft der Rückversicherer die Verlagerung von Verwaltungsaufgaben ins Ausland."
@@ -210,20 +221,31 @@
         "link": "https://www.spiegel.de/wirtschaft/mieterbund-recht-auf-mietminderung-auch-bei-strom-und-heizausfall-durch-sabotage-a-b0685420-cc7e-41eb-b89e-0bcebc23465f#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-05T15:28:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/maerkte-insight-warum-quantum-aktien-2026-zu-den-gewinnern-zaehlen-koennten-02/100187593.html",
-        "title": "Märkte-Insight: Warum Quantum-Aktien 2026 zu den Gewinnern zählen könnten",
-        "summary": "Papiere wie Rigetti, D-Wave und Ionq haben zuletzt an Schwung verloren, doch die Euphorie könnte zurückkehren, gibt Astrid Dörner zu bedenken.",
-        "paragraphs": [
-          "Papiere wie Rigetti, D-Wave und Ionq haben zuletzt an Schwung verloren, doch die Euphorie könnte zurückkehren, gibt Astrid Dörner zu bedenken."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/maerkte-insight-warum-quantum-aktien-2026-zu-den-gewinnern-zaehlen-koennten-02/100187593.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-05T15:20:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3363486",
+        "title": "Winterklausur: CSU will auch Kinder unter 14 vor Gericht stellen",
+        "summary": "Der Anstieg der Gewaltkriminalität bei Kindern ist besorgniserregend, finden die Abgeordneten. Sie fordern ein neues gerichtliches „Verantwortungsverfahren“.",
+        "paragraphs": [
+          "Der Anstieg der Gewaltkriminalität bei Kindern ist besorgniserregend, finden die Abgeordneten. Sie fordern ein neues gerichtliches „Verantwortungsverfahren“."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/strafmuendigkeit-kinder-kriminalitaet-kloster-seeon-csu-martin-plum-li.3363486",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-05T17:41:48.000Z"
+      },
+      {
+        "id": "li.3352720",
+        "title": "US-Angriff auf Venezuela: Venezuelas Staatschef Maduro plädiert auf nicht schuldig",
+        "summary": "Es ist die erste Anhörung Maduros vor Gericht, nachdem er von den USA in seinem Land gefangengenommen worden war. Ihm wird unter anderem Drogen-Terrorismus vorgeworfen.",
+        "paragraphs": [
+          "Es ist die erste Anhörung Maduros vor Gericht, nachdem er von den USA in seinem Land gefangengenommen worden war. Ihm wird unter anderem Drogen-Terrorismus vorgeworfen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-maduro-new-york-gericht-anhoerung-li.3352720",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-05T17:38:00.000Z"
+      },
       {
         "id": "{urn:uuid:fb70743d-65dc-4402-87e9-04bd7143c765}",
         "title": "Schwarz-rote Koalition: Merz stimmt Regierung auf Unterstützung der deutschen Wirtschaft ein",
@@ -421,28 +443,6 @@
         "link": "https://www.zeit.de/politik/deutschland/2026-01/bueroleiter-kanzleramt-philipp-birkenmaier-friedrich-merz",
         "source": "ZEIT",
         "publishedAt": "2026-01-05T15:35:39.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/kanzleramt-friedrich-merz-tauscht-bueroleiter-aus-a-e2cbc740-f20b-40e7-ad91-6995120fa412",
-        "title": "Kanzleramt: Friedrich Merz tauscht Büroleiter aus",
-        "summary": "Der Bundeskanzler ist noch kein Jahr im Amt, nun ernennt er schon einen neuen Büroleiter. CDU-Bundesgeschäftsführer Philipp Birkenmaier soll künftig die Aufgabe übernehmen. Über seinen Vorgänger hatte es immer wieder Unmut gegeben.",
-        "paragraphs": [
-          "Der Bundeskanzler ist noch kein Jahr im Amt, nun ernennt er schon einen neuen Büroleiter. CDU-Bundesgeschäftsführer Philipp Birkenmaier soll künftig die Aufgabe übernehmen. Über seinen Vorgänger hatte es immer wieder Unmut gegeben."
-        ],
-        "link": "https://www.spiegel.de/politik/kanzleramt-friedrich-merz-tauscht-bueroleiter-aus-a-e2cbc740-f20b-40e7-ad91-6995120fa412#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-05T15:26:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/brandenburg-einzige-spd-bsw-koalition-steht-vor-dem-aus/100188695.html",
-        "title": "Koalitionskrise: Einzige SPD-BSW-Koalition vor dem Aus – kommt jetzt Rot-Schwarz in Brandenburg?",
-        "summary": "Brandenburgs Vize-Ministerpräsident Robert Crumbach tritt aus dem BSW aus und bittet um Aufnahme in die SPD-Fraktion. Der Schritt könnte das Ende der SPD-BSW-Koalition besiegeln.",
-        "paragraphs": [
-          "Brandenburgs Vize-Ministerpräsident Robert Crumbach tritt aus dem BSW aus und bittet um Aufnahme in die SPD-Fraktion. Der Schritt könnte das Ende der SPD-BSW-Koalition besiegeln."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/brandenburg-einzige-spd-bsw-koalition-steht-vor-dem-aus/100188695.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-05T15:15:53.000Z"
       }
     ],
     "sport": [
@@ -580,7 +580,7 @@
       },
       {
         "id": "https://www.kicker.de/aegypten-gegen-benin-2026-afrika-cup-4995914/spielbericht#omrss",
-        "title": "LIVE! Ein Traumtor bricht den Bann: Ägypten führt gegen Rohrs Benin",
+        "title": "LIVE! Ekstase beim Underdog: Rohrs Benin gleicht gegen Salah & Co. aus",
         "summary": "Angeführt von Mohamed Salah startet Ägypten als klarer Favorit gegen die von Gernot Rohr trainierte Nationalmannschaft Benins in die K.o.-Phase des Afrika-Cups. Anstoß in Agadir ist um 17 Uhr.",
         "paragraphs": [
           "Angeführt von Mohamed Salah startet Ägypten als klarer Favorit gegen die von Gernot Rohr trainierte Nationalmannschaft Benins in die K.o.-Phase des Afrika-Cups. Anstoß in Agadir ist um 17 Uhr."
@@ -768,17 +768,6 @@
         "publishedAt": "2026-01-05T15:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Amazon-bietet-bald-ersten-Bilderrahmen-TV-an-11129401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: Amazon bietet bald ersten Bilderrahmen-TV an",
-        "summary": "Zum Start der neuen \"Ember Artline\" genannten Reihe gibt es Modelle in 55 und 65 Zoll mit verschiedenen magnetischen Rahmen.",
-        "paragraphs": [
-          "Zum Start der neuen \"Ember Artline\" genannten Reihe gibt es Modelle in 55 und 65 Zoll mit verschiedenen magnetischen Rahmen."
-        ],
-        "link": "https://www.heise.de/news/Amazon-bietet-bald-ersten-Bilderrahmen-TV-an-11129401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-05T15:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Clicks-Communicator-Android-Smartphone-mit-Hardware-Tastatur-11129599.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: Clicks Communicator: Android-Smartphone mit Hardware-Tastatur",
         "summary": "Das Smartphone mit physischer Tastatur ist zurück. Es kommt aber nicht von BlackBerry, sondern von Clicks, der bisher für Hüllen mit Keyboard bekannt ist.",
@@ -786,6 +775,17 @@
           "Das Smartphone mit physischer Tastatur ist zurück. Es kommt aber nicht von BlackBerry, sondern von Clicks, der bisher für Hüllen mit Keyboard bekannt ist."
         ],
         "link": "https://www.heise.de/news/Clicks-Communicator-Android-Smartphone-mit-Hardware-Tastatur-11129599.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-05T15:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Amazon-bietet-bald-ersten-Bilderrahmen-TV-an-11129401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: Amazon bietet bald ersten Bilderrahmen-TV an",
+        "summary": "Zum Start der neuen \"Ember Artline\" genannten Reihe gibt es Modelle in 55 und 65 Zoll mit verschiedenen magnetischen Rahmen.",
+        "paragraphs": [
+          "Zum Start der neuen \"Ember Artline\" genannten Reihe gibt es Modelle in 55 und 65 Zoll mit verschiedenen magnetischen Rahmen."
+        ],
+        "link": "https://www.heise.de/news/Amazon-bietet-bald-ersten-Bilderrahmen-TV-an-11129401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-05T15:00:00.000Z"
       },
@@ -845,17 +845,6 @@
         "publishedAt": "2026-01-05T14:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Unterwegs-im-Mercedes-CLA-mit-Level-2-Ueberwachte-Autonomie-11129159.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Unterwegs im Mercedes CLA mit Level 2++: Überwachte Autonomie",
-        "summary": "Mercedes gehört zu den wenigen Herstellern, die Level 3 in Serie anbieten. Doch parallel arbeitet die Marke auch an Level 2++, und das auch guten Gründen.",
-        "paragraphs": [
-          "Mercedes gehört zu den wenigen Herstellern, die Level 3 in Serie anbieten. Doch parallel arbeitet die Marke auch an Level 2++, und das auch guten Gründen."
-        ],
-        "link": "https://www.heise.de/news/Unterwegs-im-Mercedes-CLA-mit-Level-2-Ueberwachte-Autonomie-11129159.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-05T14:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Qualcomm-Leapmotor-setzt-auf-Dual-Chip-ZF-auf-skalierbare-ADAS-Rechner-11127998.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: Qualcomm präsentiert erstes Auto mit Dual-Chip und skalierbaren ADAS-Rechner",
         "summary": "Qualcomm hat einen ersten Abnehmer für die Dual-Variante seiner Auto-Prozessoren und mit ZF einen neuen Partner für Hochleistungsrechner gefunden.",
@@ -874,6 +863,17 @@
           "Das \"KI-Update\" liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen."
         ],
         "link": "https://www.heise.de/news/KI-Update-kompakt-CES-2026-Grok-Deepfakes-OpenAI-Audio-KI-KI-Pruefungen-11129109.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-05T14:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Unterwegs-im-Mercedes-CLA-mit-Level-2-Ueberwachte-Autonomie-11129159.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Unterwegs im Mercedes CLA mit Level 2++: Überwachte Autonomie",
+        "summary": "Mercedes gehört zu den wenigen Herstellern, die Level 3 in Serie anbieten. Doch parallel arbeitet die Marke auch an Level 2++, und das auch guten Gründen.",
+        "paragraphs": [
+          "Mercedes gehört zu den wenigen Herstellern, die Level 3 in Serie anbieten. Doch parallel arbeitet die Marke auch an Level 2++, und das auch guten Gründen."
+        ],
+        "link": "https://www.heise.de/news/Unterwegs-im-Mercedes-CLA-mit-Level-2-Ueberwachte-Autonomie-11129159.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-05T14:00:00.000Z"
       },
