@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-05T19:10:32.903Z",
+  "updatedAt": "2026-01-05T19:28:31.975Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,50 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:ccfd24ed-0ffe-4e8b-b754-7a38a72c0027}",
+        "title": "Krieg in Gaza: Israels Armee attackiert Stellungen der Hisbollah und Hamas im Libanon",
+        "summary": "Das israelische Militär hat Angriffe auf Ziele im Süden des Libanons gestartet. Israels Armee rief zur Evakuierung libanesischer Dörfer auf. Das Liveblog",
+        "paragraphs": [
+          "Das israelische Militär hat Angriffe auf Ziele im Süden des Libanons gestartet. Israels Armee rief zur Evakuierung libanesischer Dörfer auf. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T19:26:08.000Z"
+      },
+      {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "US-Angriff auf Venezuela: Maduro plädiert auf nicht schuldig – Interimspräsidentin vereidigt",
+        "summary": "Vor Gericht weist Nicolás Maduro alle Anklagepunkte zurück. Venezuelas Vizepräsidentin Delcy Rodríguez wird in Caracas als Interimspräsidentin vereidigt. Das Liveblog",
+        "paragraphs": [
+          "Vor Gericht weist Nicolás Maduro alle Anklagepunkte zurück. Venezuelas Vizepräsidentin Delcy Rodríguez wird in Caracas als Interimspräsidentin vereidigt. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T19:22:40.000Z"
+      },
+      {
+        "id": "{urn:uuid:0bd13c6c-5db2-4338-849f-39d7c1bbbef9}",
+        "title": "Andrij Naumow: Immer wieder Österreich",
+        "summary": "Ein abtrünniger ukrainischer Geheimdienstler ist nach Wien geflohen. Er ist nicht der  einzige Ukrainer, der sich hier der Strafverfolgung in seiner Heimat entzieht.",
+        "paragraphs": [
+          "Ein abtrünniger ukrainischer Geheimdienstler ist nach Wien geflohen. Er ist nicht der  einzige Ukrainer, der sich hier der Strafverfolgung in seiner Heimat entzieht."
+        ],
+        "link": "https://www.zeit.de/2026/01/andrij-naumow-ukraine-geheimdienst-wien-russland-auslieferung",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T19:21:44.000Z"
+      },
+      {
+        "id": "li.3363476",
+        "title": "Venezuela: Maduro plädiert auf „nicht schuldig“",
+        "summary": "Der venezolanische Staatschef Nicolás Maduro sagt bei seinem ersten Termin vor Gericht in New York, er sei entführt worden. Sein Anwalt will die Umstände der Gefangennahme thematisieren.",
+        "paragraphs": [
+          "Der venezolanische Staatschef Nicolás Maduro sagt bei seinem ersten Termin vor Gericht in New York, er sei entführt worden. Sein Anwalt will die Umstände der Gefangennahme thematisieren."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/nicolas-maduro-gericht-new-york-li.3363476",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-05T19:13:37.000Z"
+      },
+      {
         "id": "{urn:uuid:16cce363-bd4d-4ff8-89a2-59837a951c34}",
         "title": "New York: Nicolás Maduro plädiert bei Gerichtstermin auf nicht schuldig",
         "summary": "Bei einer ersten Anhörung vor einem New Yorker Gericht hat Venezuelas Staatschef Maduro seine Unschuld beteuert. Er bezeichnete sich weiter als Präsident seines Landes.",
@@ -300,17 +344,6 @@
         "link": "https://www.sueddeutsche.de/politik/berlin-merz-bueroleiter-jacob-schrot-philipp-birkenmaier-li.3363541",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-05T18:01:54.000Z"
-      },
-      {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "US-Angriff auf Venezuela: Nicolás Maduro plädiert vor Gericht auf nicht schuldig",
-        "summary": "Vor Gericht weist Maduro alle Anklagepunkte zurück, der Richter unterbricht ihn. In Caracas tagt die Nationalversammlung erstmals seit dem US-Angriff. Das Liveblog",
-        "paragraphs": [
-          "Vor Gericht weist Maduro alle Anklagepunkte zurück, der Richter unterbricht ihn. In Caracas tagt die Nationalversammlung erstmals seit dem US-Angriff. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-05T17:54:35.000Z"
       },
       {
         "id": "{urn:uuid:fb70743d-65dc-4402-87e9-04bd7143c765}",
@@ -410,42 +443,20 @@
         "link": "https://www.sueddeutsche.de/politik/news-maduro-li.3363528",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-05T16:31:53.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-trump-schwaecht-die-neue-regierung-europa-haelt-sich-zurueck/100188633.html",
-        "title": "Nach dem US-Angriff: Trump schwächt die neue Regierung Venezuelas – Europa hält sich zurück",
-        "summary": "Washington will mit Interimspräsidentin Rodríguez kooperieren. Aber nur, solange sie alle Wünsche der USA erfüllt. Europa tut sich weiter schwer mit einer klaren Haltung.",
-        "paragraphs": [
-          "Washington will mit Interimspräsidentin Rodríguez kooperieren. Aber nur, solange sie alle Wünsche der USA erfüllt. Europa tut sich weiter schwer mit einer klaren Haltung."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-trump-schwaecht-die-neue-regierung-europa-haelt-sich-zurueck/100188633.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-05T16:31:53.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/news-des-tages-nicolas-maduro-vor-gericht-bsw-robert-crumbach-brigitte-macron-a-c49e9917-b21c-4c7c-8f5c-ca459397dd7a",
-        "title": "News des Tages: Nicolás Maduro vor Gericht, BSW, Robert Crumbach, Brigitte Macron",
-        "summary": "Der gestürzte venezolanische Präsident Maduro steht in New York vor dem Richter. Der brandenburgische Finanzminister verlässt das BSW. Und Brigitte Macron siegt vor Gericht. Das ist die Lage am Montagabend.",
-        "paragraphs": [
-          "Der gestürzte venezolanische Präsident Maduro steht in New York vor dem Richter. Der brandenburgische Finanzminister verlässt das BSW. Und Brigitte Macron siegt vor Gericht. Das ist die Lage am Montagabend."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/news-des-tages-nicolas-maduro-vor-gericht-bsw-robert-crumbach-brigitte-macron-a-c49e9917-b21c-4c7c-8f5c-ca459397dd7a#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-05T16:27:00.000Z"
-      },
-      {
-        "id": "li.3363228",
-        "title": "Verteidigung: Verunsicherte Europäer beschwören ihre Einigkeit",
-        "summary": "Beim Besuch von Außenministers Wadephul in Litauen geht es nicht nur um den Schutz der Ostflanke. Sondern auch darum, wie unberechenbar der US-Präsident inzwischen ist – und was das für Europas Sicherheit bedeutet.",
-        "paragraphs": [
-          "Beim Besuch von Außenministers Wadephul in Litauen geht es nicht nur um den Schutz der Ostflanke. Sondern auch darum, wie unberechenbar der US-Präsident inzwischen ist – und was das für Europas Sicherheit bedeutet."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-trump-venezuela-wadephul-litauen-li.3363228",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-05T16:24:09.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "{urn:uuid:0bd13c6c-5db2-4338-849f-39d7c1bbbef9}",
+        "title": "Andrij Naumow: Immer wieder Österreich",
+        "summary": "Ein abtrünniger ukrainischer Geheimdienstler ist nach Wien geflohen. Er ist nicht der  einzige Ukrainer, der sich hier der Strafverfolgung in seiner Heimat entzieht.",
+        "paragraphs": [
+          "Ein abtrünniger ukrainischer Geheimdienstler ist nach Wien geflohen. Er ist nicht der  einzige Ukrainer, der sich hier der Strafverfolgung in seiner Heimat entzieht."
+        ],
+        "link": "https://www.zeit.de/2026/01/andrij-naumow-ukraine-geheimdienst-wien-russland-auslieferung",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T19:21:44.000Z"
+      },
       {
         "id": "https://www.kicker.de/tarnats-erste-eindruecke-ich-habe-erst-gedacht-es-ist-die-isar-1181069/artikel#omrss",
         "title": "Tarnats erste Eindrücke: \"Ich habe erst gedacht, es ist die Isar\"",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/hannover-hammer-prokop-muss-sofort-gehen-pastor-kommt-1180652/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-05T15:29:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "title": "Mainz mit dem VfB wegen Silas einig - Echeverri vor nächster Leihe",
-        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
-        "paragraphs": [
-          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
-        ],
-        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-05T15:26:45.000Z"
       }
     ],
     "edv": [
