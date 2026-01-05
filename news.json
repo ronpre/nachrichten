@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-05T09:56:45.463Z",
+  "updatedAt": "2026-01-05T10:10:46.246Z",
   "categories": {
     "wirtschaft": [
       {
@@ -37,7 +37,7 @@
       },
       {
         "id": "https://www.spiegel.de/wirtschaft/dax-erreicht-neues-rekordhoch-a-73c8a744-7c67-46e3-824d-ffc64976798b",
-        "title": "Dax erreicht neues Rekordhoch",
+        "title": "Dax erreicht Rekordhoch",
         "summary": "Die Aussicht auf eine Belebung der Wirtschaft hat den Dax auf einen Höchstwert getrieben. Experten vermuten: Investoren könnten Gelder aus den USA nach Europa umschichten.",
         "paragraphs": [
           "Die Aussicht auf eine Belebung der Wirtschaft hat den Dax auf einen Höchstwert getrieben. Experten vermuten: Investoren könnten Gelder aus den USA nach Europa umschichten."
@@ -224,6 +224,28 @@
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:efe6fba9-f897-4c2b-b061-044174023971}",
+        "title": "CSU: Der Feind steht rechts",
+        "summary": "Kurz vor ihrer Klausurtagung erkennt die CSU den Ernst der Lage. Sie ringt mit AfD, Autoritären und einem möglichen Ende der Ära Söder. Wo soll das hinführen?",
+        "paragraphs": [
+          "Kurz vor ihrer Klausurtagung erkennt die CSU den Ernst der Lage. Sie ringt mit AfD, Autoritären und einem möglichen Ende der Ära Söder. Wo soll das hinführen?"
+        ],
+        "link": "https://www.zeit.de/2026/01/csu-markus-soeder-alexander-dobrindt-manfred-weber-afd-bayern",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T10:01:14.000Z"
+      },
+      {
+        "id": "{urn:uuid:bbd4fac3-154c-49bd-874f-837cf91697fb}",
+        "title": "Deutscher Städte- und Gemeindebund: \"Viele Städte wissen nicht, wie sie ihre Aufgaben finanzieren sollen\"",
+        "summary": "In 20 Jahren haben sich die kommunalen Ausgaben für Sozialleistungen fast verdreifacht. Der Städte- und Gemeindebund fordert, dass Bund und Länder die Kosten mittragen.",
+        "paragraphs": [
+          "In 20 Jahren haben sich die kommunalen Ausgaben für Sozialleistungen fast verdreifacht. Der Städte- und Gemeindebund fordert, dass Bund und Länder die Kosten mittragen."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2026-01/deutscher-staedte-gemeindebund-sozialleistungen-kosten",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T10:00:46.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/us-zoelle-trump-droht-indien-im-streit-ueber-russisches-oel-mit-hoeheren-zoellen/30026990.html",
         "title": "Handelsstreit: Trump droht Indien im Streit über russisches Öl mit höheren Zöllen",
@@ -421,28 +443,6 @@
         "link": "https://www.sueddeutsche.de/politik/maduro-vor-gericht-trump-droht-iran-csu-in-seeon-li.3363179",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-05T06:00:06.000Z"
-      },
-      {
-        "id": "{urn:uuid:1da243f9-d952-4b86-99f3-df9cc5dc2487}",
-        "title": "Delcy Rodríguez: Die Rächerin",
-        "summary": "Delcy Rodríguez übernimmt in Venezuela als Interimspräsidentin die Macht. Wer ist die Frau, die zwischen ihrer sozialistischen Regierung und Trump vermitteln soll?",
-        "paragraphs": [
-          "Delcy Rodríguez übernimmt in Venezuela als Interimspräsidentin die Macht. Wer ist die Frau, die zwischen ihrer sozialistischen Regierung und Trump vermitteln soll?"
-        ],
-        "link": "https://www.zeit.de/politik/2026-01/delcy-rodriguez-venezuela-interimspraesidentin-militaer-usa",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-05T05:32:20.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/taiwan-wirft-china-hybriden-krieg-vor-millionen-cyberangriffe-pro-tag/100188580.html",
-        "title": "Cyberattacken: Taiwan wirft China „hybriden Krieg“ vor –  2,6 Millionen Cyberangriffe täglich",
-        "summary": "China soll mit einer Cyber-Armee den Druck auf den Nachbarstaat erhöhen. Täglich gebe es zahlreiche Attacken auf wichtige Infrastruktur, klagt Taiwan.",
-        "paragraphs": [
-          "China soll mit einer Cyber-Armee den Druck auf den Nachbarstaat erhöhen. Täglich gebe es zahlreiche Attacken auf wichtige Infrastruktur, klagt Taiwan."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/taiwan-wirft-china-hybriden-krieg-vor-millionen-cyberangriffe-pro-tag/100188580.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-05T05:28:47.000Z"
       }
     ],
     "sport": [
@@ -834,17 +834,6 @@
         "publishedAt": "2026-01-05T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Schachroboter-SenseRobot-bewegt-reale-Figuren-11128490.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: SenseRobot: vollautomatisiertes Schachspiel mit Roboterpartner",
-        "summary": "SenseRobot stellt Schach- und Go-Roboter her, die Figuren mit Roboterarmen selbstständig bewegen, Spielzüge erkennen und Training bis auf Meisterniveau bieten.",
-        "paragraphs": [
-          "SenseRobot stellt Schach- und Go-Roboter her, die Figuren mit Roboterarmen selbstständig bewegen, Spielzüge erkennen und Training bis auf Meisterniveau bieten."
-        ],
-        "link": "https://www.heise.de/news/Schachroboter-SenseRobot-bewegt-reale-Figuren-11128490.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-05T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/iX-Workshop-Linux-Server-absichern-effektiv-und-umfassend-11109439.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "heise-Angebot: iX-Workshop: Linux-Server absichern – effektiv und umfassend",
         "summary": "Linux-Server und Netzwerkdienste effektiv und umfassend vor Angriffen schützen – von physischer Sicherheit über Verschlüsselung und 2FA bis hin zu SELinux.",
@@ -852,6 +841,17 @@
           "Linux-Server und Netzwerkdienste effektiv und umfassend vor Angriffen schützen – von physischer Sicherheit über Verschlüsselung und 2FA bis hin zu SELinux."
         ],
         "link": "https://www.heise.de/news/iX-Workshop-Linux-Server-absichern-effektiv-und-umfassend-11109439.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-05T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Schachroboter-SenseRobot-bewegt-reale-Figuren-11128490.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: SenseRobot: vollautomatisiertes Schachspiel mit Roboterpartner",
+        "summary": "SenseRobot stellt Schach- und Go-Roboter her, die Figuren mit Roboterarmen selbstständig bewegen, Spielzüge erkennen und Training bis auf Meisterniveau bieten.",
+        "paragraphs": [
+          "SenseRobot stellt Schach- und Go-Roboter her, die Figuren mit Roboterarmen selbstständig bewegen, Spielzüge erkennen und Training bis auf Meisterniveau bieten."
+        ],
+        "link": "https://www.heise.de/news/Schachroboter-SenseRobot-bewegt-reale-Figuren-11128490.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-05T07:00:00.000Z"
       },
