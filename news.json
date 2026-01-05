@@ -1,7 +1,51 @@
 {
-  "updatedAt": "2026-01-05T09:10:14.953Z",
+  "updatedAt": "2026-01-05T09:25:34.927Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:c5bc1d92-a698-46d9-a8fa-c2ba8cd86b7b}",
+        "title": "Börse: Dax steigt auf neues Rekordhoch",
+        "summary": "Der deutsche Aktienindex steht so hoch wie noch nie. Eine Rolle dabei spielen Rüstungsaktien, die nach dem US-Angriff auf Venezuela deutlich gestiegen sind.",
+        "paragraphs": [
+          "Der deutsche Aktienindex steht so hoch wie noch nie. Eine Rolle dabei spielen Rüstungsaktien, die nach dem US-Angriff auf Venezuela deutlich gestiegen sind."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/boerse/2026-01/konjunkturhoffnungen-lassen-dax-auf-rekordhoch-steigen",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T09:21:43.000Z"
+      },
+      {
+        "id": "{urn:uuid:452b5860-962f-4e85-a1aa-86367cdd8e31}",
+        "title": "Wirtschaftspodcast: \"Ist das eine Blase?\" : Boom oder Doom – wie wird 2026?",
+        "summary": "Mit der Wirtschaft soll es endlich aufwärtsgehen. Doch die Prognosen für das neue Jahr gehen auseinander. Wo die Chancen liegen und die größten Risiken.",
+        "paragraphs": [
+          "Mit der Wirtschaft soll es endlich aufwärtsgehen. Doch die Prognosen für das neue Jahr gehen auseinander. Wo die Chancen liegen und die größten Risiken."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2025-12/wirtschaftspodcast-konjunktur-2026-wachstum-investitionen",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T09:13:39.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/ruestungsindustrie-rheinmetall-erhaelt-grossauftrag-fuer-schuetzenpanzermunition/100188636.html",
+        "title": "Rüstungsindustrie: Rheinmetall erhält Großauftrag für Schützenpanzermunition",
+        "summary": "Der deutsche Rüstungshersteller soll Munition für Schützenpanzer der Bundeswehr liefern. Die erste Lieferung ist für 2028 geplant.",
+        "paragraphs": [
+          "Der deutsche Rüstungshersteller soll Munition für Schützenpanzer der Bundeswehr liefern. Die erste Lieferung ist für 2028 geplant."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/ruestungsindustrie-rheinmetall-erhaelt-grossauftrag-fuer-schuetzenpanzermunition/100188636.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-05T09:07:42.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/ice-puenktlichkeit-der-deutschen-bahn-laesst-weiter-nach/100188423.html",
+        "title": "Fernverkehr: Nur noch 60,1 Prozent – Pünktlichkeit bei der Bahn lässt weiter nach",
+        "summary": "Ab einer Verspätung von sechs Minuten gilt ein Zug als verspätet. Im Jahresvergleich hat sich die Zahl pünktlicher Züge noch einmal verringert.",
+        "paragraphs": [
+          "Ab einer Verspätung von sechs Minuten gilt ein Zug als verspätet. Im Jahresvergleich hat sich die Zahl pünktlicher Züge noch einmal verringert."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/ice-puenktlichkeit-der-deutschen-bahn-laesst-weiter-nach/100188423.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-05T09:01:00.000Z"
+      },
       {
         "id": "{urn:uuid:8674d766-1e3b-4e3d-b505-4af72fc429d5}",
         "title": "ETF-Anlagen: MSCI-World-Sparer sind faul – aber jetzt sollten auch sie aktiv werden",
@@ -12,6 +56,17 @@
         "link": "https://www.zeit.de/geld/2025-12/etf-anlagen-tipps-2026-rebalancing-steuern-msci-world-usa",
         "source": "ZEIT",
         "publishedAt": "2026-01-05T08:59:28.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-das-wird-2026-fuer-vermieter-und-eigentuemer-wichtig/100177901.html",
+        "title": "Immobilien: Was 2026 für Vermieter und Eigentümer wichtig wird",
+        "summary": "Was tut sich im neuen Jahr beim Wohnen, Vermieten, Versteuern und Fördern? Eine Übersicht, was sich für Hausbesitzer und Mieter ändern wird.",
+        "paragraphs": [
+          "Was tut sich im neuen Jahr beim Wohnen, Vermieten, Versteuern und Fördern? Eine Übersicht, was sich für Hausbesitzer und Mieter ändern wird."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-das-wird-2026-fuer-vermieter-und-eigentuemer-wichtig/100177901.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-05T08:59:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/skincare-wie-kinder-zur-neuen-zielgruppe-von-kosmetikkonzernen-werden/100179875.html",
@@ -34,17 +89,6 @@
         "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-steigt-auf-rekordhoch/100188582.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-05T08:48:53.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-trump-kann-sich-auch-militaereinsatz-in-kolumbien-vorstellen/100188261.html",
-        "title": "+++ Venezuela +++: Trump kann sich auch Militäreinsatz in Kolumbien vorstellen",
-        "summary": "China fordert Maduros Freilassung +++ US-Außenminister Rubio widerspricht Trump: Wollen Venezuela nicht regieren +++ Mehr als 30 Kubaner bei US-Angriff getötet +++ Der Newsblog.",
-        "paragraphs": [
-          "China fordert Maduros Freilassung +++ US-Außenminister Rubio widerspricht Trump: Wollen Venezuela nicht regieren +++ Mehr als 30 Kubaner bei US-Angriff getötet +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-trump-kann-sich-auch-militaereinsatz-in-kolumbien-vorstellen/100188261.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-05T08:46:11.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/alkoholverzicht-die-besten-getraenke-fuer-den-dry-january/100188042.html",
@@ -177,53 +221,20 @@
         "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/mobilitaet-fahrrad-branche-verabschiedet-sich-von-der-boom-illusion-01/100180353.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-05T07:20:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/gas-und-oelpreis-2026-kommt-nach-dem-preisrutsch-fossiler-energien-die-trendwende-01/100173895.html",
-        "title": "Öl und Gas 2026: Fossile Energien – Kommt nach dem Preisrutsch die Trendwende?",
-        "summary": "Die Preise für Öl und Gas sind 2025 deutlich gesunken. Die Angebotsaussichten sind gut, die Nachfrage durchwachsen. Ein günstiger Einstiegspunkt für Investoren?",
-        "paragraphs": [
-          "Die Preise für Öl und Gas sind 2025 deutlich gesunken. Die Angebotsaussichten sind gut, die Nachfrage durchwachsen. Ein günstiger Einstiegspunkt für Investoren?"
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/gas-und-oelpreis-2026-kommt-nach-dem-preisrutsch-fossiler-energien-die-trendwende-01/100173895.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-05T07:10:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/facharzttermin-binnen-vier-wochen-minister-will-garantie-a-a7d955b4-ffdc-469f-ab9b-75d9fe397c96",
-        "title": "Facharzttermin binnen vier Wochen – Minister will Garantie",
-        "summary": "Das lange Warten auf einen Facharzt soll bald ein Ende haben: Was dafür nach Überzeugung von Niedersachsens Gesundheitsminister Philippi passieren muss.",
-        "paragraphs": [
-          "Das lange Warten auf einen Facharzt soll bald ein Ende haben: Was dafür nach Überzeugung von Niedersachsens Gesundheitsminister Philippi passieren muss."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/facharzttermin-binnen-vier-wochen-minister-will-garantie-a-a7d955b4-ffdc-469f-ab9b-75d9fe397c96#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-05T07:01:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/maerkte-insight-warum-quantum-aktien-2026-zu-den-gewinnern-zaehlen-koennten-01/100187593.html",
-        "title": "Märkte-Insight: Warum Quantum-Aktien 2026 zu den Gewinnern zählen könnten",
-        "summary": "Papiere wie Rigetti, D-Wave und Ionq haben zuletzt an Schwung verloren, doch die Euphorie könnte zurückkehren, gibt Astrid Dörner zu bedenken.",
-        "paragraphs": [
-          "Papiere wie Rigetti, D-Wave und Ionq haben zuletzt an Schwung verloren, doch die Euphorie könnte zurückkehren, gibt Astrid Dörner zu bedenken."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/maerkte-insight-warum-quantum-aktien-2026-zu-den-gewinnern-zaehlen-koennten-01/100187593.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-05T06:43:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/verbraucherzentralen-warnen-vor-problemen-bei-barzahlung-a-00af1f32-e8a9-46bc-bcfc-7d2d7791265b",
-        "title": "Verbraucherzentralen warnen vor Problemen bei Barzahlung",
-        "summary": "Bargeld kommt aus der Mode. Kein Wunder denn Handy oder Kreditkarte machen den Vorgang extrem viel einfacher. Verbraucherschützer sorgen sich aber um diejenigen, die da nicht mitmachen können.",
-        "paragraphs": [
-          "Bargeld kommt aus der Mode. Kein Wunder denn Handy oder Kreditkarte machen den Vorgang extrem viel einfacher. Verbraucherschützer sorgen sich aber um diejenigen, die da nicht mitmachen können."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/verbraucherzentralen-warnen-vor-problemen-bei-barzahlung-a-00af1f32-e8a9-46bc-bcfc-7d2d7791265b#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-05T06:42:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:9f1dcc5e-f48b-41c8-906c-ccc0ac01b4c9}",
+        "title": "Anschlag auf Berliner Stromnetz: Berlin will kritische Infrastruktur besser schützen",
+        "summary": "99 Prozent der Leitungen verliefen unterirdisch, sagt Kai Wegner nach dem mutmaßlichen Anschlag auf Berlins Stromnetz. Das eine Prozent müsse besser geschützt werden.",
+        "paragraphs": [
+          "99 Prozent der Leitungen verliefen unterirdisch, sagt Kai Wegner nach dem mutmaßlichen Anschlag auf Berlins Stromnetz. Das eine Prozent müsse besser geschützt werden."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2026-01/anschlag-stromnetz-berlin-kai-wegner-schutz-ermittlungen",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T09:21:32.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/ice-puenktlichkeit-der-deutschen-bahn-laesst-weiter-nach/100188423.html",
         "title": "Fernverkehr: Nur noch 60,1 Prozent – Pünktlichkeit bei der Bahn lässt weiter nach",
@@ -234,17 +245,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/ice-puenktlichkeit-der-deutschen-bahn-laesst-weiter-nach/100188423.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-05T09:01:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:9f1dcc5e-f48b-41c8-906c-ccc0ac01b4c9}",
-        "title": "Anschlag auf Berliner Stromnetz: Berlin will kritische Infrastruktur besser schützen",
-        "summary": "99 Prozent der Leitungen verliefen unterirdisch, sagt Kai Wegner nach dem mutmaßlichen Anschlag auf Berlins Stromnetz. Das eine Prozent müsse besser geschützt werden.",
-        "paragraphs": [
-          "99 Prozent der Leitungen verliefen unterirdisch, sagt Kai Wegner nach dem mutmaßlichen Anschlag auf Berlins Stromnetz. Das eine Prozent müsse besser geschützt werden."
-        ],
-        "link": "https://www.zeit.de/politik/deutschland/2026-01/anschlag-stromnetz-berlin-kai-wegner-schutz-ermittlungen",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-05T08:56:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/venezuela-trump-kann-sich-auch-militaereinsatz-in-kolumbien-vorstellen/100188261.html",
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/fans-feiern-in-rabat-kamerun-ist-dabei-geschichte-zu-schreiben-1180913/video#omrss",
+        "title": "Fans feiern in Rabat: \"Kamerun ist dabei, Geschichte zu schreiben\"",
+        "summary": "Mit dem Sieg gegen Südafrika löste Kamerun das Ticket für das Viertelfinale beim Afrika-Cup. Die Fans feierten ausgelassen auf den Straßen Rabats.",
+        "paragraphs": [
+          "Mit dem Sieg gegen Südafrika löste Kamerun das Ticket für das Viertelfinale beim Afrika-Cup. Die Fans feierten ausgelassen auf den Straßen Rabats."
+        ],
+        "link": "https://www.kicker.de/fans-feiern-in-rabat-kamerun-ist-dabei-geschichte-zu-schreiben-1180913/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-05T09:10:45.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/amorim-zuendelt-und-zuendelt-wie-reagiert-manunited-1180912/artikel#omrss",
+        "title": "Amorim zündelt und zündelt: Wie reagiert ManUnited?",
+        "summary": "Ruben Amorim hat erneut auf einer Pressekonferenz interne Querelen bei Manchester United offengelegt. Gefährdet der Trainer damit sogar seinen Job?",
+        "paragraphs": [
+          "Ruben Amorim hat erneut auf einer Pressekonferenz interne Querelen bei Manchester United offengelegt. Gefährdet der Trainer damit sogar seinen Job?"
+        ],
+        "link": "https://www.kicker.de/amorim-zuendelt-und-zuendelt-wie-reagiert-manunited-1180912/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-05T09:10:44.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/hoffenheim-leiht-unzufriedenen-campbell-vom-bvb-aus-1180580/artikel#omrss",
+        "title": "Hoffenheim leiht \"unzufriedenen\" Campbell vom BVB aus",
+        "summary": "Während Platzhirsch Bazoumana Touré (19) noch beim Afrika-Cup weilt, bereitet die TSG Hoffenheim schon mal dessen Abgang im Sommer vor und holt Cole Campbell (19) aus Dortmund.",
+        "paragraphs": [
+          "Während Platzhirsch Bazoumana Touré (19) noch beim Afrika-Cup weilt, bereitet die TSG Hoffenheim schon mal dessen Abgang im Sommer vor und holt Cole Campbell (19) aus Dortmund."
+        ],
+        "link": "https://www.kicker.de/hoffenheim-leiht-unzufriedenen-campbell-vom-bvb-aus-1180580/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-05T09:07:23.000Z"
+      },
+      {
         "id": "https://www.kicker.de/wer-wann-spielt-die-kickoff-zeiten-der-wild-card-round-1180908/artikel#omrss",
         "title": "Wer wann spielt: Die Kickoff-Zeiten der Wild Card Round",
         "summary": "Kurz nach dem Ende der Regular Season hat die NFL die Duelle der Wild Card Round zeitgenau angesetzt. Die sechs Spiele im Überblick.",
@@ -632,42 +665,31 @@
         "link": "https://www.kicker.de/kofane-erneut-der-entscheider-satter-kopfball-sichert-viertelfinale-1180838/video#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-04T23:02:56.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/thuram-trifft-kunstvoll-zur-entscheidung-inter-wieder-an-der-spitze-1180836/video#omrss",
-        "title": "Thuram trifft kunstvoll zur Entscheidung: Inter wieder an der Spitze",
-        "summary": "Inter Mailand ließ gegen Bologna nichts anbrennen. Lautaro Martinez erwischte einen Sahnetag und trug maßgeblich dazu bei, dass seine Mannschaft nun wieder an der Tabellenspitze steht.",
-        "paragraphs": [
-          "Inter Mailand ließ gegen Bologna nichts anbrennen. Lautaro Martinez erwischte einen Sahnetag und trug maßgeblich dazu bei, dass seine Mannschaft nun wieder an der Tabellenspitze steht."
-        ],
-        "link": "https://www.kicker.de/thuram-trifft-kunstvoll-zur-entscheidung-inter-wieder-an-der-spitze-1180836/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-04T22:51:04.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/mcfarlane-ueber-maresca-aus-spieler-waren-schockiert-1180835/video#omrss",
-        "title": "McFarlane über Maresca-Aus: \"Spieler waren schockiert\"",
-        "summary": "Chelsea-Interimscoach Calum McFarlane hebt nach einer schwierigen Woche den Charakter seiner Mannschaft beim 1:1 gegen Manchester City hervor. Besonders nach Enzo Marescas Entlassung zeigten die Blues großen Zusammenhalt.",
-        "paragraphs": [
-          "Chelsea-Interimscoach Calum McFarlane hebt nach einer schwierigen Woche den Charakter seiner Mannschaft beim 1:1 gegen Manchester City hervor. Besonders nach Enzo Marescas Entlassung zeigten die Blues großen Zusammenhalt."
-        ],
-        "link": "https://www.kicker.de/mcfarlane-ueber-maresca-aus-spieler-waren-schockiert-1180835/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-04T22:49:16.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/dank-giants-sieg-raiders-erhalten-den-first-overall-pick-1180817/artikel#omrss",
-        "title": "Dank Giants-Sieg: Raiders erhalten den First Overall Pick",
-        "summary": "Die Las Vegas Raiders haben sich den ersten Pick im NFL Draft 2026 gesichert. Mit ihrer desaströsen Regular-Season-Bilanz stehen die Raiders nun vor der Chance auf einen kompletten Neuanfang - auch die Trainerfrage ist offen.",
-        "paragraphs": [
-          "Die Las Vegas Raiders haben sich den ersten Pick im NFL Draft 2026 gesichert. Mit ihrer desaströsen Regular-Season-Bilanz stehen die Raiders nun vor der Chance auf einen kompletten Neuanfang - auch die Trainerfrage ist offen."
-        ],
-        "link": "https://www.kicker.de/dank-giants-sieg-raiders-erhalten-den-first-overall-pick-1180817/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-04T22:30:18.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Kompakte-AirTag-Batteriehuelle-soll-fuenf-Jahre-durchhalten-11128055.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Kompakte AirTag-Batteriehülle soll fünf Jahre durchhalten",
+        "summary": "ElevationLab hat bereits ein Case für den Apple-Tracker im Angebot, der zehn Jahre hält. Nun kommt eine kleinere Variante heraus.",
+        "paragraphs": [
+          "ElevationLab hat bereits ein Case für den Apple-Tracker im Angebot, der zehn Jahre hält. Nun kommt eine kleinere Variante heraus."
+        ],
+        "link": "https://www.heise.de/news/Kompakte-AirTag-Batteriehuelle-soll-fuenf-Jahre-durchhalten-11128055.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-05T09:06:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/blog/Die-Produktwerker-Forecasting-mit-der-Monte-Carlo-Simulation-11128666.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Die Produktwerker: Forecasting mit der Monte-Carlo-Simulation",
+        "summary": "Thema dieser Podcastfolge ist die Monte-Carlo-Simulation. Mit ihr lassen sich wahrscheinliche Termine aus historischen Daten ableiten.",
+        "paragraphs": [
+          "Thema dieser Podcastfolge ist die Monte-Carlo-Simulation. Mit ihr lassen sich wahrscheinliche Termine aus historischen Daten ableiten."
+        ],
+        "link": "https://www.heise.de/blog/Die-Produktwerker-Forecasting-mit-der-Monte-Carlo-Simulation-11128666.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-05T09:06:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Samsung-KI-Begleiter-Automatisch-zum-guten-Bild-und-Ton-11128674.html",
         "title": "Samsung KI-Begleiter: Automatisch zum guten Bild und Ton",
@@ -790,17 +812,6 @@
         "publishedAt": "2026-01-05T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Schachroboter-SenseRobot-bewegt-reale-Figuren-11128490.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: SenseRobot: vollautomatisiertes Schachspiel mit Roboterpartner",
-        "summary": "SenseRobot stellt Schach- und Go-Roboter her, die Figuren mit Roboterarmen selbstständig bewegen, Spielzüge erkennen und Training bis auf Meisterniveau bieten.",
-        "paragraphs": [
-          "SenseRobot stellt Schach- und Go-Roboter her, die Figuren mit Roboterarmen selbstständig bewegen, Spielzüge erkennen und Training bis auf Meisterniveau bieten."
-        ],
-        "link": "https://www.heise.de/news/Schachroboter-SenseRobot-bewegt-reale-Figuren-11128490.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-05T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/iX-Workshop-Linux-Server-absichern-effektiv-und-umfassend-11109439.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "heise-Angebot: iX-Workshop: Linux-Server absichern – effektiv und umfassend",
         "summary": "Linux-Server und Netzwerkdienste effektiv und umfassend vor Angriffen schützen – von physischer Sicherheit über Verschlüsselung und 2FA bis hin zu SELinux.",
@@ -808,6 +819,17 @@
           "Linux-Server und Netzwerkdienste effektiv und umfassend vor Angriffen schützen – von physischer Sicherheit über Verschlüsselung und 2FA bis hin zu SELinux."
         ],
         "link": "https://www.heise.de/news/iX-Workshop-Linux-Server-absichern-effektiv-und-umfassend-11109439.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-05T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Schachroboter-SenseRobot-bewegt-reale-Figuren-11128490.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: SenseRobot: vollautomatisiertes Schachspiel mit Roboterpartner",
+        "summary": "SenseRobot stellt Schach- und Go-Roboter her, die Figuren mit Roboterarmen selbstständig bewegen, Spielzüge erkennen und Training bis auf Meisterniveau bieten.",
+        "paragraphs": [
+          "SenseRobot stellt Schach- und Go-Roboter her, die Figuren mit Roboterarmen selbstständig bewegen, Spielzüge erkennen und Training bis auf Meisterniveau bieten."
+        ],
+        "link": "https://www.heise.de/news/Schachroboter-SenseRobot-bewegt-reale-Figuren-11128490.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-05T07:00:00.000Z"
       },
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/tests/MSI-Cubi-NUC-AI-2MG-im-Test-Mini-PC-mit-Fingerabdrucksensor-10733206.html",
         "source": "c't",
         "publishedAt": "2026-01-05T06:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Vaonis-Hyperia-smartes-Teleskop-fuer-Forschung-und-Astrofotografie-11128466.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: Vaonis Hyperia: smartes Teleskop für Forschung und Astrofotografie",
-        "summary": "Das Teleskop Vaonis Hyperia wendet sich allein preislich an Institute wie Sternwarten. Es vereint große Optik mit 17 Linsen und schnellen Antrieb.",
-        "paragraphs": [
-          "Das Teleskop Vaonis Hyperia wendet sich allein preislich an Institute wie Sternwarten. Es vereint große Optik mit 17 Linsen und schnellen Antrieb."
-        ],
-        "link": "https://www.heise.de/news/Vaonis-Hyperia-smartes-Teleskop-fuer-Forschung-und-Astrofotografie-11128466.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-05T05:46:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/SwitchBot-Smart-Home-2-0-Haushaltsroboter-und-biometrische-Schloesser-11128437.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: SwitchBot Smart Home 2.0: Haushaltsroboter und biometrische Schlösser",
-        "summary": "SwitchBot zeigt im Rahmen von „Smart Home 2.0“ biometrische Schlösser, eine Wohlfühl-LED-Kugel und einen KI-Roboter, der sein Verhalten an die Wohnung anpasst.",
-        "paragraphs": [
-          "SwitchBot zeigt im Rahmen von „Smart Home 2.0“ biometrische Schlösser, eine Wohlfühl-LED-Kugel und einen KI-Roboter, der sein Verhalten an die Wohnung anpasst."
-        ],
-        "link": "https://www.heise.de/news/SwitchBot-Smart-Home-2-0-Haushaltsroboter-und-biometrische-Schloesser-11128437.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-05T05:33:00.000Z"
       }
     ]
   }
