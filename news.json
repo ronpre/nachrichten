@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-05T01:47:25.140Z",
+  "updatedAt": "2026-01-05T02:40:27.076Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "USA und Venezuela: Trump nennt Kolumbien als mögliches nächstes Militärziel der USA",
+        "summary": "Der US-Präsident bezeichnet Kolumbiens Staatschef als \"kranken Mann, der gern Kokain verkauft\". Am Abend soll Nicolás Maduro in New York vor Gericht kommen. Das Liveblog",
+        "paragraphs": [
+          "Der US-Präsident bezeichnet Kolumbiens Staatschef als \"kranken Mann, der gern Kokain verkauft\". Am Abend soll Nicolás Maduro in New York vor Gericht kommen. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-05T02:14:10.000Z"
+      },
+      {
         "id": "{urn:uuid:b61c98a5-c9ca-4ca6-99ed-715775917c4c}",
         "title": "Opposition in Venezuela: González bezeichnet sich als Präsident der Venezolaner",
         "summary": "Edmundo González Urrutia begrüßt die Entmachtung Maduros. Der exilierte Politiker sieht sich als Sieger der letzten Wahlen und fordert die Freilassung von Gefangenen.",
@@ -234,17 +245,6 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-spanien-edmundo-gonz-lez-urrutia-nicolas-maduro",
         "source": "ZEIT",
         "publishedAt": "2026-01-05T01:22:04.000Z"
-      },
-      {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "USA und Venezuela: Trump droht neuer Staatschefin Venezuelas",
-        "summary": "Sollte Venezuelas neue Staatschefin laut Trump \"nicht das Richtige tun, werde sie einen sehr hohen Preis zahlen\". Trump nimmt Grönland und Kuba in den Blick. Das Liveblog",
-        "paragraphs": [
-          "Sollte Venezuelas neue Staatschefin laut Trump \"nicht das Richtige tun, werde sie einen sehr hohen Preis zahlen\". Trump nimmt Grönland und Kuba in den Blick. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-04T23:55:21.000Z"
       },
       {
         "id": "{urn:uuid:eb29ba70-5df1-430d-b181-f44f2736e3c5}",
@@ -768,17 +768,6 @@
         "publishedAt": "2026-01-04T12:50:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Mission-Muellabfuhr-Warum-Weltraumschrott-uns-alle-betrifft-11057091.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Gefahr im All: Wie Roboter und Plasmastrahlen vor Weltraumschrott retten sollen",
-        "summary": "Von Navigation bis Wettervorhersage – die moderne Welt hängt an Satelliten. Die Müllwolke im Orbit droht alles zum Absturz zu bringen. Doch es gibt Lösungen.",
-        "paragraphs": [
-          "Von Navigation bis Wettervorhersage – die moderne Welt hängt an Satelliten. Die Müllwolke im Orbit droht alles zum Absturz zu bringen. Doch es gibt Lösungen."
-        ],
-        "link": "https://www.heise.de/hintergrund/Mission-Muellabfuhr-Warum-Weltraumschrott-uns-alle-betrifft-11057091.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2026-01-04T12:30:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/hintergrund/Automatisierter-VM-Konfigurator-Cloud-init-fuer-Proxmox-im-Ueberblick-11099850.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "title": "heise+ | Automatisierter VM-Konfigurator Cloud-init für Proxmox im Überblick",
         "summary": "Cloud-init stellt für Proxmox neue VM- und Containerinstanzen automatisiert bereit. Gastsysteme entstehen reproduzierbar und ohne Nacharbeiten.",
@@ -786,6 +775,17 @@
           "Cloud-init stellt für Proxmox neue VM- und Containerinstanzen automatisiert bereit. Gastsysteme entstehen reproduzierbar und ohne Nacharbeiten."
         ],
         "link": "https://www.heise.de/hintergrund/Automatisierter-VM-Konfigurator-Cloud-init-fuer-Proxmox-im-Ueberblick-11099850.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2026-01-04T12:30:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/hintergrund/Mission-Muellabfuhr-Warum-Weltraumschrott-uns-alle-betrifft-11057091.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | Gefahr im All: Wie Roboter und Plasmastrahlen vor Weltraumschrott retten sollen",
+        "summary": "Von Navigation bis Wettervorhersage – die moderne Welt hängt an Satelliten. Die Müllwolke im Orbit droht alles zum Absturz zu bringen. Doch es gibt Lösungen.",
+        "paragraphs": [
+          "Von Navigation bis Wettervorhersage – die moderne Welt hängt an Satelliten. Die Müllwolke im Orbit droht alles zum Absturz zu bringen. Doch es gibt Lösungen."
+        ],
+        "link": "https://www.heise.de/hintergrund/Mission-Muellabfuhr-Warum-Weltraumschrott-uns-alle-betrifft-11057091.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "source": "heise",
         "publishedAt": "2026-01-04T12:30:00.000Z"
       },
