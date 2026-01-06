@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-06T05:00:54.510Z",
+  "updatedAt": "2026-01-06T05:18:24.741Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:c76d375f-e840-44c9-bb5e-5b89e4ed75b5}",
+        "title": "USA und Grönland: Nach US-Angriff auf Venezuela – Ist Grönland als nächstes dran?",
+        "summary": "Donald Trump erneuert seine Besitzansprüche auf Grönland. Wie antwortet Europa? Und: CSU fordert eine härtere Migrationspolitik.",
+        "paragraphs": [
+          "Donald Trump erneuert seine Besitzansprüche auf Grönland. Wie antwortet Europa? Und: CSU fordert eine härtere Migrationspolitik."
+        ],
+        "link": "https://www.zeit.de/politik/2026-01/usa-groenland-donald-trump-daenemark-nachrichtenpodcast",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-06T05:01:17.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/deutschland/news-donald-trump-groenland-venezuela-iran-fdp-a-0c7141dd-59c2-4ed6-9e81-8d36ccbc7842",
         "title": "News: Donald Trump, Grönland, Venezuela, Iran, FDP",
         "summary": "US-Präsident Donald Trump zertrümmert die Friedensordnung. In Iran begehren die Menschen einmal mehr gegen das Regime auf. Und die FDP kämpft gegen die eigene Bedeutungslosigkeit. Das ist die Lage am Dienstagmorgen.",
@@ -432,17 +443,6 @@
         "link": "https://www.zeit.de/2026/01/andrij-naumow-ukraine-geheimdienst-wien-russland-auslieferung",
         "source": "ZEIT",
         "publishedAt": "2026-01-05T19:21:44.000Z"
-      },
-      {
-        "id": "li.3363476",
-        "title": "Venezuela: Maduro plädiert auf „nicht schuldig“",
-        "summary": "Der venezolanische Staatschef Nicolás Maduro sagt bei seinem ersten Termin vor Gericht in New York, er sei entführt worden. Sein Anwalt will die Umstände der Gefangennahme thematisieren.",
-        "paragraphs": [
-          "Der venezolanische Staatschef Nicolás Maduro sagt bei seinem ersten Termin vor Gericht in New York, er sei entführt worden. Sein Anwalt will die Umstände der Gefangennahme thematisieren."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/nicolas-maduro-gericht-new-york-li.3363476",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-05T19:13:37.000Z"
       }
     ],
     "sport": [
@@ -669,6 +669,28 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/TCL-Fernseher-Satte-Farben-mit-weissen-LEDs-und-neuen-Nanopartikeln-11130090.html",
+        "title": "TCL-Fernseher: Satte Farben mit weißen LEDs und neuen Nanopartikeln",
+        "summary": "TCL schwimmt gegen den Strom: Der chinesische Displayspezialist setzt nicht auf RGB-LEDs, sondern auf weiße Mini-LEDs und Quantenpunkte im LCD-TV.",
+        "paragraphs": [
+          "TCL schwimmt gegen den Strom: Der chinesische Displayspezialist setzt nicht auf RGB-LEDs, sondern auf weiße Mini-LEDs und Quantenpunkte im LCD-TV."
+        ],
+        "link": "https://www.heise.de/news/TCL-Fernseher-Satte-Farben-mit-weissen-LEDs-und-neuen-Nanopartikeln-11130090.html",
+        "source": "c't",
+        "publishedAt": "2026-01-06T04:57:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/TCL-Fernseher-Satte-Farben-mit-weissen-LEDs-und-neuen-Nanopartikeln-11130090.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: TCL-Fernseher: Satte Farben mit weißen LEDs und neuen Nanopartikeln",
+        "summary": "TCL schwimmt gegen den Strom: Der chinesische Displayspezialist setzt nicht auf RGB-LEDs, sondern auf weiße Mini-LEDs und Quantenpunkte im LCD-TV.",
+        "paragraphs": [
+          "TCL schwimmt gegen den Strom: Der chinesische Displayspezialist setzt nicht auf RGB-LEDs, sondern auf weiße Mini-LEDs und Quantenpunkte im LCD-TV."
+        ],
+        "link": "https://www.heise.de/news/TCL-Fernseher-Satte-Farben-mit-weissen-LEDs-und-neuen-Nanopartikeln-11130090.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-06T04:57:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Nvidia-und-Apple-bescheren-Foxconn-mehr-Umsatz-11130234.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Nvidia und Apple bescheren Foxconn mehr Umsatz",
         "summary": "Foxconn hat 2025 18 Prozent mehr Umsatz gemacht. Verbraucher kaufen zwar weniger vernetzte Geräte, aber der KI-Boom gleicht das mehr als aus.",
@@ -702,17 +724,6 @@
         "publishedAt": "2026-01-06T03:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/CPU-Refresh-AMDs-Ryzen-AI-400-werden-teilweise-schlechter-11129833.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: CPU-Refresh: AMDs Ryzen AI 400 werden teilweise schlechter",
-        "summary": "AMDs neu aufgelegte Prozessoren takten teilweise niedriger mit gleichzeitig weniger Performance-Kernen. Der Ryzen 7 9850X3D bekommt dagegen mehr Takt.",
-        "paragraphs": [
-          "AMDs neu aufgelegte Prozessoren takten teilweise niedriger mit gleichzeitig weniger Performance-Kernen. Der Ryzen 7 9850X3D bekommt dagegen mehr Takt."
-        ],
-        "link": "https://www.heise.de/news/CPU-Refresh-AMDs-Ryzen-AI-400-werden-teilweise-schlechter-11129833.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-06T03:30:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Beim-Raspi-abgeschaut-HP-versteckt-x86-Mini-PC-in-der-Tastatur-11128179.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: Beim Raspi abgeschaut: HP versteckt x86-Mini-PC in der Tastatur",
         "summary": "HP packt einen Mini-PC mit Ryzen-Prozessor in eine USB-C-Tastatur – auf Wunsch sogar mit Akku.",
@@ -720,6 +731,17 @@
           "HP packt einen Mini-PC mit Ryzen-Prozessor in eine USB-C-Tastatur – auf Wunsch sogar mit Akku."
         ],
         "link": "https://www.heise.de/news/Beim-Raspi-abgeschaut-HP-versteckt-x86-Mini-PC-in-der-Tastatur-11128179.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-06T03:30:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/CPU-Refresh-AMDs-Ryzen-AI-400-werden-teilweise-schlechter-11129833.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: CPU-Refresh: AMDs Ryzen AI 400 werden teilweise schlechter",
+        "summary": "AMDs neu aufgelegte Prozessoren takten teilweise niedriger mit gleichzeitig weniger Performance-Kernen. Der Ryzen 7 9850X3D bekommt dagegen mehr Takt.",
+        "paragraphs": [
+          "AMDs neu aufgelegte Prozessoren takten teilweise niedriger mit gleichzeitig weniger Performance-Kernen. Der Ryzen 7 9850X3D bekommt dagegen mehr Takt."
+        ],
+        "link": "https://www.heise.de/news/CPU-Refresh-AMDs-Ryzen-AI-400-werden-teilweise-schlechter-11129833.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-06T03:30:00.000Z"
       },
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/news/Remote-Desktop-Filevault-Verschluesselung-behindert-Mac-Login-Workaround-11129873.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-05T17:59:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/LG-OLED-TVs-Lichtstark-satte-Farben-und-als-Tapete-fuer-die-Wand-11129759.html",
-        "title": "LG-OLED-TVs: Lichtstark, satte Farben und als Tapete für die Wand",
-        "summary": "LG präsentiert seine neuen OLED-TV-Modelle, darunter eine neue Variante des 2017 erstmals gezeigten Wallpaper Design.",
-        "paragraphs": [
-          "LG präsentiert seine neuen OLED-TV-Modelle, darunter eine neue Variante des 2017 erstmals gezeigten Wallpaper Design."
-        ],
-        "link": "https://www.heise.de/news/LG-OLED-TVs-Lichtstark-satte-Farben-und-als-Tapete-fuer-die-Wand-11129759.html",
-        "source": "c't",
-        "publishedAt": "2026-01-05T17:53:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/LG-OLED-TVs-Lichtstark-satte-Farben-und-als-Tapete-fuer-die-Wand-11129759.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: LG-OLED-TVs: Lichtstark, satte Farben und als Tapete für die Wand",
-        "summary": "LG präsentiert seine neuen OLED-TV-Modelle, darunter eine neue Variante des 2017 erstmals gezeigten Wallpaper Design.",
-        "paragraphs": [
-          "LG präsentiert seine neuen OLED-TV-Modelle, darunter eine neue Variante des 2017 erstmals gezeigten Wallpaper Design."
-        ],
-        "link": "https://www.heise.de/news/LG-OLED-TVs-Lichtstark-satte-Farben-und-als-Tapete-fuer-die-Wand-11129759.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-05T17:53:00.000Z"
       }
     ]
   }
