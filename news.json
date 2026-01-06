@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-06T07:49:05.736Z",
+  "updatedAt": "2026-01-06T07:56:41.675Z",
   "categories": {
     "wirtschaft": [
       {
@@ -191,7 +191,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/usa-new-yorks-neuer-buergermeister-will-seine-prinzipien-nicht-aufgeben/29669594.html",
-        "title": "+++ USA +++: Beamter: Niemand wird USA wegen Grönland-Anspruch angreifen",
+        "title": "+++ USA +++: Trump-Berater: Niemand wird USA wegen Grönland-Anspruch angreifen",
         "summary": "US-Regierung senkt Zahl der für Kinder empfohlenen Impfungen“ +++ Dänische Regierungschefin: US-Angriff auf Grönland wäre Ende der Nato +++ Der Newsblog.",
         "paragraphs": [
           "US-Regierung senkt Zahl der für Kinder empfohlenen Impfungen“ +++ Dänische Regierungschefin: US-Angriff auf Grönland wäre Ende der Nato +++ Der Newsblog."
@@ -224,6 +224,17 @@
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:f16d7e5a-0589-4feb-9308-8771bf4e3ed0}",
+        "title": "Grenzkonflikt: Thailand wirft Kambodscha Bruch der Waffenruhe vor",
+        "summary": "Zehn Tage nach Inkrafttreten der Waffenrufe wirft Thailand Kambodscha vor, einen Soldaten verletzt zu haben. Kambodscha spricht von einem \"betriebsbedingten Fehler\".",
+        "paragraphs": [
+          "Zehn Tage nach Inkrafttreten der Waffenrufe wirft Thailand Kambodscha vor, einen Soldaten verletzt zu haben. Kambodscha spricht von einem \"betriebsbedingten Fehler\"."
+        ],
+        "link": "https://www.zeit.de/politik/2026-01/grenzkonflikt-thailand-kambodscha-waffenruhe",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-06T07:45:05.000Z"
+      },
       {
         "id": "{urn:uuid:afabb16f-a535-4f4e-9908-4817429f3b75}",
         "title": "Schwangerschaftsabbruch in den USA: Eine Ärztin rebelliert",
@@ -314,7 +325,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/usa-new-yorks-neuer-buergermeister-will-seine-prinzipien-nicht-aufgeben/29669594.html",
-        "title": "+++ USA +++: Beamter: Niemand wird USA wegen Grönland-Anspruch angreifen",
+        "title": "+++ USA +++: Trump-Berater: Niemand wird USA wegen Grönland-Anspruch angreifen",
         "summary": "US-Regierung senkt Zahl der für Kinder empfohlenen Impfungen“ +++ Dänische Regierungschefin: US-Angriff auf Grönland wäre Ende der Nato +++ Der Newsblog.",
         "paragraphs": [
           "US-Regierung senkt Zahl der für Kinder empfohlenen Impfungen“ +++ Dänische Regierungschefin: US-Angriff auf Grönland wäre Ende der Nato +++ Der Newsblog."
@@ -432,17 +443,6 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/usa-mark-kelly-senator-militaer-kritik-pete-hegseth",
         "source": "ZEIT",
         "publishedAt": "2026-01-06T00:05:24.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/internationale-steuerpolitik-aenderungen-an-globaler-mindeststeuer-nach-bedenken-der-usa/100188797.html",
-        "title": "Internationale Steuerpolitik: Änderungen an globaler Mindeststeuer nach Bedenken der USA",
-        "summary": "145 Staaten ändern das Abkommen von 2021. Ausnahmen und Vereinfachungen sollen US-Bedenken ausräumen und den globalen Mindeststeuersatz von 15 Prozent sichern.",
-        "paragraphs": [
-          "145 Staaten ändern das Abkommen von 2021. Ausnahmen und Vereinfachungen sollen US-Bedenken ausräumen und den globalen Mindeststeuersatz von 15 Prozent sichern."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/internationale-steuerpolitik-aenderungen-an-globaler-mindeststeuer-nach-bedenken-der-usa/100188797.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-05T23:22:47.000Z"
       }
     ],
     "sport": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Nvidia-will-2027-Robotaxis-auf-die-Strasse-bringen-11130390.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: Nvidia will 2027 Robotaxis auf die Straße bringen",
+        "summary": "Nvidia-Chips sind unverzichtbar für KI. Der Konzern will auch bei autonomen Fahrzeugen mitmischen. Ein deutscher Autobauer spielt dabei eine zentrale Rolle.",
+        "paragraphs": [
+          "Nvidia-Chips sind unverzichtbar für KI. Der Konzern will auch bei autonomen Fahrzeugen mitmischen. Ein deutscher Autobauer spielt dabei eine zentrale Rolle."
+        ],
+        "link": "https://www.heise.de/news/Nvidia-will-2027-Robotaxis-auf-die-Strasse-bringen-11130390.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-06T07:52:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Nvidia-DLSS-4-5-verbessert-Upscaling-und-Frame-Generation-11130370.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: Nvidia: DLSS 4.5 verbessert Upscaling und Frame Generation",
         "summary": "Auf der CES 2026 hat Nvidia keine neuen Grafikkarten angekündigt. Dafür entschädigt eine neue Version von DLSS, die auch für ältere Grafikkarten bereitsteht.",
@@ -702,17 +713,6 @@
         "publishedAt": "2026-01-06T07:08:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Eufy-waescht-Babyflaschen-mit-smarter-Flaschenspuelmaschine-11129953.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: Eufy wäscht Babyflaschen mit smarter Flaschenspülmaschine",
-        "summary": "Auf der CES zeigt die Anker-Marke Eufy außer dem Bottle Washer S1 Pro eine Videotürklingel und Sicherheitskamera, nennt Startdaten für Saugbots S2 und C28.",
-        "paragraphs": [
-          "Auf der CES zeigt die Anker-Marke Eufy außer dem Bottle Washer S1 Pro eine Videotürklingel und Sicherheitskamera, nennt Startdaten für Saugbots S2 und C28."
-        ],
-        "link": "https://www.heise.de/news/Eufy-waescht-Babyflaschen-mit-smarter-Flaschenspuelmaschine-11129953.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-06T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Proaktive-IT-Security-mit-Pentesting-Ethical-Hacking-fuer-Admins-11117673.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "heise-Angebot: Proaktive IT-Security mit Pentesting: Ethical Hacking für Admins",
         "summary": "In fünf Terminen lernen Admins und Security-Verantwortliche ab dem 3. Februar 2026, wie sie mit Ethical Hacking Systeme absichern und Schwachstellen aufdecken.",
@@ -720,6 +720,17 @@
           "In fünf Terminen lernen Admins und Security-Verantwortliche ab dem 3. Februar 2026, wie sie mit Ethical Hacking Systeme absichern und Schwachstellen aufdecken."
         ],
         "link": "https://www.heise.de/news/Proaktive-IT-Security-mit-Pentesting-Ethical-Hacking-fuer-Admins-11117673.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-06T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Eufy-waescht-Babyflaschen-mit-smarter-Flaschenspuelmaschine-11129953.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: Eufy wäscht Babyflaschen mit smarter Flaschenspülmaschine",
+        "summary": "Auf der CES zeigt die Anker-Marke Eufy außer dem Bottle Washer S1 Pro eine Videotürklingel und Sicherheitskamera, nennt Startdaten für Saugbots S2 und C28.",
+        "paragraphs": [
+          "Auf der CES zeigt die Anker-Marke Eufy außer dem Bottle Washer S1 Pro eine Videotürklingel und Sicherheitskamera, nennt Startdaten für Saugbots S2 und C28."
+        ],
+        "link": "https://www.heise.de/news/Eufy-waescht-Babyflaschen-mit-smarter-Flaschenspuelmaschine-11129953.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-06T07:00:00.000Z"
       },
@@ -875,17 +886,6 @@
         ],
         "link": "https://www.heise.de/news/Acer-bringt-16-Zoll-Notebook-mit-riesigem-Touchpad-11128516.html",
         "source": "c't",
-        "publishedAt": "2026-01-05T23:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Acer-bringt-16-Zoll-Notebook-mit-riesigem-Touchpad-11128516.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: Acer bringt 16-Zoll-Notebook mit riesigem Touchpad",
-        "summary": "Das Touchpad des neuen Swift 16 AI ist das größte seiner Art und lässt sich wahlweise mittels Stift als Grafiktablett verwenden.",
-        "paragraphs": [
-          "Das Touchpad des neuen Swift 16 AI ist das größte seiner Art und lässt sich wahlweise mittels Stift als Grafiktablett verwenden."
-        ],
-        "link": "https://www.heise.de/news/Acer-bringt-16-Zoll-Notebook-mit-riesigem-Touchpad-11128516.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
         "publishedAt": "2026-01-05T23:30:00.000Z"
       }
     ]
