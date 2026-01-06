@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-06T13:46:11.980Z",
+  "updatedAt": "2026-01-06T13:57:58.324Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:fbe9e0f8-0dad-48e3-84ba-3226105679c1}",
+        "title": "Statistisches Bundesamt: Inflation sinkt im Dezember auf tiefsten Stand seit gut einem Jahr",
+        "summary": "Im vergangenen Jahr sind die Verbraucherpreise im Schnitt um 2,2 Prozent gestiegen. Im Dezember schwächte sich die Inflationsrate aber deutlich ab – auf 1,8 Prozent.",
+        "paragraphs": [
+          "Im vergangenen Jahr sind die Verbraucherpreise im Schnitt um 2,2 Prozent gestiegen. Im Dezember schwächte sich die Inflationsrate aber deutlich ab – auf 1,8 Prozent."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/inflation-statistisches-bundesamt-dezember-2025",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-06T13:50:05.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/gemeinsame-erklaerung-europaeer-warnen-usa-vor-groenland-annexion/100189003.html",
         "title": "Gemeinsame Erklärung: Europäer warnen USA vor Grönland-Annexion",
@@ -12,17 +23,6 @@
         "link": "https://www.handelsblatt.com/politik/international/gemeinsame-erklaerung-europaeer-warnen-usa-vor-groenland-annexion/100189003.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-06T13:37:58.000Z"
-      },
-      {
-        "id": "{urn:uuid:fbe9e0f8-0dad-48e3-84ba-3226105679c1}",
-        "title": "Statistisches Bundesamt: Inflation in 2025 bei 2,2 Prozent",
-        "summary": "Im vergangenen Jahr sind die Verbraucherpreise im Schnitt um 2,2 Prozent gestiegen – wie schon 2024. Im Dezember schwächte sich der Preisdruck aber deutlich ab.",
-        "paragraphs": [
-          "Im vergangenen Jahr sind die Verbraucherpreise im Schnitt um 2,2 Prozent gestiegen – wie schon 2024. Im Dezember schwächte sich der Preisdruck aber deutlich ab."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/inflation-statistisches-bundesamt-dezember-2025",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-06T13:36:40.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-preisdruck-in-deutschland-sinkt-deutlich/100188045.html",
@@ -238,13 +238,13 @@
       {
         "id": "https://www.handelsblatt.com/politik/international/gemeinsame-erklaerung-europaeer-warnen-usa-vor-groenland-annexion/100189003.html",
         "title": "Gemeinsame Erklärung: Europäer warnen USA vor Grönland-Annexion",
-        "summary": "Jens Frederik Nielsen schließt eine Annexion Grönlands über Nacht aus und gibt sich kooperativ. Nach Drohungen aus den USA kontern sechs große europäische Staaten mit einer gemeinsamen Erklärung.",
+        "summary": "Nach Drohungen aus den USA kontern sechs große europäische Staaten mit einer gemeinsamen Erklärung. Grönlands Regierungschef mahnt zur Ruhe: Sein Land sei mit Venezuela nicht vergleichbar.",
         "paragraphs": [
-          "Jens Frederik Nielsen schließt eine Annexion Grönlands über Nacht aus und gibt sich kooperativ. Nach Drohungen aus den USA kontern sechs große europäische Staaten mit einer gemeinsamen Erklärung."
+          "Nach Drohungen aus den USA kontern sechs große europäische Staaten mit einer gemeinsamen Erklärung. Grönlands Regierungschef mahnt zur Ruhe: Sein Land sei mit Venezuela nicht vergleichbar."
         ],
         "link": "https://www.handelsblatt.com/politik/international/gemeinsame-erklaerung-europaeer-warnen-usa-vor-groenland-annexion/100189003.html",
         "source": "Handelsblatt",
-        "publishedAt": "2026-01-06T13:29:11.000Z"
+        "publishedAt": "2026-01-06T13:37:58.000Z"
       },
       {
         "id": "{urn:uuid:085d101c-7604-49f0-8bfb-a8f0f1d5909b}",
@@ -447,6 +447,50 @@
     ],
     "sport": [
       {
+        "id": "https://www.spiegel.de/sport/reitsport-dressur-olympiasiegerin-jessica-von-bredow-werndl-trauert-um-pferd-diallo-a-70f2f52e-b989-49fd-96f7-0a05bb290411",
+        "title": "Reitsport: Dressur-Olympiasiegerin Jessica von Bredow-Werndl trauert um Pferd Diallo",
+        "summary": "Der elfjährige Wallach Diallo galt als WM-Hoffnungsträger, nun ist Jessica von Bredow-Werndls Pferd gestorben. Innerhalb von Stunden habe sich eine Krankheit durch den Körper des Pferdes »gefressen«, so die Reiterin.",
+        "paragraphs": [
+          "Der elfjährige Wallach Diallo galt als WM-Hoffnungsträger, nun ist Jessica von Bredow-Werndls Pferd gestorben. Innerhalb von Stunden habe sich eine Krankheit durch den Körper des Pferdes »gefressen«, so die Reiterin."
+        ],
+        "link": "https://www.spiegel.de/sport/reitsport-dressur-olympiasiegerin-jessica-von-bredow-werndl-trauert-um-pferd-diallo-a-70f2f52e-b989-49fd-96f7-0a05bb290411#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-06T13:51:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/spieler-die-wir-kennen-tschechien-setzt-auf-erfahrung-1181226/artikel#omrss",
+        "title": "\"Spieler, die wir kennen\": Tschechien setzt auf Erfahrung",
+        "summary": "Mit \"nur\" zwölf aktuellen NHL-Spielern tritt Tschechien bei den Olympischen Spielen in Mailand im Februar an. Doch das bedeutet keineswegs, dass es der Eishockey-Nation bei dem Turnier an Erfahrung in der besten Liga der Welt fehlen wird.",
+        "paragraphs": [
+          "Mit \"nur\" zwölf aktuellen NHL-Spielern tritt Tschechien bei den Olympischen Spielen in Mailand im Februar an. Doch das bedeutet keineswegs, dass es der Eishockey-Nation bei dem Turnier an Erfahrung in der besten Liga der Welt fehlen wird."
+        ],
+        "link": "https://www.kicker.de/spieler-die-wir-kennen-tschechien-setzt-auf-erfahrung-1181226/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-06T13:45:24.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mbappe-reist-nicht-mit-real-nach-saudi-arabien-1181236/artikel#omrss",
+        "title": "Mbappé reist nicht mit Real nach Saudi-Arabien",
+        "summary": "Real Madrid muss ohne Kylian Mbappé um den Einzug ins Supercopa-Finale kämpfen. Der Torjäger fällt erneut aus - aber wie lange noch?",
+        "paragraphs": [
+          "Real Madrid muss ohne Kylian Mbappé um den Einzug ins Supercopa-Finale kämpfen. Der Torjäger fällt erneut aus - aber wie lange noch?"
+        ],
+        "link": "https://www.kicker.de/mbappe-reist-nicht-mit-real-nach-saudi-arabien-1181236/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-06T13:44:48.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/von-air-jordan-bis-mcclung-die-spieler-mit-den-meisten-perfekten-dunks-1181247/artikel#omrss",
+        "title": "Von Air Jordan bis McClung: Die Spieler mit den meisten perfekten Dunks",
+        "summary": "Seit 1984 ist der NBA Slam Dunk Contest das Spektakel des All-Star Weekends - und mit dem aktuellen 5-Judge-System ist ein perfekter \"50er\" die höchste Auszeichnung. Über die Jahrzehnte haben nur wenige Akteure regelmäßig die Maximalwertung geknackt. Diese Slideshow zeigt die Spieler, die mit ihren perfekten Scores besonders herausstachen.",
+        "paragraphs": [
+          "Seit 1984 ist der NBA Slam Dunk Contest das Spektakel des All-Star Weekends - und mit dem aktuellen 5-Judge-System ist ein perfekter \"50er\" die höchste Auszeichnung. Über die Jahrzehnte haben nur wenige Akteure regelmäßig die Maximalwertung geknackt. Diese Slideshow zeigt die Spieler, die mit ihren perfekten Scores besonders herausstachen."
+        ],
+        "link": "https://www.kicker.de/von-air-jordan-bis-mcclung-die-spieler-mit-den-meisten-perfekten-dunks-1181247/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-06T13:42:48.000Z"
+      },
+      {
         "id": "https://www.kicker.de/trotz-wolff-coup-vejrgang-rekord-sichert-wm-teilnahme-1181177/artikel#omrss",
         "title": "Trotz Wolff-Coup: Vejrgang-Rekord sichert WM-Teilnahme",
         "summary": "Anders Vejrgang steht in den Playoffs der FC Pro Open. Mit der besten Gruppenphase in der Geschichte des Wettbewerbs sicherte sich der Däne die direkte Viertelfinalteilnahme - und zudem bereits sein WM-Ticket.",
@@ -621,50 +665,6 @@
         "link": "https://www.kicker.de/nach-zwoelf-jahren-england-araoye-wechselt-nach-verl-1181196/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-06T11:45:50.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/auckland-seidel-souveraen-williams-bewegt-sich-grossartig-1181124/artikel#omrss",
-        "title": "Auckland: Seidel souverän - Williams bewegt sich \"großartig\"",
-        "summary": "Der Tennis-Zirkus hat wieder Fahrt aufgenommen, die Australian Open werfen ihre Schatten schon voraus. Auch deutsche Profis waren am Dienstag im Einsatz.",
-        "paragraphs": [
-          "Der Tennis-Zirkus hat wieder Fahrt aufgenommen, die Australian Open werfen ihre Schatten schon voraus. Auch deutsche Profis waren am Dienstag im Einsatz."
-        ],
-        "link": "https://www.kicker.de/auckland-seidel-souveraen-williams-bewegt-sich-grossartig-1181124/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-06T11:38:18.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ende-eines-missverstaendnisses-hussein-verlaesst-hertha-1181183/artikel#omrss",
-        "title": "Ende eines Missverständnisses: Hussein verlässt Hertha",
-        "summary": "Ende eines Missverständnisses: Bilal Hussein verlässt nach zweieinhalb Jahren Hertha BSC und kehrt in seine schwedische Heimat zu Degerfors IF zurück.",
-        "paragraphs": [
-          "Ende eines Missverständnisses: Bilal Hussein verlässt nach zweieinhalb Jahren Hertha BSC und kehrt in seine schwedische Heimat zu Degerfors IF zurück."
-        ],
-        "link": "https://www.kicker.de/ende-eines-missverstaendnisses-hussein-verlaesst-hertha-1181183/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-06T11:31:54.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/fussball/premier-league-fc-chelsea-bedient-sich-bei-partnerverein-strassburg-und-holt-trainer-liam-rosenior-a-610db0bd-e0a8-4feb-9ac8-62fd6afff20b",
-        "title": "Premier League: FC Chelsea bedient sich bei Partnerverein Straßburg und holt Trainer Liam Rosenior",
-        "summary": "Nur wenige Tage nach der Trennung von Enzo Maresca hat der FC Chelsea einen neuen Coach gefunden: Liam Rosenior kommt vom RC Straßburg. Beide Klubs gehören zum Investorenkonsortium des US-Milliardärs Todd Boehly.",
-        "paragraphs": [
-          "Nur wenige Tage nach der Trennung von Enzo Maresca hat der FC Chelsea einen neuen Coach gefunden: Liam Rosenior kommt vom RC Straßburg. Beide Klubs gehören zum Investorenkonsortium des US-Milliardärs Todd Boehly."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/premier-league-fc-chelsea-bedient-sich-bei-partnerverein-strassburg-und-holt-trainer-liam-rosenior-a-610db0bd-e0a8-4feb-9ac8-62fd6afff20b#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-06T11:31:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "title": "Joao Cancelo vor Barca-Rückkehr - Peretz-Deal fast durch - Bassette beim FCK",
-        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
-        "paragraphs": [
-          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
-        ],
-        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-06T11:29:08.000Z"
       }
     ],
     "edv": [
