@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-06T05:34:27.716Z",
+  "updatedAt": "2026-01-06T05:47:35.510Z",
   "categories": {
     "wirtschaft": [
       {
@@ -11,7 +11,7 @@
         ],
         "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiatische-boersen-im-plus-japans-topix-erreicht-rekordhoch/100188848.html",
         "source": "Handelsblatt",
-        "publishedAt": "2026-01-06T05:27:46.000Z"
+        "publishedAt": "2026-01-06T05:35:05.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-fuenf-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "US-Angriff auf Venezuela: US-Präsident Trump stellt Subventionen für Ölkonzerne in Aussicht",
+        "summary": "US-Präsident Donald ​Trump will die Arbeit von Ölfirmen in Venezuela fördern. Nahe dem Präsidentenpalast in Caracas sind laut Berichten Schüsse gefallen. Das Liveblog",
+        "paragraphs": [
+          "US-Präsident Donald ​Trump will die Arbeit von Ölfirmen in Venezuela fördern. Nahe dem Präsidentenpalast in Caracas sind laut Berichten Schüsse gefallen. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-06T05:38:52.000Z"
+      },
+      {
+        "id": "{urn:uuid:17f8ffda-1eac-48e4-9329-72cc3b52056f}",
+        "title": "Nicolás Maduro vor Gericht: Wahlbetrüger, Kriegsgefangener oder Drogenboss?",
+        "summary": "Nicolás Maduro wird in New York angeklagt. Um das möglich zu machen, musste die Regierung von Donald Trump einige fragwürdige Kehrtwenden vollziehen. Womöglich zu viele.",
+        "paragraphs": [
+          "Nicolás Maduro wird in New York angeklagt. Um das möglich zu machen, musste die Regierung von Donald Trump einige fragwürdige Kehrtwenden vollziehen. Womöglich zu viele."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/nicolas-maduro-gericht-usa-rechtmaessigkeit-justiz",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-06T05:30:25.000Z"
+      },
+      {
         "id": "{urn:uuid:c76d375f-e840-44c9-bb5e-5b89e4ed75b5}",
         "title": "USA und Grönland: Nach US-Angriff auf Venezuela – Ist Grönland als nächstes dran?",
         "summary": "Donald Trump erneuert seine Besitzansprüche auf Grönland. Wie antwortet Europa? Und: CSU fordert eine härtere Migrationspolitik.",
@@ -278,17 +300,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/migration-oekonomen-warnen-vor-csu-plaenen-fuer-abschiebeoffensive/100188456.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-06T03:12:15.000Z"
-      },
-      {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "US-Angriff auf Venezuela: US-Präsident Trump stellt Subventionen für Ölkonzerne in Aussicht",
-        "summary": "US-Präsident Donald ​Trump will die Arbeit von Ölfirmen in Venezuela fördern. Nahe dem Präsidentenpalast in Caracas sind laut Berichten Schüsse gefallen. Das Liveblog",
-        "paragraphs": [
-          "US-Präsident Donald ​Trump will die Arbeit von Ölfirmen in Venezuela fördern. Nahe dem Präsidentenpalast in Caracas sind laut Berichten Schüsse gefallen. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-06T03:06:08.000Z"
       },
       {
         "id": "{urn:uuid:02a3314b-ee10-4ddf-853d-d58eb863d6d3}",
@@ -432,17 +443,6 @@
         "link": "https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog",
         "source": "ZEIT",
         "publishedAt": "2026-01-05T19:26:08.000Z"
-      },
-      {
-        "id": "{urn:uuid:0bd13c6c-5db2-4338-849f-39d7c1bbbef9}",
-        "title": "Andrij Naumow: Immer wieder Österreich",
-        "summary": "Ein abtrünniger ukrainischer Geheimdienstler ist nach Wien geflohen. Er ist nicht der  einzige Ukrainer, der sich hier der Strafverfolgung in seiner Heimat entzieht.",
-        "paragraphs": [
-          "Ein abtrünniger ukrainischer Geheimdienstler ist nach Wien geflohen. Er ist nicht der  einzige Ukrainer, der sich hier der Strafverfolgung in seiner Heimat entzieht."
-        ],
-        "link": "https://www.zeit.de/2026/01/andrij-naumow-ukraine-geheimdienst-wien-russland-auslieferung",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-05T19:21:44.000Z"
       }
     ],
     "sport": [
@@ -669,6 +669,28 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/DGX-Vera-Rubin-Nvidia-zeigt-naechste-KI-Server-Generation-mit-hauseigener-CPU-11128572.html",
+        "title": "DGX Vera Rubin: Nvidia zeigt nächste KI-Server-Generation mit hauseigener CPU",
+        "summary": "Nvidia-Chef Jensen Huang gab auf der CES einen Ausblick auf den kommende KI-Server DGX Vera Rubin mit hauseigenen ARM-Prozessorkernen und neuer GPU-Architektur.",
+        "paragraphs": [
+          "Nvidia-Chef Jensen Huang gab auf der CES einen Ausblick auf den kommende KI-Server DGX Vera Rubin mit hauseigenen ARM-Prozessorkernen und neuer GPU-Architektur."
+        ],
+        "link": "https://www.heise.de/news/DGX-Vera-Rubin-Nvidia-zeigt-naechste-KI-Server-Generation-mit-hauseigener-CPU-11128572.html",
+        "source": "c't",
+        "publishedAt": "2026-01-06T05:36:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/DGX-Vera-Rubin-Nvidia-zeigt-naechste-KI-Server-Generation-mit-hauseigener-CPU-11128572.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: DGX Vera Rubin: Nvidia zeigt nächste KI-Server-Generation mit hauseigener CPU",
+        "summary": "Nvidia-Chef Jensen Huang gab auf der CES einen Ausblick auf den kommende KI-Server DGX Vera Rubin mit hauseigenen ARM-Prozessorkernen und neuer GPU-Architektur.",
+        "paragraphs": [
+          "Nvidia-Chef Jensen Huang gab auf der CES einen Ausblick auf den kommende KI-Server DGX Vera Rubin mit hauseigenen ARM-Prozessorkernen und neuer GPU-Architektur."
+        ],
+        "link": "https://www.heise.de/news/DGX-Vera-Rubin-Nvidia-zeigt-naechste-KI-Server-Generation-mit-hauseigener-CPU-11128572.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-06T05:36:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/CaPow-und-Hyundai-batterielose-Energieversorgung-fuer-Roboterflotten-11128450.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: CaPow und Hyundai: batterielose Energieversorgung für Roboterflotten",
         "summary": "CaPow stellt auf der CES 2026 ein kabelloses Energiesystem vor, das mobile Roboter während der Bewegung versorgt und Ladezonen überflüssig machen soll.",
@@ -735,17 +757,6 @@
         "publishedAt": "2026-01-06T03:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Beim-Raspi-abgeschaut-HP-versteckt-x86-Mini-PC-in-der-Tastatur-11128179.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: Beim Raspi abgeschaut: HP versteckt x86-Mini-PC in der Tastatur",
-        "summary": "HP packt einen Mini-PC mit Ryzen-Prozessor in eine USB-C-Tastatur – auf Wunsch sogar mit Akku.",
-        "paragraphs": [
-          "HP packt einen Mini-PC mit Ryzen-Prozessor in eine USB-C-Tastatur – auf Wunsch sogar mit Akku."
-        ],
-        "link": "https://www.heise.de/news/Beim-Raspi-abgeschaut-HP-versteckt-x86-Mini-PC-in-der-Tastatur-11128179.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-06T03:30:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/CPU-Refresh-AMDs-Ryzen-AI-400-werden-teilweise-schlechter-11129833.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: CPU-Refresh: AMDs Ryzen AI 400 werden teilweise schlechter",
         "summary": "AMDs neu aufgelegte Prozessoren takten teilweise niedriger mit gleichzeitig weniger Performance-Kernen. Der Ryzen 7 9850X3D bekommt dagegen mehr Takt.",
@@ -753,6 +764,17 @@
           "AMDs neu aufgelegte Prozessoren takten teilweise niedriger mit gleichzeitig weniger Performance-Kernen. Der Ryzen 7 9850X3D bekommt dagegen mehr Takt."
         ],
         "link": "https://www.heise.de/news/CPU-Refresh-AMDs-Ryzen-AI-400-werden-teilweise-schlechter-11129833.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-06T03:30:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Beim-Raspi-abgeschaut-HP-versteckt-x86-Mini-PC-in-der-Tastatur-11128179.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: Beim Raspi abgeschaut: HP versteckt x86-Mini-PC in der Tastatur",
+        "summary": "HP packt einen Mini-PC mit Ryzen-Prozessor in eine USB-C-Tastatur – auf Wunsch sogar mit Akku.",
+        "paragraphs": [
+          "HP packt einen Mini-PC mit Ryzen-Prozessor in eine USB-C-Tastatur – auf Wunsch sogar mit Akku."
+        ],
+        "link": "https://www.heise.de/news/Beim-Raspi-abgeschaut-HP-versteckt-x86-Mini-PC-in-der-Tastatur-11128179.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-06T03:30:00.000Z"
       },
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/news/Ausspaehen-unter-Freunden-geht-doch-BND-soll-US-Praesident-Obama-abgehoert-haben-11129911.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-05T18:29:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Bosch-KI-fuer-Fahrzeuge-Industrie-und-Konsumtechnik-11128089.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: Bosch: KI für Fahrzeuge, Industrie und Konsumtechnik",
-        "summary": "Bosch zeigt auf der CES 2026 KI-Anwendungen für Fahrzeuge, Fabriken und Alltagsgeräte. Bis Ende 2027 will das Unternehmen 2,5 Milliarden Euro in KI investieren.",
-        "paragraphs": [
-          "Bosch zeigt auf der CES 2026 KI-Anwendungen für Fahrzeuge, Fabriken und Alltagsgeräte. Bis Ende 2027 will das Unternehmen 2,5 Milliarden Euro in KI investieren."
-        ],
-        "link": "https://www.heise.de/news/Bosch-KI-fuer-Fahrzeuge-Industrie-und-Konsumtechnik-11128089.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-05T18:04:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/LG-Haushaltsroboter-CLOiD-soll-kuenftig-kochen-und-waschen-11129897.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "CES: LG Haushaltsroboter CLOiD soll künftig kochen und waschen",
-        "summary": "Der Haushaltsroboter CLOiD von LG Electronics soll kochen, Wäsche waschen und diese zusammenlegen. In der Präsentation wirkte das aber noch wie Zukunftsmusik.",
-        "paragraphs": [
-          "Der Haushaltsroboter CLOiD von LG Electronics soll kochen, Wäsche waschen und diese zusammenlegen. In der Präsentation wirkte das aber noch wie Zukunftsmusik."
-        ],
-        "link": "https://www.heise.de/news/LG-Haushaltsroboter-CLOiD-soll-kuenftig-kochen-und-waschen-11129897.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-05T18:01:00.000Z"
       }
     ]
   }
