@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-06T07:23:23.364Z",
+  "updatedAt": "2026-01-06T07:39:02.248Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.spiegel.de/wirtschaft/unternehmen/stromausfall-in-berlin-bdi-verlangt-besseren-schutz-kritischer-infrastruktur-a-5c809c30-50e3-4d9b-873a-3c0ac03883a9",
+        "title": "Stromausfall in Berlin: BDI verlangt besseren Schutz kritischer Infrastruktur",
+        "summary": "Berlin kämpft noch immer mit den Folgen des Brandanschlags auf das Stromnetz. Der Industrieverband BDI erhebt nun Vorwürfe gegen die Politik. Die habe nicht genug gegen wachsende Gefahren getan.",
+        "paragraphs": [
+          "Berlin kämpft noch immer mit den Folgen des Brandanschlags auf das Stromnetz. Der Industrieverband BDI erhebt nun Vorwürfe gegen die Politik. Die habe nicht genug gegen wachsende Gefahren getan."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/unternehmen/stromausfall-in-berlin-bdi-verlangt-besseren-schutz-kritischer-infrastruktur-a-5c809c30-50e3-4d9b-873a-3c0ac03883a9#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-06T07:35:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/ma-usa-und-deutschland-erleben-ein-comeback-der-megadeals-02/100180655.html",
         "title": "Übernahmen und Fusionen: „Viel Liquidität im Markt“ – USA und Deutschland erleben ein Comeback der Megadeals",
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-fuenf-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-06T05:18:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:90e5599c-6909-4837-8ad9-5b8fd1bb7b93}",
-        "title": "Geld sparen: Ich habe ein Jahr Haushaltsbuch geführt. Und ja: Wow!",
-        "summary": "Es gibt zwei Methoden, die Geldströme des Lebens zu verfolgen. Die leichte mit App und die harte mit Excel. Warum ich die harte empfehle und was ich dabei gelernt habe.",
-        "paragraphs": [
-          "Es gibt zwei Methoden, die Geldströme des Lebens zu verfolgen. Die leichte mit App und die harte mit Excel. Warum ich die harte empfehle und was ich dabei gelernt habe."
-        ],
-        "link": "https://www.zeit.de/geld/2026-01/url-geld-sparen-haushaltsbuch-ausgaben-app-excel",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-06T04:48:03.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:afabb16f-a535-4f4e-9908-4817429f3b75}",
+        "title": "Schwangerschaftsabbruch in den USA: Eine Ärztin rebelliert",
+        "summary": "Einige US-Bundesstaaten verbieten Schwangerschaftsabbrüche. Doch Ärztinnen aus anderen Landesteilen versorgen Frauen mit Abtreibungspillen – und riskieren dafür viel.",
+        "paragraphs": [
+          "Einige US-Bundesstaaten verbieten Schwangerschaftsabbrüche. Doch Ärztinnen aus anderen Landesteilen versorgen Frauen mit Abtreibungspillen – und riskieren dafür viel."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/schwangerschaftsabbruch-usa-masachusetts-abortion-access-plan",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-06T07:28:03.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/china-3000-yuan-fuer-jeden-so-koennte-china-den-konsum-anschieben-01/100178008.html",
         "title": "China: 3000 Yuan für jeden – So könnte China den Konsum anschieben",
@@ -432,17 +443,6 @@
         "link": "https://www.handelsblatt.com/politik/international/internationale-steuerpolitik-aenderungen-an-globaler-mindeststeuer-nach-bedenken-der-usa/100188797.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-05T23:22:47.000Z"
-      },
-      {
-        "id": "{urn:uuid:b9d5a847-d671-4aa7-b02d-5df232289550}",
-        "title": "Iran: Mindestens 35 Menschen bei Protesten im Iran getötet",
-        "summary": "Den neunten Tag in Folge demonstrieren Menschen im Iran gegen die autoritäre Staatsführung. Menschenrechtler sprechen von mehreren Toten und über 1.200 Festnahmen.",
-        "paragraphs": [
-          "Den neunten Tag in Folge demonstrieren Menschen im Iran gegen die autoritäre Staatsführung. Menschenrechtler sprechen von mehreren Toten und über 1.200 Festnahmen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/iran-proteste-tote-festnahmen",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-05T21:44:16.000Z"
       }
     ],
     "sport": [
@@ -677,7 +677,7 @@
         ],
         "link": "https://www.heise.de/news/Nvidia-DLSS-4-5-verbessert-Upscaling-und-Frame-Generation-11130370.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
-        "publishedAt": "2026-01-06T07:15:00.000Z"
+        "publishedAt": "2026-01-06T07:20:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/OpenAI-wirbt-mit-ChatGPT-als-Gesundheitshelfer-11130306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -702,17 +702,6 @@
         "publishedAt": "2026-01-06T07:08:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Proaktive-IT-Security-mit-Pentesting-Ethical-Hacking-fuer-Admins-11117673.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: Proaktive IT-Security mit Pentesting: Ethical Hacking für Admins",
-        "summary": "In fünf Terminen lernen Admins und Security-Verantwortliche ab dem 3. Februar 2026, wie sie mit Ethical Hacking Systeme absichern und Schwachstellen aufdecken.",
-        "paragraphs": [
-          "In fünf Terminen lernen Admins und Security-Verantwortliche ab dem 3. Februar 2026, wie sie mit Ethical Hacking Systeme absichern und Schwachstellen aufdecken."
-        ],
-        "link": "https://www.heise.de/news/Proaktive-IT-Security-mit-Pentesting-Ethical-Hacking-fuer-Admins-11117673.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-06T07:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Eufy-waescht-Babyflaschen-mit-smarter-Flaschenspuelmaschine-11129953.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: Eufy wäscht Babyflaschen mit smarter Flaschenspülmaschine",
         "summary": "Auf der CES zeigt die Anker-Marke Eufy außer dem Bottle Washer S1 Pro eine Videotürklingel und Sicherheitskamera, nennt Startdaten für Saugbots S2 und C28.",
@@ -720,6 +709,17 @@
           "Auf der CES zeigt die Anker-Marke Eufy außer dem Bottle Washer S1 Pro eine Videotürklingel und Sicherheitskamera, nennt Startdaten für Saugbots S2 und C28."
         ],
         "link": "https://www.heise.de/news/Eufy-waescht-Babyflaschen-mit-smarter-Flaschenspuelmaschine-11129953.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-06T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Proaktive-IT-Security-mit-Pentesting-Ethical-Hacking-fuer-Admins-11117673.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: Proaktive IT-Security mit Pentesting: Ethical Hacking für Admins",
+        "summary": "In fünf Terminen lernen Admins und Security-Verantwortliche ab dem 3. Februar 2026, wie sie mit Ethical Hacking Systeme absichern und Schwachstellen aufdecken.",
+        "paragraphs": [
+          "In fünf Terminen lernen Admins und Security-Verantwortliche ab dem 3. Februar 2026, wie sie mit Ethical Hacking Systeme absichern und Schwachstellen aufdecken."
+        ],
+        "link": "https://www.heise.de/news/Proaktive-IT-Security-mit-Pentesting-Ethical-Hacking-fuer-Admins-11117673.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-06T07:00:00.000Z"
       },
