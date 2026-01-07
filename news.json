@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-07T07:48:42.321Z",
+  "updatedAt": "2026-01-07T07:56:50.509Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:a4e84b48-17c5-410b-b280-6ce9fb5b1c84}",
+        "title": "CO₂-Ausstoß: Einnahmen aus Verkauf von Emissionsrechten 2025 so hoch wie nie",
+        "summary": "Deutschland hat im vergangenen Jahr 21,4 Milliarden Euro mit dem Verkauf von Verschmutzungsrechten eingenommen. Das Geld soll unter anderem die Energiewende finanzieren.",
+        "paragraphs": [
+          "Deutschland hat im vergangenen Jahr 21,4 Milliarden Euro mit dem Verkauf von Verschmutzungsrechten eingenommen. Das Geld soll unter anderem die Energiewende finanzieren."
+        ],
+        "link": "https://www.zeit.de/wissen/umwelt/2026-01/deutschland-emissionsrechte-verkauf-co2",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-07T07:48:22.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/fertigung-bmw-baut-mehr-als-eine-million-autos-in-deutschland/100189244.html",
         "title": "Fertigung: BMW baut mehr als eine Million Autos in Deutschland",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/international/groenland-weisses-haus-droht-daenen-mit-militaereinsatz-rubio-spricht-von-kauf/100189147.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-06T22:40:21.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/unternehmen/covid-19-bayer-verklagt-biontech-und-pfizer-wegen-patenten-fuer-impfstoffe-a-3b644e21-190c-4a63-af47-63306f140e44",
-        "title": "Covid-19: Bayer verklagt Biontech und Pfizer wegen Patenten für Impfstoffe",
-        "summary": "Der Pharmakonzern Bayer wirft Pfizer, Biontech und Moderna vor, bei ihren Covid-19-Impfstoffen eine patentierte mRNA-Technologie der Bayer-Tochter Monsanto genutzt zu haben. Auch gegen Johnson & Johnson läuft eine Klage.",
-        "paragraphs": [
-          "Der Pharmakonzern Bayer wirft Pfizer, Biontech und Moderna vor, bei ihren Covid-19-Impfstoffen eine patentierte mRNA-Technologie der Bayer-Tochter Monsanto genutzt zu haben. Auch gegen Johnson & Johnson läuft eine Klage."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/unternehmen/covid-19-bayer-verklagt-biontech-und-pfizer-wegen-patenten-fuer-impfstoffe-a-3b644e21-190c-4a63-af47-63306f140e44#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-06T21:32:00.000Z"
       }
     ],
     "politik": [
@@ -352,7 +352,7 @@
         "paragraphs": [
           "Der US-Präsident will Öl aus Venezuela verkaufen und die Gewinne kontrollieren. Diese sollen \"dem venezolanischen Volk und den Vereinigten Staaten\" zugutekommen."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/usa-donald-trump-venezuela-praesident-oel-einnahmen-zugriff",
+        "link": "https://www.zeit.de/politik/ausland/2026-01/usa-donald-trump-venezuela-praesident-oel-einnahmen-zugriff-gxe",
         "source": "ZEIT",
         "publishedAt": "2026-01-07T05:17:34.000Z"
       },
@@ -446,6 +446,28 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/er-ist-nicht-mehr-lenny-er-ist-lennart-karl-1181413/artikel#omrss",
+        "title": "\"Er ist nicht mehr Lenny, er ist Lennart Karl\"",
+        "summary": "Nach dem berüchtigten Fanclub-Besuch antwortet Lennart Karl beim 5:0 der Bayern in Salzburg auf seine Art und Weise.",
+        "paragraphs": [
+          "Nach dem berüchtigten Fanclub-Besuch antwortet Lennart Karl beim 5:0 der Bayern in Salzburg auf seine Art und Weise."
+        ],
+        "link": "https://www.kicker.de/er-ist-nicht-mehr-lenny-er-ist-lennart-karl-1181413/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-07T07:52:44.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/voll-krank-deutsche-skispringer-froh-ueber-ende-der-tournee-1181420/artikel#omrss",
+        "title": "\"Voll krank\": Deutsche Skispringer froh über Ende der Tournee",
+        "summary": "Einer ist krank, bei einem anderen zwickt das Knie: Deutschlands Skisprung-Hoffnungsträger gehen lädiert aus der Vierschanzentournee. Der formschwache Karl Geiger soll im Team bleiben - und in Japan Aufwind sammeln.",
+        "paragraphs": [
+          "Einer ist krank, bei einem anderen zwickt das Knie: Deutschlands Skisprung-Hoffnungsträger gehen lädiert aus der Vierschanzentournee. Der formschwache Karl Geiger soll im Team bleiben - und in Japan Aufwind sammeln."
+        ],
+        "link": "https://www.kicker.de/voll-krank-deutsche-skispringer-froh-ueber-ende-der-tournee-1181420/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-07T07:49:23.000Z"
+      },
       {
         "id": "https://www.kicker.de/edmonton-gegen-nashville-2026-nhl-5092100/spielbericht#omrss",
         "title": "Hattrick McDavid, Draisaitl auf der 99",
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/traumtor-in-der-119-minute-boulbina-sorgt-fuer-algerische-ekstase-1181348/video#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-06T19:33:39.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/naechster-neuer-fuer-mainz-silas-kommt-aus-stuttgart-1181051/artikel#omrss",
-        "title": "Nächster Neuer für Mainz: Silas kommt aus Stuttgart",
-        "summary": "Es hatte sich bereits abgezeichnet, nun ist der Wechsel von Silas vom VfB Stuttgart zum 1. FSV Mainz 05 perfekt. Nachdem sich die 05er mit den Schwaben geeinigt hatten, wurde nun auch ein gemeinsamer Nenner mit dem Spieler gefunden.",
-        "paragraphs": [
-          "Es hatte sich bereits abgezeichnet, nun ist der Wechsel von Silas vom VfB Stuttgart zum 1. FSV Mainz 05 perfekt. Nachdem sich die 05er mit den Schwaben geeinigt hatten, wurde nun auch ein gemeinsamer Nenner mit dem Spieler gefunden."
-        ],
-        "link": "https://www.kicker.de/naechster-neuer-fuer-mainz-silas-kommt-aus-stuttgart-1181051/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-06T19:25:33.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bassette-ist-lauterns-erster-winter-zugang-1181165/artikel#omrss",
-        "title": "Bassette ist Lauterns erster Winter-Zugang",
-        "summary": "Der 1. FC Kaiserslautern justiert wie erwartet im Sturm nach und lotst dafür den Belgier Norman Bassette in die Pfalz. Der 21 Jahre alte Angreifer wird zunächst bis zum Saisonende von Coventry City ausgeliehen.",
-        "paragraphs": [
-          "Der 1. FC Kaiserslautern justiert wie erwartet im Sturm nach und lotst dafür den Belgier Norman Bassette in die Pfalz. Der 21 Jahre alte Angreifer wird zunächst bis zum Saisonende von Coventry City ausgeliehen."
-        ],
-        "link": "https://www.kicker.de/bassette-ist-lauterns-erster-winter-zugang-1181165/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-06T19:17:57.000Z"
       }
     ],
     "edv": [
