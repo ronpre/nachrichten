@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-01-07T10:11:13.330Z",
+  "updatedAt": "2026-01-07T10:30:52.482Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:be989191-1d80-423f-8a9d-271bc964cba6}",
+        "title": "Konsum: Einzelhändler verbuchen größtes Umsatzplus seit Corona-Pandemie",
+        "summary": "Im vergangenen Jahr konnte der Einzelhandel seinen Umsatz um 3,6 Prozent steigern. Ein Teil des Anstiegs geht auf Umstrukturierungen bei einem Onlinehändler zurück.",
+        "paragraphs": [
+          "Im vergangenen Jahr konnte der Einzelhandel seinen Umsatz um 3,6 Prozent steigern. Ein Teil des Anstiegs geht auf Umstrukturierungen bei einem Onlinehändler zurück."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/konjunktur-einzelhandel-umsatz-anstieg",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-07T10:21:30.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-20-prozent-teuerungsrate-im-euro-raum-geht-leicht-zurueck/100188048.html",
+        "title": "Inflation: 2,0 Prozent – Teuerungsrate im Euro-Raum geht leicht zurück",
+        "summary": "Die Inflation kehrt nach leichter Abweichung wieder auf das EZB-Zielniveau zurück – zumindest vorerst. Denn der rückläufige Trend dürfte sich in den kommenden Monaten verfestigen.",
+        "paragraphs": [
+          "Die Inflation kehrt nach leichter Abweichung wieder auf das EZB-Zielniveau zurück – zumindest vorerst. Denn der rückläufige Trend dürfte sich in den kommenden Monaten verfestigen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-20-prozent-teuerungsrate-im-euro-raum-geht-leicht-zurueck/100188048.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-07T10:06:12.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/online-apotheken-shop-apotheke-halbe-milliarde-euro-umsatz-mit-e-rezept/100189117.html",
         "title": "Online-Apotheken: Shop Apotheke erzielt eine halbe Milliarde Euro Umsatz mit E-Rezept – und dennoch fällt die Aktie",
@@ -34,17 +56,6 @@
         "link": "https://www.spiegel.de/wirtschaft/finanzmaerkte-nach-dem-venezuela-schock-holt-das-gold-zurueck-kommentar-a-127a4a69-b22b-47e1-bcd4-a2adb730602c#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-07T09:59:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:be989191-1d80-423f-8a9d-271bc964cba6}",
-        "title": "Konsum: Einzelhändler verbuchen größtes Umsatzplus seit Corona-Pandemie",
-        "summary": "Im vergangenen Jahr konnte der deutsche Einzelhandel seinen Umsatz um 3,6 Prozent steigern. Laut dem Handelsverband verzerrt ein Sondereffekt den Wert jedoch nach oben.",
-        "paragraphs": [
-          "Im vergangenen Jahr konnte der deutsche Einzelhandel seinen Umsatz um 3,6 Prozent steigern. Laut dem Handelsverband verzerrt ein Sondereffekt den Wert jedoch nach oben."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/konjunktur-einzelhandel-umsatz-anstieg",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-07T09:56:55.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-was-mieter-ueber-die-nachmieterklausel-wissen-muessen/100100965.html",
@@ -210,20 +221,31 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/wohnungen-studie-li.3364141",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-07T08:56:04.000Z"
-      },
-      {
-        "id": "{urn:uuid:0dd5077a-6c99-4f65-82a3-6174fa3d6178}",
-        "title": "Börse: Dax steigt auf Rekordniveau von mehr als 25.000 Punkten",
-        "summary": "Der deutsche Börsen-Leitindex hat erstmals den historischen Wert von 25.000 Punkten überschritten. Gründe sind auch der Ukrainekrieg und der US-Angriff auf Venezuela.",
-        "paragraphs": [
-          "Der deutsche Börsen-Leitindex hat erstmals den historischen Wert von 25.000 Punkten überschritten. Gründe sind auch der Ukrainekrieg und der US-Angriff auf Venezuela."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/boerse/2026-01/dax-steigt-boerse-rekord-aktien-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-07T08:51:24.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:41298028-857a-42b0-8b6e-e14a30b38895}",
+        "title": "Ukraine-Treffen: Nach dem Gipfel ist es noch ein langer Weg",
+        "summary": "Zum Treffen in Paris reiste die Delegation aus Kyjiw in neuer Besetzung an. Vom Gipfel gingen positive Signale aus, doch er zeigte auch, wie viel noch ungeklärt ist.",
+        "paragraphs": [
+          "Zum Treffen in Paris reiste die Delegation aus Kyjiw in neuer Besetzung an. Vom Gipfel gingen positive Signale aus, doch er zeigte auch, wie viel noch ungeklärt ist."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/ukraine-krieg-friedensabkommen-paris-selenskyj",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-07T10:19:24.000Z"
+      },
+      {
+        "id": "{urn:uuid:338078da-1048-4e54-824e-3db3a25590bc}",
+        "title": "AfD in Bayern: Daniel Halemba will sich zu Vorwürfen nicht vor Gericht äußern",
+        "summary": "In Würzburg hat der Strafprozess gegen den bayerischen AfD-Landtagsabgeordneten Daniel Halemba begonnen. Der 22-Jährige ließ zum Prozessauftakt seine Anwälte sprechen.",
+        "paragraphs": [
+          "In Würzburg hat der Strafprozess gegen den bayerischen AfD-Landtagsabgeordneten Daniel Halemba begonnen. Der 22-Jährige ließ zum Prozessauftakt seine Anwälte sprechen."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2026-01/afd-bayern-daniel-halemba-prozess-volksverhetzung-anklage",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-07T10:16:39.000Z"
+      },
       {
         "id": "{urn:uuid:908e7bcc-5325-40bd-a1e0-55232b3ab3ab}",
         "title": "Deutschland, Frankreich, Polen: Weimarer Dreieck soll in Paris über Grönland-Szenarien beraten",
@@ -421,31 +443,20 @@
         "link": "https://www.spiegel.de/politik/deutschland/arrow-3-in-brandenburg-verdaechtige-drohnen-ueber-stuetzpunkt-bundeswehr-scheitert-mit-abschuss-a-5ac615d5-f8a2-47e7-b1e1-4aea340ac6c4#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-07T05:56:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/rohstoffe-trump-kuendigt-lieferung-von-venezolanischem-oel-an-die-usa-an/100189166.html",
-        "title": "Rohstoffe: Trump kündigt Lieferung von bis zu 50 Millionen Barrel venezolanischen Öls an die USA an",
-        "summary": "Nach dem US-Militäreingriff in Venezuela wollen sich die USA den Zugriff auf Öl sichern. Unklar ist, wie sich dies auf die Lieferungen an China auswirkt, den bislang größten Abnehmer.",
-        "paragraphs": [
-          "Nach dem US-Militäreingriff in Venezuela wollen sich die USA den Zugriff auf Öl sichern. Unklar ist, wie sich dies auf die Lieferungen an China auswirkt, den bislang größten Abnehmer."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/rohstoffe-trump-kuendigt-lieferung-von-venezolanischem-oel-an-die-usa-an/100189166.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-07T05:52:22.000Z"
-      },
-      {
-        "id": "{urn:uuid:a5b3398f-4655-4062-b382-ffbec3e1688d}",
-        "title": "US-Angriff auf Venezuela: Der globale Hooligan",
-        "summary": "Erst Venezuela, demnächst Grönland, Kuba, Kolumbien? Donald Trumps Außenpolitik scheint unberechenbar. Doch eine lange vergessene Denkschule hilft, ihn zu verstehen.",
-        "paragraphs": [
-          "Erst Venezuela, demnächst Grönland, Kuba, Kolumbien? Donald Trumps Außenpolitik scheint unberechenbar. Doch eine lange vergessene Denkschule hilft, ihn zu verstehen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/us-angriff-venezuela-folgen-donald-trump-nicolas-maduro",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-07T05:43:32.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/cornelius-traum-vom-hallenmasters-auch-neumuenster-ist-in-der-verlosung-1179619/artikel#omrss",
+        "title": "Cornelius' Traum vom Hallenmasters: Auch Neumünster ist in der Verlosung",
+        "summary": "Das Kieler Hallenmasters elektrisiert auch in seiner 26. Auflage. Am 10. Januar darf auch der VfR Neumünster mitmischen.",
+        "paragraphs": [
+          "Das Kieler Hallenmasters elektrisiert auch in seiner 26. Auflage. Am 10. Januar darf auch der VfR Neumünster mitmischen."
+        ],
+        "link": "https://www.kicker.de/cornelius-traum-vom-hallenmasters-auch-neumuenster-ist-in-der-verlosung-1179619/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-07T10:12:34.000Z"
+      },
       {
         "id": "https://www.kicker.de/minimalster-daempfer-fuer-musiala-eberl-raet-boey-zu-wechsel-1181443/artikel#omrss",
         "title": "\"Minimalster Dämpfer\" für Musiala - Eberl rät Boey zu Wechsel",
@@ -456,6 +467,17 @@
         "link": "https://www.kicker.de/minimalster-daempfer-fuer-musiala-eberl-raet-boey-zu-wechsel-1181443/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-07T09:53:40.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wir-haben-nur-dreizehn-spieler-guardiola-schlaegt-alarm-1181461/video#omrss",
+        "title": "\"Wir haben nur dreizehn Spieler\": Guardiola schlägt Alarm",
+        "summary": "Pep Guardiola beklagte vor dem Spiel gegen Hürzelers Brighton die Verletzungssorgen bei Manchester City. Der Katalane muss mit einem sehr kleinen Kader auskommen.",
+        "paragraphs": [
+          "Pep Guardiola beklagte vor dem Spiel gegen Hürzelers Brighton die Verletzungssorgen bei Manchester City. Der Katalane muss mit einem sehr kleinen Kader auskommen."
+        ],
+        "link": "https://www.kicker.de/wir-haben-nur-dreizehn-spieler-guardiola-schlaegt-alarm-1181461/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-07T09:49:24.000Z"
       },
       {
         "id": "https://www.kicker.de/drei-akte-der-interpretation-ritter-und-der-geheimnisverrat-1181274/artikel#omrss",
@@ -643,31 +665,20 @@
         "link": "https://www.spiegel.de/sport/fussball/marc-andre-ter-stegen-torwart-muss-verletzt-aus-saudi-arabien-abreisen-a-62c02264-8bda-4278-a702-d58db1a3eec6#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-07T00:54:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/aus-jeddah-abgereist-ter-stegen-unterzieht-sich-medizinischen-tests-1181378/artikel#omrss",
-        "title": "Aus Jeddah abgereist: Ter Stegen unterzieht sich \"medizinischen Tests\"",
-        "summary": "Noch vor Beginn der spanischen Supercopa in Saudi-Arabien kehrt Marc-André ter Stegen nach Barcelona zurück. Wie der Verein mitteilte, muss sich der Schlussmann medizinischen Tests unterziehen.",
-        "paragraphs": [
-          "Noch vor Beginn der spanischen Supercopa in Saudi-Arabien kehrt Marc-André ter Stegen nach Barcelona zurück. Wie der Verein mitteilte, muss sich der Schlussmann medizinischen Tests unterziehen."
-        ],
-        "link": "https://www.kicker.de/aus-jeddah-abgereist-ter-stegen-unterzieht-sich-medizinischen-tests-1181378/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-06T22:41:38.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/das-ende-einer-aera-ravens-feuern-head-coach-harbaugh-1181383/artikel#omrss",
-        "title": "Das Ende einer Ära: Ravens feuern Head Coach Harbaugh",
-        "summary": "Ein vergebenes 44-Yard-Field-Goal im letzten Spielzug der Regular Season 2025 markiert das Ende für einen der dienstältesten Head Coaches der NFL. Die Baltimore Ravens haben John Harbaugh nach 18 Jahren inklusive einer Super-Bowl-Saison entlassen, nachdem das Team knapp die AFC North und damit die Playoffs verpasst hat.",
-        "paragraphs": [
-          "Ein vergebenes 44-Yard-Field-Goal im letzten Spielzug der Regular Season 2025 markiert das Ende für einen der dienstältesten Head Coaches der NFL. Die Baltimore Ravens haben John Harbaugh nach 18 Jahren inklusive einer Super-Bowl-Saison entlassen, nachdem das Team knapp die AFC North und damit die Playoffs verpasst hat."
-        ],
-        "link": "https://www.kicker.de/das-ende-einer-aera-ravens-feuern-head-coach-harbaugh-1181383/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-06T22:37:00.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Lenovo-Handheld-Legion-Go-2-kommt-in-SteamOS-Variante-11132548.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Lenovo-Handheld: Legion Go 2 kommt in SteamOS-Variante",
+        "summary": "Lenovos Handheld-PC Legion Go 2 gibt es bisher nur mit Windows 11. Das soll sich im Sommer ändern: Auf der CES hat Lenovo eine Variante mit SteamOS angekündigt.",
+        "paragraphs": [
+          "Lenovos Handheld-PC Legion Go 2 gibt es bisher nur mit Windows 11. Das soll sich im Sommer ändern: Auf der CES hat Lenovo eine Variante mit SteamOS angekündigt."
+        ],
+        "link": "https://www.heise.de/news/Lenovo-Handheld-Legion-Go-2-kommt-in-SteamOS-Variante-11132548.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-07T10:13:00.000Z"
+      },
       {
         "id": "https://www.heise.de/ratgeber/c-t-Notfall-Windows-2026-11072902.html",
         "title": "c't-Notfall-Windows 2026",
@@ -703,7 +714,7 @@
       },
       {
         "id": "https://www.heise.de/news/Ryzen-AI-Halo-AMDs-Mini-PC-Antwort-auf-Nvidias-DGX-Spark-11132398.html",
-        "title": "Ryzen AI Halo: AMDs Mini-(PC-)Antwort auf Nvidias DGX Spark",
+        "title": "Mini-PC: AMD stellt Ryzen AI Halo gegen Nvidias DGX Spark",
         "summary": "Mit dem Mini-PC Ryzen AI Halo will AMD in Kürze ein kompaktes Dev-Kit für KI-Entwickler anbieten.",
         "paragraphs": [
           "Mit dem Mini-PC Ryzen AI Halo will AMD in Kürze ein kompaktes Dev-Kit für KI-Entwickler anbieten."
@@ -845,17 +856,6 @@
         "publishedAt": "2026-01-07T08:17:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Microsoft-sagt-Spamschutzmassnahme-in-Exchange-Online-ab-11132276.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Microsoft sagt Spamschutzmaßnahme in Exchange Online ab",
-        "summary": "Microsoft hatte eine Spamschutzmaßnahme für Exchange Online angekündigt. Die Externe-Empfänger-Begrenzung kommt nun doch nicht.",
-        "paragraphs": [
-          "Microsoft hatte eine Spamschutzmaßnahme für Exchange Online angekündigt. Die Externe-Empfänger-Begrenzung kommt nun doch nicht."
-        ],
-        "link": "https://www.heise.de/news/Microsoft-sagt-Spamschutzmassnahme-in-Exchange-Online-ab-11132276.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-07T08:12:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Elektroauto-Renault-Twingo-Optimiert-fuer-den-Stadtverkehr-11132254.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Elektroauto Renault Twingo: Optimiert für den Stadtverkehr",
         "summary": "Renault hat sich entschieden, den Twingo mit einer umfangreichen Ausstattung zu versehen, und dafür Leistung und Reichweite knappzuhalten.",
@@ -863,6 +863,17 @@
           "Renault hat sich entschieden, den Twingo mit einer umfangreichen Ausstattung zu versehen, und dafür Leistung und Reichweite knappzuhalten."
         ],
         "link": "https://www.heise.de/news/Elektroauto-Renault-Twingo-Optimiert-fuer-den-Stadtverkehr-11132254.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-07T08:12:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Microsoft-sagt-Spamschutzmassnahme-in-Exchange-Online-ab-11132276.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Microsoft sagt Spamschutzmaßnahme in Exchange Online ab",
+        "summary": "Microsoft hatte eine Spamschutzmaßnahme für Exchange Online angekündigt. Die Externe-Empfänger-Begrenzung kommt nun doch nicht.",
+        "paragraphs": [
+          "Microsoft hatte eine Spamschutzmaßnahme für Exchange Online angekündigt. Die Externe-Empfänger-Begrenzung kommt nun doch nicht."
+        ],
+        "link": "https://www.heise.de/news/Microsoft-sagt-Spamschutzmassnahme-in-Exchange-Online-ab-11132276.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-07T08:12:00.000Z"
       },
@@ -875,17 +886,6 @@
         ],
         "link": "https://www.heise.de/news/Passwort-Folge-48-Digitale-Unabhaengigkeit-kranke-Akten-behaemmerter-Speicher-11104689.html",
         "source": "c't",
-        "publishedAt": "2026-01-07T08:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/tests/Shokz-OpenFit-Pro-Open-Ear-Kopfhoerer-mit-ANC-im-Test-11094275.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "CES: Shokz OpenFit Pro: Open-Ear-Kopfhörer mit ANC im Test",
-        "summary": "Open-Ear-Kopfhörer schwächeln bei Bass und Abschirmung. Die Shokz OpenFit Pro versprechen satten Klang und Ruhe per ANC – wir testen, ob sie das halten.",
-        "paragraphs": [
-          "Open-Ear-Kopfhörer schwächeln bei Bass und Abschirmung. Die Shokz OpenFit Pro versprechen satten Klang und Ruhe per ANC – wir testen, ob sie das halten."
-        ],
-        "link": "https://www.heise.de/tests/Shokz-OpenFit-Pro-Open-Ear-Kopfhoerer-mit-ANC-im-Test-11094275.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
         "publishedAt": "2026-01-07T08:00:00.000Z"
       }
     ]
