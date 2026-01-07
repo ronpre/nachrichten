@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-07T19:38:39.162Z",
+  "updatedAt": "2026-01-07T19:47:00.035Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:af5dde52-d8f8-45e1-84f5-04abb1307eea}",
+        "title": "USA: ICE-Agent erschießt Autofahrerin in Minneapolis",
+        "summary": "Bei einer Razzia der US-Einwanderungsbehörde in Minneapolis wurde eine Frau erschossen. Einem Bericht zufolge soll es sich um eine Rechtsbeobachterin gehandelt haben.",
+        "paragraphs": [
+          "Bei einer Razzia der US-Einwanderungsbehörde in Minneapolis wurde eine Frau erschossen. Einem Bericht zufolge soll es sich um eine Rechtsbeobachterin gehandelt haben."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/usa-ice-razzia-minneapolis-frau-erschossen",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-07T19:36:55.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-tote-nach-angriff-auf-haefen-bei-odessa/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Deutschland will Waffenstillstand in der Ukraine absichern – Frankreich und Großbritannien bieten Truppen an",
+        "summary": "Merz, Macron und Starmer sprechen über Ergebnisse des Gipfels in Paris +++ EU will Ukraine Sicherheitsgarantien zusagen +++ USA und EU demonstrieren Einheit +++ Der Newsblog.",
+        "paragraphs": [
+          "Merz, Macron und Starmer sprechen über Ergebnisse des Gipfels in Paris +++ EU will Ukraine Sicherheitsgarantien zusagen +++ USA und EU demonstrieren Einheit +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-tote-nach-angriff-auf-haefen-bei-odessa/27982126.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-07T19:35:13.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/deutschland/friedrich-merz-den-kanzler-entfuehren-nicht-so-einfach-wie-medwedew-meint-a-e068ea90-126e-48d5-b354-8e634e03c7f3",
         "title": "Friedrich Merz: Den Kanzler entführen? Nicht so einfach, wie Medwedew meint!",
         "summary": "Russlands Ex-Präsident Dmitrij Medwedew beschimpft Friedrich Merz als »Neonazi« und fantasiert von dessen Entführung. Eine leichte Operation wäre das nicht: Der Bundeskanzler ist der am besten geschützte Deutsche.",
@@ -256,17 +278,6 @@
         "link": "https://www.handelsblatt.com/politik/international/usa-new-yorks-neuer-buergermeister-will-seine-prinzipien-nicht-aufgeben/29669594.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-07T19:15:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:af5dde52-d8f8-45e1-84f5-04abb1307eea}",
-        "title": "USA: ICE-Agent erschießt Autofahrerin in Minneapolis",
-        "summary": "Bei einer Razzia der US-Einwanderungsbehörde in Minneapolis wurde eine Frau erschossen. Einem Bericht zufolge soll es sich um die Frau eines bekannten Aktivisten handeln.",
-        "paragraphs": [
-          "Bei einer Razzia der US-Einwanderungsbehörde in Minneapolis wurde eine Frau erschossen. Einem Bericht zufolge soll es sich um die Frau eines bekannten Aktivisten handeln."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/usa-ice-razzia-minneapolis-frau-erschossen",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-07T19:08:11.000Z"
       },
       {
         "id": "{urn:uuid:0743c260-e747-477d-8027-080c78bf5305}",
@@ -432,20 +443,20 @@
         "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-venezuela-sanktionen-oel-li.3352720",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-07T17:01:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/standortpolitik-csu-sichert-automobilindustrie-ihre-volle-unterstuetzung-zu/100188945.html",
-        "title": "Standortpolitik: „Was Klima und Arbeitsplätzen hilft, muss möglich sein“ – CSU sichert Autoindustrie Unterstützung zu",
-        "summary": "Bei der Winterklausur in Seeon wirbt Auto-Präsidentin Müller für das Ende vom Verbrenner-Aus. Die CSU will weiter dafür kämpfen. Allerdings vertritt ein SPD-Minister Deutschland in Brüssel.",
-        "paragraphs": [
-          "Bei der Winterklausur in Seeon wirbt Auto-Präsidentin Müller für das Ende vom Verbrenner-Aus. Die CSU will weiter dafür kämpfen. Allerdings vertritt ein SPD-Minister Deutschland in Brüssel."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/standortpolitik-csu-sichert-automobilindustrie-ihre-volle-unterstuetzung-zu/100188945.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-07T16:50:35.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/neapel-gegen-hellas-2026-serie-a-5042222/spielbericht#omrss",
+        "title": "Aus 0:2 mach 2:2 - und doch zu wenig: Napoli hadert gegen Hellas",
+        "summary": "Die vergangenen vier Pflichtspiele hatte die SSC Neapel allesamt mit 2:0 gewonnen. Diese Serie aber riss zum Abschluss der Serie-A-Hinrunde beim vermeintlich machbaren Duell mit Kellerkind Hellas Verona.",
+        "paragraphs": [
+          "Die vergangenen vier Pflichtspiele hatte die SSC Neapel allesamt mit 2:0 gewonnen. Diese Serie aber riss zum Abschluss der Serie-A-Hinrunde beim vermeintlich machbaren Duell mit Kellerkind Hellas Verona."
+        ],
+        "link": "https://www.kicker.de/neapel-gegen-hellas-2026-serie-a-5042222/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-07T19:37:54.000Z"
+      },
       {
         "id": "https://www.kicker.de/schoene-kombination-kaepitaen-di-lorenzo-gleicht-fuer-napoli-aus-1181660/video#omrss",
         "title": "Schöne Kombination: Käpitän di Lorenzo gleicht für Napoli aus",
@@ -469,24 +480,13 @@
         "publishedAt": "2026-01-07T19:15:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/neapel-gegen-hellas-2026-serie-a-5042222/spielbericht#omrss",
-        "title": "LIVE! Napoli verkürzt durch McTominay - Hellas zittert",
-        "summary": "Die vergangenen vier Pflichtspiele hat die SSC Neapel allesamt mit 2:0 gewonnen, darunter zählt unter anderem der Sieg im italienischen Supercup im Endspiel gegen Bologna. Entsprechend selbstbewusst dürfte der amtierende Meister nun auch zum Abschluss der Serie-A-Hinrunde beim Duell mit Außenseiter Hellas Verona hantieren.",
-        "paragraphs": [
-          "Die vergangenen vier Pflichtspiele hat die SSC Neapel allesamt mit 2:0 gewonnen, darunter zählt unter anderem der Sieg im italienischen Supercup im Endspiel gegen Bologna. Entsprechend selbstbewusst dürfte der amtierende Meister nun auch zum Abschluss der Serie-A-Hinrunde beim Duell mit Außenseiter Hellas Verona hantieren."
-        ],
-        "link": "https://www.kicker.de/neapel-gegen-hellas-2026-serie-a-5042222/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-07T18:50:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-chelsea-ohne-neu-coach-rosenior-aber-mit-sechs-wechseln-kommt-mancity-wieder-in-die-erfolgsspur-1181292/artikel#omrss",
-        "title": "LIVE! Chelsea ohne Neu-Coach Rosenior, aber mit sechs Wechseln - Kommt ManCity wieder in die Erfolgsspur?",
+        "id": "https://www.kicker.de/live-gross-hat-gleich-die-fuehrung-auf-dem-kopf-1181292/artikel#omrss",
+        "title": "LIVE! Groß hat gleich die Führung auf dem Kopf",
         "summary": "Acht Partien des 21. Premier-League-Spieltags stehen am Mittwochabend an. Liam Rosenior debütiert im West-London-Derby noch nicht als Chelsea-Coach, Darren Fletcher verantwortet dagegen aber sein erstes Spiel als United-Interimscoach. Derweil will ManCity nach zwei Remis zuletzt gegen Brighton zurück auf die Siegerstraße.",
         "paragraphs": [
           "Acht Partien des 21. Premier-League-Spieltags stehen am Mittwochabend an. Liam Rosenior debütiert im West-London-Derby noch nicht als Chelsea-Coach, Darren Fletcher verantwortet dagegen aber sein erstes Spiel als United-Interimscoach. Derweil will ManCity nach zwei Remis zuletzt gegen Brighton zurück auf die Siegerstraße."
         ],
-        "link": "https://www.kicker.de/live-chelsea-ohne-neu-coach-rosenior-aber-mit-sechs-wechseln-kommt-mancity-wieder-in-die-erfolgsspur-1181292/artikel#omrss",
+        "link": "https://www.kicker.de/live-gross-hat-gleich-die-fuehrung-auf-dem-kopf-1181292/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-07T18:30:00.000Z"
       },
@@ -503,7 +503,7 @@
       },
       {
         "id": "https://www.kicker.de/barcelona-gegen-bilbao-2026-supercopa-de-espana-5058181/spielbericht#omrss",
-        "title": "LIVE! Fermin steht viel zu frei: Barcelona erhöht",
+        "title": "LIVE! Raphinha sehenswert: Barcelona nimmt Bilbao auseinander",
         "summary": "Der spanische Supercup wird abermals in Saudi-Arabien ausgetragen. Im ersten Halbfinale treffen der FC Barcelona und Athletic Bilbao aufeinander. Die Blaugrana treten bei acht Siegen in Serie mit breiter Brust an.",
         "paragraphs": [
           "Der spanische Supercup wird abermals in Saudi-Arabien ausgetragen. Im ersten Halbfinale treffen der FC Barcelona und Athletic Bilbao aufeinander. Die Blaugrana treten bei acht Siegen in Serie mit breiter Brust an."
@@ -801,17 +801,6 @@
         "publishedAt": "2026-01-07T14:49:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Softwaregesperrte Werkzeug-Akkus reparieren",
-        "summary": "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott.",
-        "paragraphs": [
-          "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott."
-        ],
-        "link": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-07T14:41:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Fender-Bluetooth-Lautsprecher-und-Kopfhoerer-fuer-Musiker-11128411.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: Fender: Bluetooth-Lautsprecher und modulare Kopfhörer",
         "summary": "Fender hat tragbare Bluetooth-Lautsprecher mit XLR-Kombi-Eingang für Instrumente und Mikrofone sowie Funkkopfhörer mit austauschbaren Komponenten vorgestellt.",
@@ -819,6 +808,17 @@
           "Fender hat tragbare Bluetooth-Lautsprecher mit XLR-Kombi-Eingang für Instrumente und Mikrofone sowie Funkkopfhörer mit austauschbaren Komponenten vorgestellt."
         ],
         "link": "https://www.heise.de/news/Fender-Bluetooth-Lautsprecher-und-Kopfhoerer-fuer-Musiker-11128411.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-07T14:41:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Softwaregesperrte Werkzeug-Akkus reparieren",
+        "summary": "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott.",
+        "paragraphs": [
+          "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott."
+        ],
+        "link": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-07T14:41:00.000Z"
       },
