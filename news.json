@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-07T11:35:48.850Z",
+  "updatedAt": "2026-01-07T11:45:12.408Z",
   "categories": {
     "wirtschaft": [
       {
@@ -12,6 +12,17 @@
         "link": "https://www.zeit.de/wirtschaft/2026-01/digitaler-euro-bargeld-freiheit-widerstand-debatte",
         "source": "ZEIT",
         "publishedAt": "2026-01-07T11:30:54.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-verzeichnet-rekord-und-ueberwindet-25000-punkte-marke/100189230.html",
+        "title": "Dax aktuell: Deutscher Leitindex erreicht neuen Rekordstand",
+        "summary": "An drei von vier Handelstagen in diesem Jahr markiert der Dax ein Hoch. Allerdings könnte der jüngste Rekord auch den Beginn einer Konsolidierung markieren.",
+        "paragraphs": [
+          "An drei von vier Handelstagen in diesem Jahr markiert der Dax ein Hoch. Allerdings könnte der jüngste Rekord auch den Beginn einer Konsolidierung markieren."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-verzeichnet-rekord-und-ueberwindet-25000-punkte-marke/100189230.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-07T11:28:02.000Z"
       },
       {
         "id": "{urn:uuid:5ad768e3-e995-4b2f-88a6-f38e48ab2be3}",
@@ -27,9 +38,9 @@
       {
         "id": "https://www.spiegel.de/wirtschaft/unternehmen/wohnungsmarkt-ist-das-zeitalter-der-immer-groesser-werdenden-wohnungen-vorbei-a-246bebb1-681b-46cd-91c8-fef1adae937c",
         "title": "Wohnungsmarkt: Ist das Zeitalter der immer größer werdenden Wohnungen vorbei?",
-        "summary": "Manchmal ist weniger mehr: Erstmals seit Jahrzehnten werden Wohnungen in Deutschland laut einer DIW-Studie wohl wieder kleiner. Das hängt auch an den hohen Immobilienpreisen zusammen.",
+        "summary": "Manchmal ist weniger mehr: Erstmals seit Jahrzehnten werden Wohnungen in Deutschland laut einer DIW-Studie wohl wieder kleiner. Das hängt auch mit den hohen Immobilienpreisen zusammen.",
         "paragraphs": [
-          "Manchmal ist weniger mehr: Erstmals seit Jahrzehnten werden Wohnungen in Deutschland laut einer DIW-Studie wohl wieder kleiner. Das hängt auch an den hohen Immobilienpreisen zusammen."
+          "Manchmal ist weniger mehr: Erstmals seit Jahrzehnten werden Wohnungen in Deutschland laut einer DIW-Studie wohl wieder kleiner. Das hängt auch mit den hohen Immobilienpreisen zusammen."
         ],
         "link": "https://www.spiegel.de/wirtschaft/unternehmen/wohnungsmarkt-ist-das-zeitalter-der-immer-groesser-werdenden-wohnungen-vorbei-a-246bebb1-681b-46cd-91c8-fef1adae937c#ref=rss",
         "source": "SPIEGEL",
@@ -56,17 +67,6 @@
         "link": "https://www.spiegel.de/wirtschaft/kinos-verkauften-2025-in-deutschland-mehr-tickets-a-06a9ff5b-e9ae-4a78-b722-b10eb8daa3f0#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-07T10:58:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-verzeichnet-rekord-und-ueberwindet-25000-punkte-marke/100189230.html",
-        "title": "Dax aktuell: Deutscher Leitindex erreicht neuen Rekordstand",
-        "summary": "An drei von vier Handelstagen in diesem Jahr markiert der Dax ein Hoch. Allerdings könnte der jüngste Rekord auch den Beginn einer Konsolidierung markieren.",
-        "paragraphs": [
-          "An drei von vier Handelstagen in diesem Jahr markiert der Dax ein Hoch. Allerdings könnte der jüngste Rekord auch den Beginn einer Konsolidierung markieren."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-verzeichnet-rekord-und-ueberwindet-25000-punkte-marke/100189230.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-07T10:37:52.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/chip-zulieferer-china-leitet-untersuchung-gegen-importe-aus-japan-ein/100189283.html",
@@ -297,7 +297,7 @@
         "paragraphs": [
           "In Würzburg hat der Strafprozess gegen den bayerischen AfD-Landtagsabgeordneten Daniel Halemba begonnen. Der 22-Jährige ließ zum Prozessauftakt seine Anwälte sprechen."
         ],
-        "link": "https://www.zeit.de/politik/deutschland/2026-01/afd-bayern-daniel-halemba-prozess-volksverhetzung-anklage",
+        "link": "https://www.zeit.de/politik/deutschland/2026-01/afd-bayern-daniel-halemba-prozess-volksverhetzung-anklage-gxe",
         "source": "ZEIT",
         "publishedAt": "2026-01-07T10:46:44.000Z"
       },
@@ -447,11 +447,33 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/so-kann-kein-trainer-arbeiten-warum-bei-chelsea-und-manunited-keine-ruhe-einkehrt-1181500/artikel#omrss",
+        "title": "\"So kann kein Trainer arbeiten\": Warum bei Chelsea und ManUnited keine Ruhe einkehrt",
+        "summary": "Die neue Folge kicker Daily!",
+        "paragraphs": [
+          "Die neue Folge kicker Daily!"
+        ],
+        "link": "https://www.kicker.de/so-kann-kein-trainer-arbeiten-warum-bei-chelsea-und-manunited-keine-ruhe-einkehrt-1181500/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-07T11:32:59.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/trotz-starker-form-wird-wirtz-in-liverpool-falsch-eingesetzt-1181496/artikel#omrss",
+        "title": "Trotz starker Form: Wird Wirtz in Liverpool falsch eingesetzt?",
+        "summary": "Die neue Folge kicker Daily!",
+        "paragraphs": [
+          "Die neue Folge kicker Daily!"
+        ],
+        "link": "https://www.kicker.de/trotz-starker-form-wird-wirtz-in-liverpool-falsch-eingesetzt-1181496/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-07T11:32:00.000Z"
+      },
+      {
         "id": "https://www.kicker.de/power-ranking-zum-playoff-start-kein-top-team-ohne-fragezeichen-1181191/artikel#omrss",
         "title": "Power Ranking zum Playoff-Start: Kein Top-Team ohne Fragezeichen",
-        "summary": "Die Regular Season 2025 ist Geschichte, Vorhang auf für die Playoffs! Und die gestalten sich in dieser Saison besonders spannend: Es gibt kein Top-Team ohne größere Fragezeichen, selten haben sich die Endrunde über die letzten Jahre so offen angefühlt. In dieser Postseason scheint fast jeder jeden schlagen zu können. Wer geht da überhaupt als Favorit an den Start?",
+        "summary": "Die Regular Season 2025 ist Geschichte, Vorhang auf für die Playoffs! Und die gestalten sich in dieser Saison besonders spannend: Es gibt kein Top-Team ohne größere Fragezeichen, selten hat sich die Endrunde über die letzten Jahre so offen angefühlt. In dieser Postseason scheint fast jeder jeden schlagen zu können. Wer geht da überhaupt als Favorit an den Start?",
         "paragraphs": [
-          "Die Regular Season 2025 ist Geschichte, Vorhang auf für die Playoffs! Und die gestalten sich in dieser Saison besonders spannend: Es gibt kein Top-Team ohne größere Fragezeichen, selten haben sich die Endrunde über die letzten Jahre so offen angefühlt. In dieser Postseason scheint fast jeder jeden schlagen zu können. Wer geht da überhaupt als Favorit an den Start?"
+          "Die Regular Season 2025 ist Geschichte, Vorhang auf für die Playoffs! Und die gestalten sich in dieser Saison besonders spannend: Es gibt kein Top-Team ohne größere Fragezeichen, selten hat sich die Endrunde über die letzten Jahre so offen angefühlt. In dieser Postseason scheint fast jeder jeden schlagen zu können. Wer geht da überhaupt als Favorit an den Start?"
         ],
         "link": "https://www.kicker.de/power-ranking-zum-playoff-start-kein-top-team-ohne-fragezeichen-1181191/artikel#omrss",
         "source": "Kicker",
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-07T08:44:11.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/glasners-andeutungen-bekommt-mancity-guehi-sofort-1181429/artikel#omrss",
-        "title": "Glasners Andeutungen: Bekommt ManCity Guehi sofort?",
-        "summary": "Bei Crystal Palace laufen im Sommer die Verträge von Trainer und Kapitän aus - beide könnte es nach Manchester ziehen. Oliver Glasner gibt ein paar Einblicke.",
-        "paragraphs": [
-          "Bei Crystal Palace laufen im Sommer die Verträge von Trainer und Kapitän aus - beide könnte es nach Manchester ziehen. Oliver Glasner gibt ein paar Einblicke."
-        ],
-        "link": "https://www.kicker.de/glasners-andeutungen-bekommt-mancity-guehi-sofort-1181429/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-07T08:29:02.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/baumberg-sucht-stabilitaet-sportlich-wie-strukturell-1181185/artikel#omrss",
-        "title": "Baumberg sucht Stabilität - sportlich wie strukturell",
-        "summary": "Die Sportfreunde Baumberg arbeiten aktuell an mehreren Fronten gleichzeitig. Sportlich möchte der Klub nach einer schwierigen Vorsaison stabiler auftreten. Auch im Bereich Infrastruktur tut sich einiges.",
-        "paragraphs": [
-          "Die Sportfreunde Baumberg arbeiten aktuell an mehreren Fronten gleichzeitig. Sportlich möchte der Klub nach einer schwierigen Vorsaison stabiler auftreten. Auch im Bereich Infrastruktur tut sich einiges."
-        ],
-        "link": "https://www.kicker.de/baumberg-sucht-stabilitaet-sportlich-wie-strukturell-1181185/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-07T08:22:21.000Z"
       }
     ],
     "edv": [
@@ -703,7 +703,7 @@
       },
       {
         "id": "https://www.heise.de/news/heise-security-Webinar-Authentifizierung-im-Active-Directory-absichern-11130881.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: heise security Webinar: Authentifizierung im Active Directory absichern",
+        "title": "heise-Angebot: Das heise-security-Webinar zu NTLM & Kerberos",
         "summary": "Microsofts Active Directory setzt auf veraltete, unsichere Technik. Dessen Admins müssen deshalb Sicherheitslücken in NTLM und Kerberos verstehen und schließen.",
         "paragraphs": [
           "Microsofts Active Directory setzt auf veraltete, unsichere Technik. Dessen Admins müssen deshalb Sicherheitslücken in NTLM und Kerberos verstehen und schließen."
