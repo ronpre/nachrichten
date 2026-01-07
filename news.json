@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-07T09:48:53.285Z",
+  "updatedAt": "2026-01-07T09:57:55.257Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-verzeichnet-rekord-und-ueberwindet-25000-punkte-marke/100189230.html",
+        "title": "Dax aktuell: Deutscher Leitindex erreicht neuen Rekordstand",
+        "summary": "An drei von vier Handelstagen in diesem Jahr markiert der Dax ein Hoch. Allerdings könnte der jüngste Rekord auch den Beginn einer Konsolidierung markieren.",
+        "paragraphs": [
+          "An drei von vier Handelstagen in diesem Jahr markiert der Dax ein Hoch. Allerdings könnte der jüngste Rekord auch den Beginn einer Konsolidierung markieren."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-verzeichnet-rekord-und-ueberwindet-25000-punkte-marke/100189230.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-07T09:49:34.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/gas-und-oelpreis-2026-kommt-nach-dem-preisrutsch-fossiler-energien-die-trendwende-03/100173895.html",
         "title": "Öl und Gas 2026: Fossile Energien – Kommt nach dem Preisrutsch die Trendwende?",
@@ -23,17 +34,6 @@
         "link": "https://www.handelsblatt.com/finanzen/maerkte/aktien/dax-rekord-von-25000-punkten-sechs-analysen-sollten-aktionaere-kennen/100188706.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-07T09:19:05.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-startet-mit-rekord-und-ueberwindet-25000-punkte-marke/100189230.html",
-        "title": "Dax aktuell: Deutscher Leitindex erreicht neuen Rekordstand",
-        "summary": "An drei von vier Handelstagen in diesem Jahr markiert der Dax ein Hoch. Allerdings könnte der jüngste Rekord auch den Beginn einer Konsolidierung markieren.",
-        "paragraphs": [
-          "An drei von vier Handelstagen in diesem Jahr markiert der Dax ein Hoch. Allerdings könnte der jüngste Rekord auch den Beginn einer Konsolidierung markieren."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-startet-mit-rekord-und-ueberwindet-25000-punkte-marke/100189230.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-07T09:08:29.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/ruestung-tschechischer-munitionshersteller-csg-prueft-boersengang/100189269.html",
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
+        "title": "US-Angriff auf Venezuela: So lief der Angriff der USA auf Venezuela",
+        "summary": "Die USA haben Venezuela angegriffen und Machthaber Maduro in Untersuchungshaft genommen. Delcy Rodríguez wurde zur Interimspräsidentin ernannt. Das Liveblog zum Nachlesen",
+        "paragraphs": [
+          "Die USA haben Venezuela angegriffen und Machthaber Maduro in Untersuchungshaft genommen. Delcy Rodríguez wurde zur Interimspräsidentin ernannt. Das Liveblog zum Nachlesen"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-07T09:50:20.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/deutschland/donald-trump-wie-europaeische-zeitungen-das-gebahren-der-usa-kommentieren-a-2bbf0368-be49-4fbf-982e-200bd6e8e105",
         "title": "Donald Trump: Wie europäische Zeitungen das Gebahren der USA kommentieren",
         "summary": "Europa rauft sich im Ukrainegipfel zusammen – aber hat es auch Antworten auf Trumps Begehrlichkeiten in Grönland und die Lage in Venezuela? Die europäischen Zeitungen monieren das zögerliche Verhalten der Mitgliedstaaten.",
@@ -311,17 +322,6 @@
         "link": "https://www.handelsblatt.com/politik/konjunktur/kauflaune-deutsche-einzelhaendler-schaffen-2025-ein-umsatzplus/100189250.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-07T08:49:57.000Z"
-      },
-      {
-        "id": "{urn:uuid:eb0a782c-90ad-4198-93d1-dc65a23986a5}",
-        "title": "US-Angriff auf Venezuela: US-Präsident Trump stellt Subventionen für Ölkonzerne in Aussicht",
-        "summary": "US-Präsident Donald ​Trump will die Arbeit von Ölfirmen in Venezuela fördern. Nahe dem Präsidentenpalast in Caracas sind laut Berichten Schüsse gefallen. Das Liveblog",
-        "paragraphs": [
-          "US-Präsident Donald ​Trump will die Arbeit von Ölfirmen in Venezuela fördern. Nahe dem Präsidentenpalast in Caracas sind laut Berichten Schüsse gefallen. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2025-12/usa-venezuela-konflikt-donald-trump-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-07T08:44:52.000Z"
       },
       {
         "id": "{urn:uuid:e3833ef8-a8fd-4b11-b004-5d324caec343}",
@@ -569,7 +569,7 @@
       },
       {
         "id": "https://www.spiegel.de/sport/wintersport/skispringen-das-deutsche-team-ist-gespalten-fuenf-lehren-aus-der-vierschanzentournee-a-8fc7d132-436d-4a56-b160-c3aa38b96927",
-        "title": "Skispringen: Das deutsche Team ist gespalten – Fünf Lehren aus der Vierschanzentournee",
+        "title": "Skispringen: Das deutsche Team zerfällt vor Olympia in zwei Teile",
         "summary": "Zwei Deutsche halten mit den Besten mit, doch die Routiniers um Andreas Wellinger haben Probleme. Der Rückstand auf Überflieger Prevc und die Österreicher ist groß. Fünf Lehren aus der Vierschanzentournee.",
         "paragraphs": [
           "Zwei Deutsche halten mit den Besten mit, doch die Routiniers um Andreas Wellinger haben Probleme. Der Rückstand auf Überflieger Prevc und die Österreicher ist groß. Fünf Lehren aus der Vierschanzentournee."
@@ -602,7 +602,7 @@
       },
       {
         "id": "https://www.spiegel.de/sport/wm-2026-matthias-sammer-plaediert-fuer-neuers-rueckkehr-ins-dfb-tor-a-32284be8-c15e-4951-aa59-79f93fc81b0c",
-        "title": "WM 2026: Matthias Sammer plädiert für Neuers Rückkehr ins DFB-Tor",
+        "title": "Manuel Neuer: Matthias Sammer plädiert für Rückkehr ins DFB-Tor",
         "summary": "Er äußert sich oft und gern – und meist deutlich: Nun bezieht Matthias Sammer im Dauerthema um eine mögliche Rückkehr von Manuel Neuer ins Tor des DFB Stellung. Neuers Nachfolger Marc-André ter Stegen hat derweil Verletzungspech.",
         "paragraphs": [
           "Er äußert sich oft und gern – und meist deutlich: Nun bezieht Matthias Sammer im Dauerthema um eine mögliche Rückkehr von Manuel Neuer ins Tor des DFB Stellung. Neuers Nachfolger Marc-André ter Stegen hat derweil Verletzungspech."
@@ -668,6 +668,50 @@
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Logitech-vergisst-Zertifikat-Konfigurations-App-Options-fuer-macOS-streikt-11132480.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Logitech vergisst Zertifikat: Konfigurations-App Options+ für macOS streikt",
+        "summary": "Schon lange gibt es Kritik an Logitechs überladener Mac-App für Maus, Tastatur und Co. Nun hat sich Options+ kurzzeitig selbst deaktiviert.",
+        "paragraphs": [
+          "Schon lange gibt es Kritik an Logitechs überladener Mac-App für Maus, Tastatur und Co. Nun hat sich Options+ kurzzeitig selbst deaktiviert."
+        ],
+        "link": "https://www.heise.de/news/Logitech-vergisst-Zertifikat-Konfigurations-App-Options-fuer-macOS-streikt-11132480.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-07T09:49:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Ryzen-AI-Halo-AMDs-Mini-PC-Antwort-auf-Nvidias-DGX-Spark-11132398.html",
+        "title": "Ryzen AI Halo: AMDs Mini-(PC-)Antwort auf Nvidias DGX Spark",
+        "summary": "Mit dem Mini-PC Ryzen AI Halo will AMD in Kürze ein kompaktes Dev-Kit für KI-Entwickler anbieten.",
+        "paragraphs": [
+          "Mit dem Mini-PC Ryzen AI Halo will AMD in Kürze ein kompaktes Dev-Kit für KI-Entwickler anbieten."
+        ],
+        "link": "https://www.heise.de/news/Ryzen-AI-Halo-AMDs-Mini-PC-Antwort-auf-Nvidias-DGX-Spark-11132398.html",
+        "source": "c't",
+        "publishedAt": "2026-01-07T09:47:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Ryzen-AI-Halo-AMDs-Mini-PC-Antwort-auf-Nvidias-DGX-Spark-11132398.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: Ryzen AI Halo: AMDs Mini-(PC-)Antwort auf Nvidias DGX Spark",
+        "summary": "Mit dem Mini-PC Ryzen AI Halo will AMD in Kürze ein kompaktes Dev-Kit für KI-Entwickler anbieten.",
+        "paragraphs": [
+          "Mit dem Mini-PC Ryzen AI Halo will AMD in Kürze ein kompaktes Dev-Kit für KI-Entwickler anbieten."
+        ],
+        "link": "https://www.heise.de/news/Ryzen-AI-Halo-AMDs-Mini-PC-Antwort-auf-Nvidias-DGX-Spark-11132398.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-07T09:47:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Wie-in-Total-Recall-Kuenstliche-Fingernaegel-mit-nachtraeglichem-Farbwechsel-11132380.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: Wie in „Total Recall“: Künstliche Fingernägel mit nachträglichem Farbwechsel",
+        "summary": "Auf der CES zeigt eine US-Firma künstliche Fingernägel, deren Farbe sich nachträglich und immer wieder ändern lässt. Ab Juni sollen sie ausgeliefert werden.",
+        "paragraphs": [
+          "Auf der CES zeigt eine US-Firma künstliche Fingernägel, deren Farbe sich nachträglich und immer wieder ändern lässt. Ab Juni sollen sie ausgeliefert werden."
+        ],
+        "link": "https://www.heise.de/news/Wie-in-Total-Recall-Kuenstliche-Fingernaegel-mit-nachtraeglichem-Farbwechsel-11132380.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-07T09:38:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/XGIMI-zeigt-dezente-Display-KI-Brille-mit-automatisch-wechselndem-Sprachmodell-11132474.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: XGIMI zeigt dezente Display-KI-Brille mit automatisch wechselndem Sprachmodell",
@@ -843,50 +887,6 @@
         "link": "https://www.heise.de/hintergrund/Legacy-Code-Schritt-fuer-Schritt-aktualisieren-mit-der-Mikado-Methode-11107005.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-07T07:57:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/tests/Boox-Palma-2-Pro-E-Reader-im-Smartphone-Format-im-Test-11087441.html",
-        "title": "heise+ | Boox Palma 2 Pro: E-Reader im Smartphone-Format im Test",
-        "summary": "Der Boox Palma 2 Pro ist ein E-Reader mit Smartphonequalitäten: Mit dem Stylus schreibt man auf farbigem E-Ink, er funkt im 5G-Netz und läuft mit Android.",
-        "paragraphs": [
-          "Der Boox Palma 2 Pro ist ein E-Reader mit Smartphonequalitäten: Mit dem Stylus schreibt man auf farbigem E-Ink, er funkt im 5G-Netz und läuft mit Android."
-        ],
-        "link": "https://www.heise.de/tests/Boox-Palma-2-Pro-E-Reader-im-Smartphone-Format-im-Test-11087441.html",
-        "source": "c't",
-        "publishedAt": "2026-01-07T07:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Klimaziel-2025-erreicht-aber-nur-wenig-CO2-gespart-11132238.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Klimaziel 2025 erreicht, aber nur wenig CO2 gespart",
-        "summary": "Solar boomt, Wind legt zu – doch Gebäude und Verkehr bremsen die Klimabilanz. Wie geht es weiter mit dem Klimaschutz in Deutschland?",
-        "paragraphs": [
-          "Solar boomt, Wind legt zu – doch Gebäude und Verkehr bremsen die Klimabilanz. Wie geht es weiter mit dem Klimaschutz in Deutschland?"
-        ],
-        "link": "https://www.heise.de/news/Klimaziel-2025-erreicht-aber-nur-wenig-CO2-gespart-11132238.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-07T07:06:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/Quanten-Benchmarks-erklaert-Wie-sie-Quantencomputer-vergleichbar-machen-11088987.html",
-        "title": "heise+ | Quanten-Benchmarks erklärt: Wie sie Quantencomputer vergleichbar machen",
-        "summary": "Die Leistungsfähigkeit von Quantenrechnern untermauern Hersteller mit abstrakten Benchmarks.  Wir erklären, wie diese funktionieren und wie nützlich sie sind.",
-        "paragraphs": [
-          "Die Leistungsfähigkeit von Quantenrechnern untermauern Hersteller mit abstrakten Benchmarks.  Wir erklären, wie diese funktionieren und wie nützlich sie sind."
-        ],
-        "link": "https://www.heise.de/hintergrund/Quanten-Benchmarks-erklaert-Wie-sie-Quantencomputer-vergleichbar-machen-11088987.html",
-        "source": "c't",
-        "publishedAt": "2026-01-07T07:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11125873.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren",
-        "summary": "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen.",
-        "paragraphs": [
-          "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11125873.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-07T07:00:00.000Z"
       }
     ]
   }
