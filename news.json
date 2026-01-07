@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-07T07:38:39.593Z",
+  "updatedAt": "2026-01-07T07:48:42.321Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/fertigung-bmw-baut-mehr-als-eine-million-autos-in-deutschland/100189244.html",
+        "title": "Fertigung: BMW baut mehr als eine Million Autos in Deutschland",
+        "summary": "Etwa jedes vierte hierzulande hergestellte Auto kommt aus dem Münchner Konzern, die meisten aus Bayern – auch wenn die größten Werke im Ausland stehen.",
+        "paragraphs": [
+          "Etwa jedes vierte hierzulande hergestellte Auto kommt aus dem Münchner Konzern, die meisten aus Bayern – auch wenn die größten Werke im Ausland stehen."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/fertigung-bmw-baut-mehr-als-eine-million-autos-in-deutschland/100189244.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-07T07:33:13.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/konjunktur/ifo-institut-wirtschaft-zuletzt-in-acht-bundeslaendern-geschrumpft/100189242.html",
         "title": "Ifo-Institut: Wirtschaft zuletzt in acht Bundesländern geschrumpft",
@@ -210,20 +221,31 @@
         "link": "https://www.spiegel.de/wirtschaft/unternehmen/covid-19-bayer-verklagt-biontech-und-pfizer-wegen-patenten-fuer-impfstoffe-a-3b644e21-190c-4a63-af47-63306f140e44#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-06T21:32:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-treffen-in-paris-deutschland-will-waffenstillstand-mit-absichern/100188893.html",
-        "title": "Ukraine: Treffen in Paris – Deutschland will Waffenstillstand mit absichern",
-        "summary": "Mehr als 30 Staaten, darunter die USA, haben sich darauf verständigt, der Ukraine auch nach einem Waffenstillstand beizustehen. Die US-Drohungen zu Grönland trübten den Pariser Gipfel.",
-        "paragraphs": [
-          "Mehr als 30 Staaten, darunter die USA, haben sich darauf verständigt, der Ukraine auch nach einem Waffenstillstand beizustehen. Die US-Drohungen zu Grönland trübten den Pariser Gipfel."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-treffen-in-paris-deutschland-will-waffenstillstand-mit-absichern/100188893.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-06T21:11:26.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3364123",
+        "title": "Grönland: Trump erwägt Militäreinsatz – Rubio spricht von Kauf",
+        "summary": "Aus der US-Regierung kommen widersprüchliche Signale, wie die Kontrolle über die Arktisinsel erlangt werden soll. Dänemark weist die Ansprüche erneut zurück.",
+        "paragraphs": [
+          "Aus der US-Regierung kommen widersprüchliche Signale, wie die Kontrolle über die Arktisinsel erlangt werden soll. Dänemark weist die Ansprüche erneut zurück."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/groenland-usa-uebernahme-li.3364123",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-07T07:45:44.000Z"
+      },
+      {
+        "id": "{urn:uuid:b74cbbf0-0608-4708-ada8-883094035e52}",
+        "title": "Venezuela: Donald Trump kündigt Öllieferungen aus Venezuela an die USA an",
+        "summary": "Der US-Präsident greift in die venezolanische Ölindustrie ein und stellt Lieferungen an die USA in Aussicht. Mexiko fordert ein faires Verfahren für Maduro. Das Liveblog",
+        "paragraphs": [
+          "Der US-Präsident greift in die venezolanische Ölindustrie ein und stellt Lieferungen an die USA in Aussicht. Mexiko fordert ein faires Verfahren für Maduro. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-usa-angriff-nicolas-maduro-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-07T07:36:03.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/konjunktur/ifo-institut-wirtschaft-zuletzt-in-acht-bundeslaendern-geschrumpft/100189242.html",
         "title": "Ifo-Institut: Wirtschaft zuletzt in acht Bundesländern geschrumpft",
@@ -319,7 +341,7 @@
         "paragraphs": [
           "Bemerkenswert fatalistisch begegnen die Menschen an der Simón-Bolívar-Brücke zwischen Venezuela und Kolumbien dem Sturz Maduros. Ihr Alltag zwischen Armut und Drogenbanden ist schon hart genug."
         ],
-        "link": "https://www.sueddeutsche.de/politik/venezuela-nicolas-maduro-drogenbanden-kolumbien-li.3363578",
+        "link": "https://www.sueddeutsche.de/politik/venezuela-usa-nicolas-maduro-drogenbanden-kolumbien-menschen-li.3363578",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-07T05:26:34.000Z"
       },
@@ -421,28 +443,6 @@
         "link": "https://www.zeit.de/politik/deutschland/2026-01/drk-bdi-kassenaerzte-katastrophenschutz-infrastruktur",
         "source": "ZEIT",
         "publishedAt": "2026-01-07T01:25:08.000Z"
-      },
-      {
-        "id": "{urn:uuid:b74cbbf0-0608-4708-ada8-883094035e52}",
-        "title": "Venezuela: Donald Trump kündigt Öllieferungen aus Venezuela an die USA an",
-        "summary": "Der US-Präsident greift in die venezolanische Ölindustrie ein und stellt Lieferungen an die USA in Aussicht. Mexiko fordert ein faires Verfahren für Maduro. Das Liveblog",
-        "paragraphs": [
-          "Der US-Präsident greift in die venezolanische Ölindustrie ein und stellt Lieferungen an die USA in Aussicht. Mexiko fordert ein faires Verfahren für Maduro. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-usa-angriff-nicolas-maduro-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-07T01:16:06.000Z"
-      },
-      {
-        "id": "{urn:uuid:b134a0d7-2be8-4067-87b8-051d596e9bf7}",
-        "title": "Nahost: Israel und Syrien vereinbaren Kommunikationskanal unter US-Vermittlung",
-        "summary": "Mit US-Unterstützung wollen Israel und Syrien sich über Sicherheits- und Handelsfragen austauschen. Der Mechanismus soll Konflikte zwischen den Ländern verhindern.",
-        "paragraphs": [
-          "Mit US-Unterstützung wollen Israel und Syrien sich über Sicherheits- und Handelsfragen austauschen. Der Mechanismus soll Konflikte zwischen den Ländern verhindern."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/syrien-israel-konflikt-kommunikation-vereinbarung-kanal",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-06T23:27:04.000Z"
       }
     ],
     "sport": [
@@ -546,17 +546,6 @@
         "publishedAt": "2026-01-06T22:13:22.000Z"
       },
       {
-        "id": "https://www.kicker.de/sassuolo-gegen-juventus-2026-serie-a-5042225/spielbericht#omrss",
-        "title": "Krummes Eigentor und ein Doppelschlag: Juve gewinnt souverän bei Sassuolo",
-        "summary": "Ein hochüberlegenes Juve führte lange nur knapp durch ein kurioses Kopfball-Eigentor, ehe binnen weniger Sekunden Miretti sein Startelf-Debüt krönte und wenige Sekunden später David alles klar machte - seine Antwort auf die jüngste Kritik.",
-        "paragraphs": [
-          "Ein hochüberlegenes Juve führte lange nur knapp durch ein kurioses Kopfball-Eigentor, ehe binnen weniger Sekunden Miretti sein Startelf-Debüt krönte und wenige Sekunden später David alles klar machte - seine Antwort auf die jüngste Kritik."
-        ],
-        "link": "https://www.kicker.de/sassuolo-gegen-juventus-2026-serie-a-5042225/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-06T22:05:00.000Z"
-      },
-      {
         "id": "https://www.kicker.de/tour-solo-ueber-den-gesamten-platz-elfenbeinkueste-dominant-1181375/video#omrss",
         "title": "Touré-Solo über den gesamten Platz: Elfenbeinküste dominant",
         "summary": "Der Titelverteidiger hat das Viertelfinale beim Afrika-Cup erreicht. Die Elfenbeinküste gewann das Achtelfinale gegen Burkina Faso souverän mit 3:0. Die Highlights der Partie gibt es hier im Video.",
@@ -656,15 +645,26 @@
         "publishedAt": "2026-01-06T19:33:39.000Z"
       },
       {
-        "id": "https://www.kicker.de/lecce-gegen-roma-2026-serie-a-5042220/spielbericht#omrss",
-        "title": "Die Roma verfügt auch über Stürmer - 1000. Punkt für Gasperini",
-        "summary": "Das neue Jahr hatte für die Roma denkbar schlecht begonnen, ging am Dreikönigstag aber positiv weiter: So gewannen die Giallorossi beim Duell mit Kellerkind Lecce souverän mit 2:0. Als Vollstrecker schwangen sich - und das ist durchaus ungewöhnlich - zwei Stürmer auf.",
+        "id": "https://www.kicker.de/naechster-neuer-fuer-mainz-silas-kommt-aus-stuttgart-1181051/artikel#omrss",
+        "title": "Nächster Neuer für Mainz: Silas kommt aus Stuttgart",
+        "summary": "Es hatte sich bereits abgezeichnet, nun ist der Wechsel von Silas vom VfB Stuttgart zum 1. FSV Mainz 05 perfekt. Nachdem sich die 05er mit den Schwaben geeinigt hatten, wurde nun auch ein gemeinsamer Nenner mit dem Spieler gefunden.",
         "paragraphs": [
-          "Das neue Jahr hatte für die Roma denkbar schlecht begonnen, ging am Dreikönigstag aber positiv weiter: So gewannen die Giallorossi beim Duell mit Kellerkind Lecce souverän mit 2:0. Als Vollstrecker schwangen sich - und das ist durchaus ungewöhnlich - zwei Stürmer auf."
+          "Es hatte sich bereits abgezeichnet, nun ist der Wechsel von Silas vom VfB Stuttgart zum 1. FSV Mainz 05 perfekt. Nachdem sich die 05er mit den Schwaben geeinigt hatten, wurde nun auch ein gemeinsamer Nenner mit dem Spieler gefunden."
         ],
-        "link": "https://www.kicker.de/lecce-gegen-roma-2026-serie-a-5042220/spielbericht#omrss",
+        "link": "https://www.kicker.de/naechster-neuer-fuer-mainz-silas-kommt-aus-stuttgart-1181051/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-01-06T19:29:34.000Z"
+        "publishedAt": "2026-01-06T19:25:33.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/bassette-ist-lauterns-erster-winter-zugang-1181165/artikel#omrss",
+        "title": "Bassette ist Lauterns erster Winter-Zugang",
+        "summary": "Der 1. FC Kaiserslautern justiert wie erwartet im Sturm nach und lotst dafür den Belgier Norman Bassette in die Pfalz. Der 21 Jahre alte Angreifer wird zunächst bis zum Saisonende von Coventry City ausgeliehen.",
+        "paragraphs": [
+          "Der 1. FC Kaiserslautern justiert wie erwartet im Sturm nach und lotst dafür den Belgier Norman Bassette in die Pfalz. Der 21 Jahre alte Angreifer wird zunächst bis zum Saisonende von Coventry City ausgeliehen."
+        ],
+        "link": "https://www.kicker.de/bassette-ist-lauterns-erster-winter-zugang-1181165/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-06T19:17:57.000Z"
       }
     ],
     "edv": [
