@@ -1,17 +1,39 @@
 {
-  "updatedAt": "2026-01-07T13:29:10.343Z",
+  "updatedAt": "2026-01-07T13:48:30.454Z",
   "categories": {
     "wirtschaft": [
       {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-usa-versuchen-sanktionierten-tanker-in-der-nordsee-zu-entern/100189299.html",
-        "title": "Militär: USA versuchen, sanktionierten Tanker in der Nordsee zu entern – Russland schickt U-Boot",
+        "id": "{urn:uuid:b9e3bd90-fd93-43a8-96a6-36606c8245c3}",
+        "title": "Stellenabbau: RTL streicht rund 230 Jobs in der Nachrichtensparte",
+        "summary": "RTL Deutschland will bei dem geplanten Stellenabbau rund 230 Jobs im Newsbereich streichen. Die Magazine \"Gala\" und \"Prominent\" werden in einer neuen Marke gebündelt.",
+        "paragraphs": [
+          "RTL Deutschland will bei dem geplanten Stellenabbau rund 230 Jobs im Newsbereich streichen. Die Magazine \"Gala\" und \"Prominent\" werden in einer neuen Marke gebündelt."
+        ],
+        "link": "https://www.zeit.de/kultur/film/2026-01/rtl-stellenabbau-fernsehen-gala-prominent",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-07T13:33:48.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/venezuela-usa-entern-sanktionierten-tanker-in-der-nordsee/100189299.html",
+        "title": "Militär: USA entern sanktionierten Tanker in der Nordsee – Russland schickt U-Boot",
         "summary": "Ein Öltanker konnte der US-Blockade vor Venezuela entkommen und steuert nun Russland an. Die USA verfolgen das Schiff nach wie vor, Moskau schickt mehrere Schiffe. Droht eine Eskalation?",
         "paragraphs": [
           "Ein Öltanker konnte der US-Blockade vor Venezuela entkommen und steuert nun Russland an. Die USA verfolgen das Schiff nach wie vor, Moskau schickt mehrere Schiffe. Droht eine Eskalation?"
         ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-usa-versuchen-sanktionierten-tanker-in-der-nordsee-zu-entern/100189299.html",
+        "link": "https://www.handelsblatt.com/politik/international/venezuela-usa-entern-sanktionierten-tanker-in-der-nordsee/100189299.html",
         "source": "Handelsblatt",
-        "publishedAt": "2026-01-07T13:17:31.000Z"
+        "publishedAt": "2026-01-07T13:33:40.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-dz-privatbank-verlegt-ihren-firmensitz-nach-frankfurt/100189329.html",
+        "title": "Banken: DZ Privatbank verlegt ihren Firmensitz nach Frankfurt",
+        "summary": "Der Private-Banking-Anbieter soll noch enger mit der DZ Bank Gruppe verzahnt werden. Mit dem Wechsel ändert sich auch die Rechtsform der DZ Privatbank.",
+        "paragraphs": [
+          "Der Private-Banking-Anbieter soll noch enger mit der DZ Bank Gruppe verzahnt werden. Mit dem Wechsel ändert sich auch die Rechtsform der DZ Privatbank."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-dz-privatbank-verlegt-ihren-firmensitz-nach-frankfurt/100189329.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-07T13:32:34.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-finanzierung-fuer-industriestrompreis-ist-noch-nicht-gesichert/100188837.html",
@@ -67,17 +89,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/autohersteller-stellantis-produktion-in-italien-laut-gewerkschaft-eingebrochen/100189345.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-07T12:59:44.000Z"
-      },
-      {
-        "id": "{urn:uuid:b9e3bd90-fd93-43a8-96a6-36606c8245c3}",
-        "title": "Stellenabbau: RTL streicht rund 230 Jobs in der Nachrichtensparte",
-        "summary": "RTL Deutschland will bei dem geplanten Stellenabbau rund 230 Jobs im Newsbereich streichen. Die Magazine \"Gala\" und \"Prominent\" werden in einer neuen Marke gebündelt.",
-        "paragraphs": [
-          "RTL Deutschland will bei dem geplanten Stellenabbau rund 230 Jobs im Newsbereich streichen. Die Magazine \"Gala\" und \"Prominent\" werden in einer neuen Marke gebündelt."
-        ],
-        "link": "https://www.zeit.de/kultur/film/2026-01/rtl-stellenabbau-fernsehen-gala-prominent",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-07T12:58:43.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/management/management-warum-unternehmen-in-ki-schrott-versinken/100182004.html",
@@ -210,23 +221,56 @@
         "link": "https://www.zeit.de/wirtschaft/2026-01/digitaler-euro-bargeld-freiheit-widerstand-debatte",
         "source": "ZEIT",
         "publishedAt": "2026-01-07T11:30:54.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/unternehmen/wohnungsmarkt-ist-das-zeitalter-der-immer-groesser-werdenden-wohnungen-vorbei-a-246bebb1-681b-46cd-91c8-fef1adae937c",
-        "title": "Wohnungsmarkt: Ist das Zeitalter der immer größer werdenden Wohnungen vorbei?",
-        "summary": "Manchmal ist weniger mehr: Erstmals seit Jahrzehnten werden Wohnungen in Deutschland laut einer DIW-Studie wohl wieder kleiner. Das hängt auch mit den hohen Immobilienpreisen zusammen.",
-        "paragraphs": [
-          "Manchmal ist weniger mehr: Erstmals seit Jahrzehnten werden Wohnungen in Deutschland laut einer DIW-Studie wohl wieder kleiner. Das hängt auch mit den hohen Immobilienpreisen zusammen."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/unternehmen/wohnungsmarkt-ist-das-zeitalter-der-immer-groesser-werdenden-wohnungen-vorbei-a-246bebb1-681b-46cd-91c8-fef1adae937c#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-07T11:21:00.000Z"
       }
     ],
     "politik": [
       {
+        "id": "https://www.handelsblatt.com/politik/international/venezuela-bundesregierung-kritisiert-usa-nach-maduro-festnahme/100188261.html",
+        "title": "+++ Venezuela +++: Bundesregierung kritisiert USA nach Maduro-Festnahme",
+        "summary": "Trump: Venezuela wird bis zu 50 Millionen Barrel Öl abgeben +++ USA erwägen Subventionen für Ölkonzerne in Venezuela +++ Venezuelas Oppositionsführerin Machado schwärmt von Donald Trump +++ Der Newsblog.",
+        "paragraphs": [
+          "Trump: Venezuela wird bis zu 50 Millionen Barrel Öl abgeben +++ USA erwägen Subventionen für Ölkonzerne in Venezuela +++ Venezuelas Oppositionsführerin Machado schwärmt von Donald Trump +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/venezuela-bundesregierung-kritisiert-usa-nach-maduro-festnahme/100188261.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-07T13:36:18.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/venezuela-usa-entern-sanktionierten-tanker-in-der-nordsee/100189299.html",
+        "title": "Militär: USA entern sanktionierten Tanker in der Nordsee – Russland schickt U-Boot",
+        "summary": "Ein Öltanker konnte der US-Blockade vor Venezuela entkommen und steuert nun Russland an. Die USA verfolgen das Schiff nach wie vor, Moskau schickt mehrere Schiffe. Droht eine Eskalation?",
+        "paragraphs": [
+          "Ein Öltanker konnte der US-Blockade vor Venezuela entkommen und steuert nun Russland an. Die USA verfolgen das Schiff nach wie vor, Moskau schickt mehrere Schiffe. Droht eine Eskalation?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/venezuela-usa-entern-sanktionierten-tanker-in-der-nordsee/100189299.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-07T13:33:40.000Z"
+      },
+      {
+        "id": "{urn:uuid:b74cbbf0-0608-4708-ada8-883094035e52}",
+        "title": "Venezuela: Bundesregierung zweifelt an Legitimität von US-Angriff",
+        "summary": "Die Bundesregierung ist nicht überzeugt davon, dass der US-Militärschlag völkerrechtlich konform war. Venezuela weist den Führungsanspruch der USA zurück. Das Liveblog",
+        "paragraphs": [
+          "Die Bundesregierung ist nicht überzeugt davon, dass der US-Militärschlag völkerrechtlich konform war. Venezuela weist den Führungsanspruch der USA zurück. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-usa-angriff-nicolas-maduro-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-07T13:27:15.000Z"
+      },
+      {
+        "id": "li.3352720",
+        "title": "US-Angriff auf Venezuela: Bundesregierung findet erstmals kritische Worte für US-Vorgehen in Venezuela",
+        "summary": "Die USA hätten im UN-Sicherheitsrat „nicht überzeugend dargelegt, dass ihr Vorgehen völkerrechtskonform war“, sagt Regierungssprecher Kornelius. US-Präsident Trump sichert sich derweil den Zugriff auf Venezuelas Öl.",
+        "paragraphs": [
+          "Die USA hätten im UN-Sicherheitsrat „nicht überzeugend dargelegt, dass ihr Vorgehen völkerrechtskonform war“, sagt Regierungssprecher Kornelius. US-Präsident Trump sichert sich derweil den Zugriff auf Venezuelas Öl."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-venezuela-bundesregierung-kritik-li.3352720",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-07T13:26:00.000Z"
+      },
+      {
         "id": "{urn:uuid:d3fa97ea-0a43-409c-aa67-5350b52e14a0}",
-        "title": "Steuersenkung für Unternehmen: CDU strebt eine frühere Senkung der Körperschaftssteuer an",
+        "title": "Steuersenkung für Unternehmen: CDU strebt eine frühere Senkung der Körperschaftsteuer an",
         "summary": "Ab 2028 sollen Unternehmen stufenweise weniger Körperschaftsteuer zahlen. Die CDU plädiert für ein Vorziehen der Steuersenkung.",
         "paragraphs": [
           "Ab 2028 sollen Unternehmen stufenweise weniger Körperschaftsteuer zahlen. Die CDU plädiert für ein Vorziehen der Steuersenkung."
@@ -236,15 +280,15 @@
         "publishedAt": "2026-01-07T13:20:05.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-usa-versuchen-offenbar-sanktionierten-tanker-zu-entern/100189299.html",
-        "title": "Militär: USA versuchen offenbar, sanktionierten Tanker in der Nordsee zu entern – Russland schickt U-Boot",
-        "summary": "Ein Öltanker konnte der US-Blockade vor Venezuela entkommen und steuert nun Russland an. Die USA verfolgen das Schiff nach wie vor, Moskau schickt mehrere Schiffe. Droht eine Eskalation?",
+        "id": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-finanzierung-fuer-industriestrompreis-ist-noch-nicht-gesichert/100188837.html",
+        "title": "Bundesregierung: Wichtige Entlastung vor Milliarden-Hürde: Finanzierung für Industriestrompreis ist „nicht gesichert“",
+        "summary": "Eigentlich schien bei der Entlastung alles geklärt. Doch ein internes Regierungsdokument zeigt: Die Mittel für die Subvention müssen noch gefunden werden – und der Bedarf fällt höher aus.",
         "paragraphs": [
-          "Ein Öltanker konnte der US-Blockade vor Venezuela entkommen und steuert nun Russland an. Die USA verfolgen das Schiff nach wie vor, Moskau schickt mehrere Schiffe. Droht eine Eskalation?"
+          "Eigentlich schien bei der Entlastung alles geklärt. Doch ein internes Regierungsdokument zeigt: Die Mittel für die Subvention müssen noch gefunden werden – und der Bedarf fällt höher aus."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-usa-versuchen-offenbar-sanktionierten-tanker-zu-entern/100189299.html",
+        "link": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-finanzierung-fuer-industriestrompreis-ist-noch-nicht-gesichert/100188837.html",
         "source": "Handelsblatt",
-        "publishedAt": "2026-01-07T13:15:37.000Z"
+        "publishedAt": "2026-01-07T13:16:15.000Z"
       },
       {
         "id": "{urn:uuid:27209286-8085-4efd-9d36-f9df06f6efbf}",
@@ -281,10 +325,10 @@
       },
       {
         "id": "li.3363237",
-        "title": "Proteste gegen Armut in Iran: „Wir können nicht mehr“",
-        "summary": "Iran erlebt die vierte Protestwelle in acht Jahren – diesmal geht es nicht um Kopftücher und weniger um Freiheit, sondern um die wirtschaftliche Not. Auf die Straße wagen sich die Ärmeren, die Verzweifelten.",
+        "title": "Proteste in Iran: „Wir können nicht mehr“",
+        "summary": "Iran erlebt die vierte Protestwelle in acht Jahren – wieder geht es um Freiheit, aber auch um die wirtschaftliche Not. Auf die Straße wagen sich die Ärmeren, die Verzweifelten.",
         "paragraphs": [
-          "Iran erlebt die vierte Protestwelle in acht Jahren – diesmal geht es nicht um Kopftücher und weniger um Freiheit, sondern um die wirtschaftliche Not. Auf die Straße wagen sich die Ärmeren, die Verzweifelten."
+          "Iran erlebt die vierte Protestwelle in acht Jahren – wieder geht es um Freiheit, aber auch um die wirtschaftliche Not. Auf die Straße wagen sich die Ärmeren, die Verzweifelten."
         ],
         "link": "https://www.sueddeutsche.de/politik/teheran-proteste-revolution-regime-li.3363237",
         "source": "Sueddeutsche",
@@ -399,53 +443,31 @@
         "link": "https://www.zeit.de/politik/deutschland/2026-01/afd-bayern-daniel-halemba-prozess-volksverhetzung-anklage-gxe",
         "source": "ZEIT",
         "publishedAt": "2026-01-07T10:46:44.000Z"
-      },
-      {
-        "id": "li.3362300",
-        "title": "Baden-Württemberg: Schaffe, schaffe, Wahl gewinne",
-        "summary": "Der CDU-Politiker Manuel Hagel ist auf bestem Weg, im März Ministerpräsident zu werden. Allerdings gibt es da noch ein paar Restrisiken – eines davon heißt Cem Özdemir.",
-        "paragraphs": [
-          "Der CDU-Politiker Manuel Hagel ist auf bestem Weg, im März Ministerpräsident zu werden. Allerdings gibt es da noch ein paar Restrisiken – eines davon heißt Cem Özdemir."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/baden-wuerttemberg-manuel-hagel-cdu-kandidat-ministerpraesident-li.3362300",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-07T10:42:51.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/chip-zulieferer-china-leitet-untersuchung-gegen-importe-aus-japan-ein/100189283.html",
-        "title": "Chip-Zulieferer: China leitet Untersuchung gegen Importe aus Japan ein",
-        "summary": "Die Beziehungen zwischen den beiden größten asiatischen Volkswirtschaften haben sich im vergangenen Jahr verschlechtert. Nun überzieht China Japan mit zahlreichen Maßnahmen.",
-        "paragraphs": [
-          "Die Beziehungen zwischen den beiden größten asiatischen Volkswirtschaften haben sich im vergangenen Jahr verschlechtert. Nun überzieht China Japan mit zahlreichen Maßnahmen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/chip-zulieferer-china-leitet-untersuchung-gegen-importe-aus-japan-ein/100189283.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-07T10:30:05.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/stromausfall-menschen-im-berliner-suedwesten-haben-wieder-strom/100189256.html",
-        "title": "Nach Anschlag: Menschen im Berliner Südwesten haben wieder Strom",
-        "summary": "Der längste Berliner Stromausfall der Nachkriegszeit endet am Vormittag. Insgesamt waren rund 100.000 Menschen betroffen. Die Behörden suchen nach wie vor nach den Tätern.",
-        "paragraphs": [
-          "Der längste Berliner Stromausfall der Nachkriegszeit endet am Vormittag. Insgesamt waren rund 100.000 Menschen betroffen. Die Behörden suchen nach wie vor nach den Tätern."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/stromausfall-menschen-im-berliner-suedwesten-haben-wieder-strom/100189256.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-07T10:24:44.000Z"
-      },
-      {
-        "id": "{urn:uuid:41298028-857a-42b0-8b6e-e14a30b38895}",
-        "title": "Ukraine-Treffen: Neue Mannschaft, alte Hürden",
-        "summary": "Zum Treffen in Paris reiste die Delegation aus Kyjiw in neuer Besetzung an. Vom Gipfel gingen positive Signale aus, doch er zeigte auch, wie viel noch ungeklärt ist.",
-        "paragraphs": [
-          "Zum Treffen in Paris reiste die Delegation aus Kyjiw in neuer Besetzung an. Vom Gipfel gingen positive Signale aus, doch er zeigte auch, wie viel noch ungeklärt ist."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/ukraine-krieg-friedensabkommen-paris-selenskyj",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-07T10:19:24.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/memory-zum-deb-kader-1181543/artikel#omrss",
+        "title": "Memory zum DEB-Kader",
+        "summary": "Der DEB hat seinen vorläufigen Kader für die Olympischen Winterspiele in Mailand bekanntgegeben. Neben dem deutschen Superstar Leon Draisaitl stehen noch viele weitere deutsche Eishockeystars im Aufgebot. Kannst du ein paar von ihnen in unserem Memory finden?",
+        "paragraphs": [
+          "Der DEB hat seinen vorläufigen Kader für die Olympischen Winterspiele in Mailand bekanntgegeben. Neben dem deutschen Superstar Leon Draisaitl stehen noch viele weitere deutsche Eishockeystars im Aufgebot. Kannst du ein paar von ihnen in unserem Memory finden?"
+        ],
+        "link": "https://www.kicker.de/memory-zum-deb-kader-1181543/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-07T13:39:45.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/klarheit-beim-asc-dortmund-niemoeller-tritt-in-stiepermanns-grosse-fussstapfen-1181538/artikel#omrss",
+        "title": "Klarheit beim ASC Dortmund: Niemöller tritt in Stiepermanns große Fußstapfen",
+        "summary": "Nach dem vor Monaten verkündeten Abschied von Marco Stiepermann hat der ASC 09 Dortmund am Mittwoch seine Trainersuche zu einem erfolgreichen Ende gebracht. Mit Magnus Niemöller geht im Sommer ein Mann ans Ruder, der die Oberliga Westfalen bestens kennt.",
+        "paragraphs": [
+          "Nach dem vor Monaten verkündeten Abschied von Marco Stiepermann hat der ASC 09 Dortmund am Mittwoch seine Trainersuche zu einem erfolgreichen Ende gebracht. Mit Magnus Niemöller geht im Sommer ein Mann ans Ruder, der die Oberliga Westfalen bestens kennt."
+        ],
+        "link": "https://www.kicker.de/klarheit-beim-asc-dortmund-niemoeller-tritt-in-stiepermanns-grosse-fussstapfen-1181538/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-07T13:35:12.000Z"
+      },
       {
         "id": "https://www.kicker.de/gregoritschs-rueckkehr-nach-3-5-jahren-und-25-millionen-euro-1181526/artikel#omrss",
         "title": "Gregoritschs Rückkehr nach 3,5 Jahren und 25 Millionen Euro",
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/power-ranking-zum-playoff-start-kein-top-team-ohne-fragezeichen-1181191/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-07T11:25:39.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/zu-starker-wind-frauen-sprint-in-oberhof-auf-donnerstag-vorgezogen-1181497/artikel#omrss",
-        "title": "Zu starker Wind: Frauen-Sprint in Oberhof auf Donnerstag vorgezogen",
-        "summary": "Das Wetter macht den Veranstaltern beim Biathlon-Weltcup in Oberhof einen ersten Strich durch die Rechnung. Ein nahendes Sturmtief sorgt für eine Planänderung.",
-        "paragraphs": [
-          "Das Wetter macht den Veranstaltern beim Biathlon-Weltcup in Oberhof einen ersten Strich durch die Rechnung. Ein nahendes Sturmtief sorgt für eine Planänderung."
-        ],
-        "link": "https://www.kicker.de/zu-starker-wind-frauen-sprint-in-oberhof-auf-donnerstag-vorgezogen-1181497/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-07T11:23:40.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vieles-dafuer-gegeben-olympia-kader-der-deb-frauen-steht-1181483/artikel#omrss",
-        "title": "\"Vieles dafür gegeben\": Olympia-Kader der DEB-Frauen steht",
-        "summary": "Ein Mix aus Routine und Talent - die Frauen des Deutschen Eishockey-Bundes treten bei ihrer ersten Olympia-Teilnahme seit 2014 guten Mutes an.",
-        "paragraphs": [
-          "Ein Mix aus Routine und Talent - die Frauen des Deutschen Eishockey-Bundes treten bei ihrer ersten Olympia-Teilnahme seit 2014 guten Mutes an."
-        ],
-        "link": "https://www.kicker.de/vieles-dafuer-gegeben-olympia-kader-der-deb-frauen-steht-1181483/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-07T11:10:52.000Z"
       }
     ],
     "edv": [
