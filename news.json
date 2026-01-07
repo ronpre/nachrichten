@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-07T23:05:36.459Z",
+  "updatedAt": "2026-01-07T23:18:19.146Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,11 +225,22 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
+        "title": "Krieg gegen die Ukraine: Zwei ukrainische Regionen nach russischen Angriffen ohne Strom",
+        "summary": "Russische Angriffe haben den Strom in Dnipropetrowsk und Saporischschja fast vollständig lahmgelegt. Zuvor sollen Häfen in Odessa angegriffen worden sein. Das Liveblog",
+        "paragraphs": [
+          "Russische Angriffe haben den Strom in Dnipropetrowsk und Saporischschja fast vollständig lahmgelegt. Zuvor sollen Häfen in Odessa angegriffen worden sein. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-07T23:14:14.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/deutschland/kai-wegner-und-stromausfall-in-berlin-tennis-statt-krisenmanagement-a-b717516b-b453-4c38-be82-e2b19fef379e",
         "title": "Kai Wegner und Stromausfall in Berlin: Tennis statt Krisenmanagement",
-        "summary": "Der Südwesten Berlins hat wieder Strom. Doch für den Regierenden Bürgermeister ist die Krise nicht ausgestanden: Kai Wegner spielte nach dem Blackout erst mal Tennis – und verschwieg das. Ist das sein »Laschet-Moment«?",
+        "summary": "Der Südwesten Berlins hat wieder Strom. Doch für den Regierenden Bürgermeister ist die Krise nicht ausgestanden: Kai Wegner spielte nach dem Blackout erst mal Tennis – und verschwieg das.",
         "paragraphs": [
-          "Der Südwesten Berlins hat wieder Strom. Doch für den Regierenden Bürgermeister ist die Krise nicht ausgestanden: Kai Wegner spielte nach dem Blackout erst mal Tennis – und verschwieg das. Ist das sein »Laschet-Moment«?"
+          "Der Südwesten Berlins hat wieder Strom. Doch für den Regierenden Bürgermeister ist die Krise nicht ausgestanden: Kai Wegner spielte nach dem Blackout erst mal Tennis – und verschwieg das."
         ],
         "link": "https://www.spiegel.de/politik/deutschland/kai-wegner-und-stromausfall-in-berlin-tennis-statt-krisenmanagement-a-b717516b-b453-4c38-be82-e2b19fef379e#ref=rss",
         "source": "SPIEGEL",
@@ -245,17 +256,6 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/trump-erhoehung-militaerausgaben-usa",
         "source": "ZEIT",
         "publishedAt": "2026-01-07T22:52:41.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ae954a8-b538-466c-b076-959e512f43f2}",
-        "title": "Krieg gegen die Ukraine: Zwei ukrainische Regionen nach russischen Angriffen ohne Strom",
-        "summary": "Russische Angriffe haben den Strom in Dnipropetrowsk und Saporischschja fast vollständig lahmgelegt. Zuvor sollen Häfen in Odessa angegriffen worden sein. Das Liveblog",
-        "paragraphs": [
-          "Russische Angriffe haben den Strom in Dnipropetrowsk und Saporischschja fast vollständig lahmgelegt. Zuvor sollen Häfen in Odessa angegriffen worden sein. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-07T22:18:35.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/einwanderungspolitik-trump-verteidigt-nach-toedlichen-schuessen-einwanderungsbeamten/100189501.html",
@@ -504,9 +504,9 @@
       {
         "id": "https://www.kicker.de/head-coach-bowles-verkuendet-seinen-verbleib-bei-den-buccaneers-1181700/artikel#omrss",
         "title": "Head Coach Bowles verkündet seinen Verbleib bei den Buccaneers",
-        "summary": "Seit 2022 übt Todd Bowles das Amt des Head Coaches bei den Tampa Bay Buccaneers aus. Der vormalige Defensive Coordinator des Franchises aus Florida, der damit auch beim Super-Bowl-Sieg mit Tom Brady involviert war, hatte seither immer die NFC South gewonnen - bis zu diesem Jahr. Nach dem Verpassen der Endrunde darf Bowles nun aber durchatmen.",
+        "summary": "Seit 2022 übt Todd Bowles das Amt des Head Coaches bei den Tampa Bay Buccaneers aus. Der vormalige Defensive Coordinator des Franchises aus Florida, der damit auch beim Super-Bowl-Sieg mit Tom Brady involviert gewesen war, hatte seither immer die NFC South gewonnen - bis zum späten Absturz in diesem Jahr. Nach dem Verpassen der Endrunde geht es für Bowles aber dennoch weiter mit Baker Mayfield und Co.",
         "paragraphs": [
-          "Seit 2022 übt Todd Bowles das Amt des Head Coaches bei den Tampa Bay Buccaneers aus. Der vormalige Defensive Coordinator des Franchises aus Florida, der damit auch beim Super-Bowl-Sieg mit Tom Brady involviert war, hatte seither immer die NFC South gewonnen - bis zu diesem Jahr. Nach dem Verpassen der Endrunde darf Bowles nun aber durchatmen."
+          "Seit 2022 übt Todd Bowles das Amt des Head Coaches bei den Tampa Bay Buccaneers aus. Der vormalige Defensive Coordinator des Franchises aus Florida, der damit auch beim Super-Bowl-Sieg mit Tom Brady involviert gewesen war, hatte seither immer die NFC South gewonnen - bis zum späten Absturz in diesem Jahr. Nach dem Verpassen der Endrunde geht es für Bowles aber dennoch weiter mit Baker Mayfield und Co."
         ],
         "link": "https://www.kicker.de/head-coach-bowles-verkuendet-seinen-verbleib-bei-den-buccaneers-1181700/artikel#omrss",
         "source": "Kicker",
@@ -823,17 +823,6 @@
         "publishedAt": "2026-01-07T14:49:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Softwaregesperrte Werkzeug-Akkus reparieren",
-        "summary": "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott.",
-        "paragraphs": [
-          "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott."
-        ],
-        "link": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-07T14:41:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Fender-Bluetooth-Lautsprecher-und-Kopfhoerer-fuer-Musiker-11128411.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: Fender: Bluetooth-Lautsprecher und modulare Kopfhörer",
         "summary": "Fender hat tragbare Bluetooth-Lautsprecher mit XLR-Kombi-Eingang für Instrumente und Mikrofone sowie Funkkopfhörer mit austauschbaren Komponenten vorgestellt.",
@@ -841,6 +830,17 @@
           "Fender hat tragbare Bluetooth-Lautsprecher mit XLR-Kombi-Eingang für Instrumente und Mikrofone sowie Funkkopfhörer mit austauschbaren Komponenten vorgestellt."
         ],
         "link": "https://www.heise.de/news/Fender-Bluetooth-Lautsprecher-und-Kopfhoerer-fuer-Musiker-11128411.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-07T14:41:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Softwaregesperrte Werkzeug-Akkus reparieren",
+        "summary": "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott.",
+        "paragraphs": [
+          "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott."
+        ],
+        "link": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-07T14:41:00.000Z"
       },
