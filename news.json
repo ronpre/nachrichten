@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-08T11:39:48.925Z",
+  "updatedAt": "2026-01-08T11:49:06.509Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:6e3edd46-2dd0-4fb6-81cf-8bf879d29459}",
+        "title": "Bundeswehr: Offenbar weitere Ermittlungen im Fallschirmjägerregiment 26",
+        "summary": "Die Ermittlungen bei den Fallschirmjägern sind wohl umfassender als bisher bekannt. Ein internes Dokument offenbart laut einem Medienbericht schweres Fehlverhalten.",
+        "paragraphs": [
+          "Die Ermittlungen bei den Fallschirmjägern sind wohl umfassender als bisher bekannt. Ein internes Dokument offenbart laut einem Medienbericht schweres Fehlverhalten."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2026-01/bundeswehr-ermittlungen-fallschirmjaegerregiment-zweibruecken",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-08T11:35:20.000Z"
+      },
+      {
         "id": "{urn:uuid:2b9795c1-693d-4556-bee1-271244cf1641}",
         "title": "Stromausfall in Berlin: CDU-Fraktion unterstützt Kai Wegner nach Kritik an Krisenmanagement",
         "summary": "Ein Tennisspiel des Berliner Bürgermeisters und der Bildungssenatorin steht in der Kritik. Die Berliner CDU-Fraktion stellt sich dennoch klar hinter ihn.",
@@ -269,17 +280,6 @@
         "publishedAt": "2026-01-08T10:54:00.000Z"
       },
       {
-        "id": "er.e127778",
-        "title": "Ideas: Trump’s ‘American Dominance’ May Leave Us With Nothing",
-        "summary": "The president’s moves in Venezuela foretell a new global system.",
-        "paragraphs": [
-          "The president’s moves in Venezuela foretell a new global system."
-        ],
-        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/trump-s-american-dominance-may-leave-us-with-nothing-e127778/",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-08T10:53:00.000Z"
-      },
-      {
         "id": "er.e818361",
         "title": "Politics: The Front-Runner",
         "summary": "California’s Gavin Newsom would rather be wrong than weak.",
@@ -287,6 +287,17 @@
           "California’s Gavin Newsom would rather be wrong than weak."
         ],
         "link": "https://www.sueddeutsche.de/projekte/artikel/politik/the-front-runner-e818361/",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-08T10:53:00.000Z"
+      },
+      {
+        "id": "er.e127778",
+        "title": "Ideas: Trump’s ‘American Dominance’ May Leave Us With Nothing",
+        "summary": "The president’s moves in Venezuela foretell a new global system.",
+        "paragraphs": [
+          "The president’s moves in Venezuela foretell a new global system."
+        ],
+        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/trump-s-american-dominance-may-leave-us-with-nothing-e127778/",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-08T10:53:00.000Z"
       },
@@ -432,20 +443,42 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/katastrophenschutz-bereit-fuer-den-ernstfall-was-buerger-selbst-tun-koennen/100189320.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-08T09:01:07.000Z"
-      },
-      {
-        "id": "{urn:uuid:93373f19-6565-4993-ba05-8590c7285355}",
-        "title": "Bürgerkrieg im Jemen: Separatistenanführer flieht offenbar aus dem Jemen",
-        "summary": "Nachdem er in Riad erscheinen sollte, ist ein Separatistenanführer offenbar aus dem Jemen geflohen. Dabei sollen ihm die Vereinigten Arabischen Emirate geholfen haben.",
-        "paragraphs": [
-          "Nachdem er in Riad erscheinen sollte, ist ein Separatistenanführer offenbar aus dem Jemen geflohen. Dabei sollen ihm die Vereinigten Arabischen Emirate geholfen haben."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/jemen-buergerkrieg-huthi-separatisten-geflohen-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-08T08:43:15.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/thiaw-entschuldigt-sich-nach-horror-halbzeit-1181826/artikel#omrss",
+        "title": "Thiaw entschuldigt sich nach Horror-Halbzeit",
+        "summary": "Der denkwürdige 4:3-Sieg war wohl nur ein schwacher Trost: Malik Thiaw erlebte gegen Leeds seinen bittersten Auftritt im Newcastle-Trikot - den Trainer Eddie Howe frühzeitig stoppte.",
+        "paragraphs": [
+          "Der denkwürdige 4:3-Sieg war wohl nur ein schwacher Trost: Malik Thiaw erlebte gegen Leeds seinen bittersten Auftritt im Newcastle-Trikot - den Trainer Eddie Howe frühzeitig stoppte."
+        ],
+        "link": "https://www.kicker.de/thiaw-entschuldigt-sich-nach-horror-halbzeit-1181826/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-08T11:41:44.000Z"
+      },
+      {
+        "id": "li.3364208",
+        "title": "Weltcup-Station in Thüringen: Wo die Biathlon-Rennen in Oberhof im TV zu sehen sind",
+        "summary": "Im neuen Jahr starten die Biathletinnen und Biathleten in Deutschland. In Oberhof finden insgesamt sechs Rennen statt. Ein Überblick über den Zeitplan.",
+        "paragraphs": [
+          "Im neuen Jahr starten die Biathletinnen und Biathleten in Deutschland. In Oberhof finden insgesamt sechs Rennen statt. Ein Überblick über den Zeitplan."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/biathlon-weltcup-oberhof-heute-live-tv-stream-termine-li.3364208",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-08T11:39:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nach-vertragsaufloesung-bei-rwo-havelse-verpflichtet-schepp-1181824/artikel#omrss",
+        "title": "Nach Vertragsauflösung bei RWO: Havelse verpflichtet Schepp",
+        "summary": "Einen Tag nach der Vertragsauflösung bei Rot-Weiß Oberhausen hat sich Torjäger Christopher Schepp dem TSV Havelse angeschlossen.",
+        "paragraphs": [
+          "Einen Tag nach der Vertragsauflösung bei Rot-Weiß Oberhausen hat sich Torjäger Christopher Schepp dem TSV Havelse angeschlossen."
+        ],
+        "link": "https://www.kicker.de/nach-vertragsaufloesung-bei-rwo-havelse-verpflichtet-schepp-1181824/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-08T11:26:27.000Z"
+      },
       {
         "id": "https://www.kicker.de/quarterback-ranking-rodgers-letzter-run-und-wie-weit-schleppt-herbert-die-chargers-1181267/artikel#omrss",
         "title": "Quarterback Ranking: Rodgers' letzter Run - und wie weit schleppt Herbert die Chargers?",
@@ -522,17 +555,6 @@
         "link": "https://www.kicker.de/moreno-fell-erhaelt-als-erster-aktiver-bundesligastuermer-die-weisse-amateurtrophaee-1181793/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-08T10:43:59.000Z"
-      },
-      {
-        "id": "li.3364208",
-        "title": "Weltcup-Station in Thüringen: Wo die Biathlon-Rennen in Oberhof im TV zu sehen sind",
-        "summary": "Im neuen Jahr starten die Biathletinnen und Biathleten in Deutschland. In Oberhof finden insgesamt sechs Rennen statt. Ein Überblick über den Zeitplan.",
-        "paragraphs": [
-          "Im neuen Jahr starten die Biathletinnen und Biathleten in Deutschland. In Oberhof finden insgesamt sechs Rennen statt. Ein Überblick über den Zeitplan."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/biathlon-weltcup-oberhof-heute-live-tv-stream-termine-li.3364208",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-08T10:40:00.000Z"
       },
       {
         "id": "https://www.kicker.de/fc-bayern-verleiht-peretz-nach-southampton-weiter-1179965/artikel#omrss",
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/die-trefferanzahl-entscheidet-ebnoutalib-sticht-lidberg-knapp-aus-1181369/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-08T10:06:14.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/unruhiger-als-gedacht-die-sg-barockstadt-setzt-auf-die-herbst-euphorie-1181428/artikel#omrss",
-        "title": "Unruhiger als gedacht: Die SG Barockstadt setzt auf die Herbst-Euphorie",
-        "summary": "Die SG Barockstadt hatte sich im Sommer etwas mehr als ein Verweilen hauchzart über den Abstiegsplätzen versprochen. Doch vor der Winterpause kamen die Osthessen plötzlich in Schwung und wollen diesen nach 2026 transportieren. Dann soll sich auch die Hierarchie noch besser ausprägen.",
-        "paragraphs": [
-          "Die SG Barockstadt hatte sich im Sommer etwas mehr als ein Verweilen hauchzart über den Abstiegsplätzen versprochen. Doch vor der Winterpause kamen die Osthessen plötzlich in Schwung und wollen diesen nach 2026 transportieren. Dann soll sich auch die Hierarchie noch besser ausprägen."
-        ],
-        "link": "https://www.kicker.de/unruhiger-als-gedacht-die-sg-barockstadt-setzt-auf-die-herbst-euphorie-1181428/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-08T09:40:37.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bischof-szenario-verhindert-hoffenheim-verlaengert-mit-moerstedt-1181762/artikel#omrss",
-        "title": "Bischof-Szenario verhindert: Hoffenheim verlängert mit Moerstedt",
-        "summary": "Wie vom kicker angekündigt, hat die TSG Hoffenheim den noch bis 2027 laufenden Vertrag mit Eigengewächs Max Moerstedt langfristig verlängert. Auch andere Klubs waren interessiert.",
-        "paragraphs": [
-          "Wie vom kicker angekündigt, hat die TSG Hoffenheim den noch bis 2027 laufenden Vertrag mit Eigengewächs Max Moerstedt langfristig verlängert. Auch andere Klubs waren interessiert."
-        ],
-        "link": "https://www.kicker.de/bischof-szenario-verhindert-hoffenheim-verlaengert-mit-moerstedt-1181762/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-08T09:19:02.000Z"
       }
     ],
     "edv": [
@@ -713,17 +713,6 @@
         "publishedAt": "2026-01-08T11:29:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Kein-pauschales-Handyverbot-Sachsen-Anhalt-erarbeitet-Leitlinien-fuer-Schulen-11134056.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Kein pauschales Handyverbot: Sachsen-Anhalt erarbeitet Leitlinien für Schulen",
-        "summary": "Um die Nutzung privater Mobilgeräte in Schulen zu regeln, setzt Sachsen-Anhalt auf Leitlinien, die empfehlen, aber nicht flächendeckend verpflichten.",
-        "paragraphs": [
-          "Um die Nutzung privater Mobilgeräte in Schulen zu regeln, setzt Sachsen-Anhalt auf Leitlinien, die empfehlen, aber nicht flächendeckend verpflichten."
-        ],
-        "link": "https://www.heise.de/news/Kein-pauschales-Handyverbot-Sachsen-Anhalt-erarbeitet-Leitlinien-fuer-Schulen-11134056.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-08T11:27:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Debian-sucht-neue-Datenschuetzer-11134251.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Debian sucht neue Datenschützer",
         "summary": "Das Team an Freiwilligen, die sich um Datenschutzbelange gemäß DSGVO bei Debian gekümmert haben, ist zurückgetreten.",
@@ -731,6 +720,17 @@
           "Das Team an Freiwilligen, die sich um Datenschutzbelange gemäß DSGVO bei Debian gekümmert haben, ist zurückgetreten."
         ],
         "link": "https://www.heise.de/news/Debian-sucht-neue-Datenschuetzer-11134251.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-08T11:27:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Kein-pauschales-Handyverbot-Sachsen-Anhalt-erarbeitet-Leitlinien-fuer-Schulen-11134056.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Kein pauschales Handyverbot: Sachsen-Anhalt erarbeitet Leitlinien für Schulen",
+        "summary": "Um die Nutzung privater Mobilgeräte in Schulen zu regeln, setzt Sachsen-Anhalt auf Leitlinien, die empfehlen, aber nicht flächendeckend verpflichten.",
+        "paragraphs": [
+          "Um die Nutzung privater Mobilgeräte in Schulen zu regeln, setzt Sachsen-Anhalt auf Leitlinien, die empfehlen, aber nicht flächendeckend verpflichten."
+        ],
+        "link": "https://www.heise.de/news/Kein-pauschales-Handyverbot-Sachsen-Anhalt-erarbeitet-Leitlinien-fuer-Schulen-11134056.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-08T11:27:00.000Z"
       },
