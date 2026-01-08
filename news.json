@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-08T02:16:07.344Z",
+  "updatedAt": "2026-01-08T03:01:14.733Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/venezuela-venezuela-wird-laut-trump-mit-oeleinnahmen-nur-waren-aus-us-produktion-kaufen/100188261.html",
+        "title": "+++ Venezuela +++: Venezuela wird laut Trump mit Öleinnahmen nur Waren aus US-Produktion kaufen",
+        "summary": "US-Regierung hebt „selektiv“ Sanktionen gegen Venezuela auf +++ Venezuelas Staatsölkonzern verhandelt mit USA über Ölverkauf +++ Der Newsblog.",
+        "paragraphs": [
+          "US-Regierung hebt „selektiv“ Sanktionen gegen Venezuela auf +++ Venezuelas Staatsölkonzern verhandelt mit USA über Ölverkauf +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/venezuela-venezuela-wird-laut-trump-mit-oeleinnahmen-nur-waren-aus-us-produktion-kaufen/100188261.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-08T02:46:51.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/einwanderungspolitik-toedliche-schuesse-bei-ice-einsatz-in-minneapolis/100189501.html",
         "title": "Einwanderungspolitik: Tödliche Schüsse bei ICE-Einsatz in Minneapolis",
@@ -34,17 +45,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/brandanschlag-wegner-wegen-tennis-match-in-berliner-stromkrise-unter-druck/100189464.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-07T20:41:20.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-us-regierung-hebt-selektiv-sanktionen-gegen-venezuela-auf/100188261.html",
-        "title": "+++ Venezuela +++: US-Regierung hebt „selektiv“ Sanktionen gegen Venezuela auf",
-        "summary": "Venezuelas Staatsölkonzern verhandelt mit USA über Ölverkauf +++ US-Außenminister Rubio stellt Drei-Phasen-Plan für Venezuela vor +++ USA wollen Verkauf von Öl aus Venezuela langfristig steuern +++ Der Newsblog.",
-        "paragraphs": [
-          "Venezuelas Staatsölkonzern verhandelt mit USA über Ölverkauf +++ US-Außenminister Rubio stellt Drei-Phasen-Plan für Venezuela vor +++ USA wollen Verkauf von Öl aus Venezuela langfristig steuern +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-us-regierung-hebt-selektiv-sanktionen-gegen-venezuela-auf/100188261.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-07T20:35:12.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/handel-eu-kommission-kaempft-um-mercosur-abkommen/100189487.html",
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:b74cbbf0-0608-4708-ada8-883094035e52}",
+        "title": "Venezuela: Venezuelas Regierung meldet 100 Tote bei US-Angriff",
+        "summary": "Weitere hundert Menschen wurden nach Regierungsangaben bei dem Militärschlag gegen Machthaber Maduro verletzt. Die USA wollen Venezuelas Ölerlöse übernehmen. Das Liveblog",
+        "paragraphs": [
+          "Weitere hundert Menschen wurden nach Regierungsangaben bei dem Militärschlag gegen Machthaber Maduro verletzt. Die USA wollen Venezuelas Ölerlöse übernehmen. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-usa-angriff-nicolas-maduro-liveblog",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-08T02:57:44.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/venezuela-venezuela-wird-laut-trump-mit-oeleinnahmen-nur-waren-aus-us-produktion-kaufen/100188261.html",
+        "title": "+++ Venezuela +++: Venezuela wird laut Trump mit Öleinnahmen nur Waren aus US-Produktion kaufen",
+        "summary": "US-Regierung hebt „selektiv“ Sanktionen gegen Venezuela auf +++ Venezuelas Staatsölkonzern verhandelt mit USA über Ölverkauf +++ Der Newsblog.",
+        "paragraphs": [
+          "US-Regierung hebt „selektiv“ Sanktionen gegen Venezuela auf +++ Venezuelas Staatsölkonzern verhandelt mit USA über Ölverkauf +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/venezuela-venezuela-wird-laut-trump-mit-oeleinnahmen-nur-waren-aus-us-produktion-kaufen/100188261.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-08T02:46:51.000Z"
+      },
+      {
         "id": "{urn:uuid:7eecfbb7-3a5c-4e95-acc9-e6f8a877ce83}",
         "title": "US-Invasion in Venezuela: Venezuela soll laut Trump mit Öleinnahmen nur US-Produkte kaufen",
         "summary": "Die USA wollen Venezuela verpflichten, die Erlöse aus dem Verkauf seines Öls für den Kauf von US-Waren zu verwenden. Das Öl müsse \"Amerikas nationalem Interesse\" dienen.",
@@ -245,17 +267,6 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/trump-erhoehung-militaerausgaben-usa",
         "source": "ZEIT",
         "publishedAt": "2026-01-08T01:44:55.000Z"
-      },
-      {
-        "id": "{urn:uuid:b74cbbf0-0608-4708-ada8-883094035e52}",
-        "title": "Venezuela: USA beanspruchen Kontrolle über Venezuelas Geldströme",
-        "summary": "Venezuela dürfe Öl nur verkaufen, wenn es den Interessen der USA diene, sagt Vizepräsident JD Vance. So soll das Land ausschließlich US-Produkte importieren.",
-        "paragraphs": [
-          "Venezuela dürfe Öl nur verkaufen, wenn es den Interessen der USA diene, sagt Vizepräsident JD Vance. So soll das Land ausschließlich US-Produkte importieren."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-usa-angriff-nicolas-maduro-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-08T01:17:34.000Z"
       },
       {
         "id": "{urn:uuid:c8bada10-ecc5-47b3-a87d-282ffc22dd1f}",
@@ -333,17 +344,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/brandanschlag-wegner-wegen-tennis-match-in-berliner-stromkrise-unter-druck/100189464.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-07T20:41:20.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/venezuela-us-regierung-hebt-selektiv-sanktionen-gegen-venezuela-auf/100188261.html",
-        "title": "+++ Venezuela +++: US-Regierung hebt „selektiv“ Sanktionen gegen Venezuela auf",
-        "summary": "Venezuelas Staatsölkonzern verhandelt mit USA über Ölverkauf +++ US-Außenminister Rubio stellt Drei-Phasen-Plan für Venezuela vor +++ USA wollen Verkauf von Öl aus Venezuela langfristig steuern +++ Der Newsblog.",
-        "paragraphs": [
-          "Venezuelas Staatsölkonzern verhandelt mit USA über Ölverkauf +++ US-Außenminister Rubio stellt Drei-Phasen-Plan für Venezuela vor +++ USA wollen Verkauf von Öl aus Venezuela langfristig steuern +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/venezuela-us-regierung-hebt-selektiv-sanktionen-gegen-venezuela-auf/100188261.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-07T20:35:12.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/handel-eu-kommission-kaempft-um-mercosur-abkommen/100189487.html",
