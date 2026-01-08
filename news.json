@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-08T03:44:35.267Z",
+  "updatedAt": "2026-01-08T04:09:29.169Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,28 @@
     ],
     "politik": [
       {
+        "id": "{urn:uuid:b8abdf72-272c-4a2e-ad60-3f1b27923d2e}",
+        "title": "Der US-Überblick am Morgen: Proteste in Minneapolis, Trump will Militärausgaben deutlich erhöhen",
+        "summary": "In Minneapolis gedenken Tausende der von einem ICE-Beamten getöteten Frau. Der US-Präsident plant mit 1,5 Billionen US-Dollar seine \"Traumarmee\". Der Überblick am Morgen",
+        "paragraphs": [
+          "In Minneapolis gedenken Tausende der von einem ICE-Beamten getöteten Frau. Der US-Präsident plant mit 1,5 Billionen US-Dollar seine \"Traumarmee\". Der Überblick am Morgen"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/usa-trump-militaerausgaben-protest-minneapolis",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-08T04:03:15.000Z"
+      },
+      {
+        "id": "{urn:uuid:61c00229-1d4e-426c-9fcd-76e82a3ac436}",
+        "title": "US-Angriff auf Venezuela: Venezuelas Regierung meldet 100 Tote, USA erheben Anspruch auf Ölgeld",
+        "summary": "Bei der Verschleppung von Nicolás Maduro sollen 100 Menschen gestorben sein. Die USA verpflichten Venezuela, mit Ölerlösen US-Waren zu kaufen. Das war die Nacht",
+        "paragraphs": [
+          "Bei der Verschleppung von Nicolás Maduro sollen 100 Menschen gestorben sein. Die USA verpflichten Venezuela, mit Ölerlösen US-Waren zu kaufen. Das war die Nacht"
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-ueberblick-tote-trump-petro",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-08T04:00:31.000Z"
+      },
+      {
         "id": "{urn:uuid:7eecfbb7-3a5c-4e95-acc9-e6f8a877ce83}",
         "title": "US-Intervention in Venezuela: Venezuela soll laut Trump mit Öleinnahmen nur US-Produkte kaufen",
         "summary": "Die USA wollen Venezuela verpflichten, die Erlöse aus dem Verkauf seines Öls für den Kauf von US-Waren zu verwenden. Das Öl müsse \"Amerikas nationalem Interesse\" dienen.",
@@ -421,28 +443,6 @@
         "link": "https://www.handelsblatt.com/politik/international/usa-new-yorks-neuer-buergermeister-will-seine-prinzipien-nicht-aufgeben/29669594.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-07T19:42:41.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/friedrich-merz-den-kanzler-entfuehren-nicht-so-einfach-wie-medwedew-meint-a-e068ea90-126e-48d5-b354-8e634e03c7f3",
-        "title": "Friedrich Merz: Den Kanzler entführen? Nicht so einfach, wie Medwedew meint!",
-        "summary": "Russlands Ex-Präsident Dmitrij Medwedew beschimpft Friedrich Merz als »Neonazi« und fantasiert von dessen Entführung. Eine leichte Operation wäre das nicht: Der Bundeskanzler ist der am besten geschützte Deutsche.",
-        "paragraphs": [
-          "Russlands Ex-Präsident Dmitrij Medwedew beschimpft Friedrich Merz als »Neonazi« und fantasiert von dessen Entführung. Eine leichte Operation wäre das nicht: Der Bundeskanzler ist der am besten geschützte Deutsche."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-den-kanzler-entfuehren-nicht-so-einfach-wie-medwedew-meint-a-e068ea90-126e-48d5-b354-8e634e03c7f3#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-07T19:35:00.000Z"
-      },
-      {
-        "id": "li.3364517",
-        "title": "Brandenburg: Er macht weiter, trotz Morddrohung",
-        "summary": "Erst brennt beinahe sein Haus ab, dann erhält Andreas Büttner einen üblen Brief. Warum der brandenburgische Antisemitismusbeauftragte trotzdem nicht aufgeben will.",
-        "paragraphs": [
-          "Erst brennt beinahe sein Haus ab, dann erhält Andreas Büttner einen üblen Brief. Warum der brandenburgische Antisemitismusbeauftragte trotzdem nicht aufgeben will."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/brandanschlag-morddrohung-buettner-antisemitismusbeauftragter-li.3364517",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-07T19:18:54.000Z"
       }
     ],
     "sport": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Siemens-und-Nvidia-wollen-industrielle-Revolution-mit-KI-beschleunigen-11133679.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: Siemens und Nvidia wollen industrielle Revolution mit KI beschleunigen",
+        "summary": "Virtuelle Fabriken bauen, Roboter trainieren, Probleme vor Auftreten lösen - was Siemens und Nvidia jetzt mit KI-Anwendungen industriell möglich machen wollen.",
+        "paragraphs": [
+          "Virtuelle Fabriken bauen, Roboter trainieren, Probleme vor Auftreten lösen - was Siemens und Nvidia jetzt mit KI-Anwendungen industriell möglich machen wollen."
+        ],
+        "link": "https://www.heise.de/news/Siemens-und-Nvidia-wollen-industrielle-Revolution-mit-KI-beschleunigen-11133679.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-08T04:02:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Warner-Bros-Discovery-raet-weiter-von-Verkauf-an-Paramount-ab-11133665.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Paramount kann Warner Bros Discovery nicht überzeugen",
         "summary": "Netflix will Warner Bros übernehmen, Paramount zusätzlich Discovery. Doch das größere Angebot hat zu viele Schwächen, meint der Verwaltungsrat.",
@@ -823,17 +834,6 @@
         "publishedAt": "2026-01-07T14:49:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Softwaregesperrte Werkzeug-Akkus reparieren",
-        "summary": "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott.",
-        "paragraphs": [
-          "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott."
-        ],
-        "link": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-07T14:41:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Fender-Bluetooth-Lautsprecher-und-Kopfhoerer-fuer-Musiker-11128411.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "CES: Fender: Bluetooth-Lautsprecher und modulare Kopfhörer",
         "summary": "Fender hat tragbare Bluetooth-Lautsprecher mit XLR-Kombi-Eingang für Instrumente und Mikrofone sowie Funkkopfhörer mit austauschbaren Komponenten vorgestellt.",
@@ -841,6 +841,17 @@
           "Fender hat tragbare Bluetooth-Lautsprecher mit XLR-Kombi-Eingang für Instrumente und Mikrofone sowie Funkkopfhörer mit austauschbaren Komponenten vorgestellt."
         ],
         "link": "https://www.heise.de/news/Fender-Bluetooth-Lautsprecher-und-Kopfhoerer-fuer-Musiker-11128411.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-07T14:41:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Softwaregesperrte Werkzeug-Akkus reparieren",
+        "summary": "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott.",
+        "paragraphs": [
+          "Mit Know-how können Maker defekte Akkus wieder zum Leben erwecken. Übereifrige BMS setzen Software-Sperren und verwandeln Akkus zu Elektroschrott."
+        ],
+        "link": "https://www.heise.de/news/Softwaregesperrte-Werkzeug-Akkus-reparieren-11133115.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-07T14:41:00.000Z"
       },
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/AMD-zeigt-riesige-Chipkonstrukte-Epyc-Venice-und-Instinct-MI455X-11133033.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-07T14:08:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/KI-Update-kompakt-Milliarden-fuer-xAI-CES-2026-Boston-Dynamics-ChatGPT-11132771.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Update kompakt: Milliarden für xAI, CES 2026, Boston Dynamics, ChatGPT",
-        "summary": "Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
-        "paragraphs": [
-          "Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen."
-        ],
-        "link": "https://www.heise.de/news/KI-Update-kompakt-Milliarden-fuer-xAI-CES-2026-Boston-Dynamics-ChatGPT-11132771.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-07T14:00:00.000Z"
       }
     ]
   }
