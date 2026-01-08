@@ -1,13 +1,24 @@
 {
-  "updatedAt": "2026-01-08T09:58:18.789Z",
+  "updatedAt": "2026-01-08T10:11:23.767Z",
   "categories": {
     "wirtschaft": [
       {
+        "id": "https://www.handelsblatt.com/finanzen/in-eigener-sache-mehr-aus-ihrem-geld-machen-mit-dem-handelsblatt-moneymaker/100189406.html",
+        "title": "In eigener Sache: Mehr aus Ihrem Geld machen – direkt auf Ihrem Smartphone",
+        "summary": "Zukünftig bekommen Sie das Wichtigste aus der Finanzwelt zweimal die Woche per WhatsApp auf Ihr Handy. So melden Sie sich an.",
+        "paragraphs": [
+          "Zukünftig bekommen Sie das Wichtigste aus der Finanzwelt zweimal die Woche per WhatsApp auf Ihr Handy. So melden Sie sich an."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/in-eigener-sache-mehr-aus-ihrem-geld-machen-mit-dem-handelsblatt-moneymaker/100189406.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-08T10:02:10.000Z"
+      },
+      {
         "id": "{urn:uuid:f1b80d45-44d7-423a-8d59-b3d3c31c8150}",
         "title": "Konjunktur: Auftragseingang in deutscher Industrie steigt überraschend deutlich",
-        "summary": "Für Ökonomen überraschend, gibt es positive Signale in der deutschen Wirtschaft. Bei der Industrie gingen im November einen deutlich mehr Aufträge ein als erwartet.",
+        "summary": "Für Ökonomen überraschend, gibt es positive Signale in der deutschen Wirtschaft. Bei der Industrie gingen im November deutlich mehr Aufträge ein als erwartet.",
         "paragraphs": [
-          "Für Ökonomen überraschend, gibt es positive Signale in der deutschen Wirtschaft. Bei der Industrie gingen im November einen deutlich mehr Aufträge ein als erwartet."
+          "Für Ökonomen überraschend, gibt es positive Signale in der deutschen Wirtschaft. Bei der Industrie gingen im November deutlich mehr Aufträge ein als erwartet."
         ],
         "link": "https://www.zeit.de/wirtschaft/unternehmen/2026-01/auftragseingang-industrie-november-zunahme",
         "source": "ZEIT",
@@ -125,7 +136,7 @@
       },
       {
         "id": "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-industrie-sendet-hoffnungszeichen-a-d095c6cc-9414-46a0-810f-941c87008bbd",
-        "title": "Deutsche Industrie sendet Hoffnungszeichen",
+        "title": "Deutschland: Industrie sendet Hoffnungszeichen",
         "summary": "Kommen deutsche Industrieunternehmen aus ihrer Krise? Im November wuchsen die Bestellungen so stark wie zuletzt vor fast einem Jahr. Das liegt auch an der Aufrüstung.",
         "paragraphs": [
           "Kommen deutsche Industrieunternehmen aus ihrer Krise? Im November wuchsen die Bestellungen so stark wie zuletzt vor fast einem Jahr. Das liegt auch an der Aufrüstung."
@@ -210,20 +221,20 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/deutschland-d-mark-euro-wechseln-gruende-li.3364917",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-08T07:32:39.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/konsumgueter-henkel-will-us-haarpflegespezialisten-olaplex-uebernehmen/100189607.html",
-        "title": "Konsumgüter: Henkel will US-Haarpflegespezialisten Olaplex übernehmen",
-        "summary": "Der deutsche Konsumgüterriese will offenbar in den USA expandieren. In den kommenden Wochen soll Henkel laut einem Bericht ein Übernahmeangebot für einen Konkurrenten vorlegen.",
-        "paragraphs": [
-          "Der deutsche Konsumgüterriese will offenbar in den USA expandieren. In den kommenden Wochen soll Henkel laut einem Bericht ein Übernahmeangebot für einen Konkurrenten vorlegen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/konsumgueter-henkel-will-us-haarpflegespezialisten-olaplex-uebernehmen/100189607.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-08T07:21:58.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/bundeswehr-pistorius-hofft-auf-20-000-freiwillige-in-diesem-jahr-a-486342a4-2500-434b-8d16-a496c093684a",
+        "title": "Bundeswehr: Pistorius hofft auf 20.000 Freiwillige in diesem Jahr",
+        "summary": "»Sinnstiftend« soll er sein und »attraktiv«: Verteidigungsminister Boris Pistorius setzt sich für den neuen Wehrdienst ambitionierte Ziele. Sollte er die nicht erreichen, droht die Rückkehr zur Wehrpflicht.",
+        "paragraphs": [
+          "»Sinnstiftend« soll er sein und »attraktiv«: Verteidigungsminister Boris Pistorius setzt sich für den neuen Wehrdienst ambitionierte Ziele. Sollte er die nicht erreichen, droht die Rückkehr zur Wehrpflicht."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/bundeswehr-pistorius-hofft-auf-20-000-freiwillige-in-diesem-jahr-a-486342a4-2500-434b-8d16-a496c093684a#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-08T09:59:00.000Z"
+      },
       {
         "id": "{urn:uuid:606b55dd-f12f-4dab-8917-4193d912e38d}",
         "title": "Regierungskrise in Brandenburg: Verbliebene BSW-Minister in Brandenburg treten aus Partei aus",
@@ -237,7 +248,7 @@
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/militaerhistoriker-soenke-neitzel-spricht-ueber-eliteeinheiten-a-2210f291-ca8c-4c28-9b79-80955b2c70ec",
-        "title": "Militärhistoriker Sönke Neitzel spricht über Eliteeinheiten",
+        "title": "Skandal bei Fallschirmjägern: »Diese Truppengattung zieht einen besonderen Schlag Mensch an«",
         "summary": "Sexismus, Mobbing, Nazitümelei: Der Skandal bei den Fallschirmjägern erschüttert die Bundeswehr. Der Militärhistoriker Sönke Neitzel gibt einen Einblick in die Kultur und die Rituale der Eliteeinheiten.",
         "paragraphs": [
           "Sexismus, Mobbing, Nazitümelei: Der Skandal bei den Fallschirmjägern erschüttert die Bundeswehr. Der Militärhistoriker Sönke Neitzel gibt einen Einblick in die Kultur und die Rituale der Eliteeinheiten."
@@ -247,17 +258,6 @@
         "publishedAt": "2026-01-08T09:35:00.000Z"
       },
       {
-        "id": "https://www.spiegel.de/politik/deutschland/skandal-bei-der-bundeswehr-wie-fuehlt-es-sich-eigentlich-an-zu-wissen-dass-dich-jeder-hier-vergewaltigen-koennte-a-1e7d5161-0ed6-4179-861e-34ef5a55be12",
-        "title": "Skandal bei der Bundeswehr: »Wie fühlt es sich eigentlich an zu wissen, dass dich jeder hier vergewaltigen könnte?«",
-        "summary": "Bei den Fallschirmjägern in Zweibrücken konnten Frauenhass und Nazitümelei gedeihen, zeigen SPIEGEL-Recherchen. Viele Vorwürfe waren seit mehr als einem Jahr bekannt. Hat Minister Pistorius zu lange weggeschaut?",
-        "paragraphs": [
-          "Bei den Fallschirmjägern in Zweibrücken konnten Frauenhass und Nazitümelei gedeihen, zeigen SPIEGEL-Recherchen. Viele Vorwürfe waren seit mehr als einem Jahr bekannt. Hat Minister Pistorius zu lange weggeschaut?"
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/skandal-bei-der-bundeswehr-wie-fuehlt-es-sich-eigentlich-an-zu-wissen-dass-dich-jeder-hier-vergewaltigen-koennte-a-1e7d5161-0ed6-4179-861e-34ef5a55be12#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-08T09:33:00.000Z"
-      },
-      {
         "id": "https://www.spiegel.de/politik/deutschland/brandenburg-zwei-verbliebene-bsw-minister-verlassen-ebenfalls-partei-a-29fb2b89-3bc3-481a-a347-a11accc1aa6d",
         "title": "Brandenburg: Zwei verbliebene BSW-Minister verlassen ebenfalls Partei",
         "summary": "Drei BSW-Politiker sind weg, nun folgen zwei weitere: Die Wagenknecht-Partei hat damit in Brandenburg keine Regierungsvertreter mehr. SPD-Ministerpräsident Woidke hatte bereits zuvor die Koalition aufgekündigt.",
@@ -265,6 +265,17 @@
           "Drei BSW-Politiker sind weg, nun folgen zwei weitere: Die Wagenknecht-Partei hat damit in Brandenburg keine Regierungsvertreter mehr. SPD-Ministerpräsident Woidke hatte bereits zuvor die Koalition aufgekündigt."
         ],
         "link": "https://www.spiegel.de/politik/deutschland/brandenburg-zwei-verbliebene-bsw-minister-verlassen-ebenfalls-partei-a-29fb2b89-3bc3-481a-a347-a11accc1aa6d#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-08T09:33:00.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/skandal-bei-der-bundeswehr-wie-fuehlt-es-sich-eigentlich-an-zu-wissen-dass-dich-jeder-hier-vergewaltigen-koennte-a-1e7d5161-0ed6-4179-861e-34ef5a55be12",
+        "title": "Skandal bei der Bundeswehr: »Wie fühlt es sich eigentlich an zu wissen, dass dich jeder hier vergewaltigen könnte?«",
+        "summary": "Bei den Fallschirmjägern in Zweibrücken konnten Frauenhass und Nazitümelei gedeihen, zeigen SPIEGEL-Recherchen. Viele Vorwürfe waren seit mehr als einem Jahr bekannt. Hat Minister Pistorius zu lange weggeschaut?",
+        "paragraphs": [
+          "Bei den Fallschirmjägern in Zweibrücken konnten Frauenhass und Nazitümelei gedeihen, zeigen SPIEGEL-Recherchen. Viele Vorwürfe waren seit mehr als einem Jahr bekannt. Hat Minister Pistorius zu lange weggeschaut?"
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/skandal-bei-der-bundeswehr-wie-fuehlt-es-sich-eigentlich-an-zu-wissen-dass-dich-jeder-hier-vergewaltigen-koennte-a-1e7d5161-0ed6-4179-861e-34ef5a55be12#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-08T09:33:00.000Z"
       },
@@ -369,7 +380,7 @@
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/spd-fraktionsklausur-abgeordnete-fordern-bleiberecht-fuer-fluechtlinge-mit-job-a-cb6c6d35-20ae-45b7-bead-0ad71b2966a8",
-        "title": "SPD-Fraktionsklausur: Abgeordnete fordern Bleiberecht für Geflüchtete mit Job",
+        "title": "SPD: Abgeordnete fordern Bleiberecht für Geflüchtete mit Job",
         "summary": "Die SPD geht auf Distanz zur CSU: Ihre Abgeordneten wollen Einwanderer mit Beruf nicht mehr abschieben. Außerdem auf der Liste, die dem SPIEGEL vorliegt: höhere Steuern für Millionenerben und ein Straftatbestand Femizid.",
         "paragraphs": [
           "Die SPD geht auf Distanz zur CSU: Ihre Abgeordneten wollen Einwanderer mit Beruf nicht mehr abschieben. Außerdem auf der Liste, die dem SPIEGEL vorliegt: höhere Steuern für Millionenerben und ein Straftatbestand Femizid."
@@ -432,17 +443,6 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/internationale-zusammenarbeit-usa-un-rueckzug-gxe",
         "source": "ZEIT",
         "publishedAt": "2026-01-08T06:58:18.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/ausreise-mehr-als-30000-ausreisen-mit-grenzuebertrittsbescheinigung/100189598.html",
-        "title": "Ausreise: Mehr als 30.000 Ausreisen mit Grenzübertrittsbescheinigung",
-        "summary": "Die Bundesregierung meldet stabile Zahlen bei freiwilligen Ausreisen. Aus Sicht der Linken ist das ein Grund mehr, nicht ständig über Abschiebungen zu sprechen.",
-        "paragraphs": [
-          "Die Bundesregierung meldet stabile Zahlen bei freiwilligen Ausreisen. Aus Sicht der Linken ist das ein Grund mehr, nicht ständig über Abschiebungen zu sprechen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/ausreise-mehr-als-30000-ausreisen-mit-grenzuebertrittsbescheinigung/100189598.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-08T06:57:20.000Z"
       }
     ],
     "sport": [
@@ -502,8 +502,19 @@
         "publishedAt": "2026-01-08T09:03:59.000Z"
       },
       {
+        "id": "https://www.kicker.de/flick-klaert-bei-lamine-yamal-auf-hat-nichts-mit-einer-verletzung-zu-tun-1181761/video#omrss",
+        "title": "Flick klärt bei Lamine Yamal auf: \"Hat nichts mit einer Verletzung zu tun\"",
+        "summary": "Nach dem 5:0-Erfolg gegen Athletic Bilbao erklärt Barca-Trainer Hansi Flick, warum Lamine Yamal nicht in der Startelf war. Der 18-Jährige litt nur an Magenschmerzen.",
+        "paragraphs": [
+          "Nach dem 5:0-Erfolg gegen Athletic Bilbao erklärt Barca-Trainer Hansi Flick, warum Lamine Yamal nicht in der Startelf war. Der 18-Jährige litt nur an Magenschmerzen."
+        ],
+        "link": "https://www.kicker.de/flick-klaert-bei-lamine-yamal-auf-hat-nichts-mit-einer-verletzung-zu-tun-1181761/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-08T09:02:16.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/sport/fussball/lionel-messi-will-nach-seinem-karriereende-kein-trainer-werden-sondern-klubbesitzer-a-e25862ca-00b3-476a-b68e-ce095ecb2332",
-        "title": "Lionel Messi will nach seinem Karriereende kein Trainer werden – sondern Klubbesitzer",
+        "title": "MLS: Lionel Messi will nach seinem Karriereende Klubbesitzer werden",
         "summary": "Schlechte Nachrichten für Fußballfans: Lionel Messi kann nicht ewig weiterspielen. Was der 38-Jährige nach seiner aktiven Zeit machen würde, war bislang ein Rätsel. Nun hat der Argentinier darüber gesprochen.",
         "paragraphs": [
           "Schlechte Nachrichten für Fußballfans: Lionel Messi kann nicht ewig weiterspielen. Was der 38-Jährige nach seiner aktiven Zeit machen würde, war bislang ein Rätsel. Nun hat der Argentinier darüber gesprochen."
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/parma-gegen-inter-2026-serie-a-5042223/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-07T22:05:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/london-lions-gegen-chemnitz-2026-eurocup-5060363/spielbericht#omrss",
-        "title": "Revanche geglückt: Niners Chemnitz bauen Erfolgsserie in London aus",
-        "summary": "Die Chemnitzer Bundesliga-Basketballer feiern im Eurocup einen wichtigen Sieg beim Verfolger London Lions. Eine starke Defensivleistung nach der Pause gibt den Ausschlag.",
-        "paragraphs": [
-          "Die Chemnitzer Bundesliga-Basketballer feiern im Eurocup einen wichtigen Sieg beim Verfolger London Lions. Eine starke Defensivleistung nach der Pause gibt den Ausschlag."
-        ],
-        "link": "https://www.kicker.de/london-lions-gegen-chemnitz-2026-eurocup-5060363/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-07T21:42:58.000Z"
       }
     ],
     "edv": [
