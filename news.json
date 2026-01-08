@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-08T16:51:24.493Z",
+  "updatedAt": "2026-01-08T17:09:01.346Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/eric-trump-im-interview-mein-vater-ist-der-groesste-kriegsgegner/100189313.html",
+        "title": "Interview: Eric Trump: „Mein Vater ist der größte Kriegsgegner“",
+        "summary": "Der Sohn des US-Präsidenten verteidigt im Handelsblatt-Gespräch die Intervention in Venezuela und die Drohungen gegen Grönland – und hat klare Empfehlungen, wie man mit Donald Trump umgehen sollte.",
+        "paragraphs": [
+          "Der Sohn des US-Präsidenten verteidigt im Handelsblatt-Gespräch die Intervention in Venezuela und die Drohungen gegen Grönland – und hat klare Empfehlungen, wie man mit Donald Trump umgehen sollte."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/eric-trump-im-interview-mein-vater-ist-der-groesste-kriegsgegner/100189313.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-08T16:55:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-qualcomm-wird-primaerer-chiplieferant-von-vw/100189663.html",
         "title": "Autobauer: Qualcomm wird zum bevorzugten Chiplieferanten von VW",
@@ -210,20 +221,75 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/manager-zahl-arbeitsloser-fuehrungskraefte-erreicht-hoechststand/100189439.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-08T14:40:18.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/mittelstand/vermoegensverwalter-die-stiftung-an-sich-ist-eigentlich-ein-geniales-prinzip/100115336.html",
-        "title": "Reichtum: „Millionäre in Deutschland haben 60 Mal mehr Vermögen als Milliardäre“",
-        "summary": "Der langjährige Stiftungsfunktionär Felix Oldenburg hat mit Vermögenden gesprochen. Hier erklärt er, was Milliardäre antreibt – und wie Vermögensverwalter ihnen Steuersparmodelle bauen.",
-        "paragraphs": [
-          "Der langjährige Stiftungsfunktionär Felix Oldenburg hat mit Vermögenden gesprochen. Hier erklärt er, was Milliardäre antreibt – und wie Vermögensverwalter ihnen Steuersparmodelle bauen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/vermoegensverwalter-die-stiftung-an-sich-ist-eigentlich-ein-geniales-prinzip/100115336.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-08T14:36:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:eb3854c6-5ed2-4fe8-a9cc-374c7dcfef59}",
+        "title": "Laurent Vinatier und : Russland und Frankreich tauschen Gefangene aus",
+        "summary": "Die Regierungen Russlands und Frankreichs haben sich auf den Austausch zweier Gefangener geeinigt. Der Politologe Laurent Vinatier kehrte nach Frankreich zurück.",
+        "paragraphs": [
+          "Die Regierungen Russlands und Frankreichs haben sich auf den Austausch zweier Gefangener geeinigt. Der Politologe Laurent Vinatier kehrte nach Frankreich zurück."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/russland-frankreich-gefangene-austausch-laurent-vinatier-daniil-kassatkin",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-08T16:58:01.000Z"
+      },
+      {
+        "id": "{urn:uuid:450c4700-8d9c-4ede-b4b8-1a3153fbdeb9}",
+        "title": "Müll: Forschende finden mehr Abfall im Rhein als bisher bekannt",
+        "summary": "Mit einer Müllfalle messen Forschende die Abfallmenge in Deutschlands größtem Fluss. Im Vergleich zu früheren Schätzungen verzeichnen sie einen großen Anstieg.",
+        "paragraphs": [
+          "Mit einer Müllfalle messen Forschende die Abfallmenge in Deutschlands größtem Fluss. Im Vergleich zu früheren Schätzungen verzeichnen sie einen großen Anstieg."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2026-01/rhein-muell-studie",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-08T16:57:45.000Z"
+      },
+      {
+        "id": "{urn:uuid:aa2b35cb-8672-4eee-be9b-1dc6f314b6bf}",
+        "title": "Proteste im Iran: Die Angst des Ali Chamenei",
+        "summary": "Das iranische Regime hat mit Nicolás Maduro einen wichtigen Verbündeten verloren. Proteste gegen das Regime breiten sich aus, die iranische Führung wirkt eingekeilt.",
+        "paragraphs": [
+          "Das iranische Regime hat mit Nicolás Maduro einen wichtigen Verbündeten verloren. Proteste gegen das Regime breiten sich aus, die iranische Führung wirkt eingekeilt."
+        ],
+        "link": "https://www.zeit.de/2026/02/iran-proteste-ali-chamenei-usa",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-08T16:57:33.000Z"
+      },
+      {
+        "id": "{urn:uuid:8cff2f1b-5e04-4123-a2dc-e6e8c161740d}",
+        "title": "Iran: Exil-Opposition ruft zu Generalstreik im Iran auf",
+        "summary": "Die Protestwelle im Iran hält an: Viele sind offenbar einem Aufruf zum Generalstreik der Exil-Opposition nachgekommen. Das Internet wurde teilweise eingeschränkt.",
+        "paragraphs": [
+          "Die Protestwelle im Iran hält an: Viele sind offenbar einem Aufruf zum Generalstreik der Exil-Opposition nachgekommen. Das Internet wurde teilweise eingeschränkt."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/iran-proteste-exil-opposition",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-08T16:55:10.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/eric-trump-im-interview-mein-vater-ist-der-groesste-kriegsgegner/100189313.html",
+        "title": "Interview: Eric Trump: „Mein Vater ist der größte Kriegsgegner“",
+        "summary": "Der Sohn des US-Präsidenten verteidigt im Handelsblatt-Gespräch die Intervention in Venezuela und die Drohungen gegen Grönland – und hat klare Empfehlungen, wie man mit Donald Trump umgehen sollte.",
+        "paragraphs": [
+          "Der Sohn des US-Präsidenten verteidigt im Handelsblatt-Gespräch die Intervention in Venezuela und die Drohungen gegen Grönland – und hat klare Empfehlungen, wie man mit Donald Trump umgehen sollte."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/eric-trump-im-interview-mein-vater-ist-der-groesste-kriegsgegner/100189313.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-08T16:55:00.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/csu-klausurtagung-in-seeon-ohne-die-csu-laeuft-nichts-in-der-koalition-glaubt-die-csu-a-1e12bee5-3ea7-48a0-8941-fa5ea816530a",
+        "title": "CSU-Klausurtagung in Seeon: Ohne die CSU läuft nichts in der Koalition – glaubt die CSU",
+        "summary": "Markus Söder und seine CSU sehen sich als Stabilitätsanker der schwarz-roten Regierung – und genießen diese Rolle von Woche zu Woche mehr. Doch der Zustand dürfte nicht ewig anhalten.",
+        "paragraphs": [
+          "Markus Söder und seine CSU sehen sich als Stabilitätsanker der schwarz-roten Regierung – und genießen diese Rolle von Woche zu Woche mehr. Doch der Zustand dürfte nicht ewig anhalten."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/csu-klausurtagung-in-seeon-ohne-die-csu-laeuft-nichts-in-der-koalition-glaubt-die-csu-a-1e12bee5-3ea7-48a0-8941-fa5ea816530a#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-08T16:54:00.000Z"
+      },
       {
         "id": "https://www.spiegel.de/politik/deutschland/news-des-tages-wintersturm-ueber-deutschland-skandal-bei-der-bundeswehr-jojo-effekt-bei-abnehmspritzen-a-b4c6076e-aa04-4868-add0-fc3f7416a5f3",
         "title": "News des Tages: Wintersturm über Deutschland, Skandal bei der Bundeswehr, Jojo-Effekt bei Abnehmspritzen",
@@ -375,71 +441,53 @@
         "link": "https://www.handelsblatt.com/politik/international/venezuela-trumps-griff-nach-maduros-oel-und-was-er-bedeutet/100189339.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-08T15:32:20.000Z"
-      },
-      {
-        "id": "li.3364966",
-        "title": "Internationale Organisationen: Was der Ausstieg der USA aus wichtigen Abkommen bedeutet",
-        "summary": "Per Dekret ordnet US-Präsident Trump den Ausstieg aus 66 internationalen Abkommen an. Mit gravierenden Folgen: Der Abschied betrifft auch Weltklimarat und Klima-Konvention.",
-        "paragraphs": [
-          "Per Dekret ordnet US-Präsident Trump den Ausstieg aus 66 internationalen Abkommen an. Mit gravierenden Folgen: Der Abschied betrifft auch Weltklimarat und Klima-Konvention."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-trump-internationale-abkommen-li.3364966",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-08T15:25:03.000Z"
-      },
-      {
-        "id": "li.3365328",
-        "title": "Reformkonzept: SPD möchte Erbschaftssteuer reformieren",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/reformkonzept-spd-moechte-erbschaftssteuer-reformieren-li.3365328",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-08T15:23:35.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/berlin-kai-wegner-verteidigt-tennismatch-waehrend-stromausfall-a-dfbc22be-77db-40bd-a2cc-6a03db4de880",
-        "title": "Berlin: Kai Wegner verteidigt Tennismatch während Stromausfall",
-        "summary": "Während 100.000 Berliner ohne Strom ausharrten, spielte ihr Bürgermeister Tennis. Kai Wegner sieht darin kein Problem. Zum Krisenmanagement sagt er: »Wir haben das gut hinbekommen.«",
-        "paragraphs": [
-          "Während 100.000 Berliner ohne Strom ausharrten, spielte ihr Bürgermeister Tennis. Kai Wegner sieht darin kein Problem. Zum Krisenmanagement sagt er: »Wir haben das gut hinbekommen.«"
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/berlin-kai-wegner-verteidigt-tennismatch-waehrend-stromausfall-a-dfbc22be-77db-40bd-a2cc-6a03db4de880#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-08T15:18:00.000Z"
-      },
-      {
-        "id": "li.3365291",
-        "title": "Brandenburg: Minister verlassen BSW",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/brandenburg-minister-verlassen-bsw-li.3365291",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-08T15:17:44.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/winterwetter-vw-stoppt-wegen-sturmtief-elli-am-freitag-produktion-in-emden/100189738.html",
-        "title": "Wintersturmtief „Elli“: VW stoppt am Freitag Produktion in Emden –  Meteorologen erwarten „extreme Lage“",
-        "summary": "Der erwartete Wintersturm hat Folgen für Volkswagen. Auch Airports, Bahn und Fährgesellschaften bereiten sich vor. Schulen bleiben geschlossen – und die CDU sagt ihre Klausurtagung ab.",
-        "paragraphs": [
-          "Der erwartete Wintersturm hat Folgen für Volkswagen. Auch Airports, Bahn und Fährgesellschaften bereiten sich vor. Schulen bleiben geschlossen – und die CDU sagt ihre Klausurtagung ab."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/winterwetter-vw-stoppt-wegen-sturmtief-elli-am-freitag-produktion-in-emden/100189738.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-08T15:16:38.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/lohnstreit-erste-tarifrunde-bei-der-bahn-ohne-ergebnis/100189766.html",
-        "title": "Lohnstreit: Erste Tarifrunde bei der Bahn ohne Ergebnis",
-        "summary": "Bei der Bahn haben die Tarifverhandlungen mit der GDL begonnen. Ein Ergebnis gab es beim ersten Treffen in Berlin nicht. Noch haben beide Seiten Zeit, ohne Streik einen Kompromiss zu finden.",
-        "paragraphs": [
-          "Bei der Bahn haben die Tarifverhandlungen mit der GDL begonnen. Ein Ergebnis gab es beim ersten Treffen in Berlin nicht. Noch haben beide Seiten Zeit, ohne Streik einen Kompromiss zu finden."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/lohnstreit-erste-tarifrunde-bei-der-bahn-ohne-ergebnis/100189766.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-08T15:16:26.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/hertha-gersbeck-vertrag-hat-sich-verlaengert-1181960/artikel#omrss",
+        "title": "Hertha: Gersbeck-Vertrag hat sich verlängert",
+        "summary": "Bei Hertha BSC gibt es eine Reihe auslaufender Arbeitspapiere. Das von Marius Gersbeck hat sich nach kicker-Informationen durch eine Vertragsklausel inzwischen verlängert.",
+        "paragraphs": [
+          "Bei Hertha BSC gibt es eine Reihe auslaufender Arbeitspapiere. Das von Marius Gersbeck hat sich nach kicker-Informationen durch eine Vertragsklausel inzwischen verlängert."
+        ],
+        "link": "https://www.kicker.de/hertha-gersbeck-vertrag-hat-sich-verlaengert-1181960/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-08T17:03:19.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/muenster-gegen-leuven-2026-vereine-freundschaftsspiele-5186706/spielbericht#omrss",
+        "title": "Runder Abschluss in Murcia: Münster schlägt OHL in Unterzahl",
+        "summary": "Bevor Zweitligist Preußen Münster am Freitag nach dem Trainingslager wieder in die westfälische Heimat aufbricht, stand noch der Test gegen den belgischen Erstligisten Oud-Heverlee Leuven an. Dort überzeugte das Team vor allem im ersten Durchgang und sorgte für einen erfolgreichen Abschluss.",
+        "paragraphs": [
+          "Bevor Zweitligist Preußen Münster am Freitag nach dem Trainingslager wieder in die westfälische Heimat aufbricht, stand noch der Test gegen den belgischen Erstligisten Oud-Heverlee Leuven an. Dort überzeugte das Team vor allem im ersten Durchgang und sorgte für einen erfolgreichen Abschluss."
+        ],
+        "link": "https://www.kicker.de/muenster-gegen-leuven-2026-vereine-freundschaftsspiele-5186706/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-08T17:02:17.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/sport/schach/freestyle-chess-warum-schach-star-magnus-carlsen-eine-neue-wm-chance-bekommt-a-876b5c8a-1a29-4dce-b130-a658a4f4d59b",
+        "title": "Freestyle Chess: Warum Schach-Star Magnus Carlsen eine neue WM-Chance bekommt",
+        "summary": "Es knallte vor einem Jahr gewaltig in der Schachwelt. Der Weltverbandspräsident sei nur ein Hausmeister, wetterte der Chef von Freestyle Chess. Nun veranstalten beide gemeinsam eine WM. Was ist passiert?",
+        "paragraphs": [
+          "Es knallte vor einem Jahr gewaltig in der Schachwelt. Der Weltverbandspräsident sei nur ein Hausmeister, wetterte der Chef von Freestyle Chess. Nun veranstalten beide gemeinsam eine WM. Was ist passiert?"
+        ],
+        "link": "https://www.spiegel.de/sport/schach/freestyle-chess-warum-schach-star-magnus-carlsen-eine-neue-wm-chance-bekommt-a-876b5c8a-1a29-4dce-b130-a658a4f4d59b#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-08T16:59:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/neuausrichtung-in-plauen-goeren-muss-u-19-coach-zschach-weichen-1181969/artikel#omrss",
+        "title": "Neuausrichtung in Plauen: Gören muss U-19-Coach Zschach weichen",
+        "summary": "Der VFC Plauen hat am Donnerstag die Trennung von Sedat Gören verkündet, der beim NOFV-Oberligisten als Trainer und Sportlicher Leiter fungiert hatte. Der Nachfolger kommt aus dem Unterbau der Vogtländer.",
+        "paragraphs": [
+          "Der VFC Plauen hat am Donnerstag die Trennung von Sedat Gören verkündet, der beim NOFV-Oberligisten als Trainer und Sportlicher Leiter fungiert hatte. Der Nachfolger kommt aus dem Unterbau der Vogtländer."
+        ],
+        "link": "https://www.kicker.de/neuausrichtung-in-plauen-goeren-muss-u-19-coach-zschach-weichen-1181969/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-08T16:46:50.000Z"
+      },
       {
         "id": "https://www.kicker.de/toppmoeller-ueber-ebnoutalib-kann-gut-sein-dass-er-morgen-direkt-startet-1181964/video#omrss",
         "title": "Toppmöller über Ebnoutalib: \"Kann gut sein, dass er morgen direkt startet\"",
@@ -615,53 +663,20 @@
         "link": "https://www.kicker.de/er-ist-eine-option-kwasniok-plant-mit-schenten-und-simpson-pusey-1181922/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-08T15:05:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kaua-santos-kehrt-ins-tor-zurueck-toppmoeller-lobt-ebnoutalib-in-hoechsten-toenen-1181894/artikel#omrss",
-        "title": "Kaua Santos kehrt ins Tor zurück - Toppmöller lobt Ebnoutalib in höchsten Tönen",
-        "summary": "Beim Bundesliga-Auftakt gegen Borussia Dortmund will sich die Eintracht für die Niederlage im DFB-Pokal revanchieren. Im Tor hat Trainer Dino Toppmöller eine wichtige Entscheidung getroffen, vorne könnte Neuzugang Younes Ebnoutalib in der Startelf debütieren.",
-        "paragraphs": [
-          "Beim Bundesliga-Auftakt gegen Borussia Dortmund will sich die Eintracht für die Niederlage im DFB-Pokal revanchieren. Im Tor hat Trainer Dino Toppmöller eine wichtige Entscheidung getroffen, vorne könnte Neuzugang Younes Ebnoutalib in der Startelf debütieren."
-        ],
-        "link": "https://www.kicker.de/kaua-santos-kehrt-ins-tor-zurueck-toppmoeller-lobt-ebnoutalib-in-hoechsten-toenen-1181894/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-08T14:57:11.000Z"
-      },
-      {
-        "id": "li.3365168",
-        "title": "FCH vs. FCH: Es gibt nur einen FCH. Und eine Borussia. Und einen FC.",
-        "summary": "Der 1. FC Heidenheim und der FC Hansa Rostock streiten sich öffentlich um die Frage, wer der echte FCH ist. Ein nur scheinbar belangloses Scharmützel.",
-        "paragraphs": [
-          "Der 1. FC Heidenheim und der FC Hansa Rostock streiten sich öffentlich um die Frage, wer der echte FCH ist. Ein nur scheinbar belangloses Scharmützel."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/fch-streit-fc-heidenheim-hansa-rostock-konflikt-li.3365168",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-08T14:57:10.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/preuss-in-oberhof-sprint-fuenfte-hettich-walz-holt-olympia-norm-1181248/artikel#omrss",
-        "title": "Preuß in Oberhof Sprint-Fünfte - Hettich-Walz holt Olympia-Norm",
-        "summary": "Die deutschen Biathletinnen haben zum Auftakt des Heim-Weltcups in Oberhof den ersten Podestplatz in einem Einzelrennen des Olympia-Winters knapp verpasst.",
-        "paragraphs": [
-          "Die deutschen Biathletinnen haben zum Auftakt des Heim-Weltcups in Oberhof den ersten Podestplatz in einem Einzelrennen des Olympia-Winters knapp verpasst."
-        ],
-        "link": "https://www.kicker.de/preuss-in-oberhof-sprint-fuenfte-hettich-walz-holt-olympia-norm-1181248/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-08T14:56:18.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nach-uefa-strafe-bayern-muss-gesamte-suedkurve-sperren-1181933/artikel#omrss",
-        "title": "Nach UEFA-Strafe: Bayern muss gesamte Südkurve sperren",
-        "summary": "Der FC Bayern München muss im kommenden Champions-League-Heimspiel die komplette Südkurve für seine Fans sperren. Dabei sah die UEFA-Sperre weit weniger drastisch aus.",
-        "paragraphs": [
-          "Der FC Bayern München muss im kommenden Champions-League-Heimspiel die komplette Südkurve für seine Fans sperren. Dabei sah die UEFA-Sperre weit weniger drastisch aus."
-        ],
-        "link": "https://www.kicker.de/nach-uefa-strafe-bayern-muss-gesamte-suedkurve-sperren-1181933/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-08T14:55:56.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Smartes-Headset-Motoko-Razer-setzt-bei-KI-Wearables-auf-Kopfhoerer-statt-Brillen-11135061.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "CES: Smartes Headset Motoko: Razer setzt bei KI-Wearables auf Kopfhörer statt Brillen",
+        "summary": "Statt wie viele Konkurrenten auf smarte Brillen zu setzen, bringt Razer ein KI-Wearable auf den Markt, das wie konventionelle Kopfhörer aussieht.",
+        "paragraphs": [
+          "Statt wie viele Konkurrenten auf smarte Brillen zu setzen, bringt Razer ein KI-Wearable auf den Markt, das wie konventionelle Kopfhörer aussieht."
+        ],
+        "link": "https://www.heise.de/news/Smartes-Headset-Motoko-Razer-setzt-bei-KI-Wearables-auf-Kopfhoerer-statt-Brillen-11135061.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-08T16:49:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Neu-entdeckter-Asteroid-rotiert-in-Rekordgeschwindigkeit-11134993.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Neu entdeckter Asteroid rotiert in Rekordgeschwindigkeit",
@@ -870,17 +885,6 @@
         "link": "https://www.heise.de/news/Weiterbildung-Qualifikation-im-Datenschutzmanagement-von-HsH-und-heise-academy-11129405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-08T13:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Dr-Ansay-Sicherheitsluecke-ermoeglichte-Zugriff-auf-1-7-Millionen-Rezepte-11134191.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Dr. Ansay: Neue Sicherheitslücke legte 1,7 Millionen Datensätze offen",
-        "summary": "Bei dem Telemedizin-Anbieter Dr. Ansay hat es erneut eine Sicherheitslücke gegeben. Dadurch waren hunderttausende Kunden gefährdet.",
-        "paragraphs": [
-          "Bei dem Telemedizin-Anbieter Dr. Ansay hat es erneut eine Sicherheitslücke gegeben. Dadurch waren hunderttausende Kunden gefährdet."
-        ],
-        "link": "https://www.heise.de/news/Dr-Ansay-Sicherheitsluecke-ermoeglichte-Zugriff-auf-1-7-Millionen-Rezepte-11134191.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-08T12:54:00.000Z"
       }
     ]
   }
