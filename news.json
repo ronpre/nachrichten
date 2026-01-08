@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-08T16:12:22.503Z",
+  "updatedAt": "2026-01-08T16:31:42.351Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:356ab6ff-aa61-4a7a-ae11-8ffee82675a6}",
+        "title": "Wohnungspolitik: Der Wohnungsmarkt der Stubenhocker",
+        "summary": "Der Wohnraum pro Kopf hat sich vervielfacht. Und doch fehlt es an Wohnungen – und schuld daran ist nicht nur die Politik.",
+        "paragraphs": [
+          "Der Wohnraum pro Kopf hat sich vervielfacht. Und doch fehlt es an Wohnungen – und schuld daran ist nicht nur die Politik."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/wohnungspolitik-mieten-preis-wohnraum-konflikt-ungleichheit",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-08T16:22:32.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/cdu-berlins-buergermeister-verschlechtert-seine-wahlchancen-mit-tennis/100189613.html",
         "title": "CDU: Spiel, Satz, Niederlage? Wie sich Berlins Bürgermeister um seine Wahlchancen bringt",
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/finanzen/vorsorge/zwischen-boomern-und-gen-z-eine-generation-in-der-rushhour-des-lebens/100170215.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-08T14:19:00.000Z"
-      },
-      {
-        "id": "li.3335543",
-        "title": "Technologie: Wenn Atome tanzen",
-        "summary": "US-Konzerne investieren Milliarden in die Entwicklung von Quantencomputern. Doch auch im beschaulichen Siegen baut eine junge Firma diese neuartigen Rechner. Der Weg zu alltagstauglichen Geräten ist noch weit – trotz enormer Fortschritte.",
-        "paragraphs": [
-          "US-Konzerne investieren Milliarden in die Entwicklung von Quantencomputern. Doch auch im beschaulichen Siegen baut eine junge Firma diese neuartigen Rechner. Der Weg zu alltagstauglichen Geräten ist noch weit – trotz enormer Fortschritte."
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/eleqtron-quantencomputer-leisse-johanning-ibm-li.3335543",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-08T14:17:27.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:04848b56-14dc-4ae2-9b29-33450c6cc038}",
+        "title": "Donald Trump und Wladimir Putin: Mein Hinterhof, dein Hinterhof",
+        "summary": "Donald Trump und Wladimir Putin haben ähnliche Vorstellungen von Politik und dürften sich weiter annähern. Für Europa könnte das gefährlich werden.",
+        "paragraphs": [
+          "Donald Trump und Wladimir Putin haben ähnliche Vorstellungen von Politik und dürften sich weiter annähern. Für Europa könnte das gefährlich werden."
+        ],
+        "link": "https://www.zeit.de/politik/2026-01/donald-trump-wladimir-putin-russland-podcast",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-08T16:22:07.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/cdu-berlins-buergermeister-verschlechtert-seine-wahlchancen-mit-tennis/100189613.html",
         "title": "CDU: Spiel, Satz, Niederlage? Wie sich Berlins Bürgermeister um seine Wahlchancen bringt",
@@ -426,20 +437,31 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/union-merz-und-soeder-rufen-in-seeon-das-jahr-der-reformen-aus/100188940.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-08T14:55:16.000Z"
-      },
-      {
-        "id": "{urn:uuid:932235ee-19d3-42ef-8774-05c8ebda0544}",
-        "title": "Grönland: Dänemark begrüßt Treffen mit den USA zu Grönland",
-        "summary": "Donald Trump droht unverhohlen mit der Einnahme Grönlands. An einem von Marco Rubio angekündigten Treffen sollen offenbar Vertreter der Insel sowie Dänemarks teilnehmen.",
-        "paragraphs": [
-          "Donald Trump droht unverhohlen mit der Einnahme Grönlands. An einem von Marco Rubio angekündigten Treffen sollen offenbar Vertreter der Insel sowie Dänemarks teilnehmen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/daenemark-regierung-groenland-usa-treffen",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-08T14:49:25.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/toppmoeller-ueber-ebnoutalib-kann-gut-sein-dass-er-morgen-direkt-startet-1181964/video#omrss",
+        "title": "Toppmöller über Ebnoutalib: \"Kann gut sein, dass er morgen direkt startet\"",
+        "summary": "Frankfurt-Trainer Dino Toppmöller sprach in hohen Tönen von Neuzugang Younes Ebnoutalib. Seine Einstellung und seinen Willen führte der Coach auch auf die Erziehung des Neuzugangs zurück.",
+        "paragraphs": [
+          "Frankfurt-Trainer Dino Toppmöller sprach in hohen Tönen von Neuzugang Younes Ebnoutalib. Seine Einstellung und seinen Willen führte der Coach auch auf die Erziehung des Neuzugangs zurück."
+        ],
+        "link": "https://www.kicker.de/toppmoeller-ueber-ebnoutalib-kann-gut-sein-dass-er-morgen-direkt-startet-1181964/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-08T16:18:55.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/habe-noch-viel-vor-bei-der-borussia-ullrich-verlaengert-bei-gladbach-1181956/artikel#omrss",
+        "title": "\"Habe noch viel vor bei der Borussia\": Ullrich verlängert bei Gladbach",
+        "summary": "Borussia Mönchengladbach und Lukas Ullrich setzen den gemeinsamen Weg bis 2029 fort. Der Abwehrspieler hat einen neuen Vertrag beim Bundesligisten unterschrieben.",
+        "paragraphs": [
+          "Borussia Mönchengladbach und Lukas Ullrich setzen den gemeinsamen Weg bis 2029 fort. Der Abwehrspieler hat einen neuen Vertrag beim Bundesligisten unterschrieben."
+        ],
+        "link": "https://www.kicker.de/habe-noch-viel-vor-bei-der-borussia-ullrich-verlaengert-bei-gladbach-1181956/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-08T16:10:16.000Z"
+      },
       {
         "id": "https://www.kicker.de/umbruch-in-miami-dolphins-entlassen-head-coach-mcdaniel-1181951/artikel#omrss",
         "title": "Umbruch in Miami: Dolphins entlassen Head Coach McDaniel",
@@ -637,31 +659,31 @@
         "link": "https://www.kicker.de/nach-uefa-strafe-bayern-muss-gesamte-suedkurve-sperren-1181933/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-08T14:55:56.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bittere-nachricht-fuer-karlsruhes-beifus-ist-die-saison-gelaufen-1181924/artikel#omrss",
-        "title": "Bittere Nachricht: Für Karlsruhes Beifus ist die Saison gelaufen",
-        "summary": "Noch befindet sich der Karlsruher SC mitten in den Vorbereitungen auf die Rückrunde. In dieser müssen die Badener allerdings auf Marcel Beifus verzichten, der in dieser Saison nicht mehr eingreifen kann.",
-        "paragraphs": [
-          "Noch befindet sich der Karlsruher SC mitten in den Vorbereitungen auf die Rückrunde. In dieser müssen die Badener allerdings auf Marcel Beifus verzichten, der in dieser Saison nicht mehr eingreifen kann."
-        ],
-        "link": "https://www.kicker.de/bittere-nachricht-fuer-karlsruhes-beifus-ist-die-saison-gelaufen-1181924/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-08T14:55:03.000Z"
-      },
-      {
-        "id": "li.3364208",
-        "title": "Weltcup-Station in Thüringen: Wo die Biathlon-Rennen in Oberhof im TV zu sehen sind",
-        "summary": "Im neuen Jahr starten die Biathletinnen und Biathleten in Deutschland. In Oberhof finden insgesamt sechs Rennen statt. Ein Überblick über den Zeitplan.",
-        "paragraphs": [
-          "Im neuen Jahr starten die Biathletinnen und Biathleten in Deutschland. In Oberhof finden insgesamt sechs Rennen statt. Ein Überblick über den Zeitplan."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/biathlon-weltcup-oberhof-heute-live-tv-stream-termine-li.3364208",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-08T14:38:00.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Studie-soll-Wirksamkeit-von-Diabetes-App-belegen-11134989.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Studie soll Wirksamkeit von Diabetes-App belegen",
+        "summary": "Die als digitale Therapie zugelassene App Glucura will Menschen mit Diabetes zu besseren Blutzuckerwerten verhelfen. Eine aktuelle Studie zeigt, wie das geht.",
+        "paragraphs": [
+          "Die als digitale Therapie zugelassene App Glucura will Menschen mit Diabetes zu besseren Blutzuckerwerten verhelfen. Eine aktuelle Studie zeigt, wie das geht."
+        ],
+        "link": "https://www.heise.de/news/Studie-soll-Wirksamkeit-von-Diabetes-App-belegen-11134989.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-08T16:01:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Digital-Health-E-Rezept-jetzt-auch-fuer-die-Bundespolizei-11134917.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Digital Health: E-Rezept jetzt auch für die Bundespolizei",
+        "summary": "Seit 2026 können Bundespolizistinnen und ‑polizisten Rezepte als E‑Rezept erhalten.",
+        "paragraphs": [
+          "Seit 2026 können Bundespolizistinnen und ‑polizisten Rezepte als E‑Rezept erhalten."
+        ],
+        "link": "https://www.heise.de/news/Digital-Health-E-Rezept-jetzt-auch-fuer-die-Bundespolizei-11134917.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-08T15:59:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Sofortbildkamera-trifft-Video-Fujifilm-Instax-Mini-Evo-Cinema-11134836.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Sofortbildkamera trifft Video – Fujifilm Instax Mini Evo Cinema",
@@ -859,28 +881,6 @@
         "link": "https://www.heise.de/news/Zalando-schliesst-Standort-Erfurt-mit-2-700-Beschaeftigten-11134516.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-08T12:32:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Haelfte-der-NRW-Schulen-verbietet-Handys-komplett-11134480.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Hälfte der NRW-Schulen verbietet Handys komplett",
-        "summary": "In Nordrhein-Westfalen wurden Schulen dazu aufgefordert, verbindliche Regeln für die Handynutzung zu entwickeln. Fast alle haben dies mittlerweile getan.",
-        "paragraphs": [
-          "In Nordrhein-Westfalen wurden Schulen dazu aufgefordert, verbindliche Regeln für die Handynutzung zu entwickeln. Fast alle haben dies mittlerweile getan."
-        ],
-        "link": "https://www.heise.de/news/Haelfte-der-NRW-Schulen-verbietet-Handys-komplett-11134480.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-08T12:31:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/RTL-bietet-HBO-Max-im-Bundle-an-11134203.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "RTL+ bietet HBO Max im Bundle an",
-        "summary": "Laut RTL+ ist der Streamingdienst der TV-Sendergruppe hierzulande der exklusive Bundle-Partner des am 13. Januar startenden HBO Max.",
-        "paragraphs": [
-          "Laut RTL+ ist der Streamingdienst der TV-Sendergruppe hierzulande der exklusive Bundle-Partner des am 13. Januar startenden HBO Max."
-        ],
-        "link": "https://www.heise.de/news/RTL-bietet-HBO-Max-im-Bundle-an-11134203.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-08T12:13:00.000Z"
       }
     ]
   }
