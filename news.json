@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-09T15:24:23.298Z",
+  "updatedAt": "2026-01-09T15:39:29.123Z",
   "categories": {
     "wirtschaft": [
       {
@@ -45,6 +45,17 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/china-rauchen-toiletten-fenster-li.3365692",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-09T14:54:21.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-zwei-risikoereignisse-bestimmen-die-us-boersen/100190063.html",
+        "title": "Dow Jones, S&P 500, Nasdaq: Zwei Risikoereignisse bestimmen die US-Börsen – Wall Street notiert leicht im Plus",
+        "summary": "Anleger blicken auf US-Arbeitsmarktdaten und spekulieren über ein mögliches Zoll-Gerichtsurteil. Laut Analysten könnte das Urteil weitreichende wirtschaftliche Folgen haben.",
+        "paragraphs": [
+          "Anleger blicken auf US-Arbeitsmarktdaten und spekulieren über ein mögliches Zoll-Gerichtsurteil. Laut Analysten könnte das Urteil weitreichende wirtschaftliche Folgen haben."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-zwei-risikoereignisse-bestimmen-die-us-boersen/100190063.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-09T14:34:37.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/geldanlage-aufwaertstrend-ist-intakt-goldpreis-duerfte-weiter-steigen/100189735.html",
@@ -210,20 +221,42 @@
         "link": "https://www.handelsblatt.com/politik/international/freihandel-eu-staaten-stimmen-fuer-mercosur-abkommen/100189360.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-09T12:09:07.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/anleihen/anleihen-bondmarkt-verzeichnet-aktivsten-jahresbeginn-aller-zeiten/100189996.html",
-        "title": "Bonds: Anleihemarkt verzeichnet aktivsten Jahresbeginn aller Zeiten",
-        "summary": "Noch nie wurden zu Jahresbeginn so viele Anleihen platziert. Allein in Europa sammelten Emittenten hohe zweistellige Milliardenbeträge ein. Besonders in einem Land war das Interesse groß.",
-        "paragraphs": [
-          "Noch nie wurden zu Jahresbeginn so viele Anleihen platziert. Allein in Europa sammelten Emittenten hohe zweistellige Milliardenbeträge ein. Besonders in einem Land war das Interesse groß."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/anleihen/anleihen-bondmarkt-verzeichnet-aktivsten-jahresbeginn-aller-zeiten/100189996.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-09T12:07:23.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "{urn:uuid:a4937e82-318c-4253-b4aa-63d9ee106aca}",
+        "title": "Einsatz nahe Trinidad: USA setzen weiteren Tanker in der Karibik fest",
+        "summary": "Die USA haben mit der \"Olina\" einen weiteren Öltanker außerhalb ihres Hoheitsgebiets festgesetzt. Es ist der fünfte Einsatz dieser Art innerhalb weniger Wochen.",
+        "paragraphs": [
+          "Die USA haben mit der \"Olina\" einen weiteren Öltanker außerhalb ihres Hoheitsgebiets festgesetzt. Es ist der fünfte Einsatz dieser Art innerhalb weniger Wochen."
+        ],
+        "link": "https://www.zeit.de/politik/ausland/2026-01/usa-venezuela-oeltanker-olina-beschlagnahmt-trinidad",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-09T15:29:55.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/mercosur-welche-freihandelsabkommen-kommen-als-naechstes-frau-sultan/100190090.html",
+        "title": "Mercosur: Welche Freihandelsabkommen kommen als Nächstes, Frau Sultan?",
+        "summary": "Die IW-Ökonomin Samina Sultan erwartet, dass das Mercosur-Abkommen nicht nur der Wirtschaft hilft. Für die Proteste der Landwirte hat sie nur teilweise Verständnis.",
+        "paragraphs": [
+          "Die IW-Ökonomin Samina Sultan erwartet, dass das Mercosur-Abkommen nicht nur der Wirtschaft hilft. Für die Proteste der Landwirte hat sie nur teilweise Verständnis."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/mercosur-welche-freihandelsabkommen-kommen-als-naechstes-frau-sultan/100190090.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-09T15:22:26.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/ministerpraesident-hilft-der-amtsbonus-einem-nachfolger-a-db31e47a-1045-4983-b1ba-6a57b0c03096",
+        "title": "Ministerpräsident: Hilft der Amtsbonus einem Nachfolger?",
+        "summary": "Sachsen-Anhalts Ministerpräsident Reiner Haseloff möchte vorzeitig sein Amt an Sven Schulze übergeben, als Hilfe für die Landtagswahl im September. Solche politischen Manöver gab es schon mehrfach – nicht immer mit Erfolg. Die Liste.",
+        "paragraphs": [
+          "Sachsen-Anhalts Ministerpräsident Reiner Haseloff möchte vorzeitig sein Amt an Sven Schulze übergeben, als Hilfe für die Landtagswahl im September. Solche politischen Manöver gab es schon mehrfach – nicht immer mit Erfolg. Die Liste."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/ministerpraesident-hilft-der-amtsbonus-einem-nachfolger-a-db31e47a-1045-4983-b1ba-6a57b0c03096#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-09T15:22:00.000Z"
+      },
       {
         "id": "{urn:uuid:5070427a-b37d-4845-bc19-05699e69b180}",
         "title": "Bürgerkrieg: UN melden weitreichendes Leid der Zivilisten im Sudan",
@@ -231,7 +264,7 @@
         "paragraphs": [
           "Seit 1.000 Tagen dauert der Bürgerkrieg im Sudan an. Die Vereinten Nationen berichten von Hungersnöten und einem Mangel an Unterkünften. Deutschland plant eine Konferenz."
         ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/sudan-buergerkrieg-rsf-hungersnot-menschenrechtsverletzung",
+        "link": "https://www.zeit.de/politik/ausland/2026-01/sudan-buergerkrieg-rsf-hungersnot-menschenrechtsverletzung-gxe",
         "source": "ZEIT",
         "publishedAt": "2026-01-09T15:15:26.000Z"
       },
@@ -278,6 +311,28 @@
         "link": "https://www.handelsblatt.com/politik/international/iran-oberbefehlshaber-plant-hartes-vorgehen-gegen-protestierende/100189810.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-09T15:00:38.000Z"
+      },
+      {
+        "id": "er.e181454",
+        "title": "Kampf um Grönland und die Arktis: Eiskalter Krieg",
+        "summary": "Trump will sich Grönland einverleiben. Doch welche Rolle spielt die Insel überhaupt für die Sicherheit der USA?",
+        "paragraphs": [
+          "Trump will sich Grönland einverleiben. Doch welche Rolle spielt die Insel überhaupt für die Sicherheit der USA?"
+        ],
+        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/arktis-groenland-usa-china-russland-e181454/",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-09T15:00:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-eingesetzte-oreschnik-wohl-mit-sprengkopf-attrappen-bestueckt/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Eingesetzte „Oreschnik“-Rakete wohl mit Sprengkopf-Attrappen bestückt",
+        "summary": "Selenskyj fordert Reaktion der USA nach russischem Angriff mit ballistischer Rakete +++ Starmer für erhöhte Nato-Präsenz im Norden +++ 6000 Wohnblöcke in Kiew ohne Heizung +++ Der Newsblog.",
+        "paragraphs": [
+          "Selenskyj fordert Reaktion der USA nach russischem Angriff mit ballistischer Rakete +++ Starmer für erhöhte Nato-Präsenz im Norden +++ 6000 Wohnblöcke in Kiew ohne Heizung +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-eingesetzte-oreschnik-wohl-mit-sprengkopf-attrappen-bestueckt/27982126.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-09T15:00:00.000Z"
       },
       {
         "id": "{urn:uuid:5101493f-31fb-4497-bcfb-8a6be42c26f0}",
@@ -339,7 +394,7 @@
         "paragraphs": [
           "Tränengas, brennende Fahrzeuge und abgeschaltetes Internet: In Iran eskalieren die Proteste. Die Demonstrierenden skandieren „Tod dem Diktator“ und der Geheimdienst fordert Iraner zum Verrat an ihren Mitbürgern auf."
         ],
-        "link": "https://www.sueddeutsche.de/politik/iran-teheran-massendemonstrationen-regime-internet-li.3365553",
+        "link": "https://www.sueddeutsche.de/politik/iran-teheran-massendemonstrationen-regime-internet-geheimdienst-li.3365553",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-09T14:33:00.000Z"
       },
@@ -384,64 +439,20 @@
         "link": "https://www.sueddeutsche.de/politik/atommuell-klage-gegen-castortransporte-abgelehnt-li.3366013",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-09T13:59:18.000Z"
-      },
-      {
-        "id": "li.3364968",
-        "title": "Infrastruktur: Schneller bauen ohne Kläger?",
-        "summary": "Die Koalition will die Klagerechte der Umweltverbände stutzen, damit Verkehrsprojekte vorankommen. Doch der rechtliche Spielraum für eine Reform ist gering – und ihr Nutzen fraglich.",
-        "paragraphs": [
-          "Die Koalition will die Klagerechte der Umweltverbände stutzen, damit Verkehrsprojekte vorankommen. Doch der rechtliche Spielraum für eine Reform ist gering – und ihr Nutzen fraglich."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/umweltverbaende-verbandsklage-umweltministerium-infrastrukturprojekte-li.3364968",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-09T13:56:29.000Z"
-      },
-      {
-        "id": "li.3365811",
-        "title": "EU-Mercosur-Abkommen: Italien pokert, Frankreich wird überstimmt",
-        "summary": "Geopolitik schlägt Bauern-Interessen: Das Freihandelsabkommen der EU mit fünf südamerikanischen Staaten steht nach 26 Jahren vor dem Abschluss. Nur in Paris wird es rundweg abgelehnt.",
-        "paragraphs": [
-          "Geopolitik schlägt Bauern-Interessen: Das Freihandelsabkommen der EU mit fünf südamerikanischen Staaten steht nach 26 Jahren vor dem Abschluss. Nur in Paris wird es rundweg abgelehnt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/eu-mercosur-handel-zoelle-bauern-li.3365811",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-09T13:50:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:b74cbbf0-0608-4708-ada8-883094035e52}",
-        "title": "Venezuela: USA setzen weiteren Öltanker in der Karibik fest",
-        "summary": "Die USA haben nahe Trinidad den Öltanker \"Olina\" festgesetzt. Donald Trump hält einen zweiten US-Angriff auf Venezuela wegen guter \"Kooperation\" für unnötig. Das Liveblog",
-        "paragraphs": [
-          "Die USA haben nahe Trinidad den Öltanker \"Olina\" festgesetzt. Donald Trump hält einen zweiten US-Angriff auf Venezuela wegen guter \"Kooperation\" für unnötig. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/venezuela-usa-angriff-nicolas-maduro-liveblog",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-09T13:48:41.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/immobilien-der-wohnungsbau-wartet-weiter-auf-die-wende/100189373.html",
-        "title": "Immobilien: „Die Dynamik ist noch sehr überschaubar“: Der Wohnungsbau wartet weiter auf die Wende",
-        "summary": "Die Stimmung in der Immobilienbranche hat sich verbessert. Doch eine wirkliche Trendwende erwarten Experten bislang nicht. Die Neubauzahlen werden vorläufig weiter sinken.",
-        "paragraphs": [
-          "Die Stimmung in der Immobilienbranche hat sich verbessert. Doch eine wirkliche Trendwende erwarten Experten bislang nicht. Die Neubauzahlen werden vorläufig weiter sinken."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/immobilien-der-wohnungsbau-wartet-weiter-auf-die-wende/100189373.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-09T13:48:28.000Z"
-      },
-      {
-        "id": "{urn:uuid:27ff268c-3b17-40ab-9764-a0607b4ebf51}",
-        "title": "Syrien: Von der Leyen sagt in Syrien EU-Hilfe beim Wiederaufbau zu",
-        "summary": "Erstmals hat die EU-Kommissionspräsidentin die Übergangsregierung in Syrien getroffen. Europa werde alles in seiner Macht Stehende tun, um beim Wiederaufbau zu helfen.",
-        "paragraphs": [
-          "Erstmals hat die EU-Kommissionspräsidentin die Übergangsregierung in Syrien getroffen. Europa werde alles in seiner Macht Stehende tun, um beim Wiederaufbau zu helfen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-01/syrien-eu-ursula-von-der-leyen-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-09T13:38:42.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.spiegel.de/sport/fussball/fussball-wm-dfb-nationalmannschaft-bezieht-quartier-in-north-carolina-a-9c7deb4b-4b41-45a9-b086-4a4cf4aec509",
+        "title": "Fußball-WM: DFB-Nationalmannschaft bezieht Quartier in North Carolina",
+        "summary": "Monatelang hat der DFB diverse Quartiere in den USA geprüft, jetzt ist die Entscheidung gefallen: Die Nationalmannschaft wird während der Gruppenphase der WM an der Ostküste logieren.",
+        "paragraphs": [
+          "Monatelang hat der DFB diverse Quartiere in den USA geprüft, jetzt ist die Entscheidung gefallen: Die Nationalmannschaft wird während der Gruppenphase der WM an der Ostküste logieren."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/fussball-wm-dfb-nationalmannschaft-bezieht-quartier-in-north-carolina-a-9c7deb4b-4b41-45a9-b086-4a4cf4aec509#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-09T15:35:00.000Z"
+      },
       {
         "id": "https://www.kicker.de/mali-gegen-senegal-2026-afrika-cup-4995918/spielbericht#omrss",
         "title": "LIVE! Stellt Mali auch Mit-Favorit Senegal ein Bein?",
@@ -646,15 +657,6 @@
         "link": "https://www.kicker.de/nach-querelen-in-schweinfurt-thomann-verstaerkt-die-wuerzburger-kickers-1182210/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-09T14:07:50.000Z"
-      },
-      {
-        "id": "li.3366014",
-        "title": "Snowboard: Chloe Kim bangt um Olympiastart",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/sport/snowboard-chloe-kim-bangt-um-olympiastart-li.3366014",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-09T14:05:34.000Z"
       }
     ],
     "edv": [
