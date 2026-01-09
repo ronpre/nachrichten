@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-01-09T18:50:53.844Z",
+  "updatedAt": "2026-01-09T19:06:18.409Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:2fb7c9a4-9ff6-4e3e-994f-4e58bf56b407}",
+        "title": "EU-Mercosur-Handelsabkommen: Mercosur-Abkommen soll noch im Januar unterzeichnet werden",
+        "summary": "Mit der Einigung der EU-Staaten ist der Weg frei für das Freihandelsabkommen mit den Mercosur-Ländern. Ursula von der Leyen will zur Unterzeichnung nach Paraguay reisen.",
+        "paragraphs": [
+          "Mit der Einigung der EU-Staaten ist der Weg frei für das Freihandelsabkommen mit den Mercosur-Ländern. Ursula von der Leyen will zur Unterzeichnung nach Paraguay reisen."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/eu-mercosur-handelsabkommen-unterzeichnung-17-januar-paraguay",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-09T19:01:59.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-notieren-nach-jobdaten-im-plus/100190063.html",
+        "title": "Dow Jones, S&P 500, Nasdaq: US-Börsen legen nach Jobdaten leicht zu –  Hypothekenfinanzierer-Aktien stark gefragt",
+        "summary": "Der US-Arbeitsmarkt hat vor dem Jahreswechsel gemischte Signale ausgesendet. Anlegerinnen und Anleger blicken auf die Daten aus Dezember.",
+        "paragraphs": [
+          "Der US-Arbeitsmarkt hat vor dem Jahreswechsel gemischte Signale ausgesendet. Anlegerinnen und Anleger blicken auf die Daten aus Dezember."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-notieren-nach-jobdaten-im-plus/100190063.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-09T18:49:04.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/baywa-krach-beim-krisenkonzern-vorstandschef-hiller-muss-gehen/100189604.html",
         "title": "Agrarhändler: Krach beim Krisenkonzern: Baywa-Vorstandschef Hiller muss gehen",
@@ -11,7 +33,18 @@
         ],
         "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/baywa-krach-beim-krisenkonzern-vorstandschef-hiller-muss-gehen/100189604.html",
         "source": "Handelsblatt",
-        "publishedAt": "2026-01-09T18:21:45.000Z"
+        "publishedAt": "2026-01-09T18:46:23.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-meloni-europa-soll-wieder-mit-russland-sprechen/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Meloni: Europa soll wieder mit Russland sprechen",
+        "summary": "Russischer Angriff: Lettland will Sitzung des UN-Sicherheitsrats +++ „Oreschnik“ wohl mit Sprengkopf-Attrappen bestückt +++ Der Newsblog.",
+        "paragraphs": [
+          "Russischer Angriff: Lettland will Sitzung des UN-Sicherheitsrats +++ „Oreschnik“ wohl mit Sprengkopf-Attrappen bestückt +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-meloni-europa-soll-wieder-mit-russland-sprechen/27982126.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-09T18:39:22.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/usa-trump-veroeffentlichte-arbeitsmarktdaten-vor-offizieller-bekanntgabe/29669594.html",
@@ -23,17 +56,6 @@
         "link": "https://www.handelsblatt.com/politik/international/usa-trump-veroeffentlichte-arbeitsmarktdaten-vor-offizieller-bekanntgabe/29669594.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-09T18:16:33.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-notieren-nach-jobdaten-im-plus/100190063.html",
-        "title": "Dow Jones, S&P 500, Nasdaq: US-Börsen legen nach Jobdaten leicht zu –  Hypothekenfinanzierer-Aktien stark gefragt",
-        "summary": "Der US-Arbeitsmarkt hat vor dem Jahreswechsel gemischte Signale ausgesendet. Anlegerinnen und Anleger blicken auf die Daten aus Dezember.",
-        "paragraphs": [
-          "Der US-Arbeitsmarkt hat vor dem Jahreswechsel gemischte Signale ausgesendet. Anlegerinnen und Anleger blicken auf die Daten aus Dezember."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-notieren-nach-jobdaten-im-plus/100190063.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-09T17:55:13.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/geldpolitik/usa-us-arbeitsmarkt-schafft-weniger-jobs-als-von-experten-erwartet/100190059.html",
@@ -157,17 +179,6 @@
         "publishedAt": "2026-01-09T15:53:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-meloni-europa-soll-wieder-mit-russland-sprechen/27982126.html",
-        "title": "+++ Ukraine-Krieg +++: Meloni: Europa soll wieder mit Russland sprechen",
-        "summary": "Eingesetzte „Oreschnik“ wohl mit Sprengkopf-Attrappen bestückt +++ Selenskyj fordert Reaktion der USA nach russischem Angriff mit ballistischer Rakete +++ Der Newsblog.",
-        "paragraphs": [
-          "Eingesetzte „Oreschnik“ wohl mit Sprengkopf-Attrappen bestückt +++ Selenskyj fordert Reaktion der USA nach russischem Angriff mit ballistischer Rakete +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-meloni-europa-soll-wieder-mit-russland-sprechen/27982126.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-09T15:47:20.000Z"
-      },
-      {
         "id": "li.3335514",
         "title": "Landgrabbing: Ran an die Spekulanten",
         "summary": "Boden wird immer knapper. Das treibt die Preise für Bauland und Agrarflächen in schwindelerregende Höhen. Nur wenige profitieren, während immer mehr Menschen darunter leiden. Das kann so nicht weitergehen.",
@@ -210,20 +221,20 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/x-grok-elon-musk-ki-missbrauch-frauen-deepfake-li.3365724",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-09T15:32:22.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-das-boersenjahr-2026-koennte-besser-laufen-als-befuerchtet/100189948.html",
-        "title": "Pivatanleger-Jahresumfrage: Das Börsenjahr 2026 könnte besser laufen als befürchtet",
-        "summary": "Privatinvestoren sehen für den deutschen Aktienmarkt 2026 kaum Kurspotenzial. Weil am Kapitalmarkt häufig das Unerwartete eintritt, ergibt sich ein konkretes Alternativszenario.",
-        "paragraphs": [
-          "Privatinvestoren sehen für den deutschen Aktienmarkt 2026 kaum Kurspotenzial. Weil am Kapitalmarkt häufig das Unerwartete eintritt, ergibt sich ein konkretes Alternativszenario."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-das-boersenjahr-2026-koennte-besser-laufen-als-befuerchtet/100189948.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-09T15:27:38.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.spiegel.de/politik/afd-zu-venezuela-warum-alice-weidel-und-tino-chrupalla-zum-us-angriff-auf-venezuela-schweigen-a-7b8b0944-3611-4023-b9b9-6b71cd0884f7",
+        "title": "AfD zu Venezuela: Warum Alice Weidel und Tino Chrupalla zum US-Angriff auf Venezuela schweigen",
+        "summary": "Verurteilen oder begrüßen? In der AfD wird heftig über den US-Angriff auf Venezuela diskutiert. Doch die Parteichefs Weidel und Chrupalla schweigen. Aus gutem Grund.",
+        "paragraphs": [
+          "Verurteilen oder begrüßen? In der AfD wird heftig über den US-Angriff auf Venezuela diskutiert. Doch die Parteichefs Weidel und Chrupalla schweigen. Aus gutem Grund."
+        ],
+        "link": "https://www.spiegel.de/politik/afd-zu-venezuela-warum-alice-weidel-und-tino-chrupalla-zum-us-angriff-auf-venezuela-schweigen-a-7b8b0944-3611-4023-b9b9-6b71cd0884f7#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-09T18:57:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-meloni-europa-soll-wieder-mit-russland-sprechen/27982126.html",
         "title": "+++ Ukraine-Krieg +++: Meloni: Europa soll wieder mit Russland sprechen",
@@ -432,20 +443,20 @@
         "link": "https://www.handelsblatt.com/politik/research_institute/hde-konsumbarometer-wann-wirds-mal-wieder-richtig-aufschwung/100189059.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-09T12:43:19.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/johann-wadephul-triff-us-aussenminister-marco-rubio-in-washington-d-c-a-3b87d607-aacf-4e26-a252-91b8ea44ed00",
-        "title": "Johann Wadephul triff US-Außenminister Marco Rubio in Washington, D.C.",
-        "summary": "Der deutsche Außenminister Johann Wadephul berät am Montag mit seinem US-Kollegen über »bilaterale Beziehungen, die Ukraine und transatlantische Sicherheitspolitik«. Auch Vizekanzler Lars Klingbeil reist nach Washington.",
-        "paragraphs": [
-          "Der deutsche Außenminister Johann Wadephul berät am Montag mit seinem US-Kollegen über »bilaterale Beziehungen, die Ukraine und transatlantische Sicherheitspolitik«. Auch Vizekanzler Lars Klingbeil reist nach Washington."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/johann-wadephul-triff-us-aussenminister-marco-rubio-in-washington-d-c-a-3b87d607-aacf-4e26-a252-91b8ea44ed00#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-09T12:18:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/live-legen-die-bayern-in-piraeus-nach-1181970/artikel#omrss",
+        "title": "LIVE! Legen die Bayern in Piräus nach?",
+        "summary": "Der Obst-Gala gegen Vitoria soll ein weiterer Sieg folgen: Der FC Bayern Basketball will auch am Abend bei Olympiakos Piräus bestehen.",
+        "paragraphs": [
+          "Der Obst-Gala gegen Vitoria soll ein weiterer Sieg folgen: Der FC Bayern Basketball will auch am Abend bei Olympiakos Piräus bestehen."
+        ],
+        "link": "https://www.kicker.de/live-legen-die-bayern-in-piraeus-nach-1181970/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-09T19:00:00.000Z"
+      },
       {
         "id": "{urn:uuid:2ec47a21-f6d4-4c9f-91b3-a4de2028fbef}",
         "title": "Motorsport: Ehemaliger Rennfahrer Hans Herrmann ist tot",
@@ -652,17 +663,6 @@
         "link": "https://www.sueddeutsche.de/sport/fussball-wm-dfb-nationalmannschaft-quartier-north-carolina-nagelsmann-li.3366089",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-09T15:15:58.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "title": "Guendouzi Rekordzugang bei Fener - Saka vor Verlängerung - Semenyo-Deal fix",
-        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
-        "paragraphs": [
-          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
-        ],
-        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-09T15:13:54.000Z"
       }
     ],
     "edv": [
