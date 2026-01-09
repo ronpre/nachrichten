@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-01-09T00:21:11.887Z",
+  "updatedAt": "2026-01-09T00:49:14.115Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/mercosur-abkommen-das-letzte-aufbaeumen-der-gegner-vor-der-entscheidung/100189047.html",
+        "title": "Handelsabkommen: Mercosur auf der Zielgeraden: Das letzte Aufbäumen der Gegner vor der Entscheidung",
+        "summary": "Das Handelsabkommen zwischen der EU und Südamerika steht kurz vor dem Abschluss. Während eine Mehrheit in Europa für den Deal stimmen will, eskaliert in Frankreich der Widerstand.",
+        "paragraphs": [
+          "Das Handelsabkommen zwischen der EU und Südamerika steht kurz vor dem Abschluss. Während eine Mehrheit in Europa für den Deal stimmen will, eskaliert in Frankreich der Widerstand."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/mercosur-abkommen-das-letzte-aufbaeumen-der-gegner-vor-der-entscheidung/100189047.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-09T00:41:02.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/eric-trump-im-interview-mein-vater-ist-der-groesste-kriegsgegner/100189313.html",
+        "title": "Interview: Eric Trump warnt: „Wenn Deutschland nicht reagiert, wird es wegen China keine Autoindustrie mehr haben“",
+        "summary": "Der Sohn des US-Präsidenten verteidigt zudem die Intervention in Venezuela und die Drohungen gegen Grönland – und hat klare Empfehlungen, wie man mit Donald Trump umgehen sollte.",
+        "paragraphs": [
+          "Der Sohn des US-Präsidenten verteidigt zudem die Intervention in Venezuela und die Drohungen gegen Grönland – und hat klare Empfehlungen, wie man mit Donald Trump umgehen sollte."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/eric-trump-im-interview-mein-vater-ist-der-groesste-kriegsgegner/100189313.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-09T00:22:43.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/usa-laut-trump-liegt-es-an-china-was-es-mit-blick-auf-taiwan-unternimmt/29669594.html",
         "title": "+++ USA +++: Laut Trump liegt es an China, was es mit Blick auf Taiwan unternimmt",
@@ -80,17 +102,6 @@
         "publishedAt": "2026-01-08T19:55:25.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/mercosur-abkommen-das-letzte-aufbaeumen-der-gegner-vor-der-entscheidung/100189047.html",
-        "title": "Handelsabkommen: Mercosur auf der Zielgeraden: Das letzte Aufbäumen der Gegner vor der Entscheidung",
-        "summary": "Das Handelsabkommen zwischen der EU und Südamerika steht kurz vor dem Abschluss. Während eine Mehrheit in Europa für den Deal stimmen will, eskaliert in Frankreich der Widerstand.",
-        "paragraphs": [
-          "Das Handelsabkommen zwischen der EU und Südamerika steht kurz vor dem Abschluss. Während eine Mehrheit in Europa für den Deal stimmen will, eskaliert in Frankreich der Widerstand."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/mercosur-abkommen-das-letzte-aufbaeumen-der-gegner-vor-der-entscheidung/100189047.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-08T19:25:35.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/international/venezuela-venezuelas-regierung-kuendigt-freilassung-vieler-haeftlinge-an/100188261.html",
         "title": "+++ Venezuela +++: Venezuelas Regierung kündigt Freilassung vieler Häftlinge an",
         "summary": "Ölkonzern Chevron will wieder mehr Öl aus Venezuela exportieren +++ Venezuela will wirtschaftliche Beziehungen diversifizieren +++ Der Newsblog.",
@@ -144,17 +155,6 @@
         "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/musterdepots/musterdepot-wie-lange-haelt-die-rally-es-ist-zeit-das-depot-zu-ueberpruefen/100189063.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-08T17:10:15.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/eric-trump-im-interview-mein-vater-ist-der-groesste-kriegsgegner/100189313.html",
-        "title": "Interview: Eric Trump warnt: „Wenn Deutschland nicht reagiert, wird es wegen China keine Autoindustrie mehr haben“",
-        "summary": "Der Sohn des US-Präsidenten verteidigt zudem die Intervention in Venezuela und die Drohungen gegen Grönland – und hat klare Empfehlungen, wie man mit Donald Trump umgehen sollte.",
-        "paragraphs": [
-          "Der Sohn des US-Präsidenten verteidigt zudem die Intervention in Venezuela und die Drohungen gegen Grönland – und hat klare Empfehlungen, wie man mit Donald Trump umgehen sollte."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/eric-trump-im-interview-mein-vater-ist-der-groesste-kriegsgegner/100189313.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-08T16:55:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-qualcomm-wird-primaerer-chiplieferant-von-vw/100189663.html",
@@ -225,15 +225,26 @@
     ],
     "politik": [
       {
-        "id": "li.3365217",
-        "title": "Politisches Chaos: Zwischen Freilassungen und Unterdrückung: Das gespaltene Venezuela nach dem Machtwechsel",
-        "summary": "In Caracas werden politische Gefangene freigelassen, gleichzeitig wachen Schlägertrupps der Regierung über die Ruhe auf den Straßen. Die Lage in Venezuela ist undurchsichtig - die Menschen begegnen dem Chaos fatalistisch.",
+        "id": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-ministerpraesident-haseloff-will-amt-vorzeitig-abgeben/100189743.html",
+        "title": "Sachsen-Anhalt: Ministerpräsident Haseloff will Amt vorzeitig abgeben",
+        "summary": "Der amtierende Ministerpräsident der CDU will dem Spitzenkandidaten seiner Partei wohl bessere Chancen bei der kommenden Wahl bescheren. Nun soll der Wechsel kommen.",
         "paragraphs": [
-          "In Caracas werden politische Gefangene freigelassen, gleichzeitig wachen Schlägertrupps der Regierung über die Ruhe auf den Straßen. Die Lage in Venezuela ist undurchsichtig - die Menschen begegnen dem Chaos fatalistisch."
+          "Der amtierende Ministerpräsident der CDU will dem Spitzenkandidaten seiner Partei wohl bessere Chancen bei der kommenden Wahl bescheren. Nun soll der Wechsel kommen."
         ],
-        "link": "https://www.sueddeutsche.de/politik/nicolas-maduro-caracas-politische-gefangene-militaer-li.3365217",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-09T00:10:24.000Z"
+        "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-ministerpraesident-haseloff-will-amt-vorzeitig-abgeben/100189743.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-09T00:37:55.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/eric-trump-im-interview-mein-vater-ist-der-groesste-kriegsgegner/100189313.html",
+        "title": "Interview: Eric Trump warnt: „Wenn Deutschland nicht reagiert, wird es wegen China keine Autoindustrie mehr haben“",
+        "summary": "Der Sohn des US-Präsidenten verteidigt zudem die Intervention in Venezuela und die Drohungen gegen Grönland – und hat klare Empfehlungen, wie man mit Donald Trump umgehen sollte.",
+        "paragraphs": [
+          "Der Sohn des US-Präsidenten verteidigt zudem die Intervention in Venezuela und die Drohungen gegen Grönland – und hat klare Empfehlungen, wie man mit Donald Trump umgehen sollte."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/eric-trump-im-interview-mein-vater-ist-der-groesste-kriegsgegner/100189313.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-09T00:22:43.000Z"
       },
       {
         "id": "{urn:uuid:83569479-d237-48bc-8069-4075fec533f9}",
@@ -432,17 +443,6 @@
         "link": "https://www.zeit.de/politik/ausland/2026-01/brasilien-praesident-lula-da-silva-jair-bolsonaro-haftverkuerzung-veto",
         "source": "ZEIT",
         "publishedAt": "2026-01-08T18:38:57.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/deutschland/bundestag-regierungsmitglieder-empfingen-mehrfach-cdu-grossspender-a-9d46a660-c8ee-4c7a-953f-15f4f4a8dcb5",
-        "title": "Bundestag: Regierungsmitglieder empfingen mehrfach CDU-Großspender",
-        "summary": "Die CDU erhält mehr Großspenden als andere Parteien. Linkenchef Jan van Aken wollte wissen, wie viele der reichen Spender mittlerweile direkten Kontakt zur Bundesregierung hatten.",
-        "paragraphs": [
-          "Die CDU erhält mehr Großspenden als andere Parteien. Linkenchef Jan van Aken wollte wissen, wie viele der reichen Spender mittlerweile direkten Kontakt zur Bundesregierung hatten."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/bundestag-regierungsmitglieder-empfingen-mehrfach-cdu-grossspender-a-9d46a660-c8ee-4c7a-953f-15f4f4a8dcb5#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-08T18:38:00.000Z"
       }
     ],
     "sport": [
