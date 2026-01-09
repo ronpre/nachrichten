@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-09T07:48:30.337Z",
+  "updatedAt": "2026-01-09T07:56:04.151Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:38b2f202-b93e-4ecc-ac2f-34c652da2bf0}",
+        "title": "Außenhandel: Deutsche Exporte schrumpfen wie seit anderthalb Jahren nicht mehr",
+        "summary": "Wegen schwächerer Nachfrage aus den USA und Europa sind die Exporte aus Deutschland im November deutlich zurückgegangen. Gleichzeitig stiegen die Importe.",
+        "paragraphs": [
+          "Wegen schwächerer Nachfrage aus den USA und Europa sind die Exporte aus Deutschland im November deutlich zurückgegangen. Gleichzeitig stiegen die Importe."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/exporte-rueckgang-destatis-deutschland",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-09T07:47:33.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-daempfer-fuer-exportwirtschaft-im-november-produktion-zieht-an/100189936.html",
         "title": "Konjunktur: Deutsche Exporte mit kräftigstem Rückgang seit anderthalb Jahren – Produktion zieht an",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/immobilienkaeufe-wohninvestments-2025-mehr-dynamik-zum-jahresende/100189445.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-09T05:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/naturgewalten-welche-standorte-vom-klimawandel-besonders-gefaehrdet-sind/100189294.html",
-        "title": "Naturgewalten: Welche Standorte vom Klimawandel besonders gefährdet sind",
-        "summary": "Starkregen und Stürme verursachten 2025 zwar weniger Schäden in Deutschland, dennoch steigen die Klimarisiken. Ein neuer Index zeigt, welche Regionen besonders gefährdet sind.",
-        "paragraphs": [
-          "Starkregen und Stürme verursachten 2025 zwar weniger Schäden in Deutschland, dennoch steigen die Klimarisiken. Ein neuer Index zeigt, welche Regionen besonders gefährdet sind."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/inside-energie-und-immobilien/naturgewalten-welche-standorte-vom-klimawandel-besonders-gefaehrdet-sind/100189294.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-09T05:00:00.000Z"
       }
     ],
     "politik": [
@@ -374,7 +374,7 @@
         "paragraphs": [
           "Tränengas, brennende Fahrzeuge und abgeschaltetes Internet: In Iran eskalieren die Proteste. Was Augenzeugen über einen dramatischen Abend in Teheran und einer anderen Metropole berichten."
         ],
-        "link": "https://www.sueddeutsche.de/politik/iran-teheran-massendemonstrationen-li.3365553",
+        "link": "https://www.sueddeutsche.de/politik/iran-teheran-massendemonstrationen-regime-internet-li.3365553",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-09T04:30:29.000Z"
       },
