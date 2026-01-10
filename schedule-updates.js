@@ -12,6 +12,16 @@ const TASKS = [
   { label: "history", script: "update-history.js" }
 ];
 
+const ARGUMENTS = process.argv.slice(2);
+let ACTIVE_TASKS;
+
+try {
+  ACTIVE_TASKS = selectTasks(TASKS, parseTaskFilters(ARGUMENTS));
+} catch (error) {
+  console.error(error.message);
+  process.exit(1);
+}
+
 function ensureLogDir() {
   if (!logDirReady) {
     logDirReady = fs.mkdir(LOG_DIR, { recursive: true }).catch((error) => {
@@ -81,15 +91,116 @@ function runScript(label, scriptPath) {
   });
 }
 
-async function runManualUpdates() {
+function parseTaskFilters(argv) {
+  const options = { only: null, skip: new Set() };
+  let index = 0;
+
+  while (index < argv.length) {
+    const arg = argv[index];
+    if (arg === "--help" || arg === "-h") {
+      printUsageAndExit(0);
+    } else if (arg === "--only") {
+      const next = argv[index + 1];
+      if (!next) {
+        console.error("Option --only erwartet eine kommaseparierte Taskliste (z. B. --only news,history).");
+        printUsageAndExit(1);
+      }
+      options.only = new Set(parseListArgument(next));
+      index += 2;
+      continue;
+    } else if (arg.startsWith("--only=")) {
+      options.only = new Set(parseListArgument(arg.split("=")[1] ?? ""));
+      index += 1;
+      continue;
+    } else if (arg === "--skip") {
+      const next = argv[index + 1];
+      if (!next) {
+        console.error("Option --skip erwartet eine kommaseparierte Taskliste (z. B. --skip history).");
+        printUsageAndExit(1);
+      }
+      parseListArgument(next).forEach((task) => options.skip.add(task));
+      index += 2;
+      continue;
+    } else if (arg.startsWith("--skip=")) {
+      parseListArgument(arg.split("=")[1] ?? "").forEach((task) => options.skip.add(task));
+      index += 1;
+      continue;
+    } else {
+      console.warn(`Unbekannte Option ignoriert: ${arg}`);
+      index += 1;
+    }
+  }
+
+  return options;
+}
+
+function parseListArgument(value) {
+  if (!value) {
+    return [];
+  }
+
+  return value
+    .split(",")
+    .map((entry) => entry.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+function selectTasks(allTasks, filters) {
+  const validLabels = new Set(allTasks.map((task) => task.label));
+  const normalizeSet = (setOrNull, label) => {
+    if (!setOrNull || !setOrNull.size) return null;
+    const filtered = new Set();
+    for (const name of setOrNull) {
+      if (validLabels.has(name)) {
+        filtered.add(name);
+      } else {
+        console.warn(`Ignoriere unbekannten Task "${name}" in ${label}.`);
+      }
+    }
+    return filtered.size ? filtered : null;
+  };
+
+  const onlySet = normalizeSet(filters.only, "--only");
+  const skipSet = normalizeSet(filters.skip, "--skip");
+
+  const resolved = allTasks.filter((task) => {
+    if (onlySet && !onlySet.has(task.label)) {
+      return false;
+    }
+    if (skipSet && skipSet.has(task.label)) {
+      return false;
+    }
+    return true;
+  });
+
+  if (!resolved.length) {
+    throw new Error("Keine Tasks nach Filtereinstellungen verfügbar.");
+  }
+
+  return resolved;
+}
+
+function printUsageAndExit(code = 0) {
+  console.log(`Verwendung: node schedule-updates.js [Optionen]
+
+Optionen:
+  --only news,history   Nur die angegebenen Tasks ausführen.
+  --skip history        Angegebene Tasks überspringen.
+  -h, --help            Diese Hilfe anzeigen.
+`);
+  process.exit(code);
+}
+
+async function runManualUpdates(selectedTasks) {
   await ensureLogDir();
-  for (const task of TASKS) {
+  log(`Aktive Tasks: ${selectedTasks.map((task) => task.label).join(", ")}`);
+  for (const task of selectedTasks) {
     await runScript(task.label, task.script);
   }
   log("Alle manuellen Updates abgeschlossen. Anwendung kann beendet werden.");
 }
 
-runManualUpdates().catch((error) => {
+runManualUpdates(ACTIVE_TASKS).catch((error) => {
   log(`Manueller Lauf fehlgeschlagen: ${error.message}`);
   process.exitCode = 1;
 });
