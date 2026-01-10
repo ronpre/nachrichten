@@ -652,25 +652,15 @@ async function persistHistoryLog(log, newlyUsedIds) {
 }
 
 function pickArticles(limit = DAILY_LIMIT, usedHistoryIds = []) {
-  let remainingUsed = Array.isArray(usedHistoryIds) ? [...usedHistoryIds] : [];
-  let eligible = buildEligibleHistory(remainingUsed);
+  const eligible = buildEligibleHistory(Array.isArray(usedHistoryIds) ? usedHistoryIds : []);
 
-  while (eligible.length < limit) {
-    if (!remainingUsed.length) {
-      throw new Error(
-        `Nur ${eligible.length} kuratierte Ereignisse verfügbar, aber ${limit} erforderlich. Bitte neue Artikel ergänzen.`
-      );
-    }
-    const releaseCount = Math.min(Math.max(limit - eligible.length, 1), remainingUsed.length);
-    console.warn(
-      `History-Pool erschöpft: entferne ${releaseCount} ältere IDs aus dem Log, damit frische Artikel zur Verfügung stehen.`
+  if (eligible.length < limit) {
+    throw new Error(
+      `Nur ${eligible.length} unverbrauchte Ereignisse verfügbar, aber ${limit} erforderlich. Bitte neue Artikel ergänzen, damit keine Wiederholungen nötig sind.`
     );
-    remainingUsed = remainingUsed.slice(releaseCount);
-    eligible = buildEligibleHistory(remainingUsed);
   }
 
-  const selection = shuffle(eligible).slice(0, limit).sort((a, b) => b.year - a.year);
-  return { selection, remainingUsed };
+  return shuffle(eligible).slice(0, limit).sort((a, b) => b.year - a.year);
 }
 
 async function saveGeschichte(articles) {
@@ -700,8 +690,7 @@ async function main() {
   const usedHistoryIds = Array.isArray(historyLog.used_history_ids)
     ? historyLog.used_history_ids
     : [];
-  const { selection: articles, remainingUsed } = pickArticles(DAILY_LIMIT, usedHistoryIds);
-  historyLog.used_history_ids = remainingUsed;
+  const articles = pickArticles(DAILY_LIMIT, usedHistoryIds);
   const payload = await saveGeschichte(articles);
   await persistHistoryLog(historyLog, articles.map((article) => article.id));
   console.log(
