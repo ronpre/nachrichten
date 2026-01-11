@@ -9,6 +9,7 @@ const HISTORY_LOG_FILE = path.join(__dirname, "history_log.json");
 const DAILY_LIMIT = 5;
 const MAX_YEAR = 2020;
 const MIN_YEAR = -100; // 100 v. Chr.
+const HISTORY_RECYCLE_BATCH = 5;
 
 const CURATED_ARTICLES = [
   {
@@ -612,6 +613,44 @@ const VALID_HISTORY_ITEMS = CURATED_ARTICLES.filter(
   (item) => item.year >= MIN_YEAR && item.year <= MAX_YEAR
 );
 
+function historyShortageError(available, limit = DAILY_LIMIT) {
+  const error = new Error(
+    `Nur ${available} unverbrauchte Ereignisse verfügbar, aber ${limit} erforderlich. Bitte neue Artikel ergänzen, damit keine Wiederholungen nötig sind.`
+  );
+  error.code = "HISTORY_POOL_EMPTY";
+  return error;
+}
+
+function getUsedHistoryIds(log) {
+  return Array.isArray(log?.used_history_ids) ? log.used_history_ids : [];
+}
+
+function recycleHistoryPool(historyLog, shortfall) {
+  const usedHistoryIds = getUsedHistoryIds(historyLog);
+  if (!usedHistoryIds.length) {
+    return { updatedLog: historyLog, releasedIds: [] };
+  }
+
+  const minimumToFree = Math.max(shortfall, HISTORY_RECYCLE_BATCH);
+  const releaseCount = Math.min(minimumToFree, usedHistoryIds.length);
+  const releasedIds = usedHistoryIds.slice(0, releaseCount);
+  const remainingIds = usedHistoryIds.slice(releaseCount);
+
+  if (releasedIds.length) {
+    console.error(
+      `History-Pool erschöpft: entferne ${releasedIds.length} ältere IDs aus dem Log, damit frische Artikel zur Verfügung stehen.`
+    );
+  }
+
+  return {
+    updatedLog: {
+      ...historyLog,
+      used_history_ids: remainingIds
+    },
+    releasedIds
+  };
+}
+
 function buildEligibleHistory(usedHistoryIds = []) {
   const usedSet = new Set(usedHistoryIds);
   return VALID_HISTORY_ITEMS.filter((item) => !usedSet.has(item.id));
@@ -655,9 +694,7 @@ function pickArticles(limit = DAILY_LIMIT, usedHistoryIds = []) {
   const eligible = buildEligibleHistory(Array.isArray(usedHistoryIds) ? usedHistoryIds : []);
 
   if (eligible.length < limit) {
-    throw new Error(
-      `Nur ${eligible.length} unverbrauchte Ereignisse verfügbar, aber ${limit} erforderlich. Bitte neue Artikel ergänzen, damit keine Wiederholungen nötig sind.`
-    );
+    throw historyShortageError(eligible.length, limit);
   }
 
   return shuffle(eligible).slice(0, limit).sort((a, b) => b.year - a.year);
@@ -686,10 +723,22 @@ async function saveGeschichte(articles) {
 }
 
 async function main() {
-  const historyLog = await loadHistoryLog();
-  const usedHistoryIds = Array.isArray(historyLog.used_history_ids)
-    ? historyLog.used_history_ids
-    : [];
+  let historyLog = await loadHistoryLog();
+  let usedHistoryIds = getUsedHistoryIds(historyLog);
+  let eligibleCount = buildEligibleHistory(usedHistoryIds).length;
+
+  if (eligibleCount < DAILY_LIMIT) {
+    const shortfall = DAILY_LIMIT - eligibleCount;
+    const { updatedLog, releasedIds } = recycleHistoryPool(historyLog, shortfall);
+    historyLog = updatedLog;
+    usedHistoryIds = getUsedHistoryIds(historyLog);
+    eligibleCount = buildEligibleHistory(usedHistoryIds).length;
+
+    if (!releasedIds.length || eligibleCount < DAILY_LIMIT) {
+      throw historyShortageError(eligibleCount, DAILY_LIMIT);
+    }
+  }
+
   const articles = pickArticles(DAILY_LIMIT, usedHistoryIds);
   const payload = await saveGeschichte(articles);
   await persistHistoryLog(historyLog, articles.map((article) => article.id));

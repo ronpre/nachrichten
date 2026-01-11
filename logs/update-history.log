@@ -28,3 +28,11 @@ Geschichte-Update fehlgeschlagen Error: Nur 4 ungenutzte Ereignisse verfügbar, 
 [2026-01-10T09:05:04.796Z] Geschichte aktualisiert (5 kuratierte Artikel).
 [2026-01-10T09:05:04.796Z] stderr: History-Pool erschöpft: entferne 5 ältere IDs aus dem Log, damit frische Artikel zur Verfügung stehen.
 [2026-01-10T09:05:04.796Z] Job abgeschlossen.
+[2026-01-11T09:05:41.314Z] stderr: Geschichte-Update fehlgeschlagen Error: Nur 0 unverbrauchte Ereignisse verfügbar, aber 5 erforderlich. Bitte neue Artikel ergänzen, damit keine Wiederholungen nötig sind.
+[2026-01-11T09:05:41.315Z] stderr:     at pickArticles (file:///home/rp/Dokumente/projekte/nachrichten/update-history.js:658:11)
+[2026-01-11T09:05:41.315Z] stderr:     at main (file:///home/rp/Dokumente/projekte/nachrichten/update-history.js:693:20)
+[2026-01-11T09:05:41.315Z] Fehler: Command failed: /usr/bin/node /home/rp/Dokumente/projekte/nachrichten/update-history.js
+Geschichte-Update fehlgeschlagen Error: Nur 0 unverbrauchte Ereignisse verfügbar, aber 5 erforderlich. Bitte neue Artikel ergänzen, damit keine Wiederholungen nötig sind.
+    at pickArticles (file:///home/rp/Dokumente/projekte/nachrichten/update-history.js:658:11)
+    at main (file:///home/rp/Dokumente/projekte/nachrichten/update-history.js:693:20)
+
