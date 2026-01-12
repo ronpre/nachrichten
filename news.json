@@ -1,7 +1,40 @@
 {
-  "updatedAt": "2026-01-12T15:58:40.567Z",
+  "updatedAt": "2026-01-12T16:12:54.165Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:9cb6164b-7544-4fa9-a428-63aaaa19cd60}",
+        "title": "Abschiebungen: Eine Abschiebeoffensive wäre ökonomischer Unsinn",
+        "summary": "Die CSU will Hunderttausende abschieben. Das wäre ein Wohlstandsrisiko. Flüchtlinge arbeiten oft in systemrelevanten Berufen und stabilisieren die Sozialkassen.",
+        "paragraphs": [
+          "Die CSU will Hunderttausende abschieben. Das wäre ein Wohlstandsrisiko. Flüchtlinge arbeiten oft in systemrelevanten Berufen und stabilisieren die Sozialkassen."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/abschiebungen-csu-migration-arbeitsmarkt-wirtschaft-marcel-fratzscher",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-12T15:59:58.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-warum-audi-bmw-und-mercedes-noch-immer-am-diesel-festhalten-03/100178724.html",
+        "title": "Selbstzünder: Warum Audi, BMW und Mercedes noch immer am Diesel festhalten",
+        "summary": "Deutsche Pkw-Hersteller verkaufen entgegen dem Branchentrend noch immer mehr Diesel- als Elektrofahrzeuge – und entwickeln sogar neue Dieselaggregate. Das stellt sie vor Probleme.",
+        "paragraphs": [
+          "Deutsche Pkw-Hersteller verkaufen entgegen dem Branchentrend noch immer mehr Diesel- als Elektrofahrzeuge – und entwickeln sogar neue Dieselaggregate. Das stellt sie vor Probleme."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-warum-audi-bmw-und-mercedes-noch-immer-am-diesel-festhalten-03/100178724.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-12T15:57:00.000Z"
+      },
+      {
+        "id": "li.3367012",
+        "title": "Milliardenzuschüsse: Bundestag will strengere Kontrolle der Bahn, das Ministerium winkt ab",
+        "summary": "Die Deutsche Bahn bekommt 2026 noch mal mehr Geld vom Bund. Doch die Abgeordneten befürchten, dass der Konzern es nicht sparsam einsetzt.",
+        "paragraphs": [
+          "Die Deutsche Bahn bekommt 2026 noch mal mehr Geld vom Bund. Doch die Abgeordneten befürchten, dass der Konzern es nicht sparsam einsetzt."
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/deutsche-bahn-milliarden-geld-verschwendung-vorwurf-li.3367012",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-12T15:51:58.000Z"
+      },
       {
         "id": "{urn:uuid:c7977ef3-a0a3-43fe-9d92-b72af9a3d7b8}",
         "title": "US-Notenbank Fed: Was hinter Donald Trumps Angriff auf Fed-Chef Powell steckt",
@@ -188,39 +221,6 @@
         "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/partnerschaft-geld-kann-sehr-verbindend-sein/100023185.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-12T14:52:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/private-equity-fonds-darauf-ist-bei-investments-in-eltifs-zu-achten/100155491.html",
-        "title": "Fonds: Private Equity für Privatanleger: Worauf Investoren achten sollten",
-        "summary": "Immer mehr Fondsanbieter werben bei Privatanlegern für Investments abseits der Börse. Sogar Neobroker bieten inzwischen Zugang. Für wen kann sich das lohnen?",
-        "paragraphs": [
-          "Immer mehr Fondsanbieter werben bei Privatanlegern für Investments abseits der Börse. Sogar Neobroker bieten inzwischen Zugang. Für wen kann sich das lohnen?"
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/private-equity-fonds-darauf-ist-bei-investments-in-eltifs-zu-achten/100155491.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-12T14:50:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/ruhestand-es-lohnt-sich-nach-dem-inneren-frieden-zu-suchen/100046226.html",
-        "title": "Interview: „... und dann folgt eine gewisse Leere“ – Expertin warnt vor dem Leben ohne Arbeit",
-        "summary": "Psychologin Monika Müller über Identitätskrisen in der Rente, einen Muskel namens Selbstbestimmtheit und warum Glück im Ruhestand nicht unbedingt etwas mit Geld zu tun hat.",
-        "paragraphs": [
-          "Psychologin Monika Müller über Identitätskrisen in der Rente, einen Muskel namens Selbstbestimmtheit und warum Glück im Ruhestand nicht unbedingt etwas mit Geld zu tun hat."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/ruhestand-es-lohnt-sich-nach-dem-inneren-frieden-zu-suchen/100046226.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-12T14:50:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-mercedes-aendert-strategie-beim-autonomen-fahren-02/100182923.html",
-        "title": "Autobauer: Bis zu siebenfache Kosten in der Entwicklung: Mercedes ändert Strategie beim autonomen Fahren",
-        "summary": "Die S-Klasse ermöglicht Fahrern, am Steuer Filme zu schauen. In der nächsten Version schränkt der Konzern das autonome Fahren wohl vorerst wieder ein – und setzt auf einen neuen Assistenten.",
-        "paragraphs": [
-          "Die S-Klasse ermöglicht Fahrern, am Steuer Filme zu schauen. In der nächsten Version schränkt der Konzern das autonome Fahren wohl vorerst wieder ein – und setzt auf einen neuen Assistenten."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-mercedes-aendert-strategie-beim-autonomen-fahren-02/100182923.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-12T14:49:00.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/valorant-guides-und-strategien-fuer-anfaenger-und-fortgeschrittene-1118491/artikel#omrss",
+        "title": "Valorant: Guides und Strategien für Anfänger und Fortgeschrittene",
+        "summary": "Ob Agentenwahl, Mapkenntnis oder Waffenhandling: Wer in Valorant gewinnen will, braucht mehr als nur gutes Aim.",
+        "paragraphs": [
+          "Ob Agentenwahl, Mapkenntnis oder Waffenhandling: Wer in Valorant gewinnen will, braucht mehr als nur gutes Aim."
+        ],
+        "link": "https://www.kicker.de/valorant-guides-und-strategien-fuer-anfaenger-und-fortgeschrittene-1118491/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-12T16:08:59.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/sport/american-football/chicago-bears-nfl-playoffs-warum-die-menschen-ueberall-in-illinois-kaese-reiben-a-f8e231ca-bb1b-407a-ad5a-a99bf3f1dc26",
+        "title": "Chicago Bears – NFL-Playoffs: Warum die Menschen überall in Illinois Käse reiben",
+        "summary": "Männer tragen Käsereiben aus Schaumstoff auf dem Kopf, Kinder raspeln das Milchprodukt auf der heimischen Veranda. In ganz Illinois ist der Käse los. Der Grund dafür liegt natürlich im Football.",
+        "paragraphs": [
+          "Männer tragen Käsereiben aus Schaumstoff auf dem Kopf, Kinder raspeln das Milchprodukt auf der heimischen Veranda. In ganz Illinois ist der Käse los. Der Grund dafür liegt natürlich im Football."
+        ],
+        "link": "https://www.spiegel.de/sport/american-football/chicago-bears-nfl-playoffs-warum-die-menschen-ueberall-in-illinois-kaese-reiben-a-f8e231ca-bb1b-407a-ad5a-a99bf3f1dc26#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-12T16:00:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/katar-will-offenbar-klub-wm-der-frauen-2028-austragen-1183064/artikel#omrss",
+        "title": "Katar will offenbar Klub-WM der Frauen 2028 austragen",
+        "summary": "Katar bemüht sich um die Austragung der Frauen-Klub-WM 2028. Der Termin wird unabhängig vom Ausrichterland zu Problemen mit den Ligakalendern führen.",
+        "paragraphs": [
+          "Katar bemüht sich um die Austragung der Frauen-Klub-WM 2028. Der Termin wird unabhängig vom Ausrichterland zu Problemen mit den Ligakalendern führen."
+        ],
+        "link": "https://www.kicker.de/katar-will-offenbar-klub-wm-der-frauen-2028-austragen-1183064/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-12T15:59:28.000Z"
+      },
+      {
         "id": "li.3367078",
         "title": "Fußball-Bundesliga: Die Diktatur der Bayern ist nicht liebenswert, verdient aber Respekt",
         "summary": "Das Neueste von den Chaos-Bayern? Solche Schlagzeilen gibt’s in dieser Saison nicht. Der Zauber der Münchner Erfolgsserie steckt in den Details, und nicht mal der Torjäger taugt zum Unsympathen.",
@@ -632,42 +665,20 @@
         "link": "https://www.kicker.de/bayern-muss-vorerst-auf-stanisic-verzichten-1183046/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-12T14:07:45.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/legendaeres-ende-fuer-einen-emotionalen-afrika-cup-1183058/video#omrss",
-        "title": "\"Legendäres Ende\" für einen emotionalen Afrika-Cup?",
-        "summary": "Der Afrika-Cup sorgt in Marokko für große Emotionen, aktuell eher im positiven Sinne. Einen kleinen Vorgeschmack, welche Auswirkungen ein vorzeitiges Aus des Gastgebers haben könnte, gab es bei der Partie zwischen Algerien und Nigeria.",
-        "paragraphs": [
-          "Der Afrika-Cup sorgt in Marokko für große Emotionen, aktuell eher im positiven Sinne. Einen kleinen Vorgeschmack, welche Auswirkungen ein vorzeitiges Aus des Gastgebers haben könnte, gab es bei der Partie zwischen Algerien und Nigeria."
-        ],
-        "link": "https://www.kicker.de/legendaeres-ende-fuer-einen-emotionalen-afrika-cup-1183058/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-12T14:03:18.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/spieler-verfolgen-schiedsrichter-algerien-droht-nachspiel-1183065/artikel#omrss",
-        "title": "Spieler verfolgen Schiedsrichter: Algerien droht Nachspiel",
-        "summary": "Auf Algerien könnte nach dem Aus im Afrika-Cup-Viertelfinale ein Nachspiel zukommen. Der Kontinentalverband hat Untersuchungen eingeleitet.",
-        "paragraphs": [
-          "Auf Algerien könnte nach dem Aus im Afrika-Cup-Viertelfinale ein Nachspiel zukommen. Der Kontinentalverband hat Untersuchungen eingeleitet."
-        ],
-        "link": "https://www.kicker.de/spieler-verfolgen-schiedsrichter-algerien-droht-nachspiel-1183065/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-12T13:59:27.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/er-kuemmert-sich-huerzeler-schwaermt-von-rueckkehrer-gross-1183055/video#omrss",
-        "title": "\"Er kümmert sich\": Hürzeler schwärmt von Rückkehrer Groß",
-        "summary": "Fabian Hürzeler und Brighton & Hove Albion werfen Manchester United aus dem FA Cup. Nach dem 2:1-Sieg lobte der deutsche Trainer die Qualitäten von Rückkehrer Pascal Groß.",
-        "paragraphs": [
-          "Fabian Hürzeler und Brighton & Hove Albion werfen Manchester United aus dem FA Cup. Nach dem 2:1-Sieg lobte der deutsche Trainer die Qualitäten von Rückkehrer Pascal Groß."
-        ],
-        "link": "https://www.kicker.de/er-kuemmert-sich-huerzeler-schwaermt-von-rueckkehrer-gross-1183055/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-12T13:56:34.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/hintergrund/Displaytrends-von-der-CES-11137501.html",
+        "title": "heise+ | Displaytrends von der CES",
+        "summary": "Bei großen Displays dominiert die LCD-Technik. Die Hersteller feilen an der Hintergrundbeleuchtung des Flüssigkristalls und sie spendieren den OLEDs neue Pixel.",
+        "paragraphs": [
+          "Bei großen Displays dominiert die LCD-Technik. Die Hersteller feilen an der Hintergrundbeleuchtung des Flüssigkristalls und sie spendieren den OLEDs neue Pixel."
+        ],
+        "link": "https://www.heise.de/hintergrund/Displaytrends-von-der-CES-11137501.html",
+        "source": "c't",
+        "publishedAt": "2026-01-12T16:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Elektroauto-Xiaomi-SU7-bekommt-umfassende-Modellpflege-11137788.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Elektroauto Xiaomi SU7 bekommt umfassende Modellpflege",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Uebersicht-Was-Tim-Cook-Co-2025-verdient-haben-11137128.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-12T11:28:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Bemannte-Mondmission-Artemis-2-NASA-Riesenrakete-vor-ihrem-Weg-zur-Startrampe-11137593.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Bemannte Mondmission Artemis-2: NASA-Riesenrakete vor ihrem Weg zur Startrampe",
-        "summary": "Im Februar könnten nach 53 Jahren erstmals wieder Menschen zum Mond starten. Die NASA beginnt jetzt mit den letzten nötigen Vorbereitungen für Artemis-2.",
-        "paragraphs": [
-          "Im Februar könnten nach 53 Jahren erstmals wieder Menschen zum Mond starten. Die NASA beginnt jetzt mit den letzten nötigen Vorbereitungen für Artemis-2."
-        ],
-        "link": "https://www.heise.de/news/Bemannte-Mondmission-Artemis-2-NASA-Riesenrakete-vor-ihrem-Weg-zur-Startrampe-11137593.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-12T11:24:00.000Z"
       }
     ]
   }
