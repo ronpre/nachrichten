@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-13T04:38:16.744Z",
+  "updatedAt": "2026-01-13T04:55:17.974Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:32f2be4a-622e-41f1-98c2-576178ad016a}",
+        "title": "Scheidungsanwalt für Superreiche: \"Dann raten wir: Trennen Sie sich jetzt, solange es weniger kostet\"",
+        "summary": "Ultrareiche kommen zu ihm, wenn sie sich scheiden wollen. Ein Londoner Spitzenanwalt spricht über deutsche Mandanten, Machtfragen in Ehen und strategische Entscheidungen.",
+        "paragraphs": [
+          "Ultrareiche kommen zu ihm, wenn sie sich scheiden wollen. Ein Londoner Spitzenanwalt spricht über deutsche Mandanten, Machtfragen in Ehen und strategische Entscheidungen."
+        ],
+        "link": "https://www.zeit.de/geld/2025-12/scheidungsanwalt-superreiche-eheprobleme-timing-vermoegen",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-13T04:44:18.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/chip-und-sensorhersteller-ams-osram-will-mit-verkaeufen-schulden-abbauen/100190842.html",
         "title": "Chip- und Sensorhersteller: AMS-Osram will mit Verkäufen Schulden abbauen",
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/politik/international/osteuropa-praesidentin-von-moldau-plaediert-fuer-vereinigung-mit-rumaenien/100190799.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-12T17:57:42.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/stromnetze-koalition-ebnet-weg-fuer-einstieg-beim-netzbetreiber-tennet/100190763.html",
-        "title": "Stromnetze: Koalition ebnet Weg für Einstieg beim Netzbetreiber Tennet",
-        "summary": "Die Beteiligung des Bundes beim Netzbetreiber Tennet steht kurz bevor. Am Freitag soll der Haushaltsausschuss des Bundestags die entsprechenden Mittel freigeben. Es geht um Milliarden.",
-        "paragraphs": [
-          "Die Beteiligung des Bundes beim Netzbetreiber Tennet steht kurz bevor. Am Freitag soll der Haushaltsausschuss des Bundestags die entsprechenden Mittel freigeben. Es geht um Milliarden."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/stromnetze-koalition-ebnet-weg-fuer-einstieg-beim-netzbetreiber-tennet/100190763.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-12T17:56:06.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/news-marine-le-pen-frankreich-syrien-ukraine-wladimir-putin-a-b1aa7222-5db5-49cf-9759-2bc4413149c1",
+        "title": "News: Marine Le Pen, Frankreich, Syrien, Ukraine, Wladimir Putin",
+        "summary": "Die französische Rechtspopulistin Marine Le Pen muss sich vor Gericht verantworten. In Syrien bangen Minderheiten um ihr Leben. Und: Putin setzt im Ukrainekrieg auf Zermürbung. Das ist die Lage am Dienstagmorgen.",
+        "paragraphs": [
+          "Die französische Rechtspopulistin Marine Le Pen muss sich vor Gericht verantworten. In Syrien bangen Minderheiten um ihr Leben. Und: Putin setzt im Ukrainekrieg auf Zermürbung. Das ist die Lage am Dienstagmorgen."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/news-marine-le-pen-frankreich-syrien-ukraine-wladimir-putin-a-b1aa7222-5db5-49cf-9759-2bc4413149c1#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-13T04:42:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/ki-bund-will-ai-gigafactory-foerdern-und-seine-rolle-als-kunde-klaeren/100190575.html",
         "title": "KI: Bund will AI Gigafactory fördern – und seine Rolle als Kunde klären",
@@ -432,17 +443,6 @@
         "link": "https://www.handelsblatt.com/politik/international/china-wie-peking-chrupalla-empfaengt-und-die-afd-sondiert/100190571.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-12T14:27:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/autoindustrie-eu-will-e-auto-zoelle-fuer-hersteller-aus-china-streichen/100190656.html",
-        "title": "Mindestpreis statt Zölle: EU will E-Auto-Zölle für Hersteller aus China streichen",
-        "summary": "Die chinesischen Autohersteller drängen nach Europa. Die EU-Kommission hatte zuletzt mit hohen Importzöllen gekontert. Nun strebt sie eine andere Lösung des Handelskonflikts an.",
-        "paragraphs": [
-          "Die chinesischen Autohersteller drängen nach Europa. Die EU-Kommission hatte zuletzt mit hohen Importzöllen gekontert. Nun strebt sie eine andere Lösung des Handelskonflikts an."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/autoindustrie-eu-will-e-auto-zoelle-fuer-hersteller-aus-china-streichen/100190656.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-12T14:09:22.000Z"
       }
     ],
     "sport": [
@@ -455,7 +455,7 @@
         ],
         "link": "https://www.spiegel.de/sport/bauchmuskeln-fuer-ein-sixpack-braucht-man-keine-sit-ups-a-8e094e5c-7790-4ad4-b308-9b4e2aa62e1e#ref=rss",
         "source": "SPIEGEL",
-        "publishedAt": "2026-01-13T04:30:00.000Z"
+        "publishedAt": "2026-01-13T04:44:00.000Z"
       },
       {
         "id": "https://www.kicker.de/torwart-unueberwindbar-psg-scheitert-ueberraschend-am-stadtkonkurrenten-1183187/video#omrss",
