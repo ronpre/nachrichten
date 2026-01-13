@@ -9,7 +9,6 @@ const HISTORY_LOG_FILE = path.join(__dirname, "history_log.json");
 const DAILY_LIMIT = 5;
 const MAX_YEAR = 2020;
 const MIN_YEAR = -100; // 100 v. Chr.
-const HISTORY_RECYCLE_BATCH = 5;
 
 const CURATED_ARTICLES = [
   {
@@ -625,32 +624,6 @@ function getUsedHistoryIds(log) {
   return Array.isArray(log?.used_history_ids) ? log.used_history_ids : [];
 }
 
-function recycleHistoryPool(historyLog, shortfall) {
-  const usedHistoryIds = getUsedHistoryIds(historyLog);
-  if (!usedHistoryIds.length) {
-    return { updatedLog: historyLog, releasedIds: [] };
-  }
-
-  const minimumToFree = Math.max(shortfall, HISTORY_RECYCLE_BATCH);
-  const releaseCount = Math.min(minimumToFree, usedHistoryIds.length);
-  const releasedIds = usedHistoryIds.slice(0, releaseCount);
-  const remainingIds = usedHistoryIds.slice(releaseCount);
-
-  if (releasedIds.length) {
-    console.error(
-      `History-Pool erschöpft: entferne ${releasedIds.length} ältere IDs aus dem Log, damit frische Artikel zur Verfügung stehen.`
-    );
-  }
-
-  return {
-    updatedLog: {
-      ...historyLog,
-      used_history_ids: remainingIds
-    },
-    releasedIds
-  };
-}
-
 function buildEligibleHistory(usedHistoryIds = []) {
   const usedSet = new Set(usedHistoryIds);
   return VALID_HISTORY_ITEMS.filter((item) => !usedSet.has(item.id));
@@ -723,20 +696,12 @@ async function saveGeschichte(articles) {
 }
 
 async function main() {
-  let historyLog = await loadHistoryLog();
-  let usedHistoryIds = getUsedHistoryIds(historyLog);
-  let eligibleCount = buildEligibleHistory(usedHistoryIds).length;
+  const historyLog = await loadHistoryLog();
+  const usedHistoryIds = getUsedHistoryIds(historyLog);
+  const eligibleCount = buildEligibleHistory(usedHistoryIds).length;
 
   if (eligibleCount < DAILY_LIMIT) {
-    const shortfall = DAILY_LIMIT - eligibleCount;
-    const { updatedLog, releasedIds } = recycleHistoryPool(historyLog, shortfall);
-    historyLog = updatedLog;
-    usedHistoryIds = getUsedHistoryIds(historyLog);
-    eligibleCount = buildEligibleHistory(usedHistoryIds).length;
-
-    if (!releasedIds.length || eligibleCount < DAILY_LIMIT) {
-      throw historyShortageError(eligibleCount, DAILY_LIMIT);
-    }
+    throw historyShortageError(eligibleCount, DAILY_LIMIT);
   }
 
   const articles = pickArticles(DAILY_LIMIT, usedHistoryIds);
