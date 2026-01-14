@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-14T09:48:45.392Z",
+  "updatedAt": "2026-01-14T09:58:21.835Z",
   "categories": {
     "wirtschaft": [
       {
@@ -12,6 +12,17 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/humanoide-roboter-bosch-und-neura-robotics-vereinbaren-kooperation/100190784.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-14T09:43:52.000Z"
+      },
+      {
+        "id": "{urn:uuid:e1745ff5-e0c8-4e43-9bab-e5c79c2edb4c}",
+        "title": "Ifo-Untersuchung: Aufnahme von Geflüchteten schafft neue Arbeitsplätze",
+        "summary": "Kommen Geflüchtete nach Deutschland, entstehen laut Ifo-Institut mehr Unternehmen und Arbeitsplätze. Denn der Zuzug sorge für neue Geschäftsmodelle.",
+        "paragraphs": [
+          "Kommen Geflüchtete nach Deutschland, entstehen laut Ifo-Institut mehr Unternehmen und Arbeitsplätze. Denn der Zuzug sorge für neue Geschäftsmodelle."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/zuwanderung-unternehmen-arbeitsplaetze-gewerbeanmeldungen-gxe",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-14T09:43:44.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-warum-kursverluste-bei-edelmetallen-kein-grund-zur-sorge-sind/100188908.html",
@@ -58,22 +69,11 @@
         "publishedAt": "2026-01-14T09:36:21.000Z"
       },
       {
-        "id": "{urn:uuid:e1745ff5-e0c8-4e43-9bab-e5c79c2edb4c}",
-        "title": "Ifo-Untersuchung: Aufnahme von Geflüchteten schafft neue Arbeitsplätze",
-        "summary": "Kommen Geflüchtete nach Deutschland, entstehen laut Ifo-Institut mehr Unternehmen und Arbeitsplätze. Denn der Zuzug schaffe neuen Bedarf für Geschäftsmodelle.",
-        "paragraphs": [
-          "Kommen Geflüchtete nach Deutschland, entstehen laut Ifo-Institut mehr Unternehmen und Arbeitsplätze. Denn der Zuzug schaffe neuen Bedarf für Geschäftsmodelle."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/zuwanderung-unternehmen-arbeitsplaetze-gewerbeanmeldungen",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-14T09:30:53.000Z"
-      },
-      {
         "id": "{urn:uuid:15c39614-1e5e-4349-baec-3f4db12a5b58}",
         "title": "Deutsches Institut für Wirtschaftsforschung: Anteil von Frauen in deutschen Vorständen stagniert",
-        "summary": "In den Vorständen großer Unternehmen in Deutschland sind Frauen nach wie vor die Ausnahme. Nur in einem Sektor stieg der Anteil an Top-Managerinnen im vergangenen Jahr.",
+        "summary": "In den Vorständen großer Unternehmen in Deutschland sind Frauen nach wie vor die Ausnahme. Das DIW sieht in der jüngsten Entwicklung ein Warnsignal.",
         "paragraphs": [
-          "In den Vorständen großer Unternehmen in Deutschland sind Frauen nach wie vor die Ausnahme. Nur in einem Sektor stieg der Anteil an Top-Managerinnen im vergangenen Jahr."
+          "In den Vorständen großer Unternehmen in Deutschland sind Frauen nach wie vor die Ausnahme. Das DIW sieht in der jüngsten Entwicklung ein Warnsignal."
         ],
         "link": "https://www.zeit.de/wirtschaft/unternehmen/2026-01/fauenanteil-in-vorstaenden-stagniert-diw-managerinnen",
         "source": "ZEIT",
@@ -447,6 +447,28 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/die-winter-neuzugaenge-der-drittligisten-im-ueberblick-986927/artikel#omrss",
+        "title": "Die Winter-Neuzugänge der Drittligisten im Überblick",
+        "summary": "In der Winterpause haben die 20 Drittligisten die Möglichkeit, ihre Kader nachzurüsten. Die bisherigen Winter-Neuzugänge im Überblick ...",
+        "paragraphs": [
+          "In der Winterpause haben die 20 Drittligisten die Möglichkeit, ihre Kader nachzurüsten. Die bisherigen Winter-Neuzugänge im Überblick ..."
+        ],
+        "link": "https://www.kicker.de/die-winter-neuzugaenge-der-drittligisten-im-ueberblick-986927/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-14T09:46:36.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mit-chaos-zum-rekord-brahim-diaz-als-schluesselspieler-gegen-nigeria-1183583/artikel#omrss",
+        "title": "Mit Chaos zum Rekord: Brahim Diaz als Schlüsselspieler gegen Nigeria",
+        "summary": "Über 22 Jahre und elf Afrika-Cups hat es gebraucht, bis Marokko einen Goalgetter in seinen Reihen hat, der ebenso oft trifft wie Youssef Mokhtari. Gegen Nigeria soll der Profi von Real Madrid seine Bestmarke nach oben schrauben.",
+        "paragraphs": [
+          "Über 22 Jahre und elf Afrika-Cups hat es gebraucht, bis Marokko einen Goalgetter in seinen Reihen hat, der ebenso oft trifft wie Youssef Mokhtari. Gegen Nigeria soll der Profi von Real Madrid seine Bestmarke nach oben schrauben."
+        ],
+        "link": "https://www.kicker.de/mit-chaos-zum-rekord-brahim-diaz-als-schluesselspieler-gegen-nigeria-1183583/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-14T09:42:39.000Z"
+      },
+      {
         "id": "https://www.kicker.de/das-ist-kein-stress-jason-williams-ueber-internationale-nba-spiele-1183598/artikel#omrss",
         "title": "\"Das ist kein Stress\": Jason Williams über internationale NBA-Spiele",
         "summary": "Die Global Games der NBA sind gerade für ausländische Fans stets Highlights, bringen aber auch jede Menge Stress mit sich. NBA-Legende Jason Williams berichtet von seinen Erfahrungen von internationalen Spielen der NBA.",
@@ -643,31 +665,20 @@
         "link": "https://www.kicker.de/newcastle-gegen-mancity-2026-league-cup-5183308/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-13T22:07:29.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/logische-entscheidung-patullo-nicht-mehr-offensive-coordinator-der-eagles-1183507/artikel#omrss",
-        "title": "Logische Entscheidung: Patullo nicht mehr Offensive Coordinator der Eagles",
-        "summary": "Philadelphia ist am Sonntag beim knappen Duell mit den San Francisco 49ers aus den Playoffs ausgeschieden. Die Offense war dabei ein großes Problem, das die Eagles schon die gesamte Saison über begleitet hatte. Die logische Folge: eine Änderung auf der Position des Offensive Coordinators - Kevin Patullo wurde wie erwartet von seinen Aufgaben entbunden.",
-        "paragraphs": [
-          "Philadelphia ist am Sonntag beim knappen Duell mit den San Francisco 49ers aus den Playoffs ausgeschieden. Die Offense war dabei ein großes Problem, das die Eagles schon die gesamte Saison über begleitet hatte. Die logische Folge: eine Änderung auf der Position des Offensive Coordinators - Kevin Patullo wurde wie erwartet von seinen Aufgaben entbunden."
-        ],
-        "link": "https://www.kicker.de/logische-entscheidung-patullo-nicht-mehr-offensive-coordinator-der-eagles-1183507/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-13T22:00:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:fae3e9b4-d6a6-44c2-9a3e-57a42cf80018}",
-        "title": "Fußballbundesliga, 17. Spieltag – Dienstag: Dortmund festigt zweiten Tabellenplatz, Mainz gewinnt gegen Heidenheim",
-        "summary": "Der BVB gewinnt am Ende locker gegen Bremen, Mainz 05 holt den ersten Sieg seit zwölf Spielen. Zuvor gewann der VfB Stuttgart knapp gegen Frankfurt. Die Spielberichte",
-        "paragraphs": [
-          "Der BVB gewinnt am Ende locker gegen Bremen, Mainz 05 holt den ersten Sieg seit zwölf Spielen. Zuvor gewann der VfB Stuttgart knapp gegen Frankfurt. Die Spielberichte"
-        ],
-        "link": "https://www.zeit.de/sport/2026-01/fussball-bundesliga-17-spieltag-vfb-stuttgart-eintracht-frankfurt",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-13T21:45:00.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Japan-testet-Abbau-Seltener-Erden-aus-der-Tiefsee-11140314.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Japan testet Abbau Seltener Erden aus der Tiefsee",
+        "summary": "Japan will seine Abhängigkeit von chinesischen Seltenen Erden verringern und sucht nach einer Möglichkeit, sie im eigenen Land zu fördern.",
+        "paragraphs": [
+          "Japan will seine Abhängigkeit von chinesischen Seltenen Erden verringern und sucht nach einer Möglichkeit, sie im eigenen Land zu fördern."
+        ],
+        "link": "https://www.heise.de/news/Japan-testet-Abbau-Seltener-Erden-aus-der-Tiefsee-11140314.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-14T09:49:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Ausprobiert-Basketball-ganz-nah-mit-der-Vision-Pro-11137928.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Ausprobiert: Basketball ganz nah mit der Vision Pro",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Trotz-Kritik-an-X-EU-Spitzen-weiterhin-nicht-bei-Mastodon-11140102.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-14T06:37:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/ratgeber/To-Do-Apps-im-Vergleich-Google-Tasks-vs-Zenkit-Todoist-und-Tasks-org-11138909.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | To-Do-Apps im Vergleich: Google Tasks vs. Zenkit, Todoist und Tasks.org",
-        "summary": "Endlich nichts mehr vergessen: Google Tasks erinnert pünktlich an Aufgaben, Pflichten und Geburtstage. Wir zeigen, welche Apps mehr Komfort und Features bieten.",
-        "paragraphs": [
-          "Endlich nichts mehr vergessen: Google Tasks erinnert pünktlich an Aufgaben, Pflichten und Geburtstage. Wir zeigen, welche Apps mehr Komfort und Features bieten."
-        ],
-        "link": "https://www.heise.de/ratgeber/To-Do-Apps-im-Vergleich-Google-Tasks-vs-Zenkit-Todoist-und-Tasks-org-11138909.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2026-01-14T06:30:00.000Z"
       }
     ]
   }
