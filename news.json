@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-14T22:18:15.541Z",
+  "updatedAt": "2026-01-14T22:33:41.757Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/usa-trump-beharrt-auf-groenland-es-wird-sich-etwas-finden/29669594.html",
+        "title": "+++ USA +++: Trump beharrt auf Grönland – „Es wird sich etwas finden“",
+        "summary": "Bundeswehr schickt Soldaten nach Grönland +++ Treffen zu Grönland-Streit in Washington beendet +++ Trump: Alles andere als US-Kontrolle über Grönland ist inakzeptabel +++ Der Newsblog.",
+        "paragraphs": [
+          "Bundeswehr schickt Soldaten nach Grönland +++ Treffen zu Grönland-Streit in Washington beendet +++ Trump: Alles andere als US-Kontrolle über Grönland ist inakzeptabel +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/usa-trump-beharrt-auf-groenland-es-wird-sich-etwas-finden/29669594.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-14T22:23:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/mittelstand/hall-of-fame/hall-of-fame-der-familienunternehmen-das-sind-die-neuen-mitglieder-2026/100191223.html",
         "title": "Familienunternehmen: Das sind die neuen Mitglieder der Hall of Fame 2026",
@@ -58,26 +69,15 @@
         "publishedAt": "2026-01-14T20:58:28.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/usa-keine-einigung-im-groenland-streit-nato-staaten-schicken-soldaten/100191570.html",
-        "title": "USA: Keine Einigung im Grönland-Streit – Nato-Staaten setzen Zeichen gegen Trumps Imperialismus",
+        "id": "https://www.handelsblatt.com/politik/international/usa-keine-einigung-im-groenland-streit-bundeswehr-schickt-soldaten/100191570.html",
+        "title": "USA: Keine Einigung im Grönland-Streit – Bundeswehr schickt Soldaten",
         "summary": "Das Fazit des Treffens zwischen Dänemark, Grönland und den USA fällt ernüchternd aus. Mehrere Nato-Staaten schicken Soldaten für eine Erkundungsmission nach Grönland – auch Deutschland.",
         "paragraphs": [
           "Das Fazit des Treffens zwischen Dänemark, Grönland und den USA fällt ernüchternd aus. Mehrere Nato-Staaten schicken Soldaten für eine Erkundungsmission nach Grönland – auch Deutschland."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/usa-keine-einigung-im-groenland-streit-nato-staaten-schicken-soldaten/100191570.html",
+        "link": "https://www.handelsblatt.com/politik/international/usa-keine-einigung-im-groenland-streit-bundeswehr-schickt-soldaten/100191570.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-14T20:24:23.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/usa-usa-und-daenemark-wollen-am-mittwoch-ueber-groenland-verhandeln/29669594.html",
-        "title": "+++ USA +++: Bundeswehr schickt Soldaten nach Grönland",
-        "summary": "Trump: Alles andere als US-Kontrolle über Grönland ist inakzeptabel +++ Dutzend US-Staatsanwälte treten aus Protest gegen Trump-Regierung zurück +++ Der Newsblog.",
-        "paragraphs": [
-          "Trump: Alles andere als US-Kontrolle über Grönland ist inakzeptabel +++ Dutzend US-Staatsanwälte treten aus Protest gegen Trump-Regierung zurück +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/usa-usa-und-daenemark-wollen-am-mittwoch-ueber-groenland-verhandeln/29669594.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-14T19:15:11.000Z"
       },
       {
         "id": "https://www.spiegel.de/wirtschaft/unternehmen/wie-china-und-die-niederlande-um-den-chiphersteller-nexperia-kaempfen-a-7230276a-f37d-4587-bf2e-f01e6b1eb92d",
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "https://www.handelsblatt.com/politik/international/usa-trump-beharrt-auf-groenland-es-wird-sich-etwas-finden/29669594.html",
+        "title": "+++ USA +++: Trump beharrt auf Grönland – „Es wird sich etwas finden“",
+        "summary": "Bundeswehr schickt Soldaten nach Grönland +++ Treffen zu Grönland-Streit in Washington beendet +++ Trump: Alles andere als US-Kontrolle über Grönland ist inakzeptabel +++ Der Newsblog.",
+        "paragraphs": [
+          "Bundeswehr schickt Soldaten nach Grönland +++ Treffen zu Grönland-Streit in Washington beendet +++ Trump: Alles andere als US-Kontrolle über Grönland ist inakzeptabel +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/usa-trump-beharrt-auf-groenland-es-wird-sich-etwas-finden/29669594.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-14T22:23:00.000Z"
+      },
+      {
         "id": "https://www.spiegel.de/politik/deutschland/groenland-bundeswehr-entsendet-13-soldaten-zur-unterstuetzung-daenemarks-a-e3326aae-3caf-4c3b-a380-ab5882ae7f7f",
         "title": "Grönland: Bundeswehr entsendet 13 Soldaten zur Unterstützung Dänemarks",
         "summary": "Das Team soll zusammen mit anderen europäischen Nationen drei Tage lang die Rahmenbedingungen für mögliche militärische Beiträge zur Unterstützung Dänemarks erkunden. Es könnte bald mehr folgen.",
@@ -247,13 +258,13 @@
         "publishedAt": "2026-01-14T20:58:28.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/usa-keine-einigung-im-groenland-streit-nato-staaten-schicken-soldaten/100191570.html",
-        "title": "USA: Keine Einigung im Grönland-Streit – Nato-Staaten setzen Zeichen gegen Trumps Imperialismus",
+        "id": "https://www.handelsblatt.com/politik/international/usa-keine-einigung-im-groenland-streit-bundeswehr-schickt-soldaten/100191570.html",
+        "title": "USA: Keine Einigung im Grönland-Streit – Bundeswehr schickt Soldaten",
         "summary": "Das Fazit des Treffens zwischen Dänemark, Grönland und den USA fällt ernüchternd aus. Mehrere Nato-Staaten schicken Soldaten für eine Erkundungsmission nach Grönland – auch Deutschland.",
         "paragraphs": [
           "Das Fazit des Treffens zwischen Dänemark, Grönland und den USA fällt ernüchternd aus. Mehrere Nato-Staaten schicken Soldaten für eine Erkundungsmission nach Grönland – auch Deutschland."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/usa-keine-einigung-im-groenland-streit-nato-staaten-schicken-soldaten/100191570.html",
+        "link": "https://www.handelsblatt.com/politik/international/usa-keine-einigung-im-groenland-streit-bundeswehr-schickt-soldaten/100191570.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-14T20:24:23.000Z"
       },
@@ -267,17 +278,6 @@
         "link": "https://www.spiegel.de/politik/bundesregierung-beruft-migrationsbotschafter-fuer-abschiebungen-in-drittstaaten-a-dbca6aed-ef32-4b3b-9bea-6f195eef9c8f#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-14T19:53:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/usa-usa-und-daenemark-wollen-am-mittwoch-ueber-groenland-verhandeln/29669594.html",
-        "title": "+++ USA +++: Bundeswehr schickt Soldaten nach Grönland",
-        "summary": "Trump: Alles andere als US-Kontrolle über Grönland ist inakzeptabel +++ Dutzend US-Staatsanwälte treten aus Protest gegen Trump-Regierung zurück +++ Der Newsblog.",
-        "paragraphs": [
-          "Trump: Alles andere als US-Kontrolle über Grönland ist inakzeptabel +++ Dutzend US-Staatsanwälte treten aus Protest gegen Trump-Regierung zurück +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/usa-usa-und-daenemark-wollen-am-mittwoch-ueber-groenland-verhandeln/29669594.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-14T19:15:11.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/zensurvorwuerfe-gegen-daniel-guenther-probesturm-auf-die-brandmauer-a-337fed77-1f7c-4109-8174-516338ce1bd5",
@@ -447,6 +447,28 @@
     ],
     "sport": [
       {
+        "id": "https://www.spiegel.de/sport/fussball/copa-del-rey-real-madrid-fliegt-bei-zweitligist-albacete-aus-dem-pokal-a-0c5cf713-c9b6-43eb-8762-96e3eef9718e",
+        "title": "Copa del Rey: Real Madrid fliegt bei Zweitligist Albacete aus dem Pokal",
+        "summary": "Trainer Xabi Alonso ist weg, doch die Probleme bei Real Madrid bleiben. Sein Nachfolger Álvaro Arbeloa muss ein spätes Aus im Pokal mitansehen. Der 17. der zweiten Liga trifft mit der letzten Aktion des Spiels zum Sieg.",
+        "paragraphs": [
+          "Trainer Xabi Alonso ist weg, doch die Probleme bei Real Madrid bleiben. Sein Nachfolger Álvaro Arbeloa muss ein spätes Aus im Pokal mitansehen. Der 17. der zweiten Liga trifft mit der letzten Aktion des Spiels zum Sieg."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/copa-del-rey-real-madrid-fliegt-bei-zweitligist-albacete-aus-dem-pokal-a-0c5cf713-c9b6-43eb-8762-96e3eef9718e#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-14T22:26:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/schwaebe-mir-ging-das-herz-kurz-woanders-hin-1183827/artikel#omrss",
+        "title": "Schwäbe: \"Mir ging das Herz kurz woanders hin\"",
+        "summary": "Die Kölner haben den Bayern einen großen Fight geliefert - und stehen am Ende trotzdem mit leeren Händen da. Keeper Marvin Schwäbe ordnet ein, blickt voraus - und erklärt eine Szene, in der er reichlich Glück hatte.",
+        "paragraphs": [
+          "Die Kölner haben den Bayern einen großen Fight geliefert - und stehen am Ende trotzdem mit leeren Händen da. Keeper Marvin Schwäbe ordnet ein, blickt voraus - und erklärt eine Szene, in der er reichlich Glück hatte."
+        ],
+        "link": "https://www.kicker.de/schwaebe-mir-ging-das-herz-kurz-woanders-hin-1183827/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-14T22:21:07.000Z"
+      },
+      {
         "id": "li.3368974",
         "title": "Internationaler Fußball: Nach Alonso-Trennung: Real blamiert sich im Pokal bei Zweitligist Albacete Balompie",
         "summary": "Im ersten Spiel des neuen Trainers Alvaro Arbeloa fliegt Real Madrid aus dem spanischen Pokal. Albacete Balompie, Tabellen-17. der zweiten Liga, gewinnt mit 3:2.",
@@ -547,7 +569,7 @@
       },
       {
         "id": "https://www.kicker.de/nigeria-gegen-marokko-2026-afrika-cup-4995923/spielbericht#omrss",
-        "title": "LIVE! Spannung pur im zweiten Halbfinale - Marokko trifft den Pfosten",
+        "title": "LIVE! Marokko trifft den Pfosten - Geht es ins Elfmeterschießen?",
         "summary": "Schafft es der Gastgeber ins Finale des Afrika-Cups? Im Halbfinale bekommt es Marokko mit dem torhungrigen Mitfavoriten Nigeria zu tun. Die Super Eagles stellen die beste Offensive des Turniers.",
         "paragraphs": [
           "Schafft es der Gastgeber ins Finale des Afrika-Cups? Im Halbfinale bekommt es Marokko mit dem torhungrigen Mitfavoriten Nigeria zu tun. Die Super Eagles stellen die beste Offensive des Turniers."
@@ -643,31 +665,20 @@
         "link": "https://www.kicker.de/zweitliga-erfahrung-fuer-freiberg-gouras-kommt-aus-homburg-1183788/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-14T19:26:37.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/fussball/afrika-cup-sadio-mane-triumphiert-ueber-mohamed-salah-senegal-im-endspiel-a-613c1178-fce4-4bab-837c-b50f85e40075",
-        "title": "Afrika-Cup: Sadio Mané triumphiert über Mohamed Salah, Senegal im Endspiel",
-        "summary": "Sadio Mané hat das Duell der Superstars beim Afrika-Cup gegen Mohamed Salah gewonnen. Dank seines Treffers steht der Senegal im Finale. Dort muss das Team jedoch auf seinen Kapitän verzichten.",
-        "paragraphs": [
-          "Sadio Mané hat das Duell der Superstars beim Afrika-Cup gegen Mohamed Salah gewonnen. Dank seines Treffers steht der Senegal im Finale. Dort muss das Team jedoch auf seinen Kapitän verzichten."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/afrika-cup-sadio-mane-triumphiert-ueber-mohamed-salah-senegal-im-endspiel-a-613c1178-fce4-4bab-837c-b50f85e40075#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-14T19:02:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/chelsea-gegen-arsenal-2026-league-cup-5183306/spielbericht#omrss",
-        "title": "Roseniors Heimpremiere missglückt: Arsenal nimmt knappen Vorteil mit ins Rückspiel",
-        "summary": "Mit dem 5:1-Erfolg im FA Cup bei Zweitligist Charlton Athletic feierte Liam Rosenior ein gelungenes Debüt als Chelsea-Coach. Nur wenige Tage später wartet jedoch das nächste Pokalduell mit deutlich schwererem Kaliber: Im Halbfinal-Hinspiel des League Cup empfängt Chelsea am Mittwochabend um 21 Uhr Stadtrivale Arsenal an der Stamford Bridge.",
-        "paragraphs": [
-          "Mit dem 5:1-Erfolg im FA Cup bei Zweitligist Charlton Athletic feierte Liam Rosenior ein gelungenes Debüt als Chelsea-Coach. Nur wenige Tage später wartet jedoch das nächste Pokalduell mit deutlich schwererem Kaliber: Im Halbfinal-Hinspiel des League Cup empfängt Chelsea am Mittwochabend um 21 Uhr Stadtrivale Arsenal an der Stamford Bridge."
-        ],
-        "link": "https://www.kicker.de/chelsea-gegen-arsenal-2026-league-cup-5183306/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-14T19:00:00.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Doch-kein-Zwang-zu-digitalem-Ausweis-und-Handy-im-Vereinigten-Koenigreich-11141527.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Doch kein Zwang zu digitalem Ausweis und Handy im Vereinigten Königreich",
+        "summary": "Verpflichtende digitale Ausweise auf Smartphones wird es im Vereinigten Königreich doch nicht geben. Es gibt andere Waffen gegen Schwarzarbeit.",
+        "paragraphs": [
+          "Verpflichtende digitale Ausweise auf Smartphones wird es im Vereinigten Königreich doch nicht geben. Es gibt andere Waffen gegen Schwarzarbeit."
+        ],
+        "link": "https://www.heise.de/news/Doch-kein-Zwang-zu-digitalem-Ausweis-und-Handy-im-Vereinigten-Koenigreich-11141527.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-14T22:16:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/USA-erlauben-Export-aber-China-laesst-zweiklassigen-KI-Chips-nicht-rein-11141479.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Trump erlaubt Ausfuhr, doch Peking verbietet Einfuhr von Nvidias H200-Chips",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Malware-Masche-Jobangebote-jubeln-Entwicklern-boesartige-Repositories-unter-11140776.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-14T13:55:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Zwischen-Wunsch-Wirklichkeit-Wie-weit-ist-die-E-Patientenakte-im-Krankenhaus-11140046.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "E-Patienentenakte: Krankenhäuser tauschen sich in \"Selbsthilfegruppe\" aus",
-        "summary": "Die elektronische Patientenakte ist vor rund einem Jahr gestartet. Warum sie in Krankenhäusern aktuell alles andere als Erleichterung bringt.",
-        "paragraphs": [
-          "Die elektronische Patientenakte ist vor rund einem Jahr gestartet. Warum sie in Krankenhäusern aktuell alles andere als Erleichterung bringt."
-        ],
-        "link": "https://www.heise.de/news/Zwischen-Wunsch-Wirklichkeit-Wie-weit-ist-die-E-Patientenakte-im-Krankenhaus-11140046.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-14T13:49:00.000Z"
       }
     ]
   }
