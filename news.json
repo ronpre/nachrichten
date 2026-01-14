@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-14T10:48:38.104Z",
+  "updatedAt": "2026-01-14T10:58:48.622Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:d1ec23b3-9b43-4767-a380-3849767f9496}",
+        "title": "Autoindustrie: Auslieferungen bei Audi 2025 um drei Prozent gesunken",
+        "summary": "Der Wettbewerb mit China und US-Zölle machen Audi zu schaffen: 2025 wurden weniger Autos ausgeliefert als im Vorjahr. Seit September geht es aber wieder aufwärts.",
+        "paragraphs": [
+          "Der Wettbewerb mit China und US-Zölle machen Audi zu schaffen: 2025 wurden weniger Autos ausgeliefert als im Vorjahr. Seit September geht es aber wieder aufwärts."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/unternehmen/2026-01/autoindustrie-audi-auslieferungen-gesunken-china-us-zoelle",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-14T10:48:29.000Z"
+      },
       {
         "id": "https://www.spiegel.de/wirtschaft/unternehmen/saks-global-luxus-kaufhauskonzern-meldet-insolvenz-an-a-0c0a7231-fa3c-405d-b576-bf19b30a1ab0",
         "title": "Saks Global: Luxus-Kaufhauskonzern meldet Insolvenz an",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/energiewende-griechenland-verabschiedet-sich-von-der-kohleverstromung/100190431.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-14T09:01:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/banken-das-sind-die-besten-tages-und-festgeldkonten-2026/100188699.html",
-        "title": "Ranking 2026: Anbieter-Vergleich: Das sind die besten Tages- und Festgeldkonten für Zinssparer",
-        "summary": "Viele Deutsche wollen im neuen Jahr mehr sparen. Ein Ranking zeigt, welche Banken bei Tages- und Festgeld aktuell besonders gute Konditionen bieten.",
-        "paragraphs": [
-          "Viele Deutsche wollen im neuen Jahr mehr sparen. Ein Ranking zeigt, welche Banken bei Tages- und Festgeld aktuell besonders gute Konditionen bieten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/banken-das-sind-die-besten-tages-und-festgeldkonten-2026/100188699.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-14T08:58:00.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/walldorf-und-der-lemm-abschied-im-sommer-bin-das-gegenteil-einer-lame-duck-1183623/artikel#omrss",
+        "title": "Walldorf und der Lemm-Abschied im Sommer: \"Bin das Gegenteil einer Lame Duck\"",
+        "summary": "Spannende Zeiten beim Hessenligist Rot-Weiß Walldorf: Wie wird sich das Team von Artur Lemm in den folgenden Monaten präsentieren, nachdem bekannt gegeben wurde, dass der Erfolgscoach nach der Spielzeit gehen wird? Und: Greift der Tabellensechste sogar noch einmal in das Aufstiegsrennen ein?",
+        "paragraphs": [
+          "Spannende Zeiten beim Hessenligist Rot-Weiß Walldorf: Wie wird sich das Team von Artur Lemm in den folgenden Monaten präsentieren, nachdem bekannt gegeben wurde, dass der Erfolgscoach nach der Spielzeit gehen wird? Und: Greift der Tabellensechste sogar noch einmal in das Aufstiegsrennen ein?"
+        ],
+        "link": "https://www.kicker.de/walldorf-und-der-lemm-abschied-im-sommer-bin-das-gegenteil-einer-lame-duck-1183623/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-14T10:48:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/matanovics-greifbarer-wm-traum-was-grifo-raet-1182742/artikel#omrss",
+        "title": "Matanovics \"greifbarer WM-Traum\": Was Grifo rät",
+        "summary": "Igor Matanovic ist auch wegen seines WM-Traums mit Kroatien unter Druck, seine Spielanteile beim SC Freiburg zu erhöhen. Dauer-Top-Scorer und Routinier Vincenzo Grifo hat Verständnis für eine gewisse Ungeduld, aber auch Ratschläge für den zehn Jahre jüngeren Kollegen.",
+        "paragraphs": [
+          "Igor Matanovic ist auch wegen seines WM-Traums mit Kroatien unter Druck, seine Spielanteile beim SC Freiburg zu erhöhen. Dauer-Top-Scorer und Routinier Vincenzo Grifo hat Verständnis für eine gewisse Ungeduld, aber auch Ratschläge für den zehn Jahre jüngeren Kollegen."
+        ],
+        "link": "https://www.kicker.de/matanovics-greifbarer-wm-traum-was-grifo-raet-1182742/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-14T10:47:24.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/fokus-auf-olympia-botn-startet-nicht-in-ruhpolding-1183626/artikel#omrss",
+        "title": "Fokus auf Olympia: Botn startet nicht in Ruhpolding",
+        "summary": "Johan-Olav Botn startet überragend in die Saison. Dann passiert das Schreckliche: Er findet seinen Freund und Teamkollegen tot auf. Dazu kommt eine Erkrankung. Sein Comeback in Bayern fällt nun aus.",
+        "paragraphs": [
+          "Johan-Olav Botn startet überragend in die Saison. Dann passiert das Schreckliche: Er findet seinen Freund und Teamkollegen tot auf. Dazu kommt eine Erkrankung. Sein Comeback in Bayern fällt nun aus."
+        ],
+        "link": "https://www.kicker.de/fokus-auf-olympia-botn-startet-nicht-in-ruhpolding-1183626/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-14T10:43:02.000Z"
+      },
+      {
         "id": "li.3368435",
         "title": "Weltcup-Station in Deutschland: Biathlon-Zeitplan und TV-Übersicht zu allen Rennen in Ruhpolding",
         "summary": "Vom 14. bis 18. Januar sind die Biathletinnen und Biathleten in Ruhpolding zu Gast. Sechs Wettbewerbe stehen auf dem Programm. Der Zeitplan und die TV-Übertragung im Überblick.",
@@ -467,6 +500,17 @@
         "link": "https://www.kicker.de/guardiola-ausser-sich-wie-es-zum-sechsminuetigen-var-check-kam-1183612/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-14T10:26:11.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/vingegaard-ueber-lipowitz-ein-grosser-rivale-fuer-mich-1183618/artikel#omrss",
+        "title": "Vingegaard über Lipowitz: \"Ein großer Rivale für mich\"",
+        "summary": "Jonas Vingegaard sieht Florian Lipowitz als einen seiner großen Widersacher bei der kommenden Tour. In Spanien sagte der Rad-Star, was er am deutschen Senkrechtstarter schätzt.",
+        "paragraphs": [
+          "Jonas Vingegaard sieht Florian Lipowitz als einen seiner großen Widersacher bei der kommenden Tour. In Spanien sagte der Rad-Star, was er am deutschen Senkrechtstarter schätzt."
+        ],
+        "link": "https://www.kicker.de/vingegaard-ueber-lipowitz-ein-grosser-rivale-fuer-mich-1183618/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-14T10:23:31.000Z"
       },
       {
         "id": "https://www.kicker.de/neuer-torwart-alemannia-leiht-pseftis-aus-1183613/artikel#omrss",
@@ -621,61 +665,17 @@
         "link": "https://www.kicker.de/bellingham-attacke-nach-aus-von-xabi-alonso-haufen-scheisse-1183552/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-14T08:06:28.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nashville-gegen-edmonton-2026-nhl-5092164/spielbericht#omrss",
-        "title": "Drei Punkte von Draisaitl sind zu wenig - Peterka punktet doppelt",
-        "summary": "Die Nashville Predators gehören seit Jahren zu den Lieblingsgegnern der Edmonton Oilers. Doch dieses Mal reisen sie mit nur einem Punkt heim, verloren dort mit 3:4 in der Overtime.",
-        "paragraphs": [
-          "Die Nashville Predators gehören seit Jahren zu den Lieblingsgegnern der Edmonton Oilers. Doch dieses Mal reisen sie mit nur einem Punkt heim, verloren dort mit 3:4 in der Overtime."
-        ],
-        "link": "https://www.kicker.de/nashville-gegen-edmonton-2026-nhl-5092164/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-14T08:01:16.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/maria-verliert-krimi-in-hobart-1183553/artikel#omrss",
-        "title": "Maria verliert Krimi in Hobart",
-        "summary": "Tatjana Maria ist eine Runde nach ihrem Erfolg über Venus Williams beim Turnier im australischen Hobart ausgeschieden.",
-        "paragraphs": [
-          "Tatjana Maria ist eine Runde nach ihrem Erfolg über Venus Williams beim Turnier im australischen Hobart ausgeschieden."
-        ],
-        "link": "https://www.kicker.de/maria-verliert-krimi-in-hobart-1183553/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-14T07:39:44.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/passkoenigin-el-sherif-bekommt-nur-beim-videoschauen-gaensehaut-1183336/artikel#omrss",
-        "title": "Passkönigin El Sherif bekommt nur beim Videoschauen Gänsehaut",
-        "summary": "Von Abstiegskandidat Jena verpflichtet, avancierte Mariella El Sherif in Bremen schnell zur Nummer 1. Am Ball gehört sie zu den ligabesten Torhüterinnen und ist maßgeblich am Werder-Höhenflug beteiligt. Dabei kassierte sie vor dem Wechsel an die Weser ihre schlimmste Klatsche.",
-        "paragraphs": [
-          "Von Abstiegskandidat Jena verpflichtet, avancierte Mariella El Sherif in Bremen schnell zur Nummer 1. Am Ball gehört sie zu den ligabesten Torhüterinnen und ist maßgeblich am Werder-Höhenflug beteiligt. Dabei kassierte sie vor dem Wechsel an die Weser ihre schlimmste Klatsche."
-        ],
-        "link": "https://www.kicker.de/passkoenigin-el-sherif-bekommt-nur-beim-videoschauen-gaensehaut-1183336/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-14T07:14:53.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/lebron-und-luka-dominieren-rockets-zittern-sich-zurueck-wolves-zerlegen-bucks-1183536/artikel#omrss",
-        "title": "LeBron und Luka dominieren, Rockets zittern sich zurück - Wolves zerlegen Bucks",
-        "summary": "LeBron James und Luka Doncic liefern gemeinsam eine Offensiv-Gala, Kevin Durant führt Houston aus der Krise und Minnesota demontiert Milwaukee auch ohne Anthony Edwards.",
-        "paragraphs": [
-          "LeBron James und Luka Doncic liefern gemeinsam eine Offensiv-Gala, Kevin Durant führt Houston aus der Krise und Minnesota demontiert Milwaukee auch ohne Anthony Edwards."
-        ],
-        "link": "https://www.kicker.de/lebron-und-luka-dominieren-rockets-zittern-sich-zurueck-wolves-zerlegen-bucks-1183536/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-14T06:31:32.000Z"
       }
     ],
     "edv": [
       {
-        "id": "https://www.heise.de/news/Gepaeckfinder-Apple-hat-nun-Wo-ist-Kooperation-mit-26-Airlines-11139450.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Gepäckfinder: Apple hat nun \"Wo ist?\"-Kooperation mit 26 Airlines",
+        "id": "https://www.heise.de/news/Gepaeckfinder-Apple-hat-nun-Wo-ist-Kooperation-mit-36-Airlines-11139450.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Gepäckfinder: Apple hat nun \"Wo ist?\"-Kooperation mit 36 Airlines",
         "summary": "AirTags im Aufgabegepäck hilft gegen „Lost Luggage“: Immer mehr Fluggesellschaften sind bei Apples Trackingdienst dabei.",
         "paragraphs": [
           "AirTags im Aufgabegepäck hilft gegen „Lost Luggage“: Immer mehr Fluggesellschaften sind bei Apples Trackingdienst dabei."
         ],
-        "link": "https://www.heise.de/news/Gepaeckfinder-Apple-hat-nun-Wo-ist-Kooperation-mit-26-Airlines-11139450.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Gepaeckfinder-Apple-hat-nun-Wo-ist-Kooperation-mit-36-Airlines-11139450.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-14T10:35:00.000Z"
       },
