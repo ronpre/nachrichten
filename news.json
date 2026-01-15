@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-01-15T07:30:43.291Z",
+  "updatedAt": "2026-01-15T07:45:54.395Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/steuern-was-die-spd-plaene-zur-erbschaftsteuer-fuer-immobilienbesitzer-bedeuten/100191371.html",
+        "title": "Steuerpolitik: Was die SPD-Pläne zur Erbschaftsteuer für Immobilienbesitzer bedeuten",
+        "summary": "Eigentümerverbände und Experten warnen: In teuren Immobilienmärkten könnte der geplante Freibetrag oftmals nicht ausreichen. Vor allem einer Erbengruppe drohen Liquiditätsprobleme.",
+        "paragraphs": [
+          "Eigentümerverbände und Experten warnen: In teuren Immobilienmärkten könnte der geplante Freibetrag oftmals nicht ausreichen. Vor allem einer Erbengruppe drohen Liquiditätsprobleme."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/steuern-was-die-spd-plaene-zur-erbschaftsteuer-fuer-immobilienbesitzer-bedeuten/100191371.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-15T07:36:23.000Z"
+      },
+      {
+        "id": "{urn:uuid:1c4a800b-2a95-46d8-8c6d-0ce952fcaf7c}",
+        "title": "Tarifstreit : Gewerkschaften drohen mit Ausweitung von Warnstreiks",
+        "summary": "In Potsdam werden die Tarifverhandlungen für Beschäftigte der Länder fortgesetzt. Gewerkschafter schließen weitere Streiks nicht aus.",
+        "paragraphs": [
+          "In Potsdam werden die Tarifverhandlungen für Beschäftigte der Länder fortgesetzt. Gewerkschafter schließen weitere Streiks nicht aus."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/warnstreiks-gewerkschaften-verdi-oeffentlichen-dienst",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-15T07:27:17.000Z"
+      },
       {
         "id": "li.3352300",
         "title": "Reden wir über Geld: „Der Durchschnittsdeutsche ist dem Bürgergeldbezieher näher als dem Millionär“",
@@ -199,28 +221,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/elektromobilitaet-lucid-will-ab-2026-autos-in-saudi-arabien-produzieren/100191662.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-15T06:11:35.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/service/fernwaerme-zahlen-sie-zu-viel-so-finden-sie-es-heraus-und-wehren-sich-a-fd3e7bb1-fd42-4030-8845-1e98515b0408",
-        "title": "Fernwärme: Zahlen Sie zu viel? So finden Sie es heraus und wehren sich",
-        "summary": "Zu teuer, zu undurchsichtig: Die Preisgestaltung bei Fernwärme produziert seit Jahren Streit. Mehrere Gerichte haben klärende Urteile gesprochen.",
-        "paragraphs": [
-          "Zu teuer, zu undurchsichtig: Die Preisgestaltung bei Fernwärme produziert seit Jahren Streit. Mehrere Gerichte haben klärende Urteile gesprochen."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/service/fernwaerme-zahlen-sie-zu-viel-so-finden-sie-es-heraus-und-wehren-sich-a-fd3e7bb1-fd42-4030-8845-1e98515b0408#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-15T06:11:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/deutschland-in-diesen-staedten-steigen-die-immobilienpreise-am-staerksten/100170985.html",
-        "title": "Deutschland: In diesen Städten steigen die Immobilienpreise am stärksten",
-        "summary": "Immobilien in Deutschland sind 2025 im Schnitt teurer geworden. Exklusive Daten der 400 Kreise zeigen, wo der Anstieg am höchsten ist – und in welchen Regionen die Preise gesunken sind.",
-        "paragraphs": [
-          "Immobilien in Deutschland sind 2025 im Schnitt teurer geworden. Exklusive Daten der 400 Kreise zeigen, wo der Anstieg am höchsten ist – und in welchen Regionen die Preise gesunken sind."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/deutschland-in-diesen-staedten-steigen-die-immobilienpreise-am-staerksten/100170985.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-15T05:55:14.000Z"
       }
     ],
     "politik": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Windows-Update-Nebenwirkungen-Verbindungsfehler-mit-Windows-365-11141640.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Windows Update-Nebenwirkungen: Verbindungsfehler mit Windows 365",
+        "summary": "Die Windows-Updates vom Januar-Patchday führen zu gestörten Verbindungen mit Windows 365 und Azure Virtual Desktop.",
+        "paragraphs": [
+          "Die Windows-Updates vom Januar-Patchday führen zu gestörten Verbindungen mit Windows 365 und Azure Virtual Desktop."
+        ],
+        "link": "https://www.heise.de/news/Windows-Update-Nebenwirkungen-Verbindungsfehler-mit-Windows-365-11141640.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-15T07:39:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Windkraftausbau-in-Europa-hinter-Erwartungen-11141581.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Windenergieausbau in der EU zu langsam für Klimaziele",
         "summary": "Um mehr als 40 Prozent erneuerbarer Energie bis 2030 zu erreichen, muss es in der EU deutlich mehr Windräder geben. Der Ausbau geht jedoch zu langsam voran.",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Justiz-Schlappe-Razzien-im-Fall-Indymedia-linksunten-waren-rechtswidrig-11141277.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-14T17:17:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Aus-Fotos-werden-3D-Umgebungen-Apples-neues-KI-Modell-mit-iPhone-ausprobieren-11141085.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Aus Fotos werden 3D-Umgebungen: Apples neues KI-Modell mit iPhone ausprobieren",
-        "summary": "Apple hat ein KI-Modell veröffentlicht, das einzelne Fotos in 3D-Umgebungen verwandelt. Eine App macht die Technik kostenlos auf dem iPhone erlebbar.",
-        "paragraphs": [
-          "Apple hat ein KI-Modell veröffentlicht, das einzelne Fotos in 3D-Umgebungen verwandelt. Eine App macht die Technik kostenlos auf dem iPhone erlebbar."
-        ],
-        "link": "https://www.heise.de/news/Aus-Fotos-werden-3D-Umgebungen-Apples-neues-KI-Modell-mit-iPhone-ausprobieren-11141085.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-14T17:16:00.000Z"
       }
     ]
   }
