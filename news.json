@@ -1,7 +1,27 @@
 {
-  "updatedAt": "2026-01-15T08:57:43.368Z",
+  "updatedAt": "2026-01-15T09:13:00.763Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "li.3365055",
+        "title": "Wachstum: Drittes schlechtes Jahr für deutsche Wirtschaft",
+        "summary": "Nach drei Jahren Flaute sind die Deutschen verunsichert. Jetzt richten sich alle Blicke auf die Bundesregierung: Bringt sie die Wirtschaft wieder richtig ins Laufen?",
+        "paragraphs": [
+          "Nach drei Jahren Flaute sind die Deutschen verunsichert. Jetzt richten sich alle Blicke auf die Bundesregierung: Bringt sie die Wirtschaft wieder richtig ins Laufen?"
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/wirtschaft-wachstum-stagnation-trump-china-inflation-bruttoinlandsprodukt-wirtschaftsleistung-regierung-afd-auto-elektromobilitaet-li.3365055",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-15T09:02:13.000Z"
+      },
+      {
+        "id": "{urn:uuid:f6dfcd8f-e52d-471b-9af1-a45fcce6eccc}",
+        "title": "Konjunktur: Deutsche Wirtschaft 2025 leicht gewachsen",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/konjunktur-deutsche-wirtschaft-2025-leicht-gewachsen",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-15T09:02:09.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/autozulieferer-mitsubishi-electric-will-wohl-autoteilegeschaeft-verkaufen/100191721.html",
         "title": "Autozulieferer: Mitsubishi Electric will wohl Autoteilegeschäft verkaufen",
@@ -199,31 +219,42 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/verteidigung-so-soll-die-deutsch-franzoesische-ruestungskooperation-ablaufen/100191516.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-15T07:09:22.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/msci-world-wannsollten-sie-ihren-etf-verkaufen-und-spaeter-zurueckkaufen-02/100116029.html",
-        "title": "ETF: Den MSCI World verkaufen und später wieder kaufen? Wir haben nachgerechnet, wie sinnvoll das ist",
-        "summary": "Bei fallenden Kursen vorläufig auszusteigen, kann verlockend sein. Theoretisch lässt sich dadurch die Rendite vervielfachen. Eine charttechnische Marke soll dabei helfen.",
-        "paragraphs": [
-          "Bei fallenden Kursen vorläufig auszusteigen, kann verlockend sein. Theoretisch lässt sich dadurch die Rendite vervielfachen. Eine charttechnische Marke soll dabei helfen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/msci-world-wannsollten-sie-ihren-etf-verkaufen-und-spaeter-zurueckkaufen-02/100116029.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-15T06:57:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/waermepumpe-nicht-zu-laut-strengere-anforderung-an-waermepumpen-foerderung-a-1ecc519b-0f54-43ba-af7d-e7276a5855ef",
-        "title": "Wärmepumpe: Nicht zu laut – strengere Anforderung an Wärmepumpen-Förderung",
-        "summary": "Seit Anfang Januar werden nur noch Wärmepumpen gefördert, die strengere Grenzwerte für Lärmemissionen erfüllen. Es lässt sich aber noch mehr tun, um die Störungen für die Nachbarn zu lindern.",
-        "paragraphs": [
-          "Seit Anfang Januar werden nur noch Wärmepumpen gefördert, die strengere Grenzwerte für Lärmemissionen erfüllen. Es lässt sich aber noch mehr tun, um die Störungen für die Nachbarn zu lindern."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/waermepumpe-nicht-zu-laut-strengere-anforderung-an-waermepumpen-foerderung-a-1ecc519b-0f54-43ba-af7d-e7276a5855ef#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-15T06:55:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-bundestag-beraet-ueber-buergergeld-reform/100137034.html",
+        "title": "+++ Bundesregierung +++: Bundestag berät über Bürgergeld-Reform",
+        "summary": "Der Bundestag berät den Gesetzentwurf von Arbeitsministerin Bas zur Bürgergeld-Reform. Für die neue Grundsicherung sollen deutlich schärfere Regeln gelten.",
+        "paragraphs": [
+          "Der Bundestag berät den Gesetzentwurf von Arbeitsministerin Bas zur Bürgergeld-Reform. Für die neue Grundsicherung sollen deutlich schärfere Regeln gelten."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-bundestag-beraet-ueber-buergergeld-reform/100137034.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-15T09:05:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-deutsche-wirtschaft-ist-leicht-gewachsen/100191693.html",
+        "title": "Konjunktur: Deutsche Wirtschaft ist leicht gewachsen",
+        "summary": "Das BIP hat im Jahr 2025 zugelegt. Zu Beginn des Jahres war die Wirtschaft erst geschrumpft. Die Zeichen für einen Wirtschaftsaufschwung im neuen Jahr sind durchmischt.",
+        "paragraphs": [
+          "Das BIP hat im Jahr 2025 zugelegt. Zu Beginn des Jahres war die Wirtschaft erst geschrumpft. Die Zeichen für einen Wirtschaftsaufschwung im neuen Jahr sind durchmischt."
+        ],
+        "link": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-deutsche-wirtschaft-ist-leicht-gewachsen/100191693.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-15T09:04:10.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/rohstoffe-japan-will-in-6000-meter-tiefe-seltene-erden-finden/100190585.html",
+        "title": "Kritische Rohstoffe: In 6000 Metern Tiefe: Japan sucht am Ozeanboden nach seltenen Erden",
+        "summary": "Die Abhängigkeit von Chinas seltenen Erden treibt viele Nationen zu neuen eigenen Anstrengungen an. Japans Chikyu, das größte Forschungsschiff der Welt, testet im Pazifik den Abbau kritischer Rohstoffe.",
+        "paragraphs": [
+          "Die Abhängigkeit von Chinas seltenen Erden treibt viele Nationen zu neuen eigenen Anstrengungen an. Japans Chikyu, das größte Forschungsschiff der Welt, testet im Pazifik den Abbau kritischer Rohstoffe."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/rohstoffe-japan-will-in-6000-meter-tiefe-seltene-erden-finden/100190585.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-15T09:00:00.000Z"
+      },
       {
         "id": "https://www.spiegel.de/politik/deutschland/social-media-verbot-fuer-jugendliche-wir-sollten-soziale-medien-wie-drogen-behandeln-a-d5a16a17-bb02-4ab7-ba3b-53562a3154b4",
         "title": "Social-Media-Verbot für Jugendliche: Wir sollten soziale Medien wie Drogen behandeln",
@@ -234,17 +265,6 @@
         "link": "https://www.spiegel.de/politik/deutschland/social-media-verbot-fuer-jugendliche-wir-sollten-soziale-medien-wie-drogen-behandeln-a-d5a16a17-bb02-4ab7-ba3b-53562a3154b4#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-15T08:49:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-bundestag-beraet-ueber-buergergeld-reform/100137034.html",
-        "title": "+++ Bundesregierung +++: Bundestag berät über Bürgergeld-Reform",
-        "summary": "Der Bundestag berät den Gesetzentwurf von Arbeitsministerin Bas zur Bürgergeld-Reform. Für die neue Grundsicherung sollen deutlich schärfere Regeln gelten.",
-        "paragraphs": [
-          "Der Bundestag berät den Gesetzentwurf von Arbeitsministerin Bas zur Bürgergeld-Reform. Für die neue Grundsicherung sollen deutlich schärfere Regeln gelten."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-bundestag-beraet-ueber-buergergeld-reform/100137034.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-15T08:43:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/steuern-was-die-spd-plaene-zur-erbschaftsteuer-fuer-immobilienbesitzer-bedeuten/100191371.html",
@@ -421,31 +441,31 @@
         "link": "https://www.spiegel.de/politik/stefanie-hubig-will-recht-auf-reparatur-fuer-elektronische-geraete-a-54398ddf-74f5-4422-9bc7-ce2c63184ebd#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-15T03:33:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-wie-geringqualifizierte-den-fachkraeftemangel-abfedern-koennten/100191316.html",
-        "title": "Arbeitsmarkt: Ungenutztes Potenzial: Wie Geringqualifizierte den Fachkräftemangel abfedern könnten",
-        "summary": "Ab diesem Jahr schrumpft die Zahl der potenziell Erwerbstätigen. Die Lücken könnten Geringqualifizierte füllen, sagen Experten – wenn die Wirtschaft sich mehr um deren Qualifizierung bemühe.",
-        "paragraphs": [
-          "Ab diesem Jahr schrumpft die Zahl der potenziell Erwerbstätigen. Die Lücken könnten Geringqualifizierte füllen, sagen Experten – wenn die Wirtschaft sich mehr um deren Qualifizierung bemühe."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-wie-geringqualifizierte-den-fachkraeftemangel-abfedern-koennten/100191316.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-15T03:21:21.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/interview-joseph-e-stiglitz-es-haette-laengst-einen-grossen-crash-geben-muessen/100184612.html",
-        "title": "Interview Joseph E. Stiglitz: „Es hätte längst einen großen Crash geben müssen“",
-        "summary": "Der Ökonomie-Nobelpreisträger glaubt, dass die Finanzmärkte die Risiken der Trump-Revolution völlig unterschätzen – und sieht eine postamerikanische Weltwirtschaft heraufziehen.",
-        "paragraphs": [
-          "Der Ökonomie-Nobelpreisträger glaubt, dass die Finanzmärkte die Risiken der Trump-Revolution völlig unterschätzen – und sieht eine postamerikanische Weltwirtschaft heraufziehen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/interview-joseph-e-stiglitz-es-haette-laengst-einen-grossen-crash-geben-muessen/100184612.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-15T03:07:26.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/tickets-fuer-freunde-wagner-gehen-hier-nicht-im-plus-raus-1183686/artikel#omrss",
+        "title": "Tickets für Freunde? Wagner: \"Gehen hier nicht im Plus raus\"",
+        "summary": "Erst vor wenigen Tagen feierte Moritz Wagner sein emotionales Comeback - nach zuvor mehr als einjähriger Verletzung. Wenige Tage später steht mit dem NBA-Saisonspiel in seiner Heimatstadt Berlin der nächste emotionale Höhepunkt an. Vorab erzählte der 28-Jährige, wie er damit umgeht und wie viel Geld er für Tickets für Freunde und Familie ausgegeben hat.",
+        "paragraphs": [
+          "Erst vor wenigen Tagen feierte Moritz Wagner sein emotionales Comeback - nach zuvor mehr als einjähriger Verletzung. Wenige Tage später steht mit dem NBA-Saisonspiel in seiner Heimatstadt Berlin der nächste emotionale Höhepunkt an. Vorab erzählte der 28-Jährige, wie er damit umgeht und wie viel Geld er für Tickets für Freunde und Familie ausgegeben hat."
+        ],
+        "link": "https://www.kicker.de/tickets-fuer-freunde-wagner-gehen-hier-nicht-im-plus-raus-1183686/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-15T09:09:05.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nba-berlin-game-2026-alle-infos-uebertragung-termin-beginn-tickets-1183222/artikel#omrss",
+        "title": "NBA Berlin Game 2026: Alle Infos - Übertragung, Termin, Beginn, Tickets",
+        "summary": "Das erste NBA-Spiel auf deutschem Boden rückt immer näher. Mit den Orlando Magic gastieren am Donnerstag gleich drei deutsche Nationalspieler in Berlin. Hier gibt's alle Infos zur Partie - inklusive der Übertragung im TV und Stream, dem Austragungsort sowie -beginn und der Verfügbarkeit von Resttickets.",
+        "paragraphs": [
+          "Das erste NBA-Spiel auf deutschem Boden rückt immer näher. Mit den Orlando Magic gastieren am Donnerstag gleich drei deutsche Nationalspieler in Berlin. Hier gibt's alle Infos zur Partie - inklusive der Übertragung im TV und Stream, dem Austragungsort sowie -beginn und der Verfügbarkeit von Resttickets."
+        ],
+        "link": "https://www.kicker.de/nba-berlin-game-2026-alle-infos-uebertragung-termin-beginn-tickets-1183222/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-15T09:03:41.000Z"
+      },
       {
         "id": "https://www.kicker.de/ny-rangers-gegen-ottawa-2026-nhl-5092168/spielbericht#omrss",
         "title": "Stützle setzt bei Ottawas Kantersieg den Schlusspunkt",
@@ -535,13 +555,13 @@
         "publishedAt": "2026-01-15T07:50:17.000Z"
       },
       {
-        "id": "https://www.spiegel.de/sport/fussball/fussball-bundesliga-serge-gnabry-war-beim-sieg-des-fc-bayern-muenchen-beim-1-fc-koeln-entscheidend-a-277a1c6f-15e8-4d4e-9979-07033234a9fe",
-        "title": "Fußball-Bundesliga: Serge Gnabry war beim Sieg des FC Bayern München beim 1. FC Köln entscheidend",
+        "id": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-serge-gnabry-war-beim-sieg-gegen-den-1-fc-koeln-entscheidend-a-277a1c6f-15e8-4d4e-9979-07033234a9fe",
+        "title": "FC Bayern München: Serge Gnabry war beim Sieg gegen den 1. FC Köln entscheidend",
         "summary": "Beim 3:1 in Köln wird Serge Gnabry auch wegen eines Traumtors zu einem prägenden Protagonisten. Warum gerade viel dafür spricht, dass der 30-Jährige beim FC Bayern bald einen neuen Vertrag bekommt.",
         "paragraphs": [
           "Beim 3:1 in Köln wird Serge Gnabry auch wegen eines Traumtors zu einem prägenden Protagonisten. Warum gerade viel dafür spricht, dass der 30-Jährige beim FC Bayern bald einen neuen Vertrag bekommt."
         ],
-        "link": "https://www.spiegel.de/sport/fussball/fussball-bundesliga-serge-gnabry-war-beim-sieg-des-fc-bayern-muenchen-beim-1-fc-koeln-entscheidend-a-277a1c6f-15e8-4d4e-9979-07033234a9fe#ref=rss",
+        "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-serge-gnabry-war-beim-sieg-gegen-den-1-fc-koeln-entscheidend-a-277a1c6f-15e8-4d4e-9979-07033234a9fe#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-15T06:41:00.000Z"
       },
@@ -643,31 +663,42 @@
         "link": "https://www.kicker.de/das-spiel-hat-andere-vorzeichen-raum-hat-die-bayern-bereits-im-blick-1183828/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-14T23:00:31.000Z"
-      },
-      {
-        "id": "li.3368979",
-        "title": "Internationaler Fußball: Sieg im Elfmeterschießen: Marokko trifft im Afrika-Cup-Finale auf Senegal",
-        "summary": "Der Gastgeber schlägt Nigeria nach einem 0:0 nach Verlängerung. Sadio Mané trifft für Senegal gegen Ägypten und fordert Marokko im Endspiel am Sonntag.",
-        "paragraphs": [
-          "Der Gastgeber schlägt Nigeria nach einem 0:0 nach Verlängerung. Sadio Mané trifft für Senegal gegen Ägypten und fordert Marokko im Endspiel am Sonntag."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/afrika-cup-finale-marokko-senegal-li.3368979",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-14T22:56:51.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/es-ist-so-unfassbar-schwierig-rekord-bayern-uebertreffen-sich-selbst-1183832/artikel#omrss",
-        "title": "\"Es ist so unfassbar schwierig\": Rekord-Bayern übertreffen sich selbst",
-        "summary": "Der FC Bayern hat die Bundesliga-Hinrunde mit einem 3:1 in Köln abgeschlossen und einen weiteren Rekord aufgestellt. Coach Vincent Kompany war stolz auf seine Jungs, sprach aber auch von einem \"innerlichen Konflikt\".",
-        "paragraphs": [
-          "Der FC Bayern hat die Bundesliga-Hinrunde mit einem 3:1 in Köln abgeschlossen und einen weiteren Rekord aufgestellt. Coach Vincent Kompany war stolz auf seine Jungs, sprach aber auch von einem \"innerlichen Konflikt\"."
-        ],
-        "link": "https://www.kicker.de/es-ist-so-unfassbar-schwierig-rekord-bayern-uebertreffen-sich-selbst-1183832/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-14T22:54:42.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/tests/Tablet-Exot-Huawei-MatePad-11-5-S-mit-mattem-Display-im-Test-11113390.html",
+        "title": "heise+ | Tablet-Exot: Huawei MatePad 11.5 S mit mattem Display im Test",
+        "summary": "Mit dem matten Bildschirm ist das MatePad 11.5 S ein Exot unter den Tablets. Das bringt Vorteile mit sich, die aber nicht alle Schwierigkeiten ausgleichen.",
+        "paragraphs": [
+          "Mit dem matten Bildschirm ist das MatePad 11.5 S ein Exot unter den Tablets. Das bringt Vorteile mit sich, die aber nicht alle Schwierigkeiten ausgleichen."
+        ],
+        "link": "https://www.heise.de/tests/Tablet-Exot-Huawei-MatePad-11-5-S-mit-mattem-Display-im-Test-11113390.html",
+        "source": "c't",
+        "publishedAt": "2026-01-15T09:06:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/TDWI-Muenchen-2026-Jetzt-noch-Vortrag-fuer-die-Konferenz-einreichen-11140685.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: TDWI München 2026: Jetzt noch Vortrag für die Konferenz einreichen",
+        "summary": "Im Juni findet die TDWI München als Deutschlands größter Treffpunkt für Data, Analytics und KI statt. Der Call for Contributions läuft noch bis zum 26. Januar.",
+        "paragraphs": [
+          "Im Juni findet die TDWI München als Deutschlands größter Treffpunkt für Data, Analytics und KI statt. Der Call for Contributions läuft noch bis zum 26. Januar."
+        ],
+        "link": "https://www.heise.de/news/TDWI-Muenchen-2026-Jetzt-noch-Vortrag-fuer-die-Konferenz-einreichen-11140685.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-15T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Landgericht-Berlin-Doctolib-Filter-fuer-Kassenpatienten-irrefuehrend-11141760.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Landgericht Berlin: Doctolib-Filter für Kassenpatienten irreführend",
+        "summary": "Doctolib darf beim Filter „Nur Termine mit gesetzlicher Versicherung anzeigen“ keine Termine von Privatpraxen einblenden.",
+        "paragraphs": [
+          "Doctolib darf beim Filter „Nur Termine mit gesetzlicher Versicherung anzeigen“ keine Termine von Privatpraxen einblenden."
+        ],
+        "link": "https://www.heise.de/news/Landgericht-Berlin-Doctolib-Filter-fuer-Kassenpatienten-irrefuehrend-11141760.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-15T08:50:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Civilization-7-kommt-zu-Apple-Arcade-11141666.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "„Civilization 7“ kommt zu Apple Arcade",
@@ -854,39 +885,6 @@
         "link": "https://www.heise.de/news/Medizinische-Gruende-ISS-Crew-auf-vorzeitigem-Rueckweg-zur-Erde-11141565.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-15T05:55:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Donnerstag-Zwist-um-Exporte-von-KI-Chips-Kalifornien-gegen-Groks-KI-Bilder-11141561.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Donnerstag: Zwist um Exporte von KI-Chips, Kalifornien gegen Groks KI-Bilder",
-        "summary": "China gegen US-Exportlizenzen + Druck auf X auch in den USA + Großbritannien ohne digitalen Ausweiszwang + Schlag gegen Cybercrime-Infrastruktur + #heiseshow",
-        "paragraphs": [
-          "China gegen US-Exportlizenzen + Druck auf X auch in den USA + Großbritannien ohne digitalen Ausweiszwang + Schlag gegen Cybercrime-Infrastruktur + #heiseshow"
-        ],
-        "link": "https://www.heise.de/news/Donnerstag-Zwist-um-Exporte-von-KI-Chips-Kalifornien-gegen-Groks-KI-Bilder-11141561.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-15T05:15:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/heiseshow-Metaverse-Apple-KI-ChatGPT-in-der-Schule-11141339.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "#heiseshow: Metaverse, Apple-KI, ChatGPT in der Schule",
-        "summary": "In der #heiseshow: Das Metaverse lässt Federn, Apple setzt auf Google Gemini und ein Gericht urteilt über ChatGPT in der Schule.",
-        "paragraphs": [
-          "In der #heiseshow: Das Metaverse lässt Federn, Apple setzt auf Google Gemini und ein Gericht urteilt über ChatGPT in der Schule."
-        ],
-        "link": "https://www.heise.de/news/heiseshow-Metaverse-Apple-KI-ChatGPT-in-der-Schule-11141339.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-15T05:11:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Erster-US-Bundesstaat-geht-gegen-xAI-und-Grok-wegen-sexualisierter-KI-Bilder-vor-11141547.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Erster US-Bundesstaat geht gegen xAI und Grok wegen sexualisierter KI-Bilder vor",
-        "summary": "Elon Musk will nichts von per KI auf X erstellten Nacktbildern von Kindern gewusst haben. Doch nach anderen Ländern nimmt nun auch Kalifornien Ermittlungen auf.",
-        "paragraphs": [
-          "Elon Musk will nichts von per KI auf X erstellten Nacktbildern von Kindern gewusst haben. Doch nach anderen Ländern nimmt nun auch Kalifornien Ermittlungen auf."
-        ],
-        "link": "https://www.heise.de/news/Erster-US-Bundesstaat-geht-gegen-xAI-und-Grok-wegen-sexualisierter-KI-Bilder-vor-11141547.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-15T04:08:00.000Z"
       }
     ]
   }
