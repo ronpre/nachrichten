@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-16T09:47:38.024Z",
+  "updatedAt": "2026-01-16T09:56:37.644Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:e6cbd1c1-325f-4890-a1fa-a949f0a1a425}",
+        "title": "Gasversorgung: Europäischer Gaspreis steigt um 20 Prozent innerhalb einer Woche",
+        "summary": "An den Börsen wird Erdgas so teuer gehandelt wie seit einem halben Jahr nicht mehr. Hintergrund sind die kalte Witterung in Teilen Europas und die Lage im Iran.",
+        "paragraphs": [
+          "An den Börsen wird Erdgas so teuer gehandelt wie seit einem halben Jahr nicht mehr. Hintergrund sind die kalte Witterung in Teilen Europas und die Lage im Iran."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/energie-kosten-winter-gas-preis-kaelte",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-16T09:45:20.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-kann-eine-150-jahre-alte-grafik-tatsaechlich-die-boersenkurse-vorhersagen/100189715.html",
         "title": "Geldanlage: Diese Kurve sagt seit 150 Jahren die Märkte präzise voraus – und empfiehlt für 2026 „verkaufen\"",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/arbeit-da-lohnt-sich-ein-plus-beim-bruttoeinkommen-kaum/100188675.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-16T07:30:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/soziales/sven-schulze-in-sachsen-anhalt-fordert-dienstpflicht-fuer-leistungsempfaenger-a-b5bc37fa-927c-4e80-b24d-6f484b17f4cf",
-        "title": "Sven Schulze in Sachsen-Anhalt fordert Dienstpflicht für Leistungsempfänger",
-        "summary": "Wer in Deutschland Sozialleistungen bezieht, soll dafür nach Ansicht des designierten Ministerpräsidenten von Sachsen-Anhalt gemeinnützige Arbeit leisten. Die geplante Bürgergeldreform sei unzureichend.",
-        "paragraphs": [
-          "Wer in Deutschland Sozialleistungen bezieht, soll dafür nach Ansicht des designierten Ministerpräsidenten von Sachsen-Anhalt gemeinnützige Arbeit leisten. Die geplante Bürgergeldreform sei unzureichend."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/soziales/sven-schulze-in-sachsen-anhalt-fordert-dienstpflicht-fuer-leistungsempfaenger-a-b5bc37fa-927c-4e80-b24d-6f484b17f4cf#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-16T07:26:00.000Z"
       }
     ],
     "politik": [
@@ -358,7 +358,7 @@
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/boris-pistorius-bundesverteidigungsminister-geht-nicht-davon-aus-dass-trump-groenland-uebernimmt-a-3d013516-e65f-47cd-ac7d-f8d38637e28a",
-        "title": "Boris Pistorius: Bundesverteidigungsminister geht nicht davon aus, dass Trump Grönland übernimmt",
+        "title": "Grönland: Boris Pistorius geht nicht davon aus, dass Donald Trump die Insel übernimmt",
         "summary": "Bundesverteidigungsminister Boris Pistorius sieht trotz der jüngsten Drohungen von US-Präsident Donald Trump keine Gefahr einer US‑Annexion Grönlands. Im ZDF mahnte er zu Gelassenheit.",
         "paragraphs": [
           "Bundesverteidigungsminister Boris Pistorius sieht trotz der jüngsten Drohungen von US-Präsident Donald Trump keine Gefahr einer US‑Annexion Grönlands. Im ZDF mahnte er zu Gelassenheit."
@@ -391,7 +391,7 @@
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/news-bundeswehr-auf-mission-in-groenland-trumps-kampf-gegen-minneapolis-erstickte-proteste-in-iran-a-3527c8df-9373-4c7c-b89a-df19e448e88e",
-        "title": "News: Bundeswehr auf Mission in Grönland, Trumps Kampf gegen Minneapolis, erstickte Proteste in Iran",
+        "title": "News: Bundeswehr-Mission in Grönland, Donald Trump gegen Minneapolis und Proteste in Iran",
         "summary": "Die Europäer kümmern sich jetzt auch um Grönland. US-Präsident Trump droht Minneapolis. Und in Iran kehrt eine bleierne Ruhe ein. Das ist die Lage am Freitagmorgen.",
         "paragraphs": [
           "Die Europäer kümmern sich jetzt auch um Grönland. US-Präsident Trump droht Minneapolis. Und in Iran kehrt eine bleierne Ruhe ein. Das ist die Lage am Freitagmorgen."
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.spiegel.de/sport/tennis/tennis-alexander-zverev-wirft-medien-vor-australian-open-unfaire-berichterstattung-vor-a-24c838d5-6ec5-4dd3-aedb-154145bd37a9",
+        "title": "Tennis: Alexander Zverev wirft Medien vor Australian Open unfaire Berichterstattung vor",
+        "summary": "»Es ist nervig«: Alexander Zverev hat kurz vor dem ersten Saisonhöhepunkt einige Journalisten scharf kritisiert. Auf sein durchwachsenes Jahr 2025 ist er sogar »ein bisschen stolz«.",
+        "paragraphs": [
+          "»Es ist nervig«: Alexander Zverev hat kurz vor dem ersten Saisonhöhepunkt einige Journalisten scharf kritisiert. Auf sein durchwachsenes Jahr 2025 ist er sogar »ein bisschen stolz«."
+        ],
+        "link": "https://www.spiegel.de/sport/tennis/tennis-alexander-zverev-wirft-medien-vor-australian-open-unfaire-berichterstattung-vor-a-24c838d5-6ec5-4dd3-aedb-154145bd37a9#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-16T09:47:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/die-duelle-der-deutschen-bei-den-australian-open-2026-1080634/artikel#omrss",
+        "title": "Die Duelle der Deutschen bei den Australian Open 2026",
+        "summary": "Acht deutsche Profis sind bei den Australian Open am Start - vier bei den Herren, vier bei den Damen. Der Spielplan der DTB-Profis im Überblick.",
+        "paragraphs": [
+          "Acht deutsche Profis sind bei den Australian Open am Start - vier bei den Herren, vier bei den Damen. Der Spielplan der DTB-Profis im Überblick."
+        ],
+        "link": "https://www.kicker.de/die-duelle-der-deutschen-bei-den-australian-open-2026-1080634/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-16T09:42:34.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/strandmuskeln-kompany-sorgt-fuer-lacher-1184282/video#omrss",
+        "title": "\"Strandmuskeln\": Kompany sorgt für Lacher",
+        "summary": "Beim FC Bayern wartet man auf die Startelf-Rückkehr von Jamal Musiala und Alphonso Davies. Trainer Vincent Kompany ist zufrieden mit der körperlichen Entwicklung der beiden und sorgt dabei für einen Lacher auf der PK.",
+        "paragraphs": [
+          "Beim FC Bayern wartet man auf die Startelf-Rückkehr von Jamal Musiala und Alphonso Davies. Trainer Vincent Kompany ist zufrieden mit der körperlichen Entwicklung der beiden und sorgt dabei für einen Lacher auf der PK."
+        ],
+        "link": "https://www.kicker.de/strandmuskeln-kompany-sorgt-fuer-lacher-1184282/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-16T09:40:15.000Z"
+      },
+      {
         "id": "https://www.kicker.de/ich-dachte-ich-sterbe-ski-star-kilde-im-interview-ueber-seine-schmerzhafte-rueckkehr-1183327/artikel#omrss",
         "title": "\"Ich dachte, ich sterbe\": Ski-Star Kilde im Interview über seine schmerzhafte Rückkehr",
         "summary": "Nach seinem Horrorsturz will der norwegische Ski-Star Aleksander Aamodt Kilde wieder ganz oben auf dem Treppchen stehen. Im Interview erzählt er, warum es schmerzhafter ist, am Brenner mit der Kreditkarte zu zahlen, als Rennen zu fahren, wie Psychologen ihm bei Panikattacken halfen und wie er nun mehr Sicherheit im Skizirkus implementieren will.",
@@ -456,6 +489,17 @@
         "link": "https://www.kicker.de/ich-dachte-ich-sterbe-ski-star-kilde-im-interview-ueber-seine-schmerzhafte-rueckkehr-1183327/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-16T09:38:22.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kompanys-optionen-in-leipzig-kimmich-kehrt-zurueck-1184116/artikel#omrss",
+        "title": "Kompanys Optionen in Leipzig - Kimmich kehrt zurück",
+        "summary": "Wegen zahlreicher Ausfälle muss Vincent Kompany beim Topspiel in Leipzig kreativ werden. Wer wird Rechtsverteidiger?",
+        "paragraphs": [
+          "Wegen zahlreicher Ausfälle muss Vincent Kompany beim Topspiel in Leipzig kreativ werden. Wer wird Rechtsverteidiger?"
+        ],
+        "link": "https://www.kicker.de/kompanys-optionen-in-leipzig-kimmich-kehrt-zurueck-1184116/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-16T09:36:29.000Z"
       },
       {
         "id": "https://www.kicker.de/abwehr-bringt-spass-1184273/artikel#omrss",
@@ -621,50 +665,6 @@
         "link": "https://www.kicker.de/wolff-die-ein-oder-andere-nachricht-hat-mich-sehr-erheitert-1184255/video#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-16T08:13:51.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "title": "Roma präsentiert Malen - Raspadori-Turnaround fix - Ungewöhnliche Lösung bei Lucas Paqueta?",
-        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
-        "paragraphs": [
-          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
-        ],
-        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-16T08:08:12.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-skispringerinnen-heben-in-china-ab-1184040/artikel#omrss",
-        "title": "LIVE! Skispringerinnen heben in China ab",
-        "summary": "Die Skispringerinnen und Skispringer starten von Freitag bis Sonntag bei den Weltcups in Zhangjiakou und Sapporo. In China bzw. Japan stehen jeweils zwei Einzelspringen auf dem Programm.",
-        "paragraphs": [
-          "Die Skispringerinnen und Skispringer starten von Freitag bis Sonntag bei den Weltcups in Zhangjiakou und Sapporo. In China bzw. Japan stehen jeweils zwei Einzelspringen auf dem Programm."
-        ],
-        "link": "https://www.kicker.de/live-skispringerinnen-heben-in-china-ab-1184040/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-16T07:45:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/edmonton-gegen-ny-islanders-2026-nhl-5092178/spielbericht#omrss",
-        "title": "Oilers scheitern an Sorokin, Draisaitl am Pfosten",
-        "summary": "Im Eishockey gibt es Spiele, die entscheidet der Torhüter. Zum Beispiel Ilya Sorokin von den New York Islanders, der beim 1:0-Auswärtssieg in Edmonton überragend hielt und gut spielende Oilers zur Verzweiflung trieb.",
-        "paragraphs": [
-          "Im Eishockey gibt es Spiele, die entscheidet der Torhüter. Zum Beispiel Ilya Sorokin von den New York Islanders, der beim 1:0-Auswärtssieg in Edmonton überragend hielt und gut spielende Oilers zur Verzweiflung trieb."
-        ],
-        "link": "https://www.kicker.de/edmonton-gegen-ny-islanders-2026-nhl-5092178/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-16T07:33:33.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/klay-historisch-butler-und-curry-stark-celtics-drehen-19-punkte-rueckstand-1184222/artikel#omrss",
-        "title": "Klay historisch, Butler und Curry stark - Celtics drehen 19-Punkte-Rückstand",
-        "summary": "Klay Thompson schreibt Geschichte von draußen, Golden State nutzt die Brunson-Pause eiskalt, Oklahoma City zieht Houston im Schlussviertel den Stecker und Boston liefert in Miami eines der stärksten Comebacks der Saison. Das NBA-Roundup zur Nacht.",
-        "paragraphs": [
-          "Klay Thompson schreibt Geschichte von draußen, Golden State nutzt die Brunson-Pause eiskalt, Oklahoma City zieht Houston im Schlussviertel den Stecker und Boston liefert in Miami eines der stärksten Comebacks der Saison. Das NBA-Roundup zur Nacht."
-        ],
-        "link": "https://www.kicker.de/klay-historisch-butler-und-curry-stark-celtics-drehen-19-punkte-rueckstand-1184222/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-16T06:27:40.000Z"
       }
     ],
     "edv": [
@@ -878,13 +878,13 @@
         "publishedAt": "2026-01-16T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Microsoft-Teams-Separierung-von-Telefonie-abgesagt-Entfernung-von-EXIF-Daten-11143261.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Microsoft Teams: Separierung von Telefonie abgesagt, Entfernung von EXIF-Daten",
-        "summary": "Die zur Beschleunigung von Teams geplante Abspaltung der Telefonie kommt nicht. Teams entfernt EXIF-Daten von geteilten Bildern.",
+        "id": "https://www.heise.de/news/M365-Copilot-fuer-Fortgeschrittene-Profiwissen-in-fuenf-Sessions-11136258.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: M365 Copilot für Fortgeschrittene – Profiwissen in fünf Sessions",
+        "summary": "Vertiefen Sie Ihr Wissen über Microsofts KI-Assistenten. Ab dem 3. März vermittelt unser Experte Profiwissen für Admins und Anwender des M365 Copilot.",
         "paragraphs": [
-          "Die zur Beschleunigung von Teams geplante Abspaltung der Telefonie kommt nicht. Teams entfernt EXIF-Daten von geteilten Bildern."
+          "Vertiefen Sie Ihr Wissen über Microsofts KI-Assistenten. Ab dem 3. März vermittelt unser Experte Profiwissen für Admins und Anwender des M365 Copilot."
         ],
-        "link": "https://www.heise.de/news/Microsoft-Teams-Separierung-von-Telefonie-abgesagt-Entfernung-von-EXIF-Daten-11143261.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/M365-Copilot-fuer-Fortgeschrittene-Profiwissen-in-fuenf-Sessions-11136258.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-16T07:00:00.000Z"
       }
