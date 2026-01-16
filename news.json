@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-01-16T15:11:08.210Z",
+  "updatedAt": "2026-01-16T15:30:38.966Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-technologie-werte-treiben-nasdaq-nach-oben/100192151.html",
+        "title": "Dow Jones, S&P 500, Nasdaq: Technologie-Werte treiben Nasdaq nach oben",
+        "summary": "Ein Handelsabkommen der USA mit Taiwan stärkt die KI-Branche. Anleger investieren vermehrt in Tech-Unternehmen. Die anderen Indizes bewegen sich kaum.",
+        "paragraphs": [
+          "Ein Handelsabkommen der USA mit Taiwan stärkt die KI-Branche. Anleger investieren vermehrt in Tech-Unternehmen. Die anderen Indizes bewegen sich kaum."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-technologie-werte-treiben-nasdaq-nach-oben/100192151.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-16T15:08:59.000Z"
+      },
+      {
+        "id": "{urn:uuid:d14ad2aa-b422-47c2-84d6-9dcc9ed469b3}",
+        "title": "Tresore: \"Was Menschen bauen, können Menschen auch wieder zerstören\"",
+        "summary": "Wie kamen die Diebe von Gelsenkirchen an die Millionen? Schweres Gerät und viel Zeit, sagt der Tresorbauer Markus Hartmann. Und erklärt, was (nicht) in den Tresor gehört.",
+        "paragraphs": [
+          "Wie kamen die Diebe von Gelsenkirchen an die Millionen? Schweres Gerät und viel Zeit, sagt der Tresorbauer Markus Hartmann. Und erklärt, was (nicht) in den Tresor gehört."
+        ],
+        "link": "https://www.zeit.de/geld/2026-01/tresore-gelsenkirchen-diebstahl-sicherheit-tresorbauer",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-16T15:06:31.000Z"
+      },
       {
         "id": "li.3370181",
         "title": "Banken: Erfolg für linken Verein: Sparkasse muss Girokonto fortführen",
@@ -199,28 +221,6 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/fuehrungsstile-deutschland-merz-stromberg-vergleich-li.3356107",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-16T13:20:41.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/ruestung-was-der-taurus-kann-und-wie-er-besser-werden-soll-01/100177069.html",
-        "title": "Rüstung: Was der Taurus kann – und wie er besser werden soll",
-        "summary": "Der Marschflugkörper gilt als die stärkste Waffe der Bundeswehr. Nun bestellt die Luftwaffe mit dem Taurus Neo eine neue Version – mit einer bestimmten Absicht.",
-        "paragraphs": [
-          "Der Marschflugkörper gilt als die stärkste Waffe der Bundeswehr. Nun bestellt die Luftwaffe mit dem Taurus Neo eine neue Version – mit einer bestimmten Absicht."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/ruestung-was-der-taurus-kann-und-wie-er-besser-werden-soll-01/100177069.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-16T13:20:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/arrow-3-das-kann-deutschlands-neue-raketenabwehr-01/100181100.html",
-        "title": "Verteidigung: Das kann Deutschlands neue Raketenabwehr Arrow 3",
-        "summary": "Abwehr von Hyperschallwaffen, bis zum Weltall: Für Milliarden Euro sollen Arrow-3-Systeme den deutschen Luftraum schützen. Eine der Anlagen ist bereits scharf gestellt.",
-        "paragraphs": [
-          "Abwehr von Hyperschallwaffen, bis zum Weltall: Für Milliarden Euro sollen Arrow-3-Systeme den deutschen Luftraum schützen. Eine der Anlagen ist bereits scharf gestellt."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/arrow-3-das-kann-deutschlands-neue-raketenabwehr-01/100181100.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-16T13:11:00.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "li.3369758",
+        "title": "Tennisprofi Alexander Zverev: „Es ist nervig irgendwie“",
+        "summary": "Nächster Anlauf im 40. Versuch: Alexander Zverev geht mal wieder das Ziel an, seinen ersten Grand-Slam-Sieg zu erreichen. Bei den Australian Open will er mit mehr Zug spielen – und lässt vorab in Bezug auf sein Privatleben etwas Dampf ab.",
+        "paragraphs": [
+          "Nächster Anlauf im 40. Versuch: Alexander Zverev geht mal wieder das Ziel an, seinen ersten Grand-Slam-Sieg zu erreichen. Bei den Australian Open will er mit mehr Zug spielen – und lässt vorab in Bezug auf sein Privatleben etwas Dampf ab."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/alexander-zverev-tennis-australian-open-li.3369758",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-16T15:14:31.000Z"
+      },
+      {
         "id": "https://www.kicker.de/europameisterin-bernhard-mit-55-jahren-gestorben-1018778/artikel#omrss",
         "title": "Europameisterin Bernhard mit 55 Jahren gestorben",
         "summary": "Der DFB trauert um die 47-malige deutsche Nationalspielerin Anouschka Bernhard, die nach schwerer Krankheit gestorben ist.",
@@ -491,13 +502,13 @@
         "publishedAt": "2026-01-16T14:58:20.000Z"
       },
       {
-        "id": "https://www.kicker.de/wir-trainer-brauchen-das-was-wir-nicht-haben-1184396/artikel#omrss",
-        "title": "\"Wir Trainer brauchen das, was wir nicht haben\"",
+        "id": "https://www.kicker.de/arbeloa-wir-trainer-brauchen-das-was-wir-nicht-haben-1184396/artikel#omrss",
+        "title": "Arbeloa: \"Wir Trainer brauchen das, was wir nicht haben\"",
         "summary": "Nach der Pokalblamage steigt am Samstag Alvaro Arbeloas Heimpremiere als Trainer von Real Madrid. Vor der Partie gegen Levante sprach er über die personelle Lage, Vinicius Junior - und über seinen Schlaf.",
         "paragraphs": [
           "Nach der Pokalblamage steigt am Samstag Alvaro Arbeloas Heimpremiere als Trainer von Real Madrid. Vor der Partie gegen Levante sprach er über die personelle Lage, Vinicius Junior - und über seinen Schlaf."
         ],
-        "link": "https://www.kicker.de/wir-trainer-brauchen-das-was-wir-nicht-haben-1184396/artikel#omrss",
+        "link": "https://www.kicker.de/arbeloa-wir-trainer-brauchen-das-was-wir-nicht-haben-1184396/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-16T14:54:27.000Z"
       },
@@ -654,20 +665,20 @@
         "link": "https://www.kicker.de/corredor-und-bader-fehlen-darmstadt-laenger-1184320/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-16T13:51:54.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/goals-wird-abgeschaltet-um-im-maerz-in-die-offene-beta-zu-starten-1184366/artikel#omrss",
-        "title": "GOALS wird abgeschaltet, um im März in die offene Beta zu starten",
-        "summary": "Seit bald fünf Jahren ist das Fußballspiel GOALS in der Mache - 2026 soll es offiziell auf den Markt kommen. Vorerst geht der Titel jedoch offline, um die offene Beta-Phase im Frühjahr vorzubereiten.",
-        "paragraphs": [
-          "Seit bald fünf Jahren ist das Fußballspiel GOALS in der Mache - 2026 soll es offiziell auf den Markt kommen. Vorerst geht der Titel jedoch offline, um die offene Beta-Phase im Frühjahr vorzubereiten."
-        ],
-        "link": "https://www.kicker.de/goals-wird-abgeschaltet-um-im-maerz-in-die-offene-beta-zu-starten-1184366/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-16T13:44:54.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Premium-Abo-Spotify-hebt-Preise-fuer-die-USA-und-andere-Laender-an-11144476.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Premium-Abo: Spotify hebt Preise für die USA und andere Länder an",
+        "summary": "Spotify kündigt an, seine Abopreise für die USA und andere Länder anzuheben. Derweil wurde die Mehrheit der Songs auf der Plattform entmonetarisiert.",
+        "paragraphs": [
+          "Spotify kündigt an, seine Abopreise für die USA und andere Länder anzuheben. Derweil wurde die Mehrheit der Songs auf der Plattform entmonetarisiert."
+        ],
+        "link": "https://www.heise.de/news/Premium-Abo-Spotify-hebt-Preise-fuer-die-USA-und-andere-Laender-an-11144476.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-16T15:11:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/c-t-3003-Meine-Linux-Probleme-als-Anfaenger-11143464.html",
         "title": "c't 3003: Meine Linux-Probleme als Anfänger",
@@ -677,6 +688,17 @@
         ],
         "link": "https://www.heise.de/news/c-t-3003-Meine-Linux-Probleme-als-Anfaenger-11143464.html",
         "source": "c't",
+        "publishedAt": "2026-01-16T15:05:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/c-t-3003-Meine-Linux-Probleme-als-Anfaenger-11143464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "c't 3003: Meine Linux-Probleme als Anfänger",
+        "summary": "Der Umstieg auf Linux ist eigentlich fest eingeplant; aber im Kopf gibts noch ein paar beängstigende Hürden? Keine Panik, c't 3003 hilft beim Einstieg.",
+        "paragraphs": [
+          "Der Umstieg auf Linux ist eigentlich fest eingeplant; aber im Kopf gibts noch ein paar beängstigende Hürden? Keine Panik, c't 3003 hilft beim Einstieg."
+        ],
+        "link": "https://www.heise.de/news/c-t-3003-Meine-Linux-Probleme-als-Anfaenger-11143464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
         "publishedAt": "2026-01-16T15:05:00.000Z"
       },
       {
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/meinung/heise-Update-vom-16-Januar-2025-Lesetipps-zum-Wochenende-11143056.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "source": "heise",
         "publishedAt": "2026-01-16T11:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/Dashboard-Digitale-Verwaltung-Wie-Bundeslaender-und-Landkreise-abschneiden-11143723.html",
-        "title": "Dashboard Digitale Verwaltung: Wie Ihr Bundesland und Ihr Landkreis abschneiden",
-        "summary": "Ein \"Dashboard\" der Bundesregierung verrät, wie es um die Digitalisierung der Verwaltung bestellt ist – wenn man die teils verwirrenden Angaben einordnen kann.",
-        "paragraphs": [
-          "Ein \"Dashboard\" der Bundesregierung verrät, wie es um die Digitalisierung der Verwaltung bestellt ist – wenn man die teils verwirrenden Angaben einordnen kann."
-        ],
-        "link": "https://www.heise.de/hintergrund/Dashboard-Digitale-Verwaltung-Wie-Bundeslaender-und-Landkreise-abschneiden-11143723.html",
-        "source": "c't",
-        "publishedAt": "2026-01-16T11:20:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/Dashboard-Digitale-Verwaltung-Wie-Bundeslaender-und-Landkreise-abschneiden-11143723.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Dashboard Digitale Verwaltung: Wie Ihr Bundesland und Ihr Landkreis abschneiden",
-        "summary": "Ein \"Dashboard\" der Bundesregierung verrät, wie es um die Digitalisierung der Verwaltung bestellt ist – wenn man die teils verwirrenden Angaben einordnen kann.",
-        "paragraphs": [
-          "Ein \"Dashboard\" der Bundesregierung verrät, wie es um die Digitalisierung der Verwaltung bestellt ist – wenn man die teils verwirrenden Angaben einordnen kann."
-        ],
-        "link": "https://www.heise.de/hintergrund/Dashboard-Digitale-Verwaltung-Wie-Bundeslaender-und-Landkreise-abschneiden-11143723.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-16T11:20:00.000Z"
       }
     ]
   }
