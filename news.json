@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-17T12:46:15.941Z",
+  "updatedAt": "2026-01-17T13:04:39.188Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:1d0f7a60-2dac-4b6d-a92e-c3d751e81007}",
+        "title": "Mercosur-Abkommen: Was das Mercosur-Abkommen bringt",
+        "summary": "Nach 25 Jahren Verhandlung entsteht nun die größte Handelszone der EU. Was die Wirtschaft davon hat und was bei den Verbrauchern ankommt, zeigen diese Zahlen.",
+        "paragraphs": [
+          "Nach 25 Jahren Verhandlung entsteht nun die größte Handelszone der EU. Was die Wirtschaft davon hat und was bei den Verbrauchern ankommt, zeigen diese Zahlen."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/mercosur-abkommen-eu-wirtschaft-handelsbilanz",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-17T12:58:25.000Z"
+      },
       {
         "id": "https://www.spiegel.de/wirtschaft/unternehmen/openai-elon-musk-verlangt-milliardenbetrag-von-chatgpt-entwicklungsfirma-a-3a088402-5e11-48d6-b336-c2caec2a0004",
         "title": "OpenAI: Elon Musk verlangt Milliardenbetrag von ChatGPT-Entwicklungsfirma",
@@ -12,6 +23,17 @@
         "link": "https://www.spiegel.de/wirtschaft/unternehmen/openai-elon-musk-verlangt-milliardenbetrag-von-chatgpt-entwicklungsfirma-a-3a088402-5e11-48d6-b336-c2caec2a0004#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-17T12:39:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukrainische-unterhaendler-zu-gespraechen-ueber-friedensplan-in-den-usa/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Ukrainische Unterhändler zu Gesprächen über Friedensplan in den USA",
+        "summary": "Selenskyj ordnet schnellere Stromimporte an +++ Ukraine: Wieder russische Angriffe auf Gasanlagen +++ Russland meldet Einnahme von zwei Ortschaften +++ Der Newsblog.",
+        "paragraphs": [
+          "Selenskyj ordnet schnellere Stromimporte an +++ Ukraine: Wieder russische Angriffe auf Gasanlagen +++ Russland meldet Einnahme von zwei Ortschaften +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukrainische-unterhaendler-zu-gespraechen-ueber-friedensplan-in-den-usa/27982126.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-17T12:38:30.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/auszeichnung-karlspreis-fuer-mario-draghi-grosses-fuer-europa-geleistet/100192414.html",
@@ -199,31 +221,20 @@
         "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/psychologie-warum-der-uebergang-in-den-ruhestand-so-herausfordernd-sein-kann-01/100046226.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-17T10:11:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-es-reicht-vollkommen-wenn-sie-mit-dem-markt-investieren-02/100124450.html",
-        "title": "Geldanlage: „Auch eine Rentnerin kann 100 Prozent Aktien vertragen“",
-        "summary": "Martin Weber hat über Jahrzehnte das Verhalten von Anlegern erforscht. Im Gespräch erklärt er, worauf es beim Aufbau eines Depots ankommt und welchem Irrglauben Anleger nicht anhängen sollten.",
-        "paragraphs": [
-          "Martin Weber hat über Jahrzehnte das Verhalten von Anlegern erforscht. Im Gespräch erklärt er, worauf es beim Aufbau eines Depots ankommt und welchem Irrglauben Anleger nicht anhängen sollten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-es-reicht-vollkommen-wenn-sie-mit-dem-markt-investieren-02/100124450.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-17T10:08:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/luxusuhren-diese-uhren-glaenzen-am-handgelenk-und-als-wertanlage-02/100180120.html",
-        "title": "Geldanlage: Fürs Handgelenk und fürs Portfolio: Diese Luxusuhren empfehlen Experten",
-        "summary": "Eine mechanische Armbanduhr ist für viele Menschen ein teures, aber beliebtes Geschenk für besondere Anlässe. Drei Experten haben Modelle ausgesucht, die sich auch als Wertanlage eignen.",
-        "paragraphs": [
-          "Eine mechanische Armbanduhr ist für viele Menschen ein teures, aber beliebtes Geschenk für besondere Anlässe. Drei Experten haben Modelle ausgesucht, die sich auch als Wertanlage eignen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/luxusuhren-diese-uhren-glaenzen-am-handgelenk-und-als-wertanlage-02/100180120.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-17T10:04:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukrainische-unterhaendler-zu-gespraechen-ueber-friedensplan-in-den-usa/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Ukrainische Unterhändler zu Gesprächen über Friedensplan in den USA",
+        "summary": "Selenskyj ordnet schnellere Stromimporte an +++ Ukraine: Wieder russische Angriffe auf Gasanlagen +++ Russland meldet Einnahme von zwei Ortschaften +++ Der Newsblog.",
+        "paragraphs": [
+          "Selenskyj ordnet schnellere Stromimporte an +++ Ukraine: Wieder russische Angriffe auf Gasanlagen +++ Russland meldet Einnahme von zwei Ortschaften +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukrainische-unterhaendler-zu-gespraechen-ueber-friedensplan-in-den-usa/27982126.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-17T12:38:30.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/auszeichnung-karlspreis-fuer-mario-draghi-grosses-fuer-europa-geleistet/100192414.html",
         "title": "Auszeichnung: Karlspreis für Mario Draghi – „Großes für Europa geleistet“",
@@ -303,7 +314,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/arbeit-da-lohnt-sich-ein-plus-beim-bruttoeinkommen-kaum-01/100188675.html",
-        "title": "Arbeit: Ökonom Georg Cremer: „Es halten sich zu viele Mythen über den Zustand des Sozialstaats“",
+        "title": "Arbeit: „Es halten sich zu viele Mythen über den Zustand des Sozialstaats“",
         "summary": "Der Ökonom und Ex-Caritasfunktionär Georg Cremer findet, dass der Sozialstaat zu stark gewachsen ist. Auch weil die soziale Lage schlechter dargestellt wird, als sie ist. Was er ändern würde.",
         "paragraphs": [
           "Der Ökonom und Ex-Caritasfunktionär Georg Cremer findet, dass der Sozialstaat zu stark gewachsen ist. Auch weil die soziale Lage schlechter dargestellt wird, als sie ist. Was er ändern würde."
@@ -401,17 +412,6 @@
         "publishedAt": "2026-01-16T20:00:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukraine-kuendigt-gespraeche-mit-usa-fuer-samstag-an/27982126.html",
-        "title": "+++ Ukraine-Krieg +++: Ukrainisches Verhandlungsteam unterwegs in die USA – Gespräche angekündigt für Samstag",
-        "summary": "IAEA: Russland und Ukraine einigen sich auf Feuerpause an AKW Saporischschja +++ Ukraine kündigt Gespräche mit USA für Samstag an +++ Der Newsblog.",
-        "paragraphs": [
-          "IAEA: Russland und Ukraine einigen sich auf Feuerpause an AKW Saporischschja +++ Ukraine kündigt Gespräche mit USA für Samstag an +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukraine-kuendigt-gespraeche-mit-usa-fuer-samstag-an/27982126.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-16T19:44:19.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/international/iran-proteste-muenchner-sicherheitskonferenz-laedt-iranischen-aussenminister-aus/100136895.html",
         "title": "+++ Iran +++: Münchner Sicherheitskonferenz lädt iranischen Außenminister aus",
         "summary": "Hinrichtungen gestoppt: Trump dankt iranischer Führung +++ Kurdische Separatisten melden Angriffe auf Revolutionsgarde im Iran +++ Internet im Iran weiter blockiert +++ Der Newsblog.",
@@ -447,15 +447,26 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-sve-bestraft-nuernberg-dresdens-neuzugang-trifft-gleich-1183384/artikel#omrss",
-        "title": "LIVE! SVE bestraft Nürnberg - Dresdens Neuzugang trifft gleich",
+        "id": "https://www.kicker.de/sechster-triumph-al-attiyah-gewinnt-48-rallye-dakar-1184630/artikel#omrss",
+        "title": "Sechster Triumph: Al-Attiyah gewinnt 48. Rallye Dakar",
+        "summary": "Nasser Al-Attiyah aus Katar hat zum sechsten Mal die Rallye Dakar gewonnen.",
+        "paragraphs": [
+          "Nasser Al-Attiyah aus Katar hat zum sechsten Mal die Rallye Dakar gewonnen."
+        ],
+        "link": "https://www.kicker.de/sechster-triumph-al-attiyah-gewinnt-48-rallye-dakar-1184630/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-17T12:48:44.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-sve-bestraft-nuernbergs-chancenwucher-dresdens-neuzugang-trifft-gleich-1183384/artikel#omrss",
+        "title": "LIVE! SVE bestraft Nürnbergs Chancenwucher - Dresdens Neuzugang trifft gleich",
         "summary": "Für die Kellerkinder Dynamo Dresden und SpVgg Greuther Fürth beginnt das neue Jahr direkt mit einem Abstiegsduell. Preußen Münster empfängt parallel den Karlsruher SC, während der Tabellenzweite SV Elversberg in Nürnberg gastiert.",
         "paragraphs": [
           "Für die Kellerkinder Dynamo Dresden und SpVgg Greuther Fürth beginnt das neue Jahr direkt mit einem Abstiegsduell. Preußen Münster empfängt parallel den Karlsruher SC, während der Tabellenzweite SV Elversberg in Nürnberg gastiert."
         ],
-        "link": "https://www.kicker.de/live-sve-bestraft-nuernberg-dresdens-neuzugang-trifft-gleich-1183384/artikel#omrss",
+        "link": "https://www.kicker.de/live-sve-bestraft-nuernbergs-chancenwucher-dresdens-neuzugang-trifft-gleich-1183384/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-01-17T12:31:30.000Z"
+        "publishedAt": "2026-01-17T12:42:41.000Z"
       },
       {
         "id": "https://www.kicker.de/wettbewerbe-und-termine-die-wintersport-highlights-am-wochenende-1184113/artikel#omrss",
@@ -525,7 +536,7 @@
       },
       {
         "id": "https://www.kicker.de/manunited-gegen-mancity-2026-premier-league-5045219/spielbericht#omrss",
-        "title": "LIVE! Manchester-Derby: Carrick nimmt beim Debüt fünf Wechsel vor",
+        "title": "LIVE! Maguire scheitert aus kurzer Distanz an der Latte - zweimal Gelb für United",
         "summary": "Die Augen in England werden am Samstagvormittag nach Manchester gerichtet, wo sich ManCity und ManUnited zum Derby gegenüberstehen. Während bei den Red Devils Michael Carrick sein Debüt an der Seitenlinie feiert, wollen die Skyblues mit einem Dreier Tabellenführer Arsenal unter Druck setzen.",
         "paragraphs": [
           "Die Augen in England werden am Samstagvormittag nach Manchester gerichtet, wo sich ManCity und ManUnited zum Derby gegenüberstehen. Während bei den Red Devils Michael Carrick sein Debüt an der Seitenlinie feiert, wollen die Skyblues mit einem Dreier Tabellenführer Arsenal unter Druck setzen."
@@ -654,20 +665,31 @@
         "link": "https://www.kicker.de/konferenz-am-mittag-kroesche-bespricht-toppmoellers-zukunft-mit-aufsichtsrat-1184539/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-17T09:50:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kiesslings-skandaltreffer-das-beruechtigte-phantomtor-1183943/video#omrss",
-        "title": "Kießlings Skandaltreffer: Das berüchtigte Phantomtor",
-        "summary": "Als Stefan Kießling 2013 den Ball neben das Tor köpfte, wusste im Stadion noch niemand, dass gerade Bundesliga-Geschichte geschrieben wurde. Das Tor, das keines war, sorgte für einen Skandal mit weitreichenden Folgen.",
-        "paragraphs": [
-          "Als Stefan Kießling 2013 den Ball neben das Tor köpfte, wusste im Stadion noch niemand, dass gerade Bundesliga-Geschichte geschrieben wurde. Das Tor, das keines war, sorgte für einen Skandal mit weitreichenden Folgen."
-        ],
-        "link": "https://www.kicker.de/kiesslings-skandaltreffer-das-beruechtigte-phantomtor-1183943/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-17T09:42:18.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Elon-Musk-fordert-109-Milliarden-US-Dollar-von-OpenAI-11144834.html",
+        "title": "Elon Musk fordert 109 Milliarden US-Dollar von OpenAI",
+        "summary": "Im Rechtsstreit mit dem KI-Unternehmen legt der einstige Mitgründer nun nach. Für angebliche Vertragsverletzungen möchte Musk eine dreistellige Milliardensumme.",
+        "paragraphs": [
+          "Im Rechtsstreit mit dem KI-Unternehmen legt der einstige Mitgründer nun nach. Für angebliche Vertragsverletzungen möchte Musk eine dreistellige Milliardensumme."
+        ],
+        "link": "https://www.heise.de/news/Elon-Musk-fordert-109-Milliarden-US-Dollar-von-OpenAI-11144834.html",
+        "source": "c't",
+        "publishedAt": "2026-01-17T12:53:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Elon-Musk-fordert-109-Milliarden-US-Dollar-von-OpenAI-11144834.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Elon Musk fordert 109 Milliarden US-Dollar von OpenAI",
+        "summary": "Im Rechtsstreit mit dem KI-Unternehmen legt der einstige Mitgründer nun nach. Für angebliche Vertragsverletzungen möchte Musk eine dreistellige Milliardensumme.",
+        "paragraphs": [
+          "Im Rechtsstreit mit dem KI-Unternehmen legt der einstige Mitgründer nun nach. Für angebliche Vertragsverletzungen möchte Musk eine dreistellige Milliardensumme."
+        ],
+        "link": "https://www.heise.de/news/Elon-Musk-fordert-109-Milliarden-US-Dollar-von-OpenAI-11144834.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-17T12:53:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Sky-Deutschland-laeutet-Ende-von-DVB-C-ein-11144816.html",
         "title": "Sky Deutschland läutet Ende von DVB-C ein",
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/news/c-t-3003-Meine-Linux-Probleme-als-Anfaenger-11143464.html",
         "source": "c't",
         "publishedAt": "2026-01-16T15:05:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/c-t-3003-Meine-Linux-Probleme-als-Anfaenger-11143464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "c't 3003: Meine Linux-Probleme als Anfänger",
-        "summary": "Der Umstieg auf Linux ist eigentlich fest eingeplant; aber im Kopf gibts noch ein paar beängstigende Hürden? Keine Panik, c't 3003 hilft beim Einstieg.",
-        "paragraphs": [
-          "Der Umstieg auf Linux ist eigentlich fest eingeplant; aber im Kopf gibts noch ein paar beängstigende Hürden? Keine Panik, c't 3003 hilft beim Einstieg."
-        ],
-        "link": "https://www.heise.de/news/c-t-3003-Meine-Linux-Probleme-als-Anfaenger-11143464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-16T15:05:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Neue-PC-Spiele-im-Februar-2026-Resident-Evil-Requiem-11144292.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Neue PC-Spiele im Februar 2026: „Resident Evil Requiem“",
-        "summary": "Im Februar wird das Horrorspiel \"Resident Evil Requiem\" veröffentlicht. Zudem erscheinen das Action-RPG „Nioh 3“ und der First-Person-Shooter „High On Life 2“.",
-        "paragraphs": [
-          "Im Februar wird das Horrorspiel \"Resident Evil Requiem\" veröffentlicht. Zudem erscheinen das Action-RPG „Nioh 3“ und der First-Person-Shooter „High On Life 2“."
-        ],
-        "link": "https://www.heise.de/news/Neue-PC-Spiele-im-Februar-2026-Resident-Evil-Requiem-11144292.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-16T14:42:00.000Z"
       }
     ]
   }
