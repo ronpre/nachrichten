@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-18T11:27:21.021Z",
+  "updatedAt": "2026-01-18T11:36:00.916Z",
   "categories": {
     "wirtschaft": [
       {
@@ -12,6 +12,17 @@
         "link": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/gore-tex-hersteller-gore-waechst-in-freiwilliger-gemeinschaft/100179243.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-18T11:20:42.000Z"
+      },
+      {
+        "id": "{urn:uuid:8fb52411-0637-400b-8bb9-6538f081d833}",
+        "title": "US-Strafzölle gegen EU: Deutsche Wirtschaft fordert klare EU-Reaktion auf Trumps Zollpläne",
+        "summary": "Nach der Zollankündigung von Donald Trump erwartet die Wirtschaft eine klare EU-Antwort. \"Europa darf sich nicht erpressen lassen\", mahnt der Maschinenbauverband VDMA.",
+        "paragraphs": [
+          "Nach der Zollankündigung von Donald Trump erwartet die Wirtschaft eine klare EU-Antwort. \"Europa darf sich nicht erpressen lassen\", mahnt der Maschinenbauverband VDMA."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/us-strafzoelle-eu-donald-trump-groenland-deutsche-wirtschaft-reaktion",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-18T11:20:15.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/industriepolitik-warum-die-usa-gezielt-um-deutsche-firmen-werben/100180035.html",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/international/usa-trump-droht-jpmorgan-chase-mit-klage/29669594.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-17T23:53:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:59cb0c78-9180-40f1-97c3-5dc1ebd0187a}",
-        "title": "ChatGPT: Musk verklagt OpenAI und Microsoft auf bis zu 134 Milliarden Dollar",
-        "summary": "Der Techmilliardär Elon Musk hatte den ChatGPT-Erfinder OpenAI mitgegründet, aber später verlassen. Jetzt fordert er Milliarden an \"unrechtmäßigen Gewinnen\" zurück.",
-        "paragraphs": [
-          "Der Techmilliardär Elon Musk hatte den ChatGPT-Erfinder OpenAI mitgegründet, aber später verlassen. Jetzt fordert er Milliarden an \"unrechtmäßigen Gewinnen\" zurück."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/elon-musk-klage-openai-microsoft-gewinnbeteiligung",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-17T23:28:17.000Z"
       }
     ],
     "politik": [
@@ -347,7 +347,7 @@
       },
       {
         "id": "https://www.spiegel.de/politik/gruene-jugend-chef-luis-bobga-beschimpft-markus-soeder-als-hurensohn-a-1f2329c2-9b51-48db-bd79-2a6362aed4ba",
-        "title": "Grüne-Jugend-Chef Luis Bobga beschimpft Markus Söder als \"Hurensohn\"",
+        "title": "Grüne-Jugend-Chef Luis Bobga beschimpft Markus Söder als »Hurensohn« - CSU fordert Rücktritt",
         "summary": "Luis Bobga macht da weiter, wo Jette Nietzard aufgehört hat. Der neue Co-Chef der Grünen Jugend hat in einem Instagram-Video eine Haftbefehl-Imitation abgeliefert: Als der »Hurensohn« rappt, ist der bayerische Ministerpräsident zu sehen.",
         "paragraphs": [
           "Luis Bobga macht da weiter, wo Jette Nietzard aufgehört hat. Der neue Co-Chef der Grünen Jugend hat in einem Instagram-Video eine Haftbefehl-Imitation abgeliefert: Als der »Hurensohn« rappt, ist der bayerische Ministerpräsident zu sehen."
@@ -447,11 +447,44 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/arbeloa-kritisiert-pfiffe-gegen-perez-weiss-genau-woher-das-alles-kommt-1184715/video#omrss",
+        "title": "Arbeloa kritisiert Pfiffe gegen Perez: \"Weiß genau, woher das alles kommt\"",
+        "summary": "Real-Trainer Alvaro Arbeloa verteidigt Florentino Perez nach den Pfiffen gegen Levante. Er betont dessen Bedeutung für die Königlichen und sieht hinter den Aktionen eher Gegner von Real als echte Fans.",
+        "paragraphs": [
+          "Real-Trainer Alvaro Arbeloa verteidigt Florentino Perez nach den Pfiffen gegen Levante. Er betont dessen Bedeutung für die Königlichen und sieht hinter den Aktionen eher Gegner von Real als echte Fans."
+        ],
+        "link": "https://www.kicker.de/arbeloa-kritisiert-pfiffe-gegen-perez-weiss-genau-woher-das-alles-kommt-1184715/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-18T11:26:54.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-hornby-zurueck-in-darmstadts-startelf-96-auf-dem-betze-gefordert-1183403/artikel#omrss",
+        "title": "LIVE! Hornby zurück in Darmstadts Startelf - 96 auf dem Betze gefordert",
+        "summary": "Am Zweitliga-Sonntag ist Darmstadt zu Gast in Bochum, während die punktgleichen Paderborner in Kiel gefordert sind. Außerdem treffen Kaiserslautern und Hannover aufeinander.",
+        "paragraphs": [
+          "Am Zweitliga-Sonntag ist Darmstadt zu Gast in Bochum, während die punktgleichen Paderborner in Kiel gefordert sind. Außerdem treffen Kaiserslautern und Hannover aufeinander."
+        ],
+        "link": "https://www.kicker.de/live-hornby-zurueck-in-darmstadts-startelf-96-auf-dem-betze-gefordert-1183403/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-18T11:25:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/umfrage-ist-die-trennung-von-toppmoeller-die-richtige-entscheidung-1184932/artikel#omrss",
+        "title": "Umfrage: Ist die Trennung von Toppmöller die richtige Entscheidung?",
+        "summary": "Nach vier Bundesliga-Spielen ohne Sieg und ohne eine Lösung für die enormen Defensivprobleme muss Dino Toppmöller bei der Eintracht seinen Hut nehmen. Wir wollen von euch wissen: Ist die Trennung vom Cheftrainer die richtige Entscheidung?",
+        "paragraphs": [
+          "Nach vier Bundesliga-Spielen ohne Sieg und ohne eine Lösung für die enormen Defensivprobleme muss Dino Toppmöller bei der Eintracht seinen Hut nehmen. Wir wollen von euch wissen: Ist die Trennung vom Cheftrainer die richtige Entscheidung?"
+        ],
+        "link": "https://www.kicker.de/umfrage-ist-die-trennung-von-toppmoeller-die-richtige-entscheidung-1184932/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-18T11:24:38.000Z"
+      },
+      {
         "id": "https://www.kicker.de/eintracht-frankfurt-trennt-sich-von-trainer-toppmoeller-1184555/artikel#omrss",
         "title": "Eintracht Frankfurt trennt sich von Trainer Toppmöller",
-        "summary": "Eintracht Frankfurt und Dino Toppmöller, einst passte das wie Topf auf Deckel. Die Hessen erlebten unter dem 45-Jährigen durchaus erfolgreiche Zeiten, qualifizierten sich zweimal direkt für den Europapokal. Doch nun ist es vorbei: Die SGE trennt sich von ihrem einstigen Erfolgscoach.",
+        "summary": "Eintracht Frankfurt und Dino Toppmöller, einst passte das wie der Deckel auf den Topf. Die Hessen erlebten unter dem 45-Jährigen durchaus erfolgreiche Zeiten, qualifizierten sich zweimal direkt für den Europapokal. Doch nun ist es vorbei: Die SGE trennt sich von ihrem einstigen Erfolgscoach.",
         "paragraphs": [
-          "Eintracht Frankfurt und Dino Toppmöller, einst passte das wie Topf auf Deckel. Die Hessen erlebten unter dem 45-Jährigen durchaus erfolgreiche Zeiten, qualifizierten sich zweimal direkt für den Europapokal. Doch nun ist es vorbei: Die SGE trennt sich von ihrem einstigen Erfolgscoach."
+          "Eintracht Frankfurt und Dino Toppmöller, einst passte das wie der Deckel auf den Topf. Die Hessen erlebten unter dem 45-Jährigen durchaus erfolgreiche Zeiten, qualifizierten sich zweimal direkt für den Europapokal. Doch nun ist es vorbei: Die SGE trennt sich von ihrem einstigen Erfolgscoach."
         ],
         "link": "https://www.kicker.de/eintracht-frankfurt-trennt-sich-von-trainer-toppmoeller-1184555/artikel#omrss",
         "source": "Kicker",
@@ -471,9 +504,9 @@
       {
         "id": "li.3370625",
         "title": "Rückkehr von Jamal Musiala: Das Ende der bitteren Geschichte aus Amerika",
-        "summary": "Kane? Neuer? Olise? Der 5:1-Sieg der Bayern im Spitzenspiel gegen Leipzig hat viele Protagonisten. Und doch wird die Partie überstrahlt von der Rückkehr Jamal Musialas nach 196 Tagen, dessen Verletzung „fast ein Trauma“ für die ganze Mannschaft gewesen sei.",
+        "summary": "Neuer? Olise? Kane? Der 5:1-Sieg der Bayern im Spitzenspiel gegen Leipzig hat viele Protagonisten. Und doch wird die Partie überstrahlt von der Rückkehr Jamal Musialas nach 196 Tagen, dessen Verletzung „fast ein Trauma“ für die ganze Mannschaft gewesen sei.",
         "paragraphs": [
-          "Kane? Neuer? Olise? Der 5:1-Sieg der Bayern im Spitzenspiel gegen Leipzig hat viele Protagonisten. Und doch wird die Partie überstrahlt von der Rückkehr Jamal Musialas nach 196 Tagen, dessen Verletzung „fast ein Trauma“ für die ganze Mannschaft gewesen sei."
+          "Neuer? Olise? Kane? Der 5:1-Sieg der Bayern im Spitzenspiel gegen Leipzig hat viele Protagonisten. Und doch wird die Partie überstrahlt von der Rückkehr Jamal Musialas nach 196 Tagen, dessen Verletzung „fast ein Trauma“ für die ganze Mannschaft gewesen sei."
         ],
         "link": "https://www.sueddeutsche.de/sport/fc-bayern-jamal-musiala-sieg-leipzig-bundesliga-li.3370625",
         "source": "Sueddeutsche",
@@ -632,39 +665,6 @@
         "link": "https://www.sueddeutsche.de/sport/tennis-australian-open-kommentar-1-point-slam-li.3369759",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-18T09:40:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/olympia-traum-fuer-geiger-wohl-geplatzt-prevc-siegt-weiter-1184909/artikel#omrss",
-        "title": "Olympia-Traum für Geiger wohl geplatzt - Prevc siegt weiter",
-        "summary": "Zumindest die halbe Olympia-Norm hat Karl Geiger in der Nacht auf Sonntag im japanischen Sapporo erfüllt. Für ene Teilnahme an den Spielen reicht das aber wohl nicht mehr. Auf Platz 1 landete wieder einmal Domen Prevc.",
-        "paragraphs": [
-          "Zumindest die halbe Olympia-Norm hat Karl Geiger in der Nacht auf Sonntag im japanischen Sapporo erfüllt. Für ene Teilnahme an den Spielen reicht das aber wohl nicht mehr. Auf Platz 1 landete wieder einmal Domen Prevc."
-        ],
-        "link": "https://www.kicker.de/olympia-traum-fuer-geiger-wohl-geplatzt-prevc-siegt-weiter-1184909/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-18T09:39:50.000Z"
-      },
-      {
-        "id": "{urn:uuid:9093b298-90af-4c7b-b00d-c02724fe0568}",
-        "title": "Gewalt bei Zweitligaspiel: Hertha-Chef will Zusammenstöße von Fans und Polizei aufarbeiten",
-        "summary": "Nach gewalttätigen Auseinandersetzungen rund um das Spiel Hertha BSC gegen Schalke 04 soll der Vorfall aufgearbeitet werden. Polizei und Fanhilfe widersprechen sich.",
-        "paragraphs": [
-          "Nach gewalttätigen Auseinandersetzungen rund um das Spiel Hertha BSC gegen Schalke 04 soll der Vorfall aufgearbeitet werden. Polizei und Fanhilfe widersprechen sich."
-        ],
-        "link": "https://www.zeit.de/sport/2026-01/gewalt-fussball-verletzte-hertha-schalke-berlin-gxe",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-18T09:05:49.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/punkte-mit-erleichterung-kwasnioks-gefuehle-nach-dem-ende-der-sieglos-serie-1003936/artikel#omrss",
-        "title": "\"Punkte mit Erleichterung\": Kwasnioks Gefühle nach dem Ende der Sieglos-Serie",
-        "summary": "Beim 2:1 gegen Mainz befreite sich der 1. FC Köln auch von der Last von acht Spielen ohne Sieg. Trainer Lukas Kwasniok sprach im Anschluss über seinen Umgang mit dem Druck bei den Geißböcken.",
-        "paragraphs": [
-          "Beim 2:1 gegen Mainz befreite sich der 1. FC Köln auch von der Last von acht Spielen ohne Sieg. Trainer Lukas Kwasniok sprach im Anschluss über seinen Umgang mit dem Druck bei den Geißböcken."
-        ],
-        "link": "https://www.kicker.de/punkte-mit-erleichterung-kwasnioks-gefuehle-nach-dem-ende-der-sieglos-serie-1003936/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-18T09:04:37.000Z"
       }
     ],
     "edv": [
