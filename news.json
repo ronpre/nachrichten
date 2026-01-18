@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-18T17:05:20.106Z",
+  "updatedAt": "2026-01-18T17:17:19.571Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:2ca16b4e-1401-4ed5-b53f-ed988fe81ae0}",
+        "title": "Wirtschaftswachstum: Was wir brauchen? Eine wehrhafte Marktwirtschaft",
+        "summary": "Zölle, Kriege und Schocks beeinflussen die Weltwirtschaft brutal. In dieser neuen Welt führt der Weg zu Wohlstand über ein anderes Verhältnis von Wirtschaft und Nation.",
+        "paragraphs": [
+          "Zölle, Kriege und Schocks beeinflussen die Weltwirtschaft brutal. In dieser neuen Welt führt der Weg zu Wohlstand über ein anderes Verhältnis von Wirtschaft und Nation."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/wirtschaftswachstum-deutschland-oekonomie-marktwirtschaft-erfolg",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-18T17:05:37.000Z"
+      },
       {
         "id": "li.3370919",
         "title": "Cartoon: Meissners Strategen",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/gore-tex-hersteller-gore-waechst-in-freiwilliger-gemeinschaft/100179243.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-18T11:20:42.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/industriepolitik-warum-die-usa-gezielt-um-deutsche-firmen-werben/100180035.html",
-        "title": "Industriepolitik: „Perfekte Voraussetzungen“ – Warum die USA gezielt um deutsche Firmen werben",
-        "summary": "US-Wirtschaftsförderer schicken Delegationen nach Deutschland und versprechen Standortvorteile. Eine exklusive Umfrage zeigt, wie attraktiv die USA für deutsche Firmen tatsächlich sind.",
-        "paragraphs": [
-          "US-Wirtschaftsförderer schicken Delegationen nach Deutschland und versprechen Standortvorteile. Eine exklusive Umfrage zeigt, wie attraktiv die USA für deutsche Firmen tatsächlich sind."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/industriepolitik-warum-die-usa-gezielt-um-deutsche-firmen-werben/100180035.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-18T10:54:41.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/schweinfurt-gegen-vikt-koeln-2026-liga-5057529/spielbericht#omrss",
+        "title": "LIVE! Trslic legt nach: Schweinfurt erhöht gegen Köln",
+        "summary": "Beim Schlusslicht Schweinfurt kann Viktoria Köln mit einem Sieg sich von den Abstiegsrängen distanzieren. Oder gibt es nach der Winterpause ein Lebenszeichen der Schnüdel?",
+        "paragraphs": [
+          "Beim Schlusslicht Schweinfurt kann Viktoria Köln mit einem Sieg sich von den Abstiegsrängen distanzieren. Oder gibt es nach der Winterpause ein Lebenszeichen der Schnüdel?"
+        ],
+        "link": "https://www.kicker.de/schweinfurt-gegen-vikt-koeln-2026-liga-5057529/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-18T17:08:55.000Z"
+      },
+      {
         "id": "{urn:uuid:61dbbf3f-2ba5-4c07-b05c-6b06a2eb0deb}",
         "title": "Bundesliga, 18. Spieltag - Sonntag: Union und Stuttgart trennen sich unentschieden",
         "summary": "Der VfB Stuttgart und Union Berlin spielen Remis. Nach einer torlosen ersten Hälfte holt Union den gegnerischen Vorsprung gegen Spielende wieder auf. Der Spielbericht",
@@ -456,17 +467,6 @@
         "link": "https://www.zeit.de/sport/2026-01/fussball-bundesliga-18-spieltag-sonntag-berlin-stuttgart-augsburg-freiburg",
         "source": "ZEIT",
         "publishedAt": "2026-01-18T16:50:15.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/schweinfurt-gegen-vikt-koeln-2026-liga-5057529/spielbericht#omrss",
-        "title": "LIVE! Trslic legt nach: Schweinfurt erhöht gegen Köln",
-        "summary": "Beim Schlusslicht Schweinfurt kann Viktoria Köln mit einem Sieg sich von den Abstiegsrängen distanzieren. Oder gibt es nach der Winterpause ein Lebenszeichen der Schnüdel?",
-        "paragraphs": [
-          "Beim Schlusslicht Schweinfurt kann Viktoria Köln mit einem Sieg sich von den Abstiegsrängen distanzieren. Oder gibt es nach der Winterpause ein Lebenszeichen der Schnüdel?"
-        ],
-        "link": "https://www.kicker.de/schweinfurt-gegen-vikt-koeln-2026-liga-5057529/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-18T16:46:08.000Z"
       },
       {
         "id": "https://www.kicker.de/zu-80-prozent-zufrieden-spektakel-eroeffnet-bochums-topspiel-wochen-1185026/artikel#omrss",
@@ -645,13 +645,13 @@
         "publishedAt": "2026-01-18T15:32:35.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-nach-langer-spielunterbrechung-rehabilitiert-sich-der-fca-1184118/artikel#omrss",
-        "title": "LIVE! Nach langer Spielunterbrechung - Rehabilitiert sich der FCA?",
-        "summary": "Zum Abschluss des 18. Spieltag empfängt der FC Augsburg den SC Freiburg. Nach der deutlichen 0:4-Pleite gegen Gladbach muss der FCA dringend punkten, um nicht weiter abzurutschen.",
+        "id": "https://www.kicker.de/live-nach-langer-spielunterbrechung-atubolu-verhindert-rueckstand-1184118/artikel#omrss",
+        "title": "LIVE! Nach langer Spielunterbrechung - Atubolu verhindert Rückstand",
+        "summary": "Zum Abschluss des 18. Spieltags empfängt der FC Augsburg den SC Freiburg. Setzt sich der FCA von den Abstiegsrängen ab?",
         "paragraphs": [
-          "Zum Abschluss des 18. Spieltag empfängt der FC Augsburg den SC Freiburg. Nach der deutlichen 0:4-Pleite gegen Gladbach muss der FCA dringend punkten, um nicht weiter abzurutschen."
+          "Zum Abschluss des 18. Spieltags empfängt der FC Augsburg den SC Freiburg. Setzt sich der FCA von den Abstiegsrängen ab?"
         ],
-        "link": "https://www.kicker.de/live-nach-langer-spielunterbrechung-rehabilitiert-sich-der-fca-1184118/artikel#omrss",
+        "link": "https://www.kicker.de/live-nach-langer-spielunterbrechung-atubolu-verhindert-rueckstand-1184118/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-18T15:30:10.000Z"
       },
@@ -668,6 +668,17 @@
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Ericsson-will-sich-von-1600-Mitarbeitern-trennen-11145196.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Ericsson will sich von 1600 Mitarbeitern trennen",
+        "summary": "Der Telekommunikationsausrüster kündigt in einer Pressemitteilung Personalabbau bei 1600 Beschäftigten in Schweden an.",
+        "paragraphs": [
+          "Der Telekommunikationsausrüster kündigt in einer Pressemitteilung Personalabbau bei 1600 Beschäftigten in Schweden an."
+        ],
+        "link": "https://www.heise.de/news/Ericsson-will-sich-von-1600-Mitarbeitern-trennen-11145196.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-18T17:08:00.000Z"
+      },
       {
         "id": "https://www.heise.de/hintergrund/Europas-Chip-Champion-Besuch-in-einer-Halbleiterfabrik-von-Infineon-10688450.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "title": "heise+ | Europas Chip-Champion: Besuch in einer Halbleiterfabrik von Infineon",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/bestenlisten/testbericht/e-bike-engwe-ep-2-30-boost-im-test-fette-reifen-starker-motor-grosser-akku/91p0d1m?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-17T15:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Trotz-Statistik-Effekten-Merz-stellt-telefonische-Krankschreibung-infrage-11144856.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Trotz diverser Statistiken zum Krankenstand: Merz stellt Telefon-AU infrage",
-        "summary": "Die Zahlen zum Krankenstand werden seit 2022 genauer erfasst, wodurch die Zahlen ansteigen. Merz macht jedoch die telefonische Krankschreibung verantwortlich.",
-        "paragraphs": [
-          "Die Zahlen zum Krankenstand werden seit 2022 genauer erfasst, wodurch die Zahlen ansteigen. Merz macht jedoch die telefonische Krankschreibung verantwortlich."
-        ],
-        "link": "https://www.heise.de/news/Trotz-Statistik-Effekten-Merz-stellt-telefonische-Krankschreibung-infrage-11144856.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-17T14:35:00.000Z"
       }
     ]
   }
