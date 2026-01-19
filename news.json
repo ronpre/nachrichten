@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-01-19T11:40:26.573Z",
+  "updatedAt": "2026-01-19T11:54:04.599Z",
   "categories": {
     "wirtschaft": [
       {
         "id": "https://www.spiegel.de/wirtschaft/gurken-verteuern-sich-drastisch-80-prozent-teurer-in-zwei-monaten-a-bb456aab-dd6d-4162-94bd-e6b82c718174",
-        "title": "Gurken verteuern sich drastisch: 80 Prozent teurer in zwei Monaten",
+        "title": "Gurken verteuern sich drastisch: Plus 80 Prozent in zwei Monaten",
         "summary": "Steigende Lebensmittelpreise besorgen viele Verbraucher, nun trifft die Inflation eine Gemüsesorte besonders. Schlechte Ernten lassen die Salatgurke innerhalb weniger Monate teurer werden. Experten haben dennoch Hoffnung.",
         "paragraphs": [
           "Steigende Lebensmittelpreise besorgen viele Verbraucher, nun trifft die Inflation eine Gemüsesorte besonders. Schlechte Ernten lassen die Salatgurke innerhalb weniger Monate teurer werden. Experten haben dennoch Hoffnung."
@@ -47,13 +47,13 @@
         "publishedAt": "2026-01-19T11:10:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/konjunktur/inflationsrate-inflation-im-euroraum-sinkt-auf-19-prozent/100192822.html",
-        "title": "Inflationsrate: Inflation im Euroraum sinkt auf 1,9 Prozent",
-        "summary": "Mit einer zweiten Schätzung korrigiert Eurostat seine bisherige Schätzung von 2,0 Prozent. Damit liege die Rate in der Euro-Zone im „Optimalbereich“.",
+        "id": "https://www.handelsblatt.com/politik/konjunktur/inflationsrate-schaetzung-revidiert-euro-inflation-sinkt-auf-19-prozent/100192822.html",
+        "title": "Inflationsrate: Schätzung revidiert – Euro-Inflation sinkt auf 1,9 Prozent",
+        "summary": "Mit einer zweiten Schätzung korrigiert Eurostat seine bisherige Schätzung von 2,0 Prozent. Trotzdem ist der aktuelle Zinszyklus voraussichtlich beendet.",
         "paragraphs": [
-          "Mit einer zweiten Schätzung korrigiert Eurostat seine bisherige Schätzung von 2,0 Prozent. Damit liege die Rate in der Euro-Zone im „Optimalbereich“."
+          "Mit einer zweiten Schätzung korrigiert Eurostat seine bisherige Schätzung von 2,0 Prozent. Trotzdem ist der aktuelle Zinszyklus voraussichtlich beendet."
         ],
-        "link": "https://www.handelsblatt.com/politik/konjunktur/inflationsrate-inflation-im-euroraum-sinkt-auf-19-prozent/100192822.html",
+        "link": "https://www.handelsblatt.com/politik/konjunktur/inflationsrate-schaetzung-revidiert-euro-inflation-sinkt-auf-19-prozent/100192822.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-19T11:01:28.000Z"
       },
@@ -224,6 +224,17 @@
       }
     ],
     "politik": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/sanae-takaichi-japanische-regierungschefin-kuendigt-neuwahlen-an/100192838.html",
+        "title": "Sanae Takaichi: Japanische Regierungschefin kündigt Neuwahlen an",
+        "summary": "Japans erste Ministerpräsidentin Takaichi regiert seit Kurzem mit knapper Mehrheit. Nun will sie ihre guten Umfragewerte nutzen, um mit einer vorzeitigen Neuwahl ihre Macht zu festigen.",
+        "paragraphs": [
+          "Japans erste Ministerpräsidentin Takaichi regiert seit Kurzem mit knapper Mehrheit. Nun will sie ihre guten Umfragewerte nutzen, um mit einer vorzeitigen Neuwahl ihre Macht zu festigen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/sanae-takaichi-japanische-regierungschefin-kuendigt-neuwahlen-an/100192838.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-19T11:45:57.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/konjunktur/inflationsrate-schaetzung-revidiert-euro-inflation-sinkt-auf-19-prozent/100192822.html",
         "title": "Inflationsrate: Schätzung revidiert – Euro-Inflation sinkt auf 1,9 Prozent",
@@ -421,17 +432,6 @@
         "link": "https://www.handelsblatt.com/politik/international/oxfam-bericht-vermoegen-von-milliardaeren-steigt-2025-auf-rekordhoch/100192658.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-19T00:50:38.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/groenland-trumps-neuer-zollschock-europa-bereitet-gegenschlag-vor/100192592.html",
-        "title": "Grönland: Trumps neuer Zollschock – Europa bereitet Gegenschlag vor",
-        "summary": "Der US-Präsident kündigt wegen Grönland Strafzölle an. EU-Vertreter konnten sich noch nicht auf Gegenmaßnahmen einigen. Trotzdem greifen ab Februar automatisch 93 Milliarden Euro Gegenzölle.",
-        "paragraphs": [
-          "Der US-Präsident kündigt wegen Grönland Strafzölle an. EU-Vertreter konnten sich noch nicht auf Gegenmaßnahmen einigen. Trotzdem greifen ab Februar automatisch 93 Milliarden Euro Gegenzölle."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/groenland-trumps-neuer-zollschock-europa-bereitet-gegenschlag-vor/100192592.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-18T22:44:40.000Z"
       },
       {
         "id": "https://www.spiegel.de/politik/deutschland/groenland-und-die-usa-aussenminister-wadephul-hegt-keinen-zweifel-an-buendnistreue-der-usa-a-3585efe9-c8cf-4ae0-ad51-507a8e8b3e76",
@@ -669,8 +669,30 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/TranslateGemma-Google-gibt-KI-Modell-fuer-Uebersetzung-frei-11145551.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "TranslateGemma: Google gibt KI-Modell für Übersetzung frei",
+        "summary": "Googles frei verfügbares KI-Modell Gemma ist jetzt als TranslateGemma spezialisiert auf die Übersetzung von 55 Sprachen.",
+        "paragraphs": [
+          "Googles frei verfügbares KI-Modell Gemma ist jetzt als TranslateGemma spezialisiert auf die Übersetzung von 55 Sprachen."
+        ],
+        "link": "https://www.heise.de/news/TranslateGemma-Google-gibt-KI-Modell-fuer-Uebersetzung-frei-11145551.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-19T11:44:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Wie-bekomme-ich-E-Auto-Foerderung-Ministerium-gibt-Details-bekannt-11145697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Wie bekomme ich E-Auto-Förderung? Ministerium gibt Details bekannt",
+        "summary": "Die Bundesregierung legt \"in Erwartung exponentieller Verkäufe\" die Prämie für E-Autos mit sozialer Komponente neu auf. Sie soll auch der Industrie helfen.",
+        "paragraphs": [
+          "Die Bundesregierung legt \"in Erwartung exponentieller Verkäufe\" die Prämie für E-Autos mit sozialer Komponente neu auf. Sie soll auch der Industrie helfen."
+        ],
+        "link": "https://www.heise.de/news/Wie-bekomme-ich-E-Auto-Foerderung-Ministerium-gibt-Details-bekannt-11145697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-19T11:36:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Webentwicklung-Cloudflare-uebernimmt-Astro-Technology-Company-11145473.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Webentwicklung: Cloudflare übernimmt Astro Technology Company",
+        "title": "Cloudflare übernimmt Astro Technology Company",
         "summary": "Das Unternehmen hinter dem Webframework Astro gehört nun zu Cloudflare. Astro soll jedoch Open Source bleiben und aktiv weiterentwickelt werden.",
         "paragraphs": [
           "Das Unternehmen hinter dem Webframework Astro gehört nun zu Cloudflare. Astro soll jedoch Open Source bleiben und aktiv weiterentwickelt werden."
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/news/KI-Coding-Tools-im-Vergleich-GitHub-Copilot-Cursor-Claude-Code-und-mehr-11142938.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-19T09:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/New-York-will-Vorgehen-gegen-3D-gedruckte-Waffen-verschaerfen-11145401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Schusswaffen aus 3D‑Druckern: New York will schärfer gegen Ghost Guns vorgehen",
-        "summary": "New York plant bundesweit einmalige Regeln gegen 3D‑gedruckte Waffen und sogenannte Ghost Guns.",
-        "paragraphs": [
-          "New York plant bundesweit einmalige Regeln gegen 3D‑gedruckte Waffen und sogenannte Ghost Guns."
-        ],
-        "link": "https://www.heise.de/news/New-York-will-Vorgehen-gegen-3D-gedruckte-Waffen-verschaerfen-11145401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-19T08:53:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/ratgeber/Privates-Wissensarchiv-Anleitungen-und-Co-mit-lokaler-KI-durchsuchen-11141754.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Privates Wissensarchiv: Anleitungen und Co. mit lokaler KI durchsuchen",
-        "summary": "Größere Dokumente nach Informationen zu durchforsten ist zeitraubend. Lokale KI kann den Job übernehmen. So füttern Sie sie mit digitalen Schriftstücken.",
-        "paragraphs": [
-          "Größere Dokumente nach Informationen zu durchforsten ist zeitraubend. Lokale KI kann den Job übernehmen. So füttern Sie sie mit digitalen Schriftstücken."
-        ],
-        "link": "https://www.heise.de/ratgeber/Privates-Wissensarchiv-Anleitungen-und-Co-mit-lokaler-KI-durchsuchen-11141754.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2026-01-19T08:30:00.000Z"
       }
     ]
   }
