@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-19T11:29:51.009Z",
+  "updatedAt": "2026-01-19T11:40:26.573Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.spiegel.de/wirtschaft/gurken-verteuern-sich-drastisch-80-prozent-teurer-in-zwei-monaten-a-bb456aab-dd6d-4162-94bd-e6b82c718174",
+        "title": "Gurken verteuern sich drastisch: 80 Prozent teurer in zwei Monaten",
+        "summary": "Steigende Lebensmittelpreise besorgen viele Verbraucher, nun trifft die Inflation eine Gemüsesorte besonders. Schlechte Ernten lassen die Salatgurke innerhalb weniger Monate teurer werden. Experten haben dennoch Hoffnung.",
+        "paragraphs": [
+          "Steigende Lebensmittelpreise besorgen viele Verbraucher, nun trifft die Inflation eine Gemüsesorte besonders. Schlechte Ernten lassen die Salatgurke innerhalb weniger Monate teurer werden. Experten haben dennoch Hoffnung."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/gurken-verteuern-sich-drastisch-80-prozent-teurer-in-zwei-monaten-a-bb456aab-dd6d-4162-94bd-e6b82c718174#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-19T11:35:00.000Z"
+      },
       {
         "id": "{urn:uuid:fe01d65b-15fd-47e9-8249-273dde097764}",
         "title": "Kiel Institut für Weltwirtschaft: US-Amerikaner zahlen selbst für Zölle",
@@ -12,6 +23,17 @@
         "link": "https://www.zeit.de/wirtschaft/2026-01/ifw-kiel-usa-strafzoelle-donald-trump-kosten-us-wirtschaft",
         "source": "ZEIT",
         "publishedAt": "2026-01-19T11:16:52.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/bitcoin-zoll-sorgen-druecken-den-bitcoin-unter-92.000-us-dollar/100192724.html",
+        "title": "Bitcoin: Bitcoin fällt unter 92.000 US-Dollar",
+        "summary": "Die neuen Zoll-Pläne von US-Präsident Trump sorgen auch bei Digitalwährungen für deutliche Verluste. Im Handelsverlauf dämmen die Cyberdevisen den Rückgang ein wenig ein.",
+        "paragraphs": [
+          "Die neuen Zoll-Pläne von US-Präsident Trump sorgen auch bei Digitalwährungen für deutliche Verluste. Im Handelsverlauf dämmen die Cyberdevisen den Rückgang ein wenig ein."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/bitcoin-zoll-sorgen-druecken-den-bitcoin-unter-92.000-us-dollar/100192724.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-19T11:14:04.000Z"
       },
       {
         "id": "https://www.spiegel.de/wirtschaft/peter-leibinger-bdi-praesident-haelt-eu-gegenzoelle-fuer-plausibel-a-dcb23889-80ed-425a-9fbd-76846a10dbf3",
@@ -199,39 +221,17 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/mieten-angebote-moebliert-befristet-li.3371156",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-19T09:47:42.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/e-auto-praemie-laden-muss-sich-lohnen-meinung-a-97388e6b-162a-4184-932a-d3d6ed89b390",
-        "title": "E-Auto-Prämie: Laden muss sich lohnen – Meinung",
-        "summary": "Der Bund hat eine neue Kaufprämie für Elektroautos beschlossen. Viel wichtiger wäre, dass die Preise für Ladestrom niedriger und transparenter werden.",
-        "paragraphs": [
-          "Der Bund hat eine neue Kaufprämie für Elektroautos beschlossen. Viel wichtiger wäre, dass die Preise für Ladestrom niedriger und transparenter werden."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/e-auto-praemie-laden-muss-sich-lohnen-meinung-a-97388e6b-162a-4184-932a-d3d6ed89b390#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-19T09:36:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/rechtsstreit-bayer-aktie-steigt-auf-den-hoechsten-stand-seit-27-monaten/100192764.html",
-        "title": "Rechtsstreit in USA: Bayer-Aktie erreicht den höchsten Stand seit 27 Monaten",
-        "summary": "Bayer erzielt im Glyphosat-Streit einen wichtigen Etappensieg. Die Aktie reagiert zum Wochenauftakt mit dem größten Tagesanstieg seit Anfang Dezember.",
-        "paragraphs": [
-          "Bayer erzielt im Glyphosat-Streit einen wichtigen Etappensieg. Die Aktie reagiert zum Wochenauftakt mit dem größten Tagesanstieg seit Anfang Dezember."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/rechtsstreit-bayer-aktie-steigt-auf-den-hoechsten-stand-seit-27-monaten/100192764.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-19T09:34:18.000Z"
       }
     ],
     "politik": [
       {
-        "id": "https://www.handelsblatt.com/politik/konjunktur/inflationsrate-inflation-im-euroraum-sinkt-auf-19-prozent/100192822.html",
-        "title": "Inflationsrate: Inflation im Euroraum sinkt auf 1,9 Prozent",
-        "summary": "Mit einer zweiten Schätzung korrigiert Eurostat seine bisherige Schätzung von 2,0 Prozent. Damit liege die Rate in der Euro-Zone im „Optimalbereich“.",
+        "id": "https://www.handelsblatt.com/politik/konjunktur/inflationsrate-schaetzung-revidiert-euro-inflation-sinkt-auf-19-prozent/100192822.html",
+        "title": "Inflationsrate: Schätzung revidiert – Euro-Inflation sinkt auf 1,9 Prozent",
+        "summary": "Mit einer zweiten Schätzung korrigiert Eurostat seine bisherige Schätzung von 2,0 Prozent. Trotzdem ist der aktuelle Zinszyklus voraussichtlich beendet.",
         "paragraphs": [
-          "Mit einer zweiten Schätzung korrigiert Eurostat seine bisherige Schätzung von 2,0 Prozent. Damit liege die Rate in der Euro-Zone im „Optimalbereich“."
+          "Mit einer zweiten Schätzung korrigiert Eurostat seine bisherige Schätzung von 2,0 Prozent. Trotzdem ist der aktuelle Zinszyklus voraussichtlich beendet."
         ],
-        "link": "https://www.handelsblatt.com/politik/konjunktur/inflationsrate-inflation-im-euroraum-sinkt-auf-19-prozent/100192822.html",
+        "link": "https://www.handelsblatt.com/politik/konjunktur/inflationsrate-schaetzung-revidiert-euro-inflation-sinkt-auf-19-prozent/100192822.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-19T11:01:28.000Z"
       },
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/unser-ganz-grosses-problem-ginter-legt-den-finger-in-die-wunde-1185135/artikel#omrss",
+        "title": "\"Unser ganz großes Problem\": Ginter legt den Finger in die Wunde",
+        "summary": "Wieder einen Rückstand aufgeholt, erneut dank guter Joker, auch insgesamt steht der SC Freiburg ordentlich bis gut da. Aber beim 2:2 in Augsburg offenbarte sich ein grundsätzliches Defizit, das Matthias Ginter nicht zum ersten Mal klar ansprach.",
+        "paragraphs": [
+          "Wieder einen Rückstand aufgeholt, erneut dank guter Joker, auch insgesamt steht der SC Freiburg ordentlich bis gut da. Aber beim 2:2 in Augsburg offenbarte sich ein grundsätzliches Defizit, das Matthias Ginter nicht zum ersten Mal klar ansprach."
+        ],
+        "link": "https://www.kicker.de/unser-ganz-grosses-problem-ginter-legt-den-finger-in-die-wunde-1185135/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-19T11:30:24.000Z"
+      },
+      {
         "id": "li.3369988",
         "title": "Real-Boss Florentino Pérez: Verlieren sollen bitte die anderen",
         "summary": "Der König von Madrid ist nicht der König, sondern der Präsident des Fußballklubs Real. Seit einem Vierteljahrhundert besteht er auf dem Recht des Stärkeren. Könnte aber sein, dass seine Ära nun in Gefahr gerät.",
@@ -480,13 +491,13 @@
         "publishedAt": "2026-01-19T11:01:38.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-kroesches-pressekonferenz-nach-toppmoellers-aus-1185306/artikel#omrss",
-        "title": "LIVE! Krösches Pressekonferenz nach Toppmöllers Aus",
-        "summary": "Einen Tag nach der Trennung von Trainer Dino Toppmöller stellt sich Eintracht Frankfurts Sportvorstand Markus Krösche auf einer Pressekonferenz den Fragen der Medien. Wir tickern die PK hier live.",
+        "id": "https://www.kicker.de/kroesche-pk-zum-nachlesen-trainer-und-mannschaft-hatten-sich-verkeilt-1185306/artikel#omrss",
+        "title": "Krösche-PK zum Nachlesen: \"Trainer und Mannschaft hatten sich verkeilt\"",
+        "summary": "Einen Tag nach der Trennung von Trainer Dino Toppmöller stellte sich Eintracht Frankfurts Sportvorstand Markus Krösche auf einer Pressekonferenz den Fragen der Medien - eine gefiel ihm gar nicht. Die wichtigsten Aussagen.",
         "paragraphs": [
-          "Einen Tag nach der Trennung von Trainer Dino Toppmöller stellt sich Eintracht Frankfurts Sportvorstand Markus Krösche auf einer Pressekonferenz den Fragen der Medien. Wir tickern die PK hier live."
+          "Einen Tag nach der Trennung von Trainer Dino Toppmöller stellte sich Eintracht Frankfurts Sportvorstand Markus Krösche auf einer Pressekonferenz den Fragen der Medien - eine gefiel ihm gar nicht. Die wichtigsten Aussagen."
         ],
-        "link": "https://www.kicker.de/live-kroesches-pressekonferenz-nach-toppmoellers-aus-1185306/artikel#omrss",
+        "link": "https://www.kicker.de/kroesche-pk-zum-nachlesen-trainer-und-mannschaft-hatten-sich-verkeilt-1185306/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-19T10:52:45.000Z"
       },
@@ -654,20 +665,20 @@
         "link": "https://www.kicker.de/marokko-coach-ueber-panenka-fehlschuss-das-hat-brahim-nicht-geholfen-1185241/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-19T09:30:43.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bleibt-der-top-torjaeger-verinac-laesst-den-vfb-luebeck-hoffen-1184440/artikel#omrss",
-        "title": "Bleibt der Top-Torjäger? Verinac lässt den VfB Lübeck hoffen",
-        "summary": "Personell hat sich in diesem Winter schon ein bisschen was getan beim VfB Lübeck. Doch da das Transferfenster noch offen ist, sind Zu- und Abgänge weiter denkbar. Ein Wechsel von Antonio Verinac wäre für den Ex-Zweitligisten ein herber Verlust.",
-        "paragraphs": [
-          "Personell hat sich in diesem Winter schon ein bisschen was getan beim VfB Lübeck. Doch da das Transferfenster noch offen ist, sind Zu- und Abgänge weiter denkbar. Ein Wechsel von Antonio Verinac wäre für den Ex-Zweitligisten ein herber Verlust."
-        ],
-        "link": "https://www.kicker.de/bleibt-der-top-torjaeger-verinac-laesst-den-vfb-luebeck-hoffen-1184440/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-19T09:27:21.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Webentwicklung-Cloudflare-uebernimmt-Astro-Technology-Company-11145473.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Webentwicklung: Cloudflare übernimmt Astro Technology Company",
+        "summary": "Das Unternehmen hinter dem Webframework Astro gehört nun zu Cloudflare. Astro soll jedoch Open Source bleiben und aktiv weiterentwickelt werden.",
+        "paragraphs": [
+          "Das Unternehmen hinter dem Webframework Astro gehört nun zu Cloudflare. Astro soll jedoch Open Source bleiben und aktiv weiterentwickelt werden."
+        ],
+        "link": "https://www.heise.de/news/Webentwicklung-Cloudflare-uebernimmt-Astro-Technology-Company-11145473.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-19T11:21:00.000Z"
+      },
       {
         "id": "https://www.heise.de/meinung/Kommentar-Entwickler-wacht-auf-oder-verliert-euren-Job-11145736.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Kommentar: Entwickler, wacht auf – oder verliert euren Job",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/ratgeber/Privates-Wissensarchiv-Anleitungen-und-Co-mit-lokaler-KI-durchsuchen-11141754.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "source": "heise",
         "publishedAt": "2026-01-19T08:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Internetblockade-im-Iran-Staats-TV-gehackt-und-Schah-Sohn-Botschaft-verbreitet-11145322.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Iran weiter ohne Internet: Staatsfernsehen gehackt und Regimekritik verbreitet",
-        "summary": "Der Iran ist anderthalb Wochen ohne Internet, ein Ende ist nicht in Aussicht. Am Sonntag wurde wohl das Staatsfernsehen gehackt und Regimekritik verbreitet.",
-        "paragraphs": [
-          "Der Iran ist anderthalb Wochen ohne Internet, ein Ende ist nicht in Aussicht. Am Sonntag wurde wohl das Staatsfernsehen gehackt und Regimekritik verbreitet."
-        ],
-        "link": "https://www.heise.de/news/Internetblockade-im-Iran-Staats-TV-gehackt-und-Schah-Sohn-Botschaft-verbreitet-11145322.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-19T08:25:00.000Z"
       }
     ]
   }
