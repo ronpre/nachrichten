@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-21T13:50:58.567Z",
+  "updatedAt": "2026-01-21T14:11:18.415Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:59304033-80ef-49b6-ba63-86ce4964d576}",
+        "title": "Weltwirtschaftsforum 2026: Donald Trump kritisiert Europa in Davos",
+        "summary": "Der US-Präsident beginnt seine Rede beim Weltwirtschaftsforum mit Selbstlob. Europa entwickle sich in die falsche Richtung und sei nicht wiederzuerkennen. Das Liveblog",
+        "paragraphs": [
+          "Der US-Präsident beginnt seine Rede beim Weltwirtschaftsforum mit Selbstlob. Europa entwickle sich in die falsche Richtung und sei nicht wiederzuerkennen. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/weltwirtschaftsforum-2026-davos-schweiz-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-21T14:00:15.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/dienstleister/steuerberater-investment-kodex-soll-streit-um-private-equity-entschaerfen/100188997.html",
         "title": "Berater: Investment-Kodex soll Streit um Private Equity bei Steuerberatern entschärfen",
@@ -14,22 +25,11 @@
         "publishedAt": "2026-01-21T13:49:13.000Z"
       },
       {
-        "id": "{urn:uuid:59304033-80ef-49b6-ba63-86ce4964d576}",
-        "title": "Weltwirtschaftsforum 2026: Donald Trump kritisiert Europa in Davos",
-        "summary": "Der US-Präsident beginnt seine Rede beim Weltwirtschaftsforum mit Selbstlob. Europa entwickle sich in die falsche Richtung. Das Liveblog",
-        "paragraphs": [
-          "Der US-Präsident beginnt seine Rede beim Weltwirtschaftsforum mit Selbstlob. Europa entwickle sich in die falsche Richtung. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/weltwirtschaftsforum-2026-davos-schweiz-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-21T13:45:38.000Z"
-      },
-      {
         "id": "li.3370206",
-        "title": "Weltwirtschaftsforum: Trump spricht in Davos",
-        "summary": "Der US-Präsident wird auf dem Weltwirtschaftsforum mit Spannung erwartet. Welchen Ton wird er anschlagen?  Verfolgen Sie den Auftritt im Livestream.",
+        "title": "Weltwirtschaftsforum: Trump: „Europa geht nicht in die richtige Richtung“",
+        "summary": "Der US-Präsident hält seine mit Spannung erwartete Rede auf dem Weltwirtschaftsforum - und kritisiert gleich Europa.  Verfolgen Sie den Auftritt im Livestream.",
         "paragraphs": [
-          "Der US-Präsident wird auf dem Weltwirtschaftsforum mit Spannung erwartet. Welchen Ton wird er anschlagen?  Verfolgen Sie den Auftritt im Livestream."
+          "Der US-Präsident hält seine mit Spannung erwartete Rede auf dem Weltwirtschaftsforum - und kritisiert gleich Europa.  Verfolgen Sie den Auftritt im Livestream."
         ],
         "link": "https://www.sueddeutsche.de/wirtschaft/wef-2026-davos-weltwirtschaftsforum-liveblog-trump-li.3370206",
         "source": "Sueddeutsche",
@@ -59,7 +59,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/wef-in-davos-jetzt-live-donald-trump-spricht-in-davos/100192241.html",
-        "title": "+++ WEF in Davos +++: Jetzt live: US-Präsident Donald Trump spricht in Davos",
+        "title": "+++ WEF in Davos +++: „Ich liebe Europa, aber…“: US-Präsident Trump spricht in Davos",
         "summary": "Dimon: „Wir brauchen eine stärkere Nato, ein stärkeres Europa“ +++ Nato-Chef Rutte lobt Trump +++ Medienberichte: Meloni wird Einladung zu Trumps „Friedensrat“ ablehnen +++ Der Newsblog.",
         "paragraphs": [
           "Dimon: „Wir brauchen eine stärkere Nato, ein stärkeres Europa“ +++ Nato-Chef Rutte lobt Trump +++ Medienberichte: Meloni wird Einladung zu Trumps „Friedensrat“ ablehnen +++ Der Newsblog."
@@ -248,7 +248,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/wef-in-davos-jetzt-live-donald-trump-spricht-in-davos/100192241.html",
-        "title": "+++ WEF in Davos +++: Jetzt live: US-Präsident Donald Trump spricht in Davos",
+        "title": "+++ WEF in Davos +++: „Nach dem Zweiten Weltkrieg haben wir Grönland zurück an Dänemark gegeben. Wie dumm waren wir?“: US-Präsident Trump spricht in Davos",
         "summary": "Dimon: „Wir brauchen eine stärkere Nato, ein stärkeres Europa“ +++ Nato-Chef Rutte lobt Trump +++ Medienberichte: Meloni wird Einladung zu Trumps „Friedensrat“ ablehnen +++ Der Newsblog.",
         "paragraphs": [
           "Dimon: „Wir brauchen eine stärkere Nato, ein stärkeres Europa“ +++ Nato-Chef Rutte lobt Trump +++ Medienberichte: Meloni wird Einladung zu Trumps „Friedensrat“ ablehnen +++ Der Newsblog."
@@ -336,10 +336,10 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/netzausbau-eu-kommission-will-dsl-aus-und-internetmarkt-reformieren/100193046.html",
-        "title": "Netzausbau: EU-Kommission will DSL-Aus und Internetmarkt reformieren",
-        "summary": "Bis spätestens 2035 sollen in der gesamten EU alte DSL-Verbindungen weichen. Der vorgestellte Gesetzentwurf sieht aber keine Netzgebühren für US-amerikanische Streamingdienste wie Netflix vor.",
+        "title": "Netzausbau: EU-Kommission will DSL-Aus und Internetmarkt reformieren –  und knickt vor Trump ein",
+        "summary": "Bis 2035 sollen alte DSL-Verbindungen weichen. Gleichzeitig knickt die EU mit dem neuen Gesetz vor US-Präsident Donald Trump ein: Netzgebühren für Streamingdienste wie Netflix bleiben aus.",
         "paragraphs": [
-          "Bis spätestens 2035 sollen in der gesamten EU alte DSL-Verbindungen weichen. Der vorgestellte Gesetzentwurf sieht aber keine Netzgebühren für US-amerikanische Streamingdienste wie Netflix vor."
+          "Bis 2035 sollen alte DSL-Verbindungen weichen. Gleichzeitig knickt die EU mit dem neuen Gesetz vor US-Präsident Donald Trump ein: Netzgebühren für Streamingdienste wie Netflix bleiben aus."
         ],
         "link": "https://www.handelsblatt.com/politik/international/netzausbau-eu-kommission-will-dsl-aus-und-internetmarkt-reformieren/100193046.html",
         "source": "Handelsblatt",
@@ -446,6 +446,17 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/musterprofi-schluesselfigur-schuster-bleibt-rostock-erhalten-1186046/artikel#omrss",
+        "title": "Musterprofi, Schlüsselfigur: Schuster bleibt Rostock erhalten",
+        "summary": "Im Blickpunkt stand am vergangenen Samstag einmal mehr Ryan Naderi, doch auch für einen anderen Spieler von Hansa Rostock war das Last-Minute-2:1 gegen Erzgebirge Aue von besonderer Bedeutung. Marco Schuster bleibt der Kogge erhalten.",
+        "paragraphs": [
+          "Im Blickpunkt stand am vergangenen Samstag einmal mehr Ryan Naderi, doch auch für einen anderen Spieler von Hansa Rostock war das Last-Minute-2:1 gegen Erzgebirge Aue von besonderer Bedeutung. Marco Schuster bleibt der Kogge erhalten."
+        ],
+        "link": "https://www.kicker.de/musterprofi-schluesselfigur-schuster-bleibt-rostock-erhalten-1186046/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-21T13:55:24.000Z"
+      },
       {
         "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
         "title": "HSV stellt Guilherme Ramos frei - Augsburg an Arthur Chaves dran - Mainz vor Posch-Leihe",
@@ -654,23 +665,34 @@
         "link": "https://www.kicker.de/dritten-matchball-genutzt-zverev-verliert-nur-einen-satz-und-steht-in-der-3-runde-1101980/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-21T11:49:33.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/die-duelle-der-deutschen-bei-den-australian-open-2026-1080634/artikel#omrss",
-        "title": "Die Duelle der Deutschen bei den Australian Open 2026",
-        "summary": "Acht deutsche Profis sind bei den Australian Open am Start - vier bei den Herren, vier bei den Damen. Der Spielplan der DTB-Profis im Überblick.",
-        "paragraphs": [
-          "Acht deutsche Profis sind bei den Australian Open am Start - vier bei den Herren, vier bei den Damen. Der Spielplan der DTB-Profis im Überblick."
-        ],
-        "link": "https://www.kicker.de/die-duelle-der-deutschen-bei-den-australian-open-2026-1080634/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-21T11:49:04.000Z"
       }
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/tests/Nvidia-RTX-Pro-2000-Blackwell-mit-16-GByte-im-Test-11094265.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | Nvidia RTX Pro 2000 Blackwell mit 16 GByte im Test",
+        "summary": "Ist die RTX Pro 2000 Blackwell das erhoffte KI-Träumchen? So schlägt sich Nvidias kompakte Workstation-Grafikkarte mit 70 Watt und 16 GByte.",
+        "paragraphs": [
+          "Ist die RTX Pro 2000 Blackwell das erhoffte KI-Träumchen? So schlägt sich Nvidias kompakte Workstation-Grafikkarte mit 70 Watt und 16 GByte."
+        ],
+        "link": "https://www.heise.de/tests/Nvidia-RTX-Pro-2000-Blackwell-mit-16-GByte-im-Test-11094265.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2026-01-21T14:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/KI-Update-Drohnenvideos-fuer-KI-Training-Nvidia-und-Raubkopien-KI-Enttaeuschung-11147144.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI-Update: Drohnenvideos für KI-Training, Nvidia und Raubkopien, KI-Enttäuschung",
+        "summary": "Das \"KI-Update\" liefert werktäglich eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
+        "paragraphs": [
+          "Das \"KI-Update\" liefert werktäglich eine Zusammenfassung der wichtigsten KI-Entwicklungen."
+        ],
+        "link": "https://www.heise.de/news/KI-Update-Drohnenvideos-fuer-KI-Training-Nvidia-und-Raubkopien-KI-Enttaeuschung-11147144.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-21T14:00:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Sage-Operations-KI-Assistent-fuer-Fertigung-und-Handel-11149183.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Sage Operations: KI-Assistent für Fertigung und Handel",
+        "title": "Sage bringt KI-Assistent in KMU-Software",
         "summary": "Sage integriert den KI-Assistenten Copilot in seine ERP-Software Sage Operations. Über eine Chatfunktion soll man damit Lieferketten besser steuern können.",
         "paragraphs": [
           "Sage integriert den KI-Assistenten Copilot in seine ERP-Software Sage Operations. Über eine Chatfunktion soll man damit Lieferketten besser steuern können."
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/news/Letzter-Atemzug-eines-Sterns-Weltraumteleskop-James-Webb-bildet-Helixnebel-ab-11148579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-21T10:45:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Adobe-Premiere-Pro-und-After-Effects-KI-Werkzeuge-fuer-Schnitt-und-Effekte-11148706.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Adobe Premiere Pro und After Effects: KI-Werkzeuge für Schnitt und Effekte",
-        "summary": "Adobe erweitert seine Videobearbeitung Premiere Pro und Das Animationsprogramm After Effects um KI-Funktionen für Masken, 3D Gestaltung und Zusammenarbeit.",
-        "paragraphs": [
-          "Adobe erweitert seine Videobearbeitung Premiere Pro und Das Animationsprogramm After Effects um KI-Funktionen für Masken, 3D Gestaltung und Zusammenarbeit."
-        ],
-        "link": "https://www.heise.de/news/Adobe-Premiere-Pro-und-After-Effects-KI-Werkzeuge-fuer-Schnitt-und-Effekte-11148706.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-21T10:42:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/Geschwindigkeitsassistenten-im-Auto-Von-dezent-bis-penetrant-11098353.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Geschwindigkeitsassistenten im Auto: Von dezent bis penetrant",
-        "summary": "Piep, piep, piep: Seit 2024 ist „Intelligent Speed Assistance“ in Neuwagen Pflicht. Die Praxis zeigt: Hersteller setzen die Vorgaben sehr unterschiedlich um.",
-        "paragraphs": [
-          "Piep, piep, piep: Seit 2024 ist „Intelligent Speed Assistance“ in Neuwagen Pflicht. Die Praxis zeigt: Hersteller setzen die Vorgaben sehr unterschiedlich um."
-        ],
-        "link": "https://www.heise.de/hintergrund/Geschwindigkeitsassistenten-im-Auto-Von-dezent-bis-penetrant-11098353.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2026-01-21T10:30:00.000Z"
       }
     ]
   }
