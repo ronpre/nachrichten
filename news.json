@@ -1,7 +1,51 @@
 {
-  "updatedAt": "2026-01-21T18:21:53.769Z",
+  "updatedAt": "2026-01-21T18:47:09.643Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:59304033-80ef-49b6-ba63-86ce4964d576}",
+        "title": "Weltwirtschaftsforum 2026: Dänemarks Außenminister schließt Verhandlungen über Grönland aus",
+        "summary": "Dänemark werde \"niemals\" über eine Übergabe Grönlands verhandeln, sagt Außenminister Lars Løkke Rasmussen. Die Börse beruhigt sich nach Trumps Rede etwas. Das Liveblog",
+        "paragraphs": [
+          "Dänemark werde \"niemals\" über eine Übergabe Grönlands verhandeln, sagt Außenminister Lars Løkke Rasmussen. Die Börse beruhigt sich nach Trumps Rede etwas. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/weltwirtschaftsforum-2026-davos-schweiz-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-21T18:34:02.000Z"
+      },
+      {
+        "id": "{urn:uuid:e61787bc-6330-43b1-ab59-b9bc8f73bc3d}",
+        "title": "Donald Trump: Er protzt, er schmeichelt, er deeskaliert – vorerst",
+        "summary": "Trump verkündet in Davos, in der Grönland-Frage keine Gewalt anzuwenden. Ob er sich daran hält? Seine lang erwartete Rede wird zur Nato-Abrechnung inklusive Lästereien.",
+        "paragraphs": [
+          "Trump verkündet in Davos, in der Grönland-Frage keine Gewalt anzuwenden. Ob er sich daran hält? Seine lang erwartete Rede wird zur Nato-Abrechnung inklusive Lästereien."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/donald-trump-rede-wef-groenland-europa-zoelle-usa",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-21T18:29:43.000Z"
+      },
+      {
+        "id": "{urn:uuid:bbb377be-76f6-48a6-892e-b6394ee58a07}",
+        "title": "Unsicherheit an den Börsen: Davos-Chaos an den Finanzmärkten? So blicken Sie durch",
+        "summary": "Die Aktienkurse schlagen aus, der Dollar schwächelt, Gold ist stark gefragt. Und Japan? Macht Sorge. Wie Geopolitik die Börsen verrückt macht – und Sie die Ruhe bewahren.",
+        "paragraphs": [
+          "Die Aktienkurse schlagen aus, der Dollar schwächelt, Gold ist stark gefragt. Und Japan? Macht Sorge. Wie Geopolitik die Börsen verrückt macht – und Sie die Ruhe bewahren."
+        ],
+        "link": "https://www.zeit.de/geld/2026-01/unsicherheit-boersen-donald-trump-strafzoelle-geopolitik",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-21T18:20:47.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/supreme-court-oberste-us-richter-sehen-trumps-cook-entlassung-skeptisch/100193612.html",
+        "title": "Supreme Court: Oberste US-Richter sehen Trumps Cook-Entlassung skeptisch",
+        "summary": "Der oberste US-Gerichtshof verhandelt über die Entlassung der Fed-Gouverneurin Lisa Cook – und könnte sie zunächst im Amt belassen. Auch Fed-Chef Powell verfolgt das Verfahren vor Ort.",
+        "paragraphs": [
+          "Der oberste US-Gerichtshof verhandelt über die Entlassung der Fed-Gouverneurin Lisa Cook – und könnte sie zunächst im Amt belassen. Auch Fed-Chef Powell verfolgt das Verfahren vor Ort."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/supreme-court-oberste-us-richter-sehen-trumps-cook-entlassung-skeptisch/100193612.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-21T18:18:02.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/bundeswehr-wir-koennen-uns-auch-staerker-auf-groenland-engagieren/100191383.html",
         "title": "Heeres-Inspekteur im Interview: „Wir können uns auch stärker auf Grönland engagieren“",
@@ -45,17 +89,6 @@
         "link": "https://www.spiegel.de/wirtschaft/zollstreit-eu-parlament-setzt-arbeit-an-deal-mit-usa-aus-a-310eb200-8485-499c-a322-a9034c811b33#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-21T17:49:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:59304033-80ef-49b6-ba63-86ce4964d576}",
-        "title": "Weltwirtschaftsforum 2026: Dänemarks Außenminister schließt Verhandlungen über Grönland aus",
-        "summary": "Dänemark werde \"niemals\" über eine Übergabe Grönlands verhandeln, sagt Außenminister Lars Løkke Rasmussen. Die Börse beruhigt sich nach Trump-Rede etwas. Das Liveblog",
-        "paragraphs": [
-          "Dänemark werde \"niemals\" über eine Übergabe Grönlands verhandeln, sagt Außenminister Lars Løkke Rasmussen. Die Börse beruhigt sich nach Trump-Rede etwas. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/weltwirtschaftsforum-2026-davos-schweiz-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-21T17:41:57.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/wef-daenemark-lehnt-verhandlungen-zu-groenland-uebergabe-ab/100192241.html",
@@ -188,39 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/international/wef-2026-ein-nein-werden-wir-uns-merken-drei-konsequenzen-aus-trumps-auftritt/100191357.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-21T16:02:10.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/eu-welche-rechte-haben-fluggaeste/100193587.html",
-        "title": "EU: Welche Rechte haben Fluggäste?",
-        "summary": "Das Flugzeug landet viel zu spät, aber immerhin gibt es dafür etwas Geld. Bleibt es bei den Regeln? Und haben Reisende künftig weitere Rechte, etwa beim Gepäck? Worum es gerade geht.",
-        "paragraphs": [
-          "Das Flugzeug landet viel zu spät, aber immerhin gibt es dafür etwas Geld. Bleibt es bei den Regeln? Und haben Reisende künftig weitere Rechte, etwa beim Gepäck? Worum es gerade geht."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/eu-welche-rechte-haben-fluggaeste/100193587.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-21T16:01:18.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/us-zoelle-trump-zuversichtlich-wir-werden-eine-loesung-finden/30026990.html",
-        "title": "+++ US-Zölle +++: EU-Parlament stoppt Arbeit am Zolldeal mit den USA",
-        "summary": "US-Gouverneure kritisieren Trumps Pläne für Grönland +++ Briten und Dänen beraten über Arktis-Sicherheit nach Trump-Drohungen +++ Dänischer Pensionsfonds stößt sämtliche US-Staatsanleihen ab +++ Der Newsblog.",
-        "paragraphs": [
-          "US-Gouverneure kritisieren Trumps Pläne für Grönland +++ Briten und Dänen beraten über Arktis-Sicherheit nach Trump-Drohungen +++ Dänischer Pensionsfonds stößt sämtliche US-Staatsanleihen ab +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/us-zoelle-trump-zuversichtlich-wir-werden-eine-loesung-finden/30026990.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-21T15:54:28.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/weltwirtschaftsforum-in-davos-was-sagt-donald-trump-bei-seiner-rede-a-06cde2f7-07ae-4a42-9611-416336019fee",
-        "title": "Donald Trump in Davos: Das sind die Lehren aus der Rede des US-Präsidenten",
-        "summary": "Superlative für sich selbst, Tadel für seine Verbündeten, Fantasien von einem »Golden Dome«: Fast zwei Stunden spricht Donald Trump auf dem Weltwirtschaftsforum. An die Europäer richtet er eine unverhohlene Drohung. Alles zum Auftritt in Davos.",
-        "paragraphs": [
-          "Superlative für sich selbst, Tadel für seine Verbündeten, Fantasien von einem »Golden Dome«: Fast zwei Stunden spricht Donald Trump auf dem Weltwirtschaftsforum. An die Europäer richtet er eine unverhohlene Drohung. Alles zum Auftritt in Davos."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/weltwirtschaftsforum-in-davos-was-sagt-donald-trump-bei-seiner-rede-a-06cde2f7-07ae-4a42-9611-416336019fee#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-21T15:48:00.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/polzin-will-den-anderen-hsv-praesentieren-1186174/artikel#omrss",
+        "title": "Polzin will den \"anderen HSV\" präsentieren",
+        "summary": "Das 0:2 des HSV im Derby-Hinspiel gegen St. Pauli schien die neuen Machtverhältnisse in Fußball-Hamburg manifestiert zu haben. Merlin Polzin war im August um eine nüchterne Bestandsaufnahme bemüht, und diese nimmt der Trainer auch jetzt vor, da seine Mannschaft in der Tabelle vor dem Stadt-Nachbarn rangiert.",
+        "paragraphs": [
+          "Das 0:2 des HSV im Derby-Hinspiel gegen St. Pauli schien die neuen Machtverhältnisse in Fußball-Hamburg manifestiert zu haben. Merlin Polzin war im August um eine nüchterne Bestandsaufnahme bemüht, und diese nimmt der Trainer auch jetzt vor, da seine Mannschaft in der Tabelle vor dem Stadt-Nachbarn rangiert."
+        ],
+        "link": "https://www.kicker.de/polzin-will-den-anderen-hsv-praesentieren-1186174/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-21T18:21:51.000Z"
+      },
+      {
         "id": "https://www.kicker.de/live-nach-fruehem-rueckstand-uzun-hat-die-schnelle-antwort-parat-1185375/artikel#omrss",
         "title": "LIVE! Nach frühem Rückstand: Uzun hat die schnelle Antwort parat",
         "summary": "Die Eintracht trifft in Baku auf Qarabag Agdam. Um noch in die Play-offs zu kommen, braucht es heute zwingend einen Sieg für die Hessen. Ohne einen Dreier kann sich das Team aus der Königsklasse verabschieden.",
@@ -455,7 +466,18 @@
         ],
         "link": "https://www.kicker.de/live-nach-fruehem-rueckstand-uzun-hat-die-schnelle-antwort-parat-1185375/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-01-21T18:00:17.000Z"
+        "publishedAt": "2026-01-21T18:21:37.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/vfb-trainer-hoeness-stillers-einsatz-ist-unwahrscheinlich-1186178/artikel#omrss",
+        "title": "VfB-Trainer Hoeneß: \"Stillers Einsatz ist unwahrscheinlich\"",
+        "summary": "Angelo Stiller hat die Reise nach Rom zwar angetreten. Dass Stuttgarts Nationalspieler allerdings spielt, ist laut Trainer Sebastian Hoeneß her unwahrscheinlich.",
+        "paragraphs": [
+          "Angelo Stiller hat die Reise nach Rom zwar angetreten. Dass Stuttgarts Nationalspieler allerdings spielt, ist laut Trainer Sebastian Hoeneß her unwahrscheinlich."
+        ],
+        "link": "https://www.kicker.de/vfb-trainer-hoeness-stillers-einsatz-ist-unwahrscheinlich-1186178/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-21T18:16:42.000Z"
       },
       {
         "id": "https://www.kicker.de/der-plan-mit-irvine-blitz-comeback-im-derby-1186155/artikel#omrss",
@@ -643,28 +665,6 @@
         "link": "https://www.sueddeutsche.de/sport/fifa-fussball-wm-var-kommentar-li.3372785",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-21T15:25:05.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/palace-unruhe-haelt-an-verliert-glasner-auch-noch-top-torjaeger-mateta-1186108/artikel#omrss",
-        "title": "Palace-Unruhe hält an: Verliert Glasner auch noch Top-Torjäger Mateta?",
-        "summary": "Der Kapitän ist weg, der Trainer zündelt - jetzt könnte Crystal Palace auch noch seinen besten Torjäger verlieren. Jean-Philippe Mateta macht nun offenbar sogar intern Druck.",
-        "paragraphs": [
-          "Der Kapitän ist weg, der Trainer zündelt - jetzt könnte Crystal Palace auch noch seinen besten Torjäger verlieren. Jean-Philippe Mateta macht nun offenbar sogar intern Druck."
-        ],
-        "link": "https://www.kicker.de/palace-unruhe-haelt-an-verliert-glasner-auch-noch-top-torjaeger-mateta-1186108/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-21T15:18:16.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ouedraogo-fehlt-leipzig-bis-ende-maerz-1186090/artikel#omrss",
-        "title": "Ouedraogo fehlt Leipzig bis Ende März",
-        "summary": "Bittere Nachricht für RB Leipzig: Nationalspieler Assan Ouedraogo fällt mit einer Sehnenverletzung im linken Knie, die er sich gegen den SC Freiburg zugezogen hat, bis Ende März aus.",
-        "paragraphs": [
-          "Bittere Nachricht für RB Leipzig: Nationalspieler Assan Ouedraogo fällt mit einer Sehnenverletzung im linken Knie, die er sich gegen den SC Freiburg zugezogen hat, bis Ende März aus."
-        ],
-        "link": "https://www.kicker.de/ouedraogo-fehlt-leipzig-bis-ende-maerz-1186090/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-21T14:54:27.000Z"
       }
     ],
     "edv": [
