@@ -1,28 +1,105 @@
 {
-  "updatedAt": "2026-01-21T14:31:57.310Z",
+  "updatedAt": "2026-01-21T14:52:37.738Z",
   "categories": {
     "wirtschaft": [
       {
-        "id": "{urn:uuid:59304033-80ef-49b6-ba63-86ce4964d576}",
-        "title": "Weltwirtschaftsforum 2026: Donald Trump will sofortige Verhandlungen über Grönland",
-        "summary": "Der US-Präsident bekräftigt erneut einen US-Anspruch auf Grönland, Dänemark bezeichnet er als \"undankbar\". Auch Europa wird von ihm kritisiert. Das Liveblog",
+        "id": "li.3371910",
+        "title": "Fluggastrechte: Der Kampf um die Entschädigungen eskaliert",
+        "summary": "Das EU-Parlament rebelliert gegen die EU-Verkehrsminister. Die wollen die Rechte von Flugreisenden abschwächen. Nun kommt es zum Showdown – und ein Kompromiss ist nicht in Sicht.",
         "paragraphs": [
-          "Der US-Präsident bekräftigt erneut einen US-Anspruch auf Grönland, Dänemark bezeichnet er als \"undankbar\". Auch Europa wird von ihm kritisiert. Das Liveblog"
+          "Das EU-Parlament rebelliert gegen die EU-Verkehrsminister. Die wollen die Rechte von Flugreisenden abschwächen. Nun kommt es zum Showdown – und ein Kompromiss ist nicht in Sicht."
         ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/weltwirtschaftsforum-2026-davos-schweiz-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-21T14:23:23.000Z"
+        "link": "https://www.sueddeutsche.de/wirtschaft/entschaedigung-verspaetung-airline-eu-verbraucher-rechte-li.3371910",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-21T14:42:18.000Z"
       },
       {
         "id": "li.3370206",
-        "title": "Weltwirtschaftsforum: Trump fordert sofortige Verhandlungen über Kauf Grönlands",
-        "summary": "Nur die USA könnten die Arktisinsel verteidigen, sagt der US-Präsident auf dem Weltwirtschaftsforum. „Ich will nur ein Stück Eis.“  Bundeskanzler Merz bekommt von Trump ein Lob. Verfolgen Sie den Auftritt im Livestream.",
+        "title": "Weltwirtschaftsforum: „Wir wollen nur ein Stück Eis im Gegenzug zum Schutz der Welt“",
+        "summary": "Nur die USA könnten die Arktisinsel verteidigen, sagt der US-Präsident auf dem Weltwirtschaftsforum. Bundeskanzler Merz bekommt von Trump ein Lob. Verfolgen Sie den Auftritt im Livestream.",
         "paragraphs": [
-          "Nur die USA könnten die Arktisinsel verteidigen, sagt der US-Präsident auf dem Weltwirtschaftsforum. „Ich will nur ein Stück Eis.“  Bundeskanzler Merz bekommt von Trump ein Lob. Verfolgen Sie den Auftritt im Livestream."
+          "Nur die USA könnten die Arktisinsel verteidigen, sagt der US-Präsident auf dem Weltwirtschaftsforum. Bundeskanzler Merz bekommt von Trump ein Lob. Verfolgen Sie den Auftritt im Livestream."
         ],
         "link": "https://www.sueddeutsche.de/wirtschaft/wef-2026-davos-weltwirtschaftsforum-liveblog-trump-li.3370206",
         "source": "Sueddeutsche",
-        "publishedAt": "2026-01-21T14:23:00.000Z"
+        "publishedAt": "2026-01-21T14:42:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:59304033-80ef-49b6-ba63-86ce4964d576}",
+        "title": "Weltwirtschaftsforum 2026: Donald Trump will bei Grönland-Übernahme \"keine Gewalt\" anwenden",
+        "summary": "Der US-Präsident will auf Grönland einen Schutzschild zur Verteidigung Nordamerikas errichten. Er fordert sofortige Verhandlungen über die Insel. Das Liveblog",
+        "paragraphs": [
+          "Der US-Präsident will auf Grönland einen Schutzschild zur Verteidigung Nordamerikas errichten. Er fordert sofortige Verhandlungen über die Insel. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/weltwirtschaftsforum-2026-davos-schweiz-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-21T14:39:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/passives-einkommen-mit-covered-calls-zum-nebenverdienst/100188924.html",
+        "title": "Passives Einkommen: Mehr aus den Aktien herausholen als die Dividende – eine Strategie für zwei Fälle",
+        "summary": "Wer Call-Optionen auf seinen Aktienbestand schreibt, kann daraus zusätzliches passives Einkommen generieren. Klingt kompliziert – doch es gibt auch ETFs, die mit dieser Strategie arbeiten.",
+        "paragraphs": [
+          "Wer Call-Optionen auf seinen Aktienbestand schreibt, kann daraus zusätzliches passives Einkommen generieren. Klingt kompliziert – doch es gibt auch ETFs, die mit dieser Strategie arbeiten."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/passives-einkommen-mit-covered-calls-zum-nebenverdienst/100188924.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-21T14:39:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/software-nach-trumps-drohungen-waechst-der-widerstand-gegen-palantir/100193464.html",
+        "title": "Software: Nach Trumps Drohungen wächst der Widerstand gegen Palantir",
+        "summary": "US-Strafzölle, der Grönland-Streit und Dauerkritik an Europa schüren Zweifel an den USA als Partner. In Berlin wächst deshalb die Skepsis gegenüber der Polizei-Software Palantir.",
+        "paragraphs": [
+          "US-Strafzölle, der Grönland-Streit und Dauerkritik an Europa schüren Zweifel an den USA als Partner. In Berlin wächst deshalb die Skepsis gegenüber der Polizei-Software Palantir."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/software-nach-trumps-drohungen-waechst-der-widerstand-gegen-palantir/100193464.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-21T14:36:03.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-so-machen-sie-anleihen-zu-ihrer-passiven-einnahmequelle/100188922.html",
+        "title": "Passives Einkommen: Regelmäßige Einnahmen durch Anleihen – so viel ist drin",
+        "summary": "Anleihen bieten derzeit wieder bessere Renditechancen. Anleger können sich dadurch ein gut kalkulierbares passives Einkommen sichern. Anleihen-ETFs mit fester Laufzeit helfen dabei.",
+        "paragraphs": [
+          "Anleihen bieten derzeit wieder bessere Renditechancen. Anleger können sich dadurch ein gut kalkulierbares passives Einkommen sichern. Anleihen-ETFs mit fester Laufzeit helfen dabei."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-so-machen-sie-anleihen-zu-ihrer-passiven-einnahmequelle/100188922.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-21T14:34:00.000Z"
+      },
+      {
+        "id": "li.3373013",
+        "title": "Raumfahrt: Isar Aerospace verschiebt Testflug",
+        "summary": "Das Münchner Start-up wollte die erste deutsche Transportrakete am Mittwoch in den Erdorbit bringen. Doch Probleme mit einem Druckventil verzögern den Flug.",
+        "paragraphs": [
+          "Das Münchner Start-up wollte die erste deutsche Transportrakete am Mittwoch in den Erdorbit bringen. Doch Probleme mit einem Druckventil verzögern den Flug."
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/isar-aerospace-testflug-raumfahrt-li.3373013",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-21T14:31:37.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/newsblog-israel-netanjahu-nimmt-trumps-einladung-zum-friedensrat-an/100136895.html",
+        "title": "+++ Nahost +++: Explosion an syrischer Grenze zum Irak",
+        "summary": "Netanjahu nimmt Trumps Einladung zum „Friedensrat“ an +++ Iranische Streitkräfte warnen USA vor Angriff auf Ajatollah Chamenei +++  Der Newsblog.",
+        "paragraphs": [
+          "Netanjahu nimmt Trumps Einladung zum „Friedensrat“ an +++ Iranische Streitkräfte warnen USA vor Angriff auf Ajatollah Chamenei +++  Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/newsblog-israel-netanjahu-nimmt-trumps-einladung-zum-friedensrat-an/100136895.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-21T14:28:00.000Z"
+      },
+      {
+        "id": "li.3330786",
+        "title": "Freie-Software-Pionier Richard Stallman: „KI-Sprachmodelle können nur ,Bullshit‘ produzieren“",
+        "summary": "Seit mehr als 40 Jahren kämpft Richard Stallman für freie Software und gegen Programme, die ihre Nutzer kontrollieren. Er spricht über Spionage durch Apps, seine Abneigung gegen Cloud-Dienste und darüber, warum er sich nicht als einsamer Rufer in der Wüste sieht.",
+        "paragraphs": [
+          "Seit mehr als 40 Jahren kämpft Richard Stallman für freie Software und gegen Programme, die ihre Nutzer kontrollieren. Er spricht über Spionage durch Apps, seine Abneigung gegen Cloud-Dienste und darüber, warum er sich nicht als einsamer Rufer in der Wüste sieht."
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/richard-stallman-software-kontrolle-nutzer-li.3330786",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-21T14:25:45.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wo-skihuetten-derzeit-zu-hoechstpreisen-verkauft-werden/100185376.html",
@@ -80,19 +157,19 @@
         "publishedAt": "2026-01-21T13:36:20.000Z"
       },
       {
-        "id": "https://www.spiegel.de/wirtschaft/flugreisen-eu-abgeordnete-fuer-recht-auf-freies-handgepaeck-bei-fluegen-a-2c959599-d8d8-44e8-a887-098dcc3e5cae",
-        "title": "Flugreisen: EU-Abgeordnete für Recht auf freies Handgepäck bei Flügen",
+        "id": "https://www.spiegel.de/wirtschaft/flugreisen-eu-abgeordnete-fuer-recht-auf-kostenloses-handgepaeck-a-2c959599-d8d8-44e8-a887-098dcc3e5cae",
+        "title": "Flugreisen: EU-Abgeordnete für Recht auf kostenloses Handgepäck",
         "summary": "Einige Airlines fordern zusätzliche Gebühren, wenn Passagiere ein größeres Handgepäck mit in den Flieger nehmen wollen. EU-Parlamentarier haben sich nun dagegen ausgesprochen. Jetzt kommt es auf die einzelnen Staaten an.",
         "paragraphs": [
           "Einige Airlines fordern zusätzliche Gebühren, wenn Passagiere ein größeres Handgepäck mit in den Flieger nehmen wollen. EU-Parlamentarier haben sich nun dagegen ausgesprochen. Jetzt kommt es auf die einzelnen Staaten an."
         ],
-        "link": "https://www.spiegel.de/wirtschaft/flugreisen-eu-abgeordnete-fuer-recht-auf-freies-handgepaeck-bei-fluegen-a-2c959599-d8d8-44e8-a887-098dcc3e5cae#ref=rss",
+        "link": "https://www.spiegel.de/wirtschaft/flugreisen-eu-abgeordnete-fuer-recht-auf-kostenloses-handgepaeck-a-2c959599-d8d8-44e8-a887-098dcc3e5cae#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-21T13:35:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/wef-in-davos-jetzt-live-donald-trump-spricht-in-davos/100192241.html",
-        "title": "Trump spricht in Davos: „Nach dem Zweiten Weltkrieg haben wir Grönland zurück an Dänemark gegeben. Wie dumm waren wir?“",
+        "title": "Trump spricht in Davos: Trump will sofortige Verhandlungen über Kauf Grönlands – aber „keine Gewalt anwenden“",
         "summary": "Dimon: „Brauchen stärkere Nato, stärkeres Europa“ +++ Nato-Chef Rutte lobt Trump +++ Berichte: Meloni wird Einladung zu Trumps „Friedensrat“ ablehnen +++ Der Newsblog.",
         "paragraphs": [
           "Dimon: „Brauchen stärkere Nato, stärkeres Europa“ +++ Nato-Chef Rutte lobt Trump +++ Berichte: Meloni wird Einladung zu Trumps „Friedensrat“ ablehnen +++ Der Newsblog."
@@ -144,86 +221,31 @@
         "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/fonds-was-kleinanleger-bei-private-equity-beachten-sollten/100155491.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-21T13:03:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-diese-bauprojekte-erhalten-2026-die-kfw-55-foerderung/100172428.html",
-        "title": "Immobilien: Comeback der KfW-55-Förderung – Wer jetzt profitiert",
-        "summary": "Für ausgewählte Neubauprojekte gibt es 2026 wieder einen größeren Topf mit Fördergeld. Welche Bedingungen Interessenten erfüllen müssen – und warum Anträge schnell gestellt werden sollten.",
-        "paragraphs": [
-          "Für ausgewählte Neubauprojekte gibt es 2026 wieder einen größeren Topf mit Fördergeld. Welche Bedingungen Interessenten erfüllen müssen – und warum Anträge schnell gestellt werden sollten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-diese-bauprojekte-erhalten-2026-die-kfw-55-foerderung/100172428.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-21T12:59:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-was-anleger-bei-der-etf-auswahl-falsch-machen/100099179.html",
-        "title": "Geldanlage: Warum so viele Anleger mit ETFs Geld verlieren",
-        "summary": "Aus dem Handelsblatt-Archiv: Indexfonds gelten als idiotensichere Form der Geldanlage. Doch viele ETF-Anleger verschenken Rendite – durch Fehler, die sich leicht vermeiden lassen.",
-        "paragraphs": [
-          "Aus dem Handelsblatt-Archiv: Indexfonds gelten als idiotensichere Form der Geldanlage. Doch viele ETF-Anleger verschenken Rendite – durch Fehler, die sich leicht vermeiden lassen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-was-anleger-bei-der-etf-auswahl-falsch-machen/100099179.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-21T12:58:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/uebernahme-ryanair-chef-macht-musk-und-fans-idioten-angebot/100193543.html",
-        "title": "Übernahme: Ryanair-Chef macht Musk und Fans „Idioten-Angebot“",
-        "summary": "Nach dem Wortgefecht mit Elon Musk schlägt Michael O’Leary zwar mildere Töne an – provoziert aber während einer Pressekonferenz. Er gibt außerdem mit steigenden Ticketverkäufen an.",
-        "paragraphs": [
-          "Nach dem Wortgefecht mit Elon Musk schlägt Michael O’Leary zwar mildere Töne an – provoziert aber während einer Pressekonferenz. Er gibt außerdem mit steigenden Ticketverkäufen an."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/uebernahme-ryanair-chef-macht-musk-und-fans-idioten-angebot/100193543.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-21T12:56:43.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/usa-und-europa-tueroeffner-zu-trump/100193013.html",
-        "title": "USA und Europa: Trump und Europa: Die neuen Brückenbauer",
-        "summary": "Seit der Wahl Trumps suchen Europas Wirtschaftsführer und Politiker Zugang zur MAGA-Welt. Helfen können Menschen, die in beiden Welten leben. Wie Christian Angermayer und David Knower.",
-        "paragraphs": [
-          "Seit der Wahl Trumps suchen Europas Wirtschaftsführer und Politiker Zugang zur MAGA-Welt. Helfen können Menschen, die in beiden Welten leben. Wie Christian Angermayer und David Knower."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/usa-und-europa-tueroeffner-zu-trump/100193013.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-21T12:56:01.000Z"
-      },
-      {
-        "id": "li.3371768",
-        "title": "Soziale Gerechtigkeit: Wer reichlich erbt, zahlt nichts",
-        "summary": "Die krude Weltsicht der Familienunternehmer darf eine Reform der Erbschaftsteuer nicht länger verhindern.",
-        "paragraphs": [
-          "Die krude Weltsicht der Familienunternehmer darf eine Reform der Erbschaftsteuer nicht länger verhindern."
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/erbschaftsteuer-familienunternehmer-li.3371768",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-21T12:52:35.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-wie-zahlen-sie-optimal-in-ihren-sparplan-ein/100128013.html",
-        "title": "MSCI World: Wöchentlich, monatlich, jährlich? Welcher Rhythmus ETF-Sparern die höchste Rendite liefert",
-        "summary": "Aus dem Handelsblatt-Archiv: Wöchentlich, monatlich oder jährlich? Anleger müssen sich entscheiden, in welchen Zeitabständen sie in ihre ETF-Sparpläne einzahlen wollen. Das Handelsblatt hat fünf Varianten verglichen.",
-        "paragraphs": [
-          "Aus dem Handelsblatt-Archiv: Wöchentlich, monatlich oder jährlich? Anleger müssen sich entscheiden, in welchen Zeitabständen sie in ihre ETF-Sparpläne einzahlen wollen. Das Handelsblatt hat fünf Varianten verglichen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-wie-zahlen-sie-optimal-in-ihren-sparplan-ein/100128013.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-21T12:49:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-mutmassliche-spionin-russlands-in-berlin-festgenommen/100193549.html",
-        "title": "Ukraine: Mutmaßliche Spionin Russlands in Berlin festgenommen",
-        "summary": "Eine Deutsch-Ukrainerin soll in Berlin für Moskau spioniert haben. Beamte des Bundeskriminalamts nehmen sie fest. Im Visier der Ermittler sind auch zwei ehemalige Angehörige der Bundeswehr.",
-        "paragraphs": [
-          "Eine Deutsch-Ukrainerin soll in Berlin für Moskau spioniert haben. Beamte des Bundeskriminalamts nehmen sie fest. Im Visier der Ermittler sind auch zwei ehemalige Angehörige der Bundeswehr."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-mutmassliche-spionin-russlands-in-berlin-festgenommen/100193549.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-21T12:39:21.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.spiegel.de/politik/deutschland/friedensrat-donald-trumps-griff-nach-der-weltherrschaft-a-ebfa477b-52d4-4423-af48-db8d4122e344",
+        "title": "»Friedensrat«: Donald Trumps Griff nach der Weltherrschaft",
+        "summary": "Der US-Präsident will einen »Friedensrat« schaffen. Er soll die Vereinten Nationen ersetzen, mit Trump an der Spitze. Kanzler Merz schafft es nicht zur Unterzeichnungszeremonie. Termine, Termine.",
+        "paragraphs": [
+          "Der US-Präsident will einen »Friedensrat« schaffen. Er soll die Vereinten Nationen ersetzen, mit Trump an der Spitze. Kanzler Merz schafft es nicht zur Unterzeichnungszeremonie. Termine, Termine."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/friedensrat-donald-trumps-griff-nach-der-weltherrschaft-a-ebfa477b-52d4-4423-af48-db8d4122e344#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-21T14:43:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/software-nach-trumps-drohungen-waechst-der-widerstand-gegen-palantir/100193464.html",
+        "title": "Software: Nach Trumps Drohungen wächst der Widerstand gegen Palantir",
+        "summary": "US-Strafzölle, der Grönland-Streit und Dauerkritik an Europa schüren Zweifel an den USA als Partner. In Berlin wächst deshalb die Skepsis gegenüber der Polizei-Software Palantir.",
+        "paragraphs": [
+          "US-Strafzölle, der Grönland-Streit und Dauerkritik an Europa schüren Zweifel an den USA als Partner. In Berlin wächst deshalb die Skepsis gegenüber der Polizei-Software Palantir."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/software-nach-trumps-drohungen-waechst-der-widerstand-gegen-palantir/100193464.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-21T14:36:03.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/newsblog-israel-netanjahu-nimmt-trumps-einladung-zum-friedensrat-an/100136895.html",
         "title": "+++ Nahost +++: Explosion an syrischer Grenze zum Irak",
@@ -259,7 +281,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/wef-in-davos-jetzt-live-donald-trump-spricht-in-davos/100192241.html",
-        "title": "Trump spricht in Davos: „Nach dem Zweiten Weltkrieg haben wir Grönland zurück an Dänemark gegeben. Wie dumm waren wir?“",
+        "title": "Trump spricht in Davos: Trump will sofortige Verhandlungen über Kauf Grönlands – aber „keine Gewalt anwenden“",
         "summary": "Dimon: „Brauchen stärkere Nato, stärkeres Europa“ +++ Nato-Chef Rutte lobt Trump +++ Berichte: Meloni wird Einladung zu Trumps „Friedensrat“ ablehnen +++ Der Newsblog.",
         "paragraphs": [
           "Dimon: „Brauchen stärkere Nato, stärkeres Europa“ +++ Nato-Chef Rutte lobt Trump +++ Berichte: Meloni wird Einladung zu Trumps „Friedensrat“ ablehnen +++ Der Newsblog."
@@ -421,34 +443,45 @@
         "link": "https://www.handelsblatt.com/politik/international/welthandel-lagarde-fordert-europa-zu-entschlossenheit-auf/100193455.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-21T08:50:16.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/politik/donald-trump-es-bringt-nichts-vor-dem-us-praesidenten-zu-kuschen-spiegel-leitartikel-a-635125d0-ab26-48fb-a136-eb8ab52e3b0a",
-        "title": "Donald Trump: Es bringt nichts, vor dem US-Präsidenten zu kuschen – SPIEGEL-Leitartikel",
-        "summary": "Deutschland und die EU setzen im Umgang mit US-Präsident Trump bislang auf leise Töne. Der Konflikt um Grönland zeigt, dass es höchste Zeit für einen neuen Weg ist.",
-        "paragraphs": [
-          "Deutschland und die EU setzen im Umgang mit US-Präsident Trump bislang auf leise Töne. Der Konflikt um Grönland zeigt, dass es höchste Zeit für einen neuen Weg ist."
-        ],
-        "link": "https://www.spiegel.de/politik/donald-trump-es-bringt-nichts-vor-dem-us-praesidenten-zu-kuschen-spiegel-leitartikel-a-635125d0-ab26-48fb-a136-eb8ab52e3b0a#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-21T08:38:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/konjunktur/inflation-britische-inflationsrate-steigt-auf-34-prozent/100193442.html",
-        "title": "Inflation: Britische Inflationsrate steigt auf 3,4 Prozent",
-        "summary": "Die Inflation fiel höher aus als die von Ökonomen prognostizierten 3,3 Prozent. Vor allem eine eingeführte Erhöhung der Tabaksteuer und der Flugpreise sei für den Anstieg verantwortlich.",
-        "paragraphs": [
-          "Die Inflation fiel höher aus als die von Ökonomen prognostizierten 3,3 Prozent. Vor allem eine eingeführte Erhöhung der Tabaksteuer und der Flugpreise sei für den Anstieg verantwortlich."
-        ],
-        "link": "https://www.handelsblatt.com/politik/konjunktur/inflation-britische-inflationsrate-steigt-auf-34-prozent/100193442.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-21T08:29:36.000Z"
       }
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/warum-ein-top-4-platz-fuer-bayern-wichtig-waere-1185965/artikel#omrss",
+        "title": "Warum ein Top-4-Platz für Bayern wichtig wäre",
+        "summary": "Der FC Bayern kann am Abend einen Platz in den Top 8 der Champions League perfekt machen. Doch wegen einer Modus-Anpassung sollte der Blick noch weiter nach oben gehen.",
+        "paragraphs": [
+          "Der FC Bayern kann am Abend einen Platz in den Top 8 der Champions League perfekt machen. Doch wegen einer Modus-Anpassung sollte der Blick noch weiter nach oben gehen."
+        ],
+        "link": "https://www.kicker.de/warum-ein-top-4-platz-fuer-bayern-wichtig-waere-1185965/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-21T14:49:59.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/foerderer-kohfeldt-ruft-darmstadt-leiht-ex-bremer-schmidt-aus-1186079/artikel#omrss",
+        "title": "Förderer Kohfeldt ruft: Darmstadt leiht Ex-Bremer Schmidt aus",
+        "summary": "Ein Kreuzbandriss zwang Niklas Schmidt ein Jahr in die Zuschauerrolle. Nach seiner Genesung will der 27 Jahre alte Mittelfeldspieler nun wieder angreifen - und kehrt dafür zu seinem einstigen Förderer Florian Kohfeldt zurück.",
+        "paragraphs": [
+          "Ein Kreuzbandriss zwang Niklas Schmidt ein Jahr in die Zuschauerrolle. Nach seiner Genesung will der 27 Jahre alte Mittelfeldspieler nun wieder angreifen - und kehrt dafür zu seinem einstigen Förderer Florian Kohfeldt zurück."
+        ],
+        "link": "https://www.kicker.de/foerderer-kohfeldt-ruft-darmstadt-leiht-ex-bremer-schmidt-aus-1186079/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-21T14:46:57.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/das-jahr-lief-regelrecht-beschissen-geiger-trotz-formtief-bei-flug-wm-1186086/artikel#omrss",
+        "title": "\"Das Jahr lief regelrecht beschissen\": Geiger trotz Formtief bei Flug-WM",
+        "summary": "Mit Olympia wird es nichts für Karl Geiger. Bei der Skiflug-WM in seiner Heimat Oberstdorf bekommt er allerdings eine Chance, sich zu beweisen.",
+        "paragraphs": [
+          "Mit Olympia wird es nichts für Karl Geiger. Bei der Skiflug-WM in seiner Heimat Oberstdorf bekommt er allerdings eine Chance, sich zu beweisen."
+        ],
+        "link": "https://www.kicker.de/das-jahr-lief-regelrecht-beschissen-geiger-trotz-formtief-bei-flug-wm-1186086/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-21T14:38:04.000Z"
+      },
+      {
         "id": "li.3372777",
-        "title": "Marc-André ter Stegen: Letzte Ausfahrt Girona",
+        "title": "Wechsel von Torwart ter Stegen: Letzte Ausfahrt Girona",
         "summary": "Um seinen Platz im WM-Tor zu retten, stimmt Nationaltorwart Marc-André ter Stegen einer halbjährigen Leihe zum FC Girona zu. Eine spätere Rückkehr zum FC Barcelona gilt als eher unwahrscheinlich.",
         "paragraphs": [
           "Um seinen Platz im WM-Tor zu retten, stimmt Nationaltorwart Marc-André ter Stegen einer halbjährigen Leihe zum FC Girona zu. Eine spätere Rückkehr zum FC Barcelona gilt als eher unwahrscheinlich."
@@ -467,6 +500,28 @@
         "link": "https://www.kicker.de/deutsche-durststrecke-vor-streif-show-ist-gnadenlos-1186063/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-21T14:16:05.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/waldhof-mannheim-verpflichtet-mainz-youngster-bierschenk-1185994/artikel#omrss",
+        "title": "Waldhof Mannheim verpflichtet Mainz-Youngster Bierschenk",
+        "summary": "Mannheim rüstet sein Mittelfeld mit einem vielversprechenden Talent nach. Von der zweiten Mannschaft des 1. FSV Mainz 05 wechselt Lovis Bierschenk zum Waldhof und bringt bereits in jungen Jahren Titel-Erfahrung mit.",
+        "paragraphs": [
+          "Mannheim rüstet sein Mittelfeld mit einem vielversprechenden Talent nach. Von der zweiten Mannschaft des 1. FSV Mainz 05 wechselt Lovis Bierschenk zum Waldhof und bringt bereits in jungen Jahren Titel-Erfahrung mit."
+        ],
+        "link": "https://www.kicker.de/waldhof-mannheim-verpflichtet-mainz-youngster-bierschenk-1185994/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-21T14:15:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/magdeburger-elvar-oern-jonsson-mit-verletzung-von-em-abgereist-1186054/artikel#omrss",
+        "title": "Magdeburger Elvar Örn Jonsson mit Verletzung von EM abgereist",
+        "summary": "Während Island mit zwei Punkten in die Hauptrunde der Handball-EM geht, ist das Turnier für Elvar Örn Jonsson aufgrund einer Verletzung vorzeitig beendet. Der Rückraumspieler des SC Magdeburg wird sich bereits morgen einer Operation unterziehen.",
+        "paragraphs": [
+          "Während Island mit zwei Punkten in die Hauptrunde der Handball-EM geht, ist das Turnier für Elvar Örn Jonsson aufgrund einer Verletzung vorzeitig beendet. Der Rückraumspieler des SC Magdeburg wird sich bereits morgen einer Operation unterziehen."
+        ],
+        "link": "https://www.kicker.de/magdeburger-elvar-oern-jonsson-mit-verletzung-von-em-abgereist-1186054/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-21T14:15:00.000Z"
       },
       {
         "id": "https://www.kicker.de/politik-polizei-und-hertha-an-einem-tisch-1186045/artikel#omrss",
@@ -491,17 +546,6 @@
         "publishedAt": "2026-01-21T14:11:03.000Z"
       },
       {
-        "id": "https://www.spiegel.de/sport/faeroeer-inseln-bei-der-handball-em-die-exoten-die-keine-sind-a-336e3caf-ba18-4198-8419-ca02d985c8bd",
-        "title": "Färöer-Inseln bei der Handball-EM: Die Exoten, die keine sind",
-        "summary": "Das Team der Färöer und seine reisefreudigen Fans haben bei der Handball-EM Medien und Öffentlichkeit entzückt. Dabei ist das gar keine putzige Underdog-Geschichte.",
-        "paragraphs": [
-          "Das Team der Färöer und seine reisefreudigen Fans haben bei der Handball-EM Medien und Öffentlichkeit entzückt. Dabei ist das gar keine putzige Underdog-Geschichte."
-        ],
-        "link": "https://www.spiegel.de/sport/faeroeer-inseln-bei-der-handball-em-die-exoten-die-keine-sind-a-336e3caf-ba18-4198-8419-ca02d985c8bd#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-21T14:11:00.000Z"
-      },
-      {
         "id": "https://www.spiegel.de/sport/fussball/tageslicht-abseits-im-fussball-was-fifa-und-ifab-planen-das-aendert-sich-zur-wm-2026-a-7901c5c7-632a-409d-bd07-a5a8262e9e23",
         "title": "Tageslicht-Abseits im Fußball: Was Fifa und Ifab planen, das ändert sich zur WM 2026",
         "summary": "In der Fifa gibt es einflussreiche Kräfte, die die Abseitsregel massiv verändern wollen. Bei einer Tagung der Regelhüter wurden weitere Tests beschlossen. Andere Neuheiten kommen schon zur Weltmeisterschaft.",
@@ -509,6 +553,17 @@
           "In der Fifa gibt es einflussreiche Kräfte, die die Abseitsregel massiv verändern wollen. Bei einer Tagung der Regelhüter wurden weitere Tests beschlossen. Andere Neuheiten kommen schon zur Weltmeisterschaft."
         ],
         "link": "https://www.spiegel.de/sport/fussball/tageslicht-abseits-im-fussball-was-fifa-und-ifab-planen-das-aendert-sich-zur-wm-2026-a-7901c5c7-632a-409d-bd07-a5a8262e9e23#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-21T14:11:00.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/sport/faeroeer-inseln-bei-der-handball-em-die-exoten-die-keine-sind-a-336e3caf-ba18-4198-8419-ca02d985c8bd",
+        "title": "Färöer-Inseln bei der Handball-EM 2026: Die Exoten, die keine sind",
+        "summary": "Das Team der Färöer und seine reisefreudigen Fans haben bei der Handball-EM Medien und Öffentlichkeit entzückt. Dabei ist das gar keine putzige Underdog-Geschichte.",
+        "paragraphs": [
+          "Das Team der Färöer und seine reisefreudigen Fans haben bei der Handball-EM Medien und Öffentlichkeit entzückt. Dabei ist das gar keine putzige Underdog-Geschichte."
+        ],
+        "link": "https://www.spiegel.de/sport/faeroeer-inseln-bei-der-handball-em-die-exoten-die-keine-sind-a-336e3caf-ba18-4198-8419-ca02d985c8bd#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-21T14:11:00.000Z"
       },
@@ -610,64 +665,31 @@
         "link": "https://www.kicker.de/cvancara-und-die-suche-nach-dem-glueck-1186016/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-21T13:04:04.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/viktoria-regelt-kuesters-nachfolge-schaefer-uebernimmt-1186010/artikel#omrss",
-        "title": "Viktoria regelt Küsters-Nachfolge: Schäfer übernimmt",
-        "summary": "Am Montag haben sich Viktoria Köln und Stephan Küsters getrennt, am Mittwoch schon hat der Drittligist die Nachfolge auf dem Posten des Sportlichen Leiters geregelt. Valentin Schäfer übernimmt.",
-        "paragraphs": [
-          "Am Montag haben sich Viktoria Köln und Stephan Küsters getrennt, am Mittwoch schon hat der Drittligist die Nachfolge auf dem Posten des Sportlichen Leiters geregelt. Valentin Schäfer übernimmt."
-        ],
-        "link": "https://www.kicker.de/viktoria-regelt-kuesters-nachfolge-schaefer-uebernimmt-1186010/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-21T12:40:53.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wahnsinn-um-nassada-ein-tor-in-den-himmel-ein-tor-in-die-hoelle-1185973/artikel#omrss",
-        "title": "\"Wahnsinn\" um 'Nassada': Ein Tor in den Himmel, ein Tor in die Hölle",
-        "summary": "Beim Blick auf die Tabelle wird schon klar, dass es am Dienstag eng zugegangen ist in den FC Pro Open. Sie spiegelt aber nicht das volle Ausmaß des Dramas in Gruppe D wider - ein Freiburger war mittendrin.",
-        "paragraphs": [
-          "Beim Blick auf die Tabelle wird schon klar, dass es am Dienstag eng zugegangen ist in den FC Pro Open. Sie spiegelt aber nicht das volle Ausmaß des Dramas in Gruppe D wider - ein Freiburger war mittendrin."
-        ],
-        "link": "https://www.kicker.de/wahnsinn-um-nassada-ein-tor-in-den-himmel-ein-tor-in-die-hoelle-1185973/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-21T12:30:12.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/finanznot-in-bayreuth-alle-spieler-duerfen-gehen-1186002/artikel#omrss",
-        "title": "Finanznot in Bayreuth: Alle Spieler dürfen gehen",
-        "summary": "Die SpVgg Bayreuth steckt weiterhin finanziell in der Klemme. Die oberste Prämisse lautet daher Sparen, weswegen kein einziger Spieler des aktuellen Kaders prinzipiell unverkäuflich sei.",
-        "paragraphs": [
-          "Die SpVgg Bayreuth steckt weiterhin finanziell in der Klemme. Die oberste Prämisse lautet daher Sparen, weswegen kein einziger Spieler des aktuellen Kaders prinzipiell unverkäuflich sei."
-        ],
-        "link": "https://www.kicker.de/finanznot-in-bayreuth-alle-spieler-duerfen-gehen-1186002/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-21T12:23:01.000Z"
-      },
-      {
-        "id": "li.3372119",
-        "title": "Australian Open: Zverev beißt sich durch in Runde drei",
-        "summary": "Alte Schwächen, körperliche Probleme: Alexander Zverev muss hart für seinen Sieg gegen den Franzosen Alexandre Müller kämpfen. Dafür wartet nun ein Gegner auf den Deutschen, der ihm liegt.",
-        "paragraphs": [
-          "Alte Schwächen, körperliche Probleme: Alexander Zverev muss hart für seinen Sieg gegen den Franzosen Alexandre Müller kämpfen. Dafür wartet nun ein Gegner auf den Deutschen, der ihm liegt."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/australian-open-melbourne-alexander-zverev-2-runde-muller-kampf-li.3372119",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-21T12:19:28.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/inter-groll-und-ein-megafon-vorfall-wie-es-fuer-dzeko-in-florenz-lief-1185624/artikel#omrss",
-        "title": "Inter-Groll und ein Megafon-Vorfall: Wie es für Dzeko in Florenz lief",
-        "summary": "Edin Dzeko könnte neuer Stürmer des FC Schalke 04 werden. Was auch daran liegt, dass es für den Stürmer bei der AC Florenz zuletzt so gar nicht lief.",
-        "paragraphs": [
-          "Edin Dzeko könnte neuer Stürmer des FC Schalke 04 werden. Was auch daran liegt, dass es für den Stürmer bei der AC Florenz zuletzt so gar nicht lief."
-        ],
-        "link": "https://www.kicker.de/inter-groll-und-ein-megafon-vorfall-wie-es-fuer-dzeko-in-florenz-lief-1185624/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-21T12:11:44.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/OpenAI-sucht-Werbetreibende-Anzeigen-schon-ab-Februar-11149259.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "OpenAI sucht Werbetreibende – Anzeigen schon ab Februar",
+        "summary": "Ab Februar sollen bereits Anzeigen in ChatGPT auftauchen. Dafür sucht OpenAI zunächst Partner. Die sollen für Impressionen zahlen.",
+        "paragraphs": [
+          "Ab Februar sollen bereits Anzeigen in ChatGPT auftauchen. Dafür sucht OpenAI zunächst Partner. Die sollen für Impressionen zahlen."
+        ],
+        "link": "https://www.heise.de/news/OpenAI-sucht-Werbetreibende-Anzeigen-schon-ab-Februar-11149259.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-21T14:32:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Haertetests-in-Alaska-E-Autos-schlagen-sich-bei-extremer-Kaelte-besser-als-Diesel-11149227.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Härtetests in Alaska: E-Autos schlagen sich bei extremer Kälte besser als Diesel",
+        "summary": "Eine Studie aus Alaska räumt mit Vorurteilen über E-Autos in der Kälte auf – demnach performen sie bei eisiger Kälte besser als Diesel-Fahrzeuge.",
+        "paragraphs": [
+          "Eine Studie aus Alaska räumt mit Vorurteilen über E-Autos in der Kälte auf – demnach performen sie bei eisiger Kälte besser als Diesel-Fahrzeuge."
+        ],
+        "link": "https://www.heise.de/news/Haertetests-in-Alaska-E-Autos-schlagen-sich-bei-extremer-Kaelte-besser-als-Diesel-11149227.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-21T14:24:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Cybersicherheit-EU-Kommission-schraubt-weiter-an-der-NIS2-Richtlinie-11149231.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Cybersicherheit: EU-Kommission schraubt weiter an der NIS2-Richtlinie",
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/hintergrund/IT-Recht-Rechtskonformer-Einsatz-von-KI-Agenten-11133778.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "source": "heise",
         "publishedAt": "2026-01-21T11:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Live-Webinar-Effizienter-am-Mac-mit-integrierten-Automatisierungs-Tools-11146095.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: Live-Webinar: Effizienter am Mac mit integrierten Automatisierungs-Tools",
-        "summary": "Tauchen Sie ein in die Welt der Automatisierung. Entdecken Sie, wie Sie Ihre Arbeitsabläufe am Mac optimieren, um wertvolle Zeit zu sparen.",
-        "paragraphs": [
-          "Tauchen Sie ein in die Welt der Automatisierung. Entdecken Sie, wie Sie Ihre Arbeitsabläufe am Mac optimieren, um wertvolle Zeit zu sparen."
-        ],
-        "link": "https://www.heise.de/news/Live-Webinar-Effizienter-am-Mac-mit-integrierten-Automatisierungs-Tools-11146095.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-21T11:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Logic-Pro-und-Final-Cut-Pro-Drei-Monats-Trial-derzeit-noch-verfuegbar-11147434.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Logic Pro und Final Cut Pro: Drei-Monats-Trial derzeit noch verfügbar",
-        "summary": "Mit Einführung des Creator Studio verschwinden auch die beliebten Testversionen von Apples Profisoftware. Derzeit findet man sie aber noch.",
-        "paragraphs": [
-          "Mit Einführung des Creator Studio verschwinden auch die beliebten Testversionen von Apples Profisoftware. Derzeit findet man sie aber noch."
-        ],
-        "link": "https://www.heise.de/news/Logic-Pro-und-Final-Cut-Pro-Drei-Monats-Trial-derzeit-noch-verfuegbar-11147434.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-21T10:57:00.000Z"
       }
     ]
   }
