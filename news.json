@@ -1,7 +1,51 @@
 {
-  "updatedAt": "2026-01-22T16:15:09.165Z",
+  "updatedAt": "2026-01-22T16:33:02.076Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:cb052ecb-5bf0-4201-9e4e-7252b1b3fe87}",
+        "title": "Bahn: Deutsche Bahn will jede dritte Stelle in der Konzernleitung streichen",
+        "summary": "Im Zuge des Konzernumbaus soll eine komplette Führungsebene bei der Deutschen Bahn gestrichen werden. Mit \"schlankeren Strukturen\" sollen Entscheidungen schneller fallen.",
+        "paragraphs": [
+          "Im Zuge des Konzernumbaus soll eine komplette Führungsebene bei der Deutschen Bahn gestrichen werden. Mit \"schlankeren Strukturen\" sollen Entscheidungen schneller fallen."
+        ],
+        "link": "https://www.zeit.de/mobilitaet/2026-01/deutsche-bahn-management-kuerzung-werner-gatzer",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-22T16:14:25.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/commerzbank-bundesregierung-bleibt-bei-nein-zu-commerzbankuebernahme/100193959.html",
+        "title": "Commerzbank: Bundesregierung bleibt bei Nein zu Commerzbank–Übernahme",
+        "summary": "Die Bundesregierung lehnt eine Übernahme der Commerzbank durch die italienische Unicredit weiterhin ab. Sie setzt auf die Eigenständigkeit der systemrelevanten Bank.",
+        "paragraphs": [
+          "Die Bundesregierung lehnt eine Übernahme der Commerzbank durch die italienische Unicredit weiterhin ab. Sie setzt auf die Eigenständigkeit der systemrelevanten Bank."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/commerzbank-bundesregierung-bleibt-bei-nein-zu-commerzbankuebernahme/100193959.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-22T16:12:27.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/wef-selenskyj-kritisiert-europaeer-und-kuendigt-gespraeche-in-den-emiraten-an/100192241.html",
+        "title": "+++ WEF in Davos +++: Selenskyj kündigt Gespräche mit Russland und den USA in den Emiraten an",
+        "summary": "Trump gründet umstrittenen „Friedensrat“ – und deutet Kooperation mit UN an +++ Musk witzelt über Trumps Expansionsfantasien +++ Der Newsblog.",
+        "paragraphs": [
+          "Trump gründet umstrittenen „Friedensrat“ – und deutet Kooperation mit UN an +++ Musk witzelt über Trumps Expansionsfantasien +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/wef-selenskyj-kritisiert-europaeer-und-kuendigt-gespraeche-in-den-emiraten-an/100192241.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-22T16:08:37.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/davos-standort-deutschland-koennte-vom-groenland-streit-profitieren/100190993.html",
+        "title": "Davos: Standort Deutschland könnte vom Grönland-Streit profitieren",
+        "summary": "Kanzler Merz wirbt in Davos für Investitionen in Deutschland. Geldgeber sind interessiert, auch wegen der politischen Lage. Den Investoren fehlt allerdings noch etwas: Reformen.",
+        "paragraphs": [
+          "Kanzler Merz wirbt in Davos für Investitionen in Deutschland. Geldgeber sind interessiert, auch wegen der politischen Lage. Den Investoren fehlt allerdings noch etwas: Reformen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/davos-standort-deutschland-koennte-vom-groenland-streit-profitieren/100190993.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-22T16:04:53.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-selenskyj-kuendigt-beratungen-mit-russland-und-den-usa-an/100193951.html",
         "title": "Ukraine: Selenskyj kündigt Beratungen mit Russland und den USA an",
@@ -23,17 +67,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/verteidigung-rheinmetall-chef-papperger-haelt-an-us-strategie-fest/100192753.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-22T15:57:30.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/wef-selenskyj-kritisiert-europaeer-und-kuendigt-gespraeche-in-den-emiraten-an/100192241.html",
-        "title": "+++ WEF in Davos +++: Selenskyj kündigt Gespräche mit Russland und den USA in den Emiraten an",
-        "summary": "Jetzt live: Elon Musk spricht in Davos +++ Trump gründet umstrittenen „Friedensrat“ – und deutet Kooperation mit UN an +++ Der Newsblog.",
-        "paragraphs": [
-          "Jetzt live: Elon Musk spricht in Davos +++ Trump gründet umstrittenen „Friedensrat“ – und deutet Kooperation mit UN an +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/wef-selenskyj-kritisiert-europaeer-und-kuendigt-gespraeche-in-den-emiraten-an/100192241.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-22T15:37:05.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nach-trumps-zolldrohungen-us-boersen-schliessen-im-minus/100193933.html",
@@ -170,9 +203,9 @@
       {
         "id": "li.3373421",
         "title": "Raumfahrt: Weitere 5400 Satelliten für den Erdorbit",
-        "summary": "Elon Musk hat „Starlink“, jetzt will sein Rivale Jeff Bezos neben den 8000 Amazon-Satelliten mit einem weiteren Projekt noch Tausende weitere Hightech-Geräte ins All schießen – für das ganz exklusive Internet.",
+        "summary": "Elon Musk hat „Starlink“, jetzt will sein Rivale Jeff Bezos neben den 8000 Amazon-Satelliten mit einem neuen Projekt noch Tausende weitere Hightech-Geräte ins All schießen – für das ganz exklusive Internet.",
         "paragraphs": [
-          "Elon Musk hat „Starlink“, jetzt will sein Rivale Jeff Bezos neben den 8000 Amazon-Satelliten mit einem weiteren Projekt noch Tausende weitere Hightech-Geräte ins All schießen – für das ganz exklusive Internet."
+          "Elon Musk hat „Starlink“, jetzt will sein Rivale Jeff Bezos neben den 8000 Amazon-Satelliten mit einem neuen Projekt noch Tausende weitere Hightech-Geräte ins All schießen – für das ganz exklusive Internet."
         ],
         "link": "https://www.sueddeutsche.de/wirtschaft/raumfahrt-starlink-musk-bezos-amazon-li.3373421",
         "source": "Sueddeutsche",
@@ -188,42 +221,31 @@
         "link": "https://www.handelsblatt.com/politik/international/groenland-fuer-daenemark-ist-der-streit-mit-trump-noch-nicht-ausgestanden/100193886.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-22T14:30:23.000Z"
-      },
-      {
-        "id": "{urn:uuid:49f5f084-e69a-4acf-b262-052f746d48b3}",
-        "title": "Planwirtschaft: Das Comeback der Planwirtschaft",
-        "summary": "Seit dem Mauerfall gilt die Planwirtschaft als erledigt. Doch der freie Markt kann Ressourcen- und Klimakrise offensichtlich nicht verhindern. Alte Fronten brechen auf.",
-        "paragraphs": [
-          "Seit dem Mauerfall gilt die Planwirtschaft als erledigt. Doch der freie Markt kann Ressourcen- und Klimakrise offensichtlich nicht verhindern. Alte Fronten brechen auf."
-        ],
-        "link": "https://www.zeit.de/zeit-wissen/2026/01/planwirtschaft-ki-branche-klimakrise-oekonomie-geschichte",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-22T14:17:17.000Z"
-      },
-      {
-        "id": "li.3373639",
-        "title": "Reformdebatte: Ifo-Institut plädiert für einheitliche Erbschaftsteuer für alle",
-        "summary": "Über eine Reform der Erbschaftsteuer wird derzeit kontrovers diskutiert. Die Ökonomen des Ifo-Instituts schlagen nun einen Steuersatz vor, der für alle Vermögensarten gelten soll. Bestehende Ausnahmen sollten abgeschafft werden.",
-        "paragraphs": [
-          "Über eine Reform der Erbschaftsteuer wird derzeit kontrovers diskutiert. Die Ökonomen des Ifo-Instituts schlagen nun einen Steuersatz vor, der für alle Vermögensarten gelten soll. Bestehende Ausnahmen sollten abgeschafft werden."
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/ifo-institut-erbschaftsteuer-muenchen-li.3373639",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-22T14:09:13.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-deutschland-weist-stellvertretenden-militaerattache-russlands-aus/27982126.html",
-        "title": "+++ Ukraine-Krieg +++: Deutschland weist stellvertretenden Militärattaché Russlands aus",
-        "summary": "Russische Ölförderung 2025 trotz Sanktionen kaum gesunken +++ Trump erwägt laut Witkoff „zollfreie Zone“ für die Ukraine +++ Rund 3000 Wohnblöcke in Kiew weiter ohne Heizung +++ Der Newsblog.",
-        "paragraphs": [
-          "Russische Ölförderung 2025 trotz Sanktionen kaum gesunken +++ Trump erwägt laut Witkoff „zollfreie Zone“ für die Ukraine +++ Rund 3000 Wohnblöcke in Kiew weiter ohne Heizung +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-deutschland-weist-stellvertretenden-militaerattache-russlands-aus/27982126.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-22T14:03:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/wef-selenskyj-kritisiert-europaeer-und-kuendigt-gespraeche-in-den-emiraten-an/100192241.html",
+        "title": "+++ WEF in Davos +++: Selenskyj kündigt Gespräche mit Russland und den USA in den Emiraten an",
+        "summary": "Trump gründet umstrittenen „Friedensrat“ – und deutet Kooperation mit UN an +++ Musk witzelt über Trumps Expansionsfantasien +++ Der Newsblog.",
+        "paragraphs": [
+          "Trump gründet umstrittenen „Friedensrat“ – und deutet Kooperation mit UN an +++ Musk witzelt über Trumps Expansionsfantasien +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/wef-selenskyj-kritisiert-europaeer-und-kuendigt-gespraeche-in-den-emiraten-an/100192241.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-22T16:08:37.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/davos-standort-deutschland-koennte-vom-groenland-streit-profitieren/100190993.html",
+        "title": "Davos: Standort Deutschland könnte vom Grönland-Streit profitieren",
+        "summary": "Kanzler Merz wirbt in Davos für Investitionen in Deutschland. Geldgeber sind interessiert, auch wegen der politischen Lage. Den Investoren fehlt allerdings noch etwas: Reformen.",
+        "paragraphs": [
+          "Kanzler Merz wirbt in Davos für Investitionen in Deutschland. Geldgeber sind interessiert, auch wegen der politischen Lage. Den Investoren fehlt allerdings noch etwas: Reformen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/davos-standort-deutschland-koennte-vom-groenland-streit-profitieren/100190993.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-22T16:04:53.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-selenskyj-kuendigt-beratungen-mit-russland-und-den-usa-an/100193951.html",
         "title": "Ukraine: Selenskyj kündigt Beratungen mit Russland und den USA an",
@@ -245,17 +267,6 @@
         "link": "https://www.spiegel.de/politik/deutschland/umfragen-in-baden-wuerttemberg-holen-die-gruenen-auf-in-rheinland-pfalz-die-spd-a-6fa68fef-8efe-418f-b789-54c5af11ea1d#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-22T15:57:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/wef-selenskyj-kritisiert-europaeer-und-kuendigt-gespraeche-in-den-emiraten-an/100192241.html",
-        "title": "+++ WEF in Davos +++: Selenskyj kündigt Gespräche mit Russland und den USA in den Emiraten an",
-        "summary": "Jetzt live: Elon Musk spricht in Davos +++ Trump gründet umstrittenen „Friedensrat“ – und deutet Kooperation mit UN an +++ Der Newsblog.",
-        "paragraphs": [
-          "Jetzt live: Elon Musk spricht in Davos +++ Trump gründet umstrittenen „Friedensrat“ – und deutet Kooperation mit UN an +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/wef-selenskyj-kritisiert-europaeer-und-kuendigt-gespraeche-in-den-emiraten-an/100192241.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-22T15:37:05.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/board-of-peace-was-trumps-friedensrat-fuer-gaza-bedeutet/100193284.html",
@@ -432,20 +443,31 @@
         "link": "https://www.spiegel.de/politik/deutschland/gruene-in-baden-wuerttemberg-danyal-bayaz-und-andreas-schwarz-sind-empoert-ueber-gruenen-votum-zu-mercosur-a-0e35c5ed-081b-44b6-bc1d-83bbf28ae0f9#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-01-22T13:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/wef-trump-gruendet-umstrittenen-friedensrat/100193888.html",
-        "title": "WEF: Trump gründet umstrittenen „Friedensrat“",
-        "summary": "Nur einen Tag nach seiner überraschenden Wende im Grönland-Konflikt folgt der nächste diplomatische Paukenschlag von US-Präsident Trump. Seine neue Allianz stößt auf Skepsis.",
-        "paragraphs": [
-          "Nur einen Tag nach seiner überraschenden Wende im Grönland-Konflikt folgt der nächste diplomatische Paukenschlag von US-Präsident Trump. Seine neue Allianz stößt auf Skepsis."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/wef-trump-gruendet-umstrittenen-friedensrat/100193888.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-22T12:50:21.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/wie-es-fuer-die-bayern-als-zweiter-der-ligaphase-weitergehen-wuerde-1186533/artikel#omrss",
+        "title": "Wie es für die Bayern als Zweiter der Ligaphase weitergehen würde",
+        "summary": "Es spricht einiges dafür, dass der FC Bayern die Champions-League-Ligaphase als Zweiter abschließt. Was und wer würde danach auf ihn zukommen?",
+        "paragraphs": [
+          "Es spricht einiges dafür, dass der FC Bayern die Champions-League-Ligaphase als Zweiter abschließt. Was und wer würde danach auf ihn zukommen?"
+        ],
+        "link": "https://www.kicker.de/wie-es-fuer-die-bayern-als-zweiter-der-ligaphase-weitergehen-wuerde-1186533/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-22T16:26:45.000Z"
+      },
+      {
+        "id": "li.3352889",
+        "title": "Europameisterschaft in Dänemark, Schweden und Norwegen: Spielplan der Handball-EM 2026: Alle Gruppen, Spiele und Termine",
+        "summary": "24 Mannschaften kämpfen bei der Handball-EM 2026 um den Titel. Deutschland steht in der Hauptrunde und gewann das erste Spiel gegen Portugal. Alle Gruppen, Termine und Spiele im Überblick.",
+        "paragraphs": [
+          "24 Mannschaften kämpfen bei der Handball-EM 2026 um den Titel. Deutschland steht in der Hauptrunde und gewann das erste Spiel gegen Portugal. Alle Gruppen, Termine und Spiele im Überblick."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/handball-em-2026-spielplan-gruppen-termine-spiele-tv-deutschland-hauptrunde-li.3352889",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-22T16:19:00.000Z"
+      },
       {
         "id": "https://www.kicker.de/deutschland-gegen-portugal-2026-handball-em-5189070/spielbericht#omrss",
         "title": "Feuriger Hauptrunden-Auftakt: Deutschland nährt die Halbfinal-Hoffnung",
@@ -643,31 +665,53 @@
         "link": "https://www.kicker.de/stefandl-mintal-und-bell-bayreuth-bestaetigt-die-ersten-drei-abgaenge-1186492/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-22T14:30:38.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wettbewerbe-und-termine-die-wintersport-highlights-am-wochenende-1184113/artikel#omrss",
-        "title": "Wettbewerbe und Termine: Die Wintersport-Highlights am Wochenende",
-        "summary": "Am Freitag startet das Wintersport-Wochenende in Kitzbühel mit dem Super-G der Männer, der Skiflug-WM in Oberstdorf und den Biathlon-Wettkämpfen in Nove Mesto. Ein echtes Highlight folgt am Samstag, wenn die Abfahrer auf der Streif die Piste herunterrasen. Alle Termine des Wintersport-Wochenendes im Überblick.",
-        "paragraphs": [
-          "Am Freitag startet das Wintersport-Wochenende in Kitzbühel mit dem Super-G der Männer, der Skiflug-WM in Oberstdorf und den Biathlon-Wettkämpfen in Nove Mesto. Ein echtes Highlight folgt am Samstag, wenn die Abfahrer auf der Streif die Piste herunterrasen. Alle Termine des Wintersport-Wochenendes im Überblick."
-        ],
-        "link": "https://www.kicker.de/wettbewerbe-und-termine-die-wintersport-highlights-am-wochenende-1184113/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-22T14:25:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/leitl-stand-jetzt-kommt-niemand-mehr-1186465/artikel#omrss",
-        "title": "Leitl: \"Stand jetzt kommt niemand mehr\"",
-        "summary": "Die Zweitliga-Konkurrenz gibt Gas, Hertha BSC verzichtet bislang auf Winter-Transfers. Die Tendenz geht dahin, dass das so bleibt.",
-        "paragraphs": [
-          "Die Zweitliga-Konkurrenz gibt Gas, Hertha BSC verzichtet bislang auf Winter-Transfers. Die Tendenz geht dahin, dass das so bleibt."
-        ],
-        "link": "https://www.kicker.de/leitl-stand-jetzt-kommt-niemand-mehr-1186465/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-22T14:01:53.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Helgoland-probte-den-Blackout-11151057.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Helgoland probte den Blackout",
+        "summary": "Plötzlich kein Strom, kein Licht – was passiert, wenn auf Helgoland das Seekabel ausfällt? Das wurde auf der Insel umfangreich getestet.",
+        "paragraphs": [
+          "Plötzlich kein Strom, kein Licht – was passiert, wenn auf Helgoland das Seekabel ausfällt? Das wurde auf der Insel umfangreich getestet."
+        ],
+        "link": "https://www.heise.de/news/Helgoland-probte-den-Blackout-11151057.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-22T16:23:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Speicherchip-Entwickler-FMC-arbeitet-weiter-auf-Halbleiter-Fab-bei-Magdeburg-hin-11150756.html",
+        "title": "Speicherchip-Entwickler FMC arbeitet weiter auf Halbleiter-Fab bei Magdeburg hin",
+        "summary": "Das Dresdner Start-up FMC wirbt weitere 100 Millionen Euro ein, erweitert sein Führungsteam und plant eine eigene Chipfabrik in Sachsen-Anhalt.",
+        "paragraphs": [
+          "Das Dresdner Start-up FMC wirbt weitere 100 Millionen Euro ein, erweitert sein Führungsteam und plant eine eigene Chipfabrik in Sachsen-Anhalt."
+        ],
+        "link": "https://www.heise.de/news/Speicherchip-Entwickler-FMC-arbeitet-weiter-auf-Halbleiter-Fab-bei-Magdeburg-hin-11150756.html",
+        "source": "c't",
+        "publishedAt": "2026-01-22T16:18:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Speicherchip-Entwickler-FMC-arbeitet-weiter-auf-Halbleiter-Fab-bei-Magdeburg-hin-11150756.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Speicherchip-Entwickler FMC arbeitet weiter auf Halbleiter-Fab bei Magdeburg hin",
+        "summary": "Das Dresdner Start-up FMC wirbt weitere 100 Millionen Euro ein, erweitert sein Führungsteam und plant eine eigene Chipfabrik in Sachsen-Anhalt.",
+        "paragraphs": [
+          "Das Dresdner Start-up FMC wirbt weitere 100 Millionen Euro ein, erweitert sein Führungsteam und plant eine eigene Chipfabrik in Sachsen-Anhalt."
+        ],
+        "link": "https://www.heise.de/news/Speicherchip-Entwickler-FMC-arbeitet-weiter-auf-Halbleiter-Fab-bei-Magdeburg-hin-11150756.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-22T16:18:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Elektroauto-Foerderung-Zahlen-des-Statistikamts-hinter-der-sozialen-Komponente-11150118.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Elektroauto-Förderung: Zahlen des Statistikamts hinter der sozialen Komponente",
+        "summary": "Nach Zahlen des Statistikamts sind E-Autos meist in Händen von Haushalten mit hohem Einkommen. Die Förderung soll weniger bemittelten den Einstieg erleichtern.",
+        "paragraphs": [
+          "Nach Zahlen des Statistikamts sind E-Autos meist in Händen von Haushalten mit hohem Einkommen. Die Förderung soll weniger bemittelten den Einstieg erleichtern."
+        ],
+        "link": "https://www.heise.de/news/Elektroauto-Foerderung-Zahlen-des-Statistikamts-hinter-der-sozialen-Komponente-11150118.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-22T16:13:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/OnePlus-dementiert-Geruechte-ueber-das-Aus-des-Unternehmens-11150780.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "OnePlus dementiert Gerüchte über das Aus des Unternehmens",
@@ -779,17 +823,6 @@
         "publishedAt": "2026-01-22T14:03:00.000Z"
       },
       {
-        "id": "https://www.heise.de/tests/Collabora-Office-LibreOffice-light-im-Test-11118860.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Collabora Office: LibreOffice light im Test",
-        "summary": "Die neue Offline-Variante des auf LibreOffice basierenden Pakets Collabora Online für Windows, Linux und macOS benötigt weder Cloudspeicher noch Server.",
-        "paragraphs": [
-          "Die neue Offline-Variante des auf LibreOffice basierenden Pakets Collabora Online für Windows, Linux und macOS benötigt weder Cloudspeicher noch Server."
-        ],
-        "link": "https://www.heise.de/tests/Collabora-Office-LibreOffice-light-im-Test-11118860.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2026-01-22T14:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Ubisoft-Aktie-verliert-ueber-30-Prozent-an-Wert-11150546.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Nach Neuausrichtung: Ubisoft-Aktie kracht in den Keller",
         "summary": "Ubisoft stellt sich neu auf und Investoren auf zwei schwierige Jahre ein. Die Reaktion an den Börsen fällt krachend aus.",
@@ -854,39 +887,6 @@
         "link": "https://www.heise.de/news/Anthropic-ueberarbeitet-Verhaltensrichtlinien-fuer-KI-Modell-Claude-11150508.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-22T12:57:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Dell-Data-Protection-Advisor-ueber-unzaehlige-Sicherheitsluecken-angreifbar-11150421.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Dell Data Protection Advisor über unzählige Sicherheitslücken angreifbar",
-        "summary": "Dell schließt teilweise sechzehn Jahre alte Schwachstellen in Data Protection Advisor, über die Angreifer Systeme kompromittieren können.",
-        "paragraphs": [
-          "Dell schließt teilweise sechzehn Jahre alte Schwachstellen in Data Protection Advisor, über die Angreifer Systeme kompromittieren können."
-        ],
-        "link": "https://www.heise.de/news/Dell-Data-Protection-Advisor-ueber-unzaehlige-Sicherheitsluecken-angreifbar-11150421.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-22T12:54:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/LastPass-warnt-vor-Phishing-Kampagne-11150415.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "LastPass warnt vor Phishing-Kampagne",
-        "summary": "LastPass warnt eindringlich vor einer derzeit laufenden Phishing-Welle. Die Drahtzieher wollen Zugriff auf die Passwort-Vaults.",
-        "paragraphs": [
-          "LastPass warnt eindringlich vor einer derzeit laufenden Phishing-Welle. Die Drahtzieher wollen Zugriff auf die Passwort-Vaults."
-        ],
-        "link": "https://www.heise.de/news/LastPass-warnt-vor-Phishing-Kampagne-11150415.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-22T12:52:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/SPRIND-Buergerhackathon-Deutschland-was-nervt-11150475.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„Deutschland, was nervt?“ – Bürger sollen Verwaltung hacken",
-        "summary": "Beschweren ausdrücklich erwünscht! Die Agentur für Sprunginnovation lädt zum ersten bürgerschaftlichen Hackathon nach taiwanischem Vorbild ein.",
-        "paragraphs": [
-          "Beschweren ausdrücklich erwünscht! Die Agentur für Sprunginnovation lädt zum ersten bürgerschaftlichen Hackathon nach taiwanischem Vorbild ein."
-        ],
-        "link": "https://www.heise.de/news/SPRIND-Buergerhackathon-Deutschland-was-nervt-11150475.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-22T12:50:00.000Z"
       }
     ]
   }
