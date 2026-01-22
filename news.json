@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-22T07:10:04.742Z",
+  "updatedAt": "2026-01-22T07:25:00.751Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/gold-druckmittel-fuer-trump-bundesbank-geraet-in-zwickmuehle-01/100192973.html",
+        "title": "Gold: Könnte Trump deutsche Goldreserven als Druckmittel einsetzen? Bundesbank gerät in Zwickmühle",
+        "summary": "Wie sicher ist das Bundesbank-Gold in New York? Die Bundesbank schließt einen Abzug aus. Doch aus dem Umfeld der Notenbank und dem Bundestag kommen Forderungen, diese Haltung zu überdenken.",
+        "paragraphs": [
+          "Wie sicher ist das Bundesbank-Gold in New York? Die Bundesbank schließt einen Abzug aus. Doch aus dem Umfeld der Notenbank und dem Bundestag kommen Forderungen, diese Haltung zu überdenken."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/gold-druckmittel-fuer-trump-bundesbank-geraet-in-zwickmuehle-01/100192973.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-22T07:07:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-die-schweiz-als-dividenden-paradies-01/100189085.html",
         "title": "Geldanlage: Schweizer Aktien holen auf – Analysten sehen weiteres Kurspotenzial",
@@ -210,17 +221,6 @@
         "link": "https://www.zeit.de/wirtschaft/2026-01/weltwirtschaftsforum-2026-davos-schweiz-live",
         "source": "ZEIT",
         "publishedAt": "2026-01-21T23:22:54.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/mittelstand/hall-of-fame/sprachassistent-apple-will-siri-laut-medienbericht-zu-ki-chatbot-umbauen/100193674.html",
-        "title": "Sprachassistent: Apple will Siri laut Medienbericht zu KI-Chatbot umbauen",
-        "summary": "Der iPhone-Hersteller will seinen Sprachassistenten Siri grundlegend überarbeiten. Dafür setzt der Konzern auf eine Partnerschaft mit Google.",
-        "paragraphs": [
-          "Der iPhone-Hersteller will seinen Sprachassistenten Siri grundlegend überarbeiten. Dafür setzt der Konzern auf eine Partnerschaft mit Google."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/hall-of-fame/sprachassistent-apple-will-siri-laut-medienbericht-zu-ki-chatbot-umbauen/100193674.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-21T23:01:24.000Z"
       }
     ],
     "politik": [
@@ -336,7 +336,7 @@
       },
       {
         "id": "https://www.spiegel.de/politik/mercosur-abkommen-gruene-uneins-nach-abstimmung-im-eu-parlament-a-a2da95c2-3386-49e1-9aa5-f03bce772e5d",
-        "title": "Mercosur-Abkommen: Grüne uneins nach Abstimmung im EU-Parlament",
+        "title": "Mercosur in Europa: Grüne uneins nach Abstimmung im EU-Parlament",
         "summary": "Grüne gegen Grüne: Nach der Mercosur-Abstimmung im EU-Parlament zerlegt sich die Partei in aller Öffentlichkeit. Grünenpolitiker stimmten mit Rechten für eine rechtliche Prüfung des Abkommens.",
         "paragraphs": [
           "Grüne gegen Grüne: Nach der Mercosur-Abstimmung im EU-Parlament zerlegt sich die Partei in aller Öffentlichkeit. Grünenpolitiker stimmten mit Rechten für eine rechtliche Prüfung des Abkommens."
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "https://www.spiegel.de/sport/tennis/australian-open-2026-mit-laura-siegemund-scheidet-die-letzte-deutsche-tennisspielerin-aus-a-0b7103f2-82f6-4050-b19c-07b86cc6f4ca",
+        "title": "Australian Open 2026: Mit Laura Siegemund scheidet die letzte deutsche Tennisspielerin aus",
+        "summary": "Laura Siegemund verliert nach mehr als drei Stunden überraschend gegen die Nummer 168 der Welt. Damit ist nur noch ein Deutscher im Turnier. Novak Djokovic hat mit seinem Qualifikanten hingegen keine Probleme.",
+        "paragraphs": [
+          "Laura Siegemund verliert nach mehr als drei Stunden überraschend gegen die Nummer 168 der Welt. Damit ist nur noch ein Deutscher im Turnier. Novak Djokovic hat mit seinem Qualifikanten hingegen keine Probleme."
+        ],
+        "link": "https://www.spiegel.de/sport/tennis/australian-open-2026-mit-laura-siegemund-scheidet-die-letzte-deutsche-tennisspielerin-aus-a-0b7103f2-82f6-4050-b19c-07b86cc6f4ca#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-22T07:17:00.000Z"
+      },
+      {
         "id": "{urn:uuid:b08955ed-717a-4059-b544-a57cf33040f5}",
         "title": "Alex Honnold: Der Tod als Cliffhanger",
         "summary": "Der Kletterstar Alex Honnold will einen 508 Meter hohen Wolkenkratzer erklimmen. Ohne Sicherung, live auf Netflix. Ist das noch Sport?",
@@ -459,7 +470,7 @@
       },
       {
         "id": "https://www.spiegel.de/sport/fussball/champions-league-zwei-tore-harry-kane-fc-bayern-erledigt-union-saint-gilloise-im-vorbeigehen-a-1a88a324-4231-4cff-a9b0-6d51084a9dbc",
-        "title": "Champions League: Zwei Tore Harry Kane – FC Bayern erledigt Union Saint-Gilloise im Vorbeigehen",
+        "title": "Champions League: FC Bayern erledigt Union Saint-Gilloise dank Harry Kane im Vorbeigehen",
         "summary": "Unterzahl, Elfmeter verschossen, Jamal Musiala geschont: Gegen Union Saint-Gilloise gingen die Bayern nicht ans Limit. Vincent Kompany vertrieb belgische Dämonen, dem FCB winkt in der K.-o.-Phase ein Vorteil.",
         "paragraphs": [
           "Unterzahl, Elfmeter verschossen, Jamal Musiala geschont: Gegen Union Saint-Gilloise gingen die Bayern nicht ans Limit. Vincent Kompany vertrieb belgische Dämonen, dem FCB winkt in der K.-o.-Phase ein Vorteil."
@@ -536,7 +547,7 @@
       },
       {
         "id": "https://www.spiegel.de/sport/fussball/champions-league-harry-kane-fuehrt-fc-bayern-mit-zwei-toren-ins-achtelfinale-a-dfea3f3b-df69-4767-b351-93eee809b37d",
-        "title": "Champions League: Harry Kane führt FC Bayern mit zwei Toren ins Achtelfinale",
+        "title": "Champions League: FC Bayern München erreicht vorzeitig das Achtelfinale",
         "summary": "Mit zwei Kane-Toren in die nächste Runde: Der FC Bayern schwebt weiter auf Wolke sieben. Wer darf einen Spieltag vor Schluss der Ligaphase noch auf die direkte Achtelfinal-Teilnahme hoffen? Hier ist der Überblick.",
         "paragraphs": [
           "Mit zwei Kane-Toren in die nächste Runde: Der FC Bayern schwebt weiter auf Wolke sieben. Wer darf einen Spieltag vor Schluss der Ligaphase noch auf die direkte Achtelfinal-Teilnahme hoffen? Hier ist der Überblick."
@@ -652,17 +663,6 @@
           "Ungeachtet der besonderen Rahmenbedingungen im Europa-League-Spiel gegen Maccabi Tel Aviv will der SC Freiburg einen weiteren Schritt Richtung Achtelfinale machen. Zuletzt übte Matthias Ginter deutliche Kritik am eigenen Ballbesitzspiel. So sieht Trainer Julian Schuster dieses Thema."
         ],
         "link": "https://www.kicker.de/wie-schuster-auf-ginters-kritik-reagiert-1186088/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-21T18:45:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/neue-ausrichtung-am-campus-mehr-macht-fuer-freund-1186154/artikel#omrss",
-        "title": "Neue Ausrichtung am Campus: Mehr Macht für Freund",
-        "summary": "Der FC Bayern will noch mehr auf Talente setzen. Um die Jugendarbeit weiter zu fördern, soll es neue Strukturen und neues Personal geben. Auch könnten sich die Verantwortlichkeiten in der Führungsetage verschieben.",
-        "paragraphs": [
-          "Der FC Bayern will noch mehr auf Talente setzen. Um die Jugendarbeit weiter zu fördern, soll es neue Strukturen und neues Personal geben. Auch könnten sich die Verantwortlichkeiten in der Führungsetage verschieben."
-        ],
-        "link": "https://www.kicker.de/neue-ausrichtung-am-campus-mehr-macht-fuer-freund-1186154/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-21T18:45:00.000Z"
       }
