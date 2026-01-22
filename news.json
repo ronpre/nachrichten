@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-22T03:57:07.779Z",
+  "updatedAt": "2026-01-22T04:28:12.173Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:64a85753-b7e6-40fe-bdca-dd0d66a9d2f0}",
+        "title": "Erneuerbare Energien: Wind- und Solarkraft übertreffen in der EU fossile Brennstoffe",
+        "summary": "2025 war der Anteil von Wind- und Solarenergie im EU-Strommix erstmals höher als der fossiler Brennstoffe. Laut der Denkfabrik Ember erreicht Kohlekraft einen Tiefstand.",
+        "paragraphs": [
+          "2025 war der Anteil von Wind- und Solarenergie im EU-Strommix erstmals höher als der fossiler Brennstoffe. Laut der Denkfabrik Ember erreicht Kohlekraft einen Tiefstand."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/ausland/2026-01/eu-strom-solarenergie-windenergie-fossile-brennstoffe-2025-denkfabrik-ember",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-22T04:12:11.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/usa-trump-bekraeftigt-drohungen-vor-weltwirtschaftsforum-ihr-werdet-schon-sehen/29669594.html",
         "title": "+++ USA +++: US-Richter stoppt Auswertung beschlagnahmter Daten von Reporterin",
@@ -210,17 +221,6 @@
         "link": "https://www.zeit.de/wirtschaft/2026-01/donald-trump-rede-wef-groenland-europa-zoelle-usa",
         "source": "ZEIT",
         "publishedAt": "2026-01-21T18:29:43.000Z"
-      },
-      {
-        "id": "{urn:uuid:bbb377be-76f6-48a6-892e-b6394ee58a07}",
-        "title": "Unsicherheit an den Börsen: Davos-Chaos an den Finanzmärkten? So blicken Sie durch",
-        "summary": "Die Aktienkurse schlagen aus, der Dollar schwächelt, Gold ist stark gefragt. Und Japan? Macht Sorge. Wie Geopolitik die Börsen verrückt macht – und Sie die Ruhe bewahren.",
-        "paragraphs": [
-          "Die Aktienkurse schlagen aus, der Dollar schwächelt, Gold ist stark gefragt. Und Japan? Macht Sorge. Wie Geopolitik die Börsen verrückt macht – und Sie die Ruhe bewahren."
-        ],
-        "link": "https://www.zeit.de/geld/2026-01/unsicherheit-boersen-donald-trump-strafzoelle-geopolitik",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-21T18:20:47.000Z"
       }
     ],
     "politik": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Threads-will-ueber-400-Millionen-Nutzer-mit-weltweiter-Werbung-monetarisieren-11149701.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Threads will über 400 Millionen Nutzer mit weltweiter Werbung monetarisieren",
+        "summary": "Metas X-Rivale erreicht einen weiteren Meilenstein bei den Nutzerzahlen und will damit mehr Geld verdienen. Threads zeigt Werbung nun auf der ganzen Welt an.",
+        "paragraphs": [
+          "Metas X-Rivale erreicht einen weiteren Meilenstein bei den Nutzerzahlen und will damit mehr Geld verdienen. Threads zeigt Werbung nun auf der ganzen Welt an."
+        ],
+        "link": "https://www.heise.de/news/Threads-will-ueber-400-Millionen-Nutzer-mit-weltweiter-Werbung-monetarisieren-11149701.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-22T04:04:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Staatliche-Malware-kommt-vor-Verfassungsgerichtshof-Oesterreichs-11149683.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Staatliche Malware kommt vor Verfassungsgerichtshof Österreichs",
         "summary": "Beschneidet staatliche Malware die Grundrechte? Das muss Österreichs Verfassungsgericht entscheiden. Die Opposition erzwingt eine Prüfung.",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Sicherheitspatches-Atlassian-sichert-Confluence-Co-gegen-moegliche-Attacken-11149011.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-21T14:10:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/KI-Update-Drohnenvideos-fuer-KI-Training-Nvidia-und-Raubkopien-KI-Enttaeuschung-11147144.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Update: Drohnenvideos für KI-Training, Nvidia und Raubkopien, KI-Enttäuschung",
-        "summary": "Das \"KI-Update\" liefert werktäglich eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
-        "paragraphs": [
-          "Das \"KI-Update\" liefert werktäglich eine Zusammenfassung der wichtigsten KI-Entwicklungen."
-        ],
-        "link": "https://www.heise.de/news/KI-Update-Drohnenvideos-fuer-KI-Training-Nvidia-und-Raubkopien-KI-Enttaeuschung-11147144.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-21T14:00:00.000Z"
       }
     ]
   }
