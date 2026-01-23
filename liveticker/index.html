@@ -460,11 +460,27 @@
         'ac',
         'sc',
         'ad',
+        'fk',
+        'nk',
+        'sk',
+        'if',
+        'bk',
+        'kv',
+        'pae',
+        'ssc',
         'balompie',
         'balompié',
         'futbol',
         'fútbol',
         'deportivo'
+      ]);
+      const TEAM_NAME_TOKEN_SYNONYMS = new Map([
+        ['milano', 'milan'],
+        ['internazionale', 'inter'],
+        ['munchen', 'munich'],
+        ['muenchen', 'munich'],
+        ['olympiakos', 'olympiacos'],
+        ['beograd', 'belgrade']
       ]);
 
       const DOM = {
@@ -932,8 +948,9 @@
         if (!tokens.length) {
           return ascii.replace(/[^a-z0-9]+/g, '');
         }
-        const filtered = tokens.filter((token) => !TEAM_NAME_STOP_WORDS.has(token));
-        const candidates = filtered.length ? filtered : tokens;
+        const remapped = tokens.map((token) => TEAM_NAME_TOKEN_SYNONYMS.get(token) || token);
+        const filtered = remapped.filter((token) => !TEAM_NAME_STOP_WORDS.has(token));
+        const candidates = filtered.length ? filtered : remapped;
         return candidates.join('');
       }
 
@@ -950,28 +967,50 @@
         return `${normalizedDate}|${homeKey}|${awayKey}`;
       }
 
-      function buildFootballDataMatchIdentity(rawMatch) {
+      function collectTeamNameCandidates(team) {
+        if (!team) {
+          return [];
+        }
+        const values = [team.name, team.shortName, team.tla, team.abbreviation].filter((entry) => typeof entry === 'string' && entry.trim().length);
+        const seen = new Set();
+        return values.filter((value) => {
+          const key = value.toLowerCase();
+          if (seen.has(key)) {
+            return false;
+          }
+          seen.add(key);
+          return true;
+        });
+      }
+
+      function buildFootballDataMatchIdentities(rawMatch) {
         if (!rawMatch) {
-          return null;
+          return [];
         }
         const isoDate = normalizeToIsoDate(rawMatch.isoDate || rawMatch.utcDate || rawMatch.timeRaw);
-        const homeCandidates = [
-          rawMatch?.homeTeam?.name,
-          rawMatch?.homeTeam?.shortName,
-          rawMatch?.homeTeam?.tla,
-          rawMatch?.homeTeam?.abbreviation,
-          rawMatch?.homeTeam?.id != null ? String(rawMatch.homeTeam.id) : null
-        ].filter(Boolean);
-        const awayCandidates = [
-          rawMatch?.awayTeam?.name,
-          rawMatch?.awayTeam?.shortName,
-          rawMatch?.awayTeam?.tla,
-          rawMatch?.awayTeam?.abbreviation,
-          rawMatch?.awayTeam?.id != null ? String(rawMatch.awayTeam.id) : null
-        ].filter(Boolean);
-        const homeName = homeCandidates.find((entry) => normalizeTeamNameForIdentity(entry)) || homeCandidates[0];
-        const awayName = awayCandidates.find((entry) => normalizeTeamNameForIdentity(entry)) || awayCandidates[0];
-        return buildMatchIdentityFromNames(homeName, awayName, isoDate);
+        if (!isoDate) {
+          return [];
+        }
+        const homeCandidates = collectTeamNameCandidates(rawMatch.homeTeam || {});
+        const awayCandidates = collectTeamNameCandidates(rawMatch.awayTeam || {});
+        if (!homeCandidates.length || !awayCandidates.length) {
+          return [];
+        }
+        const identities = new Set();
+        homeCandidates.forEach((homeName) => {
+          awayCandidates.forEach((awayName) => {
+            const identity = buildMatchIdentityFromNames(homeName, awayName, isoDate);
+            if (identity) {
+              identities.add(identity);
+            }
+          });
+        });
+        return Array.from(identities);
+      }
+
+      function buildFootballDataMatchIdentity(rawMatch) {
+        const identities = buildFootballDataMatchIdentities(rawMatch);
+        return identities.length ? identities[0] : null;
       }
 
       function buildFormattedMatchIdentity(match) {
@@ -988,10 +1027,12 @@
           return lookup;
         }
         matchMap.forEach((rawMatch, rawId) => {
-          const identity = buildFootballDataMatchIdentity(rawMatch);
-          if (identity && !lookup.has(identity)) {
-            lookup.set(identity, String(rawId));
-          }
+          const identities = buildFootballDataMatchIdentities(rawMatch);
+          identities.forEach((identity) => {
+            if (identity && !lookup.has(identity)) {
+              lookup.set(identity, String(rawId));
+            }
+          });
         });
         return lookup;
       }
