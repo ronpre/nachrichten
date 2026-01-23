@@ -480,7 +480,8 @@
         ['munchen', 'munich'],
         ['muenchen', 'munich'],
         ['olympiakos', 'olympiacos'],
-        ['beograd', 'belgrade']
+        ['beograd', 'belgrade'],
+        ['paphos', 'pafos']
       ]);
 
       const DOM = {
@@ -948,7 +949,9 @@
         if (!tokens.length) {
           return ascii.replace(/[^a-z0-9]+/g, '');
         }
-        const remapped = tokens.map((token) => TEAM_NAME_TOKEN_SYNONYMS.get(token) || token);
+        const remapped = tokens
+          .map((token) => TEAM_NAME_TOKEN_SYNONYMS.get(token) || token)
+          .filter((token) => token && token.trim().length);
         const filtered = remapped.filter((token) => !TEAM_NAME_STOP_WORDS.has(token));
         const candidates = filtered.length ? filtered : remapped;
         return candidates.join('');
@@ -971,16 +974,44 @@
         if (!team) {
           return [];
         }
-        const values = [team.name, team.shortName, team.tla, team.abbreviation].filter((entry) => typeof entry === 'string' && entry.trim().length);
+        const rawValues = [
+          team.name,
+          team.shortName,
+          team.shortDisplayName,
+          team.displayName,
+          team.nickname,
+          team.tla,
+          team.abbreviation
+        ];
+        const candidates = [];
         const seen = new Set();
-        return values.filter((value) => {
-          const key = value.toLowerCase();
-          if (seen.has(key)) {
-            return false;
+        const push = (entry) => {
+          if (!entry) {
+            return;
           }
-          seen.add(key);
-          return true;
+          const lower = entry.toLowerCase();
+          if (seen.has(lower)) {
+            return;
+          }
+          seen.add(lower);
+          candidates.push(entry);
+        };
+        rawValues.forEach((value) => {
+          if (typeof value !== 'string') {
+            return;
+          }
+          const trimmed = value.trim();
+          if (!trimmed) {
+            return;
+          }
+          push(trimmed);
+          const segments = trimmed.split(/[^A-Za-z0-9]+/).filter(Boolean);
+          if (segments.length > 1) {
+            push(segments[segments.length - 1]);
+            push(segments[0]);
+          }
         });
+        return candidates;
       }
 
       function buildFootballDataMatchIdentities(rawMatch) {

@@ -8,7 +8,8 @@
     "update:news": "node update-news.js",
     "update:history": "node update-history.js",
     "start:schedule": "node schedule-updates.js",
-    "update:laliga": "node liveticker/scripts/update_laliga_from_espn.js"
+    "update:laliga": "node liveticker/scripts/update_laliga_from_espn.js",
+    "update:cl": "node liveticker/scripts/update_cl_from_espn.js"
   },
   "dependencies": {
     "rss-parser": "^3.13.0"
