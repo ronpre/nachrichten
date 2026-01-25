@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-25T11:53:21.972Z",
+  "updatedAt": "2026-01-25T12:08:48.752Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:b78ce676-4049-40dd-a0a5-1b1d9276a0f8}",
+        "title": "Institut der deutschen Wirtschaft: Ausländische Investitionen in Deutschland steigen laut Studie stark",
+        "summary": "Gegenüber dem Vorjahr hat sich die Summe laut einer Analyse des IW-Instituts verdoppelt. Erstmals seit Langem sind die Zuflüsse höher als die Abflüsse.",
+        "paragraphs": [
+          "Gegenüber dem Vorjahr hat sich die Summe laut einer Analyse des IW-Instituts verdoppelt. Erstmals seit Langem sind die Zuflüsse höher als die Abflüsse."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/institut-der-deutschen-wirtschaft-auslaendische-investitionen-anstieg",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-25T12:00:57.000Z"
+      },
       {
         "id": "https://www.spiegel.de/wirtschaft/oekonom-schularick-sieht-usa-nicht-mehr-als-verlaesslichen-partner-a-d3b75570-6724-4862-bb72-ceb51d67e873",
         "title": "Ökonom Schularick sieht USA nicht mehr als verlässlichen Partner",
@@ -210,23 +221,12 @@
         "link": "https://www.handelsblatt.com/politik/international/us-zoelle-trump-droht-kanada-mit-100-prozent-zoellen/30026990.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-24T15:23:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/wirtschaft/soziales/donald-trump-droht-kanada-mit-100-prozent-zoellen-a-73bbb51e-439a-45af-b344-401770fbd1af",
-        "title": "Donald Trump droht Kanada mit 100-Prozent-Zöllen",
-        "summary": "Kanadas Premier Mark Carney hat ein Handelsabkommen mit China geschlossen. US-Präsident Donald Trump passt das überhaupt nicht, dabei hat er sich erst kürzlich gegenteilig geäußert.",
-        "paragraphs": [
-          "Kanadas Premier Mark Carney hat ein Handelsabkommen mit China geschlossen. US-Präsident Donald Trump passt das überhaupt nicht, dabei hat er sich erst kürzlich gegenteilig geäußert."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/soziales/donald-trump-droht-kanada-mit-100-prozent-zoellen-a-73bbb51e-439a-45af-b344-401770fbd1af#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-24T15:13:00.000Z"
       }
     ],
     "politik": [
       {
         "id": "https://www.spiegel.de/politik/deutschland/patientenschuetzer-wollen-24-stuendige-notstromversorgung-fuer-pflegeheime-a-ad6e4e0d-2c05-4f98-8792-7e53bd5e8e78",
-        "title": "Patientenschützer wollen 24-stündige Notstromversorgung für Pflegeheime",
+        "title": "Patientenschützer verlangen 24-stündige Notstromversorgung für Pflegeheime",
         "summary": "Nach dem Stromausfall im Berliner Südwesten Anfang Januar kritisieren Patientenschützer Defizite bei den Schutzauflagen für Pflegeeinrichtungen. Es sei nicht hinnehmbar, dass für Krankenhäuser strengere Vorgaben gelten.",
         "paragraphs": [
           "Nach dem Stromausfall im Berliner Südwesten Anfang Januar kritisieren Patientenschützer Defizite bei den Schutzauflagen für Pflegeeinrichtungen. Es sei nicht hinnehmbar, dass für Krankenhäuser strengere Vorgaben gelten."
@@ -447,6 +447,28 @@
     ],
     "sport": [
       {
+        "id": "https://www.spiegel.de/sport/tennis/australian-open-alexander-zverev-rauscht-ins-viertelfinale-und-ist-damit-besser-als-boris-becker-a-f4ab6d7b-dd0b-487c-bb7f-509aa4edbe5c",
+        "title": "Australian Open: Alexander Zverev rauscht ins Viertelfinale und ist damit besser als Boris Becker",
+        "summary": "Mit einem klaren Dreisatzsieg hat Alexander Zverev das Achtelfinale der Australian Open überstanden. Jetzt wartet ein unangenehmer Gegner auf ihn – und eine Hitzeschlacht.",
+        "paragraphs": [
+          "Mit einem klaren Dreisatzsieg hat Alexander Zverev das Achtelfinale der Australian Open überstanden. Jetzt wartet ein unangenehmer Gegner auf ihn – und eine Hitzeschlacht."
+        ],
+        "link": "https://www.spiegel.de/sport/tennis/australian-open-alexander-zverev-rauscht-ins-viertelfinale-und-ist-damit-besser-als-boris-becker-a-f4ab6d7b-dd0b-487c-bb7f-509aa4edbe5c#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-25T12:03:00.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/sport/alex-honnold-auf-dem-taipeh-101-spiderman-winkt-aus-dem-himmel-a-a6f3bf55-f38b-4bd7-985b-65432bcb5985",
+        "title": "Alex Honnold auf dem Taipeh 101: Ohne Sicherungsseil 508 Meter in die Höhe",
+        "summary": "Der Profikletterer Alex Honnold hat den Stunt am Wolkenkratzer Taipeh 101 überlebt. Bei der Liveübertragung des Spektakels zeigte sich: Der Koloss aus Stahl und Glas stellte den Extremsportler kaum vor Herausforderungen.",
+        "paragraphs": [
+          "Der Profikletterer Alex Honnold hat den Stunt am Wolkenkratzer Taipeh 101 überlebt. Bei der Liveübertragung des Spektakels zeigte sich: Der Koloss aus Stahl und Glas stellte den Extremsportler kaum vor Herausforderungen."
+        ],
+        "link": "https://www.spiegel.de/sport/alex-honnold-auf-dem-taipeh-101-spiderman-winkt-aus-dem-himmel-a-a6f3bf55-f38b-4bd7-985b-65432bcb5985#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-25T11:59:00.000Z"
+      },
+      {
         "id": "https://www.kicker.de/live-dzeko-auf-der-bank-chernev-beginnt-beim-fck-torwart-wechsel-bei-muenster-1186078/artikel#omrss",
         "title": "LIVE! Dzeko auf der Bank - Chernev beginnt beim FCK - Torwart-Wechsel bei Münster",
         "summary": "Am Sonntag steigt das Topspiel auf Schalke, wo beim Gastspiel von Kaiserslautern alle Augen auf Edin Dzeko gerichtet sind - der Bosnier sitzt aber erstmal auf der Bank. Daneben wollen sich Elversberg und Paderborn vorn weiter festsetzen.",
@@ -643,31 +665,20 @@
         "link": "https://www.sueddeutsche.de/sport/handball-em-deutschland-norwegen-grgic-wolff-li.3374716",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-25T08:52:22.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/trotz-crash-mit-kaenguru-vine-gewinnt-tour-down-under-1187247/artikel#omrss",
-        "title": "Trotz Crash mit Känguru: Vine gewinnt Tour Down Under",
-        "summary": "Zwei Kängurus sorgen für Aufregung bei der Tour Down Under. Mehrere Fahrer müssen verletzt aufgeben, Jay Vine gewinnt trotzdem. Wie lief das dramatische Finale in Stirling ab?",
-        "paragraphs": [
-          "Zwei Kängurus sorgen für Aufregung bei der Tour Down Under. Mehrere Fahrer müssen verletzt aufgeben, Jay Vine gewinnt trotzdem. Wie lief das dramatische Finale in Stirling ab?"
-        ],
-        "link": "https://www.kicker.de/trotz-crash-mit-kaenguru-vine-gewinnt-tour-down-under-1187247/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-25T08:51:24.000Z"
-      },
-      {
-        "id": "li.3374688",
-        "title": "1:2 des FC Bayern: Schlagbar, auch mit Augsburger Mitteln",
-        "summary": "Erstmals seit März 2025 und erstmals in dieser Saison verliert der FC Bayern ein Bundesligaspiel. Wie das der FC Augsburg geschafft hat, erklärt Trainer Manuel Baum nach der Partie.",
-        "paragraphs": [
-          "Erstmals seit März 2025 und erstmals in dieser Saison verliert der FC Bayern ein Bundesligaspiel. Wie das der FC Augsburg geschafft hat, erklärt Trainer Manuel Baum nach der Partie."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/bayern-augsburg-niederlage-analyse-bundesliga-li.3374688",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-01-25T08:47:59.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Programmiersprache-Kotlin-Noch-Tickets-fuer-die-Online-Konferenz-sichern-11151402.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: Programmiersprache Kotlin: Noch Tickets für die Online-Konferenz sichern",
+        "summary": "Die Online-Konferenz betterCode() Kotlin bietet zwei einzeln buchbare Tage zu Kotlin für die Android- und Multiplattform-Entwicklung sowie fürs Backend.",
+        "paragraphs": [
+          "Die Online-Konferenz betterCode() Kotlin bietet zwei einzeln buchbare Tage zu Kotlin für die Android- und Multiplattform-Entwicklung sowie fürs Backend."
+        ],
+        "link": "https://www.heise.de/news/Programmiersprache-Kotlin-Noch-Tickets-fuer-die-Online-Konferenz-sichern-11151402.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-25T12:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Microsoft-gibt-BitLocker-Schluessel-an-Strafverfolgungsbehoerden-11152988.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "BitLocker: Microsoft gibt Schlüssel an Strafverfolger heraus",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Happy-Birthday-Buzz-Mond-Crew-gratuliert-Aldrin-zum-96-Geburtstag-11152761.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-24T10:31:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Genaue-Foerderbedingungen-fuer-Hybrid-Autos-noch-unklar-11152751.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Genaue Förderbedingungen für Hybrid-Autos noch unklar",
-        "summary": "Wer ein Plug-in-Hybridauto kaufen will, kann noch nicht sicher mit einer staatlichen Prämie rechnen. Welches wichtige Detail zur Förderung noch offen ist.",
-        "paragraphs": [
-          "Wer ein Plug-in-Hybridauto kaufen will, kann noch nicht sicher mit einer staatlichen Prämie rechnen. Welches wichtige Detail zur Förderung noch offen ist."
-        ],
-        "link": "https://www.heise.de/news/Genaue-Foerderbedingungen-fuer-Hybrid-Autos-noch-unklar-11152751.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-24T10:28:00.000Z"
       }
     ]
   }
