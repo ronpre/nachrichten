@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-01-25T13:54:27.076Z",
+  "updatedAt": "2026-01-25T14:05:16.238Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:eac1de67-db47-4013-b442-e614e5fc6a38}",
+        "title": "Red Bull in Baruth: Hier will Red Bull 3,3 Milliarden Dosen jährlich produzieren",
+        "summary": "Red Bull plant mitten im trockenen Brandenburg eine neue Dosenfabrik. Der Protest ist groß: Denn der Getränkekonzern soll jeden Tag Millionen Liter Grundwasser bekommen.",
+        "paragraphs": [
+          "Red Bull plant mitten im trockenen Brandenburg eine neue Dosenfabrik. Der Protest ist groß: Denn der Getränkekonzern soll jeden Tag Millionen Liter Grundwasser bekommen."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/red-bull-baruth-grundwasser-streit-brandenburg",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-25T13:59:15.000Z"
+      },
+      {
+        "id": "li.3372881",
+        "title": "Kommunikation: Die E-Mail-Flut",
+        "summary": "Die E-Mail wurde schon oft totgesagt. Aber sie lebt nicht bloß länger, es ergießen sich ständig mehr Mails in die Postfächer. Wie kann das sein?",
+        "paragraphs": [
+          "Die E-Mail wurde schon oft totgesagt. Aber sie lebt nicht bloß länger, es ergießen sich ständig mehr Mails in die Postfächer. Wie kann das sein?"
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/e-mail-flut-deutschland-probleme-loesungen-li.3372881",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-25T13:57:54.000Z"
+      },
       {
         "id": "li.3374932",
         "title": "Verbraucherschutz: Mehr Beschwerden über verbotene Werbeanrufe",
@@ -199,28 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-weitere-ukraine-gespraeche-naechste-woche-in-abu-dhabi-geplant/27982126.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-25T09:05:05.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/wachstumsfinanzierung-wie-schnell-wachsende-unternehmen-zu-kapital-gelangen/100189013.html",
-        "title": "Wachstumsfinanzierung: Neue Mittel gegen den „größten Renditekiller“ bei Risikokapital-Investments",
-        "summary": "Innovative Finanzierungen bringen Kreditgeber mit Wachstumsfirmen zusammen. Sie lösen zentrale Probleme von schnell wachsenden Unternehmen – und können Chancen auf einen Börsengang erhöhen.",
-        "paragraphs": [
-          "Innovative Finanzierungen bringen Kreditgeber mit Wachstumsfirmen zusammen. Sie lösen zentrale Probleme von schnell wachsenden Unternehmen – und können Chancen auf einen Börsengang erhöhen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/wachstumsfinanzierung-wie-schnell-wachsende-unternehmen-zu-kapital-gelangen/100189013.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-25T08:58:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/devisen-jtokio-droht-spekulanten-mit-devisenintervention/100194491.html",
-        "title": "Märkte: Japans Regierungschefin droht mit Intervention",
-        "summary": "Sanae Takaichi warnt nach dem Fall des Yen vor „abnormalen Marktbewegungen“. Signale aus den USA deuten auf eine koordinierte Stützungsaktion hin. Die Devisenmärkte haben stark reagiert.",
-        "paragraphs": [
-          "Sanae Takaichi warnt nach dem Fall des Yen vor „abnormalen Marktbewegungen“. Signale aus den USA deuten auf eine koordinierte Stützungsaktion hin. Die Devisenmärkte haben stark reagiert."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/devisen-jtokio-droht-spekulanten-mit-devisenintervention/100194491.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-25T07:41:59.000Z"
       }
     ],
     "politik": [
@@ -447,13 +447,24 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-prtajin-trifft-mit-erstem-ballkontakt-ausgleich-in-paderborn-sve-meldet-sich-zurueck-1186078/artikel#omrss",
-        "title": "LIVE! Prtajin trifft mit erstem Ballkontakt - Ausgleich in Paderborn - SVE meldet sich zurück",
+        "id": "li.3374925",
+        "title": "Rodeln: Sieg Nummer 60 für Wendl/Arlt",
+        "summary": "<img src=\"https://www.sueddeutsche.de/2026/01/25/75345176-5b1e-4569-85d7-bfa596f95a67.jpg?rect=472%2C0%2C3528%2C2646&width=1000&fm=jpg&q=60\" data-portal-copyright=\"Robert Michael/dpa\" />",
+        "paragraphs": [
+          "<img src=\"https://www.sueddeutsche.de/2026/01/25/75345176-5b1e-4569-85d7-bfa596f95a67.jpg?rect=472%2C0%2C3528%2C2646&width=1000&fm=jpg&q=60\" data-portal-copyright=\"Robert Michael/dpa\" />"
+        ],
+        "link": "https://www.sueddeutsche.de/sport/rodeln-sieg-nummer-60-fuer-wendl-arlt-li.3374925",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-25T14:03:10.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-dzeko-darf-ran-tigges-verpasst-doppelpack-sve-meldet-sich-zurueck-1186078/artikel#omrss",
+        "title": "LIVE! Dzeko darf ran - Tigges verpasst Doppelpack - SVE meldet sich zurück",
         "summary": "Am Sonntag steigt das Topspiel auf Schalke, wo beim Gastspiel von Kaiserslautern alle Augen auf Edin Dzeko gerichtet sind - der Bosnier sitzt aber erstmal auf der Bank. Daneben wollen sich Elversberg und Paderborn vorn weiter festsetzen.",
         "paragraphs": [
           "Am Sonntag steigt das Topspiel auf Schalke, wo beim Gastspiel von Kaiserslautern alle Augen auf Edin Dzeko gerichtet sind - der Bosnier sitzt aber erstmal auf der Bank. Daneben wollen sich Elversberg und Paderborn vorn weiter festsetzen."
         ],
-        "link": "https://www.kicker.de/live-prtajin-trifft-mit-erstem-ballkontakt-ausgleich-in-paderborn-sve-meldet-sich-zurueck-1186078/artikel#omrss",
+        "link": "https://www.kicker.de/live-dzeko-darf-ran-tigges-verpasst-doppelpack-sve-meldet-sich-zurueck-1186078/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-25T13:50:49.000Z"
       },
@@ -533,6 +544,17 @@
         "publishedAt": "2026-01-25T13:25:49.000Z"
       },
       {
+        "id": "https://www.kicker.de/wolff-knorr-und-co-gegen-die-beste-mannschaft-der-welt-1187315/video#omrss",
+        "title": "Wolff, Knorr und Co gegen \"die beste Mannschaft der Welt\"",
+        "summary": "Andreas Wolff, Juri Knorr, Bundestrainer Alfred Gislason sowie Benjamin Chatton saßen nach dem Sieg gegen Norwegen auf der Pressekonferenz und blickten auf die bevorstehendes Duell gegen Dänemark - den ersten Matchball für den Einzug ins Halbfinale der Handball-EM.",
+        "paragraphs": [
+          "Andreas Wolff, Juri Knorr, Bundestrainer Alfred Gislason sowie Benjamin Chatton saßen nach dem Sieg gegen Norwegen auf der Pressekonferenz und blickten auf die bevorstehendes Duell gegen Dänemark - den ersten Matchball für den Einzug ins Halbfinale der Handball-EM."
+        ],
+        "link": "https://www.kicker.de/wolff-knorr-und-co-gegen-die-beste-mannschaft-der-welt-1187315/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-25T13:14:22.000Z"
+      },
+      {
         "id": "li.3374887",
         "title": "Slalom in Spindlermühle: Aicher Dritte, Shiffrin gewinnt",
         "summary": "Die deutsche Allrounderin fährt im Weltcup aufs Slalom-Podest. Mikaela Shiffrin ist gut zwei Sekunden schneller und sichert sich die Disziplin-Gesamtwertung.",
@@ -545,10 +567,10 @@
       },
       {
         "id": "li.3374774",
-        "title": "Odermatts Niederlage in Kitzbühel: Ewige Suche nach Perfektion",
-        "summary": "Marco Odermatt verpasst denkbar knapp den Abfahrtssieg von Kitzbühel und reagiert ungewohnt emotional. An den Tränen des Schweizers ist zu erahnen, was ihm dieses Rennen bedeutet.",
+        "title": "Odermatts Niederlage in Kitzbühel: Tränen wegen der verlorenen Gams",
+        "summary": "Marco Odermatt verpasst denkbar knapp den Abfahrtssieg von Kitzbühel und reagiert ungewohnt emotional. An den Gefühlen des Schweizers ist zu erahnen, was ihm dieses Rennen bedeutet.",
         "paragraphs": [
-          "Marco Odermatt verpasst denkbar knapp den Abfahrtssieg von Kitzbühel und reagiert ungewohnt emotional. An den Tränen des Schweizers ist zu erahnen, was ihm dieses Rennen bedeutet."
+          "Marco Odermatt verpasst denkbar knapp den Abfahrtssieg von Kitzbühel und reagiert ungewohnt emotional. An den Gefühlen des Schweizers ist zu erahnen, was ihm dieses Rennen bedeutet."
         ],
         "link": "https://www.sueddeutsche.de/sport/kitzbuehel-abfahrt-odermatt-traenen-franzoni-li.3374774",
         "source": "Sueddeutsche",
@@ -641,31 +663,20 @@
         "link": "https://www.kicker.de/starke-zwischenbilanz-wo-der-bvb-besser-ist-als-in-der-letzten-meistersaison-1187298/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-25T12:05:30.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/tennis/australian-open-alexander-zverev-rauscht-ins-viertelfinale-und-ist-damit-besser-als-boris-becker-a-f4ab6d7b-dd0b-487c-bb7f-509aa4edbe5c",
-        "title": "Australian Open: Alexander Zverev rauscht ins Viertelfinale und ist damit besser als Boris Becker",
-        "summary": "Mit einem klaren Dreisatzsieg hat Alexander Zverev das Achtelfinale der Australian Open überstanden. Jetzt wartet ein unangenehmer Gegner auf ihn – und eine Hitzeschlacht.",
-        "paragraphs": [
-          "Mit einem klaren Dreisatzsieg hat Alexander Zverev das Achtelfinale der Australian Open überstanden. Jetzt wartet ein unangenehmer Gegner auf ihn – und eine Hitzeschlacht."
-        ],
-        "link": "https://www.spiegel.de/sport/tennis/australian-open-alexander-zverev-rauscht-ins-viertelfinale-und-ist-damit-besser-als-boris-becker-a-f4ab6d7b-dd0b-487c-bb7f-509aa4edbe5c#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-25T12:03:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/alex-honnold-auf-dem-taipeh-101-spiderman-winkt-aus-dem-himmel-a-a6f3bf55-f38b-4bd7-985b-65432bcb5985",
-        "title": "Alex Honnold auf dem Taipeh 101: Ohne Sicherungsseil 508 Meter in die Höhe",
-        "summary": "Der Profikletterer Alex Honnold hat den Stunt am Wolkenkratzer Taipeh 101 überlebt. Bei der Liveübertragung des Spektakels zeigte sich: Der Koloss aus Stahl und Glas stellte den Extremsportler kaum vor Herausforderungen.",
-        "paragraphs": [
-          "Der Profikletterer Alex Honnold hat den Stunt am Wolkenkratzer Taipeh 101 überlebt. Bei der Liveübertragung des Spektakels zeigte sich: Der Koloss aus Stahl und Glas stellte den Extremsportler kaum vor Herausforderungen."
-        ],
-        "link": "https://www.spiegel.de/sport/alex-honnold-auf-dem-taipeh-101-spiderman-winkt-aus-dem-himmel-a-a6f3bf55-f38b-4bd7-985b-65432bcb5985#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-25T11:59:00.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/ratgeber/Photoshop-neu-gedacht-Wie-kostenlose-KI-Bilder-in-Ebenen-zerlegt-11122638.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | Photoshop neu gedacht: Mit KI kostenlos Bilder in Ebenen zerlegen",
+        "summary": "Qwen-Image-Layered bringt Bild-Ebenen auf den eigenen Rechner. So zerlegen Sie mit der KI Plakate oder Grußkarten, um sie nach Belieben neu zu arrangieren.",
+        "paragraphs": [
+          "Qwen-Image-Layered bringt Bild-Ebenen auf den eigenen Rechner. So zerlegen Sie mit der KI Plakate oder Grußkarten, um sie nach Belieben neu zu arrangieren."
+        ],
+        "link": "https://www.heise.de/ratgeber/Photoshop-neu-gedacht-Wie-kostenlose-KI-Bilder-in-Ebenen-zerlegt-11122638.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2026-01-25T14:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Debatten-um-Stablecoins-auf-dem-Weltwirtschaftsforum-11152964.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Debatten um Stablecoins auf dem Weltwirtschaftsforum",
@@ -874,17 +885,6 @@
         "link": "https://www.heise.de/bestenlisten/testbericht/saugroboter-3i-p10-ultra-im-test-mit-wischfunktion-und-station-fuer-500-euro/38nl6xd?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-24T15:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Unfall-Notruf-Netzbetreiber-schalten-Next-Generation-eCall-fuer-LTE-scharf-11152822.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Unfall-Notruf: Netzbetreiber schalten Next Generation eCall für LTE scharf",
-        "summary": "Das europaweite Notrufsystem für Fahrzeuge funkt jetzt in Deutschland auch im 4G- und 5G-Netz. Grund: In den kommenden Jahren werden die GSM-Netze abgeschaltet.",
-        "paragraphs": [
-          "Das europaweite Notrufsystem für Fahrzeuge funkt jetzt in Deutschland auch im 4G- und 5G-Netz. Grund: In den kommenden Jahren werden die GSM-Netze abgeschaltet."
-        ],
-        "link": "https://www.heise.de/news/Unfall-Notruf-Netzbetreiber-schalten-Next-Generation-eCall-fuer-LTE-scharf-11152822.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-24T13:51:00.000Z"
       }
     ]
   }
