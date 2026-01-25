@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-25T16:35:20.229Z",
+  "updatedAt": "2026-01-25T16:47:53.652Z",
   "categories": {
     "wirtschaft": [
       {
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "{urn:uuid:f1902d35-a679-4932-8e12-ba98ef4d3354}",
+        "title": "Bundesliga, 19. Spieltag – Sonntag: VfB Stuttgart gewinnt bei Borussia Mönchengladbach",
+        "summary": "Die Stuttgarter gehen in der ersten Halbzeit in Führung. In der zweiten Hälfte fällt ein Eigentor, dann trifft Undav. Der Spielbericht",
+        "paragraphs": [
+          "Die Stuttgarter gehen in der ersten Halbzeit in Führung. In der zweiten Hälfte fällt ein Eigentor, dann trifft Undav. Der Spielbericht"
+        ],
+        "link": "https://www.zeit.de/sport/2026-01/bundesliga-stuttgart-moenchengladbach-freiburg-koeln",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-25T16:36:06.000Z"
+      },
+      {
+        "id": "https://www.spiegel.de/sport/fussball/fussball-bundesliga-vfb-stuttgart-siegt-souveraen-in-moenchengladbach-a-9de24f2e-f7ae-4b89-846f-c152d3d28fa6",
+        "title": "Fußball-Bundesliga: VfB Stuttgart siegt souverän in Mönchengladbach",
+        "summary": "Beim souveränen Auswärtserfolg des VfB Stuttgart bei Borussia Mönchengladbach setzt DFB-Star Deniz Undav den Schlusspunkt. Im Duell der besten Stürmer der Liga abseits des FC Bayern versagen seinem Konkurrenten die Nerven.",
+        "paragraphs": [
+          "Beim souveränen Auswärtserfolg des VfB Stuttgart bei Borussia Mönchengladbach setzt DFB-Star Deniz Undav den Schlusspunkt. Im Duell der besten Stürmer der Liga abseits des FC Bayern versagen seinem Konkurrenten die Nerven."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/fussball-bundesliga-vfb-stuttgart-siegt-souveraen-in-moenchengladbach-a-9de24f2e-f7ae-4b89-846f-c152d3d28fa6#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-25T16:34:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/syndesmoseriss-roessing-lelesiit-diagnose-veraendert-die-hsv-plaene-1187369/artikel#omrss",
+        "title": "Syndesmoseriss: Rössing-Lelesiit-Diagnose verändert die HSV-Pläne",
+        "summary": "Die dauerhaften Schmerzen an der Achillessehne von Jean-Luc Dompé sind schon lange die Achillesferse des HSV. Jetzt fällt mit Alexander Rössing-Lelesiit auch noch sein erster Ersatzmann monatelang aus. Der offensivschwache Aufsteiger benötigt personellen Nachschlag.",
+        "paragraphs": [
+          "Die dauerhaften Schmerzen an der Achillessehne von Jean-Luc Dompé sind schon lange die Achillesferse des HSV. Jetzt fällt mit Alexander Rössing-Lelesiit auch noch sein erster Ersatzmann monatelang aus. Der offensivschwache Aufsteiger benötigt personellen Nachschlag."
+        ],
+        "link": "https://www.kicker.de/syndesmoseriss-roessing-lelesiit-diagnose-veraendert-die-hsv-plaene-1187369/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-25T16:32:21.000Z"
+      },
+      {
         "id": "https://www.kicker.de/palace-gegen-chelsea-2026-premier-league-5045228/spielbericht#omrss",
         "title": "Estevao sticht heraus: Chelsea sichert mit souveränem Sieg bei Crystal Palace Platz 4",
         "summary": "Mit einem ungefährdeten 3:1-Sieg bei Crystal Palace sicherte sich der FC Chelsea Rang 4. Der herausragende Mann war der Brasilianer Estevao, der neben seinem Tor noch an einem weiteren Treffer beteiligt war.",
@@ -478,6 +511,17 @@
         "link": "https://www.kicker.de/mannheim-kapitaen-kluenter-zaehlt-das-team-an-auftreten-wie-kinder-1187346/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-25T16:14:18.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/slowenien-gegen-ungarn-2026-handball-em-5189084/spielbericht#omrss",
+        "title": "Steigerung in Halbzeit zwei: Slowenien wahrt Halbfinalchance",
+        "summary": "Ungarn bleibt weiter sieglos in der Hauptrunde. Nach dem Unentschieden am ersten Spieltag startete das Team von Chema Rodriguez stark in die Partie, muss sich aber am Ende routinierten Slowenen geschlagen geben.",
+        "paragraphs": [
+          "Ungarn bleibt weiter sieglos in der Hauptrunde. Nach dem Unentschieden am ersten Spieltag startete das Team von Chema Rodriguez stark in die Partie, muss sich aber am Ende routinierten Slowenen geschlagen geben."
+        ],
+        "link": "https://www.kicker.de/slowenien-gegen-ungarn-2026-handball-em-5189084/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-25T16:07:00.000Z"
       },
       {
         "id": "https://www.kicker.de/muenchen-gegen-wuerzburg-2026-bbl-5141378/spielbericht#omrss",
@@ -579,13 +623,13 @@
         "publishedAt": "2026-01-25T15:33:25.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-kuebler-statt-guenter-beim-scf-kwasniok-nimmt-fuenf-wechsel-vor-1186420/artikel#omrss",
-        "title": "LIVE! Kübler statt Günter beim SCF - Kwasniok nimmt fünf Wechsel vor",
+        "id": "https://www.kicker.de/live-koelns-fuehrung-haelt-90-sekunden-scherhant-egalisiert-rosenfelder-eigentor-1186420/artikel#omrss",
+        "title": "LIVE! Kölns Führung hält 90 Sekunden: Scherhant egalisiert Rosenfelder-Eigentor",
         "summary": "Am vergangenen Spieltag gelang dem Effzeh beim 2:1-Sieg gegen Mainz der langersehnte Befreiungsschlag. Kann Köln auch gegen Freiburg punkten?",
         "paragraphs": [
           "Am vergangenen Spieltag gelang dem Effzeh beim 2:1-Sieg gegen Mainz der langersehnte Befreiungsschlag. Kann Köln auch gegen Freiburg punkten?"
         ],
-        "link": "https://www.kicker.de/live-kuebler-statt-guenter-beim-scf-kwasniok-nimmt-fuenf-wechsel-vor-1186420/artikel#omrss",
+        "link": "https://www.kicker.de/live-koelns-fuehrung-haelt-90-sekunden-scherhant-egalisiert-rosenfelder-eigentor-1186420/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-25T15:31:59.000Z"
       },
@@ -621,50 +665,6 @@
         "link": "https://www.kicker.de/atl-madrid-gegen-mallorca-2026-la-liga-5055080/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-25T15:07:50.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/fussball/2-bundesliga-edin-dzeko-trifft-in-seinem-ersten-spiel-fuer-schalke-04-gegen-den-1-fc-kaiserlsautern-a-a1173b76-ac53-47f3-b63e-d16d4ba90678",
-        "title": "2. Bundesliga: Edin Džeko trifft in seinem ersten Spiel für Schalke 04 gegen den 1. FC Kaiserlsautern",
-        "summary": "Was für ein Auftritt: Edin Džeko wird eingewechselt – und mit seiner ersten Strafraumaktion für Schalke erzielt der 39-Jährige gleich einen Treffer. Für einen Sieg reichte es gegen starke Lauterer aber nicht.",
-        "paragraphs": [
-          "Was für ein Auftritt: Edin Džeko wird eingewechselt – und mit seiner ersten Strafraumaktion für Schalke erzielt der 39-Jährige gleich einen Treffer. Für einen Sieg reichte es gegen starke Lauterer aber nicht."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/2-bundesliga-edin-dzeko-trifft-in-seinem-ersten-spiel-fuer-schalke-04-gegen-den-1-fc-kaiserlsautern-a-a1173b76-ac53-47f3-b63e-d16d4ba90678#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-25T15:05:00.000Z"
-      },
-      {
-        "id": "https://www.spiegel.de/sport/wintersport/ski-alpin-linus-strasser-wird-dritter-in-kitzbuehel-manuel-feller-gewinnt-a-f18b0653-fb3c-463f-bc05-ec4f88a20c65",
-        "title": "Ski Alpin: Linus Straßer wird Dritter in Kitzbühel, Manuel Feller gewinnt",
-        "summary": "Linus Straßer ging vor der Saison ins Risiko und holte sich einen neuen Ausrüster. Warum? »Raus aus der Komfortzone.« In Kitzbühel belohnt er sich. Manuel Feller erlöst eine ganze Skination und weint hemmungslos.",
-        "paragraphs": [
-          "Linus Straßer ging vor der Saison ins Risiko und holte sich einen neuen Ausrüster. Warum? »Raus aus der Komfortzone.« In Kitzbühel belohnt er sich. Manuel Feller erlöst eine ganze Skination und weint hemmungslos."
-        ],
-        "link": "https://www.spiegel.de/sport/wintersport/ski-alpin-linus-strasser-wird-dritter-in-kitzbuehel-manuel-feller-gewinnt-a-f18b0653-fb3c-463f-bc05-ec4f88a20c65#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-25T15:05:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bochum-ii-gegen-f-koeln-2026-regionalliga-west-5062498/spielbericht#omrss",
-        "title": "Fortuna Köln atmet auf: Wirtz setzt in Bochum den späten Stich",
-        "summary": "Eine einzige Sonntagspartie wartete am ersten vollen Spieltag des neuen Jahres: Fortuna Köln gewann dabei bei der U 21 des VfL Bochum erst sehr spät.",
-        "paragraphs": [
-          "Eine einzige Sonntagspartie wartete am ersten vollen Spieltag des neuen Jahres: Fortuna Köln gewann dabei bei der U 21 des VfL Bochum erst sehr spät."
-        ],
-        "link": "https://www.kicker.de/bochum-ii-gegen-f-koeln-2026-regionalliga-west-5062498/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-25T15:02:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bitshiabu-und-die-geduldsprobe-1187344/artikel#omrss",
-        "title": "Bitshiabu und die Geduldsprobe",
-        "summary": "In Heidenheim durfte El Chadaille Bitshiabu mal wieder von Beginn an für RB Leipzig ran. Am Dienstag im Nachholspiel beim FC St. Pauli könnte der Innenverteidiger eine weitere Chance erhalten. Oder droht wieder die Bank?",
-        "paragraphs": [
-          "In Heidenheim durfte El Chadaille Bitshiabu mal wieder von Beginn an für RB Leipzig ran. Am Dienstag im Nachholspiel beim FC St. Pauli könnte der Innenverteidiger eine weitere Chance erhalten. Oder droht wieder die Bank?"
-        ],
-        "link": "https://www.kicker.de/bitshiabu-und-die-geduldsprobe-1187344/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-25T15:01:37.000Z"
       }
     ],
     "edv": [
