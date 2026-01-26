@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-01-26T07:47:16.960Z",
+  "updatedAt": "2026-01-26T07:56:22.465Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:5ec98752-0c56-4c15-84a2-3a93a21b68fc}",
+        "title": "Wohnen und Inflation: Immobilienpreise sind 2025 mehr gestiegen als Inflation",
+        "summary": "Dortmund, Köln, Düsseldorf: Hier steigen die Kosten für Eigentumswohnungen mehr als die Inflation. Der Unterschied bei Mietverträgen ist noch größer.",
+        "paragraphs": [
+          "Dortmund, Köln, Düsseldorf: Hier steigen die Kosten für Eigentumswohnungen mehr als die Inflation. Der Unterschied bei Mietverträgen ist noch größer."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/wohnen-immobilienpreis-inflation-studie-deutsche-wirtschaft",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-26T07:45:58.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/autoindustrie-indien-will-offenbar-zoelle-auf-eu-autos-drastisch-senken-01/100194541.html",
+        "title": "Autoindustrie: Indien will offenbar Zölle auf EU-Autos drastisch senken",
+        "summary": "Die Importzölle von bisher bis zu 110 Prozent sollen sinken, berichtet Reuters. Das Abkommen könnte schon am Dienstag vorgestellt werden. E‑Autos wären vom Deal zunächst noch ausgenommen.",
+        "paragraphs": [
+          "Die Importzölle von bisher bis zu 110 Prozent sollen sinken, berichtet Reuters. Das Abkommen könnte schon am Dienstag vorgestellt werden. E‑Autos wären vom Deal zunächst noch ausgenommen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/autoindustrie-indien-will-offenbar-zoelle-auf-eu-autos-drastisch-senken-01/100194541.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-01-26T07:35:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/starlink-alternative-airbus-gegen-rheinmetall-duell-um-deutsches-satellitenprojekt/100193946.html",
         "title": "Satellitenprojekt: Airbus gegen Rheinmetall – Duell um die deutsche Antwort auf Starlink",
@@ -12,17 +34,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/industrie/starlink-alternative-airbus-gegen-rheinmetall-duell-um-deutsches-satellitenprojekt/100193946.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-26T07:18:27.000Z"
-      },
-      {
-        "id": "{urn:uuid:5ec98752-0c56-4c15-84a2-3a93a21b68fc}",
-        "title": "Wohnen und Inflation: Immobilienpreise sind 2025 mehr gestiegen als Inflation",
-        "summary": "Die Preise für Eigentumswohnungen steigen in Deutschland mehr als das Inflationsniveau. Dies hat das Institut der deutschen Wirtschaft herausgefunden.",
-        "paragraphs": [
-          "Die Preise für Eigentumswohnungen steigen in Deutschland mehr als das Inflationsniveau. Dies hat das Institut der deutschen Wirtschaft herausgefunden."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/wohnen-immobilienpreis-inflation-studie-deutsche-wirtschaft",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-26T07:18:07.000Z"
       },
       {
         "id": "https://www.spiegel.de/wirtschaft/afd-plaene-fuer-autoindustrie-oekonomen-sprechen-von-eklatander-inkompetenz-a-615112fd-8753-4d35-9d2a-19cd0140b420",
@@ -53,7 +64,7 @@
         "paragraphs": [
           "Der Preis für eine Feinunze Gold ist so hoch wie nie. Die vielen politischen Spannungen sorgen für eine hohe Nachfrage."
         ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/gold-preis-5000-dollar-li.3375132",
+        "link": "https://www.sueddeutsche.de/wirtschaft/gold-preis-5000-dollar-gruende-li.3375132",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-26T06:54:52.000Z"
       },
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuern-neue-kryptoregeln-in-diesen-faellen-drohen-50.000-euro-bussgeld/100192876.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-26T03:03:36.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/vw-konzern-audi-steckt-in-den-usa-im-kostendilemma/100193394.html",
-        "title": "VW-Konzern: Audis USA-Dilemma",
-        "summary": "Wegen der hohen Zölle drängt Audi-Chef Döllner auf ein eigenes US-Werk. Doch die Pläne kommen kaum voran. Das liegt nicht nur an stockenden Gesprächen zwischen der VW-Spitze und Washington.",
-        "paragraphs": [
-          "Wegen der hohen Zölle drängt Audi-Chef Döllner auf ein eigenes US-Werk. Doch die Pläne kommen kaum voran. Das liegt nicht nur an stockenden Gesprächen zwischen der VW-Spitze und Washington."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/vw-konzern-audi-steckt-in-den-usa-im-kostendilemma/100193394.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-26T03:00:13.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/var-auch-bei-ecken-und-gelb-rot-nicht-konsequent-durchdacht-1187546/artikel#omrss",
+        "title": "VAR auch bei Ecken und Gelb-Rot: \"Nicht konsequent durchdacht\"",
+        "summary": "Schon bald darf der Videobeweis auch bei Gelb-Roten Karten und Eckball-Entscheidungen eingreifen. Jochen Drees, VAR-Chef beim DFB, sieht die Änderung kritisch.",
+        "paragraphs": [
+          "Schon bald darf der Videobeweis auch bei Gelb-Roten Karten und Eckball-Entscheidungen eingreifen. Jochen Drees, VAR-Chef beim DFB, sieht die Änderung kritisch."
+        ],
+        "link": "https://www.kicker.de/var-auch-bei-ecken-und-gelb-rot-nicht-konsequent-durchdacht-1187546/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-26T07:48:18.000Z"
+      },
+      {
         "id": "https://www.kicker.de/oldenburg-in-der-jaeger-rolle-diese-situation-ist-gar-nicht-so-schlecht-1186872/artikel#omrss",
         "title": "Oldenburg in der Jäger-Rolle: \"Diese Situation ist gar nicht so schlecht\"",
         "summary": "Der Meister der Regionalliga Nord darf nach Saisonende direkt in die 3. Liga aufsteigen. Mittendrin im Titelkampf befindet sich der VfB Oldenburg und fühlt sich laut Trainer Dario Fossi und Sport-Geschäftsführer Sebastian Schachten in seiner aktuellen Rolle wohl. Doch das Stadion ist ein heikler Knackpunkt.",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/fc-zuerich-gegen-basel-2026-super-league-schweiz-5049176/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-25T21:08:07.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/zwei-nba-spiele-wegen-wintersturm-verschoben-1187467/artikel#omrss",
-        "title": "Zwei NBA-Spiele wegen Wintersturm verschoben",
-        "summary": "Die NBA hat zwei für Sonntag geplante Spiele verschoben. Grund für die Verlegung ist der hefige Wintersturm, der weite Teile der USA betrifft.",
-        "paragraphs": [
-          "Die NBA hat zwei für Sonntag geplante Spiele verschoben. Grund für die Verlegung ist der hefige Wintersturm, der weite Teile der USA betrifft."
-        ],
-        "link": "https://www.kicker.de/zwei-nba-spiele-wegen-wintersturm-verschoben-1187467/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-25T21:06:09.000Z"
       }
     ],
     "edv": [
