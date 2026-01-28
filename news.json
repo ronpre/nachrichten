@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-28T20:32:25.985Z",
+  "updatedAt": "2026-01-28T20:51:46.396Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "a16d0ff8-4127-4cec-b0b5-c1953af03821",
+        "title": "Amazon schließt kassenlose Supermärkte",
+        "summary": "Für Läden, in denen man sich Produkte einfach aus dem Regal greifen und rausgehen kann, war Amazon ein Pionier. Die Bezahlung haben Kameras und Sensoren geregelt. Doch diese Technik ist offenbar zu kostspielig.",
+        "paragraphs": [
+          "Für Läden, in denen man sich Produkte einfach aus dem Regal greifen und rausgehen kann, war Amazon ein Pionier. Die Bezahlung haben Kameras und Sensoren geregelt. Doch diese Technik ist offenbar zu kostspielig."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/unternehmen/amazon-schliesst-kassenlose-supermaerkte-a-a16d0ff8-4127-4cec-b0b5-c1953af03821#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-28T20:37:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/geldpolitik/federal-reserve-us-notenbank-legt-zinspause-ein-leitzins-unveraendert/100194187.html",
         "title": "Federal Reserve: US-Notenbank legt Zinspause ein – Leitzins bleibt unverändert",
@@ -210,17 +221,6 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/familienhotels-lermoos-luxusurlaub-eltern-kindern-li.3335524",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-28T16:11:06.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/usa-us-aktien-und-gold-auf-rekordkurs-dollar-in-der-krise/100195372.html",
-        "title": "Devisenmarkt: Die Dollar-Dominanz schwindet – beginnt am Devisenmarkt eine neue Ära?",
-        "summary": "Anleger sichern sich verstärkt gegen Wechselkursrisiken – aber nicht, indem sie Aktien und Anleihen aus den USA verkaufen. Für den Dollar bricht eine neue Ära an, die viele Fragen aufwirft.",
-        "paragraphs": [
-          "Anleger sichern sich verstärkt gegen Wechselkursrisiken – aber nicht, indem sie Aktien und Anleihen aus den USA verkaufen. Für den Dollar bricht eine neue Ära an, die viele Fragen aufwirft."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/usa-us-aktien-und-gold-auf-rekordkurs-dollar-in-der-krise/100195372.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-28T16:09:51.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,28 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/goretzka-bringt-seinen-abschied-aus-muenchen-ins-spiel-1188447/artikel#omrss",
+        "title": "Goretzka bringt seinen Abschied aus München ins Spiel",
+        "summary": "Leon Goretzkas Vertrag beim FC Bayern läuft am Saisonende aus. Wie es nun genau weiter geht, ist unklar. Der 30-Jährige gibt zu, dass ihn ein Wechsel ins Ausland reizt, betont aber auch, dass nichts entschieden sei. Von den Bayern erwartet er sich eine \"ehrliche\" Kommunikation und hofft, dass es nicht so läuft wie bei Thomas Müller.",
+        "paragraphs": [
+          "Leon Goretzkas Vertrag beim FC Bayern läuft am Saisonende aus. Wie es nun genau weiter geht, ist unklar. Der 30-Jährige gibt zu, dass ihn ein Wechsel ins Ausland reizt, betont aber auch, dass nichts entschieden sei. Von den Bayern erwartet er sich eine \"ehrliche\" Kommunikation und hofft, dass es nicht so läuft wie bei Thomas Müller."
+        ],
+        "link": "https://www.kicker.de/goretzka-bringt-seinen-abschied-aus-muenchen-ins-spiel-1188447/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-28T20:29:22.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/die-gier-nach-erfolgen-ist-riesig-uscins-nach-halbfinaleinzug-1188460/video#omrss",
+        "title": "\"Die Gier nach Erfolgen ist riesig\": Uscins nach Halbfinaleinzug",
+        "summary": "Die deutsche Nationalmannschaft gewinnt das entscheidende Hauptrundenspiel gegen Frankreich mit 38:34 und zieht in das EM-Halbfinale ein. Dementsprechend gut gelaunt waren die Nationalspieler.",
+        "paragraphs": [
+          "Die deutsche Nationalmannschaft gewinnt das entscheidende Hauptrundenspiel gegen Frankreich mit 38:34 und zieht in das EM-Halbfinale ein. Dementsprechend gut gelaunt waren die Nationalspieler."
+        ],
+        "link": "https://www.kicker.de/die-gier-nach-erfolgen-ist-riesig-uscins-nach-halbfinaleinzug-1188460/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-28T20:14:16.000Z"
+      },
+      {
         "id": "https://www.kicker.de/knorr-gala-gegen-frankreich-deutschlands-halbfinal-einzug-im-video-1188453/video#omrss",
         "title": "Knorr-Gala gegen Frankreich: Deutschlands Halbfinal-Einzug im Video",
         "summary": "Deutschland steht bei der Handball-EM im Halbfinale: Das entscheidende Hauptrunden-Match gegen Titelverteidiger Frankreich entschied ausgerechnet der im Turnier bislang enttäuschende Juri Knorr mit einer echten Gala-Vorstellung.",
@@ -568,24 +590,24 @@
         "publishedAt": "2026-01-28T18:57:24.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-havertz-startelf-comeback-erst-vorlage-dann-tor-wirtz-erhoeht-fuer-liverpool-napoli-aktuell-raus-1187669/artikel#omrss",
-        "title": "LIVE! Havertz' Startelf-Comeback: Erst Vorlage, dann Tor - Wirtz erhöht für Liverpool - Napoli aktuell raus",
+        "id": "https://www.kicker.de/live-gyoekeres-klaut-havertz-dritten-scorerpunkt-wirtz-erhoeht-fuer-liverpool-napoli-dreht-spiel-1187669/artikel#omrss",
+        "title": "LIVE! Gyökeres \"klaut\" Havertz dritten Scorerpunkt - Wirtz erhöht für Liverpool - Napoli dreht Spiel",
         "summary": "Der Tag der Entscheidungen in der Champions League. Am letzten Vorrunden-Spieltag spielen alle 36 Teams gleichzeitig - und in jeder Partie geht es um etwas. Wer schafft's ins Achtelfinale? Wer muss oder darf in die Play-offs? Und wer scheidet aus?",
         "paragraphs": [
           "Der Tag der Entscheidungen in der Champions League. Am letzten Vorrunden-Spieltag spielen alle 36 Teams gleichzeitig - und in jeder Partie geht es um etwas. Wer schafft's ins Achtelfinale? Wer muss oder darf in die Play-offs? Und wer scheidet aus?"
         ],
-        "link": "https://www.kicker.de/live-havertz-startelf-comeback-erst-vorlage-dann-tor-wirtz-erhoeht-fuer-liverpool-napoli-aktuell-raus-1187669/artikel#omrss",
+        "link": "https://www.kicker.de/live-gyoekeres-klaut-havertz-dritten-scorerpunkt-wirtz-erhoeht-fuer-liverpool-napoli-dreht-spiel-1187669/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-28T18:57:13.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-leverkusen-nach-villarreal-patzer-auf-play-off-kurs-guirassy-trifft-ball-nicht-richtig-bischof-freistoss-an-die-latte-1187664/artikel#omrss",
-        "title": "LIVE! Leverkusen nach Villarreal-Patzer auf Play-off-Kurs - Guirassy trifft Ball nicht richtig - Bischof-Freistoß an die Latte",
+        "id": "https://www.kicker.de/live-tillman-doppelpack-leverkusen-auf-play-off-kurs-bayern-und-dortmund-tun-sich-schwer-1187664/artikel#omrss",
+        "title": "LIVE! Tillman-Doppelpack: Leverkusen auf Play-off-Kurs - Bayern und Dortmund tun sich schwer",
         "summary": "Der letzte Vorrunden-Spieltag in der Champions League steht an, alle 36 Teams sind gleichzeitig im Einsatz. Für Bayern und Frankfurt geht es um nichts mehr, Dortmund und Leverkusen kämpfen derweil noch um die Play-offs sowie das direkte Achtelfinale.",
         "paragraphs": [
           "Der letzte Vorrunden-Spieltag in der Champions League steht an, alle 36 Teams sind gleichzeitig im Einsatz. Für Bayern und Frankfurt geht es um nichts mehr, Dortmund und Leverkusen kämpfen derweil noch um die Play-offs sowie das direkte Achtelfinale."
         ],
-        "link": "https://www.kicker.de/live-leverkusen-nach-villarreal-patzer-auf-play-off-kurs-guirassy-trifft-ball-nicht-richtig-bischof-freistoss-an-die-latte-1187664/artikel#omrss",
+        "link": "https://www.kicker.de/live-tillman-doppelpack-leverkusen-auf-play-off-kurs-bayern-und-dortmund-tun-sich-schwer-1187664/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-28T18:53:45.000Z"
       },
@@ -643,31 +665,20 @@
         "link": "https://www.kicker.de/nhl-ticker-reges-wechseltreiben-in-new-york-samanski-mit-debuet-1030078/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-28T17:44:57.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "title": "Diaby vor Europa-Rückkehr - Braunschweig gibt Szabo ab - Chelseas Millionenpoker mit Rennes",
-        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
-        "paragraphs": [
-          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
-        ],
-        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-28T17:41:04.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/enttaeuschung-in-schermbeck-sind-so-weit-von-unserem-ziel-entfernt-1188322/artikel#omrss",
-        "title": "Enttäuschung in Schermbeck: \"Sind so weit von unserem Ziel entfernt\"",
-        "summary": "Der SV Schermbeck 2020 hat die Hinrunde hinter den Erwartungen abgeschlossen. In der Rückrunde sollen mit gezielten Wintertransfers die Weichen für den Klassenerhalt gestellt werden.",
-        "paragraphs": [
-          "Der SV Schermbeck 2020 hat die Hinrunde hinter den Erwartungen abgeschlossen. In der Rückrunde sollen mit gezielten Wintertransfers die Weichen für den Klassenerhalt gestellt werden."
-        ],
-        "link": "https://www.kicker.de/enttaeuschung-in-schermbeck-sind-so-weit-von-unserem-ziel-entfernt-1188322/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-28T17:39:07.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/XFELO-Neues-Lasersystem-am-European-XFEL-erzeugt-superscharfes-Roentgenlicht-11157592.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "XFELO: Neues Lasersystem am European XFEL erzeugt superscharfes Röntgenlicht",
+        "summary": "Hamburger Forscher haben ein System entwickelt, mit dem am European X-Ray Free-Electron Laser bessere Röntgenpulse erzeugt werden. Es winken neue Erkenntnisse.",
+        "paragraphs": [
+          "Hamburger Forscher haben ein System entwickelt, mit dem am European X-Ray Free-Electron Laser bessere Röntgenpulse erzeugt werden. Es winken neue Erkenntnisse."
+        ],
+        "link": "https://www.heise.de/news/XFELO-Neues-Lasersystem-am-European-XFEL-erzeugt-superscharfes-Roentgenlicht-11157592.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-28T20:30:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Falscher-Empfaenger-Millionen-Bussgeld-gegen-Telegram-scheitert-vor-Amtsgericht-11157708.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Falscher Empfänger: Millionen-Bußgeld gegen Telegram scheitert vor Amtsgericht",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/OpenStreetMaps-sorgt-sich-Tausende-KI-Bots-erfassen-Daten-11156876.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-28T14:17:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Angriffe-auf-WinRAR-Luecke-laufen-weiter-11157132.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Angriffe auf WinRAR-Lücke laufen weiter",
-        "summary": "Wer WinRAR auf dem Rechner hat, sollte sicherstellen, die jüngste Version zu installieren. Google warnt vor aktiven Angriffen.",
-        "paragraphs": [
-          "Wer WinRAR auf dem Rechner hat, sollte sicherstellen, die jüngste Version zu installieren. Google warnt vor aktiven Angriffen."
-        ],
-        "link": "https://www.heise.de/news/Angriffe-auf-WinRAR-Luecke-laufen-weiter-11157132.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-28T14:09:00.000Z"
       }
     ]
   }
