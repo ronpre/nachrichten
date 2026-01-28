@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-28T23:34:44.689Z",
+  "updatedAt": "2026-01-28T23:47:39.476Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "055e25c1-1aaf-4f58-b2f5-4150ab6ec22a",
+        "title": "Tesla schließt erstmals ein Jahr mit Umsatzrückgang ab",
+        "summary": "Der von Elon Musk geführte Konzern Tesla leidet unter der rückläufigen Nachfrage nach seinen E-Autos. Der Umsatz ging im vergangenen Jahr spürbar zurück, im vierten Quartal sackte der Gewinn um 61 Prozent ab.",
+        "paragraphs": [
+          "Der von Elon Musk geführte Konzern Tesla leidet unter der rückläufigen Nachfrage nach seinen E-Autos. Der Umsatz ging im vergangenen Jahr spürbar zurück, im vierten Quartal sackte der Gewinn um 61 Prozent ab."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/unternehmen/tesla-schliesst-erstmals-ein-jahr-mit-umsatzrueckgang-ab-a-055e25c1-1aaf-4f58-b2f5-4150ab6ec22a#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-28T23:42:00.000Z"
+      },
       {
         "id": "{urn:uuid:f1c6cd1b-a77a-4f5b-b564-95bde0f6bf0d}",
         "title": "E-Auto-Hersteller: Tesla schließt erstmals ein Jahr mit Umsatzrückgang ab",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/energie/energie-umweltminister-warnt-vor-teuren-kehrtwenden-im-klimaschutz/100192826.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-28T16:54:55.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/eurobonds-noch-mehr-gemeinschaftsschulden-die-spd-ruettelt-an-einem-tabu/100195441.html",
-        "title": "Eurobonds: Darf die EU noch mehr Schulden anhäufen? Die SPD rüttelt an einem Tabu",
-        "summary": "Nach Drohungen des US-Präsidenten gegen Grönland lässt die SPD die Debatte um EU-Schulden neu aufleben. Die Bundesbank steht an ihrer Seite, doch der Koalitionspartner ist strikt dagegen.",
-        "paragraphs": [
-          "Nach Drohungen des US-Präsidenten gegen Grönland lässt die SPD die Debatte um EU-Schulden neu aufleben. Die Bundesbank steht an ihrer Seite, doch der Koalitionspartner ist strikt dagegen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/eurobonds-noch-mehr-gemeinschaftsschulden-die-spd-ruettelt-an-einem-tabu/100195441.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-28T16:53:17.000Z"
       }
     ],
     "politik": [
@@ -447,15 +447,70 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/musiala-knaller-und-urbig-ueberragend-der-bayern-sieg-im-video-1188623/video#omrss",
-        "title": "Musiala-Knaller und Urbig überragend: Der Bayern-Sieg im Video",
+        "id": "https://www.kicker.de/kovac-bemaengelt-zu-viel-respekt-lob-fuer-cl-debuetant-mane-1188596/artikel#omrss",
+        "title": "Kovac bemängelt \"zu viel Respekt\" - Lob für CL-Debütant Mane",
+        "summary": "Die Ligaphase in der Champions League endete für Borussia Dortmund am Mittwochabend mit der ersten Heimniederlage 2025/26. Neben Selbstkritik gab es beim BVB auch Lob für ein Debüt in der Königsklasse.",
+        "paragraphs": [
+          "Die Ligaphase in der Champions League endete für Borussia Dortmund am Mittwochabend mit der ersten Heimniederlage 2025/26. Neben Selbstkritik gab es beim BVB auch Lob für ein Debüt in der Königsklasse."
+        ],
+        "link": "https://www.kicker.de/kovac-bemaengelt-zu-viel-respekt-lob-fuer-cl-debuetant-mane-1188596/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-28T23:33:39.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kein-riera-debuet-schmitt-coacht-frankfurt-auch-gegen-leverkusen-1188606/artikel#omrss",
+        "title": "Kein Riera-Debüt: Schmitt coacht Frankfurt auch gegen Leverkusen",
+        "summary": "Zum Abschluss der Champions-League-Ligaphase hat Eintracht Frankfurt die dritte Niederlage unter Dennis Schmitt kassiert. Auch im kommenden Heimspiel gegen Bayer 04 Leverkusen wird der Interimstrainer die SGE betreuen.",
+        "paragraphs": [
+          "Zum Abschluss der Champions-League-Ligaphase hat Eintracht Frankfurt die dritte Niederlage unter Dennis Schmitt kassiert. Auch im kommenden Heimspiel gegen Bayer 04 Leverkusen wird der Interimstrainer die SGE betreuen."
+        ],
+        "link": "https://www.kicker.de/kein-riera-debuet-schmitt-coacht-frankfurt-auch-gegen-leverkusen-1188606/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-28T23:30:30.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mourinho-nach-der-trubin-ekstase-wir-wussten-dass-er-es-kann-wir-wussten-es-1188592/artikel#omrss",
+        "title": "Mourinho nach der Trubin-Ekstase: \"Wir wussten, dass er es kann - wir wussten es!\"",
+        "summary": "Mehr Drama, mehr Thrill hätte sich die UEFA gar nicht für diesen Mittwochabend und speziell für das allerletzte noch laufende Spiel zwischen Benfica Lissabon und Real Madrid ausdenken können. Mittendrin: platzverweis-gebeutelte Madrilenen und ein zunächst auf Zeit spielender Torwart.",
+        "paragraphs": [
+          "Mehr Drama, mehr Thrill hätte sich die UEFA gar nicht für diesen Mittwochabend und speziell für das allerletzte noch laufende Spiel zwischen Benfica Lissabon und Real Madrid ausdenken können. Mittendrin: platzverweis-gebeutelte Madrilenen und ein zunächst auf Zeit spielender Torwart."
+        ],
+        "link": "https://www.kicker.de/mourinho-nach-der-trubin-ekstase-wir-wussten-dass-er-es-kann-wir-wussten-es-1188592/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-28T23:30:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/musiala-knaller-und-ueberragender-urbig-der-bayern-sieg-im-video-1188623/video#omrss",
+        "title": "Musiala-Knaller und überragender Urbig: Der Bayern-Sieg im Video",
         "summary": "Der FC Bayern München gewann am 8. Spieltag der Champions League mit 2:1 gegen PSV Eindhoven. Die Highlights der Partie gibt es hier im Video.",
         "paragraphs": [
           "Der FC Bayern München gewann am 8. Spieltag der Champions League mit 2:1 gegen PSV Eindhoven. Die Highlights der Partie gibt es hier im Video."
         ],
-        "link": "https://www.kicker.de/musiala-knaller-und-urbig-ueberragend-der-bayern-sieg-im-video-1188623/video#omrss",
+        "link": "https://www.kicker.de/musiala-knaller-und-ueberragender-urbig-der-bayern-sieg-im-video-1188623/video#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-28T23:26:49.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mbappe-schlaegt-alarm-uns-fehlt-ein-bisschen-von-allem-1188603/artikel#omrss",
+        "title": "Mbappé schlägt Alarm: \"Uns fehlt ein bisschen von allem\"",
+        "summary": "Real Madrid hat am Mittwoch mit 2:4 bei Benfica verloren, rutschte in der Champions League von Rang 3 auf 9 ab und muss nun in die Play-offs. Kylian Mbappé wählte anschließend deutliche Worte.",
+        "paragraphs": [
+          "Real Madrid hat am Mittwoch mit 2:4 bei Benfica verloren, rutschte in der Champions League von Rang 3 auf 9 ab und muss nun in die Play-offs. Kylian Mbappé wählte anschließend deutliche Worte."
+        ],
+        "link": "https://www.kicker.de/mbappe-schlaegt-alarm-uns-fehlt-ein-bisschen-von-allem-1188603/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-28T23:23:28.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/dominante-premier-league-bundesliga-haelt-schritt-fakten-zur-cl-tabelle-1188598/artikel#omrss",
+        "title": "Dominante Premier League, Bundesliga hält Schritt: Fakten zur CL-Tabelle",
+        "summary": "Die Ligaphase in der Champions League bot auch in diesem Jahr ein packendes Finale. Am letzten Spieltag der Vorrunde gab es in der Tabelle reichlich Bewegung. Was hat sich getan im Vergleich zur Vorsaison?",
+        "paragraphs": [
+          "Die Ligaphase in der Champions League bot auch in diesem Jahr ein packendes Finale. Am letzten Spieltag der Vorrunde gab es in der Tabelle reichlich Bewegung. Was hat sich getan im Vergleich zur Vorsaison?"
+        ],
+        "link": "https://www.kicker.de/dominante-premier-league-bundesliga-haelt-schritt-fakten-zur-cl-tabelle-1188598/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-28T23:17:56.000Z"
       },
       {
         "id": "c3783ac5-120b-4d40-9039-7bc2cf15729c",
@@ -610,61 +665,6 @@
         "link": "https://www.sueddeutsche.de/sport/handball-em-2026-spielplan-hauptrunde-spiele-termine-deutschland-halbfinale-li.3352889",
         "source": "Sueddeutsche",
         "publishedAt": "2026-01-28T21:32:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hiobsbotschaft-fuer-werder-pieper-fehlt-wochenlang-1188510/artikel#omrss",
-        "title": "Hiobsbotschaft für Werder: Pieper fehlt wochenlang",
-        "summary": "Der SV Werder Bremen hat große Verletzungssorgen in der Defensive. Nun fällt auch noch Amos Pieper für mehrere Wochen aus.",
-        "paragraphs": [
-          "Der SV Werder Bremen hat große Verletzungssorgen in der Defensive. Nun fällt auch noch Amos Pieper für mehrere Wochen aus."
-        ],
-        "link": "https://www.kicker.de/hiobsbotschaft-fuer-werder-pieper-fehlt-wochenlang-1188510/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-28T21:22:44.000Z"
-      },
-      {
-        "id": "{urn:uuid:e05817f6-7f6d-452d-888c-21dd5e132227}",
-        "title": "Handball-EM: Deutsche Handballer ziehen ins EM-Halbfinale ein",
-        "summary": "Im entscheidenden EM-Hauptrundenspiel setzt sich die DHB-Auswahl gegen die Titelverteidiger aus Frankreich durch. Im Halbfinale tritt sie gegen Kroatien an.",
-        "paragraphs": [
-          "Im entscheidenden EM-Hauptrundenspiel setzt sich die DHB-Auswahl gegen die Titelverteidiger aus Frankreich durch. Im Halbfinale tritt sie gegen Kroatien an."
-        ],
-        "link": "https://www.zeit.de/sport/2026-01/deutsche-handballer-ziehen-ins-em-halbfinale-ein",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-28T21:07:51.000Z"
-      },
-      {
-        "id": "{urn:uuid:afc911f9-0525-4378-bed5-70a718c71b4c}",
-        "title": "Ostderby: Erste Festnahme nach Ausschreitungen bei Ostderby in Magdeburg",
-        "summary": "Am Wochenende haben Fußballfans bei dem Zweitligaspiel FC Magdeburg gegen Dynamo Dresden 70 Polizisten verletzt. Ein mutmaßlicher Täter wurde nun ermittelt.",
-        "paragraphs": [
-          "Am Wochenende haben Fußballfans bei dem Zweitligaspiel FC Magdeburg gegen Dynamo Dresden 70 Polizisten verletzt. Ein mutmaßlicher Täter wurde nun ermittelt."
-        ],
-        "link": "https://www.zeit.de/sport/2026-01/ausschreitungen-fussballspiel-fc-magdeburg-dynamo-dresden-festnahme",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-28T21:05:05.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ausgerechnet-sigurdsson-kroatien-ist-deutschlands-halbfinal-gegner-1188442/artikel#omrss",
-        "title": "Ausgerechnet Sigurdsson: Kroatien ist Deutschlands Halbfinal-Gegner",
-        "summary": "Im Halbfinale der Handball-EM trifft die deutsche Nationalmannschaft auf Kroatien. Der Vize-Europameister von 2020 war letzter DHB-Testgegner vor dem Turnier - und hat einen besonderen Trainer.",
-        "paragraphs": [
-          "Im Halbfinale der Handball-EM trifft die deutsche Nationalmannschaft auf Kroatien. Der Vize-Europameister von 2020 war letzter DHB-Testgegner vor dem Turnier - und hat einen besonderen Trainer."
-        ],
-        "link": "https://www.kicker.de/ausgerechnet-sigurdsson-kroatien-ist-deutschlands-halbfinal-gegner-1188442/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-28T21:00:31.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/daenemark-gegen-norwegen-2026-handball-em-5189079/spielbericht#omrss",
-        "title": "Dänemark holt Gruppensieg bei Arnoldsen-Comeback gegen Norwegen",
-        "summary": "90% reichten Dänemark gegen Norwegen aus. Nach einer ausgeglichenen ersten Hälfte enteilten die Hausherren nach der Pause Tor um Tor und sicherten sich mit einem lockeren 38:24-Erfolg schließlich den Gruppensieg. Damit stehen auch die Halbfinal-Paarungen fest.",
-        "paragraphs": [
-          "90% reichten Dänemark gegen Norwegen aus. Nach einer ausgeglichenen ersten Hälfte enteilten die Hausherren nach der Pause Tor um Tor und sicherten sich mit einem lockeren 38:24-Erfolg schließlich den Gruppensieg. Damit stehen auch die Halbfinal-Paarungen fest."
-        ],
-        "link": "https://www.kicker.de/daenemark-gegen-norwegen-2026-handball-em-5189079/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-28T21:00:07.000Z"
       }
     ],
     "edv": [
