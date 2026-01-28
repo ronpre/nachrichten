@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-28T19:35:53.012Z",
+  "updatedAt": "2026-01-28T19:48:59.162Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:3f6bbe61-c979-4ac7-9199-ff515df466d5}",
+        "title": "Jahreswirtschaftsbericht: Ein kleines bisschen Optimismus",
+        "summary": "Wirtschaftsministerin Katharina Reiche muss die Wachstumsprognose kassieren, einen winzigen Aufschwung gibt es aber - und Hoffnung, dass die Wirtschaftswende klappt.",
+        "paragraphs": [
+          "Wirtschaftsministerin Katharina Reiche muss die Wachstumsprognose kassieren, einen winzigen Aufschwung gibt es aber - und Hoffnung, dass die Wirtschaftswende klappt."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/jahreswirtschaftsbericht-katherina-reiche-wachstumsprognose-sozialreformen-steuern",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-28T19:38:24.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/geldpolitik/federal-reserve-us-notenbank-legt-zinspause-ein-leitzins-bleibt-unveraendert/100194187.html",
         "title": "Federal Reserve: US-Notenbank legt Zinspause ein – Leitzins bleibt unverändert",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/unternehmen/energie/energie-covestro-sieht-riesige-wachstumsdynamik-in-europa/100192823.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-28T16:03:36.000Z"
-      },
-      {
-        "id": "{urn:uuid:ca5d8fd4-181d-41c6-8cab-3f4f880888e9}",
-        "title": "Konjunktur: Bundesregierung senkt Wachstumsprognose für 2026 und 2027",
-        "summary": "Die Regierung muss ihre Erwartungen an die Konjunktur senken: In diesem Jahr geht sie von nur noch einem Prozent Wachstum aus – größtenteils schuldenfinanziert.",
-        "paragraphs": [
-          "Die Regierung muss ihre Erwartungen an die Konjunktur senken: In diesem Jahr geht sie von nur noch einem Prozent Wachstum aus – größtenteils schuldenfinanziert."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/konjunktur-wirtschaftswachstum-prognose-bundesregierung",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-28T15:59:54.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,28 @@
     ],
     "sport": [
       {
+        "id": "baaad42d-22a1-4bc1-bec4-4d7228984b14",
+        "title": "Deutschland im EM-Halbfinale nach Sieg über Frankreich: Knorrs Explosion",
+        "summary": "Deutschland steht im Halbfinale der Handball-EM. Beim Sieg über Frankreich ragte der lange kritisierte Spielmacher Juri Knorr heraus. Vielleicht half ihm dabei auch sein Aberglaube und eine besondere Aktion vor dem Spiel.",
+        "paragraphs": [
+          "Deutschland steht im Halbfinale der Handball-EM. Beim Sieg über Frankreich ragte der lange kritisierte Spielmacher Juri Knorr heraus. Vielleicht half ihm dabei auch sein Aberglaube und eine besondere Aktion vor dem Spiel."
+        ],
+        "link": "https://www.spiegel.de/sport/handball/deutschland-im-em-halbfinale-nach-sieg-ueber-frankreich-knorrs-explosion-a-baaad42d-22a1-4bc1-bec4-4d7228984b14#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-01-28T19:32:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-daenemark-entscheidet-wer-wird-deutscher-halbfinal-gegner-1188433/artikel#omrss",
+        "title": "LIVE! Dänemark entscheidet: Wer wird deutscher Halbfinal-Gegner?",
+        "summary": "Am frühen Mittwochabend ist die deutsche Handball-Nationalmannschaft ins EM-Halbfinale eingezogen. Doch wer wird ihr Gegner? Das entscheidet am Abend Gastgeber Dänemark. Island und Kroatien stehen zur \"Auswahl\".",
+        "paragraphs": [
+          "Am frühen Mittwochabend ist die deutsche Handball-Nationalmannschaft ins EM-Halbfinale eingezogen. Doch wer wird ihr Gegner? Das entscheidet am Abend Gastgeber Dänemark. Island und Kroatien stehen zur \"Auswahl\"."
+        ],
+        "link": "https://www.kicker.de/live-daenemark-entscheidet-wer-wird-deutscher-halbfinal-gegner-1188433/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-28T19:31:11.000Z"
+      },
+      {
         "id": "https://www.kicker.de/wegen-transfererloes-scholze-verlaesst-ulm-richtung-portugal-1188418/artikel#omrss",
         "title": "Wegen Transfererlös: Scholze verlässt Ulm Richtung Portugal",
         "summary": "Mit Max Scholze verpflichtet der portugiesische Erstligist Estrela Amadora einen weiteren Profi aus der 3. Liga. Aus Ulmer Sicht hat der Wechsel hauptsächlich finanzielle Gründe.",
@@ -643,28 +665,6 @@
         "link": "https://www.kicker.de/96-coach-titz-ueber-die-rueckkehr-nach-magdeburg-und-ein-gespraech-mit-bundu-1188379/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-28T16:43:10.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/olise-droht-sperre-fuers-achtelfinale-1188124/artikel#omrss",
-        "title": "Olise droht Sperre fürs Achtelfinale",
-        "summary": "Erst am Mittwoch will Vincent Kompany entscheiden, wie er gegen die PSV Eindhoven aufstellt. Ob der Trainer über eine Pause für Michael Olise nachdenkt? Eine Gelbe Karte für den Franzosen hätte Folgen.",
-        "paragraphs": [
-          "Erst am Mittwoch will Vincent Kompany entscheiden, wie er gegen die PSV Eindhoven aufstellt. Ob der Trainer über eine Pause für Michael Olise nachdenkt? Eine Gelbe Karte für den Franzosen hätte Folgen."
-        ],
-        "link": "https://www.kicker.de/olise-droht-sperre-fuers-achtelfinale-1188124/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-28T16:41:20.000Z"
-      },
-      {
-        "id": "d7377775-e8fd-40f5-82e4-108c5e1fe8c6",
-        "title": "Handball-EM 2026: Deutschlands Sieg gegen Frankreich im Minutenprotokoll",
-        "summary": "Am Ende war es wieder ein Krimi. Die DHB-Auswahl bezwingt Frankreich 38:34 und steht im EM-Halbfinale. Hier finden Sie das Minutenprotokoll und drei Erkenntnisse vor der nächsten Runde.",
-        "paragraphs": [
-          "Am Ende war es wieder ein Krimi. Die DHB-Auswahl bezwingt Frankreich 38:34 und steht im EM-Halbfinale. Hier finden Sie das Minutenprotokoll und drei Erkenntnisse vor der nächsten Runde."
-        ],
-        "link": "https://www.spiegel.de/sport/handball/handball-em-2026-deutschland-gegen-frankreich-im-liveticker-a-d7377775-e8fd-40f5-82e4-108c5e1fe8c6#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-01-28T16:41:00.000Z"
       }
     ],
     "edv": [
