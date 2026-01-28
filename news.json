@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-28T15:44:53.179Z",
+  "updatedAt": "2026-01-28T16:00:42.177Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:ec412b60-086d-47bb-b616-5fbb8582ff11}",
+        "title": "Reformpaket der Bundesregierung: Ein großer Wurf für alles und jeden",
+        "summary": "Die Regierung arbeitet an einem Reformkonzept, das die Koalition befrieden und das Land voranbringen soll. Fraglich ist, ob das zusammenpasst.",
+        "paragraphs": [
+          "Die Regierung arbeitet an einem Reformkonzept, das die Koalition befrieden und das Land voranbringen soll. Fraglich ist, ob das zusammenpasst."
+        ],
+        "link": "https://www.zeit.de/2026/05/reformpaket-bundesregierung-sozialstaat-leistung-kuerzungen",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-28T15:47:25.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/usa-wie-die-einwanderungsbehoerde-ice-zur-gefahr-fuer-unternehmen-wird/100194469.html",
         "title": "USA: Wirtschaftshemmnis ICE - Wie die US-Einwanderungsbehörde zur Gefahr für Unternehmen wird",
@@ -210,17 +221,6 @@
         "link": "https://www.zeit.de/wirtschaft/2026-01/bka-durchsucht-deutsche-bank-wegen-geldwaesche-verdachts",
         "source": "ZEIT",
         "publishedAt": "2026-01-28T14:32:22.000Z"
-      },
-      {
-        "id": "{urn:uuid:ca5d8fd4-181d-41c6-8cab-3f4f880888e9}",
-        "title": "Konjunktur: Bundesregierung senkt Wachstumsprognose für 2026",
-        "summary": "Die Regierung muss ihre Erwartungen an die Konjunktur senken: In diesem Jahr geht sie von nur noch einem Prozent Wachstum aus – größtenteils schuldenfinanziert.",
-        "paragraphs": [
-          "Die Regierung muss ihre Erwartungen an die Konjunktur senken: In diesem Jahr geht sie von nur noch einem Prozent Wachstum aus – größtenteils schuldenfinanziert."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/konjunktur-wirtschaftswachstum-prognose-bundesregierung",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-28T14:31:18.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/ilzer-das-war-kein-brutales-foul-1188318/artikel#omrss",
+        "title": "Ilzer: \"Das war kein brutales Foul\"",
+        "summary": "Hoffenheims Niederländer Wouter Burger handelt sich in Bremen einen Platzverweis ein, die Kollegen fangen den Verlust auf und hoffen nun auf eine mildes Strafmaß.",
+        "paragraphs": [
+          "Hoffenheims Niederländer Wouter Burger handelt sich in Bremen einen Platzverweis ein, die Kollegen fangen den Verlust auf und hoffen nun auf eine mildes Strafmaß."
+        ],
+        "link": "https://www.kicker.de/ilzer-das-war-kein-brutales-foul-1188318/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-28T15:51:14.000Z"
+      },
+      {
+        "id": "{urn:uuid:72eb62df-de07-40e1-b003-95b3831e194c}",
+        "title": "Fußball: Internationale Transfers erreichen Höchstwert von elf Milliarden Euro",
+        "summary": "86.158 Transfers – so viele gab es im Fußball noch nie. Für Spielerwechsel wurden 2025 elf Milliarden Euro ausgegeben. Deutschland steuerte etwa eine Milliarde Euro bei.",
+        "paragraphs": [
+          "86.158 Transfers – so viele gab es im Fußball noch nie. Für Spielerwechsel wurden 2025 elf Milliarden Euro ausgegeben. Deutschland steuerte etwa eine Milliarde Euro bei."
+        ],
+        "link": "https://www.zeit.de/sport/2026-01/fussball-transfermarkt-hoechstwert-elf-milliarden-euro",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-28T15:43:51.000Z"
+      },
+      {
+        "id": "li.3376695",
+        "title": "Aston Villa: „Mister Europa League“ liefert erneut",
+        "summary": "Mit Trainer Unai Emery ist Aston Villa zum echten Spitzenteam geworden. In der Premier League befindet sich der Klub überraschend im Rennen um die Meisterschaft – und ist auch in Emerys Lieblingswettbewerb auf Kurs.",
+        "paragraphs": [
+          "Mit Trainer Unai Emery ist Aston Villa zum echten Spitzenteam geworden. In der Premier League befindet sich der Klub überraschend im Rennen um die Meisterschaft – und ist auch in Emerys Lieblingswettbewerb auf Kurs."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/aston-villa-unai-emery-trainer-li.3376695",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-01-28T15:40:29.000Z"
+      },
+      {
         "id": "https://www.kicker.de/auslosung-und-turnierbaum-so-geht-es-nach-der-champions-league-ligaphase-weiter-1187674/artikel#omrss",
         "title": "Auslosung und Turnierbaum: So geht es nach der Champions-League-Ligaphase weiter",
         "summary": "Die Ligaphase der Champions League endet am Mittwoch. Was kommt auf die verbliebenen Teams danach zu? Die wichtigsten Fragen und Antworten.",
@@ -632,42 +665,20 @@
         "link": "https://www.kicker.de/fast-drei-stunden-warum-das-zdf-heute-eine-xxl-sendung-anbietet-1188288/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-28T13:00:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ski-weltcup-in-crans-montana-der-ort-braucht-diese-rennen-1188289/artikel#omrss",
-        "title": "Ski-Weltcup in Crans-Montana: \"Der Ort braucht diese Rennen\"",
-        "summary": "Ein verheerender Brand tötet in Crans-Montana 40 Menschen und verletzt viele Dutzende mehr. Wenige Wochen danach steigen dort Skirennen. Was bedeutet das vor allem für die Schweizer Athleten?",
-        "paragraphs": [
-          "Ein verheerender Brand tötet in Crans-Montana 40 Menschen und verletzt viele Dutzende mehr. Wenige Wochen danach steigen dort Skirennen. Was bedeutet das vor allem für die Schweizer Athleten?"
-        ],
-        "link": "https://www.kicker.de/ski-weltcup-in-crans-montana-der-ort-braucht-diese-rennen-1188289/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-28T12:56:49.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ulbricht-bleibt-trotz-angeboten-in-meppen-leihspieler-kurz-vor-unterschrift-1188249/artikel#omrss",
-        "title": "Ulbricht bleibt trotz Angeboten in Meppen - Leihspieler kurz vor Unterschrift",
-        "summary": "Vor dem Wintertrainingslager soll noch ein Leihspieler zum Regionalliga-Spitzenreiter SV Meppen kommen und die Qualität weiter heben. Torjäger Julian Ulbricht bleibt trotz Angeboten und arbeitet an seinem Comeback.",
-        "paragraphs": [
-          "Vor dem Wintertrainingslager soll noch ein Leihspieler zum Regionalliga-Spitzenreiter SV Meppen kommen und die Qualität weiter heben. Torjäger Julian Ulbricht bleibt trotz Angeboten und arbeitet an seinem Comeback."
-        ],
-        "link": "https://www.kicker.de/ulbricht-bleibt-trotz-angeboten-in-meppen-leihspieler-kurz-vor-unterschrift-1188249/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-28T12:55:31.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vorsicht-wie-der-kalte-februar-fuer-bremen-schnell-zu-einem-heissen-werden-koennte-1188306/video#omrss",
-        "title": "\"Vorsicht\": Wie der kalte Februar für Bremen schnell zu einem heißen werden könnte",
-        "summary": "kicker-Reporter Michael Richter warnt, dass Werder die anstehende Partie gegen Gladbach, aber auch alle weiteren Partien nicht auf die leichte Schulter nehmen solle, da es sonst im eigentlich kalten Februar schnell heiß für die Bremer werden könnte.",
-        "paragraphs": [
-          "kicker-Reporter Michael Richter warnt, dass Werder die anstehende Partie gegen Gladbach, aber auch alle weiteren Partien nicht auf die leichte Schulter nehmen solle, da es sonst im eigentlich kalten Februar schnell heiß für die Bremer werden könnte."
-        ],
-        "link": "https://www.kicker.de/vorsicht-wie-der-kalte-februar-fuer-bremen-schnell-zu-einem-heissen-werden-koennte-1188306/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-28T12:40:12.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Besserer-Schutz-fuer-Android-Geraete-Google-fuehrt-neue-Sicherheitsfeatures-ein-11157318.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Besserer Schutz für Android-Geräte: Google führt neue Sicherheitsfeatures ein",
+        "summary": "Google sichert Android-Smartphones vor unberechtigten Zugriffen etwa bei Diebstahl weiter ab. Der Konzern hat dafür neue Funktionen angekündigt.",
+        "paragraphs": [
+          "Google sichert Android-Smartphones vor unberechtigten Zugriffen etwa bei Diebstahl weiter ab. Der Konzern hat dafür neue Funktionen angekündigt."
+        ],
+        "link": "https://www.heise.de/news/Besserer-Schutz-fuer-Android-Geraete-Google-fuehrt-neue-Sicherheitsfeatures-ein-11157318.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-28T15:49:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Kotlin-Entwicklung-JetBrains-veroeffentlicht-Exposed-1-0-und-Ktor-3-4-11157196.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Kotlin-Entwicklung: JetBrains veröffentlicht Exposed 1.0 und Ktor 3.4",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Amazon-streicht-weitere-16-000-Jobs-11157124.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-28T12:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/tests/Airfryer-Cosori-Iconic-mit-App-Anbindung-im-Test-10636459.html",
-        "title": "heise+ | Airfryer Cosori Iconic mit App-Anbindung im Test",
-        "summary": "Der stylische Cosori Iconic soll Heißluftfritteusen ein neues Image geben. Doch rechtfertigen App und Technik den hohen Preis?",
-        "paragraphs": [
-          "Der stylische Cosori Iconic soll Heißluftfritteusen ein neues Image geben. Doch rechtfertigen App und Technik den hohen Preis?"
-        ],
-        "link": "https://www.heise.de/tests/Airfryer-Cosori-Iconic-mit-App-Anbindung-im-Test-10636459.html",
-        "source": "c't",
-        "publishedAt": "2026-01-28T12:00:00.000Z"
       }
     ]
   }
