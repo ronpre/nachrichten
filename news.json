@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-01-28T19:48:59.162Z",
+  "updatedAt": "2026-01-28T19:59:04.903Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:768feb72-de04-4588-8edc-8a8ec9c012b7}",
+        "title": "Federal Reserve: US-Notenbank hält Leitzins stabil",
+        "summary": "Die Federal Reserve hat den Leitzins in den USA zuletzt schrittweise gesenkt. Nach drei Senkungen bleibt er jetzt aber unverändert. Experten hatten damit gerechnet.",
+        "paragraphs": [
+          "Die Federal Reserve hat den Leitzins in den USA zuletzt schrittweise gesenkt. Nach drei Senkungen bleibt er jetzt aber unverändert. Experten hatten damit gerechnet."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-01/us-notenbank-leitzins-unveraendert",
+        "source": "ZEIT",
+        "publishedAt": "2026-01-28T19:47:10.000Z"
+      },
       {
         "id": "{urn:uuid:3f6bbe61-c979-4ac7-9199-ff515df466d5}",
         "title": "Jahreswirtschaftsbericht: Ein kleines bisschen Optimismus",
@@ -22,18 +33,7 @@
         ],
         "link": "https://www.handelsblatt.com/finanzen/geldpolitik/federal-reserve-us-notenbank-legt-zinspause-ein-leitzins-bleibt-unveraendert/100194187.html",
         "source": "Handelsblatt",
-        "publishedAt": "2026-01-28T19:22:57.000Z"
-      },
-      {
-        "id": "{urn:uuid:768feb72-de04-4588-8edc-8a8ec9c012b7}",
-        "title": "Federal Reserve: US-Notenbank hält Leitzins stabil",
-        "summary": "Die Federal Reserve hat den Leitzins in den USA zuletzt schrittweise gesenkt. Nach drei Senkungen bleibt er jetzt aber unverändert. Experten hatten damit gerechnet.",
-        "paragraphs": [
-          "Die Federal Reserve hat den Leitzins in den USA zuletzt schrittweise gesenkt. Nach drei Senkungen bleibt er jetzt aber unverändert. Experten hatten damit gerechnet."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-01/us-notenbank-leitzins-unveraendert",
-        "source": "ZEIT",
-        "publishedAt": "2026-01-28T19:17:20.000Z"
+        "publishedAt": "2026-01-28T19:35:54.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-stagnieren-nach-sp-rekord-zinspause-folgt-erwartungen/100195565.html",
@@ -458,17 +458,6 @@
         "publishedAt": "2026-01-28T19:32:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-daenemark-entscheidet-wer-wird-deutscher-halbfinal-gegner-1188433/artikel#omrss",
-        "title": "LIVE! Dänemark entscheidet: Wer wird deutscher Halbfinal-Gegner?",
-        "summary": "Am frühen Mittwochabend ist die deutsche Handball-Nationalmannschaft ins EM-Halbfinale eingezogen. Doch wer wird ihr Gegner? Das entscheidet am Abend Gastgeber Dänemark. Island und Kroatien stehen zur \"Auswahl\".",
-        "paragraphs": [
-          "Am frühen Mittwochabend ist die deutsche Handball-Nationalmannschaft ins EM-Halbfinale eingezogen. Doch wer wird ihr Gegner? Das entscheidet am Abend Gastgeber Dänemark. Island und Kroatien stehen zur \"Auswahl\"."
-        ],
-        "link": "https://www.kicker.de/live-daenemark-entscheidet-wer-wird-deutscher-halbfinal-gegner-1188433/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-01-28T19:31:11.000Z"
-      },
-      {
         "id": "https://www.kicker.de/wegen-transfererloes-scholze-verlaesst-ulm-richtung-portugal-1188418/artikel#omrss",
         "title": "Wegen Transfererlös: Scholze verlässt Ulm Richtung Portugal",
         "summary": "Mit Max Scholze verpflichtet der portugiesische Erstligist Estrela Amadora einen weiteren Profi aus der 3. Liga. Aus Ulmer Sicht hat der Wechsel hauptsächlich finanzielle Gründe.",
@@ -665,6 +654,17 @@
         "link": "https://www.kicker.de/96-coach-titz-ueber-die-rueckkehr-nach-magdeburg-und-ein-gespraech-mit-bundu-1188379/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-01-28T16:43:10.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/olise-droht-sperre-fuers-achtelfinale-1188124/artikel#omrss",
+        "title": "Olise droht Sperre fürs Achtelfinale",
+        "summary": "Erst am Mittwoch will Vincent Kompany entscheiden, wie er gegen die PSV Eindhoven aufstellt. Ob der Trainer über eine Pause für Michael Olise nachdenkt? Eine Gelbe Karte für den Franzosen hätte Folgen.",
+        "paragraphs": [
+          "Erst am Mittwoch will Vincent Kompany entscheiden, wie er gegen die PSV Eindhoven aufstellt. Ob der Trainer über eine Pause für Michael Olise nachdenkt? Eine Gelbe Karte für den Franzosen hätte Folgen."
+        ],
+        "link": "https://www.kicker.de/olise-droht-sperre-fuers-achtelfinale-1188124/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-01-28T16:41:20.000Z"
       }
     ],
     "edv": [
