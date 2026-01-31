@@ -605,6 +605,108 @@ const CURATED_ARTICLES = [
       "Guernica zeigt, wie Luftkrieg gegen Zivilisten Empörung erzeugt, aber auch gezielte Desinformation hervorbringt – ein Muster moderner Konflikte.",
     presentEcho:
       "Wenn heutige Städte in Syrien oder der Ukraine beschossen werden, greifen Medien und Kunst auf Picassos \"Guernica\" als Mahnmal zurück."
+  },
+  {
+    id: "smithsonian-1958-nasa",
+    title: "1958: Die NASA bündelt die US-Raumfahrt",
+    year: 1958,
+    era: "Space Age",
+    region: "USA",
+    source: "Smithsonian Air & Space",
+    sourceUrl: "https://airandspace.si.edu/stories/editorial/nasa-created",
+    whatHappened:
+      "Nach dem Sputnik-Schock verabschiedete der US-Kongress den National Aeronautics and Space Act und schuf die NASA, die zuvor zersplitterte Forschungsprogramme von NACA, der Army Ballistic Missile Agency und Universitäten vereinte.",
+    immediateImpact:
+      "Die junge Behörde übernahm das Jet Propulsion Laboratory, bündelte Raketenentwicklung unter zivilen Vorzeichen und legte mit Mercury sowie Explorer-Sonden den Grundstock für das bemannte Raumfahrtprogramm.",
+    parallelsAndLessons:
+      "Die Gründung zeigt, dass technologische Aufholprogramme klare Governance, stabile Budgets und Kooperation mit Industriepartnern brauchen, sonst verzetteln sich Parallelprojekte.",
+    presentEcho:
+      "Artemis, kommerzielle Crewflüge und Klima-Missionen nutzen noch immer die NASA-Infrastruktur, während andere Staaten NASA als Vorlage für koordinierte Innovationsagenturen studieren."
+  },
+  {
+    id: "dw-1975-helsinki",
+    title: "1975: Die KSZE-Schlussakte von Helsinki wird unterzeichnet",
+    year: 1975,
+    era: "Kalter Krieg",
+    region: "Europa",
+    source: "Deutsche Welle",
+    sourceUrl: "https://www.dw.com/de/was-die-helsinki-schlussakte-bedeutet/a-58755444",
+    whatHappened:
+      "35 Staaten, darunter USA, UdSSR und alle europäischen Länder außer Albanien, bestätigten in Helsinki Unverletzlichkeit der Grenzen, militärische Vertrauensbildung und einen Menschenrechtskatalog als dritte KSZE-Korb.",
+    immediateImpact:
+      "Oppositionsgruppen in Osteuropa beriefen sich auf die eingegangenen Verpflichtungen, während Rüstungskontrollgespräche neue Inspektionsinstrumente erhielten und Entspannungspolitik institutionell wurde.",
+    parallelsAndLessons:
+      "Die Schlussakte belegt, dass Sicherheitsarchitektur nur trägt, wenn souveräne Gleichheit und Menschenrechte gemeinsam verhandelt werden – reine Machtpolitik bleibt instabil.",
+    presentEcho:
+      "OSZE-Wahlbeobachtungen, Vertrauensbildungsmaßnahmen und aktuelle Debatten über Sicherheitsgarantien für Ukraine und Baltikum referenzieren die Helsinki-Mechanismen."
+  },
+  {
+    id: "economist-1992-maastricht",
+    title: "1992: Der Vertrag von Maastricht begründet die EU",
+    year: 1992,
+    era: "Europäische Integration",
+    region: "Europa",
+    source: "The Economist",
+    sourceUrl: "https://www.economist.com/the-economist-explains/2017/03/27/what-the-maastricht-treaty-did",
+    whatHappened:
+      "Zwölf EG-Mitglieder unterzeichneten im holländischen Maastricht einen Vertragskomplex, der eine Europäische Union mit drei Säulen, einer Wirtschafts- und Währungsunion sowie Kriterien für den Euroeintritt schuf.",
+    immediateImpact:
+      "Nationale Parlamente mussten Konvergenzkriterien umsetzen, Zentralbanken ihre Unabhängigkeit stärken und der neu geschaffene Ausschuss der Regionen band Kommunen enger ein.",
+    parallelsAndLessons:
+      "Maastricht zeigt, dass Integrationsschritte nur legitim sind, wenn demokratische Kontrolle, Rechtsstaatsbindung und fiskalische Disziplin zeitgleich geregelt werden.",
+    presentEcho:
+      "Diskussionen über Reform der EU-Verträge, Beitrittskandidaten oder Schuldenbremsen greifen direkt auf Maastricht-Bestimmungen und ihre Interpretationsspielräume zurück."
+  },
+  {
+    id: "wired-2007-iphone",
+    title: "2007: Das iPhone startet die Smartphone-Ära",
+    year: 2007,
+    era: "Digitale Gegenwart",
+    region: "USA / Welt",
+    source: "WIRED",
+    sourceUrl: "https://www.wired.com/2017/01/iphone-10-years-later/",
+    whatHappened:
+      "Steve Jobs stellte in San Francisco ein Multitouch-Gerät vor, das Mobiltelefon, iPod und minimales Internetgerät kombinierte; Apple öffnete später das iOS-SDK und den App Store.",
+    immediateImpact:
+      "Mobilfunkanbieter mussten Datentarife neu kalkulieren, Zulieferketten für Glas, Sensoren und ARM-Chips expandierten, und Wettbewerber wie Google pivotierten Android zu einem Touch-Betriebssystem.",
+    parallelsAndLessons:
+      "Der Launch zeigt, dass Hardware-Innovationen erst mit Ökosystem-Strategie, Developer-Plattform und klarer UX-Sprache Märkte umkrempeln.",
+    presentEcho:
+      "Bezahldienste, digitale Ausweise und Mobile-First-Strategien im Globalen Süden bauen auf den durch das iPhone etablierten App-Ökosystemen auf."
+  },
+  {
+    id: "guardian-2005-kyoto",
+    title: "2005: Das Kyoto-Protokoll tritt in Kraft",
+    year: 2005,
+    era: "Ökologische Moderne",
+    region: "Welt",
+    source: "The Guardian",
+    sourceUrl: "https://www.theguardian.com/environment/2005/feb/16/kyoto.climatechange",
+    whatHappened:
+      "Nach Ratifikation durch Russland erreichte das Kyoto-Protokoll die benötigte Schwelle und verpflichtete Industriestaaten erstmals völkerrechtlich zu konkreten Emissionsobergrenzen.",
+    immediateImpact:
+      "EU und Japan setzten Emissionshandelssysteme auf, Joint-Implementation- und Clean-Development-Mechanismen investierten in Projekte des Globalen Südens, während die USA außen vor blieben.",
+    parallelsAndLessons:
+      "Kyoto zeigte, dass Klimaregime verlässliche Mess- und Berichtssysteme brauchen und dass Flexibilitätsmechanismen Akzeptanz erhöhen.",
+    presentEcho:
+      "Heute dienen Kyoto-Erfahrungen als Grundlage für Artikel-6-Märkte des Pariser Abkommens und für nationale CO₂-Preisarchitekturen."
+  },
+  {
+    id: "bbc-1991-udssr-aufloesung",
+    title: "1991: Die Sowjetunion zerfällt",
+    year: 1991,
+    era: "Postkoloniale Neuordnung",
+    region: "Eurasien",
+    source: "BBC News",
+    sourceUrl: "https://www.bbc.com/news/world-europe-16113411",
+    whatHappened:
+      "Nach dem Augustputsch unterzeichneten Russland, Belarus und die Ukraine die Belowescha-Abkommen, woraufhin der Oberste Sowjet die UdSSR am 26. Dezember offiziell auflöste und die GUS gründete.",
+    immediateImpact:
+      "Atomwaffenarsenale mussten neu verteilt und gesichert werden, Rubel- und Versorgungssysteme kollabierten, und ehemalige Sowjetrepubliken erklärten Souveränität mit eigenen Verfassungen.",
+    parallelsAndLessons:
+      "Der Zerfall zeigt, dass föderale Staaten ohne legitime Machtteilung und wirtschaftliche Perspektive implodieren; Übergangsverträge brauchen Sicherheitsgarantien und soziale Netze.",
+    presentEcho:
+      "Konflikte um postsowjetische Einflusszonen, Energieabhängigkeiten und Minderheitenrechte wurzeln bis heute in den unvollständig gelösten Fragen von 1991."
   }
 ];
 
