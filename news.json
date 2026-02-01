@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-01T02:50:28.618Z",
+  "updatedAt": "2026-02-01T03:58:45.128Z",
   "categories": {
     "wirtschaft": [
       {
@@ -12,6 +12,17 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/kurzarbeit-rechner-2026-so-berechnen-sie-ihr-nettogehalt-bei-kurzarbeit-schnell-und-einfach/25685878.html",
         "source": "Handelsblatt",
         "publishedAt": "2926-01-29T11:18:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:2de535c1-93f3-4bc6-8244-456fb6d9ec68}",
+        "title": "\"Agenda für Arbeitnehmer\": CDU-Wirtschaftsrat fordert Steuersenkungen und weniger Sozialausgaben",
+        "summary": "Ein CDU-naher Verband schlägt vor, das Arbeitslosengeld zu kürzen und die Mütterrente zu streichen. Die Politik müsse alles tun, um \"Wachstumskräfte zu entfesseln\".",
+        "paragraphs": [
+          "Ein CDU-naher Verband schlägt vor, das Arbeitslosengeld zu kürzen und die Mütterrente zu streichen. Die Politik müsse alles tun, um \"Wachstumskräfte zu entfesseln\"."
+        ],
+        "link": "https://www.zeit.de/politik/deutschland/2026-02/wirtschaftsrat-cdu-agenda-fuer-arbeitnehmer",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-01T03:26:45.000Z"
       },
       {
         "id": "{urn:uuid:4d630cfc-5601-4ee7-84d5-e4eb7f98852c}",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/international/neue-epstein-akten-belasten-us-handelsminister-und-trump/29669594.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-01-31T08:46:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/spionagegefahr-verfassungsschutz-warnt-vor-fernzugriff-auf-chinesische-e-autos/100194216.html",
-        "title": "Spionagegefahr: Verfassungsschutz warnt vor Fernzugriff auf chinesische E-Autos",
-        "summary": "Vernetzte E-Autos sind rollende Computer mit ständiger Datenverbindung. Der Verfassungsschutz sieht darin riskante Angriffsflächen, die über den Verlust von Daten hinausgehen.",
-        "paragraphs": [
-          "Vernetzte E-Autos sind rollende Computer mit ständiger Datenverbindung. Der Verfassungsschutz sieht darin riskante Angriffsflächen, die über den Verlust von Daten hinausgehen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/spionagegefahr-verfassungsschutz-warnt-vor-fernzugriff-auf-chinesische-e-autos/100194216.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-01-31T08:19:00.000Z"
       }
     ],
     "politik": [
@@ -834,17 +834,6 @@
         "publishedAt": "2026-01-31T09:03:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Windows-Server-absichern-und-haerten-11147844.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Windows Server absichern und härten",
-        "summary": "Lernen Sie, wie Sie Ihren Windows Server effektiv absichern und härten, Schutzmaßnahmen integrieren, Konfigurationen optimieren und Angriffsszenarien bewerten.",
-        "paragraphs": [
-          "Lernen Sie, wie Sie Ihren Windows Server effektiv absichern und härten, Schutzmaßnahmen integrieren, Konfigurationen optimieren und Angriffsszenarien bewerten."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-Windows-Server-absichern-und-haerten-11147844.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-01-31T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Der-rote-Punkt-auf-dem-Preisschild-Die-Fotonews-der-Woche-4-2026-11160770.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Der rote Punkt auf dem Preisschild – Die Fotonews der Woche 4/2026",
         "summary": "Manchmal plätschern die Nachrichten im Fotobereich so vor sich hin, doch dann gibt es Wochen, da fällt ein Felsbrocken in den Teich und schlägt hohe Wellen.",
@@ -852,6 +841,17 @@
           "Manchmal plätschern die Nachrichten im Fotobereich so vor sich hin, doch dann gibt es Wochen, da fällt ein Felsbrocken in den Teich und schlägt hohe Wellen."
         ],
         "link": "https://www.heise.de/news/Der-rote-Punkt-auf-dem-Preisschild-Die-Fotonews-der-Woche-4-2026-11160770.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-01-31T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-Windows-Server-absichern-und-haerten-11147844.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Windows Server absichern und härten",
+        "summary": "Lernen Sie, wie Sie Ihren Windows Server effektiv absichern und härten, Schutzmaßnahmen integrieren, Konfigurationen optimieren und Angriffsszenarien bewerten.",
+        "paragraphs": [
+          "Lernen Sie, wie Sie Ihren Windows Server effektiv absichern und härten, Schutzmaßnahmen integrieren, Konfigurationen optimieren und Angriffsszenarien bewerten."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Windows-Server-absichern-und-haerten-11147844.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-31T09:00:00.000Z"
       },
@@ -878,13 +878,13 @@
         "publishedAt": "2026-01-31T07:35:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Tisch-wird-zu-Tastatur-und-Touchpad-Meta-Quest-fuehrt-Surface-Typing-ein-11160968.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Tisch wird zu Tastatur und Touchpad: Meta Quest führt „Surface Typing“ ein",
-        "summary": "Meta führt eine neue Eingabemethode für VR-Brillen ein, die physische Oberflächen in eine Tastatur und ein Touchpad verwandelt.",
+        "id": "https://www.heise.de/news/Farbe-Form-Fernweh-Die-Bilder-der-Woche-5-11160946.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Farbe, Form, Fernweh: Die Bilder der Woche 5",
+        "summary": "Von urbaner Abstraktion bis Naturmoment: Die Bilder dieser Woche zeigen das breite Spektrum an Gegensätzen.",
         "paragraphs": [
-          "Meta führt eine neue Eingabemethode für VR-Brillen ein, die physische Oberflächen in eine Tastatur und ein Touchpad verwandelt."
+          "Von urbaner Abstraktion bis Naturmoment: Die Bilder dieser Woche zeigen das breite Spektrum an Gegensätzen."
         ],
-        "link": "https://www.heise.de/news/Tisch-wird-zu-Tastatur-und-Touchpad-Meta-Quest-fuehrt-Surface-Typing-ein-11160968.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Farbe-Form-Fernweh-Die-Bilder-der-Woche-5-11160946.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-01-31T07:00:00.000Z"
       }
