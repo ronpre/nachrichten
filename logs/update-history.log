@@ -226,3 +226,15 @@ Geschichte-Update fehlgeschlagen Error: Nur 0 unverbrauchte Ereignisse verfügba
   code: 'HISTORY_POOL_EMPTY'
 }
 
+[2026-02-01T11:18:11.778Z] stderr: Geschichte-Update fehlgeschlagen Error: Nur 1 unverbrauchte Ereignisse verfügbar, aber 5 erforderlich. Bitte neue Artikel ergänzen, damit keine Wiederholungen nötig sind.
+[2026-02-01T11:18:11.778Z] stderr:     at historyShortageError (file:///home/rp/Dokumente/projekte/nachrichten/update-history.js:718:17)
+[2026-02-01T11:18:11.778Z] stderr:     at main (file:///home/rp/Dokumente/projekte/nachrichten/update-history.js:806:11) {
+[2026-02-01T11:18:11.778Z] stderr:   code: 'HISTORY_POOL_EMPTY'
+[2026-02-01T11:18:11.778Z] Fehler: Command failed: /usr/bin/node /home/rp/Dokumente/projekte/nachrichten/update-history.js
+Geschichte-Update fehlgeschlagen Error: Nur 1 unverbrauchte Ereignisse verfügbar, aber 5 erforderlich. Bitte neue Artikel ergänzen, damit keine Wiederholungen nötig sind.
+    at historyShortageError (file:///home/rp/Dokumente/projekte/nachrichten/update-history.js:718:17)
+    at main (file:///home/rp/Dokumente/projekte/nachrichten/update-history.js:806:11) {
+  code: 'HISTORY_POOL_EMPTY'
+}
+
+[2026-02-01T11:18:11.778Z] stderr: }

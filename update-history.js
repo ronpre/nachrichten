@@ -716,7 +716,7 @@ const VALID_HISTORY_ITEMS = CURATED_ARTICLES.filter(
 
 function historyShortageError(available, limit = DAILY_LIMIT) {
   const error = new Error(
-    `Nur ${available} unverbrauchte Ereignisse verfügbar, aber ${limit} erforderlich. Bitte neue Artikel ergänzen, damit keine Wiederholungen nötig sind.`
+    `Nur ${available} Ereignisse im History-Pool verfügbar, aber ${limit} erforderlich. (Kuratierte Liste ist zu klein.)`
   );
   error.code = "HISTORY_POOL_EMPTY";
   return error;
@@ -765,6 +765,16 @@ async function persistHistoryLog(log, newlyUsedIds) {
   return payload;
 }
 
+async function resetUsedHistoryIds(log) {
+  const payload = {
+    ...log,
+    used_history_ids: []
+  };
+
+  await fs.writeFile(HISTORY_LOG_FILE, JSON.stringify(payload, null, 2));
+  return payload;
+}
+
 function pickArticles(limit = DAILY_LIMIT, usedHistoryIds = []) {
   const eligible = buildEligibleHistory(Array.isArray(usedHistoryIds) ? usedHistoryIds : []);
 
@@ -798,9 +808,18 @@ async function saveGeschichte(articles) {
 }
 
 async function main() {
-  const historyLog = await loadHistoryLog();
-  const usedHistoryIds = getUsedHistoryIds(historyLog);
-  const eligibleCount = buildEligibleHistory(usedHistoryIds).length;
+  let historyLog = await loadHistoryLog();
+  let usedHistoryIds = getUsedHistoryIds(historyLog);
+  let eligibleCount = buildEligibleHistory(usedHistoryIds).length;
+
+  if (eligibleCount < DAILY_LIMIT) {
+    console.warn(
+      `History-Pool erschöpft (${eligibleCount}/${DAILY_LIMIT}). Setze used_history_ids zurück und starte Rotation neu.`
+    );
+    historyLog = await resetUsedHistoryIds(historyLog);
+    usedHistoryIds = [];
+    eligibleCount = buildEligibleHistory(usedHistoryIds).length;
+  }
 
   if (eligibleCount < DAILY_LIMIT) {
     throw historyShortageError(eligibleCount, DAILY_LIMIT);
