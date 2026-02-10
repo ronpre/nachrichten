@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-10T23:25:08.636Z",
+  "updatedAt": "2026-02-10T23:45:54.571Z",
   "categories": {
     "wirtschaft": [
       {
@@ -69,17 +69,6 @@
         "publishedAt": "2026-02-10T20:01:00.000Z"
       },
       {
-        "id": "0205c843-3961-4bfe-8779-c02fdf164aec",
-        "title": "Job-Probleme bei Akademikern: Erst der Abschluss, dann die Absage – Podcast",
-        "summary": "Top beim Lebenslauf, Flop bei den Bewerbungen: Die Zahl der jungen Akademiker auf Jobsuche ist so hoch wie nie. Alte Gewissheiten gelten nicht mehr. Doch es gibt Hoffnung auf dem Arbeitsmarkt.",
-        "paragraphs": [
-          "Top beim Lebenslauf, Flop bei den Bewerbungen: Die Zahl der jungen Akademiker auf Jobsuche ist so hoch wie nie. Alte Gewissheiten gelten nicht mehr. Doch es gibt Hoffnung auf dem Arbeitsmarkt."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/job-probleme-bei-akademikern-erst-der-abschluss-dann-die-absage-podcast-a-0205c843-3961-4bfe-8779-c02fdf164aec#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-02-10T19:38:00.000Z"
-      },
-      {
         "id": "ce912842-95cc-4c45-ab23-6359df1208e0",
         "title": "Job-Probleme bei Akademikern: Erst feiern sie den Uni-Abschluss. Dann hagelt es Absagen",
         "summary": "Top beim Lebenslauf, Flop bei den Bewerbungen: Die Zahl der jungen Akademiker auf Jobsuche ist so hoch wie nie. Alte Gewissheiten gelten nicht mehr. Doch es gibt Hoffnung auf dem Arbeitsmarkt.",
@@ -87,6 +76,17 @@
           "Top beim Lebenslauf, Flop bei den Bewerbungen: Die Zahl der jungen Akademiker auf Jobsuche ist so hoch wie nie. Alte Gewissheiten gelten nicht mehr. Doch es gibt Hoffnung auf dem Arbeitsmarkt."
         ],
         "link": "https://www.spiegel.de/wirtschaft/job-probleme-bei-akademikern-erst-feiern-sie-den-uni-abschluss-dann-hagelt-es-absagen-a-ce912842-95cc-4c45-ab23-6359df1208e0#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-02-10T19:38:00.000Z"
+      },
+      {
+        "id": "0205c843-3961-4bfe-8779-c02fdf164aec",
+        "title": "Job-Probleme bei Akademikern: Erst der Abschluss, dann die Absage – Podcast",
+        "summary": "Top beim Lebenslauf, Flop bei den Bewerbungen: Die Zahl der jungen Akademiker auf Jobsuche ist so hoch wie nie. Alte Gewissheiten gelten nicht mehr. Doch es gibt Hoffnung auf dem Arbeitsmarkt.",
+        "paragraphs": [
+          "Top beim Lebenslauf, Flop bei den Bewerbungen: Die Zahl der jungen Akademiker auf Jobsuche ist so hoch wie nie. Alte Gewissheiten gelten nicht mehr. Doch es gibt Hoffnung auf dem Arbeitsmarkt."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/job-probleme-bei-akademikern-erst-der-abschluss-dann-die-absage-podcast-a-0205c843-3961-4bfe-8779-c02fdf164aec#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-02-10T19:38:00.000Z"
       },
@@ -447,6 +447,28 @@
     ],
     "sport": [
       {
+        "id": "{urn:uuid:eab07c32-cb71-41e0-a0b2-17cf78a9dbe4}",
+        "title": "Olympische Winterspiele: Slowenische Skispringer holen Gold – Deutsches Team Vierter",
+        "summary": "Deutsches Skisprung-Mixedteam verpasst Medaille. Rodlerin Julia Taubitz holt nächstes Gold für die deutsche Olympiamannschaft. Alpine Teamkombi holt Silber. Das Liveblog",
+        "paragraphs": [
+          "Deutsches Skisprung-Mixedteam verpasst Medaille. Rodlerin Julia Taubitz holt nächstes Gold für die deutsche Olympiamannschaft. Alpine Teamkombi holt Silber. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/sport/2026-01/olympische-winterspiele-italien-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-10T23:26:26.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/leitl-stolz-das-zeigt-was-alles-moeglich-ist-1192492/artikel#omrss",
+        "title": "Leitl stolz: \"Das zeigt, was alles möglich ist\"",
+        "summary": "Wieder platzte für Hertha der Traum vom Finale im eigenen Stadion - gegen den SC Freiburg am Ende extrem knapp. Trotz des Ausscheidens herrschte bei der Alten Dame vor allem Stolz vor.",
+        "paragraphs": [
+          "Wieder platzte für Hertha der Traum vom Finale im eigenen Stadion - gegen den SC Freiburg am Ende extrem knapp. Trotz des Ausscheidens herrschte bei der Alten Dame vor allem Stolz vor."
+        ],
+        "link": "https://www.kicker.de/leitl-stolz-das-zeigt-was-alles-moeglich-ist-1192492/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-10T23:23:39.000Z"
+      },
+      {
         "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
         "title": "Klose wohl unmittelbar vor Verlängerung - Lockt Saudi-Arabien Kane?",
         "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
@@ -522,17 +544,6 @@
         "link": "https://www.sueddeutsche.de/sport/dfb-pokal-hertha-freiburg-viertelfinale-elfmeterschiessen-li.3385572",
         "source": "Sueddeutsche",
         "publishedAt": "2026-02-10T22:44:09.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hertha-gegen-freiburg-2026-dfb-pokal-5180629/spielbericht#omrss",
-        "title": "Freiburg im Halbfinale: Herthas Pokaltraum platzt im Elfmeterschießen",
-        "summary": "Hertha BSC und der SC Freiburg lieferten sich einen chancenarmen, allerdings auch spannenden und in der Verlängerung mitreißenden Pokalfight. Die Entscheidung fiel im Elfmeterschießen, dem SC-Schlussmann Müller seinen Stempel aufdrückte.",
-        "paragraphs": [
-          "Hertha BSC und der SC Freiburg lieferten sich einen chancenarmen, allerdings auch spannenden und in der Verlängerung mitreißenden Pokalfight. Die Entscheidung fiel im Elfmeterschießen, dem SC-Schlussmann Müller seinen Stempel aufdrückte."
-        ],
-        "link": "https://www.kicker.de/hertha-gegen-freiburg-2026-dfb-pokal-5180629/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-10T22:43:51.000Z"
       },
       {
         "id": "https://www.kicker.de/west-ham-gegen-manunited-2026-premier-league-5045263/spielbericht#omrss",
@@ -621,17 +632,6 @@
         "link": "https://www.sueddeutsche.de/sport/skispringen-mixed-raimund-freitag-prevc-norwegen-li.3385541",
         "source": "Sueddeutsche",
         "publishedAt": "2026-02-10T21:26:15.000Z"
-      },
-      {
-        "id": "{urn:uuid:eab07c32-cb71-41e0-a0b2-17cf78a9dbe4}",
-        "title": "Olympische Winterspiele: Slowenische Skispringer holen Gold – Deutsches Team Vierter",
-        "summary": "Deutsches Skisprung-Mixedteam verpasst Medaille. Rodlerin Julia Taubitz holt nächstes Gold für die deutsche Olympiamannschaft. Alpine Teamkombi holt Silber. Das Liveblog",
-        "paragraphs": [
-          "Deutsches Skisprung-Mixedteam verpasst Medaille. Rodlerin Julia Taubitz holt nächstes Gold für die deutsche Olympiamannschaft. Alpine Teamkombi holt Silber. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/sport/2026-01/olympische-winterspiele-italien-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-02-10T21:07:15.000Z"
       },
       {
         "id": "https://www.kicker.de/berlin-gegen-tofas-2026-basketball-champions-league-5189591/spielbericht#omrss",
@@ -823,17 +823,6 @@
         "publishedAt": "2026-02-10T13:27:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Nothing-Phone-3-Playground-Beta-mit-Vibe-Coding-fuer-Essential-OS-11171400.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Vibe-Coding: Nothing Phone (3) erhält Playground-Beta für App-Widgets",
-        "summary": "Nothing hat den Playground für das Phone (3) freigegeben. Damit sollen Nutzer sich per Vibe-Coding eigene Mini-Apps basteln.",
-        "paragraphs": [
-          "Nothing hat den Playground für das Phone (3) freigegeben. Damit sollen Nutzer sich per Vibe-Coding eigene Mini-Apps basteln."
-        ],
-        "link": "https://www.heise.de/news/Nothing-Phone-3-Playground-Beta-mit-Vibe-Coding-fuer-Essential-OS-11171400.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-10T13:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/iX-Workshop-Keycloak-der-fundierte-Einstieg-in-IAM-und-SSO-11160670.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "heise-Angebot: iX-Workshop: Keycloak – der fundierte Einstieg in IAM und SSO",
         "summary": "SSO und Multifaktor-Authentifizierung – mehr Sicherheit und einfache Zugangsverwaltung mit dem OpenID-Connect-Provider Keycloak.",
@@ -841,6 +830,17 @@
           "SSO und Multifaktor-Authentifizierung – mehr Sicherheit und einfache Zugangsverwaltung mit dem OpenID-Connect-Provider Keycloak."
         ],
         "link": "https://www.heise.de/news/iX-Workshop-Keycloak-der-fundierte-Einstieg-in-IAM-und-SSO-11160670.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-10T13:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Nothing-Phone-3-Playground-Beta-mit-Vibe-Coding-fuer-Essential-OS-11171400.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Vibe-Coding: Nothing Phone (3) erhält Playground-Beta für App-Widgets",
+        "summary": "Nothing hat den Playground für das Phone (3) freigegeben. Damit sollen Nutzer sich per Vibe-Coding eigene Mini-Apps basteln.",
+        "paragraphs": [
+          "Nothing hat den Playground für das Phone (3) freigegeben. Damit sollen Nutzer sich per Vibe-Coding eigene Mini-Apps basteln."
+        ],
+        "link": "https://www.heise.de/news/Nothing-Phone-3-Playground-Beta-mit-Vibe-Coding-fuer-Essential-OS-11171400.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-02-10T13:00:00.000Z"
       },
