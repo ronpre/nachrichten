@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-02-12T18:31:12.312Z",
+  "updatedAt": "2026-02-12T19:02:21.090Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-dreht-ins-minus/100199807.html",
+        "title": "US-Börsen: Wall Street dreht ins Minus – Cisco-Aktie gibt über elf Prozent nach",
+        "summary": "Nach einem positiven Handelsauftakt verschlechtert sich die Stimmung der drei wichtigsten US-Indizes. Fallende Tech-Werte belasten die Wall Street, Anleger zeigen sich selektiv.",
+        "paragraphs": [
+          "Nach einem positiven Handelsauftakt verschlechtert sich die Stimmung der drei wichtigsten US-Indizes. Fallende Tech-Werte belasten die Wall Street, Anleger zeigen sich selektiv."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-dreht-ins-minus/100199807.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-02-12T18:42:47.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-im-newsblog-loreal-dank-starkem-us-geschaeft-mit-umsatzplus-im-weihnachtsquartal/24098412.html",
+        "title": "+++ Geschäftszahlen +++: L’Oréal dank starkem US-Geschäft mit Umsatzplus im Weihnachtsquartal",
+        "summary": "Fielmann steigert nach Rekordgewinn die Dividende +++ Wafer-Hersteller Siltronic erwartet steigende Verluste +++ Hamburg Commercial Bank plant 1,3 Milliarden Euro Dividende +++ Der Newsblog.",
+        "paragraphs": [
+          "Fielmann steigert nach Rekordgewinn die Dividende +++ Wafer-Hersteller Siltronic erwartet steigende Verluste +++ Hamburg Commercial Bank plant 1,3 Milliarden Euro Dividende +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-im-newsblog-loreal-dank-starkem-us-geschaeft-mit-umsatzplus-im-weihnachtsquartal/24098412.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-02-12T18:27:16.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-ueber-220.000-menschen-in-belgorod-nach-angriff-ohne-strom/27982126.html",
         "title": "+++ Ukraine-Krieg +++: Über 220.000 Menschen in Belgorod nach ukrainischem Angriff ohne Strom",
@@ -34,17 +56,6 @@
         "link": "https://www.handelsblatt.com/politik/international/industrie-eu-kommission-kommt-deutschland-bei-buy-european-vorgaben-entgegen/100199936.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-02-12T18:13:26.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-dreht-ins-minus/100199807.html",
-        "title": "US-Börsen: Wall Street dreht ins Minus – Cisco-Aktie gibt über elf Prozent nach",
-        "summary": "Nach einem positiven Handelsauftakt verschlechtert sich die Stimmung der drei wichtigsten US-Indizes. Anleger zeigen sich selektiv, vor allem eine Aktie fährt deutliche Abschläge ein.",
-        "paragraphs": [
-          "Nach einem positiven Handelsauftakt verschlechtert sich die Stimmung der drei wichtigsten US-Indizes. Anleger zeigen sich selektiv, vor allem eine Aktie fährt deutliche Abschläge ein."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-dreht-ins-minus/100199807.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-02-12T18:03:32.000Z"
       },
       {
         "id": "{urn:uuid:c079010f-edae-4c6c-a5c3-90636b7a7f92}",
@@ -210,23 +221,12 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/deutsche-bank-monte-dei-paschi-bilanzen-li.3386388",
         "source": "Sueddeutsche",
         "publishedAt": "2026-02-12T15:48:26.000Z"
-      },
-      {
-        "id": "li.3385844",
-        "title": "EU und USA: Merz wappnet sich mit einer Druckmittel-Liste",
-        "summary": "Immer wieder nutzt Donald Trump die Wirtschaftskraft seines Landes, um politische Zugeständnisse zu erpressen. Jetzt hat Kanzler Friedrich Merz einen Katalog anfertigen lassen, der zeigt: Ohne bestimmte deutsche Produkte haben die USA ein Problem.",
-        "paragraphs": [
-          "Immer wieder nutzt Donald Trump die Wirtschaftskraft seines Landes, um politische Zugeständnisse zu erpressen. Jetzt hat Kanzler Friedrich Merz einen Katalog anfertigen lassen, der zeigt: Ohne bestimmte deutsche Produkte haben die USA ein Problem."
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/donald-trump-friedrich-merz-li.3385844",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-02-12T15:46:35.000Z"
       }
     ],
     "politik": [
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-ueber-220.000-menschen-in-belgorod-nach-angriff-ohne-strom/27982126.html",
-        "title": "+++ Ukraine-Krieg +++: Über 220.000 Menschen in Belgorod nach russischem Angriff ohne Strom",
+        "title": "+++ Ukraine-Krieg +++: Über 220.000 Menschen in Belgorod nach ukrainischem Angriff ohne Strom",
         "summary": "Beschädigte Energieanlagen: Ukraine produziert zu wenig Strom +++ Selenskyj verleiht Skeleton-Fahrer Orden der Freiheit +++ Ukraine empört nach Olympia-Eklat im Helm-Streit +++ Der Newsblog.",
         "paragraphs": [
           "Beschädigte Energieanlagen: Ukraine produziert zu wenig Strom +++ Selenskyj verleiht Skeleton-Fahrer Orden der Freiheit +++ Ukraine empört nach Olympia-Eklat im Helm-Streit +++ Der Newsblog."
@@ -238,9 +238,9 @@
       {
         "id": "56b41708-d927-4bf9-9827-cc7d924e251c",
         "title": "Francesca Albanese: Johann Wadephul fordert Rücktritt von Uno-Sonderberichterstatterin",
-        "summary": "»Sie ist in ihrer Position unhaltbar«: Wegen ihrer israelfeindlichen Äußerungen kritisiert auch Außenminister Wadepfuhl die Uno-Sonderberichterstatterin für die Palästinensergebiete Francesca Albanese scharf. Sie verteidigt sich.",
+        "summary": "»Sie ist in ihrer Position unhaltbar«: Wegen ihrer israelfeindlichen Äußerungen kritisiert auch Außenminister Wadephul die Uno-Sonderberichterstatterin für die Palästinensergebiete, Francesca Albanese, scharf. Sie verteidigt sich.",
         "paragraphs": [
-          "»Sie ist in ihrer Position unhaltbar«: Wegen ihrer israelfeindlichen Äußerungen kritisiert auch Außenminister Wadepfuhl die Uno-Sonderberichterstatterin für die Palästinensergebiete Francesca Albanese scharf. Sie verteidigt sich."
+          "»Sie ist in ihrer Position unhaltbar«: Wegen ihrer israelfeindlichen Äußerungen kritisiert auch Außenminister Wadephul die Uno-Sonderberichterstatterin für die Palästinensergebiete, Francesca Albanese, scharf. Sie verteidigt sich."
         ],
         "link": "https://www.spiegel.de/politik/deutschland/francesca-albanese-johann-wadephul-fordert-ruecktritt-von-uno-sonderberichterstatterin-a-56b41708-d927-4bf9-9827-cc7d924e251c#ref=rss",
         "source": "SPIEGEL",
@@ -447,15 +447,15 @@
     ],
     "sport": [
       {
-        "id": "{urn:uuid:957e9d95-c8d9-41d6-94f7-e0c6becb1007}",
-        "title": "Winterolympiade 2026: Deutschlands Rodelteam holt Gold im Staffelwettbewerb",
-        "summary": "Sie waren die Favoriten und hielten dem Druck stand: Die deutschen Rodlerinnen und Rodler haben Gold in der Teamstaffel gewonnen. Österreich holte Silber.",
+        "id": "https://www.kicker.de/tschechien-gegen-kanada-2026-eishockey-olympia-5178058/spielbericht#omrss",
+        "title": "McDavid legt dreimal auf: Kanada fegt über Tschechien hinweg",
+        "summary": "Kanada ist mit seinen NHL-Superstars überzeugend ins Turnier in Mailand gestartet: Die Nordamerikaner besiegten am Donnerstag Tschechien mit 5:0 und präsentierten sich dabei über längere Strecken spielfreudig und zudem sehr effizient.",
         "paragraphs": [
-          "Sie waren die Favoriten und hielten dem Druck stand: Die deutschen Rodlerinnen und Rodler haben Gold in der Teamstaffel gewonnen. Österreich holte Silber."
+          "Kanada ist mit seinen NHL-Superstars überzeugend ins Turnier in Mailand gestartet: Die Nordamerikaner besiegten am Donnerstag Tschechien mit 5:0 und präsentierten sich dabei über längere Strecken spielfreudig und zudem sehr effizient."
         ],
-        "link": "https://www.zeit.de/sport/2026-02/rennrodeln-olympia-teamstaffel-gold-deutschland-oesterreich",
-        "source": "ZEIT",
-        "publishedAt": "2026-02-12T18:28:03.000Z"
+        "link": "https://www.kicker.de/tschechien-gegen-kanada-2026-eishockey-olympia-5178058/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-12T18:53:46.000Z"
       },
       {
         "id": "{urn:uuid:e5accda2-19f9-4a3c-98b6-39ec02197683}",
@@ -466,7 +466,29 @@
         ],
         "link": "https://www.zeit.de/sport/2026-02/nations-league-deutschland-fussball-nationalmannschaft",
         "source": "ZEIT",
-        "publishedAt": "2026-02-12T18:26:49.000Z"
+        "publishedAt": "2026-02-12T18:41:11.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/eine-spielzeit-voller-widersprueche-so-bewerten-wir-die-saison-der-lions-1193011/artikel#omrss",
+        "title": "Eine Spielzeit voller Widersprüche: So bewerten wir die Saison der Lions",
+        "summary": "Die Saison der Detroit Lions lässt sich nicht mit einem simplen Ergebnis erklären. Neun Siege, keine Playoffs - und doch ein Team, das über weite Strecken konkurrenzfähig blieb. Nach zwei erfolgreichen Jahren und einer historischen 15-2-Bilanz im Vorjahr endete eine Spielzeit, deren Einordnung - auch in Schulnoten - schwieriger ist, als es die Tabelle vermuten lässt.",
+        "paragraphs": [
+          "Die Saison der Detroit Lions lässt sich nicht mit einem simplen Ergebnis erklären. Neun Siege, keine Playoffs - und doch ein Team, das über weite Strecken konkurrenzfähig blieb. Nach zwei erfolgreichen Jahren und einer historischen 15-2-Bilanz im Vorjahr endete eine Spielzeit, deren Einordnung - auch in Schulnoten - schwieriger ist, als es die Tabelle vermuten lässt."
+        ],
+        "link": "https://www.kicker.de/eine-spielzeit-voller-widersprueche-so-bewerten-wir-die-saison-der-lions-1193011/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-12T18:40:59.000Z"
+      },
+      {
+        "id": "{urn:uuid:957e9d95-c8d9-41d6-94f7-e0c6becb1007}",
+        "title": "Winterolympiade 2026: Deutschlands Rodelteam gewinnt Gold im Staffelwettbewerb",
+        "summary": "Die favorisierten deutschen Rodlerinnen und Rodler haben Gold in der Teamstaffel gewonnen. Silber ging an das Team aus Österreich.",
+        "paragraphs": [
+          "Die favorisierten deutschen Rodlerinnen und Rodler haben Gold in der Teamstaffel gewonnen. Silber ging an das Team aus Österreich."
+        ],
+        "link": "https://www.zeit.de/sport/2026-02/rennrodeln-olympia-teamstaffel-gold-deutschland-oesterreich",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-12T18:30:10.000Z"
       },
       {
         "id": "https://www.kicker.de/deutsche-rodler-gewinnen-gold-im-team-wettbewerb-1193016/artikel#omrss",
@@ -489,17 +511,6 @@
         "link": "https://www.spiegel.de/sport/olympia/olympia-news-heute-im-live-ticker-ukrainischer-skeletoni-wegen-gedenk-helms-offenbar-disqualifiziert-a-10c733b0-f56f-4e57-b2eb-554d3d40b6be#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-02-12T18:16:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/tschechien-gegen-kanada-2026-eishockey-olympia-5178058/spielbericht#omrss",
-        "title": "McDavid legt dreimal auf: Kanada fegt über Tschechien hinweg",
-        "summary": "Kanada ist mit seinen NHL-Superstars überzeugend ins Turnier in Mailand gestartet: Die Nordamerikaner besiegten am Donnerstag Tschechien mit 5:0 und präsentierten sich dabei spielfreudig und klar überlegen.",
-        "paragraphs": [
-          "Kanada ist mit seinen NHL-Superstars überzeugend ins Turnier in Mailand gestartet: Die Nordamerikaner besiegten am Donnerstag Tschechien mit 5:0 und präsentierten sich dabei spielfreudig und klar überlegen."
-        ],
-        "link": "https://www.kicker.de/tschechien-gegen-kanada-2026-eishockey-olympia-5178058/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-12T18:02:40.000Z"
       },
       {
         "id": "li.3386718",
@@ -652,15 +663,6 @@
         "link": "https://www.kicker.de/wbc-ordnet-an-usyk-muss-gegen-kabayel-um-wm-titel-boxen-1193006/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-12T16:19:29.000Z"
-      },
-      {
-        "id": "li.3386712",
-        "title": "FC Arsenal: Nationalspieler Kai Havertz wieder verletzt",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/sport/kai-havertz-fc-arsenal-li.3386712",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-02-12T16:18:56.000Z"
       }
     ],
     "edv": [
@@ -742,17 +744,6 @@
         "publishedAt": "2026-02-12T16:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Skyrim-Doom-und-Fallout-gibt-es-jetzt-als-digitale-Flipper-Tische-11173414.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„Skyrim“, „Doom“ und „Fallout“ gibt es jetzt als digitale Flipper-Tische",
-        "summary": "Tamriel, das Ödland und der dämonenverseuchte Mars landen auf dem Flipper-Tisch: Zen Studios bringt Bethesda-Welten per DLC auf seine Pinball-Plattformen.",
-        "paragraphs": [
-          "Tamriel, das Ödland und der dämonenverseuchte Mars landen auf dem Flipper-Tisch: Zen Studios bringt Bethesda-Welten per DLC auf seine Pinball-Plattformen."
-        ],
-        "link": "https://www.heise.de/news/Skyrim-Doom-und-Fallout-gibt-es-jetzt-als-digitale-Flipper-Tische-11173414.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-12T16:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/WF-1000XM6-Sonys-Premium-In-Ears-erscheinen-in-sechster-Generation-11174699.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "WF-1000XM6: Sonys Premium-In-Ears erscheinen in sechster Generation",
         "summary": "Sony spendiert der WF-1000-Serie eine neue Generation. Die sechste Auflage soll mit wirkungsvollem ANC, verbesserter Telefonie und präziserem Klang punkten.",
@@ -760,6 +751,17 @@
           "Sony spendiert der WF-1000-Serie eine neue Generation. Die sechste Auflage soll mit wirkungsvollem ANC, verbesserter Telefonie und präziserem Klang punkten."
         ],
         "link": "https://www.heise.de/news/WF-1000XM6-Sonys-Premium-In-Ears-erscheinen-in-sechster-Generation-11174699.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-12T16:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Skyrim-Doom-und-Fallout-gibt-es-jetzt-als-digitale-Flipper-Tische-11173414.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„Skyrim“, „Doom“ und „Fallout“ gibt es jetzt als digitale Flipper-Tische",
+        "summary": "Tamriel, das Ödland und der dämonenverseuchte Mars landen auf dem Flipper-Tisch: Zen Studios bringt Bethesda-Welten per DLC auf seine Pinball-Plattformen.",
+        "paragraphs": [
+          "Tamriel, das Ödland und der dämonenverseuchte Mars landen auf dem Flipper-Tisch: Zen Studios bringt Bethesda-Welten per DLC auf seine Pinball-Plattformen."
+        ],
+        "link": "https://www.heise.de/news/Skyrim-Doom-und-Fallout-gibt-es-jetzt-als-digitale-Flipper-Tische-11173414.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-02-12T16:00:00.000Z"
       },
@@ -874,13 +876,13 @@
         "publishedAt": "2026-02-12T13:30:00.000Z"
       },
       {
-        "id": "https://it-kenner.heise.de/zusammen-das-data-center-weiterentwickeln/future-enterprise/ki-datacenter-offene-standards-fuer-mehr-effizienz-und-leistung/?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Anzeige: KI-Datacenter: offene Standards für mehr Effizienz und Leistung",
-        "summary": "Leistungsdichte und Energiebedarf von KI-Rechenzentren erfordern neue Hardware-Lösungen. Das Open Compute Project treibt die Entwicklung voran.",
+        "id": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11160798.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Microsoft 365 sicher einrichten und datenschutzkonform betreiben",
+        "summary": "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen.",
         "paragraphs": [
-          "Leistungsdichte und Energiebedarf von KI-Rechenzentren erfordern neue Hardware-Lösungen. Das Open Compute Project treibt die Entwicklung voran."
+          "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen."
         ],
-        "link": "https://it-kenner.heise.de/zusammen-das-data-center-weiterentwickeln/future-enterprise/ki-datacenter-offene-standards-fuer-mehr-effizienz-und-leistung/?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11160798.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-02-12T13:00:00.000Z"
       }
