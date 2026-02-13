@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-02-13T04:28:01.031Z",
+  "updatedAt": "2026-02-13T05:07:24.003Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-anleger-ziehen-sich-nach-rallye-an-den-asiatischen-maerkten-vorsichtig-zurueck/100200047.html",
+        "title": "Nikkei, Topix, CSI 300: Anleger ziehen sich nach Rallye an den asiatischen Märkten vorsichtig zurück",
+        "summary": "Die Anleger in Asien machen sich um den Technologiesektor Sorgen und warten gespannt auf die US-Inflationsdaten. Nikkei, Topix und CSI 300 geben nach.",
+        "paragraphs": [
+          "Die Anleger in Asien machen sich um den Technologiesektor Sorgen und warten gespannt auf die US-Inflationsdaten. Nikkei, Topix und CSI 300 geben nach."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-anleger-ziehen-sich-nach-rallye-an-den-asiatischen-maerkten-vorsichtig-zurueck/100200047.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-02-13T04:19:13.000Z"
+      },
       {
         "id": "{urn:uuid:1d58f6e1-f05a-4e00-82b7-d469b7491906}",
         "title": "US-Zölle: USA schließen Handelsabkommen mit Taiwan",
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/politik/international/ukraine-ueber-220.000-menschen-in-belgorod-nach-angriff-ohne-strom/27982126.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-02-12T18:17:00.000Z"
-      },
-      {
-        "id": "1d5af108-f587-448d-aa4b-5ca84cbe4b5c",
-        "title": "Frankreich baut Atomkraft stark aus",
-        "summary": "Die Regierung in Paris setzt voll auf Atomstrom, in den kommenden Jahren soll die Produktion erhöht werden. Erneuerbare Energiequellen sollen langsamer ausgebaut werden als zuvor geplant.",
-        "paragraphs": [
-          "Die Regierung in Paris setzt voll auf Atomstrom, in den kommenden Jahren soll die Produktion erhöht werden. Erneuerbare Energiequellen sollen langsamer ausgebaut werden als zuvor geplant."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/frankreich-baut-atomkraft-stark-aus-a-1d5af108-f587-448d-aa4b-5ca84cbe4b5c#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-02-12T18:14:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "f8f45fca-d1a7-47dd-a178-9a42da1cd901",
+        "title": "News: Münchner Sicherheitskonferenz, Epstein-Sumpf in Norwegen, Ölmangel auf Kuba",
+        "summary": "Staats- und Regierungschefs ringen in München um eine neue Ordnung. Norwegens Eliten versinken im Epstein-Sumpf. Und: Auf Kuba gehen die Lichter aus. Das ist die Lage am Freitagmorgen.",
+        "paragraphs": [
+          "Staats- und Regierungschefs ringen in München um eine neue Ordnung. Norwegens Eliten versinken im Epstein-Sumpf. Und: Auf Kuba gehen die Lichter aus. Das ist die Lage am Freitagmorgen."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/news-muenchner-sicherheitskonferenz-epstein-sumpf-in-norwegen-oelmangel-auf-kuba-a-f8f45fca-d1a7-47dd-a178-9a42da1cd901#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-02-13T04:43:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/it-juso-chef-tuermer-fordert-abbau-der-abhaengigkeit-von-us-tech-konzernen/100199744.html",
         "title": "IT: Juso-Chef Türmer fordert Abbau der Abhängigkeit von US-Tech-Konzernen",
@@ -432,17 +443,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-afd-chef-chrupalla-beschaeftigt-ehefrau-eines-parteikollegen/100137034.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-02-12T17:53:00.000Z"
-      },
-      {
-        "id": "1934696a-117b-454a-82ba-580672a056d3",
-        "title": "Brandenburg: Bundesregierung gibt Schloss Meseberg als Gästehaus auf",
-        "summary": "Die edle Kulisse für streitende Koalitionäre ist Geschichte: Künftig lädt die Bundesregierung nicht mehr ins herrschaftliche Meseburg nördlich von Berlin ein.",
-        "paragraphs": [
-          "Die edle Kulisse für streitende Koalitionäre ist Geschichte: Künftig lädt die Bundesregierung nicht mehr ins herrschaftliche Meseburg nördlich von Berlin ein."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/brandenburg-bundesregierung-gibt-schloss-meseberg-als-gaestehaus-auf-a-1934696a-117b-454a-82ba-580672a056d3#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-02-12T17:35:00.000Z"
       }
     ],
     "sport": [
@@ -669,6 +669,28 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Vorsicht-Kunde-Wenn-der-Stromanbieterwechsel-scheitert-11175145.html",
+        "title": "Vorsicht, Kunde: Wenn der Stromanbieterwechsel scheitert",
+        "summary": "Blockiert der Netzbetreiber den Stromanbieterwechsel, landen Kunden im teuren Grundversorgungstarif. Wir klären, wer innerhalb welcher Frist aktiv werden muss.",
+        "paragraphs": [
+          "Blockiert der Netzbetreiber den Stromanbieterwechsel, landen Kunden im teuren Grundversorgungstarif. Wir klären, wer innerhalb welcher Frist aktiv werden muss."
+        ],
+        "link": "https://www.heise.de/news/Vorsicht-Kunde-Wenn-der-Stromanbieterwechsel-scheitert-11175145.html",
+        "source": "c't",
+        "publishedAt": "2026-02-13T05:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Vorsicht-Kunde-Wenn-der-Stromanbieterwechsel-scheitert-11175145.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Vorsicht, Kunde: Wenn der Stromanbieterwechsel scheitert",
+        "summary": "Blockiert der Netzbetreiber den Stromanbieterwechsel, landen Kunden im teuren Grundversorgungstarif. Wir klären, wer innerhalb welcher Frist aktiv werden muss.",
+        "paragraphs": [
+          "Blockiert der Netzbetreiber den Stromanbieterwechsel, landen Kunden im teuren Grundversorgungstarif. Wir klären, wer innerhalb welcher Frist aktiv werden muss."
+        ],
+        "link": "https://www.heise.de/news/Vorsicht-Kunde-Wenn-der-Stromanbieterwechsel-scheitert-11175145.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-13T05:00:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Neue-Waymo-Robotaxis-Ojai-besser-fuer-schlechtes-Wetter-geeignet-11175249.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Neue Waymo-Robotaxis Ojai besser für schlechtes Wetter geeignet",
         "summary": "Die neuen Robotaxis sind Minivans aus China und stellen die 6. Generation Waymos dar. Kameras und Sensoren wurden verbessert, sodass weniger ausreichen sollen.",
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/bestenlisten/testbericht/dab-radio-kenwood-cr-st85dab-im-test-asa-warnfunktion-bluetooth-und-guter-klang/rlv9189?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-02-12T15:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/iTunes-Wunschliste-Apple-loescht-das-Feature-jetzt-ganz-11173723.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "iTunes-Wunschliste: Apple löscht das Feature jetzt ganz",
-        "summary": "iTunes gibt es eigentlich gar nicht mehr, doch ein Feature hatte Apple in eine andere App migriert. Die Wunschliste für Filme und Serien verschwindet nun ganz.",
-        "paragraphs": [
-          "iTunes gibt es eigentlich gar nicht mehr, doch ein Feature hatte Apple in eine andere App migriert. Die Wunschliste für Filme und Serien verschwindet nun ganz."
-        ],
-        "link": "https://www.heise.de/news/iTunes-Wunschliste-Apple-loescht-das-Feature-jetzt-ganz-11173723.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-12T14:56:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/TypeScript-6-0-steht-in-den-Startloechern-Die-letzte-JavaScript-basierte-Version-11174219.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "TypeScript 6.0 steht in den Startlöchern: Die letzte JavaScript-basierte Version",
-        "summary": "Schon bald soll TypeScript 7.0 mit Go-Basis erscheinen. Das anstehende Release bereitet Developer darauf vor.",
-        "paragraphs": [
-          "Schon bald soll TypeScript 7.0 mit Go-Basis erscheinen. Das anstehende Release bereitet Developer darauf vor."
-        ],
-        "link": "https://www.heise.de/news/TypeScript-6-0-steht-in-den-Startloechern-Die-letzte-JavaScript-basierte-Version-11174219.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-12T14:36:00.000Z"
       }
     ]
   }
