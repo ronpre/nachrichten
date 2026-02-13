@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-02-13T03:35:07.040Z",
+  "updatedAt": "2026-02-13T04:28:01.031Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:1d58f6e1-f05a-4e00-82b7-d469b7491906}",
+        "title": "US-Zölle: USA schließen Handelsabkommen mit Taiwan",
+        "summary": "Taiwan wird dem Deal zufolge 99 Prozent seiner Zölle auf US-Waren abschaffen oder senken. Im Gegenzug reduzieren die USA den Zoll für Importe aus Taiwan auf 15 Prozent.",
+        "paragraphs": [
+          "Taiwan wird dem Deal zufolge 99 Prozent seiner Zölle auf US-Waren abschaffen oder senken. Im Gegenzug reduzieren die USA den Zoll für Importe aus Taiwan auf 15 Prozent."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-02/taiwan-usa-handel-zoelle-15-prozent-importe",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-13T03:59:08.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/verteidigung-ki-oder-kanonen-das-ringen-um-die-zukunft-der-kriegsfuehrung/100198437.html",
         "title": "Verteidigung: KI oder Kanonen? Das Ringen um die Zukunft der Kriegsführung",
@@ -210,17 +221,6 @@
         "link": "https://www.spiegel.de/wirtschaft/frankreich-baut-atomkraft-stark-aus-a-1d5af108-f587-448d-aa4b-5ca84cbe4b5c#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-02-12T18:14:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/industrie-eu-kommission-kommt-deutschland-bei-buy-european-vorgaben-entgegen/100199936.html",
-        "title": "Industrie: EU-Kommission kommt Deutschland bei „Buy European“-Vorgaben entgegen",
-        "summary": "Die EU-Kommission will mit einem neuen Gesetz die heimische Produktion schützen. Doch Berlin ging der Vorschlag zu weit. Nun passt Brüssel nach Handelsblatt-Informationen den Vorschlag an.",
-        "paragraphs": [
-          "Die EU-Kommission will mit einem neuen Gesetz die heimische Produktion schützen. Doch Berlin ging der Vorschlag zu weit. Nun passt Brüssel nach Handelsblatt-Informationen den Vorschlag an."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/industrie-eu-kommission-kommt-deutschland-bei-buy-european-vorgaben-entgegen/100199936.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-02-12T18:13:26.000Z"
       }
     ],
     "politik": [
@@ -449,9 +449,9 @@
       {
         "id": "{urn:uuid:ef3b6d4d-74f4-482e-ab05-cef1ebcb1f7f}",
         "title": "Snowboard: Wenn aus einem Abend eine Erinnerung wird",
-        "summary": "Es ist eine dieser olympischen Geschichten: Die 17-jährige Choi Ga-On stürzt in der Halfpipe schwer – und gewinnt dann Gold gegen ihr großes Idol.",
+        "summary": "Es ist eine dieser olympischen Geschichten: Die 17-jährige Choi Ga On stürzt in der Halfpipe schwer – und gewinnt dann Gold gegen ihr großes Idol.",
         "paragraphs": [
-          "Es ist eine dieser olympischen Geschichten: Die 17-jährige Choi Ga-On stürzt in der Halfpipe schwer – und gewinnt dann Gold gegen ihr großes Idol."
+          "Es ist eine dieser olympischen Geschichten: Die 17-jährige Choi Ga On stürzt in der Halfpipe schwer – und gewinnt dann Gold gegen ihr großes Idol."
         ],
         "link": "https://www.zeit.de/sport/2026-02/olympia-snowboard-hafpipe-suedkoreanerin-choi-ga-on-sieg",
         "source": "ZEIT",
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Neue-Waymo-Robotaxis-Ojai-besser-fuer-schlechtes-Wetter-geeignet-11175249.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Neue Waymo-Robotaxis Ojai besser für schlechtes Wetter geeignet",
+        "summary": "Die neuen Robotaxis sind Minivans aus China und stellen die 6. Generation Waymos dar. Kameras und Sensoren wurden verbessert, sodass weniger ausreichen sollen.",
+        "paragraphs": [
+          "Die neuen Robotaxis sind Minivans aus China und stellen die 6. Generation Waymos dar. Kameras und Sensoren wurden verbessert, sodass weniger ausreichen sollen."
+        ],
+        "link": "https://www.heise.de/news/Neue-Waymo-Robotaxis-Ojai-besser-fuer-schlechtes-Wetter-geeignet-11175249.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-13T04:02:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Deutschland-will-billige-Kampfdrohnen-beschaffen-11175092.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Europäischer Ansatz für weitreichende Schläge: Billige Drohnen für die Nato",
         "summary": "Deutschland und weitere Nato-Länder planen die Beschaffung günstiger Kampfdrohnen. Hintergrund sind Lehren aus dem Ukraine-Krieg.",
@@ -779,17 +790,6 @@
         "publishedAt": "2026-02-12T16:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Skyrim-Doom-und-Fallout-gibt-es-jetzt-als-digitale-Flipper-Tische-11173414.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„Bethesda Pinball“: Klassische Flipper-Tische erreichen Virtual Reality",
-        "summary": "Zen Studios legt \"Bethesda Pinball\" neu auf: als DLC-Paket, das die Flipper-Tische erstmals in die Virtual Reality bringt.",
-        "paragraphs": [
-          "Zen Studios legt \"Bethesda Pinball\" neu auf: als DLC-Paket, das die Flipper-Tische erstmals in die Virtual Reality bringt."
-        ],
-        "link": "https://www.heise.de/news/Skyrim-Doom-und-Fallout-gibt-es-jetzt-als-digitale-Flipper-Tische-11173414.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-12T16:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/WF-1000XM6-Sonys-Premium-In-Ears-erscheinen-in-sechster-Generation-11174699.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "WF-1000XM6: Sonys Premium-In-Ears erscheinen in sechster Generation",
         "summary": "Sony spendiert der WF-1000-Serie eine neue Generation. Die sechste Auflage soll mit wirkungsvollem ANC, verbesserter Telefonie und präziserem Klang punkten.",
@@ -797,6 +797,17 @@
           "Sony spendiert der WF-1000-Serie eine neue Generation. Die sechste Auflage soll mit wirkungsvollem ANC, verbesserter Telefonie und präziserem Klang punkten."
         ],
         "link": "https://www.heise.de/news/WF-1000XM6-Sonys-Premium-In-Ears-erscheinen-in-sechster-Generation-11174699.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-12T16:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Skyrim-Doom-und-Fallout-gibt-es-jetzt-als-digitale-Flipper-Tische-11173414.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„Bethesda Pinball“: Klassische Flipper-Tische erreichen Virtual Reality",
+        "summary": "Zen Studios legt \"Bethesda Pinball\" neu auf: als DLC-Paket, das die Flipper-Tische erstmals in die Virtual Reality bringt.",
+        "paragraphs": [
+          "Zen Studios legt \"Bethesda Pinball\" neu auf: als DLC-Paket, das die Flipper-Tische erstmals in die Virtual Reality bringt."
+        ],
+        "link": "https://www.heise.de/news/Skyrim-Doom-und-Fallout-gibt-es-jetzt-als-digitale-Flipper-Tische-11173414.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-02-12T16:00:00.000Z"
       },
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/TypeScript-6-0-steht-in-den-Startloechern-Die-letzte-JavaScript-basierte-Version-11174219.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-02-12T14:36:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Smart-Glasses-Kreuzfahrtunternehmen-schraenkt-Nutzung-an-Bord-ein-11174538.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Smart Glasses: Kreuzfahrtunternehmen schränkt Nutzung an Bord ein",
-        "summary": "Die Kreuzfahrtgesellschaft Royal Caribbean führt auf ihrer US-Website smarte Brillen nun als Gegenstände auf, die nicht frei an Bord benutzt werden können.",
-        "paragraphs": [
-          "Die Kreuzfahrtgesellschaft Royal Caribbean führt auf ihrer US-Website smarte Brillen nun als Gegenstände auf, die nicht frei an Bord benutzt werden können."
-        ],
-        "link": "https://www.heise.de/news/Smart-Glasses-Kreuzfahrtunternehmen-schraenkt-Nutzung-an-Bord-ein-11174538.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-12T13:54:00.000Z"
       }
     ]
   }
