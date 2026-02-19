@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-02-19T15:27:38.054Z",
+  "updatedAt": "2026-02-19T15:50:18.740Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:18e7a340-e6a8-4425-86a1-f291e6ccad3a}",
+        "title": "Verbraucherschutz: Gericht stuft Werbekampagne des Discounters Lidl als irreführend ein",
+        "summary": "Mit 500 dauerhaft günstigeren Produkten hatte der Discounter Lidl geworben. Dass das nicht zwingend für den eigenen Markt galt, war für Verbraucher nicht ersichtlich.",
+        "paragraphs": [
+          "Mit 500 dauerhaft günstigeren Produkten hatte der Discounter Lidl geworben. Dass das nicht zwingend für den eigenen Markt galt, war für Verbraucher nicht ersichtlich."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/unternehmen/2026-02/lidl-werbung-verbraucherschutz-preissenkung",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-19T15:37:47.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/kredite-zunehmende-ueberschuldung-der-menschen-teambank-macht-verlust/100201714.html",
+        "title": "Konsumentenkredite: „Zunehmende Überschuldung der Menschen“: Teambank rutscht in die roten Zahlen",
+        "summary": "Wegen der schwachen Konjunkturentwicklung und eines Wandels im Konsumverhalten können immer mehr Menschen ihre Darlehen nicht zurückbezahlen. Auch die Finanzaufsicht schlägt Alarm.",
+        "paragraphs": [
+          "Wegen der schwachen Konjunkturentwicklung und eines Wandels im Konsumverhalten können immer mehr Menschen ihre Darlehen nicht zurückbezahlen. Auch die Finanzaufsicht schlägt Alarm."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/kredite-zunehmende-ueberschuldung-der-menschen-teambank-macht-verlust/100201714.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-02-19T15:33:17.000Z"
+      },
       {
         "id": "{urn:uuid:6a2e1948-c604-4d17-ac34-be03c160c845}",
         "title": "Fernsehen: Sparzwang bei Deutscher Welle soll umgrechnet 160 Stellen betreffen",
@@ -11,7 +33,18 @@
         ],
         "link": "https://www.zeit.de/wirtschaft/2026-02/deutsche-welle-sparmassnahmen-kuerzung-bundeszuschuss",
         "source": "ZEIT",
-        "publishedAt": "2026-02-19T15:24:40.000Z"
+        "publishedAt": "2026-02-19T15:32:19.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/nahost-iranische-und-russische-marine-ueben-im-golf-von-oman/100136895.html",
+        "title": "+++ Nahost +++: Iranische und russische Marine führen gemeinsames Manöver im Golf von Oman durch",
+        "summary": "Netanjahu droht dem Iran im Falle eines Angriffs auf Israel +++ Trump: Gute Gespräche mit dem Iran – „Bedeutsames Abkommen“ nötig +++ Der Newsblog.",
+        "paragraphs": [
+          "Netanjahu droht dem Iran im Falle eines Angriffs auf Israel +++ Trump: Gute Gespräche mit dem Iran – „Bedeutsames Abkommen“ nötig +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/nahost-iranische-und-russische-marine-ueben-im-golf-von-oman/100136895.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-02-19T15:24:39.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-wiederholtes-muster-dax-kann-seinen-vorsprung-nicht-halten/100201601.html",
@@ -58,17 +91,6 @@
         "publishedAt": "2026-02-19T15:08:38.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/nahost-iranische-und-russische-marine-ueben-im-golf-von-oman/100136895.html",
-        "title": "+++ Nahost +++: Iranische und russische Marine führen gemeinsames Manöver im Golf von Oman durch",
-        "summary": "Netanjahu droht dem Iran im Falle eines Angriffs auf Israel +++ Russland warnt USA vor Militärschlag gegen Iran – „Spiel mit dem Feuer“ +++ US-Kampfjets und weitere Flugzeuge auf dem Weg in den Nahen Osten +++ Der Newsblog.",
-        "paragraphs": [
-          "Netanjahu droht dem Iran im Falle eines Angriffs auf Israel +++ Russland warnt USA vor Militärschlag gegen Iran – „Spiel mit dem Feuer“ +++ US-Kampfjets und weitere Flugzeuge auf dem Weg in den Nahen Osten +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/nahost-iranische-und-russische-marine-ueben-im-golf-von-oman/100136895.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-02-19T15:08:00.000Z"
-      },
-      {
         "id": "li.3383384",
         "title": "Trendsport Hyrox: Alles gegen die Uhr",
         "summary": "Eine Art Zirkeltraining erobert die Welt. Es ist eine Kombination von Ausdauer- und Kraftsport – und soll Puma aus der Krise helfen. Aber da ist noch ein kleines Problem.",
@@ -103,7 +125,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-vw-chef-blume-holt-die-macht-zurueck-nach-wolfsburg/100197102.html",
-        "title": "Autobauer: VW-Chef Blume holt die Macht zurück nach Wolfsburg",
+        "title": "Volkswagen: VW-Chef Blume holt die Macht zurück nach Wolfsburg – Insider sehen Kurswechsel in drei Bereichen",
         "summary": "Volkswagen gilt als einer der komplexesten Konzerne. Der Vorstandschef will seinen Einfluss ausweiten, doch Betriebsrat und Eigentümerfamilien haben eigene Interessen. Die Zeit drängt.",
         "paragraphs": [
           "Volkswagen gilt als einer der komplexesten Konzerne. Der Vorstandschef will seinen Einfluss ausweiten, doch Betriebsrat und Eigentümerfamilien haben eigene Interessen. Die Zeit drängt."
@@ -199,41 +221,30 @@
         "link": "https://www.handelsblatt.com/finanzen/maerkte/aktien/aktien-indiens-it-konzerne-unter-druck-us-rivalen-sollen-helfen/100201581.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-02-19T14:20:18.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/aktien/deutscher-leitindex-dax-konzerne-erhoehen-laut-dz-bank-dividenden-trotz-krise/100201736.html",
-        "title": "Deutscher Leitindex: Dax-Konzerne erhöhen laut DZ Bank Dividenden trotz Krise",
-        "summary": "Für das vergangene Jahr schütteten Dax-Konzerne voraussichtlich 63,7 Milliarden Euro aus und damit fünf Prozent über Vorjahr. Die höchste Dividende zahlt die Allianz.",
-        "paragraphs": [
-          "Für das vergangene Jahr schütteten Dax-Konzerne voraussichtlich 63,7 Milliarden Euro aus und damit fünf Prozent über Vorjahr. Die höchste Dividende zahlt die Allianz."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/aktien/deutscher-leitindex-dax-konzerne-erhoehen-laut-dz-bank-dividenden-trotz-krise/100201736.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-02-19T14:17:47.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-us-senatoren-fordern-in-ukraine-schaerfere-sanktionen-gegen-russland/27982126.html",
-        "title": "+++ Ukraine-Krieg +++: US-Senatoren fordern in Ukraine schärfere Sanktionen gegen Russland",
-        "summary": "Nächste Gesprächsrunde wieder in der Schweiz +++ Geheimdienstchefs zweifeln offenbar an Ukraine-Frieden +++ Ukraine und Russland verhandeln informell weiter +++ Der Newsblog.",
-        "paragraphs": [
-          "Nächste Gesprächsrunde wieder in der Schweiz +++ Geheimdienstchefs zweifeln offenbar an Ukraine-Frieden +++ Ukraine und Russland verhandeln informell weiter +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-us-senatoren-fordern-in-ukraine-schaerfere-sanktionen-gegen-russland/27982126.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-02-19T14:17:00.000Z"
       }
     ],
     "politik": [
       {
+        "id": "4baa30f7-2bad-4787-aa4d-b7711ed18073",
+        "title": "Wahl-O-Mat Rheinland-Pfalz 2026 | Landtagswahl am 22. März",
+        "summary": "Am 22. März wird der neue Landtag in Rheinland-Pfalz gewählt. Wenn Sie noch nicht wissen, welche Partei am besten zu Ihnen passt, kann der Wahl-O-Mat bei der Entscheidung helfen.",
+        "paragraphs": [
+          "Am 22. März wird der neue Landtag in Rheinland-Pfalz gewählt. Wenn Sie noch nicht wissen, welche Partei am besten zu Ihnen passt, kann der Wahl-O-Mat bei der Entscheidung helfen."
+        ],
+        "link": "https://www.focus.de/politik/deutschland/wahl-o-mat-landtagswahl-rheinland-pfalz-2026_4baa30f7-2bad-4787-aa4d-b7711ed18073.html",
+        "source": "Focus",
+        "publishedAt": "2026-02-19T15:41:00.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/nahost-iranische-und-russische-marine-ueben-im-golf-von-oman/100136895.html",
         "title": "+++ Nahost +++: Iranische und russische Marine führen gemeinsames Manöver im Golf von Oman durch",
-        "summary": "Netanjahu droht dem Iran im Falle eines Angriffs auf Israel +++ Russland warnt USA vor Militärschlag gegen Iran – „Spiel mit dem Feuer“ +++ US-Kampfjets und weitere Flugzeuge auf dem Weg in den Nahen Osten +++ Der Newsblog.",
+        "summary": "Netanjahu droht dem Iran im Falle eines Angriffs auf Israel +++ Trump: Gute Gespräche mit dem Iran – „Bedeutsames Abkommen“ nötig +++ Der Newsblog.",
         "paragraphs": [
-          "Netanjahu droht dem Iran im Falle eines Angriffs auf Israel +++ Russland warnt USA vor Militärschlag gegen Iran – „Spiel mit dem Feuer“ +++ US-Kampfjets und weitere Flugzeuge auf dem Weg in den Nahen Osten +++ Der Newsblog."
+          "Netanjahu droht dem Iran im Falle eines Angriffs auf Israel +++ Trump: Gute Gespräche mit dem Iran – „Bedeutsames Abkommen“ nötig +++ Der Newsblog."
         ],
         "link": "https://www.handelsblatt.com/politik/international/nahost-iranische-und-russische-marine-ueben-im-golf-von-oman/100136895.html",
         "source": "Handelsblatt",
-        "publishedAt": "2026-02-19T15:08:00.000Z"
+        "publishedAt": "2026-02-19T15:24:39.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-kanzler-und-digitalminister-offen-fuer-social-media-verbot/100137034.html",
@@ -336,7 +347,7 @@
       },
       {
         "id": "30e1f20a-b108-4658-97bb-1fa0df0b7f9f",
-        "title": "Kindergeld: Finanzminister Lars Klingbeil will Leistung ohne Antrag auszahlen lassen",
+        "title": "Kindergeld: Lars Klingbeil will Leistung ohne Antrag auszahlen lassen",
         "summary": "259 Euro Kindergeld gibt es derzeit pro Monat und Kind, dafür müssen Eltern allerdings einen Antrag stellen. Bundesfinanzminister Lars Klingbeil hat einen Gesetzentwurf vorgelegt, der das ändern soll.",
         "paragraphs": [
           "259 Euro Kindergeld gibt es derzeit pro Monat und Kind, dafür müssen Eltern allerdings einen Antrag stellen. Bundesfinanzminister Lars Klingbeil hat einen Gesetzentwurf vorgelegt, der das ändern soll."
@@ -423,17 +434,6 @@
         "publishedAt": "2026-02-19T12:59:55.000Z"
       },
       {
-        "id": "4baa30f7-2bad-4787-aa4d-b7711ed18073",
-        "title": "Wahl-O-Mat Rheinland-Pfalz 2026 | Landtagswahl 2026",
-        "summary": "Am 22. März wird der neue Landtag in Rheinland-Pfalz gewählt. Wenn Sie noch nicht wissen, welche Partei am besten zu Ihnen passt, kann der Wahl-O-Mat bei der Entscheidung helfen.",
-        "paragraphs": [
-          "Am 22. März wird der neue Landtag in Rheinland-Pfalz gewählt. Wenn Sie noch nicht wissen, welche Partei am besten zu Ihnen passt, kann der Wahl-O-Mat bei der Entscheidung helfen."
-        ],
-        "link": "https://www.focus.de/politik/deutschland/wahl-o-mat-landtagswahl-rheinland-pfalz-2026_4baa30f7-2bad-4787-aa4d-b7711ed18073.html",
-        "source": "Focus",
-        "publishedAt": "2026-02-19T12:59:00.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-karte-das-ist-der-aktuelle-frontverlauf-05/100179741.html",
         "title": "Russische Truppen: Ukraine-Krieg: Das ist der aktuelle Frontverlauf",
         "summary": "Seit 2022 eskaliert der Krieg in der Ukraine. Aktuell verteidigt die ukrainische Armee ihr Land vor allem im Osten gegen Russland. Ein Überblick über den Frontverlauf mit Karten.",
@@ -447,8 +447,107 @@
     ],
     "sport": [
       {
+        "id": "li.3390816",
+        "title": "Nordische Kombination: „Ein beschissenes Unglück“ statt Gold",
+        "summary": "Zwei Stürze machen die Medaillenchancen von Vinzenz Geiger und Johannes Rydzek zunichte. Erstmals seit 1998 gehen Deutschlands Kombinierer leer aus – im vielleicht letzten Olympiarennen der Sportart.",
+        "paragraphs": [
+          "Zwei Stürze machen die Medaillenchancen von Vinzenz Geiger und Johannes Rydzek zunichte. Erstmals seit 1998 gehen Deutschlands Kombinierer leer aus – im vielleicht letzten Olympiarennen der Sportart."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/olympia-nordische-kombination-sturz-geiger-rydzek-li.3390816",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-02-19T15:42:32.000Z"
+      },
+      {
+        "id": "8a5ac8f9-63d9-4c64-80bb-9c772d3f6c04",
+        "title": "Olympia 2026: Laila Edwards ist die erste schwarze Eishockey-Nationalspielerin der USA - ein Porträt",
+        "summary": "Es gibt kaum schwarze Eishockeyprofis, besonders die USA waren spät dran. Dann kam Laila Edwards. Die 22-Jährige gilt als Epochenspielerin, am Abend soll sie ihre Nation zur Goldmedaille führen.",
+        "paragraphs": [
+          "Es gibt kaum schwarze Eishockeyprofis, besonders die USA waren spät dran. Dann kam Laila Edwards. Die 22-Jährige gilt als Epochenspielerin, am Abend soll sie ihre Nation zur Goldmedaille führen."
+        ],
+        "link": "https://www.spiegel.de/sport/olympia/olympia-2026-laila-edwards-ist-die-erste-schwarze-eishockey-nationalspielerin-der-usa-ein-portraet-a-8a5ac8f9-63d9-4c64-80bb-9c772d3f6c04#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-02-19T15:32:00.000Z"
+      },
+      {
+        "id": "li.3389944",
+        "title": "Skibergsteigen bei Olympia: Boom-Generation mit Fell",
+        "summary": "Tatjana Paller aus Starnberg verpasst bei der olympischen Premiere des Skibergsteigens knapp eine Medaille. Über eine Disziplin, die aus dem Skitourengehen entstand – und sich auf präparierten Pisten emanzipierte.",
+        "paragraphs": [
+          "Tatjana Paller aus Starnberg verpasst bei der olympischen Premiere des Skibergsteigens knapp eine Medaille. Über eine Disziplin, die aus dem Skitourengehen entstand – und sich auf präparierten Pisten emanzipierte."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/olympia-skibergsteigen-paller-fell-boom-li.3389944",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-02-19T15:31:34.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-so-steht-es-im-eisschnelllauf-ueber-1500-meter-1195035/artikel#omrss",
+        "title": "LIVE! So steht es im Eisschnelllauf über 1500 Meter",
+        "summary": "Mit einem deutschen Quartett um den jungen Hoffnungsträger Finn Sonnekalb gehen am späten Donnerstagnachmittag die 1500 m im Eisschnelllauf über die Bühne.",
+        "paragraphs": [
+          "Mit einem deutschen Quartett um den jungen Hoffnungsträger Finn Sonnekalb gehen am späten Donnerstagnachmittag die 1500 m im Eisschnelllauf über die Bühne."
+        ],
+        "link": "https://www.kicker.de/live-so-steht-es-im-eisschnelllauf-ueber-1500-meter-1195035/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-19T15:31:34.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/eine-frage-der-geduld-oder-bundus-neue-rolle-bei-hannover-1195045/artikel#omrss",
+        "title": "Eine Frage der Geduld - oder: Bundus neue Rolle bei Hannover",
+        "summary": "Mustapha Bundu kam mit vielen Vorschusslorbeeren nach Hannover. Seine Leistungen waren aber durchwachsen. Sportlich ist er aktuell kein Faktor bei 96.",
+        "paragraphs": [
+          "Mustapha Bundu kam mit vielen Vorschusslorbeeren nach Hannover. Seine Leistungen waren aber durchwachsen. Sportlich ist er aktuell kein Faktor bei 96."
+        ],
+        "link": "https://www.kicker.de/eine-frage-der-geduld-oder-bundus-neue-rolle-bei-hannover-1195045/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-19T15:30:33.000Z"
+      },
+      {
+        "id": "li.3391067",
+        "title": "Tod von „Sepp“ Piontek: Der „meistgeliebte Deutsche auf dänischem Boden“",
+        "summary": "Josef „Sepp“ Piontek, einst mit Werder Bremen deutscher Meister, hat als Fußball-Nationaltrainer Dänemarks den Grundstein für spätere Erfolge gelegt. Jetzt ist er im Alter von 85 Jahren gestorben.",
+        "paragraphs": [
+          "Josef „Sepp“ Piontek, einst mit Werder Bremen deutscher Meister, hat als Fußball-Nationaltrainer Dänemarks den Grundstein für spätere Erfolge gelegt. Jetzt ist er im Alter von 85 Jahren gestorben."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/sepp-piontek-tot-nachruf-werder-bremen-daenemark-li.3391067",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-02-19T15:30:03.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/aus-dem-flieger-auf-den-platz-werner-vor-visum-kaltstart-in-san-jose-1195024/artikel#omrss",
+        "title": "Aus dem Flieger auf den Platz? Werner vor Visum-Kaltstart in San Jose",
+        "summary": "Dass Timo Werner in die MLS wechselt, steht bereits seit Ende Januar fest. Trainiert hat er mit seinen neuen Kollegen allerdings noch nicht. Was ihn laut seinem Coach Bruce Arena nicht davon abhält, sofort spielen zu wollen.",
+        "paragraphs": [
+          "Dass Timo Werner in die MLS wechselt, steht bereits seit Ende Januar fest. Trainiert hat er mit seinen neuen Kollegen allerdings noch nicht. Was ihn laut seinem Coach Bruce Arena nicht davon abhält, sofort spielen zu wollen."
+        ],
+        "link": "https://www.kicker.de/aus-dem-flieger-auf-den-platz-werner-vor-visum-kaltstart-in-san-jose-1195024/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-19T15:28:32.000Z"
+      },
+      {
+        "id": "li.3391043",
+        "title": "Deutsche Olympia-Bewerbung: Ein Nein vom Bundespräsidenten für die Spiele 2036",
+        "summary": "Deutschland stürzt sich in seine Olympia-Bewerbung. Doch nun stellt Frank-Walter Steinmeier die Kandidatur an einem der möglichen Daten infrage – aus historischen Gründen.",
+        "paragraphs": [
+          "Deutschland stürzt sich in seine Olympia-Bewerbung. Doch nun stellt Frank-Walter Steinmeier die Kandidatur an einem der möglichen Daten infrage – aus historischen Gründen."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/olympia-bewerbung-deutschland-steinmeier-li.3391043",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-02-19T15:26:19.000Z"
+      },
+      {
+        "id": "li.3389991",
+        "title": "Felix Neureuther im Gespräch: „Die Emma ist einfach eine Granate“",
+        "summary": "Das Drama um Lindsey Vonn, die Übermacht des Franjo von Allmen und das Skigefühl von Emma Aicher: Der ehemalige Skiprofi Felix Neureuther bilanziert die olympischen Skirennen – und wünscht sich für die Zukunft mehr Olympia-Stimmung.",
+        "paragraphs": [
+          "Das Drama um Lindsey Vonn, die Übermacht des Franjo von Allmen und das Skigefühl von Emma Aicher: Der ehemalige Skiprofi Felix Neureuther bilanziert die olympischen Skirennen – und wünscht sich für die Zukunft mehr Olympia-Stimmung."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/olympia-felix-neureuther-interview-aicher-vonn-stimmung-li.3389991",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-02-19T15:25:22.000Z"
+      },
+      {
         "id": "bc5d47d0-023f-4d7d-b114-08f3e70fcf58",
-        "title": "Olympia-News im Live-Ticker: Gelingt Eisschnellläufer Sonnekalb auf seiner Paradestrecke die Überraschung?",
+        "title": "Olympia-News im Live-Ticker: Gelingt Eisschnellläufer Finn Sonnekalb auf seiner Paradestrecke die Überraschung?",
         "summary": "Der 18-jährige Shootingstar Finn Sonnekalb kämpft über 1500 Meter um eine Medaille für Deutschland. Die Nordischen Kombinierer gingen nach einem Sturz von Vinzenz Geiger leer aus. So läuft der Olympiatag.",
         "paragraphs": [
           "Der 18-jährige Shootingstar Finn Sonnekalb kämpft über 1500 Meter um eine Medaille für Deutschland. Die Nordischen Kombinierer gingen nach einem Sturz von Vinzenz Geiger leer aus. So läuft der Olympiatag."
@@ -478,6 +577,17 @@
         "link": "https://www.kicker.de/bundesliga-2024-25-rekorde-ohne-ende-und-trotzdem-millionen-im-minus-1194923/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-19T15:06:46.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mehr-als-38000-meilen-warum-der-49ers-spielplan-fuer-diskussionen-sorgt-1195039/artikel#omrss",
+        "title": "Mehr als 38.000 Meilen: Warum der 49ers-Spielplan für Diskussionen sorgt",
+        "summary": "Der offizielle Spielplan für die NFL-Saison 2026 wird zwar erst im Mai veröffentlicht, doch eine Sache ist bereits jetzt gewiss: Die San Francisco 49ers werden mehr Reisemeilen zurücklegen als jedes Team zuvor in der Geschichte der Liga. Insgesamt kommen die Niners auf 38.105 Meilen - ein neuer NFL-Rekord.",
+        "paragraphs": [
+          "Der offizielle Spielplan für die NFL-Saison 2026 wird zwar erst im Mai veröffentlicht, doch eine Sache ist bereits jetzt gewiss: Die San Francisco 49ers werden mehr Reisemeilen zurücklegen als jedes Team zuvor in der Geschichte der Liga. Insgesamt kommen die Niners auf 38.105 Meilen - ein neuer NFL-Rekord."
+        ],
+        "link": "https://www.kicker.de/mehr-als-38000-meilen-warum-der-49ers-spielplan-fuer-diskussionen-sorgt-1195039/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-19T15:05:00.000Z"
       },
       {
         "id": "https://www.kicker.de/duesseldorf-droht-ein-torhueter-gau-1195027/artikel#omrss",
@@ -555,119 +665,20 @@
         "link": "https://www.kicker.de/fut-hoch-nach-rassismus-vorwurf-prestiannis-preis-schiesst-in-die-hoehe-1194966/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-19T14:45:09.000Z"
-      },
-      {
-        "id": "1d46bcf4-2335-4258-a38c-0c31a16a71ce",
-        "title": "Schachgroßmeister Jan Timman ist tot: »The Best of the West« mit 74 Jahren gestorben",
-        "summary": "Jan Timman war ein Bohemien. Statt zum Militär zu gehen, spielte er lieber Schach, landete dafür sogar im Straflager. Er reiste von Turnier zu Turnier und spielte am Ende sogar um die Weltmeisterschaft. Nun ist er gestorben.",
-        "paragraphs": [
-          "Jan Timman war ein Bohemien. Statt zum Militär zu gehen, spielte er lieber Schach, landete dafür sogar im Straflager. Er reiste von Turnier zu Turnier und spielte am Ende sogar um die Weltmeisterschaft. Nun ist er gestorben."
-        ],
-        "link": "https://www.spiegel.de/sport/schach/schachgrossmeister-jan-timman-ist-tot-the-best-of-the-west-mit-74-jahren-gestorben-a-1d46bcf4-2335-4258-a38c-0c31a16a71ce#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-02-19T14:44:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kohfeldt-das-sind-definitiv-luxusprobleme-1195042/artikel#omrss",
-        "title": "Kohfeldt: \"Das sind definitiv Luxusprobleme\"",
-        "summary": "Gegen Düsseldorf kann der SV Darmstadt 98 voraussichtlich in Bestbesetzung auflaufen. Trainer Florian Kohfeldt freut sich über den Konkurrenzkampf, der allerdings auch zu einigen Härtefällen führen wird.",
-        "paragraphs": [
-          "Gegen Düsseldorf kann der SV Darmstadt 98 voraussichtlich in Bestbesetzung auflaufen. Trainer Florian Kohfeldt freut sich über den Konkurrenzkampf, der allerdings auch zu einigen Härtefällen führen wird."
-        ],
-        "link": "https://www.kicker.de/kohfeldt-das-sind-definitiv-luxusprobleme-1195042/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-19T14:41:16.000Z"
-      },
-      {
-        "id": "{urn:uuid:3c41b941-67da-408a-a9b5-5f83b3d299c5}",
-        "title": "Olympia 2036: Steinmeier ist gegen Olympische Sommerspiele 2036 in Deutschland",
-        "summary": "Der Bundespräsident sieht das Jahr 2036 als historisch problematisch an. München, Hamburg, Berlin und die Region Rhein-Ruhr kandidieren für die Olympischen Spiele.",
-        "paragraphs": [
-          "Der Bundespräsident sieht das Jahr 2036 als historisch problematisch an. München, Hamburg, Berlin und die Region Rhein-Ruhr kandidieren für die Olympischen Spiele."
-        ],
-        "link": "https://www.zeit.de/sport/2026-02/olympische-spiele-2036-bundespraesident-frank-walter-steinmeier-deutschland-bewerbung",
-        "source": "ZEIT",
-        "publishedAt": "2026-02-19T14:37:02.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/monetaerer-wahnsinn-werder-zwischen-nordderby-und-rattenrennen-1195002/artikel#omrss",
-        "title": "\"Monetärer Wahnsinn\": Werder zwischen Nordderby und \"Rattenrennen\"",
-        "summary": "Beim Nordderby zwischen dem HSV und Werder Bremen kündigt sich nicht das ganz große Fußballfest wie vor rund einem Jahr beim DFB-Pokal-Halbfinale an, ein kleines Highlight aber doch. Werder-Abteilungsleiterin Birte Brüggemann berichtet unterdessen von den Entwicklungen bei Transfers.",
-        "paragraphs": [
-          "Beim Nordderby zwischen dem HSV und Werder Bremen kündigt sich nicht das ganz große Fußballfest wie vor rund einem Jahr beim DFB-Pokal-Halbfinale an, ein kleines Highlight aber doch. Werder-Abteilungsleiterin Birte Brüggemann berichtet unterdessen von den Entwicklungen bei Transfers."
-        ],
-        "link": "https://www.kicker.de/monetaerer-wahnsinn-werder-zwischen-nordderby-und-rattenrennen-1195002/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-19T14:33:13.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/werners-lobeshymne-auf-kovac-und-dortmund-1195017/artikel#omrss",
-        "title": "Werners Lobeshymne auf Kovac und Dortmund",
-        "summary": "Ausgerechnet gegen den erstarkten BVB will RB Leipzig den sportlichen Turnaround einleiten und ein weiteres Abrutschen in der Tabelle verhindern. Trainer Ole Werner sieht beim Gegner viel von dem, was sein Team vermissen lässt.",
-        "paragraphs": [
-          "Ausgerechnet gegen den erstarkten BVB will RB Leipzig den sportlichen Turnaround einleiten und ein weiteres Abrutschen in der Tabelle verhindern. Trainer Ole Werner sieht beim Gegner viel von dem, was sein Team vermissen lässt."
-        ],
-        "link": "https://www.kicker.de/werners-lobeshymne-auf-kovac-und-dortmund-1195017/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-19T14:31:24.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/arsenals-trauriges-stueck-liga-geschichte-gabriel-jesus-ausraster-als-sinnbild-1195009/artikel#omrss",
-        "title": "Arsenals trauriges Stück Liga-Geschichte - Gabriel Jesus' Ausraster als Sinnbild",
-        "summary": "Die Hoffnung auf den ersten Premier-League-Titel seit 2004 schwindet allmählich bei den Fans des FC Arsenal. Nach dem unnötigen Patzer bei Schlusslicht Wolverhampton war eine Szene direkt nach Abpfiff Sinnbild der aktuellen Situation.",
-        "paragraphs": [
-          "Die Hoffnung auf den ersten Premier-League-Titel seit 2004 schwindet allmählich bei den Fans des FC Arsenal. Nach dem unnötigen Patzer bei Schlusslicht Wolverhampton war eine Szene direkt nach Abpfiff Sinnbild der aktuellen Situation."
-        ],
-        "link": "https://www.kicker.de/arsenals-trauriges-stueck-liga-geschichte-gabriel-jesus-ausraster-als-sinnbild-1195009/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-19T14:24:22.000Z"
-      },
-      {
-        "id": "{urn:uuid:4838edc6-569c-4d05-a721-8413bf04c14b}",
-        "title": "Daniel Weiss: \"Wovor Trainer immer Angst haben: dass die zwei sich verlieben\"",
-        "summary": "Welches Geheimnis kostete Minerva Hase Gold? Welche Stimme sprach zu Ilia Malinin, als er fiel? ARD-Reporter Daniel Weiss verrät alles über Liebe, Macht und Eiskunstlauf.",
-        "paragraphs": [
-          "Welches Geheimnis kostete Minerva Hase Gold? Welche Stimme sprach zu Ilia Malinin, als er fiel? ARD-Reporter Daniel Weiss verrät alles über Liebe, Macht und Eiskunstlauf."
-        ],
-        "link": "https://www.zeit.de/sport/2026-02/daniel-weiss-ard-eiskunstlauf-ilia-malinin-hase-volodin",
-        "source": "ZEIT",
-        "publishedAt": "2026-02-19T14:22:36.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-geht-was-fuer-sonnekalb-auch-kombinierer-verpassen-medaille-paller-vierte-bei-skimo-premiere-1190942/artikel#omrss",
-        "title": "LIVE! Geht was für Sonnekalb? - Auch Kombinierer verpassen Medaille - Paller Vierte bei Skimo-Premiere",
-        "summary": "Mit dem Skibergsteigen feiert heute eine neue Sportart ihre olympische Premiere. Mittags werden in der Sprintdisziplin bei Männern wie Frauen erstmals Medaillen im Ski Mountaineering, kurz Skimo, vergeben. Auch Team-Wettbewerbe stehen im Fokus: In der NoKo starten Geiger/Rydzek von der Großschanze und im Eishockey spielen die Frauen alle drei Medaillen aus. Der Olympia-Tag im Ticker ...",
-        "paragraphs": [
-          "Mit dem Skibergsteigen feiert heute eine neue Sportart ihre olympische Premiere. Mittags werden in der Sprintdisziplin bei Männern wie Frauen erstmals Medaillen im Ski Mountaineering, kurz Skimo, vergeben. Auch Team-Wettbewerbe stehen im Fokus: In der NoKo starten Geiger/Rydzek von der Großschanze und im Eishockey spielen die Frauen alle drei Medaillen aus. Der Olympia-Tag im Ticker ..."
-        ],
-        "link": "https://www.kicker.de/live-geht-was-fuer-sonnekalb-auch-kombinierer-verpassen-medaille-paller-vierte-bei-skimo-premiere-1190942/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-19T14:19:43.000Z"
-      },
-      {
-        "id": "li.3390814",
-        "title": "Deutsches Eishockey-Team nach dem Aus: Schmerzhafte Einsichten",
-        "summary": "Immerhin bei der Aufarbeitung der Viertelfinalniederlage zeigen die deutschen Eishockeyspieler Geschlossenheit: Aber die Erkenntnis, dass das Gefälle zwischen NHL- und DEL-Profis zu groß war, kommt zu spät.",
-        "paragraphs": [
-          "Immerhin bei der Aufarbeitung der Viertelfinalniederlage zeigen die deutschen Eishockeyspieler Geschlossenheit: Aber die Erkenntnis, dass das Gefälle zwischen NHL- und DEL-Profis zu groß war, kommt zu spät."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/olympia-2026-eishockey-deutschland-viertelfinale-ausscheiden-gruende-li.3390814",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-02-19T14:16:40.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/klose-fordert-verstaerkung-wir-sind-unterbesetzt-1195029/video#omrss",
-        "title": "Klose fordert Verstärkung: \"Wir sind unterbesetzt\"",
-        "summary": "Miroslav Klose sprach vor dem Duell des FCN gegen Bochum noch einmal über seine Vertragsverlängerung, seine Ambition und das kleine Trainerteam in Nürnberg.",
-        "paragraphs": [
-          "Miroslav Klose sprach vor dem Duell des FCN gegen Bochum noch einmal über seine Vertragsverlängerung, seine Ambition und das kleine Trainerteam in Nürnberg."
-        ],
-        "link": "https://www.kicker.de/klose-fordert-verstaerkung-wir-sind-unterbesetzt-1195029/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-19T14:12:14.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Amazon-stellt-Packroboter-Blue-Jay-nach-wenigen-Monaten-ausser-Dienst-11183053.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Amazon stellt Packroboter Blue Jay nach wenigen Monaten außer Dienst",
+        "summary": "Amazon hat einen Roboter für den Einsatz im Warenlager nach wenigen Monaten wieder abgebaut. Die Technologie soll aber weiterentwickelt werden.",
+        "paragraphs": [
+          "Amazon hat einen Roboter für den Einsatz im Warenlager nach wenigen Monaten wieder abgebaut. Die Technologie soll aber weiterentwickelt werden."
+        ],
+        "link": "https://www.heise.de/news/Amazon-stellt-Packroboter-Blue-Jay-nach-wenigen-Monaten-ausser-Dienst-11183053.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-19T15:36:00.000Z"
+      },
       {
         "id": "https://www.heise.de/bestenlisten/testbericht/smartes-thermostat-fuer-fussbodenheizung-homematic-ip-bwth-im-test/b0rzrtp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Smartes Thermostat für Fußbodenheizung: Homematic IP BWTH im Test",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Angeblich-US-Wohnungen-ausspioniert-Texas-reicht-Klage-gegen-TP-Link-ein-11182373.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-02-19T11:02:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/OpenAI-Codex-fuer-Entwickler-Coding-Agenten-in-VS-Code-Terminal-und-CI-CD-11177666.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: OpenAI Codex für Entwickler – Coding-Agenten in VS Code, Terminal und CI/CD",
-        "summary": "Codex ist die Agenten-Plattform von OpenAI. Unser Experte demonstriert die neueste Version des KI-gestützten Entwicklungstools im Programmieralltag.",
-        "paragraphs": [
-          "Codex ist die Agenten-Plattform von OpenAI. Unser Experte demonstriert die neueste Version des KI-gestützten Entwicklungstools im Programmieralltag."
-        ],
-        "link": "https://www.heise.de/news/OpenAI-Codex-fuer-Entwickler-Coding-Agenten-in-VS-Code-Terminal-und-CI-CD-11177666.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-19T11:00:00.000Z"
       }
     ]
   }
