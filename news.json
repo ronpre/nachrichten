@@ -1,13 +1,24 @@
 {
-  "updatedAt": "2026-02-20T19:57:37.060Z",
+  "updatedAt": "2026-02-20T20:13:32.613Z",
   "categories": {
     "wirtschaft": [
       {
+        "id": "{urn:uuid:fa1851e7-bd2a-429e-b2b3-90ec37c0f200}",
+        "title": "Nicola Albrecht : Das ZDF hat das Maß verloren",
+        "summary": "Der Sender hat die New-York-Korrespondentin Nicola Albrecht abberufen, weil ihr Beitrag nicht gekennzeichnete KI-Bilder enthielt. Es ist eine falsche Entscheidung.",
+        "paragraphs": [
+          "Der Sender hat die New-York-Korrespondentin Nicola Albrecht abberufen, weil ihr Beitrag nicht gekennzeichnete KI-Bilder enthielt. Es ist eine falsche Entscheidung."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-02/nicola-albrecht-zdf-korrespondentin-abberufung-new-york",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-20T19:55:45.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/us-zoelle-supreme-court-erklaert-viele-trump-zoelle-fuer-rechtswidrig/100202033.html",
         "title": "USA: Supreme Court kippt viele Trump-Zölle – US-Präsident will weltweiten Zoll von zusätzlich zehn Prozent verhängen",
-        "summary": "Der Oberste Gerichtshof der USA urteilt gegen die Rechtsauffassung des Präsidenten. Unternehmen wittern bereits Entschädigungen – doch Donald Trump legt nach.",
+        "summary": "Der Oberste Gerichtshof der USA urteilt gegen die Rechtsauffassung Donald Trumps. Der Präsident nennt die Entscheidung eine „Schande“ – und will nachlegen.",
         "paragraphs": [
-          "Der Oberste Gerichtshof der USA urteilt gegen die Rechtsauffassung des Präsidenten. Unternehmen wittern bereits Entschädigungen – doch Donald Trump legt nach."
+          "Der Oberste Gerichtshof der USA urteilt gegen die Rechtsauffassung Donald Trumps. Der Präsident nennt die Entscheidung eine „Schande“ – und will nachlegen."
         ],
         "link": "https://www.handelsblatt.com/politik/international/us-zoelle-supreme-court-erklaert-viele-trump-zoelle-fuer-rechtswidrig/100202033.html",
         "source": "Handelsblatt",
@@ -210,20 +221,20 @@
         "link": "https://www.zeit.de/2026/09/martin-schroeder-soziologe-welt-verbesserung-armut",
         "source": "ZEIT",
         "publishedAt": "2026-02-20T16:02:57.000Z"
-      },
-      {
-        "id": "{urn:uuid:b2b059eb-c1a3-455e-a90b-589104e95f3d}",
-        "title": "Mehrwertsteuer: Mehrwertsteuererhöhung? Nur, wenn man sich durchmogeln will",
-        "summary": "Eine höhere Mehrwertsteuer scheint für Schwarz-Rot der leichteste Weg, um das Haushaltsloch zu stopfen. Aber er wäre ökonomisch, sozial und politisch fatal.",
-        "paragraphs": [
-          "Eine höhere Mehrwertsteuer scheint für Schwarz-Rot der leichteste Weg, um das Haushaltsloch zu stopfen. Aber er wäre ökonomisch, sozial und politisch fatal."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-02/mehrwertsteuer-erhoehung-haushalt-unternehmen-immobilien-marcel-fratzscher",
-        "source": "ZEIT",
-        "publishedAt": "2026-02-20T15:51:01.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "c2f54e42-edca-4f02-93cc-5bd809a22af0",
+        "title": "CDU-Parteitag im Live-Ticker: Merz mit 91 Prozent wiedergewählt",
+        "summary": "Kanzler Friedrich Merz ist mit 91,17 Prozent als CDU-Parteivorsitzender wiedergewählt worden. Alle News bei FOCUS online im Liveticker.",
+        "paragraphs": [
+          "Kanzler Friedrich Merz ist mit 91,17 Prozent als CDU-Parteivorsitzender wiedergewählt worden. Alle News bei FOCUS online im Liveticker."
+        ],
+        "link": "https://www.focus.de/politik/deutschland/cdu-parteitag-im-live-ticker_c2f54e42-edca-4f02-93cc-5bd809a22af0.html",
+        "source": "Focus",
+        "publishedAt": "2026-02-20T20:07:00.000Z"
+      },
       {
         "id": "9b28ef29-a6b4-449b-98ab-e771c11ecb4e",
         "title": "Merkel verließ Parteitag, bevor Merz wiedergewählt wurde",
@@ -368,17 +379,6 @@
         "publishedAt": "2026-02-20T17:47:10.000Z"
       },
       {
-        "id": "c2f54e42-edca-4f02-93cc-5bd809a22af0",
-        "title": "CDU-Parteitag im Live-Ticker: Merz mit 91 Prozent wiedergewählt",
-        "summary": "Kanzler Friedrich Merz ist mit 91,17 Prozent als CDU-Parteivorsitzender wiedergewählt worden. Alle News bei FOCUS online im Liveticker.",
-        "paragraphs": [
-          "Kanzler Friedrich Merz ist mit 91,17 Prozent als CDU-Parteivorsitzender wiedergewählt worden. Alle News bei FOCUS online im Liveticker."
-        ],
-        "link": "https://www.focus.de/politik/deutschland/cdu-parteitag-im-live-ticker_c2f54e42-edca-4f02-93cc-5bd809a22af0.html",
-        "source": "Focus",
-        "publishedAt": "2026-02-20T17:42:00.000Z"
-      },
-      {
         "id": "73374b32-9ba0-41fe-a0ba-62835f13f4a9",
         "title": "CDU-Parteitag in Stuttgart: Friedrich Merz als CDU-Chef wiedergewählt",
         "summary": "Friedrich Merz bleibt Vorsitzender der CDU. Beim Parteitag in Stuttgart erhielt er 91,17 Prozent der Stimmen. Die Zustimmung für den Parteichef fiel damit höher aus als bei der vergangenen Wahl.",
@@ -447,6 +447,83 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/vfb-ii-gegen-mannheim-2026-liga-5057571/spielbericht#omrss",
+        "title": "Darvich trifft doppelt: Spielfreudiger VfB schlägt Mannheim",
+        "summary": "Der VfB Stuttgart II dominierte Waldhof Mannheim besonders vor der Pause und hätte deutlich höher führen können. Auch Mannheims Tor aus dem Nichts brachte den verdienten Heimsieg der Schwaben nicht ins Wanken.",
+        "paragraphs": [
+          "Der VfB Stuttgart II dominierte Waldhof Mannheim besonders vor der Pause und hätte deutlich höher führen können. Auch Mannheims Tor aus dem Nichts brachte den verdienten Heimsieg der Schwaben nicht ins Wanken."
+        ],
+        "link": "https://www.kicker.de/vfb-ii-gegen-mannheim-2026-liga-5057571/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-20T20:10:26.000Z"
+      },
+      {
+        "id": "9c1deb9c-0a7f-466f-ab00-b24555a7202c",
+        "title": "Olympia-News heute im Live-Ticker: Kommt es zum Eishockey-Traumfinale zwischen Kanada und den USA?",
+        "summary": "Das kanadische Eishockeyteam hat sich als Finalist qualifiziert. Nun entscheidet sich, ob sie auf Deutschland-Bezwinger Slowakei oder die USA treffen. Und: Nolte ist im Zweierbob auf Goldkurs. Das ist der Olympiatag.",
+        "paragraphs": [
+          "Das kanadische Eishockeyteam hat sich als Finalist qualifiziert. Nun entscheidet sich, ob sie auf Deutschland-Bezwinger Slowakei oder die USA treffen. Und: Nolte ist im Zweierbob auf Goldkurs. Das ist der Olympiatag."
+        ],
+        "link": "https://www.spiegel.de/sport/olympia/olympia-news-heute-im-live-ticker-johannes-thingnes-bo-zeigt-sich-enttaeuscht-vom-deutschen-biathlon-team-a-9c1deb9c-0a7f-466f-ab00-b24555a7202c#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-02-20T20:08:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/magdeburg-ii-gegen-erfurt-2026-regionalliga-nordost-5058599/spielbericht#omrss",
+        "title": "Hajrullas Doppelschlag bringt die Wende: Erfurt jubelt in Magdeburg",
+        "summary": "Wie schon im Hinspiel schlug der FC Rot-Weiß Erfurt den 1. FC Magdeburg II. Nach starkem Beginn der Gastgeber brachte Hajrullas Doppelschlag die Thüringer auf Kurs.",
+        "paragraphs": [
+          "Wie schon im Hinspiel schlug der FC Rot-Weiß Erfurt den 1. FC Magdeburg II. Nach starkem Beginn der Gastgeber brachte Hajrullas Doppelschlag die Thüringer auf Kurs."
+        ],
+        "link": "https://www.kicker.de/magdeburg-ii-gegen-erfurt-2026-regionalliga-nordost-5058599/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-20T20:02:39.000Z"
+      },
+      {
+        "id": "li.3308382",
+        "title": "Winterspiele in Mailand: Olympia 2026: Wettkämpfe und Entscheidungen im Zeitplan",
+        "summary": "Am 6. Februar wurden die Olympischen Winterspiele 2026 im Mailänder San Siro-Stadion eröffnet. In unserer Übersicht finden Sie, wann welche Medaillenentscheidung stattfindet.",
+        "paragraphs": [
+          "Am 6. Februar wurden die Olympischen Winterspiele 2026 im Mailänder San Siro-Stadion eröffnet. In unserer Übersicht finden Sie, wann welche Medaillenentscheidung stattfindet."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/olympia-2026-zeitplan-heute-live-tv-stream-medaillen-freitag-20-februar-entscheidungen-li.3308382",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-02-20T19:59:00.000Z"
+      },
+      {
+        "id": "li.3380776",
+        "title": "Winterspiele in Mailand und Cortina: Olympia 2026: Der Medaillenspiegel",
+        "summary": "116 Entscheidungen stehen bei den Olympischen Winterspielen in Mailand und Cortina an. Der Medaillenspiegel mit allen Olympiasiegern und den deutschen Medaillen im Überblick.",
+        "paragraphs": [
+          "116 Entscheidungen stehen bei den Olympischen Winterspielen in Mailand und Cortina an. Der Medaillenspiegel mit allen Olympiasiegern und den deutschen Medaillen im Überblick."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/olympia-medaillenspiegel-2026-winterspiele-olympiasieger-tag-14-deutschland-li.3380776",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-02-20T19:59:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/schuster-emotionale-disziplin-und-kontrolle-ist-auch-meine-aufgabe-1195330/artikel#omrss",
+        "title": "Schuster: \"Emotionale Disziplin und Kontrolle ist auch meine Aufgabe\"",
+        "summary": "Die Gegentore nach der Pause, die Gelbsperre und die Verletzungsausfälle - beim SC Freiburg gibt es derzeit Grund zum Nachdenken, aber auch zur Freude.",
+        "paragraphs": [
+          "Die Gegentore nach der Pause, die Gelbsperre und die Verletzungsausfälle - beim SC Freiburg gibt es derzeit Grund zum Nachdenken, aber auch zur Freude."
+        ],
+        "link": "https://www.kicker.de/schuster-emotionale-disziplin-und-kontrolle-ist-auch-meine-aufgabe-1195330/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-20T19:58:54.000Z"
+      },
+      {
+        "id": "{urn:uuid:eab07c32-cb71-41e0-a0b2-17cf78a9dbe4}",
+        "title": "Olympische Winterspiele: Deutsche Favoritinnen im Zweierbob übernehmen die Führung",
+        "summary": "Laura Nolte und Deborah Levi liegen nach zwei von vier Läufen im Zweierbob auf Goldkurs. Auf Platz 2 folgt ein weiteres Duo aus Deutschland. Das Liveblog",
+        "paragraphs": [
+          "Laura Nolte und Deborah Levi liegen nach zwei von vier Läufen im Zweierbob auf Goldkurs. Auf Platz 2 folgt ein weiteres Duo aus Deutschland. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/sport/2026-01/olympische-winterspiele-italien-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-20T19:55:26.000Z"
+      },
+      {
         "id": "https://www.kicker.de/wahnsinnige-blutpanscherei-dav-nimmt-zu-vorwuerfen-stellung-1195328/artikel#omrss",
         "title": "\"Wahnsinnige Blutpanscherei\": DAV nimmt zu Vorwürfen Stellung",
         "summary": "Der Deutsche Alpenverein (DAV) hat zu schweren Vorwürfen von deutschen Skibergsteigern in einem Sportschau-Bericht über angebliche Missstände bei einem medizinischen Test Stellung bezogen.",
@@ -458,26 +535,37 @@
         "publishedAt": "2026-02-20T19:52:30.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-zweierbob-nolte-und-buckwitz-mit-doppelfuehrung-eishockey-usa-vs-slowakei-showdown-in-der-halfpipe-1190942/artikel#omrss",
-        "title": "LIVE! Zweierbob: Nolte und Buckwitz mit Doppelführung - Eishockey: USA vs. Slowakei - Showdown in der Halfpipe",
+        "id": "https://www.kicker.de/live-zweierbob-nolte-und-buckwitz-mit-doppelfuehrung-eishockey-usa-vs-slowakei-finals-im-shorttrack-1190942/artikel#omrss",
+        "title": "LIVE! Zweierbob: Nolte und Buckwitz mit Doppelführung - Eishockey: USA vs. Slowakei - Finals im Shorttrack",
         "summary": "Die Olympischen Winterspiele biegen auf die Zielgerade ein. Am drittletzten Wettkampftag holte Daniela Maier bereits Freestyle-Gold, im Zweierbob könnte am Abend weiteres Edelmetall folgen.",
         "paragraphs": [
           "Die Olympischen Winterspiele biegen auf die Zielgerade ein. Am drittletzten Wettkampftag holte Daniela Maier bereits Freestyle-Gold, im Zweierbob könnte am Abend weiteres Edelmetall folgen."
         ],
-        "link": "https://www.kicker.de/live-zweierbob-nolte-und-buckwitz-mit-doppelfuehrung-eishockey-usa-vs-slowakei-showdown-in-der-halfpipe-1190942/artikel#omrss",
+        "link": "https://www.kicker.de/live-zweierbob-nolte-und-buckwitz-mit-doppelfuehrung-eishockey-usa-vs-slowakei-finals-im-shorttrack-1190942/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-20T19:46:51.000Z"
       },
       {
-        "id": "https://www.kicker.de/fuerth-sendet-ein-lebenszeichen-naechstes-bochumer-unentschieden-1194721/artikel#omrss",
-        "title": "Fürth sendet ein Lebenszeichen - Nächstes Bochumer Unentschieden",
-        "summary": "Zum Auftakt des 24. Spieltags sendete Schlusslicht SpVgg Greuther Fürth im Heimspiel gegen Arminia Bielefeld ein Lebenszeichen und gab die Rote Laterne erst einmal an Dresden weiter. Bochum konterte die Nürnberger Führung, am Ende stand das siebte Unentschieden aus den letzten acht Spielen.",
+        "id": "https://www.kicker.de/wetzlar-gegen-leipzig-2026-handball-bundesliga-5097473/spielbericht#omrss",
+        "title": "Wetzlar gegen Leipzig: Punkteteilung im Abstiegsthriller",
+        "summary": "Abstiegskampf in der Handball-Bundesliga lieferte das Duell zwischen Schlusslicht HSG Wetzlar und dem Vorletzten SC DHfK Leipzig. Die Gäste legten auch dank sechzehn Paraden von Domenico Ebner lange vor, konnten sich aber nicht entscheidend, so dass Stefan Cavor seinem Team mit einem finalen Block einen Punkt sichern konnte.",
         "paragraphs": [
-          "Zum Auftakt des 24. Spieltags sendete Schlusslicht SpVgg Greuther Fürth im Heimspiel gegen Arminia Bielefeld ein Lebenszeichen und gab die Rote Laterne erst einmal an Dresden weiter. Bochum konterte die Nürnberger Führung, am Ende stand das siebte Unentschieden aus den letzten acht Spielen."
+          "Abstiegskampf in der Handball-Bundesliga lieferte das Duell zwischen Schlusslicht HSG Wetzlar und dem Vorletzten SC DHfK Leipzig. Die Gäste legten auch dank sechzehn Paraden von Domenico Ebner lange vor, konnten sich aber nicht entscheidend, so dass Stefan Cavor seinem Team mit einem finalen Block einen Punkt sichern konnte."
         ],
-        "link": "https://www.kicker.de/fuerth-sendet-ein-lebenszeichen-naechstes-bochumer-unentschieden-1194721/artikel#omrss",
+        "link": "https://www.kicker.de/wetzlar-gegen-leipzig-2026-handball-bundesliga-5097473/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-02-20T19:26:46.000Z"
+        "publishedAt": "2026-02-20T19:46:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/fuerth-gegen-bielefeld-2026-bundesliga-5051252/spielbericht#omrss",
+        "title": "Srbeny trifft entscheidend: Fürth landet wichtigen Dreier im Abstiegskampf",
+        "summary": "Fürth fährt gegen Bielefeld wichtige Zähler im Abstiegskampf ein. Die Arminia zeigte sich nach Srbenys erneuter Führung offensiv zu ungefährlich, ihr Powerplay in der Nachspielzeit kam zu spät und blieb wirkungslos.",
+        "paragraphs": [
+          "Fürth fährt gegen Bielefeld wichtige Zähler im Abstiegskampf ein. Die Arminia zeigte sich nach Srbenys erneuter Führung offensiv zu ungefährlich, ihr Powerplay in der Nachspielzeit kam zu spät und blieb wirkungslos."
+        ],
+        "link": "https://www.kicker.de/fuerth-gegen-bielefeld-2026-bundesliga-5051252/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-20T19:40:17.000Z"
       },
       {
         "id": "https://www.kicker.de/riera-vielleicht-sollte-ich-lieber-in-die-kirche-gehen-um-zu-beten-1195318/video#omrss",
@@ -491,13 +579,13 @@
         "publishedAt": "2026-02-20T18:50:06.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-unterhaltsame-anfangsphase-nach-verzoegerungen-nimmt-der-hsv-die-huerde-mainz-1194726/artikel#omrss",
-        "title": "LIVE! Unterhaltsame Anfangsphase nach Verzögerungen - Nimmt der HSV die Hürde Mainz?",
+        "id": "https://www.kicker.de/live-erst-omari-dann-glatzel-batz-zur-stelle-hsv-zunehmend-dominant-1194726/artikel#omrss",
+        "title": "LIVE! Erst Omari, dann Glatzel: Batz zur Stelle - HSV zunehmend dominant",
         "summary": "Mit dem Rückenwind aus fünf ungeschlagenen Partien in Serie reist der Hamburger SV zum Freitagabendspiel nach Mainz. Bestätigen die Rothosen ihren Trend auch ohne den gesperrten Abwehrchef Vuskovic?",
         "paragraphs": [
           "Mit dem Rückenwind aus fünf ungeschlagenen Partien in Serie reist der Hamburger SV zum Freitagabendspiel nach Mainz. Bestätigen die Rothosen ihren Trend auch ohne den gesperrten Abwehrchef Vuskovic?"
         ],
-        "link": "https://www.kicker.de/live-unterhaltsame-anfangsphase-nach-verzoegerungen-nimmt-der-hsv-die-huerde-mainz-1194726/artikel#omrss",
+        "link": "https://www.kicker.de/live-erst-omari-dann-glatzel-batz-zur-stelle-hsv-zunehmend-dominant-1194726/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-20T18:46:17.000Z"
       },
@@ -511,17 +599,6 @@
         "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-20T18:42:49.000Z"
-      },
-      {
-        "id": "{urn:uuid:eab07c32-cb71-41e0-a0b2-17cf78a9dbe4}",
-        "title": "Olympische Winterspiele: Deutsche Favoritinnen im Zweierbob nach erstem Lauf knapp im Rückstand",
-        "summary": "Laura Nolte und Deborah Levi müssen sich im Zweierbob noch steigern, um das erhoffte Gold zu holen. Skistar Lindsey Vonn wurde erneut operiert. Das Liveblog",
-        "paragraphs": [
-          "Laura Nolte und Deborah Levi müssen sich im Zweierbob noch steigern, um das erhoffte Gold zu holen. Skistar Lindsey Vonn wurde erneut operiert. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/sport/2026-01/olympische-winterspiele-italien-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-02-20T18:25:00.000Z"
       },
       {
         "id": "https://www.kicker.de/entscheidung-gefallen-braune-verlaesst-luckenwalde-im-sommer-1195313/artikel#omrss",
@@ -544,17 +621,6 @@
         "link": "https://www.spiegel.de/sport/olympia/olympia-2026-skicross-siegerin-daniela-maier-wollte-dominieren-und-sie-dominierte-a-a414d62f-82d4-4866-8653-88b28878227e#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-02-20T18:23:00.000Z"
-      },
-      {
-        "id": "9c1deb9c-0a7f-466f-ab00-b24555a7202c",
-        "title": "Olympia-News heute im Live-Ticker: Favorit Kanada rettet sich ins Eishockey-Finale",
-        "summary": "Sekunden vor Schluss kann sich das kanadische Eishockeyteam gegen starke Finnen durchsetzen. Und: Biathletin Franziska Preuß beendet ihre Karriere. Der Massenstart wird ihr letztes Rennen. Das ist der Olympiatag.",
-        "paragraphs": [
-          "Sekunden vor Schluss kann sich das kanadische Eishockeyteam gegen starke Finnen durchsetzen. Und: Biathletin Franziska Preuß beendet ihre Karriere. Der Massenstart wird ihr letztes Rennen. Das ist der Olympiatag."
-        ],
-        "link": "https://www.spiegel.de/sport/olympia/olympia-news-heute-im-live-ticker-johannes-thingnes-bo-zeigt-sich-enttaeuscht-vom-deutschen-biathlon-team-a-9c1deb9c-0a7f-466f-ab00-b24555a7202c#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-02-20T18:15:00.000Z"
       },
       {
         "id": "https://www.kicker.de/rochade-bei-bayer-und-beim-dfb-merino-gonzalez-ausfall-und-die-folgen-1195169/artikel#omrss",
@@ -599,81 +665,15 @@
         "link": "https://www.spiegel.de/sport/wintersport/olympia-2026-gastronom-sammelt-olympia-exponate-herr-der-fackeln-a-2ef4bae7-6626-4154-b3ec-53d9b535de84#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-02-20T17:31:00.000Z"
-      },
-      {
-        "id": "li.3380776",
-        "title": "Winterspiele in Mailand und Cortina: Olympia 2026: Der Medaillenspiegel",
-        "summary": "116 Entscheidungen stehen bei den Olympischen Winterspielen in Mailand und Cortina an. Der Medaillenspiegel mit allen Olympiasiegern und den deutschen Medaillen im Überblick.",
-        "paragraphs": [
-          "116 Entscheidungen stehen bei den Olympischen Winterspielen in Mailand und Cortina an. Der Medaillenspiegel mit allen Olympiasiegern und den deutschen Medaillen im Überblick."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/olympia-medaillenspiegel-2026-winterspiele-olympiasieger-tag-14-deutschland-li.3380776",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-02-20T17:13:00.000Z"
-      },
-      {
-        "id": "li.3308382",
-        "title": "Winterspiele in Mailand: Olympia 2026: Wettkämpfe und Entscheidungen im Zeitplan",
-        "summary": "Am 6. Februar wurden die Olympischen Winterspiele 2026 im Mailänder San Siro-Stadion eröffnet. In unserer Übersicht finden Sie, wann welche Medaillenentscheidung stattfindet.",
-        "paragraphs": [
-          "Am 6. Februar wurden die Olympischen Winterspiele 2026 im Mailänder San Siro-Stadion eröffnet. In unserer Übersicht finden Sie, wann welche Medaillenentscheidung stattfindet."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/olympia-2026-zeitplan-heute-live-tv-stream-medaillen-freitag-20-februar-entscheidungen-li.3308382",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-02-20T17:11:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/olympia-2026-zeitplan-mit-allen-medaillenentscheidungen-im-ueberblick-1176592/artikel#omrss",
-        "title": "Olympia 2026: Zeitplan mit allen Medaillenentscheidungen im Überblick",
-        "summary": "Vom 6. bis 22. Februar 2026 gehen in Mailand und Cortina d'Ampezzo die Olympischen Winterspiele über die Bühne. Der kicker gibt einen Überblick, wann in welchen Disziplinen um Gold, Silber und Bronze gekämpft wird.",
-        "paragraphs": [
-          "Vom 6. bis 22. Februar 2026 gehen in Mailand und Cortina d'Ampezzo die Olympischen Winterspiele über die Bühne. Der kicker gibt einen Überblick, wann in welchen Disziplinen um Gold, Silber und Bronze gekämpft wird."
-        ],
-        "link": "https://www.kicker.de/olympia-2026-zeitplan-mit-allen-medaillenentscheidungen-im-ueberblick-1176592/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-20T17:10:43.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/algarve-rundfahrt-lipowitz-mit-solider-zeitfahr-leistung-1195306/artikel#omrss",
-        "title": "Algarve-Rundfahrt: Lipowitz mit solider Zeitfahr-Leistung",
-        "summary": "In seinem ersten Einzelzeitfahren der Saison fährt Florian Lipowitz solide. Bei der Algarve-Rundfahrt zeigt sich, dass der Tour-Dritte noch Luft nach oben hat. Warum dies aber kein Problem ist.",
-        "paragraphs": [
-          "In seinem ersten Einzelzeitfahren der Saison fährt Florian Lipowitz solide. Bei der Algarve-Rundfahrt zeigt sich, dass der Tour-Dritte noch Luft nach oben hat. Warum dies aber kein Problem ist."
-        ],
-        "link": "https://www.kicker.de/algarve-rundfahrt-lipowitz-mit-solider-zeitfahr-leistung-1195306/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-20T17:08:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/strasser-erklaert-kritik-athleten-muessen-auch-mal-den-mund-aufmachen-1195301/artikel#omrss",
-        "title": "Straßer erklärt Kritik: \"Athleten müssen auch mal den Mund aufmachen\"",
-        "summary": "Mit seinem Olympia-Frust im TV hatte Linus Straßer für viel Wirbel gesorgt. Jetzt meldete er sich noch einmal zu Wort und richtete eine Mahnung an die deutschen Olympia-Bewerber.",
-        "paragraphs": [
-          "Mit seinem Olympia-Frust im TV hatte Linus Straßer für viel Wirbel gesorgt. Jetzt meldete er sich noch einmal zu Wort und richtete eine Mahnung an die deutschen Olympia-Bewerber."
-        ],
-        "link": "https://www.kicker.de/strasser-erklaert-kritik-athleten-muessen-auch-mal-den-mund-aufmachen-1195301/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-20T17:04:33.000Z"
-      },
-      {
-        "id": "{urn:uuid:742bda83-427e-48c8-8fa9-f2c593e20ad8}",
-        "title": "Biathlon: Franziska Preuß beendet ihre Karriere direkt nach Olympia-Massenstart",
-        "summary": "\"One last dance\": Franziska Preuß hat angekündigt, nach dem olympischen Massenstart ihre Karriere zu beenden. Die Biathletin möchte \"ein neues Kapitel\" beginnen.",
-        "paragraphs": [
-          "\"One last dance\": Franziska Preuß hat angekündigt, nach dem olympischen Massenstart ihre Karriere zu beenden. Die Biathletin möchte \"ein neues Kapitel\" beginnen."
-        ],
-        "link": "https://www.zeit.de/sport/2026-02/biathlon-franziska-preuss-karriereende-olympia-antholz",
-        "source": "ZEIT",
-        "publishedAt": "2026-02-20T17:01:42.000Z"
       }
     ],
     "edv": [
       {
         "id": "https://www.heise.de/bestenlisten/testsieger/top-10-der-beste-open-ear-kopfhoerer-im-test-shokz-vor-beyerdynamic-und-jbl/ce2xwfl?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Top 10: Der beste Open-Ear-Kopfhörer im Test",
-        "summary": "Open-Ear-Kopfhörer lassen den Gehörgang frei – und klingen trotzdem mittlerweile richtig gut. Wir zeigen die 10 besten Open-Ears aus etwa 30 Tests.",
+        "summary": "Open-Ear-Kopfhörer lassen den Gehörgang frei und klingen trotzdem mittlerweile richtig gut. Wir zeigen die besten Open-Ears.",
         "paragraphs": [
-          "Open-Ear-Kopfhörer lassen den Gehörgang frei – und klingen trotzdem mittlerweile richtig gut. Wir zeigen die 10 besten Open-Ears aus etwa 30 Tests."
+          "Open-Ear-Kopfhörer lassen den Gehörgang frei und klingen trotzdem mittlerweile richtig gut. Wir zeigen die besten Open-Ears."
         ],
         "link": "https://www.heise.de/bestenlisten/testsieger/top-10-der-beste-open-ear-kopfhoerer-im-test-shokz-vor-beyerdynamic-und-jbl/ce2xwfl?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
