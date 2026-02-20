@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-02-20T09:58:54.304Z",
+  "updatedAt": "2026-02-20T10:19:18.133Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-umfang-von-geschaeftsberichten-stark-gestiegen-wie-kann-das-sein/100200899.html",
+        "title": "Banken: Umfang von Geschäftsberichten stark gestiegen – wie kann das sein?",
+        "summary": "Die Seitenzahl der Berichte von drei Instituten hat sich seit 2000 verdreifacht, zeigt eine exklusive Auswertung. Dafür gibt es mehrere Gründe.",
+        "paragraphs": [
+          "Die Seitenzahl der Berichte von drei Instituten hat sich seit 2000 verdreifacht, zeigt eine exklusive Auswertung. Dafür gibt es mehrere Gründe."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-umfang-von-geschaeftsberichten-stark-gestiegen-wie-kann-das-sein/100200899.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-02-20T09:59:23.000Z"
+      },
       {
         "id": "36875fdd-76cc-44a5-9767-e61f98a650f7",
         "title": "IfW: Moritz Schularick stellt Kündigungsschutz im öffentlichen Dienst infrage",
@@ -181,9 +192,9 @@
       {
         "id": "{urn:uuid:96620c8d-8ab9-4920-bcea-23bd8b0cbec0}",
         "title": "Handelsbeziehungen: China löst USA als wichtigster Handelspartner Deutschlands ab",
-        "summary": "Deutschland und China tauschten im vergangenen Jahr Waren im Wert von mehr als 250 Millionen Euro aus. Die deutschen Exporte in die USA nahmen ab.",
+        "summary": "Deutschland und China tauschten im vergangenen Jahr Waren im Wert von mehr als 250 Milliarden Euro aus. Die deutschen Exporte in die USA nahmen ab.",
         "paragraphs": [
-          "Deutschland und China tauschten im vergangenen Jahr Waren im Wert von mehr als 250 Millionen Euro aus. Die deutschen Exporte in die USA nahmen ab."
+          "Deutschland und China tauschten im vergangenen Jahr Waren im Wert von mehr als 250 Milliarden Euro aus. Die deutschen Exporte in die USA nahmen ab."
         ],
         "link": "https://www.zeit.de/wirtschaft/2026-02/china-deutschland-usa-warenhandel-importe-gxe",
         "source": "ZEIT",
@@ -210,20 +221,31 @@
         "link": "https://www.handelsblatt.com/politik/international/suedkorea-ex-praesident-verteidigt-kriegsrecht-und-entschuldigt-sich/100201918.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-02-20T08:32:11.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/cannabis-kanadischer-konzern-kauft-deutsche-sanity-group/100200519.html",
-        "title": "Cannabis: Kanadischer Cannabis-Konzern kauft deutsche Sanity Group",
-        "summary": "Das Berliner Unternehmen wird bei dem Kauf durch Organigram mit bis zu 250 Millionen Euro bewertet. Daten zeigen dabei: Der deutsche Cannabis-Markt hat noch Wachstumspotenzial.",
-        "paragraphs": [
-          "Das Berliner Unternehmen wird bei dem Kauf durch Organigram mit bis zu 250 Millionen Euro bewertet. Daten zeigen dabei: Der deutsche Cannabis-Markt hat noch Wachstumspotenzial."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/cannabis-kanadischer-konzern-kauft-deutsche-sanity-group/100200519.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-02-20T08:31:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "21f049ee-f093-464f-a0ee-49a5260446c0",
+        "title": "\"Telegraph\"-Analyse: Putin will Zeit schinden, doch die Ukraine gewinnt an Boden",
+        "summary": "Russlands Krieg gegen die Ukraine geht ins vierte Jahr. Moskau gerät zunehmend in Schwierigkeiten. Die Verluste sind hoch, die Wirtschaft leidet.",
+        "paragraphs": [
+          "Russlands Krieg gegen die Ukraine geht ins vierte Jahr. Moskau gerät zunehmend in Schwierigkeiten. Die Verluste sind hoch, die Wirtschaft leidet."
+        ],
+        "link": "https://www.focus.de/politik/ausland/telegraph-analyse-putin-will-zeit-schinden-doch-die-ukraine-gewinnt-an-boden_21f049ee-f093-464f-a0ee-49a5260446c0.html",
+        "source": "Focus",
+        "publishedAt": "2026-02-20T10:07:00.000Z"
+      },
+      {
+        "id": "4d51b234-3d27-4bd4-9a58-277eff749f6b",
+        "title": "Krim: Ukraine greift russischen Militärstützpunkt mit Drohnen an",
+        "summary": "Für Russland ist die Hafenstadt Sewastopol auf der besetzten Halbinsel Krim ein wichtiger Militärstützpunkt. Bei einer ukrainischen Drohnenattacke gibt es nach Behördenangaben Opfer.",
+        "paragraphs": [
+          "Für Russland ist die Hafenstadt Sewastopol auf der besetzten Halbinsel Krim ein wichtiger Militärstützpunkt. Bei einer ukrainischen Drohnenattacke gibt es nach Behördenangaben Opfer."
+        ],
+        "link": "https://www.focus.de/politik/ausland/krim-ukraine-greift-russischen-militaerstuetzpunkt-mit-drohnen-an_4d51b234-3d27-4bd4-9a58-277eff749f6b.html",
+        "source": "Focus",
+        "publishedAt": "2026-02-20T10:02:00.000Z"
+      },
       {
         "id": "a67fbec9-a55e-49bc-8628-c2ebe2d6d7c4",
         "title": "Zahlen oder sterben: So erpressen Russen-Kommandeure ihre Soldaten",
@@ -421,31 +443,53 @@
         "link": "https://www.handelsblatt.com/politik/international/ki-internationale-forscher-warnen-vor-kontrollverlust-durch-open-claw/100201569.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-02-20T08:20:00.000Z"
-      },
-      {
-        "id": "cebf6cec-fafb-45f5-862b-65cebd56d8cb",
-        "title": "AfD und CDU: Die Brandmauer steht vor dem Fall. Was jetzt passieren muss",
-        "summary": "Die anderen Parteien halten die AfD von der Macht fern, stärker wird sie trotzdem. Teile der CDU hadern deshalb mit dem Kooperationsverbot. Was noch für die Brandmauer spricht, was die Alternativen sind – die SPIEGEL-Titelstory.",
-        "paragraphs": [
-          "Die anderen Parteien halten die AfD von der Macht fern, stärker wird sie trotzdem. Teile der CDU hadern deshalb mit dem Kooperationsverbot. Was noch für die Brandmauer spricht, was die Alternativen sind – die SPIEGEL-Titelstory."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/afd-und-cdu-die-brandmauer-steht-vor-dem-fall-was-jetzt-passieren-muss-a-cebf6cec-fafb-45f5-862b-65cebd56d8cb#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-02-20T08:18:00.000Z"
-      },
-      {
-        "id": "f0f5304f-5f54-405b-9fc9-87cba9511527",
-        "title": "CDU-Europapolitiker Niclas Herbst: »Mir gefällt der negative Ton nicht«",
-        "summary": "Zu langsam, zu bürokratisch: Manche in der CDU lassen kaum ein gutes Haar an der EU. Nun kontert der Chef der Unionsabgeordneten in Brüssel – und warnt die eigenen Leute vor einem Sound von Rechtspopulisten.",
-        "paragraphs": [
-          "Zu langsam, zu bürokratisch: Manche in der CDU lassen kaum ein gutes Haar an der EU. Nun kontert der Chef der Unionsabgeordneten in Brüssel – und warnt die eigenen Leute vor einem Sound von Rechtspopulisten."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/cdu-europapolitiker-niclas-herbst-mir-gefaellt-der-negative-ton-nicht-a-f0f5304f-5f54-405b-9fc9-87cba9511527#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-02-20T07:51:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "title": "Saka verlängert bei Arsenal - Was läuft zwischen Alvarez und Barcelona?",
+        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
+        "paragraphs": [
+          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
+        ],
+        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-20T10:15:18.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/splitter-keiner-hat-mehr-blech-als-team-d-wendl-und-arlt-tragen-die-fahne-1189218/artikel#omrss",
+        "title": "Splitter: Keiner hat mehr \"Blech\" als Team D - Wendl und Arlt tragen die Fahne",
+        "summary": "Rund 3500 Sportler aus etwa 90 Nationen kämpfen vom 6. bis zum 22. Februar 2026 in Norditalien um Gold, Silber und Bronze. Hier findet ihr alle News und Kuriositäten rund um die Olympischen Winterspiele in Mailand und Cortina d'Ampezzo.",
+        "paragraphs": [
+          "Rund 3500 Sportler aus etwa 90 Nationen kämpfen vom 6. bis zum 22. Februar 2026 in Norditalien um Gold, Silber und Bronze. Hier findet ihr alle News und Kuriositäten rund um die Olympischen Winterspiele in Mailand und Cortina d'Ampezzo."
+        ],
+        "link": "https://www.kicker.de/splitter-keiner-hat-mehr-blech-als-team-d-wendl-und-arlt-tragen-die-fahne-1189218/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-20T10:12:20.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-maier-im-freestyle-achtelfinale-biathlon-massenstart-am-nachmittag-curling-halbfinals-1190942/artikel#omrss",
+        "title": "LIVE! Maier im Freestyle-Achtelfinale - Biathlon-Massenstart am Nachmittag - Curling-Halbfinals",
+        "summary": "Die Olympischen Winterspiele biegen auf die Zielgerade ein. Am drittletzten Wettkampftag stehen unter anderem Medaillen-Entscheidungen im Curling an, für Team Deutschland halten Daniela Maier im Ski Freestyle, die Biathlon-Männer im Massenstart sowie die Zweierbobs der Damen die Fahnen hoch.",
+        "paragraphs": [
+          "Die Olympischen Winterspiele biegen auf die Zielgerade ein. Am drittletzten Wettkampftag stehen unter anderem Medaillen-Entscheidungen im Curling an, für Team Deutschland halten Daniela Maier im Ski Freestyle, die Biathlon-Männer im Massenstart sowie die Zweierbobs der Damen die Fahnen hoch."
+        ],
+        "link": "https://www.kicker.de/live-maier-im-freestyle-achtelfinale-biathlon-massenstart-am-nachmittag-curling-halbfinals-1190942/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-20T09:58:23.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kritik-an-mourinho-kompanys-gesamtes-plaedoyer-gegen-rassismus-im-video-1195189/video#omrss",
+        "title": "Kritik an Mourinho: Kompanys gesamtes Plädoyer gegen Rassismus im Video",
+        "summary": "Vincent Kompany nutzte die letzten zwölf Minuten der Pressekonferenz für ein flammendes Plädoyer gegen Rassismus. Anlass war die rassistische Beleidigung gegen Vinicius Junior beim Spiel Real Madrid gegen Benfica Lissabon unter der Woche - und die anschließende Äußerung von José Mourinho.",
+        "paragraphs": [
+          "Vincent Kompany nutzte die letzten zwölf Minuten der Pressekonferenz für ein flammendes Plädoyer gegen Rassismus. Anlass war die rassistische Beleidigung gegen Vinicius Junior beim Spiel Real Madrid gegen Benfica Lissabon unter der Woche - und die anschließende Äußerung von José Mourinho."
+        ],
+        "link": "https://www.kicker.de/kritik-an-mourinho-kompanys-gesamtes-plaedoyer-gegen-rassismus-im-video-1195189/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-20T09:57:20.000Z"
+      },
       {
         "id": "https://www.kicker.de/realistische-titelchance-bamberg-macht-top-four-ansage-1194775/artikel#omrss",
         "title": "\"Realistische Titelchance\": Bamberg macht Top-Four-Ansage",
@@ -621,53 +665,42 @@
         "link": "https://www.sueddeutsche.de/sport/eisschnelllauf-sonnekalb-olympia-li.3390889",
         "source": "Sueddeutsche",
         "publishedAt": "2026-02-20T08:31:27.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/frueh-der-block-spaet-der-dagger-durant-ueberragt-bei-rockets-sieg-1195163/video#omrss",
-        "title": "Früh der Block, spät der Dagger: Durant überragt bei Rockets-Sieg",
-        "summary": "Die Houston Rockets gewannen knapp mit 105:101 gegen die Charlotte Hornets. Kevin Durant war dabei der überragende Akteur auf dem Parkett und steuerte 35 Punkte bei.",
-        "paragraphs": [
-          "Die Houston Rockets gewannen knapp mit 105:101 gegen die Charlotte Hornets. Kevin Durant war dabei der überragende Akteur auf dem Parkett und steuerte 35 Punkte bei."
-        ],
-        "link": "https://www.kicker.de/frueh-der-block-spaet-der-dagger-durant-ueberragt-bei-rockets-sieg-1195163/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-20T08:17:48.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/o-neill-kritisiert-celtic-fans-scharf-dieser-ort-war-einmal-einschuechternd-1195148/artikel#omrss",
-        "title": "O'Neill kritisiert Celtic-Fans scharf: \"Dieser Ort war einmal einschüchternd\"",
-        "summary": "Celtic Glasgow kann das Europa-League-Achtelfinale gedanklich wohl schon abhaken. Trainer Martin O'Neill kritisierte nach dem 1:4 gegen Stuttgart vor allem die eigenen Fans.",
-        "paragraphs": [
-          "Celtic Glasgow kann das Europa-League-Achtelfinale gedanklich wohl schon abhaken. Trainer Martin O'Neill kritisierte nach dem 1:4 gegen Stuttgart vor allem die eigenen Fans."
-        ],
-        "link": "https://www.kicker.de/o-neill-kritisiert-celtic-fans-scharf-dieser-ort-war-einmal-einschuechternd-1195148/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-20T08:14:50.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kaltstart-des-bfc-dynamo-der-pokal-auftritt-ist-der-massstab-1194578/artikel#omrss",
-        "title": "Kaltstart des BFC Dynamo: Der Pokal-Auftritt ist der Maßstab",
-        "summary": "Sven Körner würde nur allzu gerne sein erstes Regionalliga-Spiel als Trainer des BFC Dynamo bestreiten. Doch es braucht Geduld. Wie sein Team nach dem Re-Start auftreten soll, davon hat Körner schon eine konkrete Idee.",
-        "paragraphs": [
-          "Sven Körner würde nur allzu gerne sein erstes Regionalliga-Spiel als Trainer des BFC Dynamo bestreiten. Doch es braucht Geduld. Wie sein Team nach dem Re-Start auftreten soll, davon hat Körner schon eine konkrete Idee."
-        ],
-        "link": "https://www.kicker.de/kaltstart-des-bfc-dynamo-der-pokal-auftritt-ist-der-massstab-1194578/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-20T08:08:41.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/splitter-keiner-hat-mehr-blech-als-team-d-eiskunstlauf-koenigin-liu-1189218/artikel#omrss",
-        "title": "Splitter: Keiner hat mehr \"Blech\" als Team D - Eiskunstlauf-Königin Liu",
-        "summary": "Rund 3500 Sportler aus etwa 90 Nationen kämpfen vom 6. bis zum 22. Februar 2026 in Norditalien um Gold, Silber und Bronze. Hier findet ihr alle News und Kuriositäten rund um die Olympischen Winterspiele in Mailand und Cortina d'Ampezzo.",
-        "paragraphs": [
-          "Rund 3500 Sportler aus etwa 90 Nationen kämpfen vom 6. bis zum 22. Februar 2026 in Norditalien um Gold, Silber und Bronze. Hier findet ihr alle News und Kuriositäten rund um die Olympischen Winterspiele in Mailand und Cortina d'Ampezzo."
-        ],
-        "link": "https://www.kicker.de/splitter-keiner-hat-mehr-blech-als-team-d-eiskunstlauf-koenigin-liu-1189218/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-20T08:04:48.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Internationale-Atomenergiebehoerde-besorgt-ueber-Zustand-des-AKW-Saporischschja-11183852.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Internationale Atomenergiebehörde besorgt über Zustand des AKW Saporischschja",
+        "summary": "Nach dem Ausfall der Notstromleitung des AKW Saporischschja ist die Sicherheit des Kernkraftwerks gefährdet. Die Internationale Atomenergiebehörde ist besorgt.",
+        "paragraphs": [
+          "Nach dem Ausfall der Notstromleitung des AKW Saporischschja ist die Sicherheit des Kernkraftwerks gefährdet. Die Internationale Atomenergiebehörde ist besorgt."
+        ],
+        "link": "https://www.heise.de/news/Internationale-Atomenergiebehoerde-besorgt-ueber-Zustand-des-AKW-Saporischschja-11183852.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-20T10:11:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/China-ueberholt-USA-als-Deutschlands-Top-Handelspartner-11183897.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "China überholt USA als Deutschlands Top-Handelspartner",
+        "summary": "China holt sich den Spitzenplatz im Handel mit Deutschland zurück. Doch am Absatzmarkt USA kommen Exporteure nicht vorbei – trotz der neuen Zölle.",
+        "paragraphs": [
+          "China holt sich den Spitzenplatz im Handel mit Deutschland zurück. Doch am Absatzmarkt USA kommen Exporteure nicht vorbei – trotz der neuen Zölle."
+        ],
+        "link": "https://www.heise.de/news/China-ueberholt-USA-als-Deutschlands-Top-Handelspartner-11183897.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-20T10:09:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Grossinvestor-Berkshire-Hathaway-verkauft-erneut-Apple-Aktien-11182842.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Großinvestor Berkshire Hathaway verkauft erneut Apple-Aktien",
+        "summary": "Das Unternehmen des legendären Investors Warren Buffett steckt seit 2016 Geld in Apple. Der Anteil wurde nun erneut zurückgefahren.",
+        "paragraphs": [
+          "Das Unternehmen des legendären Investors Warren Buffett steckt seit 2016 Geld in Apple. Der Anteil wurde nun erneut zurückgefahren."
+        ],
+        "link": "https://www.heise.de/news/Grossinvestor-Berkshire-Hathaway-verkauft-erneut-Apple-Aktien-11182842.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-20T09:57:00.000Z"
+      },
       {
         "id": "https://www.heise.de/tests/Ausprobiert-Nintendos-neuer-Virtual-Boy-zeigt-warum-das-Original-gefloppt-ist-11183646.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Ausprobiert: Nintendos neuer Virtual Boy zeigt, warum das Original gefloppt ist",
@@ -854,39 +887,6 @@
         "link": "https://www.heise.de/hintergrund/Laser-gegen-Drohnen-Deutsches-Start-up-setzt-auf-Praezision-und-Beweglichkeit-11182979.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-02-20T07:23:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Drei-Fragen-und-Antworten-Verschluesselung-in-der-Azure-Cloud-meistern-11182487.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Drei Fragen und Antworten: Verschlüsselung in der Azure Cloud meistern",
-        "summary": "Speichert man Firmendaten bei einem Cloud-Anbieter, regelt der meist die Verschlüsselung. Bei vertraulichen Daten sollte man aber auf eigene Schlüssel setzen.",
-        "paragraphs": [
-          "Speichert man Firmendaten bei einem Cloud-Anbieter, regelt der meist die Verschlüsselung. Bei vertraulichen Daten sollte man aber auf eigene Schlüssel setzen."
-        ],
-        "link": "https://www.heise.de/news/Drei-Fragen-und-Antworten-Verschluesselung-in-der-Azure-Cloud-meistern-11182487.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-20T07:15:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/meinung/Backup-Nicht-am-falschen-Ende-sparen-11155372.html",
-        "title": "Backup: Nicht am falschen Ende sparen!",
-        "summary": "Allen Preissteigerungen zum Trotz: Wer bei der Datensicherung auf die falsche Hardware setzt, steht am Ende unter Umständen ohne Daten da.",
-        "paragraphs": [
-          "Allen Preissteigerungen zum Trotz: Wer bei der Datensicherung auf die falsche Hardware setzt, steht am Ende unter Umständen ohne Daten da."
-        ],
-        "link": "https://www.heise.de/meinung/Backup-Nicht-am-falschen-Ende-sparen-11155372.html",
-        "source": "c't",
-        "publishedAt": "2026-02-20T07:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/iX-Workshop-DevSecOps-Automatisierte-Sicherheitstests-fuer-Webanwendungen-11168878.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: DevSecOps – Automatisierte Sicherheitstests für Webanwendungen",
-        "summary": "Automatisierte Sicherheitsprüfungen auf Anwendungsebene in den DevSecOps-Prozess integrieren.",
-        "paragraphs": [
-          "Automatisierte Sicherheitsprüfungen auf Anwendungsebene in den DevSecOps-Prozess integrieren."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-DevSecOps-Automatisierte-Sicherheitstests-fuer-Webanwendungen-11168878.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-20T07:00:00.000Z"
       }
     ]
   }
