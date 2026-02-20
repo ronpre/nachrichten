@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-02-20T20:13:32.613Z",
+  "updatedAt": "2026-02-20T20:32:01.898Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "li.3371743",
+        "title": "Handelspolitik: Trump akzeptiert Zollurteil nicht und beschimpft Richter",
+        "summary": "Der Oberste Gerichtshof erklärt Trumps drastische Gegenzölle für unrechtmäßig. Der US-Präsident tobt und droht mit neuen globalen Einfuhrabgaben. Die Richter nennt er „Idioten und Schoßhunde“.",
+        "paragraphs": [
+          "Der Oberste Gerichtshof erklärt Trumps drastische Gegenzölle für unrechtmäßig. Der US-Präsident tobt und droht mit neuen globalen Einfuhrabgaben. Die Richter nennt er „Idioten und Schoßhunde“."
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/trump-zoelle-supreme-court-li.3371743",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-02-20T20:10:00.000Z"
+      },
       {
         "id": "{urn:uuid:fa1851e7-bd2a-429e-b2b3-90ec37c0f200}",
         "title": "Nicola Albrecht : Das ZDF hat das Maß verloren",
@@ -48,7 +59,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/fragen-und-antworten-was-wird-jetzt-aus-trumps-handelskriegen/100202059.html",
-        "title": "Fragen und Antworten: Erpressungstaktik gescheitert? Wie das Urteil Trumps Handelskrieg durchkreuzt",
+        "title": "US-Zölle: Was wird jetzt aus Trumps Handelskriegen? Die wichtigsten Fragen und Antworten",
         "summary": "Sie sollten die eigene Industrie schützen, waren Geldquelle und Druckmittel. Nun kippt das Oberste Gericht der USA viele Zölle des Präsidenten. Die EU sieht sich in ihrer Taktik bestätigt.",
         "paragraphs": [
           "Sie sollten die eigene Industrie schützen, waren Geldquelle und Druckmittel. Nun kippt das Oberste Gericht der USA viele Zölle des Präsidenten. Die EU sieht sich in ihrer Taktik bestätigt."
@@ -157,17 +168,6 @@
         "publishedAt": "2026-02-20T16:32:00.000Z"
       },
       {
-        "id": "li.3371743",
-        "title": "Handelspolitik: Oberster Gerichtshof räumt Trumps Gegenzölle ab",
-        "summary": "Der US-Präsident hat mit seinen drastischen Einfuhrabgaben seine Befugnisse überschritten, urteilen die Richter des Supreme Court. Die Entscheidung ist eine Niederlage für Trump, aber kein Ende seiner protektionistischen Handelspolitik.",
-        "paragraphs": [
-          "Der US-Präsident hat mit seinen drastischen Einfuhrabgaben seine Befugnisse überschritten, urteilen die Richter des Supreme Court. Die Entscheidung ist eine Niederlage für Trump, aber kein Ende seiner protektionistischen Handelspolitik."
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/trump-zoelle-supreme-court-li.3371743",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-02-20T16:28:09.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-plus-nach-us-zollentscheid/100201897.html",
         "title": "Dax aktuell: Dax schließt im Plus nach US-Zollentscheid",
         "summary": "Der Oberste Gerichtshof hat die Zölle von US-Präsident Trump für rechtswidrig erklärt. Anlegerinnen und Anleger steigen daraufhin am deutschen Aktienmarkt ein.",
@@ -260,9 +260,9 @@
       {
         "id": "https://www.handelsblatt.com/politik/international/us-zoelle-supreme-court-erklaert-viele-trump-zoelle-fuer-rechtswidrig/100202033.html",
         "title": "USA: Supreme Court kippt viele Trump-Zölle – US-Präsident will weltweiten Zoll von zusätzlich zehn Prozent verhängen",
-        "summary": "Der Oberste Gerichtshof der USA urteilt gegen die Rechtsauffassung des Präsidenten. Unternehmen wittern bereits Entschädigungen – doch Donald Trump legt nach.",
+        "summary": "Der Oberste Gerichtshof der USA urteilt gegen die Rechtsauffassung Donald Trumps. Der Präsident nennt die Entscheidung eine „Schande“ – und will nachlegen.",
         "paragraphs": [
-          "Der Oberste Gerichtshof der USA urteilt gegen die Rechtsauffassung des Präsidenten. Unternehmen wittern bereits Entschädigungen – doch Donald Trump legt nach."
+          "Der Oberste Gerichtshof der USA urteilt gegen die Rechtsauffassung Donald Trumps. Der Präsident nennt die Entscheidung eine „Schande“ – und will nachlegen."
         ],
         "link": "https://www.handelsblatt.com/politik/international/us-zoelle-supreme-court-erklaert-viele-trump-zoelle-fuer-rechtswidrig/100202033.html",
         "source": "Handelsblatt",
@@ -303,7 +303,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/fragen-und-antworten-was-wird-jetzt-aus-trumps-handelskriegen/100202059.html",
-        "title": "Fragen und Antworten: Erpressungstaktik gescheitert? Wie das Urteil Trumps Handelskrieg durchkreuzt",
+        "title": "US-Zölle: Was wird jetzt aus Trumps Handelskriegen? Die wichtigsten Fragen und Antworten",
         "summary": "Sie sollten die eigene Industrie schützen, waren Geldquelle und Druckmittel. Nun kippt das Oberste Gericht der USA viele Zölle des Präsidenten. Die EU sieht sich in ihrer Taktik bestätigt.",
         "paragraphs": [
           "Sie sollten die eigene Industrie schützen, waren Geldquelle und Druckmittel. Nun kippt das Oberste Gericht der USA viele Zölle des Präsidenten. Die EU sieht sich in ihrer Taktik bestätigt."
@@ -458,6 +458,17 @@
         "publishedAt": "2026-02-20T20:10:26.000Z"
       },
       {
+        "id": "{urn:uuid:eab07c32-cb71-41e0-a0b2-17cf78a9dbe4}",
+        "title": "Olympische Winterspiele: Deutsche Favoritinnen im Zweierbob übernehmen die Führung",
+        "summary": "Laura Nolte und Deborah Levi liegen nach zwei von vier Läufen im Zweierbob auf Goldkurs. Auf Platz zwei folgt ein weiteres Duo aus Deutschland. Das Liveblog",
+        "paragraphs": [
+          "Laura Nolte und Deborah Levi liegen nach zwei von vier Läufen im Zweierbob auf Goldkurs. Auf Platz zwei folgt ein weiteres Duo aus Deutschland. Das Liveblog"
+        ],
+        "link": "https://www.zeit.de/sport/2026-01/olympische-winterspiele-italien-live",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-20T20:09:56.000Z"
+      },
+      {
         "id": "9c1deb9c-0a7f-466f-ab00-b24555a7202c",
         "title": "Olympia-News heute im Live-Ticker: Kommt es zum Eishockey-Traumfinale zwischen Kanada und den USA?",
         "summary": "Das kanadische Eishockeyteam hat sich als Finalist qualifiziert. Nun entscheidet sich, ob sie auf Deutschland-Bezwinger Slowakei oder die USA treffen. Und: Nolte ist im Zweierbob auf Goldkurs. Das ist der Olympiatag.",
@@ -511,17 +522,6 @@
         "link": "https://www.kicker.de/schuster-emotionale-disziplin-und-kontrolle-ist-auch-meine-aufgabe-1195330/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-20T19:58:54.000Z"
-      },
-      {
-        "id": "{urn:uuid:eab07c32-cb71-41e0-a0b2-17cf78a9dbe4}",
-        "title": "Olympische Winterspiele: Deutsche Favoritinnen im Zweierbob übernehmen die Führung",
-        "summary": "Laura Nolte und Deborah Levi liegen nach zwei von vier Läufen im Zweierbob auf Goldkurs. Auf Platz 2 folgt ein weiteres Duo aus Deutschland. Das Liveblog",
-        "paragraphs": [
-          "Laura Nolte und Deborah Levi liegen nach zwei von vier Läufen im Zweierbob auf Goldkurs. Auf Platz 2 folgt ein weiteres Duo aus Deutschland. Das Liveblog"
-        ],
-        "link": "https://www.zeit.de/sport/2026-01/olympische-winterspiele-italien-live",
-        "source": "ZEIT",
-        "publishedAt": "2026-02-20T19:55:26.000Z"
       },
       {
         "id": "https://www.kicker.de/wahnsinnige-blutpanscherei-dav-nimmt-zu-vorwuerfen-stellung-1195328/artikel#omrss",
@@ -579,13 +579,13 @@
         "publishedAt": "2026-02-20T18:50:06.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-erst-omari-dann-glatzel-batz-zur-stelle-hsv-zunehmend-dominant-1194726/artikel#omrss",
-        "title": "LIVE! Erst Omari, dann Glatzel: Batz zur Stelle - HSV zunehmend dominant",
+        "id": "https://www.kicker.de/live-amiri-volley-ins-lange-eck-mainz-schockt-den-hsv-kurz-vor-der-pause-1194726/artikel#omrss",
+        "title": "LIVE! Amiri volley ins lange Eck: Mainz schockt den HSV kurz vor der Pause",
         "summary": "Mit dem Rückenwind aus fünf ungeschlagenen Partien in Serie reist der Hamburger SV zum Freitagabendspiel nach Mainz. Bestätigen die Rothosen ihren Trend auch ohne den gesperrten Abwehrchef Vuskovic?",
         "paragraphs": [
           "Mit dem Rückenwind aus fünf ungeschlagenen Partien in Serie reist der Hamburger SV zum Freitagabendspiel nach Mainz. Bestätigen die Rothosen ihren Trend auch ohne den gesperrten Abwehrchef Vuskovic?"
         ],
-        "link": "https://www.kicker.de/live-erst-omari-dann-glatzel-batz-zur-stelle-hsv-zunehmend-dominant-1194726/artikel#omrss",
+        "link": "https://www.kicker.de/live-amiri-volley-ins-lange-eck-mainz-schockt-den-hsv-kurz-vor-der-pause-1194726/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-20T18:46:17.000Z"
       },
