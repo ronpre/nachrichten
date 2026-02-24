@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-02-24T22:25:13.847Z",
+  "updatedAt": "2026-02-24T22:44:37.197Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:da6e428d-c591-4af4-98ef-eae3bf5eeb2c}",
+        "title": "Heizungsgesetz: Der Hammer",
+        "summary": "Die Regierung wollte das \"Heizungsgesetz\" abschaffen, nun präsentiert sie Eckpunkte für ein neues Regelwerk. Doch es birgt viele Probleme – fürs Klima wie für die Bürger.",
+        "paragraphs": [
+          "Die Regierung wollte das \"Heizungsgesetz\" abschaffen, nun präsentiert sie Eckpunkte für ein neues Regelwerk. Doch es birgt viele Probleme – fürs Klima wie für die Bürger."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-02/heizungsgesetz-eckpunkte-bundesregierung-reform-65-prozent-regel",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-24T22:27:24.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-im-newsblog-hp-trotz-starker-zahlen-mit-verhaltenem-ausblick/24098412.html",
         "title": "+++ Geschäftszahlen +++: HP trotz starker Zahlen mit verhaltenem Ausblick",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/aktien-anleger-an-der-wall-street-fluechten-in-den-halo-trade/100201018.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-02-24T16:22:38.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/nahost-iran-zeigt-sich-bereit-zu-moeglichst-rascher-einigung-im-atomstreit-mit-usa/100136895.html",
-        "title": "+++ Nahost +++: Iran zeigt sich bereit zu möglichst rascher Einigung im Atomstreit mit USA",
-        "summary": "Insider: Erstes Todesurteil im Iran nach Januar-Protesten +++ Libanon mahnt Hisbollah zur Zurückhaltung +++ Vier Sicherheitskräfte bei Angriff in Syrien getötet +++ Der Newsblog.",
-        "paragraphs": [
-          "Insider: Erstes Todesurteil im Iran nach Januar-Protesten +++ Libanon mahnt Hisbollah zur Zurückhaltung +++ Vier Sicherheitskräfte bei Angriff in Syrien getötet +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/nahost-iran-zeigt-sich-bereit-zu-moeglichst-rascher-einigung-im-atomstreit-mit-usa/100136895.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-02-24T16:13:50.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,50 @@
     ],
     "sport": [
       {
+        "id": "{urn:uuid:87884afb-008f-4587-8713-031a2e785c37}",
+        "title": "Champions League, Play-offs: Leverkusen erreicht Achtelfinale der Champions League",
+        "summary": "Nach dem Sieg im Hinspiel ging Bayer Leverkusen gegen Piräus keine Risiken ein. Im Achtelfinale warten entweder FC Bayern München oder FC Arsenal. Der Spielbericht",
+        "paragraphs": [
+          "Nach dem Sieg im Hinspiel ging Bayer Leverkusen gegen Piräus keine Risiken ein. Im Achtelfinale warten entweder FC Bayern München oder FC Arsenal. Der Spielbericht"
+        ],
+        "link": "https://www.zeit.de/sport/2026-02/fussball-champions-league-leverkusen-piraeus",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-24T22:35:59.000Z"
+      },
+      {
+        "id": "li.3393946",
+        "title": "Champions League: Sensation perfekt: Bodö wirft Inter aus dem Wettbewerb",
+        "summary": "Der norwegische Klub erreicht gegen den Vorjahresfinalisten nach einem 2:1 im San Siro das Achtelfinale und trifft dort auf Sporting Lissabon oder Manchester City.",
+        "paragraphs": [
+          "Der norwegische Klub erreicht gegen den Vorjahresfinalisten nach einem 2:1 im San Siro das Achtelfinale und trifft dort auf Sporting Lissabon oder Manchester City."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/mailand-bodoe-champions-league-achtelfinale-li.3393946",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-02-24T22:35:46.000Z"
+      },
+      {
+        "id": "9fe01942-e1af-48ca-a004-fba7f760ef2c",
+        "title": "Champions League: FK Bodø/Glimt eliminiert Inter Mailand, auch Bayer Leverkusen weiter",
+        "summary": "Im Wintersport top, im Fußball plötzlich auch: Norwegens Vertreter Bodø/Glimt gelingt die Sensation gegen Inter. Für Atlético erzielt Ex-Bodø-Stürmer Alexander Sørloth einen Dreierpack. Auch Bayer Leverkusen ist weiter.",
+        "paragraphs": [
+          "Im Wintersport top, im Fußball plötzlich auch: Norwegens Vertreter Bodø/Glimt gelingt die Sensation gegen Inter. Für Atlético erzielt Ex-Bodø-Stürmer Alexander Sørloth einen Dreierpack. Auch Bayer Leverkusen ist weiter."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/champions-league-fk-bodo-glimt-eliminiert-inter-mailand-auch-bayer-leverkusen-weiter-a-9fe01942-e1af-48ca-a004-fba7f760ef2c#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-02-24T22:22:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/sheinbaum-beschwichtigt-infantino-alles-laeuft-sehr-gut-1196357/artikel#omrss",
+        "title": "Sheinbaum beschwichtigt - Infantino: \"Alles läuft sehr gut\"",
+        "summary": "In wenigen Monaten startet die Fußball-WM in Nordamerika - und mit Mexiko versinkt derzeit einer der drei Gastgeber in Gewalt und Chaos. Die FIFA \"beobachtet die Lage\".",
+        "paragraphs": [
+          "In wenigen Monaten startet die Fußball-WM in Nordamerika - und mit Mexiko versinkt derzeit einer der drei Gastgeber in Gewalt und Chaos. Die FIFA \"beobachtet die Lage\"."
+        ],
+        "link": "https://www.kicker.de/sheinbaum-beschwichtigt-infantino-alles-laeuft-sehr-gut-1196357/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-24T22:21:45.000Z"
+      },
+      {
         "id": "https://www.kicker.de/altmaier-und-maria-weiter-im-negativtrend-1196204/artikel#omrss",
         "title": "Altmaier und Maria weiter im Negativtrend",
         "summary": "In Mexiko wird trotz der gewaltsamen Unruhen nach dem Tod eines mächtigen Drogenbosses Tennis gespielt. Für Daniel Altmaier ist das Turnier in Acapulco schnell beendet. Gleiches gilt für Jan-Lennard Struff in Dubai und Tatjana Maria in Merida.",
@@ -456,17 +500,6 @@
         "link": "https://www.kicker.de/altmaier-und-maria-weiter-im-negativtrend-1196204/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-24T22:17:11.000Z"
-      },
-      {
-        "id": "{urn:uuid:87884afb-008f-4587-8713-031a2e785c37}",
-        "title": "Champions League, Play-offs: Leverkusen erreicht Achtelfinale der Champions League",
-        "summary": "Nach dem Sieg im Hinspiel ging Bayer Leverkusen gegen Piräus keine Risiken ein. Im Achtelfinale warten entweder FC Bayern München oder FC Arsenal. Der Spielbericht",
-        "paragraphs": [
-          "Nach dem Sieg im Hinspiel ging Bayer Leverkusen gegen Piräus keine Risiken ein. Im Achtelfinale warten entweder FC Bayern München oder FC Arsenal. Der Spielbericht"
-        ],
-        "link": "https://www.zeit.de/sport/2026-02/fussball-champions-league-leverkusen-piraeus",
-        "source": "ZEIT",
-        "publishedAt": "2026-02-24T22:13:34.000Z"
       },
       {
         "id": "https://www.kicker.de/auslosung-fuer-das-champions-league-viertelfinale-941801/artikel#omrss",
@@ -632,39 +665,6 @@
         "link": "https://www.kicker.de/buehl-wir-wissen-was-das-grosse-ziel-ist-1196374/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-24T19:30:56.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/flensburg-gegen-montpellier-2026-ehf-pokal-5181476/spielbericht#omrss",
-        "title": "Gedämpfte Stimmung bei Buric-Show: Flensburg besiegt Montpellier",
-        "summary": "Die SG Flensburg-Handewitt hat einen großen Schritt in Richtung Viertelfinale gemacht. Starke Leistungen von Benjamin Buric, Patrick Volz und Niclas Kirkelökke ermöglichten das 40:35 (21:20), die Stimmung in der GP Joule Arena war allerdings die gesamte Spielzeit über gedämpft.",
-        "paragraphs": [
-          "Die SG Flensburg-Handewitt hat einen großen Schritt in Richtung Viertelfinale gemacht. Starke Leistungen von Benjamin Buric, Patrick Volz und Niclas Kirkelökke ermöglichten das 40:35 (21:20), die Stimmung in der GP Joule Arena war allerdings die gesamte Spielzeit über gedämpft."
-        ],
-        "link": "https://www.kicker.de/flensburg-gegen-montpellier-2026-ehf-pokal-5181476/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-24T19:19:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kovac-will-scharf-sein-auf-0-0-spielen-geht-nicht-1196365/artikel#omrss",
-        "title": "Kovac will \"scharf\" sein: \"Auf 0:0 spielen geht nicht\"",
-        "summary": "Borussia Dortmund droht bei Atalanta Bergamo ein hitziges Rückspiel mit Nebenschauplätzen. Trainer Niko Kovac will das Ergebnis ohnehin nicht verwalten.",
-        "paragraphs": [
-          "Borussia Dortmund droht bei Atalanta Bergamo ein hitziges Rückspiel mit Nebenschauplätzen. Trainer Niko Kovac will das Ergebnis ohnehin nicht verwalten."
-        ],
-        "link": "https://www.kicker.de/kovac-will-scharf-sein-auf-0-0-spielen-geht-nicht-1196365/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-24T18:38:19.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/krummes-eigentor-laesst-sporting-jubeln-sge-als-letztes-deutsches-team-raus-1196371/video#omrss",
-        "title": "Krummes Eigentor lässt Sporting jubeln: SGE als letztes deutsches Team raus",
-        "summary": "Hier gibt es die Highlights der Youth-League-Partie zwischen der U 19 von Eintracht Frankfurt und der U 19 von Sporting Lissabon.",
-        "paragraphs": [
-          "Hier gibt es die Highlights der Youth-League-Partie zwischen der U 19 von Eintracht Frankfurt und der U 19 von Sporting Lissabon."
-        ],
-        "link": "https://www.kicker.de/krummes-eigentor-laesst-sporting-jubeln-sge-als-letztes-deutsches-team-raus-1196371/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-24T18:14:17.000Z"
       }
     ],
     "edv": [
