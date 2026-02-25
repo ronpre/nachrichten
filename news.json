@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-02-25T22:23:42.465Z",
+  "updatedAt": "2026-02-25T22:44:53.713Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/mittelstand/hall-of-fame/sap-konkurrent-salesforce-mit-rekordergebnis-ausblick-enttaeuscht/100203466.html",
+        "title": "SAP-Konkurrent: Salesforce mit Rekordergebnis – Ausblick enttäuscht",
+        "summary": "Das KI-Geschäft treibt das Wachstum an, aber die Jahresziele lagen knapp unter den Markterwartungen. Die Aktie gerät unter Druck.",
+        "paragraphs": [
+          "Das KI-Geschäft treibt das Wachstum an, aber die Jahresziele lagen knapp unter den Markterwartungen. Die Aktie gerät unter Druck."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/hall-of-fame/sap-konkurrent-salesforce-mit-rekordergebnis-ausblick-enttaeuscht/100203466.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-02-25T22:25:44.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-im-plus-nvidia-im-fokus/100203034.html",
         "title": "Dow Jones, S&P 500, Nasdaq: US-Börsen schließen im Plus – Nvidia im Fokus",
@@ -210,17 +221,6 @@
         "link": "https://www.zeit.de/geld/2026-02/aktienkurse-ki-boerse-finanzmarkt-unternehmen",
         "source": "ZEIT",
         "publishedAt": "2026-02-25T16:24:31.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/heizungsgesetz-die-folgen-der-reform-wird-heizen-bis-zu-500-euro-teurer/100203202.html",
-        "title": "Heizungsgesetz: Die Folgen der Reform: Wird Heizen bis zu 500 Euro teurer?",
-        "summary": "Die Koalition will den Einbau von Öl- und Gaskesseln weiter erlauben. Doch das könnte teuer werden, warnen Kritiker. Auch EU-Recht könnte die Pläne von Union und SPD durchkreuzen.",
-        "paragraphs": [
-          "Die Koalition will den Einbau von Öl- und Gaskesseln weiter erlauben. Doch das könnte teuer werden, warnen Kritiker. Auch EU-Recht könnte die Pläne von Union und SPD durchkreuzen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/heizungsgesetz-die-folgen-der-reform-wird-heizen-bis-zu-500-euro-teurer/100203202.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-02-25T16:11:15.000Z"
       }
     ],
     "politik": [
@@ -447,15 +447,48 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-verlaengerung-in-turin-galatasaray-ploetzlich-da-mit-guendogan-und-osimhen-1196077/artikel#omrss",
-        "title": "LIVE! Verlängerung in Turin: Galatasaray plötzlich da mit Gündogan und Osimhen",
-        "summary": "Der seit Wochen in der Krise steckende italienische Rekordmeister Juventus hatte vor einer Woche im Hinspiel bei Galatasaray gehörig auf die Mütze bekommen und in Unterzahl 2:5 verloren. Mit einem Mann weniger musste die Alte Dame zwischenzeitlich auch beim Wiedersehen in diesen Champions-League-Play-offs leben - und erreichte nach einem famosen 3:0-Comeback die Verlängerung.",
+        "id": "bd13b7f7-75fa-464d-9211-afe62787804b",
+        "title": "Champions League: Real Madrid und Paris Saint-Germain weiter, Juventus Turin scheidet aus",
+        "summary": "Im Hinspiel soll ein Benfica-Spieler Vinícius Júnior rassistisch beleidigt haben, im Rückspiel gab der Angreifer die sportliche Antwort. Das Achtelfinale der Königsklasse hat Juventus trotz toller Aufholjagd verpasst.",
         "paragraphs": [
-          "Der seit Wochen in der Krise steckende italienische Rekordmeister Juventus hatte vor einer Woche im Hinspiel bei Galatasaray gehörig auf die Mütze bekommen und in Unterzahl 2:5 verloren. Mit einem Mann weniger musste die Alte Dame zwischenzeitlich auch beim Wiedersehen in diesen Champions-League-Play-offs leben - und erreichte nach einem famosen 3:0-Comeback die Verlängerung."
+          "Im Hinspiel soll ein Benfica-Spieler Vinícius Júnior rassistisch beleidigt haben, im Rückspiel gab der Angreifer die sportliche Antwort. Das Achtelfinale der Königsklasse hat Juventus trotz toller Aufholjagd verpasst."
         ],
-        "link": "https://www.kicker.de/live-verlaengerung-in-turin-galatasaray-ploetzlich-da-mit-guendogan-und-osimhen-1196077/artikel#omrss",
+        "link": "https://www.spiegel.de/sport/fussball/champions-league-real-madrid-und-paris-saint-germain-weiter-juventus-turin-scheidet-aus-a-bd13b7f7-75fa-464d-9211-afe62787804b#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-02-25T22:40:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/aus-nach-grossem-3-0-comeback-juve-gehen-in-unterzahl-die-kraefte-aus-1196077/artikel#omrss",
+        "title": "Aus nach großem 3:0-Comeback: Juve gehen in Unterzahl die Kräfte aus",
+        "summary": "Der seit Wochen in der Krise steckende italienische Rekordmeister Juventus hatte vor einer Woche im Hinspiel bei Galatasaray auf die Mütze bekommen und in Unterzahl 2:5 verloren. Mit einem Mann weniger musste die Alte Dame zwischenzeitlich auch beim Wiedersehen in diesen Champions-League-Play-offs leben - und erreichte nach einem famosen 3:0-Comeback die Verlängerung. Dort schwanden Turin aber die Kräfte, Galatasaray kam weiter.",
+        "paragraphs": [
+          "Der seit Wochen in der Krise steckende italienische Rekordmeister Juventus hatte vor einer Woche im Hinspiel bei Galatasaray auf die Mütze bekommen und in Unterzahl 2:5 verloren. Mit einem Mann weniger musste die Alte Dame zwischenzeitlich auch beim Wiedersehen in diesen Champions-League-Play-offs leben - und erreichte nach einem famosen 3:0-Comeback die Verlängerung. Dort schwanden Turin aber die Kräfte, Galatasaray kam weiter."
+        ],
+        "link": "https://www.kicker.de/aus-nach-grossem-3-0-comeback-juve-gehen-in-unterzahl-die-kraefte-aus-1196077/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-02-25T22:18:46.000Z"
+        "publishedAt": "2026-02-25T22:39:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/siegburger-sv-gegen-vikt-koeln-2026-landespokal-mittelrhein-5190559/spielbericht#omrss",
+        "title": "Zank rettet Viktoria Köln in Siegburg - Ronstadt fliegt runter",
+        "summary": "Erst kurz vor Schluss hat Viktoria Köln eine Pokal-Blamage bei Fünftligist Siegburger SV 04 abgewendet. Der Drittligist musste in Unterzahl bis zur letzten Sekunde zittern.",
+        "paragraphs": [
+          "Erst kurz vor Schluss hat Viktoria Köln eine Pokal-Blamage bei Fünftligist Siegburger SV 04 abgewendet. Der Drittligist musste in Unterzahl bis zur letzten Sekunde zittern."
+        ],
+        "link": "https://www.kicker.de/siegburger-sv-gegen-vikt-koeln-2026-landespokal-mittelrhein-5190559/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-25T22:28:00.000Z"
+      },
+      {
+        "id": "li.3394495",
+        "title": "Real besiegt Benfica: Vinícius tanzt zuletzt",
+        "summary": "Das Duell, das im Hinspiel durch einen Rassismus-Eklat um Vinícius Junior geprägt wurde, entscheidet der Brasilianer mit seinem Treffer zum 2:1. Bis kurz vor Anpfiff bestimmt die Sperre gegen Benficas Prestianni die Schlagzeilen.",
+        "paragraphs": [
+          "Das Duell, das im Hinspiel durch einen Rassismus-Eklat um Vinícius Junior geprägt wurde, entscheidet der Brasilianer mit seinem Treffer zum 2:1. Bis kurz vor Anpfiff bestimmt die Sperre gegen Benficas Prestianni die Schlagzeilen."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/real-madrid-benfica-champions-league-li.3394495",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-02-25T22:17:12.000Z"
       },
       {
         "id": "https://www.kicker.de/das-bundesliga-quiz-zum-24-spieltag-1196659/artikel#omrss",
@@ -612,13 +645,13 @@
         "publishedAt": "2026-02-25T20:01:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/sonderregel-fuer-schotten-fifa-lockert-sicherheitsregeln-1196712/artikel#omrss",
-        "title": "Sonderregel für Schotten: FIFA lockert Sicherheitsregeln",
+        "id": "https://www.kicker.de/sonderregel-fuer-schotten-fifa-lockert-sicherheitsbestimmungen-1196712/artikel#omrss",
+        "title": "Sonderregel für Schotten: FIFA lockert Sicherheitsbestimmungen",
         "summary": "Groß war die Sorge so mancher Schotten, dass sie ihre heiß geliebten Geldbeutel, die sogenannten Sporrane, bei der WM nicht mit ins Stadion nehmen dürften. Die FIFA zeigte sich nun aber kulant, kam den Bravehearts entgegen und veränderte extra für sie eine Sicherheitsbestimmung.",
         "paragraphs": [
           "Groß war die Sorge so mancher Schotten, dass sie ihre heiß geliebten Geldbeutel, die sogenannten Sporrane, bei der WM nicht mit ins Stadion nehmen dürften. Die FIFA zeigte sich nun aber kulant, kam den Bravehearts entgegen und veränderte extra für sie eine Sicherheitsbestimmung."
         ],
-        "link": "https://www.kicker.de/sonderregel-fuer-schotten-fifa-lockert-sicherheitsregeln-1196712/artikel#omrss",
+        "link": "https://www.kicker.de/sonderregel-fuer-schotten-fifa-lockert-sicherheitsbestimmungen-1196712/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-25T19:12:56.000Z"
       },
@@ -632,39 +665,6 @@
         "link": "https://www.kicker.de/seahawks-vor-eigentuemerwechsel-fuer-schneider-ist-offseason-business-as-usual-1196716/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-02-25T19:01:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/beben-beim-msv-duisburg-vorstandschef-stiefelhagen-legt-amt-nieder-1196711/artikel#omrss",
-        "title": "Beben beim MSV Duisburg: Vorstandschef Stiefelhagen legt Amt nieder",
-        "summary": "Sportlich läuft es beim MSV Duisburg, die Zebras träumen vom Durchmarsch in die 2. Bundesliga. Doch hinter den Kulissen brodelt es: Der Vorstandsvorsitzende Christian Stiefelhagen kündigte seinen Rücktritt an.",
-        "paragraphs": [
-          "Sportlich läuft es beim MSV Duisburg, die Zebras träumen vom Durchmarsch in die 2. Bundesliga. Doch hinter den Kulissen brodelt es: Der Vorstandsvorsitzende Christian Stiefelhagen kündigte seinen Rücktritt an."
-        ],
-        "link": "https://www.kicker.de/beben-beim-msv-duisburg-vorstandschef-stiefelhagen-legt-amt-nieder-1196711/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-25T19:00:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vfb-und-fc-bayern-betroffen-dfb-pokal-halbfinals-sorgen-fuer-terminprobleme-1196706/artikel#omrss",
-        "title": "VfB und FC Bayern betroffen: DFB-Pokal-Halbfinals sorgen für Terminprobleme",
-        "summary": "Bis Ende April ist noch ein Stück zu gehen. Dennoch beschäftigen die Halbfinalspiele des DFB-Pokals bereits jetzt vor allem den VfB Stuttgart und den FC Bayern München.",
-        "paragraphs": [
-          "Bis Ende April ist noch ein Stück zu gehen. Dennoch beschäftigen die Halbfinalspiele des DFB-Pokals bereits jetzt vor allem den VfB Stuttgart und den FC Bayern München."
-        ],
-        "link": "https://www.kicker.de/vfb-und-fc-bayern-betroffen-dfb-pokal-halbfinals-sorgen-fuer-terminprobleme-1196706/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-25T18:37:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/sponsorendruck-und-fan-eklat-fcm-kuendigt-massnahmenpaket-fuer-mehr-sicherheit-an-1196691/artikel#omrss",
-        "title": "Sponsorendruck und Fan-Eklat: FCM kündigt Maßnahmenpaket für mehr Sicherheit an",
-        "summary": "Die schweren Ausschreitungen rund um das Zweitliga-Spiel zwischen dem 1. FC Magdeburg und Dynamo Dresden hatten bundesweit für Entrüstung gesorgt. Der FCM äußerte sich nun zum aktuellen Stand und kündigte direkt erste konkrete Maßnahmen an, um derartige Vorfälle in Zukunft zu verhindern.",
-        "paragraphs": [
-          "Die schweren Ausschreitungen rund um das Zweitliga-Spiel zwischen dem 1. FC Magdeburg und Dynamo Dresden hatten bundesweit für Entrüstung gesorgt. Der FCM äußerte sich nun zum aktuellen Stand und kündigte direkt erste konkrete Maßnahmen an, um derartige Vorfälle in Zukunft zu verhindern."
-        ],
-        "link": "https://www.kicker.de/sponsorendruck-und-fan-eklat-fcm-kuendigt-massnahmenpaket-fuer-mehr-sicherheit-an-1196691/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-02-25T18:22:03.000Z"
       }
     ],
     "edv": [
@@ -746,17 +746,6 @@
         "publishedAt": "2026-02-25T18:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Samsung-Galaxy-S26-S26-und-S26-Ultra-Software-schlaegt-Hardware-11187914.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Samsung Galaxy S26, S26+ und S26 Ultra: Software schlägt Hardware",
-        "summary": "Mit der Galaxy-S26-Serie zeigt sich Samsung konservativ und ändert an der Hardware nur wenig. Das neue Privacy Display hat nur das S26 Ultra.",
-        "paragraphs": [
-          "Mit der Galaxy-S26-Serie zeigt sich Samsung konservativ und ändert an der Hardware nur wenig. Das neue Privacy Display hat nur das S26 Ultra."
-        ],
-        "link": "https://www.heise.de/news/Samsung-Galaxy-S26-S26-und-S26-Ultra-Software-schlaegt-Hardware-11187914.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-25T18:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/meinung/KI-statt-Hardware-Samsungs-riskantes-Spiel-11188405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "KI statt Hardware: Samsungs riskantes Spiel",
         "summary": "Beim Galaxy S26 setzt Samsung seine Hoffnungen komplett auf KI-Features. Bei der Hardware aber sind andere vorbeigezogen, meint Steffen Herget.",
@@ -764,6 +753,17 @@
           "Beim Galaxy S26 setzt Samsung seine Hoffnungen komplett auf KI-Features. Bei der Hardware aber sind andere vorbeigezogen, meint Steffen Herget."
         ],
         "link": "https://www.heise.de/meinung/KI-statt-Hardware-Samsungs-riskantes-Spiel-11188405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-25T18:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Samsung-Galaxy-S26-S26-und-S26-Ultra-Software-schlaegt-Hardware-11187914.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Samsung Galaxy S26, S26+ und S26 Ultra: Software schlägt Hardware",
+        "summary": "Mit der Galaxy-S26-Serie zeigt sich Samsung konservativ und ändert an der Hardware nur wenig. Das neue Privacy Display hat nur das S26 Ultra.",
+        "paragraphs": [
+          "Mit der Galaxy-S26-Serie zeigt sich Samsung konservativ und ändert an der Hardware nur wenig. Das neue Privacy Display hat nur das S26 Ultra."
+        ],
+        "link": "https://www.heise.de/news/Samsung-Galaxy-S26-S26-und-S26-Ultra-Software-schlaegt-Hardware-11187914.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-02-25T18:00:00.000Z"
       },
@@ -834,17 +834,6 @@
         "publishedAt": "2026-02-25T16:29:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Terror-Unterstuetzung-Russland-ermittelt-gegen-Telegram-Gruender-11189928.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Terror-Unterstützung: Russland ermittelt  gegen Telegram-Gründer",
-        "summary": "Moskau schränkt das Internet und den Messenger Telegram zunehmend ein. Nun ermitteln Behörden laut einer Regierungszeitung auch zu Mitgründer Pawel Durow.",
-        "paragraphs": [
-          "Moskau schränkt das Internet und den Messenger Telegram zunehmend ein. Nun ermitteln Behörden laut einer Regierungszeitung auch zu Mitgründer Pawel Durow."
-        ],
-        "link": "https://www.heise.de/news/Terror-Unterstuetzung-Russland-ermittelt-gegen-Telegram-Gruender-11189928.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-02-25T16:23:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Allianz-steigt-beim-Start-up-Fonds-der-EU-ein-Schwarz-Gruppe-prueft-noch-11190086.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Allianz steigt beim Start-up-Fonds der EU ein, Schwarz-Gruppe prüft noch",
         "summary": "Finanzierungsrunden jenseits der 100 Millionen Euro sind in Europa nur schwer zu wuppen. Versicherer Allianz steigt in einen EU-Fonds ein, der das beheben soll.",
@@ -852,6 +841,17 @@
           "Finanzierungsrunden jenseits der 100 Millionen Euro sind in Europa nur schwer zu wuppen. Versicherer Allianz steigt in einen EU-Fonds ein, der das beheben soll."
         ],
         "link": "https://www.heise.de/news/Allianz-steigt-beim-Start-up-Fonds-der-EU-ein-Schwarz-Gruppe-prueft-noch-11190086.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-02-25T16:23:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Terror-Unterstuetzung-Russland-ermittelt-gegen-Telegram-Gruender-11189928.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Terror-Unterstützung: Russland ermittelt  gegen Telegram-Gründer",
+        "summary": "Moskau schränkt das Internet und den Messenger Telegram zunehmend ein. Nun ermitteln Behörden laut einer Regierungszeitung auch zu Mitgründer Pawel Durow.",
+        "paragraphs": [
+          "Moskau schränkt das Internet und den Messenger Telegram zunehmend ein. Nun ermitteln Behörden laut einer Regierungszeitung auch zu Mitgründer Pawel Durow."
+        ],
+        "link": "https://www.heise.de/news/Terror-Unterstuetzung-Russland-ermittelt-gegen-Telegram-Gruender-11189928.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-02-25T16:23:00.000Z"
       },
