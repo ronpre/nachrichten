@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-02-27T22:10:21.242Z",
+  "updatedAt": "2026-02-27T22:30:34.707Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:9b675786-02ea-478c-9edd-645183f2e38d}",
+        "title": "USA: Warner Bros. Discovery stimmt Übernahme durch Paramount zu",
+        "summary": "Der monatelange Bieterwettkampf um den US-Unterhaltungskonzern Warner Bros Discovery ist beendet. Paramount Skydance wird den Hollywood-Konzern übernehmen.",
+        "paragraphs": [
+          "Der monatelange Bieterwettkampf um den US-Unterhaltungskonzern Warner Bros Discovery ist beendet. Paramount Skydance wird den Hollywood-Konzern übernehmen."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-02/warner-bros-paramount-bieterwettkampf",
+        "source": "ZEIT",
+        "publishedAt": "2026-02-27T22:12:51.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-verlieren-tech-werte-im-minus/100203997.html",
         "title": "Wall Street: US-Börsen verlieren – Tech-Ausverkauf geht weiter",
@@ -102,13 +113,13 @@
         "publishedAt": "2026-02-27T17:11:59.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/unternehmen/it-medien/medienmarkt-wie-ellisons-zur-politischen-macht-in-den-usa-werden/100203857.html",
-        "title": "Medienmarkt: Neues Imperium in den USA – wie die Ellisons zur politischen Macht werden",
-        "summary": "Eigentlich galt die Übernahme von Warner durch Netflix bereits als sicher. Nun setzten sich doch die Paramount-Eigner durch. Damit wächst die Macht eines konservativen Familienclans.",
+        "id": "https://www.handelsblatt.com/unternehmen/it-medien/medienmarkt-warner-bros.-discovery-stimmt-uebernahme-durch-paramount-zu/100203857.html",
+        "title": "Medienmarkt: Warner Bros. Discovery stimmt Übernahme durch Paramount zu",
+        "summary": "Eigentlich galt die Übernahme von Warner durch Netflix bereits als sicher. Nun haben Paramount und Warner Bros die Übernahme-Vereinbarung unterzeichnet. Damit wächst die Macht eines konservativen Familienclans.",
         "paragraphs": [
-          "Eigentlich galt die Übernahme von Warner durch Netflix bereits als sicher. Nun setzten sich doch die Paramount-Eigner durch. Damit wächst die Macht eines konservativen Familienclans."
+          "Eigentlich galt die Übernahme von Warner durch Netflix bereits als sicher. Nun haben Paramount und Warner Bros die Übernahme-Vereinbarung unterzeichnet. Damit wächst die Macht eines konservativen Familienclans."
         ],
-        "link": "https://www.handelsblatt.com/unternehmen/it-medien/medienmarkt-wie-ellisons-zur-politischen-macht-in-den-usa-werden/100203857.html",
+        "link": "https://www.handelsblatt.com/unternehmen/it-medien/medienmarkt-warner-bros.-discovery-stimmt-uebernahme-durch-paramount-zu/100203857.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-02-27T17:05:01.000Z"
       },
@@ -210,17 +221,6 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/wechsel-mac-linux-souveraenitaet-li.3389074",
         "source": "Sueddeutsche",
         "publishedAt": "2026-02-27T15:46:57.000Z"
-      },
-      {
-        "id": "li.3393857",
-        "title": "Streit über politische Ausrichtung: Was wird aus den Wirtschaftsweisen?",
-        "summary": "Nach dem Rauswurf von Ulrike Malmendier steuert der Sachverständigenrat in eine ungewisse Zukunft. Szenen aus dem Innenleben eines Ökonomenrats zwischen Macht und Machtkampf.",
-        "paragraphs": [
-          "Nach dem Rauswurf von Ulrike Malmendier steuert der Sachverständigenrat in eine ungewisse Zukunft. Szenen aus dem Innenleben eines Ökonomenrats zwischen Macht und Machtkampf."
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/konflikte-sachverstaendigenrat-abberufung-ulrike-malmendier-grimm-merz-cdu-reiche-veronika-grimm-malmendier-li.3393857",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-02-27T15:44:34.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/nie-zu-unserem-spiel-gefunden-dbb-team-hadert-nach-niederlage-in-kroatien-1197368/artikel#omrss",
+        "title": "\"Nie zu unserem Spiel gefunden\": DBB-Team hadert nach Niederlage in Kroatien",
+        "summary": "Das DBB-Team hat den Sprung an die Tabellenspitze in der WM-Qualifikation verpasst. Bundestrainer Alex Mumbru ärgerte sich nach der Partie über zu viele Fehler in der zweiten Halbzeit.",
+        "paragraphs": [
+          "Das DBB-Team hat den Sprung an die Tabellenspitze in der WM-Qualifikation verpasst. Bundestrainer Alex Mumbru ärgerte sich nach der Partie über zu viele Fehler in der zweiten Halbzeit."
+        ],
+        "link": "https://www.kicker.de/nie-zu-unserem-spiel-gefunden-dbb-team-hadert-nach-niederlage-in-kroatien-1197368/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-27T22:17:58.000Z"
+      },
+      {
         "id": "https://www.kicker.de/darmstaedter-schiri-schelte-von-frechheit-bis-absolute-vollkatastrophe-1197343/artikel#omrss",
         "title": "Darmstädter Schiri-Schelte: Von \"Frechheit\" bis \"absolute Vollkatastrophe\"",
         "summary": "Nach der Niederlage in Dresden, die durch einen umstrittenen Platzverweis eingeleitet wurde, gehen die Darmstädter Beteiligten hart mit Schiedsrichter Lars Erbst ins Gericht. Sie stellen nicht nur dessen Entscheidungen, sondern auch die Ansetzung generell infrage.",
@@ -643,22 +654,15 @@
         "publishedAt": "2026-02-27T18:04:54.000Z"
       },
       {
-        "id": "li.3395786",
-        "title": "Nordische Kombination: Rydzek Dritter bei der Flugpremiere",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/sport/nordische-kombination-rydzek-dritter-bei-der-flugpremiere-li.3395786",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-02-27T17:58:20.000Z"
-      },
-      {
-        "id": "li.3395785",
-        "title": "Ski alpin: Emma Aicher Vierte in Andorra",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/sport/ski-alpin-emma-aicher-vierte-in-andorra-li.3395785",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-02-27T17:48:56.000Z"
+        "id": "https://www.kicker.de/cap-explosion-in-der-nfl-liga-legt-salary-cap-fuer-2026-offiziell-fest-1197322/artikel#omrss",
+        "title": "Cap-Explosion in der NFL: Liga legt Salary Cap für 2026 offiziell fest",
+        "summary": "Die NFL hat den Salary Cap für die Saison 2026 offiziell fixiert und setzt damit die finanzielle Wachstumsserie der vergangenen Jahre fort. Jede Franchise darf künftig 301,2 Millionen Dollar für Spielergehälter ausgeben. Das entspricht einem Anstieg um 22 Millionen Dollar im Vergleich zum Vorjahr. Die wirtschaftliche Dynamik der Liga erreicht damit eine neue Dimension.",
+        "paragraphs": [
+          "Die NFL hat den Salary Cap für die Saison 2026 offiziell fixiert und setzt damit die finanzielle Wachstumsserie der vergangenen Jahre fort. Jede Franchise darf künftig 301,2 Millionen Dollar für Spielergehälter ausgeben. Das entspricht einem Anstieg um 22 Millionen Dollar im Vergleich zum Vorjahr. Die wirtschaftliche Dynamik der Liga erreicht damit eine neue Dimension."
+        ],
+        "link": "https://www.kicker.de/cap-explosion-in-der-nfl-liga-legt-salary-cap-fuer-2026-offiziell-fest-1197322/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-02-27T18:01:00.000Z"
       }
     ],
     "edv": [
