@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-01T18:22:05.898Z",
+  "updatedAt": "2026-03-01T18:45:23.061Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "79d47c75-b933-47fd-a0d2-4e7da6cb334b",
+        "title": "Iran-Krieg im Live-Ticker: Nach US-Israel-Angriff - Chamenei-Nachfolge geregelt",
+        "summary": "Die Angriffe seitens der USA und Israels gegen den Iran dauern an. Der Oberste Führer des Irans, Ali Chamenei, wurde getötet. Der Iran wehrt sich mit Gegenschlägen. Alle Entwicklungen im Ticker.",
+        "paragraphs": [
+          "Die Angriffe seitens der USA und Israels gegen den Iran dauern an. Der Oberste Führer des Irans, Ali Chamenei, wurde getötet. Der Iran wehrt sich mit Gegenschlägen. Alle Entwicklungen im Ticker."
+        ],
+        "link": "https://www.focus.de/politik/iran-krieg-im-live-ticker-usa-beteiligen-sich-an-israels-angriff_79d47c75-b933-47fd-a0d2-4e7da6cb334b.html",
+        "source": "Focus",
+        "publishedAt": "2026-03-01T18:38:00.000Z"
+      },
+      {
         "id": "11b69c01-3643-44f8-9a07-4182dd0fa5e1",
         "title": "Iran - Friedrich Merz und Donald Trump: Die Millimeter-Mission des Kanzlers und der Krieg in Iran",
         "summary": "Mitten im Krieg will der Kanzler den US-Präsidenten in Washington treffen. Für Friedrich Merz dürfte es eine herausfordernde Reise werden: Er muss nun diplomatische Millimeter-Arbeit leisten.",
@@ -256,17 +267,6 @@
         "link": "https://www.focus.de/politik/ausland/iran-krieg-gehen-trump-die-raketen-schon-in-10-tagen-aus_31a6db7f-6c7a-46af-9bbe-a9ed3a5aa05a.html",
         "source": "Focus",
         "publishedAt": "2026-03-01T18:05:00.000Z"
-      },
-      {
-        "id": "79d47c75-b933-47fd-a0d2-4e7da6cb334b",
-        "title": "Iran-Krieg im Live-Ticker: Nach US-Israel-Angriff - Chamenei-Nachfolge geregelt",
-        "summary": "Die Angriffe seitens der USA und Israels gegen den Iran dauern an. Der Oberste Führer des Irans, Ali Chamenei, wurde getötet. Der Iran wehrt sich mit Gegenschlägen. Alle Entwicklungen im Ticker.",
-        "paragraphs": [
-          "Die Angriffe seitens der USA und Israels gegen den Iran dauern an. Der Oberste Führer des Irans, Ali Chamenei, wurde getötet. Der Iran wehrt sich mit Gegenschlägen. Alle Entwicklungen im Ticker."
-        ],
-        "link": "https://www.focus.de/politik/iran-krieg-im-live-ticker-usa-beteiligen-sich-an-israels-angriff_79d47c75-b933-47fd-a0d2-4e7da6cb334b.html",
-        "source": "Focus",
-        "publishedAt": "2026-03-01T18:01:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/iran-warum-trumps-plan-eines-regimewechsels-nicht-realistisch-ist/100204471.html",
@@ -447,37 +447,81 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-joker-chaibi-sticht-bahoya-erhoeht-traumhaft-1196618/artikel#omrss",
-        "title": "LIVE! Joker Chaibi sticht - Bahoya erhöht traumhaft",
-        "summary": "Auf den ersten Heimsieg von Albert Riera als Frankfurt-Trainer folgte eine knappe 2:3-Niederlage in München. Kann die Eintracht gegen zuletzt schwankende Freiburger nachlegen, die in den letzten fünf Partien zwei Siege und drei Niederlagen verbuchten?",
+        "id": "81afddc4-7694-4f3e-82a8-2a1d5a8a78c5",
+        "title": "IndyCar: Mick Schumachers Debüt endet nach Unfall in Runde eins",
+        "summary": "Der Formel 1 hat Mick Schumacher den Rücken gekehrt, doch noch will der Neuanfang nicht ganz gelingen: Beim IndyCar-Auftakt in Florida dauerte Schumachers Premiere nur wenige Kurven.",
         "paragraphs": [
-          "Auf den ersten Heimsieg von Albert Riera als Frankfurt-Trainer folgte eine knappe 2:3-Niederlage in München. Kann die Eintracht gegen zuletzt schwankende Freiburger nachlegen, die in den letzten fünf Partien zwei Siege und drei Niederlagen verbuchten?"
+          "Der Formel 1 hat Mick Schumacher den Rücken gekehrt, doch noch will der Neuanfang nicht ganz gelingen: Beim IndyCar-Auftakt in Florida dauerte Schumachers Premiere nur wenige Kurven."
         ],
-        "link": "https://www.kicker.de/live-joker-chaibi-sticht-bahoya-erhoeht-traumhaft-1196618/artikel#omrss",
+        "link": "https://www.spiegel.de/sport/indycar-mick-schumachers-debuet-endet-nach-unfall-in-runde-eins-a-81afddc4-7694-4f3e-82a8-2a1d5a8a78c5#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-03-01T18:44:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/berlin-gegen-r-n-loewen-2026-handball-bundesliga-5097481/spielbericht#omrss",
+        "title": "0:6-Lauf in der Crunchtime: Löwen verpassen Punkte in Berlin",
+        "summary": "Die Rhein-Neckar Löwen wollten bei den Füchsen Berlin ein Ausrufezeichen. Lange waren sie am amtierenden deutschen Meister dran, der in den letzten zehn Minuten jedoch davonzog.",
+        "paragraphs": [
+          "Die Rhein-Neckar Löwen wollten bei den Füchsen Berlin ein Ausrufezeichen. Lange waren sie am amtierenden deutschen Meister dran, der in den letzten zehn Minuten jedoch davonzog."
+        ],
+        "link": "https://www.kicker.de/berlin-gegen-r-n-loewen-2026-handball-bundesliga-5097481/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-01T18:14:00.000Z"
+        "publishedAt": "2026-03-01T18:37:00.000Z"
       },
       {
         "id": "https://www.kicker.de/arsenal-gegen-chelsea-2026-premier-league-5045275/spielbericht#omrss",
-        "title": "LIVE! Spiel kippt: Arsenal führt nach einer Ecke wieder - Chelsea in Unterzahl",
-        "summary": "Nach dem deutlichen 4:1-Sieg im North-London-Derby gegen Tottenham steht für Arsenal das nächste Stadtduell gegen den FC Chelsea, die jüngst mit einem 1:1 gegen Burnley patzten, an. Können die Gunners nachlegen?",
+        "title": "Drei Ecken und eine überflüssige Ampelkarte: Arsenal schlägt Chelsea bei Havertz-Comeback",
+        "summary": "Arsenal nährte am Sonntag die Meisterschaftshoffnungen im roten Teil Londons: Die Gunners gewannen das Duell der Ecken-Könige mit Chelsea denkbar knapp und sind nun wieder fünf Punkte vor Verfolger Manchester City.",
         "paragraphs": [
-          "Nach dem deutlichen 4:1-Sieg im North-London-Derby gegen Tottenham steht für Arsenal das nächste Stadtduell gegen den FC Chelsea, die jüngst mit einem 1:1 gegen Burnley patzten, an. Können die Gunners nachlegen?"
+          "Arsenal nährte am Sonntag die Meisterschaftshoffnungen im roten Teil Londons: Die Gunners gewannen das Duell der Ecken-Könige mit Chelsea denkbar knapp und sind nun wieder fünf Punkte vor Verfolger Manchester City."
         ],
         "link": "https://www.kicker.de/arsenal-gegen-chelsea-2026-premier-league-5045275/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-01T18:03:47.000Z"
+        "publishedAt": "2026-03-01T18:30:16.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-hsv-wechselt-auf-drei-positionen-rb-muss-nachlegen-1196624/artikel#omrss",
-        "title": "LIVE! HSV wechselt auf drei Positionen - RB muss nachlegen",
+        "id": "https://www.kicker.de/dank-joker-und-traumtor-eintracht-schlaegt-sc-und-zieht-vorbei-1196618/artikel#omrss",
+        "title": "Dank Joker und Traumtor: Eintracht schlägt SC und zieht vorbei",
+        "summary": "Eintracht Frankfurt verlor bereits in der ersten Minute Keeper Kaua Santos, feierte am Ende aber dennoch einen 2:0-Sieg - auch weil Ersatzmann Michael Zetterer einen Rückstand verhinderte. In der Tabelle zogen die Hessen damit am SC Freiburg vorbei.",
+        "paragraphs": [
+          "Eintracht Frankfurt verlor bereits in der ersten Minute Keeper Kaua Santos, feierte am Ende aber dennoch einen 2:0-Sieg - auch weil Ersatzmann Michael Zetterer einen Rückstand verhinderte. In der Tabelle zogen die Hessen damit am SC Freiburg vorbei."
+        ],
+        "link": "https://www.kicker.de/dank-joker-und-traumtor-eintracht-schlaegt-sc-und-zieht-vorbei-1196618/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-01T18:25:44.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-downs-zieht-stark-aus-der-drehung-ab-1196624/artikel#omrss",
+        "title": "LIVE! Downs zieht stark aus der Drehung ab",
         "summary": "Zuletzt gab Leipzig beim 2:2 gegen Dortmund in der Nachspielzeit den Dreier aus der Hand. Derweil ist der HSV seit sechs Spielen ungeschlagen und kann mit einem Überraschungssieg gegen RB ins gesicherte Mittelfeld vordringen.",
         "paragraphs": [
           "Zuletzt gab Leipzig beim 2:2 gegen Dortmund in der Nachspielzeit den Dreier aus der Hand. Derweil ist der HSV seit sechs Spielen ungeschlagen und kann mit einem Überraschungssieg gegen RB ins gesicherte Mittelfeld vordringen."
         ],
-        "link": "https://www.kicker.de/live-hsv-wechselt-auf-drei-positionen-rb-muss-nachlegen-1196624/artikel#omrss",
+        "link": "https://www.kicker.de/live-downs-zieht-stark-aus-der-drehung-ab-1196624/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-01T17:42:52.000Z"
+        "publishedAt": "2026-03-01T18:22:34.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wolfsburg-in-not-wird-hecking-vom-held-zum-retter-1197796/artikel#omrss",
+        "title": "Wolfsburg in Not: Wird Hecking vom Held zum Retter?",
+        "summary": "Der VfL Wolfsburg befindet sich in größter Not und greift nach kicker-Informationen womöglich zum letzten Strohhalm im Abstiegskampf. Es gibt ernsthafte Überlegungen, ein zweites Mal in dieser Saison den Trainer zu wechseln. Ex-Erfolgscoach Dieter Hecking könnte die Aufgabe übertragen bekommen, den ersten Abstieg der Vereinsgeschichte zu verhindern.",
+        "paragraphs": [
+          "Der VfL Wolfsburg befindet sich in größter Not und greift nach kicker-Informationen womöglich zum letzten Strohhalm im Abstiegskampf. Es gibt ernsthafte Überlegungen, ein zweites Mal in dieser Saison den Trainer zu wechseln. Ex-Erfolgscoach Dieter Hecking könnte die Aufgabe übertragen bekommen, den ersten Abstieg der Vereinsgeschichte zu verhindern."
+        ],
+        "link": "https://www.kicker.de/wolfsburg-in-not-wird-hecking-vom-held-zum-retter-1197796/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-01T18:21:53.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/fruehes-unfall-aus-fuer-mick-schumacher-beim-indycar-debuet-1197817/artikel#omrss",
+        "title": "Frühes Unfall-Aus für Mick Schumacher beim IndyCar-Debüt",
+        "summary": "Mit einem frühen Auffahr-Unfall hat Mick Schumacher eine ganz bittere Premiere in der IndyCar-Serie erlebt. Der 26-Jährige schied bei dem Crash schuldlos schon in der ersten Runde aus und musste aus seinem demolierten Rennwagen aussteigen.",
+        "paragraphs": [
+          "Mit einem frühen Auffahr-Unfall hat Mick Schumacher eine ganz bittere Premiere in der IndyCar-Serie erlebt. Der 26-Jährige schied bei dem Crash schuldlos schon in der ersten Runde aus und musste aus seinem demolierten Rennwagen aussteigen."
+        ],
+        "link": "https://www.kicker.de/fruehes-unfall-aus-fuer-mick-schumacher-beim-indycar-debuet-1197817/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-01T18:05:36.000Z"
       },
       {
         "id": "https://www.kicker.de/ratloser-hjulmand-erstellt-selbst-bayers-lange-maengelliste-1197652/artikel#omrss",
@@ -500,6 +544,17 @@
         "link": "https://www.kicker.de/ernst-es-ging-auch-um-die-ehre-1197773/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-01T17:11:37.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/leipzig-gegen-bergischer-hc-2026-handball-bundesliga-5097484/spielbericht#omrss",
+        "title": "Rudeck-Show entscheidet Kellerduell: Leipzig verliert gegen BHC",
+        "summary": "Das Schlüsselspiel im Abstiegskampf hat der SC DHfK Leipzig verloren. Zu häufig scheiterten die Sachsen beim 28:35 (14:16) an Gästekeeper Christopher Rudeck, während die eigenen Keeper lange Zeit glücklos agierten.",
+        "paragraphs": [
+          "Das Schlüsselspiel im Abstiegskampf hat der SC DHfK Leipzig verloren. Zu häufig scheiterten die Sachsen beim 28:35 (14:16) an Gästekeeper Christopher Rudeck, während die eigenen Keeper lange Zeit glücklos agierten."
+        ],
+        "link": "https://www.kicker.de/leipzig-gegen-bergischer-hc-2026-handball-bundesliga-5097484/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-01T17:09:00.000Z"
       },
       {
         "id": "https://www.kicker.de/prestianni-droht-rauswurf-dann-ist-seine-karriere-bei-benfica-zu-ende-1197777/artikel#omrss",
@@ -536,7 +591,7 @@
       },
       {
         "id": "https://www.kicker.de/schweinfurt-gegen-saarbruecken-2026-liga-5057589/spielbericht#omrss",
-        "title": "LIVE! Kellerduell am Abend: Jones' Schweinfurter empfangen Giannikis' Saarbrücker",
+        "title": "LIVE! Kellerduell am Abend: Bretschneider nimmt Krätschmers Geschenk nicht an",
         "summary": "Jermaine Jones' Debüt beim 1. FC Schweinfurt ging in die Hose: 1:3 verlor man in Duisburg. Ohnehin läuft es bei den Schweinfurtern in dieser Saison nicht. Nach 25 Spielen haben die Schnüdel lediglich zehn Punkte auf dem Konto. Nun empfängt man den 1. FC Saarbrücken auf Rang 16. Die Saarländer holten unter Neu-Coach Argirios Giannikis bisher einen Sieg und ein Unentschieden.",
         "paragraphs": [
           "Jermaine Jones' Debüt beim 1. FC Schweinfurt ging in die Hose: 1:3 verlor man in Duisburg. Ohnehin läuft es bei den Schweinfurtern in dieser Saison nicht. Nach 25 Spielen haben die Schnüdel lediglich zehn Punkte auf dem Konto. Nun empfängt man den 1. FC Saarbrücken auf Rang 16. Die Saarländer holten unter Neu-Coach Argirios Giannikis bisher einen Sieg und ein Unentschieden."
@@ -610,61 +665,6 @@
         "link": "https://www.kicker.de/wir-machen-es-einfach-nicht-magdeburgs-alte-fehler-nerven-sander-1197753/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-01T16:15:19.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/manunited-gegen-palace-2026-premier-league-5045281/spielbericht#omrss",
-        "title": "Erst Torschütze, dann Sündenbock: Lacroix ebnet ManUnited den Weg für die Wende",
-        "summary": "Manchester United hat sich mit einem Arbeitssieg gegen Crystal Palace auf Rang 3 vorgeschoben. Der ehemalige Wolfsburger Maxence Lacroix erlebte dabei ein Wechselbad der Gefühle.",
-        "paragraphs": [
-          "Manchester United hat sich mit einem Arbeitssieg gegen Crystal Palace auf Rang 3 vorgeschoben. Der ehemalige Wolfsburger Maxence Lacroix erlebte dabei ein Wechselbad der Gefühle."
-        ],
-        "link": "https://www.kicker.de/manunited-gegen-palace-2026-premier-league-5045281/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-01T16:14:11.000Z"
-      },
-      {
-        "id": "14d90aa5-27f5-420b-82e5-1984422b9b99",
-        "title": "Extremschwimmer André Wiersig: Die Einsamkeit des Wassermanns",
-        "summary": "André Wiersig hat die gefährlichsten Meerengen durchschwommen. Sein Traum: 50 Kilometer allein durch den Indischen Ozean zu kraulen, vorbei an Quallen und Haien. Was fühlt einer wie er, wenn er ankommt?",
-        "paragraphs": [
-          "André Wiersig hat die gefährlichsten Meerengen durchschwommen. Sein Traum: 50 Kilometer allein durch den Indischen Ozean zu kraulen, vorbei an Quallen und Haien. Was fühlt einer wie er, wenn er ankommt?"
-        ],
-        "link": "https://www.spiegel.de/sport/extremschwimmer-andre-wiersig-die-einsamkeit-des-wassermanns-a-14d90aa5-27f5-420b-82e5-1984422b9b99#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-03-01T16:02:00.000Z"
-      },
-      {
-        "id": "li.3396286",
-        "title": "Fußball: Der VAR wird bald noch häufiger eingreifen",
-        "summary": "Die Regelhüter des Fußballs weiten die Befugnisse des Videoschiedsrichters nochmals aus. Künftig soll er auch Ecken und Ampelkarten überprüfen. Auch zur Vermeidung von Spielverzögerungen gibt es neue Vorgaben.",
-        "paragraphs": [
-          "Die Regelhüter des Fußballs weiten die Befugnisse des Videoschiedsrichters nochmals aus. Künftig soll er auch Ecken und Ampelkarten überprüfen. Auch zur Vermeidung von Spielverzögerungen gibt es neue Vorgaben."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/fussball-regeln-var-li.3396286",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-01T15:51:56.000Z"
-      },
-      {
-        "id": "li.3396338",
-        "title": "Nahostkonflikt: Katar unterbricht seine Fußballsaison",
-        "summary": "Der eskalierende Nahostkonflikt hat auch erste Auswirkungen auf den Sport. In Katar wird der Spielbetrieb im Fußball vorerst ausgesetzt, während Iran seine WM-Teilnahme in Gefahr sieht.",
-        "paragraphs": [
-          "Der eskalierende Nahostkonflikt hat auch erste Auswirkungen auf den Sport. In Katar wird der Spielbetrieb im Fußball vorerst ausgesetzt, während Iran seine WM-Teilnahme in Gefahr sieht."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/nahost-konflikt-iran-katar-li.3396338",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-01T15:51:45.000Z"
-      },
-      {
-        "id": "li.3396311",
-        "title": "Bayer Leverkusen: Klubchef Carro tobt",
-        "summary": "Nach dem Remis gegen Mainz richtet Fernando Carro eine deutliche Ansage an die Spieler von Bayer Leverkusen. Doch auch Schiedsrichter Stieler bekommt seinen Zorn ab.",
-        "paragraphs": [
-          "Nach dem Remis gegen Mainz richtet Fernando Carro eine deutliche Ansage an die Spieler von Bayer Leverkusen. Doch auch Schiedsrichter Stieler bekommt seinen Zorn ab."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/leverkusen-mainz-carro-li.3396311",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-01T15:51:19.000Z"
       }
     ],
     "edv": [
