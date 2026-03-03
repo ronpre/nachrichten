@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-03T19:27:21.705Z",
+  "updatedAt": "2026-03-03T19:45:45.098Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-daemmen-nach-massivem-kursrutsch-tagesverluste-ein/100205170.html",
+        "title": "Wall Street: US-Börsen dämmen Tagesverluste nach massivem Kursrutsch im Handelsverlauf deutlich ein",
+        "summary": "Nach kräftigen Abschlägen zu Handelsbeginn haben sich die US-Indizes am Dienstag spürbar erholt. Wie am Vortag schrumpften die anfänglichen Verluste im Laufe des Tages deutlich zusammen.",
+        "paragraphs": [
+          "Nach kräftigen Abschlägen zu Handelsbeginn haben sich die US-Indizes am Dienstag spürbar erholt. Wie am Vortag schrumpften die anfänglichen Verluste im Laufe des Tages deutlich zusammen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-daemmen-nach-massivem-kursrutsch-tagesverluste-ein/100205170.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-03-03T19:30:37.000Z"
+      },
       {
         "id": "{urn:uuid:dbe68e28-fe64-4add-b0ae-bf52d9d3576e}",
         "title": "Gas: \"Am LNG-Markt herrscht Panik\"",
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/politik/international/iran-welche-milizen-dem-iran-zur-seite-stehen-und-wie-stark-sie-sind/100204975.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-03T16:26:45.000Z"
-      },
-      {
-        "id": "li.3395155",
-        "title": "SZ Digitalgipfel: Sind Rechenzentren im All die Lösung?",
-        "summary": "Der KI-Boom treibt den Strombedarf von Rechenzentren massiv in die Höhe. Hessens Digitalministerin wirbt für neue Energiequellen und eine Parallelstrategie zu US-Tech-Unternehmen.",
-        "paragraphs": [
-          "Der KI-Boom treibt den Strombedarf von Rechenzentren massiv in die Höhe. Hessens Digitalministerin wirbt für neue Energiequellen und eine Parallelstrategie zu US-Tech-Unternehmen."
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/sz-digitalgipfel-ki-li.3395155",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-03T16:17:04.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "79d47c75-b933-47fd-a0d2-4e7da6cb334b",
+        "title": "Iran-Krieg im Live-Ticker: Israel startet neue Angriffswelle auf Teheran",
+        "summary": "Die Angriffe seitens der USA und Israels gegen den Iran gehen weiter. Der Oberste Führer des Irans, Ali Chamenei, wurde getötet. Laut Trump könnten die Kämpfe noch vier Wochen andauern. Alle Entwicklungen im Liveticker.",
+        "paragraphs": [
+          "Die Angriffe seitens der USA und Israels gegen den Iran gehen weiter. Der Oberste Führer des Irans, Ali Chamenei, wurde getötet. Laut Trump könnten die Kämpfe noch vier Wochen andauern. Alle Entwicklungen im Liveticker."
+        ],
+        "link": "https://www.focus.de/politik/iran-krieg-im-live-ticker-usa-beteiligen-sich-an-israels-angriff_79d47c75-b933-47fd-a0d2-4e7da6cb334b.html",
+        "source": "Focus",
+        "publishedAt": "2026-03-03T19:39:00.000Z"
+      },
       {
         "id": "b5349442-cff2-4dbd-b13f-4bd3cd5e2f59",
         "title": "AfD-Wahlkampf in Reutlingen: Umstrittener Auftritt von Björn Höcke - SPIEGEL TV",
@@ -267,17 +278,6 @@
         "link": "https://www.focus.de/politik/ausland/deutsche-sitzen-fest-was-reiseverband-und-regierung-raten_41183d83-27af-4a3d-940b-222d35240b63.html",
         "source": "Focus",
         "publishedAt": "2026-03-03T19:00:00.000Z"
-      },
-      {
-        "id": "79d47c75-b933-47fd-a0d2-4e7da6cb334b",
-        "title": "Iran-Krieg im Live-Ticker: Israel startet neue Angriffswelle auf Teheran",
-        "summary": "Die Angriffe seitens der USA und Israels gegen den Iran gehen weiter. Der Oberste Führer des Irans, Ali Chamenei, wurde getötet. Laut Trump könnten die Kämpfe noch vier Wochen andauern. Alle Entwicklungen im Liveticker.",
-        "paragraphs": [
-          "Die Angriffe seitens der USA und Israels gegen den Iran gehen weiter. Der Oberste Führer des Irans, Ali Chamenei, wurde getötet. Laut Trump könnten die Kämpfe noch vier Wochen andauern. Alle Entwicklungen im Liveticker."
-        ],
-        "link": "https://www.focus.de/politik/iran-krieg-im-live-ticker-usa-beteiligen-sich-an-israels-angriff_79d47c75-b933-47fd-a0d2-4e7da6cb334b.html",
-        "source": "Focus",
-        "publishedAt": "2026-03-03T18:47:00.000Z"
       },
       {
         "id": "ee72d959-4725-403b-9d16-0c2a006ba488",
@@ -447,15 +447,48 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-loewen-treffen-im-nebel-spiel-unterbrochen-vfl-und-jahn-auf-kurs-1198019/artikel#omrss",
-        "title": "LIVE! Löwen treffen im Nebel: Spiel unterbrochen - VfL und Jahn auf Kurs",
+        "id": "fedf5e71-84b0-4a82-bd18-bf84888457f5",
+        "title": "Paralympics 2026: Deutsches Team boykottiert Eröffnungsfeier in Verona",
+        "summary": "Als Protest gegen die Entscheidung, Athleten aus Russland und Belarus teilnehmen zu lassen, verzichtet die Deutsche bei der Eröffnungsfeier in Verona auf den traditionellen Einmarsch. Auch die Ukraine und Estland protestieren.",
+        "paragraphs": [
+          "Als Protest gegen die Entscheidung, Athleten aus Russland und Belarus teilnehmen zu lassen, verzichtet die Deutsche bei der Eröffnungsfeier in Verona auf den traditionellen Einmarsch. Auch die Ukraine und Estland protestieren."
+        ],
+        "link": "https://www.spiegel.de/sport/olympia/paralympics-2026-deutsches-team-boykottiert-eroeffnungsfeier-in-verona-a-fedf5e71-84b0-4a82-bd18-bf84888457f5#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-03-03T19:39:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-in-muenchen-rollt-der-ball-wieder-cottbus-dreht-spiel-doppelpack-zeitler-1198019/artikel#omrss",
+        "title": "LIVE! In München rollt der Ball wieder - Cottbus dreht Spiel - Doppelpack Zeitler",
         "summary": "Mit 49 Punkten haben Tabellenführer Osnabrück und Verfolger Cottbus aktuell die besten Karten auf einen Zweitliga-Aufstieg. Nachlegen will das Spitzenduo in der englischen Woche: Cottbus gastiert bei Stuttgart II, Osnabrück empfängt Viktoria Köln. Gleichzeitig schielt 1860 München weiter nach oben.",
         "paragraphs": [
           "Mit 49 Punkten haben Tabellenführer Osnabrück und Verfolger Cottbus aktuell die besten Karten auf einen Zweitliga-Aufstieg. Nachlegen will das Spitzenduo in der englischen Woche: Cottbus gastiert bei Stuttgart II, Osnabrück empfängt Viktoria Köln. Gleichzeitig schielt 1860 München weiter nach oben."
         ],
-        "link": "https://www.kicker.de/live-loewen-treffen-im-nebel-spiel-unterbrochen-vfl-und-jahn-auf-kurs-1198019/artikel#omrss",
+        "link": "https://www.kicker.de/live-in-muenchen-rollt-der-ball-wieder-cottbus-dreht-spiel-doppelpack-zeitler-1198019/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-03T19:13:14.000Z"
+        "publishedAt": "2026-03-03T19:36:50.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kristianstad-gegen-melsungen-2026-ehf-pokal-5181488/spielbericht#omrss",
+        "title": "Mansson-Show schockt Melsungen in Kristianstad",
+        "summary": "Die MT Melsungen hat in der Handball European League die zweite Niederlage in Folge kassiert. Bei IFK Kristianstad stach vor allem Axel Mansson heraus. Gegen Schwedens Mega-Talent fand die MT keine Mittel.",
+        "paragraphs": [
+          "Die MT Melsungen hat in der Handball European League die zweite Niederlage in Folge kassiert. Bei IFK Kristianstad stach vor allem Axel Mansson heraus. Gegen Schwedens Mega-Talent fand die MT keine Mittel."
+        ],
+        "link": "https://www.kicker.de/kristianstad-gegen-melsungen-2026-ehf-pokal-5181488/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-03T19:22:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kiel-gegen-bidasoa-irun-2026-ehf-pokal-5181484/spielbericht#omrss",
+        "title": "Geburtstags-Gala von Wolff: Kiel schlägt Irun",
+        "summary": "Ein überragender Andreas Wolff führte den THW zum 27:20-Sieg über Bidasoa Irun. In der ersten Halbzeit konnten die Gastgeber noch kein Profit aus den vielen Fehlern und vergebenen Chancen der Gäste schlagen. Im zweiten Durchgang gelang dies jedoch besser und so war der Kieler Sieg am Ende nie wirklich gefährdet.",
+        "paragraphs": [
+          "Ein überragender Andreas Wolff führte den THW zum 27:20-Sieg über Bidasoa Irun. In der ersten Halbzeit konnten die Gastgeber noch kein Profit aus den vielen Fehlern und vergebenen Chancen der Gäste schlagen. Im zweiten Durchgang gelang dies jedoch besser und so war der Kieler Sieg am Ende nie wirklich gefährdet."
+        ],
+        "link": "https://www.kicker.de/kiel-gegen-bidasoa-irun-2026-ehf-pokal-5181484/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-03T19:20:00.000Z"
       },
       {
         "id": "https://www.kicker.de/barcelona-gegen-atl-madrid-2026-copa-del-rey-5192452/spielbericht#omrss",
@@ -470,7 +503,7 @@
       },
       {
         "id": "https://www.kicker.de/wolves-gegen-liverpool-2026-premier-league-5045293/spielbericht#omrss",
-        "title": "LIVE! Schockt Schlusslicht Wolverhampton auch die Reds?",
+        "title": "LIVE! Ärgert Schlusslicht Wolverhampton auch die Reds?",
         "summary": "Das Schlusslicht der Premier League Wolverhampton Wanderers stellte zuletzt Aston Villa überraschend ein Bein. Erledigt der FC Liverpool die Pflichtaufgabe?",
         "paragraphs": [
           "Das Schlusslicht der Premier League Wolverhampton Wanderers stellte zuletzt Aston Villa überraschend ein Bein. Erledigt der FC Liverpool die Pflichtaufgabe?"
@@ -513,6 +546,17 @@
         "publishedAt": "2026-03-03T18:59:41.000Z"
       },
       {
+        "id": "https://www.kicker.de/deutschland-gegen-slowenien-2026-frauen-wm-qualifikation-5178781/spielbericht#omrss",
+        "title": "Traumdebüt für Mühlhaus: Deutschland feiert Kantersieg gegen Slowenien",
+        "summary": "Zum Auftakt in der WM-Qualifikation ließ Deutschland gegen den Underdog aus Slowenien nichts anbrennen und gewann mit 5:0. Einer Debütantin gelang dabei sogar ein Traumstart, während die Schiedsrichterleistung zu wünschen übrig ließ.",
+        "paragraphs": [
+          "Zum Auftakt in der WM-Qualifikation ließ Deutschland gegen den Underdog aus Slowenien nichts anbrennen und gewann mit 5:0. Einer Debütantin gelang dabei sogar ein Traumstart, während die Schiedsrichterleistung zu wünschen übrig ließ."
+        ],
+        "link": "https://www.kicker.de/deutschland-gegen-slowenien-2026-frauen-wm-qualifikation-5178781/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-03T18:51:34.000Z"
+      },
+      {
         "id": "3eb42dc7-6a11-4b06-b77b-00ba39b0eeb4",
         "title": "Auftakt der WM-Qualifikation: DFB-Spielerinnen siegen gegen Slowenien",
         "summary": "Die DFB-Fußballerinnen haben ihren Auftakt in die WM-Qualifikation mühelos bestanden. Die makellose Bilanz gegen die Sloweninnen bleibt bestehen, daran ändert auch ein zwischenzeitlicher Durchhänger nichts.",
@@ -524,17 +568,6 @@
         "publishedAt": "2026-03-03T18:49:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/traumdebuet-von-muehlhaus-dfb-frauen-feiern-kantersieg-in-der-wm-quali-1196166/artikel#omrss",
-        "title": "Traumdebüt von Mühlhaus: DFB-Frauen feiern Kantersieg in der WM-Quali",
-        "summary": "Die DFB-Frauen haben zum Auftakt in die WM-Qualifikation in Dresden einen 5:0-Kantersieg gegen Slowenien gefeiert. Ein besonderer Abend war es fraglos für Debütantin Larissa Mühlhaus, die wenige Minuten nach ihrer Einwechslung traf.",
-        "paragraphs": [
-          "Die DFB-Frauen haben zum Auftakt in die WM-Qualifikation in Dresden einen 5:0-Kantersieg gegen Slowenien gefeiert. Ein besonderer Abend war es fraglos für Debütantin Larissa Mühlhaus, die wenige Minuten nach ihrer Einwechslung traf."
-        ],
-        "link": "https://www.kicker.de/traumdebuet-von-muehlhaus-dfb-frauen-feiern-kantersieg-in-der-wm-quali-1196166/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-03T18:36:04.000Z"
-      },
-      {
         "id": "https://www.kicker.de/der-richtige-schritt-darum-bekommt-super-bowl-mvp-walker-iii-nicht-den-franchise-tag-von-den-seahawks-1198417/artikel#omrss",
         "title": "Der richtige Schritt: Darum bekommt Super-Bowl-MVP Walker III nicht den Franchise Tag von den Seahawks",
         "summary": "Die Seattle Seahawks kamen in diese Offseason aus einer der besten Saisons der Franchise-Geschichte. Mit dem Sieg des Super Bowls krönten die Seahawks eine bärenstarke Saison. Doch nun folgt ein vermeintlich herber Rückschlag. Der Super-Bowl Champion wird seinen Super Bowl MVP Running Back Kenneth Walker III verlieren. Obwohl diese Entscheidung im ersten Moment fatal klingt, ist sie ein richtiger Schritt der Seahawks hin zu langfristigem Erfolg.",
@@ -544,6 +577,17 @@
         "link": "https://www.kicker.de/der-richtige-schritt-darum-bekommt-super-bowl-mvp-walker-iii-nicht-den-franchise-tag-von-den-seahawks-1198417/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-03T18:35:58.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/zuschauer-zahlen-viel-geld-huerzeler-kritisiert-arsenal-und-fordert-aenderung-1198416/video#omrss",
+        "title": "\"Zuschauer zahlen viel Geld\": Hürzeler kritisiert Arsenal und fordert Änderung",
+        "summary": "Brighton-Trainer Fabian Hürzeler fordert klare Regeln für Standardsituationen und kritisiert Arsenals Zeitspiel bei Ecken und Freistößen. Für ihn sollen Fans volle Spielzeiten und ein echtes Fußballerlebnis sehen.",
+        "paragraphs": [
+          "Brighton-Trainer Fabian Hürzeler fordert klare Regeln für Standardsituationen und kritisiert Arsenals Zeitspiel bei Ecken und Freistößen. Für ihn sollen Fans volle Spielzeiten und ein echtes Fußballerlebnis sehen."
+        ],
+        "link": "https://www.kicker.de/zuschauer-zahlen-viel-geld-huerzeler-kritisiert-arsenal-und-fordert-aenderung-1198416/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-03T18:32:12.000Z"
       },
       {
         "id": "{urn:uuid:fc7bed00-f5ae-4fe3-b537-578f740f1f4a}",
@@ -621,50 +665,6 @@
         "link": "https://www.kicker.de/druck-hjulmand-so-ist-das-leben-eines-trainers-1198404/video#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-03T17:39:58.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bundesweit-einzigartig-muenchner-fanprojekt-kritisiert-dortmunder-polizei-scharf-1198390/artikel#omrss",
-        "title": "\"Bundesweit\" einzigartig: Münchner Fanprojekt kritisiert Dortmunder Polizei scharf",
-        "summary": "Der Zusammenstoß zwischen Bayern-Fans und der Dortmunder Polizei sorgt auch Tage nach dem Bundesliga-Schlagerspiel für heftige Diskussionen. Nun meldeten sich Münchner Fanbetreuer zu Wort.",
-        "paragraphs": [
-          "Der Zusammenstoß zwischen Bayern-Fans und der Dortmunder Polizei sorgt auch Tage nach dem Bundesliga-Schlagerspiel für heftige Diskussionen. Nun meldeten sich Münchner Fanbetreuer zu Wort."
-        ],
-        "link": "https://www.kicker.de/bundesweit-einzigartig-muenchner-fanprojekt-kritisiert-dortmunder-polizei-scharf-1198390/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-03T16:48:57.000Z"
-      },
-      {
-        "id": "{urn:uuid:3ba3eebc-91b1-442c-a184-7f4069b6dbc7}",
-        "title": "Paralympische Spiele: Deutsche Parasportler wollen an Medaillenerfolg anknüpfen",
-        "summary": "Nach den Spielen ist vor den Spielen: Bei den Winterparalympics kämpfen Athleten mit Behinderungen um die paralympischen Medaillen. Das deutsche Team hat große Ziele.",
-        "paragraphs": [
-          "Nach den Spielen ist vor den Spielen: Bei den Winterparalympics kämpfen Athleten mit Behinderungen um die paralympischen Medaillen. Das deutsche Team hat große Ziele."
-        ],
-        "link": "https://www.zeit.de/sport/2026-02/paralympische-spiele-wintersport-italien-qualifikation-faq",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-03T16:47:20.000Z"
-      },
-      {
-        "id": "90361abe-2519-48e9-a75a-e8e170fefdb1",
-        "title": "Streit im Eisschnelllauf: Felix Maly verzichtet aus Solidarität mit Teamkollege Petzold auf WM-Start",
-        "summary": "Nachdem der deutsche Eisschnellläufer Fridtjof Petzold Kritik am Verband geäußert hatte, wurde er mit einem Startverbot belegt. Sein Teamkollege Felix Maly will deswegen auch nicht antreten.",
-        "paragraphs": [
-          "Nachdem der deutsche Eisschnellläufer Fridtjof Petzold Kritik am Verband geäußert hatte, wurde er mit einem Startverbot belegt. Sein Teamkollege Felix Maly will deswegen auch nicht antreten."
-        ],
-        "link": "https://www.spiegel.de/sport/wintersport/streit-im-eisschnelllauf-felix-maly-verzichtet-aus-solidaritaet-mit-teamkollege-petzold-auf-wm-start-a-90361abe-2519-48e9-a75a-e8e170fefdb1#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-03-03T16:44:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-zeigt-jena-eine-reaktion-bfc-duell-in-hohenschoenhausen-1195286/artikel#omrss",
-        "title": "LIVE! Zeigt Jena eine Reaktion? - BFC-Duell in Hohenschönhausen",
-        "summary": "In der Regionalliga Nordost wird der 20. Spieltag in dieser Woche nachgeholt. Zum Start empfängt der FC Carl Zeiss Jena die VSG Altglienicke. Abstiegskampf gibt es am Dienstag auf den Plätzen in Hohenschönhausen, Leutzsch und Eilenburg.",
-        "paragraphs": [
-          "In der Regionalliga Nordost wird der 20. Spieltag in dieser Woche nachgeholt. Zum Start empfängt der FC Carl Zeiss Jena die VSG Altglienicke. Abstiegskampf gibt es am Dienstag auf den Plätzen in Hohenschönhausen, Leutzsch und Eilenburg."
-        ],
-        "link": "https://www.kicker.de/live-zeigt-jena-eine-reaktion-bfc-duell-in-hohenschoenhausen-1195286/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-03T16:41:06.000Z"
       }
     ],
     "edv": [
@@ -801,17 +801,6 @@
         "publishedAt": "2026-03-03T14:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/DxO-PureRaw-6-Fototool-reduziert-Bildrauschen-und-entfernt-Staubflecken-11182603.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "DxO PureRaw 6: Fototool reduziert Bildrauschen und entfernt Staubflecken",
-        "summary": "DxO PureRaw 6 erweitert die Rauschminderung DeepPrime XD3 von X-Trans- auf Bayer-Sensoren, entfernt Staub per KI und speichert auf Wunsch als komprimiertes DNG.",
-        "paragraphs": [
-          "DxO PureRaw 6 erweitert die Rauschminderung DeepPrime XD3 von X-Trans- auf Bayer-Sensoren, entfernt Staub per KI und speichert auf Wunsch als komprimiertes DNG."
-        ],
-        "link": "https://www.heise.de/news/DxO-PureRaw-6-Fototool-reduziert-Bildrauschen-und-entfernt-Staubflecken-11182603.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-03T14:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/KI-Bildgeneratoren-fuer-CorelDraw-Graphics-Suite-2026-11185900.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "KI-Bildgeneratoren für CorelDraw Graphics Suite 2026",
         "summary": "Corel integriert KI-Werkzeuge in die CorelDraw Graphics Suite 2026. Sie erzeugen und bearbeiten Bilder per Texteingabe und stellen Motive frei.",
@@ -819,6 +808,17 @@
           "Corel integriert KI-Werkzeuge in die CorelDraw Graphics Suite 2026. Sie erzeugen und bearbeiten Bilder per Texteingabe und stellen Motive frei."
         ],
         "link": "https://www.heise.de/news/KI-Bildgeneratoren-fuer-CorelDraw-Graphics-Suite-2026-11185900.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-03T14:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/DxO-PureRaw-6-Fototool-reduziert-Bildrauschen-und-entfernt-Staubflecken-11182603.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "DxO PureRaw 6: Fototool reduziert Bildrauschen und entfernt Staubflecken",
+        "summary": "DxO PureRaw 6 erweitert die Rauschminderung DeepPrime XD3 von X-Trans- auf Bayer-Sensoren, entfernt Staub per KI und speichert auf Wunsch als komprimiertes DNG.",
+        "paragraphs": [
+          "DxO PureRaw 6 erweitert die Rauschminderung DeepPrime XD3 von X-Trans- auf Bayer-Sensoren, entfernt Staub per KI und speichert auf Wunsch als komprimiertes DNG."
+        ],
+        "link": "https://www.heise.de/news/DxO-PureRaw-6-Fototool-reduziert-Bildrauschen-und-entfernt-Staubflecken-11182603.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-03T14:00:00.000Z"
       },
