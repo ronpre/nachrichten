@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-04T20:01:20.784Z",
+  "updatedAt": "2026-03-04T20:19:54.488Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "eac84418-a0f2-4adf-8f65-46b2916ea3c6",
+        "title": "Iran-Krieg und die Straße von Hormus: Hier hat das Regime die Weltwirtschaft im Würgegriff",
+        "summary": "Fast jeder dritte Liter Öl kommt aus der Region um den Persischen Golf, beim Flüssigerdgas sieht es ähnlich aus. Nun blockiert Iran die Straße von Hormus. Diese Karten zeigen, wie abhängig die Welt ist.",
+        "paragraphs": [
+          "Fast jeder dritte Liter Öl kommt aus der Region um den Persischen Golf, beim Flüssigerdgas sieht es ähnlich aus. Nun blockiert Iran die Straße von Hormus. Diese Karten zeigen, wie abhängig die Welt ist."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/iran-krieg-an-dieser-stelle-hat-iran-die-weltwirtschaft-im-wuergegriff-a-eac84418-a0f2-4adf-8f65-46b2916ea3c6#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-03-04T20:01:00.000Z"
+      },
       {
         "id": "{urn:uuid:b465d999-76a9-4445-91c8-008327e7cd38}",
         "title": "\"Made in Europe\": Klingt charmant, reicht aber nicht",
@@ -59,7 +70,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-russischer-lng-tanker-versinkt-nach-beschuss-vor-libyen/100205597.html",
-        "title": "Ukraine-Krieg: Russland: LNG-Tanker versinkt nach ukrainischem Beschuss vor Libyen",
+        "title": "Ukraine-Krieg: Russland: LNG-Tanker versinkt vor Libyen nach ukrainischem Beschuss",
         "summary": "Den Angaben des Kreml zufolge wurde die „Arctic Metagaz“ von ukrainischen Drohnen angegriffen, die von der libyschen Küste aus starteten. Das Schiff war auf dem Weg nach Port Said in Ägypten.",
         "paragraphs": [
           "Den Angaben des Kreml zufolge wurde die „Arctic Metagaz“ von ukrainischen Drohnen angegriffen, die von der libyschen Küste aus starteten. Das Schiff war auf dem Weg nach Port Said in Ägypten."
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/brandenburg-spd-und-cdu-schmieden-koalition-in-brandenburg/100205567.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-04T16:53:36.000Z"
-      },
-      {
-        "id": "d29384f6-2cc7-470f-867a-b343f06aba43",
-        "title": "Veggie-Produkte: EU kurz vor der Einigung auf Namensverbote",
-        "summary": "Begriffe wie »Veggieburger« sollen verschwinden, mit diesem Votum sorgte das EU‑Parlament für Aufsehen. Nun deutet sich ein Kompromiss an, der vor allem tierische Bezeichnungen wie »Hühnchen« oder »Speck« untersagen soll.",
-        "paragraphs": [
-          "Begriffe wie »Veggieburger« sollen verschwinden, mit diesem Votum sorgte das EU‑Parlament für Aufsehen. Nun deutet sich ein Kompromiss an, der vor allem tierische Bezeichnungen wie »Hühnchen« oder »Speck« untersagen soll."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/service/veggie-produkte-eu-kurz-vor-der-einigung-auf-namensverbote-a-d29384f6-2cc7-470f-867a-b343f06aba43#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-03-04T16:42:00.000Z"
       }
     ],
     "politik": [
@@ -233,7 +233,7 @@
         ],
         "link": "https://www.focus.de/politik/iran-krieg-im-live-ticker-usa-beteiligen-sich-an-israels-angriff_79d47c75-b933-47fd-a0d2-4e7da6cb334b.html",
         "source": "Focus",
-        "publishedAt": "2026-03-04T19:49:00.000Z"
+        "publishedAt": "2026-03-04T20:07:00.000Z"
       },
       {
         "id": "50d30265-0cd9-4ade-8d88-5e35e5868a4b",
@@ -281,7 +281,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-russischer-lng-tanker-versinkt-nach-beschuss-vor-libyen/100205597.html",
-        "title": "Ukraine-Krieg: Russland: LNG-Tanker versinkt nach ukrainischem Beschuss vor Libyen",
+        "title": "Ukraine-Krieg: Russland: LNG-Tanker versinkt vor Libyen nach ukrainischem Beschuss",
         "summary": "Den Angaben des Kreml zufolge wurde die „Arctic Metagaz“ von ukrainischen Drohnen angegriffen, die von der libyschen Küste aus starteten. Das Schiff war auf dem Weg nach Port Said in Ägypten.",
         "paragraphs": [
           "Den Angaben des Kreml zufolge wurde die „Arctic Metagaz“ von ukrainischen Drohnen angegriffen, die von der libyschen Küste aus starteten. Das Schiff war auf dem Weg nach Port Said in Ägypten."
@@ -447,15 +447,37 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-knallkoerper-landet-neben-torwart-wird-in-essen-nochmal-angepfiffen-1198024/artikel#omrss",
-        "title": "LIVE! Knallkörper landet neben Torwart: Wird in Essen nochmal angepfiffen?",
-        "summary": "Nach vier Spielen ohne Sieg schaffte Hansa Rostock am vergangenen Wochenende wieder einen Dreier. Kann die Kogge an diesen Erfolg beim Tabellenvorletzten Havelse anknüpfen? Außerdem gastiert der MSV Duisburg in Ingolstadt und kann Rang 3 untermauern.",
+        "id": "https://www.kicker.de/rwe-torwart-wienand-nach-boellerwurf-verletzt-partie-stand-vor-abbruch-1198752/artikel#omrss",
+        "title": "RWE-Torwart Wienand nach Böllerwurf verletzt - Partie stand vor Abbruch",
+        "summary": "Ein unschöner Zwischenfall hat das Drittliga-Spiel zwischen Rot-Weiss Essen und dem SV Waldhof Mannheim überschattet. Die Partie stand vor dem Abbruch, nachdem aus dem Gästeblock ein Knallkörper geflogen und neben RWE-Torwart Felix Wienand gelandet war.",
         "paragraphs": [
-          "Nach vier Spielen ohne Sieg schaffte Hansa Rostock am vergangenen Wochenende wieder einen Dreier. Kann die Kogge an diesen Erfolg beim Tabellenvorletzten Havelse anknüpfen? Außerdem gastiert der MSV Duisburg in Ingolstadt und kann Rang 3 untermauern."
+          "Ein unschöner Zwischenfall hat das Drittliga-Spiel zwischen Rot-Weiss Essen und dem SV Waldhof Mannheim überschattet. Die Partie stand vor dem Abbruch, nachdem aus dem Gästeblock ein Knallkörper geflogen und neben RWE-Torwart Felix Wienand gelandet war."
         ],
-        "link": "https://www.kicker.de/live-knallkoerper-landet-neben-torwart-wird-in-essen-nochmal-angepfiffen-1198024/artikel#omrss",
+        "link": "https://www.kicker.de/rwe-torwart-wienand-nach-boellerwurf-verletzt-partie-stand-vor-abbruch-1198752/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-04T19:57:35.000Z"
+        "publishedAt": "2026-03-04T20:17:58.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-arsenal-verwaltet-brighton-draengelt-semenyo-erloest-mancity-chelsea-glueckt-ausgleich-1198143/artikel#omrss",
+        "title": "LIVE! Arsenal verwaltet, Brighton drängelt- Semenyo erlöst ManCity - Chelsea glückt Ausgleich",
+        "summary": "Während Spitzenreiter Arsenal in Brighton und Verfolger ManCity gegen Nottingham auf drei Punkte aus sind, steigt in Birmingham das Verfolgerduell zwischen Aston Villa und Chelsea. Spannung verspricht auch ManUniteds Auftritt in Newcastle.",
+        "paragraphs": [
+          "Während Spitzenreiter Arsenal in Brighton und Verfolger ManCity gegen Nottingham auf drei Punkte aus sind, steigt in Birmingham das Verfolgerduell zwischen Aston Villa und Chelsea. Spannung verspricht auch ManUniteds Auftritt in Newcastle."
+        ],
+        "link": "https://www.kicker.de/live-arsenal-verwaltet-brighton-draengelt-semenyo-erloest-mancity-chelsea-glueckt-ausgleich-1198143/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-04T20:12:34.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/vagnoman-muss-auch-um-porto-bangen-1198750/artikel#omrss",
+        "title": "Vagnoman muss auch um Porto bangen",
+        "summary": "Während Jeff Chabot schon am Samstag in Mainz wieder eine Option beim VfB darstellt, dürfte Josha Vagnoman womöglich sogar noch das Europa-League-Duell nächste Woche verpassen.",
+        "paragraphs": [
+          "Während Jeff Chabot schon am Samstag in Mainz wieder eine Option beim VfB darstellt, dürfte Josha Vagnoman womöglich sogar noch das Europa-League-Duell nächste Woche verpassen."
+        ],
+        "link": "https://www.kicker.de/vagnoman-muss-auch-um-porto-bangen-1198750/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-04T20:01:52.000Z"
       },
       {
         "id": "https://www.kicker.de/live-knapp-freistoss-statt-elfmeter-fuer-bayer-jatta-verletzt-raus-1198130/artikel#omrss",
@@ -478,17 +500,6 @@
         "link": "https://www.kicker.de/meuselwitz-gegen-lok-leipzig-2026-regionalliga-nordost-5058310/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-04T19:50:17.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-saka-nutzt-erste-chance-arsenal-fuehrt-douglas-luiz-sorgt-fuer-villas-blitzstart-1198143/artikel#omrss",
-        "title": "LIVE! Saka nutzt erste Chance: Arsenal führt - Douglas Luiz sorgt für Villas Blitzstart",
-        "summary": "Während Spitzenreiter Arsenal in Brighton und Verfolger ManCity gegen Nottingham auf drei Punkte aus sind, steigt in Birmingham das Verfolgerduell zwischen Aston Villa und Chelsea. Spannung verspricht auch ManUniteds Auftritt in Newcastle.",
-        "paragraphs": [
-          "Während Spitzenreiter Arsenal in Brighton und Verfolger ManCity gegen Nottingham auf drei Punkte aus sind, steigt in Birmingham das Verfolgerduell zwischen Aston Villa und Chelsea. Spannung verspricht auch ManUniteds Auftritt in Newcastle."
-        ],
-        "link": "https://www.kicker.de/live-saka-nutzt-erste-chance-arsenal-fuehrt-douglas-luiz-sorgt-fuer-villas-blitzstart-1198143/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-04T19:40:25.000Z"
       },
       {
         "id": "https://www.kicker.de/pogacar-vom-sofa-direkt-zum-ersten-sieg-1198746/artikel#omrss",
@@ -654,28 +665,17 @@
         "link": "https://www.kicker.de/blockbuster-deal-chiefs-traden-all-pro-cornerback-mcduffie-zu-den-rams-1198688/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-04T17:11:25.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/saison-ohne-tor-saads-warten-auf-den-knotenloeser-1198618/artikel#omrss",
-        "title": "Saison ohne Tor: Saads Warten auf den Knotenlöser",
-        "summary": "Kein Tor, schwächelnde Noten, wenig Rhythmus: Elias Saad bleibt in dieser Saison unter seinen Möglichkeiten. Doch sein ungewöhnlicher Werdegang zeigt, warum Hannover weiter auf das Potenzial des Flügelspielers setzt.",
-        "paragraphs": [
-          "Kein Tor, schwächelnde Noten, wenig Rhythmus: Elias Saad bleibt in dieser Saison unter seinen Möglichkeiten. Doch sein ungewöhnlicher Werdegang zeigt, warum Hannover weiter auf das Potenzial des Flügelspielers setzt."
-        ],
-        "link": "https://www.kicker.de/saison-ohne-tor-saads-warten-auf-den-knotenloeser-1198618/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-04T16:57:06.000Z"
       }
     ],
     "edv": [
       {
-        "id": "https://www.heise.de/news/Bundesdatenschutzbeauftragte-kann-Akteneinsicht-beim-BND-nicht-einklagen-11199530.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Bundesdatenschutzbeauftragte kann Akteneinsicht beim BND nicht einklagen",
-        "summary": "Das Bundesverwaltungsgericht weist eine Klage der BfDI ab. Sie kann die Akteneinsicht beim BND nicht einklagen – und warnt vor Kontrolllücken.",
+        "id": "https://www.heise.de/news/Bundesdatenschutzbeauftragte-kann-Einsicht-beim-BND-nicht-einklagen-11199530.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Bundesdatenschutzbeauftragte kann Einsicht beim BND nicht einklagen",
+        "summary": "Das Bundesverwaltungsgericht weist eine Klage der BfDI ab. Sie kann die „Einsicht in Anordnungen des Präsidenten des Bundesnachrichtendienstes“ nicht einklagen.",
         "paragraphs": [
-          "Das Bundesverwaltungsgericht weist eine Klage der BfDI ab. Sie kann die Akteneinsicht beim BND nicht einklagen – und warnt vor Kontrolllücken."
+          "Das Bundesverwaltungsgericht weist eine Klage der BfDI ab. Sie kann die „Einsicht in Anordnungen des Präsidenten des Bundesnachrichtendienstes“ nicht einklagen."
         ],
-        "link": "https://www.heise.de/news/Bundesdatenschutzbeauftragte-kann-Akteneinsicht-beim-BND-nicht-einklagen-11199530.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Bundesdatenschutzbeauftragte-kann-Einsicht-beim-BND-nicht-einklagen-11199530.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-04T19:46:00.000Z"
       },
