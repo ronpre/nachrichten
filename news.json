@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-03-04T19:47:27.220Z",
+  "updatedAt": "2026-03-04T20:01:20.784Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:b465d999-76a9-4445-91c8-008327e7cd38}",
+        "title": "\"Made in Europe\": Klingt charmant, reicht aber nicht",
+        "summary": "Die EU-Kommission hat einen Plan vorgelegt, der die Industrie zum Blühen bringen soll. Doch leider fehlen ein paar wesentliche Themen.",
+        "paragraphs": [
+          "Die EU-Kommission hat einen Plan vorgelegt, der die Industrie zum Blühen bringen soll. Doch leider fehlen ein paar wesentliche Themen."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-03/made-in-europe-eu-kommission-foerderung-auftraege",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-04T19:47:29.000Z"
+      },
+      {
+        "id": "li.3388489",
+        "title": "SZ-Digitalgipfel: Wenn die Tochter einen Chatbot liebt",
+        "summary": "Millionen Menschen nutzen KI als Coach, Therapeutin oder virtuellen Partner. Die Sprachmodelle ersetzen, was sie sich von ihren Mitmenschen ersehnen – mit Risiken und Nebenwirkungen.",
+        "paragraphs": [
+          "Millionen Menschen nutzen KI als Coach, Therapeutin oder virtuellen Partner. Die Sprachmodelle ersetzen, was sie sich von ihren Mitmenschen ersehnen – mit Risiken und Nebenwirkungen."
+        ],
+        "link": "https://www.sueddeutsche.de/wirtschaft/ki-beziehung-chatgpt-liebe-suizid-digitalgipfel-li.3388489",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-03-04T19:39:47.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-notieren-stabil-erste-hinweise-auf-job-dynamik/100205517.html",
         "title": "Wall Street: US-Börsen notieren stabil – Privatsektor schafft mehr Jobs als erwartet",
@@ -199,28 +221,6 @@
         "link": "https://www.spiegel.de/wirtschaft/service/veggie-produkte-eu-kurz-vor-der-einigung-auf-namensverbote-a-d29384f6-2cc7-470f-867a-b343f06aba43#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-03-04T16:42:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/iran-schneller-deal-waere-ethisch-unbefriedigend-aber-gut-fuers-portfolio/100205357.html",
-        "title": "Märkte-Insight: Ein schneller Iran-Deal wäre ethisch unbefriedigend, aber gut fürs Portfolio",
-        "summary": "Die Lage im Iran bleibt unberechenbar, doch Trump signalisiert Kompromissbereitschaft. Das ist ein zynischer Kurstreiber, moniert Astrid Dörner.",
-        "paragraphs": [
-          "Die Lage im Iran bleibt unberechenbar, doch Trump signalisiert Kompromissbereitschaft. Das ist ein zynischer Kurstreiber, moniert Astrid Dörner."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/iran-schneller-deal-waere-ethisch-unbefriedigend-aber-gut-fuers-portfolio/100205357.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-04T16:36:41.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/knds-das-ist-der-konzern-der-den-leopard-panzer-baut/100203740.html",
-        "title": "Rüstung: KNDS – das ist der Konzern, der den Leopard-Panzer baut",
-        "summary": "Der schwere Panzer aus München ist ein Markenzeichen der Bundeswehr. Doch den Konzern dahinter kennt bislang kaum jemand. Was Sie zu KNDS wissen müssen.",
-        "paragraphs": [
-          "Der schwere Panzer aus München ist ein Markenzeichen der Bundeswehr. Doch den Konzern dahinter kennt bislang kaum jemand. Was Sie zu KNDS wissen müssen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/knds-das-ist-der-konzern-der-den-leopard-panzer-baut/100203740.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-04T16:28:30.000Z"
       }
     ],
     "politik": [
@@ -233,7 +233,7 @@
         ],
         "link": "https://www.focus.de/politik/iran-krieg-im-live-ticker-usa-beteiligen-sich-an-israels-angriff_79d47c75-b933-47fd-a0d2-4e7da6cb334b.html",
         "source": "Focus",
-        "publishedAt": "2026-03-04T19:32:00.000Z"
+        "publishedAt": "2026-03-04T19:49:00.000Z"
       },
       {
         "id": "50d30265-0cd9-4ade-8d88-5e35e5868a4b",
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/live-knallkoerper-landet-neben-torwart-wird-in-essen-nochmal-angepfiffen-1198024/artikel#omrss",
+        "title": "LIVE! Knallkörper landet neben Torwart: Wird in Essen nochmal angepfiffen?",
+        "summary": "Nach vier Spielen ohne Sieg schaffte Hansa Rostock am vergangenen Wochenende wieder einen Dreier. Kann die Kogge an diesen Erfolg beim Tabellenvorletzten Havelse anknüpfen? Außerdem gastiert der MSV Duisburg in Ingolstadt und kann Rang 3 untermauern.",
+        "paragraphs": [
+          "Nach vier Spielen ohne Sieg schaffte Hansa Rostock am vergangenen Wochenende wieder einen Dreier. Kann die Kogge an diesen Erfolg beim Tabellenvorletzten Havelse anknüpfen? Außerdem gastiert der MSV Duisburg in Ingolstadt und kann Rang 3 untermauern."
+        ],
+        "link": "https://www.kicker.de/live-knallkoerper-landet-neben-torwart-wird-in-essen-nochmal-angepfiffen-1198024/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-04T19:57:35.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-knapp-freistoss-statt-elfmeter-fuer-bayer-jatta-verletzt-raus-1198130/artikel#omrss",
+        "title": "LIVE! Knapp: Freistoß statt Elfmeter für Bayer - Jatta verletzt raus",
+        "summary": "Das Mitte Januar wegen eines heftigen Wintereinbruchs in Hamburg abgesagte Leverkusener Gastspiel beim HSV wird heute nachgeholt. Kann Bayer wieder Richtung Champions League schielen oder verabschiedet sich der HSV aus dem Abstiegskampf?",
+        "paragraphs": [
+          "Das Mitte Januar wegen eines heftigen Wintereinbruchs in Hamburg abgesagte Leverkusener Gastspiel beim HSV wird heute nachgeholt. Kann Bayer wieder Richtung Champions League schielen oder verabschiedet sich der HSV aus dem Abstiegskampf?"
+        ],
+        "link": "https://www.kicker.de/live-knapp-freistoss-statt-elfmeter-fuer-bayer-jatta-verletzt-raus-1198130/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-04T19:57:23.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/meuselwitz-gegen-lok-leipzig-2026-regionalliga-nordost-5058310/spielbericht#omrss",
+        "title": "Zehn Punkte Vorsprung: Lok Leipzig schlägt Meuselwitz und enteilt der Konkurrenz",
+        "summary": "Der 1. FC Lok Leipzig ist der Titelverteidigung in der Regionalliga Nordost einen weiteren großen Schritt nähergekommen. Die Seitz-Elf nutzte den Patzer von Jena und baute mit dem Sieg in Meuselwitz den Vorsprung an der Tabellenspitze weiter aus.",
+        "paragraphs": [
+          "Der 1. FC Lok Leipzig ist der Titelverteidigung in der Regionalliga Nordost einen weiteren großen Schritt nähergekommen. Die Seitz-Elf nutzte den Patzer von Jena und baute mit dem Sieg in Meuselwitz den Vorsprung an der Tabellenspitze weiter aus."
+        ],
+        "link": "https://www.kicker.de/meuselwitz-gegen-lok-leipzig-2026-regionalliga-nordost-5058310/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-04T19:50:17.000Z"
+      },
+      {
         "id": "https://www.kicker.de/live-saka-nutzt-erste-chance-arsenal-fuehrt-douglas-luiz-sorgt-fuer-villas-blitzstart-1198143/artikel#omrss",
         "title": "LIVE! Saka nutzt erste Chance: Arsenal führt - Douglas Luiz sorgt für Villas Blitzstart",
         "summary": "Während Spitzenreiter Arsenal in Brighton und Verfolger ManCity gegen Nottingham auf drei Punkte aus sind, steigt in Birmingham das Verfolgerduell zwischen Aston Villa und Chelsea. Spannung verspricht auch ManUniteds Auftritt in Newcastle.",
@@ -458,15 +491,15 @@
         "publishedAt": "2026-03-04T19:40:25.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-bayer-hat-die-erste-chance-culbreath-knapp-daneben-1198130/artikel#omrss",
-        "title": "LIVE! Bayer hat die erste Chance: Culbreath knapp daneben",
-        "summary": "Das Mitte Januar wegen eines heftigen Wintereinbruchs in Hamburg abgesagte Leverkusener Gastspiel beim HSV wird heute nachgeholt. Kann Bayer wieder Richtung Champions League schielen oder verabschiedet sich der HSV aus dem Abstiegskampf?",
+        "id": "https://www.kicker.de/pogacar-vom-sofa-direkt-zum-ersten-sieg-1198746/artikel#omrss",
+        "title": "Pogacar: Vom Sofa direkt zum ersten Sieg?",
+        "summary": "Am Samstag greift Tadej Pogacar 2026 erstmals ins Renngeschehen ein. Einfach nur mitfahren ist aber nichts für den Slowenen, der allerdings vorerst auf einen wichtigen Helfer verzichten muss.",
         "paragraphs": [
-          "Das Mitte Januar wegen eines heftigen Wintereinbruchs in Hamburg abgesagte Leverkusener Gastspiel beim HSV wird heute nachgeholt. Kann Bayer wieder Richtung Champions League schielen oder verabschiedet sich der HSV aus dem Abstiegskampf?"
+          "Am Samstag greift Tadej Pogacar 2026 erstmals ins Renngeschehen ein. Einfach nur mitfahren ist aber nichts für den Slowenen, der allerdings vorerst auf einen wichtigen Helfer verzichten muss."
         ],
-        "link": "https://www.kicker.de/live-bayer-hat-die-erste-chance-culbreath-knapp-daneben-1198130/artikel#omrss",
+        "link": "https://www.kicker.de/pogacar-vom-sofa-direkt-zum-ersten-sieg-1198746/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-04T19:39:02.000Z"
+        "publishedAt": "2026-03-04T19:31:58.000Z"
       },
       {
         "id": "https://www.kicker.de/salzburg-gegen-altach-2026-oefb-cup-5191394/spielbericht#omrss",
@@ -601,17 +634,6 @@
         "publishedAt": "2026-03-04T17:25:06.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-knallkoerper-landet-neben-keeper-spiel-in-essen-unterbrochen-1198024/artikel#omrss",
-        "title": "LIVE! Knallkörper landet neben Keeper: Spiel in Essen unterbrochen",
-        "summary": "Nach vier Spielen ohne Sieg schaffte Hansa Rostock am vergangenen Wochenende wieder einen Dreier. Kann die Kogge an diesen Erfolg beim Tabellenvorletzten Havelse anknüpfen? Außerdem gastiert der MSV Duisburg in Ingolstadt und kann Rang 3 untermauern.",
-        "paragraphs": [
-          "Nach vier Spielen ohne Sieg schaffte Hansa Rostock am vergangenen Wochenende wieder einen Dreier. Kann die Kogge an diesen Erfolg beim Tabellenvorletzten Havelse anknüpfen? Außerdem gastiert der MSV Duisburg in Ingolstadt und kann Rang 3 untermauern."
-        ],
-        "link": "https://www.kicker.de/live-knallkoerper-landet-neben-keeper-spiel-in-essen-unterbrochen-1198024/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-04T17:20:25.000Z"
-      },
-      {
         "id": "https://www.kicker.de/die-wichtigsten-fragen-zur-formel-1-saison-2026-1198328/artikel#omrss",
         "title": "Die wichtigsten Fragen zur Formel-1-Saison 2026",
         "summary": "In wenigen Tagen ist der Auftakt der neuen Formel-1-Saison. Eine Rennzeit, die schon vor ihrem Start heiß diskutiert wird, aufgrund verschiedenster Aspekte. Die wichtigsten Informationen zur Saison 2026.",
@@ -643,31 +665,31 @@
         "link": "https://www.kicker.de/saison-ohne-tor-saads-warten-auf-den-knotenloeser-1198618/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-04T16:57:06.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kann-kane-noch-dreierpack-bayern-duo-buhlt-um-neue-potm-karte-1198652/artikel#omrss",
-        "title": "Kann Kane noch Dreierpack? Bayern-Duo buhlt um neue POTM-Karte",
-        "summary": "Knapp drei Monate liegt der letzte Dreierpack von Harry Kane zurück - bald könnte er einen abseits des Rasens feiern. Auf ihre POTM-Premiere hoffen derweil zwei der besten Flügelspieler der Bundesliga.",
-        "paragraphs": [
-          "Knapp drei Monate liegt der letzte Dreierpack von Harry Kane zurück - bald könnte er einen abseits des Rasens feiern. Auf ihre POTM-Premiere hoffen derweil zwei der besten Flügelspieler der Bundesliga."
-        ],
-        "link": "https://www.kicker.de/kann-kane-noch-dreierpack-bayern-duo-buhlt-um-neue-potm-karte-1198652/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-04T16:55:43.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/schalke-reist-erneut-in-muslics-fruehere-heimat-1198680/artikel#omrss",
-        "title": "Schalke reist erneut in Muslics frühere Heimat",
-        "summary": "Miron Muslic verbindet eine persönliche Vergangenheit mit Neustift im Stubaital, umso erfreuter ist der Trainer des FC Schalke 04, dass der Verein erneut seinen früheren Wohnort als Ziel für das Sommer-Trainingslager auserkoren hat.",
-        "paragraphs": [
-          "Miron Muslic verbindet eine persönliche Vergangenheit mit Neustift im Stubaital, umso erfreuter ist der Trainer des FC Schalke 04, dass der Verein erneut seinen früheren Wohnort als Ziel für das Sommer-Trainingslager auserkoren hat."
-        ],
-        "link": "https://www.kicker.de/schalke-reist-erneut-in-muslics-fruehere-heimat-1198680/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-04T16:52:54.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Bundesdatenschutzbeauftragte-kann-Akteneinsicht-beim-BND-nicht-einklagen-11199530.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Bundesdatenschutzbeauftragte kann Akteneinsicht beim BND nicht einklagen",
+        "summary": "Das Bundesverwaltungsgericht weist eine Klage der BfDI ab. Sie kann die Akteneinsicht beim BND nicht einklagen – und warnt vor Kontrolllücken.",
+        "paragraphs": [
+          "Das Bundesverwaltungsgericht weist eine Klage der BfDI ab. Sie kann die Akteneinsicht beim BND nicht einklagen – und warnt vor Kontrolllücken."
+        ],
+        "link": "https://www.heise.de/news/Bundesdatenschutzbeauftragte-kann-Akteneinsicht-beim-BND-nicht-einklagen-11199530.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-04T19:46:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Europaeische-Strafverfolgungsbehoerden-zerschlagen-Phishing-Plattform-11199550.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Europäische Strafverfolgungsbehörden zerschlagen Phishing-Plattform",
+        "summary": "Tycoon2FA gehörte zu den weltweit größten Phishing-Operationen. Sie ermöglichte Kriminellen unbemerkten Zugriff auf E-Mail-Konten. Nun wurde sie abgeschaltet.",
+        "paragraphs": [
+          "Tycoon2FA gehörte zu den weltweit größten Phishing-Operationen. Sie ermöglichte Kriminellen unbemerkten Zugriff auf E-Mail-Konten. Nun wurde sie abgeschaltet."
+        ],
+        "link": "https://www.heise.de/news/Europaeische-Strafverfolgungsbehoerden-zerschlagen-Phishing-Plattform-11199550.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-04T19:45:00.000Z"
+      },
       {
         "id": "https://www.heise.de/bestenlisten/testsieger/top-10-der-beste-ergonomische-buerostuhl-im-test-ab-170-euro-richtig-gut/6le25ss?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Top 10: Der beste ergonomische Bürostuhl im Test – ab 170 Euro richtig gut",
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/bestenlisten/testbericht/starker-und-leiser-mini-pc-mit-ryzen-9-2x-lan-und-2x-usb4-geekom-a7-max-im-test/qdjjrv7?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-04T15:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/Verdeckte-Inhalteerkennung-am-TV-unzulaessig-aber-nicht-unabwendbar-11197652.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Verdeckte Inhalteerkennung am TV unzulässig – aber nicht unabwendbar",
-        "summary": "Der Generalstaatsanwalt von Texas beklagt, dass TV-Hersteller ihre Nutzer am Fernseher ausspionieren. Die Datensammelei am TV kann man auch selbst abwehren.",
-        "paragraphs": [
-          "Der Generalstaatsanwalt von Texas beklagt, dass TV-Hersteller ihre Nutzer am Fernseher ausspionieren. Die Datensammelei am TV kann man auch selbst abwehren."
-        ],
-        "link": "https://www.heise.de/hintergrund/Verdeckte-Inhalteerkennung-am-TV-unzulaessig-aber-nicht-unabwendbar-11197652.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2026-03-04T14:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Buntes-MacBook-Neo-Apple-will-den-Laptop-Markt-aufwirbeln-11198917.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Buntes MacBook Neo: Apple will den Laptop-Markt aufwirbeln",
-        "summary": "Leicht, bunt, iPhone-Chip, US-Kampfpreis: Mit dem MacBook Neo schlägt Apple einen neuen Weg ein – bei kleineren wie größeren Kompromissen.",
-        "paragraphs": [
-          "Leicht, bunt, iPhone-Chip, US-Kampfpreis: Mit dem MacBook Neo schlägt Apple einen neuen Weg ein – bei kleineren wie größeren Kompromissen."
-        ],
-        "link": "https://www.heise.de/news/Buntes-MacBook-Neo-Apple-will-den-Laptop-Markt-aufwirbeln-11198917.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-04T14:28:00.000Z"
       }
     ]
   }
