@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-07T17:49:02.971Z",
+  "updatedAt": "2026-03-07T17:57:20.135Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:1da10d92-1801-425a-9c46-7d0d983195fd}",
+        "title": "Hohe Benzinpreise: Deutscher Zoll kontrolliert Tanktouristen an Grenze zu Polen",
+        "summary": "Wegen der stark gestiegenen Spritpreise tanken immer mehr Deutsche im benachbarten Polen. Der Zoll führt deshalb verstärkt Kontrollen an der Grenze durch.",
+        "paragraphs": [
+          "Wegen der stark gestiegenen Spritpreise tanken immer mehr Deutsche im benachbarten Polen. Der Zoll führt deshalb verstärkt Kontrollen an der Grenze durch."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-03/tanken-spritpreise-iran-krieg-polen-brandenburg",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-07T17:51:44.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/baden-wuerttemberg-cdu-und-gruene-werden-von-partnern-zu-feinden/100205738.html",
         "title": "Baden-Württemberg: CDU und Grüne werden von Partnern zu Feinden",
@@ -56,17 +67,6 @@
         "link": "https://www.zeit.de/geld/2026-03/reform-riester-rente-altersvorsorge-depot-finanzen",
         "source": "ZEIT",
         "publishedAt": "2026-03-07T16:23:31.000Z"
-      },
-      {
-        "id": "{urn:uuid:1da10d92-1801-425a-9c46-7d0d983195fd}",
-        "title": "Hohe Benzinpreise: Deutscher Zoll kontrolliert Grenzpendler wegen Tankens in Polen",
-        "summary": "Wegen der stark gestiegenen Spritpreise tanken immer mehr Deutsche im benachbarten Polen. Der Zoll führt deshalb verstärkt Kontrollen an der Grenze durch.",
-        "paragraphs": [
-          "Wegen der stark gestiegenen Spritpreise tanken immer mehr Deutsche im benachbarten Polen. Der Zoll führt deshalb verstärkt Kontrollen an der Grenze durch."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-03/tanken-spritpreise-iran-krieg-polen-brandenburg",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-07T16:20:08.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/konflikt-china-warnt-vor-neuer-chipkrise-wieder-streit-bei-nexperia/100206438.html",
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/live-koeln-macht-das-spiel-doch-der-bvb-geht-in-fuehrung-1198733/artikel#omrss",
+        "title": "LIVE! Köln macht das Spiel - doch der BVB geht in Führung",
+        "summary": "Kann eines der beiden Teams wieder einen Sieg feiern? Dortmund konnte seine letzten drei Spiele nicht gewinnen - beim 1. FC Köln sind es sogar fünf Spiele ohne Sieg.",
+        "paragraphs": [
+          "Kann eines der beiden Teams wieder einen Sieg feiern? Dortmund konnte seine letzten drei Spiele nicht gewinnen - beim 1. FC Köln sind es sogar fünf Spiele ohne Sieg."
+        ],
+        "link": "https://www.kicker.de/live-koeln-macht-das-spiel-doch-der-bvb-geht-in-fuehrung-1198733/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-07T17:48:00.000Z"
+      },
+      {
         "id": "https://www.kicker.de/tschofenig-haelt-prevc-auf-distanz-raimund-knapp-am-podest-vorbei-1199074/artikel#omrss",
         "title": "Tschofenig hält Prevc auf Distanz - Raimund knapp am Podest vorbei",
         "summary": "Der Österreicher Daniel Tschofenig hat sich den Sieg beim Springen in Lahti gesichert. Einzig Philipp Raimund erfüllte aus deutscher Sicht die Erwartungen.",
@@ -458,15 +469,26 @@
         "publishedAt": "2026-03-07T17:47:09.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-aktiv-und-offensiv-koeln-startet-mutig-gegen-den-bvb-1198733/artikel#omrss",
-        "title": "LIVE! Aktiv und offensiv: Köln startet mutig gegen den BVB",
-        "summary": "Kann eines der beiden Teams wieder einen Sieg feiern? Dortmund konnte seine letzten drei Spiele nicht gewinnen - beim 1. FC Köln sind es sogar fünf Spiele ohne Sieg.",
+        "id": "{urn:uuid:6b9ec401-f471-46c1-8e7d-1f4666df543d}",
+        "title": "Bundesliga, 25. Spieltag – Samstag: Leverkusen verpasst Sieg in Freiburg, HSV gewinnt gegen Wolfsburg",
+        "summary": "Satte 22 Tore fallen am Bundesligasamstag. Leverkusen kassiert noch spät den 3:3-Ausgleich in Freiburg, der HSV besiegt Wolfsburg dank zwei Elfmetern. Die Spielberichte.",
         "paragraphs": [
-          "Kann eines der beiden Teams wieder einen Sieg feiern? Dortmund konnte seine letzten drei Spiele nicht gewinnen - beim 1. FC Köln sind es sogar fünf Spiele ohne Sieg."
+          "Satte 22 Tore fallen am Bundesligasamstag. Leverkusen kassiert noch spät den 3:3-Ausgleich in Freiburg, der HSV besiegt Wolfsburg dank zwei Elfmetern. Die Spielberichte."
         ],
-        "link": "https://www.kicker.de/live-aktiv-und-offensiv-koeln-startet-mutig-gegen-den-bvb-1198733/artikel#omrss",
+        "link": "https://www.zeit.de/sport/2026-03/bundesliga-25-spieltag-samstag-leverkusen-freiburg",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-07T17:44:45.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/weltstar-vuskovic-als-absoluter-rettungsanker-hsv-siegt-nach-rueckstand-1199596/video#omrss",
+        "title": "\"Weltstar\" Vuskovic als \"absoluter Rettungsanker\": HSV siegt nach Rückstand",
+        "summary": "Der Hamburger SV gewinnt mit 2:1 beim VfL Wolfsburg und hat auf die Wölfe neun Punkte Vorsprung in der Tabelle. kicker-Reporter Sebastian Wolff ordnet den Sieg des HSV ein.",
+        "paragraphs": [
+          "Der Hamburger SV gewinnt mit 2:1 beim VfL Wolfsburg und hat auf die Wölfe neun Punkte Vorsprung in der Tabelle. kicker-Reporter Sebastian Wolff ordnet den Sieg des HSV ein."
+        ],
+        "link": "https://www.kicker.de/weltstar-vuskovic-als-absoluter-rettungsanker-hsv-siegt-nach-rueckstand-1199596/video#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-07T17:36:37.000Z"
+        "publishedAt": "2026-03-07T17:37:37.000Z"
       },
       {
         "id": "3126635f-810b-44db-8683-87a990f91d09",
@@ -489,17 +511,6 @@
         "link": "https://www.kicker.de/nach-rudelbildung-in-wolfsburg-remberg-hat-verstaendnis-fuer-den-vfl-1199582/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-07T17:16:42.000Z"
-      },
-      {
-        "id": "{urn:uuid:6b9ec401-f471-46c1-8e7d-1f4666df543d}",
-        "title": "Bundesliga, 25. Spieltag – Samstag: Leverkusen verpasst Sieg in Freiburg",
-        "summary": "Sechs Tore gibt es beim Unentschieden von Freiburg gegen Leverkusen. Leipzig gewinnt durch ein Eigentor der Augsburger. Die Spielberichte.",
-        "paragraphs": [
-          "Sechs Tore gibt es beim Unentschieden von Freiburg gegen Leverkusen. Leipzig gewinnt durch ein Eigentor der Augsburger. Die Spielberichte."
-        ],
-        "link": "https://www.zeit.de/sport/2026-03/bundesliga-25-spieltag-samstag-leverkusen-freiburg",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-07T17:11:21.000Z"
       },
       {
         "id": "https://www.kicker.de/dabrowski-aergert-sich-ueber-aachens-gammeltor-1199550/artikel#omrss",
@@ -602,7 +613,7 @@
       },
       {
         "id": "https://www.kicker.de/norwegen-gegen-deutschland-2026-frauen-wm-qualifikation-5178782/spielbericht#omrss",
-        "title": "LIVE! Zweites deutsches Tor fällt aus dem Nichts - Berger vereitelt norwegische Doppelchance",
+        "title": "LIVE! Effizient wie selten: DFB-Team legt aus dem Nichts doppelt nach",
         "summary": "Nach dem 5:0 über Slowenien wartet die zweite Aufgabe in der WM-Qualifikation auf die DFB-Frauen. Auf Kunstrasen in Norwegen dürfte das aber ungleich schwieriger werden.",
         "paragraphs": [
           "Nach dem 5:0 über Slowenien wartet die zweite Aufgabe in der WM-Qualifikation auf die DFB-Frauen. Auf Kunstrasen in Norwegen dürfte das aber ungleich schwieriger werden."
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/backhaus-wir-trainer-sollten-uns-da-raushalten-auch-wenn-wir-unter-druck-stehen-1199544/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-07T15:52:09.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nicht-nur-fuer-nagelsmann-ein-top-spieler-liverpool-verlaengert-mit-gravenberch-1199553/artikel#omrss",
-        "title": "Nicht nur für Nagelsmann ein \"Top-Spieler\": Liverpool verlängert mit Gravenberch",
-        "summary": "Der FC Liverpool hat in einer wichtigen Saisonphase ein Zeichen gesetzt und den Vertrag mit Ryan Gravenberch (23) vorzeitig bis 2032 verlängert. Auch Julian Nagelsmann schwärmte jüngst vom Mittelfeld-Antreiber.",
-        "paragraphs": [
-          "Der FC Liverpool hat in einer wichtigen Saisonphase ein Zeichen gesetzt und den Vertrag mit Ryan Gravenberch (23) vorzeitig bis 2032 verlängert. Auch Julian Nagelsmann schwärmte jüngst vom Mittelfeld-Antreiber."
-        ],
-        "link": "https://www.kicker.de/nicht-nur-fuer-nagelsmann-ein-top-spieler-liverpool-verlaengert-mit-gravenberch-1199553/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-07T15:48:40.000Z"
       }
     ],
     "edv": [
@@ -702,17 +702,6 @@
         "publishedAt": "2026-03-07T15:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Amazon-Google-und-Microsoft-staerken-Anthropic-den-Ruecken-11203033.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Amazon, Google und Microsoft stärken Anthropic den Rücken",
-        "summary": "Für zivile Projekte könnte man Claude und Co. weiter verwenden, meinen Tech-Giganten.",
-        "paragraphs": [
-          "Für zivile Projekte könnte man Claude und Co. weiter verwenden, meinen Tech-Giganten."
-        ],
-        "link": "https://www.heise.de/news/Amazon-Google-und-Microsoft-staerken-Anthropic-den-Ruecken-11203033.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-07T14:33:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/SATCOMBw-Jetzt-will-auch-Airbus-ein-Konsortium-mit-Rheinmetall-und-OHB-11203023.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "SATCOMBw: Jetzt will auch Airbus ein Konsortium mit Rheinmetall und OHB",
         "summary": "Zuvor wollten bereits OHB und Rheinmetall kooperieren, nun will auch Airbus dazustoßen. Das Projekt soll dann schneller fertig werden, könnte aber mehr kosten.",
@@ -720,6 +709,17 @@
           "Zuvor wollten bereits OHB und Rheinmetall kooperieren, nun will auch Airbus dazustoßen. Das Projekt soll dann schneller fertig werden, könnte aber mehr kosten."
         ],
         "link": "https://www.heise.de/news/SATCOMBw-Jetzt-will-auch-Airbus-ein-Konsortium-mit-Rheinmetall-und-OHB-11203023.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-07T14:33:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Amazon-Google-und-Microsoft-staerken-Anthropic-den-Ruecken-11203033.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Amazon, Google und Microsoft stärken Anthropic den Rücken",
+        "summary": "Für zivile Projekte könnte man Claude und Co. weiter verwenden, meinen Tech-Giganten.",
+        "paragraphs": [
+          "Für zivile Projekte könnte man Claude und Co. weiter verwenden, meinen Tech-Giganten."
+        ],
+        "link": "https://www.heise.de/news/Amazon-Google-und-Microsoft-staerken-Anthropic-den-Ruecken-11203033.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-07T14:33:00.000Z"
       },
@@ -790,17 +790,6 @@
         "publishedAt": "2026-03-07T09:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Mit-Automation-Anywhere-von-manuellen-Ablaeufen-zu-smarten-Workflows-11185659.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Mit Automation Anywhere von manuellen Abläufen zu smarten Workflows",
-        "summary": "Routineaufgaben mit robotergestützter Prozessautomatisierung von Bots eigenständig erledigen lassen und so Workflows effizienter gestalten.",
-        "paragraphs": [
-          "Routineaufgaben mit robotergestützter Prozessautomatisierung von Bots eigenständig erledigen lassen und so Workflows effizienter gestalten."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-Mit-Automation-Anywhere-von-manuellen-Ablaeufen-zu-smarten-Workflows-11185659.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-07T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Nikon-gegen-die-Welt-Fujifilm-fragt-nach-Die-Fotonews-der-Woche-10-26-11201871.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Nikon gegen die Welt – Fujifilm fragt nach: Die Fotonews der Woche 10/26",
         "summary": "Nikon verklagt chinesische Objektivhersteller und Z-Mount-Objektive verschwinden aus Shops. Fujifilm lässt abstimmen, welche Objektive gebaut werden sollen.",
@@ -808,6 +797,17 @@
           "Nikon verklagt chinesische Objektivhersteller und Z-Mount-Objektive verschwinden aus Shops. Fujifilm lässt abstimmen, welche Objektive gebaut werden sollen."
         ],
         "link": "https://www.heise.de/news/Nikon-gegen-die-Welt-Fujifilm-fragt-nach-Die-Fotonews-der-Woche-10-26-11201871.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-07T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-Mit-Automation-Anywhere-von-manuellen-Ablaeufen-zu-smarten-Workflows-11185659.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Mit Automation Anywhere von manuellen Abläufen zu smarten Workflows",
+        "summary": "Routineaufgaben mit robotergestützter Prozessautomatisierung von Bots eigenständig erledigen lassen und so Workflows effizienter gestalten.",
+        "paragraphs": [
+          "Routineaufgaben mit robotergestützter Prozessautomatisierung von Bots eigenständig erledigen lassen und so Workflows effizienter gestalten."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Mit-Automation-Anywhere-von-manuellen-Ablaeufen-zu-smarten-Workflows-11185659.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-07T09:00:00.000Z"
       },
