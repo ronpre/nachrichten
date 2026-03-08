@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-08T11:54:08.858Z",
+  "updatedAt": "2026-03-08T12:09:44.080Z",
   "categories": {
     "wirtschaft": [
       {
@@ -12,6 +12,17 @@
         "link": "https://www.handelsblatt.com/politik/international/iran-krieg-expertenrat-soll-sich-auf-chamenei-nachfolger-geeinigt-haben/100136895.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-09T10:33:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:d58ff52a-4a1f-4874-ad26-df58a51993cc}",
+        "title": "\"Wirtschaftsappell\": Knapp 2.400 Unternehmen kritisieren Energiepolitik der Bundesregierung",
+        "summary": "Hunderte Unternehmen zeigen sich \"extrem besorgt\", dass die Energiewende abgewürgt werde. Sie warnen vor Auftragseinbrüchen und der Entwertung bisheriger Planungen.",
+        "paragraphs": [
+          "Hunderte Unternehmen zeigen sich \"extrem besorgt\", dass die Energiewende abgewürgt werde. Sie warnen vor Auftragseinbrüchen und der Entwertung bisheriger Planungen."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-03/wirtschaftsappell-energiepolitik-unternehmen-gebaeudemodernisierungsgesetz",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-08T11:57:53.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/dienstleister/tourismus-die-illusion-vom-grenzenlosen-reisen/100205140.html",
@@ -210,17 +221,6 @@
         "link": "https://www.spiegel.de/wirtschaft/unternehmen/gastronomie-auswertung-so-teuer-ist-die-kneipe-in-ihrem-bundesland-a-e667a8b2-01ef-4f37-9064-496861bb40a9#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-03-07T20:01:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:1da10d92-1801-425a-9c46-7d0d983195fd}",
-        "title": "Hohe Benzinpreise: Deutscher Zoll kontrolliert Tanktouristen an Grenze zu Polen",
-        "summary": "Wegen der stark gestiegenen Spritpreise tanken immer mehr Deutsche im benachbarten Polen. Der Zoll führt deshalb verstärkt Kontrollen an der Grenze durch.",
-        "paragraphs": [
-          "Wegen der stark gestiegenen Spritpreise tanken immer mehr Deutsche im benachbarten Polen. Der Zoll führt deshalb verstärkt Kontrollen an der Grenze durch."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-03/tanken-spritpreise-iran-krieg-polen-brandenburg",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-07T17:51:44.000Z"
       }
     ],
     "politik": [
@@ -238,9 +238,9 @@
       {
         "id": "b94cc115-a682-43c7-933d-5bb87aff97f7",
         "title": "Putin hustet – unbearbeitetes Kreml-Video sorgt für Wirbel",
-        "summary": "Der Kreml hat am Sonntag anlässlich des Weltfrauentages eine unbearbeitete Videoansprache von Wladimir Putin veröffentlicht, in der er einen Hustenanfall bekommt und seine Ansprache unterbrechen muss.",
+        "summary": "Der Kreml hat am Sonntag anlässlich des Weltfrauentages eine unbearbeitete Videoansprache von Wladimir Putin veröffentlicht, in der er einen Hustenanfall bekam und seine Ansprache unterbrechen musste.",
         "paragraphs": [
-          "Der Kreml hat am Sonntag anlässlich des Weltfrauentages eine unbearbeitete Videoansprache von Wladimir Putin veröffentlicht, in der er einen Hustenanfall bekommt und seine Ansprache unterbrechen muss."
+          "Der Kreml hat am Sonntag anlässlich des Weltfrauentages eine unbearbeitete Videoansprache von Wladimir Putin veröffentlicht, in der er einen Hustenanfall bekam und seine Ansprache unterbrechen musste."
         ],
         "link": "https://www.focus.de/politik/ausland/putin-hustet-unbearbeitetes-kreml-video-sorgt-fuer-wirbel_b94cc115-a682-43c7-933d-5bb87aff97f7.html",
         "source": "Focus",
@@ -447,6 +447,28 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/live-fuerth-ohne-hrgota-bei-formstarken-96ern-dresden-beim-ksc-unter-zugzwang-1199064/artikel#omrss",
+        "title": "LIVE! Fürth ohne Hrgota bei formstarken 96ern - Dresden beim KSC unter Zugzwang",
+        "summary": "Sechs Spiele, fünf Siege, ein Remis - bei 96 lief es zuletzt rund. Setzt Hannover gegen das zuletzt zweimal unbezwungene Schlusslicht Fürth seinen Lauf fort? Dresden steht im Abstiegskampf in Karlsruhe unter Zugzwang. Hertha ist in Münster gefordert.",
+        "paragraphs": [
+          "Sechs Spiele, fünf Siege, ein Remis - bei 96 lief es zuletzt rund. Setzt Hannover gegen das zuletzt zweimal unbezwungene Schlusslicht Fürth seinen Lauf fort? Dresden steht im Abstiegskampf in Karlsruhe unter Zugzwang. Hertha ist in Münster gefordert."
+        ],
+        "link": "https://www.kicker.de/live-fuerth-ohne-hrgota-bei-formstarken-96ern-dresden-beim-ksc-unter-zugzwang-1199064/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-08T12:06:57.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nach-koelner-aerger-dfb-ordnet-strittige-szenen-ein-1199758/artikel#omrss",
+        "title": "Nach Kölner Ärger: DFB ordnet strittige Szenen ein",
+        "summary": "In der Schlussphase des Duells zwischen dem 1. FC Köln und Borussia Dortmund sorgte ein Handspiel im Strafraum für ordentlich Wirbel. Nun stellt die Sportliche Leitung der DFB-Schiedsrichter klar: Der Aufsteiger hätte einen Handelfmeter bekommen müssen.",
+        "paragraphs": [
+          "In der Schlussphase des Duells zwischen dem 1. FC Köln und Borussia Dortmund sorgte ein Handspiel im Strafraum für ordentlich Wirbel. Nun stellt die Sportliche Leitung der DFB-Schiedsrichter klar: Der Aufsteiger hätte einen Handelfmeter bekommen müssen."
+        ],
+        "link": "https://www.kicker.de/nach-koelner-aerger-dfb-ordnet-strittige-szenen-ein-1199758/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-08T11:53:04.000Z"
+      },
+      {
         "id": "afca248e-e595-4bca-8d74-489481bc4198",
         "title": "Union Berlin: Die Männer hinter den Ergebnistafeln im Stadion",
         "summary": "Im Stadion von Union Berlin zeigen sie den Spielstand auf großen Schiebetafeln an – ein Anachronismus, auf den der Ostberliner Fußballclub sehr stolz ist. Ein Besuch bei den Männern, die die Anzeige bedienen.",
@@ -469,17 +491,6 @@
         "publishedAt": "2026-03-08T11:39:33.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-setzt-96-gegen-schlusslicht-fuerth-den-lauf-fort-dresden-beim-ksc-unter-zugzwang-1199064/artikel#omrss",
-        "title": "LIVE! Setzt 96 gegen Schlusslicht Fürth den Lauf fort? - Dresden beim KSC unter Zugzwang",
-        "summary": "Sechs Spiele, fünf Siege, ein Remis - bei 96 lief es zuletzt rund. Setzt Hannover gegen das zuletzt zweimal unbezwungene Schlusslicht Fürth seinen Lauf fort? Dresden steht im Abstiegskampf in Karlsruhe unter Zugzwang. Hertha ist in Münster gefordert.",
-        "paragraphs": [
-          "Sechs Spiele, fünf Siege, ein Remis - bei 96 lief es zuletzt rund. Setzt Hannover gegen das zuletzt zweimal unbezwungene Schlusslicht Fürth seinen Lauf fort? Dresden steht im Abstiegskampf in Karlsruhe unter Zugzwang. Hertha ist in Münster gefordert."
-        ],
-        "link": "https://www.kicker.de/live-setzt-96-gegen-schlusslicht-fuerth-den-lauf-fort-dresden-beim-ksc-unter-zugzwang-1199064/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-08T11:21:51.000Z"
-      },
-      {
         "id": "https://www.kicker.de/koelner-stadionsprecher-in-der-kritik-dfb-sieht-grenze-ueberschritten-1199717/artikel#omrss",
         "title": "Kölner Stadionsprecher in der Kritik - DFB sieht \"Grenze überschritten\"",
         "summary": "Bei Kölns Niederlage gegen Dortmund ließ sich auch Stadionsprecher Michael Trippel von den Emotionen leiten - und muss nun zum Rapport. Auch der DFB meldet sich in aller Deutlichkeit zu Wort.",
@@ -493,9 +504,9 @@
       {
         "id": "https://www.kicker.de/loch-holt-kristallkugel-und-stellt-weltcup-siegrekord-ein-1199757/artikel#omrss",
         "title": "Loch holt Kristallkugel und stellt Weltcup-Siegrekord ein",
-        "summary": "Nur den Weltcup-Gesamtsieg absichern, das reicht ihm nicht: Felix Loch fährt gleich zweimal Bahnrekord und holt sich eine Bestmarke.",
+        "summary": "Nur den Weltcup-Gesamtsieg absichern, das reicht ihm nicht: Felix Loch fährt gleich zweimal Bahnrekord und holt sich eine Bestmarke. Auch bei den Frauen geht die große Kristallkugel nach Deutschland.",
         "paragraphs": [
-          "Nur den Weltcup-Gesamtsieg absichern, das reicht ihm nicht: Felix Loch fährt gleich zweimal Bahnrekord und holt sich eine Bestmarke."
+          "Nur den Weltcup-Gesamtsieg absichern, das reicht ihm nicht: Felix Loch fährt gleich zweimal Bahnrekord und holt sich eine Bestmarke. Auch bei den Frauen geht die große Kristallkugel nach Deutschland."
         ],
         "link": "https://www.kicker.de/loch-holt-kristallkugel-und-stellt-weltcup-siegrekord-ein-1199757/artikel#omrss",
         "source": "Kicker",
@@ -654,17 +665,6 @@
         "link": "https://www.sueddeutsche.de/sport/bundesliga-wolfsburg-entlassung-bauer-christiansen-fussball-li.3449122",
         "source": "Sueddeutsche",
         "publishedAt": "2026-03-08T09:58:57.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/spieler-nutzen-die-regeln-aus-kerr-wuetet-ueber-vielzahl-an-foulpfiffen-1199740/artikel#omrss",
-        "title": "\"Spieler nutzen die Regeln aus\": Kerr wütet über Vielzahl an Foulpfiffen",
-        "summary": "Mehr als neun Freiwürfe bekommt Shai Gilgeous-Alexander im Schnitt pro Spiel zugesprochen. Beim jüngsten Sieg gegen die Warriors schnellte diese Zahl gar auf 15 Versuche hoch. Gegner-Trainer Steve Kerr holte im Anschluss zu einer Grundsatz-Kritik am Regelwerk aus.",
-        "paragraphs": [
-          "Mehr als neun Freiwürfe bekommt Shai Gilgeous-Alexander im Schnitt pro Spiel zugesprochen. Beim jüngsten Sieg gegen die Warriors schnellte diese Zahl gar auf 15 Versuche hoch. Gegner-Trainer Steve Kerr holte im Anschluss zu einer Grundsatz-Kritik am Regelwerk aus."
-        ],
-        "link": "https://www.kicker.de/spieler-nutzen-die-regeln-aus-kerr-wuetet-ueber-vielzahl-an-foulpfiffen-1199740/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-08T09:58:56.000Z"
       }
     ],
     "edv": [
