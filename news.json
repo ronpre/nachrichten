@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-08T08:50:21.436Z",
+  "updatedAt": "2026-03-08T09:08:29.906Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:f629cff2-6c61-4b87-ba78-b73af1365e14}",
+        "title": "Arbeitgeberverband Gesamtmetall: Metallbranche droht Verlust von bis zu 150.000 Arbeitsplätzen",
+        "summary": "Steuern und Bürokratie treiben die Elektro- und Metallindustrie laut dem Arbeitgeberverband Gesamtmetall in eine Krise. Auch die Auftragslage bleibe schwach.",
+        "paragraphs": [
+          "Steuern und Bürokratie treiben die Elektro- und Metallindustrie laut dem Arbeitgeberverband Gesamtmetall in eine Krise. Auch die Auftragslage bleibe schwach."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/unternehmen/2026-03/gesamtmetall-elektroindustrie-krise-arbeitsplaetze-ruestung",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-08T08:44:41.000Z"
+      },
       {
         "id": "2f1559b2-4e17-44af-9784-6c16c9975ad2",
         "title": "Frauen in Führungspositionen: Die meisten Chefinnen gibt es im Mittelstand",
@@ -49,9 +60,9 @@
       {
         "id": "https://www.handelsblatt.com/politik/international/iran-chinas-chefdiplomat-wang-fordert-sofortiges-ende-der-kampfhandlungen/100206186.html",
         "title": "Iran: „Naher Osten in Flammen“: Chinas Chefdiplomat Wang fordert sofortiges Ende der Kampfhandlungen",
-        "summary": "Peking äußert indirekte Kritik an den Angriffen auf den Iran, bleibt aber vor dem geplanten Trump-Besuch in China zurückhaltend. Wang spricht von einem „Schlüsseljahr“ für China und die USA.",
+        "summary": "Peking kritisiert indirekt die Angriffe auf den Iran, bleibt aber vor dem geplanten Trump-Besuch zurückhaltend. Wang spricht von einem „Schlüsseljahr“ für die gegenseitigen Beziehungen.",
         "paragraphs": [
-          "Peking äußert indirekte Kritik an den Angriffen auf den Iran, bleibt aber vor dem geplanten Trump-Besuch in China zurückhaltend. Wang spricht von einem „Schlüsseljahr“ für China und die USA."
+          "Peking kritisiert indirekt die Angriffe auf den Iran, bleibt aber vor dem geplanten Trump-Besuch zurückhaltend. Wang spricht von einem „Schlüsseljahr“ für die gegenseitigen Beziehungen."
         ],
         "link": "https://www.handelsblatt.com/politik/international/iran-chinas-chefdiplomat-wang-fordert-sofortiges-ende-der-kampfhandlungen/100206186.html",
         "source": "Handelsblatt",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/luxusuhren-diese-exemplare-eignen-sich-als-wertanlage/100180120.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-07T14:42:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-je-mehr-zeit-sie-haben-desto-hoeher-kann-ihr-risiko-sein/100124450.html",
-        "title": "Geldanlage: „Auch eine Rentnerin kann 100 Prozent Aktien vertragen“",
-        "summary": "Martin Weber hat über Jahrzehnte das Verhalten von Anlegern erforscht. Im Gespräch erklärt er, worauf es beim Aufbau eines Depots ankommt und welchem Irrglauben Anleger nicht anhängen sollten.",
-        "paragraphs": [
-          "Martin Weber hat über Jahrzehnte das Verhalten von Anlegern erforscht. Im Gespräch erklärt er, worauf es beim Aufbau eines Depots ankommt und welchem Irrglauben Anleger nicht anhängen sollten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-je-mehr-zeit-sie-haben-desto-hoeher-kann-ihr-risiko-sein/100124450.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-07T14:38:00.000Z"
       }
     ],
     "politik": [
@@ -392,9 +392,9 @@
       {
         "id": "https://www.handelsblatt.com/politik/international/iran-chinas-chefdiplomat-wang-fordert-sofortiges-ende-der-kampfhandlungen/100206186.html",
         "title": "Iran: „Naher Osten in Flammen“: Chinas Chefdiplomat Wang fordert sofortiges Ende der Kampfhandlungen",
-        "summary": "Peking äußert indirekte Kritik an den Angriffen auf den Iran, bleibt aber vor dem geplanten Trump-Besuch in China zurückhaltend. Wang spricht von einem „Schlüsseljahr“ für China und die USA.",
+        "summary": "Peking kritisiert indirekt die Angriffe auf den Iran, bleibt aber vor dem geplanten Trump-Besuch zurückhaltend. Wang spricht von einem „Schlüsseljahr“ für die gegenseitigen Beziehungen.",
         "paragraphs": [
-          "Peking äußert indirekte Kritik an den Angriffen auf den Iran, bleibt aber vor dem geplanten Trump-Besuch in China zurückhaltend. Wang spricht von einem „Schlüsseljahr“ für China und die USA."
+          "Peking kritisiert indirekt die Angriffe auf den Iran, bleibt aber vor dem geplanten Trump-Besuch zurückhaltend. Wang spricht von einem „Schlüsseljahr“ für die gegenseitigen Beziehungen."
         ],
         "link": "https://www.handelsblatt.com/politik/international/iran-chinas-chefdiplomat-wang-fordert-sofortiges-ende-der-kampfhandlungen/100206186.html",
         "source": "Handelsblatt",
@@ -446,6 +446,39 @@
       }
     ],
     "sport": [
+      {
+        "id": "3df25dc1-d43f-4223-bc66-78e815b46561",
+        "title": "Formel 1 in Melbourne: Die Rückkehr der Silberpfeile, neue Regeln und Audi bei Renndebüt in den Punkten",
+        "summary": "Down under und alles ist neu: Die Fahrer kämpfen mit Batterieladung und Überholknöpfen. Mercedes demonstriert Titelambitionen, Ferrari zeigt »Raketenstarts«. Und Audi fährt (mit einem Auto) auf Anhieb in die Punkte.",
+        "paragraphs": [
+          "Down under und alles ist neu: Die Fahrer kämpfen mit Batterieladung und Überholknöpfen. Mercedes demonstriert Titelambitionen, Ferrari zeigt »Raketenstarts«. Und Audi fährt (mit einem Auto) auf Anhieb in die Punkte."
+        ],
+        "link": "https://www.spiegel.de/sport/formel1/formel-1-in-melbourne-die-rueckkehr-der-silberpfeile-neue-regeln-und-audi-bei-renndebuet-in-den-punkten-a-3df25dc1-d43f-4223-bc66-78e815b46561#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-03-08T08:48:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/rettet-hecking-wolfsburg-vor-dem-abstieg-1199723/artikel#omrss",
+        "title": "Rettet Hecking Wolfsburg vor dem Abstieg?",
+        "summary": "\"Feuerwehrmann\" Dieter Hecking soll den VfL Wolfsburg vor dem ersten Bundesliga-Abstieg bewahren. Gelingt ihm das? Hier geht es zu unserer Umfrage.",
+        "paragraphs": [
+          "\"Feuerwehrmann\" Dieter Hecking soll den VfL Wolfsburg vor dem ersten Bundesliga-Abstieg bewahren. Gelingt ihm das? Hier geht es zu unserer Umfrage."
+        ],
+        "link": "https://www.kicker.de/rettet-hecking-wolfsburg-vor-dem-abstieg-1199723/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-08T08:44:59.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/guardiola-sauer-nach-zwei-spiele-sperre-gehe-in-den-urlaub-1199724/video#omrss",
+        "title": "Guardiola sauer nach Zwei-Spiele-Sperre: \"Gehe in den Urlaub\"",
+        "summary": "Pep Guardiola hat beim 3:1-Sieg im FA Cup bei Newcastle seine sechste Gelbe Karte kassiert und ist damit für zwei Spiele gesperrt. Der Trainer von Manchester City reagierte daraufhin mit purem Sarkasmus.",
+        "paragraphs": [
+          "Pep Guardiola hat beim 3:1-Sieg im FA Cup bei Newcastle seine sechste Gelbe Karte kassiert und ist damit für zwei Spiele gesperrt. Der Trainer von Manchester City reagierte daraufhin mit purem Sarkasmus."
+        ],
+        "link": "https://www.kicker.de/guardiola-sauer-nach-zwei-spiele-sperre-gehe-in-den-urlaub-1199724/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-08T08:39:34.000Z"
+      },
       {
         "id": "https://www.kicker.de/brown-witzelt-ueber-wemby-ich-bin-der-beste-menschliche-spieler-1199720/artikel#omrss",
         "title": "Brown witzelt über Wemby: \"Ich bin der beste menschliche Spieler\"",
@@ -632,42 +665,31 @@
         "link": "https://www.kicker.de/packende-duelle-bunting-unterliegt-rock-noppert-eiskalt-gegen-humphries-1199695/video#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-08T00:38:18.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ruhige-deadline-neue-regeln-sorgen-fuer-schwachen-nhl-markt-1199696/artikel#omrss",
-        "title": "Ruhige Deadline: Neue Regeln sorgen für schwachen NHL-Markt",
-        "summary": "Die Trade Deadline 2026 wird wohl kaum als spektakulär in die Geschichtsbücher der NHL eingehen. Nur wenige prominente Transfers gingen über die Bühne. Aus guten Gründen.",
-        "paragraphs": [
-          "Die Trade Deadline 2026 wird wohl kaum als spektakulär in die Geschichtsbücher der NHL eingehen. Nur wenige prominente Transfers gingen über die Bühne. Aus guten Gründen."
-        ],
-        "link": "https://www.kicker.de/ruhige-deadline-neue-regeln-sorgen-fuer-schwachen-nhl-markt-1199696/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-08T00:05:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/stuttgart-feiert-den-feuerwehrmann-bei-bayern-brennt-es-innerlich-1199672/artikel#omrss",
-        "title": "Stuttgart feiert den Feuerwehrmann, bei Bayern \"brennt es innerlich\"",
-        "summary": "Im Viertelfinale der VBL Club Championship kommt es zu einem Südgipfel der gegensätzlichen Saisonverläufe. Der verbliebene Top-Favorit trifft derweil auf die Offline-Experten schlechthin. Wir haben die Stimmen des Samstags.",
-        "paragraphs": [
-          "Im Viertelfinale der VBL Club Championship kommt es zu einem Südgipfel der gegensätzlichen Saisonverläufe. Der verbliebene Top-Favorit trifft derweil auf die Offline-Experten schlechthin. Wir haben die Stimmen des Samstags."
-        ],
-        "link": "https://www.kicker.de/stuttgart-feiert-den-feuerwehrmann-bei-bayern-brennt-es-innerlich-1199672/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-07T23:38:38.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/absolutes-traumtor-lamine-yamal-schiesst-barca-mit-schlenzer-zum-sieg-1199693/video#omrss",
-        "title": "Absolutes Traumtor: Lamine Yamal schießt Barca mit Schlenzer zum Sieg",
-        "summary": "Hier gibt es die Highlights zwischen Bilbao und FC Barcelona.",
-        "paragraphs": [
-          "Hier gibt es die Highlights zwischen Bilbao und FC Barcelona."
-        ],
-        "link": "https://www.kicker.de/absolutes-traumtor-lamine-yamal-schiesst-barca-mit-schlenzer-zum-sieg-1199693/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-07T23:19:50.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Weltfrauentag-Die-schoensten-Aufnahmen-von-Fotografinnen-der-c-t-Fotogalerie-11202433.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Weltfrauentag: Die schönsten Aufnahmen von Fotografinnen der c’t Fotogalerie",
+        "summary": "In der Galerie der c’t Fotografie sind auch viele Fotografinnen aktiv. Zum Weltfrauentag stellen wir einige mit einem Ausschnitt aus Ihrem Portfolio vor.",
+        "paragraphs": [
+          "In der Galerie der c’t Fotografie sind auch viele Fotografinnen aktiv. Zum Weltfrauentag stellen wir einige mit einem Ausschnitt aus Ihrem Portfolio vor."
+        ],
+        "link": "https://www.heise.de/news/Weltfrauentag-Die-schoensten-Aufnahmen-von-Fotografinnen-der-c-t-Fotogalerie-11202433.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-08T09:01:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-IT-Grundschutz-Praktiker-mit-Zertifikat-11185645.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop IT-Grundschutz-Praktiker mit Zertifikat",
+        "summary": "Erhalten Sie einen umfassenden Einblick in die Praxis der IT-Grundschutz-Methodik des BSI. Mit anschließender Prüfung und Zertifizierung.",
+        "paragraphs": [
+          "Erhalten Sie einen umfassenden Einblick in die Praxis der IT-Grundschutz-Methodik des BSI. Mit anschließender Prüfung und Zertifizierung."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-IT-Grundschutz-Praktiker-mit-Zertifikat-11185645.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-08T09:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Drei-Fragen-drei-Antworten-Mehr-Sichtbarkeit-fuer-Frauen-auf-IT-Konferenzen-11199796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Drei Fragen, drei Antworten: Mehr Sichtbarkeit für Frauen auf IT-Konferenzen",
@@ -779,17 +801,6 @@
         "publishedAt": "2026-03-07T15:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/SATCOMBw-Jetzt-will-auch-Airbus-ein-Konsortium-mit-Rheinmetall-und-OHB-11203023.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "SATCOMBw: Jetzt will auch Airbus ein Konsortium mit Rheinmetall und OHB",
-        "summary": "Zuvor wollten bereits OHB und Rheinmetall kooperieren, nun will auch Airbus dazustoßen. Das Projekt soll dann schneller fertig werden, könnte aber mehr kosten.",
-        "paragraphs": [
-          "Zuvor wollten bereits OHB und Rheinmetall kooperieren, nun will auch Airbus dazustoßen. Das Projekt soll dann schneller fertig werden, könnte aber mehr kosten."
-        ],
-        "link": "https://www.heise.de/news/SATCOMBw-Jetzt-will-auch-Airbus-ein-Konsortium-mit-Rheinmetall-und-OHB-11203023.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-07T14:33:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Amazon-Google-und-Microsoft-staerken-Anthropic-den-Ruecken-11203033.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Amazon, Google und Microsoft stärken Anthropic den Rücken",
         "summary": "Für zivile Projekte könnte man Claude und Co. weiter verwenden, meinen Tech-Giganten.",
@@ -797,6 +808,17 @@
           "Für zivile Projekte könnte man Claude und Co. weiter verwenden, meinen Tech-Giganten."
         ],
         "link": "https://www.heise.de/news/Amazon-Google-und-Microsoft-staerken-Anthropic-den-Ruecken-11203033.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-07T14:33:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/SATCOMBw-Jetzt-will-auch-Airbus-ein-Konsortium-mit-Rheinmetall-und-OHB-11203023.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "SATCOMBw: Jetzt will auch Airbus ein Konsortium mit Rheinmetall und OHB",
+        "summary": "Zuvor wollten bereits OHB und Rheinmetall kooperieren, nun will auch Airbus dazustoßen. Das Projekt soll dann schneller fertig werden, könnte aber mehr kosten.",
+        "paragraphs": [
+          "Zuvor wollten bereits OHB und Rheinmetall kooperieren, nun will auch Airbus dazustoßen. Das Projekt soll dann schneller fertig werden, könnte aber mehr kosten."
+        ],
+        "link": "https://www.heise.de/news/SATCOMBw-Jetzt-will-auch-Airbus-ein-Konsortium-mit-Rheinmetall-und-OHB-11203023.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-07T14:33:00.000Z"
       },
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/news/Neue-LG-Fernseher-Neben-OLEDs-nun-auch-TVs-mit-Micro-RGB-LEDs-11202900.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-07T09:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Nikon-gegen-die-Welt-Fujifilm-fragt-nach-Die-Fotonews-der-Woche-10-26-11201871.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Nikon gegen die Welt – Fujifilm fragt nach: Die Fotonews der Woche 10/26",
-        "summary": "Nikon verklagt chinesische Objektivhersteller und Z-Mount-Objektive verschwinden aus Shops. Fujifilm lässt abstimmen, welche Objektive gebaut werden sollen.",
-        "paragraphs": [
-          "Nikon verklagt chinesische Objektivhersteller und Z-Mount-Objektive verschwinden aus Shops. Fujifilm lässt abstimmen, welche Objektive gebaut werden sollen."
-        ],
-        "link": "https://www.heise.de/news/Nikon-gegen-die-Welt-Fujifilm-fragt-nach-Die-Fotonews-der-Woche-10-26-11201871.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-07T09:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/iX-Workshop-Mit-Automation-Anywhere-von-manuellen-Ablaeufen-zu-smarten-Workflows-11185659.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Mit Automation Anywhere von manuellen Abläufen zu smarten Workflows",
-        "summary": "Routineaufgaben mit robotergestützter Prozessautomatisierung von Bots eigenständig erledigen lassen und so Workflows effizienter gestalten.",
-        "paragraphs": [
-          "Routineaufgaben mit robotergestützter Prozessautomatisierung von Bots eigenständig erledigen lassen und so Workflows effizienter gestalten."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-Mit-Automation-Anywhere-von-manuellen-Ablaeufen-zu-smarten-Workflows-11185659.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-07T09:00:00.000Z"
       }
     ]
   }
