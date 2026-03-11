@@ -1,7 +1,38 @@
 {
-  "updatedAt": "2026-03-11T10:46:02.390Z",
+  "updatedAt": "2026-03-11T11:04:45.217Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:69c8fb77-00f6-486b-b563-e9d6a7ecbde9}",
+        "title": "Deutschland gibt Teil der Ölreserven frei",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.zeit.de/wirtschaft/2026-03/deutschland-gibt-teil-der-oelreserven-frei",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-11T10:53:03.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/energie-regierung-will-spritpreis-aenderung-nur-noch-einmal-taeglich/100207553.html",
+        "title": "Tankstellen: Regierung will Spritpreis-Änderung nur noch einmal täglich erlauben",
+        "summary": "Die Bundesregierung orientiert sich an Österreich und prüft, ob diese bald nur noch einmal am Tag die Preise anheben dürfen. Das erfuhr das Handelsblatt aus Regierungskreisen.",
+        "paragraphs": [
+          "Die Bundesregierung orientiert sich an Österreich und prüft, ob diese bald nur noch einmal am Tag die Preise anheben dürfen. Das erfuhr das Handelsblatt aus Regierungskreisen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/energie-regierung-will-spritpreis-aenderung-nur-noch-einmal-taeglich/100207553.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-03-11T10:51:08.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/bahnverkehr-bahn-faehrt-auf-strecke-hamburg-berlin-erst-im-juni-wieder/100207546.html",
+        "title": "Bahnverkehr: Bahn fährt auf Strecke Hamburg-Berlin erst im Juni wieder",
+        "summary": "Wegen des kalten Winters verzögern sich die Bauarbeiten an der wichtigen Bahnstrecke. Erst Mitte Juni sollen alle Züge wieder fahren. Im nördlichen Abschnitt geht es schneller.",
+        "paragraphs": [
+          "Wegen des kalten Winters verzögern sich die Bauarbeiten an der wichtigen Bahnstrecke. Erst Mitte Juni sollen alle Züge wieder fahren. Im nördlichen Abschnitt geht es schneller."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/bahnverkehr-bahn-faehrt-auf-strecke-hamburg-berlin-erst-im-juni-wieder/100207546.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-03-11T10:42:22.000Z"
+      },
       {
         "id": "caecd259-55cf-4850-b6dc-7e3331c24fc0",
         "title": "Rheinmetall-Gewinn steigt – neues Wachstum durch Irankrieg erwartet",
@@ -14,11 +45,22 @@
         "publishedAt": "2026-03-11T10:40:00.000Z"
       },
       {
-        "id": "5d135629-3740-4011-bb24-390c02d47bdf",
-        "title": "Öl-Reserven: IEA-Staaten wollen bis zu 400 Millionen Barrel Rohöl freigeben",
-        "summary": "Die Internationale Energieagentur will nach den Preissprüngen beim Öl den Anstieg eindämmen. Wegen des Irankriegs sollen die Mitgliedstaaten so viele Ölreserven freigegeben wie noch nie.",
+        "id": "https://www.handelsblatt.com/unternehmen/energie/energie-so-hoch-sind-ihre-stromkosten-im-vergleich-02/100205100.html",
+        "title": "Stromkosten: 8167 Postleitzahlen analysiert: So hoch sind Ihre Stromkosten im Vergleich",
+        "summary": "Exklusive Daten für Tausende Orte zeigen, wie unterschiedlich die Stromkosten in Deutschland sind. Je nach Postleitzahl zahlen die Deutschen zwischen 272 und 914 Euro pro Jahr.",
         "paragraphs": [
-          "Die Internationale Energieagentur will nach den Preissprüngen beim Öl den Anstieg eindämmen. Wegen des Irankriegs sollen die Mitgliedstaaten so viele Ölreserven freigegeben wie noch nie."
+          "Exklusive Daten für Tausende Orte zeigen, wie unterschiedlich die Stromkosten in Deutschland sind. Je nach Postleitzahl zahlen die Deutschen zwischen 272 und 914 Euro pro Jahr."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/energie/energie-so-hoch-sind-ihre-stromkosten-im-vergleich-02/100205100.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-03-11T10:40:00.000Z"
+      },
+      {
+        "id": "5d135629-3740-4011-bb24-390c02d47bdf",
+        "title": "Krieg in Nahost: Deutschland gibt Teil der nationalen Ölreserven frei",
+        "summary": "Die Internationale Energieagentur will nach den Preissprüngen beim Öl den Anstieg eindämmen. Wegen des Irankriegs sollen die Mitgliedstaaten so viele Ölreserven anzapfen wie noch nie.",
+        "paragraphs": [
+          "Die Internationale Energieagentur will nach den Preissprüngen beim Öl den Anstieg eindämmen. Wegen des Irankriegs sollen die Mitgliedstaaten so viele Ölreserven anzapfen wie noch nie."
         ],
         "link": "https://www.spiegel.de/wirtschaft/unternehmen/oel-reserven-iea-staaten-wollen-bis-zu-400-millionen-barrel-freigeben-a-5d135629-3740-4011-bb24-390c02d47bdf#ref=rss",
         "source": "SPIEGEL",
@@ -60,9 +102,9 @@
       {
         "id": "https://www.handelsblatt.com/politik/international/iran-krieg-iea-staaten-wollen-bis-zu-400-millionen-barrel-freigeben/100207381.html",
         "title": "Iran-Krieg: IEA-Staaten wollen bis zu 400 Millionen Barrel freigeben – 19,5 Millionen aus Deutschland",
-        "summary": "Die Internationale Energieagentur will den Anstieg bei den Rohölpreisen bremsen und bis zu 400 Millionen Barrel freigeben. Den Ölpreis bewegt das kaum.",
+        "summary": "Die Internationale Energieagentur will den Anstieg bei den Rohölpreisen bremsen und bis zu 400 Millionen Barrel freigeben.",
         "paragraphs": [
-          "Die Internationale Energieagentur will den Anstieg bei den Rohölpreisen bremsen und bis zu 400 Millionen Barrel freigeben. Den Ölpreis bewegt das kaum."
+          "Die Internationale Energieagentur will den Anstieg bei den Rohölpreisen bremsen und bis zu 400 Millionen Barrel freigeben."
         ],
         "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iea-staaten-wollen-bis-zu-400-millionen-barrel-freigeben/100207381.html",
         "source": "Handelsblatt",
@@ -177,59 +219,37 @@
         "link": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-wirtschaft-koennte-bei-energie-schock-dennoch-wachsen/100207269.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-11T09:30:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/wohnungsbau-vier-gruende-warum-die-neubau-foerderung-eh55-nicht-funktioniert/100205235.html",
-        "title": "Wohnungsbau: Warum Bauherren das 800 Millionen Euro schwere Förderprogramm EH55 verschmähen",
-        "summary": "Mit einem Förderprogramm wollte Bauministerin Hubertz bereits genehmigte, aber bislang nicht gebaute Wohnprojekte anschieben. Vier Gründe, warum es kaum Anklang findet.",
-        "paragraphs": [
-          "Mit einem Förderprogramm wollte Bauministerin Hubertz bereits genehmigte, aber bislang nicht gebaute Wohnprojekte anschieben. Vier Gründe, warum es kaum Anklang findet."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/wohnungsbau-vier-gruende-warum-die-neubau-foerderung-eh55-nicht-funktioniert/100205235.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-11T09:18:33.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/social-media-guenther-fordert-verbot-sonst-fuehre-man-gesellschaft-in-den-abgrund/100207491.html",
-        "title": "Internet: Günther: Soziale Medien führen Gesellschaft „in den Abgrund“",
-        "summary": "Schleswig-Holsteins Ministerpräsident sieht die Politik in der Verantwortung und fordert ein schnelles Verbot. Dabei setzt er auch auf einen Politiker am anderen Ende Deutschlands.",
-        "paragraphs": [
-          "Schleswig-Holsteins Ministerpräsident sieht die Politik in der Verantwortung und fordert ein schnelles Verbot. Dabei setzt er auch auf einen Politiker am anderen Ende Deutschlands."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/social-media-guenther-fordert-verbot-sonst-fuehre-man-gesellschaft-in-den-abgrund/100207491.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-11T09:14:12.000Z"
-      },
-      {
-        "id": "li.3450987",
-        "title": "Korridorsanierung: Bahn braucht für Sanierung Hamburg–Berlin sechs Wochen länger",
-        "summary": "Erst am 14. Juni geht die gesamte Strecke wieder in Betrieb. Mit dem harschen Winter allein lässt sich das kaum erklären. Und auch die Kosten bleiben unklar.",
-        "paragraphs": [
-          "Erst am 14. Juni geht die gesamte Strecke wieder in Betrieb. Mit dem harschen Winter allein lässt sich das kaum erklären. Und auch die Kosten bleiben unklar."
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/deutsche-bahn-sanierung-hamburg-berlin-verzoegerung-li.3450987",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-11T09:10:38.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/energiekrise-krieg-im-iran-laesst-benzinpreise-in-usa-deutlich-steigen/100207481.html",
-        "title": "Energiekrise: Krieg im Iran lässt Benzinpreise in USA deutlich steigen",
-        "summary": "Keine Kriege, günstige Energie: Mit diesen Versprechen warb Donald Trump im Wahlkampf für seine Politik. Doch die Benzinpreise sind so hoch wie lange nicht und verärgern auch seine Anhänger.",
-        "paragraphs": [
-          "Keine Kriege, günstige Energie: Mit diesen Versprechen warb Donald Trump im Wahlkampf für seine Politik. Doch die Benzinpreise sind so hoch wie lange nicht und verärgern auch seine Anhänger."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/energiekrise-krieg-im-iran-laesst-benzinpreise-in-usa-deutlich-steigen/100207481.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-11T09:07:05.000Z"
       }
     ],
     "politik": [
       {
+        "id": "776dff6f-dd4f-445f-acab-52fd883caab2",
+        "title": "Ölpreis: Wirtschaftsministerin Reiche kommentiert mögliche Reservenfreigabe",
+        "summary": "Krieg am Golf, drastisch steigende Rohölpreise – die Internationale Energieagentur IEA gibt erste Reserven frei. Wie verhält sich die Bundesregierung dazu? Sehen Sie hier das Statement von Minsterin Reiche live.",
+        "paragraphs": [
+          "Krieg am Golf, drastisch steigende Rohölpreise – die Internationale Energieagentur IEA gibt erste Reserven frei. Wie verhält sich die Bundesregierung dazu? Sehen Sie hier das Statement von Minsterin Reiche live."
+        ],
+        "link": "https://www.spiegel.de/politik/oelpreis-wirtschaftsministerin-reiche-kommentiert-moegliche-reservenfreigabe-a-776dff6f-dd4f-445f-acab-52fd883caab2#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-03-11T10:55:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/energie-regierung-will-spritpreis-aenderung-nur-noch-einmal-taeglich/100207553.html",
+        "title": "Tankstellen: Regierung will Spritpreis-Änderung nur noch einmal täglich erlauben",
+        "summary": "Die Bundesregierung orientiert sich an Österreich und prüft, ob diese bald nur noch einmal am Tag die Preise anheben dürfen. Das erfuhr das Handelsblatt aus Regierungskreisen.",
+        "paragraphs": [
+          "Die Bundesregierung orientiert sich an Österreich und prüft, ob diese bald nur noch einmal am Tag die Preise anheben dürfen. Das erfuhr das Handelsblatt aus Regierungskreisen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/energie-regierung-will-spritpreis-aenderung-nur-noch-einmal-taeglich/100207553.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-03-11T10:51:08.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/iran-krieg-iea-staaten-wollen-bis-zu-400-millionen-barrel-freigeben/100207381.html",
         "title": "Iran-Krieg: IEA-Staaten wollen bis zu 400 Millionen Barrel freigeben – 19,5 Millionen aus Deutschland",
-        "summary": "Die Internationale Energieagentur will den Anstieg bei den Rohölpreisen bremsen und bis zu 400 Millionen Barrel freigeben. Den Ölpreis bewegt das kaum.",
+        "summary": "Die Internationale Energieagentur will den Anstieg bei den Rohölpreisen bremsen und bis zu 400 Millionen Barrel freigeben.",
         "paragraphs": [
-          "Die Internationale Energieagentur will den Anstieg bei den Rohölpreisen bremsen und bis zu 400 Millionen Barrel freigeben. Den Ölpreis bewegt das kaum."
+          "Die Internationale Energieagentur will den Anstieg bei den Rohölpreisen bremsen und bis zu 400 Millionen Barrel freigeben."
         ],
         "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iea-staaten-wollen-bis-zu-400-millionen-barrel-freigeben/100207381.html",
         "source": "Handelsblatt",
@@ -421,31 +441,42 @@
         "link": "https://www.spiegel.de/politik/deutschland/news-teures-tanken-minister-debatte-um-boris-palmer-in-baden-wuerttemberg-exzellente-unis-a-33835c6b-8831-4a32-943b-64dedec05f36#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-03-11T04:38:00.000Z"
-      },
-      {
-        "id": "4fdc22a6-1ad5-4951-a4da-0772b46e0e44",
-        "title": "Johann Wadephul in Israel und am Golf: Und plötzlich muss der Außenminister rennen",
-        "summary": "Nach dem Angriff auf Iran fliegt Außenminister Wadephul nach Israel und damit mitten ins Gebiet des Konflikts. Sein Amtskollege spricht über das Kriegsende – und macht eine fast sarkastische Bemerkung.",
-        "paragraphs": [
-          "Nach dem Angriff auf Iran fliegt Außenminister Wadephul nach Israel und damit mitten ins Gebiet des Konflikts. Sein Amtskollege spricht über das Kriegsende – und macht eine fast sarkastische Bemerkung."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/aussenminister-in-israel-und-am-golf-wadephul-und-seine-schwierige-reise-ins-kriegsgebiet-a-4fdc22a6-1ad5-4951-a4da-0772b46e0e44#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-03-10T22:23:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/extremismus-hochstufung-der-afd-niedersachsen-auf-eis-gelegt/100207325.html",
-        "title": "Extremismus: Hochstufung der AfD Niedersachsen auf Eis gelegt",
-        "summary": "Für die AfD ist es ein Teilerfolg: Der Landesverband wird nach seiner Klage vorerst weiter als Verdachtsobjekt behandelt. Eine schärfere Überwachung setzt der Verfassungsschutz zunächst aus.",
-        "paragraphs": [
-          "Für die AfD ist es ein Teilerfolg: Der Landesverband wird nach seiner Klage vorerst weiter als Verdachtsobjekt behandelt. Eine schärfere Überwachung setzt der Verfassungsschutz zunächst aus."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/extremismus-hochstufung-der-afd-niedersachsen-auf-eis-gelegt/100207325.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-10T19:52:19.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/fortuna-droht-personalengpass-bei-kastenmeier-heisst-es-abwarten-1200661/artikel#omrss",
+        "title": "Fortuna droht Personalengpass: Bei Kastenmeier heißt es \"abwarten\"",
+        "summary": "Durch sechs Spiele ohne Niederlage und zuletzt zwei Dreiern in Folge arbeitete sich Fortuna Düsseldorf ins Mittelfeld vor. Im richtungsweisenden Spiel in Braunschweig droht aber ein Personalengpass.",
+        "paragraphs": [
+          "Durch sechs Spiele ohne Niederlage und zuletzt zwei Dreiern in Folge arbeitete sich Fortuna Düsseldorf ins Mittelfeld vor. Im richtungsweisenden Spiel in Braunschweig droht aber ein Personalengpass."
+        ],
+        "link": "https://www.kicker.de/fortuna-droht-personalengpass-bei-kastenmeier-heisst-es-abwarten-1200661/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-11T10:55:08.000Z"
+      },
+      {
+        "id": "li.3450996",
+        "title": "Punktejagd von NBA-Profi Adebayo: Sagenhafte 83 Punkte – aber ist das noch Basketball?",
+        "summary": "Die zweithöchste jemals erreichte Ausbeute in einem Spiel für Miami-Profi Bam Adebayo offenbart, worum es in der NBA wirklich geht: um die Show. Ermöglicht wird die auch vom Gegner.",
+        "paragraphs": [
+          "Die zweithöchste jemals erreichte Ausbeute in einem Spiel für Miami-Profi Bam Adebayo offenbart, worum es in der NBA wirklich geht: um die Show. Ermöglicht wird die auch vom Gegner."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/nba-adebayo-83-punkte-basketballer-li.3450996",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-03-11T10:54:35.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/dank-harden-und-schroeder-sind-die-cavs-wieder-ein-contender-1200655/artikel#omrss",
+        "title": "Dank Harden und Schröder: Sind die Cavs wieder ein Contender?",
+        "summary": "Vor Saisonbeginn wollten die Cavaliers in die Finals. Es folgte ein komplizierter Saisonstart, eine Trendumkehr und einige Deals. Ein paar Probleme bleiben. Gleichzeitig wirken die neuen Cavs deutlich gefährlicher - auch wegen Dennis Schröder und einer bestimmten Eigenart James Hardens.",
+        "paragraphs": [
+          "Vor Saisonbeginn wollten die Cavaliers in die Finals. Es folgte ein komplizierter Saisonstart, eine Trendumkehr und einige Deals. Ein paar Probleme bleiben. Gleichzeitig wirken die neuen Cavs deutlich gefährlicher - auch wegen Dennis Schröder und einer bestimmten Eigenart James Hardens."
+        ],
+        "link": "https://www.kicker.de/dank-harden-und-schroeder-sind-die-cavs-wieder-ein-contender-1200655/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-11T10:37:34.000Z"
+      },
       {
         "id": "https://www.kicker.de/warum-die-ravens-bislang-der-grosse-verlierer-der-free-agency-sind-1200671/artikel#omrss",
         "title": "Warum die Ravens bislang der große Verlierer der Free Agency sind",
@@ -478,6 +509,17 @@
         "link": "https://www.kicker.de/wicker-verpasst-erste-langlauf-medaille-um-1-5-sekunden-1200667/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-11T10:08:57.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/bravissimo-atalanta-coach-gratuliert-bayern-1200670/video#omrss",
+        "title": "\"Bravissimo\": Atalanta-Coach gratuliert Bayern",
+        "summary": "Atalanta Bergamo geriet gegen den FC Bayern im eigenen Stadion mit 1:6 unter die Räder. Trainer Raffaele Palladino äußerte sich nur positiv nach dem Spiel gegen die \"außergewöhnlichen\" Bayern.",
+        "paragraphs": [
+          "Atalanta Bergamo geriet gegen den FC Bayern im eigenen Stadion mit 1:6 unter die Räder. Trainer Raffaele Palladino äußerte sich nur positiv nach dem Spiel gegen die \"außergewöhnlichen\" Bayern."
+        ],
+        "link": "https://www.kicker.de/bravissimo-atalanta-coach-gratuliert-bayern-1200670/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-11T10:05:23.000Z"
       },
       {
         "id": "https://www.kicker.de/club-gibt-entwarnung-bei-kapitaen-gruber-1200654/artikel#omrss",
@@ -621,53 +663,31 @@
         "link": "https://www.kicker.de/nach-vieldiskutierter-roter-karte-dfb-sperrt-unions-schaefer-1200108/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-11T08:25:20.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kampf-gegen-krankheit-teenager-lindblad-begeistert-1200624/artikel#omrss",
-        "title": "Kampf gegen Krankheit: Teenager Lindblad begeistert",
-        "summary": "Auf der Weiterreise von Melbourne nach Shanghai durfte sich Teenager Arvid Lindblad noch wie auf Wolke sieben fühlen. Der einzige Fahrerneuling in dieser Formel-1-Saison raste bei seinem Debüt für die Racing Bulls als Achter gleich sensationell in die Punkte und konnte sein Glück lange gar nicht fassen.",
-        "paragraphs": [
-          "Auf der Weiterreise von Melbourne nach Shanghai durfte sich Teenager Arvid Lindblad noch wie auf Wolke sieben fühlen. Der einzige Fahrerneuling in dieser Formel-1-Saison raste bei seinem Debüt für die Racing Bulls als Achter gleich sensationell in die Punkte und konnte sein Glück lange gar nicht fassen."
-        ],
-        "link": "https://www.kicker.de/kampf-gegen-krankheit-teenager-lindblad-begeistert-1200624/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-11T08:20:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/diese-rekorde-hat-adebayo-bei-seiner-gala-gegen-die-wizards-gebrochen-1200611/artikel#omrss",
-        "title": "Diese Rekorde hat Adebayo bei seiner Gala gegen die Wizards gebrochen",
-        "summary": "Die 83-Punkte-Gala von Bam Adebayo markierte den zweitbesten Scoringwert der NBA-Geschichte. Aber auch darüber hinaus hat sich der Heat-Center in den Geschichtsbüchern verewigt. Wir blicken auf alle Rekorde, die er mit seiner Leistung gebrochen hat.",
-        "paragraphs": [
-          "Die 83-Punkte-Gala von Bam Adebayo markierte den zweitbesten Scoringwert der NBA-Geschichte. Aber auch darüber hinaus hat sich der Heat-Center in den Geschichtsbüchern verewigt. Wir blicken auf alle Rekorde, die er mit seiner Leistung gebrochen hat."
-        ],
-        "link": "https://www.kicker.de/diese-rekorde-hat-adebayo-bei-seiner-gala-gegen-die-wizards-gebrochen-1200611/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-11T08:15:43.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/zverev-toent-vor-viertelfinale-sinner-uebersteht-drei-satzbaelle-von-fonseca-1200621/artikel#omrss",
-        "title": "Zverev tönt vor Viertelfinale - Sinner übersteht drei Satzbälle von Fonseca",
-        "summary": "Indian Wells und Alexander Zverev, das war keine Liebesbeziehung - bislang. Im diesjährigen Viertelfinale wartet nun Arthur Fils, der laut Zverev \"verlieren wird\". Unterdessen hat Jannik Sinner viel Mühe mit einem Top-Talent.",
-        "paragraphs": [
-          "Indian Wells und Alexander Zverev, das war keine Liebesbeziehung - bislang. Im diesjährigen Viertelfinale wartet nun Arthur Fils, der laut Zverev \"verlieren wird\". Unterdessen hat Jannik Sinner viel Mühe mit einem Top-Talent."
-        ],
-        "link": "https://www.kicker.de/zverev-toent-vor-viertelfinale-sinner-uebersteht-drei-satzbaelle-von-fonseca-1200621/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-11T08:12:43.000Z"
-      },
-      {
-        "id": "{urn:uuid:f7dfa944-d2ee-4374-8f7d-495861dab14c}",
-        "title": "Benzinpreise: Drei Nasen tanken Super",
-        "summary": "Warum ist Benzin in Österreich und selbst in der Schweiz günstiger als in Deutschland, und muss man was dagegen tun? Außerdem: Bitte telefonieren sie leise!",
-        "paragraphs": [
-          "Warum ist Benzin in Österreich und selbst in der Schweiz günstiger als in Deutschland, und muss man was dagegen tun? Außerdem: Bitte telefonieren sie leise!"
-        ],
-        "link": "https://www.zeit.de/gesellschaft/2026-03/benzinpreise-deutschland-oersterreich-schweiz-massnahmen-politik-alpenpodcast",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-11T07:57:27.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/tests/Riesiges-Grafiktablett-mit-4K-Aufloesung-Huion-Kamvas-Pro-27-im-Test-11157046.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "heise+ | Riesiges Grafiktablett mit 4K-Auflösung: Huion Kamvas Pro 27 im Test",
+        "summary": "Das Grafiktablett von Huion bietet ein 4K-Display und einen hochauflösenden Stift für unter 2000 Euro. Kann es mit der teuren Konkurrenz von Wacom mithalten?",
+        "paragraphs": [
+          "Das Grafiktablett von Huion bietet ein 4K-Display und einen hochauflösenden Stift für unter 2000 Euro. Kann es mit der teuren Konkurrenz von Wacom mithalten?"
+        ],
+        "link": "https://www.heise.de/tests/Riesiges-Grafiktablett-mit-4K-Aufloesung-Huion-Kamvas-Pro-27-im-Test-11157046.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "source": "heise",
+        "publishedAt": "2026-03-11T11:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Bitkom-Umfrage-Unternehmen-oft-von-KI-Kosten-ueberrascht-11206985.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Bitkom-Umfrage: Unternehmen oft von KI-Kosten überrascht",
+        "summary": "Unternehmenschefs in Deutschland setzen verstärkt auf Künstliche Intelligenz, zeigt eine Umfrage des Digitalverbands Bitkom. Doch das Bild ist gemischt.",
+        "paragraphs": [
+          "Unternehmenschefs in Deutschland setzen verstärkt auf Künstliche Intelligenz, zeigt eine Umfrage des Digitalverbands Bitkom. Doch das Bild ist gemischt."
+        ],
+        "link": "https://www.heise.de/news/Bitkom-Umfrage-Unternehmen-oft-von-KI-Kosten-ueberrascht-11206985.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-11T10:36:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Youtube-Deepfake-Schutz-fuer-Politiker-und-Journalisten-11206724.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Youtube: Deepfake-Schutz für Politiker und Journalisten",
@@ -865,28 +885,6 @@
         "link": "https://www.heise.de/hintergrund/Linux-Wie-Kmscon-virtuelle-Textkonsolen-modernisiert-11179998.html",
         "source": "c't",
         "publishedAt": "2026-03-11T07:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Public-IT-Neue-c-t-Konferenz-fuer-den-oeffentlichen-Sektor-sucht-Vortraege-11202307.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: Public IT: Neue c't-Konferenz für den öffentlichen Sektor sucht Vorträge",
-        "summary": "Der Call for Proposals für die Public IT ist gestartet. Die c't-Konferenz für den öffentlichen Sektor dreht sich um souveräne IT-Lösungen und Automatisierung.",
-        "paragraphs": [
-          "Der Call for Proposals für die Public IT ist gestartet. Die c't-Konferenz für den öffentlichen Sektor dreht sich um souveräne IT-Lösungen und Automatisierung."
-        ],
-        "link": "https://www.heise.de/news/Public-IT-Neue-c-t-Konferenz-fuer-den-oeffentlichen-Sektor-sucht-Vortraege-11202307.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-11T07:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Ig-Nobelpreise-fuer-kuriose-Forschung-verlassen-die-USA-11206545.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Ig-Nobelpreise für kuriose Forschung verlassen die USA",
-        "summary": "Seit 35 Jahren werden die Ig-Nobelpreise für kuriose Forschung in den USA verliehen. Jetzt zieht die Gala nach Europa um – aus einem ernsten Grund.",
-        "paragraphs": [
-          "Seit 35 Jahren werden die Ig-Nobelpreise für kuriose Forschung in den USA verliehen. Jetzt zieht die Gala nach Europa um – aus einem ernsten Grund."
-        ],
-        "link": "https://www.heise.de/news/Ig-Nobelpreise-fuer-kuriose-Forschung-verlassen-die-USA-11206545.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-11T06:41:00.000Z"
       }
     ]
   }
