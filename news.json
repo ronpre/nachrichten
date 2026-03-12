@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-12T20:10:06.640Z",
+  "updatedAt": "2026-03-12T20:25:27.130Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-im-minus-dow-jones-gibt-ueber-700-punkte-ab/100207891.html",
+        "title": "US-Börsen: Dow Jones gibt mehr als 700 Punkte ab – Wall Street schließt mit deutlichen Verlusten",
+        "summary": "Die USA wollen offenbar erst zum Ende des Monats Öltanker durch die Straße von Hormus eskortieren. Das trieb die Ölpreise nach oben – und die US-Aktienmärkte nach unten.",
+        "paragraphs": [
+          "Die USA wollen offenbar erst zum Ende des Monats Öltanker durch die Straße von Hormus eskortieren. Das trieb die Ölpreise nach oben – und die US-Aktienmärkte nach unten."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-im-minus-dow-jones-gibt-ueber-700-punkte-ab/100207891.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-03-12T20:09:44.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/gruender-eu-inc.-bruessel-schafft-neue-rechtsform-fuer-unternehmen/100208027.html",
         "title": "Start-up-Gründung: „EU Inc.“: Brüssel schafft neue Rechtsform für Unternehmen",
@@ -45,17 +56,6 @@
         "link": "https://www.handelsblatt.com/finanzen/geldpolitik/usa-fed-will-kapitalanforderungen-fuer-grossbanken-senken/100208033.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-12T19:18:08.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-im-minus-dow-jones-verliert-mehr-als-600-punkte/100207891.html",
-        "title": "US-Börsen: Dow Jones verliert mehr als 500 Punkte – Dating-App-Aktie legt 40 Prozent zu",
-        "summary": "Die USA wollen offenbar erst zum Ende des Monats Öltanker durch die Straße von Hormus eskortieren. Das treibt die Ölpreise nach oben – und die US-Aktienmärkte nach unten.",
-        "paragraphs": [
-          "Die USA wollen offenbar erst zum Ende des Monats Öltanker durch die Straße von Hormus eskortieren. Das treibt die Ölpreise nach oben – und die US-Aktienmärkte nach unten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-im-minus-dow-jones-verliert-mehr-als-600-punkte/100207891.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-12T19:05:42.000Z"
       },
       {
         "id": "{urn:uuid:db1fff3d-8b86-4ea2-933c-28c6be401f91}",
@@ -447,6 +447,61 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/live-abtasten-in-olmuetz-ghali-macht-betrieb-1200740/artikel#omrss",
+        "title": "LIVE! Abtasten in Olmütz: Ghali macht Betrieb",
+        "summary": "Der 1. FSV Mainz 05 startet am Donnerstagabend in die K.-o.-Runde der Conference League. Weil das Stadion von Sigma Olmütz gerade so über 10.000 Zuschauer fasst, können kaum FSV-Anhänger ihr Team unterstützen. Bestehen die Rheinhessen dennoch in Tschechien?",
+        "paragraphs": [
+          "Der 1. FSV Mainz 05 startet am Donnerstagabend in die K.-o.-Runde der Conference League. Weil das Stadion von Sigma Olmütz gerade so über 10.000 Zuschauer fasst, können kaum FSV-Anhänger ihr Team unterstützen. Bestehen die Rheinhessen dennoch in Tschechien?"
+        ],
+        "link": "https://www.kicker.de/live-abtasten-in-olmuetz-ghali-macht-betrieb-1200740/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-12T20:17:08.000Z"
+      },
+      {
+        "id": "{urn:uuid:eff4d19c-5a1b-45c2-bd02-1b0a5383db98}",
+        "title": "Europa League, Achtelfinale: Stuttgart verliert Achtelfinalhinspiel gegen Porto",
+        "summary": "Früh liegt der VfB zu Hause gegen den FC Porto mit 0:2 hinten. Ein aberkanntes Tor kostet die Schwaben im Achtelfinalhinspiel den Ausgleich. Der Spielbericht",
+        "paragraphs": [
+          "Früh liegt der VfB zu Hause gegen den FC Porto mit 0:2 hinten. Ein aberkanntes Tor kostet die Schwaben im Achtelfinalhinspiel den Ausgleich. Der Spielbericht"
+        ],
+        "link": "https://www.zeit.de/sport/2026-03/europa-league-stuttgart-freiburg-achtelfinale",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-12T20:13:39.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-manzambi-im-abseits-freiburger-fuehrung-in-genk-zaehlt-nicht-1200737/artikel#omrss",
+        "title": "LIVE! Manzambi im Abseits: Freiburger Führung in Genk zählt nicht",
+        "summary": "Noch nie stand der SC Freiburg in einem Viertelfinale eines europäischen Klubwettbewerbs. Im dritten Anlauf soll es nun klappen, dafür sollte im Gastspiel in Genk ein gutes Resultat gelingen.",
+        "paragraphs": [
+          "Noch nie stand der SC Freiburg in einem Viertelfinale eines europäischen Klubwettbewerbs. Im dritten Anlauf soll es nun klappen, dafür sollte im Gastspiel in Genk ein gutes Resultat gelingen."
+        ],
+        "link": "https://www.kicker.de/live-manzambi-im-abseits-freiburger-fuehrung-in-genk-zaehlt-nicht-1200737/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-12T20:11:16.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/klaebo-nach-sturz-bei-bewusstsein-rydzek-frueh-raus-1201253/artikel#omrss",
+        "title": "Kläbo nach Sturz \"bei Bewusstsein\" - Rydzek früh raus",
+        "summary": "Bitteres Viertelfinal-Aus für Coletta Rydzek beim Weltcup in Drammen. Und auch für Superstar Johannes Hösflot Kläbo läuft es alles anderes als rund - der Norweger muss sogar ins Krankenhaus.",
+        "paragraphs": [
+          "Bitteres Viertelfinal-Aus für Coletta Rydzek beim Weltcup in Drammen. Und auch für Superstar Johannes Hösflot Kläbo läuft es alles anderes als rund - der Norweger muss sogar ins Krankenhaus."
+        ],
+        "link": "https://www.kicker.de/klaebo-nach-sturz-bei-bewusstsein-rydzek-frueh-raus-1201253/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-12T20:11:12.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/dominanter-zverev-stuermt-ins-halbfinale-und-feiert-einen-historischen-erfolg-1200987/artikel#omrss",
+        "title": "Dominanter Zverev stürmt ins Halbfinale - und feiert einen historischen Erfolg",
+        "summary": "Überraschend leichtes Spiel hatte Alexander Zverev im Viertelfinale von Indian Wells gegen Arthur Fils. Gegen den Franzosen überzeugte der Hamburger auf ganzer Linie, gewann flott in 82 Minuten mit 6:2, 6:3 und erreichte als erster Spieler die Runde der letzten Vier.",
+        "paragraphs": [
+          "Überraschend leichtes Spiel hatte Alexander Zverev im Viertelfinale von Indian Wells gegen Arthur Fils. Gegen den Franzosen überzeugte der Hamburger auf ganzer Linie, gewann flott in 82 Minuten mit 6:2, 6:3 und erreichte als erster Spieler die Runde der letzten Vier."
+        ],
+        "link": "https://www.kicker.de/dominanter-zverev-stuermt-ins-halbfinale-und-feiert-einen-historischen-erfolg-1200987/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-12T20:05:32.000Z"
+      },
+      {
         "id": "https://www.kicker.de/boyd-zieht-einspruch-gegen-strafmass-zurueck-1201270/artikel#omrss",
         "title": "Boyd zieht Einspruch gegen Strafmaß zurück",
         "summary": "Deckel drauf auf das Verfahren gegen Terrence Boyd vom SV Waldhof Mannheim. Es bleibt beim Strafmaß von zwei Spielen.",
@@ -456,17 +511,6 @@
         "link": "https://www.kicker.de/boyd-zieht-einspruch-gegen-strafmass-zurueck-1201270/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-12T20:00:08.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/einfach-stark-dominanter-zverev-stuermt-ins-halbfinale-1200987/artikel#omrss",
-        "title": "Einfach stark: Dominanter Zverev stürmt ins Halbfinale",
-        "summary": "Überraschend leichtes Spiel hatte Alexander Zverev im Viertelfinale von Indian Wells gegen Arthur Fils. Gegen den Franzosen überzeugte der Hamburger auf ganzer Linie, gewann flott in 82 Minuten mit 6:2, 6:3 und erreichte als erster Spieler die Runde der letzten Vier.",
-        "paragraphs": [
-          "Überraschend leichtes Spiel hatte Alexander Zverev im Viertelfinale von Indian Wells gegen Arthur Fils. Gegen den Franzosen überzeugte der Hamburger auf ganzer Linie, gewann flott in 82 Minuten mit 6:2, 6:3 und erreichte als erster Spieler die Runde der letzten Vier."
-        ],
-        "link": "https://www.kicker.de/einfach-stark-dominanter-zverev-stuermt-ins-halbfinale-1200987/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-12T19:52:04.000Z"
       },
       {
         "id": "https://www.kicker.de/stuttgart-gegen-fc-porto-2026-europa-league-5195149/spielbericht#omrss",
@@ -513,17 +557,6 @@
         "publishedAt": "2026-03-12T19:15:45.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-fischer-bringt-neues-trio-besteht-mainz-bei-sigma-olmuetz-1200740/artikel#omrss",
-        "title": "LIVE! Fischer bringt neues Trio: Besteht Mainz bei Sigma Olmütz?",
-        "summary": "Der 1. FSV Mainz 05 startet am Donnerstagabend in die K.-o.-Runde der Conference League. Weil das Stadion von Sigma Olmütz gerade so über 10.000 Zuschauer fasst, können kaum FSV-Anhänger ihr Team unterstützen. Bestehen die Rheinhessen dennoch in Tschechien?",
-        "paragraphs": [
-          "Der 1. FSV Mainz 05 startet am Donnerstagabend in die K.-o.-Runde der Conference League. Weil das Stadion von Sigma Olmütz gerade so über 10.000 Zuschauer fasst, können kaum FSV-Anhänger ihr Team unterstützen. Bestehen die Rheinhessen dennoch in Tschechien?"
-        ],
-        "link": "https://www.kicker.de/live-fischer-bringt-neues-trio-besteht-mainz-bei-sigma-olmuetz-1200740/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-12T19:02:48.000Z"
-      },
-      {
         "id": "https://www.kicker.de/live-gute-ausgangslagen-fuer-villa-und-roma-was-macht-forest-gegen-midtjylland-1200746/artikel#omrss",
         "title": "LIVE! Gute Ausgangslagen für Villa und Roma - Was macht Forest gegen Midtjylland?",
         "summary": "Die Europa-League-Saison biegt in ihre heiße Phase ein: Sechs Achtelfinal-Hinspiele ohne deutsche Beteiligung steigen am Donnerstagabend. Gibt es Stolpersteine für die Favoriten?",
@@ -533,17 +566,6 @@
         "link": "https://www.kicker.de/live-gute-ausgangslagen-fuer-villa-und-roma-was-macht-forest-gegen-midtjylland-1200746/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-12T19:01:23.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-macht-freiburg-in-genk-den-ersten-schritt-richtung-viertelfinale-1200737/artikel#omrss",
-        "title": "LIVE! Macht Freiburg in Genk den ersten Schritt Richtung Viertelfinale?",
-        "summary": "Noch nie stand der SC Freiburg in einem Viertelfinale eines europäischen Klubwettbewerbs. Im dritten Anlauf soll es nun klappen, dafür sollte im Gastspiel in Genk ein gutes Resultat gelingen.",
-        "paragraphs": [
-          "Noch nie stand der SC Freiburg in einem Viertelfinale eines europäischen Klubwettbewerbs. Im dritten Anlauf soll es nun klappen, dafür sollte im Gastspiel in Genk ein gutes Resultat gelingen."
-        ],
-        "link": "https://www.kicker.de/live-macht-freiburg-in-genk-den-ersten-schritt-richtung-viertelfinale-1200737/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-12T18:58:26.000Z"
       },
       {
         "id": "https://www.kicker.de/einfach-nicht-angebracht-duisburgs-coach-hirsch-stellt-sich-gegen-kritik-1201247/artikel#omrss",
@@ -634,17 +656,6 @@
         "publishedAt": "2026-03-12T17:38:38.000Z"
       },
       {
-        "id": "https://www.kicker.de/langlauf-sprint-rydzek-nach-sturz-frueh-raus-klaebos-serie-endet-schmerzhaft-1201253/artikel#omrss",
-        "title": "Langlauf-Sprint: Rydzek nach Sturz früh raus - Kläbos Serie endet schmerzhaft",
-        "summary": "Bitteres Viertelfinal-Aus für Coletta Rydzek beim Weltcup in Drammen. Und auch für Superstar Johannes Hösflot Kläbo läuft es nicht rund.",
-        "paragraphs": [
-          "Bitteres Viertelfinal-Aus für Coletta Rydzek beim Weltcup in Drammen. Und auch für Superstar Johannes Hösflot Kläbo läuft es nicht rund."
-        ],
-        "link": "https://www.kicker.de/langlauf-sprint-rydzek-nach-sturz-frueh-raus-klaebos-serie-endet-schmerzhaft-1201253/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-12T17:38:03.000Z"
-      },
-      {
         "id": "https://www.kicker.de/wir-waren-kein-team-coburg-muss-fuer-den-klassenerhalt-stark-umsteuern-1201058/artikel#omrss",
         "title": "\"Wir waren kein Team\": Coburg muss für den Klassenerhalt stark umsteuern",
         "summary": "Starke Landesliga-Saison, große spielerische Qualität und daher reichlich Optimismus: Die Landung des FC Coburg in der Bayernliga fiel umso härter aus, doch nach einem Herbst mit bösen Klatschen haben die Oberfranken nun offenbar den richtigen Ansatz gefunden.",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/wir-waren-kein-team-coburg-muss-fuer-den-klassenerhalt-stark-umsteuern-1201058/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-12T17:14:22.000Z"
-      },
-      {
-        "id": "li.3452053",
-        "title": "Fußball-WM: Trump rät Iran von WM-Teilnahme ab",
-        "summary": "US-Präsident Donald Trump warnt vor Gefahren für Irans Fußballer im Falle einer Teilnahme an der Fußball-WM. Zuletzt hatte der iranische Sportminister einen Verzicht angedeutet.",
-        "paragraphs": [
-          "US-Präsident Donald Trump warnt vor Gefahren für Irans Fußballer im Falle einer Teilnahme an der Fußball-WM. Zuletzt hatte der iranische Sportminister einen Verzicht angedeutet."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/fussball-wm-iran-trump-li.3452053",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-12T17:08:58.000Z"
       }
     ],
     "edv": [
