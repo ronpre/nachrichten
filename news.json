@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-12T19:13:07.693Z",
+  "updatedAt": "2026-03-12T19:33:56.142Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/usa-fed-will-kapitalanforderungen-fuer-grossbanken-senken/100208033.html",
+        "title": "US-Bankenregulierung: Fed will Kapitalanforderungen für Großbanken senken",
+        "summary": "Großbanken müssen laut der Fed künftig weniger Kapital vorhalten. Für die Wall Street wäre der Schritt ein Erfolg – Kritiker warnen jedoch vor neuen Risiken für das Finanzsystem.",
+        "paragraphs": [
+          "Großbanken müssen laut der Fed künftig weniger Kapital vorhalten. Für die Wall Street wäre der Schritt ein Erfolg – Kritiker warnen jedoch vor neuen Risiken für das Finanzsystem."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/usa-fed-will-kapitalanforderungen-fuer-grossbanken-senken/100208033.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-03-12T19:18:08.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-im-minus-dow-jones-verliert-mehr-als-600-punkte/100207891.html",
         "title": "US-Börsen: Dow Jones verliert mehr als 500 Punkte – Dating-App-Aktie legt 40 Prozent zu",
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/politik/international/iran-und-russland-obwohl-der-oelpreis-steigt-muss-putin-ausgaben-kuerzen/100207807.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-12T15:59:02.000Z"
-      },
-      {
-        "id": "{urn:uuid:b93e483f-ea3a-4d6a-b2f9-85e5a7efc0b5}",
-        "title": "Lufthansa-Streik: Müssen Piloten wirklich noch mehr Rente bekommen, Herr Pinheiro?",
-        "summary": "Lufthansa-Piloten bekommen bis zu 8400 Euro Rente. Nun streiken sie, weil sie mehr Altersvorsorge durchsetzen wollen. Der Präsident der Vereinigung Cockpit erklärt warum.",
-        "paragraphs": [
-          "Lufthansa-Piloten bekommen bis zu 8400 Euro Rente. Nun streiken sie, weil sie mehr Altersvorsorge durchsetzen wollen. Der Präsident der Vereinigung Cockpit erklärt warum."
-        ],
-        "link": "https://www.zeit.de/mobilitaet/2026-03/lufthansa-streik-piloten-vereinigung-cockpit-andreas-pinheiro",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-12T15:50:21.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "e221216c-7850-4e53-b392-6cfe4263b455",
+        "title": "Leaks: Katherina Reiches Wirtschaftsministerium ließ E-Mail-Konten von Beamten durchsuchen",
+        "summary": "Auf der Suche nach Beamten, die Gesetzentwürfe an Medien durchgestochen haben könnten, macht das Wirtschaftsministerium auch vor deren E-Mail-Konten nicht Halt. Ministerin Reiche soll darüber informiert gewesen sein.",
+        "paragraphs": [
+          "Auf der Suche nach Beamten, die Gesetzentwürfe an Medien durchgestochen haben könnten, macht das Wirtschaftsministerium auch vor deren E-Mail-Konten nicht Halt. Ministerin Reiche soll darüber informiert gewesen sein."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/leaks-katherina-reiches-wirtschaftsministerium-liess-e-mail-konten-von-beamten-durchsuchen-a-e221216c-7850-4e53-b392-6cfe4263b455#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-03-12T19:25:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/us-zoelle-usa-will-china-fuer-handelsgespraeche-am-sonntag-treffen/30026990.html",
         "title": "+++ US-Zollpoltik +++: Neue Handelsgespräche in Paris – USA will China am Sonntag treffen",
@@ -432,30 +443,41 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/iran-krieg-kartellamt-begruesst-neue-regel-an-tankstellen/100207925.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-12T12:55:07.000Z"
-      },
-      {
-        "id": "df5410c0-bafe-4d01-9131-c4e34bacda2c",
-        "title": "Katherina Reiche tauscht weitere Führungskräfte im Wirtschaftsministerium aus",
-        "summary": "Abgänge, Kündigungen, vakante Stellen: In der Leitungsabteilung des Wirtschaftsministeriums gibt es nach SPIEGEL-Informationen erneut mehrere Wechsel. Ein Grund soll der Führungsstil von Katherina Reiche sein.",
-        "paragraphs": [
-          "Abgänge, Kündigungen, vakante Stellen: In der Leitungsabteilung des Wirtschaftsministeriums gibt es nach SPIEGEL-Informationen erneut mehrere Wechsel. Ein Grund soll der Führungsstil von Katherina Reiche sein."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/katherina-reiche-weitere-fuehrungskraefte-im-wirtschaftsministerium-ausgetauscht-a-df5410c0-bafe-4d01-9131-c4e34bacda2c#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-03-12T12:42:00.000Z"
       }
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-undav-versucht-s-mit-einem-frechen-heber-dreifachwechsel-bei-porto-1200688/artikel#omrss",
-        "title": "LIVE! Undav versucht's mit einem frechen Heber - Dreifachwechsel bei Porto",
+        "id": "https://www.kicker.de/live-punktet-bayern-gegen-anadolu-efes-1200993/artikel#omrss",
+        "title": "LIVE! Punktet Bayern gegen Anadolu Efes?",
+        "summary": "Der FC Bayern empfängt den Vorletzten Andolu Efes Istanbul und muss im Rennen um die Play-Ins gewinnen. Leichte Kost erwartet Münchens Coach Svetislav Pesic aber dennoch nicht.",
+        "paragraphs": [
+          "Der FC Bayern empfängt den Vorletzten Andolu Efes Istanbul und muss im Rennen um die Play-Ins gewinnen. Leichte Kost erwartet Münchens Coach Svetislav Pesic aber dennoch nicht."
+        ],
+        "link": "https://www.kicker.de/live-punktet-bayern-gegen-anadolu-efes-1200993/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-12T19:26:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-abseits-tiago-tomas-stiller-tor-zaehlt-nicht-1200688/artikel#omrss",
+        "title": "LIVE! Abseits Tiago Tomas: Stiller-Tor zählt nicht",
         "summary": "Stuttgart trifft im Europa-League-Achtelfinale auf Porto. Im Hinspiel vor eigenem Publikum geht es für die Schwaben am frühen Abend darum, sich ein kleines Polster für das schwere Auswärtsspiel zu verschaffen.",
         "paragraphs": [
           "Stuttgart trifft im Europa-League-Achtelfinale auf Porto. Im Hinspiel vor eigenem Publikum geht es für die Schwaben am frühen Abend darum, sich ein kleines Polster für das schwere Auswärtsspiel zu verschaffen."
         ],
-        "link": "https://www.kicker.de/live-undav-versucht-s-mit-einem-frechen-heber-dreifachwechsel-bei-porto-1200688/artikel#omrss",
+        "link": "https://www.kicker.de/live-abseits-tiago-tomas-stiller-tor-zaehlt-nicht-1200688/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-12T19:09:37.000Z"
+        "publishedAt": "2026-03-12T19:22:21.000Z"
+      },
+      {
+        "id": "{urn:uuid:6ee12cf0-fe00-429a-9556-960ef25df40d}",
+        "title": "Paralympische Winterspiele: Deutsches Team nimmt an der Abschlussfeier der Paralympics teil",
+        "summary": "Der Eröffnungsfeier der Paralympics war das deutsche Team noch ferngeblieben, unter anderem aus Solidarität mit der Ukraine. An der Schlussfeier nimmt Deutschland teil.",
+        "paragraphs": [
+          "Der Eröffnungsfeier der Paralympics war das deutsche Team noch ferngeblieben, unter anderem aus Solidarität mit der Ukraine. An der Schlussfeier nimmt Deutschland teil."
+        ],
+        "link": "https://www.zeit.de/sport/2026-03/paralympics-cortina-schlussfeier-deutsches-team-boykott",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-12T19:15:45.000Z"
       },
       {
         "id": "https://www.kicker.de/live-fischer-bringt-neues-trio-besteht-mainz-bei-sigma-olmuetz-1200740/artikel#omrss",
@@ -469,13 +491,13 @@
         "publishedAt": "2026-03-12T19:02:48.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-aston-villa-in-lille-gefordert-roma-in-bologna-hinten-1200746/artikel#omrss",
-        "title": "LIVE! Aston Villa in Lille gefordert - Roma in Bologna hinten",
+        "id": "https://www.kicker.de/live-watkins-koepft-fuer-villa-ein-roma-gleicht-in-bologna-aus-1200746/artikel#omrss",
+        "title": "LIVE! Watkins köpft für Villa ein - Roma gleicht in Bologna aus",
         "summary": "Die Europa-League-Saison biegt in ihre heiße Phase ein: Sechs Achtelfinal-Hinspiele ohne deutsche Beteiligung steigen am Donnerstagabend. Gibt es Stolpersteine für die Favoriten?",
         "paragraphs": [
           "Die Europa-League-Saison biegt in ihre heiße Phase ein: Sechs Achtelfinal-Hinspiele ohne deutsche Beteiligung steigen am Donnerstagabend. Gibt es Stolpersteine für die Favoriten?"
         ],
-        "link": "https://www.kicker.de/live-aston-villa-in-lille-gefordert-roma-in-bologna-hinten-1200746/artikel#omrss",
+        "link": "https://www.kicker.de/live-watkins-koepft-fuer-villa-ein-roma-gleicht-in-bologna-aus-1200746/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-12T19:01:23.000Z"
       },
@@ -489,17 +511,6 @@
         "link": "https://www.kicker.de/live-macht-freiburg-in-genk-den-ersten-schritt-richtung-viertelfinale-1200737/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-12T18:58:26.000Z"
-      },
-      {
-        "id": "{urn:uuid:6ee12cf0-fe00-429a-9556-960ef25df40d}",
-        "title": "Paralympische Winterspiele: Deutsches Team nimmt an der Abschlussfeier der Paralympics teil",
-        "summary": "Der Eröffnungsfeier der Paralympics war das deutsche Team noch ferngeblieben, unter anderem aus Solidarität mit der Ukraine. An der Schlussfeier nimmt Deutschland teil.",
-        "paragraphs": [
-          "Der Eröffnungsfeier der Paralympics war das deutsche Team noch ferngeblieben, unter anderem aus Solidarität mit der Ukraine. An der Schlussfeier nimmt Deutschland teil."
-        ],
-        "link": "https://www.zeit.de/sport/2026-03/paralympics-cortina-schlussfeier-deutsches-team-boykott",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-12T18:56:39.000Z"
       },
       {
         "id": "https://www.kicker.de/live-starker-auftritt-zverev-holt-sich-satz-1-mit-6-2-1200987/artikel#omrss",
@@ -601,13 +612,13 @@
         "publishedAt": "2026-03-12T17:38:38.000Z"
       },
       {
-        "id": "https://www.kicker.de/langlauf-sprint-rydzek-nach-sturz-frueh-raus-sorge-um-schwer-gestuerzten-klaebo-1201253/artikel#omrss",
-        "title": "Langlauf-Sprint: Rydzek nach Sturz früh raus - Sorge um schwer gestürzten Kläbo",
+        "id": "https://www.kicker.de/langlauf-sprint-rydzek-nach-sturz-frueh-raus-klaebos-serie-endet-schmerzhaft-1201253/artikel#omrss",
+        "title": "Langlauf-Sprint: Rydzek nach Sturz früh raus - Kläbos Serie endet schmerzhaft",
         "summary": "Bitteres Viertelfinal-Aus für Coletta Rydzek beim Weltcup in Drammen. Und auch für Superstar Johannes Hösflot Kläbo läuft es nicht rund.",
         "paragraphs": [
           "Bitteres Viertelfinal-Aus für Coletta Rydzek beim Weltcup in Drammen. Und auch für Superstar Johannes Hösflot Kläbo läuft es nicht rund."
         ],
-        "link": "https://www.kicker.de/langlauf-sprint-rydzek-nach-sturz-frueh-raus-sorge-um-schwer-gestuerzten-klaebo-1201253/artikel#omrss",
+        "link": "https://www.kicker.de/langlauf-sprint-rydzek-nach-sturz-frueh-raus-klaebos-serie-endet-schmerzhaft-1201253/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-12T17:38:03.000Z"
       },
@@ -624,7 +635,7 @@
       },
       {
         "id": "https://www.kicker.de/samsun-gegen-rayo-2026-europa-conference-league-5195178/spielbericht#omrss",
-        "title": "LIVE! Alvaro veredelt Konter: Rayo bei Finks Samsunspor vorne",
+        "title": "LIVE! Alemao sehenswert zum Doppelpack: Rayo baut Vorsprung bei Finks Samsunspor aus",
         "summary": "Im Achtelfinale der Conference League trifft Samsunspor auf Rayo Vallecano. Die Mannschaft des deutschen Trainers Thorsten Fink ist heute zunächst im eigenen Stadion gefordert, ehe es in der kommenden Woche nach Spanien geht.",
         "paragraphs": [
           "Im Achtelfinale der Conference League trifft Samsunspor auf Rayo Vallecano. Die Mannschaft des deutschen Trainers Thorsten Fink ist heute zunächst im eigenen Stadion gefordert, ehe es in der kommenden Woche nach Spanien geht."
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/geiles-spiel-erster-paralympics-sieg-im-eishockey-seit-20-jahren-1201242/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-12T17:04:07.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/van-der-poel-zum-zweiten-pellizzari-neuer-fuehrender-1201238/artikel#omrss",
-        "title": "Van der Poel zum Zweiten - Pellizzari neuer Führender",
-        "summary": "Jubel beim deutschen Team Red Bull-Bora-hansgrohe: Giulio Pellizzari hat nach der 4. Etappe die Führung bei Tirreno-Adriatico übernommen. Seinen zweiten Tagessieg feierte Mathieu van der Poel.",
-        "paragraphs": [
-          "Jubel beim deutschen Team Red Bull-Bora-hansgrohe: Giulio Pellizzari hat nach der 4. Etappe die Führung bei Tirreno-Adriatico übernommen. Seinen zweiten Tagessieg feierte Mathieu van der Poel."
-        ],
-        "link": "https://www.kicker.de/van-der-poel-zum-zweiten-pellizzari-neuer-fuehrender-1201238/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-12T16:44:28.000Z"
       }
     ],
     "edv": [
@@ -768,17 +768,6 @@
         "publishedAt": "2026-03-12T16:12:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Meta-Quest-Neuer-Algorithmus-macht-VR-Spiele-fluessiger-11208312.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Meta Quest: Neuer Algorithmus macht VR-Spiele flüssiger",
-        "summary": "Meta bringt mit „FrameSync“ eine verbesserte Bildsynchronisierungstechnik für Meta Quest. Sie kann Ruckler beseitigen und damit Motion Sickness eindämmen.",
-        "paragraphs": [
-          "Meta bringt mit „FrameSync“ eine verbesserte Bildsynchronisierungstechnik für Meta Quest. Sie kann Ruckler beseitigen und damit Motion Sickness eindämmen."
-        ],
-        "link": "https://www.heise.de/news/Meta-Quest-Neuer-Algorithmus-macht-VR-Spiele-fluessiger-11208312.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-12T15:49:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/OpenProject-17-2-integriert-MCP-Server-fuer-KI-gestuetzte-Projektarbeit-11208972.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Projektmanagement-Tool OpenProject 17.2 öffnet sich für KI-Systeme",
         "summary": "OpenProject 17.2 bringt einen MCP Server für die Anbindung von KI-Systemen, Meeting-Vorlagen, Budget-Widgets und mehrere Security-Fixes.",
@@ -786,6 +775,17 @@
           "OpenProject 17.2 bringt einen MCP Server für die Anbindung von KI-Systemen, Meeting-Vorlagen, Budget-Widgets und mehrere Security-Fixes."
         ],
         "link": "https://www.heise.de/news/OpenProject-17-2-integriert-MCP-Server-fuer-KI-gestuetzte-Projektarbeit-11208972.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-12T15:49:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Meta-Quest-Neuer-Algorithmus-macht-VR-Spiele-fluessiger-11208312.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Meta Quest: Neuer Algorithmus macht VR-Spiele flüssiger",
+        "summary": "Meta bringt mit „FrameSync“ eine verbesserte Bildsynchronisierungstechnik für Meta Quest. Sie kann Ruckler beseitigen und damit Motion Sickness eindämmen.",
+        "paragraphs": [
+          "Meta bringt mit „FrameSync“ eine verbesserte Bildsynchronisierungstechnik für Meta Quest. Sie kann Ruckler beseitigen und damit Motion Sickness eindämmen."
+        ],
+        "link": "https://www.heise.de/news/Meta-Quest-Neuer-Algorithmus-macht-VR-Spiele-fluessiger-11208312.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-12T15:49:00.000Z"
       },
