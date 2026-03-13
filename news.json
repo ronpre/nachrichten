@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-13T18:01:05.402Z",
+  "updatedAt": "2026-03-13T18:22:04.220Z",
   "categories": {
     "wirtschaft": [
       {
@@ -225,6 +225,17 @@
     ],
     "politik": [
       {
+        "id": "1fa54fa0-8a98-4a26-a129-3b2b95352b19",
+        "title": "Kanzler Friedrich Merz in Norwegen: Donald Trumps Ölspur im Schnee",
+        "summary": "Friedrich Merz möchte mit seinen Amtskollegen aus Norwegen und Kanada ein Zeichen der Stärke senden: Klar können sie den hohen Norden verteidigen. Doch der US-Präsident und sein Irankrieg stören die Inszenierung.",
+        "paragraphs": [
+          "Friedrich Merz möchte mit seinen Amtskollegen aus Norwegen und Kanada ein Zeichen der Stärke senden: Klar können sie den hohen Norden verteidigen. Doch der US-Präsident und sein Irankrieg stören die Inszenierung."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/kanzler-friedrich-merz-in-norwegen-donald-trumps-oelspur-im-schnee-a-1fa54fa0-8a98-4a26-a129-3b2b95352b19#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-03-13T18:08:00.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/steuerreform-kritik-an-aeusserungen-der-union-zum-hoeheren-spitzensteuersatz/100208236.html",
         "title": "Steuerreform: „Die Steuern müssen runter, nicht rauf“: Kritik an Äußerungen der Union zum höheren Spitzensteuersatz",
         "summary": "Teile der Union schließen einen höheren Spitzensteuersatz nicht mehr aus. Die Wirtschaft ist verärgert. Auch in der Union rumort es – allerdings nicht nur wegen der Forderung an sich.",
@@ -432,20 +443,42 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/cdu-gute-regierungsarbeit-kann-populismus-brechen/100207976.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-13T10:39:20.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/china-peking-erklaert-sechs-industrien-zu-neuen-saeulen-der-wirtschaft-01/100205490.html",
-        "title": "Fünfjahresplan: China erklärt sechs Industrien zu neuen Säulen seiner Wirtschaft – und strebt eine „Weltklasse-Armee“ an",
-        "summary": "Im neuen Fünfjahresplan setzt die Staatsführung noch stärker als bislang auf strategische Autonomie. Das Handelsblatt analysiert die sechs wichtigsten Inhalte – und zwei entscheidende Lücken.",
-        "paragraphs": [
-          "Im neuen Fünfjahresplan setzt die Staatsführung noch stärker als bislang auf strategische Autonomie. Das Handelsblatt analysiert die sechs wichtigsten Inhalte – und zwei entscheidende Lücken."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/china-peking-erklaert-sechs-industrien-zu-neuen-saeulen-der-wirtschaft-01/100205490.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-13T10:16:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/live-hrgota-mit-links-ins-kurze-eck-tolle-parade-von-schuhen-gegen-stalmach-1200734/artikel#omrss",
+        "title": "LIVE! Hrgota mit links ins kurze Eck - Tolle Parade von Schuhen gegen Stalmach",
+        "summary": "Sowohl der SV Darmstadt als auch die SV Elversberg haben mit einem Sieg heute Abend die Chance, auf Tabellenplatz 1 zu springen. Die Darmstädter müssen sich dafür in Magdeburg beweisen, Elversberg gastiert parallel in Fürth.",
+        "paragraphs": [
+          "Sowohl der SV Darmstadt als auch die SV Elversberg haben mit einem Sieg heute Abend die Chance, auf Tabellenplatz 1 zu springen. Die Darmstädter müssen sich dafür in Magdeburg beweisen, Elversberg gastiert parallel in Fürth."
+        ],
+        "link": "https://www.kicker.de/live-hrgota-mit-links-ins-kurze-eck-tolle-parade-von-schuhen-gegen-stalmach-1200734/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-13T18:17:30.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/der-silas-schock-rueckt-sieb-in-den-fokus-1201458/artikel#omrss",
+        "title": "Der Silas-Schock rückt Sieb in den Fokus",
+        "summary": "Die schwere Verletzung von Silas ist ein Tiefschlag für Mainz - und zugleich eine neue Chance für einen bis dato enttäuschenden Kollegen.",
+        "paragraphs": [
+          "Die schwere Verletzung von Silas ist ein Tiefschlag für Mainz - und zugleich eine neue Chance für einen bis dato enttäuschenden Kollegen."
+        ],
+        "link": "https://www.kicker.de/der-silas-schock-rueckt-sieb-in-den-fokus-1201458/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-13T18:07:09.000Z"
+      },
+      {
+        "id": "{urn:uuid:4c4e6048-d6af-442f-b625-b3bcee7c6e51}",
+        "title": "Paralympische Winterspiele: Deutsche Biathleten gewinnen drei Bronzemedaillen",
+        "summary": "Bei den Paralympics haben Deutschlands Biathleten dreimal Bronze gewonnen. Leonie Walter profitierte von einer Zeitgutschrift, Marco Maier haderte trotz Medaille.",
+        "paragraphs": [
+          "Bei den Paralympics haben Deutschlands Biathleten dreimal Bronze gewonnen. Leonie Walter profitierte von einer Zeitgutschrift, Marco Maier haderte trotz Medaille."
+        ],
+        "link": "https://www.zeit.de/sport/2026-03/anja-wicker-paralympische-winterspiele-biathlon-bronze",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-13T17:59:51.000Z"
+      },
       {
         "id": "https://www.kicker.de/rekord-olympiasieger-klaebo-erleidet-gehirnerschuetterung-1201471/artikel#omrss",
         "title": "Rekord-Olympiasieger Klaebo erleidet Gehirnerschütterung",
@@ -456,17 +489,6 @@
         "link": "https://www.kicker.de/rekord-olympiasieger-klaebo-erleidet-gehirnerschuetterung-1201471/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-13T17:56:28.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-pherai-koepft-knapp-vorbei-richter-prueft-reimann-1200734/artikel#omrss",
-        "title": "LIVE! Pherai köpft knapp vorbei - Richter prüft Reimann",
-        "summary": "Sowohl der SV Darmstadt als auch die SV Elversberg haben mit einem Sieg heute Abend die Chance, auf Tabellenplatz 1 zu springen. Die Darmstädter müssen sich dafür in Magdeburg beweisen, Elversberg gastiert parallel in Fürth.",
-        "paragraphs": [
-          "Sowohl der SV Darmstadt als auch die SV Elversberg haben mit einem Sieg heute Abend die Chance, auf Tabellenplatz 1 zu springen. Die Darmstädter müssen sich dafür in Magdeburg beweisen, Elversberg gastiert parallel in Fürth."
-        ],
-        "link": "https://www.kicker.de/live-pherai-koepft-knapp-vorbei-richter-prueft-reimann-1200734/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-13T17:49:49.000Z"
       },
       {
         "id": "{urn:uuid:f1378508-2be6-4721-acf4-32d9db56bc11}",
@@ -513,6 +535,17 @@
         "publishedAt": "2026-03-13T17:00:00.000Z"
       },
       {
+        "id": "https://www.kicker.de/live-rueckt-jena-lok-leipzig-auf-die-pelle-chemie-mit-rueckenwind-beim-bfc-dynamo-1195286/artikel#omrss",
+        "title": "LIVE! Rückt Jena Lok Leipzig auf die Pelle? - Chemie mit Rückenwind beim BFC Dynamo",
+        "summary": "Drei Partien stehen zum Auftakt des 26. Spieltages der Regionalliga Nordost auf dem Programm. Jena will den Druck auf Spitzenreiter Lok Leipzig erhöhen, während die formstarke BSG Chemie Leipzig im Kellerduell beim BFC Dynamo zu Gast ist.",
+        "paragraphs": [
+          "Drei Partien stehen zum Auftakt des 26. Spieltages der Regionalliga Nordost auf dem Programm. Jena will den Druck auf Spitzenreiter Lok Leipzig erhöhen, während die formstarke BSG Chemie Leipzig im Kellerduell beim BFC Dynamo zu Gast ist."
+        ],
+        "link": "https://www.kicker.de/live-rueckt-jena-lok-leipzig-auf-die-pelle-chemie-mit-rueckenwind-beim-bfc-dynamo-1195286/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-13T16:53:38.000Z"
+      },
+      {
         "id": "bfd8763b-6ac4-40b4-bb0c-7ee158302d01",
         "title": "Paralympics 2026: Snowboard – Brenna Huckaby löst Grenzen auf",
         "summary": "Die US-amerikanische Snowboarderin Brenna Huckaby ist eine der schillerndsten Athletinnen der Paralympics. Auf der Piste, aber vor allem auch daneben.",
@@ -536,7 +569,7 @@
       },
       {
         "id": "https://www.kicker.de/freiburg-gegen-nuernberg-2026-frauen-bundesliga-5076330/spielbericht#omrss",
-        "title": "LIVE! Nürnberg gastiert beim heimstarken Freiburg",
+        "title": "LIVE! Ojukwu bringt Freiburg in Führung",
         "summary": "Mit einem Auge schielt Freiburg noch auf die Champions-League-Qualifikation. Mit einem Sieg gegen Aufsteiger 1. FC Nürnberg kann der Sport-Club diese Ambition unterstreichen. Der Club muss indes in der Innenverteidigung umbauen.",
         "paragraphs": [
           "Mit einem Auge schielt Freiburg noch auf die Champions-League-Qualifikation. Mit einem Sieg gegen Aufsteiger 1. FC Nürnberg kann der Sport-Club diese Ambition unterstreichen. Der Club muss indes in der Innenverteidigung umbauen."
@@ -628,39 +661,6 @@
         "link": "https://www.spiegel.de/sport/formel1/formel-1-rennen-in-bahrain-und-saudi-arabien-wegen-des-irankrieges-offenbar-abgesagt-a-597a5ba7-05e6-4f04-9217-f4a9b9e5f34c#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-03-13T15:37:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/lfc-braunschweig-kroent-sich-zum-proleague-champion-1201361/artikel#omrss",
-        "title": "LFC Braunschweig krönt sich zum ProLeague-Champion",
-        "summary": "Die Löwen waren nicht zu bändigen: Nach einem langen Abend und einem dramatischen Elfmeter-Finale darf sich der LFC Braunschweig Deutscher Meister der ProLeague Championship nennen.",
-        "paragraphs": [
-          "Die Löwen waren nicht zu bändigen: Nach einem langen Abend und einem dramatischen Elfmeter-Finale darf sich der LFC Braunschweig Deutscher Meister der ProLeague Championship nennen."
-        ],
-        "link": "https://www.kicker.de/lfc-braunschweig-kroent-sich-zum-proleague-champion-1201361/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-13T15:36:50.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/happy-end-mit-verspaetung-walter-holt-erneut-bronze-1201447/artikel#omrss",
-        "title": "Happy End mit Verspätung: Walter holt erneut Bronze",
-        "summary": "Leonie Maria Walter hat sich nach einem erneuten Drama im Biathlon ihre dritte Bronzemedaille bei den Paralympics in Norditalien gesichert.",
-        "paragraphs": [
-          "Leonie Maria Walter hat sich nach einem erneuten Drama im Biathlon ihre dritte Bronzemedaille bei den Paralympics in Norditalien gesichert."
-        ],
-        "link": "https://www.kicker.de/happy-end-mit-verspaetung-walter-holt-erneut-bronze-1201447/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-13T15:34:41.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/viel-monetarisierung-wenig-fortschritt-wwe-2k26-im-test-1200489/artikel#omrss",
-        "title": "Viel Monetarisierung, wenig Fortschritt: WWE 2K26 im Test",
-        "summary": "2023 fand WWE 2K zu alter Stärke zurück - 2026 ist von diesem Hype nur noch wenig übrig. Der neueste Teil der Reihe fühlt sich eher nach Stillstand an. Negativ sticht vorwiegend der neue Ringside-Pass hervor.",
-        "paragraphs": [
-          "2023 fand WWE 2K zu alter Stärke zurück - 2026 ist von diesem Hype nur noch wenig übrig. Der neueste Teil der Reihe fühlt sich eher nach Stillstand an. Negativ sticht vorwiegend der neue Ringside-Pass hervor."
-        ],
-        "link": "https://www.kicker.de/viel-monetarisierung-wenig-fortschritt-wwe-2k26-im-test-1200489/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-13T15:23:01.000Z"
       }
     ],
     "edv": [
