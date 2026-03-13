@@ -1,13 +1,24 @@
 {
-  "updatedAt": "2026-03-13T08:46:05.898Z",
+  "updatedAt": "2026-03-13T09:04:04.711Z",
   "categories": {
     "wirtschaft": [
       {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/opel-mutter-stellantis-prueft-wohl-kooperation-mit-chinesischen-konkurrenten-in-europa/100208157.html",
-        "title": "Opel-Mutter: Stellantis prüft wohl Kooperation mit chinesischen Konkurrenten in Europa",
-        "summary": "Der Opel-Mutterkonzern stellt seine Investitionen in Europa offenbar auf den Prüfstand. Laut einem Bericht verhandelt Stellantis mit Xiaomi und Xpeng – auch über einen Verkauf von Marken.",
+        "id": "{urn:uuid:c4b4bea4-5de0-4073-a7f2-fcc1dc578780}",
+        "title": "Insolvenz: Zahl der Insolvenzen steigt auf höchsten Stand seit 2014",
+        "summary": "Die Firmenpleiten in Deutschland sind auf das höchste Niveau seit elf Jahren gestiegen. Trotz der gestiegenen Zahl sanken jedoch die Forderungen an Gläubiger.",
         "paragraphs": [
-          "Der Opel-Mutterkonzern stellt seine Investitionen in Europa offenbar auf den Prüfstand. Laut einem Bericht verhandelt Stellantis mit Xiaomi und Xpeng – auch über einen Verkauf von Marken."
+          "Die Firmenpleiten in Deutschland sind auf das höchste Niveau seit elf Jahren gestiegen. Trotz der gestiegenen Zahl sanken jedoch die Forderungen an Gläubiger."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-03/firmenpleiten-insolvenz-finanzkrise-glaeubiger-grosspleite",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-13T08:50:51.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/opel-mutter-stellantis-prueft-wohl-kooperation-mit-chinesischen-konkurrenten-in-europa/100208157.html",
+        "title": "Opel-Mutter: Stellantis stellt Europageschäft auf den Prüfstand – und spricht mit chinesischen Konkurrenten",
+        "summary": "Das Europageschäft des Opel-Mutterkonzerns hat sich zuletzt schwach entwickelt. Laut einem Bericht verhandelt Stellantis mit Xiaomi und Xpeng – auch über Anteile an den Marken.",
+        "paragraphs": [
+          "Das Europageschäft des Opel-Mutterkonzerns hat sich zuletzt schwach entwickelt. Laut einem Bericht verhandelt Stellantis mit Xiaomi und Xpeng – auch über Anteile an den Marken."
         ],
         "link": "https://www.handelsblatt.com/unternehmen/industrie/opel-mutter-stellantis-prueft-wohl-kooperation-mit-chinesischen-konkurrenten-in-europa/100208157.html",
         "source": "Handelsblatt",
@@ -89,17 +100,6 @@
         "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/iran-krieg-keine-aussicht-auf-entspannung-oelpreise-weiterhin-hoch/100208079.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-13T08:23:16.000Z"
-      },
-      {
-        "id": "{urn:uuid:c4b4bea4-5de0-4073-a7f2-fcc1dc578780}",
-        "title": "Insolvenz: Zahl der Insolvenzen steigt auf höchsten Stand seit 2014",
-        "summary": "Die Firmenpleiten in Deutschland sind auf das höchste Niveau seit elf Jahren gestiegen. Trotz der gestiegenen Zahl sanken jedoch die Forderungen an Gläubiger.",
-        "paragraphs": [
-          "Die Firmenpleiten in Deutschland sind auf das höchste Niveau seit elf Jahren gestiegen. Trotz der gestiegenen Zahl sanken jedoch die Forderungen an Gläubiger."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-03/firmenpleiten-insolvenz-finanzkrise-glaeubiger-grosspleite",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-13T08:14:36.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/luxusuhren-diese-modelle-haben-im-wert-zugelegt-eine-marke-ist-nicht-dabei/100203414.html",
@@ -447,13 +447,13 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/lassen-den-verein-nicht-im-stich-riesselmanns-treueschwur-gegenueber-emden-1201329/artikel#omrss",
-        "title": "\"Lassen den Verein nicht im Stich\": Rießelmanns Treueschwur gegenüber Emden",
+        "id": "https://www.kicker.de/lassen-den-verein-nicht-im-stich-riesselmann-bekennt-sich-zu-kickers-emden-1201329/artikel#omrss",
+        "title": "\"Lassen den Verein nicht im Stich\": Rießelmann bekennt sich zu Kickers Emden",
         "summary": "Nach dem gescheiterten Ausgliederungsversuch stand der BSV Kickers Emden vor offenen Zukunftsfragen. Am Donnerstagabend meldete sich Manager Henning Rießelmann mit einer Stellungnahme zu Wort.",
         "paragraphs": [
           "Nach dem gescheiterten Ausgliederungsversuch stand der BSV Kickers Emden vor offenen Zukunftsfragen. Am Donnerstagabend meldete sich Manager Henning Rießelmann mit einer Stellungnahme zu Wort."
         ],
-        "link": "https://www.kicker.de/lassen-den-verein-nicht-im-stich-riesselmanns-treueschwur-gegenueber-emden-1201329/artikel#omrss",
+        "link": "https://www.kicker.de/lassen-den-verein-nicht-im-stich-riesselmann-bekennt-sich-zu-kickers-emden-1201329/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-13T08:40:55.000Z"
       },
@@ -669,6 +669,28 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Fahrradmarkt-2025-Branche-hofft-nach-Umsatzrueckgang-auf-neues-Normal-11209904.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Fahrradmarkt 2025: Branche hofft nach Umsatzrückgang auf „neues Normal“",
+        "summary": "Die deutsche Fahrradwirtschaft hofft nach einem schwachen Jahr 2025 auf bessere Geschäfte – und neue Chancen.",
+        "paragraphs": [
+          "Die deutsche Fahrradwirtschaft hofft nach einem schwachen Jahr 2025 auf bessere Geschäfte – und neue Chancen."
+        ],
+        "link": "https://www.heise.de/news/Fahrradmarkt-2025-Branche-hofft-nach-Umsatzrueckgang-auf-neues-Normal-11209904.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-13T08:58:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Veeam-Backup-Replication-Updates-schliessen-Schadcode-Schmuggel-Luecken-11209818.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Veeam Backup & Replication: Updates schließen Schadcode-Schmuggel-Lücken",
+        "summary": "In Veeam Backup & Replication schließt das Unternehmen mit Updates mehrere kritische Sicherheitslücken. Sie erlauben Codeschmuggel.",
+        "paragraphs": [
+          "In Veeam Backup & Replication schließt das Unternehmen mit Updates mehrere kritische Sicherheitslücken. Sie erlauben Codeschmuggel."
+        ],
+        "link": "https://www.heise.de/news/Veeam-Backup-Replication-Updates-schliessen-Schadcode-Schmuggel-Luecken-11209818.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-13T08:55:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Sicherheitsluecke-in-Ally-WordPress-Plugin-gefaehrdet-400-000-Websites-11209892.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Sicherheitslücke in „Ally“ WordPress Plugin gefährdet 400.000 Websites",
         "summary": "Angreifer können über eine Schwachstelle im WordPress-Plugin „Ally“ eigene Befehle ausführen. Admins sollten den Sicherheitspatch installieren.",
@@ -865,28 +887,6 @@
         "link": "https://www.heise.de/hintergrund/Humanoide-Roboter-in-der-Autoindustrie-BMW-testet-in-USA-und-Deutschland-11203724.html",
         "source": "c't",
         "publishedAt": "2026-03-13T06:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Chrome-Notfallupdate-Zwei-attackierte-Codeschmuggel-Luecken-gestopft-11209626.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Chrome-Notfallupdate: Zwei attackierte Codeschmuggel-Lücken gestopft",
-        "summary": "Google hat in der Nacht zum Freitag ein Notfallupdate für Chrome herausgegeben. Es stopft zwei im Internet angegriffene Sicherheitslecks.",
-        "paragraphs": [
-          "Google hat in der Nacht zum Freitag ein Notfallupdate für Chrome herausgegeben. Es stopft zwei im Internet angegriffene Sicherheitslecks."
-        ],
-        "link": "https://www.heise.de/news/Chrome-Notfallupdate-Zwei-attackierte-Codeschmuggel-Luecken-gestopft-11209626.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-13T05:51:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Freitag-Hondas-Kurswechsel-bei-Elektroautos-Google-Maps-bald-mit-Gemini-KI-11209620.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Freitag: Hondas Kurswechsel bei Elektroautos, Google Maps bald mit Gemini-KI",
-        "summary": "Abkündigung geplanter E-Autos + Maps-Suche und -Navigation per KI + Atlassian-Entlassungen wegen KI + FPGA-Modul aus Deutschland + Datenschutz der EUDI-Wallet",
-        "paragraphs": [
-          "Abkündigung geplanter E-Autos + Maps-Suche und -Navigation per KI + Atlassian-Entlassungen wegen KI + FPGA-Modul aus Deutschland + Datenschutz der EUDI-Wallet"
-        ],
-        "link": "https://www.heise.de/news/Freitag-Hondas-Kurswechsel-bei-Elektroautos-Google-Maps-bald-mit-Gemini-KI-11209620.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-13T05:15:00.000Z"
       }
     ]
   }
