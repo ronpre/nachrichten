@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-14T17:41:52.848Z",
+  "updatedAt": "2026-03-14T17:56:47.824Z",
   "categories": {
     "wirtschaft": [
       {
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "{urn:uuid:bc1df7f7-fd10-48b0-abde-340276237531}",
+        "title": "Bundesliga, 26. Spieltag – Samstag: Bayern erkämpft Punkt in Leverkusen, Wolfsburg erzielt Teilerfolg",
+        "summary": "Trotz früher Leverkusener Führung wenden die Münchener in Unterzahl ihre erste Auswärtsniederlage ab. Wolfsburg holt einen Punkt in Sinsheim. Die Spielberichte",
+        "paragraphs": [
+          "Trotz früher Leverkusener Führung wenden die Münchener in Unterzahl ihre erste Auswärtsniederlage ab. Wolfsburg holt einen Punkt in Sinsheim. Die Spielberichte"
+        ],
+        "link": "https://www.zeit.de/sport/2026-03/bundesliga-26-spieltag-samstag-bayern-leverkusen",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-14T17:42:52.000Z"
+      },
+      {
         "id": "li.3452446",
         "title": "Leverkusens 1:1 gegen Bayern: Ein Brachialakt von einem Fußballspiel",
         "summary": "Zwei Münchner Platzverweise, aberkannte Tore und ein starker Sven Ulreich: Die Bayern sind nach einem turbulenten Spiel in Leverkusen froh über ein Remis – der Schiedsrichter muss sich einiges anhören.",
@@ -513,17 +524,6 @@
         "publishedAt": "2026-03-14T17:00:20.000Z"
       },
       {
-        "id": "{urn:uuid:bc1df7f7-fd10-48b0-abde-340276237531}",
-        "title": "Bundesliga, 26. Spieltag – Samstag: Bayern erkämpft Punkt in Leverkusen, Wolfsburg erzielt Teilerfolg",
-        "summary": "Trotz früher Leverkusener Führung wenden die Münchener in Unterzahl ihre erste Auswärtsniederlage ab. Wolfsburg holt einen Punkt in Sinsheim. Die Spielberichte",
-        "paragraphs": [
-          "Trotz früher Leverkusener Führung wenden die Münchener in Unterzahl ihre erste Auswärtsniederlage ab. Wolfsburg holt einen Punkt in Sinsheim. Die Spielberichte"
-        ],
-        "link": "https://www.zeit.de/sport/2026-03/bundesliga-26-spieltag-samstag-bayern-leverkusen",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-14T16:57:52.000Z"
-      },
-      {
         "id": "li.3452445",
         "title": "26. Spieltag der Bundesliga: Hoffenheim verdirbt Heckings Debüt, der BVB feiert einen 18-Jährigen",
         "summary": "Lange sieht es für den VfL gut aus mit dem neuen Nothelfer auf der Trainerbank, doch dann folgt ein Kopfball der TSG. Beim BVB überrascht ein Italiener und in Frankfurt geht es vorwärts. Das Wichtigste zum Spieltag.",
@@ -558,7 +558,7 @@
       },
       {
         "id": "https://www.kicker.de/arsenal-gegen-everton-2026-premier-league-5045294/spielbericht#omrss",
-        "title": "LIVE! Stolpert Arsenal gegen die Auswärtsexperten? - Havertz in der Startelf",
+        "title": "LIVE! Dominantes Arsenal mit ersten Warnschüssen - Pickford rettet auf der Linie",
         "summary": "Zwischen den Champions-League-Duellen mit Leverkusen ist Premier-League-Primus Arsenal gegen den FC Everton gefordert - der zuletzt zwei Siege am Stück feierte und auswärts bärenstark ist.",
         "paragraphs": [
           "Zwischen den Champions-League-Duellen mit Leverkusen ist Premier-League-Primus Arsenal gegen den FC Everton gefordert - der zuletzt zwei Siege am Stück feierte und auswärts bärenstark ist."
@@ -645,13 +645,13 @@
         "publishedAt": "2026-03-14T15:53:54.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-verruecktes-springen-am-holmenkollen-raimund-und-prevc-ausgeschieden-1201188/artikel#omrss",
-        "title": "LIVE! Verrücktes Springen am Holmenkollen: Raimund und Prevc ausgeschieden",
-        "summary": "Der legendäre Holmenkollen zu Oslo ist am Samstag und Sonntag Schauplatz zweier Einzelspringen bei den Herren.",
+        "id": "https://www.kicker.de/verruecktes-springen-am-holmenkollen-raimund-und-prevc-scheiden-aus-deschwanden-siegt-historisch-1201188/artikel#omrss",
+        "title": "Verrücktes Springen am Holmenkollen: Raimund und Prevc scheiden aus - Deschwanden siegt historisch",
+        "summary": "Schwierige Wind-Bedingungen in Oslo: Olympiasieger Philipp Raimund und Gesamtweltcupsieger Domen Prevc schieden völlig überraschend früh aus. Der historische Gewinner kommt aus der Schweiz.",
         "paragraphs": [
-          "Der legendäre Holmenkollen zu Oslo ist am Samstag und Sonntag Schauplatz zweier Einzelspringen bei den Herren."
+          "Schwierige Wind-Bedingungen in Oslo: Olympiasieger Philipp Raimund und Gesamtweltcupsieger Domen Prevc schieden völlig überraschend früh aus. Der historische Gewinner kommt aus der Schweiz."
         ],
-        "link": "https://www.kicker.de/live-verruecktes-springen-am-holmenkollen-raimund-und-prevc-ausgeschieden-1201188/artikel#omrss",
+        "link": "https://www.kicker.de/verruecktes-springen-am-holmenkollen-raimund-und-prevc-scheiden-aus-deschwanden-siegt-historisch-1201188/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-14T15:46:11.000Z"
       },
@@ -768,17 +768,6 @@
         "publishedAt": "2026-03-14T09:58:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Identitaeten-in-Entra-ID-mit-Conditional-Access-Policies-schuetzen-11194753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Identitäten in Entra ID mit Conditional Access Policies schützen",
-        "summary": "Erfahren Sie, wie Sie die Zero-Trust-Architektur mit Zugriffsrichtlinien in Entra ID umsetzen und so Ihr Unternehmensnetzwerk effektiv schützen.",
-        "paragraphs": [
-          "Erfahren Sie, wie Sie die Zero-Trust-Architektur mit Zugriffsrichtlinien in Entra ID umsetzen und so Ihr Unternehmensnetzwerk effektiv schützen."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-Identitaeten-in-Entra-ID-mit-Conditional-Access-Policies-schuetzen-11194753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-14T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Ausverkauf-und-die-Rettung-des-schoenen-Bildes-die-Fotonews-der-Woche-11-26-11210712.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Ausverkauf und die Rettung des schönen Bildes – die Fotonews der Woche 11/26",
         "summary": "Ein britischer Landkreis verscherbelt ein bedeutendes Fotoarchiv, Streit über Technik versus Kunst, und der Markt belohnt ausgerechnet das Unperfekte.",
@@ -786,6 +775,17 @@
           "Ein britischer Landkreis verscherbelt ein bedeutendes Fotoarchiv, Streit über Technik versus Kunst, und der Markt belohnt ausgerechnet das Unperfekte."
         ],
         "link": "https://www.heise.de/news/Ausverkauf-und-die-Rettung-des-schoenen-Bildes-die-Fotonews-der-Woche-11-26-11210712.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-14T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-Identitaeten-in-Entra-ID-mit-Conditional-Access-Policies-schuetzen-11194753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Identitäten in Entra ID mit Conditional Access Policies schützen",
+        "summary": "Erfahren Sie, wie Sie die Zero-Trust-Architektur mit Zugriffsrichtlinien in Entra ID umsetzen und so Ihr Unternehmensnetzwerk effektiv schützen.",
+        "paragraphs": [
+          "Erfahren Sie, wie Sie die Zero-Trust-Architektur mit Zugriffsrichtlinien in Entra ID umsetzen und so Ihr Unternehmensnetzwerk effektiv schützen."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Identitaeten-in-Entra-ID-mit-Conditional-Access-Policies-schuetzen-11194753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-14T09:00:00.000Z"
       },
