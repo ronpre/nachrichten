@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-15T11:12:43.846Z",
+  "updatedAt": "2026-03-15T11:30:56.354Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:265b6808-c4eb-44f8-affb-80cc93c5b56d}",
+        "title": "Insel Charg: Die bedrohte Kultur der Insel Charg",
+        "summary": "Das von den USA bombardierte Eiland ist nicht nur das wirtschaftliche Kronjuwel des Iran, es birgt auch ungeahnte kulturelle Schätze. Ein Forscher berichtet",
+        "paragraphs": [
+          "Das von den USA bombardierte Eiland ist nicht nur das wirtschaftliche Kronjuwel des Iran, es birgt auch ungeahnte kulturelle Schätze. Ein Forscher berichtet"
+        ],
+        "link": "https://www.zeit.de/wirtschaft/ausland/2026-03/insel-charg-einwohner-forscher-sprache-usa-bombardement",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-15T11:13:57.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-europa-sucht-alternativen-zum-us-marschflugkoerper-tomahawk/100207138.html",
         "title": "Marschflugkörper: Elsa, Taurus, Flamingo – So will Europa die amerikanischen Tomahawks langfristig ersetzen",
@@ -210,17 +221,6 @@
         "link": "https://www.spiegel.de/wirtschaft/iran-krieg-und-oelpreise-war-es-das-mit-dem-aufschwung-a-28757482-9fd3-4325-abba-59d8bc4804ee#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-03-14T15:40:00.000Z"
-      },
-      {
-        "id": "45af7dd8-7cc7-4193-a213-0024fd8b25a8",
-        "title": "Autoindustrie: IG Metall gewinnt Betriebsratswahlen bei VW",
-        "summary": "Die IG Metall musste in der Autoindustrie zuletzt viele schmerzhafte Kompromisse schließen. Ihre starke Stellung in den Betriebsräten der Branche verteidigt die Gewerkschaft aber.",
-        "paragraphs": [
-          "Die IG Metall musste in der Autoindustrie zuletzt viele schmerzhafte Kompromisse schließen. Ihre starke Stellung in den Betriebsräten der Branche verteidigt die Gewerkschaft aber."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/unternehmen/autoindustrie-ig-metall-gewinnt-betriebsratswahlen-bei-vw-a-45af7dd8-7cc7-4193-a213-0024fd8b25a8#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-03-14T15:24:00.000Z"
       }
     ],
     "politik": [
@@ -447,15 +447,48 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-rydzek-abschied-und-schlussakkord-der-nordischen-kombinierer-1201193/artikel#omrss",
-        "title": "LIVE! Rydzek-Abschied und Schlussakkord der Nordischen Kombinierer",
+        "id": "https://www.kicker.de/live-was-macht-rydzek-in-seinem-letzten-lauf-lamparter-fuehrt-nach-dem-springen-1201193/artikel#omrss",
+        "title": "LIVE! Was macht Rydzek in seinem letzten Lauf? - Lamparter führt nach dem Springen",
         "summary": "In Johannes Lamparter steht der Gesamt-Weltcupsieger bereits fest. Beim letzten Wettbewerb von Johannes Rydzek hat Julian Schmid noch sanfte Hoffnungen auf Platz 3 in der Gesamtwertung.",
         "paragraphs": [
           "In Johannes Lamparter steht der Gesamt-Weltcupsieger bereits fest. Beim letzten Wettbewerb von Johannes Rydzek hat Julian Schmid noch sanfte Hoffnungen auf Platz 3 in der Gesamtwertung."
         ],
-        "link": "https://www.kicker.de/live-rydzek-abschied-und-schlussakkord-der-nordischen-kombinierer-1201193/artikel#omrss",
+        "link": "https://www.kicker.de/live-was-macht-rydzek-in-seinem-letzten-lauf-lamparter-fuehrt-nach-dem-springen-1201193/artikel#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-15T11:04:23.000Z"
+        "publishedAt": "2026-03-15T11:26:07.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/inverse-fluegelzange-fuettert-sesko-carricks-manunited-in-fc-26-1201051/video#omrss",
+        "title": "Inverse Flügelzange füttert Sesko: Carricks ManUnited in FC 26",
+        "summary": "Michael Carrick scheint Manchester United wachgeküsst zu haben. Unter der Ikone gewannen die Red Devils sechs ihrer letzten acht Spiele. Eine Erfolgsstory, die ihr dank Coach 'Bono' in FC 26 ausbauen könnt.",
+        "paragraphs": [
+          "Michael Carrick scheint Manchester United wachgeküsst zu haben. Unter der Ikone gewannen die Red Devils sechs ihrer letzten acht Spiele. Eine Erfolgsstory, die ihr dank Coach 'Bono' in FC 26 ausbauen könnt."
+        ],
+        "link": "https://www.kicker.de/inverse-fluegelzange-fuettert-sesko-carricks-manunited-in-fc-26-1201051/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-15T11:26:04.000Z"
+      },
+      {
+        "id": "li.3452980",
+        "title": "Proteste nach Leverkusen-Spiel: Der Geist von Real Madrid umweht die Bayern",
+        "summary": "Sogar Uli Hoeneß meldet sich: Die Münchner beschweren sich beim 1:1 in Leverkusen über nahezu jede missliebige Entscheidung des Referees. Dabei eignet sich das Spiel nicht für Grundsatzkritik.",
+        "paragraphs": [
+          "Sogar Uli Hoeneß meldet sich: Die Münchner beschweren sich beim 1:1 in Leverkusen über nahezu jede missliebige Entscheidung des Referees. Dabei eignet sich das Spiel nicht für Grundsatzkritik."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/bayern-leverkusen-schiedsrichter-dingert-proteste-hoeness-li.3452980",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-03-15T11:18:37.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-schalke-wieder-mit-karius-kellerkrimi-in-dresden-1200821/artikel#omrss",
+        "title": "LIVE! Schalke wieder mit Karius - Kellerkrimi in Dresden",
+        "summary": "Ein Sonntagmittag voller Highlights: Im Tabellenkeller kommt es in Dresden zum direkten Duell zwischen Dynamo und Münster. Am anderen Ende der Tabelle stellt sich die Frage, ob Hannover zum Stolperstein für S04 werden kann. Kaiserslautern empfängt dazu den KSC zum Südwestderby.",
+        "paragraphs": [
+          "Ein Sonntagmittag voller Highlights: Im Tabellenkeller kommt es in Dresden zum direkten Duell zwischen Dynamo und Münster. Am anderen Ende der Tabelle stellt sich die Frage, ob Hannover zum Stolperstein für S04 werden kann. Kaiserslautern empfängt dazu den KSC zum Südwestderby."
+        ],
+        "link": "https://www.kicker.de/live-schalke-wieder-mit-karius-kellerkrimi-in-dresden-1200821/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-15T11:12:07.000Z"
       },
       {
         "id": "https://www.kicker.de/live-dsv-mit-strelow-und-voigt-in-der-letzten-single-mixed-staffel-1201609/artikel#omrss",
@@ -533,6 +566,17 @@
         "link": "https://www.kicker.de/britischer-langlaeufer-nach-50-km-rennen-ich-bin-ziemlich-betrunken-1201871/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-15T10:24:10.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/bundestrainer-lange-wird-nach-niederlage-deutlich-in-jeder-hinsicht-klar-besser-1201846/artikel#omrss",
+        "title": "Bundestrainer Lange wird nach Niederlage deutlich: \"In jeder Hinsicht klar besser\"",
+        "summary": "Die deutschen Basketballerinnen haben in der WM-Qualifikation ihre erste Niederlage hinnehmen müssen. Gegen die Gastgeberinnen aus Frankreich unterlag die DBB-Auswahl deutlich.",
+        "paragraphs": [
+          "Die deutschen Basketballerinnen haben in der WM-Qualifikation ihre erste Niederlage hinnehmen müssen. Gegen die Gastgeberinnen aus Frankreich unterlag die DBB-Auswahl deutlich."
+        ],
+        "link": "https://www.kicker.de/bundestrainer-lange-wird-nach-niederlage-deutlich-in-jeder-hinsicht-klar-besser-1201846/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-15T10:06:59.000Z"
       },
       {
         "id": "https://www.kicker.de/ausfall-auf-unbestimmte-zeit-bayern-talent-mike-muss-unters-messer-1201860/artikel#omrss",
@@ -621,56 +665,23 @@
         "link": "https://www.sueddeutsche.de/sport/formel-1-rennen-china-mercedes-antonelli-russell-hamilton-li.3452976",
         "source": "Sueddeutsche",
         "publishedAt": "2026-03-15T08:56:40.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/trotz-schwieriger-anreise-irak-tritt-zu-play-offs-in-mexiko-an-1201845/artikel#omrss",
-        "title": "Trotz schwieriger Anreise: Irak tritt zu Play-offs in Mexiko an",
-        "summary": "Trotz geschlossener Lufträume und politischer Spannungen setzt Adnan Dirjal alles daran, dass Irak in Mexiko um das WM-Ticket kämpft. Es wäre die die erste Endrunden-Teilnahme seit 1986.",
-        "paragraphs": [
-          "Trotz geschlossener Lufträume und politischer Spannungen setzt Adnan Dirjal alles daran, dass Irak in Mexiko um das WM-Ticket kämpft. Es wäre die die erste Endrunden-Teilnahme seit 1986."
-        ],
-        "link": "https://www.kicker.de/trotz-schwieriger-anreise-irak-tritt-zu-play-offs-in-mexiko-an-1201845/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-15T08:55:49.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/free-agency-im-liveticker-giants-holen-mooney-titans-bauen-ridley-vertrag-um-1198606/artikel#omrss",
-        "title": "Free Agency im Liveticker: Giants holen Mooney, Titans bauen Ridley-Vertrag um",
-        "summary": "Eine der aufregendsten Phasen der NFL-Offseason ist eröffnet: Die Free Agency. Die ersten großen Deals sind bereits über die Bühne gegangen, doch weitere warten. Wir blicken gespannt auf das große Spieler-Karussell.",
-        "paragraphs": [
-          "Eine der aufregendsten Phasen der NFL-Offseason ist eröffnet: Die Free Agency. Die ersten großen Deals sind bereits über die Bühne gegangen, doch weitere warten. Wir blicken gespannt auf das große Spieler-Karussell."
-        ],
-        "link": "https://www.kicker.de/free-agency-im-liveticker-giants-holen-mooney-titans-bauen-ridley-vertrag-um-1198606/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-15T08:51:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/grand-prix-von-china-2026-2/1201064/formel1-rennbericht#omrss",
-        "title": "Antonelli feiert ersten Formel-1-Sieg - Debakel für McLaren",
-        "summary": "Mercedes dominiert auch beim zweiten Formel-1-Rennen der Saison. Youngster Kimi Antonelli triumphiert in Shanghai erstmals - Max Verstappen erlebt den nächsten Tiefschlag, ebenso McLaren.",
-        "paragraphs": [
-          "Mercedes dominiert auch beim zweiten Formel-1-Rennen der Saison. Youngster Kimi Antonelli triumphiert in Shanghai erstmals - Max Verstappen erlebt den nächsten Tiefschlag, ebenso McLaren."
-        ],
-        "link": "https://www.kicker.de/grand-prix-von-china-2026-2/1201064/formel1-rennbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-15T08:44:09.000Z"
-      },
-      {
-        "id": "6159dbd8-dbe1-4a25-8cb0-3b67d827be74",
-        "title": "Formel 1 in China: Mercedes-Hoffnungsträger Andrea Antonelli feiert ersten Sieg",
-        "summary": "Am Samstag hatte er sich die erste Poleposition seiner Karriere gesichert, nun legt der 19-Jährige nach: Andrea Antonelli gewinnt sein erstes Formel-1-Rennen. Jünger bei einem Rennerfolg war bislang nur Max Verstappen.",
-        "paragraphs": [
-          "Am Samstag hatte er sich die erste Poleposition seiner Karriere gesichert, nun legt der 19-Jährige nach: Andrea Antonelli gewinnt sein erstes Formel-1-Rennen. Jünger bei einem Rennerfolg war bislang nur Max Verstappen."
-        ],
-        "link": "https://www.spiegel.de/sport/formel1/formel-1-in-china-mercedes-hoffnungstraeger-andrea-antonelli-feiert-ersten-sieg-a-6159dbd8-dbe1-4a25-8cb0-3b67d827be74#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-03-15T08:44:00.000Z"
       }
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Klagen-von-Passagieren-wegen-Flugverspaetungen-fordern-Justiz-heraus-11211464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Klagen von Passagieren wegen Flugverspätungen fordern Justiz heraus",
+        "summary": "Verspätete oder stornierte Flüge führen zu einer Klagewelle an deutschen Gerichten. Der Richterbund wünscht sich für die Bearbeitung eine KI-Software.",
+        "paragraphs": [
+          "Verspätete oder stornierte Flüge führen zu einer Klagewelle an deutschen Gerichten. Der Richterbund wünscht sich für die Bearbeitung eine KI-Software."
+        ],
+        "link": "https://www.heise.de/news/Klagen-von-Passagieren-wegen-Flugverspaetungen-fordern-Justiz-heraus-11211464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-15T11:09:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Mehr-als-jeder-siebte-Stadtbus-in-Deutschland-faehrt-emissionsfrei-11211456.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Mehr als jeder siebte Stadtbus in Deutschland fährt emissionsfrei",
+        "title": "Elektrobus-Boom in Deutschland: Fast 5000 Fahrzeuge im Einsatz",
         "summary": "Im vergangenen Jahr stieg die Zahl der Busse mit alternativen Antrieben in Deutschland deutlich an. Vor allem Hamburg und Berlin setzen auf Elektroantriebe.",
         "paragraphs": [
           "Im vergangenen Jahr stieg die Zahl der Busse mit alternativen Antrieben in Deutschland deutlich an. Vor allem Hamburg und Berlin setzen auf Elektroantriebe."
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/Deutsche-fahren-trotz-teurem-Sprit-nicht-weniger-Auto-11211161.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-14T10:21:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Internetblockade-im-Iran-geht-in-die-dritte-Woche-11211157.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Internetblockade im Iran geht in die dritte Woche",
-        "summary": "Seit drei Wochen ist das Internet im Iran fast vollständig blockiert. Während die Bevölkerung isoliert wird, nutzt der Machtapparat privilegierte Zugänge.",
-        "paragraphs": [
-          "Seit drei Wochen ist das Internet im Iran fast vollständig blockiert. Während die Bevölkerung isoliert wird, nutzt der Machtapparat privilegierte Zugänge."
-        ],
-        "link": "https://www.heise.de/news/Internetblockade-im-Iran-geht-in-die-dritte-Woche-11211157.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-14T09:58:00.000Z"
       }
     ]
   }
