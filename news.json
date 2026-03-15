@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T03:41:56.555Z",
+  "updatedAt": "2026-03-15T04:40:15.978Z",
   "categories": {
     "wirtschaft": [
       {
@@ -447,6 +447,17 @@
     ],
     "sport": [
       {
+        "id": "{urn:uuid:625cd6ae-7b51-47d0-8066-432a9aa34c49}",
+        "title": "Krieg im Nahen Osten: Formel 1 sagt Rennen in Bahrain und Saudi-Arabien ab",
+        "summary": "Wegen des Irankriegs fallen die für April geplanten Rennen ersatzlos aus, teilte der Motorsportverband Fia mit. Erst am 3. Mai in Miami geht die Formel 1 weiter.",
+        "paragraphs": [
+          "Wegen des Irankriegs fallen die für April geplanten Rennen ersatzlos aus, teilte der Motorsportverband Fia mit. Erst am 3. Mai in Miami geht die Formel 1 weiter."
+        ],
+        "link": "https://www.zeit.de/sport/2026-03/formel-1-rennen-bahrain-saudi-arabien-abgesagt-krieg-iran",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-15T04:07:53.000Z"
+      },
+      {
         "id": "https://www.kicker.de/praeziser-longline-rybakina-macht-finale-perfekt-1201705/video#omrss",
         "title": "Präziser Longline: Rybakina macht Finale perfekt",
         "summary": "Elena Rybakina besiegt Elina Svitolina mit 7:5, 6:4 und zieht ins Finale von Indian Wells ein. Dort trifft die Kasachin im Kampf um den Titel auf Aryna Sabalenka.",
@@ -654,17 +665,6 @@
         "link": "https://www.kicker.de/arsenal-gegen-everton-2026-premier-league-5045294/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-14T19:53:06.000Z"
-      },
-      {
-        "id": "4ae99fe1-52aa-406e-afe0-54286db8ac12",
-        "title": "Fußball-Bundesliga: Hamburger SV und 1. FC Köln trennen sich remis",
-        "summary": "Der 1. FC Köln hat beim Gastspiel in Hamburg mehr vom Spiel und die besseren Chancen. Dass es dennoch nur zu einem Punkt reicht, liegt am Traumtor von HSV-Spielmacher Fábio Vieira.",
-        "paragraphs": [
-          "Der 1. FC Köln hat beim Gastspiel in Hamburg mehr vom Spiel und die besseren Chancen. Dass es dennoch nur zu einem Punkt reicht, liegt am Traumtor von HSV-Spielmacher Fábio Vieira."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/fussball-bundesliga-hamburger-sv-und-1-fc-koeln-trennen-sich-remis-a-4ae99fe1-52aa-406e-afe0-54286db8ac12#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-03-14T19:49:00.000Z"
       }
     ],
     "edv": [
@@ -779,17 +779,6 @@
         "publishedAt": "2026-03-14T09:58:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Identitaeten-in-Entra-ID-mit-Conditional-Access-Policies-schuetzen-11194753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Identitäten in Entra ID mit Conditional Access Policies schützen",
-        "summary": "Erfahren Sie, wie Sie die Zero-Trust-Architektur mit Zugriffsrichtlinien in Entra ID umsetzen und so Ihr Unternehmensnetzwerk effektiv schützen.",
-        "paragraphs": [
-          "Erfahren Sie, wie Sie die Zero-Trust-Architektur mit Zugriffsrichtlinien in Entra ID umsetzen und so Ihr Unternehmensnetzwerk effektiv schützen."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-Identitaeten-in-Entra-ID-mit-Conditional-Access-Policies-schuetzen-11194753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-14T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/Ausverkauf-und-die-Rettung-des-schoenen-Bildes-die-Fotonews-der-Woche-11-26-11210712.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Ausverkauf und die Rettung des schönen Bildes – die Fotonews der Woche 11/26",
         "summary": "Ein britischer Landkreis verscherbelt ein bedeutendes Fotoarchiv, Streit über Technik versus Kunst, und der Markt belohnt ausgerechnet das Unperfekte.",
@@ -797,6 +786,17 @@
           "Ein britischer Landkreis verscherbelt ein bedeutendes Fotoarchiv, Streit über Technik versus Kunst, und der Markt belohnt ausgerechnet das Unperfekte."
         ],
         "link": "https://www.heise.de/news/Ausverkauf-und-die-Rettung-des-schoenen-Bildes-die-Fotonews-der-Woche-11-26-11210712.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-14T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-Identitaeten-in-Entra-ID-mit-Conditional-Access-Policies-schuetzen-11194753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Identitäten in Entra ID mit Conditional Access Policies schützen",
+        "summary": "Erfahren Sie, wie Sie die Zero-Trust-Architektur mit Zugriffsrichtlinien in Entra ID umsetzen und so Ihr Unternehmensnetzwerk effektiv schützen.",
+        "paragraphs": [
+          "Erfahren Sie, wie Sie die Zero-Trust-Architektur mit Zugriffsrichtlinien in Entra ID umsetzen und so Ihr Unternehmensnetzwerk effektiv schützen."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Identitaeten-in-Entra-ID-mit-Conditional-Access-Policies-schuetzen-11194753.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-14T09:00:00.000Z"
       },
