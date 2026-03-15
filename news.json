@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-15T18:57:12.085Z",
+  "updatedAt": "2026-03-15T19:14:40.996Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:6c07abde-8289-487c-82a4-d08e7453d084}",
+        "title": "Hormusblockade: \"Der Ölpreis könnte bald ein neues Allzeithoch erreichen\"",
+        "summary": "Die Lage im Nahen Osten droht weiter zu eskalieren. Energieexperte Johannes Rauball warnt vor schwerwiegenden Folgen und erklärt, wie der Ölpreis wieder fallen könnte.",
+        "paragraphs": [
+          "Die Lage im Nahen Osten droht weiter zu eskalieren. Energieexperte Johannes Rauball warnt vor schwerwiegenden Folgen und erklärt, wie der Ölpreis wieder fallen könnte."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-03/hormus-blockade-oelmarkt-handel-iran-usa",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-15T19:02:43.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/spritpreise-bundesregierung-bringt-spritpreis-gesetz-auf-den-weg/100208598.html",
         "title": "Preisdebatte: Bundesregierung bringt Spritpreis-Gesetz auf den Weg",
@@ -210,17 +221,6 @@
         "link": "https://www.sueddeutsche.de/wirtschaft/fracking-energiekrise-chancen-risiken-deutschland-li.3452258",
         "source": "Sueddeutsche",
         "publishedAt": "2026-03-15T13:11:04.000Z"
-      },
-      {
-        "id": "li.3453106",
-        "title": "Cartoon: Meissners Strategen",
-        "summary": "<img src=\"https://www.sueddeutsche.de/2026/03/15/ea145b63-39e3-4595-86e5-e7393e062f1b.jpg?rect=267%2C0%2C3467%2C2600&width=1000&fm=jpg&q=60\" data-portal-copyright=\"SZ-Zeichnung: Dirk Meissner\" />",
-        "paragraphs": [
-          "<img src=\"https://www.sueddeutsche.de/2026/03/15/ea145b63-39e3-4595-86e5-e7393e062f1b.jpg?rect=267%2C0%2C3467%2C2600&width=1000&fm=jpg&q=60\" data-portal-copyright=\"SZ-Zeichnung: Dirk Meissner\" />"
-        ],
-        "link": "https://www.sueddeutsche.de/wirtschaft/cartoon-meissners-strategen-li.3453106",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-15T13:02:06.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/como-gegen-roma-2026-serie-a-5042317/spielbericht#omrss",
+        "title": "Roma nach Rückstand bezwungen: Como-Märchen hält an",
+        "summary": "Das Duell um die Champions-League gewann Como gegen die Roma mit 2:1 - und das nach Rückstand. Das Märchen in der Lombardei geht also weiter.",
+        "paragraphs": [
+          "Das Duell um die Champions-League gewann Como gegen die Roma mit 2:1 - und das nach Rückstand. Das Märchen in der Lombardei geht also weiter."
+        ],
+        "link": "https://www.kicker.de/como-gegen-roma-2026-serie-a-5042317/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-15T19:01:24.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/valorants-neuer-kampfbarde-faehigkeiten-rolle-und-boosting-diskussion-1201399/artikel#omrss",
+        "title": "Valorants neuer \"Kampfbarde\": Fähigkeiten, Rolle und Boosting-Diskussion",
+        "summary": "Heilung auf Distanz und Combat-Stim-Resets: Der neue Agent Miks bringt eine andere Art von Unterstützung in Valorant. Doch das Design birgt auch Risiken für die Balance.",
+        "paragraphs": [
+          "Heilung auf Distanz und Combat-Stim-Resets: Der neue Agent Miks bringt eine andere Art von Unterstützung in Valorant. Doch das Design birgt auch Risiken für die Balance."
+        ],
+        "link": "https://www.kicker.de/valorants-neuer-kampfbarde-faehigkeiten-rolle-und-boosting-diskussion-1201399/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-15T19:00:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/eine-taube-als-zwoelfter-mainzer-nebel-ich-musste-schmunzeln-1202049/artikel#omrss",
+        "title": "Eine Taube als zwölfter Mainzer? Nebel: \"Ich musste schmunzeln\"",
+        "summary": "Mainz 05 hat das wichtige Kellerduell in Bremen gewonnen - und hatte dabei zum Teil auch unerwartete Hilfe durch eine Taube. Paul Nebel überlegte anschließend, ob man den tierischen Helfer mit nach Mainz nehmen solle.",
+        "paragraphs": [
+          "Mainz 05 hat das wichtige Kellerduell in Bremen gewonnen - und hatte dabei zum Teil auch unerwartete Hilfe durch eine Taube. Paul Nebel überlegte anschließend, ob man den tierischen Helfer mit nach Mainz nehmen solle."
+        ],
+        "link": "https://www.kicker.de/eine-taube-als-zwoelfter-mainzer-nebel-ich-musste-schmunzeln-1202049/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-15T18:55:49.000Z"
+      },
+      {
         "id": "f4bdb479-892d-4aac-b50b-b32635450477",
         "title": "Fußball-Bundesliga: Union Berlin gewinnt in letzter Minute beim SC Freiburg",
         "summary": "Weil sich Stammkeeper Frederik Rönnow verletzte, musste Matheo Raab zu seinem ersten Bundesligaspiel ins Tor von Union Berlin. Ein perfektes Debüt: Er bekam in Freiburg nur wenig zu tun und durfte spät jubeln.",
@@ -469,22 +502,22 @@
         "publishedAt": "2026-03-15T18:45:43.000Z"
       },
       {
-        "id": "https://www.kicker.de/como-gegen-roma-2026-serie-a-5042317/spielbericht#omrss",
-        "title": "LIVE! In Überzahl trifft Diego Carlos: Como wendet das Blatt",
-        "summary": "Duell um die Champions-League: Am Sonntagabend spielt die AS Rom in Como. Beide Mannschaften sind punktgleich und belegen vor dem Spieltag Platz vier und fünf der Tabelle. Alles ist also angerichtet für ein echtes Spitzenspiel.",
+        "id": "https://www.kicker.de/4-3-in-der-99-minute-dramatischer-sieg-fuer-toulouse-1202066/video#omrss",
+        "title": "4:3 in der 99. Minute: Dramatischer Sieg für Toulouse",
+        "summary": "Es war ein echtes Spektakel in Metz. Insgesamt fielen sieben Treffer, am Ende durfte der Gast aus Toulouse jubeln. Die Highlights der Partie gibt es hier.",
         "paragraphs": [
-          "Duell um die Champions-League: Am Sonntagabend spielt die AS Rom in Como. Beide Mannschaften sind punktgleich und belegen vor dem Spieltag Platz vier und fünf der Tabelle. Alles ist also angerichtet für ein echtes Spitzenspiel."
+          "Es war ein echtes Spektakel in Metz. Insgesamt fielen sieben Treffer, am Ende durfte der Gast aus Toulouse jubeln. Die Highlights der Partie gibt es hier."
         ],
-        "link": "https://www.kicker.de/como-gegen-roma-2026-serie-a-5042317/spielbericht#omrss",
+        "link": "https://www.kicker.de/4-3-in-der-99-minute-dramatischer-sieg-fuer-toulouse-1202066/video#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-15T18:41:54.000Z"
+        "publishedAt": "2026-03-15T18:42:02.000Z"
       },
       {
         "id": "https://www.kicker.de/liverpool-gegen-tottenham-2026-premier-league-5045299/spielbericht#omrss",
         "title": "Richarlisons später Nackenschlag: Liverpool verpasst Sprung auf Platz 4",
-        "summary": "Die Niederlagenserie der Spurs endete am Samstagabend in Anfield, für den neuen Trainer Igor Tudor war es der erste Zähler nach vier Pflichtspiel-Niederlagen unter seiner Regie. Liverpool stand kurz vor dem Sprung auf Rang 4, ehe Richarlison den Reds doch noch einen empfindlichen Dämpfer versetzte.",
+        "summary": "Die Niederlagen-Serie der Spurs endete am Samstagabend in Anfield, für den neuen Trainer Igor Tudor war es der erste Zähler nach vier Pflichtspiel-Niederlagen unter seiner Regie. Liverpool stand kurz vor dem Sprung auf Rang 4, ehe Richarlison den Reds doch noch einen empfindlichen Dämpfer versetzte und Tottenham im Abstiegskampf einen wichtigen Zähler sicherte.",
         "paragraphs": [
-          "Die Niederlagenserie der Spurs endete am Samstagabend in Anfield, für den neuen Trainer Igor Tudor war es der erste Zähler nach vier Pflichtspiel-Niederlagen unter seiner Regie. Liverpool stand kurz vor dem Sprung auf Rang 4, ehe Richarlison den Reds doch noch einen empfindlichen Dämpfer versetzte."
+          "Die Niederlagen-Serie der Spurs endete am Samstagabend in Anfield, für den neuen Trainer Igor Tudor war es der erste Zähler nach vier Pflichtspiel-Niederlagen unter seiner Regie. Liverpool stand kurz vor dem Sprung auf Rang 4, ehe Richarlison den Reds doch noch einen empfindlichen Dämpfer versetzte und Tottenham im Abstiegskampf einen wichtigen Zähler sicherte."
         ],
         "link": "https://www.kicker.de/liverpool-gegen-tottenham-2026-premier-league-5045299/spielbericht#omrss",
         "source": "Kicker",
@@ -601,13 +634,13 @@
         "publishedAt": "2026-03-15T17:30:44.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-leipzig-kommt-gut-rein-ins-duell-um-platz-vier-1201096/artikel#omrss",
-        "title": "LIVE! Leipzig kommt gut rein ins Duell um Platz vier",
+        "id": "https://www.kicker.de/live-erste-grosschance-baumgartner-vergibt-rb-fuehrung-1201096/artikel#omrss",
+        "title": "LIVE! Erste Großchance: Baumgartner vergibt RB-Führung",
         "summary": "Zum Abschluss des 26. Spieltags in der Bundesliga muss sich der VfB Stuttgart gegen einen hartnäckigen Verfolger wehren: Mit einem Auswärtssieg im Schwabenland würde RB Leipzig schließlich in der Tabelle vorbeiziehen.",
         "paragraphs": [
           "Zum Abschluss des 26. Spieltags in der Bundesliga muss sich der VfB Stuttgart gegen einen hartnäckigen Verfolger wehren: Mit einem Auswärtssieg im Schwabenland würde RB Leipzig schließlich in der Tabelle vorbeiziehen."
         ],
-        "link": "https://www.kicker.de/live-leipzig-kommt-gut-rein-ins-duell-um-platz-vier-1201096/artikel#omrss",
+        "link": "https://www.kicker.de/live-erste-grosschance-baumgartner-vergibt-rb-fuehrung-1201096/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-15T17:30:00.000Z"
       },
@@ -632,42 +665,20 @@
         "link": "https://www.kicker.de/muslic-stinksauer-nach-rot-gegen-dzeko-mulder-erwaegt-protest-gegen-sperre-1201960/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-15T17:29:12.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/barcelona-gegen-fc-sevilla-2026-la-liga-5055151/spielbericht#omrss",
-        "title": "Gala am Wahltag: Raphinha und Joao Cancelo nehmen Sevilla auseinander",
-        "summary": "Barcelona ist die Generalprobe für das Rückspiel gegen Newcastle gelungen. Überragende Akteure waren Raphinha und Joao Cancelo - den wärmsten Applaus bekam aber ein Teamkollege für seine pure Anwesenheit auf dem Platz.",
-        "paragraphs": [
-          "Barcelona ist die Generalprobe für das Rückspiel gegen Newcastle gelungen. Überragende Akteure waren Raphinha und Joao Cancelo - den wärmsten Applaus bekam aber ein Teamkollege für seine pure Anwesenheit auf dem Platz."
-        ],
-        "link": "https://www.kicker.de/barcelona-gegen-fc-sevilla-2026-la-liga-5055151/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-15T17:25:53.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/leipzig-gegen-stuttgart-2026-handball-bundesliga-5097501/spielbericht#omrss",
-        "title": "Trotz überragendem Semper: Leipzig holt gegen Stuttgart nur einen Punkt",
-        "summary": "Es war ein Spiel, in dem der Kampf um den Klassenerhalt ersichtlich wurde. In der Partie zwischen Leipzig und Stuttgart war alles geboten. Am Ende trennten sich beide mit einem Unentschieden.",
-        "paragraphs": [
-          "Es war ein Spiel, in dem der Kampf um den Klassenerhalt ersichtlich wurde. In der Partie zwischen Leipzig und Stuttgart war alles geboten. Am Ende trennten sich beide mit einem Unentschieden."
-        ],
-        "link": "https://www.kicker.de/leipzig-gegen-stuttgart-2026-handball-bundesliga-5097501/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-15T17:15:00.000Z"
-      },
-      {
-        "id": "e3c7ac55-eb4a-4f1c-84cd-9250fba277ed",
-        "title": "Zé Roberto: Sein Tagesablauf früher? Fußball, Sex und Videospiele",
-        "summary": "Nächte an der Playstation, ständig Sex und massenhaft Kekse: Den disziplinierten Alltag eines Fußballprofis stellt man sich nicht so vor. Ex-Bayernstar Zé Roberto hat eine Zeitlang so gelebt - gut getan hat es ihm nicht.",
-        "paragraphs": [
-          "Nächte an der Playstation, ständig Sex und massenhaft Kekse: Den disziplinierten Alltag eines Fußballprofis stellt man sich nicht so vor. Ex-Bayernstar Zé Roberto hat eine Zeitlang so gelebt - gut getan hat es ihm nicht."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/ze-roberto-sein-tagesablauf-frueher-fussball-sex-und-videospiele-a-e3c7ac55-eb4a-4f1c-84cd-9250fba277ed#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-03-15T17:13:00.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-die-besten-smart-home-systeme-im-test-home-assistant-ueberragt-alle/mr3xkgr?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Top 10: Die besten Smart-Home-Systeme im Test – Home Assistant überragt alle",
+        "summary": "Das perfekte Steuergerät fürs intelligente Zuhause? Fehlanzeige. Doch es gibt Lösungen, die dem Ideal durch Offenheit und Vielseitigkeit sehr nahekommen.",
+        "paragraphs": [
+          "Das perfekte Steuergerät fürs intelligente Zuhause? Fehlanzeige. Doch es gibt Lösungen, die dem Ideal durch Offenheit und Vielseitigkeit sehr nahekommen."
+        ],
+        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-die-besten-smart-home-systeme-im-test-home-assistant-ueberragt-alle/mr3xkgr?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-15T19:00:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/Synchronsprecher-sorgen-sich-wegen-KI-um-ihre-Rechte-11211599.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Synchronsprecherin lehnt Netflix-Auftrag wegen KI-Klauseln ab",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/hintergrund/Missing-Link-Fuenf-Trends-Digitaler-Gesundheit-und-was-sie-bedeuten-11200122.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-15T07:31:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/ratgeber/Mac-als-lokales-KI-System-So-geht-s-11019113.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Mac als lokales KI-System: So geht's",
-        "summary": "Wer Aufgaben an Chatbots wie ChatGPT & Co. delegiert, muss den Betreibern oft sensible Daten anvertrauen. Mit dem Open-Source-Projekt Ollama geht das lokal.",
-        "paragraphs": [
-          "Wer Aufgaben an Chatbots wie ChatGPT & Co. delegiert, muss den Betreibern oft sensible Daten anvertrauen. Mit dem Open-Source-Projekt Ollama geht das lokal."
-        ],
-        "link": "https://www.heise.de/ratgeber/Mac-als-lokales-KI-System-So-geht-s-11019113.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2026-03-15T07:00:00.000Z"
       }
     ]
   }
