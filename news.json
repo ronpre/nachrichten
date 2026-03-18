@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-03-18T03:34:17.024Z",
+  "updatedAt": "2026-03-18T04:30:00.212Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:be10b7af-38b0-4e7d-8662-33b74ca2fa8b}",
+        "title": "Wohnen: Sie wohnen zur Miete? Ohje",
+        "summary": "Wer mietet, lebt flexibel, günstig und hat das Gesetz oft auf seiner Seite. Oder etwa nicht? Fünf Gründe, warum Mieter es heute immer schwerer haben.",
+        "paragraphs": [
+          "Wer mietet, lebt flexibel, günstig und hat das Gesetz oft auf seiner Seite. Oder etwa nicht? Fünf Gründe, warum Mieter es heute immer schwerer haben."
+        ],
+        "link": "https://www.zeit.de/geld/2026-03/wohnen-miete-finanzen-lage-vermieter",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-18T04:19:34.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-csi-300-asiatische-boersen-erholen-sich-oelpreise-fallen/100209416.html",
+        "title": "Nikkei und CSI 300: Asiatische Börsen erholen sich – Ölpreise fallen",
+        "summary": "Anleger erhoffen sich von der nächsten Fed-Sitzung Hinweise darauf, ob der Ölpreisschock das Wachstum bremst oder die Inflation anheizt.",
+        "paragraphs": [
+          "Anleger erhoffen sich von der nächsten Fed-Sitzung Hinweise darauf, ob der Ölpreisschock das Wachstum bremst oder die Inflation anheizt."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-csi-300-asiatische-boersen-erholen-sich-oelpreise-fallen/100209416.html",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-03-18T04:06:06.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/kryptowaehrungen-diese-preisunterschiede-sollten-anleger-beim-kryptohandel-kennen/100209144.html",
         "title": "Kryptowährungen: Hohe Kostenunterschiede: Das sollten Anleger beim Kryptohandel beachten",
@@ -199,28 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/international/iran-krieg-wir-befinden-uns-in-einem-zustand-der-selbstverteidigung/100208570.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-17T16:58:42.000Z"
-      },
-      {
-        "id": "er.e606226",
-        "title": "Immobilienpreise 2035: Wo Eigentum teurer wird – und wo günstiger",
-        "summary": "Die Immobilienpreise steigen unaufhaltsam? Das stimmt nur zum Teil. Ob Wohneigentum auch noch in zehn Jahren bezahlbar ist, hängt entscheidend vom Standort ab – zeigt eine neue Studie.",
-        "paragraphs": [
-          "Die Immobilienpreise steigen unaufhaltsam? Das stimmt nur zum Teil. Ob Wohneigentum auch noch in zehn Jahren bezahlbar ist, hängt entscheidend vom Standort ab – zeigt eine neue Studie."
-        ],
-        "link": "https://www.sueddeutsche.de/projekte/artikel/wirtschaft/immobilien-preise-entwicklung-2035-eigentumswohnung-hauskauf-prognose-iw-koeln-bvr-e606226/",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-17T16:57:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/energie/seefahrt-iran-geleitet-schiffe-durch-die-strasse-von-hormus/100209158.html",
-        "title": "Seefahrt: Iran geleitet Schiffe durch die Straße von Hormus",
-        "summary": "Teheran startet offenbar einen Verifizierungsprozess, um nur noch Frachter feindlicher Staaten an der Ausfahrt aus dem Persischen Golf zu hindern. Die Transportkosten steigen derweil weiter.",
-        "paragraphs": [
-          "Teheran startet offenbar einen Verifizierungsprozess, um nur noch Frachter feindlicher Staaten an der Ausfahrt aus dem Persischen Golf zu hindern. Die Transportkosten steigen derweil weiter."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/energie/seefahrt-iran-geleitet-schiffe-durch-die-strasse-von-hormus/100209158.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-17T16:51:40.000Z"
       }
     ],
     "politik": [
@@ -669,6 +669,17 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Pentagon-beginnt-Abloesung-von-Anthropic-KI-Dienste-von-OpenAI-stehen-bereit-11214891.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Pentagon beginnt Ablösung von Anthropic, KI-Dienste von OpenAI stehen bereit",
+        "summary": "Nach der Eskalation im KI-Streit mit Anthropic werden Claude & Co. langsam ersetzt. Die US-Regierung beginnt, KI von OpenAI über die Amazon-Cloud zu nutzen.",
+        "paragraphs": [
+          "Nach der Eskalation im KI-Streit mit Anthropic werden Claude & Co. langsam ersetzt. Die US-Regierung beginnt, KI von OpenAI über die Amazon-Cloud zu nutzen."
+        ],
+        "link": "https://www.heise.de/news/Pentagon-beginnt-Abloesung-von-Anthropic-KI-Dienste-von-OpenAI-stehen-bereit-11214891.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-18T04:09:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Fussball-WM-2026-YouTube-und-FIFA-vereinbaren-Kooperation-11214825.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Fußball-WM 2026: YouTube und FIFA vereinbaren Kooperation",
         "summary": "YouTube wird offizieller Partner der Fußball-Weltmeisterschaft 2026. Die FIFA erhofft sich von der Vereinbarung neue Formate und neue Zielgruppen.",
@@ -876,17 +887,6 @@
         "link": "https://www.heise.de/news/DoS-Attacken-auf-IBM-SPSS-Collaboration-and-Deployment-Services-moeglich-11214186.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-17T14:02:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/hintergrund/Bit-Rauschen-Wer-liefern-kann-ist-klar-im-Vorteil-11138004.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "heise+ | Bit-Rauschen: Wer liefern kann, ist klar im Vorteil",
-        "summary": "Apple will ein größeres Stück vom Notebookmarkt. Pläne für Weltraumrechenzentren zerpflückt ein Experte als „Wahnsinn“. Google kauft mehr Ökostrom.",
-        "paragraphs": [
-          "Apple will ein größeres Stück vom Notebookmarkt. Pläne für Weltraumrechenzentren zerpflückt ein Experte als „Wahnsinn“. Google kauft mehr Ökostrom."
-        ],
-        "link": "https://www.heise.de/hintergrund/Bit-Rauschen-Wer-liefern-kann-ist-klar-im-Vorteil-11138004.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "source": "heise",
-        "publishedAt": "2026-03-17T14:00:00.000Z"
       }
     ]
   }
