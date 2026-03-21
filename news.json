@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-21T19:08:37.313Z",
+  "updatedAt": "2026-03-21T19:22:10.061Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:6c2dadca-b928-4dc5-8f37-0de34e8f2d9e}",
+        "title": "Pattaya: Einer der letzten Orte, an dem sich Ukrainer und Russen noch verstehen",
+        "summary": "In der Partystadt Pattaya treffen Hacker aus Russland und der Ukraine aufeinander. Sie wollen dem Krieg entkommen. Allmählich haben thailändische Behörden genug davon.",
+        "paragraphs": [
+          "In der Partystadt Pattaya treffen Hacker aus Russland und der Ukraine aufeinander. Sie wollen dem Krieg entkommen. Allmählich haben thailändische Behörden genug davon."
+        ],
+        "link": "https://www.zeit.de/2026/13/pattaya-digitale-nomaden-russland-ukraine-thailand",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-21T19:11:44.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/good-old-germany-etwas-mehr-amerika-stuende-dir-gut-liebes-deutschland-01/100199095.html",
         "title": "Essay: Weltmeister im Stillstand? Etwas mehr Amerika stünde dir gut, liebes Deutschland!",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/finanzen/steuern-recht/recht/testament-diese-irrtuemer-rund-ums-erben-sind-weit-verbreitet-01/100149403.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-21T13:07:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/steuern-recht/recht/vermoegen-so-kann-das-berliner-testament-umgangen-werden/100149477.html",
-        "title": "Vermögen: So lässt sich das Berliner Testament nach dem Tod des Partners umgehen",
-        "summary": "Viele Paare setzen sich zunächst gegenseitig als Alleinerben ein. Häufig ist der länger Lebende dann an das Testament gebunden. Doch es gibt einen Ausweg, den viele nicht kennen.",
-        "paragraphs": [
-          "Viele Paare setzen sich zunächst gegenseitig als Alleinerben ein. Häufig ist der länger Lebende dann an das Testament gebunden. Doch es gibt einen Ausweg, den viele nicht kennen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/recht/vermoegen-so-kann-das-berliner-testament-umgangen-werden/100149477.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-21T13:04:00.000Z"
       }
     ],
     "politik": [
@@ -447,6 +447,39 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/juventus-gegen-sassuolo-2026-serie-a-5042333/spielbericht#omrss",
+        "title": "LIVE! Rennen um die Champions-League-Plätze: Juventus gegen Sassuolo gefordert",
+        "summary": "Mit zwei Siegen in Folge im Gepäck will die Spalletti-Elf auch gegen Sassuolo bestehen und so Como im Rennen um die Champions-League-Plätze unter Druck setzen.",
+        "paragraphs": [
+          "Mit zwei Siegen in Folge im Gepäck will die Spalletti-Elf auch gegen Sassuolo bestehen und so Como im Rennen um die Champions-League-Plätze unter Druck setzen."
+        ],
+        "link": "https://www.kicker.de/juventus-gegen-sassuolo-2026-serie-a-5042333/spielbericht#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-21T19:15:30.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-verrueckte-wende-in-dortmund-dritter-elfmeter-bringt-das-3-2-1203659/artikel#omrss",
+        "title": "LIVE! Verrückte Wende in Dortmund: Dritter Elfmeter bringt das 3:2",
+        "summary": "Gewinnt Dortmund auch sein viertes Heimspiel in Serie gegen den HSV? Die Antwort darauf gibt es am Samstagabend ab 18.30 Uhr.",
+        "paragraphs": [
+          "Gewinnt Dortmund auch sein viertes Heimspiel in Serie gegen den HSV? Die Antwort darauf gibt es am Samstagabend ab 18.30 Uhr."
+        ],
+        "link": "https://www.kicker.de/live-verrueckte-wende-in-dortmund-dritter-elfmeter-bringt-das-3-2-1203659/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-21T19:14:02.000Z"
+      },
+      {
+        "id": "li.3455128",
+        "title": "Radsport: Jetzt kann er auch noch sprinten",
+        "summary": "Tadej Pogacar gewinnt erstmals den Frühjahrsklassiker Mailand –Sanremo. Von einem Sturz gezeichnet, offenbart der Slowene im Zielspurt ungeahnte Fähigkeiten. Seine Trophäensammlung ist damit fast komplett.",
+        "paragraphs": [
+          "Tadej Pogacar gewinnt erstmals den Frühjahrsklassiker Mailand –Sanremo. Von einem Sturz gezeichnet, offenbart der Slowene im Zielspurt ungeahnte Fähigkeiten. Seine Trophäensammlung ist damit fast komplett."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/mailand-sanremo-pogacar-sturz-li.3455128",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-03-21T19:11:06.000Z"
+      },
+      {
         "id": "https://www.kicker.de/wettbewerbe-und-termine-die-wintersport-highlights-am-wochenende-1184113/artikel#omrss",
         "title": "Wettbewerbe und Termine: Die Wintersport-Highlights am Wochenende",
         "summary": "Wie bereits in der vergangenen Woche begannen die hauptsächlich in Norwegen stattfindenden Wintersport-Events bereits am Donnerstag mit einem Biathlon-Sprint - dieses Mal in Oslo. Die Alpinen bestreiten die letzten Speedrennen in Kvitfjell, die Skispringer heben in Vikersund vom Bakken ab. Alle Termine des Wintersport-Wochenendes - und im Ski alpin bis Mittwoch - im Überblick.",
@@ -467,6 +500,28 @@
         "link": "https://www.kicker.de/everton-gegen-chelsea-2026-premier-league-5045307/spielbericht#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-21T19:05:11.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/eiskalt-in-den-wichtigen-momenten-schindler-steht-im-achtelfinale-1203904/video#omrss",
+        "title": "Eiskalt in den wichtigen Momenten: Schindler steht im Achtelfinale",
+        "summary": "In Belgien nutzte Martin Schindler die Doppel-Schwäche seines Gegners eiskalt aus und zog ins Achtelfinale ein. Die Highlights gibt es hier.",
+        "paragraphs": [
+          "In Belgien nutzte Martin Schindler die Doppel-Schwäche seines Gegners eiskalt aus und zog ins Achtelfinale ein. Die Highlights gibt es hier."
+        ],
+        "link": "https://www.kicker.de/eiskalt-in-den-wichtigen-momenten-schindler-steht-im-achtelfinale-1203904/video#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-21T19:04:14.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/grizzlys-oder-wild-wings-wer-sichert-sich-das-letzte-viertelfinalticket-1203903/artikel#omrss",
+        "title": "Grizzlys oder Wild Wings: Wer sichert sich das letzte Viertelfinalticket?",
+        "summary": "Im finalen dritten Spiel der Qualifikationsrunde treffen die Grizzlys Wolfsburg und die Schwenninger Wild Wings am Sonntagnachmittag im Kampf um das achte und letzte Viertelfinalticket aufeinander. Gesucht wird der Viertelfinalgegner von Hauptrundensieger Kölner Haie.",
+        "paragraphs": [
+          "Im finalen dritten Spiel der Qualifikationsrunde treffen die Grizzlys Wolfsburg und die Schwenninger Wild Wings am Sonntagnachmittag im Kampf um das achte und letzte Viertelfinalticket aufeinander. Gesucht wird der Viertelfinalgegner von Hauptrundensieger Kölner Haie."
+        ],
+        "link": "https://www.kicker.de/grizzlys-oder-wild-wings-wer-sichert-sich-das-letzte-viertelfinalticket-1203903/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-21T19:03:34.000Z"
       },
       {
         "id": "https://www.kicker.de/milan-gegen-torino-2026-serie-a-5042334/spielbericht#omrss",
@@ -500,17 +555,6 @@
         "link": "https://www.kicker.de/freund-ueber-angeschlagenen-pavlovic-da-muss-man-vorsichtig-sein-1203872/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-21T18:49:08.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-bvb-drueckt-auf-den-anschluss-kaum-entlastung-fuer-den-hsv-1203659/artikel#omrss",
-        "title": "LIVE! BVB drückt auf den Anschluss: Kaum Entlastung für den HSV",
-        "summary": "Gewinnt Dortmund auch sein viertes Heimspiel in Serie gegen den HSV? Die Antwort darauf gibt es am Samstagabend ab 18.30 Uhr.",
-        "paragraphs": [
-          "Gewinnt Dortmund auch sein viertes Heimspiel in Serie gegen den HSV? Die Antwort darauf gibt es am Samstagabend ab 18.30 Uhr."
-        ],
-        "link": "https://www.kicker.de/live-bvb-drueckt-auf-den-anschluss-kaum-entlastung-fuer-den-hsv-1203659/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-21T18:41:42.000Z"
       },
       {
         "id": "https://www.kicker.de/watzkes-schlotterbeck-anekdote-und-der-eine-makel-der-bvb-saison-1203860/artikel#omrss",
@@ -601,13 +645,13 @@
         "publishedAt": "2026-03-21T18:08:07.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-topspiel-ohne-dzeko-darmstadt-98-empfaengt-den-fc-schalke-1203320/artikel#omrss",
-        "title": "LIVE! Topspiel ohne Dzeko: Darmstadt 98 empfängt den FC Schalke",
+        "id": "https://www.kicker.de/live-topspiel-ohne-dzeko-darmstadt-98-empfaengt-schalke-1203320/artikel#omrss",
+        "title": "LIVE! Topspiel ohne Dzeko: Darmstadt 98 empfängt Schalke",
         "summary": "Am Samstagabend steht in der 2. Bundesliga das Gipfeltreffen auf dem Programm: Vor dem 27. Spieltag standen Darmstadt und Schalke, die um 20.30 Uhr am Böllenfalltor aufeinandertreffen, auf Platz 2 und Platz 1 der Tabelle. Wer kann das Topspiel für sich entscheiden?",
         "paragraphs": [
           "Am Samstagabend steht in der 2. Bundesliga das Gipfeltreffen auf dem Programm: Vor dem 27. Spieltag standen Darmstadt und Schalke, die um 20.30 Uhr am Böllenfalltor aufeinandertreffen, auf Platz 2 und Platz 1 der Tabelle. Wer kann das Topspiel für sich entscheiden?"
         ],
-        "link": "https://www.kicker.de/live-topspiel-ohne-dzeko-darmstadt-98-empfaengt-den-fc-schalke-1203320/artikel#omrss",
+        "link": "https://www.kicker.de/live-topspiel-ohne-dzeko-darmstadt-98-empfaengt-schalke-1203320/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-21T18:00:00.000Z"
       },
@@ -621,50 +665,6 @@
         "link": "https://www.zeit.de/sport/2026-03/bundesliga-spieltag27-leverkusen-heidenheim-bremen-wolfsburg",
         "source": "ZEIT",
         "publishedAt": "2026-03-21T17:53:18.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/huerzeler-nach-sieg-gegen-liverpool-bescheiden-bleiben-1203865/video#omrss",
-        "title": "Hürzeler nach Sieg gegen Liverpool: \"Bescheiden bleiben\"",
-        "summary": "Mit dem Statement-Sieg gegen Liverpool setzt Brighton den positiven Trend der letzten Wochen fort. Trainer Fabian Hürzeler will nun selbst verstehen, wie es zur Erfolgsserie seiner Mannschaft kam.",
-        "paragraphs": [
-          "Mit dem Statement-Sieg gegen Liverpool setzt Brighton den positiven Trend der letzten Wochen fort. Trainer Fabian Hürzeler will nun selbst verstehen, wie es zur Erfolgsserie seiner Mannschaft kam."
-        ],
-        "link": "https://www.kicker.de/huerzeler-nach-sieg-gegen-liverpool-bescheiden-bleiben-1203865/video#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-21T17:47:05.000Z"
-      },
-      {
-        "id": "{urn:uuid:8a6bc321-173b-4fc3-b223-82a301a0b945}",
-        "title": "Max Simonischek: \"Es ist absolut  möglich, sich in einen Dialekt zu verlieben\"",
-        "summary": "Der Schauspieler Max Simonischek pendelt zwischen den Sprachen. Ein Gespräch über den Charme des Tirolerischen und die Lust, sich anzupassen",
-        "paragraphs": [
-          "Der Schauspieler Max Simonischek pendelt zwischen den Sprachen. Ein Gespräch über den Charme des Tirolerischen und die Lust, sich anzupassen"
-        ],
-        "link": "https://www.zeit.de/2026/13/max-simonischek-dialekt-schweizerdeutsch-schauspiel",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-21T17:34:58.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/mailand-sanremo-horror-sturz-im-frauen-rennen-1203857/artikel#omrss",
-        "title": "Mailand-Sanremo: Horror-Sturz im Frauen-Rennen",
-        "summary": "Ein schwerer Sturz überschattet das Frauen-Rennen bei Mailand-Sanremo. Debora Silvestri wird nach dem Unfall ins Krankenhaus gebracht.",
-        "paragraphs": [
-          "Ein schwerer Sturz überschattet das Frauen-Rennen bei Mailand-Sanremo. Debora Silvestri wird nach dem Unfall ins Krankenhaus gebracht."
-        ],
-        "link": "https://www.kicker.de/mailand-sanremo-horror-sturz-im-frauen-rennen-1203857/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-21T17:33:07.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/verl-gegen-saarbruecken-2026-liga-5057628/spielbericht#omrss",
-        "title": "Doppelter Mhamdi knackt Saarbrücken sehenswert: Verl zieht an Cottbus vorbei",
-        "summary": "Der 1. FC Saarbrücken konnte beim SC Verl nur eine Hälfte mithalten, bevor insbesondere Doppelpacker Mhamdi die Hausherren auf die Siegerstraße führte. Von Saarbrücken war offensiv kaum etwas zu sehen. Der 3:0-Sieg hievt die Verler vorübergehend auf Platz 2.",
-        "paragraphs": [
-          "Der 1. FC Saarbrücken konnte beim SC Verl nur eine Hälfte mithalten, bevor insbesondere Doppelpacker Mhamdi die Hausherren auf die Siegerstraße führte. Von Saarbrücken war offensiv kaum etwas zu sehen. Der 3:0-Sieg hievt die Verler vorübergehend auf Platz 2."
-        ],
-        "link": "https://www.kicker.de/verl-gegen-saarbruecken-2026-liga-5057628/spielbericht#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-21T17:30:00.000Z"
       }
     ],
     "edv": [
@@ -779,17 +779,6 @@
         "publishedAt": "2026-03-21T09:55:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Canon-zoegert-und-APS-C-will-nach-oben-die-Fotonews-der-Woche-12-26-11219557.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Canon zögert und APS-C will nach oben – die Fotonews der Woche 12/26",
-        "summary": "Canon nähert sich dem Kompaktkamera-Boom mit angezogener Handbremse, Fujifilm erklärt den Spaß zur Unternehmensmission, und Vollformat ist überbewertet.",
-        "paragraphs": [
-          "Canon nähert sich dem Kompaktkamera-Boom mit angezogener Handbremse, Fujifilm erklärt den Spaß zur Unternehmensmission, und Vollformat ist überbewertet."
-        ],
-        "link": "https://www.heise.de/news/Canon-zoegert-und-APS-C-will-nach-oben-die-Fotonews-der-Woche-12-26-11219557.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "source": "heise",
-        "publishedAt": "2026-03-21T09:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/iX-Workshop-Nach-dem-Einbruch-Digital-Forensics-Incident-Response-DFIR-11203428.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "heise-Angebot: iX-Workshop: Nach dem Einbruch – Digital Forensics & Incident Response (DFIR)",
         "summary": "Lernen Sie, professionelle Incident Response Workflows zu implementieren, um im Falle eines Cyberangriffs schnell und effektiv reagieren zu können.",
@@ -797,6 +786,17 @@
           "Lernen Sie, professionelle Incident Response Workflows zu implementieren, um im Falle eines Cyberangriffs schnell und effektiv reagieren zu können."
         ],
         "link": "https://www.heise.de/news/iX-Workshop-Nach-dem-Einbruch-Digital-Forensics-Incident-Response-DFIR-11203428.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "source": "heise",
+        "publishedAt": "2026-03-21T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Canon-zoegert-und-APS-C-will-nach-oben-die-Fotonews-der-Woche-12-26-11219557.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Canon zögert und APS-C will nach oben – die Fotonews der Woche 12/26",
+        "summary": "Canon nähert sich dem Kompaktkamera-Boom mit angezogener Handbremse, Fujifilm erklärt den Spaß zur Unternehmensmission, und Vollformat ist überbewertet.",
+        "paragraphs": [
+          "Canon nähert sich dem Kompaktkamera-Boom mit angezogener Handbremse, Fujifilm erklärt den Spaß zur Unternehmensmission, und Vollformat ist überbewertet."
+        ],
+        "link": "https://www.heise.de/news/Canon-zoegert-und-APS-C-will-nach-oben-die-Fotonews-der-Woche-12-26-11219557.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "source": "heise",
         "publishedAt": "2026-03-21T09:00:00.000Z"
       },
