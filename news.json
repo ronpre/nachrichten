@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-22T10:07:09.656Z",
+  "updatedAt": "2026-03-22T10:20:33.119Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:785a6d69-1abb-4085-9dd7-f6191bdae819}",
+        "title": "OpenClaw: Wenn KI die Kontrolle übernimmt",
+        "summary": "Chinesen nutzen einen neuen KI-Agenten, der sich um Aktiendepots, Passwörter und die Urlaubsbuchung kümmert. Die Regierung fand das erst gut – jetzt ist es ihr unheimlich",
+        "paragraphs": [
+          "Chinesen nutzen einen neuen KI-Agenten, der sich um Aktiendepots, Passwörter und die Urlaubsbuchung kümmert. Die Regierung fand das erst gut – jetzt ist es ihr unheimlich"
+        ],
+        "link": "https://www.zeit.de/2026/13/openclaw-ki-agent-china-sicherheit-software",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-22T10:04:17.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/italien-melonis-justizreform-ist-ihr-groesstes-wagnis-kritiker-laufen-sturm/100205384.html",
         "title": "Italien: Kritiker laufen Sturm: Melonis Justizreform ist ihr größtes Wagnis",
@@ -210,20 +221,20 @@
         "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wann-sich-eine-wohnung-als-kapitalanlage-wirklich-lohnt-01/100180922.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-21T14:42:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-diese-lektionen-habe-ich-als-etf-anfaenger-gelernt-01/100184984.html",
-        "title": "Geldanlage: Zehn Dinge, die ich als Anfänger über ETFs gelernt habe",
-        "summary": "Aus dem Handelsblatt-Archiv: Unser Autor befasst sich zum ersten Mal in seinem Leben mit ETFs – und stellt fest, dass Altersvorsorge damit in der Theorie einfacher ist als in der Praxis.",
-        "paragraphs": [
-          "Aus dem Handelsblatt-Archiv: Unser Autor befasst sich zum ersten Mal in seinem Leben mit ETFs – und stellt fest, dass Altersvorsorge damit in der Theorie einfacher ist als in der Praxis."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-diese-lektionen-habe-ich-als-etf-anfaenger-gelernt-01/100184984.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-21T14:38:00.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "5e1a1f5e-bd60-4a3b-9583-412a7db18d22",
+        "title": "Carsten Träger ist tot: SPD-Staatssekretär stirbt im Alter von 52 Jahren nach Kollaps",
+        "summary": "Die SPD-Bundestagsfraktion trauert um ihren Kollegen Carsten Träger: Der Staatssekretär im Umweltministerium war laut Medienberichten im Skiurlaub in Österreich kollabiert.",
+        "paragraphs": [
+          "Die SPD-Bundestagsfraktion trauert um ihren Kollegen Carsten Träger: Der Staatssekretär im Umweltministerium war laut Medienberichten im Skiurlaub in Österreich kollabiert."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/carsten-traeger-ist-tot-spd-staatssekretaer-stirbt-im-alter-von-52-jahren-nach-kollaps-a-5e1a1f5e-bd60-4a3b-9583-412a7db18d22#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-03-22T10:07:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/italien-melonis-justizreform-ist-ihr-groesstes-wagnis-kritiker-laufen-sturm/100205384.html",
         "title": "Italien: Kritiker laufen Sturm: Melonis Justizreform ist ihr größtes Wagnis",
@@ -432,17 +443,6 @@
         "link": "https://www.spiegel.de/politik/deutschland/wie-die-linke-lernte-den-misserfolg-zu-lieben-a-219d30c7-48b1-47c9-8299-39967bc4b312#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-03-21T11:12:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/immobilien-wie-roboter-den-wohnungsbau-auf-kurs-bringen/100201657.html",
-        "title": "Immobilien: „Die Branche erfindet sich neu“ – Wie Roboter den Wohnungsbau auf Kurs bringen",
-        "summary": "Bauen soll schneller, kostengünstiger und ressourceneffizienter werden. Start-ups entwickeln neue Technologien, um genau das zu erreichen. Ein Besuch bei zwei Vorreitern.",
-        "paragraphs": [
-          "Bauen soll schneller, kostengünstiger und ressourceneffizienter werden. Start-ups entwickeln neue Technologien, um genau das zu erreichen. Ein Besuch bei zwei Vorreitern."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/immobilien-wie-roboter-den-wohnungsbau-auf-kurs-bringen/100201657.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-21T10:11:32.000Z"
       }
     ],
     "sport": [
@@ -513,13 +513,13 @@
         "publishedAt": "2026-03-22T09:28:22.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-weidle-winkelmann-fuehrt-was-machen-aicher-und-shiffrin-im-super-g-1204022/artikel#omrss",
-        "title": "LIVE! Weidle-Winkelmann führt - Was machen Aicher und Shiffrin im Super-G?",
+        "id": "https://www.kicker.de/live-goggia-holt-super-g-kugel-was-machen-aicher-und-shiffrin-1204022/artikel#omrss",
+        "title": "LIVE! Goggia holt Super-G-Kugel - Was machen Aicher und Shiffrin?",
         "summary": "Nachdem Emma Aicher beim Weltcup-Finale in Lillehammer die Abfahrtskugel verpasst hat, ist ihr zumindest noch die kleine Gelegenheit auf den Titel im Gesamtweltcup geblieben. Der Rückstand auf Mikaela Shiffrin beträgt 95 Punkte - die Chancen auf die große Kristallkugel sind bei noch drei ausstehenden Rennen gesunken. Den heutigen Super-G müsste Aicher schon gewinnen, um zunächst an Shiffrin vorbeizuziehen.",
         "paragraphs": [
           "Nachdem Emma Aicher beim Weltcup-Finale in Lillehammer die Abfahrtskugel verpasst hat, ist ihr zumindest noch die kleine Gelegenheit auf den Titel im Gesamtweltcup geblieben. Der Rückstand auf Mikaela Shiffrin beträgt 95 Punkte - die Chancen auf die große Kristallkugel sind bei noch drei ausstehenden Rennen gesunken. Den heutigen Super-G müsste Aicher schon gewinnen, um zunächst an Shiffrin vorbeizuziehen."
         ],
-        "link": "https://www.kicker.de/live-weidle-winkelmann-fuehrt-was-machen-aicher-und-shiffrin-im-super-g-1204022/artikel#omrss",
+        "link": "https://www.kicker.de/live-goggia-holt-super-g-kugel-was-machen-aicher-und-shiffrin-1204022/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-22T09:23:02.000Z"
       },
@@ -558,12 +558,12 @@
       },
       {
         "id": "fd230d36-97c1-49ab-9b3b-f21b0e006b02",
-        "title": "Radklasiker Mailand-Sanremo: Fahrerin Debora Silvestri bricht sich bei Sturz in die Tiefe fünf Rippen",
+        "title": "Mailand-Sanremo: Fahrerin Debora Silvestri bricht sich bei Sturz in die Tiefe fünf Rippen",
         "summary": "Bei der Szene hätte man das Furchtbarste befürchten müssen: Radprofi Debora Silvestri stürzte bei Mailand–Sanremo in die Tiefe und knallte auf eine Asphaltstraße. Im Krankenhaus gab sie erste Entwarnung.",
         "paragraphs": [
           "Bei der Szene hätte man das Furchtbarste befürchten müssen: Radprofi Debora Silvestri stürzte bei Mailand–Sanremo in die Tiefe und knallte auf eine Asphaltstraße. Im Krankenhaus gab sie erste Entwarnung."
         ],
-        "link": "https://www.spiegel.de/sport/radsport/radklasiker-mailand-sanremo-fahrerin-debora-silvestri-bricht-sich-bei-sturz-in-die-tiefe-fuenf-rippen-a-fd230d36-97c1-49ab-9b3b-f21b0e006b02#ref=rss",
+        "link": "https://www.spiegel.de/sport/radsport/mailand-sanremo-fahrerin-debora-silvestri-bricht-sich-bei-sturz-in-die-tiefe-fuenf-rippen-a-fd230d36-97c1-49ab-9b3b-f21b0e006b02#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-03-22T09:07:00.000Z"
       },
@@ -591,7 +591,7 @@
       },
       {
         "id": "fd9f7918-ab44-439a-9f41-57bec19d33b5",
-        "title": "Fußball-Bundesliga: Das Bangen des FC Bayern vor der Länderspielpause",
+        "title": "Bundesliga: Das Bangen des FC Bayern vor der Länderspielpause",
         "summary": "Nach dem lockeren 4:0 gegen Union Berlin gehen die Bayern in die Länderspielpause. Bei den Münchnern werden böse Erinnerungen wach. Daher ist der Blick auf die nächsten 14 Tage auch eher angespannt.",
         "paragraphs": [
           "Nach dem lockeren 4:0 gegen Union Berlin gehen die Bayern in die Länderspielpause. Bei den Münchnern werden böse Erinnerungen wach. Daher ist der Blick auf die nächsten 14 Tage auch eher angespannt."
