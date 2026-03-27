@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-27T01:36:22.504Z",
+  "updatedAt": "2026-03-27T02:33:10.654Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:5ce5e986-5027-48c6-a9d1-95b22b748f36}",
+        "title": "Onlineshopping: EU beschließt Gebühr für kleine Päckchen aus Drittstaaten",
+        "summary": "Zusätzlich zu Abgaben auf im Internet bestellte Ware will die EU eine Pauschale für die Bearbeitung einführen. Ab November gilt sie etwa für Billigware aus China.",
+        "paragraphs": [
+          "Zusätzlich zu Abgaben auf im Internet bestellte Ware will die EU eine Pauschale für die Bearbeitung einführen. Ab November gilt sie etwa für Billigware aus China."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-03/billigware-eu-einfuhr-gebuehr-bearbeitung",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-27T01:29:29.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/iran-krieg-pentagon-prueft-offenbar-entsendung-von-10.000-weiteren-soldaten/100136895.html",
         "title": "+++ Iran-Krieg +++: Pentagon prüft offenbar Entsendung von 10.000 weiteren Soldaten",
@@ -210,17 +221,6 @@
         "link": "https://www.handelsblatt.com/politik/international/iran-krieg-hinweise-auf-us-bodenoperation-im-iran-mehren-sich/100212217.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-26T17:18:11.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/bosch-schwarz-chef-verlaesst-boschs-machtzentrale-schon-wieder/100212207.html",
-        "title": "Bosch: Überraschender Abgang: Schwarz-Chef verlässt Boschs Machtzentrale schon wieder",
-        "summary": "Gerd Chrzanowski scheidet nach nur einem Jahr als Gesellschafter der Robert Bosch Industrietreuhand KG aus. Als Grund werden Interessenkonflikte genannt.",
-        "paragraphs": [
-          "Gerd Chrzanowski scheidet nach nur einem Jahr als Gesellschafter der Robert Bosch Industrietreuhand KG aus. Als Grund werden Interessenkonflikte genannt."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/bosch-schwarz-chef-verlaesst-boschs-machtzentrale-schon-wieder/100212207.html",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-03-26T16:56:05.000Z"
       }
     ],
     "politik": [
@@ -302,17 +302,6 @@
         "publishedAt": "2026-03-26T20:44:00.000Z"
       },
       {
-        "id": "05b18fb5-2390-45a7-ac0a-b822e8f55d5a",
-        "title": "FDP-Vorsitz: Henning Höne will die Liberalen wiederbeleben",
-        "summary": "Sie sind so gut wie tot, und nun will einer die Liberalen retten, den außerhalb von Nordrhein-Westfalen kaum jemand kennt: Parteivize Henning Höne bewirbt sich als FDP-Chef – und geht damit ins Risiko.",
-        "paragraphs": [
-          "Sie sind so gut wie tot, und nun will einer die Liberalen retten, den außerhalb von Nordrhein-Westfalen kaum jemand kennt: Parteivize Henning Höne bewirbt sich als FDP-Chef – und geht damit ins Risiko."
-        ],
-        "link": "https://www.spiegel.de/politik/deutschland/fdp-vorsitz-henning-hoene-will-die-liberalen-wiederbeleben-a-05b18fb5-2390-45a7-ac0a-b822e8f55d5a#ref=rss",
-        "source": "SPIEGEL",
-        "publishedAt": "2026-03-26T19:11:00.000Z"
-      },
-      {
         "id": "af623838-1009-489a-9632-bbd4f6b9639b",
         "title": "Friedrich Merz: Wie Deutschland zu einem Ende des Irankriegs beitragen will",
         "summary": "In der Irankrise drängt die Bundesregierung zu einer baldigen Waffenruhe. Nach einem Friedensschluss müsste sich Berlin wohl auch an einer militärischen Absicherung in der Golfregion beteiligen. Erste Ideen gibt es bereits.",
@@ -320,6 +309,17 @@
           "In der Irankrise drängt die Bundesregierung zu einer baldigen Waffenruhe. Nach einem Friedensschluss müsste sich Berlin wohl auch an einer militärischen Absicherung in der Golfregion beteiligen. Erste Ideen gibt es bereits."
         ],
         "link": "https://www.spiegel.de/politik/deutschland/friedrich-merz-wie-deutschland-zu-einem-ende-des-irankriegs-beitragen-will-a-af623838-1009-489a-9632-bbd4f6b9639b#ref=rss",
+        "source": "SPIEGEL",
+        "publishedAt": "2026-03-26T19:11:00.000Z"
+      },
+      {
+        "id": "05b18fb5-2390-45a7-ac0a-b822e8f55d5a",
+        "title": "FDP-Vorsitz: Henning Höne will die Liberalen wiederbeleben",
+        "summary": "Sie sind so gut wie tot, und nun will einer die Liberalen retten, den außerhalb von Nordrhein-Westfalen kaum jemand kennt: Parteivize Henning Höne bewirbt sich als FDP-Chef – und geht damit ins Risiko.",
+        "paragraphs": [
+          "Sie sind so gut wie tot, und nun will einer die Liberalen retten, den außerhalb von Nordrhein-Westfalen kaum jemand kennt: Parteivize Henning Höne bewirbt sich als FDP-Chef – und geht damit ins Risiko."
+        ],
+        "link": "https://www.spiegel.de/politik/deutschland/fdp-vorsitz-henning-hoene-will-die-liberalen-wiederbeleben-a-05b18fb5-2390-45a7-ac0a-b822e8f55d5a#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-03-26T19:11:00.000Z"
       },
