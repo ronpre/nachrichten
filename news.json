@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-03-29T14:34:17.555Z",
+  "updatedAt": "2026-03-29T14:53:38.771Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "{urn:uuid:73210600-2bf2-455e-8091-f87192ae0ff0}",
+        "title": "Preisentwicklung: Schokoladenosterhasen kosten bis zu 44 Prozent mehr als 2024",
+        "summary": "Die Kakaopreise sinken seit Monaten, doch Osterhasen aus Schokolade bleiben teuer. Hersteller nennen frühere Einkaufspreise und weitere Kosten als Ursache.",
+        "paragraphs": [
+          "Die Kakaopreise sinken seit Monaten, doch Osterhasen aus Schokolade bleiben teuer. Hersteller nennen frühere Einkaufspreise und weitere Kosten als Ursache."
+        ],
+        "link": "https://www.zeit.de/wirtschaft/2026-03/preisentwicklung-osterhasen-schokolade-kakao-teurer",
+        "source": "ZEIT",
+        "publishedAt": "2026-03-29T14:31:15.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/iran-krieg-die-huthis-unterstuetzen-den-iran-mit-raketenangriffen/100212858.html",
         "title": "Iran-Krieg: Die Huthis unterstützen den Iran mit Raketenangriffen",
@@ -23,17 +34,6 @@
         "link": "https://www.handelsblatt.com/politik/deutschland/reformen-reiche-schliesst-hoehere-steuern-fuer-topverdiener-nicht-aus/100212853.html",
         "source": "Handelsblatt",
         "publishedAt": "2026-03-29T14:14:17.000Z"
-      },
-      {
-        "id": "{urn:uuid:73210600-2bf2-455e-8091-f87192ae0ff0}",
-        "title": "Preisentwicklung: Schokoladenosterhasen kosten bis zu 44 Prozent mehr als 2024",
-        "summary": "Die Kakaopreise sinken seit Monaten, doch Osterhasen aus Schokolade bleiben teuer. Hersteller nennen frühere Einkaufspreise und weitere Kosten als Ursache.",
-        "paragraphs": [
-          "Die Kakaopreise sinken seit Monaten, doch Osterhasen aus Schokolade bleiben teuer. Hersteller nennen frühere Einkaufspreise und weitere Kosten als Ursache."
-        ],
-        "link": "https://www.zeit.de/wirtschaft/2026-03/preisentwicklung-osterhasen-schokolade-kakao-teurer",
-        "source": "ZEIT",
-        "publishedAt": "2026-03-29T13:58:48.000Z"
       },
       {
         "id": "li.3460555",
@@ -447,15 +447,48 @@
     ],
     "sport": [
       {
+        "id": "li.3460464",
+        "title": "Deutsche Nationalmannschaft: Dieses Team ist kein Verteidigungsmonster ...",
+        "summary": "... und es wäre falsch, es mit Gewalt zu einem machen zu wollen. Die Stärken der Mannschaft und des Trainers liegen vorne.",
+        "paragraphs": [
+          "... und es wäre falsch, es mit Gewalt zu einem machen zu wollen. Die Stärken der Mannschaft und des Trainers liegen vorne."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/abwehr-dfb-team-wm-nagelsmann-kommenar-li.3460464",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-03-29T14:46:52.000Z"
+      },
+      {
+        "id": "li.3460463",
+        "title": "Erkenntnisse aus dem Schweiz-Länderspiel: Nagelsmann muss jetzt zum Raumpfleger werden",
+        "summary": "Die rechte Abwehrseite, das defensive Zentrum, der gegnerische Strafraum: Bis zur WM muss die DFB-Elf drei relevante Zonen in den Griff bekommen. Das Spiel in Basel liefert die perfekten Bilder dazu.",
+        "paragraphs": [
+          "Die rechte Abwehrseite, das defensive Zentrum, der gegnerische Strafraum: Bis zur WM muss die DFB-Elf drei relevante Zonen in den Griff bekommen. Das Spiel in Basel liefert die perfekten Bilder dazu."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/nationalmannschaft-schweiz-4-3-nagelsmann-kimmich-goretzka-havertz-li.3460463",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-03-29T14:46:32.000Z"
+      },
+      {
         "id": "https://www.kicker.de/wolfsburg-gegen-union-berlin-2026-frauen-bundesliga-5076349/spielbericht#omrss",
-        "title": "LIVE! Beide Offensivreihen mit Problemen: Noch kein Torschuss in Wolfsburg",
+        "title": "LIVE! Traumtor von Minge: Wolfsburg gleicht postwendend aus",
         "summary": "Der VfL Wolfsburg trifft nach dem CL-Hinspielduell mit Lyon in der Liga auf den 1. FC Union Berlin. Die Aufsteigerinnen aus der Hauptstadt sind seit vier Ligaspielen ungeschlagen.",
         "paragraphs": [
           "Der VfL Wolfsburg trifft nach dem CL-Hinspielduell mit Lyon in der Liga auf den 1. FC Union Berlin. Die Aufsteigerinnen aus der Hauptstadt sind seit vier Ligaspielen ungeschlagen."
         ],
         "link": "https://www.kicker.de/wolfsburg-gegen-union-berlin-2026-frauen-bundesliga-5076349/spielbericht#omrss",
         "source": "Kicker",
-        "publishedAt": "2026-03-29T14:27:37.000Z"
+        "publishedAt": "2026-03-29T14:45:20.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/absturz-auf-rang-17-spurs-trennen-sich-schon-wieder-von-trainer-tudor-1200750/artikel#omrss",
+        "title": "Absturz auf Rang 17: Spurs trennen sich schon wieder von Trainer Tudor",
+        "summary": "Igor Tudor ist seinen Job bei den Tottenham Hotspur schon wieder los. Die Verantwortlichen beurlaubten den kroatischen Trainer nach gerade einmal sieben Spielen.",
+        "paragraphs": [
+          "Igor Tudor ist seinen Job bei den Tottenham Hotspur schon wieder los. Die Verantwortlichen beurlaubten den kroatischen Trainer nach gerade einmal sieben Spielen."
+        ],
+        "link": "https://www.kicker.de/absturz-auf-rang-17-spurs-trennen-sich-schon-wieder-von-trainer-tudor-1200750/artikel#omrss",
+        "source": "Kicker",
+        "publishedAt": "2026-03-29T14:40:30.000Z"
       },
       {
         "id": "li.3460450",
@@ -577,13 +610,13 @@
         "publishedAt": "2026-03-29T13:06:41.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-leipzig-lechzt-nach-einem-heimsieg-ueberrascht-stuttgart-auch-lemgo-1205222/artikel#omrss",
-        "title": "LIVE! Leipzig lechzt nach einem Heimsieg - Überrascht Stuttgart auch Lemgo?",
+        "id": "https://www.kicker.de/live-leipzig-verpasst-ersehnten-heimsieg-ueberrascht-stuttgart-auch-lemgo-1205222/artikel#omrss",
+        "title": "LIVE! Leipzig verpasst ersehnten Heimsieg - Überrascht Stuttgart auch Lemgo?",
         "summary": "Am Sonntag richtet sich der Blick in der Handball-Bundesliga in die untere Tabellenhälfte. Schlusslicht Leipzig braucht gegen Eisenach dringend einen Sieg. In deutlich ruhigeren Gefilden wollen auch Göppingen (vs. Erlangen) und Stuttgart (vs. Lemgo) ihre Heimspiele gewinnen.",
         "paragraphs": [
           "Am Sonntag richtet sich der Blick in der Handball-Bundesliga in die untere Tabellenhälfte. Schlusslicht Leipzig braucht gegen Eisenach dringend einen Sieg. In deutlich ruhigeren Gefilden wollen auch Göppingen (vs. Erlangen) und Stuttgart (vs. Lemgo) ihre Heimspiele gewinnen."
         ],
-        "link": "https://www.kicker.de/live-leipzig-lechzt-nach-einem-heimsieg-ueberrascht-stuttgart-auch-lemgo-1205222/artikel#omrss",
+        "link": "https://www.kicker.de/live-leipzig-verpasst-ersehnten-heimsieg-ueberrascht-stuttgart-auch-lemgo-1205222/artikel#omrss",
         "source": "Kicker",
         "publishedAt": "2026-03-29T12:58:01.000Z"
       },
@@ -630,39 +663,6 @@
         "link": "https://www.spiegel.de/sport/formel1/formel-1-oliver-bearmans-unfall-in-suzuka-sind-die-neuen-formel-1-autos-zu-gefaehrlich-a-656fd06e-dcf3-4109-9707-e0fb0a59fca0#ref=rss",
         "source": "SPIEGEL",
         "publishedAt": "2026-03-29T12:34:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/worldtour-rennkalender-2026-von-australien-bis-china-1154022/artikel#omrss",
-        "title": "WorldTour-Rennkalender 2026: Von Australien bis China",
-        "summary": "Die UCI hat den Rennkalender für die Saison 2026 vorgestellt. Große Änderungen gibt es auf WorldTour-Ebene nicht. Auch die Termine der Rennen in Deutschland bleiben bestehen.",
-        "paragraphs": [
-          "Die UCI hat den Rennkalender für die Saison 2026 vorgestellt. Große Änderungen gibt es auf WorldTour-Ebene nicht. Auch die Termine der Rennen in Deutschland bleiben bestehen."
-        ],
-        "link": "https://www.kicker.de/worldtour-rennkalender-2026-von-australien-bis-china-1154022/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-29T12:33:39.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wilson-bringt-schalkes-u-19-in-die-spur-koelns-starke-erste-25-minuten-1205933/artikel#omrss",
-        "title": "Wilson bringt Schalkes U 19 in die Spur - Kölns starke erste 25 Minuten",
-        "summary": "Vor einer Woche hatten die A-Junioren des FC Schalke 04 das Nachholspiel in der Hauptrunde der U-19-DFB-Nachwuchsliga in Kiel klar für sich entschieden, nun haben die Knappen auch zu Hause die jungen Störche bezwungen. Köln führte gegen den HSV bereits nach 25 Minuten 4:0. Drei Chiumento-Tore reicher Nürnberg gegen Paderborn nicht.",
-        "paragraphs": [
-          "Vor einer Woche hatten die A-Junioren des FC Schalke 04 das Nachholspiel in der Hauptrunde der U-19-DFB-Nachwuchsliga in Kiel klar für sich entschieden, nun haben die Knappen auch zu Hause die jungen Störche bezwungen. Köln führte gegen den HSV bereits nach 25 Minuten 4:0. Drei Chiumento-Tore reicher Nürnberg gegen Paderborn nicht."
-        ],
-        "link": "https://www.kicker.de/wilson-bringt-schalkes-u-19-in-die-spur-koelns-starke-erste-25-minuten-1205933/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-29T12:32:12.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/tour-haertetest-fuer-lipowitz-gelungen-edelhelfer-evenepoel-1205954/artikel#omrss",
-        "title": "Tour-Härtetest für Lipowitz gelungen - Edelhelfer Evenepoel?",
-        "summary": "Drei Monate vor dem Start der Frankreich-Rundfahrt präsentiert sich die deutsche Radsport-Hoffnung in guter Form. Spannend bleibt die teaminterne Rollenverteilung mit Doppel-Olympiasieger Evenepoel.",
-        "paragraphs": [
-          "Drei Monate vor dem Start der Frankreich-Rundfahrt präsentiert sich die deutsche Radsport-Hoffnung in guter Form. Spannend bleibt die teaminterne Rollenverteilung mit Doppel-Olympiasieger Evenepoel."
-        ],
-        "link": "https://www.kicker.de/tour-haertetest-fuer-lipowitz-gelungen-edelhelfer-evenepoel-1205954/artikel#omrss",
-        "source": "Kicker",
-        "publishedAt": "2026-03-29T12:31:54.000Z"
       }
     ],
     "edv": [
