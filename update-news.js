@@ -10,7 +10,8 @@ const parser = new Parser({ timeout: 10000 });
 
 const SECTION_CONFIG = {
   wirtschaft: [
-    { source: "Handelsblatt", url: "https://www.handelsblatt.com/contentexport/feed/wirtschaft" }
+    { source: "Tagesschau", url: "https://www.tagesschau.de/xml/rss2" },
+    { source: "n-tv", url: "https://www.n-tv.de/wirtschaft/rss" }
   ],
   politik: [
     { source: "SPIEGEL", url: "https://www.spiegel.de/politik/index.rss" },
@@ -33,7 +34,7 @@ const SECTION_KEYS = Object.keys(SECTION_CONFIG);
 
 const SECTION_RULES = {
   wirtschaft: {
-    allowedSources: new Set(["Handelsblatt"]),
+    allowedSources: new Set(["Tagesschau", "n-tv"]),
     requireAccessible: true
   },
   politik: {
