@@ -14,8 +14,8 @@ const SECTION_CONFIG = {
     { source: "n-tv", url: "https://www.n-tv.de/wirtschaft/rss" }
   ],
   politik: [
-    { source: "SPIEGEL", url: "https://www.spiegel.de/politik/index.rss" },
-    { source: "Sueddeutsche", url: "https://rss.sueddeutsche.de/rss/Politik" }
+    { source: "Tagesschau", url: "https://www.tagesschau.de/xml/rss2" },
+    { source: "DW", url: "https://rss.dw.com/xml/rss-de-top" }
   ],
   sport: [
     { source: "ZEIT", url: "https://newsfeed.zeit.de/sport/index" },
@@ -38,7 +38,8 @@ const SECTION_RULES = {
     requireAccessible: true
   },
   politik: {
-    allowedSources: new Set(["SPIEGEL", "Sueddeutsche"])
+    allowedSources: new Set(["Tagesschau", "DW"]),
+    requireAccessible: true
   },
   edv: {
     requireAccessible: true
