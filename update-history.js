@@ -753,6 +753,29 @@ async function loadHistoryLog() {
   }
 }
 
+async function loadCurrentGeschichteIds() {
+  try {
+    const raw = await fs.readFile(OUTPUT_FILE, "utf-8");
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed?.articles)) {
+      return [];
+    }
+    return parsed.articles.map((article) => article.id).filter(Boolean);
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return [];
+    }
+    throw error;
+  }
+}
+
+function mergeHistoryIds(...groups) {
+  const flat = groups
+    .filter(Array.isArray)
+    .reduce((acc, group) => acc.concat(group.filter(Boolean)), []);
+  return Array.from(new Set(flat));
+}
+
 async function persistHistoryLog(log, newlyUsedIds) {
   const existing = Array.isArray(log.used_history_ids) ? log.used_history_ids : [];
   const merged = Array.from(new Set([...existing, ...newlyUsedIds]));
@@ -809,25 +832,31 @@ async function saveGeschichte(articles) {
 
 async function main() {
   let historyLog = await loadHistoryLog();
+  const currentGeschichteIds = await loadCurrentGeschichteIds();
   let usedHistoryIds = getUsedHistoryIds(historyLog);
-  let eligibleCount = buildEligibleHistory(usedHistoryIds).length;
+  let combinedUsedIds = mergeHistoryIds(usedHistoryIds, currentGeschichteIds);
+  let eligibleCount = buildEligibleHistory(combinedUsedIds).length;
 
   if (eligibleCount < DAILY_LIMIT) {
     console.warn(
       `History-Pool erschöpft (${eligibleCount}/${DAILY_LIMIT}). Setze used_history_ids zurück und starte Rotation neu.`
     );
     historyLog = await resetUsedHistoryIds(historyLog);
-    usedHistoryIds = [];
-    eligibleCount = buildEligibleHistory(usedHistoryIds).length;
+    usedHistoryIds = getUsedHistoryIds(historyLog);
+    combinedUsedIds = mergeHistoryIds(usedHistoryIds, currentGeschichteIds);
+    eligibleCount = buildEligibleHistory(combinedUsedIds).length;
   }
 
   if (eligibleCount < DAILY_LIMIT) {
     throw historyShortageError(eligibleCount, DAILY_LIMIT);
   }
 
-  const articles = pickArticles(DAILY_LIMIT, usedHistoryIds);
+  const articles = pickArticles(DAILY_LIMIT, combinedUsedIds);
   const payload = await saveGeschichte(articles);
-  await persistHistoryLog(historyLog, articles.map((article) => article.id));
+  await persistHistoryLog(
+    historyLog,
+    mergeHistoryIds(currentGeschichteIds, articles.map((article) => article.id))
+  );
   console.log(
     `Geschichte aktualisiert (${payload.articles.length} kuratierte Artikel).`
   );

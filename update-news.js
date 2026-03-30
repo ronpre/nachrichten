@@ -10,15 +10,11 @@ const parser = new Parser({ timeout: 10000 });
 
 const SECTION_CONFIG = {
   wirtschaft: [
-    { source: "ZEIT", url: "https://newsfeed.zeit.de/wirtschaft/index" },
-    { source: "SPIEGEL", url: "https://www.spiegel.de/wirtschaft/index.rss" },
-    { source: "Sueddeutsche", url: "https://rss.sueddeutsche.de/rss/Wirtschaft" },
     { source: "Handelsblatt", url: "https://www.handelsblatt.com/contentexport/feed/wirtschaft" }
   ],
   politik: [
     { source: "SPIEGEL", url: "https://www.spiegel.de/politik/index.rss" },
-    { source: "Handelsblatt", url: "https://www.handelsblatt.com/contentexport/feed/politik" },
-    { source: "Focus", url: "https://www.focus.de/politik/rssfeed.xml" }
+    { source: "Sueddeutsche", url: "https://rss.sueddeutsche.de/rss/Politik" }
   ],
   sport: [
     { source: "ZEIT", url: "https://newsfeed.zeit.de/sport/index" },
@@ -34,6 +30,71 @@ const SECTION_CONFIG = {
 
 const SECTION_SIZE = 20;
 const SECTION_KEYS = Object.keys(SECTION_CONFIG);
+
+const SECTION_RULES = {
+  wirtschaft: {
+    allowedSources: new Set(["Handelsblatt"]),
+    requireAccessible: true
+  },
+  politik: {
+    allowedSources: new Set(["SPIEGEL", "Sueddeutsche"])
+  },
+  edv: {
+    requireAccessible: true
+  }
+};
+
+const GENERIC_PAYWALL_TEXT_HINTS = [
+  /\bhb\+\b/i,
+  /handelsblatt\s*\+/i,
+  /heise\s*\+/i,
+  /c't\s*\+/i,
+  /\bsz\+\b/i,
+  /\babo\b/i,
+  /abon(n)?enten/i,
+  /\bjetzt\s+weiterlesen\b/i,
+  /\bpaywall\b/i,
+  /plus-?inhalt/i,
+  /nur\s+für\s+abonnenten/i,
+  /registrieren.*weiterlesen/i,
+  /\[\s*\+\s*\]/
+];
+
+const GENERIC_PAYWALL_PATH_HINTS = [
+  /\/abo\//i,
+  /\/abonnement\//i,
+  /\/premium\//i,
+  /\/plus\//i,
+  /\/select\//i
+];
+
+const PAYWALL_HOST_RULES = [
+  {
+    hostPattern: /handelsblatt\.com$/i,
+    pathPatterns: [/\/abo\//i, /\/premium\//i, /\/plus\//i],
+    textHints: [/handelsblatt\s*\+/i, /\bhb\+\b/i]
+  },
+  {
+    hostPattern: /spiegel\.de$/i,
+    pathPatterns: [/\/plus\//i],
+    textHints: [/\[\s*\+\s*\]/]
+  },
+  {
+    hostPattern: /sueddeutsche\.de$/i,
+    pathPatterns: [/\/plus\//i],
+    textHints: [/\bsz\+\b/i]
+  },
+  {
+    hostPattern: /heise\.de$/i,
+    pathPatterns: [/\/select\//i],
+    textHints: [/heise\s*\+/i]
+  },
+  {
+    hostPattern: /ct\.de$/i,
+    pathPatterns: [/\/plus\//i, /\/premium\//i],
+    textHints: [/c't\s*\+/i]
+  }
+];
 
 function createEmptyCategories() {
   return SECTION_KEYS.reduce((acc, key) => {
@@ -84,6 +145,66 @@ function dedupe(items) {
   });
 }
 
+function collectTextFragments(item) {
+  const parts = [];
+  if (item.title) parts.push(item.title);
+  if (item.summary) parts.push(item.summary);
+  if (Array.isArray(item.paragraphs) && item.paragraphs.length) {
+    parts.push(item.paragraphs.join(" "));
+  }
+  if (item.link) parts.push(item.link);
+  return parts.join("\n");
+}
+
+function isLikelyPaywalled(item) {
+  const textBlob = collectTextFragments(item).toLowerCase();
+
+  if (GENERIC_PAYWALL_TEXT_HINTS.some((pattern) => pattern.test(textBlob))) {
+    return true;
+  }
+
+  try {
+    const { hostname, pathname } = new URL(item.link || "");
+    const normalizedPath = pathname || "";
+    const hostRule = PAYWALL_HOST_RULES.find((rule) => rule.hostPattern.test(hostname));
+
+    if (hostRule) {
+      if (
+        (hostRule.pathPatterns && hostRule.pathPatterns.some((pattern) => pattern.test(normalizedPath))) ||
+        (hostRule.textHints && hostRule.textHints.some((pattern) => pattern.test(textBlob)))
+      ) {
+        return true;
+      }
+    } else if (GENERIC_PAYWALL_PATH_HINTS.some((pattern) => pattern.test(normalizedPath))) {
+      return true;
+    }
+  } catch {
+    // ignore malformed URLs
+  }
+
+  return false;
+}
+
+function applySectionRules(sectionKey, items) {
+  const rules = SECTION_RULES[sectionKey];
+  if (!rules) {
+    return items;
+  }
+
+  return items.filter((item) => {
+    if (rules.allowedSources && !rules.allowedSources.has(item.source)) {
+      return false;
+    }
+    if (rules.requireAccessible && isLikelyPaywalled(item)) {
+      console.warn(
+        `Paywall-Artikel ausgeblendet (${sectionKey}): ${item.source || "Unbekannt"} – ${item.title}`
+      );
+      return false;
+    }
+    return true;
+  });
+}
+
 async function loadExisting() {
   try {
     const raw = await fs.readFile(DATA_FILE, "utf8");
@@ -121,7 +242,8 @@ async function updateSections() {
       results.push(...entries);
     }
 
-    const ordered = dedupe(results)
+    const filtered = applySectionRules(section, results);
+    const ordered = dedupe(filtered)
       .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
       .slice(0, SECTION_SIZE);
 
