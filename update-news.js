@@ -14,8 +14,7 @@ const SECTION_CONFIG = {
     { source: "n-tv", url: "https://www.n-tv.de/wirtschaft/rss" }
   ],
   politik: [
-    { source: "Tagesschau", url: "https://www.tagesschau.de/xml/rss2" },
-    { source: "DW", url: "https://rss.dw.com/xml/rss-de-top" }
+    { source: "DW", url: "https://rss.dw.com/xml/rss-de-politik" }
   ],
   sport: [
     { source: "ZEIT", url: "https://newsfeed.zeit.de/sport/index" },
@@ -38,7 +37,7 @@ const SECTION_RULES = {
     requireAccessible: true
   },
   politik: {
-    allowedSources: new Set(["Tagesschau", "DW"]),
+    allowedSources: new Set(["DW"]),
     requireAccessible: true
   },
   edv: {
@@ -68,6 +67,31 @@ const ECONOMY_KEYWORDS = [
   /invest/i,
   /energiepreis/i,
   /lieferkette/i
+];
+
+const POLITICS_KEYWORDS = [
+  /politik/i,
+  /regierung/i,
+  /bundestag/i,
+  /bundesrat/i,
+  /parlament/i,
+  /gesetz/i,
+  /gesetzgeb/i,
+  /koalition/i,
+  /opposition/i,
+  /minister(?:präsident)?/i,
+  /kanzler/i,
+  /wahlkampf/i,
+  /wahl/i,
+  /regierungskrise/i,
+  /außenpolitik/i,
+  /innenpolitik/i,
+  /diplomat/i,
+  /resolution/i,
+  /sicherheitsrat/i,
+  /demokratie/i,
+  /verfassung/i,
+  /umfragen?\s+zur\s+wahl/i
 ];
 
 const GENERIC_PAYWALL_TEXT_HINTS = [
@@ -187,6 +211,11 @@ function isEconomyTopic(item) {
   return ECONOMY_KEYWORDS.some((pattern) => pattern.test(textBlob));
 }
 
+function isPoliticsTopic(item) {
+  const textBlob = collectTextFragments(item).toLowerCase();
+  return POLITICS_KEYWORDS.some((pattern) => pattern.test(textBlob));
+}
+
 function isLikelyPaywalled(item) {
   const textBlob = collectTextFragments(item).toLowerCase();
 
@@ -229,6 +258,12 @@ function applySectionRules(sectionKey, items) {
     if (sectionKey === "wirtschaft" && !isEconomyTopic(item)) {
       console.warn(
         `Nicht-Wirtschaft-Artikel ausgeblendet (${item.source || "Unbekannt"}) – ${item.title}`
+      );
+      return false;
+    }
+    if (sectionKey === "politik" && !isPoliticsTopic(item)) {
+      console.warn(
+        `Nicht-Politik-Artikel ausgeblendet (${item.source || "Unbekannt"}) – ${item.title}`
       );
       return false;
     }
