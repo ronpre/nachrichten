@@ -10,7 +10,7 @@ const parser = new Parser({ timeout: 10000 });
 
 const SECTION_CONFIG = {
   wirtschaft: [
-    { source: "Tagesschau", url: "https://www.tagesschau.de/xml/rss2" },
+    { source: "Tagesschau", url: "https://www.tagesschau.de/xml/rss2?ressort=wirtschaft" },
     { source: "n-tv", url: "https://www.n-tv.de/wirtschaft/rss" }
   ],
   politik: [
@@ -45,6 +45,30 @@ const SECTION_RULES = {
     requireAccessible: true
   }
 };
+
+const ECONOMY_KEYWORDS = [
+  /wirtschaft/i,
+  /finanz/i,
+  /finanzmarkt/i,
+  /geldpolitik/i,
+  /unternehmen/i,
+  /konzern/i,
+  /industrie/i,
+  /produktion/i,
+  /markt/i,
+  /handel/i,
+  /export/i,
+  /import/i,
+  /bo[eö]rs/i,
+  /dax/i,
+  /zins/i,
+  /inflation/i,
+  /konjunktur/i,
+  /arbeitsmarkt/i,
+  /invest/i,
+  /energiepreis/i,
+  /lieferkette/i
+];
 
 const GENERIC_PAYWALL_TEXT_HINTS = [
   /\bhb\+\b/i,
@@ -158,6 +182,11 @@ function collectTextFragments(item) {
   return parts.join("\n");
 }
 
+function isEconomyTopic(item) {
+  const textBlob = collectTextFragments(item).toLowerCase();
+  return ECONOMY_KEYWORDS.some((pattern) => pattern.test(textBlob));
+}
+
 function isLikelyPaywalled(item) {
   const textBlob = collectTextFragments(item).toLowerCase();
 
@@ -195,6 +224,12 @@ function applySectionRules(sectionKey, items) {
 
   return items.filter((item) => {
     if (rules.allowedSources && !rules.allowedSources.has(item.source)) {
+      return false;
+    }
+    if (sectionKey === "wirtschaft" && !isEconomyTopic(item)) {
+      console.warn(
+        `Nicht-Wirtschaft-Artikel ausgeblendet (${item.source || "Unbekannt"}) – ${item.title}`
+      );
       return false;
     }
     if (rules.requireAccessible && isLikelyPaywalled(item)) {
