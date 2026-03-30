@@ -14,7 +14,9 @@ const SECTION_CONFIG = {
     { source: "n-tv", url: "https://www.n-tv.de/wirtschaft/rss" }
   ],
   politik: [
-    { source: "DW", url: "https://rss.dw.com/xml/rss-de-politik" }
+    // Dedicated Politik feed is unavailable (DW responds with "no feed"),
+    // so we rely on the top feed and filter down to politics-only items.
+    { source: "DW", url: "https://rss.dw.com/xml/rss-de-top" }
   ],
   sport: [
     { source: "ZEIT", url: "https://newsfeed.zeit.de/sport/index" },
@@ -72,6 +74,7 @@ const ECONOMY_KEYWORDS = [
 const POLITICS_KEYWORDS = [
   /politik/i,
   /regierung/i,
+  /regierungskrise/i,
   /bundestag/i,
   /bundesrat/i,
   /parlament/i,
@@ -80,10 +83,12 @@ const POLITICS_KEYWORDS = [
   /koalition/i,
   /opposition/i,
   /minister(?:präsident)?/i,
+  /präsident/i,
   /kanzler/i,
   /wahlkampf/i,
   /wahl/i,
-  /regierungskrise/i,
+  /krieg/i,
+  /konflikt/i,
   /außenpolitik/i,
   /innenpolitik/i,
   /diplomat/i,
@@ -91,8 +96,29 @@ const POLITICS_KEYWORDS = [
   /sicherheitsrat/i,
   /demokratie/i,
   /verfassung/i,
-  /umfragen?\s+zur\s+wahl/i
+  /umfragen?\s+zur\s+wahl/i,
+  /sanktion/i,
+  /militär/i,
+  /verteidigungs/i,
+  /regierungschef/i,
+  /staatss?chef/i
 ];
+
+const POLITICS_CATEGORY_ALLOWLIST = new Set([
+  "politik",
+  "welt",
+  "deutschland",
+  "aktuelles"
+]);
+
+const POLITICS_CATEGORY_BLOCKLIST = new Set([
+  "sport",
+  "kultur",
+  "wirtschaft",
+  "umwelt",
+  "gesundheit",
+  "wissen"
+]);
 
 const GENERIC_PAYWALL_TEXT_HINTS = [
   /\bhb\+\b/i,
@@ -180,6 +206,9 @@ function normalizeItem(item, source) {
     summary,
     paragraphs: summary ? [summary] : [],
     link: item.link || "",
+    category: Array.isArray(item.categories) && item.categories.length
+      ? item.categories[0]
+      : item.category || null,
     source,
     publishedAt: new Date(published).toISOString()
   };
@@ -212,6 +241,16 @@ function isEconomyTopic(item) {
 }
 
 function isPoliticsTopic(item) {
+  const category = (item.category || "").trim().toLowerCase();
+  if (category) {
+    if (POLITICS_CATEGORY_BLOCKLIST.has(category)) {
+      return false;
+    }
+    if (POLITICS_CATEGORY_ALLOWLIST.has(category)) {
+      return true;
+    }
+  }
+
   const textBlob = collectTextFragments(item).toLowerCase();
   return POLITICS_KEYWORDS.some((pattern) => pattern.test(textBlob));
 }
