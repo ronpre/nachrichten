@@ -47,6 +47,8 @@ const SECTION_RULES = {
   }
 };
 
+const EDV_BALANCE_SOURCES = ["c't", "heise"];
+
 const ECONOMY_KEYWORDS = [
   /wirtschaft/i,
   /finanz/i,
@@ -224,6 +226,50 @@ function dedupe(items) {
   });
 }
 
+function enforceEdvBalance(items, limit) {
+  const pools = new Map();
+  EDV_BALANCE_SOURCES.forEach((name) => pools.set(name, []));
+  pools.set("__other__", []);
+
+  items.forEach((item) => {
+    const bucket = EDV_BALANCE_SOURCES.find((name) => item.source === name);
+    if (bucket) {
+      pools.get(bucket).push(item);
+    } else {
+      pools.get("__other__").push(item);
+    }
+  });
+
+  const balanced = [];
+  while (balanced.length < limit) {
+    let added = false;
+    for (const name of EDV_BALANCE_SOURCES) {
+      const pool = pools.get(name);
+      if (pool.length && balanced.length < limit) {
+        balanced.push(pool.shift());
+        added = true;
+      }
+    }
+    if (!added) {
+      break;
+    }
+  }
+
+  for (const name of EDV_BALANCE_SOURCES) {
+    const pool = pools.get(name);
+    while (balanced.length < limit && pool.length) {
+      balanced.push(pool.shift());
+    }
+  }
+
+  const otherPool = pools.get("__other__");
+  while (balanced.length < limit && otherPool.length) {
+    balanced.push(otherPool.shift());
+  }
+
+  return balanced;
+}
+
 function collectTextFragments(item) {
   const parts = [];
   if (item.title) parts.push(item.title);
@@ -354,9 +400,16 @@ async function updateSections() {
     }
 
     const filtered = applySectionRules(section, results);
-    const ordered = dedupe(filtered)
-      .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
-      .slice(0, SECTION_SIZE);
+    const sorted = dedupe(filtered).sort(
+      (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt)
+    );
+
+    const prepared =
+      section === "edv"
+        ? enforceEdvBalance(sorted, SECTION_SIZE)
+        : sorted;
+
+    const ordered = prepared.slice(0, SECTION_SIZE);
 
     if (ordered.length < SECTION_SIZE) {
       console.warn(`Warnung: ${section} liefert nur ${ordered.length} Artikel.`);
