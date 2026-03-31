@@ -14,9 +14,9 @@ const SECTION_CONFIG = {
     { source: "n-tv", url: "https://www.n-tv.de/wirtschaft/rss" }
   ],
   politik: [
-    // Dedicated Politik feed is unavailable (DW responds with "no feed"),
-    // so we rely on the top feed and filter down to politics-only items.
-    { source: "DW", url: "https://rss.dw.com/xml/rss-de-top" }
+    // DW stellt keinen sauberen Politik-Feed bereit, daher filtern wir den Top-Feed.
+    { source: "DW", url: "https://rss.dw.com/xml/rss-de-top" },
+    { source: "Sueddeutsche", url: "https://rss.sueddeutsche.de/rss/Politik" }
   ],
   sport: [
     { source: "ZEIT", url: "https://newsfeed.zeit.de/sport/index" },
@@ -39,7 +39,7 @@ const SECTION_RULES = {
     requireAccessible: true
   },
   politik: {
-    allowedSources: new Set(["DW"]),
+    allowedSources: new Set(["DW", "Sueddeutsche"]),
     requireAccessible: true
   },
   edv: {
