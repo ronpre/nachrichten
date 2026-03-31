@@ -388,34 +388,41 @@ async function saveData(payload) {
   await fs.writeFile(DATA_FILE, body);
 }
 
+async function buildSectionPayload(section, feeds) {
+  const feedResults = await Promise.all(feeds.map((feed) => fetchFeed(feed)));
+  const results = feedResults.flat();
+
+  const filtered = applySectionRules(section, results);
+  const sorted = dedupe(filtered).sort(
+    (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt)
+  );
+
+  const prepared =
+    section === "edv"
+      ? enforceEdvBalance(sorted, SECTION_SIZE)
+      : sorted;
+
+  const ordered = prepared.slice(0, SECTION_SIZE);
+
+  if (ordered.length < SECTION_SIZE) {
+    console.warn(`Warnung: ${section} liefert nur ${ordered.length} Artikel.`);
+  }
+
+  return [section, ordered];
+}
+
 async function updateSections() {
   const existing = await loadExisting();
   const next = { ...existing, categories: createEmptyCategories() };
 
-  for (const [section, feeds] of Object.entries(SECTION_CONFIG)) {
-    const results = [];
-    for (const feed of feeds) {
-      const entries = await fetchFeed(feed);
-      results.push(...entries);
-    }
+  const sectionPayloads = await Promise.all(
+    Object.entries(SECTION_CONFIG).map(([section, feeds]) =>
+      buildSectionPayload(section, feeds)
+    )
+  );
 
-    const filtered = applySectionRules(section, results);
-    const sorted = dedupe(filtered).sort(
-      (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt)
-    );
-
-    const prepared =
-      section === "edv"
-        ? enforceEdvBalance(sorted, SECTION_SIZE)
-        : sorted;
-
-    const ordered = prepared.slice(0, SECTION_SIZE);
-
-    if (ordered.length < SECTION_SIZE) {
-      console.warn(`Warnung: ${section} liefert nur ${ordered.length} Artikel.`);
-    }
-
-    next.categories[section] = ordered;
+  for (const [section, articles] of sectionPayloads) {
+    next.categories[section] = articles;
   }
 
   next.updatedAt = new Date().toISOString();
