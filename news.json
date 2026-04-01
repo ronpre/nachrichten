@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-01T08:46:08.127Z",
+  "updatedAt": "2026-04-01T09:16:38.838Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "c6e00a70-77e4-4521-aaa3-ebcdb90438ff",
+        "title": "Friedenshoffnungen treiben den DAX",
+        "summary": "Neue Hoffnungen auf ein baldiges Ende der Attacken am Persischen Golf haben dem DAX einen starken Start in den April beschert. Teheran will aber offenbar von einer Waffenruhe nichts wissen.",
+        "paragraphs": [
+          "Neue Hoffnungen auf ein baldiges Ende der Attacken am Persischen Golf haben dem DAX einen starken Start in den April beschert. Teheran will aber offenbar von einer Waffenruhe nichts wissen."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-392.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-01T08:50:18.000Z"
+      },
       {
         "id": "b2a43ee6-aea1-4be4-b6bf-e1803e41b74c",
         "title": "Wachstumsprognose für 2026 mehr als halbiert",
@@ -229,21 +241,33 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-03-31T13:11:13.000Z"
-      },
-      {
-        "id": "d078527d-8973-4769-9064-1272a1c3dc27",
-        "title": "Nachwuchswerbung bei Tesla: Die \"geheime Fabrik\" öffnet die Türen",
-        "summary": "Tesla lädt potenzielle Azubis und Studierende in seine sonst abgeschirmte Fabrik ein. Nach Schlagzeilen um die Betriebsratswahl will sich der Konzern beim \"Open Day\" von seiner besten Seite zeigen. Von Jacqueline Piwon und Jördis Götz.",
-        "paragraphs": [
-          "Tesla lädt potenzielle Azubis und Studierende in seine sonst abgeschirmte Fabrik ein. Nach Schlagzeilen um die Betriebsratswahl will sich der Konzern beim \"Open Day\" von seiner besten Seite zeigen. Von Jacqueline Piwon und Jördis Götz."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/unternehmen/tesla-nachwuchs-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-03-31T12:27:23.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3459764",
+        "title": "Katholische Kirche: Welche Osterbotschaft hat Leo XIV. in Zeiten des Krieges?",
+        "summary": "Es ist sein erstes Ostern als Leo XIV. und viele Menschen warten gespannt auf die Friedensbotschaft des US-amerikanischen Papstes. Bislang hat er an Kritik nicht gespart – auch an US-Präsident Trump.",
+        "paragraphs": [
+          "Es ist sein erstes Ostern als Leo XIV. und viele Menschen warten gespannt auf die Friedensbotschaft des US-amerikanischen Papstes. Bislang hat er an Kritik nicht gespart – auch an US-Präsident Trump."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/papst-leo-ostern-krieg-li.3459764",
+        "category": "Glaube und Religion",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-01T09:04:36.000Z"
+      },
+      {
+        "id": "li.3460037",
+        "title": "Russische Sabotage: „Lucky Strike“ und seine Spione",
+        "summary": "In Deutschland und anderen europäischen Ländern spionieren und sabotieren „Wegwerf-Agenten“, offenbar im russischen Auftrag. Einer der Anwerber ist ein gewisser „Lucky Strike“. Chats offenbaren, wie er seine Leute rekrutierte – etwa für Brandanschläge.",
+        "paragraphs": [
+          "In Deutschland und anderen europäischen Ländern spionieren und sabotieren „Wegwerf-Agenten“, offenbar im russischen Auftrag. Einer der Anwerber ist ein gewisser „Lucky Strike“. Chats offenbaren, wie er seine Leute rekrutierte – etwa für Brandanschläge."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/sabotage-russland-chatgruppe-lucky-strike-li.3460037",
+        "category": "Sicherheitspolitik",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-01T08:52:00.000Z"
+      },
       {
         "id": "li.3461608",
         "title": "Syrien-Rückkehrer: Der Kanzler, die 80 Prozent und die Frage: Wer hat’s gesagt?",
@@ -457,31 +481,57 @@
         "category": "Gesundheitspolitik",
         "source": "Sueddeutsche",
         "publishedAt": "2026-03-31T13:29:03.000Z"
-      },
-      {
-        "id": "li.3461720",
-        "title": "US-Angriffe auf Iran: Bomben auf Isfahan",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/us-angriffe-auf-iran-bomben-auf-isfahan-li.3461720",
-        "category": "Israel",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-31T13:17:04.000Z"
-      },
-      {
-        "id": "li.3460894",
-        "title": "EU-Außenminister besuchen Ukraine: „Putin hat unterschätzt, wie felsenfest unsere Entschlossenheit ist“",
-        "summary": "Während die Welt auf den Nahen Osten blickt, kämpfen Europas Außenminister darum, die Ukraine nicht aus dem Blick zu verlieren. Eine Reise nach Kiew wird zu einer dringenden Mahnung.",
-        "paragraphs": [
-          "Während die Welt auf den Nahen Osten blickt, kämpfen Europas Außenminister darum, die Ukraine nicht aus dem Blick zu verlieren. Eine Reise nach Kiew wird zu einer dringenden Mahnung."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/russland-ukraine-butscha-krieg-putin-wadephul-selenskij-li.3460894",
-        "category": "Außenpolitik",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-31T13:11:31.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "88e006de-77f3-47f9-968a-e4aff42b7d9c",
+        "title": "Italien scheitert in der WM-Qualifikation: Gianluigi Donnarumma zerreißt Elfmeter-Spickzettel des Torwartkollegen",
+        "summary": "Um das erneute WM-Aus für Italien abzuwenden, griff Torwart Gianluigi Donnarumma zu schmutzigen Mitteln. Er versuchte, das Hilfsmittel des bosnischen Keepers Nikola Vasilj zu zerstören – doch der brauchte es gar nicht.",
+        "paragraphs": [
+          "Um das erneute WM-Aus für Italien abzuwenden, griff Torwart Gianluigi Donnarumma zu schmutzigen Mitteln. Er versuchte, das Hilfsmittel des bosnischen Keepers Nikola Vasilj zu zerstören – doch der brauchte es gar nicht."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/italien-scheitert-in-der-wm-qualifikation-gianluigi-donnarumma-zerreisst-elfmeter-spickzettel-des-torwartkollegen-a-88e006de-77f3-47f9-968a-e4aff42b7d9c#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-01T09:08:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/zum-130-jubilaeum-hannover-praesentiert-limitiertes-sondertrikot-1206719/artikel#omrss",
+        "title": "Zum 130. Jubiläum: Hannover präsentiert limitiertes Sondertrikot",
+        "summary": "Hannover 96 wurde - wie schon der Vereinsname verrät - 1896 gegründet und feiert entsprechend in diesem Jahr sein 130-jähriges Bestehen. Dazu stellte der Klub nun ein Sondertrikot vor, das es nur in limitierter Auflage geben wird.",
+        "paragraphs": [
+          "Hannover 96 wurde - wie schon der Vereinsname verrät - 1896 gegründet und feiert entsprechend in diesem Jahr sein 130-jähriges Bestehen. Dazu stellte der Klub nun ein Sondertrikot vor, das es nur in limitierter Auflage geben wird."
+        ],
+        "link": "https://www.kicker.de/zum-130-jubilaeum-hannover-praesentiert-limitiertes-sondertrikot-1206719/artikel#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-01T09:01:10.000Z"
+      },
+      {
+        "id": "li.3461993",
+        "title": "EM-Qualifikation: Die U21 liefert ab",
+        "summary": "Deutschlands Nachwuchsfußballer feiern die nächsten Erfolgserlebnisse – ehe viele von ihnen zurückkehren in den Bundesliga-Abstiegskampf.",
+        "paragraphs": [
+          "Deutschlands Nachwuchsfußballer feiern die nächsten Erfolgserlebnisse – ehe viele von ihnen zurückkehren in den Bundesliga-Abstiegskampf."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/u21-qualifikation-el-mala-nordirland-griechenland-li.3461993",
+        "category": "Deutsche Nationalmannschaft",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-01T08:59:30.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/weltweite-schande-rassistische-gesaenge-bei-aegyptens-gastspiel-in-spanien-1206709/artikel#omrss",
+        "title": "\"Weltweite Schande\": Rassistische Gesänge bei Ägyptens Gastspiel in Spanien",
+        "summary": "Beim Testspiel der spanischen Nationalmannschaft gegen Ägypten hat es in Barcelona antimuslimische Parolen auf den Rängen gegeben, dazu Pfiffe bei der Hymne. Nicht nur Spaniens Trainer wählt danach deutliche Worte.",
+        "paragraphs": [
+          "Beim Testspiel der spanischen Nationalmannschaft gegen Ägypten hat es in Barcelona antimuslimische Parolen auf den Rängen gegeben, dazu Pfiffe bei der Hymne. Nicht nur Spaniens Trainer wählt danach deutliche Worte."
+        ],
+        "link": "https://www.kicker.de/weltweite-schande-rassistische-gesaenge-bei-aegyptens-gastspiel-in-spanien-1206709/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-01T08:52:30.000Z"
+      },
       {
         "id": "https://www.kicker.de/schulter-op-noetig-schalke-zittert-um-dzeko-1206693/artikel#omrss",
         "title": "Schulter-OP nötig? Schalke zittert um Dzeko",
@@ -509,9 +559,9 @@
       {
         "id": "{urn:uuid:4af6a504-f7f0-4a7c-9719-b79b70ba7df1}",
         "title": "Fußball-WM ohne Italien: \"Der Albtraum geht weiter\"",
-        "summary": "Der dreimalige Fußballweltmeister Italien hat sich zum dritten Mal in Folge nicht für die WM qualifiziert. Die Medien des Landes sind bestürzt. Eine Presseschau",
+        "summary": "Der viermalige Fußballweltmeister Italien hat sich zum dritten Mal in Folge nicht für die WM qualifiziert. Die Medien des Landes sind bestürzt. Eine Presseschau",
         "paragraphs": [
-          "Der dreimalige Fußballweltmeister Italien hat sich zum dritten Mal in Folge nicht für die WM qualifiziert. Die Medien des Landes sind bestürzt. Eine Presseschau"
+          "Der viermalige Fußballweltmeister Italien hat sich zum dritten Mal in Folge nicht für die WM qualifiziert. Die Medien des Landes sind bestürzt. Eine Presseschau"
         ],
         "link": "https://www.zeit.de/sport/2026-04/italien-fussball-wm-albtraum-qualifikation-gescheitert",
         "category": "Sport",
@@ -621,7 +671,7 @@
         "paragraphs": [
           "2018, 2022, 2026: Abermals scheitern Italiens Fußballer an der Qualifikation zur Weltmeisterschaft – das einst so stolze Team rutscht in den tiefsten Abgrund."
         ],
-        "link": "https://www.sueddeutsche.de/sport/fussball-wm-quali-italien-raus-bosnien-elfmeter-li.3461895",
+        "link": "https://www.sueddeutsche.de/sport/fussball-wm-quali-playoffs-italien-raus-bosnien-elfmeter-li.3461895",
         "category": "Internationaler Fußball",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-01T07:19:21.000Z"
@@ -673,54 +723,6 @@
         "category": "Fußball",
         "source": "Kicker",
         "publishedAt": "2026-04-01T07:07:55.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/argentinien-gegen-sambia-2026-nationalteams-freundschaftsspiele-5197329/spielbericht#omrss",
-        "title": "Messi trifft bei Argentiniens Kantersieg - Brasilien siegt ohne Neymar - USA auf Formsuche",
-        "summary": "Rekordweltmeister Brasilien und Titelverteidiger Argentinien haben ihre nächsten Tests zweieinhalb Monate vor der WM bestanden. Für die USA läuft es weiterhin nicht rund.",
-        "paragraphs": [
-          "Rekordweltmeister Brasilien und Titelverteidiger Argentinien haben ihre nächsten Tests zweieinhalb Monate vor der WM bestanden. Für die USA läuft es weiterhin nicht rund."
-        ],
-        "link": "https://www.kicker.de/argentinien-gegen-sambia-2026-nationalteams-freundschaftsspiele-5197329/spielbericht#omrss",
-        "category": "Argentinien",
-        "source": "Kicker",
-        "publishedAt": "2026-04-01T07:06:14.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/gattuso-mit-emotionalen-worten-es-tut-weh-1206674/video#omrss",
-        "title": "Gattuso mit emotionalen Worten: \"Es tut weh\"",
-        "summary": "Italien verpasst nach der Niederlage gegen Bosnien-Herzegowina zum dritten mal in Folge eine Weltmeisterschaft. Italiens Trainer Gennaro Gattuso war auf der Pressekonferenz sichtlich getroffen.",
-        "paragraphs": [
-          "Italien verpasst nach der Niederlage gegen Bosnien-Herzegowina zum dritten mal in Folge eine Weltmeisterschaft. Italiens Trainer Gennaro Gattuso war auf der Pressekonferenz sichtlich getroffen."
-        ],
-        "link": "https://www.kicker.de/gattuso-mit-emotionalen-worten-es-tut-weh-1206674/video#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-01T06:43:29.000Z"
-      },
-      {
-        "id": "baf8a097-07f2-49ba-bd6e-2803eb6b54e5",
-        "title": "Italien scheitert erneut in der WM-Qualifikation: »Die Apokalypse geht weiter«",
-        "summary": "Die italienische Presse geht mit ihrer Mannschaft nach der dritten verpassten WM in Folge hart ins Gericht. In Frankreich ist von einem »fragwürdigen Spielfeld« die Rede.",
-        "paragraphs": [
-          "Die italienische Presse geht mit ihrer Mannschaft nach der dritten verpassten WM in Folge hart ins Gericht. In Frankreich ist von einem »fragwürdigen Spielfeld« die Rede."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/italien-scheitert-erneut-in-der-wm-qualifikation-die-apokalypse-geht-weiter-a-baf8a097-07f2-49ba-bd6e-2803eb6b54e5#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-01T06:40:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/edmonton-gegen-seattle-2026-nhl-5092619/spielbericht#omrss",
-        "title": "Playoffs in Sicht: Oilers und Sturms Bruins kurz vor dem Ziel",
-        "summary": "Auch ohne den verletzten Leon Draisaitl holen die Edmonton Oilers zum ersten Mal in dieser Saison vier Siege am Stück, können sich beim 3:0 gegen Seattle Kraken mit Philipp Grubauer im Tor auf ihre Defensive verlassen.",
-        "paragraphs": [
-          "Auch ohne den verletzten Leon Draisaitl holen die Edmonton Oilers zum ersten Mal in dieser Saison vier Siege am Stück, können sich beim 3:0 gegen Seattle Kraken mit Philipp Grubauer im Tor auf ihre Defensive verlassen."
-        ],
-        "link": "https://www.kicker.de/edmonton-gegen-seattle-2026-nhl-5092619/spielbericht#omrss",
-        "category": "Boston Bruins",
-        "source": "Kicker",
-        "publishedAt": "2026-04-01T06:16:47.000Z"
       }
     ],
     "edv": [
@@ -737,16 +739,16 @@
         "publishedAt": "2026-04-01T08:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Malware-auf-npm-HTTP-Client-axios-laedt-Backdoor-fuer-Windows-macOS-und-Linux-11242675.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Malware auf npm: HTTP-Client axios lädt Backdoor für Windows, macOS und Linux",
-        "summary": "Der Maintainer-Account für das Paket axios auf npm wurde geknackt, um einen Remote-Access-Trojaner für Windows, macOS und Linux einzuschleusen.",
+        "id": "https://www.heise.de/news/Cyberpunk-2077-Neues-VR-Spiel-fuer-Zero-Latency-Spielhallen-angekuendigt-11242959.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Cyberpunk 2077: Neues VR-Spiel für Zero Latency-Spielhallen angekündigt",
+        "summary": "CD Projekt Red bringt sein Sci-Fi-Rollenspiel gemeinsam mit Zero Latency VR als frei begehbares VR-Erlebnis in physische Arenen.",
         "paragraphs": [
-          "Der Maintainer-Account für das Paket axios auf npm wurde geknackt, um einen Remote-Access-Trojaner für Windows, macOS und Linux einzuschleusen."
+          "CD Projekt Red bringt sein Sci-Fi-Rollenspiel gemeinsam mit Zero Latency VR als frei begehbares VR-Erlebnis in physische Arenen."
         ],
-        "link": "https://www.heise.de/news/Malware-auf-npm-HTTP-Client-axios-laedt-Backdoor-fuer-Windows-macOS-und-Linux-11242675.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Cyberpunk-2077-Neues-VR-Spiel-fuer-Zero-Latency-Spielhallen-angekuendigt-11242959.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-01T08:26:00.000Z"
+        "publishedAt": "2026-04-01T08:53:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Video-Glasfaserausbau-So-verlaengert-ihr-euren-Anschluss-11227896.html",
@@ -761,16 +763,16 @@
         "publishedAt": "2026-03-29T07:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/50-Jahre-Apple-So-alt-wird-sonst-kein-Apfel-Mac-i-Podcast-11242903.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "50 Jahre Apple: So alt wird sonst kein Apfel | Mac & i-Podcast",
-        "summary": "Wir blicken zurück auf Apples bewegte Geschichte und diskutieren, wodurch sich die Firma vom Rest der Branche abheben konnte – und was davon geblieben ist.",
+        "id": "https://www.heise.de/news/Rekord-Finanzierung-OpenAI-sichert-sich-122-Milliarden-US-Dollar-fuer-KI-Ausbau-11242967.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "OpenAI sichert sich 122 Milliarden in einer der größten Finanzierungsrunden",
+        "summary": "Mit 122 Milliarden US-Dollar schließt OpenAI eine der größten Finanzierungsrunden der Geschichte ab und verschafft sich finanziellen Spielraum im KI-Wettlauf.",
         "paragraphs": [
-          "Wir blicken zurück auf Apples bewegte Geschichte und diskutieren, wodurch sich die Firma vom Rest der Branche abheben konnte – und was davon geblieben ist."
+          "Mit 122 Milliarden US-Dollar schließt OpenAI eine der größten Finanzierungsrunden der Geschichte ab und verschafft sich finanziellen Spielraum im KI-Wettlauf."
         ],
-        "link": "https://www.heise.de/news/50-Jahre-Apple-So-alt-wird-sonst-kein-Apfel-Mac-i-Podcast-11242903.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Rekord-Finanzierung-OpenAI-sichert-sich-122-Milliarden-US-Dollar-fuer-KI-Ausbau-11242967.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-01T08:25:00.000Z"
+        "publishedAt": "2026-04-01T08:46:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Passwoerter-raus-aus-der-US-Cloud-aber-wohin-c-t-uplink-11228008.html",
@@ -785,16 +787,16 @@
         "publishedAt": "2026-03-28T05:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Windows-Update-Vorschau-jetzt-als-Update-ausser-der-Reihe-verfuegbar-11242781.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Windows-Update-Vorschau jetzt als Update außer der Reihe verfügbar",
-        "summary": "Am Wochenende hat Microsoft die Verteilung der Windows-Update-Vorschauen gestoppt. Nun stehen sie als ungeplantes Update bereit.",
+        "id": "https://www.heise.de/news/Malware-auf-npm-HTTP-Client-axios-laedt-Backdoor-fuer-Windows-macOS-und-Linux-11242675.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Malware auf npm: HTTP-Client axios lädt Backdoor für Windows, macOS und Linux",
+        "summary": "Der Maintainer-Account für das Paket axios auf npm wurde geknackt, um einen Remote-Access-Trojaner für Windows, macOS und Linux einzuschleusen.",
         "paragraphs": [
-          "Am Wochenende hat Microsoft die Verteilung der Windows-Update-Vorschauen gestoppt. Nun stehen sie als ungeplantes Update bereit."
+          "Der Maintainer-Account für das Paket axios auf npm wurde geknackt, um einen Remote-Access-Trojaner für Windows, macOS und Linux einzuschleusen."
         ],
-        "link": "https://www.heise.de/news/Windows-Update-Vorschau-jetzt-als-Update-ausser-der-Reihe-verfuegbar-11242781.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Malware-auf-npm-HTTP-Client-axios-laedt-Backdoor-fuer-Windows-macOS-und-Linux-11242675.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-01T08:22:00.000Z"
+        "publishedAt": "2026-04-01T08:26:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Ein-kompletter-Arcade-Automat-fuer-350-Euro-c-t-3003-11227265.html",
@@ -809,16 +811,16 @@
         "publishedAt": "2026-03-27T15:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Modellpflege-fuer-Mercedes-Benz-GLE-GLS-Ein-bisschen-mehr-S-Klasse-11242501.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Modellpflege für Mercedes-Benz GLE / GLS: Ein bisschen mehr S-Klasse",
-        "summary": "Mercedes-Benz GLE und GLS bekommen im Zuge einer Modellpflege eine Mild-Hybridisierung aller Verbrennungsantriebe, ein neues Cockpit und mehr Rechenleistung.",
+        "id": "https://www.heise.de/news/50-Jahre-Apple-So-alt-wird-sonst-kein-Apfel-Mac-i-Podcast-11242903.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "50 Jahre Apple: So alt wird sonst kein Apfel | Mac & i-Podcast",
+        "summary": "Wir blicken zurück auf Apples bewegte Geschichte und diskutieren, wodurch sich die Firma vom Rest der Branche abheben konnte – und was davon geblieben ist.",
         "paragraphs": [
-          "Mercedes-Benz GLE und GLS bekommen im Zuge einer Modellpflege eine Mild-Hybridisierung aller Verbrennungsantriebe, ein neues Cockpit und mehr Rechenleistung."
+          "Wir blicken zurück auf Apples bewegte Geschichte und diskutieren, wodurch sich die Firma vom Rest der Branche abheben konnte – und was davon geblieben ist."
         ],
-        "link": "https://www.heise.de/news/Modellpflege-fuer-Mercedes-Benz-GLE-GLS-Ein-bisschen-mehr-S-Klasse-11242501.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/50-Jahre-Apple-So-alt-wird-sonst-kein-Apfel-Mac-i-Podcast-11242903.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-01T08:04:00.000Z"
+        "publishedAt": "2026-04-01T08:25:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Microsoft-Alternative-Nextcloud-und-Ionos-entwickeln-quelloffenes-Euro-Office-11227544.html",
@@ -833,16 +835,16 @@
         "publishedAt": "2026-03-27T14:53:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Jetzt-erhaeltlich-c-t-Sonderheft-Geld-Daten-11241014.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: Jetzt erhältlich: c’t-Sonderheft Geld & Daten",
-        "summary": "Tracking abschalten, Abofallen erkennen, Käuferschutz nutzen: Das neue c’t-Sonderheft zeigt, wie Sie digitale Abzocke im Alltag konkret vermeiden.",
+        "id": "https://www.heise.de/news/Windows-Update-Vorschau-jetzt-als-Update-ausser-der-Reihe-verfuegbar-11242781.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Windows-Update-Vorschau jetzt als Update außer der Reihe verfügbar",
+        "summary": "Am Wochenende hat Microsoft die Verteilung der Windows-Update-Vorschauen gestoppt. Nun stehen sie als ungeplantes Update bereit.",
         "paragraphs": [
-          "Tracking abschalten, Abofallen erkennen, Käuferschutz nutzen: Das neue c’t-Sonderheft zeigt, wie Sie digitale Abzocke im Alltag konkret vermeiden."
+          "Am Wochenende hat Microsoft die Verteilung der Windows-Update-Vorschauen gestoppt. Nun stehen sie als ungeplantes Update bereit."
         ],
-        "link": "https://www.heise.de/news/Jetzt-erhaeltlich-c-t-Sonderheft-Geld-Daten-11241014.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Windows-Update-Vorschau-jetzt-als-Update-ausser-der-Reihe-verfuegbar-11242781.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-01T08:00:00.000Z"
+        "publishedAt": "2026-04-01T08:22:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Kein-Ende-in-Sicht-Betrug-mit-gebrauchten-Festplatten-haelt-an-11227660.html",
@@ -855,6 +857,30 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-03-27T12:17:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Modellpflege-fuer-Mercedes-Benz-GLE-GLS-Ein-bisschen-mehr-S-Klasse-11242501.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Modellpflege für Mercedes-Benz GLE / GLS: Ein bisschen mehr S-Klasse",
+        "summary": "Mercedes-Benz GLE und GLS bekommen im Zuge einer Modellpflege eine Mild-Hybridisierung aller Verbrennungsantriebe, ein neues Cockpit und mehr Rechenleistung.",
+        "paragraphs": [
+          "Mercedes-Benz GLE und GLS bekommen im Zuge einer Modellpflege eine Mild-Hybridisierung aller Verbrennungsantriebe, ein neues Cockpit und mehr Rechenleistung."
+        ],
+        "link": "https://www.heise.de/news/Modellpflege-fuer-Mercedes-Benz-GLE-GLS-Ein-bisschen-mehr-S-Klasse-11242501.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-01T08:04:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Jetzt-erhaeltlich-c-t-Sonderheft-Geld-Daten-11241014.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: Jetzt erhältlich: c’t-Sonderheft Geld & Daten",
+        "summary": "Tracking abschalten, Abofallen erkennen, Käuferschutz nutzen: Das neue c’t-Sonderheft zeigt, wie Sie digitale Abzocke im Alltag konkret vermeiden.",
+        "paragraphs": [
+          "Tracking abschalten, Abofallen erkennen, Käuferschutz nutzen: Das neue c’t-Sonderheft zeigt, wie Sie digitale Abzocke im Alltag konkret vermeiden."
+        ],
+        "link": "https://www.heise.de/news/Jetzt-erhaeltlich-c-t-Sonderheft-Geld-Daten-11241014.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-01T08:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Drei-Fragen-und-Antworten-Warum-ABAP-Entwickler-jetzt-umdenken-muessen-11241139.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -939,30 +965,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-01T05:03:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Teureres-Fliegen-Preis-fuer-Kerosin-stark-angestiegen-11242629.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Teureres Fliegen: Preis für Kerosin stark angestiegen",
-        "summary": "Nicht nur die Spritpreise steigen, sondern auch die Kerosinpreise. Das verteuert die Flugtickets. Einige Airlines haben deshalb bereits Maßnahmen ergriffen.",
-        "paragraphs": [
-          "Nicht nur die Spritpreise steigen, sondern auch die Kerosinpreise. Das verteuert die Flugtickets. Einige Airlines haben deshalb bereits Maßnahmen ergriffen."
-        ],
-        "link": "https://www.heise.de/news/Teureres-Fliegen-Preis-fuer-Kerosin-stark-angestiegen-11242629.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-01T04:33:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Mittwoch-DSA-Urteil-gegen-TikTok-Delta-Flugzeuge-mit-Amazon-Leo-statt-Starlink-11242625.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Mittwoch: DSA-Urteil gegen TikTok, Delta-Flugzeuge mit Amazon Leo statt Starlink",
-        "summary": "TikTok-Schummelei bei DSA + Konkurrenzkampf um Flugzeug-WLAN + Nvidia-Milliarden für Marvell + Claude-KI für Zero-Day-Exploits + Claude-Quellcode im Internet",
-        "paragraphs": [
-          "TikTok-Schummelei bei DSA + Konkurrenzkampf um Flugzeug-WLAN + Nvidia-Milliarden für Marvell + Claude-KI für Zero-Day-Exploits + Claude-Quellcode im Internet"
-        ],
-        "link": "https://www.heise.de/news/Mittwoch-DSA-Urteil-gegen-TikTok-Delta-Flugzeuge-mit-Amazon-Leo-statt-Starlink-11242625.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-01T04:15:00.000Z"
       }
     ]
   }
