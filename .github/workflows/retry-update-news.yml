@@ -25,16 +25,20 @@ jobs:
       - name: Wait for runner capacity
         run: sleep 180
         shell: bash
-      - name: Trigger rerun
+      - name: Trigger new run
         uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const attempt = context.payload.workflow_run.run_attempt;
-            const runId = context.payload.workflow_run.id;
-            core.info(`Retrying Update News Feed (attempt ${attempt + 1})`);
-            await github.rest.actions.reRunWorkflow({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              run_id: runId
+            const workflowRun = context.payload.workflow_run;
+            const attempt = workflowRun.run_attempt;
+            const owner = workflowRun.head_repository?.owner?.login ?? workflowRun.repository.owner.login;
+            const repo = workflowRun.head_repository?.name ?? workflowRun.repository.name;
+            const ref = workflowRun.head_branch ?? workflowRun.head_repository?.default_branch ?? workflowRun.repository.default_branch;
+            core.info(`Queuing Update News Feed via workflow_dispatch (attempt ${attempt + 1}) on ${owner}/${repo}@${ref}`);
+            await github.rest.actions.createWorkflowDispatch({
+              owner,
+              repo,
+              workflow_id: workflowRun.workflow_id,
+              ref
             });
