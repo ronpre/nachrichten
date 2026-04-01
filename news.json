@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-01T14:53:49.785Z",
+  "updatedAt": "2026-04-01T15:31:23.880Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "89c1e5c3-bc36-4456-bcfe-58bb77f7244e",
+        "title": "Subventionen gestrichen: China verteuert Solarmodule",
+        "summary": "China beendet Export-Subventionen für seine Solarbranche. Das wirkt sich weltweit auf die Preise aus. Ist bald Schluss mit dem Balkonkraftwerk aus dem Baumarkt für unter 250 Euro? Von Lucretia Gather.",
+        "paragraphs": [
+          "China beendet Export-Subventionen für seine Solarbranche. Das wirkt sich weltweit auf die Preise aus. Ist bald Schluss mit dem Balkonkraftwerk aus dem Baumarkt für unter 250 Euro? Von Lucretia Gather."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/solarbranche-china-subventionen-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-01T15:13:18.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Hohe-Energiepreise-Sehr-gut-id30674517.html",
         "title": "Hört die Signale : Hohe Energiepreise? Sehr gut!",
@@ -41,9 +53,9 @@
       {
         "id": "https://www.n-tv.de/wirtschaft/Bundesregierung-steckt-Geld-in-Seltene-Erden-aus-Australien-id30673499.html",
         "title": "Mehr Unabhängigkeit von China: Bundesregierung steckt Geld in Seltene Erden aus Australien",
-        "summary": "Deutschland hängt bei kritischen Rohstoffen bisher am Tropf chinesischer Exporte. Um unabhängiger zu werden, will die Regierung die Förderung Seltener Erden in anderen Ländern unterstützen. Dazu fließt nun ein Millionenbetrag in ein australisches Unternehmen.",
+        "summary": "Deutschland hängt bei kritischen Rohstoffen bisher am Tropf chinesischer Exporte. Um unabhängiger zu werden, will die Regierung die Förderung seltener Erden in anderen Ländern unterstützen. Dazu fließt nun ein Millionenbetrag in ein australisches Unternehmen.",
         "paragraphs": [
-          "Deutschland hängt bei kritischen Rohstoffen bisher am Tropf chinesischer Exporte. Um unabhängiger zu werden, will die Regierung die Förderung Seltener Erden in anderen Ländern unterstützen. Dazu fließt nun ein Millionenbetrag in ein australisches Unternehmen."
+          "Deutschland hängt bei kritischen Rohstoffen bisher am Tropf chinesischer Exporte. Um unabhängiger zu werden, will die Regierung die Förderung seltener Erden in anderen Ländern unterstützen. Dazu fließt nun ein Millionenbetrag in ein australisches Unternehmen."
         ],
         "link": "https://www.n-tv.de/wirtschaft/Bundesregierung-steckt-Geld-in-Seltene-Erden-aus-Australien-id30673499.html",
         "category": "Wirtschaft",
@@ -229,18 +241,6 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-01T08:05:04.000Z"
-      },
-      {
-        "id": "fc52bd87-9622-4ba8-bc7c-95b9a17bfebd",
-        "title": "EU-Beistandsklausel - \"Noch nicht in geopolitischer Realität angekommen\"",
-        "summary": "Die EU-Kommission will eine nahezu unbekannte Klausel aus dem EU-Vertrag wiederbeleben - sie verpflichtet zu gegenseitiger Hilfe bei Angriffen. Doch interne Protokolle, die Report Mainz und dem Spiegel vorliegen, zeigen: Der Weg ist noch weit.",
-        "paragraphs": [
-          "Die EU-Kommission will eine nahezu unbekannte Klausel aus dem EU-Vertrag wiederbeleben - sie verpflichtet zu gegenseitiger Hilfe bei Angriffen. Doch interne Protokolle, die Report Mainz und dem Spiegel vorliegen, zeigen: Der Weg ist noch weit."
-        ],
-        "link": "https://www.tagesschau.de/investigativ/report-mainz/eu-beistandsklausel-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-01T08:01:13.000Z"
       }
     ],
     "politik": [
@@ -455,9 +455,9 @@
       {
         "id": "76617112",
         "title": "Iran-Krieg: EU in Sorge um Energie - Trump verweigert Hilfe",
-        "summary": "Der Iran-Krieg erschüttert die Energiemärkte. Während die EU massive Krisenmaßnahmen zur Stabilisierung plant, verweigert US-Präsident Trump die Unterstützung. Droht Europa nun ein dramatischer Energiepass?",
+        "summary": "Der Iran-Krieg erschüttert die Energiemärkte. Während die EU massive Krisenmaßnahmen zur Stabilisierung plant, verweigert US-Präsident Trump die Unterstützung. Droht Europa nun ein dramatischer Energie-Engpass?",
         "paragraphs": [
-          "Der Iran-Krieg erschüttert die Energiemärkte. Während die EU massive Krisenmaßnahmen zur Stabilisierung plant, verweigert US-Präsident Trump die Unterstützung. Droht Europa nun ein dramatischer Energiepass?"
+          "Der Iran-Krieg erschüttert die Energiemärkte. Während die EU massive Krisenmaßnahmen zur Stabilisierung plant, verweigert US-Präsident Trump die Unterstützung. Droht Europa nun ein dramatischer Energie-Engpass?"
         ],
         "link": "https://www.dw.com/de/iran-krieg-eu-in-sorge-um-energie-trump-verweigert-hilfe/a-76617112?maca=de-rss-de-top-1016-xml-mrss",
         "category": "Aktuelles",
@@ -478,6 +478,42 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/hoffenheim-bangt-um-hajdari-1206813/artikel#omrss",
+        "title": "Hoffenheim bangt um Hajdari",
+        "summary": "Vor dem so wichtigen Heimspiel gegen Mainz muss die TSG Hoffenheim einen Ausfall von Albian Hajdari befürchten. Der zweite Kosovare nach Leon Avdullahu, der fehlen könnte.",
+        "paragraphs": [
+          "Vor dem so wichtigen Heimspiel gegen Mainz muss die TSG Hoffenheim einen Ausfall von Albian Hajdari befürchten. Der zweite Kosovare nach Leon Avdullahu, der fehlen könnte."
+        ],
+        "link": "https://www.kicker.de/hoffenheim-bangt-um-hajdari-1206813/artikel#omrss",
+        "category": "Avdullahu",
+        "source": "Kicker",
+        "publishedAt": "2026-04-01T15:10:49.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/regionalliga-nord-31-vereine-beantragen-lizenz-1206803/artikel#omrss",
+        "title": "Regionalliga Nord: 31 Vereine beantragen Lizenz",
+        "summary": "Die Meldefrist für die Regionalliga Nord ist am 31. März abgelaufen. 31 Klubs - darunter ein Drittligist und zwölf Oberligisten - haben eine Lizenz für die Saison 2026/27 beantragt.",
+        "paragraphs": [
+          "Die Meldefrist für die Regionalliga Nord ist am 31. März abgelaufen. 31 Klubs - darunter ein Drittligist und zwölf Oberligisten - haben eine Lizenz für die Saison 2026/27 beantragt."
+        ],
+        "link": "https://www.kicker.de/regionalliga-nord-31-vereine-beantragen-lizenz-1206803/artikel#omrss",
+        "category": "1. FC G. Egestorf/Langreder",
+        "source": "Kicker",
+        "publishedAt": "2026-04-01T14:56:17.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ard-und-zdf-zeigen-bei-wm-werbung-waehrend-trinkpausen-1206821/artikel#omrss",
+        "title": "ARD und ZDF zeigen bei WM Werbung während Trinkpausen",
+        "summary": "Bei der Fußball-Weltmeisterschaft im kommenden Sommer soll es planmäßig Trinkpausen während der Spiele geben. Die Sender wissen bereits, wie sie diese füllen wollen.",
+        "paragraphs": [
+          "Bei der Fußball-Weltmeisterschaft im kommenden Sommer soll es planmäßig Trinkpausen während der Spiele geben. Die Sender wissen bereits, wie sie diese füllen wollen."
+        ],
+        "link": "https://www.kicker.de/ard-und-zdf-zeigen-bei-wm-werbung-waehrend-trinkpausen-1206821/artikel#omrss",
+        "category": "Deutschland",
+        "source": "Kicker",
+        "publishedAt": "2026-04-01T14:54:13.000Z"
+      },
       {
         "id": "https://www.kicker.de/schnelles-wiedersehen-vogler-wechselt-von-magdeburg-nach-verl-1206811/artikel#omrss",
         "title": "Schnelles Wiedersehen? Vogler wechselt von Magdeburg nach Verl",
@@ -681,42 +717,6 @@
         "category": "Fußball",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-01T13:11:29.000Z"
-      },
-      {
-        "id": "b1383b28-f580-481e-b393-dd5958ca55e4",
-        "title": "Rassismus im spanischen Fußball: Sprechchöre gegen Muslime, Lamine Yamal flüchtet",
-        "summary": "Beim Länderspiel gegen Ägypten beschimpfen weite Teile des Stadions Muslime. Lamine Yamal schleicht vom Platz und der Ausrichter der WM 2030 muss sich fragen: Wie rassistisch ist sein Fußball?",
-        "paragraphs": [
-          "Beim Länderspiel gegen Ägypten beschimpfen weite Teile des Stadions Muslime. Lamine Yamal schleicht vom Platz und der Ausrichter der WM 2030 muss sich fragen: Wie rassistisch ist sein Fußball?"
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/rassismus-im-spanischen-fussball-sprechchoere-gegen-muslime-lamine-yamal-fluechtet-a-b1383b28-f580-481e-b393-dd5958ca55e4#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-01T12:57:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/zum-tod-von-dynamo-legende-kreische-mit-riecher-und-rueckgrat-1206753/artikel#omrss",
-        "title": "Zum Tod von Dynamo-Legende Kreische: Mit Riecher und Rückgrat",
-        "summary": "Er prägte die goldene Dekade von Dynamo Dresden und war einer der größten Fußballer der DDR. Hans-Jürgen Kreische stand für Tore und einen eigenen Kopf. Jetzt ist er mit 78 Jahren gestorben.",
-        "paragraphs": [
-          "Er prägte die goldene Dekade von Dynamo Dresden und war einer der größten Fußballer der DDR. Hans-Jürgen Kreische stand für Tore und einen eigenen Kopf. Jetzt ist er mit 78 Jahren gestorben."
-        ],
-        "link": "https://www.kicker.de/zum-tod-von-dynamo-legende-kreische-mit-riecher-und-rueckgrat-1206753/artikel#omrss",
-        "category": "2. Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-01T12:52:06.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nil-deals-und-66-regel-so-tricksen-sich-die-bbl-klubs-um-die-regel-herum-1206781/artikel#omrss",
-        "title": "NIL-Deals und 6+6-Regel: So tricksen sich die BBL-Klubs um die Regel herum",
-        "summary": "Die 6+6-Regelung gilt heute als eine der grundlegenden Maßnahmen für die jüngsten DBB-Erfolge bei WM und EM. Die Einführung der NIL-Deals an US-Colleges gefährdete das Modell zur Nachwuchsförderung akut. Knapp ein Jahr später haben die Bundesligisten aber dennoch einen Umgang damit gefunden.",
-        "paragraphs": [
-          "Die 6+6-Regelung gilt heute als eine der grundlegenden Maßnahmen für die jüngsten DBB-Erfolge bei WM und EM. Die Einführung der NIL-Deals an US-Colleges gefährdete das Modell zur Nachwuchsförderung akut. Knapp ein Jahr später haben die Bundesligisten aber dennoch einen Umgang damit gefunden."
-        ],
-        "link": "https://www.kicker.de/nil-deals-und-66-regel-so-tricksen-sich-die-bbl-klubs-um-die-regel-herum-1206781/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-01T12:42:04.000Z"
       }
     ],
     "edv": [
