@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-01T11:44:34.011Z",
+  "updatedAt": "2026-04-01T12:11:51.826Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "e3914444-b19a-4cbd-b058-b1eda9db5792",
+        "title": "Marktbericht: Nahost-Krieg bremst Börsengänge",
+        "summary": "Trotz eines Rückgangs bei der Anzahl an Börsengängen ist ihr Gesamtvolumen im ersten Quartal deutlich gestiegen. Das lag vor allem daran, dass mehr große Unternehmen an die Börse gegangen sind.",
+        "paragraphs": [
+          "Trotz eines Rückgangs bei der Anzahl an Börsengängen ist ihr Gesamtvolumen im ersten Quartal deutlich gestiegen. Das lag vor allem daran, dass mehr große Unternehmen an die Börse gegangen sind."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-thema-des-tages-boersengaenge-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-01T11:47:54.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Kabinett-senkt-Luftverkehrssteuer-die-Industrie-jubelt-id30672643.html",
         "title": "Gegenfinanzierung unklar: Kabinett senkt Luftverkehrssteuer - die Industrie jubelt",
@@ -229,21 +241,43 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-03-31T16:29:59.000Z"
-      },
-      {
-        "id": "d00fea41-e1ea-4bec-9d0f-493555535513",
-        "title": "Marktbericht: Vage Hoffnungen auf Entspannung in Nahost",
-        "summary": "Die Aktienmärkte haben zum Monatsende zu einer Erholung angesetzt. Anleger klammern sich aktuell an die Hoffnung, dass der Krieg im Nahen Osten bald enden könnte. Trotzdem steht für den März ein deutlicher Verlust.",
-        "paragraphs": [
-          "Die Aktienmärkte haben zum Monatsende zu einer Erholung angesetzt. Anleger klammern sich aktuell an die Hoffnung, dass der Krieg im Nahen Osten bald enden könnte. Trotzdem steht für den März ein deutlicher Verlust."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-122.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-03-31T16:25:05.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3462226",
+        "title": "Südwesttürkei: Flüchtlingsboot gesunken - viele Tote",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/suedwesttuerkei-fluechtlingsboot-gesunken-viele-tote-li.3462226",
+        "category": "Flucht und Migration",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-01T12:01:44.000Z"
+      },
+      {
+        "id": "li.3460057",
+        "title": "Interview mit Reiner Haseloff: „Dann wird das eine andere Republik“",
+        "summary": "Reiner Haseloff, langjähriger Ministerpräsident von Sachsen-Anhalt, über  die Erfolgsaussichten der AfD bei der Landtagswahl im Herbst, die Ernüchterung vieler Ostdeutscher  und seine ausufernde Bibliothek.",
+        "paragraphs": [
+          "Reiner Haseloff, langjähriger Ministerpräsident von Sachsen-Anhalt, über  die Erfolgsaussichten der AfD bei der Landtagswahl im Herbst, die Ernüchterung vieler Ostdeutscher  und seine ausufernde Bibliothek."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/sachsen-anhalt-haseloff-interview-li.3460057",
+        "category": "Deutschland",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-01T11:48:15.000Z"
+      },
+      {
+        "id": "li.3462190",
+        "title": "Bootsunglück in der Ägäis: Boot mit Geflüchteten kentert vor Türkei – mehrere Tote",
+        "summary": "Vor der Küste der Südwesttürkei kentert ein Schlauchboot. Mindestens 19 Menschen kommen ums Leben. Eine Person wird noch vermisst.",
+        "paragraphs": [
+          "Vor der Küste der Südwesttürkei kentert ein Schlauchboot. Mindestens 19 Menschen kommen ums Leben. Eine Person wird noch vermisst."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/tuerkei-bodrum-migranten-bootsunglueck-aegaeis-li.3462190",
+        "category": "Flucht und Migration",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-01T11:46:10.000Z"
+      },
       {
         "id": "li.3457776",
         "title": "Bundespolitik: ADAC beobachtet Sprung bei Spritpreisen zur Mittagszeit",
@@ -287,7 +321,7 @@
         "paragraphs": [
           "Mehrere neue Bürgermeister des rechtsextremen Rassemblement National holen demonstrativ das europäische Sternenbanner ein. Es fragt sich, ob die Wahlfavoriten für 2027 ihren Kurs ändern."
         ],
-        "link": "https://www.sueddeutsche.de/politik/frankreich-rassemblement-national-buergermeister-europa-flagge-le-pen-li.3462031",
+        "link": "https://www.sueddeutsche.de/politik/frankreich-rassemblement-national-buergermeister-europa-ausstieg-le-pen-li.3462031",
         "category": "Frankreich",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-01T10:01:30.000Z"
@@ -435,42 +469,6 @@
         "publishedAt": "2026-03-31T19:42:00.000Z"
       },
       {
-        "id": "li.3460755",
-        "title": "Brexit-Folgen: Britische Unis vermissen Studierende aus der EU",
-        "summary": "Studieren im Land des Brexits ist für EU-Bürger so teuer geworden, dass den Hochschulen immer mehr Studenten und Einnahmen fehlen. Einer Verhandlungslösung steht auch ein ultrarechtes Narrativ im Weg.",
-        "paragraphs": [
-          "Studieren im Land des Brexits ist für EU-Bürger so teuer geworden, dass den Hochschulen immer mehr Studenten und Einnahmen fehlen. Einer Verhandlungslösung steht auch ein ultrarechtes Narrativ im Weg."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/brexit-studieren-grossbritannien-eu-probleme-kosten-li.3460755",
-        "category": "Großbritannien",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-31T15:48:00.000Z"
-      },
-      {
-        "id": "li.3461818",
-        "title": "SZ am Abend: Nachrichten vom 31. März 2026",
-        "summary": "Was heute wichtig war.",
-        "paragraphs": [
-          "Was heute wichtig war."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/news-rubio-nato-fernandes-ulmen-merz-syrien-li.3461818",
-        "category": "SZ Nachrichten des Tages",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-31T15:41:14.000Z"
-      },
-      {
-        "id": "li.3461796",
-        "title": "Podcast: „Auf den Punkt“: Die Todesstrafe nur für Palästinenser ist rassistisch",
-        "summary": "Israel will die Todesstrafe vollstrecken, doch von dem neuen Gesetz sind de facto nur Palästinenser betroffen. Menschenrechtler sind entsetzt.",
-        "paragraphs": [
-          "Israel will die Todesstrafe vollstrecken, doch von dem neuen Gesetz sind de facto nur Palästinenser betroffen. Menschenrechtler sind entsetzt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-israel-todesstrafe-palaestinenser-li.3461796",
-        "category": "Podcast",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-03-31T15:18:01.000Z"
-      },
-      {
         "id": "76610597",
         "title": "Ärzte ohne Grenzen: Sexuelle Gewalt als Kriegswaffe im Sudan",
         "summary": "Die Hilfsorganisation will wachrütteln: Vor allem nichtarabische Bevölkerungsgruppen seien Opfer \"unvorstellbarer Brutalität\". Die Täter kämen oft aus den Reihen der RSF-Miliz.",
@@ -484,6 +482,66 @@
       }
     ],
     "sport": [
+      {
+        "id": "li.3438628",
+        "title": "WM 2026 in den USA, Mexiko und Kanada: WM-Playoffs: wer sich die letzten Tickets gesichert hat",
+        "summary": "Sechs Startplätze für die Fußball-Weltmeisterschaft 2026 in Nordamerika waren noch zu vergeben - wer sich in den Playoff-Spielen durchsetzen konnte.",
+        "paragraphs": [
+          "Sechs Startplätze für die Fußball-Weltmeisterschaft 2026 in Nordamerika waren noch zu vergeben - wer sich in den Playoff-Spielen durchsetzen konnte."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/wm-quali-playoffs-2026-ergebnisse-sieger-li.3438628",
+        "category": "Fußball-WM",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-01T11:57:00.000Z"
+      },
+      {
+        "id": "li.3462210",
+        "title": "Länderspiele: „Weltweite Schande“ – rassistische Gesänge beim Spiel Spanien gegen Ägypten",
+        "summary": "Beim Testspiel zwischen Spanien und Ägypten skandieren Teile der Zuschauer antimuslimische Parolen. Nationaltrainer Luis de la Fuente verurteilt die Vorkommnisse scharf.",
+        "paragraphs": [
+          "Beim Testspiel zwischen Spanien und Ägypten skandieren Teile der Zuschauer antimuslimische Parolen. Nationaltrainer Luis de la Fuente verurteilt die Vorkommnisse scharf."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/spanien-aegypten-rassismus-laenderspiel-li.3462210",
+        "category": "Internationaler Fußball",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-01T11:52:55.000Z"
+      },
+      {
+        "id": "li.3462046",
+        "title": "Fußball-WM ohne Italien: Italiens Fußball muss sich radikal neu erfinden",
+        "summary": "Im italienischen Fußball läuft etwas nicht, schon länger nicht mehr. Die Glorie vergilbt.",
+        "paragraphs": [
+          "Im italienischen Fußball läuft etwas nicht, schon länger nicht mehr. Die Glorie vergilbt."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/italien-wm-gattuso-bosnien-kommentar-li.3462046",
+        "category": "Internationaler Fußball",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-01T11:52:45.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ein-sinkendes-schiff-legenden-flucht-aus-fc-26-und-fut-1206746/artikel#omrss",
+        "title": "\"Ein sinkendes Schiff\": Legenden-Flucht aus FC 26 und FUT",
+        "summary": "Vor zweieinhalb Jahren trank er für EA SPORTS noch vor laufenden Kameras aus einem Schuh - nun will 'Pieface' mit FC 26 vorerst nichts mehr zu tun haben. Und der Content Creator ist nicht der Einzige.",
+        "paragraphs": [
+          "Vor zweieinhalb Jahren trank er für EA SPORTS noch vor laufenden Kameras aus einem Schuh - nun will 'Pieface' mit FC 26 vorerst nichts mehr zu tun haben. Und der Content Creator ist nicht der Einzige."
+        ],
+        "link": "https://www.kicker.de/ein-sinkendes-schiff-legenden-flucht-aus-fc-26-und-fut-1206746/artikel#omrss",
+        "category": "eSport",
+        "source": "Kicker",
+        "publishedAt": "2026-04-01T11:48:28.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/bitterer-ausfall-fuer-den-hsv-schulz-faellt-wochenlang-aus-1206744/artikel#omrss",
+        "title": "Bitterer Ausfall für den HSV: Schulz fällt wochenlang aus",
+        "summary": "Beim Heimspiel gegen Leverkusen musste die HSV-Spielerin Victoria Schulz noch in der Anfangsphase verletzungsbedingt ausgewechselt werden. Nun hat der Verein die Diagnose bekannt gegeben.",
+        "paragraphs": [
+          "Beim Heimspiel gegen Leverkusen musste die HSV-Spielerin Victoria Schulz noch in der Anfangsphase verletzungsbedingt ausgewechselt werden. Nun hat der Verein die Diagnose bekannt gegeben."
+        ],
+        "link": "https://www.kicker.de/bitterer-ausfall-fuer-den-hsv-schulz-faellt-wochenlang-aus-1206744/artikel#omrss",
+        "category": "Brancao",
+        "source": "Kicker",
+        "publishedAt": "2026-04-01T11:45:31.000Z"
+      },
       {
         "id": "https://www.kicker.de/weltweite-schande-rassistische-gesaenge-bei-aegyptens-gastspiel-in-spanien-1206709/artikel#omrss",
         "title": "\"Weltweite Schande\": Rassistische Gesänge bei Ägyptens Gastspiel in Spanien",
@@ -557,6 +615,18 @@
         "publishedAt": "2026-04-01T10:59:00.000Z"
       },
       {
+        "id": "https://www.kicker.de/ueberraschende-teilnahme-evenepoel-faehrt-die-flandern-rundfahrt-1206764/artikel#omrss",
+        "title": "Überraschende Teilnahme: Evenepoel fährt die Flandern-Rundfahrt",
+        "summary": "Bisher hat Remco Evenepoel einen Bogen um das wichtigste Rennen seiner belgischen Heimat gemacht. Am Sonntag wird der Zeitfahr-Weltmeister aber endlich sein Debüt bei der Flandern-Rundfahrt feiern.",
+        "paragraphs": [
+          "Bisher hat Remco Evenepoel einen Bogen um das wichtigste Rennen seiner belgischen Heimat gemacht. Am Sonntag wird der Zeitfahr-Weltmeister aber endlich sein Debüt bei der Flandern-Rundfahrt feiern."
+        ],
+        "link": "https://www.kicker.de/ueberraschende-teilnahme-evenepoel-faehrt-die-flandern-rundfahrt-1206764/artikel#omrss",
+        "category": "Radsport",
+        "source": "Kicker",
+        "publishedAt": "2026-04-01T10:48:37.000Z"
+      },
+      {
         "id": "li.3462050",
         "title": "DEL-Playoffs: Eine Härte, die niemand sehen will",
         "summary": "155 Strafminuten: Das hitzige DEL-Viertelfinale zwischen Ingolstadt und München läuft völlig aus dem Ruder. Ingolstadts Edwin Tropmann wird nach einem Check bewusstlos abtransportiert – die Spieler sind „geschockt“.",
@@ -575,7 +645,7 @@
         "paragraphs": [
           "Die polnische Nationalmannschaft verliert gegen Schweden und verpasst die Fußball-WM. Robert Lewandowski deutet seinen Abschied an – und muss sich auch beim FC Barcelona Gedanken machen, wie es weitergeht."
         ],
-        "link": "https://www.sueddeutsche.de/sport/fussball-wm-schweden-polen-lewandowski-li.3462005",
+        "link": "https://www.sueddeutsche.de/sport/fussball-wm-quali-playoff-schweden-polen-lewandowski-zukunft-li.3462005",
         "category": "Fußball-WM",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-01T10:44:30.000Z"
@@ -651,78 +721,6 @@
         "category": "Fußball-WM",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-01T10:22:30.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/alle-teams-fuer-die-wm-stehen-fest-1206747/artikel#omrss",
-        "title": "Alle Teams für die WM stehen fest",
-        "summary": "So viele Teams gab es noch nie bei einer Fußball-WM: 48. Jetzt haben sich die letzten Mannschaften qualifiziert.",
-        "paragraphs": [
-          "So viele Teams gab es noch nie bei einer Fußball-WM: 48. Jetzt haben sich die letzten Mannschaften qualifiziert."
-        ],
-        "link": "https://www.kicker.de/alle-teams-fuer-die-wm-stehen-fest-1206747/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-01T10:22:00.000Z"
-      },
-      {
-        "id": "7c3db25b-2712-4463-9ce6-345d85ef7e84",
-        "title": "Fußball-WM 2026: Italien ist nicht dabei. Schon wieder. Eine Abrechnung",
-        "summary": "Italien hat sich wieder einmal nicht für eine Fußball-Weltmeisterschaft qualifiziert. Unser Autor sammelt sich. Also, er versucht es.",
-        "paragraphs": [
-          "Italien hat sich wieder einmal nicht für eine Fußball-Weltmeisterschaft qualifiziert. Unser Autor sammelt sich. Also, er versucht es."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-italien-ist-nicht-dabei-schon-wieder-eine-abrechnung-a-7c3db25b-2712-4463-9ce6-345d85ef7e84#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-01T10:06:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:eea73c57-d5c9-4a1e-9707-c1e3cfd10590}",
-        "title": "Rassismus: Rassistische Gesänge bei WM-Testspiel Spaniens gegen Ägypten",
-        "summary": "Fußballfans skandieren in Barcelona antimuslimische Parolen und buhen ägyptische Nationalhymne aus. Stadionsprecher fordert Fans auf, die Äußerungen zu unterlassen.",
-        "paragraphs": [
-          "Fußballfans skandieren in Barcelona antimuslimische Parolen und buhen ägyptische Nationalhymne aus. Stadionsprecher fordert Fans auf, die Äußerungen zu unterlassen."
-        ],
-        "link": "https://www.zeit.de/sport/2026-04/antimuslimische-gesaenge-wm-testspiel-spanien-aegypten-barcelona-gxe",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-04-01T09:50:26.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/der-tuerkische-wm-traum-lebt-montella-werde-in-diesem-trikot-schlafen-1206699/artikel#omrss",
-        "title": "Der türkische WM-Traum lebt - Montella: \"Werde in diesem Trikot schlafen\"",
-        "summary": "Im Kosovo reichte der Türkei ein glanzloser 1:0-Sieg, um sich nach 24 Jahren Warten wieder für eine Weltmeisterschaft zu qualifizieren. Die Freude kannte danach naturgemäß keine Grenzen. Der Kapitän trat aber auf die Bremse.",
-        "paragraphs": [
-          "Im Kosovo reichte der Türkei ein glanzloser 1:0-Sieg, um sich nach 24 Jahren Warten wieder für eine Weltmeisterschaft zu qualifizieren. Die Freude kannte danach naturgemäß keine Grenzen. Der Kapitän trat aber auf die Bremse."
-        ],
-        "link": "https://www.kicker.de/der-tuerkische-wm-traum-lebt-montella-werde-in-diesem-trikot-schlafen-1206699/artikel#omrss",
-        "category": "Calhanoglu",
-        "source": "Kicker",
-        "publishedAt": "2026-04-01T09:25:20.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nfl-haelt-an-vielfalt-massnahmen-fest-1206721/artikel#omrss",
-        "title": "NFL hält an Vielfalt-Maßnahmen fest",
-        "summary": "Die NFL will trotz des politischen Drucks in den USA ihre Maßnahmen zur Förderung der Vielfalt im Football nicht aufgeben. Das teilte Commissioner Roger Goodell mit. Seit der erneuten Amtsübernahme von US-Präsident Donald Trump sind zahlreiche Programme, die darauf abzielen, Rassismus und Sexismus zu bekämpfen, ins Visier der Konservativen geraten. In der NFL betrifft dies die sogenannte \"Rooney Rule\".",
-        "paragraphs": [
-          "Die NFL will trotz des politischen Drucks in den USA ihre Maßnahmen zur Förderung der Vielfalt im Football nicht aufgeben. Das teilte Commissioner Roger Goodell mit. Seit der erneuten Amtsübernahme von US-Präsident Donald Trump sind zahlreiche Programme, die darauf abzielen, Rassismus und Sexismus zu bekämpfen, ins Visier der Konservativen geraten. In der NFL betrifft dies die sogenannte \"Rooney Rule\"."
-        ],
-        "link": "https://www.kicker.de/nfl-haelt-an-vielfalt-massnahmen-fest-1206721/artikel#omrss",
-        "category": "Football",
-        "source": "Kicker",
-        "publishedAt": "2026-04-01T09:20:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/etsv-hamburg-aus-allen-traeumen-gerissen-massenbewegung-nach-dassendorf-1206717/artikel#omrss",
-        "title": "ETSV Hamburg aus allen Träumen gerissen - Massenbewegung nach Dassendorf?",
-        "summary": "Der ETSV Hamburg schien lange Zeit ungebremst auf die Regionalliga zuzurasen, doch plötzlich versiegte die Geldquelle. Nun mehren sich die Hinweise, dass große Teile des Kaders ihren Viertliga-Traum in Dassendorf verwirklichen könnten.",
-        "paragraphs": [
-          "Der ETSV Hamburg schien lange Zeit ungebremst auf die Regionalliga zuzurasen, doch plötzlich versiegte die Geldquelle. Nun mehren sich die Hinweise, dass große Teile des Kaders ihren Viertliga-Traum in Dassendorf verwirklichen könnten."
-        ],
-        "link": "https://www.kicker.de/etsv-hamburg-aus-allen-traeumen-gerissen-massenbewegung-nach-dassendorf-1206717/artikel#omrss",
-        "category": "ETSV Hamburg",
-        "source": "Kicker",
-        "publishedAt": "2026-04-01T09:10:43.000Z"
       }
     ],
     "edv": [
@@ -739,16 +737,16 @@
         "publishedAt": "2026-04-01T08:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Wearables-von-anderen-Anbietern-Apple-erweitert-Funktionsumfang-in-der-EU-11241427.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Wearables von anderen Anbietern: Apple erweitert Funktionsumfang in der EU",
-        "summary": "Neben einer besseren Einbindung von Kopfhörern und „echten“ Benachrichtigungen für Wearables von Drittanbietern kommt mit iOS 26.5 ein weiteres Feature.",
+        "id": "https://www.heise.de/news/heise-security-Tour-2026-Das-Programm-steht-jetzt-Fruehbucherpreis-sichern-11242297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: heise security Tour 2026: Das Programm steht – jetzt Frühbucherpreis sichern!",
+        "summary": "Die heise security Tour 2026 fokussiert auf Lieferketten-Sicherheit, Identitäts-Management und KI. Sichern Sie sich jetzt Frühbucher-Tickets!",
         "paragraphs": [
-          "Neben einer besseren Einbindung von Kopfhörern und „echten“ Benachrichtigungen für Wearables von Drittanbietern kommt mit iOS 26.5 ein weiteres Feature."
+          "Die heise security Tour 2026 fokussiert auf Lieferketten-Sicherheit, Identitäts-Management und KI. Sichern Sie sich jetzt Frühbucher-Tickets!"
         ],
-        "link": "https://www.heise.de/news/Wearables-von-anderen-Anbietern-Apple-erweitert-Funktionsumfang-in-der-EU-11241427.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/heise-security-Tour-2026-Das-Programm-steht-jetzt-Fruehbucherpreis-sichern-11242297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-01T11:38:00.000Z"
+        "publishedAt": "2026-04-01T12:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Video-Glasfaserausbau-So-verlaengert-ihr-euren-Anschluss-11227896.html",
@@ -763,16 +761,16 @@
         "publishedAt": "2026-03-29T07:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/April-April-Tasche-fuer-Newton-Lightning-fuers-iPhone-17-Pro-11243201.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "April, April: Tasche für Newton, Lightning fürs iPhone 17 Pro",
-        "summary": "Auch die Apple-Szene beteiligt sich am Scherztag. Ein Schweizer Bastler und ein Zubehörhaus aus San Francisco gingen dabei recht weit.",
+        "id": "https://www.heise.de/news/Mehr-Zubehoer-fuer-den-Arduino-UNO-Q-11243303.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Mehr Zubehör für den Arduino UNO Q",
+        "summary": "Arduino erweitert den UNO Q mit USB-C-Zubehör, Multimedia-Boards und Debug-Tools.",
         "paragraphs": [
-          "Auch die Apple-Szene beteiligt sich am Scherztag. Ein Schweizer Bastler und ein Zubehörhaus aus San Francisco gingen dabei recht weit."
+          "Arduino erweitert den UNO Q mit USB-C-Zubehör, Multimedia-Boards und Debug-Tools."
         ],
-        "link": "https://www.heise.de/news/April-April-Tasche-fuer-Newton-Lightning-fuers-iPhone-17-Pro-11243201.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Mehr-Zubehoer-fuer-den-Arduino-UNO-Q-11243303.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-01T11:26:00.000Z"
+        "publishedAt": "2026-04-01T11:44:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Passwoerter-raus-aus-der-US-Cloud-aber-wohin-c-t-uplink-11228008.html",
@@ -787,16 +785,16 @@
         "publishedAt": "2026-03-28T05:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Iranische-Behoerden-beschlagnahmen-Starlink-Terminals-und-verhaften-Verkaeufer-11243225.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Iranische Behörden beschlagnahmen Starlink-Terminals und verhaften Verkäufer",
-        "summary": "Starlink bietet eine Möglichkeit, die Zensur im Iran zu umgehen. Die Behörden wollen das unterbinden.",
+        "id": "https://www.heise.de/news/Digitale-Vorreiter-in-Deutschland-Universitaetsstaedte-schlagen-Metropolen-11243239.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Digitale Vorreiter in Deutschland: Universitätsstädte schlagen Metropolen",
+        "summary": "Wo in Deutschland sind die meisten Unternehmen zu Hause, die digital die Nase vorn haben? Ein neuer Index soll es zeigen.",
         "paragraphs": [
-          "Starlink bietet eine Möglichkeit, die Zensur im Iran zu umgehen. Die Behörden wollen das unterbinden."
+          "Wo in Deutschland sind die meisten Unternehmen zu Hause, die digital die Nase vorn haben? Ein neuer Index soll es zeigen."
         ],
-        "link": "https://www.heise.de/news/Iranische-Behoerden-beschlagnahmen-Starlink-Terminals-und-verhaften-Verkaeufer-11243225.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Digitale-Vorreiter-in-Deutschland-Universitaetsstaedte-schlagen-Metropolen-11243239.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-01T11:22:00.000Z"
+        "publishedAt": "2026-04-01T11:41:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Ein-kompletter-Arcade-Automat-fuer-350-Euro-c-t-3003-11227265.html",
@@ -811,16 +809,16 @@
         "publishedAt": "2026-03-27T15:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/PayPal-Bei-den-Google-Wallet-Verknuepfungen-aendert-sich-doch-nichts-11243245.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "PayPal: Bei den Google-Wallet-Verknüpfungen ändert sich doch nichts",
-        "summary": "Mitte März machte die Runde, dass PayPal-Verknüpfungen mit der Google Wallet aufgelöst werden. PayPal korrigiert die Aussagen nun.",
+        "id": "https://www.heise.de/news/Wearables-von-anderen-Anbietern-Apple-erweitert-Funktionsumfang-in-der-EU-11241427.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Wearables von anderen Anbietern: Apple erweitert Funktionsumfang in der EU",
+        "summary": "Neben einer besseren Einbindung von Kopfhörern und „echten“ Benachrichtigungen für Wearables von Drittanbietern kommt mit iOS 26.5 ein weiteres Feature.",
         "paragraphs": [
-          "Mitte März machte die Runde, dass PayPal-Verknüpfungen mit der Google Wallet aufgelöst werden. PayPal korrigiert die Aussagen nun."
+          "Neben einer besseren Einbindung von Kopfhörern und „echten“ Benachrichtigungen für Wearables von Drittanbietern kommt mit iOS 26.5 ein weiteres Feature."
         ],
-        "link": "https://www.heise.de/news/PayPal-Bei-den-Google-Wallet-Verknuepfungen-aendert-sich-doch-nichts-11243245.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Wearables-von-anderen-Anbietern-Apple-erweitert-Funktionsumfang-in-der-EU-11241427.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-01T11:21:00.000Z"
+        "publishedAt": "2026-04-01T11:38:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Microsoft-Alternative-Nextcloud-und-Ionos-entwickeln-quelloffenes-Euro-Office-11227544.html",
@@ -835,16 +833,16 @@
         "publishedAt": "2026-03-27T14:53:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Razer-stellt-ergonomische-Gaming-Tastatur-vor-11243159.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Razer stellt ergonomische Gaming-Tastatur vor",
-        "summary": "Razer stellt mit der Pro Type Ergo eine ergonomische Tastatur im Gaming-Look vor, die sich vorwiegend an Vielschreiber richtet.",
+        "id": "https://www.heise.de/news/April-April-Tasche-fuer-Newton-Lightning-fuers-iPhone-17-Pro-11243201.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Apple-Aprilscherze: Newton-Holster und ein Lightning-Comeback fürs iPhone 17 Pro",
+        "summary": "Auch die Apple-Szene beteiligt sich am Scherztag. Ein Schweizer Bastler und ein Zubehörhaus aus San Francisco gingen dabei recht weit.",
         "paragraphs": [
-          "Razer stellt mit der Pro Type Ergo eine ergonomische Tastatur im Gaming-Look vor, die sich vorwiegend an Vielschreiber richtet."
+          "Auch die Apple-Szene beteiligt sich am Scherztag. Ein Schweizer Bastler und ein Zubehörhaus aus San Francisco gingen dabei recht weit."
         ],
-        "link": "https://www.heise.de/news/Razer-stellt-ergonomische-Gaming-Tastatur-vor-11243159.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/April-April-Tasche-fuer-Newton-Lightning-fuers-iPhone-17-Pro-11243201.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-01T11:16:00.000Z"
+        "publishedAt": "2026-04-01T11:26:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Kein-Ende-in-Sicht-Betrug-mit-gebrauchten-Festplatten-haelt-an-11227660.html",
@@ -857,6 +855,42 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-03-27T12:17:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Iranische-Behoerden-beschlagnahmen-Starlink-Terminals-und-verhaften-Verkaeufer-11243225.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Iranische Behörden beschlagnahmen Starlink-Terminals und verhaften Verkäufer",
+        "summary": "Starlink bietet eine Möglichkeit, die Zensur im Iran zu umgehen. Die Behörden wollen das unterbinden.",
+        "paragraphs": [
+          "Starlink bietet eine Möglichkeit, die Zensur im Iran zu umgehen. Die Behörden wollen das unterbinden."
+        ],
+        "link": "https://www.heise.de/news/Iranische-Behoerden-beschlagnahmen-Starlink-Terminals-und-verhaften-Verkaeufer-11243225.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-01T11:22:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/PayPal-Bei-den-Google-Wallet-Verknuepfungen-aendert-sich-doch-nichts-11243245.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "PayPal: Bei den Google-Wallet-Verknüpfungen ändert sich doch nichts",
+        "summary": "Mitte März machte die Runde, dass PayPal-Verknüpfungen mit der Google Wallet aufgelöst werden. PayPal korrigiert die Aussagen nun.",
+        "paragraphs": [
+          "Mitte März machte die Runde, dass PayPal-Verknüpfungen mit der Google Wallet aufgelöst werden. PayPal korrigiert die Aussagen nun."
+        ],
+        "link": "https://www.heise.de/news/PayPal-Bei-den-Google-Wallet-Verknuepfungen-aendert-sich-doch-nichts-11243245.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-01T11:21:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Razer-stellt-ergonomische-Gaming-Tastatur-vor-11243159.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Razer stellt ergonomische Gaming-Tastatur vor",
+        "summary": "Razer stellt mit der Pro Type Ergo eine ergonomische Tastatur im Gaming-Look vor, die sich vorwiegend an Vielschreiber richtet.",
+        "paragraphs": [
+          "Razer stellt mit der Pro Type Ergo eine ergonomische Tastatur im Gaming-Look vor, die sich vorwiegend an Vielschreiber richtet."
+        ],
+        "link": "https://www.heise.de/news/Razer-stellt-ergonomische-Gaming-Tastatur-vor-11243159.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-01T11:16:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/KI-findet-kritische-ImageMagick-Luecken-in-Standardkonfigurationen-11243001.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -929,42 +963,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-01T09:17:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Cyberpunk-2077-Neues-VR-Spiel-fuer-Zero-Latency-Spielhallen-angekuendigt-11242959.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Cyberpunk 2077: Neues VR-Spiel für Zero Latency-Spielhallen angekündigt",
-        "summary": "CD Projekt Red bringt sein Sci-Fi-Rollenspiel gemeinsam mit Zero Latency VR als frei begehbares VR-Erlebnis in physische Arenen.",
-        "paragraphs": [
-          "CD Projekt Red bringt sein Sci-Fi-Rollenspiel gemeinsam mit Zero Latency VR als frei begehbares VR-Erlebnis in physische Arenen."
-        ],
-        "link": "https://www.heise.de/news/Cyberpunk-2077-Neues-VR-Spiel-fuer-Zero-Latency-Spielhallen-angekuendigt-11242959.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-01T08:53:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Rekord-Finanzierung-OpenAI-sichert-sich-122-Milliarden-US-Dollar-fuer-KI-Ausbau-11242967.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "OpenAI sichert sich 122 Milliarden in einer der größten Finanzierungsrunden",
-        "summary": "Mit 122 Milliarden US-Dollar schließt OpenAI eine der größten Finanzierungsrunden der Geschichte ab und verschafft sich finanziellen Spielraum im KI-Wettlauf.",
-        "paragraphs": [
-          "Mit 122 Milliarden US-Dollar schließt OpenAI eine der größten Finanzierungsrunden der Geschichte ab und verschafft sich finanziellen Spielraum im KI-Wettlauf."
-        ],
-        "link": "https://www.heise.de/news/Rekord-Finanzierung-OpenAI-sichert-sich-122-Milliarden-US-Dollar-fuer-KI-Ausbau-11242967.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-01T08:46:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Malware-auf-npm-HTTP-Client-axios-laedt-Backdoor-fuer-Windows-macOS-und-Linux-11242675.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Malware auf npm: HTTP-Client axios lädt Backdoor für Windows, macOS und Linux",
-        "summary": "Der Maintainer-Account für das Paket axios auf npm wurde geknackt, um einen Remote-Access-Trojaner für Windows, macOS und Linux einzuschleusen.",
-        "paragraphs": [
-          "Der Maintainer-Account für das Paket axios auf npm wurde geknackt, um einen Remote-Access-Trojaner für Windows, macOS und Linux einzuschleusen."
-        ],
-        "link": "https://www.heise.de/news/Malware-auf-npm-HTTP-Client-axios-laedt-Backdoor-fuer-Windows-macOS-und-Linux-11242675.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-01T08:26:00.000Z"
       }
     ]
   }
