@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-03T14:01:16.318Z",
+  "updatedAt": "2026-04-03T15:05:33.779Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "64775fe4-4bd8-4e08-ba4e-e84874cfed2b",
+        "title": "Mythos \"Geisterschiff\": Der lange Schatten der \"Mary Celeste\"",
+        "summary": "Als Mörder gebrandmarkt, als Geister verschollen: Ein Nachfahre auf Föhr kämpft gegen die Legenden der \"Mary Celeste\". Wie aus einer Tragödie ein frühes Beispiel für Fake News wurde. Von Lornz Lorenzen.",
+        "paragraphs": [
+          "Als Mörder gebrandmarkt, als Geister verschollen: Ein Nachfahre auf Föhr kämpft gegen die Legenden der \"Mary Celeste\". Wie aus einer Tragödie ein frühes Beispiel für Fake News wurde. Von Lornz Lorenzen."
+        ],
+        "link": "https://www.tagesschau.de/kultur/geisterschiff-mythos-mary-celeste-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-03T14:10:50.000Z"
+      },
       {
         "id": "c9c19014-050f-49c7-8dec-b5c6afcc7444",
         "title": "Vor zehn Jahren kam der Skandal um die Panama Papers ins Rollen",
@@ -229,21 +241,31 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-02T09:11:30.000Z"
-      },
-      {
-        "id": "a3f44986-a5a6-4bf2-b44e-e8c4c47720ac",
-        "title": "USA streichen Sanktionen gegen Venezuelas Präsidentin Rodríguez",
-        "summary": "Die USA setzen in ihrer Venezuela-Politik weiter auf Entspannung: Das Finanzministerium hob Sanktionen gegen die geschäftsführende Präsidentin Rodríguez auf. Begründet wurde dies nicht.",
-        "paragraphs": [
-          "Die USA setzen in ihrer Venezuela-Politik weiter auf Entspannung: Das Finanzministerium hob Sanktionen gegen die geschäftsführende Präsidentin Rodríguez auf. Begründet wurde dies nicht."
-        ],
-        "link": "https://www.tagesschau.de/ausland/amerika/usa-lockerung-sanktionen-venezuela-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-02T07:19:37.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "76653838",
+        "title": "Explosionen im ICE: Ermittler prüfen politisches Motiv",
+        "summary": "Ein 20-Jähriger soll in einem Schnellzug auf dem Weg nach Frankfurt Sprengvorrichtungen gezündet und dabei Reisende verletzt haben. Der Verdächtige wurde festgenommen, die Hintergründe der Tat sind weiterhin unklar.",
+        "paragraphs": [
+          "Ein 20-Jähriger soll in einem Schnellzug auf dem Weg nach Frankfurt Sprengvorrichtungen gezündet und dabei Reisende verletzt haben. Der Verdächtige wurde festgenommen, die Hintergründe der Tat sind weiterhin unklar."
+        ],
+        "link": "https://www.dw.com/de/explosionen-im-ice-ermittler-prüfen-politisches-motiv/a-76653838?maca=de-rss-de-top-1016-xml-mrss",
+        "category": "Aktuelles",
+        "source": "DW",
+        "publishedAt": "2026-04-03T14:44:00.000Z"
+      },
+      {
+        "id": "li.3462689",
+        "title": "Glosse: Das Streiflicht",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/glosse-das-streiflicht-li.3462689",
+        "category": "Nordrhein-Westfalen",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-03T14:15:21.000Z"
+      },
       {
         "id": "li.3458356",
         "title": "Krieg in Nahost: Mehrere Verletzte bei iranischen Angriffen auf arabische Länder",
@@ -258,10 +280,10 @@
       },
       {
         "id": "li.3463142",
-        "title": "Krieg gegen Iran: Wieder mehr Schiffspassagen durch Straße von Hormus",
+        "title": "Nahost: Weitere Angriffe im Iran-Krieg",
         "summary": "",
         "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/krieg-gegen-iran-wieder-mehr-schiffspassagen-durch-strasse-von-hormus-li.3463142",
+        "link": "https://www.sueddeutsche.de/politik/nahost-weitere-angriffe-im-iran-krieg-li.3463142",
         "category": "Iran",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-03T13:38:08.000Z"
@@ -275,18 +297,6 @@
         "category": "Gesundheitspolitik",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-03T13:37:44.000Z"
-      },
-      {
-        "id": "76653838",
-        "title": "Explosionen im ICE: Ermittler prüfen politisches Motiv",
-        "summary": "Ein 20-Jähriger soll in einem Schnellzug auf dem Weg nach Frankfurt Sprengvorrichtungen gezündet und dabei Reisende verletzt haben. Der Verdächtige wurde festgenommen, die Hintergründe der Tat sind weiterhin unklar.",
-        "paragraphs": [
-          "Ein 20-Jähriger soll in einem Schnellzug auf dem Weg nach Frankfurt Sprengvorrichtungen gezündet und dabei Reisende verletzt haben. Der Verdächtige wurde festgenommen, die Hintergründe der Tat sind weiterhin unklar."
-        ],
-        "link": "https://www.dw.com/de/explosionen-im-ice-ermittler-prüfen-politisches-motiv/a-76653838?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Aktuelles",
-        "source": "DW",
-        "publishedAt": "2026-04-03T12:44:00.000Z"
       },
       {
         "id": "li.3462535",
@@ -413,6 +423,18 @@
         "publishedAt": "2026-04-03T10:17:00.000Z"
       },
       {
+        "id": "er.e668476",
+        "title": "Tatort München: Sterne des Südens",
+        "summary": "Batic und Leitmayr haben 35 Jahre lang im „Tatort“ die Leichen aus den Tiefen und Untiefen dieser Stadt gezerrt. München leuchtet? Unbedingt, aber bei ihnen durfte es auch mal richtig schattig sein. Jetzt gehen sie in Rente: Na dann, servus.",
+        "paragraphs": [
+          "Batic und Leitmayr haben 35 Jahre lang im „Tatort“ die Leichen aus den Tiefen und Untiefen dieser Stadt gezerrt. München leuchtet? Unbedingt, aber bei ihnen durfte es auch mal richtig schattig sein. Jetzt gehen sie in Rente: Na dann, servus."
+        ],
+        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/tatort-muenchen-batic-leitmayr-nemec-wachtveitl-e668476/",
+        "category": "Die Seite Drei",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-03T10:00:00.000Z"
+      },
+      {
         "id": "li.3457776",
         "title": "Bundespolitik: Wirtschaftsweise Grimm spricht sich für Tempolimit aus",
         "summary": "Als Maßnahme gegen die explodierenden Spritpreise könne ein Tempolimit auf den Straßen ein „kluges Signal“ sein, „damit die Menschen die Situation ernst nehmen“, sagt die Ökonomin der „Rheinischen Post“.",
@@ -423,18 +445,6 @@
         "category": "Bundesregierung",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-03T09:08:00.000Z"
-      },
-      {
-        "id": "li.3457739",
-        "title": "Krieg in der Ukraine: Charkiw unter Dauerbeschuss",
-        "summary": "Seit mehr als 24 Stunden überzieht Russland die zweitgrößte Stadt der Ukraine mit ständigen Luftangriffen. Offenbar sind besonders schnelle Drohnen im Einsatz, die sich kaum abfangen lassen.",
-        "paragraphs": [
-          "Seit mehr als 24 Stunden überzieht Russland die zweitgrößte Stadt der Ukraine mit ständigen Luftangriffen. Offenbar sind besonders schnelle Drohnen im Einsatz, die sich kaum abfangen lassen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-russland-angriff-charkiw-li.3457739",
-        "category": "Ukraine",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-03T08:10:03.000Z"
       },
       {
         "id": "76651361",
@@ -459,21 +469,153 @@
         "category": "Aktuelles",
         "source": "DW",
         "publishedAt": "2026-04-03T07:00:00.000Z"
-      },
-      {
-        "id": "li.3462913",
-        "title": "USA: Verteidigungsminister Hegseth wirft Heereschef raus",
-        "summary": "Randy George hatte im Irak und in Afghanistan gedient, seit 2023 war er Generalstabschef des US-Heeres. Nun hat Hegseth den 61-Jährigen zum Rücktritt gedrängt.",
-        "paragraphs": [
-          "Randy George hatte im Irak und in Afghanistan gedient, seit 2023 war er Generalstabschef des US-Heeres. Nun hat Hegseth den 61-Jährigen zum Rücktritt gedrängt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-hegseth-verteidigungsminister-heereschef-randy-george-li.3462913",
-        "category": "USA",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-03T01:32:07.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "3098f8fe-235d-4d1c-a466-6419e87e00e6",
+        "title": "Fußball: Joachim Löw für Ghana? Der Ex-Bundestrainer weiß von nichts",
+        "summary": "2014 führte er das DFB-Team zum WM-Titel. Nun soll der ghanaische Fußballverband an Joachim Löws Expertise interessiert sein – der ehemalige Bundestrainer aber dementiert eine Kontaktaufnahme.",
+        "paragraphs": [
+          "2014 führte er das DFB-Team zum WM-Titel. Nun soll der ghanaische Fußballverband an Joachim Löws Expertise interessiert sein – der ehemalige Bundestrainer aber dementiert eine Kontaktaufnahme."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/fussball-joachim-loew-fuer-ghana-der-ex-bundestrainer-weiss-von-nichts-a-3098f8fe-235d-4d1c-a466-6419e87e00e6#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-03T15:01:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/sport-club-will-kleine-fenster-effektiv-nutzen-1207369/artikel#omrss",
+        "title": "Sport-Club will \"kleine Fenster effektiv nutzen\"",
+        "summary": "Wie in jeder Saison hoffen die Freiburger darauf, den Bayern mal ein Bein stellen zu können. Das ist bislang selten gelungen.",
+        "paragraphs": [
+          "Wie in jeder Saison hoffen die Freiburger darauf, den Bayern mal ein Bein stellen zu können. Das ist bislang selten gelungen."
+        ],
+        "link": "https://www.kicker.de/sport-club-will-kleine-fenster-effektiv-nutzen-1207369/artikel#omrss",
+        "category": "Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-03T14:45:10.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/walter-warum-soll-man-auf-die-bremse-treten-1207357/artikel#omrss",
+        "title": "Walter: \"Warum soll man auf die Bremse treten?\"",
+        "summary": "Drittletzter gegen Letzter heißt es an der Förde - oder auch Holstein Kiel gegen Preußen Münster, das mit einem neuen Coach anreist. Eine Gleichung mit einer Unbekannten, mit der KSV-Coach Tim Walter gleichwohl pragmatisch umgeht.",
+        "paragraphs": [
+          "Drittletzter gegen Letzter heißt es an der Förde - oder auch Holstein Kiel gegen Preußen Münster, das mit einem neuen Coach anreist. Eine Gleichung mit einer Unbekannten, mit der KSV-Coach Tim Walter gleichwohl pragmatisch umgeht."
+        ],
+        "link": "https://www.kicker.de/walter-warum-soll-man-auf-die-bremse-treten-1207357/artikel#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-03T14:35:32.000Z"
+      },
+      {
+        "id": "li.3463014",
+        "title": "Julian Nagelsmann: Das Publikum sollte ansatzweise kapieren, was der Bundestrainer überhaupt meint",
+        "summary": "Harte Worte, verwirrende Kraft: Den Redner Nagelsmann scheint die allmähliche Verfertigung eines WM-Aufgebots sehr zu erregen.",
+        "paragraphs": [
+          "Harte Worte, verwirrende Kraft: Den Redner Nagelsmann scheint die allmähliche Verfertigung eines WM-Aufgebots sehr zu erregen."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/julian-nagelsmann-kommentar-kader-rhetorik-bundestrainer-li.3463014",
+        "category": "Fußball",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-03T14:29:14.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/verletztenliste-wird-laenger-duisburg-faehrt-gebeutelt-zum-derby-1207302/artikel#omrss",
+        "title": "Verletztenliste wird länger: Duisburg fährt gebeutelt zum Derby",
+        "summary": "Letzte Woche feierte der MSV Duisburg seit langem wieder einen Auswärtserfolg - aber nur im Landespokal. Die Freude wich allerdings am Donnerstag schon wieder den Sorgenfalten. Vor dem so wichtigen Derby bei Rot-Weiss Essen drohen den Meiderichern weitere vier Ausfälle.",
+        "paragraphs": [
+          "Letzte Woche feierte der MSV Duisburg seit langem wieder einen Auswärtserfolg - aber nur im Landespokal. Die Freude wich allerdings am Donnerstag schon wieder den Sorgenfalten. Vor dem so wichtigen Derby bei Rot-Weiss Essen drohen den Meiderichern weitere vier Ausfälle."
+        ],
+        "link": "https://www.kicker.de/verletztenliste-wird-laenger-duisburg-faehrt-gebeutelt-zum-derby-1207302/artikel#omrss",
+        "category": "3. Liga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-03T14:26:09.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/illegitime-praktiken-mit-minderjaehrigen-weltweit-1207154/artikel#omrss",
+        "title": "\"Illegitime Praktiken mit Minderjährigen weltweit\"",
+        "summary": "Im Gespräch mit dem kicker prangert André Villas-Boas, der Präsident des FC Porto, die systematische Ausbeutung von Talenten und das Umgehen von Transferregeln aus Profitgier massiv an.",
+        "paragraphs": [
+          "Im Gespräch mit dem kicker prangert André Villas-Boas, der Präsident des FC Porto, die systematische Ausbeutung von Talenten und das Umgehen von Transferregeln aus Profitgier massiv an."
+        ],
+        "link": "https://www.kicker.de/illegitime-praktiken-mit-minderjaehrigen-weltweit-1207154/artikel#omrss",
+        "category": "1. HNL",
+        "source": "Kicker",
+        "publishedAt": "2026-04-03T14:17:54.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/collins-droht-das-saison-aus-riera-und-die-systemfrage-1207267/artikel#omrss",
+        "title": "Collins droht das Saison-Aus - Riera und die Systemfrage",
+        "summary": "Verteidiger Nnamdi Collins ist schwerer verletzt als bislang bekannt. Mit einer Änderung der taktischen Grundordnung könnte Trainer Albert Riera zwei Fliegen mit einer Klappe schlagen.",
+        "paragraphs": [
+          "Verteidiger Nnamdi Collins ist schwerer verletzt als bislang bekannt. Mit einer Änderung der taktischen Grundordnung könnte Trainer Albert Riera zwei Fliegen mit einer Klappe schlagen."
+        ],
+        "link": "https://www.kicker.de/collins-droht-das-saison-aus-riera-und-die-systemfrage-1207267/artikel#omrss",
+        "category": "Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-03T14:11:42.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mit-16-stichen-genaeht-ilzer-nicht-nur-bei-hajdari-optimistisch-1207305/artikel#omrss",
+        "title": "\"Mit 16 Stichen genäht\": Ilzer nicht nur bei Hajdari optimistisch",
+        "summary": "Nach der 0:5-Klatsche in Leipzig ist die TSG Hoffenheim nun zuhause gegen den 1. FSV Mainz 05 gefordert - und damit gegen eines der formstärksten Teams der Liga. Personell gibt es das eine oder andere Fragezeichen, jedoch auch Hoffnung.",
+        "paragraphs": [
+          "Nach der 0:5-Klatsche in Leipzig ist die TSG Hoffenheim nun zuhause gegen den 1. FSV Mainz 05 gefordert - und damit gegen eines der formstärksten Teams der Liga. Personell gibt es das eine oder andere Fragezeichen, jedoch auch Hoffnung."
+        ],
+        "link": "https://www.kicker.de/mit-16-stichen-genaeht-ilzer-nicht-nur-bei-hajdari-optimistisch-1207305/artikel#omrss",
+        "category": "Avdullahu",
+        "source": "Kicker",
+        "publishedAt": "2026-04-03T14:10:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/das-raetsel-um-arsenals-elf-angeschlagene-nationalspieler-1207360/artikel#omrss",
+        "title": "Das Rätsel um Arsenals elf angeschlagene Nationalspieler",
+        "summary": "Gleich elf Arsenal-Profis reisten nicht zu ihren Nationalteams oder vorzeitig wieder ab. Mikel Arteta kommentierte die verdächtige Häufung am Freitag gelassen - und machte sich einen Spaß daraus.",
+        "paragraphs": [
+          "Gleich elf Arsenal-Profis reisten nicht zu ihren Nationalteams oder vorzeitig wieder ab. Mikel Arteta kommentierte die verdächtige Häufung am Freitag gelassen - und machte sich einen Spaß daraus."
+        ],
+        "link": "https://www.kicker.de/das-raetsel-um-arsenals-elf-angeschlagene-nationalspieler-1207360/artikel#omrss",
+        "category": "Arteta",
+        "source": "Kicker",
+        "publishedAt": "2026-04-03T14:07:51.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ancelottis-zweifel-hat-neymar-ueberhaupt-noch-wm-chancen-1207280/artikel#omrss",
+        "title": "Ancelottis Zweifel: Hat Neymar überhaupt noch WM-Chancen?",
+        "summary": "Seit zweieinhalb Jahren hat Neymar kein Länderspiel mehr bestritten. Die Anzeichen mehren sich, dass Brasiliens Nationaltrainer Carlo Ancelotti auf ihn verzichten wird.",
+        "paragraphs": [
+          "Seit zweieinhalb Jahren hat Neymar kein Länderspiel mehr bestritten. Die Anzeichen mehren sich, dass Brasiliens Nationaltrainer Carlo Ancelotti auf ihn verzichten wird."
+        ],
+        "link": "https://www.kicker.de/ancelottis-zweifel-hat-neymar-ueberhaupt-noch-wm-chancen-1207280/artikel#omrss",
+        "category": "Ancelotti",
+        "source": "Kicker",
+        "publishedAt": "2026-04-03T14:07:47.000Z"
+      },
+      {
+        "id": "er.e496724",
+        "title": "Die Fußballgötter: Wo ein Wille ist, ist auch ein Wirtz",
+        "summary": "Florian Wirtz wollte den Ball genau dahin schießen: in den Torwinkel der Schweizer. Ganz gewiss!",
+        "paragraphs": [
+          "Florian Wirtz wollte den Ball genau dahin schießen: in den Torwinkel der Schweizer. Ganz gewiss!"
+        ],
+        "link": "https://www.sueddeutsche.de/projekte/artikel/sport/fussballgoetter-comic-schroeter-bundesliga-e496724/",
+        "category": "Fußballgötter",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-03T14:05:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ubisoft-klage-und-eu-anhoerung-stop-killing-games-nimmt-fahrt-auf-1207329/artikel#omrss",
+        "title": "Ubisoft-Klage und EU-Anhörung: \"Stop Killing Games\" nimmt Fahrt auf",
+        "summary": "Ubisoft muss vor Gericht - und wieder geht es dabei um The Crew. Das Rennspiel droht zwölf Jahre nach Release nicht nur dem französischen Publisher, sondern der ganzen Videospielbranche auf die Füße zu fallen.",
+        "paragraphs": [
+          "Ubisoft muss vor Gericht - und wieder geht es dabei um The Crew. Das Rennspiel droht zwölf Jahre nach Release nicht nur dem französischen Publisher, sondern der ganzen Videospielbranche auf die Füße zu fallen."
+        ],
+        "link": "https://www.kicker.de/ubisoft-klage-und-eu-anhoerung-stop-killing-games-nimmt-fahrt-auf-1207329/artikel#omrss",
+        "category": "eSport",
+        "source": "Kicker",
+        "publishedAt": "2026-04-03T14:04:28.000Z"
+      },
       {
         "id": "https://www.kicker.de/simeone-analysiert-flicks-taktik-und-hat-einen-gewaltigen-engpass-1207358/artikel#omrss",
         "title": "Simeone analysiert Flicks Taktik - und hat einen gewaltigen Engpass",
@@ -499,13 +641,13 @@
         "publishedAt": "2026-04-03T13:35:06.000Z"
       },
       {
-        "id": "https://www.kicker.de/wagner-versucht-den-schwierigen-spagat-am-geissbockheim-1207359/video#omrss",
-        "title": "Wagner versucht den \"schwierigen Spagat am Geißbockheim\"",
+        "id": "https://www.kicker.de/wagners-schwieriger-spagat-am-geissbockheim-1207359/video#omrss",
+        "title": "Wagners \"schwieriger Spagat am Geißbockheim\"",
         "summary": "In seiner PK vor dem ersten Spiel sprach Rene Wagner über seinen eigenen Ansatz und warum er den Plan von seinem ehemaligen Chef Lukas Kwasniok nicht komplett umwerfen wird.",
         "paragraphs": [
           "In seiner PK vor dem ersten Spiel sprach Rene Wagner über seinen eigenen Ansatz und warum er den Plan von seinem ehemaligen Chef Lukas Kwasniok nicht komplett umwerfen wird."
         ],
-        "link": "https://www.kicker.de/wagner-versucht-den-schwierigen-spagat-am-geissbockheim-1207359/video#omrss",
+        "link": "https://www.kicker.de/wagners-schwieriger-spagat-am-geissbockheim-1207359/video#omrss",
         "category": "1. FC Köln",
         "source": "Kicker",
         "publishedAt": "2026-04-03T13:33:28.000Z"
@@ -569,153 +711,33 @@
         "category": "1. FC Köln",
         "source": "Kicker",
         "publishedAt": "2026-04-03T12:57:07.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/alisson-fehlt-liverpool-auch-in-den-duellen-mit-psg-1207328/artikel#omrss",
-        "title": "Alisson fehlt Liverpool auch in den Duellen mit PSG",
-        "summary": "Vor dem FC Liverpool liegen schwierige Wochen in drei Wettbewerben. Coach Arne Slot kann dafür wieder auf wichtige Akteure zurückgreifen, während im Tor plötzlich eine Lücke klafft.",
-        "paragraphs": [
-          "Vor dem FC Liverpool liegen schwierige Wochen in drei Wettbewerben. Coach Arne Slot kann dafür wieder auf wichtige Akteure zurückgreifen, während im Tor plötzlich eine Lücke klafft."
-        ],
-        "link": "https://www.kicker.de/alisson-fehlt-liverpool-auch-in-den-duellen-mit-psg-1207328/artikel#omrss",
-        "category": "Alisson",
-        "source": "Kicker",
-        "publishedAt": "2026-04-03T12:53:50.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nach-verpasster-wm-gattuso-tritt-als-italiens-nationaltrainer-zurueck-1206696/artikel#omrss",
-        "title": "Nach verpasster WM: Gattuso tritt als Italiens Nationaltrainer zurück",
-        "summary": "Die dritte verpasste WM Italiens in Folge hat weitere personelle Konsequenzen. Trainer Genaro Gattuso gibt sein Amt nach nicht mal einem Jahr auf.",
-        "paragraphs": [
-          "Die dritte verpasste WM Italiens in Folge hat weitere personelle Konsequenzen. Trainer Genaro Gattuso gibt sein Amt nach nicht mal einem Jahr auf."
-        ],
-        "link": "https://www.kicker.de/nach-verpasster-wm-gattuso-tritt-als-italiens-nationaltrainer-zurueck-1206696/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-03T12:25:13.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ritterschlag-warum-adidas-den-fuechsen-mehr-als-nur-geld-bringt-1206176/artikel#omrss",
-        "title": "\"Ritterschlag\": Warum Adidas den Füchsen mehr als nur Geld bringt",
-        "summary": "Anfang Februar gaben die Füchse Berlin ihren Ausrüsterwechsel zu Adidas bekannt. Ein \"Ritterschlag\", wie Geschäftsführer Bob Hanning schwärmt. Dabei sei der Deal \"rein finanziell auf gar keinen Fall\" sein bester. Was der Füchse-Boss meint:",
-        "paragraphs": [
-          "Anfang Februar gaben die Füchse Berlin ihren Ausrüsterwechsel zu Adidas bekannt. Ein \"Ritterschlag\", wie Geschäftsführer Bob Hanning schwärmt. Dabei sei der Deal \"rein finanziell auf gar keinen Fall\" sein bester. Was der Füchse-Boss meint:"
-        ],
-        "link": "https://www.kicker.de/ritterschlag-warum-adidas-den-fuechsen-mehr-als-nur-geld-bringt-1206176/artikel#omrss",
-        "category": "Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-03T12:20:18.000Z"
-      },
-      {
-        "id": "li.3462869",
-        "title": "Champions League: Die Deutschen melden sich ein bisschen zurück",
-        "summary": "Der FC Bayern steht im Halbfinale der Champions League, der VfL Wolfsburg verliert erst nach einer Abwehrschlacht in Lyon. Doch die Maßstäbe im Klubfußball setzen längst die anderen – der deutsche Fußball kämpft darum, den Anschluss nicht zu verlieren.",
-        "paragraphs": [
-          "Der FC Bayern steht im Halbfinale der Champions League, der VfL Wolfsburg verliert erst nach einer Abwehrschlacht in Lyon. Doch die Maßstäbe im Klubfußball setzen längst die anderen – der deutsche Fußball kämpft darum, den Anschluss nicht zu verlieren."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/champions-league-frauen-viertelfinale-wolfsburg-lyon-fc-bayern-li.3462869",
-        "category": "Champions League",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-03T12:17:42.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nfl-mock-draft-untypische-umstaende-fuer-mendoza-spannung-ab-pick-2-1207068/artikel#omrss",
-        "title": "NFL Mock Draft: Untypische Umstände für Mendoza - Spannung ab Pick 2",
-        "summary": "Der April hat begonnen und mit ihm verändert sich die Dynamik der Offseason spürbar. Die größten Entscheidungen der Free Agency sind gefallen, erste Richtungen sind vorgegeben. Jetzt richtet sich der Blick immer stärker auf den Draft. Noch bleibt vieles offen, doch nach und nach setzt sich das Bild zusammen und zeigt immer deutlicher, wie die erste Runde aussehen könnte.",
-        "paragraphs": [
-          "Der April hat begonnen und mit ihm verändert sich die Dynamik der Offseason spürbar. Die größten Entscheidungen der Free Agency sind gefallen, erste Richtungen sind vorgegeben. Jetzt richtet sich der Blick immer stärker auf den Draft. Noch bleibt vieles offen, doch nach und nach setzt sich das Bild zusammen und zeigt immer deutlicher, wie die erste Runde aussehen könnte."
-        ],
-        "link": "https://www.kicker.de/nfl-mock-draft-untypische-umstaende-fuer-mendoza-spannung-ab-pick-2-1207068/artikel#omrss",
-        "category": "Arizona Cardinals",
-        "source": "Kicker",
-        "publishedAt": "2026-04-03T12:03:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kein-endspiel-aber-kniat-beschwoert-pokalspiel-energie-1207326/artikel#omrss",
-        "title": "Kein \"Endspiel\" - aber Kniat beschwört \"Pokalspiel-Energie\"",
-        "summary": "In Arminia Bielefelds Terminkalender steht an diesem Wochenende einmal mehr ein Topgegner. Darmstadt 98 heißt der letzte - zumindest tabellarisch - schwere Brocken, der am Samstag (13 Uhr) im Weg liegt.",
-        "paragraphs": [
-          "In Arminia Bielefelds Terminkalender steht an diesem Wochenende einmal mehr ein Topgegner. Darmstadt 98 heißt der letzte - zumindest tabellarisch - schwere Brocken, der am Samstag (13 Uhr) im Weg liegt."
-        ],
-        "link": "https://www.kicker.de/kein-endspiel-aber-kniat-beschwoert-pokalspiel-energie-1207326/artikel#omrss",
-        "category": "2. Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-03T11:59:42.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bayern-am-mittwoch-meister-restliche-saison-zeitgenau-angesetzt-1207324/artikel#omrss",
-        "title": "Bayern am Mittwoch Meister? Restliche Saison zeitgenau angesetzt",
-        "summary": "Der DFB hat die Begegnungen der Spieltage 23 bis 26 sowie zwei Nachholspiele der Frauen-Bundesliga zeitgenau angesetzt. Damit stehen die Termine für die Spiele bis zum Saisonende fest.",
-        "paragraphs": [
-          "Der DFB hat die Begegnungen der Spieltage 23 bis 26 sowie zwei Nachholspiele der Frauen-Bundesliga zeitgenau angesetzt. Damit stehen die Termine für die Spiele bis zum Saisonende fest."
-        ],
-        "link": "https://www.kicker.de/bayern-am-mittwoch-meister-restliche-saison-zeitgenau-angesetzt-1207324/artikel#omrss",
-        "category": "1. FC Köln",
-        "source": "Kicker",
-        "publishedAt": "2026-04-03T11:57:53.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bruno-fernandes-holt-cristiano-ronaldo-ein-1207335/artikel#omrss",
-        "title": "Bruno Fernandes holt Cristiano Ronaldo ein",
-        "summary": "Seine derzeitige Topform hat Bruno Fernandes einen individuellen Titel beschert - den selbst Cristiano Ronaldo nicht häufiger gewann. Jetzt jagt Manchester Uniteds Kapitän ein Trio.",
-        "paragraphs": [
-          "Seine derzeitige Topform hat Bruno Fernandes einen individuellen Titel beschert - den selbst Cristiano Ronaldo nicht häufiger gewann. Jetzt jagt Manchester Uniteds Kapitän ein Trio."
-        ],
-        "link": "https://www.kicker.de/bruno-fernandes-holt-cristiano-ronaldo-ein-1207335/artikel#omrss",
-        "category": "Arteta",
-        "source": "Kicker",
-        "publishedAt": "2026-04-03T11:57:01.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/die-startliste-fuer-die-flandern-rundfahrt-1207334/artikel#omrss",
-        "title": "Die Startliste für die Flandern-Rundfahrt",
-        "summary": "Bei der Flandern-Rundfahrt stehen 25 Teams mit insgesamt 175 Fahrern am Start. Die Mehrzahl der Profis auf der vorläufigen Startliste kommt beim Heimspiel natürlich aus Belgien. Sieben Deutsche werden ebenfalls am Start stehen.",
-        "paragraphs": [
-          "Bei der Flandern-Rundfahrt stehen 25 Teams mit insgesamt 175 Fahrern am Start. Die Mehrzahl der Profis auf der vorläufigen Startliste kommt beim Heimspiel natürlich aus Belgien. Sieben Deutsche werden ebenfalls am Start stehen."
-        ],
-        "link": "https://www.kicker.de/die-startliste-fuer-die-flandern-rundfahrt-1207334/artikel#omrss",
-        "category": "Radsport",
-        "source": "Kicker",
-        "publishedAt": "2026-04-03T11:51:42.000Z"
-      },
-      {
-        "id": "li.3365986",
-        "title": "Tennis-Saison 2026: Termine der wichtigsten ATP- und WTA-Turniere im Überblick",
-        "summary": "Wann beginnt Wimbledon und welche Turniere finden in Deutschland statt? In unserem Tennis-Kalender finden Sie alle Informationen und Ergebnisse zu den großen ATP- und WTA-Turnieren.",
-        "paragraphs": [
-          "Wann beginnt Wimbledon und welche Turniere finden in Deutschland statt? In unserem Tennis-Kalender finden Sie alle Informationen und Ergebnisse zu den großen ATP- und WTA-Turnieren."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/tennis-kalender-2026-atp-wta-grand-slam-masters-termine-turniere-deutschland-li.3365986",
-        "category": "Tennis",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-03T11:51:10.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/pogacar-vs-van-der-poel-episches-duell-der-heiligen-woche-1207325/artikel#omrss",
-        "title": "Pogacar vs. van der Poel: Episches Duell der Heiligen Woche",
-        "summary": "Am Sonntag ist Feiertag in Belgien und es geht nicht um Ostern. Die Flandern-Rundfahrt ist Belgiens heimlicher Nationalfeiertag und es gibt nur eine Frage: Wer stoppt Tadej Pogacar - und wie?",
-        "paragraphs": [
-          "Am Sonntag ist Feiertag in Belgien und es geht nicht um Ostern. Die Flandern-Rundfahrt ist Belgiens heimlicher Nationalfeiertag und es gibt nur eine Frage: Wer stoppt Tadej Pogacar - und wie?"
-        ],
-        "link": "https://www.kicker.de/pogacar-vs-van-der-poel-episches-duell-der-heiligen-woche-1207325/artikel#omrss",
-        "category": "Radsport",
-        "source": "Kicker",
-        "publishedAt": "2026-04-03T11:43:15.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ein-sinkendes-schiff-creator-flucht-aus-fc-26-und-fut-1206746/artikel#omrss",
-        "title": "\"Ein sinkendes Schiff\": Creator-Flucht aus FC 26 und FUT",
-        "summary": "Vor zweieinhalb Jahren trank er für EA SPORTS noch vor laufenden Kameras aus einem Schuh - nun will 'Pieface' mit FC 26 vorerst nichts mehr zu tun haben. Und der Content Creator ist nicht der Einzige.",
-        "paragraphs": [
-          "Vor zweieinhalb Jahren trank er für EA SPORTS noch vor laufenden Kameras aus einem Schuh - nun will 'Pieface' mit FC 26 vorerst nichts mehr zu tun haben. Und der Content Creator ist nicht der Einzige."
-        ],
-        "link": "https://www.kicker.de/ein-sinkendes-schiff-creator-flucht-aus-fc-26-und-fut-1206746/artikel#omrss",
-        "category": "eSport",
-        "source": "Kicker",
-        "publishedAt": "2026-04-03T11:27:02.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/news/Sind-OLEDs-jetzt-komplett-unproblematisch-c-t-3003-11245290.html",
+        "title": "Sind OLEDs jetzt komplett unproblematisch? | c't 3003",
+        "summary": "Sind OLED-Monitore jetzt Mainstream? c't 3003 hat 646 Stunden mit einem aktuellen Modell verbracht. Einbrennen, Helligkeit & Textschärfe im Real-Check!",
+        "paragraphs": [
+          "Sind OLED-Monitore jetzt Mainstream? c't 3003 hat 646 Stunden mit einem aktuellen Modell verbracht. Einbrennen, Helligkeit & Textschärfe im Real-Check!"
+        ],
+        "link": "https://www.heise.de/news/Sind-OLEDs-jetzt-komplett-unproblematisch-c-t-3003-11245290.html",
+        "category": null,
+        "source": "c't",
+        "publishedAt": "2026-04-03T14:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Dieselpreis-eilt-von-Rekord-zu-Rekord-Poker-um-Entlastung-11245648.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Dieselpreis eilt von Rekord zu Rekord - Poker um Entlastung",
+        "summary": "Trotz neuer Regeln steigen die Spritpreise weiter. Die Politik sucht nach Auswegen. Pendlerpauschale und Recht auf Homeoffice sind im Gespräch.",
+        "paragraphs": [
+          "Trotz neuer Regeln steigen die Spritpreise weiter. Die Politik sucht nach Auswegen. Pendlerpauschale und Recht auf Homeoffice sind im Gespräch."
+        ],
+        "link": "https://www.heise.de/news/Dieselpreis-eilt-von-Rekord-zu-Rekord-Poker-um-Entlastung-11245648.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-03T14:19:00.000Z"
+      },
       {
         "id": "https://www.heise.de/hintergrund/Desolate-FCC-Vorgabe-Freedom-Router-fuer-US-Verbraucher-11241349.html",
         "title": "Desolate FCC-Vorgabe: „Freedom Router“ für US-Verbraucher",
@@ -729,16 +751,16 @@
         "publishedAt": "2026-04-03T05:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/TGIQF-Das-Quiz-rund-um-Artemis-2-und-Co-11245599.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "#TGIQF: Das Quiz rund um Artemis 2 und Co.",
-        "summary": "Wir sind wieder auf dem Weg zum Mond! Zur Feier des Vorbeiflugs haben wir für Sie ein Quiz ins lange Osterwochenende vorbereitet zu Artemis, Apollo und Co.",
+        "id": "https://www.heise.de/news/Sind-OLEDs-jetzt-komplett-unproblematisch-c-t-3003-11245290.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Sind OLEDs jetzt komplett unproblematisch? | c't 3003",
+        "summary": "Sind OLED-Monitore jetzt Mainstream? c't 3003 hat 646 Stunden mit einem aktuellen Modell verbracht. Einbrennen, Helligkeit & Textschärfe im Real-Check!",
         "paragraphs": [
-          "Wir sind wieder auf dem Weg zum Mond! Zur Feier des Vorbeiflugs haben wir für Sie ein Quiz ins lange Osterwochenende vorbereitet zu Artemis, Apollo und Co."
+          "Sind OLED-Monitore jetzt Mainstream? c't 3003 hat 646 Stunden mit einem aktuellen Modell verbracht. Einbrennen, Helligkeit & Textschärfe im Real-Check!"
         ],
-        "link": "https://www.heise.de/news/TGIQF-Das-Quiz-rund-um-Artemis-2-und-Co-11245599.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Sind-OLEDs-jetzt-komplett-unproblematisch-c-t-3003-11245290.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-03T12:32:00.000Z"
+        "publishedAt": "2026-04-03T14:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-156-Datenschutz-Dauerbrenner-Microsoft-365-11244970.html",
@@ -753,16 +775,16 @@
         "publishedAt": "2026-04-03T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Chatkontrolle-Ausnahme-fuer-Suche-in-Privat-Chats-endet-11245620.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Chatkontrolle: Ausnahme für Suche in Privat-Chats endet",
-        "summary": "Datenschutz kontra Kinderschutz: Plattformen müssen in der EU private Online-Kommunikation wieder unangetastet lassen. Doch der Streit geht weiter.",
+        "id": "https://www.heise.de/news/TGIQF-Das-Quiz-rund-um-Artemis-2-und-Co-11245599.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "#TGIQF: Das Quiz rund um Artemis 2 und Co.",
+        "summary": "Wir sind wieder auf dem Weg zum Mond! Zur Feier des Vorbeiflugs haben wir für Sie ein Quiz ins lange Osterwochenende vorbereitet zu Artemis, Apollo und Co.",
         "paragraphs": [
-          "Datenschutz kontra Kinderschutz: Plattformen müssen in der EU private Online-Kommunikation wieder unangetastet lassen. Doch der Streit geht weiter."
+          "Wir sind wieder auf dem Weg zum Mond! Zur Feier des Vorbeiflugs haben wir für Sie ein Quiz ins lange Osterwochenende vorbereitet zu Artemis, Apollo und Co."
         ],
-        "link": "https://www.heise.de/news/Chatkontrolle-Ausnahme-fuer-Suche-in-Privat-Chats-endet-11245620.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/TGIQF-Das-Quiz-rund-um-Artemis-2-und-Co-11245599.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-03T12:27:00.000Z"
+        "publishedAt": "2026-04-03T12:32:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Blick-ins-Heft-c-t-08-2026-PC-Schnaeppchen-und-gute-Gebrauchte-11243832.html",
@@ -777,16 +799,16 @@
         "publishedAt": "2026-04-02T09:27:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Post-zum-Karfreitag-Zwischen-Apple-Nostalgie-und-dezentralen-KI-Systemen-11242507.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Post zum Karfreitag:  Zwischen Apple-Nostalgie und dezentralen KI-Systemen",
-        "summary": "Wir feiern Apples 50. Geburtstag mit Tests, Tops & Flops. Außerdem: alte Software und ein deutsches Android. Dies und weitere Themen in der Post zum Freitag.",
+        "id": "https://www.heise.de/news/Chatkontrolle-Ausnahme-fuer-Suche-in-Privat-Chats-endet-11245620.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Chatkontrolle: Ausnahme für Suche in Privat-Chats endet",
+        "summary": "Datenschutz kontra Kinderschutz: Plattformen müssen in der EU private Online-Kommunikation wieder unangetastet lassen. Doch der Streit geht weiter.",
         "paragraphs": [
-          "Wir feiern Apples 50. Geburtstag mit Tests, Tops & Flops. Außerdem: alte Software und ein deutsches Android. Dies und weitere Themen in der Post zum Freitag."
+          "Datenschutz kontra Kinderschutz: Plattformen müssen in der EU private Online-Kommunikation wieder unangetastet lassen. Doch der Streit geht weiter."
         ],
-        "link": "https://www.heise.de/news/Post-zum-Karfreitag-Zwischen-Apple-Nostalgie-und-dezentralen-KI-Systemen-11242507.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Chatkontrolle-Ausnahme-fuer-Suche-in-Privat-Chats-endet-11245620.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-03T12:14:00.000Z"
+        "publishedAt": "2026-04-03T12:27:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Podcast-They-Talk-Tech-Frauen-werden-aus-der-Oeffentlichkeit-gedraengt-11243353.html",
@@ -801,16 +823,16 @@
         "publishedAt": "2026-04-01T12:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Frankreichs-Senat-fuer-Verbot-vieler-sozialer-Medien-unter-15-11245604.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Frankreichs Senat für Verbot vieler sozialer Medien unter 15",
-        "summary": "Um Kinder und Jugendliche zu schützen, könnte in Frankreich bald ein Verbot etlicher sozialer Medien kommen. Doch das Parlament muss sich einig werden.",
+        "id": "https://www.heise.de/news/Post-zum-Karfreitag-Zwischen-Apple-Nostalgie-und-dezentralen-KI-Systemen-11242507.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Post zum Karfreitag:  Zwischen Apple-Nostalgie und dezentralen KI-Systemen",
+        "summary": "Wir feiern Apples 50. Geburtstag mit Tests, Tops & Flops. Außerdem: alte Software und ein deutsches Android. Dies und weitere Themen in der Post zum Freitag.",
         "paragraphs": [
-          "Um Kinder und Jugendliche zu schützen, könnte in Frankreich bald ein Verbot etlicher sozialer Medien kommen. Doch das Parlament muss sich einig werden."
+          "Wir feiern Apples 50. Geburtstag mit Tests, Tops & Flops. Außerdem: alte Software und ein deutsches Android. Dies und weitere Themen in der Post zum Freitag."
         ],
-        "link": "https://www.heise.de/news/Frankreichs-Senat-fuer-Verbot-vieler-sozialer-Medien-unter-15-11245604.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Post-zum-Karfreitag-Zwischen-Apple-Nostalgie-und-dezentralen-KI-Systemen-11242507.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-03T11:01:00.000Z"
+        "publishedAt": "2026-04-03T12:14:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-Mathe-entdecken-mit-Tabellenkalkulationen-11161719.html",
@@ -823,6 +845,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-01T08:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Frankreichs-Senat-fuer-Verbot-vieler-sozialer-Medien-unter-15-11245604.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Frankreichs Senat für Verbot vieler sozialer Medien unter 15",
+        "summary": "Um Kinder und Jugendliche zu schützen, könnte in Frankreich bald ein Verbot etlicher sozialer Medien kommen. Doch das Parlament muss sich einig werden.",
+        "paragraphs": [
+          "Um Kinder und Jugendliche zu schützen, könnte in Frankreich bald ein Verbot etlicher sozialer Medien kommen. Doch das Parlament muss sich einig werden."
+        ],
+        "link": "https://www.heise.de/news/Frankreichs-Senat-fuer-Verbot-vieler-sozialer-Medien-unter-15-11245604.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-03T11:01:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Nebelfotos-zwischen-Muehlen-und-Tulpen-c-t-Fotografie-Fototouren-Europa-II-11222645.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -919,42 +953,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-03T04:10:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Hohe-Treibstoffpreise-Amazon-com-erhoeht-Tarife-fuer-Haendler-11245418.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Irankrieg lässt auch Amazons Gebühren steigen",
-        "summary": "Auch Amazon muss kriegsbedingt mehr für Treibstoff bezahlen. Der Konzern hebt die Kosten für die Abwicklung von Bestellungen bei Dritthändlern an.",
-        "paragraphs": [
-          "Auch Amazon muss kriegsbedingt mehr für Treibstoff bezahlen. Der Konzern hebt die Kosten für die Abwicklung von Bestellungen bei Dritthändlern an."
-        ],
-        "link": "https://www.heise.de/news/Hohe-Treibstoffpreise-Amazon-com-erhoeht-Tarife-fuer-Haendler-11245418.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-02T19:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/KIT-testet-Kohlenstoffabscheidung-und-wiederverwendung-in-der-Industrie-11245362.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KIT testet Carbon Capture im industriellen Maßstab",
-        "summary": "Karlsruher Forscher haben ein Verfahren zur Kohlenstoffabscheidung und -wiederverwendung entwickelt. Es wird in einem Industriebetrieb eingesetzt.",
-        "paragraphs": [
-          "Karlsruher Forscher haben ein Verfahren zur Kohlenstoffabscheidung und -wiederverwendung entwickelt. Es wird in einem Industriebetrieb eingesetzt."
-        ],
-        "link": "https://www.heise.de/news/KIT-testet-Kohlenstoffabscheidung-und-wiederverwendung-in-der-Industrie-11245362.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-02T18:29:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/bestenlisten/deals/maehroboter-top-modelle-zu-ostern-besonders-guenstig/gv0z7e9?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Mähroboter: Top-Modelle zu Ostern besonders günstig",
-        "summary": "Über Ostern reduziert Mammotion die Preise für zahlreiche Mähroboter. Auch Modelle anderer Hersteller sind im Angebot.",
-        "paragraphs": [
-          "Über Ostern reduziert Mammotion die Preise für zahlreiche Mähroboter. Auch Modelle anderer Hersteller sind im Angebot."
-        ],
-        "link": "https://www.heise.de/bestenlisten/deals/maehroboter-top-modelle-zu-ostern-besonders-guenstig/gv0z7e9?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-02T18:00:00.000Z"
       }
     ]
   }
