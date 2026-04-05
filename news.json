@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-05T10:37:55.537Z",
+  "updatedAt": "2026-04-05T11:24:25.897Z",
   "categories": {
     "wirtschaft": [
       {
@@ -245,6 +245,18 @@
     ],
     "politik": [
       {
+        "id": "li.3460034",
+        "title": "Katholische Kirche: „Wer Waffen in der Hand hält, lege sie nieder!“",
+        "summary": "Leo XIV. feiert sein erstes Ostern als Papst. In seiner Osterbotschaft nennt er keine Namen und spricht keinen Konflikt konkret an – und setzt dennoch seine Friedensappelle der vergangenen Wochen fort.",
+        "paragraphs": [
+          "Leo XIV. feiert sein erstes Ostern als Papst. In seiner Osterbotschaft nennt er keine Namen und spricht keinen Konflikt konkret an – und setzt dennoch seine Friedensappelle der vergangenen Wochen fort."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/papst-leo-xiv-ostern-frieden-osterbotschaft-li.3460034",
+        "category": "Glaube und Religion",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-05T11:06:41.000Z"
+      },
+      {
         "id": "76667337",
         "title": "Iran vollstreckt zwei weitere Todesurteile",
         "summary": "Der Iran will Härte demonstrieren: Die Justiz hat zwei weitere Männer im Zusammenhang mit den Protesten hingerichtet. Unterstützer sprechen von erzwungenen Geständnissen, fehlenden Beweisen und wachsender Repression.",
@@ -467,21 +479,57 @@
         "category": "Gesundheitspolitik",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-03T13:37:44.000Z"
-      },
-      {
-        "id": "li.3462535",
-        "title": "Pakistan und der Iran-Krieg: Zwei Männer, denen Trump traut",
-        "summary": "Pakistans Premierminister Sharif und Armeechef Munir haben sich im Iran-Krieg als Vermittler in Stellung gebracht. Können sie die US-Regierung und die Mullahs an einen Tisch bringen?",
-        "paragraphs": [
-          "Pakistans Premierminister Sharif und Armeechef Munir haben sich im Iran-Krieg als Vermittler in Stellung gebracht. Können sie die US-Regierung und die Mullahs an einen Tisch bringen?"
-        ],
-        "link": "https://www.sueddeutsche.de/politik/donald-trump-iran-pakistan-krieg-diplomatie-li.3462535",
-        "category": "Iran",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-03T12:25:53.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "{urn:uuid:677eea6c-c6eb-42e2-a237-89121cb424a4}",
+        "title": "Fußball: Ermittlungen nach Ausschreitungen beim Hertha-Spiel in Dresden",
+        "summary": "Nach dem Spiel zwischen Berlin und Dresden hat die Polizei mehr als ein Dutzend Ermittlungsverfahren aufgenommen. Fans hatten einander dort mit Pyrotechnik beschossen.",
+        "paragraphs": [
+          "Nach dem Spiel zwischen Berlin und Dresden hat die Polizei mehr als ein Dutzend Ermittlungsverfahren aufgenommen. Fans hatten einander dort mit Pyrotechnik beschossen."
+        ],
+        "link": "https://www.zeit.de/sport/2026-04/ausschreitungen-ermittlungen-dresden-hertha",
+        "category": "Sport",
+        "source": "ZEIT",
+        "publishedAt": "2026-04-05T11:12:33.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/arbeloa-kritisiert-camavinga-und-fordert-absoluten-fokus-auf-bayern-1207735/artikel#omrss",
+        "title": "Arbeloa kritisiert Camavinga - und fordert absoluten Fokus auf Bayern",
+        "summary": "Obwohl er die Niederlage auf Mallorca \"ganz allein\" auf seine Kappe nahm, kritisierte Alvaro Arbeloa einen seiner Schützlinge. Nach dem 1:2 bei RCD soll der Blick nun schnell auf die Bayern gerichtet werden.",
+        "paragraphs": [
+          "Obwohl er die Niederlage auf Mallorca \"ganz allein\" auf seine Kappe nahm, kritisierte Alvaro Arbeloa einen seiner Schützlinge. Nach dem 1:2 bei RCD soll der Blick nun schnell auf die Bayern gerichtet werden."
+        ],
+        "link": "https://www.kicker.de/arbeloa-kritisiert-camavinga-und-fordert-absoluten-fokus-auf-bayern-1207735/artikel#omrss",
+        "category": "Arbeloa",
+        "source": "Kicker",
+        "publishedAt": "2026-04-05T11:01:10.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ulm-gegen-verl-2026-liga-5057632/spielbericht#omrss",
+        "title": "LIVE! Kann Ulm gegen Verl überraschen? - Kijewski fehlt kurzfristig",
+        "summary": "Der abstiegsgefährdete SSV Ulm 1846 Fußball empfängt den Tabellendritten SC Verl, der in der Liga zuletzt drei Siege in Folge holte. Die Ulmer hingegen sammelten in den vergangenen drei Spielen nur einen Punkt und unterlagen im Hinspiel gegen Verl mit 0:5.",
+        "paragraphs": [
+          "Der abstiegsgefährdete SSV Ulm 1846 Fußball empfängt den Tabellendritten SC Verl, der in der Liga zuletzt drei Siege in Folge holte. Die Ulmer hingegen sammelten in den vergangenen drei Spielen nur einen Punkt und unterlagen im Hinspiel gegen Verl mit 0:5."
+        ],
+        "link": "https://www.kicker.de/ulm-gegen-verl-2026-liga-5057632/spielbericht#omrss",
+        "category": "3. Liga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-05T10:45:33.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nfl-draft-2026-welche-picks-haben-die-32-teams-1206572/artikel#omrss",
+        "title": "NFL Draft 2026: Welche Picks haben die 32 Teams?",
+        "summary": "Ende April startet eines der größten Offseason-Events der National Football League, der NFL Draft. Dort werden die besten Nachwuchsspieler aus dem College in einer festgelegten Reihenfolge ausgewählt und erfüllen sich damit ihren Traum vom NFL-Spieler. Doch welches Team hat wie viele Picks und vor allem wann? Hier gibt es die große Draftpick-Übersicht aller 32 Teams.",
+        "paragraphs": [
+          "Ende April startet eines der größten Offseason-Events der National Football League, der NFL Draft. Dort werden die besten Nachwuchsspieler aus dem College in einer festgelegten Reihenfolge ausgewählt und erfüllen sich damit ihren Traum vom NFL-Spieler. Doch welches Team hat wie viele Picks und vor allem wann? Hier gibt es die große Draftpick-Übersicht aller 32 Teams."
+        ],
+        "link": "https://www.kicker.de/nfl-draft-2026-welche-picks-haben-die-32-teams-1206572/artikel#omrss",
+        "category": "Arizona Cardinals",
+        "source": "Kicker",
+        "publishedAt": "2026-04-05T10:40:00.000Z"
+      },
       {
         "id": "li.3463425",
         "title": "FC Bayern: Jetzt muss es aber klappen in Madrid. Oder?",
@@ -497,9 +545,9 @@
       {
         "id": "https://www.kicker.de/schalke-befuerchtet-saison-aus-fuer-katic-dzeko-rueckkehr-weiter-offen-1207742/artikel#omrss",
         "title": "Schalke befürchtet Saison-Aus für Katic - Dzeko-Rückkehr weiter offen",
-        "summary": "Der FC Schalke 04 muss in der heißen Saisonphase auf zwei Stützen verzichten: Während Edin Dzekos Rückkehr nach einer Schulterverletzung weiter offen ist, könnte Abwehrchef Nikola Katic für die laufende Saison ausfallen, wie der Klub vor dem Heimspiel gegen den Karlsruher SC kommunizierte.",
+        "summary": "Der FC Schalke 04 muss in der heißen Saisonphase auf zwei Stützen verzichten: Während Edin Dzekos Rückkehr nach einer Schulterverletzung weiter offen ist, könnte Abwehrchef Nikola Katic für den Rest der laufenden Saison ausfallen, wie der Klub vor dem Heimspiel gegen den Karlsruher SC kommunizierte.",
         "paragraphs": [
-          "Der FC Schalke 04 muss in der heißen Saisonphase auf zwei Stützen verzichten: Während Edin Dzekos Rückkehr nach einer Schulterverletzung weiter offen ist, könnte Abwehrchef Nikola Katic für die laufende Saison ausfallen, wie der Klub vor dem Heimspiel gegen den Karlsruher SC kommunizierte."
+          "Der FC Schalke 04 muss in der heißen Saisonphase auf zwei Stützen verzichten: Während Edin Dzekos Rückkehr nach einer Schulterverletzung weiter offen ist, könnte Abwehrchef Nikola Katic für den Rest der laufenden Saison ausfallen, wie der Klub vor dem Heimspiel gegen den Karlsruher SC kommunizierte."
         ],
         "link": "https://www.kicker.de/schalke-befuerchtet-saison-aus-fuer-katic-dzeko-rueckkehr-weiter-offen-1207742/artikel#omrss",
         "category": "2. Bundesliga",
@@ -507,13 +555,13 @@
         "publishedAt": "2026-04-05T10:17:35.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-oster-konferenz-mit-topspiel-in-hannover-katic-fehlt-schalke-1206423/artikel#omrss",
-        "title": "LIVE! Oster-Konferenz mit Topspiel in Hannover - Katic fehlt Schalke",
+        "id": "https://www.kicker.de/live-oster-konferenz-mit-topspiel-in-hannover-katic-fehlt-schalke-kellerduell-in-kiel-1206423/artikel#omrss",
+        "title": "LIVE! Oster-Konferenz mit Topspiel in Hannover - Katic fehlt Schalke - Kellerduell in Kiel",
         "summary": "Der 28. Spieltag der 2. Bundesliga läutet die heiße Phase im Aufstiegs- und Abstiegskampf ein, Anfang April stehen mehrere richtungsweisende Duelle an. Das heutige Topspiel steigt in Hannover, Tabellenführer Schalke hat den KSC zu Gast, Paderborn muss in Fürth ran.",
         "paragraphs": [
           "Der 28. Spieltag der 2. Bundesliga läutet die heiße Phase im Aufstiegs- und Abstiegskampf ein, Anfang April stehen mehrere richtungsweisende Duelle an. Das heutige Topspiel steigt in Hannover, Tabellenführer Schalke hat den KSC zu Gast, Paderborn muss in Fürth ran."
         ],
-        "link": "https://www.kicker.de/live-oster-konferenz-mit-topspiel-in-hannover-katic-fehlt-schalke-1206423/artikel#omrss",
+        "link": "https://www.kicker.de/live-oster-konferenz-mit-topspiel-in-hannover-katic-fehlt-schalke-kellerduell-in-kiel-1206423/artikel#omrss",
         "category": null,
         "source": "Kicker",
         "publishedAt": "2026-04-05T10:16:10.000Z"
@@ -591,16 +639,16 @@
         "publishedAt": "2026-04-05T09:34:01.000Z"
       },
       {
-        "id": "{urn:uuid:677eea6c-c6eb-42e2-a237-89121cb424a4}",
-        "title": "Fußball: Ermittlungen nach Ausschreitungen beim Hertha-Spiel in Dresden",
-        "summary": "Nach dem Spiel zwischen Berlin und Dresden hat die Polizei mehr als ein Dutzend Ermittlungsverfahren aufgenommen. Fans hatten einander dort mit Pyrotechnik beschossen.",
+        "id": "https://www.kicker.de/jicha-unfassbar-enttaeuscht-und-sauer-nach-remis-gegen-eisenach-1207716/artikel#omrss",
+        "title": "Jicha \"unfassbar enttäuscht und sauer\" nach Remis gegen Eisenach",
+        "summary": "Filip Jicha fand deutliche Worte: Nach dem 30:30 gegen den ThSV Eisenach geht der Trainer des THW Kiel hart mit der Einstellung seiner Mannschaft ins Gericht. Zwischen Enttäuschung und Selbstkritik stellt er klar, was er von seinem Team erwartet.",
         "paragraphs": [
-          "Nach dem Spiel zwischen Berlin und Dresden hat die Polizei mehr als ein Dutzend Ermittlungsverfahren aufgenommen. Fans hatten einander dort mit Pyrotechnik beschossen."
+          "Filip Jicha fand deutliche Worte: Nach dem 30:30 gegen den ThSV Eisenach geht der Trainer des THW Kiel hart mit der Einstellung seiner Mannschaft ins Gericht. Zwischen Enttäuschung und Selbstkritik stellt er klar, was er von seinem Team erwartet."
         ],
-        "link": "https://www.zeit.de/sport/2026-04/ausschreitungen-ermittlungen-dresden-hertha",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-04-05T09:15:17.000Z"
+        "link": "https://www.kicker.de/jicha-unfassbar-enttaeuscht-und-sauer-nach-remis-gegen-eisenach-1207716/artikel#omrss",
+        "category": "Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-05T09:17:00.000Z"
       },
       {
         "id": "https://www.kicker.de/favoriten-fallen-wie-die-fliegen-monaco-feiert-meister-maerchen-1207260/artikel#omrss",
@@ -673,54 +721,6 @@
         "category": "1. FSV Mainz 05",
         "source": "Kicker",
         "publishedAt": "2026-04-05T08:52:09.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/dritter-platz-beim-world-cup-winter-feiert-tischtennis-coup-1207715/artikel#omrss",
-        "title": "Dritter Platz beim World Cup: Winter feiert Tischtennis-Coup",
-        "summary": "Beim World Cup in Macau belegt Sabine Winter aus Dachau Platz 3. Erst im Halbfinale ist gegen Weltmeisterin Sun Yingsha aus China Endstation.",
-        "paragraphs": [
-          "Beim World Cup in Macau belegt Sabine Winter aus Dachau Platz 3. Erst im Halbfinale ist gegen Weltmeisterin Sun Yingsha aus China Endstation."
-        ],
-        "link": "https://www.kicker.de/dritter-platz-beim-world-cup-winter-feiert-tischtennis-coup-1207715/artikel#omrss",
-        "category": "Tischtennis",
-        "source": "Kicker",
-        "publishedAt": "2026-04-05T08:48:53.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ich-koennte-weinen-das-grossaspach-spiel-veranschaulicht-sandhausens-grunduebel-1207720/artikel#omrss",
-        "title": "\"Ich könnte weinen\": Das Großaspach-Spiel veranschaulicht Sandhausens Grundübel",
-        "summary": "Auch nach der Trennung von Olaf Janßen präsentiert sich der SV Sandhausen als ein inhomogenes Gebilde. Der Zustand des langjährigen Zweitligisten lässt sogar den Ehrenpräsidenten an seinem 90. Geburtstag leiden.",
-        "paragraphs": [
-          "Auch nach der Trennung von Olaf Janßen präsentiert sich der SV Sandhausen als ein inhomogenes Gebilde. Der Zustand des langjährigen Zweitligisten lässt sogar den Ehrenpräsidenten an seinem 90. Geburtstag leiden."
-        ],
-        "link": "https://www.kicker.de/ich-koennte-weinen-das-grossaspach-spiel-veranschaulicht-sandhausens-grunduebel-1207720/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-05T08:48:24.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/der-naechste-frust-fuer-asllani-1207702/artikel#omrss",
-        "title": "Der nächste Frust für Asllani",
-        "summary": "Gerade erst musste Fisnik Asllani das WM-Aus verkraften, nun setzte es in der Liga trotz des Traumtores des Hoffenheimer Torjägers gleich den nächsten schmerzhaften Rückschlag.",
-        "paragraphs": [
-          "Gerade erst musste Fisnik Asllani das WM-Aus verkraften, nun setzte es in der Liga trotz des Traumtores des Hoffenheimer Torjägers gleich den nächsten schmerzhaften Rückschlag."
-        ],
-        "link": "https://www.kicker.de/der-naechste-frust-fuer-asllani-1207702/artikel#omrss",
-        "category": "Asllani",
-        "source": "Kicker",
-        "publishedAt": "2026-04-05T08:26:13.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/undav-beteuert-es-ist-alles-gut-zwischen-herrn-nagelsmann-und-mir-1207701/artikel#omrss",
-        "title": "Undav beteuert: \"Es ist alles gut zwischen Herrn Nagelsmann und mir\"",
-        "summary": "Die Personalie Deniz Undav wurde während der vergangenen Länderspielpause heiß diskutiert. Der Stuttgarter versuchte nun, die Wogen zu glätten, und berichtete von einem Gespräch mit Bundestrainer Julian Nagelsmann.",
-        "paragraphs": [
-          "Die Personalie Deniz Undav wurde während der vergangenen Länderspielpause heiß diskutiert. Der Stuttgarter versuchte nun, die Wogen zu glätten, und berichtete von einem Gespräch mit Bundestrainer Julian Nagelsmann."
-        ],
-        "link": "https://www.kicker.de/undav-beteuert-es-ist-alles-gut-zwischen-herrn-nagelsmann-und-mir-1207701/artikel#omrss",
-        "category": "Deutschland",
-        "source": "Kicker",
-        "publishedAt": "2026-04-05T08:24:22.000Z"
       }
     ],
     "edv": [
@@ -737,16 +737,16 @@
         "publishedAt": "2026-04-04T08:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Planet-Labs-haelt-Satellitenbilder-aus-Nahost-zurueck-11246045.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Satellitenbilder-Stopp: Planet Labs folgt Aufforderung der US-Regierung",
-        "summary": "Planet Labs stoppt die Veröffentlichung von Satellitenbildern aus Nahost auf Wunsch der US-Regierung – mit Verweis auf den Iran-Krieg.",
+        "id": "https://www.heise.de/news/Sichere-Softwareentwicklung-Jetzt-noch-Vortrag-fuer-die-heise-devSec-einreichen-11243005.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: Sichere Softwareentwicklung: Jetzt noch Vortrag für die heise devSec einreichen",
+        "summary": "Der Call for Proposals für die heise devSec in Marburg läuft noch bis zum 14. April. Im Mai findet zusätzlich online der Special Day „KI und Security“ statt.",
         "paragraphs": [
-          "Planet Labs stoppt die Veröffentlichung von Satellitenbildern aus Nahost auf Wunsch der US-Regierung – mit Verweis auf den Iran-Krieg."
+          "Der Call for Proposals für die heise devSec in Marburg läuft noch bis zum 14. April. Im Mai findet zusätzlich online der Special Day „KI und Security“ statt."
         ],
-        "link": "https://www.heise.de/news/Planet-Labs-haelt-Satellitenbilder-aus-Nahost-zurueck-11246045.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Sichere-Softwareentwicklung-Jetzt-noch-Vortrag-fuer-die-heise-devSec-einreichen-11243005.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-05T09:42:00.000Z"
+        "publishedAt": "2026-04-05T11:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Schnelles-Heimnetz-fuer-Glasfaser-Co-c-t-uplink-11244825.html",
@@ -761,16 +761,16 @@
         "publishedAt": "2026-04-04T04:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Fieses-Osterei-D-Trust-verlangt-Zertifikatstausch-bis-Ostermontag-11245930.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Admins müssen D-Trust-Zertifikate tauschen – bis Ostermontag",
-        "summary": "Die Bundesdruckerei-Tochter D-Trust beschert Administatoren kurzfristige Ostereinsätze: Ihre TLS-Zertifikate müssen bis Ostermontag 17 Uhr getauscht sein.",
+        "id": "https://www.heise.de/news/Planet-Labs-haelt-Satellitenbilder-aus-Nahost-zurueck-11246045.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Satellitenbilder-Stopp: Planet Labs folgt Aufforderung der US-Regierung",
+        "summary": "Planet Labs stoppt die Veröffentlichung von Satellitenbildern aus Nahost auf Wunsch der US-Regierung – mit Verweis auf den Iran-Krieg.",
         "paragraphs": [
-          "Die Bundesdruckerei-Tochter D-Trust beschert Administatoren kurzfristige Ostereinsätze: Ihre TLS-Zertifikate müssen bis Ostermontag 17 Uhr getauscht sein."
+          "Planet Labs stoppt die Veröffentlichung von Satellitenbildern aus Nahost auf Wunsch der US-Regierung – mit Verweis auf den Iran-Krieg."
         ],
-        "link": "https://www.heise.de/news/Fieses-Osterei-D-Trust-verlangt-Zertifikatstausch-bis-Ostermontag-11245930.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Planet-Labs-haelt-Satellitenbilder-aus-Nahost-zurueck-11246045.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-05T09:17:00.000Z"
+        "publishedAt": "2026-04-05T09:42:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Sind-OLEDs-jetzt-komplett-unproblematisch-c-t-3003-11245290.html",
@@ -785,16 +785,16 @@
         "publishedAt": "2026-04-03T14:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/FortiClient-EMS-Kritische-Codeschmuggel-Luecke-wird-angegriffen-11246000.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Jetzt updaten! Kritische FortiClient-EMS-Lücke wird attackiert",
-        "summary": "Fortinet hat Hotfixes bereitgestellt und rät Admins dringend, sie zügig anzuwenden. Sie stopfen ein angegriffenes Codeschmuggel-Leck.",
+        "id": "https://www.heise.de/news/Fieses-Osterei-D-Trust-verlangt-Zertifikatstausch-bis-Ostermontag-11245930.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Admins müssen D-Trust-Zertifikate tauschen – bis Ostermontag",
+        "summary": "Die Bundesdruckerei-Tochter D-Trust beschert Administatoren kurzfristige Ostereinsätze: Ihre TLS-Zertifikate müssen bis Ostermontag 17 Uhr getauscht sein.",
         "paragraphs": [
-          "Fortinet hat Hotfixes bereitgestellt und rät Admins dringend, sie zügig anzuwenden. Sie stopfen ein angegriffenes Codeschmuggel-Leck."
+          "Die Bundesdruckerei-Tochter D-Trust beschert Administatoren kurzfristige Ostereinsätze: Ihre TLS-Zertifikate müssen bis Ostermontag 17 Uhr getauscht sein."
         ],
-        "link": "https://www.heise.de/news/FortiClient-EMS-Kritische-Codeschmuggel-Luecke-wird-angegriffen-11246000.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Fieses-Osterei-D-Trust-verlangt-Zertifikatstausch-bis-Ostermontag-11245930.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-05T08:33:00.000Z"
+        "publishedAt": "2026-04-05T09:17:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Desolate-FCC-Vorgabe-Freedom-Router-fuer-US-Verbraucher-11241349.html",
@@ -809,16 +809,16 @@
         "publishedAt": "2026-04-03T05:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Einfuehrung-in-die-Software-Architektur-11224770.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Softwarearchitektur - vom Entwurf zur Implementierung",
-        "summary": "Lernen Sie die Aufgaben eines Software-Architekten kennen und stärken Sie Ihre Fähigkeiten, robuste IT-Systeme zu entwerfen.",
+        "id": "https://www.heise.de/news/FortiClient-EMS-Kritische-Codeschmuggel-Luecke-wird-angegriffen-11246000.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Jetzt updaten! Kritische FortiClient-EMS-Lücke wird attackiert",
+        "summary": "Fortinet hat Hotfixes bereitgestellt und rät Admins dringend, sie zügig anzuwenden. Sie stopfen ein angegriffenes Codeschmuggel-Leck.",
         "paragraphs": [
-          "Lernen Sie die Aufgaben eines Software-Architekten kennen und stärken Sie Ihre Fähigkeiten, robuste IT-Systeme zu entwerfen."
+          "Fortinet hat Hotfixes bereitgestellt und rät Admins dringend, sie zügig anzuwenden. Sie stopfen ein angegriffenes Codeschmuggel-Leck."
         ],
-        "link": "https://www.heise.de/news/iX-Workshop-Einfuehrung-in-die-Software-Architektur-11224770.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/FortiClient-EMS-Kritische-Codeschmuggel-Luecke-wird-angegriffen-11246000.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-05T08:00:00.000Z"
+        "publishedAt": "2026-04-05T08:33:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-156-Datenschutz-Dauerbrenner-Microsoft-365-11244970.html",
@@ -833,16 +833,16 @@
         "publishedAt": "2026-04-03T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Missing-Link-Wir-suchen-Terroristen-m-w-d-11245201.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Missing Link: Wir suchen Terroristen (m/w/d)",
-        "summary": "Das Bundeskriminalamt und der Bundesnachrichtendienst feiern Jubiläen – und fordern zum Geburtstag weitreichende neue Kompetenzen für die digitale Welt.",
+        "id": "https://www.heise.de/news/iX-Workshop-Einfuehrung-in-die-Software-Architektur-11224770.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Softwarearchitektur - vom Entwurf zur Implementierung",
+        "summary": "Lernen Sie die Aufgaben eines Software-Architekten kennen und stärken Sie Ihre Fähigkeiten, robuste IT-Systeme zu entwerfen.",
         "paragraphs": [
-          "Das Bundeskriminalamt und der Bundesnachrichtendienst feiern Jubiläen – und fordern zum Geburtstag weitreichende neue Kompetenzen für die digitale Welt."
+          "Lernen Sie die Aufgaben eines Software-Architekten kennen und stärken Sie Ihre Fähigkeiten, robuste IT-Systeme zu entwerfen."
         ],
-        "link": "https://www.heise.de/hintergrund/Missing-Link-Wir-suchen-Terroristen-m-w-d-11245201.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/iX-Workshop-Einfuehrung-in-die-Software-Architektur-11224770.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-05T07:00:00.000Z"
+        "publishedAt": "2026-04-05T08:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Blick-ins-Heft-c-t-08-2026-PC-Schnaeppchen-und-gute-Gebrauchte-11243832.html",
@@ -857,16 +857,16 @@
         "publishedAt": "2026-04-02T09:27:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Volumetrische-Videos-nehmen-eine-wichtige-Huerde-auf-dem-Weg-zum-Mainstream-11224483.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Volumetrische Videos nehmen eine wichtige Hürde auf dem Weg zum Mainstream",
-        "summary": "Dynamische Gaussian Splats lassen sich jetzt in guter Qualität auf mobile Geräte und VR-Brillen streamen. Volumetrische Videos werden damit massentauglicher.",
+        "id": "https://www.heise.de/hintergrund/Missing-Link-Wir-suchen-Terroristen-m-w-d-11245201.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Missing Link: Wir suchen Terroristen (m/w/d)",
+        "summary": "Das Bundeskriminalamt und der Bundesnachrichtendienst feiern Jubiläen – und fordern zum Geburtstag weitreichende neue Kompetenzen für die digitale Welt.",
         "paragraphs": [
-          "Dynamische Gaussian Splats lassen sich jetzt in guter Qualität auf mobile Geräte und VR-Brillen streamen. Volumetrische Videos werden damit massentauglicher."
+          "Das Bundeskriminalamt und der Bundesnachrichtendienst feiern Jubiläen – und fordern zum Geburtstag weitreichende neue Kompetenzen für die digitale Welt."
         ],
-        "link": "https://www.heise.de/hintergrund/Volumetrische-Videos-nehmen-eine-wichtige-Huerde-auf-dem-Weg-zum-Mainstream-11224483.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/hintergrund/Missing-Link-Wir-suchen-Terroristen-m-w-d-11245201.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-05T06:00:00.000Z"
+        "publishedAt": "2026-04-05T07:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Podcast-They-Talk-Tech-Frauen-werden-aus-der-Oeffentlichkeit-gedraengt-11243353.html",
@@ -881,16 +881,16 @@
         "publishedAt": "2026-04-01T12:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Waymo-in-London-Der-ultimative-Haertetest-fuers-autonome-Fahren-11245886.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Googles Waymo wagt den Sprung nach Europa: Robotaxi-Testlauf in London",
-        "summary": "Googles Robotaxi-Tochter Waymo wagt den Sprung nach Europa. Sie lotet im engen Straßendickicht Londons die Grenzen von KI-Systemen sowie der Stadtpolitik aus.",
+        "id": "https://www.heise.de/hintergrund/Volumetrische-Videos-nehmen-eine-wichtige-Huerde-auf-dem-Weg-zum-Mainstream-11224483.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Volumetrische Videos nehmen eine wichtige Hürde auf dem Weg zum Mainstream",
+        "summary": "Dynamische Gaussian Splats lassen sich jetzt in guter Qualität auf mobile Geräte und VR-Brillen streamen. Volumetrische Videos werden damit massentauglicher.",
         "paragraphs": [
-          "Googles Robotaxi-Tochter Waymo wagt den Sprung nach Europa. Sie lotet im engen Straßendickicht Londons die Grenzen von KI-Systemen sowie der Stadtpolitik aus."
+          "Dynamische Gaussian Splats lassen sich jetzt in guter Qualität auf mobile Geräte und VR-Brillen streamen. Volumetrische Videos werden damit massentauglicher."
         ],
-        "link": "https://www.heise.de/news/Waymo-in-London-Der-ultimative-Haertetest-fuers-autonome-Fahren-11245886.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/hintergrund/Volumetrische-Videos-nehmen-eine-wichtige-Huerde-auf-dem-Weg-zum-Mainstream-11224483.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-04T18:03:00.000Z"
+        "publishedAt": "2026-04-05T06:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-Mathe-entdecken-mit-Tabellenkalkulationen-11161719.html",
@@ -903,6 +903,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-01T08:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Waymo-in-London-Der-ultimative-Haertetest-fuers-autonome-Fahren-11245886.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Googles Waymo wagt den Sprung nach Europa: Robotaxi-Testlauf in London",
+        "summary": "Googles Robotaxi-Tochter Waymo wagt den Sprung nach Europa. Sie lotet im engen Straßendickicht Londons die Grenzen von KI-Systemen sowie der Stadtpolitik aus.",
+        "paragraphs": [
+          "Googles Robotaxi-Tochter Waymo wagt den Sprung nach Europa. Sie lotet im engen Straßendickicht Londons die Grenzen von KI-Systemen sowie der Stadtpolitik aus."
+        ],
+        "link": "https://www.heise.de/news/Waymo-in-London-Der-ultimative-Haertetest-fuers-autonome-Fahren-11245886.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-04T18:03:00.000Z"
       },
       {
         "id": "https://www.heise.de/bestenlisten/testsieger/top-10-der-beste-fitness-tracker-im-test-gute-pulsuhren-schon-unter-100-euro/nh3k090?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -951,18 +963,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-04T14:21:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-der-beste-wischsauger-im-test-testsieger-dreame-vor-roborock-und-dyson/mel3jmn?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 10: Der beste Wischsauger im Test",
-        "summary": "Akku-Wischsauger saugen und wischen Hartböden in einem Schritt – schnell, bequem und gründlich. Wir zeigen die besten Modelle.",
-        "paragraphs": [
-          "Akku-Wischsauger saugen und wischen Hartböden in einem Schritt – schnell, bequem und gründlich. Wir zeigen die besten Modelle."
-        ],
-        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-der-beste-wischsauger-im-test-testsieger-dreame-vor-roborock-und-dyson/mel3jmn?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-04T14:00:00.000Z"
       }
     ]
   }
