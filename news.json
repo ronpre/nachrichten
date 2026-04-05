@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-05T13:41:33.744Z",
+  "updatedAt": "2026-04-05T14:03:42.105Z",
   "categories": {
     "wirtschaft": [
       {
@@ -207,18 +207,6 @@
         "publishedAt": "2026-04-03T17:49:02.000Z"
       },
       {
-        "id": "64775fe4-4bd8-4e08-ba4e-e84874cfed2b",
-        "title": "Mythos \"Geisterschiff\": Der lange Schatten der \"Mary Celeste\"",
-        "summary": "Als Mörder gebrandmarkt, als Geister verschollen: Ein Nachfahre auf Föhr kämpft gegen die Legenden der \"Mary Celeste\". Wie aus einer Tragödie ein frühes Beispiel für Fake News wurde. Von Lornz Lorenzen.",
-        "paragraphs": [
-          "Als Mörder gebrandmarkt, als Geister verschollen: Ein Nachfahre auf Föhr kämpft gegen die Legenden der \"Mary Celeste\". Wie aus einer Tragödie ein frühes Beispiel für Fake News wurde. Von Lornz Lorenzen."
-        ],
-        "link": "https://www.tagesschau.de/kultur/geisterschiff-mythos-mary-celeste-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-03T14:10:50.000Z"
-      },
-      {
         "id": "https://www.n-tv.de/wirtschaft/Ricarda-Lang-fordert-Homeoffice-Anspruch-wegen-Spritpreisen-id30680140.html",
         "title": "\"Jeder gesparte Tropfen ist gut\": Ricarda Lang fordert Homeoffice-Anspruch wegen Spritpreisen",
         "summary": "Deutschland ächzt unter hohen Benzin-Preisen - und Ricarda Lang macht einen Vorschlag: Die Ex-Grünen-Chefin fordert ein Recht, von zu Hause aus arbeiten zu können. Da sich nicht jeder Job für Homeoffice eignet, hat sie weitere Ideen.",
@@ -241,6 +229,18 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-03T07:31:55.000Z"
+      },
+      {
+        "id": "https://www.n-tv.de/wirtschaft/Trumps-Iran-Aussagen-beruhigen-Wall-Street-nicht-id30679507.html",
+        "title": "Ölpreis bleibt hoch: Trumps Iran-Aussagen beruhigen Wall Street nicht",
+        "summary": "Die Aussagen von Donald Trump zum Iran-Krieg lassen die Ölpreise und den Dollar als Krisenwährung steigen. Ein unbestätigtes Einlenken Teherans bei der Blockade der Straße von Hormus sorgt aber für eine leichte Wende.",
+        "paragraphs": [
+          "Die Aussagen von Donald Trump zum Iran-Krieg lassen die Ölpreise und den Dollar als Krisenwährung steigen. Ein unbestätigtes Einlenken Teherans bei der Blockade der Straße von Hormus sorgt aber für eine leichte Wende."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Trumps-Iran-Aussagen-beruhigen-Wall-Street-nicht-id30679507.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-04-02T20:43:52.000Z"
       }
     ],
     "politik": [
@@ -481,28 +481,88 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-doekhi-meldet-union-an-vasilj-pariert-1206475/artikel#omrss",
-        "title": "LIVE! Doekhi meldet Union an - Vasilj pariert",
+        "id": "https://www.kicker.de/paderborn-ii-gegen-oberhausen-2026-regionalliga-west-5062583/spielbericht#omrss",
+        "title": "Große Chance verpasst: Oberhausen geht in Paderborn leer aus",
+        "summary": "Rot-Weiß Oberhausen hätte am Sonntag den Patzer von Fortuna Köln nutzen und näher an den Spitzenreiter heranrücken können. Doch das Kleeblatt agierte zu ideenlos.",
+        "paragraphs": [
+          "Rot-Weiß Oberhausen hätte am Sonntag den Patzer von Fortuna Köln nutzen und näher an den Spitzenreiter heranrücken können. Doch das Kleeblatt agierte zu ideenlos."
+        ],
+        "link": "https://www.kicker.de/paderborn-ii-gegen-oberhausen-2026-regionalliga-west-5062583/spielbericht#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-05T13:57:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-wie-aus-dem-nichts-st-pauli-fuehrt-bei-union-1206475/artikel#omrss",
+        "title": "LIVE! Wie aus dem Nichts: St. Pauli führt bei Union",
         "summary": "Die Bundesliga biegt mit dem 28. Spieltag auf die Zielgerade der Saison ein. Am Ostersonntag gastiert der FC St. Pauli bei Union Berlin.",
         "paragraphs": [
           "Die Bundesliga biegt mit dem 28. Spieltag auf die Zielgerade der Saison ein. Am Ostersonntag gastiert der FC St. Pauli bei Union Berlin."
         ],
-        "link": "https://www.kicker.de/live-doekhi-meldet-union-an-vasilj-pariert-1206475/artikel#omrss",
+        "link": "https://www.kicker.de/live-wie-aus-dem-nichts-st-pauli-fuehrt-bei-union-1206475/artikel#omrss",
         "category": null,
         "source": "Kicker",
-        "publishedAt": "2026-04-05T13:35:56.000Z"
+        "publishedAt": "2026-04-05T13:56:45.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/saarbruecken-gegen-ingolstadt-2026-liga-5057630/spielbericht#omrss",
+        "title": "LIVE! Saarbrücken kämpft gegen Ingolstadt um wichtige Punkte",
+        "summary": "Der 1. FC Saarbrücken braucht dringend einen Sieg, um einen großen Schritt Richtung Klassenerhalt zu machen. Zwar steht der FCS derzeit noch fünf Punkte über einem Abstiegsplatz, in den jüngsten drei Spielen sammelte er aber auch nur einen Zähler. Gelingt es, gegen Ingolstadt die Durststrecke zu beenden?",
+        "paragraphs": [
+          "Der 1. FC Saarbrücken braucht dringend einen Sieg, um einen großen Schritt Richtung Klassenerhalt zu machen. Zwar steht der FCS derzeit noch fünf Punkte über einem Abstiegsplatz, in den jüngsten drei Spielen sammelte er aber auch nur einen Zähler. Gelingt es, gegen Ingolstadt die Durststrecke zu beenden?"
+        ],
+        "link": "https://www.kicker.de/saarbruecken-gegen-ingolstadt-2026-liga-5057630/spielbericht#omrss",
+        "category": "1. FC Saarbrücken",
+        "source": "Kicker",
+        "publishedAt": "2026-04-05T13:53:09.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/jena-gegen-wolfsburg-2026-frauen-dfb-pokal-5196328/spielbericht#omrss",
+        "title": "LIVE! Jena will das Pokal-Traumfinale platzen lassen",
+        "summary": "Noch nie hat der FC Carl Zeiss Jena gegen die Wölfinnen gewonnen. Falls es ausgerechnet im DFB-Pokal-Halbfinale erstmals klappen sollte, wäre das eine Sensation.",
+        "paragraphs": [
+          "Noch nie hat der FC Carl Zeiss Jena gegen die Wölfinnen gewonnen. Falls es ausgerechnet im DFB-Pokal-Halbfinale erstmals klappen sollte, wäre das eine Sensation."
+        ],
+        "link": "https://www.kicker.de/jena-gegen-wolfsburg-2026-frauen-dfb-pokal-5196328/spielbericht#omrss",
+        "category": "Carl Zeiss Jena",
+        "source": "Kicker",
+        "publishedAt": "2026-04-05T13:50:41.000Z"
       },
       {
         "id": "https://www.kicker.de/ulm-gegen-verl-2026-liga-5057632/spielbericht#omrss",
         "title": "Neue Hoffnung tief im Keller: Ulm überrascht Aufstiegskandidat Verl",
-        "summary": "Der abstiegsgefährdete SSV Ulm 1846 Fußball hat den SC Verl überraschend mit 1:0 geschlagen und damit die Siegesserie des Tabellendritten beendet.",
+        "summary": "Der abstiegsgefährdete SSV Ulm 1846 Fußball hat den SC Verl überraschend mit 1:0 geschlagen und damit die Siegesserie des Tabellendritten beendet. Die Spatzen holten den ersten Sieg seit Anfang Februar und dürfen nun wieder hoffen.",
         "paragraphs": [
-          "Der abstiegsgefährdete SSV Ulm 1846 Fußball hat den SC Verl überraschend mit 1:0 geschlagen und damit die Siegesserie des Tabellendritten beendet."
+          "Der abstiegsgefährdete SSV Ulm 1846 Fußball hat den SC Verl überraschend mit 1:0 geschlagen und damit die Siegesserie des Tabellendritten beendet. Die Spatzen holten den ersten Sieg seit Anfang Februar und dürfen nun wieder hoffen."
         ],
         "link": "https://www.kicker.de/ulm-gegen-verl-2026-liga-5057632/spielbericht#omrss",
         "category": "3. Liga",
         "source": "Kicker",
-        "publishedAt": "2026-04-05T13:26:44.000Z"
+        "publishedAt": "2026-04-05T13:50:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/schalke-gegen-karlsruhe-2026-bundesliga-5051296/spielbericht#omrss",
+        "title": "Karaman bricht den Bann: Schalke verteidigt Tabellenführung",
+        "summary": "In Abwesenheit der verletzten Dzeko und Katic hat der FC Schalke 04 seine Tabellenführung in Liga zwei verteidigt. Gegen den Karlsruher SC feierte Königsblau einen verdienten 1:0-Erfolg.",
+        "paragraphs": [
+          "In Abwesenheit der verletzten Dzeko und Katic hat der FC Schalke 04 seine Tabellenführung in Liga zwei verteidigt. Gegen den Karlsruher SC feierte Königsblau einen verdienten 1:0-Erfolg."
+        ],
+        "link": "https://www.kicker.de/schalke-gegen-karlsruhe-2026-bundesliga-5051296/spielbericht#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-05T13:37:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/fuerth-gegen-paderborn-2026-bundesliga-5051295/spielbericht#omrss",
+        "title": "Marino und Bilbija eiskalt: Paderborn springt nach Sieg in Fürth auf Platz 2",
+        "summary": "Der SC Paderborn bleibt auch im achten Spiel in Folge ungeschlagen. Durch den 2:0-Sieg bei der SpVgg Greuther Fürth springen die Ostwestfalen auf einen direkten Aufstiegsplatz. Beim Kleeblatt verschärfen sich dagegen die Abstiegssorgen.",
+        "paragraphs": [
+          "Der SC Paderborn bleibt auch im achten Spiel in Folge ungeschlagen. Durch den 2:0-Sieg bei der SpVgg Greuther Fürth springen die Ostwestfalen auf einen direkten Aufstiegsplatz. Beim Kleeblatt verschärfen sich dagegen die Abstiegssorgen."
+        ],
+        "link": "https://www.kicker.de/fuerth-gegen-paderborn-2026-bundesliga-5051295/spielbericht#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-05T13:33:09.000Z"
       },
       {
         "id": "https://www.kicker.de/live-fuechse-empfangen-leipzig-ueberrascht-erlangen-die-loewen-1206490/artikel#omrss",
@@ -637,18 +697,6 @@
         "publishedAt": "2026-04-05T10:17:35.000Z"
       },
       {
-        "id": "https://www.kicker.de/karaman-erloest-geschwaechte-schalker-paderborner-nach-premiere-zweiter-kein-sieger-im-topspiel-1206423/artikel#omrss",
-        "title": "Karaman erlöst geschwächte Schalker - Paderborner nach Premiere Zweiter - Kein Sieger im Topspiel",
-        "summary": "Gleich fünf Zweitliga-Spiele hielt der Spielplan am Ostersonntag bereit, als große Gewinner gehen der FC Schalke 04 und der SC Paderbon hervor, die den 28. Spieltag auf einem Aufstiegsplatz beenden. Holstein Kiel verpasste es derweil, im Keller für neue Voraussetzungen zu sorgen.",
-        "paragraphs": [
-          "Gleich fünf Zweitliga-Spiele hielt der Spielplan am Ostersonntag bereit, als große Gewinner gehen der FC Schalke 04 und der SC Paderbon hervor, die den 28. Spieltag auf einem Aufstiegsplatz beenden. Holstein Kiel verpasste es derweil, im Keller für neue Voraussetzungen zu sorgen."
-        ],
-        "link": "https://www.kicker.de/karaman-erloest-geschwaechte-schalker-paderborner-nach-premiere-zweiter-kein-sieger-im-topspiel-1206423/artikel#omrss",
-        "category": null,
-        "source": "Kicker",
-        "publishedAt": "2026-04-05T10:16:10.000Z"
-      },
-      {
         "id": "https://www.kicker.de/fans-stuermen-platz-verstoerende-szenen-in-dresden-polizei-und-dfb-ermitteln-1207630/artikel#omrss",
         "title": "Fans stürmen Platz: Verstörende Szenen in Dresden - Polizei und DFB ermitteln",
         "summary": "Das Zweitliga-Topspiel zwischen Dynamo Dresden und Hertha BSC war nach Jagdszenen auf dem Feld zwischenzeitlich unterbrochen worden - wurde schließlich aber fortgesetzt.",
@@ -671,54 +719,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-04-05T09:56:00.000Z"
-      },
-      {
-        "id": "li.3463423",
-        "title": "2. Bundesliga: Fans stürmen Platz – große Bestürzung nach Jagdszenen beim Spiel in Dresden",
-        "summary": "Bei der Partie gegen Hertha BSC laufen Dresdner Fans über den ganzen Platz, Pyrotechnik fliegt hin und her, die Polizei schreitet ein. Der Klub reagiert entsetzt und entschuldigt sich „in höchster Form“.",
-        "paragraphs": [
-          "Bei der Partie gegen Hertha BSC laufen Dresdner Fans über den ganzen Platz, Pyrotechnik fliegt hin und her, die Polizei schreitet ein. Der Klub reagiert entsetzt und entschuldigt sich „in höchster Form“."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/hertha-dynamo-dresden-ausschreitungen-fans-pyro-polizei-li.3463423",
-        "category": "2. Bundesliga",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-05T09:55:52.000Z"
-      },
-      {
-        "id": "19ed7f18-d08b-424a-a675-420ac4f2dc4e",
-        "title": "Brasilien: Oscar beendet Fußballkarriere nach Nahtoderfahrung",
-        "summary": "Bei Deutschlands 7:1 bei der WM 2014 schoss er das einzige Tor für Brasilien. Nun muss Oscar seine Fußballlaufbahn aus gesundheitlichen Gründen vorzeitig beenden.",
-        "paragraphs": [
-          "Bei Deutschlands 7:1 bei der WM 2014 schoss er das einzige Tor für Brasilien. Nun muss Oscar seine Fußballlaufbahn aus gesundheitlichen Gründen vorzeitig beenden."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/brasilien-oscar-beendet-fussballkarriere-nach-nahtoderfahrung-a-19ed7f18-d08b-424a-a675-420ac4f2dc4e#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-05T09:54:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/arbeloa-trotzt-niederlage-ganzer-fokus-muss-auf-bayern-liegen-1207736/video#omrss",
-        "title": "Arbeloa trotzt Niederlage: \"Ganzer Fokus muss auf Bayern liegen\"",
-        "summary": "Nach Real Madrids Pleite gegen Mallorca richtet Trainer Alvaro Arbeloa eine klare Botschaft an seine Spieler: Die Niederlage sofort zu vergessen und nur noch an das CL-Duell gegen den FC Bayern zu denken.",
-        "paragraphs": [
-          "Nach Real Madrids Pleite gegen Mallorca richtet Trainer Alvaro Arbeloa eine klare Botschaft an seine Spieler: Die Niederlage sofort zu vergessen und nur noch an das CL-Duell gegen den FC Bayern zu denken."
-        ],
-        "link": "https://www.kicker.de/arbeloa-trotzt-niederlage-ganzer-fokus-muss-auf-bayern-liegen-1207736/video#omrss",
-        "category": "Arbeloa",
-        "source": "Kicker",
-        "publishedAt": "2026-04-05T09:37:38.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/werder-liefert-viel-aber-zu-wenig-fuer-mehr-ausser-fuer-musah-1207726/artikel#omrss",
-        "title": "Werder liefert \"viel\", aber zu wenig für mehr - außer für Musah",
-        "summary": "Der nächste Bremer Tor-Debütant und die nächste Werder-Niederlage gegen ein Topteam: Salim Musah wird zu einem der seltenen echten Lichtblicke.",
-        "paragraphs": [
-          "Der nächste Bremer Tor-Debütant und die nächste Werder-Niederlage gegen ein Topteam: Salim Musah wird zu einem der seltenen echten Lichtblicke."
-        ],
-        "link": "https://www.kicker.de/werder-liefert-viel-aber-zu-wenig-fuer-mehr-ausser-fuer-musah-1207726/artikel#omrss",
-        "category": "Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-05T09:34:01.000Z"
       }
     ],
     "edv": [
