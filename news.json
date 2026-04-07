@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-07T13:45:40.966Z",
+  "updatedAt": "2026-04-07T14:21:03.676Z",
   "categories": {
     "wirtschaft": [
       {
@@ -12,7 +12,19 @@
         "link": "https://www.tagesschau.de/newsticker/liveblog-iran-dienstag-106.html",
         "category": null,
         "source": "Tagesschau",
-        "publishedAt": "2026-04-07T13:17:27.000Z"
+        "publishedAt": "2026-04-07T14:19:53.000Z"
+      },
+      {
+        "id": "e4938f88-9da1-461c-9af6-17d44ad46214",
+        "title": "Ein Jahr US-Zölle: Alles halb so schlimm?",
+        "summary": "Seit einem Jahr beschäftigt Donald Trump die Weltwirtschaft mit seinen Zöllen. Deutsche Unternehmen hatten große Sorgen vor Exportverlusten und Gewinneinbrüchen. Es ist anders gekommen als erwartet. Von Julian Gräfe und Jörg Hommer.",
+        "paragraphs": [
+          "Seit einem Jahr beschäftigt Donald Trump die Weltwirtschaft mit seinen Zöllen. Deutsche Unternehmen hatten große Sorgen vor Exportverlusten und Gewinneinbrüchen. Es ist anders gekommen als erwartet. Von Julian Gräfe und Jörg Hommer."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/us-zoelle-bilanz-donald-trump-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-07T14:02:19.000Z"
       },
       {
         "id": "455b626c-de41-43f0-b4f3-75030555734b",
@@ -229,21 +241,91 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-06T08:25:51.000Z"
-      },
-      {
-        "id": "768db4aa-3836-4c47-bb9d-443a4df11b3e",
-        "title": "Wie viel Vermögen man durch Provisionen verliert",
-        "summary": "Die Mehrheit der Deutschen holt sich bei Anlagefragen finanzielle Beratung. Doch was auf den ersten Blick kaum etwas kostet, kann durch Gebühren schnell Zehntausende Euro verschlingen. Von L.-M. Hiltscher und L. Sallamon.",
-        "paragraphs": [
-          "Die Mehrheit der Deutschen holt sich bei Anlagefragen finanzielle Beratung. Doch was auf den ersten Blick kaum etwas kostet, kann durch Gebühren schnell Zehntausende Euro verschlingen. Von L.-M. Hiltscher und L. Sallamon."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/verbraucher/berater-provisionen-verlust-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-06T07:45:55.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3464329",
+        "title": "Krieg in Iran: „Einen solchen Befehl müssten die US-Soldaten verweigern“",
+        "summary": "Brücken und Energieanlagen gelten normalerweise als zivile Objekte. Wenn die USA sie in Iran zerstören, wäre das ein weiterer Bruch mit dem Völkerrecht, sagt der Völkerrechtler Kai Ambos.",
+        "paragraphs": [
+          "Brücken und Energieanlagen gelten normalerweise als zivile Objekte. Wenn die USA sie in Iran zerstören, wäre das ein weiterer Bruch mit dem Völkerrecht, sagt der Völkerrechtler Kai Ambos."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/usa-iran-krieg-voelkerrecht-li.3464329",
+        "category": "USA",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T14:11:03.000Z"
+      },
+      {
+        "id": "li.3464271",
+        "title": "Wohnen: Milliarden für eine Trendwende im sozialen Wohnungsbau",
+        "summary": "In Deutschland fehlt bezahlbarer Wohnraum, auch weil es immer weniger Sozialwohnungen gibt. Die Bauministerin will mit einer „Rekordsumme“ gegensteuern. Ist das effektiv?",
+        "paragraphs": [
+          "In Deutschland fehlt bezahlbarer Wohnraum, auch weil es immer weniger Sozialwohnungen gibt. Die Bauministerin will mit einer „Rekordsumme“ gegensteuern. Ist das effektiv?"
+        ],
+        "link": "https://www.sueddeutsche.de/politik/wohnungsbau-deutschland-milliardeninvestitionen-li.3464271",
+        "category": "Bundesregierung",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T14:02:37.000Z"
+      },
+      {
+        "id": "li.3464281",
+        "title": "Krieg in Nahost: „Gaza-Modell“: Israel legt Südlibanon in Schutt und Asche",
+        "summary": "Die israelische Armee vertreibt Hunderttausende, bombardiert Krankenhäuser und walzt ganze Dörfer platt. Was will Israel im Nachbarland erreichen?",
+        "paragraphs": [
+          "Die israelische Armee vertreibt Hunderttausende, bombardiert Krankenhäuser und walzt ganze Dörfer platt. Was will Israel im Nachbarland erreichen?"
+        ],
+        "link": "https://www.sueddeutsche.de/politik/iran-hisbollah-libanon-li.3464281",
+        "category": "Israel",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T14:01:50.000Z"
+      },
+      {
+        "id": "li.3464283",
+        "title": "Kampf gegen Korruption: Reformstau kostet die Ukraine Milliarden",
+        "summary": "Kiew riskiert internationale Hilfszahlungen, weil die Regierung überfällige Beschlüsse verschleppt. Einigen ukrainischen Staatsdienern scheint das ganz recht zu sein.",
+        "paragraphs": [
+          "Kiew riskiert internationale Hilfszahlungen, weil die Regierung überfällige Beschlüsse verschleppt. Einigen ukrainischen Staatsdienern scheint das ganz recht zu sein."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/ukraine-reformstau-milliardenhilfen-eu-iwf-li.3464283",
+        "category": "Ukraine",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T13:48:42.000Z"
+      },
+      {
+        "id": "li.3464255",
+        "title": "Benzin und Diesel: Merz und Reiche wegen Spritpreisen unter Druck",
+        "summary": "Der Kanzler und seine Regierung sollen bis Anfang kommender Woche einen neuen Plan zur Begrenzung des Preisanstiegs vorlegen, fordert die SPD-Fraktion. Auch die Union verlangt mehr Initiative.",
+        "paragraphs": [
+          "Der Kanzler und seine Regierung sollen bis Anfang kommender Woche einen neuen Plan zur Begrenzung des Preisanstiegs vorlegen, fordert die SPD-Fraktion. Auch die Union verlangt mehr Initiative."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/spritpreise-deutschland-merz-reiche-li.3464255",
+        "category": "Energie",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T13:45:04.000Z"
+      },
+      {
+        "id": "76689816",
+        "title": "Wahlkampfhilfe für Orbán: US-Vizepräsident Vance in Ungarn",
+        "summary": "US-Vizepräsident JD Vance ist nach Budapest gereist, um Viktor Orbán zu unterstützen. Denn Ungarns Premier droht eine Wahlniederlage am kommenden Sonntag. Kann der prominente Gast aus Washington die noch verhindern?",
+        "paragraphs": [
+          "US-Vizepräsident JD Vance ist nach Budapest gereist, um Viktor Orbán zu unterstützen. Denn Ungarns Premier droht eine Wahlniederlage am kommenden Sonntag. Kann der prominente Gast aus Washington die noch verhindern?"
+        ],
+        "link": "https://www.dw.com/de/wahlkampfhilfe-für-orbán-us-vizepräsident-vance-in-ungarn/a-76689816?maca=de-rss-de-top-1016-xml-mrss",
+        "category": "Aktuelles",
+        "source": "DW",
+        "publishedAt": "2026-04-07T13:45:00.000Z"
+      },
+      {
+        "id": "li.3464487",
+        "title": "Kontroversen vor Gedenktag: Antisemitismusbeauftragter gegen „Kufiyas in Buchenwald“",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/kontroversen-vor-gedenktag-antisemitismusbeauftragter-gegen-kufiyas-in-buchenwald-li.3464487",
+        "category": "Antisemitismus",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T13:37:07.000Z"
+      },
       {
         "id": "li.3464483",
         "title": "Istanbul: Angreifer vor israelischem Konsulat getötet",
@@ -319,7 +401,7 @@
         "paragraphs": [
           "Die beiden Länder müssten im Konflikt um die Straße von Hormus militärische Unterstützung schicken, findet US-Präsident Trump. Stattdessen traut sich Japan, ganz direkt mit Iran zu verhandeln."
         ],
-        "link": "https://www.sueddeutsche.de/politik/trump-iran-japan-suedkorea-strasse-von-hormus-li.3464284",
+        "link": "https://www.sueddeutsche.de/politik/usa-trump-iran-krieg-hilfe-japan-suedkorea-strasse-von-hormus-li.3464284",
         "category": "USA",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-07T12:05:20.000Z"
@@ -333,18 +415,6 @@
         "category": "Australien",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-07T11:50:45.000Z"
-      },
-      {
-        "id": "76689816",
-        "title": "Wahlkampfhilfe für Orbán: US-Vizepräsident Vance in Ungarn",
-        "summary": "US-Vizepräsident JD Vance ist nach Budapest gereist, um Viktor Orbán zu unterstützen. Denn Ungarns Premier droht eine Wahlniederlage am kommenden Sonntag. Kann der prominente Gast aus Washington die noch verhindern?",
-        "paragraphs": [
-          "US-Vizepräsident JD Vance ist nach Budapest gereist, um Viktor Orbán zu unterstützen. Denn Ungarns Premier droht eine Wahlniederlage am kommenden Sonntag. Kann der prominente Gast aus Washington die noch verhindern?"
-        ],
-        "link": "https://www.dw.com/de/wahlkampfhilfe-für-orbán-us-vizepräsident-vance-in-ungarn/a-76689816?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Aktuelles",
-        "source": "DW",
-        "publishedAt": "2026-04-07T11:14:00.000Z"
       },
       {
         "id": "li.3464391",
@@ -371,18 +441,6 @@
         "publishedAt": "2026-04-07T09:51:16.000Z"
       },
       {
-        "id": "li.3461549",
-        "title": "Einwanderung: Berlin will Hunderte indische Studierende ausweisen",
-        "summary": "Prominente Politiker werben um junge Einwanderer aus Indien – doch in Berlin erhalten viele Studierende trotz gültigen Visums keine Aufenthaltserlaubnis. Das hat wohl auch mit ihrer Hochschule zu tun.",
-        "paragraphs": [
-          "Prominente Politiker werben um junge Einwanderer aus Indien – doch in Berlin erhalten viele Studierende trotz gültigen Visums keine Aufenthaltserlaubnis. Das hat wohl auch mit ihrer Hochschule zu tun."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/berlin-indische-studenten-visum-abschiebung-li.3461549",
-        "category": "Berlin",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-07T09:13:04.000Z"
-      },
-      {
         "id": "76685060",
         "title": "Nach Mondumrundung: Artemis-2-Crew tritt Rückflug an",
         "summary": "Sie waren so weit von der Erde entfernt wie kein Mensch zuvor. Nach spektakulären Blicken auf die Rückseite des Mondes sind die vier Raumfahrer nun wieder auf dem Weg nach Hause.",
@@ -407,66 +465,6 @@
         "publishedAt": "2026-04-07T07:00:00.000Z"
       },
       {
-        "id": "li.3464211",
-        "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
-        "summary": "SZ am Morgen.",
-        "paragraphs": [
-          "SZ am Morgen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/raumschiff-umrundet-mond-trump-droht-iran-selenskij-fuer-teilwaffenruhe-li.3464211",
-        "category": "SZ Nachrichten des Tages",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-07T05:07:33.000Z"
-      },
-      {
-        "id": "li.3463735",
-        "title": "FDP-Machtkampf: Kubicki zwingt die Liberalen zur Richtungsentscheidung",
-        "summary": "Mit seiner Kandidatur hat Wolfgang Kubicki fast alle überrascht, vielleicht sogar sich selbst. Der neue Zweikampf elektrisiert die Partei. Selbst Christian Lindner mischt sich ein.",
-        "paragraphs": [
-          "Mit seiner Kandidatur hat Wolfgang Kubicki fast alle überrascht, vielleicht sogar sich selbst. Der neue Zweikampf elektrisiert die Partei. Selbst Christian Lindner mischt sich ein."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/fdp-wolfgang-kubicki-henning-hoene-li.3463735",
-        "category": "FDP",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-07T04:59:48.000Z"
-      },
-      {
-        "id": "li.3464171",
-        "title": "Nahost: Nach Tod eines Mitarbeiters: WHO pausiert Krankentransporte aus Gaza",
-        "summary": "Die Weltgesundheitsorganisation hilft dabei, Schwerkranke aus dem Gazastreifen zu bringen. Nach einem Angriff stellt sie ihre Hilfe vorerst ein.",
-        "paragraphs": [
-          "Die Weltgesundheitsorganisation hilft dabei, Schwerkranke aus dem Gazastreifen zu bringen. Nach einem Angriff stellt sie ihre Hilfe vorerst ein."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/who-gaza-krankentransport-aegypten-tod-mitarbeiter-li.3464171",
-        "category": "Nahost",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-07T02:52:33.000Z"
-      },
-      {
-        "id": "li.3463883",
-        "title": "USA: „Dem Sieger gehört die Beute“",
-        "summary": "Donald Trump droht Iran mit der Steinzeit, während vier Astronauten weiter ins All fliegen als je ein Mensch zuvor. Über ein Land im Splitscreen-Modus.",
-        "paragraphs": [
-          "Donald Trump droht Iran mit der Steinzeit, während vier Astronauten weiter ins All fliegen als je ein Mensch zuvor. Über ein Land im Splitscreen-Modus."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-iran-krieg-mond-artemis-2-trump-rede-li.3463883",
-        "category": "USA",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-07T01:37:28.000Z"
-      },
-      {
-        "id": "li.3462913",
-        "title": "USA: Trump droht Journalisten wegen Informationen zu Piloten-Rettung mit Haft",
-        "summary": "Nach der Rettung der Besatzung eines abgeschossenen Kampfjets in Iran sucht Trump nach einem Informanten, der etwas durchgestochen haben soll.",
-        "paragraphs": [
-          "Nach der Rettung der Besatzung eines abgeschossenen Kampfjets in Iran sucht Trump nach einem Informanten, der etwas durchgestochen haben soll."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-journalisten-haft-li.3462913",
-        "category": "USA",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-06T21:18:10.000Z"
-      },
-      {
         "id": "76607429",
         "title": "Syriens Frauen wehren sich gegen Diskriminierung",
         "summary": "In Syrien fordern Frauen Gleichheit vor dem Gesetz. Angesichts von mehr als 100.000 \"verschwundenen\" Männern leben tausende von ihnen in einem rechtlichen Vakuum. Verweigert ihnen Damaskus die Gleichberechtigung?",
@@ -480,6 +478,42 @@
       }
     ],
     "sport": [
+      {
+        "id": "li.3464316",
+        "title": "Zum Tod von Sportfunktionär Craig Reedie: Stets in den Diensten ihrer Majestäten",
+        "summary": "Craig Reedie, der einstige Präsident der Welt-Anti-Doping-Agentur, war ein Musterfunktionär alter olympischer Bauart – das zeigte sich besonders im russischen Staatsdopingskandal. Ein Nachruf.",
+        "paragraphs": [
+          "Craig Reedie, der einstige Präsident der Welt-Anti-Doping-Agentur, war ein Musterfunktionär alter olympischer Bauart – das zeigte sich besonders im russischen Staatsdopingskandal. Ein Nachruf."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/craig-reedie-wada-nachruf-li.3464316",
+        "category": "Sportpolitik",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T14:16:38.000Z"
+      },
+      {
+        "id": "li.3464306",
+        "title": "FC Barcelona: Was ist los mit Lamine Yamal?",
+        "summary": "Barcelona diskutiert besorgt über die Frage, was den 18-jährigen Jungstar Lamine Yamal gerade so erzürnt. Trainer Hansi Flick unterstützt seinen Spieler demonstrativ.",
+        "paragraphs": [
+          "Barcelona diskutiert besorgt über die Frage, was den 18-jährigen Jungstar Lamine Yamal gerade so erzürnt. Trainer Hansi Flick unterstützt seinen Spieler demonstrativ."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/champions-league-barcelona-yamal-flick-li.3464306",
+        "category": "Champions League",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T14:03:40.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/vor-bvb-spiel-hoffnung-auf-quansah-auch-vazquez-vor-rueckkehr-1208240/artikel#omrss",
+        "title": "Vor BVB-Spiel: Hoffnung auf Quansah, auch Vazquez vor Rückkehr",
+        "summary": "Zum Saisonendspurt lichtet sich das Lazarett bei Bayer. Während Lucas Vazquez wieder im Teamtraining steht, arbeitet Jarell Quansah individuell an seiner schnellen Rückkehr. Gerade der Engländer wäre für die Werkself schon in Dortmund wichtig.",
+        "paragraphs": [
+          "Zum Saisonendspurt lichtet sich das Lazarett bei Bayer. Während Lucas Vazquez wieder im Teamtraining steht, arbeitet Jarell Quansah individuell an seiner schnellen Rückkehr. Gerade der Engländer wäre für die Werkself schon in Dortmund wichtig."
+        ],
+        "link": "https://www.kicker.de/vor-bvb-spiel-hoffnung-auf-quansah-auch-vazquez-vor-rueckkehr-1208240/artikel#omrss",
+        "category": "Bayer 04 Leverkusen",
+        "source": "Kicker",
+        "publishedAt": "2026-04-07T13:57:27.000Z"
+      },
       {
         "id": "2ca97a6a-47f0-46df-b120-ab47536b3f30",
         "title": "Champions League: FC Bayern München vor Duell mit Real Madrid – Vincent Kompany beschwört den Glauben",
@@ -543,14 +577,26 @@
       {
         "id": "li.3464314",
         "title": "Golf: Das vierte Leben des Tiger Woods",
-        "summary": "Beim Masters in Augusta fehlt einer – und steht dennoch erneut im Fokus: Tiger Woods und die Nachwehen seiner Verhaftung vor einigen Wochen beschäftigen den Golfsport.",
+        "summary": "Beim Masters in Augusta fehlt einer – und steht dennoch erneut im Fokus: Tiger Woods und die Nachwehen seiner Festnahme vor einigen Wochen beschäftigen den Golfsport.",
         "paragraphs": [
-          "Beim Masters in Augusta fehlt einer – und steht dennoch erneut im Fokus: Tiger Woods und die Nachwehen seiner Verhaftung vor einigen Wochen beschäftigen den Golfsport."
+          "Beim Masters in Augusta fehlt einer – und steht dennoch erneut im Fokus: Tiger Woods und die Nachwehen seiner Festnahme vor einigen Wochen beschäftigen den Golfsport."
         ],
         "link": "https://www.sueddeutsche.de/sport/tiger-woods-golf-karriere-unfall-suchtprobleme-masters-augusta-li.3464314",
         "category": "Golf",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-07T13:28:56.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/schick-haengt-nedved-ab-hoffentlich-noch-mehr-tore-1208296/video#omrss",
+        "title": "Schick hängt Nedved ab: \"Hoffentlich noch mehr Tore\"",
+        "summary": "Bayers Torjäger Patrik Schick knackt die 100 Tore-Marke in Europas Topligen und führt die Liste der treffsichersten Tschechen im europäischen Klubfußball mit deutlichem Abstand vor Pavel Nedved an. An die Champions League-Qualifikation der Werkself glaubt der Stürmer trotz einiger schmerzhafter Punktverluste weiterhin.",
+        "paragraphs": [
+          "Bayers Torjäger Patrik Schick knackt die 100 Tore-Marke in Europas Topligen und führt die Liste der treffsichersten Tschechen im europäischen Klubfußball mit deutlichem Abstand vor Pavel Nedved an. An die Champions League-Qualifikation der Werkself glaubt der Stürmer trotz einiger schmerzhafter Punktverluste weiterhin."
+        ],
+        "link": "https://www.kicker.de/schick-haengt-nedved-ab-hoffentlich-noch-mehr-tore-1208296/video#omrss",
+        "category": "Bayer 04 Leverkusen",
+        "source": "Kicker",
+        "publishedAt": "2026-04-07T13:19:11.000Z"
       },
       {
         "id": "https://www.kicker.de/aue-muss-im-abstiegskampf-zweimal-auf-collins-verzichten-1208108/artikel#omrss",
@@ -589,18 +635,6 @@
         "publishedAt": "2026-04-07T12:55:30.000Z"
       },
       {
-        "id": "https://www.kicker.de/guirassy-bleibt-chabots-lieblingsgegner-1208262/artikel#omrss",
-        "title": "Guirassy bleibt Chabots Lieblingsgegner",
-        "summary": "Einmal mehr meldet Jeff Chabot Torjäger Serhou Guirassy ab. Doch der persönliche Erfolg des VfB-Verteidigers wird durch die Niederlage der Stuttgarter gegen den BVB getrübt.",
-        "paragraphs": [
-          "Einmal mehr meldet Jeff Chabot Torjäger Serhou Guirassy ab. Doch der persönliche Erfolg des VfB-Verteidigers wird durch die Niederlage der Stuttgarter gegen den BVB getrübt."
-        ],
-        "link": "https://www.kicker.de/guirassy-bleibt-chabots-lieblingsgegner-1208262/artikel#omrss",
-        "category": "Chabot",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T12:54:43.000Z"
-      },
-      {
         "id": "https://www.kicker.de/schwerer-zu-knacken-roedinghausen-muss-mit-kleinen-schritten-vorliebnehmen-1207964/artikel#omrss",
         "title": "Schwerer zu knacken: Rödinghausen muss mit kleinen Schritten vorliebnehmen",
         "summary": "Gegen Velbert hatte sich der SV Rödinghausen einen Befreiungsschlag im Keller der Regionalliga West erhofft. Doch auch wenn dieser ausblieb, steuern die Ostwestfalen Schritt für Schritt in die richtige Richtung.",
@@ -611,6 +645,18 @@
         "category": "Fußball",
         "source": "Kicker",
         "publishedAt": "2026-04-07T12:52:16.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nfl-draft-fuenf-franchises-die-sich-keinen-fehler-erlauben-koennen-1208256/artikel#omrss",
+        "title": "NFL Draft: Fünf Franchises, die sich keinen Fehler erlauben können",
+        "summary": "Die Free Agency ist weitgehend abgeschlossen, die Kader nehmen Form an und der NFL Draft 2026 rückt näher. Für einige Franchises ist er dabei weit mehr als eine gewöhnliche Talentauswahl. Fünf Teams stehen in Pittsburgh unter besonderem Druck, ihre Picks in echte Verstärkungen zu verwandeln.",
+        "paragraphs": [
+          "Die Free Agency ist weitgehend abgeschlossen, die Kader nehmen Form an und der NFL Draft 2026 rückt näher. Für einige Franchises ist er dabei weit mehr als eine gewöhnliche Talentauswahl. Fünf Teams stehen in Pittsburgh unter besonderem Druck, ihre Picks in echte Verstärkungen zu verwandeln."
+        ],
+        "link": "https://www.kicker.de/nfl-draft-fuenf-franchises-die-sich-keinen-fehler-erlauben-koennen-1208256/artikel#omrss",
+        "category": "Football",
+        "source": "Kicker",
+        "publishedAt": "2026-04-07T12:06:00.000Z"
       },
       {
         "id": "li.3464228",
@@ -671,54 +717,6 @@
         "category": "Tennis",
         "source": "Kicker",
         "publishedAt": "2026-04-07T11:41:48.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/rote-linien-ueberschritten-zehlendorf-setzt-kaepnick-vor-die-tuer-1208253/artikel#omrss",
-        "title": "\"Rote Linien überschritten\": Zehlendorf setzt Käpnick vor die Tür",
-        "summary": "Bevor es am Dienstag ab 19 Uhr gegen Chemie Leipzig um wichtige Punkte im Abstiegskampf der Regionalliga Nordost geht, hat Hertha 03 Zehlendorf für einen Paukenschlag gesorgt: Trainer Tilman Käpnick muss seinen Stuhl räumen.",
-        "paragraphs": [
-          "Bevor es am Dienstag ab 19 Uhr gegen Chemie Leipzig um wichtige Punkte im Abstiegskampf der Regionalliga Nordost geht, hat Hertha 03 Zehlendorf für einen Paukenschlag gesorgt: Trainer Tilman Käpnick muss seinen Stuhl räumen."
-        ],
-        "link": "https://www.kicker.de/rote-linien-ueberschritten-zehlendorf-setzt-kaepnick-vor-die-tuer-1208253/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T11:40:39.000Z"
-      },
-      {
-        "id": "db9e1453-88f8-447b-8ebd-6752dbe17c3d",
-        "title": "Boris Becker erklärt seine Tennis-Trainerkarriere für beendet",
-        "summary": "Er war als Spieler ein Weltstar und arbeitete später als Chefcoach von Novak Djokovic. Nun hat Boris Becker nach eigenen Angaben Anfragen für andere Trainerjobs abgesagt.",
-        "paragraphs": [
-          "Er war als Spieler ein Weltstar und arbeitete später als Chefcoach von Novak Djokovic. Nun hat Boris Becker nach eigenen Angaben Anfragen für andere Trainerjobs abgesagt."
-        ],
-        "link": "https://www.spiegel.de/sport/tennis/boris-becker-erklaert-seine-tennis-trainerkarriere-fuer-beendet-a-db9e1453-88f8-447b-8ebd-6752dbe17c3d#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-07T11:25:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ein-deutscher-hoffnungstraeger-im-fokus-die-besten-tight-ends-dieser-draft-klasse-1208192/artikel#omrss",
-        "title": "Ein deutscher Hoffnungsträger im Fokus: Die besten Tight Ends dieser Draft-Klasse",
-        "summary": "Die diesjährige Tight-End-Klasse bietet vor allem in der Tiefe eine sehr gute Qualität. Der wohl beste Tight End im Draft ist Kenyon Sadiq aus Oregon. Doch auch hinter Sadiq sind einige Rohdiamanten zu finden. Darunter ein Deutscher, der bei einer der größten Universitäten Amerikas Teamcaptain war.",
-        "paragraphs": [
-          "Die diesjährige Tight-End-Klasse bietet vor allem in der Tiefe eine sehr gute Qualität. Der wohl beste Tight End im Draft ist Kenyon Sadiq aus Oregon. Doch auch hinter Sadiq sind einige Rohdiamanten zu finden. Darunter ein Deutscher, der bei einer der größten Universitäten Amerikas Teamcaptain war."
-        ],
-        "link": "https://www.kicker.de/ein-deutscher-hoffnungstraeger-im-fokus-die-besten-tight-ends-dieser-draft-klasse-1208192/artikel#omrss",
-        "category": "Football",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T11:06:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/starting-five-nur-aus-transfers-wie-michigan-die-nil-aera-perfektioniert-1208173/artikel#omrss",
-        "title": "Starting Five nur aus Transfers: Wie Michigan die NIL-Ära perfektioniert",
-        "summary": "Fünf Starter, fünf Transfers - und am Ende steht der Titel. Michigan ist das wohl deutlichste Beispiel dafür, wie sich College-Basketball verändert hat und wie man die neue Realität erfolgreich nutzt.",
-        "paragraphs": [
-          "Fünf Starter, fünf Transfers - und am Ende steht der Titel. Michigan ist das wohl deutlichste Beispiel dafür, wie sich College-Basketball verändert hat und wie man die neue Realität erfolgreich nutzt."
-        ],
-        "link": "https://www.kicker.de/starting-five-nur-aus-transfers-wie-michigan-die-nil-aera-perfektioniert-1208173/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T11:02:03.000Z"
       }
     ],
     "edv": [
@@ -735,16 +733,16 @@
         "publishedAt": "2026-04-04T08:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/GPUBreach-Systemuebernahme-mit-Bitflips-in-der-Nvidia-GPU-11247207.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„GPUBreach“: Systemübernahme mit Bitflips in der Nvidia-GPU",
-        "summary": "Rowhammer-Angriffe auf GPUs können nicht nur Daten zerstören, sondern auch zur Ausweitung der Rechte missbraucht werden.",
+        "id": "https://www.heise.de/news/BSI-Kriterienkatalog-fuer-Cloud-Computing-C5-verlangt-mehr-11247015.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "BSI-Kriterienkatalog für Cloud-Computing C5 verlangt mehr",
+        "summary": "Das BSI frischt den Kriterienkatalog für Cloud-Computing auf. Die neue Version C5:2026 enthält eine deutsche Interpretation des EU-Cloud-Certification-Schemas.",
         "paragraphs": [
-          "Rowhammer-Angriffe auf GPUs können nicht nur Daten zerstören, sondern auch zur Ausweitung der Rechte missbraucht werden."
+          "Das BSI frischt den Kriterienkatalog für Cloud-Computing auf. Die neue Version C5:2026 enthält eine deutsche Interpretation des EU-Cloud-Certification-Schemas."
         ],
-        "link": "https://www.heise.de/news/GPUBreach-Systemuebernahme-mit-Bitflips-in-der-Nvidia-GPU-11247207.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/BSI-Kriterienkatalog-fuer-Cloud-Computing-C5-verlangt-mehr-11247015.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:56:00.000Z"
+        "publishedAt": "2026-04-07T14:06:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Schnelles-Heimnetz-fuer-Glasfaser-Co-c-t-uplink-11244825.html",
@@ -759,16 +757,16 @@
         "publishedAt": "2026-04-04T04:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Anthropic-will-ueber-3-5-Gigawatt-Rechenkapazitaet-mit-Googles-TPUs-11247289.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Anthropic will über 3,5 Gigawatt Rechenkapazität mit Googles TPUs",
-        "summary": "Google findet mit Anthropic einen Großabnehmer für die eigenen KI-Beschleuniger. Broadcom hilft bis mindestens 2031 bei der weiteren Entwicklung.",
+        "id": "https://www.heise.de/news/Darknet-Diaries-Deutsch-Fahrraddieben-auf-der-Spur-Teil-1-11218306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Darknet Diaries Deutsch: Fahrraddieben auf der Spur - Teil 1",
+        "summary": "In dieser Folge tauchen wir ein in die Welt der gestohlenen Fahrräder. Bryan hilft mit seinem Dienst Bike Index, gestohlene Fahrräder wiederzufinden.",
         "paragraphs": [
-          "Google findet mit Anthropic einen Großabnehmer für die eigenen KI-Beschleuniger. Broadcom hilft bis mindestens 2031 bei der weiteren Entwicklung."
+          "In dieser Folge tauchen wir ein in die Welt der gestohlenen Fahrräder. Bryan hilft mit seinem Dienst Bike Index, gestohlene Fahrräder wiederzufinden."
         ],
-        "link": "https://www.heise.de/news/Anthropic-will-ueber-3-5-Gigawatt-Rechenkapazitaet-mit-Googles-TPUs-11247289.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Darknet-Diaries-Deutsch-Fahrraddieben-auf-der-Spur-Teil-1-11218306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:42:00.000Z"
+        "publishedAt": "2026-04-07T14:02:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Sind-OLEDs-jetzt-komplett-unproblematisch-c-t-3003-11245290.html",
@@ -783,16 +781,16 @@
         "publishedAt": "2026-04-03T14:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Vera-C-Rubin-Observatory-findet-11-000-neue-Asteroiden-im-Sonnensystem-11247176.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Vera C. Rubin Observatory findet 11.000 neue Asteroiden im Sonnensystem",
-        "summary": "Das Rubin Observatory hat erneut seine Leistungsfähigkeit gezeigt und 11.000 neue Himmelskörper im Sonnensystem entdeckt. Astronomen erwarten weitere Funde.",
+        "id": "https://www.heise.de/bestenlisten/testbericht/epowerfun-epf-2-pro-im-test-ueberraschend-viel-e-scooter-ab-569-euro/p44vl24?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Epowerfun EPF-2 Pro im Test: Überraschend viel E-Scooter ab 569 Euro",
+        "summary": "Der preiswerte Epowerfun EPF-2 Pro gefällt im Test mit Wechselakku, einstellbarer Vollfederung und hellem Blinker vorne und hinten.",
         "paragraphs": [
-          "Das Rubin Observatory hat erneut seine Leistungsfähigkeit gezeigt und 11.000 neue Himmelskörper im Sonnensystem entdeckt. Astronomen erwarten weitere Funde."
+          "Der preiswerte Epowerfun EPF-2 Pro gefällt im Test mit Wechselakku, einstellbarer Vollfederung und hellem Blinker vorne und hinten."
         ],
-        "link": "https://www.heise.de/news/Vera-C-Rubin-Observatory-findet-11-000-neue-Asteroiden-im-Sonnensystem-11247176.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testbericht/epowerfun-epf-2-pro-im-test-ueberraschend-viel-e-scooter-ab-569-euro/p44vl24?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:39:00.000Z"
+        "publishedAt": "2026-04-07T14:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Desolate-FCC-Vorgabe-Freedom-Router-fuer-US-Verbraucher-11241349.html",
@@ -807,16 +805,16 @@
         "publishedAt": "2026-04-03T05:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Rust-Coreutils-0-8-Schneller-sicherer-und-jetzt-auch-im-Browser-11247239.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Rust Coreutils 0.8: Von nix zu rustix – und dd legt 45 Prozent zu",
-        "summary": "Die Rust-Neuimplementierung der GNU Coreutils wird schneller, läuft im Browser und sichert Systemaufrufe besser ab. Was Version 0.8 im Detail bringt.",
+        "id": "https://www.heise.de/news/Self-Hosted-Backend-Appwrite-1-9-bringt-MongoDB-11247329.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Self-Hosted Backend: Appwrite 1.9 bringt MongoDB",
+        "summary": "Appwrite 1.9 bringt MongoDB-Support, ressourcenbasierte API-Keys und Query-Filter für Realtime-Subscriptions. Hinzu kommen Performance- und Compute-Updates.",
         "paragraphs": [
-          "Die Rust-Neuimplementierung der GNU Coreutils wird schneller, läuft im Browser und sichert Systemaufrufe besser ab. Was Version 0.8 im Detail bringt."
+          "Appwrite 1.9 bringt MongoDB-Support, ressourcenbasierte API-Keys und Query-Filter für Realtime-Subscriptions. Hinzu kommen Performance- und Compute-Updates."
         ],
-        "link": "https://www.heise.de/news/Rust-Coreutils-0-8-Schneller-sicherer-und-jetzt-auch-im-Browser-11247239.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Self-Hosted-Backend-Appwrite-1-9-bringt-MongoDB-11247329.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:38:00.000Z"
+        "publishedAt": "2026-04-07T13:41:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-156-Datenschutz-Dauerbrenner-Microsoft-365-11244970.html",
@@ -831,16 +829,16 @@
         "publishedAt": "2026-04-03T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Spritpreise-Diesel-knackt-2-50-Euro-Marke-11247231.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Diesel erstmals über 2,50 Euro – Bauern warnen",
-        "summary": "Diesel hat erstmals im bundesweiten Durchschnitt mehr als 2,50 Euro gekostet. Bauernpräsident Rukwied sieht die Versorgungssicherheit in Gefahr.",
+        "id": "https://www.heise.de/news/GPUBreach-Systemuebernahme-mit-Bitflips-in-der-Nvidia-GPU-11247207.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„GPUBreach“: Systemübernahme mit Bitflips in der Nvidia-GPU",
+        "summary": "Rowhammer-Angriffe auf GPUs können nicht nur Daten zerstören, sondern auch zur Ausweitung der Rechte missbraucht werden.",
         "paragraphs": [
-          "Diesel hat erstmals im bundesweiten Durchschnitt mehr als 2,50 Euro gekostet. Bauernpräsident Rukwied sieht die Versorgungssicherheit in Gefahr."
+          "Rowhammer-Angriffe auf GPUs können nicht nur Daten zerstören, sondern auch zur Ausweitung der Rechte missbraucht werden."
         ],
-        "link": "https://www.heise.de/news/Spritpreise-Diesel-knackt-2-50-Euro-Marke-11247231.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/GPUBreach-Systemuebernahme-mit-Bitflips-in-der-Nvidia-GPU-11247207.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:14:00.000Z"
+        "publishedAt": "2026-04-07T12:56:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Blick-ins-Heft-c-t-08-2026-PC-Schnaeppchen-und-gute-Gebrauchte-11243832.html",
@@ -855,16 +853,16 @@
         "publishedAt": "2026-04-02T09:27:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11203378.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Microsoft 365 sicher einrichten und datenschutzkonform betreiben",
-        "summary": "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen.",
+        "id": "https://www.heise.de/news/Anthropic-will-ueber-3-5-Gigawatt-Rechenkapazitaet-mit-Googles-TPUs-11247289.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Anthropic will über 3,5 Gigawatt Rechenkapazität mit Googles TPUs",
+        "summary": "Google findet mit Anthropic einen Großabnehmer für die eigenen KI-Beschleuniger. Broadcom hilft bis mindestens 2031 bei der weiteren Entwicklung.",
         "paragraphs": [
-          "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen."
+          "Google findet mit Anthropic einen Großabnehmer für die eigenen KI-Beschleuniger. Broadcom hilft bis mindestens 2031 bei der weiteren Entwicklung."
         ],
-        "link": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11203378.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Anthropic-will-ueber-3-5-Gigawatt-Rechenkapazitaet-mit-Googles-TPUs-11247289.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:00:00.000Z"
+        "publishedAt": "2026-04-07T12:42:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Podcast-They-Talk-Tech-Frauen-werden-aus-der-Oeffentlichkeit-gedraengt-11243353.html",
@@ -879,16 +877,16 @@
         "publishedAt": "2026-04-01T12:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Zahlen-bitte-Artemis-2-406-771-Kilometer-abseits-der-Erde-am-Mond-vorbei-11246728.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Zahlen, bitte! Artemis 2: 406.771 Kilometer abseits der Erde am Mond vorbei",
-        "summary": "Artemis 2 stellt einen Rekord von Apollo 13 ein: So weit entfernt von der Erde waren noch keine Menschen zuvor. Entscheidend dafür ist europäische Technik.",
+        "id": "https://www.heise.de/news/Vera-C-Rubin-Observatory-findet-11-000-neue-Asteroiden-im-Sonnensystem-11247176.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Vera C. Rubin Observatory findet 11.000 neue Asteroiden im Sonnensystem",
+        "summary": "Das Rubin Observatory hat erneut seine Leistungsfähigkeit gezeigt und 11.000 neue Himmelskörper im Sonnensystem entdeckt. Astronomen erwarten weitere Funde.",
         "paragraphs": [
-          "Artemis 2 stellt einen Rekord von Apollo 13 ein: So weit entfernt von der Erde waren noch keine Menschen zuvor. Entscheidend dafür ist europäische Technik."
+          "Das Rubin Observatory hat erneut seine Leistungsfähigkeit gezeigt und 11.000 neue Himmelskörper im Sonnensystem entdeckt. Astronomen erwarten weitere Funde."
         ],
-        "link": "https://www.heise.de/hintergrund/Zahlen-bitte-Artemis-2-406-771-Kilometer-abseits-der-Erde-am-Mond-vorbei-11246728.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Vera-C-Rubin-Observatory-findet-11-000-neue-Asteroiden-im-Sonnensystem-11247176.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T11:45:00.000Z"
+        "publishedAt": "2026-04-07T12:39:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-Mathe-entdecken-mit-Tabellenkalkulationen-11161719.html",
@@ -903,6 +901,54 @@
         "publishedAt": "2026-04-01T08:00:00.000Z"
       },
       {
+        "id": "https://www.heise.de/news/Rust-Coreutils-0-8-Schneller-sicherer-und-jetzt-auch-im-Browser-11247239.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Rust Coreutils 0.8: Von nix zu rustix – und dd legt 45 Prozent zu",
+        "summary": "Die Rust-Neuimplementierung der GNU Coreutils wird schneller, läuft im Browser und sichert Systemaufrufe besser ab. Was Version 0.8 im Detail bringt.",
+        "paragraphs": [
+          "Die Rust-Neuimplementierung der GNU Coreutils wird schneller, läuft im Browser und sichert Systemaufrufe besser ab. Was Version 0.8 im Detail bringt."
+        ],
+        "link": "https://www.heise.de/news/Rust-Coreutils-0-8-Schneller-sicherer-und-jetzt-auch-im-Browser-11247239.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-07T12:38:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Spritpreise-Diesel-knackt-2-50-Euro-Marke-11247231.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Diesel erstmals über 2,50 Euro – Bauern warnen",
+        "summary": "Diesel hat erstmals im bundesweiten Durchschnitt mehr als 2,50 Euro gekostet. Bauernpräsident Rukwied sieht die Versorgungssicherheit in Gefahr.",
+        "paragraphs": [
+          "Diesel hat erstmals im bundesweiten Durchschnitt mehr als 2,50 Euro gekostet. Bauernpräsident Rukwied sieht die Versorgungssicherheit in Gefahr."
+        ],
+        "link": "https://www.heise.de/news/Spritpreise-Diesel-knackt-2-50-Euro-Marke-11247231.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-07T12:14:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11203378.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Microsoft 365 sicher einrichten und datenschutzkonform betreiben",
+        "summary": "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen.",
+        "paragraphs": [
+          "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11203378.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-07T12:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/hintergrund/Zahlen-bitte-Artemis-2-406-771-Kilometer-abseits-der-Erde-am-Mond-vorbei-11246728.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Zahlen, bitte! Artemis 2: 406.771 Kilometer abseits der Erde am Mond vorbei",
+        "summary": "Artemis 2 stellt einen Rekord von Apollo 13 ein: So weit entfernt von der Erde waren noch keine Menschen zuvor. Entscheidend dafür ist europäische Technik.",
+        "paragraphs": [
+          "Artemis 2 stellt einen Rekord von Apollo 13 ein: So weit entfernt von der Erde waren noch keine Menschen zuvor. Entscheidend dafür ist europäische Technik."
+        ],
+        "link": "https://www.heise.de/hintergrund/Zahlen-bitte-Artemis-2-406-771-Kilometer-abseits-der-Erde-am-Mond-vorbei-11246728.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-07T11:45:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/BlueHammer-Zero-Day-Luecke-in-Windows-verschafft-erhoehte-Rechte-11246762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "„BlueHammer“: Zero-Day-Lücke in Windows verschafft erhöhte Rechte",
         "summary": "Windows weist eine Zero-Day-Lücke auf, durch die Angreifer ihre Rechte ausweiten können. Ein Patch steht noch nicht bereit.",
@@ -913,54 +959,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-07T11:37:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/JSON-Alexander-Syntax-Highlighting-und-Baumdarstellung-im-Browser-11246718.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "JSON Alexander: Syntax-Highlighting und Baumdarstellung im Browser",
-        "summary": "Syntax-Highlighting und Baumdarstellung: Das Add-on verbessert die Ansicht von JSON-Daten, insbesondere für API-Entwickler.",
-        "paragraphs": [
-          "Syntax-Highlighting und Baumdarstellung: Das Add-on verbessert die Ansicht von JSON-Daten, insbesondere für API-Entwickler."
-        ],
-        "link": "https://www.heise.de/news/JSON-Alexander-Syntax-Highlighting-und-Baumdarstellung-im-Browser-11246718.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-07T10:50:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Google-Meet-kommt-erstmals-zu-Apples-CarPlay-11246432.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Google Meet kommt erstmals zu Apples CarPlay",
-        "summary": "Teams, Telegram oder WhatsApp gibt es seit längerem für die iPhone-Fahrzeugintegration. Nun legt auch Google mit seiner Konferenz-App nach.",
-        "paragraphs": [
-          "Teams, Telegram oder WhatsApp gibt es seit längerem für die iPhone-Fahrzeugintegration. Nun legt auch Google mit seiner Konferenz-App nach."
-        ],
-        "link": "https://www.heise.de/news/Google-Meet-kommt-erstmals-zu-Apples-CarPlay-11246432.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-07T10:45:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Ethical-Hacking-fuer-Fortgeschrittene-sich-selbst-hacken-bevor-es-andere-tun-11222507.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: Ethical Hacking für Fortgeschrittene – sich selbst hacken, bevor es andere tun",
-        "summary": "In fünf Terminen lernen Admins und IT-Security-Verantwortliche ab dem 9. Juni, ihre eigenen Systeme zu hacken, um sich effektiv vor Angriffen zu schützen.",
-        "paragraphs": [
-          "In fünf Terminen lernen Admins und IT-Security-Verantwortliche ab dem 9. Juni, ihre eigenen Systeme zu hacken, um sich effektiv vor Angriffen zu schützen."
-        ],
-        "link": "https://www.heise.de/news/Ethical-Hacking-fuer-Fortgeschrittene-sich-selbst-hacken-bevor-es-andere-tun-11222507.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-07T10:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Erstmals-eGPU-Treiber-fuer-Apple-Silicon-Macs-aber-nur-fuer-KI-11246850.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-eGPU-Anbindung kommt für Apple Silicon: Gamer müssen draußen bleiben",
-        "summary": "Bislang kann man Thunderbolt- und USB4-Erweiterungskästchen am Mac nicht mit Grafikkarten nutzen. Das ändert sich nun – mit einer wichtigen Einschränkung.",
-        "paragraphs": [
-          "Bislang kann man Thunderbolt- und USB4-Erweiterungskästchen am Mac nicht mit Grafikkarten nutzen. Das ändert sich nun – mit einer wichtigen Einschränkung."
-        ],
-        "link": "https://www.heise.de/news/Erstmals-eGPU-Treiber-fuer-Apple-Silicon-Macs-aber-nur-fuer-KI-11246850.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-07T09:45:00.000Z"
       }
     ]
   }
