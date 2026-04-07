@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-07T05:03:40.151Z",
+  "updatedAt": "2026-04-07T06:06:38.559Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "5fcd7aca-64bd-4972-b15a-eeb0d634a05a",
+        "title": "Marktbericht: Ölpreise bestimmen weiter das Marktgeschehen",
+        "summary": "US-Präsident Trump hält an seinem Ultimatum fest: Sollte der Iran nicht einlenken, droht er mit weiteren Angriffen auf die Infrastruktur des Landes. Für Aktien bedeutet dies weitere Verluste.",
+        "paragraphs": [
+          "US-Präsident Trump hält an seinem Ultimatum fest: Sollte der Iran nicht einlenken, droht er mit weiteren Angriffen auf die Infrastruktur des Landes. Für Aktien bedeutet dies weitere Verluste."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-osterfest-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-07T05:46:53.000Z"
+      },
       {
         "id": "86581ff4-4fec-44ad-b76c-8313a3d27b20",
         "title": "Iran-Krieg und China-Knappheit: Warum Wolfram knapp wird",
@@ -229,29 +241,41 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-05T05:27:28.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/Mehrheit-der-Unternehmen-blickt-pessimistisch-in-die-Zukunft-id30682420.html",
-        "title": "\"Wirtschaft wartet auf Impulse\": Mehrheit der Unternehmen blickt pessimistisch in die Zukunft",
-        "summary": "Die Einschätzungen der deutschen Betriebe für die kommenden Monate sind überwiegend negativ. Einer Umfrage zufolge ist nur noch jedes zehnte Unternehmen mit der Wirtschaftspolitik zufrieden. Der Chef des Arbeitgeberverbands BDA warnt vor einem weiteren Abrutschen der Konjunktur.",
-        "paragraphs": [
-          "Die Einschätzungen der deutschen Betriebe für die kommenden Monate sind überwiegend negativ. Einer Umfrage zufolge ist nur noch jedes zehnte Unternehmen mit der Wirtschaftspolitik zufrieden. Der Chef des Arbeitgeberverbands BDA warnt vor einem weiteren Abrutschen der Konjunktur."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/Mehrheit-der-Unternehmen-blickt-pessimistisch-in-die-Zukunft-id30682420.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-04-04T14:43:24.000Z"
       }
     ],
     "politik": [
       {
-        "id": "li.3464171",
-        "title": "Nahost: WHO stoppt Evakuierungen aus Gaza nach Tod eines Mitarbeiters",
-        "summary": "Die Weltgesundheitsorganisation hilft bei der Evakuierung Schwerkranker aus dem Gazastreifen. Nach einem Angriff stellt sie ihre Hilfe vorerst ein.",
+        "id": "li.3464211",
+        "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
+        "summary": "SZ am Morgen.",
         "paragraphs": [
-          "Die Weltgesundheitsorganisation hilft bei der Evakuierung Schwerkranker aus dem Gazastreifen. Nach einem Angriff stellt sie ihre Hilfe vorerst ein."
+          "SZ am Morgen."
         ],
-        "link": "https://www.sueddeutsche.de/politik/who-gaza-israel-tedros-adhanom-ghebreyesus-li.3464171",
+        "link": "https://www.sueddeutsche.de/politik/raumschiff-umrundet-mond-trump-droht-iran-selenskij-fuer-teilwaffenruhe-li.3464211",
+        "category": "SZ Nachrichten des Tages",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T05:07:33.000Z"
+      },
+      {
+        "id": "li.3463735",
+        "title": "FDP-Machtkampf: Kubicki zwingt die Liberalen zur Richtungsentscheidung",
+        "summary": "Wolfgang Kubicki hat mit seiner Kandidatur fast alle überrascht, vielleicht sogar sich selbst. Der neue Zweikampf elektrisiert die Partei. Sogar Christian Lindner mischt sich ein.",
+        "paragraphs": [
+          "Wolfgang Kubicki hat mit seiner Kandidatur fast alle überrascht, vielleicht sogar sich selbst. Der neue Zweikampf elektrisiert die Partei. Sogar Christian Lindner mischt sich ein."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/fdp-wolfgang-kubicki-henning-hoene-li.3463735",
+        "category": "FDP",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T04:59:48.000Z"
+      },
+      {
+        "id": "li.3464171",
+        "title": "Nahost: Nach Tod eines Mitarbeiters: WHO pausiert Krankentransporte aus Gaza",
+        "summary": "Die Weltgesundheitsorganisation hilft dabei, Schwerkranke aus dem Gazastreifen zu bringen. Nach einem Angriff stellt sie ihre Hilfe vorerst ein.",
+        "paragraphs": [
+          "Die Weltgesundheitsorganisation hilft dabei, Schwerkranke aus dem Gazastreifen zu bringen. Nach einem Angriff stellt sie ihre Hilfe vorerst ein."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/who-gaza-krankentransporte-li.3464171",
         "category": "Nahost",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-07T02:52:33.000Z"
@@ -376,7 +400,7 @@
       },
       {
         "id": "li.3462253",
-        "title": "Studie zu Anhängern von AfD und Grüne: „Bei den meisten unserer Probanden konnten wir Feindseligkeiten und Hass reduzieren“",
+        "title": "Studie zu Anhängern der AfD und der Grünen: „Bei den meisten unserer Probanden konnten wir Feindseligkeiten und Hass reduzieren“",
         "summary": "Mit einer Methode zur Behandlung von Schizophrenie will Steffen Moritz helfen, Gräben zwischen verfeindeten politischen Lagern zu überwinden. Was Wahn und politische Überzeugungen gemein haben – und welche Rolle die Grünen-Politikerin Katrin Göring-Eckardt spielt.",
         "paragraphs": [
           "Mit einer Methode zur Behandlung von Schizophrenie will Steffen Moritz helfen, Gräben zwischen verfeindeten politischen Lagern zu überwinden. Was Wahn und politische Überzeugungen gemein haben – und welche Rolle die Grünen-Politikerin Katrin Göring-Eckardt spielt."
@@ -397,30 +421,6 @@
         "category": "Verkehr",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-06T13:30:25.000Z"
-      },
-      {
-        "id": "li.3394927",
-        "title": "Geschichte der USA: Die versteinerte Nation",
-        "summary": "Konservative „Originalisten“ halten strikt am Wortlaut der US-Verfassung von 1787 fest und zementieren so die Spaltung der Gesellschaft, erklären Jill Lepore und Hiram Kümper in ihren brillanten Analysen.",
-        "paragraphs": [
-          "Konservative „Originalisten“ halten strikt am Wortlaut der US-Verfassung von 1787 fest und zementieren so die Spaltung der Gesellschaft, erklären Jill Lepore und Hiram Kümper in ihren brillanten Analysen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-verfassung-supreme-court-trump-demokratie-jill-lepore-hiram-kuemper-li.3394927",
-        "category": "USA",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-06T12:58:40.000Z"
-      },
-      {
-        "id": "li.3452561",
-        "title": "Interview über rechtsextreme Christen in den USA: Warum Religion der Demokratie nicht guttut",
-        "summary": "Der christliche Nationalismus sei „eine der gefährlichsten Ideologien der Welt“, sagt der Theologe und Publizist Arnd Henze im Interview. Und die Maga-Bewegung um Donald Trump trage längst Züge einer Religion. Doch: „Die Fliehkräfte werden größer.“",
-        "paragraphs": [
-          "Der christliche Nationalismus sei „eine der gefährlichsten Ideologien der Welt“, sagt der Theologe und Publizist Arnd Henze im Interview. Und die Maga-Bewegung um Donald Trump trage längst Züge einer Religion. Doch: „Die Fliehkräfte werden größer.“"
-        ],
-        "link": "https://www.sueddeutsche.de/politik/donald-trump-religion-christentum-rechte-li.3452561",
-        "category": "Glaube und Religion",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-06T12:55:17.000Z"
       },
       {
         "id": "76679295",
@@ -509,6 +509,18 @@
         "publishedAt": "2026-04-07T03:41:20.000Z"
       },
       {
+        "id": "https://www.kicker.de/unfreiwillige-vorlage-zum-ausgleich-benfica-patzt-bei-casa-pia-1208156/video#omrss",
+        "title": "Unfreiwillige Vorlage zum Ausgleich: Benfica patzt bei Casa Pia",
+        "summary": "Hier gibt es die Highlights der Partie zwischen Casa Pia AC und Benfica Lissabon.",
+        "paragraphs": [
+          "Hier gibt es die Highlights der Partie zwischen Casa Pia AC und Benfica Lissabon."
+        ],
+        "link": "https://www.kicker.de/unfreiwillige-vorlage-zum-ausgleich-benfica-patzt-bei-casa-pia-1208156/video#omrss",
+        "category": "Benfica Lissabon",
+        "source": "Kicker",
+        "publishedAt": "2026-04-06T22:35:09.000Z"
+      },
+      {
         "id": "https://www.kicker.de/nhl-ticker-oswald-im-nhl-fokus-devils-trennen-sich-von-sportchef-fitzgerald-1030078/artikel#omrss",
         "title": "NHL-Ticker: Oswald im NHL-Fokus - Devils trennen sich von Sportchef Fitzgerald",
         "summary": "Die wichtigsten Transfers und Personalien in der NHL im Überblick ...",
@@ -519,6 +531,18 @@
         "category": "Eishockey",
         "source": "Kicker",
         "publishedAt": "2026-04-06T22:09:50.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/noppert-wird-zum-tragischen-helden-aspinall-feiert-in-muenchen-1208153/video#omrss",
+        "title": "Noppert wird zum tragischen Helden: Aspinall feiert in München",
+        "summary": "Nathan Aspinall krönte sich in München zum Sieger des German Darts Grand Prix. Im Finale setzte er sich gegen Danny Noppert durch. Die Highlights gibt es hier im Video.",
+        "paragraphs": [
+          "Nathan Aspinall krönte sich in München zum Sieger des German Darts Grand Prix. Im Finale setzte er sich gegen Danny Noppert durch. Die Highlights gibt es hier im Video."
+        ],
+        "link": "https://www.kicker.de/noppert-wird-zum-tragischen-helden-aspinall-feiert-in-muenchen-1208153/video#omrss",
+        "category": "Darts",
+        "source": "Kicker",
+        "publishedAt": "2026-04-06T21:46:10.000Z"
       },
       {
         "id": "https://www.kicker.de/auf-ardennen-konzentrieren-evenepoel-laesst-paris-roubaix-aus-1208149/artikel#omrss",
@@ -697,30 +721,6 @@
         "category": "Olympia",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-06T16:45:14.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/frankreich-talent-seixas-gewinnt-zeitfahren-in-bilbao-lipowitz-starker-sechster-1208092/artikel#omrss",
-        "title": "Frankreich-Talent Seixas gewinnt Zeitfahren in Bilbao - Lipowitz starker Sechster",
-        "summary": "Frankreichs Top-Talent Paul Seixas feierte zum Auftakt der Baskenland-Rundfahrt seinen ersten Sieg auf WorldTour-Niveau. Zum überragenden Sieger fehlte Florian Lipowitz im Zeitfahren eine halbe Minute, der Ulmer wurde starker Sechster.",
-        "paragraphs": [
-          "Frankreichs Top-Talent Paul Seixas feierte zum Auftakt der Baskenland-Rundfahrt seinen ersten Sieg auf WorldTour-Niveau. Zum überragenden Sieger fehlte Florian Lipowitz im Zeitfahren eine halbe Minute, der Ulmer wurde starker Sechster."
-        ],
-        "link": "https://www.kicker.de/frankreich-talent-seixas-gewinnt-zeitfahren-in-bilbao-lipowitz-starker-sechster-1208092/artikel#omrss",
-        "category": "Radsport",
-        "source": "Kicker",
-        "publishedAt": "2026-04-06T16:24:09.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/konter-wie-aus-dem-lehrbuch-mckennie-treibt-ball-voran-und-vollendet-1208103/video#omrss",
-        "title": "Konter wie aus dem Lehrbuch: McKennie treibt Ball voran und vollendet",
-        "summary": "Der frühere Bundesliga-Spieler Weston McKennie trifft für Juventus Turin gegen Genua zum 2:0. Den Treffer gibt es hier im Video.",
-        "paragraphs": [
-          "Der frühere Bundesliga-Spieler Weston McKennie trifft für Juventus Turin gegen Genua zum 2:0. Den Treffer gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/konter-wie-aus-dem-lehrbuch-mckennie-treibt-ball-voran-und-vollendet-1208103/video#omrss",
-        "category": "CFC Genua 1893",
-        "source": "Kicker",
-        "publishedAt": "2026-04-06T16:23:17.000Z"
       }
     ],
     "edv": [
@@ -737,16 +737,16 @@
         "publishedAt": "2026-04-04T08:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Netflix-Italia-Gericht-erklaert-Preiserhoehungen-fuer-ungueltig-11246392.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Netflix Italia: Gericht erklärt Preiserhöhungen für ungültig",
-        "summary": "Ein Gericht in Rom erklärt die Preiserhöhungsklauseln von Netflix seit 2017 für ungültig und ordnet Rückerstattungen an. Das Unternehmen will Berufung einlegen.",
+        "id": "https://www.heise.de/news/Bei-Mondumrundung-Crew-von-NASA-Mission-Artemis-2-feiert-Rekorde-11246474.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Bei Mondumrundung: Crew von NASA-Mission Artemis-2 feiert Rekorde",
+        "summary": "Höhepunkt zur Hälfte der Mission: Die Crew Artemis 2 entfernt sich weiter von der Erde als je Menschen zuvor. Der Mond-Tag bringt für die Crew Highlights.",
         "paragraphs": [
-          "Ein Gericht in Rom erklärt die Preiserhöhungsklauseln von Netflix seit 2017 für ungültig und ordnet Rückerstattungen an. Das Unternehmen will Berufung einlegen."
+          "Höhepunkt zur Hälfte der Mission: Die Crew Artemis 2 entfernt sich weiter von der Erde als je Menschen zuvor. Der Mond-Tag bringt für die Crew Highlights."
         ],
-        "link": "https://www.heise.de/news/Netflix-Italia-Gericht-erklaert-Preiserhoehungen-fuer-ungueltig-11246392.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Bei-Mondumrundung-Crew-von-NASA-Mission-Artemis-2-feiert-Rekorde-11246474.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T03:50:00.000Z"
+        "publishedAt": "2026-04-07T05:11:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Schnelles-Heimnetz-fuer-Glasfaser-Co-c-t-uplink-11244825.html",
@@ -761,16 +761,16 @@
         "publishedAt": "2026-04-04T04:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Teslas-Fernsteuerungsfunktion-US-Aufsichtsbehoerde-stellt-Untersuchung-ein-11246380.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Teslas Fernsteuerungsfunktion: US-Aufsichtsbehörde stellt Untersuchung ein",
-        "summary": "Nach Software-Updates hat die NHTSA ihre Untersuchung zu Teslas Fernsteuerungsfunktion beendet. Untersuchungen zu Teslas Full Self-Driving-System laufen weiter.",
+        "id": "https://www.heise.de/news/Netflix-Italia-Gericht-erklaert-Preiserhoehungen-fuer-ungueltig-11246392.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Netflix Italia: Gericht erklärt Preiserhöhungen für ungültig",
+        "summary": "Ein Gericht in Rom erklärt die Preiserhöhungsklauseln von Netflix seit 2017 für ungültig und ordnet Rückerstattungen an. Das Unternehmen will Berufung einlegen.",
         "paragraphs": [
-          "Nach Software-Updates hat die NHTSA ihre Untersuchung zu Teslas Fernsteuerungsfunktion beendet. Untersuchungen zu Teslas Full Self-Driving-System laufen weiter."
+          "Ein Gericht in Rom erklärt die Preiserhöhungsklauseln von Netflix seit 2017 für ungültig und ordnet Rückerstattungen an. Das Unternehmen will Berufung einlegen."
         ],
-        "link": "https://www.heise.de/news/Teslas-Fernsteuerungsfunktion-US-Aufsichtsbehoerde-stellt-Untersuchung-ein-11246380.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Netflix-Italia-Gericht-erklaert-Preiserhoehungen-fuer-ungueltig-11246392.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T03:35:00.000Z"
+        "publishedAt": "2026-04-07T03:50:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Sind-OLEDs-jetzt-komplett-unproblematisch-c-t-3003-11245290.html",
@@ -785,16 +785,16 @@
         "publishedAt": "2026-04-03T14:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Treibstoffpreise-Amazon-Fulfillment-Gebuehren-steigen-in-Europa-nur-geringfuegig-11246199.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Treibstoffpreise: Amazon Fulfillment-Gebühren steigen in Europa nur geringfügig",
-        "summary": "Händler, die in Europa über Amazon verkaufen und zustellen lassen, müssen bald einen Treibstoffaufschlag bezahlen. Aber weniger als in Nordamerika.",
+        "id": "https://www.heise.de/news/Teslas-Fernsteuerungsfunktion-US-Aufsichtsbehoerde-stellt-Untersuchung-ein-11246380.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Teslas Fernsteuerungsfunktion: US-Aufsichtsbehörde stellt Untersuchung ein",
+        "summary": "Nach Software-Updates hat die NHTSA ihre Untersuchung zu Teslas Fernsteuerungsfunktion beendet. Untersuchungen zu Teslas Full Self-Driving-System laufen weiter.",
         "paragraphs": [
-          "Händler, die in Europa über Amazon verkaufen und zustellen lassen, müssen bald einen Treibstoffaufschlag bezahlen. Aber weniger als in Nordamerika."
+          "Nach Software-Updates hat die NHTSA ihre Untersuchung zu Teslas Fernsteuerungsfunktion beendet. Untersuchungen zu Teslas Full Self-Driving-System laufen weiter."
         ],
-        "link": "https://www.heise.de/news/Treibstoffpreise-Amazon-Fulfillment-Gebuehren-steigen-in-Europa-nur-geringfuegig-11246199.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Teslas-Fernsteuerungsfunktion-US-Aufsichtsbehoerde-stellt-Untersuchung-ein-11246380.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T03:06:00.000Z"
+        "publishedAt": "2026-04-07T03:35:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Desolate-FCC-Vorgabe-Freedom-Router-fuer-US-Verbraucher-11241349.html",
@@ -809,16 +809,16 @@
         "publishedAt": "2026-04-03T05:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-handykamera-im-test-traumfotos-mit-vivo-xiaomi-und-huawei/tfe9b9d?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 10: Die beste Handykamera im Test",
-        "summary": "Wer benötigt noch eine Digitalkamera? Smartphones liefern mittlerweile exzellente Fotos. Wir zeigen die besten Handykameras.",
+        "id": "https://www.heise.de/news/Treibstoffpreise-Amazon-Fulfillment-Gebuehren-steigen-in-Europa-nur-geringfuegig-11246199.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Treibstoffpreise: Amazon Fulfillment-Gebühren steigen in Europa nur geringfügig",
+        "summary": "Händler, die in Europa über Amazon verkaufen und zustellen lassen, müssen bald einen Treibstoffaufschlag bezahlen. Aber weniger als in Nordamerika.",
         "paragraphs": [
-          "Wer benötigt noch eine Digitalkamera? Smartphones liefern mittlerweile exzellente Fotos. Wir zeigen die besten Handykameras."
+          "Händler, die in Europa über Amazon verkaufen und zustellen lassen, müssen bald einen Treibstoffaufschlag bezahlen. Aber weniger als in Nordamerika."
         ],
-        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-handykamera-im-test-traumfotos-mit-vivo-xiaomi-und-huawei/tfe9b9d?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Treibstoffpreise-Amazon-Fulfillment-Gebuehren-steigen-in-Europa-nur-geringfuegig-11246199.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-06T18:00:00.000Z"
+        "publishedAt": "2026-04-07T03:06:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-156-Datenschutz-Dauerbrenner-Microsoft-365-11244970.html",
@@ -833,16 +833,16 @@
         "publishedAt": "2026-04-03T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Angreifer-koennen-Weboberflaeche-von-WatchGuard-Firebox-attackieren-11246291.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Angreifer können Weboberfläche von WatchGuard Firebox attackieren",
-        "summary": "WatchGuard-Firewalls der Firebox-Serie und die Produkte Dimension und WebBlockerServer sind verwundbar. Sicherheitspatches sind verfügbar.",
+        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-handykamera-im-test-traumfotos-mit-vivo-xiaomi-und-huawei/tfe9b9d?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Top 10: Die beste Handykamera im Test",
+        "summary": "Immer dabei und vernetzt mit anderen: Smartphones sind im Alltag eine praktische Alternative zur Digitalkamera.",
         "paragraphs": [
-          "WatchGuard-Firewalls der Firebox-Serie und die Produkte Dimension und WebBlockerServer sind verwundbar. Sicherheitspatches sind verfügbar."
+          "Immer dabei und vernetzt mit anderen: Smartphones sind im Alltag eine praktische Alternative zur Digitalkamera."
         ],
-        "link": "https://www.heise.de/news/Angreifer-koennen-Weboberflaeche-von-WatchGuard-Firebox-attackieren-11246291.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-handykamera-im-test-traumfotos-mit-vivo-xiaomi-und-huawei/tfe9b9d?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-06T14:21:00.000Z"
+        "publishedAt": "2026-04-06T18:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Blick-ins-Heft-c-t-08-2026-PC-Schnaeppchen-und-gute-Gebrauchte-11243832.html",
@@ -857,16 +857,16 @@
         "publishedAt": "2026-04-02T09:27:00.000Z"
       },
       {
-        "id": "https://www.heise.de/bestenlisten/testbericht/edifier-es20-im-test-mini-bluetooth-lautsprecher-fuer-30-euro-besser-als-jbl-go-4/ef96hf4?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Edifier ES20 im Test: Mini-Bluetooth-Lautsprecher für 30 € besser als JBL Go 4",
-        "summary": "Edifier schickt mit dem ES20 einen Mini-Bluetooth-Lautsprecher ins Rennen, der im selben Preissegment wie der JBL Go 4 spielt – aber besser klingt.",
+        "id": "https://www.heise.de/news/Angreifer-koennen-Weboberflaeche-von-WatchGuard-Firebox-attackieren-11246291.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Angreifer können Weboberfläche von WatchGuard Firebox attackieren",
+        "summary": "WatchGuard-Firewalls der Firebox-Serie und die Produkte Dimension und WebBlockerServer sind verwundbar. Sicherheitspatches sind verfügbar.",
         "paragraphs": [
-          "Edifier schickt mit dem ES20 einen Mini-Bluetooth-Lautsprecher ins Rennen, der im selben Preissegment wie der JBL Go 4 spielt – aber besser klingt."
+          "WatchGuard-Firewalls der Firebox-Serie und die Produkte Dimension und WebBlockerServer sind verwundbar. Sicherheitspatches sind verfügbar."
         ],
-        "link": "https://www.heise.de/bestenlisten/testbericht/edifier-es20-im-test-mini-bluetooth-lautsprecher-fuer-30-euro-besser-als-jbl-go-4/ef96hf4?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Angreifer-koennen-Weboberflaeche-von-WatchGuard-Firebox-attackieren-11246291.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-06T14:00:00.000Z"
+        "publishedAt": "2026-04-06T14:21:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Podcast-They-Talk-Tech-Frauen-werden-aus-der-Oeffentlichkeit-gedraengt-11243353.html",
@@ -881,16 +881,16 @@
         "publishedAt": "2026-04-01T12:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/HCL-BigFix-Kryptografische-Schluessel-offensichtlich-nicht-sicher-gespeichert-11246307.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "HCL BigFix: Kryptografische Schlüssel offensichtlich nicht sicher gespeichert",
-        "summary": "Wichtige Sicherheitspatches schließen zwei Softwareschwachstellen in der Endpoint-Management-Plattform HCL BigFix.",
+        "id": "https://www.heise.de/bestenlisten/testbericht/edifier-es20-im-test-mini-bluetooth-lautsprecher-fuer-30-euro-besser-als-jbl-go-4/ef96hf4?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Edifier ES20 im Test: Mini-Bluetooth-Lautsprecher für 30 € besser als JBL Go 4",
+        "summary": "Edifier schickt mit dem ES20 einen Mini-Bluetooth-Lautsprecher ins Rennen, der im selben Preissegment wie der JBL Go 4 spielt – aber besser klingt.",
         "paragraphs": [
-          "Wichtige Sicherheitspatches schließen zwei Softwareschwachstellen in der Endpoint-Management-Plattform HCL BigFix."
+          "Edifier schickt mit dem ES20 einen Mini-Bluetooth-Lautsprecher ins Rennen, der im selben Preissegment wie der JBL Go 4 spielt – aber besser klingt."
         ],
-        "link": "https://www.heise.de/news/HCL-BigFix-Kryptografische-Schluessel-offensichtlich-nicht-sicher-gespeichert-11246307.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testbericht/edifier-es20-im-test-mini-bluetooth-lautsprecher-fuer-30-euro-besser-als-jbl-go-4/ef96hf4?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-06T13:41:00.000Z"
+        "publishedAt": "2026-04-06T14:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-Mathe-entdecken-mit-Tabellenkalkulationen-11161719.html",
@@ -903,6 +903,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-01T08:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/HCL-BigFix-Kryptografische-Schluessel-offensichtlich-nicht-sicher-gespeichert-11246307.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "HCL BigFix: Kryptografische Schlüssel offensichtlich nicht sicher gespeichert",
+        "summary": "Wichtige Sicherheitspatches schließen zwei Softwareschwachstellen in der Endpoint-Management-Plattform HCL BigFix.",
+        "paragraphs": [
+          "Wichtige Sicherheitspatches schließen zwei Softwareschwachstellen in der Endpoint-Management-Plattform HCL BigFix."
+        ],
+        "link": "https://www.heise.de/news/HCL-BigFix-Kryptografische-Schluessel-offensichtlich-nicht-sicher-gespeichert-11246307.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-06T13:41:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Blaulicht-Digitalfunk-Bundesregierung-haelt-trotz-Kritik-an-Tetra-Kurs-fest-11246313.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -951,18 +963,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-06T11:09:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Zweiteiliges-Webinar-zu-Datenschutz-und-Sicherheit-fuer-verwaltete-Apple-Geraete-11242937.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: Zweiteiliges Webinar: Apple-Gerätemanagement gemäß IT-Grundschutz des BSI",
-        "summary": "Erfahren Sie, wie sich der IT-Grundschutz des BSI für Apple-Geräte im Unternehmen umsetzen lässt, um die Sicherheit und den Schutz der Daten zu gewährleisten.",
-        "paragraphs": [
-          "Erfahren Sie, wie sich der IT-Grundschutz des BSI für Apple-Geräte im Unternehmen umsetzen lässt, um die Sicherheit und den Schutz der Daten zu gewährleisten."
-        ],
-        "link": "https://www.heise.de/news/Zweiteiliges-Webinar-zu-Datenschutz-und-Sicherheit-fuer-verwaltete-Apple-Geraete-11242937.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-06T11:00:00.000Z"
       }
     ]
   }
