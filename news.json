@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-07T13:03:15.690Z",
+  "updatedAt": "2026-04-07T13:45:40.966Z",
   "categories": {
     "wirtschaft": [
       {
@@ -12,7 +12,7 @@
         "link": "https://www.tagesschau.de/newsticker/liveblog-iran-dienstag-106.html",
         "category": null,
         "source": "Tagesschau",
-        "publishedAt": "2026-04-07T12:51:28.000Z"
+        "publishedAt": "2026-04-07T13:17:27.000Z"
       },
       {
         "id": "455b626c-de41-43f0-b4f3-75030555734b",
@@ -245,16 +245,48 @@
     ],
     "politik": [
       {
+        "id": "li.3464483",
+        "title": "Istanbul: Angreifer vor israelischem Konsulat getötet",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/istanbul-angreifer-vor-israelischem-konsulat-getoetet-li.3464483",
+        "category": "Türkei",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T13:29:20.000Z"
+      },
+      {
+        "id": "li.3463801",
+        "title": "Außenpolitik: Der Problemlöser im Hintergrund",
+        "summary": "Günter Sautter agiert als außenpolitischer Berater des Bundeskanzlers meist fernab der großen Bühne – aber blitzschnell, etwa wenn sein Chef den US-Präsidenten verärgert.",
+        "paragraphs": [
+          "Günter Sautter agiert als außenpolitischer Berater des Bundeskanzlers meist fernab der großen Bühne – aber blitzschnell, etwa wenn sein Chef den US-Präsidenten verärgert."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/deutschland-usa-aussenpolitik-guenter-sautter-iran-li.3463801",
+        "category": "Außenpolitik",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T13:25:55.000Z"
+      },
+      {
         "id": "li.3458356",
         "title": "Krieg in Nahost: Trump droht, eine ganze Zivilisation auszulöschen",
-        "summary": "Der US-Präsident warnt Iran mit drastischen Worten und dringt auf eine Einigung. Die Internationale Energieagentur sieht die Ölkrise schwerwiegender als die von 1973, 1979 und 2022 zusammen.",
+        "summary": "Der US-Präsident warnt Iran mit drastischen Worten und dringt auf eine Einigung. Die Internationale Energieagentur erachtet die aktuelle Ölkrise als schwerwiegender als die von 1973, 1979 und 2022 zusammen.",
         "paragraphs": [
-          "Der US-Präsident warnt Iran mit drastischen Worten und dringt auf eine Einigung. Die Internationale Energieagentur sieht die Ölkrise schwerwiegender als die von 1973, 1979 und 2022 zusammen."
+          "Der US-Präsident warnt Iran mit drastischen Worten und dringt auf eine Einigung. Die Internationale Energieagentur erachtet die aktuelle Ölkrise als schwerwiegender als die von 1973, 1979 und 2022 zusammen."
         ],
         "link": "https://www.sueddeutsche.de/politik/iran-krieg-liveblog-news-oelkrise-iea-birol-li.3458356",
         "category": "Nahost",
         "source": "Sueddeutsche",
-        "publishedAt": "2026-04-07T12:51:00.000Z"
+        "publishedAt": "2026-04-07T12:56:48.000Z"
+      },
+      {
+        "id": "li.3464509",
+        "title": "USA: Bericht: Mehr ICE-Festnahmen als bisher bekannt",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/usa-bericht-mehr-ice-festnahmen-als-bisher-bekannt-li.3464509",
+        "category": "USA",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T12:55:33.000Z"
       },
       {
         "id": "76692047",
@@ -435,18 +467,6 @@
         "publishedAt": "2026-04-06T21:18:10.000Z"
       },
       {
-        "id": "li.3457739",
-        "title": "Krieg in der Ukraine: Selenskij schlägt Waffenruhe für Angriffe auf Kraftwerke vor",
-        "summary": "Ukrainische Drohnen treffen russische Raffinerien und Ölterminals, Moskau zerstört Kraftwerke und Umspannwerke in der Ukraine. Der ukrainische Präsident schlägt nun vor, die Angriffe auf Energieanlagen einzustellen.",
-        "paragraphs": [
-          "Ukrainische Drohnen treffen russische Raffinerien und Ölterminals, Moskau zerstört Kraftwerke und Umspannwerke in der Ukraine. Der ukrainische Präsident schlägt nun vor, die Angriffe auf Energieanlagen einzustellen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-russland-energie-waffenstillstand-li.3457739",
-        "category": "Ukraine",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-06T19:21:41.000Z"
-      },
-      {
         "id": "76607429",
         "title": "Syriens Frauen wehren sich gegen Diskriminierung",
         "summary": "In Syrien fordern Frauen Gleichheit vor dem Gesetz. Angesichts von mehr als 100.000 \"verschwundenen\" Männern leben tausende von ihnen in einem rechtlichen Vakuum. Verweigert ihnen Damaskus die Gleichberechtigung?",
@@ -457,33 +477,105 @@
         "category": "Welt",
         "source": "DW",
         "publishedAt": "2026-04-06T15:57:00.000Z"
-      },
-      {
-        "id": "76626367",
-        "title": "Deutschland: Weniger Kriminalität ohne irreguläre Migration?",
-        "summary": "Wird es hierzulande sicherer, wenn mehr irreguläre Migranten abgeschoben werden? Kanzler Friedrich Merz erweckt zumindest diesen Eindruck, wenn er von gewalttätigen Zuwanderern spricht. Doch die Realität ist komplexer.",
-        "paragraphs": [
-          "Wird es hierzulande sicherer, wenn mehr irreguläre Migranten abgeschoben werden? Kanzler Friedrich Merz erweckt zumindest diesen Eindruck, wenn er von gewalttätigen Zuwanderern spricht. Doch die Realität ist komplexer."
-        ],
-        "link": "https://www.dw.com/de/deutschland-weniger-kriminalität-ohne-irreguläre-migration/a-76626367?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Deutschland",
-        "source": "DW",
-        "publishedAt": "2026-04-06T15:30:00.000Z"
-      },
-      {
-        "id": "li.3463757",
-        "title": "Anschlagsserie: Bringt der Iran-Krieg neuen Terror nach Europa?",
-        "summary": "Eine bislang unbekannte Gruppe bekennt sich zu Anschlägen auf jüdische Einrichtungen in England, Belgien und den Niederlanden. Ermittler vermuten, dass das iranische Regime dahintersteckt.",
-        "paragraphs": [
-          "Eine bislang unbekannte Gruppe bekennt sich zu Anschlägen auf jüdische Einrichtungen in England, Belgien und den Niederlanden. Ermittler vermuten, dass das iranische Regime dahintersteckt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/iran-krieg-terroranschlaege-europa-folgen-li.3463757",
-        "category": "Iran",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-06T15:08:45.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "2ca97a6a-47f0-46df-b120-ab47536b3f30",
+        "title": "Champions League: FC Bayern München vor Duell mit Real Madrid – Vincent Kompany beschwört den Glauben",
+        "summary": "»We have to believe«: Trainer Vincent Kompany stärkt vor der Partie bei Real Madrid das Münchner Selbstvertrauen. Denn fußballerisch sind die Bayern klar stärker als Madrid. Aber was ist mit den Nerven?",
+        "paragraphs": [
+          "»We have to believe«: Trainer Vincent Kompany stärkt vor der Partie bei Real Madrid das Münchner Selbstvertrauen. Denn fußballerisch sind die Bayern klar stärker als Madrid. Aber was ist mit den Nerven?"
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/champions-league-fc-bayern-muenchen-vor-duell-mit-real-madrid-vincent-kompany-beschwoert-den-glauben-a-2ca97a6a-47f0-46df-b120-ab47536b3f30#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-07T13:36:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/psg-duo-fehlt-gegen-liverpool-luis-enrique-verraet-teil-des-matchplans-1208284/artikel#omrss",
+        "title": "PSG-Duo fehlt gegen Liverpool - Luis Enrique verrät Teil des Matchplans",
+        "summary": "In der vergangenen Saison beendete Paris St. Germain die Titelträume des FC Liverpool. In Paris erwartet man nun ein ähnliches Spiel - mit offenem Ausgang. Trainer Luis Enrique hat seine Schlüsse gezogen.",
+        "paragraphs": [
+          "In der vergangenen Saison beendete Paris St. Germain die Titelträume des FC Liverpool. In Paris erwartet man nun ein ähnliches Spiel - mit offenem Ausgang. Trainer Luis Enrique hat seine Schlüsse gezogen."
+        ],
+        "link": "https://www.kicker.de/psg-duo-fehlt-gegen-liverpool-luis-enrique-verraet-teil-des-matchplans-1208284/artikel#omrss",
+        "category": "B. Barcola",
+        "source": "Kicker",
+        "publishedAt": "2026-04-07T13:35:02.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ziel-saisonendspurt-gladbachs-kleindienst-konkretisiert-comeback-plan-1208295/artikel#omrss",
+        "title": "Ziel Saisonendspurt: Gladbachs Kleindienst konkretisiert Comeback-Plan",
+        "summary": "Tim Kleindienst arbeitet an seiner Rückkehr und will in dieser Saison noch einmal für Borussia Mönchengladbach auflaufen. Der nächste Schritt lautet: Teilnahme am Mannschaftstraining.",
+        "paragraphs": [
+          "Tim Kleindienst arbeitet an seiner Rückkehr und will in dieser Saison noch einmal für Borussia Mönchengladbach auflaufen. Der nächste Schritt lautet: Teilnahme am Mannschaftstraining."
+        ],
+        "link": "https://www.kicker.de/ziel-saisonendspurt-gladbachs-kleindienst-konkretisiert-comeback-plan-1208295/artikel#omrss",
+        "category": "Bor. Mönchengladbach",
+        "source": "Kicker",
+        "publishedAt": "2026-04-07T13:34:09.000Z"
+      },
+      {
+        "id": "af88ae56-2801-4864-817b-1ff65088ba8a",
+        "title": "Himalaja: Nepal geht gegen erzwungene Helikopterbergungen und Versicherungsbetrug vor",
+        "summary": "Jahrelang sollen Trekkingveranstalter in Nepal auf verschiedenen Wegen Evakuierungseinsätze per Helikopter erzwungen haben. Das Tourismusministerium kündigt nun eine »Null-Toleranz-Politik« gegen Betrüger an.",
+        "paragraphs": [
+          "Jahrelang sollen Trekkingveranstalter in Nepal auf verschiedenen Wegen Evakuierungseinsätze per Helikopter erzwungen haben. Das Tourismusministerium kündigt nun eine »Null-Toleranz-Politik« gegen Betrüger an."
+        ],
+        "link": "https://www.spiegel.de/sport/himalaja-nepal-geht-gegen-erzwungene-helikopterbergungen-und-versicherungsbetrug-vor-a-af88ae56-2801-4864-817b-1ff65088ba8a#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-07T13:30:00.000Z"
+      },
+      {
+        "id": "li.3464313",
+        "title": "Eishockey: Ein Lernmoment für die Halbfinals",
+        "summary": "Unter dem Eindruck des schweren Fouls des Münchner Eishockeyspielers Fabio Wagner beginnt die entscheidende Phase in der Meisterschaft. Für die vier Klubs geht es auch um die Balance zwischen Intensität und Kontrolle.",
+        "paragraphs": [
+          "Unter dem Eindruck des schweren Fouls des Münchner Eishockeyspielers Fabio Wagner beginnt die entscheidende Phase in der Meisterschaft. Für die vier Klubs geht es auch um die Balance zwischen Intensität und Kontrolle."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/fairplay-playoffs-muenchen-ehc-red-bull-ingolstadt-koelner-haie-mannheim-adler-eisbaeren-berlin-li.3464313",
+        "category": "Eishockey",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T13:29:11.000Z"
+      },
+      {
+        "id": "li.3464314",
+        "title": "Golf: Das vierte Leben des Tiger Woods",
+        "summary": "Beim Masters in Augusta fehlt einer – und steht dennoch erneut im Fokus: Tiger Woods und die Nachwehen seiner Verhaftung vor einigen Wochen beschäftigen den Golfsport.",
+        "paragraphs": [
+          "Beim Masters in Augusta fehlt einer – und steht dennoch erneut im Fokus: Tiger Woods und die Nachwehen seiner Verhaftung vor einigen Wochen beschäftigen den Golfsport."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/tiger-woods-golf-karriere-unfall-suchtprobleme-masters-augusta-li.3464314",
+        "category": "Golf",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-07T13:28:56.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/aue-muss-im-abstiegskampf-zweimal-auf-collins-verzichten-1208108/artikel#omrss",
+        "title": "Aue muss im Abstiegskampf zweimal auf Collins verzichten",
+        "summary": "Die Lage beim FC Erzgebirge Aue ist düster, beim desaströsen 3:5 gegen Hoffenheim II verloren die Veilchen zudem Jamilu Collins. Der DFB sperrte den Verteidiger nach seiner Notbremse für zwei Spiele.",
+        "paragraphs": [
+          "Die Lage beim FC Erzgebirge Aue ist düster, beim desaströsen 3:5 gegen Hoffenheim II verloren die Veilchen zudem Jamilu Collins. Der DFB sperrte den Verteidiger nach seiner Notbremse für zwei Spiele."
+        ],
+        "link": "https://www.kicker.de/aue-muss-im-abstiegskampf-zweimal-auf-collins-verzichten-1208108/artikel#omrss",
+        "category": "3. Liga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-07T13:04:29.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/vorbei-an-baack-yari-otto-neuer-rekordspieler-in-verl-1208279/artikel#omrss",
+        "title": "Vorbei an Baack: Yari Otto neuer Rekordspieler in Verl",
+        "summary": "Der SC Verl hat seit dem vergangenen Wochenende einen neuen Rekordspieler in seinen Reihen.",
+        "paragraphs": [
+          "Der SC Verl hat seit dem vergangenen Wochenende einen neuen Rekordspieler in seinen Reihen."
+        ],
+        "link": "https://www.kicker.de/vorbei-an-baack-yari-otto-neuer-rekordspieler-in-verl-1208279/artikel#omrss",
+        "category": "3. Liga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-07T13:03:16.000Z"
+      },
       {
         "id": "https://www.kicker.de/mitten-im-aufstiegsrennen-dfb-zieht-duisburgs-casar-aus-dem-verkehr-1207997/artikel#omrss",
         "title": "Mitten im Aufstiegsrennen: DFB zieht Duisburgs Casar aus dem Verkehr",
@@ -594,12 +686,12 @@
       },
       {
         "id": "db9e1453-88f8-447b-8ebd-6752dbe17c3d",
-        "title": "Tennis: Boris Becker erklärt seine Trainerkarriere für beendet",
+        "title": "Boris Becker erklärt seine Tennis-Trainerkarriere für beendet",
         "summary": "Er war als Spieler ein Weltstar und arbeitete später als Chefcoach von Novak Djokovic. Nun hat Boris Becker nach eigenen Angaben Anfragen für andere Trainerjobs abgesagt.",
         "paragraphs": [
           "Er war als Spieler ein Weltstar und arbeitete später als Chefcoach von Novak Djokovic. Nun hat Boris Becker nach eigenen Angaben Anfragen für andere Trainerjobs abgesagt."
         ],
-        "link": "https://www.spiegel.de/sport/tennis/tennis-boris-becker-erklaert-seine-trainerkarriere-fuer-beendet-a-db9e1453-88f8-447b-8ebd-6752dbe17c3d#ref=rss",
+        "link": "https://www.spiegel.de/sport/tennis/boris-becker-erklaert-seine-tennis-trainerkarriere-fuer-beendet-a-db9e1453-88f8-447b-8ebd-6752dbe17c3d#ref=rss",
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-04-07T11:25:00.000Z"
@@ -627,102 +719,6 @@
         "category": "Basketball",
         "source": "Kicker",
         "publishedAt": "2026-04-07T11:02:03.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/spielt-hsv-leihgabe-sahiti-nie-mehr-fuer-maccabi-tel-aviv-1208238/artikel#omrss",
-        "title": "Spielt HSV-Leihgabe Sahiti nie mehr für Maccabi Tel Aviv?",
-        "summary": "Erst im Winter ließ sich HSV-Profi Emir Sahiti an den israelischen Klub Maccabi Tel Aviv verleihen. Aus Sicherheitsgründen hat er das Land aber bereits wieder verlassen. Ob er überhaupt noch einmal zurückkehren wird, ist äußerst fraglich.",
-        "paragraphs": [
-          "Erst im Winter ließ sich HSV-Profi Emir Sahiti an den israelischen Klub Maccabi Tel Aviv verleihen. Aus Sicherheitsgründen hat er das Land aber bereits wieder verlassen. Ob er überhaupt noch einmal zurückkehren wird, ist äußerst fraglich."
-        ],
-        "link": "https://www.kicker.de/spielt-hsv-leihgabe-sahiti-nie-mehr-fuer-maccabi-tel-aviv-1208238/artikel#omrss",
-        "category": "Deila",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T11:01:55.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/marathon-wm-ab-2030-als-eigenes-titelrennen-1208247/artikel#omrss",
-        "title": "Marathon-WM ab 2030 als eigenes Titelrennen",
-        "summary": "Die Marathonläufer ermitteln ihre Weltmeister von 2030 an jährlich in einer eigenständigen Meisterschaft und nicht mehr im Rahmen der Leichtathletik-WM.",
-        "paragraphs": [
-          "Die Marathonläufer ermitteln ihre Weltmeister von 2030 an jährlich in einer eigenständigen Meisterschaft und nicht mehr im Rahmen der Leichtathletik-WM."
-        ],
-        "link": "https://www.kicker.de/marathon-wm-ab-2030-als-eigenes-titelrennen-1208247/artikel#omrss",
-        "category": "Leichtathletik",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T10:55:40.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/becker-ueber-seine-zukunft-meine-zeit-als-trainer-ist-vorbei-1208239/artikel#omrss",
-        "title": "Becker über seine Zukunft: \"Meine Zeit als Trainer ist vorbei\"",
-        "summary": "Boris Becker will nicht mehr als Tennis-Trainer arbeiten. Stattdessen setzt er auf neue berufliche Ziele und mehr Zeit für die Familie.",
-        "paragraphs": [
-          "Boris Becker will nicht mehr als Tennis-Trainer arbeiten. Stattdessen setzt er auf neue berufliche Ziele und mehr Zeit für die Familie."
-        ],
-        "link": "https://www.kicker.de/becker-ueber-seine-zukunft-meine-zeit-als-trainer-ist-vorbei-1208239/artikel#omrss",
-        "category": "Tennis",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T10:39:13.000Z"
-      },
-      {
-        "id": "8f748d3b-6655-4651-bfbf-a6d06ebfa9f5",
-        "title": "Eberhard Riedel: Erfolgreichster DDR-Skirennläufer gestorben",
-        "summary": "Er nahm dreimal an Olympischen Spielen teil und soll DDR-Staatschef Walter Ulbricht das Skifahren beigebracht haben: Nun ist der Skirennläufer Eberhard Riedel im Alter von 88 Jahren gestorben.",
-        "paragraphs": [
-          "Er nahm dreimal an Olympischen Spielen teil und soll DDR-Staatschef Walter Ulbricht das Skifahren beigebracht haben: Nun ist der Skirennläufer Eberhard Riedel im Alter von 88 Jahren gestorben."
-        ],
-        "link": "https://www.spiegel.de/sport/wintersport/eberhard-riedel-erfolgreichster-ddr-skirennlaeufer-gestorben-a-8f748d3b-6655-4651-bfbf-a6d06ebfa9f5#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-07T10:38:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/immer-ein-riesengrosser-verzicht-testroet-schlaegt-das-kapitel-sandhausen-zu-1208231/artikel#omrss",
-        "title": "\"Immer ein riesengroßer Verzicht\": Testroet schlägt das Kapitel Sandhausen zu",
-        "summary": "Inmitten einer weiteren sportlichen Dürreperiode muss der SV Sandhausen auch den bevorstehenden Abschied seines Kapitäns und Torjägers Pascal Testroet verdauen. Den 152-maligen Zweitliga-Profi bewegen private Gründe aus dem Hardtwald weg.",
-        "paragraphs": [
-          "Inmitten einer weiteren sportlichen Dürreperiode muss der SV Sandhausen auch den bevorstehenden Abschied seines Kapitäns und Torjägers Pascal Testroet verdauen. Den 152-maligen Zweitliga-Profi bewegen private Gründe aus dem Hardtwald weg."
-        ],
-        "link": "https://www.kicker.de/immer-ein-riesengrosser-verzicht-testroet-schlaegt-das-kapitel-sandhausen-zu-1208231/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T10:37:38.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/braunschweiger-pragmatismus-wir-nehmen-was-wir-kriegen-koennen-1208212/artikel#omrss",
-        "title": "Braunschweiger Pragmatismus: \"Wir nehmen, was wir kriegen können\"",
-        "summary": "Braunschweigs Coach Lars Kornetka hatte seine Unzufriedenheit über die Spielweise seines Teams in der Pause klar zum Ausdruck gebracht. Mit Erfolg, fast hätte es für die Eintracht gegen Nürnberg noch zum Sieg gereicht.",
-        "paragraphs": [
-          "Braunschweigs Coach Lars Kornetka hatte seine Unzufriedenheit über die Spielweise seines Teams in der Pause klar zum Ausdruck gebracht. Mit Erfolg, fast hätte es für die Eintracht gegen Nürnberg noch zum Sieg gereicht."
-        ],
-        "link": "https://www.kicker.de/braunschweiger-pragmatismus-wir-nehmen-was-wir-kriegen-koennen-1208212/artikel#omrss",
-        "category": "2. Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T10:23:08.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/aufschwung-unter-carrick-maguire-bleibt-bei-manchester-united-1208216/artikel#omrss",
-        "title": "Aufschwung unter Carrick: Maguire bleibt bei Manchester United",
-        "summary": "In den vergangenen Jahren kriselte es in der Beziehung zwischen Manchester United und Harry Maguire des Öfteren, doch unter Michael Carrick blüht der 33-Jährige auf. Der Lohn folgte in Form eines neuen Vertrags.",
-        "paragraphs": [
-          "In den vergangenen Jahren kriselte es in der Beziehung zwischen Manchester United und Harry Maguire des Öfteren, doch unter Michael Carrick blüht der 33-Jährige auf. Der Lohn folgte in Form eines neuen Vertrags."
-        ],
-        "link": "https://www.kicker.de/aufschwung-unter-carrick-maguire-bleibt-bei-manchester-united-1208216/artikel#omrss",
-        "category": "Carrick",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T10:22:49.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/keine-verlaengerung-frankfurt-macht-dahoud-abgang-offiziell-1208222/artikel#omrss",
-        "title": "Keine Verlängerung: Frankfurt macht Dahoud-Abgang offiziell",
-        "summary": "Mahmoud Dahoud und Eintracht Frankfurt gehen nach der laufenden Saison getrennte Wege. Es könnte der erste von einigen Abgängen im Mittelfeld sein.",
-        "paragraphs": [
-          "Mahmoud Dahoud und Eintracht Frankfurt gehen nach der laufenden Saison getrennte Wege. Es könnte der erste von einigen Abgängen im Mittelfeld sein."
-        ],
-        "link": "https://www.kicker.de/keine-verlaengerung-frankfurt-macht-dahoud-abgang-offiziell-1208222/artikel#omrss",
-        "category": "Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-07T10:17:06.000Z"
       }
     ],
     "edv": [
@@ -739,16 +735,16 @@
         "publishedAt": "2026-04-04T08:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Anthropic-will-ueber-3-5-Gigawatt-Rechenkapazitaet-mit-Googles-TPUs-11247289.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Anthropic will über 3,5 Gigawatt Rechenkapazität mit Googles TPUs",
-        "summary": "Google findet mit Anthropic einen Großabnehmer für die eigenen KI-Beschleuniger. Broadcom hilft bis mindestens 2031 bei der weiteren Entwicklung.",
+        "id": "https://www.heise.de/news/GPUBreach-Systemuebernahme-mit-Bitflips-in-der-Nvidia-GPU-11247207.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„GPUBreach“: Systemübernahme mit Bitflips in der Nvidia-GPU",
+        "summary": "Rowhammer-Angriffe auf GPUs können nicht nur Daten zerstören, sondern auch zur Ausweitung der Rechte missbraucht werden.",
         "paragraphs": [
-          "Google findet mit Anthropic einen Großabnehmer für die eigenen KI-Beschleuniger. Broadcom hilft bis mindestens 2031 bei der weiteren Entwicklung."
+          "Rowhammer-Angriffe auf GPUs können nicht nur Daten zerstören, sondern auch zur Ausweitung der Rechte missbraucht werden."
         ],
-        "link": "https://www.heise.de/news/Anthropic-will-ueber-3-5-Gigawatt-Rechenkapazitaet-mit-Googles-TPUs-11247289.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/GPUBreach-Systemuebernahme-mit-Bitflips-in-der-Nvidia-GPU-11247207.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:42:00.000Z"
+        "publishedAt": "2026-04-07T12:56:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Schnelles-Heimnetz-fuer-Glasfaser-Co-c-t-uplink-11244825.html",
@@ -763,16 +759,16 @@
         "publishedAt": "2026-04-04T04:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Vera-C-Rubin-Observatory-findet-11-000-neue-Asteroiden-im-Sonnensystem-11247176.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Vera C. Rubin Observatory findet 11.000 neue Asteroiden im Sonnensystem",
-        "summary": "Das Rubin Observatory hat erneut seine Leistungsfähigkeit gezeigt und 11.000 neue Himmelskörper im Sonnensystem entdeckt. Astronomen erwarten weitere Funde.",
+        "id": "https://www.heise.de/news/Anthropic-will-ueber-3-5-Gigawatt-Rechenkapazitaet-mit-Googles-TPUs-11247289.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Anthropic will über 3,5 Gigawatt Rechenkapazität mit Googles TPUs",
+        "summary": "Google findet mit Anthropic einen Großabnehmer für die eigenen KI-Beschleuniger. Broadcom hilft bis mindestens 2031 bei der weiteren Entwicklung.",
         "paragraphs": [
-          "Das Rubin Observatory hat erneut seine Leistungsfähigkeit gezeigt und 11.000 neue Himmelskörper im Sonnensystem entdeckt. Astronomen erwarten weitere Funde."
+          "Google findet mit Anthropic einen Großabnehmer für die eigenen KI-Beschleuniger. Broadcom hilft bis mindestens 2031 bei der weiteren Entwicklung."
         ],
-        "link": "https://www.heise.de/news/Vera-C-Rubin-Observatory-findet-11-000-neue-Asteroiden-im-Sonnensystem-11247176.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Anthropic-will-ueber-3-5-Gigawatt-Rechenkapazitaet-mit-Googles-TPUs-11247289.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:39:00.000Z"
+        "publishedAt": "2026-04-07T12:42:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Sind-OLEDs-jetzt-komplett-unproblematisch-c-t-3003-11245290.html",
@@ -787,16 +783,16 @@
         "publishedAt": "2026-04-03T14:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Rust-Coreutils-0-8-Schneller-sicherer-und-jetzt-auch-im-Browser-11247239.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Rust Coreutils 0.8: Schneller, sicherer – und jetzt auch im Browser",
-        "summary": "Die Rust-Neuimplementierung der GNU Coreutils wird schneller, läuft im Browser und sichert Systemaufrufe besser ab. Was Version 0.8 im Detail bringt.",
+        "id": "https://www.heise.de/news/Vera-C-Rubin-Observatory-findet-11-000-neue-Asteroiden-im-Sonnensystem-11247176.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Vera C. Rubin Observatory findet 11.000 neue Asteroiden im Sonnensystem",
+        "summary": "Das Rubin Observatory hat erneut seine Leistungsfähigkeit gezeigt und 11.000 neue Himmelskörper im Sonnensystem entdeckt. Astronomen erwarten weitere Funde.",
         "paragraphs": [
-          "Die Rust-Neuimplementierung der GNU Coreutils wird schneller, läuft im Browser und sichert Systemaufrufe besser ab. Was Version 0.8 im Detail bringt."
+          "Das Rubin Observatory hat erneut seine Leistungsfähigkeit gezeigt und 11.000 neue Himmelskörper im Sonnensystem entdeckt. Astronomen erwarten weitere Funde."
         ],
-        "link": "https://www.heise.de/news/Rust-Coreutils-0-8-Schneller-sicherer-und-jetzt-auch-im-Browser-11247239.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Vera-C-Rubin-Observatory-findet-11-000-neue-Asteroiden-im-Sonnensystem-11247176.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:38:00.000Z"
+        "publishedAt": "2026-04-07T12:39:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Desolate-FCC-Vorgabe-Freedom-Router-fuer-US-Verbraucher-11241349.html",
@@ -811,16 +807,16 @@
         "publishedAt": "2026-04-03T05:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Spritpreise-Diesel-knackt-2-50-Euro-Marke-11247231.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Diesel erstmals über 2,50 Euro – Bauern warnen",
-        "summary": "Diesel hat erstmals im bundesweiten Durchschnitt mehr als 2,50 Euro gekostet. Bauernpräsident Rukwied sieht die Versorgungssicherheit in Gefahr.",
+        "id": "https://www.heise.de/news/Rust-Coreutils-0-8-Schneller-sicherer-und-jetzt-auch-im-Browser-11247239.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Rust Coreutils 0.8: Von nix zu rustix – und dd legt 45 Prozent zu",
+        "summary": "Die Rust-Neuimplementierung der GNU Coreutils wird schneller, läuft im Browser und sichert Systemaufrufe besser ab. Was Version 0.8 im Detail bringt.",
         "paragraphs": [
-          "Diesel hat erstmals im bundesweiten Durchschnitt mehr als 2,50 Euro gekostet. Bauernpräsident Rukwied sieht die Versorgungssicherheit in Gefahr."
+          "Die Rust-Neuimplementierung der GNU Coreutils wird schneller, läuft im Browser und sichert Systemaufrufe besser ab. Was Version 0.8 im Detail bringt."
         ],
-        "link": "https://www.heise.de/news/Spritpreise-Diesel-knackt-2-50-Euro-Marke-11247231.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Rust-Coreutils-0-8-Schneller-sicherer-und-jetzt-auch-im-Browser-11247239.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:14:00.000Z"
+        "publishedAt": "2026-04-07T12:38:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-156-Datenschutz-Dauerbrenner-Microsoft-365-11244970.html",
@@ -835,16 +831,16 @@
         "publishedAt": "2026-04-03T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11203378.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Microsoft 365 sicher einrichten und datenschutzkonform betreiben",
-        "summary": "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen.",
+        "id": "https://www.heise.de/news/Spritpreise-Diesel-knackt-2-50-Euro-Marke-11247231.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Diesel erstmals über 2,50 Euro – Bauern warnen",
+        "summary": "Diesel hat erstmals im bundesweiten Durchschnitt mehr als 2,50 Euro gekostet. Bauernpräsident Rukwied sieht die Versorgungssicherheit in Gefahr.",
         "paragraphs": [
-          "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen."
+          "Diesel hat erstmals im bundesweiten Durchschnitt mehr als 2,50 Euro gekostet. Bauernpräsident Rukwied sieht die Versorgungssicherheit in Gefahr."
         ],
-        "link": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11203378.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Spritpreise-Diesel-knackt-2-50-Euro-Marke-11247231.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T12:00:00.000Z"
+        "publishedAt": "2026-04-07T12:14:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Blick-ins-Heft-c-t-08-2026-PC-Schnaeppchen-und-gute-Gebrauchte-11243832.html",
@@ -859,16 +855,16 @@
         "publishedAt": "2026-04-02T09:27:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Zahlen-bitte-Artemis-2-406-771-Kilometer-abseits-der-Erde-am-Mond-vorbei-11246728.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Zahlen, bitte! Artemis 2: 406.771 Kilometer abseits der Erde am Mond vorbei",
-        "summary": "Artemis 2 stellt einen Rekord von Apollo 13 ein: So weit entfernt von der Erde waren noch keine Menschen zuvor. Entscheidend dafür ist europäische Technik.",
+        "id": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11203378.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Microsoft 365 sicher einrichten und datenschutzkonform betreiben",
+        "summary": "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen.",
         "paragraphs": [
-          "Artemis 2 stellt einen Rekord von Apollo 13 ein: So weit entfernt von der Erde waren noch keine Menschen zuvor. Entscheidend dafür ist europäische Technik."
+          "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen."
         ],
-        "link": "https://www.heise.de/hintergrund/Zahlen-bitte-Artemis-2-406-771-Kilometer-abseits-der-Erde-am-Mond-vorbei-11246728.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11203378.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T11:45:00.000Z"
+        "publishedAt": "2026-04-07T12:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Podcast-They-Talk-Tech-Frauen-werden-aus-der-Oeffentlichkeit-gedraengt-11243353.html",
@@ -883,16 +879,16 @@
         "publishedAt": "2026-04-01T12:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/BlueHammer-Zero-Day-Luecke-in-Windows-verschafft-erhoehte-Rechte-11246762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„BlueHammer“: Zero-Day-Lücke in Windows verschafft erhöhte Rechte",
-        "summary": "Windows weist eine Zero-Day-Lücke auf, durch die Angreifer ihre Rechte ausweiten können. Ein Patch steht noch nicht bereit.",
+        "id": "https://www.heise.de/hintergrund/Zahlen-bitte-Artemis-2-406-771-Kilometer-abseits-der-Erde-am-Mond-vorbei-11246728.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Zahlen, bitte! Artemis 2: 406.771 Kilometer abseits der Erde am Mond vorbei",
+        "summary": "Artemis 2 stellt einen Rekord von Apollo 13 ein: So weit entfernt von der Erde waren noch keine Menschen zuvor. Entscheidend dafür ist europäische Technik.",
         "paragraphs": [
-          "Windows weist eine Zero-Day-Lücke auf, durch die Angreifer ihre Rechte ausweiten können. Ein Patch steht noch nicht bereit."
+          "Artemis 2 stellt einen Rekord von Apollo 13 ein: So weit entfernt von der Erde waren noch keine Menschen zuvor. Entscheidend dafür ist europäische Technik."
         ],
-        "link": "https://www.heise.de/news/BlueHammer-Zero-Day-Luecke-in-Windows-verschafft-erhoehte-Rechte-11246762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/hintergrund/Zahlen-bitte-Artemis-2-406-771-Kilometer-abseits-der-Erde-am-Mond-vorbei-11246728.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-07T11:37:00.000Z"
+        "publishedAt": "2026-04-07T11:45:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-Mathe-entdecken-mit-Tabellenkalkulationen-11161719.html",
@@ -905,6 +901,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-01T08:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/BlueHammer-Zero-Day-Luecke-in-Windows-verschafft-erhoehte-Rechte-11246762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„BlueHammer“: Zero-Day-Lücke in Windows verschafft erhöhte Rechte",
+        "summary": "Windows weist eine Zero-Day-Lücke auf, durch die Angreifer ihre Rechte ausweiten können. Ein Patch steht noch nicht bereit.",
+        "paragraphs": [
+          "Windows weist eine Zero-Day-Lücke auf, durch die Angreifer ihre Rechte ausweiten können. Ein Patch steht noch nicht bereit."
+        ],
+        "link": "https://www.heise.de/news/BlueHammer-Zero-Day-Luecke-in-Windows-verschafft-erhoehte-Rechte-11246762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-07T11:37:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/JSON-Alexander-Syntax-Highlighting-und-Baumdarstellung-im-Browser-11246718.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -953,18 +961,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-07T09:45:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Suno-So-leicht-lassen-sich-Copyright-Sperren-bei-KI-Musik-umgehen-11246792.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Suno: So leicht lassen sich Copyright-Sperren bei KI-Musik umgehen",
-        "summary": "Die KI-Musikplattform Suno soll eigentlich verhindern, dass geschützte Songs genutzt werden – doch genau das gelingt offenbar nur unzureichend.",
-        "paragraphs": [
-          "Die KI-Musikplattform Suno soll eigentlich verhindern, dass geschützte Songs genutzt werden – doch genau das gelingt offenbar nur unzureichend."
-        ],
-        "link": "https://www.heise.de/news/Suno-So-leicht-lassen-sich-Copyright-Sperren-bei-KI-Musik-umgehen-11246792.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-07T08:56:00.000Z"
       }
     ]
   }
