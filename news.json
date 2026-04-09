@@ -1,13 +1,25 @@
 {
-  "updatedAt": "2026-04-09T08:36:50.967Z",
+  "updatedAt": "2026-04-09T09:04:33.176Z",
   "categories": {
     "wirtschaft": [
       {
-        "id": "0ff3fd10-7a19-4b88-9f59-36f4b73960c7",
-        "title": "EU-Preisvergleich: Benzinpreis in Deutschland steigt stärker",
-        "summary": "In Deutschland sind Kraftstoffe zuletzt schneller teurer geworden als in vielen Nachbarländern. Ökonomen rechnen vorerst nicht mit niedrigeren Preisen - und der Bundeskanzler ist wohl offen für eine höhere Pendlerpauschale.",
+        "id": "cf272d64-eda8-492b-b60a-708cd486504b",
+        "title": "Marktbericht: Zweifel an Waffenruhe drücken die Kurse",
+        "summary": "Es gibt Zweifel daran, dass der zwischen USA und Iran geschlossene Waffenstillstand hält. Das lässt die Ölpreise wieder steigen und die Aktienkurse sinken.",
         "paragraphs": [
-          "In Deutschland sind Kraftstoffe zuletzt schneller teurer geworden als in vielen Nachbarländern. Ökonomen rechnen vorerst nicht mit niedrigeren Preisen - und der Bundeskanzler ist wohl offen für eine höhere Pendlerpauschale."
+          "Es gibt Zweifel daran, dass der zwischen USA und Iran geschlossene Waffenstillstand hält. Das lässt die Ölpreise wieder steigen und die Aktienkurse sinken."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-katerstimmung-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-09T08:41:24.000Z"
+      },
+      {
+        "id": "0ff3fd10-7a19-4b88-9f59-36f4b73960c7",
+        "title": "EU-Preisvergleich: Benzinpreis steigt in Deutschland stärker",
+        "summary": "In Deutschland ist Benzin zuletzt schneller teurer geworden als in vielen Nachbarländern. Das zeigen neueste Daten der EU-Kommission. Ökonomen rechnen vorerst nicht mit niedrigeren Preisen.",
+        "paragraphs": [
+          "In Deutschland ist Benzin zuletzt schneller teurer geworden als in vielen Nachbarländern. Das zeigen neueste Daten der EU-Kommission. Ökonomen rechnen vorerst nicht mit niedrigeren Preisen."
         ],
         "link": "https://www.tagesschau.de/wirtschaft/verbraucher/benzinpreis-deutschland-preisvergleich-merz-100.html",
         "category": null,
@@ -17,9 +29,9 @@
       {
         "id": "https://www.n-tv.de/wirtschaft/Unternehmen-exportieren-mehr-und-produzieren-weniger-id30694655.html",
         "title": "Ministerium: Tendenz positiv: Unternehmen exportieren mehr - und produzieren weniger",
-        "summary": "\"Made in Germany\" war im Februar unerwartet stark gefragt. Wichtigster Handelspartner ist einmal mehr die EU. Auf dem US-Handel lastet weiter die Zölle. Überraschend drosseln die Betriebe allerdings die Herstellung. Und das schon vor Beginn des Nahost-Krieges.",
+        "summary": "\"Made in Germany\" war im Februar unerwartet stark gefragt. Wichtigster Handelspartner ist einmal mehr die EU. Auf dem US-Handel lasten weiter die Zölle. Überraschend drosseln die Betriebe allerdings die Herstellung. Und das schon vor Beginn des Nahost-Krieges.",
         "paragraphs": [
-          "\"Made in Germany\" war im Februar unerwartet stark gefragt. Wichtigster Handelspartner ist einmal mehr die EU. Auf dem US-Handel lastet weiter die Zölle. Überraschend drosseln die Betriebe allerdings die Herstellung. Und das schon vor Beginn des Nahost-Krieges."
+          "\"Made in Germany\" war im Februar unerwartet stark gefragt. Wichtigster Handelspartner ist einmal mehr die EU. Auf dem US-Handel lasten weiter die Zölle. Überraschend drosseln die Betriebe allerdings die Herstellung. Und das schon vor Beginn des Nahost-Krieges."
         ],
         "link": "https://www.n-tv.de/wirtschaft/Unternehmen-exportieren-mehr-und-produzieren-weniger-id30694655.html",
         "category": "Wirtschaft",
@@ -37,18 +49,6 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-09T07:20:45.000Z"
-      },
-      {
-        "id": "cf272d64-eda8-492b-b60a-708cd486504b",
-        "title": "Marktbericht: Katerstimmung nach der Party",
-        "summary": "Nach den Kursgewinnen am Mittwoch macht sich an den Börsen Ernüchterung breit. Es wächst die Erkenntnis, dass es lange dauern wird, bis die Nahost-Region zu einer gewissen \"Normalität\" finden wird.",
-        "paragraphs": [
-          "Nach den Kursgewinnen am Mittwoch macht sich an den Börsen Ernüchterung breit. Es wächst die Erkenntnis, dass es lange dauern wird, bis die Nahost-Region zu einer gewissen \"Normalität\" finden wird."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-katerstimmung-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-09T05:28:09.000Z"
       },
       {
         "id": "https://www.n-tv.de/wirtschaft/Wirtschaftsweiser-Tankstellenpreise-unter-zwei-Euro-illusorisch-id30694235.html",
@@ -483,6 +483,30 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/der-kampf-um-die-platzierungen-direkte-duelle-szenarien-und-tiebreaker-1208801/artikel#omrss",
+        "title": "Der Kampf um die Platzierungen: Direkte Duelle, Szenarien und Tiebreaker",
+        "summary": "Die NBA-Regular-Season biegt auf die Zielgerade ein - und in beiden Conferences ist noch längst nicht alles entschieden. Während einige Platzierungen bereits feststehen, kämpfen zahlreiche Teams noch um Heimvorteil, direkte Playoff-Tickets oder eine bessere Ausgangslage im Play-In. Besonders im Osten ist die Lage unübersichtlich: Mehrere Teams liegen eng beieinander, direkte Duelle und komplizierte Tiebreaker könnten am Ende über die finalen Plätze entscheiden.",
+        "paragraphs": [
+          "Die NBA-Regular-Season biegt auf die Zielgerade ein - und in beiden Conferences ist noch längst nicht alles entschieden. Während einige Platzierungen bereits feststehen, kämpfen zahlreiche Teams noch um Heimvorteil, direkte Playoff-Tickets oder eine bessere Ausgangslage im Play-In. Besonders im Osten ist die Lage unübersichtlich: Mehrere Teams liegen eng beieinander, direkte Duelle und komplizierte Tiebreaker könnten am Ende über die finalen Plätze entscheiden."
+        ],
+        "link": "https://www.kicker.de/der-kampf-um-die-platzierungen-direkte-duelle-szenarien-und-tiebreaker-1208801/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-09T08:45:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/die-adeyemi-frage-in-schlotterbecks-schatten-1208464/artikel#omrss",
+        "title": "Die Adeyemi-Frage in Schlotterbecks Schatten",
+        "summary": "Auch wenn die Personalie Nico Schlotterbeck bei Borussia Dortmund im Fokus steht: Die Zukunft von Karim Adeyemi beim BVB dürfte sich ebenfalls bis zum Sommer klären.",
+        "paragraphs": [
+          "Auch wenn die Personalie Nico Schlotterbeck bei Borussia Dortmund im Fokus steht: Die Zukunft von Karim Adeyemi beim BVB dürfte sich ebenfalls bis zum Sommer klären."
+        ],
+        "link": "https://www.kicker.de/die-adeyemi-frage-in-schlotterbecks-schatten-1208464/artikel#omrss",
+        "category": "Adeyemi",
+        "source": "Kicker",
+        "publishedAt": "2026-04-09T08:41:14.000Z"
+      },
+      {
         "id": "https://www.kicker.de/muss-uluc-jena-bereits-im-sommer-verlassen-trainer-und-verein-schweigen-1208816/artikel#omrss",
         "title": "Muss Uluc Jena bereits im Sommer verlassen? Trainer und Verein schweigen",
         "summary": "Volkan Uluc steht nach einem Medienbericht im Sommer vor dem Aus beim FC Carl Zeiss Jena. Weder Trainer noch Verein wollten sich am Mittwoch nach dem Sieg gegen den FSV Zwickau äußern.",
@@ -508,7 +532,7 @@
       },
       {
         "id": "https://www.kicker.de/toluca-gegen-la-galaxy-2026-concacaf-champions-league-5197153/spielbericht#omrss",
-        "title": "Trotz Tor und Vorlage von Joker Reus: LA Galaxy vor dem Aus im Champions Cup",
+        "title": "Trotz Tor und Vorlage von Joker Reus: LA Galaxy vor Aus im Champions Cup",
         "summary": "Marco Reus und LA Galaxy stehen im CONCACAF Champions Cup vor dem Aus im Viertelfinale. In der Nacht auf Donnerstag verlor die Mannschaft um den ehemaligen Nationalspieler mit 2:4 in Toluca, obwohl Reus als Joker mit einem Tor und einer Vorlage zwischenzeitlich noch einmal die Comeback-Hoffnungen schürte.",
         "paragraphs": [
           "Marco Reus und LA Galaxy stehen im CONCACAF Champions Cup vor dem Aus im Viertelfinale. In der Nacht auf Donnerstag verlor die Mannschaft um den ehemaligen Nationalspieler mit 2:4 in Toluca, obwohl Reus als Joker mit einem Tor und einer Vorlage zwischenzeitlich noch einmal die Comeback-Hoffnungen schürte."
@@ -517,18 +541,6 @@
         "category": "CONCACAF Champions Cup",
         "source": "Kicker",
         "publishedAt": "2026-04-09T08:22:49.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nba-draft-reform-konkreter-anti-tanking-vorschlag-gewinnt-an-fahrt-1208800/artikel#omrss",
-        "title": "NBA-Draft-Reform: Konkreter Anti-Tanking-Vorschlag gewinnt an Fahrt",
-        "summary": "Die NBA konkretisiert ihre Pläne im Kampf gegen Tanking. Ein neuer Vorschlag zur Reform der Draft Lottery gewinnt intern offenbar an Zustimmung.",
-        "paragraphs": [
-          "Die NBA konkretisiert ihre Pläne im Kampf gegen Tanking. Ein neuer Vorschlag zur Reform der Draft Lottery gewinnt intern offenbar an Zustimmung."
-        ],
-        "link": "https://www.kicker.de/nba-draft-reform-konkreter-anti-tanking-vorschlag-gewinnt-an-fahrt-1208800/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-09T08:15:00.000Z"
       },
       {
         "id": "63a29829-5300-45e2-a718-3031c1de85b7",
@@ -709,18 +721,6 @@
         "category": "Atlanta Hawks",
         "source": "Kicker",
         "publishedAt": "2026-04-09T04:50:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/orlando-gegen-minnesota-2026-nba-5160794/spielbericht#omrss",
-        "title": "Deutsche liefern für Orlando: Magic setzen sich gegen T-Wolves durch",
-        "summary": "Die Orlando Magic bleiben heiß im Rennen um die Playoff-Plätze - und bekommen dabei auch Unterstützung aus deutscher Sicht. Gegen Minnesota zeigt das Team eine geschlossene Leistung und feiert den nächsten wichtigen Sieg.",
-        "paragraphs": [
-          "Die Orlando Magic bleiben heiß im Rennen um die Playoff-Plätze - und bekommen dabei auch Unterstützung aus deutscher Sicht. Gegen Minnesota zeigt das Team eine geschlossene Leistung und feiert den nächsten wichtigen Sieg."
-        ],
-        "link": "https://www.kicker.de/orlando-gegen-minnesota-2026-nba-5160794/spielbericht#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-09T04:15:00.000Z"
       }
     ],
     "edv": [
@@ -737,16 +737,16 @@
         "publishedAt": "2026-04-09T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Chrome-Vertikale-Tabs-und-verbesserter-Lesemodus-11249938.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Google bringt vertikale Tabs in Chrome",
-        "summary": "Google Chrome führt schrittweise vertikale Tabs und einen überarbeiteten Lesemodus ein. Firefox-Nutzer kennen beides schon länger.",
+        "id": "https://www.heise.de/news/GoPro-unter-Druck-Hersteller-streicht-rund-ein-Viertel-der-Stellen-11250049.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "GoPro unter Druck: Hersteller streicht rund ein Viertel der Stellen",
+        "summary": "Sinkende Umsätze und steigende Betriebskosten machen GoPro zu schaffen. Rund ein Viertel der Arbeitsplätze soll im Zuge einer Restrukturierung wegfallen.",
         "paragraphs": [
-          "Google Chrome führt schrittweise vertikale Tabs und einen überarbeiteten Lesemodus ein. Firefox-Nutzer kennen beides schon länger."
+          "Sinkende Umsätze und steigende Betriebskosten machen GoPro zu schaffen. Rund ein Viertel der Arbeitsplätze soll im Zuge einer Restrukturierung wegfallen."
         ],
-        "link": "https://www.heise.de/news/Chrome-Vertikale-Tabs-und-verbesserter-Lesemodus-11249938.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/GoPro-unter-Druck-Hersteller-streicht-rund-ein-Viertel-der-Stellen-11250049.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T08:08:00.000Z"
+        "publishedAt": "2026-04-09T08:55:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Memflation-Guenstigeres-RAM-gibt-es-erst-wieder-ab-2028-meint-Gartner-11249507.html",
@@ -761,16 +761,16 @@
         "publishedAt": "2026-04-08T15:55:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Medizintechnik-Konferenz-MedConf-Jetzt-noch-zum-Early-Bird-Preis-buchen-11248478.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: Medizintechnik-Konferenz MedConf: Jetzt noch zum Early-Bird-Preis buchen",
-        "summary": "Die wichtigste deutschsprachige Konferenz zur Entwicklung von Medizintechnik findet im Mai in München statt. Noch sind Tickets mit Frühbucher-Rabatt verfügbar.",
+        "id": "https://www.heise.de/news/Eclipse-hawkBit-1-0-Backend-fuer-IoT-Updates-erreicht-Produktionsreife-11249828.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Eclipse hawkBit 1.0: Backend für IoT-Updates erreicht Produktionsreife",
+        "summary": "Eclipse hawkBit 1.0 ist da und gilt als produktionsreifes Backend für OTA-Updates von IoT-Geräten mit stabilen APIs für den operativen Einsatz.",
         "paragraphs": [
-          "Die wichtigste deutschsprachige Konferenz zur Entwicklung von Medizintechnik findet im Mai in München statt. Noch sind Tickets mit Frühbucher-Rabatt verfügbar."
+          "Eclipse hawkBit 1.0 ist da und gilt als produktionsreifes Backend für OTA-Updates von IoT-Geräten mit stabilen APIs für den operativen Einsatz."
         ],
-        "link": "https://www.heise.de/news/Medizintechnik-Konferenz-MedConf-Jetzt-noch-zum-Early-Bird-Preis-buchen-11248478.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Eclipse-hawkBit-1-0-Backend-fuer-IoT-Updates-erreicht-Produktionsreife-11249828.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T08:00:00.000Z"
+        "publishedAt": "2026-04-09T08:29:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Ausgerechnet-jetzt-Suendteure-8-Terabyte-Version-der-Samsung-SSD-870-Evo-11249342.html",
@@ -785,16 +785,16 @@
         "publishedAt": "2026-04-08T14:25:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Deutsche-Telekom-bietet-Starlink-Satelliteninternet-fuer-Grosskunden-an-11249918.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Deutsche Telekom bietet Starlink-Satelliteninternet für Großkunden an",
-        "summary": "Die Deutsche Telekom kooperiert mit Starlink, um Großkunden und Behörden satellitengestütztes Breitbandinternet als verwalteten Service anzubieten.",
+        "id": "https://www.heise.de/news/Chrome-Vertikale-Tabs-und-verbesserter-Lesemodus-11249938.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Google bringt vertikale Tabs in Chrome",
+        "summary": "Google Chrome führt schrittweise vertikale Tabs und einen überarbeiteten Lesemodus ein. Firefox-Nutzer kennen beides schon länger.",
         "paragraphs": [
-          "Die Deutsche Telekom kooperiert mit Starlink, um Großkunden und Behörden satellitengestütztes Breitbandinternet als verwalteten Service anzubieten."
+          "Google Chrome führt schrittweise vertikale Tabs und einen überarbeiteten Lesemodus ein. Firefox-Nutzer kennen beides schon länger."
         ],
-        "link": "https://www.heise.de/news/Deutsche-Telekom-bietet-Starlink-Satelliteninternet-fuer-Grosskunden-an-11249918.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Chrome-Vertikale-Tabs-und-verbesserter-Lesemodus-11249938.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T07:52:00.000Z"
+        "publishedAt": "2026-04-09T08:08:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/KI-Chip-Start-ups-Die-meisten-verschwinden-bis-2030-11248518.html",
@@ -809,16 +809,16 @@
         "publishedAt": "2026-04-08T09:34:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/VeraCrypt-und-WireGuard-Trubel-bezueglich-Treibersignierung-Loesung-in-Sicht-11249882.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "VeraCrypt und WireGuard: Trubel bezüglich Treibersignierung, Lösung in Sicht",
-        "summary": "Die Microsoft-Konten für die Entwickler von VeraCrypt und WireGuard wurden gesperrt. Das verhinderte Updates – die Lösung ist in Sicht.",
+        "id": "https://www.heise.de/news/Medizintechnik-Konferenz-MedConf-Jetzt-noch-zum-Early-Bird-Preis-buchen-11248478.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: Medizintechnik-Konferenz MedConf: Jetzt noch zum Early-Bird-Preis buchen",
+        "summary": "Die wichtigste deutschsprachige Konferenz zur Entwicklung von Medizintechnik findet im Mai in München statt. Noch sind Tickets mit Frühbucher-Rabatt verfügbar.",
         "paragraphs": [
-          "Die Microsoft-Konten für die Entwickler von VeraCrypt und WireGuard wurden gesperrt. Das verhinderte Updates – die Lösung ist in Sicht."
+          "Die wichtigste deutschsprachige Konferenz zur Entwicklung von Medizintechnik findet im Mai in München statt. Noch sind Tickets mit Frühbucher-Rabatt verfügbar."
         ],
-        "link": "https://www.heise.de/news/VeraCrypt-und-WireGuard-Trubel-bezueglich-Treibersignierung-Loesung-in-Sicht-11249882.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Medizintechnik-Konferenz-MedConf-Jetzt-noch-zum-Early-Bird-Preis-buchen-11248478.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T07:39:00.000Z"
+        "publishedAt": "2026-04-09T08:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Weshalb-und-wo-Magnetband-weiterlebt-11202566.html",
@@ -833,16 +833,16 @@
         "publishedAt": "2026-04-08T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Cloudflare-will-bis-2029-vollstaendig-quantensicher-sein-11249860.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Cloudflare will bis 2029 vollständig quantensicher sein",
-        "summary": "Cloudflare forciert die Umstellung auf Post-Quantum-Kryptografie und plant bis 2029 die vollständige Migration, inklusive Authentifizierung.",
+        "id": "https://www.heise.de/news/Deutsche-Telekom-bietet-Starlink-Satelliteninternet-fuer-Grosskunden-an-11249918.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Deutsche Telekom bietet Starlink-Satelliteninternet für Großkunden an",
+        "summary": "Die Deutsche Telekom kooperiert mit Starlink, um Großkunden und Behörden satellitengestütztes Breitbandinternet als verwalteten Service anzubieten.",
         "paragraphs": [
-          "Cloudflare forciert die Umstellung auf Post-Quantum-Kryptografie und plant bis 2029 die vollständige Migration, inklusive Authentifizierung."
+          "Die Deutsche Telekom kooperiert mit Starlink, um Großkunden und Behörden satellitengestütztes Breitbandinternet als verwalteten Service anzubieten."
         ],
-        "link": "https://www.heise.de/news/Cloudflare-will-bis-2029-vollstaendig-quantensicher-sein-11249860.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Deutsche-Telekom-bietet-Starlink-Satelliteninternet-fuer-Grosskunden-an-11249918.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T07:36:00.000Z"
+        "publishedAt": "2026-04-09T07:52:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Mikrocontroller-Marktfuehrer-aus-Europa-Infineon-NXP-und-STMicroelectronics-11247861.html",
@@ -857,16 +857,28 @@
         "publishedAt": "2026-04-07T17:13:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/1500-Watt-und-150-Nm-Neuer-DJI-Motor-verschiebt-E-Bike-Grenzen-11249910.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "1500 Watt und 150 Nm: Neuer DJI-Motor verschiebt E-Bike-Grenzen",
-        "summary": "DJI stellt die zweite Generation des Avinox-Motors vor. Dieser setzt Maßstäbe in Sachen Leistung und wird nicht nur in DJI-Rädern vorfahren.",
+        "id": "https://www.heise.de/news/VeraCrypt-und-WireGuard-Trubel-bezueglich-Treibersignierung-Loesung-in-Sicht-11249882.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "VeraCrypt und WireGuard: Trubel bezüglich Treibersignierung, Lösung in Sicht",
+        "summary": "Die Microsoft-Konten für die Entwickler von VeraCrypt und WireGuard wurden gesperrt. Das verhinderte Updates – die Lösung ist in Sicht.",
         "paragraphs": [
-          "DJI stellt die zweite Generation des Avinox-Motors vor. Dieser setzt Maßstäbe in Sachen Leistung und wird nicht nur in DJI-Rädern vorfahren."
+          "Die Microsoft-Konten für die Entwickler von VeraCrypt und WireGuard wurden gesperrt. Das verhinderte Updates – die Lösung ist in Sicht."
         ],
-        "link": "https://www.heise.de/news/1500-Watt-und-150-Nm-Neuer-DJI-Motor-verschiebt-E-Bike-Grenzen-11249910.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/VeraCrypt-und-WireGuard-Trubel-bezueglich-Treibersignierung-Loesung-in-Sicht-11249882.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T07:00:00.000Z"
+        "publishedAt": "2026-04-09T07:39:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Cloudflare-will-bis-2029-vollstaendig-quantensicher-sein-11249860.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Cloudflare will bis 2029 vollständig quantensicher sein",
+        "summary": "Cloudflare forciert die Umstellung auf Post-Quantum-Kryptografie und plant bis 2029 die vollständige Migration, inklusive Authentifizierung.",
+        "paragraphs": [
+          "Cloudflare forciert die Umstellung auf Post-Quantum-Kryptografie und plant bis 2029 die vollständige Migration, inklusive Authentifizierung."
+        ],
+        "link": "https://www.heise.de/news/Cloudflare-will-bis-2029-vollstaendig-quantensicher-sein-11249860.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-09T07:36:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Kommentar-KI-FOMO-frisst-Sicherheit-11218162.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -876,6 +888,18 @@
           "KI wird überall eingeführt – neuen Sicherheitsrisiken zum Trotz. Aber wenigstens all die alten Arten von Lücken könnte man vermeiden, findet Sylvester Tremmel."
         ],
         "link": "https://www.heise.de/meinung/Kommentar-KI-FOMO-frisst-Sicherheit-11218162.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-09T07:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/1500-Watt-und-150-Nm-Neuer-DJI-Motor-verschiebt-E-Bike-Grenzen-11249910.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "1500 Watt und 150 Nm: Neuer DJI-Motor verschiebt E-Bike-Grenzen",
+        "summary": "DJI stellt die zweite Generation des Avinox-Motors vor. Dieser setzt Maßstäbe in Sachen Leistung und wird nicht nur in DJI-Rädern vorfahren.",
+        "paragraphs": [
+          "DJI stellt die zweite Generation des Avinox-Motors vor. Dieser setzt Maßstäbe in Sachen Leistung und wird nicht nur in DJI-Rädern vorfahren."
+        ],
+        "link": "https://www.heise.de/news/1500-Watt-und-150-Nm-Neuer-DJI-Motor-verschiebt-E-Bike-Grenzen-11249910.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-09T07:00:00.000Z"
@@ -939,30 +963,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-09T05:32:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Nutanix-Partnerschaften-mit-NetApp-und-Cisco-senken-VMware-Migrationshuerde-11249493.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Nutanix: Partnerschaften mit NetApp und Cisco senken VMware-Migrationshürde",
-        "summary": "Nutanix arbeitet weiter daran, seine Cloud-Plattform zur zentralen Alternative für VMware-Kunden zu machen. Neue Partnerschaften sollen dabei helfen.",
-        "paragraphs": [
-          "Nutanix arbeitet weiter daran, seine Cloud-Plattform zur zentralen Alternative für VMware-Kunden zu machen. Neue Partnerschaften sollen dabei helfen."
-        ],
-        "link": "https://www.heise.de/news/Nutanix-Partnerschaften-mit-NetApp-und-Cisco-senken-VMware-Migrationshuerde-11249493.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-09T05:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Donnerstag-Milliardenverluste-durch-Cybercrime-Metas-brandneues-KI-Modell-11249796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Donnerstag: Milliardenverluste durch Cybercrime, Metas brandneues KI-Modell",
-        "summary": "Online-Betrug & -Abzocke in den USA + Muse Spark zuerst für Meta-KI + EU-Domain mit 20. Jubiläum + Kindle-Oldtimer auf Amazons Abstellgleis + #heiseshow",
-        "paragraphs": [
-          "Online-Betrug & -Abzocke in den USA + Muse Spark zuerst für Meta-KI + EU-Domain mit 20. Jubiläum + Kindle-Oldtimer auf Amazons Abstellgleis + #heiseshow"
-        ],
-        "link": "https://www.heise.de/news/Donnerstag-Milliardenverluste-durch-Cybercrime-Metas-brandneues-KI-Modell-11249796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-09T04:15:00.000Z"
       }
     ]
   }
