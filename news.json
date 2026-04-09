@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-09T03:28:20.848Z",
+  "updatedAt": "2026-04-09T04:36:42.446Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "252e3b7b-4b68-47ab-b061-958854aad759",
+        "title": "Bilanz nach einer Woche: Warum die 12-Uhr-Regel an Tankstellen nicht wirkt",
+        "summary": "Seit einer Woche gilt an Zapfsäulen: Preise dürfen nur noch einmal täglich um 12 Uhr steigen, danach nur sinken. Das soll den Preisanstieg durch den Iran-Krieg bremsen - hat aber bisher keinen Erfolg. Von Martin Rottach.",
+        "paragraphs": [
+          "Seit einer Woche gilt an Zapfsäulen: Preise dürfen nur noch einmal täglich um 12 Uhr steigen, danach nur sinken. Das soll den Preisanstieg durch den Iran-Krieg bremsen - hat aber bisher keinen Erfolg. Von Martin Rottach."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/verbraucher/tankstellen-spritpreis-12-uhr-regel-bilanz-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-09T04:25:52.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Waffenstillstand-mit-Iran-befluegelt-Wall-Street-id30693890.html",
         "title": "Dow macht großen Satz nach oben: Waffenstillstand mit Iran beflügelt Wall Street",
@@ -229,32 +241,20 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-07T22:11:22.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/Wall-Street-hofft-auf-Pakistans-Waffenruhe-Vorstoss-id30689868.html",
-        "title": "Trumps Ultimatum im Blick: Wall Street hofft auf Pakistans Waffenruhe-Vorstoß",
-        "summary": "Die US-Anleger schauen zwischen Hoffen und Bangen in Richtung Iran. Ein Ultimatum von US-Präsident Trump soll das Mullah-Regime zur Öffnung der Straße von Hormus zwingen. Pakistan schlägt eine Waffenruhe vor, was die Märkte wieder aus der Talsohle holt.",
-        "paragraphs": [
-          "Die US-Anleger schauen zwischen Hoffen und Bangen in Richtung Iran. Ein Ultimatum von US-Präsident Trump soll das Mullah-Regime zur Öffnung der Straße von Hormus zwingen. Pakistan schlägt eine Waffenruhe vor, was die Märkte wieder aus der Talsohle holt."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/Wall-Street-hofft-auf-Pakistans-Waffenruhe-Vorstoss-id30689868.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-04-07T20:59:30.000Z"
       }
     ],
     "politik": [
       {
-        "id": "li.3465082",
-        "title": "Nato: Trump wirkt nach Gespräch mit Rutte verärgert",
-        "summary": "Der Nato-Generalsekretär versucht, Donald Trump zu besänftigen. Doch dieser bleibt nach einem Treffen bei seiner Kritik am Bündnis. Mangelnde Unterstützung im Iran-Krieg ist nicht der einzige Grund.",
+        "id": "li.3458356",
+        "title": "Krieg in Nahost: Weitere Angriffe zwischen Israel und Hisbollah – Iran erwägt Ende der Waffenruhe",
+        "summary": "Trotz der Feuerpause hat Israel eine Großoffensive in Libanon gestartet. Die Hisbollah wertet das als Verstoß und greift weiter an – nun erwägt Iran, die Waffenruhe aufzukündigen.",
         "paragraphs": [
-          "Der Nato-Generalsekretär versucht, Donald Trump zu besänftigen. Doch dieser bleibt nach einem Treffen bei seiner Kritik am Bündnis. Mangelnde Unterstützung im Iran-Krieg ist nicht der einzige Grund."
+          "Trotz der Feuerpause hat Israel eine Großoffensive in Libanon gestartet. Die Hisbollah wertet das als Verstoß und greift weiter an – nun erwägt Iran, die Waffenruhe aufzukündigen."
         ],
-        "link": "https://www.sueddeutsche.de/politik/mark-rutte-usa-nato-donald-trump-li.3465082",
-        "category": "USA",
+        "link": "https://www.sueddeutsche.de/politik/iran-krieg-liveblog-usa-trump-waffenruhe-reaktionen-israel-libanon-li.3458356",
+        "category": "Nahost",
         "source": "Sueddeutsche",
-        "publishedAt": "2026-04-09T02:59:57.000Z"
+        "publishedAt": "2026-04-09T03:55:00.000Z"
       },
       {
         "id": "li.3462913",
@@ -263,10 +263,22 @@
         "paragraphs": [
           "Wegen mangelnder Unterstützung im Iran-Krieg prüfen die USA laut dem „Wall Street Journal“ mehrere Nato-Staaten abzustrafen: Soldaten könnten verlegt, Standorte geschlossen werden."
         ],
-        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-amtsenthebung-demokraten-li.3462913",
+        "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-schliessung-militaerbasis-deutschland-spanien-li.3462913",
         "category": "USA",
         "source": "Sueddeutsche",
-        "publishedAt": "2026-04-08T23:52:00.000Z"
+        "publishedAt": "2026-04-09T03:20:00.000Z"
+      },
+      {
+        "id": "li.3465082",
+        "title": "Nato: Trump wirkt nach Gespräch mit Rutte verärgert",
+        "summary": "Der Nato-Generalsekretär versucht, den US-Präsidenten zu besänftigen. Doch dieser bleibt nach einem Treffen bei seiner Kritik am Bündnis. Mangelnde Unterstützung im Iran-Krieg ist nicht der einzige Grund.",
+        "paragraphs": [
+          "Der Nato-Generalsekretär versucht, den US-Präsidenten zu besänftigen. Doch dieser bleibt nach einem Treffen bei seiner Kritik am Bündnis. Mangelnde Unterstützung im Iran-Krieg ist nicht der einzige Grund."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/mark-rutte-usa-nato-donald-trump-li.3465082",
+        "category": "USA",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-09T02:59:57.000Z"
       },
       {
         "id": "li.3465084",
@@ -291,18 +303,6 @@
         "category": "Welt",
         "source": "DW",
         "publishedAt": "2026-04-08T19:24:00.000Z"
-      },
-      {
-        "id": "li.3458356",
-        "title": "Krieg in Nahost: Iran erwägt Ende der Waffenruhe – Straße von Hormus offenbar weiter blockiert",
-        "summary": "Ungeachtet der Feuerpause hat Israel eine Großoffensive in Libanon gestartet. Nun erwägt Iran ein Ende der Waffenruhe und blockiert offenbar erneut die Straße von Hormus. Indessen meldet Katar iranischen Beschuss.",
-        "paragraphs": [
-          "Ungeachtet der Feuerpause hat Israel eine Großoffensive in Libanon gestartet. Nun erwägt Iran ein Ende der Waffenruhe und blockiert offenbar erneut die Straße von Hormus. Indessen meldet Katar iranischen Beschuss."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/iran-krieg-liveblog-usa-trump-waffenruhe-reaktionen-israel-libanon-li.3458356",
-        "category": "Nahost",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-08T18:00:00.000Z"
       },
       {
         "id": "li.3465109",
@@ -735,16 +735,16 @@
         "publishedAt": "2026-04-08T15:55:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/US-Amerikaner-verlieren-2025-fast-21-Milliarden-US-Dollar-durch-Cybercrime-11249768.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "US-Amerikaner verlieren 2025 fast 21 Milliarden US-Dollar durch Cybercrime",
-        "summary": "In den USA gemeldete Cybercrime-Fälle und -Schäden erreichen neue Rekordhöhen. Die größten Verluste erleiden Krypto-Investoren und US-Amerikaner über 60 Jahre.",
+        "id": "https://www.heise.de/news/Donnerstag-Milliardenverluste-durch-Cybercrime-Metas-brandneues-KI-Modell-11249796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Donnerstag: Milliardenverluste durch Cybercrime, Metas brandneues KI-Modell",
+        "summary": "Online-Betrug & -Abzocke in den USA + Muse Spark zuerst für Meta-KI + EU-Domain mit 20. Jubiläum + Kindle-Oldtimer auf Amazons Abstellgleis + #heiseshow",
         "paragraphs": [
-          "In den USA gemeldete Cybercrime-Fälle und -Schäden erreichen neue Rekordhöhen. Die größten Verluste erleiden Krypto-Investoren und US-Amerikaner über 60 Jahre."
+          "Online-Betrug & -Abzocke in den USA + Muse Spark zuerst für Meta-KI + EU-Domain mit 20. Jubiläum + Kindle-Oldtimer auf Amazons Abstellgleis + #heiseshow"
         ],
-        "link": "https://www.heise.de/news/US-Amerikaner-verlieren-2025-fast-21-Milliarden-US-Dollar-durch-Cybercrime-11249768.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Donnerstag-Milliardenverluste-durch-Cybercrime-Metas-brandneues-KI-Modell-11249796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T03:04:00.000Z"
+        "publishedAt": "2026-04-09T04:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Ausgerechnet-jetzt-Suendteure-8-Terabyte-Version-der-Samsung-SSD-870-Evo-11249342.html",
@@ -759,16 +759,16 @@
         "publishedAt": "2026-04-08T14:25:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Muse-Spark-Meta-praesentiert-neues-KI-Modell-11249678.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Muse Spark: Meta präsentiert neues KI-Modell",
-        "summary": "Nach Milliardeninvestitionen in seine Superintelligence Labs versucht der Meta-Konzern, mit seinem neuen KI-Modell den Rückstand zur Konkurrenz aufzuholen.",
+        "id": "https://www.heise.de/news/heiseshow-Schland-App-Anthropic-Mythos-Spritpreise-11249570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "#heiseshow: Schland-App, Anthropic Mythos, Spritpreise",
+        "summary": "In der #heiseshow: SAP und Telekom bauen Deutschlands zentrale Bürger-App, Anthropic hält KI-Modell Mythos zurück und was gegen hohe Spritpreise hilft.",
         "paragraphs": [
-          "Nach Milliardeninvestitionen in seine Superintelligence Labs versucht der Meta-Konzern, mit seinem neuen KI-Modell den Rückstand zur Konkurrenz aufzuholen."
+          "In der #heiseshow: SAP und Telekom bauen Deutschlands zentrale Bürger-App, Anthropic hält KI-Modell Mythos zurück und was gegen hohe Spritpreise hilft."
         ],
-        "link": "https://www.heise.de/news/Muse-Spark-Meta-praesentiert-neues-KI-Modell-11249678.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/heiseshow-Schland-App-Anthropic-Mythos-Spritpreise-11249570.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-08T19:05:00.000Z"
+        "publishedAt": "2026-04-09T04:11:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/KI-Chip-Start-ups-Die-meisten-verschwinden-bis-2030-11248518.html",
@@ -783,16 +783,16 @@
         "publishedAt": "2026-04-08T09:34:00.000Z"
       },
       {
-        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-gaming-maus-im-test-testsieger-logitech-vor-asus-rog-und-razer/116hh77?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 10: Die beste Gaming-Maus im Test – Testsieger Logitech vor Asus ROG & Razer",
-        "summary": "Gaming-Mäuse müssen unterschiedliche Zwecke erfüllen. Für Shooter sollten sie besonders leicht und präzise sein. Wir zeigen die besten unter ihnen.",
+        "id": "https://www.heise.de/news/Happy-Birthday-eu-Europa-feiert-20-Jahre-digitale-Identitaet-11249784.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Happy Birthday .eu: Europa feiert 20 Jahre digitale Identität",
+        "summary": "Vom Goldrausch zum stabilen Anker: Die europäische Top-Level-Domain zelebriert ihr Jubiläum. Sie muss sich im harten Wettbewerb der Netz-Giganten behaupten.",
         "paragraphs": [
-          "Gaming-Mäuse müssen unterschiedliche Zwecke erfüllen. Für Shooter sollten sie besonders leicht und präzise sein. Wir zeigen die besten unter ihnen."
+          "Vom Goldrausch zum stabilen Anker: Die europäische Top-Level-Domain zelebriert ihr Jubiläum. Sie muss sich im harten Wettbewerb der Netz-Giganten behaupten."
         ],
-        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-gaming-maus-im-test-testsieger-logitech-vor-asus-rog-und-razer/116hh77?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Happy-Birthday-eu-Europa-feiert-20-Jahre-digitale-Identitaet-11249784.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-08T18:00:00.000Z"
+        "publishedAt": "2026-04-09T03:39:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Weshalb-und-wo-Magnetband-weiterlebt-11202566.html",
@@ -807,16 +807,16 @@
         "publishedAt": "2026-04-08T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/kodas-Fahrradklingel-Duobell-trickst-ANC-Kopfhoerer-aus-11249636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Škodas Fahrradklingel Duobell trickst ANC-Kopfhörer aus",
-        "summary": "ANC-Kopfhörer im Straßenverkehr sind gefährlich. Škoda hat eine mechanische Klingel entwickelt, die die Filteralgorithmen austrickst.",
+        "id": "https://www.heise.de/news/US-Amerikaner-verlieren-2025-fast-21-Milliarden-US-Dollar-durch-Cybercrime-11249768.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "US-Amerikaner verlieren 2025 fast 21 Milliarden US-Dollar durch Cybercrime",
+        "summary": "In den USA gemeldete Cybercrime-Fälle und -Schäden erreichen neue Rekordhöhen. Die größten Verluste erleiden Krypto-Investoren und US-Amerikaner über 60 Jahre.",
         "paragraphs": [
-          "ANC-Kopfhörer im Straßenverkehr sind gefährlich. Škoda hat eine mechanische Klingel entwickelt, die die Filteralgorithmen austrickst."
+          "In den USA gemeldete Cybercrime-Fälle und -Schäden erreichen neue Rekordhöhen. Die größten Verluste erleiden Krypto-Investoren und US-Amerikaner über 60 Jahre."
         ],
-        "link": "https://www.heise.de/news/kodas-Fahrradklingel-Duobell-trickst-ANC-Kopfhoerer-aus-11249636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/US-Amerikaner-verlieren-2025-fast-21-Milliarden-US-Dollar-durch-Cybercrime-11249768.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-08T17:22:00.000Z"
+        "publishedAt": "2026-04-09T03:04:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Mikrocontroller-Marktfuehrer-aus-Europa-Infineon-NXP-und-STMicroelectronics-11247861.html",
@@ -831,16 +831,16 @@
         "publishedAt": "2026-04-07T17:13:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Privatsphaere-im-Handelsregister-Bundesgerichtshof-staerkt-Recht-auf-Vergessen-11249632.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Bundesgerichtshof: Anspruch auf Löschung privater Daten im Handelsregister",
-        "summary": "Wer unnötige Privatdaten im Handelsregister hinterlegt hat, darf diese nun löschen lassen. Das gilt auch, wenn sie bereits an anderen Stellen im Netz kursieren.",
+        "id": "https://www.heise.de/news/Muse-Spark-Meta-praesentiert-neues-KI-Modell-11249678.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Muse Spark: Meta präsentiert neues KI-Modell",
+        "summary": "Nach Milliardeninvestitionen in seine Superintelligence Labs versucht der Meta-Konzern, mit seinem neuen KI-Modell den Rückstand zur Konkurrenz aufzuholen.",
         "paragraphs": [
-          "Wer unnötige Privatdaten im Handelsregister hinterlegt hat, darf diese nun löschen lassen. Das gilt auch, wenn sie bereits an anderen Stellen im Netz kursieren."
+          "Nach Milliardeninvestitionen in seine Superintelligence Labs versucht der Meta-Konzern, mit seinem neuen KI-Modell den Rückstand zur Konkurrenz aufzuholen."
         ],
-        "link": "https://www.heise.de/news/Privatsphaere-im-Handelsregister-Bundesgerichtshof-staerkt-Recht-auf-Vergessen-11249632.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Muse-Spark-Meta-praesentiert-neues-KI-Modell-11249678.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-08T17:20:00.000Z"
+        "publishedAt": "2026-04-08T19:05:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Anker-Solix-Power-Dock-im-Test-Modulare-PV-Anlage-mit-Wallboxen-und-Riesenakkus-11245507.html",
@@ -855,16 +855,16 @@
         "publishedAt": "2026-04-04T08:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Auf-Gemma-Basis-Google-bringt-neue-KI-Diktier-App-fuers-iPhone-11247707.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Auf Gemma-Basis: Google bringt neue KI-Diktier-App fürs iPhone",
-        "summary": "Das kleinere KI-Modell des Suchriesen läuft lokal auf iOS und Mac und macht damit Whisper Konkurrenz. Für mehr braucht es aber die Cloud.",
+        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-gaming-maus-im-test-testsieger-logitech-vor-asus-rog-und-razer/116hh77?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Top 10: Die beste Gaming-Maus im Test – Testsieger Logitech vor Asus ROG & Razer",
+        "summary": "Gaming-Mäuse müssen unterschiedliche Zwecke erfüllen. Für Shooter sollten sie besonders leicht und präzise sein. Wir zeigen die besten unter ihnen.",
         "paragraphs": [
-          "Das kleinere KI-Modell des Suchriesen läuft lokal auf iOS und Mac und macht damit Whisper Konkurrenz. Für mehr braucht es aber die Cloud."
+          "Gaming-Mäuse müssen unterschiedliche Zwecke erfüllen. Für Shooter sollten sie besonders leicht und präzise sein. Wir zeigen die besten unter ihnen."
         ],
-        "link": "https://www.heise.de/news/Auf-Gemma-Basis-Google-bringt-neue-KI-Diktier-App-fuers-iPhone-11247707.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-gaming-maus-im-test-testsieger-logitech-vor-asus-rog-und-razer/116hh77?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-08T17:01:00.000Z"
+        "publishedAt": "2026-04-08T18:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Schnelles-Heimnetz-fuer-Glasfaser-Co-c-t-uplink-11244825.html",
@@ -879,16 +879,16 @@
         "publishedAt": "2026-04-04T04:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Memflation-Guenstigeres-RAM-gibt-es-erst-wieder-ab-2028-meint-Gartner-11249507.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„Memflation“: Günstigeres RAM gibt es erst wieder ab 2028, meint Gartner",
-        "summary": "Chiphersteller verdienen prächtig, aber superteure Speicherchips werden die Nachfrage nach Hardware außerhalb der KI „bis 2028 vernichten oder  verzögern“.",
+        "id": "https://www.heise.de/news/kodas-Fahrradklingel-Duobell-trickst-ANC-Kopfhoerer-aus-11249636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Škodas Fahrradklingel Duobell trickst ANC-Kopfhörer aus",
+        "summary": "ANC-Kopfhörer im Straßenverkehr sind gefährlich. Škoda hat eine mechanische Klingel entwickelt, die die Filteralgorithmen austrickst.",
         "paragraphs": [
-          "Chiphersteller verdienen prächtig, aber superteure Speicherchips werden die Nachfrage nach Hardware außerhalb der KI „bis 2028 vernichten oder  verzögern“."
+          "ANC-Kopfhörer im Straßenverkehr sind gefährlich. Škoda hat eine mechanische Klingel entwickelt, die die Filteralgorithmen austrickst."
         ],
-        "link": "https://www.heise.de/news/Memflation-Guenstigeres-RAM-gibt-es-erst-wieder-ab-2028-meint-Gartner-11249507.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/kodas-Fahrradklingel-Duobell-trickst-ANC-Kopfhoerer-aus-11249636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-08T15:55:00.000Z"
+        "publishedAt": "2026-04-08T17:22:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Sind-OLEDs-jetzt-komplett-unproblematisch-c-t-3003-11245290.html",
@@ -901,6 +901,42 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-03T14:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Privatsphaere-im-Handelsregister-Bundesgerichtshof-staerkt-Recht-auf-Vergessen-11249632.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Bundesgerichtshof: Anspruch auf Löschung privater Daten im Handelsregister",
+        "summary": "Wer unnötige Privatdaten im Handelsregister hinterlegt hat, darf diese nun löschen lassen. Das gilt auch, wenn sie bereits an anderen Stellen im Netz kursieren.",
+        "paragraphs": [
+          "Wer unnötige Privatdaten im Handelsregister hinterlegt hat, darf diese nun löschen lassen. Das gilt auch, wenn sie bereits an anderen Stellen im Netz kursieren."
+        ],
+        "link": "https://www.heise.de/news/Privatsphaere-im-Handelsregister-Bundesgerichtshof-staerkt-Recht-auf-Vergessen-11249632.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-08T17:20:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Auf-Gemma-Basis-Google-bringt-neue-KI-Diktier-App-fuers-iPhone-11247707.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Auf Gemma-Basis: Google bringt neue KI-Diktier-App fürs iPhone",
+        "summary": "Das kleinere KI-Modell des Suchriesen läuft lokal auf iOS und Mac und macht damit Whisper Konkurrenz. Für mehr braucht es aber die Cloud.",
+        "paragraphs": [
+          "Das kleinere KI-Modell des Suchriesen läuft lokal auf iOS und Mac und macht damit Whisper Konkurrenz. Für mehr braucht es aber die Cloud."
+        ],
+        "link": "https://www.heise.de/news/Auf-Gemma-Basis-Google-bringt-neue-KI-Diktier-App-fuers-iPhone-11247707.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-08T17:01:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Memflation-Guenstigeres-RAM-gibt-es-erst-wieder-ab-2028-meint-Gartner-11249507.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„Memflation“: Günstigeres RAM gibt es erst wieder ab 2028, meint Gartner",
+        "summary": "Chiphersteller verdienen prächtig, aber superteure Speicherchips werden die Nachfrage nach Hardware außerhalb der KI „bis 2028 vernichten oder  verzögern“.",
+        "paragraphs": [
+          "Chiphersteller verdienen prächtig, aber superteure Speicherchips werden die Nachfrage nach Hardware außerhalb der KI „bis 2028 vernichten oder  verzögern“."
+        ],
+        "link": "https://www.heise.de/news/Memflation-Guenstigeres-RAM-gibt-es-erst-wieder-ab-2028-meint-Gartner-11249507.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-08T15:55:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Sono-Solar-bringt-Solarmodule-fuer-Autos-auf-den-Markt-11249529.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -925,42 +961,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-08T15:22:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Cribl-Guard-KI-soll-sensible-Daten-im-Telemetrie-Strom-aufspueren-11249373.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Cribl Guard: KI soll sensible Daten im Telemetrie-Strom aufspüren",
-        "summary": "Der Telemetrie-Spezialist Cribl erweitert sein Produkt Guard um eine kontinuierliche KI-Analyse, die Muster sensibler Daten in Logs und Events erkennen soll.",
-        "paragraphs": [
-          "Der Telemetrie-Spezialist Cribl erweitert sein Produkt Guard um eine kontinuierliche KI-Analyse, die Muster sensibler Daten in Logs und Events erkennen soll."
-        ],
-        "link": "https://www.heise.de/news/Cribl-Guard-KI-soll-sensible-Daten-im-Telemetrie-Strom-aufspueren-11249373.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-08T15:11:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Studio-Display-XDR-fuer-Aerzte-Apple-bekommt-Zulassung-von-US-Gesundheitsaufsicht-11248314.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Studio Display XDR für Ärzte: Apple bekommt Zulassung von US-Gesundheitsaufsicht",
-        "summary": "Dank passender Kalibrierung lässt sich Apples neues Top-Display auch im Medizinbereich verwenden. Hier soll es sogar ein Schnäppchen sein.",
-        "paragraphs": [
-          "Dank passender Kalibrierung lässt sich Apples neues Top-Display auch im Medizinbereich verwenden. Hier soll es sogar ein Schnäppchen sein."
-        ],
-        "link": "https://www.heise.de/news/Studio-Display-XDR-fuer-Aerzte-Apple-bekommt-Zulassung-von-US-Gesundheitsaufsicht-11248314.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-08T15:06:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Ausgerechnet-jetzt-Suendteure-8-Terabyte-Version-der-Samsung-SSD-870-Evo-11249342.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Ausgerechnet jetzt: Sündteure 8-Terabyte-Version der Samsung SSD 870 Evo",
-        "summary": "Samsung erweitert die gut abgehangene SATA-SSD-Baureihe 870 Evo um eine Version mit 8 TByte Kapazität – zum Listenpreis von 2641 €. Im Handel ist sie billiger.",
-        "paragraphs": [
-          "Samsung erweitert die gut abgehangene SATA-SSD-Baureihe 870 Evo um eine Version mit 8 TByte Kapazität – zum Listenpreis von 2641 €. Im Handel ist sie billiger."
-        ],
-        "link": "https://www.heise.de/news/Ausgerechnet-jetzt-Suendteure-8-Terabyte-Version-der-Samsung-SSD-870-Evo-11249342.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-08T14:25:00.000Z"
       }
     ]
   }
