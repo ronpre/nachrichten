@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-09T17:44:05.591Z",
+  "updatedAt": "2026-04-09T18:10:15.098Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "cf272d64-eda8-492b-b60a-708cd486504b",
+        "title": "Marktbericht: Anleger werden wieder skeptischer",
+        "summary": "Nachlassende Friedenshoffnungen haben an der Börse heute für Tristesse gesorgt. Der DAX gab einen Teil seiner Vortagesgewinne ab. Sorgen bereitet der starke Ölpreis, der wieder anzog.",
+        "paragraphs": [
+          "Nachlassende Friedenshoffnungen haben an der Börse heute für Tristesse gesorgt. Der DAX gab einen Teil seiner Vortagesgewinne ab. Sorgen bereitet der starke Ölpreis, der wieder anzog."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-katerstimmung-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-09T17:53:35.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Fuer-viele-Chemieunternehmen-geht-es-jetzt-um-die-Existenz-id30696798.html",
         "title": "Iran-Krieg verschärft Krise: \"Für viele Chemieunternehmen geht es jetzt um die Existenz\"",
@@ -13,18 +25,6 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-09T17:26:08.000Z"
-      },
-      {
-        "id": "5a4c7d43-d1d5-4f66-bc30-e340e470d1d8",
-        "title": "Liveblog: ++ Israel will direkt mit Libanon verhandeln ++",
-        "summary": "Israels Premierminister Netanjahu hat direkte Verhandlungen mit dem Libanon angekündigt. Die Angriffe dauern aktuell offenbar noch an: Für Vororte in der libanesischen Hauptstadt Beirut hat Israel Evakuierungswarnungen herausgegeben.",
-        "paragraphs": [
-          "Israels Premierminister Netanjahu hat direkte Verhandlungen mit dem Libanon angekündigt. Die Angriffe dauern aktuell offenbar noch an: Für Vororte in der libanesischen Hauptstadt Beirut hat Israel Evakuierungswarnungen herausgegeben."
-        ],
-        "link": "https://www.tagesschau.de/newsticker/liveblog-iran-donnerstag-106.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-09T17:23:39.000Z"
       },
       {
         "id": "18aa13c1-df6f-48fc-b714-0da40371a58d",
@@ -147,18 +147,6 @@
         "publishedAt": "2026-04-09T09:13:48.000Z"
       },
       {
-        "id": "cf272d64-eda8-492b-b60a-708cd486504b",
-        "title": "Marktbericht: Zweifel an Waffenruhe drücken die Kurse",
-        "summary": "Es gibt Zweifel daran, dass die zwischen USA und Iran geschlossene Waffenruhe hält. Das lässt die Ölpreise wieder steigen und die Aktienkurse sinken.",
-        "paragraphs": [
-          "Es gibt Zweifel daran, dass die zwischen USA und Iran geschlossene Waffenruhe hält. Das lässt die Ölpreise wieder steigen und die Aktienkurse sinken."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-katerstimmung-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-09T08:41:24.000Z"
-      },
-      {
         "id": "0ff3fd10-7a19-4b88-9f59-36f4b73960c7",
         "title": "EU-Preisvergleich: Benzinpreis steigt in Deutschland stärker",
         "summary": "In Deutschland ist Benzin zuletzt schneller teurer geworden als in vielen Nachbarländern. Das zeigen neueste Daten der EU-Kommission. Ökonomen rechnen vorerst nicht mit niedrigeren Preisen.",
@@ -241,15 +229,27 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-08T18:26:04.000Z"
+      },
+      {
+        "id": "https://www.n-tv.de/wirtschaft/Waffenruhe-befluegelt-Dax-Fuenf-Prozent-nach-oben-id30693561.html",
+        "title": "Größter Tagesgewinn seit 2022: Waffenruhe beflügelt Dax: Fünf Prozent nach oben",
+        "summary": "\"An den Finanzmärkten ist Aufatmen angesagt\": Die in der Nacht verkündete Waffenruhe zwischen den USA und Iran sorgt an der deutschen Börse für Erleichterung. Im Laufe des Tages geht es beim Dax mehr als fünf Prozent nach oben. Doch es gibt auch Verlierer.",
+        "paragraphs": [
+          "\"An den Finanzmärkten ist Aufatmen angesagt\": Die in der Nacht verkündete Waffenruhe zwischen den USA und Iran sorgt an der deutschen Börse für Erleichterung. Im Laufe des Tages geht es beim Dax mehr als fünf Prozent nach oben. Doch es gibt auch Verlierer."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Waffenruhe-befluegelt-Dax-Fuenf-Prozent-nach-oben-id30693561.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-04-08T17:31:43.000Z"
       }
     ],
     "politik": [
       {
         "id": "li.3465588",
         "title": "Kanzler über den Iran-Krieg: Ein Eiertanz nach Ostern",
-        "summary": "Friedrich Merz spricht in Berlin über die aktuellen Krisen. Er will Tatkraft demonstrieren, ohne hohe Erwartungen zu wecken, sich ein wenig von Donald Trump distanzieren, ohne ihn zu verprellen.",
+        "summary": "Friedrich Merz spricht in Berlin über die aktuellen Krisen. Er will Tatkraft demonstrieren, ohne hohe Erwartungen zu wecken, sich ein wenig von Donald Trump distanzieren, ohne ihn zu verprellen. Sein Auftritt lässt viele Fragen offen.",
         "paragraphs": [
-          "Friedrich Merz spricht in Berlin über die aktuellen Krisen. Er will Tatkraft demonstrieren, ohne hohe Erwartungen zu wecken, sich ein wenig von Donald Trump distanzieren, ohne ihn zu verprellen."
+          "Friedrich Merz spricht in Berlin über die aktuellen Krisen. Er will Tatkraft demonstrieren, ohne hohe Erwartungen zu wecken, sich ein wenig von Donald Trump distanzieren, ohne ihn zu verprellen. Sein Auftritt lässt viele Fragen offen."
         ],
         "link": "https://www.sueddeutsche.de/politik/deutschland-nato-merz-nahost-energiepreise-li.3465588",
         "category": "Bundesregierung",
@@ -485,6 +485,66 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/naechste-schlappe-fuer-adidas-uefa-verhandelt-exklusiv-mit-nike-ueber-ballrechte-1208995/artikel#omrss",
+        "title": "Nächste Schlappe für Adidas? UEFA verhandelt exklusiv mit Nike über Ballrechte",
+        "summary": "Im Duell mit Nike sieht es stark danach aus, als ob der deutsche Sportartikel-Riese Adidas kurz vor dem Verlust der nächsten bedeutenden Rechte steht. So könnten die Champions-League-Bälle künftig nicht mehr von den Herzogenaurachern gestellt werden.",
+        "paragraphs": [
+          "Im Duell mit Nike sieht es stark danach aus, als ob der deutsche Sportartikel-Riese Adidas kurz vor dem Verlust der nächsten bedeutenden Rechte steht. So könnten die Champions-League-Bälle künftig nicht mehr von den Herzogenaurachern gestellt werden."
+        ],
+        "link": "https://www.kicker.de/naechste-schlappe-fuer-adidas-uefa-verhandelt-exklusiv-mit-nike-ueber-ballrechte-1208995/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-09T18:03:50.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/dingert-am-pranger-barcelona-reicht-offizielle-beschwerde-bei-der-uefa-ein-1208992/artikel#omrss",
+        "title": "Dingert am Pranger: Barcelona reicht offizielle Beschwerde bei der UEFA ein",
+        "summary": "Der FC Barcelona hat am Donnerstagnachmittag bei der UEFA offiziell Beschwerde eingelegt. Die Katalanen prangern die Leistung des Schiedsrichterteams beim Viertelfinal-Hinspiel in der Königsklasse an. Dabei auch im Fokus: Christian Dingert.",
+        "paragraphs": [
+          "Der FC Barcelona hat am Donnerstagnachmittag bei der UEFA offiziell Beschwerde eingelegt. Die Katalanen prangern die Leistung des Schiedsrichterteams beim Viertelfinal-Hinspiel in der Königsklasse an. Dabei auch im Fokus: Christian Dingert."
+        ],
+        "link": "https://www.kicker.de/dingert-am-pranger-barcelona-reicht-offizielle-beschwerde-bei-der-uefa-ein-1208992/artikel#omrss",
+        "category": "Atletico Madrid",
+        "source": "Kicker",
+        "publishedAt": "2026-04-09T17:58:50.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/titz-ueber-kaellman-ich-habe-einen-grossen-glauben-an-ihn-1208994/artikel#omrss",
+        "title": "Titz über Källman: \"Ich habe einen großen Glauben an ihn\"",
+        "summary": "Sechs Spiele ohne Treffer. Hannovers Goalgetter Benjamin Källman hat seinen Stammplatz verloren, könnte im Spitzenspiel in Darmstadt aber wieder in die Starformation rücken.",
+        "paragraphs": [
+          "Sechs Spiele ohne Treffer. Hannovers Goalgetter Benjamin Källman hat seinen Stammplatz verloren, könnte im Spitzenspiel in Darmstadt aber wieder in die Starformation rücken."
+        ],
+        "link": "https://www.kicker.de/titz-ueber-kaellman-ich-habe-einen-grossen-glauben-an-ihn-1208994/artikel#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-09T17:52:40.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-heimspiel-gegen-vigo-verschafft-sich-freiburg-eine-gute-ausgangslage-1208608/artikel#omrss",
+        "title": "LIVE! Heimspiel gegen Vigo: Verschafft sich Freiburg eine gute Ausgangslage?",
+        "summary": "Der SC Freiburg träumt weiterhin von einem internationalen Tittel. Im Viertelfinal-Hinspiel der Europa League treffen die Breisgauer zuhause auf den spanischen Klub Celta Vigo. Verschafft sich der Bundesligist eine gute Ausgangslage fürs Rückspiel in einer Woche?",
+        "paragraphs": [
+          "Der SC Freiburg träumt weiterhin von einem internationalen Tittel. Im Viertelfinal-Hinspiel der Europa League treffen die Breisgauer zuhause auf den spanischen Klub Celta Vigo. Verschafft sich der Bundesligist eine gute Ausgangslage fürs Rückspiel in einer Woche?"
+        ],
+        "link": "https://www.kicker.de/live-heimspiel-gegen-vigo-verschafft-sich-freiburg-eine-gute-ausgangslage-1208608/artikel#omrss",
+        "category": null,
+        "source": "Kicker",
+        "publishedAt": "2026-04-09T17:51:59.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-zwei-fsv-wechsel-haelt-die-mainzer-serie-auch-gegen-strassburg-1208613/artikel#omrss",
+        "title": "LIVE! Zwei FSV-Wechsel: Hält die Mainzer Serie auch gegen Straßburg?",
+        "summary": "Seit acht Pflichtspielen hat Mainz nicht mehr verloren, die letzten vier Partien sogar allesamt gewonnen. Nun wartet das Viertelfinal-Hinspiel in der Conference League gegen Straßburg. Hält die Serie?",
+        "paragraphs": [
+          "Seit acht Pflichtspielen hat Mainz nicht mehr verloren, die letzten vier Partien sogar allesamt gewonnen. Nun wartet das Viertelfinal-Hinspiel in der Conference League gegen Straßburg. Hält die Serie?"
+        ],
+        "link": "https://www.kicker.de/live-zwei-fsv-wechsel-haelt-die-mainzer-serie-auch-gegen-strassburg-1208613/artikel#omrss",
+        "category": null,
+        "source": "Kicker",
+        "publishedAt": "2026-04-09T17:49:54.000Z"
+      },
+      {
         "id": "https://www.kicker.de/dtb-frauen-muessen-in-abstiegs-endspiel-1208989/artikel#omrss",
         "title": "DTB-Frauen müssen in Abstiegs-Endspiel",
         "summary": "Trotz eines versöhnlichen Abschlusses der Gruppenphase muss das deutsche Frauen-Tennisteam weiter um den nächsten Abstieg im Billie Jean King Cup zittern.",
@@ -663,66 +723,6 @@
         "category": "1. FC Nürnberg",
         "source": "Kicker",
         "publishedAt": "2026-04-09T14:08:07.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/innerlich-explodiert-popp-ist-optimistisch-fuer-rueckkehr-vor-pokalfinale-1208920/artikel#omrss",
-        "title": "\"Innerlich explodiert\": Popp ist optimistisch für Rückkehr vor Pokalfinale",
-        "summary": "Wird Alexandra Popp bis zum Finale im DFB-Pokal fit? Mit relativ großer Wahrscheinlichkeit dürfte es ihr letztes werden. Entsprechend intensiv fiel auch ihre Reaktion während des Wolfsburger Halbfinal-Krimis aus.",
-        "paragraphs": [
-          "Wird Alexandra Popp bis zum Finale im DFB-Pokal fit? Mit relativ großer Wahrscheinlichkeit dürfte es ihr letztes werden. Entsprechend intensiv fiel auch ihre Reaktion während des Wolfsburger Halbfinal-Krimis aus."
-        ],
-        "link": "https://www.kicker.de/innerlich-explodiert-popp-ist-optimistisch-fuer-rueckkehr-vor-pokalfinale-1208920/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-09T14:07:04.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/polanskis-klartext-bei-reitz-er-ist-kein-rb-junge-1208896/artikel#omrss",
-        "title": "Polanskis Klartext bei Reitz: \"Er ist kein RB-Junge\"",
-        "summary": "Nach zwei verpassten Befreiungsschlägen im Abstiegskampf sieht Borussia Mönchengladbach sich in Leipzig einer großen Hürde gegenüber. Eugen Polanski setzt dabei auf defensive Kompaktheit und einen kommenden Leipziger.",
-        "paragraphs": [
-          "Nach zwei verpassten Befreiungsschlägen im Abstiegskampf sieht Borussia Mönchengladbach sich in Leipzig einer großen Hürde gegenüber. Eugen Polanski setzt dabei auf defensive Kompaktheit und einen kommenden Leipziger."
-        ],
-        "link": "https://www.kicker.de/polanskis-klartext-bei-reitz-er-ist-kein-rb-junge-1208896/artikel#omrss",
-        "category": "Bor. Mönchengladbach",
-        "source": "Kicker",
-        "publishedAt": "2026-04-09T14:01:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/option-gezogen-aachen-verlaengert-mit-wegmann-1208909/artikel#omrss",
-        "title": "Option gezogen: Aachen verlängert mit Wegmann",
-        "summary": "Wie Alemannia Aachen am Donnerstag bekannt gab, wird Marius Wegmann auch im nächsten Jahr für die Schwarz-Gelben auflaufen. Damit zieht der Verein eine vereinbarte Vertragsoption.",
-        "paragraphs": [
-          "Wie Alemannia Aachen am Donnerstag bekannt gab, wird Marius Wegmann auch im nächsten Jahr für die Schwarz-Gelben auflaufen. Damit zieht der Verein eine vereinbarte Vertragsoption."
-        ],
-        "link": "https://www.kicker.de/option-gezogen-aachen-verlaengert-mit-wegmann-1208909/artikel#omrss",
-        "category": "3. Liga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-09T13:51:25.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nach-achillessehnenriss-rune-gibt-comeback-bei-hamburg-open-1208918/artikel#omrss",
-        "title": "Nach Achillessehnenriss: Rune gibt Comeback bei Hamburg Open",
-        "summary": "Nach langer Verletzungspause wird der dänische Tennisprofi Holger Rune bei den Hamburg Open im Mai sein Comeback geben. Das teilten die Organisatoren des ATP-500-Turniers im Stadion am Rothenbaum mit.",
-        "paragraphs": [
-          "Nach langer Verletzungspause wird der dänische Tennisprofi Holger Rune bei den Hamburg Open im Mai sein Comeback geben. Das teilten die Organisatoren des ATP-500-Turniers im Stadion am Rothenbaum mit."
-        ],
-        "link": "https://www.kicker.de/nach-achillessehnenriss-rune-gibt-comeback-bei-hamburg-open-1208918/artikel#omrss",
-        "category": "Tennis",
-        "source": "Kicker",
-        "publishedAt": "2026-04-09T13:48:54.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/alles-ist-ein-turnier-riot-schafft-die-valorant-ligen-ab-1208864/artikel#omrss",
-        "title": "\"Alles ist ein Turnier\": Riot schafft die Valorant-Ligen ab",
-        "summary": "Nach vier Jahren wirft Riot Games das Ligen-System in Valorant wieder über den Haufen. Stattdessen soll es ab 2027 mehr Spannung geben - und mehr Chancen für kleine Organisationen.",
-        "paragraphs": [
-          "Nach vier Jahren wirft Riot Games das Ligen-System in Valorant wieder über den Haufen. Stattdessen soll es ab 2027 mehr Spannung geben - und mehr Chancen für kleine Organisationen."
-        ],
-        "link": "https://www.kicker.de/alles-ist-ein-turnier-riot-schafft-die-valorant-ligen-ab-1208864/artikel#omrss",
-        "category": "eSport",
-        "source": "Kicker",
-        "publishedAt": "2026-04-09T13:45:29.000Z"
       }
     ],
     "edv": [
@@ -739,16 +739,16 @@
         "publishedAt": "2026-04-09T16:44:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Amazons-Satelliteninternetdienst-Leo-soll-Mitte-des-Jahres-freigegeben-werden-11251199.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Satelliteninternet: Amazon kündigt Freigabe von Leo für Mitte des Jahres an",
-        "summary": "Mit dem Satelliteninternetdienst Leo will Amazon Starlink Konkurrenz machen. Der Start hat sich verzögert. Er soll in wenigen Monaten erfolgen.",
+        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-der-beste-e-scooter-im-test-ninebot-max-g3-ist-testsieger/bgmnj08?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag#id-5-xiaomi-e-scooter-6-ultra",
+        "title": "Top 10: Der beste E-Scooter im Test – Ninebot Max G3 ist Testsieger",
+        "summary": "Ninebot, Xiaomi, Navee oder Egret? Wir haben fast 100 E-Scooter getestet und zeigen die zehn besten mit Straßenzulassung.",
         "paragraphs": [
-          "Mit dem Satelliteninternetdienst Leo will Amazon Starlink Konkurrenz machen. Der Start hat sich verzögert. Er soll in wenigen Monaten erfolgen."
+          "Ninebot, Xiaomi, Navee oder Egret? Wir haben fast 100 E-Scooter getestet und zeigen die zehn besten mit Straßenzulassung."
         ],
-        "link": "https://www.heise.de/news/Amazons-Satelliteninternetdienst-Leo-soll-Mitte-des-Jahres-freigegeben-werden-11251199.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-der-beste-e-scooter-im-test-ninebot-max-g3-ist-testsieger/bgmnj08?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag#id-5-xiaomi-e-scooter-6-ultra",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T17:19:00.000Z"
+        "publishedAt": "2026-04-09T18:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Kommentar-KI-FOMO-frisst-Sicherheit-11218162.html",
@@ -765,9 +765,9 @@
       {
         "id": "https://www.heise.de/hintergrund/HAePPI-Wie-Hausaerzte-mit-Delegation-und-digitalen-Tools-mehr-Patienten-versorgen-11249958.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "„Die ePA ist im Moment nichts anderes als ein Sammelsurium an Dokumenten\"",
-        "summary": "In der Hausarztzentrierten Versorgung ist der Hausarzt für Millionen Patienten bereits heute die erste Anlaufstelle. Dr. Susanne Bublitz erklärt das Modell.",
+        "summary": "In der Hausarztzentrierten Versorgung ist der Hausarzt für Millionen Patienten die erste Anlaufstelle. Mehr über das Modell und warum die ePA nicht hilft.",
         "paragraphs": [
-          "In der Hausarztzentrierten Versorgung ist der Hausarzt für Millionen Patienten bereits heute die erste Anlaufstelle. Dr. Susanne Bublitz erklärt das Modell."
+          "In der Hausarztzentrierten Versorgung ist der Hausarzt für Millionen Patienten die erste Anlaufstelle. Mehr über das Modell und warum die ePA nicht hilft."
         ],
         "link": "https://www.heise.de/hintergrund/HAePPI-Wie-Hausaerzte-mit-Delegation-und-digitalen-Tools-mehr-Patienten-versorgen-11249958.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
@@ -787,16 +787,16 @@
         "publishedAt": "2026-04-08T15:55:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Tschechien-will-Alt-AKW-bis-zu-80-Jahre-lang-laufen-lassen-11251161.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Tschechien will Alt-AKW bis zu 80 Jahre lang laufen lassen",
-        "summary": "In Dukovany steht das älteste Atomkraftwerk Tschechiens. Die Betreiber nennen den Zustand der Reaktorblöcke sowjetischer Bauart „ausgezeichnet“.",
+        "id": "https://www.heise.de/news/Amazons-Satelliteninternetdienst-Leo-soll-Mitte-des-Jahres-freigegeben-werden-11251199.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Satelliteninternet: Amazon kündigt Freigabe von Leo für Mitte des Jahres an",
+        "summary": "Mit dem Satelliteninternetdienst Leo will Amazon Starlink Konkurrenz machen. Der Start hat sich verzögert. Er soll in wenigen Monaten erfolgen.",
         "paragraphs": [
-          "In Dukovany steht das älteste Atomkraftwerk Tschechiens. Die Betreiber nennen den Zustand der Reaktorblöcke sowjetischer Bauart „ausgezeichnet“."
+          "Mit dem Satelliteninternetdienst Leo will Amazon Starlink Konkurrenz machen. Der Start hat sich verzögert. Er soll in wenigen Monaten erfolgen."
         ],
-        "link": "https://www.heise.de/news/Tschechien-will-Alt-AKW-bis-zu-80-Jahre-lang-laufen-lassen-11251161.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Amazons-Satelliteninternetdienst-Leo-soll-Mitte-des-Jahres-freigegeben-werden-11251199.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T16:44:00.000Z"
+        "publishedAt": "2026-04-09T17:19:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Ausgerechnet-jetzt-Suendteure-8-Terabyte-Version-der-Samsung-SSD-870-Evo-11249342.html",
@@ -811,16 +811,16 @@
         "publishedAt": "2026-04-08T14:25:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Angeblich-lukrative-Digitalisierung-Betrugsmasche-bei-Buchverkaeufen-nimmt-zu-11251195.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Vorsicht beim Bücherverkauf: Rentner verlieren hohe Summen an Betrüger",
-        "summary": "Ein Ehepaar aus Frankfurt (Oder) verliert beim geplanten Verkauf einer Büchersammlung viel Geld. Die Polizei warnt vor ähnlichen Betrugsversuchen.",
+        "id": "https://www.heise.de/news/Tschechien-will-Alt-AKW-bis-zu-80-Jahre-lang-laufen-lassen-11251161.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Tschechien will Alt-AKW bis zu 80 Jahre lang laufen lassen",
+        "summary": "In Dukovany steht das älteste Atomkraftwerk Tschechiens. Die Betreiber nennen den Zustand der Reaktorblöcke sowjetischer Bauart „ausgezeichnet“.",
         "paragraphs": [
-          "Ein Ehepaar aus Frankfurt (Oder) verliert beim geplanten Verkauf einer Büchersammlung viel Geld. Die Polizei warnt vor ähnlichen Betrugsversuchen."
+          "In Dukovany steht das älteste Atomkraftwerk Tschechiens. Die Betreiber nennen den Zustand der Reaktorblöcke sowjetischer Bauart „ausgezeichnet“."
         ],
-        "link": "https://www.heise.de/news/Angeblich-lukrative-Digitalisierung-Betrugsmasche-bei-Buchverkaeufen-nimmt-zu-11251195.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Tschechien-will-Alt-AKW-bis-zu-80-Jahre-lang-laufen-lassen-11251161.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T16:42:00.000Z"
+        "publishedAt": "2026-04-09T16:44:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/KI-Chip-Start-ups-Die-meisten-verschwinden-bis-2030-11248518.html",
@@ -835,16 +835,16 @@
         "publishedAt": "2026-04-08T09:34:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Wettlauf-um-Superrechner-Deutschland-startet-Quantencomputer-Wettbewerb-11250813.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Wettlauf um Superrechner: Deutschland startet Quantencomputer-Wettbewerb",
-        "summary": "Mit einem Millionen-Förderprogramm will das Forschungsministerium bis 2030 zwei fehlerkorrigierte Quantenrechner auf europäischem Spitzenniveau realisieren.",
+        "id": "https://www.heise.de/news/Angeblich-lukrative-Digitalisierung-Betrugsmasche-bei-Buchverkaeufen-nimmt-zu-11251195.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Vorsicht beim Bücherverkauf: Rentner verlieren hohe Summen an Betrüger",
+        "summary": "Ein Ehepaar aus Frankfurt (Oder) verliert beim geplanten Verkauf einer Büchersammlung viel Geld. Die Polizei warnt vor ähnlichen Betrugsversuchen.",
         "paragraphs": [
-          "Mit einem Millionen-Förderprogramm will das Forschungsministerium bis 2030 zwei fehlerkorrigierte Quantenrechner auf europäischem Spitzenniveau realisieren."
+          "Ein Ehepaar aus Frankfurt (Oder) verliert beim geplanten Verkauf einer Büchersammlung viel Geld. Die Polizei warnt vor ähnlichen Betrugsversuchen."
         ],
-        "link": "https://www.heise.de/news/Wettlauf-um-Superrechner-Deutschland-startet-Quantencomputer-Wettbewerb-11250813.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Angeblich-lukrative-Digitalisierung-Betrugsmasche-bei-Buchverkaeufen-nimmt-zu-11251195.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T16:08:00.000Z"
+        "publishedAt": "2026-04-09T16:42:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Weshalb-und-wo-Magnetband-weiterlebt-11202566.html",
@@ -859,16 +859,16 @@
         "publishedAt": "2026-04-08T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Lichtverschmutzung-Die-Erde-wird-nicht-gleichmaessig-heller-Europa-gar-dunkler-11250977.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Die Nachtseite der Erde wird nicht gleichmäßig heller, Europa wird gar dunkler",
-        "summary": "Auch wegen der zunehmenden Urbanisierung wird die Nachtseite der Erde jedes Jahr heller. Das geschieht aber viel ungleichmäßiger als bislang angenommen.",
+        "id": "https://www.heise.de/news/Wettlauf-um-Superrechner-Deutschland-startet-Quantencomputer-Wettbewerb-11250813.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Wettlauf um Superrechner: Deutschland startet Quantencomputer-Wettbewerb",
+        "summary": "Mit einem Millionen-Förderprogramm will das Forschungsministerium bis 2030 zwei fehlerkorrigierte Quantenrechner auf europäischem Spitzenniveau realisieren.",
         "paragraphs": [
-          "Auch wegen der zunehmenden Urbanisierung wird die Nachtseite der Erde jedes Jahr heller. Das geschieht aber viel ungleichmäßiger als bislang angenommen."
+          "Mit einem Millionen-Förderprogramm will das Forschungsministerium bis 2030 zwei fehlerkorrigierte Quantenrechner auf europäischem Spitzenniveau realisieren."
         ],
-        "link": "https://www.heise.de/news/Lichtverschmutzung-Die-Erde-wird-nicht-gleichmaessig-heller-Europa-gar-dunkler-11250977.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Wettlauf-um-Superrechner-Deutschland-startet-Quantencomputer-Wettbewerb-11250813.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-09T15:31:00.000Z"
+        "publishedAt": "2026-04-09T16:08:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Mikrocontroller-Marktfuehrer-aus-Europa-Infineon-NXP-und-STMicroelectronics-11247861.html",
@@ -881,6 +881,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-07T17:13:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Lichtverschmutzung-Die-Erde-wird-nicht-gleichmaessig-heller-Europa-gar-dunkler-11250977.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Die Nachtseite der Erde wird nicht gleichmäßig heller, Europa wird gar dunkler",
+        "summary": "Auch wegen der zunehmenden Urbanisierung wird die Nachtseite der Erde jedes Jahr heller. Das geschieht aber viel ungleichmäßiger als bislang angenommen.",
+        "paragraphs": [
+          "Auch wegen der zunehmenden Urbanisierung wird die Nachtseite der Erde jedes Jahr heller. Das geschieht aber viel ungleichmäßiger als bislang angenommen."
+        ],
+        "link": "https://www.heise.de/news/Lichtverschmutzung-Die-Erde-wird-nicht-gleichmaessig-heller-Europa-gar-dunkler-11250977.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-09T15:31:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/NASA-und-Artemis-2-Crew-bereiten-Rueckkehr-zur-Erde-vor-11251065.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -953,18 +965,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-09T13:44:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Ausgehenden-Traffic-unter-Linux-kontrollieren-Little-Snitch-ist-da-11250677.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Ausgehenden Traffic unter Linux kontrollieren: Little Snitch ist da",
-        "summary": "Was telefoniert unter Linux nach Hause? Mit der Firewall Little Snitch lassen sich Anwendungen jetzt auch abseits von macOS überwachen.",
-        "paragraphs": [
-          "Was telefoniert unter Linux nach Hause? Mit der Firewall Little Snitch lassen sich Anwendungen jetzt auch abseits von macOS überwachen."
-        ],
-        "link": "https://www.heise.de/news/Ausgehenden-Traffic-unter-Linux-kontrollieren-Little-Snitch-ist-da-11250677.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-09T13:24:00.000Z"
       }
     ]
   }
