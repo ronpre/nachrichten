@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-11T10:38:10.706Z",
+  "updatedAt": "2026-04-11T10:56:27.121Z",
   "categories": {
     "wirtschaft": [
       {
@@ -207,18 +207,6 @@
         "publishedAt": "2026-04-10T13:04:06.000Z"
       },
       {
-        "id": "8e14925c-db99-4124-bc39-6c1b77678514",
-        "title": "Hunderte Lufthansa-Flüge wegen Streiks ausgefallen",
-        "summary": "Flugreisende brauchen heute wieder einmal starke Nerven: Seit Mitternacht streiken die Flugbegleiter der Lufthansa - zahlreiche Flüge sind ausgefallen. Der Konzern will gegensteuern - unter anderem mit Zusatzflügen.",
-        "paragraphs": [
-          "Flugreisende brauchen heute wieder einmal starke Nerven: Seit Mitternacht streiken die Flugbegleiter der Lufthansa - zahlreiche Flüge sind ausgefallen. Der Konzern will gegensteuern - unter anderem mit Zusatzflügen."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/unternehmen/lufthansa-streik-338.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-10T12:57:23.000Z"
-      },
-      {
         "id": "5e91a761-b67f-44c3-8fac-11251eedc489",
         "title": "Analyse von Verbraucherschützern: Stromkosten-Entlastung nur gering",
         "summary": "Bundeszuschüsse zu den Netzentgelten sollten die privaten Stromkosten eigentlich senken. Doch die Entlastung falle bisher deutlich geringer aus als von der Politik in Aussicht gestellt, so die Verbraucherzentrale Bundesverband.",
@@ -241,9 +229,33 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-10T11:59:53.000Z"
+      },
+      {
+        "id": "c91f1132-67c5-485f-947a-4ff20cdf8c06",
+        "title": "Dolce&Gabbana: Stefano Gabbana tritt als Unternehmenschef zurück",
+        "summary": "Führungswechsel beim italienischen Modehaus Dolce&Gabbana: Mitgründer Stefano Gabbana ist als Chef des Unternehmens zurückgetreten. Eine \"kreative Rolle\" wird er laut Konzern aber behalten.",
+        "paragraphs": [
+          "Führungswechsel beim italienischen Modehaus Dolce&Gabbana: Mitgründer Stefano Gabbana ist als Chef des Unternehmens zurückgetreten. Eine \"kreative Rolle\" wird er laut Konzern aber behalten."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/unternehmen/dolce-rueckzug-gabbana-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-10T11:43:18.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3463205",
+        "title": "Bundespolitik: Vize-Chef des CDU-Arbeitnehmerflügels fordert Entlassung von Reiche",
+        "summary": "Eine „Auswechslung“ der Ministerin sei unumgänglich, auch weil sie sich Kanzler Merz widersetzt habe, sagt Christian Bäumler. Der Vorsitzende des Arbeitnehmerflügels, Dennis Radtke, warnt dagegen vor Personaldebatten.",
+        "paragraphs": [
+          "Eine „Auswechslung“ der Ministerin sei unumgänglich, auch weil sie sich Kanzler Merz widersetzt habe, sagt Christian Bäumler. Der Vorsitzende des Arbeitnehmerflügels, Dennis Radtke, warnt dagegen vor Personaldebatten."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-reiche-entlassung-forderung-cdu-arbeitnehmerfluegel-li.3463205",
+        "category": "Bundesregierung",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-11T10:20:00.000Z"
+      },
       {
         "id": "76746713",
         "title": "Ukraine-Krieg: Feuerpause zum orthodoxen Osterfest geplant",
@@ -267,18 +279,6 @@
         "category": "Aktuelles",
         "source": "DW",
         "publishedAt": "2026-04-11T08:00:00.000Z"
-      },
-      {
-        "id": "li.3463205",
-        "title": "Bundespolitik: CDU-Arbeitnehmerflügel fordert Entlassung von Reiche",
-        "summary": "Eine „Auswechslung“ der Ministerin sei unumgänglich, auch weil sie sich Kanzler Merz widersetzt habe, sagt der Vize-Chef des Arbeitnehmerflügels. Er wirft Reiche vor, „eine Koalition mit der AfD anzustreben“.",
-        "paragraphs": [
-          "Eine „Auswechslung“ der Ministerin sei unumgänglich, auch weil sie sich Kanzler Merz widersetzt habe, sagt der Vize-Chef des Arbeitnehmerflügels. Er wirft Reiche vor, „eine Koalition mit der AfD anzustreben“."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-reiche-entlassung-forderung-cdu-arbeitnehmerfluegel-li.3463205",
-        "category": "Bundesregierung",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-11T07:40:00.000Z"
       },
       {
         "id": "li.3465745",
@@ -487,6 +487,18 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/mythos-hoelle-des-nordens-gigantenduell-auf-dem-harten-pflaster-von-paris-roubaix-1209257/artikel#omrss",
+        "title": "Mythos \"Hölle des Nordens\": Gigantenduell auf dem harten Pflaster von Paris-Roubaix",
+        "summary": "Es ist der mythische Höhepunkt im Radsportjahr: Paris - Roubaix. Am Sonntag steht wieder die Königin der Klassiker an. Auf dem gefürchteten Kopfsteinpflaster der \"Hölle des Nordens\" kommt es zum nächsten Gigantenduell zwischen Tadej Pogacar und dem dreimaligen Triumphator Mathieu van der Poel.",
+        "paragraphs": [
+          "Es ist der mythische Höhepunkt im Radsportjahr: Paris - Roubaix. Am Sonntag steht wieder die Königin der Klassiker an. Auf dem gefürchteten Kopfsteinpflaster der \"Hölle des Nordens\" kommt es zum nächsten Gigantenduell zwischen Tadej Pogacar und dem dreimaligen Triumphator Mathieu van der Poel."
+        ],
+        "link": "https://www.kicker.de/mythos-hoelle-des-nordens-gigantenduell-auf-dem-harten-pflaster-von-paris-roubaix-1209257/artikel#omrss",
+        "category": "Radsport",
+        "source": "Kicker",
+        "publishedAt": "2026-04-11T10:39:45.000Z"
+      },
+      {
         "id": "https://www.kicker.de/schuster-manchmal-bedarf-es-des-bauchgefuehls-1209400/artikel#omrss",
         "title": "Schuster: \"Manchmal bedarf es des Bauchgefühls\"",
         "summary": "In der Europa League hat der SC Freiburg einen großen Schritt Richtung Halbfinale gemacht. Jetzt will er in der Liga die Chance erhalten, sich für weitere internationale Abende in der kommenden Saison zu qualifizieren.",
@@ -596,7 +608,7 @@
       },
       {
         "id": "cc399ddc-5dc8-4881-b36a-6942de164505",
-        "title": "US Masters: Rory McIlroy führt nach dem zweiten Tag mit Rekordvorsprung",
+        "title": "Golf: Rory McIlroy führt bei US Masters nach dem zweiten Tag mit Rekordvorsprung",
         "summary": "Wer soll Rory McIlroy jetzt noch stoppen? Der Nordire wurde am zweiten Tag des US Masters mit jedem Schlag besser und ließ die Konkurrenz weit hinter sich.",
         "paragraphs": [
           "Wer soll Rory McIlroy jetzt noch stoppen? Der Nordire wurde am zweiten Tag des US Masters mit jedem Schlag besser und ließ die Konkurrenz weit hinter sich."
@@ -713,18 +725,6 @@
         "category": "Arbeloa",
         "source": "Kicker",
         "publishedAt": "2026-04-11T07:53:31.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/fifa-verhaengt-transfersperre-gegen-girondins-bordeaux-1209359/artikel#omrss",
-        "title": "FIFA verhängt Transfersperre gegen Girondins Bordeaux",
-        "summary": "Girondins Bordeaux darf bis 2027 keine neuen Spieler holen. Der nächste Rückschlag für den abgestürzten Traditionsclub. Was steckt hinter dem FIFA-Bann und wie will der Klub jetzt reagieren?",
-        "paragraphs": [
-          "Girondins Bordeaux darf bis 2027 keine neuen Spieler holen. Der nächste Rückschlag für den abgestürzten Traditionsclub. Was steckt hinter dem FIFA-Bann und wie will der Klub jetzt reagieren?"
-        ],
-        "link": "https://www.kicker.de/fifa-verhaengt-transfersperre-gegen-girondins-bordeaux-1209359/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-11T07:39:29.000Z"
       }
     ],
     "edv": [
