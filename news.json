@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-11T11:49:08.025Z",
+  "updatedAt": "2026-04-11T12:36:36.527Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "0ebc42b0-43d9-4892-a6ab-32d66d6ae7fa",
+        "title": "Spritpreis-Debatte: Koalitionsspitzen treffen sich in Berlin",
+        "summary": "Der offen ausgetragene Streit über Maßnahmen gegen die hohen Energiepreise nimmt an Schärfe zu. Der Kanzler trifft sich bereits heute mit den Parteichefs von Union und SPD. Für morgen ist ein Koalitionsausschuss geplant.",
+        "paragraphs": [
+          "Der offen ausgetragene Streit über Maßnahmen gegen die hohen Energiepreise nimmt an Schärfe zu. Der Kanzler trifft sich bereits heute mit den Parteichefs von Union und SPD. Für morgen ist ein Koalitionsausschuss geplant."
+        ],
+        "link": "https://www.tagesschau.de/inland/innenpolitik/spritpreis-koalition-streit-klingbeil-reiche-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-11T12:23:34.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Das-LNG-Paradoxon-die-Welt-sagt-Tschuess-zur-Brueckentechnologie-id30677918.html",
         "title": "Geldsegen verstört US-Gasbranche: Das LNG-Paradoxon - die Welt sagt Tschüss zur Brückentechnologie",
@@ -13,18 +25,6 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-11T09:33:29.000Z"
-      },
-      {
-        "id": "0ebc42b0-43d9-4892-a6ab-32d66d6ae7fa",
-        "title": "Spritpreis-Debatte: Klingbeil pocht auf staatliche Eingriffe",
-        "summary": "Was tun gegen die hohen Energiepreise? Soll der Staat eingreifen oder nicht? SPD-Chef Klingbeil und CDU-Wirtschaftsministerin Reiche streiten in der Öffentlichkeit. Und der Kanzler ist \"befremdet\".",
-        "paragraphs": [
-          "Was tun gegen die hohen Energiepreise? Soll der Staat eingreifen oder nicht? SPD-Chef Klingbeil und CDU-Wirtschaftsministerin Reiche streiten in der Öffentlichkeit. Und der Kanzler ist \"befremdet\"."
-        ],
-        "link": "https://www.tagesschau.de/inland/innenpolitik/spritpreis-koalition-streit-klingbeil-reiche-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-11T09:25:53.000Z"
       },
       {
         "id": "https://www.n-tv.de/wirtschaft/Ryanair-schliesst-Flugstornierungen-im-Sommer-nicht-aus-id30702780.html",
@@ -245,6 +245,18 @@
     ],
     "politik": [
       {
+        "id": "li.3465814",
+        "title": "Bundesregierung: Koalition sucht in Villa Borsig Ausweg aus Spritpreis-Dilemma",
+        "summary": "Vizekanzler gegen Kanzler gegen Wirtschaftsministerin: Die Bundesregierung ist uneins, wie sie mit den hohen Benzinkosten umgehen soll. Nun kommt es zum Krisentreffen an besonderem Ort.",
+        "paragraphs": [
+          "Vizekanzler gegen Kanzler gegen Wirtschaftsministerin: Die Bundesregierung ist uneins, wie sie mit den hohen Benzinkosten umgehen soll. Nun kommt es zum Krisentreffen an besonderem Ort."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/spritpreise-entlastungen-koalition-li.3465814",
+        "category": "Bundesregierung",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-11T12:05:00.000Z"
+      },
+      {
         "id": "76746713",
         "title": "Ukraine-Krieg: Feuerpause zum orthodoxen Osterfest geplant",
         "summary": "Für 32 Stunden sollen die Waffen von diesem Samstagnachmittag an schweigen - auf Vorschlag des russischen Staatschefs Putin. Die ukrainische Führung plädiert nochmals für eine längerfristige Feuerpause.",
@@ -291,18 +303,6 @@
         "category": "Israel",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-11T07:25:00.000Z"
-      },
-      {
-        "id": "li.3465814",
-        "title": "Bundesregierung: Streit um Spritpreis entzweit die Koalition",
-        "summary": "Vizekanzler gegen Kanzler gegen Wirtschaftsministerin: Die Bundesregierung ist uneins, wie sie mit den hohen Benzinkosten umgehen soll. Finanzminister Klingbeil legt nun noch einmal nach.",
-        "paragraphs": [
-          "Vizekanzler gegen Kanzler gegen Wirtschaftsministerin: Die Bundesregierung ist uneins, wie sie mit den hohen Benzinkosten umgehen soll. Finanzminister Klingbeil legt nun noch einmal nach."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/spritpreise-entlastungen-koalition-li.3465814",
-        "category": "Bundesregierung",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-11T07:01:00.000Z"
       },
       {
         "id": "76745664",
@@ -487,13 +487,61 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-showdown-in-monte-carlo-gelingt-zverev-gegen-sinner-der-finaleinzug-1209247/artikel#omrss",
-        "title": "LIVE! Showdown in Monte Carlo: Gelingt Zverev gegen Sinner der Finaleinzug?",
+        "id": "https://www.kicker.de/live-brandt-startet-gegen-ex-klub-bayer-wolfsburg-unter-zugzwang-1208893/artikel#omrss",
+        "title": "LIVE! Brandt startet gegen Ex-Klub Bayer - Wolfsburg unter Zugzwang",
+        "summary": "Am Samstagnachmittag hat Leverkusen ein schweres Auswärtsspiel in Dortmund. Die Werkself muss im Rennen um die Champions League weiter punkten. Punkten muss auch der Vorletzte Wolfsburg zuhause gegen Frankfurt.",
+        "paragraphs": [
+          "Am Samstagnachmittag hat Leverkusen ein schweres Auswärtsspiel in Dortmund. Die Werkself muss im Rennen um die Champions League weiter punkten. Punkten muss auch der Vorletzte Wolfsburg zuhause gegen Frankfurt."
+        ],
+        "link": "https://www.kicker.de/live-brandt-startet-gegen-ex-klub-bayer-wolfsburg-unter-zugzwang-1208893/artikel#omrss",
+        "category": null,
+        "source": "Kicker",
+        "publishedAt": "2026-04-11T12:28:38.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/torwart-ohne-chance-caleta-car-lupft-kurios-ins-eigene-tor-1209417/video#omrss",
+        "title": "Torwart ohne Chance: Caleta-Car lupft kurios ins eigene Tor",
+        "summary": "Real Sociedad San Sebastian lag gegen Deportivo Alaves früh mit 0:1 zurück. Der Grund: ein Eigentor von Innenverteidiger Caleta-Car. Den Treffer gibt es hier im Video.",
+        "paragraphs": [
+          "Real Sociedad San Sebastian lag gegen Deportivo Alaves früh mit 0:1 zurück. Der Grund: ein Eigentor von Innenverteidiger Caleta-Car. Den Treffer gibt es hier im Video."
+        ],
+        "link": "https://www.kicker.de/torwart-ohne-chance-caleta-car-lupft-kurios-ins-eigene-tor-1209417/video#omrss",
+        "category": "Caleta-Car",
+        "source": "Kicker",
+        "publishedAt": "2026-04-11T12:10:42.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/der-dicke-kann-es-nicht-lassen-boyd-verlaengert-doch-1209415/artikel#omrss",
+        "title": "\"Der Dicke kann es nicht lassen\": Boyd verlängert doch",
+        "summary": "Terrence Boyd macht doch weiter. Der Stürmer des SV Waldhof Mannheim setzt seine Karriere bei den Buwe fort.",
+        "paragraphs": [
+          "Terrence Boyd macht doch weiter. Der Stürmer des SV Waldhof Mannheim setzt seine Karriere bei den Buwe fort."
+        ],
+        "link": "https://www.kicker.de/der-dicke-kann-es-nicht-lassen-boyd-verlaengert-doch-1209415/artikel#omrss",
+        "category": "3. Liga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-11T11:57:17.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ea-sports-fc-27-was-wir-ueber-das-neue-spiel-wissen-1209210/artikel#omrss",
+        "title": "EA SPORTS FC 27: Was wir über das neue Spiel wissen",
+        "summary": "In FC 26 wollte EA SPORTS auf die Fans hören - was hat der Entwickler mit FC 27 vor? Die Kampagne für den neuen Teil hat noch nicht begonnen, einiges ist aber schon abzusehen. Wir sammeln die Infos.",
+        "paragraphs": [
+          "In FC 26 wollte EA SPORTS auf die Fans hören - was hat der Entwickler mit FC 27 vor? Die Kampagne für den neuen Teil hat noch nicht begonnen, einiges ist aber schon abzusehen. Wir sammeln die Infos."
+        ],
+        "link": "https://www.kicker.de/ea-sports-fc-27-was-wir-ueber-das-neue-spiel-wissen-1209210/artikel#omrss",
+        "category": "eSport",
+        "source": "Kicker",
+        "publishedAt": "2026-04-11T11:51:55.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-chancenloser-zverev-verliert-satz-1-gegen-sinner-mit-1-6-1209247/artikel#omrss",
+        "title": "LIVE! Chancenloser Zverev verliert Satz 1 gegen Sinner mit 1:6",
         "summary": "Nach einem Dreisatzsieg gegen Shootingstar Fonseca trifft Alexander Zverev im Halbfinale der ATP Masters in Monte Carlo auf Jannik Sinner. Gelingt dem gebürtigen Hamburger im Duell mit dem Italiener der Finaleinzug?",
         "paragraphs": [
           "Nach einem Dreisatzsieg gegen Shootingstar Fonseca trifft Alexander Zverev im Halbfinale der ATP Masters in Monte Carlo auf Jannik Sinner. Gelingt dem gebürtigen Hamburger im Duell mit dem Italiener der Finaleinzug?"
         ],
-        "link": "https://www.kicker.de/live-showdown-in-monte-carlo-gelingt-zverev-gegen-sinner-der-finaleinzug-1209247/artikel#omrss",
+        "link": "https://www.kicker.de/live-chancenloser-zverev-verliert-satz-1-gegen-sinner-mit-1-6-1209247/artikel#omrss",
         "category": "Tennis",
         "source": "Kicker",
         "publishedAt": "2026-04-11T11:33:05.000Z"
@@ -511,13 +559,13 @@
         "publishedAt": "2026-04-11T11:04:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-janssen-und-hofmann-zurueck-gelingt-rwe-der-siebte-sieg-in-folge-lobinger-beginnt-beim-msv-1208807/artikel#omrss",
-        "title": "LIVE! Janssen und Hofmann zurück: Gelingt RWE der siebte Sieg in Folge? - Lobinger beginnt beim MSV",
+        "id": "https://www.kicker.de/live-rwe-muss-ausgleich-durch-maljojoki-schlucken-kein-strafstoss-fuer-den-waldhof-1208807/artikel#omrss",
+        "title": "LIVE! RWE muss Ausgleich durch Maljojoki schlucken - Kein Strafstoß für den Waldhof",
         "summary": "Am 33. Spieltag der laufenden Drittliga-Saison bekommen es die ambitionierten Essener zu Hause mit dem FC Ingolstadt zu tun und können vorerst mit Tabellenführer Osnabrück gleichziehen. Duisburg benötigt einen Sieg in Mannheim, um oben dranzubleiben.",
         "paragraphs": [
           "Am 33. Spieltag der laufenden Drittliga-Saison bekommen es die ambitionierten Essener zu Hause mit dem FC Ingolstadt zu tun und können vorerst mit Tabellenführer Osnabrück gleichziehen. Duisburg benötigt einen Sieg in Mannheim, um oben dranzubleiben."
         ],
-        "link": "https://www.kicker.de/live-janssen-und-hofmann-zurueck-gelingt-rwe-der-siebte-sieg-in-folge-lobinger-beginnt-beim-msv-1208807/artikel#omrss",
+        "link": "https://www.kicker.de/live-rwe-muss-ausgleich-durch-maljojoki-schlucken-kein-strafstoss-fuer-den-waldhof-1208807/artikel#omrss",
         "category": "1. FC Saarbrücken",
         "source": "Kicker",
         "publishedAt": "2026-04-11T11:00:11.000Z"
@@ -560,7 +608,7 @@
       },
       {
         "id": "https://www.kicker.de/arsenal-gegen-bournemouth-2026-premier-league-5045314/spielbericht#omrss",
-        "title": "LIVE! Havertz startet: Underdog Bournemouth gastiert bei Spitzenreiter Arsenal",
+        "title": "LIVE! Handelfmeter: Gyökeres gleicht vom Punkt aus",
         "summary": "Nach zwei verspielten Titeln fand der FC Arsenal in der Königsklasse zurück in die Spur. Gegen Bournemouth wollen die Gunners auch national wieder siegen und ManCity im Meisterrennen vorerst distanzieren.",
         "paragraphs": [
           "Nach zwei verspielten Titeln fand der FC Arsenal in der Königsklasse zurück in die Spur. Gegen Bournemouth wollen die Gunners auch national wieder siegen und ManCity im Meisterrennen vorerst distanzieren."
@@ -583,13 +631,13 @@
         "publishedAt": "2026-04-11T10:25:49.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-sessa-prueft-krahl-nuernberg-schlaegt-dresdens-einladungen-aus-kellergipfel-in-muenster-1208834/artikel#omrss",
-        "title": "LIVE! Sessa prüft Krahl - Nürnberg schlägt Dresdens Einladungen aus - Kellergipfel in Münster",
+        "id": "https://www.kicker.de/live-hertha-verliert-den-faden-koudossou-ins-eigene-netz-muenster-weiterhin-besser-1208834/artikel#omrss",
+        "title": "LIVE! Hertha verliert den Faden - Koudossou ins eigene Netz - Münster weiterhin besser",
         "summary": "Fürth gastiert beim Schlusslicht und gleichzeitigem Tabellennachbarn in Münster und darf auf keinen Fall verlieren, um nicht auf Rang 18 abzurutschen. Gleichzeitig kämpft Hertha am anderen Tabellenende im Heimspiel gegen den FCK darum, ernsthaft im Aufstiegsrennen mitzumischen. Der FCN hat die ebenfalls abstiegsbedrohten Dresdner zu Gast.",
         "paragraphs": [
           "Fürth gastiert beim Schlusslicht und gleichzeitigem Tabellennachbarn in Münster und darf auf keinen Fall verlieren, um nicht auf Rang 18 abzurutschen. Gleichzeitig kämpft Hertha am anderen Tabellenende im Heimspiel gegen den FCK darum, ernsthaft im Aufstiegsrennen mitzumischen. Der FCN hat die ebenfalls abstiegsbedrohten Dresdner zu Gast."
         ],
-        "link": "https://www.kicker.de/live-sessa-prueft-krahl-nuernberg-schlaegt-dresdens-einladungen-aus-kellergipfel-in-muenster-1208834/artikel#omrss",
+        "link": "https://www.kicker.de/live-hertha-verliert-den-faden-koudossou-ins-eigene-netz-muenster-weiterhin-besser-1208834/artikel#omrss",
         "category": "2. Bundesliga",
         "source": "Kicker",
         "publishedAt": "2026-04-11T10:02:30.000Z"
@@ -631,6 +679,18 @@
         "publishedAt": "2026-04-11T09:43:06.000Z"
       },
       {
+        "id": "https://www.kicker.de/live-auf-freiberg-wartet-die-hohe-huerde-homburg-kickers-vs-fsv-1195432/artikel#omrss",
+        "title": "LIVE! Auf Freiberg wartet die hohe Hürde Homburg - Kickers vs. FSV",
+        "summary": "An der Spitze herrscht noch Spannung. Nach dem jüngsten Erfolg der Großaspacher möchte sich der SGV Freiberg am Samstag die Spitze zurückholen. Dafür aber geht es zum spielfreudigen FC Homburg. Ein weiteres attraktives Duell steigt in Stuttgart-Degerloch.",
+        "paragraphs": [
+          "An der Spitze herrscht noch Spannung. Nach dem jüngsten Erfolg der Großaspacher möchte sich der SGV Freiberg am Samstag die Spitze zurückholen. Dafür aber geht es zum spielfreudigen FC Homburg. Ein weiteres attraktives Duell steigt in Stuttgart-Degerloch."
+        ],
+        "link": "https://www.kicker.de/live-auf-freiberg-wartet-die-hohe-huerde-homburg-kickers-vs-fsv-1195432/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-11T09:41:11.000Z"
+      },
+      {
         "id": "https://www.kicker.de/einige-positionen-noch-nicht-sicher-bundestrainer-wueck-schildert-seinen-wm-plan-1209236/artikel#omrss",
         "title": "\"Einige Positionen noch nicht sicher\": Bundestrainer Wück schildert seinen WM-Plan",
         "summary": "Die neue Folge kicker Daily!",
@@ -665,66 +725,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-04-11T09:03:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wer-schiesst-das-rekordtor-fuer-den-fc-bayern-1209113/artikel#omrss",
-        "title": "Wer schießt das Rekordtor für den FC Bayern?",
-        "summary": "Am vergangenen Samstag knackte der FC Bayern zum dritten Mal in seiner Geschichte und als einziges Team die Marke von hundert Saisontoren in der Bundesliga. Am Samstagabend könnte der Uralt-Rekord von 101 egalisiert und verbessert werden.",
-        "paragraphs": [
-          "Am vergangenen Samstag knackte der FC Bayern zum dritten Mal in seiner Geschichte und als einziges Team die Marke von hundert Saisontoren in der Bundesliga. Am Samstagabend könnte der Uralt-Rekord von 101 egalisiert und verbessert werden."
-        ],
-        "link": "https://www.kicker.de/wer-schiesst-das-rekordtor-fuer-den-fc-bayern-1209113/artikel#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-04-11T08:51:17.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/eisbaeren-coach-aubin-wir-haben-aufgehoert-zu-spielen-1209363/artikel#omrss",
-        "title": "Eisbären-Coach Aubin: \"Wir haben aufgehört zu spielen\"",
-        "summary": "Nach einem Leistungseinbruch im zweiten Drittel verlieren die Berliner das zweite DEL-Halbfinale gegen Köln mit 1:5. Bis zum nächsten Spiel am Sonntag gilt es nun, die richtigen Lehren zu ziehen.",
-        "paragraphs": [
-          "Nach einem Leistungseinbruch im zweiten Drittel verlieren die Berliner das zweite DEL-Halbfinale gegen Köln mit 1:5. Bis zum nächsten Spiel am Sonntag gilt es nun, die richtigen Lehren zu ziehen."
-        ],
-        "link": "https://www.kicker.de/eisbaeren-coach-aubin-wir-haben-aufgehoert-zu-spielen-1209363/artikel#omrss",
-        "category": "Aubin",
-        "source": "Kicker",
-        "publishedAt": "2026-04-11T08:07:20.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/champions-league-sieger-dante-soll-u-23-coach-beim-fc-bayern-werden-1209366/artikel#omrss",
-        "title": "Champions-League-Sieger Dante soll U-23-Coach beim FC Bayern werden",
-        "summary": "Im Nachwuchs des FC Bayern gibt es im kommenden Sommer Veränderungen. Ein Ex-Spieler soll dann die älteste Jugendmannschaft der Münchner übernehmen.",
-        "paragraphs": [
-          "Im Nachwuchs des FC Bayern gibt es im kommenden Sommer Veränderungen. Ein Ex-Spieler soll dann die älteste Jugendmannschaft der Münchner übernehmen."
-        ],
-        "link": "https://www.kicker.de/champions-league-sieger-dante-soll-u-23-coach-beim-fc-bayern-werden-1209366/artikel#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-04-11T08:04:30.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wie-funktioniert-der-nfl-draft-1209367/artikel#omrss",
-        "title": "Wie funktioniert der NFL Draft?",
-        "summary": "Der NFL Draft stellt das wichtigste strategische Ereignis der gesamten Offseason dar und bildet das Fundament für den langfristigen Erfolg einer Franchise. Einmal im Jahr blickt die gesamte Sportwelt auf dieses mehrtägige Event, bei dem die Weichen für die sportliche Zukunft der 32 Teams gestellt werden. Es ist der entscheidende Moment, in dem aus hoffnungsvollen Talenten der Colleges die nächsten Superstars der National Football League werden.",
-        "paragraphs": [
-          "Der NFL Draft stellt das wichtigste strategische Ereignis der gesamten Offseason dar und bildet das Fundament für den langfristigen Erfolg einer Franchise. Einmal im Jahr blickt die gesamte Sportwelt auf dieses mehrtägige Event, bei dem die Weichen für die sportliche Zukunft der 32 Teams gestellt werden. Es ist der entscheidende Moment, in dem aus hoffnungsvollen Talenten der Colleges die nächsten Superstars der National Football League werden."
-        ],
-        "link": "https://www.kicker.de/wie-funktioniert-der-nfl-draft-1209367/artikel#omrss",
-        "category": "Football",
-        "source": "Kicker",
-        "publishedAt": "2026-04-11T08:04:26.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/die-bucks-angeschrien-vorwuerfe-gegen-star-reporter-shams-charania-1209365/artikel#omrss",
-        "title": "\"Die Bucks angeschrien\": Vorwürfe gegen Star-Reporter Shams Charania",
-        "summary": "Shams Charania gilt als einer der renommiertesten Reporter im NBA-Business. Nach einem kritischen Artikel des ESPN-Journalisten erhebt Bucks-Coach Doc Rivers nun schwere Vorwürfe. Ihm zufolge habe Charania einen Witz in den falschen Hals bekommen und daraufhin Rache geübt.",
-        "paragraphs": [
-          "Shams Charania gilt als einer der renommiertesten Reporter im NBA-Business. Nach einem kritischen Artikel des ESPN-Journalisten erhebt Bucks-Coach Doc Rivers nun schwere Vorwürfe. Ihm zufolge habe Charania einen Witz in den falschen Hals bekommen und daraufhin Rache geübt."
-        ],
-        "link": "https://www.kicker.de/die-bucks-angeschrien-vorwuerfe-gegen-star-reporter-shams-charania-1209365/artikel#omrss",
-        "category": "Antetokounmpo",
-        "source": "Kicker",
-        "publishedAt": "2026-04-11T08:03:57.000Z"
       }
     ],
     "edv": [
