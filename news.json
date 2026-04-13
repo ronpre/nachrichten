@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-13T08:32:29.210Z",
+  "updatedAt": "2026-04-13T09:17:38.275Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "2383ff39-0c3e-4b86-aa5c-be09e2d82873",
+        "title": "Marktbericht: DAX startet mit Verlusten in die Woche",
+        "summary": "Nach der angekündigten US-Blockade der Straße von Hormus startet der DAX mit einem Minus in die Handelswoche. Die Lage im Nahen Osten dürfte weiter für volatile Kurse sorgen. Die Ölpreise steigen massiv.",
+        "paragraphs": [
+          "Nach der angekündigten US-Blockade der Straße von Hormus startet der DAX mit einem Minus in die Handelswoche. Die Lage im Nahen Osten dürfte weiter für volatile Kurse sorgen. Die Ölpreise steigen massiv."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-boerse-blockade-hormus-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-13T08:55:57.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Europaeischer-Erdgaspreis-schiesst-in-die-Hoehe-id30707391.html",
         "title": "Nach Trumps neuer Ankündigung: Europäischer Erdgaspreis schießt in die Höhe",
@@ -25,18 +37,6 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-13T08:07:55.000Z"
-      },
-      {
-        "id": "2383ff39-0c3e-4b86-aa5c-be09e2d82873",
-        "title": "Marktbericht: US-Seeblockade macht Anleger nervös",
-        "summary": "Die Ankündigung der US-Blockade in der Straße von Hormus dürfte die weltweiten Märkte heute beschäftigen. Erste negative Impulse kommen aus Asien. Auch der Ölpreis zog wieder an - über die Marke von 100 Dollar.",
-        "paragraphs": [
-          "Die Ankündigung der US-Blockade in der Straße von Hormus dürfte die weltweiten Märkte heute beschäftigen. Erste negative Impulse kommen aus Asien. Auch der Ölpreis zog wieder an - über die Marke von 100 Dollar."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-boerse-blockade-hormus-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-13T06:38:27.000Z"
       },
       {
         "id": "https://www.n-tv.de/wirtschaft/boersenkurse/Ungarische-Waehrung-legt-nach-Orbans-Niederlage-zu-id30707011.html",
@@ -256,7 +256,7 @@
       },
       {
         "id": "er.e188438",
-        "title": "Ungarn: Erdrutschsieg für die Tisza-Partei",
+        "title": "Ungarn: Freudenfest in Budapest",
         "summary": "Nach 16 Jahren muss Viktor Orbán die Macht abgeben. Bilder eines historischen Wahltags.",
         "paragraphs": [
           "Nach 16 Jahren muss Viktor Orbán die Macht abgeben. Bilder eines historischen Wahltags."
@@ -479,6 +479,102 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/der-wichtigste-sommer-der-franchise-historie-der-letzte-akt-im-giannis-drama-1209907/artikel#omrss",
+        "title": "Der wichtigste Sommer der Franchise-Historie: Der letzte Akt im Giannis-Drama",
+        "summary": "Die Milwaukee Bucks haben erstmals seit zehn Jahren die Playoffs verpasst. Das Drama rund um Giannis Antetokounmpo geht weiter, allerdings wird es mit großer Sicherheit in diesem Sommer eine Entscheidung geben. Welche Optionen gibt es?",
+        "paragraphs": [
+          "Die Milwaukee Bucks haben erstmals seit zehn Jahren die Playoffs verpasst. Das Drama rund um Giannis Antetokounmpo geht weiter, allerdings wird es mit großer Sicherheit in diesem Sommer eine Entscheidung geben. Welche Optionen gibt es?"
+        ],
+        "link": "https://www.kicker.de/der-wichtigste-sommer-der-franchise-historie-der-letzte-akt-im-giannis-drama-1209907/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-13T09:00:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/der-freiburg-mix-knallende-korken-ungestillte-gier-1209904/artikel#omrss",
+        "title": "Der Freiburg-Mix: Knallende Korken, ungestillte Gier",
+        "summary": "Mit dem 1:0 in Mainz bleibt Freiburg in der Liga Frankfurt auf den Fersen. Statt Abnutzungserscheinungen resultiert aus der Dreifachbelastung ein Flow.",
+        "paragraphs": [
+          "Mit dem 1:0 in Mainz bleibt Freiburg in der Liga Frankfurt auf den Fersen. Statt Abnutzungserscheinungen resultiert aus der Dreifachbelastung ein Flow."
+        ],
+        "link": "https://www.kicker.de/der-freiburg-mix-knallende-korken-ungestillte-gier-1209904/artikel#omrss",
+        "category": "Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-13T08:55:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/der-unsterbliche-innerhofer-laesst-paris-und-tumler-weit-hinter-sich-1209953/artikel#omrss",
+        "title": "Der unsterbliche Innerhofer lässt Paris und Tumler weit hinter sich",
+        "summary": "Mit dem Ende der Ski-Saison 2025/26 verabschiedeten sich gleich mehrere Athleten aus dem aktiven Skirennsport. \"Alte Hasen\" gibt es allerdings weiterhin - diese sind nicht weniger erfolgreich.",
+        "paragraphs": [
+          "Mit dem Ende der Ski-Saison 2025/26 verabschiedeten sich gleich mehrere Athleten aus dem aktiven Skirennsport. \"Alte Hasen\" gibt es allerdings weiterhin - diese sind nicht weniger erfolgreich."
+        ],
+        "link": "https://www.kicker.de/der-unsterbliche-innerhofer-laesst-paris-und-tumler-weit-hinter-sich-1209953/artikel#omrss",
+        "category": "Ski Alpin",
+        "source": "Kicker",
+        "publishedAt": "2026-04-13T08:45:49.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/koelns-erloesung-mit-einschraenkungen-das-war-mir-nicht-zielstrebig-genug-1209900/artikel#omrss",
+        "title": "Kölns Erlösung mit Einschränkungen: \"Das war mir nicht zielstrebig genug\"",
+        "summary": "Nach acht Partien ohne Sieg ging der 1. FC Köln gegen Werder Bremen mal wieder als Gewinner vom Rasen. Das erleichtert den Aufsteiger ungemein, doch die Baustellen sind nicht weniger geworden.",
+        "paragraphs": [
+          "Nach acht Partien ohne Sieg ging der 1. FC Köln gegen Werder Bremen mal wieder als Gewinner vom Rasen. Das erleichtert den Aufsteiger ungemein, doch die Baustellen sind nicht weniger geworden."
+        ],
+        "link": "https://www.kicker.de/koelns-erloesung-mit-einschraenkungen-das-war-mir-nicht-zielstrebig-genug-1209900/artikel#omrss",
+        "category": "1. FC Köln",
+        "source": "Kicker",
+        "publishedAt": "2026-04-13T08:45:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/diks-castrop-und-neue-sorgen-in-gladbachs-defensive-1209913/artikel#omrss",
+        "title": "Diks, Castrop und neue Sorgen in Gladbachs Defensive",
+        "summary": "Zwei Stammspieler von Borussia Mönchengladbach mussten bei der 0:1-Niederlage in Leipzig vorzeitig vom Platz. Die Diagnosen stehen aus.",
+        "paragraphs": [
+          "Zwei Stammspieler von Borussia Mönchengladbach mussten bei der 0:1-Niederlage in Leipzig vorzeitig vom Platz. Die Diagnosen stehen aus."
+        ],
+        "link": "https://www.kicker.de/diks-castrop-und-neue-sorgen-in-gladbachs-defensive-1209913/artikel#omrss",
+        "category": "Bor. Mönchengladbach",
+        "source": "Kicker",
+        "publishedAt": "2026-04-13T08:44:52.000Z"
+      },
+      {
+        "id": "li.3465575",
+        "title": "Radrennen Paris–Roubaix: Auf diesem Pflaster geht es wild zu",
+        "summary": "Wout van Aert entreißt Tadej Pogacar bei Paris–Roubaix den fehlenden Sieg auf der Landkarte der Monumente. Über einen Radklassiker auf historisch tragischem Terrain – und die Widmung an einen Verstorbenen.",
+        "paragraphs": [
+          "Wout van Aert entreißt Tadej Pogacar bei Paris–Roubaix den fehlenden Sieg auf der Landkarte der Monumente. Über einen Radklassiker auf historisch tragischem Terrain – und die Widmung an einen Verstorbenen."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/paris-roubaix-radrennen-pogacar-van-aert-li.3465575",
+        "category": "Radsport",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-13T08:42:29.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ny-islanders-gegen-montreal-2026-nhl-5092710/spielbericht#omrss",
+        "title": "Utah in den Playoffs - Stützle geschont - Reinbacher-Assist bei NHL-Debüt",
+        "summary": "Der junge Österreicher David Reinbacher hat bei seinem Debüt in der National Hockey League für positive Schlagzeilen gesorgt. J.J. Peterka steht mit Utah derweil als Playoff-Teilnehmer fest.",
+        "paragraphs": [
+          "Der junge Österreicher David Reinbacher hat bei seinem Debüt in der National Hockey League für positive Schlagzeilen gesorgt. J.J. Peterka steht mit Utah derweil als Playoff-Teilnehmer fest."
+        ],
+        "link": "https://www.kicker.de/ny-islanders-gegen-montreal-2026-nhl-5092710/spielbericht#omrss",
+        "category": "Eishockey",
+        "source": "Kicker",
+        "publishedAt": "2026-04-13T08:39:16.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/schalke-legt-einspruch-gegen-ndiaye-sperre-ein-1209943/artikel#omrss",
+        "title": "Schalke legt Einspruch gegen Ndiaye-Sperre ein",
+        "summary": "Die unberechtigte Gelb-Rote Karte für Moussa Ndiaye hat ein Nachspiel: Schalke 04 legt Einspruch gegen die in diesem Fall obligatorische Sperre von einem Spiel ein. Die Aussicht auf Erfolg scheint groß.",
+        "paragraphs": [
+          "Die unberechtigte Gelb-Rote Karte für Moussa Ndiaye hat ein Nachspiel: Schalke 04 legt Einspruch gegen die in diesem Fall obligatorische Sperre von einem Spiel ein. Die Aussicht auf Erfolg scheint groß."
+        ],
+        "link": "https://www.kicker.de/schalke-legt-einspruch-gegen-ndiaye-sperre-ein-1209943/artikel#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-13T08:29:26.000Z"
+      },
+      {
         "id": "https://www.kicker.de/hilft-das-wetter-mancity-das-ist-kein-witz-1209938/artikel#omrss",
         "title": "Hilft das Wetter ManCity? \"Das ist kein Witz!\"",
         "summary": "Manchester City ist vor dem womöglich vorentscheidenden Duell mit Arsenal mental obenauf. Das hat laut Pep Guardiola auch mit dem Wetter zu tun.",
@@ -513,6 +609,18 @@
         "category": "1. FC Nürnberg",
         "source": "Kicker",
         "publishedAt": "2026-04-13T08:14:17.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/so-viel-cash-bekommen-first-round-picks-1208938/artikel#omrss",
+        "title": "So viel Cash bekommen First Round Picks",
+        "summary": "Im NFL Draft unter den ersten 32 Spielern zu sein, lohnt sich nicht nur für das eigene Ego, sondern auch finanziell. Doch wie die sogenannte Rookie Wage Scale funktioniert und warum es sie überhaupt gibt, erfahrt ihr hier.",
+        "paragraphs": [
+          "Im NFL Draft unter den ersten 32 Spielern zu sein, lohnt sich nicht nur für das eigene Ego, sondern auch finanziell. Doch wie die sogenannte Rookie Wage Scale funktioniert und warum es sie überhaupt gibt, erfahrt ihr hier."
+        ],
+        "link": "https://www.kicker.de/so-viel-cash-bekommen-first-round-picks-1208938/artikel#omrss",
+        "category": "Football",
+        "source": "Kicker",
+        "publishedAt": "2026-04-13T08:13:00.000Z"
       },
       {
         "id": "li.3458200",
@@ -609,114 +717,6 @@
         "category": "Basketball",
         "source": "Kicker",
         "publishedAt": "2026-04-13T06:36:19.000Z"
-      },
-      {
-        "id": "a5024f02-19c0-429f-8bd8-da1d361bd723",
-        "title": "Radsport: »Sie ist ein Monster« – Franziska Koch gewinnt als erste deutsche Frau bei Paris-Roubaix",
-        "summary": "Es ist der größte Erfolg ihrer Karriere und ein historischer für den deutschen Radsport. Franziska Koch gewinnt bei Paris–Roubaix und lässt auch ihre Rivalinnen schwärmen.",
-        "paragraphs": [
-          "Es ist der größte Erfolg ihrer Karriere und ein historischer für den deutschen Radsport. Franziska Koch gewinnt bei Paris–Roubaix und lässt auch ihre Rivalinnen schwärmen."
-        ],
-        "link": "https://www.spiegel.de/sport/radsport/radsport-sie-ist-ein-monster-franziska-koch-gewinnt-als-erste-deutsche-frau-bei-paris-roubaix-a-a5024f02-19c0-429f-8bd8-da1d361bd723#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-13T06:33:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/drama-bis-zum-ende-mcilroy-schreibt-masters-geschichte-1209895/artikel#omrss",
-        "title": "Drama bis zum Ende: McIlroy schreibt Masters-Geschichte",
-        "summary": "Rory McIlroy holt sich beim Masters nach einer dramatischen Schlussrunde zum zweiten Mal in Folge das Grüne Jackett und stößt in eine elitäre Runde vor. Der Weg dorthin war knifflig.",
-        "paragraphs": [
-          "Rory McIlroy holt sich beim Masters nach einer dramatischen Schlussrunde zum zweiten Mal in Folge das Grüne Jackett und stößt in eine elitäre Runde vor. Der Weg dorthin war knifflig."
-        ],
-        "link": "https://www.kicker.de/drama-bis-zum-ende-mcilroy-schreibt-masters-geschichte-1209895/artikel#omrss",
-        "category": "Golf",
-        "source": "Kicker",
-        "publishedAt": "2026-04-13T06:28:23.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/toedlicher-unfall-wirft-schatten-auf-nfl-toptalent-der-fall-rueben-bain-1209892/artikel#omrss",
-        "title": "Tödlicher Unfall wirft Schatten auf NFL-Toptalent: Der Fall Rueben Bain",
-        "summary": "Wenige Tage vor dem NFL Draft sorgt ein bislang kaum bekanntes Ereignis für erhebliche Unruhe in der Liga: Ein tödlicher Verkehrsunfall aus dem Jahr 2024 rückt plötzlich in den Fokus rund um Top-Prospect Rueben Bain.",
-        "paragraphs": [
-          "Wenige Tage vor dem NFL Draft sorgt ein bislang kaum bekanntes Ereignis für erhebliche Unruhe in der Liga: Ein tödlicher Verkehrsunfall aus dem Jahr 2024 rückt plötzlich in den Fokus rund um Top-Prospect Rueben Bain."
-        ],
-        "link": "https://www.kicker.de/toedlicher-unfall-wirft-schatten-auf-nfl-toptalent-der-fall-rueben-bain-1209892/artikel#omrss",
-        "category": "Football",
-        "source": "Kicker",
-        "publishedAt": "2026-04-13T06:19:48.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hildmann-ueber-1860-die-haben-halt-so-nen-haugen-1209885/video#omrss",
-        "title": "Hildmann über 1860: \"Die haben halt so 'nen Haugen\"",
-        "summary": "Jahn Regensburg holte gegen 1860 München ein 2:2 und Trainer Sascha Hildmann sprach nach dem Spiel über die Leistung und den Einsatz seiner Mannschaft.",
-        "paragraphs": [
-          "Jahn Regensburg holte gegen 1860 München ein 2:2 und Trainer Sascha Hildmann sprach nach dem Spiel über die Leistung und den Einsatz seiner Mannschaft."
-        ],
-        "link": "https://www.kicker.de/hildmann-ueber-1860-die-haben-halt-so-nen-haugen-1209885/video#omrss",
-        "category": "3. Liga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-13T06:03:28.000Z"
-      },
-      {
-        "id": "fdcee306-14c9-4aca-a133-437957ae768c",
-        "title": "Fortuna Düsseldorf: Alexander Ende übernimmt von Trainer Markus Anfang",
-        "summary": "Was wie ein billiges Wortspiel klingt, ist für die Fortuna das wohl letzte Mittel gegen den Abstieg: Trainer Markus Anfang muss gehen. Der erst vor einem Monat beim Konkurrenten entlassene Alexander Ende übernimmt.",
-        "paragraphs": [
-          "Was wie ein billiges Wortspiel klingt, ist für die Fortuna das wohl letzte Mittel gegen den Abstieg: Trainer Markus Anfang muss gehen. Der erst vor einem Monat beim Konkurrenten entlassene Alexander Ende übernimmt."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/fortuna-duesseldorf-alexander-ende-uebernimmt-von-trainer-markus-anfang-a-fdcee306-14c9-4aca-a133-437957ae768c#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-13T05:52:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/guardiola-man-tut-so-als-haette-man-alles-im-griff-1209861/video#omrss",
-        "title": "Guardiola: \"Man tut so, als hätte man alles im Griff\"",
-        "summary": "Nach Arsenals Patzer meldet sich Manchester City mit einem 3:0-Sieg gegen Chelsea im Meisterschaftskampf zurück. Trainer Pep Guardiola schwört seine Mannschaft ein und blickt auf das Duell gegen die Gunners.",
-        "paragraphs": [
-          "Nach Arsenals Patzer meldet sich Manchester City mit einem 3:0-Sieg gegen Chelsea im Meisterschaftskampf zurück. Trainer Pep Guardiola schwört seine Mannschaft ein und blickt auf das Duell gegen die Gunners."
-        ],
-        "link": "https://www.kicker.de/guardiola-man-tut-so-als-haette-man-alles-im-griff-1209861/video#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-13T05:47:04.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hat-ein-coaching-fehler-den-magic-den-sieg-gekostet-1209875/artikel#omrss",
-        "title": "Hat ein Coaching-Fehler den Magic den Sieg gekostet?",
-        "summary": "Die Orlando Magic haben am letzten Spieltag der regulären Saison den wichtigen siebten Tabellenplatz aus der Hand gegeben. Dabei führte das Team noch bis zur Pause. Eine Rotations-Entscheidung von Trainer Mosley wird nun kontrovers diskutiert.",
-        "paragraphs": [
-          "Die Orlando Magic haben am letzten Spieltag der regulären Saison den wichtigen siebten Tabellenplatz aus der Hand gegeben. Dabei führte das Team noch bis zur Pause. Eine Rotations-Entscheidung von Trainer Mosley wird nun kontrovers diskutiert."
-        ],
-        "link": "https://www.kicker.de/hat-ein-coaching-fehler-den-magic-den-sieg-gekostet-1209875/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-13T04:39:57.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/uns-selbst-ein-loch-gegraben-orlando-hadert-mit-fatalem-dritten-viertel-1209874/artikel#omrss",
-        "title": "\"Uns selbst ein Loch gegraben\": Orlando hadert mit fatalem dritten Viertel",
-        "summary": "Franz Wagner verliert mit Orlando bei einer Rumpftruppe der Boston Celtics und muss nun den Umweg über das Play-in-Turnier nehmen.",
-        "paragraphs": [
-          "Franz Wagner verliert mit Orlando bei einer Rumpftruppe der Boston Celtics und muss nun den Umweg über das Play-in-Turnier nehmen."
-        ],
-        "link": "https://www.kicker.de/uns-selbst-ein-loch-gegraben-orlando-hadert-mit-fatalem-dritten-viertel-1209874/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-13T04:13:56.000Z"
-      },
-      {
-        "id": "{urn:uuid:1eb88092-efd2-413f-9f55-ec27482e009d}",
-        "title": "Bundesligarückschau: Den Ehevertrag bitte, Herr Schlotterbeck",
-        "summary": "Nico Schlotterbeck verlängert endlich, doch im Dortmunder Stadion gibt es Pfiffe. Und eine Cheftrainerin in der Bundesliga! Alles Wichtige zum revolutionären 29. Spieltag",
-        "paragraphs": [
-          "Nico Schlotterbeck verlängert endlich, doch im Dortmunder Stadion gibt es Pfiffe. Und eine Cheftrainerin in der Bundesliga! Alles Wichtige zum revolutionären 29. Spieltag"
-        ],
-        "link": "https://www.zeit.de/sport/2026-04/bundesliga-rueckschau-nico-schlotterbeck-vertragsverlaengerung-marie-louise-eta",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-04-13T04:00:54.000Z"
       }
     ],
     "edv": [
@@ -733,16 +733,16 @@
         "publishedAt": "2026-04-12T08:06:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/CySecMed-Jetzt-Vortraege-einreichen-11251725.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: CySecMed: Jetzt Vorträge einreichen",
-        "summary": "Fachkräfte aus Medizintechnik, Cyber Security und Softwareentwicklung können bis zum XX.XX.2026 Vorträge einreichen. 13.–14.10.2026 in München-Unterhaching.",
+        "id": "https://www.heise.de/news/MacBook-Neo-Apples-Strategie-im-Bildungsgeschaeft-11214635.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "MacBook Neo: Apples Strategie im Bildungsgeschäft",
+        "summary": "Der bislang billigste Mobil-Mac als eine Art Einstiegsdroge: Das Neo könnte Apple nicht nur gegen Chromebook und PC-Laptops an Schule und Uni positionieren.",
         "paragraphs": [
-          "Fachkräfte aus Medizintechnik, Cyber Security und Softwareentwicklung können bis zum XX.XX.2026 Vorträge einreichen. 13.–14.10.2026 in München-Unterhaching."
+          "Der bislang billigste Mobil-Mac als eine Art Einstiegsdroge: Das Neo könnte Apple nicht nur gegen Chromebook und PC-Laptops an Schule und Uni positionieren."
         ],
-        "link": "https://www.heise.de/news/CySecMed-Jetzt-Vortraege-einreichen-11251725.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/MacBook-Neo-Apples-Strategie-im-Bildungsgeschaeft-11214635.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-13T08:00:00.000Z"
+        "publishedAt": "2026-04-13T08:43:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Video-Glasfaser-Heissklebepistole-Die-Loesung-fuer-langsame-Heimnetze-11250589.html",
@@ -757,16 +757,16 @@
         "publishedAt": "2026-04-12T08:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Angreifer-attackieren-Phyton-Notebook-Marimo-11254095.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Angreifer attackieren Phyton-Notebook Marimo",
-        "summary": "Aufgrund von zurzeit laufenden Attacken sollten Softwareentwickler Marimo zügig auf den aktuellen Stand bringen.",
+        "id": "https://www.heise.de/news/CySecMed-Jetzt-Vortraege-einreichen-11251725.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: CySecMed: Jetzt Vorträge einreichen",
+        "summary": "Fachkräfte aus Medizintechnik, Cyber Security und Softwareentwicklung können bis zum XX.XX.2026 Vorträge einreichen. 13.–14.10.2026 in München-Unterhaching.",
         "paragraphs": [
-          "Aufgrund von zurzeit laufenden Attacken sollten Softwareentwickler Marimo zügig auf den aktuellen Stand bringen."
+          "Fachkräfte aus Medizintechnik, Cyber Security und Softwareentwicklung können bis zum XX.XX.2026 Vorträge einreichen. 13.–14.10.2026 in München-Unterhaching."
         ],
-        "link": "https://www.heise.de/news/Angreifer-attackieren-Phyton-Notebook-Marimo-11254095.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/CySecMed-Jetzt-Vortraege-einreichen-11251725.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-13T07:51:00.000Z"
+        "publishedAt": "2026-04-13T08:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Die-Vorzuege-gebrauchter-PCs-c-t-uplink-11251905.html",
@@ -781,16 +781,16 @@
         "publishedAt": "2026-04-11T04:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Smartphonemarkt-Apple-ueberholt-Samsung-im-ersten-Quartal-2026-11253921.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Smartphonemarkt schrumpfte im 1. Quartal: Apple trotzt dem Trend",
-        "summary": "Der weltweite Smartphonemarkt war im ersten Quartal 2026 rückläufig. Nur Apple legte mit seinen iPhones zu und überholte erstmals Samsung.",
+        "id": "https://www.heise.de/news/Angreifer-attackieren-Phyton-Notebook-Marimo-11254095.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Angreifer attackieren Python-Notebook Marimo",
+        "summary": "Aufgrund von zurzeit laufenden Attacken sollten Softwareentwickler Marimo zügig auf den aktuellen Stand bringen.",
         "paragraphs": [
-          "Der weltweite Smartphonemarkt war im ersten Quartal 2026 rückläufig. Nur Apple legte mit seinen iPhones zu und überholte erstmals Samsung."
+          "Aufgrund von zurzeit laufenden Attacken sollten Softwareentwickler Marimo zügig auf den aktuellen Stand bringen."
         ],
-        "link": "https://www.heise.de/news/Smartphonemarkt-Apple-ueberholt-Samsung-im-ersten-Quartal-2026-11253921.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Angreifer-attackieren-Phyton-Notebook-Marimo-11254095.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-13T07:18:00.000Z"
+        "publishedAt": "2026-04-13T07:51:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Das-kann-OpenClaw-in-der-PRAXIS-c-t-3003-11252789.html",
@@ -805,16 +805,16 @@
         "publishedAt": "2026-04-10T14:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Fraunhofer-entwickelt-leichten-leistungsstarken-Elektromotor-fuer-Flugzeuge-11253825.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Fraunhofer entwickelt leichten leistungsstarken Elektromotor für Flugzeuge",
-        "summary": "Kleinere leichtere Antriebe sollen in der Luftfahrt für niedrigere CO₂-Ausstöße sorgen. Fraunhofer hat einen effizienten Elektromotor entwickelt.",
+        "id": "https://www.heise.de/news/Smartphonemarkt-Apple-ueberholt-Samsung-im-ersten-Quartal-2026-11253921.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Smartphonemarkt schrumpfte im 1. Quartal: Apple trotzt dem Trend",
+        "summary": "Der weltweite Smartphonemarkt war im ersten Quartal 2026 rückläufig. Nur Apple legte mit seinen iPhones zu und überholte erstmals Samsung.",
         "paragraphs": [
-          "Kleinere leichtere Antriebe sollen in der Luftfahrt für niedrigere CO₂-Ausstöße sorgen. Fraunhofer hat einen effizienten Elektromotor entwickelt."
+          "Der weltweite Smartphonemarkt war im ersten Quartal 2026 rückläufig. Nur Apple legte mit seinen iPhones zu und überholte erstmals Samsung."
         ],
-        "link": "https://www.heise.de/news/Fraunhofer-entwickelt-leichten-leistungsstarken-Elektromotor-fuer-Flugzeuge-11253825.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Smartphonemarkt-Apple-ueberholt-Samsung-im-ersten-Quartal-2026-11253921.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-13T06:51:00.000Z"
+        "publishedAt": "2026-04-13T07:18:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Mit-One-UI-8-5-Samsung-weitet-AirDrop-Support-fuer-Galaxy-Geraete-aus-11252518.html",
@@ -829,16 +829,16 @@
         "publishedAt": "2026-04-10T12:48:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Unwetterschaeden-an-Autos-2025-deutlich-gesunken-11253809.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Unwetterschäden an Autos 2025 deutlich gesunken",
-        "summary": "Unwetter verursachten 2025 deutlich weniger Schäden an Autos. Versicherer zahlten 650 Mio. Euro, nur die Hälfte des Vorjahres.",
+        "id": "https://www.heise.de/news/Fraunhofer-entwickelt-leichten-leistungsstarken-Elektromotor-fuer-Flugzeuge-11253825.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Fraunhofer entwickelt leichten leistungsstarken Elektromotor für Flugzeuge",
+        "summary": "Kleinere leichtere Antriebe sollen in der Luftfahrt für niedrigere CO₂-Ausstöße sorgen. Fraunhofer hat einen effizienten Elektromotor entwickelt.",
         "paragraphs": [
-          "Unwetter verursachten 2025 deutlich weniger Schäden an Autos. Versicherer zahlten 650 Mio. Euro, nur die Hälfte des Vorjahres."
+          "Kleinere leichtere Antriebe sollen in der Luftfahrt für niedrigere CO₂-Ausstöße sorgen. Fraunhofer hat einen effizienten Elektromotor entwickelt."
         ],
-        "link": "https://www.heise.de/news/Unwetterschaeden-an-Autos-2025-deutlich-gesunken-11253809.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Fraunhofer-entwickelt-leichten-leistungsstarken-Elektromotor-fuer-Flugzeuge-11253825.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-13T06:13:00.000Z"
+        "publishedAt": "2026-04-13T06:51:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Vorsicht-Kunde-Wenn-der-Glasfaseranschluss-lahmt-11248416.html",
@@ -853,16 +853,16 @@
         "publishedAt": "2026-04-10T04:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Epic-Games-arbeitet-angeblich-an-mehreren-Disney-Spielen-11253821.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Epic Games arbeitet angeblich an mehreren Disney-Spielen",
-        "summary": "Bei Epic Games entstehen laut Bloomberg mehrere Spiele mit Disney-Figuren. Beim ersten davon soll es sich um einen Extraction Shooter handeln.",
+        "id": "https://www.heise.de/news/Unwetterschaeden-an-Autos-2025-deutlich-gesunken-11253809.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Unwetterschäden an Autos 2025 deutlich gesunken",
+        "summary": "Unwetter verursachten 2025 deutlich weniger Schäden an Autos. Versicherer zahlten 650 Mio. Euro, nur die Hälfte des Vorjahres.",
         "paragraphs": [
-          "Bei Epic Games entstehen laut Bloomberg mehrere Spiele mit Disney-Figuren. Beim ersten davon soll es sich um einen Extraction Shooter handeln."
+          "Unwetter verursachten 2025 deutlich weniger Schäden an Autos. Versicherer zahlten 650 Mio. Euro, nur die Hälfte des Vorjahres."
         ],
-        "link": "https://www.heise.de/news/Epic-Games-arbeitet-angeblich-an-mehreren-Disney-Spielen-11253821.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Unwetterschaeden-an-Autos-2025-deutlich-gesunken-11253809.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-13T05:54:00.000Z"
+        "publishedAt": "2026-04-13T06:13:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Tschechien-will-Alt-AKW-bis-zu-80-Jahre-lang-laufen-lassen-11251161.html",
@@ -877,16 +877,16 @@
         "publishedAt": "2026-04-09T16:44:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Angriff-auf-Sam-Altmans-Wohnhaus-OpenAI-Chef-kann-Angst-vor-KI-verstehen-11253805.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Angriff auf Sam Altmans Wohnhaus: OpenAI-Chef kann Angst vor KI verstehen",
-        "summary": "Nachdem jemand am Freitag versucht haben soll, Sam Altmans Wohnhaus in Brand zu setzen, wurden dort jetzt Schüsse abgegeben. Die Hintergründe sind noch unklar.",
+        "id": "https://www.heise.de/news/Epic-Games-arbeitet-angeblich-an-mehreren-Disney-Spielen-11253821.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Epic Games arbeitet angeblich an mehreren Disney-Spielen",
+        "summary": "Bei Epic Games entstehen laut Bloomberg mehrere Spiele mit Disney-Figuren. Beim ersten davon soll es sich um einen Extraction Shooter handeln.",
         "paragraphs": [
-          "Nachdem jemand am Freitag versucht haben soll, Sam Altmans Wohnhaus in Brand zu setzen, wurden dort jetzt Schüsse abgegeben. Die Hintergründe sind noch unklar."
+          "Bei Epic Games entstehen laut Bloomberg mehrere Spiele mit Disney-Figuren. Beim ersten davon soll es sich um einen Extraction Shooter handeln."
         ],
-        "link": "https://www.heise.de/news/Angriff-auf-Sam-Altmans-Wohnhaus-OpenAI-Chef-kann-Angst-vor-KI-verstehen-11253805.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Epic-Games-arbeitet-angeblich-an-mehreren-Disney-Spielen-11253821.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-13T05:51:00.000Z"
+        "publishedAt": "2026-04-13T05:54:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Kommentar-KI-FOMO-frisst-Sicherheit-11218162.html",
@@ -901,16 +901,16 @@
         "publishedAt": "2026-04-09T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/KI-ein-Kind-Gottes-Anthropic-Treffen-mit-mehreren-Kirchenleuten-11253793.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI ein „Kind Gottes“? Anthropic-Treffen mit mehreren Kirchenleuten",
-        "summary": "Angestellte von Anthropic haben mit Kirchenleuten darüber gesprochen, wie die KI-Technik ins christliche Weltbild passt. Andere Religionen sollen folgen.",
+        "id": "https://www.heise.de/news/Angriff-auf-Sam-Altmans-Wohnhaus-OpenAI-Chef-kann-Angst-vor-KI-verstehen-11253805.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Angriff auf Sam Altmans Wohnhaus: OpenAI-Chef kann Angst vor KI verstehen",
+        "summary": "Nachdem jemand am Freitag versucht haben soll, Sam Altmans Wohnhaus in Brand zu setzen, wurden dort jetzt Schüsse abgegeben. Die Hintergründe sind noch unklar.",
         "paragraphs": [
-          "Angestellte von Anthropic haben mit Kirchenleuten darüber gesprochen, wie die KI-Technik ins christliche Weltbild passt. Andere Religionen sollen folgen."
+          "Nachdem jemand am Freitag versucht haben soll, Sam Altmans Wohnhaus in Brand zu setzen, wurden dort jetzt Schüsse abgegeben. Die Hintergründe sind noch unklar."
         ],
-        "link": "https://www.heise.de/news/KI-ein-Kind-Gottes-Anthropic-Treffen-mit-mehreren-Kirchenleuten-11253793.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Angriff-auf-Sam-Altmans-Wohnhaus-OpenAI-Chef-kann-Angst-vor-KI-verstehen-11253805.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-13T04:56:00.000Z"
+        "publishedAt": "2026-04-13T05:51:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Memflation-Guenstigeres-RAM-gibt-es-erst-wieder-ab-2028-meint-Gartner-11249507.html",
@@ -923,6 +923,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-08T15:55:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/KI-ein-Kind-Gottes-Anthropic-Treffen-mit-mehreren-Kirchenleuten-11253793.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI ein „Kind Gottes“? Anthropic-Treffen mit mehreren Kirchenleuten",
+        "summary": "Angestellte von Anthropic haben mit Kirchenleuten darüber gesprochen, wie die KI-Technik ins christliche Weltbild passt. Andere Religionen sollen folgen.",
+        "paragraphs": [
+          "Angestellte von Anthropic haben mit Kirchenleuten darüber gesprochen, wie die KI-Technik ins christliche Weltbild passt. Andere Religionen sollen folgen."
+        ],
+        "link": "https://www.heise.de/news/KI-ein-Kind-Gottes-Anthropic-Treffen-mit-mehreren-Kirchenleuten-11253793.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-13T04:56:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Maerchenlandschaft-ueber-und-unter-Wasser-Folge-60-Split-Level-Fotografie-11248732.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -947,18 +959,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-13T04:15:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Apple-arbeitet-angeblich-an-vier-verschiedenen-Designs-der-ersten-Smartglasses-11253761.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Apple arbeitet angeblich an vier verschiedenen Designs der ersten Smartglasses",
-        "summary": "Die ersten Apple-Smartglasses sollen gleich mit unterschiedlichen Gestellen kommen. Die Kamera soll oval statt rund sein, wenn die Brillen wohl 2027 erscheinen.",
-        "paragraphs": [
-          "Die ersten Apple-Smartglasses sollen gleich mit unterschiedlichen Gestellen kommen. Die Kamera soll oval statt rund sein, wenn die Brillen wohl 2027 erscheinen."
-        ],
-        "link": "https://www.heise.de/news/Apple-arbeitet-angeblich-an-vier-verschiedenen-Designs-der-ersten-Smartglasses-11253761.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-13T03:03:00.000Z"
       }
     ]
   }
