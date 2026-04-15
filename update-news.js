@@ -27,6 +27,10 @@ const SECTION_CONFIG = {
   edv: [
     { source: "c't", url: "https://www.heise.de/ct/feed.xml" },
     { source: "heise", url: "https://www.heise.de/rss/heise-atom.xml" }
+  ],
+  börse: [
+    { source: "Handelsblatt", url: "https://feeds.cms.handelsblatt.com/schlagzeilen" },
+    { source: "SPIEGEL", url: "https://www.spiegel.de/wirtschaft/index.rss" }
   ]
 };
 
@@ -43,6 +47,9 @@ const SECTION_RULES = {
     requireAccessible: true
   },
   edv: {
+    requireAccessible: true
+  },
+  börse: {
     requireAccessible: true
   }
 };
