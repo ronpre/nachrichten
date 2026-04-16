@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-16T04:18:08.700Z",
+  "updatedAt": "2026-04-16T05:11:18.127Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "695d3b64-1335-4766-b607-9e9e1dbc70ac",
+        "title": "Hunderte Flugausfälle - Lufthansa-Streiks gehen weiter",
+        "summary": "Die Streiks bei der Lufthansa gehen weiter: Neben dem Kabinenpersonal wollen auch die Pilotinnen und Piloten der Airline die Arbeit niederlegen. Hunderte Flüge dürften ausfallen.",
+        "paragraphs": [
+          "Die Streiks bei der Lufthansa gehen weiter: Neben dem Kabinenpersonal wollen auch die Pilotinnen und Piloten der Airline die Arbeit niederlegen. Hunderte Flüge dürften ausfallen."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/unternehmen/lufthansa-streiks-108.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-16T04:56:11.000Z"
+      },
       {
         "id": "775289c0-f18f-4dc3-b4fd-5b40c772cd67",
         "title": "Deutschland diskutiert, andere handeln: Wie EU-Länder in der Energiekrise helfen",
@@ -229,44 +241,56 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-15T12:34:11.000Z"
-      },
-      {
-        "id": "ead92530-f277-45cb-8d42-4094dc8d1589",
-        "title": "Finanzspritze vom Bund: Eine Milliarde Euro für Länder und Kommunen",
-        "summary": "Es ist die Umsetzung einer Vereinbarung aus dem Koalitionsvertrag: Der Bund will hoch verschuldete Kommunen mit einer Milliarde Euro jährlich unterstützen. Doch nicht nur sie werden entlastet - sondern auch die reicheren Bundesländer.",
-        "paragraphs": [
-          "Es ist die Umsetzung einer Vereinbarung aus dem Koalitionsvertrag: Der Bund will hoch verschuldete Kommunen mit einer Milliarde Euro jährlich unterstützen. Doch nicht nur sie werden entlastet - sondern auch die reicheren Bundesländer."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/milliarde-finanzspritze-laender-kommunen-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-15T12:30:44.000Z"
       }
     ],
     "politik": [
       {
-        "id": "li.3468605",
-        "title": "USA: Die Hoffnung auf einen Deal",
-        "summary": "Die USA und Iran belagern sich an der Straße von Hormus weiterhin gegenseitig. Doch es sollen wieder Gespräche aufgenommen werden, ehe der Waffenstillstand kommende Woche enden könnte.",
+        "id": "li.3466452",
+        "title": "Krieg in der Ukraine: Tote bei russischen Angriffen auf Kiew, Odessa und Dnipro",
+        "summary": "Bei russischen Luftangriffen sind in Kiew mindestens vier Menschen getötet worden – darunter ein Kind. Weitere Regionen der Ukraine meldeten in der Nacht ebenfalls massiven Beschuss und Todesopfer.",
         "paragraphs": [
-          "Die USA und Iran belagern sich an der Straße von Hormus weiterhin gegenseitig. Doch es sollen wieder Gespräche aufgenommen werden, ehe der Waffenstillstand kommende Woche enden könnte."
+          "Bei russischen Luftangriffen sind in Kiew mindestens vier Menschen getötet worden – darunter ein Kind. Weitere Regionen der Ukraine meldeten in der Nacht ebenfalls massiven Beschuss und Todesopfer."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-kiew-russland-putin-tote-luftangriff-li.3466452",
+        "category": "Ukraine",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-16T04:57:09.000Z"
+      },
+      {
+        "id": "li.3468771",
+        "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
+        "summary": "SZ am Morgen.",
+        "paragraphs": [
+          "SZ am Morgen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/bayern-schlaegt-real-usa-kuendigen-baldiges-kriegsende-an-erneute-wal-rettung-li.3468771",
+        "category": "SZ Nachrichten des Tages",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-16T04:56:23.000Z"
+      },
+      {
+        "id": "li.3465712",
+        "title": "USA: Vance belehrt den Papst in Sachen Theologie",
+        "summary": "Der US-Vizepräsident weist die Kritik von Papst Leo XIV. am Krieg gegen Iran zurück und erklärt, die Äußerungen des Pontifex basierten nicht auf theologischer Wahrheit.",
+        "paragraphs": [
+          "Der US-Vizepräsident weist die Kritik von Papst Leo XIV. am Krieg gegen Iran zurück und erklärt, die Äußerungen des Pontifex basierten nicht auf theologischer Wahrheit."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/usa-news-vance-papst-li.3465712",
+        "category": "USA",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-16T04:15:00.000Z"
+      },
+      {
+        "id": "li.3468605",
+        "title": "USA: „Sehr zufrieden mit dem Stand der Dinge“",
+        "summary": "Die US-Regierung glaubt angeblich fest an einen baldigen Deal mit Iran. Gleichzeitig steigen Unbehagen und Benzinpreise in den USA immer mehr, und in Umfragen steht der Staatschef miserabel da.",
+        "paragraphs": [
+          "Die US-Regierung glaubt angeblich fest an einen baldigen Deal mit Iran. Gleichzeitig steigen Unbehagen und Benzinpreise in den USA immer mehr, und in Umfragen steht der Staatschef miserabel da."
         ],
         "link": "https://www.sueddeutsche.de/politik/nahost-iran-krieg-trump-usa-j-d-vance-verhandlungen-li.3468605",
         "category": "USA",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-16T03:25:29.000Z"
-      },
-      {
-        "id": "li.3466452",
-        "title": "Krieg in der Ukraine: Mehrere Tote bei russischen Angriffen auf Kiew und Dnipro",
-        "summary": "Bei russischen Luftangriffen sind in Kiew mindestens zwei Menschen getötet worden – darunter ein Kind. Weitere Regionen der Ukraine meldeten in der Nacht ebenfalls massiven Beschuss.",
-        "paragraphs": [
-          "Bei russischen Luftangriffen sind in Kiew mindestens zwei Menschen getötet worden – darunter ein Kind. Weitere Regionen der Ukraine meldeten in der Nacht ebenfalls massiven Beschuss."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-kiew-russland-putin-tote-luftangriff-li.3466452",
-        "category": "Ukraine",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-16T03:11:00.000Z"
       },
       {
         "id": "li.3468737",
@@ -303,18 +327,6 @@
         "category": "Deutschland",
         "source": "DW",
         "publishedAt": "2026-04-15T19:51:00.000Z"
-      },
-      {
-        "id": "li.3465712",
-        "title": "USA: USA verlängern Sanktions-Ausnahmen für Öl aus Iran und Russland nicht",
-        "summary": "Washington hatte wegen des Iran-Kriegs Ausnahmegenehmigungen erteilt, die den Kauf von bereits auf Schiffe verladenem Öl dieser Länder trotz Sanktionen erlaubte.",
-        "paragraphs": [
-          "Washington hatte wegen des Iran-Kriegs Ausnahmegenehmigungen erteilt, die den Kauf von bereits auf Schiffe verladenem Öl dieser Länder trotz Sanktionen erlaubte."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-news-trump-oel-sanktionen-iran-li.3465712",
-        "category": "USA",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-15T18:47:43.000Z"
       },
       {
         "id": "li.3468357",
@@ -447,18 +459,6 @@
         "category": "Iran",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-15T13:31:58.000Z"
-      },
-      {
-        "id": "li.3468207",
-        "title": "Glosse: Das Streiflicht",
-        "summary": "Eine Partyschlagersängerin entwickelt Misophonie, Wut auf Geräusche – doch liegt der Fall komplexer, als man vorschnell annehmen möchte",
-        "paragraphs": [
-          "Eine Partyschlagersängerin entwickelt Misophonie, Wut auf Geräusche – doch liegt der Fall komplexer, als man vorschnell annehmen möchte"
-        ],
-        "link": "https://www.sueddeutsche.de/politik/isi-glueck-mallorca-misophonie-laerm-schlager-li.3468207",
-        "category": "Leben und Gesellschaft",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-15T13:29:32.000Z"
       },
       {
         "id": "76761327",
@@ -609,9 +609,9 @@
       {
         "id": "li.3468627",
         "title": "Champions League: Ein Spiel, das einen Vogel hat",
-        "summary": "In einer irrwitzigen Partie voller Torwartfehler und anderen Ungeheuerlichkeiten gewinnt der FC Bayern 4:3 gegen Real Madrid und steht im Halbfinale der Champions League. Gegen Paris wird Trainer Kompany gelbgesperrt fehlen.",
+        "summary": "In einer irrwitzigen Partie voller Torwartfehler und anderer Ungeheuerlichkeiten gewinnt der FC Bayern 4:3 gegen Real Madrid und steht im Halbfinale der Champions League. Gegen Paris wird Trainer Kompany gelbgesperrt fehlen.",
         "paragraphs": [
-          "In einer irrwitzigen Partie voller Torwartfehler und anderen Ungeheuerlichkeiten gewinnt der FC Bayern 4:3 gegen Real Madrid und steht im Halbfinale der Champions League. Gegen Paris wird Trainer Kompany gelbgesperrt fehlen."
+          "In einer irrwitzigen Partie voller Torwartfehler und anderer Ungeheuerlichkeiten gewinnt der FC Bayern 4:3 gegen Real Madrid und steht im Halbfinale der Champions League. Gegen Paris wird Trainer Kompany gelbgesperrt fehlen."
         ],
         "link": "https://www.sueddeutsche.de/sport/champions-league-viertelfinale-fc-bayern-real-madrid-spielbericht-tore-li.3468627",
         "category": "Champions League",
@@ -729,6 +729,30 @@
     ],
     "edv": [
       {
+        "id": "https://www.heise.de/news/Samsung-setzt-auf-LCDs-Bilderrahmen-und-Fussballfans-11259689.html",
+        "title": "LCD statt OLED: Samsung möbelt altbekannte Technik mit farbigen LEDs auf",
+        "summary": "Organische Displays gelten bislang als das Non-plus-Ultra im TV. Samsung will die LCD-Technik mit winzige LEDs pushen und nutzt OLEDs als Bilderrahmen.",
+        "paragraphs": [
+          "Organische Displays gelten bislang als das Non-plus-Ultra im TV. Samsung will die LCD-Technik mit winzige LEDs pushen und nutzt OLEDs als Bilderrahmen."
+        ],
+        "link": "https://www.heise.de/news/Samsung-setzt-auf-LCDs-Bilderrahmen-und-Fussballfans-11259689.html",
+        "category": null,
+        "source": "c't",
+        "publishedAt": "2026-04-16T04:37:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Samsung-setzt-auf-LCDs-Bilderrahmen-und-Fussballfans-11259689.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "LCD statt OLED: Samsung möbelt altbekannte Technik mit farbigen LEDs auf",
+        "summary": "Organische Displays gelten bislang als das Non-plus-Ultra im TV. Samsung will die LCD-Technik mit winzige LEDs pushen und nutzt OLEDs als Bilderrahmen.",
+        "paragraphs": [
+          "Organische Displays gelten bislang als das Non-plus-Ultra im TV. Samsung will die LCD-Technik mit winzige LEDs pushen und nutzt OLEDs als Bilderrahmen."
+        ],
+        "link": "https://www.heise.de/news/Samsung-setzt-auf-LCDs-Bilderrahmen-und-Fussballfans-11259689.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-16T04:37:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Seltene-Erden-Abhaengigkeit-von-China-sinkt-langsam-11259078.html",
         "title": "Seltene Erden: Abhängigkeit von China sinkt langsam",
         "summary": "Deutschland hat 2025 wieder mehr Seltene Erden importiert. EU-weit kommt etwa die Hälfte der wertvollen Metalle aus China und ein Viertel aus Russland.",
@@ -741,16 +765,16 @@
         "publishedAt": "2026-04-15T13:51:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Roboter-und-Drohnen-koennten-Lieferkosten-fuer-Lebensmittel-auf-1-US-Dollar-senken-11259745.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Roboter und Drohnen könnten Lieferkosten für Lebensmittel auf 1 US-Dollar senken",
-        "summary": "Autonome Lebensmittellieferungen sind billiger als mit menschlichen Lieferanten. Dieser Kostenvorteil soll bald deutlich größer werden. Das verspricht Profite.",
+        "id": "https://www.heise.de/news/Donnerstag-EU-fuer-Alternativ-KI-in-WhatsApp-Einsparung-mit-autonomer-Lieferung-11259755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Donnerstag: EU für Alternativ-KI in WhatsApp, Einsparung mit autonomer Lieferung",
+        "summary": "Drittanbieter-KI statt Meta AI + Minimierung von Lieferkosten durch Roboter + Entlassungen bei Snapchat wegen KI + Verbot neuer US-Rechenzentren + #heiseshow",
         "paragraphs": [
-          "Autonome Lebensmittellieferungen sind billiger als mit menschlichen Lieferanten. Dieser Kostenvorteil soll bald deutlich größer werden. Das verspricht Profite."
+          "Drittanbieter-KI statt Meta AI + Minimierung von Lieferkosten durch Roboter + Entlassungen bei Snapchat wegen KI + Verbot neuer US-Rechenzentren + #heiseshow"
         ],
-        "link": "https://www.heise.de/news/Roboter-und-Drohnen-koennten-Lieferkosten-fuer-Lebensmittel-auf-1-US-Dollar-senken-11259745.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Donnerstag-EU-fuer-Alternativ-KI-in-WhatsApp-Einsparung-mit-autonomer-Lieferung-11259755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-16T03:05:00.000Z"
+        "publishedAt": "2026-04-16T04:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Ultimatum-an-Meta-Philippinen-verlangen-Massnahmen-gegen-Fake-News-11257532.html",
@@ -765,16 +789,16 @@
         "publishedAt": "2026-04-14T16:35:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/KI-Chatbots-auf-WhatsApp-Meta-muss-Konkurrenten-zulassen-11259699.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Chatbots in WhatsApp: Meta muss Konkurrenten zulassen",
-        "summary": "Die Gebührenpolitik von Meta bei KI-Assistenten in WhatsApp verstößt laut EU-Kommission möglicherweise gegen EU-Wettbewerbsregeln.",
+        "id": "https://www.heise.de/news/heiseshow-Speicherkrise-Europa-und-der-Mond-Tesla-FSD-11259641.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "#heiseshow: Speicherkrise, Europa und der Mond, Tesla FSD",
+        "summary": "In der #heiseshow: Steigende RAM-Preise treffen Tech-Giganten, Europa träumt vom Mond und Tesla darf teilautonomes Fahren in den Niederlanden anbieten.",
         "paragraphs": [
-          "Die Gebührenpolitik von Meta bei KI-Assistenten in WhatsApp verstößt laut EU-Kommission möglicherweise gegen EU-Wettbewerbsregeln."
+          "In der #heiseshow: Steigende RAM-Preise treffen Tech-Giganten, Europa träumt vom Mond und Tesla darf teilautonomes Fahren in den Niederlanden anbieten."
         ],
-        "link": "https://www.heise.de/news/KI-Chatbots-auf-WhatsApp-Meta-muss-Konkurrenten-zulassen-11259699.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/heiseshow-Speicherkrise-Europa-und-der-Mond-Tesla-FSD-11259641.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-15T19:38:00.000Z"
+        "publishedAt": "2026-04-16T04:11:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Neue-Demo-des-Flipper-One-Tech-Gadget-hat-DisplayPort-und-Ethernet-Buchse-11257021.html",
@@ -789,16 +813,16 @@
         "publishedAt": "2026-04-14T15:24:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Kostensenkung-und-Profitsteigerung-Snap-baut-1-000-Stellen-ab-11259675.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Kostensenkung und Profitsteigerung: Snap baut 1.000 Stellen ab",
-        "summary": "Nach dem Einstieg eines neuen Investors kündigt der Snapchat-Mutterkonzern Stellenstreichungen an, um die Kosten zu senken und die Profitabilität zu verbessern.",
+        "id": "https://www.heise.de/news/Roboter-und-Drohnen-koennten-Lieferkosten-fuer-Lebensmittel-auf-1-US-Dollar-senken-11259745.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Roboter und Drohnen könnten Lieferkosten für Lebensmittel auf 1 US-Dollar senken",
+        "summary": "Autonome Lebensmittellieferungen sind billiger als mit menschlichen Lieferanten. Dieser Kostenvorteil soll bald deutlich größer werden. Das verspricht Profite.",
         "paragraphs": [
-          "Nach dem Einstieg eines neuen Investors kündigt der Snapchat-Mutterkonzern Stellenstreichungen an, um die Kosten zu senken und die Profitabilität zu verbessern."
+          "Autonome Lebensmittellieferungen sind billiger als mit menschlichen Lieferanten. Dieser Kostenvorteil soll bald deutlich größer werden. Das verspricht Profite."
         ],
-        "link": "https://www.heise.de/news/Kostensenkung-und-Profitsteigerung-Snap-baut-1-000-Stellen-ab-11259675.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Roboter-und-Drohnen-koennten-Lieferkosten-fuer-Lebensmittel-auf-1-US-Dollar-senken-11259745.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-15T18:45:00.000Z"
+        "publishedAt": "2026-04-16T03:05:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Analyse-zur-Deutschland-App-Digitalminister-Wildberger-geht-ins-Risiko-11256737.html",
@@ -813,16 +837,16 @@
         "publishedAt": "2026-04-14T12:34:00.000Z"
       },
       {
-        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-waermebildkamera-fuers-handy-adapter-fuer-android-und-iphone/m9y4787?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 10: Die beste Wärmebildkamera fürs Handy im Test",
-        "summary": "Wärmeverluste, Lecks und Störungen finden: Wir zeigen die besten Wärmebildkameras fürs Handy von Hikmicro, Flir und Co.",
+        "id": "https://www.heise.de/news/KI-Chatbots-auf-WhatsApp-Meta-muss-Konkurrenten-zulassen-11259699.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI-Chatbots in WhatsApp: Meta muss Konkurrenten zulassen",
+        "summary": "Die Gebührenpolitik von Meta bei KI-Assistenten in WhatsApp verstößt laut EU-Kommission möglicherweise gegen EU-Wettbewerbsregeln.",
         "paragraphs": [
-          "Wärmeverluste, Lecks und Störungen finden: Wir zeigen die besten Wärmebildkameras fürs Handy von Hikmicro, Flir und Co."
+          "Die Gebührenpolitik von Meta bei KI-Assistenten in WhatsApp verstößt laut EU-Kommission möglicherweise gegen EU-Wettbewerbsregeln."
         ],
-        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-waermebildkamera-fuers-handy-adapter-fuer-android-und-iphone/m9y4787?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/KI-Chatbots-auf-WhatsApp-Meta-muss-Konkurrenten-zulassen-11259699.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-15T18:00:00.000Z"
+        "publishedAt": "2026-04-15T19:38:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Linux-7-0-erschienen-mehr-als-ein-Nummernsprung-11255745.html",
@@ -837,6 +861,30 @@
         "publishedAt": "2026-04-14T04:58:00.000Z"
       },
       {
+        "id": "https://www.heise.de/news/Kostensenkung-und-Profitsteigerung-Snap-baut-1-000-Stellen-ab-11259675.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Kostensenkung und Profitsteigerung: Snap baut 1.000 Stellen ab",
+        "summary": "Nach dem Einstieg eines neuen Investors kündigt der Snapchat-Mutterkonzern Stellenstreichungen an, um die Kosten zu senken und die Profitabilität zu verbessern.",
+        "paragraphs": [
+          "Nach dem Einstieg eines neuen Investors kündigt der Snapchat-Mutterkonzern Stellenstreichungen an, um die Kosten zu senken und die Profitabilität zu verbessern."
+        ],
+        "link": "https://www.heise.de/news/Kostensenkung-und-Profitsteigerung-Snap-baut-1-000-Stellen-ab-11259675.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-15T18:45:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-waermebildkamera-fuers-handy-adapter-fuer-android-und-iphone/m9y4787?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Top 10: Die beste Wärmebildkamera fürs Handy im Test",
+        "summary": "Wärmeverluste, Lecks und Störungen finden: Wir zeigen die besten Wärmebildkameras fürs Handy von Hikmicro, Flir und Co.",
+        "paragraphs": [
+          "Wärmeverluste, Lecks und Störungen finden: Wir zeigen die besten Wärmebildkameras fürs Handy von Hikmicro, Flir und Co."
+        ],
+        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-waermebildkamera-fuers-handy-adapter-fuer-android-und-iphone/m9y4787?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-15T18:00:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Bericht-Grok-stand-angeblich-kurz-vor-App-Store-Rauswurf-11259603.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Bericht: Grok stand angeblich kurz vor App-Store-Rauswurf",
         "summary": "Einem Medienbericht zufolge stand die KI-App Grok kurz vor dem Ausschluss aus Apples App Store. Grund waren uneinvernehmlich erstellte Deepfake-Nacktbilder.",
@@ -847,18 +895,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-15T16:07:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Warum-LED-Leuchtmittel-nicht-mehr-so-graesslich-wie-frueher-sind-11252486.html",
-        "title": "Warum LED-Leuchtmittel nicht mehr so grässlich wie früher sind",
-        "summary": "Wisst ihr  noch, wie grottig die ersten LEDs strahlten? Kalt, blass, Gesichter wirkten kränklich. Das ist inzwischen behoben, wenn man richtig auswählt.",
-        "paragraphs": [
-          "Wisst ihr  noch, wie grottig die ersten LEDs strahlten? Kalt, blass, Gesichter wirkten kränklich. Das ist inzwischen behoben, wenn man richtig auswählt."
-        ],
-        "link": "https://www.heise.de/news/Warum-LED-Leuchtmittel-nicht-mehr-so-graesslich-wie-frueher-sind-11252486.html",
-        "category": null,
-        "source": "c't",
-        "publishedAt": "2026-04-12T08:06:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Lithografie-Systeme-Speicherhersteller-machen-den-meisten-ASML-Umsatz-aus-11259535.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -873,18 +909,6 @@
         "publishedAt": "2026-04-15T15:49:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Video-Glasfaser-Heissklebepistole-Die-Loesung-fuer-langsame-Heimnetze-11250589.html",
-        "title": "Video: Glasfaser-Heißklebepistole – Die Lösung für langsame Heimnetze?",
-        "summary": "Wir stellen im Video Huaweis FTTR-Set vor und zeigen, wie eine Heißklebepistole die Faser nahezu unsichtbar anbringt.",
-        "paragraphs": [
-          "Wir stellen im Video Huaweis FTTR-Set vor und zeigen, wie eine Heißklebepistole die Faser nahezu unsichtbar anbringt."
-        ],
-        "link": "https://www.heise.de/news/Video-Glasfaser-Heissklebepistole-Die-Loesung-fuer-langsame-Heimnetze-11250589.html",
-        "category": null,
-        "source": "c't",
-        "publishedAt": "2026-04-12T08:00:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/21-BSI-Sicherheitskongress-NIS-2-Umsetzung-weit-hinter-den-Erwartungen-11259349.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "21. BSI-Sicherheitskongress: NIS-2-Umsetzung weit hinter den Erwartungen",
         "summary": "Die Richtlinie ist noch immer zu unbekannt und Unternehmen ignorieren die Registrierungspflicht, konstatiert das BSI auf seinem Jahreskongress.",
@@ -895,18 +919,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-15T15:28:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Die-Vorzuege-gebrauchter-PCs-c-t-uplink-11251905.html",
-        "title": "Die Vorzüge gebrauchter PCs | c’t uplink",
-        "summary": "Wenn neue Hardware im Preis steigt, schlägt die Stunde der Gebrauchtgeräte. Die Preise sind oft attraktiv, doch ein paar Dinge gibt es zu beachten.",
-        "paragraphs": [
-          "Wenn neue Hardware im Preis steigt, schlägt die Stunde der Gebrauchtgeräte. Die Preise sind oft attraktiv, doch ein paar Dinge gibt es zu beachten."
-        ],
-        "link": "https://www.heise.de/news/Die-Vorzuege-gebrauchter-PCs-c-t-uplink-11251905.html",
-        "category": null,
-        "source": "c't",
-        "publishedAt": "2026-04-11T04:30:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/DFB-startet-eigenen-Pay-TV-Sender-DFB-TV-11259433.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -955,21 +967,153 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-15T14:50:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Ueberwachung-weltweit-Bundesregierung-winkt-UN-Cybercrime-Konvention-durch-11259443.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Überwachung weltweit: Bundesregierung winkt UN-Cybercrime-Konvention durch",
-        "summary": "Trotz massiver Kritik stimmt Berlin dem Abkommen gegen Cyberkriminalität zu. Es handelt sich um einen völkerrechtlichen Vertrag mit gefährlich viel Spielraum.",
-        "paragraphs": [
-          "Trotz massiver Kritik stimmt Berlin dem Abkommen gegen Cyberkriminalität zu. Es handelt sich um einen völkerrechtlichen Vertrag mit gefährlich viel Spielraum."
-        ],
-        "link": "https://www.heise.de/news/Ueberwachung-weltweit-Bundesregierung-winkt-UN-Cybercrime-Konvention-durch-11259443.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-15T14:48:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/mobilitaet/oldtimer/peel-p50-so-winzig-ist-das-kleinste-serienauto-der-welt/100217356.html",
+        "title": "Peel P50: So winzig ist das kleinste Serienauto der Welt",
+        "summary": "Statt eines Rückwärtsganges hat das Fahrzeug einen Griff, um es zu ziehen. Auch sonst bietet der Peel P50 praktisch keine Bequemlichkeiten. Was es mit dem Mini-Fahrzeug auf sich hat.",
+        "paragraphs": [
+          "Statt eines Rückwärtsganges hat das Fahrzeug einen Griff, um es zu ziehen. Auch sonst bietet der Peel P50 praktisch keine Bequemlichkeiten. Was es mit dem Mini-Fahrzeug auf sich hat."
+        ],
+        "link": "https://www.handelsblatt.com/mobilitaet/oldtimer/peel-p50-so-winzig-ist-das-kleinste-serienauto-der-welt/100217356.html",
+        "category": "Oldtimer",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T05:08:29.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/start-ups/start-up-check-synera-entwickelt-ki-agenten-fuer-bmw-airbus-und-die-nasa/100216756.html",
+        "title": "Start-up-Check: Systemübergreifende Orchestrierung: Synera entwickelt KI-Agenten für BMW, Airbus und die Nasa",
+        "summary": "Synera automatisiert Industrieprozesse mit KI. Damit konnte das Bremer Start-up seinen Umsatz im vergangenen Jahr verdoppeln – und jetzt eine neue Millionenfinanzierung einsammeln.",
+        "paragraphs": [
+          "Synera automatisiert Industrieprozesse mit KI. Damit konnte das Bremer Start-up seinen Umsatz im vergangenen Jahr verdoppeln – und jetzt eine neue Millionenfinanzierung einsammeln."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/start-ups/start-up-check-synera-entwickelt-ki-agenten-fuer-bmw-airbus-und-die-nasa/100216756.html",
+        "category": "Start-Ups",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T05:06:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/energie/oelindustrie-repsol-wagt-den-neustart-in-venezuela/100217355.html",
+        "title": "Ölindustrie: Repsol wagt den Neustart in Venezuela",
+        "summary": "Der spanische Ölriese will offenbar sein Geschäft in Venezuela wieder aufbauen. Dafür hat das Unternehmen einem Bericht zufolge nun ein Abkommen geschlossen.",
+        "paragraphs": [
+          "Der spanische Ölriese will offenbar sein Geschäft in Venezuela wieder aufbauen. Dafür hat das Unternehmen einem Bericht zufolge nun ein Abkommen geschlossen."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/energie/oelindustrie-repsol-wagt-den-neustart-in-venezuela/100217355.html",
+        "category": "Energie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T05:05:24.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/pharmazulieferer-gerresheimer-bekommt-von-glaeubigern-schonfrist-bis-september/100217354.html",
+        "title": "Pharmazulieferer: Gerresheimer bekommt von Gläubigern Schonfrist bis September",
+        "summary": "Der Düsseldorfer Verpackungskonzern musste den Kleinwerteindex SDax vor Kurzem noch verlassen. Nun bekommt Gerresheimer mehr Zeit, um seine Bilanzierungsprobleme zu lösen.",
+        "paragraphs": [
+          "Der Düsseldorfer Verpackungskonzern musste den Kleinwerteindex SDax vor Kurzem noch verlassen. Nun bekommt Gerresheimer mehr Zeit, um seine Bilanzierungsprobleme zu lösen."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/pharmazulieferer-gerresheimer-bekommt-von-glaeubigern-schonfrist-bis-september/100217354.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T05:02:47.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/nahost-die-aktuelle-lage-trump-kuendigt-spitzentreffen-zwischen-israel-und-libanon-an/100217349.html",
+        "title": "Nahost – Die aktuelle Lage: Trump kündigt Spitzentreffen zwischen Israel und Libanon an",
+        "summary": "Im Krieg zwischen Israel und dem Libanon könnte es am heutigen Donnerstag Bewegung geben. Unterdessen rückt der Iran möglicherweise erstmals von seinen Maximalforderungen ab.",
+        "paragraphs": [
+          "Im Krieg zwischen Israel und dem Libanon könnte es am heutigen Donnerstag Bewegung geben. Unterdessen rückt der Iran möglicherweise erstmals von seinen Maximalforderungen ab."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/nahost-die-aktuelle-lage-trump-kuendigt-spitzentreffen-zwischen-israel-und-libanon-an/100217349.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T04:52:56.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-mindestens-vier-tote-bei-neuen-russischen-angriffen-auf-kiew/100217320.html",
+        "title": "Ukraine-Krieg: Mindestens vier Tote bei neuen russischen Angriffen auf Kiew",
+        "summary": "Erneut attackiert Russland die Ukraine mit Raketen. Auch Kinder zählen zu den Opfern.",
+        "paragraphs": [
+          "Erneut attackiert Russland die Ukraine mit Raketen. Auch Kinder zählen zu den Opfern."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-mindestens-vier-tote-bei-neuen-russischen-angriffen-auf-kiew/100217320.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T04:47:41.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/versicherung-start-up-getsafe-uebernimmt-hamburger-konkurrenten/100216885.html",
+        "title": "Versicherung: Start-up Getsafe übernimmt Hamburger Konkurrenten",
+        "summary": "Nach der Rückgabe der Bafin-Lizenz konzentriert sich Firmengründer Christian Wiens auf den Ausbau seiner Versicherungsplattform. Der Kauf von Helden.de soll erst der Anfang sein.",
+        "paragraphs": [
+          "Nach der Rückgabe der Bafin-Lizenz konzentriert sich Firmengründer Christian Wiens auf den Ausbau seiner Versicherungsplattform. Der Kauf von Helden.de soll erst der Anfang sein."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/versicherung-start-up-getsafe-uebernimmt-hamburger-konkurrenten/100216885.html",
+        "category": "Versicherer",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T04:44:55.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/steuern-recht/erste-einschaetzung-gefaellig-selbststaendig-oder-nur-zum-schein-check-bietet-orientierung/100217350.html",
+        "title": "Erste Einschätzung gefällig?: Selbstständig oder nur zum Schein? Check bietet Orientierung",
+        "summary": "Müssen Sie Weisungen befolgen? Können Sie sich Ihre Arbeitszeiten frei einteilen? Verschiedene Indizien können anzeigen, ob Sie wirklich selbstständig tätig sind. Ein Check hilft bei der Einschätzung.",
+        "paragraphs": [
+          "Müssen Sie Weisungen befolgen? Können Sie sich Ihre Arbeitszeiten frei einteilen? Verschiedene Indizien können anzeigen, ob Sie wirklich selbstständig tätig sind. Ein Check hilft bei der Einschätzung."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/erste-einschaetzung-gefaellig-selbststaendig-oder-nur-zum-schein-check-bietet-orientierung/100217350.html",
+        "category": "Steuern + Recht",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T04:30:04.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/feuer-nahe-melbourne-brand-in-raffinerie-bremst-australiens-treibstoffproduktion/100217346.html",
+        "title": "Feuer nahe Melbourne: Brand in Raffinerie bremst Australiens Treibstoffproduktion",
+        "summary": "Nach einem Großbrand in einer der wichtigsten Ölraffinerien Australiens läuft die Produktion nur noch eingeschränkt. Der Vorfall verschärft die ohnehin angespannte Lage bei Flugtreibstoff.",
+        "paragraphs": [
+          "Nach einem Großbrand in einer der wichtigsten Ölraffinerien Australiens läuft die Produktion nur noch eingeschränkt. Der Vorfall verschärft die ohnehin angespannte Lage bei Flugtreibstoff."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/feuer-nahe-melbourne-brand-in-raffinerie-bremst-australiens-treibstoffproduktion/100217346.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T04:20:17.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+        "title": "Börse am 16. April: Nach S&P-Rekord am Mittwoch: Sechs Punkte, die für Anleger heute wichtig sind",
+        "summary": "Eine mögliche Wiederaufnahme der Iran-Verhandlungen beschäftigt am Donnerstag die Märkte. Die Berichtssaison geht weiter, neue Impulse geben auch Konjunkturdaten aus China und den USA.",
+        "paragraphs": [
+          "Eine mögliche Wiederaufnahme der Iran-Verhandlungen beschäftigt am Donnerstag die Märkte. Die Berichtssaison geht weiter, neue Impulse geben auch Konjunkturdaten aus China und den USA."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+        "category": "Marktberichte",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T04:20:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/libanesische-hisbollah-miliz-trump-kuendigt-spitzentreffen-zwischen-israel-und-libanon-an/100217345.html",
+        "title": "Libanesische Hisbollah-Miliz: Trump kündigt Spitzentreffen zwischen Israel und Libanon an",
+        "summary": "Der Krieg zwischen Israel und der libanesischen Hisbollah-Miliz dauert an. Nach ersten Gesprächen zwischen Vertretern beider Nachbarländer kündigt US-Präsident Trump jetzt ein Spitzentreffen an.",
+        "paragraphs": [
+          "Der Krieg zwischen Israel und der libanesischen Hisbollah-Miliz dauert an. Nach ersten Gesprächen zwischen Vertretern beider Nachbarländer kündigt US-Präsident Trump jetzt ein Spitzentreffen an."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/libanesische-hisbollah-miliz-trump-kuendigt-spitzentreffen-zwischen-israel-und-libanon-an/100217345.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T04:18:03.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/forschung-innovation/naturphaenomen-halbe-milliarde-maikaefer-bei-massenflug-erwartet/100217342.html",
+        "title": "Naturphänomen: Halbe Milliarde Maikäfer bei Massenflug erwartet",
+        "summary": "Die Maikäfer im Hessischen Ried stehen in den Startlöchern für ein besonders Spektakel. Warum der Massenflug der Käfer auch Autofahrer betrifft.",
+        "paragraphs": [
+          "Die Maikäfer im Hessischen Ried stehen in den Startlöchern für ein besonders Spektakel. Warum der Massenflug der Käfer auch Autofahrer betrifft."
+        ],
+        "link": "https://www.handelsblatt.com/technik/forschung-innovation/naturphaenomen-halbe-milliarde-maikaefer-bei-massenflug-erwartet/100217342.html",
+        "category": "Forschung + Innovation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T04:11:01.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/audio/podcast-morning-briefing/handelsblatt-morning-briefing-regierung-wie-viel-ampel-steckt-im-merz-kabinett---continental-die-fehler-des-chefermittlers/100217341.html",
         "title": "Handelsblatt Morning Briefing: Regierung: Wie viel Ampel steckt im Merz-Kabinett? / Continental: Die Fehler des Chefermittlers",
@@ -1019,18 +1163,6 @@
         "publishedAt": "2026-04-16T03:55:04.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-mindestens-zwei-tote-bei-neuen-russischen-angriffen-auf-kiew/100217320.html",
-        "title": "Ukraine-Krieg: Mindestens zwei Tote bei neuen russischen Angriffen auf Kiew",
-        "summary": "Erneut attackiert Russland die Ukraine mit Raketen. Auch Kinder zählen zu den Opfern.",
-        "paragraphs": [
-          "Erneut attackiert Russland die Ukraine mit Raketen. Auch Kinder zählen zu den Opfern."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-mindestens-zwei-tote-bei-neuen-russischen-angriffen-auf-kiew/100217320.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T03:53:47.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-csi-300-topix-starke-konjunkturdaten-aus-china-asiens-boersen-gewinnen/100217337.html",
         "title": "Nikkei, CSI 300, Topix: Starke Konjunkturdaten aus China – Asiens Börsen gewinnen",
         "summary": "Die zweitgrößte Volkswirtschaft der Welt wuchs im ersten Quartal stärker als erwartet. Auch die Hoffnung auf eine Deeskalation in Nahost wirkt sich positiv auf die asiatischen Märkte aus.",
@@ -1077,138 +1209,6 @@
         "category": "Deutschland",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-16T03:00:27.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/iran-krieg-auch-waehrend-kriegs-ruestungsexporte-nach-israel-genehmigt/100217315.html",
-        "title": "Iran-Krieg: Auch während Kriegs Rüstungsexporte nach Israel genehmigt",
-        "summary": "Die Rüstungsexporte nach Israel waren zuletzt ein extrem heikles Thema für die Bundesregierung – erst wegen des Gaza-Kriegs, jetzt wegen des Iran-Kriegs. Es gibt nun neue Zahlen dazu.",
-        "paragraphs": [
-          "Die Rüstungsexporte nach Israel waren zuletzt ein extrem heikles Thema für die Bundesregierung – erst wegen des Gaza-Kriegs, jetzt wegen des Iran-Kriegs. Es gibt nun neue Zahlen dazu."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/iran-krieg-auch-waehrend-kriegs-ruestungsexporte-nach-israel-genehmigt/100217315.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T03:00:19.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/fitnessbranche-fitnessstudio-tarife-werden-teurer-fibo-messe-startet/100217327.html",
-        "title": "Fitnessbranche: Fitnessstudio-Tarife werden teurer - Fibo-Messe startet",
-        "summary": "Ob Laufen, Hanteln stemmen oder Rückentraining: Fitness-Übungen sind wichtig, um den Körper in Form zu halten. Bei einer Kölner Messe wird der Body-Kult wieder schweißtreibend zelebriert.",
-        "paragraphs": [
-          "Ob Laufen, Hanteln stemmen oder Rückentraining: Fitness-Übungen sind wichtig, um den Körper in Form zu halten. Bei einer Kölner Messe wird der Body-Kult wieder schweißtreibend zelebriert."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/fitnessbranche-fitnessstudio-tarife-werden-teurer-fibo-messe-startet/100217327.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T03:00:08.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/patente-deutsche-erfinder-punkten-bei-kuenstlicher-intelligenz/100217049.html",
-        "title": "Patente: Deutsche Erfinder punkten bei Künstlicher Intelligenz",
-        "summary": "Deutschland holt bei digitalen Technologien auf. Das verrät ein Blick in die Patentanmeldungen in Deutschland und Europa. Ein Problem aber bleibt: der bessere Schutz geistigen Eigentums.",
-        "paragraphs": [
-          "Deutschland holt bei digitalen Technologien auf. Das verrät ein Blick in die Patentanmeldungen in Deutschland und Europa. Ein Problem aber bleibt: der bessere Schutz geistigen Eigentums."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/patente-deutsche-erfinder-punkten-bei-kuenstlicher-intelligenz/100217049.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T03:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/verbraucher-milliardenmarkt-gluecksspiel-online-angebote-vor-gericht/100217324.html",
-        "title": "Verbraucher: Milliardenmarkt Glücksspiel: Online-Angebote vor Gericht",
-        "summary": "Viele Spielerinnen und Spieler hoffen auf die Rückzahlung ihrer Verluste von Glücksspielanbietern im Netz ohne deutsche Lizenz. Was sind die Probleme bei unerlaubten Zock-Angeboten?",
-        "paragraphs": [
-          "Viele Spielerinnen und Spieler hoffen auf die Rückzahlung ihrer Verluste von Glücksspielanbietern im Netz ohne deutsche Lizenz. Was sind die Probleme bei unerlaubten Zock-Angeboten?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/verbraucher-milliardenmarkt-gluecksspiel-online-angebote-vor-gericht/100217324.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T02:55:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/statistik-65-und-weiter-im-job-zahl-der-arbeitenden-senioren-nimmt-zu/100217321.html",
-        "title": "Statistik: 65 und weiter im Job: Zahl der arbeitenden Senioren nimmt zu",
-        "summary": "Eigentlich könnte der Ruhestand beginnen, doch Hunderttausende sind trotzdem weiter berufstätig. Es sind viel mehr als noch vor fünf Jahren.",
-        "paragraphs": [
-          "Eigentlich könnte der Ruhestand beginnen, doch Hunderttausende sind trotzdem weiter berufstätig. Es sind viel mehr als noch vor fünf Jahren."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/statistik-65-und-weiter-im-job-zahl-der-arbeitenden-senioren-nimmt-zu/100217321.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T02:45:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/bip-chinas-wirtschaft-waechst-staerker-als-erwartet-trotz-iran-krieg/100216809.html",
-        "title": "BIP: Chinas Wirtschaft wächst stärker als erwartet – trotz Iran-Krieg",
-        "summary": "Die Risiken für die chinesische Wirtschaft haben seit dem Ausbruch des Krieges im Nahen Osten zugenommen. Das Bruttoinlandsprodukt legte trotzdem zu.",
-        "paragraphs": [
-          "Die Risiken für die chinesische Wirtschaft haben seit dem Ausbruch des Krieges im Nahen Osten zugenommen. Das Bruttoinlandsprodukt legte trotzdem zu."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/bip-chinas-wirtschaft-waechst-staerker-als-erwartet-trotz-iran-krieg/100216809.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T02:44:48.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/fuer-autobahnen-gruene-machen-vorstoss-zur-einfuehrung-eines-tempolimits/100217316.html",
-        "title": "Für Autobahnen: Grüne machen Vorstoß zur Einführung eines Tempolimits",
-        "summary": "Seit langem wird über ein Tempolimit gestritten. Unter dem Eindruck von Preissprüngen infolge des Iran-Kriegs rückt das Thema nun erneut in den Fokus.",
-        "paragraphs": [
-          "Seit langem wird über ein Tempolimit gestritten. Unter dem Eindruck von Preissprüngen infolge des Iran-Kriegs rückt das Thema nun erneut in den Fokus."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/fuer-autobahnen-gruene-machen-vorstoss-zur-einfuehrung-eines-tempolimits/100217316.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T02:30:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/nahost-netanjahu-sicherheitszone-im-libanon-wird-ausgeweitet/100217313.html",
-        "title": "Nahost: Netanjahu: Sicherheitszone im Libanon wird ausgeweitet",
-        "summary": "Der Konflikt zwischen Israel und der libanesischen Hisbollah dauert an. Es gibt Berichte über eine mögliche Waffenruhe. Derweil gibt Israels Premier der eigenen Armee neue Anweisungen.",
-        "paragraphs": [
-          "Der Konflikt zwischen Israel und der libanesischen Hisbollah dauert an. Es gibt Berichte über eine mögliche Waffenruhe. Derweil gibt Israels Premier der eigenen Armee neue Anweisungen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/nahost-netanjahu-sicherheitszone-im-libanon-wird-ausgeweitet/100217313.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T02:23:35.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/fed-zinssenkungen-ruecken-in-weite-ferne-enttaeuschung-fuer-trump/100214959.html",
-        "title": "US-Notenbank: Keine statt drei Zinssenkungen? Märkte rechnen mit Enttäuschung für Trump",
-        "summary": "Der Fed gehen die Argumente für Zinssenkungen aus, auch die Märkte haben sich umgestellt. Der Führungswechsel bei der Notenbank wird dem US-Präsidenten kaum helfen.",
-        "paragraphs": [
-          "Der Fed gehen die Argumente für Zinssenkungen aus, auch die Märkte haben sich umgestellt. Der Führungswechsel bei der Notenbank wird dem US-Präsidenten kaum helfen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/fed-zinssenkungen-ruecken-in-weite-ferne-enttaeuschung-fuer-trump/100214959.html",
-        "category": "Geldpolitik",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T02:13:20.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/parteien-kann-kubicki-die-afd-schwaechen-das-sagen-meinungsforscher/100216831.html",
-        "title": "Parteien: Kann Kubicki die AfD schwächen? Das sagen Meinungsforscher",
-        "summary": "Ein möglicher Kurswechsel der FDP unter einem Vorsitzenden Kubicki nach rechts weckt Erwartungen, dass die Liberalen auch AfD-Wähler zurückgewinnen können. Was Experten sagen.",
-        "paragraphs": [
-          "Ein möglicher Kurswechsel der FDP unter einem Vorsitzenden Kubicki nach rechts weckt Erwartungen, dass die Liberalen auch AfD-Wähler zurückgewinnen können. Was Experten sagen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/parteien-kann-kubicki-die-afd-schwaechen-das-sagen-meinungsforscher/100216831.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T02:10:48.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/ranking-die-zehn-deutschen-staedte-mit-den-hoechsten-immobilienpreisen/100170986.html",
-        "title": "Immobilien: In diesen Städten steigen die Wohnungspreise am stärksten",
-        "summary": "Wohnungen sind im ersten Quartal erneut teurer geworden. Exklusive Daten der 400 deutschen Kreise zeigen, wo der Anstieg am höchsten ist – und in welchen Regionen die Preise gesunken sind.",
-        "paragraphs": [
-          "Wohnungen sind im ersten Quartal erneut teurer geworden. Exklusive Daten der 400 deutschen Kreise zeigen, wo der Anstieg am höchsten ist – und in welchen Regionen die Preise gesunken sind."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/ranking-die-zehn-deutschen-staedte-mit-den-hoechsten-immobilienpreisen/100170986.html",
-        "category": "Immobilien",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T02:08:02.000Z"
       }
     ]
   }
