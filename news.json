@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-16T06:14:57.077Z",
+  "updatedAt": "2026-04-16T06:52:20.756Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "695d3b64-1335-4766-b607-9e9e1dbc70ac",
+        "title": "Hunderte Flugausfälle - Lufthansa-Streiks gehen weiter",
+        "summary": "Die Streiks bei der Lufthansa gehen weiter: Neben dem Kabinenpersonal legen heute auch wieder die Pilotinnen und Piloten der Airline die Arbeit nieder. Hunderte Flüge dürften ausfallen.",
+        "paragraphs": [
+          "Die Streiks bei der Lufthansa gehen weiter: Neben dem Kabinenpersonal legen heute auch wieder die Pilotinnen und Piloten der Airline die Arbeit nieder. Hunderte Flüge dürften ausfallen."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/unternehmen/lufthansa-streiks-108.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-16T06:14:35.000Z"
+      },
       {
         "id": "0088b1ac-9ff5-4a42-b812-868846540941",
         "title": "Marktbericht: Friedenshoffnung macht Anleger mutiger",
@@ -25,18 +37,6 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-16T05:18:49.000Z"
-      },
-      {
-        "id": "695d3b64-1335-4766-b607-9e9e1dbc70ac",
-        "title": "Hunderte Flugausfälle - Lufthansa-Streiks gehen weiter",
-        "summary": "Die Streiks bei der Lufthansa gehen weiter: Neben dem Kabinenpersonal wollen auch die Pilotinnen und Piloten der Airline die Arbeit niederlegen. Hunderte Flüge dürften ausfallen.",
-        "paragraphs": [
-          "Die Streiks bei der Lufthansa gehen weiter: Neben dem Kabinenpersonal wollen auch die Pilotinnen und Piloten der Airline die Arbeit niederlegen. Hunderte Flüge dürften ausfallen."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/unternehmen/lufthansa-streiks-108.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-16T04:56:11.000Z"
       },
       {
         "id": "775289c0-f18f-4dc3-b4fd-5b40c772cd67",
@@ -245,6 +245,18 @@
     ],
     "politik": [
       {
+        "id": "li.3468647",
+        "title": "Die Linke: Van Aken hört als Parteichef auf - Pantisano will Nachfolger werden",
+        "summary": "Am Dienstag stand er noch auf der Bühne, nun verkündet der Co-Vorsitzenden der Linken seinen Rückzug. Er müsse sich um seine Gesundheit kümmern. Dass sich die Partei jetzt neu sortieren muss, birgt Gefahren.",
+        "paragraphs": [
+          "Am Dienstag stand er noch auf der Bühne, nun verkündet der Co-Vorsitzenden der Linken seinen Rückzug. Er müsse sich um seine Gesundheit kümmern. Dass sich die Partei jetzt neu sortieren muss, birgt Gefahren."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/jan-van-aken-ruecktritt-linke-berlin-pantisano-li.3468647",
+        "category": "Die Linke",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-16T06:24:30.000Z"
+      },
+      {
         "id": "76781710",
         "title": "Ausharren im Donbass: \"Geben wir auf, bleibt nichts übrig\"",
         "summary": "Die russische Armee rückt auf Kostjantyniwka vor. Ihr Ziel: die Besetzung des gesamten Donbass. Doch noch immer leben und kämpfen Menschen dort und in den umliegenden Städten. Eine DW-Reporterin hat sie besucht.",
@@ -287,7 +299,7 @@
         "paragraphs": [
           "Der US-Vizepräsident weist die Kritik von Papst Leo XIV. am Krieg gegen Iran zurück und erklärt, die Äußerungen des Pontifex basierten nicht auf theologischer Wahrheit."
         ],
-        "link": "https://www.sueddeutsche.de/politik/usa-news-vance-papst-li.3465712",
+        "link": "https://www.sueddeutsche.de/politik/usa-news-jd-vance-belehrung-papst-leo-xiv-theologie-li.3465712",
         "category": "USA",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-16T04:15:00.000Z"
@@ -389,18 +401,6 @@
         "publishedAt": "2026-04-15T16:06:33.000Z"
       },
       {
-        "id": "li.3468647",
-        "title": "Die Linke: Jan van Aken gibt Amt des Parteichefs ab",
-        "summary": "Am Dienstag stand er noch auf der Bühne, nun verkündet der Co-Vorsitzenden der Linken seinen Rückzug. Er müsse sich um seine Gesundheit kümmern. Dass sich die Partei jetzt neu sortieren muss, birgt Gefahren.",
-        "paragraphs": [
-          "Am Dienstag stand er noch auf der Bühne, nun verkündet der Co-Vorsitzenden der Linken seinen Rückzug. Er müsse sich um seine Gesundheit kümmern. Dass sich die Partei jetzt neu sortieren muss, birgt Gefahren."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/jan-van-aken-ruecktritt-linke-berlin-li.3468647",
-        "category": "Die Linke",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-15T15:37:35.000Z"
-      },
-      {
         "id": "li.3468606",
         "title": "Podcast: „Auf den Punkt“: Gesundheitsreform: Dreiviertel-Lob für Warkens Pläne",
         "summary": "Die Gesundheitsministerin will kräftig sparen und tritt damit vielen auf die Füße. Was hat es mit den Sparplänen im Gesundheitssystem auf sich und wo droht Widerstand?",
@@ -487,6 +487,66 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/pressestimmen-es-ist-erbaermlich-wenn-madrid-sich-wie-ein-kleines-kind-auffuehrt-1210794/artikel#omrss",
+        "title": "Pressestimmen: \"Es ist erbärmlich, wenn Madrid sich wie ein kleines Kind aufführt\"",
+        "summary": "Das torreiche und turbulente Rückspiel zwischen Bayern München und Real Madrid hat auch international Anklang gefunden. Die Pressestimmen zur Entscheidung im Champions-League-Viertelfinale ...",
+        "paragraphs": [
+          "Das torreiche und turbulente Rückspiel zwischen Bayern München und Real Madrid hat auch international Anklang gefunden. Die Pressestimmen zur Entscheidung im Champions-League-Viertelfinale ..."
+        ],
+        "link": "https://www.kicker.de/pressestimmen-es-ist-erbaermlich-wenn-madrid-sich-wie-ein-kleines-kind-auffuehrt-1210794/artikel#omrss",
+        "category": "Arbeloa",
+        "source": "Kicker",
+        "publishedAt": "2026-04-16T06:44:15.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/warum-das-clippers-aus-einen-wertvollen-pick-nach-oklahoma-spuelt-1210831/artikel#omrss",
+        "title": "Warum das Clippers-Aus einen wertvollen Pick nach Oklahoma spült",
+        "summary": "Die Oklahoma City Thunder profitieren direkt vom Play-In-Aus der Los Angeles Clippers. Ein ungeschützter Pick eröffnet plötzlich sogar Chancen auf einen Top-Prospect im kommenden Draft.",
+        "paragraphs": [
+          "Die Oklahoma City Thunder profitieren direkt vom Play-In-Aus der Los Angeles Clippers. Ein ungeschützter Pick eröffnet plötzlich sogar Chancen auf einen Top-Prospect im kommenden Draft."
+        ],
+        "link": "https://www.kicker.de/warum-das-clippers-aus-einen-wertvollen-pick-nach-oklahoma-spuelt-1210831/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-16T06:32:31.000Z"
+      },
+      {
+        "id": "li.3468804",
+        "title": "Pressestimmen zur Champions League: „Welch eine Ungerechtigkeit!“",
+        "summary": "Heldenhaftes Real, Verbitterung und Vorwürfe wegen vermeintlicher Willkür des Schiedsrichters – in spanischen Medien sind die Reaktionen auf Madrids Aus in München unterschiedlich. Ein Überblick.",
+        "paragraphs": [
+          "Heldenhaftes Real, Verbitterung und Vorwürfe wegen vermeintlicher Willkür des Schiedsrichters – in spanischen Medien sind die Reaktionen auf Madrids Aus in München unterschiedlich. Ein Überblick."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/real-madrid-pressestimmen-bayern-li.3468804",
+        "category": "Champions League",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-16T06:31:41.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kerr-kontert-kritik-curry-liefert-nach-kurzem-schock-die-antwort-1210826/artikel#omrss",
+        "title": "Kerr kontert Kritik: Curry liefert nach kurzem Schock die Antwort",
+        "summary": "Die Golden State Warriors drehen das Play-In-Spiel gegen die Los Angeles Clippers und danach wird es emotional. Coach Steve Kerr verteidigt Stephen Curry, der kurzzeitig in die Kabine verschwand, deutlich und hebt auch die Rolle von Kristaps Porzingis hervor.",
+        "paragraphs": [
+          "Die Golden State Warriors drehen das Play-In-Spiel gegen die Los Angeles Clippers und danach wird es emotional. Coach Steve Kerr verteidigt Stephen Curry, der kurzzeitig in die Kabine verschwand, deutlich und hebt auch die Rolle von Kristaps Porzingis hervor."
+        ],
+        "link": "https://www.kicker.de/kerr-kontert-kritik-curry-liefert-nach-kurzem-schock-die-antwort-1210826/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-16T06:21:27.000Z"
+      },
+      {
+        "id": "3c1b0a6c-da19-44c4-bd51-4386e31241c2",
+        "title": "Olympia 2022: Schweizer Eishockey-Nationaltrainer Patrick Fischer gesteht Reise mit gefälschtem Impfausweis",
+        "summary": "Erst wollte der Schweizer Eishockeyverband keine Konsequenzen ziehen, nun muss Patrick Fischer seinen Posten als Nationaltrainer räumen. Auslöser war ein Geständnis über eine Impfpassfälschung.",
+        "paragraphs": [
+          "Erst wollte der Schweizer Eishockeyverband keine Konsequenzen ziehen, nun muss Patrick Fischer seinen Posten als Nationaltrainer räumen. Auslöser war ein Geständnis über eine Impfpassfälschung."
+        ],
+        "link": "https://www.spiegel.de/sport/eishockey/olympia-2022-schweizer-eishockey-nationaltrainer-patrick-fischer-gesteht-reise-mit-gefaelschtem-impfausweis-a-3c1b0a6c-da19-44c4-bd51-4386e31241c2#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-16T06:21:00.000Z"
+      },
+      {
         "id": "https://www.kicker.de/sorge-bei-den-magic-franz-wagner-aeussert-sich-nach-knie-schreck-1210821/artikel#omrss",
         "title": "Sorge bei den Magic: Franz Wagner äußert sich nach Knie-Schreck",
         "summary": "Die Orlando Magic müssen im Play-In nicht nur eine Niederlage verdauen, sondern auch um Franz Wagner bangen. Der deutsche Star verletzte sich spät am Knie. Er selbst hat bereits ein Update gegeben.",
@@ -533,6 +593,30 @@
         "category": "Basketball",
         "source": "Kicker",
         "publishedAt": "2026-04-16T05:10:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/la-clippers-gegen-golden-state-2026-nba-playoffs-5198916/spielbericht#omrss",
+        "title": "Curry und Horford eskalieren im Schlussviertel: Warriors drehen Spiel in L.A.",
+        "summary": "Die Golden State Warriors bleiben am Leben. In einem wilden Play-In-Duell drehen sie ein Spiel bei den LA Clippers und sichern sich mit 126:121 den Sieg - dank eines überragenden Schlussviertels.",
+        "paragraphs": [
+          "Die Golden State Warriors bleiben am Leben. In einem wilden Play-In-Duell drehen sie ein Spiel bei den LA Clippers und sichern sich mit 126:121 den Sieg - dank eines überragenden Schlussviertels."
+        ],
+        "link": "https://www.kicker.de/la-clippers-gegen-golden-state-2026-nba-playoffs-5198916/spielbericht#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-16T04:55:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/philadelphia-gegen-orlando-2026-nba-playoffs-5198913/spielbericht#omrss",
+        "title": "76ers sichern sich Platz sieben: Magic verpassen direkten Playoff-Einzug",
+        "summary": "Die Philadelphia 76ers stehen in den Playoffs. Angeführt von einem starken Tyrese Maxey setzte sich Philadelphia im Play-In mit 109:97 gegen die Orlando Magic durch.",
+        "paragraphs": [
+          "Die Philadelphia 76ers stehen in den Playoffs. Angeführt von einem starken Tyrese Maxey setzte sich Philadelphia im Play-In mit 109:97 gegen die Orlando Magic durch."
+        ],
+        "link": "https://www.kicker.de/philadelphia-gegen-orlando-2026-nba-playoffs-5198913/spielbericht#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-16T04:00:00.000Z"
       },
       {
         "id": "{urn:uuid:2acec2a1-f520-4c7b-87a8-97e9cdd6daf3}",
@@ -619,6 +703,18 @@
         "publishedAt": "2026-04-15T21:56:50.000Z"
       },
       {
+        "id": "https://www.kicker.de/wegkamp-ueberragt-mit-zwei-toren-und-einer-vorlage-schalke-ii-fertigt-lotte-ab-1210798/video#omrss",
+        "title": "Wegkamp überragt mit zwei Toren und einer Vorlage: Schalke II fertigt Lotte ab",
+        "summary": "Der FC Schalke 04 II kehrte am Mittwochabend mit einem 5:2-Erfolg am Lotter Kreuz zurück in die Erfolgsspur. Gerrit Wegkamp steuerte drei Scorerpunkte bei.",
+        "paragraphs": [
+          "Der FC Schalke 04 II kehrte am Mittwochabend mit einem 5:2-Erfolg am Lotter Kreuz zurück in die Erfolgsspur. Gerrit Wegkamp steuerte drei Scorerpunkte bei."
+        ],
+        "link": "https://www.kicker.de/wegkamp-ueberragt-mit-zwei-toren-und-einer-vorlage-schalke-ii-fertigt-lotte-ab-1210798/video#omrss",
+        "category": "Demaj",
+        "source": "Kicker",
+        "publishedAt": "2026-04-15T21:56:21.000Z"
+      },
+      {
         "id": "2a275b31-a79d-45b2-ab21-59e8d55e77e6",
         "title": "Champions League: FC Arsenal steht nach Nullnummer gegen Sporting Lissabon im Halbfinle",
         "summary": "Der Elan der Hinrunde ist dahin. Aber für den Einzug ins Halbfinale der Champions League hat es für den FC Arsenal doch gereicht. Er benötigte dafür nur eine Durchschnittsleistung gegen Sporting Lissabon.",
@@ -629,102 +725,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-04-15T21:54:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/pressestimmen-es-ist-erbaermlich-wenn-madrid-sich-wie-ein-kleines-kind-auffuehrt-1210794/artikel#omrss",
-        "title": "Pressestimmen: \"Es ist erbärmlich, wenn Madrid sich wie ein kleines Kind aufführt\"",
-        "summary": "Das torreiche und turbulente Rückspiel zwischen Bayern München und Real Madrid hat auch international Anklang gefunden. Die Pressestimmen zur Entscheidung im Champions-League-Viertelfinale ...",
-        "paragraphs": [
-          "Das torreiche und turbulente Rückspiel zwischen Bayern München und Real Madrid hat auch international Anklang gefunden. Die Pressestimmen zur Entscheidung im Champions-League-Viertelfinale ..."
-        ],
-        "link": "https://www.kicker.de/pressestimmen-es-ist-erbaermlich-wenn-madrid-sich-wie-ein-kleines-kind-auffuehrt-1210794/artikel#omrss",
-        "category": "Arbeloa",
-        "source": "Kicker",
-        "publishedAt": "2026-04-15T21:50:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/real-sauer-auf-den-schiedsrichter-er-hat-das-spiel-ruiniert-1210787/artikel#omrss",
-        "title": "Real sauer auf den Schiedsrichter: \"Er hat das Spiel ruiniert\"",
-        "summary": "Nach einem packenden Fußballspiel ist Real Madrid in München aufgrund einer 3:4-Niederlage aus der Champions League ausgeschieden. Bei den Königlichen war der Ärger über einen Mann groß: Schiedsrichter Slavko Vincic.",
-        "paragraphs": [
-          "Nach einem packenden Fußballspiel ist Real Madrid in München aufgrund einer 3:4-Niederlage aus der Champions League ausgeschieden. Bei den Königlichen war der Ärger über einen Mann groß: Schiedsrichter Slavko Vincic."
-        ],
-        "link": "https://www.kicker.de/real-sauer-auf-den-schiedsrichter-er-hat-das-spiel-ruiniert-1210787/artikel#omrss",
-        "category": "Arbeloa",
-        "source": "Kicker",
-        "publishedAt": "2026-04-15T21:45:52.000Z"
-      },
-      {
-        "id": "li.3468627",
-        "title": "Champions League: Ein Spiel, das einen Vogel hat",
-        "summary": "In einer irrwitzigen Partie voller Torwartfehler und anderer Ungeheuerlichkeiten gewinnt der FC Bayern 4:3 gegen Real Madrid und steht im Halbfinale der Champions League. Gegen Paris wird Trainer Kompany gelbgesperrt fehlen.",
-        "paragraphs": [
-          "In einer irrwitzigen Partie voller Torwartfehler und anderer Ungeheuerlichkeiten gewinnt der FC Bayern 4:3 gegen Real Madrid und steht im Halbfinale der Champions League. Gegen Paris wird Trainer Kompany gelbgesperrt fehlen."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/champions-league-viertelfinale-fc-bayern-real-madrid-spielbericht-tore-li.3468627",
-        "category": "Champions League",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-15T21:38:29.000Z"
-      },
-      {
-        "id": "c86beb66-368f-4731-9e6e-5b74575e9a8c",
-        "title": "Fehlerhafter Manuel Neuer, Matchwinner Luis Díaz: Der FC Bayern in der Einzelkritik gegen Real Madrid",
-        "summary": "Manuel Neuer patzte ungewohnt, seine Vorderleute machten es mit vier Toren wieder gut. Die Schlüsselspieler der Bayern standen diesmal allerdings im Mittelfeld: Joshua Kimmich und Aleksandar Pavlović.",
-        "paragraphs": [
-          "Manuel Neuer patzte ungewohnt, seine Vorderleute machten es mit vier Toren wieder gut. Die Schlüsselspieler der Bayern standen diesmal allerdings im Mittelfeld: Joshua Kimmich und Aleksandar Pavlović."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/fehlerhafter-manuel-neuer-matchwinner-luis-diaz-der-fc-bayern-in-der-einzelkritik-gegen-real-madrid-a-c86beb66-368f-4731-9e6e-5b74575e9a8c#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-15T21:33:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/koeln-gegen-berlin-2026-del-playoffs-5198577/spielbericht#omrss",
-        "title": "Storm-Blitztor und Unterschiedsspieler Bokk: Köln gleicht Serie aus",
-        "summary": "Viertes Spiel, vierter Heimsieg: Mit einem hart erkämpften 4:3 nach Verlängerung gegen Berlin stellten die Kölner Haie in der Best-of-seven-Halbfinalserie der DEL auf 2:2. Den Unterschied machte der Kölner Angreifer Dominik Bokk - ein Berliner Meisterspieler aus dem Jahr 2022.",
-        "paragraphs": [
-          "Viertes Spiel, vierter Heimsieg: Mit einem hart erkämpften 4:3 nach Verlängerung gegen Berlin stellten die Kölner Haie in der Best-of-seven-Halbfinalserie der DEL auf 2:2. Den Unterschied machte der Kölner Angreifer Dominik Bokk - ein Berliner Meisterspieler aus dem Jahr 2022."
-        ],
-        "link": "https://www.kicker.de/koeln-gegen-berlin-2026-del-playoffs-5198577/spielbericht#omrss",
-        "category": "DEL Play-offs",
-        "source": "Kicker",
-        "publishedAt": "2026-04-15T21:31:26.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/absolutes-spektakel-bayerns-turbulentes-4-3-gegen-real-im-video-1210789/video#omrss",
-        "title": "Absolutes Spektakel: Bayerns turbulentes 4:3 gegen Real im Video",
-        "summary": "Der FC Bayern München steht nach einem spektakulären 4:3-Sieg gegen Real Madrid im Halbfinale der Champions League. Michael Olise setzt mit einem schönen Schlenzer den Schlusspunkt. Die Highlights des Spiels gibt es hier im Video.",
-        "paragraphs": [
-          "Der FC Bayern München steht nach einem spektakulären 4:3-Sieg gegen Real Madrid im Halbfinale der Champions League. Michael Olise setzt mit einem schönen Schlenzer den Schlusspunkt. Die Highlights des Spiels gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/absolutes-spektakel-bayerns-turbulentes-4-3-gegen-real-im-video-1210789/video#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-04-15T21:29:26.000Z"
-      },
-      {
-        "id": "li.3468628",
-        "title": "FC Bayern in der Einzelkritik: Diaz schießt, trifft und rennt los wie Forrest Gump",
-        "summary": "Der Kolumbianer weiß gar nicht, wohin mit seiner Freude. Manuel Neuer erlebt ein Spiel wie eine ganze Saison. Und Joshua Kimmich besiegt seinen Real-Madrid-Fluch. Die Bayern in der Einzelkritik.",
-        "paragraphs": [
-          "Der Kolumbianer weiß gar nicht, wohin mit seiner Freude. Manuel Neuer erlebt ein Spiel wie eine ganze Saison. Und Joshua Kimmich besiegt seinen Real-Madrid-Fluch. Die Bayern in der Einzelkritik."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/champions-league-fc-bayern-real-madrid-einzelkritik-neuer-kane-diaz-olise-li.3468628",
-        "category": "Champions League",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-15T21:27:25.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/siegemund-und-lys-in-stuttgart-chancenlos-1210769/artikel#omrss",
-        "title": "Siegemund und Lys in Stuttgart chancenlos",
-        "summary": "Als Außenseiterinnen spielen Laura Siegemund und Eva Lys um den Sprung ins Viertelfinale. Doch beide scheiden deutlich aus - heftig ist die Niederlage für Lys.",
-        "paragraphs": [
-          "Als Außenseiterinnen spielen Laura Siegemund und Eva Lys um den Sprung ins Viertelfinale. Doch beide scheiden deutlich aus - heftig ist die Niederlage für Lys."
-        ],
-        "link": "https://www.kicker.de/siegemund-und-lys-in-stuttgart-chancenlos-1210769/artikel#omrss",
-        "category": "Tennis",
-        "source": "Kicker",
-        "publishedAt": "2026-04-15T21:22:35.000Z"
       }
     ],
     "edv": [
@@ -741,16 +741,16 @@
         "publishedAt": "2026-04-16T04:37:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Cloud-Security-Masterclass-Angriff-und-Verteidigung-in-AWS-11246638.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Cloud Security Masterclass – Angriff und Verteidigung in AWS",
-        "summary": "Erfahren Sie, wie Angreifer Fehlkonfigurationen und mangelnde Härtung der Amazon Cloud ausnutzen und wie Sie AWS-Dienste und Cloud-Identitäten dagegen schützen.",
+        "id": "https://www.heise.de/news/Durch-Werbung-AfD-Abgeordnete-machten-mit-Bundestagsreden-bei-YouTube-Kasse-11259825.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Durch Werbung: AfD-Abgeordnete machten mit Bundestagsreden bei YouTube Kasse",
+        "summary": "Die AfD räumt ein, dass Mitglieder mit YouTube-Videos aus dem Parlament Geld verdient haben. Der Bundestag kritisiert die offenbar wieder eingestellte Praxis.",
         "paragraphs": [
-          "Erfahren Sie, wie Angreifer Fehlkonfigurationen und mangelnde Härtung der Amazon Cloud ausnutzen und wie Sie AWS-Dienste und Cloud-Identitäten dagegen schützen."
+          "Die AfD räumt ein, dass Mitglieder mit YouTube-Videos aus dem Parlament Geld verdient haben. Der Bundestag kritisiert die offenbar wieder eingestellte Praxis."
         ],
-        "link": "https://www.heise.de/news/iX-Workshop-Cloud-Security-Masterclass-Angriff-und-Verteidigung-in-AWS-11246638.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Durch-Werbung-AfD-Abgeordnete-machten-mit-Bundestagsreden-bei-YouTube-Kasse-11259825.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-16T06:00:00.000Z"
+        "publishedAt": "2026-04-16T06:40:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Seltene-Erden-Abhaengigkeit-von-China-sinkt-langsam-11259078.html",
@@ -765,16 +765,16 @@
         "publishedAt": "2026-04-15T13:51:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/AWS-Interconnect-Multicloud-Vernetzung-ohne-VPN-und-Colocation-11259042.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "AWS Interconnect: Multicloud-Vernetzung ohne VPN und Colocation",
-        "summary": "AWS Interconnect verbindet VPCs verschiedener Cloud-Anbieter über private Backbones – ohne VPN-Tunnel, Colocation oder manuelle Netzwerkkonfiguration.",
+        "id": "https://www.heise.de/news/Cisco-Kritische-Codeschmuggel-Luecken-in-ISE-und-mehr-geschlossen-11259815.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Cisco: Kritische Codeschmuggel-Lücken in ISE und mehr geschlossen",
+        "summary": "In Ciscos Identity Services Engine sowie Webex klaffen kritische Sicherheitslücken. Insgesamt stopfen die Entwickler 10 Sicherheitslecks.",
         "paragraphs": [
-          "AWS Interconnect verbindet VPCs verschiedener Cloud-Anbieter über private Backbones – ohne VPN-Tunnel, Colocation oder manuelle Netzwerkkonfiguration."
+          "In Ciscos Identity Services Engine sowie Webex klaffen kritische Sicherheitslücken. Insgesamt stopfen die Entwickler 10 Sicherheitslecks."
         ],
-        "link": "https://www.heise.de/news/AWS-Interconnect-Multicloud-Vernetzung-ohne-VPN-und-Colocation-11259042.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Cisco-Kritische-Codeschmuggel-Luecken-in-ISE-und-mehr-geschlossen-11259815.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-16T05:40:00.000Z"
+        "publishedAt": "2026-04-16T06:38:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Ultimatum-an-Meta-Philippinen-verlangen-Massnahmen-gegen-Fake-News-11257532.html",
@@ -789,16 +789,16 @@
         "publishedAt": "2026-04-14T16:35:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Deutsches-Patentamt-Deutschland-in-Digitaltechnik-besser-als-gedacht-11259769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Deutsches Patentamt: Deutschland in Digitaltechnik besser als gedacht",
-        "summary": "Die Anzahl deutscher Patentanmeldungen im Digitalbereich nimmt wieder zu. Weltweit nimmt Deutschland damit den fünften Rang ein. An der Spitze stehen die USA.",
+        "id": "https://www.heise.de/news/Gruene-fordern-Tempolimit-Kosten-senken-Klima-schuetzen-11259787.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Tempolimit: Grüne bringen Antrag im Bundestag ein",
+        "summary": "Die Grünen fordern ein Tempolimit auf Autobahnen, um Spritverbrauch und Kosten zu senken. Dafür bringen sie einen Gesetzentwurf in den Bundestag ein.",
         "paragraphs": [
-          "Die Anzahl deutscher Patentanmeldungen im Digitalbereich nimmt wieder zu. Weltweit nimmt Deutschland damit den fünften Rang ein. An der Spitze stehen die USA."
+          "Die Grünen fordern ein Tempolimit auf Autobahnen, um Spritverbrauch und Kosten zu senken. Dafür bringen sie einen Gesetzentwurf in den Bundestag ein."
         ],
-        "link": "https://www.heise.de/news/Deutsches-Patentamt-Deutschland-in-Digitaltechnik-besser-als-gedacht-11259769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Gruene-fordern-Tempolimit-Kosten-senken-Klima-schuetzen-11259787.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-16T05:10:00.000Z"
+        "publishedAt": "2026-04-16T06:17:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Neue-Demo-des-Flipper-One-Tech-Gadget-hat-DisplayPort-und-Ethernet-Buchse-11257021.html",
@@ -813,16 +813,16 @@
         "publishedAt": "2026-04-14T15:24:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Samsung-setzt-auf-LCDs-Bilderrahmen-und-Fussballfans-11259689.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "LCD statt OLED: Samsung möbelt altbekannte Technik mit farbigen LEDs auf",
-        "summary": "Organische Displays gelten bislang als das Non-plus-Ultra im TV. Samsung will die LCD-Technik mit winzige LEDs pushen und nutzt OLEDs als Bilderrahmen.",
+        "id": "https://www.heise.de/news/iX-Workshop-Cloud-Security-Masterclass-Angriff-und-Verteidigung-in-AWS-11246638.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Cloud Security Masterclass – Angriff und Verteidigung in AWS",
+        "summary": "Erfahren Sie, wie Angreifer Fehlkonfigurationen und mangelnde Härtung der Amazon Cloud ausnutzen und wie Sie AWS-Dienste und Cloud-Identitäten dagegen schützen.",
         "paragraphs": [
-          "Organische Displays gelten bislang als das Non-plus-Ultra im TV. Samsung will die LCD-Technik mit winzige LEDs pushen und nutzt OLEDs als Bilderrahmen."
+          "Erfahren Sie, wie Angreifer Fehlkonfigurationen und mangelnde Härtung der Amazon Cloud ausnutzen und wie Sie AWS-Dienste und Cloud-Identitäten dagegen schützen."
         ],
-        "link": "https://www.heise.de/news/Samsung-setzt-auf-LCDs-Bilderrahmen-und-Fussballfans-11259689.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/iX-Workshop-Cloud-Security-Masterclass-Angriff-und-Verteidigung-in-AWS-11246638.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-16T04:37:00.000Z"
+        "publishedAt": "2026-04-16T06:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Analyse-zur-Deutschland-App-Digitalminister-Wildberger-geht-ins-Risiko-11256737.html",
@@ -837,16 +837,16 @@
         "publishedAt": "2026-04-14T12:34:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Donnerstag-EU-fuer-Alternativ-KI-in-WhatsApp-Einsparung-mit-autonomer-Lieferung-11259755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Donnerstag: EU für Alternativ-KI in WhatsApp, Einsparung mit autonomer Lieferung",
-        "summary": "Drittanbieter-KI statt Meta AI + Minimierung von Lieferkosten durch Roboter + Entlassungen bei Snapchat wegen KI + Verbot neuer US-Rechenzentren + #heiseshow",
+        "id": "https://www.heise.de/news/AWS-Interconnect-Multicloud-Vernetzung-ohne-VPN-und-Colocation-11259042.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "AWS Interconnect: Multicloud-Vernetzung ohne VPN und Colocation",
+        "summary": "AWS Interconnect verbindet VPCs verschiedener Cloud-Anbieter über private Backbones – ohne VPN-Tunnel, Colocation oder manuelle Netzwerkkonfiguration.",
         "paragraphs": [
-          "Drittanbieter-KI statt Meta AI + Minimierung von Lieferkosten durch Roboter + Entlassungen bei Snapchat wegen KI + Verbot neuer US-Rechenzentren + #heiseshow"
+          "AWS Interconnect verbindet VPCs verschiedener Cloud-Anbieter über private Backbones – ohne VPN-Tunnel, Colocation oder manuelle Netzwerkkonfiguration."
         ],
-        "link": "https://www.heise.de/news/Donnerstag-EU-fuer-Alternativ-KI-in-WhatsApp-Einsparung-mit-autonomer-Lieferung-11259755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/AWS-Interconnect-Multicloud-Vernetzung-ohne-VPN-und-Colocation-11259042.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-16T04:15:00.000Z"
+        "publishedAt": "2026-04-16T05:40:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Linux-7-0-erschienen-mehr-als-ein-Nummernsprung-11255745.html",
@@ -859,6 +859,42 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-14T04:58:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Deutsches-Patentamt-Deutschland-in-Digitaltechnik-besser-als-gedacht-11259769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Deutsches Patentamt: Deutschland in Digitaltechnik besser als gedacht",
+        "summary": "Die Anzahl deutscher Patentanmeldungen im Digitalbereich nimmt wieder zu. Weltweit nimmt Deutschland damit den fünften Rang ein. An der Spitze stehen die USA.",
+        "paragraphs": [
+          "Die Anzahl deutscher Patentanmeldungen im Digitalbereich nimmt wieder zu. Weltweit nimmt Deutschland damit den fünften Rang ein. An der Spitze stehen die USA."
+        ],
+        "link": "https://www.heise.de/news/Deutsches-Patentamt-Deutschland-in-Digitaltechnik-besser-als-gedacht-11259769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-16T05:10:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Samsung-setzt-auf-LCDs-Bilderrahmen-und-Fussballfans-11259689.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "LCD statt OLED: Samsung möbelt altbekannte Technik mit farbigen LEDs auf",
+        "summary": "Organische Displays gelten bislang als das Non-plus-Ultra im TV. Samsung will die LCD-Technik mit winzige LEDs pushen und nutzt OLEDs als Bilderrahmen.",
+        "paragraphs": [
+          "Organische Displays gelten bislang als das Non-plus-Ultra im TV. Samsung will die LCD-Technik mit winzige LEDs pushen und nutzt OLEDs als Bilderrahmen."
+        ],
+        "link": "https://www.heise.de/news/Samsung-setzt-auf-LCDs-Bilderrahmen-und-Fussballfans-11259689.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-16T04:37:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Donnerstag-EU-fuer-Alternativ-KI-in-WhatsApp-Einsparung-mit-autonomer-Lieferung-11259755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Donnerstag: EU für Alternativ-KI in WhatsApp, Einsparung mit autonomer Lieferung",
+        "summary": "Drittanbieter-KI statt Meta AI + Minimierung von Lieferkosten durch Roboter + Entlassungen bei Snapchat wegen KI + Verbot neuer US-Rechenzentren + #heiseshow",
+        "paragraphs": [
+          "Drittanbieter-KI statt Meta AI + Minimierung von Lieferkosten durch Roboter + Entlassungen bei Snapchat wegen KI + Verbot neuer US-Rechenzentren + #heiseshow"
+        ],
+        "link": "https://www.heise.de/news/Donnerstag-EU-fuer-Alternativ-KI-in-WhatsApp-Einsparung-mit-autonomer-Lieferung-11259755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-16T04:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/heiseshow-Speicherkrise-Europa-und-der-Mond-Tesla-FSD-11259641.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -910,7 +946,7 @@
       },
       {
         "id": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-waermebildkamera-fuers-handy-adapter-fuer-android-und-iphone/m9y4787?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 10: Die beste Wärmebildkamera fürs Handy im Test",
+        "title": "Top 10: Die beste Wärmebildkamera fürs Handy",
         "summary": "Wärmeverluste, Lecks und Störungen finden: Wir zeigen die besten Wärmebildkameras fürs Handy von Hikmicro, Flir und Co.",
         "paragraphs": [
           "Wärmeverluste, Lecks und Störungen finden: Wir zeigen die besten Wärmebildkameras fürs Handy von Hikmicro, Flir und Co."
@@ -931,45 +967,141 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-15T16:07:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Lithografie-Systeme-Speicherhersteller-machen-den-meisten-ASML-Umsatz-aus-11259535.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Lithografie-Systeme: Speicherhersteller machen den meisten ASML-Umsatz aus",
-        "summary": "ASML erwartet eine anhaltend hohe Nachfrage durch Chiphersteller. Zu den Buchungen schweigt sich die Firma neuerdings jedoch aus.",
-        "paragraphs": [
-          "ASML erwartet eine anhaltend hohe Nachfrage durch Chiphersteller. Zu den Buchungen schweigt sich die Firma neuerdings jedoch aus."
-        ],
-        "link": "https://www.heise.de/news/Lithografie-Systeme-Speicherhersteller-machen-den-meisten-ASML-Umsatz-aus-11259535.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-15T15:49:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/21-BSI-Sicherheitskongress-NIS-2-Umsetzung-weit-hinter-den-Erwartungen-11259349.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "21. BSI-Sicherheitskongress: NIS-2-Umsetzung weit hinter den Erwartungen",
-        "summary": "Die Richtlinie ist noch immer zu unbekannt und Unternehmen ignorieren die Registrierungspflicht, konstatiert das BSI auf seinem Jahreskongress.",
-        "paragraphs": [
-          "Die Richtlinie ist noch immer zu unbekannt und Unternehmen ignorieren die Registrierungspflicht, konstatiert das BSI auf seinem Jahreskongress."
-        ],
-        "link": "https://www.heise.de/news/21-BSI-Sicherheitskongress-NIS-2-Umsetzung-weit-hinter-den-Erwartungen-11259349.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-15T15:28:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/DFB-startet-eigenen-Pay-TV-Sender-DFB-TV-11259433.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "DFB startet eigenen Pay-TV-Sender DFB.TV",
-        "summary": "Der Deutsche Fußball-Bund (DFB) startet am 22. Mai mit DFB.TV einen eigenen Pay-TV-Sender. Das Angebot soll bestehende TV-Partnerschaften ergänzen.",
-        "paragraphs": [
-          "Der Deutsche Fußball-Bund (DFB) startet am 22. Mai mit DFB.TV einen eigenen Pay-TV-Sender. Das Angebot soll bestehende TV-Partnerschaften ergänzen."
-        ],
-        "link": "https://www.heise.de/news/DFB-startet-eigenen-Pay-TV-Sender-DFB-TV-11259433.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-15T15:23:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/us-urteil-ticketmaster-verliert-monopolverfahren-in-den-usa/100217375.html",
+        "title": "US-Urteil: Ticketmaster verliert Monopolverfahren in den USA",
+        "summary": "Der Tickervermarkter beherrscht nach einem Urteil eines Gerichts in New York den US-Veranstaltungsmarkt in illegaler Weise. Das könnte nun millionenschwere Entschädigungen zur Folge haben.",
+        "paragraphs": [
+          "Der Tickervermarkter beherrscht nach einem Urteil eines Gerichts in New York den US-Veranstaltungsmarkt in illegaler Weise. Das könnte nun millionenschwere Entschädigungen zur Folge haben."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/us-urteil-ticketmaster-verliert-monopolverfahren-in-den-usa/100217375.html",
+        "category": "Dienstleister",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T06:41:22.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/donald-trump-us-praesident-veroeffentlicht-im-streit-mit-papst-neues-jesus-bild/100217372.html",
+        "title": "Vatikan: Trump veröffentlicht im Streit mit Papst Leo neues Jesus-Bild",
+        "summary": "Vor zwei Tagen hatte Trump ein ähnliches Bild gelöscht, das ihn als eine an Jesus erinnernde Figur bei einer Krankenheilung zeigte. Der Papst ruft unterdessen wieder zu Frieden auf.",
+        "paragraphs": [
+          "Vor zwei Tagen hatte Trump ein ähnliches Bild gelöscht, das ihn als eine an Jesus erinnernde Figur bei einer Krankenheilung zeigte. Der Papst ruft unterdessen wieder zu Frieden auf."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/donald-trump-us-praesident-veroeffentlicht-im-streit-mit-papst-neues-jesus-bild/100217372.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T06:36:46.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/libanesische-hisbollah-miliz-trump-kuendigt-spitzengespraech-zwischen-israel-und-libanon-an/100217345.html",
+        "title": "Libanesische Hisbollah-Miliz: Trump kündigt Spitzengespräch zwischen Israel und Libanon an",
+        "summary": "Der Krieg zwischen Israel und der libanesischen Hisbollah dauert an. Nach ersten Treffen zwischen Vertretern beider Nachbarländer kündigt der US-Präsident nun ein Gespräch auf Spitzenebene an.",
+        "paragraphs": [
+          "Der Krieg zwischen Israel und der libanesischen Hisbollah dauert an. Nach ersten Treffen zwischen Vertretern beider Nachbarländer kündigt der US-Präsident nun ein Gespräch auf Spitzenebene an."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/libanesische-hisbollah-miliz-trump-kuendigt-spitzengespraech-zwischen-israel-und-libanon-an/100217345.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T06:35:07.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/tarife-einigung-im-nahverkehrs-tarifstreit-in-bayern/100217376.html",
+        "title": "Tarife: Einigung im Nahverkehrs-Tarifstreit in Bayern",
+        "summary": "Nach einer langen Auseinandersetzung haben sich die kommunalen Arbeitgeber und Verdi geeinigt. Das Ergebnis muss noch bestätigt werden - für die nächsten Wochen sind Warnstreiks aber vom Tisch.",
+        "paragraphs": [
+          "Nach einer langen Auseinandersetzung haben sich die kommunalen Arbeitgeber und Verdi geeinigt. Das Ergebnis muss noch bestätigt werden - für die nächsten Wochen sind Warnstreiks aber vom Tisch."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/tarife-einigung-im-nahverkehrs-tarifstreit-in-bayern/100217376.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T06:33:18.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/russischer-angriffskrieg-viele-tote-nach-russischen-angriffen-auf-hafenstadt-odessa/100217320.html",
+        "title": "Russischer Angriffskrieg: Viele Tote nach russischen Angriffen auf Hafenstadt Odessa",
+        "summary": "Moskau greift die Ukraine in mehreren Wellen massiv mit Raketen und Drohnen an. An mehreren Orten kommen Menschen ums Leben. Allein in der Hafenstadt Odessa gibt es acht Todesopfer.",
+        "paragraphs": [
+          "Moskau greift die Ukraine in mehreren Wellen massiv mit Raketen und Drohnen an. An mehreren Orten kommen Menschen ums Leben. Allein in der Hafenstadt Odessa gibt es acht Todesopfer."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/russischer-angriffskrieg-viele-tote-nach-russischen-angriffen-auf-hafenstadt-odessa/100217320.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T06:31:36.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/das-gehoert-sich-nicht-arbeitgeberchef-1000-euro-praemie-belastet-einseitig-firmen/100217363.html",
+        "title": "„Das gehört sich nicht“: Arbeitgeberchef: 1.000-Euro-Prämie belastet einseitig Firmen",
+        "summary": "1.000 Euro steuerfrei können Unternehmen ihren Angestellten zahlen, damit will die Bundesregierung die Verbraucher in der aktuellen Krise entlasten. Der Arbeitgeberverband hat dazu eine klare Meinung.",
+        "paragraphs": [
+          "1.000 Euro steuerfrei können Unternehmen ihren Angestellten zahlen, damit will die Bundesregierung die Verbraucher in der aktuellen Krise entlasten. Der Arbeitgeberverband hat dazu eine klare Meinung."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/das-gehoert-sich-nicht-arbeitgeberchef-1000-euro-praemie-belastet-einseitig-firmen/100217363.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T06:23:30.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/vorsorge/geld-warum-das-aufstiegsversprechen-nicht-mehr-gilt-02/100170215.html",
+        "title": "Zwischen Boomern und Gen Z: Gestresste Generation: Mitten im Leben steigt der Druck – doch das „Aufstiegsversprechen“ gilt nicht mehr",
+        "summary": "Zwischen 30 und 50 entscheidet sich das Leben. Gefühlt war es noch nie so schwer, dieser Herausforderung gerecht zu werden. Auch weil die Politik diese Generation vernachlässigt.",
+        "paragraphs": [
+          "Zwischen 30 und 50 entscheidet sich das Leben. Gefühlt war es noch nie so schwer, dieser Herausforderung gerecht zu werden. Auch weil die Politik diese Generation vernachlässigt."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/vorsorge/geld-warum-das-aufstiegsversprechen-nicht-mehr-gilt-02/100170215.html",
+        "category": "Vorsorge",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T06:22:00.000Z"
+      },
+      {
+        "id": "5db35c92-4b69-4b4e-92a3-ae98bd1e1325",
+        "title": "Fitnessstudios: Höhere Kosten treiben Beiträge für Neukunden nach oben",
+        "summary": "Die Fitnessstudios in Deutschland haben laut einer Studie so viele Mitglieder wie nie zuvor. Vor allem für Neukunden dürfte es allerdings teurer werden.",
+        "paragraphs": [
+          "Die Fitnessstudios in Deutschland haben laut einer Studie so viele Mitglieder wie nie zuvor. Vor allem für Neukunden dürfte es allerdings teurer werden."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/service/fitnessstudios-hoehere-kosten-treiben-beitraege-fuer-neukunden-nach-oben-a-5db35c92-4b69-4b4e-92a3-ae98bd1e1325#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-16T06:22:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/luigi-pantisano-linksfraktionsvize-kandidiert-fuer-parteivorsitz/100217370.html",
+        "title": "Luigi Pantisano: Linksfraktionsvize kandidiert für Parteivorsitz",
+        "summary": "Linken-Chef van Aken zieht sich aus der Doppelspitze mit Schwerdtner zurück – aus gesundheitlichen Gründen. Jetzt meldet ein möglicher Nachfolger seine Bewerbung an.",
+        "paragraphs": [
+          "Linken-Chef van Aken zieht sich aus der Doppelspitze mit Schwerdtner zurück – aus gesundheitlichen Gründen. Jetzt meldet ein möglicher Nachfolger seine Bewerbung an."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/luigi-pantisano-linksfraktionsvize-kandidiert-fuer-parteivorsitz/100217370.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T06:21:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/atomkraft-spahn-will-reaktivierung-von-atomkraftwerken-pruefen/100217368.html",
+        "title": "Atomkraft: „Müssen Debatte führen“: Spahn will Reaktivierung von Atomkraftwerken prüfen",
+        "summary": "Die letzten drei Kernkraftwerke in Deutschland wurden 2023 abgeschaltet. Kanzler Merz sieht im Ausstieg zwar einen Fehler, nennt ihn aber irreversibel. Fraktionschef Spahn sieht das anders.",
+        "paragraphs": [
+          "Die letzten drei Kernkraftwerke in Deutschland wurden 2023 abgeschaltet. Kanzler Merz sieht im Ausstieg zwar einen Fehler, nennt ihn aber irreversibel. Fraktionschef Spahn sieht das anders."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/atomkraft-spahn-will-reaktivierung-von-atomkraftwerken-pruefen/100217368.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T06:15:23.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/krankmeldung-wie-koennen-arbeitgeber-rechtlich-gegen-blaumacher-vorgehen-01/100180160.html",
+        "title": "Krankmeldung: Wie sich Arbeitgeber gegen Blaumacher wehren können",
+        "summary": "Aus dem Handelsblatt-Archiv: Ein Mitarbeiter meldet sich immer an Brückentagen und montags krank? Diese rechtlichen Möglichkeiten haben Firmen bei Verdacht auf Blaumachen.",
+        "paragraphs": [
+          "Aus dem Handelsblatt-Archiv: Ein Mitarbeiter meldet sich immer an Brückentagen und montags krank? Diese rechtlichen Möglichkeiten haben Firmen bei Verdacht auf Blaumachen."
+        ],
+        "link": "https://www.handelsblatt.com/karriere/krankmeldung-wie-koennen-arbeitgeber-rechtlich-gegen-blaumacher-vorgehen-01/100180160.html",
+        "category": "Management",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-16T06:06:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/kering-de-meo-will-die-operative-marge-des-luxuskonzerns-verdoppeln/100217367.html",
         "title": "Luxusindustrie: Kering-Chef De Meo will die operative Marge verdoppeln",
@@ -1031,18 +1163,6 @@
         "publishedAt": "2026-04-16T05:45:40.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/deutschland/hohe-spritpreise-steuerzahlerbund-hoehere-pendlerpauschale-besser-als-praemie/100217363.html",
-        "title": "Hohe Spritpreise: Steuerzahlerbund: Höhere Pendlerpauschale besser als Prämie",
-        "summary": "Krisenbonus oder echte Entlastung? Handwerker und Bäcker fragen sich, wie sie die Entlastungsprämie von 1.000 Euro stemmen sollen. Der Steuerzahlerbund fordert nun mehr Geld für alle, die pendeln.",
-        "paragraphs": [
-          "Krisenbonus oder echte Entlastung? Handwerker und Bäcker fragen sich, wie sie die Entlastungsprämie von 1.000 Euro stemmen sollen. Der Steuerzahlerbund fordert nun mehr Geld für alle, die pendeln."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/hohe-spritpreise-steuerzahlerbund-hoehere-pendlerpauschale-besser-als-praemie/100217363.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T05:43:35.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/karriere/homeoffice-wie-sich-unternehmen-gegen-buero-schwaenzer-wehren-koennen-01/100136988.html",
         "title": "Homeoffice: Wie sich Firmen gegen Büro-Schwänzer wehren können",
         "summary": "Laut einer exklusiven Auswertung arbeitet jeder zehnte Beschäftigte öfter im Homeoffice als erlaubt. Das müssen Unternehmen nicht hinnehmen. Was Arbeitnehmern droht.",
@@ -1089,126 +1209,6 @@
         "category": "International",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-16T05:33:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/unicredit-commerzbank-fuerchtet-starke-einschnitte-im-auslandsnetz-01/100217057.html",
-        "title": "Übernahmekampf: Commerzbank fürchtet bei Verkauf an Unicredit starke Einschnitte im Auslandsnetz",
-        "summary": "Bei Spitzengesprächen hat sich gezeigt, dass beide Institute unterschiedliche Vorstellungen über ein künftiges Geschäftsmodell haben, etwa bei der Begleitung von Mittelständlern im Ausland.",
-        "paragraphs": [
-          "Bei Spitzengesprächen hat sich gezeigt, dass beide Institute unterschiedliche Vorstellungen über ein künftiges Geschäftsmodell haben, etwa bei der Begleitung von Mittelständlern im Ausland."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/unicredit-commerzbank-fuerchtet-starke-einschnitte-im-auslandsnetz-01/100217057.html",
-        "category": "Banken",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T05:26:00.000Z"
-      },
-      {
-        "id": "cc222e68-5c81-4c67-9653-5755dc94eca2",
-        "title": "Atomkraft: Jens Spahn bringt Reaktivierung stillgelegter Reaktoren ins Spiel",
-        "summary": "Unionsfraktionschef Jens Spahn bedient die Sehnsucht in CDU und CSU nach einer Rückkehr zur Atomkraft: Er bringt eine Reaktivierung der abgeschalteten Meiler ins Spiel.",
-        "paragraphs": [
-          "Unionsfraktionschef Jens Spahn bedient die Sehnsucht in CDU und CSU nach einer Rückkehr zur Atomkraft: Er bringt eine Reaktivierung der abgeschalteten Meiler ins Spiel."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/atomkraft-jens-spahn-bringt-reaktivierung-stillgelegter-reaktoren-ins-spiel-a-cc222e68-5c81-4c67-9653-5755dc94eca2#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-16T05:25:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-wir-sollten-das-renteneintrittsalter-an-die-lebenserwartung-koppeln-05/100215524.html",
-        "title": "Gastkommentar: Wir sollten das Renteneintrittsalter an die  Lebenserwartung koppeln",
-        "summary": "Deutschland kann wieder zu einem Ort werden, an dem sich Leistung lohnt, schreibt Wirtschaftsministerin Katherina Reiche und schlägt eine umfassende Wachstumsagenda vor.",
-        "paragraphs": [
-          "Deutschland kann wieder zu einem Ort werden, an dem sich Leistung lohnt, schreibt Wirtschaftsministerin Katherina Reiche und schlägt eine umfassende Wachstumsagenda vor."
-        ],
-        "link": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-wir-sollten-das-renteneintrittsalter-an-die-lebenserwartung-koppeln-05/100215524.html",
-        "category": "Gastbeiträge",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T05:17:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/pilot-gehalt-so-viel-verdienen-lufthansa-piloten-2026-01/100037203.html",
-        "title": "Pilotengehalt: Das verdienen Lufthansa-Piloten 2026",
-        "summary": "Piloten verdienen in der Lufthansa-Gruppe nirgendwo so gut wie bei der Kernmarke Lufthansa Airlines. Dennoch sind sie unzufrieden. Ist das berechtigt? Der Gehaltscheck zeigt die Details.",
-        "paragraphs": [
-          "Piloten verdienen in der Lufthansa-Gruppe nirgendwo so gut wie bei der Kernmarke Lufthansa Airlines. Dennoch sind sie unzufrieden. Ist das berechtigt? Der Gehaltscheck zeigt die Details."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/pilot-gehalt-so-viel-verdienen-lufthansa-piloten-2026-01/100037203.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T05:16:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/mobilitaet/oldtimer/peel-p50-so-winzig-ist-das-kleinste-serienauto-der-welt/100217356.html",
-        "title": "Peel P50: So winzig ist das kleinste Serienauto der Welt",
-        "summary": "Statt eines Rückwärtsganges hat das Fahrzeug einen Griff, um es zu ziehen. Auch sonst bietet der Peel P50 praktisch keine Bequemlichkeiten. Was es mit dem Mini-Fahrzeug auf sich hat.",
-        "paragraphs": [
-          "Statt eines Rückwärtsganges hat das Fahrzeug einen Griff, um es zu ziehen. Auch sonst bietet der Peel P50 praktisch keine Bequemlichkeiten. Was es mit dem Mini-Fahrzeug auf sich hat."
-        ],
-        "link": "https://www.handelsblatt.com/mobilitaet/oldtimer/peel-p50-so-winzig-ist-das-kleinste-serienauto-der-welt/100217356.html",
-        "category": "Oldtimer",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T05:08:29.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/start-ups/start-up-check-synera-entwickelt-ki-agenten-fuer-bmw-airbus-und-die-nasa/100216756.html",
-        "title": "Start-up-Check: Systemübergreifende Orchestrierung: Synera entwickelt KI-Agenten für BMW, Airbus und die Nasa",
-        "summary": "Synera automatisiert Industrieprozesse mit KI. Damit konnte das Bremer Start-up seinen Umsatz im vergangenen Jahr verdoppeln – und jetzt eine neue Millionenfinanzierung einsammeln.",
-        "paragraphs": [
-          "Synera automatisiert Industrieprozesse mit KI. Damit konnte das Bremer Start-up seinen Umsatz im vergangenen Jahr verdoppeln – und jetzt eine neue Millionenfinanzierung einsammeln."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/start-ups/start-up-check-synera-entwickelt-ki-agenten-fuer-bmw-airbus-und-die-nasa/100216756.html",
-        "category": "Start-Ups",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T05:06:05.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/energie/oelindustrie-repsol-wagt-den-neustart-in-venezuela/100217355.html",
-        "title": "Ölindustrie: Repsol wagt den Neustart in Venezuela",
-        "summary": "Der spanische Ölriese will offenbar sein Geschäft in Venezuela wieder aufbauen. Dafür hat das Unternehmen einem Bericht zufolge nun ein Abkommen geschlossen.",
-        "paragraphs": [
-          "Der spanische Ölriese will offenbar sein Geschäft in Venezuela wieder aufbauen. Dafür hat das Unternehmen einem Bericht zufolge nun ein Abkommen geschlossen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/energie/oelindustrie-repsol-wagt-den-neustart-in-venezuela/100217355.html",
-        "category": "Energie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T05:05:24.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/pharmazulieferer-gerresheimer-bekommt-von-glaeubigern-schonfrist-bis-september/100217354.html",
-        "title": "Pharmazulieferer: Gerresheimer bekommt von Gläubigern Schonfrist bis September",
-        "summary": "Der Düsseldorfer Verpackungskonzern musste den Kleinwerteindex SDax vor Kurzem noch verlassen. Nun bekommt Gerresheimer mehr Zeit, um seine Bilanzierungsprobleme zu lösen.",
-        "paragraphs": [
-          "Der Düsseldorfer Verpackungskonzern musste den Kleinwerteindex SDax vor Kurzem noch verlassen. Nun bekommt Gerresheimer mehr Zeit, um seine Bilanzierungsprobleme zu lösen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/pharmazulieferer-gerresheimer-bekommt-von-glaeubigern-schonfrist-bis-september/100217354.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T05:02:47.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/nahost-die-aktuelle-lage-trump-kuendigt-spitzentreffen-zwischen-israel-und-libanon-an/100217349.html",
-        "title": "Nahost – Die aktuelle Lage: Trump kündigt Spitzentreffen zwischen Israel und Libanon an",
-        "summary": "Im Krieg zwischen Israel und dem Libanon könnte es am heutigen Donnerstag Bewegung geben. Unterdessen rückt der Iran möglicherweise erstmals von seinen Maximalforderungen ab.",
-        "paragraphs": [
-          "Im Krieg zwischen Israel und dem Libanon könnte es am heutigen Donnerstag Bewegung geben. Unterdessen rückt der Iran möglicherweise erstmals von seinen Maximalforderungen ab."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/nahost-die-aktuelle-lage-trump-kuendigt-spitzentreffen-zwischen-israel-und-libanon-an/100217349.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T04:52:56.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-mindestens-vier-tote-bei-neuen-russischen-angriffen-auf-kiew/100217320.html",
-        "title": "Ukraine-Krieg: Mindestens vier Tote bei neuen russischen Angriffen auf Kiew",
-        "summary": "Erneut attackiert Russland die Ukraine mit Raketen. Auch Kinder zählen zu den Opfern.",
-        "paragraphs": [
-          "Erneut attackiert Russland die Ukraine mit Raketen. Auch Kinder zählen zu den Opfern."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-mindestens-vier-tote-bei-neuen-russischen-angriffen-auf-kiew/100217320.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-16T04:47:41.000Z"
       }
     ]
   }
