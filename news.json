@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-18T18:24:29.024Z",
+  "updatedAt": "2026-04-18T18:47:08.233Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "8b73142d-73b8-4f67-a2ec-8c28edad5dd8",
+        "title": "Zehntausende protestieren für rasche Energiewende",
+        "summary": "Bundesweit haben Zehntausende Menschen für eine schnellere Energiewende demonstriert. Der Bundesregierung warfen sie vor, die falschen Ziele zu verfolgen. Im Zentrum der Kritik: Wirtschaftsministerin Reiche.",
+        "paragraphs": [
+          "Bundesweit haben Zehntausende Menschen für eine schnellere Energiewende demonstriert. Der Bundesregierung warfen sie vor, die falschen Ziele zu verfolgen. Im Zentrum der Kritik: Wirtschaftsministerin Reiche."
+        ],
+        "link": "https://www.tagesschau.de/inland/gesellschaft/energiewende-proteste-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-18T18:37:41.000Z"
+      },
       {
         "id": "a767f8e9-6a36-4fb5-9dd4-48458c5ee77f",
         "title": "Mann erschießt mehrere Menschen in Kiew",
@@ -13,18 +25,6 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-18T18:00:39.000Z"
-      },
-      {
-        "id": "8b73142d-73b8-4f67-a2ec-8c28edad5dd8",
-        "title": "Zehntausende protestieren für rasche Energiewende",
-        "summary": "Bundesweit haben Zehntausende Menschen für eine schnellere Energiewende demonstriert. Der Bundesregierung warfen sie vor, die falschen Ziele zu verfolgen. Im Zentrum der Kritik: Wirtschaftsministerin Reiche.",
-        "paragraphs": [
-          "Bundesweit haben Zehntausende Menschen für eine schnellere Energiewende demonstriert. Der Bundesregierung warfen sie vor, die falschen Ziele zu verfolgen. Im Zentrum der Kritik: Wirtschaftsministerin Reiche."
-        ],
-        "link": "https://www.tagesschau.de/inland/gesellschaft/energiewende-proteste-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-18T15:21:59.000Z"
       },
       {
         "id": "https://www.n-tv.de/wirtschaft/Wie-tragfaehig-ist-die-aktuelle-Boersenrally-id30726984.html",
@@ -487,16 +487,100 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/live-joker-harder-sticht-sofort-fuer-leipzig-1210560/artikel#omrss",
-        "title": "LIVE! Joker Harder sticht sofort für Leipzig",
-        "summary": "Das Topspiel des 30. Spieltags heißt Frankfurt gegen Leipzig. Das Spiel in der Hinrunde gewann RB furios mit 6:0. Kann sich die Eintracht revanchieren? Beide Mannschaften spielen um das internationale Geschäft.",
+        "id": "li.3470255",
+        "title": "Bundesliga: Leipzig macht großen Schritt Richtung Champions League",
+        "summary": "RB gewinnt erstmals in der Bundesliga-Geschichte in Frankfurt und verteidigt seinen Fünf-Punkte-Vorsprung auf den Tabellenfünften Hoffenheim.",
         "paragraphs": [
-          "Das Topspiel des 30. Spieltags heißt Frankfurt gegen Leipzig. Das Spiel in der Hinrunde gewann RB furios mit 6:0. Kann sich die Eintracht revanchieren? Beide Mannschaften spielen um das internationale Geschäft."
+          "RB gewinnt erstmals in der Bundesliga-Geschichte in Frankfurt und verteidigt seinen Fünf-Punkte-Vorsprung auf den Tabellenfünften Hoffenheim."
         ],
-        "link": "https://www.kicker.de/live-joker-harder-sticht-sofort-fuer-leipzig-1210560/artikel#omrss",
-        "category": "Fußball",
+        "link": "https://www.sueddeutsche.de/sport/rb-leipzig-eintracht-frankfurt-bundesliga-li.3470255",
+        "category": "Bundesliga",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-18T18:44:29.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wueck-fand-das-0-0-nicht-angenehm-und-kritisiert-wieder-antizyklisch-1211055/artikel#omrss",
+        "title": "Wück fand das 0:0 \"nicht angenehm\" und kritisiert wieder antizyklisch",
+        "summary": "Nach dem soliden 5:1 sparte Christian Wück zuletzt nicht mit Kritik. Als die DFB-Elf nun beim 0:0 in Österreich rundum enttäuschte, wählte der Bundestrainer den anderen Weg. Sjoeke Nüsken verwies fast trotzig auf die Tabelle.",
+        "paragraphs": [
+          "Nach dem soliden 5:1 sparte Christian Wück zuletzt nicht mit Kritik. Als die DFB-Elf nun beim 0:0 in Österreich rundum enttäuschte, wählte der Bundestrainer den anderen Weg. Sjoeke Nüsken verwies fast trotzig auf die Tabelle."
+        ],
+        "link": "https://www.kicker.de/wueck-fand-das-0-0-nicht-angenehm-und-kritisiert-wieder-antizyklisch-1211055/artikel#omrss",
+        "category": "Dallmann",
         "source": "Kicker",
-        "publishedAt": "2026-04-18T18:10:53.000Z"
+        "publishedAt": "2026-04-18T18:44:24.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/gnabry-fehlt-bayern-im-endspurt-wm-in-gefahr-1211582/artikel#omrss",
+        "title": "Gnabry fehlt Bayern im Endspurt - WM in Gefahr",
+        "summary": "Der FC Bayern muss im Saisonendspurt auf Serge Gnabry verzichten. Der Nationalspieler hat sich eine Adduktorenverletzung im Oberschenkel zugezogen und fällt \"für längere Zeit\" aus.",
+        "paragraphs": [
+          "Der FC Bayern muss im Saisonendspurt auf Serge Gnabry verzichten. Der Nationalspieler hat sich eine Adduktorenverletzung im Oberschenkel zugezogen und fällt \"für längere Zeit\" aus."
+        ],
+        "link": "https://www.kicker.de/gnabry-fehlt-bayern-im-endspurt-wm-in-gefahr-1211582/artikel#omrss",
+        "category": "Bayern München",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T18:43:31.000Z"
+      },
+      {
+        "id": "{urn:uuid:0fd2d411-4908-4882-bcb3-249fc7db519d}",
+        "title": "Bundesliga, 30. Spieltag – Samstag: Leipzig gewinnt gegen Frankfurt, BVB verliert in Hoffenheim",
+        "summary": "RB Leipzig setzt sich klar gegen die Eintracht durch. Bremen gewinnt das Nordderby, Hoffenheim holt wichtige Punkte im Kampf um die Champions League. Die Spielberichte",
+        "paragraphs": [
+          "RB Leipzig setzt sich klar gegen die Eintracht durch. Bremen gewinnt das Nordderby, Hoffenheim holt wichtige Punkte im Kampf um die Champions League. Die Spielberichte"
+        ],
+        "link": "https://www.zeit.de/sport/2026-04/bundesliga-30-spieltag-samstag-werder-hsv-hoffenheim-bvb-leverkusen-augsburg",
+        "category": "Sport",
+        "source": "ZEIT",
+        "publishedAt": "2026-04-18T18:34:32.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/das-restprogramm-der-18-bundesligisten-947215/artikel#omrss",
+        "title": "Das Restprogramm der 18 Bundesligisten",
+        "summary": "Die Bundesliga geht in die finalen Wochen der Saison 2025/26. Der kicker zeigt das Restprogramm der 18 Bundesligisten.",
+        "paragraphs": [
+          "Die Bundesliga geht in die finalen Wochen der Saison 2025/26. Der kicker zeigt das Restprogramm der 18 Bundesligisten."
+        ],
+        "link": "https://www.kicker.de/das-restprogramm-der-18-bundesligisten-947215/artikel#omrss",
+        "category": "1. FC Heidenheim",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T18:33:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/suele-elfmeter-fuer-kovac-nicht-im-sinne-des-fussballs-siebert-erklaert-entscheidungen-1211541/artikel#omrss",
+        "title": "Süle-Elfmeter für Kovac \"nicht im Sinne des Fußballs\" - Siebert erklärt Entscheidungen",
+        "summary": "Zum zweiten Mal in Folge gab es für Borussia Dortmund eine Niederlage in der Bundesliga. Nach dem 1:2 bei der TSG Hoffenheim standen vor allem die Elfmeter-Entscheidungen im Mittelpunkt.",
+        "paragraphs": [
+          "Zum zweiten Mal in Folge gab es für Borussia Dortmund eine Niederlage in der Bundesliga. Nach dem 1:2 bei der TSG Hoffenheim standen vor allem die Elfmeter-Entscheidungen im Mittelpunkt."
+        ],
+        "link": "https://www.kicker.de/suele-elfmeter-fuer-kovac-nicht-im-sinne-des-fussballs-siebert-erklaert-entscheidungen-1211541/artikel#omrss",
+        "category": "Borussia Dortmund",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T18:29:22.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/tottenham-verspielt-den-ersten-sieg-des-jahres-in-der-nachspielzeit-1210563/artikel#omrss",
+        "title": "Tottenham verspielt den ersten Sieg des Jahres in der Nachspielzeit",
+        "summary": "Es sah zwischenzeitlich danach aus, als würde Tottenham beim Heimdebüt von Roberto de Zerbi endlich den ersten Ligasieg 2026 einfahren. Doch dann traf Georginio Rutter in der Nachspielzeit zum Ausgleich für Brighton.",
+        "paragraphs": [
+          "Es sah zwischenzeitlich danach aus, als würde Tottenham beim Heimdebüt von Roberto de Zerbi endlich den ersten Ligasieg 2026 einfahren. Doch dann traf Georginio Rutter in der Nachspielzeit zum Ausgleich für Brighton."
+        ],
+        "link": "https://www.kicker.de/tottenham-verspielt-den-ersten-sieg-des-jahres-in-der-nachspielzeit-1210563/artikel#omrss",
+        "category": "Brighton & Hove Albion",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T18:21:12.000Z"
+      },
+      {
+        "id": "li.3470238",
+        "title": "WM-Qualifikation gegen Österreich: DFB-Frauen lassen erstmals Punkte liegen",
+        "summary": "Drei Tage nach dem 5:1 tut sich das deutsche Nationalteam beim Wiedersehen mit Österreich schwer – und kommt nicht über ein 0:0 hinaus. Kapitänin Janina Minge muss mit Rot vom Platz.",
+        "paragraphs": [
+          "Drei Tage nach dem 5:1 tut sich das deutsche Nationalteam beim Wiedersehen mit Österreich schwer – und kommt nicht über ein 0:0 hinaus. Kapitänin Janina Minge muss mit Rot vom Platz."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/dfb-frauen-wm-qualifikation-oesterreich-fussball-minge-rot-li.3470238",
+        "category": "Deutsche Nationalmannschaft",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-18T18:18:32.000Z"
       },
       {
         "id": "https://www.kicker.de/oesterreich-gegen-deutschland-2026-frauen-wm-qualifikation-5178785/spielbericht#omrss",
@@ -583,18 +667,6 @@
         "publishedAt": "2026-04-18T17:38:03.000Z"
       },
       {
-        "id": "{urn:uuid:0fd2d411-4908-4882-bcb3-249fc7db519d}",
-        "title": "Bundesliga, 30. Spieltag – Samstag: Bremen gewinnt das Nordderby, BVB verliert in Hoffenheim",
-        "summary": "Der HSV verliert bei Werder, Hoffenheim holt wichtige Punkte im Kampf um die Champions League. Unions neue Trainerin startet mit einer Niederlage. Die Spielberichte",
-        "paragraphs": [
-          "Der HSV verliert bei Werder, Hoffenheim holt wichtige Punkte im Kampf um die Champions League. Unions neue Trainerin startet mit einer Niederlage. Die Spielberichte"
-        ],
-        "link": "https://www.zeit.de/sport/2026-04/bundesliga-30-spieltag-samstag-werder-hsv-hoffenheim-bvb-leverkusen-augsburg",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-04-18T17:30:06.000Z"
-      },
-      {
         "id": "https://www.kicker.de/live-spitzenspiel-im-unterhaus-haelt-sich-paderborn-hannover-vom-leib-1210541/artikel#omrss",
         "title": "LIVE! Spitzenspiel im Unterhaus: Hält sich Paderborn Hannover vom Leib?",
         "summary": "Im Aufstiegsrennen der 2. Bundesliga hat sich der SC Paderborn zuletzt einen Vorteil verschafft. Zu Gast in Hannover gilt es für den Tabellen-Zweiten, Verfolger 96 zu distanzieren: Bereits vier Punkte beträgt der Vorsprung auf die Niedersachsen.",
@@ -653,78 +725,6 @@
         "category": "2. Bundesliga",
         "source": "Kicker",
         "publishedAt": "2026-04-18T17:13:54.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nach-seitenhieb-wegen-bronny-lebron-kontert-gegen-nba-legende-harper-zurueck-1211533/artikel#omrss",
-        "title": "Nach Seitenhieb wegen Bronny: LeBron kontert gegen NBA-Legende Harper zurück",
-        "summary": "Die Fehde zwischen Bulls-Legende Ron Harper und LeBron James geht in die zweite Runde. Am Rande des All-Star-Wochenendes hatte der fünfffache NBA-Champion James vorgeworfen, Sohn Bronny vermeintlich in eine Basketballkarriere zu zwingen. Nun konterte der Lakers-Star zurück.",
-        "paragraphs": [
-          "Die Fehde zwischen Bulls-Legende Ron Harper und LeBron James geht in die zweite Runde. Am Rande des All-Star-Wochenendes hatte der fünfffache NBA-Champion James vorgeworfen, Sohn Bronny vermeintlich in eine Basketballkarriere zu zwingen. Nun konterte der Lakers-Star zurück."
-        ],
-        "link": "https://www.kicker.de/nach-seitenhieb-wegen-bronny-lebron-kontert-gegen-nba-legende-harper-zurueck-1211533/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T16:58:27.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/strobl-nach-gayret-verletzung-da-haette-ich-heute-lieber-verloren-1211485/artikel#omrss",
-        "title": "Strobl nach Gayret-Verletzung: \"Da hätte ich heute lieber verloren\"",
-        "summary": "Ein 2:0-Heimerfolg stand am Samstagnachmittag auf der Anzeigetafel in der Sportclub-Arena für den SC Verl. Trotz einer dominanten zweiten Hälfte und einem Sieg, bei dem die Hausherren gleich zwei neue Vereinsbestwerte erzielten, hielt sich die Begeisterung aufgrund von Verletzungssorgen jedoch in Grenzen.",
-        "paragraphs": [
-          "Ein 2:0-Heimerfolg stand am Samstagnachmittag auf der Anzeigetafel in der Sportclub-Arena für den SC Verl. Trotz einer dominanten zweiten Hälfte und einem Sieg, bei dem die Hausherren gleich zwei neue Vereinsbestwerte erzielten, hielt sich die Begeisterung aufgrund von Verletzungssorgen jedoch in Grenzen."
-        ],
-        "link": "https://www.kicker.de/strobl-nach-gayret-verletzung-da-haette-ich-heute-lieber-verloren-1211485/artikel#omrss",
-        "category": "3. Liga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T16:51:13.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-bhc-vs-scm-wer-folgt-berlin-ins-finale-1211118/artikel#omrss",
-        "title": "LIVE! BHC vs. SCM: Wer folgt Berlin ins Finale?",
-        "summary": "An diesem Wochenende wird im deutschen Handball der Pokalsieger ermittelt - klassischerweise im Rahmen des Final-Four-Turniers in Köln. Im zweiten Halbfinale treffen Außenseiter Bergischer HC und der designierte Meister SC Magdeburg aufeinander.",
-        "paragraphs": [
-          "An diesem Wochenende wird im deutschen Handball der Pokalsieger ermittelt - klassischerweise im Rahmen des Final-Four-Turniers in Köln. Im zweiten Halbfinale treffen Außenseiter Bergischer HC und der designierte Meister SC Magdeburg aufeinander."
-        ],
-        "link": "https://www.kicker.de/live-bhc-vs-scm-wer-folgt-berlin-ins-finale-1211118/artikel#omrss",
-        "category": "Handball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T16:40:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/elfer-gehalten-milinkovic-savic-haelt-neapel-gegen-lazio-im-spiel-1211531/video#omrss",
-        "title": "Elfer gehalten! Milinkovic-Savic hält Neapel gegen Lazio im Spiel",
-        "summary": "Napoli liegt gegen Lazio bereits 0:1 hinten und verursacht auch noch einen Elfmeter. Milinkovic-Savic hält und Zacagnis Nachschuss landet deutlich über dem Tor. Die Szene gibt es hier im Video.",
-        "paragraphs": [
-          "Napoli liegt gegen Lazio bereits 0:1 hinten und verursacht auch noch einen Elfmeter. Milinkovic-Savic hält und Zacagnis Nachschuss landet deutlich über dem Tor. Die Szene gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/elfer-gehalten-milinkovic-savic-haelt-neapel-gegen-lazio-im-spiel-1211531/video#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T16:36:45.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "title": "Schicker gibt Kramaric-Update - Jones verlässt Schweinfurt nach Saisonende",
-        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
-        "paragraphs": [
-          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
-        ],
-        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T16:30:57.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/klub-hat-25-jahre-gelitten-lampard-fehlen-nach-coventry-aufstieg-die-worte-1211525/video#omrss",
-        "title": "\"Klub hat 25 Jahre gelitten\": Lampard fehlen nach Coventry-Aufstieg die Worte",
-        "summary": "Frank Lampard hat Coventry City nach 25 Jahren wieder in die Premier League geführt. Als die Chelsea-Legende den Klub übernahm, war man auf Platz 17 der Championship - weit weg vom Aufstiegsrennen.",
-        "paragraphs": [
-          "Frank Lampard hat Coventry City nach 25 Jahren wieder in die Premier League geführt. Als die Chelsea-Legende den Klub übernahm, war man auf Platz 17 der Championship - weit weg vom Aufstiegsrennen."
-        ],
-        "link": "https://www.kicker.de/klub-hat-25-jahre-gelitten-lampard-fehlen-nach-coventry-aufstieg-die-worte-1211525/video#omrss",
-        "category": "Championship",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T16:29:22.000Z"
       }
     ],
     "edv": [
@@ -1068,12 +1068,12 @@
       },
       {
         "id": "52bf5860-1527-4895-bdc4-7aebe9a55f91",
-        "title": "Deutsche Bahn will offenbar 20 Milliarden für schönere Bahnhöfe ausgeben",
+        "title": "Deutsche Bahn will 20 Milliarden für schönere Bahnhöfe ausgeben",
         "summary": "Die Bahn-Chefin spricht von einem klaren »Nachholbedarf«: Evelyn Palla verspricht, Bahnhöfe in großem Stil zu renovieren. Allein in diesem Jahr sollen mehr als 1000 Stationen modernisiert werden.",
         "paragraphs": [
           "Die Bahn-Chefin spricht von einem klaren »Nachholbedarf«: Evelyn Palla verspricht, Bahnhöfe in großem Stil zu renovieren. Allein in diesem Jahr sollen mehr als 1000 Stationen modernisiert werden."
         ],
-        "link": "https://www.spiegel.de/wirtschaft/deutsche-bahn-will-offenbar-20-milliarden-fuer-schoenere-bahnhoefe-ausgeben-a-52bf5860-1527-4895-bdc4-7aebe9a55f91#ref=rss",
+        "link": "https://www.spiegel.de/wirtschaft/deutsche-bahn-will-20-milliarden-fuer-schoenere-bahnhoefe-ausgeben-a-52bf5860-1527-4895-bdc4-7aebe9a55f91#ref=rss",
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-04-18T14:38:00.000Z"
