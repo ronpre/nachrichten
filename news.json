@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-04-18T20:32:11.733Z",
+  "updatedAt": "2026-04-18T20:53:59.183Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "a767f8e9-6a36-4fb5-9dd4-48458c5ee77f",
+        "title": "Mann erschießt mehrere Menschen in Kiew",
+        "summary": "In der ukrainischen Hauptstadt Kiew hat ein Mann nach offiziellen Angaben sechs Menschen erschossen. Der Angreifer hatte sich in einem Supermarkt verschanzt und Geiseln genommen. Bei der Festnahme wurde er getötet.",
+        "paragraphs": [
+          "In der ukrainischen Hauptstadt Kiew hat ein Mann nach offiziellen Angaben sechs Menschen erschossen. Der Angreifer hatte sich in einem Supermarkt verschanzt und Geiseln genommen. Bei der Festnahme wurde er getötet."
+        ],
+        "link": "https://www.tagesschau.de/ausland/europa/schusswaffenangriff-kiew-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-18T20:49:03.000Z"
+      },
+      {
+        "id": "https://www.n-tv.de/wirtschaft/Gift-in-Glaesern-Babynahrungshersteller-Hipp-wird-erpresst-id30730057.html",
+        "title": "Dringende Warnung in Österreich: Gift in Gläsern: Babynahrungshersteller Hipp wird erpresst",
+        "summary": "In Österreich werden nach Drohungen gegen einen Supermarkt in Windeseile bestimmte Hipp-Gläschen aus dem Sortiment genommen. Bereits verkaufte Exemplare sollen nicht verzehrt werden.",
+        "paragraphs": [
+          "In Österreich werden nach Drohungen gegen einen Supermarkt in Windeseile bestimmte Hipp-Gläschen aus dem Sortiment genommen. Bereits verkaufte Exemplare sollen nicht verzehrt werden."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Gift-in-Glaesern-Babynahrungshersteller-Hipp-wird-erpresst-id30730057.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-04-18T20:32:43.000Z"
+      },
       {
         "id": "8b73142d-73b8-4f67-a2ec-8c28edad5dd8",
         "title": "Zehntausende protestieren für rasche Energiewende",
@@ -13,18 +37,6 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-18T18:37:41.000Z"
-      },
-      {
-        "id": "a767f8e9-6a36-4fb5-9dd4-48458c5ee77f",
-        "title": "Mann erschießt mehrere Menschen in Kiew",
-        "summary": "In der ukrainischen Hauptstadt Kiew hat ein Mann nach offiziellen Angaben sechs Menschen erschossen. Der Angreifer hatte sich in einem Supermarkt verschanzt und Geiseln genommen. Bei der Festnahme wurde er getötet.",
-        "paragraphs": [
-          "In der ukrainischen Hauptstadt Kiew hat ein Mann nach offiziellen Angaben sechs Menschen erschossen. Der Angreifer hatte sich in einem Supermarkt verschanzt und Geiseln genommen. Bei der Festnahme wurde er getötet."
-        ],
-        "link": "https://www.tagesschau.de/ausland/europa/schusswaffenangriff-kiew-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-18T18:00:39.000Z"
       },
       {
         "id": "https://www.n-tv.de/wirtschaft/Wie-tragfaehig-ist-die-aktuelle-Boersenrally-id30726984.html",
@@ -229,18 +241,6 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-17T16:17:45.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/Lindt-senkt-seine-Schokoladenpreise-id30726913.html",
-        "title": "Schlechtes Ostergeschäft: Lindt senkt seine Schokoladenpreise",
-        "summary": "Nachdem bereits Discounter mit ihren Eigenmarken vorgelegt haben, zieht nun ein großer Markenhersteller nach: Lindt senkt seine Schokoladenpreise deutlich. Auch für das Weihnachtsgeschäft gibt es bereits eine Ankündigung.",
-        "paragraphs": [
-          "Nachdem bereits Discounter mit ihren Eigenmarken vorgelegt haben, zieht nun ein großer Markenhersteller nach: Lindt senkt seine Schokoladenpreise deutlich. Auch für das Weihnachtsgeschäft gibt es bereits eine Ankündigung."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/Lindt-senkt-seine-Schokoladenpreise-id30726913.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-04-17T15:52:51.000Z"
       }
     ],
     "politik": [
@@ -487,6 +487,18 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/wueck-frustriert-nach-niederlage-immer-das-gleiche-1211625/video#omrss",
+        "title": "Wück frustriert nach Niederlage: \"Immer das Gleiche\"",
+        "summary": "Nach einem schwachen Auftritt der DFB-Frauen kritisiert Trainer Christian Wück die Fehleranfälligkeit seines Teams. Trotzdem sieht er das Spiel als wichtigen Meilenstein, um langfristig als Team stärker zu werden.",
+        "paragraphs": [
+          "Nach einem schwachen Auftritt der DFB-Frauen kritisiert Trainer Christian Wück die Fehleranfälligkeit seines Teams. Trotzdem sieht er das Spiel als wichtigen Meilenstein, um langfristig als Team stärker zu werden."
+        ],
+        "link": "https://www.kicker.de/wueck-frustriert-nach-niederlage-immer-das-gleiche-1211625/video#omrss",
+        "category": "Deutschland",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T20:27:09.000Z"
+      },
+      {
         "id": "https://www.kicker.de/kein-sieger-im-spitzenspiel-paderborn-haelt-hannover-auf-abstand-1210541/artikel#omrss",
         "title": "Kein Sieger im Spitzenspiel: Paderborn hält Hannover auf Abstand",
         "summary": "Das Zweitliga-Spitzenspiel zwischen Hannover 96 und dem SC Paderborn hat keinen Sieger gefunden. Die Niedersachsen rutschten durch das 1:1 vom Aufstiegs-Relegationsplatz.",
@@ -713,18 +725,6 @@
         "category": "Bundesliga",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-18T18:44:29.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/treppenstufe-heruntergefallen-wueck-kritisiert-wieder-antizyklisch-1211055/artikel#omrss",
-        "title": "\"Treppenstufe heruntergefallen\": Wück kritisiert wieder antizyklisch",
-        "summary": "Nach dem soliden 5:1 sparte Christian Wück zuletzt nicht mit Kritik. Als die DFB-Elf nun beim 0:0 in Österreich rundum enttäuschte, wählte der Bundestrainer den anderen Weg. Sjoeke Nüsken verwies fast trotzig auf die Tabelle.",
-        "paragraphs": [
-          "Nach dem soliden 5:1 sparte Christian Wück zuletzt nicht mit Kritik. Als die DFB-Elf nun beim 0:0 in Österreich rundum enttäuschte, wählte der Bundestrainer den anderen Weg. Sjoeke Nüsken verwies fast trotzig auf die Tabelle."
-        ],
-        "link": "https://www.kicker.de/treppenstufe-heruntergefallen-wueck-kritisiert-wieder-antizyklisch-1211055/artikel#omrss",
-        "category": "Dallmann",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T18:44:24.000Z"
       }
     ],
     "edv": [
