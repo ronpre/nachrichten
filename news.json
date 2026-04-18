@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-18T16:21:42.497Z",
+  "updatedAt": "2026-04-18T16:45:54.549Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "a767f8e9-6a36-4fb5-9dd4-48458c5ee77f",
+        "title": "Mann erschießt mehrere Menschen in Kiew",
+        "summary": "In der ukrainischen Hauptstadt Kiew hat ein Mann mehrere Menschen erschossen. Der Angreifer hatte sich in einem Supermarkt verschanzt und Geiseln genommen. Bei der Festnahme wurde er getötet.",
+        "paragraphs": [
+          "In der ukrainischen Hauptstadt Kiew hat ein Mann mehrere Menschen erschossen. Der Angreifer hatte sich in einem Supermarkt verschanzt und Geiseln genommen. Bei der Festnahme wurde er getötet."
+        ],
+        "link": "https://www.tagesschau.de/ausland/europa/schusswaffenangriff-kiew-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-18T16:27:38.000Z"
+      },
       {
         "id": "8b73142d-73b8-4f67-a2ec-8c28edad5dd8",
         "title": "Zehntausende protestieren für rasche Energiewende",
@@ -229,21 +241,21 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-17T15:52:51.000Z"
-      },
-      {
-        "id": "f8aaffac-0dcb-4154-ad89-e12d4f646b89",
-        "title": "Trendumkehr auf dem Wohnungsmarkt durch Folgen Iran-Krieg gefährdet",
-        "summary": "Die Zahl der Baugenehmigungen ist deutlich angestiegen. Doch die Folgen des Iran-Kriegs drohen die Trendumkehr auf dem Wohnungsmarkt abzuwürgen.",
-        "paragraphs": [
-          "Die Zahl der Baugenehmigungen ist deutlich angestiegen. Doch die Folgen des Iran-Kriegs drohen die Trendumkehr auf dem Wohnungsmarkt abzuwürgen."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/verbraucher/wohnungsmarkt-baugenehmigungen-bauwirtschaft-wohnungsmangel-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-17T15:26:28.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3465745",
+        "title": "Krieg in Nahost: Iran macht Öffnung der Straße von Hormus rückgängig - Tanker meldet Beschuss",
+        "summary": "Als Grund wird die anhaltende Blockade iranischer Häfen durch die USA angeführt. US-Präsident Trump sagt, Iran könne die USA nicht erpressen. In Libanon wird ein französischer Soldat getötet.",
+        "paragraphs": [
+          "Als Grund wird die anhaltende Blockade iranischer Häfen durch die USA angeführt. US-Präsident Trump sagt, Iran könne die USA nicht erpressen. In Libanon wird ein französischer Soldat getötet."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/iran-liveblog-news-strasse-von-hormus-usa-trump-oeffnung-li.3465745",
+        "category": "Iran",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-18T16:26:15.000Z"
+      },
       {
         "id": "li.3465712",
         "title": "USA: Papst in Konflikt mit Trump um Entspannung bemüht",
@@ -257,6 +269,18 @@
         "publishedAt": "2026-04-18T15:17:51.000Z"
       },
       {
+        "id": "76842144",
+        "title": "Parlamentswahl: Wählt Bulgarien einen Richtungswechsel?",
+        "summary": "Ex-Präsident Rumen Radew führt mit neuer Partei die Umfragen an. Zwischen Korruptionskampf, Inflationsangst und pro-russischem Kurs könnte die Wahl Bulgariens Verhältnis zur EU grundlegend verändern.",
+        "paragraphs": [
+          "Ex-Präsident Rumen Radew führt mit neuer Partei die Umfragen an. Zwischen Korruptionskampf, Inflationsangst und pro-russischem Kurs könnte die Wahl Bulgariens Verhältnis zur EU grundlegend verändern."
+        ],
+        "link": "https://www.dw.com/de/parlamentswahl-wählt-bulgarien-einen-richtungswechsel/a-76842144?maca=de-rss-de-top-1016-xml-mrss",
+        "category": "Welt",
+        "source": "DW",
+        "publishedAt": "2026-04-18T14:43:00.000Z"
+      },
+      {
         "id": "76831275",
         "title": "Weitere \"Drogenboote\" versenkt: Wie Trump das rechtfertigt",
         "summary": "Die USA haben weitere angebliche \"Drogenboote\" attackiert. Auf den Drogenimport in die USA habe das wenig Einfluss, sagen Experten. Der Sturz Maduros in Venezuela und \"Signale nach innen\" seien Trump viel wichtiger.",
@@ -267,18 +291,6 @@
         "category": "Welt",
         "source": "DW",
         "publishedAt": "2026-04-18T14:39:00.000Z"
-      },
-      {
-        "id": "li.3465745",
-        "title": "Krieg in Nahost: Französischer Soldat bei UN-Mission in Libanon getötet",
-        "summary": "Präsident Macron teilt mit, dass drei weitere Soldaten verwundet und in Sicherheit gebracht worden seien, vermutlich sei die Hisbollah für den Angriff verantwortlich. In der Straße von Hormus soll es zum Beschuss eines Tankers gekommen sein.",
-        "paragraphs": [
-          "Präsident Macron teilt mit, dass drei weitere Soldaten verwundet und in Sicherheit gebracht worden seien, vermutlich sei die Hisbollah für den Angriff verantwortlich. In der Straße von Hormus soll es zum Beschuss eines Tankers gekommen sein."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/iran-liveblog-news-libanon-un-soldat-hisbollah-li.3465745",
-        "category": "Iran",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-18T14:05:50.000Z"
       },
       {
         "id": "76842459",
@@ -315,18 +327,6 @@
         "category": "Verteidigungspolitik",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-18T12:34:37.000Z"
-      },
-      {
-        "id": "76840970",
-        "title": "Iran-Krieg: Attacke auf Tanker wegen Hormus-Blockade",
-        "summary": "Es sah nach einer weiteren Entspannung im Konflikt zwischen den USA und dem Iran aus. Doch die Führung in Teheran hat ihre Drohung wahr gemacht: Der Persische Golf ist wieder abgeriegelt.",
-        "paragraphs": [
-          "Es sah nach einer weiteren Entspannung im Konflikt zwischen den USA und dem Iran aus. Doch die Führung in Teheran hat ihre Drohung wahr gemacht: Der Persische Golf ist wieder abgeriegelt."
-        ],
-        "link": "https://www.dw.com/de/iran-krieg-attacke-auf-tanker-wegen-hormus-blockade/a-76840970?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Aktuelles",
-        "source": "DW",
-        "publishedAt": "2026-04-18T11:56:00.000Z"
       },
       {
         "id": "li.3468737",
@@ -461,18 +461,6 @@
         "publishedAt": "2026-04-17T15:46:23.000Z"
       },
       {
-        "id": "76833901",
-        "title": "Iran öffnet die Straße von Hormus für Handelsschiffe",
-        "summary": "Die für die weltweite Energiewirtschaft bedeutende Straße von Hormus war seit Beginn der US-israelischen Angriffe auf den Iran Ende Februar abgeriegelt. Nun sendet Teheran ein Zeichen der Entspannung.",
-        "paragraphs": [
-          "Die für die weltweite Energiewirtschaft bedeutende Straße von Hormus war seit Beginn der US-israelischen Angriffe auf den Iran Ende Februar abgeriegelt. Nun sendet Teheran ein Zeichen der Entspannung."
-        ],
-        "link": "https://www.dw.com/de/iran-öffnet-die-straße-von-hormus-für-handelsschiffe/a-76833901?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Aktuelles",
-        "source": "DW",
-        "publishedAt": "2026-04-17T15:46:00.000Z"
-      },
-      {
         "id": "li.3469438",
         "title": "Glosse: Das Streiflicht",
         "summary": "Vom Mausrutscher zu Dr. med. Donald Trump: eine kleine Kulturgeschichte der abenteuerlichsten Ausreden in der Politik.",
@@ -483,9 +471,129 @@
         "category": "USA",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-17T15:08:10.000Z"
+      },
+      {
+        "id": "li.3469722",
+        "title": "„Auf den Punkt“: Libanon: Teheran entscheidet über die Entwaffnung der Hisbollah",
+        "summary": "Die Menschen in Libanon reagieren erleichtert auf die Waffenruhe, sind aber skeptisch. Wie geht es jetzt weiter?",
+        "paragraphs": [
+          "Die Menschen in Libanon reagieren erleichtert auf die Waffenruhe, sind aber skeptisch. Wie geht es jetzt weiter?"
+        ],
+        "link": "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-libanon-hisbollah-waffenruhe-li.3469722",
+        "category": "Podcast",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-17T15:00:18.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/live-bhc-vs-scm-wer-folgt-berlin-ins-finale-1211118/artikel#omrss",
+        "title": "LIVE! BHC vs. SCM: Wer folgt Berlin ins Finale?",
+        "summary": "An diesem Wochenende wird im deutschen Handball der Pokalsieger ermittelt - klassischerweise im Rahmen des Final-Four-Turniers in Köln. Im zweiten Halbfinale treffen Außenseiter Bergischer HC und der designierte Meister SC Magdeburg aufeinander.",
+        "paragraphs": [
+          "An diesem Wochenende wird im deutschen Handball der Pokalsieger ermittelt - klassischerweise im Rahmen des Final-Four-Turniers in Köln. Im zweiten Halbfinale treffen Außenseiter Bergischer HC und der designierte Meister SC Magdeburg aufeinander."
+        ],
+        "link": "https://www.kicker.de/live-bhc-vs-scm-wer-folgt-berlin-ins-finale-1211118/artikel#omrss",
+        "category": "Handball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T16:40:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-erste-chance-vandevoordt-klaert-gegen-burkardt-1210560/artikel#omrss",
+        "title": "LIVE! Erste Chance: Vandevoordt klärt gegen Burkardt",
+        "summary": "Das Topspiel des 30. Spieltags heißt Frankfurt gegen Leipzig. Das Spiel in der Hinrunde gewann RB furios mit 6:0. Kann sich die Eintracht revanchieren? Beide Mannschaften spielen um das internationale Geschäft.",
+        "paragraphs": [
+          "Das Topspiel des 30. Spieltags heißt Frankfurt gegen Leipzig. Das Spiel in der Hinrunde gewann RB furios mit 6:0. Kann sich die Eintracht revanchieren? Beide Mannschaften spielen um das internationale Geschäft."
+        ],
+        "link": "https://www.kicker.de/live-erste-chance-vandevoordt-klaert-gegen-burkardt-1210560/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T16:37:25.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "title": "Schicker gibt Kramaric-Update - Jones verlässt Schweinfurt nach Saisonende",
+        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
+        "paragraphs": [
+          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
+        ],
+        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T16:30:57.000Z"
+      },
+      {
+        "id": "li.3470183",
+        "title": "Bundesliga, 30. Spieltag: Kramaric trifft doppelt und macht Bayern praktisch zum Meister",
+        "summary": "Der BVB verliert sein zweites Spiel in Serie, womit die Bayern praktisch auf der Couch Meister werden. Leverkusen verliert trotz drückender Überlegenheit und dank eines überragenden Torhüters Finn Dahmen gegen Augsburg.",
+        "paragraphs": [
+          "Der BVB verliert sein zweites Spiel in Serie, womit die Bayern praktisch auf der Couch Meister werden. Leverkusen verliert trotz drückender Überlegenheit und dank eines überragenden Torhüters Finn Dahmen gegen Augsburg."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/hoffenheim-dortmund-leverkusen-augsburg-bundesliga-li.3470183",
+        "category": "Bundesliga",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-18T16:29:07.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/das_restprogramm_der_bundesligisten-1000461/artikel#omrss",
+        "title": "Das Restprogramm der Drittligisten",
+        "summary": "Die 3. Liga befindet sich auf der Zielgeraden der Saison 2025/26. Das Restprogramm der 20 Drittligisten im Überblick.",
+        "paragraphs": [
+          "Die 3. Liga befindet sich auf der Zielgeraden der Saison 2025/26. Das Restprogramm der 20 Drittligisten im Überblick."
+        ],
+        "link": "https://www.kicker.de/das_restprogramm_der_bundesligisten-1000461/artikel#omrss",
+        "category": "1. FC Saarbrücken",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T16:24:55.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/chemnitz-gegen-jena-2026-bbl-5141490/spielbericht#omrss",
+        "title": "Davis mit der Sirene: Chemnitz gewinnt Ost-Derby gegen Jena dramatisch",
+        "summary": "Die Niners Chemnitz haben im Kampf um die Playoffs einen umkämpften wie wichtigen Sieg gefeiert. Im Ost-Derby gegen Jena ließ das Spektakel lange auf sich warten - kam in den Schlusssekunden aber umso stärker zur Geltung.",
+        "paragraphs": [
+          "Die Niners Chemnitz haben im Kampf um die Playoffs einen umkämpften wie wichtigen Sieg gefeiert. Im Ost-Derby gegen Jena ließ das Spektakel lange auf sich warten - kam in den Schlusssekunden aber umso stärker zur Geltung."
+        ],
+        "link": "https://www.kicker.de/chemnitz-gegen-jena-2026-bbl-5141490/spielbericht#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T16:24:33.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-chemnitz-schlaegt-jena-knapp-festigt-bamberg-gegen-oldenburg-platz-3-1211103/artikel#omrss",
+        "title": "LIVE! Chemnitz schlägt Jena knapp - Festigt Bamberg gegen Oldenburg Platz 3?",
+        "summary": "Am Samstag gibt es das Fernduell Jena und Heidelberg im Kampf um den Klassenerhalt: Jena zog in Chemnitz hauchzart den Kürzeren, Heidelberg empfängt Ludwigsburg. Bamberg kann zuhause gegen Oldenburg weiter Platz 3 festigen.",
+        "paragraphs": [
+          "Am Samstag gibt es das Fernduell Jena und Heidelberg im Kampf um den Klassenerhalt: Jena zog in Chemnitz hauchzart den Kürzeren, Heidelberg empfängt Ludwigsburg. Bamberg kann zuhause gegen Oldenburg weiter Platz 3 festigen."
+        ],
+        "link": "https://www.kicker.de/live-chemnitz-schlaegt-jena-knapp-festigt-bamberg-gegen-oldenburg-platz-3-1211103/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T16:23:28.000Z"
+      },
+      {
+        "id": "li.3470175",
+        "title": "3:1 für Bremen: Werder zieht den HSV in einem wilden Derby Richtung Keller",
+        "summary": "Rote Karte, keine rote Karte, wieder rote Karten: In einem emotionalen Spiel gewinnt Werder Bremen 3:1 gegen den Nordrivalen und macht den Abstiegskampf spannender.",
+        "paragraphs": [
+          "Rote Karte, keine rote Karte, wieder rote Karten: In einem emotionalen Spiel gewinnt Werder Bremen 3:1 gegen den Nordrivalen und macht den Abstiegskampf spannender."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/bundesliga-hsv-werder-nordderby-li.3470175",
+        "category": "Bundesliga",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-18T16:22:31.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/napoli-schlaeft-zu-spielbeginn-lazio-trifft-frueh-beim-meister-1211519/video#omrss",
+        "title": "Napoli schläft zu Spielbeginn: Lazio trifft früh beim Meister",
+        "summary": "Meister Napoli will im Spiel gegen das abgeschlagene Lazio Rom Platz zwei in der Serie A verteidigen - schläft aber zu Spielbeginn und liegt früh mit 0:1 zurück.",
+        "paragraphs": [
+          "Meister Napoli will im Spiel gegen das abgeschlagene Lazio Rom Platz zwei in der Serie A verteidigen - schläft aber zu Spielbeginn und liegt früh mit 0:1 zurück."
+        ],
+        "link": "https://www.kicker.de/napoli-schlaeft-zu-spielbeginn-lazio-trifft-frueh-beim-meister-1211519/video#omrss",
+        "category": "Cancellieri",
+        "source": "Kicker",
+        "publishedAt": "2026-04-18T16:14:25.000Z"
+      },
       {
         "id": "li.3470173",
         "title": "1:2 gegen Wolfsburg: Eta startet mit Kopfschütteln",
@@ -584,7 +692,7 @@
       },
       {
         "id": "https://www.kicker.de/neapel-gegen-lazio-2026-serie-a-5042361/spielbericht#omrss",
-        "title": "LIVE! Neapel weiter auf Champions League-Kurs? Lazio früh vorne",
+        "title": "LIVE! Lazio bei Neapel früh vorne - Milinkovic-Savic verhindert das 0:2 vom Punkt",
         "summary": "Die SSC Neapel steuert mit einer Ungeschlagen-Serie von fünf Spielen weiter in Richtung Königsklasse. Können die Gäste aus der Hauptstadt bei ihrer Generalprobe für das Rückspiel im Pokalhalbfinale gegen Atalanta den Neapolitanern ein Bein stellen?",
         "paragraphs": [
           "Die SSC Neapel steuert mit einer Ungeschlagen-Serie von fünf Spielen weiter in Richtung Königsklasse. Können die Gäste aus der Hauptstadt bei ihrer Generalprobe für das Rückspiel im Pokalhalbfinale gegen Atalanta den Neapolitanern ein Bein stellen?"
@@ -617,114 +725,6 @@
         "category": "DHB-Pokal Männer",
         "source": "Kicker",
         "publishedAt": "2026-04-18T15:23:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/lippmann-verlaesst-1860-nach-saisonende-1211482/artikel#omrss",
-        "title": "Lippmann verlässt 1860 nach Saisonende",
-        "summary": "Der junge Verteidiger Clemens Lippmann wird 1860 München nach Ablauf dieser Saison verlassen. Das gab der TSV-Geschäftsführer Manfred Paula am Samstag bekannt.",
-        "paragraphs": [
-          "Der junge Verteidiger Clemens Lippmann wird 1860 München nach Ablauf dieser Saison verlassen. Das gab der TSV-Geschäftsführer Manfred Paula am Samstag bekannt."
-        ],
-        "link": "https://www.kicker.de/lippmann-verlaesst-1860-nach-saisonende-1211482/artikel#omrss",
-        "category": "3. Liga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T15:19:29.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/oesterreich-gegen-deutschland-2026-frauen-wm-qualifikation-5178785/spielbericht#omrss",
-        "title": "LIVE! Brand hat früh die erste Chance - Mühlhaus und Linder starten",
-        "summary": "Nach der Machtdemonstration am Dienstag können die bislang makellosen DFB-Frauen weiter Platz 1 in der WM-Qualifikationsgruppe zementieren. Christian Wück nimmt vier Wechsel vor.",
-        "paragraphs": [
-          "Nach der Machtdemonstration am Dienstag können die bislang makellosen DFB-Frauen weiter Platz 1 in der WM-Qualifikationsgruppe zementieren. Christian Wück nimmt vier Wechsel vor."
-        ],
-        "link": "https://www.kicker.de/oesterreich-gegen-deutschland-2026-frauen-wm-qualifikation-5178785/spielbericht#omrss",
-        "category": "Deutschland",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T15:05:28.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bis-saisonende-rapolder-coacht-tuerkspor-neckarsulm-1211481/artikel#omrss",
-        "title": "Bis Saisonende: Rapolder coacht Türkspor Neckarsulm",
-        "summary": "Spannende Trainerpersonalie in der Oberliga Baden-Württemberg: Ex-Bundesliga-Coach Uwe Rapolder steht bis Sommer an der Seitenlinie von Türkspor Neckarsulm.",
-        "paragraphs": [
-          "Spannende Trainerpersonalie in der Oberliga Baden-Württemberg: Ex-Bundesliga-Coach Uwe Rapolder steht bis Sommer an der Seitenlinie von Türkspor Neckarsulm."
-        ],
-        "link": "https://www.kicker.de/bis-saisonende-rapolder-coacht-tuerkspor-neckarsulm-1211481/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T14:57:02.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/muchova-zieht-ueberraschend-ins-endspiel-von-stuttgart-ein-1211483/artikel#omrss",
-        "title": "Muchova zieht überraschend ins Endspiel von Stuttgart ein",
-        "summary": "Die Tschechin Karolina Muchova steht im Finale des WTA-Turniers in Stuttgart, wo am Sonntag entweder Elena Rybakina oder Mirra Andreeva wartet. In Rouen verabschiedet sich Tatjana Maria im Halbfinale",
-        "paragraphs": [
-          "Die Tschechin Karolina Muchova steht im Finale des WTA-Turniers in Stuttgart, wo am Sonntag entweder Elena Rybakina oder Mirra Andreeva wartet. In Rouen verabschiedet sich Tatjana Maria im Halbfinale"
-        ],
-        "link": "https://www.kicker.de/muchova-zieht-ueberraschend-ins-endspiel-von-stuttgart-ein-1211483/artikel#omrss",
-        "category": "Tennis",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T14:38:27.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/quarterback-jaeger-unter-sich-die-fuenf-besten-edge-rusher-der-draft-klasse-1211462/artikel#omrss",
-        "title": "Quarterback-Jäger unter sich: Die fünf besten Edge Rusher der Draft-Klasse",
-        "summary": "Mehrere junge EDGE-Talente bringen das Potenzial mit, Defenses sofort ein neues Gesicht zu geben - und machen den Pass Rush damit zum heimlichen Fokus des anstehenden Drafts.",
-        "paragraphs": [
-          "Mehrere junge EDGE-Talente bringen das Potenzial mit, Defenses sofort ein neues Gesicht zu geben - und machen den Pass Rush damit zum heimlichen Fokus des anstehenden Drafts."
-        ],
-        "link": "https://www.kicker.de/quarterback-jaeger-unter-sich-die-fuenf-besten-edge-rusher-der-draft-klasse-1211462/artikel#omrss",
-        "category": "Football",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T14:32:54.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/noch-mehr-auswahl-gegen-bayern-psg-loescht-zwei-fragezeichen-1211474/artikel#omrss",
-        "title": "Noch mehr Auswahl gegen Bayern: PSG löscht zwei Fragezeichen",
-        "summary": "Paris Saint-Germain ist wie im Vorjahr in der entscheidenden Saisonphase in Topform - und wird personell vor dem Champions-League-Halbfinale gegen Bayern sogar noch stärker.",
-        "paragraphs": [
-          "Paris Saint-Germain ist wie im Vorjahr in der entscheidenden Saisonphase in Topform - und wird personell vor dem Champions-League-Halbfinale gegen Bayern sogar noch stärker."
-        ],
-        "link": "https://www.kicker.de/noch-mehr-auswahl-gegen-bayern-psg-loescht-zwei-fragezeichen-1211474/artikel#omrss",
-        "category": "Champions League",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T14:31:22.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bruchlandung-der-eintagsfliege-folgen-hengens-harten-worten-konsequenzen-1211458/artikel#omrss",
-        "title": "Bruchlandung der Eintagsfliege: Folgen Hengens harten Worten Konsequenzen?",
-        "summary": "Einmal mehr leistete sich der 1. FC Kaiserslautern ein diskussions- wie fragwürdiges Auswärtsspiel. Geschäftsführer Thomas Hengen machte seiner Mannschaft nach dem 0:3 in Kiel recht klare Ansagen.",
-        "paragraphs": [
-          "Einmal mehr leistete sich der 1. FC Kaiserslautern ein diskussions- wie fragwürdiges Auswärtsspiel. Geschäftsführer Thomas Hengen machte seiner Mannschaft nach dem 0:3 in Kiel recht klare Ansagen."
-        ],
-        "link": "https://www.kicker.de/bruchlandung-der-eintagsfliege-folgen-hengens-harten-worten-konsequenzen-1211458/artikel#omrss",
-        "category": "1. FC Kaiserslautern",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T14:21:22.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/lok-leipzig-gegen-halle-2026-regionalliga-nordost-5058654/spielbericht#omrss",
-        "title": "Schluss-Drama und Protest-Aktion: Intensive Nullnummer zwischen Lok und Halle",
-        "summary": "Der Vorsprung von Spitzenreiter Lok Leipzig schmilzt weiter zusammen. Am Samstag reichte es nur zu einem Remis gegen Halle. Zu Beginn protestierten beide Teams, am Ende haderte die Loksche.",
-        "paragraphs": [
-          "Der Vorsprung von Spitzenreiter Lok Leipzig schmilzt weiter zusammen. Am Samstag reichte es nur zu einem Remis gegen Halle. Zu Beginn protestierten beide Teams, am Ende haderte die Loksche."
-        ],
-        "link": "https://www.kicker.de/lok-leipzig-gegen-halle-2026-regionalliga-nordost-5058654/spielbericht#omrss",
-        "category": "1. FC Lok Leipzig",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T14:18:46.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-gelingt-jena-in-chemnitz-ein-sieg-festigt-bamberg-gegen-oldenburg-platz-3-1211103/artikel#omrss",
-        "title": "LIVE! Gelingt Jena in Chemnitz ein Sieg? - Festigt Bamberg gegen Oldenburg Platz 3?",
-        "summary": "Am Samstag gibt es das Fernduell Jena und Heidelberg im Kampf um den Klassenerhalt: Jena muss in Chemnitz ran, Heidelberg empfängt Ludwigsburg. Bamberg kann zuhause gegen Oldenburg weiter Platz 3 festigen.",
-        "paragraphs": [
-          "Am Samstag gibt es das Fernduell Jena und Heidelberg im Kampf um den Klassenerhalt: Jena muss in Chemnitz ran, Heidelberg empfängt Ludwigsburg. Bamberg kann zuhause gegen Oldenburg weiter Platz 3 festigen."
-        ],
-        "link": "https://www.kicker.de/live-gelingt-jena-in-chemnitz-ein-sieg-festigt-bamberg-gegen-oldenburg-platz-3-1211103/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-18T14:05:39.000Z"
       }
     ],
     "edv": [
@@ -742,7 +742,7 @@
       },
       {
         "id": "https://www.heise.de/tests/Windrose-Spassiger-Jack-Sparrow-Simulator-fuer-kleines-Geld-11263221.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„Windrose“: Spaßiger Jack-Sparrow-Simulator für kleines Geld",
+        "title": "Her mit Rum und Säbel: Piraten-Rollenspiel „Windrose“ überzeugt",
         "summary": "Das Indie-Survival-RPG orientiert sich stark am Vorbild „Valheim“ und verbindet dessen erfolgreiches Spielprinzip mit dem Spaß einer bunten Piratenwelt.",
         "paragraphs": [
           "Das Indie-Survival-RPG orientiert sich stark am Vorbild „Valheim“ und verbindet dessen erfolgreiches Spielprinzip mit dem Spaß einer bunten Piratenwelt."
@@ -971,6 +971,18 @@
     ],
     "börse": [
       {
+        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-blockiert-strasse-von-hormus-erneut/100218013.html",
+        "title": "Iran-Krieg: Iran blockiert Straße von Hormus erneut – Übergabe von angereichertem Uran ausgeschlossen",
+        "summary": "Der Iran kehrt in der Straße von Hormus zum „vorherigen Zustand“ zurück. Und der iranische Vizeaußenminister dämpft die Hoffnung auf neue Verhandlungen. Die Lage am Abend.",
+        "paragraphs": [
+          "Der Iran kehrt in der Straße von Hormus zum „vorherigen Zustand“ zurück. Und der iranische Vizeaußenminister dämpft die Hoffnung auf neue Verhandlungen. Die Lage am Abend."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-blockiert-strasse-von-hormus-erneut/100218013.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-18T16:25:04.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/vatikan-und-usa-leo-xiv-bemueht-sich-um-entspannung-mit-trump/100218066.html",
         "title": "Vatikan und USA: Leo XIV. bemüht sich um Entspannung mit Trump",
         "summary": "Der US-Präsident und der Papst liefern sich ein heftiges Wortgefecht, was weltweit Schlagzeilen macht. Nun zeigt sich Leo konziliant. Und Trump?",
@@ -1055,18 +1067,6 @@
         "publishedAt": "2026-04-18T14:38:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-blockiert-strasse-von-hormus-erneut/100218013.html",
-        "title": "Iran-Krieg: Iran blockiert Straße von Hormus erneut – Übergabe von angereichertem Uran ausgeschlossen",
-        "summary": "Der Iran kehrt in der Straße von Hormus zum „vorherigen Zustand“ zurück. Und der iranische Vizeaußenminister dämpft die Hoffnung auf neue Verhandlungen. Die Lage am Nachmittag.",
-        "paragraphs": [
-          "Der Iran kehrt in der Straße von Hormus zum „vorherigen Zustand“ zurück. Und der iranische Vizeaußenminister dämpft die Hoffnung auf neue Verhandlungen. Die Lage am Nachmittag."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-blockiert-strasse-von-hormus-erneut/100218013.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-18T13:39:33.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/deutschland/krise-der-fdp-hoene-startet-mit-rueckenwind-in-kampf-um-fdp-bundesvorsitz/100218045.html",
         "title": "Krise der FDP: Höne startet mit Rückenwind in Kampf um FDP-Bundesvorsitz",
         "summary": "Existenzkrise, Führungsdebatte, zwei Kandidaten: Henning Höne hat im Rennen um den FDP-Bundesvorsitz eine wichtige Etappe genommen. Sein Landesverband stützt ihn. Aber ist er unangefochten?",
@@ -1079,13 +1079,13 @@
         "publishedAt": "2026-04-18T13:33:49.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/technik/medizin/sportdaten-smart-statt-nur-stark-wie-vernetzte-geraete-das-fitnesstraining-revolutionieren/100215877.html",
-        "title": "Sportdaten: Smart statt nur stark – wie vernetzte Geräte das Fitnesstraining revolutionieren",
+        "id": "https://www.handelsblatt.com/technik/medizin/fibo-2026-smart-statt-nur-stark-wie-vernetzte-geraete-das-fitnesstraining-revolutionieren/100215877.html",
+        "title": "FIBO 2026: Smart statt nur stark – wie vernetzte Geräte das Fitnesstraining revolutionieren",
         "summary": "Körperdaten und KI-Analysen liefern personalisierte Workouts. Die weltweit größte Fitnessmesse FIBO zeigt, warum Training ohne Daten bald die Ausnahme sein könnte.",
         "paragraphs": [
           "Körperdaten und KI-Analysen liefern personalisierte Workouts. Die weltweit größte Fitnessmesse FIBO zeigt, warum Training ohne Daten bald die Ausnahme sein könnte."
         ],
-        "link": "https://www.handelsblatt.com/technik/medizin/sportdaten-smart-statt-nur-stark-wie-vernetzte-geraete-das-fitnesstraining-revolutionieren/100215877.html",
+        "link": "https://www.handelsblatt.com/technik/medizin/fibo-2026-smart-statt-nur-stark-wie-vernetzte-geraete-das-fitnesstraining-revolutionieren/100215877.html",
         "category": "Medizin + Gesundheit",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-18T13:30:46.000Z"
