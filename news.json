@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T18:15:23.250Z",
+  "updatedAt": "2026-04-19T18:38:15.500Z",
   "categories": {
     "wirtschaft": [
       {
@@ -37,18 +37,6 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-19T14:38:35.000Z"
-      },
-      {
-        "id": "e7aa9e1f-7c1f-4f02-8d32-004a4f3cf77d",
-        "title": "Trump kündigt für Montag neue Gespräche an - Iran zurückhaltend",
-        "summary": "Laut US-Präsident Trump sollen die Gespräche mit Iran weitergehen, doch Teheran reagiert zurückhaltend. Für die USA sollen Vizepräsident Vance und die Sondergesandten Witkoff und Kushner verhandeln.",
-        "paragraphs": [
-          "Laut US-Präsident Trump sollen die Gespräche mit Iran weitergehen, doch Teheran reagiert zurückhaltend. Für die USA sollen Vizepräsident Vance und die Sondergesandten Witkoff und Kushner verhandeln."
-        ],
-        "link": "https://www.tagesschau.de/ausland/asien/usa-iran-verhandlungen-islamabad-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-19T14:27:31.000Z"
       },
       {
         "id": "7995ac9a-8f08-4475-a9cc-5792db3684c0",
@@ -241,6 +229,18 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-18T08:12:49.000Z"
+      },
+      {
+        "id": "https://www.n-tv.de/wirtschaft/Luftfrachtfirmen-fordern-bevorzugte-Versorgung-mit-Kerosin-id30728649.html",
+        "title": "Treibstoffknappheit droht: Luftfrachtfirmen fordern bevorzugte Versorgung mit Kerosin",
+        "summary": "Der Iran-Krieg führt auch zu einem Mangel an Kerosin. Luftfrachtunternehmen fürchten einen Engpass und fordern eine vorrangige Versorgung mit Treibstoff.",
+        "paragraphs": [
+          "Der Iran-Krieg führt auch zu einem Mangel an Kerosin. Luftfrachtunternehmen fürchten einen Engpass und fordern eine vorrangige Versorgung mit Treibstoff."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Luftfrachtfirmen-fordern-bevorzugte-Versorgung-mit-Kerosin-id30728649.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-04-18T07:44:13.000Z"
       }
     ],
     "politik": [
@@ -478,7 +478,7 @@
     "sport": [
       {
         "id": "https://www.kicker.de/wiesbaden-gegen-mannheim-2026-liga-5057665/spielbericht#omrss",
-        "title": "LIVE! 2:0 Gillekens erhöht per Hacke",
+        "title": "LIVE! Eiskalte Wiesbadener stellen auf 3:0",
         "summary": "Der SV Waldhof Mannheim konnte zuletzt drei Drittliga-Spiele in Folge nicht gewinnen, der SV Wehen Wiesbaden wartet gar seit fünf Spielen auf einen Erfolg. Im direkten Duell hoffen nun beide Teams auf ein Ende der Serie.",
         "paragraphs": [
           "Der SV Waldhof Mannheim konnte zuletzt drei Drittliga-Spiele in Folge nicht gewinnen, der SV Wehen Wiesbaden wartet gar seit fünf Spielen auf einen Erfolg. Im direkten Duell hoffen nun beide Teams auf ein Ende der Serie."
@@ -489,11 +489,59 @@
         "publishedAt": "2026-04-19T18:24:00.000Z"
       },
       {
+        "id": "ebaa6141-b67f-49ed-9f0e-9c26d4ec7cff",
+        "title": "Fußball-Bundesliga: Bayern München krönt sich mit Sieg über den VfB Stuttgart zum erbeuten Deutschen Meister",
+        "summary": "Der FC Bayern macht gegen den VfB Stuttgart kurz ernst und nimmt den Pokalsieger damit auseinander. Die Elf von Vincent Kompany krönt sich mit dem nächsten Titel. Konkurrenz ist weit und breit nicht in Sicht.",
+        "paragraphs": [
+          "Der FC Bayern macht gegen den VfB Stuttgart kurz ernst und nimmt den Pokalsieger damit auseinander. Die Elf von Vincent Kompany krönt sich mit dem nächsten Titel. Konkurrenz ist weit und breit nicht in Sicht."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/fussball-bundesliga-bayern-muenchen-kroent-sich-mit-sieg-ueber-den-vfb-stuttgart-zum-erbeuten-deutschen-meister-a-ebaa6141-b67f-49ed-9f0e-9c26d4ec7cff#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-19T18:17:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/baumgartner-ueber-klostermann-unfassbar-beeindruckend-1211773/artikel#omrss",
+        "title": "Baumgartner über Klostermann: \"Unfassbar beeindruckend\"",
+        "summary": "Nur vier Kurzeinsätze über insgesamt fünf Bundesliga-Minuten durfte Lukas Klostermann in den ersten 29 Saisonspielen von RB Leipzig absolvieren: Umso überraschender war seine Leistung beim historischen 3:1-Sieg in Frankfurt.",
+        "paragraphs": [
+          "Nur vier Kurzeinsätze über insgesamt fünf Bundesliga-Minuten durfte Lukas Klostermann in den ersten 29 Saisonspielen von RB Leipzig absolvieren: Umso überraschender war seine Leistung beim historischen 3:1-Sieg in Frankfurt."
+        ],
+        "link": "https://www.kicker.de/baumgartner-ueber-klostermann-unfassbar-beeindruckend-1211773/artikel#omrss",
+        "category": "Baumgartner",
+        "source": "Kicker",
+        "publishedAt": "2026-04-19T18:15:33.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/schmidt-was-soll-ich-sagen-ein-prozent-0-1-prozent-1211843/artikel#omrss",
+        "title": "Schmidt: \"Was soll ich sagen? Ein Prozent, 0,1 Prozent\"",
+        "summary": "Drei Spiele in Folge hatte Heidenheim nicht verloren, nun setzte es in Freiburg aber einen herben Dämpfer für das Schlusslicht. Der Glaube an den Klassenerhalt schwindet, der Kampfgeist aber nicht.",
+        "paragraphs": [
+          "Drei Spiele in Folge hatte Heidenheim nicht verloren, nun setzte es in Freiburg aber einen herben Dämpfer für das Schlusslicht. Der Glaube an den Klassenerhalt schwindet, der Kampfgeist aber nicht."
+        ],
+        "link": "https://www.kicker.de/schmidt-was-soll-ich-sagen-ein-prozent-0-1-prozent-1211843/artikel#omrss",
+        "category": "1. FC Heidenheim",
+        "source": "Kicker",
+        "publishedAt": "2026-04-19T18:12:12.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kurze-meisterfeier-bayern-fans-feiern-kompany-und-wollen-mehr-1211858/video#omrss",
+        "title": "\"Kurze Meisterfeier\": Bayern-Fans feiern Kompany und wollen mehr",
+        "summary": "Der FC Bayern hat sich vorzeitig zum deutschen Meister gekrönt. Die Feierlichkeiten fielen aber überschaubar aus, da sowohl die Spieler als auch die Fans noch große Träume für die Rest-Saison haben.",
+        "paragraphs": [
+          "Der FC Bayern hat sich vorzeitig zum deutschen Meister gekrönt. Die Feierlichkeiten fielen aber überschaubar aus, da sowohl die Spieler als auch die Fans noch große Träume für die Rest-Saison haben."
+        ],
+        "link": "https://www.kicker.de/kurze-meisterfeier-bayern-fans-feiern-kompany-und-wollen-mehr-1211858/video#omrss",
+        "category": "Bayern München",
+        "source": "Kicker",
+        "publishedAt": "2026-04-19T18:09:58.000Z"
+      },
+      {
         "id": "https://www.kicker.de/finale-der-extraklasse-nassim-dahman-ist-deutscher-meister-1211738/artikel#omrss",
         "title": "Finale der Extraklasse: Nassim Dahman ist deutscher Meister",
-        "summary": "Er galt schon länger als bester Spieler der Virtual Bundesliga - nun hat er den passenden Titel dazu: Freiburgs Nassim Dahman schlug den Leipziger Alihan Hadzhi im Finale der deutschen Einzelmeisterschaft.",
+        "summary": "Er galt schon länger als bester Spieler der Virtual Bundesliga - nun hat er den passenden Titel dazu: Freiburgs Nassim Dahman schlug den Leipziger Alihan Hadzhi in einem denkwürdigen Endspiel um die deutsche Einzelmeisterschaft.",
         "paragraphs": [
-          "Er galt schon länger als bester Spieler der Virtual Bundesliga - nun hat er den passenden Titel dazu: Freiburgs Nassim Dahman schlug den Leipziger Alihan Hadzhi im Finale der deutschen Einzelmeisterschaft."
+          "Er galt schon länger als bester Spieler der Virtual Bundesliga - nun hat er den passenden Titel dazu: Freiburgs Nassim Dahman schlug den Leipziger Alihan Hadzhi in einem denkwürdigen Endspiel um die deutsche Einzelmeisterschaft."
         ],
         "link": "https://www.kicker.de/finale-der-extraklasse-nassim-dahman-ist-deutscher-meister-1211738/artikel#omrss",
         "category": "Virtual Bundesliga ",
@@ -535,6 +583,18 @@
         "category": "Sport",
         "source": "ZEIT",
         "publishedAt": "2026-04-19T18:00:13.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/hamburg-gegen-vechta-2026-bbl-5141493/spielbericht#omrss",
+        "title": "Vechta bleibt heiß: Hamburg verliert wichtiges Heimspiel",
+        "summary": "Die Veolia Towers Hamburg verpassten einen wichtigen Schritt im Rennen um die Play-ins. Gegen RASTA Vechta sorgte vor allem ein schwaches erstes Viertel für die entscheidende Hypothek.",
+        "paragraphs": [
+          "Die Veolia Towers Hamburg verpassten einen wichtigen Schritt im Rennen um die Play-ins. Gegen RASTA Vechta sorgte vor allem ein schwaches erstes Viertel für die entscheidende Hypothek."
+        ],
+        "link": "https://www.kicker.de/hamburg-gegen-vechta-2026-bbl-5141493/spielbericht#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-19T17:56:32.000Z"
       },
       {
         "id": "li.3470427",
@@ -621,6 +681,18 @@
         "publishedAt": "2026-04-19T17:07:00.000Z"
       },
       {
+        "id": "https://www.kicker.de/rostock-gegen-ulm-2026-bbl-5141492/spielbericht#omrss",
+        "title": "Ulm auf Kurs - Seawolves müssen nächsten Dämpfer hinnehmen",
+        "summary": "Rostock wollte sich im Endspurt der Liga noch auf einen Playoff-Platz werfen. Gegen das zuletzt dreimal sieglose Ulm aber taten sich die Mecklenburger schwer. Eine Aufholjagd blieb ohne Erfolg.",
+        "paragraphs": [
+          "Rostock wollte sich im Endspurt der Liga noch auf einen Playoff-Platz werfen. Gegen das zuletzt dreimal sieglose Ulm aber taten sich die Mecklenburger schwer. Eine Aufholjagd blieb ohne Erfolg."
+        ],
+        "link": "https://www.kicker.de/rostock-gegen-ulm-2026-bbl-5141492/spielbericht#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-19T17:05:56.000Z"
+      },
+      {
         "id": "https://www.kicker.de/polizei-muss-einschreiten-massenschlaegerei-vor-bayern-heimspiel-gegen-stuttgart-1211796/artikel#omrss",
         "title": "Polizei muss einschreiten: Massenschlägerei vor Bayern-Heimspiel gegen Stuttgart",
         "summary": "Der FC Bayern feierte am Sonntag durch einen 4:2-Sieg gegen Stuttgart seinen 32. Meistertitel. Vor dem Spiel kam es allerdings zu Ausschreitungen zwischen beiden Fanlagern. Die Polizei musste eingreifen.",
@@ -643,78 +715,6 @@
         "category": "3. Liga",
         "source": "Kicker",
         "publishedAt": "2026-04-19T16:46:48.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-castrop-schiesst-elvedi-an-becker-schuss-geht-knapp-ueber-das-tor-1211097/artikel#omrss",
-        "title": "LIVE! Castrop schießt Elvedi an - Becker-Schuss geht knapp über das Tor",
-        "summary": "Der 1. FSV Mainz 05 war am Donnerstagabend noch in Straßburg in der Conference League gefordert und muss nun den Frust über das Aus im Viertelfinale verarbeiten - in Mönchengladbach. Die zuletzt dreimal sieglosen Fohlen müssen punkten, um nicht noch weiter in den Abstiegssog zu geraten.",
-        "paragraphs": [
-          "Der 1. FSV Mainz 05 war am Donnerstagabend noch in Straßburg in der Conference League gefordert und muss nun den Frust über das Aus im Viertelfinale verarbeiten - in Mönchengladbach. Die zuletzt dreimal sieglosen Fohlen müssen punkten, um nicht noch weiter in den Abstiegssog zu geraten."
-        ],
-        "link": "https://www.kicker.de/live-castrop-schiesst-elvedi-an-becker-schuss-geht-knapp-ueber-das-tor-1211097/artikel#omrss",
-        "category": null,
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T16:37:37.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vfb-ii-gegen-aue-2026-liga-5057662/spielbericht#omrss",
-        "title": "Abstieg verschoben: Aue holt 0:2-Rückstand bei Stuttgart II auf",
-        "summary": "Erzgebirge Aue springt dem Abstieg zunächst noch mal von der Schippe. Die Veilchen holen beim VfB Stuttgart II einen 0:2-Rückstand auf und spielen das zweite Mal in Serie remis.",
-        "paragraphs": [
-          "Erzgebirge Aue springt dem Abstieg zunächst noch mal von der Schippe. Die Veilchen holen beim VfB Stuttgart II einen 0:2-Rückstand auf und spielen das zweite Mal in Serie remis."
-        ],
-        "link": "https://www.kicker.de/vfb-ii-gegen-aue-2026-liga-5057662/spielbericht#omrss",
-        "category": "3. Liga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T16:30:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/dreierpacker-futkeu-im-rampenlicht-der-fussball-gibt-immer-zurueck-1211759/artikel#omrss",
-        "title": "Dreierpacker Futkeu im Rampenlicht: \"Der Fußball gibt immer zurück\"",
-        "summary": "Noel Futkeu hatte mit seinem Dreierpack den Hauptanteil am Fürther Sieg gegen Darmstadt. Entsprechend strahlend lief der Stürmer durch die Mixed Zone und erklärte, warum der Knoten an diesem Sonntag geplatzt ist. Dabei handelte er sich vom stolzen Trainer ein Extra-Lob ein.",
-        "paragraphs": [
-          "Noel Futkeu hatte mit seinem Dreierpack den Hauptanteil am Fürther Sieg gegen Darmstadt. Entsprechend strahlend lief der Stürmer durch die Mixed Zone und erklärte, warum der Knoten an diesem Sonntag geplatzt ist. Dabei handelte er sich vom stolzen Trainer ein Extra-Lob ein."
-        ],
-        "link": "https://www.kicker.de/dreierpacker-futkeu-im-rampenlicht-der-fussball-gibt-immer-zurueck-1211759/artikel#omrss",
-        "category": "2. Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T16:27:54.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/schindler-mit-grossem-auftritt-souveraener-sieg-gegen-clayton-1211811/video#omrss",
-        "title": "Schindler mit großem Auftritt: Souveräner Sieg gegen Clayton",
-        "summary": "Im Duell mit Jonny Clayton stellte Martin Schindler seine Klasse unter Beweis und zog mit einem starken Average von über 100 in die nächste Runde ein.",
-        "paragraphs": [
-          "Im Duell mit Jonny Clayton stellte Martin Schindler seine Klasse unter Beweis und zog mit einem starken Average von über 100 in die nächste Runde ein."
-        ],
-        "link": "https://www.kicker.de/schindler-mit-grossem-auftritt-souveraener-sieg-gegen-clayton-1211811/video#omrss",
-        "category": "Darts",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T16:19:49.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/celtic-gegen-st-mirren-2026-scottish-fa-cup-5195994/spielbericht#omrss",
-        "title": "2:0 verzockt und furiose sechs Minuten: Celtic feiert wilden 6:2-Halbfinalsieg",
-        "summary": "Im Halbfinale des schottischen FA-Cups verzockte Celtic Glasgow zunächst eine 2:0-Führung - und erreichte anschließend auf spektakuläre Art und Weise doch noch das Endspiel.",
-        "paragraphs": [
-          "Im Halbfinale des schottischen FA-Cups verzockte Celtic Glasgow zunächst eine 2:0-Führung - und erreichte anschließend auf spektakuläre Art und Weise doch noch das Endspiel."
-        ],
-        "link": "https://www.kicker.de/celtic-gegen-st-mirren-2026-scottish-fa-cup-5195994/spielbericht#omrss",
-        "category": "Celtic Glasgow",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T16:17:25.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/puetz-bhc-silber-gibt-viel-energie-fuer-die-zukunft-1211802/artikel#omrss",
-        "title": "Pütz: BHC-Silber gibt \"viel Energie für die Zukunft\"",
-        "summary": "Am Ende reichte es für den Bergischen HC \"nur\" für den zweiten Platz im DHB-Pokal. Trotz einer gewissen Enttäuschung überwog aber schnell der Stolz.",
-        "paragraphs": [
-          "Am Ende reichte es für den Bergischen HC \"nur\" für den zweiten Platz im DHB-Pokal. Trotz einer gewissen Enttäuschung überwog aber schnell der Stolz."
-        ],
-        "link": "https://www.kicker.de/puetz-bhc-silber-gibt-viel-energie-fuer-die-zukunft-1211802/artikel#omrss",
-        "category": "Bergischer HC",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T16:00:00.000Z"
       }
     ],
     "edv": [
@@ -961,6 +961,18 @@
     ],
     "börse": [
       {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/hannover-messe-2026-merz-eroeffnet-hannover-messe-die-industrie-setzt-auf-eine-technologieoffensive/100216800.html",
+        "title": "Hannover Messe 2026: Merz eröffnet Hannover Messe – Die Industrie setzt auf eine Technologieoffensive",
+        "summary": "Schwache Aufträge, wachsender Druck aus China: Die deutsche Industrie nutzt die Hannover Messe, um ihre Zukunft neu zu definieren – und setzt auf KI, Robotik und neue Märkte.",
+        "paragraphs": [
+          "Schwache Aufträge, wachsender Druck aus China: Die deutsche Industrie nutzt die Hannover Messe, um ihre Zukunft neu zu definieren – und setzt auf KI, Robotik und neue Märkte."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/hannover-messe-2026-merz-eroeffnet-hannover-messe-die-industrie-setzt-auf-eine-technologieoffensive/100216800.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-19T18:20:07.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/iran-krieg-deutsche-marine-bereitet-einsatz-in-strasse-von-hormus-vor/100218202.html",
         "title": "Iran-Krieg: Deutsche Marine bereitet Einsatz in Straße von Hormus vor",
         "summary": "Noch ist ein dauerhafter Waffenstillstand am Golf nicht absehbar. Doch Deutschlands Marine bereitet sich bereits auf den Tag X vor. Es geht um das Räumen von Minen in der Straße von Hormus.",
@@ -1091,18 +1103,6 @@
         "category": "International",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-19T13:31:21.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/hannover-messe-2026-die-industrie-setzt-auf-eine-technologieoffensive/100216800.html",
-        "title": "Hannover Messe 2026: Hightech gegen die Krise: Die Industrie setzt auf eine Technologieoffensive",
-        "summary": "Schwache Aufträge, wachsender Druck aus China: Die deutsche Industrie nutzt die Hannover Messe, um ihre Zukunft neu zu definieren – und setzt auf KI, Robotik und neue Märkte.",
-        "paragraphs": [
-          "Schwache Aufträge, wachsender Druck aus China: Die deutsche Industrie nutzt die Hannover Messe, um ihre Zukunft neu zu definieren – und setzt auf KI, Robotik und neue Märkte."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/hannover-messe-2026-die-industrie-setzt-auf-eine-technologieoffensive/100216800.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T13:25:21.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-lies-will-bau-chinesischer-autos-in-deutschen-vw-werken-pruefen/100218179.html",
