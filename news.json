@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T21:52:25.054Z",
+  "updatedAt": "2026-04-19T22:24:04.146Z",
   "categories": {
     "wirtschaft": [
       {
@@ -481,6 +481,18 @@
     ],
     "sport": [
       {
+        "id": "{urn:uuid:204e0a57-b13b-4016-a443-2180cc45f1c3}",
+        "title": "Pressestimmen zur Meisterschaft des FC Bayern: »Die Bayern sind nicht zu stoppen«",
+        "summary": "Auch die internationale Presse zeigt sich beeindruckt von der frühen Meisterschaft des FC Bayern München. Der Verein lege den »Grundstein für das Triple«. Die Presseschau",
+        "paragraphs": [
+          "Auch die internationale Presse zeigt sich beeindruckt von der frühen Meisterschaft des FC Bayern München. Der Verein lege den »Grundstein für das Triple«. Die Presseschau"
+        ],
+        "link": "https://www.zeit.de/sport/2026-04/bayern-muenchen-bundesliga-meister-presseschau",
+        "category": "Sport",
+        "source": "ZEIT",
+        "publishedAt": "2026-04-19T21:48:37.000Z"
+      },
+      {
         "id": "d78c57ba-b842-4f4b-9557-f4aaa6fee691",
         "title": "Spiele in Rhein-Ruhr: Nordrhein-Westfalen stimmt mit Ja für Olympia-Bewerbung",
         "summary": "Die Pläne für eine deutsche Olympia-Bewerbung erhalten einen weiteren Schub. In Nordrhein-Westfalen votiert eine deutliche Mehrheit für das Projekt »KölnRheinRuhr«. Nur ein Ort verfehlte das Quorum.",
@@ -675,9 +687,9 @@
       {
         "id": "https://www.kicker.de/kimmich-ich-hoffe-da-kommen-noch-zehn-dazu-1211772/artikel#omrss",
         "title": "Kimmich: \"Ich hoffe, da kommen noch zehn dazu\"",
-        "summary": "Der FC Bayern ist Deutscher Meister - und spricht über einen, der fehlt: Serge Gnabry. Joshua Kimmich verriet, was seine zehnte Meisterschaft so besonders macht - und sprach ausgiebig über den verletzten Gnabry.",
+        "summary": "Der FC Bayern ist Deutscher Meister. Joshua Kimmich verriet, was seine zehnte Meisterschaft so besonders macht - und sprach ausgiebig über den verletzten Gnabry.",
         "paragraphs": [
-          "Der FC Bayern ist Deutscher Meister - und spricht über einen, der fehlt: Serge Gnabry. Joshua Kimmich verriet, was seine zehnte Meisterschaft so besonders macht - und sprach ausgiebig über den verletzten Gnabry."
+          "Der FC Bayern ist Deutscher Meister. Joshua Kimmich verriet, was seine zehnte Meisterschaft so besonders macht - und sprach ausgiebig über den verletzten Gnabry."
         ],
         "link": "https://www.kicker.de/kimmich-ich-hoffe-da-kommen-noch-zehn-dazu-1211772/artikel#omrss",
         "category": "Bayern München",
@@ -707,18 +719,6 @@
         "category": "3. Liga",
         "source": "Kicker",
         "publishedAt": "2026-04-19T19:26:29.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/haaland-ueber-bernardo-silva-du-warst-heute-wie-cannavaro-1211857/artikel#omrss",
-        "title": "Haaland über Bernardo Silva: \"Du warst heute wie Cannavaro\"",
-        "summary": "Erling Haaland war mit seinem Tor zum 2:1 der entscheidende Mann im Topspiel gegen den FC Arsenal. Nach der Partie hob der Stürmer von Manchester City aber Bernardo Silva hervor, der ausnahmsweise durch starke Defensivaktionen im Fokus stand.",
-        "paragraphs": [
-          "Erling Haaland war mit seinem Tor zum 2:1 der entscheidende Mann im Topspiel gegen den FC Arsenal. Nach der Partie hob der Stürmer von Manchester City aber Bernardo Silva hervor, der ausnahmsweise durch starke Defensivaktionen im Fokus stand."
-        ],
-        "link": "https://www.kicker.de/haaland-ueber-bernardo-silva-du-warst-heute-wie-cannavaro-1211857/artikel#omrss",
-        "category": "Bernardo Silva",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T19:25:52.000Z"
       }
     ],
     "edv": [
@@ -965,6 +965,54 @@
     ],
     "börse": [
       {
+        "id": "https://www.handelsblatt.com/politik/deutschland/experten-einschaetzung-future-skills-was-morgen-im-job-gefragt-ist/100218226.html",
+        "title": "Experten-Einschätzung: Future Skills: Was morgen im Job gefragt ist",
+        "summary": "Pünktlichkeit und Zuverlässigkeit, Loyalität und Fachwissen: Solche Eigenschaften galten früher im Job als unabdingbar. Und heute? Was verbirgt sich hinter den „Future Skills“ - und wer braucht sie?",
+        "paragraphs": [
+          "Pünktlichkeit und Zuverlässigkeit, Loyalität und Fachwissen: Solche Eigenschaften galten früher im Job als unabdingbar. Und heute? Was verbirgt sich hinter den „Future Skills“ - und wer braucht sie?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/experten-einschaetzung-future-skills-was-morgen-im-job-gefragt-ist/100218226.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-19T22:05:09.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/medizin/libido-von-maennern-was-bedeutet-eine-prostata-op-fuers-sexleben/100218227.html",
+        "title": "Libido von Männern: Was bedeutet eine Prostata-OP fürs Sexleben?",
+        "summary": "Ein Eingriff an der Prostata kann sich auf den Samenerguss und die Erektionsfähigkeit auswirken. Dabei spielt die Art des Eingriffs eine große Rolle, wie ein ungewöhnlicher Vergleich deutlich macht.",
+        "paragraphs": [
+          "Ein Eingriff an der Prostata kann sich auf den Samenerguss und die Erektionsfähigkeit auswirken. Dabei spielt die Art des Eingriffs eine große Rolle, wie ein ungewöhnlicher Vergleich deutlich macht."
+        ],
+        "link": "https://www.handelsblatt.com/technik/medizin/libido-von-maennern-was-bedeutet-eine-prostata-op-fuers-sexleben/100218227.html",
+        "category": "Medizin + Gesundheit",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-19T22:05:07.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/medizin/beliebtes-achtsamkeits-tool-journaling-7-haeufige-missverstaendnisse/100218224.html",
+        "title": "Beliebtes Achtsamkeits-Tool: Journaling: 7 häufige Missverständnisse",
+        "summary": "Fehlerfreie Sätze, schönes Notizbuch? Alles Quatsch! Warum es beim Journaling nicht auf Ästhetik ankommt. Und wie schon zehn Minuten täglich das Wohlbefinden stärken können.",
+        "paragraphs": [
+          "Fehlerfreie Sätze, schönes Notizbuch? Alles Quatsch! Warum es beim Journaling nicht auf Ästhetik ankommt. Und wie schon zehn Minuten täglich das Wohlbefinden stärken können."
+        ],
+        "link": "https://www.handelsblatt.com/technik/medizin/beliebtes-achtsamkeits-tool-journaling-7-haeufige-missverstaendnisse/100218224.html",
+        "category": "Medizin + Gesundheit",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-19T22:05:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/medizin/hype-ums-aufschreiben-kopf-leer-seite-voll-was-journaling-bringt-und-was-nicht/100218225.html",
+        "title": "Hype ums Aufschreiben: Kopf leer, Seite voll: Was Journaling bringt - und was nicht",
+        "summary": "Journaling klingt nach Selbstoptimierung: ein Heft, ein besseres Ich. Oft geht es aber schlicht darum, aufzuschreiben, was in einem vorgeht. Was daran entlastet. Und wo die Methode Grenzen hat.",
+        "paragraphs": [
+          "Journaling klingt nach Selbstoptimierung: ein Heft, ein besseres Ich. Oft geht es aber schlicht darum, aufzuschreiben, was in einem vorgeht. Was daran entlastet. Und wo die Methode Grenzen hat."
+        ],
+        "link": "https://www.handelsblatt.com/technik/medizin/hype-ums-aufschreiben-kopf-leer-seite-voll-was-journaling-bringt-und-was-nicht/100218225.html",
+        "category": "Medizin + Gesundheit",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-19T22:05:04.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/wahlergebnis-klares-ja-fuer-olympia-bewerbung-bei-buergerentscheiden-in-nrw/100218221.html",
         "title": "Wahlergebnis: Klares Ja für Olympia-Bewerbung bei Bürgerentscheiden in NRW",
         "summary": "Die Pläne für eine deutsche Olympia-Bewerbung erhalten einen weiteren Schub. In Nordrhein-Westfalen stimmt eine deutliche Mehrheit für das Projekt „KölnRheinRuhr“.",
@@ -1155,54 +1203,6 @@
         "category": "Kolumnen",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-19T13:53:51.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/lage-am-golf-trump-schickt-delegation-fuer-iran-gespraeche-nach-islamabad/100218113.html",
-        "title": "Lage am Golf: Trump schickt Delegation für Iran-Gespräche nach Islamabad",
-        "summary": "Am Mittwoch läuft die Waffenruhe im Iran-Krieg aus. Nun nennt US-Präsident Trump einen neuen Verhandlungstermin - und verknüpft dies mit neuen Drohungen.",
-        "paragraphs": [
-          "Am Mittwoch läuft die Waffenruhe im Iran-Krieg aus. Nun nennt US-Präsident Trump einen neuen Verhandlungstermin - und verknüpft dies mit neuen Drohungen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/lage-am-golf-trump-schickt-delegation-fuer-iran-gespraeche-nach-islamabad/100218113.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T13:47:17.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/grossbritannien-showdown-um-starmers-politisches-ueberleben-beginnt/100217842.html",
-        "title": "Großbritannien: Showdown um Starmers politisches Überleben beginnt",
-        "summary": "Schicksalswoche in Westminster: Zwei Auftritte vor dem Parlament entscheiden darüber, ob der Labour- und Regierungschef zurücktreten muss.",
-        "paragraphs": [
-          "Schicksalswoche in Westminster: Zwei Auftritte vor dem Parlament entscheiden darüber, ob der Labour- und Regierungschef zurücktreten muss."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/grossbritannien-showdown-um-starmers-politisches-ueberleben-beginnt/100217842.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T13:31:21.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-lies-will-bau-chinesischer-autos-in-deutschen-vw-werken-pruefen/100218179.html",
-        "title": "Volkswagen: Lies will Bau chinesischer Autos in deutschen VW-Werken prüfen",
-        "summary": "Sollte VW mit chinesischen Autobauern in Deutschland zusammenarbeiten, um die heimischen Werke auszulasten? Niedersachsens Regierungschef zeigt sich offen dafür, diese Idee zu prüfen.",
-        "paragraphs": [
-          "Sollte VW mit chinesischen Autobauern in Deutschland zusammenarbeiten, um die heimischen Werke auszulasten? Niedersachsens Regierungschef zeigt sich offen dafür, diese Idee zu prüfen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-lies-will-bau-chinesischer-autos-in-deutschen-vw-werken-pruefen/100218179.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T13:22:59.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/gesundheitsreform-gkv-verband-druck-von-verbaenden-nicht-nachgeben/100218097.html",
-        "title": "Gesundheitsreform: GKV-Verband stärkt Warken den Rücken: Druck von Verbänden nicht nachgeben",
-        "summary": "An den Reformplänen von Nina Warken gibt es viel Kritik, auch aus der Koalition. Die Krankenkassen schicken eine Mahnung an die Gesundheitsministerin.",
-        "paragraphs": [
-          "An den Reformplänen von Nina Warken gibt es viel Kritik, auch aus der Koalition. Die Krankenkassen schicken eine Mahnung an die Gesundheitsministerin."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/gesundheitsreform-gkv-verband-druck-von-verbaenden-nicht-nachgeben/100218097.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T13:22:16.000Z"
       }
     ]
   }
