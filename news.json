@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-04-19T17:44:57.843Z",
+  "updatedAt": "2026-04-19T18:15:23.250Z",
   "categories": {
     "wirtschaft": [
-      {
-        "id": "e74a41b1-40aa-489e-8ce8-37f91e863e52",
-        "title": "Iran-Liveblog: ++ Türkei hofft auf Verlängerung der Waffenruhe  ++",
-        "summary": "Der türkische Außenminister hat sich \"optimistisch\" über den Fortbestand der Waffenruhe zwischen Iran und den USA gezeigt. Die Huthi im Jemen drohen mit neuen Angriffen auf Handelsschiffe und einer Schließung der Meerenge Bab al-Mandab.",
-        "paragraphs": [
-          "Der türkische Außenminister hat sich \"optimistisch\" über den Fortbestand der Waffenruhe zwischen Iran und den USA gezeigt. Die Huthi im Jemen drohen mit neuen Angriffen auf Handelsschiffe und einer Schließung der Meerenge Bab al-Mandab."
-        ],
-        "link": "https://www.tagesschau.de/newsticker/liveblog-iran-sonntag-110.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-19T17:33:10.000Z"
-      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Fratzscher-fordert-radikale-Vereinfachung-der-Entlastungspraemie-id30731483.html",
         "title": "Energiehilfe auf dem Prüfstand: Fratzscher fordert radikale Vereinfachung der Entlastungsprämie",
@@ -241,6 +229,18 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-18T09:23:22.000Z"
+      },
+      {
+        "id": "https://www.n-tv.de/wirtschaft/Bahn-Chefin-Palla-haelt-9-Euro-Ticket-fuer-nicht-finanzierbar-id30728717.html",
+        "title": "Rückkehr nicht sinnvoll: Bahn-Chefin Palla hält 9-Euro-Ticket für nicht finanzierbar",
+        "summary": "Während Pendler unter steigenden Preisen ächzen und neue Entlastungen gefordert werden, schließt Bahn-Chefin Palla eine Rückkehr zum 9-Euro-Ticket kategorisch aus. Sie verweist auf Milliardenlücken und gewaltige Investitionspläne.",
+        "paragraphs": [
+          "Während Pendler unter steigenden Preisen ächzen und neue Entlastungen gefordert werden, schließt Bahn-Chefin Palla eine Rückkehr zum 9-Euro-Ticket kategorisch aus. Sie verweist auf Milliardenlücken und gewaltige Investitionspläne."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Bahn-Chefin-Palla-haelt-9-Euro-Ticket-fuer-nicht-finanzierbar-id30728717.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-04-18T08:12:49.000Z"
       }
     ],
     "politik": [
@@ -478,7 +478,7 @@
     "sport": [
       {
         "id": "https://www.kicker.de/wiesbaden-gegen-mannheim-2026-liga-5057665/spielbericht#omrss",
-        "title": "LIVE! Blitzstart: Wiesbaden geht früh in Führung",
+        "title": "LIVE! 2:0 Gillekens erhöht per Hacke",
         "summary": "Der SV Waldhof Mannheim konnte zuletzt drei Drittliga-Spiele in Folge nicht gewinnen, der SV Wehen Wiesbaden wartet gar seit fünf Spielen auf einen Erfolg. Im direkten Duell hoffen nun beide Teams auf ein Ende der Serie.",
         "paragraphs": [
           "Der SV Waldhof Mannheim konnte zuletzt drei Drittliga-Spiele in Folge nicht gewinnen, der SV Wehen Wiesbaden wartet gar seit fünf Spielen auf einen Erfolg. Im direkten Duell hoffen nun beide Teams auf ein Ende der Serie."
@@ -489,16 +489,88 @@
         "publishedAt": "2026-04-19T18:24:00.000Z"
       },
       {
+        "id": "https://www.kicker.de/finale-der-extraklasse-nassim-dahman-ist-deutscher-meister-1211738/artikel#omrss",
+        "title": "Finale der Extraklasse: Nassim Dahman ist deutscher Meister",
+        "summary": "Er galt schon länger als bester Spieler der Virtual Bundesliga - nun hat er den passenden Titel dazu: Freiburgs Nassim Dahman schlug den Leipziger Alihan Hadzhi im Finale der deutschen Einzelmeisterschaft.",
+        "paragraphs": [
+          "Er galt schon länger als bester Spieler der Virtual Bundesliga - nun hat er den passenden Titel dazu: Freiburgs Nassim Dahman schlug den Leipziger Alihan Hadzhi im Finale der deutschen Einzelmeisterschaft."
+        ],
+        "link": "https://www.kicker.de/finale-der-extraklasse-nassim-dahman-ist-deutscher-meister-1211738/artikel#omrss",
+        "category": "Virtual Bundesliga ",
+        "source": "Kicker",
+        "publishedAt": "2026-04-19T18:09:17.000Z"
+      },
+      {
+        "id": "c23778a4-05fd-4401-aa90-545b8e268461",
+        "title": "Premier League: Manchester City besiegt den FC Arsenal im Spitzenspiel",
+        "summary": "Zweiter gegen Erster: Das Topspiel in der Premier League zwischen Manchester City und dem FC Arsenal endete mit dem Sieg des Herausforderers. Die Endphase der Saison verspricht dramatisch zu werden.",
+        "paragraphs": [
+          "Zweiter gegen Erster: Das Topspiel in der Premier League zwischen Manchester City und dem FC Arsenal endete mit dem Sieg des Herausforderers. Die Endphase der Saison verspricht dramatisch zu werden."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/premier-league-manchester-city-besiegt-den-fc-arsenal-im-spitzenspiel-a-c23778a4-05fd-4401-aa90-545b8e268461#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-19T18:09:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mit-jubilaeum-und-neuer-frisur-wimmer-macht-s-wieder-gegen-union-1211807/artikel#omrss",
+        "title": "Mit \"Jubiläum\" und neuer Frisur: Wimmer macht's wieder gegen Union",
+        "summary": "Das vierte Saisontor war für Patrick Wimmer in mehrerlei Hinsicht ein besonderes. Der Sieg in Berlin steigert im Abstiegskampf der Bundesliga das Selbstvertrauen beim 24-Jährigen und den zuletzt so gebeutelten Niedersachsen.",
+        "paragraphs": [
+          "Das vierte Saisontor war für Patrick Wimmer in mehrerlei Hinsicht ein besonderes. Der Sieg in Berlin steigert im Abstiegskampf der Bundesliga das Selbstvertrauen beim 24-Jährigen und den zuletzt so gebeutelten Niedersachsen."
+        ],
+        "link": "https://www.kicker.de/mit-jubilaeum-und-neuer-frisur-wimmer-macht-s-wieder-gegen-union-1211807/artikel#omrss",
+        "category": "Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-19T18:03:26.000Z"
+      },
+      {
+        "id": "{urn:uuid:33ef447c-2a5a-404a-99cb-e805172fb31c}",
+        "title": "FC Bayern: Es ist keine Kunst, mit den Bayern Meister zu werden. So aber schon",
+        "summary": "Oft genügt dem FC Bayern eine Durchschnittsleistung, um Meister zu werden. Diesmal gab es mehr, viel mehr. Gratulation an ein Pferd, das höher springt, als es musste.",
+        "paragraphs": [
+          "Oft genügt dem FC Bayern eine Durchschnittsleistung, um Meister zu werden. Diesmal gab es mehr, viel mehr. Gratulation an ein Pferd, das höher springt, als es musste."
+        ],
+        "link": "https://www.zeit.de/sport/2026-04/fc-bayern-meisterschaft-vincent-kompany",
+        "category": "Sport",
+        "source": "ZEIT",
+        "publishedAt": "2026-04-19T18:00:13.000Z"
+      },
+      {
+        "id": "li.3470427",
+        "title": "FC Bayern München: Der gnadenlose deutsche Meister",
+        "summary": "15 Punkte und 50 Tore Vorsprung: Der FC Bayern schlägt Stuttgart mit 4:2 und ist vier Spieltage vor Schluss endgültig nicht mehr einzuholen. Gefeiert? Wird kaum. Es gibt ja noch mehr zu gewinnen.",
+        "paragraphs": [
+          "15 Punkte und 50 Tore Vorsprung: Der FC Bayern schlägt Stuttgart mit 4:2 und ist vier Spieltage vor Schluss endgültig nicht mehr einzuholen. Gefeiert? Wird kaum. Es gibt ja noch mehr zu gewinnen."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/fc-bayern-meisterschaft-bundesliga-stuttgart-li.3470427",
+        "category": "Fußball",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-19T17:50:21.000Z"
+      },
+      {
         "id": "https://www.kicker.de/mancity-gegen-arsenal-2026-premier-league-5045330/spielbericht#omrss",
         "title": "Titelkampf spitzt sich zu: ManCity schlägt Arsenal",
-        "summary": "Der englische Titelkampf ist wieder spannend, weil Manchester City im Topspiel gegen Arsenal mit 2:1 gewonnen hat. Den entscheidenden Treffer erzielte Erling Haaland.",
+        "summary": "Der englische Titelkampf ist wieder spannend, weil Manchester City im Topspiel gegen Arsenal mit 2:1 gewonnen hat. Den entscheidenden Treffer erzielte Erling Haaland. Kai Havertz war ebenfalls einmal erfolgreich, vergab aber auch die späte Ausgleichschance.",
         "paragraphs": [
-          "Der englische Titelkampf ist wieder spannend, weil Manchester City im Topspiel gegen Arsenal mit 2:1 gewonnen hat. Den entscheidenden Treffer erzielte Erling Haaland."
+          "Der englische Titelkampf ist wieder spannend, weil Manchester City im Topspiel gegen Arsenal mit 2:1 gewonnen hat. Den entscheidenden Treffer erzielte Erling Haaland. Kai Havertz war ebenfalls einmal erfolgreich, vergab aber auch die späte Ausgleichschance."
         ],
         "link": "https://www.kicker.de/mancity-gegen-arsenal-2026-premier-league-5045330/spielbericht#omrss",
-        "category": "FC Arsenal",
+        "category": "Cherki",
         "source": "Kicker",
-        "publishedAt": "2026-04-19T17:27:56.000Z"
+        "publishedAt": "2026-04-19T17:38:19.000Z"
+      },
+      {
+        "id": "{urn:uuid:85159b8a-1429-4672-8c61-0e3b25797c90}",
+        "title": "Bundesliga, 30. Spieltag: FC Bayern München gewinnt vorzeitig 35. Meistertitel",
+        "summary": "Der FCB tat sich gegen den VfB zunächst schwer und geriet in Rückstand. Dann drehten die Bayern das Spiel und sicherten sich den 35. Meistertitel. Der Spielbericht",
+        "paragraphs": [
+          "Der FCB tat sich gegen den VfB zunächst schwer und geriet in Rückstand. Dann drehten die Bayern das Spiel und sicherten sich den 35. Meistertitel. Der Spielbericht"
+        ],
+        "link": "https://www.zeit.de/sport/2026-04/fc-bayern-muenchen-ist-vorzeitig-deutscher-fussballmeister",
+        "category": "Sport",
+        "source": "ZEIT",
+        "publishedAt": "2026-04-19T17:37:31.000Z"
       },
       {
         "id": "https://www.kicker.de/tor-rekord-und-grosse-dominanz-bayern-ist-zum-35-mal-deutscher-meister-1211003/artikel#omrss",
@@ -511,16 +583,6 @@
         "category": "Bayern München",
         "source": "Kicker",
         "publishedAt": "2026-04-19T17:24:49.000Z"
-      },
-      {
-        "id": "{urn:uuid:85159b8a-1429-4672-8c61-0e3b25797c90}",
-        "title": "FC Bayern München ist vorzeitig Deutscher Fußballmeister",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.zeit.de/sport/2026-04/fc-bayern-muenchen-ist-vorzeitig-deutscher-fussballmeister",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-04-19T17:24:37.000Z"
       },
       {
         "id": "d413f64c-dec9-4cb2-9b11-4c0a084cea8c",
@@ -583,13 +645,13 @@
         "publishedAt": "2026-04-19T16:46:48.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-bolins-starke-vorarbeit-scally-trifft-platziert-zur-gladbacher-fuehrung-1211097/artikel#omrss",
-        "title": "LIVE! Bolins starke Vorarbeit: Scally trifft platziert zur Gladbacher Führung",
+        "id": "https://www.kicker.de/live-castrop-schiesst-elvedi-an-becker-schuss-geht-knapp-ueber-das-tor-1211097/artikel#omrss",
+        "title": "LIVE! Castrop schießt Elvedi an - Becker-Schuss geht knapp über das Tor",
         "summary": "Der 1. FSV Mainz 05 war am Donnerstagabend noch in Straßburg in der Conference League gefordert und muss nun den Frust über das Aus im Viertelfinale verarbeiten - in Mönchengladbach. Die zuletzt dreimal sieglosen Fohlen müssen punkten, um nicht noch weiter in den Abstiegssog zu geraten.",
         "paragraphs": [
           "Der 1. FSV Mainz 05 war am Donnerstagabend noch in Straßburg in der Conference League gefordert und muss nun den Frust über das Aus im Viertelfinale verarbeiten - in Mönchengladbach. Die zuletzt dreimal sieglosen Fohlen müssen punkten, um nicht noch weiter in den Abstiegssog zu geraten."
         ],
-        "link": "https://www.kicker.de/live-bolins-starke-vorarbeit-scally-trifft-platziert-zur-gladbacher-fuehrung-1211097/artikel#omrss",
+        "link": "https://www.kicker.de/live-castrop-schiesst-elvedi-an-becker-schuss-geht-knapp-ueber-das-tor-1211097/artikel#omrss",
         "category": null,
         "source": "Kicker",
         "publishedAt": "2026-04-19T16:37:37.000Z"
@@ -653,66 +715,6 @@
         "category": "Bergischer HC",
         "source": "Kicker",
         "publishedAt": "2026-04-19T16:00:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/das-restprogramm-der-18-bundesligisten-947215/artikel#omrss",
-        "title": "Das Restprogramm der 18 Bundesligisten",
-        "summary": "Die Bundesliga geht in die finalen Wochen der Saison 2025/26. Der kicker zeigt das Restprogramm der 18 Bundesligisten.",
-        "paragraphs": [
-          "Die Bundesliga geht in die finalen Wochen der Saison 2025/26. Der kicker zeigt das Restprogramm der 18 Bundesligisten."
-        ],
-        "link": "https://www.kicker.de/das-restprogramm-der-18-bundesligisten-947215/artikel#omrss",
-        "category": "1. FC Heidenheim",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T15:54:01.000Z"
-      },
-      {
-        "id": "li.3470563",
-        "title": "Handball: Füchse Berlin gewinnen DHB-Pokal",
-        "summary": "Die Berliner schlagen den Überraschungsfinalisten Bergischer HC, der den Champions-League-Sieger Magdeburg im Halbfinale ausgeschaltet hatte – und feiern den zweiten Pokalsieg ihrer Vereinshistorie.",
-        "paragraphs": [
-          "Die Berliner schlagen den Überraschungsfinalisten Bergischer HC, der den Champions-League-Sieger Magdeburg im Halbfinale ausgeschaltet hatte – und feiern den zweiten Pokalsieg ihrer Vereinshistorie."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/handball-fuechse-berlin-dhb-pokal-bergischer-hc-li.3470563",
-        "category": "Handball",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-19T15:53:46.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wuppertal-gegen-gladbach-ii-2026-regionalliga-west-5062594/spielbericht#omrss",
-        "title": "0:3 gegen Gladbach II: Wuppertal taumelt in Richtung Oberliga",
-        "summary": "Weitgehend chancenlos unterlag der Wuppertaler SV am Sonntag der U 23 von Borussia Mönchengladbach.",
-        "paragraphs": [
-          "Weitgehend chancenlos unterlag der Wuppertaler SV am Sonntag der U 23 von Borussia Mönchengladbach."
-        ],
-        "link": "https://www.kicker.de/wuppertal-gegen-gladbach-ii-2026-regionalliga-west-5062594/spielbericht#omrss",
-        "category": "Bor. Mönchengladbach II",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T15:53:45.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/worldtour-rennkalender-2026-von-australien-bis-china-1154022/artikel#omrss",
-        "title": "WorldTour-Rennkalender 2026: Von Australien bis China",
-        "summary": "Die UCI hat den Rennkalender für die Saison 2026 vorgestellt. Große Änderungen gibt es auf WorldTour-Ebene nicht. Auch die Termine der Rennen in Deutschland bleiben bestehen.",
-        "paragraphs": [
-          "Die UCI hat den Rennkalender für die Saison 2026 vorgestellt. Große Änderungen gibt es auf WorldTour-Ebene nicht. Auch die Termine der Rennen in Deutschland bleiben bestehen."
-        ],
-        "link": "https://www.kicker.de/worldtour-rennkalender-2026-von-australien-bis-china-1154022/artikel#omrss",
-        "category": "Radsport",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T15:53:09.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bereit-fuer-pogacar-duell-evenepoel-gewinnt-amstel-gold-race-1211794/artikel#omrss",
-        "title": "Bereit für Pogacar-Duell: Evenepoel gewinnt Amstel Gold Race",
-        "summary": "Remco Evenepoel siegt nach spannendem Sprint beim Amstel Gold Race und zeigt sich für das kommende Duell mit Tadej Pogacar in Lüttich in Topform.",
-        "paragraphs": [
-          "Remco Evenepoel siegt nach spannendem Sprint beim Amstel Gold Race und zeigt sich für das kommende Duell mit Tadej Pogacar in Lüttich in Topform."
-        ],
-        "link": "https://www.kicker.de/bereit-fuer-pogacar-duell-evenepoel-gewinnt-amstel-gold-race-1211794/artikel#omrss",
-        "category": "Radsport",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T15:49:56.000Z"
       }
     ],
     "edv": [
@@ -729,16 +731,16 @@
         "publishedAt": "2026-04-18T15:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Anthropic und US-Regierung wieder im Gespräch über Zusammenarbeit",
-        "summary": "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten.",
+        "id": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Top 7: Die beste Heißluftfritteuse im Test – Cosori Airfryer vor Ninja & Co.",
+        "summary": "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App.",
         "paragraphs": [
-          "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten."
+          "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App."
         ],
-        "link": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T15:59:00.000Z"
+        "publishedAt": "2026-04-19T18:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Kann-jeder-3D-Druck-c-t-3003-11261187.html",
@@ -753,16 +755,16 @@
         "publishedAt": "2026-04-17T14:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "NRW-Datenschutzbeauftragte warnt vor Datennutzung um jeden Preis",
-        "summary": "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht.",
+        "id": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Anthropic und US-Regierung wieder im Gespräch über Zusammenarbeit",
+        "summary": "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten.",
         "paragraphs": [
-          "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht."
+          "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten."
         ],
-        "link": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T15:47:00.000Z"
+        "publishedAt": "2026-04-19T15:59:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Terahertz-Scanner-untersucht-aktive-Halbleiter-kontaktlos-11262760.html",
@@ -777,16 +779,16 @@
         "publishedAt": "2026-04-17T13:28:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Microsoft Teams: Einfügen per Rechtsklick funktioniert nicht mehr",
-        "summary": "Ein fehlerhaftes Edge-Update hat die Paste-Funktion im Kontextmenü von Microsoft Teams außer Gefecht gesetzt. Tastaturkürzel funktionieren weiterhin.",
+        "id": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "NRW-Datenschutzbeauftragte warnt vor Datennutzung um jeden Preis",
+        "summary": "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht.",
         "paragraphs": [
-          "Ein fehlerhaftes Edge-Update hat die Paste-Funktion im Kontextmenü von Microsoft Teams außer Gefecht gesetzt. Tastaturkürzel funktionieren weiterhin."
+          "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht."
         ],
-        "link": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T14:24:00.000Z"
+        "publishedAt": "2026-04-19T15:47:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Core-300-Intel-stellt-Billigprozessor-Wildcat-Lake-vor-11262501.html",
@@ -801,16 +803,16 @@
         "publishedAt": "2026-04-17T12:04:00.000Z"
       },
       {
-        "id": "https://www.heise.de/bestenlisten/testbericht/jonr-x9-pro-im-test-saugroboter-erkennt-teppiche-gut-und-hebt-die-wischwalze-an/7wp5l4z?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Jonr X9 Pro im Test: Saugroboter erkennt Teppiche gut und hebt die Wischwalze an",
-        "summary": "Ausfahrbare und anhebbare Wischrolle, Station mit Absaugung, heißem Wasser und warmer Luft, außerdem tolle Navigation und Xiaomi-App – was kann der X9 Pro?",
+        "id": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Microsoft Teams: Einfügen per Rechtsklick funktioniert nicht mehr",
+        "summary": "Ein fehlerhaftes Edge-Update hat die Paste-Funktion im Kontextmenü von Microsoft Teams außer Gefecht gesetzt. Tastaturkürzel funktionieren weiterhin.",
         "paragraphs": [
-          "Ausfahrbare und anhebbare Wischrolle, Station mit Absaugung, heißem Wasser und warmer Luft, außerdem tolle Navigation und Xiaomi-App – was kann der X9 Pro?"
+          "Ein fehlerhaftes Edge-Update hat die Paste-Funktion im Kontextmenü von Microsoft Teams außer Gefecht gesetzt. Tastaturkürzel funktionieren weiterhin."
         ],
-        "link": "https://www.heise.de/bestenlisten/testbericht/jonr-x9-pro-im-test-saugroboter-erkennt-teppiche-gut-und-hebt-die-wischwalze-an/7wp5l4z?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T14:00:00.000Z"
+        "publishedAt": "2026-04-19T14:24:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Android-17-Beta-4-Letzte-Testversion-vor-dem-finalen-Release-11261781.html",
@@ -825,16 +827,16 @@
         "publishedAt": "2026-04-17T07:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Deutsche-Gesellschaft-fuer-Innere-Medizin-Menschen-behandeln-nicht-Daten-11263327.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "BMI „ganz grobes Maß“: Algorithmen sagen besser voraus, wer sehr krank wird",
-        "summary": "Fachkräftemangel und Co. gefährden laut Internistenkongress die Versorgungsqualität. KI soll es richten, doch der Mensch muss stets im Mittelpunkt stehen.",
+        "id": "https://www.heise.de/bestenlisten/testbericht/jonr-x9-pro-im-test-saugroboter-erkennt-teppiche-gut-und-hebt-die-wischwalze-an/7wp5l4z?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Jonr X9 Pro im Test: Saugroboter erkennt Teppiche gut und hebt die Wischwalze an",
+        "summary": "Ausfahrbare und anhebbare Wischrolle, Station mit Absaugung, heißem Wasser und warmer Luft, außerdem tolle Navigation und Xiaomi-App – was kann der X9 Pro?",
         "paragraphs": [
-          "Fachkräftemangel und Co. gefährden laut Internistenkongress die Versorgungsqualität. KI soll es richten, doch der Mensch muss stets im Mittelpunkt stehen."
+          "Ausfahrbare und anhebbare Wischrolle, Station mit Absaugung, heißem Wasser und warmer Luft, außerdem tolle Navigation und Xiaomi-App – was kann der X9 Pro?"
         ],
-        "link": "https://www.heise.de/news/Deutsche-Gesellschaft-fuer-Innere-Medizin-Menschen-behandeln-nicht-Daten-11263327.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testbericht/jonr-x9-pro-im-test-saugroboter-erkennt-teppiche-gut-und-hebt-die-wischwalze-an/7wp5l4z?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T12:19:00.000Z"
+        "publishedAt": "2026-04-19T14:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-157-Datenschutz-vor-Gericht-11260020.html",
@@ -849,16 +851,16 @@
         "publishedAt": "2026-04-17T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Halbmarathon-in-Peking-Humanoide-Roboter-schneller-als-Menschen-11263385.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Halbmarathon in Peking: Humanoide Roboter schneller als Menschen",
-        "summary": "Zum zweiten Mal messen sich in Peking zahlreiche Roboter bei einem Halbmarathon. Die Unterschiede zum ersten Rennen sind deutlich. Der Stand der Technik.",
+        "id": "https://www.heise.de/news/Deutsche-Gesellschaft-fuer-Innere-Medizin-Menschen-behandeln-nicht-Daten-11263327.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "BMI „ganz grobes Maß“: Algorithmen sagen besser voraus, wer sehr krank wird",
+        "summary": "Fachkräftemangel und Co. gefährden laut Internistenkongress die Versorgungsqualität. KI soll es richten, doch der Mensch muss stets im Mittelpunkt stehen.",
         "paragraphs": [
-          "Zum zweiten Mal messen sich in Peking zahlreiche Roboter bei einem Halbmarathon. Die Unterschiede zum ersten Rennen sind deutlich. Der Stand der Technik."
+          "Fachkräftemangel und Co. gefährden laut Internistenkongress die Versorgungsqualität. KI soll es richten, doch der Mensch muss stets im Mittelpunkt stehen."
         ],
-        "link": "https://www.heise.de/news/Halbmarathon-in-Peking-Humanoide-Roboter-schneller-als-Menschen-11263385.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Deutsche-Gesellschaft-fuer-Innere-Medizin-Menschen-behandeln-nicht-Daten-11263327.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T12:08:00.000Z"
+        "publishedAt": "2026-04-19T12:19:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Googles-Maerz-Update-auf-Android-16-QPR3-Pixel-Nutzer-melden-zahlreiche-Bugs-11260042.html",
@@ -871,6 +873,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-16T09:16:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Halbmarathon-in-Peking-Humanoide-Roboter-schneller-als-Menschen-11263385.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Halbmarathon in Peking: Humanoide Roboter schneller als Menschen",
+        "summary": "Zum zweiten Mal messen sich in Peking zahlreiche Roboter bei einem Halbmarathon. Die Unterschiede zum ersten Rennen sind deutlich. Der Stand der Technik.",
+        "paragraphs": [
+          "Zum zweiten Mal messen sich in Peking zahlreiche Roboter bei einem Halbmarathon. Die Unterschiede zum ersten Rennen sind deutlich. Der Stand der Technik."
+        ],
+        "link": "https://www.heise.de/news/Halbmarathon-in-Peking-Humanoide-Roboter-schneller-als-Menschen-11263385.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-19T12:08:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Blue-Origin-Start-am-Sonntag-geplant-Konkurrenz-fuer-SpaceX-Starlink-und-Leo-11262926.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -943,21 +957,21 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-19T06:02:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-maehroboter-ohne-begrenzungskabel-im-test-der-beste-navigiert-mit-lidar/gb7xhbg?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 10: Mähroboter ohne Begrenzungskabel im Test",
-        "summary": "Mähroboter ohne Begrenzungskabel versprechen eine leichte Inbetriebnahme. Mit LiDAR-Navigation gelingt das noch einfacher.",
-        "paragraphs": [
-          "Mähroboter ohne Begrenzungskabel versprechen eine leichte Inbetriebnahme. Mit LiDAR-Navigation gelingt das noch einfacher."
-        ],
-        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-maehroboter-ohne-begrenzungskabel-im-test-der-beste-navigiert-mit-lidar/gb7xhbg?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-18T18:00:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-deutsche-marine-bereitet-einsatz-in-strasse-von-hormus-vor/100218202.html",
+        "title": "Iran-Krieg: Deutsche Marine bereitet Einsatz in Straße von Hormus vor",
+        "summary": "Noch ist ein dauerhafter Waffenstillstand am Golf nicht absehbar. Doch Deutschlands Marine bereitet sich bereits auf den Tag X vor. Es geht um das Räumen von Minen in der Straße von Hormus.",
+        "paragraphs": [
+          "Noch ist ein dauerhafter Waffenstillstand am Golf nicht absehbar. Doch Deutschlands Marine bereitet sich bereits auf den Tag X vor. Es geht um das Räumen von Minen in der Straße von Hormus."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-deutsche-marine-bereitet-einsatz-in-strasse-von-hormus-vor/100218202.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-19T18:07:57.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/neuwahl-in-bulgarien-russlandfreundlicher-ex-praesident-liegt-laut-wahlprognosen-vorn/100218180.html",
         "title": "Neuwahl in Bulgarien: Russlandfreundlicher Ex-Präsident liegt laut Wahlprognosen vorn",
@@ -1185,18 +1199,6 @@
         "category": "Deutschland",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-19T12:09:56.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/gastronomie-in-italien-gibt-es-eine-ernsthaftigkeit-gegenueber-gutem-essen/100213008.html",
-        "title": "Gastronomie: „In Italien gibt es oft eine Ernsthaftigkeit gegenüber gutem Essen, die man in Deutschland selten findet“",
-        "summary": "Splendido ist ein Blog, der zum Unternehmen wurde. Hier sprechen die Gründer über die Faszination italienischer Küche, die Logik hinter ihrem Erfolg – und Italiens ungeschriebene Gesetze.",
-        "paragraphs": [
-          "Splendido ist ein Blog, der zum Unternehmen wurde. Hier sprechen die Gründer über die Faszination italienischer Küche, die Logik hinter ihrem Erfolg – und Italiens ungeschriebene Gesetze."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/gastronomie-in-italien-gibt-es-eine-ernsthaftigkeit-gegenueber-gutem-essen/100213008.html",
-        "category": "Handel + Konsumgüter",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T12:00:00.000Z"
       }
     ]
   }
