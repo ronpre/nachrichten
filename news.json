@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T22:32:15.111Z",
+  "updatedAt": "2026-04-19T22:55:04.633Z",
   "categories": {
     "wirtschaft": [
       {
@@ -481,6 +481,30 @@
     ],
     "sport": [
       {
+        "id": "{urn:uuid:67d9d859-aed9-4c42-92d9-4936411725f0}",
+        "title": "Köln-Rhein/Ruhr: Klare Mehrheit in NRW für Bewerbung um Olympische Spiele",
+        "summary": "In Nordrhein-Westfalen ergaben Bürgerentscheide ein klares Votum für eine Bewerbung um die Olympischen Spiele. Auch in Kiel gab es eine deutliche Mehrheit.",
+        "paragraphs": [
+          "In Nordrhein-Westfalen ergaben Bürgerentscheide ein klares Votum für eine Bewerbung um die Olympischen Spiele. Auch in Kiel gab es eine deutliche Mehrheit."
+        ],
+        "link": "https://www.zeit.de/sport/2026-04/olympische-spiele-bewerbung-nrw",
+        "category": "Sport",
+        "source": "ZEIT",
+        "publishedAt": "2026-04-19T22:31:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/oklahoma-gegen-phoenix-2026-nba-playoffs-5198897/spielbericht#omrss",
+        "title": "Machtdemonstration zum Auftakt: OKC überrollt die Suns",
+        "summary": "Die Oklahoma City Thunder starten mit einem klaren Statement in die Playoffs. Gegen die Phoenix Suns zeigte der Titelverteidiger von Beginn an seine Klasse und entschied die Partie früh und gewann am Ende klar mit 119:84.",
+        "paragraphs": [
+          "Die Oklahoma City Thunder starten mit einem klaren Statement in die Playoffs. Gegen die Phoenix Suns zeigte der Titelverteidiger von Beginn an seine Klasse und entschied die Partie früh und gewann am Ende klar mit 119:84."
+        ],
+        "link": "https://www.kicker.de/oklahoma-gegen-phoenix-2026-nba-playoffs-5198897/spielbericht#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-19T22:09:02.000Z"
+      },
+      {
         "id": "{urn:uuid:204e0a57-b13b-4016-a443-2180cc45f1c3}",
         "title": "Pressestimmen zur Meisterschaft des FC Bayern: »Die Bayern sind nicht zu stoppen«",
         "summary": "Auch die internationale Presse zeigt sich beeindruckt von der frühen Meisterschaft des FC Bayern München. Der Verein lege den »Grundstein für das Triple«. Die Presseschau",
@@ -662,7 +686,7 @@
       },
       {
         "id": "https://www.kicker.de/boston-gegen-philadelphia-2026-nba-playoffs-5198885/spielbericht#omrss",
-        "title": "Klare Verhältnisse: Boston fegt die Sixers zum Auftakt vom Parkett",
+        "title": "Klare Verhältnisse: Boston fegt die Sixers vom Parkett",
         "summary": "Die Boston Celtics setzten zum Start der Serie ein klares Zeichen. Gegen ersatzgeschwächte Sixers ohne Joel Embiid dominierte der Favorit von Beginn an und ließ beim 123:91-Sieg keinerlei Zweifel aufkommen.",
         "paragraphs": [
           "Die Boston Celtics setzten zum Start der Serie ein klares Zeichen. Gegen ersatzgeschwächte Sixers ohne Joel Embiid dominierte der Favorit von Beginn an und ließ beim 123:91-Sieg keinerlei Zweifel aufkommen."
@@ -695,30 +719,6 @@
         "category": "Bayern München",
         "source": "Kicker",
         "publishedAt": "2026-04-19T19:28:19.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kompany-dem-titel-den-respekt-geben-den-er-verdient-1211881/video#omrss",
-        "title": "Kompany: \"Dem Titel den Respekt geben, den er verdient\"",
-        "summary": "Vincent Kompany zollte seiner Mannschaft nach der gewonnen Meisterschaft Respekt. Auch verwies er darauf, wie wichtig dieser Titel trotz all der großen Trophäensammlung der Münchner sei.",
-        "paragraphs": [
-          "Vincent Kompany zollte seiner Mannschaft nach der gewonnen Meisterschaft Respekt. Auch verwies er darauf, wie wichtig dieser Titel trotz all der großen Trophäensammlung der Münchner sei."
-        ],
-        "link": "https://www.kicker.de/kompany-dem-titel-den-respekt-geben-den-er-verdient-1211881/video#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T19:28:18.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/tolcay-cigerci-wird-zum-cottbuser-helden-und-gehoert-nicht-in-diese-liga-1211845/artikel#omrss",
-        "title": "Tolcay Cigerci wird zum Cottbuser Helden und \"gehört nicht in diese Liga\"",
-        "summary": "Getragen von Tolcay Cigerci machte Energie Cottbus gegen Aufstiegskonkurrent Rot-Weiss Essen ein 1:3 wett, gewann das Acht-Tore-Spektakel und sorgte so dafür, dass es in der 3. Liga an der Tabellenspitze enorm eng bleibt.",
-        "paragraphs": [
-          "Getragen von Tolcay Cigerci machte Energie Cottbus gegen Aufstiegskonkurrent Rot-Weiss Essen ein 1:3 wett, gewann das Acht-Tore-Spektakel und sorgte so dafür, dass es in der 3. Liga an der Tabellenspitze enorm eng bleibt."
-        ],
-        "link": "https://www.kicker.de/tolcay-cigerci-wird-zum-cottbuser-helden-und-gehoert-nicht-in-diese-liga-1211845/artikel#omrss",
-        "category": "3. Liga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T19:26:29.000Z"
       }
     ],
     "edv": [
@@ -965,6 +965,18 @@
     ],
     "börse": [
       {
+        "id": "https://www.handelsblatt.com/politik/deutschland/krankenversicherungen-noch-aenderungen-an-gesundheitsreform-moeglich/100218222.html",
+        "title": "Krankenversicherungen: Noch Änderungen an Gesundheitsreform möglich",
+        "summary": "Gesundheitsministerin Warken drückt beim Gesundheits-Sparpaket aufs Tempo. Ihr Entwurf scheint aber noch nicht in Stein gemeißelt.",
+        "paragraphs": [
+          "Gesundheitsministerin Warken drückt beim Gesundheits-Sparpaket aufs Tempo. Ihr Entwurf scheint aber noch nicht in Stein gemeißelt."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/krankenversicherungen-noch-aenderungen-an-gesundheitsreform-moeglich/100218222.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-19T22:30:04.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/experten-einschaetzung-future-skills-was-morgen-im-job-gefragt-ist/100218226.html",
         "title": "Experten-Einschätzung: Future Skills: Was morgen im Job gefragt ist",
         "summary": "Pünktlichkeit und Zuverlässigkeit, Loyalität und Fachwissen: Solche Eigenschaften galten früher im Job als unabdingbar. Und heute? Was verbirgt sich hinter den „Future Skills“ - und wer braucht sie?",
@@ -1023,18 +1035,6 @@
         "category": "Deutschland",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-19T21:30:06.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/krankenversicherungen-noch-aenderungen-an-gesundheitsreform-moeglich/100218222.html",
-        "title": "Krankenversicherungen: Noch Änderungen an Gesundheitsreform möglich",
-        "summary": "Gesundheitsministerin Warken drückt beim Gesundheits-Sparpaket aufs Tempo. Ihr Entwurf scheint aber noch nicht in Stein gemeißelt.",
-        "paragraphs": [
-          "Gesundheitsministerin Warken drückt beim Gesundheits-Sparpaket aufs Tempo. Ihr Entwurf scheint aber noch nicht in Stein gemeißelt."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/krankenversicherungen-noch-aenderungen-an-gesundheitsreform-moeglich/100218222.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T21:24:41.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-laut-vizeaussenminister-nicht-zu-neuen-verhandlungen-bereit/100136895.html",
