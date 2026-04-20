@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-20T12:40:46.488Z",
+  "updatedAt": "2026-04-20T13:18:01.394Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "acfa7595-84a1-44f1-8531-852d248e324c",
+        "title": "UniCredit kritisiert Geschäftsmodell der Commerzbank",
+        "summary": "Die italienische Großbank UniCredit erhöht im Übernahmekampf den Druck und spricht der Commerzbank die Zukunftsfähigkeit ab. Im Falle einer Übernahme stellen die Italiener eine deutliche Gewinnsteigerung in Aussicht.",
+        "paragraphs": [
+          "Die italienische Großbank UniCredit erhöht im Übernahmekampf den Druck und spricht der Commerzbank die Zukunftsfähigkeit ab. Im Falle einer Übernahme stellen die Italiener eine deutliche Gewinnsteigerung in Aussicht."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/unicredit-commerzbank-gewinnsteigerung-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-20T12:55:15.000Z"
+      },
       {
         "id": "eaebb67e-0e1b-4f36-8b5f-efc3bde70d10",
         "title": "Iran lässt Teilnahme an neuen Verhandlungen offen",
@@ -21,7 +33,7 @@
         "paragraphs": [
           "Wegen des Iran-Kriegs rechnet der Industrieverband BDI in diesem Jahr nicht mehr mit Wachstum, sondern bestenfalls mit stagnierenden Ergebnissen. Probleme gibt es schon länger."
         ],
-        "link": "https://www.tagesschau.de/wirtschaft/marktbericht-126.html",
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/bdi-wachstumsprognose-100.html",
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-20T12:22:53.000Z"
@@ -229,27 +241,49 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-19T09:40:14.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/Handwerk-laeuft-Sturm-gegen-Entlastungspraemie-id30730617.html",
-        "title": "Kritik von Unternehmen: Handwerk läuft Sturm gegen Entlastungsprämie",
-        "summary": "Die geplante Entlastungsprämie ruft die Arbeitgeber auf den Plan: Handwerk und Mittelstand sprechen von sozialer Ungerechtigkeit und zusätzlicher Belastung. Viele Betriebe wollen oder können die 1000-Euro-Zahlung nicht leisten.",
-        "paragraphs": [
-          "Die geplante Entlastungsprämie ruft die Arbeitgeber auf den Plan: Handwerk und Mittelstand sprechen von sozialer Ungerechtigkeit und zusätzlicher Belastung. Viele Betriebe wollen oder können die 1000-Euro-Zahlung nicht leisten."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/Handwerk-laeuft-Sturm-gegen-Entlastungspraemie-id30730617.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-04-19T09:34:06.000Z"
       }
     ],
     "politik": [
       {
-        "id": "li.3470769",
-        "title": "AfD Sachsen-Anhalt: Museen und Kirchen wehren sich gegen „patriotische Kulturpolitik“",
-        "summary": "Die AfD plant für den Fall eines Wahlsieges in Sachsen-Anhalt einen radikalen Umbau von Kultur und Gesellschaft. Gegen staatlich gelenkte Kunst und die Beschimpfung von Kirchen regt sich nun deutlicher Widerstand.",
+        "id": "li.3470789",
+        "title": "Angeblicher Terrorverdacht: Russischer Geheimdienst meldet Festnahme einer Deutschen",
+        "summary": "Die Frau soll nach FSB-Angaben versucht haben, im Auftrag ukrainischer Geheimdienste im Nordkaukasus einen Terroranschlag auszuführen.",
         "paragraphs": [
-          "Die AfD plant für den Fall eines Wahlsieges in Sachsen-Anhalt einen radikalen Umbau von Kultur und Gesellschaft. Gegen staatlich gelenkte Kunst und die Beschimpfung von Kirchen regt sich nun deutlicher Widerstand."
+          "Die Frau soll nach FSB-Angaben versucht haben, im Auftrag ukrainischer Geheimdienste im Nordkaukasus einen Terroranschlag auszuführen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/russland-deutsche-festgenommen-fsb-terrorverdacht-li.3470789",
+        "category": "Russland",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-20T12:55:05.000Z"
+      },
+      {
+        "id": "76862093",
+        "title": "Peru: Streit um Ergebnisse nach Präsidentschaftswahl",
+        "summary": "Auch eine Woche nach der Abstimmung in Peru ist unklar, wer als Zweitplatzierter in die Stichwahl um das Präsidentenamt einzieht. Im Raum steht das Wort Wahlbetrug.",
+        "paragraphs": [
+          "Auch eine Woche nach der Abstimmung in Peru ist unklar, wer als Zweitplatzierter in die Stichwahl um das Präsidentenamt einzieht. Im Raum steht das Wort Wahlbetrug."
+        ],
+        "link": "https://www.dw.com/de/peru-streit-um-ergebnisse-nach-präsidentschaftswahl/a-76862093?maca=de-rss-de-top-1016-xml-mrss",
+        "category": "Aktuelles",
+        "source": "DW",
+        "publishedAt": "2026-04-20T12:48:00.000Z"
+      },
+      {
+        "id": "li.3470908",
+        "title": "Kritik der Kassenärzte an geplanter Reform: „Weniger Leistungen, weniger Termine“",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/kritik-der-kassenaerzte-an-geplanter-reform-weniger-leistungen-weniger-termine-li.3470908",
+        "category": "Gesundheitspolitik",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-20T12:44:16.000Z"
+      },
+      {
+        "id": "li.3470769",
+        "title": "AfD-Programm Sachsen-Anhalt: „Angriff auf Kunst, Kultur und Geschichte“",
+        "summary": "Die wichtigsten Kultureinrichtungen Sachsen-Anhalts wehren sich gegen radikale Pläne der AfD. Die will im Falle eines Wahlsieges staatlich gelenkte Kunst und eine „patriotische Kulturpolitik“ durchsetzen.",
+        "paragraphs": [
+          "Die wichtigsten Kultureinrichtungen Sachsen-Anhalts wehren sich gegen radikale Pläne der AfD. Die will im Falle eines Wahlsieges staatlich gelenkte Kunst und eine „patriotische Kulturpolitik“ durchsetzen."
         ],
         "link": "https://www.sueddeutsche.de/politik/afd-wahlprogramm-sachsen-anhalt-kritik-li.3470769",
         "category": "Deutschland",
@@ -321,18 +355,6 @@
         "category": "Philippinen",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-20T11:26:10.000Z"
-      },
-      {
-        "id": "li.3470789",
-        "title": "Angeblicher Terrorverdacht: Russischer Geheimdienst meldet Festnahme einer Deutschen",
-        "summary": "Die Frau soll nach FSB-Angaben versucht haben, im Auftrag ukrainischer Geheimdienste im Nordkaukasus einen Terroranschlag auszuführen.",
-        "paragraphs": [
-          "Die Frau soll nach FSB-Angaben versucht haben, im Auftrag ukrainischer Geheimdienste im Nordkaukasus einen Terroranschlag auszuführen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/russland-deutsche-festgenommen-fsb-terrorverdacht-li.3470789",
-        "category": "Russland",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-20T11:20:00.000Z"
       },
       {
         "id": "li.3469868",
@@ -443,18 +465,6 @@
         "publishedAt": "2026-04-20T08:43:00.000Z"
       },
       {
-        "id": "li.3469654",
-        "title": "Polizeistatistik 2025: Weniger Straftaten, aber mehr Morde und Sexualverbrechen",
-        "summary": "Ist Deutschland sicherer geworden? Jein. Die Polizeistatistik zeigt für 2025 weniger Verbrechen, die Ermittler führen dies auch auf die geringere Zuwanderung zurück. Bei Gewaltverbrechen sieht es aber anders aus.",
-        "paragraphs": [
-          "Ist Deutschland sicherer geworden? Jein. Die Polizeistatistik zeigt für 2025 weniger Verbrechen, die Ermittler führen dies auch auf die geringere Zuwanderung zurück. Bei Gewaltverbrechen sieht es aber anders aus."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/kriminalstatistik-deutschland-straftaten-mord-sexualdelikte-li.3469654",
-        "category": "Sicherheitspolitik",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-20T07:59:32.000Z"
-      },
-      {
         "id": "76852935",
         "title": "USA greifen iranischen Frachter am Golf an: Irans Militär droht mit Vergeltung - News kompakt: Das Wichtigste kurz gefasst",
         "summary": "Die Lage an der Straße von Hormus droht erneut zu eskalieren, US-iranische Verhandlungen stehen auf der Kippe und der Ölpreis steigt. Der Amazon-Gründer liefert in den falschen Orbit. Der DW-Nachrichtenüberblick.",
@@ -465,27 +475,87 @@
         "category": "Aktuelles",
         "source": "DW",
         "publishedAt": "2026-04-20T07:00:00.000Z"
-      },
-      {
-        "id": "76806267",
-        "title": "Warum die Türkei die Ölreserven Somalias anzapfen darf",
-        "summary": "Die Türkei will vor der somalischen Küste nach Öl bohren. Wer profitiert am meisten von der Partnerschaft - und welche Rolle spielen regionale Spannungen, in die auch der Iran verwickelt ist?",
-        "paragraphs": [
-          "Die Türkei will vor der somalischen Küste nach Öl bohren. Wer profitiert am meisten von der Partnerschaft - und welche Rolle spielen regionale Spannungen, in die auch der Iran verwickelt ist?"
-        ],
-        "link": "https://www.dw.com/de/warum-die-türkei-die-ölreserven-somalias-anzapfen-darf/a-76806267?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Welt",
-        "source": "DW",
-        "publishedAt": "2026-04-20T04:34:00.000Z"
       }
     ],
     "sport": [
       {
+        "id": "539b2ae2-fcef-466b-b22f-03a5654e04c6",
+        "title": "Olympia: Nach der Zustimmung von Köln-Rhein-Ruhr – wie es mit der deutschen Bewerbung weitergeht",
+        "summary": "Die Skepsis ist weg: Die Landespolitik in Nordrhein-Westfalen feiert die deutliche Zustimmung zur Olympiabewerbung. Dabei bedeutet das Referendum für eine Entscheidung über den Ausrichter erst einmal: gar nichts.",
+        "paragraphs": [
+          "Die Skepsis ist weg: Die Landespolitik in Nordrhein-Westfalen feiert die deutliche Zustimmung zur Olympiabewerbung. Dabei bedeutet das Referendum für eine Entscheidung über den Ausrichter erst einmal: gar nichts."
+        ],
+        "link": "https://www.spiegel.de/sport/olympia/olympia-nach-der-zustimmung-von-koeln-rhein-ruhr-wie-es-mit-der-deutschen-bewerbung-weitergeht-a-539b2ae2-fcef-466b-b22f-03a5654e04c6#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-20T13:01:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "title": "Gladbach will Khedira - Konaté vor Verlängerung in Liverpool",
+        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
+        "paragraphs": [
+          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
+        ],
+        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-20T13:00:10.000Z"
+      },
+      {
+        "id": "li.3470729",
+        "title": "DSB: Ex-Bahnchef Lutz will Schach-Präsident werden",
+        "summary": "Als Vorstand der Deutschen Bahn ist Richard Lutz gescheitert. Nun bewirbt er sich auf einen neuen Posten – und kritisiert den Schachverband.",
+        "paragraphs": [
+          "Als Vorstand der Deutschen Bahn ist Richard Lutz gescheitert. Nun bewirbt er sich auf einen neuen Posten – und kritisiert den Schachverband."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/richard-lutz-bewerbung-schach-praesident-dsb-li.3470729",
+        "category": "Schach",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-20T12:54:25.000Z"
+      },
+      {
+        "id": "li.3470751",
+        "title": "DHB-Pokal: Berlin ist nicht zu stoppen",
+        "summary": "Die Füchse Berlin gewinnen zum zweiten Mal den Handball-Pokal und unterstreichen, dass sie das Team der Stunde sind. Champions-League-Sieger Magdeburg offenbart unerwartete Schwächen.",
+        "paragraphs": [
+          "Die Füchse Berlin gewinnen zum zweiten Mal den Handball-Pokal und unterstreichen, dass sie das Team der Stunde sind. Champions-League-Sieger Magdeburg offenbart unerwartete Schwächen."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/handball-dhb-pokal-fuechse-berlin-li.3470751",
+        "category": "Handball",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-20T12:44:22.000Z"
+      },
+      {
+        "id": "li.3470790",
+        "title": "Zum Tod von Basketball-Legende Oscar Schmidt: Unbezahlbare Heimatliebe",
+        "summary": "Oscar Schmidt sammelte Rekorde, in Brasilien wurde er als „Heilige Hand“ verehrt. Und er hat die Nationalmannschaft allen Verlockungen aus der NBA vorgezogen. Jetzt ist er im Alter von 68 Jahren gestorben.",
+        "paragraphs": [
+          "Oscar Schmidt sammelte Rekorde, in Brasilien wurde er als „Heilige Hand“ verehrt. Und er hat die Nationalmannschaft allen Verlockungen aus der NBA vorgezogen. Jetzt ist er im Alter von 68 Jahren gestorben."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/oscar-schmidt-tod-basketball-legende-brasilien-nachruf-li.3470790",
+        "category": "Basketball",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-20T12:40:34.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/luis-figo-beeindruckt-von-olise-ballon-d-or-kandidat-1212055/video#omrss",
+        "title": "Luis Figo beeindruckt von Olise: \"Ballon-d´Or-Kandidat\"",
+        "summary": "Am Rande der Laureus Awards spricht die portugiesische Legende Luis Figo über einen möglichen Wechsel von Bayern-Star Michael Olise zu Real Madrid. Für den Ex-Profi ist der 24-jährige Franzose ein zukünftiger Ballon-d'Or-Kandidat.",
+        "paragraphs": [
+          "Am Rande der Laureus Awards spricht die portugiesische Legende Luis Figo über einen möglichen Wechsel von Bayern-Star Michael Olise zu Real Madrid. Für den Ex-Profi ist der 24-jährige Franzose ein zukünftiger Ballon-d'Or-Kandidat."
+        ],
+        "link": "https://www.kicker.de/luis-figo-beeindruckt-von-olise-ballon-d-or-kandidat-1212055/video#omrss",
+        "category": "Bayern München",
+        "source": "Kicker",
+        "publishedAt": "2026-04-20T12:40:01.000Z"
+      },
+      {
         "id": "579ba93d-6a10-4fc6-b26e-a09299695c55",
         "title": "Massenschlägerei vor Bayern-Spiel gegen Stuttgart – Polizei nimmt 500 Randalierer in Gewahrsam",
-        "summary": "Auf dem Platz feierte der FC Bayern seine 35. Meisterschaft. Doch der Sieg gegen den VfB Stuttgart wurde von einer Massenschlägerei vor der Partei überschattet. Die Polizei vermutet ein geplantes Treffen.",
+        "summary": "Auf dem Platz feierte der FC Bayern seine 35. Meisterschaft. Doch der Sieg gegen den VfB Stuttgart wurde von einer Massenschlägerei vor der Partie überschattet. Die Polizei vermutet ein geplantes Treffen.",
         "paragraphs": [
-          "Auf dem Platz feierte der FC Bayern seine 35. Meisterschaft. Doch der Sieg gegen den VfB Stuttgart wurde von einer Massenschlägerei vor der Partei überschattet. Die Polizei vermutet ein geplantes Treffen."
+          "Auf dem Platz feierte der FC Bayern seine 35. Meisterschaft. Doch der Sieg gegen den VfB Stuttgart wurde von einer Massenschlägerei vor der Partie überschattet. Die Polizei vermutet ein geplantes Treffen."
         ],
         "link": "https://www.spiegel.de/sport/fussball/massenschlaegerei-vor-bayern-spiel-gegen-stuttgart-polizei-nimmt-500-randalierer-in-gewahrsam-a-579ba93d-6a10-4fc6-b26e-a09299695c55#ref=rss",
         "category": null,
@@ -647,76 +717,6 @@
         "category": "Bergischer HC",
         "source": "Kicker",
         "publishedAt": "2026-04-20T10:38:37.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/schub-fuer-olympia-wie-es-nach-dem-ja-aus-nrw-weitergeht-1212016/artikel#omrss",
-        "title": "Schub für Olympia: Wie es nach dem Ja aus NRW weitergeht",
-        "summary": "Deutschlands Olympia-Macher spüren den Rückenwind: Die klare Zustimmung aus Nordrhein-Westfalen für eine Bewerbung ist ein deutliches Signal. Was das für die Spiele-Hoffnungen bedeutet.",
-        "paragraphs": [
-          "Deutschlands Olympia-Macher spüren den Rückenwind: Die klare Zustimmung aus Nordrhein-Westfalen für eine Bewerbung ist ein deutliches Signal. Was das für die Spiele-Hoffnungen bedeutet."
-        ],
-        "link": "https://www.kicker.de/schub-fuer-olympia-wie-es-nach-dem-ja-aus-nrw-weitergeht-1212016/artikel#omrss",
-        "category": "Olympia",
-        "source": "Kicker",
-        "publishedAt": "2026-04-20T10:33:37.000Z"
-      },
-      {
-        "id": "b8b7ce3b-6572-4967-8143-9d98ab0bca59",
-        "title": "Marko Arnautović offenbart psychische Probleme während Fußballzeit in China",
-        "summary": "Hotelzimmer-Isolation, kein Fenster, Angst und der Verlust jeglicher Freude am Fußball: Marko Arnautović hat über seine Erfahrungen in China während der Coronakrise gesprochen.",
-        "paragraphs": [
-          "Hotelzimmer-Isolation, kein Fenster, Angst und der Verlust jeglicher Freude am Fußball: Marko Arnautović hat über seine Erfahrungen in China während der Coronakrise gesprochen."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/marko-arnautovic-offenbart-psychische-probleme-waehrend-fussballzeit-in-china-a-b8b7ce3b-6572-4967-8143-9d98ab0bca59#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-20T10:29:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/werner-lobt-wir-schiessen-nicht-nur-den-ball-weg-1212011/video#omrss",
-        "title": "Werner lobt: \"Wir schießen nicht nur den Ball weg\"",
-        "summary": "Timo Werner überzeugte beim 4:1 gegen Los Angeles FC und dabei seinen ersten Treffer erzielt. Der Stürmer spricht über seinen Wechsel nach San Jose, gutes Wetter und die sportliche Entwicklung.",
-        "paragraphs": [
-          "Timo Werner überzeugte beim 4:1 gegen Los Angeles FC und dabei seinen ersten Treffer erzielt. Der Stürmer spricht über seinen Wechsel nach San Jose, gutes Wetter und die sportliche Entwicklung."
-        ],
-        "link": "https://www.kicker.de/werner-lobt-wir-schiessen-nicht-nur-den-ball-weg-1212011/video#omrss",
-        "category": "Arena",
-        "source": "Kicker",
-        "publishedAt": "2026-04-20T10:22:44.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/habe-anteil-daran-allofs-raeumt-teilschuld-an-duesseldorfs-absturz-ein-1211999/artikel#omrss",
-        "title": "\"Habe Anteil daran\": Allofs räumt Teilschuld an Düsseldorfs Absturz ein",
-        "summary": "Fortuna Düsseldorf ist auf den vorletzten Tabellenrang abgestürzt und taumelt dem Abstieg in die 3. Liga entgegen. Der ehemalige Sportchef Klaus Allofs sieht sich bei der Entwicklung mit in der Verantwortung.",
-        "paragraphs": [
-          "Fortuna Düsseldorf ist auf den vorletzten Tabellenrang abgestürzt und taumelt dem Abstieg in die 3. Liga entgegen. Der ehemalige Sportchef Klaus Allofs sieht sich bei der Entwicklung mit in der Verantwortung."
-        ],
-        "link": "https://www.kicker.de/habe-anteil-daran-allofs-raeumt-teilschuld-an-duesseldorfs-absturz-ein-1211999/artikel#omrss",
-        "category": "2. Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-20T10:22:18.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/dortmunds-u-23-wuestenhagens-doppelpack-und-benkaras-schreckmoment-1211677/artikel#omrss",
-        "title": "Dortmunds U 23: Wüstenhagens Doppelpack und Benkaras Schreckmoment",
-        "summary": "Bennedikt Wüstenhagen trifft beim 3:2 der BVB-U-23 gegen Rödinghausen doppelt und bestätigt seine Form. Sorgen gibt es um Elias Benkara, der angeschlagen ausgewechselt wurde und dessen Zukunft offen ist.",
-        "paragraphs": [
-          "Bennedikt Wüstenhagen trifft beim 3:2 der BVB-U-23 gegen Rödinghausen doppelt und bestätigt seine Form. Sorgen gibt es um Elias Benkara, der angeschlagen ausgewechselt wurde und dessen Zukunft offen ist."
-        ],
-        "link": "https://www.kicker.de/dortmunds-u-23-wuestenhagens-doppelpack-und-benkaras-schreckmoment-1211677/artikel#omrss",
-        "category": "Benkara",
-        "source": "Kicker",
-        "publishedAt": "2026-04-20T10:11:41.000Z"
-      },
-      {
-        "id": "li.3470918",
-        "title": "NHL-Playoffs: Auftaktniederlage für Marco Sturm",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/sport/playoffs-li.3470918",
-        "category": "Eishockey",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-20T10:09:34.000Z"
       }
     ],
     "edv": [
@@ -733,16 +733,16 @@
         "publishedAt": "2026-04-20T10:22:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/AMD-bringt-Ryzen-7-5800X3D-angeblich-zum-10-jaehrigen-AM4-Geburtstag-zurueck-11264374.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "AMD bringt Ryzen 7 5800X3D angeblich zum 10-jährigen AM4-Geburtstag zurück",
-        "summary": "Der beliebte Achtkern-Prozessor Ryzen 7 5800X3D könnte bald wieder im Handel aufschlagen. AMD soll eine Jubiläumsversion vorbereiten.",
+        "id": "https://www.heise.de/hintergrund/DMEA-Standortwechsel-Wir-wollen-wachsen-und-neue-Themen-integrieren-11264318.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "DMEA-Standortwechsel: „Wir wollen wachsen und neue Themen integrieren“",
+        "summary": "Die DMEA zieht 2027 von Berlin nach München. Im Interview spricht Matthias Meierhofer über den Standortwechsel, die TI und die Zukunft der digitalen Versorgung.",
         "paragraphs": [
-          "Der beliebte Achtkern-Prozessor Ryzen 7 5800X3D könnte bald wieder im Handel aufschlagen. AMD soll eine Jubiläumsversion vorbereiten."
+          "Die DMEA zieht 2027 von Berlin nach München. Im Interview spricht Matthias Meierhofer über den Standortwechsel, die TI und die Zukunft der digitalen Versorgung."
         ],
-        "link": "https://www.heise.de/news/AMD-bringt-Ryzen-7-5800X3D-angeblich-zum-10-jaehrigen-AM4-Geburtstag-zurueck-11264374.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/hintergrund/DMEA-Standortwechsel-Wir-wollen-wachsen-und-neue-Themen-integrieren-11264318.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T12:30:00.000Z"
+        "publishedAt": "2026-04-20T13:11:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Durchblick-bei-Technik-Features-moderner-Monitore-c-t-uplink-11262754.html",
@@ -757,16 +757,16 @@
         "publishedAt": "2026-04-18T15:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Tankrabatt-ab-1-Mai-koennte-verzoegert-bei-Kunden-ankommen-11264336.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„Tankrabatt“ ab 1. Mai könnte verzögert bei Kunden ankommen",
-        "summary": "Vom 1. Mai an soll die befristete Senkung der Energiesteuer gelten. Ab wann aber wirkt der „Tankrabatt“? Der Blick zurück auf 2022 hilft.",
+        "id": "https://www.heise.de/news/Adobe-Summit-KI-Agenten-fuer-personalisiertes-Marketing-11264016.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Adobe Summit: KI-Agenten für personalisiertes Marketing",
+        "summary": "Adobe stellt KI-Software für automatisierte, personalisierte Kundenansprache vor: CX Enterprise soll helfen, Kundenerlebnisse über KI-Agenten zu steuern.",
         "paragraphs": [
-          "Vom 1. Mai an soll die befristete Senkung der Energiesteuer gelten. Ab wann aber wirkt der „Tankrabatt“? Der Blick zurück auf 2022 hilft."
+          "Adobe stellt KI-Software für automatisierte, personalisierte Kundenansprache vor: CX Enterprise soll helfen, Kundenerlebnisse über KI-Agenten zu steuern."
         ],
-        "link": "https://www.heise.de/news/Tankrabatt-ab-1-Mai-koennte-verzoegert-bei-Kunden-ankommen-11264336.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Adobe-Summit-KI-Agenten-fuer-personalisiertes-Marketing-11264016.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T12:24:00.000Z"
+        "publishedAt": "2026-04-20T13:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Kann-jeder-3D-Druck-c-t-3003-11261187.html",
@@ -781,16 +781,16 @@
         "publishedAt": "2026-04-17T14:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/WireGuard-1-0-Stabiler-Meilenstein-der-Windows-Version-erreicht-11263925.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "WireGuard 1.0: Stabiler Meilenstein der Windows-Version erreicht",
-        "summary": "Nach jahrelanger Pause gab es kürzlich ein Update, nun legt der Entwickler das Release 1.0 von WireGuard für Windows nach.",
+        "id": "https://www.heise.de/news/KI-Update-kompakt-Hannover-Messe-Rechenleistung-Polizei-Daten-Ring-Kameras-11264118.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI-Update kompakt: Hannover Messe, Rechenleistung, Polizei-Daten, Ring-Kameras",
+        "summary": "Das \"KI-Update\" liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
         "paragraphs": [
-          "Nach jahrelanger Pause gab es kürzlich ein Update, nun legt der Entwickler das Release 1.0 von WireGuard für Windows nach."
+          "Das \"KI-Update\" liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen."
         ],
-        "link": "https://www.heise.de/news/WireGuard-1-0-Stabiler-Meilenstein-der-Windows-Version-erreicht-11263925.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/KI-Update-kompakt-Hannover-Messe-Rechenleistung-Polizei-Daten-Ring-Kameras-11264118.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T12:10:00.000Z"
+        "publishedAt": "2026-04-20T13:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Terahertz-Scanner-untersucht-aktive-Halbleiter-kontaktlos-11262760.html",
@@ -805,16 +805,16 @@
         "publishedAt": "2026-04-17T13:28:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Einfuehrung-in-die-Softwarearchitektur-11255081.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Einführung in die Softwarearchitektur",
-        "summary": "Lernen Sie die Aufgaben eines Software-Architekten kennen und stärken Sie Ihre Fähigkeiten, robuste IT-Systeme zu entwerfen.",
+        "id": "https://www.heise.de/news/WhatsApp-Plus-kommt-Zusaetzliche-Features-fuer-Premium-Nutzer-11264292.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "WhatsApp Plus kommt: Zusätzliche Features für Premium-Nutzer",
+        "summary": "WhatsApp führt den kostenpflichtigen Tarif „WhatsApp Plus“ ein. Zusätzliche Features ermöglichen Nutzern mehr Möglichkeiten der Personalisierung.",
         "paragraphs": [
-          "Lernen Sie die Aufgaben eines Software-Architekten kennen und stärken Sie Ihre Fähigkeiten, robuste IT-Systeme zu entwerfen."
+          "WhatsApp führt den kostenpflichtigen Tarif „WhatsApp Plus“ ein. Zusätzliche Features ermöglichen Nutzern mehr Möglichkeiten der Personalisierung."
         ],
-        "link": "https://www.heise.de/news/iX-Workshop-Einfuehrung-in-die-Softwarearchitektur-11255081.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/WhatsApp-Plus-kommt-Zusaetzliche-Features-fuer-Premium-Nutzer-11264292.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T12:00:00.000Z"
+        "publishedAt": "2026-04-20T12:52:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Core-300-Intel-stellt-Billigprozessor-Wildcat-Lake-vor-11262501.html",
@@ -829,16 +829,16 @@
         "publishedAt": "2026-04-17T12:04:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Dobrindt-warnt-vor-Ende-freiwilliger-Inhaltedurchsuchung-11264268.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Dobrindt warnt vor Ende freiwilliger Inhaltedurchsuchung",
-        "summary": "Bei der Vorstellung der Polizeilichen Kriminalstatistik für 2025 richtete Innenminister Dobrindt einen Appell an das Europaparlament.",
+        "id": "https://www.heise.de/news/AMD-bringt-Ryzen-7-5800X3D-angeblich-zum-10-jaehrigen-AM4-Geburtstag-zurueck-11264374.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "AMD bringt Ryzen 7 5800X3D angeblich zum 10-jährigen AM4-Geburtstag zurück",
+        "summary": "Der beliebte Achtkern-Prozessor Ryzen 7 5800X3D könnte bald wieder im Handel aufschlagen. AMD soll eine Jubiläumsversion vorbereiten.",
         "paragraphs": [
-          "Bei der Vorstellung der Polizeilichen Kriminalstatistik für 2025 richtete Innenminister Dobrindt einen Appell an das Europaparlament."
+          "Der beliebte Achtkern-Prozessor Ryzen 7 5800X3D könnte bald wieder im Handel aufschlagen. AMD soll eine Jubiläumsversion vorbereiten."
         ],
-        "link": "https://www.heise.de/news/Dobrindt-warnt-vor-Ende-freiwilliger-Inhaltedurchsuchung-11264268.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/AMD-bringt-Ryzen-7-5800X3D-angeblich-zum-10-jaehrigen-AM4-Geburtstag-zurueck-11264374.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T11:49:00.000Z"
+        "publishedAt": "2026-04-20T12:30:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Android-17-Beta-4-Letzte-Testversion-vor-dem-finalen-Release-11261781.html",
@@ -853,16 +853,16 @@
         "publishedAt": "2026-04-17T07:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Telekom-kuendigt-eigene-ePA-an-Noch-mehr-Vielfalt-im-Markt-und-offene-Fragen-11263567.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Telekom kündigt eigene ePA an: Noch mehr Vielfalt im Markt und offene Fragen",
-        "summary": "Mehr Wettbewerb bei der elektronischen Patientenakte. Die Telekom will als weiterer ePA-Anbieter einsteigen.",
+        "id": "https://www.heise.de/news/Tankrabatt-ab-1-Mai-koennte-verzoegert-bei-Kunden-ankommen-11264336.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„Tankrabatt“ ab 1. Mai könnte verzögert bei Kunden ankommen",
+        "summary": "Vom 1. Mai an soll die befristete Senkung der Energiesteuer gelten. Ab wann aber wirkt der „Tankrabatt“? Der Blick zurück auf 2022 hilft.",
         "paragraphs": [
-          "Mehr Wettbewerb bei der elektronischen Patientenakte. Die Telekom will als weiterer ePA-Anbieter einsteigen."
+          "Vom 1. Mai an soll die befristete Senkung der Energiesteuer gelten. Ab wann aber wirkt der „Tankrabatt“? Der Blick zurück auf 2022 hilft."
         ],
-        "link": "https://www.heise.de/news/Telekom-kuendigt-eigene-ePA-an-Noch-mehr-Vielfalt-im-Markt-und-offene-Fragen-11263567.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Tankrabatt-ab-1-Mai-koennte-verzoegert-bei-Kunden-ankommen-11264336.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T11:30:00.000Z"
+        "publishedAt": "2026-04-20T12:24:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-157-Datenschutz-vor-Gericht-11260020.html",
@@ -877,16 +877,16 @@
         "publishedAt": "2026-04-17T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Tod-auf-Raten-Microsoft-zieht-Clipchamp-fuer-iOS-den-Stecker-11264230.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Tod auf Raten: Microsoft zieht Clipchamp für iOS den Stecker",
-        "summary": "Microsoft mag den Videoeditor Clipchamp als lokale App offenbar nicht mehr. Unter iOS zieht der Hersteller im Juni den Stecker.",
+        "id": "https://www.heise.de/news/WireGuard-1-0-Stabiler-Meilenstein-der-Windows-Version-erreicht-11263925.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "WireGuard 1.0: Stabiler Meilenstein der Windows-Version erreicht",
+        "summary": "Nach jahrelanger Pause gab es kürzlich ein Update, nun legt der Entwickler das Release 1.0 von WireGuard für Windows nach.",
         "paragraphs": [
-          "Microsoft mag den Videoeditor Clipchamp als lokale App offenbar nicht mehr. Unter iOS zieht der Hersteller im Juni den Stecker."
+          "Nach jahrelanger Pause gab es kürzlich ein Update, nun legt der Entwickler das Release 1.0 von WireGuard für Windows nach."
         ],
-        "link": "https://www.heise.de/news/Tod-auf-Raten-Microsoft-zieht-Clipchamp-fuer-iOS-den-Stecker-11264230.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/WireGuard-1-0-Stabiler-Meilenstein-der-Windows-Version-erreicht-11263925.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T11:29:00.000Z"
+        "publishedAt": "2026-04-20T12:10:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Googles-Maerz-Update-auf-Android-16-QPR3-Pixel-Nutzer-melden-zahlreiche-Bugs-11260042.html",
@@ -901,6 +901,54 @@
         "publishedAt": "2026-04-16T09:16:00.000Z"
       },
       {
+        "id": "https://www.heise.de/news/iX-Workshop-Einfuehrung-in-die-Softwarearchitektur-11255081.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Einführung in die Softwarearchitektur",
+        "summary": "Lernen Sie die Aufgaben eines Software-Architekten kennen und stärken Sie Ihre Fähigkeiten, robuste IT-Systeme zu entwerfen.",
+        "paragraphs": [
+          "Lernen Sie die Aufgaben eines Software-Architekten kennen und stärken Sie Ihre Fähigkeiten, robuste IT-Systeme zu entwerfen."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Einfuehrung-in-die-Softwarearchitektur-11255081.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-20T12:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Dobrindt-warnt-vor-Ende-freiwilliger-Inhaltedurchsuchung-11264268.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Dobrindt warnt vor Ende freiwilliger Inhaltedurchsuchung",
+        "summary": "Bei der Vorstellung der Polizeilichen Kriminalstatistik für 2025 richtete Innenminister Dobrindt einen Appell an das Europaparlament.",
+        "paragraphs": [
+          "Bei der Vorstellung der Polizeilichen Kriminalstatistik für 2025 richtete Innenminister Dobrindt einen Appell an das Europaparlament."
+        ],
+        "link": "https://www.heise.de/news/Dobrindt-warnt-vor-Ende-freiwilliger-Inhaltedurchsuchung-11264268.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-20T11:49:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Telekom-kuendigt-eigene-ePA-an-Noch-mehr-Vielfalt-im-Markt-und-offene-Fragen-11263567.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Telekom kündigt eigene ePA an: Noch mehr Vielfalt im Markt und offene Fragen",
+        "summary": "Mehr Wettbewerb bei der elektronischen Patientenakte. Die Telekom will als weiterer ePA-Anbieter einsteigen.",
+        "paragraphs": [
+          "Mehr Wettbewerb bei der elektronischen Patientenakte. Die Telekom will als weiterer ePA-Anbieter einsteigen."
+        ],
+        "link": "https://www.heise.de/news/Telekom-kuendigt-eigene-ePA-an-Noch-mehr-Vielfalt-im-Markt-und-offene-Fragen-11263567.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-20T11:30:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Tod-auf-Raten-Microsoft-zieht-Clipchamp-fuer-iOS-den-Stecker-11264230.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Tod auf Raten: Microsoft zieht Clipchamp für iOS den Stecker",
+        "summary": "Microsoft mag den Videoeditor Clipchamp als lokale App offenbar nicht mehr. Unter iOS zieht der Hersteller im Juni den Stecker.",
+        "paragraphs": [
+          "Microsoft mag den Videoeditor Clipchamp als lokale App offenbar nicht mehr. Unter iOS zieht der Hersteller im Juni den Stecker."
+        ],
+        "link": "https://www.heise.de/news/Tod-auf-Raten-Microsoft-zieht-Clipchamp-fuer-iOS-den-Stecker-11264230.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-20T11:29:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/Schwarz-Digits-stellt-Standard-fuer-digitale-Souveraenitaet-vor-11264086.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Neuer Standard bewertet digitale Souveränität von Cloud-Diensten",
         "summary": "Der European Sovereign Stack Standard (ES³) von Schwarz Digits bewertet anhand von neun Dimensionen, wie souverän Cloud-Lösungen wirklich sind.",
@@ -911,75 +959,195 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-20T11:23:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Mercedes-C-Klasse-EQ-vorgestellt-Das-Elektroauto-fuer-die-Langstrecke-11264132.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Mercedes C-Klasse EQ vorgestellt: Das Elektroauto für die Langstrecke",
-        "summary": "Mercedes präsentiert die elektrische C-Klasse mit bis zu 760 km Reichweite, Allradantrieb und 360 kW Leistung. Ein starkes Paket.",
-        "paragraphs": [
-          "Mercedes präsentiert die elektrische C-Klasse mit bis zu 760 km Reichweite, Allradantrieb und 360 kW Leistung. Ein starkes Paket."
-        ],
-        "link": "https://www.heise.de/news/Mercedes-C-Klasse-EQ-vorgestellt-Das-Elektroauto-fuer-die-Langstrecke-11264132.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-20T11:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Google-Fitbit-Air-Neuer-bildschirmloser-Tracker-kommt-bald-11264098.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Google arbeitet laut Bericht an Fitbit Air als Konkurrenz zu Whoop",
-        "summary": "Google bereitet eine Antwort auf den bildschirmlosen Fitnesstracker Whoop vor. Nun sind neue Details zum Fitbit-Gadget durchgesickert.",
-        "paragraphs": [
-          "Google bereitet eine Antwort auf den bildschirmlosen Fitnesstracker Whoop vor. Nun sind neue Details zum Fitbit-Gadget durchgesickert."
-        ],
-        "link": "https://www.heise.de/news/Google-Fitbit-Air-Neuer-bildschirmloser-Tracker-kommt-bald-11264098.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-20T10:22:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Experimentierkit-Digitalelektronik-jetzt-im-heise-Shop-erhaeltlich-11260323.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: Experimentierkit Digitalelektronik jetzt im heise Shop erhältlich",
-        "summary": "Mit dem Experimentierset und den Anleitungen im Heft steigen Sie praktisch in Logikgatter ein und bauen schnell und einfach typische Schaltungen nach.",
-        "paragraphs": [
-          "Mit dem Experimentierset und den Anleitungen im Heft steigen Sie praktisch in Logikgatter ein und bauen schnell und einfach typische Schaltungen nach."
-        ],
-        "link": "https://www.heise.de/news/Experimentierkit-Digitalelektronik-jetzt-im-heise-Shop-erhaeltlich-11260323.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-20T10:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Cloudflare-gibt-KI-Agenten-ein-Langzeitgedaechtnis-11263627.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Cloudflare gibt KI-Agenten ein Langzeitgedächtnis",
-        "summary": "Cloudflare will mit Agent Memory dem Kontextverfall bei langen Prompts in KI-Agenten verbeugen. Entwickler können so auch Kosten sparen.",
-        "paragraphs": [
-          "Cloudflare will mit Agent Memory dem Kontextverfall bei langen Prompts in KI-Agenten verbeugen. Entwickler können so auch Kosten sparen."
-        ],
-        "link": "https://www.heise.de/news/Cloudflare-gibt-KI-Agenten-ein-Langzeitgedaechtnis-11263627.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-20T09:27:00.000Z"
       }
     ],
     "börse": [
       {
-        "id": "https://www.handelsblatt.com/karriere/krankmeldung-wie-koennen-arbeitgeber-rechtlich-gegen-blaumacher-vorgehen-01/100180160.html",
+        "id": "https://www.handelsblatt.com/politik/deutschland/warenhauskette-wackelt-galeria-erneut/100218344.html",
+        "title": "Warenhauskette: Wackelt Galeria erneut?",
+        "summary": "Nach der letzten Insolvenz wollte Galeria den Neustart versuchen. Nun mehren sich die Hinweise, dass die Warenhauskette schon wieder in Schwierigkeiten ist.",
+        "paragraphs": [
+          "Nach der letzten Insolvenz wollte Galeria den Neustart versuchen. Nun mehren sich die Hinweise, dass die Warenhauskette schon wieder in Schwierigkeiten ist."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/warenhauskette-wackelt-galeria-erneut/100218344.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T13:15:32.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/revolut-britische-neobank-will-erst-in-zwei-jahren-an-die-boerse-gehen/100218371.html",
+        "title": "Neobank: Revolut will erst in zwei Jahren an die Börse gehen",
+        "summary": "Revolut-Chef Storonsky plant einen IPO nicht vor 2028. Die Neobank werde prüfen, zuvor weitere Anteile zu verkaufen. Eine Assetklasse will die Bank in Deutschland bald nicht mehr anbieten.",
+        "paragraphs": [
+          "Revolut-Chef Storonsky plant einen IPO nicht vor 2028. Die Neobank werde prüfen, zuvor weitere Anteile zu verkaufen. Eine Assetklasse will die Bank in Deutschland bald nicht mehr anbieten."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/revolut-britische-neobank-will-erst-in-zwei-jahren-an-die-boerse-gehen/100218371.html",
+        "category": "Banken + Versicherungen",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T13:12:44.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/it-internet/tech-elite-sie-wollen-eine-welt-zu-ihren-bedingungen/100178613.html",
+        "title": "Interview: „Die Räuberbarone des 19. Jahrhunderts gleichen der Tech-Elite“",
+        "summary": "Aus dem Handelsblatt-Archiv: Die Historikerin Margaret O’Mara warnt vor den Plänen der Valley-Milliardäre. Im Interview erklärt sie, warum viele Ideen der Tech-Titanen albern sind – sie aber ernst genommen werden müssen.",
+        "paragraphs": [
+          "Aus dem Handelsblatt-Archiv: Die Historikerin Margaret O’Mara warnt vor den Plänen der Valley-Milliardäre. Im Interview erklärt sie, warum viele Ideen der Tech-Titanen albern sind – sie aber ernst genommen werden müssen."
+        ],
+        "link": "https://www.handelsblatt.com/technik/it-internet/tech-elite-sie-wollen-eine-welt-zu-ihren-bedingungen/100178613.html",
+        "category": "IT + Telekommunikation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T13:06:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/mobilitaetskosten-tankrabatt-koennte-nur-mit-verzoegerung-wirken/100218396.html",
+        "title": "Mobilitätskosten: Tankrabatt könnte nur mit Verzögerung wirken",
+        "summary": "Hintergrund ist die Konstruktion der Steuer, die laut Tankstellenverband bft sogar zu Versorgungsengpässen führen könnte. Zuletzt sanken die Spritpreise nur noch langsam.",
+        "paragraphs": [
+          "Hintergrund ist die Konstruktion der Steuer, die laut Tankstellenverband bft sogar zu Versorgungsengpässen führen könnte. Zuletzt sanken die Spritpreise nur noch langsam."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/mobilitaetskosten-tankrabatt-koennte-nur-mit-verzoegerung-wirken/100218396.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T13:04:29.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/krieg-im-nahen-osten-zweite-verhandlungsrunde-zwischen-iran-und-usa-weiter-offen/100218241.html",
+        "title": "Krieg im Nahen Osten: Zweite Verhandlungsrunde zwischen Iran und USA weiter offen",
+        "summary": "Die Feuerpause im Iran-Krieg läuft aus: Ein Fortgang der Friedensgespräche zwischen Teheran und Washington ist trotz Bemühungen Pakistans weiter ungewiss. Droht ein Aufflammen des Kriegs?",
+        "paragraphs": [
+          "Die Feuerpause im Iran-Krieg läuft aus: Ein Fortgang der Friedensgespräche zwischen Teheran und Washington ist trotz Bemühungen Pakistans weiter ungewiss. Droht ein Aufflammen des Kriegs?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/krieg-im-nahen-osten-zweite-verhandlungsrunde-zwischen-iran-und-usa-weiter-offen/100218241.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T13:02:40.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/aktien/aktien-was-eine-150-jahre-alte-grafik-ueber-die-heutigen-boersenkurse-verraet/100189715.html",
+        "title": "Geldanlage: Kann eine 150 Jahre alte Grafik die Börsenkurse vorhersagen?",
+        "summary": "Aus dem Handelsblatt-Archiv: Eine Kurve aus dem 19. Jahrhundert sagt erstaunlich präzise die Entwicklung der Märkte voraus. Für 2026 empfiehlt sie, Aktien zu verkaufen. Wie verlässlich das wirklich ist.",
+        "paragraphs": [
+          "Aus dem Handelsblatt-Archiv: Eine Kurve aus dem 19. Jahrhundert sagt erstaunlich präzise die Entwicklung der Märkte voraus. Für 2026 empfiehlt sie, Aktien zu verkaufen. Wie verlässlich das wirklich ist."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/aktien/aktien-was-eine-150-jahre-alte-grafik-ueber-die-heutigen-boersenkurse-verraet/100189715.html",
+        "category": "Aktien",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T13:02:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-mehr-als-300-punkte-im-minus-oelpreis-steigt-wieder/100218286.html",
+        "title": "Dax aktuell: Dax mehr als 300 Punkte im Minus – Ölpreis steigt wieder",
+        "summary": "Nach Erleichterung am Freitag folgt zum Wochenbeginn die Enttäuschung: Die Blockade der Straße von Hormus drückt den Dax wieder ins Minus. Auch die Preise am Ölmarkt reagieren.",
+        "paragraphs": [
+          "Nach Erleichterung am Freitag folgt zum Wochenbeginn die Enttäuschung: Die Blockade der Straße von Hormus drückt den Dax wieder ins Minus. Auch die Preise am Ölmarkt reagieren."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-mehr-als-300-punkte-im-minus-oelpreis-steigt-wieder/100218286.html",
+        "category": "Marktberichte",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T13:00:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/krankmeldung-so-koennen-arbeitgeber-rechtlich-gegen-blaumacher-vorgehen/100180160.html",
         "title": "Krankmeldung: Wie sich Arbeitgeber gegen Blaumacher wehren können",
         "summary": "Aus dem Handelsblatt-Archiv: Ein Mitarbeiter meldet sich immer an Brückentagen und montags krank? Diese rechtlichen Möglichkeiten haben Firmen bei Verdacht auf Blaumachen.",
         "paragraphs": [
           "Aus dem Handelsblatt-Archiv: Ein Mitarbeiter meldet sich immer an Brückentagen und montags krank? Diese rechtlichen Möglichkeiten haben Firmen bei Verdacht auf Blaumachen."
         ],
-        "link": "https://www.handelsblatt.com/karriere/krankmeldung-wie-koennen-arbeitgeber-rechtlich-gegen-blaumacher-vorgehen-01/100180160.html",
+        "link": "https://www.handelsblatt.com/karriere/krankmeldung-so-koennen-arbeitgeber-rechtlich-gegen-blaumacher-vorgehen/100180160.html",
         "category": "Management",
         "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T13:34:00.000Z"
+        "publishedAt": "2026-04-20T13:00:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/handelskrieg-us-regierung-nimmt-jetzt-antraege-auf-zollerstattungen-an/100217677.html",
+        "title": "Handelskrieg: 330.000 Unternehmen betroffen: US-Regierung nimmt jetzt Anträge auf Zollerstattungen an",
+        "summary": "Importeure können unrechtmäßige US-Zölle zurückverlangen, doch Experten dämpfen die Erwartungen. Zunächst startet nur die erste Phase des Verfahrens – und dabei gelten einige Ausnahmen.",
+        "paragraphs": [
+          "Importeure können unrechtmäßige US-Zölle zurückverlangen, doch Experten dämpfen die Erwartungen. Zunächst startet nur die erste Phase des Verfahrens – und dabei gelten einige Ausnahmen."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/handelskrieg-us-regierung-nimmt-jetzt-antraege-auf-zollerstattungen-an/100217677.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T12:59:57.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/forschung-innovation/gescheiterter-geleitversuch-er-schwimmt-er-schwimmt-nicht-drama-um-buckelwal-vor-poel/100218299.html",
+        "title": "Gescheiterter Geleitversuch: Er schwimmt, er schwimmt nicht: Drama um Buckelwal vor Poel",
+        "summary": "Nach Wochen schwimmt der gestrandete Buckelwal vor Poel plötzlich los. Die private Hilfsinitiative improvisiert - dennoch liegt der Wal rasch wieder. Und will oder kann von seinem Platz nicht weg.",
+        "paragraphs": [
+          "Nach Wochen schwimmt der gestrandete Buckelwal vor Poel plötzlich los. Die private Hilfsinitiative improvisiert - dennoch liegt der Wal rasch wieder. Und will oder kann von seinem Platz nicht weg."
+        ],
+        "link": "https://www.handelsblatt.com/technik/forschung-innovation/gescheiterter-geleitversuch-er-schwimmt-er-schwimmt-nicht-drama-um-buckelwal-vor-poel/100218299.html",
+        "category": "Forschung + Innovation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T12:57:39.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/meinung/kommentare/kommentar-das-fcas-aus-waere-ein-fatales-signal/100218325.html",
+        "title": "Kommentar: Das FCAS-Aus wäre ein fatales Signal",
+        "summary": "Europa braucht einen eigenen Kampfjet der sechsten Generation. Aber es macht wirtschaftlich und militärisch wenig Sinn, das Geld der Steuerzahler in mehrere konkurrierende Projekte zu stecken.",
+        "paragraphs": [
+          "Europa braucht einen eigenen Kampfjet der sechsten Generation. Aber es macht wirtschaftlich und militärisch wenig Sinn, das Geld der Steuerzahler in mehrere konkurrierende Projekte zu stecken."
+        ],
+        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-das-fcas-aus-waere-ein-fatales-signal/100218325.html",
+        "category": "Kommentare",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T12:52:32.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/schiffbau-rheinmetall-beginnt-mit-serienproduktion-von-drohnenbooten/100218422.html",
+        "title": "Schiffbau: Rheinmetall beginnt mit Serienproduktion von Drohnenbooten",
+        "summary": "Die unbemannten Überwasserfahrzeuge sollen militärisch oder zivil eingesetzt werden können. Mit einer Partnerfirma will Rheinmetall zunächst rund 200 Boote jährlich herstellen.",
+        "paragraphs": [
+          "Die unbemannten Überwasserfahrzeuge sollen militärisch oder zivil eingesetzt werden können. Mit einer Partnerfirma will Rheinmetall zunächst rund 200 Boote jährlich herstellen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/schiffbau-rheinmetall-beginnt-mit-serienproduktion-von-drohnenbooten/100218422.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T12:52:28.000Z"
+      },
+      {
+        "id": "7261d384-58a2-422f-bfdd-ebfc24e70e51",
+        "title": "Friedrich Merz und Luiz Inácio Lula da Silva gehen »einvernehmlich« getrennte Wege auf Industriemesse Hannover",
+        "summary": "Sie wollten eigentlich gemeinsam über die Hannover Messe schlendern. Dann trennen sich die beiden Regierungschefs aber recht schnell. Die Wirtschaftsbeziehungen zwischen Deutschland und Brasilien wollen sie ausbauen.",
+        "paragraphs": [
+          "Sie wollten eigentlich gemeinsam über die Hannover Messe schlendern. Dann trennen sich die beiden Regierungschefs aber recht schnell. Die Wirtschaftsbeziehungen zwischen Deutschland und Brasilien wollen sie ausbauen."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/friedrich-merz-und-luiz-inacio-lula-da-silva-gehen-einvernehmlich-getrennte-wege-auf-industriemesse-hannover-a-7261d384-58a2-422f-bfdd-ebfc24e70e51#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-20T12:45:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/energiewende-fuenf-alternativen-zu-reiches-umstrittenem-netzpaket/100218192.html",
+        "title": "Energiewende: Fünf Alternativen zu Reiches umstrittenem Netzpaket",
+        "summary": "Die Wirtschaftsministerin will den Anschluss erneuerbarer Energien ans Stromnetz neu regeln, wird für die Details ihres Plans aber kritisiert. Aus der Branche gibt es andere Ideen.",
+        "paragraphs": [
+          "Die Wirtschaftsministerin will den Anschluss erneuerbarer Energien ans Stromnetz neu regeln, wird für die Details ihres Plans aber kritisiert. Aus der Branche gibt es andere Ideen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/energiewende-fuenf-alternativen-zu-reiches-umstrittenem-netzpaket/100218192.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T12:42:20.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/job-ab-wann-beginnt-arbeitszeitbetrug-und-wie-koennen-unternehmen-handeln/100141010.html",
+        "title": "Arbeitszeit: Nur an einem statt an fünf Tagen arbeiten oder in der Pause Aperol trinken – wo beginnt Betrug?",
+        "summary": "Wäsche waschen, einkaufen, Netflix schauen: Immer wieder erledigen Beschäftigte Privates in ihrer Arbeitszeit. Wo der Betrug beginnt und was Unternehmen dagegen machen können.",
+        "paragraphs": [
+          "Wäsche waschen, einkaufen, Netflix schauen: Immer wieder erledigen Beschäftigte Privates in ihrer Arbeitszeit. Wo der Betrug beginnt und was Unternehmen dagegen machen können."
+        ],
+        "link": "https://www.handelsblatt.com/karriere/job-ab-wann-beginnt-arbeitszeitbetrug-und-wie-koennen-unternehmen-handeln/100141010.html",
+        "category": "Management",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T12:42:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/katastrophen-starkes-erdbeben-erschuettert-japan/100218339.html",
         "title": "Katastrophen: Starkes Erdbeben erschüttert Japan",
-        "summary": "Vor der japanischen Küste hat sich ein schweres Erdbeben ereignet. Nun warnen die Behörden vor möglichen Tsunami-Wellen und rufen die Bewohner auf, sich in Sicherheit zu begeben.",
+        "summary": "Vor der japanischen Küste hat sich ein schweres Erdbeben ereignet. Tsunami-Warnungen im Land sind inzwischen herabgestuft, in den kommenden Tagen könnte es aber zu schweren Nachbeben kommen.",
         "paragraphs": [
-          "Vor der japanischen Küste hat sich ein schweres Erdbeben ereignet. Nun warnen die Behörden vor möglichen Tsunami-Wellen und rufen die Bewohner auf, sich in Sicherheit zu begeben."
+          "Vor der japanischen Küste hat sich ein schweres Erdbeben ereignet. Tsunami-Warnungen im Land sind inzwischen herabgestuft, in den kommenden Tagen könnte es aber zu schweren Nachbeben kommen."
         ],
         "link": "https://www.handelsblatt.com/politik/international/katastrophen-starkes-erdbeben-erschuettert-japan/100218339.html",
         "category": "International",
@@ -1033,174 +1201,6 @@
         "category": "Immobilien",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-20T12:28:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/vermoegen-wie-sie-sich-ein-passives-einkommen-aufbauen/100188789.html",
-        "title": "Geldanlage: Aktien, Anleihen, ETFs, Optionen: So klappt es mit dem Nebenverdienst ohne Arbeit",
-        "summary": "Nichts tun und das Geld fließt trotzdem: Damit die Verheißung vom passiven Einkommen wahr werden kann, gilt es, häufige Fehler zu vermeiden – und sich von einer Illusion zu verabschieden.",
-        "paragraphs": [
-          "Nichts tun und das Geld fließt trotzdem: Damit die Verheißung vom passiven Einkommen wahr werden kann, gilt es, häufige Fehler zu vermeiden – und sich von einer Illusion zu verabschieden."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/vermoegen-wie-sie-sich-ein-passives-einkommen-aufbauen/100188789.html",
-        "category": "Anlagestrategie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T12:27:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/psychologe-wie-sich-gesunder-von-krankem-stress-unterscheidet/100184636.html",
-        "title": "Interview: „Ich rate niemandem dazu, Stress zu vermeiden“",
-        "summary": "Aus dem Handelsblatt-Archiv: Volker Busch leitet eine Stressambulanz. Er sagt: Gerade Jüngere  schaden sich oft selbst, indem sie Stress um jeden Preis vermeiden wollen.",
-        "paragraphs": [
-          "Aus dem Handelsblatt-Archiv: Volker Busch leitet eine Stressambulanz. Er sagt: Gerade Jüngere  schaden sich oft selbst, indem sie Stress um jeden Preis vermeiden wollen."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/psychologe-wie-sich-gesunder-von-krankem-stress-unterscheidet/100184636.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T12:26:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/aktien/staatsfonds-kenfo-investiert-kuenftig-auch-in-den-ruestungssektor/100218394.html",
-        "title": "Staatsfonds: Beschränkung aufgehoben – Kenfo investiert künftig auch in den Rüstungssektor",
-        "summary": "Der deutsche Staatsfonds ließ Aktien und Anleihen von Rüstungsunternehmen bislang außen vor. Angesichts der veränderten geopolitischen Lage ändert Kenfo nun seine Strategie.",
-        "paragraphs": [
-          "Der deutsche Staatsfonds ließ Aktien und Anleihen von Rüstungsunternehmen bislang außen vor. Angesichts der veränderten geopolitischen Lage ändert Kenfo nun seine Strategie."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/aktien/staatsfonds-kenfo-investiert-kuenftig-auch-in-den-ruestungssektor/100218394.html",
-        "category": "Aktien",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T12:14:08.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuererklaerung-auf-diese-punkte-achtet-das-finanzamt-01/100105886.html",
-        "title": "Einkommensteuer: Hier schaut das Finanzamt in der Steuererklärung für 2025 ganz genau hin",
-        "summary": "Viele Steuererklärungen werden automatisch bearbeitet. Doch in einigen Fällen ist das Finanzamt besonders kritisch. Wann Steuerzahler unangenehmen Nachfragen zuvorkommen sollten.",
-        "paragraphs": [
-          "Viele Steuererklärungen werden automatisch bearbeitet. Doch in einigen Fällen ist das Finanzamt besonders kritisch. Wann Steuerzahler unangenehmen Nachfragen zuvorkommen sollten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuererklaerung-auf-diese-punkte-achtet-das-finanzamt-01/100105886.html",
-        "category": "Steuern",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T12:14:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/unicredit-orcel-kritisiert-commerzbank-modell-scharf-und-wirbt-fuer-uebernahme/100218285.html",
-        "title": "Unicredit: „Dauerhaft unterdurchschnittliche Leistung“: Orcel attackiert die Commerzbank",
-        "summary": "Vorstandschef Andrea Orcel verschärft im Übernahmekampf den Ton. Er würde die Commerzbank grundlegend umbauen und nennt erstmals eine konkrete Zahl der bedrohten Arbeitsplätze.",
-        "paragraphs": [
-          "Vorstandschef Andrea Orcel verschärft im Übernahmekampf den Ton. Er würde die Commerzbank grundlegend umbauen und nennt erstmals eine konkrete Zahl der bedrohten Arbeitsplätze."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/unicredit-orcel-kritisiert-commerzbank-modell-scharf-und-wirbt-fuer-uebernahme/100218285.html",
-        "category": "Banken",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T12:12:37.000Z"
-      },
-      {
-        "id": "0bbe95c9-1cef-464a-9656-3592527ec646",
-        "title": "Tankrabatt: ÖPNV-Branche protestiert gegen geringeren Nachlass",
-        "summary": "Wegen EU-Vorgaben erhält der ÖPNV nicht die volle Entlastung beim Dieselpreis. Die Branche kritisiert das als »sozial unausgewogen« – und fordert einen Nachlass an anderer Stelle.",
-        "paragraphs": [
-          "Wegen EU-Vorgaben erhält der ÖPNV nicht die volle Entlastung beim Dieselpreis. Die Branche kritisiert das als »sozial unausgewogen« – und fordert einen Nachlass an anderer Stelle."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/service/tankrabatt-oepnv-branche-protestiert-gegen-geringeren-nachlass-a-0bbe95c9-1cef-464a-9656-3592527ec646#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-20T12:11:00.000Z"
-      },
-      {
-        "id": "fb0a39bc-08bf-4e64-962a-a93049614503",
-        "title": "Kay Scheller: Präsident des Bundesrechnungshofs warnt vor »Verschuldungsdynamik«",
-        "summary": "Das schwarz-rote Kabinett will kommende Woche die Eckpunkt des Haushalts 2027 beschließen. Die Regierung muss dabei Milliardenlücken stopfen. Nun mahnt der Bundesrechnungshof zur Sparsamkeit.",
-        "paragraphs": [
-          "Das schwarz-rote Kabinett will kommende Woche die Eckpunkt des Haushalts 2027 beschließen. Die Regierung muss dabei Milliardenlücken stopfen. Nun mahnt der Bundesrechnungshof zur Sparsamkeit."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/kay-scheller-praesident-des-bundesrechnungshofs-warnt-vor-verschuldungsdynamik-a-fb0a39bc-08bf-4e64-962a-a93049614503#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-20T12:07:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/karriere-welche-faktoren-bestimmen-den-aufstieg-in-deutschen-unternehmen/100147821.html",
-        "title": "Aufstiegschancen: „Excel statt Exzellenz“: Drei Faktoren entscheiden, wer es in deutschen Firmen nach ganz oben schafft",
-        "summary": "Viele Unternehmen befördern stets die gleichen Menschentypen und lassen die Belegschaft frustriert zurück. Experten erklären die entscheidenden Mechanismen – und was sich ändern muss.",
-        "paragraphs": [
-          "Viele Unternehmen befördern stets die gleichen Menschentypen und lassen die Belegschaft frustriert zurück. Experten erklären die entscheidenden Mechanismen – und was sich ändern muss."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/karriere-welche-faktoren-bestimmen-den-aufstieg-in-deutschen-unternehmen/100147821.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T12:05:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/mobilitaet/motor/fast-800-kilometer-reichweite-mercedes-c-klasse-faehrt-bald-auch-elektrisch/100218404.html",
-        "title": "Fast 800 Kilometer Reichweite: Mercedes C-Klasse fährt bald auch elektrisch",
-        "summary": "Erst der GLC, jetzt die C-Klasse: Mercedes bringt sein nächstes wichtiges Akku-Auto. Dabei locken die Schwaben die Generation E nicht nur mit elektrischer Performance, sondern einem vertrauten Gefühl.",
-        "paragraphs": [
-          "Erst der GLC, jetzt die C-Klasse: Mercedes bringt sein nächstes wichtiges Akku-Auto. Dabei locken die Schwaben die Generation E nicht nur mit elektrischer Performance, sondern einem vertrauten Gefühl."
-        ],
-        "link": "https://www.handelsblatt.com/mobilitaet/motor/fast-800-kilometer-reichweite-mercedes-c-klasse-faehrt-bald-auch-elektrisch/100218404.html",
-        "category": "Motor",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T12:02:52.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/panzermotoren-hersteller-betriebsrat-warnt-vor-jobabbau-bei-rolls-royce-am-bodensee/100218405.html",
-        "title": "Panzermotoren-Hersteller: Betriebsrat warnt vor Jobabbau bei Rolls-Royce am Bodensee",
-        "summary": "Bis zu 3.000 Stellen bei Rolls-Royce Power Systems könnten laut Betriebsrat gefährdet sein. Das Unternehmen betont jedoch die Bedeutung des Standorts Friedrichshafen.",
-        "paragraphs": [
-          "Bis zu 3.000 Stellen bei Rolls-Royce Power Systems könnten laut Betriebsrat gefährdet sein. Das Unternehmen betont jedoch die Bedeutung des Standorts Friedrichshafen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/panzermotoren-hersteller-betriebsrat-warnt-vor-jobabbau-bei-rolls-royce-am-bodensee/100218405.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T12:00:49.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/digitaler-euro-abstimmungen-im-eu-parlament-verzoegern-sich/100218351.html",
-        "title": "EZB: Abstimmungen zum digitalen Euro im EU-Parlament verzögern sich",
-        "summary": "Alle warten darauf, dass sich das EU-Parlament zum digitalen Euro positioniert. Doch Insidern zufolge brauchen die Abgeordneten mehr Zeit. Der Zeitplan für das gesamte Projekt wackelt.",
-        "paragraphs": [
-          "Alle warten darauf, dass sich das EU-Parlament zum digitalen Euro positioniert. Doch Insidern zufolge brauchen die Abgeordneten mehr Zeit. Der Zeitplan für das gesamte Projekt wackelt."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/digitaler-euro-abstimmungen-im-eu-parlament-verzoegern-sich/100218351.html",
-        "category": "Devisen + Rohstoffe",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T12:00:31.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/energiekrise-merz-verspricht-sichere-treibstoffversorgung-trotz-krise/100218403.html",
-        "title": "Energiekrise: Merz verspricht sichere Treibstoffversorgung trotz Krise",
-        "summary": "Droht ein Treibstoffmangel? Die Bundesregierung sieht die Versorgung gesichert, bereitet sich aber auf weitere Maßnahmen vor. Was Kanzler Merz und Ministerin Reiche dazu sagen.",
-        "paragraphs": [
-          "Droht ein Treibstoffmangel? Die Bundesregierung sieht die Versorgung gesichert, bereitet sich aber auf weitere Maßnahmen vor. Was Kanzler Merz und Ministerin Reiche dazu sagen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/energiekrise-merz-verspricht-sichere-treibstoffversorgung-trotz-krise/100218403.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T11:59:45.000Z"
-      },
-      {
-        "id": "bf31901e-c46c-4133-8530-3b8e661c120f",
-        "title": "USA: Jetzt zahlt Donald Trumps Regierung die einkassierten Zölle zurück",
-        "summary": "Ein hartes Zollregime gehört zum Kern von Donald Trumps Politik. Doch nach einem Gerichtsurteil startet die US-Regierung nun mit der ihr auferlegten Erstattung in Milliardenhöhe. Fast 60.000 Firmen können mit einer Rückzahlung rechnen.",
-        "paragraphs": [
-          "Ein hartes Zollregime gehört zum Kern von Donald Trumps Politik. Doch nach einem Gerichtsurteil startet die US-Regierung nun mit der ihr auferlegten Erstattung in Milliardenhöhe. Fast 60.000 Firmen können mit einer Rückzahlung rechnen."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/usa-jetzt-zahlt-donald-trumps-regierung-die-einkassierten-zoelle-zurueck-a-bf31901e-c46c-4133-8530-3b8e661c120f#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-20T11:53:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuererklaerung-diese-werbungskosten-koennen-sie-von-der-steuer-absetzen-02/100105891.html",
-        "title": "Steuererklärung 2025: 1230 Euro pauschal – diese Werbungskosten senken die Steuerlast noch weiter",
-        "summary": "Ob Bücher oder Bahntickets – rund um den Job gibt es zahlreiche Möglichkeiten, Werbungskosten abzusetzen und so am Ende Steuern zu sparen. Ein Überblick.",
-        "paragraphs": [
-          "Ob Bücher oder Bahntickets – rund um den Job gibt es zahlreiche Möglichkeiten, Werbungskosten abzusetzen und so am Ende Steuern zu sparen. Ein Überblick."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuererklaerung-diese-werbungskosten-koennen-sie-von-der-steuer-absetzen-02/100105891.html",
-        "category": "Steuern",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T11:40:00.000Z"
       }
     ]
   }
