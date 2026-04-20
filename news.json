@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-20T07:20:43.590Z",
+  "updatedAt": "2026-04-20T07:50:55.445Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "3e549d59-0c08-4a08-8f81-d8a09fa535a0",
+        "title": "Test-App für schlechtes Handynetz startet",
+        "summary": "Verbraucherinnen und Verbraucher können ab heute mit einer neuen App prüfen, ob ihr Handynetz zu langsam ist. Und falls das so ist, können sie Geld zurück verlangen - oder den Vertrag gleich ganz kündigen.",
+        "paragraphs": [
+          "Verbraucherinnen und Verbraucher können ab heute mit einer neuen App prüfen, ob ihr Handynetz zu langsam ist. Und falls das so ist, können sie Geld zurück verlangen - oder den Vertrag gleich ganz kündigen."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/verbraucher/app-rechtsanspruch-bei-schlechtem-handynetz-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-20T07:29:47.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Regulaeres-Mietangebot-sinkt-stark-moeblierte-Wohnungen-boomen-id30732384.html",
         "title": "Studie zeigt Wandel im Mietmarkt: Reguläres Mietangebot sinkt stark, möblierte Wohnungen boomen",
@@ -229,18 +241,6 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-18T21:05:42.000Z"
-      },
-      {
-        "id": "a767f8e9-6a36-4fb5-9dd4-48458c5ee77f",
-        "title": "Mann erschießt mehrere Menschen in Kiew",
-        "summary": "In der ukrainischen Hauptstadt Kiew hat ein Mann nach offiziellen Angaben sechs Menschen erschossen. Der Angreifer hatte sich in einem Supermarkt verschanzt und Geiseln genommen. Bei der Festnahme wurde er getötet.",
-        "paragraphs": [
-          "In der ukrainischen Hauptstadt Kiew hat ein Mann nach offiziellen Angaben sechs Menschen erschossen. Der Angreifer hatte sich in einem Supermarkt verschanzt und Geiseln genommen. Bei der Festnahme wurde er getötet."
-        ],
-        "link": "https://www.tagesschau.de/ausland/europa/schusswaffenangriff-kiew-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-18T20:49:03.000Z"
       }
     ],
     "politik": [
@@ -449,9 +449,9 @@
       {
         "id": "li.3469811",
         "title": "Israel: Wo die Waffenruhe wenig Freunde hat",
-        "summary": "Die Waffenruhe mit Libanon können sowohl Donald Trump als auch die iranische Führung als Erfolg verkaufen. Israels Premier nicht: Benjamin Netanjahu hat keines seiner Ziele in Libanon erreicht.",
+        "summary": "Die Waffenruhe in Libanon können sowohl Donald Trump als auch die iranische Führung als Erfolg verkaufen. Israels Premier nicht: Benjamin Netanjahu hat keines seiner Ziele in Libanon erreicht.",
         "paragraphs": [
-          "Die Waffenruhe mit Libanon können sowohl Donald Trump als auch die iranische Führung als Erfolg verkaufen. Israels Premier nicht: Benjamin Netanjahu hat keines seiner Ziele in Libanon erreicht."
+          "Die Waffenruhe in Libanon können sowohl Donald Trump als auch die iranische Führung als Erfolg verkaufen. Israels Premier nicht: Benjamin Netanjahu hat keines seiner Ziele in Libanon erreicht."
         ],
         "link": "https://www.sueddeutsche.de/politik/israel-waffenruhe-libanon-netanjahu-li.3469811",
         "category": "Israel",
@@ -485,8 +485,44 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/wir-sind-auf-irgendeine-art-und-weise-auf-augenhoehe-mit-bayern-1211948/artikel#omrss",
+        "title": "\"Wir sind auf irgendeine Art und Weise auf Augenhöhe mit Bayern\"",
+        "summary": "Mehr als die Gegentore in München ärgerte VfB-Kapitän Atakan Karazor die Stuttgarter Reaktion darauf. Trotzdem ließ er mit einer kleinen Kampfansage an die Bayern aufhorchen.",
+        "paragraphs": [
+          "Mehr als die Gegentore in München ärgerte VfB-Kapitän Atakan Karazor die Stuttgarter Reaktion darauf. Trotzdem ließ er mit einer kleinen Kampfansage an die Bayern aufhorchen."
+        ],
+        "link": "https://www.kicker.de/wir-sind-auf-irgendeine-art-und-weise-auf-augenhoehe-mit-bayern-1211948/artikel#omrss",
+        "category": "Bayern München",
+        "source": "Kicker",
+        "publishedAt": "2026-04-20T07:30:59.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/bayerns-zadrazil-geht-es-gut-auch-wegen-des-historischen-spiels-1211701/artikel#omrss",
+        "title": "Bayerns Zadrazil geht es gut - auch wegen des historischen Spiels",
+        "summary": "Ein spezielles Wochenende liegt hinter Sarah Zadrazil: Die Spielerin des FC Bayern wurde in Österreich als Fußballerin des Jahres geehrt. Und dann folgte das wundersame Match gegen Deutschland ...",
+        "paragraphs": [
+          "Ein spezielles Wochenende liegt hinter Sarah Zadrazil: Die Spielerin des FC Bayern wurde in Österreich als Fußballerin des Jahres geehrt. Und dann folgte das wundersame Match gegen Deutschland ..."
+        ],
+        "link": "https://www.kicker.de/bayerns-zadrazil-geht-es-gut-auch-wegen-des-historischen-spiels-1211701/artikel#omrss",
+        "category": "Bayern München",
+        "source": "Kicker",
+        "publishedAt": "2026-04-20T07:30:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/two-way-dominanz-duncan-rekord-gebrochen-wemby-glaenzt-bei-playoff-debuet-1211935/artikel#omrss",
+        "title": "Two-Way-Dominanz, Duncan-Rekord gebrochen: Wemby glänzt bei Playoff-Debüt",
+        "summary": "Die Spurs haben zum Playoff-Auftakt ein klares Zeichen gesetzt. Beim ersten Postseason-Spiel der Franchise seit 2019 stand vor allem Victor Wembanyama im Mittelpunkt, der bei seinem Debüt direkt historisch ablieferte.",
+        "paragraphs": [
+          "Die Spurs haben zum Playoff-Auftakt ein klares Zeichen gesetzt. Beim ersten Postseason-Spiel der Franchise seit 2019 stand vor allem Victor Wembanyama im Mittelpunkt, der bei seinem Debüt direkt historisch ablieferte."
+        ],
+        "link": "https://www.kicker.de/two-way-dominanz-duncan-rekord-gebrochen-wemby-glaenzt-bei-playoff-debuet-1211935/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-20T07:30:00.000Z"
+      },
+      {
         "id": "li.3470632",
-        "title": "Sommerspiele-Referendum in NRW: Jetzt beginnt die teure Zeit der Olympia-Lobbyisten",
+        "title": "Sommerspiele-Referendum in NRW: Jetzt beginnt die Zeit der Olympia-Lobbyisten",
         "summary": "Nordrhein-Westfalen kann bei der Olympia-Begeisterung mit München mithalten, die „Leading City“ Köln fällt hingegen zurück. Die Referenden liefern zwei Botschaften – doch entscheidend wird etwas ganz anderes.",
         "paragraphs": [
           "Nordrhein-Westfalen kann bei der Olympia-Begeisterung mit München mithalten, die „Leading City“ Köln fällt hingegen zurück. Die Referenden liefern zwei Botschaften – doch entscheidend wird etwas ganz anderes."
@@ -497,6 +533,18 @@
         "publishedAt": "2026-04-20T07:10:39.000Z"
       },
       {
+        "id": "https://www.kicker.de/was-es-mit-dem-kakadu-beim-fc-bayern-auf-sich-hat-1211947/artikel#omrss",
+        "title": "Was es mit dem Kakadu beim FC Bayern auf sich hat",
+        "summary": "Dieses Tierchen ist alles andere als ein Pechvogel: Ein Porzellan-Kakadu ist zum Maskottchen des FC Bayern geworden. Wie das Tier zu den Meisterfeiern kam und warum es nun auf den Shirts zu sehen ist.",
+        "paragraphs": [
+          "Dieses Tierchen ist alles andere als ein Pechvogel: Ein Porzellan-Kakadu ist zum Maskottchen des FC Bayern geworden. Wie das Tier zu den Meisterfeiern kam und warum es nun auf den Shirts zu sehen ist."
+        ],
+        "link": "https://www.kicker.de/was-es-mit-dem-kakadu-beim-fc-bayern-auf-sich-hat-1211947/artikel#omrss",
+        "category": "Bayern München",
+        "source": "Kicker",
+        "publishedAt": "2026-04-20T07:10:35.000Z"
+      },
+      {
         "id": "fff4a1a0-a364-46b5-8fcf-20e17419910f",
         "title": "FC Bayern München ist Deutscher Meister: Was die Bayern in dieser Saison anders machen",
         "summary": "Die Bayern sind Deutscher Meister, aber einiges ist anders als in der Vorsaison. Diese fünf Beobachtungen erklären, was die Münchner so stark macht und warum noch zwei Titel folgen könnten.",
@@ -504,18 +552,6 @@
           "Die Bayern sind Deutscher Meister, aber einiges ist anders als in der Vorsaison. Diese fünf Beobachtungen erklären, was die Münchner so stark macht und warum noch zwei Titel folgen könnten."
         ],
         "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-ist-deutscher-meister-was-die-bayern-in-dieser-saison-anders-machen-a-fff4a1a0-a364-46b5-8fcf-20e17419910f#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-20T07:09:00.000Z"
-      },
-      {
-        "id": "cf6259f3-ab5e-48e2-afe5-7ad92c7195d1",
-        "title": "Der FC Bayern München und die 35. Deutsche Meisterschaft: Feiern mit Handbremse",
-        "summary": "Ohne Bierduschen und große Gefühle: So nüchtern wie diesmal fielen die Feierlichkeiten rund um den Meistertitel des FC Bayern vielleicht noch nie aus. Aber das sagt einiges aus über die Ziele des Club.",
-        "paragraphs": [
-          "Ohne Bierduschen und große Gefühle: So nüchtern wie diesmal fielen die Feierlichkeiten rund um den Meistertitel des FC Bayern vielleicht noch nie aus. Aber das sagt einiges aus über die Ziele des Club."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/der-fc-bayern-muenchen-und-die-35-deutsche-meisterschaft-feiern-mit-handbremse-a-cf6259f3-ab5e-48e2-afe5-7ad92c7195d1#ref=rss",
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-04-20T07:09:00.000Z"
@@ -617,6 +653,18 @@
         "publishedAt": "2026-04-20T06:00:00.000Z"
       },
       {
+        "id": "cf6259f3-ab5e-48e2-afe5-7ad92c7195d1",
+        "title": "Der FC Bayern München und die 35. Deutsche Meisterschaft: Feiern mit Handbremse",
+        "summary": "Ohne Bierduschen und große Gefühle: So nüchtern wie diesmal fielen die Feierlichkeiten rund um den Meistertitel des FC Bayern vielleicht noch nie aus. Aber das sagt einiges aus über die Ziele des Club.",
+        "paragraphs": [
+          "Ohne Bierduschen und große Gefühle: So nüchtern wie diesmal fielen die Feierlichkeiten rund um den Meistertitel des FC Bayern vielleicht noch nie aus. Aber das sagt einiges aus über die Ziele des Club."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/der-fc-bayern-muenchen-und-die-35-deutsche-meisterschaft-feiern-mit-handbremse-a-cf6259f3-ab5e-48e2-afe5-7ad92c7195d1#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-20T05:07:00.000Z"
+      },
+      {
         "id": "{urn:uuid:12bbc6f5-e237-4b77-8c8e-c97f7927c328}",
         "title": "Bundesligarückschau: Am besten wäre, die Verteidiger hätten keine Arme",
         "summary": "Wir müssen noch einmal über die Handspielregel reden. Im Norden brennt’s. Und ein Kakadu wird erneut Meister. Alles vom Fußballwochenende",
@@ -675,54 +723,6 @@
         "category": "Olympia",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-20T01:31:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/konfetti-rekord-und-paredes-entscheidung-boca-siegt-bei-river-plate-1211909/video#omrss",
-        "title": "Konfetti-Rekord und Paredes-Entscheidung: Boca siegt bei River Plate",
-        "summary": "Der Superclasico in Buenos Aires sorgt für einen neuen Konfetti-Rekord neben und für einen Boca-Sieg auf dem Platz. Ex-PSG-Spieler Leandro Paredes hatte entscheidenden Anteil an Letzterem. Die Highlights gibt es hier im Video.",
-        "paragraphs": [
-          "Der Superclasico in Buenos Aires sorgt für einen neuen Konfetti-Rekord neben und für einen Boca-Sieg auf dem Platz. Ex-PSG-Spieler Leandro Paredes hatte entscheidenden Anteil an Letzterem. Die Highlights gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/konfetti-rekord-und-paredes-entscheidung-boca-siegt-bei-river-plate-1211909/video#omrss",
-        "category": "Boca Juniors",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T23:37:18.000Z"
-      },
-      {
-        "id": "{urn:uuid:67d9d859-aed9-4c42-92d9-4936411725f0}",
-        "title": "Köln-Rhein/Ruhr: Klare Mehrheit in NRW für Bewerbung um Olympische Spiele",
-        "summary": "In Nordrhein-Westfalen ergaben Bürgerentscheide ein klares Votum für eine Bewerbung um die Olympischen Spiele. Auch in Kiel gab es eine deutliche Mehrheit.",
-        "paragraphs": [
-          "In Nordrhein-Westfalen ergaben Bürgerentscheide ein klares Votum für eine Bewerbung um die Olympischen Spiele. Auch in Kiel gab es eine deutliche Mehrheit."
-        ],
-        "link": "https://www.zeit.de/sport/2026-04/olympische-spiele-bewerbung-nrw",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-04-19T23:03:59.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/matchdart-verpasst-schindlers-fast-ueberraschung-gegen-price-im-video-1211908/video#omrss",
-        "title": "Matchdart verpasst: Schindlers Fast-Überraschung gegen Price im Video",
-        "summary": "Denkbar knapp hat Martin Schindler sein Viertelfinale beim European Darts Grand Prix verloren. Gegen den späteren Sieger Gerwyn Price verpasste der Deutsche einen Matchdart auf die Doppel-Fünf. Die Highlights vom Viertel- bis zum Finale gibt es hier im Video.",
-        "paragraphs": [
-          "Denkbar knapp hat Martin Schindler sein Viertelfinale beim European Darts Grand Prix verloren. Gegen den späteren Sieger Gerwyn Price verpasste der Deutsche einen Matchdart auf die Doppel-Fünf. Die Highlights vom Viertel- bis zum Finale gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/matchdart-verpasst-schindlers-fast-ueberraschung-gegen-price-im-video-1211908/video#omrss",
-        "category": "Darts",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T22:41:06.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/guardiola-lieber-ein-buch-lesen-als-in-haalands-haut-stecken-1211907/video#omrss",
-        "title": "Guardiola: \"Lieber ein Buch lesen als in Haalands Haut stecken\"",
-        "summary": "Manchester City gewinnt das wegweisende Topduell in der Premier League gegen Arsenal mit 2:1. Trainer Pep Guardiola zeigt sich angesichts der Entwicklung seiner Mannschaft stolz.",
-        "paragraphs": [
-          "Manchester City gewinnt das wegweisende Topduell in der Premier League gegen Arsenal mit 2:1. Trainer Pep Guardiola zeigt sich angesichts der Entwicklung seiner Mannschaft stolz."
-        ],
-        "link": "https://www.kicker.de/guardiola-lieber-ein-buch-lesen-als-in-haalands-haut-stecken-1211907/video#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T22:27:25.000Z"
       }
     ],
     "edv": [
@@ -739,16 +739,16 @@
         "publishedAt": "2026-04-18T15:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Bei-schlechtem-Handynetz-Tests-fuer-Rechtsanspruch-gehen-los-11263677.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Bei schlechtem Handynetz: Tests für Rechtsanspruch gehen los",
-        "summary": "Handyvertrag bombastisch gut, Realität mies: Wer so eine Erfahrung macht, kann nun Tests für einen rechtssicheren Minderungsanspruch starten.",
+        "id": "https://www.heise.de/news/Ungepatchte-Windows-Zero-Days-RedSun-UnDefend-und-BlueHammer-werden-attackiert-11263691.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Ungepatchte Windows-Zero-Days RedSun, UnDefend und BlueHammer werden attackiert",
+        "summary": "Die Zero-Day-Lücken im Windows Defender mit den Namen BlueHammer, RedSun und UnDefend werden offenbar attackiert.",
         "paragraphs": [
-          "Handyvertrag bombastisch gut, Realität mies: Wer so eine Erfahrung macht, kann nun Tests für einen rechtssicheren Minderungsanspruch starten."
+          "Die Zero-Day-Lücken im Windows Defender mit den Namen BlueHammer, RedSun und UnDefend werden offenbar attackiert."
         ],
-        "link": "https://www.heise.de/news/Bei-schlechtem-Handynetz-Tests-fuer-Rechtsanspruch-gehen-los-11263677.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Ungepatchte-Windows-Zero-Days-RedSun-UnDefend-und-BlueHammer-werden-attackiert-11263691.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T06:44:00.000Z"
+        "publishedAt": "2026-04-20T07:43:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Kann-jeder-3D-Druck-c-t-3003-11261187.html",
@@ -763,16 +763,16 @@
         "publishedAt": "2026-04-17T14:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Microsoft-Update-ausser-der-Reihe-gegen-ungewollte-Server-Reboots-11263633.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Microsoft: Update außer der Reihe gegen ungewollte Server-Reboots",
-        "summary": "Ein ungeplantes Update von Microsoft soll automatisch neustartende Windows-Server heilen. Das kann nach den April-Updates auftreten.",
+        "id": "https://www.heise.de/news/Zahlreiche-Attacken-auf-Dell-PowerProtect-Data-Domain-moeglich-11263713.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Zahlreiche Attacken auf Dell PowerProtect Data Domain möglich",
+        "summary": "In aktuellen Versionen von Dell PowerProtect Data Domain haben die Entwickler Schwachstellen geschlossen.",
         "paragraphs": [
-          "Ein ungeplantes Update von Microsoft soll automatisch neustartende Windows-Server heilen. Das kann nach den April-Updates auftreten."
+          "In aktuellen Versionen von Dell PowerProtect Data Domain haben die Entwickler Schwachstellen geschlossen."
         ],
-        "link": "https://www.heise.de/news/Microsoft-Update-ausser-der-Reihe-gegen-ungewollte-Server-Reboots-11263633.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Zahlreiche-Attacken-auf-Dell-PowerProtect-Data-Domain-moeglich-11263713.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T06:27:00.000Z"
+        "publishedAt": "2026-04-20T07:34:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Terahertz-Scanner-untersucht-aktive-Halbleiter-kontaktlos-11262760.html",
@@ -787,16 +787,16 @@
         "publishedAt": "2026-04-17T13:28:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Bezos-Rakete-setzt-Satellit-in-falscher-Umlaufbahn-ab-11263639.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Bezos-Rakete setzt Satellit in falscher Umlaufbahn ab",
-        "summary": "Bereits zum dritten Mal startete die Schwerlastrakete „New Glenn“ von Amazon-Gründer Bezos. Dabei erreichte sie neue Meilensteine – aber eine Sache ging schief.",
+        "id": "https://www.heise.de/news/Bei-schlechtem-Handynetz-Tests-fuer-Rechtsanspruch-gehen-los-11263677.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Schlechtes Handynetz: Neue App für Minderungsansprüche verfügbar",
+        "summary": "Handyvertrag bombastisch gut, Realität mies: Wer so eine Erfahrung macht, kann nun Tests für einen rechtssicheren Minderungsanspruch starten.",
         "paragraphs": [
-          "Bereits zum dritten Mal startete die Schwerlastrakete „New Glenn“ von Amazon-Gründer Bezos. Dabei erreichte sie neue Meilensteine – aber eine Sache ging schief."
+          "Handyvertrag bombastisch gut, Realität mies: Wer so eine Erfahrung macht, kann nun Tests für einen rechtssicheren Minderungsanspruch starten."
         ],
-        "link": "https://www.heise.de/news/Bezos-Rakete-setzt-Satellit-in-falscher-Umlaufbahn-ab-11263639.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Bei-schlechtem-Handynetz-Tests-fuer-Rechtsanspruch-gehen-los-11263677.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T06:15:00.000Z"
+        "publishedAt": "2026-04-20T06:44:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Core-300-Intel-stellt-Billigprozessor-Wildcat-Lake-vor-11262501.html",
@@ -811,16 +811,16 @@
         "publishedAt": "2026-04-17T12:04:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Cralon-Ehemalige-Gothic-Entwickler-veroeffentlichen-Dungeon-Crawler-11263605.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„Cralon“: Ehemalige „Gothic“-Entwickler veröffentlichen Dungeon Crawler",
-        "summary": "Mit „Cralon“ haben ehemalige Piranha-Bytes-Entwickler Jennifer und Björn Pankratz ihr erstes eigenes Spiel veröffentlicht. Nutzer sind nur bedingt angetan.",
+        "id": "https://www.heise.de/news/Microsoft-Update-ausser-der-Reihe-gegen-ungewollte-Server-Reboots-11263633.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Microsoft: Update außer der Reihe gegen ungewollte Server-Reboots",
+        "summary": "Ein ungeplantes Update von Microsoft soll automatisch neustartende Windows-Server heilen. Das kann nach den April-Updates auftreten.",
         "paragraphs": [
-          "Mit „Cralon“ haben ehemalige Piranha-Bytes-Entwickler Jennifer und Björn Pankratz ihr erstes eigenes Spiel veröffentlicht. Nutzer sind nur bedingt angetan."
+          "Ein ungeplantes Update von Microsoft soll automatisch neustartende Windows-Server heilen. Das kann nach den April-Updates auftreten."
         ],
-        "link": "https://www.heise.de/news/Cralon-Ehemalige-Gothic-Entwickler-veroeffentlichen-Dungeon-Crawler-11263605.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Microsoft-Update-ausser-der-Reihe-gegen-ungewollte-Server-Reboots-11263633.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T06:11:00.000Z"
+        "publishedAt": "2026-04-20T06:27:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Android-17-Beta-4-Letzte-Testversion-vor-dem-finalen-Release-11261781.html",
@@ -835,16 +835,16 @@
         "publishedAt": "2026-04-17T07:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Ueber-30-Vortraege-und-Workshops-aus-dem-Testing-Umfeld-beim-German-Testing-Day-11259914.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: German Testing Day 2026: Software-Qualität steht in Frankfurt im Fokus",
-        "summary": "Am 6. und 7. Mai erwarten Sie zahlreiche nationale und internationale Sprecher aus dem Testing-Umfeld in Frankfurt am Main.",
+        "id": "https://www.heise.de/news/Bezos-Rakete-setzt-Satellit-in-falscher-Umlaufbahn-ab-11263639.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Bezos-Rakete setzt Satellit in falscher Umlaufbahn ab",
+        "summary": "Bereits zum dritten Mal startete die Schwerlastrakete „New Glenn“ von Amazon-Gründer Bezos. Dabei erreichte sie neue Meilensteine – aber eine Sache ging schief.",
         "paragraphs": [
-          "Am 6. und 7. Mai erwarten Sie zahlreiche nationale und internationale Sprecher aus dem Testing-Umfeld in Frankfurt am Main."
+          "Bereits zum dritten Mal startete die Schwerlastrakete „New Glenn“ von Amazon-Gründer Bezos. Dabei erreichte sie neue Meilensteine – aber eine Sache ging schief."
         ],
-        "link": "https://www.heise.de/news/Ueber-30-Vortraege-und-Workshops-aus-dem-Testing-Umfeld-beim-German-Testing-Day-11259914.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Bezos-Rakete-setzt-Satellit-in-falscher-Umlaufbahn-ab-11263639.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T06:00:00.000Z"
+        "publishedAt": "2026-04-20T06:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-157-Datenschutz-vor-Gericht-11260020.html",
@@ -859,16 +859,16 @@
         "publishedAt": "2026-04-17T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Montag-Eroeffnung-der-Hannover-Messe-2026-Raumsonde-Voyager-1-im-Stromsparmodus-11263589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Montag: Eröffnung der Hannover Messe 2026, Raumsonde Voyager 1 im Stromsparmodus",
-        "summary": "Partnerland Brasilien für Erneuerbare + Stromsparpläne für Sonden + Microsoft Teams mit Paste-Problem + Amazon gegen Sideloading + Piraten-Rollenspiel Windrose",
+        "id": "https://www.heise.de/news/Cralon-Ehemalige-Gothic-Entwickler-veroeffentlichen-Dungeon-Crawler-11263605.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„Cralon“: Ehemalige „Gothic“-Entwickler veröffentlichen Dungeon Crawler",
+        "summary": "Mit „Cralon“ haben ehemalige Piranha-Bytes-Entwickler Jennifer und Björn Pankratz ihr erstes eigenes Spiel veröffentlicht. Nutzer sind nur bedingt angetan.",
         "paragraphs": [
-          "Partnerland Brasilien für Erneuerbare + Stromsparpläne für Sonden + Microsoft Teams mit Paste-Problem + Amazon gegen Sideloading + Piraten-Rollenspiel Windrose"
+          "Mit „Cralon“ haben ehemalige Piranha-Bytes-Entwickler Jennifer und Björn Pankratz ihr erstes eigenes Spiel veröffentlicht. Nutzer sind nur bedingt angetan."
         ],
-        "link": "https://www.heise.de/news/Montag-Eroeffnung-der-Hannover-Messe-2026-Raumsonde-Voyager-1-im-Stromsparmodus-11263589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Cralon-Ehemalige-Gothic-Entwickler-veroeffentlichen-Dungeon-Crawler-11263605.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T04:15:00.000Z"
+        "publishedAt": "2026-04-20T06:11:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Googles-Maerz-Update-auf-Android-16-QPR3-Pixel-Nutzer-melden-zahlreiche-Bugs-11260042.html",
@@ -881,6 +881,30 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-16T09:16:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Ueber-30-Vortraege-und-Workshops-aus-dem-Testing-Umfeld-beim-German-Testing-Day-11259914.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: German Testing Day 2026: Software-Qualität steht in Frankfurt im Fokus",
+        "summary": "Am 6. und 7. Mai erwarten Sie zahlreiche nationale und internationale Sprecher aus dem Testing-Umfeld in Frankfurt am Main.",
+        "paragraphs": [
+          "Am 6. und 7. Mai erwarten Sie zahlreiche nationale und internationale Sprecher aus dem Testing-Umfeld in Frankfurt am Main."
+        ],
+        "link": "https://www.heise.de/news/Ueber-30-Vortraege-und-Workshops-aus-dem-Testing-Umfeld-beim-German-Testing-Day-11259914.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-20T06:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Montag-Eroeffnung-der-Hannover-Messe-2026-Raumsonde-Voyager-1-im-Stromsparmodus-11263589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Montag: Eröffnung der Hannover Messe 2026, Raumsonde Voyager 1 im Stromsparmodus",
+        "summary": "Partnerland Brasilien für Erneuerbare + Stromsparpläne für Sonden + Microsoft Teams mit Paste-Problem + Amazon gegen Sideloading + Piraten-Rollenspiel Windrose",
+        "paragraphs": [
+          "Partnerland Brasilien für Erneuerbare + Stromsparpläne für Sonden + Microsoft Teams mit Paste-Problem + Amazon gegen Sideloading + Piraten-Rollenspiel Windrose"
+        ],
+        "link": "https://www.heise.de/news/Montag-Eroeffnung-der-Hannover-Messe-2026-Raumsonde-Voyager-1-im-Stromsparmodus-11263589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-20T04:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/NASA-schaltet-weiteres-Instrument-der-ersten-Voyager-Sonde-zum-Strom-sparen-ab-11263579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -908,10 +932,10 @@
       },
       {
         "id": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 7: Die beste Heißluftfritteuse im Test – Cosori Airfryer vor Ninja & Co.",
-        "summary": "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App.",
+        "title": "Top 7: Die beste Heißluftfritteuse im Test",
+        "summary": "Heißluftfritteusen ermöglichen einfaches, fettarmes Garen. Manche Modelle, wie der Testsieger, bieten sogar eine App.",
         "paragraphs": [
-          "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App."
+          "Heißluftfritteusen ermöglichen einfaches, fettarmes Garen. Manche Modelle, wie der Testsieger, bieten sogar eine App."
         ],
         "link": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
@@ -941,44 +965,68 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-19T15:47:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Microsoft Teams: Einfügen per Rechtsklick funktioniert nicht mehr",
-        "summary": "Ein fehlerhaftes Edge-Update hat die Paste-Funktion im Kontextmenü von Microsoft Teams außer Gefecht gesetzt. Tastaturkürzel funktionieren weiterhin.",
-        "paragraphs": [
-          "Ein fehlerhaftes Edge-Update hat die Paste-Funktion im Kontextmenü von Microsoft Teams außer Gefecht gesetzt. Tastaturkürzel funktionieren weiterhin."
-        ],
-        "link": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-19T14:24:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/bestenlisten/testbericht/jonr-x9-pro-im-test-saugroboter-erkennt-teppiche-gut-und-hebt-die-wischwalze-an/7wp5l4z?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Jonr X9 Pro im Test: Saugroboter erkennt Teppiche gut und hebt die Wischwalze an",
-        "summary": "Ausfahrbare und anhebbare Wischrolle, Station mit Absaugung, heißem Wasser und warmer Luft, außerdem tolle Navigation und Xiaomi-App – was kann der X9 Pro?",
-        "paragraphs": [
-          "Ausfahrbare und anhebbare Wischrolle, Station mit Absaugung, heißem Wasser und warmer Luft, außerdem tolle Navigation und Xiaomi-App – was kann der X9 Pro?"
-        ],
-        "link": "https://www.heise.de/bestenlisten/testbericht/jonr-x9-pro-im-test-saugroboter-erkennt-teppiche-gut-und-hebt-die-wischwalze-an/7wp5l4z?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-19T14:00:00.000Z"
       }
     ],
     "börse": [
       {
-        "id": "https://www.handelsblatt.com/karriere/karriere-mit-diesen-tipps-steigern-sie-ihre-jobchancen/100204043.html",
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-diese-energiefonds-erzielten-im-ersten-quartal-top-renditen/100216566.html",
+        "title": "Geldanlage: Bis zu 43 Prozent Rendite: Die Top-Fonds im Krisenquartal",
+        "summary": "Fonds für Energie- und Rohstoffaktien haben Anlegern im ersten Quartal die höchsten Renditen gebracht. Das sind die Produkte mit dem größten Plus.",
+        "paragraphs": [
+          "Fonds für Energie- und Rohstoffaktien haben Anlegern im ersten Quartal die höchsten Renditen gebracht. Das sind die Produkte mit dem größten Plus."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-diese-energiefonds-erzielten-im-ersten-quartal-top-renditen/100216566.html",
+        "category": "Anlagestrategie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T07:39:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/terrorvorwuerfe-russischer-geheimdienst-meldet-festnahme-einer-deutschen/100218317.html",
+        "title": "Terrorvorwürfe: Russischer Geheimdienst meldet Festnahme einer Deutschen",
+        "summary": "Moskau wirft ukrainischen Geheimdiensten immer wieder vor, Anschläge in Russland zu planen und auszuführen. Jetzt meldet der FSB die Festnahme einer Deutschen – und erhebt schwere Vorwürfe.",
+        "paragraphs": [
+          "Moskau wirft ukrainischen Geheimdiensten immer wieder vor, Anschläge in Russland zu planen und auszuführen. Jetzt meldet der FSB die Festnahme einer Deutschen – und erhebt schwere Vorwürfe."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/terrorvorwuerfe-russischer-geheimdienst-meldet-festnahme-einer-deutschen/100218317.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T07:32:34.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/energie/energie-deutschland-startet-privatisierung-von-gazprom-ableger/100218275.html",
+        "title": "Energie: Deutschland startet Privatisierung von Gazprom-Ableger",
+        "summary": "Als Reaktion auf den Ukraine-Krieg war Gazprom Germania verstaatlicht worden. Nun beginnt der Rückzug des Bundes. Sefe plant eine Kapitalerhöhung.",
+        "paragraphs": [
+          "Als Reaktion auf den Ukraine-Krieg war Gazprom Germania verstaatlicht worden. Nun beginnt der Rückzug des Bundes. Sefe plant eine Kapitalerhöhung."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/energie/energie-deutschland-startet-privatisierung-von-gazprom-ableger/100218275.html",
+        "category": "Energie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T07:28:25.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/karriere-mit-diesen-tipps-steigern-sie-ihre-jobchancen-01/100204043.html",
         "title": "Neuanfang: Mit diesen Tipps steigern Sie Ihre Jobchancen",
         "summary": "Um sich auf dem angespannten Arbeitsmarkt zu behaupten, reichen altbewährte Bewerbungstipps nicht mehr aus. Wie erhöhen Jobsuchende ihre Chancen?",
         "paragraphs": [
           "Um sich auf dem angespannten Arbeitsmarkt zu behaupten, reichen altbewährte Bewerbungstipps nicht mehr aus. Wie erhöhen Jobsuchende ihre Chancen?"
         ],
-        "link": "https://www.handelsblatt.com/karriere/karriere-mit-diesen-tipps-steigern-sie-ihre-jobchancen/100204043.html",
+        "link": "https://www.handelsblatt.com/karriere/karriere-mit-diesen-tipps-steigern-sie-ihre-jobchancen-01/100204043.html",
         "category": "Management",
         "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T07:16:00.000Z"
+        "publishedAt": "2026-04-20T07:17:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/ringen-um-uebernahme-unicredit-legt-nach-scharfe-kritik-an-commerzbank-modell/100218314.html",
+        "title": "Ringen um Übernahme: Unicredit legt nach: scharfe Kritik an Commerzbank-Modell",
+        "summary": "Unicredit wirft der Commerzbank vor, zu sehr auf kurzfristigen Erfolg zu setzen und strukturelle Schwächen zu haben. Was die Italiener jetzt fordern.",
+        "paragraphs": [
+          "Unicredit wirft der Commerzbank vor, zu sehr auf kurzfristigen Erfolg zu setzen und strukturelle Schwächen zu haben. Was die Italiener jetzt fordern."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/ringen-um-uebernahme-unicredit-legt-nach-scharfe-kritik-an-commerzbank-modell/100218314.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T07:15:26.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/iran-krieg-wie-china-vom-chaos-im-globalen-luftverkehr-profitieren-will-01/100216369.html",
@@ -995,9 +1043,9 @@
       {
         "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/commerzbank-unicredit-kritisiert-bank-scharf-und-wirbt-fuer-uebernahme/100218285.html",
         "title": "Übernahmekampf: Unicredit kritisiert Commerzbank scharf und wirbt mit Eckdaten für Übernahme",
-        "summary": "Das italienische Geldhaus verschärft im Übernahmekampf den Ton und stellt einen „Ansatz zur Beschleunigung der Transformation der Commerzbank in eine neue zukunftsfähige Ära vor﻿“.",
+        "summary": "Das italienische Geldhaus verschärft im Übernahmekampf den Ton. Die Commerzbank sei „überbewertet“. Ein „Ansatz zur Beschleunigung der Transformation“ der Bank soll sie zukunftsfit machen.",
         "paragraphs": [
-          "Das italienische Geldhaus verschärft im Übernahmekampf den Ton und stellt einen „Ansatz zur Beschleunigung der Transformation der Commerzbank in eine neue zukunftsfähige Ära vor﻿“."
+          "Das italienische Geldhaus verschärft im Übernahmekampf den Ton. Die Commerzbank sei „überbewertet“. Ein „Ansatz zur Beschleunigung der Transformation“ der Bank soll sie zukunftsfit machen."
         ],
         "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/commerzbank-unicredit-kritisiert-bank-scharf-und-wirbt-fuer-uebernahme/100218285.html",
         "category": "Banken",
@@ -1159,54 +1207,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-04-20T06:14:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/meinung/kommentare/kommentar-der-rueckkauf-von-nestle-ist-fuer-ankerkraut-nicht-ohne-risiko-01/100217373.html",
-        "title": "Kommentar: Der Rückkauf von Nestlé ist für Ankerkraut nicht ohne Risiko",
-        "summary": "Die Gewürzfirma muss nicht automatisch besser laufen, wenn der Konzern wieder aussteigt. Das zeigt das Beispiel Kloster Kitchen, bekannt für Ingwer-Shots.",
-        "paragraphs": [
-          "Die Gewürzfirma muss nicht automatisch besser laufen, wenn der Konzern wieder aussteigt. Das zeigt das Beispiel Kloster Kitchen, bekannt für Ingwer-Shots."
-        ],
-        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-der-rueckkauf-von-nestle-ist-fuer-ankerkraut-nicht-ohne-risiko-01/100217373.html",
-        "category": "Kommentare",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T06:09:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/job-so-erkennen-fuehrungskraefte-eine-anstehende-kuendigung-01/100173417.html",
-        "title": "Drohender Jobverlust: Vorsicht, Falle! Wie Führungskräfte ihre schleichende Degradierung erkennen – und gegensteuern",
-        "summary": "Wenn Arbeitgeber unliebsame Manager ohne hohe Abfindungen loswerden wollen, greifen sie oft zu Tricks. Die wichtigsten Warnsignale und juristischen Gegenmaßnahmen.",
-        "paragraphs": [
-          "Wenn Arbeitgeber unliebsame Manager ohne hohe Abfindungen loswerden wollen, greifen sie oft zu Tricks. Die wichtigsten Warnsignale und juristischen Gegenmaßnahmen."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/job-so-erkennen-fuehrungskraefte-eine-anstehende-kuendigung-01/100173417.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T06:02:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/ki/ki-technisch-ist-es-machbar-dass-unternehmen-komplett-automatisiert-laufen-01/100189694.html",
-        "title": "Künstliche Intelligenz: „Mit 75 Prozent Wahrscheinlichkeit passiert genau das: Die Blase platzt“",
-        "summary": "Stuart Russell hat das einflussreichste KI-Lehrbuch geschrieben. Er erklärt, warum die Technologie bald auch Top-Manager ersetzen könnte – und wann sie zu einer existenziellen Bedrohung wird.",
-        "paragraphs": [
-          "Stuart Russell hat das einflussreichste KI-Lehrbuch geschrieben. Er erklärt, warum die Technologie bald auch Top-Manager ersetzen könnte – und wann sie zu einer existenziellen Bedrohung wird."
-        ],
-        "link": "https://www.handelsblatt.com/technik/ki/ki-technisch-ist-es-machbar-dass-unternehmen-komplett-automatisiert-laufen-01/100189694.html",
-        "category": "Künstliche Intelligenz",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T06:01:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-preisanstieg-am-mietmarkt-kommt-zum-stillstand/100217892.html",
-        "title": "Immobilien: Trendwende am Mietmarkt: Preisanstieg kommt zum Stillstand",
-        "summary": "Laut einer aktuellen Auswertung sind die Mieten zum Jahresauftakt nur um 0,5 Prozent gestiegen. Und während es immer weniger klassische Mietangebote gibt, wächst ein Segment besonders stark.",
-        "paragraphs": [
-          "Laut einer aktuellen Auswertung sind die Mieten zum Jahresauftakt nur um 0,5 Prozent gestiegen. Und während es immer weniger klassische Mietangebote gibt, wächst ein Segment besonders stark."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-preisanstieg-am-mietmarkt-kommt-zum-stillstand/100217892.html",
-        "category": "Immobilien",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T06:00:00.000Z"
       }
     ]
   }
