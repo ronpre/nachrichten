@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-20T05:24:12.472Z",
+  "updatedAt": "2026-04-20T06:16:32.191Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "07887c72-5b73-400d-9c1f-efd02ce660e2",
+        "title": "Marktbericht: Die Euphorie ist wieder verflogen",
+        "summary": "Waren die Kursgewinne vom Freitag nur ein Strohfeuer? Die Finanzmärkte schalten von Entspannung wieder um auf Krise. Der Ölpreis legt deutlich zu, der DAX dürfte einen Teil der Gewinne abgeben.",
+        "paragraphs": [
+          "Waren die Kursgewinne vom Freitag nur ein Strohfeuer? Die Finanzmärkte schalten von Entspannung wieder um auf Krise. Der Ölpreis legt deutlich zu, der DAX dürfte einen Teil der Gewinne abgeben."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-oelpreis-geldanlage-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-20T05:25:32.000Z"
+      },
       {
         "id": "7eeb363e-dc49-4dcf-aac2-faff14febb22",
         "title": "Golf von Oman: US-Militär entert iranisches Frachtschiff",
@@ -229,18 +241,6 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-18T20:32:43.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/Wie-tragfaehig-ist-die-aktuelle-Boersenrally-id30726984.html",
-        "title": "Rekordjagd trotz Unsicherheit: Wie tragfähig ist die aktuelle Börsenrally?",
-        "summary": "Nach der jüngsten Korrektur erholen sich die Märkte überraschend schnell. Tech-Werte treiben die US-Börsen auf Rekordniveau. Ist das der Beginn einer neuen Aufwärtsphase oder eine kurzfristige Gegenbewegung?",
-        "paragraphs": [
-          "Nach der jüngsten Korrektur erholen sich die Märkte überraschend schnell. Tech-Werte treiben die US-Börsen auf Rekordniveau. Ist das der Beginn einer neuen Aufwärtsphase oder eine kurzfristige Gegenbewegung?"
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/Wie-tragfaehig-ist-die-aktuelle-Boersenrally-id30726984.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-04-18T13:30:00.000Z"
       }
     ],
     "politik": [
@@ -485,6 +485,18 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/wir-gehoeren-hierher-wagner-und-magic-setzen-statement-zum-playoff-start-1211917/artikel#omrss",
+        "title": "\"Wir gehören hierher\": Wagner und Magic setzen Statement zum Playoff-Start",
+        "summary": "Die Orlando Magic haben zum Auftakt der Serie ein deutliches Zeichen gesetzt. Nach dem Auswärtssieg bei den Detroit Pistons standen vor allem Selbstbewusstsein und neue Energie im Fokus.",
+        "paragraphs": [
+          "Die Orlando Magic haben zum Auftakt der Serie ein deutliches Zeichen gesetzt. Nach dem Auswärtssieg bei den Detroit Pistons standen vor allem Selbstbewusstsein und neue Energie im Fokus."
+        ],
+        "link": "https://www.kicker.de/wir-gehoeren-hierher-wagner-und-magic-setzen-statement-zum-playoff-start-1211917/artikel#omrss",
+        "category": "Banchero",
+        "source": "Kicker",
+        "publishedAt": "2026-04-20T06:00:00.000Z"
+      },
+      {
         "id": "{urn:uuid:12bbc6f5-e237-4b77-8c8e-c97f7927c328}",
         "title": "Bundesligarückschau: Am besten wäre, die Verteidiger hätten keine Arme",
         "summary": "Wir müssen noch einmal über die Handspielregel reden. Im Norden brennt’s. Und ein Kakadu wird erneut Meister. Alles vom Fußballwochenende",
@@ -495,6 +507,30 @@
         "category": "Sport",
         "source": "ZEIT",
         "publishedAt": "2026-04-20T04:53:26.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/san-antonio-gegen-portland-2026-nba-playoffs-5198901/spielbericht#omrss",
+        "title": "Wemby dominiert bei Playoff-Debüt: Spurs schlagen Blazers in Spiel 1",
+        "summary": "Die San Antonio Spurs starten souverän in die Playoffs. Angeführt von einem überragenden Victor Wembanyama schlagen sie die Portland Trail Blazers mit 111:98 und sichern sich Spiel 1 der Serie.",
+        "paragraphs": [
+          "Die San Antonio Spurs starten souverän in die Playoffs. Angeführt von einem überragenden Victor Wembanyama schlagen sie die Portland Trail Blazers mit 111:98 und sichern sich Spiel 1 der Serie."
+        ],
+        "link": "https://www.kicker.de/san-antonio-gegen-portland-2026-nba-playoffs-5198901/spielbericht#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-20T04:40:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/detroit-gegen-orlando-2026-nba-playoffs-5198881/spielbericht#omrss",
+        "title": "Wagner übernimmt im Schlussviertel: Magic schocken Top-Seed Detroit",
+        "summary": "Die Orlando Magic setzen direkt ein Ausrufezeichen. Mit einem 112:101-Erfolg bei den Detroit Pistons klauen sie Spiel 1 der Serie und verlängern gleichzeitig eine historische Negativserie.",
+        "paragraphs": [
+          "Die Orlando Magic setzen direkt ein Ausrufezeichen. Mit einem 112:101-Erfolg bei den Detroit Pistons klauen sie Spiel 1 der Serie und verlängern gleichzeitig eine historische Negativserie."
+        ],
+        "link": "https://www.kicker.de/detroit-gegen-orlando-2026-nba-playoffs-5198881/spielbericht#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-20T04:15:00.000Z"
       },
       {
         "id": "8c8f75f3-676b-49b8-a707-4d6c7b661713",
@@ -509,6 +545,18 @@
         "publishedAt": "2026-04-20T03:18:00.000Z"
       },
       {
+        "id": "https://www.kicker.de/konfetti-rekord-und-paredes-entscheidung-boca-siegt-bei-river-plate-1211909/video#omrss",
+        "title": "Konfetti-Rekord und Paredes-Entscheidung: Boca siegt bei River Plate",
+        "summary": "Der Superclasico in Buenos Aires sorgt für einen neuen Konfetti-Rekord neben und für einen Boca-Sieg auf dem Platz. Ex-PSG-Spieler Leandro Paredes hatte entscheidenden Anteil an Letzterem. Die Highlights gibt es hier im Video.",
+        "paragraphs": [
+          "Der Superclasico in Buenos Aires sorgt für einen neuen Konfetti-Rekord neben und für einen Boca-Sieg auf dem Platz. Ex-PSG-Spieler Leandro Paredes hatte entscheidenden Anteil an Letzterem. Die Highlights gibt es hier im Video."
+        ],
+        "link": "https://www.kicker.de/konfetti-rekord-und-paredes-entscheidung-boca-siegt-bei-river-plate-1211909/video#omrss",
+        "category": "Boca Juniors",
+        "source": "Kicker",
+        "publishedAt": "2026-04-19T23:37:18.000Z"
+      },
+      {
         "id": "{urn:uuid:67d9d859-aed9-4c42-92d9-4936411725f0}",
         "title": "Köln-Rhein/Ruhr: Klare Mehrheit in NRW für Bewerbung um Olympische Spiele",
         "summary": "In Nordrhein-Westfalen ergaben Bürgerentscheide ein klares Votum für eine Bewerbung um die Olympischen Spiele. Auch in Kiel gab es eine deutliche Mehrheit.",
@@ -519,6 +567,18 @@
         "category": "Sport",
         "source": "ZEIT",
         "publishedAt": "2026-04-19T23:03:59.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/matchdart-verpasst-schindlers-fast-ueberraschung-gegen-price-im-video-1211908/video#omrss",
+        "title": "Matchdart verpasst: Schindlers Fast-Überraschung gegen Price im Video",
+        "summary": "Denkbar knapp hat Martin Schindler sein Viertelfinale beim European Darts Grand Prix verloren. Gegen den späteren Sieger Gerwyn Price verpasste der Deutsche einen Matchdart auf die Doppel-Fünf. Die Highlights vom Viertel- bis zum Finale gibt es hier im Video.",
+        "paragraphs": [
+          "Denkbar knapp hat Martin Schindler sein Viertelfinale beim European Darts Grand Prix verloren. Gegen den späteren Sieger Gerwyn Price verpasste der Deutsche einen Matchdart auf die Doppel-Fünf. Die Highlights vom Viertel- bis zum Finale gibt es hier im Video."
+        ],
+        "link": "https://www.kicker.de/matchdart-verpasst-schindlers-fast-ueberraschung-gegen-price-im-video-1211908/video#omrss",
+        "category": "Darts",
+        "source": "Kicker",
+        "publishedAt": "2026-04-19T22:41:06.000Z"
       },
       {
         "id": "https://www.kicker.de/guardiola-lieber-ein-buch-lesen-als-in-haalands-haut-stecken-1211907/video#omrss",
@@ -559,9 +619,9 @@
       {
         "id": "d78c57ba-b842-4f4b-9557-f4aaa6fee691",
         "title": "Spiele in Rhein-Ruhr: Nordrhein-Westfalen stimmt mit Ja für Olympia-Bewerbung",
-        "summary": "Die Pläne für eine deutsche Olympia-Bewerbung erhalten einen weiteren Schub. In Nordrhein-Westfalen votiert eine deutliche Mehrheit für das Projekt »KölnRheinRuhr«. Nur ein Ort verfehlte das Quorum.",
+        "summary": "Die Pläne für eine deutsche Olympiabewerbung erhalten einen weiteren Schub. In Nordrhein-Westfalen votiert eine deutliche Mehrheit für das Projekt »KölnRheinRuhr«. Nur ein Ort verfehlte das Quorum.",
         "paragraphs": [
-          "Die Pläne für eine deutsche Olympia-Bewerbung erhalten einen weiteren Schub. In Nordrhein-Westfalen votiert eine deutliche Mehrheit für das Projekt »KölnRheinRuhr«. Nur ein Ort verfehlte das Quorum."
+          "Die Pläne für eine deutsche Olympiabewerbung erhalten einen weiteren Schub. In Nordrhein-Westfalen votiert eine deutliche Mehrheit für das Projekt »KölnRheinRuhr«. Nur ein Ort verfehlte das Quorum."
         ],
         "link": "https://www.spiegel.de/sport/olympia/spiele-in-rhein-ruhr-nordrhein-westfalen-stimmt-mit-ja-fuer-olympia-bewerbung-a-d78c57ba-b842-4f4b-9557-f4aaa6fee691#ref=rss",
         "category": null,
@@ -663,66 +723,6 @@
         "category": "Bayern München",
         "source": "Kicker",
         "publishedAt": "2026-04-19T20:27:27.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/thuram-steigt-am-hoechsten-juventus-erhoeht-auf-2-0-1211887/video#omrss",
-        "title": "Thuram steigt am höchsten: Juventus erhöht auf 2:0",
-        "summary": "Khephren Thuram setzte sich nach seiner Einwechslung direkt in Szene und nickte zum 2:0 für Juventus ein. Den Treffer gibt es hier im Video.",
-        "paragraphs": [
-          "Khephren Thuram setzte sich nach seiner Einwechslung direkt in Szene und nickte zum 2:0 für Juventus ein. Den Treffer gibt es hier im Video."
-        ],
-        "link": "https://www.kicker.de/thuram-steigt-am-hoechsten-juventus-erhoeht-auf-2-0-1211887/video#omrss",
-        "category": "FC Bologna",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T20:10:59.000Z"
-      },
-      {
-        "id": "li.3470377",
-        "title": "Meisterschaft des FC Bayern: Diesmal hat die Bundesliga eine Ausrede für die Bayern-Dominanz",
-        "summary": "Die Bundesliga, an der Spitze so langweilig wie immer? Stimmt schon, aber der Trost ist: Der FC Bayern unter Trainer Vincent Kompany scheint wirklich etwas Besonderes zu sein.",
-        "paragraphs": [
-          "Die Bundesliga, an der Spitze so langweilig wie immer? Stimmt schon, aber der Trost ist: Der FC Bayern unter Trainer Vincent Kompany scheint wirklich etwas Besonderes zu sein."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/bundesliga-fc-bayern-meisterschaft-kompany-kommentar-li.3470377",
-        "category": "Bundesliga",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-19T20:00:22.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/eberl-rechnet-mit-wm-aus-fuer-gnabry-1211582/artikel#omrss",
-        "title": "Eberl rechnet mit WM-Aus für Gnabry",
-        "summary": "Der FC Bayern muss im Saisonendspurt auf Serge Gnabry verzichten. Der Nationalspieler hat sich eine Adduktorenverletzung im rechten Oberschenkel zugezogen und fällt \"für längere Zeit\" aus. Münchens Sportvorstand Max Eberl befürchtet, dass Gnabrys WM-Traum damit geplatzt ist.",
-        "paragraphs": [
-          "Der FC Bayern muss im Saisonendspurt auf Serge Gnabry verzichten. Der Nationalspieler hat sich eine Adduktorenverletzung im rechten Oberschenkel zugezogen und fällt \"für längere Zeit\" aus. Münchens Sportvorstand Max Eberl befürchtet, dass Gnabrys WM-Traum damit geplatzt ist."
-        ],
-        "link": "https://www.kicker.de/eberl-rechnet-mit-wm-aus-fuer-gnabry-1211582/artikel#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T19:58:07.000Z"
-      },
-      {
-        "id": "83eae4cc-80a0-4601-976d-6967d669d37b",
-        "title": "Fußball-Bundesliga: Mainz 05 sichert sich Remis bei Borussia Mönchengladbach durch späten Elfmeter",
-        "summary": "Und wieder kein Sieg für Borussia Mönchengladbach: Gegen Mainz 05 waren die Gastgeber ganz nah dran am Erfolg. Dann kam die Nachspielzeit.",
-        "paragraphs": [
-          "Und wieder kein Sieg für Borussia Mönchengladbach: Gegen Mainz 05 waren die Gastgeber ganz nah dran am Erfolg. Dann kam die Nachspielzeit."
-        ],
-        "link": "https://www.spiegel.de/sport/fussball/fussball-bundesliga-mainz-05-sichert-sich-remis-bei-borussia-moenchengladbach-durch-spaeten-elfmeter-a-83eae4cc-80a0-4601-976d-6967d669d37b#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-19T19:48:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/das-restprogramm-der-18-bundesligisten-947215/artikel#omrss",
-        "title": "Das Restprogramm der 18 Bundesligisten",
-        "summary": "Die Bundesliga geht in die finalen Wochen der Saison 2025/26. Der kicker zeigt das Restprogramm der 18 Bundesligisten.",
-        "paragraphs": [
-          "Die Bundesliga geht in die finalen Wochen der Saison 2025/26. Der kicker zeigt das Restprogramm der 18 Bundesligisten."
-        ],
-        "link": "https://www.kicker.de/das-restprogramm-der-18-bundesligisten-947215/artikel#omrss",
-        "category": "1. FC Heidenheim",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T19:35:52.000Z"
       }
     ],
     "edv": [
@@ -739,16 +739,16 @@
         "publishedAt": "2026-04-18T15:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Montag-Eroeffnung-der-Hannover-Messe-2026-Raumsonde-Voyager-1-im-Stromsparmodus-11263589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Montag: Eröffnung der Hannover Messe 2026, Raumsonde Voyager 1 im Stromsparmodus",
-        "summary": "Partnerland Brasilien für Erneuerbare + Stromsparpläne für Sonden + Microsoft Teams mit Paste-Problem + Amazon gegen Sideloading + Piraten-Rollenspiel Windrose",
+        "id": "https://www.heise.de/news/Ueber-30-Vortraege-und-Workshops-aus-dem-Testing-Umfeld-beim-German-Testing-Day-11259914.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: Über 30 Vorträge und Workshops aus dem Testing-Umfeld beim German Testing Day",
+        "summary": "Am 6. und 7. Mai erwarten Sie zahlreiche nationale und internationale Sprecher aus dem Testing-Umfeld in Frankfurt am Main.",
         "paragraphs": [
-          "Partnerland Brasilien für Erneuerbare + Stromsparpläne für Sonden + Microsoft Teams mit Paste-Problem + Amazon gegen Sideloading + Piraten-Rollenspiel Windrose"
+          "Am 6. und 7. Mai erwarten Sie zahlreiche nationale und internationale Sprecher aus dem Testing-Umfeld in Frankfurt am Main."
         ],
-        "link": "https://www.heise.de/news/Montag-Eroeffnung-der-Hannover-Messe-2026-Raumsonde-Voyager-1-im-Stromsparmodus-11263589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Ueber-30-Vortraege-und-Workshops-aus-dem-Testing-Umfeld-beim-German-Testing-Day-11259914.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T04:15:00.000Z"
+        "publishedAt": "2026-04-20T06:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Kann-jeder-3D-Druck-c-t-3003-11261187.html",
@@ -763,16 +763,16 @@
         "publishedAt": "2026-04-17T14:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/NASA-schaltet-weiteres-Instrument-der-ersten-Voyager-Sonde-zum-Strom-sparen-ab-11263579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "NASA schaltet weiteres Instrument der ersten Voyager-Sonde zum Stromsparen ab",
-        "summary": "Da der Leistungspegel der Raumsonde nach einem regulären Flugmanöver unerwartet gefallen ist, musste die NASA schnell ein weiteres Messinstrument abschalten.",
+        "id": "https://www.heise.de/news/Montag-Eroeffnung-der-Hannover-Messe-2026-Raumsonde-Voyager-1-im-Stromsparmodus-11263589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Montag: Eröffnung der Hannover Messe 2026, Raumsonde Voyager 1 im Stromsparmodus",
+        "summary": "Partnerland Brasilien für Erneuerbare + Stromsparpläne für Sonden + Microsoft Teams mit Paste-Problem + Amazon gegen Sideloading + Piraten-Rollenspiel Windrose",
         "paragraphs": [
-          "Da der Leistungspegel der Raumsonde nach einem regulären Flugmanöver unerwartet gefallen ist, musste die NASA schnell ein weiteres Messinstrument abschalten."
+          "Partnerland Brasilien für Erneuerbare + Stromsparpläne für Sonden + Microsoft Teams mit Paste-Problem + Amazon gegen Sideloading + Piraten-Rollenspiel Windrose"
         ],
-        "link": "https://www.heise.de/news/NASA-schaltet-weiteres-Instrument-der-ersten-Voyager-Sonde-zum-Strom-sparen-ab-11263579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Montag-Eroeffnung-der-Hannover-Messe-2026-Raumsonde-Voyager-1-im-Stromsparmodus-11263589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T03:04:00.000Z"
+        "publishedAt": "2026-04-20T04:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Terahertz-Scanner-untersucht-aktive-Halbleiter-kontaktlos-11262760.html",
@@ -787,16 +787,16 @@
         "publishedAt": "2026-04-17T13:28:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Merz-und-Lula-eroeffnen-Hannover-Messe-2026-Zwischen-KI-Zuversicht-und-Reformdruck-11263549.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Hannover Messe: Merz und Lula eröffnen Hannover Messe 2026: Zwischen KI-Zuversicht und Reformdruck",
-        "summary": "Bundeskanzler Merz versucht, Zuversicht zu verströmen, während die Industrie auf echte Reformen hofft. Derweil bewirbt Brasiliens Präsident die Erneuerbaren.",
+        "id": "https://www.heise.de/news/NASA-schaltet-weiteres-Instrument-der-ersten-Voyager-Sonde-zum-Strom-sparen-ab-11263579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "NASA schaltet weiteres Instrument der ersten Voyager-Sonde zum Stromsparen ab",
+        "summary": "Da der Leistungspegel der Raumsonde nach einem regulären Flugmanöver unerwartet gefallen ist, musste die NASA schnell ein weiteres Messinstrument abschalten.",
         "paragraphs": [
-          "Bundeskanzler Merz versucht, Zuversicht zu verströmen, während die Industrie auf echte Reformen hofft. Derweil bewirbt Brasiliens Präsident die Erneuerbaren."
+          "Da der Leistungspegel der Raumsonde nach einem regulären Flugmanöver unerwartet gefallen ist, musste die NASA schnell ein weiteres Messinstrument abschalten."
         ],
-        "link": "https://www.heise.de/news/Merz-und-Lula-eroeffnen-Hannover-Messe-2026-Zwischen-KI-Zuversicht-und-Reformdruck-11263549.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/NASA-schaltet-weiteres-Instrument-der-ersten-Voyager-Sonde-zum-Strom-sparen-ab-11263579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T21:04:00.000Z"
+        "publishedAt": "2026-04-20T03:04:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Core-300-Intel-stellt-Billigprozessor-Wildcat-Lake-vor-11262501.html",
@@ -811,16 +811,16 @@
         "publishedAt": "2026-04-17T12:04:00.000Z"
       },
       {
-        "id": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 7: Die beste Heißluftfritteuse im Test – Cosori Airfryer vor Ninja & Co.",
-        "summary": "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App.",
+        "id": "https://www.heise.de/news/Merz-und-Lula-eroeffnen-Hannover-Messe-2026-Zwischen-KI-Zuversicht-und-Reformdruck-11263549.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Hannover Messe: Merz und Lula eröffnen Hannover Messe 2026: Zwischen KI-Zuversicht und Reformdruck",
+        "summary": "Bundeskanzler Merz versucht, Zuversicht zu verströmen, während die Industrie auf echte Reformen hofft. Derweil bewirbt Brasiliens Präsident die Erneuerbaren.",
         "paragraphs": [
-          "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App."
+          "Bundeskanzler Merz versucht, Zuversicht zu verströmen, während die Industrie auf echte Reformen hofft. Derweil bewirbt Brasiliens Präsident die Erneuerbaren."
         ],
-        "link": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Merz-und-Lula-eroeffnen-Hannover-Messe-2026-Zwischen-KI-Zuversicht-und-Reformdruck-11263549.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T18:00:00.000Z"
+        "publishedAt": "2026-04-19T21:04:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Android-17-Beta-4-Letzte-Testversion-vor-dem-finalen-Release-11261781.html",
@@ -835,16 +835,16 @@
         "publishedAt": "2026-04-17T07:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Anthropic und US-Regierung wieder im Gespräch über Zusammenarbeit",
-        "summary": "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten.",
+        "id": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Top 7: Die beste Heißluftfritteuse im Test – Cosori Airfryer vor Ninja & Co.",
+        "summary": "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App.",
         "paragraphs": [
-          "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten."
+          "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App."
         ],
-        "link": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T15:59:00.000Z"
+        "publishedAt": "2026-04-19T18:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-157-Datenschutz-vor-Gericht-11260020.html",
@@ -859,16 +859,16 @@
         "publishedAt": "2026-04-17T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "NRW-Datenschutzbeauftragte warnt vor Datennutzung um jeden Preis",
-        "summary": "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht.",
+        "id": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Anthropic und US-Regierung wieder im Gespräch über Zusammenarbeit",
+        "summary": "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten.",
         "paragraphs": [
-          "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht."
+          "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten."
         ],
-        "link": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T15:47:00.000Z"
+        "publishedAt": "2026-04-19T15:59:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Googles-Maerz-Update-auf-Android-16-QPR3-Pixel-Nutzer-melden-zahlreiche-Bugs-11260042.html",
@@ -881,6 +881,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-16T09:16:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "NRW-Datenschutzbeauftragte warnt vor Datennutzung um jeden Preis",
+        "summary": "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht.",
+        "paragraphs": [
+          "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht."
+        ],
+        "link": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-19T15:47:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -953,21 +965,177 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-19T11:00:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Daten-Turbo-fuer-die-Forschung-Wie-die-DSGVO-Innovationen-beschleunigen-soll-11263367.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Daten-Turbo für die Forschung: Wie die DSGVO Innovationen beschleunigen soll",
-        "summary": "Lange galt Datenschutz als Bremse für die Wissenschaft. Neue EU-Leitlinien schaffen Klarheit bei KI-Einsatz, breiten Einwilligungen und dem Zweckbindungsdogma.",
-        "paragraphs": [
-          "Lange galt Datenschutz als Bremse für die Wissenschaft. Neue EU-Leitlinien schaffen Klarheit bei KI-Einsatz, breiten Einwilligungen und dem Zweckbindungsdogma."
-        ],
-        "link": "https://www.heise.de/news/Daten-Turbo-fuer-die-Forschung-Wie-die-DSGVO-Innovationen-beschleunigen-soll-11263367.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-19T10:01:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/meinung/kommentare/kommentar-der-rueckkauf-von-nestle-ist-fuer-ankerkraut-nicht-ohne-risiko-01/100217373.html",
+        "title": "Kommentar: Der Rückkauf von Nestlé ist für Ankerkraut nicht ohne Risiko",
+        "summary": "Die Gewürzfirma muss nicht automatisch besser laufen, wenn der Konzern wieder aussteigt. Das zeigt das Beispiel Kloster Kitchen, bekannt für Ingwer-Shots.",
+        "paragraphs": [
+          "Die Gewürzfirma muss nicht automatisch besser laufen, wenn der Konzern wieder aussteigt. Das zeigt das Beispiel Kloster Kitchen, bekannt für Ingwer-Shots."
+        ],
+        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-der-rueckkauf-von-nestle-ist-fuer-ankerkraut-nicht-ohne-risiko-01/100217373.html",
+        "category": "Kommentare",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T06:09:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/job-so-erkennen-fuehrungskraefte-eine-anstehende-kuendigung-01/100173417.html",
+        "title": "Drohender Jobverlust: Vorsicht, Falle! Wie Führungskräfte ihre schleichende Degradierung erkennen – und gegensteuern",
+        "summary": "Wenn Arbeitgeber unliebsame Manager ohne hohe Abfindungen loswerden wollen, greifen sie oft zu Tricks. Die wichtigsten Warnsignale und juristischen Gegenmaßnahmen.",
+        "paragraphs": [
+          "Wenn Arbeitgeber unliebsame Manager ohne hohe Abfindungen loswerden wollen, greifen sie oft zu Tricks. Die wichtigsten Warnsignale und juristischen Gegenmaßnahmen."
+        ],
+        "link": "https://www.handelsblatt.com/karriere/job-so-erkennen-fuehrungskraefte-eine-anstehende-kuendigung-01/100173417.html",
+        "category": "Management",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T06:02:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/ki/ki-technisch-ist-es-machbar-dass-unternehmen-komplett-automatisiert-laufen-01/100189694.html",
+        "title": "Künstliche Intelligenz: „Mit 75 Prozent Wahrscheinlichkeit passiert genau das: Die Blase platzt“",
+        "summary": "Stuart Russell hat das einflussreichste KI-Lehrbuch geschrieben. Er erklärt, warum die Technologie bald auch Top-Manager ersetzen könnte – und wann sie zu einer existenziellen Bedrohung wird.",
+        "paragraphs": [
+          "Stuart Russell hat das einflussreichste KI-Lehrbuch geschrieben. Er erklärt, warum die Technologie bald auch Top-Manager ersetzen könnte – und wann sie zu einer existenziellen Bedrohung wird."
+        ],
+        "link": "https://www.handelsblatt.com/technik/ki/ki-technisch-ist-es-machbar-dass-unternehmen-komplett-automatisiert-laufen-01/100189694.html",
+        "category": "Künstliche Intelligenz",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T06:01:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/hannover-messe-iran-krieg-zoelle-kosten-industrie-warnt-vor-dauerkrise/100218289.html",
+        "title": "Hannover Messe: Iran-Krieg, Zölle, Kosten – Industrie warnt vor Dauerkrise",
+        "summary": "Hohe Kosten und geopolitische Risiken setzen die Industrie unter Druck. Auf der Hannover Messe fordern Verbände eine Reformwende von der Politik. Doch sie sehen auch Chancen für ihren Branchen.",
+        "paragraphs": [
+          "Hohe Kosten und geopolitische Risiken setzen die Industrie unter Druck. Auf der Hannover Messe fordern Verbände eine Reformwende von der Politik. Doch sie sehen auch Chancen für ihren Branchen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/hannover-messe-iran-krieg-zoelle-kosten-industrie-warnt-vor-dauerkrise/100218289.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T06:00:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-preisanstieg-am-mietmarkt-kommt-zum-stillstand/100217892.html",
+        "title": "Immobilien: Trendwende am Mietmarkt: Preisanstieg kommt zum Stillstand",
+        "summary": "Laut einer aktuellen Auswertung sind die Mieten zum Jahresauftakt nur um 0,5 Prozent gestiegen. Und während es immer weniger klassische Mietangebote gibt, wächst ein Segment besonders stark.",
+        "paragraphs": [
+          "Laut einer aktuellen Auswertung sind die Mieten zum Jahresauftakt nur um 0,5 Prozent gestiegen. Und während es immer weniger klassische Mietangebote gibt, wächst ein Segment besonders stark."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-preisanstieg-am-mietmarkt-kommt-zum-stillstand/100217892.html",
+        "category": "Immobilien",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T06:00:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/jugendschutz-experten-legen-bericht-zum-social-media-verbot-vor/100217886.html",
+        "title": "Jugendschutz: Experten legen Bericht zum Social-Media-Verbot in Deutschland vor",
+        "summary": "Gefahren durch Social Media: Die von Bildungsministerin Prien eingesetzte Expertengruppe hat ihre Bestandsaufnahme vorgelegt. Die Fachleute sehen zahlreiche Risiken – aber auch Potenziale.",
+        "paragraphs": [
+          "Gefahren durch Social Media: Die von Bildungsministerin Prien eingesetzte Expertengruppe hat ihre Bestandsaufnahme vorgelegt. Die Fachleute sehen zahlreiche Risiken – aber auch Potenziale."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/jugendschutz-experten-legen-bericht-zum-social-media-verbot-vor/100217886.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T06:00:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-unicredit-haelt-die-commerzbank-fuer-ueberbewertet/100218285.html",
+        "title": "Banken: Unicredit hält die Commerzbank für „überbewertet“",
+        "summary": "In einem Bericht findet die italienische Großbank sehr kritische Worte für das Geschäftsmodell der Commerzbank. Das könnte aber Teil der Übernahmestrategie sein.",
+        "paragraphs": [
+          "In einem Bericht findet die italienische Großbank sehr kritische Worte für das Geschäftsmodell der Commerzbank. Das könnte aber Teil der Übernahmestrategie sein."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-unicredit-haelt-die-commerzbank-fuer-ueberbewertet/100218285.html",
+        "category": "Banken",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T05:55:33.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/start-ups/tadel-fuer-reiche-verena-pausder-kritisiert-start-up-politik/100217586.html",
+        "title": "Tadel für Reiche: „Zu wenig passiert“: Verena Pausder kritisiert Start-up-Politik der Bundesregierung",
+        "summary": "Die Chefin des Start-up-Verbandes bemängelt den Mangel an „eigenen Ambitionen“: Ein Jahr nach Regierungsantritt liegt die angekündigte Start-up-Strategie weiterhin nicht vor.",
+        "paragraphs": [
+          "Die Chefin des Start-up-Verbandes bemängelt den Mangel an „eigenen Ambitionen“: Ein Jahr nach Regierungsantritt liegt die angekündigte Start-up-Strategie weiterhin nicht vor."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/start-ups/tadel-fuer-reiche-verena-pausder-kritisiert-start-up-politik/100217586.html",
+        "category": "Start-Ups",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T05:54:50.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuererklaerung-kryptoanleger-muessen-sich-seit-2026-an-diese-vorschriften-halten-01/100192876.html",
+        "title": "Finanzamt: Neue Kryptoregeln – Wer seine Steuernummer nicht angibt, riskiert 50.000 Euro Bußgeld",
+        "summary": "Ab 2026 müssen Kryptobörsen neue Transparenzvorschriften einhalten. Was das Finanzamt künftig über Kryptobesitzer weiß und wo noch anonyme Geschäfte möglich sind.",
+        "paragraphs": [
+          "Ab 2026 müssen Kryptobörsen neue Transparenzvorschriften einhalten. Was das Finanzamt künftig über Kryptobesitzer weiß und wo noch anonyme Geschäfte möglich sind."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuererklaerung-kryptoanleger-muessen-sich-seit-2026-an-diese-vorschriften-halten-01/100192876.html",
+        "category": "Steuern",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T05:54:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/autobranche-chinas-investitionen-in-ungarn-gehen-stark-zurueck-01/100217369.html",
+        "title": "Autobranche: Chinas Investitionen in Ungarn gehen stark zurück – nicht nur wegen des Regierungswechsels",
+        "summary": "Unter Viktor Orban hat Ungarn einen Boom chinesischer Investitionen erlebt. Das Land sollte Chinas Brückenkopf in der EU werden. Doch Experten erwarten, dass dieser Trend bald abebbt.",
+        "paragraphs": [
+          "Unter Viktor Orban hat Ungarn einen Boom chinesischer Investitionen erlebt. Das Land sollte Chinas Brückenkopf in der EU werden. Doch Experten erwarten, dass dieser Trend bald abebbt."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/autobranche-chinas-investitionen-in-ungarn-gehen-stark-zurueck-01/100217369.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T05:51:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-warum-brasilien-jetzt-auf-deutschland-setzt-01/100217485.html",
+        "title": "Gastkommentar: Warum Brasilien jetzt auf Deutschland setzt",
+        "summary": "Freihandel, grüne Energie, Allianzen: Der brasilianische Präsident Luiz Inácio Lula da Silva wirbt für multilaterale Zusammenarbeit und die Vorzüge des Handelsabkommens Mercosur.",
+        "paragraphs": [
+          "Freihandel, grüne Energie, Allianzen: Der brasilianische Präsident Luiz Inácio Lula da Silva wirbt für multilaterale Zusammenarbeit und die Vorzüge des Handelsabkommens Mercosur."
+        ],
+        "link": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-warum-brasilien-jetzt-auf-deutschland-setzt-01/100217485.html",
+        "category": "Gastbeiträge",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T05:32:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/lage-am-morgen-iran-sieht-keine-aussichtsreiche-perspektive-fuer-verhandlungen/100218277.html",
+        "title": "Lage am Morgen: Teheran sieht „keine aussichtsreiche Perspektive“ für Verhandlungen",
+        "summary": "Kurz vor Auslaufen der Feuerpause im Iran-Krieg zeigt sich Trump zu neuen Verhandlungen bereit. Wenig später greift die US-Marine einen iranischen Frachter an. Was wird Teheran machen?",
+        "paragraphs": [
+          "Kurz vor Auslaufen der Feuerpause im Iran-Krieg zeigt sich Trump zu neuen Verhandlungen bereit. Wenig später greift die US-Marine einen iranischen Frachter an. Was wird Teheran machen?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/lage-am-morgen-iran-sieht-keine-aussichtsreiche-perspektive-fuer-verhandlungen/100218277.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T05:26:31.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/mobilitaet/motor/automarkt-tesla-baut-das-beliebteste-auto-deutscher-privatkunden-01/100217760.html",
+        "title": "Automarkt: Tesla baut das beliebteste Auto deutscher Privatkunden",
+        "summary": "Zwei von drei Neuwagen werden auf gewerbliche Halter zugelassen. Die offizielle Statistik zeigt aber auch, was Kunden kaufen, die ihr Auto selbst bezahlen – mit überraschendem Ergebnis.",
+        "paragraphs": [
+          "Zwei von drei Neuwagen werden auf gewerbliche Halter zugelassen. Die offizielle Statistik zeigt aber auch, was Kunden kaufen, die ihr Auto selbst bezahlen – mit überraschendem Ergebnis."
+        ],
+        "link": "https://www.handelsblatt.com/mobilitaet/motor/automarkt-tesla-baut-das-beliebteste-auto-deutscher-privatkunden-01/100217760.html",
+        "category": "Motor",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T05:26:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/rueckzug-in-europa-honda-stellt-das-einzige-elektromodell-der-marke-ein/100218284.html",
+        "title": "Rückzug in Europa: Honda stellt das einzige Elektromodell der Marke ein",
+        "summary": "Die Japaner stampfen ihre E-Offensive ein. In den USA werden mehrere angekündigte Elektromodelle schon vor dem Start gestrichen. Und auch in Europa nimmt Honda den e:Ny1 vom Markt.",
+        "paragraphs": [
+          "Die Japaner stampfen ihre E-Offensive ein. In den USA werden mehrere angekündigte Elektromodelle schon vor dem Start gestrichen. Und auch in Europa nimmt Honda den e:Ny1 vom Markt."
+        ],
+        "link": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/rueckzug-in-europa-honda-stellt-das-einzige-elektromodell-der-marke-ein/100218284.html",
+        "category": "Elektromobilität",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T05:23:02.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/meinung/kolumnen/pruefers-kolumne-gen-z-am-arbeitsplatz-die-duemmste-generation-aller-zeiten-01/100216882.html",
         "title": "Prüfers Kolumne: Gen Z am Arbeitsplatz – die dümmste Generation aller Zeiten?",
@@ -1019,9 +1187,9 @@
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/hannover-messe-siemens-stellt-ersten-ki-agenten-fuer-ingenieure-vor/100214976.html",
         "title": "Hannover Messe: Siemens stellt ersten KI-Agenten für Ingenieure vor",
-        "summary": "Der Dax-Konzern will sich beim Thema Künstliche Intelligenz in der Industrie vorn positionieren. Dabei soll ein KI-Experte, der von Amazon gekommen ist. Das ist sein erstes großes Projekt.",
+        "summary": "Der Dax-Konzern will sich beim Thema Künstliche Intelligenz in der Industrie vorn positionieren. Dabei soll ein KI-Experte helfen, der von Amazon gekommen ist. Das ist sein erstes großes Projekt.",
         "paragraphs": [
-          "Der Dax-Konzern will sich beim Thema Künstliche Intelligenz in der Industrie vorn positionieren. Dabei soll ein KI-Experte, der von Amazon gekommen ist. Das ist sein erstes großes Projekt."
+          "Der Dax-Konzern will sich beim Thema Künstliche Intelligenz in der Industrie vorn positionieren. Dabei soll ein KI-Experte helfen, der von Amazon gekommen ist. Das ist sein erstes großes Projekt."
         ],
         "link": "https://www.handelsblatt.com/unternehmen/industrie/hannover-messe-siemens-stellt-ersten-ki-agenten-fuer-ingenieure-vor/100214976.html",
         "category": "Industrie",
@@ -1030,7 +1198,7 @@
       },
       {
         "id": "e607a3b1-9ff0-487a-af15-8a5715b562f1",
-        "title": "Spitzenbeamte müssen sich mit weniger Lohnzuwachs zufrieden geben",
+        "title": "Spitzenbeamte müssen sich mit weniger Lohnzuwachs zufriedengeben",
         "summary": "Die Gehaltsaufschläge für Spitzenbeamte sollen geringer ausfallen als zunächst vorgesehen. Bundesinnenminister Dobrindt reagiert damit auf den Unmut, den die Pläne hervorgerufen hatten.",
         "paragraphs": [
           "Die Gehaltsaufschläge für Spitzenbeamte sollen geringer ausfallen als zunächst vorgesehen. Bundesinnenminister Dobrindt reagiert damit auf den Unmut, den die Pläne hervorgerufen hatten."
@@ -1039,174 +1207,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-04-20T04:55:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-fuenf-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-        "title": "Börse am 20. April: Fünf Punkte, die für Anleger heute wichtig sind",
-        "summary": "Die Euphorie über die Öffnung der Straße von Hormus war von kurzer Dauer. Anleger hoffen nun auf weitere Verhandlungen in Islamabad. Zudem werden neue Konjunkturdaten erwartet.",
-        "paragraphs": [
-          "Die Euphorie über die Öffnung der Straße von Hormus war von kurzer Dauer. Anleger hoffen nun auf weitere Verhandlungen in Islamabad. Zudem werden neue Konjunkturdaten erwartet."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-fuenf-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-        "category": "Marktberichte",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T04:35:34.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/audio/podcast-morning-briefing/handelsblatt-morning-briefing-iran-krieg-teheran-verweigert-verhandlungen---strasse-von-hormus-moeglicher-deutscher-militaereinsatz/100218274.html",
-        "title": "Handelsblatt Morning Briefing: Iran-Krieg: Teheran verweigert Verhandlungen / Straße von Hormus: Möglicher deutscher Militäreinsatz",
-        "summary": "Das Kriegsziel, den Iran in der Region zu schwächen, scheint schon jetzt verfehlt. Stattdessen hält Teheran den Daumen auf den Puls der Weltwirtschaft und verweigert neue Verhandlungen.",
-        "paragraphs": [
-          "Das Kriegsziel, den Iran in der Region zu schwächen, scheint schon jetzt verfehlt. Stattdessen hält Teheran den Daumen auf den Puls der Weltwirtschaft und verweigert neue Verhandlungen."
-        ],
-        "link": "https://www.handelsblatt.com/audio/podcast-morning-briefing/handelsblatt-morning-briefing-iran-krieg-teheran-verweigert-verhandlungen---strasse-von-hormus-moeglicher-deutscher-militaereinsatz/100218274.html",
-        "category": "Morning Briefing Podcast",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T04:32:30.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/hannover-messe-merz-will-industrielle-ki-aus-eu-richtlinien-herausnehmen/100218272.html",
-        "title": "Hannover Messe: Merz will industrielle KI aus EU-Richtlinien herausnehmen",
-        "summary": "Die EU will den Einsatz künstlicher Intelligenz für Unternehmen regulieren. Doch das Korsett sei zu eng, sagt Kanzler Friedrich Merz. Er fordert Lockerungen.",
-        "paragraphs": [
-          "Die EU will den Einsatz künstlicher Intelligenz für Unternehmen regulieren. Doch das Korsett sei zu eng, sagt Kanzler Friedrich Merz. Er fordert Lockerungen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/hannover-messe-merz-will-industrielle-ki-aus-eu-richtlinien-herausnehmen/100218272.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T04:30:26.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-wie-die-usa-den-iran-auf-eine-folgenreiche-idee-gebracht-haben/100218220.html",
-        "title": "Morning Briefing: Wie die USA den Iran auf eine folgenreiche Idee gebracht haben",
-        "summary": "Das Kriegsziel, den Iran in der Region zu schwächen, scheint  schon jetzt verfehlt. Stattdessen hält Teheran den Daumen auf den Puls der Weltwirtschaft und verweigert neue Verhandlungen.",
-        "paragraphs": [
-          "Das Kriegsziel, den Iran in der Region zu schwächen, scheint  schon jetzt verfehlt. Stattdessen hält Teheran den Daumen auf den Puls der Weltwirtschaft und verweigert neue Verhandlungen."
-        ],
-        "link": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-wie-die-usa-den-iran-auf-eine-folgenreiche-idee-gebracht-haben/100218220.html",
-        "category": "Morning Briefing",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T03:47:28.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/mobilfunk-bei-schlechtem-handynetz-tests-fuer-rechtsanspruch-gehen-los/100218267.html",
-        "title": "Mobilfunk: Bei schlechtem Handynetz: Tests für Rechtsanspruch gehen los",
-        "summary": "Auf dem Papier ist der Handyvertrag bombastisch gut, in der Wirklichkeit die Verbindung aber mies: Wer so eine Erfahrung macht, kann nun Tests für einen rechtssicheren Minderungsanspruch starten.",
-        "paragraphs": [
-          "Auf dem Papier ist der Handyvertrag bombastisch gut, in der Wirklichkeit die Verbindung aber mies: Wer so eine Erfahrung macht, kann nun Tests für einen rechtssicheren Minderungsanspruch starten."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/mobilfunk-bei-schlechtem-handynetz-tests-fuer-rechtsanspruch-gehen-los/100218267.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T03:10:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/richtungswahl-bulgarien-hat-gewaehlt-russland-freund-radew-klar-vorn/100218247.html",
-        "title": "Richtungswahl: Bulgarien hat gewählt: Russland-Freund Radew klar vorn",
-        "summary": "In Bulgarien ist Ex-Präsident Radew als Favorit in die Parlamentswahl gezogen. Laut Hochrechnungen liegt sein Bündnis auch deutlich vorn. Etablierte Parteien bleiben weit zurück.",
-        "paragraphs": [
-          "In Bulgarien ist Ex-Präsident Radew als Favorit in die Parlamentswahl gezogen. Laut Hochrechnungen liegt sein Bündnis auch deutlich vorn. Etablierte Parteien bleiben weit zurück."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/richtungswahl-bulgarien-hat-gewaehlt-russland-freund-radew-klar-vorn/100218247.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T03:04:16.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/forschung-innovation/tiere-ueberlebenskuenstler-mit-risikofaktor-zecken-auf-vormarsch/100218263.html",
-        "title": "Tiere: Überlebenskünstler mit Risikofaktor: Zecken auf Vormarsch",
-        "summary": "Sie können lange Zeit ohne Nahrung auskommen und stachen möglicherweise schon Dinosaurier. Was es sonst noch über die kleinen Spinnentiere zu wissen gibt.",
-        "paragraphs": [
-          "Sie können lange Zeit ohne Nahrung auskommen und stachen möglicherweise schon Dinosaurier. Was es sonst noch über die kleinen Spinnentiere zu wissen gibt."
-        ],
-        "link": "https://www.handelsblatt.com/technik/forschung-innovation/tiere-ueberlebenskuenstler-mit-risikofaktor-zecken-auf-vormarsch/100218263.html",
-        "category": "Forschung + Innovation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T03:00:13.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/brauchen-mehr-schlagkraft-gruenderbranche-fordert-mehr-reformtempo-von-reiche/100218262.html",
-        "title": "„Brauchen mehr Schlagkraft“: Gründerbranche fordert mehr Reformtempo von Reiche",
-        "summary": "Die deutsche Start-up-Branche ist deutlich gewachsen, aber Schwierigkeiten bleiben - etwa der Mangel an Wagniskapital. Nun fordert die Branche Wirtschaftsministerin Reiche zum Handeln auf.",
-        "paragraphs": [
-          "Die deutsche Start-up-Branche ist deutlich gewachsen, aber Schwierigkeiten bleiben - etwa der Mangel an Wagniskapital. Nun fordert die Branche Wirtschaftsministerin Reiche zum Handeln auf."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/brauchen-mehr-schlagkraft-gruenderbranche-fordert-mehr-reformtempo-von-reiche/100218262.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T03:00:11.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/lage-im-ueberblick-us-militaer-entert-iran-schiff-was-wird-aus-verhandlungen/100218241.html",
-        "title": "Lage im Überblick: US-Militär entert Iran-Schiff - Was wird aus Verhandlungen?",
-        "summary": "Kurz vor Auslaufen der Feuerpause im Iran-Krieg zeigt sich Trump zu neuen Verhandlungen bereit. Wenig später greift die US-Marine einen iranischen Frachter an. Was wird Teheran machen?",
-        "paragraphs": [
-          "Kurz vor Auslaufen der Feuerpause im Iran-Krieg zeigt sich Trump zu neuen Verhandlungen bereit. Wenig später greift die US-Marine einen iranischen Frachter an. Was wird Teheran machen?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/lage-im-ueberblick-us-militaer-entert-iran-schiff-was-wird-aus-verhandlungen/100218241.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T02:48:29.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/regierungskonsultationen-lula-attackiert-trump-vor-beratungen-mit-merz/100218260.html",
-        "title": "Regierungskonsultationen: Lula attackiert Trump vor Beratungen mit Merz",
-        "summary": "Vom Mercosur-Abkommen bis zur Förderung seltener Erden: Wirtschaftsthemen stehen im Mittelpunkt der deutsch-brasilianischen Konsultationen. Es geht aber auch um die aktuellen Krisen.",
-        "paragraphs": [
-          "Vom Mercosur-Abkommen bis zur Förderung seltener Erden: Wirtschaftsthemen stehen im Mittelpunkt der deutsch-brasilianischen Konsultationen. Es geht aber auch um die aktuellen Krisen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/regierungskonsultationen-lula-attackiert-trump-vor-beratungen-mit-merz/100218260.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T02:30:10.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/halbleiter-raumfahrt-auf-dem-weg-zum-naechsten-milliardenmarkt-fuer-chips/100216903.html",
-        "title": "Halbleiter: Die Raumfahrt ist auf dem Weg, der nächste Milliardenmarkt für Chips zu werden",
-        "summary": "Parallel zum KI-Boom holen Raumfahrtfirmen wie SpaceX weltraumtaugliche Halbleiter aus der Nische. Die kurze Lebensdauer von Satelliten sorgt für hohe Nachfrage, hat aber einen Nachteil.",
-        "paragraphs": [
-          "Parallel zum KI-Boom holen Raumfahrtfirmen wie SpaceX weltraumtaugliche Halbleiter aus der Nische. Die kurze Lebensdauer von Satelliten sorgt für hohe Nachfrage, hat aber einen Nachteil."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/halbleiter-raumfahrt-auf-dem-weg-zum-naechsten-milliardenmarkt-fuer-chips/100216903.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T02:06:07.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/uebernahmen-banken-ringen-um-mandate-im-boomenden-pharmasektor/100213165.html",
-        "title": "Übernahmen: Krisenfeste Branche: Banken ringen um Mandate im boomenden Pharmasektor",
-        "summary": "Nur wenige Investmentbanken dominieren das M&A-Geschäft der weltweiten Arzneibranche. Im Wettbewerb um die lukrativsten Deals zählt für sie vor allem eine Fähigkeit.",
-        "paragraphs": [
-          "Nur wenige Investmentbanken dominieren das M&A-Geschäft der weltweiten Arzneibranche. Im Wettbewerb um die lukrativsten Deals zählt für sie vor allem eine Fähigkeit."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/uebernahmen-banken-ringen-um-mandate-im-boomenden-pharmasektor/100213165.html",
-        "category": "Finanzen",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T02:03:21.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/lutz-meschke-ex-finanzchef-von-porsche-wird-vermoegensverwalter/100217525.html",
-        "title": "Lutz Meschke: Ex-Finanzchef von Porsche wird Vermögensverwalter",
-        "summary": "Lutz Meschke war Vorstand beim Sportwagenbauer Porsche und bei der Familienholding Porsche SE. Beide Jobs verlor er im vergangenen Jahr. Jetzt wechselt er die Branche.",
-        "paragraphs": [
-          "Lutz Meschke war Vorstand beim Sportwagenbauer Porsche und bei der Familienholding Porsche SE. Beide Jobs verlor er im vergangenen Jahr. Jetzt wechselt er die Branche."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/lutz-meschke-ex-finanzchef-von-porsche-wird-vermoegensverwalter/100217525.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T02:01:24.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/fragen-aus-dem-arbeitsrecht-kita-schliesstag-muss-der-arbeitgeber-mir-urlaub-geben/100218255.html",
-        "title": "Fragen aus dem Arbeitsrecht: Kita-Schließtag: Muss der Arbeitgeber mir Urlaub geben?",
-        "summary": "Kita zu, Kind zu Hause – und der Job? Warum Eltern nicht automatisch Anspruch auf Urlaub haben und was passiert, wenn der Arbeitgeber blockt.",
-        "paragraphs": [
-          "Kita zu, Kind zu Hause – und der Job? Warum Eltern nicht automatisch Anspruch auf Urlaub haben und was passiert, wenn der Arbeitgeber blockt."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/fragen-aus-dem-arbeitsrecht-kita-schliesstag-muss-der-arbeitgeber-mir-urlaub-geben/100218255.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T02:00:32.000Z"
       }
     ]
   }
