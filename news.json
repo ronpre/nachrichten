@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-20T03:07:30.484Z",
+  "updatedAt": "2026-04-20T04:19:45.821Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "8ae32011-7c12-4c15-a5c8-126cca6c61f3",
+        "title": "Papier aus dem Bundesumweltministerium - Kritik an EU-Atomstrategie",
+        "summary": "Experten des Bundesumweltministeriums kritisieren die Pläne der EU-Kommissionspräsidentin von der Leyen zum Einsatz kleiner, modularer Kernreaktoren. Das geht aus einem internen Papier des Ministeriums hervor, das dem SWR vorliegt.",
+        "paragraphs": [
+          "Experten des Bundesumweltministeriums kritisieren die Pläne der EU-Kommissionspräsidentin von der Leyen zum Einsatz kleiner, modularer Kernreaktoren. Das geht aus einem internen Papier des Ministeriums hervor, das dem SWR vorliegt."
+        ],
+        "link": "https://www.tagesschau.de/investigativ/mini-akw-umweltministerium-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-20T04:00:18.000Z"
+      },
       {
         "id": "bffad82d-eeb1-4a93-958f-5f3143252a75",
         "title": "Acht Kinder bei Gewalttat in den USA getötet",
@@ -229,21 +241,21 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-18T12:18:41.000Z"
-      },
-      {
-        "id": "b76ae138-06da-47ff-be4b-67d4ae632cae",
-        "title": "Klingbeil fordert Vorbereitungen auf Kerosinmangel",
-        "summary": "Vizekanzler Klingbeil fordert, die Möglichkeit einer Kerosinknappheit \"sehr ernst\" zu nehmen. Damit geht er auf Konfrontation zu Wirtschaftsministerin Reiche, die beim Thema Kerosinmangel vor \"Alarmismus\" warnt.",
-        "paragraphs": [
-          "Vizekanzler Klingbeil fordert, die Möglichkeit einer Kerosinknappheit \"sehr ernst\" zu nehmen. Damit geht er auf Konfrontation zu Wirtschaftsministerin Reiche, die beim Thema Kerosinmangel vor \"Alarmismus\" warnt."
-        ],
-        "link": "https://www.tagesschau.de/inland/innenpolitik/klingbeil-warnung-kerosinmangel-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-18T11:19:58.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3465745",
+        "title": "Krieg in Nahost: US-Militär hat iranischen Frachter geentert – Iran kündigt „Vergeltung“ an",
+        "summary": "Das US-Militär hat einen iranischen Frachter geentert. Iranische Medien berichten, das Regime lehne eine zweite Verhandlungsrunde mit den USA ab.",
+        "paragraphs": [
+          "Das US-Militär hat einen iranischen Frachter geentert. Iranische Medien berichten, das Regime lehne eine zweite Verhandlungsrunde mit den USA ab."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/iran-liveblog-news-friedensverhandlungen-strasse-von-hormus-usa-trump-oeffnung-li.3465745",
+        "category": "Iran",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-20T01:57:00.000Z"
+      },
       {
         "id": "li.3470639",
         "title": "Krieg in der Ukraine: Orbán: Ungarn bereit, EU-Kredit an Ukraine freizugeben",
@@ -457,16 +469,6 @@
         "publishedAt": "2026-04-19T11:58:10.000Z"
       },
       {
-        "id": "li.3470490",
-        "title": "Katholische Kirche: Papst will nicht mit Trump streiten",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/katholische-kirche-papst-will-nicht-mit-trump-streiten-li.3470490",
-        "category": "Glaube und Religion",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-19T11:52:10.000Z"
-      },
-      {
         "id": "70478211",
         "title": "Wieder tote Blauhelme: Was tut die UNIFIL im Libanon?",
         "summary": "Seit Ende März sind im Südlibanon vier UN-Blauhelmsoldaten getötet worden. UNIFIL gilt als eine der gefährlichsten UN-Friedensmission überhaupt. 2027 soll sie enden. Ein Überblick über Mandat und Herausforderungen.",
@@ -480,6 +482,18 @@
       }
     ],
     "sport": [
+      {
+        "id": "8c8f75f3-676b-49b8-a707-4d6c7b661713",
+        "title": "NBA: Franz Wagner und die Orlando Magic gewinnen in Detroit zum Auftakt der Playoffs",
+        "summary": "Mit Ach und Krach hatten es die Orlando Magic überhaupt in die Endrunde der NBA geschafft. Und dann das. Beim Favoriten Detroit gab es einen Auswärtssieg – auch dank eines am Schluss starken Franz Wagner.",
+        "paragraphs": [
+          "Mit Ach und Krach hatten es die Orlando Magic überhaupt in die Endrunde der NBA geschafft. Und dann das. Beim Favoriten Detroit gab es einen Auswärtssieg – auch dank eines am Schluss starken Franz Wagner."
+        ],
+        "link": "https://www.spiegel.de/sport/basketball/nba-franz-wagner-und-die-orlando-magic-gewinnen-in-detroit-zum-auftakt-der-playoffs-a-8c8f75f3-676b-49b8-a707-4d6c7b661713#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-20T03:18:00.000Z"
+      },
       {
         "id": "{urn:uuid:67d9d859-aed9-4c42-92d9-4936411725f0}",
         "title": "Köln-Rhein/Ruhr: Klare Mehrheit in NRW für Bewerbung um Olympische Spiele",
@@ -707,18 +721,6 @@
         "category": "3. Liga",
         "source": "Kicker",
         "publishedAt": "2026-04-19T19:34:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kimmich-ich-hoffe-da-kommen-noch-zehn-dazu-1211772/artikel#omrss",
-        "title": "Kimmich: \"Ich hoffe, da kommen noch zehn dazu\"",
-        "summary": "Der FC Bayern ist Deutscher Meister. Joshua Kimmich verriet, was seine zehnte Meisterschaft so besonders macht - und sprach ausgiebig über den verletzten Gnabry.",
-        "paragraphs": [
-          "Der FC Bayern ist Deutscher Meister. Joshua Kimmich verriet, was seine zehnte Meisterschaft so besonders macht - und sprach ausgiebig über den verletzten Gnabry."
-        ],
-        "link": "https://www.kicker.de/kimmich-ich-hoffe-da-kommen-noch-zehn-dazu-1211772/artikel#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-04-19T19:28:19.000Z"
       }
     ],
     "edv": [
@@ -735,16 +737,16 @@
         "publishedAt": "2026-04-18T15:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/NASA-schaltet-weiteres-Instrument-der-ersten-Voyager-Sonde-zum-Strom-sparen-ab-11263579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "NASA schaltet weiteres Instrument der ersten Voyager-Sonde zum Strom sparen ab",
-        "summary": "Da der Leistungspegel der Raumsonde nach einem regulären Flugmanöver unerwartet gefallen ist, musste die NASA schnell ein weiteres Messinstrument abschalten.",
+        "id": "https://www.heise.de/news/Montag-Eroeffnung-der-Hannover-Messe-2026-Raumsonde-Voyager-1-im-Stromsparmodus-11263589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Montag: Eröffnung der Hannover Messe 2026, Raumsonde Voyager 1 im Stromsparmodus",
+        "summary": "Partnerland Brasilien für Erneuerbare + Stromsparpläne für Sonden + Microsoft Teams mit Paste-Problem + Amazon gegen Sideloading + Piraten-Rollenspiel Windrose",
         "paragraphs": [
-          "Da der Leistungspegel der Raumsonde nach einem regulären Flugmanöver unerwartet gefallen ist, musste die NASA schnell ein weiteres Messinstrument abschalten."
+          "Partnerland Brasilien für Erneuerbare + Stromsparpläne für Sonden + Microsoft Teams mit Paste-Problem + Amazon gegen Sideloading + Piraten-Rollenspiel Windrose"
         ],
-        "link": "https://www.heise.de/news/NASA-schaltet-weiteres-Instrument-der-ersten-Voyager-Sonde-zum-Strom-sparen-ab-11263579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Montag-Eroeffnung-der-Hannover-Messe-2026-Raumsonde-Voyager-1-im-Stromsparmodus-11263589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T03:04:00.000Z"
+        "publishedAt": "2026-04-20T04:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Kann-jeder-3D-Druck-c-t-3003-11261187.html",
@@ -759,16 +761,16 @@
         "publishedAt": "2026-04-17T14:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Merz-und-Lula-eroeffnen-Hannover-Messe-2026-Zwischen-KI-Zuversicht-und-Reformdruck-11263549.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Hannover Messe: Merz und Lula eröffnen Hannover Messe 2026: Zwischen KI-Zuversicht und Reformdruck",
-        "summary": "Bundeskanzler Merz versucht, Zuversicht zu verströmen, während die Industrie auf echte Reformen hofft. Derweil bewirbt Brasiliens Präsident die Erneuerbaren.",
+        "id": "https://www.heise.de/news/NASA-schaltet-weiteres-Instrument-der-ersten-Voyager-Sonde-zum-Strom-sparen-ab-11263579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "NASA schaltet weiteres Instrument der ersten Voyager-Sonde zum Stromsparen ab",
+        "summary": "Da der Leistungspegel der Raumsonde nach einem regulären Flugmanöver unerwartet gefallen ist, musste die NASA schnell ein weiteres Messinstrument abschalten.",
         "paragraphs": [
-          "Bundeskanzler Merz versucht, Zuversicht zu verströmen, während die Industrie auf echte Reformen hofft. Derweil bewirbt Brasiliens Präsident die Erneuerbaren."
+          "Da der Leistungspegel der Raumsonde nach einem regulären Flugmanöver unerwartet gefallen ist, musste die NASA schnell ein weiteres Messinstrument abschalten."
         ],
-        "link": "https://www.heise.de/news/Merz-und-Lula-eroeffnen-Hannover-Messe-2026-Zwischen-KI-Zuversicht-und-Reformdruck-11263549.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/NASA-schaltet-weiteres-Instrument-der-ersten-Voyager-Sonde-zum-Strom-sparen-ab-11263579.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T21:04:00.000Z"
+        "publishedAt": "2026-04-20T03:04:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Terahertz-Scanner-untersucht-aktive-Halbleiter-kontaktlos-11262760.html",
@@ -783,16 +785,16 @@
         "publishedAt": "2026-04-17T13:28:00.000Z"
       },
       {
-        "id": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 7: Die beste Heißluftfritteuse im Test – Cosori Airfryer vor Ninja & Co.",
-        "summary": "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App.",
+        "id": "https://www.heise.de/news/Merz-und-Lula-eroeffnen-Hannover-Messe-2026-Zwischen-KI-Zuversicht-und-Reformdruck-11263549.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Hannover Messe: Merz und Lula eröffnen Hannover Messe 2026: Zwischen KI-Zuversicht und Reformdruck",
+        "summary": "Bundeskanzler Merz versucht, Zuversicht zu verströmen, während die Industrie auf echte Reformen hofft. Derweil bewirbt Brasiliens Präsident die Erneuerbaren.",
         "paragraphs": [
-          "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App."
+          "Bundeskanzler Merz versucht, Zuversicht zu verströmen, während die Industrie auf echte Reformen hofft. Derweil bewirbt Brasiliens Präsident die Erneuerbaren."
         ],
-        "link": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Merz-und-Lula-eroeffnen-Hannover-Messe-2026-Zwischen-KI-Zuversicht-und-Reformdruck-11263549.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T18:00:00.000Z"
+        "publishedAt": "2026-04-19T21:04:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Core-300-Intel-stellt-Billigprozessor-Wildcat-Lake-vor-11262501.html",
@@ -807,16 +809,16 @@
         "publishedAt": "2026-04-17T12:04:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Anthropic und US-Regierung wieder im Gespräch über Zusammenarbeit",
-        "summary": "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten.",
+        "id": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Top 7: Die beste Heißluftfritteuse im Test – Cosori Airfryer vor Ninja & Co.",
+        "summary": "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App.",
         "paragraphs": [
-          "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten."
+          "Heißluftfritteusen erlauben einfaches, fettarmes Garen ab 50 Euro. Manche Modelle, wie der Testsieger Cosori, bieten sogar eine App."
         ],
-        "link": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testsieger/top-7-die-beste-heissluftfritteuse-im-test-cosori-airfryer-vor-ninja-und-co/c7y04fp?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T15:59:00.000Z"
+        "publishedAt": "2026-04-19T18:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Android-17-Beta-4-Letzte-Testversion-vor-dem-finalen-Release-11261781.html",
@@ -831,16 +833,16 @@
         "publishedAt": "2026-04-17T07:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "NRW-Datenschutzbeauftragte warnt vor Datennutzung um jeden Preis",
-        "summary": "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht.",
+        "id": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Anthropic und US-Regierung wieder im Gespräch über Zusammenarbeit",
+        "summary": "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten.",
         "paragraphs": [
-          "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht."
+          "Die US-Regierung nimmt Gespräche mit dem sanktionierten KI-Hersteller Anthropic auf, auch um über die Nutzung von Claude Mythos Preview zu beraten."
         ],
-        "link": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Anthropic-und-US-Regierung-wieder-im-Gespraech-ueber-Zusammenarbeit-11263461.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T15:47:00.000Z"
+        "publishedAt": "2026-04-19T15:59:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-157-Datenschutz-vor-Gericht-11260020.html",
@@ -855,16 +857,16 @@
         "publishedAt": "2026-04-17T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Microsoft Teams: Einfügen per Rechtsklick funktioniert nicht mehr",
-        "summary": "Ein fehlerhaftes Edge-Update hat die Paste-Funktion im Kontextmenü von Microsoft Teams außer Gefecht gesetzt. Tastaturkürzel funktionieren weiterhin.",
+        "id": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "NRW-Datenschutzbeauftragte warnt vor Datennutzung um jeden Preis",
+        "summary": "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht.",
         "paragraphs": [
-          "Ein fehlerhaftes Edge-Update hat die Paste-Funktion im Kontextmenü von Microsoft Teams außer Gefecht gesetzt. Tastaturkürzel funktionieren weiterhin."
+          "NRW meldet Rekord an Datenschutzbeschwerden. Gesetze werden übereilt verabschiedet, Grundrechtsschutz bleibt oft auf der Strecke, heißt es im Tätigkeitsbericht."
         ],
-        "link": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/NRW-Datenschutzbeauftragte-warnt-vor-Datennutzung-um-jeden-Preis-11263297.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-19T14:24:00.000Z"
+        "publishedAt": "2026-04-19T15:47:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Googles-Maerz-Update-auf-Android-16-QPR3-Pixel-Nutzer-melden-zahlreiche-Bugs-11260042.html",
@@ -877,6 +879,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-16T09:16:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Microsoft Teams: Einfügen per Rechtsklick funktioniert nicht mehr",
+        "summary": "Ein fehlerhaftes Edge-Update hat die Paste-Funktion im Kontextmenü von Microsoft Teams außer Gefecht gesetzt. Tastaturkürzel funktionieren weiterhin.",
+        "paragraphs": [
+          "Ein fehlerhaftes Edge-Update hat die Paste-Funktion im Kontextmenü von Microsoft Teams außer Gefecht gesetzt. Tastaturkürzel funktionieren weiterhin."
+        ],
+        "link": "https://www.heise.de/news/Microsoft-Teams-Einfuegen-per-Rechtsklick-funktioniert-nicht-mehr-11263457.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-19T14:24:00.000Z"
       },
       {
         "id": "https://www.heise.de/bestenlisten/testbericht/jonr-x9-pro-im-test-saugroboter-erkennt-teppiche-gut-und-hebt-die-wischwalze-an/7wp5l4z?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -949,21 +963,69 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-19T10:01:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/iX-Workshop-BCM-und-IT-Notfallplanung-vorbereitet-fuer-den-Ernstfall-11246684.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: BCM und IT-Notfallplanung – vorbereitet für den Ernstfall",
-        "summary": "Erstellen Sie für Ihr Unternehmen einen Leitfaden zur professionellen IT-Notfallplanung im interaktiven Workshop.",
-        "paragraphs": [
-          "Erstellen Sie für Ihr Unternehmen einen Leitfaden zur professionellen IT-Notfallplanung im interaktiven Workshop."
-        ],
-        "link": "https://www.heise.de/news/iX-Workshop-BCM-und-IT-Notfallplanung-vorbereitet-fuer-den-Ernstfall-11246684.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-19T08:00:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-wie-die-usa-den-iran-auf-eine-hervorragende-idee-gebracht-haben/100218220.html",
+        "title": "Morning Briefing: Wie die USA den Iran auf eine hervorragende Idee gebracht haben",
+        "summary": "Das Kriegsziel, den Iran in der Region zu schwächen, scheint  schon jetzt verfehlt. Stattdessen hält Teheran den Daumen auf den Puls der Weltwirtschaft und verweigert neue Verhandlungen.",
+        "paragraphs": [
+          "Das Kriegsziel, den Iran in der Region zu schwächen, scheint  schon jetzt verfehlt. Stattdessen hält Teheran den Daumen auf den Puls der Weltwirtschaft und verweigert neue Verhandlungen."
+        ],
+        "link": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-wie-die-usa-den-iran-auf-eine-hervorragende-idee-gebracht-haben/100218220.html",
+        "category": "Morning Briefing",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T03:47:28.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/it-internet/mobilfunk-bei-schlechtem-handynetz-tests-fuer-rechtsanspruch-gehen-los/100218267.html",
+        "title": "Mobilfunk: Bei schlechtem Handynetz: Tests für Rechtsanspruch gehen los",
+        "summary": "Auf dem Papier ist der Handyvertrag bombastisch gut, in der Wirklichkeit die Verbindung aber mies: Wer so eine Erfahrung macht, kann nun Tests für einen rechtssicheren Minderungsanspruch starten.",
+        "paragraphs": [
+          "Auf dem Papier ist der Handyvertrag bombastisch gut, in der Wirklichkeit die Verbindung aber mies: Wer so eine Erfahrung macht, kann nun Tests für einen rechtssicheren Minderungsanspruch starten."
+        ],
+        "link": "https://www.handelsblatt.com/technik/it-internet/mobilfunk-bei-schlechtem-handynetz-tests-fuer-rechtsanspruch-gehen-los/100218267.html",
+        "category": "IT + Telekommunikation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T03:10:04.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/richtungswahl-bulgarien-hat-gewaehlt-russland-freund-radew-klar-vorn/100218247.html",
+        "title": "Richtungswahl: Bulgarien hat gewählt: Russland-Freund Radew klar vorn",
+        "summary": "In Bulgarien ist Ex-Präsident Radew als Favorit in die Parlamentswahl gezogen. Laut Hochrechnungen liegt sein Bündnis auch deutlich vorn. Etablierte Parteien bleiben weit zurück.",
+        "paragraphs": [
+          "In Bulgarien ist Ex-Präsident Radew als Favorit in die Parlamentswahl gezogen. Laut Hochrechnungen liegt sein Bündnis auch deutlich vorn. Etablierte Parteien bleiben weit zurück."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/richtungswahl-bulgarien-hat-gewaehlt-russland-freund-radew-klar-vorn/100218247.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T03:04:16.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/forschung-innovation/tiere-ueberlebenskuenstler-mit-risikofaktor-zecken-auf-vormarsch/100218263.html",
+        "title": "Tiere: Überlebenskünstler mit Risikofaktor: Zecken auf Vormarsch",
+        "summary": "Sie können lange Zeit ohne Nahrung auskommen und stachen möglicherweise schon Dinosaurier. Was es sonst noch über die kleinen Spinnentiere zu wissen gibt.",
+        "paragraphs": [
+          "Sie können lange Zeit ohne Nahrung auskommen und stachen möglicherweise schon Dinosaurier. Was es sonst noch über die kleinen Spinnentiere zu wissen gibt."
+        ],
+        "link": "https://www.handelsblatt.com/technik/forschung-innovation/tiere-ueberlebenskuenstler-mit-risikofaktor-zecken-auf-vormarsch/100218263.html",
+        "category": "Forschung + Innovation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T03:00:13.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/it-internet/brauchen-mehr-schlagkraft-gruenderbranche-fordert-mehr-reformtempo-von-reiche/100218262.html",
+        "title": "„Brauchen mehr Schlagkraft“: Gründerbranche fordert mehr Reformtempo von Reiche",
+        "summary": "Die deutsche Start-up-Branche ist deutlich gewachsen, aber Schwierigkeiten bleiben - etwa der Mangel an Wagniskapital. Nun fordert die Branche Wirtschaftsministerin Reiche zum Handeln auf.",
+        "paragraphs": [
+          "Die deutsche Start-up-Branche ist deutlich gewachsen, aber Schwierigkeiten bleiben - etwa der Mangel an Wagniskapital. Nun fordert die Branche Wirtschaftsministerin Reiche zum Handeln auf."
+        ],
+        "link": "https://www.handelsblatt.com/technik/it-internet/brauchen-mehr-schlagkraft-gruenderbranche-fordert-mehr-reformtempo-von-reiche/100218262.html",
+        "category": "IT + Telekommunikation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-20T03:00:11.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/lage-im-ueberblick-us-militaer-entert-iran-schiff-was-wird-aus-verhandlungen/100218241.html",
         "title": "Lage im Überblick: US-Militär entert Iran-Schiff - Was wird aus Verhandlungen?",
@@ -1109,18 +1171,6 @@
         "publishedAt": "2026-04-20T01:07:31.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/international/neuwahl-in-bulgarien-hochrechnungen-ex-staatschef-radew-in-bulgarien-klar-vorn/100218247.html",
-        "title": "Neuwahl in Bulgarien: Hochrechnungen: Ex-Staatschef Radew in Bulgarien klar vorn",
-        "summary": "Ex-Staatschef Radew und sein Bündnis liegen Hochrechnungen zufolge bei der Parlamentswahl deutlich vorn. Der frühere Kampfjet-Pilot erreichte demnach die absolute Mehrheit im Parlament.",
-        "paragraphs": [
-          "Ex-Staatschef Radew und sein Bündnis liegen Hochrechnungen zufolge bei der Parlamentswahl deutlich vorn. Der frühere Kampfjet-Pilot erreichte demnach die absolute Mehrheit im Parlament."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/neuwahl-in-bulgarien-hochrechnungen-ex-staatschef-radew-in-bulgarien-klar-vorn/100218247.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T00:54:46.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/deutschland/beamtenbesoldung-spitzenbeamte-sollen-keine-extra-erhoehung-bekommen/100218242.html",
         "title": "Beamtenbesoldung: Spitzenbeamte sollen keine Extra-Erhöhung bekommen",
         "summary": "Das Bundesinnenministerium reduziert die geplante Besoldungsanhebung für Spitzenbeamte. Eines ist Bundesinnenminister Alexander Dobrindt dabei besonders wichtig.",
@@ -1155,54 +1205,6 @@
         "category": "Deutschland",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-19T22:30:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/experten-einschaetzung-future-skills-was-morgen-im-job-gefragt-ist/100218226.html",
-        "title": "Experten-Einschätzung: Future Skills: Was morgen im Job gefragt ist",
-        "summary": "Pünktlichkeit und Zuverlässigkeit, Loyalität und Fachwissen: Solche Eigenschaften galten früher im Job als unabdingbar. Und heute? Was verbirgt sich hinter den „Future Skills“ - und wer braucht sie?",
-        "paragraphs": [
-          "Pünktlichkeit und Zuverlässigkeit, Loyalität und Fachwissen: Solche Eigenschaften galten früher im Job als unabdingbar. Und heute? Was verbirgt sich hinter den „Future Skills“ - und wer braucht sie?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/experten-einschaetzung-future-skills-was-morgen-im-job-gefragt-ist/100218226.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T22:05:09.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/medizin/libido-von-maennern-was-bedeutet-eine-prostata-op-fuers-sexleben/100218227.html",
-        "title": "Libido von Männern: Was bedeutet eine Prostata-OP fürs Sexleben?",
-        "summary": "Ein Eingriff an der Prostata kann sich auf den Samenerguss und die Erektionsfähigkeit auswirken. Dabei spielt die Art des Eingriffs eine große Rolle, wie ein ungewöhnlicher Vergleich deutlich macht.",
-        "paragraphs": [
-          "Ein Eingriff an der Prostata kann sich auf den Samenerguss und die Erektionsfähigkeit auswirken. Dabei spielt die Art des Eingriffs eine große Rolle, wie ein ungewöhnlicher Vergleich deutlich macht."
-        ],
-        "link": "https://www.handelsblatt.com/technik/medizin/libido-von-maennern-was-bedeutet-eine-prostata-op-fuers-sexleben/100218227.html",
-        "category": "Medizin + Gesundheit",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T22:05:07.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/medizin/beliebtes-achtsamkeits-tool-journaling-7-haeufige-missverstaendnisse/100218224.html",
-        "title": "Beliebtes Achtsamkeits-Tool: Journaling: 7 häufige Missverständnisse",
-        "summary": "Fehlerfreie Sätze, schönes Notizbuch? Alles Quatsch! Warum es beim Journaling nicht auf Ästhetik ankommt. Und wie schon zehn Minuten täglich das Wohlbefinden stärken können.",
-        "paragraphs": [
-          "Fehlerfreie Sätze, schönes Notizbuch? Alles Quatsch! Warum es beim Journaling nicht auf Ästhetik ankommt. Und wie schon zehn Minuten täglich das Wohlbefinden stärken können."
-        ],
-        "link": "https://www.handelsblatt.com/technik/medizin/beliebtes-achtsamkeits-tool-journaling-7-haeufige-missverstaendnisse/100218224.html",
-        "category": "Medizin + Gesundheit",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T22:05:05.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/medizin/hype-ums-aufschreiben-kopf-leer-seite-voll-was-journaling-bringt-und-was-nicht/100218225.html",
-        "title": "Hype ums Aufschreiben: Kopf leer, Seite voll: Was Journaling bringt - und was nicht",
-        "summary": "Journaling klingt nach Selbstoptimierung: ein Heft, ein besseres Ich. Oft geht es aber schlicht darum, aufzuschreiben, was in einem vorgeht. Was daran entlastet. Und wo die Methode Grenzen hat.",
-        "paragraphs": [
-          "Journaling klingt nach Selbstoptimierung: ein Heft, ein besseres Ich. Oft geht es aber schlicht darum, aufzuschreiben, was in einem vorgeht. Was daran entlastet. Und wo die Methode Grenzen hat."
-        ],
-        "link": "https://www.handelsblatt.com/technik/medizin/hype-ums-aufschreiben-kopf-leer-seite-voll-was-journaling-bringt-und-was-nicht/100218225.html",
-        "category": "Medizin + Gesundheit",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-19T22:05:04.000Z"
       }
     ]
   }
