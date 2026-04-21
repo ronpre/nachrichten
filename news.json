@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-21T11:15:26.189Z",
+  "updatedAt": "2026-04-21T11:42:40.671Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "ce4e9818-b585-47ba-ad2f-e80698d2cc68",
+        "title": "Marktbericht: Startschuss für den Mega-Börsengang von SpaceX",
+        "summary": "Im Juni will SpaceX an die Börse gehen. Nun lädt das US-Raumfahrtunternehmen Analysten ein und stellt die konkreten Pläne vor. Der DAX trotzt derweil der Unsicherheit vor dem Ende der Waffenruhe im Iran-Krieg.",
+        "paragraphs": [
+          "Im Juni will SpaceX an die Börse gehen. Nun lädt das US-Raumfahrtunternehmen Analysten ein und stellt die konkreten Pläne vor. Der DAX trotzt derweil der Unsicherheit vor dem Ende der Waffenruhe im Iran-Krieg."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/spacex-boersengang-marktbericht-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-21T11:22:50.000Z"
+      },
       {
         "id": "374e64be-4a01-40b4-8628-fa57b4a91538",
         "title": "Machtkampf um die Fed - Trumps Kandidat Warsh in der Kritik",
@@ -229,21 +241,31 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-20T20:48:28.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/Bundesregierung-sieht-Kerosin-Versorgung-gesichert-id30735652.html",
-        "title": "\"Keine Engpässe\": Bundesregierung sieht Kerosin-Versorgung gesichert",
-        "summary": "Die Kosten für Flugzeugtreibstoff haben sich seit Beginn des Iran-Krieges verdoppelt. Die deutsche Luftfahrtbranche fordert staatliche Hilfen. Die Regierung in Berlin sieht die Versorgung aber nicht in Gefahr und will vorerst keine Maßnahmen ergreifen.",
-        "paragraphs": [
-          "Die Kosten für Flugzeugtreibstoff haben sich seit Beginn des Iran-Krieges verdoppelt. Die deutsche Luftfahrtbranche fordert staatliche Hilfen. Die Regierung in Berlin sieht die Versorgung aber nicht in Gefahr und will vorerst keine Maßnahmen ergreifen."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/Bundesregierung-sieht-Kerosin-Versorgung-gesichert-id30735652.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-04-20T19:56:40.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3463205",
+        "title": "Bundespolitik: Bericht: Auf Pflegeheimbewohner kommen höhere Belastungen zu",
+        "summary": "Gesundheitsministerin Warken will die Pflegeversicherung reformieren. Um Geld zu sparen, sollen unter anderem die Zuschüsse für Heimbewohner langsamer anwachsen, berichtet das Redaktionsnetzwerk Deutschland.",
+        "paragraphs": [
+          "Gesundheitsministerin Warken will die Pflegeversicherung reformieren. Um Geld zu sparen, sollen unter anderem die Zuschüsse für Heimbewohner langsamer anwachsen, berichtet das Redaktionsnetzwerk Deutschland."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-koalition-gesundheitsministerin-nina-warken-pflegeversicherung-pflegeheim-reform-li.3463205",
+        "category": "Bundesregierung",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-21T11:30:00.000Z"
+      },
+      {
+        "id": "li.3471551",
+        "title": "Gesundheitsministerin Warken: Pflegereform folgt",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/gesundheitsministerin-warken-pflegereform-folgt-li.3471551",
+        "category": "Gesundheitspolitik",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-21T11:19:55.000Z"
+      },
       {
         "id": "li.3471361",
         "title": "Irankrieg: Bundesregierung treibt Planungen für Hormus-Einsatz voran",
@@ -365,18 +387,6 @@
         "publishedAt": "2026-04-21T06:15:51.000Z"
       },
       {
-        "id": "li.3463205",
-        "title": "Bundespolitik: Dobrindt schließt höheren Spitzensteuersatz nicht aus",
-        "summary": "Wenn man einen großen Reformprozess wolle, sei es „nicht klug, das eine oder andere kategorisch auszuschließen“, sagt der Bundesinnenminister. Die SPD will hohe Einkommen stärker besteuern.",
-        "paragraphs": [
-          "Wenn man einen großen Reformprozess wolle, sei es „nicht klug, das eine oder andere kategorisch auszuschließen“, sagt der Bundesinnenminister. Die SPD will hohe Einkommen stärker besteuern."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-koalition-alexander-dobrindt-reformen-spitzensteuersatz-spd-li.3463205",
-        "category": "Bundesregierung",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-21T05:07:00.000Z"
-      },
-      {
         "id": "li.3471270",
         "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
         "summary": "SZ am Morgen.",
@@ -471,21 +481,21 @@
         "category": "Außenpolitik",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-20T15:12:52.000Z"
-      },
-      {
-        "id": "li.3470838",
-        "title": "Podcast: „Auf den Punkt“: Straftaten: Die Kriminalstatistik zeigt ein verzerrtes Bild",
-        "summary": "Deutschlands Polizisten haben 2025 weniger Gewaltverbrechen registriert. Woran das liegt.",
-        "paragraphs": [
-          "Deutschlands Polizisten haben 2025 weniger Gewaltverbrechen registriert. Woran das liegt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-kriminalitaet-li.3470838",
-        "category": "Podcast",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-20T14:30:08.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/nachwuchs-reporter-am-mikrofon-1212332/artikel#omrss",
+        "title": "Nachwuchs-Reporter am Mikrofon",
+        "summary": "Wenn im Mai die DFB-Pokalfinalspiele bei den Frauen und Männern über die Bühne gehen, wird jeweils ein Nachwuchsreporter am Mikrofon sein. Cleo (12) und Charlie (13) dürfen die beiden Spiele kommentieren.",
+        "paragraphs": [
+          "Wenn im Mai die DFB-Pokalfinalspiele bei den Frauen und Männern über die Bühne gehen, wird jeweils ein Nachwuchsreporter am Mikrofon sein. Cleo (12) und Charlie (13) dürfen die beiden Spiele kommentieren."
+        ],
+        "link": "https://www.kicker.de/nachwuchs-reporter-am-mikrofon-1212332/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-21T11:32:04.000Z"
+      },
       {
         "id": "https://www.kicker.de/weit-unter-den-anspruechen-leverkusen-zwischen-pokal-kracher-und-trainer-frage-1212337/artikel#omrss",
         "title": "\"Weit unter den Ansprüchen\": Leverkusen zwischen Pokal-Kracher und Trainer-Frage",
@@ -583,6 +593,18 @@
         "publishedAt": "2026-04-21T10:00:05.000Z"
       },
       {
+        "id": "https://www.kicker.de/greif-jokic-an-mcdaniels-nennt-nuggets-spieler-alles-schlechte-verteidiger-1212303/artikel#omrss",
+        "title": "\"Greif Jokic an\": McDaniels nennt Nuggets-Spieler \"alles schlechte Verteidiger\"",
+        "summary": "Die Rivalität zwischen den Minnesota Timberwolves und Denver Nuggets nimmt weiter an Intensität zu. Nach dem Sieg seines Teams nannte Jaden McDaniels die gegnerischen Spieler \"alles schlechte Verteidiger\". Es ist nicht seine erste Auseinandersetzung mit den Denver.",
+        "paragraphs": [
+          "Die Rivalität zwischen den Minnesota Timberwolves und Denver Nuggets nimmt weiter an Intensität zu. Nach dem Sieg seines Teams nannte Jaden McDaniels die gegnerischen Spieler \"alles schlechte Verteidiger\". Es ist nicht seine erste Auseinandersetzung mit den Denver."
+        ],
+        "link": "https://www.kicker.de/greif-jokic-an-mcdaniels-nennt-nuggets-spieler-alles-schlechte-verteidiger-1212303/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-21T09:54:12.000Z"
+      },
+      {
         "id": "https://www.kicker.de/eskaliert-das-formel-1-duell-zwischen-russell-und-antonelli-1212306/artikel#omrss",
         "title": "Eskaliert das Formel-1-Duell zwischen Russell und Antonelli?",
         "summary": "Kimi Antonelli und George Russell dominieren diese Saison für Mercedes. Steckt in dieser Konstellation Stoff für einen Stallkrieg? Der Teamchef griff einst bei Rosberg und Hamilton knallhart durch.",
@@ -607,13 +629,13 @@
         "publishedAt": "2026-04-21T09:49:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/bjoern-werner-in-die-hall-of-fame-der-florida-state-university-aufgenommen-1212307/artikel#omrss",
-        "title": "Björn Werner in die Hall of Fame der Florida State University aufgenommen",
+        "id": "https://www.kicker.de/werner-wird-in-die-hall-of-fame-der-florida-state-university-aufgenommen-1212307/artikel#omrss",
+        "title": "Werner wird in die Hall of Fame der Florida State University aufgenommen",
         "summary": "Es ist die Krönung einer außergewöhnlichen Reise, die einst auf den staubigen Plätzen Berlins begann. Björn Werner, der Mann, der den American Football in Deutschland wie kaum ein Zweiter geprägt hat, erhält die höchste sportliche Ehre seiner Alma Mater. Mit der Aufnahme in die Hall of Fame der Florida State University schließt sich ein Kreis für den ehemaligen Ausnahme-Athleten, dessen Karriere im \"Sunshine State\" ihren kometenhaften Aufstieg nahm.",
         "paragraphs": [
           "Es ist die Krönung einer außergewöhnlichen Reise, die einst auf den staubigen Plätzen Berlins begann. Björn Werner, der Mann, der den American Football in Deutschland wie kaum ein Zweiter geprägt hat, erhält die höchste sportliche Ehre seiner Alma Mater. Mit der Aufnahme in die Hall of Fame der Florida State University schließt sich ein Kreis für den ehemaligen Ausnahme-Athleten, dessen Karriere im \"Sunshine State\" ihren kometenhaften Aufstieg nahm."
         ],
-        "link": "https://www.kicker.de/bjoern-werner-in-die-hall-of-fame-der-florida-state-university-aufgenommen-1212307/artikel#omrss",
+        "link": "https://www.kicker.de/werner-wird-in-die-hall-of-fame-der-florida-state-university-aufgenommen-1212307/artikel#omrss",
         "category": "Football",
         "source": "Kicker",
         "publishedAt": "2026-04-21T09:45:42.000Z"
@@ -701,30 +723,6 @@
         "category": "Bayern München",
         "source": "Kicker",
         "publishedAt": "2026-04-21T09:23:44.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/braunschweig-ohne-opoku-im-abstiegskampf-1212291/artikel#omrss",
-        "title": "Braunschweig ohne Opoku im Abstiegskampf",
-        "summary": "Eintracht Braunschweig muss im Abstiegskampf vorerst auf Aaron Opoku verzichten. Der Winter-Neuzugang hat sich im Training verletzt.",
-        "paragraphs": [
-          "Eintracht Braunschweig muss im Abstiegskampf vorerst auf Aaron Opoku verzichten. Der Winter-Neuzugang hat sich im Training verletzt."
-        ],
-        "link": "https://www.kicker.de/braunschweig-ohne-opoku-im-abstiegskampf-1212291/artikel#omrss",
-        "category": "2. Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-21T09:22:58.000Z"
-      },
-      {
-        "id": "li.3471478",
-        "title": "Eishockey-Playoffs: Stadionverbote gegen 18 Berliner Fans",
-        "summary": "Die Anhänger der Eisbären hatten einen Kölner Fan-Bus mit Flaschen und Fahnenstangen attackiert.",
-        "paragraphs": [
-          "Die Anhänger der Eisbären hatten einen Kölner Fan-Bus mit Flaschen und Fahnenstangen attackiert."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/del-eishockey-eisbaeren-berlin-fans-attacke-bus-stadionverbote-li.3471478",
-        "category": "Eishockey",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-21T09:20:52.000Z"
       }
     ],
     "edv": [
@@ -741,16 +739,16 @@
         "publishedAt": "2026-04-21T07:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/OrcaSlicer-2-3-2-Massives-Update-11265708.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "OrcaSlicer 2.3.2 – Massives Update",
-        "summary": "Der Slicer spielt eine zentrale Rolle im 3D-Druck-Workflow. OrcaSlicer gewinnt zunehmend an Bedeutung und erweitert seinen Funktionsumfang stetig.",
+        "id": "https://www.heise.de/news/DMEA-2026-Gesundheitsministerium-draengt-auf-mehr-Datennutzung-11265672.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "DMEA 2026: Gesundheitsministerium drängt auf mehr Datennutzung",
+        "summary": "Der EU-Gesundheitsdatenraum kommt voran. Das Bundesgesundheitsministerium drängt zu mehr Tempo beim Datenzugang, bei KI und der Infrastruktur.",
         "paragraphs": [
-          "Der Slicer spielt eine zentrale Rolle im 3D-Druck-Workflow. OrcaSlicer gewinnt zunehmend an Bedeutung und erweitert seinen Funktionsumfang stetig."
+          "Der EU-Gesundheitsdatenraum kommt voran. Das Bundesgesundheitsministerium drängt zu mehr Tempo beim Datenzugang, bei KI und der Infrastruktur."
         ],
-        "link": "https://www.heise.de/news/OrcaSlicer-2-3-2-Massives-Update-11265708.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/DMEA-2026-Gesundheitsministerium-draengt-auf-mehr-Datennutzung-11265672.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T10:39:00.000Z"
+        "publishedAt": "2026-04-21T11:24:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Machtwechsel-bei-Apple-Tim-Cook-uebergibt-an-John-Ternus-11265059.html",
@@ -765,16 +763,16 @@
         "publishedAt": "2026-04-20T22:22:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/ADAC-Oesterreich-Modell-verteuert-Tanken-11265700.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Neue Regelung verteuert Kraftstoffpreise. Der ADAC zeigt, warum",
-        "summary": "Seit Einführung des Österreich-Modells am 1. April 2026 sind die Spritpreise gestiegen. Der ADAC zeigt, dass Mineralölkonzerne hohe Risikoaufschläge einpreisen.",
+        "id": "https://www.heise.de/news/OrcaSlicer-2-3-2-Massives-Update-11265708.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "OrcaSlicer 2.3.2 – Massives Update",
+        "summary": "Der Slicer spielt eine zentrale Rolle im 3D-Druck-Workflow. OrcaSlicer gewinnt zunehmend an Bedeutung und erweitert seinen Funktionsumfang stetig.",
         "paragraphs": [
-          "Seit Einführung des Österreich-Modells am 1. April 2026 sind die Spritpreise gestiegen. Der ADAC zeigt, dass Mineralölkonzerne hohe Risikoaufschläge einpreisen."
+          "Der Slicer spielt eine zentrale Rolle im 3D-Druck-Workflow. OrcaSlicer gewinnt zunehmend an Bedeutung und erweitert seinen Funktionsumfang stetig."
         ],
-        "link": "https://www.heise.de/news/ADAC-Oesterreich-Modell-verteuert-Tanken-11265700.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/OrcaSlicer-2-3-2-Massives-Update-11265708.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T10:27:00.000Z"
+        "publishedAt": "2026-04-21T10:39:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Google-Fitbit-Air-Neuer-bildschirmloser-Tracker-kommt-bald-11264098.html",
@@ -789,16 +787,16 @@
         "publishedAt": "2026-04-20T10:22:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Git-2-54-experimentiert-mit-dem-Veraendern-der-Commit-Historie-11265560.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Git 2.54: Experimenteller Befehl für Commit-Historie",
-        "summary": "Im neuen Release bringt die Versionsverwaltung den experimentellen Befehl git history, um beispielsweise Fehler zu korrigieren oder einen Commit aufzuteilen.",
+        "id": "https://www.heise.de/news/ADAC-Oesterreich-Modell-verteuert-Tanken-11265700.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Neue Regelung verteuert Kraftstoffpreise. Der ADAC zeigt, warum",
+        "summary": "Seit Einführung des Österreich-Modells am 1. April 2026 sind die Spritpreise gestiegen. Der ADAC zeigt, dass Mineralölkonzerne hohe Risikoaufschläge einpreisen.",
         "paragraphs": [
-          "Im neuen Release bringt die Versionsverwaltung den experimentellen Befehl git history, um beispielsweise Fehler zu korrigieren oder einen Commit aufzuteilen."
+          "Seit Einführung des Österreich-Modells am 1. April 2026 sind die Spritpreise gestiegen. Der ADAC zeigt, dass Mineralölkonzerne hohe Risikoaufschläge einpreisen."
         ],
-        "link": "https://www.heise.de/news/Git-2-54-experimentiert-mit-dem-Veraendern-der-Commit-Historie-11265560.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/ADAC-Oesterreich-Modell-verteuert-Tanken-11265700.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T10:18:00.000Z"
+        "publishedAt": "2026-04-21T10:27:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Durchblick-bei-Technik-Features-moderner-Monitore-c-t-uplink-11262754.html",
@@ -813,16 +811,16 @@
         "publishedAt": "2026-04-18T15:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Humanoide-Roboter-Schaeffler-gewinnt-Award-fuer-perfomante-kompakte-Aktuatoren-11265636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Humanoide Roboter: Schaeffler gewinnt Award für perfomante kompakte Aktuatoren",
-        "summary": "Aktuatoren sind eine wichtige Komponente humanoider Roboter. Schaeffler hat leistungsfähige Aktuatoren im Angebot, die nun einen Preis ergattert haben.",
+        "id": "https://www.heise.de/news/Git-2-54-experimentiert-mit-dem-Veraendern-der-Commit-Historie-11265560.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Git 2.54: Experimenteller Befehl für Commit-Historie",
+        "summary": "Im neuen Release bringt die Versionsverwaltung den experimentellen Befehl git history, um beispielsweise Fehler zu korrigieren oder einen Commit aufzuteilen.",
         "paragraphs": [
-          "Aktuatoren sind eine wichtige Komponente humanoider Roboter. Schaeffler hat leistungsfähige Aktuatoren im Angebot, die nun einen Preis ergattert haben."
+          "Im neuen Release bringt die Versionsverwaltung den experimentellen Befehl git history, um beispielsweise Fehler zu korrigieren oder einen Commit aufzuteilen."
         ],
-        "link": "https://www.heise.de/news/Humanoide-Roboter-Schaeffler-gewinnt-Award-fuer-perfomante-kompakte-Aktuatoren-11265636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Git-2-54-experimentiert-mit-dem-Veraendern-der-Commit-Historie-11265560.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T10:15:00.000Z"
+        "publishedAt": "2026-04-21T10:18:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Kann-jeder-3D-Druck-c-t-3003-11261187.html",
@@ -837,16 +835,16 @@
         "publishedAt": "2026-04-17T14:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/CLC-2026-CfP-Frist-verlaengert-Einreichungen-noch-bis-24-April-2026-moeglich-11263733.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: CLC 2026: CfP-Frist verlängert – Einreichungen noch bis 24. April 2026 möglich",
-        "summary": "Praxisberichte zu Developer Experience, Platform Engineering und Agentic AI für die CLC gesucht. Einreichung von Talks und Workshops bis 24. April.",
+        "id": "https://www.heise.de/news/Humanoide-Roboter-Schaeffler-gewinnt-Award-fuer-perfomante-kompakte-Aktuatoren-11265636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Humanoide Roboter: Schaeffler gewinnt Award für perfomante kompakte Aktuatoren",
+        "summary": "Aktuatoren sind eine wichtige Komponente humanoider Roboter. Schaeffler hat leistungsfähige Aktuatoren im Angebot, die nun einen Preis ergattert haben.",
         "paragraphs": [
-          "Praxisberichte zu Developer Experience, Platform Engineering und Agentic AI für die CLC gesucht. Einreichung von Talks und Workshops bis 24. April."
+          "Aktuatoren sind eine wichtige Komponente humanoider Roboter. Schaeffler hat leistungsfähige Aktuatoren im Angebot, die nun einen Preis ergattert haben."
         ],
-        "link": "https://www.heise.de/news/CLC-2026-CfP-Frist-verlaengert-Einreichungen-noch-bis-24-April-2026-moeglich-11263733.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Humanoide-Roboter-Schaeffler-gewinnt-Award-fuer-perfomante-kompakte-Aktuatoren-11265636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T10:00:00.000Z"
+        "publishedAt": "2026-04-21T10:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Terahertz-Scanner-untersucht-aktive-Halbleiter-kontaktlos-11262760.html",
@@ -861,16 +859,16 @@
         "publishedAt": "2026-04-17T13:28:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/GitHub-Copilot-Neukunden-ausgesperrt-Nutzung-staerker-begrenzt-11265219.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Kapazitäten ausgereizt? Microsoft lehnt Neukunden für GitHub Copilot ab",
-        "summary": "Kunden verwenden GitHub Copilot stärker als geplant. Jetzt zieht Microsoft die Reißleine und schränkt die Nutzung ein.",
+        "id": "https://www.heise.de/news/CLC-2026-CfP-Frist-verlaengert-Einreichungen-noch-bis-24-April-2026-moeglich-11263733.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: CLC 2026: CfP-Frist verlängert – Einreichungen noch bis 24. April 2026 möglich",
+        "summary": "Praxisberichte zu Developer Experience, Platform Engineering und Agentic AI für die CLC gesucht. Einreichung von Talks und Workshops bis 24. April.",
         "paragraphs": [
-          "Kunden verwenden GitHub Copilot stärker als geplant. Jetzt zieht Microsoft die Reißleine und schränkt die Nutzung ein."
+          "Praxisberichte zu Developer Experience, Platform Engineering und Agentic AI für die CLC gesucht. Einreichung von Talks und Workshops bis 24. April."
         ],
-        "link": "https://www.heise.de/news/GitHub-Copilot-Neukunden-ausgesperrt-Nutzung-staerker-begrenzt-11265219.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/CLC-2026-CfP-Frist-verlaengert-Einreichungen-noch-bis-24-April-2026-moeglich-11263733.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T09:29:00.000Z"
+        "publishedAt": "2026-04-21T10:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Core-300-Intel-stellt-Billigprozessor-Wildcat-Lake-vor-11262501.html",
@@ -885,16 +883,16 @@
         "publishedAt": "2026-04-17T12:04:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Engo3-Smarte-Sportbrille-mit-Display-verzichtet-auf-Kamera-Mikro-und-KI-11265556.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Engo3: Smarte Sportbrille mit Display verzichtet auf Kamera, Mikro und KI",
-        "summary": "Die neue engo3 blendet Leistungswerte direkt ins Sichtfeld ein. Auf Kameras, Mikros und KI verzichtet sie allerdings komplett.",
+        "id": "https://www.heise.de/news/GitHub-Copilot-Neukunden-ausgesperrt-Nutzung-staerker-begrenzt-11265219.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Kapazitäten ausgereizt? Microsoft lehnt Neukunden für GitHub Copilot ab",
+        "summary": "Kunden verwenden GitHub Copilot stärker als geplant. Jetzt zieht Microsoft die Reißleine und schränkt die Nutzung ein.",
         "paragraphs": [
-          "Die neue engo3 blendet Leistungswerte direkt ins Sichtfeld ein. Auf Kameras, Mikros und KI verzichtet sie allerdings komplett."
+          "Kunden verwenden GitHub Copilot stärker als geplant. Jetzt zieht Microsoft die Reißleine und schränkt die Nutzung ein."
         ],
-        "link": "https://www.heise.de/news/Engo3-Smarte-Sportbrille-mit-Display-verzichtet-auf-Kamera-Mikro-und-KI-11265556.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/GitHub-Copilot-Neukunden-ausgesperrt-Nutzung-staerker-begrenzt-11265219.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T08:57:00.000Z"
+        "publishedAt": "2026-04-21T09:29:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Android-17-Beta-4-Letzte-Testversion-vor-dem-finalen-Release-11261781.html",
@@ -909,16 +907,16 @@
         "publishedAt": "2026-04-17T07:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Bluesky-Ausfall-DDoS-Angriff-angeblich-von-iranischer-Gruppe-313-Team-11265319.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Bluesky-Ausfall: DDoS-Angriff angeblich von iranischer Gruppe „313 Team“",
-        "summary": "Am vergangenen Donnerstag kämpfte Bluesky mit massiven Störungen. Ursache war ein DDoS-Angriff. Den reklamiert das „313 Team“ für sich.",
+        "id": "https://www.heise.de/news/Engo3-Smarte-Sportbrille-mit-Display-verzichtet-auf-Kamera-Mikro-und-KI-11265556.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Engo3: Smarte Sportbrille mit Display verzichtet auf Kamera, Mikro und KI",
+        "summary": "Die neue engo3 blendet Leistungswerte direkt ins Sichtfeld ein. Auf Kameras, Mikros und KI verzichtet sie allerdings komplett.",
         "paragraphs": [
-          "Am vergangenen Donnerstag kämpfte Bluesky mit massiven Störungen. Ursache war ein DDoS-Angriff. Den reklamiert das „313 Team“ für sich."
+          "Die neue engo3 blendet Leistungswerte direkt ins Sichtfeld ein. Auf Kameras, Mikros und KI verzichtet sie allerdings komplett."
         ],
-        "link": "https://www.heise.de/news/Bluesky-Ausfall-DDoS-Angriff-angeblich-von-iranischer-Gruppe-313-Team-11265319.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Engo3-Smarte-Sportbrille-mit-Display-verzichtet-auf-Kamera-Mikro-und-KI-11265556.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T08:42:00.000Z"
+        "publishedAt": "2026-04-21T08:57:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-157-Datenschutz-vor-Gericht-11260020.html",
@@ -931,6 +929,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-17T04:10:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Bluesky-Ausfall-DDoS-Angriff-angeblich-von-iranischer-Gruppe-313-Team-11265319.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Bluesky-Ausfall: DDoS-Angriff angeblich von iranischer Gruppe „313 Team“",
+        "summary": "Am vergangenen Donnerstag kämpfte Bluesky mit massiven Störungen. Ursache war ein DDoS-Angriff. Den reklamiert das „313 Team“ für sich.",
+        "paragraphs": [
+          "Am vergangenen Donnerstag kämpfte Bluesky mit massiven Störungen. Ursache war ein DDoS-Angriff. Den reklamiert das „313 Team“ für sich."
+        ],
+        "link": "https://www.heise.de/news/Bluesky-Ausfall-DDoS-Angriff-angeblich-von-iranischer-Gruppe-313-Team-11265319.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-21T08:42:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Japan-Gefaengnisstrafe-fuer-Spoiler-zu-Godzilla-Film-und-Anime-auf-Internetseite-11265277.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -955,32 +965,140 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-21T08:20:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/API-Konferenz-von-heise-Know-how-zu-Konzepten-Sicherheit-und-KI-Schnittstellen-11263743.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: API-Konferenz von heise: Know-how zu Konzepten, Sicherheit und KI-Schnittstellen",
-        "summary": "Die Onlinekonferenz von heise bietet zwei Tage lang Vorträge zu Design, Testing, Management und Vermarktung von APIs. Zwei Workshops vertiefen das Wissen.",
-        "paragraphs": [
-          "Die Onlinekonferenz von heise bietet zwei Tage lang Vorträge zu Design, Testing, Management und Vermarktung von APIs. Zwei Workshops vertiefen das Wissen."
-        ],
-        "link": "https://www.heise.de/news/API-Konferenz-von-heise-Know-how-zu-Konzepten-Sicherheit-und-KI-Schnittstellen-11263743.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-21T08:00:00.000Z"
       }
     ],
     "börse": [
       {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-plus-beiersdorf-aktie-verliert-deutlich/100218617.html",
-        "title": "Dax aktuell: Dax notiert im Plus – Rheinmetall-Aktie sinkt",
-        "summary": "An den Börsen hoffen Anlegerinnen und Anleger auf eine zweite Gesprächsrunde zwischen den USA und dem Iran. Konjunkturdaten könnten einen Ausblick auf die Inflationsentwicklung geben.",
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-der-schattenbanksektor-sollte-angemessen-beaufsichtigt-werden/100216931.html",
+        "title": "Interview: ABN-Amro-Chefin Bérard: „Der Schattenbanksektor sollte angemessen beaufsichtigt werden“",
+        "summary": "Die Vorstandschefin der niederländischen Großbank ABN Amro Marguerite Bérard fordert im Interview eine strengere Überwachung des Private-Credit-Sektors und mehr Risikobereitschaft in Europa.",
         "paragraphs": [
-          "An den Börsen hoffen Anlegerinnen und Anleger auf eine zweite Gesprächsrunde zwischen den USA und dem Iran. Konjunkturdaten könnten einen Ausblick auf die Inflationsentwicklung geben."
+          "Die Vorstandschefin der niederländischen Großbank ABN Amro Marguerite Bérard fordert im Interview eine strengere Überwachung des Private-Credit-Sektors und mehr Risikobereitschaft in Europa."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-der-schattenbanksektor-sollte-angemessen-beaufsichtigt-werden/100216931.html",
+        "category": "Banken",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T11:33:04.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/gehalt-in-diesen-berufen-verdienten-deutsche-2025-das-meiste-geld-01/100201057.html",
+        "title": "Gehalt: Top-Verdiener in Deutschland: In diesen Berufen wird am besten bezahlt",
+        "summary": "Gehören Sie zu den absoluten Top-Verdienern in Deutschland? Eine exklusive Auswertung zeigt, welche Berufe an der Gehaltsspitze stehen.",
+        "paragraphs": [
+          "Gehören Sie zu den absoluten Top-Verdienern in Deutschland? Eine exklusive Auswertung zeigt, welche Berufe an der Gehaltsspitze stehen."
+        ],
+        "link": "https://www.handelsblatt.com/karriere/gehalt-in-diesen-berufen-verdienten-deutsche-2025-das-meiste-geld-01/100201057.html",
+        "category": "Management",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T11:33:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/urteile-entschaedigungsstreit-italien-staerkt-auslaendische-ns-opfer/100218736.html",
+        "title": "Urteile: Entschädigungsstreit: Italien stärkt ausländische NS-Opfer",
+        "summary": "Im Juni 1944 töten SS-Einheiten mehr als 200 Zivilisten im griechischen Dorf Distomo. Um Entschädigung wird weiter gestritten. Eine Gerichtsentscheidung könnte nun auch deutsche Unternehmen treffen.",
+        "paragraphs": [
+          "Im Juni 1944 töten SS-Einheiten mehr als 200 Zivilisten im griechischen Dorf Distomo. Um Entschädigung wird weiter gestritten. Eine Gerichtsentscheidung könnte nun auch deutsche Unternehmen treffen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/urteile-entschaedigungsstreit-italien-staerkt-auslaendische-ns-opfer/100218736.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T11:32:41.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-plus-beiersdorf-aktie-verliert-deutlich/100218617.html",
+        "title": "Dax aktuell: Dax notiert im Plus – Beiersdorf-Aktie verliert deutlich",
+        "summary": "An den Börsen hoffen Anlegerinnen und Anleger auf eine zweite Gesprächsrunde zwischen den USA und dem Iran. Pessimistische Konjunkturerwartungen dämpfen zusätzlich die Stimmung.",
+        "paragraphs": [
+          "An den Börsen hoffen Anlegerinnen und Anleger auf eine zweite Gesprächsrunde zwischen den USA und dem Iran. Pessimistische Konjunkturerwartungen dämpfen zusätzlich die Stimmung."
         ],
         "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-plus-beiersdorf-aktie-verliert-deutlich/100218617.html",
         "category": "Marktberichte",
         "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T11:02:40.000Z"
+        "publishedAt": "2026-04-21T11:32:36.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/steuern-recht/bitcoin-ethereum-und-co-krypto-gewinne-gemacht-was-sie-jetzt-versteuern-muessen/100218749.html",
+        "title": "Bitcoin, Ethereum und Co: Krypto-Gewinne gemacht? Was Sie jetzt versteuern müssen",
+        "summary": "Haltedauer, Kurs, Anzahl: Der private Handel mit Kryptowährungen erfordert eine penible Dokumentation. Warum? Weil sich das Finanzamt für die Gewinne interessiert.",
+        "paragraphs": [
+          "Haltedauer, Kurs, Anzahl: Der private Handel mit Kryptowährungen erfordert eine penible Dokumentation. Warum? Weil sich das Finanzamt für die Gewinne interessiert."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/bitcoin-ethereum-und-co-krypto-gewinne-gemacht-was-sie-jetzt-versteuern-muessen/100218749.html",
+        "category": "Steuern + Recht",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T11:31:09.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/mobilitaetskosten-12-uhr-regel-tanken-ist-schon-am-morgen-relativ-guenstig/100218695.html",
+        "title": "Mobilitätskosten: 12-Uhr-Regel: Tanken ist schon am Morgen relativ günstig",
+        "summary": "Der Preisverlauf beim Sprit hat sich grundlegend verändert. Wer sparen will, tankt vormittags. Bis zum letzten Moment zu warten lohnt aber kaum. Der Spritpreis stagniert.",
+        "paragraphs": [
+          "Der Preisverlauf beim Sprit hat sich grundlegend verändert. Wer sparen will, tankt vormittags. Bis zum letzten Moment zu warten lohnt aber kaum. Der Spritpreis stagniert."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/mobilitaetskosten-12-uhr-regel-tanken-ist-schon-am-morgen-relativ-guenstig/100218695.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T11:30:09.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/lebensmittel-gentechnik-ohne-kennzeichnung-eu-minister-fuer-lockerung/100218750.html",
+        "title": "Lebensmittel: Gentechnik ohne Kennzeichnung - EU-Minister für Lockerung",
+        "summary": "In europäischen Supermärkten könnten künftig genveränderte Lebensmittel verkauft werden, ohne speziell gekennzeichnet und geprüft zu sein. Was das bedeutet - und wann die Änderung greifen könnte.",
+        "paragraphs": [
+          "In europäischen Supermärkten könnten künftig genveränderte Lebensmittel verkauft werden, ohne speziell gekennzeichnet und geprüft zu sein. Was das bedeutet - und wann die Änderung greifen könnte."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/lebensmittel-gentechnik-ohne-kennzeichnung-eu-minister-fuer-lockerung/100218750.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T11:30:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/video/politik/verteidigung-japan-lockert-regeln-fuer-ruestungsexporte-aus-der-nachkriegszeit/100218744.html",
+        "title": "Verteidigung: Japan lockert Regeln für Rüstungsexporte aus der Nachkriegszeit",
+        "summary": "Die japanische Regierung hat eine Reform seiner Rüstungsexportregeln beschlossen und so den Verkauf von Kriegsschiffen und Raketen ins Ausland ermöglicht. Japan löst sich damit weiter von den pazifistischen Beschränkungen der Nachkriegszeit.",
+        "paragraphs": [
+          "Die japanische Regierung hat eine Reform seiner Rüstungsexportregeln beschlossen und so den Verkauf von Kriegsschiffen und Raketen ins Ausland ermöglicht. Japan löst sich damit weiter von den pazifistischen Beschränkungen der Nachkriegszeit."
+        ],
+        "link": "https://www.handelsblatt.com/video/politik/verteidigung-japan-lockert-regeln-fuer-ruestungsexporte-aus-der-nachkriegszeit/100218744.html",
+        "category": "Politik",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T11:15:36.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/job-so-erkennen-fuehrungskraefte-eine-anstehende-kuendigung-02/100173417.html",
+        "title": "Drohender Jobverlust: Vorsicht, Falle! Wie Führungskräfte ihre schleichende Degradierung erkennen – und gegensteuern",
+        "summary": "Wenn Arbeitgeber unliebsame Manager ohne hohe Abfindungen loswerden wollen, greifen sie oft zu Tricks. Die wichtigsten Warnsignale und juristischen Gegenmaßnahmen.",
+        "paragraphs": [
+          "Wenn Arbeitgeber unliebsame Manager ohne hohe Abfindungen loswerden wollen, greifen sie oft zu Tricks. Die wichtigsten Warnsignale und juristischen Gegenmaßnahmen."
+        ],
+        "link": "https://www.handelsblatt.com/karriere/job-so-erkennen-fuehrungskraefte-eine-anstehende-kuendigung-02/100173417.html",
+        "category": "Management",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T11:13:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/friendflation-belasten-finanzielle-unterschiede-eine-beziehung/100154689.html",
+        "title": "Friendflation: Warum Geld in Beziehungen relevanter wird",
+        "summary": "Wer gute Freunde hat, kommt leichter durchs Leben, hat eine bessere Beziehung und verringert sein Sterberisiko. Nur was, wenn die Freundschaft am Geld scheitert?",
+        "paragraphs": [
+          "Wer gute Freunde hat, kommt leichter durchs Leben, hat eine bessere Beziehung und verringert sein Sterberisiko. Nur was, wenn die Freundschaft am Geld scheitert?"
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/friendflation-belasten-finanzielle-unterschiede-eine-beziehung/100154689.html",
+        "category": "Finanzen",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T11:11:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/big-four-im-wandel-was-es-2026-braucht-um-top-berater-zu-werden-11/100179879.html",
+        "title": "Beratungen: So funktionieren Aufstieg und Einfluss bei den Big Four 2026",
+        "summary": "Aus dem Handelsblatt-Archiv: Die Ernennung zum Equity-Partner krönt bei PwC, KPMG, Deloitte und EY die Karriere. Warum KI die Regeln auf den Kopf stellt – und was Mitarbeiter in der Praxis erleben.",
+        "paragraphs": [
+          "Aus dem Handelsblatt-Archiv: Die Ernennung zum Equity-Partner krönt bei PwC, KPMG, Deloitte und EY die Karriere. Warum KI die Regeln auf den Kopf stellt – und was Mitarbeiter in der Praxis erleben."
+        ],
+        "link": "https://www.handelsblatt.com/karriere/big-four-im-wandel-was-es-2026-braucht-um-top-berater-zu-werden-11/100179879.html",
+        "category": "Management",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T11:10:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/markenrecht-an-doenernamen-streit-um-krispy-kebab-doenerkette-legt-sich-mit-kfc-an/100218600.html",
@@ -1005,18 +1123,6 @@
         "category": "International",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-21T10:59:24.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/urteil-zu-ns-taten-entschaedigungsstreit-italien-staerkt-auslaendische-ns-opfer/100218736.html",
-        "title": "Urteil zu NS-Taten: Entschädigungsstreit: Italien stärkt ausländische NS-Opfer",
-        "summary": "Es waren grausame Taten an jenem Juni-Tag 1944, als im griechischen Dorf Distomo SS-Einheiten Zivilisten töteten. Um Entschädigungen wird noch gestritten. Nun hat Italiens höchstes Gericht geurteilt.",
-        "paragraphs": [
-          "Es waren grausame Taten an jenem Juni-Tag 1944, als im griechischen Dorf Distomo SS-Einheiten Zivilisten töteten. Um Entschädigungen wird noch gestritten. Nun hat Italiens höchstes Gericht geurteilt."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/urteil-zu-ns-taten-entschaedigungsstreit-italien-staerkt-auslaendische-ns-opfer/100218736.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T10:49:35.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/energie/energie-russland-will-kasachische-oellieferungen-nach-deutschland-stoppen/100218728.html",
@@ -1101,114 +1207,6 @@
         "category": "Immobilien",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-21T10:01:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-welche-anlagestrategie-ist-ihr-weg-zu-finanzieller-freiheit/100141875.html",
-        "title": "Finanzielle Freiheit: Dieser Rechner zeigt, wann Sie von Ihrem Vermögen leben können",
-        "summary": "Wann wollen Sie finanziell unabhängig sein? Der Handelsblatt-Rechner für finanzielle Freiheit zeigt Ihnen, wie schnell und mit welcher Strategie Sie finanzielle Freiheit erreichen können.",
-        "paragraphs": [
-          "Wann wollen Sie finanziell unabhängig sein? Der Handelsblatt-Rechner für finanzielle Freiheit zeigt Ihnen, wie schnell und mit welcher Strategie Sie finanzielle Freiheit erreichen können."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-welche-anlagestrategie-ist-ihr-weg-zu-finanzieller-freiheit/100141875.html",
-        "category": "Trends",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T09:57:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rente-treffen-sie-mit-diesem-tool-die-beste-wahl-fuer-ihre-auswanderung/100168299.html",
-        "title": "Rentnerparadies: Rente im Ausland: Dieses Tool zeigt, wohin Sie auswandern sollten",
-        "summary": "Den Lebensabend im Ausland verbringen, davon träumen viele. Doch wie finden Sie zum Beispiel heraus, in welchem Land am Meer es sonnig und sicher ist? Das Handelsblatt hilft bei der Auswahl.",
-        "paragraphs": [
-          "Den Lebensabend im Ausland verbringen, davon träumen viele. Doch wie finden Sie zum Beispiel heraus, in welchem Land am Meer es sonnig und sicher ist? Das Handelsblatt hilft bei der Auswahl."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rente-treffen-sie-mit-diesem-tool-die-beste-wahl-fuer-ihre-auswanderung/100168299.html",
-        "category": "Altersvorsorge + Sparen",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T09:56:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/it-medien/oeffentlich-rechtlicher-rundfunk-verwaltungsgerichtshof-weist-klagen-gegen-rundfunkbeitrag-ab/100218675.html",
-        "title": "Öffentlich-rechtlicher Rundfunk: Verwaltungsgerichtshof weist Klagen gegen Rundfunkbeitrag ab",
-        "summary": "Mehrere Kläger wollten den Beitrag nicht zahlen, weil der Rundfunk unausgewogen berichte. Der VGH hält das Angebot für vielfältig genug. Es ist das erste Urteil dieser Art.",
-        "paragraphs": [
-          "Mehrere Kläger wollten den Beitrag nicht zahlen, weil der Rundfunk unausgewogen berichte. Der VGH hält das Angebot für vielfältig genug. Es ist das erste Urteil dieser Art."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/it-medien/oeffentlich-rechtlicher-rundfunk-verwaltungsgerichtshof-weist-klagen-gegen-rundfunkbeitrag-ab/100218675.html",
-        "category": "Medien",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T09:49:03.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/petersberger-klimadialog-schneider-bei-energiewende-schneller-und-besser-werden/100218601.html",
-        "title": "Petersberger Klimadialog: Schneider: Bei Energiewende „schneller und besser werden“",
-        "summary": "In Berlin beginnt eine internationale Klimakonferenz mit mehr als 30 Staaten. Der Bundesumweltminister erinnert als Gastgeber an die drängenden Themen. Auch der UN-Generalsekretär mahnt.",
-        "paragraphs": [
-          "In Berlin beginnt eine internationale Klimakonferenz mit mehr als 30 Staaten. Der Bundesumweltminister erinnert als Gastgeber an die drängenden Themen. Auch der UN-Generalsekretär mahnt."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/petersberger-klimadialog-schneider-bei-energiewende-schneller-und-besser-werden/100218601.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T09:43:14.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/autoindustrie-vw-chef-blume-will-produktionskapazitaet-weiter-senken/100218715.html",
-        "title": "Autoindustrie: VW-Chef Blume will Produktionskapazität weiter senken",
-        "summary": "Volkswagen nennt die alte Volumenplanung unrealistisch und will weltweit eine Million Autos weniger bauen. Was das für Jobs und Standorte bedeutet, bleibt vorerst offen.",
-        "paragraphs": [
-          "Volkswagen nennt die alte Volumenplanung unrealistisch und will weltweit eine Million Autos weniger bauen. Was das für Jobs und Standorte bedeutet, bleibt vorerst offen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/autoindustrie-vw-chef-blume-will-produktionskapazitaet-weiter-senken/100218715.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T09:40:33.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/gehalt-das-sind-deutschlands-bestbezahlte-berufe-2026-08/100179922.html",
-        "title": "Gehaltsreport 2026: 1,3 Millionen Gehaltsdaten im Vergleich: Gehören Sie zu den Besserverdienern in Deutschland?",
-        "summary": "Das Gehalt gehört nach wie vor zu den Tabuthemen in Deutschland. Finden Sie heraus, wie gut Sie im Vergleich in einzelnen Berufen, Branchen und Bundesländern verdienen.",
-        "paragraphs": [
-          "Das Gehalt gehört nach wie vor zu den Tabuthemen in Deutschland. Finden Sie heraus, wie gut Sie im Vergleich in einzelnen Berufen, Branchen und Bundesländern verdienen."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/gehalt-das-sind-deutschlands-bestbezahlte-berufe-2026-08/100179922.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T09:37:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-diese-anlageformen-haben-sich-in-boersenkrisen-behauptet/100114826.html",
-        "title": "Geldanlage: Wie sicher sind Gold, Anleihen und Devisen in Krisen?",
-        "summary": "Die aktuelle US-Politik verunsichert Anleger weltweit. Doch welche Werte verhielten sich rund um Börsencrashs in den vergangenen 100 Jahren am stabilsten?",
-        "paragraphs": [
-          "Die aktuelle US-Politik verunsichert Anleger weltweit. Doch welche Werte verhielten sich rund um Börsencrashs in den vergangenen 100 Jahren am stabilsten?"
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-diese-anlageformen-haben-sich-in-boersenkrisen-behauptet/100114826.html",
-        "category": "Anlagestrategie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T09:36:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-so-haben-sich-die-wohnungspreise-in-deutschland-entwickelt/100170986.html",
-        "title": "Immobilien: Ranking: Die zehn deutschen Städte mit den höchsten Wohnungspreisen",
-        "summary": "Wohnungen sind im ersten Quartal erneut teurer geworden. Exklusive Daten der 400 deutschen Kreise zeigen, wo der Anstieg am höchsten ist – und in welchen Regionen die Preise gesunken sind.",
-        "paragraphs": [
-          "Wohnungen sind im ersten Quartal erneut teurer geworden. Exklusive Daten der 400 deutschen Kreise zeigen, wo der Anstieg am höchsten ist – und in welchen Regionen die Preise gesunken sind."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-so-haben-sich-die-wohnungspreise-in-deutschland-entwickelt/100170986.html",
-        "category": "Immobilien",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T09:35:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/video/politik/usa-dutzende-festnahmen-veteranen-protestieren-gegen-iran-krieg/100218710.html",
-        "title": "USA: Dutzende Festnahmen – Veteranen protestieren gegen Iran-Krieg",
-        "summary": "Rund 150 Veteranen haben am Montag in einem Kongressgebäude in Washington D.C. gegen den Iran-Krieg demonstriert. Die Kapitol-Polizei löste den Protest auf. Mehr als 60 Demonstranten wurden festgenommen.",
-        "paragraphs": [
-          "Rund 150 Veteranen haben am Montag in einem Kongressgebäude in Washington D.C. gegen den Iran-Krieg demonstriert. Die Kapitol-Polizei löste den Protest auf. Mehr als 60 Demonstranten wurden festgenommen."
-        ],
-        "link": "https://www.handelsblatt.com/video/politik/usa-dutzende-festnahmen-veteranen-protestieren-gegen-iran-krieg/100218710.html",
-        "category": "Politik",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T09:33:30.000Z"
       }
     ]
   }
