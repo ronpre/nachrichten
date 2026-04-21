@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-04-21T05:09:13.115Z",
+  "updatedAt": "2026-04-21T05:55:24.494Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "9c08dcfc-7e74-4b29-89f6-578d113e461a",
+        "title": "Marktbericht: Anleger sind unsicher, aber zuversichtlich",
+        "summary": "Trotz der Ungewissheit über die Fortsetzung der Waffenruhe im Nahen Osten bleiben die Anleger zuversichtlich. Der DAX dürfte zum Handelsstart leicht zulegen, auch in Japan geht es aufwärts.",
+        "paragraphs": [
+          "Trotz der Ungewissheit über die Fortsetzung der Waffenruhe im Nahen Osten bleiben die Anleger zuversichtlich. Der DAX dürfte zum Handelsstart leicht zulegen, auch in Japan geht es aufwärts."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-122.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-21T05:32:54.000Z"
+      },
+      {
+        "id": "6bda8916-4209-4b27-a76d-fd95db86a833",
+        "title": "Japan lockert Regeln für Waffenexporte",
+        "summary": "Die japanische Regierung hat ihre historischen Beschränkungen für Waffenexporte ins Ausland weitgehend aufgehoben. Künftig ist es dem Land erlaubt, auch als \"tödliche Waffen\" eingestufte Rüstungsgüter zu verkaufen.",
+        "paragraphs": [
+          "Die japanische Regierung hat ihre historischen Beschränkungen für Waffenexporte ins Ausland weitgehend aufgehoben. Künftig ist es dem Land erlaubt, auch als \"tödliche Waffen\" eingestufte Rüstungsgüter zu verkaufen."
+        ],
+        "link": "https://www.tagesschau.de/ausland/asien/japan-waffenexporte-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-21T05:25:58.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Japan-verkauft-wieder-toedliche-Waffen-ins-Ausland-id30736168.html",
         "title": "Historische Regelung gestrichen: Japan verkauft wieder \"tödliche Waffen\" ins Ausland",
@@ -217,33 +241,21 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-20T15:40:55.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/UniCredit-unkt-ueber-Zukunftsfaehigkeit-der-Commerzbank-id30734905.html",
-        "title": "\"Nicht ausreichend vorbereitet\": UniCredit unkt über Zukunftsfähigkeit der Commerzbank",
-        "summary": "Die UniCredit greift nach der Commerzbank und gibt sich betont entspannt. Die nächsten eineinhalb Jahre geschehe praktisch nichts - egal wie das Übernahmeangebot ausfällt. Grundsätzlich aber, so die Italiener, gebe es bei der Coba erheblich Luft nach oben.",
-        "paragraphs": [
-          "Die UniCredit greift nach der Commerzbank und gibt sich betont entspannt. Die nächsten eineinhalb Jahre geschehe praktisch nichts - egal wie das Übernahmeangebot ausfällt. Grundsätzlich aber, so die Italiener, gebe es bei der Coba erheblich Luft nach oben."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/UniCredit-unkt-ueber-Zukunftsfaehigkeit-der-Commerzbank-id30734905.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-04-20T15:30:25.000Z"
-      },
-      {
-        "id": "eaebb67e-0e1b-4f36-8b5f-efc3bde70d10",
-        "title": "Iran lässt Teilnahme an neuen Verhandlungen offen",
-        "summary": "Eine US-Delegation soll heute in Pakistan ankommen, um über ein Ende des Iran-Kriegs zu verhandeln. Doch Iran zögert. Der US-Angriff auf ein iranisches Handelsschiff lässt Teheran zweifeln. Bei einem Streitpunkt könnte es nun Bewegung geben.",
-        "paragraphs": [
-          "Eine US-Delegation soll heute in Pakistan ankommen, um über ein Ende des Iran-Kriegs zu verhandeln. Doch Iran zögert. Der US-Angriff auf ein iranisches Handelsschiff lässt Teheran zweifeln. Bei einem Streitpunkt könnte es nun Bewegung geben."
-        ],
-        "link": "https://www.tagesschau.de/ausland/asien/iran-verhandlungen-islamabad-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-20T14:40:46.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3463205",
+        "title": "Bundespolitik: Dobrindt schließt höheren Spitzensteuersatz nicht aus",
+        "summary": "Wenn man einen großen Reformprozess wolle, sei es „nicht klug, das eine oder andere kategorisch auszuschließen“, sagt der Bundesinnenminister. Die SPD will hohe Einkommen stärker besteuern.",
+        "paragraphs": [
+          "Wenn man einen großen Reformprozess wolle, sei es „nicht klug, das eine oder andere kategorisch auszuschließen“, sagt der Bundesinnenminister. Die SPD will hohe Einkommen stärker besteuern."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-koalition-alexander-dobrindt-reformen-spitzensteuersatz-spd-li.3463205",
+        "category": "Bundesregierung",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-21T05:07:00.000Z"
+      },
       {
         "id": "li.3471270",
         "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
@@ -447,18 +459,6 @@
         "publishedAt": "2026-04-20T12:25:22.000Z"
       },
       {
-        "id": "li.3470752",
-        "title": "Beamtenbesoldung: Nur noch ein Gehaltssprünglein für Kanzler und Minister",
-        "summary": "Mit der neuen Beamtenbesoldung sollten auch Regierungsmitglieder Tausende Euro mehr pro Monat verdienen. Die Empörung war groß. Jetzt ändert das Innenministerium die Pläne.",
-        "paragraphs": [
-          "Mit der neuen Beamtenbesoldung sollten auch Regierungsmitglieder Tausende Euro mehr pro Monat verdienen. Die Empörung war groß. Jetzt ändert das Innenministerium die Pläne."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/besoldung-gehaltserhoehung-bundeskanzler-minister-staatssekretaere-deutschland-li.3470752",
-        "category": "Bundesregierung",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-20T12:24:58.000Z"
-      },
-      {
         "id": "76856460",
         "title": "Russland: Deutsche mit Bombe im Rucksack festgenommen",
         "summary": "Eine deutsche Staatsbürgerin soll in Russland kurz vor einem Anschlag gestanden haben. Sie wurde im Süden des Landes zusammen mit einem weiteren Verdächtigen gefasst.",
@@ -484,6 +484,30 @@
       }
     ],
     "sport": [
+      {
+        "id": "0b9df33e-4df3-43f6-a9ef-2fce430641fc",
+        "title": "Boston-Marathon: Die bewegende Geschichte des Richard Ringer",
+        "summary": "Die zweitschnellste Zeit eines Deutschen im Marathon, Platz acht beim anspruchsvollen Boston-Marathon: Richard Ringer begeistert in den USA und berührt mit einer persönlichen Tragödie.",
+        "paragraphs": [
+          "Die zweitschnellste Zeit eines Deutschen im Marathon, Platz acht beim anspruchsvollen Boston-Marathon: Richard Ringer begeistert in den USA und berührt mit einer persönlichen Tragödie."
+        ],
+        "link": "https://www.spiegel.de/sport/boston-marathon-die-bewegende-geschichte-des-richard-ringer-a-0b9df33e-4df3-43f6-a9ef-2fce430641fc#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-21T05:25:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/endet-in-golden-state-eine-aera-green-zweifelt-an-kerr-rueckkehr-1212208/artikel#omrss",
+        "title": "Endet in Golden State eine Ära? Green zweifelt an Kerr-Rückkehr",
+        "summary": "Bei den Golden State Warriors wächst nach dem Saisonende die Unsicherheit über die Zukunft von Steve Kerr. Nun hat sich auch Draymond Green deutlich geäußert.",
+        "paragraphs": [
+          "Bei den Golden State Warriors wächst nach dem Saisonende die Unsicherheit über die Zukunft von Steve Kerr. Nun hat sich auch Draymond Green deutlich geäußert."
+        ],
+        "link": "https://www.kicker.de/endet-in-golden-state-eine-aera-green-zweifelt-an-kerr-rueckkehr-1212208/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-21T04:50:00.000Z"
+      },
       {
         "id": "33b3493b-c5c3-4f35-829e-be0400bd6c2c",
         "title": "Sport trotz Allergie: Das müssen Allergiker im Frühling und Sommer beachten",
@@ -521,13 +545,13 @@
         "publishedAt": "2026-04-20T22:08:59.000Z"
       },
       {
-        "id": "https://www.kicker.de/starker-start-und-k-o-per-doppelschlag-berlin-bucht-in-koeln-das-finalticket-1212195/video#omrss",
-        "title": "Starker Start und K. o. per Doppelschlag: Berlin bucht in Köln das Finalticket",
+        "id": "https://www.kicker.de/spaeter-nackenschlag-fuer-haie-berlin-bucht-in-koeln-das-finalticket-1212195/video#omrss",
+        "title": "Später Nackenschlag für Haie: Berlin bucht in Köln das Finalticket",
         "summary": "Mit einem 4:1 in Köln gewannen die Eisbären Berlin die Halbfinalserie gegen die Haie und stehen damit erneut im Finale um die deutsche Meisterschaft. Die Highlights der Partie gibt es hier im Video.",
         "paragraphs": [
           "Mit einem 4:1 in Köln gewannen die Eisbären Berlin die Halbfinalserie gegen die Haie und stehen damit erneut im Finale um die deutsche Meisterschaft. Die Highlights der Partie gibt es hier im Video."
         ],
-        "link": "https://www.kicker.de/starker-start-und-k-o-per-doppelschlag-berlin-bucht-in-koeln-das-finalticket-1212195/video#omrss",
+        "link": "https://www.kicker.de/spaeter-nackenschlag-fuer-haie-berlin-bucht-in-koeln-das-finalticket-1212195/video#omrss",
         "category": "DEL",
         "source": "Kicker",
         "publishedAt": "2026-04-20T22:04:25.000Z"
@@ -699,30 +723,6 @@
         "category": "Formel 1",
         "source": "Kicker",
         "publishedAt": "2026-04-20T18:00:30.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/cowboys-setzen-zeichen-aubrey-wird-bestbezahlter-kicker-aller-zeiten-1212134/artikel#omrss",
-        "title": "Cowboys setzen Zeichen: Aubrey wird bestbezahlter Kicker aller Zeiten",
-        "summary": "Die Dallas Cowboys setzen kurz vor dem NFL Draft ein ungewöhnliches, aber klares Statement: Kicker Brandon Aubrey wird zum bestbezahlten Spieler seiner Position in der NFL. Mit einem neuen Vierjahresvertrag sprengt er bisherige Gehaltsgrenzen - und krönt eine der bemerkenswertesten Geschichten der Liga.",
-        "paragraphs": [
-          "Die Dallas Cowboys setzen kurz vor dem NFL Draft ein ungewöhnliches, aber klares Statement: Kicker Brandon Aubrey wird zum bestbezahlten Spieler seiner Position in der NFL. Mit einem neuen Vierjahresvertrag sprengt er bisherige Gehaltsgrenzen - und krönt eine der bemerkenswertesten Geschichten der Liga."
-        ],
-        "link": "https://www.kicker.de/cowboys-setzen-zeichen-aubrey-wird-bestbezahlter-kicker-aller-zeiten-1212134/artikel#omrss",
-        "category": "Dallas Cowboys",
-        "source": "Kicker",
-        "publishedAt": "2026-04-20T17:33:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/trotz-arcalean-schock-das-lok-sche-glas-ist-wieder-halb-voll-1211678/artikel#omrss",
-        "title": "Trotz Arcalean-Schock: Das Lok'sche Glas ist wieder halb voll",
-        "summary": "Das Remis im Spitzenspiel gegen den Halleschen FC fühlte sich für Lok Leipzig \"wie eine Niederlage an\", meint der Kapitän. Der Punkt könne im Meisterrennen \"noch sehr wichtig\" werden, meint hingegen der Coach. Das ohnehin prall gefüllte Lazarett wächst derweil weiter an.",
-        "paragraphs": [
-          "Das Remis im Spitzenspiel gegen den Halleschen FC fühlte sich für Lok Leipzig \"wie eine Niederlage an\", meint der Kapitän. Der Punkt könne im Meisterrennen \"noch sehr wichtig\" werden, meint hingegen der Coach. Das ohnehin prall gefüllte Lazarett wächst derweil weiter an."
-        ],
-        "link": "https://www.kicker.de/trotz-arcalean-schock-das-lok-sche-glas-ist-wieder-halb-voll-1211678/artikel#omrss",
-        "category": "1. FC Lok Leipzig",
-        "source": "Kicker",
-        "publishedAt": "2026-04-20T17:29:51.000Z"
       }
     ],
     "edv": [
@@ -739,16 +739,16 @@
         "publishedAt": "2026-04-20T22:22:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Dienstag-Stuehleruecken-bei-Apple-Vorwuerfe-gegen-Amazon-11265099.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Dienstag: Stühlerücken bei Apple, Vorwürfe gegen Amazon",
-        "summary": "Tim Cook tritt ab + Amazon unter Druck + Gemini übernimmt Behandlung chronisch Kranker + Merz für Änderungen am AI Act + Mindestalter für Social Media",
+        "id": "https://www.heise.de/meinung/Kommentar-zum-Wechsel-an-der-Apple-Spitze-Danke-Tim-Cook-hallo-John-Ternus-11265093.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Kommentar zum Wechsel an der Apple-Spitze: Danke, Tim Cook, hallo John Ternus",
+        "summary": "Es kam, wie erwartet: Tim Cook wird mit 65 zum Chef des Apple-Bords, Hardwareboss John Ternus wird CEO. Was das für Apple und die Nutzer bedeutet.",
         "paragraphs": [
-          "Tim Cook tritt ab + Amazon unter Druck + Gemini übernimmt Behandlung chronisch Kranker + Merz für Änderungen am AI Act + Mindestalter für Social Media"
+          "Es kam, wie erwartet: Tim Cook wird mit 65 zum Chef des Apple-Bords, Hardwareboss John Ternus wird CEO. Was das für Apple und die Nutzer bedeutet."
         ],
-        "link": "https://www.heise.de/news/Dienstag-Stuehleruecken-bei-Apple-Vorwuerfe-gegen-Amazon-11265099.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/meinung/Kommentar-zum-Wechsel-an-der-Apple-Spitze-Danke-Tim-Cook-hallo-John-Ternus-11265093.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T04:15:00.000Z"
+        "publishedAt": "2026-04-21T05:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Google-Fitbit-Air-Neuer-bildschirmloser-Tracker-kommt-bald-11264098.html",
@@ -763,16 +763,16 @@
         "publishedAt": "2026-04-20T10:22:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Kein-Kampf-gegen-Hass-im-Netz-Oesterreichs-Familienministerin-stoppt-Geld-11265047.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Kein Hilfe gegen Hass im Netz: Österreichs Familienministerin stoppt Geld",
-        "summary": "Plötzlich lässt Österreichs Familienministerin die rechtliche und psychosoziale Beratung gegen Hass im Netz im Stich. Damit stirbt auch die DSA-Meldestelle.",
+        "id": "https://www.heise.de/news/Anthropic-Weitere-25-Milliarden-US-Dollar-von-Amazon-fuer-KI-Firma-11265105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Anthropic: Weitere 25 Milliarden US-Dollar von Amazon für KI-Firma",
+        "summary": "Anthropic und Amazon haben sich auf einen Milliarden-Deal geeinigt. Die KI-Firma bekommt 25 Milliarden US-Dollar und will dafür 100 Milliarden in AWS stecken.",
         "paragraphs": [
-          "Plötzlich lässt Österreichs Familienministerin die rechtliche und psychosoziale Beratung gegen Hass im Netz im Stich. Damit stirbt auch die DSA-Meldestelle."
+          "Anthropic und Amazon haben sich auf einen Milliarden-Deal geeinigt. Die KI-Firma bekommt 25 Milliarden US-Dollar und will dafür 100 Milliarden in AWS stecken."
         ],
-        "link": "https://www.heise.de/news/Kein-Kampf-gegen-Hass-im-Netz-Oesterreichs-Familienministerin-stoppt-Geld-11265047.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Anthropic-Weitere-25-Milliarden-US-Dollar-von-Amazon-fuer-KI-Firma-11265105.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T03:44:00.000Z"
+        "publishedAt": "2026-04-21T05:10:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Durchblick-bei-Technik-Features-moderner-Monitore-c-t-uplink-11262754.html",
@@ -787,16 +787,16 @@
         "publishedAt": "2026-04-18T15:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/BYD-auf-Schwarzer-Liste-Brasiliens-oberster-Arbeitsinspektor-entlassen-11265025.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "BYD auf „Schwarzer Liste“: Brasiliens oberster Arbeitsinspektor entlassen",
-        "summary": "Der chinesische Autobauer BYD landet auf einer „Liste der Sklavenarbeit“ und erwirkt die Streichung. Ein hoher Beamter verliert daraufhin seinen Job.",
+        "id": "https://www.heise.de/news/Dienstag-Stuehleruecken-bei-Apple-Vorwuerfe-gegen-Amazon-11265099.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Dienstag: Stühlerücken bei Apple, Vorwürfe gegen Amazon",
+        "summary": "Tim Cook tritt ab + Amazon unter Druck + Gemini übernimmt Behandlung chronisch Kranker + Merz für Änderungen am AI Act + Mindestalter für Social Media",
         "paragraphs": [
-          "Der chinesische Autobauer BYD landet auf einer „Liste der Sklavenarbeit“ und erwirkt die Streichung. Ein hoher Beamter verliert daraufhin seinen Job."
+          "Tim Cook tritt ab + Amazon unter Druck + Gemini übernimmt Behandlung chronisch Kranker + Merz für Änderungen am AI Act + Mindestalter für Social Media"
         ],
-        "link": "https://www.heise.de/news/BYD-auf-Schwarzer-Liste-Brasiliens-oberster-Arbeitsinspektor-entlassen-11265025.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Dienstag-Stuehleruecken-bei-Apple-Vorwuerfe-gegen-Amazon-11265099.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-21T03:15:00.000Z"
+        "publishedAt": "2026-04-21T04:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Kann-jeder-3D-Druck-c-t-3003-11261187.html",
@@ -811,16 +811,16 @@
         "publishedAt": "2026-04-17T14:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Machtwechsel-bei-Apple-Tim-Cook-uebergibt-an-John-Ternus-11265059.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Machtwechsel bei Apple: Tim Cook übergibt an John Ternus",
-        "summary": "Die Personalie ist keine Überraschung, aber dennoch ein Paukenschlag: Bei Apple endet die erfolgreiche Ära Tim Cook. Hardware-Chef John Ternus übernimmt.",
+        "id": "https://www.heise.de/news/Kein-Kampf-gegen-Hass-im-Netz-Oesterreichs-Familienministerin-stoppt-Geld-11265047.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Kein Hilfe gegen Hass im Netz: Österreichs Familienministerin stoppt Geld",
+        "summary": "Plötzlich lässt Österreichs Familienministerin die rechtliche und psychosoziale Beratung gegen Hass im Netz im Stich. Damit stirbt auch die DSA-Meldestelle.",
         "paragraphs": [
-          "Die Personalie ist keine Überraschung, aber dennoch ein Paukenschlag: Bei Apple endet die erfolgreiche Ära Tim Cook. Hardware-Chef John Ternus übernimmt."
+          "Plötzlich lässt Österreichs Familienministerin die rechtliche und psychosoziale Beratung gegen Hass im Netz im Stich. Damit stirbt auch die DSA-Meldestelle."
         ],
-        "link": "https://www.heise.de/news/Machtwechsel-bei-Apple-Tim-Cook-uebergibt-an-John-Ternus-11265059.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Kein-Kampf-gegen-Hass-im-Netz-Oesterreichs-Familienministerin-stoppt-Geld-11265047.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T22:22:00.000Z"
+        "publishedAt": "2026-04-21T03:44:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Terahertz-Scanner-untersucht-aktive-Halbleiter-kontaktlos-11262760.html",
@@ -835,16 +835,16 @@
         "publishedAt": "2026-04-17T13:28:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Marvell-Bericht-ueber-Verhandlungen-mit-Google-zur-Entwicklung-zweier-KI-Chips-11265011.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Marvell: Bericht über Verhandlungen mit Google zur Entwicklung zweier KI-Chips",
-        "summary": "Bislang arbeitet Google bei der Chipentwicklung vor allem mit Broadcom zusammen. Nun könnte Marvell hinzukommen. Die Gespräche deuten auf eine Doppelstrategie.",
+        "id": "https://www.heise.de/news/BYD-auf-Schwarzer-Liste-Brasiliens-oberster-Arbeitsinspektor-entlassen-11265025.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "BYD auf „Schwarzer Liste“: Brasiliens oberster Arbeitsinspektor entlassen",
+        "summary": "Der chinesische Autobauer BYD landet auf einer „Liste der Sklavenarbeit“ und erwirkt die Streichung. Ein hoher Beamter verliert daraufhin seinen Job.",
         "paragraphs": [
-          "Bislang arbeitet Google bei der Chipentwicklung vor allem mit Broadcom zusammen. Nun könnte Marvell hinzukommen. Die Gespräche deuten auf eine Doppelstrategie."
+          "Der chinesische Autobauer BYD landet auf einer „Liste der Sklavenarbeit“ und erwirkt die Streichung. Ein hoher Beamter verliert daraufhin seinen Job."
         ],
-        "link": "https://www.heise.de/news/Marvell-Bericht-ueber-Verhandlungen-mit-Google-zur-Entwicklung-zweier-KI-Chips-11265011.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/BYD-auf-Schwarzer-Liste-Brasiliens-oberster-Arbeitsinspektor-entlassen-11265025.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T21:03:00.000Z"
+        "publishedAt": "2026-04-21T03:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Core-300-Intel-stellt-Billigprozessor-Wildcat-Lake-vor-11262501.html",
@@ -859,16 +859,16 @@
         "publishedAt": "2026-04-17T12:04:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/DoctorSV-El-Salvadors-Gesundheitsdaten-landen-in-den-Haenden-von-Google-11264981.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Google Gemini weitet Zugriff auf El Salvadors Gesundheitssystem aus",
-        "summary": "In El Salvador wird die Versorgung von Patienten mit chronischen Krankheiten künftig von Googles KI-Agenten Gemini übernommen. Präsident Bukele ist begeistert.",
+        "id": "https://www.heise.de/news/Machtwechsel-bei-Apple-Tim-Cook-uebergibt-an-John-Ternus-11265059.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Machtwechsel bei Apple: Tim Cook übergibt an John Ternus",
+        "summary": "Die Personalie ist keine Überraschung, aber dennoch ein Paukenschlag: Bei Apple endet die erfolgreiche Ära Tim Cook. Hardware-Chef John Ternus übernimmt.",
         "paragraphs": [
-          "In El Salvador wird die Versorgung von Patienten mit chronischen Krankheiten künftig von Googles KI-Agenten Gemini übernommen. Präsident Bukele ist begeistert."
+          "Die Personalie ist keine Überraschung, aber dennoch ein Paukenschlag: Bei Apple endet die erfolgreiche Ära Tim Cook. Hardware-Chef John Ternus übernimmt."
         ],
-        "link": "https://www.heise.de/news/DoctorSV-El-Salvadors-Gesundheitsdaten-landen-in-den-Haenden-von-Google-11264981.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Machtwechsel-bei-Apple-Tim-Cook-uebergibt-an-John-Ternus-11265059.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T20:07:00.000Z"
+        "publishedAt": "2026-04-20T22:22:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Android-17-Beta-4-Letzte-Testversion-vor-dem-finalen-Release-11261781.html",
@@ -883,16 +883,16 @@
         "publishedAt": "2026-04-17T07:54:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Illegale-Preisabsprachen-Kalifornien-untermauert-Vorwuerfe-gegen-Amazon-11264961.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Illegale Preisabsprachen: Kalifornien untermauert Vorwürfe gegen Amazon",
-        "summary": "Der US-Bundesstaat wirft Amazon vor, verschiedene Marken unter Druck gesetzt zu haben, um konkurrierende Einzelhändler zu Preiserhöhungen zu bewegen.",
+        "id": "https://www.heise.de/news/Marvell-Bericht-ueber-Verhandlungen-mit-Google-zur-Entwicklung-zweier-KI-Chips-11265011.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Marvell: Bericht über Verhandlungen mit Google zur Entwicklung zweier KI-Chips",
+        "summary": "Bislang arbeitet Google bei der Chipentwicklung vor allem mit Broadcom zusammen. Nun könnte Marvell hinzukommen. Die Gespräche deuten auf eine Doppelstrategie.",
         "paragraphs": [
-          "Der US-Bundesstaat wirft Amazon vor, verschiedene Marken unter Druck gesetzt zu haben, um konkurrierende Einzelhändler zu Preiserhöhungen zu bewegen."
+          "Bislang arbeitet Google bei der Chipentwicklung vor allem mit Broadcom zusammen. Nun könnte Marvell hinzukommen. Die Gespräche deuten auf eine Doppelstrategie."
         ],
-        "link": "https://www.heise.de/news/Illegale-Preisabsprachen-Kalifornien-untermauert-Vorwuerfe-gegen-Amazon-11264961.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Marvell-Bericht-ueber-Verhandlungen-mit-Google-zur-Entwicklung-zweier-KI-Chips-11265011.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-20T19:18:00.000Z"
+        "publishedAt": "2026-04-20T21:03:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-157-Datenschutz-vor-Gericht-11260020.html",
@@ -905,6 +905,30 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-17T04:10:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/DoctorSV-El-Salvadors-Gesundheitsdaten-landen-in-den-Haenden-von-Google-11264981.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Google Gemini weitet Zugriff auf El Salvadors Gesundheitssystem aus",
+        "summary": "In El Salvador wird die Versorgung von Patienten mit chronischen Krankheiten künftig von Googles KI-Agenten Gemini übernommen. Präsident Bukele ist begeistert.",
+        "paragraphs": [
+          "In El Salvador wird die Versorgung von Patienten mit chronischen Krankheiten künftig von Googles KI-Agenten Gemini übernommen. Präsident Bukele ist begeistert."
+        ],
+        "link": "https://www.heise.de/news/DoctorSV-El-Salvadors-Gesundheitsdaten-landen-in-den-Haenden-von-Google-11264981.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-20T20:07:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Illegale-Preisabsprachen-Kalifornien-untermauert-Vorwuerfe-gegen-Amazon-11264961.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Illegale Preisabsprachen: Kalifornien untermauert Vorwürfe gegen Amazon",
+        "summary": "Der US-Bundesstaat wirft Amazon vor, verschiedene Marken unter Druck gesetzt zu haben, um konkurrierende Einzelhändler zu Preiserhöhungen zu bewegen.",
+        "paragraphs": [
+          "Der US-Bundesstaat wirft Amazon vor, verschiedene Marken unter Druck gesetzt zu haben, um konkurrierende Einzelhändler zu Preiserhöhungen zu bewegen."
+        ],
+        "link": "https://www.heise.de/news/Illegale-Preisabsprachen-Kalifornien-untermauert-Vorwuerfe-gegen-Amazon-11264961.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-20T19:18:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Bundeskanzler-Merz-Europaeische-KI-Regulierung-erleichtern-11264933.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -941,33 +965,129 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-20T17:07:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/KI-von-Siemens-Eigen-Agent-automatisiert-Ingenieuraufgaben-11264879.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Hannover Messe: KI von Siemens: Eigen-Agent automatisiert Ingenieuraufgaben",
-        "summary": "Der Eigen Engineering Agent von Siemens soll komplexe Aufgaben in einfache Schritte zerlegen und ausführen können – und damit Fachkräfte entlasten.",
-        "paragraphs": [
-          "Der Eigen Engineering Agent von Siemens soll komplexe Aufgaben in einfache Schritte zerlegen und ausführen können – und damit Fachkräfte entlasten."
-        ],
-        "link": "https://www.heise.de/news/KI-von-Siemens-Eigen-Agent-automatisiert-Ingenieuraufgaben-11264879.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-20T16:48:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/BMG-Viel-volkswirtschaftliche-Power-hinter-Gesundheitsdatennutzung-11264442.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "BMG: „Viel volkswirtschaftliche Power“ hinter Gesundheitsdatennutzung",
-        "summary": "Der neue Chef der Abteilung Digitalisierung und Innovation im Gesundheitsministerium betonte auf dem Future Health Day die Relevanz der E-Patientenakte.",
-        "paragraphs": [
-          "Der neue Chef der Abteilung Digitalisierung und Innovation im Gesundheitsministerium betonte auf dem Future Health Day die Relevanz der E-Patientenakte."
-        ],
-        "link": "https://www.heise.de/news/BMG-Viel-volkswirtschaftliche-Power-hinter-Gesundheitsdatennutzung-11264442.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-20T16:32:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/us-regierung-us-arbeitsministerin-chavez-deremer-verlaesst-trumps-kabinett/100218549.html",
+        "title": "US-Regierung: US-Arbeitsministerin Chavez-DeRemer verlässt Trumps Kabinett",
+        "summary": "Nach schweren Vorwürfen wie einer Affäre mit ihrem Bodyguard, Alkoholkonsum und Übergriffen tritt sie zurück. Es ist der dritte Kabinettsumbau in zwei Monaten. Auch andere Minister stehen unter Druck.",
+        "paragraphs": [
+          "Nach schweren Vorwürfen wie einer Affäre mit ihrem Bodyguard, Alkoholkonsum und Übergriffen tritt sie zurück. Es ist der dritte Kabinettsumbau in zwei Monaten. Auch andere Minister stehen unter Druck."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/us-regierung-us-arbeitsministerin-chavez-deremer-verlaesst-trumps-kabinett/100218549.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T05:46:38.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/bayer-monsanto-kauf-kostet-ueber-24-milliarden-euro-fuer-klaeger-und-anwaelte-01/100216753.html",
+        "title": "Bilanzcheck: Die Monsanto-Rechnung für Bayer: 24 Milliarden Euro für Kläger und Anwälte",
+        "summary": "Bayer plant den Schlussakt beim Rechtsstreit um Produkte wie Glyphosat. Exklusive Berechnungen aus den Bilanzen zeigen das Ausmaß der Kosten. Sechs Grafiken zeigen die Lage des Konzerns.",
+        "paragraphs": [
+          "Bayer plant den Schlussakt beim Rechtsstreit um Produkte wie Glyphosat. Exklusive Berechnungen aus den Bilanzen zeigen das Ausmaß der Kosten. Sechs Grafiken zeigen die Lage des Konzerns."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/bayer-monsanto-kauf-kostet-ueber-24-milliarden-euro-fuer-klaeger-und-anwaelte-01/100216753.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T05:42:00.000Z"
+      },
+      {
+        "id": "579ace4f-dd05-4a28-9fcf-199174a734dd",
+        "title": "Mehrheit will Geld auf vergessenen Konten für soziale Zwecke nutzen",
+        "summary": "Bei Banken liegen geschätzt Milliarden Euro auf Konten Verstorbener, ohne dass Erben sich melden. Was damit passieren sollte? Die Mehrheit der Deutschen hat eine klare Vorstellung – und die ist nicht im Sinne der Banken.",
+        "paragraphs": [
+          "Bei Banken liegen geschätzt Milliarden Euro auf Konten Verstorbener, ohne dass Erben sich melden. Was damit passieren sollte? Die Mehrheit der Deutschen hat eine klare Vorstellung – und die ist nicht im Sinne der Banken."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/mehrheit-will-geld-auf-vergessenen-konten-fuer-soziale-zwecke-nutzen-a-579ace4f-dd05-4a28-9fcf-199174a734dd#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-21T05:33:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/lutz-meschke-ex-finanzchef-von-porsche-wird-vermoegensverwalter-01/100217525.html",
+        "title": "Lutz Meschke: Ex-Finanzchef von Porsche wird Vermögensverwalter",
+        "summary": "Lutz Meschke war Vorstand beim Sportwagenbauer Porsche und bei der Familienholding Porsche SE. Beide Jobs verlor er im vergangenen Jahr. Jetzt wechselt er die Branche.",
+        "paragraphs": [
+          "Lutz Meschke war Vorstand beim Sportwagenbauer Porsche und bei der Familienholding Porsche SE. Beide Jobs verlor er im vergangenen Jahr. Jetzt wechselt er die Branche."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/lutz-meschke-ex-finanzchef-von-porsche-wird-vermoegensverwalter-01/100217525.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T05:28:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/wiedervereinigung-im-westen-17-prozent-mehr-bruttoverdienst-als-im-osten/100218627.html",
+        "title": "Wiedervereinigung: Im Westen 17 Prozent mehr Bruttoverdienst als im Osten",
+        "summary": "Auch 2025 bleibt laut offizieller Statistik eine erhebliche Lohnlücke zwischen West- und Ostdeutschland. Von der Linken kommt Kritik.",
+        "paragraphs": [
+          "Auch 2025 bleibt laut offizieller Statistik eine erhebliche Lohnlücke zwischen West- und Ostdeutschland. Von der Linken kommt Kritik."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/wiedervereinigung-im-westen-17-prozent-mehr-bruttoverdienst-als-im-osten/100218627.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T05:24:07.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/netzausbau-reiches-gesetzesnovelle-zu-stromtrassen-stoesst-auf-kritik/100218431.html",
+        "title": "Stromnetzausbau: Freileitung statt Erdkabel: Reiches Pläne stoßen auf Kritik aus Industrie und Ländern",
+        "summary": "Bereits in der kommenden Woche soll das Bundeskabinett den Vorrang von Freileitungen beim Ausbau des Stromnetzes beschließen. Doch es regt sich Widerstand.",
+        "paragraphs": [
+          "Bereits in der kommenden Woche soll das Bundeskabinett den Vorrang von Freileitungen beim Ausbau des Stromnetzes beschließen. Doch es regt sich Widerstand."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/netzausbau-reiches-gesetzesnovelle-zu-stromtrassen-stoesst-auf-kritik/100218431.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T05:20:37.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/mobilitaet/motor/mgs9-mg-zeigt-siebensitzer-zum-schnaeppchenpreis/100218626.html",
+        "title": "MGS9: MG zeigt Siebensitzer zum Schnäppchenpreis",
+        "summary": "MG bietet mit dem MGS9 nun auch einen Siebensitzer an, der neben Platz auch Reichweite bietet. Beim Preis bleibt der Raumriese bodenständig.",
+        "paragraphs": [
+          "MG bietet mit dem MGS9 nun auch einen Siebensitzer an, der neben Platz auch Reichweite bietet. Beim Preis bleibt der Raumriese bodenständig."
+        ],
+        "link": "https://www.handelsblatt.com/mobilitaet/motor/mgs9-mg-zeigt-siebensitzer-zum-schnaeppchenpreis/100218626.html",
+        "category": "Motor",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T05:20:34.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/pilot-gehalt-so-viel-verdienen-lufthansa-piloten-2026-04/100037203.html",
+        "title": "Pilotengehalt: Das verdienen Lufthansa-Piloten 2026",
+        "summary": "Piloten verdienen in der Lufthansa-Gruppe nirgendwo so gut wie bei der Kernmarke Lufthansa Airlines. Dennoch sind sie unzufrieden. Ist das berechtigt? Der Gehaltscheck zeigt die Details.",
+        "paragraphs": [
+          "Piloten verdienen in der Lufthansa-Gruppe nirgendwo so gut wie bei der Kernmarke Lufthansa Airlines. Dennoch sind sie unzufrieden. Ist das berechtigt? Der Gehaltscheck zeigt die Details."
+        ],
+        "link": "https://www.handelsblatt.com/karriere/pilot-gehalt-so-viel-verdienen-lufthansa-piloten-2026-04/100037203.html",
+        "category": "Management",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T05:19:00.000Z"
+      },
+      {
+        "id": "11fe427a-b317-4900-8d32-c09471f9fe4c",
+        "title": "Einschneidende Reformen: Friedrich Merz kündigt Einschnitte bei Renten an, Nina Warken bei der Pflege",
+        "summary": "Bundeskanzler Merz ist Anfang Mai ein Jahr im Amt, jetzt will er die angekündigten Reformen voranbringen. Besonders für Rentner und Pflegebeürftige dürften die Zeiten härter werden.",
+        "paragraphs": [
+          "Bundeskanzler Merz ist Anfang Mai ein Jahr im Amt, jetzt will er die angekündigten Reformen voranbringen. Besonders für Rentner und Pflegebeürftige dürften die Zeiten härter werden."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/einschneidende-reformen-friedrich-merz-kuendigt-einschnitte-bei-renten-an-nina-warken-bei-der-pflege-a-11fe427a-b317-4900-8d32-c09471f9fe4c#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-21T05:18:00.000Z"
+      },
+      {
+        "id": "ae78188a-553d-4adf-a890-55bf10fc915b",
+        "title": "VW-Chef Oliver Blume im Interview: Volkswagen will die Produktionskapazität um eine Million Autos senken",
+        "summary": "Deutschlands größter Autohersteller stellt sich auf eine Zukunft mit kaum Wachstum ein und will seine weiter massiven Überkapazitäten loswerden. Die Strategie könnte auch Auswirkungen auf die Werke in Deutschland haben.",
+        "paragraphs": [
+          "Deutschlands größter Autohersteller stellt sich auf eine Zukunft mit kaum Wachstum ein und will seine weiter massiven Überkapazitäten loswerden. Die Strategie könnte auch Auswirkungen auf die Werke in Deutschland haben."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/unternehmen/vw-chef-oliver-blume-im-interview-volkswagen-will-die-produktionskapazitaet-um-eine-million-autos-senken-a-ae78188a-553d-4adf-a890-55bf10fc915b#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-21T05:14:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/medien-fbi-chef-kash-patel-verklagt-the-atlantic-boesartiger-angriff/100218621.html",
         "title": "Medien: FBI-Chef Kash Patel verklagt „The Atlantic“ – „Bösartiger Angriff“",
@@ -979,6 +1099,18 @@
         "category": "International",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-21T05:02:57.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/medizin/zigaretten-wussten-sie-dass-rauchen-auch-den-augen-schadet/100218623.html",
+        "title": "Zigaretten: Wussten Sie, dass Rauchen auch den Augen schadet?",
+        "summary": "Verfärbte Zähne, hartnäckiger Husten, erhöhtes Risiko für Herz- und Lungenerkrankungen: Diese Auswirkungen des Rauchens haben viele auf dem Schirm. Anders sieht es mit den Folgen für die Augen aus.",
+        "paragraphs": [
+          "Verfärbte Zähne, hartnäckiger Husten, erhöhtes Risiko für Herz- und Lungenerkrankungen: Diese Auswirkungen des Rauchens haben viele auf dem Schirm. Anders sieht es mit den Folgen für die Augen aus."
+        ],
+        "link": "https://www.handelsblatt.com/technik/medizin/zigaretten-wussten-sie-dass-rauchen-auch-den-augen-schadet/100218623.html",
+        "category": "Medizin + Gesundheit",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T05:00:04.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/mercedes-c-klasse-das-kann-die-neue-elektro-limousine-im-detail/100218619.html",
@@ -1075,138 +1207,6 @@
         "category": "Deutschland",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-21T04:00:07.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-die-konzerne-die-ihre-gewinne-am-liebsten-verstecken-wuerden/100218544.html",
-        "title": "Morning Briefing: Die Konzerne, die ihre Gewinne am liebsten verstecken würden",
-        "summary": "Angesichts der Lage der Weltwirtschaft können nur wenige Unternehmen ihre Gewinnprognosen steigern. Dazu zählt eine Branche, die derzeit nur ungern im Rampenlicht steht.",
-        "paragraphs": [
-          "Angesichts der Lage der Weltwirtschaft können nur wenige Unternehmen ihre Gewinnprognosen steigern. Dazu zählt eine Branche, die derzeit nur ungern im Rampenlicht steht."
-        ],
-        "link": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-die-konzerne-die-ihre-gewinne-am-liebsten-verstecken-wuerden/100218544.html",
-        "category": "Morning Briefing",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T03:47:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-boerse-in-tokio-gewinnt-hoffnung-auf-friedensgespraeche-in-nahost/100218606.html",
-        "title": "Nikkei, Topix, CSI 300: Börse in Tokio gewinnt – Hoffnung auf Friedensgespräche in Nahost",
-        "summary": "Die Aussicht auf mögliche Friedensgespräche im Iran-Krieg lässt die Anleger in Asien optimistischer agieren. Vor allem japanische Aktien aus dem Chipsektor legen zu.",
-        "paragraphs": [
-          "Die Aussicht auf mögliche Friedensgespräche im Iran-Krieg lässt die Anleger in Asien optimistischer agieren. Vor allem japanische Aktien aus dem Chipsektor legen zu."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-boerse-in-tokio-gewinnt-hoffnung-auf-friedensgespraeche-in-nahost/100218606.html",
-        "category": "Marktberichte",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T03:32:23.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/markenrecht-an-doenernamen-streit-um-krispy-kebab-doenerkette-legt-sich-mit-kfc-an/100218600.html",
-        "title": "Markenrecht an Dönernamen: Streit um „Krispy Kebab“: Dönerkette legt sich mit KFC an",
-        "summary": "Kentucky Fried Chicken verkauft ein neues Gericht, die Dönervariante „Krispy Kebab“. Moment mal, das ist doch unser Markenname, sagt eine Dönerkette. KFC betont: „Wir wollen keinen Beef.“",
-        "paragraphs": [
-          "Kentucky Fried Chicken verkauft ein neues Gericht, die Dönervariante „Krispy Kebab“. Moment mal, das ist doch unser Markenname, sagt eine Dönerkette. KFC betont: „Wir wollen keinen Beef.“"
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/markenrecht-an-doenernamen-streit-um-krispy-kebab-doenerkette-legt-sich-mit-kfc-an/100218600.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T03:00:14.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/kernkraft-umfrage-mehrheit-sieht-atomausstieg-kritisch/100218594.html",
-        "title": "Kernkraft: Umfrage: Mehrheit sieht Atomausstieg kritisch",
-        "summary": "Mehr als die Hälfte hält den Atomausstieg vor drei Jahren für einen Fehler. Trotzdem will nur eine Minderheit die Kernkraft zurück.",
-        "paragraphs": [
-          "Mehr als die Hälfte hält den Atomausstieg vor drei Jahren für einen Fehler. Trotzdem will nur eine Minderheit die Kernkraft zurück."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/kernkraft-umfrage-mehrheit-sieht-atomausstieg-kritisch/100218594.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T02:45:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/konflikte-japan-lockert-regeln-fuer-waffenexporte/100218593.html",
-        "title": "Konflikte: Japan lockert Regeln für Waffenexporte",
-        "summary": "Erstmals seit dem Zweiten Weltkrieg darf Japan „tödliche Waffen“ ins Ausland verkaufen. Damit soll unter anderem die heimische Rüstungsindustrie gestärkt werden.",
-        "paragraphs": [
-          "Erstmals seit dem Zweiten Weltkrieg darf Japan „tödliche Waffen“ ins Ausland verkaufen. Damit soll unter anderem die heimische Rüstungsindustrie gestärkt werden."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/konflikte-japan-lockert-regeln-fuer-waffenexporte/100218593.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T02:44:59.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/die-lage-im-ueberblick-us-seeblockade-bleibt-hindernis-fuer-verhandlungen-mit-iran/100218587.html",
-        "title": "Die Lage im Überblick: US-Seeblockade bleibt Hindernis für Verhandlungen mit Iran",
-        "summary": "Vor möglichen neuen Verhandlungen geben sich die USA und der Iran unnachgiebig. Doch auch vor den ersten Gesprächen wurde Härte gezeigt. Könnte es also bald losgehen?",
-        "paragraphs": [
-          "Vor möglichen neuen Verhandlungen geben sich die USA und der Iran unnachgiebig. Doch auch vor den ersten Gesprächen wurde Härte gezeigt. Könnte es also bald losgehen?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/die-lage-im-ueberblick-us-seeblockade-bleibt-hindernis-fuer-verhandlungen-mit-iran/100218587.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T02:29:40.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/un-wofuer-die-vier-kandidaten-fuer-den-posten-des-generalsekretaers-stehen/100218287.html",
-        "title": "Guterres-Nachfolge: Wofür die vier Kandidaten für den Posten des Generalsekretärs stehen",
-        "summary": "Wer übernimmt „den unmöglichsten Job der Welt“? Zwei Frauen und zwei Männer bewerben sich als UN-Generalsekretär. Doch auch heute noch unbekannte Kandidaten könnten sich durchsetzen.",
-        "paragraphs": [
-          "Wer übernimmt „den unmöglichsten Job der Welt“? Zwei Frauen und zwei Männer bewerben sich als UN-Generalsekretär. Doch auch heute noch unbekannte Kandidaten könnten sich durchsetzen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/un-wofuer-die-vier-kandidaten-fuer-den-posten-des-generalsekretaers-stehen/100218287.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T02:09:27.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/wohnungsbau-klingbeils-baugesellschaft-weckt-erinnerungen-an-neue-heimat/100215815.html",
-        "title": "Bezahlbarer Wohnungsbau: Baukosten deutlich senken: Klingbeils Baugesellschaft weckt Erinnerungen an die „Neue Heimat“",
-        "summary": "Der Finanzminister will eine staatliche Bundesgesellschaft für bezahlbaren Wohnraum schaffen. Anders als von ihm gedacht, könnte eine wesentliche Voraussetzung dafür entfallen.",
-        "paragraphs": [
-          "Der Finanzminister will eine staatliche Bundesgesellschaft für bezahlbaren Wohnraum schaffen. Anders als von ihm gedacht, könnte eine wesentliche Voraussetzung dafür entfallen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/wohnungsbau-klingbeils-baugesellschaft-weckt-erinnerungen-an-neue-heimat/100215815.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T02:07:01.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-wie-eine-neue-gewinnsteuer-investitionen-radikal-ankurbeln-wuerde/100215036.html",
-        "title": "Gastkommentar: Wie eine neue Gewinnsteuer Investitionen radikal ankurbeln würde",
-        "summary": "Unternehmensgewinne sollten nur besteuert werden, wenn Firmen sie ausschütten. Eine solch radikale Steuerreform würde den Standort Deutschland stärken, meint EY-Partner Michael Schaden.",
-        "paragraphs": [
-          "Unternehmensgewinne sollten nur besteuert werden, wenn Firmen sie ausschütten. Eine solch radikale Steuerreform würde den Standort Deutschland stärken, meint EY-Partner Michael Schaden."
-        ],
-        "link": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-wie-eine-neue-gewinnsteuer-investitionen-radikal-ankurbeln-wuerde/100215036.html",
-        "category": "Gastbeiträge",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T02:05:47.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/deutschland-auslandskonzerne-kritisieren-standort-nennen-aber-fuenf-chancen/100216555.html",
-        "title": "Deutschland: Exklusiv: Auslandskonzerne kritisieren Standort, nennen aber fünf Chancen",
-        "summary": "Zu teuer, zu langsam und zu umständlich: Der KPMG-Standortindex, der dem Handelsblatt vorab vorliegt, fällt auf ein historisches Tief. Doch es gibt auch Hoffnung.",
-        "paragraphs": [
-          "Zu teuer, zu langsam und zu umständlich: Der KPMG-Standortindex, der dem Handelsblatt vorab vorliegt, fällt auf ein historisches Tief. Doch es gibt auch Hoffnung."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/deutschland-auslandskonzerne-kritisieren-standort-nennen-aber-fuenf-chancen/100216555.html",
-        "category": "Unternehmen",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T02:03:09.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/e-autos-aus-china-chinesische-marken-draengen-nach-deutschland-und-europa/100218591.html",
-        "title": "E-Autos aus China: Chinesische Marken drängen nach Deutschland und Europa",
-        "summary": "Lange galten chinesische Autos in Deutschland als Randphänomen. Nun drängen sie aus der Nische heraus - und der Iran-Krieg könnte ihre Expansion beschleunigen.",
-        "paragraphs": [
-          "Lange galten chinesische Autos in Deutschland als Randphänomen. Nun drängen sie aus der Nische heraus - und der Iran-Krieg könnte ihre Expansion beschleunigen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/e-autos-aus-china-chinesische-marken-draengen-nach-deutschland-und-europa/100218591.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-21T02:00:07.000Z"
       }
     ]
   }
