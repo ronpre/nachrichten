@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-21T00:18:38.745Z",
+  "updatedAt": "2026-04-21T01:01:20.038Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "98c3c0c2-0ce4-4521-9a95-ff8827ac2192",
+        "title": "Petersberger Klimadialog: Schub durch die Energiekrise?",
+        "summary": "Die Klimapolitik steckt in der Krise. Ausgerechnet der Iran-Krieg und die steigenden Energiepreise könnten nun für Rückenwind sorgen. Beim Petersberger Klimadialog, der heute beginnt, sollen Allianzen geschmiedet werden. Von D. Hebestreit.",
+        "paragraphs": [
+          "Die Klimapolitik steckt in der Krise. Ausgerechnet der Iran-Krieg und die steigenden Energiepreise könnten nun für Rückenwind sorgen. Beim Petersberger Klimadialog, der heute beginnt, sollen Allianzen geschmiedet werden. Von D. Hebestreit."
+        ],
+        "link": "https://www.tagesschau.de/inland/innenpolitik/petersberger-dialog-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-21T00:47:42.000Z"
+      },
       {
         "id": "7906cb2f-23d5-4483-b0dc-923344c3cec0",
         "title": "Führungswechsel bei iPhone-Hersteller Apple - Ternus löst Cook ab",
@@ -229,18 +241,6 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-20T14:36:48.000Z"
-      },
-      {
-        "id": "ba812579-6b7f-4de9-947d-47b7f12bc863",
-        "title": "Hannover Messe: Mit der Künstlichen Intelligenz aus der Krise",
-        "summary": "Auf der Hannover Messe ist Künstliche Intelligenz ein Schwerpunkt. Viele Unternehmen in Deutschland nutzen schon KI. Viele kleine und mittlere Unternehmen tun sich damit aber schwer - oder stehen noch am Anfang. Von Axel John.",
-        "paragraphs": [
-          "Auf der Hannover Messe ist Künstliche Intelligenz ein Schwerpunkt. Viele Unternehmen in Deutschland nutzen schon KI. Viele kleine und mittlere Unternehmen tun sich damit aber schwer - oder stehen noch am Anfang. Von Axel John."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/technologie/ki-hannover-messe-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-20T14:11:30.000Z"
       }
     ],
     "politik": [
@@ -941,18 +941,6 @@
         "publishedAt": "2026-04-20T16:32:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Rheinmetall-Tochter-Blohm-Voss-baut-Ueberwasserdrohnen-11264759.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Rheinmetall-Tochter Blohm+Voss baut Überwasserdrohnen",
-        "summary": "Moderne Kriegsführung ist ohne unbemannte Systeme nicht mehr denkbar. Die Rheinmetall-Tochter Blohm+Voss startet mit der Serienfertigung einer Überwasserdrohne.",
-        "paragraphs": [
-          "Moderne Kriegsführung ist ohne unbemannte Systeme nicht mehr denkbar. Die Rheinmetall-Tochter Blohm+Voss startet mit der Serienfertigung einer Überwasserdrohne."
-        ],
-        "link": "https://www.heise.de/news/Rheinmetall-Tochter-Blohm-Voss-baut-Ueberwasserdrohnen-11264759.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-20T16:19:00.000Z"
-      },
-      {
         "id": "https://www.heise.de/news/TeamViewer-Hardware-fuer-Fernzugriff-auf-Industrieanlagen-11264400.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "Hannover Messe: TeamViewer: Hardware für Fernzugriff auf Industrieanlagen",
         "summary": "Neue TeamViewer-Technik für sicheren Fernzugriff über Hardware-Gateways und KI-gestützte Wartung in der Industrie soll Abläufe vereinfachen.",
@@ -963,9 +951,33 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-20T16:19:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Rheinmetall-Tochter-Blohm-Voss-baut-Ueberwasserdrohnen-11264759.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Rheinmetall-Tochter Blohm+Voss baut Überwasserdrohnen",
+        "summary": "Moderne Kriegsführung ist ohne unbemannte Systeme nicht mehr denkbar. Die Rheinmetall-Tochter Blohm+Voss startet mit der Serienfertigung einer Überwasserdrohne.",
+        "paragraphs": [
+          "Moderne Kriegsführung ist ohne unbemannte Systeme nicht mehr denkbar. Die Rheinmetall-Tochter Blohm+Voss startet mit der Serienfertigung einer Überwasserdrohne."
+        ],
+        "link": "https://www.heise.de/news/Rheinmetall-Tochter-Blohm-Voss-baut-Ueberwasserdrohnen-11264759.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-20T16:19:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/umweltminister-damit-die-naechste-fossile-energien-krise-weniger-wehtut/100217934.html",
+        "title": "Petersberger Klimadialog: Umweltminister Schneider: „Damit die nächste Fossile-Energien-Krise weniger wehtut“",
+        "summary": "In Berlin beginnt das erste große klimapolitische Treffen des Jahres. Der Umweltminister will internationale Kooperationen fördern und verrät sein Thema für die nächste Weltklimakonferenz.",
+        "paragraphs": [
+          "In Berlin beginnt das erste große klimapolitische Treffen des Jahres. Der Umweltminister will internationale Kooperationen fördern und verrät sein Thema für die nächste Weltklimakonferenz."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/umweltminister-damit-die-naechste-fossile-energien-krise-weniger-wehtut/100217934.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-21T00:30:25.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/discount-made-in-germany-vor-50-jahren-als-aldi-die-usa-eroberte/100218576.html",
         "title": "Discount „Made in Germany“: Vor 50 Jahren - als Aldi die USA eroberte",
@@ -1193,18 +1205,6 @@
         "category": "International",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-20T20:31:50.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/energie-reiche-sieht-versorgung-mit-kerosin-aktuell-gesichert/100218532.html",
-        "title": "Energie: Nach Krisenschalte: Wirtschaftsministerin Reiche sieht Kerosin-Versorgung aktuell gesichert",
-        "summary": "Die Bundesregierung sieht trotz angespannter Lage keine Kerosin-Engpässe. Wie eigene Raffinerien und EU-Absprachen die Versorgung stabil halten sollen.",
-        "paragraphs": [
-          "Die Bundesregierung sieht trotz angespannter Lage keine Kerosin-Engpässe. Wie eigene Raffinerien und EU-Absprachen die Versorgung stabil halten sollen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/energie-reiche-sieht-versorgung-mit-kerosin-aktuell-gesichert/100218532.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-20T19:55:28.000Z"
       }
     ]
   }
