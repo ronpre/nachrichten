@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-22T17:01:53.572Z",
+  "updatedAt": "2026-04-22T17:45:37.192Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "1d564ef1-31be-4f34-a823-cdf5ed7b7ab2",
+        "title": "Nahost-Liveblog: ++ Zweiter Blauhelm-Soldat nach Angriff gestorben ++",
+        "summary": "Nach Angaben des französischen Präsidenten Macron ist nach dem Angriff auf UN-Truppen im Libanon nun ein zweiter französischer Soldat verstorben. Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden.",
+        "paragraphs": [
+          "Nach Angaben des französischen Präsidenten Macron ist nach dem Angriff auf UN-Truppen im Libanon nun ein zweiter französischer Soldat verstorben. Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden."
+        ],
+        "link": "https://www.tagesschau.de/newsticker/liveblog-iran-mittwoch-112.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-22T17:43:03.000Z"
+      },
       {
         "id": "78e9187f-5395-4da1-8eaf-db88e70336b0",
         "title": "Petersberger Dialog: Klimaschutz ja, aber nicht gegen die Wirtschaft",
@@ -15,28 +27,16 @@
         "publishedAt": "2026-04-22T16:57:39.000Z"
       },
       {
-        "id": "https://www.n-tv.de/wirtschaft/EU-Kommission-RTL-darf-Sky-uebernehmen-id30744509.html",
+        "id": "https://www.n-tv.de/wirtschaft/Sky-EU-genehmigt-Uebernahme-durch-RTL-id30744509.html",
         "title": "Auch WOW mit im Paket: EU-Kommission: RTL darf Sky übernehmen",
-        "summary": "Brüssel steht dem größten Geschäft in der Firmengeschichte von RTL Deutschland nicht im Wege. Mit der Übernahme von Sky soll die Position im Wettbewerb mit anderen Streamingdienste verbessert werden, vor allem aus den USA.",
+        "summary": "Brüssel steht dem größten Geschäft in der Firmengeschichte von RTL Deutschland nicht im Wege. Mit der Übernahme von Sky soll die Position im Wettbewerb mit anderen Streamingdiensten verbessert werden, vor allem aus den USA.",
         "paragraphs": [
-          "Brüssel steht dem größten Geschäft in der Firmengeschichte von RTL Deutschland nicht im Wege. Mit der Übernahme von Sky soll die Position im Wettbewerb mit anderen Streamingdienste verbessert werden, vor allem aus den USA."
+          "Brüssel steht dem größten Geschäft in der Firmengeschichte von RTL Deutschland nicht im Wege. Mit der Übernahme von Sky soll die Position im Wettbewerb mit anderen Streamingdiensten verbessert werden, vor allem aus den USA."
         ],
-        "link": "https://www.n-tv.de/wirtschaft/EU-Kommission-RTL-darf-Sky-uebernehmen-id30744509.html",
+        "link": "https://www.n-tv.de/wirtschaft/Sky-EU-genehmigt-Uebernahme-durch-RTL-id30744509.html",
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-22T16:42:26.000Z"
-      },
-      {
-        "id": "1d564ef1-31be-4f34-a823-cdf5ed7b7ab2",
-        "title": "Nahost-Liveblog: ++ Zweiter Blauhelm-Soldat nach Angriff gestorben ++",
-        "summary": "Nach Angaben des französischen Präsidenten Macron ist nach dem Angriff auf UN-Truppen im Libanon nun ein zweiter französischer Soldat verstorben. Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden.",
-        "paragraphs": [
-          "Nach Angaben des französischen Präsidenten Macron ist nach dem Angriff auf UN-Truppen im Libanon nun ein zweiter französischer Soldat verstorben. Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden."
-        ],
-        "link": "https://www.tagesschau.de/newsticker/liveblog-iran-mittwoch-112.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-22T16:18:27.000Z"
       },
       {
         "id": "b792c23d-feda-4456-855b-67a3af57faa3",
@@ -242,6 +242,18 @@
       }
     ],
     "politik": [
+      {
+        "id": "76895301",
+        "title": "Ist Klimaschutz der Ausweg aus der Öl-Abhängigkeit?",
+        "summary": "Es sind keine guten Zeiten für den weltweiten Klimaschutz. Oder vielleicht doch? Auf dem Klimadialog in Berlin versuchen Politiker, gerade wegen des Kriegs im Iran für Wind- und Sonnenkraft zu werben.",
+        "paragraphs": [
+          "Es sind keine guten Zeiten für den weltweiten Klimaschutz. Oder vielleicht doch? Auf dem Klimadialog in Berlin versuchen Politiker, gerade wegen des Kriegs im Iran für Wind- und Sonnenkraft zu werben."
+        ],
+        "link": "https://www.dw.com/de/ist-klimaschutz-der-ausweg-aus-der-öl-abhängigkeit/a-76895301?maca=de-rss-de-top-1016-xml-mrss",
+        "category": "THEMEN",
+        "source": "DW",
+        "publishedAt": "2026-04-22T17:03:00.000Z"
+      },
       {
         "id": "li.3472323",
         "title": "Digitale Souveränität: Bund zahlt mehrere Milliarden Euro für Softwarelizenzen an US-Konzerne",
@@ -463,21 +475,93 @@
         "category": "Ukraine",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-22T11:48:42.000Z"
-      },
-      {
-        "id": "76895008",
-        "title": "Bundesregierung beschließt Speicherpflicht für IP-Adressen",
-        "summary": "Nach jahrelangem Streit um die Vorratsdatenspeicherung legt die Regierung einen neuen Kompromiss vor: Ermittler sollen künftig leichter digitale Spuren verfolgen können, bei zugleich eingeschränkter Datenspeicherung.",
-        "paragraphs": [
-          "Nach jahrelangem Streit um die Vorratsdatenspeicherung legt die Regierung einen neuen Kompromiss vor: Ermittler sollen künftig leichter digitale Spuren verfolgen können, bei zugleich eingeschränkter Datenspeicherung."
-        ],
-        "link": "https://www.dw.com/de/bundesregierung-beschließt-speicherpflicht-für-ip-adressen/a-76895008?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Aktuelles",
-        "source": "DW",
-        "publishedAt": "2026-04-22T11:08:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "2ae89c92-e5d4-4708-9e52-685c3e96d657",
+        "title": "Premier League: FC Chelsea trennt sich nach nur vier Monaten von Trainer Liam Rosenior",
+        "summary": "Nur vier Monate konnte sich Liam Rosenior auf dem Trainerstuhl des FC Chelsea halten. Jetzt ist seine Zeit bei dem Premier-League-Club schon wieder vorbei.",
+        "paragraphs": [
+          "Nur vier Monate konnte sich Liam Rosenior auf dem Trainerstuhl des FC Chelsea halten. Jetzt ist seine Zeit bei dem Premier-League-Club schon wieder vorbei."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/premier-league-fc-chelsea-trennt-sich-nach-nur-vier-monaten-von-trainer-liam-rosenior-a-2ae89c92-e5d4-4708-9e52-685c3e96d657#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-22T17:32:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/affengruber-vor-oblak-elche-aergert-atletico-mit-dem-ausgleich-1212743/video#omrss",
+        "title": "Affengruber vor Oblak: Elche ärgert Atletico mit dem Ausgleich",
+        "summary": "Ein wilder Ausflug von Jan Oblak konnte die Szene für Atletico auch nicht mehr retten. Das Tor für Elche gibt es hier im Video.",
+        "paragraphs": [
+          "Ein wilder Ausflug von Jan Oblak konnte die Szene für Atletico auch nicht mehr retten. Das Tor für Elche gibt es hier im Video."
+        ],
+        "link": "https://www.kicker.de/affengruber-vor-oblak-elche-aergert-atletico-mit-dem-ausgleich-1212743/video#omrss",
+        "category": "Affengruber",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T17:29:43.000Z"
+      },
+      {
+        "id": "535ae8a9-1e2b-462e-99b3-55a88798eb42",
+        "title": "Absage wegen Verletzung: Die Fußball-WM findet ohne Serge Gnabry statt",
+        "summary": "Das ist ein herber Rückschlag für die deutsche Fußball-Nationalelf: Sie wird das WM-Turnier in Übersee ohne Serge Gnabry angehen müssen. Der Bayern-Angreifer wird nicht mehr rechtzeitig fit werden.",
+        "paragraphs": [
+          "Das ist ein herber Rückschlag für die deutsche Fußball-Nationalelf: Sie wird das WM-Turnier in Übersee ohne Serge Gnabry angehen müssen. Der Bayern-Angreifer wird nicht mehr rechtzeitig fit werden."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/absage-wegen-verletzung-die-fussball-wm-findet-ohne-serge-gnabry-statt-a-535ae8a9-1e2b-462e-99b3-55a88798eb42#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-22T17:26:00.000Z"
+      },
+      {
+        "id": "{urn:uuid:1397c0ca-6bf7-406c-960d-b4955341ae19}",
+        "title": "Nationalmannschaft der Männer: Serge Gnabry fällt wegen Verletzung bei Fußball-WM aus",
+        "summary": "Bayern-Profi Serge Gnabry wird die Fußballweltmeisterschaft im Sommer in den USA, Kanada und Mexiko verpassen. Grund ist eine Oberschenkelverletzung.",
+        "paragraphs": [
+          "Bayern-Profi Serge Gnabry wird die Fußballweltmeisterschaft im Sommer in den USA, Kanada und Mexiko verpassen. Grund ist eine Oberschenkelverletzung."
+        ],
+        "link": "https://www.zeit.de/sport/2026-04/serge-gnabry-fc-bayern-verletzung-fussball-wm",
+        "category": "Sport",
+        "source": "ZEIT",
+        "publishedAt": "2026-04-22T17:21:54.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/eiskalt-vom-punkt-kvaratskhelia-sorgt-fuer-psg-fuehrung-1212736/video#omrss",
+        "title": "Eiskalt vom Punkt: Kvaratskhelia sorgt für PSG-Führung",
+        "summary": "Khvicha Kvaratskhelia nutzte die große Chance vom Punkt zur Führung von PSG. Den Treffer gibt es hier im Video.",
+        "paragraphs": [
+          "Khvicha Kvaratskhelia nutzte die große Chance vom Punkt zur Führung von PSG. Den Treffer gibt es hier im Video."
+        ],
+        "link": "https://www.kicker.de/eiskalt-vom-punkt-kvaratskhelia-sorgt-fuer-psg-fuehrung-1212736/video#omrss",
+        "category": "FC Nantes",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T17:19:03.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "title": "Juve hat Lewandowski im Visier - BVB-Interesse an Coulibaly?",
+        "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
+        "paragraphs": [
+          "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden."
+        ],
+        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T17:15:12.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/rekord-gleich-sieben-deutsche-kaempfen-um-den-stanley-cup-1211302/artikel#omrss",
+        "title": "Rekord: Gleich sieben Deutsche kämpfen um den Stanley Cup",
+        "summary": "Sieben Deutsche haben sich mit ihren Teams für die NHL Playoffs qualifiziert und damit so viele wie noch nie zuvor, auch wenn nicht alle bislang zum Einsatz kamen. Mit Marco Sturm ist darunter erstmals überhaupt auch ein Coach. Die deutschen Akteure im Überblick ...",
+        "paragraphs": [
+          "Sieben Deutsche haben sich mit ihren Teams für die NHL Playoffs qualifiziert und damit so viele wie noch nie zuvor, auch wenn nicht alle bislang zum Einsatz kamen. Mit Marco Sturm ist darunter erstmals überhaupt auch ein Coach. Die deutschen Akteure im Überblick ..."
+        ],
+        "link": "https://www.kicker.de/rekord-gleich-sieben-deutsche-kaempfen-um-den-stanley-cup-1211302/artikel#omrss",
+        "category": "Eishockey",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T17:12:15.000Z"
+      },
       {
         "id": "https://www.kicker.de/es-gibt-situationen-da-werden-helden-geboren-ende-versucht-es-mit-pathos-im-abstiegskampf-1212639/artikel#omrss",
         "title": "\"Es gibt Situationen, da werden Helden geboren\": Ende versucht es mit Pathos im Abstiegskampf",
@@ -501,18 +585,6 @@
         "category": "Football",
         "source": "Kicker",
         "publishedAt": "2026-04-22T16:47:49.000Z"
-      },
-      {
-        "id": "{urn:uuid:1397c0ca-6bf7-406c-960d-b4955341ae19}",
-        "title": "Nationalmannschaft der Männer: Serge Gnabry fällt wegen Verletzung bei Fußball-WM aus",
-        "summary": "Bayern-Spieler Serge Gnabry wird im Sommer nicht zur WM nach Amerika fliegen. Er hat mit einer Verletzung am Oberschenkel zu kämpfen.",
-        "paragraphs": [
-          "Bayern-Spieler Serge Gnabry wird im Sommer nicht zur WM nach Amerika fliegen. Er hat mit einer Verletzung am Oberschenkel zu kämpfen."
-        ],
-        "link": "https://www.zeit.de/sport/2026-04/serge-gnabry-fc-bayern-verletzung-fussball-wm",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-04-22T16:38:22.000Z"
       },
       {
         "id": "https://www.kicker.de/splitter-durch-oberschenkel-deutsches-rad-talent-verletzt-1212722/artikel#omrss",
@@ -576,7 +648,7 @@
       },
       {
         "id": "https://www.kicker.de/paris-sg-gegen-nantes-2026-ligue-5051702/spielbericht#omrss",
-        "title": "LIVE! Pflichtaufgabe für PSG: Tabellenvorletzter Nantes gastiert im Prinzenpark",
+        "title": "LIVE! Nantes-Ausgleich zählt nicht - Doué-Strahl schockt Nantes",
         "summary": "Nachsitzen für PSG: Aufgrund der Verschiebung der Partie zwischen den CL-Duellen gegen Chelsea ist Paris St. Germain am Mittwochabend im Nachholspiel gegen Kellerkind Nantes gefordert.",
         "paragraphs": [
           "Nachsitzen für PSG: Aufgrund der Verschiebung der Partie zwischen den CL-Duellen gegen Chelsea ist Paris St. Germain am Mittwochabend im Nachholspiel gegen Kellerkind Nantes gefordert."
@@ -645,78 +717,6 @@
         "category": "1. FC Union Berlin",
         "source": "Kicker",
         "publishedAt": "2026-04-22T15:17:26.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/mit-xabi-alonsos-kniff-ins-finale-woran-selbst-bayers-letzte-loesung-hakt-1212288/artikel#omrss",
-        "title": "Mit Xabi Alonsos Kniff ins Finale? Woran selbst Bayers letzte Lösung hakt",
-        "summary": "Gegen den FC Bayern ist Bayer 04 im Halbfinale klarer Außenseiter. Der 1:0-Sieg in München in der Vorsaison liefert vielleicht den einzigen Ansatzpunkt für die Werkself. Doch die Voraussetzungen sind schwierig.",
-        "paragraphs": [
-          "Gegen den FC Bayern ist Bayer 04 im Halbfinale klarer Außenseiter. Der 1:0-Sieg in München in der Vorsaison liefert vielleicht den einzigen Ansatzpunkt für die Werkself. Doch die Voraussetzungen sind schwierig."
-        ],
-        "link": "https://www.kicker.de/mit-xabi-alonsos-kniff-ins-finale-woran-selbst-bayers-letzte-loesung-hakt-1212288/artikel#omrss",
-        "category": "Bayer 04 Leverkusen",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T15:11:58.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/supertalent-seixas-gewinnt-den-fleche-wallonne-1212706/artikel#omrss",
-        "title": "Supertalent Seixas gewinnt den Fleche Wallonne",
-        "summary": "Paul Seixas hat als jüngster Fahrer den Fleche Wallonne gewonnen und seinen Aufstieg im Radsport fortgesetzt.",
-        "paragraphs": [
-          "Paul Seixas hat als jüngster Fahrer den Fleche Wallonne gewonnen und seinen Aufstieg im Radsport fortgesetzt."
-        ],
-        "link": "https://www.kicker.de/supertalent-seixas-gewinnt-den-fleche-wallonne-1212706/artikel#omrss",
-        "category": "Radsport",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T15:09:54.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/pereira-lage-der-naechste-rueckschlag-fuer-st-pauli-1212695/artikel#omrss",
-        "title": "Pereira Lage: Der nächste Rückschlag für St. Pauli",
-        "summary": "Seit Jahresbeginn wurde der FC St. Pauli immer wieder von schwerwiegenden Ausfällen gebeutelt. Seit Mittwoch kommt ein weiterer dazu: Mathias Pereira Lage hat sich beim Training ganz offenbar schwer am Knie verletzt und droht lange auszufallen.",
-        "paragraphs": [
-          "Seit Jahresbeginn wurde der FC St. Pauli immer wieder von schwerwiegenden Ausfällen gebeutelt. Seit Mittwoch kommt ein weiterer dazu: Mathias Pereira Lage hat sich beim Training ganz offenbar schwer am Knie verletzt und droht lange auszufallen."
-        ],
-        "link": "https://www.kicker.de/pereira-lage-der-naechste-rueckschlag-fuer-st-pauli-1212695/artikel#omrss",
-        "category": "Blessin",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T15:02:07.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nartey-und-der-vfb-kommen-sich-naeher-1212638/artikel#omrss",
-        "title": "Nartey und der VfB kommen sich näher",
-        "summary": "Die Zeichen stehen gut. Nikolas Nartey und der VfB sind auf einem guten Weg im Hinblick auf eine mögliche Vertragsverlängerung des Dänen.",
-        "paragraphs": [
-          "Die Zeichen stehen gut. Nikolas Nartey und der VfB sind auf einem guten Weg im Hinblick auf eine mögliche Vertragsverlängerung des Dänen."
-        ],
-        "link": "https://www.kicker.de/nartey-und-der-vfb-kommen-sich-naeher-1212638/artikel#omrss",
-        "category": "Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T14:50:23.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/augsburg-muenchen-und-berlin-dfb-legt-spielorte-fuer-die-nations-league-fest-1212687/artikel#omrss",
-        "title": "Augsburg, München und Berlin: DFB legt Spielorte für die Nations League fest",
-        "summary": "Im Anschluss an die Weltmeisterschaft startet die Nations League in ihre sechste Spielzeit. Am Mittwoch gab der DFB die Spielorte für die drei Heimspiele gegen Griechenland, Serbien und die Niederlande bekannt.",
-        "paragraphs": [
-          "Im Anschluss an die Weltmeisterschaft startet die Nations League in ihre sechste Spielzeit. Am Mittwoch gab der DFB die Spielorte für die drei Heimspiele gegen Griechenland, Serbien und die Niederlande bekannt."
-        ],
-        "link": "https://www.kicker.de/augsburg-muenchen-und-berlin-dfb-legt-spielorte-fuer-die-nations-league-fest-1212687/artikel#omrss",
-        "category": "Deutschland",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T14:47:43.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/samsunspor-hebt-bei-dorsch-die-hand-1212694/artikel#omrss",
-        "title": "Samsunspor hebt bei Dorsch die Hand",
-        "summary": "Die Wahrscheinlichkeit, dass Niklas Dorsch mit dem 1. FC Heidenheim in die 2. Liga geht, ist gering. Ein erster möglicher Abnehmer hat bereits sein Interesse hinterlegt.",
-        "paragraphs": [
-          "Die Wahrscheinlichkeit, dass Niklas Dorsch mit dem 1. FC Heidenheim in die 2. Liga geht, ist gering. Ein erster möglicher Abnehmer hat bereits sein Interesse hinterlegt."
-        ],
-        "link": "https://www.kicker.de/samsunspor-hebt-bei-dorsch-die-hand-1212694/artikel#omrss",
-        "category": "1. FC Heidenheim",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T14:43:30.000Z"
       }
     ],
     "edv": [
@@ -733,16 +733,16 @@
         "publishedAt": "2026-04-22T15:55:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/n8n-Updates-beheben-kritische-Sicherheitsluecken-in-Automatisierungsplattform-11268464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "n8n: Updates beheben kritische Sicherheitslücken in Automatisierungsplattform",
-        "summary": "Die Aktualisierung wurde per E-Mail allen Admins angekündigt, diese sollten sie nun prompt einspielen. Es droht Code-Einschleusung.",
+        "id": "https://www.heise.de/news/BMW-7er-Facelift-Der-i7-bleibt-bei-400-Volt-11268379.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "BMW 7er Facelift: Der i7 bleibt bei 400 Volt",
+        "summary": "BMW überarbeitet den 7er, ohne seine Gestaltung zierlicher erscheinen zu lassen. Der i7 bleibt bei einem 400-V-System und soll dennoch schneller laden.",
         "paragraphs": [
-          "Die Aktualisierung wurde per E-Mail allen Admins angekündigt, diese sollten sie nun prompt einspielen. Es droht Code-Einschleusung."
+          "BMW überarbeitet den 7er, ohne seine Gestaltung zierlicher erscheinen zu lassen. Der i7 bleibt bei einem 400-V-System und soll dennoch schneller laden."
         ],
-        "link": "https://www.heise.de/news/n8n-Updates-beheben-kritische-Sicherheitsluecken-in-Automatisierungsplattform-11268464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/BMW-7er-Facelift-Der-i7-bleibt-bei-400-Volt-11268379.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T16:27:00.000Z"
+        "publishedAt": "2026-04-22T16:55:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-Ausgefeilte-Prompts-fuer-ueberzeugende-Texte-11194801.html",
@@ -757,16 +757,16 @@
         "publishedAt": "2026-04-22T05:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Ausprobiert-Exoskelette-von-SuitX-und-und-Comau-erleichtern-das-Heben-11268331.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "Hannover Messe: Ausprobiert: Exoskelette von SuitX und und Comau erleichtern das Heben",
-        "summary": "Exoskelette sollen mit Motoren oder Federkräften das Heben erleichtern. Auf der Hannover Messe haben wir drei Exemplare von SuitX und Comau ausprobiert.",
+        "id": "https://www.heise.de/news/n8n-Updates-beheben-kritische-Sicherheitsluecken-in-Automatisierungsplattform-11268464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "n8n: Updates beheben kritische Sicherheitslücken in Automatisierungsplattform",
+        "summary": "Die Aktualisierung wurde per E-Mail allen Admins angekündigt, diese sollten sie nun prompt einspielen. Es droht Code-Einschleusung.",
         "paragraphs": [
-          "Exoskelette sollen mit Motoren oder Federkräften das Heben erleichtern. Auf der Hannover Messe haben wir drei Exemplare von SuitX und Comau ausprobiert."
+          "Die Aktualisierung wurde per E-Mail allen Admins angekündigt, diese sollten sie nun prompt einspielen. Es droht Code-Einschleusung."
         ],
-        "link": "https://www.heise.de/news/Ausprobiert-Exoskelette-von-SuitX-und-und-Comau-erleichtern-das-Heben-11268331.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "link": "https://www.heise.de/news/n8n-Updates-beheben-kritische-Sicherheitsluecken-in-Automatisierungsplattform-11268464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T16:05:00.000Z"
+        "publishedAt": "2026-04-22T16:27:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Apples-MacBook-Neo-ueberrollt-die-Konkurrenz-11264288.html",
@@ -781,16 +781,16 @@
         "publishedAt": "2026-04-22T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Framework-Laptop-13-Pro-AMD-teurer-als-Intel-Ubuntu-vorinstalliert-11268365.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Framework Laptop 13 Pro: Ubuntu-Option und neue Hardware-Details",
-        "summary": "Interessierte können den Framework Laptop 13 Pro vorbestellen. Die Intel-Versionen sind deutlich attraktiver als die AMD-Varianten.",
+        "id": "https://www.heise.de/news/Ausprobiert-Exoskelette-von-SuitX-und-und-Comau-erleichtern-das-Heben-11268331.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "title": "Hannover Messe: Ausprobiert: Exoskelette von SuitX und und Comau erleichtern das Heben",
+        "summary": "Exoskelette sollen mit Motoren oder Federkräften das Heben erleichtern. Auf der Hannover Messe haben wir drei Exemplare von SuitX und Comau ausprobiert.",
         "paragraphs": [
-          "Interessierte können den Framework Laptop 13 Pro vorbestellen. Die Intel-Versionen sind deutlich attraktiver als die AMD-Varianten."
+          "Exoskelette sollen mit Motoren oder Federkräften das Heben erleichtern. Auf der Hannover Messe haben wir drei Exemplare von SuitX und Comau ausprobiert."
         ],
-        "link": "https://www.heise.de/news/Framework-Laptop-13-Pro-AMD-teurer-als-Intel-Ubuntu-vorinstalliert-11268365.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Ausprobiert-Exoskelette-von-SuitX-und-und-Comau-erleichtern-das-Heben-11268331.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T15:55:00.000Z"
+        "publishedAt": "2026-04-22T16:05:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Framework-Laptop-13-Pro-verlaengert-Akkulaufzeit-erheblich-11266002.html",
@@ -805,16 +805,16 @@
         "publishedAt": "2026-04-21T18:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Huawei-AI-Glasses-setzen-auf-ein-bewaehrtes-Konzept-11268405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Huawei folgt dem Trend mit eigener KI-Brille",
-        "summary": "Huaweis erste Smart Glasses mit Kamera folgen dem Erfolgsrezept der Ray-Ban Meta-Brillen und treten gegen die heimische Konkurrenz von Xiaomi und Alibaba an.",
+        "id": "https://www.heise.de/news/Framework-Laptop-13-Pro-AMD-teurer-als-Intel-Ubuntu-vorinstalliert-11268365.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Framework Laptop 13 Pro: Ubuntu-Option und neue Hardware-Details",
+        "summary": "Interessierte können den Framework Laptop 13 Pro vorbestellen. Die Intel-Versionen sind deutlich attraktiver als die AMD-Varianten.",
         "paragraphs": [
-          "Huaweis erste Smart Glasses mit Kamera folgen dem Erfolgsrezept der Ray-Ban Meta-Brillen und treten gegen die heimische Konkurrenz von Xiaomi und Alibaba an."
+          "Interessierte können den Framework Laptop 13 Pro vorbestellen. Die Intel-Versionen sind deutlich attraktiver als die AMD-Varianten."
         ],
-        "link": "https://www.heise.de/news/Huawei-AI-Glasses-setzen-auf-ein-bewaehrtes-Konzept-11268405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Framework-Laptop-13-Pro-AMD-teurer-als-Intel-Ubuntu-vorinstalliert-11268365.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T15:08:00.000Z"
+        "publishedAt": "2026-04-22T15:55:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Oppo-Find-X9-Ultra-Neues-Kamera-Flaggschiff-mit-Hasselblad-Kameras-11265886.html",
@@ -829,16 +829,16 @@
         "publishedAt": "2026-04-21T12:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Bericht-Schulbuchverlag-soll-KI-Inhalte-als-menschliche-Werke-ausgegeben-haben-11268357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Fehler in Schulbüchern: Verlag nach Bericht in der Kritik",
-        "summary": "Ein Schulbuchverlag steht in der Kritik, weil er mutmaßlich KI-generierte Grafiken und Texte als menschliche Arbeit verkauft haben soll.",
+        "id": "https://www.heise.de/news/Huawei-AI-Glasses-setzen-auf-ein-bewaehrtes-Konzept-11268405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Huawei folgt dem Trend mit eigener KI-Brille",
+        "summary": "Huaweis erste Smart Glasses mit Kamera folgen dem Erfolgsrezept der Ray-Ban Meta-Brillen und treten gegen die heimische Konkurrenz von Xiaomi und Alibaba an.",
         "paragraphs": [
-          "Ein Schulbuchverlag steht in der Kritik, weil er mutmaßlich KI-generierte Grafiken und Texte als menschliche Arbeit verkauft haben soll."
+          "Huaweis erste Smart Glasses mit Kamera folgen dem Erfolgsrezept der Ray-Ban Meta-Brillen und treten gegen die heimische Konkurrenz von Xiaomi und Alibaba an."
         ],
-        "link": "https://www.heise.de/news/Bericht-Schulbuchverlag-soll-KI-Inhalte-als-menschliche-Werke-ausgegeben-haben-11268357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Huawei-AI-Glasses-setzen-auf-ein-bewaehrtes-Konzept-11268405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T14:57:00.000Z"
+        "publishedAt": "2026-04-22T15:08:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/OnePlus-prueft-Zukunft-in-Europa-Mitarbeiter-verlassen-das-Unternehmen-11265245.html",
@@ -853,16 +853,16 @@
         "publishedAt": "2026-04-21T07:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/KI-Update-kompakt-Hannover-Messe-Googles-Strike-Team-Mythos-Image-2-0-11267431.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Update kompakt: Hannover Messe, Googles Strike Team, Mythos, Image 2.0",
-        "summary": "Das \"KI-Update\" liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
+        "id": "https://www.heise.de/news/Bericht-Schulbuchverlag-soll-KI-Inhalte-als-menschliche-Werke-ausgegeben-haben-11268357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI-Fehler in Schulbüchern: Verlag nach Bericht in der Kritik",
+        "summary": "Ein Schulbuchverlag steht in der Kritik, weil er mutmaßlich KI-generierte Grafiken und Texte als menschliche Arbeit verkauft haben soll.",
         "paragraphs": [
-          "Das \"KI-Update\" liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen."
+          "Ein Schulbuchverlag steht in der Kritik, weil er mutmaßlich KI-generierte Grafiken und Texte als menschliche Arbeit verkauft haben soll."
         ],
-        "link": "https://www.heise.de/news/KI-Update-kompakt-Hannover-Messe-Googles-Strike-Team-Mythos-Image-2-0-11267431.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Bericht-Schulbuchverlag-soll-KI-Inhalte-als-menschliche-Werke-ausgegeben-haben-11268357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T14:34:00.000Z"
+        "publishedAt": "2026-04-22T14:57:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Machtwechsel-bei-Apple-Tim-Cook-uebergibt-an-John-Ternus-11265059.html",
@@ -875,6 +875,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-20T22:22:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/KI-Update-kompakt-Hannover-Messe-Googles-Strike-Team-Mythos-Image-2-0-11267431.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI-Update kompakt: Hannover Messe, Googles Strike Team, Mythos, Image 2.0",
+        "summary": "Das \"KI-Update\" liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
+        "paragraphs": [
+          "Das \"KI-Update\" liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen."
+        ],
+        "link": "https://www.heise.de/news/KI-Update-kompakt-Hannover-Messe-Googles-Strike-Team-Mythos-Image-2-0-11267431.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-22T14:34:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Rsbuild-2-0-Schnelleres-Bundling-ESM-first-und-Node-20-11267704.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -947,29 +959,77 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-22T12:38:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Schadcode-Schlupfloecher-bedrohen-Apache-Airflow-und-Airflow-Keycloak-11268021.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Schadcode-Schlupflöcher bedrohen Apache Airflow und Airflow Keycloak",
-        "summary": "Apaches Open-Source-Workflow-Management-Plattformen Airflow und Airflow Keycloak sind verwundbar. Eine Lücke gilt als kritisch.",
-        "paragraphs": [
-          "Apaches Open-Source-Workflow-Management-Plattformen Airflow und Airflow Keycloak sind verwundbar. Eine Lücke gilt als kritisch."
-        ],
-        "link": "https://www.heise.de/news/Schadcode-Schlupfloecher-bedrohen-Apache-Airflow-und-Airflow-Keycloak-11268021.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-22T12:29:00.000Z"
       }
     ],
     "börse": [
       {
-        "id": "https://www.handelsblatt.com/technik/it-internet/deutsche-telekom-was-hinter-den-fusionsplaenen-mit-t-mobile-steckt/100218971.html",
+        "id": "230aeef0-3db8-48ba-9703-4d5cb1f9a588",
+        "title": "Iran-Krieg: Warnungen vor Kerosinmangel, zugleich Werbung für Sommerflüge",
+        "summary": "Die EU sucht bislang vergeblich nach einer klaren Antwort auf die Misere: Während Brüssel fürs Energiesparen wirbt, gewähren Mitgliedstaaten wie Deutschland Tankrabatte – oder werben für Flugreisen im Sommer.",
+        "paragraphs": [
+          "Die EU sucht bislang vergeblich nach einer klaren Antwort auf die Misere: Während Brüssel fürs Energiesparen wirbt, gewähren Mitgliedstaaten wie Deutschland Tankrabatte – oder werben für Flugreisen im Sommer."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/iran-krieg-warnungen-vor-kerosinmangel-zugleich-werbung-fuer-sommerfluege-a-230aeef0-3db8-48ba-9703-4d5cb1f9a588#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-22T17:21:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/fragile-waffenruhe-mit-iran-netanjahu-israel-bereit-fuer-verteidigung-und-angriff/100219181.html",
+        "title": "Fragile Waffenruhe mit Iran: Netanjahu: Israel bereit für Verteidigung und Angriff",
+        "summary": "US-Präsident Donald Trump hat die Waffenruhe im Iran-Krieg verlängert – die Lage bleibt jedoch brandgefährlich. Israel sieht sich laut Regierungschef Netanjahu für alle Szenarien gerüstet.",
+        "paragraphs": [
+          "US-Präsident Donald Trump hat die Waffenruhe im Iran-Krieg verlängert – die Lage bleibt jedoch brandgefährlich. Israel sieht sich laut Regierungschef Netanjahu für alle Szenarien gerüstet."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/fragile-waffenruhe-mit-iran-netanjahu-israel-bereit-fuer-verteidigung-und-angriff/100219181.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T17:19:22.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/meinung/kommentare/kommentar-irankrieg-und-die-boersen-gefangen-im-spiel-der-feiglinge/100218656.html",
+        "title": "Kommentar: Irankrieg und die Börsen – gefangen im Spiel der Feiglinge",
+        "summary": "Trotz Dauerkrise am Golf erreichen die Aktienkurse neue Rekorde. Die Investoren setzen darauf, dass sich die Kontrahenten im Irankrieg rational verhalten. Eine riskante Wette.",
+        "paragraphs": [
+          "Trotz Dauerkrise am Golf erreichen die Aktienkurse neue Rekorde. Die Investoren setzen darauf, dass sich die Kontrahenten im Irankrieg rational verhalten. Eine riskante Wette."
+        ],
+        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-irankrieg-und-die-boersen-gefangen-im-spiel-der-feiglinge/100218656.html",
+        "category": "Kommentare",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T17:12:23.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/it-medien/fernsehen-eu-kommission-genehmigt-rtl-sky-uebernahme/100219175.html",
+        "title": "Fernsehen: EU-Kommission stimmt zu: RTL darf Sky kaufen",
+        "summary": "Mehr als zehn Monate nach Bekanntgabe der Pläne darf der Kölner TV-Konzern den Streaminganbieter übernehmen. Die Übernahme gilt als die größte der RTL-Geschichte.",
+        "paragraphs": [
+          "Mehr als zehn Monate nach Bekanntgabe der Pläne darf der Kölner TV-Konzern den Streaminganbieter übernehmen. Die Übernahme gilt als die größte der RTL-Geschichte."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/it-medien/fernsehen-eu-kommission-genehmigt-rtl-sky-uebernahme/100219175.html",
+        "category": "Medien",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T17:09:39.000Z"
+      },
+      {
+        "id": "caff86cb-ff2f-4ea0-9af6-2a3ff4554e3c",
+        "title": "Bundesfinanzminister Lars Klingbeil darf wegen schwacher Wirtschaft mehr Schulden machen",
+        "summary": "Schlecht für die Wirtschaft, gut für den Finanzminister: Weil sich die Wachstumsaussichten verschlechtern, darf Lars Klingbeil höhere Schulden aufnehmen – allein im kommenden Jahr fast vier Milliarden Euro.",
+        "paragraphs": [
+          "Schlecht für die Wirtschaft, gut für den Finanzminister: Weil sich die Wachstumsaussichten verschlechtern, darf Lars Klingbeil höhere Schulden aufnehmen – allein im kommenden Jahr fast vier Milliarden Euro."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/bundesfinanzminister-lars-klingbeil-darf-wegen-schwacher-wirtschaft-mehr-schulden-machen-a-caff86cb-ff2f-4ea0-9af6-2a3ff4554e3c#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-22T17:08:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/it-internet/deutsche-telekom-was-hinter-hoettges-fusionsplaenen-mit-t-mobile-steckt/100218971.html",
         "title": "Telekommunikation: Höttges greift nach Amerika: Was hinter den Telekom-Fusionsplänen steckt – und woran sie scheitern könnten",
         "summary": "Tim Höttges erwägt, in einem Mega-Deal den Dax-Konzern mit der US-Tochter zu verschmelzen. Dafür braucht er Unterstützung der Regierungen in Berlin und Washington – und die der Investoren.",
         "paragraphs": [
           "Tim Höttges erwägt, in einem Mega-Deal den Dax-Konzern mit der US-Tochter zu verschmelzen. Dafür braucht er Unterstützung der Regierungen in Berlin und Washington – und die der Investoren."
         ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/deutsche-telekom-was-hinter-den-fusionsplaenen-mit-t-mobile-steckt/100218971.html",
+        "link": "https://www.handelsblatt.com/technik/it-internet/deutsche-telekom-was-hinter-hoettges-fusionsplaenen-mit-t-mobile-steckt/100218971.html",
         "category": "IT + Telekommunikation",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-22T16:48:15.000Z"
@@ -1141,66 +1201,6 @@
         "category": "Kommentare",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-22T15:23:56.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-im-plus-gewinne-treiben-nasdaq-auf-rekordhoch/100219086.html",
-        "title": "US-Börsen: Waffenstillstand und Unternehmensgewinne: Wall Street startet im Plus – Boeing legt zu",
-        "summary": "Anleger zeigen sich trotz der geopolitischen Lage wieder risikofreudig – und entfernen sich von ihren sicheren Häfen. Blendet der Markt den Iran-Krieg mittlerweile aus?",
-        "paragraphs": [
-          "Anleger zeigen sich trotz der geopolitischen Lage wieder risikofreudig – und entfernen sich von ihren sicheren Häfen. Blendet der Markt den Iran-Krieg mittlerweile aus?"
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-im-plus-gewinne-treiben-nasdaq-auf-rekordhoch/100219086.html",
-        "category": "Marktberichte",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T15:19:13.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/aussenpolitik-wirtschaftsministerin-reiche-will-ende-mai-nach-china-reisen/100219151.html",
-        "title": "Außenpolitik: Wirtschaftsministerin Reiche will Ende Mai nach China reisen",
-        "summary": "Reiche plant nach China zu reisen, um Deutschlands Rolle als verlässlichen Handelspartner zu betonen. Gleichzeitig verweist sie auf Wettbewerbsverzerrungen durch chinesische Dumpingpreise.",
-        "paragraphs": [
-          "Reiche plant nach China zu reisen, um Deutschlands Rolle als verlässlichen Handelspartner zu betonen. Gleichzeitig verweist sie auf Wettbewerbsverzerrungen durch chinesische Dumpingpreise."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/aussenpolitik-wirtschaftsministerin-reiche-will-ende-mai-nach-china-reisen/100219151.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T15:12:09.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/kanzler-merz-klimaschutz-darf-die-industrielle-basis-nicht-gefaehrden/100218800.html",
-        "title": "Erderwärmung: Friedrich Merz: „Klimaschutz darf die industrielle Basis nicht gefährden“",
-        "summary": "Beim Petersberger Klimadialog in Berlin hat sich der Bundeskanzler für ambitionierten Klimaschutz ausgesprochen. Gleichzeitig macht er den Unternehmen ein Versprechen.",
-        "paragraphs": [
-          "Beim Petersberger Klimadialog in Berlin hat sich der Bundeskanzler für ambitionierten Klimaschutz ausgesprochen. Gleichzeitig macht er den Unternehmen ein Versprechen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/kanzler-merz-klimaschutz-darf-die-industrielle-basis-nicht-gefaehrden/100218800.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T15:08:16.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/video/politik/vorratsdatenspeicherung-bundesregierung-beschliesst-dreimonatige-speicherung-von-ip-adressen/100219152.html",
-        "title": "Vorratsdatenspeicherung: Bundesregierung beschließt dreimonatige Speicherung von IP-Adressen",
-        "summary": "Das Bundeskabinett hat am Mittwoch einen Gesetzesentwurf zur besseren Strafverfolgung im Internet beschlossen. Internetprovider sollen künftig verpflichtet werden, IP-Adressen drei Monate lang zu speichern – auch wenn kein Anfangsverdacht vorliegt.",
-        "paragraphs": [
-          "Das Bundeskabinett hat am Mittwoch einen Gesetzesentwurf zur besseren Strafverfolgung im Internet beschlossen. Internetprovider sollen künftig verpflichtet werden, IP-Adressen drei Monate lang zu speichern – auch wenn kein Anfangsverdacht vorliegt."
-        ],
-        "link": "https://www.handelsblatt.com/video/politik/vorratsdatenspeicherung-bundesregierung-beschliesst-dreimonatige-speicherung-von-ip-adressen/100219152.html",
-        "category": "Politik",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T15:06:45.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/video/finanzen/handelsblatt-live-us-boersenexperte-koch-wall-street-startet-trotz-hohen-oelpreises-im-plus/100219155.html",
-        "title": "Handelsblatt Live: US-Börsenexperte Koch: Wall Street startet trotz hohen Ölpreises im Plus",
-        "summary": "US-Präsident Donald Trump hat am Mittwoch wieder ein Iran-Ultimatum ohne Konsequenzen auslaufen lassen – und die Stimmung an den Märkten bleibt gut. Markus Koch erklärt, dass das auch auf eine überraschend gute Berichtssaison zurückzuführen sei.",
-        "paragraphs": [
-          "US-Präsident Donald Trump hat am Mittwoch wieder ein Iran-Ultimatum ohne Konsequenzen auslaufen lassen – und die Stimmung an den Märkten bleibt gut. Markus Koch erklärt, dass das auch auf eine überraschend gute Berichtssaison zurückzuführen sei."
-        ],
-        "link": "https://www.handelsblatt.com/video/finanzen/handelsblatt-live-us-boersenexperte-koch-wall-street-startet-trotz-hohen-oelpreises-im-plus/100219155.html",
-        "category": "Finanzen",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T15:06:32.000Z"
       }
     ]
   }
