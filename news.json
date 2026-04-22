@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-04-22T12:38:02.329Z",
+  "updatedAt": "2026-04-22T13:07:20.116Z",
   "categories": {
     "wirtschaft": [
-      {
-        "id": "1d564ef1-31be-4f34-a823-cdf5ed7b7ab2",
-        "title": "Nahost-Liveblog: ++ Arabische Liga fordert Reparationen von Iran  ++",
-        "summary": "Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden. Die iranischen Revolutionsgarden haben nach eigenen Angaben mehrere Schiffe in der Straße von Hormus angegriffen.",
-        "paragraphs": [
-          "Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden. Die iranischen Revolutionsgarden haben nach eigenen Angaben mehrere Schiffe in der Straße von Hormus angegriffen."
-        ],
-        "link": "https://www.tagesschau.de/newsticker/liveblog-iran-mittwoch-112.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-22T12:34:51.000Z"
-      },
       {
         "id": "6971f4a3-29cf-4206-b785-90c5763ce0ab",
         "title": "Bundesregierung halbiert Wachstumsprognose auf 0,5 Prozent",
@@ -24,7 +12,19 @@
         "link": "https://www.tagesschau.de/wirtschaft/konjunktur/wachstumsprognose-bundesregierung-102.html",
         "category": null,
         "source": "Tagesschau",
-        "publishedAt": "2026-04-22T12:29:55.000Z"
+        "publishedAt": "2026-04-22T12:52:07.000Z"
+      },
+      {
+        "id": "1d564ef1-31be-4f34-a823-cdf5ed7b7ab2",
+        "title": "Nahost-Liveblog: ++ Arabische Liga fordert Reparationen von Iran  ++",
+        "summary": "Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden. Die iranischen Revolutionsgarden haben nach eigenen Angaben mehrere Schiffe in der Straße von Hormus angegriffen.",
+        "paragraphs": [
+          "Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden. Die iranischen Revolutionsgarden haben nach eigenen Angaben mehrere Schiffe in der Straße von Hormus angegriffen."
+        ],
+        "link": "https://www.tagesschau.de/newsticker/liveblog-iran-mittwoch-112.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-22T12:48:17.000Z"
       },
       {
         "id": "https://www.n-tv.de/wirtschaft/Bundesregierung-halbiert-Wachstumsprognose-fuer-2026-id30743179.html",
@@ -243,6 +243,52 @@
     ],
     "politik": [
       {
+        "id": "li.3471987",
+        "title": "Speicherung von IP-Adressen: Koalition verschärft Kampf gegen Internetkriminalität",
+        "summary": "Das Bundeskabinett billigt einen Gesetzentwurf, der die Speicherung von IP-Adressen vorschreibt. Damit könne eine „zwanzigjährige Debatte um Freiheit und Sicherheit im Netz“ beendet werden, sagt Justizministerin Hubig.",
+        "paragraphs": [
+          "Das Bundeskabinett billigt einen Gesetzentwurf, der die Speicherung von IP-Adressen vorschreibt. Damit könne eine „zwanzigjährige Debatte um Freiheit und Sicherheit im Netz“ beendet werden, sagt Justizministerin Hubig."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/bundeskabinett-ip-speicherung-internetkriminalitaet-li.3471987",
+        "category": "Cybersicherheit",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T12:51:44.000Z"
+      },
+      {
+        "id": "li.3468452",
+        "title": "„Original aus Wien“, Folge 36: Die österreichische Zarah Leander",
+        "summary": "Paula Wessely war eine berühmte Schauspielerin und das weibliche Oberhaupt des Hörbiger-Clans. Aber ein Film warf einen Schatten auf ihre Karriere und ihr Leben.",
+        "paragraphs": [
+          "Paula Wessely war eine berühmte Schauspielerin und das weibliche Oberhaupt des Hörbiger-Clans. Aber ein Film warf einen Schatten auf ihre Karriere und ihr Leben."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/oesterreich-wien-paula-wessely-schauspielerin-li.3468452",
+        "category": "Österreich",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T12:48:56.000Z"
+      },
+      {
+        "id": "li.3471306",
+        "title": "Indien: Wie die machtbewusste Mamata Banerjee ihrem Land schadet",
+        "summary": "Indien ist die größte Demokratie der Welt, doch das Beispiel Westbengalen zeigt, wie undemokratisch es in manchen Bundesstaaten zugeht. Ein Besuch.",
+        "paragraphs": [
+          "Indien ist die größte Demokratie der Welt, doch das Beispiel Westbengalen zeigt, wie undemokratisch es in manchen Bundesstaaten zugeht. Ein Besuch."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/indien-westbengalen-wahl-mamata-banerjee-lage-kolkata-li.3471306",
+        "category": "Indien",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T12:43:00.000Z"
+      },
+      {
+        "id": "li.3472237",
+        "title": "Gesundheitspolitik: Reform der Notfallversorgung",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/gesundheitspolitik-reform-der-notfallversorgung-li.3472237",
+        "category": "Gesundheitspolitik",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T12:32:53.000Z"
+      },
+      {
         "id": "li.3472230",
         "title": "Universität Münster: Erste Islam-Fakultät in Deutschland",
         "summary": "",
@@ -266,12 +312,12 @@
       },
       {
         "id": "li.3468737",
-        "title": "Bundespolitik: Bundesregierung halbiert Konjunkturprognose",
-        "summary": "Wegen der Folgen des Iran-Kriegs halbiert die Bundesregierung ihre Konjunkturprognose. Sie erwartet für dieses Jahr nur noch ein Wachstum des Bruttoinlandsprodukts von 0,5 Prozent.",
+        "title": "Bundespolitik: Umweltminister Schneider lehnt Reiches Stromnetz-Pläne ab",
+        "summary": "Der Entwurf der Wirtschaftsministerin sieht massive Einschränkungen für den Ökostrom-Ausbau vor. Schneider hält dagegen: Heimische erneuerbare Energien seien „die günstigste Energieform unserer Zeit“.",
         "paragraphs": [
-          "Wegen der Folgen des Iran-Kriegs halbiert die Bundesregierung ihre Konjunkturprognose. Sie erwartet für dieses Jahr nur noch ein Wachstum des Bruttoinlandsprodukts von 0,5 Prozent."
+          "Der Entwurf der Wirtschaftsministerin sieht massive Einschränkungen für den Ökostrom-Ausbau vor. Schneider hält dagegen: Heimische erneuerbare Energien seien „die günstigste Energieform unserer Zeit“."
         ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-bundesregierung-wachstumsprognose-reiche-li.3468737",
+        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-bundesregierung-schneider-reiche-kritik-li.3468737",
         "category": "Bundesregierung",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-22T12:15:00.000Z"
@@ -393,18 +439,6 @@
         "publishedAt": "2026-04-22T07:00:00.000Z"
       },
       {
-        "id": "li.3471101",
-        "title": "Sanktionen: Zieht die EU die richtigen Lehren aus dem Fall Ungarn?",
-        "summary": "Am Ende von 16 Jahren Orbán weiß man: Geldentzug funktioniert als Druckmittel. Es ist jedoch nicht sicher, dass die EU es auch in Zukunft effektiv nutzt. Denn manche Regierungen könnten versuchen, einander zu schonen.",
-        "paragraphs": [
-          "Am Ende von 16 Jahren Orbán weiß man: Geldentzug funktioniert als Druckmittel. Es ist jedoch nicht sicher, dass die EU es auch in Zukunft effektiv nutzt. Denn manche Regierungen könnten versuchen, einander zu schonen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ungarn-orban-magyar-eu-li.3471101",
-        "category": "Europäische Union",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-22T05:30:35.000Z"
-      },
-      {
         "id": "76880630",
         "title": "Libyen zwischen Kooperation und Illusion",
         "summary": "Beim US-Manöver \"Flintlock“ trainieren Soldaten aus rund 30 Ländern in Libyen. Erstmals nehmen Vertreter beider Machtlager teil – ein seltenes politisches Signal in einem weiter zersplitterten Staat.",
@@ -415,42 +449,6 @@
         "category": "Welt",
         "source": "DW",
         "publishedAt": "2026-04-22T05:13:00.000Z"
-      },
-      {
-        "id": "li.3471945",
-        "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
-        "summary": "SZ am Morgen.",
-        "paragraphs": [
-          "SZ am Morgen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/waffenruhe-verlaengert-is-terroristen-in-deutschland-aufgespuert-rentenstreit-in-der-koalition-li.3471945",
-        "category": "SZ Nachrichten des Tages",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-22T04:59:40.000Z"
-      },
-      {
-        "id": "li.3467711",
-        "title": "Terrorismus-Ermittlungen: Die vielen Namen der Islamisten",
-        "summary": "Dokumente aus dem Inneren des „Islamischen Staats“ helfen dem Bundeskriminalamt dabei, untergetauchte Terroristen zu finden. Der Fall des mutmaßlichen Attentäters von Bielefeld zeigt, wie kompliziert das sein kann.",
-        "paragraphs": [
-          "Dokumente aus dem Inneren des „Islamischen Staats“ helfen dem Bundeskriminalamt dabei, untergetauchte Terroristen zu finden. Der Fall des mutmaßlichen Attentäters von Bielefeld zeigt, wie kompliziert das sein kann."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/terror-anschlag-bielefeld-taeter-bka-listen-is-li.3467711",
-        "category": "Terrorismus",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-22T04:00:05.000Z"
-      },
-      {
-        "id": "li.3467710",
-        "title": "„Islamistischer Staat“: Wie das BKA ehemalige IS-Terroristen in Deutschland aufspürt",
-        "summary": "Unbemerkt von den Behörden lebten jahrelang mutmaßliche Milizionäre des „Islamischen Staats“ in Deutschland. Jetzt kann das Bundeskriminalamt die Islamisten reihenweise enttarnen – dank eines gigantischen Datensatzes.",
-        "paragraphs": [
-          "Unbemerkt von den Behörden lebten jahrelang mutmaßliche Milizionäre des „Islamischen Staats“ in Deutschland. Jetzt kann das Bundeskriminalamt die Islamisten reihenweise enttarnen – dank eines gigantischen Datensatzes."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/islamischer-staat-terror-bka-listen-anschlag-li.3467710",
-        "category": "Islamismus",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-22T04:00:03.000Z"
       },
       {
         "id": "76886324",
@@ -466,12 +464,12 @@
       },
       {
         "id": "76884862",
-        "title": "Palantir: Warum ein politisches Manifest für Aufsehen sorgt",
+        "title": "Palantir-Manifest: Kommt nun der \"Techno-Faschismus\"?",
         "summary": "Der umstrittene US-Techkonzern hat 22 Thesen gepostet, die teils weit über die für Unternehmen üblichen Themen hinausgehen. Kritiker lesen darin ein Plädoyer für Techno-Faschismus. Wir beantworten die wichtigsten Fragen.",
         "paragraphs": [
           "Der umstrittene US-Techkonzern hat 22 Thesen gepostet, die teils weit über die für Unternehmen üblichen Themen hinausgehen. Kritiker lesen darin ein Plädoyer für Techno-Faschismus. Wir beantworten die wichtigsten Fragen."
         ],
-        "link": "https://www.dw.com/de/palantir-warum-ein-politisches-manifest-für-aufsehen-sorgt/a-76884862?maca=de-rss-de-top-1016-xml-mrss",
+        "link": "https://www.dw.com/de/palantir-manifest-kommt-nun-der-techno-faschismus/a-76884862?maca=de-rss-de-top-1016-xml-mrss",
         "category": "Welt",
         "source": "DW",
         "publishedAt": "2026-04-21T15:30:00.000Z"
@@ -479,16 +477,120 @@
     ],
     "sport": [
       {
-        "id": "https://www.kicker.de/orban-und-lukeba-es-bleibt-ein-fragezeichen-1212603/artikel#omrss",
-        "title": "Orban und Lukeba: Es bleibt ein Fragezeichen",
-        "summary": "Am Freitag hat RB Leipzig den 1. FC Union Berlin zu Gast. Für Trainer Ole Werner stellt sich mit Blick auf das Duell mit den Eisernen das Thema, ob die etatmäßige Innenverteidigung wieder zur Verfügung steht oder eben nicht.",
+        "id": "https://www.kicker.de/eta-stellt-klar-es-gab-schon-schwierigere-situationen-1212630/artikel#omrss",
+        "title": "Eta stellt klar: \"Es gab schon schwierigere Situationen\"",
+        "summary": "In Wolfsburg erspielten sich die Berliner trotz der Pleite einige gute Möglichkeiten. Laut Eta müsse nun noch die letzte Entschlossenheit und Überzeugung her.",
         "paragraphs": [
-          "Am Freitag hat RB Leipzig den 1. FC Union Berlin zu Gast. Für Trainer Ole Werner stellt sich mit Blick auf das Duell mit den Eisernen das Thema, ob die etatmäßige Innenverteidigung wieder zur Verfügung steht oder eben nicht."
+          "In Wolfsburg erspielten sich die Berliner trotz der Pleite einige gute Möglichkeiten. Laut Eta müsse nun noch die letzte Entschlossenheit und Überzeugung her."
         ],
-        "link": "https://www.kicker.de/orban-und-lukeba-es-bleibt-ein-fragezeichen-1212603/artikel#omrss",
-        "category": "Baumgartner",
+        "link": "https://www.kicker.de/eta-stellt-klar-es-gab-schon-schwierigere-situationen-1212630/artikel#omrss",
+        "category": "1. FC Union Berlin",
         "source": "Kicker",
-        "publishedAt": "2026-04-22T12:29:09.000Z"
+        "publishedAt": "2026-04-22T13:00:36.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/rot-fuer-manuel-neuer-kannst-du-das-bild-wieder-in-ordnung-bringen-1212647/artikel#omrss",
+        "title": "Rot für Manuel Neuer: Kannst du das Bild wieder in Ordnung bringen?",
+        "summary": "Es war der Knackpunkt im letzten Aufeinandertreffen im DFB-Pokal der Bayern und der Werkself: Nach 17 Spielminuten sah Manuel Neuer nach einem Bodycheck gegen den Ex-Leverkusener Frimpong die Rote Karte.",
+        "paragraphs": [
+          "Es war der Knackpunkt im letzten Aufeinandertreffen im DFB-Pokal der Bayern und der Werkself: Nach 17 Spielminuten sah Manuel Neuer nach einem Bodycheck gegen den Ex-Leverkusener Frimpong die Rote Karte."
+        ],
+        "link": "https://www.kicker.de/rot-fuer-manuel-neuer-kannst-du-das-bild-wieder-in-ordnung-bringen-1212647/artikel#omrss",
+        "category": null,
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T12:58:43.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/avdullahu-und-hajdari-bei-der-tsg-vor-der-befoerderung-1212621/artikel#omrss",
+        "title": "Avdullahu und Hajdari bei der TSG vor der Beförderung",
+        "summary": "Die TSG Hoffenheim sorgt mit Blick auf die nächste Saison für klare Verhältnisse. Nach kicker-Informationen stehen die erst im Sommer geholten Leon Avdullahu und Albian Hajdari vor der nächsten Vertragsunterschrift.",
+        "paragraphs": [
+          "Die TSG Hoffenheim sorgt mit Blick auf die nächste Saison für klare Verhältnisse. Nach kicker-Informationen stehen die erst im Sommer geholten Leon Avdullahu und Albian Hajdari vor der nächsten Vertragsunterschrift."
+        ],
+        "link": "https://www.kicker.de/avdullahu-und-hajdari-bei-der-tsg-vor-der-befoerderung-1212621/artikel#omrss",
+        "category": "Avdullahu",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T12:57:54.000Z"
+      },
+      {
+        "id": "li.3472243",
+        "title": "Fußball: Bellingham investiert in Cricket-Klub",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/sport/fussball-bellingham-investiert-in-cricket-klub-li.3472243",
+        "category": "Fußball",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T12:56:17.000Z"
+      },
+      {
+        "id": "li.3472241",
+        "title": "Bayern Leverkusen: Scharfe Kritik an Bayer-Trainer Hjulmand",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/sport/bayern-leverkusen-scharfe-kritik-an-bayer-trainer-hjulmand-li.3472241",
+        "category": "Fußball",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T12:55:38.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wolfsburg-will-st-paulis-wahl-1212586/artikel#omrss",
+        "title": "Wolfsburg will St. Paulis Wahl",
+        "summary": "Der VfL Wolfsburg plant seine Zukunft losgelöst davon, ob er in der kommenden Saison in der 1. oder 2. Liga spielt. Nach kicker-Informationen bemühen sich die Niedersachsen dabei um St. Paulis Innenverteidiger Hauke Wahl.",
+        "paragraphs": [
+          "Der VfL Wolfsburg plant seine Zukunft losgelöst davon, ob er in der kommenden Saison in der 1. oder 2. Liga spielt. Nach kicker-Informationen bemühen sich die Niedersachsen dabei um St. Paulis Innenverteidiger Hauke Wahl."
+        ],
+        "link": "https://www.kicker.de/wolfsburg-will-st-paulis-wahl-1212586/artikel#omrss",
+        "category": "Adjetey",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T12:50:04.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/der-oberschenkel-zwickt-amenyido-fehlt-muenster-zumindest-im-abstiegsduell-1212636/artikel#omrss",
+        "title": "Der Oberschenkel zwickt: Amenyido fehlt Münster zumindest im Abstiegsduell",
+        "summary": "Seit sechs Spielen ist Preußen Münster sieglos, nun muss das Schlusslicht der 2. Bundesliga im Abstiegskampf auch noch auf Etienne Amenyido verzichten.",
+        "paragraphs": [
+          "Seit sechs Spielen ist Preußen Münster sieglos, nun muss das Schlusslicht der 2. Bundesliga im Abstiegskampf auch noch auf Etienne Amenyido verzichten."
+        ],
+        "link": "https://www.kicker.de/der-oberschenkel-zwickt-amenyido-fehlt-muenster-zumindest-im-abstiegsduell-1212636/artikel#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T12:42:16.000Z"
+      },
+      {
+        "id": "li.3472106",
+        "title": "Abstieg von Leicester in England: So schnell wurde noch kein Klub nach unten durchgereicht",
+        "summary": "Von Zero zu Hero und zurück: 2016 wurde Leicester City sensationell englischer Meister – jetzt steigt der Klub in die dritte Liga ab. Über einen beispiellosen Absturz.",
+        "paragraphs": [
+          "Von Zero zu Hero und zurück: 2016 wurde Leicester City sensationell englischer Meister – jetzt steigt der Klub in die dritte Liga ab. Über einen beispiellosen Absturz."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/premier-league-leicester-city-abstieg-meister-li.3472106",
+        "category": "Internationaler Fußball",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T12:41:04.000Z"
+      },
+      {
+        "id": "er.e011590",
+        "title": "Weltmeisterschaft im Drachenfliegen: Wenn Meerestiere am Himmel tanzen",
+        "summary": "Choreografien im Wind: An der Küste Frankreichs treffen sich die Drachenflieger zu einem bunten Spektakel – und zu einem Sport: ein deutsches Team will Weltmeister werden.",
+        "paragraphs": [
+          "Choreografien im Wind: An der Küste Frankreichs treffen sich die Drachenflieger zu einem bunten Spektakel – und zu einem Sport: ein deutsches Team will Weltmeister werden."
+        ],
+        "link": "https://www.sueddeutsche.de/projekte/artikel/sport/meer-piloten-wind-festival-nationalmannschaft-e011590/",
+        "category": "Frankreich",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T12:37:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wolfsburg-holt-verlorenen-sohn-rexhbecaj-aus-augsburg-zurueck-1210043/artikel#omrss",
+        "title": "Wolfsburg holt \"verlorenen Sohn\" Rexhbecaj aus Augsburg zurück",
+        "summary": "Elvis Rexhbecaj kehrt zum VfL Wolfsburg zurück. Der \"verlorene Sohn\" wird unabhängig von der Ligazugehörigkeit im Sommer vom FC Augsburg zu seinem Ausbildungsverein stoßen.",
+        "paragraphs": [
+          "Elvis Rexhbecaj kehrt zum VfL Wolfsburg zurück. Der \"verlorene Sohn\" wird unabhängig von der Ligazugehörigkeit im Sommer vom FC Augsburg zu seinem Ausbildungsverein stoßen."
+        ],
+        "link": "https://www.kicker.de/wolfsburg-holt-verlorenen-sohn-rexhbecaj-aus-augsburg-zurueck-1210043/artikel#omrss",
+        "category": "Baum",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T12:35:38.000Z"
       },
       {
         "id": "https://www.kicker.de/alles-neu-bei-satou-sabally-warum-sich-der-dbb-star-fuer-new-york-entschied-1212640/artikel#omrss",
@@ -575,13 +677,13 @@
         "publishedAt": "2026-04-22T11:17:03.000Z"
       },
       {
-        "id": "https://www.kicker.de/nach-winter-angebot-roma-vor-naechster-attacke-bei-bayers-top-talent-alajbegovic-1212576/artikel#omrss",
-        "title": "Nach Winter-Angebot: Roma vor nächster Attacke bei Bayers Top-Talent Alajbegovic",
+        "id": "https://www.kicker.de/roma-vor-naechster-attacke-bei-bayers-top-talent-alajbegovic-1212576/artikel#omrss",
+        "title": "Roma vor nächster Attacke bei Bayers Top-Talent Alajbegovic",
         "summary": "Dass Bayer 04 Kerim Alajbegovic im Sommer von RB Salzburg zurückholt, ist klar. Doch spielt das Top-Talent dann auch für Leverkusen? Die AS Rom plant angeblich, beim bosnischen Nationalspieler anzugreifen. Es wäre nicht das erste Mal.",
         "paragraphs": [
           "Dass Bayer 04 Kerim Alajbegovic im Sommer von RB Salzburg zurückholt, ist klar. Doch spielt das Top-Talent dann auch für Leverkusen? Die AS Rom plant angeblich, beim bosnischen Nationalspieler anzugreifen. Es wäre nicht das erste Mal."
         ],
-        "link": "https://www.kicker.de/nach-winter-angebot-roma-vor-naechster-attacke-bei-bayers-top-talent-alajbegovic-1212576/artikel#omrss",
+        "link": "https://www.kicker.de/roma-vor-naechster-attacke-bei-bayers-top-talent-alajbegovic-1212576/artikel#omrss",
         "category": "AS Rom",
         "source": "Kicker",
         "publishedAt": "2026-04-22T11:14:34.000Z"
@@ -609,114 +711,6 @@
         "category": "Fußball",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-22T11:00:27.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hoeness-kann-und-will-mit-stuttgart-pokal-geschichte-schreiben-1212596/artikel#omrss",
-        "title": "Hoeneß kann und will mit Stuttgart Pokal-Geschichte schreiben",
-        "summary": "Zweimal in Folge ins DFB-Pokalfinale einzuziehen, hat der VfB Stuttgart noch nie geschafft. Gegen den SC Freiburg soll das jetzt gelingen.",
-        "paragraphs": [
-          "Zweimal in Folge ins DFB-Pokalfinale einzuziehen, hat der VfB Stuttgart noch nie geschafft. Gegen den SC Freiburg soll das jetzt gelingen."
-        ],
-        "link": "https://www.kicker.de/hoeness-kann-und-will-mit-stuttgart-pokal-geschichte-schreiben-1212596/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T10:58:59.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/mehr-als-nur-standort-straubing-bindet-ex-nationalspieler-brandt-1212593/artikel#omrss",
-        "title": "\"Mehr als nur Standort\": Straubing bindet Ex-Nationalspieler Brandt",
-        "summary": "Jüngst hat Marcel Brandt seine Karriere in der deutschen Eishockey-Nationalmannschaft beendet, den Straubing Tigers bleibt der beste Offensivverteidiger der letzten sechs Jahre aber erhalten.",
-        "paragraphs": [
-          "Jüngst hat Marcel Brandt seine Karriere in der deutschen Eishockey-Nationalmannschaft beendet, den Straubing Tigers bleibt der beste Offensivverteidiger der letzten sechs Jahre aber erhalten."
-        ],
-        "link": "https://www.kicker.de/mehr-als-nur-standort-straubing-bindet-ex-nationalspieler-brandt-1212593/artikel#omrss",
-        "category": "Brandt",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T10:49:55.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/atubolu-seite-forciert-abschied-noch-kein-nachfolge-favorit-1212541/artikel#omrss",
-        "title": "Atubolu-Seite forciert Abschied - Noch kein Nachfolge-Favorit",
-        "summary": "Der SC Freiburg steht auf der Torwart-Position vor einem kniffligen Transfersommer. Stammkeeper Noah Atubolu möchte den nächsten Schritt gehen, muss aber dafür ein marktgerechtes Millionen-Angebot liefern. Gleichzeitig läuft eine Nachfolgersuche, die keine Preise verderben soll.",
-        "paragraphs": [
-          "Der SC Freiburg steht auf der Torwart-Position vor einem kniffligen Transfersommer. Stammkeeper Noah Atubolu möchte den nächsten Schritt gehen, muss aber dafür ein marktgerechtes Millionen-Angebot liefern. Gleichzeitig läuft eine Nachfolgersuche, die keine Preise verderben soll."
-        ],
-        "link": "https://www.kicker.de/atubolu-seite-forciert-abschied-noch-kein-nachfolge-favorit-1212541/artikel#omrss",
-        "category": "AC Mailand",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T10:45:27.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/del-ticker-brandt-bleibt-in-straubing-fleming-aus-in-dresden-1101426/artikel#omrss",
-        "title": "DEL-Ticker: Brandt bleibt in Straubing - Fleming-Aus in Dresden",
-        "summary": "Transfers, Verletzungen, Trennungen: Die wichtigsten Personalentscheidungen in der DEL im Ticker ...",
-        "paragraphs": [
-          "Transfers, Verletzungen, Trennungen: Die wichtigsten Personalentscheidungen in der DEL im Ticker ..."
-        ],
-        "link": "https://www.kicker.de/del-ticker-brandt-bleibt-in-straubing-fleming-aus-in-dresden-1101426/artikel#omrss",
-        "category": "Eishockey",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T10:43:20.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nach-zweiter-roter-karte-schweinfurter-celebi-fuer-drei-spiele-gesperrt-1212013/artikel#omrss",
-        "title": "Nach zweiter Roter Karte: Schweinfurter Celebi für drei Spiele gesperrt",
-        "summary": "Im Heimspiel des 1. FC Schweinfurt gegen Rostock hat sich Ekin Celebi bereits seinen zweiten Platzverweis in dieser Saison eingehandelt. Wieder gab es danach heftige Diskussionen, diesmal aber aus einem anderen Grund als in der Hinrunde.",
-        "paragraphs": [
-          "Im Heimspiel des 1. FC Schweinfurt gegen Rostock hat sich Ekin Celebi bereits seinen zweiten Platzverweis in dieser Saison eingehandelt. Wieder gab es danach heftige Diskussionen, diesmal aber aus einem anderen Grund als in der Hinrunde."
-        ],
-        "link": "https://www.kicker.de/nach-zweiter-roter-karte-schweinfurter-celebi-fuer-drei-spiele-gesperrt-1212013/artikel#omrss",
-        "category": "1. FC Schweinfurt 05",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T10:28:35.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/draft-drama-voraus-zehn-gewagte-prognosen-fuer-die-erste-runde-1212583/artikel#omrss",
-        "title": "Draft-Drama voraus? Zehn gewagte Prognosen für die erste Runde",
-        "summary": "Ein Tag vor dem Start des NFL Drafts deutet vieles darauf hin, dass die erste Runde einige Überraschungen bereithalten könnte. Einige Trends zeichnen sich ab, andere Prognosen wirken auf den ersten Blick gewagt. Doch gerade in einem Draft, der als weniger tief gilt, können sich Dynamiken schnell verändern. Hier sind zehn mutige Prognosen für die erste Runde des NFL Draft 2026.",
-        "paragraphs": [
-          "Ein Tag vor dem Start des NFL Drafts deutet vieles darauf hin, dass die erste Runde einige Überraschungen bereithalten könnte. Einige Trends zeichnen sich ab, andere Prognosen wirken auf den ersten Blick gewagt. Doch gerade in einem Draft, der als weniger tief gilt, können sich Dynamiken schnell verändern. Hier sind zehn mutige Prognosen für die erste Runde des NFL Draft 2026."
-        ],
-        "link": "https://www.kicker.de/draft-drama-voraus-zehn-gewagte-prognosen-fuer-die-erste-runde-1212583/artikel#omrss",
-        "category": "Football",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T10:11:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kleindiensts-wm-traum-lebt-und-wenn-die-chance-nur-ein-prozent-betraegt-1212587/artikel#omrss",
-        "title": "Kleindiensts WM-Traum lebt: \"Und wenn die Chance nur ein Prozent beträgt\"",
-        "summary": "Tim Kleindienst arbeitet an seinem Comeback im Trikot von Borussia Mönchengladbach - und hofft weiterhin auf einen Anruf von Bundestrainer Julian Nagelsmann. Trotz langer Verletzungspause sei bis zum WM-Start noch genügend Zeit, um in Form zu kommen, argumentiert der Stürmer.",
-        "paragraphs": [
-          "Tim Kleindienst arbeitet an seinem Comeback im Trikot von Borussia Mönchengladbach - und hofft weiterhin auf einen Anruf von Bundestrainer Julian Nagelsmann. Trotz langer Verletzungspause sei bis zum WM-Start noch genügend Zeit, um in Form zu kommen, argumentiert der Stürmer."
-        ],
-        "link": "https://www.kicker.de/kleindiensts-wm-traum-lebt-und-wenn-die-chance-nur-ein-prozent-betraegt-1212587/artikel#omrss",
-        "category": "Bor. Mönchengladbach",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T10:03:42.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/warriors-endgueltig-am-scheideweg-war-es-das-jetzt-1212418/artikel#omrss",
-        "title": "Warriors endgültig am Scheideweg: War es das jetzt?",
-        "summary": "Seit Jahren reden wir über das Ende der Warriors-Dynastie. Selbst massive personelle Wechsel vermittelten in den vergangenen Jahren jedoch nicht das Gefühl, dass das letzte Kapitel geschrieben sei. Nach dem Play-In-Aus ist das nun anders.",
-        "paragraphs": [
-          "Seit Jahren reden wir über das Ende der Warriors-Dynastie. Selbst massive personelle Wechsel vermittelten in den vergangenen Jahren jedoch nicht das Gefühl, dass das letzte Kapitel geschrieben sei. Nach dem Play-In-Aus ist das nun anders."
-        ],
-        "link": "https://www.kicker.de/warriors-endgueltig-am-scheideweg-war-es-das-jetzt-1212418/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T09:53:13.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/anspruch-unterstrichen-stamford-bridge-wird-heimat-der-chelsea-frauen-1212570/artikel#omrss",
-        "title": "Anspruch unterstrichen: Stamford Bridge wird Heimat der Chelsea-Frauen",
-        "summary": "Die Frauen des FC Chelsea bekommen für ihre Heimspiele einen würdigen Rahmen, die Partien des amtierenden Meisters werden künftig an der Stamford Bridge ausgetragen.",
-        "paragraphs": [
-          "Die Frauen des FC Chelsea bekommen für ihre Heimspiele einen würdigen Rahmen, die Partien des amtierenden Meisters werden künftig an der Stamford Bridge ausgetragen."
-        ],
-        "link": "https://www.kicker.de/anspruch-unterstrichen-stamford-bridge-wird-heimat-der-chelsea-frauen-1212570/artikel#omrss",
-        "category": "Bompastor",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T09:40:40.000Z"
       }
     ],
     "edv": [
@@ -733,16 +727,16 @@
         "publishedAt": "2026-04-22T05:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Schadcode-Schlupfloecher-bedrohen-Apache-Airflow-und-Airflow-Keycloak-11268021.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Schadcode-Schlupflöcher bedrohen Apache Airflow und Airflow Keycloak",
-        "summary": "Apaches Open-Source-Workflow-Management-Plattformen Airflow und Airflow Keycloak sind verwundbar. Eine Lücke gilt als kritisch.",
+        "id": "https://www.heise.de/news/Signal-Phishing-Angriffe-BfV-und-BSI-aktualisieren-Warnung-11268017.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Signal-Phishing-Angriffe: BfV und BSI aktualisieren Warnung",
+        "summary": "Das BSI und der Verfassungsschutz aktualisieren ihre Warnung vor Phishing-Angriffen auf hochrangige Persönlichkeiten.",
         "paragraphs": [
-          "Apaches Open-Source-Workflow-Management-Plattformen Airflow und Airflow Keycloak sind verwundbar. Eine Lücke gilt als kritisch."
+          "Das BSI und der Verfassungsschutz aktualisieren ihre Warnung vor Phishing-Angriffen auf hochrangige Persönlichkeiten."
         ],
-        "link": "https://www.heise.de/news/Schadcode-Schlupfloecher-bedrohen-Apache-Airflow-und-Airflow-Keycloak-11268021.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Signal-Phishing-Angriffe-BfV-und-BSI-aktualisieren-Warnung-11268017.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T12:29:00.000Z"
+        "publishedAt": "2026-04-22T12:47:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Apples-MacBook-Neo-ueberrollt-die-Konkurrenz-11264288.html",
@@ -757,16 +751,16 @@
         "publishedAt": "2026-04-22T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Kabinett-bringt-neue-Vorratsdatenspeicherung-auf-den-Weg-11267929.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Kabinett bringt neue Vorratsdatenspeicherung auf den Weg",
-        "summary": "Die schwarz-rote Bundesregierung hat sich auf eine IP-Vorratsdatenspeicherung geeinigt. Zusätzliche Maßnahmen sollen Ermittlungserfolge zeitigen.",
+        "id": "https://www.heise.de/news/Anker-Thus-Winziger-KI-Speicherchip-verbessert-Geraeuschunterdrueckung-11267979.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Anker Thus: Winziger KI-Speicherchip verbessert Geräuschunterdrückung",
+        "summary": "In Dresden hergestellte Mini-Chips landen künftig in In-Ear-Headsets. Bei Ankers Thus laufen KI-Modelle in NOR-Flash.",
         "paragraphs": [
-          "Die schwarz-rote Bundesregierung hat sich auf eine IP-Vorratsdatenspeicherung geeinigt. Zusätzliche Maßnahmen sollen Ermittlungserfolge zeitigen."
+          "In Dresden hergestellte Mini-Chips landen künftig in In-Ear-Headsets. Bei Ankers Thus laufen KI-Modelle in NOR-Flash."
         ],
-        "link": "https://www.heise.de/news/Kabinett-bringt-neue-Vorratsdatenspeicherung-auf-den-Weg-11267929.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Anker-Thus-Winziger-KI-Speicherchip-verbessert-Geraeuschunterdrueckung-11267979.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T12:22:00.000Z"
+        "publishedAt": "2026-04-22T12:38:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Framework-Laptop-13-Pro-verlaengert-Akkulaufzeit-erheblich-11266002.html",
@@ -781,16 +775,16 @@
         "publishedAt": "2026-04-21T18:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Neuer-Einplatinenrechner-fuer-Edge-und-IoT-Anwendungen-11267955.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Neuer Einplatinenrechner für Edge- und IoT-Anwendungen",
-        "summary": "Der OrangePi Zero 3W kombiniert Octa-Core-CPU, NPU und Wi-Fi 6 auf kleinem Raum. Das ist spannend für kompakte Maker-Projekte.",
+        "id": "https://www.heise.de/news/Schadcode-Schlupfloecher-bedrohen-Apache-Airflow-und-Airflow-Keycloak-11268021.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Schadcode-Schlupflöcher bedrohen Apache Airflow und Airflow Keycloak",
+        "summary": "Apaches Open-Source-Workflow-Management-Plattformen Airflow und Airflow Keycloak sind verwundbar. Eine Lücke gilt als kritisch.",
         "paragraphs": [
-          "Der OrangePi Zero 3W kombiniert Octa-Core-CPU, NPU und Wi-Fi 6 auf kleinem Raum. Das ist spannend für kompakte Maker-Projekte."
+          "Apaches Open-Source-Workflow-Management-Plattformen Airflow und Airflow Keycloak sind verwundbar. Eine Lücke gilt als kritisch."
         ],
-        "link": "https://www.heise.de/news/Neuer-Einplatinenrechner-fuer-Edge-und-IoT-Anwendungen-11267955.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Schadcode-Schlupfloecher-bedrohen-Apache-Airflow-und-Airflow-Keycloak-11268021.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T12:01:00.000Z"
+        "publishedAt": "2026-04-22T12:29:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Oppo-Find-X9-Ultra-Neues-Kamera-Flaggschiff-mit-Hasselblad-Kameras-11265886.html",
@@ -805,16 +799,16 @@
         "publishedAt": "2026-04-21T12:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Lokales-Active-Directory-gegen-Angriffe-absichern-11248678.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Lokales Active Directory gegen Angriffe absichern",
-        "summary": "Lernen Sie, wie Angreifer Active Directory kompromittieren und wie Sie Ihre AD-Umgebung effektiv vor Ransomware und anderen Cyberangriffen schützen.",
+        "id": "https://www.heise.de/news/Kabinett-bringt-neue-Vorratsdatenspeicherung-auf-den-Weg-11267929.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Kabinett bringt neue Vorratsdatenspeicherung auf den Weg",
+        "summary": "Die schwarz-rote Bundesregierung hat sich auf eine IP-Vorratsdatenspeicherung geeinigt. Zusätzliche Maßnahmen sollen Ermittlungserfolge zeitigen.",
         "paragraphs": [
-          "Lernen Sie, wie Angreifer Active Directory kompromittieren und wie Sie Ihre AD-Umgebung effektiv vor Ransomware und anderen Cyberangriffen schützen."
+          "Die schwarz-rote Bundesregierung hat sich auf eine IP-Vorratsdatenspeicherung geeinigt. Zusätzliche Maßnahmen sollen Ermittlungserfolge zeitigen."
         ],
-        "link": "https://www.heise.de/news/iX-Workshop-Lokales-Active-Directory-gegen-Angriffe-absichern-11248678.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Kabinett-bringt-neue-Vorratsdatenspeicherung-auf-den-Weg-11267929.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T12:00:00.000Z"
+        "publishedAt": "2026-04-22T12:22:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/OnePlus-prueft-Zukunft-in-Europa-Mitarbeiter-verlassen-das-Unternehmen-11265245.html",
@@ -829,16 +823,16 @@
         "publishedAt": "2026-04-21T07:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Datenleck-bei-Parfuemeriekette-Rituals-11267901.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Parfümerie Rituals: Mitgliederinformationen abgeflossen",
-        "summary": "Die Parfümeriekette Rituals informiert Kunden derzeit in E-Mails über den Abfluss von Mitgliederdaten an Unbefugte.",
+        "id": "https://www.heise.de/news/Neuer-Einplatinenrechner-fuer-Edge-und-IoT-Anwendungen-11267955.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Neuer Einplatinenrechner für Edge- und IoT-Anwendungen",
+        "summary": "Der OrangePi Zero 3W kombiniert Octa-Core-CPU, NPU und Wi-Fi 6 auf kleinem Raum. Das ist spannend für kompakte Maker-Projekte.",
         "paragraphs": [
-          "Die Parfümeriekette Rituals informiert Kunden derzeit in E-Mails über den Abfluss von Mitgliederdaten an Unbefugte."
+          "Der OrangePi Zero 3W kombiniert Octa-Core-CPU, NPU und Wi-Fi 6 auf kleinem Raum. Das ist spannend für kompakte Maker-Projekte."
         ],
-        "link": "https://www.heise.de/news/Datenleck-bei-Parfuemeriekette-Rituals-11267901.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Neuer-Einplatinenrechner-fuer-Edge-und-IoT-Anwendungen-11267955.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T11:51:00.000Z"
+        "publishedAt": "2026-04-22T12:01:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Machtwechsel-bei-Apple-Tim-Cook-uebergibt-an-John-Ternus-11265059.html",
@@ -851,6 +845,30 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-20T22:22:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-Lokales-Active-Directory-gegen-Angriffe-absichern-11248678.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Lokales Active Directory gegen Angriffe absichern",
+        "summary": "Lernen Sie, wie Angreifer Active Directory kompromittieren und wie Sie Ihre AD-Umgebung effektiv vor Ransomware und anderen Cyberangriffen schützen.",
+        "paragraphs": [
+          "Lernen Sie, wie Angreifer Active Directory kompromittieren und wie Sie Ihre AD-Umgebung effektiv vor Ransomware und anderen Cyberangriffen schützen."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-Lokales-Active-Directory-gegen-Angriffe-absichern-11248678.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-22T12:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Datenleck-bei-Parfuemeriekette-Rituals-11267901.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Parfümerie Rituals: Mitgliederinformationen abgeflossen",
+        "summary": "Die Parfümeriekette Rituals informiert Kunden derzeit in E-Mails über den Abfluss von Mitgliederdaten an Unbefugte.",
+        "paragraphs": [
+          "Die Parfümeriekette Rituals informiert Kunden derzeit in E-Mails über den Abfluss von Mitgliederdaten an Unbefugte."
+        ],
+        "link": "https://www.heise.de/news/Datenleck-bei-Parfuemeriekette-Rituals-11267901.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-22T11:51:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/IT-Vorfall-bei-Anodot-Modekette-Zara-betroffen-11267783.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -935,33 +953,129 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-22T09:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/YouTubes-kostenloses-Identitaets-Tool-soll-Prominente-vor-Deepfakes-schuetzen-11267462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "YouTubes kostenloses Identitäts-Tool soll Prominente vor Deepfakes schützen",
-        "summary": "YouTube stellt seine Deepfake-Erkennung breiter zur Verfügung und reagiert damit auf die zunehmende Verbreitung manipulierter Videos mit bekannten Gesichtern.",
-        "paragraphs": [
-          "YouTube stellt seine Deepfake-Erkennung breiter zur Verfügung und reagiert damit auf die zunehmende Verbreitung manipulierter Videos mit bekannten Gesichtern."
-        ],
-        "link": "https://www.heise.de/news/YouTubes-kostenloses-Identitaets-Tool-soll-Prominente-vor-Deepfakes-schuetzen-11267462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-22T09:21:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/SpaceX-sichert-sich-Kaufrecht-fuer-KI-Startup-Cursor-11267306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "SpaceX sichert sich Kaufrecht für KI-Startup Cursor",
-        "summary": "SpaceX könnte das KI-Start-up Cursor für 60 Milliarden Dollar übernehmen. Was hinter dem geplanten Deal steckt.",
-        "paragraphs": [
-          "SpaceX könnte das KI-Start-up Cursor für 60 Milliarden Dollar übernehmen. Was hinter dem geplanten Deal steckt."
-        ],
-        "link": "https://www.heise.de/news/SpaceX-sichert-sich-Kaufrecht-fuer-KI-Startup-Cursor-11267306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-22T09:14:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/cdu-arbeitnehmerfluegel-appelliert-mit-eigenem-rentenkonzept-an-merz/100219002.html",
+        "title": "Rente: Privat, aber sozial: CDU-Arbeitnehmerflügel appelliert mit eigenem Rentenkonzept an Merz",
+        "summary": "Der Kanzler spricht von der „Basisabsicherung“, nun legen die CDU-Arbeitnehmer ein Rentenkonzept vor. Die Arbeitskosten sollen sinken, betriebliche und private Vorsorge Pflicht werden.",
+        "paragraphs": [
+          "Der Kanzler spricht von der „Basisabsicherung“, nun legen die CDU-Arbeitnehmer ein Rentenkonzept vor. Die Arbeitskosten sollen sinken, betriebliche und private Vorsorge Pflicht werden."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/cdu-arbeitnehmerfluegel-appelliert-mit-eigenem-rentenkonzept-an-merz/100219002.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T12:55:46.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/video/politik/energie-oellieferung-durch-druschba-pipeline-nach-ungarn-wieder-aufgenommen/100219115.html",
+        "title": "Energie: Öllieferung durch Druschba-Pipeline nach Ungarn wieder aufgenommen",
+        "summary": "Die Ukraine nimmt die Öllieferungen durch die im Januar beschädigte Pipeline nach Ungarn und in die Slowakei wieder auf. Der ukrainisches Ölkonzern MOL hat die Reparaturarbeiten für beendet erklärt. Die Lieferungen sollen noch am Mittwoch anlaufen.",
+        "paragraphs": [
+          "Die Ukraine nimmt die Öllieferungen durch die im Januar beschädigte Pipeline nach Ungarn und in die Slowakei wieder auf. Der ukrainisches Ölkonzern MOL hat die Reparaturarbeiten für beendet erklärt. Die Lieferungen sollen noch am Mittwoch anlaufen."
+        ],
+        "link": "https://www.handelsblatt.com/video/politik/energie-oellieferung-durch-druschba-pipeline-nach-ungarn-wieder-aufgenommen/100219115.html",
+        "category": "Politik",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T12:55:45.000Z"
+      },
+      {
+        "id": "52f8ba14-918f-4385-8d77-1867e219bc3d",
+        "title": "Konjunktur: Bundesregierung rechnet mit wenig Wirtschaftswachstum",
+        "summary": "Die deutsche Wirtschaft kommt nicht in Schwung. Nach zwei Rezessionsjahren und einem Miniwachstum 2025 verkündet Wirtschaftsministerin Reiche nun erneut ernüchternde Zahlen. Schuld ist auch der Irankrieg.",
+        "paragraphs": [
+          "Die deutsche Wirtschaft kommt nicht in Schwung. Nach zwei Rezessionsjahren und einem Miniwachstum 2025 verkündet Wirtschaftsministerin Reiche nun erneut ernüchternde Zahlen. Schuld ist auch der Irankrieg."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/konjunktur-bundesregierung-rechnet-mit-wenig-wirtschaftswachstum-a-52f8ba14-918f-4385-8d77-1867e219bc3d#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-22T12:53:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/arbeitsrecht-arbeitsunfaehig-im-homeoffice-wann-bin-ich-krank-genug/100219117.html",
+        "title": "Arbeitsrecht: Arbeitsunfähig im Homeoffice: Wann bin ich krank genug?",
+        "summary": "Schmerzen, Fieber und trotzdem ran an den Laptop: Wer im Homeoffice krank ist, fühlt sich oft verpflichtet weiterzuarbeiten. Was gilt rechtlich?",
+        "paragraphs": [
+          "Schmerzen, Fieber und trotzdem ran an den Laptop: Wer im Homeoffice krank ist, fühlt sich oft verpflichtet weiterzuarbeiten. Was gilt rechtlich?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/arbeitsrecht-arbeitsunfaehig-im-homeoffice-wann-bin-ich-krank-genug/100219117.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T12:51:15.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/federal-reserve-experten-zweifeln-an-warshs-bekenntnis-zur-unabhaengigkeit/100219005.html",
+        "title": "Anhörung: Experten zweifeln an Warshs Bekenntnis zur Fed-Unabhängigkeit – die Märkte reagieren gelassener",
+        "summary": "Der designierte US-Notenbankchef Kevin Warsh kündigt einen „Systemwechsel in der Geldpolitik“ an. Seine rechtzeitige Ernennung wackelt aber aus einem ganz anderen Grund.",
+        "paragraphs": [
+          "Der designierte US-Notenbankchef Kevin Warsh kündigt einen „Systemwechsel in der Geldpolitik“ an. Seine rechtzeitige Ernennung wackelt aber aus einem ganz anderen Grund."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/federal-reserve-experten-zweifeln-an-warshs-bekenntnis-zur-unabhaengigkeit/100219005.html",
+        "category": "Geldpolitik",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T12:46:26.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/steuerberatung-warum-die-koalition-finanzinvestoren-aus-kanzleien-ausschliesst/100218983.html",
+        "title": "Steuerberatung: „Eindeutige Grenze gegen Renditedruck“: Warum die Koalition Finanzinvestoren aus Steuerkanzleien ausschließt",
+        "summary": "Union und SPD wollen die Beteiligung von Finanzinvestoren an Steuerberatungen künftig komplett verbieten. Die Einigung im Finanzausschuss bringt Kanzleien teilweise in große Bedrängnis.",
+        "paragraphs": [
+          "Union und SPD wollen die Beteiligung von Finanzinvestoren an Steuerberatungen künftig komplett verbieten. Die Einigung im Finanzausschuss bringt Kanzleien teilweise in große Bedrängnis."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/steuerberatung-warum-die-koalition-finanzinvestoren-aus-kanzleien-ausschliesst/100218983.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T12:44:03.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-im-newsblog-boeing-startet-mit-ueberraschend-wenig-verlust-ins-jahr/24098412.html",
+        "title": "+++ Geschäftszahlen +++: Boeing startet mit überraschend wenig Verlust ins Jahr",
+        "summary": "K+S überrascht mit Ergebnissprung – Jahresziele erhöht +++ Tui senkt Prognose für 2026 wegen Belastungen durch Iran-Krieg +++ Höhere Preise stützen AkzoNobel +++ Der Newsblog.",
+        "paragraphs": [
+          "K+S überrascht mit Ergebnissprung – Jahresziele erhöht +++ Tui senkt Prognose für 2026 wegen Belastungen durch Iran-Krieg +++ Höhere Preise stützen AkzoNobel +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-im-newsblog-boeing-startet-mit-ueberraschend-wenig-verlust-ins-jahr/24098412.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T12:38:45.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-verlaengert-waffenruhe-keine-entspannung-in-sicht/100219113.html",
+        "title": "Iran-Krieg: Trump verlängert Waffenruhe - Keine Entspannung in Sicht",
+        "summary": "Die USA haben einseitig die Waffenruhe im Iran-Krieg auf unbestimmte Zeit verlängert. Der Iran reagiert bisher skeptisch. Washington glaubt, am längeren Hebel zu sitzen.",
+        "paragraphs": [
+          "Die USA haben einseitig die Waffenruhe im Iran-Krieg auf unbestimmte Zeit verlängert. Der Iran reagiert bisher skeptisch. Washington glaubt, am längeren Hebel zu sitzen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-verlaengert-waffenruhe-keine-entspannung-in-sicht/100219113.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T12:37:34.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/werkzeug-fuer-ermittler-speicherung-von-ip-adressen-jetzt-ist-der-bundestag-gefragt/100218929.html",
+        "title": "Werkzeug für Ermittler: Speicherung von IP-Adressen: Jetzt ist der Bundestag gefragt",
+        "summary": "Kindesmissbrauch, Online-Betrug, Terror: Ermittler hoffen auf mehr Aufklärung durch eine neue Speicherpflicht. Dobrindt und Hubig haben lange, aber geräuschlos um das Vorhaben gerungen.",
+        "paragraphs": [
+          "Kindesmissbrauch, Online-Betrug, Terror: Ermittler hoffen auf mehr Aufklärung durch eine neue Speicherpflicht. Dobrindt und Hubig haben lange, aber geräuschlos um das Vorhaben gerungen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/werkzeug-fuer-ermittler-speicherung-von-ip-adressen-jetzt-ist-der-bundestag-gefragt/100218929.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T12:35:34.000Z"
+      },
+      {
+        "id": "d51de76b-4103-4d80-a8cc-ea40b298b5ec",
+        "title": "Deutsche Bahn schickt nach tödlichem Angriff testweise zwei Zugbegleiter in Regionalbahnen",
+        "summary": "Anfang Februar starb der Zugbegleiter Serkan Çalar nach einer Attacke eines Fahrgasts in einem Regionalzug. Die Deutsche Bahn setzt nun auf bestimmten Strecken zwei Mitarbeiter in den Bahnen ein.",
+        "paragraphs": [
+          "Anfang Februar starb der Zugbegleiter Serkan Çalar nach einer Attacke eines Fahrgasts in einem Regionalzug. Die Deutsche Bahn setzt nun auf bestimmten Strecken zwei Mitarbeiter in den Bahnen ein."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bahn-schickt-nach-toedlichem-angriff-testweise-zwei-zugbegleiter-in-regionalbahnen-a-d51de76b-4103-4d80-a8cc-ea40b298b5ec#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-22T12:35:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/panama-papers-ex-chef-von-skandalkanzlei-kommt-mit-bewaehrungsstrafe-davon/100219007.html",
         "title": "Panama Papers: Beihilfe zur Steuerhinterziehung: Ex-Chef von Skandalkanzlei kommt mit Bewährungsstrafe davon",
@@ -1081,126 +1195,6 @@
         "category": "Management",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-22T12:06:00.000Z"
-      },
-      {
-        "id": "8bbdd176-b146-41cf-a335-205403e6bd69",
-        "title": "Russland kappt kasachische Öllieferungen nach Deutschland",
-        "summary": "Die Druschba-Pipeline soll schon bald kein Öl aus Kasachstan mehr nach Deutschland leiten – so hat es Rosneft Deutschland der Bundesnetzagentur mitgeteilt. Eine Bestätigung aus Moskau steht noch aus.",
-        "paragraphs": [
-          "Die Druschba-Pipeline soll schon bald kein Öl aus Kasachstan mehr nach Deutschland leiten – so hat es Rosneft Deutschland der Bundesnetzagentur mitgeteilt. Eine Bestätigung aus Moskau steht noch aus."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/russland-kappt-kasachische-oellieferungen-nach-deutschland-a-8bbdd176-b146-41cf-a335-205403e6bd69#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-22T12:02:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/elektroautos-markt-einbruch-in-china-trifft-deutsche-autohersteller-massiv/100217441.html",
-        "title": "Autoindustrie: Einbruch auf E-Auto-Markt in China trifft deutsche Hersteller besonders hart – Durchhalteparolen vor Peking-Messe",
-        "summary": "Der Anteil deutscher Autohersteller am Elektromarkt in China erreicht einen Tiefpunkt. Experten sehen kein Ende der Negativspirale. Eine japanische Marke zeigt, dass es auch anders geht.",
-        "paragraphs": [
-          "Der Anteil deutscher Autohersteller am Elektromarkt in China erreicht einen Tiefpunkt. Experten sehen kein Ende der Negativspirale. Eine japanische Marke zeigt, dass es auch anders geht."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/elektroautos-markt-einbruch-in-china-trifft-deutsche-autohersteller-massiv/100217441.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T12:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/altersvorsorge-rente-als-basisabsicherung-ostdeutsche-politiker-warnen/100219083.html",
-        "title": "Altersvorsorge: Rente als „Basisabsicherung“: Ostdeutsche Politiker warnen",
-        "summary": "Bundeskanzler Friedrich Merz hat mit seiner Ansage zur Altersvorsorge einige Unruhe ausgelöst. Vor allem in Ostdeutschland ist zusätzliches Sparen seltener.",
-        "paragraphs": [
-          "Bundeskanzler Friedrich Merz hat mit seiner Ansage zur Altersvorsorge einige Unruhe ausgelöst. Vor allem in Ostdeutschland ist zusätzliches Sparen seltener."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/altersvorsorge-rente-als-basisabsicherung-ostdeutsche-politiker-warnen/100219083.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T11:57:17.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/eu-orban-gibt-blockade-von-ukraine-hilfe-und-sanktionen-auf/100219095.html",
-        "title": "EU: Orban beendet Blockade – EU gibt Milliarden-Hilfspaket für Ukraine frei",
-        "summary": "Der Weg für neue Ukraine-Hilfen und Russland-Sanktionen ist nach einer langen Hängepartie frei. Doch auch Ungarns scheidender Regierungschef kann sich noch einmal als Sieger fühlen.",
-        "paragraphs": [
-          "Der Weg für neue Ukraine-Hilfen und Russland-Sanktionen ist nach einer langen Hängepartie frei. Doch auch Ungarns scheidender Regierungschef kann sich noch einmal als Sieger fühlen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/eu-orban-gibt-blockade-von-ukraine-hilfe-und-sanktionen-auf/100219095.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T11:53:42.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/smart-concept-2-so-bringt-smart-den-zweisitzer-zurueck/100219093.html",
-        "title": "Smart Concept #2: So bringt Smart den Zweisitzer zurück",
-        "summary": "Der kleine Smart ist bald wieder da. In Peking zeigt die Marke einen Ausblick auf den Nachfolger. Dieses Mal gibt es aber nur die elektrische Version. Was bislang bekannt ist.",
-        "paragraphs": [
-          "Der kleine Smart ist bald wieder da. In Peking zeigt die Marke einen Ausblick auf den Nachfolger. Dieses Mal gibt es aber nur die elektrische Version. Was bislang bekannt ist."
-        ],
-        "link": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/smart-concept-2-so-bringt-smart-den-zweisitzer-zurueck/100219093.html",
-        "category": "Elektromobilität",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T11:46:09.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/mehr-als-im-eu-schnitt-jeder-vierte-arbeitet-zeitweise-von-zu-hause-aus/100218987.html",
-        "title": "Mehr als im EU-Schnitt: Jeder Vierte arbeitet zeitweise von zu Hause aus",
-        "summary": "IT, Beratung, Verwaltung: In manchen Branchen ist Homeoffice längst Alltag. Warum gerade 35- bis 44-Jährige besonders oft vom heimischen Schreibtisch aus arbeiten.",
-        "paragraphs": [
-          "IT, Beratung, Verwaltung: In manchen Branchen ist Homeoffice längst Alltag. Warum gerade 35- bis 44-Jährige besonders oft vom heimischen Schreibtisch aus arbeiten."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/mehr-als-im-eu-schnitt-jeder-vierte-arbeitet-zeitweise-von-zu-hause-aus/100218987.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T11:45:25.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-rheinmetall-liefert-bundeswehr-kamikaze-drohnen/100219091.html",
-        "title": "Rüstung: Rheinmetall liefert Bundeswehr Kamikaze-Drohnen",
-        "summary": "Der Rüstungskonzern hat von der Bundeswehr einen Großauftrag im Milliardenbereich erhalten. Mit der Drohne soll die Bundeswehr eigene Kräfte schützen und kritische Ziele schnell bekämpfen.",
-        "paragraphs": [
-          "Der Rüstungskonzern hat von der Bundeswehr einen Großauftrag im Milliardenbereich erhalten. Mit der Drohne soll die Bundeswehr eigene Kräfte schützen und kritische Ziele schnell bekämpfen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-rheinmetall-liefert-bundeswehr-kamikaze-drohnen/100219091.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T11:44:29.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-bei-diesen-aktien-werden-kursverluste-zum-kaufsignal/100213528.html",
-        "title": "Geldanlage: Bei diesen Aktien werden Kursverluste zum Kaufsignal",
-        "summary": "Eine exklusive Handelsblatt-Auswertung zeigt Aktien mit großer Erholungsstärke. Doch nicht jeder Einstieg lohnt sich jetzt – entscheidend sind auch Zinsentwicklungen und Energiepreise.",
-        "paragraphs": [
-          "Eine exklusive Handelsblatt-Auswertung zeigt Aktien mit großer Erholungsstärke. Doch nicht jeder Einstieg lohnt sich jetzt – entscheidend sind auch Zinsentwicklungen und Energiepreise."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-bei-diesen-aktien-werden-kursverluste-zum-kaufsignal/100213528.html",
-        "category": "Trends",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T11:37:04.000Z"
-      },
-      {
-        "id": "6232bf28-d0f5-44d4-883d-fae67cc05ef4",
-        "title": "Energiepolitik der Bundesregierung: Was wirklich hinter dem Streit zwischen Katherina Reiche und Lars Klingbeil steckt – Kolumne",
-        "summary": "Die Große Koalition findet keine Linie in der Energiepolitik, weil Lobbyisten zu viel Einfluss haben. Damit schaden Union und SPD nicht nur dem Land, sondern auch sich selbst.",
-        "paragraphs": [
-          "Die Große Koalition findet keine Linie in der Energiepolitik, weil Lobbyisten zu viel Einfluss haben. Damit schaden Union und SPD nicht nur dem Land, sondern auch sich selbst."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/energiepolitik-der-bundesregierung-was-wirklich-hinter-dem-streit-zwischen-katherina-reiche-und-lars-klingbeil-steckt-kolumne-a-6232bf28-d0f5-44d4-883d-fae67cc05ef4#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-22T11:30:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/oel-kasachstan-moskau-koennte-oeltransport-nach-schwedt-stoppen/100219057.html",
-        "title": "Öl: Kasachstan: Moskau könnte Öltransport nach Schwedt stoppen",
-        "summary": "Öl aus Kasachstan fließt durch Russland nach Deutschland. Zu einem kolportierten Transitstopp durch Moskau äußert sich jetzt Kasachstans Energieminister - und spricht von inoffiziellen Quellen.",
-        "paragraphs": [
-          "Öl aus Kasachstan fließt durch Russland nach Deutschland. Zu einem kolportierten Transitstopp durch Moskau äußert sich jetzt Kasachstans Energieminister - und spricht von inoffiziellen Quellen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/oel-kasachstan-moskau-koennte-oeltransport-nach-schwedt-stoppen/100219057.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T11:29:56.000Z"
       }
     ]
   }
