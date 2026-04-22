@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-22T09:46:53.163Z",
+  "updatedAt": "2026-04-22T10:18:47.802Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "89746ea5-d5cd-4c4d-9286-cc0c94e4e6e6",
+        "title": "Angriffe auf zwei Schiffe in der Straße von Hormus",
+        "summary": "In der Straße von Hormus sind erneut zwei Schiffe beschossen worden. Eines wurde laut britischer Seehandelsaufsicht bei dem Angriff der iranischen Revolutionsgarde schwer beschädigt. Über den zweiten Vorfall bislang wenig bekannt.",
+        "paragraphs": [
+          "In der Straße von Hormus sind erneut zwei Schiffe beschossen worden. Eines wurde laut britischer Seehandelsaufsicht bei dem Angriff der iranischen Revolutionsgarde schwer beschädigt. Über den zweiten Vorfall bislang wenig bekannt."
+        ],
+        "link": "https://www.tagesschau.de/ausland/asien/angriffe-strasse-hormus-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-22T10:03:33.000Z"
+      },
       {
         "id": "1d564ef1-31be-4f34-a823-cdf5ed7b7ab2",
         "title": "Nahost-Liveblog: ++ Iranischer Angriff auf Frachter gemeldet ++",
@@ -12,7 +24,7 @@
         "link": "https://www.tagesschau.de/newsticker/liveblog-iran-mittwoch-112.html",
         "category": null,
         "source": "Tagesschau",
-        "publishedAt": "2026-04-22T09:16:50.000Z"
+        "publishedAt": "2026-04-22T09:59:04.000Z"
       },
       {
         "id": "b792c23d-feda-4456-855b-67a3af57faa3",
@@ -229,18 +241,6 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-21T16:47:59.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/So-hoch-sind-private-und-betriebliche-Renten-bisher-id30738831.html",
-        "title": "Merz fordert mehr Zusatzvorsorge: So hoch sind private und betriebliche Renten bisher",
-        "summary": "Die wenigsten Rentner erhalten eine private Zusatzrente. Betriebsrenten sind bereits eine tragende Säule im Alter, bisher aber nur in Westdeutschland. Die zusätzliche Vorsorge neben der gesetzlichen Rentenversicherung nimmt außerdem wieder ab. Dabei handelt es sich ohnehin oft um geringe Beträge.",
-        "paragraphs": [
-          "Die wenigsten Rentner erhalten eine private Zusatzrente. Betriebsrenten sind bereits eine tragende Säule im Alter, bisher aber nur in Westdeutschland. Die zusätzliche Vorsorge neben der gesetzlichen Rentenversicherung nimmt außerdem wieder ab. Dabei handelt es sich ohnehin oft um geringe Beträge."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/So-hoch-sind-private-und-betriebliche-Renten-bisher-id30738831.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-04-21T16:40:35.000Z"
       }
     ],
     "politik": [
@@ -251,10 +251,10 @@
         "paragraphs": [
           "Die Pariser Staatsanwältin ermittelt gegen X auch, weil dessen Algorithmen offenbar rechtsextreme Inhalte bevorzugen. In Frankreich wird sie „Sheriff im digitalen Wilden Westen“ genannt."
         ],
-        "link": "https://www.sueddeutsche.de/politik/frankreich-cyberkriminalitaet-johanna-brousse-elon-musk-x-li.3471293",
+        "link": "https://www.sueddeutsche.de/politik/frankreich-johanna-brousse-elon-musk-x-cyberkriminalitaet-li.3471293",
         "category": "Frankreich",
         "source": "Sueddeutsche",
-        "publishedAt": "2026-04-22T09:33:44.000Z"
+        "publishedAt": "2026-04-22T09:43:19.000Z"
       },
       {
         "id": "li.3465745",
@@ -330,10 +330,10 @@
       },
       {
         "id": "li.3467711",
-        "title": "Terrorismus: Die vielen Namen der Islamisten",
-        "summary": "Dokumente aus dem Inneren des „Islamischen Staats“ helfen deutschen Ermittlern dabei, untergetauchte Terroristen zu finden. Der Fall des mutmaßlichen Attentäters von Bielefeld zeigt, wie kompliziert das sein kann.",
+        "title": "Terrorismus-Ermittlungen: Die vielen Namen der Islamisten",
+        "summary": "Dokumente aus dem Inneren des „Islamischen Staats“ helfen dem Bundeskriminalamt dabei, untergetauchte Terroristen zu finden. Der Fall des mutmaßlichen Attentäters von Bielefeld zeigt, wie kompliziert das sein kann.",
         "paragraphs": [
-          "Dokumente aus dem Inneren des „Islamischen Staats“ helfen deutschen Ermittlern dabei, untergetauchte Terroristen zu finden. Der Fall des mutmaßlichen Attentäters von Bielefeld zeigt, wie kompliziert das sein kann."
+          "Dokumente aus dem Inneren des „Islamischen Staats“ helfen dem Bundeskriminalamt dabei, untergetauchte Terroristen zu finden. Der Fall des mutmaßlichen Attentäters von Bielefeld zeigt, wie kompliziert das sein kann."
         ],
         "link": "https://www.sueddeutsche.de/politik/terror-anschlag-bielefeld-taeter-bka-listen-is-li.3467711",
         "category": "Terrorismus",
@@ -485,8 +485,68 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/draft-drama-voraus-zehn-gewagte-prognosen-fuer-die-erste-runde-1212583/artikel#omrss",
+        "title": "Draft-Drama voraus? Zehn gewagte Prognosen für die erste Runde",
+        "summary": "Ein Tag vor dem Start des NFL Drafts deutet vieles darauf hin, dass die erste Runde einige Überraschungen bereithalten könnte. Einige Trends zeichnen sich ab, andere Prognosen wirken auf den ersten Blick gewagt. Doch gerade in einem Draft, der als weniger tief gilt, können sich Dynamiken schnell verändern. Hier sind zehn mutige Prognosen für die erste Runde des NFL Draft 2026.",
+        "paragraphs": [
+          "Ein Tag vor dem Start des NFL Drafts deutet vieles darauf hin, dass die erste Runde einige Überraschungen bereithalten könnte. Einige Trends zeichnen sich ab, andere Prognosen wirken auf den ersten Blick gewagt. Doch gerade in einem Draft, der als weniger tief gilt, können sich Dynamiken schnell verändern. Hier sind zehn mutige Prognosen für die erste Runde des NFL Draft 2026."
+        ],
+        "link": "https://www.kicker.de/draft-drama-voraus-zehn-gewagte-prognosen-fuer-die-erste-runde-1212583/artikel#omrss",
+        "category": "Football",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T10:11:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kleindiensts-wm-traum-lebt-und-wenn-die-chance-nur-ein-prozent-betraegt-1212587/artikel#omrss",
+        "title": "Kleindiensts WM-Traum lebt: \"Und wenn die Chance nur ein Prozent beträgt\"",
+        "summary": "Tim Kleindienst arbeitet an seinem Comeback im Trikot von Borussia Mönchengladbach - und hofft weiterhin auf einen Anruf von Bundestrainer Julian Nagelsmann. Trotz langer Verletzungspause sei bis zum WM-Start noch genügend Zeit, um in Form zu kommen, argumentiert der Stürmer.",
+        "paragraphs": [
+          "Tim Kleindienst arbeitet an seinem Comeback im Trikot von Borussia Mönchengladbach - und hofft weiterhin auf einen Anruf von Bundestrainer Julian Nagelsmann. Trotz langer Verletzungspause sei bis zum WM-Start noch genügend Zeit, um in Form zu kommen, argumentiert der Stürmer."
+        ],
+        "link": "https://www.kicker.de/kleindiensts-wm-traum-lebt-und-wenn-die-chance-nur-ein-prozent-betraegt-1212587/artikel#omrss",
+        "category": "Bor. Mönchengladbach",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T10:03:42.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/warriors-endgueltig-am-scheideweg-war-es-das-jetzt-1212418/artikel#omrss",
+        "title": "Warriors endgültig am Scheideweg: War es das jetzt?",
+        "summary": "Seit Jahren reden wir über das Ende der Warriors-Dynastie. Selbst massive personelle Wechsel vermittelten in den vergangenen Jahren jedoch nicht das Gefühl, dass das letzte Kapitel geschrieben sei. Nach dem Play-In-Aus ist das nun anders.",
+        "paragraphs": [
+          "Seit Jahren reden wir über das Ende der Warriors-Dynastie. Selbst massive personelle Wechsel vermittelten in den vergangenen Jahren jedoch nicht das Gefühl, dass das letzte Kapitel geschrieben sei. Nach dem Play-In-Aus ist das nun anders."
+        ],
+        "link": "https://www.kicker.de/warriors-endgueltig-am-scheideweg-war-es-das-jetzt-1212418/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T09:53:13.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/anspruch-unterstrichen-stamford-bridge-wird-heimat-der-chelsea-frauen-1212570/artikel#omrss",
+        "title": "Anspruch unterstrichen: Stamford Bridge wird Heimat der Chelsea-Frauen",
+        "summary": "Die Frauen des FC Chelsea bekommen für ihre Heimspiele einen würdigen Rahmen, die Partien des amtierenden Meisters werden künftig an der Stamford Bridge ausgetragen.",
+        "paragraphs": [
+          "Die Frauen des FC Chelsea bekommen für ihre Heimspiele einen würdigen Rahmen, die Partien des amtierenden Meisters werden künftig an der Stamford Bridge ausgetragen."
+        ],
+        "link": "https://www.kicker.de/anspruch-unterstrichen-stamford-bridge-wird-heimat-der-chelsea-frauen-1212570/artikel#omrss",
+        "category": "Bompastor",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T09:40:40.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/eine-echte-big-show-trotz-kleinerer-pannen-1212374/artikel#omrss",
+        "title": "Eine echte \"Big Show\" - trotz kleinerer Pannen",
+        "summary": "Längst vorbei schienen die großen Zeiten des Mustafa Cankal. Beim VBL Grand Final zeigte der Hannoveraner aber noch mal, warum er einst eNationalspieler war. Geht die \"Big Show\" im Mai weiter?",
+        "paragraphs": [
+          "Längst vorbei schienen die großen Zeiten des Mustafa Cankal. Beim VBL Grand Final zeigte der Hannoveraner aber noch mal, warum er einst eNationalspieler war. Geht die \"Big Show\" im Mai weiter?"
+        ],
+        "link": "https://www.kicker.de/eine-echte-big-show-trotz-kleinerer-pannen-1212374/artikel#omrss",
+        "category": "Hannover 96 eSports",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T09:36:05.000Z"
+      },
+      {
         "id": "li.3472074",
-        "title": "Chelsea in der Premier League: Die nächste Hand-Debatte um Cucurella",
+        "title": "Chelsea in der Premier League: Cucurella springt der Ball an den Arm – doch nichts passiert",
         "summary": "Erinnerungen an die EM in Deutschland: Beim 0:3 gegen Brighton bekommt der Chelsea-Profi den Ball an den Oberarm – doch der Elfmeterpfiff bleibt erneut aus.",
         "paragraphs": [
           "Erinnerungen an die EM in Deutschland: Beim 0:3 gegen Brighton bekommt der Chelsea-Profi den Ball an den Oberarm – doch der Elfmeterpfiff bleibt erneut aus."
@@ -593,18 +653,6 @@
         "publishedAt": "2026-04-22T08:24:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/knausriger-neuer-besitzer-blazers-sparen-sogar-bei-den-hotelkosten-1212563/artikel#omrss",
-        "title": "Knausriger neuer Besitzer? Blazers sparen sogar bei den Hotelkosten",
-        "summary": "Trotz des Sieges in Spiel 2 brodelt es bei den Portland Trail Blazers hinter den Kulissen. Der neue Besitzer Tom Dundon hat sich mit seinen Sparmaßnahmen nur bedingt beliebt gemacht. Diese betreffen womöglich auch Coach Tiago Splitter.",
-        "paragraphs": [
-          "Trotz des Sieges in Spiel 2 brodelt es bei den Portland Trail Blazers hinter den Kulissen. Der neue Besitzer Tom Dundon hat sich mit seinen Sparmaßnahmen nur bedingt beliebt gemacht. Diese betreffen womöglich auch Coach Tiago Splitter."
-        ],
-        "link": "https://www.kicker.de/knausriger-neuer-besitzer-blazers-sparen-sogar-bei-den-hotelkosten-1212563/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T08:21:53.000Z"
-      },
-      {
         "id": "https://www.kicker.de/erstes-endspiel-seit-2020-wie-bayern-auf-drei-lange-serien-ohne-pokalfinale-antwortete-1212440/artikel#omrss",
         "title": "Erstes Endspiel seit 2020? Wie Bayern auf drei lange Serien ohne Pokalfinale antwortete",
         "summary": "Am Mittwochabend jagt der FC Bayern sein erstes Pokalfinale seit 2020. Vor der Jahrtausendwende hatten die Münchner noch längere Dürrephasen - und antworteten auf ihre Weise darauf.",
@@ -675,54 +723,6 @@
         "category": "FC Chelsea",
         "source": "Kicker",
         "publishedAt": "2026-04-22T07:05:04.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/buffalo-gegen-boston-2026-nhl-playoffs-5199132/spielbericht#omrss",
-        "title": "Sturms Bruins sowie Peterkas Mammoth gleichen Playoff-Serien aus",
-        "summary": "Marco Sturm und die Boston Bruins melden sich in den NHL Playoffs zurück und gewinnen das zweite Spiel bei den Buffalo Sabres. Auch John-Jason Peterka gleicht mit den Utah Mammoth aus.",
-        "paragraphs": [
-          "Marco Sturm und die Boston Bruins melden sich in den NHL Playoffs zurück und gewinnen das zweite Spiel bei den Buffalo Sabres. Auch John-Jason Peterka gleicht mit den Utah Mammoth aus."
-        ],
-        "link": "https://www.kicker.de/buffalo-gegen-boston-2026-nhl-playoffs-5199132/spielbericht#omrss",
-        "category": "Boston Bruins",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T06:47:16.000Z"
-      },
-      {
-        "id": "3ead105a-a195-4472-ac24-290603dd14c8",
-        "title": "NBA-Playoffs: Victor Wembanyama erleidet Gehirnerschütterung nach Sturz",
-        "summary": "Die San Antonio Spurs bangen in den NBA-Playoffs um ihren Superstar: Victor Wembanyama musste nach einem Sturz auf den Kopf das Feld verlassen. Währenddessen sorgen die Los Angeles Lakers um LeBron James für Furore.",
-        "paragraphs": [
-          "Die San Antonio Spurs bangen in den NBA-Playoffs um ihren Superstar: Victor Wembanyama musste nach einem Sturz auf den Kopf das Feld verlassen. Währenddessen sorgen die Los Angeles Lakers um LeBron James für Furore."
-        ],
-        "link": "https://www.spiegel.de/sport/basketball/nba-victor-wembanyama-erleidet-gehirnerschuetterung-nach-sturz-a-3ead105a-a195-4472-ac24-290603dd14c8#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-22T06:16:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nowitzki-lacht-ueber-teleprompter-stress-habe-zu-schwitzen-angefangen-1212523/video#omrss",
-        "title": "Nowitzki lacht über Teleprompter-Stress: \"Habe zu schwitzen angefangen\"",
-        "summary": "Dirk Nowitzki sprach nach seiner Aufnahme in die Hall of Fame der FIBA über seine Rede und darüber, was ihm diese Ehre bedeutet.",
-        "paragraphs": [
-          "Dirk Nowitzki sprach nach seiner Aufnahme in die Hall of Fame der FIBA über seine Rede und darüber, was ihm diese Ehre bedeutet."
-        ],
-        "link": "https://www.kicker.de/nowitzki-lacht-ueber-teleprompter-stress-habe-zu-schwitzen-angefangen-1212523/video#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T05:54:21.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/pulisic-fuer-wm-zuversichtlich-usa-so-stark-wie-nie-1212491/video#omrss",
-        "title": "Pulisic für WM zuversichtlich: USA so stark wie nie",
-        "summary": "Christian Pulisic sieht einen starken Kader der US-Nationalmannschaft. Der Ex-Dortmunder blendet den Trubel um ihn als Kopf dieser Mannschaft dabei eher aus.",
-        "paragraphs": [
-          "Christian Pulisic sieht einen starken Kader der US-Nationalmannschaft. Der Ex-Dortmunder blendet den Trubel um ihn als Kopf dieser Mannschaft dabei eher aus."
-        ],
-        "link": "https://www.kicker.de/pulisic-fuer-wm-zuversichtlich-usa-so-stark-wie-nie-1212491/video#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T05:23:32.000Z"
       }
     ],
     "edv": [
@@ -739,16 +739,16 @@
         "publishedAt": "2026-04-22T05:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/271-Firefox-Luecken-dank-Mythos-KI-geschlossen-Durchbruch-fuer-IT-Sicherheit-11267401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "271 Firefox-Lücken dank Mythos-KI geschlossen: Durchbruch für IT-Sicherheit?",
-        "summary": "Anthropics „gefährliche“ KI könnte Verteidigern der IT-Sicherheit den entscheidenden Vorteil liefern. Das meint zumindest das Firefox-Team, das Zugriff hat.",
+        "id": "https://www.heise.de/news/LLMs-im-Softwareengineering-MCP-heise-Webinar-am-30-04-2026-11264925.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: LLMs im Softwareengineering & MCP: heise-Webinar am 30.04.2026",
+        "summary": "heise-Webinar am 30.04.2026: LLMs im Softwareengineering und Model Context Protocol mit Spring AI – praxisnah für Architekten & Entwickler",
         "paragraphs": [
-          "Anthropics „gefährliche“ KI könnte Verteidigern der IT-Sicherheit den entscheidenden Vorteil liefern. Das meint zumindest das Firefox-Team, das Zugriff hat."
+          "heise-Webinar am 30.04.2026: LLMs im Softwareengineering und Model Context Protocol mit Spring AI – praxisnah für Architekten & Entwickler"
         ],
-        "link": "https://www.heise.de/news/271-Firefox-Luecken-dank-Mythos-KI-geschlossen-Durchbruch-fuer-IT-Sicherheit-11267401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/LLMs-im-Softwareengineering-MCP-heise-Webinar-am-30-04-2026-11264925.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T09:35:00.000Z"
+        "publishedAt": "2026-04-22T10:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Apples-MacBook-Neo-ueberrollt-die-Konkurrenz-11264288.html",
@@ -763,16 +763,16 @@
         "publishedAt": "2026-04-22T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/ChatGPT-erhaelt-neue-Bild-KI-die-mitdenkt-und-im-Web-recherchiert-11266931.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "ChatGPT erhält neue Bild-KI, die mitdenkt und im Web recherchiert",
-        "summary": "OpenAIs neues Bildmodell „ChatGPT Images 2.0“ plant und strukturiert visuelle Aufgaben, nutzt die Websuche und erstellt auf Wunsch zusammenhängende Bildserien.",
+        "id": "https://www.heise.de/news/271-Firefox-Luecken-dank-Mythos-KI-geschlossen-Durchbruch-fuer-IT-Sicherheit-11267401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "271 Firefox-Lücken dank Mythos-KI geschlossen: Durchbruch für IT-Sicherheit?",
+        "summary": "Anthropics „gefährliche“ KI könnte Verteidigern der IT-Sicherheit den entscheidenden Vorteil liefern. Das meint zumindest das Firefox-Team, das Zugriff hat.",
         "paragraphs": [
-          "OpenAIs neues Bildmodell „ChatGPT Images 2.0“ plant und strukturiert visuelle Aufgaben, nutzt die Websuche und erstellt auf Wunsch zusammenhängende Bildserien."
+          "Anthropics „gefährliche“ KI könnte Verteidigern der IT-Sicherheit den entscheidenden Vorteil liefern. Das meint zumindest das Firefox-Team, das Zugriff hat."
         ],
-        "link": "https://www.heise.de/news/ChatGPT-erhaelt-neue-Bild-KI-die-mitdenkt-und-im-Web-recherchiert-11266931.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/271-Firefox-Luecken-dank-Mythos-KI-geschlossen-Durchbruch-fuer-IT-Sicherheit-11267401.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T09:30:00.000Z"
+        "publishedAt": "2026-04-22T09:35:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Framework-Laptop-13-Pro-verlaengert-Akkulaufzeit-erheblich-11266002.html",
@@ -787,16 +787,16 @@
         "publishedAt": "2026-04-21T18:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/YouTubes-kostenloses-Identitaets-Tool-soll-Prominente-vor-Deepfakes-schuetzen-11267462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "YouTubes kostenloses Identitäts-Tool soll Prominente vor Deepfakes schützen",
-        "summary": "YouTube stellt seine Deepfake-Erkennung breiter zur Verfügung und reagiert damit auf die zunehmende Verbreitung manipulierter Videos mit bekannten Gesichtern.",
+        "id": "https://www.heise.de/news/ChatGPT-erhaelt-neue-Bild-KI-die-mitdenkt-und-im-Web-recherchiert-11266931.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "ChatGPT erhält neue Bild-KI, die mitdenkt und im Web recherchiert",
+        "summary": "OpenAIs neues Bildmodell „ChatGPT Images 2.0“ plant und strukturiert visuelle Aufgaben, nutzt die Websuche und erstellt auf Wunsch zusammenhängende Bildserien.",
         "paragraphs": [
-          "YouTube stellt seine Deepfake-Erkennung breiter zur Verfügung und reagiert damit auf die zunehmende Verbreitung manipulierter Videos mit bekannten Gesichtern."
+          "OpenAIs neues Bildmodell „ChatGPT Images 2.0“ plant und strukturiert visuelle Aufgaben, nutzt die Websuche und erstellt auf Wunsch zusammenhängende Bildserien."
         ],
-        "link": "https://www.heise.de/news/YouTubes-kostenloses-Identitaets-Tool-soll-Prominente-vor-Deepfakes-schuetzen-11267462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/ChatGPT-erhaelt-neue-Bild-KI-die-mitdenkt-und-im-Web-recherchiert-11266931.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T09:21:00.000Z"
+        "publishedAt": "2026-04-22T09:30:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Oppo-Find-X9-Ultra-Neues-Kamera-Flaggschiff-mit-Hasselblad-Kameras-11265886.html",
@@ -811,16 +811,16 @@
         "publishedAt": "2026-04-21T12:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/SpaceX-sichert-sich-Kaufrecht-fuer-KI-Startup-Cursor-11267306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "SpaceX sichert sich Kaufrecht für KI-Startup Cursor",
-        "summary": "SpaceX könnte das KI-Start-up Cursor für 60 Milliarden Dollar übernehmen. Was hinter dem geplanten Deal steckt.",
+        "id": "https://www.heise.de/news/YouTubes-kostenloses-Identitaets-Tool-soll-Prominente-vor-Deepfakes-schuetzen-11267462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "YouTubes kostenloses Identitäts-Tool soll Prominente vor Deepfakes schützen",
+        "summary": "YouTube stellt seine Deepfake-Erkennung breiter zur Verfügung und reagiert damit auf die zunehmende Verbreitung manipulierter Videos mit bekannten Gesichtern.",
         "paragraphs": [
-          "SpaceX könnte das KI-Start-up Cursor für 60 Milliarden Dollar übernehmen. Was hinter dem geplanten Deal steckt."
+          "YouTube stellt seine Deepfake-Erkennung breiter zur Verfügung und reagiert damit auf die zunehmende Verbreitung manipulierter Videos mit bekannten Gesichtern."
         ],
-        "link": "https://www.heise.de/news/SpaceX-sichert-sich-Kaufrecht-fuer-KI-Startup-Cursor-11267306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/YouTubes-kostenloses-Identitaets-Tool-soll-Prominente-vor-Deepfakes-schuetzen-11267462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T09:14:00.000Z"
+        "publishedAt": "2026-04-22T09:21:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/OnePlus-prueft-Zukunft-in-Europa-Mitarbeiter-verlassen-das-Unternehmen-11265245.html",
@@ -835,16 +835,16 @@
         "publishedAt": "2026-04-21T07:19:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Neuer-Apple-Chef-hofft-auf-nahezu-unbegrenztes-Potenzial-durch-KI-11267452.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI: Künftiger Apple-CEO sieht „nahezu unbegrenztes Potenzial“",
-        "summary": "Apple stehe kurz davor, „die Welt erneut zu verändern“, so der künftige CEO John Ternus. Die Führungsspitze des Konzerns ist im Umbruch.",
+        "id": "https://www.heise.de/news/SpaceX-sichert-sich-Kaufrecht-fuer-KI-Startup-Cursor-11267306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "SpaceX sichert sich Kaufrecht für KI-Startup Cursor",
+        "summary": "SpaceX könnte das KI-Start-up Cursor für 60 Milliarden Dollar übernehmen. Was hinter dem geplanten Deal steckt.",
         "paragraphs": [
-          "Apple stehe kurz davor, „die Welt erneut zu verändern“, so der künftige CEO John Ternus. Die Führungsspitze des Konzerns ist im Umbruch."
+          "SpaceX könnte das KI-Start-up Cursor für 60 Milliarden Dollar übernehmen. Was hinter dem geplanten Deal steckt."
         ],
-        "link": "https://www.heise.de/news/Neuer-Apple-Chef-hofft-auf-nahezu-unbegrenztes-Potenzial-durch-KI-11267452.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/SpaceX-sichert-sich-Kaufrecht-fuer-KI-Startup-Cursor-11267306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T09:01:00.000Z"
+        "publishedAt": "2026-04-22T09:14:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Machtwechsel-bei-Apple-Tim-Cook-uebergibt-an-John-Ternus-11265059.html",
@@ -859,16 +859,16 @@
         "publishedAt": "2026-04-20T22:22:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Oracle-sichert-Produktportfolio-mit-481-Sicherheitsupdates-ab-11267083.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Oracle sichert Produktportfolio mit 481 Sicherheitsupdates ab",
-        "summary": "Der Softwarehersteller Oracle schützt unter anderem E-Business Suite, MySQL und VM VirtualBox vor möglichen Attacken.",
+        "id": "https://www.heise.de/news/Neuer-Apple-Chef-hofft-auf-nahezu-unbegrenztes-Potenzial-durch-KI-11267452.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI: Künftiger Apple-CEO sieht „nahezu unbegrenztes Potenzial“",
+        "summary": "Apple stehe kurz davor, „die Welt erneut zu verändern“, so der künftige CEO John Ternus. Die Führungsspitze des Konzerns ist im Umbruch.",
         "paragraphs": [
-          "Der Softwarehersteller Oracle schützt unter anderem E-Business Suite, MySQL und VM VirtualBox vor möglichen Attacken."
+          "Apple stehe kurz davor, „die Welt erneut zu verändern“, so der künftige CEO John Ternus. Die Führungsspitze des Konzerns ist im Umbruch."
         ],
-        "link": "https://www.heise.de/news/Oracle-sichert-Produktportfolio-mit-481-Sicherheitsupdates-ab-11267083.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Neuer-Apple-Chef-hofft-auf-nahezu-unbegrenztes-Potenzial-durch-KI-11267452.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T08:49:00.000Z"
+        "publishedAt": "2026-04-22T09:01:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Google-Fitbit-Air-Neuer-bildschirmloser-Tracker-kommt-bald-11264098.html",
@@ -881,6 +881,18 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-04-20T10:22:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Oracle-sichert-Produktportfolio-mit-481-Sicherheitsupdates-ab-11267083.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Oracle sichert Produktportfolio mit 481 Sicherheitsupdates ab",
+        "summary": "Der Softwarehersteller Oracle schützt unter anderem E-Business Suite, MySQL und VM VirtualBox vor möglichen Attacken.",
+        "paragraphs": [
+          "Der Softwarehersteller Oracle schützt unter anderem E-Business Suite, MySQL und VM VirtualBox vor möglichen Attacken."
+        ],
+        "link": "https://www.heise.de/news/Oracle-sichert-Produktportfolio-mit-481-Sicherheitsupdates-ab-11267083.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-22T08:49:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Mastodon-Foerderung-fuer-Arbeit-an-verschluesselten-Direktnachrichten-und-mehr-11267063.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -953,44 +965,200 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-22T07:37:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/GhostBSD-26-1-FreeBSD-Desktop-mit-XLibre-und-ZFS-Snapshots-11267057.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "GhostBSD 26.1: FreeBSD-Desktop mit XLibre und ZFS-Snapshots",
-        "summary": "GhostBSD 26.1 integriert FreeBSD 15.0p2, setzt auf XLibre und bietet verbesserte Hardware-Unterstützung sowie ZFS-Snapshots.",
-        "paragraphs": [
-          "GhostBSD 26.1 integriert FreeBSD 15.0p2, setzt auf XLibre und bietet verbesserte Hardware-Unterstützung sowie ZFS-Snapshots."
-        ],
-        "link": "https://www.heise.de/news/GhostBSD-26-1-FreeBSD-Desktop-mit-XLibre-und-ZFS-Snapshots-11267057.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-22T07:34:00.000Z"
       }
     ],
     "börse": [
       {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-im-newsblog-tui-senkt-prognose-fuer-2026-wegen-belastungen-durch-iran-krieg/24098412.html",
-        "title": "+++ Geschäftszahlen +++: Tui senkt Gewinnprognose für 2026 wegen Belastungen durch Iran-Krieg",
-        "summary": "K+S überrascht mit Ergebnissprung – Jahresziele erhöht +++ Höhere Preise und Einsparungen stützen AkzoNobel +++ Danone steigert Quartalsumsatz und bestätigt Jahresziele +++ Der Newsblog.",
-        "paragraphs": [
-          "K+S überrascht mit Ergebnissprung – Jahresziele erhöht +++ Höhere Preise und Einsparungen stützen AkzoNobel +++ Danone steigert Quartalsumsatz und bestätigt Jahresziele +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-im-newsblog-tui-senkt-prognose-fuer-2026-wegen-belastungen-durch-iran-krieg/24098412.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T13:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-dreht-ins-minus-bleibt-aber-oberhalb-von-24.000-punkten/100218962.html",
-        "title": "Dax aktuell: „Krieg oder Frieden?“ Dax dreht ins Minus – nach kurzzeitigen Käufen",
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-sucht-nach-richtung-aber-oberhalb-von-24.000-punkten/100218962.html",
+        "title": "Dax aktuell: „Krieg oder Frieden?“ – Dax sucht nach Richtung",
         "summary": "Die Verlängerung der Waffenruhe bewegt Anleger nur kurzzeitig zu neuen Käufen. Die Unsicherheit scheint am Aktienmarkt zu überwiegen. Trotzdem bleibt der Dax oberhalb einer wichtigen Linie.",
         "paragraphs": [
           "Die Verlängerung der Waffenruhe bewegt Anleger nur kurzzeitig zu neuen Käufen. Die Unsicherheit scheint am Aktienmarkt zu überwiegen. Trotzdem bleibt der Dax oberhalb einer wichtigen Linie."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-dreht-ins-minus-bleibt-aber-oberhalb-von-24.000-punkten/100218962.html",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-sucht-nach-richtung-aber-oberhalb-von-24.000-punkten/100218962.html",
         "category": "Marktberichte",
         "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T09:37:22.000Z"
+        "publishedAt": "2026-04-22T10:12:59.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/eigenheim-wohnimmobilien-naehern-sich-rekordpreisen-laut-pfandbriefbanken/100219056.html",
+        "title": "Eigenheim: Wohnimmobilien nähern sich Rekordpreisen laut Pfandbriefbanken",
+        "summary": "Seit 2024 steigen die Preise für Wohnimmobilien – zuletzt in Richtung Rekordniveau von Sommer 2022. Laut Pfandbriefbanken dürften die Preise weiter steigen.",
+        "paragraphs": [
+          "Seit 2024 steigen die Preise für Wohnimmobilien – zuletzt in Richtung Rekordniveau von Sommer 2022. Laut Pfandbriefbanken dürften die Preise weiter steigen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/eigenheim-wohnimmobilien-naehern-sich-rekordpreisen-laut-pfandbriefbanken/100219056.html",
+        "category": "Banken + Versicherungen",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T10:10:43.000Z"
+      },
+      {
+        "id": "0cf7ced7-0ac6-4dfd-8ec2-b19d66731e9a",
+        "title": "Gesundheitsreform: Ministerium rechnet mit 100.000 Wechslern in die private Krankenversicherung",
+        "summary": "Wer gut verdient, soll von 2027 an mehr für die Krankenkasse zahlen – so plant es Gesundheitsministerin Nina Warken. Besonders profitieren könnte davon ausgerechnet die private Krankenversicherung.",
+        "paragraphs": [
+          "Wer gut verdient, soll von 2027 an mehr für die Krankenkasse zahlen – so plant es Gesundheitsministerin Nina Warken. Besonders profitieren könnte davon ausgerechnet die private Krankenversicherung."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/soziales/gesundheitsreform-ministerium-rechnet-mit-100-000-wechslern-in-die-private-krankenversicherung-a-0cf7ced7-0ac6-4dfd-8ec2-b19d66731e9a#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-22T10:10:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/iran-trump-verlaengert-waffenruhe-wie-es-jetzt-weitergehen-koennte/100218937.html",
+        "title": "Iran: Trump verlängert Waffenruhe: Wie es jetzt weitergehen könnte",
+        "summary": "Die USA haben die Waffenruhe im Iran-Krieg verlängert. Was bedeutet das nun für die Verhandlungen? Ein Überblick darüber, welche Szenarien jetzt denkbar sind.",
+        "paragraphs": [
+          "Die USA haben die Waffenruhe im Iran-Krieg verlängert. Was bedeutet das nun für die Verhandlungen? Ein Überblick darüber, welche Szenarien jetzt denkbar sind."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/iran-trump-verlaengert-waffenruhe-wie-es-jetzt-weitergehen-koennte/100218937.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T10:04:38.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-russland-riskiert-laut-ukraine-eine-atomkatastrophe/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Russland riskiert mit Raketen nahe Tschernobyl laut Ukraine eine Atomkatastrophe",
+        "summary": "Öllieferung durch „Druschba“-Pipeline wieder aufgenommen – Slowakei: Ab Donnerstag wieder Öl +++ Russland und Ukraine melden Tote bei gegenseitigen Drohnenangriffen +++ Der Newsblog.",
+        "paragraphs": [
+          "Öllieferung durch „Druschba“-Pipeline wieder aufgenommen – Slowakei: Ab Donnerstag wieder Öl +++ Russland und Ukraine melden Tote bei gegenseitigen Drohnenangriffen +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-russland-riskiert-laut-ukraine-eine-atomkatastrophe/27982126.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T10:03:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/deutsche-wirtschaft-bundesbank-sieht-mini-wachstum-trotz-krisen-und-nahost-krieg/100219058.html",
+        "title": "Deutsche Wirtschaft: Bundesbank sieht Mini-Wachstum trotz Krisen und Nahost-Krieg",
+        "summary": "Die deutsche Wirtschaft dürfte nach Einschätzung der Bundesbank im ersten Quartal leicht gewachsen sein. Doch die Aussichten sind trüb: Die Folgen des Iran-Krieges werden noch lange zu spüren sein.",
+        "paragraphs": [
+          "Die deutsche Wirtschaft dürfte nach Einschätzung der Bundesbank im ersten Quartal leicht gewachsen sein. Doch die Aussichten sind trüb: Die Folgen des Iran-Krieges werden noch lange zu spüren sein."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/deutsche-wirtschaft-bundesbank-sieht-mini-wachstum-trotz-krisen-und-nahost-krieg/100219058.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T10:00:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/oel-kasachstan-moskau-koennte-oeltransport-nach-schwedt-stoppen/100219057.html",
+        "title": "Öl: Kasachstan: Moskau könnte Öltransport nach Schwedt stoppen",
+        "summary": "Öl aus Kasachstan fließt durch Russland nach Deutschland. Zu einem kolportierten Transitstopp durch Moskau äußert sich jetzt Kasachstans Energieminister - und spricht von inoffiziellen Quellen.",
+        "paragraphs": [
+          "Öl aus Kasachstan fließt durch Russland nach Deutschland. Zu einem kolportierten Transitstopp durch Moskau äußert sich jetzt Kasachstans Energieminister - und spricht von inoffiziellen Quellen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/oel-kasachstan-moskau-koennte-oeltransport-nach-schwedt-stoppen/100219057.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T09:56:30.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/ki/technologie-so-blickt-deutschlands-juengste-professorin-auf-den-ki-boom/100188740.html",
+        "title": "Künstliche Intelligenz: So sieht Deutschlands jüngste Professorin den KI-Boom",
+        "summary": "Mit gerade mal 30 Jahren hat Alicia von Schenk den Lehrstuhl für „Economics of AI“ an der Uni Würzburg gegründet. Sie rät hinter den aktuellen Hype um die Technologie zu schauen.",
+        "paragraphs": [
+          "Mit gerade mal 30 Jahren hat Alicia von Schenk den Lehrstuhl für „Economics of AI“ an der Uni Würzburg gegründet. Sie rät hinter den aktuellen Hype um die Technologie zu schauen."
+        ],
+        "link": "https://www.handelsblatt.com/technik/ki/technologie-so-blickt-deutschlands-juengste-professorin-auf-den-ki-boom/100188740.html",
+        "category": "Künstliche Intelligenz",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T09:56:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/iranische-opposition-reza-pahlavi-in-berlin-hoffnungstraeger-oder-spaltfigur/100219054.html",
+        "title": "Iranische Opposition: Reza Pahlavi in Berlin: Hoffnungsträger oder Spaltfigur?",
+        "summary": "Während der Massenproteste im Iran galt Reza Pahlavi vielen als Hoffnungsträger. Durch den Krieg macht sich teils Ernüchterung breit. Nun reist der Sohn des Schahs nach Berlin. Wer ist der Mann?",
+        "paragraphs": [
+          "Während der Massenproteste im Iran galt Reza Pahlavi vielen als Hoffnungsträger. Durch den Krieg macht sich teils Ernüchterung breit. Nun reist der Sohn des Schahs nach Berlin. Wer ist der Mann?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/iranische-opposition-reza-pahlavi-in-berlin-hoffnungstraeger-oder-spaltfigur/100219054.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T09:54:29.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-was-die-mietrechtsreform-fuer-vermieter-bedeutet/100199045.html",
+        "title": "Immobilien: Mietrecht-Reform trifft Vermieter hart – Hunderte Euro weniger",
+        "summary": "Welche Einschränkungen die jetzt vorgestellten Reformpläne von Justizministerin Hubig für Eigentümer und Vermieter vorsehen – und wie sehr sie den Markt verändern werden.",
+        "paragraphs": [
+          "Welche Einschränkungen die jetzt vorgestellten Reformpläne von Justizministerin Hubig für Eigentümer und Vermieter vorsehen – und wie sehr sie den Markt verändern werden."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-was-die-mietrechtsreform-fuer-vermieter-bedeutet/100199045.html",
+        "category": "Immobilien",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T09:54:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-im-newsblog-ks-ueberrascht-mit-ergebnissprung-jahresziele-erhoeht/24098412.html",
+        "title": "+++ Geschäftszahlen +++: K+S überrascht mit Ergebnissprung – Jahresziele erhöht",
+        "summary": "Pfandbriefbanken erwarten 2026 leicht steigende Immobilienpreise +++ Tui senkt Prognose für 2026 wegen Belastungen durch Iran-Krieg +++ Höhere Preise stützen AkzoNobel +++ Der Newsblog.",
+        "paragraphs": [
+          "Pfandbriefbanken erwarten 2026 leicht steigende Immobilienpreise +++ Tui senkt Prognose für 2026 wegen Belastungen durch Iran-Krieg +++ Höhere Preise stützen AkzoNobel +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-im-newsblog-ks-ueberrascht-mit-ergebnissprung-jahresziele-erhoeht/24098412.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T09:54:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-berichte-ueber-angriffe-auf-schiffe-in-strasse-von-hormus/100136895.html",
+        "title": "+++ Iran-Krieg +++: Ölpreis über 100 Dollar – Berichte über Angriffe auf Schiffe in Straße von Hormus",
+        "summary": "Libanon meldet ein Todesopfer bei Drohnenangriff +++ Briten melden Bericht über Beschuss von Containerschiff vor Oman +++ Verlängerte Waffenruhe stoppt Ölpreis-Anstieg kaum +++ Der Newsblog.",
+        "paragraphs": [
+          "Libanon meldet ein Todesopfer bei Drohnenangriff +++ Briten melden Bericht über Beschuss von Containerschiff vor Oman +++ Verlängerte Waffenruhe stoppt Ölpreis-Anstieg kaum +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-berichte-ueber-angriffe-auf-schiffe-in-strasse-von-hormus/100136895.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T09:52:33.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-maerkte-in-asien-schliessen-uneinheitlich/100218932.html",
+        "title": "Nikkei, Topix, CSI 300: Märkte in Asien schließen uneinheitlich – Vorsicht dominiert trotz Waffenruhe",
+        "summary": "Die Unsicherheit über die Friedensgespräche zwischen den USA und dem Iran hält bei den Anlegern an. Das spiegelt sich mit einer Ausnahme an den Märkten in Asien.",
+        "paragraphs": [
+          "Die Unsicherheit über die Friedensgespräche zwischen den USA und dem Iran hält bei den Anlegern an. Das spiegelt sich mit einer Ausnahme an den Märkten in Asien."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-maerkte-in-asien-schliessen-uneinheitlich/100218932.html",
+        "category": "Marktberichte",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T09:51:17.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/warenhauskette-galeria-sichert-sich-neuen-kredit/100218979.html",
+        "title": "Warenhauskette: Galeria sichert sich neuen Kredit",
+        "summary": "Gestundete Mietzahlungen, drohende Filialschließungen: Galeria kämpft mit finanziellen Schwierigkeiten. Ein neuer Kredit soll die Lage stabilisieren.",
+        "paragraphs": [
+          "Gestundete Mietzahlungen, drohende Filialschließungen: Galeria kämpft mit finanziellen Schwierigkeiten. Ein neuer Kredit soll die Lage stabilisieren."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/warenhauskette-galeria-sichert-sich-neuen-kredit/100218979.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T09:47:52.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/energiekrise-bruessel-ruft-zu-enger-abstimmung-gegen-kerosinmangel-auf/100219048.html",
+        "title": "Energiekrise: Brüssel ruft zu enger Abstimmung gegen Kerosinmangel auf",
+        "summary": "Die Kerosinpreise sind hoch, Airlines streichen Flüge, Verbände warnen vor einem bevorstehenden Kerosinmangel. Was die EU hierzu plant.",
+        "paragraphs": [
+          "Die Kerosinpreise sind hoch, Airlines streichen Flüge, Verbände warnen vor einem bevorstehenden Kerosinmangel. Was die EU hierzu plant."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/energiekrise-bruessel-ruft-zu-enger-abstimmung-gegen-kerosinmangel-auf/100219048.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T09:45:58.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/werkzeug-fuer-ermittler-speicherung-von-ip-adressen-jetzt-ist-der-bundestag-gefragt/100218929.html",
+        "title": "Werkzeug für Ermittler: Speicherung von IP-Adressen: Jetzt ist der Bundestag gefragt",
+        "summary": "Kindesmissbrauch, Online-Betrug, Terror: Ermittler hoffen auf mehr Aufklärung durch eine neue Speicherpflicht. Drei Monate lang sollen Telekommunikationsanbieter alle IP-Adressen vorhalten.",
+        "paragraphs": [
+          "Kindesmissbrauch, Online-Betrug, Terror: Ermittler hoffen auf mehr Aufklärung durch eine neue Speicherpflicht. Drei Monate lang sollen Telekommunikationsanbieter alle IP-Adressen vorhalten."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/werkzeug-fuer-ermittler-speicherung-von-ip-adressen-jetzt-ist-der-bundestag-gefragt/100218929.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T09:41:30.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/kaffee-neue-initiative-soll-entwaldung-weltweit-sichtbar-machen/100218959.html",
@@ -1039,174 +1207,6 @@
         "category": "Politik",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-22T09:23:57.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/luftfahrt-wie-frankfurts-neues-terminal-t3-zum-werbekanal-wird-01/100216737.html",
-        "title": "Luftfahrt: T3 am Frankfurter Flughafen: Ein Mega-Terminal wird zum Werbekanal",
-        "summary": "Riesige Displays und personalisierte Kampagnen: Das neue Terminal in Frankfurt soll nicht nur Passagiere, sondern auch werbende Unternehmen anlocken. Es gibt ein paar Besonderheiten.",
-        "paragraphs": [
-          "Riesige Displays und personalisierte Kampagnen: Das neue Terminal in Frankfurt soll nicht nur Passagiere, sondern auch werbende Unternehmen anlocken. Es gibt ein paar Besonderheiten."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/luftfahrt-wie-frankfurts-neues-terminal-t3-zum-werbekanal-wird-01/100216737.html",
-        "category": "Handel + Konsumgüter",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T09:17:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/ki/ki-sie-koennte-so-leistungsfaehig-werden-dass-sie-zur-bedrohung-wird/100189694.html",
-        "title": "Künstliche Intelligenz: „Mit 75 Prozent Wahrscheinlichkeit passiert genau das: Die Blase platzt“",
-        "summary": "Stuart Russell hat das einflussreichste KI-Lehrbuch geschrieben. Er erklärt, warum die Technologie bald auch Top-Manager ersetzen könnte – und wann sie zu einer existenziellen Bedrohung wird.",
-        "paragraphs": [
-          "Stuart Russell hat das einflussreichste KI-Lehrbuch geschrieben. Er erklärt, warum die Technologie bald auch Top-Manager ersetzen könnte – und wann sie zu einer existenziellen Bedrohung wird."
-        ],
-        "link": "https://www.handelsblatt.com/technik/ki/ki-sie-koennte-so-leistungsfaehig-werden-dass-sie-zur-bedrohung-wird/100189694.html",
-        "category": "Künstliche Intelligenz",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T09:15:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/werkzeug-fuer-ermittler-kabinett-beschliesst-speicherpflicht-fuer-ip-adressen/100219036.html",
-        "title": "Werkzeug für Ermittler: Kabinett beschließt Speicherpflicht für IP-Adressen",
-        "summary": "Mit der geplanten Speicherpflicht für IP-Adressen will die Regierung Ermittlungen erleichtern. Kritiker zweifeln, ob das Gesetz vor Gericht Bestand hat.",
-        "paragraphs": [
-          "Mit der geplanten Speicherpflicht für IP-Adressen will die Regierung Ermittlungen erleichtern. Kritiker zweifeln, ob das Gesetz vor Gericht Bestand hat."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/werkzeug-fuer-ermittler-kabinett-beschliesst-speicherpflicht-fuer-ip-adressen/100219036.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T09:14:42.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/konjunktur/oekonom-so-koennten-superreiche-fair-besteuert-werden/100188438.html",
-        "title": "Reichtum: „Am oberen Ende der Vermögensverteilung verschwindet die Einkommensteuer fast vollständig“",
-        "summary": "Der Ökonom Gabriel Zucman verteidigt seine Idee einer Flat-Tax für Superreiche. Ein Gespräch über Oligarchen, Milliardäre und darüber, warum er auch Familienunternehmer nicht schonen würde.",
-        "paragraphs": [
-          "Der Ökonom Gabriel Zucman verteidigt seine Idee einer Flat-Tax für Superreiche. Ein Gespräch über Oligarchen, Milliardäre und darüber, warum er auch Familienunternehmer nicht schonen würde."
-        ],
-        "link": "https://www.handelsblatt.com/politik/konjunktur/oekonom-so-koennten-superreiche-fair-besteuert-werden/100188438.html",
-        "category": "Konjunktur",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T09:14:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-lukrativ-eine-wohnung-als-kapitalanlage-sein-kann/100180922.html",
-        "title": "Immobilien: Kauf einer Mietwohnung – Das verdienen Vermieter tatsächlich",
-        "summary": "Viele Deutsche träumen davon, ihre Altersvorsorge mit einer vermieteten Immobilie zu sichern. Doch wieviel Rendite ist wirklich drin? Das Handelsblatt hat nachgerechnet.",
-        "paragraphs": [
-          "Viele Deutsche träumen davon, ihre Altersvorsorge mit einer vermieteten Immobilie zu sichern. Doch wieviel Rendite ist wirklich drin? Das Handelsblatt hat nachgerechnet."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-lukrativ-eine-wohnung-als-kapitalanlage-sein-kann/100180922.html",
-        "category": "Immobilien",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T09:10:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/karriere-welche-kriterien-bestimmen-den-aufstieg-in-deutschen-unternehmen/100147821.html",
-        "title": "Aufstiegschancen: „Excel statt Exzellenz“: Drei Faktoren entscheiden, wer es in deutschen Firmen nach ganz oben schafft",
-        "summary": "Viele Unternehmen befördern stets die gleichen Menschentypen und lassen die Belegschaft frustriert zurück. Experten erklären die entscheidenden Mechanismen – und was sich ändern muss.",
-        "paragraphs": [
-          "Viele Unternehmen befördern stets die gleichen Menschentypen und lassen die Belegschaft frustriert zurück. Experten erklären die entscheidenden Mechanismen – und was sich ändern muss."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/karriere-welche-kriterien-bestimmen-den-aufstieg-in-deutschen-unternehmen/100147821.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T09:09:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/steuern-nur-ein-industrieland-hat-hoehere-abgaben-als-deutschland/100218418.html",
-        "title": "OECD-Studie: Die Hälfte des Einkommens geht an den Staat: Nur ein Industrieland hat höhere Abgaben als Deutschland",
-        "summary": "Entgegen aller Versprechen der Politik ist die Belastung der Erwerbstätigen hierzulande im vergangenen Jahr sogar gestiegen. Lediglich ein Familien-Modell führt zu einer deutlichen Ersparnis.",
-        "paragraphs": [
-          "Entgegen aller Versprechen der Politik ist die Belastung der Erwerbstätigen hierzulande im vergangenen Jahr sogar gestiegen. Lediglich ein Familien-Modell führt zu einer deutlichen Ersparnis."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/steuern-nur-ein-industrieland-hat-hoehere-abgaben-als-deutschland/100218418.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T09:04:54.000Z"
-      },
-      {
-        "id": "8c4476a9-2946-4beb-9483-37375f04f59f",
-        "title": "USA: Wie Robert F. Kennedy Jr. deutschen Sauerkraut-Herstellern zum Boom verhilft",
-        "summary": "Fermentiertes Essen ist in den USA angesagt. Gesundheitsminister Robert F. Kennedy Jr. isst angeblich schon zum Frühstück Sauerkraut. Deutsche Hersteller profitieren von dem Trend.",
-        "paragraphs": [
-          "Fermentiertes Essen ist in den USA angesagt. Gesundheitsminister Robert F. Kennedy Jr. isst angeblich schon zum Frühstück Sauerkraut. Deutsche Hersteller profitieren von dem Trend."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/unternehmen/usa-wie-robert-f-kennedy-jr-deutschen-sauerkraut-herstellern-zum-boom-verhilft-a-8c4476a9-2946-4beb-9483-37375f04f59f#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-22T09:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/forschung-innovation/wird-es-eine-bergung-geben-wieder-leute-am-liegenden-wal-weiterer-plan-unklar/100219030.html",
-        "title": "Wird es eine Bergung geben?: Wieder Leute am liegenden Wal - Weiterer Plan unklar",
-        "summary": "Helfer auf SUP-Board, weiße Tücher und ein Spülbagger: Die Helfer am gestrandeten Buckelwals vor Poel haben die Arbeit wieder aufgenommen. Was genau heute noch passieren soll, war allerdings unklar.",
-        "paragraphs": [
-          "Helfer auf SUP-Board, weiße Tücher und ein Spülbagger: Die Helfer am gestrandeten Buckelwals vor Poel haben die Arbeit wieder aufgenommen. Was genau heute noch passieren soll, war allerdings unklar."
-        ],
-        "link": "https://www.handelsblatt.com/technik/forschung-innovation/wird-es-eine-bergung-geben-wieder-leute-am-liegenden-wal-weiterer-plan-unklar/100219030.html",
-        "category": "Forschung + Innovation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T08:58:51.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/steuerberater-finanzausschuss-will-finanzinvestoren-beteiligungen-verbieten/100218846.html",
-        "title": "Steuerberater: Überraschende Wende: Beteiligungen von Finanzinvestoren an Steuerberaterkanzleien sollen verboten werden",
-        "summary": "Nach langem Ringen soll das bisher geltende Fremdbesitzverbot für Steuerberaterkanzleien nach Handelsblatt-Informationen nun doch verschärft werden. Private Equity soll außen vor bleiben.",
-        "paragraphs": [
-          "Nach langem Ringen soll das bisher geltende Fremdbesitzverbot für Steuerberaterkanzleien nach Handelsblatt-Informationen nun doch verschärft werden. Private Equity soll außen vor bleiben."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/steuerberater-finanzausschuss-will-finanzinvestoren-beteiligungen-verbieten/100218846.html",
-        "category": "Dienstleister",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T08:52:53.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/start-ups/start-ups-trotz-wirtschaftsflaute-so-viele-neugruendungen-wie-nie-zuvor/100218784.html",
-        "title": "Technologie: „Sehen eine neue Gründergeneration“ – So viele neue Start-ups wie noch nie",
-        "summary": "Von Januar bis März gingen in Deutschland 1358 Jungfirmen an den Start. Allerdings steigt jetzt auch die Zahl der Insolvenzen wieder. Vor allem ein Sektor drängt nach vorn.",
-        "paragraphs": [
-          "Von Januar bis März gingen in Deutschland 1358 Jungfirmen an den Start. Allerdings steigt jetzt auch die Zahl der Insolvenzen wieder. Vor allem ein Sektor drängt nach vorn."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/start-ups/start-ups-trotz-wirtschaftsflaute-so-viele-neugruendungen-wie-nie-zuvor/100218784.html",
-        "category": "Start-Ups",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T08:43:03.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/kuendigung-eine-geforderte-summe-muss-begruendet-werden/100184083.html",
-        "title": "Karriere: Plötzlich arbeitslos – wie Manager auf ihre Kündigung reagieren sollten",
-        "summary": "Aus dem Handelsblatt-Archiv: Firmen trennen sich von Top-Leuten, diskret, aber radikal. Ein Führungskräfte-Experte nennt vier Tipps für betroffene Manager – und wie sie ihre Chancen wahren.",
-        "paragraphs": [
-          "Aus dem Handelsblatt-Archiv: Firmen trennen sich von Top-Leuten, diskret, aber radikal. Ein Führungskräfte-Experte nennt vier Tipps für betroffene Manager – und wie sie ihre Chancen wahren."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/kuendigung-eine-geforderte-summe-muss-begruendet-werden/100184083.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T08:38:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-bericht-unbefugte-hatten-zugang-zu-anthropics-super-ki/100218893.html",
-        "title": "Künstliche Intelligenz: Bericht: Unbefugte hatten Zugang zu Anthropics Super-KI",
-        "summary": "Das neue KI-Modell der Firma Anthropic kann so gut Software-Schwachstellen finden, dass es als Cyberwaffe dienen könnte. Anthropic hält es geheim. Doch Neugierige verschafften sich angeblich Zugang.",
-        "paragraphs": [
-          "Das neue KI-Modell der Firma Anthropic kann so gut Software-Schwachstellen finden, dass es als Cyberwaffe dienen könnte. Anthropic hält es geheim. Doch Neugierige verschafften sich angeblich Zugang."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-bericht-unbefugte-hatten-zugang-zu-anthropics-super-ki/100218893.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T08:36:20.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/energie-verlaengerte-waffenruhe-stoppt-oelpreis-anstieg-kaum/100218905.html",
-        "title": "Energie: Verlängerte Waffenruhe stoppt Ölpreis-Anstieg kaum",
-        "summary": "Die Feuerpause zwischen dem Iran und den USA soll laut US-Präsident Trump auf unbestimmte Zeit verlängert werden. Doch am Ölmarkt sorgt das kaum für Entspannung.",
-        "paragraphs": [
-          "Die Feuerpause zwischen dem Iran und den USA soll laut US-Präsident Trump auf unbestimmte Zeit verlängert werden. Doch am Ölmarkt sorgt das kaum für Entspannung."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/energie-verlaengerte-waffenruhe-stoppt-oelpreis-anstieg-kaum/100218905.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T08:35:55.000Z"
       }
     ]
   }
