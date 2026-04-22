@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-04-22T11:17:57.326Z",
+  "updatedAt": "2026-04-22T11:43:32.006Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "1d564ef1-31be-4f34-a823-cdf5ed7b7ab2",
+        "title": "Nahost-Liveblog: ++ Arabische Liga fordert Reparationen von Iran  ++",
+        "summary": "Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden. Die iranischen Revolutionsgarden haben nach eigenen Angaben mehrere Schiffe in der Straße von Hormus angegriffen.",
+        "paragraphs": [
+          "Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden. Die iranischen Revolutionsgarden haben nach eigenen Angaben mehrere Schiffe in der Straße von Hormus angegriffen."
+        ],
+        "link": "https://www.tagesschau.de/newsticker/liveblog-iran-mittwoch-112.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-22T11:38:46.000Z"
+      },
+      {
+        "id": "89746ea5-d5cd-4c4d-9286-cc0c94e4e6e6",
+        "title": "Iran meldet Beschuss und Beschlagnahme von Schiffen in Straße von Hormus",
+        "summary": "Iran hat in der Straße von Hormus nach eigenen Angaben zwei Schiffe beschossen und anschließend beschlagnahmt. Zuvor hatte die britische Seehandelsaufsicht den Beschuss gemeldet. Auch ein drittes Schiff soll angegriffen worden sein.",
+        "paragraphs": [
+          "Iran hat in der Straße von Hormus nach eigenen Angaben zwei Schiffe beschossen und anschließend beschlagnahmt. Zuvor hatte die britische Seehandelsaufsicht den Beschuss gemeldet. Auch ein drittes Schiff soll angegriffen worden sein."
+        ],
+        "link": "https://www.tagesschau.de/ausland/asien/angriffe-strasse-hormus-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-22T11:32:03.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Flughafen-Frankfurt-weiht-neues-Terminal-ein-id30742157.html",
         "title": "Millionen zusätzliche Passagiere: Flughafen Frankfurt weiht neues Terminal ein",
@@ -25,30 +49,6 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-22T10:54:55.000Z"
-      },
-      {
-        "id": "1d564ef1-31be-4f34-a823-cdf5ed7b7ab2",
-        "title": "Nahost-Liveblog: ++ Arabische Liga fordert Reparationen von Iran  ++",
-        "summary": "Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden. Die iranischen Revolutionsgarden haben nach eigenen Angaben mehrere Schiffe in der Straße von Hormus angegriffen.",
-        "paragraphs": [
-          "Die Golfstaaten verlangen von Iran finanzielle Wiedergutmachung für Kriegsschäden. Die iranischen Revolutionsgarden haben nach eigenen Angaben mehrere Schiffe in der Straße von Hormus angegriffen."
-        ],
-        "link": "https://www.tagesschau.de/newsticker/liveblog-iran-mittwoch-112.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-22T10:49:39.000Z"
-      },
-      {
-        "id": "89746ea5-d5cd-4c4d-9286-cc0c94e4e6e6",
-        "title": "Angriffe auf zwei Schiffe in der Straße von Hormus",
-        "summary": "In der Straße von Hormus sind erneut zwei Schiffe beschossen worden. Eines wurde laut britischer Seehandelsaufsicht bei dem Angriff der iranischen Revolutionsgarde schwer beschädigt. Über den zweiten Vorfall bislang wenig bekannt.",
-        "paragraphs": [
-          "In der Straße von Hormus sind erneut zwei Schiffe beschossen worden. Eines wurde laut britischer Seehandelsaufsicht bei dem Angriff der iranischen Revolutionsgarde schwer beschädigt. Über den zweiten Vorfall bislang wenig bekannt."
-        ],
-        "link": "https://www.tagesschau.de/ausland/asien/angriffe-strasse-hormus-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-22T10:03:33.000Z"
       },
       {
         "id": "b792c23d-feda-4456-855b-67a3af57faa3",
@@ -245,6 +245,30 @@
     ],
     "politik": [
       {
+        "id": "li.3469644",
+        "title": "Außenpolitik am rechten Rand: Was macht die AfD ohne Orbán und Trump?",
+        "summary": "Der Verbündete in Ungarn ist abgewählt, die Beziehung zum US-Präsidenten inzwischen kompliziert, die zu Russland ohnehin. In der AfD ist kaum eine Frage so umstritten – und so wichtig – wie die nach ihrer Außenpolitik.",
+        "paragraphs": [
+          "Der Verbündete in Ungarn ist abgewählt, die Beziehung zum US-Präsidenten inzwischen kompliziert, die zu Russland ohnehin. In der AfD ist kaum eine Frage so umstritten – und so wichtig – wie die nach ihrer Außenpolitik."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/afd-aussenpolitik-trump-orban-streit-li.3469644",
+        "category": "AfD",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T11:19:30.000Z"
+      },
+      {
+        "id": "li.3465745",
+        "title": "Krieg in Nahost: Iranische Revolutionsgarde setzt drei Schiffe in Straße von Hormus fest",
+        "summary": "Die „MSC Francesca“, die „Epaminodes“ und die „Euphoria“ seien festgesetzt worden, da sie ohne Genehmigung auf Fahrt und ihre Navigationssysteme manipuliert gewesen seien, hieß es als Begründung.",
+        "paragraphs": [
+          "Die „MSC Francesca“, die „Epaminodes“ und die „Euphoria“ seien festgesetzt worden, da sie ohne Genehmigung auf Fahrt und ihre Navigationssysteme manipuliert gewesen seien, hieß es als Begründung."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/iran-liveblog-news-strasse-von-hormus-schiffe-beschlagnahmt-li.3465745",
+        "category": "Iran",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T11:18:00.000Z"
+      },
+      {
         "id": "li.3470639",
         "title": "Krieg in der Ukraine: Orbán gibt Blockade von europäischem 90-Milliarden-Euro-Paket für die Ukraine auf",
         "summary": "Ungarns Botschafter stimmt dem milliardenschweren EU-Unterstützungspakets für Kiew zu. Zudem können auch neue Sanktionen gegen Russland in Kraft treten.",
@@ -291,18 +315,6 @@
         "category": "Linksextremismus",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-22T10:34:43.000Z"
-      },
-      {
-        "id": "li.3465745",
-        "title": "Krieg in Nahost: Iranische Revolutionsgarde setzt zwei Schiffe in Straße von Hormus fest",
-        "summary": "Die „MSC Francesca“ und die „Epaminodes“ seien festgesetzt worden, da sie ohne Genehmigung auf Fahrt und ihre Navigationssysteme manipuliert gewesen seien, hieß es als Begründung.",
-        "paragraphs": [
-          "Die „MSC Francesca“ und die „Epaminodes“ seien festgesetzt worden, da sie ohne Genehmigung auf Fahrt und ihre Navigationssysteme manipuliert gewesen seien, hieß es als Begründung."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/iran-liveblog-news-strasse-von-hormus-schiffe-beschlagnahmt-li.3465745",
-        "category": "Iran",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-22T10:33:26.000Z"
       },
       {
         "id": "li.3471293",
@@ -469,21 +481,57 @@
         "category": "Welt",
         "source": "DW",
         "publishedAt": "2026-04-21T15:30:00.000Z"
-      },
-      {
-        "id": "li.3471788",
-        "title": "SZ am Abend: Nachrichten vom 21. April 2026",
-        "summary": "Was heute wichtig war.",
-        "paragraphs": [
-          "Was heute wichtig war."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/news-hormus-einsatz-bundeswehr-koalition-trump-minister-li.3471788",
-        "category": "SZ Nachrichten des Tages",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-21T15:20:22.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/umbauten-im-grossen-stil-warum-der-hsv-vor-dem-naechsten-umbruch-steht-1212618/artikel#omrss",
+        "title": "\"Umbauten im großen Stil\": Warum der HSV vor dem nächsten Umbruch steht",
+        "summary": "Die neue Folge kicker Daily!",
+        "paragraphs": [
+          "Die neue Folge kicker Daily!"
+        ],
+        "link": "https://www.kicker.de/umbauten-im-grossen-stil-warum-der-hsv-vor-dem-naechsten-umbruch-steht-1212618/artikel#omrss",
+        "category": "Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T11:34:08.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/mit-gedaechtnis-eines-goldfischs-kuehnhackls-titel-taktik-1212610/artikel#omrss",
+        "title": "Mit \"Gedächtnis eines Goldfischs\": Kühnhackls Titel-Taktik",
+        "summary": "Mannheims Tom Kühnhackl spricht über die anstehenden DEL-Finals gegen Berlin. Auch seine Erfahrungen von zwei Stanley-Cup-Titeln sollen ihm bei der Herangehensweise helfen.",
+        "paragraphs": [
+          "Mannheims Tom Kühnhackl spricht über die anstehenden DEL-Finals gegen Berlin. Auch seine Erfahrungen von zwei Stanley-Cup-Titeln sollen ihm bei der Herangehensweise helfen."
+        ],
+        "link": "https://www.kicker.de/mit-gedaechtnis-eines-goldfischs-kuehnhackls-titel-taktik-1212610/artikel#omrss",
+        "category": "Adler Mannheim",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T11:24:57.000Z"
+      },
+      {
+        "id": "li.3471580",
+        "title": "Snooker-WM: Der rostige Ronnie hat es noch drauf",
+        "summary": "Ronnie O'Sullivan, 50, kämpft um seinen achten Titel bei der Snooker-WM. Und zeigt mit einem Weltrekord kurz vor Turnierbeginn, dass er noch immer für die magischen Momente zuständig ist.",
+        "paragraphs": [
+          "Ronnie O'Sullivan, 50, kämpft um seinen achten Titel bei der Snooker-WM. Und zeigt mit einem Weltrekord kurz vor Turnierbeginn, dass er noch immer für die magischen Momente zuständig ist."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/snooker-wm-ronnie-o-sullivan-weltrekord-li.3471580",
+        "category": "Snooker",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-22T11:17:03.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nach-winter-angebot-roma-vor-naechster-attacke-bei-bayers-top-talent-alajbegovic-1212576/artikel#omrss",
+        "title": "Nach Winter-Angebot: Roma vor nächster Attacke bei Bayers Top-Talent Alajbegovic",
+        "summary": "Dass Bayer 04 Kerim Alajbegovic im Sommer von RB Salzburg zurückholt, ist klar. Doch spielt das Top-Talent dann auch für Leverkusen? Die AS Rom plant angeblich, beim bosnischen Nationalspieler anzugreifen. Es wäre nicht das erste Mal.",
+        "paragraphs": [
+          "Dass Bayer 04 Kerim Alajbegovic im Sommer von RB Salzburg zurückholt, ist klar. Doch spielt das Top-Talent dann auch für Leverkusen? Die AS Rom plant angeblich, beim bosnischen Nationalspieler anzugreifen. Es wäre nicht das erste Mal."
+        ],
+        "link": "https://www.kicker.de/nach-winter-angebot-roma-vor-naechster-attacke-bei-bayers-top-talent-alajbegovic-1212576/artikel#omrss",
+        "category": "AS Rom",
+        "source": "Kicker",
+        "publishedAt": "2026-04-22T11:14:34.000Z"
+      },
       {
         "id": "https://www.kicker.de/knackpunkt-holztribuene-lok-leipzig-bekommt-dennoch-gruenes-licht-fuer-die-3-liga-1212599/artikel#omrss",
         "title": "Knackpunkt Holztribüne: Lok Leipzig bekommt dennoch grünes Licht für die 3. Liga",
@@ -498,7 +546,7 @@
       },
       {
         "id": "li.3472098",
-        "title": "SC Freiburg: Sie machen nichts Ungewöhnliches, aber das so gut wie nie",
+        "title": "SC Freiburg: Sie machen nichts Ungewöhnliches, aber das so gut wie noch nie",
         "summary": "Der SC Freiburg, einst für Innovationen bekannt, spielt inzwischen vor allem gut organisierten Fleißfußball mit raffiniert gescouteten Zugängen. Das Resultat: In dieser Saison sind zwei Titel möglich.",
         "paragraphs": [
           "Der SC Freiburg, einst für Innovationen bekannt, spielt inzwischen vor allem gut organisierten Fleißfußball mit raffiniert gescouteten Zugängen. Das Resultat: In dieser Saison sind zwei Titel möglich."
@@ -641,18 +689,6 @@
         "publishedAt": "2026-04-22T09:27:31.000Z"
       },
       {
-        "id": "https://www.kicker.de/trainer-auf-abruf-hjulmand-hat-keine-zeit-dafuer-1212535/artikel#omrss",
-        "title": "Trainer auf Abruf? Hjulmand hat \"keine Zeit\" dafür",
-        "summary": "Im Saison-Endspurt rückt auch die Trainer-Frage bei Bayer 04 immer mehr in den Fokus. Das Thema, dass er als Trainer auf Abruf beschrieben wird, weist Kasper Hjulmand von sich und betont vielmehr seine Verantwortung für den Job.",
-        "paragraphs": [
-          "Im Saison-Endspurt rückt auch die Trainer-Frage bei Bayer 04 immer mehr in den Fokus. Das Thema, dass er als Trainer auf Abruf beschrieben wird, weist Kasper Hjulmand von sich und betont vielmehr seine Verantwortung für den Job."
-        ],
-        "link": "https://www.kicker.de/trainer-auf-abruf-hjulmand-hat-keine-zeit-dafuer-1212535/artikel#omrss",
-        "category": "Bayer 04 Leverkusen",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T09:20:04.000Z"
-      },
-      {
         "id": "https://www.kicker.de/einfach-nur-durchhalten-lakers-glaenzen-mit-ungewohnten-tugenden-1212573/artikel#omrss",
         "title": "Einfach nur durchhalten: Lakers glänzen mit ungewohnten Tugenden",
         "summary": "Trotz prominenter Ausfälle führen die Los Angeles Lakers mit 2-0 in der Serie gegen die Houston Rockets. Vorne dirigiert LeBron James, am anderen Ende hält das Kollektiv zusammen, wobei einer besonders heraussticht.",
@@ -687,42 +723,6 @@
         "category": "Leichtathletik",
         "source": "Kicker",
         "publishedAt": "2026-04-22T09:12:12.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/chaos-beim-sv-wilhelmshaven-es-geht-um-schadenbegrenzung-1212296/artikel#omrss",
-        "title": "Chaos beim SV Wilhelmshaven: \"Es geht um Schadenbegrenzung\"",
-        "summary": "Der SV Wilhelmshaven will unter Interimscoach Luc Diamesso Schadenbegrenzung betreiben und den Klassenerhalt sichern. Im Sommer soll ein Neuaufbau erfolgen.",
-        "paragraphs": [
-          "Der SV Wilhelmshaven will unter Interimscoach Luc Diamesso Schadenbegrenzung betreiben und den Klassenerhalt sichern. Im Sommer soll ein Neuaufbau erfolgen."
-        ],
-        "link": "https://www.kicker.de/chaos-beim-sv-wilhelmshaven-es-geht-um-schadenbegrenzung-1212296/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T09:08:36.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/deal-mit-signalwirkung-schalke-04-hat-einen-neuen-hauptsponsor-1212128/artikel#omrss",
-        "title": "Deal mit Signalwirkung: Schalke 04 hat einen neuen Hauptsponsor",
-        "summary": "In der 2. Liga marschiert der FC Schalke 04 aktuell schnurstracks in Richtung Bundesliga - und auch finanziell läuft es bei den Königsblauen immer besser. Jetzt hat S04 einen neuen Hauptsponsor und darf sich auf Millioneneinnahmen freuen.",
-        "paragraphs": [
-          "In der 2. Liga marschiert der FC Schalke 04 aktuell schnurstracks in Richtung Bundesliga - und auch finanziell läuft es bei den Königsblauen immer besser. Jetzt hat S04 einen neuen Hauptsponsor und darf sich auf Millioneneinnahmen freuen."
-        ],
-        "link": "https://www.kicker.de/deal-mit-signalwirkung-schalke-04-hat-einen-neuen-hauptsponsor-1212128/artikel#omrss",
-        "category": "2. Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T09:04:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/illertissen-aera-endet-bachthaler-wird-trainer-der-stuttgarter-kickers-1212553/artikel#omrss",
-        "title": "Illertissen-Ära endet: Bachthaler wird Trainer der Stuttgarter Kickers",
-        "summary": "Die Stuttgarter Kickers haben mit Holger Bachthaler einen Cheftrainer für die neue Saison gefunden. Damit endet für den 51-Jährigen eine Ära beim FV Illertissen.",
-        "paragraphs": [
-          "Die Stuttgarter Kickers haben mit Holger Bachthaler einen Cheftrainer für die neue Saison gefunden. Damit endet für den 51-Jährigen eine Ära beim FV Illertissen."
-        ],
-        "link": "https://www.kicker.de/illertissen-aera-endet-bachthaler-wird-trainer-der-stuttgarter-kickers-1212553/artikel#omrss",
-        "category": "FV Illertissen",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T09:01:41.000Z"
       }
     ],
     "edv": [
@@ -969,6 +969,78 @@
     ],
     "börse": [
       {
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-bei-diesen-aktien-werden-kursverluste-zum-kaufsignal/100213528.html",
+        "title": "Geldanlage: Bei diesen Aktien werden Kursverluste zum Kaufsignal",
+        "summary": "Eine exklusive Handelsblatt-Auswertung zeigt Aktien mit großer Erholungsstärke. Doch nicht jeder Einstieg lohnt sich jetzt – entscheidend sind auch Zinsentwicklungen und Energiepreise.",
+        "paragraphs": [
+          "Eine exklusive Handelsblatt-Auswertung zeigt Aktien mit großer Erholungsstärke. Doch nicht jeder Einstieg lohnt sich jetzt – entscheidend sind auch Zinsentwicklungen und Energiepreise."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-bei-diesen-aktien-werden-kursverluste-zum-kaufsignal/100213528.html",
+        "category": "Trends",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T11:37:04.000Z"
+      },
+      {
+        "id": "6232bf28-d0f5-44d4-883d-fae67cc05ef4",
+        "title": "Energiepolitik der Bundesregierung: Was wirklich hinter dem Streit zwischen Katherina Reiche und Lars Klingbeil steckt – Kolumne",
+        "summary": "Die Große Koalition findet keine Linie in der Energiepolitik, weil Lobbyisten zu viel Einfluss haben. Damit schaden Union und SPD nicht nur dem Land, sondern auch sich selbst.",
+        "paragraphs": [
+          "Die Große Koalition findet keine Linie in der Energiepolitik, weil Lobbyisten zu viel Einfluss haben. Damit schaden Union und SPD nicht nur dem Land, sondern auch sich selbst."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/energiepolitik-der-bundesregierung-was-wirklich-hinter-dem-streit-zwischen-katherina-reiche-und-lars-klingbeil-steckt-kolumne-a-6232bf28-d0f5-44d4-883d-fae67cc05ef4#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-22T11:30:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/oel-kasachstan-moskau-koennte-oeltransport-nach-schwedt-stoppen/100219057.html",
+        "title": "Öl: Kasachstan: Moskau könnte Öltransport nach Schwedt stoppen",
+        "summary": "Öl aus Kasachstan fließt durch Russland nach Deutschland. Zu einem kolportierten Transitstopp durch Moskau äußert sich jetzt Kasachstans Energieminister - und spricht von inoffiziellen Quellen.",
+        "paragraphs": [
+          "Öl aus Kasachstan fließt durch Russland nach Deutschland. Zu einem kolportierten Transitstopp durch Moskau äußert sich jetzt Kasachstans Energieminister - und spricht von inoffiziellen Quellen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/oel-kasachstan-moskau-koennte-oeltransport-nach-schwedt-stoppen/100219057.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T11:29:56.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/steuerberatung-warum-die-koalition-finanzinvestoren-aus-kanzleien-ausschliesst/100218983.html",
+        "title": "Steuerberatung: „Eindeutige Grenze gegen Renditedruck“: Warum die Koalition Finanzinvestoren aus Steuerkanzleien ausschließt",
+        "summary": "Union und SPD wollen die Beteiligung von Finanzinvestoren an Steuerberatungen künftig komplett verbieten. Die Einigung im Finanzausschuss bringt Kanzleien teilweise in große Bedrängnis.",
+        "paragraphs": [
+          "Union und SPD wollen die Beteiligung von Finanzinvestoren an Steuerberatungen künftig komplett verbieten. Die Einigung im Finanzausschuss bringt Kanzleien teilweise in große Bedrängnis."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/steuerberatung-warum-die-koalition-finanzinvestoren-aus-kanzleien-ausschliesst/100218983.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T11:29:15.000Z"
+      },
+      {
+        "id": "96511aea-2c21-4dd4-98a2-7b6bb2ca340f",
+        "title": "Direktzahlungen: Warum Deutschland auch in dieser Krise seinen Bürgern kein Geld überweist",
+        "summary": "Mit dem Tankrabatt verteilt die Regierung erneut Geld per Gießkanne, dabei gibt es längst einen Mechanismus für Direktzahlungen. Doch der wird immer noch nicht genutzt.",
+        "paragraphs": [
+          "Mit dem Tankrabatt verteilt die Regierung erneut Geld per Gießkanne, dabei gibt es längst einen Mechanismus für Direktzahlungen. Doch der wird immer noch nicht genutzt."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/service/direktzahlungen-warum-deutschland-auch-in-dieser-krise-seinen-buergern-kein-geld-ueberweist-a-96511aea-2c21-4dd4-98a2-7b6bb2ca340f#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-04-22T11:26:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/die-welt-in-bildern-blickfang/8906950.html",
+        "title": "Die Welt in Bildern: Blickfang",
+        "summary": "Sie beeindrucken. Sie wühlen auf. Sie faszinieren. Sie erschrecken. Sie dokumentieren den großen Moment. Sie zeigen kleine Wunder. Oder sie erzählen eine Geschichte. Die Welt – ein Blickfang.",
+        "paragraphs": [
+          "Sie beeindrucken. Sie wühlen auf. Sie faszinieren. Sie erschrecken. Sie dokumentieren den großen Moment. Sie zeigen kleine Wunder. Oder sie erzählen eine Geschichte. Die Welt – ein Blickfang."
+        ],
+        "link": "https://www.handelsblatt.com/die-welt-in-bildern-blickfang/8906950.html",
+        "category": "Handelsblatt",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-22T11:21:00.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/ukraine-krieg-eu-orban-gibt-blockade-von-ukraine-hilfe-und-sanktionen-auf/100219082.html",
         "title": "Ukraine-Krieg: EU: Orban gibt Blockade von Ukraine-Hilfe und Sanktionen auf",
         "summary": "Der Weg für neue Ukraine-Hilfen und Russland-Sanktionen ist nach einer langen Hängepartie frei. Doch auch Ungarns scheidender Regierungschef kann sich noch einmal als Sieger fühlen.",
@@ -1135,78 +1207,6 @@
         "category": "International",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-22T10:24:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/19-millionen-passagiere-frankfurts-neues-passagier-terminal-geht-ans-netz/100219066.html",
-        "title": "19 Millionen Passagiere: Frankfurts neues Passagier-Terminal geht ans Netz",
-        "summary": "Nach mehr als zehn Jahren Bauzeit öffnet das neue Terminal 3 am Frankfurter Flughafen. Zum Auftakt gab es viel Lob und Schulterklopfen.",
-        "paragraphs": [
-          "Nach mehr als zehn Jahren Bauzeit öffnet das neue Terminal 3 am Frankfurter Flughafen. Zum Auftakt gab es viel Lob und Schulterklopfen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/19-millionen-passagiere-frankfurts-neues-passagier-terminal-geht-ans-netz/100219066.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T10:20:31.000Z"
-      },
-      {
-        "id": "f4d5da46-bbfd-449d-97a8-a7c362869387",
-        "title": "Steuerreform: Unionspolitiker aus CDU und CSU wollen alle Einkommensgruppen steuerlich entlasten",
-        "summary": "Die Koalition will kleine und mittlere Einkommen steuerlich besserstellen. Unionspolitiker machen nun Vorschläge, wie sich Maßnahmen finanzieren ließen – und wie auch Wohlhabende profitieren würden.",
-        "paragraphs": [
-          "Die Koalition will kleine und mittlere Einkommen steuerlich besserstellen. Unionspolitiker machen nun Vorschläge, wie sich Maßnahmen finanzieren ließen – und wie auch Wohlhabende profitieren würden."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/steuerreform-unionspolitiker-aus-cdu-und-csu-wollen-alle-einkommensgruppen-steuerlich-entlasten-a-f4d5da46-bbfd-449d-97a8-a7c362869387#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-22T10:19:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-eu-will-strom-billiger-machen-oelpreiskrise-moeglicher-wendepunkt/100217529.html",
-        "title": "Iran-Krieg: EU will Strom billiger machen – und sieht Ölpreiskrise als möglichen Wendepunkt",
-        "summary": "Brüssel reagiert auf die stark steigenden Preise für fossile Energien mit klaren Empfehlungen hin zu sauberem und billigem Strom. Auch drohende Engpässe beim Flugbenzin adressiert die EU.",
-        "paragraphs": [
-          "Brüssel reagiert auf die stark steigenden Preise für fossile Energien mit klaren Empfehlungen hin zu sauberem und billigem Strom. Auch drohende Engpässe beim Flugbenzin adressiert die EU."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-eu-will-strom-billiger-machen-oelpreiskrise-moeglicher-wendepunkt/100217529.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T10:14:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/quereinstieg-wie-attraktiv-der-oeffentliche-dienst-fuer-fuehrungskraefte-ist/100171941.html",
-        "title": "Führungskräfte: Karriereoption Staat: So gelingt der Quereinstieg",
-        "summary": "Der Staat sucht Führungskräfte. Was Umsteiger aus Unternehmen über Gehalt, Bewerbungsprozess und Arbeitsweise wissen sollten – und warum der Staatsdienst nicht für jeden Manager etwas ist.",
-        "paragraphs": [
-          "Der Staat sucht Führungskräfte. Was Umsteiger aus Unternehmen über Gehalt, Bewerbungsprozess und Arbeitsweise wissen sollten – und warum der Staatsdienst nicht für jeden Manager etwas ist."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/quereinstieg-wie-attraktiv-der-oeffentliche-dienst-fuer-fuehrungskraefte-ist/100171941.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T10:13:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/eigenheim-wohnimmobilien-naehern-sich-rekordpreisen-laut-pfandbriefbanken/100219056.html",
-        "title": "Eigenheim: Wohnimmobilien nähern sich Rekordpreisen laut Pfandbriefbanken",
-        "summary": "Seit 2024 steigen die Preise für Wohnimmobilien – zuletzt in Richtung Rekordniveau von Sommer 2022. Laut dem Pfandbriefbanken-Verband dürften die Preise weiter steigen.",
-        "paragraphs": [
-          "Seit 2024 steigen die Preise für Wohnimmobilien – zuletzt in Richtung Rekordniveau von Sommer 2022. Laut dem Pfandbriefbanken-Verband dürften die Preise weiter steigen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/eigenheim-wohnimmobilien-naehern-sich-rekordpreisen-laut-pfandbriefbanken/100219056.html",
-        "category": "Banken + Versicherungen",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-22T10:10:43.000Z"
-      },
-      {
-        "id": "0cf7ced7-0ac6-4dfd-8ec2-b19d66731e9a",
-        "title": "Gesundheitsreform: Ministerium rechnet mit 100.000 Wechslern in die private Krankenversicherung",
-        "summary": "Wer gut verdient, soll von 2027 an mehr für die Krankenkasse zahlen – so plant es Gesundheitsministerin Nina Warken. Besonders profitieren könnte davon ausgerechnet die private Krankenversicherung.",
-        "paragraphs": [
-          "Wer gut verdient, soll von 2027 an mehr für die Krankenkasse zahlen – so plant es Gesundheitsministerin Nina Warken. Besonders profitieren könnte davon ausgerechnet die private Krankenversicherung."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/soziales/gesundheitsreform-ministerium-rechnet-mit-100-000-wechslern-in-die-private-krankenversicherung-a-0cf7ced7-0ac6-4dfd-8ec2-b19d66731e9a#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-04-22T10:10:00.000Z"
       }
     ]
   }
