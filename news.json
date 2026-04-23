@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-04-23T04:24:23.710Z",
+  "updatedAt": "2026-04-23T05:18:58.085Z",
   "categories": {
     "wirtschaft": [
       {
         "id": "https://www.n-tv.de/wirtschaft/Mehr-Umsatz-und-Gewinn-Tesla-schreibt-wieder-bessere-Zahlen-id30744901.html",
-        "title": "Auslieferungen nehmen zu: Mehr Umsatz und Gewinn: Tesla schreibt wieder bessere Zahlen",
+        "title": "Auslieferungen legen zu: Mehr Umsatz und Gewinn: Tesla schreibt wieder bessere Zahlen",
         "summary": "Elektroauto-Vorreiter Tesla von Tech-Milliardär Elon Musk startet besser ins Jahr als 2025. Die Aktie legt dank gesteigerter Verkaufszahlen zu. Das Geschäftsmodell des US-Unternehmens soll sich aber wandeln.",
         "paragraphs": [
           "Elektroauto-Vorreiter Tesla von Tech-Milliardär Elon Musk startet besser ins Jahr als 2025. Die Aktie legt dank gesteigerter Verkaufszahlen zu. Das Geschäftsmodell des US-Unternehmens soll sich aber wandeln."
@@ -243,6 +243,30 @@
     ],
     "politik": [
       {
+        "id": "li.3472531",
+        "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
+        "summary": "SZ am Morgen.",
+        "paragraphs": [
+          "SZ am Morgen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/waffenruhe-ohne-frist-ig-metall-droht-merz-bei-klimadialog-li.3472531",
+        "category": "SZ Nachrichten des Tages",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-23T04:55:17.000Z"
+      },
+      {
+        "id": "li.3468737",
+        "title": "Bundespolitik: Bas geht auf Distanz zu Merz’ Renten-Aussage",
+        "summary": "Der Bundeskanzler hatte gesagt, dass die gesetzliche Rente in Zukunft nur die „Basisabsicherung“ seien könne. Mit dieser Formulierung ist die Sozialministerin nicht einverstanden.",
+        "paragraphs": [
+          "Der Bundeskanzler hatte gesagt, dass die gesetzliche Rente in Zukunft nur die „Basisabsicherung“ seien könne. Mit dieser Formulierung ist die Sozialministerin nicht einverstanden."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-bas-merz-li.3468737",
+        "category": "Bundesregierung",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-23T04:48:20.000Z"
+      },
+      {
         "id": "li.3472459",
         "title": "Krieg in Iran: Libanon: Israelischer Luftangriff tötet Journalistin",
         "summary": "Trotz der Waffenruhe kommen bei einem Luftangriff in Südlibanon mutmaßlich drei Menschen ums Leben, darunter eine Journalistin. Libanons Regierungschef spricht von Kriegsverbrechen.",
@@ -277,6 +301,18 @@
         "category": "Deutschland",
         "source": "DW",
         "publishedAt": "2026-04-22T17:53:00.000Z"
+      },
+      {
+        "id": "76899547",
+        "title": "Waffenruhe verlängert: Wie geht es weiter im Iran-Krieg?",
+        "summary": "Erst einmal ohne neue Frist suchen die USA und der Iran in ihrem Krieg nach Auswegen, die ihre eigenen Interessen wahren. Wir nehmen die zentralen Knackpunkte unter die Lupe und beantworten wichtige Fragen.",
+        "paragraphs": [
+          "Erst einmal ohne neue Frist suchen die USA und der Iran in ihrem Krieg nach Auswegen, die ihre eigenen Interessen wahren. Wir nehmen die zentralen Knackpunkte unter die Lupe und beantworten wichtige Fragen."
+        ],
+        "link": "https://www.dw.com/de/waffenruhe-verlängert-wie-geht-es-weiter-im-iran-krieg/a-76899547?maca=de-rss-de-top-1016-xml-mrss",
+        "category": "Welt",
+        "source": "DW",
+        "publishedAt": "2026-04-22T17:30:00.000Z"
       },
       {
         "id": "76895301",
@@ -399,18 +435,6 @@
         "publishedAt": "2026-04-22T13:18:32.000Z"
       },
       {
-        "id": "76896345",
-        "title": "EU-Staaten geben Milliarden-Kredit für die Ukraine frei",
-        "summary": "Ungarn gibt nach langem Widerstand sein Veto auf und ermöglicht damit die Entscheidung in Brüssel. Gleichzeitig treibt die EU ein neues Sanktionspaket voran, das Russlands Einnahmen aus Energieexporten drücken soll.",
-        "paragraphs": [
-          "Ungarn gibt nach langem Widerstand sein Veto auf und ermöglicht damit die Entscheidung in Brüssel. Gleichzeitig treibt die EU ein neues Sanktionspaket voran, das Russlands Einnahmen aus Energieexporten drücken soll."
-        ],
-        "link": "https://www.dw.com/de/eu-staaten-geben-milliarden-kredit-für-die-ukraine-frei/a-76896345?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Aktuelles",
-        "source": "DW",
-        "publishedAt": "2026-04-22T13:01:00.000Z"
-      },
-      {
         "id": "li.3471987",
         "title": "Speicherung von IP-Adressen: Koalition verschärft Kampf gegen Internetkriminalität",
         "summary": "Das Bundeskabinett billigt einen Gesetzentwurf, der die Speicherung von IP-Adressen vorschreibt. Damit könne eine „zwanzigjährige Debatte um Freiheit und Sicherheit im Netz“ beendet werden, sagt Justizministerin Hubig.",
@@ -455,31 +479,45 @@
         "category": "Gesundheitspolitik",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-22T12:32:53.000Z"
-      },
-      {
-        "id": "li.3472230",
-        "title": "Universität Münster: Erste Islam-Fakultät in Deutschland",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/universitaet-muenster-erste-islam-fakultaet-in-deutschland-li.3472230",
-        "category": "Glaube und Religion",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-22T12:28:40.000Z"
-      },
-      {
-        "id": "li.3468737",
-        "title": "Bundespolitik: Umweltminister Schneider lehnt Reiches Stromnetz-Pläne ab",
-        "summary": "Der Entwurf der Wirtschaftsministerin sieht massive Einschränkungen für den Ökostrom-Ausbau vor. Schneider hält dagegen: Heimische erneuerbare Energien seien „die günstigste Energieform unserer Zeit“.",
-        "paragraphs": [
-          "Der Entwurf der Wirtschaftsministerin sieht massive Einschränkungen für den Ökostrom-Ausbau vor. Schneider hält dagegen: Heimische erneuerbare Energien seien „die günstigste Energieform unserer Zeit“."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-bundesregierung-schneider-reiche-kritik-li.3468737",
-        "category": "Bundesregierung",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-22T12:15:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/in-den-fussstapfen-von-ginobili-johnson-ist-sixth-man-of-the-year-1212829/artikel#omrss",
+        "title": "In den Fußstapfen von Ginobili: Johnson ist Sixth Man of the Year",
+        "summary": "Keldon Johnson wird für seine Rolle von der Bank bei den San Antonio Spurs belohnt. Der Forward gewinnt den Sixth Man of the Year Award der NBA.",
+        "paragraphs": [
+          "Keldon Johnson wird für seine Rolle von der Bank bei den San Antonio Spurs belohnt. Der Forward gewinnt den Sixth Man of the Year Award der NBA."
+        ],
+        "link": "https://www.kicker.de/in-den-fussstapfen-von-ginobili-johnson-ist-sixth-man-of-the-year-1212829/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-23T05:09:04.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/oklahoma-gegen-phoenix-2026-nba-playoffs-5198899/spielbericht#omrss",
+        "title": "SGA überragt: Thunder lassen Phoenix erneut keine Chance",
+        "summary": "Die Phoenix Suns blieben deutlich länger dran als noch in Spiel 1, doch erneut setze sich Oklahoma City durch. Vor allem nach der Pause übernahm OKC klar die Kontrolle und baut die Serienführung mit dem 120:107-Sieg auf 2-0 aus.",
+        "paragraphs": [
+          "Die Phoenix Suns blieben deutlich länger dran als noch in Spiel 1, doch erneut setze sich Oklahoma City durch. Vor allem nach der Pause übernahm OKC klar die Kontrolle und baut die Serienführung mit dem 120:107-Sieg auf 2-0 aus."
+        ],
+        "link": "https://www.kicker.de/oklahoma-gegen-phoenix-2026-nba-playoffs-5198899/spielbericht#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-23T04:46:04.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/detroit-gegen-orlando-2026-nba-playoffs-5198883/spielbericht#omrss",
+        "title": "30:3-Lauf entscheidet: Pistons überrollen Magic nach der Pause",
+        "summary": "Zur Halbzeit war noch alles ausgeglichen, dann folgte ein kompletter Einbruch der Orlando Magic. Detroit entschied das Spiel mit einem dominanten dritten Viertel zum 98:83-Sieg und gleicht die Serie damit zum 1-1 aus.",
+        "paragraphs": [
+          "Zur Halbzeit war noch alles ausgeglichen, dann folgte ein kompletter Einbruch der Orlando Magic. Detroit entschied das Spiel mit einem dominanten dritten Viertel zum 98:83-Sieg und gleicht die Serie damit zum 1-1 aus."
+        ],
+        "link": "https://www.kicker.de/detroit-gegen-orlando-2026-nba-playoffs-5198883/spielbericht#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-23T04:22:00.000Z"
+      },
       {
         "id": "{urn:uuid:bea3c396-55ed-4cf0-9ad2-e07093d46dec}",
         "title": "Fußball-WM 1930: Das Endspiel, mit dem alles begann",
@@ -517,13 +555,13 @@
         "publishedAt": "2026-04-23T01:29:30.000Z"
       },
       {
-        "id": "https://www.kicker.de/berlin-wurde-gefuehlt-vom-ersten-tag-an-von-gesprochen-1212812/artikel#omrss",
-        "title": "Berlin? \"Wurde gefühlt vom ersten Tag an von gesprochen\"",
+        "id": "https://www.kicker.de/neuer-ich-habe-berlin-auf-jeden-fall-vermisst-1212812/artikel#omrss",
+        "title": "Neuer: \"Ich habe Berlin auf jeden Fall vermisst\"",
         "summary": "Dank des verdienten Erfolgs bei Bayer Leverkusen erfüllten sich die Münchner am Mittwochabend einen in den letzten Monaten durchaus immer wieder geäußerten Wunsch: Die Rückkehr ins DFB-Pokalfinale nach über einem halben Jahrzehnt.",
         "paragraphs": [
           "Dank des verdienten Erfolgs bei Bayer Leverkusen erfüllten sich die Münchner am Mittwochabend einen in den letzten Monaten durchaus immer wieder geäußerten Wunsch: Die Rückkehr ins DFB-Pokalfinale nach über einem halben Jahrzehnt."
         ],
-        "link": "https://www.kicker.de/berlin-wurde-gefuehlt-vom-ersten-tag-an-von-gesprochen-1212812/artikel#omrss",
+        "link": "https://www.kicker.de/neuer-ich-habe-berlin-auf-jeden-fall-vermisst-1212812/artikel#omrss",
         "category": "Bayern München",
         "source": "Kicker",
         "publishedAt": "2026-04-22T22:15:30.000Z"
@@ -683,42 +721,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-04-22T20:43:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/nach-dem-titel-ist-vor-dem-champions-league-kracher-wir-traeumen-schon-lange-vom-finale-1212718/artikel#omrss",
-        "title": "Nach dem Titel ist vor dem Champions-League-Kracher: \"Wir träumen schon lange vom Finale\"",
-        "summary": "Die Münchenerinnen haben die vierte Meisterschaft am Stück perfekt gemacht. Nun kommt es zum Top-Duell gegen Barcelona.",
-        "paragraphs": [
-          "Die Münchenerinnen haben die vierte Meisterschaft am Stück perfekt gemacht. Nun kommt es zum Top-Duell gegen Barcelona."
-        ],
-        "link": "https://www.kicker.de/nach-dem-titel-ist-vor-dem-champions-league-kracher-wir-traeumen-schon-lange-vom-finale-1212718/artikel#omrss",
-        "category": "Barcala",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T20:24:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/mbc-gegen-manchester-2026-european-north-basketball-league-5198970/spielbericht#omrss",
-        "title": "Aus der Traum: MBC verspielt Heim-Finale in der ENBL",
-        "summary": "Lange geführt, dann alles verspielt: Der MBC verpasst das Europapokalfinale in der eigenen Halle. Außenseiter Manchester bewies bei den Wölfen mehr Biss.",
-        "paragraphs": [
-          "Lange geführt, dann alles verspielt: Der MBC verpasst das Europapokalfinale in der eigenen Halle. Außenseiter Manchester bewies bei den Wölfen mehr Biss."
-        ],
-        "link": "https://www.kicker.de/mbc-gegen-manchester-2026-european-north-basketball-league-5198970/spielbericht#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T20:10:15.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/wattenscheid-09-czapp-wird-neuer-trainer-an-der-lohrheide-1212792/artikel#omrss",
-        "title": "Wattenscheid 09: Czapp wird neuer Trainer an der Lohrheide",
-        "summary": "Oberligist SG Wattenscheid 09 hat einen neuen Cheftrainer unter Vertrag genommen. Der 36-jährige Przemyslaw Czapp übernimmt ab Sommer.",
-        "paragraphs": [
-          "Oberligist SG Wattenscheid 09 hat einen neuen Cheftrainer unter Vertrag genommen. Der 36-jährige Przemyslaw Czapp übernimmt ab Sommer."
-        ],
-        "link": "https://www.kicker.de/wattenscheid-09-czapp-wird-neuer-trainer-an-der-lohrheide-1212792/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-04-22T19:51:56.000Z"
       }
     ],
     "edv": [
@@ -735,16 +737,16 @@
         "publishedAt": "2026-04-22T19:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Gesundheitsdigitalisierung-Florian-Fuhrmann-ueber-die-neue-Rolle-der-Gematik-11267694.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Gesundheitsdigitalisierung: Florian Fuhrmann über die neue Rolle der Gematik",
-        "summary": "In ihrer weiterentwickelten Rolle will die Gematik die Digitalisierung besser orchestrieren und machte deutlich, dass sich die Rollen im System verschieben.",
+        "id": "https://www.heise.de/news/Donnerstag-Teslas-wachsende-Zahlen-und-Ambitionen-TSMC-Plaene-zur-Chipfertigung-11268672.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Donnerstag: Teslas wachsende Zahlen und Ambitionen, TSMC-Pläne zur Chipfertigung",
+        "summary": "E-Autos im Überfluss + TSMCs neue Fertigungsprozesse + Österreichs neue Paketabgabe + Hilfe für Online-Opfer + Gematik über Digitalisierungsrollen + #heiseshow",
         "paragraphs": [
-          "In ihrer weiterentwickelten Rolle will die Gematik die Digitalisierung besser orchestrieren und machte deutlich, dass sich die Rollen im System verschieben."
+          "E-Autos im Überfluss + TSMCs neue Fertigungsprozesse + Österreichs neue Paketabgabe + Hilfe für Online-Opfer + Gematik über Digitalisierungsrollen + #heiseshow"
         ],
-        "link": "https://www.heise.de/news/Gesundheitsdigitalisierung-Florian-Fuhrmann-ueber-die-neue-Rolle-der-Gematik-11267694.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Donnerstag-Teslas-wachsende-Zahlen-und-Ambitionen-TSMC-Plaene-zur-Chipfertigung-11268672.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-23T03:30:00.000Z"
+        "publishedAt": "2026-04-23T04:15:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Framework-Laptop-13-Pro-AMD-teurer-als-Intel-Ubuntu-vorinstalliert-11268365.html",
@@ -759,16 +761,16 @@
         "publishedAt": "2026-04-22T15:55:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Tesla-kann-Umsatz-Gewinn-und-Margen-steigern-aber-Ueberproduktion-laeuft-weiter-11268662.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Tesla kann Umsatz, Gewinn und Margen steigern, aber Überproduktion läuft weiter",
-        "summary": "Teslas Quartalszahlen sind besser als erwartet, nur der Umsatz nicht. Elon Musk verspricht baldige Massenfertigung von Cybercab, Semi Truck und Optimus Roboter.",
+        "id": "https://www.heise.de/news/heiseshow-EU-Altersverifikation-Unterwasser-Kabelschneider-Apple-Chefwechsel-11268236.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "#heiseshow: EU-Altersverifikation, Unterwasser-Kabelschneider, Apple-Chefwechsel",
+        "summary": "In der #heiseshow: Die EU-App zur Altersverifikation hat Sicherheitslücken, China testet einen Tiefsee-Kabelschneider und Apple kündigt einen Chefwechsel an.",
         "paragraphs": [
-          "Teslas Quartalszahlen sind besser als erwartet, nur der Umsatz nicht. Elon Musk verspricht baldige Massenfertigung von Cybercab, Semi Truck und Optimus Roboter."
+          "In der #heiseshow: Die EU-App zur Altersverifikation hat Sicherheitslücken, China testet einen Tiefsee-Kabelschneider und Apple kündigt einen Chefwechsel an."
         ],
-        "link": "https://www.heise.de/news/Tesla-kann-Umsatz-Gewinn-und-Margen-steigern-aber-Ueberproduktion-laeuft-weiter-11268662.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/heiseshow-EU-Altersverifikation-Unterwasser-Kabelschneider-Apple-Chefwechsel-11268236.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-23T03:03:00.000Z"
+        "publishedAt": "2026-04-23T04:11:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-Ausgefeilte-Prompts-fuer-ueberzeugende-Texte-11194801.html",
@@ -783,16 +785,16 @@
         "publishedAt": "2026-04-22T05:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Hass-im-Netz-Groschen-aus-Sofaritzen-fuer-Opferschutz-in-Oesterreich-11268628.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Hass im Netz: Groschen aus Sofaritzen für Opferschutz in Österreich",
-        "summary": "Rechtliche und psychosoziale Beratung gegen Hass im Netz geht in Österreich vorerst weiter. Zwei SPÖ-Ministerien „kratzen Rest-Euro aus den letzten Sofaritzen”.",
+        "id": "https://www.heise.de/news/Gesundheitsdigitalisierung-Florian-Fuhrmann-ueber-die-neue-Rolle-der-Gematik-11267694.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Gesundheitsdigitalisierung: Florian Fuhrmann über die neue Rolle der Gematik",
+        "summary": "In ihrer weiterentwickelten Rolle will die Gematik die Digitalisierung besser orchestrieren und machte deutlich, dass sich die Rollen im System verschieben.",
         "paragraphs": [
-          "Rechtliche und psychosoziale Beratung gegen Hass im Netz geht in Österreich vorerst weiter. Zwei SPÖ-Ministerien „kratzen Rest-Euro aus den letzten Sofaritzen”."
+          "In ihrer weiterentwickelten Rolle will die Gematik die Digitalisierung besser orchestrieren und machte deutlich, dass sich die Rollen im System verschieben."
         ],
-        "link": "https://www.heise.de/news/Hass-im-Netz-Groschen-aus-Sofaritzen-fuer-Opferschutz-in-Oesterreich-11268628.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Gesundheitsdigitalisierung-Florian-Fuhrmann-ueber-die-neue-Rolle-der-Gematik-11267694.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T21:30:00.000Z"
+        "publishedAt": "2026-04-23T03:30:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Apples-MacBook-Neo-ueberrollt-die-Konkurrenz-11264288.html",
@@ -807,16 +809,16 @@
         "publishedAt": "2026-04-22T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Neue-Steuer-in-Oesterreich-2-Euro-pro-Paket-aus-dem-Online-Handel-11268612.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Neue Steuer in Österreich: 2 Euro pro Paket aus dem Online-Handel",
-        "summary": "Online-Händler müssen sich warm anziehen: Zusätzlich zum EWR-Paketzoll und einer EU-Bearbeitungsgebühr kommen in Österreich 2 Euro Paketabgabe. Es wird komplex.",
+        "id": "https://www.heise.de/news/Tesla-kann-Umsatz-Gewinn-und-Margen-steigern-aber-Ueberproduktion-laeuft-weiter-11268662.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Tesla kann Umsatz, Gewinn und Margen steigern, aber Überproduktion läuft weiter",
+        "summary": "Teslas Quartalszahlen sind besser als erwartet, nur der Umsatz nicht. Elon Musk verspricht baldige Massenfertigung von Cybercab, Semi Truck und Optimus Roboter.",
         "paragraphs": [
-          "Online-Händler müssen sich warm anziehen: Zusätzlich zum EWR-Paketzoll und einer EU-Bearbeitungsgebühr kommen in Österreich 2 Euro Paketabgabe. Es wird komplex."
+          "Teslas Quartalszahlen sind besser als erwartet, nur der Umsatz nicht. Elon Musk verspricht baldige Massenfertigung von Cybercab, Semi Truck und Optimus Roboter."
         ],
-        "link": "https://www.heise.de/news/Neue-Steuer-in-Oesterreich-2-Euro-pro-Paket-aus-dem-Online-Handel-11268612.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Tesla-kann-Umsatz-Gewinn-und-Margen-steigern-aber-Ueberproduktion-laeuft-weiter-11268662.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T20:46:00.000Z"
+        "publishedAt": "2026-04-23T03:03:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Framework-Laptop-13-Pro-verlaengert-Akkulaufzeit-erheblich-11266002.html",
@@ -831,16 +833,16 @@
         "publishedAt": "2026-04-21T18:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Chipfertigung-Das-sind-die-Plaene-des-Weltmarktfuehrers-TSMC-bis-2029-11268528.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Chipfertigung: Das sind die Pläne des Weltmarktführers TSMC bis 2029",
-        "summary": "TSMC setzt drei weitere Fertigungsprozesse auf seine Roadmap: A13, A12 und N2U. Bei den immer größer werdenden Chipkonstrukten plant TSMC um.",
+        "id": "https://www.heise.de/news/Hass-im-Netz-Groschen-aus-Sofaritzen-fuer-Opferschutz-in-Oesterreich-11268628.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Hass im Netz: Groschen aus Sofaritzen für Opferschutz in Österreich",
+        "summary": "Rechtliche und psychosoziale Beratung gegen Hass im Netz geht in Österreich vorerst weiter. Zwei SPÖ-Ministerien „kratzen Rest-Euro aus den letzten Sofaritzen”.",
         "paragraphs": [
-          "TSMC setzt drei weitere Fertigungsprozesse auf seine Roadmap: A13, A12 und N2U. Bei den immer größer werdenden Chipkonstrukten plant TSMC um."
+          "Rechtliche und psychosoziale Beratung gegen Hass im Netz geht in Österreich vorerst weiter. Zwei SPÖ-Ministerien „kratzen Rest-Euro aus den letzten Sofaritzen”."
         ],
-        "link": "https://www.heise.de/news/Chipfertigung-Das-sind-die-Plaene-des-Weltmarktfuehrers-TSMC-bis-2029-11268528.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Hass-im-Netz-Groschen-aus-Sofaritzen-fuer-Opferschutz-in-Oesterreich-11268628.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T19:00:00.000Z"
+        "publishedAt": "2026-04-22T21:30:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Oppo-Find-X9-Ultra-Neues-Kamera-Flaggschiff-mit-Hasselblad-Kameras-11265886.html",
@@ -855,16 +857,16 @@
         "publishedAt": "2026-04-21T12:30:00.000Z"
       },
       {
-        "id": "https://www.heise.de/bestenlisten/testsieger/top-7-die-besten-4k-beamer-bis-2000-euro-knackscharf-schlau-und-richtig-hell/pc1vnzg?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 7: Die besten 4K-Beamer bis 2000 Euro",
-        "summary": "Filme und Serien machen auf der großen Leinwand noch mehr Spaß als am TV. Wir haben uns 4K-Beamer bis 2000 Euro angeschaut und zeigen hier unsere Top 7.",
+        "id": "https://www.heise.de/news/Neue-Steuer-in-Oesterreich-2-Euro-pro-Paket-aus-dem-Online-Handel-11268612.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Neue Steuer in Österreich: 2 Euro pro Paket aus dem Online-Handel",
+        "summary": "Online-Händler müssen sich warm anziehen: Zusätzlich zum EWR-Paketzoll und einer EU-Bearbeitungsgebühr kommen in Österreich 2 Euro Paketabgabe. Es wird komplex.",
         "paragraphs": [
-          "Filme und Serien machen auf der großen Leinwand noch mehr Spaß als am TV. Wir haben uns 4K-Beamer bis 2000 Euro angeschaut und zeigen hier unsere Top 7."
+          "Online-Händler müssen sich warm anziehen: Zusätzlich zum EWR-Paketzoll und einer EU-Bearbeitungsgebühr kommen in Österreich 2 Euro Paketabgabe. Es wird komplex."
         ],
-        "link": "https://www.heise.de/bestenlisten/testsieger/top-7-die-besten-4k-beamer-bis-2000-euro-knackscharf-schlau-und-richtig-hell/pc1vnzg?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Neue-Steuer-in-Oesterreich-2-Euro-pro-Paket-aus-dem-Online-Handel-11268612.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-22T18:00:00.000Z"
+        "publishedAt": "2026-04-22T20:46:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/OnePlus-prueft-Zukunft-in-Europa-Mitarbeiter-verlassen-das-Unternehmen-11265245.html",
@@ -879,6 +881,30 @@
         "publishedAt": "2026-04-21T07:19:00.000Z"
       },
       {
+        "id": "https://www.heise.de/news/Chipfertigung-Das-sind-die-Plaene-des-Weltmarktfuehrers-TSMC-bis-2029-11268528.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Chipfertigung: Das sind die Pläne des Weltmarktführers TSMC bis 2029",
+        "summary": "TSMC setzt drei weitere Fertigungsprozesse auf seine Roadmap: A13, A12 und N2U. Bei den immer größer werdenden Chipkonstrukten plant TSMC um.",
+        "paragraphs": [
+          "TSMC setzt drei weitere Fertigungsprozesse auf seine Roadmap: A13, A12 und N2U. Bei den immer größer werdenden Chipkonstrukten plant TSMC um."
+        ],
+        "link": "https://www.heise.de/news/Chipfertigung-Das-sind-die-Plaene-des-Weltmarktfuehrers-TSMC-bis-2029-11268528.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-22T19:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/bestenlisten/testsieger/top-7-die-besten-4k-beamer-bis-2000-euro-knackscharf-schlau-und-richtig-hell/pc1vnzg?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Top 7: Die besten 4K-Beamer bis 2000 Euro",
+        "summary": "Filme und Serien machen auf der großen Leinwand noch mehr Spaß als am TV. Wir haben uns 4K-Beamer bis 2000 Euro angeschaut und zeigen hier unsere Top 7.",
+        "paragraphs": [
+          "Filme und Serien machen auf der großen Leinwand noch mehr Spaß als am TV. Wir haben uns 4K-Beamer bis 2000 Euro angeschaut und zeigen hier unsere Top 7."
+        ],
+        "link": "https://www.heise.de/bestenlisten/testsieger/top-7-die-besten-4k-beamer-bis-2000-euro-knackscharf-schlau-und-richtig-hell/pc1vnzg?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-04-22T18:00:00.000Z"
+      },
+      {
         "id": "https://www.heise.de/news/BMW-7er-Facelift-Der-i7-bleibt-bei-400-Volt-11268379.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "title": "BMW 7er Facelift: Der i7 bleibt bei 400 Volt",
         "summary": "BMW überarbeitet den 7er, ohne seine Gestaltung zierlicher erscheinen zu lassen. Der i7 bleibt bei einem 400-V-System und soll dennoch schneller laden.",
@@ -889,18 +915,6 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-22T16:55:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Machtwechsel-bei-Apple-Tim-Cook-uebergibt-an-John-Ternus-11265059.html",
-        "title": "Machtwechsel bei Apple: Tim Cook übergibt an John Ternus",
-        "summary": "Die Personalie ist keine Überraschung, aber dennoch ein Paukenschlag: Bei Apple endet die erfolgreiche Ära Tim Cook. Hardware-Chef John Ternus übernimmt.",
-        "paragraphs": [
-          "Die Personalie ist keine Überraschung, aber dennoch ein Paukenschlag: Bei Apple endet die erfolgreiche Ära Tim Cook. Hardware-Chef John Ternus übernimmt."
-        ],
-        "link": "https://www.heise.de/news/Machtwechsel-bei-Apple-Tim-Cook-uebergibt-an-John-Ternus-11265059.html",
-        "category": null,
-        "source": "c't",
-        "publishedAt": "2026-04-20T22:22:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/n8n-Updates-beheben-kritische-Sicherheitsluecken-in-Automatisierungsplattform-11268464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -949,32 +963,92 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-04-22T15:08:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Bericht-Schulbuchverlag-soll-KI-Inhalte-als-menschliche-Werke-ausgegeben-haben-11268357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Fehler in Schulbüchern: Verlag nach Bericht in der Kritik",
-        "summary": "Ein Schulbuchverlag steht in der Kritik, weil er mutmaßlich KI-generierte Grafiken und Texte als menschliche Arbeit verkauft haben soll.",
-        "paragraphs": [
-          "Ein Schulbuchverlag steht in der Kritik, weil er mutmaßlich KI-generierte Grafiken und Texte als menschliche Arbeit verkauft haben soll."
-        ],
-        "link": "https://www.heise.de/news/Bericht-Schulbuchverlag-soll-KI-Inhalte-als-menschliche-Werke-ausgegeben-haben-11268357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-04-22T14:57:00.000Z"
       }
     ],
     "börse": [
       {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-        "title": "Börse am 22. April: Sechs Punkte, die für Anleger heute wichtig sind",
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiens-boersen-schliessen-nach-rekordjagd-im-minus-nahost-sorgen-belasten/100219246.html",
+        "title": "Nikkei, Yen, Hang Seng: Asiens Börsen schließen nach Rekordjagd im Minus – Nahost-Sorgen belasten",
+        "summary": "Die Rekordjagd ist passé – die Börsen in Asien beenden den Handelstag im Minus. Spannungen im Nahen Osten dämpften die Risikobereitschaft der Anleger.",
+        "paragraphs": [
+          "Die Rekordjagd ist passé – die Börsen in Asien beenden den Handelstag im Minus. Spannungen im Nahen Osten dämpften die Risikobereitschaft der Anleger."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiens-boersen-schliessen-nach-rekordjagd-im-minus-nahost-sorgen-belasten/100219246.html",
+        "category": "Marktberichte",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-23T04:54:54.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/ausbau-des-flughafens-erste-passagiere-im-frankfurter-terminal-3-angekommen/100219262.html",
+        "title": "Ausbau des Flughafens: Erste Passagiere im Frankfurter Terminal 3 angekommen",
+        "summary": "Nach mehr als zehn Jahren Bauzeit ist Terminal 3 in Frankfurt in Betrieb: Die ersten Gäste aus China sind gelandet, weitere Airlines folgen bis zum Sommer.",
+        "paragraphs": [
+          "Nach mehr als zehn Jahren Bauzeit ist Terminal 3 in Frankfurt in Betrieb: Die ersten Gäste aus China sind gelandet, weitere Airlines folgen bis zum Sommer."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/ausbau-des-flughafens-erste-passagiere-im-frankfurter-terminal-3-angekommen/100219262.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-23T04:50:52.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/usa-us-marine-staatssekretaer-phelan-tritt-ab/100219265.html",
+        "title": "USA: US-Marine-Staatssekretär Phelan tritt ab",
+        "summary": "Obwohl der Iran-Krieg weiter schwelt, tritt Marine-Staatssekretär John Phelan überraschend zurück. Die Gründe bleiben unklar, sein Abgang kommt zu einem heiklen Zeitpunkt.",
+        "paragraphs": [
+          "Obwohl der Iran-Krieg weiter schwelt, tritt Marine-Staatssekretär John Phelan überraschend zurück. Die Gründe bleiben unklar, sein Abgang kommt zu einem heiklen Zeitpunkt."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/usa-us-marine-staatssekretaer-phelan-tritt-ab/100219265.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-23T04:49:15.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/forschung-innovation/buckelwal-vor-poel-buckelwal-liegt-noch-in-bucht-er-war-nicht-so-aktiv/100219227.html",
+        "title": "Buckelwal vor Poel: Buckelwal liegt noch in Bucht - „Er war nicht so aktiv“",
+        "summary": "Der am Ende der Kirchsee an der Insel Poel liegende Buckelwal hängt weiter fest. Die Nacht in der kleinen Kuhle hat er aber überstanden. Am Morgen zeigte er allerdings nur wenig Aktivität.",
+        "paragraphs": [
+          "Der am Ende der Kirchsee an der Insel Poel liegende Buckelwal hängt weiter fest. Die Nacht in der kleinen Kuhle hat er aber überstanden. Am Morgen zeigte er allerdings nur wenig Aktivität."
+        ],
+        "link": "https://www.handelsblatt.com/technik/forschung-innovation/buckelwal-vor-poel-buckelwal-liegt-noch-in-bucht-er-war-nicht-so-aktiv/100219227.html",
+        "category": "Forschung + Innovation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-23T04:46:31.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-kubicki-ueber-afd-ich-kenne-keine-brandmauer/100137034.html",
+        "title": "+++ Bundespolitik +++: Kubicki über AfD: „Ich kenne keine Brandmauer“",
+        "summary": "IG-Metall-Chefin droht Regierung mit Protesten +++ AfD-Mann Moosdorf droht Strafe nach Attacke auf Frohnmaier +++ Verlängerung der Entlastungsprämie in finalen Zügen +++ Der Newsblog.",
+        "paragraphs": [
+          "IG-Metall-Chefin droht Regierung mit Protesten +++ AfD-Mann Moosdorf droht Strafe nach Attacke auf Frohnmaier +++ Verlängerung der Entlastungsprämie in finalen Zügen +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-kubicki-ueber-afd-ich-kenne-keine-brandmauer/100137034.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-23T04:43:03.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/beratungsgesellschaft-boston-consulting-waechst-mit-ki-und-ruestung/100219261.html",
+        "title": "Beratungsgesellschaft: Boston Consulting wächst mit KI und Rüstung",
+        "summary": "Die Boston Consulting Group setzt auf den Umbruch mit Künstlicher Intelligenz und auf den Rüstungsboom. Zugleich muss sich die Beratungsgesellschaft selbst wandeln.",
+        "paragraphs": [
+          "Die Boston Consulting Group setzt auf den Umbruch mit Künstlicher Intelligenz und auf den Rüstungsboom. Zugleich muss sich die Beratungsgesellschaft selbst wandeln."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/beratungsgesellschaft-boston-consulting-waechst-mit-ki-und-ruestung/100219261.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-23T04:32:01.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+        "title": "Börse am 23. April: Sieben Punkte, die für Anleger heute wichtig sind",
         "summary": "Am deutschen Aktienmarkt herrscht trotz der verlängerten Waffenruhe Unsicherheit wegen des Iran-Konfliktes. Anlegerinnen und Anleger blicken zudem auf diverse Unternehmenszahlen.",
         "paragraphs": [
           "Am deutschen Aktienmarkt herrscht trotz der verlängerten Waffenruhe Unsicherheit wegen des Iran-Konfliktes. Anlegerinnen und Anleger blicken zudem auf diverse Unternehmenszahlen."
         ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
         "category": "Marktberichte",
         "source": "Handelsblatt",
-        "publishedAt": "2026-04-23T04:20:00.000Z"
+        "publishedAt": "2026-04-23T04:20:02.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/audio/podcast-morning-briefing/handelsblatt-morning-briefing-konjunktur-das-schrumpfende-wachstum---elektromobilitaet-deutsche-autos-schwaecheln-in-china/100219257.html",
@@ -1023,18 +1097,6 @@
         "category": "Management",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-23T03:45:21.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiens-boersen-drehen-nach-rekordjagd-ins-minus-nahost-sorgen-belasten/100219246.html",
-        "title": "Nikkei, Yen, Hang Seng: Asiens Börsen drehen nach Rekordjagd ins Minus – Nahost-Sorgen belasten",
-        "summary": "Nach einer Rekordjagd haben die Börsen in Asien ins Minus gedreht. Spannungen im Nahen Osten dämpfen die Risikobereitschaft der Anleger.",
-        "paragraphs": [
-          "Nach einer Rekordjagd haben die Börsen in Asien ins Minus gedreht. Spannungen im Nahen Osten dämpfen die Risikobereitschaft der Anleger."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiens-boersen-drehen-nach-rekordjagd-ins-minus-nahost-sorgen-belasten/100219246.html",
-        "category": "Marktberichte",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-23T03:20:40.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/politik/international/iran-krieg-pentagon-minenraeumung-in-der-strasse-von-hormus-wird-monate-dauern/100136895.html",
@@ -1143,66 +1205,6 @@
         "category": "Industrie",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-23T02:11:23.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/marge-statt-masse-wie-henkel-mit-absatzproblemen-und-preisdruck-kaempft/100216911.html",
-        "title": "Henkel: Marge statt Masse: Wie Henkel mit Absatzproblemen und Preisdruck kämpft",
-        "summary": "Mit dem Verkauf wenig rentabler Marken hat Henkel-Chef Carsten Knobel die zuvor schwächelnde Konsumgütersparte auf Rendite getrimmt. Doch Anleger bleiben skeptisch.",
-        "paragraphs": [
-          "Mit dem Verkauf wenig rentabler Marken hat Henkel-Chef Carsten Knobel die zuvor schwächelnde Konsumgütersparte auf Rendite getrimmt. Doch Anleger bleiben skeptisch."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/marge-statt-masse-wie-henkel-mit-absatzproblemen-und-preisdruck-kaempft/100216911.html",
-        "category": "Handel + Konsumgüter",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-23T02:09:12.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/elektromobilitaet-ein-plus-von-78-prozent-darum-boomen-die-stromer-in-europa/100216743.html",
-        "title": "Elektromobilität: Ein Plus von 78 Prozent – darum kaufen so viele Europäer plötzlich E-Autos",
-        "summary": "Während der Absatz von E-Autos in China und den USA einbricht, entwickeln sich die Zahlen in Europa dynamisch. Das liegt nicht nur an den steigenden Spritpreisen.",
-        "paragraphs": [
-          "Während der Absatz von E-Autos in China und den USA einbricht, entwickeln sich die Zahlen in Europa dynamisch. Das liegt nicht nur an den steigenden Spritpreisen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/elektromobilitaet-ein-plus-von-78-prozent-darum-boomen-die-stromer-in-europa/100216743.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-23T02:06:15.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/asiatische-onlinehaendler-schaetzung-temu-und-shein-kosten-einzelhandel-milliarden/100219238.html",
-        "title": "Asiatische Onlinehändler: Schätzung: Temu und Shein kosten Einzelhandel Milliarden",
-        "summary": "Viele Menschen kaufen Produkte bei Temu und Shein. Welche Auswirkungen hat das für die deutsche Wirtschaft? Forscher haben dies nun berechnet.",
-        "paragraphs": [
-          "Viele Menschen kaufen Produkte bei Temu und Shein. Welche Auswirkungen hat das für die deutsche Wirtschaft? Forscher haben dies nun berechnet."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/asiatische-onlinehaendler-schaetzung-temu-und-shein-kosten-einzelhandel-milliarden/100219238.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-23T02:01:05.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/elektroauto-vorreiter-tesla-sieht-baldige-eu-zulassung-fuer-neues-assistenzsystem/100219234.html",
-        "title": "Elektroauto-Vorreiter: Tesla sieht baldige EU-Zulassung für neues Assistenzsystem",
-        "summary": "Auch in Deutschland dürften Tesla-Fahrer bald die Steuerung weitgehend dem Auto überlassen können, während sie weiter die Verantwortung tragen. In den USA beginnt der Bau von Robotaxis und Robotern.",
-        "paragraphs": [
-          "Auch in Deutschland dürften Tesla-Fahrer bald die Steuerung weitgehend dem Auto überlassen können, während sie weiter die Verantwortung tragen. In den USA beginnt der Bau von Robotaxis und Robotern."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/elektroauto-vorreiter-tesla-sieht-baldige-eu-zulassung-fuer-neues-assistenzsystem/100219234.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-23T01:18:06.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/elektroautos-musk-hat-wieder-mehr-geld-in-der-kasse-und-daempft-die-erwartungen/100218639.html",
-        "title": "Elektroautos: Musk hat wieder mehr Geld in der Kasse – und dämpft die Erwartungen",
-        "summary": "Tesla hat nach den Einbrüchen des vergangenen Jahres die Kehrtwende geschafft. Bei wichtigen Zukunftsprojekten gab sich Elon Musk aber verhalten – und enttäuschte die Hoffnungen der Anleger.",
-        "paragraphs": [
-          "Tesla hat nach den Einbrüchen des vergangenen Jahres die Kehrtwende geschafft. Bei wichtigen Zukunftsprojekten gab sich Elon Musk aber verhalten – und enttäuschte die Hoffnungen der Anleger."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/elektroautos-musk-hat-wieder-mehr-geld-in-der-kasse-und-daempft-die-erwartungen/100218639.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-23T01:17:06.000Z"
       }
     ]
   }
