@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T15:26:57.388Z",
+  "updatedAt": "2026-04-26T15:47:50.893Z",
   "categories": {
     "wirtschaft": [
       {
@@ -245,6 +245,30 @@
     ],
     "politik": [
       {
+        "id": "li.3474168",
+        "title": "SZ am Abend: Nachrichten vom 26. April 2026",
+        "summary": "Was heute wichtig war.",
+        "paragraphs": [
+          "Was heute wichtig war."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/news-schuesse-usa-trump-korrespondenten-dinner-signal-spionage-russland-marathon-weltrekord-li.3474168",
+        "category": "SZ Nachrichten des Tages",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-26T15:30:35.000Z"
+      },
+      {
+        "id": "li.3473477",
+        "title": "Besuch von Charles III. in Washington: Vergoldete Retourkutsche",
+        "summary": "Eine besondere Beziehung: Der britische König besucht US-Präsident Trump und soll sogar im Kongress sprechen. Dass hier ein Erdöl-Lobbyist und ein Ökologe aufeinandertreffen, dürfte nicht die einzige Konfliktquelle sein.",
+        "paragraphs": [
+          "Eine besondere Beziehung: Der britische König besucht US-Präsident Trump und soll sogar im Kongress sprechen. Dass hier ein Erdöl-Lobbyist und ein Ökologe aufeinandertreffen, dürfte nicht die einzige Konfliktquelle sein."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/charles-trump-besuch-washington-li.3473477",
+        "category": "USA",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-04-26T15:21:02.000Z"
+      },
+      {
         "id": "76895847",
         "title": "Missbraucht die AfD parlamentarische Anfragen zur Einschüchterung?",
         "summary": "Die AfD stellt in den Parlamenten in Deutschland tausende Anfragen. Das ist ihr gutes Recht. Kritiker sehen darin jedoch eine gezielte Einschüchterung politischer Gegner.",
@@ -443,30 +467,6 @@
         "publishedAt": "2026-04-26T10:17:16.000Z"
       },
       {
-        "id": "li.3453745",
-        "title": "Internationale Sicherheitspolitik: Wild Wild West",
-        "summary": "Wer oder was ist eigentlich „der Westen“ und warum geriet er in eine tiefe Krise? Und welche Auswege gäbe es? Die Journalisten Jörg Lau und Ferdinand Knauß haben unterschiedliche Ansätze und teils konträre Antworten.",
-        "paragraphs": [
-          "Wer oder was ist eigentlich „der Westen“ und warum geriet er in eine tiefe Krise? Und welche Auswege gäbe es? Die Journalisten Jörg Lau und Ferdinand Knauß haben unterschiedliche Ansätze und teils konträre Antworten."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/krise-westen-buchkritik-europa-usa-li.3453745",
-        "category": "Sicherheitspolitik",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-26T10:16:15.000Z"
-      },
-      {
-        "id": "er.e581996",
-        "title": "Gewaltprävention: Klimmzüge statt Leute abzocken, Disziplin statt Drogen",
-        "summary": "Daniel Magel hätte dort landen können, wo viele aus Bremen-Tenever gelandet sind. Es war der Sport, der ihn rettete, vor den Drogen, der Gewalt, dem Gefängnis. Heute will er andere retten. Aber er hat einen neuen Gegner: die eigene Erschöpfung.",
-        "paragraphs": [
-          "Daniel Magel hätte dort landen können, wo viele aus Bremen-Tenever gelandet sind. Es war der Sport, der ihn rettete, vor den Drogen, der Gewalt, dem Gefängnis. Heute will er andere retten. Aber er hat einen neuen Gegner: die eigene Erschöpfung."
-        ],
-        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/daniel-magel-hood-training-bremen-tenever-jugendliche-e581996/",
-        "category": "Jugendkriminalität",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-26T10:00:00.000Z"
-      },
-      {
         "id": "76942016",
         "title": "Bombenangriff erschüttert Kolumbien kurz vor Präsidentenwahl",
         "summary": "14 Tote und viele Verletzte - das ist die Bilanz eines Sprengstoffanschlags auf einen Kleinbus im Südwesten Kolumbiens. Das Land befindet sich kurz vor der Präsidentenwahl in einer Phase der zunehmenden Gewalt.",
@@ -481,8 +481,20 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/sawe-ueber-weltrekord-habe-nicht-daran-geglaubt-1213893/video#omrss",
+        "title": "Sawe über Weltrekord: \"Habe nicht daran geglaubt\"",
+        "summary": "Der Kenianer Sebastian Sawe begeistert London mit einer historischen Leistung. Der 31-Jährige läuft einen offiziell anerkannten Marathon unter zwei Stunden und stellt damit einen neuen Weltrekord auf.",
+        "paragraphs": [
+          "Der Kenianer Sebastian Sawe begeistert London mit einer historischen Leistung. Der 31-Jährige läuft einen offiziell anerkannten Marathon unter zwei Stunden und stellt damit einen neuen Weltrekord auf."
+        ],
+        "link": "https://www.kicker.de/sawe-ueber-weltrekord-habe-nicht-daran-geglaubt-1213893/video#omrss",
+        "category": "Leichtathletik",
+        "source": "Kicker",
+        "publishedAt": "2026-04-26T15:44:02.000Z"
+      },
+      {
         "id": "https://www.kicker.de/arsenal-gegen-lyon-2026-frauen-champions-league-5183512/spielbericht#omrss",
-        "title": "LIVE! Dank Brand: Lyon führt zur Pause im Emirates Stadium",
+        "title": "LIVE! VAR-Check: Arsenals Strafstoß wird einkassiert",
         "summary": "Nachdem der FC Bayern und Barcelona am Samstag vorgelegt haben (1:1), ziehen Arsenal und Lyon am Sonntag mit dem zweiten Halbfinal-Hinspiel nach. Wer verschafft sich im Emirates Stadium die bessere Ausgangslage?",
         "paragraphs": [
           "Nachdem der FC Bayern und Barcelona am Samstag vorgelegt haben (1:1), ziehen Arsenal und Lyon am Sonntag mit dem zweiten Halbfinal-Hinspiel nach. Wer verschafft sich im Emirates Stadium die bessere Ausgangslage?"
@@ -490,7 +502,55 @@
         "link": "https://www.kicker.de/arsenal-gegen-lyon-2026-frauen-champions-league-5183512/spielbericht#omrss",
         "category": "Arsenal WFC",
         "source": "Kicker",
-        "publishedAt": "2026-04-26T15:16:51.000Z"
+        "publishedAt": "2026-04-26T15:40:52.000Z"
+      },
+      {
+        "id": "{urn:uuid:9f6865fe-a7a7-47cb-a0a2-58f3bae9a19d}",
+        "title": "Bundesliga 31. Spieltag – Sonntag: Stuttgart und Bremen spielen Remis",
+        "summary": "Erst führt Werder Bremen, dann schafft der VfB Stuttgart den Ausgleich. Für mehr als ein Unentschieden reicht es für die Stuttgarter allerdings nicht. Der Spielbericht",
+        "paragraphs": [
+          "Erst führt Werder Bremen, dann schafft der VfB Stuttgart den Ausgleich. Für mehr als ein Unentschieden reicht es für die Stuttgarter allerdings nicht. Der Spielbericht"
+        ],
+        "link": "https://www.zeit.de/sport/2026-04/bundesliga-31-spieltag-sonntag-stuttgart-werder-bremen-dortmund-freiburg",
+        "category": "Sport",
+        "source": "ZEIT",
+        "publishedAt": "2026-04-26T15:33:17.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/sofortige-trennung-stuttgarter-kickers-setzen-wildersinn-vor-die-tuer-1213875/artikel#omrss",
+        "title": "Sofortige Trennung: Stuttgarter Kickers setzen Wildersinn vor die Tür",
+        "summary": "Marco Wildersinn ist nicht länger Trainer der Stuttgarter Kickers. Die 1:3-Niederlage gegen Absteiger TSV Schott Mainz brachte das Fass zum Überlaufen: Die ohnehin zur neuen Saison geplante Trennung wurde vorgezogen.",
+        "paragraphs": [
+          "Marco Wildersinn ist nicht länger Trainer der Stuttgarter Kickers. Die 1:3-Niederlage gegen Absteiger TSV Schott Mainz brachte das Fass zum Überlaufen: Die ohnehin zur neuen Saison geplante Trennung wurde vorgezogen."
+        ],
+        "link": "https://www.kicker.de/sofortige-trennung-stuttgarter-kickers-setzen-wildersinn-vor-die-tuer-1213875/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-26T15:20:29.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/spektakulaerer-schalke-sieg-gemerkt-wie-viel-bei-den-spielern-abgefallen-ist-1213880/video#omrss",
+        "title": "Spektakulärer Schalke-Sieg: \"Gemerkt, wie viel bei den Spielern abgefallen ist\"",
+        "summary": "Schon am nächsten Wochenende könnte der FC Schalke 04 seine Rückkehr in die Bundesliga feiern. Der spektakuläre 3:2-Sieg gegen den SC Paderborn setzte bei Spielern und Fans einiges an Energie frei, wie kicker-Reporter Dennis Zaremba berichtet.",
+        "paragraphs": [
+          "Schon am nächsten Wochenende könnte der FC Schalke 04 seine Rückkehr in die Bundesliga feiern. Der spektakuläre 3:2-Sieg gegen den SC Paderborn setzte bei Spielern und Fans einiges an Energie frei, wie kicker-Reporter Dennis Zaremba berichtet."
+        ],
+        "link": "https://www.kicker.de/spektakulaerer-schalke-sieg-gemerkt-wie-viel-bei-den-spielern-abgefallen-ist-1213880/video#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-26T15:18:22.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/trotz-niederlagen-serie-glatzel-ist-ein-gewinner-1213852/artikel#omrss",
+        "title": "Trotz Niederlagen-Serie: Glatzel ist ein Gewinner",
+        "summary": "Der HSV verliert seit Wochen Spiel für Spiel, in der Tabelle aufgrund der ebenfalls schwächelnden Konkurrenz St. Pauli und Wolfsburg aber (noch) nicht an Boden. Einen Gewinner gibt es dennoch: Robert Glatzel ist im Endspurt wieder wichtig.",
+        "paragraphs": [
+          "Der HSV verliert seit Wochen Spiel für Spiel, in der Tabelle aufgrund der ebenfalls schwächelnden Konkurrenz St. Pauli und Wolfsburg aber (noch) nicht an Boden. Einen Gewinner gibt es dennoch: Robert Glatzel ist im Endspurt wieder wichtig."
+        ],
+        "link": "https://www.kicker.de/trotz-niederlagen-serie-glatzel-ist-ein-gewinner-1213852/artikel#omrss",
+        "category": "Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-04-26T15:15:28.000Z"
       },
       {
         "id": "https://www.kicker.de/wir-sind-mentalitaetsmonster-manu-feiert-energie-1213873/video#omrss",
@@ -517,13 +577,13 @@
         "publishedAt": "2026-04-26T14:49:20.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-dortmund-startet-mit-inacio-sieben-wechsel-freiburg-ohne-ginter-und-manzambi-1213113/artikel#omrss",
-        "title": "LIVE! Dortmund startet mit Inacio - Sieben Wechsel: Freiburg ohne Ginter und Manzambi",
+        "id": "https://www.kicker.de/live-beier-trifft-frueh-guirassy-legt-schnell-nach-1213113/artikel#omrss",
+        "title": "LIVE! Beier trifft früh, Guirassy legt schnell nach",
         "summary": "Entscheidende Wochen für den SC Freiburg: Vor dem Halbfinal-Hinspiel in der Europa League gegen Braga treten die Breisgauer in Dortmund an. Kann der SC beim BVB den dritten Bundesliga-Sieg in Serie einfahren?",
         "paragraphs": [
           "Entscheidende Wochen für den SC Freiburg: Vor dem Halbfinal-Hinspiel in der Europa League gegen Braga treten die Breisgauer in Dortmund an. Kann der SC beim BVB den dritten Bundesliga-Sieg in Serie einfahren?"
         ],
-        "link": "https://www.kicker.de/live-dortmund-startet-mit-inacio-sieben-wechsel-freiburg-ohne-ginter-und-manzambi-1213113/artikel#omrss",
+        "link": "https://www.kicker.de/live-beier-trifft-frueh-guirassy-legt-schnell-nach-1213113/artikel#omrss",
         "category": null,
         "source": "Kicker",
         "publishedAt": "2026-04-26T14:30:00.000Z"
@@ -659,66 +719,6 @@
         "category": "2. Bundesliga",
         "source": "Kicker",
         "publishedAt": "2026-04-26T13:43:32.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/in-mainz-verletzt-bayern-ohne-guerreiro-gegen-psg-1213832/artikel#omrss",
-        "title": "In Mainz verletzt: Bayern ohne Guerreiro gegen PSG",
-        "summary": "Der FC Bayern München muss vorerst auf Raphael Guerreiro verzichten. Der 32-Jährige hat sich beim rasanten 4:3 in Mainz verletzt.",
-        "paragraphs": [
-          "Der FC Bayern München muss vorerst auf Raphael Guerreiro verzichten. Der 32-Jährige hat sich beim rasanten 4:3 in Mainz verletzt."
-        ],
-        "link": "https://www.kicker.de/in-mainz-verletzt-bayern-ohne-guerreiro-gegen-psg-1213832/artikel#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-04-26T13:35:34.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/das-restprogramm-in-der-2-bundesliga-940596/artikel#omrss",
-        "title": "Das Restprogramm in der 2. Bundesliga",
-        "summary": "Nur noch wenige Spieltage sind im Bundesliga-Unterhaus zu absolvieren. Wer löst die Tickets für den Aufstieg? Wer kann sich dem Niedergang in Liga drei entziehen? Das Restprogramm der 18 Klubs auf einen Blick.",
-        "paragraphs": [
-          "Nur noch wenige Spieltage sind im Bundesliga-Unterhaus zu absolvieren. Wer löst die Tickets für den Aufstieg? Wer kann sich dem Niedergang in Liga drei entziehen? Das Restprogramm der 18 Klubs auf einen Blick."
-        ],
-        "link": "https://www.kicker.de/das-restprogramm-in-der-2-bundesliga-940596/artikel#omrss",
-        "category": "1. FC Kaiserslautern",
-        "source": "Kicker",
-        "publishedAt": "2026-04-26T13:30:45.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/chelsea-gegen-leeds-2026-fa-cup-5198633/spielbericht#omrss",
-        "title": "LIVE! Stach kommt zur Pause - und setzt direkt ein Zeichen",
-        "summary": "Liam Rosenior ist Geschichte. Nach einer katastrophalen Serie - sieben Niederlagen aus acht Partien - zogen unter der Woche die Trennung nach sich, obwohl der Trainer eigentlich als Heilsbringer bis 2032 geholt worden war. Nun steht das wichtige FA-Cup-Halbfinale gegen Leeds bevor. Wie schlagen sich die Blues?",
-        "paragraphs": [
-          "Liam Rosenior ist Geschichte. Nach einer katastrophalen Serie - sieben Niederlagen aus acht Partien - zogen unter der Woche die Trennung nach sich, obwohl der Trainer eigentlich als Heilsbringer bis 2032 geholt worden war. Nun steht das wichtige FA-Cup-Halbfinale gegen Leeds bevor. Wie schlagen sich die Blues?"
-        ],
-        "link": "https://www.kicker.de/chelsea-gegen-leeds-2026-fa-cup-5198633/spielbericht#omrss",
-        "category": "FA Cup",
-        "source": "Kicker",
-        "publishedAt": "2026-04-26T13:30:00.000Z"
-      },
-      {
-        "id": "{urn:uuid:1a499690-2f8c-4bbf-a3a8-266b9049e337}",
-        "title": "Weltrekord im Marathon: Schöne Grüße von der anderen Seite der Schallmauer",
-        "summary": "Ein Marathon unter zwei Stunden, geht das überhaupt? Sabastian Sawe hat diese große Frage des Sports nun in London beantwortet. Seine Leistung ist eigentlich unfassbar.",
-        "paragraphs": [
-          "Ein Marathon unter zwei Stunden, geht das überhaupt? Sabastian Sawe hat diese große Frage des Sports nun in London beantwortet. Seine Leistung ist eigentlich unfassbar."
-        ],
-        "link": "https://www.zeit.de/sport/2026-04/weltrekord-marathon-london-sabastian-sawe-kenia",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-04-26T13:20:34.000Z"
-      },
-      {
-        "id": "li.3474065",
-        "title": "RB-Sieg gegen Union Berlin: Läuft bei Leipzig",
-        "summary": "Im Endspurt um die Champions-League-Ränge bringt sich Leipzig durch einen 3:1-Heimsieg gegen Union Berlin in eine gute Ausgangslage. Über die Zukunft von Trainer Werner wird dennoch debattiert.",
-        "paragraphs": [
-          "Im Endspurt um die Champions-League-Ränge bringt sich Leipzig durch einen 3:1-Heimsieg gegen Union Berlin in eine gute Ausgangslage. Über die Zukunft von Trainer Werner wird dennoch debattiert."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/rb-leibzig-union-berlin-heimsieg-mintzlaff-laufband-li.3474065",
-        "category": "Bundesliga",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-26T13:19:57.000Z"
       }
     ],
     "edv": [
@@ -965,6 +965,30 @@
     ],
     "börse": [
       {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-wie-sich-die-deutschen-luxushersteller-in-china-behaupten-wollen/100217450.html",
+        "title": "Autobauer: S-Klasse, 7er oder doch Maextro? Wie sich die deutschen Luxushersteller in China behaupten wollen",
+        "summary": "Der chinesische Nobelmarkt gilt als besonders schwierig. Trotzdem suchen die deutschen Hersteller mit neuen Produkten ihr Glück. Gleichzeitig drängen neue Wettbewerber auf den Markt.",
+        "paragraphs": [
+          "Der chinesische Nobelmarkt gilt als besonders schwierig. Trotzdem suchen die deutschen Hersteller mit neuen Produkten ihr Glück. Gleichzeitig drängen neue Wettbewerber auf den Markt."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-wie-sich-die-deutschen-luxushersteller-in-china-behaupten-wollen/100217450.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-26T15:44:27.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/meinung/kommentare/kommentar-signal-attacke-fahrlaessigkeit-ist-ein-problem-fuer-deutschland/100220075.html",
+        "title": "Kommentar: Phishing bei Signal: Die Fahrlässigkeit von Politikern ist ein Problem für Deutschland",
+        "summary": "Spitzenpolitiker haben Unbekannten Zugriff auf interne Chats gegeben und damit womöglich Deutschland geschadet. Das Sicherheitsrisiko ist allerdings nicht der Messenger, es sind die Nutzer.",
+        "paragraphs": [
+          "Spitzenpolitiker haben Unbekannten Zugriff auf interne Chats gegeben und damit womöglich Deutschland geschadet. Das Sicherheitsrisiko ist allerdings nicht der Messenger, es sind die Nutzer."
+        ],
+        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-signal-attacke-fahrlaessigkeit-ist-ein-problem-fuer-deutschland/100220075.html",
+        "category": "Kommentare",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-26T15:25:24.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/international/usa-der-angreifer-von-washington-ein-lehrer-mit-vielen-waffen/100220111.html",
         "title": "USA: Der Angreifer von Washington: Ein Lehrer mit vielen Waffen?",
         "summary": "Bei einem Gala-Dinner mit dem US-Präsidenten fallen Schüsse. Ein Mann wird festgenommen. Was über den mutmaßlichen Angreifer bislang bekannt ist.",
@@ -1110,7 +1134,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/unternehmen/industrie/familienunternehmen-koerperscanner-sind-heute-echte-hightech-entwicklungen/100216759.html",
-        "title": "Christian Leicher: „Wenn Sie am Flughafen durch einen Körperscanner laufen, ist der in vielen Fällen von Rohde & Schwarz“",
+        "title": "Christian Leicher: Diese Hightech-Firma schafft Tausende neue Jobs, der Chef sagt: „Deutschland ist besser als sein Ruf“",
         "summary": "Der Chef von Rohde & Schwarz gibt im ersten großen Interview Einblick in das bislang verschwiegene Unternehmen. Flughäfen und Bundeswehr treiben das Geschäft – nicht alle Projekte laufen rund.",
         "paragraphs": [
           "Der Chef von Rohde & Schwarz gibt im ersten großen Interview Einblick in das bislang verschwiegene Unternehmen. Flughäfen und Bundeswehr treiben das Geschäft – nicht alle Projekte laufen rund."
@@ -1179,30 +1203,6 @@
         "category": "Industrie",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-26T11:42:32.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/reisebranche-zahl-der-kreuzfahrtpassagiere-steigt-auf-rekordhoch/100220096.html",
-        "title": "Reisebranche: Zahl der Kreuzfahrtpassagiere steigt auf Rekordhoch",
-        "summary": "Der Boom der Kreuzfahrt hält nach einer Statistik des Branchenverbands Clia an. Seit Ende der Corona-Pandemie meldet der Verband Jahr für Jahr neue Rekordzahlen.",
-        "paragraphs": [
-          "Der Boom der Kreuzfahrt hält nach einer Statistik des Branchenverbands Clia an. Seit Ende der Corona-Pandemie meldet der Verband Jahr für Jahr neue Rekordzahlen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/reisebranche-zahl-der-kreuzfahrtpassagiere-steigt-auf-rekordhoch/100220096.html",
-        "category": "Dienstleister",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-26T11:33:47.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/reformdebatte-spd-beklagt-unwucht-bei-sparpaket-fuer-gesundheitskosten/100220009.html",
-        "title": "Reformdebatte: SPD beklagt „Unwucht“ bei Sparpaket für Gesundheitskosten",
-        "summary": "Am Mittwoch will das Kabinett die Reformpläne von Gesundheitsministerin Warken beschließen. Doch nicht nur aus der Opposition gibt es weiter Kritik.",
-        "paragraphs": [
-          "Am Mittwoch will das Kabinett die Reformpläne von Gesundheitsministerin Warken beschließen. Doch nicht nur aus der Opposition gibt es weiter Kritik."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/reformdebatte-spd-beklagt-unwucht-bei-sparpaket-fuer-gesundheitskosten/100220009.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-26T11:32:58.000Z"
       }
     ]
   }
