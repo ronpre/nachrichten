@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-04-30T16:15:24.860Z",
+  "updatedAt": "2026-04-30T16:42:46.975Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "44a42314-5a7c-46e8-a419-f0fee70fb39b",
+        "title": "Marktbericht: DAX geht im Plus ins lange Wochenende",
+        "summary": "Gestützt von wieder fallenden Ölpreisen dreht der DAX zum Wochenschluss deutlich ins Plus. Nach den beiden Notenbank-Sitzungen haben Anleger auch jede Menge Quartalszahlen zu verarbeiten.",
+        "paragraphs": [
+          "Gestützt von wieder fallenden Ölpreisen dreht der DAX zum Wochenschluss deutlich ins Plus. Nach den beiden Notenbank-Sitzungen haben Anleger auch jede Menge Quartalszahlen zu verarbeiten."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-oelpreise-fed-ezb-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-04-30T16:14:46.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Iron-Dome-Hersteller-koennte-VW-Werk-in-Osnabrueck-uebernehmen-id30774369.html",
         "title": "Israelischer Staatskonzern: Iron-Dome-Hersteller könnte VW-Werk in Osnabrück übernehmen",
@@ -121,18 +133,6 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-04-30T09:02:56.000Z"
-      },
-      {
-        "id": "44a42314-5a7c-46e8-a419-f0fee70fb39b",
-        "title": "Marktbericht: Hoher Ölpreis verunsichert die Investoren",
-        "summary": "Der steigende Ölpreis und die Furcht vor einer Eskalation im Nahen Osten überschatten den Börsenhandel. Am Nachmittag steht der EZB-Zinsentscheid an - bis dahin dürften die Anleger zurückhaltend bleiben.",
-        "paragraphs": [
-          "Der steigende Ölpreis und die Furcht vor einer Eskalation im Nahen Osten überschatten den Börsenhandel. Am Nachmittag steht der EZB-Zinsentscheid an - bis dahin dürften die Anleger zurückhaltend bleiben."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-oelpreise-fed-ezb-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-04-30T08:46:25.000Z"
       },
       {
         "id": "9f81acf4-dc51-4f7e-ab8b-315433646620",
@@ -319,11 +319,11 @@
       {
         "id": "li.3476510",
         "title": "Abgeordnete: SPD schlägt Verzicht auf Diätenerhöhung vor",
-        "summary": "Sind fast 500 Euro mehr im Monat für Abgeordnete angemessen? Die Sozialdemokraten finden: nein. Auch in der Union gab es den Vorschlag schon – aber nun wollen CDU und CSU erst mal beraten.",
+        "summary": "Sind fast 500 Euro mehr im Monat für Abgeordnete angemessen? Die Sozialdemokraten finden: nein. Auch in der Union gab es den Vorschlag schon – aber CDU und CSU noch darüber beraten.",
         "paragraphs": [
-          "Sind fast 500 Euro mehr im Monat für Abgeordnete angemessen? Die Sozialdemokraten finden: nein. Auch in der Union gab es den Vorschlag schon – aber nun wollen CDU und CSU erst mal beraten."
+          "Sind fast 500 Euro mehr im Monat für Abgeordnete angemessen? Die Sozialdemokraten finden: nein. Auch in der Union gab es den Vorschlag schon – aber CDU und CSU noch darüber beraten."
         ],
-        "link": "https://www.sueddeutsche.de/politik/verzicht-erhoehung-diaeten-abgeordnete-spd-union-koalition-li.3476510",
+        "link": "https://www.sueddeutsche.de/politik/verzicht-erhoehung-diaeten-abgeordnete-spd-union-steffen-bilger-tim-kluessendorf-li.3476510",
         "category": "SPD",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-30T15:34:01.000Z"
@@ -486,6 +486,30 @@
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/ohne-fifa-ohne-vorlauf-bekommt-fc-26-einen-authentischen-wm-modus-1215096/artikel#omrss",
+        "title": "Ohne FIFA, ohne Vorlauf: Bekommt FC 26 einen authentischen WM-Modus?",
+        "summary": "Die Weltmeisterschaft 2026 ist das erste Turnier dieser Art nach der Trennung von FIFA und EA SPORTS. Endet die nächste Serie? Das Bangen um den WM-Modus für FC 26 ist groß - und das zu Recht.",
+        "paragraphs": [
+          "Die Weltmeisterschaft 2026 ist das erste Turnier dieser Art nach der Trennung von FIFA und EA SPORTS. Endet die nächste Serie? Das Bangen um den WM-Modus für FC 26 ist groß - und das zu Recht."
+        ],
+        "link": "https://www.kicker.de/ohne-fifa-ohne-vorlauf-bekommt-fc-26-einen-authentischen-wm-modus-1215096/artikel#omrss",
+        "category": "eSport",
+        "source": "Kicker",
+        "publishedAt": "2026-04-30T16:18:25.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/live-ziel-oberes-tabellendrittel-bayern-amateure-wollen-in-illertissen-meter-machen-1195203/artikel#omrss",
+        "title": "LIVE! Ziel oberes Tabellendrittel: Bayern-Amateure wollen in Illertissen Meter machen",
+        "summary": "Den Bayern-Amateuren droht die schlechteste Saison in der Regionalliga Bayern seit deren Einführung. Nie landeten die Münchner unter Platz 6. Mit einem Sieg in Illertissen könnte die Seitz-Elf in der Tabelle einen großen Sprung machen.",
+        "paragraphs": [
+          "Den Bayern-Amateuren droht die schlechteste Saison in der Regionalliga Bayern seit deren Einführung. Nie landeten die Münchner unter Platz 6. Mit einem Sieg in Illertissen könnte die Seitz-Elf in der Tabelle einen großen Sprung machen."
+        ],
+        "link": "https://www.kicker.de/live-ziel-oberes-tabellendrittel-bayern-amateure-wollen-in-illertissen-meter-machen-1195203/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-04-30T16:06:37.000Z"
+      },
       {
         "id": "https://www.kicker.de/liv-vor-dem-aus-saudi-arabien-stellt-finanzierung-ein-1214945/artikel#omrss",
         "title": "LIV vor dem Aus? Saudi-Arabien stellt Finanzierung ein",
@@ -701,30 +725,6 @@
         "category": "1. FC Köln",
         "source": "Kicker",
         "publishedAt": "2026-04-30T13:52:53.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/uluc-schafft-in-jena-klarheit-aufsteigen-oder-verabschieden-1215089/artikel#omrss",
-        "title": "Uluc schafft in Jena Klarheit: Aufsteigen oder verabschieden",
-        "summary": "Carl Zeiss Jena und Volkan Uluc haben am Donnerstag Klarheit bezüglich ihrer gemeinsamen Zukunft geschaffen. Diese hängt ausschließlich von der Ligazugehörigkeit in der kommenden Saison ab.",
-        "paragraphs": [
-          "Carl Zeiss Jena und Volkan Uluc haben am Donnerstag Klarheit bezüglich ihrer gemeinsamen Zukunft geschaffen. Diese hängt ausschließlich von der Ligazugehörigkeit in der kommenden Saison ab."
-        ],
-        "link": "https://www.kicker.de/uluc-schafft-in-jena-klarheit-aufsteigen-oder-verabschieden-1215089/artikel#omrss",
-        "category": "Carl Zeiss Jena",
-        "source": "Kicker",
-        "publishedAt": "2026-04-30T13:50:51.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/frankfurter-ausverkauf-arnautis-geruechte-gibt-es-jedes-jahr-1215090/artikel#omrss",
-        "title": "Frankfurter Ausverkauf? Arnautis: \"Gerüchte gibt es jedes Jahr\"",
-        "summary": "Der womöglich nächste große Umbruch bei Eintracht Frankfurt hat begonnen: Lisanne Gräwe steht vor einem Wechsel zu Union Berlin. Weitere Leistungsträgerinnen könnten folgen - trotz der inzwischen wieder sehr guten Frankfurter Chancen auf den umworbenen dritten Tabellenplatz.",
-        "paragraphs": [
-          "Der womöglich nächste große Umbruch bei Eintracht Frankfurt hat begonnen: Lisanne Gräwe steht vor einem Wechsel zu Union Berlin. Weitere Leistungsträgerinnen könnten folgen - trotz der inzwischen wieder sehr guten Frankfurter Chancen auf den umworbenen dritten Tabellenplatz."
-        ],
-        "link": "https://www.kicker.de/frankfurter-ausverkauf-arnautis-geruechte-gibt-es-jedes-jahr-1215090/artikel#omrss",
-        "category": "Anyomi",
-        "source": "Kicker",
-        "publishedAt": "2026-04-30T13:44:41.000Z"
       }
     ],
     "edv": [
@@ -741,16 +741,16 @@
         "publishedAt": "2026-04-30T08:14:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Neue-Filme-und-Serien-bei-Netflix-Disney-und-Amazon-Prime-im-Mai-2026-11278442.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Neue Filme und Serien bei Netflix, Disney+ und Amazon Prime im Mai 2026",
-        "summary": "Bei Amazon startet im Mai die Serie „Spider-Noir“ mit Nicolas Cage. Bei Netflix läuft „The Boroughs“ und Disney+ zeigt „Send Help“.",
+        "id": "https://www.heise.de/news/Qualcomm-Mediatek-Smartphone-Herstellung-bricht-ein-11278850.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Qualcomm & Mediatek: Smartphone-Herstellung bricht ein",
+        "summary": "Die Speicherkrise materialisiert sich in den Zahlen der größten Smartphone-Prozessorzulieferer Qualcomm und Mediatek.",
         "paragraphs": [
-          "Bei Amazon startet im Mai die Serie „Spider-Noir“ mit Nicolas Cage. Bei Netflix läuft „The Boroughs“ und Disney+ zeigt „Send Help“."
+          "Die Speicherkrise materialisiert sich in den Zahlen der größten Smartphone-Prozessorzulieferer Qualcomm und Mediatek."
         ],
-        "link": "https://www.heise.de/news/Neue-Filme-und-Serien-bei-Netflix-Disney-und-Amazon-Prime-im-Mai-2026-11278442.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Qualcomm-Mediatek-Smartphone-Herstellung-bricht-ein-11278850.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-30T16:03:00.000Z"
+        "publishedAt": "2026-04-30T16:29:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Samsung-erzielt-hoechsten-Gewinn-in-Unternehmensgeschichte-11277552.html",
@@ -765,16 +765,16 @@
         "publishedAt": "2026-04-30T06:59:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Gegen-KI-Slop-Spotify-fuehrt-Kennzeichung-fuer-echte-Kuenstler-ein-11278812.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Gegen KI-Slop: Spotify führt Kennzeichung für „echte“ Künstler ein",
-        "summary": "Spotify kennzeichnet künftig die „Authentizität“ von Künstlern. Reine KI-Profile sind zunächst ausgeschlossen, doch die Kriterien könnten sich künftig ändern.",
+        "id": "https://www.heise.de/news/Cyber-Resilience-Act-BSI-wird-zum-digitalen-TUeV-fuer-vernetzte-Produkte-11278890.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Cyber Resilience Act: BSI wird zum digitalen TÜV für vernetzte Produkte",
+        "summary": "Die Bundesregierung bringt das Durchführungsgesetz zum Cyber Resilience Act der EU auf den Weg und will das BSI zur zentralen Marktüberwachungsbehörde machen.",
         "paragraphs": [
-          "Spotify kennzeichnet künftig die „Authentizität“ von Künstlern. Reine KI-Profile sind zunächst ausgeschlossen, doch die Kriterien könnten sich künftig ändern."
+          "Die Bundesregierung bringt das Durchführungsgesetz zum Cyber Resilience Act der EU auf den Weg und will das BSI zur zentralen Marktüberwachungsbehörde machen."
         ],
-        "link": "https://www.heise.de/news/Gegen-KI-Slop-Spotify-fuehrt-Kennzeichung-fuer-echte-Kuenstler-ein-11278812.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Cyber-Resilience-Act-BSI-wird-zum-digitalen-TUeV-fuer-vernetzte-Produkte-11278890.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-30T15:50:00.000Z"
+        "publishedAt": "2026-04-30T16:23:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Motorola-zeigt-Razr-70-Trio-und-Edge-70-Pro-Foldables-mit-grossen-Aussendisplays-11275480.html",
@@ -789,16 +789,16 @@
         "publishedAt": "2026-04-29T16:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/MacBook-Ultra-Diese-Neuerungen-soll-Apple-planen-11276643.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "MacBook Ultra: Diese Neuerungen soll Apple planen",
-        "summary": "Seit 2021 hat Apple seine MacBook-Pro-Bauform nicht verändert. Mit dem kommenden Ultra könnte einiges neu werden – nicht nur dank OLED und Touchscreen.",
+        "id": "https://www.heise.de/news/DSA-Bilanz-Wie-deutsche-Nutzer-2025-die-Internet-Riesen-herausforderten-11278870.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "DSA-Bilanz: Wie deutsche Nutzer 2025 die Internet-Riesen herausforderten",
+        "summary": "Über 2000 Beschwerden und Millionen-Bußgelder gegen X & Co.: Der Koordinator für digitale Dienste zieht Bilanz und erklärt, wie er für Ordnung im Netz sorgt.",
         "paragraphs": [
-          "Seit 2021 hat Apple seine MacBook-Pro-Bauform nicht verändert. Mit dem kommenden Ultra könnte einiges neu werden – nicht nur dank OLED und Touchscreen."
+          "Über 2000 Beschwerden und Millionen-Bußgelder gegen X & Co.: Der Koordinator für digitale Dienste zieht Bilanz und erklärt, wie er für Ordnung im Netz sorgt."
         ],
-        "link": "https://www.heise.de/news/MacBook-Ultra-Diese-Neuerungen-soll-Apple-planen-11276643.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/DSA-Bilanz-Wie-deutsche-Nutzer-2025-die-Internet-Riesen-herausforderten-11278870.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-30T15:43:00.000Z"
+        "publishedAt": "2026-04-30T16:22:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Mehr-als-1-4-Gigawatt-Riesige-Batteriespeicher-am-ehemaligen-AKW-Grohnde-11276677.html",
@@ -813,16 +813,16 @@
         "publishedAt": "2026-04-29T13:26:00.000Z"
       },
       {
-        "id": "https://www.heise.de/meinung/Apples-CEO-Wechsel-und-die-wilden-Geruechte-Giftige-Vorschusslorbeeren-11278616.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Apples CEO-Wechsel und die wilden Gerüchte: Giftige Vorschusslorbeeren",
-        "summary": "Der bevorstehende CEO-Wechsel bei Apple befeuert wilde Spekulationen über radikale Produktänderungen. Doch es ist Vorsicht geboten, meint Malte Kirchner.",
+        "id": "https://www.heise.de/news/Neue-Filme-und-Serien-bei-Netflix-Disney-und-Amazon-Prime-im-Mai-2026-11278442.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Neue Filme und Serien bei Netflix, Disney+ und Amazon Prime im Mai 2026",
+        "summary": "Bei Amazon startet im Mai die Serie „Spider-Noir“ mit Nicolas Cage. Bei Netflix läuft „The Boroughs“ und Disney+ zeigt „Send Help“.",
         "paragraphs": [
-          "Der bevorstehende CEO-Wechsel bei Apple befeuert wilde Spekulationen über radikale Produktänderungen. Doch es ist Vorsicht geboten, meint Malte Kirchner."
+          "Bei Amazon startet im Mai die Serie „Spider-Noir“ mit Nicolas Cage. Bei Netflix läuft „The Boroughs“ und Disney+ zeigt „Send Help“."
         ],
-        "link": "https://www.heise.de/meinung/Apples-CEO-Wechsel-und-die-wilden-Geruechte-Giftige-Vorschusslorbeeren-11278616.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Neue-Filme-und-Serien-bei-Netflix-Disney-und-Amazon-Prime-im-Mai-2026-11278442.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-30T15:29:00.000Z"
+        "publishedAt": "2026-04-30T16:03:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-Was-Sprach-KI-leistet-und-was-sie-nur-vortaeuscht-11246800.html",
@@ -837,16 +837,16 @@
         "publishedAt": "2026-04-29T08:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Ehemalige-Samsung-Designer-entwickeln-leichten-E-Antrieb-fuers-Fahrrad-11278762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Ehemalige Samsung-Designer entwickeln leichten E-Antrieb fürs Fahrrad",
-        "summary": "Cyplore hat einen leichten E-Antrieb entwickelt, der aus Fahrrädern E-Bikes macht. Hinter dem Hongkonger Unternehmen stecken Designer aus bekannten Firmen.",
+        "id": "https://www.heise.de/news/Gegen-KI-Slop-Spotify-fuehrt-Kennzeichung-fuer-echte-Kuenstler-ein-11278812.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Gegen KI-Slop: Spotify führt Kennzeichung für „echte“ Künstler ein",
+        "summary": "Spotify kennzeichnet künftig die „Authentizität“ von Künstlern. Reine KI-Profile sind zunächst ausgeschlossen, doch die Kriterien könnten sich künftig ändern.",
         "paragraphs": [
-          "Cyplore hat einen leichten E-Antrieb entwickelt, der aus Fahrrädern E-Bikes macht. Hinter dem Hongkonger Unternehmen stecken Designer aus bekannten Firmen."
+          "Spotify kennzeichnet künftig die „Authentizität“ von Künstlern. Reine KI-Profile sind zunächst ausgeschlossen, doch die Kriterien könnten sich künftig ändern."
         ],
-        "link": "https://www.heise.de/news/Ehemalige-Samsung-Designer-entwickeln-leichten-E-Antrieb-fuers-Fahrrad-11278762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Gegen-KI-Slop-Spotify-fuehrt-Kennzeichung-fuer-echte-Kuenstler-ein-11278812.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-30T15:20:00.000Z"
+        "publishedAt": "2026-04-30T15:50:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Xiaomi-oeffnet-vier-Topmodelle-fuer-Android-17-Testphase-11276054.html",
@@ -861,16 +861,16 @@
         "publishedAt": "2026-04-29T07:53:00.000Z"
       },
       {
-        "id": "https://www.heise.de/bestenlisten/testbericht/maehroboter-roborock-rockmow-z120-lidar-im-test-allrad-aktive-lenkung-und-lidar/3wxcjnw?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Mähroboter Roborock Rockmow Z120 Lidar im Test: Allrad, aktive Lenkung und LiDAR",
-        "summary": "Roborocks Erstlingswerk für den Garten soll mit Allrad, LiDAR und aktivem Lenksystem punkten. Wir haben im Test überprüft, wie gut das klappt.",
+        "id": "https://www.heise.de/news/MacBook-Ultra-Diese-Neuerungen-soll-Apple-planen-11276643.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "MacBook Ultra: Diese Neuerungen soll Apple planen",
+        "summary": "Seit 2021 hat Apple seine MacBook-Pro-Bauform nicht verändert. Mit dem kommenden Ultra könnte einiges neu werden – nicht nur dank OLED und Touchscreen.",
         "paragraphs": [
-          "Roborocks Erstlingswerk für den Garten soll mit Allrad, LiDAR und aktivem Lenksystem punkten. Wir haben im Test überprüft, wie gut das klappt."
+          "Seit 2021 hat Apple seine MacBook-Pro-Bauform nicht verändert. Mit dem kommenden Ultra könnte einiges neu werden – nicht nur dank OLED und Touchscreen."
         ],
-        "link": "https://www.heise.de/bestenlisten/testbericht/maehroboter-roborock-rockmow-z120-lidar-im-test-allrad-aktive-lenkung-und-lidar/3wxcjnw?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/MacBook-Ultra-Diese-Neuerungen-soll-Apple-planen-11276643.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-30T14:00:00.000Z"
+        "publishedAt": "2026-04-30T15:43:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Passwort-Folge-56-Unwirksame-Beweise-ungueltige-Zertifikate-unverplante-CVEs-11266697.html",
@@ -885,16 +885,16 @@
         "publishedAt": "2026-04-29T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Zed-1-0-GPU-beschleunigter-Open-Source-Editor-mit-KI-Support-11278480.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Sourcecode-Editor Zed erreicht Version 1.0",
-        "summary": "Der laut Eigenwerbung schnellste KI-Code-Editor hat Version 1.0 erreicht. Die interne Datenverarbeitung erledigt das Open-Source-Tool in Videospiel-Manier.",
+        "id": "https://www.heise.de/meinung/Apples-CEO-Wechsel-und-die-wilden-Geruechte-Giftige-Vorschusslorbeeren-11278616.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Apples CEO-Wechsel und die wilden Gerüchte: Giftige Vorschusslorbeeren",
+        "summary": "Der bevorstehende CEO-Wechsel bei Apple befeuert wilde Spekulationen über radikale Produktänderungen. Doch es ist Vorsicht geboten, meint Malte Kirchner.",
         "paragraphs": [
-          "Der laut Eigenwerbung schnellste KI-Code-Editor hat Version 1.0 erreicht. Die interne Datenverarbeitung erledigt das Open-Source-Tool in Videospiel-Manier."
+          "Der bevorstehende CEO-Wechsel bei Apple befeuert wilde Spekulationen über radikale Produktänderungen. Doch es ist Vorsicht geboten, meint Malte Kirchner."
         ],
-        "link": "https://www.heise.de/news/Zed-1-0-GPU-beschleunigter-Open-Source-Editor-mit-KI-Support-11278480.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/meinung/Apples-CEO-Wechsel-und-die-wilden-Geruechte-Giftige-Vorschusslorbeeren-11278616.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-30T13:53:00.000Z"
+        "publishedAt": "2026-04-30T15:29:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Linux-Distribution-Fedora-44-KDE-Plasma-und-Wayland-im-Fokus-11274348.html",
@@ -909,16 +909,16 @@
         "publishedAt": "2026-04-28T14:50:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Bericht-zur-Vision-Pro-Keine-Einstellung-aber-kaum-noch-Arbeit-bei-Apple-11277340.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Bericht zur Vision Pro: Keine Einstellung, aber kaum noch Arbeit bei Apple?",
-        "summary": "Apples VR-Brille gilt als Flop: Aufgrund von Preis und Bauform wurden angeblich weniger als eine Million Einheiten verkauft. Es gibt mehrere Zukunftsszenarien.",
+        "id": "https://www.heise.de/news/Ehemalige-Samsung-Designer-entwickeln-leichten-E-Antrieb-fuers-Fahrrad-11278762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Ehemalige Samsung-Designer entwickeln leichten E-Antrieb fürs Fahrrad",
+        "summary": "Cyplore hat einen leichten E-Antrieb entwickelt, der aus Fahrrädern E-Bikes macht. Hinter dem Hongkonger Unternehmen stecken Designer aus bekannten Firmen.",
         "paragraphs": [
-          "Apples VR-Brille gilt als Flop: Aufgrund von Preis und Bauform wurden angeblich weniger als eine Million Einheiten verkauft. Es gibt mehrere Zukunftsszenarien."
+          "Cyplore hat einen leichten E-Antrieb entwickelt, der aus Fahrrädern E-Bikes macht. Hinter dem Hongkonger Unternehmen stecken Designer aus bekannten Firmen."
         ],
-        "link": "https://www.heise.de/news/Bericht-zur-Vision-Pro-Keine-Einstellung-aber-kaum-noch-Arbeit-bei-Apple-11277340.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Ehemalige-Samsung-Designer-entwickeln-leichten-E-Antrieb-fuers-Fahrrad-11278762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-30T13:29:00.000Z"
+        "publishedAt": "2026-04-30T15:20:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-KI-Funktionen-fuer-eigene-Python-Schoepfungen-11177247.html",
@@ -933,16 +933,16 @@
         "publishedAt": "2026-04-28T13:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Keine-Sicherheitsupdates-mehr-fuer-Android-13-Auch-E-Patientenakte-betroffen-11262340.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Keine Sicherheitsupdates mehr für Android 13: Auch E-Patientenakte betroffen",
-        "summary": "Ab Juli unterstützen viele Krankenkassen ihre ePA-Apps nicht mehr auf Geräten mit Android 13, iOS 17 und älter, denn sie erhalten keine Sicherheitsupdates mehr.",
+        "id": "https://www.heise.de/bestenlisten/testbericht/maehroboter-roborock-rockmow-z120-lidar-im-test-allrad-aktive-lenkung-und-lidar/3wxcjnw?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Mähroboter Roborock Rockmow Z120 Lidar im Test: Allrad, aktive Lenkung und LiDAR",
+        "summary": "Roborocks Erstlingswerk für den Garten soll mit Allrad, LiDAR und aktivem Lenksystem punkten. Wir haben im Test überprüft, wie gut das klappt.",
         "paragraphs": [
-          "Ab Juli unterstützen viele Krankenkassen ihre ePA-Apps nicht mehr auf Geräten mit Android 13, iOS 17 und älter, denn sie erhalten keine Sicherheitsupdates mehr."
+          "Roborocks Erstlingswerk für den Garten soll mit Allrad, LiDAR und aktivem Lenksystem punkten. Wir haben im Test überprüft, wie gut das klappt."
         ],
-        "link": "https://www.heise.de/news/Keine-Sicherheitsupdates-mehr-fuer-Android-13-Auch-E-Patientenakte-betroffen-11262340.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testbericht/maehroboter-roborock-rockmow-z120-lidar-im-test-allrad-aktive-lenkung-und-lidar/3wxcjnw?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-30T13:17:00.000Z"
+        "publishedAt": "2026-04-30T14:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Australien-Social-Media-Verbot-fuer-Jugendliche-wirkt-kaum-11275105.html",
@@ -957,19 +957,31 @@
         "publishedAt": "2026-04-28T12:38:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iPhone-Air-2-Ultra-Co-Apple-mitten-in-der-iPhone-Neuerfindung-11249618.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "iPhone Air 2, Ultra & Co.: Apple mitten in der „iPhone-Neuerfindung“",
-        "summary": "Nach dem iPhone Air soll es im Herbst den nächsten neuen Smartphone-Formfaktor von Apple geben. Abgeschlossen ist der Zyklus dann wohl 2027.",
+        "id": "https://www.heise.de/news/Zed-1-0-GPU-beschleunigter-Open-Source-Editor-mit-KI-Support-11278480.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Sourcecode-Editor Zed erreicht Version 1.0",
+        "summary": "Der laut Eigenwerbung schnellste KI-Code-Editor hat Version 1.0 erreicht. Die interne Datenverarbeitung erledigt das Open-Source-Tool in Videospiel-Manier.",
         "paragraphs": [
-          "Nach dem iPhone Air soll es im Herbst den nächsten neuen Smartphone-Formfaktor von Apple geben. Abgeschlossen ist der Zyklus dann wohl 2027."
+          "Der laut Eigenwerbung schnellste KI-Code-Editor hat Version 1.0 erreicht. Die interne Datenverarbeitung erledigt das Open-Source-Tool in Videospiel-Manier."
         ],
-        "link": "https://www.heise.de/news/iPhone-Air-2-Ultra-Co-Apple-mitten-in-der-iPhone-Neuerfindung-11249618.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Zed-1-0-GPU-beschleunigter-Open-Source-Editor-mit-KI-Support-11278480.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-04-30T12:48:00.000Z"
+        "publishedAt": "2026-04-30T13:53:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/video/finanzen/handelsblatt-live-us-boersenexperte-koch-google-ist-der-star-des-tages/100221506.html",
+        "title": "Handelsblatt Live: US-Börsenexperte Koch: „Google ist der Star des Tages“",
+        "summary": "Nach den Quartalszahlen von Meta, Microsoft, Amazon und Alphabet hat der Nasdaq im frühen Handel „eine kleine Atempause eingelegt“, kommentiert Markus Koch. Insgesamt bleibe die Berichtssaison jedoch „fantastisch stark – nicht nur im Tech-Sektor“.",
+        "paragraphs": [
+          "Nach den Quartalszahlen von Meta, Microsoft, Amazon und Alphabet hat der Nasdaq im frühen Handel „eine kleine Atempause eingelegt“, kommentiert Markus Koch. Insgesamt bleibe die Berichtssaison jedoch „fantastisch stark – nicht nur im Tech-Sektor“."
+        ],
+        "link": "https://www.handelsblatt.com/video/finanzen/handelsblatt-live-us-boersenexperte-koch-google-ist-der-star-des-tages/100221506.html",
+        "category": "Finanzen",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-04-30T16:15:03.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/verteidigung-besuch-in-munster-merz-lobt-das-heer-und-ignoriert-trump/100221294.html",
         "title": "Konflikt mit US-Präsidenten: Kanzler Merz lobt das Heer und ignoriert Trumps Drohungen",
@@ -1068,7 +1080,7 @@
       },
       {
         "id": "https://www.handelsblatt.com/journalismus_live/handelsblatt-live-so-bauen-sie-sich-ein-krisenfestes-depot/100217941.html",
-        "title": "Handelsblatt Live: Jetzt live mit Experten diskutieren: So bauen Sie sich ein krisenfestes Depot",
+        "title": "Handelsblatt Live: So bauen Sie sich ein krisenfestes Depot",
         "summary": "Die rasante Abfolge von Krisen und Kriegen macht die langfristige Geldanlage immer schwieriger. Wie können Anleger darauf reagieren? Das Handelsblatt beantwortet live Ihre Fragen.",
         "paragraphs": [
           "Die rasante Abfolge von Krisen und Kriegen macht die langfristige Geldanlage immer schwieriger. Wie können Anleger darauf reagieren? Das Handelsblatt beantwortet live Ihre Fragen."
@@ -1197,18 +1209,6 @@
         "category": "Trends",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-30T14:53:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/chemiekonzern-standort-ludwigshafen-zentral-fuer-zukunft-von-basf/100221312.html",
-        "title": "Chemiekonzern: Standort Ludwigshafen zentral für Zukunft von BASF",
-        "summary": "Hoher Kostendruck, Stellenabbau, veränderte Märkte: Manager Markus Kamieth treibt die Veränderungen bei BASF voran. China und das Kerngeschäft stehen im Fokus.",
-        "paragraphs": [
-          "Hoher Kostendruck, Stellenabbau, veränderte Märkte: Manager Markus Kamieth treibt die Veränderungen bei BASF voran. China und das Kerngeschäft stehen im Fokus."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/chemiekonzern-standort-ludwigshafen-zentral-fuer-zukunft-von-basf/100221312.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-30T14:48:03.000Z"
       }
     ]
   }
