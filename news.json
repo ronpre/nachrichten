@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-05-01T12:35:41.536Z",
+  "updatedAt": "2026-05-01T13:03:27.456Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "8c9899fe-8583-4495-8402-1e187fba8aff",
+        "title": "Ab dem 1. Mai gilt der Tankrabatt: Was Autofahrer wissen sollten",
+        "summary": "Wie stark werden Autofahrer mit dem Tankrabatt entlastet? Was ist beim Tanken zu beachten? Und wie reagiert die Mineralölindustrie? Von Ingo Nathusius.",
+        "paragraphs": [
+          "Wie stark werden Autofahrer mit dem Tankrabatt entlastet? Was ist beim Tanken zu beachten? Und wie reagiert die Mineralölindustrie? Von Ingo Nathusius."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/verbraucher/tankrabatt-spritpreise-tankstellen-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-05-01T12:38:44.000Z"
+      },
       {
         "id": "9bbcbea1-8dcb-4ba2-abf4-3321934294cc",
         "title": "Tankrabatt drückt Spritpreise laut ADAC trotz Mittagssprung",
@@ -49,18 +61,6 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-05-01T09:10:19.000Z"
-      },
-      {
-        "id": "8c9899fe-8583-4495-8402-1e187fba8aff",
-        "title": "Ab dem 1. Mai gilt der Tankrabatt: Was Autofahrer wissen sollten",
-        "summary": "Wie stark werden Autofahrer mit dem Tankrabatt entlastet? Was ist beim Tanken zu beachten? Und wie reagiert die Mineralölindustrie? Von Ingo Nathusius.",
-        "paragraphs": [
-          "Wie stark werden Autofahrer mit dem Tankrabatt entlastet? Was ist beim Tanken zu beachten? Und wie reagiert die Mineralölindustrie? Von Ingo Nathusius."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/verbraucher/tankrabatt-spritpreise-tankstellen-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-05-01T08:53:46.000Z"
       },
       {
         "id": "0bf48c2b-4f23-48a9-ae92-9c2badc0e3f0",
@@ -244,6 +244,26 @@
       }
     ],
     "politik": [
+      {
+        "id": "li.3476939",
+        "title": "„Erst unsere Jobs, dann eure Profite!“: Demonstrationen zum Tag der Arbeit",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/erst-unsere-jobs-dann-eure-profite-demonstrationen-zum-tag-der-arbeit-li.3476939",
+        "category": "Arbeit und Soziales",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-01T12:57:48.000Z"
+      },
+      {
+        "id": "li.3476933",
+        "title": "Koalitionsvertrag zwischen Grünen und CDU: Einigung in Stuttgart",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/koalitionsvertrag-zwischen-gruenen-und-cdu-einigung-in-stuttgart-li.3476933",
+        "category": "Baden-Württemberg",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-01T12:54:53.000Z"
+      },
       {
         "id": "77008688",
         "title": "Erster Linienflug zwischen USA und Venezuela seit 2019",
@@ -459,33 +479,69 @@
         "category": "USA",
         "source": "Sueddeutsche",
         "publishedAt": "2026-04-30T15:49:50.000Z"
-      },
-      {
-        "id": "er.e723457",
-        "title": "Nahost: Setzt Israel im Kampf gegen die Hamas auf Kriminelle?",
-        "summary": "Im Gazastreifen greifen einige palästinensische Milizen immer wieder an – ihr Ziel ist jedoch nicht Israels Armee, sondern die Hamas. Wer sind sie, und werden sie tatsächlich von Israel unterstützt?  Was Videos und Satellitenbilder verraten.",
-        "paragraphs": [
-          "Im Gazastreifen greifen einige palästinensische Milizen immer wieder an – ihr Ziel ist jedoch nicht Israels Armee, sondern die Hamas. Wer sind sie, und werden sie tatsächlich von Israel unterstützt?  Was Videos und Satellitenbilder verraten."
-        ],
-        "link": "https://www.sueddeutsche.de/projekte/artikel/politik/gaza-hamas-israel-milizen-krieg-e723457/",
-        "category": "Gazastreifen",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-04-30T15:43:00.000Z"
-      },
-      {
-        "id": "76990872",
-        "title": "Trump droht mit Abzug von US-Truppen aus Deutschland",
-        "summary": "Die USA erwägen laut Präsident Trump eine Reduzierung ihrer in Deutschland stationierten Truppen. Hintergrund ist ein verbaler Schlagabtausch zwischen Trump und Bundeskanzler Merz über den Iran-Krieg.",
-        "paragraphs": [
-          "Die USA erwägen laut Präsident Trump eine Reduzierung ihrer in Deutschland stationierten Truppen. Hintergrund ist ein verbaler Schlagabtausch zwischen Trump und Bundeskanzler Merz über den Iran-Krieg."
-        ],
-        "link": "https://www.dw.com/de/trump-droht-mit-abzug-von-us-truppen-aus-deutschland/a-76990872?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Aktuelles",
-        "source": "DW",
-        "publishedAt": "2026-04-30T15:36:00.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "er.e873934",
+        "title": "Fußballgötter: Halb so mild",
+        "summary": "Der Tabellenletzte Heidenheim muss beim Klassenprimus in München ran. Bayerns Michael Olise spendet vorab schon Trost.",
+        "paragraphs": [
+          "Der Tabellenletzte Heidenheim muss beim Klassenprimus in München ran. Bayerns Michael Olise spendet vorab schon Trost."
+        ],
+        "link": "https://www.sueddeutsche.de/projekte/artikel/sport/fussballgoetter-comic-schroeter-bundesliga-e873934/",
+        "category": "Bundesliga",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-01T12:52:00.000Z"
+      },
+      {
+        "id": "li.3476754",
+        "title": "SC Freiburg: Späte Steinbruchlandung",
+        "summary": "Nach dem Hinspiel im Europa-League-Halbfinale in Braga ärgert sich Freiburg über das 1:2 in der Nachspielzeit. Das Team zahlt in der Schlussphase den Preis für die Belastungen der vergangenen Wochen.",
+        "paragraphs": [
+          "Nach dem Hinspiel im Europa-League-Halbfinale in Braga ärgert sich Freiburg über das 1:2 in der Nachspielzeit. Das Team zahlt in der Schlussphase den Preis für die Belastungen der vergangenen Wochen."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/sc-freiburg-braga-europaleague-atubolu-niederlage-li.3476754",
+        "category": "Europa League",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-01T12:51:54.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/novum-in-der-bundesliga-svw-trainerin-kromp-bekommt-mikro-1215341/artikel#omrss",
+        "title": "Novum in der Bundesliga: SVW-Trainerin Kromp bekommt Mikro",
+        "summary": "Friederike Kromp wird beim kommenden Auswärtsspiel ihres SV Werder Bremen beim 1. FC Köln nicht nur für ihre Spielerinnen zu hören sein. Als erste Trainerin in der Bundesliga wird sie ein Ansteck-Mikrofon tragen.",
+        "paragraphs": [
+          "Friederike Kromp wird beim kommenden Auswärtsspiel ihres SV Werder Bremen beim 1. FC Köln nicht nur für ihre Spielerinnen zu hören sein. Als erste Trainerin in der Bundesliga wird sie ein Ansteck-Mikrofon tragen."
+        ],
+        "link": "https://www.kicker.de/novum-in-der-bundesliga-svw-trainerin-kromp-bekommt-mikro-1215341/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-05-01T12:42:57.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/hsv-gegen-union-berlin-2026-frauen-bundesliga-5076359/spielbericht#omrss",
+        "title": "LIVE! Nach dem Sieg in Nürnberg: Zieht der HSV gegen Union am FCN vorbei?",
+        "summary": "Durch den Sieg in Nürnberg ist der Hamburger SV bis auf einen Punkt an den FCN herangerückt, am Freitagnachmittag können die HSV-Frauen nun in der Tabelle an den Franken vorbeiziehen und im Abstiegskampf der Bundesliga vorlegen. Anstoß ist um 15 Uhr.",
+        "paragraphs": [
+          "Durch den Sieg in Nürnberg ist der Hamburger SV bis auf einen Punkt an den FCN herangerückt, am Freitagnachmittag können die HSV-Frauen nun in der Tabelle an den Franken vorbeiziehen und im Abstiegskampf der Bundesliga vorlegen. Anstoß ist um 15 Uhr."
+        ],
+        "link": "https://www.kicker.de/hsv-gegen-union-berlin-2026-frauen-bundesliga-5076359/spielbericht#omrss",
+        "category": "1. FC Union Berlin",
+        "source": "Kicker",
+        "publishedAt": "2026-05-01T12:40:29.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/bersenbruecks-grosser-pokal-traum-reimerink-ist-als-psychologe-gefragt-1215109/artikel#omrss",
+        "title": "Bersenbrücks großer Pokal-Traum: Reimerink ist als Psychologe gefragt",
+        "summary": "In der Oberliga hat der TuS Bersenbrück den Anschluss verloren, während der große Traum vom erneuten Einzug in den DFB-Pokal lebt. Jules Reimerink stand 2023 gegen Mönchengladbach auf dem Rasen und möchte nun in die Köpfe seiner Spieler vordringen.",
+        "paragraphs": [
+          "In der Oberliga hat der TuS Bersenbrück den Anschluss verloren, während der große Traum vom erneuten Einzug in den DFB-Pokal lebt. Jules Reimerink stand 2023 gegen Mönchengladbach auf dem Rasen und möchte nun in die Köpfe seiner Spieler vordringen."
+        ],
+        "link": "https://www.kicker.de/bersenbruecks-grosser-pokal-traum-reimerink-ist-als-psychologe-gefragt-1215109/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-05-01T12:39:51.000Z"
+      },
       {
         "id": "https://www.kicker.de/fcs-torwart-menzel-geniesst-die-wertschaetzung-und-ueberlegt-1215342/artikel#omrss",
         "title": "FCS-Torwart Menzel genießt die Wertschätzung und überlegt",
@@ -665,66 +721,6 @@
         "category": null,
         "source": "Kicker",
         "publishedAt": "2026-05-01T09:32:51.000Z"
-      },
-      {
-        "id": "li.3476556",
-        "title": "Golf: Saudi-Arabien ist dann mal raus",
-        "summary": "Geld spielt keine Rolle in Saudi-Arabien? Offenbar doch. Nach Milliarden-Investitionen in die LIV Tour steigt der Staatsfonds PIF Ende 2026 komplett aus.",
-        "paragraphs": [
-          "Geld spielt keine Rolle in Saudi-Arabien? Offenbar doch. Nach Milliarden-Investitionen in die LIV Tour steigt der Staatsfonds PIF Ende 2026 komplett aus."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/golf-saudi-arabien-rueckzug-liv-tour-li.3476556",
-        "category": "Golf",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-01T09:17:29.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kompany-es-ist-jetzt-wieder-frank-schmidt-time-1215291/video#omrss",
-        "title": "Kompany: \"Es ist jetzt wieder Frank-Schmidt-Time\"",
-        "summary": "Vincent Kompany weiß aus Burnley-Zeiten, wie es ist, eine ganze Saison tief im Tabellenkeller zu stecken - und bewundert deshalb umso mehr, was Frank Schmidt in Heidenheim einmal mehr leistet.",
-        "paragraphs": [
-          "Vincent Kompany weiß aus Burnley-Zeiten, wie es ist, eine ganze Saison tief im Tabellenkeller zu stecken - und bewundert deshalb umso mehr, was Frank Schmidt in Heidenheim einmal mehr leistet."
-        ],
-        "link": "https://www.kicker.de/kompany-es-ist-jetzt-wieder-frank-schmidt-time-1215291/video#omrss",
-        "category": "1. FC Heidenheim",
-        "source": "Kicker",
-        "publishedAt": "2026-05-01T09:15:57.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bayern-bestaetigt-krueger-spricht-mit-dem-hsv-1215286/artikel#omrss",
-        "title": "Bayern bestätigt: Krüger spricht mit dem HSV",
-        "summary": "Der FC Bayern hat bestätigt, dass Kathleen Krüger Verhandlungen mit dem HSV führt. Ein Update zu Manuel Neuer wollte Christoph Freund am Freitag nicht geben - geriet aber beim Torwartthema ins Schwärmen.",
-        "paragraphs": [
-          "Der FC Bayern hat bestätigt, dass Kathleen Krüger Verhandlungen mit dem HSV führt. Ein Update zu Manuel Neuer wollte Christoph Freund am Freitag nicht geben - geriet aber beim Torwartthema ins Schwärmen."
-        ],
-        "link": "https://www.kicker.de/bayern-bestaetigt-krueger-spricht-mit-dem-hsv-1215286/artikel#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-05-01T09:15:32.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/das-ist-unnoetig-aubin-hadert-mit-berlins-verpasster-chance-1215281/artikel#omrss",
-        "title": "\"Das ist unnötig\": Aubin hadert mit Berlins verpasster Chance",
-        "summary": "Es war alles angerichtet für die große Feier, der Titel-Hattrick quasi am Silbertablett serviert. Am Ende vergaben die Eisbären Berlin gegen die Adler Mannheim den ersten Matchball. Nicht nur Trainer Serge Aubin haderte.",
-        "paragraphs": [
-          "Es war alles angerichtet für die große Feier, der Titel-Hattrick quasi am Silbertablett serviert. Am Ende vergaben die Eisbären Berlin gegen die Adler Mannheim den ersten Matchball. Nicht nur Trainer Serge Aubin haderte."
-        ],
-        "link": "https://www.kicker.de/das-ist-unnoetig-aubin-hadert-mit-berlins-verpasster-chance-1215281/artikel#omrss",
-        "category": "Adler Mannheim",
-        "source": "Kicker",
-        "publishedAt": "2026-05-01T09:11:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/erstmals-seit-jahren-startet-die-nfl-ohne-rookie-quarterback-in-week-1-1215283/artikel#omrss",
-        "title": "Erstmals seit Jahren: Startet die NFL ohne Rookie-Quarterback in Week 1?",
-        "summary": "Zum ersten Mal seit mehreren Jahren könnte die NFL-Saison ohne einen Rookie-Quarterback als Starter in Week 1 beginnen. Eine Entwicklung, die es zuletzt 2022 gab. Davor muss man sogar bis 2007 zurückgehen, um eine vergleichbare Situation zu finden.",
-        "paragraphs": [
-          "Zum ersten Mal seit mehreren Jahren könnte die NFL-Saison ohne einen Rookie-Quarterback als Starter in Week 1 beginnen. Eine Entwicklung, die es zuletzt 2022 gab. Davor muss man sogar bis 2007 zurückgehen, um eine vergleichbare Situation zu finden."
-        ],
-        "link": "https://www.kicker.de/erstmals-seit-jahren-startet-die-nfl-ohne-rookie-quarterback-in-week-1-1215283/artikel#omrss",
-        "category": "Football",
-        "source": "Kicker",
-        "publishedAt": "2026-05-01T09:03:00.000Z"
       }
     ],
     "edv": [
@@ -742,7 +738,7 @@
       },
       {
         "id": "https://www.heise.de/news/Hogwarts-Legacy-ist-kostenlos-im-Epic-Games-Store-zu-haben-11279190.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Hogwarts Legacy ist kostenlos im Epic Games Store zu haben",
+        "title": "Harry Potter-Spiel kostenlos sichern",
         "summary": "Harry-Potter-Fans aufgepasst: Epic Games bietet Hogwarts Legacy kostenlos zum Download an. Die Aktion läuft bis zum 3. Mai.",
         "paragraphs": [
           "Harry-Potter-Fans aufgepasst: Epic Games bietet Hogwarts Legacy kostenlos zum Download an. Die Aktion läuft bis zum 3. Mai."
@@ -933,13 +929,13 @@
         "publishedAt": "2026-04-29T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Als-Festplatten-noch-riesig-waren-Die-Quantum-Bigfoot-wird-30-Jahre-alt-11278133.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Als Festplatten noch riesig waren: Die Quantum Bigfoot wird 30 Jahre alt",
-        "summary": "Vor knapp 30 Jahren brachte Quantum die Bigfoot auf den Markt. Die 5,25-Zoll-Festplatte sollte ein sterbendes Format retten, scheiterte damit aber krachend.",
+        "id": "https://www.heise.de/tests/Haptische-Westen-ausprobiert-Was-leisten-Woojer-Vest-und-bHaptics-Tactsuit-11277906.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Haptische Westen ausprobiert: Was leisten Woojer Vest und bHaptics Tactsuit?",
+        "summary": "Mehr Immersion durch Vibration am ganzen Körper? Wir haben die Woojer Vest 4 und den bHaptics Tactsuit Pro mit Musik, VR- und PC-Spielen ausprobiert.",
         "paragraphs": [
-          "Vor knapp 30 Jahren brachte Quantum die Bigfoot auf den Markt. Die 5,25-Zoll-Festplatte sollte ein sterbendes Format retten, scheiterte damit aber krachend."
+          "Mehr Immersion durch Vibration am ganzen Körper? Wir haben die Woojer Vest 4 und den bHaptics Tactsuit Pro mit Musik, VR- und PC-Spielen ausprobiert."
         ],
-        "link": "https://www.heise.de/news/Als-Festplatten-noch-riesig-waren-Die-Quantum-Bigfoot-wird-30-Jahre-alt-11278133.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/tests/Haptische-Westen-ausprobiert-Was-leisten-Woojer-Vest-und-bHaptics-Tactsuit-11277906.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
         "publishedAt": "2026-05-01T06:45:00.000Z"
@@ -957,19 +953,79 @@
         "publishedAt": "2026-04-28T14:50:00.000Z"
       },
       {
-        "id": "https://www.heise.de/tests/Haptische-Westen-ausprobiert-Was-leisten-Woojer-Vest-und-bHaptics-Tactsuit-11277906.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Haptische Westen ausprobiert: Was leisten Woojer Vest und bHaptics Tactsuit?",
-        "summary": "Mehr Immersion durch Vibration am ganzen Körper? Wir haben die Woojer Vest 4 und den bHaptics Tactsuit Pro mit Musik, VR- und PC-Spielen ausprobiert.",
+        "id": "https://www.heise.de/news/Als-Festplatten-noch-riesig-waren-Die-Quantum-Bigfoot-wird-30-Jahre-alt-11278133.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Als Festplatten noch riesig waren: Die Quantum Bigfoot wird 30 Jahre alt",
+        "summary": "Vor knapp 30 Jahren brachte Quantum die Bigfoot auf den Markt. Die 5,25-Zoll-Festplatte sollte ein sterbendes Format retten, scheiterte damit aber krachend.",
         "paragraphs": [
-          "Mehr Immersion durch Vibration am ganzen Körper? Wir haben die Woojer Vest 4 und den bHaptics Tactsuit Pro mit Musik, VR- und PC-Spielen ausprobiert."
+          "Vor knapp 30 Jahren brachte Quantum die Bigfoot auf den Markt. Die 5,25-Zoll-Festplatte sollte ein sterbendes Format retten, scheiterte damit aber krachend."
         ],
-        "link": "https://www.heise.de/tests/Haptische-Westen-ausprobiert-Was-leisten-Woojer-Vest-und-bHaptics-Tactsuit-11277906.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Als-Festplatten-noch-riesig-waren-Die-Quantum-Bigfoot-wird-30-Jahre-alt-11278133.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
         "publishedAt": "2026-05-01T06:45:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-weisses-haus-kongress-muss-iran-krieg-nicht-mehr-zustimmen/100221662.html",
+        "title": "Iran-Krieg: Weißes Haus: Kongress muss Iran-Krieg nicht mehr zustimmen",
+        "summary": "Zum Wochenende hin endet das Zeitfenster, in dem die USA ohne Zustimmung des Kongresses in den Krieg ziehen dürfen. Die braucht es aber nach neuester Auslegung der US-Regierung ohnehin nicht.",
+        "paragraphs": [
+          "Zum Wochenende hin endet das Zeitfenster, in dem die USA ohne Zustimmung des Kongresses in den Krieg ziehen dürfen. Die braucht es aber nach neuester Auslegung der US-Regierung ohnehin nicht."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-weisses-haus-kongress-muss-iran-krieg-nicht-mehr-zustimmen/100221662.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T12:51:05.000Z"
+      },
+      {
+        "id": "bb433fbf-bed1-4a9d-9000-8b9ba42de374",
+        "title": "Strompreise und Energiewende: Warum Deutschland Strom ins Ausland verschenkt",
+        "summary": "Viel Sonne und Wind bei wenig Nachfrage, das führt an einem Tag wie dem 1. Mai zu extrem negativen Preisen an der Strombörse. Deutschland zahlt drauf, um Energie loszuwerden. Was mit dem Geld geschieht und gegen die Extreme hilft.",
+        "paragraphs": [
+          "Viel Sonne und Wind bei wenig Nachfrage, das führt an einem Tag wie dem 1. Mai zu extrem negativen Preisen an der Strombörse. Deutschland zahlt drauf, um Energie loszuwerden. Was mit dem Geld geschieht und gegen die Extreme hilft."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/strompreise-und-energiewende-warum-deutschland-strom-ins-ausland-verschenkt-a-bb433fbf-bed1-4a9d-9000-8b9ba42de374#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-05-01T12:50:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/mobilitaetskosten-tankrabatt-zeigt-erste-wirkung-an-den-zapfsaeulen/100221604.html",
+        "title": "Mobilitätskosten: Tankrabatt zeigt erste Wirkung an den Zapfsäulen",
+        "summary": "Für Benzin und Diesel gelten jetzt für zwei Monate niedrigere Steuern. Das soll dafür sorgen, dass Tanken für Pendler, Handwerker und andere nicht noch teurer wird. Kommt das schon an?",
+        "paragraphs": [
+          "Für Benzin und Diesel gelten jetzt für zwei Monate niedrigere Steuern. Das soll dafür sorgen, dass Tanken für Pendler, Handwerker und andere nicht noch teurer wird. Kommt das schon an?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/mobilitaetskosten-tankrabatt-zeigt-erste-wirkung-an-den-zapfsaeulen/100221604.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T12:45:48.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/werben-um-fahrgaeste-jetzt-auch-last-minute-tickets-fuer-ices/100221557.html",
+        "title": "Werben um Fahrgäste: Jetzt auch Last-Minute-Tickets für ICEs",
+        "summary": "Ab 9. Mai lockt die Bahn mit einer neuen Preisaktion, um freie Plätze in Fernzügen jenseits der Stoßzeiten zu vergeben. Was tut sich nach drei Jahren bei einem beliebten Nahverkehrsangebot?",
+        "paragraphs": [
+          "Ab 9. Mai lockt die Bahn mit einer neuen Preisaktion, um freie Plätze in Fernzügen jenseits der Stoßzeiten zu vergeben. Was tut sich nach drei Jahren bei einem beliebten Nahverkehrsangebot?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/werben-um-fahrgaeste-jetzt-auch-last-minute-tickets-fuer-ices/100221557.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T12:41:33.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/tag-der-arbeit-spd-wird-den-1.-mai-als-feiertag-verteidigen/100221655.html",
+        "title": "Tag der Arbeit: SPD wird den 1. Mai als Feiertag verteidigen",
+        "summary": "Es ist ein klares Versprechen vom Parteichef Klingbeils: Mit der SPD werde es keine Abschaffung des 1. Mai als Feiertag geben. Der Tag sei unverzichtbar für die Arbeitnehmerrechte.",
+        "paragraphs": [
+          "Es ist ein klares Versprechen vom Parteichef Klingbeils: Mit der SPD werde es keine Abschaffung des 1. Mai als Feiertag geben. Der Tag sei unverzichtbar für die Arbeitnehmerrechte."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/tag-der-arbeit-spd-wird-den-1.-mai-als-feiertag-verteidigen/100221655.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T12:32:01.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/technik/forschung-innovation/buckelwal-netz-von-barge-mit-buckelwal-in-ostsee-entfernt/100221643.html",
         "title": "Buckelwal: Netz von Barge mit Buckelwal in Ostsee entfernt",
@@ -1043,18 +1099,6 @@
         "publishedAt": "2026-05-01T11:57:00.000Z"
       },
       {
-        "id": "https://www.handelsblatt.com/politik/deutschland/mobilitaetskosten-tankrabatt-zeigt-erste-wirkung-an-zapfsaeulen/100221604.html",
-        "title": "Mobilitätskosten: Tankrabatt zeigt erste Wirkung an Zapfsäulen",
-        "summary": "Für Benzin und Diesel gelten jetzt für zwei Monate niedrigere Steuern. Das soll dafür sorgen, dass Tanken für Pendler, Handwerker und andere nicht noch teurer wird. Kommt das schon an?",
-        "paragraphs": [
-          "Für Benzin und Diesel gelten jetzt für zwei Monate niedrigere Steuern. Das soll dafür sorgen, dass Tanken für Pendler, Handwerker und andere nicht noch teurer wird. Kommt das schon an?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/mobilitaetskosten-tankrabatt-zeigt-erste-wirkung-an-zapfsaeulen/100221604.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-01T11:03:25.000Z"
-      },
-      {
         "id": "https://www.handelsblatt.com/politik/deutschland/umfrage-bleibende-unsicherheit-lagebild-der-juedischen-gemeinden/100221597.html",
         "title": "Umfrage: Bleibende Unsicherheit: Lagebild der jüdischen Gemeinden",
         "summary": "Eine neue Umfrage des Zentralrats der Juden in Deutschland zeigt die Stimmung seit dem Hamas-Angriff auf Israel 2023. Präsident Schuster nennt die Lage in Deutschland unhaltbar.",
@@ -1089,6 +1133,18 @@
         "category": "Handelsblatt Wirtschaftsforum",
         "source": "Handelsblatt",
         "publishedAt": "2026-05-01T10:04:23.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/die-welt-in-bildern-blickfang/8906950.html",
+        "title": "Die Welt in Bildern: Blickfang",
+        "summary": "Sie beeindrucken. Sie wühlen auf. Sie faszinieren. Sie erschrecken. Sie dokumentieren den großen Moment. Sie zeigen kleine Wunder. Oder sie erzählen eine Geschichte. Die Welt – ein Blickfang.",
+        "paragraphs": [
+          "Sie beeindrucken. Sie wühlen auf. Sie faszinieren. Sie erschrecken. Sie dokumentieren den großen Moment. Sie zeigen kleine Wunder. Oder sie erzählen eine Geschichte. Die Welt – ein Blickfang."
+        ],
+        "link": "https://www.handelsblatt.com/die-welt-in-bildern-blickfang/8906950.html",
+        "category": "Handelsblatt",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T10:01:00.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/ranking-2026-das-sind-die-besten-krankenvollversicherungen-mit-premiumschutz/100209905.html",
@@ -1149,66 +1205,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-05-01T08:59:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/zinsdebatte-bundesbankchef-nagel-bringt-ezb-zinserhoehung-im-juni-ins-spiel/100221623.html",
-        "title": "Zinsdebatte: Bundesbankchef Nagel bringt EZB-Zinserhöhung im Juni ins Spiel",
-        "summary": "Steigende Preise und geopolitische Risiken erhöhen den Handlungsdruck. Falls die Inflationsaussichten sich nicht deutlich verbesserten, könnte laut Nagel eine Zinserhöhung notwendig werden.",
-        "paragraphs": [
-          "Steigende Preise und geopolitische Risiken erhöhen den Handlungsdruck. Falls die Inflationsaussichten sich nicht deutlich verbesserten, könnte laut Nagel eine Zinserhöhung notwendig werden."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/zinsdebatte-bundesbankchef-nagel-bringt-ezb-zinserhoehung-im-juni-ins-spiel/100221623.html",
-        "category": "Banken",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-01T08:31:29.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/elektroautohersteller-rivian-reduziert-verluste-und-erhoeht-kapazitaetsplanung-fuer-neues-werk/100221616.html",
-        "title": "Elektroautohersteller: Rivian reduziert Verluste und erhöht Kapazitätsplanung für neues Werk",
-        "summary": "Kurz vor dem Verkaufsstart seines wichtigen SUV-Modells R2 meldet Rivian überraschend gute Quartalszahlen. Das Unternehmen erhöht zudem das Produktionsziel für sein geplantes neues Werk im Bundesstaat Georgia.",
-        "paragraphs": [
-          "Kurz vor dem Verkaufsstart seines wichtigen SUV-Modells R2 meldet Rivian überraschend gute Quartalszahlen. Das Unternehmen erhöht zudem das Produktionsziel für sein geplantes neues Werk im Bundesstaat Georgia."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/elektroautohersteller-rivian-reduziert-verluste-und-erhoeht-kapazitaetsplanung-fuer-neues-werk/100221616.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-01T08:24:54.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-gruen-schwarz-im-suedwesten-einigt-sich-auf-koalitionsvertrag/100221620.html",
-        "title": "Regierungsbildung: Grün-Schwarz im Südwesten einigt sich auf Koalitionsvertrag",
-        "summary": "Der Weg dorthin war mühsam, doch nun steht die Neuauflage der grün-schwarzen Koalition in Baden-Württemberg – nur einen Tag nach der feierlichen Verabschiedung von Winfried Kretschmann.",
-        "paragraphs": [
-          "Der Weg dorthin war mühsam, doch nun steht die Neuauflage der grün-schwarzen Koalition in Baden-Württemberg – nur einen Tag nach der feierlichen Verabschiedung von Winfried Kretschmann."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-gruen-schwarz-im-suedwesten-einigt-sich-auf-koalitionsvertrag/100221620.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-01T08:16:41.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/forschung-innovation/aufwendiger-rettungsversuch-hoher-wellengang-wal-transportschiff-kommt-nicht-weiter/100221621.html",
-        "title": "Aufwendiger Rettungsversuch: Hoher Wellengang: Wal-Transportschiff kommt nicht weiter",
-        "summary": "Nach tagelanger Fahrt entlang der dänischen Küste ist der Lastkahn mit dem Buckelwal fast in der Nordsee angekommen. Erst dort soll das Tier eigentlich abgeladen werden. Doch es gibt Probleme.",
-        "paragraphs": [
-          "Nach tagelanger Fahrt entlang der dänischen Küste ist der Lastkahn mit dem Buckelwal fast in der Nordsee angekommen. Erst dort soll das Tier eigentlich abgeladen werden. Doch es gibt Probleme."
-        ],
-        "link": "https://www.handelsblatt.com/technik/forschung-innovation/aufwendiger-rettungsversuch-hoher-wellengang-wal-transportschiff-kommt-nicht-weiter/100221621.html",
-        "category": "Forschung + Innovation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-01T08:11:44.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-topix-erleichterung-an-den-asiatischen-aktienmaerkten/100221593.html",
-        "title": "Nikkei und Topix: Erleichterung an den asiatischen Aktienmärkten",
-        "summary": "Anleger in Asien kaufen vor allem Technologiewerte und stützen so den Nikkei. Der Index verbuchte den größten monatlichen Zuwachs seit Oktober.",
-        "paragraphs": [
-          "Anleger in Asien kaufen vor allem Technologiewerte und stützen so den Nikkei. Der Index verbuchte den größten monatlichen Zuwachs seit Oktober."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-topix-erleichterung-an-den-asiatischen-aktienmaerkten/100221593.html",
-        "category": "Marktberichte",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-01T07:58:02.000Z"
       }
     ]
   }
