@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-05-01T02:16:54.485Z",
+  "updatedAt": "2026-05-01T03:20:34.655Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "48ca9dd6-bec3-40b2-a957-d0214768f039",
+        "title": "Oxfam-Berechnungen: Einkommensschere wächst weiter",
+        "summary": "Die Einkommen von Konzernchefs und Beschäftigten gehen nach Berechnungen der Organisation Oxfam immer weiter auseinander. Spitzengehälter sind demnach stark gestiegen - die Reallöhne vieler Angestellter liegen hingegen unter dem Niveau von 2019.",
+        "paragraphs": [
+          "Die Einkommen von Konzernchefs und Beschäftigten gehen nach Berechnungen der Organisation Oxfam immer weiter auseinander. Spitzengehälter sind demnach stark gestiegen - die Reallöhne vieler Angestellter liegen hingegen unter dem Niveau von 2019."
+        ],
+        "link": "https://www.tagesschau.de/inland/oxfam-einkommensverteilung-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-05-01T03:01:49.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Bahn-will-mit-Last-Minute-Tickets-punkten-id30774689.html",
         "title": "Angebot für Kurzentschlossene: Bahn will mit Last-Minute-Tickets punkten",
@@ -229,18 +241,6 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-04-30T08:40:38.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/Deutsche-Wirtschaft-waechst-trotz-Iran-Kriegs-ueberraschend-deutlich-id30771841.html",
-        "title": "Forderung nach Strukturreformen: Deutsche Wirtschaft wächst trotz Iran-Kriegs überraschend deutlich",
-        "summary": "Dem Iran-Krieg zum Trotz sendet die deutsche Wirtschaft in den ersten drei Monaten des Jahres ein positives Signal: Sie wächst um 0,3 Prozent. Die Konjunkturprognosen allerdings sind negativ.",
-        "paragraphs": [
-          "Dem Iran-Krieg zum Trotz sendet die deutsche Wirtschaft in den ersten drei Monaten des Jahres ein positives Signal: Sie wächst um 0,3 Prozent. Die Konjunkturprognosen allerdings sind negativ."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/Deutsche-Wirtschaft-waechst-trotz-Iran-Kriegs-ueberraschend-deutlich-id30771841.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-04-30T08:04:57.000Z"
       }
     ],
     "politik": [
@@ -487,6 +487,18 @@
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/atlanta-gegen-new-york-2026-nba-playoffs-5200058/spielbericht#omrss",
+        "title": "Rekordnacht in Atlanta: Knicks deklassieren Hawks vor eigenem Publikum",
+        "summary": "Die New York Knicks haben ihren Platz im Conference-Halbfinale dank eines Statement-Sieges gegen Atlanta klargemacht (89:140). Dabei knackte das Team aus dem Big Apple den Rekord für die höchste Pausenführung der Playoff-Geschichte.",
+        "paragraphs": [
+          "Die New York Knicks haben ihren Platz im Conference-Halbfinale dank eines Statement-Sieges gegen Atlanta klargemacht (89:140). Dabei knackte das Team aus dem Big Apple den Rekord für die höchste Pausenführung der Playoff-Geschichte."
+        ],
+        "link": "https://www.kicker.de/atlanta-gegen-new-york-2026-nba-playoffs-5200058/spielbericht#omrss",
+        "category": "Atlanta Hawks",
+        "source": "Kicker",
+        "publishedAt": "2026-05-01T02:18:52.000Z"
+      },
+      {
         "id": "{urn:uuid:28f48470-7274-4bcf-8433-36683f3e6c39}",
         "title": "Fußballweltverband: Gianni Infantino strebt weitere Amtszeit als Fifa-Präsident an",
         "summary": "Gianni Infantino will erneut kandidieren und weist Kritik an den hohen WM-Ticketpreisen zurück. Donald Trump steht einer Teilnahme des Iran am Turnier offen gegenüber.",
@@ -713,18 +725,6 @@
         "category": "Football",
         "source": "Kicker",
         "publishedAt": "2026-04-30T19:07:23.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hertha-ii-gegen-luckenwalde-2026-regionalliga-nordost-5058675/spielbericht#omrss",
-        "title": "Gegen harmlose Hertha-Bubis: Schleinitz schießt Luckenwalde zum Klassenerhalt",
-        "summary": "Was ohnehin nur noch eine Frage der Zeit war, steht nun auch rechnerisch fest: Der FSV Luckenwalde bleibt in der Regionalliga Nordost. Mit dem 1:0-Sieg gegen Hertha BSC II kann der FSV nicht mehr auf einen Abstiegsplatz abrutschen.",
-        "paragraphs": [
-          "Was ohnehin nur noch eine Frage der Zeit war, steht nun auch rechnerisch fest: Der FSV Luckenwalde bleibt in der Regionalliga Nordost. Mit dem 1:0-Sieg gegen Hertha BSC II kann der FSV nicht mehr auf einen Abstiegsplatz abrutschen."
-        ],
-        "link": "https://www.kicker.de/hertha-ii-gegen-luckenwalde-2026-regionalliga-nordost-5058675/spielbericht#omrss",
-        "category": "FSV Luckenwalde",
-        "source": "Kicker",
-        "publishedAt": "2026-04-30T19:05:10.000Z"
       }
     ],
     "edv": [
@@ -971,6 +971,66 @@
     ],
     "börse": [
       {
+        "id": "https://www.handelsblatt.com/technik/forschung-innovation/grundschleppnetz-fischerei-wie-eine-fischereimethode-meeresbewohner-und-klima-schaedigt/100221589.html",
+        "title": "Grundschleppnetz-Fischerei: Wie eine Fischereimethode Meeresbewohner und Klima schädigt",
+        "summary": "Bei der Grundschleppnetz-Fischerei schleifen Schiffe Netze über den Meeresboden - regelmäßig auch in Schutzzonen Europas. Dabei zerstören sie Naturräume und schädigen das Klima stark, so eine Studie.",
+        "paragraphs": [
+          "Bei der Grundschleppnetz-Fischerei schleifen Schiffe Netze über den Meeresboden - regelmäßig auch in Schutzzonen Europas. Dabei zerstören sie Naturräume und schädigen das Klima stark, so eine Studie."
+        ],
+        "link": "https://www.handelsblatt.com/technik/forschung-innovation/grundschleppnetz-fischerei-wie-eine-fischereimethode-meeresbewohner-und-klima-schaedigt/100221589.html",
+        "category": "Forschung + Innovation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T03:00:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/pharma-merck-setzt-auf-urgestein-kai-beckmann-uebernimmt-chefposten/100221588.html",
+        "title": "Pharma: Merck setzt auf Urgestein – Kai Beckmann übernimmt Chefposten",
+        "summary": "Der Darmstädter Pharma- und Technologiekonzern bekommt einen neuen Chef. Kai Beckmann übernimmt von Belén Garijo. Er arbeitet seit Jahrzehnten für Merck. Welche Pläne hat er?",
+        "paragraphs": [
+          "Der Darmstädter Pharma- und Technologiekonzern bekommt einen neuen Chef. Kai Beckmann übernimmt von Belén Garijo. Er arbeitet seit Jahrzehnten für Merck. Welche Pläne hat er?"
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/pharma-merck-setzt-auf-urgestein-kai-beckmann-uebernimmt-chefposten/100221588.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T02:49:15.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/pharmabranche-merck-setzt-auf-urgestein-kai-beckmann-uebernimmt-chefposten/100221586.html",
+        "title": "Pharmabranche: Merck setzt auf Urgestein: Kai Beckmann übernimmt Chefposten",
+        "summary": "Der Darmstädter Pharma- und Technologiekonzern bekommt einen neuen Chef. Kai Beckmann übernimmt von Belén Garijo, die zu Sanofi wechselte. Er arbeitet seit Jahrzehnten für Merck. Welche Pläne hat er?",
+        "paragraphs": [
+          "Der Darmstädter Pharma- und Technologiekonzern bekommt einen neuen Chef. Kai Beckmann übernimmt von Belén Garijo, die zu Sanofi wechselte. Er arbeitet seit Jahrzehnten für Merck. Welche Pläne hat er?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/pharmabranche-merck-setzt-auf-urgestein-kai-beckmann-uebernimmt-chefposten/100221586.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T02:30:20.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/zahlen-der-bundeslaender-rechts-motivierte-gewalt-erreicht-hoechsten-stand-seit-2016/100221584.html",
+        "title": "Zahlen der Bundesländer: Rechts motivierte Gewalt erreicht höchsten Stand seit 2016",
+        "summary": "Die Polizei hat 2025 mehr rechte Gewaltdelikte als im Vorjahr registriert. Bei einigen sind die Tatverdächtigen sehr jung. Ein Innenpolitiker der Linken sagt, die Bundesregierung leugne die Bedrohung.",
+        "paragraphs": [
+          "Die Polizei hat 2025 mehr rechte Gewaltdelikte als im Vorjahr registriert. Bei einigen sind die Tatverdächtigen sehr jung. Ein Innenpolitiker der Linken sagt, die Bundesregierung leugne die Bedrohung."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/zahlen-der-bundeslaender-rechts-motivierte-gewalt-erreicht-hoechsten-stand-seit-2016/100221584.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T02:20:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/nahverkehr-drei-jahre-deutschlandticket-forderungen-nach-oepnv-ausbau/100221582.html",
+        "title": "Nahverkehr: Drei Jahre Deutschlandticket: Forderungen nach ÖPNV-Ausbau",
+        "summary": "Das Deutschlandticket wird drei Jahre alt - am Tag, an dem der Tankrabatt gilt. Umweltverbänden kritisieren die Maßnahme. Was sie wollen.",
+        "paragraphs": [
+          "Das Deutschlandticket wird drei Jahre alt - am Tag, an dem der Tankrabatt gilt. Umweltverbänden kritisieren die Maßnahme. Was sie wollen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/nahverkehr-drei-jahre-deutschlandticket-forderungen-nach-oepnv-ausbau/100221582.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T02:15:04.000Z"
+      },
+      {
         "id": "https://www.handelsblatt.com/politik/deutschland/zum-tag-der-arbeit-trigema-patriarch-wer-aelter-wird-muss-laenger-arbeiten/100221579.html",
         "title": "Zum Tag der Arbeit: Trigema-Patriarch: „Wer älter wird, muss länger arbeiten“",
         "summary": "Wolfgang Grupp fordert, dass die Lebensarbeitszeit automatisch an die steigende Lebenserwartung angepasst wird. Warum er diese Debatte in der Politik vermisst.",
@@ -1149,66 +1209,6 @@
         "category": "Deutschland",
         "source": "Handelsblatt",
         "publishedAt": "2026-04-30T22:01:05.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-koalitionsvertrag-von-gruenen-und-cdu-im-suedwesten-steht/100221535.html",
-        "title": "Regierungsbildung: Koalitionsvertrag von Grünen und CDU im Südwesten steht",
-        "summary": "Nach wochenlangen Verhandlungen einigen sich Cem Özdemir und Manuel Hagel auf einen Koalitionsvertrag. Grün-Schwarz geht damit in die dritte Runde in Baden-Württemberg.",
-        "paragraphs": [
-          "Nach wochenlangen Verhandlungen einigen sich Cem Özdemir und Manuel Hagel auf einen Koalitionsvertrag. Grün-Schwarz geht damit in die dritte Runde in Baden-Württemberg."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-koalitionsvertrag-von-gruenen-und-cdu-im-suedwesten-steht/100221535.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-30T21:54:07.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-gruene-und-cdu-im-suedwesten-einigen-sich-auf-koalition/100137034.html",
-        "title": "+++ Bundespolitik +++: Grüne und CDU im Südwesten einigen sich auf Koalition",
-        "summary": "Gericht untersagt Weimers Äußerung zu Berliner Buchladen +++ Wadephul lobt Beitrag marokkanischer Fachkräfte +++ CDU und SPD in Rheinland-Pfalz einigen sich auf Koalition +++ Der Newsblog.",
-        "paragraphs": [
-          "Gericht untersagt Weimers Äußerung zu Berliner Buchladen +++ Wadephul lobt Beitrag marokkanischer Fachkräfte +++ CDU und SPD in Rheinland-Pfalz einigen sich auf Koalition +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-gruene-und-cdu-im-suedwesten-einigen-sich-auf-koalition/100137034.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-30T21:54:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/haushaltsstreit-kompromiss-im-streit-ueber-finanzierung-von-us-ministerium/100221516.html",
-        "title": "Haushaltsstreit: Kompromiss im Streit über Finanzierung von US-Ministerium",
-        "summary": "Monatelang konnten sich Demokraten und Republikaner nicht auf eine Finanzierung des Heimatschutzministeriums einigen. Nun kommt es zum Kompromiss - der jedoch den zentralen Streitpunkt auslässt.",
-        "paragraphs": [
-          "Monatelang konnten sich Demokraten und Republikaner nicht auf eine Finanzierung des Heimatschutzministeriums einigen. Nun kommt es zum Kompromiss - der jedoch den zentralen Streitpunkt auslässt."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/haushaltsstreit-kompromiss-im-streit-ueber-finanzierung-von-us-ministerium/100221516.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-30T21:34:14.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/technologieindustrie-apple-meldet-ueber-29-milliarden-dollar-quartalsgewinn/100221108.html",
-        "title": "Technologieindustrie: Apple meldet über 29 Milliarden Dollar Quartalsgewinn",
-        "summary": "Chef Cook schwärmt vom erfolgreichsten iPhone aller Zeiten – und treibt die Erwartungen an Nachfolger Ternus. Im Hintergrund schafft Apple derweil die Voraussetzungen für höhere Ausgaben.",
-        "paragraphs": [
-          "Chef Cook schwärmt vom erfolgreichsten iPhone aller Zeiten – und treibt die Erwartungen an Nachfolger Ternus. Im Hintergrund schafft Apple derweil die Voraussetzungen für höhere Ausgaben."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/technologieindustrie-apple-meldet-ueber-29-milliarden-dollar-quartalsgewinn/100221108.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-30T21:16:57.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/iphone-konzern-apple-mit-ueber-29-milliarden-dollar-quartalsgewinn/100221530.html",
-        "title": "iPhone-Konzern: Apple mit über 29 Milliarden Dollar Quartalsgewinn",
-        "summary": "Apple-Chef Tim Cook kündigte jüngst seinen Abgang von der Firmenspitze an. Frische Quartalszahlen zeigen: Das Geschäft des iPhone-Konzerns läuft weiter auf Hochtouren.",
-        "paragraphs": [
-          "Apple-Chef Tim Cook kündigte jüngst seinen Abgang von der Firmenspitze an. Frische Quartalszahlen zeigen: Das Geschäft des iPhone-Konzerns läuft weiter auf Hochtouren."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/iphone-konzern-apple-mit-ueber-29-milliarden-dollar-quartalsgewinn/100221530.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-04-30T21:03:01.000Z"
       }
     ]
   }
