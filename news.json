@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-01T23:53:23.701Z",
+  "updatedAt": "2026-05-02T00:16:11.488Z",
   "categories": {
     "wirtschaft": [
       {
@@ -245,6 +245,18 @@
     ],
     "politik": [
       {
+        "id": "li.3457961",
+        "title": "Krieg in Nahost: Libanon: Zwölf Menschen bei israelischen Angriffen getötet",
+        "summary": "Offiziell gilt zwischen Israel und der proiranischen Hisbollah-Miliz eine Waffenruhe. Nach den erneuten Luftschlägen droht die Basis für Verhandlungen zu schwinden.",
+        "paragraphs": [
+          "Offiziell gilt zwischen Israel und der proiranischen Hisbollah-Miliz eine Waffenruhe. Nach den erneuten Luftschlägen droht die Basis für Verhandlungen zu schwinden."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/iran-liveblog-news-libanon-angriff-israel-tote-li.3457961",
+        "category": "Israel",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-02T00:08:42.000Z"
+      },
+      {
         "id": "li.3475237",
         "title": "Podcast: „Auf den Punkt“: Christlicher Nationalismus: Trumps religiöse Verklärung",
         "summary": "Trump fühlt sich von Gott auserwählt und lässt sich von Evangelikalen unterstützen. Der Publizist und Theologe Arnd Henze erklärt deren Agenda.",
@@ -429,18 +441,6 @@
         "publishedAt": "2026-05-01T14:41:33.000Z"
       },
       {
-        "id": "li.3474568",
-        "title": "Berlin: Es geht um alles – außer um die Mädchen",
-        "summary": "Sexuelle Gewalt in einem Neuköllner Jugendzentrum, Vertuschungsvorwürfe gegen das Jugendamt und ein fragwürdiges politisches Nachbeben.",
-        "paragraphs": [
-          "Sexuelle Gewalt in einem Neuköllner Jugendzentrum, Vertuschungsvorwürfe gegen das Jugendamt und ein fragwürdiges politisches Nachbeben."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/neukoelln-sexualisierte-gewalt-wutzkyallee-cdu-linke-li.3474568",
-        "category": "Berlin",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-01T14:33:45.000Z"
-      },
-      {
         "id": "77011140",
         "title": "Anklage nach Messerangriff auf Juden in London",
         "summary": "Nach dem Anschlag auf zwei Juden in London ist gegen den mutmaßlichen Täter Anklage wegen versuchten Mordes erhoben worden. Die Terrorwarnstufe in Großbritannien wurde auf die zweithöchste Stufe angehoben.",
@@ -478,6 +478,18 @@
       }
     ],
     "sport": [
+      {
+        "id": "512004f2-6d84-4469-9d49-c626a52769e4",
+        "title": "WM 2026: Iran fordert von Fifa Sicherheitsgarantien und politische Neutralität",
+        "summary": "Iran will zur WM – aber nicht »mit Erlaubnis aus Washington«. Nur wenn der Weltverband Fifa Sicherheit und politische Neutralität zusichert, will das Land bei der WM spielen, sagt Verbandschef Tadsch.",
+        "paragraphs": [
+          "Iran will zur WM – aber nicht »mit Erlaubnis aus Washington«. Nur wenn der Weltverband Fifa Sicherheit und politische Neutralität zusichert, will das Land bei der WM spielen, sagt Verbandschef Tadsch."
+        ],
+        "link": "https://www.spiegel.de/sport/wm-2026-iran-fordert-von-fifa-sicherheitsgarantien-und-politische-neutralitaet-a-512004f2-6d84-4469-9d49-c626a52769e4#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-05-01T23:58:00.000Z"
+      },
       {
         "id": "https://www.kicker.de/grand-prix-von-miami-2026-2/1214975/formel1-rennbericht#omrss",
         "title": "Weltmeister Norris rast zur Sprint-Pole in Miami",
@@ -705,18 +717,6 @@
         "category": "Radsport",
         "source": "Kicker",
         "publishedAt": "2026-05-01T16:26:02.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/der-groesste-sieg-meiner-karriere-zimmermann-gewinnt-radklassiker-eschborn-frankfurt-1215434/artikel#omrss",
-        "title": "\"Der größte Sieg meiner Karriere\": Zimmermann gewinnt Radklassiker Eschborn-Frankfurt",
-        "summary": "Der amtierende deutsche Straßenmeister Georg Zimmermann hat die 63. Ausgabe des Radklassikers Eschborn-Frankfurt gewonnen. Mit einem starken Sprint ließ der 28-Jährige dem Favoriten Tom Pidcock keine Chance.",
-        "paragraphs": [
-          "Der amtierende deutsche Straßenmeister Georg Zimmermann hat die 63. Ausgabe des Radklassikers Eschborn-Frankfurt gewonnen. Mit einem starken Sprint ließ der 28-Jährige dem Favoriten Tom Pidcock keine Chance."
-        ],
-        "link": "https://www.kicker.de/der-groesste-sieg-meiner-karriere-zimmermann-gewinnt-radklassiker-eschborn-frankfurt-1215434/artikel#omrss",
-        "category": "Radsport",
-        "source": "Kicker",
-        "publishedAt": "2026-05-01T16:10:12.000Z"
       }
     ],
     "edv": [
@@ -963,13 +963,25 @@
     ],
     "börse": [
       {
-        "id": "https://www.handelsblatt.com/politik/international/militaer-usa-kuendigen-abzug-von-5000-soldaten-aus-deutschland-an/100221715.html",
-        "title": "Militär: USA kündigen Abzug von 5000 Soldaten aus Deutschland an",
+        "id": "https://www.handelsblatt.com/politik/international/nahost-libanon-zwoelf-menschen-bei-israelischen-angriffen-getoetet/100221726.html",
+        "title": "Nahost: Libanon: Zwölf Menschen bei israelischen Angriffen getötet",
+        "summary": "Die Waffenruhe zwischen der proiranischen Hisbollah-Miliz im Libanon und Israel ist fragil. Im Libanon sterben laut libanesischen Angaben wieder viele Menschen bei israelischen Angriffen.",
+        "paragraphs": [
+          "Die Waffenruhe zwischen der proiranischen Hisbollah-Miliz im Libanon und Israel ist fragil. Im Libanon sterben laut libanesischen Angaben wieder viele Menschen bei israelischen Angriffen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/nahost-libanon-zwoelf-menschen-bei-israelischen-angriffen-getoetet/100221726.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-01T23:56:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/pentagon-usa-kuendigen-abzug-von-5000-soldaten-aus-deutschland-an/100221715.html",
+        "title": "Pentagon: USA kündigen Abzug von 5000 Soldaten aus Deutschland an",
         "summary": "Die USA wollen 5000 Soldaten aus Deutschland abziehen – die Umsetzung soll binnen sechs bis zwölf Monaten erfolgen. Die Ankündigung verschärft die Spannungen weiter.",
         "paragraphs": [
           "Die USA wollen 5000 Soldaten aus Deutschland abziehen – die Umsetzung soll binnen sechs bis zwölf Monaten erfolgen. Die Ankündigung verschärft die Spannungen weiter."
         ],
-        "link": "https://www.handelsblatt.com/politik/international/militaer-usa-kuendigen-abzug-von-5000-soldaten-aus-deutschland-an/100221715.html",
+        "link": "https://www.handelsblatt.com/politik/international/pentagon-usa-kuendigen-abzug-von-5000-soldaten-aus-deutschland-an/100221715.html",
         "category": "International",
         "source": "Handelsblatt",
         "publishedAt": "2026-05-01T22:21:16.000Z"
@@ -1189,18 +1201,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-05-01T14:21:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/tag-der-arbeit-gewerkschaften-kuendigen-widerstand-gegen-sozialkuerzungen-an/100221648.html",
-        "title": "Tag der Arbeit: Gewerkschaften kündigen Widerstand gegen Sozialkürzungen an",
-        "summary": "Zum Tag der Arbeit gehen Beschäftigte wieder bundesweit auf die Straße. Die Gewerkschaften formulieren dabei auch Warnungen an die Adresse der Bundesregierung für anstehende große Reformen.",
-        "paragraphs": [
-          "Zum Tag der Arbeit gehen Beschäftigte wieder bundesweit auf die Straße. Die Gewerkschaften formulieren dabei auch Warnungen an die Adresse der Bundesregierung für anstehende große Reformen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/tag-der-arbeit-gewerkschaften-kuendigen-widerstand-gegen-sozialkuerzungen-an/100221648.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-01T14:15:29.000Z"
       }
     ]
   }
