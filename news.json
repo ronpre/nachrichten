@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-05-02T14:36:32.456Z",
+  "updatedAt": "2026-05-02T15:00:43.716Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "ed85ecad-9abb-4e23-80a6-bbfe6716ac2d",
+        "title": "EU reagiert diplomatisch, aber deutlich auf Trumps Zolldrohung",
+        "summary": "Die EU habe sich nicht an das Handelsabkommen gehalten - so begründet US-Präsident Trump seine neuen Zölle. Wogegen genau die EU verstoßen haben soll, sagt er nicht. Die EU reagiert diplomatisch, aber deutlich. Von T. Spickhofen.",
+        "paragraphs": [
+          "Die EU habe sich nicht an das Handelsabkommen gehalten - so begründet US-Präsident Trump seine neuen Zölle. Wogegen genau die EU verstoßen haben soll, sagt er nicht. Die EU reagiert diplomatisch, aber deutlich. Von T. Spickhofen."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/trump-zoelle-reaktion-eu-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-05-02T14:49:42.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Warum-die-Boersen-der-Weltlage-trotzen-id30774497.html",
         "title": "Wie lange geht das gut?: Warum die Börsen der Weltlage trotzen",
@@ -229,21 +241,21 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-05-01T15:00:08.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/Benzin-16-Cent-guenstiger-Tankrabatt-entfaltet-seine-Wirkung-id30776381.html",
-        "title": "Weitere Senkung erwartet: Benzin 16 Cent günstiger - Tankrabatt entfaltet seine Wirkung",
-        "summary": "Rauf und runter geht der Benzin- und Dieselpreis seit Anfang März - in der Tendenz aber klar nach oben. Die Bundesregierung will helfen und entscheidet sich für einen umstrittenen Schritt: einen Tankrabatt. Der ist nun in Kraft - und wirkt, meldet der ADAC.",
-        "paragraphs": [
-          "Rauf und runter geht der Benzin- und Dieselpreis seit Anfang März - in der Tendenz aber klar nach oben. Die Bundesregierung will helfen und entscheidet sich für einen umstrittenen Schritt: einen Tankrabatt. Der ist nun in Kraft - und wirkt, meldet der ADAC."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/Benzin-16-Cent-guenstiger-Tankrabatt-entfaltet-seine-Wirkung-id30776381.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-05-01T14:16:36.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "77017944",
+        "title": "Sorge um iranische Friedensnobelpreisträgerin Mohammadi",
+        "summary": "Der Gesundheitszustand der iranischen Friedensnobelpreisträgerin Narges Mohammadi hat sich weiter verschlechtert. Die 54-Jährige liegt mit Herzproblemen in einer Klinik. Erst kürzlich war von einem Herzinfarkt die Rede.",
+        "paragraphs": [
+          "Der Gesundheitszustand der iranischen Friedensnobelpreisträgerin Narges Mohammadi hat sich weiter verschlechtert. Die 54-Jährige liegt mit Herzproblemen in einer Klinik. Erst kürzlich war von einem Herzinfarkt die Rede."
+        ],
+        "link": "https://www.dw.com/de/sorge-um-iranische-friedensnobelpreisträgerin-mohammadi/a-77017944?maca=de-rss-de-top-1016-xml-mrss",
+        "category": "Aktuelles",
+        "source": "DW",
+        "publishedAt": "2026-05-02T14:57:00.000Z"
+      },
       {
         "id": "77017943",
         "title": "Buckelwal \"Timmy\" in der Nordsee freigesetzt",
@@ -254,7 +266,7 @@
         "link": "https://www.dw.com/de/buckelwal-timmy-in-der-nordsee-freigesetzt/a-77017943?maca=de-rss-de-top-1016-xml-mrss",
         "category": "Aktuelles",
         "source": "DW",
-        "publishedAt": "2026-05-02T14:25:00.000Z"
+        "publishedAt": "2026-05-02T14:26:00.000Z"
       },
       {
         "id": "77018849",
@@ -279,18 +291,6 @@
         "category": "Verteidigungspolitik",
         "source": "Sueddeutsche",
         "publishedAt": "2026-05-02T13:24:12.000Z"
-      },
-      {
-        "id": "77017944",
-        "title": "Sorge um iranische Friedensnobelpreisträgerin Mohammadi",
-        "summary": "Der Gesundheitszustand der iranischen Friedensnobelpreisträgerin Narges Mohammadi hat sich weiter verschlechtert. Die 54-Jährige liegt mit Herzproblemen in einer Klinik. Erst kürzlich war von einem Herzinfarkt die Rede.",
-        "paragraphs": [
-          "Der Gesundheitszustand der iranischen Friedensnobelpreisträgerin Narges Mohammadi hat sich weiter verschlechtert. Die 54-Jährige liegt mit Herzproblemen in einer Klinik. Erst kürzlich war von einem Herzinfarkt die Rede."
-        ],
-        "link": "https://www.dw.com/de/sorge-um-iranische-friedensnobelpreisträgerin-mohammadi/a-77017944?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Aktuelles",
-        "source": "DW",
-        "publishedAt": "2026-05-02T10:22:00.000Z"
       },
       {
         "id": "li.3477155",
@@ -486,15 +486,51 @@
     "sport": [
       {
         "id": "https://www.kicker.de/wolfsburg-gegen-leipzig-2026-frauen-bundesliga-5076363/spielbericht#omrss",
-        "title": "LIVE! Jokertor: Lattwein dreht den Spieß um",
-        "summary": "Im Bundesliga-Endspurt will der VfL Wolfsburg den 2. Platz untermauern. Gelingt gegen RB Leipzig ein Sieg, ist mindestens Platz drei sicher - und damit die Teilnahme an der Qualifikation zur Champions League.",
+        "title": "Kopfball-Doppelpack: Wolfsburg siegt dank Joker Lattwein",
+        "summary": "Wolfsburg hat mit einem verdienten 3:2 gegen Leipzig den zweiten Platz untermauert. Zunächst musste sich der VfL über einen Pausenrückstand ärgern, drehte aber nach Wiederanpfiff auf und den Spieß um. Damit ist Platz drei und die Teilnahme an der Qualifikation zur Champions League gesichert.",
         "paragraphs": [
-          "Im Bundesliga-Endspurt will der VfL Wolfsburg den 2. Platz untermauern. Gelingt gegen RB Leipzig ein Sieg, ist mindestens Platz drei sicher - und damit die Teilnahme an der Qualifikation zur Champions League."
+          "Wolfsburg hat mit einem verdienten 3:2 gegen Leipzig den zweiten Platz untermauert. Zunächst musste sich der VfL über einen Pausenrückstand ärgern, drehte aber nach Wiederanpfiff auf und den Spieß um. Damit ist Platz drei und die Teilnahme an der Qualifikation zur Champions League gesichert."
         ],
         "link": "https://www.kicker.de/wolfsburg-gegen-leipzig-2026-frauen-bundesliga-5076363/spielbericht#omrss",
         "category": "Chmielinski",
         "source": "Kicker",
-        "publishedAt": "2026-05-02T14:28:36.000Z"
+        "publishedAt": "2026-05-02T14:58:13.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/lyon-gegen-arsenal-2026-frauen-champions-league-5183513/spielbericht#omrss",
+        "title": "LIVE! Brand mit dem Final-Tor? Titelverteidiger Arsenal in Lyon unter Zugzwang",
+        "summary": "OL Lyonnes empfängt Arsenal WFC zum Halbfinal-Rückspiel in der Champions League. Das Hinspiel haben die Londonerinnen mit 2:1 gewonnen. Knacken die Französinnen nun zu Hause den Titelverteidiger und ziehen ins Finale ein?",
+        "paragraphs": [
+          "OL Lyonnes empfängt Arsenal WFC zum Halbfinal-Rückspiel in der Champions League. Das Hinspiel haben die Londonerinnen mit 2:1 gewonnen. Knacken die Französinnen nun zu Hause den Titelverteidiger und ziehen ins Finale ein?"
+        ],
+        "link": "https://www.kicker.de/lyon-gegen-arsenal-2026-frauen-champions-league-5183513/spielbericht#omrss",
+        "category": "Arsenal WFC",
+        "source": "Kicker",
+        "publishedAt": "2026-05-02T14:52:33.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kroesche-verteidigt-riera-und-widerspricht-ihm-in-einem-punkt-1215622/artikel#omrss",
+        "title": "Krösche verteidigt Riera - und widerspricht ihm in einem Punkt",
+        "summary": "Einen Tag nach der denkwürdigen Sechs-Minuten-Rede von Albert Riera auf der Pressekonferenz hat Geschäftsführer Markus Krösche Stellung zu den Aussagen des Frankfurter Trainers bezogen - und ihm nur in einem Punkt widersprochen.",
+        "paragraphs": [
+          "Einen Tag nach der denkwürdigen Sechs-Minuten-Rede von Albert Riera auf der Pressekonferenz hat Geschäftsführer Markus Krösche Stellung zu den Aussagen des Frankfurter Trainers bezogen - und ihm nur in einem Punkt widersprochen."
+        ],
+        "link": "https://www.kicker.de/kroesche-verteidigt-riera-und-widerspricht-ihm-in-einem-punkt-1215622/artikel#omrss",
+        "category": "Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-05-02T14:50:35.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/arteta-ueber-psg-gegen-bayern-bestes-spiel-das-ich-je-gesehen-habe-1215639/video#omrss",
+        "title": "Arteta über PSG gegen Bayern: \"Bestes Spiel, das ich je gesehen habe\"",
+        "summary": "Arsenal-Coach Mikel Arteta zeigte sich beeindruckt von der Qualität des Spiels zwischen PSG und Bayern, sprach aber auch den Unterschied in der Belastung im Vergleich zu seiner Mannschaft an.",
+        "paragraphs": [
+          "Arsenal-Coach Mikel Arteta zeigte sich beeindruckt von der Qualität des Spiels zwischen PSG und Bayern, sprach aber auch den Unterschied in der Belastung im Vergleich zu seiner Mannschaft an."
+        ],
+        "link": "https://www.kicker.de/arteta-ueber-psg-gegen-bayern-bestes-spiel-das-ich-je-gesehen-habe-1215639/video#omrss",
+        "category": "Arteta",
+        "source": "Kicker",
+        "publishedAt": "2026-05-02T14:47:31.000Z"
       },
       {
         "id": "https://www.kicker.de/verteidiger-wie-slalomstangen-marseille-geht-in-nantes-unter-1215629/video#omrss",
@@ -605,18 +641,6 @@
         "publishedAt": "2026-05-02T13:44:58.000Z"
       },
       {
-        "id": "https://www.kicker.de/lyon-gegen-arsenal-2026-frauen-champions-league-5183513/spielbericht#omrss",
-        "title": "LIVE! Titelverteidiger Arsenal unter Zugzwang: Diani erhöht für Lyon",
-        "summary": "OL Lyonnes empfängt Arsenal WFC zum Halbfinal-Rückspiel in der Champions League. Das Hinspiel haben die Londonerinnen mit 2:1 gewonnen. Knacken die Französinnen nun zu Hause den Titelverteidiger und ziehen ins Finale ein?",
-        "paragraphs": [
-          "OL Lyonnes empfängt Arsenal WFC zum Halbfinal-Rückspiel in der Champions League. Das Hinspiel haben die Londonerinnen mit 2:1 gewonnen. Knacken die Französinnen nun zu Hause den Titelverteidiger und ziehen ins Finale ein?"
-        ],
-        "link": "https://www.kicker.de/lyon-gegen-arsenal-2026-frauen-champions-league-5183513/spielbericht#omrss",
-        "category": "Arsenal WFC",
-        "source": "Kicker",
-        "publishedAt": "2026-05-02T13:38:33.000Z"
-      },
-      {
         "id": "{urn:uuid:53bc898c-a809-4769-9d2d-456135599699}",
         "title": "FC Bayern: Der FC Bayern hat das nächste Team zur Titelmaschine gemacht",
         "summary": "Auch die Frauen des FC Bayern dominieren die Bundesliga bis ins Extreme. Nun soll in der Champions League endlich das erste Finale her.",
@@ -699,30 +723,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-05-02T12:47:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/live-goretzka-freistoss-kuesst-bayern-wach-schlagabtausch-in-sinsheim-werder-wackelt-1214671/artikel#omrss",
-        "title": "LIVE! Goretzka-Freistoß küsst Bayern wach - Schlagabtausch in Sinsheim - Werder wackelt",
-        "summary": "Nur aufgrund der besseren Tordifferenz liegt der VfB Stuttgart vor der punktgleichen TSG Hoffenheim auf Platz 4, nun kommt es am Samstagnachmittag zum direkten Duell der beiden Champions-League-Anwärter. Parallel muss Schlusslicht Heidenheim in München punkten, um die Chance auf den Klassenerhalt zu wahren.",
-        "paragraphs": [
-          "Nur aufgrund der besseren Tordifferenz liegt der VfB Stuttgart vor der punktgleichen TSG Hoffenheim auf Platz 4, nun kommt es am Samstagnachmittag zum direkten Duell der beiden Champions-League-Anwärter. Parallel muss Schlusslicht Heidenheim in München punkten, um die Chance auf den Klassenerhalt zu wahren."
-        ],
-        "link": "https://www.kicker.de/live-goretzka-freistoss-kuesst-bayern-wach-schlagabtausch-in-sinsheim-werder-wackelt-1214671/artikel#omrss",
-        "category": null,
-        "source": "Kicker",
-        "publishedAt": "2026-05-02T12:23:46.000Z"
-      },
-      {
-        "id": "{urn:uuid:342d45a3-abc4-4309-8023-0edb39169978}",
-        "title": "Frauenfußball: Anweisungen von Fußballtrainerin werden erstmals live übertragen",
-        "summary": "Der DFB kopiert versuchsweise eine Idee aus dem US-Sport: Am Wochenende steht die Werder-Bremen-Trainerin Friederike Kromp mit einem Funkmikrofon am Spielfeldrand.",
-        "paragraphs": [
-          "Der DFB kopiert versuchsweise eine Idee aus dem US-Sport: Am Wochenende steht die Werder-Bremen-Trainerin Friederike Kromp mit einem Funkmikrofon am Spielfeldrand."
-        ],
-        "link": "https://www.zeit.de/sport/2026-05/frauenfussball-trainerin-live-zuhoeren-funkmikrofon",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-05-02T11:36:47.000Z"
       }
     ],
     "edv": [
@@ -883,13 +883,13 @@
         "publishedAt": "2026-04-29T16:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Microsoft-Teams-sicher-und-effizient-administrieren-11269409.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Microsoft Teams sicher und effizient administrieren",
-        "summary": "Lernen Sie, wie Sie mit Microsoft Teams eine sichere und effiziente Arbeitsumgebung einrichten, verwalten und an die Bedürfnisse des Unternehmens anpassen.",
+        "id": "https://www.heise.de/news/KI-Skandale-Modeberater-und-Bridges-Comeback-Fotonews-der-Woche-18-2026-11278355.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI-Skandale, Modeberater und Bridges' Comeback – Fotonews der Woche 18/2026",
+        "summary": "Hasselblad und Tokina blamieren sich mit KI-Bildern in Wettbewerben, Google macht Fotos zum Stylisten und Jeff Bridges' Widelux-Revival kann vorbestellt werden.",
         "paragraphs": [
-          "Lernen Sie, wie Sie mit Microsoft Teams eine sichere und effiziente Arbeitsumgebung einrichten, verwalten und an die Bedürfnisse des Unternehmens anpassen."
+          "Hasselblad und Tokina blamieren sich mit KI-Bildern in Wettbewerben, Google macht Fotos zum Stylisten und Jeff Bridges' Widelux-Revival kann vorbestellt werden."
         ],
-        "link": "https://www.heise.de/news/iX-Workshop-Microsoft-Teams-sicher-und-effizient-administrieren-11269409.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/KI-Skandale-Modeberater-und-Bridges-Comeback-Fotonews-der-Woche-18-2026-11278355.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
         "publishedAt": "2026-05-02T08:00:00.000Z"
@@ -907,13 +907,13 @@
         "publishedAt": "2026-04-29T13:26:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/KI-Skandale-Modeberater-und-Bridges-Comeback-Fotonews-der-Woche-18-2026-11278355.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Skandale, Modeberater und Bridges' Comeback – Fotonews der Woche 18/2026",
-        "summary": "Hasselblad und Tokina blamieren sich mit KI-Bildern in Wettbewerben, Google macht Fotos zum Stylisten und Jeff Bridges' Widelux-Revival kann vorbestellt werden.",
+        "id": "https://www.heise.de/news/iX-Workshop-Microsoft-Teams-sicher-und-effizient-administrieren-11269409.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: Microsoft Teams sicher und effizient administrieren",
+        "summary": "Lernen Sie, wie Sie mit Microsoft Teams eine sichere und effiziente Arbeitsumgebung einrichten, verwalten und an die Bedürfnisse des Unternehmens anpassen.",
         "paragraphs": [
-          "Hasselblad und Tokina blamieren sich mit KI-Bildern in Wettbewerben, Google macht Fotos zum Stylisten und Jeff Bridges' Widelux-Revival kann vorbestellt werden."
+          "Lernen Sie, wie Sie mit Microsoft Teams eine sichere und effiziente Arbeitsumgebung einrichten, verwalten und an die Bedürfnisse des Unternehmens anpassen."
         ],
-        "link": "https://www.heise.de/news/KI-Skandale-Modeberater-und-Bridges-Comeback-Fotonews-der-Woche-18-2026-11278355.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/iX-Workshop-Microsoft-Teams-sicher-und-effizient-administrieren-11269409.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
         "publishedAt": "2026-05-02T08:00:00.000Z"
@@ -968,6 +968,18 @@
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/industriekonzern-thyssenkrupp-will-stahlsparte-doch-behalten-vorerst/100221817.html",
+        "title": "Industriekonzern: Thyssenkrupp will Stahlsparte doch behalten - vorerst",
+        "summary": "Zuletzt gab es kaum Fortschritte in den Übernahmegesprächen mit dem indischen Konzern Jindal. Und inzwischen haben sich die Rahmenbedingungen beim Stahl verbessert.",
+        "paragraphs": [
+          "Zuletzt gab es kaum Fortschritte in den Übernahmegesprächen mit dem indischen Konzern Jindal. Und inzwischen haben sich die Rahmenbedingungen beim Stahl verbessert."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/industriekonzern-thyssenkrupp-will-stahlsparte-doch-behalten-vorerst/100221817.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-02T14:55:16.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/finanzen/maerkte/aktien/berkshire-hathaway-buffetts-nachfolger-startet-seine-amtszeit-mit-starkem-quartal/100220654.html",
         "title": "Berkshire Hathaway: Buffetts Nachfolger startet seine Amtszeit mit starkem Quartal",
@@ -1195,18 +1207,6 @@
         "category": "Deutschland",
         "source": "Handelsblatt",
         "publishedAt": "2026-05-02T11:00:00.000Z"
-      },
-      {
-        "id": "08f66fc3-0208-45cc-bc6a-bcaa9c2c406f",
-        "title": "Sprit zu teuer: Amerikanische Airline Spirit stellt Flugbetrieb ein",
-        "summary": "Da konnte nicht mal mehr Donald Trump helfen: Alle Flugzeuge von Spirit Airlines bleiben aufgrund der hohen Kerosinpreise infolge des Irankriegs dauerhaft am Boden. Flüge wurden gestrichen, der Kundenservice eingestellt.",
-        "paragraphs": [
-          "Da konnte nicht mal mehr Donald Trump helfen: Alle Flugzeuge von Spirit Airlines bleiben aufgrund der hohen Kerosinpreise infolge des Irankriegs dauerhaft am Boden. Flüge wurden gestrichen, der Kundenservice eingestellt."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/unternehmen/sprit-zu-teuer-amerikanische-airline-spirit-stellt-flugbetrieb-ein-a-08f66fc3-0208-45cc-bc6a-bcaa9c2c406f#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-05-02T10:51:00.000Z"
       }
     ]
   }
