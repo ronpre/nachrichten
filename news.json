@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-05-03T13:43:13.180Z",
+  "updatedAt": "2026-05-03T14:26:50.164Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "b2a6a8ca-42be-486e-9b6c-8b85eed6b966",
+        "title": "Umsatz mit Bio-Lebensmitteln im ersten Quartal weiter gestiegen",
+        "summary": "Bio-Lebensmittel bleiben in Deutschland beliebt - trotz schwierige Wirtschaftslage. Laut Branche nahm der Umsatz damit weiter zu. Den stärksten Zuwachs gab es bei Drogeriemärkten. Die meisten Bio-Produkte werden aber im Discounter gekauft.",
+        "paragraphs": [
+          "Bio-Lebensmittel bleiben in Deutschland beliebt - trotz schwierige Wirtschaftslage. Laut Branche nahm der Umsatz damit weiter zu. Den stärksten Zuwachs gab es bei Drogeriemärkten. Die meisten Bio-Produkte werden aber im Discounter gekauft."
+        ],
+        "link": "https://www.tagesschau.de/inland/verbraucher-bio-lebensmittel-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-05-03T14:12:35.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Eon-verspricht-trotz-Iran-Krieg-stabile-Energiepreise-vorerst-id30780934.html",
         "title": "Langfristig wird's teurer: Eon verspricht trotz Iran-Krieg stabile Energiepreise - vorerst",
@@ -229,21 +241,67 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-05-02T09:31:25.000Z"
-      },
-      {
-        "id": "1bee8022-cec5-445a-8b8e-87d07ca884de",
-        "title": "Finnlands Mine gegen Europas Abhängigkeit von Lithium-Importen",
-        "summary": "Europa ist beim Lithium von Importen abhängig. Zwar gibt es in Deutschland große Vorkommen - der Abbau ist aber erst in der Vorbereitung. Finnland ist da weiter: Eine erste Mine hat die Arbeit aufgenommen. Von Christian Blenker.",
-        "paragraphs": [
-          "Europa ist beim Lithium von Importen abhängig. Zwar gibt es in Deutschland große Vorkommen - der Abbau ist aber erst in der Vorbereitung. Finnland ist da weiter: Eine erste Mine hat die Arbeit aufgenommen. Von Christian Blenker."
-        ],
-        "link": "https://www.tagesschau.de/ausland/europa/finnland-lithium-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-05-02T09:18:32.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3474576",
+        "title": "Ungarn: Was wird aus Viktor Orbán?",
+        "summary": "Der scheidende ungarische Premier verkündet überraschend seinen Rückzug aus dem Parlament. Wie wird er seine Partei aufstellen? Und zieht es ihn nun womöglich ins Ausland wie schon andere, die vom bisherigen System profitierten?",
+        "paragraphs": [
+          "Der scheidende ungarische Premier verkündet überraschend seinen Rückzug aus dem Parlament. Wie wird er seine Partei aufstellen? Und zieht es ihn nun womöglich ins Ausland wie schon andere, die vom bisherigen System profitierten?"
+        ],
+        "link": "https://www.sueddeutsche.de/politik/orban-rueckzug-ungarn-korruption-oligarchen-fidesz-li.3474576",
+        "category": "Ungarn",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-03T14:21:18.000Z"
+      },
+      {
+        "id": "li.3477624",
+        "title": "Katholische Kirche: Militärbischof für Wehrpflicht für Männer und Frauen",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/katholische-kirche-militaerbischof-fuer-wehrpflicht-fuer-maenner-und-frauen-li.3477624",
+        "category": "Verteidigungspolitik",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-03T14:09:37.000Z"
+      },
+      {
+        "id": "li.3477336",
+        "title": "Glosse: Das Streiflicht",
+        "summary": "Friedrich Merz zitiert Epiktet, aber hat dieser das Gesagte überhaupt geschrieben? Eigentlich ist es egal, denn gegen die Mutlosigkeit unserer Tage kommt nicht einmal das frechste Falschzitat an.",
+        "paragraphs": [
+          "Friedrich Merz zitiert Epiktet, aber hat dieser das Gesagte überhaupt geschrieben? Eigentlich ist es egal, denn gegen die Mutlosigkeit unserer Tage kommt nicht einmal das frechste Falschzitat an."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/kanzler-friedrich-merz-tate-worte-epiktet-li.3477336",
+        "category": "Leben und Gesellschaft",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-03T14:05:52.000Z"
+      },
+      {
+        "id": "li.3472337",
+        "title": "Einschnitte ins Sozialsystem: „Wir werden uns in Zukunft vieles nicht mehr leisten können“",
+        "summary": "Schulbegleiter, Hilfe für behinderte Menschen: Die Kommunen wollen bei Sozialleistungen sparen. Was steckt dahinter? Ein Gespräch mit Achim Brötel, der die Landkreise in Deutschland vertritt.",
+        "paragraphs": [
+          "Schulbegleiter, Hilfe für behinderte Menschen: Die Kommunen wollen bei Sozialleistungen sparen. Was steckt dahinter? Ein Gespräch mit Achim Brötel, der die Landkreise in Deutschland vertritt."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/sozialreform-schulbegleiter-kuerzungen-kommunen-interview-li.3472337",
+        "category": "Arbeit und Soziales",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-03T13:57:04.000Z"
+      },
+      {
+        "id": "li.3477163",
+        "title": "US-Truppenabzug: Trumps Zorn trifft Deutschland",
+        "summary": "Mindestens 5000 Soldaten weniger, keine neuen Raketen, dafür neue Zölle: Der Rundumschlag des US-Präsidenten gegen Kanzler Merz könnte weitreichende Folgen haben. Wenn er denn wahr wird.",
+        "paragraphs": [
+          "Mindestens 5000 Soldaten weniger, keine neuen Raketen, dafür neue Zölle: Der Rundumschlag des US-Präsidenten gegen Kanzler Merz könnte weitreichende Folgen haben. Wenn er denn wahr wird."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/berlin-usa-truppenabzug-handelskonflikt-trump-li.3477163",
+        "category": "Verteidigungspolitik",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-03T13:54:28.000Z"
+      },
       {
         "id": "77024090",
         "title": "OPEC+ erhöht nach Austritt der Emirate Förderquote",
@@ -386,10 +444,10 @@
       },
       {
         "id": "li.3477559",
-        "title": "Förderung von Biogasanlagen: Landwirtschaftsminister stellt sich gegen Reiche",
+        "title": "Biogasanlagen: Agrarminister stellt sich gegen Reiche",
         "summary": "",
         "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/politik/foerderung-von-biogasanlagen-landwirtschaftsminister-stellt-sich-gegen-reiche-li.3477559",
+        "link": "https://www.sueddeutsche.de/politik/biogasanlagen-agrarminister-stellt-sich-gegen-reiche-li.3477559",
         "category": "Landwirtschaft",
         "source": "Sueddeutsche",
         "publishedAt": "2026-05-03T10:39:58.000Z"
@@ -405,42 +463,6 @@
         "publishedAt": "2026-05-03T10:32:32.000Z"
       },
       {
-        "id": "li.3477136",
-        "title": "US-Stützpunkt Ramstein: „Das wäre ein riesiger Einschnitt“",
-        "summary": "US-Präsident Trump will also Ernst machen und mindestens 5000 Soldaten aus Deutschland abziehen. Wie schaut man dort auf die Nachricht, wo amerikanische Truppen stationiert sind?",
-        "paragraphs": [
-          "US-Präsident Trump will also Ernst machen und mindestens 5000 Soldaten aus Deutschland abziehen. Wie schaut man dort auf die Nachricht, wo amerikanische Truppen stationiert sind?"
-        ],
-        "link": "https://www.sueddeutsche.de/politik/us-truppenabzug-deutschland-trump-ramstein-li.3477136",
-        "category": "Verteidigungspolitik",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-03T10:21:32.000Z"
-      },
-      {
-        "id": "li.3476208",
-        "title": "Korruption in Ungarn: Europa und Ungarn wollen erschlichenes EU-Geld zurück",
-        "summary": "Ungarns designierter Premier Magyar will mit dem System der Orbán-Ära brechen und in Brüssel Vertrauen schaffen. Der designierte Europäische Generalstaatsanwalt mahnt zur Eile. Andernfalls werde es schwer, an veruntreutes Vermögen zu gelangen.",
-        "paragraphs": [
-          "Ungarns designierter Premier Magyar will mit dem System der Orbán-Ära brechen und in Brüssel Vertrauen schaffen. Der designierte Europäische Generalstaatsanwalt mahnt zur Eile. Andernfalls werde es schwer, an veruntreutes Vermögen zu gelangen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/eu-ungarn-orban-korruption-magyar-li.3476208",
-        "category": "Ungarn",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-03T10:17:27.000Z"
-      },
-      {
-        "id": "li.3473071",
-        "title": "Krieg in der Ukraine: Drohnen-Angriffe auf Kiew und Kämpfe in Donezk-Region",
-        "summary": "In der Nacht auf Sonntag hat Russland Kiew massiv mit Drohnen angegriffen. Auch rücken russische Truppen in der östlichen Donezk-Region weiter vor.",
-        "paragraphs": [
-          "In der Nacht auf Sonntag hat Russland Kiew massiv mit Drohnen angegriffen. Auch rücken russische Truppen in der östlichen Donezk-Region weiter vor."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-russland-kiew-angriffe-donezk-li.3473071",
-        "category": "Ukraine",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-03T07:00:00.000Z"
-      },
-      {
         "id": "77022234",
         "title": "\"Krimineller Akt\" - Kubas Präsident stellt sich gegen Trump",
         "summary": "Seit Wochen provoziert US-Präsident Donald Trump den Karibikstaat Kuba mit Übernahme-Drohungen. Jetzt wendet sich der kubanische Präsident Miguel Díaz-Canel an die Staatengemeinschaft.",
@@ -451,44 +473,116 @@
         "category": "Aktuelles",
         "source": "DW",
         "publishedAt": "2026-05-03T05:50:00.000Z"
-      },
-      {
-        "id": "li.3477387",
-        "title": "Bundespolitik: Ifo-Präsident warnt wegen angekündigter US-Zölle vor Rezession",
-        "summary": "Schlechte Aussichten für die deutsche Wirtschaft: Der Ökonom Clemens Fuest fürchtet einen neuen Handelskrieg mit den USA. Besonders betroffen wäre die deutsche Automobilindustrie.",
-        "paragraphs": [
-          "Schlechte Aussichten für die deutsche Wirtschaft: Der Ökonom Clemens Fuest fürchtet einen neuen Handelskrieg mit den USA. Besonders betroffen wäre die deutsche Automobilindustrie."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-usa-deutschland-handelskrieg-zoelle-automobilbranche-trump-li.3477387",
-        "category": "Bundesregierung",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-03T02:37:16.000Z"
-      },
-      {
-        "id": "li.3477155",
-        "title": "Truppenabzug: Das sind die Reaktionen auf die US-Ankündigung",
-        "summary": "Verteidigungsminister Pistorius nennt die Ankündigung der USA, Soldaten aus Deutschland abziehen zu wollen, „absehbar“, der rheinland-pfälzische Ministerpräsident Schweitzer ist besorgt.",
-        "paragraphs": [
-          "Verteidigungsminister Pistorius nennt die Ankündigung der USA, Soldaten aus Deutschland abziehen zu wollen, „absehbar“, der rheinland-pfälzische Ministerpräsident Schweitzer ist besorgt."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/usa-truppenabzug-reaktionen-pistorius-schweitzer-gruene-li.3477155",
-        "category": "Verteidigungspolitik",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-02T17:20:00.000Z"
       }
     ],
     "sport": [
       {
+        "id": "https://www.kicker.de/ein-grandioses-wochenende-elversberg-liefert-die-kroenung-fuer-schalke-1215929/artikel#omrss",
+        "title": "\"Ein grandioses Wochenende\": Elversberg liefert die Krönung für Schalke",
+        "summary": "Durch Paderborns Debakel gegen Elversberg am Tag nach dem eigenen 1:0-Aufstiegssieg gegen Düsseldorf steht nun auch noch fest, dass der FC Schalke 04 die Saison 2025/26 als Zweitliga-Meister abschließen wird. Die Reaktionen der Bosse fallen entsprechend euphorisch aus.",
+        "paragraphs": [
+          "Durch Paderborns Debakel gegen Elversberg am Tag nach dem eigenen 1:0-Aufstiegssieg gegen Düsseldorf steht nun auch noch fest, dass der FC Schalke 04 die Saison 2025/26 als Zweitliga-Meister abschließen wird. Die Reaktionen der Bosse fallen entsprechend euphorisch aus."
+        ],
+        "link": "https://www.kicker.de/ein-grandioses-wochenende-elversberg-liefert-die-kroenung-fuer-schalke-1215929/artikel#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-05-03T14:18:23.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/paderborn-ii-gegen-f-koeln-2026-regionalliga-west-5062615/spielbericht#omrss",
+        "title": "Ermolaev vertagt die Titelentscheidung: Fortuna Köln lässt den ersten Matchball liegen",
+        "summary": "Der SC Fortuna Köln muss auf die Rückkehr in die 3. Liga noch warten. Am Sonntagnachmittag vergaben die Kölner Südstädter ihren ersten Matchball beim SC Paderborn II.",
+        "paragraphs": [
+          "Der SC Fortuna Köln muss auf die Rückkehr in die 3. Liga noch warten. Am Sonntagnachmittag vergaben die Kölner Südstädter ihren ersten Matchball beim SC Paderborn II."
+        ],
+        "link": "https://www.kicker.de/paderborn-ii-gegen-f-koeln-2026-regionalliga-west-5062615/spielbericht#omrss",
+        "category": "Fortuna Köln",
+        "source": "Kicker",
+        "publishedAt": "2026-05-03T14:03:10.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/nach-free-agency-draft-das-sind-die-besten-receiver-trios-der-nfl-1215918/artikel#omrss",
+        "title": "Nach Free Agency & Draft: Das sind die besten Receiver-Trios der NFL",
+        "summary": "Free Agency und Draft haben viele Teams verändert - doch nur wenige Receiver-Räume der NFL wirken jetzt schon wirklich komplett. Genau diese Gruppen könnten in der nächsten Saison den Unterschied machen.",
+        "paragraphs": [
+          "Free Agency und Draft haben viele Teams verändert - doch nur wenige Receiver-Räume der NFL wirken jetzt schon wirklich komplett. Genau diese Gruppen könnten in der nächsten Saison den Unterschied machen."
+        ],
+        "link": "https://www.kicker.de/nach-free-agency-draft-das-sind-die-besten-receiver-trios-der-nfl-1215918/artikel#omrss",
+        "category": "Cincinnati Bengals",
+        "source": "Kicker",
+        "publishedAt": "2026-05-03T14:00:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wiesbaden-gegen-osnabrueck-2026-liga-5057684/spielbericht#omrss",
+        "title": "LIVE! Zu Gast in Wiesbaden: Meister Osnabrück bereits aufgestiegen",
+        "summary": "Der VfL Osnabrück tritt am 36. Spieltag beim SV Wehen Wiesbaden an. Bereits gestern war durch die Niederlage von Essen klar, dass der VfL für die 2. Bundesliga planen kann. Außerdem sind die Lila-Weißen nach dem MSV-Erfolg gegen Cottbus bereits Drittliga-Meister. Die Partie gibt's hier im Liveticker.",
+        "paragraphs": [
+          "Der VfL Osnabrück tritt am 36. Spieltag beim SV Wehen Wiesbaden an. Bereits gestern war durch die Niederlage von Essen klar, dass der VfL für die 2. Bundesliga planen kann. Außerdem sind die Lila-Weißen nach dem MSV-Erfolg gegen Cottbus bereits Drittliga-Meister. Die Partie gibt's hier im Liveticker."
+        ],
+        "link": "https://www.kicker.de/wiesbaden-gegen-osnabrueck-2026-liga-5057684/spielbericht#omrss",
+        "category": "3. Liga",
+        "source": "Kicker",
+        "publishedAt": "2026-05-03T13:50:54.000Z"
+      },
+      {
         "id": "https://www.kicker.de/duisburg-gegen-cottbus-2026-liga-5057686/spielbericht#omrss",
         "title": "Duisburg siegt im Aufstiegskracher und schließt zu Cottbus auf",
-        "summary": "Der MSV bleibt eine Heimmacht. Auch Cottbus konnte die zu Hause ungeschlagenen Zebras (14/4/0) nicht knacken und zog beim 2:1 den Kürzeren. Mit dem Dreier im Aufstiegskracher vor über 30000 Zuschauern zieht Duisburg nach Punkten mit Cottbus gleich und sorgt dafür, dass das Rennen um Rang 2 und 3 wieder völlig offen ist.",
+        "summary": "Der MSV bleibt eine Heimmacht. Auch Cottbus konnte die zu Hause ungeschlagenen Zebras (14/4/0) nicht knacken und zog beim 2:1 den Kürzeren. Mit dem Dreier im Aufstiegskracher vor über 30.000 Zuschauern zieht Duisburg nach Punkten mit Energie gleich und sorgt dafür, dass das Rennen um Rang 2 und 3 wieder völlig offen ist.",
         "paragraphs": [
-          "Der MSV bleibt eine Heimmacht. Auch Cottbus konnte die zu Hause ungeschlagenen Zebras (14/4/0) nicht knacken und zog beim 2:1 den Kürzeren. Mit dem Dreier im Aufstiegskracher vor über 30000 Zuschauern zieht Duisburg nach Punkten mit Cottbus gleich und sorgt dafür, dass das Rennen um Rang 2 und 3 wieder völlig offen ist."
+          "Der MSV bleibt eine Heimmacht. Auch Cottbus konnte die zu Hause ungeschlagenen Zebras (14/4/0) nicht knacken und zog beim 2:1 den Kürzeren. Mit dem Dreier im Aufstiegskracher vor über 30.000 Zuschauern zieht Duisburg nach Punkten mit Energie gleich und sorgt dafür, dass das Rennen um Rang 2 und 3 wieder völlig offen ist."
         ],
         "link": "https://www.kicker.de/duisburg-gegen-cottbus-2026-liga-5057686/spielbericht#omrss",
         "category": "3. Liga",
         "source": "Kicker",
-        "publishedAt": "2026-05-03T13:30:12.000Z"
+        "publishedAt": "2026-05-03T13:50:00.000Z"
+      },
+      {
+        "id": "li.3477457",
+        "title": "Bundesliga-Aufstieg: „Schalke gehört in die erste Liga, und da bleiben wir auch“",
+        "summary": "Feuchtfröhlich und eine ganze Nacht lang feiert Gelsenkirchen den Bundesliga-Aufstieg seiner Fußballer. Die wichtigste Personalie für die kommende Saison ist auch schon fix.",
+        "paragraphs": [
+          "Feuchtfröhlich und eine ganze Nacht lang feiert Gelsenkirchen den Bundesliga-Aufstieg seiner Fußballer. Die wichtigste Personalie für die kommende Saison ist auch schon fix."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/schalke-2-liga-aufstieg-li.3477457",
+        "category": "2. Bundesliga",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-03T13:45:28.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/manunited-gegen-liverpool-2026-premier-league-5045351/spielbericht#omrss",
+        "title": "LIVE! Rivalen im Old Trafford: Überholt Liverpool die Red Devils?",
+        "summary": "Am Sonntagnachmittag kommt es im legendären Old Trafford zum Duell zweier Rivalen: Mit einem Auswärtssieg könnte Meister Liverpool in der Tabelle an Manchester United vorbeiziehen und künftig von Rang 3 grüßen.",
+        "paragraphs": [
+          "Am Sonntagnachmittag kommt es im legendären Old Trafford zum Duell zweier Rivalen: Mit einem Auswärtssieg könnte Meister Liverpool in der Tabelle an Manchester United vorbeiziehen und künftig von Rang 3 grüßen."
+        ],
+        "link": "https://www.kicker.de/manunited-gegen-liverpool-2026-premier-league-5045351/spielbericht#omrss",
+        "category": "FC Liverpool",
+        "source": "Kicker",
+        "publishedAt": "2026-05-03T13:43:39.000Z"
+      },
+      {
+        "id": "li.3477470",
+        "title": "Frankenderby Fürth gegen Nürnberg: Der Fürther Absturz nimmt Konturen an",
+        "summary": "Beim Frankenderby kommt die SpVgg Greuther Fürth gegen einen lange schwachen Club nicht über ein 1:1 hinaus. Der Abstieg ist nah und die Partie zeigt einmal mehr, warum es bei den Fürthern nicht läuft.",
+        "paragraphs": [
+          "Beim Frankenderby kommt die SpVgg Greuther Fürth gegen einen lange schwachen Club nicht über ein 1:1 hinaus. Der Abstieg ist nah und die Partie zeigt einmal mehr, warum es bei den Fürthern nicht läuft."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/1-fc-nuernberg-club-spvgg-greuther-fuerth-frankenderby-li.3477470",
+        "category": "2. Bundesliga",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-03T13:40:47.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/sensation-perfekt-aufsteiger-thun-ist-schweizer-meister-1215936/artikel#omrss",
+        "title": "Sensation perfekt: Aufsteiger Thun ist Schweizer Meister",
+        "summary": "Es ist perfekt, das größte Märchen der Schweizer Fußballgeschichte. Zwar ist der FC Thun der zweite Schweizer Aufsteiger, dem es gelingt, sich zum Meister zu krönen. Die Geschichte der Berner Oberländer ist allerdings absolut einmalig.",
+        "paragraphs": [
+          "Es ist perfekt, das größte Märchen der Schweizer Fußballgeschichte. Zwar ist der FC Thun der zweite Schweizer Aufsteiger, dem es gelingt, sich zum Meister zu krönen. Die Geschichte der Berner Oberländer ist allerdings absolut einmalig."
+        ],
+        "link": "https://www.kicker.de/sensation-perfekt-aufsteiger-thun-ist-schweizer-meister-1215936/artikel#omrss",
+        "category": "Brack Super League - Meisterrunde",
+        "source": "Kicker",
+        "publishedAt": "2026-05-03T13:40:00.000Z"
       },
       {
         "id": "https://www.kicker.de/barcelona-gegen-bayern-2026-frauen-champions-league-5183511/spielbericht#omrss",
@@ -516,7 +610,7 @@
       },
       {
         "id": "li.3477511",
-        "title": "Leichtathletik: 4x100-Meter-Staffel der Männer läuft deutschen Rekord",
+        "title": "Leichtathletik: Sprintstaffel der Männer läuft deutschen Rekord",
         "summary": "",
         "paragraphs": [],
         "link": "https://www.sueddeutsche.de/sport/leichtathletik-4x100-meter-staffel-deutscher-rekord-li.3477511",
@@ -573,13 +667,13 @@
         "publishedAt": "2026-05-03T12:27:03.000Z"
       },
       {
-        "id": "https://www.kicker.de/live-rueckkehrer-smith-mit-folgenschwerem-fehlpass-tietz-zur-fruehen-mainzer-fuehrung-1214705/artikel#omrss",
-        "title": "LIVE! Rückkehrer Smith mit folgenschwerem Fehlpass: Tietz zur frühen Mainzer Führung",
+        "id": "https://www.kicker.de/live-ideen-und-orientierungsloses-st-pauli-mwene-vollendet-mainzer-konter-zum-2-0-1214705/artikel#omrss",
+        "title": "LIVE! Ideen- und orientierungsloses St. Pauli: Mwene vollendet Mainzer Konter zum 2:0",
         "summary": "Der FC St. Pauli strauchelt seit Wochen, ist seit sieben Spielen ohne Sieg. Die Kiezkicker lechzen daher nach einem Erfolg: Klappt es heute gegen Mainz 05? Im engen Abstiegsrennen, gerade mit Blick auf den Tabellen-17. Wolfsburg, geht's ohnehin um jeden Punkt.",
         "paragraphs": [
           "Der FC St. Pauli strauchelt seit Wochen, ist seit sieben Spielen ohne Sieg. Die Kiezkicker lechzen daher nach einem Erfolg: Klappt es heute gegen Mainz 05? Im engen Abstiegsrennen, gerade mit Blick auf den Tabellen-17. Wolfsburg, geht's ohnehin um jeden Punkt."
         ],
-        "link": "https://www.kicker.de/live-rueckkehrer-smith-mit-folgenschwerem-fehlpass-tietz-zur-fruehen-mainzer-fuehrung-1214705/artikel#omrss",
+        "link": "https://www.kicker.de/live-ideen-und-orientierungsloses-st-pauli-mwene-vollendet-mainzer-konter-zum-2-0-1214705/artikel#omrss",
         "category": null,
         "source": "Kicker",
         "publishedAt": "2026-05-03T12:26:34.000Z"
@@ -619,100 +713,6 @@
         "category": "3. Liga",
         "source": "Kicker",
         "publishedAt": "2026-05-03T12:10:20.000Z"
-      },
-      {
-        "id": "li.3477466",
-        "title": "Tennisturnier in Madrid: Ein Handschlag ist immer noch nicht möglich",
-        "summary": "Die 23-jährige Marta Kostjuk feiert in Spanien den größten Titelgewinn ihrer Karriere und verdeutlicht dabei: Die Lage zwischen Spielerinnen aus der Ukraine und Russland bleibt angespannt.",
-        "paragraphs": [
-          "Die 23-jährige Marta Kostjuk feiert in Spanien den größten Titelgewinn ihrer Karriere und verdeutlicht dabei: Die Lage zwischen Spielerinnen aus der Ukraine und Russland bleibt angespannt."
-        ],
-        "link": "https://www.sueddeutsche.de/sport/tennis-madrid-kostjuk-li.3477466",
-        "category": "Tennis",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-03T12:01:21.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/dramatik-pur-in-hannover-elversberg-neuer-zweiter-schalke-zweitliga-meister-1214709/artikel#omrss",
-        "title": "Dramatik pur in Hannover - Elversberg neuer Zweiter - Schalke Zweitliga-Meister",
-        "summary": "Das Aufstiegsrennen spitzt sich weiter zu: Elversberg sprang mit einem furiosen 5:1 im Topspiel gegen Paderborn von Platz 2 auf Platz 4 - weil Hannovers Drama gegen Schlusslicht Münster nur 3:3 endete. Schalke ist Meister, das Frankenderby endete 1:1.",
-        "paragraphs": [
-          "Das Aufstiegsrennen spitzt sich weiter zu: Elversberg sprang mit einem furiosen 5:1 im Topspiel gegen Paderborn von Platz 2 auf Platz 4 - weil Hannovers Drama gegen Schlusslicht Münster nur 3:3 endete. Schalke ist Meister, das Frankenderby endete 1:1."
-        ],
-        "link": "https://www.kicker.de/dramatik-pur-in-hannover-elversberg-neuer-zweiter-schalke-zweitliga-meister-1214709/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-05-03T11:49:55.000Z"
-      },
-      {
-        "id": "li.3477456",
-        "title": "FC Bayern gegen Heidenheim: Die unliebsame Debatte bleibt",
-        "summary": "Direkt nach dem 3:3 gegen Heidenheim sind die Bayern gedanklich bei Paris. Vor dem Halbfinal-Rückspiel in der Champions League stellt sich trotzdem die Frage: Warum kassiert das Team so viele Gegentore?",
-        "paragraphs": [
-          "Direkt nach dem 3:3 gegen Heidenheim sind die Bayern gedanklich bei Paris. Vor dem Halbfinal-Rückspiel in der Champions League stellt sich trotzdem die Frage: Warum kassiert das Team so viele Gegentore?"
-        ],
-        "link": "https://www.sueddeutsche.de/sport/fc-bayern-heidenheim-bundesliga-psg-li.3477456",
-        "category": "Bundesliga",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-03T11:33:58.000Z"
-      },
-      {
-        "id": "{urn:uuid:9a8bb475-ceec-4c4d-9d8f-538a3378db89}",
-        "title": "VfL Wolfsburg: Eine ganze Stadt im Abstiegskampf",
-        "summary": "Bei VW in Wolfsburg kriselt es, nun könnte auch noch der VfL zum ersten Mal aus der Bundesliga absteigen. Die Wolfsburger sind zutiefst verunsichert – und trotzig.",
-        "paragraphs": [
-          "Bei VW in Wolfsburg kriselt es, nun könnte auch noch der VfL zum ersten Mal aus der Bundesliga absteigen. Die Wolfsburger sind zutiefst verunsichert – und trotzig."
-        ],
-        "link": "https://www.zeit.de/sport/2026-04/abstiegskampf-vfl-wolfsburg-fans-volkswagen-stadt-bundesliga",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-05-03T11:15:04.000Z"
-      },
-      {
-        "id": "li.3477570",
-        "title": "Formel 1: Lando Norris gewinnt Sprint in Miami",
-        "summary": "",
-        "paragraphs": [],
-        "link": "https://www.sueddeutsche.de/sport/formel-1-miami-lando-norris-sprintrennen-kimi-antonelli-li.3477570",
-        "category": "Motorsport",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-03T11:04:49.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/ein-wort-macht-hoffnung-heidenheims-kampf-um-schmidt-1215886/artikel#omrss",
-        "title": "Ein Wort macht Hoffnung: Heidenheims Kampf um Schmidt",
-        "summary": "Wie lange ist Frank Schmidt noch Trainer des 1. FC Heidenheim? Klubboss Holger Sanwald erklärt, was ihm sein Gefühl sagt - und welches Wort ihn noch vorsichtig auf eine Verlängerung hoffen lässt.",
-        "paragraphs": [
-          "Wie lange ist Frank Schmidt noch Trainer des 1. FC Heidenheim? Klubboss Holger Sanwald erklärt, was ihm sein Gefühl sagt - und welches Wort ihn noch vorsichtig auf eine Verlängerung hoffen lässt."
-        ],
-        "link": "https://www.kicker.de/ein-wort-macht-hoffnung-heidenheims-kampf-um-schmidt-1215886/artikel#omrss",
-        "category": "1. FC Heidenheim",
-        "source": "Kicker",
-        "publishedAt": "2026-05-03T11:04:45.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vorfreude-aufs-derby-schalker-fans-feiern-vor-der-arena-1215884/video#omrss",
-        "title": "Vorfreude aufs Derby: Schalker Fans feiern vor der Arena",
-        "summary": "Der FC Schalke ist zurück in der Bundesliga. Die Fans feierten noch lange nach Spielende vor der Arena.",
-        "paragraphs": [
-          "Der FC Schalke ist zurück in der Bundesliga. Die Fans feierten noch lange nach Spielende vor der Arena."
-        ],
-        "link": "https://www.kicker.de/vorfreude-aufs-derby-schalker-fans-feiern-vor-der-arena-1215884/video#omrss",
-        "category": "2. Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-05-03T10:58:01.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/podolski-pokal-in-polen-als-schlusspunkt-oder-doch-nicht-1215872/artikel#omrss",
-        "title": "Podolski: Pokal in Polen als Schlusspunkt - oder doch nicht?",
-        "summary": "Mit 40 Jahren hat Lukas Podolski zum ersten Mal den Pokal in Polen gewonnen. War's das für den Weltmeister von 2014? Die Aussagen des Stürmers sind klar, lassen aber eine kleine Hintertür offen.",
-        "paragraphs": [
-          "Mit 40 Jahren hat Lukas Podolski zum ersten Mal den Pokal in Polen gewonnen. War's das für den Weltmeister von 2014? Die Aussagen des Stürmers sind klar, lassen aber eine kleine Hintertür offen."
-        ],
-        "link": "https://www.kicker.de/podolski-pokal-in-polen-als-schlusspunkt-oder-doch-nicht-1215872/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-05-03T10:54:06.000Z"
       }
     ],
     "edv": [
@@ -729,16 +729,16 @@
         "publishedAt": "2026-05-03T08:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Pressefreiheit-Rangliste-Deutschland-nicht-mehr-in-Top-Ten-11278073.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Pressefreiheit-Rangliste: Deutschland nicht mehr in Top Ten",
-        "summary": "Einmal im Jahr veröffentlicht Reporter ohne Grenzen eine Liste über die Situation der Medien. Warum Deutschland jetzt nur noch auf Platz 14 steht.",
+        "id": "https://www.heise.de/bestenlisten/testbericht/sharkoon-officepal-k30w-im-test-kabellose-und-leise-tastatur-fuers-buero/9kd8dgw?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Sharkoon Officepal K30W im Test: Kabellose und leise Tastatur fürs Büro",
+        "summary": "Die Sharkoon Officepal K30W kommt mit flachen und geräuscharmen Tasten zum attraktiven Preis.",
         "paragraphs": [
-          "Einmal im Jahr veröffentlicht Reporter ohne Grenzen eine Liste über die Situation der Medien. Warum Deutschland jetzt nur noch auf Platz 14 steht."
+          "Die Sharkoon Officepal K30W kommt mit flachen und geräuscharmen Tasten zum attraktiven Preis."
         ],
-        "link": "https://www.heise.de/news/Pressefreiheit-Rangliste-Deutschland-nicht-mehr-in-Top-Ten-11278073.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testbericht/sharkoon-officepal-k30w-im-test-kabellose-und-leise-tastatur-fuers-buero/9kd8dgw?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-03T12:48:00.000Z"
+        "publishedAt": "2026-05-03T14:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Wie-uns-das-Smartphone-in-den-Bann-zieht-c-t-uplink-11278738.html",
@@ -753,16 +753,16 @@
         "publishedAt": "2026-05-02T13:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Trotz-Steuersenkung-Spritpreise-steigen-laut-ADAC-wieder-11279559.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "12-Uhr-Regel frisst Tankrabatt fast ganz auf",
-        "summary": "Die Steuer wurde gesenkt und Rohöl ist günstiger: Die Verbraucher zahlen somit laut ADAC zu viel für Benzin und Diesel.",
+        "id": "https://www.heise.de/news/Pressefreiheit-Rangliste-Deutschland-nicht-mehr-in-Top-Ten-11278073.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Pressefreiheit-Rangliste: Deutschland nicht mehr in Top Ten",
+        "summary": "Einmal im Jahr veröffentlicht Reporter ohne Grenzen eine Liste über die Situation der Medien. Warum Deutschland jetzt nur noch auf Platz 14 steht.",
         "paragraphs": [
-          "Die Steuer wurde gesenkt und Rohöl ist günstiger: Die Verbraucher zahlen somit laut ADAC zu viel für Benzin und Diesel."
+          "Einmal im Jahr veröffentlicht Reporter ohne Grenzen eine Liste über die Situation der Medien. Warum Deutschland jetzt nur noch auf Platz 14 steht."
         ],
-        "link": "https://www.heise.de/news/Trotz-Steuersenkung-Spritpreise-steigen-laut-ADAC-wieder-11279559.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Pressefreiheit-Rangliste-Deutschland-nicht-mehr-in-Top-Ten-11278073.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-03T12:42:00.000Z"
+        "publishedAt": "2026-05-03T12:48:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Die-beste-Discord-Alternative-TeamSpeak-Server-selbst-hosten-c-t-3003-11278758.html",
@@ -777,16 +777,16 @@
         "publishedAt": "2026-05-01T14:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/KI-Agent-loescht-Daten-Katastrophe-fuer-PocketOS-11279416.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI-Agent löscht Daten: Katastrophe für PocketOS",
-        "summary": "Ein KI-Agent löschte Produktionsdaten bei PocketOS und lieferte ein detailliertes Geständnis. Fehlende Sicherheitsvorkehrungen machten es möglich.",
+        "id": "https://www.heise.de/news/Trotz-Steuersenkung-Spritpreise-steigen-laut-ADAC-wieder-11279559.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "12-Uhr-Regel frisst Tankrabatt fast ganz auf",
+        "summary": "Die Steuer wurde gesenkt und Rohöl ist günstiger: Die Verbraucher zahlen somit laut ADAC zu viel für Benzin und Diesel.",
         "paragraphs": [
-          "Ein KI-Agent löschte Produktionsdaten bei PocketOS und lieferte ein detailliertes Geständnis. Fehlende Sicherheitsvorkehrungen machten es möglich."
+          "Die Steuer wurde gesenkt und Rohöl ist günstiger: Die Verbraucher zahlen somit laut ADAC zu viel für Benzin und Diesel."
         ],
-        "link": "https://www.heise.de/news/KI-Agent-loescht-Daten-Katastrophe-fuer-PocketOS-11279416.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Trotz-Steuersenkung-Spritpreise-steigen-laut-ADAC-wieder-11279559.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-03T12:20:00.000Z"
+        "publishedAt": "2026-05-03T12:42:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Als-Festplatten-noch-riesig-waren-Die-Quantum-Bigfoot-wird-30-Jahre-alt-11278133.html",
@@ -801,16 +801,16 @@
         "publishedAt": "2026-05-01T06:45:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/KI-und-Security-Jetzt-noch-Tickets-fuer-die-Online-Konferenz-sichern-11276120.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: KI und Security: Jetzt noch Tickets für die Online-Konferenz sichern",
-        "summary": "Am 11. Mai zeigt die Online-Konferenz, wie man sich gegen Angriffe auf KI-Anwendungen schützt und wie KI-Tools bei sicherer Softwareentwicklung helfen.",
+        "id": "https://www.heise.de/news/KI-Agent-loescht-Daten-Katastrophe-fuer-PocketOS-11279416.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI-Agent löscht Daten: Katastrophe für PocketOS",
+        "summary": "Ein KI-Agent löschte Produktionsdaten bei PocketOS und lieferte ein detailliertes Geständnis. Fehlende Sicherheitsvorkehrungen machten es möglich.",
         "paragraphs": [
-          "Am 11. Mai zeigt die Online-Konferenz, wie man sich gegen Angriffe auf KI-Anwendungen schützt und wie KI-Tools bei sicherer Softwareentwicklung helfen."
+          "Ein KI-Agent löschte Produktionsdaten bei PocketOS und lieferte ein detailliertes Geständnis. Fehlende Sicherheitsvorkehrungen machten es möglich."
         ],
-        "link": "https://www.heise.de/news/KI-und-Security-Jetzt-noch-Tickets-fuer-die-Online-Konferenz-sichern-11276120.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/KI-Agent-loescht-Daten-Katastrophe-fuer-PocketOS-11279416.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-03T11:00:00.000Z"
+        "publishedAt": "2026-05-03T12:20:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-158-Die-Databroker-Files-11278730.html",
@@ -825,16 +825,16 @@
         "publishedAt": "2026-05-01T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/WTF-Microsoft-erzwingt-Co-Authored-by-Copilot-in-Commits-11279525.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "WTF: Microsoft erzwingt \"Co-Authored-by Copilot\" in Commits",
-        "summary": "Wer seinen Code mithilfe von Copilot geschrieben hat, muss sich mit dem KI-Assistenten jetzt die Commit Message teilen, was sich aber deaktivieren lässt.",
+        "id": "https://www.heise.de/news/KI-und-Security-Jetzt-noch-Tickets-fuer-die-Online-Konferenz-sichern-11276120.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: KI und Security: Jetzt noch Tickets für die Online-Konferenz sichern",
+        "summary": "Am 11. Mai zeigt die Online-Konferenz, wie man sich gegen Angriffe auf KI-Anwendungen schützt und wie KI-Tools bei sicherer Softwareentwicklung helfen.",
         "paragraphs": [
-          "Wer seinen Code mithilfe von Copilot geschrieben hat, muss sich mit dem KI-Assistenten jetzt die Commit Message teilen, was sich aber deaktivieren lässt."
+          "Am 11. Mai zeigt die Online-Konferenz, wie man sich gegen Angriffe auf KI-Anwendungen schützt und wie KI-Tools bei sicherer Softwareentwicklung helfen."
         ],
-        "link": "https://www.heise.de/news/WTF-Microsoft-erzwingt-Co-Authored-by-Copilot-in-Commits-11279525.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/KI-und-Security-Jetzt-noch-Tickets-fuer-die-Online-Konferenz-sichern-11276120.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-03T10:53:00.000Z"
+        "publishedAt": "2026-05-03T11:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Blick-ins-Heft-c-t-10-2026-IT-Mythen-11277734.html",
@@ -849,16 +849,16 @@
         "publishedAt": "2026-04-30T08:14:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/NASA-testet-Lithium-Thruster-Meilenstein-fuer-bemannte-Marsfluege-11279497.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Neuer Antrieb für Marsmission: NASA erreicht Rekordleistung",
-        "summary": "Die NASA hat einen magnetoplasmadynamischen Thruster mit Lithium-Antrieb erfolgreich getestet. Die Technologie gilt als ein Schlüssel für bemannte Marsflüge.",
+        "id": "https://www.heise.de/news/WTF-Microsoft-erzwingt-Co-Authored-by-Copilot-in-Commits-11279525.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "WTF: Microsoft erzwingt \"Co-Authored-by Copilot\" in Commits",
+        "summary": "Wer seinen Code mithilfe von Copilot geschrieben hat, muss sich mit dem KI-Assistenten jetzt die Commit Message teilen, was sich aber deaktivieren lässt.",
         "paragraphs": [
-          "Die NASA hat einen magnetoplasmadynamischen Thruster mit Lithium-Antrieb erfolgreich getestet. Die Technologie gilt als ein Schlüssel für bemannte Marsflüge."
+          "Wer seinen Code mithilfe von Copilot geschrieben hat, muss sich mit dem KI-Assistenten jetzt die Commit Message teilen, was sich aber deaktivieren lässt."
         ],
-        "link": "https://www.heise.de/news/NASA-testet-Lithium-Thruster-Meilenstein-fuer-bemannte-Marsfluege-11279497.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/WTF-Microsoft-erzwingt-Co-Authored-by-Copilot-in-Commits-11279525.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-03T09:06:00.000Z"
+        "publishedAt": "2026-05-03T10:53:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Samsung-erzielt-hoechsten-Gewinn-in-Unternehmensgeschichte-11277552.html",
@@ -873,16 +873,16 @@
         "publishedAt": "2026-04-30T06:59:00.000Z"
       },
       {
-        "id": "https://www.heise.de/meinung/Kommentar-zum-Tag-der-Pressefreiheit-Die-Sache-mit-der-eigenen-Nase-11278916.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Kommentar zum Tag der Pressefreiheit: Die Sache mit der eigenen Nase",
-        "summary": "Statt Lamentos sollte der Medienbeauftragte der Bundesregierung den 3. Mai nutzen, um in Sachen Pressefreiheit vor der eigenen Türe zu kehren, meint Tim Gerber.",
+        "id": "https://www.heise.de/news/NASA-testet-Lithium-Thruster-Meilenstein-fuer-bemannte-Marsfluege-11279497.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Neuer Antrieb für Marsmission: NASA erreicht Rekordleistung",
+        "summary": "Die NASA hat einen magnetoplasmadynamischen Thruster mit Lithium-Antrieb erfolgreich getestet. Die Technologie gilt als ein Schlüssel für bemannte Marsflüge.",
         "paragraphs": [
-          "Statt Lamentos sollte der Medienbeauftragte der Bundesregierung den 3. Mai nutzen, um in Sachen Pressefreiheit vor der eigenen Türe zu kehren, meint Tim Gerber."
+          "Die NASA hat einen magnetoplasmadynamischen Thruster mit Lithium-Antrieb erfolgreich getestet. Die Technologie gilt als ein Schlüssel für bemannte Marsflüge."
         ],
-        "link": "https://www.heise.de/meinung/Kommentar-zum-Tag-der-Pressefreiheit-Die-Sache-mit-der-eigenen-Nase-11278916.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/NASA-testet-Lithium-Thruster-Meilenstein-fuer-bemannte-Marsfluege-11279497.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-03T08:30:00.000Z"
+        "publishedAt": "2026-05-03T09:06:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Motorola-zeigt-Razr-70-Trio-und-Edge-70-Pro-Foldables-mit-grossen-Aussendisplays-11275480.html",
@@ -897,16 +897,16 @@
         "publishedAt": "2026-04-29T16:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-BCM-und-IT-Notfallplanung-vorbereitet-fuer-den-Ernstfall-11264681.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: BCM und IT-Notfallplanung – vorbereitet für den Ernstfall",
-        "summary": "Erstellen Sie für Ihr Unternehmen einen Leitfaden zur professionellen IT-Notfallplanung im interaktiven Workshop.",
+        "id": "https://www.heise.de/meinung/Kommentar-zum-Tag-der-Pressefreiheit-Die-Sache-mit-der-eigenen-Nase-11278916.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Kommentar zum Tag der Pressefreiheit: Die Sache mit der eigenen Nase",
+        "summary": "Statt Lamentos sollte der Medienbeauftragte der Bundesregierung den 3. Mai nutzen, um in Sachen Pressefreiheit vor der eigenen Türe zu kehren, meint Tim Gerber.",
         "paragraphs": [
-          "Erstellen Sie für Ihr Unternehmen einen Leitfaden zur professionellen IT-Notfallplanung im interaktiven Workshop."
+          "Statt Lamentos sollte der Medienbeauftragte der Bundesregierung den 3. Mai nutzen, um in Sachen Pressefreiheit vor der eigenen Türe zu kehren, meint Tim Gerber."
         ],
-        "link": "https://www.heise.de/news/iX-Workshop-BCM-und-IT-Notfallplanung-vorbereitet-fuer-den-Ernstfall-11264681.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/meinung/Kommentar-zum-Tag-der-Pressefreiheit-Die-Sache-mit-der-eigenen-Nase-11278916.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-03T08:00:00.000Z"
+        "publishedAt": "2026-05-03T08:30:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Mehr-als-1-4-Gigawatt-Riesige-Batteriespeicher-am-ehemaligen-AKW-Grohnde-11276677.html",
@@ -921,13 +921,13 @@
         "publishedAt": "2026-04-29T13:26:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Video-Wir-haben-Lichtschwert-Training-ausprobiert-11277850.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Video: Wir haben Lichtschwert-Training ausprobiert",
-        "summary": "Kämpfen wie in Star Wars? Das ist kein Nerd-Traum mehr, sondern geht wirklich - nämlich beim LudoSport. Wir haben den Verein in Hannover besucht.",
+        "id": "https://www.heise.de/news/iX-Workshop-BCM-und-IT-Notfallplanung-vorbereitet-fuer-den-Ernstfall-11264681.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: BCM und IT-Notfallplanung – vorbereitet für den Ernstfall",
+        "summary": "Erstellen Sie für Ihr Unternehmen einen Leitfaden zur professionellen IT-Notfallplanung im interaktiven Workshop.",
         "paragraphs": [
-          "Kämpfen wie in Star Wars? Das ist kein Nerd-Traum mehr, sondern geht wirklich - nämlich beim LudoSport. Wir haben den Verein in Hannover besucht."
+          "Erstellen Sie für Ihr Unternehmen einen Leitfaden zur professionellen IT-Notfallplanung im interaktiven Workshop."
         ],
-        "link": "https://www.heise.de/news/Video-Wir-haben-Lichtschwert-Training-ausprobiert-11277850.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/iX-Workshop-BCM-und-IT-Notfallplanung-vorbereitet-fuer-den-Ernstfall-11264681.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
         "publishedAt": "2026-05-03T08:00:00.000Z"
@@ -945,19 +945,79 @@
         "publishedAt": "2026-04-29T08:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Missing-Link-Die-Bewaehrungsprobe-kommt-erst-noch-11279420.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Missing Link: Die Bewährungsprobe kommt erst noch",
-        "summary": "Ein Jahr Digitalministerium – bisher betreibt Karsten Wildberger eine staatliche Produktagentur. Politische Gestaltung fehlt noch.",
+        "id": "https://www.heise.de/news/Video-Wir-haben-Lichtschwert-Training-ausprobiert-11277850.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Video: Wir haben Lichtschwert-Training ausprobiert",
+        "summary": "Kämpfen wie in Star Wars? Das ist kein Nerd-Traum mehr, sondern geht wirklich - nämlich beim LudoSport. Wir haben den Verein in Hannover besucht.",
         "paragraphs": [
-          "Ein Jahr Digitalministerium – bisher betreibt Karsten Wildberger eine staatliche Produktagentur. Politische Gestaltung fehlt noch."
+          "Kämpfen wie in Star Wars? Das ist kein Nerd-Traum mehr, sondern geht wirklich - nämlich beim LudoSport. Wir haben den Verein in Hannover besucht."
         ],
-        "link": "https://www.heise.de/hintergrund/Missing-Link-Die-Bewaehrungsprobe-kommt-erst-noch-11279420.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Video-Wir-haben-Lichtschwert-Training-ausprobiert-11277850.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-03T06:02:00.000Z"
+        "publishedAt": "2026-05-03T08:00:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-so-bewerten-analysten-die-tech-aktien-nach-den-quartalszahlen/100220392.html",
+        "title": "Geldanlage: Bis zu 36 Prozent Kurspotenzial – So bewerten Analysten die Tech-Aktien nach den Quartalszahlen",
+        "summary": "Die Experten haben ihre Einschätzungen für Alphabet, Amazon, Apple, Meta und Microsoft aktualisiert. Ein Unternehmen rutscht dabei ab, woanders sehen die Analysten eine Einstiegschance.",
+        "paragraphs": [
+          "Die Experten haben ihre Einschätzungen für Alphabet, Amazon, Apple, Meta und Microsoft aktualisiert. Ein Unternehmen rutscht dabei ab, woanders sehen die Analysten eine Einstiegschance."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-so-bewerten-analysten-die-tech-aktien-nach-den-quartalszahlen/100220392.html",
+        "category": "Trends",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-03T14:22:16.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/meinung/kommentare/kommentar-trump-und-merz-clash-mit-ansage/100221900.html",
+        "title": "Kommentar: Trump und Merz – Clash mit Ansage",
+        "summary": "Neue Zölle, Abzug von GIs, Absage der Raketen-Stationierung – die Krise der deutsch-amerikanischen Beziehungen erreicht eine neue Dimension. Die Verantwortung dafür trägt nicht allein der Präsident.",
+        "paragraphs": [
+          "Neue Zölle, Abzug von GIs, Absage der Raketen-Stationierung – die Krise der deutsch-amerikanischen Beziehungen erreicht eine neue Dimension. Die Verantwortung dafür trägt nicht allein der Präsident."
+        ],
+        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-trump-und-merz-clash-mit-ansage/100221900.html",
+        "category": "Kommentare",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-03T14:09:23.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/haribo-der-lange-weg-der-goldbaeren/100220663.html",
+        "title": "Süßwaren: Der lange Weg der Haribo Goldbären – wie sich ihr globaler Siegeszug erklären lässt",
+        "summary": "Noch nie zuvor hat Haribo weltweit so viele Süßigkeiten verkauft. Die Branche hingegen kämpft. Das zeigt, wie viel Strategie hinter einem scheinbar einfachen Produkt steckt.",
+        "paragraphs": [
+          "Noch nie zuvor hat Haribo weltweit so viele Süßigkeiten verkauft. Die Branche hingegen kämpft. Das zeigt, wie viel Strategie hinter einem scheinbar einfachen Produkt steckt."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/haribo-der-lange-weg-der-goldbaeren/100220663.html",
+        "category": "Handel + Konsumgüter",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-03T14:05:24.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/staatenverbund-macron-vertritt-merz-kanzler-nicht-beim-europagipfel/100221948.html",
+        "title": "Staatenverbund: Macron vertritt Merz – Kanzler nicht beim Europagipfel",
+        "summary": "Sieben Gipfel der Europäischen Politischen Gemeinschaft gab es seit 2022. Bisher war der deutsche Bundeskanzler immer dabei. Diesmal hat Friedrich Merz andere Verpflichtungen.",
+        "paragraphs": [
+          "Sieben Gipfel der Europäischen Politischen Gemeinschaft gab es seit 2022. Bisher war der deutsche Bundeskanzler immer dabei. Diesmal hat Friedrich Merz andere Verpflichtungen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/staatenverbund-macron-vertritt-merz-kanzler-nicht-beim-europagipfel/100221948.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-03T14:03:49.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-zinsen-von-3375-oder-75-prozent-im-prinzip-egal/100219523.html",
+        "title": "Märkte-Insight: Zinsen von 3,375 oder 7,5 Prozent? Im Prinzip egal!",
+        "summary": "Anleihen, die sehr lange ausstehen, bieten noch sehr hohe Zinsen. Doch diese Bonds sind für Neukäufer nicht interessanter als neue Anleihen mit niedrigeren Zinskupons, erklärt Andrea Cünnen.",
+        "paragraphs": [
+          "Anleihen, die sehr lange ausstehen, bieten noch sehr hohe Zinsen. Doch diese Bonds sind für Neukäufer nicht interessanter als neue Anleihen mit niedrigeren Zinskupons, erklärt Andrea Cünnen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-zinsen-von-3375-oder-75-prozent-im-prinzip-egal/100219523.html",
+        "category": "Kolumnen",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-03T13:54:30.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/international/weltwirtschaft-warum-indien-doch-nicht-an-deutschland-vorbeizieht/100220991.html",
         "title": "Weltwirtschaft: Der Wachstumsstar schwächelt: Warum Indien doch nicht an Deutschland vorbeizieht",
@@ -973,9 +1033,9 @@
       {
         "id": "https://www.handelsblatt.com/politik/international/migration-was-eine-begrenzung-der-einwohnerzahl-fuer-die-schweiz-bedeuten-wuerde/100221940.html",
         "title": "Migration: Was eine Begrenzung der Einwohnerzahl für die Schweiz bedeuten würde",
-        "summary": "Vor der anstehenden Volksabstimmung in der Schweiz über eine Begrenzung der Einwohnerzahl auf 10 Millionen zeichnet sich eine Mehrheit dafür ab. Darunter könnte nicht nur die Schweizer Wirtschaft leiden.",
+        "summary": "Vor der anstehenden Volksabstimmung in der Schweiz über eine Bevölkerungsgrenze von zehn Millionen zeichnet sich eine Mehrheit dafür ab. Darunter könnte nicht nur die Schweizer Wirtschaft leiden.",
         "paragraphs": [
-          "Vor der anstehenden Volksabstimmung in der Schweiz über eine Begrenzung der Einwohnerzahl auf 10 Millionen zeichnet sich eine Mehrheit dafür ab. Darunter könnte nicht nur die Schweizer Wirtschaft leiden."
+          "Vor der anstehenden Volksabstimmung in der Schweiz über eine Bevölkerungsgrenze von zehn Millionen zeichnet sich eine Mehrheit dafür ab. Darunter könnte nicht nur die Schweizer Wirtschaft leiden."
         ],
         "link": "https://www.handelsblatt.com/politik/international/migration-was-eine-begrenzung-der-einwohnerzahl-fuer-die-schweiz-bedeuten-wuerde/100221940.html",
         "category": "International",
@@ -1137,66 +1197,6 @@
         "category": "International",
         "source": "Handelsblatt",
         "publishedAt": "2026-05-03T11:44:39.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-warum-das-iranische-regime-entgegen-trumps-behauptung-nicht-wackelt/100221297.html",
-        "title": "Iran-Krieg: Warum das Regime in Teheran entgegen Trumps Behauptung nicht wackelt",
-        "summary": "Die Wirtschaft liegt am Boden, die Bevölkerung leidet unter einer galoppierenden Inflation. Und US-Präsident Donald Trump sagt, das Land stehe vor dem Kollaps. Doch Experten widersprechen.",
-        "paragraphs": [
-          "Die Wirtschaft liegt am Boden, die Bevölkerung leidet unter einer galoppierenden Inflation. Und US-Präsident Donald Trump sagt, das Land stehe vor dem Kollaps. Doch Experten widersprechen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-warum-das-iranische-regime-entgegen-trumps-behauptung-nicht-wackelt/100221297.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-03T11:26:10.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/umstrittenes-gesetz-geburtstagstorte-mit-henkersschlinge-fuer-israels-minister/100221937.html",
-        "title": "Umstrittenes Gesetz: Geburtstagstorte mit Henkersschlinge für Israels Minister",
-        "summary": "Das Ende März verabschiedete Gesetz zur Einführung der Todesstrafe für Terroristen ist kritisiert worden, weil es de facto nur Palästinenser betrifft. Ein Initiator feiert es nun auf morbide Weise.",
-        "paragraphs": [
-          "Das Ende März verabschiedete Gesetz zur Einführung der Todesstrafe für Terroristen ist kritisiert worden, weil es de facto nur Palästinenser betrifft. Ein Initiator feiert es nun auf morbide Weise."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/umstrittenes-gesetz-geburtstagstorte-mit-henkersschlinge-fuer-israels-minister/100221937.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-03T11:19:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/militaer-trump-laesst-deutschland-ueber-truppenabzug-im-unklaren/100221869.html",
-        "title": "Militär: Trump lässt Deutschland über Truppenabzug im Unklaren",
-        "summary": "Die Entscheidung, 5.000 US-Soldaten aus Deutschland abzuziehen, kam nicht ohne Ansage. Doch während die Ankündigung gerade erst verdaut wird, droht Trump weiter - und lässt Details offen.",
-        "paragraphs": [
-          "Die Entscheidung, 5.000 US-Soldaten aus Deutschland abzuziehen, kam nicht ohne Ansage. Doch während die Ankündigung gerade erst verdaut wird, droht Trump weiter - und lässt Details offen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/militaer-trump-laesst-deutschland-ueber-truppenabzug-im-unklaren/100221869.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-03T11:15:23.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-immobilienbranche-wartet-weiter-auf-milliardengeschaeft-beim-militaer/100216491.html",
-        "title": "Rüstung: Immobilienbranche wartet weiter auf Milliardengeschäft beim Militär",
-        "summary": "Bundeswehr und Rüstungshersteller benötigen dringend zusätzliche Gebäude und Flächen. Doch das Zeitfenster für den erwarteten Bauboom könnte sich für Investoren bald wieder schließen.",
-        "paragraphs": [
-          "Bundeswehr und Rüstungshersteller benötigen dringend zusätzliche Gebäude und Flächen. Doch das Zeitfenster für den erwarteten Bauboom könnte sich für Investoren bald wieder schließen."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-immobilienbranche-wartet-weiter-auf-milliardengeschaeft-beim-militaer/100216491.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-03T11:09:39.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/lokalwirtschaft-ramsteins-buergermeister-warnt-vor-einschnitten-wegen-truppenabzug/100221930.html",
-        "title": "Lokalwirtschaft: Ramsteins Bürgermeister warnt vor Einschnitten wegen Truppenabzug",
-        "summary": "Sollten Tausende US-Soldaten mit ihren Angehörigen Deutschland verlassen, hätte das auch ökonomische Folgen. Ramsteins Rathausherr beziffert die Auswirkungen.",
-        "paragraphs": [
-          "Sollten Tausende US-Soldaten mit ihren Angehörigen Deutschland verlassen, hätte das auch ökonomische Folgen. Ramsteins Rathausherr beziffert die Auswirkungen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/lokalwirtschaft-ramsteins-buergermeister-warnt-vor-einschnitten-wegen-truppenabzug/100221930.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-03T10:43:18.000Z"
       }
     ]
   }
