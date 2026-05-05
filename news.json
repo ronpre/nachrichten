@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-05-05T09:46:03.064Z",
+  "updatedAt": "2026-05-05T10:38:31.986Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "3fc0caa6-8c19-410b-81a7-13318b5e9e45",
+        "title": "Reiseveranstalter: Keine Nachzahlungen für gebuchte Urlaube",
+        "summary": "Die großen deutschen Reiseveranstalter wollen die Preise für bereits geplante Reisen wegen der gestiegenen Kerosinkosten nicht nachträglich erhöhen. Künftige Buchungen könnten dagegen bald teurer werden.",
+        "paragraphs": [
+          "Die großen deutschen Reiseveranstalter wollen die Preise für bereits geplante Reisen wegen der gestiegenen Kerosinkosten nicht nachträglich erhöhen. Künftige Buchungen könnten dagegen bald teurer werden."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/verbraucher/urlaub-nachzahlungen-kerosinpreise-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-05-05T10:31:22.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Westeuropa-zaehlt-mehr-Firmenpleiten-als-nach-Finanzkrise-id30786987.html",
         "title": "\"Krise ist strukturell\": Westeuropa zählt mehr Firmenpleiten als nach Finanzkrise",
@@ -229,21 +241,33 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-05-04T12:20:51.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/Unicredit-Aktionaere-machen-Weg-fuer-Commerzbank-Uebernahme-frei-id30783531.html",
-        "title": "Zustimmung zur Kapitalerhöhung: Unicredit-Aktionäre machen Weg für Commerzbank-Übernahme frei",
-        "summary": "Die italienische Großbank Unicredit bekommt grünes Licht von den Aktionären für ihre Offerte an die Commerzbank. Das offizielle Angebot für das Frankfurter Geldhaus soll am Dienstag folgen. Allerdings liegt der gebotene Preis unter dem aktuellen Börsenkurs.",
-        "paragraphs": [
-          "Die italienische Großbank Unicredit bekommt grünes Licht von den Aktionären für ihre Offerte an die Commerzbank. Das offizielle Angebot für das Frankfurter Geldhaus soll am Dienstag folgen. Allerdings liegt der gebotene Preis unter dem aktuellen Börsenkurs."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/Unicredit-Aktionaere-machen-Weg-fuer-Commerzbank-Uebernahme-frei-id30783531.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-05-04T11:37:50.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "77050022",
+        "title": "UN-Bericht: Menschheit droht eine \"digitale Pandemie\"",
+        "summary": "Wären die Regierungen der Welt auf einen digitalen Super-GAU vorbereitet? Die Antwort der Vereinten Nationen fällt beängstigend aus.",
+        "paragraphs": [
+          "Wären die Regierungen der Welt auf einen digitalen Super-GAU vorbereitet? Die Antwort der Vereinten Nationen fällt beängstigend aus."
+        ],
+        "link": "https://www.dw.com/de/un-bericht-menschheit-droht-eine-digitale-pandemie/a-77050022?maca=de-rss-de-top-1016-xml-mrss",
+        "category": "Aktuelles",
+        "source": "DW",
+        "publishedAt": "2026-05-05T10:29:00.000Z"
+      },
+      {
+        "id": "li.3477387",
+        "title": "Bundespolitik: Spahn stellt sich zur Wiederwahl als Fraktionschef",
+        "summary": "Am Nachmittag stimmen die CDU-Bundestagsabgeordneten über ihren Fraktionschef ab. Spahn, seit einem Jahr im Amt, kann mit seiner Wiederwahl rechnen – Gegenkandidaten gibt es wohl keine.",
+        "paragraphs": [
+          "Am Nachmittag stimmen die CDU-Bundestagsabgeordneten über ihren Fraktionschef ab. Spahn, seit einem Jahr im Amt, kann mit seiner Wiederwahl rechnen – Gegenkandidaten gibt es wohl keine."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-spahn-cdu-wahl-fraktionschef-li.3477387",
+        "category": "Bundesregierung",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-05T09:51:43.000Z"
+      },
       {
         "id": "77047942",
         "title": "Verbale Angriffe: Iran und USA drohen sich gegenseitig",
@@ -259,9 +283,9 @@
       {
         "id": "li.3478278",
         "title": "Wahlen in Indien: Hindu-Nationalisten bauen ihre Macht aus",
-        "summary": "Die Partei BJP von Premierminister Modi siegt klar in Westbengalen und feiert den Ausgang von vier weiteren Regionalwahlen. Haben die politischen Gegner noch etwas entgegenzusetzen?",
+        "summary": "Die Partei BJP von Premierminister Modi siegt in Westbengalen klar und freut sich über den Ausgang von vier weiteren Regionalwahlen. Haben die politischen Gegner noch etwas entgegenzusetzen?",
         "paragraphs": [
-          "Die Partei BJP von Premierminister Modi siegt klar in Westbengalen und feiert den Ausgang von vier weiteren Regionalwahlen. Haben die politischen Gegner noch etwas entgegenzusetzen?"
+          "Die Partei BJP von Premierminister Modi siegt in Westbengalen klar und freut sich über den Ausgang von vier weiteren Regionalwahlen. Haben die politischen Gegner noch etwas entgegenzusetzen?"
         ],
         "link": "https://www.sueddeutsche.de/politik/indien-bjp-kongresspartei-wahlen-li.3478278",
         "category": "Indien",
@@ -457,33 +481,153 @@
         "category": "Iran",
         "source": "Sueddeutsche",
         "publishedAt": "2026-05-04T13:01:49.000Z"
-      },
-      {
-        "id": "77031377",
-        "title": "Polen: Das Rätsel um den deutschen Schatz",
-        "summary": "In einem geheimen Raum entdeckten Handwerker in Walbrzych 2022 versteckte Besitztümer der früheren deutschen Bewohner. Nun sollen die \"Schätze\" in einem neuen Museum gezeigt werden. Die Stadt entdeckt dabei ihr Erbe neu.",
-        "paragraphs": [
-          "In einem geheimen Raum entdeckten Handwerker in Walbrzych 2022 versteckte Besitztümer der früheren deutschen Bewohner. Nun sollen die \"Schätze\" in einem neuen Museum gezeigt werden. Die Stadt entdeckt dabei ihr Erbe neu."
-        ],
-        "link": "https://www.dw.com/de/polen-das-rätsel-um-den-deutschen-schatz/a-77031377?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Welt",
-        "source": "DW",
-        "publishedAt": "2026-05-04T12:55:00.000Z"
-      },
-      {
-        "id": "li.3475603",
-        "title": "Landesregierung: Kai Wegner steckt in Berlin fest",
-        "summary": "Er macht alles anders als Friedrich Merz, aber spätestens seit seinem unglücklichen Tennisspiel leidet der Regierende Bürgermeister unter ähnlichem Beliebtheitsmangel. Gut vier Monate vor der Wahl wird das für seine CDU zum Problem.",
-        "paragraphs": [
-          "Er macht alles anders als Friedrich Merz, aber spätestens seit seinem unglücklichen Tennisspiel leidet der Regierende Bürgermeister unter ähnlichem Beliebtheitsmangel. Gut vier Monate vor der Wahl wird das für seine CDU zum Problem."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/berlin-buergermeister-wegner-cdu-umfrage-li.3475603",
-        "category": "Berlin",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-04T12:48:39.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/hoeness-wird-im-laimer-poker-deutlich-er-ist-nicht-maradona-1216531/artikel#omrss",
+        "title": "Hoeneß wird im Laimer-Poker deutlich: \"Er ist nicht Maradona\"",
+        "summary": "Im Ringen um einen neuen Vertrag kommen Konrad Laimer und der FC Bayern bislang nicht voran. Jetzt wählt Uli Hoeneß deutliche Worte in der Thematik.",
+        "paragraphs": [
+          "Im Ringen um einen neuen Vertrag kommen Konrad Laimer und der FC Bayern bislang nicht voran. Jetzt wählt Uli Hoeneß deutliche Worte in der Thematik."
+        ],
+        "link": "https://www.kicker.de/hoeness-wird-im-laimer-poker-deutlich-er-ist-nicht-maradona-1216531/artikel#omrss",
+        "category": "Bayern München",
+        "source": "Kicker",
+        "publishedAt": "2026-05-05T10:23:18.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/vorbild-matarazzo-terzic-wird-neuer-trainer-von-athletic-bilbao-1204865/artikel#omrss",
+        "title": "Vorbild Matarazzo? Terzic wird neuer Trainer von Athletic Bilbao",
+        "summary": "Edin Terzic (43) ist zurück auf der großen Fußballbühne - und übernimmt nach Borussia Dortmund ab Sommer den nächsten hochemotionalen Traditionsverein. Bei Athletic Bilbao könnte ihm Pellegrino Matarazzo als Vorbild dienen.",
+        "paragraphs": [
+          "Edin Terzic (43) ist zurück auf der großen Fußballbühne - und übernimmt nach Borussia Dortmund ab Sommer den nächsten hochemotionalen Traditionsverein. Bei Athletic Bilbao könnte ihm Pellegrino Matarazzo als Vorbild dienen."
+        ],
+        "link": "https://www.kicker.de/vorbild-matarazzo-terzic-wird-neuer-trainer-von-athletic-bilbao-1204865/artikel#omrss",
+        "category": "Athletic Bilbao",
+        "source": "Kicker",
+        "publishedAt": "2026-05-05T10:14:17.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/augsburg-auf-europa-kurs-so-stehen-die-chancen-auf-einen-baum-verbleib-1216524/artikel#omrss",
+        "title": "Augsburg auf Europa-Kurs: So stehen die Chancen auf einen Baum-Verbleib",
+        "summary": "Die neue Folge kicker Daily!",
+        "paragraphs": [
+          "Die neue Folge kicker Daily!"
+        ],
+        "link": "https://www.kicker.de/augsburg-auf-europa-kurs-so-stehen-die-chancen-auf-einen-baum-verbleib-1216524/artikel#omrss",
+        "category": "Baum",
+        "source": "Kicker",
+        "publishedAt": "2026-05-05T10:07:59.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/kein-geld-aber-ein-geruest-wie-schalke-fuer-die-bundesliga-plant-1216523/artikel#omrss",
+        "title": "Kein Geld, aber ein Gerüst: Wie Schalke für die Bundesliga plant",
+        "summary": "Die neue Folge kicker Daily!",
+        "paragraphs": [
+          "Die neue Folge kicker Daily!"
+        ],
+        "link": "https://www.kicker.de/kein-geld-aber-ein-geruest-wie-schalke-fuer-die-bundesliga-plant-1216523/artikel#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-05-05T10:07:02.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/hoeness-ueberrascht-mit-fan-aussage-und-wuerde-einen-psg-spieler-sofort-holen-1216489/artikel#omrss",
+        "title": "Hoeneß überrascht mit Fan-Aussage - und würde einen PSG-Spieler \"sofort\" holen",
+        "summary": "Auf die Reise nach Paris hatte er bewusst verzichtet, vor dem Rückspiel gegen PSG sieht Uli Hoeneß das \"Momentum\" nun beim FC Bayern - und setzt dabei auch auf den Anhang.",
+        "paragraphs": [
+          "Auf die Reise nach Paris hatte er bewusst verzichtet, vor dem Rückspiel gegen PSG sieht Uli Hoeneß das \"Momentum\" nun beim FC Bayern - und setzt dabei auch auf den Anhang."
+        ],
+        "link": "https://www.kicker.de/hoeness-ueberrascht-mit-fan-aussage-und-wuerde-einen-psg-spieler-sofort-holen-1216489/artikel#omrss",
+        "category": "Bayern München",
+        "source": "Kicker",
+        "publishedAt": "2026-05-05T10:01:21.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wer-uebertraegt-fc-arsenal-gegen-atletico-madrid-heute-live-im-tv-stream-1216488/artikel#omrss",
+        "title": "Wer überträgt FC Arsenal gegen Atletico Madrid heute live im TV & Stream?",
+        "summary": "Im Halbfinal-Rückspiel der Champions League treffen am Dienstagabend der FC Arsenal und Atletico Madrid aufeinander. Wo die Partie live im TV und Stream übertragen wird, erfährst du hier.",
+        "paragraphs": [
+          "Im Halbfinal-Rückspiel der Champions League treffen am Dienstagabend der FC Arsenal und Atletico Madrid aufeinander. Wo die Partie live im TV und Stream übertragen wird, erfährst du hier."
+        ],
+        "link": "https://www.kicker.de/wer-uebertraegt-fc-arsenal-gegen-atletico-madrid-heute-live-im-tv-stream-1216488/artikel#omrss",
+        "category": "Atletico Madrid",
+        "source": "Kicker",
+        "publishedAt": "2026-05-05T09:59:04.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ausar-thompson-bei-den-pistons-der-schluessel-und-das-groesste-dilemma-1216474/artikel#omrss",
+        "title": "Ausar Thompson bei den Pistons: Der Schlüssel - und das größte Dilemma",
+        "summary": "Ausar Thompson hat die Detroit Pistons mit seiner außergewöhnlichen Defensive in die zweite Runde gehievt. Auch beim größten Problem seines Teams spielte der 23-Jährige jedoch eine Rolle. Gegen die Cavaliers könnte Thompson erneut zur Schlüsselfigur werden.",
+        "paragraphs": [
+          "Ausar Thompson hat die Detroit Pistons mit seiner außergewöhnlichen Defensive in die zweite Runde gehievt. Auch beim größten Problem seines Teams spielte der 23-Jährige jedoch eine Rolle. Gegen die Cavaliers könnte Thompson erneut zur Schlüsselfigur werden."
+        ],
+        "link": "https://www.kicker.de/ausar-thompson-bei-den-pistons-der-schluessel-und-das-groesste-dilemma-1216474/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-05-05T09:56:33.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/erster-sommerneuzugang-fix-fcn-holt-otto-aus-verl-1215986/artikel#omrss",
+        "title": "Erster Sommerneuzugang fix: FCN holt Otto aus Verl",
+        "summary": "Der 1. FC Nürnberg hat den ersten Neuzugang für den Sommer unter Dach und Fach. Innenverteidiger Fynn Otto kommt ab Juli an den Valznerweiher.",
+        "paragraphs": [
+          "Der 1. FC Nürnberg hat den ersten Neuzugang für den Sommer unter Dach und Fach. Innenverteidiger Fynn Otto kommt ab Juli an den Valznerweiher."
+        ],
+        "link": "https://www.kicker.de/erster-sommerneuzugang-fix-fcn-holt-otto-aus-verl-1215986/artikel#omrss",
+        "category": "1. FC Nürnberg",
+        "source": "Kicker",
+        "publishedAt": "2026-05-05T09:47:34.000Z"
+      },
+      {
+        "id": "li.3478614",
+        "title": "Snooker-WM: Der Weltmeister, der sich ein Bett mit seinem Vater teilte",
+        "summary": "Als Jugendlicher wagte der Chinese Wu Yize den Sprung nach England, lebte in ärmlichen Verhältnissen – jetzt ist er Weltmeister, mit gerade 22 Jahren. Und beeindruckt die Konkurrenz mit seiner Coolness.",
+        "paragraphs": [
+          "Als Jugendlicher wagte der Chinese Wu Yize den Sprung nach England, lebte in ärmlichen Verhältnissen – jetzt ist er Weltmeister, mit gerade 22 Jahren. Und beeindruckt die Konkurrenz mit seiner Coolness."
+        ],
+        "link": "https://www.sueddeutsche.de/sport/snooker-wm-finale-wu-yize-chinese-murphy-li.3478614",
+        "category": "Snooker",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-05T09:44:29.000Z"
+      },
+      {
+        "id": "9dd09ef4-03b0-4901-b921-8ff8ecf6963a",
+        "title": "FC Bayern München: Uli Hoeneß sieht seinen Neffen Sebastian als möglichen Nachfolger von Vincent Kompany",
+        "summary": "Meister sind sie schon, in der Champions League sorgen sie für Aufsehen. Ein Grund für den Erfolg der Bayern? Coach Vincent Kompany. Ehrenpräsident Uli Hoeneß schwärmt von dem Belgier – von seinem Neffen allerdings auch.",
+        "paragraphs": [
+          "Meister sind sie schon, in der Champions League sorgen sie für Aufsehen. Ein Grund für den Erfolg der Bayern? Coach Vincent Kompany. Ehrenpräsident Uli Hoeneß schwärmt von dem Belgier – von seinem Neffen allerdings auch."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/fc-bayern-muenchen-uli-hoeness-sieht-seinen-neffen-sebastian-als-moeglichen-nachfolger-von-vincent-kompany-a-9dd09ef4-03b0-4901-b921-8ff8ecf6963a#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-05-05T09:43:00.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/von-kugel-zu-kugel-zum-weltmeister-1216527/artikel#omrss",
+        "title": "Von Kugel zu Kugel zum Weltmeister",
+        "summary": "Beim Snooker braucht man Technik, Geduld und starke Nerven. Jetzt hat ein 22-Jähriger gezeigt, dass auch junge Spieler oben mitmischen können.",
+        "paragraphs": [
+          "Beim Snooker braucht man Technik, Geduld und starke Nerven. Jetzt hat ein 22-Jähriger gezeigt, dass auch junge Spieler oben mitmischen können."
+        ],
+        "link": "https://www.kicker.de/von-kugel-zu-kugel-zum-weltmeister-1216527/artikel#omrss",
+        "category": null,
+        "source": "Kicker",
+        "publishedAt": "2026-05-05T09:30:18.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/wirbelt-die-3-liga-den-finaltag-der-amateure-durcheinander-1216499/artikel#omrss",
+        "title": "Wirbelt die 3. Liga den \"Finaltag der Amateure\" durcheinander?",
+        "summary": "Am 23. Mai stehen im Rahmen des Finaltags der Amateure zahlreiche Landespokal-Endspiele an. Alle 21 Partien werden dieses Jahr jedoch wohl nicht, wie üblich, am selben Tag stattfinden. Der Grund: die Relegation zur 2. Bundesliga. Auch in Bayern gibt es eine brisante Konstellation.",
+        "paragraphs": [
+          "Am 23. Mai stehen im Rahmen des Finaltags der Amateure zahlreiche Landespokal-Endspiele an. Alle 21 Partien werden dieses Jahr jedoch wohl nicht, wie üblich, am selben Tag stattfinden. Der Grund: die Relegation zur 2. Bundesliga. Auch in Bayern gibt es eine brisante Konstellation."
+        ],
+        "link": "https://www.kicker.de/wirbelt-die-3-liga-den-finaltag-der-amateure-durcheinander-1216499/artikel#omrss",
+        "category": "3. Liga",
+        "source": "Kicker",
+        "publishedAt": "2026-05-05T09:25:30.000Z"
+      },
       {
         "id": "https://www.kicker.de/2-liga-als-variable-x-die-abstiegsentscheidungen-in-den-regionalligen-1198614/artikel#omrss",
         "title": "2. Liga als Variable X: Die Abstiegsentscheidungen in den Regionalligen",
@@ -579,150 +723,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-05-05T08:37:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/13-minuten-die-vielleicht-den-titel-kosten-1216465/artikel#omrss",
-        "title": "13 Minuten, die vielleicht den Titel kosten",
-        "summary": "Manchester City hat den Titel in der Premier League nicht mehr in der eigenen Hand. Pep Guardiolas Mienenspiel beim 3:3 gegen Everton sprach Bände.",
-        "paragraphs": [
-          "Manchester City hat den Titel in der Premier League nicht mehr in der eigenen Hand. Pep Guardiolas Mienenspiel beim 3:3 gegen Everton sprach Bände."
-        ],
-        "link": "https://www.kicker.de/13-minuten-die-vielleicht-den-titel-kosten-1216465/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T08:34:38.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/becker-vermisst-zverevs-kampfgeist-fast-veraengstigt-1216484/artikel#omrss",
-        "title": "Becker vermisst Zverevs Kampfgeist: \"Fast verängstigt\"",
-        "summary": "Nach der Enttäuschung im Madrid-Finale äußert Boris Becker Zweifel an Alexander Zverevs Einstellung. Was die Tennis-Legende meint und wie sie Zverevs Chancen bei den French Open einschätzt.",
-        "paragraphs": [
-          "Nach der Enttäuschung im Madrid-Finale äußert Boris Becker Zweifel an Alexander Zverevs Einstellung. Was die Tennis-Legende meint und wie sie Zverevs Chancen bei den French Open einschätzt."
-        ],
-        "link": "https://www.kicker.de/becker-vermisst-zverevs-kampfgeist-fast-veraengstigt-1216484/artikel#omrss",
-        "category": "Tennis",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T08:28:22.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/lautstark-und-konfrontativ-dfb-bittet-essens-vorstandsboss-pfeifer-zur-kasse-1216454/artikel#omrss",
-        "title": "\"Lautstark und konfrontativ\": DFB bittet Essens Vorstandsboss Pfeifer zur Kasse",
-        "summary": "Der Vorstandsvorsitzende von Rot-Weiss Essen, Marc-Nicolai Pfeifer, muss 2000 Euro Strafe bezahlen. Der 45-Jährige hatte das Schiedsrichtergespann in der Halbzeitpause der Partie gegen Saarbrücken beharrlich verbal attackiert.",
-        "paragraphs": [
-          "Der Vorstandsvorsitzende von Rot-Weiss Essen, Marc-Nicolai Pfeifer, muss 2000 Euro Strafe bezahlen. Der 45-Jährige hatte das Schiedsrichtergespann in der Halbzeitpause der Partie gegen Saarbrücken beharrlich verbal attackiert."
-        ],
-        "link": "https://www.kicker.de/lautstark-und-konfrontativ-dfb-bittet-essens-vorstandsboss-pfeifer-zur-kasse-1216454/artikel#omrss",
-        "category": "3. Liga",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T08:02:38.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/volleys-vor-la-decima-hanes-will-spezielle-meisterpremiere-1216461/artikel#omrss",
-        "title": "Volleys vor La Decima: Hanes will spezielle Meisterpremiere",
-        "summary": "Ein Sieg fehlt den BR Volleys noch zur zehnten Meisterschaft in Folge. Topspieler Hanes will dabei ganz Neues auf sich zukommen lassen.",
-        "paragraphs": [
-          "Ein Sieg fehlt den BR Volleys noch zur zehnten Meisterschaft in Folge. Topspieler Hanes will dabei ganz Neues auf sich zukommen lassen."
-        ],
-        "link": "https://www.kicker.de/volleys-vor-la-decima-hanes-will-spezielle-meisterpremiere-1216461/artikel#omrss",
-        "category": "Volleyball",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T07:54:43.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/kein-grund-fuer-einen-umbruch-magic-boss-verteidigt-kader-nach-mosley-aus-1216468/artikel#omrss",
-        "title": "\"Kein Grund für einen Umbruch\": Magic-Boss verteidigt Kader nach Mosley-Aus",
-        "summary": "Die Orlando Magic reagierten auf das bittere Playoff-Aus mit einem Trainerwechsel, nicht aber mit einem Kader-Umbruch. Präsident Jeff Weltman sieht genug Potenzial im Team, vor allem Verletzungen hätten die Serie gegen Detroit entscheidend beeinflusst.",
-        "paragraphs": [
-          "Die Orlando Magic reagierten auf das bittere Playoff-Aus mit einem Trainerwechsel, nicht aber mit einem Kader-Umbruch. Präsident Jeff Weltman sieht genug Potenzial im Team, vor allem Verletzungen hätten die Serie gegen Detroit entscheidend beeinflusst."
-        ],
-        "link": "https://www.kicker.de/kein-grund-fuer-einen-umbruch-magic-boss-verteidigt-kader-nach-mosley-aus-1216468/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T07:51:28.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hitzfeld-kahn-effenberg-exklusiv-so-gelang-der-champions-league-titel-vor-25-jahren-1215309/artikel#omrss",
-        "title": "Hitzfeld, Kahn, Effenberg exklusiv: So gelang der Champions-League-Titel vor 25 Jahren",
-        "summary": "Im neuen Storytelling-Podcast \"Trauma & Triumph - Der FC Bayern und seine Wiederauferstehung\" erzählt der kicker zum 25-jährigen Jubiläum die bewegte Reise des Rekordmeisters zum Champions-League-Sieg 2001 - mit Geschichten, die man so vorher noch nie gehört hat.",
-        "paragraphs": [
-          "Im neuen Storytelling-Podcast \"Trauma & Triumph - Der FC Bayern und seine Wiederauferstehung\" erzählt der kicker zum 25-jährigen Jubiläum die bewegte Reise des Rekordmeisters zum Champions-League-Sieg 2001 - mit Geschichten, die man so vorher noch nie gehört hat."
-        ],
-        "link": "https://www.kicker.de/hitzfeld-kahn-effenberg-exklusiv-so-gelang-der-champions-league-titel-vor-25-jahren-1215309/artikel#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T07:49:19.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/mit-sofortiger-wirkung-oberligist-fc-pesch-meldet-erste-mannschaft-ab-1216462/artikel#omrss",
-        "title": "Mit sofortiger Wirkung: Oberligist FC Pesch meldet erste Mannschaft ab",
-        "summary": "Sportlich war der Abstieg längst nur noch Formsache. Acht Punkte aus 24 Spielen, Tabellenplatz 16, 26:100 Tore - die Hoffnung auf den Klassenerhalt war schon vor Wochen auf ein Minimum geschrumpft. Am 1. Mai hat der FC Pesch nun auch den sofortigen Rückzug seiner ersten Mannschaft aus der Mittelrheinliga erklärt.",
-        "paragraphs": [
-          "Sportlich war der Abstieg längst nur noch Formsache. Acht Punkte aus 24 Spielen, Tabellenplatz 16, 26:100 Tore - die Hoffnung auf den Klassenerhalt war schon vor Wochen auf ein Minimum geschrumpft. Am 1. Mai hat der FC Pesch nun auch den sofortigen Rückzug seiner ersten Mannschaft aus der Mittelrheinliga erklärt."
-        ],
-        "link": "https://www.kicker.de/mit-sofortiger-wirkung-oberligist-fc-pesch-meldet-erste-mannschaft-ab-1216462/artikel#omrss",
-        "category": "FC Pesch",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T07:45:56.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vier-fragen-die-die-gfl-saison-2026-beantworten-muss-1216470/artikel#omrss",
-        "title": "Vier Fragen, die die GFL-Saison 2026 beantworten muss",
-        "summary": "Der Countdown läuft. Am 9. Mai fliegt das Ei wieder durch die German Football League. Wer schreibt die nächsten Seiten der bald 50 Jahre alten Liga-Geschichte?",
-        "paragraphs": [
-          "Der Countdown läuft. Am 9. Mai fliegt das Ei wieder durch die German Football League. Wer schreibt die nächsten Seiten der bald 50 Jahre alten Liga-Geschichte?"
-        ],
-        "link": "https://www.kicker.de/vier-fragen-die-die-gfl-saison-2026-beantworten-muss-1216470/artikel#omrss",
-        "category": "Football",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T07:39:13.000Z"
-      },
-      {
-        "id": "{urn:uuid:20c6dfd0-768b-4592-9351-bb3b2243eed3}",
-        "title": "Prozess gegen August Wöginger: Es war halt doch mehr als ein Gefallen",
-        "summary": "August Wöginger ist wegen Amtsmissbrauch in erster Instanz verurteilt. Obwohl er als ÖVP-Klubobmann zurücktritt, ist das letzte Wort in der Sache längst nicht gesprochen.",
-        "paragraphs": [
-          "August Wöginger ist wegen Amtsmissbrauch in erster Instanz verurteilt. Obwohl er als ÖVP-Klubobmann zurücktritt, ist das letzte Wort in der Sache längst nicht gesprochen."
-        ],
-        "link": "https://www.zeit.de/politik/ausland/2026-05/prozess-gegen-august-woeginger-amtsmissbrauch-oevp-linz",
-        "category": "Ausland",
-        "source": "ZEIT",
-        "publishedAt": "2026-05-05T07:34:43.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/das-interesse-am-fc-bayern-hat-eine-neue-dimension-erreicht-1216463/artikel#omrss",
-        "title": "\"Das Interesse am FC Bayern hat eine neue Dimension erreicht\"",
-        "summary": "Das Spektakel gegen PSG gibt dem FC Bayern nicht nur vor dem Rückspiel ein gutes Gefühl, sondern auch auf wirtschaftlicher Ebene. Vorstandschef Jan-Christian Dreesen erklärt, was in den vergangenen Tagen passiert ist.",
-        "paragraphs": [
-          "Das Spektakel gegen PSG gibt dem FC Bayern nicht nur vor dem Rückspiel ein gutes Gefühl, sondern auch auf wirtschaftlicher Ebene. Vorstandschef Jan-Christian Dreesen erklärt, was in den vergangenen Tagen passiert ist."
-        ],
-        "link": "https://www.kicker.de/das-interesse-am-fc-bayern-hat-eine-neue-dimension-erreicht-1216463/artikel#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T07:26:57.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/erlangen-haelt-vereinsikone-bissel-paradebeispiel-fuer-eifer-und-ehrgeiz-1216457/artikel#omrss",
-        "title": "Erlangen hält Vereinsikone Bissel: \"Paradebeispiel für Eifer und Ehrgeiz\"",
-        "summary": "Jetzt ist klar, wie es für Christopher Bissel ab Sommer weitergeht. Der Kapitän des HC Erlangen bleibt dem Handball-Bundesligisten erhalten.",
-        "paragraphs": [
-          "Jetzt ist klar, wie es für Christopher Bissel ab Sommer weitergeht. Der Kapitän des HC Erlangen bleibt dem Handball-Bundesligisten erhalten."
-        ],
-        "link": "https://www.kicker.de/erlangen-haelt-vereinsikone-bissel-paradebeispiel-fuer-eifer-und-ehrgeiz-1216457/artikel#omrss",
-        "category": "Bissel",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T07:19:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/hertha-zehlendorf-dem-abstieg-folgt-der-komplette-neuaufbau-1216255/artikel#omrss",
-        "title": "Hertha Zehlendorf: Dem Abstieg folgt der \"komplette Neuaufbau\"",
-        "summary": "Seit dem vergangenen Wochenende steht fest, was sich ohnehin schon seit vielen Monaten angedeutet hatte: Nach zwei Jahren in der Regionalliga Nordost steigt Hertha 03 Zehlendorf wieder in die Oberliga ab - die baldige Rückkehr ist trotz des anstehenden Umbruchs bereits fest eingeplant.",
-        "paragraphs": [
-          "Seit dem vergangenen Wochenende steht fest, was sich ohnehin schon seit vielen Monaten angedeutet hatte: Nach zwei Jahren in der Regionalliga Nordost steigt Hertha 03 Zehlendorf wieder in die Oberliga ab - die baldige Rückkehr ist trotz des anstehenden Umbruchs bereits fest eingeplant."
-        ],
-        "link": "https://www.kicker.de/hertha-zehlendorf-dem-abstieg-folgt-der-komplette-neuaufbau-1216255/artikel#omrss",
-        "category": "Fußball",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T07:18:36.000Z"
       }
     ],
     "edv": [
@@ -739,16 +739,16 @@
         "publishedAt": "2026-05-04T10:50:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Patchday-Kritische-Schadcode-Luecke-bedroht-Android-14-15-und-16-11281884.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Patchday: Kritische Schadcode-Lücke bedroht Android 14, 15 und 16",
-        "summary": "Schadcode kann durch ein fehlerhaftes Debugging-Modul auf Androidgeräte schlüpfen. Nun hat Google die kritische Schwachstelle geschlossen.",
+        "id": "https://www.heise.de/news/Daemon-Tools-Lite-Infizierte-Installer-durch-Supply-Chain-Attacke-11282006.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Daemon Tools Lite: Infizierte Installer durch Supply-Chain-Attacke",
+        "summary": "Offiziell signierte Daemon-Tools-Installer von der Herstellerseite bringen Malware mit. Offenbar durch einen Lieferkettenangriff.",
         "paragraphs": [
-          "Schadcode kann durch ein fehlerhaftes Debugging-Modul auf Androidgeräte schlüpfen. Nun hat Google die kritische Schwachstelle geschlossen."
+          "Offiziell signierte Daemon-Tools-Installer von der Herstellerseite bringen Malware mit. Offenbar durch einen Lieferkettenangriff."
         ],
-        "link": "https://www.heise.de/news/Patchday-Kritische-Schadcode-Luecke-bedroht-Android-14-15-und-16-11281884.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Daemon-Tools-Lite-Infizierte-Installer-durch-Supply-Chain-Attacke-11282006.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T09:27:00.000Z"
+        "publishedAt": "2026-05-05T10:13:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Video-Wir-haben-Lichtschwert-Training-ausprobiert-11277850.html",
@@ -763,16 +763,16 @@
         "publishedAt": "2026-05-03T08:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Datenschutzvorfall-bei-Verlag-Delius-Klasing-11281800.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Datenschutzvorfall bei Verlag Delius Klasing",
-        "summary": "Der Verlag Delius Klasing räumt in einer E-Mail an Kunden einen IT-Vorfall ein. Personenbezogene Kundendaten wurden offengelegt.",
+        "id": "https://www.heise.de/news/Offenbar-Explosion-beim-Test-des-Spruehwassersystems-an-SpaceX-Startrampe-11282100.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Offenbar Explosion beim Test des Sprühwassersystems an SpaceX-Startrampe",
+        "summary": "Kurz vor dem Start des neuen Starship ist es offenbar zu einer Explosion auf der Starbase von SpaceX in Texas gekommen.",
         "paragraphs": [
-          "Der Verlag Delius Klasing räumt in einer E-Mail an Kunden einen IT-Vorfall ein. Personenbezogene Kundendaten wurden offengelegt."
+          "Kurz vor dem Start des neuen Starship ist es offenbar zu einer Explosion auf der Starbase von SpaceX in Texas gekommen."
         ],
-        "link": "https://www.heise.de/news/Datenschutzvorfall-bei-Verlag-Delius-Klasing-11281800.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Offenbar-Explosion-beim-Test-des-Spruehwassersystems-an-SpaceX-Startrampe-11282100.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T09:25:00.000Z"
+        "publishedAt": "2026-05-05T10:01:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Wie-uns-das-Smartphone-in-den-Bann-zieht-c-t-uplink-11278738.html",
@@ -787,16 +787,16 @@
         "publishedAt": "2026-05-02T13:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Sicherheitsupdate-Unbefugte-Zugriffe-auf-MOVEit-Automation-moeglich-11281796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Sicherheitsupdate: Unbefugte Zugriffe auf MOVEit Automation möglich",
-        "summary": "Unter anderem eine kritische Schwachstelle gefährdet die Dateiübertragungssoftware MOVEit Automation.",
+        "id": "https://www.heise.de/news/API-Konferenz-von-heise-Know-how-zu-Konzepten-Sicherheit-und-KI-Schnittstellen-11276363.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: API-Konferenz von heise: Know-how zu Konzepten, Sicherheit und KI-Schnittstellen",
+        "summary": "Die Onlinekonferenz von der iX bietet zwei Tage lang Vorträge zu Design, Testing, Management und Vermarktung von APIs. Zwei Workshops vertiefen das Wissen.",
         "paragraphs": [
-          "Unter anderem eine kritische Schwachstelle gefährdet die Dateiübertragungssoftware MOVEit Automation."
+          "Die Onlinekonferenz von der iX bietet zwei Tage lang Vorträge zu Design, Testing, Management und Vermarktung von APIs. Zwei Workshops vertiefen das Wissen."
         ],
-        "link": "https://www.heise.de/news/Sicherheitsupdate-Unbefugte-Zugriffe-auf-MOVEit-Automation-moeglich-11281796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/API-Konferenz-von-heise-Know-how-zu-Konzepten-Sicherheit-und-KI-Schnittstellen-11276363.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T09:21:00.000Z"
+        "publishedAt": "2026-05-05T10:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Die-beste-Discord-Alternative-TeamSpeak-Server-selbst-hosten-c-t-3003-11278758.html",
@@ -811,16 +811,16 @@
         "publishedAt": "2026-05-01T14:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iOS-26-5-im-Anmarsch-Release-Notes-verfuegbar-11281317.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Beipackzettel da: Das ist neu in iOS 26.5",
-        "summary": "Apple legt in den kommenden Tagen seine nächste iOS-Version vor. Was drin steckt, hat der iPhone-Konzern bereits verraten.",
+        "id": "https://www.heise.de/news/UN-Bericht-Welt-auf-digitalen-Super-GAU-nicht-vorbereitet-11282018.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "UN-Bericht: Welt auf digitalen Super-GAU nicht vorbereitet",
+        "summary": "Die vernetzte Welt hängt von störanfälligen Systemen ab. Wären Regierungen auf einen digitalen Super-GAU vorbereitet? Die UN-Antwort ist beängstigend.",
         "paragraphs": [
-          "Apple legt in den kommenden Tagen seine nächste iOS-Version vor. Was drin steckt, hat der iPhone-Konzern bereits verraten."
+          "Die vernetzte Welt hängt von störanfälligen Systemen ab. Wären Regierungen auf einen digitalen Super-GAU vorbereitet? Die UN-Antwort ist beängstigend."
         ],
-        "link": "https://www.heise.de/news/iOS-26-5-im-Anmarsch-Release-Notes-verfuegbar-11281317.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/UN-Bericht-Welt-auf-digitalen-Super-GAU-nicht-vorbereitet-11282018.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T09:16:00.000Z"
+        "publishedAt": "2026-05-05T09:56:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Als-Festplatten-noch-riesig-waren-Die-Quantum-Bigfoot-wird-30-Jahre-alt-11278133.html",
@@ -835,16 +835,16 @@
         "publishedAt": "2026-05-01T06:45:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Star-Wars-Bastler-baut-C-3PO-Kopf-mit-KI-auf-Raspberry-Pi-11281693.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„Star Wars“: Bastler baut C-3PO-KI-Kopf mit Raspberry Pi",
-        "summary": "So mancher „Star Wars“-Fan würde wohl gerne mal mit dem Protokolldroiden C-3PO sprechen. Der Student Samuel Potozkin hat sich diesen Traum erfüllt.",
+        "id": "https://www.heise.de/news/Digitalminister-Wildberger-KI-als-Chance-fuer-die-Industrie-11282064.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Digitalminister Wildberger: KI als Chance für die Industrie",
+        "summary": "Zum Auftakt des OMR Festival sprach Digitalminister Karsten Wildberger über den Stand der Digitalisierung und die Bedeutung von KI für die deutsche Wirtschaft.",
         "paragraphs": [
-          "So mancher „Star Wars“-Fan würde wohl gerne mal mit dem Protokolldroiden C-3PO sprechen. Der Student Samuel Potozkin hat sich diesen Traum erfüllt."
+          "Zum Auftakt des OMR Festival sprach Digitalminister Karsten Wildberger über den Stand der Digitalisierung und die Bedeutung von KI für die deutsche Wirtschaft."
         ],
-        "link": "https://www.heise.de/news/Star-Wars-Bastler-baut-C-3PO-Kopf-mit-KI-auf-Raspberry-Pi-11281693.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Digitalminister-Wildberger-KI-als-Chance-fuer-die-Industrie-11282064.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T09:09:00.000Z"
+        "publishedAt": "2026-05-05T09:53:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-158-Die-Databroker-Files-11278730.html",
@@ -859,16 +859,16 @@
         "publishedAt": "2026-05-01T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Umdenken-im-Weissen-Haus-Trump-Administration-erwaegt-mehr-KI-Aufsicht-11281804.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Umdenken im Weißen Haus: Trump-Administration erwägt mehr KI-Aufsicht",
-        "summary": "Die Trump-Administration erwägt, eine staatliche Aufsicht über neue KI-Modelle einzuführen. Das wäre eine Kehrtwende gegenüber der bisherigen KI-Politik.",
+        "id": "https://www.heise.de/news/Apple-Chips-Erneut-Berichte-ueber-US-Herstellung-durch-Intel-und-sogar-Samsung-11281768.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Apple-Chips: Erneut Berichte über US-Herstellung durch Intel – und sogar Samsung",
+        "summary": "Schon seit längerem sucht Apple nach Alternativen für den bislang einzigen Fertiger TSMC. Nun waren offenbar erneut Intel und sogar Samsung auf der Shortlist.",
         "paragraphs": [
-          "Die Trump-Administration erwägt, eine staatliche Aufsicht über neue KI-Modelle einzuführen. Das wäre eine Kehrtwende gegenüber der bisherigen KI-Politik."
+          "Schon seit längerem sucht Apple nach Alternativen für den bislang einzigen Fertiger TSMC. Nun waren offenbar erneut Intel und sogar Samsung auf der Shortlist."
         ],
-        "link": "https://www.heise.de/news/Umdenken-im-Weissen-Haus-Trump-Administration-erwaegt-mehr-KI-Aufsicht-11281804.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Apple-Chips-Erneut-Berichte-ueber-US-Herstellung-durch-Intel-und-sogar-Samsung-11281768.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T08:57:00.000Z"
+        "publishedAt": "2026-05-05T09:44:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Blick-ins-Heft-c-t-10-2026-IT-Mythen-11277734.html",
@@ -883,16 +883,16 @@
         "publishedAt": "2026-04-30T08:14:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Ueberraschender-Hinweis-auf-Atmosphaere-bei-transneptunischem-Objekt-2002-XV-11281683.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Überraschender Hinweis auf Atmosphäre bei transneptunischem Objekt 2002 XV₉₃",
-        "summary": "Als ein kleiner Himmelskörper am Rand des Sonnensystems vor einem Stern vorüberglitt, fand ein Astronomenteam unerwartete Hinweise auf eine Atmosphäre.",
+        "id": "https://www.heise.de/news/Patchday-Kritische-Schadcode-Luecke-bedroht-Android-14-15-und-16-11281884.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Patchday: Kritische Schadcode-Lücke bedroht Android 14, 15 und 16",
+        "summary": "Schadcode kann durch ein fehlerhaftes Debugging-Modul auf Androidgeräte schlüpfen. Nun hat Google die kritische Schwachstelle geschlossen.",
         "paragraphs": [
-          "Als ein kleiner Himmelskörper am Rand des Sonnensystems vor einem Stern vorüberglitt, fand ein Astronomenteam unerwartete Hinweise auf eine Atmosphäre."
+          "Schadcode kann durch ein fehlerhaftes Debugging-Modul auf Androidgeräte schlüpfen. Nun hat Google die kritische Schwachstelle geschlossen."
         ],
-        "link": "https://www.heise.de/news/Ueberraschender-Hinweis-auf-Atmosphaere-bei-transneptunischem-Objekt-2002-XV-11281683.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Patchday-Kritische-Schadcode-Luecke-bedroht-Android-14-15-und-16-11281884.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T08:40:00.000Z"
+        "publishedAt": "2026-05-05T09:27:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Samsung-erzielt-hoechsten-Gewinn-in-Unternehmensgeschichte-11277552.html",
@@ -907,67 +907,259 @@
         "publishedAt": "2026-04-30T06:59:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-Mehr-Tempo-beim-Coding-mit-KI-Assistenten-effizient-programmieren-11272741.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: Mehr Tempo beim Coding – mit KI-Assistenten effizient programmieren",
-        "summary": "Erfahren Sie, wie Sie produktiv mit KI-Assistenten programmieren und lernen Sie die Stärken und Schwächen der Tools für den Einsatz in eigenen Projekten kennen.",
+        "id": "https://www.heise.de/news/Datenschutzvorfall-bei-Verlag-Delius-Klasing-11281800.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Datenschutzvorfall bei Verlag Delius Klasing",
+        "summary": "Der Verlag Delius Klasing räumt in einer E-Mail an Kunden einen IT-Vorfall ein. Personenbezogene Kundendaten wurden offengelegt.",
         "paragraphs": [
-          "Erfahren Sie, wie Sie produktiv mit KI-Assistenten programmieren und lernen Sie die Stärken und Schwächen der Tools für den Einsatz in eigenen Projekten kennen."
+          "Der Verlag Delius Klasing räumt in einer E-Mail an Kunden einen IT-Vorfall ein. Personenbezogene Kundendaten wurden offengelegt."
         ],
-        "link": "https://www.heise.de/news/iX-Workshop-Mehr-Tempo-beim-Coding-mit-KI-Assistenten-effizient-programmieren-11272741.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Datenschutzvorfall-bei-Verlag-Delius-Klasing-11281800.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T08:00:00.000Z"
+        "publishedAt": "2026-05-05T09:25:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Frueherer-Nintendo-Chef-berichtet-von-Konflikt-mit-Amazon-11281655.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Früherer Nintendo-Chef berichtet von Konflikt mit Amazon",
-        "summary": "Amazon soll Nintendo gedrängt haben, Konsolen beim Online-Händler billiger anzubieten als anderswo. Er habe das abgelehnt, berichtet ein früherer Nintendo-Chef.",
+        "id": "https://www.heise.de/news/Sicherheitsupdate-Unbefugte-Zugriffe-auf-MOVEit-Automation-moeglich-11281796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Sicherheitspatch: Angreifer können auf MOVEit Automation zugreifen",
+        "summary": "Unter anderem eine kritische Schwachstelle gefährdet die Dateiübertragungssoftware MOVEit Automation.",
         "paragraphs": [
-          "Amazon soll Nintendo gedrängt haben, Konsolen beim Online-Händler billiger anzubieten als anderswo. Er habe das abgelehnt, berichtet ein früherer Nintendo-Chef."
+          "Unter anderem eine kritische Schwachstelle gefährdet die Dateiübertragungssoftware MOVEit Automation."
         ],
-        "link": "https://www.heise.de/news/Frueherer-Nintendo-Chef-berichtet-von-Konflikt-mit-Amazon-11281655.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Sicherheitsupdate-Unbefugte-Zugriffe-auf-MOVEit-Automation-moeglich-11281796.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T07:57:00.000Z"
+        "publishedAt": "2026-05-05T09:21:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Exoplaneten-Ausser-Supererden-unerwartet-wenige-Sub-Neptune-bei-Roten-Zwergen-11280164.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Exoplaneten: Außer Supererden unerwartet wenige Sub-Neptune bei Roten Zwergen",
-        "summary": "Die meisten Sterne in der Milchstraße sind Rote Zwerge. Welche Exoplaneten es dort gibt, war schwierig herauszufinden. Nun gibt es eine unerwartete Entdeckung.",
+        "id": "https://www.heise.de/news/iOS-26-5-im-Anmarsch-Release-Notes-verfuegbar-11281317.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Beipackzettel da: Das ist neu in iOS 26.5",
+        "summary": "Apple legt in den kommenden Tagen seine nächste iOS-Version vor. Was drin steckt, hat der iPhone-Konzern bereits verraten.",
         "paragraphs": [
-          "Die meisten Sterne in der Milchstraße sind Rote Zwerge. Welche Exoplaneten es dort gibt, war schwierig herauszufinden. Nun gibt es eine unerwartete Entdeckung."
+          "Apple legt in den kommenden Tagen seine nächste iOS-Version vor. Was drin steckt, hat der iPhone-Konzern bereits verraten."
         ],
-        "link": "https://www.heise.de/news/Exoplaneten-Ausser-Supererden-unerwartet-wenige-Sub-Neptune-bei-Roten-Zwergen-11280164.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/iOS-26-5-im-Anmarsch-Release-Notes-verfuegbar-11281317.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T07:47:00.000Z"
+        "publishedAt": "2026-05-05T09:16:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Wenn-der-Gast-das-Handy-zueckt-was-sagen-Sterne-Koeche-11281625.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Wenn der Gast das Handy zückt – was sagen Sterne-Köche?",
-        "summary": "Handyverbot beim Dinner? In einem Berliner Sterne-Restaurant sorgt die Foto-Etikette für Unmut bei einem Gast. Was sagt der Rest der kulinarischen Szene?",
+        "id": "https://www.heise.de/news/Star-Wars-Bastler-baut-C-3PO-Kopf-mit-KI-auf-Raspberry-Pi-11281693.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„Star Wars“: Bastler baut C-3PO-KI-Kopf mit Raspberry Pi",
+        "summary": "So mancher „Star Wars“-Fan würde wohl gerne mal mit dem Protokolldroiden C-3PO sprechen. Der Student Samuel Potozkin hat sich diesen Traum erfüllt.",
         "paragraphs": [
-          "Handyverbot beim Dinner? In einem Berliner Sterne-Restaurant sorgt die Foto-Etikette für Unmut bei einem Gast. Was sagt der Rest der kulinarischen Szene?"
+          "So mancher „Star Wars“-Fan würde wohl gerne mal mit dem Protokolldroiden C-3PO sprechen. Der Student Samuel Potozkin hat sich diesen Traum erfüllt."
         ],
-        "link": "https://www.heise.de/news/Wenn-der-Gast-das-Handy-zueckt-was-sagen-Sterne-Koeche-11281625.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Star-Wars-Bastler-baut-C-3PO-Kopf-mit-KI-auf-Raspberry-Pi-11281693.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T07:38:00.000Z"
+        "publishedAt": "2026-05-05T09:09:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Medizinische-Versorgungszentren-Viele-Fachrichtungen-und-eine-IT-Infrastruktur-11280150.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Medizinische Versorgungszentren: Viele Fachrichtungen und eine IT-Infrastruktur",
-        "summary": "Zwischen E-Rezept, elektronischer Patientenakte und Co.: Wie die Telematikinfrastruktur den Arbeitsalltag in einem Medizinischen Versorgungszentrum verändert.",
+        "id": "https://www.heise.de/news/Umdenken-im-Weissen-Haus-Trump-Administration-erwaegt-mehr-KI-Aufsicht-11281804.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Umdenken im Weißen Haus: Trump-Administration erwägt mehr KI-Aufsicht",
+        "summary": "Die Trump-Administration erwägt, eine staatliche Aufsicht über neue KI-Modelle einzuführen. Das wäre eine Kehrtwende gegenüber der bisherigen KI-Politik.",
         "paragraphs": [
-          "Zwischen E-Rezept, elektronischer Patientenakte und Co.: Wie die Telematikinfrastruktur den Arbeitsalltag in einem Medizinischen Versorgungszentrum verändert."
+          "Die Trump-Administration erwägt, eine staatliche Aufsicht über neue KI-Modelle einzuführen. Das wäre eine Kehrtwende gegenüber der bisherigen KI-Politik."
         ],
-        "link": "https://www.heise.de/hintergrund/Medizinische-Versorgungszentren-Viele-Fachrichtungen-und-eine-IT-Infrastruktur-11280150.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Umdenken-im-Weissen-Haus-Trump-Administration-erwaegt-mehr-KI-Aufsicht-11281804.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T07:08:00.000Z"
+        "publishedAt": "2026-05-05T08:57:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/wm-2026-warum-in-indien-und-china-ein-tv-blackout-zur-wm-drohen-koennte-1/100222234.html",
+        "title": "WM 2026: Warum in Indien und China ein TV-Blackout droht",
+        "summary": "In den bevölkerungsreichen Ländern gibt es noch keine Einigung über die Übertragungsrechte der Fußballspiele. Die Zeit für den Verkauf von Werbeplätzen wird knapp. Dafür gibt es Gründe.",
+        "paragraphs": [
+          "In den bevölkerungsreichen Ländern gibt es noch keine Einigung über die Übertragungsrechte der Fußballspiele. Die Zeit für den Verkauf von Werbeplätzen wird knapp. Dafür gibt es Gründe."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/wm-2026-warum-in-indien-und-china-ein-tv-blackout-zur-wm-drohen-koennte-1/100222234.html",
+        "category": "Dienstleister",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T10:27:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/tesla-fsd-eu-behoerden-zweifeln-am-selbstfahrenden-assistenten/100222493.html",
+        "title": "FSD: EU-Behörden zweifeln am selbstfahrenden System von Tesla",
+        "summary": "Nachdem die niederländischen Behörden zugestimmt haben, will Tesla seinen Fahrassistenten FSD nun auch europaweit anbieten. Doch andere Regulierer äußern deutliche Bedenken.",
+        "paragraphs": [
+          "Nachdem die niederländischen Behörden zugestimmt haben, will Tesla seinen Fahrassistenten FSD nun auch europaweit anbieten. Doch andere Regulierer äußern deutliche Bedenken."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/tesla-fsd-eu-behoerden-zweifeln-am-selbstfahrenden-assistenten/100222493.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T10:22:06.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/video/politik/ukraine-krieg-russland-und-ukraine-planen-feuerpause-noch-in-dieser-woche/100222488.html",
+        "title": "Ukraine-Krieg: Russland und Ukraine planen Feuerpause noch in dieser Woche",
+        "summary": "Beide Seiten im Ukraine-Krieg haben eine Waffenruhe angekündigt, diese aber noch nicht abgestimmt. Moskau plant für den Jahrestag des Sieges über Nazi-Deutschland am 8. und 9. Mai eine Feuerpause, Kiew will damit bereits ab dem 6. Mai beginnen.",
+        "paragraphs": [
+          "Beide Seiten im Ukraine-Krieg haben eine Waffenruhe angekündigt, diese aber noch nicht abgestimmt. Moskau plant für den Jahrestag des Sieges über Nazi-Deutschland am 8. und 9. Mai eine Feuerpause, Kiew will damit bereits ab dem 6. Mai beginnen."
+        ],
+        "link": "https://www.handelsblatt.com/video/politik/ukraine-krieg-russland-und-ukraine-planen-feuerpause-noch-in-dieser-woche/100222488.html",
+        "category": "Politik",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T10:19:55.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/die-welt-in-bildern-blickfang/8906950.html",
+        "title": "Die Welt in Bildern: Blickfang",
+        "summary": "Sie beeindrucken. Sie wühlen auf. Sie faszinieren. Sie erschrecken. Sie dokumentieren den großen Moment. Sie zeigen kleine Wunder. Oder sie erzählen eine Geschichte. Die Welt – ein Blickfang.",
+        "paragraphs": [
+          "Sie beeindrucken. Sie wühlen auf. Sie faszinieren. Sie erschrecken. Sie dokumentieren den großen Moment. Sie zeigen kleine Wunder. Oder sie erzählen eine Geschichte. Die Welt – ein Blickfang."
+        ],
+        "link": "https://www.handelsblatt.com/die-welt-in-bildern-blickfang/8906950.html",
+        "category": "Handelsblatt",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T10:16:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-eu-kommissar-erwartet-schwerste-energiekrise-aller-zeiten/100222487.html",
+        "title": "Iran-Krieg: EU-Kommissar erwartet „schwerste Energiekrise aller Zeiten“",
+        "summary": "Der Konflikt im Nahen Osten hat die Energiepreise in die Höhe getrieben. Der Energiekommissar der Europäischen Union findet deutliche Worte für die aktuelle Situation.",
+        "paragraphs": [
+          "Der Konflikt im Nahen Osten hat die Energiepreise in die Höhe getrieben. Der Energiekommissar der Europäischen Union findet deutliche Worte für die aktuelle Situation."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-eu-kommissar-erwartet-schwerste-energiekrise-aller-zeiten/100222487.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T10:06:47.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/30-milliarden-euro-mehrkosten-eu-kommissar-schwerste-energiekrise-aller-zeiten/100222489.html",
+        "title": "30 Milliarden Euro Mehrkosten: EU-Kommissar: „Schwerste Energiekrise aller Zeiten“",
+        "summary": "Der Konflikt im Nahen Osten hat die Energiepreise in die Höhe getrieben. Der Energie-Kommissar der Europäischen Union findet deutliche Worte für die Situation: „schwerste Energiekrise aller Zeiten“.",
+        "paragraphs": [
+          "Der Konflikt im Nahen Osten hat die Energiepreise in die Höhe getrieben. Der Energie-Kommissar der Europäischen Union findet deutliche Worte für die Situation: „schwerste Energiekrise aller Zeiten“."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/30-milliarden-euro-mehrkosten-eu-kommissar-schwerste-energiekrise-aller-zeiten/100222489.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T10:00:19.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/angebot-fuer-commerzbank-aktien-unicredit-treibt-commerzbank-uebernahme-voran/100222387.html",
+        "title": "Angebot für Commerzbank-Aktien: Unicredit treibt Commerzbank-Übernahme voran",
+        "summary": "Die Unicredit will mehr Kontrolle über die Commerzbank – trotz der Widerstände in Frankfurt und Berlin. Ist eine „feindliche“ Übernahme des Dax-Konzerns noch abzuwenden?",
+        "paragraphs": [
+          "Die Unicredit will mehr Kontrolle über die Commerzbank – trotz der Widerstände in Frankfurt und Berlin. Ist eine „feindliche“ Übernahme des Dax-Konzerns noch abzuwenden?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/angebot-fuer-commerzbank-aktien-unicredit-treibt-commerzbank-uebernahme-voran/100222387.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T10:00:18.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/video/politik/verteidigung-spekulationen-ueber-abzug-von-us-soldaten-aus-der-oberpfalz/100222467.html",
+        "title": "Verteidigung: Spekulationen über Abzug von US-Soldaten aus der Oberpfalz",
+        "summary": "Medienberichten zufolge will die US-Armee Soldaten der sogenannten Stryker-Brigade aus der Oberpfalz abziehen. Das Bundesverteidigungsministerium erklärte: „Die Spekulationen zu einem Abzug aus Vilseck können wir aktuell nicht bestätigen.“",
+        "paragraphs": [
+          "Medienberichten zufolge will die US-Armee Soldaten der sogenannten Stryker-Brigade aus der Oberpfalz abziehen. Das Bundesverteidigungsministerium erklärte: „Die Spekulationen zu einem Abzug aus Vilseck können wir aktuell nicht bestätigen.“"
+        ],
+        "link": "https://www.handelsblatt.com/video/politik/verteidigung-spekulationen-ueber-abzug-von-us-soldaten-aus-der-oberpfalz/100222467.html",
+        "category": "Politik",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T10:00:16.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/kleinwagen-das-sind-die-wichtigsten-polo-konkurrenten/100222482.html",
+        "title": "Kleinwagen: Das sind die wichtigsten Polo-Konkurrenten",
+        "summary": "Mit dem ID.Polo will VW im elektrischen Kleinwagensegment durchstarten. Doch die Konkurrenz ist stark. Fünf Modelle, die den neuen Volkswagen herausfordern.",
+        "paragraphs": [
+          "Mit dem ID.Polo will VW im elektrischen Kleinwagensegment durchstarten. Doch die Konkurrenz ist stark. Fünf Modelle, die den neuen Volkswagen herausfordern."
+        ],
+        "link": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/kleinwagen-das-sind-die-wichtigsten-polo-konkurrenten/100222482.html",
+        "category": "Elektromobilität",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T09:58:15.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-steigt-wieder-ueber-24.000-punkte-oelpreis-im-fokus/100222392.html",
+        "title": "Dax aktuell: Dax steigt wieder über 24.000 Punkte – Ölpreis im Fokus",
+        "summary": "Die erneute Eskalation im Irankrieg treibt die Ölpreise, doch die Märkte reagieren nur kurzzeitig. Sind wirklich schon alle Folgen eingepreist?",
+        "paragraphs": [
+          "Die erneute Eskalation im Irankrieg treibt die Ölpreise, doch die Märkte reagieren nur kurzzeitig. Sind wirklich schon alle Folgen eingepreist?"
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-steigt-wieder-ueber-24.000-punkte-oelpreis-im-fokus/100222392.html",
+        "category": "Marktberichte",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T09:56:23.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/transport-und-schifffahrt-revolution-im-hafen-wie-container-die-welt-veraenderten/100222369.html",
+        "title": "Transport und Schifffahrt: Revolution im Hafen - wie Container die Welt veränderten",
+        "summary": "Sie sehen aus wie Bauklötze und passen auf Schiffe, Züge und Lastwagen: Container. Am 5. Mai 1966 kam das erste Vollcontainerschiff in einem deutschen Hafen an - und veränderte vieles.",
+        "paragraphs": [
+          "Sie sehen aus wie Bauklötze und passen auf Schiffe, Züge und Lastwagen: Container. Am 5. Mai 1966 kam das erste Vollcontainerschiff in einem deutschen Hafen an - und veränderte vieles."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/transport-und-schifffahrt-revolution-im-hafen-wie-container-die-welt-veraenderten/100222369.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T09:53:12.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/kuenstliche-intelligenz-nutzung-von-ki-in-unternehmen-sprunghaft-gestiegen/100222483.html",
+        "title": "Künstliche Intelligenz: Nutzung von KI in Unternehmen sprunghaft gestiegen",
+        "summary": "25 Prozent aller Unternehmen in Deutschland haben im vergangenen Jahr auf Künstliche Intelligenz zurückgegriffen. In zwei Jahren hat sich dieser Anteil verfünffacht.",
+        "paragraphs": [
+          "25 Prozent aller Unternehmen in Deutschland haben im vergangenen Jahr auf Künstliche Intelligenz zurückgegriffen. In zwei Jahren hat sich dieser Anteil verfünffacht."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/kuenstliche-intelligenz-nutzung-von-ki-in-unternehmen-sprunghaft-gestiegen/100222483.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T09:51:02.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/us-zoelle-von-der-leyen-ermahnt-usa-nach-trumps-zoll-drohung/30026990.html",
+        "title": "+++ US-Zollpoltik +++: Von der Leyen mahnt USA zur Einhaltung des Zoll-Abkommens nach Trumps Drohung",
+        "summary": "Weber will über US-Zolldeal im EU-Parlament abstimmen lassen +++ SPD fordert Digitalsteuer als Gegenreaktion auf US-Zolldrohung +++ Der Newsblog.",
+        "paragraphs": [
+          "Weber will über US-Zolldeal im EU-Parlament abstimmen lassen +++ SPD fordert Digitalsteuer als Gegenreaktion auf US-Zolldrohung +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/us-zoelle-von-der-leyen-ermahnt-usa-nach-trumps-zoll-drohung/30026990.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T09:50:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/arzneihersteller-pharmabranche-warkens-sparpaket-bedroht-arznei-standort/100222354.html",
+        "title": "Arzneihersteller: Pharmabranche: Warkens Sparpaket bedroht Arznei-Standort",
+        "summary": "Die Pharmaindustrie, die 2025 stark gewachsen war, erwartet ein Ende des Aufwärtstrends. Das liegt nicht nur an Trumps Zöllen. Das Sparpaket von Ministerin Warken sieht die Branche als Standortrisiko.",
+        "paragraphs": [
+          "Die Pharmaindustrie, die 2025 stark gewachsen war, erwartet ein Ende des Aufwärtstrends. Das liegt nicht nur an Trumps Zöllen. Das Sparpaket von Ministerin Warken sieht die Branche als Standortrisiko."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/arzneihersteller-pharmabranche-warkens-sparpaket-bedroht-arznei-standort/100222354.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T09:44:25.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/meinung/kommentare/kommentar-strommarkt-am-limit-warum-reiches-plaene-richtig-sind/100222394.html",
+        "title": "Kommentar: Strommarkt am Limit – warum Reiches Pläne richtig sind",
+        "summary": "Die Vergütung für die Betreiber von Photovoltaik-Anlagen bringt Netzbetreiber an ihre Grenzen und kostet Steuerzahler Milliarden. Es ist richtig, dass die Wirtschaftsministerin gegensteuert.",
+        "paragraphs": [
+          "Die Vergütung für die Betreiber von Photovoltaik-Anlagen bringt Netzbetreiber an ihre Grenzen und kostet Steuerzahler Milliarden. Es ist richtig, dass die Wirtschaftsministerin gegensteuert."
+        ],
+        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-strommarkt-am-limit-warum-reiches-plaene-richtig-sind/100222394.html",
+        "category": "Kommentare",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T09:43:42.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/eu-us-zollabkommen-von-der-leyen-zu-trumps-zoll-drohung-abkommen-ist-abkommen/100222480.html",
+        "title": "EU-US-Zollabkommen: Von der Leyen zu Trumps Zoll-Drohung: Abkommen ist Abkommen",
+        "summary": "US-Präsident Donald Trump droht Brüssel erneut mit Zollerhöhungen - die vor allem Deutschland treffen würden. Die EU-Kommissionspräsidentin findet klare Worte.",
+        "paragraphs": [
+          "US-Präsident Donald Trump droht Brüssel erneut mit Zollerhöhungen - die vor allem Deutschland treffen würden. Die EU-Kommissionspräsidentin findet klare Worte."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/eu-us-zollabkommen-von-der-leyen-zu-trumps-zoll-drohung-abkommen-ist-abkommen/100222480.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-05T09:38:28.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/technik/forschung-innovation/spekulatives-design-wie-koennte-sich-die-zukunft-anfuehlen/100217463.html",
         "title": "Interview: Wie sich mit spekulativem Design Zukunft gestalten lässt",
@@ -1015,198 +1207,6 @@
         "category": "Dienstleister",
         "source": "Handelsblatt",
         "publishedAt": "2026-05-05T09:27:08.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/medizin/bloss-nicht-ausdruecken-po-pickel-nach-dem-radfahren-was-hilft/100222471.html",
-        "title": "Bloß nicht ausdrücken!: Po-Pickel nach dem Radfahren - was hilft?",
-        "summary": "Die Radtour war schön, doch sie hat Spuren hinterlassen - in Form von Pickeln am Po? Nichts, wofür man sich schämen muss. Was jetzt hilft und was man bei der nächsten Ausfahrt anders machen kann.",
-        "paragraphs": [
-          "Die Radtour war schön, doch sie hat Spuren hinterlassen - in Form von Pickeln am Po? Nichts, wofür man sich schämen muss. Was jetzt hilft und was man bei der nächsten Ausfahrt anders machen kann."
-        ],
-        "link": "https://www.handelsblatt.com/technik/medizin/bloss-nicht-ausdruecken-po-pickel-nach-dem-radfahren-was-hilft/100222471.html",
-        "category": "Medizin + Gesundheit",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T09:24:23.000Z"
-      },
-      {
-        "id": "1633e13b-5f02-4907-a515-97690badf65b",
-        "title": "Konjunktur: Firmenpleiten in Westeuropa erreichen neue Höchststände",
-        "summary": "Fast 200.000 Unternehmensinsolvenzen wurden 2025 in westeuropäischen Ländern gezählt, ein Achtel davon in Deutschland. Experten befürchten, dass sich der Trend eher verstärkt.",
-        "paragraphs": [
-          "Fast 200.000 Unternehmensinsolvenzen wurden 2025 in westeuropäischen Ländern gezählt, ein Achtel davon in Deutschland. Experten befürchten, dass sich der Trend eher verstärkt."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/konjunktur-firmenpleiten-in-westeuropa-erreichen-neue-hoechststaende-a-1633e13b-5f02-4907-a515-97690badf65b#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-05-05T09:23:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/iran-krieg-australische-zentralbank-hebt-leitzins-zum-dritten-mal-an/100222451.html",
-        "title": "Iran-Krieg: Fast vollständig von Öl-Importen abhängig: Australische Zentralbank muss Leitzins erneut anheben",
-        "summary": "Der Kontinent ist stark von Lieferungen aus Asien abhängig und die hohen Energiepreise treiben die Inflation nach oben. Inzwischen liegen die Zinsen wieder auf Pandemie-Niveau.",
-        "paragraphs": [
-          "Der Kontinent ist stark von Lieferungen aus Asien abhängig und die hohen Energiepreise treiben die Inflation nach oben. Inzwischen liegen die Zinsen wieder auf Pandemie-Niveau."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/iran-krieg-australische-zentralbank-hebt-leitzins-zum-dritten-mal-an/100222451.html",
-        "category": "Geldpolitik",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T09:22:59.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/heizungsgesetz-reform-rueckt-naeher-schwarz-rot-startet-ressortabstimmung/100222436.html",
-        "title": "Bundesregierung: Reform des Heizungsgesetzes rückt näher: Schwarz-Rot startet Ressortabstimmung",
-        "summary": "Nach dem kürzlich geschlossenen Kompromiss stimmen die Ministerien den Entwurf für die Novelle des Heizungsgesetzes ab. Regierungskreise nennen ein Datum für den Kabinettsbeschluss.",
-        "paragraphs": [
-          "Nach dem kürzlich geschlossenen Kompromiss stimmen die Ministerien den Entwurf für die Novelle des Heizungsgesetzes ab. Regierungskreise nennen ein Datum für den Kabinettsbeschluss."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/heizungsgesetz-reform-rueckt-naeher-schwarz-rot-startet-ressortabstimmung/100222436.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T09:22:15.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/angebot-fuer-commerzbank-aktien-unicredit-treibt-commerzbank-uebernahme-voran/100222387.html",
-        "title": "Angebot für Commerzbank-Aktien: Unicredit treibt Commerzbank-Übernahme voran",
-        "summary": "Die Unicredit will mehr Kontrolle über die Commerzbank – trotz der Widerstände in Frankfurt und Berlin. Ist eine „feindliche“ Übernahme des Dax-Konzerns noch abzuwenden?",
-        "paragraphs": [
-          "Die Unicredit will mehr Kontrolle über die Commerzbank – trotz der Widerstände in Frankfurt und Berlin. Ist eine „feindliche“ Übernahme des Dax-Konzerns noch abzuwenden?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/angebot-fuer-commerzbank-aktien-unicredit-treibt-commerzbank-uebernahme-voran/100222387.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T09:18:21.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/antrophic-weisses-haus-erwaegt-offenbar-staatliche-pruefung-von-ki-modellen/100222450.html",
-        "title": "USA: Weißes Haus erwägt offenbar staatliche Prüfung von KI-Modellen – und damit Kurswechsel ihrer Politk",
-        "summary": "Einem Medienbericht zufolge erwägt die US-Regierung, ihren Kurs bei Künstlicher Intelligenz zu ändern. Auslöser ist ein neues KI-Modell, das nicht zum ersten Mal in der Kritik steht.",
-        "paragraphs": [
-          "Einem Medienbericht zufolge erwägt die US-Regierung, ihren Kurs bei Künstlicher Intelligenz zu ändern. Auslöser ist ein neues KI-Modell, das nicht zum ersten Mal in der Kritik steht."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/antrophic-weisses-haus-erwaegt-offenbar-staatliche-pruefung-von-ki-modellen/100222450.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T09:14:15.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/steuern-recht/sonstige-einkuenfte-blutspenden-wann-fuer-die-entschaedigung-steuern-faellig-sind/100222468.html",
-        "title": "Sonstige Einkünfte: Blutspenden: Wann für die Entschädigung Steuern fällig sind",
-        "summary": "Das eigene Blut für andere spenden - dieses Engagement wird teilweise mit einer Aufwandsentschädigung gewürdigt. Die ist normalerweise nicht steuerpflichtig - zumindest bis zu einer bestimmten Höhe.",
-        "paragraphs": [
-          "Das eigene Blut für andere spenden - dieses Engagement wird teilweise mit einer Aufwandsentschädigung gewürdigt. Die ist normalerweise nicht steuerpflichtig - zumindest bis zu einer bestimmten Höhe."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/sonstige-einkuenfte-blutspenden-wann-fuer-die-entschaedigung-steuern-faellig-sind/100222468.html",
-        "category": "Steuern + Recht",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T09:06:49.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/arzneihersteller-pharmabranche-warkens-sparpaket-bedroht-arznei-standort/100222354.html",
-        "title": "Arzneihersteller: Pharmabranche: Warkens Sparpaket bedroht Arznei-Standort",
-        "summary": "Die Pharmaindustrie, die 2025 stark gewachsen war, erwartet ein Ende des Aufwärtstrends. Das liegt nicht nur an Trumps Zöllen. Das Sparpaket von Ministerin Warken sieht die Branche als Standortrisiko.",
-        "paragraphs": [
-          "Die Pharmaindustrie, die 2025 stark gewachsen war, erwartet ein Ende des Aufwärtstrends. Das liegt nicht nur an Trumps Zöllen. Das Sparpaket von Ministerin Warken sieht die Branche als Standortrisiko."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/arzneihersteller-pharmabranche-warkens-sparpaket-bedroht-arznei-standort/100222354.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T09:05:54.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/geldpolitik/frankreich-dieser-macron-vertraute-koennte-chef-der-zentralbank-werden/100220941.html",
-        "title": "Frankreich: Dieser Macron-Vertraute könnte Chef der Zentralbank werden",
-        "summary": "Wegen des vorzeitigen Abtritts von François Villeroy de Galhau muss der französische Präsident die Spitze der Banque de France rasch neu besetzen. Der Favorit ist jedoch umstritten.",
-        "paragraphs": [
-          "Wegen des vorzeitigen Abtritts von François Villeroy de Galhau muss der französische Präsident die Spitze der Banque de France rasch neu besetzen. Der Favorit ist jedoch umstritten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/frankreich-dieser-macron-vertraute-koennte-chef-der-zentralbank-werden/100220941.html",
-        "category": "Geldpolitik",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T08:58:59.000Z"
-      },
-      {
-        "id": "8e1a76a4-9e39-4c9d-b32c-4242b84a7c1c",
-        "title": "Deutsche Bahn: Der ehemalige Ferrari-Chef will Schnellzüge in Deutschland fahren lassen",
-        "summary": "Luca Cordero di Montezemolo hat die Marke Ferrari zurück an die Weltspitze geführt. Künftig will er Schnellzüge durch Deutschland schicken. Wie Kunden profitieren könnten – und was den Start erschwert.",
-        "paragraphs": [
-          "Luca Cordero di Montezemolo hat die Marke Ferrari zurück an die Weltspitze geführt. Künftig will er Schnellzüge durch Deutschland schicken. Wie Kunden profitieren könnten – und was den Start erschwert."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/deutsche-bahn-der-ehemalige-ferrari-chef-will-schnellzuege-in-deutschland-fahren-lassen-a-8e1a76a4-9e39-4c9d-b32c-4242b84a7c1c#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-05-05T08:58:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/sap-konzern-kauft-prior-labs-und-plant-milliardeninvestition-in-ki/100222201.html",
-        "title": "SAP: Konzern kauft Prior Labs und plant Milliarden für KI",
-        "summary": "Mit drei Übernahmen innerhalb weniger Wochen will SAP die technischen Grundlagen für Künstliche Intelligenz schaffen. Ein Start-up aus Freiburg soll künftig eine besondere Rolle spielen.",
-        "paragraphs": [
-          "Mit drei Übernahmen innerhalb weniger Wochen will SAP die technischen Grundlagen für Künstliche Intelligenz schaffen. Ein Start-up aus Freiburg soll künftig eine besondere Rolle spielen."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/sap-konzern-kauft-prior-labs-und-plant-milliardeninvestition-in-ki/100222201.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T08:53:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/broker-ranking-2026-diese-anbieter-haben-derzeit-die-besten-konditionen/100218311.html",
-        "title": "Broker: Trotz PFOF-Verbot: Diese Broker bieten aktuell die besten Konditionen",
-        "summary": "Wertpapierhandel könnte durch ein EU‑Verbot teurer werden – doch viele Broker lassen ihre Konditionen überraschend stabil. Wo Anleger derzeit zu den günstigsten Preisen traden.",
-        "paragraphs": [
-          "Wertpapierhandel könnte durch ein EU‑Verbot teurer werden – doch viele Broker lassen ihre Konditionen überraschend stabil. Wo Anleger derzeit zu den günstigsten Preisen traden."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/broker-ranking-2026-diese-anbieter-haben-derzeit-die-besten-konditionen/100218311.html",
-        "category": "Trends",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T08:52:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/ifo-institut-tankstellen-geben-bei-diesel-nur-vier-cent-steuervorteil-weiter/100222418.html",
-        "title": "Ifo-Institut: Tankstellen geben bei Diesel nur vier Cent Steuervorteil weiter",
-        "summary": "Einer Erhebung des ifo-Instituts zufolge geben Ölkonzerne den ab 1. Mai geltenden Tankrabatt bisher nur teilweise weiter. Für das Bundeskartellamt kommt diese Analyse zu früh.",
-        "paragraphs": [
-          "Einer Erhebung des ifo-Instituts zufolge geben Ölkonzerne den ab 1. Mai geltenden Tankrabatt bisher nur teilweise weiter. Für das Bundeskartellamt kommt diese Analyse zu früh."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/ifo-institut-tankstellen-geben-bei-diesel-nur-vier-cent-steuervorteil-weiter/100222418.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T08:42:10.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-newsblog-schaeffler-profitiert-von-elektrogeschaeft-aktie-steigt/24098412.html",
-        "title": "+++ Geschäftszahlen +++: Schaeffler profitiert von Elektrogeschäft – Aktie steigt",
-        "summary": "Umbaukosten drücken Gewinn von Fresenius Medical Care +++ Hugo Boss erwartet weiteren Gewinneinbruch nach Strategiewechsel +++ Iran-Krieg belastet Fraport +++ Der Newsblog.",
-        "paragraphs": [
-          "Umbaukosten drücken Gewinn von Fresenius Medical Care +++ Hugo Boss erwartet weiteren Gewinneinbruch nach Strategiewechsel +++ Iran-Krieg belastet Fraport +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-newsblog-schaeffler-profitiert-von-elektrogeschaeft-aktie-steigt/24098412.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T08:35:54.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-bas-will-grundsicherung-wohngeld-und-kinderzuschlag-verbinden/100137034.html",
-        "title": "+++ Bundespolitik +++: Bas will Grundsicherung mit Wohngeld und Kinderzuschlag zusammenlegen",
-        "summary": "SPD-Politiker Wiese: „Union ist nicht unser Gegner“ +++ SPD-Politikerin Möller warnt vor unzuverlässigen USA +++ Miersch und Söder wollen Nachbesserungen bei Kassen-Sparpaket +++ Der Newsblog.",
-        "paragraphs": [
-          "SPD-Politiker Wiese: „Union ist nicht unser Gegner“ +++ SPD-Politikerin Möller warnt vor unzuverlässigen USA +++ Miersch und Söder wollen Nachbesserungen bei Kassen-Sparpaket +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-bas-will-grundsicherung-wohngeld-und-kinderzuschlag-verbinden/100137034.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T08:33:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/tief-durchatmen-halt-stopp-fuenf-tipps-gegen-stress-im-arbeitsalltag/100222452.html",
-        "title": "Tief durchatmen: Halt, Stopp! Fünf Tipps gegen Stress im Arbeitsalltag",
-        "summary": "Meetings, ständige Erreichbarkeit, Chaos pur? Mit fünf überraschend einfachen Strategien lässt sich Stress im Büroalltag deutlich besser bändigen.",
-        "paragraphs": [
-          "Meetings, ständige Erreichbarkeit, Chaos pur? Mit fünf überraschend einfachen Strategien lässt sich Stress im Büroalltag deutlich besser bändigen."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/tief-durchatmen-halt-stopp-fuenf-tipps-gegen-stress-im-arbeitsalltag/100222452.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T08:32:53.000Z"
       }
     ]
   }
