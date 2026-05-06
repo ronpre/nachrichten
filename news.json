@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-05-06T07:43:05.748Z",
+  "updatedAt": "2026-05-06T08:39:54.394Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "bd8d0208-768d-49de-a025-19d6c04af22c",
+        "title": "Marktbericht: Zuversicht bei Anlegern lässt DAX steigen",
+        "summary": "Neue Hoffnungen auf Lösungen im Konflikt zwischen den USA und Iran sorgen für kräftige Kursgewinne an den Börsen. Die Euphorie um Künstliche Intelligenz und gute Quartalsbilanzen stützt zusätzlich.",
+        "paragraphs": [
+          "Neue Hoffnungen auf Lösungen im Konflikt zwischen den USA und Iran sorgen für kräftige Kursgewinne an den Börsen. Die Euphorie um Künstliche Intelligenz und gute Quartalsbilanzen stützt zusätzlich."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-138.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-05-06T08:34:39.000Z"
+      },
+      {
+        "id": "7567568d-6edf-4301-a459-4244744b7f33",
+        "title": "Quartalsbilanz: Maschinenbau steckt in Strukturkrise fest",
+        "summary": "Firmen bauen weiter Jobs ab und verlagern sie ins Ausland. Auch der Maschinenbau ist betroffen.Trotz positiven ersten Quartals sieht der Branchenverband keine grundsätzliche Besserung. Von Axel John.",
+        "paragraphs": [
+          "Firmen bauen weiter Jobs ab und verlagern sie ins Ausland. Auch der Maschinenbau ist betroffen.Trotz positiven ersten Quartals sieht der Branchenverband keine grundsätzliche Besserung. Von Axel John."
+        ],
+        "link": "https://www.tagesschau.de/wirtschaft/unternehmen/maschinenbau-quartalsbilanz-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-05-06T08:02:59.000Z"
+      },
       {
         "id": "dcaec95b-8057-412f-8412-e3f66df86777",
         "title": "Entwurf für Gebäudemodernisierungsgesetz: Klimaneutralität in Gefahr?",
@@ -39,16 +63,40 @@
         "publishedAt": "2026-05-06T07:08:03.000Z"
       },
       {
-        "id": "bd8d0208-768d-49de-a025-19d6c04af22c",
-        "title": "Marktbericht: Unternehmensbilanzen im Fokus",
-        "summary": "US-Präsident Trump setzt im Iran-Konflikt nun mal wieder auf Diplomatie. An der Börse bestimmen Nachrichten von Unternehmen das Geschehen. Anleger hoffen auf gute Quartalsbilanzen.",
+        "id": "https://www.n-tv.de/wirtschaft/Ruestungsfirma-Hensoldt-floriert-mit-Auftragsboom-id30790386.html",
+        "title": "\"Konkrete Nachfrage\": Rüstungsfirma Hensoldt floriert mit Auftragsboom",
+        "summary": "Die neue deutsche Militärstrategie setzt auf eine starke Verteidigung. Damit gehen erhebliche Investitionen einher. Die Auftragsbücher der Rüstungsfirma Hensoldt sind so voll wie nie.",
         "paragraphs": [
-          "US-Präsident Trump setzt im Iran-Konflikt nun mal wieder auf Diplomatie. An der Börse bestimmen Nachrichten von Unternehmen das Geschehen. Anleger hoffen auf gute Quartalsbilanzen."
+          "Die neue deutsche Militärstrategie setzt auf eine starke Verteidigung. Damit gehen erhebliche Investitionen einher. Die Auftragsbücher der Rüstungsfirma Hensoldt sind so voll wie nie."
         ],
-        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-138.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-05-06T06:24:42.000Z"
+        "link": "https://www.n-tv.de/wirtschaft/Ruestungsfirma-Hensoldt-floriert-mit-Auftragsboom-id30790386.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-05-06T06:20:23.000Z"
+      },
+      {
+        "id": "https://www.n-tv.de/wirtschaft/Curevac-Gruender-wirft-Biontech-Taeuschung-bei-Uebernahme-vor-id30790287.html",
+        "title": "\"Fast schon Trickserei\": Curevac-Gründer wirft Biontech Täuschung bei Übernahme vor",
+        "summary": "Wenige Monate nach der Übernahme von Curevac kündigt Biontech weitreichende Schließungen an früheren Standorten des einstigen Konkurrenten an. Ein Curevac-Gründer macht der Biontech-Führung nun schwere Vorwürfe.",
+        "paragraphs": [
+          "Wenige Monate nach der Übernahme von Curevac kündigt Biontech weitreichende Schließungen an früheren Standorten des einstigen Konkurrenten an. Ein Curevac-Gründer macht der Biontech-Führung nun schwere Vorwürfe."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Curevac-Gruender-wirft-Biontech-Taeuschung-bei-Uebernahme-vor-id30790287.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-05-06T05:28:32.000Z"
+      },
+      {
+        "id": "https://www.n-tv.de/wirtschaft/Gewinn-bei-Daimler-Truck-bricht-um-80-Prozent-ein-id30790455.html",
+        "title": "Nordamerika-Geschäft schwächelt: Gewinn bei Daimler Truck bricht um 80 Prozent ein",
+        "summary": "Analysten hatten es bereits erwartet: Der Nutzfahrzeughersteller Daimler Truck legt extrem schwache Zahlen vor. Das hat verschiedene Gründe.",
+        "paragraphs": [
+          "Analysten hatten es bereits erwartet: Der Nutzfahrzeughersteller Daimler Truck legt extrem schwache Zahlen vor. Das hat verschiedene Gründe."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Gewinn-bei-Daimler-Truck-bricht-um-80-Prozent-ein-id30790455.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-05-06T05:09:52.000Z"
       },
       {
         "id": "46976636-5548-4a4a-a541-c982f7b9caee",
@@ -63,6 +111,30 @@
         "publishedAt": "2026-05-06T04:04:40.000Z"
       },
       {
+        "id": "https://www.n-tv.de/wirtschaft/Gamestop-Chef-will-bei-Ebay-massiv-Stellen-streichen-id30790202.html",
+        "title": "Nach geplanter Übernahme: Gamestop-Chef will bei Ebay massiv Stellen streichen",
+        "summary": "Der Videospiele-Händler Gamestop will das weitaus größere Ebay schlucken. Wie die Übernahme finanziert werden soll, ist unklar. Für die Zeit danach hat der Chef aber schon große Pläne.",
+        "paragraphs": [
+          "Der Videospiele-Händler Gamestop will das weitaus größere Ebay schlucken. Wie die Übernahme finanziert werden soll, ist unklar. Für die Zeit danach hat der Chef aber schon große Pläne."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Gamestop-Chef-will-bei-Ebay-massiv-Stellen-streichen-id30790202.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-05-06T02:22:42.000Z"
+      },
+      {
+        "id": "https://www.n-tv.de/wirtschaft/S-P-und-Nasdaq-schliessen-auf-Rekordhoch-id30790017.html",
+        "title": "Nach überzeugenden Bilanzen: S&P und Nasdaq schließen auf Rekordhoch",
+        "summary": "Nach den Vortagesverlusten schlägt die Wall Street einen rasanten Erholungskurs ein. Wichtigster Treiber sind positiv aufgenommene Quartalszahlen. Der Einsatz des US-Militärs in der Straße von Hormus wirkt sich auf den Ölpreis aus.",
+        "paragraphs": [
+          "Nach den Vortagesverlusten schlägt die Wall Street einen rasanten Erholungskurs ein. Wichtigster Treiber sind positiv aufgenommene Quartalszahlen. Der Einsatz des US-Militärs in der Straße von Hormus wirkt sich auf den Ölpreis aus."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/S-P-und-Nasdaq-schliessen-auf-Rekordhoch-id30790017.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-05-05T21:46:00.000Z"
+      },
+      {
         "id": "8e0d49c7-ab21-4fbb-ab45-6bb8ed84d37c",
         "title": "Namensänderung: Deutsche Post heißt bald DHL",
         "summary": "Vor fast 25 Jahren kaufte die Deutsche Post das US-Unternehmen DHL. Weil seitdem das Auslandsgeschäft immer wichtiger geworden ist, übernimmt der Gelbe Riese nun den Namen. Ganz verschwinden wird die Deutsche Post aber nicht.",
@@ -75,6 +147,30 @@
         "publishedAt": "2026-05-05T16:57:15.000Z"
       },
       {
+        "id": "https://www.n-tv.de/wirtschaft/Was-bedeutet-das-Kuerzel-DHL-id30787094.html",
+        "title": "Deutsche Post wird degradiert: Was bedeutet das Kürzel DHL?",
+        "summary": "Die Post hat im Laufe der Jahrzehnte mehrere Namen getragen - von Bundespost über Deutsche Post World Net bis zu Deutsche Post DHL. Künftig heißt das Unternehmen DHL AG. Die Wandlung zum globalen Logistikkonzern ist nun auch formell sichtbar.",
+        "paragraphs": [
+          "Die Post hat im Laufe der Jahrzehnte mehrere Namen getragen - von Bundespost über Deutsche Post World Net bis zu Deutsche Post DHL. Künftig heißt das Unternehmen DHL AG. Die Wandlung zum globalen Logistikkonzern ist nun auch formell sichtbar."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Was-bedeutet-das-Kuerzel-DHL-id30787094.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-05-05T16:56:57.000Z"
+      },
+      {
+        "id": "https://www.n-tv.de/wirtschaft/Post-nennt-sich-DHL-und-gruendet-neue-Tochter-mit-dem-Namen-Post-id30789487.html",
+        "title": "Konzern nennt Schritt überfällig: Post nennt sich DHL und gründet neue Tochter mit dem Namen Post",
+        "summary": "Längst ist die Deutsche Post ein international agierender Logistikkonzern. Das klassische Briefgeschäft ist eher ein Sorgenkind. Nun schüttelt der Dax-Konzern einen Teil seiner Geschichte ab und nennt sich um. Für sein Deutschland-Geschäft macht er aber eine Ausnahme.",
+        "paragraphs": [
+          "Längst ist die Deutsche Post ein international agierender Logistikkonzern. Das klassische Briefgeschäft ist eher ein Sorgenkind. Nun schüttelt der Dax-Konzern einen Teil seiner Geschichte ab und nennt sich um. Für sein Deutschland-Geschäft macht er aber eine Ausnahme."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Post-nennt-sich-DHL-und-gruendet-neue-Tochter-mit-dem-Namen-Post-id30789487.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-05-05T16:56:36.000Z"
+      },
+      {
         "id": "8510d7d1-b5c5-40f0-b71c-1f2e50bb375d",
         "title": "Marktbericht: DAX erholt sich kräftig",
         "summary": "Während die Lage am Persischen Golf weitgehend unverändert blieb, bestimmten Nachrichten von den Unternehmen das Geschehen. Im Fokus des Interesses standen heute Rheinmetall und die Commerzbank.",
@@ -85,6 +181,18 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-05-05T16:32:27.000Z"
+      },
+      {
+        "id": "https://www.n-tv.de/wirtschaft/Facebook-durchleuchtet-Fotos-nach-minderjaehrigen-Nutzern-mit-KI-id30788690.html",
+        "title": "Unter 13-Jährige werden gesperrt: Facebook durchleuchtet Fotos nach minderjährigen Nutzern mit KI",
+        "summary": "Auf Druck der EU verschärft Meta die Alterskontrolle bei Facebook. Mittels Künstlicher Intelligenz werden künftig Fotos und Videos gesucht, die mutmaßlich von minderjährigen Nutzern stammen. Werden Volljährige zu Unrecht gesperrt, können sie sich wehren.",
+        "paragraphs": [
+          "Auf Druck der EU verschärft Meta die Alterskontrolle bei Facebook. Mittels Künstlicher Intelligenz werden künftig Fotos und Videos gesucht, die mutmaßlich von minderjährigen Nutzern stammen. Werden Volljährige zu Unrecht gesperrt, können sie sich wehren."
+        ],
+        "link": "https://www.n-tv.de/wirtschaft/Facebook-durchleuchtet-Fotos-nach-minderjaehrigen-Nutzern-mit-KI-id30788690.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-05-05T15:20:30.000Z"
       },
       {
         "id": "c052191c-16ac-4494-a4f8-f456cd164180",
@@ -111,67 +219,55 @@
         "publishedAt": "2026-05-05T14:09:47.000Z"
       },
       {
-        "id": "cc101a9f-f4d5-4f8d-b01a-06d3f25ee7b3",
-        "title": "DAX beflügelt: Rheinmetall will deutlich schneller wachsen",
-        "summary": "Rheinmetall blieb im ersten Quartal unter den Erwartungen, verspricht aber eine Aufholjagd im zweiten Quartal. Der Rüstungskonzern kann sich vor Aufträgen kaum retten. Der DAX-Titel ist heute gefragt.",
+        "id": "https://www.n-tv.de/wirtschaft/boerse/Was-der-Jahreschart-lehrt-id30347915.html",
+        "title": "EUR/USD im Chart-Check: Was der Jahreschart lehrt!",
+        "summary": "Im Podcast HSBC Daily Trading analysiert Jörg Scherer, Leiter technische Analyse bei der HSBC wöchentlich neue Themen am Finanzmarkt: In der aktuellen Folge geht es um den Euro/US-Dollar.",
         "paragraphs": [
-          "Rheinmetall blieb im ersten Quartal unter den Erwartungen, verspricht aber eine Aufholjagd im zweiten Quartal. Der Rüstungskonzern kann sich vor Aufträgen kaum retten. Der DAX-Titel ist heute gefragt."
+          "Im Podcast HSBC Daily Trading analysiert Jörg Scherer, Leiter technische Analyse bei der HSBC wöchentlich neue Themen am Finanzmarkt: In der aktuellen Folge geht es um den Euro/US-Dollar."
         ],
-        "link": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-rheinmetall-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-05-05T11:45:53.000Z"
+        "link": "https://www.n-tv.de/wirtschaft/boerse/Was-der-Jahreschart-lehrt-id30347915.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-05-05T13:04:00.000Z"
       },
       {
-        "id": "3ebddccd-a502-4f11-b57b-14c29df99164",
-        "title": "Vereinigte Arabische Emirate ziehen Bilanz der iranischen Angriffe",
-        "summary": "Erneut hat Iran die Vereinigten Arabischen Emirate angegriffen - eine Ölanlage wurde getroffen. Als Reaktion kündigten die VAE an, die eigene Rüstungsindustrie zu stärken. Von Moritz Behrendt.",
+        "id": "https://www.n-tv.de/wirtschaft/Unicredit-verspricht-Milliardeneinsparungen-bei-Coba-Uebernahme-id30787766.html",
+        "title": "Offerte unter Börsen-Wert: Unicredit verspricht Milliardeneinsparungen bei Coba-Übernahme",
+        "summary": "Wie viele Commerzbank-Aktionäre auf das Angebot der Unicredit eingehen, werden die kommenden Wochen zeigen. Die italienische Bank rechnet schon einmal vor, dass sich mit einer Fusion Milliarden einsparen ließen. Selbst die bloße Zusammenarbeit der beiden Banken könne äußerst lukrativ werden.",
         "paragraphs": [
-          "Erneut hat Iran die Vereinigten Arabischen Emirate angegriffen - eine Ölanlage wurde getroffen. Als Reaktion kündigten die VAE an, die eigene Rüstungsindustrie zu stärken. Von Moritz Behrendt."
+          "Wie viele Commerzbank-Aktionäre auf das Angebot der Unicredit eingehen, werden die kommenden Wochen zeigen. Die italienische Bank rechnet schon einmal vor, dass sich mit einer Fusion Milliarden einsparen ließen. Selbst die bloße Zusammenarbeit der beiden Banken könne äußerst lukrativ werden."
         ],
-        "link": "https://www.tagesschau.de/ausland/korrespondenten/vae-iran-reaktion-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-05-05T11:19:07.000Z"
-      },
-      {
-        "id": "0313dd85-0eb3-4811-b428-5e84ad0da177",
-        "title": "Können europäische Banken mit den US-Geldhäusern konkurrieren?",
-        "summary": "Die UniCredit macht der Commerzbank Übernahme-Avancen. Finanzwissenschaftler würden dies mit Blick auf den europäischen Bankenmarkt begrüßen. Doch ist die schiere Größe einer Bank entscheidend - und wenn ja, für wen? Von B. von der Au.",
-        "paragraphs": [
-          "Die UniCredit macht der Commerzbank Übernahme-Avancen. Finanzwissenschaftler würden dies mit Blick auf den europäischen Bankenmarkt begrüßen. Doch ist die schiere Größe einer Bank entscheidend - und wenn ja, für wen? Von B. von der Au."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/finanzen/commerzbank-unicredit-bankenchampion-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-05-05T10:52:48.000Z"
-      },
-      {
-        "id": "8073a8eb-b9dd-4a21-8e5b-752f96e927d5",
-        "title": "UniCredit legt offizielles Angebot für die Commerzbank vor",
-        "summary": "Die UniCredit will ihren Einfluss auf die Commerzbank ausbauen. Die italienische Großbank hat wie angekündigt ihr Kaufangebot für sämtliche Anteile offiziell gemacht. Eine komplette Übernahme wird es aber noch nicht.",
-        "paragraphs": [
-          "Die UniCredit will ihren Einfluss auf die Commerzbank ausbauen. Die italienische Großbank hat wie angekündigt ihr Kaufangebot für sämtliche Anteile offiziell gemacht. Eine komplette Übernahme wird es aber noch nicht."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/unternehmen/unicredit-commerzbank-uebernahme-rekordgewinn-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-05-05T10:52:39.000Z"
-      },
-      {
-        "id": "3fc0caa6-8c19-410b-81a7-13318b5e9e45",
-        "title": "Reiseveranstalter: Keine Nachzahlungen für gebuchte Urlaube",
-        "summary": "Die großen deutschen Reiseveranstalter wollen die Preise für bereits geplante Reisen wegen der gestiegenen Kerosinkosten nicht nachträglich erhöhen. Künftige Buchungen könnten dagegen bald teurer werden.",
-        "paragraphs": [
-          "Die großen deutschen Reiseveranstalter wollen die Preise für bereits geplante Reisen wegen der gestiegenen Kerosinkosten nicht nachträglich erhöhen. Künftige Buchungen könnten dagegen bald teurer werden."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/verbraucher/urlaub-nachzahlungen-kerosinpreise-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-05-05T10:31:22.000Z"
+        "link": "https://www.n-tv.de/wirtschaft/Unicredit-verspricht-Milliardeneinsparungen-bei-Coba-Uebernahme-id30787766.html",
+        "category": "Wirtschaft",
+        "source": "n-tv",
+        "publishedAt": "2026-05-05T12:17:16.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "77061411",
+        "title": "Trump stoppt US-Militäreinsatz in der Straße von Hormus",
+        "summary": "Nach nur einem Tag hat Präsident Trump den US-Militärschutz zur Absicherung der Schifffahrt in der Straße von Hormus unterbrochen. Gibt es nun doch ein Friedensabkommen mit Iran?",
+        "paragraphs": [
+          "Nach nur einem Tag hat Präsident Trump den US-Militärschutz zur Absicherung der Schifffahrt in der Straße von Hormus unterbrochen. Gibt es nun doch ein Friedensabkommen mit Iran?"
+        ],
+        "link": "https://www.dw.com/de/trump-stoppt-us-militäreinsatz-in-der-straße-von-hormus/a-77061411?maca=de-rss-de-top-1016-xml-mrss",
+        "category": "Aktuelles",
+        "source": "DW",
+        "publishedAt": "2026-05-06T08:27:00.000Z"
+      },
+      {
+        "id": "77056294",
+        "title": "Bierland Tschechien: Die junge Generation verliert den Durst",
+        "summary": "Bierweltmeister Tschechien meldet einen Rekordrückgang beim Bierkonsum. Vor allem die junge Generation trinkt weniger. Während Brauereien Alarm schlagen, sehen Gesundheitsexperten das positiv.",
+        "paragraphs": [
+          "Bierweltmeister Tschechien meldet einen Rekordrückgang beim Bierkonsum. Vor allem die junge Generation trinkt weniger. Während Brauereien Alarm schlagen, sehen Gesundheitsexperten das positiv."
+        ],
+        "link": "https://www.dw.com/de/bierland-tschechien-die-junge-generation-verliert-den-durst/a-77056294?maca=de-rss-de-top-1016-xml-mrss",
+        "category": "Welt",
+        "source": "DW",
+        "publishedAt": "2026-05-06T08:00:00.000Z"
+      },
       {
         "id": "li.3479199",
         "title": "Innere Sicherheit: Großrazzia gegen gewaltbereite Rechtsextreme",
@@ -186,12 +282,12 @@
       },
       {
         "id": "77060926",
-        "title": "News kompakt: Kreuzfahrtschiff darf die Kanaren ansteuern",
+        "title": "News kompakt: Hantavirus-Schiff darf die Kanaren ansteuern",
         "summary": "Nach mehreren Hantavirus-Fällen und drei Todesopfern darf die \"Hondius\" einen Hafen auf den Kanaren anlaufen. Die USA setzen den Einsatz in der Straße von Hormus vorläufig aus. Der DW-Nachrichtenüberblick.",
         "paragraphs": [
           "Nach mehreren Hantavirus-Fällen und drei Todesopfern darf die \"Hondius\" einen Hafen auf den Kanaren anlaufen. Die USA setzen den Einsatz in der Straße von Hormus vorläufig aus. Der DW-Nachrichtenüberblick."
         ],
-        "link": "https://www.dw.com/de/news-kompakt-kreuzfahrtschiff-darf-die-kanaren-ansteuern/a-77060926?maca=de-rss-de-top-1016-xml-mrss",
+        "link": "https://www.dw.com/de/news-kompakt-hantavirus-schiff-darf-die-kanaren-ansteuern/a-77060926?maca=de-rss-de-top-1016-xml-mrss",
         "category": "Aktuelles",
         "source": "DW",
         "publishedAt": "2026-05-06T07:00:00.000Z"
@@ -385,33 +481,93 @@
         "category": "Bundesregierung",
         "source": "Sueddeutsche",
         "publishedAt": "2026-05-05T13:26:47.000Z"
-      },
-      {
-        "id": "li.3478679",
-        "title": "Südosteuropa: Rumäniens proeuropäische Regierung gestürzt",
-        "summary": "Nach heftigem Streit um Sparmaßnahmen entzieht das Parlament in Bukarest der regierenden Koalition das Vertrauen. Bei Neuwahlen könnten die Rechtsextremisten siegen.",
-        "paragraphs": [
-          "Nach heftigem Streit um Sparmaßnahmen entzieht das Parlament in Bukarest der regierenden Koalition das Vertrauen. Bei Neuwahlen könnten die Rechtsextremisten siegen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/rumaenien-misstrauensvotum-sozialdemokraten-rechtsextreme-aur-li.3478679",
-        "category": "Rumänien",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-05T13:24:04.000Z"
-      },
-      {
-        "id": "li.3478656",
-        "title": "Iran-Krieg: Warum Trump so tut, als würde der Waffenstillstand halten",
-        "summary": "Der US-Präsident spielt die Kampfhandlungen in der Meerenge von Hormus herunter. Das hat auch mit einer abgelaufenen Frist zu tun: Geht der Krieg weiter, könnte der Kongress mitreden wollen.",
-        "paragraphs": [
-          "Der US-Präsident spielt die Kampfhandlungen in der Meerenge von Hormus herunter. Das hat auch mit einer abgelaufenen Frist zu tun: Geht der Krieg weiter, könnte der Kongress mitreden wollen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/iran-krieg-trump-waffenstillstand-kongress-li.3478656",
-        "category": "USA",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-05T13:22:06.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/nuggets-spieler-mit-wildem-statement-ich-bin-der-leader-dieses-teams-1216834/artikel#omrss",
+        "title": "Nuggets-Spieler mit wildem Statement: \"Ich bin der Leader dieses Teams\"",
+        "summary": "Die Denver Nuggets sind überraschend bereits in der ersten Playoff-Runde ausgeschieden. Nach dem Aus gegen Minnesota übernahm Christian Braun Verantwortung und sorgte mit einer Aussage über seine Rolle im Team für Irritationen.",
+        "paragraphs": [
+          "Die Denver Nuggets sind überraschend bereits in der ersten Playoff-Runde ausgeschieden. Nach dem Aus gegen Minnesota übernahm Christian Braun Verantwortung und sorgte mit einer Aussage über seine Rolle im Team für Irritationen."
+        ],
+        "link": "https://www.kicker.de/nuggets-spieler-mit-wildem-statement-ich-bin-der-leader-dieses-teams-1216834/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T08:30:09.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/schalker-aufsteiger-nach-ibiza-ausflug-zurueck-im-serioes-modus-1216816/artikel#omrss",
+        "title": "Schalker Aufsteiger nach Ibiza-Ausflug zurück im Seriös-Modus",
+        "summary": "Nach dem Aufstiegssieg gegen Düsseldorf sowie dem vorzeitigen Gewinn der Zweitliga-Meisterschaft 2025/26 waren die Schalker spontan nach Ibiza geflogen, ihr dreitägiger Party-Trip endet nun wieder. Spieler und Trainer schalten zurück in den Seriös-Modus: Am Samstag steht das finale Auswärtsspiel an.",
+        "paragraphs": [
+          "Nach dem Aufstiegssieg gegen Düsseldorf sowie dem vorzeitigen Gewinn der Zweitliga-Meisterschaft 2025/26 waren die Schalker spontan nach Ibiza geflogen, ihr dreitägiger Party-Trip endet nun wieder. Spieler und Trainer schalten zurück in den Seriös-Modus: Am Samstag steht das finale Auswärtsspiel an."
+        ],
+        "link": "https://www.kicker.de/schalker-aufsteiger-nach-ibiza-ausflug-zurueck-im-serioes-modus-1216816/artikel#omrss",
+        "category": "2. Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T08:19:36.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/siebert-ueberzeugt-im-halbfinale-doch-wie-magisch-war-gabriels-schultergriff-wirklich-1216806/artikel#omrss",
+        "title": "Siebert überzeugt im Halbfinale - doch wie \"magisch\" war Gabriels Schultergriff wirklich?",
+        "summary": "Die Prüfung eines Champions-League-Halbfinals hat der deutsche Schiedsrichter Daniel Siebert am Dienstagabend bestanden. Wirklich diskutiert wurde im Nachgang nur über die 51. Minute.",
+        "paragraphs": [
+          "Die Prüfung eines Champions-League-Halbfinals hat der deutsche Schiedsrichter Daniel Siebert am Dienstagabend bestanden. Wirklich diskutiert wurde im Nachgang nur über die 51. Minute."
+        ],
+        "link": "https://www.kicker.de/siebert-ueberzeugt-im-halbfinale-doch-wie-magisch-war-gabriels-schultergriff-wirklich-1216806/artikel#omrss",
+        "category": "Arteta",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T08:06:34.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/okc-braucht-seinen-mvp-nicht-einmal-warum-die-lakers-ueberfordert-wirkten-1216803/artikel#omrss",
+        "title": "OKC braucht seinen MVP nicht einmal: Warum die Lakers überfordert wirkten",
+        "summary": "Die Oklahoma City Thunder haben den Los Angeles Lakers in Spiel eins der Western-Conference-Halbfinals deutlich die Grenzen aufgezeigt. Obwohl Shai Gilgeous-Alexander offensiv ungewohnt ruhig blieb, kontrollierte OKC die Partie fast durchgehend. L.A. zerbrach vor allem wieder an eigenen Fehlern.",
+        "paragraphs": [
+          "Die Oklahoma City Thunder haben den Los Angeles Lakers in Spiel eins der Western-Conference-Halbfinals deutlich die Grenzen aufgezeigt. Obwohl Shai Gilgeous-Alexander offensiv ungewohnt ruhig blieb, kontrollierte OKC die Partie fast durchgehend. L.A. zerbrach vor allem wieder an eigenen Fehlern."
+        ],
+        "link": "https://www.kicker.de/okc-braucht-seinen-mvp-nicht-einmal-warum-die-lakers-ueberfordert-wirkten-1216803/artikel#omrss",
+        "category": "Basketball",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T08:02:27.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/ice-tigers-verpflichten-stuermer-nikolaus-heigl-1216820/artikel#omrss",
+        "title": "Ice Tigers verpflichten Stürmer Nikolaus Heigl",
+        "summary": "Die Nürnberg Ice Tigers vermeldeten am Mittwoch die Verpflichtung von Stürmer Nikolaus Heigl, der damit künftig wieder mit seinem Zwillingsbruder Thomas zusammenspielen wird.",
+        "paragraphs": [
+          "Die Nürnberg Ice Tigers vermeldeten am Mittwoch die Verpflichtung von Stürmer Nikolaus Heigl, der damit künftig wieder mit seinem Zwillingsbruder Thomas zusammenspielen wird."
+        ],
+        "link": "https://www.kicker.de/ice-tigers-verpflichten-stuermer-nikolaus-heigl-1216820/artikel#omrss",
+        "category": "DEL",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T07:55:54.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/werder-weiter-warten-auf-weiser-1216818/artikel#omrss",
+        "title": "Werder: Weiter Warten auf Weiser",
+        "summary": "Die Rückkehr von Mitchell Weiser verzögert sich weiter - und auch in Sachen Werder-Zukunft steht das endgültige Signal aus. Erfolgt es noch in diesem Monat?",
+        "paragraphs": [
+          "Die Rückkehr von Mitchell Weiser verzögert sich weiter - und auch in Sachen Werder-Zukunft steht das endgültige Signal aus. Erfolgt es noch in diesem Monat?"
+        ],
+        "link": "https://www.kicker.de/werder-weiter-warten-auf-weiser-1216818/artikel#omrss",
+        "category": "Bundesliga",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T07:53:26.000Z"
+      },
+      {
+        "id": "9222706c-463a-4790-8daa-93e0fcba8048",
+        "title": "Fußball-WM 2026: Fifa-Präsident Gianni Infantino verteidigt hohe Ticketpreise",
+        "summary": "Gianni Infantino hat die teuren Eintrittspreise für die Fußball-WM verteidigt, der Fifa-Präsident nimmt auch Stellung zu Millionenangeboten auf dem Zweitmarkt. Wer so viel ausgebe, um den kümmere er sich persönlich, sagte er.",
+        "paragraphs": [
+          "Gianni Infantino hat die teuren Eintrittspreise für die Fußball-WM verteidigt, der Fifa-Präsident nimmt auch Stellung zu Millionenangeboten auf dem Zweitmarkt. Wer so viel ausgebe, um den kümmere er sich persönlich, sagte er."
+        ],
+        "link": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-fifa-praesident-gianni-infantino-verteidigt-hohe-ticketpreise-a-9222706c-463a-4790-8daa-93e0fcba8048#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-05-06T07:53:00.000Z"
+      },
       {
         "id": "https://www.kicker.de/ich-dachte-nein-nein-bitte-nicht-wie-eine-watschn-den-fc-bayern-wachruettelte-1216811/artikel#omrss",
         "title": "\"Ich dachte: Nein, nein, bitte nicht\": Wie eine Watschn den FC Bayern wachrüttelte",
@@ -423,6 +579,18 @@
         "category": "Bayern München",
         "source": "Kicker",
         "publishedAt": "2026-05-06T07:27:30.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/golla-nach-wilder-anfangsphase-grosse-leistung-ruhig-zu-bleiben-1216799/artikel#omrss",
+        "title": "Golla nach \"wilder Anfangsphase\": \"Große Leistung, ruhig zu bleiben\"",
+        "summary": "Die SG Flensburg-Handewitt steht im Final4 der EHF European League. Besonders die wilde Anfangsphase eines erneut torreichen Spiels gegen die TSV Hannover-Burgdorf hätte gefährlich werden können, meint Kapitän Johannes Golla.",
+        "paragraphs": [
+          "Die SG Flensburg-Handewitt steht im Final4 der EHF European League. Besonders die wilde Anfangsphase eines erneut torreichen Spiels gegen die TSV Hannover-Burgdorf hätte gefährlich werden können, meint Kapitän Johannes Golla."
+        ],
+        "link": "https://www.kicker.de/golla-nach-wilder-anfangsphase-grosse-leistung-ruhig-zu-bleiben-1216799/artikel#omrss",
+        "category": "European League",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T07:17:00.000Z"
       },
       {
         "id": "li.3475994",
@@ -449,13 +617,13 @@
         "publishedAt": "2026-05-06T07:06:17.000Z"
       },
       {
-        "id": "https://www.kicker.de/wenn-koenige-gehen-kommen-koenige-ujiri-erklaert-flagg-zu-dallas-neuem-prinzen-1216802/artikel#omrss",
-        "title": "\"Wenn Könige gehen, kommen Könige\": Ujiri erklärt Flagg zu Dallas’ neuem \"Prinzen\"",
+        "id": "https://www.kicker.de/wenn-koenige-gehen-kommen-koenige-mavs-boss-erklaert-flagg-zu-neuem-prinzen-1216802/artikel#omrss",
+        "title": "\"Wenn Könige gehen, kommen Könige\": Mavs-Boss erklärt Flagg zu neuem \"Prinzen\"",
         "summary": "Mit Masai Ujiri beginnt bei den Dallas Mavericks eine neue Ära. Bei seiner Vorstellung sprach der neue Teampräsident und Alternate Governor offen über den Luka-Doncic-Abgang - und erklärte gleichzeitig Cooper Flagg zur Zukunft der Franchise.",
         "paragraphs": [
           "Mit Masai Ujiri beginnt bei den Dallas Mavericks eine neue Ära. Bei seiner Vorstellung sprach der neue Teampräsident und Alternate Governor offen über den Luka-Doncic-Abgang - und erklärte gleichzeitig Cooper Flagg zur Zukunft der Franchise."
         ],
-        "link": "https://www.kicker.de/wenn-koenige-gehen-kommen-koenige-ujiri-erklaert-flagg-zu-dallas-neuem-prinzen-1216802/artikel#omrss",
+        "link": "https://www.kicker.de/wenn-koenige-gehen-kommen-koenige-mavs-boss-erklaert-flagg-zu-neuem-prinzen-1216802/artikel#omrss",
         "category": "Basketball",
         "source": "Kicker",
         "publishedAt": "2026-05-06T06:45:00.000Z"
@@ -473,28 +641,28 @@
         "publishedAt": "2026-05-06T06:35:02.000Z"
       },
       {
-        "id": "https://www.kicker.de/oedegaard-ein-leben-lang-davon-getraeumt-1216801/video#omrss",
-        "title": "Ödegaard: \"Ein Leben lang davon geträumt\"",
-        "summary": "Nach dem gelungenem CL-Finaleinzug lobte Martin Ödegaard die Mannschaft und die harte Arbeit für diesen Meilenstein.",
+        "id": "https://www.kicker.de/handballgott-nicht-auf-unserer-seite-jicha-hadert-mit-schluss-aktion-1216791/artikel#omrss",
+        "title": "\"Handballgott nicht auf unserer Seite\": Jicha hadert mit Schluss-Aktion",
+        "summary": "Der THW Kiel steht im Final4 um die EHF European League. Trainer Filip Jicha zeigte sich trotz großer Erleichterung verärgert über manche Aktionen.",
         "paragraphs": [
-          "Nach dem gelungenem CL-Finaleinzug lobte Martin Ödegaard die Mannschaft und die harte Arbeit für diesen Meilenstein."
+          "Der THW Kiel steht im Final4 um die EHF European League. Trainer Filip Jicha zeigte sich trotz großer Erleichterung verärgert über manche Aktionen."
         ],
-        "link": "https://www.kicker.de/oedegaard-ein-leben-lang-davon-getraeumt-1216801/video#omrss",
-        "category": "Atletico Madrid",
+        "link": "https://www.kicker.de/handballgott-nicht-auf-unserer-seite-jicha-hadert-mit-schluss-aktion-1216791/artikel#omrss",
+        "category": "European League",
         "source": "Kicker",
-        "publishedAt": "2026-05-06T06:27:22.000Z"
+        "publishedAt": "2026-05-06T06:25:00.000Z"
       },
       {
-        "id": "https://www.kicker.de/erstmals-seit-dem-grinsen-gegen-denver-sga-bleibt-unter-20-punkten-1216796/artikel#omrss",
-        "title": "Erstmals seit dem Grinsen gegen Denver: SGA bleibt unter 20 Punkten",
-        "summary": "Die Los Angeles Lakers hatten im ersten Playoff-Duell mit den Oklahoma City Thunder einen klaren Plan und der hieß MVP Shai Gilgeous-Alexander stoppen. Tatsächlich blieb der Superstar erstmals in dieser Saison unter der 20-Punkte-Marke. Am deutlichen Sieg von Oklahoma City änderte das allerdings nichts.",
+        "id": "https://www.kicker.de/wer-uebertraegt-bayern-muenchen-gegen-paris-st-germain-heute-live-im-tv-stream-1216478/artikel#omrss",
+        "title": "Wer überträgt Bayern München gegen Paris St. Germain heute live im TV & Stream?",
+        "summary": "Im Halbfinale der Champions League treffen Bayern München und Titelverteidiger Paris Saint-Germain aufeinander. Wo die Partie live im TV und Stream übertragen wird, erfährst du hier.",
         "paragraphs": [
-          "Die Los Angeles Lakers hatten im ersten Playoff-Duell mit den Oklahoma City Thunder einen klaren Plan und der hieß MVP Shai Gilgeous-Alexander stoppen. Tatsächlich blieb der Superstar erstmals in dieser Saison unter der 20-Punkte-Marke. Am deutlichen Sieg von Oklahoma City änderte das allerdings nichts."
+          "Im Halbfinale der Champions League treffen Bayern München und Titelverteidiger Paris Saint-Germain aufeinander. Wo die Partie live im TV und Stream übertragen wird, erfährst du hier."
         ],
-        "link": "https://www.kicker.de/erstmals-seit-dem-grinsen-gegen-denver-sga-bleibt-unter-20-punkten-1216796/artikel#omrss",
-        "category": "Basketball",
+        "link": "https://www.kicker.de/wer-uebertraegt-bayern-muenchen-gegen-paris-st-germain-heute-live-im-tv-stream-1216478/artikel#omrss",
+        "category": "Bayern München",
         "source": "Kicker",
-        "publishedAt": "2026-05-06T06:00:01.000Z"
+        "publishedAt": "2026-05-06T06:00:00.000Z"
       },
       {
         "id": "li.3479177",
@@ -545,18 +713,6 @@
         "publishedAt": "2026-05-06T05:23:25.000Z"
       },
       {
-        "id": "https://www.kicker.de/nba-reagiert-auf-brown-aussagen-celtics-star-kassiert-hohe-geldstrafe-1216787/artikel#omrss",
-        "title": "NBA reagiert auf Brown-Aussagen: Celtics-Star kassiert hohe Geldstrafe",
-        "summary": "Nach dem bitteren Erstrunden-Aus gegen die Philadelphia 76ers hat Jaylen Brown mit harter Kritik an den Schiedsrichtern für Wirbel gesorgt. Die NBA reagierte nun und belegte den Celtics-Star mit einer Geldstrafe.",
-        "paragraphs": [
-          "Nach dem bitteren Erstrunden-Aus gegen die Philadelphia 76ers hat Jaylen Brown mit harter Kritik an den Schiedsrichtern für Wirbel gesorgt. Die NBA reagierte nun und belegte den Celtics-Star mit einer Geldstrafe."
-        ],
-        "link": "https://www.kicker.de/nba-reagiert-auf-brown-aussagen-celtics-star-kassiert-hohe-geldstrafe-1216787/artikel#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-05-06T05:11:39.000Z"
-      },
-      {
         "id": "https://www.kicker.de/eichner-nachfolge-rapp-ist-der-top-favorit-1216540/artikel#omrss",
         "title": "Eichner-Nachfolge: Rapp ist der Top-Favorit",
         "summary": "Offiziell ist die Trainersuche beim KSC noch nicht abgeschlossen. Doch ein möglicher Rückkehrer hat aktuell die besten Karten.",
@@ -567,90 +723,6 @@
         "category": "2. Bundesliga",
         "source": "Kicker",
         "publishedAt": "2026-05-06T05:01:06.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/detroit-gegen-cleveland-2026-nba-playoffs-5201420/spielbericht#omrss",
-        "title": "Turnover bestrafen die Cavs: Pistons holen Spiel eins",
-        "summary": "Die Detroit Pistons haben zum Auftakt der Eastern-Conference-Halbfinalserie direkt den Heimvorteil genutzt. Angeführt von Cade Cunningham gewann Detroit Spiel eins bei den Cleveland Cavaliers mit 111:101. Vor allem die aggressive Defense stellte Cleveland vor große Probleme.",
-        "paragraphs": [
-          "Die Detroit Pistons haben zum Auftakt der Eastern-Conference-Halbfinalserie direkt den Heimvorteil genutzt. Angeführt von Cade Cunningham gewann Detroit Spiel eins bei den Cleveland Cavaliers mit 111:101. Vor allem die aggressive Defense stellte Cleveland vor große Probleme."
-        ],
-        "link": "https://www.kicker.de/detroit-gegen-cleveland-2026-nba-playoffs-5201420/spielbericht#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-05-06T04:37:25.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/oklahoma-gegen-la-lakers-2026-nba-playoffs-5201365/spielbericht#omrss",
-        "title": "Thunder-Defense erstickt Lakers: OKC gewinnt Spiel eins klar",
-        "summary": "Die Oklahoma City Thunder sind mit einem deutlichen Sieg in die zweite Runde der NBA-Playoffs gestartet. Der Titelverteidiger setzte sich in Spiel eins der Western-Conference-Halbfinalserie klar mit 108:90 gegen die Los Angeles Lakers durch. Vor allem Chet Holmgren überzeugte bei OKC, während den Lakers ohne den verletzten Luka Doncic offensiv zu wenig einfiel.",
-        "paragraphs": [
-          "Die Oklahoma City Thunder sind mit einem deutlichen Sieg in die zweite Runde der NBA-Playoffs gestartet. Der Titelverteidiger setzte sich in Spiel eins der Western-Conference-Halbfinalserie klar mit 108:90 gegen die Los Angeles Lakers durch. Vor allem Chet Holmgren überzeugte bei OKC, während den Lakers ohne den verletzten Luka Doncic offensiv zu wenig einfiel."
-        ],
-        "link": "https://www.kicker.de/oklahoma-gegen-la-lakers-2026-nba-playoffs-5201365/spielbericht#omrss",
-        "category": "Basketball",
-        "source": "Kicker",
-        "publishedAt": "2026-05-06T04:23:48.000Z"
-      },
-      {
-        "id": "{urn:uuid:d26b2ae2-4f34-42d2-a631-fcfc694a0990}",
-        "title": "Fußball-WM: Hoteliers in den USA beklagen fehlende Reservierungen zur WM",
-        "summary": "In zwölf Städten in den USA finden die Spiele der Fußball-WM statt. Die Hotelbetreiber dort schlagen nun Alarm, weil Buchungen ausbleiben – und kritisieren die Fifa.",
-        "paragraphs": [
-          "In zwölf Städten in den USA finden die Spiele der Fußball-WM statt. Die Hotelbetreiber dort schlagen nun Alarm, weil Buchungen ausbleiben – und kritisieren die Fifa."
-        ],
-        "link": "https://www.zeit.de/sport/2026-05/fussball-wm-usa-hotels-weniger-buchungen-gxe",
-        "category": "Sport",
-        "source": "ZEIT",
-        "publishedAt": "2026-05-06T03:55:25.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/simeone-muessen-akzeptieren-wo-wir-stehen-1216778/video#omrss",
-        "title": "Simeone: \"Müssen akzeptieren, wo wir stehen\"",
-        "summary": "Diego Simeone ist sich nach der Champions-League-Halbfinal-Niederlage gegen Arsenal der Ausgangssituation seiner Mannschaft bewusst. Für den Atletico-Coach überwiegt daher Stolz über den gesamten Turnierverlauf.",
-        "paragraphs": [
-          "Diego Simeone ist sich nach der Champions-League-Halbfinal-Niederlage gegen Arsenal der Ausgangssituation seiner Mannschaft bewusst. Für den Atletico-Coach überwiegt daher Stolz über den gesamten Turnierverlauf."
-        ],
-        "link": "https://www.kicker.de/simeone-muessen-akzeptieren-wo-wir-stehen-1216778/video#omrss",
-        "category": "Atletico Madrid",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T22:59:21.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/beastmode-und-sakas-riecher-arsenal-zwischen-freudentaumel-und-zuversicht-1216773/artikel#omrss",
-        "title": "\"Beastmode\" und Sakas Riecher: Arsenal zwischen Freudentaumel und Zuversicht",
-        "summary": "Nach 20 Jahren Absenz steht der FC Arsenal wieder im Finale der Champions League. Die Gunners machten das mit einem 1:0 gegen Atletico Madrid klar - und warten nun auf Bayern oder PSG.",
-        "paragraphs": [
-          "Nach 20 Jahren Absenz steht der FC Arsenal wieder im Finale der Champions League. Die Gunners machten das mit einem 1:0 gegen Atletico Madrid klar - und warten nun auf Bayern oder PSG."
-        ],
-        "link": "https://www.kicker.de/beastmode-und-sakas-riecher-arsenal-zwischen-freudentaumel-und-zuversicht-1216773/artikel#omrss",
-        "category": "Atletico Madrid",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T22:10:37.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/arteta-am-ende-war-es-mein-bauchgefuehl-1216774/video#omrss",
-        "title": "Arteta: \"Am Ende war es mein Bauchgefühl\"",
-        "summary": "Mikel Arteta ist hochzufrieden nach dem Einzug ins Champions-League-Finale. Der Arsenal-Coach lobte die Atmosphäre im Stadion und verwies mit Blick auf die Aufstellung auf sein Bauchgefühl.",
-        "paragraphs": [
-          "Mikel Arteta ist hochzufrieden nach dem Einzug ins Champions-League-Finale. Der Arsenal-Coach lobte die Atmosphäre im Stadion und verwies mit Blick auf die Aufstellung auf sein Bauchgefühl."
-        ],
-        "link": "https://www.kicker.de/arteta-am-ende-war-es-mein-bauchgefuehl-1216774/video#omrss",
-        "category": "Arteta",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T22:09:23.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/lehmann-fliegt-messi-fehlt-als-arsenal-letztmals-im-finale-stand-1216771/artikel#omrss",
-        "title": "Lehmann fliegt, Messi fehlt: Als Arsenal letztmals im Finale stand",
-        "summary": "Der FC Arsenal ist zurück im Endspiel der Champions League - und das genau 20 Jahre nach der bislang einzigen Finalteilnahme. Die Erinnerungen an damals beinhalten aber Negatives, wenngleich die Wenger-Gunners damals trotz früher Unterzahl sogar in Führung gegangen waren.",
-        "paragraphs": [
-          "Der FC Arsenal ist zurück im Endspiel der Champions League - und das genau 20 Jahre nach der bislang einzigen Finalteilnahme. Die Erinnerungen an damals beinhalten aber Negatives, wenngleich die Wenger-Gunners damals trotz früher Unterzahl sogar in Führung gegangen waren."
-        ],
-        "link": "https://www.kicker.de/lehmann-fliegt-messi-fehlt-als-arsenal-letztmals-im-finale-stand-1216771/artikel#omrss",
-        "category": "Champions League",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T21:55:00.000Z"
       }
     ],
     "edv": [
@@ -667,16 +739,16 @@
         "publishedAt": "2026-05-06T07:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/FSFE-warnt-NHS-sollte-quelloffenen-Code-nicht-depublizieren-11283406.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "FSFE warnt: NHS sollte quelloffenen Code nicht depublizieren",
-        "summary": "Die Free Software Foundation Europe warnt vor dem Umstellen der NHS-Code-Repositories auf Privat aus Angst vor KI-Schwachstellensuche.",
+        "id": "https://www.heise.de/news/Verschobene-Siri-Apple-will-250-Millionen-US-Dollar-an-Klaeger-zahlen-11283642.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Verschobene Siri: Apple will 250 Millionen US-Dollar an Kläger zahlen",
+        "summary": "Apples bereits im Sommer 2024 angekündigte verbesserte Sprachassistentin ist immer noch nicht umgesetzt. In einem US-Klageverfahren gibt es nun eine Einigung.",
         "paragraphs": [
-          "Die Free Software Foundation Europe warnt vor dem Umstellen der NHS-Code-Repositories auf Privat aus Angst vor KI-Schwachstellensuche."
+          "Apples bereits im Sommer 2024 angekündigte verbesserte Sprachassistentin ist immer noch nicht umgesetzt. In einem US-Klageverfahren gibt es nun eine Einigung."
         ],
-        "link": "https://www.heise.de/news/FSFE-warnt-NHS-sollte-quelloffenen-Code-nicht-depublizieren-11283406.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Verschobene-Siri-Apple-will-250-Millionen-US-Dollar-an-Klaeger-zahlen-11283642.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T07:31:00.000Z"
+        "publishedAt": "2026-05-06T08:17:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Passwort-Bonusfolge-56a-Hilfreiche-ISPs-und-wenig-hilfreiche-Response-Center-11267897.html",
@@ -691,16 +763,16 @@
         "publishedAt": "2026-05-06T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/OMR26-Scott-Galloway-warnt-vor-dem-Platzen-der-KI-Blase-11283462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "OMR26: Scott Galloway warnt vor dem Platzen der KI-Blase",
-        "summary": "Der bekannte Marketingprofessor präsentierte auf der Digitalkonferenz in Hamburg seine Vorhersagen für 2026. Den KI-Champions prophezeit er schwere Zeiten.",
+        "id": "https://www.heise.de/news/Google-Chrome-fuer-Android-Ungefaehren-Standort-teilen-statt-praeziser-Daten-11283630.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Google Chrome für Android: Ungefähren Standort teilen statt präziser Daten",
+        "summary": "Google verpasst Chrome für Android eine neue Funktion, mit der Nutzer Webseiten auf Wunsch nur noch ihren ungefähren Standort mitteilen können.",
         "paragraphs": [
-          "Der bekannte Marketingprofessor präsentierte auf der Digitalkonferenz in Hamburg seine Vorhersagen für 2026. Den KI-Champions prophezeit er schwere Zeiten."
+          "Google verpasst Chrome für Android eine neue Funktion, mit der Nutzer Webseiten auf Wunsch nur noch ihren ungefähren Standort mitteilen können."
         ],
-        "link": "https://www.heise.de/news/OMR26-Scott-Galloway-warnt-vor-dem-Platzen-der-KI-Blase-11283462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Google-Chrome-fuer-Android-Ungefaehren-Standort-teilen-statt-praeziser-Daten-11283630.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T07:25:00.000Z"
+        "publishedAt": "2026-05-06T08:03:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-Trister-Regenbogenritt-durchs-Universum-11203310.html",
@@ -715,16 +787,16 @@
         "publishedAt": "2026-05-06T06:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Pressure-Cooker-Europols-geheime-Datenverarbeitung-ohne-Aufsicht-11283466.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„Pressure Cooker“: Europols geheime Datenverarbeitung ohne Aufsicht",
-        "summary": "Interne, per Infofreiheit erlangte Warnungen belegen, dass das EU-Polizeiamt lange operative Netzwerke ohne IT-Kontrolle und richtige Protokollierung betrieb.",
+        "id": "https://www.heise.de/news/IT-Summit-2026-heise-Konferenz-zu-Digitaler-Souveraenitaet-11280290.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: IT Summit 2026: heise-Konferenz zu Digitaler Souveränität",
+        "summary": "Der Call for Proposals für den IT Summit 2026 läuft noch knapp zwei Wochen. Auf der heise-Konferenz geht es um Digitale Souveränität.",
         "paragraphs": [
-          "Interne, per Infofreiheit erlangte Warnungen belegen, dass das EU-Polizeiamt lange operative Netzwerke ohne IT-Kontrolle und richtige Protokollierung betrieb."
+          "Der Call for Proposals für den IT Summit 2026 läuft noch knapp zwei Wochen. Auf der heise-Konferenz geht es um Digitale Souveränität."
         ],
-        "link": "https://www.heise.de/news/Pressure-Cooker-Europols-geheime-Datenverarbeitung-ohne-Aufsicht-11283466.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/IT-Summit-2026-heise-Konferenz-zu-Digitaler-Souveraenitaet-11280290.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T07:18:00.000Z"
+        "publishedAt": "2026-05-06T08:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-High-Bandwidth-Memory-fuer-KI-Beschleuniger-11276475.html",
@@ -739,16 +811,16 @@
         "publishedAt": "2026-05-06T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/OpenAI-verbessert-das-ChatGPT-das-fast-alle-nutzen-11283448.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "OpenAI verbessert das ChatGPT, das fast alle nutzen",
-        "summary": "Das neue Standardmodell GPT-5.5 Instant soll laut OpenAI weniger halluzinieren, prägnantere Antworten liefern und stärker persönlichen Kontext einbeziehen.",
+        "id": "https://www.heise.de/news/FSFE-warnt-NHS-sollte-quelloffenen-Code-nicht-depublizieren-11283406.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "FSFE warnt: NHS sollte quelloffenen Code nicht depublizieren",
+        "summary": "Die Free Software Foundation Europe warnt vor dem Umstellen der NHS-Code-Repositories auf Privat aus Angst vor KI-Schwachstellensuche.",
         "paragraphs": [
-          "Das neue Standardmodell GPT-5.5 Instant soll laut OpenAI weniger halluzinieren, prägnantere Antworten liefern und stärker persönlichen Kontext einbeziehen."
+          "Die Free Software Foundation Europe warnt vor dem Umstellen der NHS-Code-Repositories auf Privat aus Angst vor KI-Schwachstellensuche."
         ],
-        "link": "https://www.heise.de/news/OpenAI-verbessert-das-ChatGPT-das-fast-alle-nutzen-11283448.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/FSFE-warnt-NHS-sollte-quelloffenen-Code-nicht-depublizieren-11283406.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T07:10:00.000Z"
+        "publishedAt": "2026-05-06T07:31:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/DNS-Probleme-de-Domains-nicht-erreichbar-11283192.html",
@@ -763,16 +835,16 @@
         "publishedAt": "2026-05-05T21:24:00.000Z"
       },
       {
-        "id": "https://www.heise.de/blog/Domain-driven-Design-Beschreibungssprache-ESDM-legt-das-Modell-neben-den-Code-11279687.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Domain-driven Design: Beschreibungssprache ESDM legt das Modell neben den Code",
-        "summary": "Die Event-sourced Domain Modeling Language beschreibt Event-getriebene Domänen als YAML neben dem Code und macht das Modell mit derselben Werkzeugkette prüfbar.",
+        "id": "https://www.heise.de/news/OMR26-Scott-Galloway-warnt-vor-dem-Platzen-der-KI-Blase-11283462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "OMR26: Scott Galloway warnt vor dem Platzen der KI-Blase",
+        "summary": "Der bekannte Marketingprofessor präsentierte auf der Digitalkonferenz in Hamburg seine Vorhersagen für 2026. Den KI-Champions prophezeit er schwere Zeiten.",
         "paragraphs": [
-          "Die Event-sourced Domain Modeling Language beschreibt Event-getriebene Domänen als YAML neben dem Code und macht das Modell mit derselben Werkzeugkette prüfbar."
+          "Der bekannte Marketingprofessor präsentierte auf der Digitalkonferenz in Hamburg seine Vorhersagen für 2026. Den KI-Champions prophezeit er schwere Zeiten."
         ],
-        "link": "https://www.heise.de/blog/Domain-driven-Design-Beschreibungssprache-ESDM-legt-das-Modell-neben-den-Code-11279687.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/OMR26-Scott-Galloway-warnt-vor-dem-Platzen-der-KI-Blase-11283462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T07:07:00.000Z"
+        "publishedAt": "2026-05-06T07:25:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Bosch-E-Bikes-Upgrade-auf-120-Nm-fuer-Performance-Line-CX-und-Cargo-Line-11280306.html",
@@ -787,16 +859,16 @@
         "publishedAt": "2026-05-04T10:50:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Google-Pixel-Mai-Update-behebt-zahlreiche-Fehler-11283422.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Google veröffentlicht Mai-Update für Pixel-Smartphones",
-        "summary": "Google hat das Mai-Update für seine Pixel-Geräte veröffentlicht. Es enthält zahlreiche Fixes für bekannte Fehler.",
+        "id": "https://www.heise.de/news/Pressure-Cooker-Europols-geheime-Datenverarbeitung-ohne-Aufsicht-11283466.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„Pressure Cooker“: Europols geheime Datenverarbeitung ohne Aufsicht",
+        "summary": "Interne, per Infofreiheit erlangte Warnungen belegen, dass das EU-Polizeiamt lange operative Netzwerke ohne IT-Kontrolle und richtige Protokollierung betrieb.",
         "paragraphs": [
-          "Google hat das Mai-Update für seine Pixel-Geräte veröffentlicht. Es enthält zahlreiche Fixes für bekannte Fehler."
+          "Interne, per Infofreiheit erlangte Warnungen belegen, dass das EU-Polizeiamt lange operative Netzwerke ohne IT-Kontrolle und richtige Protokollierung betrieb."
         ],
-        "link": "https://www.heise.de/news/Google-Pixel-Mai-Update-behebt-zahlreiche-Fehler-11283422.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Pressure-Cooker-Europols-geheime-Datenverarbeitung-ohne-Aufsicht-11283466.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T07:05:00.000Z"
+        "publishedAt": "2026-05-06T07:18:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Video-Wir-haben-Lichtschwert-Training-ausprobiert-11277850.html",
@@ -811,16 +883,16 @@
         "publishedAt": "2026-05-03T08:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Passwort-Bonusfolge-56a-Hilfreiche-ISPs-und-wenig-hilfreiche-Response-Center-11267897.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "„Passwort“ Bonusfolge 56a: Hilfreiche ISPs und wenig hilfreiche Response-Center",
-        "summary": "Der Podcast schiebt eine Bonusfolge ein, um von einer interessanten Android-Malware und von wortwörtlich dramatischen Windows-Exploits zu erzählen.",
+        "id": "https://www.heise.de/news/OpenAI-verbessert-das-ChatGPT-das-fast-alle-nutzen-11283448.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "OpenAI verbessert das ChatGPT, das fast alle nutzen",
+        "summary": "Das neue Standardmodell GPT-5.5 Instant soll laut OpenAI weniger halluzinieren, prägnantere Antworten liefern und stärker persönlichen Kontext einbeziehen.",
         "paragraphs": [
-          "Der Podcast schiebt eine Bonusfolge ein, um von einer interessanten Android-Malware und von wortwörtlich dramatischen Windows-Exploits zu erzählen."
+          "Das neue Standardmodell GPT-5.5 Instant soll laut OpenAI weniger halluzinieren, prägnantere Antworten liefern und stärker persönlichen Kontext einbeziehen."
         ],
-        "link": "https://www.heise.de/news/Passwort-Bonusfolge-56a-Hilfreiche-ISPs-und-wenig-hilfreiche-Response-Center-11267897.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/OpenAI-verbessert-das-ChatGPT-das-fast-alle-nutzen-11283448.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T07:00:00.000Z"
+        "publishedAt": "2026-05-06T07:10:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Wie-uns-das-Smartphone-in-den-Bann-zieht-c-t-uplink-11278738.html",
@@ -835,16 +907,16 @@
         "publishedAt": "2026-05-02T13:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Opel-Corsa-GSE-vorgestellt-Eine-letzte-Staerkung-11283372.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Opel Corsa GSE: E-Kleinwagen mit 207 kW und Sperrdifferenzial",
-        "summary": "Der beliebte Kleinwagen bekommt rund ein Jahr vor dem Ende dieser Generation einen E-Motor mit 207 kW. Ein Schnäppchen ist nicht zu erwarten.",
+        "id": "https://www.heise.de/blog/Domain-driven-Design-Beschreibungssprache-ESDM-legt-das-Modell-neben-den-Code-11279687.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Domain-driven Design: Beschreibungssprache ESDM legt das Modell neben den Code",
+        "summary": "Die Event-sourced Domain Modeling Language beschreibt Event-getriebene Domänen als YAML neben dem Code und macht das Modell mit derselben Werkzeugkette prüfbar.",
         "paragraphs": [
-          "Der beliebte Kleinwagen bekommt rund ein Jahr vor dem Ende dieser Generation einen E-Motor mit 207 kW. Ein Schnäppchen ist nicht zu erwarten."
+          "Die Event-sourced Domain Modeling Language beschreibt Event-getriebene Domänen als YAML neben dem Code und macht das Modell mit derselben Werkzeugkette prüfbar."
         ],
-        "link": "https://www.heise.de/news/Opel-Corsa-GSE-vorgestellt-Eine-letzte-Staerkung-11283372.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/blog/Domain-driven-Design-Beschreibungssprache-ESDM-legt-das-Modell-neben-den-Code-11279687.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T06:52:00.000Z"
+        "publishedAt": "2026-05-06T07:07:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Die-beste-Discord-Alternative-TeamSpeak-Server-selbst-hosten-c-t-3003-11278758.html",
@@ -859,43 +931,259 @@
         "publishedAt": "2026-05-01T14:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/eBay-Uebernahme-GameStop-CEO-laesst-Fragen-offen-will-aber-Stellen-kuerzen-11283324.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "eBay-Übernahme: GameStop-CEO lässt Fragen offen, will aber Stellen kürzen",
-        "summary": "Zur geplanten Übernahme von eBay durch GameStop sind zentrale Fragen weiterhin unbeantwortet. Gleichzeitig kündigt Ryan Cohen drastische Stellenkürzungen an.",
+        "id": "https://www.heise.de/news/Google-Pixel-Mai-Update-behebt-zahlreiche-Fehler-11283422.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Google veröffentlicht Mai-Update für Pixel-Smartphones",
+        "summary": "Google hat das Mai-Update für seine Pixel-Geräte veröffentlicht. Es enthält zahlreiche Fixes für bekannte Fehler.",
         "paragraphs": [
-          "Zur geplanten Übernahme von eBay durch GameStop sind zentrale Fragen weiterhin unbeantwortet. Gleichzeitig kündigt Ryan Cohen drastische Stellenkürzungen an."
+          "Google hat das Mai-Update für seine Pixel-Geräte veröffentlicht. Es enthält zahlreiche Fixes für bekannte Fehler."
         ],
-        "link": "https://www.heise.de/news/eBay-Uebernahme-GameStop-CEO-laesst-Fragen-offen-will-aber-Stellen-kuerzen-11283324.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Google-Pixel-Mai-Update-behebt-zahlreiche-Fehler-11283422.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T06:47:00.000Z"
+        "publishedAt": "2026-05-06T07:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/PAN-OS-Luecke-wird-angegriffen-Updates-erst-in-Wochen-geplant-11283352.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "PAN-OS-Lücke wird angegriffen, Updates erst in Wochen geplant",
-        "summary": "Palo Alto Networks warnt vor einer bereits angegriffenen kritischen Sicherheitslücke in PAN-OS. Updates kommen frühestens Mitte Mai.",
+        "id": "https://www.heise.de/news/Passwort-Bonusfolge-56a-Hilfreiche-ISPs-und-wenig-hilfreiche-Response-Center-11267897.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "„Passwort“ Bonusfolge 56a: Hilfreiche ISPs und wenig hilfreiche Response-Center",
+        "summary": "Der Podcast schiebt eine Bonusfolge ein, um von einer interessanten Android-Malware und von wortwörtlich dramatischen Windows-Exploits zu erzählen.",
         "paragraphs": [
-          "Palo Alto Networks warnt vor einer bereits angegriffenen kritischen Sicherheitslücke in PAN-OS. Updates kommen frühestens Mitte Mai."
+          "Der Podcast schiebt eine Bonusfolge ein, um von einer interessanten Android-Malware und von wortwörtlich dramatischen Windows-Exploits zu erzählen."
         ],
-        "link": "https://www.heise.de/news/PAN-OS-Luecke-wird-angegriffen-Updates-erst-in-Wochen-geplant-11283352.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Passwort-Bonusfolge-56a-Hilfreiche-ISPs-und-wenig-hilfreiche-Response-Center-11267897.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T06:27:00.000Z"
+        "publishedAt": "2026-05-06T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Conan-Exiles-Upgrade-auf-Unreal-Engine-5-gibt-es-nur-auf-Steam-11283306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Nicht für Epic oder Microsoft Store: „Conan Exiles“ wird nur auf Steam besser",
-        "summary": "Funcom veröffentlicht ein großes Upgrade für das Survival-Spiel „Conan Exiles“. Wer bei Epic Games oder Microsoft gekauft hat, wird komplett abgeschnitten.",
+        "id": "https://www.heise.de/news/Opel-Corsa-GSE-vorgestellt-Eine-letzte-Staerkung-11283372.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Opel Corsa GSE: E-Kleinwagen mit 207 kW und Sperrdifferenzial",
+        "summary": "Der beliebte Kleinwagen bekommt rund ein Jahr vor dem Ende dieser Generation einen E-Motor mit 207 kW. Ein Schnäppchen ist nicht zu erwarten.",
         "paragraphs": [
-          "Funcom veröffentlicht ein großes Upgrade für das Survival-Spiel „Conan Exiles“. Wer bei Epic Games oder Microsoft gekauft hat, wird komplett abgeschnitten."
+          "Der beliebte Kleinwagen bekommt rund ein Jahr vor dem Ende dieser Generation einen E-Motor mit 207 kW. Ein Schnäppchen ist nicht zu erwarten."
         ],
-        "link": "https://www.heise.de/news/Conan-Exiles-Upgrade-auf-Unreal-Engine-5-gibt-es-nur-auf-Steam-11283306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Opel-Corsa-GSE-vorgestellt-Eine-letzte-Staerkung-11283372.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T06:21:00.000Z"
+        "publishedAt": "2026-05-06T06:52:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/arbeitslose-millionen-menschen-in-stiller-reserve-auf-dem-arbeitsmarkt/100222835.html",
+        "title": "Arbeitslose: Millionen Menschen in „Stiller Reserve“ auf dem Arbeitsmarkt",
+        "summary": "3,2 Millionen Menschen in Deutschland wollen arbeiten, bleiben aber aus unterschiedlichen Gründen ohne Job. Dieses ungenutzte Potential wächst immer weiter.",
+        "paragraphs": [
+          "3,2 Millionen Menschen in Deutschland wollen arbeiten, bleiben aber aus unterschiedlichen Gründen ohne Job. Dieses ungenutzte Potential wächst immer weiter."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/arbeitslose-millionen-menschen-in-stiller-reserve-auf-dem-arbeitsmarkt/100222835.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:36:13.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/korea-konflikt-nordkorea-streicht-wiedervereinigung-aus-verfassung/100222798.html",
+        "title": "Korea-Konflikt: Nordkorea streicht Wiedervereinigung aus Verfassung",
+        "summary": "Erstmals verzichtet Nordkorea in seiner Verfassung auf das Ziel der Einheit mit Südkorea. Experten interpretieren diesen Schritt höchst unterschiedlich.",
+        "paragraphs": [
+          "Erstmals verzichtet Nordkorea in seiner Verfassung auf das Ziel der Einheit mit Südkorea. Experten interpretieren diesen Schritt höchst unterschiedlich."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/korea-konflikt-nordkorea-streicht-wiedervereinigung-aus-verfassung/100222798.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:21:29.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-grossauftraege-ziehen-quartalsbilanz-im-maschinenbau-ins-plus/100222833.html",
+        "title": "Konjunktur: Großaufträge ziehen Quartalsbilanz im Maschinenbau ins Plus",
+        "summary": "Ein starker März wendet die Auftragsbilanz der exportorientierten Unternehmen ins Positive. Der Branchenverband VDMA wertet das als Sondereffekt. Die Herausforderungen bleiben gewaltig.",
+        "paragraphs": [
+          "Ein starker März wendet die Auftragsbilanz der exportorientierten Unternehmen ins Positive. Der Branchenverband VDMA wertet das als Sondereffekt. Die Herausforderungen bleiben gewaltig."
+        ],
+        "link": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-grossauftraege-ziehen-quartalsbilanz-im-maschinenbau-ins-plus/100222833.html",
+        "category": "Konjunktur",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:19:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/regierung-so-baut-karsten-wildberger-deutschland-digital-um/100210108.html",
+        "title": "Regierung: Eine App für alle Ansprüche an den Staat – Wildbergers neues Betriebssystem für Deutschland",
+        "summary": "Ex-Manager Karsten Wildberger ist seit einem Jahr Digitalminister der Bundesrepublik. Mit seinem Behörden-Baukasten will er den digitalen Staat neu denken. Kann ihm das gelingen?",
+        "paragraphs": [
+          "Ex-Manager Karsten Wildberger ist seit einem Jahr Digitalminister der Bundesrepublik. Mit seinem Behörden-Baukasten will er den digitalen Staat neu denken. Kann ihm das gelingen?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/regierung-so-baut-karsten-wildberger-deutschland-digital-um/100210108.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:15:24.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/krankenversicherung-so-hart-trifft-die-gkv-reform-gutverdiener-wirklich/100220930.html",
+        "title": "Krankenversicherung: „Sondersteuer für qualifizierte Fachkräfte“: Wie hart die GKV-Reform Gutverdiener wirklich trifft",
+        "summary": "Eine neue Auswertung zeigt, wie stark Gutverdiener die geplante Krankenkassenreform wirklich trifft. Und wieso sich auch die privaten Versicherer über das Vorhaben der Bundesregierung aufregen.",
+        "paragraphs": [
+          "Eine neue Auswertung zeigt, wie stark Gutverdiener die geplante Krankenkassenreform wirklich trifft. Und wieso sich auch die privaten Versicherer über das Vorhaben der Bundesregierung aufregen."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/krankenversicherung-so-hart-trifft-die-gkv-reform-gutverdiener-wirklich/100220930.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:14:34.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/ranking-2026-das-sind-die-besten-personalberatungsunternehmen/100219016.html",
+        "title": "Ranking 2026: KI verändert die Personalsuche: Das sind die besten Personalberatungsunternehmen",
+        "summary": "Der hohe Bedarf an Führungskräften mit KI-Know-how soll das Geschäft der Personalberater ankurbeln. Eine Studie hat die besten Executive-Search-Anbieter ermittelt.",
+        "paragraphs": [
+          "Der hohe Bedarf an Führungskräften mit KI-Know-how soll das Geschäft der Personalberater ankurbeln. Eine Studie hat die besten Executive-Search-Anbieter ermittelt."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/ranking-2026-das-sind-die-besten-personalberatungsunternehmen/100219016.html",
+        "category": "Unternehmen",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:13:21.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/bundesbank-iran-krieg-bringt-anhaltende-folgen-fuer-konjunkturerholung/100222830.html",
+        "title": "Wirtschaftswachstum: Bundesbank sieht anhaltende Folgen für Konjunkturerholung im Iran-Krieg",
+        "summary": "Der Nahost-Krieg belastet die deutsche Wirtschaft stärker und länger als zunächst erwartet. Steigende Energiepreise treiben die Inflation und gefährden die fragile Erholung.",
+        "paragraphs": [
+          "Der Nahost-Krieg belastet die deutsche Wirtschaft stärker und länger als zunächst erwartet. Steigende Energiepreise treiben die Inflation und gefährden die fragile Erholung."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/bundesbank-iran-krieg-bringt-anhaltende-folgen-fuer-konjunkturerholung/100222830.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:10:49.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/forschung-innovation/todesfaelle-bei-kreuzfahrt-hantavirus-kreuzfahrtschiff-darf-kanarische-inseln-anlaufen/100222673.html",
+        "title": "Todesfälle bei Kreuzfahrt: Hantavirus: Kreuzfahrtschiff darf Kanarische Inseln anlaufen",
+        "summary": "Nach mehreren Hantavirus-Fällen und drei Todesopfern darf das Kreuzfahrtschiff „Hondius“ einen Hafen auf den Kanaren anlaufen. Was Spanien und internationale Behörden nun planen.",
+        "paragraphs": [
+          "Nach mehreren Hantavirus-Fällen und drei Todesopfern darf das Kreuzfahrtschiff „Hondius“ einen Hafen auf den Kanaren anlaufen. Was Spanien und internationale Behörden nun planen."
+        ],
+        "link": "https://www.handelsblatt.com/technik/forschung-innovation/todesfaelle-bei-kreuzfahrt-hantavirus-kreuzfahrtschiff-darf-kanarische-inseln-anlaufen/100222673.html",
+        "category": "Forschung + Innovation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:10:05.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-newsblog-schwaches-us-geschaeft-laesst-gewinn-von-daimler-truck-einbrechen/24098412.html",
+        "title": "+++ Geschäftszahlen +++: Schwaches US-Geschäft lässt Gewinn von Daimler Truck einbrechen",
+        "summary": "Renk legt unerwartet starken Auftragseingang hin +++ Rüstungskonzern Leonardo profitiert von Rüstungsboom +++ Hensoldt hat Aufträge über fast 10 Milliarden Euro in den Büchern +++ Der Newsblog.",
+        "paragraphs": [
+          "Renk legt unerwartet starken Auftragseingang hin +++ Rüstungskonzern Leonardo profitiert von Rüstungsboom +++ Hensoldt hat Aufträge über fast 10 Milliarden Euro in den Büchern +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-newsblog-schwaches-us-geschaeft-laesst-gewinn-von-daimler-truck-einbrechen/24098412.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:07:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/pharma-bayer-uebernimmt-spezialisten-fuer-augenheilkunde/100222828.html",
+        "title": "Pharma: Bayer übernimmt Spezialisten für Augenheilkunde",
+        "summary": "Bis zu 2,45 Milliarden US-Dollar potenzielles Volumen hat der Kauf des Augenspezialisten. Bayer erhält mit der Übernahme die vollen Rechte an einem Medikament.",
+        "paragraphs": [
+          "Bis zu 2,45 Milliarden US-Dollar potenzielles Volumen hat der Kauf des Augenspezialisten. Bayer erhält mit der Übernahme die vollen Rechte an einem Medikament."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/pharma-bayer-uebernimmt-spezialisten-fuer-augenheilkunde/100222828.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:05:36.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/uebernahme-koalition-denkt-wohl-ueber-aufstockung-bei-commerzbank-nach/100222819.html",
+        "title": "Übernahme: Koalition denkt wohl über Aufstockung bei Commerzbank nach",
+        "summary": "Laut einem Bericht überlegt der Bund, seinen Anteil zu erhöhen – um eine Übernahme durch Unicredit zu verhindern. Gegenüber dem Handelsblatt dementieren Insider solch einen Schritt.",
+        "paragraphs": [
+          "Laut einem Bericht überlegt der Bund, seinen Anteil zu erhöhen – um eine Übernahme durch Unicredit zu verhindern. Gegenüber dem Handelsblatt dementieren Insider solch einen Schritt."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/uebernahme-koalition-denkt-wohl-ueber-aufstockung-bei-commerzbank-nach/100222819.html",
+        "category": "Banken",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T08:05:21.000Z"
+      },
+      {
+        "id": "b262aa28-fe8e-4a62-8595-cf82c4561ad6",
+        "title": "Benzin kostet in den USA jetzt 50 Prozent mehr als vor dem Irankrieg",
+        "summary": "Der Irankrieg hat auch in den USA die Spritpreise in die Höhe gejagt. Für Präsident Donald Trump sind das schlechte Nachrichten – denn im November stehen Zwischenwahlen an.",
+        "paragraphs": [
+          "Der Irankrieg hat auch in den USA die Spritpreise in die Höhe gejagt. Für Präsident Donald Trump sind das schlechte Nachrichten – denn im November stehen Zwischenwahlen an."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/service/benzin-kostet-in-den-usa-jetzt-50-prozent-mehr-als-vor-dem-irankrieg-a-b262aa28-fe8e-4a62-8595-cf82c4561ad6#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-05-06T08:00:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/dienstleister/mindestlohn-zoll-kontrolliert-bundesweit-paket-branche/100222826.html",
+        "title": "Mindestlohn: Zoll kontrolliert bundesweit Paket-Branche",
+        "summary": "Mehrere Tausend Zollbeamte sind am heutigen Mittwoch unterwegs, um Schwarzarbeit und illegale Beschäftigung in der Paket-Branche aufzudecken. Zusteller verdienen oftmals unter Mindestlohn.",
+        "paragraphs": [
+          "Mehrere Tausend Zollbeamte sind am heutigen Mittwoch unterwegs, um Schwarzarbeit und illegale Beschäftigung in der Paket-Branche aufzudecken. Zusteller verdienen oftmals unter Mindestlohn."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/mindestlohn-zoll-kontrolliert-bundesweit-paket-branche/100222826.html",
+        "category": "Dienstleister",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T07:56:15.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-startet-mit-gewinnsprung-in-den-tag/100222781.html",
+        "title": "Dax aktuell: Dax startet mit Gewinnsprung in den Tag",
+        "summary": "Hoffnungen auf eine baldige Lösung im Irankrieg sorgen bei Anlegerinnen und Anlegern für gute Laune. Dazu tragen auch positive Geschäftszahlen bei.",
+        "paragraphs": [
+          "Hoffnungen auf eine baldige Lösung im Irankrieg sorgen bei Anlegerinnen und Anlegern für gute Laune. Dazu tragen auch positive Geschäftszahlen bei."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-startet-mit-gewinnsprung-in-den-tag/100222781.html",
+        "category": "Marktberichte",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T07:55:47.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/wohnungsbau-faktencheck-wohnen-was-vorankommt-und-wo-es-hakt/100222186.html",
+        "title": "Wohnungsbau: Faktencheck Wohnen – was vorankommt und wo es hakt",
+        "summary": "Bauministerin Hubertz sieht nach einem Jahr im Amt Erfolge. Branchenvertreter prangern dagegen den Wohnungsmangel an, sprechen von „akuter Krise“ – und schreiben einen Brandbrief an Hubertz.",
+        "paragraphs": [
+          "Bauministerin Hubertz sieht nach einem Jahr im Amt Erfolge. Branchenvertreter prangern dagegen den Wohnungsmangel an, sprechen von „akuter Krise“ – und schreiben einen Brandbrief an Hubertz."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/wohnungsbau-faktencheck-wohnen-was-vorankommt-und-wo-es-hakt/100222186.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T07:53:33.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/csi-300-nahost-friedenshoffnungen-und-ki-rally-befluegeln-boersen-in-asien/100222717.html",
+        "title": "CSI 300: Nahost-Friedenshoffnungen und KI-Rally beflügeln Börsen in Asien",
+        "summary": "Asiatische Anlegerinnen und Anleger bauen ihre Positionen weiter aus. Die Indizes gewinnen und erreichen angetrieben von der US-Technologierally teilweise Höchststände.",
+        "paragraphs": [
+          "Asiatische Anlegerinnen und Anleger bauen ihre Positionen weiter aus. Die Indizes gewinnen und erreichen angetrieben von der US-Technologierally teilweise Höchststände."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/csi-300-nahost-friedenshoffnungen-und-ki-rally-befluegeln-boersen-in-asien/100222717.html",
+        "category": "Marktberichte",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T07:48:09.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/ukraine-russland-ignoriert-laut-selenskyj-waffenruhe-vorstoss/27982126.html",
+        "title": "+++ Ukraine-Krieg +++: Russland ignoriert laut Selenskyj Waffenruhe-Vorstoß",
+        "summary": "Zeit von Selenskyjs Waffenruhe hat begonnen +++ Ukraine und Russland melden Tote bei gegenseitigen Angriffen +++ Russische Raffinerie stoppt Betrieb +++ Der Newsblog.",
+        "paragraphs": [
+          "Zeit von Selenskyjs Waffenruhe hat begonnen +++ Ukraine und Russland melden Tote bei gegenseitigen Angriffen +++ Russische Raffinerie stoppt Betrieb +++ Der Newsblog."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-russland-ignoriert-laut-selenskyj-waffenruhe-vorstoss/27982126.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T07:42:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-bilanzen-bescheren-sp-500-und-nasdaq-neue-allzeithochs/100222557.html",
+        "title": "Wall Street: Bilanzen bescheren S&P 500 und Nasdaq neue Allzeithochs",
+        "summary": "Die Lage im Irankrieg bleibt angespannt. Anleger goutierten dennoch starke US-Unternehmensbilanzen. Mit dem Nasdaq und dem S&P 500 stiegen zwei Indizes zeitweise auf ein Rekordhoch.",
+        "paragraphs": [
+          "Die Lage im Irankrieg bleibt angespannt. Anleger goutierten dennoch starke US-Unternehmensbilanzen. Mit dem Nasdaq und dem S&P 500 stiegen zwei Indizes zeitweise auf ein Rekordhoch."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-bilanzen-bescheren-sp-500-und-nasdaq-neue-allzeithochs/100222557.html",
+        "category": "Marktberichte",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T07:41:00.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/technik/it-internet/samsung-boersenwert-von-samsung-ueberschreitet-billionen-dollar-marke/100222823.html",
         "title": "Samsung: Börsenwert von Samsung Electronics überschreitet Billionen-Dollar-Marke",
@@ -919,222 +1207,6 @@
         "category": "International",
         "source": "Handelsblatt",
         "publishedAt": "2026-05-06T07:33:36.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/arbeitszeit-wo-arbeitszeitbetrug-beginnt-und-was-fuehrungskraefte-tun-koennen/100141010.html",
-        "title": "Arbeitszeit: Nur an einem statt an fünf Tagen arbeiten oder in der Pause Aperol trinken – wo beginnt Betrug?",
-        "summary": "Wäsche waschen, einkaufen, Netflix schauen: Immer wieder erledigen Beschäftigte Privates in ihrer Arbeitszeit. Wo der Betrug beginnt und was Unternehmen dagegen machen können.",
-        "paragraphs": [
-          "Wäsche waschen, einkaufen, Netflix schauen: Immer wieder erledigen Beschäftigte Privates in ihrer Arbeitszeit. Wo der Betrug beginnt und was Unternehmen dagegen machen können."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/arbeitszeit-wo-arbeitszeitbetrug-beginnt-und-was-fuehrungskraefte-tun-koennen/100141010.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:32:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/krankmeldungen-wie-unternehmen-rechtlich-gegen-blaumacher-vorgehen-koennen/100180160.html",
-        "title": "Krankmeldung: Wie sich Arbeitgeber gegen Blaumacher wehren können",
-        "summary": "Aus dem Handelsblatt-Archiv: Ein Mitarbeiter meldet sich immer an Brückentagen und montags krank? Diese rechtlichen Möglichkeiten haben Firmen bei Verdacht auf Blaumachen.",
-        "paragraphs": [
-          "Aus dem Handelsblatt-Archiv: Ein Mitarbeiter meldet sich immer an Brückentagen und montags krank? Diese rechtlichen Möglichkeiten haben Firmen bei Verdacht auf Blaumachen."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/krankmeldungen-wie-unternehmen-rechtlich-gegen-blaumacher-vorgehen-koennen/100180160.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:27:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/pilot-gehalt-so-viel-verdienen-lufthansa-piloten-im-jahr-2026/100037203.html",
-        "title": "Pilotengehalt: Das verdienen Lufthansa-Piloten 2026",
-        "summary": "Piloten verdienen in der Lufthansa-Gruppe nirgendwo so gut wie bei der Kernmarke Lufthansa Airlines. Dennoch sind sie unzufrieden. Ist das berechtigt? Der Gehaltscheck zeigt die Details.",
-        "paragraphs": [
-          "Piloten verdienen in der Lufthansa-Gruppe nirgendwo so gut wie bei der Kernmarke Lufthansa Airlines. Dennoch sind sie unzufrieden. Ist das berechtigt? Der Gehaltscheck zeigt die Details."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/pilot-gehalt-so-viel-verdienen-lufthansa-piloten-im-jahr-2026/100037203.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:24:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/interview-stefan-draeger-unser-derzeit-groesstes-problem-ist-die-eu/100220595.html",
-        "title": "Interview: Stefan Dräger: „Immer mehr Menschen glauben, der Wohlstand kommt durch den Staat“",
-        "summary": "Der Drägerwerk-Chef spricht über Innovationen in der Medizintechnik, EU-Verbote und das Geschäft mit der  Verteidigung. Der Anschlag auf das Berliner Stromnetz generiert neue Services.",
-        "paragraphs": [
-          "Der Drägerwerk-Chef spricht über Innovationen in der Medizintechnik, EU-Verbote und das Geschäft mit der  Verteidigung. Der Anschlag auf das Berliner Stromnetz generiert neue Services."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/interview-stefan-draeger-unser-derzeit-groesstes-problem-ist-die-eu/100220595.html",
-        "category": "Familienunternehmer",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:22:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/google-cloud-chef-thomas-kurian-apple-hat-sich-fuer-uns-entschieden/100220464.html",
-        "title": "Google Cloud-Chef: „Apple hat sich für uns entschieden“: Warum Google für den iPhone-Konzern immer wichtiger wird",
-        "summary": "Der Suchmaschinenkonzern baut ein KI-Modell für Apples Sprachassistenten Siri. Google-Cloud-Chef Thomas Kurian erklärt, wie weit die Kooperation gehen wird – und wie er Nvidia herausfordert.",
-        "paragraphs": [
-          "Der Suchmaschinenkonzern baut ein KI-Modell für Apples Sprachassistenten Siri. Google-Cloud-Chef Thomas Kurian erklärt, wie weit die Kooperation gehen wird – und wie er Nvidia herausfordert."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/google-cloud-chef-thomas-kurian-apple-hat-sich-fuer-uns-entschieden/100220464.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:21:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/pharma-curevac-gruender-wirft-biontech-taeuschung-vor/100222813.html",
-        "title": "Pharma: Curevac-Gründer wirft Biontech Täuschung vor",
-        "summary": "Biontech will mehrere Standorte schließen. Der Curevac-Gründer und die Gewerkschaft sehen darin Trickserei und scharfe Einschnitte für die Beschäftigten.",
-        "paragraphs": [
-          "Biontech will mehrere Standorte schließen. Der Curevac-Gründer und die Gewerkschaft sehen darin Trickserei und scharfe Einschnitte für die Beschäftigten."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/pharma-curevac-gruender-wirft-biontech-taeuschung-vor/100222813.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:16:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/uebernahme-koalition-denkt-wohl-ueber-aufstockung-bei-commerzbank-nach/100222819.html",
-        "title": "Übernahme: Koalition denkt wohl über Aufstockung bei Commerzbank nach",
-        "summary": "Derzeit hält der deutsche Staat gut zwölf Prozent an der Bank. Um eine Übernahme durch die Unicredit zu verhindern, müsste der Bund Milliarden in die Hand nehmen.",
-        "paragraphs": [
-          "Derzeit hält der deutsche Staat gut zwölf Prozent an der Bank. Um eine Übernahme durch die Unicredit zu verhindern, müsste der Bund Milliarden in die Hand nehmen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/uebernahme-koalition-denkt-wohl-ueber-aufstockung-bei-commerzbank-nach/100222819.html",
-        "category": "Banken",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:15:34.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/ki/qutwo-wie-peter-sarlin-europas-ungewoehnlichste-ki-finanzierung-organisiert/100222608.html",
-        "title": "Künstliche Intelligenz: QuTwo: Ist das Europas ungewöhnlichste Finanzierungsrunde?",
-        "summary": "Der finnische KI-Unternehmer Peter Sarlin hat für seine neue Firma 25 Millionen Euro eingesammelt – ausschließlich bei Privatpersonen. Was dahinter steckt.",
-        "paragraphs": [
-          "Der finnische KI-Unternehmer Peter Sarlin hat für seine neue Firma 25 Millionen Euro eingesammelt – ausschließlich bei Privatpersonen. Was dahinter steckt."
-        ],
-        "link": "https://www.handelsblatt.com/technik/ki/qutwo-wie-peter-sarlin-europas-ungewoehnlichste-ki-finanzierung-organisiert/100222608.html",
-        "category": "Künstliche Intelligenz",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:15:14.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/gehalt-das-sind-die-bestbezahlten-berufe-in-deutschland-2026/100179922.html",
-        "title": "Gehaltsreport 2026: 1,3 Millionen Gehaltsdaten im Vergleich: Gehören Sie zu den Besserverdienern in Deutschland?",
-        "summary": "Das Gehalt gehört nach wie vor zu den Tabuthemen in Deutschland. Finden Sie heraus, wie gut Sie im Vergleich in einzelnen Berufen, Branchen und Bundesländern verdienen.",
-        "paragraphs": [
-          "Das Gehalt gehört nach wie vor zu den Tabuthemen in Deutschland. Finden Sie heraus, wie gut Sie im Vergleich in einzelnen Berufen, Branchen und Bundesländern verdienen."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/gehalt-das-sind-die-bestbezahlten-berufe-in-deutschland-2026/100179922.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:13:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/audio/bto/beyond-the-obvious-sozialstaat-wirkungslos-gegen-rechts/100222764.html",
-        "title": "Beyond the obvious: Sozialstaat wirkungslos gegen rechts",
-        "summary": "Die Deutschen wünschen sich mehr Sozialstaat. Die Politik liefert. Doch der Vorsprung der AfD wächst.",
-        "paragraphs": [
-          "Die Deutschen wünschen sich mehr Sozialstaat. Die Politik liefert. Doch der Vorsprung der AfD wächst."
-        ],
-        "link": "https://www.handelsblatt.com/audio/bto/beyond-the-obvious-sozialstaat-wirkungslos-gegen-rechts/100222764.html",
-        "category": "BTO",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:10:27.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/mindestlohn-zoll-kontrolliert-bundesweit-die-paket-branche/100222792.html",
-        "title": "Mindestlohn: Zoll kontrolliert bundesweit die Paket-Branche",
-        "summary": "Mehrere Tausend Zollbeamte nehmen Paketzusteller ins Visier. Es geht auch um den Verdacht, dass Arbeitszeiten von Fahrern nicht oder nicht vollständig vergütet werden.",
-        "paragraphs": [
-          "Mehrere Tausend Zollbeamte nehmen Paketzusteller ins Visier. Es geht auch um den Verdacht, dass Arbeitszeiten von Fahrern nicht oder nicht vollständig vergütet werden."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/mindestlohn-zoll-kontrolliert-bundesweit-die-paket-branche/100222792.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:01:50.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/korea-konflikt-nordkorea-streicht-wiedervereinigung-aus-der-verfassung/100222803.html",
-        "title": "Korea-Konflikt: Nordkorea streicht Wiedervereinigung aus der Verfassung",
-        "summary": "Das Regime in Pjöngjang verfestigt seinen Kurs, den es seit 2023 verfolgt – die Abkehr vom südkoreanischen Nachbarn. Droht ein neuer Konflikt?",
-        "paragraphs": [
-          "Das Regime in Pjöngjang verfestigt seinen Kurs, den es seit 2023 verfolgt – die Abkehr vom südkoreanischen Nachbarn. Droht ein neuer Konflikt?"
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/korea-konflikt-nordkorea-streicht-wiedervereinigung-aus-der-verfassung/100222803.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:00:06.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/urteil-sachgrundlos-befristet-wann-ein-zweiter-vertrag-erlaubt-ist/100222815.html",
-        "title": "Urteil: Sachgrundlos befristet? Wann ein zweiter Vertrag erlaubt ist",
-        "summary": "Ein Kinobetreiber schließt mit einem Mitarbeiter zwei befristete Verträge. Das Arbeitsgericht Köln urteilt: Die zweite Befristung ist unzulässig. Worauf Arbeitgeber und Beschäftigte achten sollten.",
-        "paragraphs": [
-          "Ein Kinobetreiber schließt mit einem Mitarbeiter zwei befristete Verträge. Das Arbeitsgericht Köln urteilt: Die zweite Befristung ist unzulässig. Worauf Arbeitgeber und Beschäftigte achten sollten."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/urteil-sachgrundlos-befristet-wann-ein-zweiter-vertrag-erlaubt-ist/100222815.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:00:04.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/banken-versicherungen/private-credit-fsb-warnt-vor-schwachstellen-am-markt-fuer-private-kredite/100222297.html",
-        "title": "Finanzierung: FSB warnt vor Schwachstellen am Markt für private Kredite",
-        "summary": "Als Risiken sieht das Gremium etwa die hohe Verschuldung und die Konzentration auf bestimmte Sektoren. Bei einem Konjunkturabschwung könnte dies zu Belastungen führen.",
-        "paragraphs": [
-          "Als Risiken sieht das Gremium etwa die hohe Verschuldung und die Konzentration auf bestimmte Sektoren. Bei einem Konjunkturabschwung könnte dies zu Belastungen führen."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/private-credit-fsb-warnt-vor-schwachstellen-am-markt-fuer-private-kredite/100222297.html",
-        "category": "Banken + Versicherungen",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T07:00:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/internet-meloni-wehrt-sich-mit-ki-bild-gegen-deepfakes/100222814.html",
-        "title": "Internet: Meloni wehrt sich mit KI-Bild gegen Deepfakes",
-        "summary": "Im Kampf gegen gefälschte Bilder von ihr im Internet setzt Italiens Premierministerin Giorgia Meloni auf Humor. Sie teilt ein KI-Bild von sich im Negligé - und verbindet das mit einem Appell.",
-        "paragraphs": [
-          "Im Kampf gegen gefälschte Bilder von ihr im Internet setzt Italiens Premierministerin Giorgia Meloni auf Humor. Sie teilt ein KI-Bild von sich im Negligé - und verbindet das mit einem Appell."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/internet-meloni-wehrt-sich-mit-ki-bild-gegen-deepfakes/100222814.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T06:58:38.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/staatsschutz-durchsuchungen-in-mehreren-laendern-bei-mutmasslichen-neonazis/100222765.html",
-        "title": "Staatsschutz: Durchsuchungen in mehreren Ländern bei mutmaßlichen Neonazis",
-        "summary": "Junge Neonazis im Fokus: Die Polizei durchsucht Objekte in mehreren Bundesländern. Es geht um Bildung oder Mitgliedschaft in kriminellen Vereinigungen wie „Jung & Stark“ und „Deutsche Jugend voran“.",
-        "paragraphs": [
-          "Junge Neonazis im Fokus: Die Polizei durchsucht Objekte in mehreren Bundesländern. Es geht um Bildung oder Mitgliedschaft in kriminellen Vereinigungen wie „Jung & Stark“ und „Deutsche Jugend voran“."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/staatsschutz-durchsuchungen-in-mehreren-laendern-bei-mutmasslichen-neonazis/100222765.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T06:53:03.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/medizin/psychologie-depression-im-umfeld-wie-sie-echte-unterstuetzung-zeigen/100222810.html",
-        "title": "Psychologie: Depression im Umfeld: Wie Sie echte Unterstützung zeigen",
-        "summary": "Was tun, wenn ein nahestehender Mensch in eine Depression rutscht? Ein Facharzt erklärt, warum Zuhören mehr bewirkt als jeder Ratschlag – und welche Sätze man unbedingt vermeiden sollte.",
-        "paragraphs": [
-          "Was tun, wenn ein nahestehender Mensch in eine Depression rutscht? Ein Facharzt erklärt, warum Zuhören mehr bewirkt als jeder Ratschlag – und welche Sätze man unbedingt vermeiden sollte."
-        ],
-        "link": "https://www.handelsblatt.com/technik/medizin/psychologie-depression-im-umfeld-wie-sie-echte-unterstuetzung-zeigen/100222810.html",
-        "category": "Medizin + Gesundheit",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T06:51:43.000Z"
-      },
-      {
-        "id": "5da39f4e-4ecd-4bae-b684-2d18be7f26b1",
-        "title": "BMW-Gewinn geht 23 Prozent zurück – Vorstand bleibt optimistisch",
-        "summary": "Donald Trumps Zollpolitik setzt dem Autobauer BMW zu. Umsatz und Gewinn sind deutlich gesunken. Hoffnung macht dem scheidenden Konzernchef die Auftragsentwicklung in Europa. Deutlich schlimmer hat es Daimler Truck erwischt.",
-        "paragraphs": [
-          "Donald Trumps Zollpolitik setzt dem Autobauer BMW zu. Umsatz und Gewinn sind deutlich gesunken. Hoffnung macht dem scheidenden Konzernchef die Auftragsentwicklung in Europa. Deutlich schlimmer hat es Daimler Truck erwischt."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/bmw-gewinn-geht-23-prozent-zurueck-vorstand-bleibt-optimistisch-a-5da39f4e-4ecd-4bae-b684-2d18be7f26b1#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-05-06T06:50:00.000Z"
       }
     ]
   }
