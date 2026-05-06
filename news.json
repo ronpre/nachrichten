@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-05-06T03:20:16.890Z",
+  "updatedAt": "2026-05-06T04:40:59.715Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "46976636-5548-4a4a-a541-c982f7b9caee",
+        "title": "Massenhafte Abzocke bei Augenoperationen",
+        "summary": "Viele Augenärzte kassieren nach NDR-Recherchen von ihren Patienten bei Grauer-Star-OPs viel Geld für angebliche \"Premiumlinsen\", die eigentlich die Kassen bezahlen. Außerdem bewerben sie fragwürdige Laser-Operationen.",
+        "paragraphs": [
+          "Viele Augenärzte kassieren nach NDR-Recherchen von ihren Patienten bei Grauer-Star-OPs viel Geld für angebliche \"Premiumlinsen\", die eigentlich die Kassen bezahlen. Außerdem bewerben sie fragwürdige Laser-Operationen."
+        ],
+        "link": "https://www.tagesschau.de/investigativ/ndr/grauer-star-behandlung-kosten-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-05-06T04:04:40.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Gamestop-Chef-will-bei-Ebay-massiv-Stellen-streichen-id30790202.html",
         "title": "Nach geplanter Übernahme: Gamestop-Chef will bei Ebay massiv Stellen streichen",
@@ -229,18 +241,6 @@
         "category": "Wirtschaft",
         "source": "n-tv",
         "publishedAt": "2026-05-05T08:34:10.000Z"
-      },
-      {
-        "id": "5e6c9720-4823-4928-9528-0943fb1b48b0",
-        "title": "Hohes Umsatzplus: Daten-Firma Palantir wächst immer schneller",
-        "summary": "Ein starkes Geschäft in den USA mit zahlreichen Großaufträgen hat dem Datenanalyse-Spezialisten Palantir zu Jahresbeginn einen kräftigen Umsatzsprung beschert. Doch die Kritik am Konzern wächst.",
-        "paragraphs": [
-          "Ein starkes Geschäft in den USA mit zahlreichen Großaufträgen hat dem Datenanalyse-Spezialisten Palantir zu Jahresbeginn einen kräftigen Umsatzsprung beschert. Doch die Kritik am Konzern wächst."
-        ],
-        "link": "https://www.tagesschau.de/wirtschaft/unternehmen/palantir-datenanalyse-umsatz-100.html",
-        "category": null,
-        "source": "Tagesschau",
-        "publishedAt": "2026-05-05T08:11:10.000Z"
       }
     ],
     "politik": [
@@ -485,6 +485,18 @@
     ],
     "sport": [
       {
+        "id": "{urn:uuid:d26b2ae2-4f34-42d2-a631-fcfc694a0990}",
+        "title": "Fußball-WM: Hoteliers in den USA beklagen fehlende Reservierungen zur WM",
+        "summary": "In zwölf Städten in den USA finden die Spiele der Fußball-WM statt. Die Hotelbetreiber dort schlagen nun Alarm, weil Buchungen ausbleiben – und kritisieren die Fifa.",
+        "paragraphs": [
+          "In zwölf Städten in den USA finden die Spiele der Fußball-WM statt. Die Hotelbetreiber dort schlagen nun Alarm, weil Buchungen ausbleiben – und kritisieren die Fifa."
+        ],
+        "link": "https://www.zeit.de/sport/2026-05/fussball-wm-usa-hotels-weniger-buchungen",
+        "category": "Sport",
+        "source": "ZEIT",
+        "publishedAt": "2026-05-06T03:55:25.000Z"
+      },
+      {
         "id": "https://www.kicker.de/simeone-muessen-akzeptieren-wo-wir-stehen-1216778/video#omrss",
         "title": "Simeone: \"Müssen akzeptieren, wo wir stehen\"",
         "summary": "Diego Simeone ist sich nach der Champions-League-Halbfinal-Niederlage gegen Arsenal der Ausgangssituation seiner Mannschaft bewusst. Für den Atletico-Coach überwiegt daher Stolz über den gesamten Turnierverlauf.",
@@ -711,21 +723,33 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-05-05T17:04:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/vier-spieler-mit-vier-gelben-karten-wolfsburg-droht-ein-endspiel-problem-1216613/artikel#omrss",
-        "title": "Vier Spieler mit vier Gelben Karten: Wolfsburg droht ein Endspiel-Problem",
-        "summary": "Bloß nicht Gelb sehen: Vier Spielern des VfL Wolfsburg droht für das Endspiel am letzten Spieltag gegen den FC St. Pauli oder für eine mögliche Relegation eine Sperre. Vor allem im Mittelfeld könnte es problematisch werden.",
-        "paragraphs": [
-          "Bloß nicht Gelb sehen: Vier Spielern des VfL Wolfsburg droht für das Endspiel am letzten Spieltag gegen den FC St. Pauli oder für eine mögliche Relegation eine Sperre. Vor allem im Mittelfeld könnte es problematisch werden."
-        ],
-        "link": "https://www.kicker.de/vier-spieler-mit-vier-gelben-karten-wolfsburg-droht-ein-endspiel-problem-1216613/artikel#omrss",
-        "category": "Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-05-05T16:56:46.000Z"
       }
     ],
     "edv": [
+      {
+        "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-High-Bandwidth-Memory-fuer-KI-Beschleuniger-11276475.html",
+        "title": "Bit-Rauschen, der Prozessor-Podcast: High Bandwidth Memory für KI-Beschleuniger",
+        "summary": "In KI-Beschleunigern steckt der superschnelle Spezialspeicher HBM – und wir erklären, wie er funktioniert: Folge 2026/9 des Podcasts Bit-Rauschen.",
+        "paragraphs": [
+          "In KI-Beschleunigern steckt der superschnelle Spezialspeicher HBM – und wir erklären, wie er funktioniert: Folge 2026/9 des Podcasts Bit-Rauschen."
+        ],
+        "link": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-High-Bandwidth-Memory-fuer-KI-Beschleuniger-11276475.html",
+        "category": null,
+        "source": "c't",
+        "publishedAt": "2026-05-06T04:10:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Mittwoch-DNS-Probleme-deutscher-Domains-AMD-Wachstum-dank-Server-und-KI-GPUs-11283280.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Mittwoch: DNS-Probleme deutscher Domains, AMD-Wachstum dank Server und KI-GPUs",
+        "summary": "DENIC fixt DNSSEC + Divergenz von AMD-Sortiment + Student infiltriert Bahnfunk + Teenager knackt Ausweisbehörde + GSM-Ende in Österreich + Bit-Rauschen zu HBM",
+        "paragraphs": [
+          "DENIC fixt DNSSEC + Divergenz von AMD-Sortiment + Student infiltriert Bahnfunk + Teenager knackt Ausweisbehörde + GSM-Ende in Österreich + Bit-Rauschen zu HBM"
+        ],
+        "link": "https://www.heise.de/news/Mittwoch-DNS-Probleme-deutscher-Domains-AMD-Wachstum-dank-Server-und-KI-GPUs-11283280.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-05-06T04:15:00.000Z"
+      },
       {
         "id": "https://www.heise.de/news/DNS-Probleme-de-Domains-nicht-erreichbar-11283192.html",
         "title": "DNS-Probleme: .de-Domains nicht erreichbar",
@@ -739,16 +763,16 @@
         "publishedAt": "2026-05-05T21:24:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Student-konnte-nach-Einbruch-in-Funksystem-taiwanische-Schnellzuege-stoppen-11283264.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Student konnte nach Einbruch in Funksystem taiwanische Schnellzüge stoppen",
-        "summary": "Ein 23-jähriger Student nutzte „Software Defined Radio“ und Handfunkgeräte, um vier Schnellzüge per Alarmsignal anzuhalten. Ihm droht nun eine lange Haftstrafe.",
+        "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-High-Bandwidth-Memory-fuer-KI-Beschleuniger-11276475.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Bit-Rauschen, der Prozessor-Podcast: High Bandwidth Memory für KI-Beschleuniger",
+        "summary": "In KI-Beschleunigern steckt der superschnelle Spezialspeicher HBM – und wir erklären, wie er funktioniert: Folge 2026/9 des Podcasts Bit-Rauschen.",
         "paragraphs": [
-          "Ein 23-jähriger Student nutzte „Software Defined Radio“ und Handfunkgeräte, um vier Schnellzüge per Alarmsignal anzuhalten. Ihm droht nun eine lange Haftstrafe."
+          "In KI-Beschleunigern steckt der superschnelle Spezialspeicher HBM – und wir erklären, wie er funktioniert: Folge 2026/9 des Podcasts Bit-Rauschen."
         ],
-        "link": "https://www.heise.de/news/Student-konnte-nach-Einbruch-in-Funksystem-taiwanische-Schnellzuege-stoppen-11283264.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-High-Bandwidth-Memory-fuer-KI-Beschleuniger-11276475.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T03:09:00.000Z"
+        "publishedAt": "2026-05-06T04:10:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Bosch-E-Bikes-Upgrade-auf-120-Nm-fuer-Performance-Line-CX-und-Cargo-Line-11280306.html",
@@ -763,16 +787,16 @@
         "publishedAt": "2026-05-04T10:50:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Gegen-den-Trend-Boerse-belohnt-AMDs-Geschaeftsbericht-11283220.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "AMD: Schere zwischen Server und Consumer geht weiter auseinander",
-        "summary": "Zur Abwechslung straft die Börse AMD nicht für seinen Geschäftsbericht ab. Umsatz und Ausblick übertreffen die Erwartungen.",
+        "id": "https://www.heise.de/news/Student-konnte-nach-Einbruch-in-Funksystem-taiwanische-Schnellzuege-stoppen-11283264.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Student konnte nach Einbruch in Funksystem taiwanische Schnellzüge stoppen",
+        "summary": "Ein 23-jähriger Student nutzte „Software Defined Radio“ und Handfunkgeräte, um vier Schnellzüge per Alarmsignal anzuhalten. Ihm droht nun eine lange Haftstrafe.",
         "paragraphs": [
-          "Zur Abwechslung straft die Börse AMD nicht für seinen Geschäftsbericht ab. Umsatz und Ausblick übertreffen die Erwartungen."
+          "Ein 23-jähriger Student nutzte „Software Defined Radio“ und Handfunkgeräte, um vier Schnellzüge per Alarmsignal anzuhalten. Ihm droht nun eine lange Haftstrafe."
         ],
-        "link": "https://www.heise.de/news/Gegen-den-Trend-Boerse-belohnt-AMDs-Geschaeftsbericht-11283220.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Student-konnte-nach-Einbruch-in-Funksystem-taiwanische-Schnellzuege-stoppen-11283264.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T21:58:00.000Z"
+        "publishedAt": "2026-05-06T03:09:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Video-Wir-haben-Lichtschwert-Training-ausprobiert-11277850.html",
@@ -787,16 +811,16 @@
         "publishedAt": "2026-05-03T08:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/DNS-Probleme-de-Domains-nicht-erreichbar-11283192.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "DNS-Probleme: .de-Domains nicht erreichbar",
-        "summary": "Ein Problem im Domain Name System verhindert, dass .de-Domains aufgelöst werden – unabhängig von Providern und DNS-Anbietern.",
+        "id": "https://www.heise.de/news/Gegen-den-Trend-Boerse-belohnt-AMDs-Geschaeftsbericht-11283220.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "AMD: Schere zwischen Server und Consumer geht weiter auseinander",
+        "summary": "Zur Abwechslung straft die Börse AMD nicht für seinen Geschäftsbericht ab. Umsatz und Ausblick übertreffen die Erwartungen.",
         "paragraphs": [
-          "Ein Problem im Domain Name System verhindert, dass .de-Domains aufgelöst werden – unabhängig von Providern und DNS-Anbietern."
+          "Zur Abwechslung straft die Börse AMD nicht für seinen Geschäftsbericht ab. Umsatz und Ausblick übertreffen die Erwartungen."
         ],
-        "link": "https://www.heise.de/news/DNS-Probleme-de-Domains-nicht-erreichbar-11283192.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Gegen-den-Trend-Boerse-belohnt-AMDs-Geschaeftsbericht-11283220.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T21:24:00.000Z"
+        "publishedAt": "2026-05-05T21:58:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Wie-uns-das-Smartphone-in-den-Bann-zieht-c-t-uplink-11278738.html",
@@ -811,16 +835,16 @@
         "publishedAt": "2026-05-02T13:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Behoerde-fuer-abgesicherte-Ausweise-geknackt-15-Jaehriger-verhaftet-11283198.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Behörde für abgesicherte Ausweise geknackt: 15-Jähriger verhaftet",
-        "summary": "Millionen Datensätze aus französischen „abgesicherten Ausweisen” gerieten in falsche Hände. Kein fremder Geheimdienst, sondern ein Bursche ist verdächtig.",
+        "id": "https://www.heise.de/news/DNS-Probleme-de-Domains-nicht-erreichbar-11283192.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "DNS-Probleme: .de-Domains nicht erreichbar",
+        "summary": "Ein Problem im Domain Name System verhindert, dass .de-Domains aufgelöst werden – unabhängig von Providern und DNS-Anbietern.",
         "paragraphs": [
-          "Millionen Datensätze aus französischen „abgesicherten Ausweisen” gerieten in falsche Hände. Kein fremder Geheimdienst, sondern ein Bursche ist verdächtig."
+          "Ein Problem im Domain Name System verhindert, dass .de-Domains aufgelöst werden – unabhängig von Providern und DNS-Anbietern."
         ],
-        "link": "https://www.heise.de/news/Behoerde-fuer-abgesicherte-Ausweise-geknackt-15-Jaehriger-verhaftet-11283198.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/DNS-Probleme-de-Domains-nicht-erreichbar-11283192.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T20:46:00.000Z"
+        "publishedAt": "2026-05-05T21:24:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Die-beste-Discord-Alternative-TeamSpeak-Server-selbst-hosten-c-t-3003-11278758.html",
@@ -835,16 +859,16 @@
         "publishedAt": "2026-05-01T14:15:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/GSM-Der-Anfang-vom-Ende-in-Oesterreich-11283144.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "GSM: Der Anfang vom Ende in Österreich",
-        "summary": "Der Countdown für GSM hat nun auch in Österreich begonnen. Die Abschaltung trifft vor allem Maschinen, kann aber auch die Netzabdeckung reduzieren.",
+        "id": "https://www.heise.de/news/Behoerde-fuer-abgesicherte-Ausweise-geknackt-15-Jaehriger-verhaftet-11283198.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Behörde für abgesicherte Ausweise geknackt: 15-Jähriger verhaftet",
+        "summary": "Millionen Datensätze aus französischen „abgesicherten Ausweisen” gerieten in falsche Hände. Kein fremder Geheimdienst, sondern ein Bursche ist verdächtig.",
         "paragraphs": [
-          "Der Countdown für GSM hat nun auch in Österreich begonnen. Die Abschaltung trifft vor allem Maschinen, kann aber auch die Netzabdeckung reduzieren."
+          "Millionen Datensätze aus französischen „abgesicherten Ausweisen” gerieten in falsche Hände. Kein fremder Geheimdienst, sondern ein Bursche ist verdächtig."
         ],
-        "link": "https://www.heise.de/news/GSM-Der-Anfang-vom-Ende-in-Oesterreich-11283144.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Behoerde-fuer-abgesicherte-Ausweise-geknackt-15-Jaehriger-verhaftet-11283198.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T19:35:00.000Z"
+        "publishedAt": "2026-05-05T20:46:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Als-Festplatten-noch-riesig-waren-Die-Quantum-Bigfoot-wird-30-Jahre-alt-11278133.html",
@@ -859,16 +883,16 @@
         "publishedAt": "2026-05-01T06:45:00.000Z"
       },
       {
-        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-ueberwachungskamera-fuer-aussen-im-test-reolink-testsieger/8zcwxy9?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Top 10: Die beste Überwachungskamera für außen im Test – Reolink Testsieger",
-        "summary": "Die besten Außen-Überwachungskameras bieten alle 4K-Auflösung. Der Testsieger Reolink punktet zusätzlich mit fünffachem optischem Zoom.",
+        "id": "https://www.heise.de/news/GSM-Der-Anfang-vom-Ende-in-Oesterreich-11283144.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "GSM: Der Anfang vom Ende in Österreich",
+        "summary": "Der Countdown für GSM hat nun auch in Österreich begonnen. Die Abschaltung trifft vor allem Maschinen, kann aber auch die Netzabdeckung reduzieren.",
         "paragraphs": [
-          "Die besten Außen-Überwachungskameras bieten alle 4K-Auflösung. Der Testsieger Reolink punktet zusätzlich mit fünffachem optischem Zoom."
+          "Der Countdown für GSM hat nun auch in Österreich begonnen. Die Abschaltung trifft vor allem Maschinen, kann aber auch die Netzabdeckung reduzieren."
         ],
-        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-ueberwachungskamera-fuer-aussen-im-test-reolink-testsieger/8zcwxy9?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/GSM-Der-Anfang-vom-Ende-in-Oesterreich-11283144.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T18:00:00.000Z"
+        "publishedAt": "2026-05-05T19:35:00.000Z"
       },
       {
         "id": "https://www.heise.de/hintergrund/Auslegungssache-158-Die-Databroker-Files-11278730.html",
@@ -883,16 +907,16 @@
         "publishedAt": "2026-05-01T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Google-kuendigt-Android-Show-2026-an-Fokus-auf-Android-17-11281725.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Android Show: Google veranstaltet eigenes Event für Android 17",
-        "summary": "Google koppelt die Android-Ankündigungen von der I/O ab. Am 12. Mai stehen Android 17, Wear OS 7 und womöglich neue KI-Agenten im Mittelpunkt.",
+        "id": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-ueberwachungskamera-fuer-aussen-im-test-reolink-testsieger/8zcwxy9?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Top 10: Die beste Überwachungskamera für außen im Test – Reolink Testsieger",
+        "summary": "Die besten Außen-Überwachungskameras bieten alle 4K-Auflösung. Der Testsieger Reolink punktet zusätzlich mit fünffachem optischem Zoom.",
         "paragraphs": [
-          "Google koppelt die Android-Ankündigungen von der I/O ab. Am 12. Mai stehen Android 17, Wear OS 7 und womöglich neue KI-Agenten im Mittelpunkt."
+          "Die besten Außen-Überwachungskameras bieten alle 4K-Auflösung. Der Testsieger Reolink punktet zusätzlich mit fünffachem optischem Zoom."
         ],
-        "link": "https://www.heise.de/news/Google-kuendigt-Android-Show-2026-an-Fokus-auf-Android-17-11281725.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-ueberwachungskamera-fuer-aussen-im-test-reolink-testsieger/8zcwxy9?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T17:00:00.000Z"
+        "publishedAt": "2026-05-05T18:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Blick-ins-Heft-c-t-10-2026-IT-Mythen-11277734.html",
@@ -907,16 +931,16 @@
         "publishedAt": "2026-04-30T08:14:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Android-Dunkelmodus-Open-Source-App-passt-Systemdesign-an-Umgebungslicht-an-11282658.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Android-Dunkelmodus: Open-Source-App passt Systemdesign an Umgebungslicht an",
-        "summary": "Die Open-Source-App „Adaptive Theme: Auto Dark Mode“ erweitert Android um einen automatischen Dark-Mode-Wechsel per Lichtsensor.",
+        "id": "https://www.heise.de/news/Google-kuendigt-Android-Show-2026-an-Fokus-auf-Android-17-11281725.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Android Show: Google veranstaltet eigenes Event für Android 17",
+        "summary": "Google koppelt die Android-Ankündigungen von der I/O ab. Am 12. Mai stehen Android 17, Wear OS 7 und womöglich neue KI-Agenten im Mittelpunkt.",
         "paragraphs": [
-          "Die Open-Source-App „Adaptive Theme: Auto Dark Mode“ erweitert Android um einen automatischen Dark-Mode-Wechsel per Lichtsensor."
+          "Google koppelt die Android-Ankündigungen von der I/O ab. Am 12. Mai stehen Android 17, Wear OS 7 und womöglich neue KI-Agenten im Mittelpunkt."
         ],
-        "link": "https://www.heise.de/news/Android-Dunkelmodus-Open-Source-App-passt-Systemdesign-an-Umgebungslicht-an-11282658.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Google-kuendigt-Android-Show-2026-an-Fokus-auf-Android-17-11281725.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T16:39:00.000Z"
+        "publishedAt": "2026-05-05T17:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Samsung-erzielt-hoechsten-Gewinn-in-Unternehmensgeschichte-11277552.html",
@@ -931,43 +955,115 @@
         "publishedAt": "2026-04-30T06:59:00.000Z"
       },
       {
-        "id": "https://www.heise.de/hintergrund/Industrievisionen-der-Hannover-Messe-Zwischen-Machbarkeit-und-Messefantasie-11263521.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-        "title": "Hannover Messe: Industrievisionen der Hannover Messe: Zwischen Machbarkeit und Messefantasie",
-        "summary": "Avatare reden, Minifabriken heilen, Solarpaneele liefern Wasserstoff – aber was davon funktioniert außerhalb der Messehalle?",
+        "id": "https://www.heise.de/news/Android-Dunkelmodus-Open-Source-App-passt-Systemdesign-an-Umgebungslicht-an-11282658.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Android-Dunkelmodus: Open-Source-App passt Systemdesign an Umgebungslicht an",
+        "summary": "Die Open-Source-App „Adaptive Theme: Auto Dark Mode“ erweitert Android um einen automatischen Dark-Mode-Wechsel per Lichtsensor.",
         "paragraphs": [
-          "Avatare reden, Minifabriken heilen, Solarpaneele liefern Wasserstoff – aber was davon funktioniert außerhalb der Messehalle?"
+          "Die Open-Source-App „Adaptive Theme: Auto Dark Mode“ erweitert Android um einen automatischen Dark-Mode-Wechsel per Lichtsensor."
         ],
-        "link": "https://www.heise.de/hintergrund/Industrievisionen-der-Hannover-Messe-Zwischen-Machbarkeit-und-Messefantasie-11263521.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+        "link": "https://www.heise.de/news/Android-Dunkelmodus-Open-Source-App-passt-Systemdesign-an-Umgebungslicht-an-11282658.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-05T16:30:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Telemedizinkongress-Strukturen-schaffen-bevor-wir-sie-akut-benoetigen-11282042.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Telemedizinkongress: „Strukturen schaffen, bevor wir sie akut benötigen“",
-        "summary": "Für mehr Versorgungssicherheit und Krisenresilienz bestärken Experten auf dem 16. Telemedizinkongress ihre Forderungen nach dem Ausbau der digitalen Strukturen.",
-        "paragraphs": [
-          "Für mehr Versorgungssicherheit und Krisenresilienz bestärken Experten auf dem 16. Telemedizinkongress ihre Forderungen nach dem Ausbau der digitalen Strukturen."
-        ],
-        "link": "https://www.heise.de/news/Telemedizinkongress-Strukturen-schaffen-bevor-wir-sie-akut-benoetigen-11282042.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-05-05T16:23:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Nach-Juniper-Uebernahme-HPE-will-zunaechst-keine-Abkuendigung-im-Netzwerkportfolio-11282832.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Nach Juniper-Übernahme: HPE will zunächst keine Abkündigung im Netzwerkportfolio",
-        "summary": "„No one will be left behind“, hieß es nach der Übernahme von Juniper durch HPE. Nun wird konkreter, wie es für die beiden Produktportfolios weitergeht.",
-        "paragraphs": [
-          "„No one will be left behind“, hieß es nach der Übernahme von Juniper durch HPE. Nun wird konkreter, wie es für die beiden Produktportfolios weitergeht."
-        ],
-        "link": "https://www.heise.de/news/Nach-Juniper-Uebernahme-HPE-will-zunaechst-keine-Abkuendigung-im-Netzwerkportfolio-11282832.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-05-05T16:07:00.000Z"
+        "publishedAt": "2026-05-05T16:39:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-wenn-die-investoren-dem-kanzler-mehr-zutrauen-als-die-buerger/100222662.html",
+        "title": "Morning Briefing: Wenn die Investoren dem Kanzler mehr zutrauen als die Bürger",
+        "summary": "Nach einem Jahr im Amt ist Friedrich Merz historisch unbeliebt. Anleger allerdings schielen wieder mehr nach Deutschland – auch dank der deutschen Bundesregierung.",
+        "paragraphs": [
+          "Nach einem Jahr im Amt ist Friedrich Merz historisch unbeliebt. Anleger allerdings schielen wieder mehr nach Deutschland – auch dank der deutschen Bundesregierung."
+        ],
+        "link": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-wenn-die-investoren-dem-kanzler-mehr-zutrauen-als-die-buerger/100222662.html",
+        "category": "Morning Briefing",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T04:17:19.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/audio/podcast-morning-briefing/morning-briefing-podcast-kanzlerschaft-die-bilanz-des-friedrich-merz---unicredit-ein-strategisches-angebot/100222759.html",
+        "title": "Morning Briefing Podcast: Kanzlerschaft: Die Bilanz des Friedrich Merz / Unicredit: Ein strategisches Angebot",
+        "summary": "Nach einem Jahr im Amt ist Friedrich Merz historisch unbeliebt. Anleger allerdings schielen wieder mehr nach Deutschland - auch dank der deutschen Bundesregierung.",
+        "paragraphs": [
+          "Nach einem Jahr im Amt ist Friedrich Merz historisch unbeliebt. Anleger allerdings schielen wieder mehr nach Deutschland - auch dank der deutschen Bundesregierung."
+        ],
+        "link": "https://www.handelsblatt.com/audio/podcast-morning-briefing/morning-briefing-podcast-kanzlerschaft-die-bilanz-des-friedrich-merz---unicredit-ein-strategisches-angebot/100222759.html",
+        "category": "Morning Briefing Podcast",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T04:14:41.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/start-ups/gesundheit-doctolib-uebernimmt-die-softwarefirma-medicus-in-grossbritannien/100222244.html",
+        "title": "Gesundheit: Doctolib übernimmt die Softwarefirma Medicus in Großbritannien",
+        "summary": "Die französische Gesundheitsplattform steigt in den britischen Markt ein und kauft die Firma Medicus. Das soll laut Deutschlandchef Nikolay Kolev erst der Anfang der Expansion sein.",
+        "paragraphs": [
+          "Die französische Gesundheitsplattform steigt in den britischen Markt ein und kauft die Firma Medicus. Das soll laut Deutschlandchef Nikolay Kolev erst der Anfang der Expansion sein."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/start-ups/gesundheit-doctolib-uebernimmt-die-softwarefirma-medicus-in-grossbritannien/100222244.html",
+        "category": "Start-Ups",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T04:10:13.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/it-internet/welt-passwort-tag-passwoerter-im-alltag-oft-unsicher-was-schuetzt-wirklich/100222760.html",
+        "title": "Welt-Passwort-Tag: Passwörter im Alltag oft unsicher – was schützt wirklich?",
+        "summary": "Viele halten ihre Passwörter für sicher, doch nutzen kaum moderne Schutzmethoden. Warum das ein echtes Risiko ist – und wie Experten zur Passwort-Zukunft stehen.",
+        "paragraphs": [
+          "Viele halten ihre Passwörter für sicher, doch nutzen kaum moderne Schutzmethoden. Warum das ein echtes Risiko ist – und wie Experten zur Passwort-Zukunft stehen."
+        ],
+        "link": "https://www.handelsblatt.com/technik/it-internet/welt-passwort-tag-passwoerter-im-alltag-oft-unsicher-was-schuetzt-wirklich/100222760.html",
+        "category": "IT + Telekommunikation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T04:00:09.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/csi-300-asiens-boersen-auf-rekordhoch-ki-euphorie-und-iran-hoffnungen/100222717.html",
+        "title": "CSI 300: Asiens Börsen auf Rekordhoch – KI-Euphorie und Iran-Hoffnungen",
+        "summary": "Asiatische Anleger bauen ihre Positionen weiter aus. Die Indizes gewinnen. Und der Börsenwert von Samsung Electronics überschreitet die Billionen-Dollar-Marke.",
+        "paragraphs": [
+          "Asiatische Anleger bauen ihre Positionen weiter aus. Die Indizes gewinnen. Und der Börsenwert von Samsung Electronics überschreitet die Billionen-Dollar-Marke."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/csi-300-asiens-boersen-auf-rekordhoch-ki-euphorie-und-iran-hoffnungen/100222717.html",
+        "category": "Marktberichte",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T03:50:48.000Z"
+      },
+      {
+        "id": "07f326ba-cf5b-4440-b050-0981e1826cad",
+        "title": "Geldanlage für Einsteiger: »Market Timing ist keine smarte Strategie«",
+        "summary": "Die größte Gefahr für Ihr Erspartes sind nicht die Märkte, sondern Sie selbst. Finanzprofessor Andreas Hackethal erklärt, warum das Timing beim Aktienkauf meist schiefgeht – und was Anleger stattdessen tun sollten.",
+        "paragraphs": [
+          "Die größte Gefahr für Ihr Erspartes sind nicht die Märkte, sondern Sie selbst. Finanzprofessor Andreas Hackethal erklärt, warum das Timing beim Aktienkauf meist schiefgeht – und was Anleger stattdessen tun sollten."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/service/geldanlage-fuer-einsteiger-market-timing-ist-keine-smarte-strategie-a-07f326ba-cf5b-4440-b050-0981e1826cad#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-05-06T03:30:00.000Z"
+      },
+      {
+        "id": "e7710c07-62fe-4ba9-a42a-712b7c039a0a",
+        "title": "Börse: Sell in May – ist jetzt der Moment gekommen, an dem Sie Ihre Aktien verkaufen sollten?",
+        "summary": "Eine alte Börsenweisheit empfiehlt, sich im Sommer von der Börse zurückzuziehen und erst Halloween wieder einzusteigen. Funktioniert das wirklich? Die Antwort überrascht.",
+        "paragraphs": [
+          "Eine alte Börsenweisheit empfiehlt, sich im Sommer von der Börse zurückzuziehen und erst Halloween wieder einzusteigen. Funktioniert das wirklich? Die Antwort überrascht."
+        ],
+        "link": "https://www.spiegel.de/wirtschaft/service/boerse-sell-in-may-ist-jetzt-der-moment-gekommen-an-dem-sie-ihre-aktien-verkaufen-sollten-a-e7710c07-62fe-4ba9-a42a-712b7c039a0a#ref=rss",
+        "category": null,
+        "source": "SPIEGEL",
+        "publishedAt": "2026-05-06T03:30:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/lage-im-ueberblick-trump-setzt-auf-diplomatie-hormus-einsatz-gestoppt/100222687.html",
+        "title": "Lage im Überblick: Trump setzt auf Diplomatie: Hormus-Einsatz gestoppt",
+        "summary": "Trump spricht von großen Fortschritten für ein Abkommen mit dem Iran. Und setzt den US-Einsatz in der Straße von Hormus überraschend nach nur einem Tag wieder aus.",
+        "paragraphs": [
+          "Trump spricht von großen Fortschritten für ein Abkommen mit dem Iran. Und setzt den US-Einsatz in der Straße von Hormus überraschend nach nur einem Tag wieder aus."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/lage-im-ueberblick-trump-setzt-auf-diplomatie-hormus-einsatz-gestoppt/100222687.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T03:08:28.000Z"
+      },
       {
         "id": "https://www.handelsblatt.com/politik/deutschland/preise-fast-alle-rohstoffe-verteuern-sich-erheblich/100222753.html",
         "title": "Preise: Fast alle Rohstoffe verteuern sich erheblich",
@@ -1111,102 +1207,6 @@
         "category": "IT + Telekommunikation",
         "source": "Handelsblatt",
         "publishedAt": "2026-05-06T01:27:54.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-openai-kosten-von-50-milliarden-dollar-fuer-rechenleistung/100222705.html",
-        "title": "Künstliche Intelligenz: OpenAI: Kosten von 50 Milliarden Dollar für Rechenleistung",
-        "summary": "Dass der Betrieb von ChatGPT teuer ist, war bekannt. Jetzt bekommt man einen Einblick, wie viele Milliarden die KI-Rechenzentren den Entwickler OpenAI tatsächlich kosten.",
-        "paragraphs": [
-          "Dass der Betrieb von ChatGPT teuer ist, war bekannt. Jetzt bekommt man einen Einblick, wie viele Milliarden die KI-Rechenzentren den Entwickler OpenAI tatsächlich kosten."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-openai-kosten-von-50-milliarden-dollar-fuer-rechenleistung/100222705.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T01:08:57.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/europaeisches-parlament-trotz-betrugsverdacht-ausschuss-will-csu-frau-schuetzen/100222702.html",
-        "title": "Europäisches Parlament: Trotz Betrugsverdacht: Ausschuss will CSU-Frau schützen",
-        "summary": "Die Europäische Staatsanwaltschaft will prüfen, ob die CSU-Politikerin Angelika Niebler EU-Geld missbraucht hat. Wegen eines Votums im Parlament könnte dieses Vorhaben jetzt aber scheitern.",
-        "paragraphs": [
-          "Die Europäische Staatsanwaltschaft will prüfen, ob die CSU-Politikerin Angelika Niebler EU-Geld missbraucht hat. Wegen eines Votums im Parlament könnte dieses Vorhaben jetzt aber scheitern."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/europaeisches-parlament-trotz-betrugsverdacht-ausschuss-will-csu-frau-schuetzen/100222702.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T01:05:15.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/audio/handelsblatt-invest/invest-etoro-ceo-yoni-assia-ki-agenten-werden-das-trading-uebernehmen/100221380.html",
-        "title": "Invest: Etoro-CEO Yoni Assia: „KI-Agenten werden das Trading übernehmen“",
-        "summary": "Der Chef des Neobrokers erklärt im Podcast Handelsblatt Invest, wie KI-Agenten Portfolios steuern und warum Anleger lernen müssen, mit einer neuen „Formel‑1‑Geschwindigkeit“ umzugehen.",
-        "paragraphs": [
-          "Der Chef des Neobrokers erklärt im Podcast Handelsblatt Invest, wie KI-Agenten Portfolios steuern und warum Anleger lernen müssen, mit einer neuen „Formel‑1‑Geschwindigkeit“ umzugehen."
-        ],
-        "link": "https://www.handelsblatt.com/audio/handelsblatt-invest/invest-etoro-ceo-yoni-assia-ki-agenten-werden-das-trading-uebernehmen/100221380.html",
-        "category": "Invest Podcast",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T01:05:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/elektroautos-vw-groesster-aktionaer-bei-tesla-herausforderer-rivian/100222696.html",
-        "title": "Elektroautos: VW größter Aktionär bei Tesla-Herausforderer Rivian",
-        "summary": "Volkswagen investiert Milliarden in den Tesla-Rivalen Rivian, dessen Elektronik-Architektur künftige Elektroautos der Wolfsburger nutzen sollen. Damit steigt die Rolle des Konzerns bei der US-Firma.",
-        "paragraphs": [
-          "Volkswagen investiert Milliarden in den Tesla-Rivalen Rivian, dessen Elektronik-Architektur künftige Elektroautos der Wolfsburger nutzen sollen. Damit steigt die Rolle des Konzerns bei der US-Firma."
-        ],
-        "link": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/elektroautos-vw-groesster-aktionaer-bei-tesla-herausforderer-rivian/100222696.html",
-        "category": "Elektromobilität",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T00:36:44.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-setzt-einsatz-fuer-sichere-hormus-durchfahrt-aus/100222695.html",
-        "title": "Iran-Krieg: Trump setzt Einsatz für sichere Hormus-Durchfahrt aus",
-        "summary": "Zwischen Washington und Teheran nahmen die Spannungen zuletzt trotz Waffenruhe wieder zu. Streitpunkt ist auch die Straße von Hormus. Präsident Trump kündigt eine überraschende Kehrtwende an.",
-        "paragraphs": [
-          "Zwischen Washington und Teheran nahmen die Spannungen zuletzt trotz Waffenruhe wieder zu. Streitpunkt ist auch die Straße von Hormus. Präsident Trump kündigt eine überraschende Kehrtwende an."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-setzt-einsatz-fuer-sichere-hormus-durchfahrt-aus/100222695.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T00:27:18.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/internet-stoerung-websites-mit-de-namen-zeitweise-nicht-erreichbar/100222679.html",
-        "title": "Internet: Störung: Websites mit „.de“-Namen zeitweise nicht erreichbar",
-        "summary": "Viele Websites unter dem Domainnamen „.de“ waren plötzlich nicht mehr erreichbar. Auslöser war eine Störung bei der Registrierungsstelle Denic.",
-        "paragraphs": [
-          "Viele Websites unter dem Domainnamen „.de“ waren plötzlich nicht mehr erreichbar. Auslöser war eine Störung bei der Registrierungsstelle Denic."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/internet-stoerung-websites-mit-de-namen-zeitweise-nicht-erreichbar/100222679.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T00:04:11.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/ki/nach-klage-verzoegerte-ki-siri-apple-will-250-millionen-dollar-zahlen/100222691.html",
-        "title": "Nach Klage: Verzögerte KI-Siri – Apple will 250 Millionen Dollar zahlen",
-        "summary": "Apple kündigte bereits 2024 eine personalisierte KI-Version der Assistenzsoftware Siri an – und machte zeitweise Werbung dafür. Nach einer Klage gibt es nun einen kostspieligen Vergleich.",
-        "paragraphs": [
-          "Apple kündigte bereits 2024 eine personalisierte KI-Version der Assistenzsoftware Siri an – und machte zeitweise Werbung dafür. Nach einer Klage gibt es nun einen kostspieligen Vergleich."
-        ],
-        "link": "https://www.handelsblatt.com/technik/ki/nach-klage-verzoegerte-ki-siri-apple-will-250-millionen-dollar-zahlen/100222691.html",
-        "category": "Künstliche Intelligenz",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T00:03:29.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/it-internet/nach-klage-verzoegerte-ki-siri-apple-will-250-millionen-dollar-zahlen/100222688.html",
-        "title": "Nach Klage: Verzögerte KI-Siri: Apple will 250 Millionen Dollar zahlen",
-        "summary": "Apple kündigte bereits im Juni 2024 eine personalisierte KI-Version der Assistenzsoftware Siri an - und machte zeitweise auch Werbung dafür. Nach einer Klage gibt es nun einen kostspieligen Vergleich.",
-        "paragraphs": [
-          "Apple kündigte bereits im Juni 2024 eine personalisierte KI-Version der Assistenzsoftware Siri an - und machte zeitweise auch Werbung dafür. Nach einer Klage gibt es nun einen kostspieligen Vergleich."
-        ],
-        "link": "https://www.handelsblatt.com/technik/it-internet/nach-klage-verzoegerte-ki-siri-apple-will-250-millionen-dollar-zahlen/100222688.html",
-        "category": "IT + Telekommunikation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-05T23:29:06.000Z"
       }
     ]
   }
