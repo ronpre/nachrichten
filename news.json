@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-05-06T12:52:03.414Z",
+  "updatedAt": "2026-05-06T13:37:41.316Z",
   "categories": {
     "wirtschaft": [
+      {
+        "id": "86a8c45f-623a-4194-adfb-a06a6c339783",
+        "title": "Israel will Deutschland mit Kerosin-Lieferungen unterstützen",
+        "summary": "Trotz Energiekrise hieß es zuletzt, Deutschland habe ausreichend Kerosin-Vorräte. Nun teilt Israel mit, Deutschland mit Kerosin aushelfen zu wollen - wohl auf Wunsch des deutschen Wirtschaftsministeriums.",
+        "paragraphs": [
+          "Trotz Energiekrise hieß es zuletzt, Deutschland habe ausreichend Kerosin-Vorräte. Nun teilt Israel mit, Deutschland mit Kerosin aushelfen zu wollen - wohl auf Wunsch des deutschen Wirtschaftsministeriums."
+        ],
+        "link": "https://www.tagesschau.de/ausland/asien/nahost-israel-kerosin-deutschland-100.html",
+        "category": null,
+        "source": "Tagesschau",
+        "publishedAt": "2026-05-06T13:01:13.000Z"
+      },
       {
         "id": "https://www.n-tv.de/wirtschaft/Motoroel-Knappheit-koennte-Autobauer-und-OePNV-lahmlegen-id30791597.html",
         "title": "Unverzichtbare Basisöle fehlen: Motoröl-Knappheit könnte Autobauer und ÖPNV lahmlegen",
@@ -229,21 +241,85 @@
         "category": null,
         "source": "Tagesschau",
         "publishedAt": "2026-05-05T16:57:15.000Z"
-      },
-      {
-        "id": "https://www.n-tv.de/wirtschaft/Was-bedeutet-das-Kuerzel-DHL-id30787094.html",
-        "title": "Deutsche Post wird degradiert: Was bedeutet das Kürzel DHL?",
-        "summary": "Die Post hat im Laufe der Jahrzehnte mehrere Namen getragen - von Bundespost über Deutsche Post World Net bis zu Deutsche Post DHL. Künftig heißt das Unternehmen DHL AG. Die Wandlung zum globalen Logistikkonzern ist nun auch formell sichtbar.",
-        "paragraphs": [
-          "Die Post hat im Laufe der Jahrzehnte mehrere Namen getragen - von Bundespost über Deutsche Post World Net bis zu Deutsche Post DHL. Künftig heißt das Unternehmen DHL AG. Die Wandlung zum globalen Logistikkonzern ist nun auch formell sichtbar."
-        ],
-        "link": "https://www.n-tv.de/wirtschaft/Was-bedeutet-das-Kuerzel-DHL-id30787094.html",
-        "category": "Wirtschaft",
-        "source": "n-tv",
-        "publishedAt": "2026-05-05T16:56:57.000Z"
       }
     ],
     "politik": [
+      {
+        "id": "li.3457961",
+        "title": "Krieg in Nahost: Iran: Prüfen US-Vorschlag für Kriegsende",
+        "summary": "Teheran kündigt an, dem Vermittler Pakistan seine Position dazu bald übermitteln zu wollen. US-Präsident Trump setzt kurz zuvor den Militäreinsatz in der Straße von Hormus aus und spricht von Fortschritten bei einer diplomatischen Lösung.",
+        "paragraphs": [
+          "Teheran kündigt an, dem Vermittler Pakistan seine Position dazu bald übermitteln zu wollen. US-Präsident Trump setzt kurz zuvor den Militäreinsatz in der Straße von Hormus aus und spricht von Fortschritten bei einer diplomatischen Lösung."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/iran-liveblog-news-hormus-usa-trump-kriegsende-us-vorschlag-li.3457961",
+        "category": "Iran",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-06T13:20:00.000Z"
+      },
+      {
+        "id": "li.3479104",
+        "title": "Glosse: Das Streiflicht",
+        "summary": "In was für einer Zeit leben wir? Die Antwort ist einfach: Es ist die Zeit der emigrierenden Frösche, und selbst im Schloss Bellevue  sind die armen Viecher anzutreffen.",
+        "paragraphs": [
+          "In was für einer Zeit leben wir? Die Antwort ist einfach: Es ist die Zeit der emigrierenden Frösche, und selbst im Schloss Bellevue  sind die armen Viecher anzutreffen."
+        ],
+        "link": "https://www.sueddeutsche.de/politik/glosse-das-streiflicht-li.3479104",
+        "category": "Tiere",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-06T13:14:08.000Z"
+      },
+      {
+        "id": "li.3479503",
+        "title": "Ungarn: Polizei ermittelt bei Mediengruppe aus Orbáns Umfeld",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/ungarn-polizei-ermittelt-bei-mediengruppe-aus-orbans-umfeld-li.3479503",
+        "category": "Ungarn",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-06T13:07:15.000Z"
+      },
+      {
+        "id": "li.3479501",
+        "title": "Krieg in der Ukraine: Selenskij: Russland ignoriert von Kiew ausgerufene Waffenruhe",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/krieg-in-der-ukraine-selenskij-russland-ignoriert-von-kiew-ausgerufene-waffenruhe-li.3479501",
+        "category": "Ukraine",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-06T13:04:30.000Z"
+      },
+      {
+        "id": "li.3479471",
+        "title": "Gleichbehandlung: Regierung will Diskriminierungsschutz ändern",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/gleichbehandlung-regierung-will-diskriminierungsschutz-aendern-li.3479471",
+        "category": "Frauenrechte und Gleichberechtigung",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-06T12:53:02.000Z"
+      },
+      {
+        "id": "li.3479483",
+        "title": "Rheinland-Pfalz: Mainzer Landtag beschließt Verfassungsänderung",
+        "summary": "",
+        "paragraphs": [],
+        "link": "https://www.sueddeutsche.de/politik/rheinland-pfalz-mainzer-landtag-beschliesst-verfassungsaenderung-li.3479483",
+        "category": "Rheinland-Pfalz",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-06T12:52:54.000Z"
+      },
+      {
+        "id": "li.3478938",
+        "title": "Frankreichs extreme Rechte: Le Pen zieht von Bank zu Bank, aber keine will ihr Geld leihen",
+        "summary": "Der Rassemblement National sucht einen Kredit von 10,7 Millionen Euro für die Präsidentschaftswahl 2027 – und wird überall abgewiesen. Ein Problem für die Demokratie?",
+        "paragraphs": [
+          "Der Rassemblement National sucht einen Kredit von 10,7 Millionen Euro für die Präsidentschaftswahl 2027 – und wird überall abgewiesen. Ein Problem für die Demokratie?"
+        ],
+        "link": "https://www.sueddeutsche.de/politik/frankreich-le-pen-rassemblement-wahlkampf-geld-banken-li.3478938",
+        "category": "Frankreich",
+        "source": "Sueddeutsche",
+        "publishedAt": "2026-05-06T12:52:20.000Z"
+      },
       {
         "id": "77066059",
         "title": "Uganda: Gesetz gegen \"Einmischung aus dem Ausland\"",
@@ -270,10 +346,10 @@
       },
       {
         "id": "li.3476555",
-        "title": "Sexuelle Gewalt: Wurden Missbrauchsopfer aus „Ignoranz“ nicht entschädigt?",
-        "summary": "Betroffenen von Missbrauch könnte aus Unwissen viel Geld aus Unfallversicherungen entgangen sein. Die Linke im Bundestag forderte Aufklärung, doch die Bundesregierung sieht keinen gesetzlichen Handlungsbedarf.",
+        "title": "Sexualisierte Gewalt: Wurden Missbrauchsopfer aus „Ignoranz“ nicht entschädigt?",
+        "summary": "Betroffenen von Missbrauch könnte aus Unwissen viel Geld aus Unfallversicherungen entgangen sein. Die Linke im Bundestag fordert Aufklärung, doch die Bundesregierung sieht keinen gesetzlichen Handlungsbedarf.",
         "paragraphs": [
-          "Betroffenen von Missbrauch könnte aus Unwissen viel Geld aus Unfallversicherungen entgangen sein. Die Linke im Bundestag forderte Aufklärung, doch die Bundesregierung sieht keinen gesetzlichen Handlungsbedarf."
+          "Betroffenen von Missbrauch könnte aus Unwissen viel Geld aus Unfallversicherungen entgangen sein. Die Linke im Bundestag fordert Aufklärung, doch die Bundesregierung sieht keinen gesetzlichen Handlungsbedarf."
         ],
         "link": "https://www.sueddeutsche.de/politik/kindesmissbrauch-deutschland-meldepflicht-unfallversicherung-schulen-li.3476555",
         "category": "Bundesregierung",
@@ -389,42 +465,6 @@
         "publishedAt": "2026-05-06T10:05:00.000Z"
       },
       {
-        "id": "li.3476513",
-        "title": "Baden-Württemberg: Hagels Mann fürs Grobe schult um",
-        "summary": "Tobias Vogt attackierte als Generalsekretär der CDU-Baden-Württemberg gerne die Grünen. Nun soll er als Fraktionschef für eine stabile Koalition mit genau dieser Partei Sorge tragen.",
-        "paragraphs": [
-          "Tobias Vogt attackierte als Generalsekretär der CDU-Baden-Württemberg gerne die Grünen. Nun soll er als Fraktionschef für eine stabile Koalition mit genau dieser Partei Sorge tragen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/tobias-vogt-baden-wuerttemberg-cdu-fraktionsvorsitzender-manuel-hagel-li.3476513",
-        "category": "Baden-Württemberg",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-06T09:30:55.000Z"
-      },
-      {
-        "id": "li.3479199",
-        "title": "Innere Sicherheit: Großrazzia gegen gewaltbereite Rechtsextreme",
-        "summary": "In zwölf Bundesländern gehen Polizei und Verfassungsschutz gegen junge Neonazis vor. Sie sollen kriminelle Vereinigungen gebildet haben. Das Ziel der Ermittler: Gewalttaten zu verhindern.",
-        "paragraphs": [
-          "In zwölf Bundesländern gehen Polizei und Verfassungsschutz gegen junge Neonazis vor. Sie sollen kriminelle Vereinigungen gebildet haben. Das Ziel der Ermittler: Gewalttaten zu verhindern."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/deutschland-razzia-rechtsextreme-nordrhein-westfalen-neonazis-li.3479199",
-        "category": "Kriminalität",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-06T08:55:00.000Z"
-      },
-      {
-        "id": "li.3478304",
-        "title": "Wahlkampf in Sachsen-Anhalt: Wer kann hier Wirtschaft?",
-        "summary": "Seit 100 Tagen ist Sven Schulze Ministerpräsident von Sachsen-Anhalt. Sein Hauptthema ist die Wirtschaft, sein Hauptgegner die AfD. Erstmals vor der Landtagswahl im September treffen die Kontrahenten im Wahlkampf direkt aufeinander.",
-        "paragraphs": [
-          "Seit 100 Tagen ist Sven Schulze Ministerpräsident von Sachsen-Anhalt. Sein Hauptthema ist die Wirtschaft, sein Hauptgegner die AfD. Erstmals vor der Landtagswahl im September treffen die Kontrahenten im Wahlkampf direkt aufeinander."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/sachsen-anhalt-wirtschaft-landtagswahl-schulze-afd-li.3478304",
-        "category": "Deutschland",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-06T08:42:32.000Z"
-      },
-      {
         "id": "77056294",
         "title": "Bierland Tschechien: Die junge Generation verliert den Durst",
         "summary": "Bierweltmeister Tschechien meldet einen Rekordrückgang beim Bierkonsum. Vor allem die junge Generation trinkt weniger. Während Brauereien Alarm schlagen, sehen Gesundheitsexperten das positiv.",
@@ -435,57 +475,57 @@
         "category": "Welt",
         "source": "DW",
         "publishedAt": "2026-05-06T08:00:00.000Z"
-      },
-      {
-        "id": "77060926",
-        "title": "News kompakt: Hantavirus-Schiff darf die Kanaren ansteuern",
-        "summary": "Nach mehreren Hantavirus-Fällen und drei Todesopfern darf die \"Hondius\" einen Hafen auf den Kanaren anlaufen. Die USA setzen den Einsatz in der Straße von Hormus vorläufig aus. Der DW-Nachrichtenüberblick.",
-        "paragraphs": [
-          "Nach mehreren Hantavirus-Fällen und drei Todesopfern darf die \"Hondius\" einen Hafen auf den Kanaren anlaufen. Die USA setzen den Einsatz in der Straße von Hormus vorläufig aus. Der DW-Nachrichtenüberblick."
-        ],
-        "link": "https://www.dw.com/de/news-kompakt-hantavirus-schiff-darf-die-kanaren-ansteuern/a-77060926?maca=de-rss-de-top-1016-xml-mrss",
-        "category": "Aktuelles",
-        "source": "DW",
-        "publishedAt": "2026-05-06T07:00:00.000Z"
-      },
-      {
-        "id": "li.3477387",
-        "title": "Bundespolitik: Israel liefert wohl Kerosin nach Deutschland",
-        "summary": "Wegen der Krise in der Straße von Hormus hilft Israel laut eigener Aussage seinem Verbündeten. Die Bundesregierung bestätigt das bislang nicht. Der Kanzler bekennt sich trotz Streits zur weiteren Zusammenarbeit mit der SPD – bis zum Ende der Legislaturperiode.",
-        "paragraphs": [
-          "Wegen der Krise in der Straße von Hormus hilft Israel laut eigener Aussage seinem Verbündeten. Die Bundesregierung bestätigt das bislang nicht. Der Kanzler bekennt sich trotz Streits zur weiteren Zusammenarbeit mit der SPD – bis zum Ende der Legislaturperiode."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-israel-kerosin-li.3477387",
-        "category": "Bundesregierung",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-06T05:56:00.000Z"
-      },
-      {
-        "id": "li.3457961",
-        "title": "Krieg in Nahost: Iran kündigt Mechanismus für Transit durch Straße von Hormus an",
-        "summary": "Künftig sollen Schiffe für die Durchfahrt die Erlaubnis einer iranischen Behörde benötigen und eine Reihe von Vorschriften befolgen. Es ist unklar, wie die Regeln aussehen und wie Iran auf Verstöße reagieren könnte.",
-        "paragraphs": [
-          "Künftig sollen Schiffe für die Durchfahrt die Erlaubnis einer iranischen Behörde benötigen und eine Reihe von Vorschriften befolgen. Es ist unklar, wie die Regeln aussehen und wie Iran auf Verstöße reagieren könnte."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/iran-liveblog-news-hormus-usa-trump-li.3457961",
-        "category": "Iran",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-06T05:05:32.000Z"
-      },
-      {
-        "id": "li.3479171",
-        "title": "SZ am Morgen: Nachrichten des Tages – die Übersicht für Eilige",
-        "summary": "SZ am Morgen.",
-        "paragraphs": [
-          "SZ am Morgen."
-        ],
-        "link": "https://www.sueddeutsche.de/politik/ein-jahr-schwarz-rot-trump-beendet-project-freedom-social-media-verbot-li.3479171",
-        "category": "SZ Nachrichten des Tages",
-        "source": "Sueddeutsche",
-        "publishedAt": "2026-05-06T05:04:53.000Z"
       }
     ],
     "sport": [
+      {
+        "id": "https://www.kicker.de/und-wenn-ich-selbst-singe-fortuna-koeln-waere-bereit-fuer-spontane-feier-1216869/artikel#omrss",
+        "title": "\"Und wenn ich selbst singe\": Fortuna Köln wäre bereit für spontane Feier",
+        "summary": "Nach der Niederlage in Paderborn nimmt Fortuna Köln am Samstag gegen Siegen einen neuen Anlauf, um die Drittliga-Rückkehr zu finalisieren. Präsident Hanns-Jörg Westendorf wäre für eine spontane Party gerüstet und arbeitet daran, die Auflagen für die 3. Liga zu erfüllen.",
+        "paragraphs": [
+          "Nach der Niederlage in Paderborn nimmt Fortuna Köln am Samstag gegen Siegen einen neuen Anlauf, um die Drittliga-Rückkehr zu finalisieren. Präsident Hanns-Jörg Westendorf wäre für eine spontane Party gerüstet und arbeitet daran, die Auflagen für die 3. Liga zu erfüllen."
+        ],
+        "link": "https://www.kicker.de/und-wenn-ich-selbst-singe-fortuna-koeln-waere-bereit-fuer-spontane-feier-1216869/artikel#omrss",
+        "category": "Fortuna Köln",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T13:14:52.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/aufsteiger-glauchau-bleibt-drin-die-mannschaft-hat-es-den-kritikern-gezeigt-1216902/artikel#omrss",
+        "title": "Aufsteiger Glauchau bleibt drin: \"Die Mannschaft hat es den Kritikern gezeigt\"",
+        "summary": "Der VfB Empor Glauchau, Sachsenmeister von 2025, kann für die zweite Oberliga-Saison seiner Vereinsgeschichte planen. In der Rückrunde spielt das Team hinten stabiler und vorn effektiver.",
+        "paragraphs": [
+          "Der VfB Empor Glauchau, Sachsenmeister von 2025, kann für die zweite Oberliga-Saison seiner Vereinsgeschichte planen. In der Rückrunde spielt das Team hinten stabiler und vorn effektiver."
+        ],
+        "link": "https://www.kicker.de/aufsteiger-glauchau-bleibt-drin-die-mannschaft-hat-es-den-kritikern-gezeigt-1216902/artikel#omrss",
+        "category": "Fußball",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T13:13:52.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/engelhardt-holt-freiburg-den-naechsten-rueckkehrer-1216865/artikel#omrss",
+        "title": "Engelhardt: Holt Freiburg den nächsten Rückkehrer?",
+        "summary": "Für den SC Freiburg stehen die entscheidenden Spiele im Saisonfinale an. Parallel läuft die Personalplanung, bei der ein alter Bekannter in den Fokus rücken könnte: Yannik Engelhardt.",
+        "paragraphs": [
+          "Für den SC Freiburg stehen die entscheidenden Spiele im Saisonfinale an. Parallel läuft die Personalplanung, bei der ein alter Bekannter in den Fokus rücken könnte: Yannik Engelhardt."
+        ],
+        "link": "https://www.kicker.de/engelhardt-holt-freiburg-den-naechsten-rueckkehrer-1216865/artikel#omrss",
+        "category": "Bor. Mönchengladbach",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T12:54:30.000Z"
+      },
+      {
+        "id": "https://www.kicker.de/aus-gutem-grund-in-wolfsburg-werden-am-samstag-keine-spieler-verabschiedet-1216845/artikel#omrss",
+        "title": "Aus gutem Grund: In Wolfsburg werden am Samstag keine Spieler verabschiedet",
+        "summary": "Wer geht, wer bleibt? Beim VfL Wolfsburg werden diese Themen aktuell noch im Hintergrund bearbeitet, ist doch noch nicht klar, in welcher Liga es weitergeht. Deswegen bleiben Verabschiedungen noch aus.",
+        "paragraphs": [
+          "Wer geht, wer bleibt? Beim VfL Wolfsburg werden diese Themen aktuell noch im Hintergrund bearbeitet, ist doch noch nicht klar, in welcher Liga es weitergeht. Deswegen bleiben Verabschiedungen noch aus."
+        ],
+        "link": "https://www.kicker.de/aus-gutem-grund-in-wolfsburg-werden-am-samstag-keine-spieler-verabschiedet-1216845/artikel#omrss",
+        "category": "Belocian",
+        "source": "Kicker",
+        "publishedAt": "2026-05-06T12:51:52.000Z"
+      },
       {
         "id": "https://www.kicker.de/die-kleinen-schrauben-an-denen-die-bayern-noch-drehen-koennen-1216615/artikel#omrss",
         "title": "Die \"kleinen Schrauben\", an denen die Bayern noch drehen können",
@@ -677,54 +717,6 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-05-06T11:18:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/schulter-ausgekugelt-chakroun-fehlt-96-im-aufstiegsrennen-1216883/artikel#omrss",
-        "title": "Schulter ausgekugelt: Chakroun fehlt 96 im Aufstiegsrennen",
-        "summary": "Gegen Münster verletzte sich Hannovers Husseyn Chakroun an der Schulter. Nun teilten die Niedersachsen eine Diagnose mit - die den 21-Jährigen für den Rest der Saison außer Gefecht setzt.",
-        "paragraphs": [
-          "Gegen Münster verletzte sich Hannovers Husseyn Chakroun an der Schulter. Nun teilten die Niedersachsen eine Diagnose mit - die den 21-Jährigen für den Rest der Saison außer Gefecht setzt."
-        ],
-        "link": "https://www.kicker.de/schulter-ausgekugelt-chakroun-fehlt-96-im-aufstiegsrennen-1216883/artikel#omrss",
-        "category": "2. Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-05-06T11:15:15.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/bayerns-standpunkt-bei-laimer-verlaengert-neuer-kommende-woche-1216897/artikel#omrss",
-        "title": "Bayerns Standpunkt bei Laimer - Verlängert Neuer kommende Woche?",
-        "summary": "Manuel Neuer wird beim FC Bayern noch ein Jahr dranhängen - der Vollzug steht unmittelbar bevor. Bei Konrad Laimer ist die Lage gänzlich anders.",
-        "paragraphs": [
-          "Manuel Neuer wird beim FC Bayern noch ein Jahr dranhängen - der Vollzug steht unmittelbar bevor. Bei Konrad Laimer ist die Lage gänzlich anders."
-        ],
-        "link": "https://www.kicker.de/bayerns-standpunkt-bei-laimer-verlaengert-neuer-kommende-woche-1216897/artikel#omrss",
-        "category": "Bayern München",
-        "source": "Kicker",
-        "publishedAt": "2026-05-06T11:14:54.000Z"
-      },
-      {
-        "id": "165f0085-8685-4af3-9bd8-bc7a904180bb",
-        "title": "Para-Leichtathletik-EM 2026: Athleten frustriert über Ausfall ohne Ausrichter",
-        "summary": "Die Suche nach einem Veranstaltungsort für die Europameisterschaft der paralympischen Leichtathleten wurde abgebrochen. Nicht zum ersten Mal. Deutsche Para-Stars und -funktionäre zeigen sich enttäuscht.",
-        "paragraphs": [
-          "Die Suche nach einem Veranstaltungsort für die Europameisterschaft der paralympischen Leichtathleten wurde abgebrochen. Nicht zum ersten Mal. Deutsche Para-Stars und -funktionäre zeigen sich enttäuscht."
-        ],
-        "link": "https://www.spiegel.de/sport/para-leichtathletik-em-2026-athleten-frustriert-ueber-ausfall-ohne-ausrichter-a-165f0085-8685-4af3-9bd8-bc7a904180bb#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-05-06T11:09:00.000Z"
-      },
-      {
-        "id": "https://www.kicker.de/knall-in-eisenach-sofortige-trennung-von-geschaeftsfuehrer-witte-1216896/artikel#omrss",
-        "title": "Knall in Eisenach: Sofortige Trennung von Geschäftsführer Witte",
-        "summary": "Knall beim ThSV Eisenach: René Witte ist ab sofort nicht mehr Geschäftsführer des Handball-Bundesligisten.",
-        "paragraphs": [
-          "Knall beim ThSV Eisenach: René Witte ist ab sofort nicht mehr Geschäftsführer des Handball-Bundesligisten."
-        ],
-        "link": "https://www.kicker.de/knall-in-eisenach-sofortige-trennung-von-geschaeftsfuehrer-witte-1216896/artikel#omrss",
-        "category": "Bundesliga",
-        "source": "Kicker",
-        "publishedAt": "2026-05-06T11:03:13.000Z"
       }
     ],
     "edv": [
@@ -741,16 +733,16 @@
         "publishedAt": "2026-05-06T07:05:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/Darf-sich-ein-Chatbot-als-Arzt-ausgeben-Pennsylvania-verklagt-KI-Plattform-11284118.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Darf sich ein Chatbot als Arzt ausgeben? Pennsylvania verklagt KI-Plattform",
-        "summary": "Character.AI sieht sich mit einer weiteren Klage konfrontiert. Sie wirft erneut die Grundsatzfrage auf, wer rechtlich für Aussagen von KI-Chatbots haftet.",
+        "id": "https://www.heise.de/news/Wichtigster-Server-CPU-Benchmark-bekommt-ein-Update-nach-9-Jahren-11284408.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Wichtigster Server-CPU-Benchmark bekommt ein Update nach 9 Jahren",
+        "summary": "CPU-Designer satteln auf den Benchmark SPEC CPU 2026 um. Die neue Version läuft sogar auf einem Raspberry Pi.",
         "paragraphs": [
-          "Character.AI sieht sich mit einer weiteren Klage konfrontiert. Sie wirft erneut die Grundsatzfrage auf, wer rechtlich für Aussagen von KI-Chatbots haftet."
+          "CPU-Designer satteln auf den Benchmark SPEC CPU 2026 um. Die neue Version läuft sogar auf einem Raspberry Pi."
         ],
-        "link": "https://www.heise.de/news/Darf-sich-ein-Chatbot-als-Arzt-ausgeben-Pennsylvania-verklagt-KI-Plattform-11284118.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/Wichtigster-Server-CPU-Benchmark-bekommt-ein-Update-nach-9-Jahren-11284408.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T12:44:00.000Z"
+        "publishedAt": "2026-05-06T13:10:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Passwort-Bonusfolge-56a-Hilfreiche-ISPs-und-wenig-hilfreiche-Response-Center-11267897.html",
@@ -765,16 +757,16 @@
         "publishedAt": "2026-05-06T07:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/watchOS-26-5-Apple-behebt-SMS-Bug-bei-Dual-SIM-und-Training-Hinweisen-11284282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "watchOS 26.5: Apple behebt SMS-Bug bei Dual-SIM und Training-Hinweisen",
-        "summary": "Apple hat den Release Candidate von watchOS 26.5 veröffentlicht. Das Update behebt zwei Fehler bei Dual-SIM-iPhones und Training-Alerts.",
+        "id": "https://www.heise.de/news/US-Behoerde-soll-KI-Modelle-vor-Veroeffentlichung-ueberpruefen-11284416.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "US-Behörde soll KI-Modelle vor Veröffentlichung überprüfen",
+        "summary": "In einem neuen Abkommen haben sich Google, Microsoft und xAI bereiterklärt, ihre KI-Modelle vorab von der US-Regierung prüfen zu lassen.",
         "paragraphs": [
-          "Apple hat den Release Candidate von watchOS 26.5 veröffentlicht. Das Update behebt zwei Fehler bei Dual-SIM-iPhones und Training-Alerts."
+          "In einem neuen Abkommen haben sich Google, Microsoft und xAI bereiterklärt, ihre KI-Modelle vorab von der US-Regierung prüfen zu lassen."
         ],
-        "link": "https://www.heise.de/news/watchOS-26-5-Apple-behebt-SMS-Bug-bei-Dual-SIM-und-Training-Hinweisen-11284282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/US-Behoerde-soll-KI-Modelle-vor-Veroeffentlichung-ueberpruefen-11284416.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T12:35:00.000Z"
+        "publishedAt": "2026-05-06T13:09:00.000Z"
       },
       {
         "id": "https://www.heise.de/tests/Buchkritik-Trister-Regenbogenritt-durchs-Universum-11203310.html",
@@ -789,16 +781,16 @@
         "publishedAt": "2026-05-06T06:00:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/KI-SAP-kauft-Prior-Labs-und-will-ueber-eine-Milliarde-investieren-11284164.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "KI: SAP kauft Prior Labs und will über eine Milliarde investieren",
-        "summary": "SAP kauft zu, um seine Position für Business-KI auszubauen. Unter anderem übernimmt man mit Prior Labs einen Spezialisten für Tabellarische Foundation Models.",
+        "id": "https://www.heise.de/news/80-Jahre-Vespa-Blech-auf-Taille-11284202.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "80 Jahre Vespa: Von der Notlösung eines Flugzeugingenieurs zum Kulturgut",
+        "summary": "Vespa gehört zu den bekanntesten Marken, der Name ruft jedem sofort das Bild des liebenswerten Rollers vor Augen. Die italienische Ikone wird 80.",
         "paragraphs": [
-          "SAP kauft zu, um seine Position für Business-KI auszubauen. Unter anderem übernimmt man mit Prior Labs einen Spezialisten für Tabellarische Foundation Models."
+          "Vespa gehört zu den bekanntesten Marken, der Name ruft jedem sofort das Bild des liebenswerten Rollers vor Augen. Die italienische Ikone wird 80."
         ],
-        "link": "https://www.heise.de/news/KI-SAP-kauft-Prior-Labs-und-will-ueber-eine-Milliarde-investieren-11284164.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/80-Jahre-Vespa-Blech-auf-Taille-11284202.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T12:07:00.000Z"
+        "publishedAt": "2026-05-06T13:03:00.000Z"
       },
       {
         "id": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-High-Bandwidth-Memory-fuer-KI-Beschleuniger-11276475.html",
@@ -813,16 +805,16 @@
         "publishedAt": "2026-05-06T04:10:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/One-UI-8-5-fuer-Galaxy-S25-ist-fertig-Update-bringt-AirDrop-Support-und-mehr-11276947.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "One UI 8.5 für Galaxy S25 ist fertig: Update bringt AirDrop-Support und mehr",
-        "summary": "Samsungs One UI 8.5 auf Basis von Android 16 ist fertig. Das Update bringt neue KI-Funktionen, AirDrop-Support und mehr. Ab dem 11. Mai in Deutschland.",
+        "id": "https://www.heise.de/news/KI-Update-kompakt-Mistral-3-5-Joint-Ventures-Arzneistoffe-Vibe-Coding-11283944.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI-Update kompakt: Mistral 3.5, Joint Ventures, Arzneistoffe, Vibe-Coding",
+        "summary": "Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
         "paragraphs": [
-          "Samsungs One UI 8.5 auf Basis von Android 16 ist fertig. Das Update bringt neue KI-Funktionen, AirDrop-Support und mehr. Ab dem 11. Mai in Deutschland."
+          "Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen."
         ],
-        "link": "https://www.heise.de/news/One-UI-8-5-fuer-Galaxy-S25-ist-fertig-Update-bringt-AirDrop-Support-und-mehr-11276947.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/KI-Update-kompakt-Mistral-3-5-Joint-Ventures-Arzneistoffe-Vibe-Coding-11283944.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T12:00:00.000Z"
+        "publishedAt": "2026-05-06T13:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/DNS-Probleme-de-Domains-nicht-erreichbar-11283192.html",
@@ -837,16 +829,16 @@
         "publishedAt": "2026-05-05T21:24:00.000Z"
       },
       {
-        "id": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11272765.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren",
-        "summary": "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen.",
+        "id": "https://www.heise.de/news/TheA1200-Marktstart-des-Commodore-Amiga-1200-Remakes-erst-im-Dezember-11284098.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "TheA1200: Marktstart des Commodore-Amiga-1200-Remakes erst im Dezember",
+        "summary": "Der Release des The A1200, einem Commodore-Amiga-1200-Remake, verschiebt sich um ein halbes Jahr. Dies gab der Entwickler Retro Games auf Facebook bekannt.",
         "paragraphs": [
-          "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen."
+          "Der Release des The A1200, einem Commodore-Amiga-1200-Remake, verschiebt sich um ein halbes Jahr. Dies gab der Entwickler Retro Games auf Facebook bekannt."
         ],
-        "link": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11272765.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "link": "https://www.heise.de/news/TheA1200-Marktstart-des-Commodore-Amiga-1200-Remakes-erst-im-Dezember-11284098.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "category": null,
         "source": "heise",
-        "publishedAt": "2026-05-06T12:00:00.000Z"
+        "publishedAt": "2026-05-06T12:53:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Bosch-E-Bikes-Upgrade-auf-120-Nm-fuer-Performance-Line-CX-und-Cargo-Line-11280306.html",
@@ -859,6 +851,66 @@
         "category": null,
         "source": "c't",
         "publishedAt": "2026-05-04T10:50:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/Darf-sich-ein-Chatbot-als-Arzt-ausgeben-Pennsylvania-verklagt-KI-Plattform-11284118.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Darf sich ein Chatbot als Arzt ausgeben? Pennsylvania verklagt KI-Plattform",
+        "summary": "Character.AI sieht sich mit einer weiteren Klage konfrontiert. Sie wirft erneut die Grundsatzfrage auf, wer rechtlich für Aussagen von KI-Chatbots haftet.",
+        "paragraphs": [
+          "Character.AI sieht sich mit einer weiteren Klage konfrontiert. Sie wirft erneut die Grundsatzfrage auf, wer rechtlich für Aussagen von KI-Chatbots haftet."
+        ],
+        "link": "https://www.heise.de/news/Darf-sich-ein-Chatbot-als-Arzt-ausgeben-Pennsylvania-verklagt-KI-Plattform-11284118.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-05-06T12:44:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/watchOS-26-5-Apple-behebt-SMS-Bug-bei-Dual-SIM-und-Training-Hinweisen-11284282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "Apple Watch: Zwei nervige Bugs verschwinden mit watchOS 26.5",
+        "summary": "Apple hat den Release Candidate von watchOS 26.5 veröffentlicht. Das Update behebt zwei Fehler bei Dual-SIM-iPhones und Training-Alerts.",
+        "paragraphs": [
+          "Apple hat den Release Candidate von watchOS 26.5 veröffentlicht. Das Update behebt zwei Fehler bei Dual-SIM-iPhones und Training-Alerts."
+        ],
+        "link": "https://www.heise.de/news/watchOS-26-5-Apple-behebt-SMS-Bug-bei-Dual-SIM-und-Training-Hinweisen-11284282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-05-06T12:35:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/KI-SAP-kauft-Prior-Labs-und-will-ueber-eine-Milliarde-investieren-11284164.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "KI: SAP kauft Prior Labs und will über eine Milliarde investieren",
+        "summary": "SAP kauft zu, um seine Position für Business-KI auszubauen. Unter anderem übernimmt man mit Prior Labs einen Spezialisten für Tabellarische Foundation Models.",
+        "paragraphs": [
+          "SAP kauft zu, um seine Position für Business-KI auszubauen. Unter anderem übernimmt man mit Prior Labs einen Spezialisten für Tabellarische Foundation Models."
+        ],
+        "link": "https://www.heise.de/news/KI-SAP-kauft-Prior-Labs-und-will-ueber-eine-Milliarde-investieren-11284164.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-05-06T12:07:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11272765.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "heise-Angebot: iX-Workshop: RAG-Systeme effizient evaluieren und optimieren",
+        "summary": "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen.",
+        "paragraphs": [
+          "Lernen Sie, RAG-Systeme professionell zu analysieren und gezielt zu optimieren – mit praxiserprobten Techniken und echten Anwendungsfällen."
+        ],
+        "link": "https://www.heise.de/news/iX-Workshop-RAG-Systeme-effizient-evaluieren-und-optimieren-11272765.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-05-06T12:00:00.000Z"
+      },
+      {
+        "id": "https://www.heise.de/news/One-UI-8-5-fuer-Galaxy-S25-ist-fertig-Update-bringt-AirDrop-Support-und-mehr-11276947.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "title": "One UI 8.5 für Galaxy S25 ist fertig: Update bringt AirDrop-Support und mehr",
+        "summary": "Samsungs One UI 8.5 auf Basis von Android 16 ist fertig. Das Update bringt neue KI-Funktionen, AirDrop-Support und mehr. Ab dem 11. Mai in Deutschland.",
+        "paragraphs": [
+          "Samsungs One UI 8.5 auf Basis von Android 16 ist fertig. Das Update bringt neue KI-Funktionen, AirDrop-Support und mehr. Ab dem 11. Mai in Deutschland."
+        ],
+        "link": "https://www.heise.de/news/One-UI-8-5-fuer-Galaxy-S25-ist-fertig-Update-bringt-AirDrop-Support-und-mehr-11276947.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "category": null,
+        "source": "heise",
+        "publishedAt": "2026-05-06T12:00:00.000Z"
       },
       {
         "id": "https://www.heise.de/news/Seit-1987-weiterentwickelt-Grosses-Update-fuer-Spiele-Oldie-NetHack-11284022.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -907,69 +959,141 @@
         "category": null,
         "source": "heise",
         "publishedAt": "2026-05-06T10:58:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Lockheed-Seagate-Space-und-Firefly-wollen-Raketen-von-See-aus-starten-11284008.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Lockheed, Seagate Space und Firefly wollen Raketen von See aus starten",
-        "summary": "Lockheed Martin hat sich einer Partnerschaft angeschlossen, die darauf abzielt, künftig Raketen von  See aus ins All fliegen zu lassen.",
-        "paragraphs": [
-          "Lockheed Martin hat sich einer Partnerschaft angeschlossen, die darauf abzielt, künftig Raketen von  See aus ins All fliegen zu lassen."
-        ],
-        "link": "https://www.heise.de/news/Lockheed-Seagate-Space-und-Firefly-wollen-Raketen-von-See-aus-starten-11284008.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-05-06T10:56:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Apple-KI-Nicht-nur-ChatGPT-in-iOS-27-und-Gemini-soll-den-Mac-kontrollieren-11283872.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Apple-KI: Nicht nur ChatGPT in iOS 27 – und Gemini soll den Mac kontrollieren",
-        "summary": "Derzeit kann man in Siri und Co. nur ChatGPT einbinden – mit iOS 27 soll sich das ändern. Google bastelt unterdessen an einer Mac-Kontrolle für Gemini.",
-        "paragraphs": [
-          "Derzeit kann man in Siri und Co. nur ChatGPT einbinden – mit iOS 27 soll sich das ändern. Google bastelt unterdessen an einer Mac-Kontrolle für Gemini."
-        ],
-        "link": "https://www.heise.de/news/Apple-KI-Nicht-nur-ChatGPT-in-iOS-27-und-Gemini-soll-den-Mac-kontrollieren-11283872.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-05-06T10:41:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Microsoft-365-soll-Vertraulichkeit-Labels-besser-beachten-11283866.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Microsoft 365 soll Vertraulichkeit-Labels besser beachten",
-        "summary": "In Microsoft-365-Dokumenten lassen sich Vertraulichkeit-Labels vergeben. Künftig sollen die stärker berücksichtigt werden.",
-        "paragraphs": [
-          "In Microsoft-365-Dokumenten lassen sich Vertraulichkeit-Labels vergeben. Künftig sollen die stärker berücksichtigt werden."
-        ],
-        "link": "https://www.heise.de/news/Microsoft-365-soll-Vertraulichkeit-Labels-besser-beachten-11283866.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-05-06T10:18:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/Jugendliche-wollen-bei-Social-Media-eher-Schutz-als-Verbote-11283960.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "Jugendliche wollen bei Social Media eher Schutz als Verbote",
-        "summary": "In der Debatte um ein Social-Media-Verbot kommen diejenigen, die es betrifft, eher selten zu Wort. Doch jetzt hat Unicef Jugendliche dazu befragen lassen.",
-        "paragraphs": [
-          "In der Debatte um ein Social-Media-Verbot kommen diejenigen, die es betrifft, eher selten zu Wort. Doch jetzt hat Unicef Jugendliche dazu befragen lassen."
-        ],
-        "link": "https://www.heise.de/news/Jugendliche-wollen-bei-Social-Media-eher-Schutz-als-Verbote-11283960.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-05-06T10:15:00.000Z"
-      },
-      {
-        "id": "https://www.heise.de/news/KI-Agenten-verstehen-und-bauen-Praxis-Webinar-am-12-05-11281762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "title": "heise-Angebot: KI-Agenten verstehen und bauen: Praxis-Webinar am 12.05.",
-        "summary": "heise-Webinar am 12.05.: KI-Agenten verstehen und selbst entwickeln – von RAG vs. Fine-Tuning bis zur Integration in Systeme. Praxisnah, ohne Vorkenntnisse.",
-        "paragraphs": [
-          "heise-Webinar am 12.05.: KI-Agenten verstehen und selbst entwickeln – von RAG vs. Fine-Tuning bis zur Integration in Systeme. Praxisnah, ohne Vorkenntnisse."
-        ],
-        "link": "https://www.heise.de/news/KI-Agenten-verstehen-und-bauen-Praxis-Webinar-am-12-05-11281762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "category": null,
-        "source": "heise",
-        "publishedAt": "2026-05-06T10:00:00.000Z"
       }
     ],
     "börse": [
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/bitcoin-investor-michael-saylor-erwaegt-erstmals-bitcoin-verkauf/100222825.html",
+        "title": "Bitcoin: Investor Michael Saylor erwägt erstmals Bitcoin-Verkauf",
+        "summary": "Der Bitcoin-Treasury-Konzern Strategy hat aufgrund der hohen Kursverluste bei der Kryptowährung schwache Zahlen vorgelegt. Jetzt steigt die Aktie wieder – doch das Risiko bleibt bestehen.",
+        "paragraphs": [
+          "Der Bitcoin-Treasury-Konzern Strategy hat aufgrund der hohen Kursverluste bei der Kryptowährung schwache Zahlen vorgelegt. Jetzt steigt die Aktie wieder – doch das Risiko bleibt bestehen."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/bitcoin-investor-michael-saylor-erwaegt-erstmals-bitcoin-verkauf/100222825.html",
+        "category": "Devisen + Rohstoffe",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T13:24:47.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/big-four-im-wandel-was-es-2026-braucht-um-top-berater-zu-werden-19-01/100179879.html",
+        "title": "Beratungen: So funktionieren Aufstieg und Einfluss bei den Big Four 2026",
+        "summary": "Aus dem Handelsblatt-Archiv: Die Ernennung zum Equity-Partner krönt bei PwC, KPMG, Deloitte und EY die Karriere. Warum KI die Regeln auf den Kopf stellt – und was Mitarbeiter in der Praxis erleben.",
+        "paragraphs": [
+          "Aus dem Handelsblatt-Archiv: Die Ernennung zum Equity-Partner krönt bei PwC, KPMG, Deloitte und EY die Karriere. Warum KI die Regeln auf den Kopf stellt – und was Mitarbeiter in der Praxis erleben."
+        ],
+        "link": "https://www.handelsblatt.com/karriere/big-four-im-wandel-was-es-2026-braucht-um-top-berater-zu-werden-19-01/100179879.html",
+        "category": "Management",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T13:21:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/deutschland/staatsschutz-junge-neonazis-im-visier-razzien-in-zwoelf-bundeslaendern/100222765.html",
+        "title": "Staatsschutz: Junge Neonazis im Visier - Razzien in zwölf Bundesländern",
+        "summary": "Ermittler haben fast 50 Objekte durchsucht. Ihr Ziel sind die rechtsextremistischen Gruppen „Jung und Stark“ und „Deutsche Jugend Voran“.",
+        "paragraphs": [
+          "Ermittler haben fast 50 Objekte durchsucht. Ihr Ziel sind die rechtsextremistischen Gruppen „Jung und Stark“ und „Deutsche Jugend Voran“."
+        ],
+        "link": "https://www.handelsblatt.com/politik/deutschland/staatsschutz-junge-neonazis-im-visier-razzien-in-zwoelf-bundeslaendern/100222765.html",
+        "category": "Deutschland",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T13:20:59.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/fuehrungskraefte-diese-strategien-helfen-topmanagern-gegen-druck-und-stress/100167396.html",
+        "title": "Resilienz: Die Tricks der Top-Manager für Stress und Krisen: „In diesem Moment wird Ihre Leistung bis zu 25 Prozent besser“",
+        "summary": "Deutschlands Topmanager hätten Gründe genug, sich zu sorgen. Warum viele CEOs dennoch gelassen wirken – und welche ihrer Strategien gegen Stress auch anderen Managern nützen können.",
+        "paragraphs": [
+          "Deutschlands Topmanager hätten Gründe genug, sich zu sorgen. Warum viele CEOs dennoch gelassen wirken – und welche ihrer Strategien gegen Stress auch anderen Managern nützen können."
+        ],
+        "link": "https://www.handelsblatt.com/karriere/fuehrungskraefte-diese-strategien-helfen-topmanagern-gegen-druck-und-stress/100167396.html",
+        "category": "Management",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T13:20:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/karriere/gehalt-welche-berufe-kuenftig-ein-sehr-gutes-einkommen-garantieren/100201057.html",
+        "title": "Gehalt: Top-Verdiener in Deutschland: In diesen Berufen wird am besten bezahlt",
+        "summary": "Gehören Sie zu den absoluten Top-Verdienern in Deutschland? Eine exklusive Auswertung zeigt, welche Berufe an der Gehaltsspitze stehen.",
+        "paragraphs": [
+          "Gehören Sie zu den absoluten Top-Verdienern in Deutschland? Eine exklusive Auswertung zeigt, welche Berufe an der Gehaltsspitze stehen."
+        ],
+        "link": "https://www.handelsblatt.com/karriere/gehalt-welche-berufe-kuenftig-ein-sehr-gutes-einkommen-garantieren/100201057.html",
+        "category": "Management",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T13:19:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/mobilitaet/motor/laengere-autofahrten-leichte-snacks-pausen-und-bewegung-halten-fit-am-steuer/100222934.html",
+        "title": "Längere Autofahrten: Leichte Snacks, Pausen und Bewegung halten fit am Steuer",
+        "summary": "Einmal Trucker-Teller und weiter? Besser nicht! Mit einfachen Snacks, Mini-Workouts und cleveren Pausen bleibt man am Steuer frischer und sicherer – bis zum Ziel.",
+        "paragraphs": [
+          "Einmal Trucker-Teller und weiter? Besser nicht! Mit einfachen Snacks, Mini-Workouts und cleveren Pausen bleibt man am Steuer frischer und sicherer – bis zum Ziel."
+        ],
+        "link": "https://www.handelsblatt.com/mobilitaet/motor/laengere-autofahrten-leichte-snacks-pausen-und-bewegung-halten-fit-am-steuer/100222934.html",
+        "category": "Motor",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T13:08:42.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/russischer-angriffskrieg-einseitig-ausgerufene-feuerpause-kiew-kritisiert-moskau/100222785.html",
+        "title": "Russischer Angriffskrieg: Einseitig ausgerufene Feuerpause – Kiew kritisiert Moskau",
+        "summary": "Seit der Nacht läuft eine einseitig von Kiew angekündigte Waffenruhe. Moskau zählt weniger abgefangene ukrainische Drohnen als zuletzt. Die Ukraine erhebt aber Vorwürfe gegen Russland.",
+        "paragraphs": [
+          "Seit der Nacht läuft eine einseitig von Kiew angekündigte Waffenruhe. Moskau zählt weniger abgefangene ukrainische Drohnen als zuletzt. Die Ukraine erhebt aber Vorwürfe gegen Russland."
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/russischer-angriffskrieg-einseitig-ausgerufene-feuerpause-kiew-kritisiert-moskau/100222785.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T13:06:26.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/unternehmen/industrie/autoindustrie-deutschland-steckt-in-der-auto-malaise-das-sind-die-gruende/100220614.html",
+        "title": "Autoindustrie: Teure Autos, magere Gewinne: Deutschland steckt in der Auto-Malaise – das sind die Gründe",
+        "summary": "Zölle, Kriege, Strukturwandel: Die Gewinne der deutschen Autobauer fallen auf Pandemieniveau. Auch die Aussichten sind trüb. Wo das Geschäftsmodell von VW, BMW und Mercedes gerade kippt.",
+        "paragraphs": [
+          "Zölle, Kriege, Strukturwandel: Die Gewinne der deutschen Autobauer fallen auf Pandemieniveau. Auch die Aussichten sind trüb. Wo das Geschäftsmodell von VW, BMW und Mercedes gerade kippt."
+        ],
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/autoindustrie-deutschland-steckt-in-der-auto-malaise-das-sind-die-gruende/100220614.html",
+        "category": "Industrie",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T13:02:09.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/technik/it-internet/softwarehersteller-ki-auch-ohne-cloud-sap-will-umstrittene-strategie-aendern/100222601.html",
+        "title": "Softwarehersteller: KI auch ohne Cloud – SAP will umstrittene Strategie ändern",
+        "summary": "SAP steuert um – der Softwarehersteller bringt Innovationen mit Künstlicher Intelligenz auch auf Systeme, die nicht in der Cloud laufen. Dabei gilt eine Bedingung.",
+        "paragraphs": [
+          "SAP steuert um – der Softwarehersteller bringt Innovationen mit Künstlicher Intelligenz auch auf Systeme, die nicht in der Cloud laufen. Dabei gilt eine Bedingung."
+        ],
+        "link": "https://www.handelsblatt.com/technik/it-internet/softwarehersteller-ki-auch-ohne-cloud-sap-will-umstrittene-strategie-aendern/100222601.html",
+        "category": "IT + Telekommunikation",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T13:01:14.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/politik/international/krieg-in-nahost-trump-nimmt-im-iran-konflikt-druck-raus-oder-doch-nicht/100222687.html",
+        "title": "Krieg in Nahost: Trump nimmt im Iran-Konflikt Druck raus - oder doch nicht?",
+        "summary": "Die Lage in der Straße von Hormus hat sich verschärft, weil die USA Schiffe gegen den Willen Irans befreien wollen. Nun unterbricht Trump die Aktion. Gibt es insgeheim Fortschritte zu einem Frieden?",
+        "paragraphs": [
+          "Die Lage in der Straße von Hormus hat sich verschärft, weil die USA Schiffe gegen den Willen Irans befreien wollen. Nun unterbricht Trump die Aktion. Gibt es insgeheim Fortschritte zu einem Frieden?"
+        ],
+        "link": "https://www.handelsblatt.com/politik/international/krieg-in-nahost-trump-nimmt-im-iran-konflikt-druck-raus-oder-doch-nicht/100222687.html",
+        "category": "International",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T12:54:42.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-friedenshoffnungen-bringen-dax-starkes-plus/100222781.html",
+        "title": "Dax aktuell: Mehr als zwei Prozent im Plus: Hoffnungen auf Frieden treiben Dax nach oben",
+        "summary": "Hoffnungen auf eine baldige Lösung im Iran-Krieg sorgen bei Anlegerinnen und Anlegern für gute Laune. Im Tagesverlauf überwindet der deutsche Leitindex die 25.000-Punkte-Marke.",
+        "paragraphs": [
+          "Hoffnungen auf eine baldige Lösung im Iran-Krieg sorgen bei Anlegerinnen und Anlegern für gute Laune. Im Tagesverlauf überwindet der deutsche Leitindex die 25.000-Punkte-Marke."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-friedenshoffnungen-bringen-dax-starkes-plus/100222781.html",
+        "category": "Marktberichte",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T12:48:39.000Z"
+      },
       {
         "id": "5104a4dc-f51a-451b-9539-f9beecd0f44b",
         "title": "Handelskonflikt mit den USA: Der fatale Fehler des Friedrich Merz - Kolumne",
@@ -981,6 +1105,18 @@
         "category": null,
         "source": "SPIEGEL",
         "publishedAt": "2026-05-06T12:48:00.000Z"
+      },
+      {
+        "id": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-wie-aktive-etfs-den-msci-world-schlagen/100219027.html",
+        "title": "Geldanlage: Wie aktive ETFs den MSCI World schlagen",
+        "summary": "Wenige Aktien bestimmen die Richtung der großen Indizes. Eine Alternative sind aktive ETFs, weil diese mehr Unabhängigkeit vom Markttrend versprechen. Allerdings haben auch diese Nachteile.",
+        "paragraphs": [
+          "Wenige Aktien bestimmen die Richtung der großen Indizes. Eine Alternative sind aktive ETFs, weil diese mehr Unabhängigkeit vom Markttrend versprechen. Allerdings haben auch diese Nachteile."
+        ],
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-wie-aktive-etfs-den-msci-world-schlagen/100219027.html",
+        "category": "Fonds + ETF",
+        "source": "Handelsblatt",
+        "publishedAt": "2026-05-06T12:47:42.000Z"
       },
       {
         "id": "https://www.handelsblatt.com/karriere/homeoffice-welche-rechte-unternehmen-bei-verstoessen-gegen-buerozeiten-haben/100136988.html",
@@ -1065,150 +1201,6 @@
         "category": "Deutschland",
         "source": "Handelsblatt",
         "publishedAt": "2026-05-06T12:34:33.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-newsblog-streaming-und-parks-heben-disneys-gewinn-ueber-die-erwartungen/24098412.html",
-        "title": "+++ Geschäftszahlen +++: Streaming und Parks heben Disneys Gewinn über die Erwartungen",
-        "summary": "Fußball-WM beschert Diageo überraschendes Umsatzplus +++ Schmuckhersteller Pandora dämpft Gewinnrückgang +++ Schwaches US-Geschäft lässt Gewinn von Daimler Truck einbrechen +++ Der Newsblog.",
-        "paragraphs": [
-          "Fußball-WM beschert Diageo überraschendes Umsatzplus +++ Schmuckhersteller Pandora dämpft Gewinnrückgang +++ Schwaches US-Geschäft lässt Gewinn von Daimler Truck einbrechen +++ Der Newsblog."
-        ],
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/geschaeftszahlen-newsblog-streaming-und-parks-heben-disneys-gewinn-ueber-die-erwartungen/24098412.html",
-        "category": "Industrie",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T12:29:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/karriere/kuendigungen-so-koennen-fuehrungskraefte-professionell-damit-umgehen-01/100184083.html",
-        "title": "Karriere: Plötzlich arbeitslos – wie Manager auf ihre Kündigung reagieren sollten",
-        "summary": "Aus dem Handelsblatt-Archiv: Firmen trennen sich von Top-Leuten, diskret, aber radikal. Ein Führungskräfte-Experte nennt vier Tipps für betroffene Manager – und wie sie ihre Chancen wahren.",
-        "paragraphs": [
-          "Aus dem Handelsblatt-Archiv: Firmen trennen sich von Top-Leuten, diskret, aber radikal. Ein Führungskräfte-Experte nennt vier Tipps für betroffene Manager – und wie sie ihre Chancen wahren."
-        ],
-        "link": "https://www.handelsblatt.com/karriere/kuendigungen-so-koennen-fuehrungskraefte-professionell-damit-umgehen-01/100184083.html",
-        "category": "Management",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T12:26:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuererklaerung-bei-diesen-punkten-schaut-das-finanzamt-ganz-genau-hin-02/100105886.html",
-        "title": "Einkommensteuer: Hier schaut das Finanzamt in der Steuererklärung für 2025 ganz genau hin",
-        "summary": "Viele Steuererklärungen werden automatisch bearbeitet. Doch in einigen Fällen ist das Finanzamt besonders kritisch. Wann Steuerzahler unangenehmen Nachfragen zuvorkommen sollten.",
-        "paragraphs": [
-          "Viele Steuererklärungen werden automatisch bearbeitet. Doch in einigen Fällen ist das Finanzamt besonders kritisch. Wann Steuerzahler unangenehmen Nachfragen zuvorkommen sollten."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuererklaerung-bei-diesen-punkten-schaut-das-finanzamt-ganz-genau-hin-02/100105886.html",
-        "category": "Steuern",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T12:24:00.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/technik/forschung-innovation/todesfaelle-bei-kreuzfahrt-hantavirus-kontaktperson-kommt-zur-kontrolle-nach-duesseldorf/100222673.html",
-        "title": "Todesfälle bei Kreuzfahrt: Hantavirus-Kontaktperson kommt zur Kontrolle nach Düsseldorf",
-        "summary": "Drei Todesfälle und weitere Infektionen mit dem Hantavirus gab es auf dem Kreuzfahrtschiff „Hondius“. Eine „Kontaktperson“ soll nun vorsorglich in Düsseldorf untersucht werden.",
-        "paragraphs": [
-          "Drei Todesfälle und weitere Infektionen mit dem Hantavirus gab es auf dem Kreuzfahrtschiff „Hondius“. Eine „Kontaktperson“ soll nun vorsorglich in Düsseldorf untersucht werden."
-        ],
-        "link": "https://www.handelsblatt.com/technik/forschung-innovation/todesfaelle-bei-kreuzfahrt-hantavirus-kontaktperson-kommt-zur-kontrolle-nach-duesseldorf/100222673.html",
-        "category": "Forschung + Innovation",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T12:20:55.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/organspende-abgeordnete-nehmen-neuen-anlauf-fuer-mehr-organspenden/100222913.html",
-        "title": "Organspende: Abgeordnete nehmen neuen Anlauf für mehr Organspenden",
-        "summary": "Es geht um Leben und Tod: Viele Menschen unterstützen Organspende - lassen sich aber nicht als mögliche Spender registrieren. Mehrere Abgeordneten-Gruppen im Bundestag wollen das ändern.",
-        "paragraphs": [
-          "Es geht um Leben und Tod: Viele Menschen unterstützen Organspende - lassen sich aber nicht als mögliche Spender registrieren. Mehrere Abgeordneten-Gruppen im Bundestag wollen das ändern."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/organspende-abgeordnete-nehmen-neuen-anlauf-fuer-mehr-organspenden/100222913.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T12:19:40.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/deutschland/ein-jahr-bundesregierung-merz-sieht-keine-alternative-zur-koalition/100222891.html",
-        "title": "Ein Jahr Bundesregierung: Merz sieht keine Alternative zur Koalition",
-        "summary": "Ganz normal und doch besonders: So beschreibt ein Sprecher die Kabinettssitzung zum ersten Koalitions-Geburtstag. Der Kanzler betont die Gemeinsamkeiten und sagt etwas, das an Angela Merkel erinnert.",
-        "paragraphs": [
-          "Ganz normal und doch besonders: So beschreibt ein Sprecher die Kabinettssitzung zum ersten Koalitions-Geburtstag. Der Kanzler betont die Gemeinsamkeiten und sagt etwas, das an Angela Merkel erinnert."
-        ],
-        "link": "https://www.handelsblatt.com/politik/deutschland/ein-jahr-bundesregierung-merz-sieht-keine-alternative-zur-koalition/100222891.html",
-        "category": "Deutschland",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T12:18:52.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-friedenshoffnungen-bringen-dax-starkes-plus/100222781.html",
-        "title": "Dax aktuell: Berichte über mögliches Kriegsende in Nahost treiben den Dax",
-        "summary": "Hoffnungen auf eine baldige Lösung im Iran-Krieg sorgen bei Anlegerinnen und Anlegern für gute Laune. Im Tagesverlauf überwindet der deutsche Leitindex die 25.000-Punkte-Marke.",
-        "paragraphs": [
-          "Hoffnungen auf eine baldige Lösung im Iran-Krieg sorgen bei Anlegerinnen und Anlegern für gute Laune. Im Tagesverlauf überwindet der deutsche Leitindex die 25.000-Punkte-Marke."
-        ],
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-friedenshoffnungen-bringen-dax-starkes-plus/100222781.html",
-        "category": "Marktberichte",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T12:17:50.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/mobilitaet/motor/aston-martin-db12-s-so-faehrt-sich-das-neue-spitzenmodell-der-briten/100222901.html",
-        "title": "Sportwagen: So fährt sich das neue Spitzenmodell von Aston Martin",
-        "summary": "Mit 700 PS am Pedal setzt sich der DB12 S an die Spitze von Aston Martins DB-Familie. Das Antrieb des britischen Sportlers kommt aus Deutschland.",
-        "paragraphs": [
-          "Mit 700 PS am Pedal setzt sich der DB12 S an die Spitze von Aston Martins DB-Familie. Das Antrieb des britischen Sportlers kommt aus Deutschland."
-        ],
-        "link": "https://www.handelsblatt.com/mobilitaet/motor/aston-martin-db12-s-so-faehrt-sich-das-neue-spitzenmodell-der-briten/100222901.html",
-        "category": "Motor",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T12:11:32.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-und-iran-stehen-offenbar-vor-vereinbarung-fuer-kriegsende/100222881.html",
-        "title": "Iran-Krieg: USA und Iran stehen offenbar vor Vereinbarung für Kriegsende",
-        "summary": "Pakistanischen Vermittlerkreisen zufolge könnte der Krieg am Persischen Golf bald enden. Die USA erwarten wohl eine iranische Antwort innerhalb von 48 Stunden. Auch Trump äußert sich.",
-        "paragraphs": [
-          "Pakistanischen Vermittlerkreisen zufolge könnte der Krieg am Persischen Golf bald enden. Die USA erwarten wohl eine iranische Antwort innerhalb von 48 Stunden. Auch Trump äußert sich."
-        ],
-        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-und-iran-stehen-offenbar-vor-vereinbarung-fuer-kriegsende/100222881.html",
-        "category": "International",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T12:08:25.000Z"
-      },
-      {
-        "id": "https://www.handelsblatt.com/mobilitaet/motor/elektromobilitaet-toyota-bringt-bz4x-auch-als-kombi/100222905.html",
-        "title": "Elektromobilität: Toyota bringt bZ4X auch als Kombi",
-        "summary": "Am Akku ändert sich nichts, aber der Toyota bZ4X bekommt mehr Raum für große und kleine Dinge. Um fast 50 Prozent wächst das Kofferraumvolumen des Touring.",
-        "paragraphs": [
-          "Am Akku ändert sich nichts, aber der Toyota bZ4X bekommt mehr Raum für große und kleine Dinge. Um fast 50 Prozent wächst das Kofferraumvolumen des Touring."
-        ],
-        "link": "https://www.handelsblatt.com/mobilitaet/motor/elektromobilitaet-toyota-bringt-bz4x-auch-als-kombi/100222905.html",
-        "category": "Motor",
-        "source": "Handelsblatt",
-        "publishedAt": "2026-05-06T12:07:19.000Z"
-      },
-      {
-        "id": "270b7a7c-6a52-4856-acf6-850e8aa5bd31",
-        "title": "Berufsbildungsbericht: Fast 2,8 Millionen junge Erwachsene bleiben ohne Abschluss",
-        "summary": "Die Wirtschaftskrise schlägt auch auf die Berufsausbildung durch: 18,8 Prozent der jungen Menschen bleiben ohne Ausbildung. Es fehlt die »Passung«, bemängelt die Bildungsministerin.",
-        "paragraphs": [
-          "Die Wirtschaftskrise schlägt auch auf die Berufsausbildung durch: 18,8 Prozent der jungen Menschen bleiben ohne Ausbildung. Es fehlt die »Passung«, bemängelt die Bildungsministerin."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/berufsbildungsbericht-fast-2-8-millionen-junge-erwachsene-bleiben-ohne-abschluss-a-270b7a7c-6a52-4856-acf6-850e8aa5bd31#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-05-06T12:03:00.000Z"
-      },
-      {
-        "id": "cf986523-b7fb-47a2-ac20-9a6d58032692",
-        "title": "Nahost-Krieg: Bundesbank warnt vor Abwürgen der deutschen Erholung",
-        "summary": "Die durch den Nahostkrieg ausgelösten Preissteigerungen fressen sich durch die gesamte Volkswirtschaft, fürchtet die Bundesbank. Vom ursprünglich 2026 erwarteten deutschen Aufschwung dürfte deshalb nicht viel übrig bleiben.",
-        "paragraphs": [
-          "Die durch den Nahostkrieg ausgelösten Preissteigerungen fressen sich durch die gesamte Volkswirtschaft, fürchtet die Bundesbank. Vom ursprünglich 2026 erwarteten deutschen Aufschwung dürfte deshalb nicht viel übrig bleiben."
-        ],
-        "link": "https://www.spiegel.de/wirtschaft/nahost-krieg-bundesbank-warnt-vor-abwuergen-der-deutschen-erholung-a-cf986523-b7fb-47a2-ac20-9a6d58032692#ref=rss",
-        "category": null,
-        "source": "SPIEGEL",
-        "publishedAt": "2026-05-06T11:50:00.000Z"
       }
     ]
   }
