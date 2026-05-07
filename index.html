@@ -126,9 +126,8 @@
 
   async function load() {
     try {
-      const base = document.location.pathname.replace(/\/[^/]*$/, '/');
-      const r = await fetch(`${base}news.json?ts=${Date.now()}`);
-      if (!r.ok) throw new Error(r.status);
+      const r = await fetch('news.json', { cache: 'no-store' });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
       const data = await r.json();
       render('list-wirtschaft', data.wirtschaft || []);
       render('list-politik',    data.politik    || []);
@@ -136,9 +135,10 @@
       document.getElementById('last-updated').textContent =
         data.updatedAt ? new Intl.DateTimeFormat('de-DE',{hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'}).format(new Date(data.updatedAt)) : '—';
     } catch(e) {
+      console.error('news.json Fehler:', e);
       ['wirtschaft','politik','it'].forEach(cat => {
         const el = document.getElementById('list-' + cat);
-        if (el) el.innerHTML = '<div class="state-msg">Fehler beim Laden von news.json</div>';
+        if (el) el.innerHTML = '<div class="state-msg">Fehler: ' + e.message + '</div>';
       });
       document.getElementById('status-dot').className = 'error';
       document.getElementById('status-label').textContent = 'Fehler';
