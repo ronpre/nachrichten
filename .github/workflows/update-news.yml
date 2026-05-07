@@ -36,7 +36,7 @@ jobs:
         run: pip install feedparser
 
       - name: RSS-Feeds abrufen und news.json schreiben
-        run: python fetch_news.py
+        run: python $GITHUB_WORKSPACE/fetch_news.py
 
       - name: news.json committen und pushen
         run: |
