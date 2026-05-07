@@ -29,7 +29,7 @@ FEEDS = {
 }
 
 MAX_PER_FEED  = 10
-MAX_PER_CAT   = 30
+MAX_PER_CAT   = 20
 
 
 def strip_html(text: str) -> str:
