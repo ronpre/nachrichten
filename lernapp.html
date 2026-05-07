@@ -512,7 +512,7 @@
     if (okEn) progress.correct++;
     if (okFr) progress.correct++;
     save(); updateProg();
-    setTimeout(() => { vocabIdx++; renderVocab(); }, 1800);
+    setTimeout(() => { vocabIdx++; renderVocab(); }, 10000);
   }
 
   // ── SENTENCES ────────────────────────────────────────────────────────
@@ -575,7 +575,7 @@
     if (okEn) progress.correct++;
     if (okFr) progress.correct++;
     save(); updateProg();
-    setTimeout(() => { sentIdx++; renderSent(); }, 2200);
+    setTimeout(() => { sentIdx++; renderSent(); }, 10000);
   }
 
   // ── TEST ─────────────────────────────────────────────────────────────
