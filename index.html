@@ -9,7 +9,6 @@
   <style>
     :root {
       --bg: #0b0e13;
-      --surface: #111520;
       --border: #1e2535;
       --border-bright: #2d3a52;
       --text: #d8dde8;
@@ -22,255 +21,74 @@
       font-family: "IBM Plex Sans", sans-serif;
       font-size: 15px;
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); min-height: 100vh; display: flex; flex-direction: column; }
 
-    body {
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    /* ── Header ── */
     header {
       padding: 1.2rem 1.6rem 0.9rem;
       border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 0.5rem;
+      display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;
     }
-
-    .logo {
-      font-family: "IBM Plex Mono", monospace;
-      font-size: 1rem;
-      font-weight: 600;
-      color: var(--text-bright);
-      letter-spacing: 0.04em;
-    }
-
+    .logo { font-family: "IBM Plex Mono", monospace; font-size: 1rem; font-weight: 600; color: var(--text-bright); letter-spacing: 0.04em; }
     .logo span { color: var(--green); }
-
-    .header-meta {
-      font-family: "IBM Plex Mono", monospace;
-      font-size: 0.72rem;
-      color: var(--text-dim);
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-
-    #status-dot {
-      display: inline-block;
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--text-dim);
-      margin-right: 0.35rem;
-      vertical-align: middle;
-      transition: background 0.4s;
-    }
+    .header-meta { font-family: "IBM Plex Mono", monospace; font-size: 0.72rem; color: var(--text-dim); display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+    #status-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--text-dim); margin-right: 0.35rem; vertical-align: middle; transition: background 0.4s; }
     #status-dot.live   { background: var(--green);  box-shadow: 0 0 6px var(--green); }
     #status-dot.paused { background: var(--yellow); }
     #status-dot.error  { background: var(--red); }
 
-    /* ── Tab bar ── */
-    nav {
-      display: flex;
-      border-bottom: 1px solid var(--border);
-      padding: 0 1.6rem;
-      overflow-x: auto;
-    }
-
-    nav button {
-      background: none;
-      border: none;
-      padding: 0.65rem 1rem;
-      font-family: "IBM Plex Mono", monospace;
-      font-size: 0.78rem;
-      color: var(--text-dim);
-      cursor: pointer;
-      border-bottom: 2px solid transparent;
-      margin-bottom: -1px;
-      transition: color 0.15s, border-color 0.15s;
-      white-space: nowrap;
-    }
-
+    nav { display: flex; border-bottom: 1px solid var(--border); padding: 0 1.6rem; overflow-x: auto; }
+    nav button { background: none; border: none; padding: 0.65rem 1rem; font-family: "IBM Plex Mono", monospace; font-size: 0.78rem; color: var(--text-dim); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color 0.15s, border-color 0.15s; white-space: nowrap; }
     nav button:hover { color: var(--text); }
     nav button[data-tab="wirtschaft"].active { color: var(--green);  border-bottom-color: var(--green); }
     nav button[data-tab="politik"].active    { color: var(--blue);   border-bottom-color: var(--blue); }
     nav button[data-tab="it"].active         { color: var(--yellow); border-bottom-color: var(--yellow); }
 
-    /* ── Main ── */
-    main {
-      flex: 1;
-      max-width: 820px;
-      width: 100%;
-      margin: 0 auto;
-      padding: 0.8rem 1.6rem 3rem;
-    }
-
+    main { flex: 1; max-width: 820px; width: 100%; margin: 0 auto; padding: 0.8rem 1.6rem 3rem; }
     .tab-pane { display: none; }
     .tab-pane.active { display: block; }
 
-    /* ── Article list ── */
-    .article {
-      padding: 0.9rem 0;
-      border-bottom: 1px solid var(--border);
-    }
-
+    .article { padding: 0.9rem 0; border-bottom: 1px solid var(--border); }
     .article:last-child { border-bottom: none; }
-
-    .article-title {
-      font-size: 0.93rem;
-      font-weight: 500;
-      color: var(--text-bright);
-      line-height: 1.4;
-    }
-
-    .article-title a {
-      color: inherit;
-      text-decoration: none;
-    }
-
+    .article-title { font-size: 0.93rem; font-weight: 500; color: var(--text-bright); line-height: 1.4; }
+    .article-title a { color: inherit; text-decoration: none; }
     .article-title a:hover { color: var(--green); }
-
-    .article-summary {
-      font-size: 0.81rem;
-      color: var(--text-dim);
-      line-height: 1.5;
-      margin-top: 0.2rem;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .article-meta {
-      font-family: "IBM Plex Mono", monospace;
-      font-size: 0.68rem;
-      color: var(--text-dim);
-      margin-top: 0.3rem;
-    }
-
+    .article-summary { font-size: 0.81rem; color: var(--text-dim); line-height: 1.5; margin-top: 0.2rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .article-meta { font-family: "IBM Plex Mono", monospace; font-size: 0.68rem; color: var(--text-dim); margin-top: 0.3rem; }
     .article-source { font-weight: 600; }
 
-    /* ── States ── */
-    .state-msg {
-      padding: 3rem 0;
-      text-align: center;
-      font-family: "IBM Plex Mono", monospace;
-      font-size: 0.78rem;
-      color: var(--text-dim);
-    }
-
-    .spinner {
-      display: inline-block;
-      width: 12px;
-      height: 12px;
-      border: 2px solid var(--border-bright);
-      border-top-color: var(--green);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-      vertical-align: middle;
-      margin-right: 0.45rem;
-    }
-
+    .state-msg { padding: 3rem 0; text-align: center; font-family: "IBM Plex Mono", monospace; font-size: 0.78rem; color: var(--text-dim); }
+    .spinner { display: inline-block; width: 12px; height: 12px; border: 2px solid var(--border-bright); border-top-color: var(--green); border-radius: 50%; animation: spin 0.8s linear infinite; vertical-align: middle; margin-right: 0.45rem; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* ── Footer ── */
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 0.7rem 1.6rem;
-      font-family: "IBM Plex Mono", monospace;
-      font-size: 0.68rem;
-      color: var(--text-dim);
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-    }
-
-    @media (max-width: 560px) {
-      header, main, footer { padding-left: 1rem; padding-right: 1rem; }
-      nav { padding: 0 1rem; }
-    }
+    footer { border-top: 1px solid var(--border); padding: 0.7rem 1.6rem; font-family: "IBM Plex Mono", monospace; font-size: 0.68rem; color: var(--text-dim); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.4rem; }
+    @media (max-width: 560px) { header, main, footer { padding-left: 1rem; padding-right: 1rem; } nav { padding: 0 1rem; } }
   </style>
 </head>
 <body>
-
 <header>
   <div class="logo">nachrichten<span>.</span></div>
   <div class="header-meta">
-    <span><span id="status-dot"></span><span id="status-label">Initialisiere…</span></span>
+    <span><span id="status-dot" class="live"></span><span id="status-label">live</span></span>
     <span>aktualisiert: <strong id="last-updated">—</strong></span>
   </div>
 </header>
-
 <nav>
   <button class="active" data-tab="wirtschaft">wirtschaft</button>
   <button data-tab="politik">politik</button>
   <button data-tab="it">it</button>
 </nav>
-
 <main>
-  <div class="tab-pane active" id="pane-wirtschaft">
-    <div id="list-wirtschaft"><div class="state-msg"><span class="spinner"></span>Lade…</div></div>
-  </div>
-  <div class="tab-pane" id="pane-politik">
-    <div id="list-politik"><div class="state-msg"><span class="spinner"></span>Lade…</div></div>
-  </div>
-  <div class="tab-pane" id="pane-it">
-    <div id="list-it"><div class="state-msg"><span class="spinner"></span>Lade…</div></div>
-  </div>
+  <div class="tab-pane active" id="pane-wirtschaft"><div id="list-wirtschaft"><div class="state-msg"><span class="spinner"></span>Lade…</div></div></div>
+  <div class="tab-pane" id="pane-politik"><div id="list-politik"><div class="state-msg"><span class="spinner"></span>Lade…</div></div></div>
+  <div class="tab-pane" id="pane-it"><div id="list-it"><div class="state-msg"><span class="spinner"></span>Lade…</div></div></div>
 </main>
-
 <footer>
-  <span>tagesschau · n-tv · heise · golem · handelsblatt</span>
-  <span>refresh 06:00 – 17:00 · stündlich</span>
+  <span>tagesschau · n-tv · heise · golem</span>
+  <span>auto-refresh via GitHub Actions · stündlich 06–17 Uhr</span>
 </footer>
-
 <script>
 (() => {
-  const REFRESH_START = 6;   // Uhr
-  const REFRESH_END   = 17;  // Uhr
-  const INTERVAL_MS   = 60 * 60 * 1000; // 1 Stunde
-  const MAX_TOTAL     = 30;
-  const MAX_PER_FEED  = 8;
-
-  // RSS-Proxy ohne API-Key (kostenlos, kein Login)
-  const PROXY = 'https://api.rss2json.com/v1/api.json?rss_url=';
-
-  const FEEDS = {
-    wirtschaft: [
-      { url: 'https://www.tagesschau.de/xml/rss2_wirtschaft/', src: 'tagesschau' },
-      { url: 'https://www.n-tv.de/wirtschaft/rss',            src: 'n-tv' },
-      { url: 'https://www.handelsblatt.com/rss/nachrichtenuebersicht-topthemen.rss', src: 'handelsblatt' },
-    ],
-    politik: [
-      { url: 'https://www.tagesschau.de/xml/rss2_inland/',    src: 'tagesschau inland' },
-      { url: 'https://www.tagesschau.de/xml/rss2_ausland/',   src: 'tagesschau ausland' },
-      { url: 'https://www.n-tv.de/politik/rss',               src: 'n-tv' },
-    ],
-    it: [
-      { url: 'https://www.heise.de/rss/heise-atom.xml',              src: 'heise' },
-      { url: 'https://rss.golem.de/rss.php?feed=ATOM1.0',            src: 'golem' },
-      { url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', src: 'ars technica' },
-    ],
-  };
-
-  let lastFetch = 0;
-  let timerId   = null;
-
-  const dotEl     = document.getElementById('status-dot');
-  const labelEl   = document.getElementById('status-label');
-  const updatedEl = document.getElementById('last-updated');
-
-  // ── Tabs ─────────────────────────────────────────────────────────────────
   document.querySelectorAll('nav button').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
@@ -280,127 +98,56 @@
     });
   });
 
-  // ── Helpers ───────────────────────────────────────────────────────────────
-  function isActiveHour() {
-    const h = new Date().getHours();
-    return h >= REFRESH_START && h < REFRESH_END;
-  }
-
-  function fmtTime(d) {
-    return new Intl.DateTimeFormat('de-DE', { hour: '2-digit', minute: '2-digit', day: '2-digit', month: '2-digit' }).format(d);
-  }
-
   function fmtAge(d) {
-    const m = Math.round((Date.now() - d) / 60000);
-    if (m < 2)   return 'gerade';
-    if (m < 60)  return `${m} min`;
-    return `${Math.round(m / 60)} Std.`;
-  }
-
-  function pauseMsg() {
-    const h = new Date().getHours();
-    if (h < REFRESH_START) return `pausiert · weiter ab ${REFRESH_START}:00 Uhr`;
-    return `pausiert · weiter morgen ${REFRESH_START}:00 Uhr`;
-  }
-
-  function setStatus(cls, txt) {
-    dotEl.className = cls;
-    labelEl.textContent = txt;
+    const m = Math.round((Date.now() - new Date(d)) / 60000);
+    if (m < 2)  return 'gerade';
+    if (m < 60) return `${m} min`;
+    return `${Math.round(m/60)} Std.`;
   }
 
   function esc(s) {
-    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
-  function stripHtml(html) {
-    const d = document.createElement('div');
-    d.innerHTML = html;
-    const t = (d.textContent || '').replace(/\s+/g,' ').trim();
-    return t.length > 200 ? t.slice(0,197)+'…' : t;
-  }
-
-  function dedup(arr) {
-    const seen = new Set();
-    return arr.filter(a => {
-      const k = a.title.toLowerCase().slice(0,55);
-      if (seen.has(k)) return false;
-      seen.add(k); return true;
-    });
-  }
-
-  // ── Fetch ─────────────────────────────────────────────────────────────────
-  async function fetchFeed(url, src) {
-    const r = await fetch(`${PROXY}${encodeURIComponent(url)}&count=${MAX_PER_FEED}`,
-                          { signal: AbortSignal.timeout(10000) });
-    if (!r.ok) throw new Error(r.status);
-    const d = await r.json();
-    if (d.status !== 'ok' || !Array.isArray(d.items)) return [];
-    return d.items.map(i => ({
-      title:   (i.title || '').trim(),
-      link:    i.link || '#',
-      summary: stripHtml(i.description || i.content || ''),
-      src,
-      pub: i.pubDate ? new Date(i.pubDate) : null,
-    })).filter(a => a.title);
-  }
-
-  // ── Render ────────────────────────────────────────────────────────────────
   function render(id, items) {
     const el = document.getElementById(id);
     if (!el) return;
-    if (!items.length) {
-      el.innerHTML = '<div class="state-msg">Keine Artikel geladen.</div>';
+    if (!items || !items.length) {
+      el.innerHTML = '<div class="state-msg">Keine Artikel verfügbar.</div>';
       return;
     }
-    el.innerHTML = items.slice(0, MAX_TOTAL).map(a => `
+    el.innerHTML = items.map(a => `
       <div class="article">
         <div class="article-title"><a href="${esc(a.link)}" target="_blank" rel="noopener noreferrer">${esc(a.title)}</a></div>
         ${a.summary ? `<div class="article-summary">${esc(a.summary)}</div>` : ''}
-        <div class="article-meta"><span class="article-source">${esc(a.src)}</span>${a.pub ? ` · ${fmtAge(a.pub)}` : ''}</div>
+        <div class="article-meta"><span class="article-source">${esc(a.source)}</span>${a.pubDate ? ` · ${fmtAge(a.pubDate)}` : ''}</div>
       </div>`).join('');
   }
 
-  function setLoading(id) {
-    const el = document.getElementById(id);
-    if (el) el.innerHTML = '<div class="state-msg"><span class="spinner"></span>Lade…</div>';
-  }
-
-  // ── Load all ──────────────────────────────────────────────────────────────
-  async function loadAll() {
-    lastFetch = Date.now();
-    setStatus('live', 'Aktualisiere…');
-
-    for (const [cat, feeds] of Object.entries(FEEDS)) {
-      setLoading('list-' + cat);
-      const results = await Promise.allSettled(feeds.map(f => fetchFeed(f.url, f.src)));
-      const all = results
-        .filter(r => r.status === 'fulfilled')
-        .flatMap(r => r.value)
-        .sort((a, b) => (b.pub || 0) - (a.pub || 0));
-      render('list-' + cat, dedup(all));
-    }
-
-    updatedEl.textContent = fmtTime(new Date());
-    setStatus('live', 'live');
-  }
-
-  // ── Scheduler ─────────────────────────────────────────────────────────────
-  function tick() {
-    if (!isActiveHour()) {
-      setStatus('paused', pauseMsg());
-      return;
-    }
-    if (Date.now() - lastFetch >= INTERVAL_MS || lastFetch === 0) {
-      loadAll();
+  async function load() {
+    try {
+      const base = document.location.pathname.replace(/\/[^/]*$/, '/');
+      const r = await fetch(`${base}news.json?ts=${Date.now()}`);
+      if (!r.ok) throw new Error(r.status);
+      const data = await r.json();
+      render('list-wirtschaft', data.wirtschaft || []);
+      render('list-politik',    data.politik    || []);
+      render('list-it',         data.it         || []);
+      document.getElementById('last-updated').textContent =
+        data.updatedAt ? new Intl.DateTimeFormat('de-DE',{hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'}).format(new Date(data.updatedAt)) : '—';
+    } catch(e) {
+      ['wirtschaft','politik','it'].forEach(cat => {
+        const el = document.getElementById('list-' + cat);
+        if (el) el.innerHTML = '<div class="state-msg">Fehler beim Laden von news.json</div>';
+      });
+      document.getElementById('status-dot').className = 'error';
+      document.getElementById('status-label').textContent = 'Fehler';
     }
   }
 
-  tick();
-  timerId = setInterval(tick, 60_000); // jede Minute prüfen
-
-  window.addEventListener('focus', () => {
-    if (isActiveHour() && Date.now() - lastFetch > INTERVAL_MS) loadAll();
-  });
+  load();
+  // Seite neu laden wenn sie wieder in den Fokus kommt
+  window.addEventListener('focus', load);
 })();
 </script>
 </body>
