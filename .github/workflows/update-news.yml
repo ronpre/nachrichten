@@ -2,11 +2,22 @@ name: RSS Feed aktualisieren
 
 on:
   schedule:
-    # Alle 4 Stunden von 07:00 bis 19:00 Uhr MEZ (= 05:00–17:00 UTC)
-    - cron: '0 5 * * *'   # 07:00 MEZ
-    - cron: '0 9 * * *'   # 11:00 MEZ
-    - cron: '0 13 * * *'  # 15:00 MEZ
-    - cron: '0 17 * * *'  # 19:00 MEZ
+    # Jede volle Stunde von 06:00 bis 20:00 Uhr MEZ (= 04:00–18:00 UTC)
+    - cron: '0 4  * * *'   # 06:00 MEZ
+    - cron: '0 5  * * *'   # 07:00 MEZ
+    - cron: '0 6  * * *'   # 08:00 MEZ
+    - cron: '0 7  * * *'   # 09:00 MEZ
+    - cron: '0 8  * * *'   # 10:00 MEZ
+    - cron: '0 9  * * *'   # 11:00 MEZ
+    - cron: '0 10 * * *'   # 12:00 MEZ
+    - cron: '0 11 * * *'   # 13:00 MEZ
+    - cron: '0 12 * * *'   # 14:00 MEZ
+    - cron: '0 13 * * *'   # 15:00 MEZ
+    - cron: '0 14 * * *'   # 16:00 MEZ
+    - cron: '0 15 * * *'   # 17:00 MEZ
+    - cron: '0 16 * * *'   # 18:00 MEZ
+    - cron: '0 17 * * *'   # 19:00 MEZ
+    - cron: '0 18 * * *'   # 20:00 MEZ
   workflow_dispatch:
 
 jobs:
