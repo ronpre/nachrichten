@@ -370,9 +370,9 @@
   let sentPool = [], sentIdx = 0;
   let testItems = [], testAnswers = [];
   let progress = { correct: 0, total: 0, sessions: [] };
-
-  // Session-Protokoll für PDF
   let sessionLog = [];
+  let seenVocab = new Set();
+  let seenSent  = new Set();
 
   try { const s = localStorage.getItem('lernapp-v3'); if (s) progress = JSON.parse(s); } catch {}
 
@@ -428,51 +428,62 @@
     return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
-  // ── PDF Download ──────────────────────────────────────────────────────
+  // ── Mail Panel ────────────────────────────────────────────────────────
   function sendMail(entries, correct, total, pct) {
     const date = new Date().toLocaleString('de-DE');
-    const subject = `Lernergebnis ${new Date().toISOString().slice(0,10)} · ${pct}% · ${diff}`;
-
-    const sep = '──────────────────────────────────────────────';
-    let body = '';
-    body += `LERNERGEBNIS\n`;
-    body += `${sep}\n`;
-    body += `Datum:             ${date}\n`;
-    body += `Schwierigkeit:     ${diff}\n`;
-    body += `Ergebnis:          ${correct} von ${total} richtig\n`;
-    body += `Trefferquote:      ${pct}%\n`;
-    body += `Bewertung:         ${pct >= 85 ? 'Ausgezeichnet' : pct >= 70 ? 'Gut' : 'Weiter üben'}\n`;
-    body += `${sep}\n\n`;
-
-    body += `ALLE AUFGABEN\n\n`;
-
+    const sep = '─────────────────────────────────────────';
+    let body = `LERNERGEBNIS\n${sep}\n`;
+    body += `Datum:          ${date}\n`;
+    body += `Schwierigkeit:  ${diff}\n`;
+    body += `Ergebnis:       ${correct} von ${total} richtig\n`;
+    body += `Trefferquote:   ${pct}%\n`;
+    body += `Bewertung:      ${pct >= 85 ? 'Ausgezeichnet' : pct >= 70 ? 'Gut' : 'Weiter üben'}\n`;
+    body += `${sep}\n\nALLE AUFGABEN\n\n`;
     entries.forEach((e, i) => {
-      const enOk = e.okEn ? '✓' : '✗';
-      const frOk = e.okFr ? '✓' : '✗';
       body += `${i + 1}. ${e.de}\n`;
-      body += `   ${enOk} Englisch:    ${e.en}\n`;
-      if (!e.okEn) {
-        body += `      Deine Eingabe: ${e.userEn || '(keine)'}\n`;
-        body += `      Korrektur:     ${e.en}\n`;
-      }
-      body += `   ${frOk} Französisch: ${e.fr}\n`;
-      if (!e.okFr) {
-        body += `      Deine Eingabe: ${e.userFr || '(keine)'}\n`;
-        body += `      Korrektur:     ${e.fr}\n`;
-      }
+      body += `   ${e.okEn ? '✓' : '✗'} EN: ${e.en}\n`;
+      if (!e.okEn) body += `      Eingabe: ${e.userEn || '(keine)'}  →  Korrektur: ${e.en}\n`;
+      body += `   ${e.okFr ? '✓' : '✗'} FR: ${e.fr}\n`;
+      if (!e.okFr) body += `      Eingabe: ${e.userFr || '(keine)'}  →  Korrektur: ${e.fr}\n`;
       body += '\n';
     });
+    body += `${sep}\nSprachlern-App`;
 
-    body += `${sep}\n`;
-    body += `Gesendet von: Sprachlern-App\n`;
+    // In-App panel — zeigt Text zum Kopieren
+    const existing = document.getElementById('mail-panel');
+    if (existing) existing.remove();
 
-    window.location.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const panel = document.createElement('div');
+    panel.id = 'mail-panel';
+    panel.style.cssText = `position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.75);z-index:100;display:flex;align-items:center;justify-content:center;padding:1rem`;
+    panel.innerHTML = `
+      <div style="background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:1.5rem;max-width:600px;width:100%;max-height:90vh;display:flex;flex-direction:column;gap:1rem">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:.85rem;color:var(--bright);font-weight:600">✉ Mail-Text kopieren</span>
+          <button onclick="document.getElementById('mail-panel').remove()" style="background:none;border:none;color:var(--dim);cursor:pointer;font-size:1.2rem;line-height:1">✕</button>
+        </div>
+        <div style="font-size:.78rem;color:var(--dim);line-height:1.5">Text markieren → kopieren → in dein Mail-Programm einfügen. Betreff: <strong style="color:var(--text)">Lernergebnis ${new Date().toISOString().slice(0,10)} · ${pct}%</strong></div>
+        <textarea id="mail-body" readonly style="flex:1;min-height:300px;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--text);resize:none;line-height:1.6">${body}</textarea>
+        <div style="display:flex;gap:8px">
+          <button class="btn btn-solid" onclick="
+            const ta=document.getElementById('mail-body');
+            ta.select();ta.setSelectionRange(0,99999);
+            navigator.clipboard.writeText(ta.value).then(()=>{
+              this.textContent='✓ Kopiert!';setTimeout(()=>this.textContent='Alles kopieren',1500);
+            }).catch(()=>{document.execCommand('copy');this.textContent='✓ Kopiert!';setTimeout(()=>this.textContent='Alles kopieren',1500);});
+          ">Alles kopieren</button>
+          <button class="btn" onclick="document.getElementById('mail-panel').remove()">Schließen</button>
+        </div>
+      </div>`;
+    document.body.appendChild(panel);
   }
 
   // ── Difficulty ──────────────────────────────────────────────────────
   document.querySelectorAll('.diff-pill').forEach(b => {
     b.addEventListener('click', () => {
       diff = b.dataset.d;
+      seenVocab.clear(); seenSent.clear();
+      vocabScores = {}; sentScores = {};
       document.querySelectorAll('.diff-pill').forEach(x => x.classList.remove('active'));
       b.classList.add('active');
       initVocab(); initSent(); initTest();
@@ -490,9 +501,32 @@
     });
   });
 
+  // ── Rotation / Spaced Repetition ──────────────────────────────────────
+  // score: 0 = nie gesehen / falsch, höher = öfter richtig → kommt später dran
+  let vocabScores = {}; // key: item.de → score 0..n
+  let sentScores  = {};
+
+  function weightedShuffle(items, scores) {
+    // Items mit niedrigem Score kommen bevorzugt zuerst
+    const scored = items.map(item => ({
+      item,
+      w: 1 / (1 + (scores[item.de] || 0))  // Gewicht: je öfter richtig, desto kleiner
+    }));
+    // Stochastische Sortierung nach Gewicht
+    scored.sort((a, b) => {
+      const ra = Math.random() * a.w;
+      const rb = Math.random() * b.w;
+      return rb - ra;
+    });
+    return scored.map(x => x.item);
+  }
+
   // ── VOCAB ────────────────────────────────────────────────────────────
   function initVocab() {
-    vocabPool = shuffle(VOCAB[diff] || VOCAB.beginner).slice(0, 10);
+    const all = VOCAB[diff] || VOCAB.beginner;
+    // Bevorzuge Items die noch nie oder selten richtig waren
+    const sorted = weightedShuffle(all, vocabScores);
+    vocabPool = sorted.slice(0, 10);
     vocabIdx = 0;
     sessionLog = [];
     renderVocab();
@@ -557,13 +591,16 @@
     if (okEn) progress.correct++;
     if (okFr) progress.correct++;
     sessionLog.push({ de: item.de, en: item.en, fr: item.fr, userEn: en, userFr: fr, okEn, okFr });
+    if (okEn && okFr) vocabScores[item.de] = (vocabScores[item.de] || 0) + 1;
+    else vocabScores[item.de] = 0;
     save(); updateProg();
     setTimeout(() => { vocabIdx++; renderVocab(); }, 5000);
   }
 
   // ── SENTENCES ────────────────────────────────────────────────────────
   function initSent() {
-    sentPool = shuffle(SENTS[diff] || SENTS.beginner);
+    const all = SENTS[diff] || SENTS.beginner;
+    sentPool = weightedShuffle(all, sentScores);
     sentIdx = 0;
     sessionLog = [];
     renderSent();
@@ -622,14 +659,17 @@
     if (okEn) progress.correct++;
     if (okFr) progress.correct++;
     sessionLog.push({ de: item.de, en: item.en, fr: item.fr, userEn: en, userFr: fr, okEn, okFr });
+    if (okEn && okFr) sentScores[item.de] = (sentScores[item.de] || 0) + 1;
+    else sentScores[item.de] = 0;
     save(); updateProg();
     setTimeout(() => { sentIdx++; renderSent(); }, 5000);
   }
 
   // ── TEST ─────────────────────────────────────────────────────────────
   function initTest() {
-    const v = shuffle(VOCAB[diff] || VOCAB.beginner).slice(0, 5);
-    const s = shuffle(SENTS[diff] || SENTS.beginner).slice(0, 3);
+    // Test nutzt auch Rotation: bevorzugt Items die noch Schwächen zeigen
+    const v = weightedShuffle(VOCAB[diff] || VOCAB.beginner, vocabScores).slice(0, 5);
+    const s = weightedShuffle(SENTS[diff] || SENTS.beginner, sentScores).slice(0, 3);
     testItems = [...v.map(x => ({ type: 'v', ...x })), ...s.map(x => ({ type: 's', ...x }))];
     testAnswers = testItems.map(() => ({ en: '', fr: '', doneEn: null, doneFr: null }));
     renderTest();
