@@ -204,4 +204,219 @@
   function sendMail(entries,correct,total,pct){
     const date=new Date().toLocaleString('de-DE');
     const sep='─────────────────────────────────────────';
-    let body=`LERNERGEBNIS\n${sep}\nDatum:         ${date}\nSchwieri
+    let body=`LERNERGEBNIS\n${sep}\nDatum:         ${date}\nSchwierigkeit: ${diff}\nErgebnis:      ${correct} von ${total} richtig\nTrefferquote:  ${pct}%\nBewertung:     ${pct>=85?'Ausgezeichnet':pct>=70?'Gut':'Weiter üben'}\n${sep}\n\nALLE AUFGABEN\n\n`;
+    entries.forEach((e,i)=>{
+      body+=`${i+1}. ${e.de}\n`;
+      body+=`   ${e.okEn?'✓':'✗'} EN: ${e.en}\n`;
+      if(!e.okEn)body+=`      Eingabe: ${e.userEn||'(keine)'}  →  Korrektur: ${e.en}\n`;
+      body+=`   ${e.okFr?'✓':'✗'} FR: ${e.fr}\n`;
+      if(!e.okFr)body+=`      Eingabe: ${e.userFr||'(keine)'}  →  Korrektur: ${e.fr}\n`;
+      body+='\n';
+    });
+    body+=`${sep}\nSprachlern-App`;
+
+    const old=document.getElementById('mail-panel');if(old)old.remove();
+    const panel=document.createElement('div');
+    panel.id='mail-panel';
+    panel.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);z-index:100;display:flex;align-items:center;justify-content:center;padding:1rem';
+    panel.innerHTML=`
+      <div style="background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:1.5rem;max-width:600px;width:100%;max-height:90vh;display:flex;flex-direction:column;gap:1rem">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:.85rem;color:var(--bright);font-weight:600">✉ Mail-Text</span>
+          <button onclick="document.getElementById('mail-panel').remove()" style="background:none;border:none;color:var(--dim);cursor:pointer;font-size:1.3rem">✕</button>
+        </div>
+        <div style="font-size:.78rem;color:var(--dim);line-height:1.5">
+          1. Auf <strong style="color:var(--text)">„Alles kopieren"</strong> klicken<br>
+          2. Mail-Programm öffnen → neue Mail → Text einfügen (Strg+V)<br>
+          3. Deine Adresse eintragen → senden<br>
+          <span style="margin-top:4px;display:block">Betreff: <strong style="color:var(--text)">Lernergebnis ${new Date().toISOString().slice(0,10)} · ${pct}%</strong></span>
+        </div>
+        <textarea id="mail-body" readonly style="flex:1;min-height:260px;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--text);resize:none;line-height:1.6">${body}</textarea>
+        <div style="display:flex;gap:8px">
+          <button class="btn btn-solid" id="copy-btn">Alles kopieren</button>
+          <button class="btn" onclick="document.getElementById('mail-panel').remove()">Schließen</button>
+        </div>
+      </div>`;
+    document.body.appendChild(panel);
+    document.getElementById('copy-btn').addEventListener('click',function(){
+      const ta=document.getElementById('mail-body');
+      ta.select();ta.setSelectionRange(0,99999);
+      const btn=this;
+      if(navigator.clipboard){
+        navigator.clipboard.writeText(ta.value).then(()=>{btn.textContent='✓ Kopiert!';setTimeout(()=>btn.textContent='Alles kopieren',2000);});
+      } else {
+        document.execCommand('copy');btn.textContent='✓ Kopiert!';setTimeout(()=>btn.textContent='Alles kopieren',2000);
+      }
+    });
+  }
+
+  document.querySelectorAll('.diff-pill').forEach(b=>{
+    b.addEventListener('click',()=>{
+      diff=b.dataset.d;vocabScores={};sentScores={};
+      document.querySelectorAll('.diff-pill').forEach(x=>x.classList.remove('active'));
+      b.classList.add('active');
+      initVocab();initSent();initTest();
+    });
+  });
+
+  document.querySelectorAll('.tabs button').forEach(t=>{
+    t.addEventListener('click',()=>{
+      document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));
+      document.querySelectorAll('.pane').forEach(x=>x.classList.remove('active'));
+      t.classList.add('active');
+      document.getElementById('pane-'+t.dataset.tab).classList.add('active');
+      if(t.dataset.tab==='stats')renderStats();
+    });
+  });
+
+  function initVocab(){
+    vocabPool=weightedShuffle(VOCAB[diff]||VOCAB.beginner,vocabScores).slice(0,10);
+    vocabIdx=0;sessionLog=[];renderVocab();
+  }
+
+  function renderVocab(){
+    const el=document.getElementById('vocab-area');
+    if(vocabIdx>=vocabPool.length){
+      el.innerHTML=`<div class="done-state"><div class="done-icon">✓</div><div class="done-title">Vokabeln abgeschlossen</div><div class="done-sub">${vocabPool.length} Wörter trainiert</div><div class="btn-row" style="justify-content:center"><button class="btn btn-solid" onclick="initVocab()">Nochmal</button></div></div>`;
+      return;
+    }
+    const item=vocabPool[vocabIdx];
+    el.innerHTML=`
+      <div class="counter">${vocabIdx+1} / ${vocabPool.length}</div>
+      <div class="card">
+        <div class="card-label">Deutsch</div>
+        <div class="word">${esc(item.de)}</div>
+        <div class="input-grid">
+          <div class="input-wrap"><div class="lang-label">🇬🇧 Englisch</div><input type="text" id="v-en" placeholder="Übersetzung…" autocomplete="off" spellcheck="false"/></div>
+          <div class="input-wrap"><div class="lang-label">🇫🇷 Französisch</div><input type="text" id="v-fr" placeholder="Traduction…" autocomplete="off" spellcheck="false"/></div>
+        </div>
+        <div class="btn-row"><button class="btn btn-solid" id="v-check">Prüfen</button><button class="btn" onclick="vocabIdx++;renderVocab()">Überspringen</button></div>
+        <div class="feedback" id="v-fb"></div>
+      </div>`;
+    const inEn=document.getElementById('v-en'),inFr=document.getElementById('v-fr');
+    inEn.focus();
+    inEn.addEventListener('keydown',e=>{if(e.key==='Enter')inFr.focus();});
+    inFr.addEventListener('keydown',e=>{if(e.key==='Enter')checkVocab(item);});
+    document.getElementById('v-check').addEventListener('click',()=>checkVocab(item));
+  }
+
+  function checkVocab(item){
+    const en=document.getElementById('v-en').value,fr=document.getElementById('v-fr').value;
+    const okEn=check(en,item.en),okFr=check(fr,item.fr);
+    const fb=document.getElementById('v-fb');fb.classList.add('show');
+    fb.innerHTML=`<div style="margin-bottom:4px"><span class="${okEn?'tag-ok':'tag-err'}">${okEn?'✓ EN':'✗ EN'}</span> ${okEn?'Richtig!':'Richtig: <strong>'+esc(item.en)+'</strong>'}</div><div><span class="${okFr?'tag-ok':'tag-err'}">${okFr?'✓ FR':'✗ FR'}</span> ${okFr?'Richtig!':'Solution: <strong>'+esc(item.fr)+'</strong>'}</div>`;
+    progress.total+=2;if(okEn)progress.correct++;if(okFr)progress.correct++;
+    sessionLog.push({de:item.de,en:item.en,fr:item.fr,userEn:en,userFr:fr,okEn,okFr});
+    if(okEn&&okFr)vocabScores[item.de]=(vocabScores[item.de]||0)+1;else vocabScores[item.de]=0;
+    save();updateProg();
+    setTimeout(()=>{vocabIdx++;renderVocab();},5000);
+  }
+
+  function initSent(){
+    sentPool=weightedShuffle(SENTS[diff]||SENTS.beginner,sentScores);
+    sentIdx=0;sessionLog=[];renderSent();
+  }
+
+  function renderSent(){
+    const el=document.getElementById('sent-area');
+    if(sentIdx>=sentPool.length){
+      el.innerHTML=`<div class="done-state"><div class="done-icon">✓</div><div class="done-title">Sätze abgeschlossen</div><div class="done-sub">${sentPool.length} Sätze trainiert</div><div class="btn-row" style="justify-content:center"><button class="btn btn-solid" onclick="initSent()">Nochmal</button></div></div>`;
+      return;
+    }
+    const item=sentPool[sentIdx];
+    el.innerHTML=`
+      <div class="counter">${sentIdx+1} / ${sentPool.length}</div>
+      <div class="card">
+        <div class="card-label">Deutsch</div>
+        <div class="word" style="font-size:1.15rem;line-height:1.5">${esc(item.de)}</div>
+        <div style="margin-bottom:.75rem"><div class="lang-label">🇬🇧 Englisch</div><textarea id="s-en" rows="2" placeholder="Übersetzung…" spellcheck="false"></textarea></div>
+        <div style="margin-bottom:1rem"><div class="lang-label">🇫🇷 Französisch</div><textarea id="s-fr" rows="2" placeholder="Traduction…" spellcheck="false"></textarea></div>
+        <div class="btn-row"><button class="btn btn-solid" id="s-check">Prüfen</button><button class="btn" onclick="sentIdx++;renderSent()">Überspringen</button></div>
+        <div class="feedback" id="s-fb"></div>
+      </div>`;
+    document.getElementById('s-en').focus();
+    document.getElementById('s-check').addEventListener('click',()=>checkSent(item));
+  }
+
+  function checkSent(item){
+    const en=document.getElementById('s-en').value,fr=document.getElementById('s-fr').value;
+    const okEn=check(en,item.en),okFr=check(fr,item.fr);
+    const fb=document.getElementById('s-fb');fb.classList.add('show');
+    fb.innerHTML=`<div style="margin-bottom:4px"><span class="${okEn?'tag-ok':'tag-err'}">${okEn?'✓ EN':'✗ EN'}</span> Musterlösung: <em>${esc(item.en)}</em></div><div><span class="${okFr?'tag-ok':'tag-err'}">${okFr?'✓ FR':'✗ FR'}</span> Solution: <em>${esc(item.fr)}</em></div>`;
+    progress.total+=2;if(okEn)progress.correct++;if(okFr)progress.correct++;
+    sessionLog.push({de:item.de,en:item.en,fr:item.fr,userEn:en,userFr:fr,okEn,okFr});
+    if(okEn&&okFr)sentScores[item.de]=(sentScores[item.de]||0)+1;else sentScores[item.de]=0;
+    save();updateProg();
+    setTimeout(()=>{sentIdx++;renderSent();},5000);
+  }
+
+  function initTest(){
+    const v=weightedShuffle(VOCAB[diff]||VOCAB.beginner,vocabScores).slice(0,5);
+    const s=weightedShuffle(SENTS[diff]||SENTS.beginner,sentScores).slice(0,3);
+    testItems=[...v.map(x=>({type:'v',...x})),...s.map(x=>({type:'s',...x}))];
+    testAnswers=testItems.map(()=>({en:'',fr:'',doneEn:null,doneFr:null}));
+    renderTest();
+  }
+
+  function renderTest(){
+    const el=document.getElementById('test-area');
+    let html=`<div style="font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--dim);margin-bottom:1rem">${testItems.length} Aufgaben · Vokabeln &amp; Sätze</div>`;
+    testItems.forEach((item,i)=>{
+      const a=testAnswers[i];
+      html+=`<div class="card">
+        <div class="card-label">${item.type==='v'?'Vokabel':'Satz'} ${i+1}</div>
+        <div class="word" style="font-size:${item.type==='v'?'1.4rem':'1.05rem'};line-height:1.4;margin-bottom:.9rem">${esc(item.de)}</div>
+        <div class="input-grid">
+          <div class="input-wrap"><div class="lang-label">🇬🇧 Englisch</div><input type="text" class="t-en" data-i="${i}" value="${esc(a.en)}" placeholder="…" autocomplete="off" spellcheck="false"/></div>
+          <div class="input-wrap"><div class="lang-label">🇫🇷 Französisch</div><input type="text" class="t-fr" data-i="${i}" value="${esc(a.fr)}" placeholder="…" autocomplete="off" spellcheck="false"/></div>
+        </div>
+        ${a.doneEn!==null?`<div style="margin-top:.5rem;font-size:.82rem"><span class="${a.doneEn?'tag-ok':'tag-err'}">${a.doneEn?'✓':'✗'} EN</span> ${esc(item.en)}&emsp;<span class="${a.doneFr?'tag-ok':'tag-err'}">${a.doneFr?'✓':'✗'} FR</span> ${esc(item.fr)}</div>`:''}
+      </div>`;
+    });
+    html+=`<div class="btn-row"><button class="btn btn-solid" id="t-submit">Abgeben</button><button class="btn" onclick="initTest()">Neu mischen</button></div><div id="t-result"></div>`;
+    el.innerHTML=html;
+    el.querySelectorAll('.t-en').forEach(inp=>inp.addEventListener('input',e=>{testAnswers[+e.target.dataset.i].en=e.target.value;}));
+    el.querySelectorAll('.t-fr').forEach(inp=>inp.addEventListener('input',e=>{testAnswers[+e.target.dataset.i].fr=e.target.value;}));
+    document.getElementById('t-submit').addEventListener('click',submitTest);
+  }
+
+  function submitTest(){
+    let correct=0;
+    testItems.forEach((item,i)=>{
+      const okEn=check(testAnswers[i].en,item.en),okFr=check(testAnswers[i].fr,item.fr);
+      testAnswers[i].doneEn=okEn;testAnswers[i].doneFr=okFr;
+      if(okEn)correct++;if(okFr)correct++;
+    });
+    const total=testItems.length*2,pct=Math.round(correct/total*100);
+    progress.sessions.push({date:new Date().toISOString().slice(0,10),score:pct,diff});
+    save();renderTest();
+    const r=document.getElementById('t-result');
+    if(r){
+      const testLog=testItems.map((item,i)=>({de:item.de,en:item.en,fr:item.fr,userEn:testAnswers[i].en,userFr:testAnswers[i].fr,okEn:testAnswers[i].doneEn,okFr:testAnswers[i].doneFr}));
+      const logStr=JSON.stringify(testLog).replace(/'/g,"\\'");
+      r.innerHTML=`
+        <div class="test-score ${pct>=70?'score-good':'score-bad'}">${pct}% · ${correct}/${total} richtig · ${pct>=85?'🎉 Ausgezeichnet!':pct>=70?'👍 Gut gemacht!':'💪 Weiter üben!'}</div>
+        <div style="margin-top:.75rem"><button class="btn btn-solid" id="mail-btn">✉ Ergebnis per E-Mail senden</button></div>`;
+      document.getElementById('mail-btn').addEventListener('click',()=>sendMail(testLog,correct,total,pct));
+    }
+  }
+
+  function renderStats(){
+    const el=document.getElementById('stats-area');
+    const pct=progress.total>0?Math.round(progress.correct/progress.total*100):0;
+    const sessions=(progress.sessions||[]).slice(-10).reverse();
+    el.innerHTML=`
+      <div class="stat-grid">
+        <div class="stat-box"><div class="stat-n">${progress.total}</div><div class="stat-l">Aufgaben</div></div>
+        <div class="stat-box"><div class="stat-n">${progress.correct}</div><div class="stat-l">Richtig</div></div>
+        <div class="stat-box"><div class="stat-n">${pct}%</div><div class="stat-l">Trefferquote</div></div>
+      </div>
+      ${sessions.length?`<div class="card"><div class="card-label" style="margin-bottom:.75rem">Letzte Tests</div>${sessions.map(s=>`<div class="session-row"><span style="color:var(--dim)">${s.date} · ${s.diff}</span><span style="font-weight:500;color:${s.score>=70?'var(--green)':'var(--red)'}">${s.score}%</span></div>`).join('')}</div>`:'<div style="color:var(--dim);font-size:.85rem;padding:.5rem 0">Noch keine Tests absolviert.</div>'}
+      <div style="margin-top:1rem"><button class="btn" onclick="if(confirm('Fortschritt wirklich zurücksetzen?')){localStorage.removeItem('lernapp-v4');progress={correct:0,total:0,sessions:[]};renderStats();updateProg();}">Fortschritt zurücksetzen</button></div>`;
+  }
+
+  initVocab();initSent();initTest();updateProg();
+})();
+</script>
+</body>
+</html>
