@@ -3,151 +3,722 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nachrichten</title>
+  <title>de → en & fr</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg: #0b0e13;
+      --bg:     #0b0e13;
+      --panel:  #111520;
       --border: #1e2535;
-      --border-bright: #2d3a52;
-      --text: #d8dde8;
-      --text-dim: #6b778f;
-      --text-bright: #eef1f8;
-      --green: #3ddc97;
-      --blue: #4d8fff;
+      --text:   #d8dde8;
+      --dim:    #6b778f;
+      --bright: #eef1f8;
+      --green:  #3ddc97;
+      --red:    #ff6b6b;
       --yellow: #f5c842;
-      --red: #ff5a5a;
-      font-family: "IBM Plex Sans", sans-serif;
-      font-size: 15px;
+      --blue:   #4d8fff;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); min-height: 100vh; display: flex; flex-direction: column; }
-
-    header {
-      padding: 1.2rem 1.6rem 0.9rem;
-      border-bottom: 1px solid var(--border);
-      display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", sans-serif;
+      font-size: 15px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
-    .logo { font-family: "IBM Plex Mono", monospace; font-size: 1rem; font-weight: 600; color: var(--text-bright); letter-spacing: 0.04em; }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: .6rem;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 10;
+    }
+    .logo {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--bright);
+      letter-spacing: .04em;
+    }
     .logo span { color: var(--green); }
-    .header-meta { font-family: "IBM Plex Mono", monospace; font-size: 0.72rem; color: var(--text-dim); display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
-    #status-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--text-dim); margin-right: 0.35rem; vertical-align: middle; transition: background 0.4s; }
-    #status-dot.live   { background: var(--green);  box-shadow: 0 0 6px var(--green); }
-    #status-dot.paused { background: var(--yellow); }
-    #status-dot.error  { background: var(--red); }
+    .diff-pills { display: flex; gap: 5px; }
+    .diff-pill {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: .75rem;
+      color: var(--dim);
+      cursor: pointer;
+      font-family: "IBM Plex Mono", monospace;
+      transition: .15s;
+    }
+    .diff-pill:hover { border-color: var(--dim); color: var(--text); }
+    .diff-pill.active { background: var(--bright); color: var(--bg); border-color: var(--bright); }
 
-    nav { display: flex; border-bottom: 1px solid var(--border); padding: 0 1.6rem; overflow-x: auto; }
-    nav button { background: none; border: none; padding: 0.65rem 1rem; font-family: "IBM Plex Mono", monospace; font-size: 0.78rem; color: var(--text-dim); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color 0.15s, border-color 0.15s; white-space: nowrap; }
-    nav button:hover { color: var(--text); }
-    nav button[data-tab="wirtschaft"].active { color: var(--green);  border-bottom-color: var(--green); }
-    nav button[data-tab="politik"].active    { color: var(--blue);   border-bottom-color: var(--blue); }
-    nav button[data-tab="it"].active         { color: var(--yellow); border-bottom-color: var(--yellow); }
+    /* ── Progress bar ── */
+    .prog-wrap { height: 2px; background: var(--border); }
+    .prog-fill  { height: 100%; background: var(--green); transition: width .4s; width: 0; }
 
-    main { flex: 1; max-width: 820px; width: 100%; margin: 0 auto; padding: 0.8rem 1.6rem 3rem; }
-    .tab-pane { display: none; }
-    .tab-pane.active { display: block; }
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.6rem;
+      overflow-x: auto;
+    }
+    .tabs button {
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      padding: .65rem 1rem;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: .78rem;
+      color: var(--dim);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: .15s;
+    }
+    .tabs button:hover { color: var(--text); }
+    .tabs button.active[data-tab="vocab"]     { color: var(--green);  border-bottom-color: var(--green); }
+    .tabs button.active[data-tab="sentences"] { color: var(--blue);   border-bottom-color: var(--blue); }
+    .tabs button.active[data-tab="test"]      { color: var(--yellow); border-bottom-color: var(--yellow); }
+    .tabs button.active[data-tab="stats"]     { color: var(--dim);    border-bottom-color: var(--dim); }
 
-    .article { padding: 0.9rem 0; border-bottom: 1px solid var(--border); }
-    .article:last-child { border-bottom: none; }
-    .article-title { font-size: 0.93rem; font-weight: 500; color: var(--text-bright); line-height: 1.4; }
-    .article-title a { color: inherit; text-decoration: none; }
-    .article-title a:hover { color: var(--green); }
-    .article-summary { font-size: 0.81rem; color: var(--text-dim); line-height: 1.5; margin-top: 0.2rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .article-meta { font-family: "IBM Plex Mono", monospace; font-size: 0.68rem; color: var(--text-dim); margin-top: 0.3rem; }
-    .article-source { font-weight: 600; }
+    /* ── Main ── */
+    main {
+      flex: 1;
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1.4rem 1.6rem 4rem;
+    }
+    .pane { display: none; }
+    .pane.active { display: block; }
 
-    .state-msg { padding: 3rem 0; text-align: center; font-family: "IBM Plex Mono", monospace; font-size: 0.78rem; color: var(--text-dim); }
-    .spinner { display: inline-block; width: 12px; height: 12px; border: 2px solid var(--border-bright); border-top-color: var(--green); border-radius: 50%; animation: spin 0.8s linear infinite; vertical-align: middle; margin-right: 0.45rem; }
-    @keyframes spin { to { transform: rotate(360deg); } }
+    /* ── Cards ── */
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .card-label {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: .68rem;
+      color: var(--dim);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: .5rem;
+    }
+    .word {
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: var(--bright);
+      margin-bottom: 1.1rem;
+      line-height: 1.2;
+    }
 
-    footer { border-top: 1px solid var(--border); padding: 0.7rem 1.6rem; font-family: "IBM Plex Mono", monospace; font-size: 0.68rem; color: var(--text-dim); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.4rem; }
-    @media (max-width: 560px) { header, main, footer { padding-left: 1rem; padding-right: 1rem; } nav { padding: 0 1rem; } }
+    /* ── Inputs ── */
+    .input-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 1rem; }
+    .input-wrap .lang-label { font-size: .72rem; color: var(--dim); margin-bottom: 4px; }
+    input[type=text], textarea {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: .9rem;
+      color: var(--bright);
+      font-family: "IBM Plex Sans", sans-serif;
+      outline: none;
+      resize: none;
+      transition: border-color .15s;
+    }
+    input[type=text]:focus, textarea:focus { border-color: var(--dim); }
+
+    /* ── Buttons ── */
+    .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 18px;
+      font-size: .85rem;
+      color: var(--text);
+      cursor: pointer;
+      font-family: "IBM Plex Sans", sans-serif;
+      transition: .12s;
+    }
+    .btn:hover { border-color: var(--dim); }
+    .btn:active { transform: scale(.98); }
+    .btn-solid {
+      background: var(--bright);
+      color: var(--bg);
+      border-color: var(--bright);
+      font-weight: 500;
+    }
+    .btn-solid:hover { opacity: .88; }
+
+    /* ── Feedback ── */
+    .feedback {
+      display: none;
+      margin-top: .9rem;
+      padding: .9rem 1rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      font-size: .83rem;
+      line-height: 1.7;
+    }
+    .feedback.show { display: block; }
+    .tag-ok  { background: rgba(61,220,151,.15); color: var(--green);  border-radius: 4px; padding: 1px 7px; font-size: .72rem; font-weight: 600; }
+    .tag-err { background: rgba(255,107,107,.13); color: var(--red);   border-radius: 4px; padding: 1px 7px; font-size: .72rem; font-weight: 600; }
+
+    /* ── Counter ── */
+    .counter {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: .72rem;
+      color: var(--dim);
+      margin-bottom: .9rem;
+    }
+
+    /* ── Done state ── */
+    .done-state {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .done-icon { font-size: 2.5rem; margin-bottom: .5rem; }
+    .done-title { font-size: 1.1rem; font-weight: 500; color: var(--bright); margin-bottom: .3rem; }
+    .done-sub { font-size: .85rem; color: var(--dim); margin-bottom: 1.2rem; }
+
+    /* ── Stats ── */
+    .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 1.2rem; }
+    .stat-box { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: .9rem 1rem; }
+    .stat-n { font-size: 1.6rem; font-weight: 500; color: var(--bright); }
+    .stat-l { font-size: .75rem; color: var(--dim); margin-top: 2px; }
+    .session-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .5rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: .83rem;
+    }
+    .session-row:last-child { border-bottom: none; }
+
+    /* ── Test result ── */
+    .test-score {
+      padding: 1rem 1.2rem;
+      border-radius: 10px;
+      font-size: .9rem;
+      font-weight: 500;
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .score-good { background: rgba(61,220,151,.12); color: var(--green); border: 1px solid rgba(61,220,151,.3); }
+    .score-bad  { background: rgba(255,107,107,.1);  color: var(--red);   border: 1px solid rgba(255,107,107,.25); }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: .7rem 1.6rem;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: .68rem;
+      color: var(--dim);
+      text-align: center;
+    }
+
+    @media (max-width: 540px) {
+      header, main { padding-left: 1rem; padding-right: 1rem; }
+      .tabs { padding: 0 1rem; }
+      .input-grid { grid-template-columns: 1fr; }
+      .stat-grid { grid-template-columns: repeat(2, 1fr); }
+    }
   </style>
 </head>
 <body>
+
 <header>
-  <div class="logo">nachrichten<span>.</span></div>
-  <div class="header-meta">
-    <span><span id="status-dot" class="live"></span><span id="status-label">live</span></span>
-    <span>aktualisiert: <strong id="last-updated">—</strong></span>
+  <div class="logo">de <span>→</span> en &amp; fr</div>
+  <div class="diff-pills">
+    <button class="diff-pill active" data-d="beginner">Anfänger</button>
+    <button class="diff-pill" data-d="intermediate">Fortgeschritten</button>
+    <button class="diff-pill" data-d="native">Muttersprachler</button>
   </div>
 </header>
-<nav>
-  <button class="active" data-tab="wirtschaft">wirtschaft</button>
-  <button data-tab="politik">politik</button>
-  <button data-tab="it">it</button>
-</nav>
+
+<div class="prog-wrap"><div class="prog-fill" id="progBar"></div></div>
+
+<div class="tabs">
+  <button class="active" data-tab="vocab">Vokabeln</button>
+  <button data-tab="sentences">Sätze</button>
+  <button data-tab="test">Test</button>
+  <button data-tab="stats">Fortschritt</button>
+</div>
+
 <main>
-  <div class="tab-pane active" id="pane-wirtschaft"><div id="list-wirtschaft"><div class="state-msg"><span class="spinner"></span>Lade…</div></div></div>
-  <div class="tab-pane" id="pane-politik"><div id="list-politik"><div class="state-msg"><span class="spinner"></span>Lade…</div></div></div>
-  <div class="tab-pane" id="pane-it"><div id="list-it"><div class="state-msg"><span class="spinner"></span>Lade…</div></div></div>
+  <div class="pane active" id="pane-vocab">
+    <div id="vocab-area"></div>
+  </div>
+  <div class="pane" id="pane-sentences">
+    <div id="sent-area"></div>
+  </div>
+  <div class="pane" id="pane-test">
+    <div id="test-area"></div>
+  </div>
+  <div class="pane" id="pane-stats">
+    <div id="stats-area"></div>
+  </div>
 </main>
-<footer>
-  <span>tagesschau · n-tv · heise · golem</span>
-  <span>auto-refresh via GitHub Actions · stündlich 06–17 Uhr</span>
-</footer>
+
+<footer>Fortschritt wird lokal gespeichert · de → en &amp; fr · <span id="footerDate"></span></footer>
+
 <script>
 (() => {
-  document.querySelectorAll('nav button').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
-      document.getElementById('pane-' + btn.dataset.tab).classList.add('active');
-    });
-  });
+  'use strict';
 
-  function fmtAge(d) {
-    const m = Math.round((Date.now() - new Date(d)) / 60000);
-    if (m < 2)  return 'gerade';
-    if (m < 60) return `${m} min`;
-    return `${Math.round(m/60)} Std.`;
+  const VOCAB = {
+    beginner: [
+      {de:'Haus',en:'house',fr:'maison'},{de:'Freund',en:'friend',fr:'ami'},{de:'Wasser',en:'water',fr:'eau'},
+      {de:'Brot',en:'bread',fr:'pain'},{de:'Tag',en:'day',fr:'jour'},{de:'Nacht',en:'night',fr:'nuit'},
+      {de:'Kind',en:'child',fr:'enfant'},{de:'Auto',en:'car',fr:'voiture'},{de:'Buch',en:'book',fr:'livre'},
+      {de:'Essen',en:'food',fr:'nourriture'},{de:'Wetter',en:'weather',fr:'météo'},{de:'Zeit',en:'time',fr:'temps'},
+      {de:'Geld',en:'money',fr:'argent'},{de:'Stadt',en:'city',fr:'ville'},{de:'Tür',en:'door',fr:'porte'},
+      {de:'Fenster',en:'window',fr:'fenêtre'},{de:'Tisch',en:'table',fr:'table'},{de:'Stuhl',en:'chair',fr:'chaise'},
+      {de:'Hund',en:'dog',fr:'chien'},{de:'Katze',en:'cat',fr:'chat'},{de:'Baum',en:'tree',fr:'arbre'},
+      {de:'Blume',en:'flower',fr:'fleur'},{de:'Sonne',en:'sun',fr:'soleil'},{de:'Mond',en:'moon',fr:'lune'},
+      {de:'Woche',en:'week',fr:'semaine'},{de:'Jahr',en:'year',fr:'année'},{de:'Name',en:'name',fr:'nom'},
+      {de:'Straße',en:'street',fr:'rue'},{de:'Schule',en:'school',fr:'école'},{de:'Arbeit',en:'work',fr:'travail'},
+    ],
+    intermediate: [
+      {de:'Gesundheit',en:'health',fr:'santé'},{de:'Krankenhaus',en:'hospital',fr:'hôpital'},
+      {de:'Sprache',en:'language',fr:'langue'},{de:'Geschichte',en:'history',fr:'histoire'},
+      {de:'Reise',en:'journey',fr:'voyage'},{de:'Entscheidung',en:'decision',fr:'décision'},
+      {de:'Verantwortung',en:'responsibility',fr:'responsabilité'},{de:'Erfahrung',en:'experience',fr:'expérience'},
+      {de:'Möglichkeit',en:'possibility',fr:'possibilité'},{de:'Gesellschaft',en:'society',fr:'société'},
+      {de:'Regierung',en:'government',fr:'gouvernement'},{de:'Wirtschaft',en:'economy',fr:'économie'},
+      {de:'Umwelt',en:'environment',fr:'environnement'},{de:'Entwicklung',en:'development',fr:'développement'},
+      {de:'Wissenschaft',en:'science',fr:'science'},{de:'Technologie',en:'technology',fr:'technologie'},
+      {de:'Bildung',en:'education',fr:'éducation'},{de:'Freiheit',en:'freedom',fr:'liberté'},
+      {de:'Freundschaft',en:'friendship',fr:'amitié'},{de:'Vertrauen',en:'trust',fr:'confiance'},
+    ],
+    native: [
+      {de:'Nachhaltigkeit',en:'sustainability',fr:'durabilité'},
+      {de:'Auseinandersetzung',en:'confrontation',fr:'confrontation'},
+      {de:'Behauptung',en:'assertion',fr:'assertion'},
+      {de:'Vermächtnis',en:'legacy',fr:'héritage'},
+      {de:'Verschwendung',en:'waste',fr:'gaspillage'},
+      {de:'Unabhängigkeit',en:'independence',fr:'indépendance'},
+      {de:'Zusammenhang',en:'context',fr:'contexte'},
+      {de:'Gleichgewicht',en:'balance',fr:'équilibre'},
+      {de:'Wahrnehmung',en:'perception',fr:'perception'},
+      {de:'Überzeugung',en:'conviction',fr:'conviction'},
+      {de:'Anerkennung',en:'recognition',fr:'reconnaissance'},
+      {de:'Weltanschauung',en:'worldview',fr:'vision du monde'},
+      {de:'Veranschaulichung',en:'illustration',fr:'illustration'},
+      {de:'Selbstbestimmung',en:'self-determination',fr:'autodétermination'},
+      {de:'Verhältnismäßigkeit',en:'proportionality',fr:'proportionnalité'},
+    ],
+  };
+
+  const SENTS = {
+    beginner: [
+      {de:'Ich trinke Kaffee.',en:'I drink coffee.',fr:'Je bois du café.'},
+      {de:'Das Wetter ist schön heute.',en:'The weather is nice today.',fr:'Le temps est beau aujourd\'hui.'},
+      {de:'Wo ist die Schule?',en:'Where is the school?',fr:'Où est l\'école ?'},
+      {de:'Ich habe Hunger.',en:'I am hungry.',fr:'J\'ai faim.'},
+      {de:'Das Kind spielt im Garten.',en:'The child plays in the garden.',fr:'L\'enfant joue dans le jardin.'},
+      {de:'Kannst du mir helfen?',en:'Can you help me?',fr:'Peux-tu m\'aider ?'},
+      {de:'Ich wohne in Berlin.',en:'I live in Berlin.',fr:'J\'habite à Berlin.'},
+      {de:'Wie spät ist es?',en:'What time is it?',fr:'Quelle heure est-il ?'},
+      {de:'Das Buch ist interessant.',en:'The book is interesting.',fr:'Le livre est intéressant.'},
+      {de:'Ich gehe nach Hause.',en:'I am going home.',fr:'Je rentre à la maison.'},
+    ],
+    intermediate: [
+      {de:'Die Entscheidung war schwierig.',en:'The decision was difficult.',fr:'La décision était difficile.'},
+      {de:'Ich reise gern ins Ausland.',en:'I enjoy travelling abroad.',fr:'J\'aime voyager à l\'étranger.'},
+      {de:'Die Umwelt muss geschützt werden.',en:'The environment must be protected.',fr:'L\'environnement doit être protégé.'},
+      {de:'Er hat viel Erfahrung in seinem Beruf.',en:'He has a lot of experience in his profession.',fr:'Il a beaucoup d\'expérience dans son métier.'},
+      {de:'Die Wirtschaft wächst langsam.',en:'The economy is growing slowly.',fr:'L\'économie croît lentement.'},
+      {de:'Bildung ist ein Grundrecht.',en:'Education is a fundamental right.',fr:'L\'éducation est un droit fondamental.'},
+      {de:'Ich schätze deine Ehrlichkeit.',en:'I appreciate your honesty.',fr:'J\'apprécie ton honnêteté.'},
+    ],
+    native: [
+      {de:'Die nachhaltige Entwicklung ist eine globale Herausforderung.',en:'Sustainable development is a global challenge.',fr:'Le développement durable est un défi mondial.'},
+      {de:'Ohne Anerkennung verliert die Arbeit ihren Sinn.',en:'Without recognition, work loses its meaning.',fr:'Sans reconnaissance, le travail perd son sens.'},
+      {de:'Die Wahrnehmung der Realität ist subjektiv.',en:'The perception of reality is subjective.',fr:'La perception de la réalité est subjective.'},
+      {de:'Selbstbestimmung und Verantwortung gehören zusammen.',en:'Self-determination and responsibility go together.',fr:'L\'autodétermination et la responsabilité vont de pair.'},
+    ],
+  };
+
+  let diff = 'beginner';
+  let vocabPool = [], vocabIdx = 0;
+  let sentPool = [], sentIdx = 0;
+  let testItems = [], testAnswers = [];
+  let progress = { correct: 0, total: 0, sessions: [] };
+
+  // Session-Protokoll für PDF
+  let sessionLog = [];
+
+  try { const s = localStorage.getItem('lernapp-v3'); if (s) progress = JSON.parse(s); } catch {}
+
+  document.getElementById('footerDate').textContent = new Date().toISOString().slice(0, 10);
+
+  function save() { try { localStorage.setItem('lernapp-v3', JSON.stringify(progress)); } catch {} }
+
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function norm(s) {
+    return String(s || '').toLowerCase()
+      .replace(/[àâ]/g, 'a').replace(/[éèêë]/g, 'e').replace(/[îï]/g, 'i')
+      .replace(/[ôö]/g, 'o').replace(/[ùûü]/g, 'u').replace(/ç/g, 'c')
+      .replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss')
+      .replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim();
+  }
+
+  function levenshtein(a, b) {
+    const m = a.length, n = b.length;
+    const dp = Array.from({ length: m + 1 }, (_, i) => i);
+    for (let j = 1; j <= n; j++) {
+      let prev = dp[0]; dp[0] = j;
+      for (let i = 1; i <= m; i++) {
+        const tmp = dp[i];
+        dp[i] = a[i - 1] === b[j - 1] ? prev : 1 + Math.min(prev, dp[i], dp[i - 1]);
+        prev = tmp;
+      }
+    }
+    return dp[m];
+  }
+
+  function check(user, correct) {
+    const u = norm(user), c = norm(correct);
+    if (!u) return false;
+    if (u === c) return true;
+    const maxLen = Math.max(u.length, c.length, 1);
+    return levenshtein(u, c) / maxLen < 0.15;
+  }
+
+  function updateProg() {
+    const t = (vocabPool.length + sentPool.length) * 2;
+    document.getElementById('progBar').style.width = t > 0 ? Math.min(100, Math.round(progress.correct / t * 100)) + '%' : '0%';
   }
 
   function esc(s) {
-    return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
-  function render(id, items) {
-    const el = document.getElementById(id);
-    if (!el) return;
-    if (!items || !items.length) {
-      el.innerHTML = '<div class="state-msg">Keine Artikel verfügbar.</div>';
+  // ── PDF Download ──────────────────────────────────────────────────────
+  function sendMail(title, entries) {
+    const date = new Date().toLocaleString('de-DE');
+    const correct = entries.filter(e => e.okEn && e.okFr).length;
+    const pct = entries.length > 0 ? Math.round(correct / entries.length * 100) : 0;
+
+    const subject = `Lernergebnis – ${title} – ${new Date().toISOString().slice(0,10)}`;
+
+    let body = `Lernergebnis: ${title}\n`;
+    body += `Datum: ${date}\n`;
+    body += `Schwierigkeitsstufe: ${diff}\n`;
+    body += `Ergebnis: ${correct}/${entries.length} richtig (${pct}%)\n`;
+    body += `${'─'.repeat(50)}\n\n`;
+
+    entries.forEach((e, i) => {
+      body += `${i + 1}. ${e.de}\n`;
+      body += `   EN: ${e.okEn ? '✓' : '✗'}  Richtig: ${e.en}\n`;
+      if (!e.okEn) body += `        Deine Eingabe: ${e.userEn || '(keine)'}\n`;
+      body += `   FR: ${e.okFr ? '✓' : '✗'}  Richtig: ${e.fr}\n`;
+      if (!e.okFr) body += `        Deine Eingabe: ${e.userFr || '(keine)'}\n`;
+      body += '\n';
+    });
+
+    const mailto = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailto;
+  }
+
+  function pdfBtn(title, entries) {
+    return `<button class="btn" style="margin-top:.5rem" onclick='sendMail(${JSON.stringify(title)}, ${JSON.stringify(entries)})'>✉ Ergebnis per E-Mail senden</button>`;
+  }
+
+  // ── Difficulty ──────────────────────────────────────────────────────
+  document.querySelectorAll('.diff-pill').forEach(b => {
+    b.addEventListener('click', () => {
+      diff = b.dataset.d;
+      document.querySelectorAll('.diff-pill').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      initVocab(); initSent(); initTest();
+    });
+  });
+
+  // ── Tabs ────────────────────────────────────────────────────────────
+  document.querySelectorAll('.tabs button').forEach(t => {
+    t.addEventListener('click', () => {
+      document.querySelectorAll('.tabs button').forEach(x => x.classList.remove('active'));
+      document.querySelectorAll('.pane').forEach(x => x.classList.remove('active'));
+      t.classList.add('active');
+      document.getElementById('pane-' + t.dataset.tab).classList.add('active');
+      if (t.dataset.tab === 'stats') renderStats();
+    });
+  });
+
+  // ── VOCAB ────────────────────────────────────────────────────────────
+  function initVocab() {
+    vocabPool = shuffle(VOCAB[diff] || VOCAB.beginner).slice(0, 10);
+    vocabIdx = 0;
+    sessionLog = [];
+    renderVocab();
+  }
+
+  function renderVocab() {
+    const el = document.getElementById('vocab-area');
+    if (vocabIdx >= vocabPool.length) {
+      el.innerHTML = `<div class="done-state">
+        <div class="done-icon">✓</div>
+        <div class="done-title">Vokabeln abgeschlossen</div>
+        <div class="done-sub">${vocabPool.length} Wörter trainiert</div>
+        <div class="btn-row" style="justify-content:center">
+          <button class="btn btn-solid" onclick="initVocab()">Nochmal</button>
+        </div>
+        <div style="margin-top:.75rem;text-align:center">${pdfBtn('Vokabeln', sessionLog)}</div>
+      </div>`;
       return;
     }
-    el.innerHTML = items.map(a => `
-      <div class="article">
-        <div class="article-title"><a href="${esc(a.link)}" target="_blank" rel="noopener noreferrer">${esc(a.title)}</a></div>
-        ${a.summary ? `<div class="article-summary">${esc(a.summary)}</div>` : ''}
-        <div class="article-meta"><span class="article-source">${esc(a.source)}</span>${a.pubDate ? ` · ${fmtAge(a.pubDate)}` : ''}</div>
-      </div>`).join('');
+    const item = vocabPool[vocabIdx];
+    el.innerHTML = `
+      <div class="counter">${vocabIdx + 1} / ${vocabPool.length}</div>
+      <div class="card">
+        <div class="card-label">Deutsch</div>
+        <div class="word">${esc(item.de)}</div>
+        <div class="input-grid">
+          <div class="input-wrap">
+            <div class="lang-label">🇬🇧 Englisch</div>
+            <input type="text" id="v-en" placeholder="Übersetzung…" autocomplete="off" spellcheck="false" />
+          </div>
+          <div class="input-wrap">
+            <div class="lang-label">🇫🇷 Französisch</div>
+            <input type="text" id="v-fr" placeholder="Traduction…" autocomplete="off" spellcheck="false" />
+          </div>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-solid" id="v-check">Prüfen</button>
+          <button class="btn" onclick="vocabIdx++;renderVocab()">Überspringen</button>
+        </div>
+        <div class="feedback" id="v-fb"></div>
+      </div>`;
+    const inEn = document.getElementById('v-en');
+    const inFr = document.getElementById('v-fr');
+    inEn.focus();
+    inEn.addEventListener('keydown', e => { if (e.key === 'Enter') inFr.focus(); });
+    inFr.addEventListener('keydown', e => { if (e.key === 'Enter') checkVocab(item); });
+    document.getElementById('v-check').addEventListener('click', () => checkVocab(item));
   }
 
-  async function load() {
-    try {
-      const r = await fetch('news.json', { cache: 'no-store' });
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      const data = await r.json();
-      render('list-wirtschaft', data.wirtschaft || []);
-      render('list-politik',    data.politik    || []);
-      render('list-it',         data.it         || []);
-      document.getElementById('last-updated').textContent =
-        data.updatedAt ? new Intl.DateTimeFormat('de-DE',{hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'}).format(new Date(data.updatedAt)) : '—';
-    } catch(e) {
-      console.error('news.json Fehler:', e);
-      ['wirtschaft','politik','it'].forEach(cat => {
-        const el = document.getElementById('list-' + cat);
-        if (el) el.innerHTML = '<div class="state-msg">Fehler: ' + e.message + '</div>';
-      });
-      document.getElementById('status-dot').className = 'error';
-      document.getElementById('status-label').textContent = 'Fehler';
+  function checkVocab(item) {
+    const en = document.getElementById('v-en').value;
+    const fr = document.getElementById('v-fr').value;
+    const okEn = check(en, item.en);
+    const okFr = check(fr, item.fr);
+    const fb = document.getElementById('v-fb');
+    fb.classList.add('show');
+    fb.innerHTML = `
+      <div style="margin-bottom:4px"><span class="${okEn ? 'tag-ok' : 'tag-err'}">${okEn ? '✓ EN' : '✗ EN'}</span>
+        ${okEn ? 'Richtig!' : 'Richtig: <strong>' + esc(item.en) + '</strong>'}</div>
+      <div><span class="${okFr ? 'tag-ok' : 'tag-err'}">${okFr ? '✓ FR' : '✗ FR'}</span>
+        ${okFr ? 'Richtig!' : 'Solution : <strong>' + esc(item.fr) + '</strong>'}</div>`;
+    progress.total += 2;
+    if (okEn) progress.correct++;
+    if (okFr) progress.correct++;
+    sessionLog.push({ de: item.de, en: item.en, fr: item.fr, userEn: en, userFr: fr, okEn, okFr });
+    save(); updateProg();
+    setTimeout(() => { vocabIdx++; renderVocab(); }, 5000);
+  }
+
+  // ── SENTENCES ────────────────────────────────────────────────────────
+  function initSent() {
+    sentPool = shuffle(SENTS[diff] || SENTS.beginner);
+    sentIdx = 0;
+    sessionLog = [];
+    renderSent();
+  }
+
+  function renderSent() {
+    const el = document.getElementById('sent-area');
+    if (sentIdx >= sentPool.length) {
+      el.innerHTML = `<div class="done-state">
+        <div class="done-icon">✓</div>
+        <div class="done-title">Sätze abgeschlossen</div>
+        <div class="done-sub">${sentPool.length} Sätze trainiert</div>
+        <div class="btn-row" style="justify-content:center">
+          <button class="btn btn-solid" onclick="initSent()">Nochmal</button>
+        </div>
+        <div style="margin-top:.75rem;text-align:center">${pdfBtn('Sätze', sessionLog)}</div>
+      </div>`;
+      return;
+    }
+    const item = sentPool[sentIdx];
+    el.innerHTML = `
+      <div class="counter">${sentIdx + 1} / ${sentPool.length}</div>
+      <div class="card">
+        <div class="card-label">Deutsch</div>
+        <div class="word" style="font-size:1.15rem;line-height:1.5">${esc(item.de)}</div>
+        <div style="margin-bottom:.75rem">
+          <div class="lang-label">🇬🇧 Englisch</div>
+          <textarea id="s-en" rows="2" placeholder="Übersetzung…" spellcheck="false"></textarea>
+        </div>
+        <div style="margin-bottom:1rem">
+          <div class="lang-label">🇫🇷 Französisch</div>
+          <textarea id="s-fr" rows="2" placeholder="Traduction…" spellcheck="false"></textarea>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-solid" id="s-check">Prüfen</button>
+          <button class="btn" onclick="sentIdx++;renderSent()">Überspringen</button>
+        </div>
+        <div class="feedback" id="s-fb"></div>
+      </div>`;
+    document.getElementById('s-en').focus();
+    document.getElementById('s-check').addEventListener('click', () => checkSent(item));
+  }
+
+  function checkSent(item) {
+    const en = document.getElementById('s-en').value;
+    const fr = document.getElementById('s-fr').value;
+    const okEn = check(en, item.en);
+    const okFr = check(fr, item.fr);
+    const fb = document.getElementById('s-fb');
+    fb.classList.add('show');
+    fb.innerHTML = `
+      <div style="margin-bottom:4px"><span class="${okEn ? 'tag-ok' : 'tag-err'}">${okEn ? '✓ EN' : '✗ EN'}</span>
+        Musterlösung: <em>${esc(item.en)}</em></div>
+      <div><span class="${okFr ? 'tag-ok' : 'tag-err'}">${okFr ? '✓ FR' : '✗ FR'}</span>
+        Solution : <em>${esc(item.fr)}</em></div>`;
+    progress.total += 2;
+    if (okEn) progress.correct++;
+    if (okFr) progress.correct++;
+    sessionLog.push({ de: item.de, en: item.en, fr: item.fr, userEn: en, userFr: fr, okEn, okFr });
+    save(); updateProg();
+    setTimeout(() => { sentIdx++; renderSent(); }, 5000);
+  }
+
+  // ── TEST ─────────────────────────────────────────────────────────────
+  function initTest() {
+    const v = shuffle(VOCAB[diff] || VOCAB.beginner).slice(0, 5);
+    const s = shuffle(SENTS[diff] || SENTS.beginner).slice(0, 3);
+    testItems = [...v.map(x => ({ type: 'v', ...x })), ...s.map(x => ({ type: 's', ...x }))];
+    testAnswers = testItems.map(() => ({ en: '', fr: '', doneEn: null, doneFr: null }));
+    renderTest();
+  }
+
+  function renderTest() {
+    const el = document.getElementById('test-area');
+    let html = `<div style="font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--dim);margin-bottom:1rem">${testItems.length} Aufgaben · Vokabeln &amp; Sätze</div>`;
+    testItems.forEach((item, i) => {
+      const a = testAnswers[i];
+      html += `<div class="card">
+        <div class="card-label">${item.type === 'v' ? 'Vokabel' : 'Satz'} ${i + 1}</div>
+        <div class="word" style="font-size:${item.type === 'v' ? '1.4rem' : '1.05rem'};line-height:1.4;margin-bottom:.9rem">${esc(item.de)}</div>
+        <div class="input-grid">
+          <div class="input-wrap">
+            <div class="lang-label">🇬🇧 Englisch</div>
+            <input type="text" class="t-en" data-i="${i}" value="${esc(a.en)}" placeholder="…" autocomplete="off" spellcheck="false" />
+          </div>
+          <div class="input-wrap">
+            <div class="lang-label">🇫🇷 Französisch</div>
+            <input type="text" class="t-fr" data-i="${i}" value="${esc(a.fr)}" placeholder="…" autocomplete="off" spellcheck="false" />
+          </div>
+        </div>
+        ${a.doneEn !== null ? `<div style="margin-top:.5rem;font-size:.82rem">
+          <span class="${a.doneEn ? 'tag-ok' : 'tag-err'}">${a.doneEn ? '✓' : '✗'} EN</span> ${esc(item.en)}&emsp;
+          <span class="${a.doneFr ? 'tag-ok' : 'tag-err'}">${a.doneFr ? '✓' : '✗'} FR</span> ${esc(item.fr)}
+        </div>` : ''}
+      </div>`;
+    });
+    html += `<div class="btn-row">
+      <button class="btn btn-solid" id="t-submit">Abgeben</button>
+      <button class="btn" onclick="initTest()">Neu mischen</button>
+    </div><div id="t-result"></div>`;
+    el.innerHTML = html;
+    el.querySelectorAll('.t-en').forEach(inp => inp.addEventListener('input', e => { testAnswers[+e.target.dataset.i].en = e.target.value; }));
+    el.querySelectorAll('.t-fr').forEach(inp => inp.addEventListener('input', e => { testAnswers[+e.target.dataset.i].fr = e.target.value; }));
+    document.getElementById('t-submit').addEventListener('click', submitTest);
+  }
+
+  function submitTest() {
+    let correct = 0;
+    testItems.forEach((item, i) => {
+      const okEn = check(testAnswers[i].en, item.en);
+      const okFr = check(testAnswers[i].fr, item.fr);
+      testAnswers[i].doneEn = okEn;
+      testAnswers[i].doneFr = okFr;
+      if (okEn) correct++;
+      if (okFr) correct++;
+    });
+    const total = testItems.length * 2;
+    const pct = Math.round(correct / total * 100);
+    progress.sessions.push({ date: new Date().toISOString().slice(0, 10), score: pct, diff });
+    save(); renderTest();
+    const r = document.getElementById('t-result');
+    if (r) {
+      const testLog = testItems.map((item, i) => ({
+        de: item.de, en: item.en, fr: item.fr,
+        userEn: testAnswers[i].en, userFr: testAnswers[i].fr,
+        okEn: testAnswers[i].doneEn, okFr: testAnswers[i].doneFr
+      }));
+      r.innerHTML = `<div class="test-score ${pct >= 70 ? 'score-good' : 'score-bad'}">
+        ${pct}% · ${correct}/${total} richtig · ${pct >= 85 ? '🎉 Ausgezeichnet!' : pct >= 70 ? '👍 Gut gemacht!' : '💪 Weiter üben!'}
+      </div>
+      <div style="margin-top:.75rem">${pdfBtn('Test', testLog)}</div>`;
     }
   }
 
-  load();
-  // Seite neu laden wenn sie wieder in den Fokus kommt
-  window.addEventListener('focus', load);
+  // ── STATS ─────────────────────────────────────────────────────────────
+  function renderStats() {
+    const el = document.getElementById('stats-area');
+    const pct = progress.total > 0 ? Math.round(progress.correct / progress.total * 100) : 0;
+    const sessions = (progress.sessions || []).slice(-10).reverse();
+    el.innerHTML = `
+      <div class="stat-grid">
+        <div class="stat-box"><div class="stat-n">${progress.total}</div><div class="stat-l">Aufgaben</div></div>
+        <div class="stat-box"><div class="stat-n">${progress.correct}</div><div class="stat-l">Richtig</div></div>
+        <div class="stat-box"><div class="stat-n">${pct}%</div><div class="stat-l">Trefferquote</div></div>
+      </div>
+      ${sessions.length ? `<div class="card">
+        <div class="card-label" style="margin-bottom:.75rem">Letzte Tests</div>
+        ${sessions.map(s => `<div class="session-row">
+          <span style="color:var(--dim)">${s.date} · ${s.diff}</span>
+          <span style="font-weight:500;color:${s.score >= 70 ? 'var(--green)' : 'var(--red)'}">${s.score}%</span>
+        </div>`).join('')}
+      </div>` : '<div style="color:var(--dim);font-size:.85rem;padding:.5rem 0">Noch keine Tests absolviert.</div>'}
+      <div style="margin-top:1rem">
+        <button class="btn" onclick="if(confirm('Fortschritt wirklich zurücksetzen?')){localStorage.removeItem('lernapp-v3');progress={correct:0,total:0,sessions:[]};renderStats();updateProg();}">
+          Fortschritt zurücksetzen
+        </button>
+      </div>`;
+  }
+
+  // ── Init ─────────────────────────────────────────────────────────────
+  initVocab();
+  initSent();
+  initTest();
+  updateProg();
 })();
 </script>
 </body>
