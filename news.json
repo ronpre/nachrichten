@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T09:59:26.946717+00:00",
+  "updatedAt": "2026-05-13T10:54:13.139331+00:00",
   "wirtschaft": [
     {
       "title": "Französischer Verlag gewinnt: EU-Gericht untersagt Waffenhändler Markenrecht am Namen \"Obelix\"",
@@ -74,6 +74,20 @@
   ],
   "politik": [
     {
+      "title": "Kabinett nickt Heizungsgesetz ab: Dröge warnt vor steigenden Nebenkosten durch \"Luxusgas\"-Zwang",
+      "link": "https://www.n-tv.de/politik/Droege-warnt-vor-steigenden-Nebenkosten-durch-Luxusgas-Zwang-id30817932.html",
+      "summary": "Union und SPD beschließen im Kabinett das Gebäudemodernisierungsgesetz. Das neue \"Heizungsgesetz\" sei aber eine schlechte Nachrichten für Mieter und den Klimaschutz, sagt Grünen-Fraktionschefin Dröge.…",
+      "source": "n-tv",
+      "pubDate": "2026-05-13T10:10:16+00:00"
+    },
+    {
+      "title": "Nachfolger von Kretschmann: Özdemir zum Ministerpräsidenten Baden-Württembergs gewählt",
+      "link": "https://www.n-tv.de/politik/Oezdemir-zum-Ministerpraesidenten-Baden-Wuerttembergs-gewaehlt-id30818039.html",
+      "summary": "Der Grünen-Politiker Özdemir ist der neue Ministerpräsident von Baden-Württemberg. Für ihn stimmen im ersten Wahlgang 93 der anwesenden 157 Abgeordneten. Damit erhielt Özdemir nicht alle 112 Stimmen, …",
+      "source": "n-tv",
+      "pubDate": "2026-05-13T10:02:23+00:00"
+    },
+    {
       "title": "Fast 400 Tote seit \"Waffenruhe\": Israel bombardiert Autobahn im Libanon",
       "link": "https://www.n-tv.de/politik/Israel-bombardiert-Autobahn-im-Libanon-id30817472.html",
       "summary": "Im Libanon gehen die Kämpfe zwischen Israel und der Hisbollah unvermindert weiter. Israelische Angriffe treffen vermehrt zivile Infrastruktur. Das libanesische Gesundheitsministerium meldet viele Tote…",
@@ -128,23 +142,72 @@
       "summary": "Beim Anschlag in Magdeburg vor rund anderthalb Jahren sterben sechs Menschen. Die parlamentarische Aufarbeitung der Tat steht vor dem Abschluss: Ein Untersuchungsausschuss sieht einem Bericht zufolge …",
       "source": "n-tv",
       "pubDate": "2026-05-13T06:49:55+00:00"
-    },
-    {
-      "title": "\"51. Bundesstaat\" : Trump zeigt Venezuela auf Karte in US-Farben",
-      "link": "https://www.n-tv.de/politik/Trump-zeigt-Venezuela-auf-Karte-in-US-Farben-id30816343.html",
-      "summary": "Erst Kanada, dann Grönland - und nun Venezuela: US-Präsident Trump provoziert erneut mit Expansionsideen. In einem Post erscheint das südamerikanische Land bereits in den Farben der US-Flagge. Die ven…",
-      "source": "n-tv",
-      "pubDate": "2026-05-13T05:47:27+00:00"
-    },
-    {
-      "title": "Taiwan muss zwei Tage zittern: Trump besucht seinen größten Rivalen",
-      "link": "https://www.n-tv.de/politik/Trump-besucht-seinen-groessten-Rivalen-id30815910.html",
-      "summary": "Während der Waffenruhe im Iran besucht Trump China. Bei Xi will er Stärke demonstrieren, hat aber einen schwachen Moment. Das kann für Taiwan gefährlich werden.",
-      "source": "n-tv",
-      "pubDate": "2026-05-13T04:56:03+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Nach Zoff mit Microsoft: Forscher leakt Zero-Day-Exploit für Bitlocker",
+      "link": "https://www.golem.de/news/nach-zoff-mit-microsoft-forscher-leakt-zero-day-exploit-fuer-bitlocker-2605-208630.html",
+      "summary": "Nach dem Windows Defender ist nun Bitlocker dran. Der Forscher hinter Redsun und Bluehammer hat zum Microsoft-Patchday wieder zwei Exploits geleakt. ( Sicherheitslücke , Microsoft )",
+      "source": "golem",
+      "pubDate": "2026-05-13T10:45:02+00:00"
+    },
+    {
+      "title": "Red Hat baut Ansible zur Steuerzentrale für KI-Agenten um",
+      "link": "https://www.heise.de/news/Red-Hat-baut-Ansible-zur-Steuerzentrale-fuer-KI-Agenten-um-11293057.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Red Hat erweitert Ansible um einen Automation Orchestrator für KI-gestützte IT-Automatisierung und stellt Version 2.7 vor.",
+      "source": "heise",
+      "pubDate": "2026-05-13T10:40:00+00:00"
+    },
+    {
+      "title": "Digitale Souveränität: Schweizer Bundesamt will US-Cloudanbieter ausschließen",
+      "link": "https://www.golem.de/news/digitale-souveraenitaet-schweizer-bundesamt-will-us-cloudanbieter-ausschliessen-2605-208632.html",
+      "summary": "An der Digitalisierung von Gesundheitsdaten in der Schweiz sollen keine US-Firmen beteiligt werden. Ob das zulässig ist, wird noch diskutiert. ( Souveränität , Datenschutz )",
+      "source": "golem",
+      "pubDate": "2026-05-13T10:30:02+00:00"
+    },
+    {
+      "title": "Mikrobengestützte Energieversorgung erzeugt Strom für Unterwassersensoren",
+      "link": "https://www.heise.de/news/Mikrobengestuetzte-Energieversorgung-erzeugt-Strom-fuer-Unterwassersensoren-11292827.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Eine mikrobielle Brennstoffzelle soll mit Mikroben aus Biomasse aus Meeren dauerhaft Strom für Unterwassersensorik erzeugen. Doch ganz so einfach ist das nicht.",
+      "source": "heise",
+      "pubDate": "2026-05-13T10:23:00+00:00"
+    },
+    {
+      "title": "Für Colossus 2: xAI installiert in Memphis mehr Gasturbinen als genehmigt",
+      "link": "https://www.golem.de/news/fuer-colossus-2-xai-installiert-in-memphis-mehr-gasturbinen-als-genehmigt-2605-208625.html",
+      "summary": "Umweltschützer klagen, dennoch stellt xAI bei Memphis neue Generatoren auf. Sie abzuschalten würde die US-Regierung laut xAI KI-Tools kosten. ( Klima & Umwelt , KI )",
+      "source": "golem",
+      "pubDate": "2026-05-13T10:15:02+00:00"
+    },
+    {
+      "title": "Frank Gotthardt: Der Compugroup-Gründer und sein rechter Kulturkampf",
+      "link": "https://www.golem.de/news/frank-gotthardt-der-compugroup-gruender-und-sein-rechter-kulturkampf-2605-208615.html",
+      "summary": "Ein deutscher Tech-Millionär spannt ein populistisches Netzwerk und will die öffentliche Meinung von rechtsaußen beeinflussen. Eine Kolumne von Claudia Zettel ( Politik , Wirtschaft )",
+      "source": "golem",
+      "pubDate": "2026-05-13T10:00:02+00:00"
+    },
+    {
+      "title": "heise+ | KI-Sicherheitsrisiken: OWASP Top 10 for Agentic AI Applications",
+      "link": "https://www.heise.de/hintergrund/KI-Sicherheitsrisiken-OWASP-Top-10-for-Agentic-AI-Applications-11280779.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "OWASP veröffentlicht Ranglisten für die drängendsten Sicherheitsprobleme von IT-Systemen. Nun gibt es auch eine Ausgabe für agentische KI.",
+      "source": "heise",
+      "pubDate": "2026-05-13T10:00:00+00:00"
+    },
+    {
+      "title": "heise-Angebot: EU AI Act: Was bis August 2026 in Unternehmen erledigt sein muss",
+      "link": "https://www.heise.de/news/EU-AI-Act-Was-bis-August-2026-in-Unternehmen-erledigt-sein-muss-11289663.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Im Webinar ordnet der heise Fachdienst KI PRO die anstehenden Pflichten des EU AI Act ein und zeigt, wo konkreter Handlungsbedarf besteht.",
+      "source": "heise",
+      "pubDate": "2026-05-13T10:00:00+00:00"
+    },
+    {
+      "title": "xAI betreibt Gasturbinen für KI-Rechenzentrum ohne Genehmigung",
+      "link": "https://www.heise.de/news/US-Buergerrechtsgrupe-klagt-gegen-xAI-wegen-Gasturbinen-11293085.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "xAI installiert auf seinem Gelände in Mississippi in großem Stil Gasturbinen ohne eine entsprechende Genehmigung. Anwohner klagen über Emissionen und Lärm.",
+      "source": "heise",
+      "pubDate": "2026-05-13T09:57:00+00:00"
+    },
     {
       "title": "Fortinet stopft elf Sicherheitslücken in mehreren Produkten",
       "link": "https://www.heise.de/news/Fortinet-stopft-elf-Sicherheitsluecken-in-mehreren-Produkten-11292861.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -221,69 +284,6 @@
       "summary": "Der Echo Show 11 bietet ein 11-Zoll-Full-HD-Display, raumfüllendes 3D-Audio und jetzt Zugang zu Alexa+ Early Access. ( Technik/Hardware , Amazon Alexa )",
       "source": "golem",
       "pubDate": "2026-05-13T09:06:02+00:00"
-    },
-    {
-      "title": "NASA: Rotorblätter für nächste Mars-Helikopter fit für Überschallgeschwindigkeit",
-      "link": "https://www.heise.de/news/NASA-Rotorblaetter-fuer-naechste-Mars-Helikopter-fit-fuer-Ueberschallgeschwindigkeit-11292775.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ingenuity hat unter Beweis gestellt, dass Helikopter auf dem Mars fliegen können. Viel heben konnte er aber nicht. Das soll bei seinen Nachfolgern anders sein.",
-      "source": "heise",
-      "pubDate": "2026-05-13T08:55:00+00:00"
-    },
-    {
-      "title": "Leak: Assassin's Creed Hexe mit (sehr) altem Fan-Liebling in Würzburg",
-      "link": "https://www.golem.de/news/leak-assassin-s-creed-hexe-mit-sehr-altem-fan-liebling-in-wuerzburg-2605-208619.html",
-      "summary": "Neue Leaks zu Assassin's Creed Hexe nennen Würzburg als Hauptschauplatz und deuten auf eine Rückkehr von Ezio Auditore hin. ( Assassin&#039;s Creed , Ubisoft )",
-      "source": "golem",
-      "pubDate": "2026-05-13T08:51:01+00:00"
-    },
-    {
-      "title": "Ransomware: Mehrere Foxconn-Werke durch Cyberangriff beeinträchtigt",
-      "link": "https://www.golem.de/news/ransomware-mehrere-foxconn-werke-durch-cyberangriff-beeintraechtigt-2605-208620.html",
-      "summary": "Foxconn hatte schon vor Tagen Probleme in der Produktion einiger Betriebe. Eine Hackergruppe will bei einem Cyberangriff vertrauliche Daten erbeutet haben. ( Cybercrime , Cyberwar )",
-      "source": "golem",
-      "pubDate": "2026-05-13T08:37:01+00:00"
-    },
-    {
-      "title": "Gartner: Souveräne Cloud nur in USA und China möglich",
-      "link": "https://www.heise.de/news/Gartner-Souveraene-Cloud-nur-in-USA-und-China-moeglich-11292520.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Laut Gartner ist vollständige digitale Souveränität derzeit nur in den USA und China erreichbar. Abhängigkeiten von Hyperscalern bleiben.",
-      "source": "heise",
-      "pubDate": "2026-05-13T08:33:00+00:00"
-    },
-    {
-      "title": "heise+ | Scanner im Test: Kompakte Digitalisierer für Akten und Briefe bis 500 Euro",
-      "link": "https://www.heise.de/tests/Scanner-im-Test-Kompakte-Digitalisierer-fuer-Akten-und-Briefe-bis-500-Euro-11157526.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Einzugscanner für Briefe und Akten arbeiten flott und belegen nur wenig Schreibtischplatz. Modelle ab 430 Euro scannen autonom zum NAS oder in die Cloud.",
-      "source": "heise",
-      "pubDate": "2026-05-13T08:30:00+00:00"
-    },
-    {
-      "title": "Lego baut Minas Tirith aus 8278 Teilen",
-      "link": "https://www.heise.de/news/Lego-Minas-Tirith-kostet-650-Euro-11292759.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Lego erweitert seine „Herr der Ringe“-Sammlung um die Hauptstadt Gondors: Minas Tirith im Filmdesign besteht aus 8278 Teilen und zehn neuen Minifiguren.",
-      "source": "heise",
-      "pubDate": "2026-05-13T08:25:00+00:00"
-    },
-    {
-      "title": "VDA nennt Technologieoffenheit Schlüssel gegen Jobverluste in der Autoindustrie",
-      "link": "https://www.heise.de/news/VDA-nennt-Technologieoffenheit-Schluessel-gegen-Jobverluste-in-der-Autoindustrie-11292707.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Sollte die EU nicht mehr Technologieoffenheit und Unterstützung für die Branche bieten, rechnet der VDA mit einem noch größeren Stellenverlust als angenommen.",
-      "source": "heise",
-      "pubDate": "2026-05-13T08:09:00+00:00"
-    },
-    {
-      "title": "Robotaxi: Waymos sollen künftig nicht mehr in überflutete Straßen fahren",
-      "link": "https://www.golem.de/news/robotaxi-waymos-sollen-kuenftig-nicht-mehr-in-ueberflutete-strassen-fahren-2605-208618.html",
-      "summary": "In San Antonio ist ein Waymo nach Starkregen in eine überflutete Straße gefahren - und in einem Flüsschen geendet. Das soll nicht mehr passieren. ( Waymo , Auto )",
-      "source": "golem",
-      "pubDate": "2026-05-13T07:39:01+00:00"
-    },
-    {
-      "title": "Patchday: Kritische DNS-Client-Lücke gefährdet Windows-Systeme",
-      "link": "https://www.golem.de/news/patchday-kritische-dns-client-luecke-gefaehrdet-windows-systeme-2605-208616.html",
-      "summary": "Windows-Nutzer sollten dringend die neuesten Updates einspielen. Angreifer können unter anderem über DNS-Antworten Schadcode einschleusen. ( Patchday , Microsoft )",
-      "source": "golem",
-      "pubDate": "2026-05-13T07:29:01+00:00"
     }
   ]
 }
