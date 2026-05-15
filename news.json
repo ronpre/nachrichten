@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-15T10:50:55.443098+00:00",
+  "updatedAt": "2026-05-15T11:36:30.853927+00:00",
   "wirtschaft": [
     {
       "title": "900-Milliarden-Dollar-Bewertung: Anthropic überholt KI-Platzhirsch OpenAI",
@@ -74,9 +74,16 @@
   ],
   "politik": [
     {
-      "title": "Zwischenfall von 1996: USA wollen wohl Kubas Ex-Präsidenten Castro anklagen",
-      "link": "https://www.n-tv.de/politik/USA-wollen-wohl-Kubas-Ex-Praesidenten-Castro-anklagen-id30823198.html",
-      "summary": "Die Beziehungen zwischen den USA und Kuba sind höchst angespannt. Erst jüngst deutet sich eine Entspannung an, als Präsident Trump Gespräche in Aussicht stellt. Nun aber gerät Kubas Ex-Staatschef laut…",
+      "title": "Treffen mit Castro-Enkel: CIA-Chef überbringt in Havanna US-Gesprächsangebot",
+      "link": "https://www.n-tv.de/politik/CIA-Chef-ueberbringt-in-Havanna-US-Gespraechsangebot-id30823925.html",
+      "summary": "Mehrfach erklärt die US-Regierung, sich absehbar Kuba zuwenden zu wollen. Präsident Trump hat das Land auf die Terrorliste gesetzt. Nun schickt der den Chef des Auslandsgeheimdienstes auf die Insel, u…",
+      "source": "n-tv",
+      "pubDate": "2026-05-15T11:08:09+00:00"
+    },
+    {
+      "title": "Zwischenfall von 1996: USA wollen wohl Kubas Ex-Machthaber Castro anklagen",
+      "link": "https://www.n-tv.de/politik/USA-wollen-wohl-Kubas-Ex-Machthaber-Castro-anklagen-id30823198.html",
+      "summary": "Die Beziehungen zwischen den USA und Kuba sind höchst angespannt. Erst jüngst deutet sich eine Entspannung an, als Präsident Trump Gespräche in Aussicht stellt. Nun aber gerät Kubas Ex-Machthaber laut…",
       "source": "n-tv",
       "pubDate": "2026-05-15T09:25:38+00:00"
     },
@@ -135,16 +142,72 @@
       "summary": "Der republikanisch regierte US-Bundesstaat Louisiana will die telemedizinische Verschreibung eines Medikamentes für Schwangerschaftsabbrüche stoppen. Doch der Oberste Gerichtshof setzt die Einschränku…",
       "source": "n-tv",
       "pubDate": "2026-05-14T23:09:58+00:00"
-    },
-    {
-      "title": "\"Sicherste Grenze aller Zeiten\" : US-Grenzschutzchef Michael Banks tritt zurück",
-      "link": "https://www.n-tv.de/politik/US-Grenzschutzchef-Michael-Banks-tritt-zurueck-id30822486.html",
-      "summary": "Donald Trump hat im Wahlkampf eine härtere Migrationspolitik versprochen. Nach dem Abgang von US-Heimatschutzministerin Kristi Noem geht nun ein Vertrauter von ihr. Auch bei anderen hochrangigen Mitar…",
-      "source": "n-tv",
-      "pubDate": "2026-05-14T21:34:22+00:00"
     }
   ],
   "it": [
+    {
+      "title": "(g+) .NET-Binarys mit dnSpy analysieren: Patchen statt Raten",
+      "link": "https://www.golem.de/news/net-binarys-mit-dnspy-analysieren-patchen-statt-raten-2605-208678.html",
+      "summary": "Wer Intermediate Language mit dnSpy lesen und behutsam verändern kann, gewinnt einen Blick auf Code, der sonst verborgen bleibt. Eine Anleitung von Fabian Deitelhoff ( Softwareentwicklung , Malware )",
+      "source": "golem",
+      "pubDate": "2026-05-15T11:30:02+00:00"
+    },
+    {
+      "title": "heise+ | Vergleichstest: Vier 700-Euro-Notebooks gegen das MacBook Neo",
+      "link": "https://www.heise.de/tests/Vergleichstest-Vier-700-Euro-Notebooks-gegen-das-MacBook-Neo-11253071.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Apples MacBook Neo krempelt die Mittelklasse um. Wo können sich Windows-Notebooks für 700 Euro noch absetzen, wo müssen sie sich hinten anstellen?",
+      "source": "heise",
+      "pubDate": "2026-05-15T11:30:00+00:00"
+    },
+    {
+      "title": "Stabileres Windows: Cloud-gestützte Treiber-Wiederherstellung für Windows Update",
+      "link": "https://www.heise.de/news/Stabileres-Windows-Cloud-gestuetzte-Treiber-Wiederherstellung-fuer-Windows-Update-11295257.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Microsoft arbeitet weiter an der Stabilität von Windows. Windows Update soll das Rollback instabiler Treiber vornehmen.",
+      "source": "heise",
+      "pubDate": "2026-05-15T11:28:00+00:00"
+    },
+    {
+      "title": "VW ID. Polo GTI vorgestellt: Der Erste seiner Art",
+      "link": "https://www.heise.de/news/VW-ID-Polo-GTI-vorgestellt-Der-Erste-seiner-Art-11295263.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "VW erweitert die ID.-Familie erstmals um einen GTI. Mit 166 kW, adaptivem Fahrwerk und allerlei Zutaten soll der ID. Polo GTI die Tradition fortführen.",
+      "source": "heise",
+      "pubDate": "2026-05-15T11:25:00+00:00"
+    },
+    {
+      "title": "Upscaler: AMD bringt FSR 4.1 überraschend auf ältere Radeon-Karten",
+      "link": "https://www.golem.de/news/upscaler-amd-bringt-fsr-4-1-ueberraschend-auf-aeltere-radeon-karten-2605-208711.html",
+      "summary": "Trotz fehlender Spezialhardware soll FSR 4.1 ab Juli auch auf Radeon-7000-GPUs laufen. AMD verspricht Unterstützung für mehr als 300 Spiele. ( FSR , AMD )",
+      "source": "golem",
+      "pubDate": "2026-05-15T11:15:02+00:00"
+    },
+    {
+      "title": "Anzeige: Begehrter Saugroboter mit Wischfunktion für unter 350 Euro",
+      "link": "https://www.golem.de/news/anzeige-begehrter-saugroboter-mit-wischfunktion-fuer-unter-350-euro-2605-208708.html",
+      "summary": "Ein tausendfach bestellter Saugroboter mit Wischfunktion, 8.000-Pa-Saugkraft und All-in-One-Dock ist bei Amazon zum Aktionspreis erhältlich. ( Saugroboter , Roborock )",
+      "source": "golem",
+      "pubDate": "2026-05-15T11:08:01+00:00"
+    },
+    {
+      "title": "Nächste Apple Watch: Diese Features könnten kommen",
+      "link": "https://www.heise.de/news/Naechste-Apple-Watch-Diese-Features-koennten-kommen-11289787.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Kein Hardware-Redesign, dafür aber je nach Variante neue Sensoren und mehr: Zur kommenden Apple Watch gibt es einige interessante Spekulationen.",
+      "source": "heise",
+      "pubDate": "2026-05-15T11:05:00+00:00"
+    },
+    {
+      "title": "VW ID.Polo GTI vorgestellt: Der Elektro-Polo sieht rot",
+      "link": "https://www.golem.de/news/vw-id-polo-gti-vorgestellt-der-elektro-polo-sieht-rot-2605-208667.html",
+      "summary": "Der ID.Polo GTI hat nur ein bisschen mehr Leistung als die Standardversion, macht aber voll auf sportlich. Das liegt nicht nur am aufwendigeren Fahrwerk. Ein Bericht von Friedhelm Greis ( Volkswagen I…",
+      "source": "golem",
+      "pubDate": "2026-05-15T11:00:01+00:00"
+    },
+    {
+      "title": "#TGIQF: Das Brückentags-Quiz",
+      "link": "https://www.heise.de/news/TGIQF-Das-Brueckentags-Quiz-11295185.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Wer heute im leeren Büro sitzt, wird mit einem Kommandobrücken-Quiz belohnt. Knobeln Sie mit!",
+      "source": "heise",
+      "pubDate": "2026-05-15T10:57:00+00:00"
+    },
     {
       "title": "Stimmung bei Meta: \"Alle sind unglücklich\"",
       "link": "https://www.golem.de/news/stimmung-bei-meta-alle-sind-ungluecklich-2605-208712.html",
@@ -216,74 +279,11 @@
       "pubDate": "2026-05-15T10:00:00+00:00"
     },
     {
-      "title": "heise-Angebot: c’t-Webinar: Keine Angst vor Linux – so klappt der Wechsel",
-      "link": "https://www.heise.de/news/c-t-Webinar-Keine-Angst-vor-Linux-so-klappt-der-Wechsel-11285784.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das c’t-Webinar vermittelt die Grundlagen für den Umstieg auf Linux: Auswahl der Distribution, Installation, Software-Verwaltung und Alltagsnutzung.",
-      "source": "heise",
-      "pubDate": "2026-05-15T10:00:00+00:00"
-    },
-    {
-      "title": "Apple untersucht von Claude Mythos entdecktes macOS-Problem",
-      "link": "https://www.heise.de/news/Sicherheitsfirma-Claude-Mythos-findet-macOS-Exploit-11294837.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Im Rahmen von „Project Glasswing“ arbeitet Anthropic mit Apple am Auffinden von Sicherheitslücken. Nun hat eine Security-Firma das Modell dafür verwendet.",
-      "source": "heise",
-      "pubDate": "2026-05-15T09:52:00+00:00"
-    },
-    {
       "title": "Mithilfe von Mythos Preview: Forscher entwickeln Exploit für Apples M5-Hardware",
       "link": "https://www.golem.de/news/mithilfe-von-mythos-preview-forscher-entwickeln-exploit-fuer-apples-m5-hardware-2605-208706.html",
       "summary": "Durch den Einsatz von Mythos hat es nur sechs Tage gedauert, bis Apples Memory Integrity Enforcement umgangen werden konnte. ( KI , Apple )",
       "source": "golem",
       "pubDate": "2026-05-15T09:45:01+00:00"
-    },
-    {
-      "title": "Honigbienen als Vorbild für effiziente Indoor-Navigation von Drohnen",
-      "link": "https://www.heise.de/news/Honigbienen-als-Vorbild-fuer-effiziente-Indoor-Navigation-von-Drohnen-11294853.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Indoor-Navigation von Drohnen ist aufwendig zu realisieren. Von Bienen lässt sich jedoch lernen, wie es auch mit weniger Aufwand funktioniert.",
-      "source": "heise",
-      "pubDate": "2026-05-15T09:43:00+00:00"
-    },
-    {
-      "title": "Fragnesia: Schon wieder gefährliche Root-Lücke im Linux-Kernel",
-      "link": "https://www.golem.de/news/fragnesia-schon-wieder-gefaehrliche-root-luecke-im-linux-kernel-2605-208702.html",
-      "summary": "Dirty Frag und Copy Fail beschäftigen bereits unzählige Linux-Admins. Die nächste Root-Lücke ist bereits identifiziert - und die Patches sind spät dran. ( Sicherheitslücke , Linux-Kernel )",
-      "source": "golem",
-      "pubDate": "2026-05-15T09:30:02+00:00"
-    },
-    {
-      "title": "F5 BIG-IP: Quartalssicherheitsupdate schließt zahlreiche Lücken",
-      "link": "https://www.heise.de/news/F5-BIG-IP-Quartalssicherheitsupdate-schliesst-zahlreiche-Luecken-11294929.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Der Netzwerkausrüster F5 hat unter anderem für verschiedene BIG-IP-Produkte wichtige Sicherheitsupdates veröffentlicht.",
-      "source": "heise",
-      "pubDate": "2026-05-15T09:29:00+00:00"
-    },
-    {
-      "title": "Demolition Man: Die Wahrheit hinter den drei Muscheln",
-      "link": "https://www.golem.de/news/demolition-man-die-wahrheit-hinter-den-drei-muscheln-2605-208692.html",
-      "summary": "Die drei Muscheln aus Demolition Man wurden Kult. Drehbuchautor Daniel Waters erklärt ihren Ursprung. ( Science-Fiction , Film )",
-      "source": "golem",
-      "pubDate": "2026-05-15T09:20:01+00:00"
-    },
-    {
-      "title": "Ungeplantes Geoengineering: Aufbau von Starlink & Co. mit Folgen für Atmosphäre",
-      "link": "https://www.heise.de/news/Ungeplantes-Geoengineering-Aufbau-von-Starlink-Co-mit-Folgen-fuer-Atmosphaere-11294723.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Jedes Jahr werden immer mehr Raketen gestartet, vorrangig mit Starlink-Satelliten. Die Folgen für die Erdatmosphäre sind womöglich weitreichender als gedacht.",
-      "source": "heise",
-      "pubDate": "2026-05-15T09:17:00+00:00"
-    },
-    {
-      "title": "Bitcoin: Claude hilft bei gesperrter 400.000-US-Dollar-Wallet",
-      "link": "https://www.golem.de/news/bitcoin-claude-hilft-bei-gesperrter-400-000-us-dollar-wallet-2605-208699.html",
-      "summary": "Elf Jahre lang war eine Wallet mit 5 Bitcoins gesperrt. Erst alte Dateien und Claude brachten den Zugang zum beträchtlichen Vermögen zurück. ( Bitcoin , KI )",
-      "source": "golem",
-      "pubDate": "2026-05-15T09:10:01+00:00"
-    },
-    {
-      "title": "Spielebranche: GTA-6-Leaks treiben Aktie von Take-Two nach oben",
-      "link": "https://www.golem.de/news/spielebranche-gta-6-leaks-treiben-aktie-von-take-two-nach-oben-2605-208704.html",
-      "summary": "Neue Hinweise auf Vorbestellungen, Editionen und den dritten Trailer sorgen für Aufwind bei Take-Two. Besonders spannend wird es am 21. Mai. ( GTA 6 , Take-Two )",
-      "source": "golem",
-      "pubDate": "2026-05-15T08:55:01+00:00"
     }
   ]
 }
