@@ -499,10 +499,6 @@
   // ── Strikte Rotation mit Queue ─────────────────────────────────────────
   // Jedes Item wird einmal gezeigt bevor die Runde neu beginnt.
   // Falsch beantwortete Items kommen in der nächsten Runde zuerst dran.
-  let vocabScores = {};  // item.de → Anzahl aufeinanderfolgende Richtig-Antworten
-  let sentScores  = {};
-  let vocabQueue  = [];  // Verbleibende Items in dieser Runde
-  let sentQueue   = [];
 
   function buildQueue(all, scores) {
     // Teile Items in zwei Gruppen: schwache (score 0) und gelernte (score > 0)
