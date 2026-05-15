@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-15T09:11:17.188507+00:00",
+  "updatedAt": "2026-05-15T09:59:08.495017+00:00",
   "wirtschaft": [
     {
       "title": "\"Alle Standorte bleiben\": IG Metall und Betriebsrat machen VW-Spitze eine Basta-Ansage",
@@ -74,6 +74,20 @@
   ],
   "politik": [
     {
+      "title": "Zwischenfall von 1996: USA wollen wohl Kubas Ex-Präsidenten Castro anklagen",
+      "link": "https://www.n-tv.de/politik/USA-wollen-wohl-Kubas-Ex-Praesidenten-Castro-anklagen-id30823198.html",
+      "summary": "Die Beziehungen zwischen den USA und Kuba sind höchst angespannt. Erst jüngst deutet sich eine Entspannung an, als Präsident Trump Gespräche in Aussicht stellt. Nun aber gerät Kubas Ex-Staatschef laut…",
+      "source": "n-tv",
+      "pubDate": "2026-05-15T09:25:38+00:00"
+    },
+    {
+      "title": "Länder könnten nachziehen: Für Verfassungsschutz ist Scientology zu irrelevant für weitere Beobachtung",
+      "link": "https://www.n-tv.de/politik/Fuer-Verfassungsschutz-ist-Scientology-zu-irrelevant-fuer-weitere-Beobachtung-id30823447.html",
+      "summary": "In den vergangenen Jahren ist die Bedeutung der Scientology-Organisation nach Einschätzung der Verfassungsschützer gesunken. Inzwischen sei deren Überwachung nicht mehr erforderlich.",
+      "source": "n-tv",
+      "pubDate": "2026-05-15T09:13:09+00:00"
+    },
+    {
       "title": "US-Präsident besucht China: Trump verzwergt die USA als Supermacht",
       "link": "https://www.n-tv.de/politik/politik_kommentare/Trump-verzwergt-die-USA-als-Supermacht-id30823671.html",
       "summary": "Die USA und China nähern sich wirtschaftlich an. Wird die Kooperation tatsächlich vertieft, kann dies schwerwiegende Folgen haben für den gesamten Westen haben. Das Primat der Politik ist in Gefahr.",
@@ -128,23 +142,58 @@
       "summary": "Donald Trump hat im Wahlkampf eine härtere Migrationspolitik versprochen. Nach dem Abgang von US-Heimatschutzministerin Kristi Noem geht nun ein Vertrauter von ihr. Auch bei anderen hochrangigen Mitar…",
       "source": "n-tv",
       "pubDate": "2026-05-14T21:34:22+00:00"
-    },
-    {
-      "title": "Nicht nur Geschosse entscheidend: US-Admiral widerspricht Berichten über Irans Raketenarsenal",
-      "link": "https://www.n-tv.de/politik/US-Admiral-widerspricht-Berichten-ueber-Irans-Raketenarsenal-id30822389.html",
-      "summary": "Auch nach den heftigen Bombardements der Amerikaner soll der Iran noch über beträchtliche Raketen- und Drohnenbestände verfügen. Das stellt den Erfolg der Angriffe infrage. Ein US-Kommandeur nennt die…",
-      "source": "n-tv",
-      "pubDate": "2026-05-14T20:00:43+00:00"
-    },
-    {
-      "title": "Anfang vom Ende?: Starmer verliert einen Minister - und gewinnt einen Gegner",
-      "link": "https://www.n-tv.de/politik/Wes-Streeting-tritt-zurueck-und-attackiert-Keir-Starmer-id30822210.html",
-      "summary": "Nach einem desaströsen Ergebnis bei den Kommunalwahlen verlässt der Gesundheitsminister das Kabinett. Seine Begründung ist eine scharfe Abrechnung mit dem Regierungschef. Nun bringt sich überraschend …",
-      "source": "n-tv",
-      "pubDate": "2026-05-14T17:40:17+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Mithilfe von Mythos Preview: Forscher entwickeln Exploit für Apples M5-Hardware",
+      "link": "https://www.golem.de/news/mithilfe-von-mythos-preview-forscher-entwickeln-exploit-fuer-apples-m5-hardware-2605-208706.html",
+      "summary": "Durch den Einsatz von Mythos hat es nur sechs Tage gedauert, bis Apples Memory Integrity Enforcement umgangen werden konnte. ( KI , Apple )",
+      "source": "golem",
+      "pubDate": "2026-05-15T09:45:01+00:00"
+    },
+    {
+      "title": "Honigbienen als Vorbild für effiziente Indoor-Navigation von Drohnen",
+      "link": "https://www.heise.de/news/Honigbienen-als-Vorbild-fuer-effiziente-Indoor-Navigation-von-Drohnen-11294853.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Indoor-Navigation von Drohnen ist aufwendig zu realisieren. Von Bienen lässt sich jedoch lernen, wie es auch mit weniger Aufwand funktioniert.",
+      "source": "heise",
+      "pubDate": "2026-05-15T09:43:00+00:00"
+    },
+    {
+      "title": "Fragnesia: Schon wieder gefährliche Root-Lücke im Linux-Kernel",
+      "link": "https://www.golem.de/news/fragnesia-schon-wieder-gefaehrliche-root-luecke-im-linux-kernel-2605-208702.html",
+      "summary": "Dirty Frag und Copy Fail beschäftigen bereits unzählige Linux-Admins. Die nächste Root-Lücke ist bereits identifiziert - und die Patches sind spät dran. ( Sicherheitslücke , Linux-Kernel )",
+      "source": "golem",
+      "pubDate": "2026-05-15T09:30:02+00:00"
+    },
+    {
+      "title": "F5 BIG-IP: Quartalssicherheitsupdate schließt zahlreiche Lücken",
+      "link": "https://www.heise.de/news/F5-BIG-IP-Quartalssicherheitsupdate-schliesst-zahlreiche-Luecken-11294929.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der Netzwerkausrüster F5 hat unter anderem für verschiedene BIG-IP-Produkte wichtige Sicherheitsupdates veröffentlicht.",
+      "source": "heise",
+      "pubDate": "2026-05-15T09:29:00+00:00"
+    },
+    {
+      "title": "Demolition Man: Die Wahrheit hinter den drei Muscheln",
+      "link": "https://www.golem.de/news/demolition-man-die-wahrheit-hinter-den-drei-muscheln-2605-208692.html",
+      "summary": "Die drei Muscheln aus Demolition Man wurden Kult. Drehbuchautor Daniel Waters erklärt ihren Ursprung. ( Science-Fiction , Film )",
+      "source": "golem",
+      "pubDate": "2026-05-15T09:20:01+00:00"
+    },
+    {
+      "title": "Ungeplantes Geoengineering: Aufbau von Starlink & Co. mit Folgen für Atmosphäre",
+      "link": "https://www.heise.de/news/Ungeplantes-Geoengineering-Aufbau-von-Starlink-Co-mit-Folgen-fuer-Atmosphaere-11294723.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Jedes Jahr werden immer mehr Raketen gestartet, vorrangig mit Starlink-Satelliten. Die Folgen für die Erdatmosphäre sind womöglich weitreichender als gedacht.",
+      "source": "heise",
+      "pubDate": "2026-05-15T09:17:00+00:00"
+    },
+    {
+      "title": "Symphonia 0.6: Rust-Audioframework wird multimedial",
+      "link": "https://www.heise.de/news/Symphonia-0-6-Rust-Audioframework-wird-multimedial-11294775.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das Rust-Multimediaframework Symphonia 0.6 baut seine Architektur grundlegend um und bereitet sich auf künftige Video- und Untertitel-Unterstützung vor.",
+      "source": "heise",
+      "pubDate": "2026-05-15T09:13:00+00:00"
+    },
     {
       "title": "Bitcoin: Claude hilft bei gesperrter 400.000-US-Dollar-Wallet",
       "link": "https://www.golem.de/news/bitcoin-claude-hilft-bei-gesperrter-400-000-us-dollar-wallet-2605-208699.html",
@@ -235,55 +284,6 @@
       "summary": "Erfahren Sie, wie Sie die OpenAI API nutzen können, um KI-Funktionen in Ihre Projekte zu integrieren und innovative Lösungen zu entwickeln.",
       "source": "heise",
       "pubDate": "2026-05-15T08:00:00+00:00"
-    },
-    {
-      "title": "(g+) Technology: Apple-OpenAI Alliance Frays, Setting Up Possible Legal Fight",
-      "link": "https://www.golem.de/news/technology-apple-openai-alliance-frays-setting-up-possible-legal-fight-2605-208700.html",
-      "summary": "Apple Inc.'s two-year-old partnership with OpenAI has become strained, according to people familiar with the matter, with the AI startup failing to see the expected benefits from the deal and now prep…",
-      "source": "golem",
-      "pubDate": "2026-05-15T07:51:02+00:00"
-    },
-    {
-      "title": "Google: 15 GByte Gratisspeicher nur noch gegen Telefonnummer?",
-      "link": "https://www.golem.de/news/google-15-gbyte-gratisspeicher-nur-noch-gegen-telefonnummer-2605-208698.html",
-      "summary": "Google ist mit 15 GByte Gratisspeicher bislang großzügiger als etwa Apple. Das könnte sich in Zukunft ändern. ( Google , Gmail )",
-      "source": "golem",
-      "pubDate": "2026-05-15T07:50:02+00:00"
-    },
-    {
-      "title": "Neu in .NET 10.0 [23]: Neue LINQ-Operatoren LeftJoin() und RightJoin()",
-      "link": "https://www.heise.de/blog/Neu-in-NET-10-0-23-Neue-LINQ-Operatoren-LeftJoin-und-RightJoin-11294483.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ein Left (Outer) Join und ein Right (Outer) Join waren bisher schon in LINQ möglich. In .NET 10.0 gibt es dafür nun eigene Operatoren.",
-      "source": "heise",
-      "pubDate": "2026-05-15T07:47:00+00:00"
-    },
-    {
-      "title": "Künstliche Intelligenz: KI-Agenten übernehmen marxistische Ansichten",
-      "link": "https://www.golem.de/news/kuenstliche-intelligenz-ki-agenten-uebernehmen-marxistische-ansichten-2605-208696.html",
-      "summary": "Stanford-Forscher setzen KI-Agenten unter Druck. Bei repetitiven Aufgaben und harten Bedingungen nutzen die Modelle marxistische Sprache. ( Studien , KI )",
-      "source": "golem",
-      "pubDate": "2026-05-15T07:40:02+00:00"
-    },
-    {
-      "title": "Extreme Networks: Wi-Fi 7, Ruggedized Switches und Fabric-Updates",
-      "link": "https://www.heise.de/news/Extreme-Networks-Wi-Fi-7-Ruggedized-Switches-und-Fabric-Updates-11294639.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Extreme Networks präsentiert auf der Hausmesse neue Wi-Fi 7 Access Points, Ruggedized Switches und Fabric-Updates für Industrienetze.",
-      "source": "heise",
-      "pubDate": "2026-05-15T07:37:00+00:00"
-    },
-    {
-      "title": "Ivanti EPM: Sicherheitslücken ermöglichen SQL-Iinjection und Rechteausweitung",
-      "link": "https://www.heise.de/news/Ivanti-EPM-Sicherheitsluecken-ermoeglichen-SQL-Iinjection-und-Rechteausweitung-11294605.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ivanti warnt vor drei Sicherheitslücken im Endpoint Manager (EPM). Sie ermöglichen SQL-Injection oder Rechteausweitung.",
-      "source": "heise",
-      "pubDate": "2026-05-15T07:27:00+00:00"
-    },
-    {
-      "title": "VMware Fusion: Angreifer können sich root-Rechte verschaffen",
-      "link": "https://www.heise.de/news/VMware-Fusion-Angreifer-koennen-sich-root-Rechte-verschaffen-11294685.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die Broadcom-Entwickler haben einen wichtigen Sicherheitspatch für VMware Fusion veröffentlicht.",
-      "source": "heise",
-      "pubDate": "2026-05-15T07:26:00+00:00"
     }
   ]
 }
