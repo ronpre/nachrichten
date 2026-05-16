@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-05-16T07:38:36.379403+00:00",
+  "updatedAt": "2026-05-16T08:40:15.637307+00:00",
   "wirtschaft": [
+    {
+      "title": "Preis hat sich verdoppelt: Luftfahrbranche spielt Risiko von Kerosin-Mangel herunter",
+      "link": "https://www.n-tv.de/wirtschaft/Luftfahrbranche-spielt-Risiko-von-Kerosin-Mangel-herunter-id30825216.html",
+      "summary": "Ein Großteil des Kerosins für die Luftfahrt in Deutschland und Europa muss importiert werden. Auf dem Weltmarkt klafft jedoch eine große Lücke. Der Preis ist in die Höhe geschossen. Die hiesige Branch…",
+      "source": "n-tv",
+      "pubDate": "2026-05-16T07:42:16+00:00"
+    },
     {
       "title": "\"Wären dazu bereit\": Mercedes-Boss erwägt Einstieg in Rüstungsindustrie",
       "link": "https://www.n-tv.de/wirtschaft/Mercedes-und-Ruestungsindustrie-Kaellenius-erwaegt-Einstieg-id30826685.html",
@@ -63,13 +70,6 @@
       "summary": "Erst fünf Jahre ist es her, dass ehemalige Mitarbeiter von OpenAI das Startup Anthropic gründeten. Mit einer neuen Finanzierungsrunde kann Anthropic seinen Unternehmenswert vervielfachen und am ChatGP…",
       "source": "n-tv",
       "pubDate": "2026-05-15T10:06:32+00:00"
-    },
-    {
-      "title": "\"Alle Standorte bleiben\": IG Metall und Betriebsrat machen VW-Spitze eine Basta-Ansage",
-      "link": "https://www.n-tv.de/wirtschaft/IG-Metall-und-Betriebsrat-machen-VW-Spitze-eine-Basta-Ansage-id30823071.html",
-      "summary": "Es ist ein offenes Geheimnis: Die VW-Spitze möchte den Autobauer mit Werkschließungen wieder auf Erfolgskurs bringen. Darüber möchten Betriebsrat und Gewerkschaft nicht einmal diskutieren. Sie legen d…",
-      "source": "n-tv",
-      "pubDate": "2026-05-15T08:02:33+00:00"
     }
   ],
   "politik": [
@@ -146,6 +146,34 @@
   ],
   "it": [
     {
+      "title": "Kommentar: Die SaaSpocalypse hat begonnen",
+      "link": "https://www.heise.de/meinung/Kommentar-Die-SaaSpocalypse-hat-begonnen-11295569.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Top-Investor TCI stößt Microsoft-Aktien ab. Das ist weit mehr als ein Börsenmanöver: KI bedroht das Geschäftsmodell der gesamten Softwareindustrie.",
+      "source": "heise",
+      "pubDate": "2026-05-16T08:30:00+00:00"
+    },
+    {
+      "title": "(g+) Godwins Gesetz: KI-Doomsday-Szenarien sind keine Argumente",
+      "link": "https://www.golem.de/news/godwins-gesetz-ki-doomsday-szenarien-sind-keine-argumente-2605-208685.html",
+      "summary": "Godwins Gesetz auf KI anzuwenden könnte helfen, über echte Herausforderungen zu reden - statt mit faulen Vergleichen sinnvolle Debatten zu sprengen. Von Tim Reinboth ( Denkpause , KI )",
+      "source": "golem",
+      "pubDate": "2026-05-16T08:00:02+00:00"
+    },
+    {
+      "title": "heise-Angebot: iX-Workshop: Nach dem Ransomware-Angriff – sicher entscheiden und kommunizieren",
+      "link": "https://www.heise.de/news/iX-Workshop-Nach-dem-Ransomware-Angriff-sicher-entscheiden-und-kommunizieren-11280571.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Erfahren Sie in einer praxisnahen Simulation, wie Sie auf einen Ransomware-Angriff strategisch reagieren und mit den Konsequenzen sicher umgehen.",
+      "source": "heise",
+      "pubDate": "2026-05-16T08:00:00+00:00"
+    },
+    {
+      "title": "Sony-Tempo, Canon ohne Sucher, Nikon rot – die Fotonews der Woche 20/2026",
+      "link": "https://www.heise.de/news/Sony-Tempo-Canon-ohne-Sucher-Nikon-rot-die-Fotonews-der-Woche-20-2026-11295237.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Sony bringt ein 67 Megapixel auf Flaggschiff-Geschwindigkeit, Canon setzt auf Lüfter statt Sucher und Nikon schreibt Rekordverluste.",
+      "source": "heise",
+      "pubDate": "2026-05-16T08:00:00+00:00"
+    },
+    {
       "title": "Developer-Häppchen fürs Wochenende – kleinere News der Woche",
       "link": "https://www.heise.de/news/Developer-Haeppchen-fuers-Wochenende-kleinere-News-der-Woche-11292947.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Kleine, aber interessante Meldungshäppchen vom News-Buffet zu PSF, Python 3.15, GitHub, Wicket, Ditto, Hugging Face, GNUstep, MantisBT und Docker.",
@@ -202,27 +230,6 @@
       "pubDate": "2026-05-15T18:00:00+00:00"
     },
     {
-      "title": "Privilegienausweitung in Linux: Lokale Nutzer können fremde Dateien lesen",
-      "link": "https://www.heise.de/news/Privilegienausweitung-in-Linux-Lokale-Nutzer-koennen-fremde-Dateien-lesen-11295751.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die Sicherheitslücke ist seit Jahren bekannt, behoben wurde sie erst am Donnerstag. Nur Stunden später gibt es einen Exploit, derweil rüstet das Kernelteam auf.",
-      "source": "heise",
-      "pubDate": "2026-05-15T17:31:00+00:00"
-    },
-    {
-      "title": "Mini-Kameras in der Öffentlichkeit: Das Strafrecht versagt bei Smart Glasses",
-      "link": "https://www.heise.de/news/Mini-Kameras-in-der-Oeffentlichkeit-Das-Strafrecht-versagt-bei-Smart-Glasses-11295659.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Eine Umfrage zeigt eine hohe Sensibilität für heimliche Aufnahmen. Doch das aktuelle Strafrecht schützt Betroffene im Alltag laut einer Rechtsprofessorin kaum.",
-      "source": "heise",
-      "pubDate": "2026-05-15T15:09:00+00:00"
-    },
-    {
-      "title": "AMD macht fast so viel Umsatz mit Serverprozessoren wie Intel",
-      "link": "https://www.heise.de/news/AMD-macht-fast-so-viel-Umsatz-mit-Serverprozessoren-wie-Intel-11295573.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Fast jeder dritte Serverprozessor mit x86-Architektur stammte zuletzt von AMD. Aufgrund höherer Preise ist der Umsatzanteil noch höher.",
-      "source": "heise",
-      "pubDate": "2026-05-15T14:54:00+00:00"
-    },
-    {
       "title": "Künstliche Intelligenz: Chinesische Firmen kaufen keine H200 von Nvidia",
       "link": "https://www.golem.de/news/kuenstliche-intelligenz-chinesische-firmen-kaufen-keine-h200-von-nvidia-2605-208727.html",
       "summary": "Unter bestimmten Auflagen darf Nvidia H200-Chips an chinesische Firmen verkaufen. Der Handel bleibt aber bislang aus. ( Nvidia , KI )",
@@ -277,13 +284,6 @@
       "summary": "Amazon hat eine Handyhalterung für Fahrrad und Motorrad im Angebot, die stabil am Lenker sitzt und sich um 360° drehen lässt. ( Technik/Hardware , Smartphone )",
       "source": "golem",
       "pubDate": "2026-05-15T12:42:01+00:00"
-    },
-    {
-      "title": "Börsengang: Cerebras-Aktie startet deutlich über Ausgabepreis",
-      "link": "https://www.golem.de/news/boersengang-cerebras-aktie-startet-deutlich-ueber-ausgabepreis-2605-208716.html",
-      "summary": "Cerebras kommt mit einem deutlichen Plus an die Nasdaq. Die Aktie lag teilweise 89 Prozent über dem Ausgabepreis. ( Wirtschaft , Prozessor )",
-      "source": "golem",
-      "pubDate": "2026-05-15T12:30:01+00:00"
     }
   ]
 }
