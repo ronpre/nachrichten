@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-05-16T06:45:03.297974+00:00",
+  "updatedAt": "2026-05-16T07:38:36.379403+00:00",
   "wirtschaft": [
+    {
+      "title": "\"Wären dazu bereit\": Mercedes-Boss erwägt Einstieg in Rüstungsindustrie",
+      "link": "https://www.n-tv.de/wirtschaft/Mercedes-und-Ruestungsindustrie-Kaellenius-erwaegt-Einstieg-id30826685.html",
+      "summary": "Angesichts steigender Rüstungsausgaben erwägen deutsche Autobauer eine Erweiterung ihrer Geschäftsfelder. Ein Bericht zu Verhandlungen zwischen VW und Iron-Dome-Hersteller Rafael Advanced Systems sorg…",
+      "source": "n-tv",
+      "pubDate": "2026-05-16T07:13:59+00:00"
+    },
     {
       "title": "Wochenvorschau: Termine bis 24. Mai 2026",
       "link": "https://www.n-tv.de/wirtschaft/termine/Termine-bis-24-Mai-2026-id30814788.html",
@@ -63,13 +70,6 @@
       "summary": "Es ist ein offenes Geheimnis: Die VW-Spitze möchte den Autobauer mit Werkschließungen wieder auf Erfolgskurs bringen. Darüber möchten Betriebsrat und Gewerkschaft nicht einmal diskutieren. Sie legen d…",
       "source": "n-tv",
       "pubDate": "2026-05-15T08:02:33+00:00"
-    },
-    {
-      "title": "Keine Belebung erkennbar: Bundesregierung erwartet \"deutlichen\" Konjunkturdämpfer",
-      "link": "https://www.n-tv.de/wirtschaft/Bundesregierung-erwartet-deutlichen-Konjunkturdaempfer-id30823244.html",
-      "summary": "Die Misere hält an. Das Bundeswirtschaftsministerium erwartet für das zweite Quartal einen deutlichen Dämpfer. Die Stimmung in Unternehmen wie in privaten Haushalten ist gleichermaßen schlecht.",
-      "source": "n-tv",
-      "pubDate": "2026-05-15T08:00:13+00:00"
     }
   ],
   "politik": [
@@ -146,7 +146,28 @@
   ],
   "it": [
     {
-      "title": "Ärztetag fordert strengere Regeln für KI und Cloud-Nutzung im Gesundheitswesen",
+      "title": "Developer-Häppchen fürs Wochenende – kleinere News der Woche",
+      "link": "https://www.heise.de/news/Developer-Haeppchen-fuers-Wochenende-kleinere-News-der-Woche-11292947.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Kleine, aber interessante Meldungshäppchen vom News-Buffet zu PSF, Python 3.15, GitHub, Wicket, Ditto, Hugging Face, GNUstep, MantisBT und Docker.",
+      "source": "heise",
+      "pubDate": "2026-05-16T07:15:00+00:00"
+    },
+    {
+      "title": "35 Jahre Minidisk: Und plötzlich war sie weg",
+      "link": "https://www.golem.de/news/35-jahre-minidisk-und-ploetzlich-war-sie-weg-2605-208684.html",
+      "summary": "Die Minidisc kam eigentlich zur rechten Zeit. Doch mit einer seltsamen Produktstrategie verpasste Sony jede Chance. Von Christian Rentrop ( MD , Sony )",
+      "source": "golem",
+      "pubDate": "2026-05-16T07:00:02+00:00"
+    },
+    {
+      "title": "Code lesen statt Code schreiben: Die unterschätzte Senior-Disziplin",
+      "link": "https://www.heise.de/blog/Code-lesen-statt-Code-schreiben-Die-unterschaetzte-Senior-Disziplin-11288309.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Joel Spolsky warnte schon 2000 davor, Code lieber neu zu schreiben als zu lesen. Mit LLMs wird seine Diagnose zur drängenden Frage für jedes Team.",
+      "source": "heise",
+      "pubDate": "2026-05-16T07:00:00+00:00"
+    },
+    {
+      "title": "Ärzte wollen Schutz vor Reidentifizierung von Patienten und strengere KI-Regeln",
       "link": "https://www.heise.de/news/Aerztetag-fordert-strengere-Regeln-fuer-KI-und-Cloud-Nutzung-im-Gesundheitswesen-11295829.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Ärzte stimmen für mehr Schutz von Gesundheitsdaten. KI und Cloud könnten dafür sorgen, Patienten zu reidentifizieren. Sie sehen die Schweigepflicht in Gefahr.",
       "source": "heise",
@@ -202,13 +223,6 @@
       "pubDate": "2026-05-15T14:54:00+00:00"
     },
     {
-      "title": "Haftbefehl abgelehnt: KI-Treffer ist für Richter nur ein vager Hinweis",
-      "link": "https://www.heise.de/news/Haftbefehl-abgelehnt-KI-Treffer-ist-fuer-Richter-nur-ein-vager-Hinweis-11295643.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ein Amtsgericht bremst den Einsatz von Gesichtserkennung und stärkt die Rechte von Beschuldigten gegenüber undurchsichtigen IT-Ermittlungswerkzeugen.",
-      "source": "heise",
-      "pubDate": "2026-05-15T14:50:00+00:00"
-    },
-    {
       "title": "Künstliche Intelligenz: Chinesische Firmen kaufen keine H200 von Nvidia",
       "link": "https://www.golem.de/news/kuenstliche-intelligenz-chinesische-firmen-kaufen-keine-h200-von-nvidia-2605-208727.html",
       "summary": "Unter bestimmten Auflagen darf Nvidia H200-Chips an chinesische Firmen verkaufen. Der Handel bleibt aber bislang aus. ( Nvidia , KI )",
@@ -228,13 +242,6 @@
       "summary": "Die Lofree Hyzen verwendet hybride Schalter, die mechanisches Tippgefühl mit magnetischer Funktion in einer Tastatur vereinen sollen. ( Tastatur , Eingabegerät )",
       "source": "golem",
       "pubDate": "2026-05-15T14:10:02+00:00"
-    },
-    {
-      "title": "heise+ | Xbox-Controller reparieren: Buttons reinigen, Stick-Drift mindern",
-      "link": "https://www.heise.de/ratgeber/Xbox-Controller-reparieren-Buttons-reinigen-Stick-Drift-mindern-11191092.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Wenn am Xbox-Controller Tasten klemmen oder Figuren von selbst loslaufen, helfen oft einfache Handgriffe. Wir zeigen, wie Sie die Probleme schnell beheben.",
-      "source": "heise",
-      "pubDate": "2026-05-15T14:07:00+00:00"
     },
     {
       "title": "Solarenergie: Tesla beerdigt das Solar Roof",
@@ -277,13 +284,6 @@
       "summary": "Cerebras kommt mit einem deutlichen Plus an die Nasdaq. Die Aktie lag teilweise 89 Prozent über dem Ausgabepreis. ( Wirtschaft , Prozessor )",
       "source": "golem",
       "pubDate": "2026-05-15T12:30:01+00:00"
-    },
-    {
-      "title": "Wegen hoher Nachfrage am Speichermarkt: Kioxia verdoppelt Nettogewinn",
-      "link": "https://www.golem.de/news/wegen-hoher-nachfrage-am-speichermarkt-kioxia-verdoppelt-nettogewinn-2605-208717.html",
-      "summary": "Neben äußerst positiven Geschäftszahlen liefert der Speicherhersteller Kioxia auch einen Ausblick auf die Entwicklung von Mai bis Juni 2026. ( Speichermedien , Solid State Drive )",
-      "source": "golem",
-      "pubDate": "2026-05-15T12:15:02+00:00"
     }
   ]
 }
