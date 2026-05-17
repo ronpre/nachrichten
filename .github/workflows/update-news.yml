@@ -1,6 +1,9 @@
 name: RSS Feed aktualisieren
 
 on:
+  push:
+    branches:
+      - main        # Jeder Push reaktiviert den Workflow automatisch
   schedule:
     # Jede volle Stunde von 06:00 bis 20:00 Uhr MEZ (= 04:00–18:00 UTC)
     - cron: '0 4  * * *'   # 06:00 MEZ
