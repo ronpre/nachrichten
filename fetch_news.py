@@ -7,7 +7,7 @@ Wird von GitHub Actions stündlich ausgeführt (06–17 Uhr MEZ).
 import json
 import re
 import feedparser
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 
 FEEDS = {
@@ -103,7 +103,13 @@ def main():
             print(f"{len(items)} Artikel")
             all_items.extend(items)
 
-        # Sortiere nach Datum (neueste zuerst), dedupliziere, begrenze
+        # Sortiere nach Datum (neueste zuerst), filter >24h, dedupliziere, begrenze
+        cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+        all_items = [
+            item for item in all_items
+            if item.get("pubDate") is None or
+               datetime.fromisoformat(item["pubDate"]) >= cutoff
+        ]
         all_items.sort(key=lambda x: x["pubDate"] or "", reverse=True)
         output[category] = dedup(all_items)[:MAX_PER_CAT]
         print(f"  → {len(output[category])} Artikel gespeichert")
