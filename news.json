@@ -1,8 +1,15 @@
 {
-  "updatedAt": "2026-05-21T09:01:15.665785+00:00",
+  "updatedAt": "2026-05-21T10:16:34.446483+00:00",
   "wirtschaft": [
     {
-      "title": "Trump-Zölle zeigen Wirkung: Schrumpfende Auto-Ausfuhren lassen Exporte in die USA einbrechen",
+      "title": "Musk könnte abräumen: Diese drei Mega-Börsengänge lassen die Wall Street erzittern",
+      "link": "https://www.n-tv.de/wirtschaft/Mega-Boersengaenge-in-den-USA-stehen-bevor-id30844304.html",
+      "summary": "Gleich drei Tech-Schwergewichte aus den USA streben in diesem Jahr einen Gang auf das Börsenparkett an: SpaceX, Anthropic und Open AI. Das Gesamtvolumen der Wertpapiere könnte bisherige Rekorde breche…",
+      "source": "n-tv",
+      "pubDate": "2026-05-21T10:02:39+00:00"
+    },
+    {
+      "title": "Trump kommt seinem Ziel näher: Schrumpfende Auto-Ausfuhren lassen Exporte in die USA einbrechen",
       "link": "https://www.n-tv.de/wirtschaft/Schrumpfende-Auto-Ausfuhren-lassen-Exporte-in-die-USA-einbrechen-id30843699.html",
       "summary": "Die US-Regierung versucht mit ihrer Zollpolitik das eigene Exportdefizit zu reduzieren. Mit Deutschland gelingt das auch - und zwar deutlich. Hierzulande bricht der Überschuss der Ausfuhren regelrecht…",
       "source": "n-tv",
@@ -30,7 +37,7 @@
       "pubDate": "2026-05-21T00:09:20+00:00"
     },
     {
-      "title": "Erst mal 40 Prozent: Bund steigt bei Panzer-Schmiede KNDS ein",
+      "title": "Erst mal zu 40 Prozent: Bund steigt bei Panzer-Schmiede KNDS ein",
       "link": "https://www.n-tv.de/wirtschaft/Bund-steigt-bei-Panzer-Schmiede-KNDS-ein-id30842836.html",
       "summary": "Lange ringt die Bundesregierung darum, ob sie nun beim Rüstungskonzern KNDS einsteigen soll. Nun fällt die Entscheidung: Schwarz-Rot will 40 Prozent übernehmen. Ein Befürworter davon ist der Verteidig…",
       "source": "n-tv",
@@ -63,13 +70,6 @@
       "summary": "Große Unternehmen wie Amazon und Meta drängen mit internen Ranglisten ihre Mitarbeiter dazu, möglichst viel Künstliche Intelligenz zu nutzen. Der Nutzen ist fraglich, die Kosten sind gigantisch.",
       "source": "n-tv",
       "pubDate": "2026-05-20T16:31:37+00:00"
-    },
-    {
-      "title": "Weitere Jobs fallen weg: BASF dreht erneut an der Sparschraube - Fixkosten im Blick",
-      "link": "https://www.n-tv.de/wirtschaft/BASF-dreht-erneut-an-der-Sparschraube-Fixkosten-im-Blick-id30842363.html",
-      "summary": "Noch ist die genaue Zahl nicht bekannt, doch BASF setzt beim Personal nochmals den Rotstift an. Innerhalb der nächsten zweieinhalb Jahre soll jeder fünfte Euro bei den festen Ausgaben eingespart werde…",
-      "source": "n-tv",
-      "pubDate": "2026-05-20T16:23:41+00:00"
     }
   ],
   "politik": [
@@ -146,11 +146,74 @@
   ],
   "it": [
     {
+      "title": "Microsoft warnt: Hacker attackieren Windows-Nutzer über Lücken im Defender",
+      "link": "https://www.golem.de/news/microsoft-warnt-hacker-attackieren-windows-nutzer-ueber-luecken-im-defender-2605-208918.html",
+      "summary": "Angreifer können über den Microsoft Defender unter anderem Schadcode einschleusen und sich Systemrechte verschaffen. Erste Attacken laufen bereits. ( Sicherheitslücke , Microsoft )",
+      "source": "golem",
+      "pubDate": "2026-05-21T10:15:01+00:00"
+    },
+    {
+      "title": "Commonwealth-Literaturpreis: Unsicherheit nach KI-Zweifeln bei Gewinnertext",
+      "link": "https://www.heise.de/news/Commonwealth-Literaturpreis-Unsicherheit-nach-KI-Zweifeln-bei-Gewinnertext-11301912.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Leser vermuten, dass eine prämierte Kurzgeschichte teilweise KI-generiert wurde. Der publizierende Verlag ist unsicher und fragt beim Sprachmodell Claude nach.",
+      "source": "heise",
+      "pubDate": "2026-05-21T10:04:00+00:00"
+    },
+    {
+      "title": "Infineon und STMicroelectronics: Europas Chipwerte profitieren vom KI-Stromhunger",
+      "link": "https://www.golem.de/news/infineon-und-stmicroelectronics-europas-chipwerte-profitieren-vom-ki-stromhunger-2605-208883.html",
+      "summary": "Infineon und STMicroelectronics rücken in den Fokus des KI-Infrastrukturbooms. Die Bewertung der Aktien spiegelt einen Teil dieser Erwartung jedoch bereits wider. Eine Analyse von Björn Meschkat ( Gel…",
+      "source": "golem",
+      "pubDate": "2026-05-21T10:00:01+00:00"
+    },
+    {
+      "title": "heise+ | Native PC-Umsetzungen: Super Mario 64, Zelda & Co. portiert statt emuliert",
+      "link": "https://www.heise.de/hintergrund/Native-PC-Umsetzungen-Super-Mario-64-Zelda-Co-portiert-statt-emuliert-11250164.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "3D-Retrogames von N64 und PS2 in 4K mit 120 fps: Hintergründe, Installationstipps und die spannendsten Dekompilations- und Rekompilationsprojekte vorgestellt.",
+      "source": "heise",
+      "pubDate": "2026-05-21T10:00:00+00:00"
+    },
+    {
+      "title": "Schwere Arbeit: Boston Dynamics zeigt Ganzköperkoordination des humanoiden Atlas",
+      "link": "https://www.heise.de/news/Schwere-Arbeit-Boston-Dynamics-zeigt-Ganzkoeperkoordination-des-humanoiden-Atlas-11302139.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Für das Aufnehmen von sperrigen Objekten mit hohem Gewicht benötigen humanoide Roboter eine gute Körperbeherrschung. Boston Dynamics zeigt, wie es klappt.",
+      "source": "heise",
+      "pubDate": "2026-05-21T09:54:00+00:00"
+    },
+    {
+      "title": "Anzeige: Günstige AirTag-Alternative bei Amazon im Angebot",
+      "link": "https://www.golem.de/news/anzeige-guenstige-airtag-alternative-bei-amazon-im-angebot-2605-208917.html",
+      "summary": "Bei Amazon gibt es derzeit die Ugreen FineTrack im Angebot. Die AirTag-Alternative gibt es im Viererpack für keine 6 Euro pro Stück. ( Apple , Amazon )",
+      "source": "golem",
+      "pubDate": "2026-05-21T09:37:02+00:00"
+    },
+    {
+      "title": "Mac-Thunderbolt-5-Dock mit 26 Ports von Ivanky – darunter 12 Mal USB-C",
+      "link": "https://www.heise.de/news/Mac-Thunderbolt-5-Dock-mit-26-Ports-von-Ivanky-darunter-12-Mal-USB-C-11297310.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das Fusion Dock Ultra kommt mit mehr Anschlüssen, als sie viele Nutzer brauchen dürften. Die Hardware-Voraussetzungen sind allerdings speziell.",
+      "source": "heise",
+      "pubDate": "2026-05-21T09:31:00+00:00"
+    },
+    {
+      "title": "Anzeige: All-in-One-PC von Lenovo bei Amazon günstig wie nie",
+      "link": "https://www.golem.de/news/anzeige-all-in-one-pc-von-lenovo-bei-amazon-guenstig-wie-nie-2605-208915.html",
+      "summary": "Einen All-in-One-PC von Lenovo mit FHD-Monitor, AMD Ryzen 5 und 1 TByte SSD gibt es bei Amazon mit Maus und Tastatur zum neuen Tiefstpreis. ( Lenovo , Technik/Hardware )",
+      "source": "golem",
+      "pubDate": "2026-05-21T09:08:01+00:00"
+    },
+    {
       "title": "Schlechte Prognose: Ubisoft verliert 1,3 Milliarden Euro in einem Jahr",
       "link": "https://www.golem.de/news/schlechte-prognose-ubisoft-verliert-1-3-milliarden-euro-in-einem-jahr-2605-208914.html",
       "summary": "Für das kommende Jahr erwartet Ubisoft weitere Millionenverluste. Derweil sollen bekannte Marken gestärkt werden. ( Ubisoft , Assassin&#039;s Creed )",
       "source": "golem",
       "pubDate": "2026-05-21T09:00:01+00:00"
+    },
+    {
+      "title": "Apples angestrebte Weltrechte für die Formel 1: Drei Länder sind raus",
+      "link": "https://www.heise.de/news/Formel-1-Apples-Weltrechte-ruecken-in-weite-Ferne-Sky-schnappt-sich-drei-Laender-11297304.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Apples Inhaltechef Eddy Cue würde die Rennserie gerne auf dem ganzen Planeten via Apple TV vermarkten. Das Problem: Es fehlen die Rechte dafür.",
+      "source": "heise",
+      "pubDate": "2026-05-21T08:54:00+00:00"
     },
     {
       "title": "Manueller Eingriff nötig: Microsoft reagiert auf Yellowkey-Exploit für Bitlocker",
@@ -160,7 +223,7 @@
       "pubDate": "2026-05-21T08:50:01+00:00"
     },
     {
-      "title": "Europaweite Beschwerden gegen Finanzwerbung bei Google & Co.",
+      "title": "Verbraucherschützer kritisieren mangelndes Vorgehen gegen Finanzbetrug",
       "link": "https://www.heise.de/news/Europaweite-Beschwerden-gegen-Finanzwerbung-bei-Google-Co-11302016.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Get-rich-Schemen, dubiose Finanzcoachings oder Fake-Onlineshops: Im Internet steckt dahinter oft Betrug. Nun geraten die großen Plattformen deshalb ins Visier.",
       "source": "heise",
@@ -202,32 +265,11 @@
       "pubDate": "2026-05-21T08:04:00+00:00"
     },
     {
-      "title": "heise-Angebot: iX-Workshop MS Intune: Mobile Endgeräte und Apps sicher in der Cloud verwalten",
-      "link": "https://www.heise.de/news/iX-Workshop-MS-Intune-Mobile-Endgeraete-und-Apps-sicher-in-der-Cloud-verwalten-11288884.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Mobile Endgeräte sicher und effektiv verwalten, Sicherheitsrichtlinien festlegen und Unternehmensanwendungen verteilen.",
-      "source": "heise",
-      "pubDate": "2026-05-21T08:00:00+00:00"
-    },
-    {
-      "title": "Sicherheitspatches Atlassian: Bamboo, Confluence & Co. sind verwundbar",
-      "link": "https://www.heise.de/news/Sicherheitspatches-Atlassian-Bamboo-Confluence-Co-sind-verwundbar-11301596.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Unter anderem DoS- und Schadcode-Sicherheitslücken bedrohen Anwendungen von Atlassian. Admins sollten die Patches zeitnah installieren.",
-      "source": "heise",
-      "pubDate": "2026-05-21T07:49:00+00:00"
-    },
-    {
       "title": "G Suite: Google geht offenbar gegen Legacy-Kunden vor",
       "link": "https://www.golem.de/news/g-suite-google-geht-offenbar-gegen-legacy-kunden-vor-2605-208909.html",
       "summary": "Nutzer der frühen G-Suite-Konten mit Domain-Verknüpfung bangen um ihre kostenlose Nutzung - Google scheint dagegen vorzugehen. ( Google , Gmail )",
       "source": "golem",
       "pubDate": "2026-05-21T07:46:02+00:00"
-    },
-    {
-      "title": "IT-Vorfall: Cybergang Rhysida erpresst Stadt Stuttgart",
-      "link": "https://www.heise.de/news/Cybergang-Rhysida-behauptet-Datenklau-bei-Stadt-Stuttgart-11301736.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die kriminelle Vereinigung Rhysida behauptet, bei der Stadt Stuttgart umfangreiche Dokumente aus der IT geklaut zu haben und will Lösegeld.",
-      "source": "heise",
-      "pubDate": "2026-05-21T07:40:00+00:00"
     },
     {
       "title": "Annas Archive: US-Richter ordnet weltweite Domainsperrung an",
@@ -242,48 +284,6 @@
       "summary": "Eine gefährliche und schon Ende 2022 gemeldete Chromium-Lücke ist noch immer ungepatcht. Jetzt kursiert ein Exploit im Netz - wegen einer Panne bei Google. ( Sicherheitslücke , Google )",
       "source": "golem",
       "pubDate": "2026-05-21T07:26:01+00:00"
-    },
-    {
-      "title": "Ubisoft: Der Aufschwung muss bis zum kommenden Geschäftsjahr warten",
-      "link": "https://www.heise.de/news/Ubisoft-Der-Aufschwung-muss-bis-zum-kommenden-Geschaeftsjahr-warten-11301638.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Mit einer Restrukturierung will Ubisoft den Weg zurück in die Erfolgsspur finden. Kurzfristig hilft das nicht: Das abgelaufene Jahr schrieb einen Negativrekord.",
-      "source": "heise",
-      "pubDate": "2026-05-21T07:24:00+00:00"
-    },
-    {
-      "title": "US-Start-up bietet Reinigungs-Service mit humanoiden Robotern an",
-      "link": "https://www.heise.de/news/US-Start-up-bietet-Reinigungs-Service-mit-humanoiden-Robotern-an-11301634.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Statt menschlicher Putzkräfte setzt Gatsby auf humanoide Roboter bei der Wohnungsreinigung. Ein erster Versuch habe geklappt. Es bleiben aber Fragen offen.",
-      "source": "heise",
-      "pubDate": "2026-05-21T07:22:00+00:00"
-    },
-    {
-      "title": "Bürosoftware: Scharfe Kritik an Microsoft wegen OOXML-Format",
-      "link": "https://www.golem.de/news/buerosoftware-scharfe-kritik-an-microsoft-wegen-ooxml-format-2605-208906.html",
-      "summary": "Die Entwickler von Libre Office werfen Microsoft eine gezielte Bindung der Nutzer an proprietäre Dateiformate vor und fordern ODF. ( Libreoffice , Microsoft )",
-      "source": "golem",
-      "pubDate": "2026-05-21T07:18:01+00:00"
-    },
-    {
-      "title": "Coyl: Herman Miller zeigt modularen Gaming-Tisch",
-      "link": "https://www.golem.de/news/coyl-herman-miller-zeigt-modularen-gaming-tisch-2605-208905.html",
-      "summary": "Ein modularer Aufbau soll beim neuen Gaming-Tisch von Herman Miller Ordnung und flexible Nutzung zusammenbringen. ( Technik/Hardware , Spiele )",
-      "source": "golem",
-      "pubDate": "2026-05-21T07:10:01+00:00"
-    },
-    {
-      "title": "Miese Softwarequalität, neue Abos: Apple goes Enshittification",
-      "link": "https://www.golem.de/news/miese-softwarequalitaet-neue-abos-apple-goes-enshittification-2605-208722.html",
-      "summary": "Apples Ökosystem glänzte lange als zuverlässige Alternative zum zerfaserten Android und holprigen Windows. Diese Zeiten scheinen vorbei. Ein IMHO von Christian Rentrop ( Apple , KI )",
-      "source": "golem",
-      "pubDate": "2026-05-21T07:00:02+00:00"
-    },
-    {
-      "title": "Satelliteninternet: Starlink erhöht die Preise, pausieren wird doppelt so teuer",
-      "link": "https://www.golem.de/news/satelliteninternet-starlink-erhoeht-die-preise-pausieren-wird-doppelt-so-teuer-2605-208903.html",
-      "summary": "Die Abokosten für Starlink steigen. Davon sind auch Alttarife betroffen. Neukunden müssen bereits mehr zahlen. ( Starlink , Internet )",
-      "source": "golem",
-      "pubDate": "2026-05-21T06:52:01+00:00"
     }
   ]
 }
