@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T06:32:10.683077+00:00",
+  "updatedAt": "2026-05-27T07:39:17.519784+00:00",
   "wirtschaft": [
     {
       "title": "3,4 Billionen Dollar Vermögen: In Deutschland gibt es deutlich mehr Superreiche",
@@ -11,7 +11,7 @@
     {
       "title": "Lieferung schon 2027: Ex-VW-Chef Diess bringt E-Traktor auf den Markt",
       "link": "https://www.n-tv.de/wirtschaft/Ex-VW-Chef-Diess-bringt-E-Traktor-auf-den-Markt-id30861199.html",
-      "summary": "Der früheren VW-Boss Diess zieht es in die Landwirtschaft - zumindest geschäftlich. Mit einem neuen Unternehmen arbeitet er an Elektro-Traktoren. Die Maschinen sollen einen \"24/7\"-Betrieb möglich mach…",
+      "summary": "Der früheren VW-Boss Diess zieht es in die Landwirtschaft - zumindest geschäftlich. Mit einem neuen Unternehmen arbeitet er an Elektro-Traktoren. Die Maschinen sollen einen \"24/7-Betrieb\" möglich mach…",
       "source": "n-tv",
       "pubDate": "2026-05-27T06:25:27+00:00"
     },
@@ -146,6 +146,83 @@
   ],
   "it": [
     {
+      "title": "Software Testing: Security-Anforderungen im Team entwickeln",
+      "link": "https://www.heise.de/blog/Software-Testing-Security-Anforderungen-im-Team-entwickeln-11306799.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Sicherheitsanforderungen in der Softwareentwicklung konkret formulieren: Richard Seidl und Markus Geiger zeigen, was Teams dafür tun müssen.",
+      "source": "heise",
+      "pubDate": "2026-05-27T07:32:00+00:00"
+    },
+    {
+      "title": "Smartphone: Motorola-Smartphones injizieren Affiliate-Link in Amazon-App",
+      "link": "https://www.golem.de/news/smartphone-motorola-smartphones-injizieren-affiliate-link-in-amazon-app-2605-209063.html",
+      "summary": "Auf mehreren Motorola-Modellen wird beim Öffnen der Amazon-App ein Affiliate-Link eingeschleust - die Hintergründe sind unklar. ( Motorola , Smartphone )",
+      "source": "golem",
+      "pubDate": "2026-05-27T07:30:02+00:00"
+    },
+    {
+      "title": "Sommerliche Hitze: Frankreichs Atomkraftwerke vor Leistungsrückgang",
+      "link": "https://www.golem.de/news/sommerliche-hitze-frankreichs-atomkraftwerke-vor-leistungsrueckgang-2605-209061.html",
+      "summary": "Wärmere Flüsse und sinkende Pegelstände bereiten Atomreaktoren immer mehr Probleme. Die Prognose für den Sommer zeigt sich schon im Strompreis. ( Atomkraft , Energiewende )",
+      "source": "golem",
+      "pubDate": "2026-05-27T07:20:01+00:00"
+    },
+    {
+      "title": "Augenmaß für Datenmengen: Warum „viel“ keine Größe ist",
+      "link": "https://www.heise.de/blog/Augenmass-fuer-Datenmengen-Warum-viel-keine-Groesse-ist-11304938.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Datenmengen denken wir in Adjektiven, nicht in Zahlen. Das führt zu Architekturen mit Phantommaßen und blockiert die einfachsten Lösungen.",
+      "source": "heise",
+      "pubDate": "2026-05-27T07:15:00+00:00"
+    },
+    {
+      "title": "Ausnutzung wahrscheinlich: Kritische Nginx-Lücke gefährdet unzählige Webserver",
+      "link": "https://www.golem.de/news/ausnutzung-wahrscheinlich-kritische-nginx-luecke-gefaehrdet-unzaehlige-webserver-2605-209060.html",
+      "summary": "Ein KI-Agent hat eine kritische Sicherheitslücke in Nginx entdeckt. Durch speziell gestaltete HTTP-Requests kann Schadcode zur Ausführung gelangen. ( Sicherheitslücke , Server-Applikationen )",
+      "source": "golem",
+      "pubDate": "2026-05-27T07:10:02+00:00"
+    },
+    {
+      "title": "Mini-PCs im Test: Der Kleine, der Gute und der Billige",
+      "link": "https://www.golem.de/news/mini-pcs-im-test-der-kleine-der-gute-und-der-billige-2605-208973.html",
+      "summary": "Golem hat von drei Mini-PC-Anbietern Geräte angefordert und nicht nur die Leistung, sondern auch alle anderen Eigenschaften betrachtet. Ein Test von Mike Faust ( Mini-PC , AMD )",
+      "source": "golem",
+      "pubDate": "2026-05-27T07:00:02+00:00"
+    },
+    {
+      "title": "heise+ | Nachrichten einsammeln, filtern und weitergeben mit Inoreader",
+      "link": "https://www.heise.de/ratgeber/Nachrichten-einsammeln-filtern-und-weitergeben-mit-Inoreader-11080839.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Der RSS-Reader dient als persönliche Nachrichtenzentrale, die News aus verschiedenen Kanälen übersichtlich aufbereitet – auch für Dritte.",
+      "source": "heise",
+      "pubDate": "2026-05-27T07:00:00+00:00"
+    },
+    {
+      "title": "„Passwort“ Folge 58: News mit Failzwiebel, Lösegeld und rostigen Coreutils",
+      "link": "https://www.heise.de/news/Passwort-Folge-58-News-mit-Failzwiebel-Loesegeld-und-rostigen-Coreutils-11307108.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Vielschichtiges Sicherheitsversagen bei einer CA analysieren die Hosts ebenso wie den Wechsel der Linux-Coreutils auf Rust. Und es gibt Neues zu Ransomware.",
+      "source": "heise",
+      "pubDate": "2026-05-27T07:00:00+00:00"
+    },
+    {
+      "title": "Ehemaliger VW-Chef Diess will Traktor mit E-Antrieb und Wechselakkus anbieten",
+      "link": "https://www.heise.de/news/Ehemaliger-VW-Chef-Diess-will-Traktor-mit-E-Antrieb-und-Wechselakkus-anbieten-11307451.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der frühere VW-Chef Herbert Diess plant einen E-Traktor mit Wechsel-Akkus für Landwirte. Dieser soll schon bald auf den Markt kommen.",
+      "source": "heise",
+      "pubDate": "2026-05-27T06:52:00+00:00"
+    },
+    {
+      "title": "LiteSpeed cPanel-Plugin: Angriffe auf Schwachstelle beobachtet",
+      "link": "https://www.heise.de/news/LiteSpeed-cPanel-Plugin-Angriffe-auf-Schwachstelle-beobachtet-11307435.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "LiteSpeed stellt für diverse CMS Plugins her. Das für cPanel weist eine Sicherheitslücke auf, die Angreifer bereits ausnutzen.",
+      "source": "heise",
+      "pubDate": "2026-05-27T06:45:00+00:00"
+    },
+    {
+      "title": "Künstliche Intelligenz: Mehr Downloads für Duckduckgo nach Google-KI-Ankündigung",
+      "link": "https://www.golem.de/news/kuenstliche-intelligenz-mehr-downloads-fuer-duckduckgo-nach-google-ki-ankuendigung-2605-209058.html",
+      "summary": "Nach Googles Umstellung auf KI-Übersichten verzeichnet die Suchmaschine Duckduckgo steigende App-Installationszahlen in den USA. ( Duckduckgo , Google )",
+      "source": "golem",
+      "pubDate": "2026-05-27T06:43:02+00:00"
+    },
+    {
       "title": "Vatikan: KI-Verdacht bei Enzyklika von Papst Leo XIV.",
       "link": "https://www.golem.de/news/vatikan-ki-verdacht-bei-enzyklika-von-papst-leo-xiv-2605-209056.html",
       "summary": "Untersuchungen der neuen Enzyklika von Papst Leo XIV. zeigen Hinweise auf den Einsatz von künstlicher Intelligenz. ( KI , Wissenschaft )",
@@ -195,34 +272,6 @@
       "pubDate": "2026-05-27T05:21:01+00:00"
     },
     {
-      "title": "Speicherkrise: SK Hynix und Micron jetzt eine Billion US-Dollar wert",
-      "link": "https://www.heise.de/news/Speicherkrise-SK-Hynix-und-Micron-jetzt-eine-Billion-US-Dollar-wert-11307343.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die enorme Nachfrage nach Speicher-Chips treibt die Aktienkurse der Hersteller weiter. Sowohl SK Hynix als auch Micron sind nun eine Billion US-Dollar wert.",
-      "source": "heise",
-      "pubDate": "2026-05-27T05:06:00+00:00"
-    },
-    {
-      "title": "Nvidia: GeForce Control Panel wird nach 20 Jahren eingestellt",
-      "link": "https://www.heise.de/news/Nvidia-GeForce-Control-Panel-wird-nach-20-Jahren-eingestellt-11307339.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Mit dem Treiber 610.47 beendet Nvidia die Ära des GeForce Control Panels – mehr oder weniger. Alle wichtigen Funktionen seien in die Nvidia-App gewandert.",
-      "source": "heise",
-      "pubDate": "2026-05-27T05:03:00+00:00"
-    },
-    {
-      "title": "Mittwoch: Starlink-Verteuerung für Drohnen, Spotify liest aus Zeitschriften vor",
-      "link": "https://www.heise.de/news/Mittwoch-Starlink-Verteuerung-fuer-Drohnen-Spotify-liest-aus-Zeitschriften-vor-11307335.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Aufschlag für Kamikazedrohnen + Zeitschriftenartikel bei Spotify + Verleger gegen Wayback Machine + Elektro-SUV BMW iX3 im Test + Luxus-Elektroauto von Ferrari",
-      "source": "heise",
-      "pubDate": "2026-05-27T04:15:00+00:00"
-    },
-    {
-      "title": "Spotify erweitert Hörangebot um das Vorlesen längerer Artikel aus Zeitschriften",
-      "link": "https://www.heise.de/news/Spotify-erweitert-Hoerangebot-um-das-Vorlesen-laengerer-Artikel-aus-Zeitschriften-11307323.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Neben Büchern liest Spotify jetzt auch Zeitschriftenartikel vor. Über 650 englischsprachige Beiträge bekannter Magazine gehören jetzt zur Hörbuch-Bibliothek.",
-      "source": "heise",
-      "pubDate": "2026-05-27T03:09:00+00:00"
-    },
-    {
       "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
       "link": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
       "summary": "\"BadHost\" was found in Starlette, a package with 325 million weekly downloads.",
@@ -230,60 +279,11 @@
       "pubDate": "2026-05-26T19:50:33+00:00"
     },
     {
-      "title": "heise+ | c’t-Story: Tick, tick, tick",
-      "link": "https://www.heise.de/hintergrund/c-t-Story-Tick-tick-tick-11253773.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Fortschrittliche Technik arbeitet softwaregestützt und ist auf regelmäßige Aktualisierungen angewiesen. Diese Abhängigkeit kann sich plötzlich fatal auswirken.",
-      "source": "heise",
-      "pubDate": "2026-05-26T18:00:00+00:00"
-    },
-    {
-      "title": "heise+ | Die Messlücke: Warum keiner weiß, was KI in Unternehmen wirklich bringt",
-      "link": "https://www.heise.de/hintergrund/Die-Messluecke-Warum-keiner-weiss-was-KI-in-Unternehmen-wirklich-bringt-11293531.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Ob sich KI-Investitionen in Unternehmen auszahlen, misst kaum jemand. Forschung, Interviews und Beobachtungen zeigen, dass die Messlücke strukturell ist.",
-      "source": "heise",
-      "pubDate": "2026-05-26T17:00:00+00:00"
-    },
-    {
       "title": "Anzeige: Lego Mandalorianer und Grogu auf Speeder kosten bei Amazon nur 7 Euro",
       "link": "https://www.golem.de/news/anzeige-lego-mandalorianer-und-grogu-auf-speeder-kosten-bei-amazon-nur-7-euro-2605-209054.html",
       "summary": "Bei Amazon kostet ein beliebtes Lego-Set aus der Mandalorianer-Reihe keine 7 Euro mehr. ( Lego , Unterhaltung & Hobby )",
       "source": "golem",
       "pubDate": "2026-05-26T16:54:02+00:00"
-    },
-    {
-      "title": "Anzeige: Curved-Gaming-Monitor von MSI mit 180 Hz für unter 100 Euro",
-      "link": "https://www.golem.de/news/anzeige-curved-gaming-monitor-von-msi-mit-180-hz-fuer-unter-100-euro-2605-209053.html",
-      "summary": "Amazon verkauft den MSI MAG 27C6F zum Tiefstpreis im befristeten Angebot. Der Deal gilt nur noch wenige Tage. ( Display , Amazon )",
-      "source": "golem",
-      "pubDate": "2026-05-26T15:50:01+00:00"
-    },
-    {
-      "title": "Nach Papst-Enzyklika: Plädoyer für \"ethische KI\" und Wunsch nach mehr Debatte",
-      "link": "https://www.golem.de/news/nach-papst-enzyklika-plaedoyer-fuer-ethische-ki-und-wunsch-nach-mehr-debatte-2605-209052.html",
-      "summary": "Die Warnungen von Papst Leo XIV. vor der Gefahren einer ungezügelten KI stoßen bei Politik und Wirtschaft auf Zustimmung. Vor allem bei Anthropic. ( KI , Bitkom )",
-      "source": "golem",
-      "pubDate": "2026-05-26T15:45:02+00:00"
-    },
-    {
-      "title": "Streit um Boni: TSMC-Angestellte erwägen Gewerkschaftsgründung und Streik",
-      "link": "https://www.golem.de/news/streit-um-boni-tsmc-angestellte-erwaegen-gewerkschaftsgruendung-und-streik-2605-209051.html",
-      "summary": "Trotz Rekordgewinnen plant TSMC die Kürzung der Leistungsprämien seiner Angestellten. ( TSMC , Wirtschaft )",
-      "source": "golem",
-      "pubDate": "2026-05-26T15:00:02+00:00"
-    },
-    {
-      "title": "Luce: Ferrari-Aktie verliert nach Elektroauto-Präsentation",
-      "link": "https://www.golem.de/news/luce-ferrari-aktie-verliert-nach-elektroauto-praesentation-deutlich-2605-209050.html",
-      "summary": "Der Markt ist offenbar nicht begeistert vom Ferrari Luce: Der Aktienkurs des italienischen Herstellers ist gesunken. ( Ferrari , Elektroauto )",
-      "source": "golem",
-      "pubDate": "2026-05-26T14:45:02+00:00"
-    },
-    {
-      "title": "Anzeige: Ladegerät mit acht Ports und 200 W für 53,96 Euro bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-ladegeraet-mit-acht-ports-und-200-w-fuer-53-96-euro-bei-amazon-2605-209048.html",
-      "summary": "Ein Ladegerät von Ugreen mit acht USB-Ports, 200 W Gesamtleistung und intelligenter Stromverteilung gibt es bei Amazon zum Aktionspreis. ( Technik/Hardware )",
-      "source": "golem",
-      "pubDate": "2026-05-26T14:34:01+00:00"
     }
   ]
 }
