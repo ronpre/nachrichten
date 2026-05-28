@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-05-28T12:10:57.798616+00:00",
+  "updatedAt": "2026-05-28T13:24:01.027937+00:00",
   "wirtschaft": [
+    {
+      "title": "Umsteigerquote hoch wie nie: Aussicht auf Förderung löst Run auf E-Autos aus",
+      "link": "https://www.n-tv.de/wirtschaft/Aussicht-auf-Foerderung-loest-Run-auf-E-Autos-aus-id30867167.html",
+      "summary": "Immer mehr Menschen steigen in Deutschland beim Autokauf um: weg vom klassischen Verbrenner, hin zur E-Mobilität. Wie eine Auswertung des Versicherers HUK Coburg zeigt, stellt dabei die seit einigen M…",
+      "source": "n-tv",
+      "pubDate": "2026-05-28T12:54:08+00:00"
+    },
+    {
+      "title": "Kahlschlag in München: Siemens-Manager müssen um ihre Titel bangen",
+      "link": "https://www.n-tv.de/wirtschaft/Siemens-Manager-muessen-um-ihre-Titel-bangen-id30866184.html",
+      "summary": "Schluss mit dem Chef-Wildwuchs bei Siemens: Vorstandschef Busch plant laut einem Bericht eine radikale Entschlackungskur. Um effizienter zu werden, sollen hunderte C-Level-Titel wegfallen.",
+      "source": "n-tv",
+      "pubDate": "2026-05-28T12:16:50+00:00"
+    },
     {
       "title": "Entscheidung bis Oktober: Brüssel prüft chinesische Übernahme von MediaMarktSaturn",
       "link": "https://www.n-tv.de/wirtschaft/Bruessel-prueft-chinesische-Uebernahme-von-MediaMarktSaturn-id30866646.html",
@@ -62,7 +76,7 @@
     {
       "title": "\"Gamechanger\" aus Schweden: Ukraine kann bald die ersten ersehnten Gripen-Kampfjets erhalten",
       "link": "https://www.n-tv.de/politik/Ukraine-bekommt-Gripen-Kampfjets-Gamechanger-id30867288.html",
-      "summary": "Seit Jahren kämpft die Ukraine um die Lieferung von schwedischen Gripen-Kampfjets. Nun könnten die ersten Flugzeuge schon bald bei der Verteidigung des Landes helfen. Zahlreiche weitere sollen hinzuko…",
+      "summary": "Seit Jahren kämpft die Ukraine um die Lieferung schwedischer Gripen-Kampfjets. Nun könnte es bis zur Übergabe der ersten Exemplare nicht mehr lange dauern. Viele weitere sollen hinzukommen.",
       "source": "n-tv",
       "pubDate": "2026-05-28T11:55:22+00:00"
     },
@@ -74,8 +88,8 @@
       "pubDate": "2026-05-28T11:11:13+00:00"
     },
     {
-      "title": "Standort auch in Leipzig geplant: Holocaustgedenkstätte Yad Vashem erhält Außenstelle in München",
-      "link": "https://www.n-tv.de/politik/Holocaustgedenkstaette-Yad-Vashem-erhaelt-Aussenstelle-in-Muenchen-id30866089.html",
+      "title": "Standort auch in Leipzig geplant: Holocaust-Gedenkstätte Yad Vashem erhält Außenstelle in München",
+      "link": "https://www.n-tv.de/politik/Holocaust-Gedenkstaette-Yad-Vashem-erhaelt-Aussenstelle-in-Muenchen-id30866089.html",
       "summary": "In Israel erinnert Yad Vashem an den Holocaust. Nun erhält die Gedenkstätte zwei Ableger in München und Leipzig. Als Bildungszentren sollen die Standorte auch den Kampf gegen Antisemitismus stärken.",
       "source": "n-tv",
       "pubDate": "2026-05-28T09:43:22+00:00"
@@ -132,6 +146,97 @@
   ],
   "it": [
     {
+      "title": "Cloud Computing: Snowflake wird größter CPU-Kunde von AWS",
+      "link": "https://www.golem.de/news/cloud-computing-snowflake-wird-groesster-cpu-kunde-von-aws-2605-209146.html",
+      "summary": "Das Cloud-Computing-Unternehmen sichert sich den Zugriff auf Graviton-Chips von AWS im Wert von sechs Milliarden US-Dollar. ( AWS , Web Service )",
+      "source": "golem",
+      "pubDate": "2026-05-28T13:20:02+00:00"
+    },
+    {
+      "title": "XPipe 23.0: Mehr Sicherheit für Remote-Zugänge",
+      "link": "https://www.heise.de/news/XPipe-23-0-Mehr-Sicherheit-fuer-Remote-Zugaenge-11310015.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "XPipe 23.0 erweitert die Verwaltung von Remote-Zugängen: Neu sind SSH-Zertifikate, Proxy-Support und ein Tab-System für RDP- und VNC-Sitzungen.",
+      "source": "heise",
+      "pubDate": "2026-05-28T13:11:00+00:00"
+    },
+    {
+      "title": "Snapdragon C: Qualcomm kündigt CPU für günstige Laptops an",
+      "link": "https://www.golem.de/news/snapdragon-c-qualcomm-kuendigt-cpu-fuer-guenstige-laptops-an-2605-209140.html",
+      "summary": "Qualcomm baut seine Snapdragon-Reihe für Laptops weiter nach unten aus. Geräte mit Snapdragon C sollen preislich mit Chromebooks konkurrieren. ( Prozessor , Notebook )",
+      "source": "golem",
+      "pubDate": "2026-05-28T13:00:02+00:00"
+    },
+    {
+      "title": "heise+ | Storage-Software CephFS für Dateisysteme produktiv nutzen und skalieren",
+      "link": "https://www.heise.de/ratgeber/Storage-Software-CephFS-fuer-Dateisysteme-produktiv-nutzen-und-skalieren-11296911.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Cephs Dateisystem CephFS ist mittlerweile produktiv einsetzbar, doch gibt es einiges bei Nutzung und Tuning zu beachten.",
+      "source": "heise",
+      "pubDate": "2026-05-28T13:00:00+00:00"
+    },
+    {
+      "title": "Xiaomi 17T und 17T Pro: Größere Akkus, Leica-Kamera und zwei Größen",
+      "link": "https://www.heise.de/news/Xiaomi-17T-und-17T-Pro-Groessere-Akkus-Leica-Kamera-und-zwei-Groessen-11308229.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Xiaomi bringt das 17T und 17T Pro mit Leica-Telekamera, bis zu 7000-mAh-Akku, AMOLED-Displays mit Augenschutz und neuen KI-Funktionen.",
+      "source": "heise",
+      "pubDate": "2026-05-28T13:00:00+00:00"
+    },
+    {
+      "title": "EU verhängt Rekordstrafe gegen Temu wegen mangelhafter Risikobewertung",
+      "link": "https://www.heise.de/news/DSA-Strafe-Temu-soll-200-Millionen-Euro-zahlen-11310019.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die EU-Kommission hat gegen den chinesischen Online-Marktplatzbetreiber Temu eine Geldstrafe von 200 Millionen Euro unter dem Digital Services Act verhängt.",
+      "source": "heise",
+      "pubDate": "2026-05-28T12:58:00+00:00"
+    },
+    {
+      "title": "Anzeige: Braun All-in-One Series 7 aktuell zum Sparpreis bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-braun-all-in-one-series-7-aktuell-zum-sparpreis-bei-amazon-2605-209143.html",
+      "summary": "Der Braun All-in-One Series 7 bietet als 12-in-1-System eine Lösung für Kopf- und Körperpflege. Amazon hat den Trimmer aktuell stark reduziert. ( Technik/Hardware )",
+      "source": "golem",
+      "pubDate": "2026-05-28T12:53:01+00:00"
+    },
+    {
+      "title": "Wearable: Oura Ring 5 versteht sogar Abnehmspritzen",
+      "link": "https://www.golem.de/news/wearable-oura-ring-5-versteht-sogar-abnehmspritzen-2605-209144.html",
+      "summary": "Der neue Smart Ring wird kleiner und smarter. Besonders spannend: Oura will Blutdruck-Trends und Auswirkungen von Abnehmspritzen erkennen. ( Oura , Medizin )",
+      "source": "golem",
+      "pubDate": "2026-05-28T12:50:01+00:00"
+    },
+    {
+      "title": "Astro Forge: Ein möglicher Rückschlag für den Asteroidenbergbau",
+      "link": "https://www.golem.de/news/astro-forge-ein-moeglicher-rueckschlag-fuer-den-asteroidenbergbau-2605-209098.html",
+      "summary": "Der von dem Raumfahrt-Unternehmen Astro Forge anvisierte Asteroid dreht sich rasant und könnte eine Landung unmöglich machen. Ein Rückschlag für den Weltraumbergbau? ( Weltraumbergbau , Raumfahrt )",
+      "source": "golem",
+      "pubDate": "2026-05-28T12:40:02+00:00"
+    },
+    {
+      "title": "Übernahme von MediaMarktSaturn durch JD.com: EU-Kommission leitet Prüfung ein",
+      "link": "https://www.heise.de/news/Widerrechtliche-Subventionen-Bruessel-prueft-Uebernahme-von-MediaMarktSaturn-11309941.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die EU-Kommission hat Hinweise, dass JD.com von China wettbewerbsverzerrende Subventionen erhalten hat und prüft jetzt die Übernahme von Media Markt und Saturn.",
+      "source": "heise",
+      "pubDate": "2026-05-28T12:36:00+00:00"
+    },
+    {
+      "title": "Anzeige: Vielseitige Soundbar mit 90 W zum Tiefstpreis bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-vielseitige-soundbar-mit-90-w-zum-tiefstpreis-bei-amazon-2605-209142.html",
+      "summary": "Amazon hat eine vielseitige Soundbar von Garage Rock im Angebot, die mit 90 W starkem 3D-Surround-Sound Kinoatmosphäre ins Wohnzimmer bringt. ( Soundbar , Technik/Hardware )",
+      "source": "golem",
+      "pubDate": "2026-05-28T12:33:02+00:00"
+    },
+    {
+      "title": "Zu viele illegale Produkte: Temu soll 200 Millionen Euro Strafe zahlen",
+      "link": "https://www.golem.de/news/zu-viele-illegale-produkte-temu-soll-200-millionen-euro-strafe-zahlen-2605-209141.html",
+      "summary": "Nach Einschätzung der EU-Kommission vertreibt die chinesische Plattform Temu zu viele illegale Produkte und schätzt deren Risiken falsch ein. ( Temu , Verbraucherschutz )",
+      "source": "golem",
+      "pubDate": "2026-05-28T12:25:02+00:00"
+    },
+    {
+      "title": "Last.fm: Musiktracking-Dienst wird nach 19 Jahren wieder unabhängig",
+      "link": "https://www.heise.de/news/Last-fm-Musiktracking-Dienst-wird-nach-19-Jahren-wieder-unabhaengig-11309773.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Last.fm ist wieder ein eigenständiges Unternehmen. Scrobbles, Nutzerprofile und das Team bleiben erhalten.",
+      "source": "heise",
+      "pubDate": "2026-05-28T12:18:00+00:00"
+    },
+    {
       "title": "Beschwerden auch nach Neuaufstellung: Kritik am Kundendienst von Trade Republic reißt nicht ab",
       "link": "https://www.golem.de/news/beschwerden-auch-nach-neuaufstellung-kritik-am-kundendienst-von-trade-republic-reisst-nicht-ab-2605-209081.html",
       "summary": "Trade Republic will den besten Kundendienst aller Banken Europas anbieten. Davon merken Kunden bisher wenig. Von Ingo Pakalski ( Trade Republic , Wirtschaft )",
@@ -139,16 +244,16 @@
       "pubDate": "2026-05-28T12:00:02+00:00"
     },
     {
-      "title": "heise-Angebot: iX-Workshop: Active Directory hacken und schützen",
-      "link": "https://www.heise.de/news/iX-Workshop-Active-Directory-hacken-und-schuetzen-11298285.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Werden Sie selbst zum Hacker und lernen, wie Angreifer gezielt Schwachstellen in Active Directory ausnutzen, um Server und Domänencontroller zu kompromittieren.",
+      "title": "Oura Ring 5: Smart-Ring wird kleiner und teurer",
+      "link": "https://www.heise.de/news/Oura-Ring-5-Smart-Ring-wird-kleiner-und-teurer-11309851.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Oura hat die fünfte Generation seines Smart-Rings vorgestellt. Das neue Modell ist 40 Prozent kompakter, bietet neue Tracking-Funktionen und kostet 429 Euro.",
       "source": "heise",
       "pubDate": "2026-05-28T12:00:00+00:00"
     },
     {
-      "title": "Oura Ring 5: Smart-Ring wird kleiner und teurer",
-      "link": "https://www.heise.de/news/Oura-Ring-5-Smart-Ring-wird-kleiner-und-teurer-11309851.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Oura hat die fünfte Generation seines Smart-Rings vorgestellt. Das neue Modell ist 40 Prozent kompakter, bietet neue Tracking-Funktionen und kostet 429 Euro.",
+      "title": "heise-Angebot: iX-Workshop: Active Directory hacken und schützen",
+      "link": "https://www.heise.de/news/iX-Workshop-Active-Directory-hacken-und-schuetzen-11298285.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Werden Sie selbst zum Hacker und lernen, wie Angreifer gezielt Schwachstellen in Active Directory ausnutzen, um Server und Domänencontroller zu kompromittieren.",
       "source": "heise",
       "pubDate": "2026-05-28T12:00:00+00:00"
     },
@@ -167,109 +272,18 @@
       "pubDate": "2026-05-28T11:45:02+00:00"
     },
     {
+      "title": "FBI warnt vor gefälschten FIFA-Webseiten zur Fußball-WM",
+      "link": "https://www.heise.de/news/Warnung-vor-gefaelschten-FIFA-Webseiten-vor-der-Fussball-WM-2026-11309777.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "In zwei Wochen startet die Fußball-WM. Kriminelle nutzen die Gunst der Stunde und fälschen die FIFA-Webseite etwa für Phishing.",
+      "source": "heise",
+      "pubDate": "2026-05-28T11:44:00+00:00"
+    },
+    {
       "title": "Anzeige: Samsung Galaxy S26 Ultra und Buds 4 Pro bei o2 für 1 Euro Anzahlung",
       "link": "https://www.golem.de/news/anzeige-samsung-galaxy-s26-ultra-und-buds-4-pro-bei-o2-fuer-1-euro-anzahlung-2605-209139.html",
       "summary": "Qualität zum exklusiven Preis: Bei o2 gibt es das Highend-Smartphone mit den Top-Level-Earbuds von Samsung jetzt im Tarif. ( O2 , Samsung )",
       "source": "golem",
       "pubDate": "2026-05-28T11:33:01+00:00"
-    },
-    {
-      "title": "(g+) Assistive Technologien: Barrierefreiheit schafft bessere Produkte für alle",
-      "link": "https://www.golem.de/news/assistive-technologien-barrierefreiheit-schafft-bessere-produkte-fuer-alle-2605-209117.html",
-      "summary": "Was für Menschen mit Einschränkungen funktioniert, ist meist für alle besser: Die inklusive Gestaltung von Interfaces bringt digitalen Anwendungen einen Mehrwert. Ein Ratgebertext von Klaus Manhart ( …",
-      "source": "golem",
-      "pubDate": "2026-05-28T11:30:01+00:00"
-    },
-    {
-      "title": "heise+ | Projekt hOma: Schaltzentrale für Senioren selbst bauen",
-      "link": "https://www.heise.de/ratgeber/Projekt-hOma-Schaltzentrale-fuer-Senioren-selbst-bauen-11298674.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Mit leuchtenden Symbolen sorgt \"hOma\" dafür, dass man keine wichtigen Ereignisse im Smart Home verpasst. Besonders ältere Menschen behalten so den Überblick.",
-      "source": "heise",
-      "pubDate": "2026-05-28T11:30:00+00:00"
-    },
-    {
-      "title": "Seitenkanalangriff per Javascript: Spionage über SSD-Zugriffe einer Website",
-      "link": "https://www.golem.de/news/seitenkanalangriff-per-javascript-spionage-ueber-ssd-zugriffe-einer-website-2605-209137.html",
-      "summary": "Forscher haben einen Weg gefunden, durch Messung von SSD-Zugriffszeiten in Javascript von Website-Besuchern genutzte Apps zu ermitteln. ( Sicherheitslücke , Speichermedien )",
-      "source": "golem",
-      "pubDate": "2026-05-28T11:20:06+00:00"
-    },
-    {
-      "title": "Streaminggeräte und Smart-TVs: Roku eifert Amazon und Google nach",
-      "link": "https://www.golem.de/news/streaminggeraete-und-smart-tvs-roku-eifert-amazon-und-google-nach-2605-209135.html",
-      "summary": "Roku-Geräte erhalten eine neue Oberfläche, auf der Empfehlungen künftig eine größere Rolle spielen und es mehr Werbung gibt. ( Roku , Streaming )",
-      "source": "golem",
-      "pubDate": "2026-05-28T11:10:01+00:00"
-    },
-    {
-      "title": "Anzeige: Präzisions-Lötkolben-Set jetzt zum Jahrestiefstpreis bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-praezisions-loetkolben-set-jetzt-zum-jahrestiefstpreis-bei-amazon-2605-209136.html",
-      "summary": "Der Fanttik T1 Max bietet kabellosen Betrieb, schnelle Aufheizzeit, sechs Temperaturstufen und war dieses Jahr bei Amazon nicht günstiger. ( Technik/Hardware , Computer )",
-      "source": "golem",
-      "pubDate": "2026-05-28T10:55:01+00:00"
-    },
-    {
-      "title": "US Space Force: SpaceX kassiert Miliarden für neues Militär-Satellitennetzwerk",
-      "link": "https://www.golem.de/news/us-space-force-spacex-kassiert-miliarden-fuer-neues-militaer-satellitennetzwerk-2605-209121.html",
-      "summary": "Die US Space Force hat SpaceX mit dem Aufbau eines neuen militärischen Kommunikationsnetzes in der niedrigen Erdumlaufbahn beauftragt. ( SpaceX , Politik )",
-      "source": "golem",
-      "pubDate": "2026-05-28T10:45:02+00:00"
-    },
-    {
-      "title": "Nach Entlassung von Entwicklern: Wikipedia-Autoren drohen mit Streik",
-      "link": "https://www.golem.de/news/nach-entlassung-von-entwicklern-wikipedia-autoren-drohen-mit-streik-2605-209132.html",
-      "summary": "Die Wikimedia-Stiftung hat Entwickler entlassen, die sich gewerkschaftlich engagieren, darunter auch den ersten CTO. Das stößt auf Widerstand. ( Wikipedia , KI )",
-      "source": "golem",
-      "pubDate": "2026-05-28T10:30:01+00:00"
-    },
-    {
-      "title": "Soziale Medien: Meta startet Abos für Facebook, Instagram und Whatsapp",
-      "link": "https://www.golem.de/news/soziale-medien-meta-startet-abos-fuer-facebook-instagram-und-whatsapp-2605-209134.html",
-      "summary": "Mit der Einführung von Plus-Abos für Facebook, Instagram und Whatsapp kündigt der Konzern auch Tarife für Meta AI an. ( Meta , Instant Messenger )",
-      "source": "golem",
-      "pubDate": "2026-05-28T10:16:01+00:00"
-    },
-    {
-      "title": "heise+ | Lightroom-Masken meistern: KI, Bereiche und lokale Korrekturen richtig nutzen",
-      "link": "https://www.heise.de/ratgeber/Lightroom-Masken-meistern-KI-Bereiche-und-lokale-Korrekturen-richtig-nutzen-11298790.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Neue, intelligente Funktionen für Masken in Lightroom ermöglichen präzise lokale Korrekturen in der Raw-Entwicklung; das spart Zeit, erfordert aber Know-how.",
-      "source": "heise",
-      "pubDate": "2026-05-28T10:00:00+00:00"
-    },
-    {
-      "title": "heise+ | Videoschnitt-Apps für Android und iOS im Test",
-      "link": "https://www.heise.de/tests/Videoschnitt-Apps-fuer-Android-und-iOS-im-Test-11250308.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Videoschnitt-Apps schneiden in 4K, nutzen clever das kleine Display und setzen auf KI. Wir haben sechs Tools für Android und iOS in der Praxis getestet.",
-      "source": "heise",
-      "pubDate": "2026-05-28T09:00:00+00:00"
-    },
-    {
-      "title": "heise+ | Sennheiser Momentum 5: Der beste Kopfhörer mit Wechselakku im Test",
-      "link": "https://www.heise.de/tests/Sennheiser-Momentum-5-Der-beste-Kopfhoerer-mit-Wechselakku-im-Test-11292817.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Im Test überzeugt der Sennheiser Momentum 5 mit verbesserter ANC, präzisem Klang - und Wechselakku. Er dürfte nicht der letzte seiner Art bleiben.",
-      "source": "heise",
-      "pubDate": "2026-05-28T08:30:00+00:00"
-    },
-    {
-      "title": "heise+ | Polyend Endless im Test: Gitarren-Effekte mit KI programmieren",
-      "link": "https://www.heise.de/tests/Polyend-Endless-im-Test-Gitarren-Effekte-mit-KI-programmieren-11281435.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Ob Echo oder Verzerrung: Mit dem Effekt-Pedal Polyend Endless entwickeln Gitarristen ihre eigenen Effekte – entweder in C++ oder per Vibecoding.",
-      "source": "heise",
-      "pubDate": "2026-05-28T07:00:00+00:00"
-    },
-    {
-      "title": "heise+ | Smart-Home-Aktoren von Wago im Test: Mit 16 Ampere und Matter",
-      "link": "https://www.heise.de/tests/Smart-Home-Aktoren-von-Wago-im-Test-Mit-16-Ampere-und-Matter-11302642.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Wago, Hersteller von Industriesteuerungen, macht jetzt auch in Smart Home. Das Erstlingswerk für den Matter-Standard ist großzügig dimensioniert.",
-      "source": "heise",
-      "pubDate": "2026-05-28T06:30:00+00:00"
-    },
-    {
-      "title": "heise+ | Bit-Rauschen: Apple bestellt bei Intel und Rechenzentren mit 10 Gigawatt",
-      "link": "https://www.heise.de/hintergrund/Bit-Rauschen-Apple-bestellt-bei-Intel-und-Rechenzentren-mit-10-Gigawatt-11264094.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "„Made in USA“ dürfte Apple zum Einkauf bei Intel animieren. Ebenfalls in den USA entstehen gasbefeuerte Monster-Rechenzentren – die Börse freuts.",
-      "source": "heise",
-      "pubDate": "2026-05-28T05:30:00+00:00"
     }
   ]
 }
