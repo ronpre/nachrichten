@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T11:13:40.868350+00:00",
+  "updatedAt": "2026-05-29T12:05:15.929908+00:00",
   "wirtschaft": [
     {
       "title": "Keine Trendwende in Sicht: Zahl der Arbeitslosen im Mai gestiegen",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Suche nach dem Aufschwung: Vor-Reformgipfel: Arbeitgeber und Gewerkschaften tagen im Kanzleramt",
+      "link": "https://www.n-tv.de/politik/Vor-Reformgipfel-Arbeitgeber-und-Gewerkschaften-tagen-im-Kanzleramt-id30871502.html",
+      "summary": "Das Kanzleramt plant Mitte Juni einen großen Reformgipfel. Arbeitgeber und Gewerkschaften strecken jedoch bereits zwei Wochen früher ihre Fühler aus. Es geht um viel.",
+      "source": "n-tv",
+      "pubDate": "2026-05-29T11:56:03+00:00"
+    },
+    {
       "title": "Ruinöses Durchstechen: Die CDU demontiert Merz - und sich selbst",
       "link": "https://www.n-tv.de/politik/politik_kommentare/Die-CDU-demontiert-Merz-und-sich-selbst-id30870025.html",
       "summary": "Der Kanzler hat unbestritten kommunikative und strategische Defizite. Friedrich Merz ist äußert unbeliebt und zieht die CDU mit nach unten. Logisch, dass es in seiner Partei rumort. Doch ihn öffentlic…",
@@ -135,16 +142,79 @@
       "summary": "Immer wieder kommt es in der rumänischen Grenzregion zur Ukraine zu militärischen Zwischenfällen. Diesmal fällt eine mit Sprengstoff beladene russische Drohne auf ein Hochhaus. Es ist nicht das einzig…",
       "source": "n-tv",
       "pubDate": "2026-05-29T02:50:47+00:00"
-    },
-    {
-      "title": "\"Das bringt uns nirgendwo hin\": Frei warnt vor \"unfruchtbarer Debatte\" um Kanzler Merz",
-      "link": "https://www.n-tv.de/politik/Frei-warnt-vor-unfruchtbarer-Debatte-um-Kanzler-Merz-id30869051.html",
-      "summary": "Angesichts der wilden Gerüchte um einen möglichen Wechsel an der Spitze der Bundesregierung ergreift Kanzleramtschef Frei Partei für Friedrich Merz. Er mahnt die Union eindringlich, das Gerede lieber …",
-      "source": "n-tv",
-      "pubDate": "2026-05-29T00:05:03+00:00"
     }
   ],
   "it": [
+    {
+      "title": "heise-Angebot: iX-Workshop: IT-Umgebungen mit Microsoft Defender XDR vor Angriffen schützen",
+      "link": "https://www.heise.de/news/iX-Workshop-IT-Umgebungen-mit-Microsoft-Defender-XDR-vor-Angriffen-schuetzen-11298299.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "XDR ist ein unverzichtbarer Bestandteil moderner Sicherheitsstrategien ‒ Prävention, Erkennung und Abwehr von Cyberangriffen mit Microsoft Defender XDR.",
+      "source": "heise",
+      "pubDate": "2026-05-29T12:00:00+00:00"
+    },
+    {
+      "title": "#TGIQF - Alien: Das Quiz",
+      "link": "https://www.heise.de/news/TGIQF-Alien-Das-Quiz-11311188.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "„Alien“ aus dem Jahr 1979 gilt bis heute als filmisches Meisterwerk des SciFi-Horrors. Wir würdigen die Reihe mit einem kleinen Nerdquiz. Gruseln Sie mit!",
+      "source": "heise",
+      "pubDate": "2026-05-29T11:57:00+00:00"
+    },
+    {
+      "title": "Netzentgelte: Zusatzgebühr für Solaranlagenbesitzer ist sozial sinnvoll",
+      "link": "https://www.golem.de/news/netzentgelte-zusatzgebuehr-fuer-solaranlagenbesitzer-ist-sozial-sinnvoll-2605-209186.html",
+      "summary": "Die Bundesnetzagentur muss die Gestaltung der Netzentgelte anpassen. Sie haben derzeit kaum eine Steuerfunktion und sind ungerecht verteilt. Ein IMHO von Mario Petzold ( Energiewende , Solarenergie )",
+      "source": "golem",
+      "pubDate": "2026-05-29T11:53:01+00:00"
+    },
+    {
+      "title": "Anzeige: Poolroboter bei Amazon zum Sonderpreis einpacken",
+      "link": "https://www.golem.de/news/anzeige-poolroboter-bei-amazon-zum-sonderpreis-einpacken-2605-209198.html",
+      "summary": "Aktuell gibt es bei Amazon den Ultenic Pooleco 10s zum Sonderpreis im Angebot. Er ist mit 25 Prozent Rabatt erhältlich. ( Technik/Hardware , Amazon )",
+      "source": "golem",
+      "pubDate": "2026-05-29T11:40:01+00:00"
+    },
+    {
+      "title": "BBEdit 16: Mehr KI, mehr Shortcuts, mehr Konfigurierbarkeit",
+      "link": "https://www.heise.de/news/BBEdit-16-Mehr-KI-mehr-Shortcuts-mehr-Konfigurierbarkeit-11310581.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Bare Bones Software bringt seinen klassischen Editor auf einen aktuellen Stand. Diesmal kann man in Bildern suchen, (noch) tiefer konfigurieren und mehr.",
+      "source": "heise",
+      "pubDate": "2026-05-29T11:31:00+00:00"
+    },
+    {
+      "title": "(g+) Künstliche Intelligenz: Ein lokales RAG-System aufbauen",
+      "link": "https://www.golem.de/news/kuenstliche-intelligenz-ein-lokales-rag-system-aufbauen-2605-209145.html",
+      "summary": "Weniger KI-Halluzinationen, mehr Kontrolle: In diesem Tutorial beschreiben wir, wie ein RAG-System aufgebaut wird, das nur auf Basis ausgewählter Dokumente antwortet. Eine Anleitung von Klaus Manhart …",
+      "source": "golem",
+      "pubDate": "2026-05-29T11:30:02+00:00"
+    },
+    {
+      "title": "heise+ | 9 Tipps: Monitorprobleme am Mac beheben",
+      "link": "https://www.heise.de/ratgeber/9-Tipps-Monitorprobleme-am-Mac-beheben-11296569.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Von falscher Bildschirmanordnung bis zu zusätzlichen Displays: So holen Sie das Meiste aus Ihrem Mac-Monitor heraus und bezwingen Herausforderungen.",
+      "source": "heise",
+      "pubDate": "2026-05-29T11:30:00+00:00"
+    },
+    {
+      "title": "Mistrals Chatbot heißt jetzt „Vibe“ und erhält neue Fähigkeiten",
+      "link": "https://www.heise.de/news/Mistrals-Chatbot-heisst-jetzt-Vibe-und-erhaelt-neue-Faehigkeiten-11311506.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Le Chat wird in „Vibe“ umbenannt. Das französische KI-Start-up Mistral bündelt darin einen Agenten für mehrstufige Aufgaben mit Programmierwerkzeugen.",
+      "source": "heise",
+      "pubDate": "2026-05-29T11:26:00+00:00"
+    },
+    {
+      "title": "Anzeige: Garmin Edge Explore 2 Fahrradnavi jetzt rund 210 Euro bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-garmin-edge-explore-2-fahrradnavi-jetzt-rund-210-euro-bei-amazon-2605-209196.html",
+      "summary": "Das Garmin Edge Explore 2 ist im Amazon-Angebot und navigiert mit 3-Zoll-Touchscreen, E-Bike-Routing und Live-Standort durch ganz Europa. ( E-Bike , Amazon )",
+      "source": "golem",
+      "pubDate": "2026-05-29T11:23:01+00:00"
+    },
+    {
+      "title": "Landesverfassungsgericht rügt Informationsdefizite bei Northvolt-Förderung",
+      "link": "https://www.heise.de/news/Landesverfassungsgericht-ruegt-Informationsdefizite-bei-Northvolt-Foerderung-11311609.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Nach Ansicht des Landesverfassungsgerichts verstieß die schwarz-grüne Landesregierung bei der Förderung einem Northvolt-Akkuwerk gegen ihre Informationspflicht.",
+      "source": "heise",
+      "pubDate": "2026-05-29T11:09:00+00:00"
+    },
     {
       "title": "Northvolt in Heide: Schleswig-Holstein hat gegen Informationspflicht verstoßen",
       "link": "https://www.golem.de/news/northvolt-in-heide-schleswig-holstein-hat-gegen-informationspflicht-verstossen-2605-209195.html",
@@ -209,81 +279,11 @@
       "pubDate": "2026-05-29T10:15:02+00:00"
     },
     {
-      "title": "Satelliten-Deal: Amazon schluckt auch Apples Globalstar-Beteiligung",
-      "link": "https://www.heise.de/news/Amazon-uebernimmt-Apples-Anteile-an-Satellitenanbieter-Globalstar-11311324.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Amazon schnappt sich im Zuge der Globalstar-Übernahme auch die 20-prozentige Beteiligung von Apple. Die Dienste für das iPhone sollen dennoch bestehen bleiben.",
-      "source": "heise",
-      "pubDate": "2026-05-29T10:09:00+00:00"
-    },
-    {
-      "title": "Magic Keyboard vom Mac: iPadOS 26.5 sorgt für leichtere Verbindung",
-      "link": "https://www.heise.de/news/iPadOS-26-5-Apple-verbessert-Anbindung-fuer-eigene-Tastaturen-11309913.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Wer seine Mac-Tastatur auch am iPad verwenden möchte, kann künftig schneller zwischen drahtgebunden und drahtlos wechseln. Apple übernimmt ein macOS-Feature.",
-      "source": "heise",
-      "pubDate": "2026-05-29T10:05:00+00:00"
-    },
-    {
       "title": "Star City: Das perfekte Gegenstück zu For All Mankind",
       "link": "https://www.golem.de/news/star-city-das-perfekte-gegenstueck-zu-for-all-mankind-2605-208682.html",
       "summary": "Star City ist eine neue Sci-Fi-Serie bei Apple TV, die parallel zu For All Mankind erzählt wird - aus sowjetischer Perspektive. Eine Rezension von Peter Osteried ( Science-Fiction , Apple TV )",
       "source": "golem",
       "pubDate": "2026-05-29T10:00:01+00:00"
-    },
-    {
-      "title": "heise+ | Flüssig auf Reisen: Wie Sie im Ausland am besten bezahlen",
-      "link": "https://www.heise.de/hintergrund/Fluessig-auf-Reisen-Wie-Sie-im-Ausland-am-besten-bezahlen-11295733.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Debitkarte, Kreditkarte, Smartphone, Cash – im Ausland vermeidet die richtige Mischung allerlei Probleme. Wir ordnen Systeme, Entgelte und Praxisprobleme ein.",
-      "source": "heise",
-      "pubDate": "2026-05-29T10:00:00+00:00"
-    },
-    {
-      "title": "heise-Angebot: c’t-Workshop: Microsoft 365 im Team produktiv nutzen",
-      "link": "https://www.heise.de/news/c-t-Workshop-Microsoft-365-im-Team-produktiv-nutzen-11307709.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Lernen Sie, wie Sie mit klaren Strukturen und passenden Werkzeugen die Zusammenarbeit in Microsoft 365 spürbar verbessern und Dateichaos vermeiden.",
-      "source": "heise",
-      "pubDate": "2026-05-29T10:00:00+00:00"
-    },
-    {
-      "title": "CNN verklagt KI-Suchmaschine Perplexity wegen Urheberrechtsverletzung",
-      "link": "https://www.heise.de/news/CNN-verklagt-KI-Suchmaschine-Perplexity-wegen-Urheberrechtsverletzung-11311111.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das Nachrichtennetzwerk CNN wirft dem KI-Start-up vor, redaktionelle Inhalte unrechtmäßig zu kopieren. Es ist wohl die erste derartige Klage eines TV-Senders.",
-      "source": "heise",
-      "pubDate": "2026-05-29T09:54:00+00:00"
-    },
-    {
-      "title": "Zero-Day-Drama spitzt sich zu: Microsoft droht Chaotic Eclipse mit Strafverfolgung",
-      "link": "https://www.golem.de/news/zero-day-drama-spitzt-sich-zu-microsoft-droht-chaotic-eclipse-mit-strafverfolgung-2605-209187.html",
-      "summary": "Auf die von Chaotic Eclipse geleakten Windows-Exploits reagiert Microsoft mit einer Drohung. Doch die stößt auf jede Menge Widerstand. ( Microsoft , Windows )",
-      "source": "golem",
-      "pubDate": "2026-05-29T09:50:02+00:00"
-    },
-    {
-      "title": "Tarifkonflikt bei der Telekom beigelegt",
-      "link": "https://www.heise.de/news/Tarifkonflikt-bei-der-Telekom-beigelegt-11311340.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Für mehr Geld bei der Telekom hat Verdi in vier Runden mit dem Arbeitgeber gerungen – und in Warnstreiks Druck gemacht. Das Ergebnis stellt nun alle zufrieden.",
-      "source": "heise",
-      "pubDate": "2026-05-29T09:45:00+00:00"
-    },
-    {
-      "title": "Waymo Ojai: Waymo bietet erste Fahrten mit speziell angefertigtem Robotaxi an",
-      "link": "https://www.golem.de/news/waymo-ojai-waymo-bietet-erste-fahrten-mit-speziell-angefertigtem-robotaxi-an-2605-209183.html",
-      "summary": "Bisher setzte Waymo vor allem auf umgebaute Autos anderer Hersteller - der Ojai ist speziell für den Robotaxidienst gebaut. ( Waymo , Barrierefreiheit )",
-      "source": "golem",
-      "pubDate": "2026-05-29T09:40:02+00:00"
-    },
-    {
-      "title": "Golem-Community: Komm schon in der Beta-Phase auf unsere Discourse-Plattform",
-      "link": "https://www.golem.de/news/golem-community-komm-schon-in-der-beta-phase-auf-unsere-discourse-plattform-2605-208578.html",
-      "summary": "Wir öffnen unsere Community auf Discourse für weitere 500 Mitglieder. Sei dabei! ( Golem.de , Wirtschaft )",
-      "source": "golem",
-      "pubDate": "2026-05-29T09:30:02+00:00"
-    },
-    {
-      "title": "(g+) Artificial Intelligence: Anthropic finalises $65bn funding deal to surpass OpenAI's valuation",
-      "link": "https://www.golem.de/news/artificial-intelligence-anthropic-finalises-65bn-funding-deal-to-surpass-openai-s-valuation-2605-209189.html",
-      "summary": "New round values Claude AI maker at $965bn including the latest money Anthropic has raised $65bn in a funding round that will nearly treble the start-up's valuation and see it leapfrog arch-rival Open…",
-      "source": "golem",
-      "pubDate": "2026-05-29T09:15:02+00:00"
     }
   ]
 }
