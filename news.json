@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T06:27:42.751712+00:00",
+  "updatedAt": "2026-05-29T07:33:02.058002+00:00",
   "wirtschaft": [
     {
       "title": "Drei Jahre für 965 Milliarden: KI-Unternehmen Anthropic ist jetzt wertvoller als OpenAI",
@@ -146,6 +146,76 @@
   ],
   "it": [
     {
+      "title": "Kein Patch für Gogs: Tausende self-hosted Git-Server sind angreifbar",
+      "link": "https://www.golem.de/news/kein-patch-fuer-gogs-tausende-self-hosted-git-server-sind-angreifbar-2605-209173.html",
+      "summary": "Eine kritische Sicherheitslücke lässt Angreifer Gogs-Server per Pull-Request vollständig kompromittieren. Einen Patch gibt es bisher nicht. ( Sicherheitslücke , Server )",
+      "source": "golem",
+      "pubDate": "2026-05-29T07:22:02+00:00"
+    },
+    {
+      "title": "Won’t fix! – Teil 2: Warum sich Bugs nicht systematisch eliminieren lassen",
+      "link": "https://www.heise.de/hintergrund/Won-t-fix-Teil-2-Warum-sich-Bugs-nicht-systematisch-eliminieren-lassen-11308462.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Selbst „Hello World“ hat einen Bug. Vollständige Fehlerfreiheit in Software ist nicht nur schwer, sondern mathematisch beweisbar unmöglich.",
+      "source": "heise",
+      "pubDate": "2026-05-29T07:21:00+00:00"
+    },
+    {
+      "title": "Nasa-Ausschreibung: Mars soll eigenes Kommunikationsnetzwerk erhalten",
+      "link": "https://www.golem.de/news/nasa-ausschreibung-mars-soll-eigenes-kommunikationsnetzwerk-erhalten-2605-209111.html",
+      "summary": "In einer neuen Nasa-Ausschreibung fordert die Behörde die Industrie auf, sich an einem Hochleistungskommunikationsnetzwerk für den Mars zu beteiligen. ( Nasa , Raumfahrt )",
+      "source": "golem",
+      "pubDate": "2026-05-29T07:15:02+00:00"
+    },
+    {
+      "title": "Dnsys Z1 im Test: Ein Exoskelett für beschwingtes Treppensteigen",
+      "link": "https://www.golem.de/news/dnsys-z1-im-test-ein-exoskelett-fuer-beschwingtes-treppensteigen-2605-209130.html",
+      "summary": "Dnsys' Exoskelett arbeitet mit Motoren an den Knien. Das hilft beim Treppensteigen und Wandern, weniger beim Radfahren. Ein Test von Tobias Költzsch ( Exoskelett , Roboter )",
+      "source": "golem",
+      "pubDate": "2026-05-29T07:00:05+00:00"
+    },
+    {
+      "title": "Digitale Wiederbelebung: Stan Lees Stimme kehrt per KI zurück",
+      "link": "https://www.golem.de/news/digitale-wiederbelebung-stan-lees-stimme-kehrt-per-ki-zurueck-2605-209172.html",
+      "summary": "Fast acht Jahre nach seinem Tod kehren Stimme und Abbild von Stan Lee durch KI-Technologie zurück. ( Marvel , KI )",
+      "source": "golem",
+      "pubDate": "2026-05-29T07:00:02+00:00"
+    },
+    {
+      "title": "heise+ | Lokale Bild-KI für älterer Gaming-Hardware: So erzeugen Sie Bilder in Sekunden",
+      "link": "https://www.heise.de/ratgeber/Lokale-Bild-KI-fuer-aelterer-Gaming-Hardware-So-erzeugen-Sie-Bilder-in-Sekunden-11309751.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Selbst betagtere Spiele-PCs können schnell schöne KI-Bilder generieren: Wir zeigen ComfyUI-Workflows für einen PC mit Nvidia RTX 3070 (8 GByte) und DDR4-RAM.",
+      "source": "heise",
+      "pubDate": "2026-05-29T07:00:00+00:00"
+    },
+    {
+      "title": "Neu in .NET 10.0 [25]: Neuer LINQ-Operator Shuffle()",
+      "link": "https://www.heise.de/blog/Neu-in-NET-10-0-25-Neuer-LINQ-Operator-Shuffle-11303533.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der in .NET 10.0 eingeführte LINQ-Operator Shuffle() mischt eine Menge zufällig, ohne dabei die Ausgangsmenge zu verändern.",
+      "source": "heise",
+      "pubDate": "2026-05-29T07:00:00+00:00"
+    },
+    {
+      "title": "Earn-Out eingelöst: „Subnautica 2“ zwingt Krafton zu 250-Millionen-Zahlung",
+      "link": "https://www.heise.de/news/Subnautica-2-Krafton-muss-Entwicklern-wohl-250-Millionen-US-Dollar-zahlen-11310845.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Krafton soll 250 Millionen US-Dollar an Unknown Worlds zahlen: „Subnautica 2“ hat sich 4 Millionen Mal verkauft und damit wohl die Earn-Out-Klausel ausgelöst.",
+      "source": "heise",
+      "pubDate": "2026-05-29T06:47:00+00:00"
+    },
+    {
+      "title": "Return to Blacktooth: 81-jähriger Entwickler vollendet Spiel nach 37 Jahren",
+      "link": "https://www.golem.de/news/return-to-blacktooth-81-jaehriger-entwickler-vollendet-spiel-nach-37-jahren-2605-209171.html",
+      "summary": "Ein Spieleprojekt aus den achtziger Jahren galt lange als verloren. Nun ist daraus doch noch ein fertiger Retro-Titel geworden. ( Retrogaming , Spiele )",
+      "source": "golem",
+      "pubDate": "2026-05-29T06:43:02+00:00"
+    },
+    {
+      "title": "Frühwarnsystem: Flugtracking von Privatjets soll vor Apokalypse warnen",
+      "link": "https://www.golem.de/news/fruehwarnsystem-flugtracking-von-privatjets-soll-vor-apokalypse-warnen-2605-209169.html",
+      "summary": "Ein neues System überwacht weltweite Flugbewegungen von Privatjets. Außergewöhnlich viele Starts sollen als Warnung vor Katastrophen dienen. ( Innovation & Forschung , Elon Musk )",
+      "source": "golem",
+      "pubDate": "2026-05-29T06:30:01+00:00"
+    },
+    {
       "title": "App-Update für Musikstreaming: Mehr Komfort für Spotify",
       "link": "https://www.golem.de/news/app-update-fuer-musikstreaming-mehr-komfort-fuer-spotify-2605-209170.html",
       "summary": "Ein paar der Spotify-Neuerungen soll es auch für Kunden geben, die nicht für ein Abo bezahlen. ( Spotify , Streaming )",
@@ -202,20 +272,6 @@
       "pubDate": "2026-05-29T06:00:00+00:00"
     },
     {
-      "title": "Blue Origin: New-Glenn-Raketentest endet in einer Explosion",
-      "link": "https://www.golem.de/news/blue-origin-new-glenn-rakete-explodiert-bei-test-noch-vor-dem-start-2605-209168.html",
-      "summary": "Bei einem Testlauf vor dem vierten Start der Schwerlastrakete New Glenn von Blue Origin ist es zu einer Explosion gekommen. Die Ursache ist unklar. ( Blue Origin , Nasa )",
-      "source": "golem",
-      "pubDate": "2026-05-29T05:53:02+00:00"
-    },
-    {
-      "title": "KI: Apple plant kompletten Siri-Neustart",
-      "link": "https://www.golem.de/news/ki-apple-plant-kompletten-siri-neustart-2605-209165.html",
-      "summary": "Apple soll auf der WWDC am 8. Juni den umfangreichsten Umbau Siris seit dem Launch des Assistenten vor fast 15 Jahren vorstellen. ( Siri , Apple )",
-      "source": "golem",
-      "pubDate": "2026-05-29T05:43:01+00:00"
-    },
-    {
       "title": "heise+ | Warum (kleine) Autos so teuer geworden sind",
       "link": "https://www.heise.de/hintergrund/Warum-kleine-Autos-so-teuer-geworden-sind-11299174.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
       "summary": "Die Autopreise haben sich in den vergangenen Jahren weit über der allgemeinen Inflation verteuert. Wir beleuchten die Ursachen und diskutieren über Lösungen.",
@@ -223,67 +279,11 @@
       "pubDate": "2026-05-29T05:30:00+00:00"
     },
     {
-      "title": "Anzeige: Kompakte Alternative zu Lego Minas Tirith kostet befristet 36 Euro",
-      "link": "https://www.golem.de/news/anzeige-kompakte-alternative-zu-lego-minas-tirith-kostet-befristet-36-euro-2605-209163.html",
-      "summary": "Bei Amazon schlägt eine Alternative zu Minas Tirith mit 36 Euro zu Buche. Sie bietet weniger Teile, erinnert aber stark an Herr der Ringe. ( Lego , Technik/Hardware )",
-      "source": "golem",
-      "pubDate": "2026-05-29T05:23:02+00:00"
-    },
-    {
-      "title": "Call of Duty: In Modern Warfare 4 greift Nordkorea an",
-      "link": "https://www.golem.de/news/call-of-duty-in-modern-warfare-4-greift-nordkorea-an-2605-209162.html",
-      "summary": "Das nächste Call of Duty schickt einen neuen Elitesoldaten in den Krieg. Es erscheint auch für die Switch 2, aber nicht für ältere Konsolen. ( Call of Duty , Activision )",
-      "source": "golem",
-      "pubDate": "2026-05-29T05:11:02+00:00"
-    },
-    {
       "title": "Abo-Apps: 95 Prozent der kündigenden Jahreskunden kommen nie zurück",
       "link": "https://www.heise.de/news/Abo-Apps-95-Prozent-der-kuendigenden-Jahreskunden-kommen-nie-zurueck-11310356.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Laut RevenueCat-Report kündigen über die Hälfte der Probe-Nutzer in Apps am ersten Tag. Jahresabos haben zudem kaum Rückkehr-Chancen.",
       "source": "heise",
       "pubDate": "2026-05-29T05:11:00+00:00"
-    },
-    {
-      "title": "Schwerlastrakete New Glenn von Blue Origin in gewaltiger Explosion zerstört",
-      "link": "https://www.heise.de/news/Gewaltige-Explosion-zerstoert-Schwerlastrakete-New-Glenn-von-Blue-Origin-11310763.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Jeff Bezos' Raumfahrtunternehmen Blue Origin wollte die Schwerlastrakete New Glenn jetzt zum vierten Mal starten. Daraus wird nach einer Explosion nichts.",
-      "source": "heise",
-      "pubDate": "2026-05-29T04:56:00+00:00"
-    },
-    {
-      "title": "Freitag: Microsoft droht Sicherheitsforscher, Phishing-Affäre auch in Australien",
-      "link": "https://www.heise.de/news/Freitag-Microsoft-droht-Sicherheitsforscher-Phishing-Affaere-auch-in-Australien-11310759.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Zwist wegen sechs Zero-Days + Angriffe auf Parlamentarier Down Under + EU-Kaufempfehlung für EU-Chips + Claude Opus 4.8 von Anthropic + c't-Datenschutz-Podcast",
-      "source": "heise",
-      "pubDate": "2026-05-29T04:15:00+00:00"
-    },
-    {
-      "title": "Auslegungssache 160: Kippt der Datenschutz das Haftungsprivileg?",
-      "link": "https://www.heise.de/hintergrund/Auslegungssache-160-Kippt-der-Datenschutz-das-Haftungsprivileg-11308283.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Im c't-Datenschutz-Podcast geht es um ein 100-Mio-Bußgeld gegen Yandex, geplante Stellenkürzungen und die Folgen des EuGH-Urteils gegen Russmedia.",
-      "source": "heise",
-      "pubDate": "2026-05-29T04:10:00+00:00"
-    },
-    {
-      "title": "heise+ | Fight Club im 4K-Heimkinotest: Looksmaxing für Tyler Durden",
-      "link": "https://www.heise.de/tests/Fight-Club-im-4K-Heimkinotest-Looksmaxing-fuer-Tyler-Durden-11280501.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Wir brechen die Regeln und reden über Fight Club: wie Palahniuk den Kult erfolglos bekämpft und wo Fincher die UHD zu stark gephotoshoppt hat.",
-      "source": "heise",
-      "pubDate": "2026-05-29T04:01:00+00:00"
-    },
-    {
-      "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
-      "link": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
-      "summary": "Undisclosed addition in jqwik instructed AI coding agents to delete app output.",
-      "source": "ars technica",
-      "pubDate": "2026-05-28T20:29:53+00:00"
-    },
-    {
-      "title": "Cloud: EU will US-Hyperscaler bei sensiblen Daten ausschließen",
-      "link": "https://www.golem.de/news/cloud-eu-will-us-hyperscaler-bei-sensiblen-daten-ausschliessen-2605-209160.html",
-      "summary": "Trotz aller gesicherten Erkenntnisse über US-Hyperscaler und ihre Zusammenarbeit mit den US-Geheimdiensten will die EU-Kommission nur ein wenig Souveränität. ( Souveränität , Web Service )",
-      "source": "golem",
-      "pubDate": "2026-05-28T17:13:06+00:00"
     }
   ]
 }
