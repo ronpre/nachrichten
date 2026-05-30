@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-30T07:11:27.495192+00:00",
+  "updatedAt": "2026-05-30T07:53:44.775981+00:00",
   "wirtschaft": [
     {
       "title": "\"Euphorische Stimmung\" um KI: Dell und Iran-Hoffnungen treiben Wall Street auf Rekordhoch",
@@ -67,6 +67,13 @@
   ],
   "politik": [
     {
+      "title": "Das M-Wort geht um: Geht es überhaupt ohne Steuererhöhungen?",
+      "link": "https://www.n-tv.de/politik/Geht-es-ueberhaupt-ohne-Steuererhoehungen-id30868701.html",
+      "summary": "Die Steuer zählt neben Rente, Gesundheit und Pflege zu den großen Vier des Reformjahres. Im Wahlkampf machte die Union große Versprechen, doch spätestens durch den Iran-Krieg ist die Welt eine andere.…",
+      "source": "n-tv",
+      "pubDate": "2026-05-30T07:35:05+00:00"
+    },
+    {
       "title": "Ein paar Kilo zugelegt: Arzt: Trump physisch und geistig fit fürs Amt",
       "link": "https://www.n-tv.de/politik/Arzt-Trump-physisch-und-geistig-fit-fuers-Amt-id30874117.html",
       "summary": "Blutergüsse an den Händen, Schwellungen an den Knöcheln, Hinwegdämmern bei öffentlichen Terminen: Wie fit ist US-Präsident Trump? Ein Arzt äußert sich nach einem Gesundheitstest - lässt allerdings ein…",
@@ -128,16 +135,23 @@
       "summary": "Der bulgarische Ministerpräsident will den USA die Erlaubnis entziehen, Tankflugzeuge in seinem Land zu stationieren. Damit reagiert Radew auf einen Streit mit Washington über Visavorgaben, bei dem er…",
       "source": "n-tv",
       "pubDate": "2026-05-29T19:10:43+00:00"
-    },
-    {
-      "title": "Manöver \"Freedom Shield\": Bundeswehr verlegt Panzer und Soldaten für Übung nach Litauen",
-      "link": "https://www.n-tv.de/politik/Bundeswehr-verlegt-Panzer-und-Soldaten-fuer-Uebung-nach-Litauen-id30873231.html",
-      "summary": "In Litauen werden derzeit Truppen für das Manöver \"Freedom Shield\" zusammengezogen. Darunter befinden sich auch mehrere Tausend Soldaten aus Deutschland. Bei der Übung soll der Kampf \"unter realen Bed…",
-      "source": "n-tv",
-      "pubDate": "2026-05-29T19:08:40+00:00"
     }
   ],
   "it": [
+    {
+      "title": "KI-Agent im Browser: „Let's Build K.I.T.T. With JavaScript“",
+      "link": "https://www.heise.de/hintergrund/KI-Agent-im-Browser-Let-s-Build-K-I-T-T-With-JavaScript-11293527.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Mit WebAssembly, WebGPU und anderen modernen Browsertechnologien entsteht in diesem Vortrag auf der enterJS ein KI-Agent, der autonome Entscheidungen trifft.",
+      "source": "heise",
+      "pubDate": "2026-05-30T07:19:00+00:00"
+    },
+    {
+      "title": "Developer-Häppchen fürs Wochenende – kleinere News der Woche",
+      "link": "https://www.heise.de/news/Developer-Haeppchen-fuers-Wochenende-kleinere-News-der-Woche-11311179.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Kleine, aber interessante Meldungshäppchen vom News-Buffet zu Red Hat, Dyad, Koog, PyPy, Rust, Google Coralboard, OSSF Scorecards, xaml.io und Kubernetes etcd.",
+      "source": "heise",
+      "pubDate": "2026-05-30T07:15:00+00:00"
+    },
     {
       "title": "Vom MRT ins Sprachmodell: Aus Hirndaten mentale Bilder dekodieren",
       "link": "https://www.golem.de/news/vom-mrt-ins-sprachmodell-aus-hirndaten-mentale-bilder-dekodieren-2605-209182.html",
@@ -235,20 +249,6 @@
       "summary": "Der für Proxmox-VE-Cluster gedachte Datacenter Manager hat in Version 1.1 neue Funktionen erhalten, die Verwaltung und das Monitoring deutlich verbessern.",
       "source": "heise",
       "pubDate": "2026-05-29T14:30:00+00:00"
-    },
-    {
-      "title": "Nie wieder Daten verlieren | c't 3003",
-      "link": "https://www.heise.de/news/Nie-wieder-Daten-verlieren-c-t-3003-11311857.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Backup ist nicht gleich Backup. c't 3003 zeigt, wie ein dreistufiges Backup-System für Homeserver vor allen Worst-Case-Szenarien schützt.",
-      "source": "heise",
-      "pubDate": "2026-05-29T14:30:00+00:00"
-    },
-    {
-      "title": "Neue Filme und Serien bei Netflix, Disney+ und Amazon Prime im Juni 2026",
-      "link": "https://www.heise.de/news/Neue-Filme-und-Serien-bei-Netflix-Disney-und-Amazon-Prime-im-Juni-2026-11311891.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Disney+ zeigt im Juni „Avatar: Fire and Ash“. Bei Netflix kommt „Avatar – Der Herr der Elemente“ (Staffel 2) und Amazon setzt „The Legend of Vox Machina“ fort.",
-      "source": "heise",
-      "pubDate": "2026-05-29T14:23:00+00:00"
     },
     {
       "title": "MIT-Studie: Kreislaufprozess zur Lithiumgewinnung aus Stein entwickelt",
