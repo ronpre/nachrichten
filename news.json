@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T09:20:16.796909+00:00",
+  "updatedAt": "2026-06-02T10:33:35.664008+00:00",
   "wirtschaft": [
     {
       "title": "Lichtblick im Mai: Bahn erreicht selbst gestecktes Pünktlichkeitsziel knapp",
@@ -83,7 +83,7 @@
     {
       "title": "Netanjahu-Regierung vor dem Aus?: Knesset stimmt in erster Lesung für eigene Auflösung",
       "link": "https://www.n-tv.de/politik/Israels-Parlament-stimmt-in-erster-Lesung-fuer-seine-Aufloesung-id30882676.html",
-      "summary": "Die Debatte um einen Wehrdienst auch für Ultraorthodoxe führt zu massivem Streit in der Koalition von Regierungschef Netanjahu. Mit massiven Folgen: Die Mehrheit der Parlamentsabgeordneten will vorgez…",
+      "summary": "Die Debatte um einen Wehrdienst auch für Ultraorthodoxe führt zu heftigem Streit in der Koalition von Regierungschef Netanjahu. Mit massiven Folgen: Die Mehrheit der Parlamentsabgeordneten will vorgez…",
       "source": "n-tv",
       "pubDate": "2026-06-02T09:10:00+00:00"
     },
@@ -146,6 +146,111 @@
   ],
   "it": [
     {
+      "title": "CD Projekt Red: The Witcher 4 bekommt offenbar keine großen Erweiterungen",
+      "link": "https://www.golem.de/news/cd-projekt-red-the-witcher-4-bekommt-offenbar-keine-grossen-erweiterungen-2606-209297.html",
+      "summary": "Fans von Blood and Wine müssen womöglich umdenken: CD Projekt deutet an, dass für The Witcher 4 keine großen Erweiterungen geplant sind. ( The Witcher 4 , Rollenspiel )",
+      "source": "golem",
+      "pubDate": "2026-06-02T10:25:01+00:00"
+    },
+    {
+      "title": "Juni-Patchday bei Samsung: Zahlreiche Sicherheitslücken gestopft",
+      "link": "https://www.heise.de/news/Juni-Patchday-bei-Samsung-Zahlreiche-Sicherheitsluecken-gestopft-11315093.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Samsung hat sein Security-Bulletin für Juni 2026 veröffentlicht. Der Hersteller verteilt wichtige Sicherheitspatches für zahlreiche Galaxy-Geräte.",
+      "source": "heise",
+      "pubDate": "2026-06-02T10:19:00+00:00"
+    },
+    {
+      "title": "Wurm im NPM-Ökosystem: Mehrere Softwarepakete von Red Hat kompromittiert",
+      "link": "https://www.golem.de/news/wurm-im-npm-oekosystem-mehrere-softwarepakete-von-red-hat-kompromittiert-2606-209295.html",
+      "summary": "Eine neue Variante der Mini-Shai-Hulud-Malware schleust sich selbst in NPM-Pakete ein. Auch den Linux-Entwickler Red Hat hat es jetzt erwischt. ( Malware , Virus )",
+      "source": "golem",
+      "pubDate": "2026-06-02T10:12:01+00:00"
+    },
+    {
+      "title": "Rust Coreutils 0.9.0: weniger unsafe, mehr Tempo",
+      "link": "https://www.heise.de/news/Rust-Coreutils-0-9-0-weniger-unsafe-mehr-Tempo-11315063.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Nach einem Audit der Firma Zellic schließt uutils/coreutils 0.9.0 zahlreiche TOCTOU-Lücken, reduziert unsafe-Code und beschleunigt I/O per Zero-Copy.",
+      "source": "heise",
+      "pubDate": "2026-06-02T10:12:00+00:00"
+    },
+    {
+      "title": "ISS World Europe: \"Ein Eurovision-Contest für Diktatoren\"",
+      "link": "https://www.golem.de/news/iss-world-europe-ein-eurovision-contest-fuer-diktatoren-2606-209289.html",
+      "summary": "Der Europa-Ableger der weltgrößten Überwachungsmesse ISS World ist in Prag gestartet. Er steht ganz im Zeichen von KI-Anwendungen für Geheimdienste und Polizei. Ein IMHO von Erich Moechel ( Überwachun…",
+      "source": "golem",
+      "pubDate": "2026-06-02T10:00:02+00:00"
+    },
+    {
+      "title": "heise+ | Der DIY- Klingel-Repeater im Eigenbau",
+      "link": "https://www.heise.de/ratgeber/Der-DIY-Klingel-Repeater-im-Eigenbau-11302495.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Ein ESP32-Board überwacht die Haustürklingel und verbindet sich serverlos über LoRa mit einer mobilen Klingelstation. So verpasst man keinen Besuch mehr.",
+      "source": "heise",
+      "pubDate": "2026-06-02T10:00:00+00:00"
+    },
+    {
+      "title": "heise-Angebot: CySecMed: Jetzt Blind-Bird Ticket sichern",
+      "link": "https://www.heise.de/news/CySecMed-Jetzt-Blind-Bird-Ticket-sichern-11313050.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Fachkräfte aus Medizintechnik, Cyber Security und Softwareentwicklung können bis zum 02.08.2026 Vorträge einreichen. 13.–14.10.2026 in München-Unterhaching.",
+      "source": "heise",
+      "pubDate": "2026-06-02T10:00:00+00:00"
+    },
+    {
+      "title": "Forscher erstellen FSME-Infektionsrisikokarte mithilfe von Drohnen",
+      "link": "https://www.heise.de/news/FSME-Forscher-untersuchen-Zeckengebiete-mit-Vermessungsdrohnen-11314958.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Wer das FSME-Risiko kennt, kann entsprechende Zeckengebiete meiden. Forscher verwenden Drohnen, um Daten für eine Risikokarte zu sammeln.",
+      "source": "heise",
+      "pubDate": "2026-06-02T09:52:00+00:00"
+    },
+    {
+      "title": "Angreifer nehmen Oracle WebLogic-Server in die Mangel",
+      "link": "https://www.heise.de/news/Angreifer-nehmen-Oracle-WebLogic-Server-in-die-Mangel-11314899.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Angreifer haben es auf eine Schwachstelle in Oracles WebLogic-Server abgesehen. Sie erlaubt die volle Kompromittierung der Instanz.",
+      "source": "heise",
+      "pubDate": "2026-06-02T09:45:00+00:00"
+    },
+    {
+      "title": "Lexus LF-ZC: Toyota stellt Pläne für Luxus-Elektroauto ein",
+      "link": "https://www.golem.de/news/lexus-lf-zc-toyota-stellt-plaene-fuer-luxus-elektroauto-ein-2606-209294.html",
+      "summary": "Der Lexus LF-ZC sollte Toyotas Elektroauto im Luxussegment werden - nun wird die Entwicklung wegen \"Nachfragefluktuationen\" eingestellt. ( Lexus , Elektroauto )",
+      "source": "golem",
+      "pubDate": "2026-06-02T09:40:01+00:00"
+    },
+    {
+      "title": "Firefox 151: Endlich Web-Serial für den beliebten Browser",
+      "link": "https://www.heise.de/news/Firefox-151-Endlich-Web-Serial-fuer-den-beliebten-Browser-11314905.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der freie und offene Webbrowser Firefox ist eine letzte Bastion gegen Chromium-Varianten. Nun gibt es endlich auch die Web-Serial-API für den Fuchs.",
+      "source": "heise",
+      "pubDate": "2026-06-02T09:37:00+00:00"
+    },
+    {
+      "title": "Apple Wallet: Neues „Rechnung teilen“-Feature in der Mache",
+      "link": "https://www.heise.de/news/Apple-Wallet-Neues-Rechnung-teilen-Feature-in-der-Mache-11314857.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Anbieter wie Venmo in den USA bieten sogenannte Bill-Splitting-Dienste bereits an, in Europa bietet es etwa Revolut. Nun wolle auch Apple mitmachen, heißt es.",
+      "source": "heise",
+      "pubDate": "2026-06-02T09:28:00+00:00"
+    },
+    {
+      "title": "Radeon RX 9070 GRE: AMD veröffentlicht Grafikkarte für 1440p-Gaming",
+      "link": "https://www.golem.de/news/radeon-rx-9070-gre-amd-veroeffentlicht-grafikkarte-fuer-1440p-gaming-2606-209292.html",
+      "summary": "Als direktes Konkurrenzmodell nennt AMD die Geforce RTX 5060 Ti (16 GB), wobei die RX 9070 GRE um mindestens 20 Prozent schneller sein soll. ( Grafikkarten , AMD )",
+      "source": "golem",
+      "pubDate": "2026-06-02T09:25:02+00:00"
+    },
+    {
+      "title": "OpenAI unter Druck: Klage wegen angeblicher Sicherheitsrisiken",
+      "link": "https://www.heise.de/news/Florida-verklagt-ChatGPT-Entwickler-OpenAI-11314940.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der US-Bundesstaat Florida betritt juristisches Neuland mit einer Klage gegen die KI-Firma OpenAI. Er wirft ihr vor, ChatGPT-Nutzern Sicherheit zu versprechen.",
+      "source": "heise",
+      "pubDate": "2026-06-02T09:21:00+00:00"
+    },
+    {
+      "title": "Polestar 5 im Fahrbericht: Luxus-Sportlimousine mit 650 kW",
+      "link": "https://www.heise.de/tests/Polestar-5-im-Fahrbericht-Konkurrenz-fuer-den-Porsche-Taycan-11314716.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der Polestar 5 ist ein ziemlich teurer Gran Turismo mit 800-Volt-Technik. Eine erste kurze Ausfahrt mit der Performance-Version, die 650 kW bietet.",
+      "source": "heise",
+      "pubDate": "2026-06-02T09:17:00+00:00"
+    },
+    {
       "title": "Anzeige: Dashcam fürs Auto mit GPS und ADAS zum Sparpreis bei Amazon",
       "link": "https://www.golem.de/news/anzeige-dashcam-fuers-auto-mit-gps-und-adas-zum-sparpreis-bei-amazon-2606-209291.html",
       "summary": "Amazon hat eine Dashcam fürs Auto im Angebot, die den Verkehr in 4K überwacht und mit GPS und ADAS attraktive Zusatzfunktionen enthält. ( Technik/Hardware , GPS )",
@@ -167,13 +272,6 @@
       "pubDate": "2026-06-02T09:03:01+00:00"
     },
     {
-      "title": "C++26-Reflexion zur Kompilierungszeit",
-      "link": "https://www.heise.de/blog/C-26-Reflexion-zur-Kompilierungszeit-11307044.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Mit der in C++26 kommenden Reflexion lassen sich einige komplizierte Aufgaben einfacher lösen.",
-      "source": "heise",
-      "pubDate": "2026-06-02T09:00:00+00:00"
-    },
-    {
       "title": "Anzeige: Apple Airpods Pro 3 erstmals unter 190 Euro bei Amazon",
       "link": "https://www.golem.de/news/anzeige-apple-airpods-pro-3-erstmals-unter-190-euro-bei-amazon-2606-209290.html",
       "summary": "Die Apple Airpods Pro 3 mit verbesserter Geräuschunterdrückung und Gesundheitsfunktionen mit neuem Amazon-Bestpreis. ( Airpods , Apple )",
@@ -181,109 +279,11 @@
       "pubDate": "2026-06-02T08:55:01+00:00"
     },
     {
-      "title": "GoPro im Sinkflug: Speicherpreise setzen Kamerahersteller weiter zu",
-      "link": "https://www.heise.de/news/GoPro-im-Sinkflug-Speicherpreise-setzen-Kamerahersteller-weiter-zu-11314845.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "GoPro hat erhebliche Zweifel am Fortbestand des Unternehmens eingeräumt. Stark gestiegene Preise für Speicherkomponenten verschärfen die Krise noch.",
-      "source": "heise",
-      "pubDate": "2026-06-02T08:48:00+00:00"
-    },
-    {
-      "title": "BYD übernimmt als erster Hersteller Haftung für Unfälle mit Fahrassistenz",
-      "link": "https://www.heise.de/news/BYD-uebernimmt-als-erster-Hersteller-Haftung-fuer-Unfaelle-mit-Fahrassistenz-11314700.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "BYD übernimmt in China ein Jahr lang alle Unfallkosten bei Nutzung seiner Fahrassistenz. Dazu kommt ein eigener 4-nm-Chip für künftiges autonomes Fahren.",
-      "source": "heise",
-      "pubDate": "2026-06-02T08:38:00+00:00"
-    },
-    {
       "title": "Podcast Besser Wissen: Eine Platine, viel Potenzial",
       "link": "https://www.golem.de/news/podcast-besser-wissen-eine-platine-viel-potenzial-2606-209236.html",
       "summary": "Elektor, KIM und NDR: Was es mit diesen Kleincomputern auf sich hat, besprechen wir im Podcast. ( Besser Wissen , Podcast )",
       "source": "golem",
       "pubDate": "2026-06-02T08:30:05+00:00"
-    },
-    {
-      "title": "Kritische Sicherheitslücke: Attacken auf Windows-Server beobachtet",
-      "link": "https://www.golem.de/news/kritische-sicherheitsluecke-attacken-auf-windows-server-beobachtet-2606-209287.html",
-      "summary": "Aufgrund einer kritischen Netlogon-Lücke lassen sich Windows-Server durch spezielle Datenpakete kompromittieren. Angreifer nutzen das bereits. ( Sicherheitslücke , Microsoft )",
-      "source": "golem",
-      "pubDate": "2026-06-02T08:30:02+00:00"
-    },
-    {
-      "title": "heise+ | Home Assistant: Katzen-Gesundheit überwachen mit smarten Gadgets",
-      "link": "https://www.heise.de/ratgeber/Home-Assistant-Katzen-Gesundheit-ueberwachen-mit-smarten-Gadgets-11197039.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Vernetzte Haustier-Hardware hilft, Krankheiten bei Katzen frühzeitig zu erkennen. Wir bringen alle wichtigen Daten in Home Assistant zusammen.",
-      "source": "heise",
-      "pubDate": "2026-06-02T08:30:00+00:00"
-    },
-    {
-      "title": "New-Glenn-Explosion: Weitere Verzögerung für Mondprogramm der USA",
-      "link": "https://www.golem.de/news/new-glenn-explosion-weitere-verzoegerung-fuer-mondprogramm-der-usa-2606-209288.html",
-      "summary": "Die Explosion der voll betankten Rakete hat größere Schäden verursacht als erwartet. Die Zeitpläne der Nasa verschieben sich um Jahre. ( Blue Origin , Amazon )",
-      "source": "golem",
-      "pubDate": "2026-06-02T08:19:02+00:00"
-    },
-    {
-      "title": "Patchday: Kritische Lücken ermöglichen Attacken auf Android 14, 15, 16",
-      "link": "https://www.heise.de/news/Patchday-18-kritische-Sicherheitsluecken-bedrohen-Android-14-15-16-11314546.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Google hat zahlreiche Softwareschwachstellen in verschiedenen Android-Versionen geschlossen. Es kann Schadcode auf Geräte gelangen.",
-      "source": "heise",
-      "pubDate": "2026-06-02T08:19:00+00:00"
-    },
-    {
-      "title": "Playstation 5: Flexstrike wechselt Restrictor Gates werkzeugfrei",
-      "link": "https://www.golem.de/news/playstation-5-flexstrike-wechselt-restrictor-gates-werkzeugfrei-2606-209286.html",
-      "summary": "Der neue Arcade-Controller Flexstrike für PS5 und PC setzt auf Sonys Playstation-Link-Technik und austauschbare Komponenten. ( Playstation 5 , Sony )",
-      "source": "golem",
-      "pubDate": "2026-06-02T08:06:01+00:00"
-    },
-    {
-      "title": "heise-Angebot: iX-Konferenz für agile Führungskräfte: Herausforderungen effektiv meistern",
-      "link": "https://www.heise.de/news/iX-Konferenz-fuer-agile-Fuehrungskraefte-Herausforderungen-effektiv-meistern-11308591.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Am 1. und 2. Dezember bietet die Online-Konferenz rund um Führung und Selbstführung wertvolle Impulse für starke Teams unter wechselnden Herausforderungen.",
-      "source": "heise",
-      "pubDate": "2026-06-02T08:00:00+00:00"
-    },
-    {
-      "title": "Android 17 Beta 4.1: Google behebt offenbar letzte Fehler vor Release",
-      "link": "https://www.heise.de/news/Android-17-Beta-4-1-Google-behebt-offenbar-letzte-Fehler-vor-Release-11314670.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Google hat eine weitere Beta für Android 17 veröffentlicht. Das Update auf Beta-Version 4.1 dürfte die letzten Bugs vor dem erwarteten Release ausbügeln.",
-      "source": "heise",
-      "pubDate": "2026-06-02T08:00:00+00:00"
-    },
-    {
-      "title": "AV2 spart 30 Prozent Bitrate gegenüber AV1",
-      "link": "https://www.heise.de/news/AV2-spart-30-Prozent-Bitrate-gegenueber-AV1-11314664.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Größere Superblöcke, datengetriebene Transformationen, neue Filter: AOMedia hat die finale Spezifikation des AV1-Nachfolgers AV2 veröffentlicht.",
-      "source": "heise",
-      "pubDate": "2026-06-02T07:58:00+00:00"
-    },
-    {
-      "title": "Summer Game Fest: Eine Woche der Spiele, die aus Deutschland schwer zu sehen ist",
-      "link": "https://www.heise.de/news/Summer-Game-Fest-Eine-Woche-der-Spiele-die-aus-Deutschland-schwer-zu-sehen-ist-11314580.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das Summer Game Fest hat begonnen. Im Laufe der Woche können sich Fans auf neue Infos und Trailer freuen. Aus Deutschland ist das aber schwer zu verfolgen.",
-      "source": "heise",
-      "pubDate": "2026-06-02T07:47:00+00:00"
-    },
-    {
-      "title": "Speicherpreise: Gopro droht Insolvenz wegen KI-Boom",
-      "link": "https://www.golem.de/news/speicherpreise-gopro-droht-insolvenz-wegen-ki-boom-2606-209285.html",
-      "summary": "Speicher wird wegen des KI-Booms immer teurer. Gopro warnt seine Anleger vor einer möglichen Pleite. ( Gopro , KI )",
-      "source": "golem",
-      "pubDate": "2026-06-02T07:30:05+00:00"
-    },
-    {
-      "title": "KI-Panne bei Instagram: Support-Chatbot hilft bei Passwort-Reset für fremde Konten",
-      "link": "https://www.golem.de/news/support-panne-instagram-konten-ueber-metas-ki-chatbot-gekapert-2606-209284.html",
-      "summary": "Der Meta AI Supportassistent hilft Angreifern offenbar bereitwillig dabei, fremde Instagram-Konten zu übernehmen. Beschwerden im Netz häufen sich. ( Instagram , KI )",
-      "source": "golem",
-      "pubDate": "2026-06-02T07:01:02+00:00"
-    },
-    {
-      "title": "heise+ | Von 1 bis 4 TByte: 18 SSDs mit PCIe 4.0 und 5.0 im Test",
-      "link": "https://www.heise.de/tests/Von-1-bis-4-TByte-18-SSDs-mit-PCIe-4-0-und-5-0-im-Test-11172765.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Aufgrund der gestiegenen Preise suchen viele Käufer nach günstigen SSDs. In diesem Artikel tritt eine billige China-SSD gegen die etablierte Konkurrenz an.",
-      "source": "heise",
-      "pubDate": "2026-06-02T07:00:00+00:00"
     }
   ]
 }
