@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-04T15:05:13.135982+00:00",
+  "updatedAt": "2026-06-04T16:09:26.601125+00:00",
   "wirtschaft": [
     {
       "title": "Russlands Budget zeigt Risse : Für Putin wird es schwieriger, seinen Krieg zu finanzieren",
@@ -74,6 +74,20 @@
   ],
   "politik": [
     {
+      "title": "Berlin Tag & Macht : Die Welt hat gewählt: Deutschland zahlt, Österreich entscheidet",
+      "link": "https://www.n-tv.de/politik/Die-Welt-hat-gewaehlt-Deutschland-zahlt-Oesterreich-entscheidet-id30892620.html",
+      "summary": "Deutschland bekommt in New York einen Platz am Katzentisch, zahlt aber wie ein Premiumkunde. Die nächste Ohrfeige für die Bundesregierung könnte Folgen haben, und zwar unschöne.",
+      "source": "n-tv",
+      "pubDate": "2026-06-04T16:01:25+00:00"
+    },
+    {
+      "title": "Gegen den Westen: Geheimdienst warnt vor \"juristischem Krieg\" Moskaus",
+      "link": "https://www.n-tv.de/politik/Geheimdienst-warnt-vor-juristischem-Krieg-Moskaus-id30892664.html",
+      "summary": "Bisher setzt Russland seine juristischen Mittel einem Bericht zufolge vor allem gegen die Ukraine ein. Das könnte sich aber bald ändern, denn lettischen Geheimdienstlern zufolge geraten nun andere Sta…",
+      "source": "n-tv",
+      "pubDate": "2026-06-04T15:44:50+00:00"
+    },
+    {
       "title": "Im Gegenzug für höhere Zahlungen: Prien kann sich Kürzung der Elterngeld-Bezugsdauer vorstellen",
       "link": "https://www.n-tv.de/politik/Prien-kann-sich-Kuerzung-der-Elterngeld-Bezugsdauer-vorstellen-id30892485.html",
       "summary": "Das Elterngeld ist beliebt und wird in Anspruch genommen, um eine längere Auszeit von der Arbeit zu nehmen. In Zukunft könnte diese jedoch kürzer ausfallen als bisher.",
@@ -128,29 +142,57 @@
       "summary": "Wer in der EU eine Scheinehe eingeht, kann sich auch Jahre später nicht in Sicherheit wiegen. Dies besagt ein Urteil des Europäischen Gerichtshofs.",
       "source": "n-tv",
       "pubDate": "2026-06-04T12:52:48+00:00"
-    },
-    {
-      "title": "Pflegereform wird konkret: Warken plant mehrere Härten, aber auch Verbesserungen",
-      "link": "https://www.n-tv.de/politik/Reform-der-Pflegeversicherung-Das-sind-die-Plaene-von-Bundesgesundheitsministerin-Nina-Warken-id30891722.html",
-      "summary": "Die Pflegeversicherung ist drastisch unterfinanziert. Gesundheitsministerin Nina Warken legt den Entwurf für eine Reform vor, die das ändern soll. Der Schwerpunkt liegt bei den Einsparungen. Beim Scho…",
-      "source": "n-tv",
-      "pubDate": "2026-06-04T11:51:39+00:00"
-    },
-    {
-      "title": "Klage vor EuGH: Kürzung von Leistungen bei abgelehnten Asylbewerbern ist EU-rechtswidrig",
-      "link": "https://www.n-tv.de/politik/Kuerzung-von-Leistungen-bei-abgelehnten-Asylbewerbern-ist-EU-rechtswidrig-id30891064.html",
-      "summary": "Ein abgelehnter Asylsuchender soll 2022 aus Deutschland abgeschoben werden. In der Wartezeit werden ihm Leistungen wie Kleidung gestrichen. Die Richter des Europäischen Gerichtshofs bewerten die Kürzu…",
-      "source": "n-tv",
-      "pubDate": "2026-06-04T11:22:25+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Digital Markets Act: Teilerfolg für Meta vor dem EU-Gericht",
+      "link": "https://www.heise.de/news/Digital-Markets-Act-Teilerfolg-fuer-Meta-vor-dem-EU-Gericht-11319034.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das Gericht der EU kippt die Einstufung des Marketplace von Meta als Torwächter, bestätigt den Status und die Wettbewerbsauflagen aber für Facebooks Messenger.",
+      "source": "heise",
+      "pubDate": "2026-06-04T15:56:00+00:00"
+    },
+    {
+      "title": "Biologische Kampfstoffe: OpenAI und Anthropic für gesetzlichen Schutz bei Biotechnologie",
+      "link": "https://www.golem.de/news/biologische-kampfstoffe-openai-und-anthropic-fuer-gesetzlichen-schutz-bei-biotechnologie-2606-209420.html",
+      "summary": "Gemeinsam mit Experten fordern CEOs von KI-Firmen gesetzliche Regelungen, um den Missbrauch der Technik für biologische Kampfstoffe zu verhindern. ( KI , Google )",
+      "source": "golem",
+      "pubDate": "2026-06-04T15:30:02+00:00"
+    },
+    {
+      "title": "heise+ | Ubuntu: Single Sign-on bis ins Betriebssystem",
+      "link": "https://www.heise.de/ratgeber/Ubuntu-Single-Sign-on-bis-ins-Betriebssystem-11298970.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Ubuntu 26.04 LTS lässt sich mit Canonicals authd gegen OIDC-Provider authentifizieren. Das klappt auch mit selbst gehosteten Providern wie Pocket ID.",
+      "source": "heise",
+      "pubDate": "2026-06-04T15:30:00+00:00"
+    },
+    {
+      "title": "Analyse zum Souveränitätspaket der EU: Krisenfest per Gesetz?",
+      "link": "https://www.heise.de/hintergrund/Analyse-zum-Souveraenitaetspaket-der-EU-Krisenfest-per-Gesetz-11318875.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die EU-Kommission hat ein großes Paket vorgestellt, das den Staatenbund technologisch souveräner machen soll. Immerhin ein Anfang, analysiert Falk Steiner.",
+      "source": "heise",
+      "pubDate": "2026-06-04T15:26:00+00:00"
+    },
+    {
+      "title": "Cloudflare kauft Vite: Open Source und herstellerneutral – mit Millionenfonds",
+      "link": "https://www.heise.de/news/Cloudflare-uebernimmt-VoidZero-Team-hinter-Vite-wechselt-komplett-11318973.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Cloudflare übernimmt VoidZero und damit das Team hinter Vite, Vitest und Co. Die Werkzeuge sollen quelloffen und herstellerneutral bleiben.",
+      "source": "heise",
+      "pubDate": "2026-06-04T15:25:00+00:00"
+    },
     {
       "title": "Firmenchef Che-Chia Wei: TSMC arbeitet hart, um Kundenachfrage zu bedienen",
       "link": "https://www.golem.de/news/firmenchef-che-chia-wei-tsmc-arbeitet-hart-um-kundenachfrage-zu-bedienen-2606-209419.html",
       "summary": "TSMC-Chef Che-Chia Wei hält die Verlegung von Produktionskapazitäten in die USA für immer schwieriger. ( TSMC , KI )",
       "source": "golem",
       "pubDate": "2026-06-04T15:00:02+00:00"
+    },
+    {
+      "title": "Post-Quantum ohne aufgeblähte Handshakes: Let's Encrypts neuer Weg",
+      "link": "https://www.heise.de/news/Post-Quantum-ohne-aufgeblaehte-Handshakes-Let-s-Encrypts-neuer-Weg-11318855.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Let's Encrypt legt sich fest: Statt großer Post-Quantum-Signaturen sollen Merkle Tree Certificates das Web-PKI quantensicher machen. Tests beginnen Ende 2026.",
+      "source": "heise",
+      "pubDate": "2026-06-04T14:57:00+00:00"
     },
     {
       "title": "Gaming-Handheld: Nintendo bestätigt leichter wechselbare Akkus für Switch 2",
@@ -223,25 +265,11 @@
       "pubDate": "2026-06-04T13:48:00+00:00"
     },
     {
-      "title": "Samsung Health: Umfangreiches Update für Gesundheits-App mit KI angekündigt",
-      "link": "https://www.heise.de/news/Samsung-Health-Umfangreiches-Update-fuer-Gesundheits-App-mit-KI-angekuendigt-11318755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Samsung hat ein umfangreiches Update für seine Health-App angekündigt, das KI-gestützte Analysen und neue Gesundheitskennzahlen für Galaxy-Uhren einführt.",
-      "source": "heise",
-      "pubDate": "2026-06-04T13:45:00+00:00"
-    },
-    {
       "title": "Details zum Aus: Geplatzte Stargate-Serie sollte SG-1 fortsetzen",
       "link": "https://www.golem.de/news/details-zum-aus-geplatzte-stargate-serie-sollte-sg-1-fortsetzen-2606-209415.html",
       "summary": "Die gestrichene Stargate-Serie hätte offenbar bekannte Charaktere zurückgebracht und die Geschichte des Franchise fortgesetzt. ( Filme & Serien , Amazon )",
       "source": "golem",
       "pubDate": "2026-06-04T13:35:01+00:00"
-    },
-    {
-      "title": "CPU-Markt schrumpft, aber x86-Anteil von AMD und ARM-Anteil wachsen",
-      "link": "https://www.heise.de/news/CPU-Markt-schrumpft-aber-x86-Anteil-von-AMD-und-ARM-Anteil-wachsen-11318721.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Im ersten Quartal sanken die CPU-Verkäufe, außer bei Servern. AMD nimmt Intel weitere Anteile des x86-Markts ab. ARM-CPUs legen bei Notebooks und Servern zu.",
-      "source": "heise",
-      "pubDate": "2026-06-04T13:35:00+00:00"
     },
     {
       "title": "Maven: Nasa beendet offiziell Marsorbiter-Mission",
@@ -256,34 +284,6 @@
       "summary": "Eine neue Spezialausführung des ohnehin sehr sparsamen A350 soll mehr als 10.000 nautische Meilen zurücklegen können, eine halbe Erdumrundung. ( Airbus , Flugzeug )",
       "source": "golem",
       "pubDate": "2026-06-04T13:15:01+00:00"
-    },
-    {
-      "title": "Namibia: Wo Windkraft grundlastfähig ist",
-      "link": "https://www.golem.de/news/namibia-wo-windkraft-grundlastfaehig-ist-2606-209408.html",
-      "summary": "An einem der windigsten Orte der Welt entsteht ein Windpark, der im Prinzip durchgehend Strom liefern kann. Aber technische Schwierigkeiten bremsen. Von Mario Petzold ( Windkraft , Windpark )",
-      "source": "golem",
-      "pubDate": "2026-06-04T13:00:01+00:00"
-    },
-    {
-      "title": "heise+ | Warum Mocks in Business-Applikationen oft mehr schaden als nutzen",
-      "link": "https://www.heise.de/hintergrund/Warum-Mocks-in-Business-Applikationen-oft-mehr-schaden-als-nutzen-11310183.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Mocks können Tests von der Realität entkoppeln und Refactorings erschweren. Ein Umstieg auf echte Abhängigkeiten erhöht die Testqualität und Wartbarkeit.",
-      "source": "heise",
-      "pubDate": "2026-06-04T13:00:00+00:00"
-    },
-    {
-      "title": "Orts- und Bürozeiterfassung in Microsoft Teams kommt",
-      "link": "https://www.heise.de/news/Orts-und-Buerozeiterfassung-in-Microsoft-Teams-kommt-11318714.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die automatische Büroanwesenheitserfassung in Teams ist seit Ende vergangenen Jahres angekündigt. Jetzt soll sie wirklich kommen.",
-      "source": "heise",
-      "pubDate": "2026-06-04T12:47:00+00:00"
-    },
-    {
-      "title": "NASA beendet Maven-Mission offiziell",
-      "link": "https://www.heise.de/news/NASA-beendet-Maven-Mission-offiziell-11318542.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die NASA hat im Dezember den Kontakt zur Sonde Maven verloren. Inzwischen ist klar, warum. Das ist das Ende der Mission. Wissenschaftlich war sie ein Erfolg.",
-      "source": "heise",
-      "pubDate": "2026-06-04T12:02:00+00:00"
     }
   ]
 }
