@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-04T12:01:47.494760+00:00",
+  "updatedAt": "2026-06-04T13:15:21.546847+00:00",
   "wirtschaft": [
     {
       "title": "\"Außerplanmäßige Wartung\": Russland gibt erstmals Rückgang der Ölförderung zu",
@@ -74,6 +74,20 @@
   ],
   "politik": [
     {
+      "title": "Bereits jetzt mehr als 2025: Europa setzt bei Ukraine-Hilfe vermehrt auf Drohnen",
+      "link": "https://www.n-tv.de/politik/Ukraine-Hilfe-Europas-Militaerfokus-verschiebt-sich-auf-Drohnen-id30890943.html",
+      "summary": "Eine Analyse von Wirtschaftsforschern belegt eine strategische Wende bei den Waffenlieferungen. Die finanzielle Unterstützung für unbemannte Flugsysteme übersteigt bereits jetzt die des gesamten Vorja…",
+      "source": "n-tv",
+      "pubDate": "2026-06-04T13:00:24+00:00"
+    },
+    {
+      "title": "EuGH urteilt: EU-Staaten dürfen bei Scheinehen im Nachhinein ermitteln",
+      "link": "https://www.n-tv.de/politik/EU-Staaten-duerfen-bei-Scheinehen-im-Nachhinein-ermitteln-id30891662.html",
+      "summary": "Wer in der EU eine Scheinehe eingeht, kann sich auch Jahre später nicht in Sicherheit wiegen. Dies besagt ein Urteil des Europäischen Gerichtshofs.",
+      "source": "n-tv",
+      "pubDate": "2026-06-04T12:52:48+00:00"
+    },
+    {
       "title": "Pflegereform wird konkret: Warken plant mehrere Härten, aber auch Verbesserungen",
       "link": "https://www.n-tv.de/politik/Warken-plant-mehrere-Haerten-aber-auch-Verbesserungen-id30891722.html",
       "summary": "Die Pflegeversicherung ist drastisch unterfinanziert. Gesundheitsministerin Nina Warken legt den Entwurf für eine Reform vor, die das ändern soll. Der Schwerpunkt liegt bei den Einsparungen. Beim Scho…",
@@ -128,29 +142,71 @@
       "summary": "Bei der Parlamentswahl erzielt Péter Magyar mit seiner Partei Tisza im April in Ungarn eine verfassungsändernde Mehrheit. Damit drängt er Ministerpräsident Victor Orbán nach 16 Jahren aus dem Amt. Nun…",
       "source": "n-tv",
       "pubDate": "2026-06-04T06:28:18+00:00"
-    },
-    {
-      "title": "Unwucht im Steuersystem beklagt: DIW: Vermögensteuer würde Milliarden einbringen",
-      "link": "https://www.n-tv.de/politik/DIW-Vermoegensteuer-wuerde-Milliarden-einbringen-id30890171.html",
-      "summary": "Die Bundesregierung will die Einkommensteuer reformieren. Die Gegenfinanzierung ist aber noch unklar. DIW-Präsident Fratzscher bringt die Vermögensteuer ins Spiel und hält sie für eine \"notwendige und…",
-      "source": "n-tv",
-      "pubDate": "2026-06-04T06:27:20+00:00"
-    },
-    {
-      "title": "Vorräte seit 2021 verdoppelt?: Kim will militärische Atomkapazitäten \"exponentiell\" steigern",
-      "link": "https://www.n-tv.de/politik/Kim-will-militaerische-Atomkapazitaeten-exponentiell-steigern-id30890144.html",
-      "summary": "Im April schätzt die Internationale Atomenergiebehörde, dass Nordkorea seine Kapazitäten zum Bau von Atomwaffen \"sehr deutlich\" ausgeweitet habe. Machthaber Kim spricht nun von einer massiven Steigeru…",
-      "source": "n-tv",
-      "pubDate": "2026-06-04T06:22:12+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Namibia: Wo Windkraft grundlastfähig ist",
+      "link": "https://www.golem.de/news/namibia-wo-windkraft-grundlastfaehig-ist-2606-209408.html",
+      "summary": "An einem der windigsten Orte der Welt entsteht ein Windpark, der im Prinzip durchgehend Strom liefern kann. Aber technische Schwierigkeiten bremsen. Von Mario Petzold ( Windkraft , Windpark )",
+      "source": "golem",
+      "pubDate": "2026-06-04T13:00:01+00:00"
+    },
+    {
+      "title": "heise+ | Warum Mocks in Business-Applikationen oft mehr schaden als nutzen",
+      "link": "https://www.heise.de/hintergrund/Warum-Mocks-in-Business-Applikationen-oft-mehr-schaden-als-nutzen-11310183.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Mocks können Tests von der Realität entkoppeln und Refactorings erschweren. Ein Umstieg auf echte Abhängigkeiten erhöht die Testqualität und Wartbarkeit.",
+      "source": "heise",
+      "pubDate": "2026-06-04T13:00:00+00:00"
+    },
+    {
+      "title": "Orts- und Bürozeiterfassung in Microsoft Teams kommt",
+      "link": "https://www.heise.de/news/Orts-und-Buerozeiterfassung-in-Microsoft-Teams-kommt-11318714.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die automatische Büroanwesenheitserfassung in Teams ist seit Ende vergangenen Jahres angekündigt. Jetzt soll sie wirklich kommen.",
+      "source": "heise",
+      "pubDate": "2026-06-04T12:47:00+00:00"
+    },
+    {
+      "title": "Coreutils for Windows: Microsoft bringt 75 Linux-Befehle in CMD und Powershell",
+      "link": "https://www.golem.de/news/coreutils-for-windows-microsoft-bringt-75-linux-befehle-in-cmd-und-powershell-2606-209409.html",
+      "summary": "Mit Coreutils for Windows sollen Entwickler ihre Gewohnheiten und bestehende Skripte aus anderen Systemen in Windows beibehalten können. ( Windows , Linux )",
+      "source": "golem",
+      "pubDate": "2026-06-04T12:30:01+00:00"
+    },
+    {
+      "title": "Bug in Android-Apps: Winzige Codepanne gefährdet Daten unzähliger Microsoft-Nutzer",
+      "link": "https://www.golem.de/news/android-apps-codepanne-bei-microsoft-gefaehrdet-daten-unzaehliger-nutzer-2606-209407.html",
+      "summary": "Microsoft hat in mehreren seiner Android-Apps versäumt, ein Debugging-Flag zurückzusetzen. Angreifer konnten dadurch Nutzerkonten kapern. ( Sicherheitslücke , Microsoft )",
+      "source": "golem",
+      "pubDate": "2026-06-04T12:15:02+00:00"
+    },
+    {
+      "title": "Anzeige: Dockingstation mit dualem 4K@60Hz-HDMI für nur 36,08 Euro",
+      "link": "https://www.golem.de/news/anzeige-dockingstation-mit-dualem-4k-60hz-hdmi-fuer-nur-36-08-euro-2606-209411.html",
+      "summary": "Eine Dockingstation von Ugreen mit zehn Anschlüssen inklusive dualem 4K@60Hz-HDMI, GBit-Ethernet und Kartenleser ist bei Amazon reduziert. ( Dockingstation , Technik/Hardware )",
+      "source": "golem",
+      "pubDate": "2026-06-04T12:07:01+00:00"
+    },
+    {
+      "title": "NASA beendet Maven-Mission offiziell",
+      "link": "https://www.heise.de/news/NASA-beendet-Maven-Mission-offiziell-11318542.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die NASA hat im Dezember den Kontakt zur Sonde Maven verloren. Inzwischen ist klar, warum. Das ist das Ende der Mission. Wissenschaftlich war sie ein Erfolg.",
+      "source": "heise",
+      "pubDate": "2026-06-04T12:02:00+00:00"
+    },
     {
       "title": "Masters of the Universe: Pathos, Humor und keine Sekunde Langeweile",
       "link": "https://www.golem.de/news/masters-of-the-universe-pathos-humor-und-keine-sekunde-langeweile-2606-209280.html",
       "summary": "Nach 20 Jahren in der Entwicklung kommen die Masters of the Universe ins Kino - und machen richtig Spaß! Eine Rezension von Peter Osteried ( Science-Fiction , Digitalkino )",
       "source": "golem",
       "pubDate": "2026-06-04T12:00:02+00:00"
+    },
+    {
+      "title": "heise-Angebot: iX-Workshop: IT-Sicherheit nach ISO 27001 – Herausforderungen und Chancen",
+      "link": "https://www.heise.de/news/iX-Workshop-IT-Sicherheit-nach-ISO-27001-Herausforderungen-und-Chancen-11308079.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der Workshop zeigt, wie man Informationssicherheit im Unternehmen mit dem Sicherheitsstandard ISO 27001 umsetzt und welche Herausforderungen sich dabei stellen.",
+      "source": "heise",
+      "pubDate": "2026-06-04T12:00:00+00:00"
     },
     {
       "title": "Perplexity verteilt automatisiert KI-Rechenbedarf zwischen Gerät und Cloud",
@@ -209,25 +265,11 @@
       "pubDate": "2026-06-04T11:13:00+00:00"
     },
     {
-      "title": "Bekannter Analyst sieht zunächst keinen Nachfolger für die Vision Pro",
-      "link": "https://www.heise.de/news/Vision-Pro-Nachfolger-zunaechst-nicht-mehr-auf-der-Roadmap-11318360.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Der Apple-Beobachter Ming-Chi Kuo hat seine Vorhersagen für Apples Headset korrigiert. Angeblich stehen Smartglasses nun vollständig im Vordergrund.",
-      "source": "heise",
-      "pubDate": "2026-06-04T11:07:00+00:00"
-    },
-    {
       "title": "RNG: Dank Zufall brauchen AWS-Rechenzentren viel weniger Switches",
       "link": "https://www.golem.de/news/rng-dank-zufall-brauchen-aws-rechenzentren-viel-weniger-switches-2606-209403.html",
       "summary": "Zufällig verkabelte Switches gelten als heiliger Gral der Netzwerktechnik. Nur praktikabel waren sie bislang nicht - AWS-Forscher haben das geändert. ( Innovation & Forschung , Server )",
       "source": "golem",
       "pubDate": "2026-06-04T11:00:02+00:00"
-    },
-    {
-      "title": "SETI-Institut: Keine Spur von Außerirdischen bei interstellarem Kometen 3I/ATLAS",
-      "link": "https://www.heise.de/news/SETI-Institut-Keine-Spur-von-Ausserirdischen-bei-interstellarem-Kometen-3I-ATLAS-11318242.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das SETI-Institut hat auf einem breiten Bereich von Frequenzen bei 3I/ATLAS nach Spuren außerirdischer Technik gesucht. Das Ergebnis habe man erwartet.",
-      "source": "heise",
-      "pubDate": "2026-06-04T11:00:00+00:00"
     },
     {
       "title": "Anzeige: Schutzhülle für Apple Watch im Doppelpack jetzt wieder nur 9,34 Euro",
@@ -242,48 +284,6 @@
       "summary": "Companies leverage market scale, semi-solid technology in quest for dominance ( BYD , Akku )",
       "source": "golem",
       "pubDate": "2026-06-04T10:48:02+00:00"
-    },
-    {
-      "title": "Gegen filmende Meta-Ray-Ban-\"Glassholes\": App erkennt smarte Brillen im Umfeld",
-      "link": "https://www.heise.de/news/Gegen-filmende-Meta-Ray-Ban-Glassholes-App-erkennt-smarte-Brillen-im-Umfeld-11317839.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Es scheint im Trend zu liegen, die Aufnahmelampe aus Metas Smartglasses zu entfernen. So werden illegale Aufnahmen ermöglicht. Eine App hilft beim Erkennen.",
-      "source": "heise",
-      "pubDate": "2026-06-04T10:46:00+00:00"
-    },
-    {
-      "title": "Amazon stellt nächste Generation seines Lagerroboters Proteus vor",
-      "link": "https://www.heise.de/news/Amazon-stellt-naechste-Generation-seines-Lagerroboters-Proteus-vor-11318250.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Amazon hat die zweite Generation seines Lagerroboters Proteus vorgestellt. Das System versteht nun natürliche Sprache.",
-      "source": "heise",
-      "pubDate": "2026-06-04T10:45:00+00:00"
-    },
-    {
-      "title": "Smart Glasses: Potsdam will smarte Brillen mit Kameras in Bädern verbieten",
-      "link": "https://www.golem.de/news/smart-glasses-potsdam-will-smarte-brillen-mit-kameras-in-baedern-verbieten-2606-209402.html",
-      "summary": "Mit Smart Glasses lassen sich unbemerkt Videos aufnehmen. Die Potsdamer Stadtverordneten wollen die Nutzung in Schwimmbädern verbieten. ( Smartglass , Datenschutz )",
-      "source": "golem",
-      "pubDate": "2026-06-04T10:15:02+00:00"
-    },
-    {
-      "title": "Enhanced Games Clique: Im Dopingrausch für die Tech-Milliardäre",
-      "link": "https://www.golem.de/news/enhanced-games-clique-im-dopingrausch-fuer-die-tech-milliardaere-2606-209392.html",
-      "summary": "In Las Vegas wurden Sportwettbewerbe durchgeführt, bei denen Doping erwünscht war. Was dahinter steckt und wer davon profitiert. Eine Kolumne von Claudia Zettel ( Tech-Bro-Watchblog , Politik )",
-      "source": "golem",
-      "pubDate": "2026-06-04T10:00:02+00:00"
-    },
-    {
-      "title": "Anzeige: Fahrradcomputer mit GPS, Ant+, Bluetooth für 49,99 Euro",
-      "link": "https://www.golem.de/news/anzeige-fahrradcomputer-mit-gps-ant-bluetooth-fuer-49-99-euro-2606-209401.html",
-      "summary": "Amazon hat einen Fahrradcomputer im Angebot, der mit GPS, ANT+, Bluetooth und WLAN viele Optionen für Datenanalyse und Navigation bietet. ( Technik/Hardware , GPS )",
-      "source": "golem",
-      "pubDate": "2026-06-04T09:54:02+00:00"
-    },
-    {
-      "title": "Nur ein Client nötig: HTTP/2 Bomb legt Webserver in Sekunden lahm",
-      "link": "https://www.golem.de/news/nur-ein-client-noetig-http-2-bomb-legt-webserver-in-sekunden-lahm-2606-209396.html",
-      "summary": "Bei gängigen Webservern wie Nginx, Apache HTTPD und Microsoft IIS lässt sich mit wenig Aufwand innerhalb von Sekunden der Speicher fluten. ( Sicherheitslücke , Apache )",
-      "source": "golem",
-      "pubDate": "2026-06-04T09:45:02+00:00"
     }
   ]
 }
