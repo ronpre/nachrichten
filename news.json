@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08T10:35:50.016994+00:00",
+  "updatedAt": "2026-06-08T11:43:54.749123+00:00",
   "wirtschaft": [
     {
       "title": "\"Der Chat ist tot\": OpenAI kündigt eine neue Super-App an",
@@ -39,6 +39,13 @@
   ],
   "politik": [
     {
+      "title": "\"Sofort aufhören\": Trump kann Netanjahu nicht stoppen",
+      "link": "https://www.n-tv.de/politik/Israel-Iran-Hisbollah-Trump-kann-Netanjahu-nicht-stoppen-id30942312.html",
+      "summary": "Am Sonntag bittet US-Präsident Trump den israelischen Regierungschef Netanjahu, von einem Gegenschlag gegen den Iran abzusehen. Vergebens. Trumps Problem: Alle anderen Kriegsparteien haben weniger Int…",
+      "source": "n-tv",
+      "pubDate": "2026-06-08T11:36:53+00:00"
+    },
+    {
       "title": "Nach Fragen zu Kapitol-Stürmern: Trump bricht Interview wutentbrannt ab",
       "link": "https://www.n-tv.de/politik/Trump-bricht-Interview-wutentbrannt-ab-id30903345.html",
       "summary": "Der US-Präsident nimmt sich 40 Minuten Zeit für ein Interview mit NBC. Trotz heikler Themen geht das lange gut - bis es um geplante Entschädigungen für Kapitol-Stürmer geht. Da beginnt Trump, mit zahl…",
@@ -48,7 +55,7 @@
     {
       "title": "US-Präsident verliert die Geduld: Trump ermahnt Israel und Iran: Angriffe müssen sofort aufhören",
       "link": "https://www.n-tv.de/politik/Trump-ermahnt-Israel-und-Iran-Angriffe-muessen-sofort-aufhoeren-id30938450.html",
-      "summary": "Der Iran und Israel überziehen einander wieder mit Angriffen. Der US-Präsident reagiert erbost: Die \"Schießerei\" muss sofort stoppen.",
+      "summary": "Der Iran und Israel überziehen einander wieder mit Angriffen. Der US-Präsident reagiert erbost: Die \"Schießerei\" müsse sofort gestoppt werden.",
       "source": "n-tv",
       "pubDate": "2026-06-08T10:27:27+00:00"
     },
@@ -100,16 +107,72 @@
       "summary": "Die israelische Armee meldet einen neuen Raketenbeschuss aus dem Iran. Reporter berichten von mindestens acht Explosionen über Jerusalem. Zuvor hatte Israel bereits auf den iranischen Angriff am Sonnt…",
       "source": "n-tv",
       "pubDate": "2026-06-08T05:40:47+00:00"
-    },
-    {
-      "title": "Reaktion auf Raketenbeschuss: Israel greift Ziele im Iran an - Explosionen in Teheran",
-      "link": "https://www.n-tv.de/politik/Israel-greift-Ziele-im-Iran-an-Explosionen-in-Teheran-id30902262.html",
-      "summary": "Anders als von US-Präsident Trump erhofft, greift die israelische Armee den Iran am frühen Morgen an. Explosionen in Teheran, Täbris und Isfahan werden gemeldet. Die Angriffe sind eine Reaktion auf ir…",
-      "source": "n-tv",
-      "pubDate": "2026-06-08T02:31:39+00:00"
     }
   ],
   "it": [
+    {
+      "title": "(g+) Blazor 2026: Warum C# im Web stärker wird - aber Javascript bleibt",
+      "link": "https://www.golem.de/news/blazor-2026-warum-c-im-web-staerker-wird-aber-javascript-bleibt-2606-209503.html",
+      "summary": "Blazor verspricht Webentwicklung ohne ständigen Wechsel zwischen C# und Javascript. Doch wie weit trägt das, wenn React, Angular und Vue das Web weiter prägen? Ein Ratgebertext von Fabian Deitelhoff (…",
+      "source": "golem",
+      "pubDate": "2026-06-08T11:30:01+00:00"
+    },
+    {
+      "title": "heise+ | Prag neu entdecken: Fototour zu moderner Architektur und starken Motiven",
+      "link": "https://www.heise.de/ratgeber/Prag-neu-entdecken-Fototour-zu-moderner-Architektur-und-starken-Motiven-11302439.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Auf dieser Fototour lernen Sie Prags moderne Seite mit außergewöhnlicher Architektur und spannenden Perspektiven kennen – von Kubismus bis Brutalismus.",
+      "source": "heise",
+      "pubDate": "2026-06-08T11:30:00+00:00"
+    },
+    {
+      "title": "Anzeige: Ninja Creami Eismaschine zum Tiefstpreis bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-ninja-creami-eismaschine-zum-tiefstpreis-bei-amazon-2606-209519.html",
+      "summary": "Amazon hat die Eismaschine Ninja CREAMi im Angebot, mit der sich neben Eis auch Sorbets, Smoothies und Milchshakes zubereiten lassen. ( Technik/Hardware )",
+      "source": "golem",
+      "pubDate": "2026-06-08T11:24:02+00:00"
+    },
+    {
+      "title": "Datenschutz mit Loupe: Neue App gewährt Einblicke in Fingerprinting unter iOS",
+      "link": "https://www.golem.de/news/datenschutz-app-loupe-zeigt-was-unter-ios-mit-fingerprinting-moeglich-ist-2606-209516.html",
+      "summary": "iOS-Apps können auf allerhand Daten zugreifen, mit denen sich Nutzer potenziell identifizieren lassen. Loupe zeigt, wie das im Detail aussieht. ( Datenschutz , Apple )",
+      "source": "golem",
+      "pubDate": "2026-06-08T11:16:02+00:00"
+    },
+    {
+      "title": "VMware: Mehrere Produkte mit Stored-Cross-Site-Scripting-Lücken",
+      "link": "https://www.heise.de/news/VMware-Mehrere-Produkte-mit-Stored-Cross-Site-Scripting-Luecken-11321673.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Broadcom warnt vor mehreren Stored-Cross-Site-Scripting-Lücken in VMware Cloud Foundation und weiteren Produkten. Updates helfen.",
+      "source": "heise",
+      "pubDate": "2026-06-08T11:15:00+00:00"
+    },
+    {
+      "title": "Anzeige: Macbook Air 15 (M5) vor dem Prime Day 230 Euro günstiger bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-macbook-air-15-m5-vor-dem-prime-day-230-euro-guenstiger-bei-amazon-2606-209514.html",
+      "summary": "Vor dem Prime Day sind bei Amazon einige Produkte bereits reduziert. Das Macbook Air 15 mit M5-Chip ist derzeit nirgends günstiger erhältlich. ( Macbook Air , Apple )",
+      "source": "golem",
+      "pubDate": "2026-06-08T11:10:02+00:00"
+    },
+    {
+      "title": "Drei Transistorschichten: Forscher fertigen 3D-Chips mit laminiertem Silizium",
+      "link": "https://www.golem.de/news/drei-transistorschichten-forscher-fertigen-3d-chips-mit-laminiertem-silizium-2606-209515.html",
+      "summary": "Gestapelte Transistoren versprechen kompaktere Chips. Forscher wollen praktische Probleme bei der Fertigung gelöst haben. ( Halbleiterfertigung , Gordon Moore )",
+      "source": "golem",
+      "pubDate": "2026-06-08T10:57:01+00:00"
+    },
+    {
+      "title": "GOG bittet für Newsletter mit SS-Runen im Betreff um Entschuldigung",
+      "link": "https://www.heise.de/news/GOG-bittet-fuer-Newsletter-mit-SS-Runen-im-Betreff-um-Entschuldigung-11321400.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Ein GOG-Newsletter für das Spiel „The End of the Sun“ zeigt Symbole, die an SS-Runen erinnern. Das Unternehmen bedauert den Fehler.",
+      "source": "heise",
+      "pubDate": "2026-06-08T10:57:00+00:00"
+    },
+    {
+      "title": "Anzeige: Leatherman Super Tool 300 mit 19 Werkzeugen jetzt für rund 100 Euro bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-leatherman-super-tool-300-mit-19-werkzeugen-jetzt-fuer-rund-100-euro-bei-amazon-2606-209517.html",
+      "summary": "Das Leatherman Super Tool 300 im neuen Amazon-Angebot packt 19 Werkzeuge aus 420HC-Stahl in ein robustes Multi-Tool für harte Jobs. ( Technik/Hardware , Amazon )",
+      "source": "golem",
+      "pubDate": "2026-06-08T10:51:01+00:00"
+    },
     {
       "title": "Das Jahr der Mega-IPOs: Was Anleger über OpenAI, Anthropic und SpaceX wissen müssen",
       "link": "https://www.golem.de/news/das-jahr-der-mega-ipos-was-anleger-ueber-openai-anthropic-und-spacex-wissen-muessen-2606-209494.html",
@@ -181,74 +244,11 @@
       "pubDate": "2026-06-08T09:22:00+00:00"
     },
     {
-      "title": "Ein Wurm tobt auf Github: 73 Microsoft-Projekte nach Supply-Chain-Angriff gesperrt",
-      "link": "https://www.golem.de/news/ein-wurm-tobt-auf-github-73-microsoft-projekte-nach-supply-chain-angriff-gesperrt-2606-209509.html",
-      "summary": "Zahlreiche Softwareprojekte von Microsoft sind auf Github plötzlich gesperrt worden. Offenbar hat der Miasma-Wurm sie kompromittiert. ( Malware , Virus )",
-      "source": "golem",
-      "pubDate": "2026-06-08T09:13:01+00:00"
-    },
-    {
-      "title": "Anzeige: Gaming-Monitor mit 28'' und 4K reduziert bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-gaming-monitor-mit-28-und-4k-reduziert-bei-amazon-2606-209510.html",
-      "summary": "Einen Gaming-Monitor mit 28'' großem IPS-Display, 4K-Auflösung und 144 Hz gibt es bei Amazon zum günstigen Aktionspreis. ( TV & Monitore , Display )",
-      "source": "golem",
-      "pubDate": "2026-06-08T09:03:01+00:00"
-    },
-    {
-      "title": "Nach Schulschießerei: Schüler verklagt Hersteller von KI-Waffenerkennungssystem",
-      "link": "https://www.golem.de/news/nach-schulschiesserei-schueler-verklagt-hersteller-von-ki-waffenerkennungssystem-2606-209508.html",
-      "summary": "Der Hersteller eines KI-gestützten Waffenerkennungssystems soll Einschränkungen verschwiegen und mit falschen Angaben geworben haben. ( KI , Politik )",
-      "source": "golem",
-      "pubDate": "2026-06-08T08:58:02+00:00"
-    },
-    {
-      "title": "Anzeige: Bose Bluetooth Lautsprecher mit neuem Amazon-Bestpreis rund 97 Euro",
-      "link": "https://www.golem.de/news/anzeige-bose-bluetooth-lautsprecher-mit-neuem-amazon-bestpreis-rund-97-euro-2606-209506.html",
-      "summary": "Der Bose SoundLink Flex 2 zum neuen Amazon-Bestpreis liefert naturgetreuen Klang, IP67-Schutz und bis zu 12 Stunden Akkulaufzeit. ( Technik/Hardware , Audio/Video )",
-      "source": "golem",
-      "pubDate": "2026-06-08T08:55:01+00:00"
-    },
-    {
       "title": "Airhockey: KI-Spieler übertrifft menschliche Spieler ohne physisches Training",
       "link": "https://www.heise.de/news/Airhockey-KI-Spieler-uebertrifft-menschliche-Spieler-ohne-physisches-Training-11321348.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Airhockey ist ein sehr schnelles Spiel. Das stellt große Herausforderungen an einen KI-Spieler. Dieser muss allerdings nicht so aufwendig trainiert werden.",
       "source": "heise",
       "pubDate": "2026-06-08T08:50:00+00:00"
-    },
-    {
-      "title": "Tempolimit auf Autobahn: Greenpeace überklebt Tempolimits an Verkehrschildern mit 100 km/h",
-      "link": "https://www.golem.de/news/tempolimit-auf-autobahn-greenpeace-ueberklebt-tempolimits-an-verkehrschildern-mit-100-km-h-2606-209507.html",
-      "summary": "Mit einer Aktion an Verkehrsschildern setzt Greenpeace ein Signal für ein Tempolimit auf Autobahnen - auch als Protest gegen die Treibstoffkrise. ( Greenpeace , Politik )",
-      "source": "golem",
-      "pubDate": "2026-06-08T08:45:02+00:00"
-    },
-    {
-      "title": "Smart Play: Lego bringt sammelbare Pokémon zum Rekordteilepreis",
-      "link": "https://www.golem.de/news/smart-play-lego-bringt-sammelbare-pokemon-zum-rekordteilepreis-2606-209505.html",
-      "summary": "16 Cent pro Legostein: Durch das Smart-Play-System kann Lego diverse neue Pokémon-Sets anbieten, die teils besonders teuer sind. ( Lego , Star Wars )",
-      "source": "golem",
-      "pubDate": "2026-06-08T08:31:02+00:00"
-    },
-    {
-      "title": "heise+ | Energiewende in Zahlen: Wo wir stehen und wo wir hinwollen",
-      "link": "https://www.heise.de/hintergrund/Energiewende-in-Zahlen-Wo-wir-stehen-und-wo-wir-hinwollen-11309541.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Diese Bestandsaufnahme zeigt, wie der Umbau des Stromsektors vorangeht und wo es im Hinblick auf die Ziele der Bundesregierung für 2030 und 2045 noch hakt.",
-      "source": "heise",
-      "pubDate": "2026-06-08T08:30:00+00:00"
-    },
-    {
-      "title": "heise-Angebot: iX-Workshop IT-Sicherheit: Angriffstechniken verstehen und erfolgreich abwehren",
-      "link": "https://www.heise.de/news/iX-Workshop-IT-Sicherheit-Angriffstechniken-verstehen-und-erfolgreich-abwehren-11318366.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Analysieren Sie aktuelle Angriffstechniken, um die Wirksamkeit Ihrer Schutzmaßnahmen und die Verletzlichkeit Ihrer IT einzuschätzen.",
-      "source": "heise",
-      "pubDate": "2026-06-08T08:00:00+00:00"
-    },
-    {
-      "title": "„Erhebliches Risiko“: Ferngesteuerte Spielzeuge verstoßen gegen EU-Funknormen",
-      "link": "https://www.heise.de/news/Erhebliches-Risiko-Ferngesteuerte-Spielzeuge-verstossen-gegen-EU-Funknormen-11321262.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die EU hat 88 funkgesteuerte Kinderspielzeuge auf Einhaltung von Funknormen geprüft. Wenige erfüllten alle Anforderungen – 22 Verkaufsverbote wurden verhängt.",
-      "source": "heise",
-      "pubDate": "2026-06-08T07:51:00+00:00"
     }
   ]
 }
