@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T07:54:23.615334+00:00",
+  "updatedAt": "2026-06-11T08:32:44.116524+00:00",
   "wirtschaft": [
     {
       "title": "Im EU-Vergleich: Deutschland schneidet bei Tarifbindung schlecht ab",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Übervolle Gefängnisse: Schweden verlegt Hunderte Häftlinge nach Estland",
+      "link": "https://www.n-tv.de/politik/Schweden-verlegt-Hunderte-Haeftlinge-nach-Estland-id30953453.html",
+      "summary": "In Schweden platzen die Gefängnisse aus allen Nähten, ganz im Gegensatz zu Estland. Ein neues Abkommen soll Vorteile für beide Länder bringen.",
+      "source": "n-tv",
+      "pubDate": "2026-06-11T08:14:52+00:00"
+    },
+    {
       "title": "Sportministerin bei ntv: Bundesregierung will Fußball-WM nach Deutschland holen",
       "link": "https://www.n-tv.de/politik/Bundesregierung-will-Fussball-WM-nach-Deutschland-holen-id30953550.html",
       "summary": "Die Bundesregierung unterstützt die Pläne des DFB, sich auf die Ausrichtung der Fußball-WM zu bewerben. Sportministerin Schenderlein nennt Werte wie \"Wahrung von Menschenrechten\" als Bedingung. Von de…",
@@ -135,16 +142,58 @@
       "summary": "Rechtsextreme Aktivisten mobilisieren in Nordirland erneut zu gewaltsamen Protesten. Am Abend wütet der Mob in einer Vorstadt von Belfast, es fliegen Steine und Flaschen in Richtung der Polizei.",
       "source": "n-tv",
       "pubDate": "2026-06-11T00:02:51+00:00"
-    },
-    {
-      "title": "Explosionen im Süden: US-Militär greift erneut im Iran an",
-      "link": "https://www.n-tv.de/politik/US-Militaer-greift-erneut-im-Iran-an-id30952650.html",
-      "summary": "US-Präsident Trump hatte es bereits angekündigt: Die USA lassen ihren \"Selbstverteidigungsschlägen\" gegen den Iran weitere Angriffe folgen. Eine diplomatische Lösung in dem Konflikt erscheint zunehmen…",
-      "source": "n-tv",
-      "pubDate": "2026-06-10T22:21:22+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Probefahrt Denza Z9 GT: Gummi auf der Straße lassen",
+      "link": "https://www.golem.de/news/probefahrt-denza-z9-gt-gummi-auf-der-strasse-lassen-2606-209524.html",
+      "summary": "BYD bringt seine Oberklasse-Marke Denza nach Deutschland. Den Anfang macht der Z9 GT im Taycan-Preissegment. Von Dirk Kunde ( BYD , Elektroauto )",
+      "source": "golem",
+      "pubDate": "2026-06-11T08:30:01+00:00"
+    },
+    {
+      "title": "Commonwealth Fusion Systems: Fusionsreaktor mit 400 MW bleibt technisches Wagnis",
+      "link": "https://www.golem.de/news/commonwealth-fusion-systems-fusionsreaktor-mit-400-mw-bleibt-technisches-wagnis-2606-209653.html",
+      "summary": "In unter 10 Jahren soll das Kraftwerk stehen. Die Kernfusion im Inneren wird aber mehr Probleme bereiten als erwartet - das zeigen gleich fünf neue Studien. ( Kernfusion , Iter )",
+      "source": "golem",
+      "pubDate": "2026-06-11T08:21:00+00:00"
+    },
+    {
+      "title": "PowerToys werden 0.100: Neue Tastenkombinationsübersicht",
+      "link": "https://www.heise.de/news/PowerToys-werden-0-100-Neue-Tastenkombinationsuebersicht-11328320.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Chance vertan: Anstatt Version 1.00 sind die PowerToys 0.100 erschienen. Sie bringen eine neue Tastenkombinationsübersicht und besseres Power Display.",
+      "source": "heise",
+      "pubDate": "2026-06-11T08:18:00+00:00"
+    },
+    {
+      "title": "Elektroauto: BYDs Flash-Charging soll unter 60 Cent pro kWh kosten",
+      "link": "https://www.golem.de/news/elektroauto-byds-flash-charging-soll-unter-60-cent-pro-kwh-kosten-2606-209652.html",
+      "summary": "BYD will sein Flash-Charging-Netzwerk nach Europa bringen. Die Ladeleistungen erreichen 1.500 kW, der Preis soll für BYD-Kunden niedrig sein. ( BYD , Elektroauto )",
+      "source": "golem",
+      "pubDate": "2026-06-11T08:06:01+00:00"
+    },
+    {
+      "title": "heise-Angebot: c’t-Webinar: Energiekosten senken mit dem Elektroauto",
+      "link": "https://www.heise.de/news/c-t-Webinar-Energiekosten-senken-mit-dem-Elektroauto-11322896.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Wann lohnt sich Überschussladen, wann ein dynamischer Tarif? Das Webinar trennt technische Spielereien von wirtschaftlich sinnvollen Lösungen rund ums E-Auto.",
+      "source": "heise",
+      "pubDate": "2026-06-11T08:00:00+00:00"
+    },
+    {
+      "title": "Neue Regeln: Galaxus hat rund 380.000 Bewertungen gelöscht",
+      "link": "https://www.golem.de/news/neue-regeln-galaxus-hat-rund-380-000-bewertungen-geloescht-2606-209650.html",
+      "summary": "Der Onlinehändler Galaxus ändert die Regelungen für Bewertungen und hat dabei rückwirkend rund 380.000 Bewertungen entfernt. ( Onlineshop , Internet )",
+      "source": "golem",
+      "pubDate": "2026-06-11T07:56:01+00:00"
+    },
+    {
+      "title": "OpenSSL: Präparierte Signatur kann Weg für Schadcode ebnen",
+      "link": "https://www.heise.de/news/OpenSSL-Praeparierte-Signatur-kann-Weg-fuer-Schadcode-ebnen-11328258.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "In aktuellen Versionen haben die OpenSSL-Entwickler insgesamt 18 Sicherheitslücken geschlossen.",
+      "source": "heise",
+      "pubDate": "2026-06-11T07:52:00+00:00"
+    },
     {
       "title": "Neuer Bitlocker-Bypass: Chaotic Eclipse wirft weiter mit Windows-Exploits um sich",
       "link": "https://www.golem.de/news/neuer-bitlocker-bypass-chaotic-eclipse-wirft-weiter-mit-windows-exploits-um-sich-2606-209646.html",
@@ -235,55 +284,6 @@
       "summary": "OpenAI reagiert auf die starke Konkurrenz von Anthropic und plant niedrigere Preise für seine Unternehmenskunden. ( OpenAI , KI )",
       "source": "golem",
       "pubDate": "2026-06-11T06:57:01+00:00"
-    },
-    {
-      "title": "Ubisoft schließt Studios in Winnipeg und Belgrad – bis zu 380 Jobs weg",
-      "link": "https://www.heise.de/news/Ubisoft-schliesst-Studios-in-Winnipeg-und-Belgrad-bis-zu-380-Jobs-weg-11328210.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ubisoft schließt als Teil des laufenden Sparkurses Studios in Winnipeg und Belgrad. Bis zu 380 Stellen sind betroffen.",
-      "source": "heise",
-      "pubDate": "2026-06-11T06:57:00+00:00"
-    },
-    {
-      "title": "Tytan Technologies: Mercedes steigt in die Drohnenabwehr ein",
-      "link": "https://www.golem.de/news/tytan-technologies-mercedes-steigt-in-die-drohnenabwehr-ein-2606-209642.html",
-      "summary": "Mercedes-Benz hat eine Absichtserklärung mit dem Münchner Start-up Tytan Technologies unterzeichnet. Geplant sind Drohnenabwehrsysteme. ( Mercedes Benz , Politik )",
-      "source": "golem",
-      "pubDate": "2026-06-11T06:40:02+00:00"
-    },
-    {
-      "title": "Musik-, Videostreaming und mehr: Deutsche geben mehr Geld für digitale Abos aus",
-      "link": "https://www.golem.de/news/musik-videostreaming-und-mehr-deutsche-geben-mehr-geld-fuer-digitale-abos-aus-2606-209643.html",
-      "summary": "Die durchschnittlichen monatlichen Ausgaben für Digitalabos steigen. Immer mehr Menschen akzeptieren Werbung in kostenpflichtigen Abos. ( Studien , KI )",
-      "source": "golem",
-      "pubDate": "2026-06-11T06:22:02+00:00"
-    },
-    {
-      "title": "Elektroauto: Wenn versenkbare Türgriffe zum Todesrisiko werden",
-      "link": "https://www.golem.de/news/elektroauto-wenn-versenkbare-tuergriffe-zum-todesrisiko-werden-2606-209639.html",
-      "summary": "Versenkbare Türgriffe können im Notfall Auto-Insassen einschließen. Ein Fall aus Deutschland zeigt, wie ernst das Problem ist. ( Auto , Elektroauto )",
-      "source": "golem",
-      "pubDate": "2026-06-11T06:15:01+00:00"
-    },
-    {
-      "title": "heise+ | Wie Japan zur Kamera-Weltmacht wurde: Der Aufstieg von Nikon, Canon und Co.",
-      "link": "https://www.heise.de/hintergrund/Wie-Japan-zur-Kamera-Weltmacht-wurde-Der-Aufstieg-von-Nikon-Canon-und-Co-11304492.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Nach dem Exportboom beginnt der Technologiekampf: Warum Japans Spiegelreflexkameras die deutsche Fotoindustrie verdrängten.",
-      "source": "heise",
-      "pubDate": "2026-06-11T06:15:00+00:00"
-    },
-    {
-      "title": "Oracle warnt außer der Reihe vor kritischer PeopleSoft-Codeschmuggel-Lücke",
-      "link": "https://www.heise.de/news/Oracle-warnt-ausser-der-Reihe-vor-kritischer-PeopleSoft-Codeschmuggel-Luecke-11328164.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Oracle schließt außerhalb der üblichen Zeitpläne mit einem Update eine kritische Codeschmuggel-Lücke in PeopleSoft.",
-      "source": "heise",
-      "pubDate": "2026-06-11T06:05:00+00:00"
-    },
-    {
-      "title": "Tankrabatt-Ende: Ab Juli zahlen Autofahrer wieder voll",
-      "link": "https://www.golem.de/news/tankrabatt-ende-ab-juli-zahlen-autofahrer-wieder-voll-2606-209641.html",
-      "summary": "Der Tankrabatt läuft am 30. Juni aus. Die Koalition warnt die Ölkonzerne vor Preistreiberei, verrät aber nicht, ob sie eingreift. ( Auto , Bundesregierung )",
-      "source": "golem",
-      "pubDate": "2026-06-11T05:57:02+00:00"
     }
   ]
 }
