@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T12:06:55.724141+00:00",
+  "updatedAt": "2026-06-15T13:05:34.855815+00:00",
   "wirtschaft": [
     {
       "title": "\"Könnt ihr schneller liefern?\": Der Datencenter-Boom kennt keine Pause",
@@ -38,6 +38,13 @@
     }
   ],
   "politik": [
+    {
+      "title": "Problem \"fällt nicht vom Himmel\": Bundesregierung: Hormus-Mandat könnte \"ziemlich zügig\" kommen",
+      "link": "https://www.n-tv.de/politik/Bundesregierung-Hormus-Mandat-koennte-ziemlich-zuegig-kommen-id30968565.html",
+      "summary": "Freitag wollen der Iran und die USA ein Abkommen unterzeichnen. Damit soll unter anderem die Straße von Hormus wieder geöffnet werden. Ob die Bundeswehr dabei eine Rolle spielt? Er sei optimistisch, d…",
+      "source": "n-tv",
+      "pubDate": "2026-06-15T12:20:19+00:00"
+    },
     {
       "title": "USA sollen zugestimmt haben: Iran will Gebühren für die Straße von Hormus erheben",
       "link": "https://www.n-tv.de/politik/Iran-will-Gebuehren-fuer-die-Strasse-von-Hormus-erheben-id30968195.html",
@@ -100,16 +107,72 @@
       "summary": "An seinem 80. Geburtstag verkündet US-Präsident Trump: Washington und Teheran haben sich nach zähen Verhandlungen auf einen Fahrplan zum Ende des Krieges verständigt. Doch was bedeutet das? Und woran …",
       "source": "n-tv",
       "pubDate": "2026-06-15T04:57:13+00:00"
-    },
-    {
-      "title": "Jahrhundertealtes Weltkulturerbe : Berühmtes Höhlenkloster in Kiew in Flammen",
-      "link": "https://www.n-tv.de/politik/Beruehmtes-Hoehlenkloster-in-Kiew-in-Flammen-id30966576.html",
-      "summary": "Die Ukraine beklagt massive russische Angriffe mit mehr als 600 Drohnen und Dutzenden Raketen. Mindestens neun Menschen verlieren demnach ihr Leben. Auch ein wertvolles Kulturgut aus dem 11. Jahrhunde…",
-      "source": "n-tv",
-      "pubDate": "2026-06-15T04:25:11+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Electronic Arts: Werbung kommt ins Spielgeschehen",
+      "link": "https://www.heise.de/news/Electronic-Arts-Werbung-kommt-ins-Spielgeschehen-11332773.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Electronic Arts bringt mit Partnern Werbung ins Spielgeschehen. Den Anfang macht Bandenwerbung in den Sportspielen, doch die Technik reicht weiter.",
+      "source": "heise",
+      "pubDate": "2026-06-15T13:02:00+00:00"
+    },
+    {
+      "title": "heise+ | Mehr Codekontrolle mit C++26 Contracts",
+      "link": "https://www.heise.de/ratgeber/Mehr-Codekontrolle-mit-C-26-Contracts-11310364.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Contracts in C++26 definieren Regeln für Funktionen, um Fehler über API-Grenzen hinweg zur Laufzeit zu erkennen. Entwickler haben so mehr Steuermöglichkeiten.",
+      "source": "heise",
+      "pubDate": "2026-06-15T13:00:00+00:00"
+    },
+    {
+      "title": "KI-Update kompakt: KI-Redenschreiber, Fable & Mythos-Sperre, KI-Sorgen, Apple-KI",
+      "link": "https://www.heise.de/news/KI-Update-kompakt-KI-Redenschreiber-Fable-Mythos-Sperre-KI-Sorgen-Apple-KI-11331865.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das \"KI-Update\" liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
+      "source": "heise",
+      "pubDate": "2026-06-15T13:00:00+00:00"
+    },
+    {
+      "title": "heise+ | Insta360 Luna Ultra: 8K-Gimbal-Kamera mit Leica-Optik im Test",
+      "link": "https://www.heise.de/tests/Insta360-Luna-Ultra-8K-Gimbal-Kamera-mit-Leica-Optik-im-Test-11301778.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Die Insta360 Luna Ultra kombiniert 8K-Video, Leica-Optik und Gimbal-Stabilisierung in einer kompakten Kamera. Damit überflügelt sie die DJI Osmo Pocket 4.",
+      "source": "heise",
+      "pubDate": "2026-06-15T13:00:00+00:00"
+    },
+    {
+      "title": "Samsung Galaxy: Play-System-Update behebt offenbar Akku-Probleme",
+      "link": "https://www.heise.de/news/Samsung-Galaxy-Play-System-Update-behebt-offenbar-Akku-Probleme-11332659.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Nach Berichten über verkürzte Akkulaufzeiten bei Samsung-Galaxy-Modellen hat Google ein Play-System-Update bereitgestellt, das den Fehler offenbar behebt.",
+      "source": "heise",
+      "pubDate": "2026-06-15T12:50:00+00:00"
+    },
+    {
+      "title": "Anzeige: Samsung-Smartphones schon vor dem Prime Day bis zu 430 Euro günstiger bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-samsung-smartphones-schon-vor-dem-prime-day-bis-zu-430-euro-guenstiger-bei-amazon-2606-209787.html",
+      "summary": "Vor dem Prime Day hat Amazon bereits einige Produkte exklusiv für Prime-Mitglieder reduziert. Darunter auch diverse Smartphones von Samsung. ( Prime Day , Amazon )",
+      "source": "golem",
+      "pubDate": "2026-06-15T12:33:02+00:00"
+    },
+    {
+      "title": "phpBB: Kritische Sicherheitslücke ermöglicht Kompromittierung",
+      "link": "https://www.heise.de/news/phpBB-Kritische-Sicherheitsluecke-ermoeglicht-Kompromittierung-11332689.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "In der Forensoftware phpBB haben IT-Forscher eine kritische Sicherheitslücke entdeckt, die Zugang mit jedem angelegten Konto ermöglicht.",
+      "source": "heise",
+      "pubDate": "2026-06-15T12:30:00+00:00"
+    },
+    {
+      "title": "(g+) SpaceX: How Wall Street pulled off the biggest IPO in history for SpaceX",
+      "link": "https://www.golem.de/news/spacex-how-wall-street-pulled-off-the-biggest-ipo-in-history-for-spacex-2606-209783.html",
+      "summary": "Bankers convinced investors to believe in a sci-fi strategy, overlook steep losses and hand full control to Elon Musk ( SpaceX , Silicon Valley )",
+      "source": "golem",
+      "pubDate": "2026-06-15T12:15:02+00:00"
+    },
+    {
+      "title": "iPadOS, watchOS, macOS, tvOS: Diese Geräte fallen aus den 27er Versionen",
+      "link": "https://www.heise.de/news/iPadOS-watchOS-macOS-tvOS-Diese-Geraete-fallen-aus-den-27er-Versionen-11332615.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Apple räumt beim Support seiner nächsten Betriebssysteme auf. Nur iPhone-Besitzer mit iOS 26 kommen ohne Verluste davon.",
+      "source": "heise",
+      "pubDate": "2026-06-15T12:04:00+00:00"
+    },
     {
       "title": "Für IT- und Tech-Arbeiter: Jobaussichten in den USA nochmals deutlich schlechter",
       "link": "https://www.golem.de/news/fuer-it-und-tech-arbeiter-jobaussichten-in-den-usa-nochmals-deutlich-schlechter-2606-209785.html",
@@ -153,25 +216,11 @@
       "pubDate": "2026-06-15T11:30:00+00:00"
     },
     {
-      "title": "„Viele Patienten sind überrascht, wer alles ihre ePA einsehen kann“",
-      "link": "https://www.heise.de/hintergrund/Viele-Patienten-sind-ueberrascht-wer-alles-ihre-ePA-einsehen-kann-11332086.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Wie Versicherte auf die ePA reagieren und weshalb es Kritik an den Plänen gibt, dass Betriebsärzte künftig automatisch auf die ePA zugreifen können.",
-      "source": "heise",
-      "pubDate": "2026-06-15T11:11:00+00:00"
-    },
-    {
       "title": "Datenverlust im Passwortmanager: Passwort-Tresore plötzlich leer",
       "link": "https://www.golem.de/news/zugangsdaten-ade-datenverlust-bei-passwortmanager-trifft-kunden-eines-providers-2606-209782.html",
       "summary": "Beim Passwortmanager des niederländischen Providers Ziggo hat es eine Störung gegeben. Dabei sind Passwörter einiger Kunden dauerhaft verloren gegangen. ( Passwortmanager , Internet )",
       "source": "golem",
       "pubDate": "2026-06-15T11:09:02+00:00"
-    },
-    {
-      "title": "Neue Betriebssysteme: Apple verspricht „erhebliche“ Beschleunigung",
-      "link": "https://www.heise.de/news/Neue-Betriebssysteme-Apple-verspricht-erhebliche-Beschleunigung-11326339.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Nicht viele große neue Features, dafür viele kleine Optimierungen: Apple will mit Tricks auf Mac und iPhone mehr Speed rausholen. Das steckt dahinter.",
-      "source": "heise",
-      "pubDate": "2026-06-15T10:58:00+00:00"
     },
     {
       "title": "SK Hynix: RAM-Hersteller wird Herstellungskapazität verdreichfachen",
@@ -188,13 +237,6 @@
       "pubDate": "2026-06-15T10:35:01+00:00"
     },
     {
-      "title": "Vereinigtes Königreich: Social-Media-Verbot für unter 16-Jährige soll kommen",
-      "link": "https://www.heise.de/news/Vereinigtes-Koenigreich-Social-Media-Verbot-fuer-unter-16-Jaehrige-soll-kommen-11332193.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die britische Regierung plant ein Social-Media-Verbot für Kinder und Jugendliche unter 16 Jahren. Die Durchsetzung soll im Frühjahr 2027 kommen.",
-      "source": "heise",
-      "pubDate": "2026-06-15T10:31:00+00:00"
-    },
-    {
       "title": "Vereinfachter Prozess: Künstliche Photosynthese erzeugt Treibstoff",
       "link": "https://www.golem.de/news/vereinfachter-prozess-kuenstliche-photosynthese-erzeugt-treibstoff-2606-209778.html",
       "summary": "Im Sonnenlicht lassen sich Wasser und CO2 in Sauerstoff und Methansäure umwandeln. Der Prozess konnte nun wesentlich einfacher umgesetzt werden. ( Synthetische Kraftstoffe , Solarenergie )",
@@ -207,48 +249,6 @@
       "summary": "Prime-Mitglieder können sich die Samsung Galaxy Watch8 schon vor dem Prime Day zum Amazon-Tiefstpreis für nur 199 Euro im Angebot sichern. ( Smartwatch , Bluetooth )",
       "source": "golem",
       "pubDate": "2026-06-15T10:16:02+00:00"
-    },
-    {
-      "title": "Lynx S10: Roboterhund erstmals autonom auf arktischen Eisschollen unterwegs",
-      "link": "https://www.heise.de/news/Lynx-S10-Roboterhund-erstmals-autonom-auf-arktischen-Eisschollen-unterwegs-11332329.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Deep Robotics hat seinen vierbeinigen Roboter Lynx S10 so modifiziert, dass er sich in der Arktis autonom auch auf Eisschollen fortbewegen kann.",
-      "source": "heise",
-      "pubDate": "2026-06-15T10:14:00+00:00"
-    },
-    {
-      "title": "Anthropic: China hat möglicherweise Zugriff auf Mythos gehabt",
-      "link": "https://www.golem.de/news/anthropic-china-hat-moeglicherweise-zugriff-auf-mythos-gehabt-2606-209777.html",
-      "summary": "Für die US-Regierung wäre ein Zugriff durch China auf das KI-Modell Mythos ein erhebliches Sicherheitsrisiko. ( KI , Fable )",
-      "source": "golem",
-      "pubDate": "2026-06-15T10:12:02+00:00"
-    },
-    {
-      "title": "„Sommer der Glückseligkeit“: curl nimmt einen Monat lang keine Bug-Reports an",
-      "link": "https://www.heise.de/news/Sommer-der-Glueckseligkeit-curl-nimmt-einen-Monat-lang-keine-Bug-Reports-an-11332339.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Seit Wochen kämpft der Maintainer von curl mit der Arbeitslast durch die Flut an KI-generierten Bug-Reports. Im Juli soll deshalb keiner angenommen werden.",
-      "source": "heise",
-      "pubDate": "2026-06-15T10:11:00+00:00"
-    },
-    {
-      "title": "Experimentelles Flugzeug X-59 erreicht Reiseflughöhe und -geschwindigkeit",
-      "link": "https://www.heise.de/news/X-59-erreicht-Flughoehe-und-Geschwindigkeit-fuer-Ueberschalltests-11332409.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das experimentelle Flugzeug X-59 ist erstmals in der Höhe und mit der Geschwindigkeit geflogen, wie es das Testprogramm für den leisen Überschallflug vorsieht.",
-      "source": "heise",
-      "pubDate": "2026-06-15T10:05:00+00:00"
-    },
-    {
-      "title": "Windows-Insider-Vorschau: Weniger Reboots und bessere Suche",
-      "link": "https://www.heise.de/news/Windows-Insider-Vorschau-Weniger-Reboots-und-bessere-Suche-11332197.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Microsoft hat mehrere Insider-Vorschauen von Windows veröffentlicht. Die sollen Reboots reduzieren und die Suche verbessern.",
-      "source": "heise",
-      "pubDate": "2026-06-15T10:03:00+00:00"
-    },
-    {
-      "title": "Opendesk statt Microsoft 365: \"Machen - nicht lange prüfen!\"",
-      "link": "https://www.golem.de/news/opendesk-statt-microsoft-365-machen-nicht-lange-pruefen-2606-209760.html",
-      "summary": "Die Digitalminister lassen prüfen, ob Opendesk künftig kostenfrei für Bildungseinrichtungen zur Verfügung gestellt werden kann. Verbände drücken aufs Tempo. Ein Bericht von Erik Bärwaldt ( Souveränitä…",
-      "source": "golem",
-      "pubDate": "2026-06-15T10:00:02+00:00"
     }
   ]
 }
