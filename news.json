@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T11:39:57.686730+00:00",
+  "updatedAt": "2026-06-17T12:26:38.100436+00:00",
   "wirtschaft": [
     {
       "title": "Auswirkungen des Iran-Krieges: Ölvorräte in OECD-Ländern auf niedrigstem Stand seit 1990",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Kiews Strategie zeigt Wirkung: Ukraine verdoppelt Angriffe - russische Ölförderung sinkt",
+      "link": "https://www.n-tv.de/politik/Ukraine-verdoppelt-Angriffe-russische-Oelfoerderung-sinkt-id30977840.html",
+      "summary": "Inzwischen ist es auch in Russland unübersehbar: Das Land hat wegen der ukrainischen Angriffe Probleme mit seiner Energieinfrastruktur. Die Internationale Energieagentur bilanziert, wie schlimm es um …",
+      "source": "n-tv",
+      "pubDate": "2026-06-17T12:08:32+00:00"
+    },
+    {
       "title": "Lage in Nahost dient als Anlass: Zahl antisemitischer Vorfälle verharrt auf hohem Niveau",
       "link": "https://www.n-tv.de/politik/Zahl-antisemitischer-Vorfaelle-verharrt-auf-hohem-Niveau-id30977133.html",
       "summary": "Viele Jüdinnen und Juden werden im Alltag Opfer von Antisemitismus - seit dem Überfall der Hamas auf Israel immer häufiger. Für viele Täter dient die Lage in Nahost als Anlass für Übergriffe. Auf deut…",
@@ -135,29 +142,57 @@
       "summary": "China zeigt sich wieder einmal erzürnt über Taiwan. Der Grund: Das Nachbarland hat eine neue Plattform für Chinesen eingerichtet, die offenbar bereits auf Resonanz stößt. Pekings Drohungen richten sic…",
       "source": "n-tv",
       "pubDate": "2026-06-17T08:22:59+00:00"
-    },
-    {
-      "title": "Großer Teil aus der Ukraine: Mehr als vier Millionen Geflüchtete leben in Deutschland",
-      "link": "https://www.n-tv.de/politik/Mehr-als-vier-Millionen-Gefluechtete-leben-in-Deutschland-id30975937.html",
-      "summary": "Seit 1950 sind über 3,3 Millionen Menschen aufgrund von Flucht und Vertreibung nach Deutschland eingewandert - 700.000 im Zweiten Weltkrieg. Insgesamt leben so über vier Millionen eingewanderte Mensch…",
-      "source": "n-tv",
-      "pubDate": "2026-06-17T08:18:04+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Cyberangriffe und Sabotage: Neues Lagezentrum für hybride Bedrohungen eröffnet",
+      "link": "https://www.golem.de/news/cyberangriffe-und-sabotage-neues-lagezentrum-fuer-hybride-bedrohungen-eroeffnet-2606-209879.html",
+      "summary": "Die deutschen Sicherheitsbehörden erhalten ein Lagezentrum zur Erkennung und Bekämpfung von Gefahren wie Spionage und Desinformation. ( Security , Politik )",
+      "source": "golem",
+      "pubDate": "2026-06-17T12:18:01+00:00"
+    },
+    {
+      "title": "Halbleiterfertigung: Analysten sehen bei SMIC Potenzial zur Intel-18A-Konkurrenz",
+      "link": "https://www.golem.de/news/halbleiterfertigung-analysten-sehen-bei-smic-potenzial-zur-intel-18a-konkurrenz-2606-209875.html",
+      "summary": "Eine detaillierte Analyse zeigt: Chinas Halbleiterprozesse haben noch Spielraum für höhere Transistordichten. Der Aufwand steigt aber immens. ( Halbleiterfertigung , Server )",
+      "source": "golem",
+      "pubDate": "2026-06-17T12:03:02+00:00"
+    },
+    {
+      "title": "heise-Angebot: iX-Workshop: API-Design und -Entwicklung mit HTTP, REST und OpenAPI",
+      "link": "https://www.heise.de/news/iX-Workshop-API-Design-und-Entwicklung-mit-HTTP-REST-und-OpenAPI-11323158.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Lernen Sie, wie man effiziente und benutzerfreundliche APIs entwickelt, HTTP- und REST-Standards anwendet und standardisierte Referenzdokumentationen erstellt.",
+      "source": "heise",
+      "pubDate": "2026-06-17T12:00:00+00:00"
+    },
+    {
+      "title": "heise+ | Passagier oder Pilot: Wie souverän ist Europa in der Raumfahrt?",
+      "link": "https://www.heise.de/hintergrund/Passagier-oder-Pilot-Wie-souveraen-ist-Europa-in-der-Raumfahrt-11304641.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Ohne Raumfahrt kein Wetterbericht, keine Navigation, schlechteres Internet. Wie abhängig ist Europa von den USA – und wie nehmen wir das Steuer in die Hand?",
+      "source": "heise",
+      "pubDate": "2026-06-17T12:00:00+00:00"
+    },
+    {
+      "title": "BMW kappt Erwartungen und reagiert mit neuen Modellen",
+      "link": "https://www.heise.de/news/BMW-kappt-Erwartungen-und-reagiert-mit-neuen-Modellen-11335693.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "BMW hat sein Anfang des Jahres herbe Verluste an der Börse hinnehmen müssen. Hoffnungen ruhen unter anderem auf dem nächsten X5 und dem i3.",
+      "source": "heise",
+      "pubDate": "2026-06-17T11:54:00+00:00"
+    },
+    {
+      "title": "FortiSandbox: Angriffe auf kritische Schwachstellen beobachtet",
+      "link": "https://www.heise.de/news/Angriffe-auf-FortiSandbox-Schwachstellen-11335667.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Schwachstellen in FortiSandbox sind derzeit Ziel von Angriffen im Internet. Patches zum Absichern stehen seit April bereit.",
+      "source": "heise",
+      "pubDate": "2026-06-17T11:49:00+00:00"
+    },
     {
       "title": "Anzeige: Soundbar mit kabellosem Subwoofer zum Bestpreis im Angebot",
       "link": "https://www.golem.de/news/anzeige-soundbar-mit-kabellosem-subwoofer-zum-bestpreis-im-angebot-2606-209874.html",
       "summary": "Bei Amazon gibt es derzeit die TCL S55HE im Angebot. Die Soundbar mit kabellosem Subwoofer ist zum aktuellen Bestpreis erhältlich. ( Soundbar , Sound-Hardware )",
       "source": "golem",
       "pubDate": "2026-06-17T11:32:01+00:00"
-    },
-    {
-      "title": "Nach Eurosky: W Social klinkt soziales Netzwerk für Europa an Bluesky-Technik an",
-      "link": "https://www.heise.de/news/Nach-Eurosky-W-Social-klinkt-soziales-Netzwerk-fuer-Europa-an-Bluesky-Technik-an-11335321.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Blueskys AT-Protokoll bietet die Basis für immer mehr soziale Dienste. Nun schickt sich W Social an, ein europäisches Netz für verifizierte User zu etablieren.",
-      "source": "heise",
-      "pubDate": "2026-06-17T11:31:00+00:00"
     },
     {
       "title": "Zwischen Burnout und Neuanfang: Wege aus der Belastung zurück zur Stabilität",
@@ -174,13 +209,6 @@
       "pubDate": "2026-06-17T11:30:00+00:00"
     },
     {
-      "title": "Intels Auftragsfertigungsparte fährt die Technik Intel 18A-P hoch",
-      "link": "https://www.heise.de/news/Intels-Auftragsfertigungsparte-faehrt-die-Technik-Intel-18A-P-hoch-11335583.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die optimierte Fertigungstechnik Intel 18A-P soll neue Kunden in Intels Chipfabriken locken. Sie folgt auf die seit Ende 2025 laufende Fertigung Intel 18A.",
-      "source": "heise",
-      "pubDate": "2026-06-17T11:26:00+00:00"
-    },
-    {
       "title": "Anzeige: Zu Hause und unterwegs unbegrenzt surfen im 5G-Netz mit o2 Homespot",
       "link": "https://www.golem.de/news/anzeige-zu-hause-und-unterwegs-unbegrenzt-surfen-im-5g-netz-mit-o2-homespot-2606-209876.html",
       "summary": "Ohne Techniker und Wartezeit: Mit dem o2 Homespot surfen Nutzer direkt los. Einfach einstecken und loslegen für nur 19,99 Euro im Monat. ( O2 , Internet )",
@@ -188,25 +216,18 @@
       "pubDate": "2026-06-17T11:17:02+00:00"
     },
     {
+      "title": "Windows and Linux users: The deadline to update Secure Boot keys is near",
+      "link": "https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/",
+      "summary": "What you need to know about the expiration of keys securing your machine's boot sequence.",
+      "source": "ars technica",
+      "pubDate": "2026-06-17T11:15:17+00:00"
+    },
+    {
       "title": "Fußball-WM: Offizielles Streamingportal der Fifa gehackt",
       "link": "https://www.golem.de/news/fussball-wm-offizielles-streamingportal-der-fifa-gehackt-2606-209873.html",
       "summary": "Eine Forscherin hat eine unzureichende Sicherheitsprüfung bei Systemen der Fifa entdeckt. Angreifer hätten Streams der laufenden WM sabotieren können. ( Sicherheitslücke , Microsoft )",
       "source": "golem",
       "pubDate": "2026-06-17T11:15:02+00:00"
-    },
-    {
-      "title": "Vom Chat zum Agenten: Copilot Cowork für Microsoft 365 ist da",
-      "link": "https://www.heise.de/news/Vom-Chat-zum-Agenten-Copilot-Cowork-fuer-Microsoft-365-ist-da-11335405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Microsofts Copilot Cowork verlässt die Preview: Das neue agentische System automatisiert komplexe Aufgaben in M365 unter Einhaltung der Sicherheitsregeln.",
-      "source": "heise",
-      "pubDate": "2026-06-17T11:07:00+00:00"
-    },
-    {
-      "title": "Gesundheitsministerium: Daten kein „Nice-to-have“, sondern „Must-have“",
-      "link": "https://www.heise.de/news/BMG-zu-Medizinregistern-Ziel-ist-die-Verknuepfung-dieser-Daten-zu-erleichtern-11335306.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Medizinische Register sollen Daten für die Forschung und Versorgung liefern. Wie sich das BMG das vorstellt, erklärt Philipp Müller vom Gesundheitsministerium.",
-      "source": "heise",
-      "pubDate": "2026-06-17T11:06:00+00:00"
     },
     {
       "title": "Anzeige: Comfee mobiles Klimagerät pünktlich zur Hitzewelle als früher Prime-Deal nur 225 Euro",
@@ -223,32 +244,11 @@
       "pubDate": "2026-06-17T10:48:02+00:00"
     },
     {
-      "title": "Android 17 behebt viele Bugs bei Pixel-Geräten – und offenbar Bootloop-Fehler",
-      "link": "https://www.heise.de/news/Android-17-behebt-viele-Bugs-bei-Pixel-Geraeten-und-offenbar-Bootloop-Fehler-11335615.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Google verteilt Android 17 für Pixel-Smartphones. Das Update bringt zahlreiche Fehlerbehebungen, darunter wohl auch eine Lösung für Bootloop-Probleme.",
-      "source": "heise",
-      "pubDate": "2026-06-17T10:48:00+00:00"
-    },
-    {
-      "title": "Die souveräne Cloud, die keine ist: ein Etikett für die falsche Ebene",
-      "link": "https://www.heise.de/blog/Die-souveraene-Cloud-die-keine-ist-ein-Etikett-fuer-die-falsche-Ebene-11320242.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "AWS und Microsoft verkaufen ihre EU-Angebote 2026 als souverän. Doch das Etikett trifft die falsche Ebene und lässt die rechtliche Abhängigkeit bestehen.",
-      "source": "heise",
-      "pubDate": "2026-06-17T10:38:00+00:00"
-    },
-    {
       "title": "Anzeige: Anker Smart Ladegerät für unter 30 Euro für Prime-Mitglieder",
       "link": "https://www.golem.de/news/anzeige-anker-smart-ladegeraet-fuer-unter-30-euro-fuer-prime-mitglieder-2606-209870.html",
       "summary": "Das kompakte Anker Smart Ladegerät mit 45 Watt und Display ist bei Amazon stark reduziert. Prime-Mitglieder erhalten es deutlich unter 30 Euro. ( Technik/Hardware )",
       "source": "golem",
       "pubDate": "2026-06-17T10:35:01+00:00"
-    },
-    {
-      "title": "heise+ | Fußball-WM im Stream: Liefert Magenta die bessere Bildqualität als ARD und ZDF?",
-      "link": "https://www.heise.de/tests/Fussball-WM-im-Stream-Liefert-Magenta-die-bessere-Bildqualitaet-als-ARD-und-ZDF-11334925.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Für 11 Euro zeigt MagentaTV alle Spiele der Fußball-WM in HD, auf seiner Streaming-Box sogar in 4K. Wir haben hingeschaut und nachgemessen, ob sich das lohnt.",
-      "source": "heise",
-      "pubDate": "2026-06-17T10:32:00+00:00"
     },
     {
       "title": "Rockstar Games: Analysten erwarten 45 Millionen GTA-6-Verkäufe am ersten Tag",
@@ -258,32 +258,32 @@
       "pubDate": "2026-06-17T10:31:01+00:00"
     },
     {
-      "title": "(g+) Tech Asia: Japan seeks bigger role in Asia's subsea cables as AI rewires demand",
-      "link": "https://www.golem.de/news/tech-asia-japan-seeks-bigger-role-in-asia-s-subsea-cables-as-ai-rewires-demand-2606-209869.html",
-      "summary": "Traders including Sumitomo, leasing firms and telecom newcomers enter critical sector ( Wirtschaft , Softbank )",
-      "source": "golem",
-      "pubDate": "2026-06-17T10:25:06+00:00"
-    },
-    {
-      "title": "Bluetooth-Lücke erlaubte Mitlauschen bei Beats-Stöpseln",
-      "link": "https://www.heise.de/news/Bluetooth-Luecke-erlaubte-Mitlauschen-bei-Beats-Stoepseln-11334945.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Apple hat ein Loch in der Firmware eines Ohrhörers der Tochter Beats gestopft. Es ermöglichte Spionage und steckte in einem Third-Party-SDK.",
+      "title": "heise+ | Analyse: Wie Siri, Gemini und Copilot Ihr persönlicher Butler werden wollen",
+      "link": "https://www.heise.de/hintergrund/Analyse-Wie-Siri-Gemini-und-Copilot-Ihr-persoenlicher-Butler-werden-wollen-11327088.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "KI-Agenten sollen Nutzer besser kennenlernen als jede App – und an die Plattformen von Apple, Google & Co. binden. Die enge Verzahnung erschwert den Umzug.",
       "source": "heise",
-      "pubDate": "2026-06-17T10:25:00+00:00"
+      "pubDate": "2026-06-17T10:00:00+00:00"
     },
     {
-      "title": "KI-Wearables: Qualcomm positioniert sich als zentraler Technologiepartner",
-      "link": "https://www.heise.de/news/KI-Wearables-Qualcomm-positioniert-sich-als-zentraler-Technologiepartner-11335545.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Mit Snapdragon START will Qualcomm die Grundlage für ein Ökosystem persönlicher KI-Wearables schaffen. Den Anfang machen Smart Glasses.",
+      "title": "heise+ | KI im Job: Studien widerlegen Mythos vom Job-Killer",
+      "link": "https://www.heise.de/ratgeber/KI-im-Job-Studien-widerlegen-Mythos-vom-Job-Killer-11280789.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "KI soll Arbeit erleichtern und Fachkräftemangel lindern. Doch Studien zeigen: Statt Entlastung bringt die Technik oft Arbeitsverdichtung und neue Aufgaben.",
       "source": "heise",
-      "pubDate": "2026-06-17T10:18:00+00:00"
+      "pubDate": "2026-06-17T08:30:00+00:00"
     },
     {
-      "title": "Optimus GX PRO 850P NVMe: Playstation-5-SSD kostet ein Vielfaches der Konsole",
-      "link": "https://www.golem.de/news/optimus-gx-pro-850p-nvme-playstation-5-ssd-kostet-ein-vielfaches-der-konsole-2606-209866.html",
-      "summary": "Eine neue Sandisk-SSD mit Lizenz bringt bis zu 8 TByte Speicher in die Playstation 5. Der Preis bietet mehr Diskussionsstoff als die Technik. ( Playstation 5 , Speichermedien )",
-      "source": "golem",
-      "pubDate": "2026-06-17T10:15:01+00:00"
+      "title": "heise+ | PowerPoint per Prompt: Microsoft Copilot ausprobiert",
+      "link": "https://www.heise.de/ratgeber/Microsoft-Copilot-im-PowerPoint-Workflow-Wenig-Brauchbares-11332751.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Wer mit dem Copilot Präsentationen nach festen Layout-Vorgaben generieren möchte, stößt auf viele Hürden und Sackgassen. Was funktioniert und was nicht.",
+      "source": "heise",
+      "pubDate": "2026-06-17T07:00:00+00:00"
+    },
+    {
+      "title": "heise+ | KI im Job: Warum KI Arbeit verdichtet und  Fachkräfte kaum entlastet",
+      "link": "https://www.heise.de/ratgeber/KI-im-Job-Warum-KI-Arbeit-verdichtet-und-Fachkraefte-kaum-entlastet-11280801.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Arbeitssoziologe Florian Butollo erklärt im Interview, warum KI kaum Arbeit spart und wir die knappen Fachkräfte gesellschaftlich neu verteilen müssen.",
+      "source": "heise",
+      "pubDate": "2026-06-17T06:15:00+00:00"
     }
   ]
 }
