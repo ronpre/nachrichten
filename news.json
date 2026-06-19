@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T06:46:33.063986+00:00",
+  "updatedAt": "2026-06-19T08:05:27.185863+00:00",
   "wirtschaft": [
     {
       "title": "IW-Studie kommt auf 25 Prozent: Zahl arbeitender Frührentner steigt sprunghaft",
@@ -67,6 +67,13 @@
   ],
   "politik": [
     {
+      "title": "Hohe Milliardenkosten: Pentagon soll wegen des Iran-Krieges viel Geld benötigen",
+      "link": "https://www.n-tv.de/politik/Pentagon-soll-wegen-des-Iran-Krieges-viel-Geld-benoetigen-id30986072.html",
+      "summary": "Beim Krieg gegen den Iran soll das US-Militär viele teure Raketen verwendet haben. Hinzu kommen diverse andere Kosten. Das macht sich im US-Verteidigungsministerium bemerkbar. Gibt es kein frisches Ge…",
+      "source": "n-tv",
+      "pubDate": "2026-06-19T07:27:20+00:00"
+    },
+    {
       "title": "Wagner entschuldigt sich: Friedman-Rede bei Bayreuther Festspielen findet doch statt",
       "link": "https://www.n-tv.de/politik/Friedman-Rede-bei-Bayreuther-Festspielen-findet-doch-statt-id30986177.html",
       "summary": "Der Publizist Friedman wird nun doch zum Start der Bayreuther Festspiele über das Schicksal ermordeter jüdischer Musiker sprechen. Nach der Absage des Termins und heftiger Kritik entschuldigt sich Lei…",
@@ -81,7 +88,7 @@
       "pubDate": "2026-06-19T06:20:33+00:00"
     },
     {
-      "title": "Sozialismus soll weiterbestehen: Kuba öffnet Wirtschaft mit größter Reform seit Jahrzehnten",
+      "title": "Sozialismus soll weiter bestehen: Kuba öffnet Wirtschaft mit größter Reform seit Jahrzehnten",
       "link": "https://www.n-tv.de/politik/Kuba-oeffnet-Wirtschaft-mit-groesster-Reform-seit-Jahrzehnten-id30985944.html",
       "summary": "Die autoritäre kubanische Regierung hat die Bevölkerung der Insel in tiefe Armut getrieben. Auch US-Sanktionen spielen eine Rolle. Nun soll sich die Situation mit einer großen Wirtschaftsreform besser…",
       "source": "n-tv",
@@ -128,16 +135,100 @@
       "summary": "Ein Medienbericht über angebliche Äußerungen von EU-Außenbeauftragter Kaja Kallas, in denen sie Israel mit einem Apartheid-System vergleicht, sorgt für Wirbel. Israel bricht daraufhin den Kontakt zu i…",
       "source": "n-tv",
       "pubDate": "2026-06-18T20:19:52+00:00"
-    },
-    {
-      "title": "Iran-Krieg im Liveticker: +++ 21:28 Vance an Israel: \"Ihr könnt euch nicht aus jedem Problem heraustöten\" +++",
-      "link": "https://www.n-tv.de/politik/21-28-Vance-an-Israel-Ihr-koennt-euch-nicht-aus-jedem-Problem-heraustoeten-id30985564.html",
-      "summary": "",
-      "source": "n-tv",
-      "pubDate": "2026-06-18T20:00:00+00:00"
     }
   ],
   "it": [
+    {
+      "title": "MIT entwickelt räumliches Langzeitgedächtnis-Framework für KI-Roboter",
+      "link": "https://www.heise.de/news/MIT-entwickelt-raeumliches-Langzeitgedaechtnis-Framework-fuer-KI-Roboter-11338046.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Mit einem Langzeitgedächtnis können Roboter wissen, wo sich welche Objekte befinden. Das MIT hat einen Ansatz für ein solches Gedächtnis-Framework entwickelt.",
+      "source": "heise",
+      "pubDate": "2026-06-19T07:59:00+00:00"
+    },
+    {
+      "title": "Neue Regeln zur Arbeitszeit: Wirtschaft und Union gegen Reformentwurf zu Achtstundentag",
+      "link": "https://www.golem.de/news/neue-regeln-zur-arbeitszeit-wirtschaft-und-union-gegen-reformentwurf-zu-achtstundentag-2606-209948.html",
+      "summary": "Ein erster Entwurf zur Reform der Arbeitszeiten rund um den Achtstundentag sickert durch. Er stößt sofort auf breiten Widerspruch. ( Arbeit , Wirtschaft )",
+      "source": "golem",
+      "pubDate": "2026-06-19T07:45:02+00:00"
+    },
+    {
+      "title": "Android-Verifizierung: Google bestätigt Zeitplan und nennt App-Stores",
+      "link": "https://www.heise.de/news/Android-Google-nennt-Zeitplan-fuer-Entwickler-Verifizierung-und-erste-App-Stores-11338038.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Noch im Juni führt Google einen neuen Android-Systemdienst ein, bevor ab Ende September größere Änderungen für Entwickler in Kraft treten.",
+      "source": "heise",
+      "pubDate": "2026-06-19T07:33:00+00:00"
+    },
+    {
+      "title": "Frequenzregulierung: SpaceX warnt vor Beschränkung des Satellitenspektrums",
+      "link": "https://www.golem.de/news/frequenzregulierung-spacex-warnt-vor-beschraenkung-des-satellitenspektrums-2606-209947.html",
+      "summary": "SpaceX kritisiert Pläne der EU zur Frequenzregulierung und warnt vor globalen Funkstörungen sowie Risiken für die Ukraine. ( SpaceX , Smartphone )",
+      "source": "golem",
+      "pubDate": "2026-06-19T07:32:02+00:00"
+    },
+    {
+      "title": "Einstieg in die Astrofotografie: Mit Teleskop und Astrokamera den Himmel erkunden",
+      "link": "https://www.golem.de/news/einstieg-in-die-astrofotografie-mit-teleskop-und-astrokamera-den-himmel-erkunden-2606-209675.html",
+      "summary": "Wir zeigen, wie Anfänger mit eigenem Teleskop-Setup in die Astrofotografie einsteigen können und worauf sie am Anfang achten sollten. Ein Ratgebertext von Mario Keller ( Astrofotografie , Astronomie )",
+      "source": "golem",
+      "pubDate": "2026-06-19T07:28:02+00:00"
+    },
+    {
+      "title": "Firmen unterschätzen ihre KI-Abhängigkeiten massiv",
+      "link": "https://www.heise.de/news/Firmen-unterschaetzen-ihre-KI-Abhaengigkeiten-massiv-11337683.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Eine IBM-Studie zeigt: Viele deutsche Unternehmen sprechen über KI-Souveränität, kennen aber ihre Abhängigkeiten kaum.",
+      "source": "heise",
+      "pubDate": "2026-06-19T07:17:00+00:00"
+    },
+    {
+      "title": "ASML im „Krisenmodus“: EUV-Lithografie-System laut Washington nach China gelangt",
+      "link": "https://www.heise.de/news/ASML-im-Krisenmodus-EUV-Lithografie-System-laut-Washington-nach-China-gelangt-11337944.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Nur ASML kann die modernsten Systeme für die Halbleiterherstellung produzieren. Der Export nach China ist untersagt. Die USA erheben nun einen schweren Vorwurf.",
+      "source": "heise",
+      "pubDate": "2026-06-19T07:14:00+00:00"
+    },
+    {
+      "title": "HPE greift VMware an: Kostenlose Lizenzen für Umsteiger",
+      "link": "https://www.heise.de/news/Bis-zu-90-Prozent-Einsparungen-HPE-lockt-geprellte-VMware-Kunden-11337988.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "HPE will VMware-Kunden mit kostenlosen Lizenzen und Migrationssoftware überzeugen. Zudem wird die KVM-basierte Plattform ausgebaut.",
+      "source": "heise",
+      "pubDate": "2026-06-19T07:12:00+00:00"
+    },
+    {
+      "title": "US-Präsident: Trump verspottete Zuckerberg und Bezos",
+      "link": "https://www.golem.de/news/us-praesident-trump-verspottete-zuckerberg-und-bezos-2606-209946.html",
+      "summary": "Ein neues Buch von NYT-Reportern beschreibt, wie Tech-Chefs nach der Wahl 2024 die Nähe von Donald Trump suchten und dieser sie verhöhnte. ( Donald Trump , Mark Zuckerberg )",
+      "source": "golem",
+      "pubDate": "2026-06-19T07:04:01+00:00"
+    },
+    {
+      "title": "heise+ | Alexa+ im Early Access: Wie gut die neue KI-Assistentin das Zuhause steuert",
+      "link": "https://www.heise.de/tests/Alexa-im-Early-Access-Wie-gut-die-neue-KI-Assistentin-das-Zuhause-steuert-11328750.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Für unseren zweiten Erfahrungsbericht über Alexa+ testeten wir die neue Version von Amazons Sprachassistentin als Smart-Home-Verwalterin.",
+      "source": "heise",
+      "pubDate": "2026-06-19T07:00:00+00:00"
+    },
+    {
+      "title": "Polizei greift durch: Malware über 15.000 gehackte Webseiten verbreitet",
+      "link": "https://www.golem.de/news/polizei-greift-durch-malware-ueber-15-000-gehackte-webseiten-verbreitet-2606-209944.html",
+      "summary": "Eine russische Hackergruppe hat massenhaft Wordpress-Webseiten gekapert, um Besuchern Malware unterzuschieben. Doch damit ist jetzt Schluss. ( Malware , Virus )",
+      "source": "golem",
+      "pubDate": "2026-06-19T06:54:01+00:00"
+    },
+    {
+      "title": "Splunk Enterprise: Angriffe auf Codeschmuggel-Lücke",
+      "link": "https://www.heise.de/news/Splunk-Enterprise-Angriffe-auf-Codeschmuggel-Luecke-11337978.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Splunk warnt, dass bösartige Akteure eine kritische Codeschmuggel-Lücke in Splunk Enterprise angreifen. Updates stehen bereit.",
+      "source": "heise",
+      "pubDate": "2026-06-19T06:52:00+00:00"
+    },
+    {
+      "title": "Databricks: Lakehouse//RT soll separate Echtzeitdatenbanken überflüssig machen",
+      "link": "https://www.heise.de/news/Databricks-Lakehouse-RT-soll-separate-Echtzeitdatenbanken-ueberfluessig-machen-11336849.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Databricks bringt mit Lakehouse//RT eine Echtzeitanalyse-Engine für Delta-Lake- und Apache-Iceberg-Tabellen, um spezialisierte Echtzeitdatenbanken zu ersetzen.",
+      "source": "heise",
+      "pubDate": "2026-06-19T06:47:00+00:00"
+    },
     {
       "title": "heise+ | Gehälter 2026: Das verdienen IT-Berater in Deutschland",
       "link": "https://www.heise.de/hintergrund/Gehaelter-2026-Das-verdienen-IT-Berater-in-Deutschland-11281597.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
@@ -151,13 +242,6 @@
       "summary": "Erstellen Sie für Ihr Unternehmen einen Leitfaden zur professionellen IT-Notfallplanung im interaktiven Workshop.",
       "source": "heise",
       "pubDate": "2026-06-19T06:00:00+00:00"
-    },
-    {
-      "title": "heise+ | Mit dem Elektroauto stressfrei in den Urlaub: Wie Sie in Europa günstig laden",
-      "link": "https://www.heise.de/ratgeber/Mit-dem-Elektroauto-stressfrei-in-den-Urlaub-Wie-Sie-in-Europa-guenstig-laden-11307461.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Der Urlaub mit dem Elektroauto in Europa kann teuer werden. Wir zeigen, wie Sie Ladekosten im Ausland senken und teure Überraschungen vermeiden.",
-      "source": "heise",
-      "pubDate": "2026-06-19T05:30:00+00:00"
     },
     {
       "title": "Anzeige: BFSG und WCAG in Webprojekten umsetzen",
@@ -174,60 +258,11 @@
       "pubDate": "2026-06-19T05:15:06+00:00"
     },
     {
-      "title": "„GTA 6“: Vorverkauf beginnt kommende Woche, die Marketingkampagne läuft los",
-      "link": "https://www.heise.de/news/GTA-6-Der-Vorverkauf-beginnt-kommende-Woche-die-Marketingkampagne-geht-los-11337884.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Der „meist erwartete Entertainment-Titel aller Zeiten“ kann ab der kommenden Woche vorbestellt werden. Rockstar Games hat jetzt auch das Cover vorgestellt.",
-      "source": "heise",
-      "pubDate": "2026-06-19T05:05:00+00:00"
-    },
-    {
-      "title": "Rheinmetall-Chef plädiert für Regulierung von KI-Waffeneinsatz",
-      "link": "https://www.heise.de/news/Rheinmetall-Chef-plaediert-fuer-Regulierung-von-KI-Waffeneinsatz-11337896.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Rheinmetall-Chef Armin Pappberger sieht die Notwendigkeit, dass keine KI final über einen Waffeneinsatz entscheiden darf. Regeln müssen global getroffen werden.",
-      "source": "heise",
-      "pubDate": "2026-06-19T05:03:00+00:00"
-    },
-    {
-      "title": "Freitag: EU-Auflagen für US-Clouds, Robotaxi-Rückruf wegen Autobahnbaustellen",
-      "link": "https://www.heise.de/news/Freitag-EU-Auflagen-fuer-US-Clouds-Robotaxi-Rueckruf-wegen-Autobahnbaustellen-11337878.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "AWS und Azure als Gatekeeper + Robotaxi-Probleme mit Baustellen + KI-Beschleunigung bei Deutscher Bank + Bezahlen zumeist bargeldlos + Verbraucherschutz-Podcast",
-      "source": "heise",
-      "pubDate": "2026-06-19T04:15:00+00:00"
-    },
-    {
-      "title": "heise+ | \"Good Luck, Have Fun, Don’t Die\" im 4K-Test: Hurra die Welt geht unter!",
-      "link": "https://www.heise.de/tests/Good-Luck-Have-Fun-Don-t-Die-im-4K-Test-Hurra-die-Welt-geht-unter-11280517.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Gore Verbinski schickt Sam Rockwell als zersausten Zeitreisenden gegen die digitale Apokalypse. Bringen seine gezielten Atmos-Attacken die Rettung?",
-      "source": "heise",
-      "pubDate": "2026-06-19T04:02:00+00:00"
-    },
-    {
-      "title": "Vorsicht, Kunde: Zu hohe Stromrechnung durch Smart-Meter-Fehler",
-      "link": "https://www.heise.de/news/Vorsicht-Kunde-Zu-hohe-Stromrechnung-durch-Smart-Meter-Fehler-11331705.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Wer bei seinem Smart Meter ungewöhnlichen Stromverbrauch feststellt, sollte schnell handeln. Wir erklären, wie Sie Fehler aufdecken und Ihre Rechte durchsetzen.",
-      "source": "heise",
-      "pubDate": "2026-06-19T04:00:00+00:00"
-    },
-    {
-      "title": "Bericht: EU stuft AWS und Azure bald als Gatekeeper laut Digital Markets Act ein",
-      "link": "https://www.heise.de/news/Bericht-EU-stuft-AWS-und-Azure-bald-als-Gatekeeper-laut-Digital-Markets-Act-ein-11337868.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Den US-Cloud-Diensten drohen höhere Auflagen der EU-Wettbewerbshüter. Die Untersuchung der EU nach dem Gesetz über digitale Märkte steht vor dem Abschluss.",
-      "source": "heise",
-      "pubDate": "2026-06-19T03:03:00+00:00"
-    },
-    {
       "title": "Microsoft discovers new lightweight backdoor that steals cryptocurrency",
       "link": "https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/",
       "summary": "Crypto Clipper spreads over USB and communicates over Tor.",
       "source": "ars technica",
       "pubDate": "2026-06-18T23:28:52+00:00"
-    },
-    {
-      "title": "Deutsche Bank: Künstliche Intelligenz steigert die Produktivität",
-      "link": "https://www.heise.de/news/Deutsche-Bank-Kuenstliche-Intelligenz-steigert-die-Produktivitaet-11337846.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das deutsche Geldinstitut setzt KI ein, um Aufgaben zu beschleunigen und interne Arbeitsstaus abzubauen, hat dabei aber auch immer die Kosten im Blick.",
-      "source": "heise",
-      "pubDate": "2026-06-18T20:45:00+00:00"
     },
     {
       "title": "Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds",
@@ -242,41 +277,6 @@
       "summary": "One previously unreported SpaceX investor has ties to Chinese military contractors.",
       "source": "ars technica",
       "pubDate": "2026-06-18T17:42:18+00:00"
-    },
-    {
-      "title": "Anzeige: KI-gestütztes Pentesting und Reporting in zwei Tagen",
-      "link": "https://www.golem.de/news/anzeige-ki-gestuetztes-pentesting-und-reporting-in-zwei-tagen-2606-209637.html",
-      "summary": "KI in der IT-Sicherheit verändert Pentesting und Schwachstellenanalysen. Ein Online-Workshop zeigt Vorgehen, Grenzen und praxisnahe Testszenarien bis zum Reporting. ( Golem Karrierewelt , Unternehmens…",
-      "source": "golem",
-      "pubDate": "2026-06-18T16:45:02+00:00"
-    },
-    {
-      "title": "Breitbandmessung: Nur 7 Prozent der 5G-Nutzer erreichen maximale Downloadrate",
-      "link": "https://www.golem.de/news/breitbandmessung-nur-7-prozent-der-5g-nutzer-erreichen-maximale-downloadrate-2606-209939.html",
-      "summary": "Im aktuellen Jahresbericht der Bundesnetzagentur ist der Anteil der 5G-Messungen deutlich gestiegen. ( Bundesnetzagentur , Long Term Evolution )",
-      "source": "golem",
-      "pubDate": "2026-06-18T15:50:01+00:00"
-    },
-    {
-      "title": "Preissteigerung bei Apple: Wie teuer wird das neue iPhone?",
-      "link": "https://www.golem.de/news/preissteigerung-bei-apple-wie-teuer-wird-das-neue-iphone-2606-209938.html",
-      "summary": "Apple gibt die höheren Speicherpreise ab sofort an die Kunden weiter. Das neue iPhone könnte 1.300 US-Dollar und mehr kosten. ( Apple , Smartphone )",
-      "source": "golem",
-      "pubDate": "2026-06-18T15:26:02+00:00"
-    },
-    {
-      "title": "Elektrolimousine: BMW i3 startet als First Edition bei 75.000 Euro",
-      "link": "https://www.golem.de/news/elektrolimousine-bmw-i3-startet-als-first-edition-bei-75-000-euro-2606-209940.html",
-      "summary": "Der BMW i3 soll zum Basispreis von 65.900 Euro auf den Markt kommen. Vorab lässt sich schon eine besser ausgestattete Version bestellen. ( BMW , Elektroauto )",
-      "source": "golem",
-      "pubDate": "2026-06-18T15:08:01+00:00"
-    },
-    {
-      "title": "Anzeige: Smarte WLAN-Steckdosen mit Alexa im 4er-Pack jetzt nur rund 7 Euro pro Stück",
-      "link": "https://www.golem.de/news/anzeige-smarte-wlan-steckdosen-mit-alexa-im-4er-pack-jetzt-nur-rund-7-euro-pro-stueck-2606-209936.html",
-      "summary": "Die smarten Steckdosen von Eightree sind jetzt im 4er-Pack wieder zum bisherigen Amazon-Tiefstpreis zu haben. ( Smart Home , Spracherkennung )",
-      "source": "golem",
-      "pubDate": "2026-06-18T15:00:02+00:00"
     }
   ]
 }
