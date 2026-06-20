@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T06:31:47.509016+00:00",
+  "updatedAt": "2026-06-20T07:30:55.984971+00:00",
   "wirtschaft": [
     {
       "title": "Bargeld per App: Was man zum digitalen Euro wissen muss",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Italiens neue Rechtsaußenpartei: Ein Ex-General boxt Meloni aus der Komfortzone",
+      "link": "https://www.n-tv.de/politik/Ein-Ex-General-boxt-Meloni-aus-der-Komfortzone-id30986756.html",
+      "summary": "Italiens Ministerpräsidentin Giorgia Meloni und ihre Koalitionspartner geraten unter Druck von einer noch weiter rechts stehenden Partei. Politikaufsteiger Roberto Vannacci gräbt mit Futuro Nazionale …",
+      "source": "n-tv",
+      "pubDate": "2026-06-20T07:20:00+00:00"
+    },
+    {
       "title": "Djir-Sarai im Interview: \"Ich finde wirklich gefährlich, was da verabschiedet wurde\"",
       "link": "https://www.n-tv.de/politik/Ich-finde-wirklich-gefaehrlich-was-da-verabschiedet-wurde-id30989748.html",
       "summary": "Das Rahmenabkommen zwischen den USA und Iran ist für den Iran-Experten und FDP-Außenpolitiker Bijan Djir-Sarai das Gegenteil einer guten Nachricht. Er warnt vor großen Gefahren durch das Regime in Teh…",
@@ -135,16 +142,37 @@
       "summary": "Viele Wohngeld-Haushalte müssen sich wohl auf ein Ende der staatlichen Unterstützung einstellen. Bauministerin Hubertz plant Sparmaßnahmen von zwei Milliarden Euro. Bislang kostet die Hilfe den Staat …",
       "source": "n-tv",
       "pubDate": "2026-06-19T21:59:09+00:00"
-    },
-    {
-      "title": "Militäreinheit empört Warschau: Polens Präsident zieht Konsequenzen im Streit mit Selenskyj",
-      "link": "https://www.n-tv.de/politik/Polens-Praesident-zieht-Konsequenzen-im-Streit-mit-Selenskyj-id30989725.html",
-      "summary": "Ein enges Bündnis wird auf die Probe gestellt. Der ukrainische Präsident benennt eine Militäreinheit nach einer Miliz, die für ein Massaker an Polen verantwortlich ist. Präsident Nawrocki zieht Konseq…",
-      "source": "n-tv",
-      "pubDate": "2026-06-19T20:04:56+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Developer-Häppchen fürs Wochenende – kleinere News der Woche",
+      "link": "https://www.heise.de/news/Developer-Haeppchen-fuers-Wochenende-kleinere-News-der-Woche-11336775.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Kleine, aber interessante Meldungshäppchen vom News-Buffet zu GitHub, Qt Creator, Nuitka, ESLint, Eclipse Theia, W3C, scikit-learn, Junie und TypeScript.",
+      "source": "heise",
+      "pubDate": "2026-06-20T07:18:00+00:00"
+    },
+    {
+      "title": "Kestra: Ops-Automation jenseits von CI/CD",
+      "link": "https://www.heise.de/hintergrund/Kestra-Ops-Automation-jenseits-von-CI-CD-11337589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "CI/CD-Pipelines sind für Code-Deployments optimiert. Langlebige Betriebsprozesse und Self-Service-Workflows lassen sich flexibler mit Kestra orchestrieren.",
+      "source": "heise",
+      "pubDate": "2026-06-20T07:05:00+00:00"
+    },
+    {
+      "title": "HBO Max im Nachtest: Katalog von Warners Streamingabo enttäuscht immer noch",
+      "link": "https://www.golem.de/news/hbo-max-im-nachtest-katalog-von-warners-streamingabo-enttaeuscht-immer-noch-2606-209911.html",
+      "summary": "Wie hat Warner Bros. auf die Kritik zum Marktstart von HBO Max in Deutschland reagiert? Der Frage gehen wir in einem Nachtest nach. Ein Test von Ingo Pakalski ( HBO Max , Test )",
+      "source": "golem",
+      "pubDate": "2026-06-20T07:00:02+00:00"
+    },
+    {
+      "title": "Kommentar KI – es wird nicht ohne gehen",
+      "link": "https://www.heise.de/meinung/Kommentar-KI-warum-Ignorieren-und-Verbieten-nicht-helfen-11338636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "KI nervt – doch der typisch deutsche Weg ist mal wieder falsch. Spätestens jetzt müssen wir uns ehrlich machen, meint Martin Gerhard Loschwitz.",
+      "source": "heise",
+      "pubDate": "2026-06-20T07:00:00+00:00"
+    },
     {
       "title": "Zweisam, einsam, still : Die Bilder der Woche 25",
       "link": "https://www.heise.de/news/Zweisam-einsam-still-Die-Bilder-der-Woche-25-11337349.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -160,9 +188,9 @@
       "pubDate": "2026-06-20T05:45:01+00:00"
     },
     {
-      "title": "100. Geburtstag Erna Schneider Hoover: Ihre Erfindung kennen fast alle Entwickler",
+      "title": "Erna Schneider Hoover: Die Frau, deren Idee fast jeder Entwickler kennt",
       "link": "https://www.golem.de/news/100-geburtstag-erna-schneider-hoover-ihre-erfindung-kennen-fast-alle-entwickler-2606-209986.html",
-      "summary": "Erna Schneider Hoover, gerade eben 100 Jahre alt geworden, erhielt 1971 eines der ersten Softwarepatente überhaupt. Über eine bemerkenswerte Frau. Ein Porträt von Elke Wittich ( Wissen , Softwarepaten…",
+      "summary": "Fast jeder Entwickler profitiert von ihrer Idee, fast niemand kennt ihren Namen: über die Erfinderin, die eins der ersten Softwarepatente erhielt. Ein Porträt von Elke Wittich ( Wissen , Softwarepaten…",
       "source": "golem",
       "pubDate": "2026-06-20T05:30:01+00:00"
     },
@@ -174,9 +202,9 @@
       "pubDate": "2026-06-20T04:30:00+00:00"
     },
     {
-      "title": "Top 5: Die beste Eiswürfelmaschine im Test – Eiswürfel in unter 10 Minuten",
+      "title": "Top 5: Die beste Eiswürfelmaschine im Test",
       "link": "https://www.heise.de/bestenlisten/testsieger/top-5-die-beste-eiswuerfelmaschine-im-test-eiswuerfel-in-unter-10-minuten/k088ehe?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Eiswürfelmaschinen versprechen gekühlte Getränke in wenigen Minuten – jederzeit, ohne Vorbereitung. Wir zeigen die besten Eiswürfelbereiter aus unseren Tests.",
+      "summary": "Eiswürfelmaschinen versprechen gekühlte Getränke in wenigen Minuten und jederzeit. Wir zeigen die besten Eiswürfelbereiter.",
       "source": "heise",
       "pubDate": "2026-06-19T18:00:00+00:00"
     },
@@ -244,20 +272,6 @@
       "pubDate": "2026-06-19T14:58:01+00:00"
     },
     {
-      "title": "400-Milliarden-Parameter-Modell: Konsortium „Europa“ gewinnt KI-Wettbewerb",
-      "link": "https://www.heise.de/news/400-Milliarden-Parameter-Modell-Konsortium-Europa-gewinnt-KI-Wettbewerb-11339003.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die EU-Kommission kürt ein Konsortium um die italienische Firma Domyn zum Sieger der „Frontier AI Grand Challenge“, um ein europäisches KI-Modell zu trainieren.",
-      "source": "heise",
-      "pubDate": "2026-06-19T14:39:00+00:00"
-    },
-    {
-      "title": "Gematik: Gesellschafter beschließen Umbau der Gesundheitsdateninfrastruktur",
-      "link": "https://www.heise.de/news/Gematik-Gesellschafter-beschliessen-Umbau-der-Gesundheitsdateninfrastruktur-11338851.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die Gematik soll mit mehr Befugnissen die Stabilität von E-Rezept und Co. verbessern. Krankenkassen und IT-Branche warnen vor Machtverschiebung.",
-      "source": "heise",
-      "pubDate": "2026-06-19T14:28:00+00:00"
-    },
-    {
       "title": "Technik der Enterprise: Was die Stationen auf Picards Brücke tun",
       "link": "https://www.golem.de/news/technik-der-enterprise-was-die-stationen-auf-picards-bruecke-tun-2606-209945.html",
       "summary": "Taktik, Conn, Ops und fünf Konsolen im Hintergrund: Jede Station auf der Enterprise-D hat eine klare Aufgabe. ( Star Trek , Science-Fiction )",
@@ -265,25 +279,11 @@
       "pubDate": "2026-06-19T14:25:02+00:00"
     },
     {
-      "title": "AMD und Intel spezifizieren KI-Befehlssatz „ACE“ für x86-Prozessorkerne",
-      "link": "https://www.heise.de/news/AMD-und-Intel-spezifizieren-KI-Befehlssatz-ACE-fuer-x86-Prozessorkerne-11338878.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "CPU-Kerne künftiger x86-Prozessoren von AMD und Intel haben zusätzliche Rechenwerke unter anderem für Matrix-Multiplikationen, die AI Compute Extensions (ACE).",
-      "source": "heise",
-      "pubDate": "2026-06-19T14:20:00+00:00"
-    },
-    {
       "title": "Finnland: Drohnenboot übernimmt erstmals EU-Grenzüberwachung",
       "link": "https://www.golem.de/news/eu-grenzueberwachung-finnland-setzt-als-erstes-eu-land-autonomes-ueberwachungsboot-ein-2606-209980.html",
       "summary": "Das von Frontex unterstützte Projekt richtet sich gegen die russische Schattenflotte und zeigt, wie schnell automatisierte Grenzüberwachung in der EU voranschreitet. Ein Bericht von Matthias Monroy ( …",
       "source": "golem",
       "pubDate": "2026-06-19T14:16:02+00:00"
-    },
-    {
-      "title": "Anzeige: Ugreen Powerbank mit 20.000 mAh zum frühen Prime-Day-Tiefstpreis nur rund 24 Euro",
-      "link": "https://www.golem.de/news/anzeige-ugreen-powerbank-mit-20-000-mah-zum-fruehen-prime-day-tiefstpreis-nur-rund-24-euro-2606-209982.html",
-      "summary": "Die Powerbank bietet 20.000 mAh Kapazität, 45 W Schnellladen und lädt drei Geräte gleichzeitig. Als früher Prime-Day-Deal besonders günstig. ( Technik/Hardware , Smartphone )",
-      "source": "golem",
-      "pubDate": "2026-06-19T14:02:02+00:00"
     }
   ]
 }
