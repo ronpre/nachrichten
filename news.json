@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T09:02:28.095056+00:00",
+  "updatedAt": "2026-06-22T09:54:11.110196+00:00",
   "wirtschaft": [
     {
       "title": "Baukonzern jetzt im Dax : Hochtief-Aktien rücken in die Spitzenliga",
@@ -25,8 +25,8 @@
   ],
   "politik": [
     {
-      "title": "\"Paket unausgewogen\": Dröge kritisiert Renten-Vorschläge, geht aber in einem Punkt mit",
-      "link": "https://www.n-tv.de/politik/Droege-kritisiert-Renten-Vorschlaege-geht-aber-in-einem-Punkt-mit-id30995717.html",
+      "title": "\"Paket unausgewogen\": Dröge kritisiert Renten-Vorschläge, geht aber in wichtigem Punkt mit",
+      "link": "https://www.n-tv.de/politik/Droege-kritisiert-Renten-Vorschlaege-geht-aber-in-wichtigem-Punkt-mit-id30995717.html",
       "summary": "Grünen-Fraktionschefin Dröge warnt bei einer Kopplung des Renteneintrittsalters an die Lebenserwartung vor stärkerer Ungleichheit und Rentenkürzungen - und zweifelt an einer Umsetzung der Maßnahmen oh…",
       "source": "n-tv",
       "pubDate": "2026-06-22T08:48:28+00:00"
@@ -34,7 +34,7 @@
     {
       "title": "Weg frei für Andy Burnham: Keir Starmer kündigt Rücktritt als Premier und Labour-Chef an",
       "link": "https://www.n-tv.de/politik/Keir-Starmer-kuendigt-Ruecktritt-als-Premier-und-Labour-Chef-an-id30995674.html",
-      "summary": "Der britische Premierminister beugt sich dem seit Monaten steigenden Druck aus seiner eigenen Partei. Am Morgen erklärt er dem König seinen Rückzug. Nun soll ein Zeitplan folgen.",
+      "summary": "Der britische Premierminister beugt sich dem seit Monaten steigenden Druck aus seiner eigenen Partei. Am Morgen erklärt er dem König seinen Rückzug, danach in aller Öffentlichkeit. Starmer blieb kaum …",
       "source": "n-tv",
       "pubDate": "2026-06-22T08:36:18+00:00"
     },
@@ -89,7 +89,7 @@
     },
     {
       "title": "\"Das ist geschichtsvergessen\": Günther fordert nach Faschismus-Vergleich Rücktritt des Linken-Chefs",
-      "link": "https://www.n-tv.de/politik/Nach-Faschismus-Vergleich-Guenther-fordert-Ruecktritt-des-Linken-Chefs-id30994476.html",
+      "link": "https://www.n-tv.de/politik/Guenther-fordert-Ruecktritt-des-Linken-Chefs-id30994476.html",
       "summary": "Der neue Linken-Co-Chef Luigi Pantisano sieht \"keinen Unterschied zwischen der CDU, die faschistische Politik macht, der AfD oder den Faschisten selbst\". Mit dieser Aussage disqualifiziere er sich für…",
       "source": "n-tv",
       "pubDate": "2026-06-21T22:23:54+00:00"
@@ -97,9 +97,44 @@
   ],
   "it": [
     {
+      "title": "Squidbleed: 29 Jahre alte Lücke in populärer Proxy-Software entdeckt",
+      "link": "https://www.golem.de/news/squidbleed-29-jahre-alte-luecke-in-populaerer-proxy-software-entdeckt-2606-210022.html",
+      "summary": "Seit 1997 klafft in der Proxy-Software Squid eine Lücke, mit der sich HTTP-Traffic abgreifen lässt. Drei Jahrzehnte später hat eine KI sie gefunden. ( Sicherheitslücke , KI )",
+      "source": "golem",
+      "pubDate": "2026-06-22T09:48:02+00:00"
+    },
+    {
+      "title": "Nachrüstung für Apples Time Capsule: Open-Source-Projekt hält SMB am Leben",
+      "link": "https://www.heise.de/news/Nachruestung-fuer-Apples-Time-Capsule-Open-Source-Projekt-haelt-SMB-am-Leben-11339611.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Mit macOS 27 dreht Apple endgültig den Time-Capsule-Support für den Mac ab. Entwickler James Chang hat auf GitHub einen kleinen Hack dagegen publiziert.",
+      "source": "heise",
+      "pubDate": "2026-06-22T09:45:00+00:00"
+    },
+    {
+      "title": "PC-Gaming: Epic Games Store rüstet gegen Steam auf",
+      "link": "https://www.golem.de/news/pc-gaming-epic-games-store-ruestet-gegen-steam-auf-2606-210019.html",
+      "summary": "Profile, Nutzerbewertungen und ein neuer Launcher: So will Epic Games seinen Store attraktiver machen und den Abstand zu Steam verkleinern. ( Epic Games Store , Steam )",
+      "source": "golem",
+      "pubDate": "2026-06-22T09:35:02+00:00"
+    },
+    {
+      "title": "Megapod: Tesla will vollintegrierte KI-Server verkaufen",
+      "link": "https://www.golem.de/news/megapod-tesla-will-vollintegrierte-ki-server-verkaufen-2606-210020.html",
+      "summary": "Bislang existieren nur eine Wortmarke und ein Konzept. Ob die Hardware in Rechenzentren oder neben Superchargern stehen soll, ist offen. ( KI , Server )",
+      "source": "golem",
+      "pubDate": "2026-06-22T09:22:02+00:00"
+    },
+    {
+      "title": "Niederlande: Eisen-Luft-Speicher für 1 GWh geplant",
+      "link": "https://www.golem.de/news/niederlande-eisen-luft-speicher-fuer-1-gwh-geplant-2606-210023.html",
+      "summary": "Der niederländische Stromversorger Budget Thuis will bis zu 100 Stunden lang Windstrom mit dem neuartigen Akku zwischenspeichern. ( Akku , Energiewende )",
+      "source": "golem",
+      "pubDate": "2026-06-22T09:09:01+00:00"
+    },
+    {
       "title": "Anzeige: 4-in-1-Ladegerät mit 140 Watt und Display als früher Prime-Deal rund 70 Euro bei Amazon",
       "link": "https://www.golem.de/news/anzeige-4-in-1-ladegeraet-mit-140-watt-und-display-als-frueher-prime-deal-rund-70-euro-bei-amazon-2606-210016.html",
-      "summary": "Das Anker&#8209;140W&#8209;GaN-Ladegerät lädt vier Geräte gleichzeitig und zeigt den Ladestatus und die Temperatur per Display an. ( Technik/Hardware , iPhone )",
+      "summary": "Das Anker-140W-GaN-Ladegerät lädt vier Geräte gleichzeitig und zeigt den Ladestatus und die Temperatur per Display an. ( Technik/Hardware , iPhone )",
       "source": "golem",
       "pubDate": "2026-06-22T08:53:02+00:00"
     },
@@ -200,41 +235,6 @@
       "summary": "Prime-Mitglieder können sich bereits vor dem Amazon Prime Day zwei Echo Dots mit Alexa sichern und zahlen dabei effektiv nur einen. ( Amazon Alexa , Heimkino )",
       "source": "golem",
       "pubDate": "2026-06-22T07:08:01+00:00"
-    },
-    {
-      "title": "libssh2: Teils kritische Lücken in populärer SSH-Bibliothek",
-      "link": "https://www.golem.de/news/libssh2-teils-kritische-luecken-in-populaerer-ssh-bibliothek-2606-210011.html",
-      "summary": "Angreifer können durch zwei Lücken in libssh2 Schadcode einschleusen oder SSH-Clients stören. Code-Patches gibt es, aber noch kein neues Release. ( Sicherheitslücke , Server )",
-      "source": "golem",
-      "pubDate": "2026-06-22T07:00:01+00:00"
-    },
-    {
-      "title": "heise+ | Himmelswächter mit PiCam und Raspi4 zur Astrobeobachtung bauen",
-      "link": "https://www.heise.de/ratgeber/Himmelswaechter-mit-PiCam-und-Raspi4-zur-Astrobeobachtung-bauen-11306515.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Mit Raspberry Pi, HQ-Kamera, Powerbank und Open-Source-Software entsteht mit wenig Aufwand ein erstaunlich leistungsfähiger Himmelswächter. Ein Einstieg.",
-      "source": "heise",
-      "pubDate": "2026-06-22T07:00:00+00:00"
-    },
-    {
-      "title": "General Atomics und Anduril: USA wollen 1.000 autonome Kampfflugzeuge bauen",
-      "link": "https://www.golem.de/news/general-atomics-und-anduril-usa-wollen-1-000-autonome-kampfflugzeuge-bauen-2606-210006.html",
-      "summary": "General Atomics und Anduril sind mit der Serienproduktion unbemannter Kampfflugzeuge beauftragt worden. Langfristig sind rund 1.000 Einheiten geplant. ( Drohne , Politik )",
-      "source": "golem",
-      "pubDate": "2026-06-22T06:40:00+00:00"
-    },
-    {
-      "title": "Ungewöhnliches Kühlprojekt: Youtuber kühlt RTX 3060 per Eismaschine",
-      "link": "https://www.golem.de/news/ungewoehnliches-kuehlprojekt-youtuber-kuehlt-rtx-3060-per-eismaschine-2606-210009.html",
-      "summary": "Ein Bastler baut eine Eiswürfelmaschine zu einer Wasserkühlung für Grafikkarten um und senkt die Chiptemperatur massiv. ( Grafikkarten , Nvidia )",
-      "source": "golem",
-      "pubDate": "2026-06-22T06:31:01+00:00"
-    },
-    {
-      "title": "Burewestnik SSC-X-9 Skyfall: Russlands radioaktiver Marschflugkörper",
-      "link": "https://www.golem.de/news/burewestnik-ssc-x-9-skyfall-russlands-radioaktiver-marschflugkoerper-2606-210005.html",
-      "summary": "Forscher haben Russlands Atomantrieb-Marschflugkörper Burewestnik analysiert: Das Triebwerk verstreut radioaktives Material. ( Militär , Politik )",
-      "source": "golem",
-      "pubDate": "2026-06-22T06:18:01+00:00"
     }
   ]
 }
