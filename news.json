@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T10:05:22.607087+00:00",
+  "updatedAt": "2026-06-24T11:07:40.666390+00:00",
   "wirtschaft": [
     {
       "title": "Nach deutschem Einstieg: Panzerbauer KNDS gibt Startschuss für Börsengang",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Ausnahmen für unter 13-Jährige: Familienministerin Prien will gesetzliche Altersgrenze bei Social Media",
+      "link": "https://www.n-tv.de/politik/Familienministerin-Prien-will-gesetzliche-Altersgrenze-bei-Social-Media-id31006921.html",
+      "summary": "Pornografie, Hass, Mobbing - oder überlange Nutzungszeiten: Familienministerin Prien will Kinder auf Social Media besser schützen. Ihre Expertenkommission macht zwei Vorschläge beim Thema Altersgrenze…",
+      "source": "n-tv",
+      "pubDate": "2026-06-24T10:24:43+00:00"
+    },
+    {
       "title": "Verweis auf Rahmenabkommen: IAEA-Chef: Werden Irans Atomanlagen inspizieren",
       "link": "https://www.n-tv.de/politik/IAEA-Chef-Werden-Irans-Atomanlagen-inspizieren-id31006170.html",
       "summary": "Der Iran verfügt laut IAEA über rund 440 Kilogramm an hoch angereichertem Uran. Jetzt betont der Chef der Behörde: Inspektionen werden kommen. Er erinnert an das Rahmenabkommen, wonach das Uran unter …",
@@ -83,7 +90,7 @@
     {
       "title": "Ersatz für Rente mit 63: Die Gesundheit soll \"das ausschlaggebendere Kriterium\" sein",
       "link": "https://www.n-tv.de/politik/Die-Gesundheit-soll-das-ausschlaggebendere-Kriterium-sein-id31006364.html",
-      "summary": "Im ntv-Frühstart verteidigt SPD-Politikerin Annika Klose, Mitglied in der Rentenkommission, das Aus für die Rente mit 63 - trotz eigener Bedenken. Sie setzt auf eine neue \"Schutzrente\", die hier Ersat…",
+      "summary": "Im ntv Frühstart verteidigt SPD-Politikerin Annika Klose, Mitglied in der Rentenkommission, das Aus für die Rente mit 63 - trotz eigener Bedenken. Sie setzt auf eine neue \"Schutzrente\", die hier Ersat…",
       "source": "n-tv",
       "pubDate": "2026-06-24T09:24:58+00:00"
     },
@@ -135,22 +142,92 @@
       "summary": "Die Kämpfe im Iran sind bis auf Weiteres beendet, das Thema beschäftigt Washington aber weiterhin. Bei einer Abstimmung im Senat stellt sich eine Mehrheit gegen Trumps Krieg im Nahen Osten. Auch einig…",
       "source": "n-tv",
       "pubDate": "2026-06-24T02:22:33+00:00"
-    },
-    {
-      "title": "Furcht vor Zugeständnissen: Rubio: USA werden keine Gebühren für Straße von Hormus akzeptieren",
-      "link": "https://www.n-tv.de/politik/Rubio-USA-werden-keine-Gebuehren-fuer-Strasse-von-Hormus-akzeptieren-id31004097.html",
-      "summary": "Während des Iran-Krieges werden mehrere Golfstaaten zum Ziel der Vergeltungsangriffe Teherans. Nun wirbt US-Außenminister Rubio in der Region für das umstrittene Iran-Abkommen. Trumps Minister macht z…",
-      "source": "n-tv",
-      "pubDate": "2026-06-23T20:21:51+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Siri AI: Was in der Beta geht und was noch nicht",
+      "link": "https://www.heise.de/news/Siri-AI-Was-in-der-Beta-geht-und-was-noch-nicht-11341222.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Apple stellt Entwicklern Betaversionen seiner neuen Systeme bereit. Wer die Siri-AI-Warteschleife genommen hat, kann aber noch immer nicht alle Features testen.",
+      "source": "heise",
+      "pubDate": "2026-06-24T10:54:00+00:00"
+    },
+    {
+      "title": "Speicherriesen priorisieren offenbar wieder DDR5-DRAM",
+      "link": "https://www.heise.de/news/Speicherriesen-priorisieren-offenbar-wieder-DDR5-DRAM-11342882.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Nach Samsung soll auch SK Hynix wieder mehr DDR5-Arbeitsspeicher herstellen. Die Marge soll irrsinnig hoch sein.",
+      "source": "heise",
+      "pubDate": "2026-06-24T10:50:00+00:00"
+    },
+    {
+      "title": "Minimus stellt tausende CVE-freie Container-Images kostenlos bereit",
+      "link": "https://www.heise.de/news/Minimus-oeffnet-Katalog-gehaerteter-Container-Images-fuer-alle-Entwickler-11342569.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Entwickler erhalten uneingeschränkten Zugriff auf tausende nahezu CVE-freie Images aus dem Minimus-Katalog distroloser, gehärteter Container-Images.",
+      "source": "heise",
+      "pubDate": "2026-06-24T10:46:00+00:00"
+    },
+    {
+      "title": "Intersolar 2026: Klimaneutralität technisch machbar, politisch nicht auf Kurs",
+      "link": "https://www.heise.de/news/Intersolar-2026-Klimaneutralitaet-technisch-machbar-politisch-nicht-auf-Kurs-11342808.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Eine Studie zur Intersolar 2026 skizziert den Umbau des Energiesystems hin zu Wind, PV, Speicher und Wasserstoff. Sie mahnt zudem den politischen Rückstand an.",
+      "source": "heise",
+      "pubDate": "2026-06-24T10:31:00+00:00"
+    },
+    {
+      "title": "Serverless mit Pausenfunktion: AWS stellt Lambda MicroVMs vor",
+      "link": "https://www.heise.de/news/Serverless-mit-Pausenfunktion-AWS-stellt-Lambda-MicroVMs-vor-11342792.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "AWS führt Lambda MicroVMs ein, die VM-Isolation mit schnellen Startzeiten und Zustandserhaltung für serverlose Workloads verbinden.",
+      "source": "heise",
+      "pubDate": "2026-06-24T10:23:00+00:00"
+    },
+    {
+      "title": "Kommentar zur Fußball-WM: Schnelle Bilder, dafür zahle ich Rundfunkgebühren",
+      "link": "https://www.heise.de/meinung/Kommentar-zur-Fussball-WM-Schnelle-Bilder-dafuer-zahle-ich-Rundfunkgebuehren-11342651.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Wenn ich die WM schaue, freue ich mich vor allem über geringe Latenzen. Und die bekomme ich linear und im freien Stream bei ARD und ZDF, meint Ulrike Kuhlmann.",
+      "source": "heise",
+      "pubDate": "2026-06-24T10:23:00+00:00"
+    },
+    {
+      "title": "Anzeige: Im Kampf gegen die Hitzewelle: Dimplex Akkuventilator jetzt nur 130 Euro zum ...",
+      "link": "https://www.golem.de/news/anzeige-im-kampf-gegen-die-hitzewelle-dimplex-akkuventilator-jetzt-nur-130-euro-zum-prime-day-bestpreis-2606-210125.html",
+      "summary": "Der Akkuventilator kühlt kabellos bis zu 45 Stunden und lässt sich per App und Alexa steuern. Am Prime Day gibt es ihn zum neuen Bestpreis. ( Prime Day , Wasserkühlung )",
+      "source": "golem",
+      "pubDate": "2026-06-24T10:22:05+00:00"
+    },
+    {
+      "title": "EU-Vorhaben: Autohersteller warnen vor steigenden Kosten ohne US-Technologie",
+      "link": "https://www.golem.de/news/eu-vorhaben-autohersteller-warnen-vor-steigenden-kosten-ohne-us-technologie-2606-210127.html",
+      "summary": "Die EU will sich stärker von US-Technologien emanzipieren. Europäische Autohersteller warnen vor den Auswirkungen - vor allem den Kosten. ( Auto , KI )",
+      "source": "golem",
+      "pubDate": "2026-06-24T10:20:02+00:00"
+    },
+    {
+      "title": "GameStop-CEO streicht Vergütungspaket für sich selbst",
+      "link": "https://www.heise.de/news/GameStop-CEO-verzichtet-auf-Bonuszahlung-11342766.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Mit Blick auf die geplante Übernahme von eBay will CEO Ryan Cohen die Zusatzzahlung von bis zu 35 Milliarden Euro in Anspruch nehmen.",
+      "source": "heise",
+      "pubDate": "2026-06-24T10:19:00+00:00"
+    },
+    {
+      "title": "Anzeige: Starkes Multitool jetzt zum Prime-Day-Preis sichern",
+      "link": "https://www.golem.de/news/anzeige-starkes-multitool-jetzt-zum-prime-day-preis-sichern-2606-210124.html",
+      "summary": "Bei Amazon gibt es derzeit ein 12-in-1-Multitool zum Prime-Day-Preis. Es ist auf unter 15 Euro reduziert. ( Technik/Hardware , Amazon )",
+      "source": "golem",
+      "pubDate": "2026-06-24T10:05:02+00:00"
+    },
     {
       "title": "Typische Steuerirrtümer: Die Steuererklärung lohnt sich nicht? Stimmt nicht!",
       "link": "https://www.golem.de/news/typische-steuerirrtuemer-die-steuererklaerung-lohnt-sich-nicht-stimmt-nicht-2606-210112.html",
       "summary": "Vielen ist die Steuererklärung zu kompliziert oder aufwendig. Eine Steuerexpertin räumt mit gängigen Mythen auf und gibt Tipps. Ein Ratgebertext von Ulrike Barth ( Wirtschaft , Fintech )",
       "source": "golem",
       "pubDate": "2026-06-24T10:00:02+00:00"
+    },
+    {
+      "title": "heise+ | Vom Umgang mit Sicherheitslücken im Linux-Kernel",
+      "link": "https://www.heise.de/hintergrund/Vom-Umgang-mit-Sicherheitsluecken-im-Linux-Kernel-11293828.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Sicherheitslücke im Kernel gefixt, von den Distributionen aber nicht bemerkt: Der Fall „Copy Fail“ zeigt, was in der Kommunikation der Entwickler schiefläuft.",
+      "source": "heise",
+      "pubDate": "2026-06-24T10:00:00+00:00"
     },
     {
       "title": "Anzeige: Smarter Mini-Beamer mit Akku zum Aktionspreis am Prime Day",
@@ -195,13 +272,6 @@
       "pubDate": "2026-06-24T09:23:01+00:00"
     },
     {
-      "title": "heise+ | Reparieren statt wegwerfen: Das neue EU-Recht auf Reparatur",
-      "link": "https://www.heise.de/hintergrund/Reparieren-statt-wegwerfen-Das-neue-EU-Recht-auf-Reparatur-11332927.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Die EU-Richtlinie zum Recht auf Reparatur verlangt viel von Herstellern und der deutsche Gesetzgeber hat bis zum Inkrafttreten noch Hausaufgaben zu erledigen.",
-      "source": "heise",
-      "pubDate": "2026-06-24T09:15:00+00:00"
-    },
-    {
       "title": "Hitzewelle: Portasplit-Klimageräte in Deutschland nahezu vergriffen",
       "link": "https://www.golem.de/news/hitzewelle-portasplit-klimageraete-in-deutschland-nahezu-vergriffen-2606-210119.html",
       "summary": "Die erste starke Hitzewelle des Jahres 2026 trifft Deutschland. Wer jetzt noch ein Midea Portasplit kaufen will, stößt fast überall auf leere Regale. ( Technik/Hardware )",
@@ -209,81 +279,11 @@
       "pubDate": "2026-06-24T09:08:01+00:00"
     },
     {
-      "title": "Neue Hardware: Diese Produkte stehen bei Apple in diesem Jahr noch aus",
-      "link": "https://www.heise.de/news/Neue-Hardware-Diese-Produkte-stehen-bei-Apple-in-diesem-Jahr-noch-aus-11332781.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Wie oft gab es auf Apples Entwicklerkonferenz WWDC in diesem Monat keine neue Hardware zu sehen. Die Pipeline für Herbst und Winter ist dennoch gut gefüllt.",
-      "source": "heise",
-      "pubDate": "2026-06-24T09:00:00+00:00"
-    },
-    {
-      "title": "Claude mischt sich ein: Der neue proaktive KI-Kollege für Slack",
-      "link": "https://www.heise.de/news/Delegieren-statt-chatten-Claude-Tag-uebernimmt-in-Slack-die-Arbeit-11342617.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Mit Claude Tag macht Anthropic sein KI-Modell zum aktiven Teamkollegen in Slack. Er lernt aus dem Kanalverlauf und erledigt Aufgaben selbstständig.",
-      "source": "heise",
-      "pubDate": "2026-06-24T08:59:00+00:00"
-    },
-    {
       "title": "Meta Glasses: KI-Brille bekommt neue Designeroptik und wird günstiger",
       "link": "https://www.golem.de/news/meta-glasses-ki-brille-bekommt-neue-designeroptik-und-wird-guenstiger-2606-210116.html",
       "summary": "Meta und Essilor Luxottica bringen eine neue KI-Brille auf den Markt - in 26 Varianten und mit Kylie Jenner als Designpartnerin. ( Meta , Technik/Hardware )",
       "source": "golem",
       "pubDate": "2026-06-24T08:55:02+00:00"
-    },
-    {
-      "title": "Sicherheitslücke: Millionen von Samsung-Smartphones durch Kernel-Bug gefährdet",
-      "link": "https://www.golem.de/news/sicherheitsluecke-acht-jahre-alter-kernel-bug-gefaehrdet-samsung-smartphones-2606-210117.html",
-      "summary": "Forscher haben einen gefährlichen Bug im Android-Kernel von Samsung entdeckt, der unzählige Smartphones zwischen Galaxy S9 und S25 betrifft. ( Sicherheitslücke , Smartphone )",
-      "source": "golem",
-      "pubDate": "2026-06-24T08:44:01+00:00"
-    },
-    {
-      "title": "BSI warnt vor Auswirkungen von KI auf Cybersicherheit",
-      "link": "https://www.heise.de/news/BSI-warnt-vor-Auswirkungen-von-KI-auf-Cybersicherheit-11342418.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das BSI hat sich mit den Auswirkungen der massiven Verbreitung von Künstlicher Intelligenz auf die IT-Sicherheit auseinandergesetzt.",
-      "source": "heise",
-      "pubDate": "2026-06-24T08:43:00+00:00"
-    },
-    {
-      "title": "Lange Vorgeschichte: Wikipedia-Mitgründer auf der Online-Enzyklopädie gesperrt",
-      "link": "https://www.heise.de/news/Lange-Vorgeschichte-Wikipedia-Mitgruender-auf-der-Online-Enzyklopaedie-gesperrt-11342498.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Kurz nach der Gründung der Wikipedia haben sich die beiden Gründer überworfen. Jetzt wurde Larry Sanger wegen des Verstoßes gegen Regeln der Community gesperrt.",
-      "source": "heise",
-      "pubDate": "2026-06-24T08:37:00+00:00"
-    },
-    {
-      "title": "heise+ | Modellraketen entwerfen und simulieren mit OpenRocket",
-      "link": "https://www.heise.de/hintergrund/Modellraketen-entwerfen-und-simulieren-mit-OpenRocket-11334117.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Computersimulationen sparen in der Raketenentwicklung Zeit und Geld. Mit OpenRocket können auch Sie zu Hause Raketen modellieren.",
-      "source": "heise",
-      "pubDate": "2026-06-24T08:30:00+00:00"
-    },
-    {
-      "title": "Softwarebranche muss Geschäftsmodelle umbauen",
-      "link": "https://www.heise.de/news/Softwarebranche-muss-Geschaeftsmodelle-umbauen-11342506.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Der Bitkom prognostiziert einen tiefgreifenden Umbau der Softwarebranche. KI-Agenten verschieben den Fokus von Arbeitszeit zu messbaren Ergebnissen.",
-      "source": "heise",
-      "pubDate": "2026-06-24T08:20:00+00:00"
-    },
-    {
-      "title": "Deutsche Tochterfirma: Waymo landet in München",
-      "link": "https://www.golem.de/news/deutsche-tochterfirma-waymo-landet-in-muenchen-2606-210115.html",
-      "summary": "Die Waymo Germany GmbH steht seit Mitte Juni im Handelsregister. Jobausschreibungen und eine mögliche Partnerschaft deuten auf einen baldigen Start hin. ( Waymo , Auto )",
-      "source": "golem",
-      "pubDate": "2026-06-24T08:08:02+00:00"
-    },
-    {
-      "title": "Zweite Entwicklerbeta von iOS 27 und macOS 27: Das ist neu",
-      "link": "https://www.heise.de/news/Zweite-Entwicklerbeta-von-iOS-27-und-macOS-27-Das-ist-neu-11341442.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Apple legt zwei Wochen nach den ersten Vorabversionen neue Entwicklerbetas seiner frischen Betriebssysteme vor. Es gibt einige Optimierungen.",
-      "source": "heise",
-      "pubDate": "2026-06-24T08:08:00+00:00"
-    },
-    {
-      "title": "Peaq: Skodas größtes E-Auto ist bestellbar",
-      "link": "https://www.golem.de/news/peaq-skodas-groesstes-e-auto-ist-bestellbar-2606-210104.html",
-      "summary": "Der Peaq ist da: Skodas neues Elektro-Vorzeigemodell mit sieben Sitzplätzen und bis zu 642 Kilometern Reichweite steht ab sofort im Konfigurator. ( Skoda , Elektroauto )",
-      "source": "golem",
-      "pubDate": "2026-06-24T07:59:02+00:00"
     }
   ]
 }
