@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T11:07:17.027269+00:00",
+  "updatedAt": "2026-06-26T11:53:21.986257+00:00",
   "wirtschaft": [
     {
       "title": "Pläne werden so nicht kommen: Massiver Jobabbau bei VW: \"Die Zahl soll Angst machen\"",
@@ -16,7 +16,7 @@
       "pubDate": "2026-06-26T09:33:28+00:00"
     },
     {
-      "title": "Gesamtkosten steigen deutlich: Bahnprojekt Stuttgart 21 wird noch mal mehrere Milliarden teurer",
+      "title": "Eröffnung offiziell verschoben: Bahnprojekt Stuttgart 21 wird noch mal mehrere Milliarden teurer",
       "link": "https://www.n-tv.de/wirtschaft/Bahnprojekt-Stuttgart-21-wird-noch-mal-mehrere-Milliarden-teurer-id31016912.html",
       "summary": "Die Inbetriebnahme des Tiefbahnhofs Stuttgart 21 verzögert sich, die Kosten für das Projekt steigen weiter. Mit rund drei Milliarden Euro zusätzlich ist zu rechnen. Für die Deutsche Bahn ist das ein f…",
       "source": "n-tv",
@@ -73,6 +73,13 @@
     }
   ],
   "politik": [
+    {
+      "title": "Nach ukrainischen Angriffen: Besatzungschef verhängt Ausnahmezustand auf der Krim",
+      "link": "https://www.n-tv.de/politik/Besatzungschef-verhaengt-Ausnahmezustand-auf-der-Krim-id31017679.html",
+      "summary": "Die ukrainischen Luftangriffe zeigen auf der von Russland annektierten Krim Wirkung. Die Besatzungsbehörden auf der Halbinsel rufen den Notstand aus. Bereits seit dem Wochenende gibt es auf der Krim k…",
+      "source": "n-tv",
+      "pubDate": "2026-06-26T11:41:44+00:00"
+    },
     {
       "title": "\"Letzte Verteidigungswelle\": Bundesanwaltschaft nimmt zwei Rechtsextremisten fest",
       "link": "https://www.n-tv.de/politik/Bundesanwaltschaft-nimmt-zwei-Rechtsextremisten-fest-id31017289.html",
@@ -135,20 +142,48 @@
       "summary": "Der neugewählte Linken-Vorsitzende verärgert die Union mit seinen Faschismus-Gleichsetzungen nachhaltig. CDU-Generalsekretär Linnemann, der CSU-Politiker Mayer und Kulturstaatsminister Weimer sehen wi…",
       "source": "n-tv",
       "pubDate": "2026-06-26T01:43:18+00:00"
-    },
-    {
-      "title": "Vätermonate müssen gleichziehen: Prien plant Verschärfung beim Elterngeld",
-      "link": "https://www.n-tv.de/politik/Prien-plant-Verschaerfung-beim-Elterngeld-id31014812.html",
-      "summary": "Um die Sparauflagen des Finanzministers zu erreichen, spart Familienministerin Prien beim Elterngeld. Die CDU-Politikerin schlägt allerdings keine reine Kürzung vor, sondern härtere Auflagen. Nur wenn…",
-      "source": "n-tv",
-      "pubDate": "2026-06-25T22:08:57+00:00"
     }
   ],
   "it": [
     {
+      "title": "(g+) Autonome Agenten: Das Betriebssystem der nächsten Internetgeneration",
+      "link": "https://www.golem.de/news/autonome-agenten-das-betriebssystem-der-naechsten-internetgeneration-2606-210189.html",
+      "summary": "Autonome Agenten koordinieren Prozesse, verwalten Ressourcen, organisieren digitale Interaktionen und treffen Entscheidungen im Hintergrund. Ein Ratgebertext von Otto Geißler ( KI , API )",
+      "source": "golem",
+      "pubDate": "2026-06-26T11:30:02+00:00"
+    },
+    {
+      "title": "heise+ | Marktübersicht: E-Book-Reader von 6 bis 10 Zoll im Vergleich",
+      "link": "https://www.heise.de/tests/Marktuebersicht-E-Book-Reader-von-6-bis-10-Zoll-im-Vergleich-11284268.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "E-Reader gibt es in vielen Größen und Preisklassen. Wir zeigen, worauf es beim Kauf ankommt und welches Modell Ihre Anforderungen erfüllt.",
+      "source": "heise",
+      "pubDate": "2026-06-26T11:30:00+00:00"
+    },
+    {
+      "title": "Bundestag beschließt Recht auf Reparatur von Elektrogeräten",
+      "link": "https://www.heise.de/news/Bundestag-beschliesst-Recht-auf-Reparatur-von-Elektrogeraeten-11346119.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der Bundestag hat die Umsetzung einer EU-Richtlinie beschlossen, die Hersteller zur Reparatur von Elektrogeräten verpflichtet und Verbraucher belohnt.",
+      "source": "heise",
+      "pubDate": "2026-06-26T11:26:00+00:00"
+    },
+    {
+      "title": "Im Test: Elixirs 1.20 neues intelligentes Typsystem",
+      "link": "https://www.heise.de/hintergrund/Im-Test-Elixirs-1-20-neues-intelligentes-Typsystem-11346139.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das Typsystem von Elixir 1.20 analysiert jedes Sprachkonstrukt, erkennt fehlerhafte Argumente und verfolgt sie auch.",
+      "source": "heise",
+      "pubDate": "2026-06-26T11:25:00+00:00"
+    },
+    {
+      "title": "Chrome-Erweiterung: Mögliche Backdoor in beliebtem Youtube-Adblocker entdeckt",
+      "link": "https://www.golem.de/news/chrome-erweiterung-moegliche-backdoor-in-beliebtem-youtube-adblocker-entdeckt-2606-210227.html",
+      "summary": "Mit mehr als zehn Millionen Installationen ist Adblock for Youtube eine der beliebtesten Chrome-Erweiterungen. Doch sie birgt erhebliche Gefahren. ( AdBlocker , Browser )",
+      "source": "golem",
+      "pubDate": "2026-06-26T11:16:01+00:00"
+    },
+    {
       "title": "Anzeige: Anker Solix C2000 Powerstation mit bis zu 4000 Watt am Prime Day 100 Euro unter Bestpreis",
       "link": "https://www.golem.de/news/anzeige-anker-solix-c2000-powerstation-mit-bis-zu-4000-watt-am-prime-day-100-euro-unter-bestpreis-2606-210228.html",
-      "summary": "Strom für Camping oder Stromausfälle: Die Anker Solix C2000 Gen 2 lädt in 58 Minuten voll und liegt jetzt 100 Euro unter altem Bestpreis. ( Powerstation , Technik/Hardware )",
+      "summary": "Strom für Camping oder Stromausfälle: Die Anker Solix C2000 Gen 2 lädt in 58 Minuten voll und liegt jetzt 100 Euro unter dem alten Bestpreis. ( Powerstation , Technik/Hardware )",
       "source": "golem",
       "pubDate": "2026-06-26T11:06:01+00:00"
     },
@@ -230,32 +265,11 @@
       "pubDate": "2026-06-26T09:43:00+00:00"
     },
     {
-      "title": "Notion Mail wird abgeschaltet: Was Nutzer jetzt tun müssen",
-      "link": "https://www.heise.de/news/Notion-Mail-wird-abgeschaltet-Was-Nutzer-jetzt-tun-muessen-11345780.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Notion stellt seinen E-Mail-Client Notion Mail am 22. September 2026 ein. Nutzer müssen bestimmte Daten bis dahin sichern.",
-      "source": "heise",
-      "pubDate": "2026-06-26T09:40:00+00:00"
-    },
-    {
       "title": "Über 80 Prozent Marge: Micron sichert hohe Speicherpreise auf fünf Jahre ab",
       "link": "https://www.golem.de/news/ueber-80-prozent-marge-micron-sichert-hohe-speicherpreise-auf-fuenf-jahre-ab-2606-210218.html",
       "summary": "Große Kunden verpflichten sich bis Ende 2030 zum Kauf von Speicher bei Micron. Verantwortung für die Knappheit sieht der Speicherhersteller etwa bei Apple. ( Quartalsbericht , Börse )",
       "source": "golem",
       "pubDate": "2026-06-26T09:34:01+00:00"
-    },
-    {
-      "title": "Indien: iPhone-Zulieferer mit Umweltproblemen und Datenabflüssen",
-      "link": "https://www.heise.de/news/Indien-iPhone-Zulieferer-mit-Umweltproblemen-und-Datenabfluessen-11343694.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Indien ist zweitwichtigster iPhone-Herstellungsstandort. Der Fertiger Tata Electronics ist nun gleich mehrfach in den Schlagzeilen.",
-      "source": "heise",
-      "pubDate": "2026-06-26T09:30:00+00:00"
-    },
-    {
-      "title": "Polymarket: Kriminelle sollen Kryptowerte in Millionenhöhe gestohlen haben",
-      "link": "https://www.heise.de/news/Polymarket-Kriminelle-entwenden-Kryptowerte-in-Millionenhoehe-11345764.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Bei Polymarket haben Angreifer über eingeschleusten Schadcode Geld von Nutzerkonten gestohlen. Das Wettportal will Betroffene entschädigen.",
-      "source": "heise",
-      "pubDate": "2026-06-26T09:17:00+00:00"
     },
     {
       "title": "Auch Werksschließungen: VW soll 100.000 Stellen abbauen wollen",
@@ -270,20 +284,6 @@
       "summary": "Die Fritz!Box 7530 AX mit WLAN Mesh und DECT-Basis ist bei Amazon jetzt noch kurzzeitig so günstig wie nie zu haben. ( Router , Netzwerk )",
       "source": "golem",
       "pubDate": "2026-06-26T08:55:02+00:00"
-    },
-    {
-      "title": "Laut Insidern: Der Apple M6 kommt wohl ohne Pro- und Max-Version aus",
-      "link": "https://www.golem.de/news/laut-insidern-der-apple-m6-kommt-wohl-ohne-pro-und-max-version-aus-2606-210217.html",
-      "summary": "Die verbesserten Versionen des M6-Chips für Macs wird es nicht geben. Dafür sollen Grafikleistung und Speicherbandbreite steigen. ( Apple Silicon , Apple )",
-      "source": "golem",
-      "pubDate": "2026-06-26T08:48:01+00:00"
-    },
-    {
-      "title": "Sport-Streaming: Schlag gegen milliardenfach genutzten illegalen Streamingdienst",
-      "link": "https://www.golem.de/news/sport-streaming-schlag-gegen-milliardenfach-genutzten-illegalen-streamingdienst-2606-210216.html",
-      "summary": "Ermittler haben 44 Domains eines Streamingdienstes namens PirloTV übernommen. Der kam zuletzt auf fast eine Milliarde Aufrufe pro Jahr. ( Streaming , IPTV )",
-      "source": "golem",
-      "pubDate": "2026-06-26T08:32:02+00:00"
     }
   ]
 }
