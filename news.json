@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T06:25:34.457625+00:00",
+  "updatedAt": "2026-06-26T07:29:51.684467+00:00",
   "wirtschaft": [
     {
       "title": "Inflationsdaten beruhigen: Apple vermiest US-Anlegern die Stimmung",
@@ -38,7 +38,7 @@
     },
     {
       "title": "Klagewelle abgewendet: Bayer gewinnt im Glyphosat-Streit vor US-Supreme-Court",
-      "link": "https://www.n-tv.de/wirtschaft/Bayer-gewinnt-im-Glyphosat-Streit-vor-US-Supreme-Court-id31013562.html",
+      "link": "https://www.n-tv.de/wirtschaft/Glyphosat-Streit-um-Krebswarnhinweise-Bayer-siegt-vor-US-Supreme-Court-id31013562.html",
       "summary": "Bayer erringt im milliardenschweren US-Rechtsstreit um mutmaßliche Krebsrisiken seines Unkrautvernichters Glyphosat einen entscheidenden Sieg vor dem Obersten Gerichtshof der USA. Die Entscheidung des…",
       "source": "n-tv",
       "pubDate": "2026-06-25T14:10:17+00:00"
@@ -76,7 +76,7 @@
     {
       "title": "Elektroschrott vermeiden: Bundestag beschließt Recht auf Reparatur",
       "link": "https://www.n-tv.de/politik/Bundestag-beschliesst-Recht-auf-Reparatur-id31015686.html",
-      "summary": "Verbraucher können sich künftig die ein oder andere erzwungene Neuanschaffung sparen. Denn Hersteller müssen künftig die Möglichkeit einräumen, ihre defekten Geräte reparieren zu lassen.",
+      "summary": "Verbraucher können sich künftig die eine oder andere erzwungene Neuanschaffung sparen. Denn Hersteller müssen künftig die Möglichkeit einräumen, ihre defekten Geräte reparieren zu lassen.",
       "source": "n-tv",
       "pubDate": "2026-06-26T06:13:25+00:00"
     },
@@ -146,6 +146,69 @@
   ],
   "it": [
     {
+      "title": "Neu in .NET 10.0 [29]: IP-Adressen prüfen mit IPAddress.IsValid()",
+      "link": "https://www.heise.de/blog/Neu-in-NET-10-0-29-IP-Adressen-pruefen-mit-IPAddress-IsValid-11345435.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die neue Methode IsValid() prüft schneller als ältere Methoden in .NET, ob eine IP-Adresse einen gültigen Aufbau hat.",
+      "source": "heise",
+      "pubDate": "2026-06-26T07:18:00+00:00"
+    },
+    {
+      "title": "Wirtschaft der Zukunft: Warum die Föderation kein Geld mehr braucht",
+      "link": "https://www.golem.de/news/wirtschaft-der-zukunft-warum-die-foederation-kein-geld-mehr-braucht-2606-210213.html",
+      "summary": "Die Föderation kennt kein Geld mehr. Trotzdem müssen Starfleet-Offiziere außerhalb ihrer Heimat manchmal bezahlen. ( Star Trek , Wirtschaft )",
+      "source": "golem",
+      "pubDate": "2026-06-26T07:15:01+00:00"
+    },
+    {
+      "title": "Künstliche Intelligenz: US-Regierung kontrolliert Freigabe von GPT 5.6",
+      "link": "https://www.golem.de/news/kuenstliche-intelligenz-us-regierung-kontrolliert-freigabe-von-gpt-5-6-2606-210212.html",
+      "summary": "OpenAI gibt das KI-Modell GPT 5.6 auf Druck der US-Regierung vorerst nur für ausgewählte Partner frei. ( OpenAI , KI )",
+      "source": "golem",
+      "pubDate": "2026-06-26T07:07:01+00:00"
+    },
+    {
+      "title": "heise+ | 10-Gbit/s-Ethernet: So finden Sie die richtige Hardware fürs Expressnetz",
+      "link": "https://www.heise.de/ratgeber/10-Gbit-s-Ethernet-So-finden-Sie-die-richtige-Hardware-fuers-Expressnetz-11259952.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Extraschnelles LAN ist erschwinglich geworden. Doch die Details entscheiden, ob volle 10 Gbit/s fließen, ein Teil oder gar nichts. Wir schaffen Durchblick.",
+      "source": "heise",
+      "pubDate": "2026-06-26T07:00:00+00:00"
+    },
+    {
+      "title": "Skript eingeschleust: Hacker erbeuten Nutzergelder von Polymarket",
+      "link": "https://www.golem.de/news/skript-eingeschleust-hacker-erbeuten-nutzergelder-von-polymarket-2606-210209.html",
+      "summary": "Angreifern ist es gelungen, ein bösartiges Skript bei Polymarket einzuschleusen und Nutzer des Wettmarktes um ihre Krypto-Einlagen zu bringen. ( Cybercrime , Cyberwar )",
+      "source": "golem",
+      "pubDate": "2026-06-26T06:59:02+00:00"
+    },
+    {
+      "title": "Chrome: Zwei Updates in einer Woche",
+      "link": "https://www.heise.de/news/Chrome-Zwei-Updates-in-einer-Woche-11345455.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Google hat in der Nacht zum Freitag ein zweites Chrome-Update in dieser Woche veröffentlicht. Der Grund bleibt unklar.",
+      "source": "heise",
+      "pubDate": "2026-06-26T06:55:00+00:00"
+    },
+    {
+      "title": "Wegen „GTA 6“: Werden die Konsolen wieder knapp?",
+      "link": "https://www.heise.de/news/Wegen-GTA-6-Werden-die-Konsolen-wieder-knapp-11345411.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Ein Händler warnt gegenüber The Game Business vor Konsolenknappheit zum „GTA 6“-Launch. Auch Xbox-Strategiechef Matthew Ball bestätigt fehlende Liefermengen.",
+      "source": "heise",
+      "pubDate": "2026-06-26T06:54:00+00:00"
+    },
+    {
+      "title": "Anzeige: Kärcher-Fenstersauger am Prime Day zum Jahrestiefstpreis nur rund 46 Euro",
+      "link": "https://www.golem.de/news/anzeige-kaercher-fenstersauger-am-prime-day-zum-jahrestiefstpreis-nur-rund-46-euro-2606-210210.html",
+      "summary": "Der Kärcher-Fenstersauger reinigt stress- und streifenfrei und ist bei Amazon am Prime Day noch bis Mitternacht im Sonderangebot. ( Prime Day , Akku )",
+      "source": "golem",
+      "pubDate": "2026-06-26T06:49:01+00:00"
+    },
+    {
+      "title": "Automobilindustrie: Ford korrigiert KI-Strategie mit Ingenieuren",
+      "link": "https://www.golem.de/news/automobilindustrie-ford-korrigiert-ki-strategie-mit-ingenieuren-2606-210208.html",
+      "summary": "Automatisierte Systeme haben unzureichende Ergebnisse geliefert. Nun programmieren erfahrene Fachkräfte die KI-Werkzeuge bei Ford um. ( Ford , KI )",
+      "source": "golem",
+      "pubDate": "2026-06-26T06:31:01+00:00"
+    },
+    {
       "title": "heise+ | Brandursache: Hauselektrik. Wie man Probleme vermeidet",
       "link": "https://www.heise.de/hintergrund/Brandursache-Hauselektrik-Wie-man-Probleme-vermeidet-11340121.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
       "summary": "Die häufigste Hausbrandursache ist die Elektrik. Solaranlage, Speicher und E-Auto belasten das Hausnetz viel stärker als früher. Wir klären, worauf es ankommt.",
@@ -153,16 +216,16 @@
       "pubDate": "2026-06-26T06:15:00+00:00"
     },
     {
-      "title": "Pro Microsoft 365 – der Kommentar: Nicht alternativlos, aber meist erste Wahl",
-      "link": "https://www.heise.de/meinung/Pro-Microsoft-365-der-Kommentar-Nicht-alternativlos-aber-meist-erste-Wahl-11344094.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Unternehmen wollen Cloud statt eigener Infrastruktur. Und dafür bietet Microsoft das beste Gesamtpaket, meint Alexander Eggers.",
+      "title": "Contra Microsoft 365 – der Kommentar: Mit Support-Ende in die Cloud gezwungen",
+      "link": "https://www.heise.de/meinung/Contra-Microsoft-365-der-Kommentar-Unternehmen-in-der-Abofalle-11344098.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Microsoft beendet den Support für Office 2021. Der Migrationspfad führt nicht nur in die Cloud, sondern auch in die Abhängigkeit, kommentiert Frank Karlitschek.",
       "source": "heise",
       "pubDate": "2026-06-26T06:15:00+00:00"
     },
     {
-      "title": "Contra Microsoft 365 – der Kommentar: Unternehmen in der Abofalle",
-      "link": "https://www.heise.de/meinung/Contra-Microsoft-365-der-Kommentar-Unternehmen-in-der-Abofalle-11344098.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Microsoft beendet den Support für Office 2021. Der Migrationspfad führt nicht nur in die Cloud, sondern auch in die Abhängigkeit, kommentiert Frank Karlitschek.",
+      "title": "Pro Microsoft 365 – der Kommentar: Pragmatisch gesehen die beste Wahl",
+      "link": "https://www.heise.de/meinung/Pro-Microsoft-365-der-Kommentar-Nicht-alternativlos-aber-meist-erste-Wahl-11344094.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Unternehmen wollen Cloud statt eigener Infrastruktur. Und dafür bietet Microsoft das beste Gesamtpaket, meint Alexander Eggers.",
       "source": "heise",
       "pubDate": "2026-06-26T06:15:00+00:00"
     },
@@ -209,13 +272,6 @@
       "pubDate": "2026-06-26T05:31:01+00:00"
     },
     {
-      "title": "heise+ | Home Assistant: Smart Home direkt vom Android-Homescreen steuern",
-      "link": "https://www.heise.de/ratgeber/Home-Assistant-Smart-Home-direkt-vom-Android-Homescreen-steuern-11281832.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Schalter, Kamerabilder und To-do-Listen direkt auf dem Smartphone-Screen sparen Zeit. Wir zeigen, wie Sie Android-Widgets für Home Assistant einstellen.",
-      "source": "heise",
-      "pubDate": "2026-06-26T05:30:00+00:00"
-    },
-    {
       "title": "Bungie: Sony baut beim Destiny-Studio zahlreiche Stellen ab",
       "link": "https://www.golem.de/news/bungie-sony-baut-beim-destiny-studio-zahlreiche-stellen-ab-2606-210204.html",
       "summary": "Nach hohen Abschreibungen und schwachen Marathon-Zahlen zieht Sony bei Bungie Konsequenzen - insbesondere beim Destiny-Team. ( Bungie , Sony )",
@@ -223,67 +279,11 @@
       "pubDate": "2026-06-26T05:16:02+00:00"
     },
     {
-      "title": "Nach Auf und Ab der SpaceX-Aktie: OpenAI könnte Börsengang verschieben",
-      "link": "https://www.heise.de/news/Nach-Auf-und-Ab-der-SpaceX-Aktie-OpenAI-koennte-Boersengang-verschieben-11345373.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Anfang des Monats hat OpenAI Unterlagen für einen Börsengang eingereicht, nun wird intern offenbar gebremst. Verantwortlich ist wohl auch die Bilanz von SpaceX.",
-      "source": "heise",
-      "pubDate": "2026-06-26T05:08:00+00:00"
-    },
-    {
-      "title": "heise+ | Mini-Barebone Asus NUC 16 Pro mit 16 Kernen und Wi-Fi 7 im Test",
-      "link": "https://www.heise.de/tests/Mini-Barebone-Asus-NUC-16-Pro-mit-16-Kernen-und-Wi-Fi-7-im-Test-11275776.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Viele Kerne, schnellere NPU und umfangreiche Ausstattung: Der NUC 16 Pro macht vieles richtig. Getrübt wird der gute Eindruck durch zweieinhalb Kritikpunkte.",
-      "source": "heise",
-      "pubDate": "2026-06-26T05:00:00+00:00"
-    },
-    {
       "title": "Anzeige: Souveräne Cloud-Strategie mit STACKIT: Governance und Umsetzung",
       "link": "https://www.golem.de/news/anzeige-souveraene-cloud-strategie-mit-stackit-governance-und-umsetzung-2606-209219.html",
       "summary": "Cloud-Souveränität wird zum Architekturthema: Datenhoheit, Governance und Compliance müssen zusammenpassen. Ein Online-Workshop vermittelt praxisnah, wie STACKIT Cloud strategisch bewertet und umgeset…",
       "source": "golem",
       "pubDate": "2026-06-26T04:30:02+00:00"
-    },
-    {
-      "title": "Freitag: Social-Media-Verbot ohne Wirkung, US-Automarkt künftig ohne Polestar",
-      "link": "https://www.heise.de/news/Freitag-Social-Media-Verbot-ohne-Wirkung-US-Automarkt-kuenftig-ohne-Polestar-11345363.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Australiens Teenager weiter in sozialen Netzen + US-Verbot vernetzter China-Autos + Entlassungen bei Bungie + Preiserhöhung bei Xbox + c't-Datenschutz-Podcast",
-      "source": "heise",
-      "pubDate": "2026-06-26T04:15:00+00:00"
-    },
-    {
-      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
-      "link": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
-      "summary": "Notion is \"going all in on using agents to run your inbox.\"",
-      "source": "ars technica",
-      "pubDate": "2026-06-25T19:04:57+00:00"
-    },
-    {
-      "title": "Halbleiterfertigung: IBM stapelt für 7-Angström-Prozess Transistoren",
-      "link": "https://www.golem.de/news/halbleiterfertigung-ibm-stapelt-fuer-7-angstrom-prozess-transistoren-2606-210190.html",
-      "summary": "IBM hat den ersten industrialisierbaren Fertigungsprozess für Halbleiter mit CFETs entwickelt. Er soll einem 0,7-nm-Prozess entsprechen. ( Halbleiterfertigung , IBM )",
-      "source": "golem",
-      "pubDate": "2026-06-25T17:50:02+00:00"
-    },
-    {
-      "title": "Anzeige: Bosch Pro Ratschenschlüssel bei Amazon nun billiger als am Black Friday",
-      "link": "https://www.golem.de/news/anzeige-bosch-pro-ratschenschluessel-bei-amazon-nun-billiger-als-am-black-friday-2606-210201.html",
-      "summary": "Ein beliebtes Set aus Ringratschenschlüsseln in der Rolltasche ist bei Amazon am Prime Day günstiger als üblich. ( Balkonkraftwerk , Technik/Hardware )",
-      "source": "golem",
-      "pubDate": "2026-06-25T17:35:01+00:00"
-    },
-    {
-      "title": "Koax und DOCSIS 3.1: Vodafone-Kabelnetz braucht beim Segmentieren viel Tiefbau",
-      "link": "https://www.golem.de/news/koax-und-docsis-3-1-vodafone-kabelnetz-braucht-beim-segmentieren-viel-tiefbau-2606-210202.html",
-      "summary": "Vodafone berichtet regelmäßig über den Ausbau in seinem Koaxialkabelnetz. Golem hat nachgefragt, was da eigentlich genau passiert. ( Kabelnetz , Vodafone )",
-      "source": "golem",
-      "pubDate": "2026-06-25T17:30:01+00:00"
-    },
-    {
-      "title": "Anzeige: 65 Zoll großer 4K-OLED-Fernseher von LG günstig wie nie am Prime Day",
-      "link": "https://www.golem.de/news/anzeige-65-zoll-grosser-4k-oled-fernseher-von-lg-guenstig-wie-nie-am-prime-day-2606-210200.html",
-      "summary": "Amazon verkauft den LG OLED65C5ELB zum neuen Tiefstpreis. Weitere Modelle sind ebenfalls günstiger. Auch bei anderen Herstellern kann gespart werden. ( Prime Day , OLED )",
-      "source": "golem",
-      "pubDate": "2026-06-25T17:05:01+00:00"
     }
   ]
 }
