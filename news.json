@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-06-30T10:13:20.705474+00:00",
+  "updatedAt": "2026-06-30T11:08:44.341315+00:00",
   "wirtschaft": [
+    {
+      "title": "Drohnen treffen Raffinerien: In Russland wird Benzin zur Mangelware",
+      "link": "https://www.n-tv.de/wirtschaft/In-Russland-wird-Benzin-zur-Mangelware-id31030692.html",
+      "summary": "Ukrainische Drohnen treffen das Rückgrat der russischen Treibstoffversorgung: die Raffinerien. In weiten Teilen des Landes wird das Benzin knapp, die Preise steigen. Selbst Moskau bleibt davon nicht v…",
+      "source": "n-tv",
+      "pubDate": "2026-06-30T10:38:44+00:00"
+    },
     {
       "title": "Star-Investor stoppt Milliarden: Buffett dreht Gates wegen Epstein-Affäre den Geldhahn zu",
       "link": "https://www.n-tv.de/wirtschaft/Buffett-dreht-Gates-wegen-Epstein-Affaere-den-Geldhahn-zu-id31030000.html",
@@ -63,16 +70,16 @@
       "summary": "Beruhigende Signale im Iran-Krieg lassen den Goldpreis abstürzen, während an der Wall Street die Inflationssorgen abnehmen. Tech-Aktien erleben kauffreudige Anleger: Für SpaceX, Tesla und Alphabet geh…",
       "source": "n-tv",
       "pubDate": "2026-06-29T20:48:46+00:00"
-    },
-    {
-      "title": "Niederlage für US-Präsidenten: Supreme Court kassiert Trumps Entlassung der Fed-Direktorin",
-      "link": "https://www.n-tv.de/wirtschaft/Supreme-Court-kassiert-Trumps-Entlassung-der-Fed-Direktorin-id31027818.html",
-      "summary": "Vergangenen Sommer versucht US-Präsident Trump, Notenbank-Vorständin Lisa Cook aus dem Amt zu werfen. Es entbrennt ein Rechtsstreit. Untere Instanzen bescheren Trump bereits mehrere Niederlagen. Nun u…",
-      "source": "n-tv",
-      "pubDate": "2026-06-29T16:01:10+00:00"
     }
   ],
   "politik": [
+    {
+      "title": "Bericht des Verfassungsschutzes: Großer Teil der AfD-Mitglieder soll rechtsextrem sein",
+      "link": "https://www.n-tv.de/politik/Grosser-Teil-der-AfD-Mitglieder-soll-rechtsextrem-sein-id31030282.html",
+      "summary": "Der Verfassungsschutz zählt derzeit fast 60.000 Rechtsextremisten in Deutschland. Ein erheblicher Teil von ihnen soll Mitglied in der AfD sein. Wenig neue Erkenntnisse gibt es anscheinend zu mutmaßlic…",
+      "source": "n-tv",
+      "pubDate": "2026-06-30T10:22:49+00:00"
+    },
     {
       "title": "Zwei Modelle für Steuerreform: Bis zu 900 Euro im Jahr: Klingbeil will 35 Millionen Steuerzahler entlasten",
       "link": "https://www.n-tv.de/politik/Bis-zu-900-Euro-im-Jahr-Klingbeil-will-35-Millionen-Steuerzahler-entlasten-id31030345.html",
@@ -135,16 +142,51 @@
       "summary": "Seit der Protestbewegung 2020 in Minsk hat Machthaber Lukaschenko ein weltweit führendes System der Unterdrückung von Widerstand entwickelt. Belarus habe die meisten politischen Gefangenen weltweit, f…",
       "source": "n-tv",
       "pubDate": "2026-06-30T03:34:49+00:00"
-    },
-    {
-      "title": "Teheran will Alleinzuständigkeit: Iran lehnt Macrons Minen-Mission in Hormus ab",
-      "link": "https://www.n-tv.de/politik/Iran-lehnt-Macrons-Minen-Mission-in-Hormus-ab-id31028982.html",
-      "summary": "Eine internationale Minenräumung in der Straße von Hormus stößt beim Iran auf harsche Ablehnung. Dass Frankreichs Präsident Macron ausgerechnet den Oman als Partner vorschlägt, empfindet das Mullah-Re…",
-      "source": "n-tv",
-      "pubDate": "2026-06-30T02:25:44+00:00"
     }
   ],
   "it": [
+    {
+      "title": ".NET-Grafiken: SkiaSharp 4 mit Engine-Upgrade erschienen",
+      "link": "https://www.heise.de/news/NET-Grafiken-SkiaSharp-4-mit-Engine-Upgrade-erschienen-11348868.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "SkiaSharp zur 2D-Grafikerstellung in .NET bietet im neuen Release Beschleunigungen durch eine aktualisierte Engine.",
+      "source": "heise",
+      "pubDate": "2026-06-30T11:01:00+00:00"
+    },
+    {
+      "title": "Hitzewelle: In 61 Prozent der deutschen Haushalte waren es über 30 Grad",
+      "link": "https://www.golem.de/news/hitzewelle-in-61-prozent-der-deutschen-haushalte-waren-es-ueber-30-grad-2606-210346.html",
+      "summary": "Am vergangenen Wochenende war es in ganz Deutschland heiß - in vielen Haushalten über 30 Grad, wie Tado auf Basis von Thermostatdaten ermittelt hat. ( Klimawandel , Smart Home )",
+      "source": "golem",
+      "pubDate": "2026-06-30T10:57:02+00:00"
+    },
+    {
+      "title": "Anzeige: SSD einfach auslesen - Sabrent Dual NVMe-Gehäuse jetzt nur rund 124 Euro",
+      "link": "https://www.golem.de/news/anzeige-ssd-einfach-auslesen-sabrent-dual-nvme-gehaeuse-jetzt-nur-rund-124-euro-2606-210345.html",
+      "summary": "Zwei SSDs, ein Gehäuse: Die Sabrent Dual NVMe Dockingstation klont offline mit 10 Gbps und ist bei Amazon im Angebot. ( Technik/Hardware , Solid State Drive )",
+      "source": "golem",
+      "pubDate": "2026-06-30T10:46:02+00:00"
+    },
+    {
+      "title": "Facebook-Datenlecks: EuGH soll über Zulässigkeit von Sammelklage entscheiden",
+      "link": "https://www.golem.de/news/facebook-datenlecks-eugh-soll-ueber-zulaessigkeit-von-sammelklage-entscheiden-2606-210343.html",
+      "summary": "Verbraucherschützer wollen über eine Sammelklage eine Entschädigung für Facebook-Nutzer nach einem Datenleck durchsetzen. Das könnte unzulässig sein. ( Datenschutz , Soziales Netz )",
+      "source": "golem",
+      "pubDate": "2026-06-30T10:39:02+00:00"
+    },
+    {
+      "title": "Anzeige: Gaming-Tastatur SteelSeries Apex Pro Mini zum Tiefstpreis bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-gaming-tastatur-steelseries-apex-pro-mini-zum-tiefstpreis-bei-amazon-2606-210342.html",
+      "summary": "Die Gaming-Tastatur SteelSeries Apex Pro Mini Gen 3 mit Hall-Effect-Schaltern und Rapid Trigger ist bei Amazon günstig wie noch nie. ( Tastatur , Eingabegerät )",
+      "source": "golem",
+      "pubDate": "2026-06-30T10:28:01+00:00"
+    },
+    {
+      "title": "Ohne Social Media, Browser und E-Mail: So teuer ist Commodores Klapp-Smartphone wirklich",
+      "link": "https://www.golem.de/news/ohne-social-media-browser-und-e-mail-so-teuer-ist-commodores-klapp-smartphone-wirklich-2606-210341.html",
+      "summary": "Wer die teuerste Ausführung von Commodores Klapp-Smartphone nach Deutschland liefern lässt, muss umgerechnet knapp 700 Euro zahlen. ( Commodore , Smartphone )",
+      "source": "golem",
+      "pubDate": "2026-06-30T10:25:02+00:00"
+    },
     {
       "title": "Scroll Stopper: Smarter Ständer soll gegen Smartphone-Sucht helfen",
       "link": "https://www.golem.de/news/scroll-stopper-smarter-staender-soll-gegen-smartphone-sucht-helfen-2606-210340.html",
@@ -153,9 +195,16 @@
       "pubDate": "2026-06-30T10:10:02+00:00"
     },
     {
-      "title": "Neue Mysterien: Die dritte Staffel von Silo ist wie ein Neuanfang",
+      "title": "M6 wird übersprungen: MacBook Ultra mit älteren Chips?",
+      "link": "https://www.heise.de/news/M6-wird-uebersprungen-MacBook-Ultra-mit-aelteren-Chips-11348512.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Apples neues MacBook-Topmodell mit OLED-Touchscreen könnte beim älteren M5-Chip bleiben. Der Grund ist Apples allgemeine SoC-Strategie.",
+      "source": "heise",
+      "pubDate": "2026-06-30T10:07:00+00:00"
+    },
+    {
+      "title": "Staffel 3 von Silo: Was ist das Geheimnis der Silos?",
       "link": "https://www.golem.de/news/neue-mysterien-die-dritte-staffel-von-silo-ist-wie-ein-neuanfang-2606-210336.html",
-      "summary": "Staffel 3 adaptiert Hugh Howeys zweiten Roman - und wartet mit einigen Neuerungen auf. Es gibt Antworten auf drängende Fragen, aber natürlich ebenso viele neue Fragen. Eine Rezension von Peter Osterie…",
+      "summary": "Plötzlich ist alles anders in Silo 18: Die spannende Staffel 3 kommt dem Ursprung der Silos näher, löst einige Mysterien und schafft neue. Eine Rezension von Peter Osteried ( Science-Fiction , Apple T…",
       "source": "golem",
       "pubDate": "2026-06-30T10:00:02+00:00"
     },
@@ -235,55 +284,6 @@
       "summary": "Der Kampf gegen das Ozonloch gilt als ein großer Erfolg der Staatengemeinschaft. Laut einer Studie hat nicht FCKW die ersten Schäden verursacht.",
       "source": "heise",
       "pubDate": "2026-06-30T09:20:00+00:00"
-    },
-    {
-      "title": "Mehr Farben: Apple macht laut Bericht bei BT2020 mit",
-      "link": "https://www.heise.de/news/Mehr-Farben-Apple-macht-laut-Bericht-bei-BT2020-mit-11348321.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die nächsten OLED-Systeme von Apple, egal ob iPad, MacBook oder iMac, könnten Farben genauer darstellen. Das meldet TrendForce.",
-      "source": "heise",
-      "pubDate": "2026-06-30T09:17:00+00:00"
-    },
-    {
-      "title": "LED-Anzeigetafeln: Straßenschilder durch Controller-Lücken manipulierbar",
-      "link": "https://www.golem.de/news/daktronics-strassenschilder-durch-controller-luecken-manipulierbar-2606-210333.html",
-      "summary": "Durch Sicherheitslücken in Daktronics-Controllern können Angreifer LED-Anzeigetafeln kapern - unter anderem wegen Standard-Zugangsdaten. ( Sicherheitslücke , Display )",
-      "source": "golem",
-      "pubDate": "2026-06-30T09:14:01+00:00"
-    },
-    {
-      "title": "Microsoft: Xbox stoppt offenbar Game-Pass-Deals",
-      "link": "https://www.golem.de/news/microsoft-xbox-stoppt-offenbar-game-pass-deals-2606-210331.html",
-      "summary": "Verträge für den Game Pass mit externen Studios liegen Berichten zufolge auf Eis. Parallel soll Microsoft massive Stellenstreichungen planen. ( Xbox , Microsoft )",
-      "source": "golem",
-      "pubDate": "2026-06-30T08:59:02+00:00"
-    },
-    {
-      "title": "Deutschland-App: KI soll Anträge vereinfachen",
-      "link": "https://www.heise.de/news/Deutschland-App-KI-soll-Antraege-vereinfachen-11348710.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Formulare waren gestern: In der Deutschland-App sollen Nutzer ihre Anträge auch per Chat oder im Gespräch mit einem KI-Avatar stellen können.",
-      "source": "heise",
-      "pubDate": "2026-06-30T08:49:00+00:00"
-    },
-    {
-      "title": "RTX 3060 12 GByte: Nvidia verkauft fünf Jahre alte Grafikkarten erneut",
-      "link": "https://www.golem.de/news/rtx-3060-12-gbyte-nvidia-verkauft-fuenf-jahre-alte-grafikkarten-erneut-2606-210332.html",
-      "summary": "Nicht nur, dass die Geforce RTX 3060 erstmals im Jahr 2021 verkauft wurde - sie kostet auch mehr als die aktuelle Generation. ( Geforce RTX , Grafikkarten )",
-      "source": "golem",
-      "pubDate": "2026-06-30T08:44:02+00:00"
-    },
-    {
-      "title": "Alterung von Solarzellen: Lebensdauer von Perowskit-Modulen besser vermessen",
-      "link": "https://www.golem.de/news/alterung-von-solarzellen-lebensdauer-von-perowskit-modulen-besser-vermessen-2606-210326.html",
-      "summary": "Bisherige Laborversuche weichen zu deutlich von Realtests ab. Eine bessere Methode soll die Forschung zu langlebigen Solarzellen beschleunigen. ( Solarenergie , Wissenschaft )",
-      "source": "golem",
-      "pubDate": "2026-06-30T08:30:05+00:00"
-    },
-    {
-      "title": "Podcast Besser Wissen: Woher kommt der Mac?",
-      "link": "https://www.golem.de/news/podcast-besser-wissen-woher-kommt-der-mac-2606-210278.html",
-      "summary": "Wie Steve Jobs die originale Vision für den kleinen Rechner änderte und warum er trotzdem ein Erfolg wurde, besprechen wir im Podcast. ( Besser Wissen , Apple )",
-      "source": "golem",
-      "pubDate": "2026-06-30T08:30:02+00:00"
     }
   ]
 }
