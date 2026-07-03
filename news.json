@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T06:13:25.178459+00:00",
+  "updatedAt": "2026-07-03T07:14:13.958646+00:00",
   "wirtschaft": [
     {
       "title": "Interne Tonaufnahme geleakt: Zuckerberg enttäuscht von KI-Agenten bei Meta",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "\"Zweiter Teil im Herbst\": Bei Arbeitszeit und Erbschaftsteuer will Schwarz-Rot noch nachlegen",
+      "link": "https://www.n-tv.de/politik/Bei-Arbeitszeit-und-Erbschaftsteuer-will-Schwarz-Rot-noch-nachlegen-id31042702.html",
+      "summary": "Die Bundesregierung einigt sich auf zahlreiche Reformvorhaben für mehr Wachstum. Einige Streitpunkte stellen Union und SPD erst einmal zurück. Das heißt nicht, dass sie vom Tisch sind.",
+      "source": "n-tv",
+      "pubDate": "2026-07-03T06:33:50+00:00"
+    },
+    {
       "title": "Abschied von US-Software: Mecklenburg-Vorpommern hat genug von Microsoft",
       "link": "https://www.n-tv.de/politik/Mecklenburg-Vorpommern-hat-genug-von-Microsoft-id31042660.html",
       "summary": "Microsoft-Produkte sind in vielen Behörden Standard-Software. Im Norden Deutschlands gehen zwei Bundesländer einen eigenen Weg und setzen auf Alternativen. Der große Umbruch in den Verwaltungen hat be…",
@@ -135,16 +142,51 @@
       "summary": "Deutschland wirbt weltweit um Fachkräfte und gibt sich als offenes Land - doch an vielen Auslandsvertretungen warten Menschen bis zu anderthalb Jahre auf einen Termin für ein Schengen‑Visum, selbst fü…",
       "source": "n-tv",
       "pubDate": "2026-07-02T17:37:16+00:00"
-    },
-    {
-      "title": "Pentagon baut Militärführung um: Geschasster US-Kommandeur verabschiedet sich aus Wiesbaden",
-      "link": "https://www.n-tv.de/politik/Geschasster-US-Kommandeur-verabschiedet-sich-aus-Wiesbaden-id31041712.html",
-      "summary": "Der Kommandeur der US-Streitkräfte in Europa und Afrika muss nach nur wenigen Monaten im Amt seinen Hut nehmen. Die Abberufung von General Donahue geht auf Pentagon-Chef Hegseth zurück. Er ist nicht d…",
-      "source": "n-tv",
-      "pubDate": "2026-07-02T17:29:52+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Streit um iPad-Nachbeschaffung: Samsung klagt gegen Stadt Datteln",
+      "link": "https://www.golem.de/news/streit-um-ipad-nachbeschaffung-samsung-klagt-gegen-stadt-datteln-2607-210463.html",
+      "summary": "Die Stadt Datteln wollte iPads ohne Ausschreibung nachkaufen. Samsung klagt dagegen und fordert ein produktneutrales Vergabeverfahren. ( Schulen , Samsung )",
+      "source": "golem",
+      "pubDate": "2026-07-03T07:04:01+00:00"
+    },
+    {
+      "title": "heise+ | Test: Erster Mini-PC mit RISC-V-CPU für Ubuntu ab Version 26.04",
+      "link": "https://www.heise.de/tests/Test-Erster-Mini-PC-mit-RISC-V-CPU-fuer-Ubuntu-ab-Version-26-04-11302381.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Moderne Linux-Distros für RISC-V laufen nur auf Chips mit RVA23-Erweiterung. Einer der ersten ist der SpacemiT K3 in der AIBOX-K3, die recht raue Kanten hat.",
+      "source": "heise",
+      "pubDate": "2026-07-03T07:00:00+00:00"
+    },
+    {
+      "title": "Won’t fix! – Teil 3: Warum verteilter Konsens schwer bis unmöglich ist",
+      "link": "https://www.heise.de/hintergrund/Won-t-fix-Teil-3-Warum-verteilter-Konsens-schwer-bis-unmoeglich-ist-11350521.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "In verteilten Systemen ist Einigkeit nicht bloß schwierig, sondern unter bestimmten Bedingungen mathematisch beweisbar unmöglich.",
+      "source": "heise",
+      "pubDate": "2026-07-03T07:00:00+00:00"
+    },
+    {
+      "title": "Mitglied im Spyware-Sonderausschuss: EU-Abgeordneter mit Pegasus attackiert",
+      "link": "https://www.heise.de/news/Mitglied-im-Sonderausschuss-zu-Pegasus-EU-Abgeordneter-mit-Spyware-attackiert-11352514.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Vor Jahren hat das Europaparlament Angriffe mit der Pegasus-Spyware in der EU untersucht. Ein stellvertretendes Ausschussmitglied wurde da selbst angegriffen.",
+      "source": "heise",
+      "pubDate": "2026-07-03T06:46:00+00:00"
+    },
+    {
+      "title": "Neu in .NET 10.0 [30]: Algorithmen für die Post-Quanten-Kryptografie",
+      "link": "https://www.heise.de/blog/Neu-in-NET-10-0-30-Algorithmen-fuer-die-Post-Quanten-Kryptografie-11350747.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "In .NET 10.0 gibt es drei Verfahren zur Post-Quantum Cryptography (PQC). Auf einen weiteren FIPS-Algorithmus verzichtet Microsoft jedoch bewusst.",
+      "source": "heise",
+      "pubDate": "2026-07-03T06:30:00+00:00"
+    },
+    {
+      "title": "Mitarbeiter und KI: SAP setzt auf Umschulung statt Kündigung",
+      "link": "https://www.golem.de/news/mitarbeiter-und-ki-sap-setzt-auf-umschulung-statt-kuendigung-2607-210461.html",
+      "summary": "Während andere Tech-Konzerne Stellen streichen, setzt SAP darauf, dass sich Jobs neu erfinden lassen. ( SAP , KI )",
+      "source": "golem",
+      "pubDate": "2026-07-03T06:25:01+00:00"
+    },
     {
       "title": "Politik: Kanzleramt gründet KI-Taskforce",
       "link": "https://www.golem.de/news/politik-kanzleramt-gruendet-ki-taskforce-2607-210460.html",
@@ -223,34 +265,6 @@
       "pubDate": "2026-07-03T04:31:00+00:00"
     },
     {
-      "title": "Freitag: Vorbereitung für Disc-lose Xbox, Amazon Leo mit ausreichend Satelliten",
-      "link": "https://www.heise.de/news/Freitag-Vorbereitung-fuer-Disc-lose-Xbox-Amazon-Leo-mit-ausreichend-Satelliten-11352434.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Digitalisierung von Xbox-Discs + Starlink-Konkurrenz einsatzbereit + Kritik am Aus für Telefon-AU + Pläne der neuen Krankschreibung + Verbraucherschutz-Podcast",
-      "source": "heise",
-      "pubDate": "2026-07-03T04:15:00+00:00"
-    },
-    {
-      "title": "heise+ | Rebellion im Kino: Außer Atem und Nouvelle Vague im Heimkino-Test",
-      "link": "https://www.heise.de/tests/Rebellion-im-Kino-Ausser-Atem-und-Nouvelle-Vague-im-Heimkino-Test-11280581.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Jean-Luc Godards Außer Atem revolutionierte 1960 das Kino. Richard Linklater zeigt in Nouvelle Vague, unter welchen chaotischen Bedingungen der Film entstand.",
-      "source": "heise",
-      "pubDate": "2026-07-03T04:02:00+00:00"
-    },
-    {
-      "title": "Vorsicht, Kunde: Rechtliche Fallstricke bei Streaming-Abos und Online-Verträgen",
-      "link": "https://www.heise.de/news/Vorsicht-Kunde-Rechtliche-Fallstricke-bei-Streaming-Abos-und-Online-Vertraegen-11352360.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Dubiose Streaming-Abos, Lockangebote mit Billiginhalten, technische Fehler beim Bezahlen: Wer die Warnsignale kennt, kann unberechtigte Forderungen abwehren.",
-      "source": "heise",
-      "pubDate": "2026-07-03T04:00:00+00:00"
-    },
-    {
-      "title": "Bericht: Microsoft testet intern Funktion zur Digitalisierung von Xbox-Disks",
-      "link": "https://www.heise.de/news/Bericht-Microsoft-testet-intern-Funktion-zur-Digitalisierung-von-Xbox-Disks-11352424.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die neue Funktion „Disc2Digital“ für Microsoft-Konsolen macht Xbox-Discs zu digitalen Spielen. Es könnte der Vorbereitung der nächsten Xbox-Generation dienen.",
-      "source": "heise",
-      "pubDate": "2026-07-03T03:34:00+00:00"
-    },
-    {
       "title": "Newly discovered PamStealer isn't your typical macOS malware",
       "link": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
       "summary": "The discovery underscores the increased effort being poured into Mac infostealers.",
@@ -270,20 +284,6 @@
       "summary": "Die Ugreen-Nexode-Powerbank mit 145 W lädt bis zu drei Geräte, auch Laptops. Bei Amazon ist sie für unter 48 Euro erhältlich. ( Technik/Hardware , Amazon )",
       "source": "golem",
       "pubDate": "2026-07-02T15:52:02+00:00"
-    },
-    {
-      "title": "Konkurrenz für AWS: Meta Platforms macht Pläne für KI-Cloud-Geschäft konkreter",
-      "link": "https://www.golem.de/news/konkurrenz-fuer-aws-meta-platforms-macht-plaene-fuer-ki-cloud-geschaeft-konkreter-2607-210450.html",
-      "summary": "Meta hat offenbar mehr KI-Cloud-Kapazität, als es selbst benötigt. Der Konzern könnte zum Angriff auf Amazon Web Services, Microsoft Azure und Google Cloud übergehen. ( Meta , KI )",
-      "source": "golem",
-      "pubDate": "2026-07-02T15:35:02+00:00"
-    },
-    {
-      "title": "Künstliche Intelligenz: OpenAI senkt Inferenzkosten um mehr als die Hälfte",
-      "link": "https://www.golem.de/news/kuenstliche-intelligenz-openai-senkt-inferenzkosten-um-mehr-als-die-haelfte-2607-210455.html",
-      "summary": "Die neue Optimierungsmethode ist ursprünglich dafür gedacht gewesen, ChatGPT-Nutzer mit kostenlosen Konten effektiver bedienen zu können. ( KI , API )",
-      "source": "golem",
-      "pubDate": "2026-07-02T15:14:02+00:00"
     }
   ]
 }
