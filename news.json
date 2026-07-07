@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-07-07T06:22:56.128098+00:00",
+  "updatedAt": "2026-07-07T07:20:12.084631+00:00",
   "wirtschaft": [
+    {
+      "title": "Sorgen vor überhitztem Boom: Preisanstieg bei Chips verhilft Samsung zu Rekordgewinn",
+      "link": "https://www.n-tv.de/wirtschaft/Preisanstieg-bei-Chips-verhilft-Samsung-zu-Rekordgewinn-id31055864.html",
+      "summary": "KI-Fantasien treiben derzeit Techwerte an den Börsen weltweit. Davon kann auch Samsung profitieren - und wie. Der Konzern erzielt mit umgerechnet 55 Milliarden Euro seinen bisher höchsten operativen Q…",
+      "source": "n-tv",
+      "pubDate": "2026-07-07T06:23:32+00:00"
+    },
     {
       "title": "Kirche warnt vor Liberalisierung: Bundestags-Wirtschaftsausschuss wirbt für mehr Sonntagsöffnungen im Handel",
       "link": "https://www.n-tv.de/wirtschaft/Bundestags-Wirtschaftsausschuss-wirbt-fuer-mehr-Sonntagsoeffnungen-im-Handel-id31055407.html",
@@ -63,20 +70,13 @@
       "summary": "Einige Branchen trifft der Verlust der Babyboomer besonders hart - etwa Bus und Bahn. Dort scheiden Zehntausende aus, sodass die Fahrpläne vielfach dünner ausfallen könnten. Die aktuelle Erholung ände…",
       "source": "n-tv",
       "pubDate": "2026-07-06T09:58:08+00:00"
-    },
-    {
-      "title": "Forschung zu Stadtentwicklung: Robert Habeck wird Berater dänischer Investoren",
-      "link": "https://www.n-tv.de/wirtschaft/Robert-Habeck-wird-Berater-bei-Investmentfirma-id31052359.html",
-      "summary": "Wie kann privates Kapital bezahlbaren Wohnraum in Städten fördern? Bei dieser Frage soll der frühere Wirtschaftsminister einer Investmentgesellschaft helfen. Diese verwaltet 25 Milliarden Euro.",
-      "source": "n-tv",
-      "pubDate": "2026-07-06T09:57:46+00:00"
     }
   ],
   "politik": [
     {
       "title": "\"Die meisten wurden zerstört\": Russland meldet Angriff auf Moskau mit 430 Drohnen",
       "link": "https://www.n-tv.de/politik/Russland-meldet-Angriff-auf-Moskau-mit-430-Drohnen-id31055795.html",
-      "summary": "Der Ukraine gelingen immer wieder schmerzhafte Angriffe mit Drohnen auf das russische Hinterland. Auch die Hauptstadt Moskau ist regelmäßig Ziel von Attacken - so auch jetzt. Laut Bürgermeister Sobjan…",
+      "summary": "Der Ukraine gelingen immer wieder schmerzhafte Angriffe mit Drohnen auf das russische Hinterland. Auch die Hauptstadt Moskau ist regelmäßig Ziel von Attacken - so wie jetzt. Laut Bürgermeister Sobjani…",
       "source": "n-tv",
       "pubDate": "2026-07-07T05:22:12+00:00"
     },
@@ -145,6 +145,55 @@
     }
   ],
   "it": [
+    {
+      "title": "Auch Android betroffen: Exploit für gefährliche Root-Lücke im Linux-Kernel geleakt",
+      "link": "https://www.golem.de/news/auch-android-betroffen-exploit-fuer-gefaehrliche-root-luecke-im-linux-kernel-geleakt-2607-210571.html",
+      "summary": "Eine Lücke im Epoll-Subsystem des Linux-Kernels verleiht Angreifern auf anfälligen Systemen Root-Rechte. Inzwischen gibt es auch einen Exploit dafür. ( Sicherheitslücke , Linux-Kernel )",
+      "source": "golem",
+      "pubDate": "2026-07-07T07:18:02+00:00"
+    },
+    {
+      "title": "Datennutzung für KI-Modelle: Google nutzt Suchmedien für KI-Training",
+      "link": "https://www.golem.de/news/datennutzung-fuer-ki-modelle-google-nutzt-suchmedien-fuer-ki-training-2607-210572.html",
+      "summary": "Google erfasst Bilder, Audio und Videos aus Suchdiensten für KI-Modelle. Die Speicherung hängt aber von bestehenden Aktivitätseinstellungen ab. ( Google , KI )",
+      "source": "golem",
+      "pubDate": "2026-07-07T07:11:02+00:00"
+    },
+    {
+      "title": "Chinas Raumfahrt: Tianwen-2 erreicht Asteroid Kamo'oalewa",
+      "link": "https://www.golem.de/news/chinas-raumfahrt-tianwen-2-erreicht-asteroid-kamo-oalewa-2607-210570.html",
+      "summary": "Die chinesische Raumsonde Tianwen-2 hat den Asteroiden Kamo'oalewa erreicht. Ziel ist die erste Probenrückführung Chinas. ( Asteroid , Raumfahrt )",
+      "source": "golem",
+      "pubDate": "2026-07-07T07:02:02+00:00"
+    },
+    {
+      "title": "heise+ | Git für Maker erklärt, Teil 4: Wie man in Github Actions Workflows anlegt",
+      "link": "https://www.heise.de/ratgeber/Git-fuer-Maker-erklaert-Teil-4-Wie-man-in-Github-Actions-Workflows-anlegt-11342212.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "GitHub Actions automatisiert Aufgaben im Repository. Am Beispiel eines RSS-Feed-Projekts zeigt der Artikel, wie man Workflows anlegt.",
+      "source": "heise",
+      "pubDate": "2026-07-07T07:00:00+00:00"
+    },
+    {
+      "title": "3D-gedruckte, autonome VTOL-Drohne bekämpft Drohnen-Schwärme mit bis zu 560 km/h",
+      "link": "https://www.heise.de/news/3D-gedruckte-autonome-VTOL-Drohne-bekaempft-Drohnen-Schwaerme-mit-bis-zu-560-km-h-11355781.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Ganze Drohnenschwärme sollen verschieden Varianten des SkyDefense CobraJets bekämpfen können. Deren Außenhüllen stammen aus dem 3D-Drucker.",
+      "source": "heise",
+      "pubDate": "2026-07-07T06:39:00+00:00"
+    },
+    {
+      "title": "Software Testing: Architekturdokumentation, die wirklich Wirkung entfaltet",
+      "link": "https://www.heise.de/blog/Software-Testing-Architekturdokumentation-die-wirklich-Wirkung-entfaltet-11341690.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Was eine wirkungsvolle Architekturdokumentation ausmacht, diskutiert Richard Seidl mit dem Softwarearchitekten Ralf Enderle.",
+      "source": "heise",
+      "pubDate": "2026-07-07T06:25:00+00:00"
+    },
+    {
+      "title": "Mobile Games: Umsatz in Deutschland steigt 2025 auf 2,7 Milliarden Euro",
+      "link": "https://www.heise.de/news/Mobile-Games-Umsatz-in-Deutschland-steigt-2025-auf-2-7-Milliarden-Euro-11355775.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der Umsatz mit Mobile Games in Deutschland stieg 2025 auf 2,7 Milliarden Euro. Fast alles davon stammt aus In-App-Käufen in kostenlosen Spielen.",
+      "source": "heise",
+      "pubDate": "2026-07-07T06:21:00+00:00"
+    },
     {
       "title": "In eigener Sache: Mehr Übersicht auf Golem",
       "link": "https://www.golem.de/news/in-eigener-sache-mehr-uebersicht-auf-golem-2607-210236.html",
@@ -230,60 +279,11 @@
       "pubDate": "2026-07-07T05:15:02+00:00"
     },
     {
-      "title": "Hybridkonsole: Nintendo nimmt die erste Switch 2027 in Europa vom Markt",
-      "link": "https://www.golem.de/news/hybridkonsole-nintendo-nimmt-die-erste-switch-2027-in-europa-vom-markt-2607-210562.html",
-      "summary": "Wegen EU-Vorgaben für austauschbare Akkus endet der Verkauf der ersten Switch. Von der Switch 2 erscheint eine überarbeitete Version. ( Nintendo Switch , Nintendo )",
-      "source": "golem",
-      "pubDate": "2026-07-07T05:08:00+00:00"
-    },
-    {
       "title": "KI-Firma von Elon Musk: Aus xAI wird SpaceXAI",
       "link": "https://www.heise.de/news/KI-Firma-von-Elon-Musk-Aus-xAI-wird-SpaceXAI-11355723.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Im Frühjahr hat SpaceX von Elon Musk dessen KI-Firma xAI übernommen, jetzt folgt die Umbenennung. Der Name SpaceXAI soll die Zugehörigkeit verdeutlichen.",
       "source": "heise",
       "pubDate": "2026-07-07T04:49:00+00:00"
-    },
-    {
-      "title": "„Passt für mich nicht zusammen“: Ist Debatte um Telefon-AU nur Ablenkung?",
-      "link": "https://www.heise.de/hintergrund/Ein-Horrorszenario-MEDI-Chef-Smetak-warnt-vor-dem-Aus-der-Telefon-AU-und-Co-11355603.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das Aus der Telefon-AU sorgt für volle Praxen. Im Interview sieht MEDI-Chef Norbert Smetak darin einen Widerspruch zu den geplanten Reformen.",
-      "source": "heise",
-      "pubDate": "2026-07-07T04:37:00+00:00"
-    },
-    {
-      "title": "Start-up-Gründungen nehmen aufgrund von KI in Deutschland zu",
-      "link": "https://www.heise.de/news/Start-up-Gruendungen-nehmen-aufgrund-von-KI-in-Deutschland-zu-11355719.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "KI sorgt in Deutschland für eine Zunahme bei Start-up-Gründungen deutlich zu. In Berlin gibt es die meisten Neugründungen.",
-      "source": "heise",
-      "pubDate": "2026-07-07T04:30:00+00:00"
-    },
-    {
-      "title": "Dienstag: Angriff auf Informationsfreiheit, Microsoft baut Spiele-Sparte Xbox um",
-      "link": "https://www.heise.de/news/Dienstag-Angriff-auf-Informationsfreiheit-Microsoft-baut-Spiele-Sparte-Xbox-um-11355711.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Kritik an IFG-Reform + Microsoft bestätigt Entlassungen + China verschärft KI-Regeln + Broadcom beliefert weiter Apple + Geheimdienstbericht in Kanada",
-      "source": "heise",
-      "pubDate": "2026-07-07T04:15:00+00:00"
-    },
-    {
-      "title": "Angriff auf Infofreiheit: Transparenzbeauftragte wehren sich gegen IFG-Reform",
-      "link": "https://www.heise.de/news/Angriff-auf-Infofreiheit-Transparenzbeauftragte-wehren-sich-gegen-IFG-Reform-11355617.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die Kontrollbeauftragten von Bund und Ländern kritisieren den Plan der schwarz-roten Koalition für drastische Einschnitte im Informationsfreiheitsgesetz scharf.",
-      "source": "heise",
-      "pubDate": "2026-07-07T03:45:00+00:00"
-    },
-    {
-      "title": "Bitkom Cloud Report 2026: Cloud-Ausfall würde jedes zweite Unternehmen lahmlegen",
-      "link": "https://www.golem.de/news/bitkom-cloud-report-2026-cloud-ausfall-wuerde-jedes-zweite-unternehmen-lahmlegen-2607-210560.html",
-      "summary": "Ein Ausfall von Cloud-Diensten würde fast jedes zweite deutsche Unternehmen in die Knie zwingen. Eine aktuelle Bitkom-Studie zeigt, wie tief die Abhängigkeit inzwischen ist. ( Cloud , API )",
-      "source": "golem",
-      "pubDate": "2026-07-06T19:53:01+00:00"
-    },
-    {
-      "title": "Anzeige: Beliebtes SSD-Gehäuse für USB-C und -A zum Prime-Day-Preis",
-      "link": "https://www.golem.de/news/anzeige-beliebtes-ssd-gehaeuse-fuer-usb-c-und-a-zum-prime-day-preis-2607-210559.html",
-      "summary": "Ein beliebtes SSD- und Festplattengehäuse mit USB-C und -A kostet bei Amazon wieder den Prime-Day-Preis. ( Solid State Drive , Speichermedien )",
-      "source": "golem",
-      "pubDate": "2026-07-06T16:44:02+00:00"
     }
   ]
 }
