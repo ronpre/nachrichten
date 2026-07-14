@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T07:33:54.706121+00:00",
+  "updatedAt": "2026-07-14T08:40:21.509563+00:00",
   "wirtschaft": [
     {
       "title": "Deutlich mehr als im Vorjahr: Solaranlagen boomen in Deutschland",
@@ -67,6 +67,13 @@
   ],
   "politik": [
     {
+      "title": "Mann hatte Aufenthaltserlaubnis: ICE-Opfer war nicht der Gesuchte",
+      "link": "https://www.n-tv.de/politik/ICE-Opfer-war-nicht-der-Gesuchte-id31082992.html",
+      "summary": "Angeblich geschieht es \"aus Sorge um die öffentliche Sicherheit\": Wieder eskaliert ein ICE-Einsatz in den USA, am Ende ist ein Mann tot. Dabei sitzt der ICE-Beamte einem Irrtum auf.",
+      "source": "n-tv",
+      "pubDate": "2026-07-14T08:25:30+00:00"
+    },
+    {
       "title": "\"Leute rechnen sich arm\": SPD will Schlupflöcher bei Erbschaftssteuer schließen",
       "link": "https://www.n-tv.de/politik/SPD-will-Schlupfloecher-bei-Erbschaftssteuer-schliessen-id31082958.html",
       "summary": "Bund und Länder wollen investieren. Geht es nach der SPD soll das Geld dafür vermehrt von Reichen kommen. Generalsekretär Klüssendorf will Erben stärker besteuern und auch an Vermögen ran.",
@@ -128,16 +135,107 @@
       "summary": "Trump kündigt eine Mautgebühr für die \"Bewachung\" der Straße von Hormus an. Das US-Militär werde bereits in wenigen Stunden iranische Schiffe vor den Häfen stoppen. Scharfer Gegenwind kommt aus Tehera…",
       "source": "n-tv",
       "pubDate": "2026-07-13T21:14:19+00:00"
-    },
-    {
-      "title": "Verhalten von Juristen geprüft: Richterin erklärt Trumps Schutz vor Steuerprüfungen für nichtig",
-      "link": "https://www.n-tv.de/politik/Richterin-erklaert-Trumps-Schutz-vor-Steuerpruefungen-fuer-nichtig-id31081921.html",
-      "summary": "Nachdem ein Whistleblower Steuerunterlagen der Trump-Familie öffentlich macht, geht der US-Präsident dagegen vor. Er lässt sich und seine Unternehmen von sämtlichen Steuerprüfungen befreien. Diesen Ve…",
-      "source": "n-tv",
-      "pubDate": "2026-07-13T20:39:37+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Neu in .NET 10.0 [31]: Mehr Kontrolle beim Zertifikatsexport",
+      "link": "https://www.heise.de/blog/Neu-in-NET-10-0-31-Mehr-Kontrolle-beim-Zertifikatsexport-11363926.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "In .NET 10.0 gibt es neuerdings die Methode ExportPkcs12() als Ergänzung zur bestehenden Methode Export().",
+      "source": "heise",
+      "pubDate": "2026-07-14T08:31:00+00:00"
+    },
+    {
+      "title": "Podcast Besser Wissen: Als PDAs magisch waren",
+      "link": "https://www.golem.de/news/podcast-besser-wissen-als-pdas-magisch-waren-2607-210628.html",
+      "summary": "Wie ein Unternehmen in den 90ern versuchte, eine neue Gerätekategorie zu etablieren, besprechen wir im Podcast. ( Besser Wissen , Smartphone )",
+      "source": "golem",
+      "pubDate": "2026-07-14T08:30:02+00:00"
+    },
+    {
+      "title": "heise+ | KI in der Musik: Wenn Agenten selbst komponieren",
+      "link": "https://www.heise.de/hintergrund/KI-in-der-Musik-Wenn-Agenten-selbst-komponieren-11341330.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Musikwissenschaftler Matthias Röder stellte einst eine Beethoven-Sinfonie mittels KI fertig. Im Interview spricht er darüber, was er für die Zukunft erwartet.",
+      "source": "heise",
+      "pubDate": "2026-07-14T08:30:00+00:00"
+    },
+    {
+      "title": "Ukrainekrieg: Auterion und Skyfall liefern 50.000 KI-Drohnen",
+      "link": "https://www.golem.de/news/ukrainekrieg-auterion-und-skyfall-liefern-50-000-ki-drohnen-2607-210833.html",
+      "summary": "Auterion und der ukrainische Hersteller Skyfall wollen rund 50.000 Angriffs-Drohnen an die Ukraine liefern. ( Militär , KI )",
+      "source": "golem",
+      "pubDate": "2026-07-14T08:29:02+00:00"
+    },
+    {
+      "title": "Next.js strukturiert Sicherheitsmeldungen neu",
+      "link": "https://www.heise.de/news/Next-js-strukturiert-Sicherheitsmeldungen-neu-11363871.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Next.js will Sicherheitsmeldungen künftig strukturiert und planbar monatlich veröffentlichen. Kritische Warnungen kommen nach wie vor ad hoc.",
+      "source": "heise",
+      "pubDate": "2026-07-14T08:21:00+00:00"
+    },
+    {
+      "title": "Cloudflare Precursor: Dieser Bot-Test hört nie auf zuzusehen",
+      "link": "https://www.golem.de/news/cloudflare-precursor-dieser-bot-test-hoert-nie-auf-zuzusehen-2607-210829.html",
+      "summary": "Mit Precursor bringt Cloudflare ein Tool, das das komplette Verhalten eines Nutzers während des Besuchs einer Website verfolgt. ( Cloudflare , Server )",
+      "source": "golem",
+      "pubDate": "2026-07-14T08:17:01+00:00"
+    },
+    {
+      "title": "iOS 27 & Co.: Die öffentlichen Betas sind da – das muss man wissen",
+      "link": "https://www.heise.de/news/iOS-27-Co-Die-oeffentlichen-Betas-sind-da-das-muss-man-wissen-11363829.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "In der Nacht zum Dienstag hat Apple die lange erwarteten öffentlichen Betas seiner neuen Betriebssysteme bereitgestellt. Dabei gilt es einiges zu beachten.",
+      "source": "heise",
+      "pubDate": "2026-07-14T08:10:00+00:00"
+    },
+    {
+      "title": "Hybridkonsole: Nintendo plant offenbar Switch 2 mit OLED-Display",
+      "link": "https://www.golem.de/news/hybridkonsole-nintendo-plant-offenbar-switch-2-mit-oled-display-2607-210835.html",
+      "summary": "Laut einem Medienbericht prüft Nintendo eine OLED-Version der Switch 2. Die Markteinführung könnte frühestens 2028 erfolgen. ( Nintendo Switch 2 , Display )",
+      "source": "golem",
+      "pubDate": "2026-07-14T08:00:02+00:00"
+    },
+    {
+      "title": "heise-Angebot: c’t-Webinar: Die faszinierende Welt der Quantenphysik verstehen",
+      "link": "https://www.heise.de/news/c-t-Webinar-Die-faszinierende-Welt-der-Quantenphysik-verstehen-11350024.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Von Schrödingers Katze bis zum Quantencomputer: Das Webinar führt kompakt in die zentralen Konzepte der Quantenphysik ein – ganz ohne Vorkenntnisse.",
+      "source": "heise",
+      "pubDate": "2026-07-14T08:00:00+00:00"
+    },
+    {
+      "title": "Irankrieg und Berliner Sparpläne lösen Solarboom aus",
+      "link": "https://www.heise.de/news/Irankrieg-und-Berliner-Sparplaene-loesen-Solarboom-aus-11363849.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der Irankrieg und Kürzungspläne der Bundesregierung haben den Ausbau der Solarenergie in Deutschland im ersten Halbjahr befeuert.",
+      "source": "heise",
+      "pubDate": "2026-07-14T07:44:00+00:00"
+    },
+    {
+      "title": "Elektromagnetisches Geschoss: Railgun hat Feldtest erfolgreich absolviert",
+      "link": "https://www.golem.de/news/elektromagnetisches-geschoss-railgun-hat-feldtest-erfolgreich-absolviert-2607-210828.html",
+      "summary": "Das deutsch-französische Projekt will die Technik bis zur Einsatzreife weiterentwickelt. Es dient speziell dem Schutz vor Hyperschallwaffen. ( Militär , Politik )",
+      "source": "golem",
+      "pubDate": "2026-07-14T07:43:01+00:00"
+    },
+    {
+      "title": "Künstliche Intelligenz: Claude 3 kann festgelegten Prinzipien folgen",
+      "link": "https://www.golem.de/news/kuenstliche-intelligenz-claude-3-kann-festgelegten-prinzipien-folgen-2607-210834.html",
+      "summary": "Anthropic hat untersucht, inwieweit Claude in verschiedenen Sprachräumen den vorgegebenen Werten treu bleibt. ( KI , Software )",
+      "source": "golem",
+      "pubDate": "2026-07-14T07:35:01+00:00"
+    },
+    {
+      "title": "Telegram-Messenger: Kurzdomain t.me womöglich wegen US-Sanktionen gesperrt",
+      "link": "https://www.heise.de/news/Telegram-Messenger-Kurzdomain-t-me-womoeglich-wegen-US-Sanktionen-gesperrt-11363793.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die Domain wurde von der Vergabestelle des Landes Montenegro blockiert - womöglich stecken US-Sanktionen gegen einen VPN-Anbieter dahinter.",
+      "source": "heise",
+      "pubDate": "2026-07-14T07:31:00+00:00"
+    },
+    {
+      "title": "Betrügerischer Ransomware-Verhandler muss 70 Monate ins Gefängnis",
+      "link": "https://www.heise.de/news/Betruegerischer-Ransomware-Verhandler-muss-70-Monate-ins-Gefaengnis-11363745.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das Urteil ist gefallen: Für 70 Monate wandert ein betrügerischer Ransomware-Verhandler aus Florida hinter Gitter.",
+      "source": "heise",
+      "pubDate": "2026-07-14T07:29:00+00:00"
+    },
     {
       "title": "Dreo-Nebelventilator im Test: Was taugt ein Wassernebel-Ventilator bei der nächsten Hitzewelle?",
       "link": "https://www.golem.de/news/dreo-nebelventilator-im-test-was-taugt-ein-wassernebel-ventilator-bei-der-naechsten-hitzewelle-2607-210697.html",
@@ -174,109 +272,11 @@
       "pubDate": "2026-07-14T07:00:02+00:00"
     },
     {
-      "title": "heise+ | Radio, Netzteil oder Messgerät: Ein modulares Gehäuse im Selbstbau",
-      "link": "https://www.heise.de/ratgeber/Radio-Netzteil-oder-Messgeraet-Ein-modulares-Gehaeuse-im-Selbstbau-11332936.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Mit DesignSpark Mechanical baut man modulare Gehäuse, die sich mit minimalem Aufwand an verschiedene Elektronikprojekte anpassen lassen.",
-      "source": "heise",
-      "pubDate": "2026-07-14T07:00:00+00:00"
-    },
-    {
       "title": "GJ 3378b: Potenziell bewohnbarer Gesteinsplanet entdeckt",
       "link": "https://www.golem.de/news/gj-3378b-potenziell-bewohnbarer-gesteinsplanet-entdeckt-2607-210732.html",
       "summary": "Der Exoplanet GJ 3378b ist zunächst als Mini-Neptun eingestuft worden. Nach neuen Beobachtungen scheint es sich jedoch um eine Supererde zu handeln. ( Exoplanet , Astronomie )",
       "source": "golem",
       "pubDate": "2026-07-14T06:48:02+00:00"
-    },
-    {
-      "title": "t.me-Domain nicht erreichbar: Telegram-Links funktionieren nicht",
-      "link": "https://www.golem.de/news/t-me-domain-nicht-erreichbar-telegram-links-funktionieren-nicht-2607-210830.html",
-      "summary": "Unzählige im Netz kursierende Links zu Nutzern, Gruppen und Kanälen auf Telegram sind derzeit kaputt. Die Domain wird nicht mehr aufgelöst. ( Telegram , Instant Messenger )",
-      "source": "golem",
-      "pubDate": "2026-07-14T06:39:01+00:00"
-    },
-    {
-      "title": "Software Testing: Dokumentation mit KI-Personas automatisch prüfen",
-      "link": "https://www.heise.de/blog/Software-Testing-Dokumentation-mit-KI-Personas-automatisch-pruefen-11362242.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "KI-Personas können das Verhalten von Entwicklerinnen und Entwicklern simulieren, um eine Dokumentation zu prüfen, wie Ingo Eichhorst im Gespräch ausführt.",
-      "source": "heise",
-      "pubDate": "2026-07-14T06:24:00+00:00"
-    },
-    {
-      "title": "Mitmachaktion: Wie ist es bei dir mit ständiger Erreichbarkeit?",
-      "link": "https://www.golem.de/news/mitmachaktion-wie-ist-es-bei-dir-mit-staendiger-erreichbarkeit-2607-210813.html",
-      "summary": "Die Vermischung von privaten und beruflichen Kommunikationskanälen hat einen neuen Höchststand erreicht. Wie geht es dir damit? ( Arbeit , Instant Messenger )",
-      "source": "golem",
-      "pubDate": "2026-07-14T06:05:02+00:00"
-    },
-    {
-      "title": "heise-Angebot: iX-Workshop: Microsoft 365 sicher einrichten und datenschutzkonform betreiben",
-      "link": "https://www.heise.de/news/iX-Workshop-Microsoft-365-sicher-einrichten-und-datenschutzkonform-betreiben-11354392.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Microsoft 365 sicher betreiben und notwendige Maßnahmen in Bezug auf Datenschutz und Informationssicherheit umsetzen.",
-      "source": "heise",
-      "pubDate": "2026-07-14T06:00:00+00:00"
-    },
-    {
-      "title": "SpaceX: FAA mit Untersuchung zufrieden, Starship soll am Donnerstag abheben",
-      "link": "https://www.heise.de/news/SpaceX-FAA-mit-Untersuchung-zufrieden-Starship-soll-am-Donnerstag-abheben-11363647.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "2026 hat SpaceX bislang nur ein Starship gestartet, aber jetzt soll es weitergehen: Nach der Freigabe durch die FAA soll die Riesenrakete am Donnerstag abheben.",
-      "source": "heise",
-      "pubDate": "2026-07-14T05:59:00+00:00"
-    },
-    {
-      "title": "HNF Paderborn zeigt Original-Racks des historischen Whirlwind-Rechners",
-      "link": "https://www.heise.de/news/Der-Wirbelsturm-der-die-Computerentwicklung-beeinflusste-11363643.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das Heinz Nixdorf Museumsforum zeigt nun Original-Racks des Whirlwind-Rechners. Der Computer legte 1951 den Grundstein für moderne Echtzeitsysteme.",
-      "source": "heise",
-      "pubDate": "2026-07-14T05:50:00+00:00"
-    },
-    {
-      "title": "Alte Cisco-Lücke attackiert: Leitfaden zum Schutz",
-      "link": "https://www.heise.de/news/Alte-Cisco-Luecke-attackiert-Leitfaden-zum-Schutz-11363639.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die US-IT-Sicherheitsbehörde CISA warnt vor Angriffen auf eine 18 Jahre alte Cisco-Lücke. Ein Leitfaden soll helfen, Router abzusichern.",
-      "source": "heise",
-      "pubDate": "2026-07-14T05:38:00+00:00"
-    },
-    {
-      "title": "Berliner Justiz-IT nach Lizenzproblemen komplett ausgefallen",
-      "link": "https://www.heise.de/news/Massiver-IT-Ausfall-bei-der-Berliner-Justiz-Stillstand-11363631.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Technische Probleme bei den Berliner Gerichten haben sich massiv zugespitzt. Richter und Beschäftigte können nicht mehr auf elektronische Akten zugreifen.",
-      "source": "heise",
-      "pubDate": "2026-07-14T05:35:00+00:00"
-    },
-    {
-      "title": "heise+ | Bloggen im Bluesky-Ökosystem: Leaflet, Pckt und Offprint im Vergleich",
-      "link": "https://www.heise.de/ratgeber/Bloggen-im-Bluesky-Oekosystem-Leaflet-Pckt-und-Offprint-im-Vergleich-11359188.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Durch das AT-Protokoll können sich Inhalte im Bluesky-Ökosystem besser verbreiten, was mehr Besucher ins Blog führen kann. Drei Plattformen im Vergleich.",
-      "source": "heise",
-      "pubDate": "2026-07-14T05:30:00+00:00"
-    },
-    {
-      "title": "Anzeige: Cloud Competence Center: Roadmap und Governance",
-      "link": "https://www.golem.de/news/anzeige-cloud-competence-center-roadmap-und-governance-2607-206827.html",
-      "summary": "Ein Cloud Competence Center bündelt Rollen, Verantwortung und Entscheidungswege für die Cloud. Ein Workshop zeigt, wie sich Cloud-Strategie, Governance und Change/Adoption zusammenführen lassen. ( Gol…",
-      "source": "golem",
-      "pubDate": "2026-07-14T05:15:01+00:00"
-    },
-    {
-      "title": "The US government warns that Russia state hackers are coming after your router",
-      "link": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
-      "summary": "With residential proxies all the rage, CISA urges router users to be vigilant.",
-      "source": "ars technica",
-      "pubDate": "2026-07-13T21:03:07+00:00"
-    },
-    {
-      "title": "Dark Fiber statt Bitstrom: Telekom kauft bei M-net zu Dumpingpreisen ein",
-      "link": "https://www.golem.de/news/dark-fiber-statt-bitstrom-telekom-kaufte-bei-m-net-zu-dumpingpreisen-ein-2607-210827.html",
-      "summary": "Unter dem Druck eines drohenden Überbaus musste M-net der Telekom einen günstigen Zugang zur eigenen passiven Glasfaser gewähren. Der lokale Netzbetreiber warnt nun davor, dies als Blaupause zu nutzen…",
-      "source": "golem",
-      "pubDate": "2026-07-13T20:06:02+00:00"
-    },
-    {
-      "title": "Google Wallet App: Paypal stellt seine App komplett um",
-      "link": "https://www.golem.de/news/google-wallet-app-paypal-stellt-seine-app-komplett-um-2607-210826.html",
-      "summary": "Paypal-Nutzer in Deutschland müssen sich an eine neue Menüführung gewöhnen. Hintergrund ist das Ende der Integration Paypals in Google Wallet. ( Paypal , Smartphone )",
-      "source": "golem",
-      "pubDate": "2026-07-13T19:25:02+00:00"
     }
   ]
 }
