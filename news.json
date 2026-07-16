@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T06:57:13.669397+00:00",
+  "updatedAt": "2026-07-16T07:41:24.331519+00:00",
   "wirtschaft": [
     {
       "title": "Berliner Unternehmen bestätigt: Uber übernimmt Delivery Hero für Milliardensumme",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Sorge vor mehr Schwarzarbeit : IAB-Chef: \"Minijobs unter 250 Euro sollten weiter bestehen\"",
+      "link": "https://www.n-tv.de/politik/IAB-Chef-Minijobs-unter-250-Euro-sollten-weiter-bestehen-id31091335.html",
+      "summary": "Im Zuge der Rentenreform schlägt eine Regierungskommission vor, Minijobs faktisch abzuschaffen. Wirtschaftsverbände reagieren empört. Jetzt warnt auch ein Forschungsinstitut vor den Folgen - und bring…",
+      "source": "n-tv",
+      "pubDate": "2026-07-16T07:36:14+00:00"
+    },
+    {
       "title": "\"Kämpferische Einheit stärken\": China und Nordkorea wollen enger zusammenrücken",
       "link": "https://www.n-tv.de/politik/China-und-Nordkorea-wollen-enger-zusammenruecken-id31090984.html",
       "summary": "China ist Nordkoreas wichtigster Verbündeter. Nun besucht eine Delegation aus Peking Pjöngjang. Beide Seiten bekräftigen, ihre Beziehungen weiter zu vertiefen.",
@@ -135,16 +142,65 @@
       "summary": "US-Präsident Trump ist für politische Volten berüchtigt. Nun erneut, diesmal in Bezug auf das Vorgehen der ICE-Agenten. Nachdem die kürzlich zwei Männer bei Verkehrskontrollen erschossen hatten, sollt…",
       "source": "n-tv",
       "pubDate": "2026-07-15T20:24:28+00:00"
-    },
-    {
-      "title": "Enttäuschung bei Shootingstar: Entsetzen in der Ukraine: Verteidigungsminister Fedorow ist Posten los",
-      "link": "https://www.n-tv.de/politik/Entsetzen-in-der-Ukraine-Fedorow-ist-Posten-los-id31090257.html",
-      "summary": "Die Anhänger von Mychajlo Fedorow hatten bis zuletzt gehofft, dass sich die Gerüchte nicht bestätigen. Doch nun ist klar, dass er nicht weiter den Posten des Verteidigungsministers innehaben wird. In …",
-      "source": "n-tv",
-      "pubDate": "2026-07-15T18:50:00+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Medizintechnik: China implantiert kommerzielles Gehirn-Interface",
+      "link": "https://www.golem.de/news/medizintechnik-china-implantiert-kommerzielles-gehirn-interface-2607-210930.html",
+      "summary": "Das chinesische Unternehmen Neuracle hat das weltweit erste kommerziell zugelassene invasive Hirnimplantat erfolgreich eingesetzt. ( BCI , Wissen )",
+      "source": "golem",
+      "pubDate": "2026-07-16T07:40:02+00:00"
+    },
+    {
+      "title": "Abgeordnete verärgert: Anthropic schickt Techniker zu EU-Anhörung",
+      "link": "https://www.golem.de/news/abgeordnete-veraergert-anthropic-schickt-techniker-zu-eu-anhoerung-2607-210929.html",
+      "summary": "Statt der Verantwortlichen für Politik und Öffentlichkeitsarbeit entsandte Anthropic einen Techniker und löste bei EU-Abgeordneten Unmut aus. ( KI , Politik )",
+      "source": "golem",
+      "pubDate": "2026-07-16T07:26:01+00:00"
+    },
+    {
+      "title": "Blender 5.2 LTS: Neue Simulationen und Eevee-Verbesserungen",
+      "link": "https://www.heise.de/news/Blender-5-2-LTS-Neue-Simulationen-und-Eevee-Verbesserungen-11366774.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Blender 5.2 LTS ist verfügbar – mit neuen Simulationen für Geometry Nodes, Eevee-Verbesserungen und Texturcache für Cycles.",
+      "source": "heise",
+      "pubDate": "2026-07-16T07:22:00+00:00"
+    },
+    {
+      "title": "Polizei greift durch: Großer Betrugsring mit über 700 Mitarbeitern zerschlagen",
+      "link": "https://www.golem.de/news/polizei-greift-durch-grosser-betrugsring-mit-ueber-700-mitarbeitern-zerschlagen-2607-210928.html",
+      "summary": "Die Betrüger sollen Anleger über 20 Callcenter systematisch um mehr als 100 Millionen Euro pro Monat gebracht haben. Doch damit ist jetzt Schluss. ( Cybercrime , Security )",
+      "source": "golem",
+      "pubDate": "2026-07-16T07:13:01+00:00"
+    },
+    {
+      "title": "Tarife: Mailbox.org hebt Preise an und verdoppelt Speicher",
+      "link": "https://www.golem.de/news/tarife-mailbox-org-hebt-preise-an-und-verdoppelt-speicher-2607-210927.html",
+      "summary": "Mailbox.org stellt seine Tarife für Privat- und Geschäftskunden um. Je nach Vertrag greifen die Änderungen zu unterschiedlichen Terminen. ( Unternehmen , E-Mail )",
+      "source": "golem",
+      "pubDate": "2026-07-16T07:05:01+00:00"
+    },
+    {
+      "title": "Programmiersprache Perl 5.44 führt benannte Funktionsparameter ein",
+      "link": "https://www.heise.de/news/Programmiersprache-Perl-5-44-fuehrt-benannte-Funktionsparameter-ein-11366654.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das aktuelle Perl geht einen weiteren Schritt in Richtung moderner Objektorientierung. Außerdem schließt Perl 5.44 drei Sicherheitslücken.",
+      "source": "heise",
+      "pubDate": "2026-07-16T07:03:00+00:00"
+    },
+    {
+      "title": "heise+ | Rundum beeindruckend: Vier 360-Grad-Kameras im Test",
+      "link": "https://www.heise.de/tests/Rundum-beeindruckend-Vier-360-Grad-Kameras-im-Test-11361590.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Actioncams mit zwei Objektiven öffnen die Türe für Filmtricks, die mit einzelnen Linsen nicht möglich sind. Wir haben vier 8K-fähige 360-Grad-Kameras getestet.",
+      "source": "heise",
+      "pubDate": "2026-07-16T07:00:00+00:00"
+    },
+    {
+      "title": "Model-Schau: Neues aus China und Europas Abhängigkeit",
+      "link": "https://www.heise.de/hintergrund/Model-Schau-Neues-aus-China-und-Europas-Abhaengigkeit-11366005.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die letzten Wochen haben nicht nur spannende neue Modelle gebracht, sondern gezeigt, wie abhängig Europa von US-Anbietern ist.",
+      "source": "heise",
+      "pubDate": "2026-07-16T07:00:00+00:00"
+    },
     {
       "title": "Künstliche Intelligenz: Südkorea plant kostenlosen KI-Zugang für alle Bürger",
       "link": "https://www.golem.de/news/kuenstliche-intelligenz-suedkorea-plant-kostenlosen-ki-zugang-fuer-alle-buerger-2607-210926.html",
@@ -216,13 +272,6 @@
       "pubDate": "2026-07-16T05:35:00+00:00"
     },
     {
-      "title": "heise+ | Postkarten-Apps im Test: Persönliche Urlaubsgrüße erstellen und verschicken",
-      "link": "https://www.heise.de/tests/Postkarten-Apps-im-Test-Persoenliche-Urlaubsgruesse-erstellen-und-verschicken-11347859.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Postkarten-Apps schlagen die Brücke zwischen analoger und digitaler Welt. Wir haben mit fünf Apps für Android getestet, wie gut das in der Praxis funktioniert.",
-      "source": "heise",
-      "pubDate": "2026-07-16T05:30:00+00:00"
-    },
-    {
       "title": "Iran-Konflikt: Telekommunikationsdaten zeigen Handyortung von US-Soldaten",
       "link": "https://www.golem.de/news/sicherheit-gezielte-handy-ortung-von-us-soldaten-waehrend-iran-konflikt-2607-210921.html",
       "summary": "Telekommunikationsdaten belegen wiederholte Versuche, US-Militärangehörige im Golf per Handyortung aufzuspüren - auch schon vor dem Iran-Krieg. ( Mobilfunk , Politik )",
@@ -235,55 +284,6 @@
       "summary": "Produkthersteller müssen Cyberrisiken, Schwachstellen und Lieferketten nachvollziehbar behandeln. Der Workshop vermittelt die dafür nötigen Prozesse und Nachweise. ( Golem Karrierewelt , Sicherheitslü…",
       "source": "golem",
       "pubDate": "2026-07-16T05:15:01+00:00"
-    },
-    {
-      "title": "heise+ | Renault Twingo E-Tech: Genügsamer E-Kleinwagen im Test",
-      "link": "https://www.heise.de/tests/Elektroauto-Renault-Twingo-E-Tech-im-Test-Sparsame-Groesse-11354594.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Im Test muss sich der Renault Twingo mit seinem 27,5-kWh-Akku im Alltag beweisen. Er überzeugt bei sommerlichen Temperaturen als eines der sparsamsten E-Autos.",
-      "source": "heise",
-      "pubDate": "2026-07-16T05:00:00+00:00"
-    },
-    {
-      "title": "Spotify: Verwaltete Kinderkonten jetzt auch ohne Abo",
-      "link": "https://www.heise.de/news/Spotify-Verwaltete-Kinderkonten-jetzt-auch-ohne-Abo-11366592.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Eltern können auf Spotify verwaltete Konten für ihre Kinder anlegen. Das geht jetzt auch ohne das teure Family-Abo.",
-      "source": "heise",
-      "pubDate": "2026-07-16T04:52:00+00:00"
-    },
-    {
-      "title": "Donnerstag: Schufa mit umstrittener Schattendatenbank, Klage wegen KI-Kündigung",
-      "link": "https://www.heise.de/news/Donnerstag-Schufa-mit-umstrittener-Schattendatenbank-Klage-wegen-KI-Kuendigung-11366584.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Kritik an historischen Daten der Schufa + Entlassungen auf KI-Basis + Amazon Leo statt Starlink in Musks Heimatland + ChatGPT-Anbindung in enercity + #heiseshow",
-      "source": "heise",
-      "pubDate": "2026-07-16T04:15:00+00:00"
-    },
-    {
-      "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
-      "link": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
-      "summary": "The convenience store chain will use StorMagic instead.",
-      "source": "ars technica",
-      "pubDate": "2026-07-15T21:41:56+00:00"
-    },
-    {
-      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
-      "link": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
-      "summary": "HiveLegacy is a \"powerful primitive\" that's likely capable of other nefarious actions.",
-      "source": "ars technica",
-      "pubDate": "2026-07-15T19:59:48+00:00"
-    },
-    {
-      "title": "Anzeige: Rockstar Energy fällt bei Amazon auf 10 Euro pro 12 halbe Liter",
-      "link": "https://www.golem.de/news/anzeige-rockstar-energy-faellt-bei-amazon-auf-10-euro-pro-12-halbe-liter-2607-210919.html",
-      "summary": "Amazon macht bei verschiedenen Sorten des Energydrinks von Rockstar erneut den Prime-Day-Preis. Der Deal gilt aber nur kurze Zeit. ( Unterhaltung & Hobby , Rockstar )",
-      "source": "golem",
-      "pubDate": "2026-07-15T17:05:08+00:00"
-    },
-    {
-      "title": "Übernahme: Apple braucht dringend ein KI-Hardware-Start-up",
-      "link": "https://www.golem.de/news/uebernahme-apple-braucht-dringend-ein-ki-hardware-start-up-2607-210920.html",
-      "summary": "Apple sondiert den Halbleitermarkt für größere Übernahmen. Denn der hauseigene KI-Serverchip Baltra kämpft mit Performance-Problemen. ( Apple , KI )",
-      "source": "golem",
-      "pubDate": "2026-07-15T17:03:02+00:00"
     }
   ]
 }
