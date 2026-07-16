@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-07-16T05:53:09.425059+00:00",
+  "updatedAt": "2026-07-16T06:57:13.669397+00:00",
   "wirtschaft": [
+    {
+      "title": "Berliner Unternehmen bestätigt: Uber übernimmt Delivery Hero für Milliardensumme",
+      "link": "https://www.n-tv.de/wirtschaft/Uber-uebernimmt-Delivery-Hero-fuer-Milliardensumme-id31091404.html",
+      "summary": "Uber greift wie erwartet nach Delivery Hero. Der US-Konzern legt den Aktionären des deutschen Essenslieferanten ein Angebot vor, das einem Transaktionsvolumen von mehreren Milliarden Euro entspricht.",
+      "source": "n-tv",
+      "pubDate": "2026-07-16T06:33:19+00:00"
+    },
     {
       "title": "Branche unter Druck: Bis zu 726.000 Jobs in Europas Autoproduktion bedroht",
       "link": "https://www.n-tv.de/wirtschaft/Bis-zu-726-000-Jobs-in-Europas-Autoproduktion-bedroht-id31091094.html",
@@ -63,13 +70,6 @@
       "summary": "Seine Untertanen zahlen keine Steuern, Kritik an ihm ist dafür praktisch verboten. Sultan Hassanal Bolkiah vereint märchenhaften Reichtum und uneingeschränkte Macht. Jetzt feiert Brunei seinen Monarch…",
       "source": "n-tv",
       "pubDate": "2026-07-15T13:10:38+00:00"
-    },
-    {
-      "title": "\"Spielball von Subventionen\": Deutsche Maschinenbauer fordern Ausgleichszölle gegen China",
-      "link": "https://www.n-tv.de/wirtschaft/Deutsche-Maschinenbauer-fordern-Ausgleichszoelle-gegen-China-id31086978.html",
-      "summary": "Maschinen \"Made in Germany\" sind weltweit gefragt. Deutsche Unternehmen müssen sich jedoch zunehmend gegen Konkurrenz aus China wehren. Der Branchenverband klagt über unfaire Wettbewerbspraktiken - un…",
-      "source": "n-tv",
-      "pubDate": "2026-07-15T09:30:37+00:00"
     }
   ],
   "politik": [
@@ -146,6 +146,55 @@
   ],
   "it": [
     {
+      "title": "Künstliche Intelligenz: Südkorea plant kostenlosen KI-Zugang für alle Bürger",
+      "link": "https://www.golem.de/news/kuenstliche-intelligenz-suedkorea-plant-kostenlosen-ki-zugang-fuer-alle-buerger-2607-210926.html",
+      "summary": "Ein neues staatliches Projekt in Südkorea soll allen Einwohnern kostenlosen und unbegrenzten Zugang zu Chatbots und KI-Assistenten bieten. ( KI , Nvidia )",
+      "source": "golem",
+      "pubDate": "2026-07-16T06:52:01+00:00"
+    },
+    {
+      "title": "Nach dem App-Debakel: Sonos-Kunden dürfen neues App-Design vorher testen",
+      "link": "https://www.golem.de/news/nach-dem-app-debakel-sonos-kunden-duerfen-neues-app-design-vorher-testen-2607-210924.html",
+      "summary": "Nach Sonos' App-Debakel vor zwei Jahren wählt das Unternehmen bewusst eine andere Strategie. Kunden können das neue App-Design ausprobieren. ( Sonos , Sound-Hardware )",
+      "source": "golem",
+      "pubDate": "2026-07-16T06:45:02+00:00"
+    },
+    {
+      "title": "Weg mit dem Kassenzettel: Bund reformiert Bonpflicht, Preisschilder und Steuern",
+      "link": "https://www.heise.de/news/Weg-mit-dem-Kassenzettel-Bund-reformiert-Bonpflicht-Preisschilder-und-Steuern-11366686.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das 2. Entlastungskabinett will spürbaren Bürokratieabbau schaffen. Im Fokus stehen auch ein Abschied vom Papierbon, neue Preisregeln und die digitale Steuer.",
+      "source": "heise",
+      "pubDate": "2026-07-16T06:32:00+00:00"
+    },
+    {
+      "title": "Forschung: Airbag im Weltall soll Sonnenstürme abwehren",
+      "link": "https://www.golem.de/news/forschung-airbag-im-weltall-soll-sonnenstuerme-abwehren-2607-210737.html",
+      "summary": "Statt sich nur auf Früherkennungssysteme für das Weltraum-Wetter zu verlassen, schlagen Forscher das Auslösen eines Airbags vor, sobald ein Sonnensturm die Erde erreichen sollte. ( Sonne , Studien )",
+      "source": "golem",
+      "pubDate": "2026-07-16T06:28:02+00:00"
+    },
+    {
+      "title": "„Star Wars“-Schöpfer George Lucas verteidigt KI-Einsatz in Filmen",
+      "link": "https://www.heise.de/news/Star-Wars-Schoepfer-George-Lucas-verteidigt-KI-Einsatz-in-Filmen-11366626.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "George Lucas hält KI für Fortschritt, der nicht aufzuhalten ist. Man könne genauso gut das Auto verschmähen, um noch mit Pferd und Kutsche zu fahren.",
+      "source": "heise",
+      "pubDate": "2026-07-16T06:25:00+00:00"
+    },
+    {
+      "title": "Zehn Jahre „Stranger Things“: Netflix zeigt Staffel 1 wie 1983",
+      "link": "https://www.heise.de/news/Stranger-Things-Netflix-veroeffentlicht-Staffel-1-zum-Jubilaeum-im-VHS-Look-11366602.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Netflix feiert zehn Jahre „Stranger Things“ mit einer „VHS Special Edition“ der ersten Staffel im Look von 1983 – inklusive 4:3-Format und Bildrauschen.",
+      "source": "heise",
+      "pubDate": "2026-07-16T06:01:00+00:00"
+    },
+    {
+      "title": "heise-Angebot: iX-Workshop API-Sicherheit: OWASP Top 10 API Security Risks",
+      "link": "https://www.heise.de/news/iX-Workshop-API-Sicherheit-OWASP-Top-10-API-Security-Risks-11354426.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Lernen Sie praxisnah, wie Sie Schwachstellen in der API-Implementierung vermeiden und Angriffe abwehren.",
+      "source": "heise",
+      "pubDate": "2026-07-16T06:00:00+00:00"
+    },
+    {
       "title": "Apples Desktop-Computer von 1998: iMac G3 könnte Lego-Set werden",
       "link": "https://www.golem.de/news/apples-desktop-computer-von-1998-imac-g3-koennte-lego-set-werden-2607-210922.html",
       "summary": "Ein Fanprojekt zum legendären Apple iMac G3 hat bei Lego die erste Hürde für ein Serienmodell genommen. Eine endgültige Entscheidung fehlt noch. ( iMac , Apple )",
@@ -160,7 +209,7 @@
       "pubDate": "2026-07-16T05:46:00+00:00"
     },
     {
-      "title": "Mozilla: DMA-Gesetzgebung mildert Microsofts Drängeltaktiken bei Browserwahl",
+      "title": "Mozilla wirft Microsoft manipulative Browserwahl-Taktiken vor",
       "link": "https://www.heise.de/news/Mozilla-DMA-Gesetzgebung-mildert-Microsofts-Draengeltaktiken-bei-Browserwahl-11366312.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Microsoft setzt laut einer Studie von Mozilla weiter auf manipulative Designs, um Nutzer zum Edge-Browser zu lenken. EU-Nutzer kriegten davon aber weniger ab.",
       "source": "heise",
@@ -174,7 +223,7 @@
       "pubDate": "2026-07-16T05:30:00+00:00"
     },
     {
-      "title": "Sicherheit: Gezielte Handy-Ortung von US-Soldaten während Iran-Konflikt",
+      "title": "Iran-Konflikt: Telekommunikationsdaten zeigen Handyortung von US-Soldaten",
       "link": "https://www.golem.de/news/sicherheit-gezielte-handy-ortung-von-us-soldaten-waehrend-iran-konflikt-2607-210921.html",
       "summary": "Telekommunikationsdaten belegen wiederholte Versuche, US-Militärangehörige im Golf per Handyortung aufzuspüren - auch schon vor dem Iran-Krieg. ( Mobilfunk , Politik )",
       "source": "golem",
@@ -209,39 +258,11 @@
       "pubDate": "2026-07-16T04:15:00+00:00"
     },
     {
-      "title": "#heiseshow: Chatkontrolle & IFG-Reform, GebäudemodG, Cyberabwehr ohne Microsoft",
-      "link": "https://www.heise.de/news/heiseshow-Chatkontrolle-IFG-Reform-GebaeudemodG-Cyberabwehr-ohne-Microsoft-11365907.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "In der #heiseshow: Chatkontrolle und IFG-Reform gefährden Demokratie, das GebäudemodG die Energiewende und die Schweiz will Cyberabwehr ohne Microsoft.",
-      "source": "heise",
-      "pubDate": "2026-07-16T04:15:00+00:00"
-    },
-    {
-      "title": "Schufa speichert veraltete Daten von Millionen Verbrauchern in Schattendatenbank",
-      "link": "https://www.heise.de/news/Schufa-speichert-veraltete-Daten-von-Millionen-Verbrauchern-in-Schattendatenbank-11366566.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die Schufa hält „historische Daten“ zu Testzwecken vor. Doch diese hätten längst gelöscht werden müssen. Es hagelt Kritik von Daten- und Verbraucherschützern.",
-      "source": "heise",
-      "pubDate": "2026-07-16T03:05:00+00:00"
-    },
-    {
-      "title": "KI-Kündigung: Kranke und behinderte Mitarbeiter verklagen Meta",
-      "link": "https://www.heise.de/news/KI-Kuendigung-Kranke-und-behinderte-Mitarbeiter-verklagen-Meta-11366544.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Im Krankenstand haben sie keine KI-Tokens verbraucht. Das habe zu schlechter KI-Bewertung und dem Verlust des Arbeitsplatzes geführt, klagen Meta-Mitarbeiter.",
-      "source": "heise",
-      "pubDate": "2026-07-15T22:01:00+00:00"
-    },
-    {
       "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
       "link": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
       "summary": "The convenience store chain will use StorMagic instead.",
       "source": "ars technica",
       "pubDate": "2026-07-15T21:41:56+00:00"
-    },
-    {
-      "title": "Amazons Leo kommt noch vor Starlink nach Südafrika",
-      "link": "https://www.heise.de/news/Amazons-Leo-kommt-noch-vor-Starlink-nach-Suedafrika-11366518.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Elon Musk bietet Starlink in seinem Heimatland nicht an. Amazon.com setzt für Leo auf örtliche Partner. So geht Business in Südafrika.",
-      "source": "heise",
-      "pubDate": "2026-07-15T20:29:00+00:00"
     },
     {
       "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
@@ -263,27 +284,6 @@
       "summary": "Apple sondiert den Halbleitermarkt für größere Übernahmen. Denn der hauseigene KI-Serverchip Baltra kämpft mit Performance-Problemen. ( Apple , KI )",
       "source": "golem",
       "pubDate": "2026-07-15T17:03:02+00:00"
-    },
-    {
-      "title": "Anzeige: Externes DVD-Laufwerk mit USB-Ports und Kartenleser zum Tiefstpreis",
-      "link": "https://www.golem.de/news/anzeige-externes-dvd-laufwerk-mit-usb-ports-und-kartenleser-zum-tiefstpreis-2607-210918.html",
-      "summary": "Kann mehr als nur Discs brennen und lesen: Ein vielseitiges externes Laufwerk für DVDs und CDs von Origbelie ist bei Amazon für unter 26 Euro im Angebot. ( Technik/Hardware , Amazon )",
-      "source": "golem",
-      "pubDate": "2026-07-15T16:46:01+00:00"
-    },
-    {
-      "title": "Anzeige: Kameradrohne von Potensic jetzt bei Amazon zum neuen Tiefstpreis mitnehmen",
-      "link": "https://www.golem.de/news/anzeige-kameradrohne-von-potensic-jetzt-bei-amazon-zum-neuen-tiefstpreis-mitnehmen-2607-210917.html",
-      "summary": "Mit einer Kameradrohne haben Hobbyfotografen viele neue Möglichkeiten. Ein Modell von Potensic ist bei Amazon jetzt zum Tiefstpreis erhältlich. ( Drohne , Luftfahrt )",
-      "source": "golem",
-      "pubDate": "2026-07-15T16:10:01+00:00"
-    },
-    {
-      "title": "Gaming: Warum Xbox trotz 80 Milliarden US-Dollar wieder neu anfangen muss",
-      "link": "https://www.golem.de/news/gaming-warum-xbox-trotz-80-milliarden-us-dollar-wieder-neu-anfangen-muss-2607-210914.html",
-      "summary": "Microsoft besitzt mehr Spielestudios und Marken als je zuvor. Trotzdem steckt Xbox mitten im tiefgreifendsten Umbau seiner Geschichte. Eine Analyse von Peter Steinlechner ( Xbox , Microsoft )",
-      "source": "golem",
-      "pubDate": "2026-07-15T15:59:02+00:00"
     }
   ]
 }
