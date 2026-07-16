@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T10:43:53.159685+00:00",
+  "updatedAt": "2026-07-16T11:33:04.945562+00:00",
   "wirtschaft": [
     {
       "title": "IW fordert Reform: 1,1 Millionen Babyboomer beziehen vorzeitig Rente",
@@ -74,6 +74,20 @@
   ],
   "politik": [
     {
+      "title": "\"Wir müssen komplett umdenken\": Finnlands Zivilschutz versetzt Wadephul in Staunen",
+      "link": "https://www.n-tv.de/politik/Finnlands-Zivilschutz-versetzt-Wadephul-in-Staunen-id31092361.html",
+      "summary": "Finnland bereitet sich auf einen möglichen russischen Angriff vor: In die Schutzräume der Hauptstadt passen Hunderttausende Menschen. Außenminister Wadephul stimmt das mit Blick auf Deutschlands Ausst…",
+      "source": "n-tv",
+      "pubDate": "2026-07-16T10:58:37+00:00"
+    },
+    {
+      "title": "Wenn das Private politisch ist: Den Doppelmoral-Vorwurf hat Jens Spahn kommen sehen",
+      "link": "https://www.n-tv.de/politik/Den-Doppelmoral-Vorwurf-hat-Jens-Spahn-kommen-sehen-id31092650.html",
+      "summary": "Der CDU-Politiker Jens Spahn wird Vater und prompt wird ihm Doppelmoral vorgeworfen - denn seine Partei lehnt die Legalisierung von Leihmutterschaften kategorisch ab. Auch alte Zitate werden rausgekra…",
+      "source": "n-tv",
+      "pubDate": "2026-07-16T10:54:17+00:00"
+    },
+    {
       "title": "Ausgaben in Milliardenhöhe: Über 100 US-Demokraten stimmen gegen Militärhilfe für Israel",
       "link": "https://www.n-tv.de/politik/Ueber-100-US-Demokraten-stimmen-gegen-Militaerhilfe-fuer-Israel-id31091851.html",
       "summary": "Innerhalb der Demokratischen Partei wachsen die Differenzen hinsichtlich der Ausrichtung gegenüber Israel. Eine Abstimmung über milliardenschwere Militärhilfen im US-Repräsentantenhaus macht das deutl…",
@@ -118,7 +132,7 @@
     {
       "title": "Präsidentenflugzeug im Fokus: \"New York Times\" wehrt sich gegen Trump-Einschüchterung",
       "link": "https://www.n-tv.de/politik/New-York-Times-wehrt-sich-gegen-Trump-Einschuechterung-id31090971.html",
-      "summary": "Für den Rückflug vom Nato-Gipfel steigt der US-Präsident kurzfristig auf seine von Katar geschenkte Maschine um. \"New York Times\"-Journalisten berichten von angeblichen Sicherheitsbedenken und erhalte…",
+      "summary": "Der US-Präsident fliegt nach dem Nato-Gipfel kurzfristig mit der alten Air Force One zurück – statt mit dem Flugzeug, das ihm Katar geschenkt hat. \"New York Times\"-Journalisten berichten von angeblich…",
       "source": "n-tv",
       "pubDate": "2026-07-16T05:17:55+00:00"
     },
@@ -128,29 +142,50 @@
       "summary": "\"Wo ist eigentlich Stauffenberg, wenn man ihn mal wirklich braucht?\", fragt Kabarettist Uwe Steimle mit Blick auf Kanzler Merz auf einem AfD-Event. Der Stauffenberg-Enkel reagiert empört und beklagt d…",
       "source": "n-tv",
       "pubDate": "2026-07-16T02:25:01+00:00"
-    },
-    {
-      "title": "Trump will \"keine Frist setzen\": US-Kampfjet setzt Tanker vor iranischem Hafen außer Gefecht",
-      "link": "https://www.n-tv.de/politik/US-Kampfjet-setzt-Tanker-vor-iranischem-Hafen-ausser-Gefecht-id31090455.html",
-      "summary": "Das US-Militär setzt im Nahen Osten die Blockade gegen iranische Häfen durch - und stoppt nun auf gewaltsame Weise einen Öltanker. Bei den angedrohten Angriffen auf Brücken rudert Trump dagegen leicht…",
-      "source": "n-tv",
-      "pubDate": "2026-07-16T00:35:00+00:00"
-    },
-    {
-      "title": "Firmen sollen mehr bezahlen: Städte und Gemeinden fordern stärkeren Anreiz zum Wassersparen",
-      "link": "https://www.n-tv.de/politik/Staedte-und-Gemeinden-fordern-staerkeren-Anreiz-zum-Wassersparen-id31090558.html",
-      "summary": "Deutschlands Städte und Gemeinden rufen zu einem sorgsameren Umgang mit Grundwasser auf. Dieses sei mit Blick auf Klimaveränderungen künftig auch hierzulande keine \"unbegrenzte Ressource\" mehr. Sie fo…",
-      "source": "n-tv",
-      "pubDate": "2026-07-16T00:28:55+00:00"
     }
   ],
   "it": [
+    {
+      "title": "(g+) IT-Jobs: Sich selbst zum Senior machen!",
+      "link": "https://www.golem.de/news/it-jobs-sich-selbst-zum-senior-machen-2607-210716.html",
+      "summary": "Aktuell stellen viele Unternehmen kaum noch Berufseinsteiger ein. Wie man sich in Zeiten von Einstellungsstopps selbst zum Senior macht. Ein Ratgebertext von Franziska Hauck ( Arbeit , Wirtschaft )",
+      "source": "golem",
+      "pubDate": "2026-07-16T11:30:02+00:00"
+    },
+    {
+      "title": "Rekord bei Wärmepumpen: Heizungsgesetz der Ampel zeigt Auswirkungen",
+      "link": "https://www.golem.de/news/rekord-bei-waermepumpen-heizungsgesetz-der-ampel-zeigt-auswirkungen-2607-210945.html",
+      "summary": "2025 war die Wärmepumpe erstmals die häufigste neu installierte Heizungsart. Grund war aber keineswegs eine Zunahme bei der Anzahl verbauter Geräte. ( Wärmepumpe , Energiewende )",
+      "source": "golem",
+      "pubDate": "2026-07-16T11:29:02+00:00"
+    },
+    {
+      "title": ".NET 11.0 Preview 6: Union Types machen sich in den .NET-Bibliotheken breit",
+      "link": "https://www.heise.de/news/NET-11-0-Preview-6-Union-Types-machen-sich-in-den-NET-Bibliotheken-breit-11366944.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Neben mehr Einsatzgebieten für Discriminated Unions bietet die Preview weitere Möglichkeiten zur asynchronen Validierung und Neues für die Prozessverwaltung.",
+      "source": "heise",
+      "pubDate": "2026-07-16T11:02:00+00:00"
+    },
+    {
+      "title": "Public Beta von Apple.: Diese Hardware darf mitspielen und so geht ein Downgrade",
+      "link": "https://www.heise.de/news/Neue-Betriebssysteme-als-Public-Beta-Unterstuetzte-Hardware-plus-Downgrade-Tipps-11364187.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "iOS 27, iPadOS 27, macOS 27 und Co. stehen zum Download bereit, wenn auch nur als öffentliche Beta. Ein Überblick der verwendbaren Geräte – und wichtige Tipps.",
+      "source": "heise",
+      "pubDate": "2026-07-16T10:49:00+00:00"
+    },
     {
       "title": "Spielekonsole von 1998: Sega Dreamcast bekommt Linux-Updates im Jahr 2026",
       "link": "https://www.golem.de/news/spielekonsole-von-1998-sega-dreamcast-bekommt-linux-updates-im-jahr-2026-2607-210943.html",
       "summary": "Die Sega Dreamcast ist 1998 herausgekommen und unterstützt seit Jahren auch Linux. Offenbar wird der Linux-Kernel sogar noch mit Fixes versorgt. ( Dreamcast , Eingabegerät )",
       "source": "golem",
       "pubDate": "2026-07-16T10:41:02+00:00"
+    },
+    {
+      "title": "KI-Assistent Bob 2.0 modernisiert IBM Z und Power-Systeme",
+      "link": "https://www.heise.de/news/KI-Assistent-Bob-2-0-modernisiert-IBM-Z-und-Power-Systeme-11367017.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "IBM Bob 2.0 soll auch Jahrzehnte alten Code verstehen und modernisieren können – mit KI-Agenten und Premium-Paketen für Z, i und Java.",
+      "source": "heise",
+      "pubDate": "2026-07-16T10:41:00+00:00"
     },
     {
       "title": "Anzeige: KFZ-Verbandstasche nach neuer DIN-Norm für 2026 jetzt für unter 10 Euro bei Amazon",
@@ -160,7 +195,7 @@
       "pubDate": "2026-07-16T10:35:01+00:00"
     },
     {
-      "title": "Buzz Aldrins Mondfilzer für knapp 860.000 US-Dollar versteigert",
+      "title": "Filzstift, der Apollo-11-Mission rettete, für knapp 860.000 US-Dollar verkauft",
       "link": "https://www.heise.de/news/Buzz-Aldrins-Mondfilzer-fuer-knapp-860-000-US-Dollar-versteigert-11367292.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Sotheby's hat einen Filzstift für knapp 860.000 US-Dollar versteigert. Der Stift von Buzz Aldrin spielte eine wichtige Rolle bei der ersten Mondlandung.",
       "source": "heise",
@@ -237,20 +272,6 @@
       "pubDate": "2026-07-16T09:46:00+00:00"
     },
     {
-      "title": "BGH zu Fitnessstudio-Kündigung: Kein Hinweis auf Pausieren",
-      "link": "https://www.heise.de/news/BGH-zu-Fitnessstudio-Kuendigung-Kein-Hinweis-auf-Pausieren-11367190.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Darf eine Kündigungsseite bei der Online-Kündigung eines Fitnessvertrags Alternativen wie Pausen anbieten? Der BGH hat dies nun verneint.",
-      "source": "heise",
-      "pubDate": "2026-07-16T09:39:00+00:00"
-    },
-    {
-      "title": "Kinderleicht auszutricksen: Apples Bildschirmzeit vor Neustart | Mac & i-Podcast",
-      "link": "https://www.heise.de/news/Kinderleicht-auszutricksen-Apples-Bildschirmzeit-vor-Neustart-Mac-i-Podcast-11367170.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Was bei Apples Kindersicherung bislang schiefläuft, wie es iOS 27 besser machen will und warum sich damit trotzdem nicht alle Probleme lösen lassen.",
-      "source": "heise",
-      "pubDate": "2026-07-16T09:37:00+00:00"
-    },
-    {
       "title": "Rollenspiel: Gothic Remake repariert Bugs und produziert gleich neue",
       "link": "https://www.golem.de/news/rollenspiel-gothic-remake-repariert-bugs-und-produziert-gleich-neue-2607-210936.html",
       "summary": "Eigentlich sollen Hotfixes Fehler beheben. Beim Gothic-Remake schaffen sie zuletzt immer wieder neue. ( Gothic , Rollenspiel )",
@@ -258,32 +279,11 @@
       "pubDate": "2026-07-16T09:35:02+00:00"
     },
     {
-      "title": "Apple-Klage: OpenAI sieht „keine Beweise“ für Diebstahl geistigen Eigentums",
-      "link": "https://www.heise.de/news/Apple-Klage-OpenAI-sieht-keine-Beweise-fuer-Diebstahl-geistigen-Eigentums-11366248.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die Anwälte des KI-Konzerns haben einen Blick auf die Klage von Apple geworfen. Man glaube an „fairen Wettbewerb“, hieß es danach in einem Statement.",
-      "source": "heise",
-      "pubDate": "2026-07-16T09:34:00+00:00"
-    },
-    {
       "title": "Kostenloses Musikstreaming: Spotify bringt Premium-Funktion gratis für alle Free-Kunden",
       "link": "https://www.golem.de/news/kostenloses-musikstreaming-spotify-bringt-premium-funktion-gratis-fuer-alle-free-kunden-2607-210935.html",
       "summary": "Sogenannte verwaltete Konten für Kinder gibt es bei Spotify auch, ohne für ein Abo zahlen zu müssen. Das hat aber einige Nachteile. ( Spotify , Streaming )",
       "source": "golem",
       "pubDate": "2026-07-16T09:18:01+00:00"
-    },
-    {
-      "title": "Mehr Frames in Games?: Youtuber testet Windows 11 auf der Steam Machine",
-      "link": "https://www.golem.de/news/mehr-frames-in-games-youtuber-testet-windows-11-auf-der-steam-machine-2607-210934.html",
-      "summary": "Windows 11 funktioniert dank neuer Treiber gut auf der Steam Machine. Laufen Spiele dadurch besser? Ein Youtuber hat es getestet. ( Steam Machine , Steam )",
-      "source": "golem",
-      "pubDate": "2026-07-16T09:01:01+00:00"
-    },
-    {
-      "title": "Chaotic Eclipse: Verärgerter Forscher leakt neuen Zero-Day-Exploit für Windows",
-      "link": "https://www.golem.de/news/chaotic-eclipse-veraergerter-forscher-leakt-neuen-zero-day-exploit-fuer-windows-2607-210933.html",
-      "summary": "Mit einem neuen Exploit namens Legacyhive können sich Angreifer unter Windows Adminrechte verschaffen. Einen Patch gibt es bisher nicht. ( Sicherheitslücke , Microsoft )",
-      "source": "golem",
-      "pubDate": "2026-07-16T08:47:01+00:00"
     }
   ]
 }
