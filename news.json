@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-07-20T08:00:56.852870+00:00",
+  "updatedAt": "2026-07-20T08:58:40.865717+00:00",
   "wirtschaft": [
+    {
+      "title": "Ladeinfrastruktur ausgebaut: Elektroautos werden immer günstiger",
+      "link": "https://www.n-tv.de/wirtschaft/Elektroautos-werden-immer-guenstiger-id31103923.html",
+      "summary": "Die Spritpreise sind für viele Bürger eine spürbare Belastung. Einer Studie zufolge stellen Elektroautos inzwischen eine bessere Alternative dar als noch vor fünf Jahren. Die Forscher erwarten zudem e…",
+      "source": "n-tv",
+      "pubDate": "2026-07-20T08:11:30+00:00"
+    },
     {
       "title": "Langzeitausfälle bleiben Problem: DAK meldet weniger Krankmeldungen bei der Arbeit",
       "link": "https://www.n-tv.de/wirtschaft/DAK-meldet-weniger-Krankmeldungen-bei-der-Arbeit-id31103744.html",
@@ -21,19 +28,12 @@
       "summary": "Die Regierung ermutigt die Chinesen, Kredite aufzunehmen und Geld auszugeben. Denn die Binnennachfrage soll die stockende Konjunktur beleben.",
       "source": "n-tv",
       "pubDate": "2026-07-19T12:19:01+00:00"
-    },
-    {
-      "title": "E-Autobauer sieht auch Risiken: Tesla steigert Gewinn in Grünheide deutlich",
-      "link": "https://www.n-tv.de/wirtschaft/Tesla-steigert-Gewinn-in-Gruenheide-deutlich-id31101689.html",
-      "summary": "Die Nachfrage nach Elektroautos zieht wieder an. Das gibt Tesla Rückenwind für seine Produktionsziele in Deutschland. Der Standort in Grünheide war bereits im vergangenen Jahr trotz sinkender Verkaufs…",
-      "source": "n-tv",
-      "pubDate": "2026-07-19T08:30:48+00:00"
     }
   ],
   "politik": [
     {
-      "title": "Nachfolge von Orban-Freund: Magyar will beste Schachspielerin der Geschichte zur ungarischen Präsidentin ernennen",
-      "link": "https://www.n-tv.de/politik/Magyar-will-beste-Schachspielerin-der-Geschichte-zur-ungarischen-Praesidentin-ernennen-id31103861.html",
+      "title": "Nachfolge eines Orban-Freundes: Magyar will beste Schachspielerin der Geschichte zu Ungarns Präsidentin ernennen",
+      "link": "https://www.n-tv.de/politik/Magyar-will-beste-Schachspielerin-der-Geschichte-zu-Ungarns-Praesidentin-ernennen-id31103861.html",
       "summary": "Am Samstag unterzeichnet der ungarische Präsident und Orban-Freund Tamas Sulyok seine eigene Absetzung. Auf der Suche nach einer Nachfolgerin wird Ministerpräsident Magyar bei einer Nationalheldin fün…",
       "source": "n-tv",
       "pubDate": "2026-07-20T07:11:59+00:00"
@@ -53,8 +53,8 @@
       "pubDate": "2026-07-20T03:27:00+00:00"
     },
     {
-      "title": "Eskalation im Nahen Osten: Neue Explosionen im Iran - Tanker in Straße von Hormus gesprengt",
-      "link": "https://www.n-tv.de/politik/Neue-Explosionen-im-Iran-Tanker-in-Strasse-von-Hormus-gesprengt-id31103486.html",
+      "title": "Eskalation im Nahen Osten: Neue Explosionen im Iran - Tanker in Straße von Hormus angegriffen",
+      "link": "https://www.n-tv.de/politik/Neue-Explosionen-im-Iran-Tanker-in-Strasse-von-Hormus-angegriffen-id31103486.html",
       "summary": "In der neunten Nacht in Folge greifen sich die USA und der Iran im Nahen Osten gegenseitig an. Laut Revolutionsgarden stehen auch Tanker in der Straße von Hormus unter Beschuss. Wer die Meerenge kontr…",
       "source": "n-tv",
       "pubDate": "2026-07-20T02:27:11+00:00"
@@ -103,6 +103,69 @@
     }
   ],
   "it": [
+    {
+      "title": "Angriff mit nur 11 Bytes: OpenSSL-Bug lässt Speicher von Servern volllaufen",
+      "link": "https://www.golem.de/news/angriff-mit-nur-11-bytes-openssl-bug-laesst-speicher-von-servern-volllaufen-2607-211051.html",
+      "summary": "Durch eine Sicherheitslücke in OpenSSL können Angreifer mit 11-Byte-Paketen den RAM anfälliger Server stark auslasten und Ausfälle herbeiführen. ( Sicherheitslücke , Apache )",
+      "source": "golem",
+      "pubDate": "2026-07-20T08:55:02+00:00"
+    },
+    {
+      "title": "Bundeswirtschaftsministerium: Solarförderung bekommt ein Auslaufmodell",
+      "link": "https://www.golem.de/news/bundeswirtschaftsministerium-solarfoerderung-bekommt-ein-auslaufmodell-2607-211049.html",
+      "summary": "Anstatt die Einspeisevergütung für private PV-Anlagen zu stoppen, soll ein Stufenmodell eingeführt werden. Damit bleibt Zeit für Alternativlösungen. ( Solarenergie , Politik )",
+      "source": "golem",
+      "pubDate": "2026-07-20T08:41:02+00:00"
+    },
+    {
+      "title": "heise+ | Ex-GitHub-Chef im Interview: Über den Unterschied zwischen Vibecoding und Pfusch",
+      "link": "https://www.heise.de/hintergrund/Ex-GitHub-Chef-im-Interview-Ueber-den-Unterschied-zwischen-Vibecoding-und-Pfusch-11203998.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Thomas Dohmke spricht über die Abkehr von Microsoft, die Abneigung gegen den Begriff Vibecoding und wie die US-Sperre von Fable sein Unternehmen betroffen hat.",
+      "source": "heise",
+      "pubDate": "2026-07-20T08:30:00+00:00"
+    },
+    {
+      "title": "Anzeige: Bevor es teuer wird - Apple Watch Series 11 jetzt wieder nur 379 Euro bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-bevor-es-teuer-wird-apple-watch-series-11-jetzt-wieder-nur-379-euro-bei-amazon-2607-211050.html",
+      "summary": "Die Apple Watch Series 11 mit Always-on-Display und umfangreichem Gesundheitstracking kostet bei Amazon gerade wieder deutlich weniger. ( Technik/Hardware , Apple )",
+      "source": "golem",
+      "pubDate": "2026-07-20T08:28:01+00:00"
+    },
+    {
+      "title": "Volkswagen sperrt Nutzer von Custom ROMs aus der VW-App aus",
+      "link": "https://www.heise.de/news/Volkswagen-sperrt-Nutzer-von-Custom-ROMs-aus-der-VW-App-aus-11370478.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Volkswagen hat den Zugriff auf seine App für Nutzer von Custom ROMs wie GrapheneOS oder LineageOS gesperrt. Grund ist die Google Play Integrity API.",
+      "source": "heise",
+      "pubDate": "2026-07-20T08:21:00+00:00"
+    },
+    {
+      "title": "iPhone-Preise beginnen zu steigen – aber vorerst nur in einem Land",
+      "link": "https://www.heise.de/news/iPhone-Preise-beginnen-zu-steigen-aber-vorerst-nur-in-einem-Land-11370154.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Weltweit hat Apple die Tarife für iPads, Macs und Zubehör angezogen, Smartphones blieben verschont. In einem Markt hat sich das nun verändert.",
+      "source": "heise",
+      "pubDate": "2026-07-20T08:18:00+00:00"
+    },
+    {
+      "title": "Hugging Face: KI-Plattform wurde Opfer eines KI-Angriffs",
+      "link": "https://www.heise.de/news/Hugging-Face-IT-Sicherheitsvorfall-bei-KI-Plattform-11370448.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die Plattform zum Teilen quelloffener KI-Modelle und -Datensätze Hugging Face wurde Opfer eines Cyberangriffs einer KI.",
+      "source": "heise",
+      "pubDate": "2026-07-20T08:18:00+00:00"
+    },
+    {
+      "title": "heise-Angebot: iX-Workshop: Incident Leadership – Kommunizieren und Entscheiden im Krisenfall",
+      "link": "https://www.heise.de/news/iX-Workshop-Incident-Leadership-Kommunizieren-und-Entscheiden-im-Krisenfall-11362140.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Lernen Sie, wie Sie unter Druck klare Entscheidungen treffen und ruhig kommunizieren, um Ihr IT-Team sicher durch Krisensituationen zu steuern.",
+      "source": "heise",
+      "pubDate": "2026-07-20T08:00:00+00:00"
+    },
+    {
+      "title": "Auswirkungen der chinesischen Luxussteuer auf deutsche Premium-Hersteller",
+      "link": "https://www.heise.de/news/Auswirkungen-der-chinesischen-Luxussteuer-auf-deutsche-Premium-Hersteller-11370442.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "In China läuft es für die sogenannten Premium-Autohersteller aus Deutschland schon länger nicht mehr rund. Vor einem Jahr kam noch eine Luxusauto-Steuer hinzu.",
+      "source": "heise",
+      "pubDate": "2026-07-20T07:58:00+00:00"
+    },
     {
       "title": "Playstation: Sonys Next-Gen-Controller könnte modular werden",
       "link": "https://www.golem.de/news/playstation-sonys-next-gen-controller-koennte-modular-werden-2607-211047.html",
@@ -160,13 +223,6 @@
       "pubDate": "2026-07-20T06:50:02+00:00"
     },
     {
-      "title": "Shark-Saugroboter: Sicherheitslücke ermöglicht Übernahme aus dem Netz",
-      "link": "https://www.heise.de/news/Shark-Saugroboter-Sicherheitsluecke-ermoeglicht-Uebernahme-aus-dem-Netz-11370282.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ein IT-Sicherheitsforscher hat eine Schwachstelle in Shark-Saugrobotern entdeckt, die die Übernahme aus dem Internet ermöglicht.",
-      "source": "heise",
-      "pubDate": "2026-07-20T06:39:00+00:00"
-    },
-    {
       "title": "Großbritannien: E-Autos sollen künftig kilometerweise besteuert werden",
       "link": "https://www.golem.de/news/grossbritannien-e-autos-sollen-kuenftig-kilometerweise-besteuert-werden-2607-211043.html",
       "summary": "Ab 2028 zahlen E-Auto-Besitzer in Großbritannien für jeden gefahrenen Kilometer extra. ( Elektroauto , Auto )",
@@ -181,67 +237,11 @@
       "pubDate": "2026-07-20T06:28:01+00:00"
     },
     {
-      "title": "heise-Angebot: secIT digital: Grundschutz++/Cyber Resilience Act richtig und effektiv umsetzen",
-      "link": "https://www.heise.de/news/secIT-digital-Grundschutz-Cyber-Resilience-Act-richtig-und-effektiv-umsetzen-11351647.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Alle Infos auf der secIT digital: Ab September 2026 gelten die ersten Vorgaben des CRA. Das IT-Sicherheitskonzept Grundschutz++ soll 2026 finalisiert werden.",
-      "source": "heise",
-      "pubDate": "2026-07-20T06:00:00+00:00"
-    },
-    {
-      "title": "Warum in Deutschland so viele Online-Bewertungen verschwinden",
-      "link": "https://www.heise.de/news/Viele-Restaurants-und-Hotels-loeschen-Online-Bewertungen-11370258.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Immer mehr Restaurants und Hotels löschen Bewertungen auf Google. Warum Deutschland dabei europaweit hervorsticht und was Kritik von Fake unterscheidet.",
-      "source": "heise",
-      "pubDate": "2026-07-20T05:56:00+00:00"
-    },
-    {
       "title": "KI-Musik: Suno soll heimlich Millionen Songs gesammelt haben",
       "link": "https://www.golem.de/news/ki-musik-suno-soll-heimlich-millionen-songs-gesammelt-haben-2607-211042.html",
       "summary": "Interne Dateien sollen zeigen, wie Suno systematisch Songs und Podcasts von Plattformen wie Youtube Music, Deezer und Genius abgegriffen habe. ( KI , RIAA )",
       "source": "golem",
       "pubDate": "2026-07-20T05:49:01+00:00"
-    },
-    {
-      "title": "Weltraumschrott von SpaceX vor Einschlag auf dem Mond: NASA-Sonde soll nachsehen",
-      "link": "https://www.heise.de/news/Weltraumschrott-von-SpaceX-vor-Einschlag-auf-dem-Mond-NASA-Sonde-soll-nachsehen-11370236.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "In zwei Wochen wird eine SpaceX-Raketenstufe auf dem Mond einschlagen, auf der Erde wird das wohl nicht sichtbar sein. Ein NASA-Orbiter soll später nachsehen.",
-      "source": "heise",
-      "pubDate": "2026-07-20T05:39:00+00:00"
-    },
-    {
-      "title": "Cloud: AWS-Kunden erhalten Rechnungen in Billionenhöhe",
-      "link": "https://www.golem.de/news/cloud-aws-kunden-erhalten-rechnungen-in-billionenhoehe-2607-211041.html",
-      "summary": "Ein Fehler im Abrechnungssystem von Amazon Web Services hat weltweit Verwirrung ausgelöst. Statt weniger Dollar sahen Kunden exorbitante Summen. ( AWS , Web Service )",
-      "source": "golem",
-      "pubDate": "2026-07-20T05:30:02+00:00"
-    },
-    {
-      "title": "heise+ | Midea PortaSplit: Das Maximum herausholen mit Home Assistant",
-      "link": "https://www.heise.de/ratgeber/Midea-PortaSplit-Das-Maximum-herausholen-mit-Home-Assistant-11348755.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Mideas mobile Split-Klimaanlage lässt sich per Home Assistant bedienen und automatisieren. So lässt sich das Gerät sogar offline steuern.",
-      "source": "heise",
-      "pubDate": "2026-07-20T05:30:00+00:00"
-    },
-    {
-      "title": "Anzeige: KI-Agenten im Unternehmen: Workshop mit Praxisdemos",
-      "link": "https://www.golem.de/news/anzeige-ki-agenten-im-unternehmen-workshop-mit-praxisdemos-2607-209735.html",
-      "summary": "KI-Agenten versprechen mehr Autonomie als Chatbots. Für Unternehmen zählt, ob Sicherheit, Kosten und Nutzen belastbar sind. Ein Workshop ordnet die Praxis ein. ( Golem Karrierewelt , Programmiersprach…",
-      "source": "golem",
-      "pubDate": "2026-07-20T05:15:05+00:00"
-    },
-    {
-      "title": "Medienbericht: Viele Xbox-Studioleiter lehnen Game Pass offenbar ab",
-      "link": "https://www.golem.de/news/medienbericht-viele-xbox-studioleiter-lehnen-game-pass-offenbar-ab-2607-211039.html",
-      "summary": "Innerhalb der Xbox-Studios wächst der Widerstand gegen Game Pass. Verantwortliche sehen den Wert ihrer Spiele durch den Dienst gemindert. ( Xbox , Microsoft )",
-      "source": "golem",
-      "pubDate": "2026-07-20T05:15:01+00:00"
-    },
-    {
-      "title": "heise+ | Elektroauto Kia EV2 im Test: Kurz und gut",
-      "link": "https://www.heise.de/tests/Elektroauto-Kia-EV2-im-Test-Kurz-und-gut-11354828.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Gemessen daran, dass der EV2 ein Kleinwagen ist, fährt er ziemlich erwachsen und ist auch mit der kleinen Batterie empfehlenswert, sofern das Profil stimmt.",
-      "source": "heise",
-      "pubDate": "2026-07-20T05:00:00+00:00"
     }
   ]
 }
