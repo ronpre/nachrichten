@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-07-27T10:18:43.347084+00:00",
+  "updatedAt": "2026-07-27T11:07:51.425522+00:00",
   "wirtschaft": [
+    {
+      "title": "Literpreis weiter über zwei Euro: Benzinpreise sinken zu Wochenbeginn leicht",
+      "link": "https://www.n-tv.de/wirtschaft/Benzinpreise-sinken-zu-Wochenbeginn-leicht-id31129030.html",
+      "summary": "Die Angriffe rund um die für den Ölhandel wichtige Straße von Hormus beruhigen sich zu Beginn der neuen Woche etwas, was sich direkt beim Rohölpreis bemerkbar macht. Inmitten der Schulferien tanken Au…",
+      "source": "n-tv",
+      "pubDate": "2026-07-27T11:04:09+00:00"
+    },
+    {
+      "title": "\"Weniger pessimistisch\": Ifo-Geschäftsklima verbessert sich trotz Nahost-Eskalation leicht",
+      "link": "https://www.n-tv.de/wirtschaft/Ifo-Geschaeftsklima-verbessert-sich-trotz-Nahost-Eskalation-leicht-id31128775.html",
+      "summary": "Der Konflikt rund um die Straße von Hormus ist weiter ungelöst, das Ifo-Geschäftsklima steigt hierzulande dennoch überraschend. Ökonomen warnen, dass steigende Ölpreise die zarte Konjunkturerholung au…",
+      "source": "n-tv",
+      "pubDate": "2026-07-27T10:23:09+00:00"
+    },
     {
       "title": "Leasing eines Rechenzentrums: Bericht: Nvidia verhandelt über Milliarden-Bürgschaft für OpenAI",
       "link": "https://www.n-tv.de/wirtschaft/Bericht-Nvidia-verhandelt-ueber-Milliarden-Buergschaft-fuer-OpenAI-id31127969.html",
@@ -104,6 +118,48 @@
   ],
   "it": [
     {
+      "title": "OpenAI startet Apple-Health-Anbindung für ChatGPT",
+      "link": "https://www.heise.de/news/OpenAI-startet-Apple-Health-Anbindung-fuer-ChatGPT-11377976.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Schon länger hatte OpenAI versucht, Zugriff auf Apples Gesundheits-App zu erlangen. Nun steht die Schnittstelle zumindest in den USA bereit.",
+      "source": "heise",
+      "pubDate": "2026-07-27T10:59:00+00:00"
+    },
+    {
+      "title": "700.000 Nutzer betroffen: Sündhaftes Datenleck bei Gebets-App des Papstes",
+      "link": "https://www.golem.de/news/700-000-nutzer-betroffen-suendhaftes-datenleck-bei-gebets-app-des-papstes-2607-211313.html",
+      "summary": "Eine Forscherin hat die offizielle Gebets-App des Papstes untersucht. \"Gottes Tech-Stack\" erwies sich dabei als angreifbar. ( Sicherheitslücke , API )",
+      "source": "golem",
+      "pubDate": "2026-07-27T10:46:02+00:00"
+    },
+    {
+      "title": "Anzeige: Beliebter Multitool-Stift mit LED-Lampe jetzt zum Jahresbestpreis nur rund 14 Euro",
+      "link": "https://www.golem.de/news/anzeige-beliebter-multitool-stift-mit-led-lampe-jetzt-zum-jahresbestpreis-nur-rund-14-euro-2607-211312.html",
+      "summary": "Taschenlampe, Glasbrecher, Kugelschreiber und Multitool in einem: Der vielseitige Stift jetzt wieder günstig bei Amazon. ( Technik/Hardware , Amazon )",
+      "source": "golem",
+      "pubDate": "2026-07-27T10:36:01+00:00"
+    },
+    {
+      "title": "Audi kappt Jahresziele: Umsatz und Marge sinken, China-Geschäft bricht ein",
+      "link": "https://www.heise.de/news/Audi-kappt-Jahresziele-Umsatz-und-Marge-sinken-China-Geschaeft-bricht-ein-11378832.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Audi senkt die Jahresprognose deutlich. Trotz steigender Marge belastet das China-Geschäft massiv. In Deutschland boomt derweil die E-Auto-Nachfrage.",
+      "source": "heise",
+      "pubDate": "2026-07-27T10:35:00+00:00"
+    },
+    {
+      "title": "Rockstar Games: GTA 6 hat harten Region Lock für PS5-Downloadcodes",
+      "link": "https://www.golem.de/news/rockstar-games-gta-6-hat-harten-region-lock-fuer-ps5-downloadcodes-2607-211311.html",
+      "summary": "Rockstar Games bestätigt einen Region Lock auf der Playstation 5. Für die Xbox gibt es keine vergleichbaren Einschränkungen. ( GTA 6 , Rockstar )",
+      "source": "golem",
+      "pubDate": "2026-07-27T10:24:01+00:00"
+    },
+    {
+      "title": "Umweltschützer warnen vor Gefahren durch Rechenzentren im Weltall",
+      "link": "https://www.heise.de/news/Umweltschuetzer-warnen-vor-Gefahren-durch-Rechenzentren-im-Weltall-11378850.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Millionen neuer Satelliten für KI-Rechenleistung aus dem All könnten laut Experten die Erdatmosphäre nachhaltig schädigen und den Nachthimmel völlig verändern.",
+      "source": "heise",
+      "pubDate": "2026-07-27T10:19:00+00:00"
+    },
+    {
       "title": "Emulator: Erste Hinweise auf Xbox-360-Spiele für den PC",
       "link": "https://www.golem.de/news/emulator-erste-hinweise-auf-xbox-360-spiele-fuer-den-pc-2607-211309.html",
       "summary": "Dataminer haben Indizien gefunden, dass Microsofts neue PC-Abwärtskompatibilität bereits die Grundlage für Xbox-360-Spiele enthält. ( Xbox 360 , Microsoft )",
@@ -127,7 +183,7 @@
     {
       "title": "Raspberry Pi beim Militär: Bastelrechner im Drohneneinsatz",
       "link": "https://www.golem.de/news/raspberry-pi-beim-militaer-bastelrechner-im-drohneneinsatz-2607-211128.html",
-      "summary": "Weil zivile Einplatinenrechner billig, leistungsfähig und verfügbar sind, werden sie zu einem Standardbaustein moderner Drohnen. Ein Deep Dive von Erik Bärwaldt ( Militär , Mesh )",
+      "summary": "Weil zivile Einplatinenrechner billig, leistungsfähig und verfügbar sind, werden sie zu einem Standardbaustein moderner Drohnen. Ein Deep Dive von Erik Bärwaldt ( Militär , Politik )",
       "source": "golem",
       "pubDate": "2026-07-27T10:00:02+00:00"
     },
@@ -195,53 +251,11 @@
       "pubDate": "2026-07-27T09:11:02+00:00"
     },
     {
-      "title": "Hochauflösende Version: Illegale Kopie von Nolans Die Odyssee auf X verbreitet",
-      "link": "https://www.golem.de/news/hochaufloesende-version-illegale-kopie-von-nolans-die-odyssee-auf-x-verbreitet-2607-211303.html",
-      "summary": "Etwa 2,1 Millionen Konten hatten stundenlang Zugriff auf eine hochauflösende Version von Die Odyssee mit Matt Damon. ( Christopher Nolan , Urheberrecht )",
-      "source": "golem",
-      "pubDate": "2026-07-27T08:55:02+00:00"
-    },
-    {
       "title": "Angreifer können MongoDB abstürzen lassen und Daten manipulieren",
       "link": "https://www.heise.de/news/Angreifer-koennen-MongoDB-abstuerzen-lassen-und-Daten-manipulieren-11378494.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Die MongoDB-Entwickler haben in aktuellen Versionen zahlreiche Sicherheitslücken geschlossen. Bislang gibt es keine Hinweise auf laufende Attacken.",
       "source": "heise",
       "pubDate": "2026-07-27T08:50:00+00:00"
-    },
-    {
-      "title": "Russische Angreifer: Microsoft-365-Zugangsklau durch Hotel-Router",
-      "link": "https://www.heise.de/news/Russische-Angreifer-Microsoft-365-Zugangsklau-durch-Hotel-Router-11378714.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "IT-Forscher haben unterwanderte Hotel-WLAN-Router entdeckt, durch die russische Angreifer Microsoft-365-Zugangsdaten abgreifen.",
-      "source": "heise",
-      "pubDate": "2026-07-27T08:46:00+00:00"
-    },
-    {
-      "title": "Anzeige: DJI-Smartphone-Gimbal jetzt zum neuen Bestpreis nur noch 109 Euro bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-dji-smartphone-gimbal-jetzt-zum-neuen-bestpreis-nur-noch-109-euro-bei-amazon-2607-211304.html",
-      "summary": "Stabile Videos, smartes Tracking und integriertes Licht: Der DJI Osmo Mobile 8 ist bei Amazon zum neuen Bestpreis zu haben. ( Smartphone , DJI )",
-      "source": "golem",
-      "pubDate": "2026-07-27T08:38:01+00:00"
-    },
-    {
-      "title": "KIMI K3: US-Tech kämpft für offene KI-Modelle",
-      "link": "https://www.golem.de/news/kimi-k3-us-tech-kaempft-fuer-offene-ki-modelle-2607-211301.html",
-      "summary": "Microsoft, Nvidia und inzwischen 50 US-Unternehmen warnen Washington vor überstürzten Regeln für offene KI-Modelle. Auslöser ist Kimi K3 aus China. ( KI , IBM )",
-      "source": "golem",
-      "pubDate": "2026-07-27T08:31:02+00:00"
-    },
-    {
-      "title": "heise+ | Ausprobiert: Workstation mit viermal Intel Arc Pro B70 mit 384 GByte Speicher",
-      "link": "https://www.heise.de/tests/Ausprobiert-Workstation-mit-viermal-Intel-Arc-Pro-B70-mit-384-GByte-Speicher-11139876.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Der quasi unstillbare Leistungsdurst von KI überfordert einzelne Chips und zwingt zur Arbeitsteilung. Wir probieren ein Quartett aus vier Intel Arc Pro B70 aus.",
-      "source": "heise",
-      "pubDate": "2026-07-27T08:30:00+00:00"
-    },
-    {
-      "title": "Toyota steigt bei Brennstoffzellen-Joint-Venture cellcentric ein",
-      "link": "https://www.heise.de/news/Toyota-steigt-bei-Brennstoffzellen-Joint-Venture-cellcentric-ein-11378608.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Daimler Truck, Volvo und Toyota haben verbindlich beschlossen, Toyota zum gleichberechtigten Partner beim Brennstoffzellen-Spezialisten cellcentric zu machen.",
-      "source": "heise",
-      "pubDate": "2026-07-27T08:28:00+00:00"
     }
   ]
 }
