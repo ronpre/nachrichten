@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T09:53:26.446107+00:00",
+  "updatedAt": "2026-07-29T10:56:12.499187+00:00",
   "wirtschaft": [
     {
       "title": "Kunden von Modal Labs betroffen: KI von OpenAI hackte weitere Firma",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Fünf Personen unter Beobachtung: Hamburger Polizei verdoppelt Personal für CSD",
+      "link": "https://www.n-tv.de/politik/Hamburger-Polizei-verdoppelt-Personal-fuer-CSD-id31136911.html",
+      "summary": "Der Anschlag beim Berliner CSD hat Sorgen für die kommenden Veranstaltungen geschürt. Hamburg kündigt an, das Sicherheitskonzept massiv zu verstärken. Dazu wolle man laut Polizeipräsident Schnabel \"Le…",
+      "source": "n-tv",
+      "pubDate": "2026-07-29T10:15:36+00:00"
+    },
+    {
       "title": "Teure Abwehrraketen: China bestreitet Waffen-Deal mit Iran",
       "link": "https://www.n-tv.de/politik/China-bestreitet-Waffen-Deal-mit-Iran-id31136793.html",
       "summary": "China sieht sich selbst als Verfechter des Friedens im Iran. Berichten von Insidern zufolge bereitet das Land aber eine riesige Waffenlieferung für den Iran vor. Das chinesische Außenministerium weist…",
@@ -135,18 +142,109 @@
       "summary": "Worüber haben Trump und Selenskyj in Washington gesprochen? Es sei um die Stärkung der Flugabwehr gegangen, sagt der ukrainische Präsident zunächst nur. Später wird er in einem Interview konkreter.",
       "source": "n-tv",
       "pubDate": "2026-07-29T03:18:40+00:00"
-    },
-    {
-      "title": "Trumps zweite Wahl: Jay Clayton wird neuer US-Geheimdienstchef",
-      "link": "https://www.n-tv.de/politik/Jay-Clayton-wird-neuer-US-Geheimdienstchef-id31135392.html",
-      "summary": "Nach dem Rückzug von Tulsi Gabbard brauchen die US-Geheimdienste einen neuen Leiter. Gegen Trumps ursprünglichen Wunschkandidaten gibt es auch bei den Republikanern starke Vorbehalte. Für den Ersatzma…",
-      "source": "n-tv",
-      "pubDate": "2026-07-29T02:31:06+00:00"
     }
   ],
   "it": [
     {
-      "title": "Passwort-Hashes auslesbar: 20 Jahre alte BMC-Lücke gefährdet über 24.000 Server",
+      "title": "Recht auf Reparatur: Logitech sieht keinen Nutzen in austauschbaren Akkus",
+      "link": "https://www.golem.de/news/recht-auf-reparatur-logitech-sieht-keinen-nutzen-in-austauschbaren-akkus-2607-211404.html",
+      "summary": "Bald muss Logitech in der EU austauschbare Akkus verbauen. \"Das werden nur sehr wenige nutzen\", meint der Chef der Gaming-Abteilung. ( Maus , Eingabegerät )",
+      "source": "golem",
+      "pubDate": "2026-07-29T10:55:02+00:00"
+    },
+    {
+      "title": "Neue N64-Retrokonsole gestartet: „M64“ bietet FPGA, 4K und Overclocking",
+      "link": "https://www.heise.de/news/Neue-N64-Retrokonsole-gestartet-M64-bietet-FPGA-4K-und-Overclocking-11382148.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "ModRetro bringt mit der M64 eine FPGA-basierte Nintendo-64-Konsole für Originalmodule auf den Markt. Das Unternehmen liefert auch nach Deutschland.",
+      "source": "heise",
+      "pubDate": "2026-07-29T10:47:00+00:00"
+    },
+    {
+      "title": "Anzeige: Tausendfach verkaufter Akkusauger mit Zubehör erstmals unter 60 Euro bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-tausendfach-verkaufter-akkusauger-mit-zubehoer-erstmals-unter-60-euro-bei-amazon-2607-211405.html",
+      "summary": "Der Fanttik-Autostaubsauger mit Akku ist für Auto und Haushalt geeignet und kurzzeitig so günstig wie nie erhältlich. ( Technik/Hardware , Auto )",
+      "source": "golem",
+      "pubDate": "2026-07-29T10:41:02+00:00"
+    },
+    {
+      "title": "Rocket Lab bekommt Millionen-Auftrag von der US Space Force",
+      "link": "https://www.heise.de/news/Rocket-Lab-bekommt-Millionen-Auftrag-von-der-US-Space-Force-11382128.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Rocket Lab soll mindestens ein Dutzend Flüge für die US Space Force durchführen. Die zahlt dem US-Raumfahrtunternehmen dafür über 260 Millionen US-Dollar.",
+      "source": "heise",
+      "pubDate": "2026-07-29T10:39:00+00:00"
+    },
+    {
+      "title": "Ocarina of Time: KI portiert Zelda fast per Knopfdruck auf iPad",
+      "link": "https://www.golem.de/news/ocarina-of-time-ki-portiert-zelda-fast-per-knopfdruck-auf-ipad-2607-211403.html",
+      "summary": "Ein Entwickler hat den nativen iPad-Port von Ocarina of Time nach eigenen Angaben mithilfe von OpenAIs Codex in wenigen Stunden erstellt. ( Spiele-Entwicklung , iPad )",
+      "source": "golem",
+      "pubDate": "2026-07-29T10:38:01+00:00"
+    },
+    {
+      "title": "Winamp bekommt Musik-Abo: Deezer liefert Technik und Katalog",
+      "link": "https://www.heise.de/news/Winamp-bekommt-Musik-Abo-Deezer-liefert-Technik-und-Katalog-11382027.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Winamp will 2027 einen neuen Player mit eigenem Streaming-Abo veröffentlichen. Technik und Katalog liefert Deezer – vieles bleibt vage.",
+      "source": "heise",
+      "pubDate": "2026-07-29T10:33:00+00:00"
+    },
+    {
+      "title": "Nur 4 GByte RAM?: Radeon RX 9050 als kleinstes RDNA4-Modell vorgestellt",
+      "link": "https://www.golem.de/news/nur-4-gbyte-ram-radeon-rx-9050-als-kleinstes-rdna4-modell-vorgestellt-2607-211401.html",
+      "summary": "Weniger RAM und KI-Leistung: AMD hat die bislang kleinste RX-9000-GPU vorgestellt. Asrock zeigte kurz ein Modell mit nur 4 GByte RAM. ( Grafikkarten , AMD )",
+      "source": "golem",
+      "pubDate": "2026-07-29T10:23:05+00:00"
+    },
+    {
+      "title": "KI-Prompts: Wie Hugging Face für pornografische Inhalte genutzt wird",
+      "link": "https://www.golem.de/news/ki-prompts-wie-hugging-face-fuer-pornografische-inhalte-genutzt-wird-2607-211400.html",
+      "summary": "Eine NGO hat Module aufgesetzt und Prompts analysiert. Drei Viertel beinhalten explizite Inhalte, mehr als fünf Prozent Minderjährige. ( KI , Studien )",
+      "source": "golem",
+      "pubDate": "2026-07-29T10:08:01+00:00"
+    },
+    {
+      "title": "Russland erlässt Haftbefehl gegen Telegram-Gründer Durow",
+      "link": "https://www.heise.de/news/Russland-erlaesst-Haftbefehl-gegen-Telegram-Gruender-Durow-11381305.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der russische Geheimdienst FSB beschuldigt Telegram-Gründer Pawel Durow der Beihilfe zum Terrorismus. Dem Unternehmer droht im Extremfall lebenslange Haft.",
+      "source": "heise",
+      "pubDate": "2026-07-29T10:03:00+00:00"
+    },
+    {
+      "title": "heise+ | Mobile Split-Klimaanlage im Praxistest​: Midea PortaSplit sorgt für kühle Sommer",
+      "link": "https://www.heise.de/tests/Mobile-Split-Klimaanlage-im-Praxistest-Midea-PortaSplit-sorgt-fuer-kuehle-Sommer-9804255.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Die PortaSplit von Midea verspricht die Effizienz einer Split-Klimaanlage und lässt sich einfach in fast jedes Fenster hängen. Wir schauen, was sie leistet.​",
+      "source": "heise",
+      "pubDate": "2026-07-29T10:00:00+00:00"
+    },
+    {
+      "title": "heise-Angebot: KI im Unternehmen verankern – vom Use Case zur skalierten KI-Strategie",
+      "link": "https://www.heise.de/news/KI-im-Unternehmen-verankern-vom-Use-Case-zur-skalierten-KI-Strategie-11353396.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "In fünf Sessions lernen IT-Entscheider, KI strategisch im Unternehmen zu verankern und dabei Mitarbeitende mitzunehmen – alles im Einklang mit dem EU AI Act.",
+      "source": "heise",
+      "pubDate": "2026-07-29T10:00:00+00:00"
+    },
+    {
+      "title": "Anzeige: Kraftvolle Worx-Akku-Heckenschere zum Bestpreis unter 100 Euro",
+      "link": "https://www.golem.de/news/anzeige-kraftvolle-worx-akku-heckenschere-zum-bestpreis-unter-100-euro-2607-211394.html",
+      "summary": "Wenn die Gartenhecke mal wieder über sich hinauswächst, muss ein kraftvolles Werkzeug her. Amazon bietet die 40V Worx-Akku-Heckenschere aktuell zum Bestpreis unter 100 Euro an. ( Technik/Hardware )",
+      "source": "golem",
+      "pubDate": "2026-07-29T09:57:02+00:00"
+    },
+    {
+      "title": "Amtsgericht Starnberg: Google muss für Fakeshop-Schaden aufkommen",
+      "link": "https://www.golem.de/news/amtsgericht-starnberg-google-muss-fuer-fakeshop-schaden-aufkommen-2607-211393.html",
+      "summary": "Laut dem Gericht war Google bekannt, dass die Anzeige von einem Fakeshop kam. Der US-Konzern soll das Geld für die nicht gelieferte Bestellung und die Kosten des Rechtsstreits erstatten. ( Verbraucher…",
+      "source": "golem",
+      "pubDate": "2026-07-29T09:55:01+00:00"
+    },
+    {
+      "title": "„The Mermaid Mask“ angespielt: Orient Express trifft auf Monkey Island",
+      "link": "https://www.heise.de/tests/The-Mermaid-Mask-angespielt-Orient-Express-trifft-auf-Monkey-Island-11381674.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "„The Mermaid Mask“ erneuert das Genre der Point-&-Click-Spiele mit viel Witz und Detailliebe. Wozu da noch einen Mörder schnappen?",
+      "source": "heise",
+      "pubDate": "2026-07-29T09:49:00+00:00"
+    },
+    {
+      "title": "Sicherheitslücke: 24.000 Server über 22 Jahre altes Passwort-Leck angreifbar",
       "link": "https://www.golem.de/news/passwort-hashes-auslesbar-20-jahre-alte-bmc-luecke-gefaehrdet-ueber-24-000-server-2607-211397.html",
       "summary": "Angreifer können anfällige Server über eine uralte Lücke in den verbauten Management-Controllern kapern, indem sie Passwort-Hashes abgreifen und knacken. ( Sicherheitslücke , Server )",
       "source": "golem",
@@ -174,13 +272,6 @@
       "pubDate": "2026-07-29T09:23:02+00:00"
     },
     {
-      "title": "Anzeige: Schon vor dem Release Kult - Lego Donkey Kong Arcade bei Amazon günstiger vorbestellbar",
-      "link": "https://www.golem.de/news/anzeige-schon-vor-dem-release-kult-lego-donkey-kong-arcade-bei-amazon-guenstiger-vorbestellbar-2607-211396.html",
-      "summary": "Das witzige Lego-Donkey-Kong-Arcade-Set empfindet den Kult-Automaten von 1981 nach, komplett mit Joystick und rollenden Fässern. ( Lego , Technik/Hardware )",
-      "source": "golem",
-      "pubDate": "2026-07-29T09:14:01+00:00"
-    },
-    {
       "title": "Kritische Schwachstelle in JetBrains TeamCity entdeckt",
       "link": "https://www.heise.de/news/Kritische-Schwachstelle-in-JetBrains-TeamCity-entdeckt-11381504.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "JetBrains hat eine kritische Sicherheitslücke in TeamCity geschlossen. Angreifer können CI/CD-Pipelines kompromittieren und Befehle auf dem Server ausführen.",
@@ -188,102 +279,11 @@
       "pubDate": "2026-07-29T09:13:00+00:00"
     },
     {
-      "title": "Engine: Unity 7 soll den Engine-Wechsel erstmals schmerzfrei machen",
-      "link": "https://www.golem.de/news/engine-unity-7-soll-den-engine-wechsel-erstmals-schmerzfrei-machen-2607-211392.html",
-      "summary": "Der Umstieg auf die neue Hauptversion von Unity soll ohne die sonst typischen Migrationsprobleme gelingen. ( Unity , Entwicklungsumgebung )",
-      "source": "golem",
-      "pubDate": "2026-07-29T09:08:01+00:00"
-    },
-    {
       "title": "OpenWrt: Updates schließen teils kritische Sicherheitslücken",
       "link": "https://www.heise.de/news/OpenWrt-Updates-schliessen-teils-kritische-Sicherheitsluecken-11381496.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Das OpenWrt-Projekt hat aktualisierte Fassungen veröffentlicht, die teils als kritisches Risiko eingestufte Sicherheitslücken stopfen.",
       "source": "heise",
       "pubDate": "2026-07-29T09:08:00+00:00"
-    },
-    {
-      "title": "Neue Home-Geräte: Apple ist laut Bericht nun endlich so weit",
-      "link": "https://www.heise.de/news/Apple-plant-neue-Home-Geraete-kommen-sie-noch-dieses-Jahr-11380834.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Neue Apple-TV-Modelle, HomePod minis und ein komplett neues Home-Gerät: Das steht bei Apple offenbar nach langer Wartezeit bis Ende des Jahres in der Pipeline.",
-      "source": "heise",
-      "pubDate": "2026-07-29T09:06:00+00:00"
-    },
-    {
-      "title": "OpenSpec bringt Ordnung in KI-gestützte Entwicklung",
-      "link": "https://www.heise.de/news/KI-Coding-mit-Specs-OpenSpec-vereinfacht-Refactorings-11381273.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "OpenSpec 1.7.0 erweitert KI-Anbindungen, führt eine Update-Funktion ein und erlaubt einen Standard-Store für lokale Repositories.",
-      "source": "heise",
-      "pubDate": "2026-07-29T09:02:00+00:00"
-    },
-    {
-      "title": "Größter Batteriespeicher in Deutschland steht vor Teilinbetriebnahme",
-      "link": "https://www.heise.de/news/Groesster-Batteriespeicher-in-Deutschland-steht-vor-Teilinbetriebnahme-11381243.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "300 MW soll der Batteriespeicher in Förderstedt im Endausbau leisten. 100 MW davon sollen bis Ende 2026 in Betrieb gehen.",
-      "source": "heise",
-      "pubDate": "2026-07-29T08:46:00+00:00"
-    },
-    {
-      "title": "heise+ | KI-Musikflut: Warum die EU-Kennzeichnung ins Leere läuft",
-      "link": "https://www.heise.de/ratgeber/KI-Musikflut-Warum-die-EU-Kennzeichnung-ins-Leere-laeuft-11340651.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Die EU fordert eine robuste Kennzeichnung von KI-Songs, aber niemand muss sie kontrollieren. Währenddessen wächst der KI-Slop auf Streamingplattformen weiter.",
-      "source": "heise",
-      "pubDate": "2026-07-29T08:30:00+00:00"
-    },
-    {
-      "title": "Admin-Sicherheitslücke bedroht Apache Airflow mit FAB-Authentifizierung",
-      "link": "https://www.heise.de/news/Admin-Sicherheitsluecke-bedroht-Apache-Airflow-mit-FAB-Authentifizierung-11381355.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Stimmen die Voraussetzungen, können Angreifer Apache Airflow attackieren und als Admin Systemeinstellungen verbiegen.",
-      "source": "heise",
-      "pubDate": "2026-07-29T08:24:00+00:00"
-    },
-    {
-      "title": "Stellenabbau: BMW streicht 8.000 Jobs",
-      "link": "https://www.golem.de/news/stellenabbau-bmw-streicht-8-000-jobs-2607-211391.html",
-      "summary": "Auch der bislang verschonte Autobauer aus München muss sparen. BMW plant den Abbau von rund 8.000 Stellen. ( BMW , Wirtschaft )",
-      "source": "golem",
-      "pubDate": "2026-07-29T08:15:02+00:00"
-    },
-    {
-      "title": "Gezeitenstrom: Turbine soll im Schwarm bezahlbaren Strom liefern",
-      "link": "https://www.golem.de/news/gezeitenstrom-turbine-soll-im-schwarm-bezahlbaren-strom-liefern-2607-211390.html",
-      "summary": "Statt große Anlagen am Meeresgrund zu verankern, sollen die kleinen Turbinen als erweiterbares Netzwerk verlässlich Strom produzieren. ( Erneuerbare Energien , Windkraft )",
-      "source": "golem",
-      "pubDate": "2026-07-29T08:06:02+00:00"
-    },
-    {
-      "title": "BMW startet massives Sparprogramm und baut Stellen ab",
-      "link": "https://www.heise.de/news/BMW-baut-weltweit-8000-Stellen-ab-die-meisten-in-Deutschland-11381441.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Nach VW, Mercedes, Audi und Porsche kündigt BMW einen größeren Stellenabbau an. Weltweit sollen etwa 8000 Jobs wegfallen, die meisten davon wohl in Deutschland.",
-      "source": "heise",
-      "pubDate": "2026-07-29T08:03:00+00:00"
-    },
-    {
-      "title": "(g+) Heute 13 Uhr live: Stellt eure Fragen zur IT-Selbstständigkeit!",
-      "link": "https://www.golem.de/news/heute-13-uhr-live-stellt-eure-fragen-zur-it-selbststaendigkeit-2607-210641.html",
-      "summary": "Heute beantwortet der IT-Unternehmer Pierre Wilken live im Video-AMA eure Fragen zum Thema Selbstständigkeit! Seid dabei - den Teilnahmelink findet ihr weiter unten im Text. ( Arbeit , Wirtschaft )",
-      "source": "golem",
-      "pubDate": "2026-07-29T08:00:01+00:00"
-    },
-    {
-      "title": "heise-Angebot: KI-ROI messen: Was bringt der KI-Einsatz wirtschaftlich wirklich?",
-      "link": "https://www.heise.de/news/KI-ROI-messen-Was-bringt-der-KI-Einsatz-wirtschaftlich-wirklich-11377346.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Im Webinar von heise KI PRO zeigt die Fachredaktion praxisnahe Ansätze, mit denen sich der wirtschaftliche Nutzen von KI im Unternehmen messen lässt.",
-      "source": "heise",
-      "pubDate": "2026-07-29T08:00:00+00:00"
-    },
-    {
-      "title": "Whatsapp: Kein Client mehr für Whatsapp-Anrufe auf PCs nötig",
-      "link": "https://www.golem.de/news/whatsapp-kein-client-mehr-fuer-whatsapp-anrufe-auf-pcs-noetig-2607-211389.html",
-      "summary": "Whatsapps Browser-Client ermöglicht nun auch Audio- und Video-Anrufe. Außerdem lassen sich Anrufe von einem Geräte auf ein anderes verschieben. ( Whatsapp , Software )",
-      "source": "golem",
-      "pubDate": "2026-07-29T07:37:02+00:00"
-    },
-    {
-      "title": "Nationale Sicherheit: FCC verbietet Importe chinesischer Roboter",
-      "link": "https://www.golem.de/news/nationale-sicherheit-fcc-verbietet-importe-chinesischer-roboter-2607-211388.html",
-      "summary": "Die US-Fernmeldebehörde FCC verbietet die Zulassung neuer chinesischer Roboter und Wechselrichter wegen angeblicher Sicherheitsrisiken. ( FCC , Roboter )",
-      "source": "golem",
-      "pubDate": "2026-07-29T07:30:02+00:00"
     }
   ]
 }
