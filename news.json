@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-07-29T14:47:21.501215+00:00",
+  "updatedAt": "2026-07-29T15:37:45.418106+00:00",
   "wirtschaft": [
+    {
+      "title": "Aktienkurs rutscht 40 Prozent ab: Der SpaceX-Kurssturz kommt für Anleger gerade noch rechtzeitig",
+      "link": "https://www.n-tv.de/wirtschaft/Der-SpaceX-Kurssturz-kommt-fuer-Anleger-gerade-noch-rechtzeitig-id31138515.html",
+      "summary": "Viele Anleger sind dank beliebter ETFs zum Höchstkurs bei SpaceX eingestiegen - allerdings in homöopathischen Dosen. Auf die Gesamtentwicklung der Fonds wirkt sich der katastrophale Kursverlauf der Ak…",
+      "source": "n-tv",
+      "pubDate": "2026-07-29T15:09:12+00:00"
+    },
+    {
+      "title": "Zwei neue Direktverbindungen: Deutschland und Syrien nehmen nach 15 Jahren Stillstand Flugverkehr wieder auf",
+      "link": "https://www.n-tv.de/wirtschaft/Deutschland-und-Syrien-nehmen-nach-15-Jahren-Stillstand-Flugverkehr-wieder-auf-id31138089.html",
+      "summary": "Die Sicherheitslage in Syrien lässt es lange Zeit nicht zu, Flüge dorthin durchzuführen. Mittlerweile hat sich das Land stabilisiert. Eine Airline bietet nun zweimal wöchentlich Flüge nach Damaskus an…",
+      "source": "n-tv",
+      "pubDate": "2026-07-29T14:53:38+00:00"
+    },
     {
       "title": "IW-Studie zeigt Gefälle: Preiswerte Eigenheime gibt es nur noch auf dem Land",
       "link": "https://www.n-tv.de/wirtschaft/Preiswerte-Eigenheime-gibt-es-nur-noch-auf-dem-Land-id31137666.html",
@@ -56,20 +70,6 @@
       "summary": "Zwei Sonnenauf- und zwei Sonnenuntergänge erlebt die Crew eines Airbus A350 von Qantas ohne Zwischenstopp. Die Maschine bricht damit einen Rekord von 2005. Und erregt sehr viel Aufmerksamkeit: Million…",
       "source": "n-tv",
       "pubDate": "2026-07-29T06:37:43+00:00"
-    },
-    {
-      "title": "Regulierung gefordert: Mehr als 1000 Experten warnen vor KI-Kontrollverlust",
-      "link": "https://www.n-tv.de/wirtschaft/Mehr-als-1000-Experten-warnen-vor-KI-Kontrollverlust-id31135690.html",
-      "summary": "Nach dem selbstständigen Hackerangriff der KI von OpenAI wächst die Sorge unter Experten: Künstliche Intelligenz sei immer schwieriger zu kontrollieren. Sie fordern ein internationales Regelwerk, bevo…",
-      "source": "n-tv",
-      "pubDate": "2026-07-29T06:06:02+00:00"
-    },
-    {
-      "title": "Belohnung für Beschäftigte: Kommt die digitale Trinkgeldabfrage im Einzelhandel?",
-      "link": "https://www.n-tv.de/wirtschaft/Kommt-die-digitale-Trinkgeldabfrage-im-Einzelhandel-id31135678.html",
-      "summary": "Die digitale Trinkgeldabfrage ist in der Gastronomie weitverbreitet. Wird sich dieser Trend auch in anderen Bereichen, wie dem Einzelhandel, fortsetzen? Aus Kundensicht ist die Meinung dazu eindeutig.",
-      "source": "n-tv",
-      "pubDate": "2026-07-29T05:40:27+00:00"
     }
   ],
   "politik": [
@@ -145,6 +145,27 @@
     }
   ],
   "it": [
+    {
+      "title": "heise+ | Talk-to-Database im Praxistest: Sprachmodell statt Reporting-Engpass?",
+      "link": "https://www.heise.de/hintergrund/Talk-to-Database-im-Praxistest-Sprachmodell-statt-Reporting-Engpass-11355296.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "LLMs übersetzen Datenanfragen direkt in SQL und verkürzen Analysen von Stunden auf Sekunden. Ein PoC zeigt Chancen und Grenzen für BI-Architekturen.",
+      "source": "heise",
+      "pubDate": "2026-07-29T15:30:00+00:00"
+    },
+    {
+      "title": "Anzeige: Schutzbrille für Sonnenfinsternis 2026 zum Sparpreis bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-schutzbrille-fuer-sonnenfinsternis-2026-zum-sparpreis-bei-amazon-2607-211418.html",
+      "summary": "Amazon hat Schutzbrillen im Angebot, mit denen sich die partielle Sonnenfinsternis am 12. August 2026 gefahrlos beobachten lässt. ( Technik/Hardware )",
+      "source": "golem",
+      "pubDate": "2026-07-29T15:05:01+00:00"
+    },
+    {
+      "title": "Bauland gegen Rechenleistung: Pentagon öffnet Militärbasen für Rechenzentren",
+      "link": "https://www.golem.de/news/bauland-gegen-rechenleistung-pentagon-oeffnet-militaerbasen-fuer-rechenzentren-2607-211419.html",
+      "summary": "Mindestens einer der Standorte für Rechenzentren auf US-Militärbasen liegt in der Nähe eines Testgeländes für Chemie- und Biowaffen. ( Militär , Politik )",
+      "source": "golem",
+      "pubDate": "2026-07-29T14:51:01+00:00"
+    },
     {
       "title": "Anzeige: Apple Airpods Max bei Amazon jetzt erstmals unter 400 Euro",
       "link": "https://www.golem.de/news/anzeige-apple-airpods-max-bei-amazon-jetzt-erstmals-unter-400-euro-2607-211417.html",
@@ -251,13 +272,6 @@
       "pubDate": "2026-07-29T12:47:02+00:00"
     },
     {
-      "title": "Sicherheitsupdates: Angreifer können Apache Traffic Server crashen lassen",
-      "link": "https://www.heise.de/news/Sicherheitsupdates-Angreifer-koennen-Apache-Traffic-Server-crashen-lassen-11382689.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "In aktuellen Versionen haben die Entwickler von Apache Traffic Server mehrere Sicherheitslücken geschlossen.",
-      "source": "heise",
-      "pubDate": "2026-07-29T12:42:00+00:00"
-    },
-    {
       "title": "Anzeige: Elgato Stream Deck Mini für unter 50 Euro bei Amazon",
       "link": "https://www.golem.de/news/anzeige-elgato-stream-deck-mini-fuer-unter-50-euro-bei-amazon-2607-211409.html",
       "summary": "Das Elgato Stream Deck Mini mit sechs programmierbaren Tasten zur Optimierung des Workflows am PC oder Mac ist bei Amazon reduziert. ( Elgato , Technik/Hardware )",
@@ -270,20 +284,6 @@
       "summary": "500 Millionen Mal größer als die Sonne, kurz vorm Explodieren und einer der hellsten Sterne am Himmel. Nun wird Beteigeuze noch außergewöhnlicher. ( Astronomie , Weltraumteleskop )",
       "source": "golem",
       "pubDate": "2026-07-29T12:22:01+00:00"
-    },
-    {
-      "title": "Anzeige: Kärcher-Sauger mit Werkzeug-Steckdose zum absoluten Tiefstpreis",
-      "link": "https://www.golem.de/news/anzeige-kaercher-sauger-mit-werkzeug-steckdose-zum-absoluten-tiefstpreis-2607-211402.html",
-      "summary": "Staub nervt beim Heimwerken. Abhilfe schafft der beliebte Kärcher WD 3 P mit Werkzeug-Steckdose, den Amazon aktuell zum absoluten Tiefstpreis verkauft. ( Technik/Hardware )",
-      "source": "golem",
-      "pubDate": "2026-07-29T12:10:01+00:00"
-    },
-    {
-      "title": "Probefahrt mit Volvo EX60: Der iX3-Konkurrent mit dem Autoscooter-Feeling",
-      "link": "https://www.golem.de/news/probefahrt-mit-volvo-ex60-der-ix3-konkurrent-mit-dem-autoscooter-feeling-2607-211382.html",
-      "summary": "Mit großer Reichweite und hoher Ladeleistung ist der Volvo EX60 eine Alternative zum BMW iX3. Doch beim Bedienkonzept zeigen sich große Unterschiede. Ein Bericht von Dirk Kunde ( Volvo , Elektroauto )",
-      "source": "golem",
-      "pubDate": "2026-07-29T12:00:02+00:00"
     }
   ]
 }
