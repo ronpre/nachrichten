@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-08-07T00:06:30.172192+00:00",
+  "updatedAt": "2026-08-07T05:25:24.653508+00:00",
   "wirtschaft": [
+    {
+      "title": "USA zahlen Milliardensumme: RWE erzielt Deal mit Trump und stoppt Offshore-Pläne",
+      "link": "https://www.n-tv.de/wirtschaft/RWE-erzielt-Deal-mit-Trump-und-stoppt-Offshore-Plaene-id31168114.html",
+      "summary": "Donald Trump kämpft mit Steuergeldern gegen Windkraft: Auf Druck der Regierung rückt der Energieriese RWE von Offshore-Projekten vor den Küsten der USA ab. Den Verzicht lässt sich der Konzern mit eine…",
+      "source": "n-tv",
+      "pubDate": "2026-08-07T03:22:16+00:00"
+    },
     {
       "title": "Ölpreis zieht an: Wall Street nach durchwachsenen Quartalszahlen im Minus",
       "link": "https://www.n-tv.de/wirtschaft/Wall-Street-nach-durchwachsenen-Quartalszahlen-im-Minus-id31167875.html",
@@ -63,13 +70,6 @@
       "summary": "Die Nachfrage nach E-Autos in Deutschland ist hoch - nicht zuletzt dank der Kauf- und Leasingprämie. Ein Pionier kann davon aber nicht profitieren: Tesla. Der US-Autobauer verliert sogar Marktanteile.…",
       "source": "n-tv",
       "pubDate": "2026-08-06T11:53:18+00:00"
-    },
-    {
-      "title": "Unternehmen forderten Erstattung: USA haben 100 Milliarden Dollar aus Zöllen zurückgezahlt",
-      "link": "https://www.n-tv.de/wirtschaft/USA-haben-100-Milliarden-Dollar-aus-Zoellen-zurueckgezahlt-id31165265.html",
-      "summary": "Zollandrohung und -erhebung sind ein wesentliches Merkmal der zweiten Trump'schen Präsidentschaft. Der Oberste US-Gerichtshof erklärt einen großen Teil davon aber für unzulässig. Die US-Regierung muss…",
-      "source": "n-tv",
-      "pubDate": "2026-08-06T10:17:11+00:00"
     }
   ],
   "politik": [
@@ -146,6 +146,69 @@
   ],
   "it": [
     {
+      "title": "Berlin: Fast eine Million Euro für Hotelunterkünfte nach Blackout",
+      "link": "https://www.heise.de/news/Berlin-Fast-eine-Million-Euro-fuer-Hotelunterkuenfte-nach-Blackout-11402641.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Beim Stromausfall in Berlin mussten viele vorübergehend in Hotels unterkommen. Inzwischen sind die Unterkunftskosten in den meisten Fällen erstattet worden.",
+      "source": "heise",
+      "pubDate": "2026-08-07T05:17:00+00:00"
+    },
+    {
+      "title": "Anzeige: Microsoft Purview: Datenschutz und Insider Risk Management",
+      "link": "https://www.golem.de/news/anzeige-microsoft-purview-datenschutz-und-insider-risk-management-2608-211647.html",
+      "summary": "Sensitivity Labels, DLP und Insider Risk Management müssen bei Microsoft Purview technisch und organisatorisch zusammenspielen. Ein Workshop vermittelt praxisnahes Wissen dazu. ( Microsoft 365 , Serve…",
+      "source": "golem",
+      "pubDate": "2026-08-07T05:15:02+00:00"
+    },
+    {
+      "title": "Machine Games: Quake feiert 30. Geburtstag mit neuer Kampagne",
+      "link": "https://www.golem.de/news/machine-games-quake-feiert-30-geburtstag-mit-neuer-kampagne-2608-211690.html",
+      "summary": "Zum Jubiläum bekommt Quake eine neue Kampagne. Machine Games liefert kostenlos 19 neue Levels, Gegner und Waffen. ( Quake , id Software )",
+      "source": "golem",
+      "pubDate": "2026-08-07T05:14:01+00:00"
+    },
+    {
+      "title": "heise+ | Wie autonome Drohnen künftig Giftdämpfe und Gefahrstoffe finden und erkennen",
+      "link": "https://www.heise.de/hintergrund/Wie-autonome-Drohnen-kuenftig-Giftdaempfe-und-Gefahrstoffe-finden-und-erkennen-11347497.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Bei Havarien spüren Rover und Drohnen künftig Gefahrstoffe und Giftwolken auf. DLR-Forscher demonstrierten ferngesteuerte und autonome Systeme für den Einsatz.",
+      "source": "heise",
+      "pubDate": "2026-08-07T05:00:00+00:00"
+    },
+    {
+      "title": "Gefährlicher Hype: Das unterschätzte Unfallrisiko von E-Scootern",
+      "link": "https://www.heise.de/hintergrund/Gefaehrlicher-Hype-Das-unterschaetzte-Unfallrisiko-von-E-Scootern-11402623.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Viele Jugendliche nutzen E-Scooter im Alltag, doch die Unfallzahlen steigen. Fachleute warnen vor Risiken und fordern eine bessere Verkehrsausbildung.",
+      "source": "heise",
+      "pubDate": "2026-08-07T04:51:00+00:00"
+    },
+    {
+      "title": "Freitag: Milliarden für Musks Chipfabrik, Geständnis von Snowflake-Datendieb",
+      "link": "https://www.heise.de/news/Freitag-Milliarden-fuer-Musks-Chipfabrik-Gestaendnis-von-Snowflake-Datendieb-11402617.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "SpaceX- & Tesla-Investitionen in Texas + Millionen-Erpresser vor Haftstrafe + BYD-Hybrid für Ethanol in Brasilien + Bakteriophagen per KI + Datenschutz-Podcast",
+      "source": "heise",
+      "pubDate": "2026-08-07T04:15:00+00:00"
+    },
+    {
+      "title": "Auslegungssache 165: Europas Datenschutz in Bewegung",
+      "link": "https://www.heise.de/hintergrund/Auslegungssache-165-Europas-Datenschutz-in-Bewegung-11401063.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der c't-Datenschutz-Podcast beleuchtet den Datentransfer in die USA, neue Entscheidungen des EuGH und die stockende Reform der EU-Digitalregeln.",
+      "source": "heise",
+      "pubDate": "2026-08-07T04:10:00+00:00"
+    },
+    {
+      "title": "heise+ | Jahrelang verboten, jetzt in 4K: Kubricks Wege zum Ruhm im Heimkinotest",
+      "link": "https://www.heise.de/tests/Jahrelang-verboten-jetzt-in-4K-Kubricks-Wege-zum-Ruhm-im-Heimkinotest-11380208.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Weil Stanley Kubrick das unmenschliche Militärsystem demaskierte, verbannten europäische Länder seinen Antikriegsfilm. Wir testen die 4K-Restauration.",
+      "source": "heise",
+      "pubDate": "2026-08-07T04:02:00+00:00"
+    },
+    {
+      "title": "Cyberkrimineller bekennt sich der Millionen-Erpressung von Cloud-Kunden schuldig",
+      "link": "https://www.heise.de/news/Cyberkrimineller-bekennt-sich-der-Millionen-Erpressung-von-Cloud-Kunden-schuldig-11402603.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Nach dem Datenklau beim US-Cloud-Anbieter Snowflake hat ein Kanadier Millionen von dessen Kunden erpresst. Nach Schuldbekenntnis drohen ihm 2 bis 30 Jahre Haft.",
+      "source": "heise",
+      "pubDate": "2026-08-07T03:03:00+00:00"
+    },
+    {
       "title": "BYD: In Brasilien rollt das erste Hybrid-Modell vom Band",
       "link": "https://www.heise.de/news/BYD-In-Brasilien-roll-das-erste-Hybrid-Modell-vom-Band-11402577.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Das umstrittene BYD-Werk im brasilianischen Camaçari liefert sein erstes Plug-in-Hybridauto aus. Auch bei den Verkäufen in Brasilien legt BYD zu.",
@@ -174,27 +237,6 @@
       "pubDate": "2026-08-06T18:38:00+00:00"
     },
     {
-      "title": "Top 7: Die besten Spiele für Nintendo Switch 2 – Mario Kart World ist Testsieger",
-      "link": "https://www.heise.de/bestenlisten/testsieger/top-7-die-besten-spiele-fuer-nintendo-switch-2-mario-kart-world-ist-testsieger/hmy9blz?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Wir haben die wichtigsten Exklusivspiele für die Nintendo Switch 2 getestet und zeigen hier die sieben besten Games.",
-      "source": "heise",
-      "pubDate": "2026-08-06T18:00:00+00:00"
-    },
-    {
-      "title": "Bericht: Tote Hose in der Grokipedia",
-      "link": "https://www.heise.de/news/Bericht-Tote-Hose-in-der-Grokipedia-11402428.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die mit großen Hoffnungen als Alternative zur Wikipedia gestartete KI-Enzyklopädie Grokipedia dümpelt offenbar nur noch vor sich hin.",
-      "source": "heise",
-      "pubDate": "2026-08-06T17:19:00+00:00"
-    },
-    {
-      "title": "Europäische Südsternwarte beobachtet Falcon-Einschlag auf dem Mond",
-      "link": "https://www.heise.de/news/Europaeische-Suedsternwarte-beobachtet-Falcon-Einschlag-auf-dem-Mond-11402444.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Der Einschlag der Falcon-9-Oberstufe auf dem Mond war schwer zu beobachten. Eines der großen Teleskope der Europäischen Südsternwarte erfasste die Staubwolke.",
-      "source": "heise",
-      "pubDate": "2026-08-06T17:18:00+00:00"
-    },
-    {
       "title": "Ausrüster: Deutsche Konzerne profitieren vom Boom der Rechenzentren in USA",
       "link": "https://www.golem.de/news/ausruester-deutsche-konzerne-profitieren-vom-boom-der-rechenzentren-in-usa-2608-211689.html",
       "summary": "Deutsche Zulieferer für Rechenzentren erhalten viele Aufträge aus den USA. Der KI-Boom führt zu einem Boom bei Energierversorgern, Baukonzernen und Kühlsystemherstellern. ( Wirtschaft , Arbeit )",
@@ -207,34 +249,6 @@
       "summary": "Fast zehn Jahre nach dem Release erhält Ghost Recon Wildlands ein Update mit neuen Inhalten und technischen Modernisierungen. ( Ghost Recon , Ubisoft )",
       "source": "golem",
       "pubDate": "2026-08-06T16:15:06+00:00"
-    },
-    {
-      "title": "Rheinland-Pfalz: Generelles Handyverbot in Schulen angekündigt",
-      "link": "https://www.heise.de/news/Rheinland-Pfalz-Generelles-Handyverbot-in-Schulen-angekuendigt-11402368.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "In Rheinland-Pfalz sollen private Mobilgeräte ab kommendem Februar aus dem Schulalltag bis einschließlich Klasse 10 verschwinden. Es gibt Gegenwehr.",
-      "source": "heise",
-      "pubDate": "2026-08-06T16:13:00+00:00"
-    },
-    {
-      "title": "Bericht: USA planen Importverbot für chinesische Technik in KI-Rechenzentren",
-      "link": "https://www.heise.de/news/Bericht-USA-planen-Importverbot-fuer-chinesische-Technik-in-KI-Rechenzentren-11402346.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die US-Regierung erwägt laut einem Bericht ein Importverbot für optische Transceiver aus China, um KI-Rechenzentren vor Spionage und Sabotage zu schützen.",
-      "source": "heise",
-      "pubDate": "2026-08-06T16:05:00+00:00"
-    },
-    {
-      "title": "Chaos an Schengen-Grenzen: Flughäfen schalten EES-Biometrie einfach ab",
-      "link": "https://www.heise.de/news/Chaos-an-Schengen-Grenzen-Flughaefen-schalten-EES-Biometrie-einfach-ab-11402314.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das neue EU-Einreisesystem EES sorgt an Flughäfen für lange Schlangen und verpasste Flüge. Behörden setzen es deshalb immer wieder aus.",
-      "source": "heise",
-      "pubDate": "2026-08-06T15:57:00+00:00"
-    },
-    {
-      "title": "heise-Angebot: Hannah Arendt Tage: Experten diskutieren bei heise über KI und Denken",
-      "link": "https://www.heise.de/news/HANNAH-ARENDT-TAGE-Experten-diskutieren-bei-heise-ueber-KI-und-Denken-11401832.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Zum 120. Geburtstag der Politiktheoretikerin laden die Hannah Arendt Tage 2026 dazu ein, ihre Impulse für unabhängiges Denken neu zu entdecken.",
-      "source": "heise",
-      "pubDate": "2026-08-06T15:45:00+00:00"
     },
     {
       "title": "Anzeige: 200-W-Ladegerät von Ugreen mit acht Anschlüssen für unter 54 Euro",
@@ -270,20 +284,6 @@
       "summary": "Amazon hat einen Handykühler für Smartphone, Tablet und Switch im Angebot, der die Gerätetemperatur um bis zu 35 °C senkt. ( Technik/Hardware )",
       "source": "golem",
       "pubDate": "2026-08-06T14:27:02+00:00"
-    },
-    {
-      "title": "Drohnenvorfall in Leipzig: Ukrainisches Flugzeug soll Munition geladen haben",
-      "link": "https://www.golem.de/news/drohnenvorfall-in-leipzig-ukrainisches-flugzeug-soll-munition-geladen-haben-2608-211681.html",
-      "summary": "Der Flughafen Leipzig/Halle ist möglicherweise nur knapp einer Katastrophe entgangen. Eine zweite Drohne könnte mit einem Flugzeug kollidiert sein. ( Drohne , Politik )",
-      "source": "golem",
-      "pubDate": "2026-08-06T13:45:01+00:00"
-    },
-    {
-      "title": "Anzeige: 10-in-1-Dockgingstation bei Amazon zum Sonderpreis",
-      "link": "https://www.golem.de/news/anzeige-10-in-1-dockgingstation-bei-amazon-zum-sonderpreis-2608-211682.html",
-      "summary": "Bei Amazon gibt es das Ugreen Revodok Pro im Angebot. Die 10-in-1-Dockingstation ist um 27 Prozent reduziert. ( Dockingstation , Amazon )",
-      "source": "golem",
-      "pubDate": "2026-08-06T13:43:01+00:00"
     }
   ]
 }
