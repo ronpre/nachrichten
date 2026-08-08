@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-08-08T07:00:30.257361+00:00",
+  "updatedAt": "2026-08-08T07:42:35.259712+00:00",
   "wirtschaft": [
+    {
+      "title": "Protest gegen Stratos-Projekt: Utah streitet über Rechenzentrum doppelt so groß wie Manhattan",
+      "link": "https://www.n-tv.de/wirtschaft/Utah-streitet-ueber-Rechenzentrum-doppelt-so-gross-wie-Manhattan-id31140511.html",
+      "summary": "Im US-Bundesstaat Utah nahe dem Great Salt Lake ist ein gigantisches KI-Rechenzentrum samt Energie-Campus geplant. Doch die Anwohner protestieren lautstark und ziehen vor Gericht. Ein berühmter Invest…",
+      "source": "n-tv",
+      "pubDate": "2026-08-08T07:00:51+00:00"
+    },
     {
       "title": "Wegen Niedrigwasser: Erste Bundesländer setzen Sonntagsfahrverbot für Lkw aus",
       "link": "https://www.n-tv.de/wirtschaft/Erste-Bundeslaender-setzen-Sonntagsfahrverbot-fuer-Lkw-aus-id31171828.html",
@@ -56,13 +63,6 @@
       "summary": "Porsche reagiert auf die eigene Krise mit einem Sparpaket, in das unter anderem der Abbau von Stellen fällt. Beim Mutterkonzern VW wird hingegen noch über den richtigen Weg diskutiert. Das sorgt für N…",
       "source": "n-tv",
       "pubDate": "2026-08-07T08:17:41+00:00"
-    },
-    {
-      "title": "Höchster je erhobener Monatswert: Hoffnung für die deutsche Wirtschaft: Neuer Rekord bei Exporten",
-      "link": "https://www.n-tv.de/wirtschaft/Hoffnung-fuer-die-deutsche-Wirtschaft-Neuer-Rekord-bei-Exporten-id31168602.html",
-      "summary": "Trotz des Iran-Krieges und des schwächelnden US-Geschäftes gibt es von den deutschen Ausfuhren positive Nachrichten zu vermelden. Der Juni war ein besonders guter Monat. Allerdings gab es auch bei den…",
-      "source": "n-tv",
-      "pubDate": "2026-08-07T07:29:55+00:00"
     }
   ],
   "politik": [
@@ -139,6 +139,20 @@
   ],
   "it": [
     {
+      "title": "Developer-Häppchen:  Kotlin-LSP für Cursor und Sneak Peak für Kubernetes",
+      "link": "https://www.heise.de/news/Developer-Haeppchen-Kotlin-LSP-fuer-Cursor-und-Sneak-Peak-fuer-Kubernetes-11399144.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Kleine, aber interessante Meldungshäppchen vom News-Buffet zu Kubernetes, Servo, Symfony Polyfill, Python, Rust, Pandoc, Coreutils, JetBrains und Quasar.",
+      "source": "heise",
+      "pubDate": "2026-08-08T07:15:00+00:00"
+    },
+    {
+      "title": "openDesk: Für wen ist die Community-Version überhaupt gedacht?",
+      "link": "https://www.heise.de/hintergrund/openDesk-Fuer-wen-ist-die-Community-Version-ueberhaupt-gedacht-11403534.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die Bundes-Office-Suite für Behörden ist zwar souverän – aber der Eigenbetrieb klappt wohl nur mit eigenem Plattformteam.",
+      "source": "heise",
+      "pubDate": "2026-08-08T07:00:00+00:00"
+    },
+    {
       "title": "Die Bilder der Woche 32: Farbwirbel und grafische Momentaufnahmen",
       "link": "https://www.heise.de/news/Farbe-Licht-und-stille-Momente-Die-Bilder-der-Woche-32-11396044.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Von minimalistischer Architektur bis zur Unterwasserwelt – unsere Bilder der Woche begeistern mit Farbe, Licht und Komposition.",
@@ -160,9 +174,9 @@
       "pubDate": "2026-08-08T04:30:00+00:00"
     },
     {
-      "title": "Top 10: Der beste Smart Ring im Test – Oura Ring 5 ist Testsieger",
+      "title": "Top 10: Der beste Smart Ring im Test",
       "link": "https://www.heise.de/bestenlisten/testsieger/top-10-der-beste-smart-ring-im-test-oura-ring-5-ist-testsieger/rgglr38?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ein Smart Ring ist die diskrete Alternative zur Smartwatch für Fitness-Tracking und Schlafanalyse. Wir zeigen die besten Modelle – mit und ohne Abo.",
+      "summary": "Ein Smart Ring ist die diskrete Alternative für Fitness-Tracking und Schlafanalyse. Wir zeigen die besten Modelle.",
       "source": "heise",
       "pubDate": "2026-08-07T18:00:00+00:00"
     },
@@ -244,13 +258,6 @@
       "pubDate": "2026-08-07T14:51:01+00:00"
     },
     {
-      "title": "Unternehmen fürchten US-Kill-Switch für kritische IT-Dienste",
-      "link": "https://www.heise.de/news/Unternehmen-fuerchten-US-Kill-Switch-fuer-kritische-IT-Dienste-11403600.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "74 Prozent der Unternehmen befürchten, dass US-Anbieter auf Druck der US-Regierung wichtige Dienste sperren könnten.",
-      "source": "heise",
-      "pubDate": "2026-08-07T14:35:00+00:00"
-    },
-    {
       "title": "Strauss Zelnick: Take-Two deutet Cloud-Gaming-Version von GTA 6 an",
       "link": "https://www.golem.de/news/strauss-zelnick-take-two-deutet-cloud-gaming-version-von-gta-6-an-2608-211725.html",
       "summary": "Action in Vice City ohne leistungsstarke Hardware: Das könnte laut Take-Two schon bald möglich sein. Die Firma äußert sich auch zur PC-Fassung. ( GTA 6 , Server )",
@@ -263,13 +270,6 @@
       "summary": "Eine neue Methode, Wasserstoff aus natürlich erzeugter Ameisensäure zu gewinnen, könnte die Energieerzeugung verändern. ( Wasserstoff , Brennstoffzelle )",
       "source": "golem",
       "pubDate": "2026-08-07T14:15:01+00:00"
-    },
-    {
-      "title": "Mobile Klimaanlage Meaco Cirro 12000 im Test",
-      "link": "https://www.heise.de/bestenlisten/testbericht/mobile-klimaanlage-meaco-cirro-12000-im-test-kuehlt-gut-und-ist-relativ-leise/cpk5vls?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die Meaco Cirro 12000 überzeugt mit einer starken Kühlleistung bei einem vergleichsweise niedrigen Geräuschpegel.",
-      "source": "heise",
-      "pubDate": "2026-08-07T14:00:00+00:00"
     },
     {
       "title": "Statt Disponenten: KI-System soll Notrufe entgegennehmen",
