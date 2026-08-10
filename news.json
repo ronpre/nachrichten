@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-08-10T14:55:01.571189+00:00",
+  "updatedAt": "2026-08-10T15:55:50.696454+00:00",
   "wirtschaft": [
+    {
+      "title": "Auftragsfertigung boomt: Intel will mit neuen Aktien Milliarden einsammeln",
+      "link": "https://www.n-tv.de/wirtschaft/Intel-will-mit-neuen-Aktien-Milliarden-einsammeln-id31178638.html",
+      "summary": "Der Chiphersteller Intel spielt im KI-Rennen eine untergeordnete Rolle. Vom Boom profitiert der Konzern dennoch. Denn in den Rechenzentren arbeiten auch herkömmliche Halbleiter. Zudem boomt das Geschä…",
+      "source": "n-tv",
+      "pubDate": "2026-08-10T15:21:32+00:00"
+    },
+    {
+      "title": "Highspeed-Wifi an Bord: Lufthansa stattet gesamte Flotte mit Starlink aus",
+      "link": "https://www.n-tv.de/wirtschaft/Lufthansa-stattet-gesamte-Flotte-mit-Starlink-aus-id31178403.html",
+      "summary": "Streamen, arbeiten oder im Netz surfen: Lufthansa will das Internet an Bord grundlegend verbessern. Dafür setzt die Airline auf Starlink und stattet ihre Flugzeuge schrittweise mit der Satellitentechn…",
+      "source": "n-tv",
+      "pubDate": "2026-08-10T14:58:36+00:00"
+    },
     {
       "title": "Marken Haibike, Winora und Ghost: Insolventer niederländischer Fahrrad-Hersteller reißt drei deutsche Firmen mit",
       "link": "https://www.n-tv.de/wirtschaft/Insolventer-niederlaendischer-Fahrrad-Hersteller-reisst-drei-deutsche-Firmen-mit-id31178067.html",
@@ -59,6 +73,13 @@
     }
   ],
   "politik": [
+    {
+      "title": "\"Polizei ist dann überfordert\": Muss die Bundeswehr die Drohnenabwehr übernehmen?",
+      "link": "https://www.n-tv.de/politik/Muss-die-Bundeswehr-die-Drohnenabwehr-uebernehmen-id31178214.html",
+      "summary": "Nach dem gescheiterten Drohnenangriff auf dem Leipziger Flughafen diskutiert die Politik, wie solche Attacken verhindert werden können - und durch wen. Ein Experte sagt: Spätestens bei Glasfaserdrohne…",
+      "source": "n-tv",
+      "pubDate": "2026-08-10T14:54:51+00:00"
+    },
     {
       "title": "Statistikamt legt Zahlen vor: Besonders im Osten leben wenig junge Menschen",
       "link": "https://www.n-tv.de/politik/Besonders-im-Osten-leben-wenig-junge-Menschen-id31178001.html",
@@ -121,16 +142,65 @@
       "summary": "Anfang September erwartet Deutschland ein politisches Beben im Osten: Die Landtagswahl in Sachsen-Anhalt dürfte die Verhältnisse im Magdeburger Landesparlament grundlegend verändern. Welche Koalitione…",
       "source": "n-tv",
       "pubDate": "2026-08-10T09:29:00+00:00"
-    },
-    {
-      "title": "Neue Details zu Drohnenvorfall: Leipzig entkam offenbar nur knapp einem Anschlag",
-      "link": "https://www.n-tv.de/politik/Leipzig-entkam-offenbar-nur-knapp-einem-Anschlag-id31176699.html",
-      "summary": "Eine Sprengstoff-Drohne sorgt in der vergangenen Woche für einen Großeinsatz am Flughafen Leipzig/Halle. Nun werden neue Details zu dem genauen Ablauf des Vorfalls bekannt. Der Verdacht eines gezielte…",
-      "source": "n-tv",
-      "pubDate": "2026-08-10T09:09:34+00:00"
     }
   ],
   "it": [
+    {
+      "title": "KI in der Bundesregierung: Wenn ein Sprachmodell die Ministerrede schreibt",
+      "link": "https://www.heise.de/news/KI-in-der-Bundesregierung-Wenn-ein-Sprachmodell-die-Ministerrede-schreibt-11409212.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die Bundesregierung nutzt KI zunehmend als Werkzeug. Während Schulungen für Beamte verpflichtend sind, bleibt die Transparenz bei KI-generierten Reden vage.",
+      "source": "heise",
+      "pubDate": "2026-08-10T15:43:00+00:00"
+    },
+    {
+      "title": "Anzeige: Microsoft 365 mit Zero Trust absichern",
+      "link": "https://www.golem.de/news/anzeige-microsoft-365-mit-zero-trust-absichern-2608-210522.html",
+      "summary": "Microsoft 365 Zero Trust verlangt klare Kontrollen für Identitäten, Daten und Geräte. Ein Online-Workshop zeigt, wie Schutzmechanismen und Monitoring strukturiert umgesetzt werden. ( Golem Karrierewel…",
+      "source": "golem",
+      "pubDate": "2026-08-10T15:40:01+00:00"
+    },
+    {
+      "title": "Meta veröffentlicht Muse Glimmer: Offenes 30-Milliarden-Parameter-Modell",
+      "link": "https://www.heise.de/news/Meta-veroeffentlicht-Muse-Glimmer-Offenes-30-Milliarden-Parameter-Modell-11409218.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Meta hat mit Muse Glimmer ein offenes 30-Milliarden-Parameter-Modell veröffentlicht, das lokal auf Consumer-Hardware läuft und kommerziell nutzbar ist.",
+      "source": "heise",
+      "pubDate": "2026-08-10T15:32:00+00:00"
+    },
+    {
+      "title": "Erste Lufthansa-Maschine mit Starlink-Internet an Bord startet in Kürze",
+      "link": "https://www.heise.de/news/Erste-Lufthansa-Maschine-mit-Starlink-Internet-an-Bord-startet-in-Kuerze-11409248.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Fluggäste von Lufthansa können in Kürze in einem ersten Airbus schnelles Internet von Starlink nutzen.",
+      "source": "heise",
+      "pubDate": "2026-08-10T15:31:00+00:00"
+    },
+    {
+      "title": "heise+ | USB-C-Hubs im Test: Mehr Buchsen für das MacBook – inklusive Neo",
+      "link": "https://www.heise.de/tests/USB-C-Hubs-im-Test-Mehr-Buchsen-fuer-das-MacBook-inklusive-Neo-11379552.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "USB-C-Hubs geben Apple-Geräten mehr Ports. Wir testen neun Geräte mit HDMI und Power Delivery, die sich besonders gut fürs MacBook Neo eignen – aber nicht nur.",
+      "source": "heise",
+      "pubDate": "2026-08-10T15:30:00+00:00"
+    },
+    {
+      "title": "zHBM, zNAND & HBF: Stapelspeicher für KI-Hardware soll schneller und größer werden",
+      "link": "https://www.golem.de/news/zhbm-znand-hbf-stapelspeicher-fuer-ki-hardware-soll-schneller-und-groesser-werden-2608-211778.html",
+      "summary": "Samsung und SK Hynix haben beim Future Memory Summit ihre Neuerungen bei 3D-Speicher vorgestellt. Direkt aufgestapelter HBM soll die Bandbreite steigern. ( 3D-Speicher , KI )",
+      "source": "golem",
+      "pubDate": "2026-08-10T15:17:01+00:00"
+    },
+    {
+      "title": "Extrem beliebt: Smart Glasses von Duckduckgo sind einfach nur Sonnenbrillen",
+      "link": "https://www.golem.de/news/extrem-beliebt-smart-glasses-von-duckduckgo-sind-einfach-nur-sonnenbrillen-2608-211780.html",
+      "summary": "Die neue Sonnenbrille der Suchmaschine ist ein Symbol für den Protest gegen Smart Glasses, mit denen Menschen heimlich aufgenommen werden. ( Duckduckgo , KI )",
+      "source": "golem",
+      "pubDate": "2026-08-10T15:02:02+00:00"
+    },
+    {
+      "title": "„Agent 64: Spies Never Die“ angespielt: Willkommen zurück im Jahr 1997!",
+      "link": "https://www.heise.de/tests/Agent-64-Spies-Never-Die-angespielt-Willkommen-zurueck-im-Jahr-1997-11403588.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Ein brandneues Spiel sieht mit voller Absicht so aus, als würde es auf einer 30 Jahre alten Konsole laufen. Und spielt sich auch genau so.",
+      "source": "heise",
+      "pubDate": "2026-08-10T15:00:00+00:00"
+    },
     {
       "title": "Anzeige: Drehmomentschlüssel fürs Fahrrad zum Sparpreis bei Amazon",
       "link": "https://www.golem.de/news/anzeige-drehmomentschluessel-fuers-fahrrad-zum-sparpreis-bei-amazon-2608-211776.html",
@@ -209,67 +279,11 @@
       "pubDate": "2026-08-10T13:32:00+00:00"
     },
     {
-      "title": "Nukleare Sicherheit: Abgeschaltete Reaktoren senden weiterhin Antineutrinos aus",
-      "link": "https://www.golem.de/news/nukleare-sicherheit-abgeschaltete-reaktoren-senden-weiterhin-antineutrinos-aus-2608-211768.html",
-      "summary": "Erstmals sind die kaum zu detektierenden Antiteilchen aus abklingenden Brennelementen statt einer aktiven Kernspaltung nachgewiesen worden. ( Atomkraft , Neutrino )",
-      "source": "golem",
-      "pubDate": "2026-08-10T13:25:02+00:00"
-    },
-    {
       "title": "Batterie mit Apples „Wo ist?“ für Sony-Kameras",
       "link": "https://www.heise.de/news/Batterie-mit-Apples-Wo-ist-fuer-Sony-Kameras-11403482.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Viele Kamerabesitzer verstecken bereits AirTags in ihre teuren Geräte. Ulanzi / Falcam stecken den Tracker nun direkt in einen Akku – samt Sonderfunktion.",
       "source": "heise",
       "pubDate": "2026-08-10T13:05:00+00:00"
-    },
-    {
-      "title": "Super Nintendo für unterwegs: Retro-Handheld „SupaBoy“ kommt nach Europa",
-      "link": "https://www.heise.de/news/Super-Nintendo-fuer-unterwegs-Retro-Handheld-SupaBoy-kommt-nach-Europa-11407343.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Der US-Hersteller Hyperkin kündigt zwei neue Farbvarianten seiner tragbaren Retro-Konsole an und öffnet den Vertrieb für den europäischen Markt.",
-      "source": "heise",
-      "pubDate": "2026-08-10T13:02:00+00:00"
-    },
-    {
-      "title": "heise+ | Kreativkomplize: Logoist 6 für Mac, iPhone und iPad im Test",
-      "link": "https://www.heise.de/tests/Kreativkomplize-Logoist-6-fuer-Mac-iPhone-und-iPad-im-Test-11379666.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Ob mit Vorlagen oder KI: Die Vektorgrafik-Lösung Logoist 6 erstellt im Nu ansprechende Grafiken und Logos, die sich weiterverwenden lassen.",
-      "source": "heise",
-      "pubDate": "2026-08-10T13:00:00+00:00"
-    },
-    {
-      "title": "KI-Update kompakt: KI-Robotik, DiffusionGemma, Google DeepMind, Bakteriophagen",
-      "link": "https://www.heise.de/news/KI-Update-kompakt-KI-Robotik-DiffusionGemma-Google-DeepMind-Bakteriophagen-11406292.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das „KI-Update“ liefert dreimal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
-      "source": "heise",
-      "pubDate": "2026-08-10T13:00:00+00:00"
-    },
-    {
-      "title": "OEM-Lizenzen: Microsoft macht Windows 11 merklich teurer",
-      "link": "https://www.golem.de/news/oem-lizenzen-microsoft-macht-windows-11-merklich-teurer-2608-211769.html",
-      "summary": "Die OEM-Lizenzkosten für Windows 11 werden wahrscheinlich auch Endkunden zu spüren bekommen - durch höhere PC-Preise. ( Betriebssysteme , Microsoft )",
-      "source": "golem",
-      "pubDate": "2026-08-10T12:54:01+00:00"
-    },
-    {
-      "title": "US Space Force gibt Flatellites für Luftraumüberwachung in Auftrag",
-      "link": "https://www.heise.de/news/US-Space-Force-gibt-Flatellites-fuer-Luftraumueberwachung-in-Auftrag-11407678.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Den Luftraum über Gefechtsfeldern sollen Satelliten überwachen. Unter anderem sollen die flachen Satelliten von Rocket Lab diese Aufgabe übernehmen.",
-      "source": "heise",
-      "pubDate": "2026-08-10T12:47:00+00:00"
-    },
-    {
-      "title": "Anzeige: FISCHER E-Bike Fahrradträger zum Bestpreis sichern",
-      "link": "https://www.golem.de/news/anzeige-fischer-e-bike-fahrradtraeger-zum-bestpreis-sichern-2608-211767.html",
-      "summary": "Wer seine E-Bikes sicher transportieren möchte, findet das klappbare FISCHER ProlineEvo 2 aktuell zum Bestpreis bei Amazon. Auch ein Modell von EUFAB ist reduziert. ( Technik/Hardware )",
-      "source": "golem",
-      "pubDate": "2026-08-10T12:35:02+00:00"
-    },
-    {
-      "title": "heise-Angebot: iX-Workshop: Linux-Server härten mit Verschlüsselung und Zugriffskontrolle",
-      "link": "https://www.heise.de/news/iX-Workshop-Linux-Server-absichern-effektiv-und-umfassend-11398193.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Linux-Server und Netzwerkdienste effektiv und umfassend vor Angriffen schützen – von physischer Sicherheit über Verschlüsselung und 2FA bis hin zu SELinux.",
-      "source": "heise",
-      "pubDate": "2026-08-10T12:00:00+00:00"
     }
   ]
 }
