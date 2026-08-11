@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-08-11T09:54:57.192340+00:00",
+  "updatedAt": "2026-08-11T10:53:46.452633+00:00",
   "wirtschaft": [
+    {
+      "title": "\"Neue Dimension erreicht\": HUK-Auswertung: Jeder achte Umsteiger kauft ein E-Auto",
+      "link": "https://www.n-tv.de/wirtschaft/HUK-Auswertung-Jeder-achte-Umsteiger-kauft-ein-E-Auto-id31180469.html",
+      "summary": "Immer mehr Autofahrer wechseln vom Verbrenner zum E-Auto. Laut einer Auswertung der HUK Coburg sind es doppelt so viele wie 2025. Bei gebrauchten Elektroautos erreicht die Wechselquote sogar einen Rek…",
+      "source": "n-tv",
+      "pubDate": "2026-08-11T09:58:03+00:00"
+    },
     {
       "title": "Bewertung unter Erwartungen?: Shein drückt beim geplanten Börsengang aufs Gas",
       "link": "https://www.n-tv.de/wirtschaft/Insider-Shein-will-am-19-August-Startschuss-fuer-Boersengang-geben-id31180697.html",
@@ -63,13 +70,6 @@
       "summary": "Der Insolvenz der Accell Group können sich auch deutsche Töchter nicht entziehen. Sie sollen nun in Eigenverwaltung saniert werden. Der Sachverwalter sieht dazu gute Chancen, denn der deutsche Markt s…",
       "source": "n-tv",
       "pubDate": "2026-08-10T14:10:25+00:00"
-    },
-    {
-      "title": "Rinder kommen zur Notschlachtung: Österreich verliert wegen Rekordhitze und Dürre fast ein Drittel der Ernte",
-      "link": "https://www.n-tv.de/wirtschaft/Oesterreich-verliert-wegen-Rekordhitze-und-Duerre-fast-ein-Drittel-der-Ernte-id31177461.html",
-      "summary": "Die Lage der österreichischen Landwirtschaft ist katastrophal. Einem Agrarversicherer zufolge war es noch nie so heiß und trocken wie im Sommer 2026. Der Schaden liegt im Milliardenbereich. Zusätzlich…",
-      "source": "n-tv",
-      "pubDate": "2026-08-10T12:25:37+00:00"
     }
   ],
   "politik": [
@@ -88,7 +88,7 @@
       "pubDate": "2026-08-11T09:30:18+00:00"
     },
     {
-      "title": "Tote nach \"bösartiger Attacke\": Selenskyj: Russen feuerten nordkoreanische Raketen auf Saporischschja",
+      "title": "Gefährliche Neuentwicklung : Selenskyj: Russen feuerten nordkoreanische Raketen auf Saporischschja",
       "link": "https://www.n-tv.de/politik/Selenskyj-Russen-feuerten-nordkoreanische-Raketen-auf-Saporischschja-id31180277.html",
       "summary": "Nordkorea ist ein enger Verbündeter Russlands. Nach ukrainischen Angaben unterstützt Pjöngjang Moskau mit Soldaten sowie mit Waffen. Präsident Selenskyj sieht darin eine gefährliche Entwicklung - nich…",
       "source": "n-tv",
@@ -145,6 +145,76 @@
     }
   ],
   "it": [
+    {
+      "title": "Sonnenfinsternis: So gelingt die sichere Beobachtung auch ohne Sofi-Brille",
+      "link": "https://www.golem.de/news/sonnenfinsternis-so-gelingt-die-sichere-beobachtung-auch-ohne-sofi-brille-2608-211805.html",
+      "summary": "Fast komplett wird der Mond die Sonne bedecken. Ohne Schutz darf das Naturphänomen aber keinesfalls beobachtet werden. Es gibt sichere Methoden. Von Mario Petzold ( Sonne , DIY - Do it yourself )",
+      "source": "golem",
+      "pubDate": "2026-08-11T10:41:02+00:00"
+    },
+    {
+      "title": "GymKit in iOS 27: Fitness-Training nur mit iPhone und AirPods",
+      "link": "https://www.heise.de/news/GymKit-in-iOS-27-Fitness-Training-nur-mit-iPhone-und-AirPods-11403878.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Apples neue Verbindungs-API für Sportgeräte wird erweitert. Künftig reichen bereits AirPods mit Herzfrequenztracking und ein iPhone zur Verbindungsaufnahme.",
+      "source": "heise",
+      "pubDate": "2026-08-11T10:29:00+00:00"
+    },
+    {
+      "title": "Audiobricks: Lautsprecher und Verstärker, die in Lego-Gehäuse passen",
+      "link": "https://www.golem.de/news/audiobricks-lautsprecher-und-verstaerker-die-in-lego-gehaeuse-passen-2608-211801.html",
+      "summary": "Audiobricks bietet PCBs, Lautsprechertreiber und Bedienelemente an. Das Gehäuse bauen Kunden aus Klemmbausteinen auf. ( Audio , Sound-Hardware )",
+      "source": "golem",
+      "pubDate": "2026-08-11T10:27:01+00:00"
+    },
+    {
+      "title": "Deutschland-Stack: Studien sollen Regeln für Bund, Länder und Kommunen klären",
+      "link": "https://www.golem.de/news/deutschland-stack-studien-sollen-regeln-fuer-bund-laender-und-kommunen-klaeren-2608-211802.html",
+      "summary": "In vier Kurzstudien sollen organisatorische sowie technische Fragen zur Einführung der öffentlichen Technologieplattform untersucht werden. ( Souveränität , Studien )",
+      "source": "golem",
+      "pubDate": "2026-08-11T10:14:02+00:00"
+    },
+    {
+      "title": "Passkeys in der Praxis – Teil 2: Registrierung und Authentifizierung",
+      "link": "https://www.heise.de/hintergrund/Passkeys-in-der-Praxis-Teil-2-Registrierung-und-Authentifizierung-11407195.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die exakten Abläufe bei Registrierung und Anmeldung per Passkey sind komplex. Wer sie kennt, kann das Verfahren sicher und spezifikationsgemäß implementieren.",
+      "source": "heise",
+      "pubDate": "2026-08-11T10:14:00+00:00"
+    },
+    {
+      "title": "Spritpreise treiben Rekordumstieg auf Elektroautos",
+      "link": "https://www.heise.de/news/Spritpreise-treiben-Rekordumstieg-auf-Elektroautos-11409868.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Im zweiten Quartal 2026 tauschten zwölf Prozent der HUK-Privatkunden ihren Verbrenner gegen ein Elektroauto, das sind doppelt so viele wie vor dem Iran-Krieg.",
+      "source": "heise",
+      "pubDate": "2026-08-11T10:04:00+00:00"
+    },
+    {
+      "title": "Mietwohnungen: Regierung prüft Anspruch auf Einbau von Klimaanlagen",
+      "link": "https://www.golem.de/news/mietwohnungen-regierung-prueft-anspruch-auf-einbau-von-klimaanlagen-2608-211782.html",
+      "summary": "Die Hitzewellen haben die Nachfrage nach Klimaanlagen steigen lassen. Im Gegensatz zu Eigentümern haben Mieter es mit der Installation schwerer. Ein Bericht von Friedhelm Greis ( Klima , Bundesgericht…",
+      "source": "golem",
+      "pubDate": "2026-08-11T10:00:01+00:00"
+    },
+    {
+      "title": "heise+ | Wie sich KI-Rechenzentren von gewöhnlichen Rechenzentren unterscheiden",
+      "link": "https://www.heise.de/hintergrund/Wie-sich-KI-Rechenzentren-von-gewoehnlichen-Rechenzentren-unterscheiden-11355216.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "KI-Rechenzentren schießen wie Pilze aus dem Boden. Sie verheizen nicht nur mehr Strom als normale Rechenzentren, sondern haben auch technische Besonderheiten.",
+      "source": "heise",
+      "pubDate": "2026-08-11T10:00:00+00:00"
+    },
+    {
+      "title": "heise-Angebot: Horizons by heise Online-Meetup: Zwischen KI und Klischees",
+      "link": "https://www.heise.de/news/Horizons-by-heise-Online-Meetup-Zwischen-KI-und-Klischees-11408648.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Warum 50plus eine Zukunftsfrage für Unternehmen ist.",
+      "source": "heise",
+      "pubDate": "2026-08-11T10:00:00+00:00"
+    },
+    {
+      "title": "IBM Db2: Sicherheitslücke macht Passwörter im Klartext einsehbar",
+      "link": "https://www.heise.de/news/IBM-Db2-Sicherheitsluecke-macht-Passwoerter-im-Klartext-einsehbar-11409950.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "IBMs Datenbanksystem Db2 ist über mehrere Schwachstellen angreifbar. Davon sind Client- und Serverversionen betroffen.",
+      "source": "heise",
+      "pubDate": "2026-08-11T09:52:00+00:00"
+    },
     {
       "title": "Supaboy: Mobiles Super Nintendo kommt erstmals nach Europa",
       "link": "https://www.golem.de/news/supaboy-mobiles-super-nintendo-kommt-erstmals-nach-europa-2608-211800.html",
@@ -214,76 +284,6 @@
       "summary": "Die größte zweidimensionale Karte des Nachthimmels dient wegweisenden astronomischen Kampagnen als Grundlage. Sie kann aber auch direkt erforscht werden.",
       "source": "heise",
       "pubDate": "2026-08-11T08:52:00+00:00"
-    },
-    {
-      "title": "macOS kommt auf das iPad – nach Jailbreak",
-      "link": "https://www.heise.de/news/macOS-kommt-auf-das-iPad-nach-Jailbreak-11406814.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ein Open-Source-Projekt versucht, den lange gehegten Traum eines Tablet-Macs umzusetzen. Mit Jailbreak und bestimmten iPad- und OS-Versionen soll es nun gehen.",
-      "source": "heise",
-      "pubDate": "2026-08-11T08:48:00+00:00"
-    },
-    {
-      "title": "heise+ | Festplatten-Neuheiten im Test: 3,5 Zoll ohne Netzteil und RAID mit Thunderbolt 5",
-      "link": "https://www.heise.de/tests/Festplatten-Neuheiten-im-Test-3-5-Zoll-ohne-Netzteil-und-RAID-mit-Thunderbolt-5-11404000.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Seagate hat zwei neuartige Massenspeicher mit rotierenden Scheiben im Angebot: Wir testen die Firecuda X und das 8big Pro5 am Mac.",
-      "source": "heise",
-      "pubDate": "2026-08-11T08:30:00+00:00"
-    },
-    {
-      "title": "Langer Marsch 7A: Chinesische Rakete explodiert kurz nach Start",
-      "link": "https://www.golem.de/news/langer-marsch-7a-chinesische-rakete-explodiert-kurz-nach-start-2608-211788.html",
-      "summary": "Weniger als 90 Sekunden in der Luft und die ansonsten zuverlässige chinesische Träger-Rakete des Typs Langer Marsch 7A ging in Flammen auf. ( Rakete , Raumfahrt )",
-      "source": "golem",
-      "pubDate": "2026-08-11T08:28:01+00:00"
-    },
-    {
-      "title": "Webentwicklung: Agenten checken selbstständig Bugs mit dem Chrome-Browser",
-      "link": "https://www.heise.de/news/Webentwicklung-Agenten-checken-selbststaendig-Bugs-mit-dem-Chrome-Browser-11409738.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Agenten lassen sich in der IDE WebStorm von JetBrains jetzt mit Spezifikationen steuern und können zum Debuggen direkt auf Chrome zugreifen.",
-      "source": "heise",
-      "pubDate": "2026-08-11T08:26:00+00:00"
-    },
-    {
-      "title": "Sicherheitslücken: Angreifer können Wachdienst von ClamAV stören",
-      "link": "https://www.heise.de/news/Sicherheitsluecken-Angreifer-koennen-Wachdienst-von-ClamAV-stoeren-11409730.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Der Open-Source-Virenscanner ClamAV ist verwundbar. Im schlimmsten Fall kann Schadcode auf Instanzen gelangen.",
-      "source": "heise",
-      "pubDate": "2026-08-11T08:12:00+00:00"
-    },
-    {
-      "title": "Vom Freelancer zum Unternehmer: 100.000 Euro weg, jede Menge Stress - und ein Happy End",
-      "link": "https://www.golem.de/news/vom-freelancer-zum-unternehmer-100-000-euro-weg-jede-menge-stress-und-ein-happy-end-2608-211756.html",
-      "summary": "Ich war als Freelancer erfolgreich und dennoch gestresst. Der Grund: Ich wusste nicht, wie Business funktioniert. Wie ich den Sprung zum Unternehmer trotzdem geschafft habe. Ein Erfahrungsbericht von …",
-      "source": "golem",
-      "pubDate": "2026-08-11T08:01:01+00:00"
-    },
-    {
-      "title": "heise-Angebot: iX-Workshop Advanced Kubernetes Security: Effektive Maßnahmen und Best Practices",
-      "link": "https://www.heise.de/news/iX-Workshop-Advanced-Kubernetes-Security-Effektive-Massnahmen-und-Best-Practices-11389280.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Lernen Sie anhand praktischer Beispiele, wie Sie Ihre Kubernetes-Umgebung durch effektive Methoden und Werkzeuge vor Angriffen schützen.",
-      "source": "heise",
-      "pubDate": "2026-08-11T08:00:00+00:00"
-    },
-    {
-      "title": "Kartendienst: Google Maps vermittelt Essen und Hotels per KI",
-      "link": "https://www.golem.de/news/kartendienst-google-maps-vermittelt-essen-und-hotels-per-ki-2608-211792.html",
-      "summary": "Google baut Ask Maps aus. Die KI hilft beim Ordern von Essen und verlinkt auf Angebote für Hotels sowie Events. ( Google Maps , KI )",
-      "source": "golem",
-      "pubDate": "2026-08-11T07:35:02+00:00"
-    },
-    {
-      "title": "Geforce RTX 3060 bis 5090: Grafikkarten werden wieder merklich teurer",
-      "link": "https://www.golem.de/news/geforce-rtx-3060-bis-5090-grafikkarten-werden-wieder-merklich-teurer-2608-211791.html",
-      "summary": "Bis zu 20 Prozent mehr Geld wollen Nvidia-Boardpartner Asus und Gigabyte für GPUs verlangen. Das trifft das gesamte Geforce-Sortiment. ( Grafikkarten , AMD )",
-      "source": "golem",
-      "pubDate": "2026-08-11T07:21:02+00:00"
-    },
-    {
-      "title": "Suno will eigenen KI-Spam mit Downloadgrenzen für generierte Musik bekämpfen",
-      "link": "https://www.heise.de/news/Suno-will-eigenen-KI-Spam-mit-Downloadgrenzen-fuer-generierte-Musik-bekaempfen-11409666.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Suno begrenzt ab September Downloads für KI-generierte Songs. Gleichzeitig kündigt das Unternehmen eine schnellere und effizientere Modellgeneration an.",
-      "source": "heise",
-      "pubDate": "2026-08-11T07:20:00+00:00"
     }
   ]
 }
