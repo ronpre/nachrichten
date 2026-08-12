@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-08-12T06:11:28.464233+00:00",
+  "updatedAt": "2026-08-12T07:38:47.277846+00:00",
   "wirtschaft": [
+    {
+      "title": "Konzern kommt EU-Vorgaben nach: Anthropic markiert KI-Texte mit unsichtbarem Wasserzeichen",
+      "link": "https://www.n-tv.de/wirtschaft/Anthropic-markiert-KI-Texte-mit-unsichtbarem-Wasserzeichen-id31183877.html",
+      "summary": "Wurde ein Text mit dem Chatbot Claude erstellt, bearbeitet oder Korrektur gelesen? Das soll nun an einem maschinenlesbaren Wasserzeichen erkennbar sein. Das bleibt auch dann erhalten, wenn der Text ko…",
+      "source": "n-tv",
+      "pubDate": "2026-08-12T06:34:43+00:00"
+    },
     {
       "title": "EU führt Krisenmechanismus ein: Tiktok und Facebook sperren Inhalte von Ceuta-Schleusern",
       "link": "https://www.n-tv.de/wirtschaft/Tiktok-und-Facebook-sperren-Inhalte-von-Ceuta-Schleusern-id31183512.html",
@@ -63,20 +70,13 @@
       "summary": "Shein produziert Billigmode in China und vertreibt sie in etwa 160 Ländern. Das Unternehmen strebt seinen Börsengang an. Dieser soll Berichten zufolge kurz bevorstehen.",
       "source": "n-tv",
       "pubDate": "2026-08-11T09:20:17+00:00"
-    },
-    {
-      "title": "Trockenheit bremst Transport aus: Niedrigwasser am Rhein treibt Spritpreise in die Höhe",
-      "link": "https://www.n-tv.de/wirtschaft/Niedrigwasser-am-Rhein-treibt-Spritpreise-in-die-Hoehe-id31180110.html",
-      "summary": "Wegen niedriger Pegelstände ist der Schiffsverkehr auf dem Rhein stark eingeschränkt. Das wirkt sich auch auf die Preise von Sprit aus, den für gewöhnlich große Tankschiffe auf dem Fluss transportiere…",
-      "source": "n-tv",
-      "pubDate": "2026-08-11T07:23:01+00:00"
     }
   ],
   "politik": [
     {
-      "title": "\"Ich tue, was sie sagen\": Trump bestätigt Täuschungsmanöver des Secret Service",
-      "link": "https://www.n-tv.de/politik/Trump-bestaetigt-Taeuschungsmanoever-des-Secret-Service-id31183823.html",
-      "summary": "Nach dem Nato-Gipfel saß Donald Trump gar nicht im Regierungsflieger, obwohl das Weiße Haus das vor laufenden TV-Kameras vortäuschte. Der US-Präsident bestätigt nun die Aktion vom Secret Service. Die …",
+      "title": "\"Ich tue, was sie sagen\": Trump berichtet von Täuschungsmanöver des Secret Service",
+      "link": "https://www.n-tv.de/politik/Trump-berichtet-von-Taeuschungsmanoever-des-Secret-Service-id31183823.html",
+      "summary": "Nach dem Nato-Gipfel saß Donald Trump gar nicht im Regierungsflugzeug, obwohl das Weiße Haus das vor laufenden TV-Kameras vortäuschte. Der US-Präsident bestätigt nun die Aktion vom Secret Service. Die…",
       "source": "n-tv",
       "pubDate": "2026-08-12T06:01:51+00:00"
     },
@@ -146,32 +146,116 @@
   ],
   "it": [
     {
+      "title": "Neptun Deep: Russische Drohnen stürzen nahe rumänischem Gasfeld ab",
+      "link": "https://www.golem.de/news/neptun-deep-russische-drohnen-stuerzen-nahe-rumaenischem-gasfeld-ab-2608-211835.html",
+      "summary": "Die rumänische Marine hat zwei russische Gerbera-Drohnen in der Nähe eines Gasfeldes geborgen und gesprengt. ( Drohne , Politik )",
+      "source": "golem",
+      "pubDate": "2026-08-12T07:34:02+00:00"
+    },
+    {
+      "title": "Patchday: Angreifer attackieren Windows und verschaffen sich System-Rechte",
+      "link": "https://www.heise.de/news/Patchday-Angreifer-attackieren-Windows-und-verschaffen-sich-System-Rechte-11410875.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Microsoft kümmert sich um rund 400 Sicherheitsprobleme in Azure, Office, Windows & Co. Mehrere Lücken gelten als kritisch.",
+      "source": "heise",
+      "pubDate": "2026-08-12T07:25:00+00:00"
+    },
+    {
+      "title": "KI-Brillen: Strafanzeige gegen Meta, Ray-Ban und Optiker",
+      "link": "https://www.heise.de/news/KI-Brillen-Strafanzeige-gegen-Meta-Ray-Ban-und-Optiker-11410967.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die Organisation HateAid hat Strafanzeige gegen Meta und mehrere Optik-Ketten eingereicht. Die Smart Glasses sollen gegen das TDDDG verstoßen.",
+      "source": "heise",
+      "pubDate": "2026-08-12T07:14:00+00:00"
+    },
+    {
+      "title": "Retro-Word: Entwickler bringt Word 1.1 von 1990 für modernes Windows",
+      "link": "https://www.golem.de/news/retro-word-entwickler-bringt-word-1-1-von-1990-fuer-modernes-windows-2608-211838.html",
+      "summary": "Das Textverarbeitungsprogramm enthält alle klassischen GUI-Elemente aus den 90ern und basiert auf dem Original für Windows 3.0. ( Office , Microsoft )",
+      "source": "golem",
+      "pubDate": "2026-08-12T07:13:02+00:00"
+    },
+    {
+      "title": "Ein gutes Produkt reicht nicht: Sales für Entwicklerinnen und Entwickler",
+      "link": "https://www.heise.de/blog/Ein-gutes-Produkt-reicht-nicht-Sales-fuer-Entwicklerinnen-und-Entwickler-11403884.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Vertrieb gilt vielen Entwicklerinnen und Entwicklern als notwendiges Übel. Oliver Gehrmann erklärt im Interview, warum Sales vor allem ein Handwerk ist.",
+      "source": "heise",
+      "pubDate": "2026-08-12T07:12:00+00:00"
+    },
+    {
+      "title": "Big Bang: Umsetzung von Energiesparplan für Voyager-2 geglückt",
+      "link": "https://www.golem.de/news/big-bang-umsetzung-von-energiesparplan-fuer-voyager-2-geglueckt-2608-211832.html",
+      "summary": "Die Nasa hat bei Voyager-2 einen Energiesparplan umgesetzt, um die verbleibenden wissenschaftlichen Instrumente weiter zu betreiben. ( Nasa , Raumfahrt )",
+      "source": "golem",
+      "pubDate": "2026-08-12T07:05:02+00:00"
+    },
+    {
+      "title": "KI-Einsatz: Viele Start-ups verzichten auf Neueinstellungen",
+      "link": "https://www.heise.de/news/KI-Einsatz-Viele-Start-ups-verzichten-auf-Neueinstellungen-11410935.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Eine Bitkom-Umfrage zeigt: Viele Tech-Start-ups verzichten wegen KI auf Neueinstellungen, einige bauen sogar Stellen ab.",
+      "source": "heise",
+      "pubDate": "2026-08-12T07:05:00+00:00"
+    },
+    {
+      "title": "heise+ | Wie KI die IT-Sicherheit revolutioniert und neue Bedrohungen schafft",
+      "link": "https://www.heise.de/ratgeber/Wie-KI-die-IT-Sicherheit-revolutioniert-und-neue-Bedrohungen-schafft-11363008.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "KI verändert die IT-Security, aber es wäre falsch, sie nur als Bedrohung zu sehen. Sie ist nicht das eigentliche Problem – und kann bei der Lösung helfen.",
+      "source": "heise",
+      "pubDate": "2026-08-12T07:00:00+00:00"
+    },
+    {
+      "title": "Spotify: Wer nicht existiert, wird nicht mehr empfohlen",
+      "link": "https://www.heise.de/news/Spotify-KI-Kuenstler-bekommen-ein-Label-und-fliegen-aus-den-Empfehlungen-11410865.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Spotify kennzeichnet ab Mitte September Künstlerprofile mit KI-generierter Identität. Ihre Musik taucht in Empfehlungen nicht mehr auf.",
+      "source": "heise",
+      "pubDate": "2026-08-12T06:58:00+00:00"
+    },
+    {
+      "title": "Auch in Europa: Nordkoreanische Hacker attackieren Windows-Nutzer",
+      "link": "https://www.golem.de/news/auch-in-europa-nordkoreanische-hacker-attackieren-windows-nutzer-2608-211834.html",
+      "summary": "Die Hackergruppe Lazarus greift Windows-Nutzer über eine Treiberlücke an. Microsoft hat sie zusammen mit über 400 weiteren Sicherheitslücken gepatcht. ( Patchday , Microsoft )",
+      "source": "golem",
+      "pubDate": "2026-08-12T06:54:02+00:00"
+    },
+    {
+      "title": "Musik-Streaming: Spotify markiert KI-Ersteller mit neuem Persona-Label",
+      "link": "https://www.golem.de/news/musik-streaming-spotify-markiert-ki-ersteller-mit-neuem-persona-label-2608-211836.html",
+      "summary": "Spotify kennzeichnet KI-generierte Identitäten ab Mitte September 2026. Empfehlungen schließen solche Profile künftig aus. ( Spotify , KI )",
+      "source": "golem",
+      "pubDate": "2026-08-12T06:45:01+00:00"
+    },
+    {
+      "title": "MUL.E: Ukraine baut E-Motorrad für den Fronteinsatz",
+      "link": "https://www.golem.de/news/mul-e-ukraine-baut-e-motorrad-fuer-den-fronteinsatz-2608-211833.html",
+      "summary": "Die Ukraine baut ein allradangetriebenes E-Motorrad für den Fronteinsatz. Das Mul.e ist geräuschlos und mit einem Range-Extender ausgerüstet. ( E-Bike , Politik )",
+      "source": "golem",
+      "pubDate": "2026-08-12T06:30:02+00:00"
+    },
+    {
+      "title": "Blauer Himmel: Vorsicht bei Smartphone-Fotos von partieller Sonnenfinsternis",
+      "link": "https://www.heise.de/news/Partielle-Sonnenfinsternis-Fotos-mit-dem-Smartphone-koennen-Bildsensor-zerstoeren-11410817.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Am Abend kann man eine partielle Sonnenfinsternis beobachten, das Wetter spielt mit. Mit dem ungeschützten Smartphone sollte man sie aber nicht fotografieren.",
+      "source": "heise",
+      "pubDate": "2026-08-12T06:29:00+00:00"
+    },
+    {
+      "title": "E-Auto-Förderung: Verkehrsminister plant kein Nachfolgeprogramm",
+      "link": "https://www.heise.de/news/Bilger-Kein-Bedarf-fuer-zusaetzliche-E-Auto-Foerderung-11410851.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Verlockende Zuschüsse kurbeln die Nachfrage nach E-Autos an. Nach dem laufenden Programm hält der Verkehrsminister weitere Förderung nicht für nötig.",
+      "source": "heise",
+      "pubDate": "2026-08-12T06:23:00+00:00"
+    },
+    {
+      "title": "„The Elder Scrolls 6“: Xbox-Chefin schwärmt nach Live-Demo bei Bethesda",
+      "link": "https://www.heise.de/news/The-Elder-Scrolls-6-Xbox-Chefin-schwaermt-nach-Live-Demo-bei-Bethesda-11410827.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Xbox-Chefin Asha Sharma hat sich „The Elder Scrolls 6“ vorführen lassen und schwärmt davon auf X. Vor dem Bethesda-Büro protestierten derweil Entwickler.",
+      "source": "heise",
+      "pubDate": "2026-08-12T06:22:00+00:00"
+    },
+    {
       "title": "heise-Angebot: Das Maker-Faire-Fieber steigt – die Make-Redaktion macht sich bereit",
       "link": "https://www.heise.de/news/Das-Maker-Faire-Fieber-steigt-die-Make-Redaktion-macht-sich-bereit-11410505.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Die Vorbereitungen laufen: Die Make-Redaktion bringt Projekte, Mitmachaktionen und jede Menge Makey zur Maker Faire nach Hannover.",
       "source": "heise",
       "pubDate": "2026-08-12T06:00:00+00:00"
-    },
-    {
-      "title": "Gutachten: Anordnung zur Kupfer-Abschaltung möglich",
-      "link": "https://www.heise.de/news/Gutachten-Anordnung-zur-Kupfer-Abschaltung-moeglich-11410803.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ein neues Gutachten sieht die geplante EU-weite Abschaltung von Kupfernetzen bis 2035 als europarechtlich zulässig an und widerspricht damit früheren Bedenken.",
-      "source": "heise",
-      "pubDate": "2026-08-12T05:48:00+00:00"
-    },
-    {
-      "title": "Time Magazine zeigt KI-Bots separate Markdown-Seiten mit eingebetteten Anzeigen",
-      "link": "https://www.heise.de/news/Time-Magazine-schaltet-Werbung-gezielt-fuer-KI-Crawler-11409918.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das Time Magazine betreibt eine zweite Version seiner Website nur für KI-Crawler – inklusive Werbung, die nur sie sehen. Die sollen in Chatbot-Antworten landen.",
-      "source": "heise",
-      "pubDate": "2026-08-12T05:34:00+00:00"
-    },
-    {
-      "title": "heise+ | BedJet 3 im Test: Kühler schlafen mit Luftstrom statt Wasserkühlung",
-      "link": "https://www.heise.de/tests/BedJet-3-im-Test-Kuehler-schlafen-mit-Luftstrom-statt-Wasserkuehlung-11346239.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Der BedJet bläst Luft unter die Bettdecke oder in ein spezielles Laken. Wir testen, ob das Konzept nachts ähnlich gut kühlt wie ein teures Bettkühlsystem.",
-      "source": "heise",
-      "pubDate": "2026-08-12T05:30:00+00:00"
     },
     {
       "title": "Umfrage: KI beeinflusst deutschen Start-up-Arbeitsmarkt",
@@ -188,34 +272,6 @@
       "pubDate": "2026-08-12T05:15:01+00:00"
     },
     {
-      "title": "Rekord für Google-Dienst: Gemini erreicht eine Milliarde monatliche Nutzer",
-      "link": "https://www.heise.de/news/Rekord-fuer-Google-Dienst-Gemini-erreicht-eine-Milliarde-monatliche-Nutzer-11410799.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Als 14. Produkt von Google kommt Gemini jetzt auf eine Milliarde Nutzer und Nutzerinnen im Monat. Dabei läuft es bei der KI-Technik nicht mehr reibungslos.",
-      "source": "heise",
-      "pubDate": "2026-08-12T05:14:00+00:00"
-    },
-    {
-      "title": "Mittwoch: Klage wegen Wetten auf Flugstörung, Datenlöschung nach Übernahmeverbot",
-      "link": "https://www.heise.de/news/Mittwoch-Klage-wegen-Wetten-auf-Flugstoerung-Datenloeschung-nach-Uebernahmeverbot-11410795.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "FlightAware gegen Kalshi + Aufruf zur Datensicherung von KI-Firma + Sharepoint-Angriffe trotz Microsoft-Patch + Eigenbau für Überschallknall + Bit-Rauschen",
-      "source": "heise",
-      "pubDate": "2026-08-12T04:15:00+00:00"
-    },
-    {
-      "title": "Bit-Rauschen, der Prozessor-Podcast: Speichermedien für Jahrhunderte",
-      "link": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Speichermedien-fuer-Jahrhunderte-11346287.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Datenarchive sollen lange überdauern und Widrigkeiten trotzen. Dafür sind neuartige Speichermedien in der Entwicklung: Folge 2025/16 des Podcasts Bit-Rauschen.",
-      "source": "heise",
-      "pubDate": "2026-08-12T04:10:00+00:00"
-    },
-    {
-      "title": "Nach Übernahmeverbot löst sich chinesische KI-Firma im August komplett von Meta",
-      "link": "https://www.heise.de/news/Nach-Uebernahmeverbot-loest-sich-chinesische-KI-Firma-im-August-komplett-von-Meta-11410785.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Nutzer der Manus-KI sollten ihre Daten sichern. Aufgrund von Auflagen nach der von China untersagten Übernahme durch Meta Platforms wird vieles gelöscht.",
-      "source": "heise",
-      "pubDate": "2026-08-12T03:05:00+00:00"
-    },
-    {
       "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
       "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
       "summary": "FBI Atlanta confirms it's looking into the incident, no arrests made.",
@@ -223,67 +279,11 @@
       "pubDate": "2026-08-12T00:08:40+00:00"
     },
     {
-      "title": "Wetten auf Flugverspätungen: FlightAware verklagt Kalshi",
-      "link": "https://www.heise.de/news/Wetten-auf-Flugverspaetungen-FlightAware-verklagt-Kalshi-11410769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Der Flugdatendienst FlightAware verklagt die US-Wettbörse Kalshi. Sie richtet Wetten auf Flugverspätungen aus, und rechnet anhand der Daten FlightAwares ab.",
-      "source": "heise",
-      "pubDate": "2026-08-11T21:34:00+00:00"
-    },
-    {
       "title": "Chrome adopts what may be the best protection yet against account takeovers",
       "link": "https://arstechnica.com/security/2026/08/chrome-adopts-what-may-be-the-best-protection-yet-against-account-takeovers/",
       "summary": "Device-bound session credentials thwart an increasingly common form of account takeover.",
       "source": "ars technica",
       "pubDate": "2026-08-11T20:59:52+00:00"
-    },
-    {
-      "title": "Patch seit Mai verfügbar: Ransomware attackiert Microsoft Sharepoint",
-      "link": "https://www.heise.de/news/Ransomware-attackiert-ungepatchte-Sharepoint-Instanzen-11410721.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Eine schwere Sicherheitslücke in Microsoft SharePoint wird nun von Ransomware ausgenutzt. Ein Patch steht bereit, ungeschützte Systeme auch.",
-      "source": "heise",
-      "pubDate": "2026-08-11T19:39:00+00:00"
-    },
-    {
-      "title": "Digital Networks Acts: Kupferabschaltung ist keine Enteignung",
-      "link": "https://www.golem.de/news/digital-networks-acts-kupferabschaltung-ist-keine-enteignung-2608-211830.html",
-      "summary": "Die Abschaltung alter Kupfernetze in der EU ist keine entschädigungspflichtige Enteignung. Zu diesem Ergebnis kommt ein Rechtsgutachten des Breko. ( Glasfaser , DSL )",
-      "source": "golem",
-      "pubDate": "2026-08-11T18:38:01+00:00"
-    },
-    {
-      "title": "Anzeige: Hazet Smartcase mit 69 Teilen bei Amazon günstiger",
-      "link": "https://www.golem.de/news/anzeige-hazet-smartcase-mit-69-teilen-bei-amazon-guenstiger-2608-211828.html",
-      "summary": "Das Hazet Smartcase mit kurzen und langen Bits ist bei Amazon günstiger als in vielen anderen Shops. ( Technik/Hardware )",
-      "source": "golem",
-      "pubDate": "2026-08-11T17:05:02+00:00"
-    },
-    {
-      "title": "Anzeige: Beliebtes Akku-Multifunktionswerkzeug von Fanttik günstig wie seit Monaten nicht",
-      "link": "https://www.golem.de/news/anzeige-beliebtes-akku-multifunktionswerkzeug-von-fanttik-guenstig-wie-seit-monaten-nicht-2608-211829.html",
-      "summary": "Das unter Amazon-Kunden beliebte Fanttik F2 Master Mini-Akku-Multifunktionswerkzeug ist für unter 60 Euro im Angebot. ( Technik/Hardware , Amazon )",
-      "source": "golem",
-      "pubDate": "2026-08-11T16:50:01+00:00"
-    },
-    {
-      "title": "Frequenzen: Starlink-Konkurrent Iris² wird kein Direct-to-Device beherrschen",
-      "link": "https://www.golem.de/news/frequenzen-starlink-konkurrent-iris-wird-kein-direct-to-device-beherrschen-2608-211826.html",
-      "summary": "Eutelsat hatte groß angekündigt, dass Iris² mit dem 5G-Standard für Non-Terrestrial Networks arbeiten wird. Doch das ist eher aus der Not geboren. ( Satelliteninternet , Politik )",
-      "source": "golem",
-      "pubDate": "2026-08-11T16:16:02+00:00"
-    },
-    {
-      "title": "Anzeige: Reiserouter mit Wi-Fi 7 wieder zum Tiefstpreis",
-      "link": "https://www.golem.de/news/anzeige-reiserouter-mit-wi-fi-7-wieder-zum-tiefstpreis-2608-211825.html",
-      "summary": "War noch nie günstiger als jetzt: Amazon verkauft den GL.iNet EL-E5800 Reiserouter mit über 50 Euro Rabatt. ( Router , WLAN )",
-      "source": "golem",
-      "pubDate": "2026-08-11T16:05:01+00:00"
-    },
-    {
-      "title": "(g+) Artificial Intelligence: The AI threat to India's IT jobs machine",
-      "link": "https://www.golem.de/news/artificial-intelligence-the-ai-threat-to-india-s-it-jobs-machine-2608-211823.html",
-      "summary": "The country has bet big on tech services but disruption is coming Von Chris Kay ( Wirtschaft , KI )",
-      "source": "golem",
-      "pubDate": "2026-08-11T16:00:02+00:00"
     }
   ]
 }
