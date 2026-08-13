@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T11:03:11.394746+00:00",
+  "updatedAt": "2026-08-13T11:43:07.383405+00:00",
   "wirtschaft": [
     {
       "title": "\"Müssen mit Modellen überzeugen\": VDA gegen Förderstopp für chinesische E-Autos",
@@ -52,6 +52,13 @@
     }
   ],
   "politik": [
+    {
+      "title": "\"Können nirgendwohin liefern\": Russische Angriffe lassen Getreide-Bauern verzweifeln",
+      "link": "https://www.n-tv.de/politik/Russische-Angriffe-lassen-Getreide-Bauern-verzweifeln-id31189448.html",
+      "summary": "Die Ukraine meldet in den vergangenen Wochen Dutzende russische Attacken auf Häfen und Schiffe im Schwarzen Meer. Dadurch brechen die Getreideexporte ein. Für Landwirte hat das dramatische Folgen.",
+      "source": "n-tv",
+      "pubDate": "2026-08-13T11:21:04+00:00"
+    },
     {
       "title": "Neugestaltungen am Weißen Haus: Bericht: Trumps Umbau-Träume kosten fast eine Milliarde Dollar",
       "link": "https://www.n-tv.de/politik/Bericht-Trumps-Umbau-Traeume-kosten-fast-eine-Milliarde-Dollar-id31188910.html",
@@ -114,16 +121,65 @@
       "summary": "Die Wahl wird Nigel Farage voraussichtlich gewinnen. Sein ärgster Konkurrent, der mit dem Mülleimer über dem Kopf, ist laut einer Umfrage weit abgeschlagen. Und doch könnte der Polit-Stunt Farage mehr…",
       "source": "n-tv",
       "pubDate": "2026-08-13T05:32:40+00:00"
-    },
-    {
-      "title": "Nach Rechtsstreit mit Böhmermann: Gericht erlässt Haftbefehl gegen Maximilian Krah",
-      "link": "https://www.n-tv.de/politik/Gericht-erlaesst-Haftbefehl-gegen-Maximilian-Krah-id31188207.html",
-      "summary": "Jan Böhmermann und Maximilian Krah liefern sich seit fast zwei Jahren einen Rechtsstreit rund um einen Oktoberfestbesuch. Der Rechtsaußen verliert vor Gericht, doch weigert sich die Prozesskosten zu b…",
-      "source": "n-tv",
-      "pubDate": "2026-08-13T05:28:51+00:00"
     }
   ],
   "it": [
+    {
+      "title": "(g+) Doku-Strategien, Formate und Tools: Wie die Technische Dokumentation im 21. Jahrhundert ankommt",
+      "link": "https://www.golem.de/news/doku-strategien-formate-und-tools-wie-die-technische-dokumentation-im-21-jahrhundert-ankommt-2608-211862.html",
+      "summary": "Technische Dokumentation kann bei vielen Produkten zur Dauerbaustelle werden. Die Lösung sind Module. Wir erklären, wie das in der Praxis umzusetzen ist. Ein Deep Dive von Johannes Hauser ( Gut dokume…",
+      "source": "golem",
+      "pubDate": "2026-08-13T11:30:02+00:00"
+    },
+    {
+      "title": "heise+ | Wie KI Open-Source-Maintainer unter Druck setzt",
+      "link": "https://www.heise.de/ratgeber/Wie-KI-Open-Source-Maintainer-unter-Druck-setzt-11365967.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Das Ende der Bug-Bounties, ein Pausenmonat und was sonst noch gegen die KI-generierte Bug-Report-Flut hilft.",
+      "source": "heise",
+      "pubDate": "2026-08-13T11:30:00+00:00"
+    },
+    {
+      "title": "Vorbild Schneckenschleim: Forscher entschlüsseln faszinierendes Naturmaterial",
+      "link": "https://www.heise.de/news/Vorbild-Schneckenschleim-Forscher-entschluesseln-faszinierendes-Naturmaterial-11412984.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Forscher haben Schneckenschleim untersucht und ihn für ziemlich smart befunden. Die Erkenntnisse sollen auch bei der Entwicklung neuer Biomaterialien helfen.",
+      "source": "heise",
+      "pubDate": "2026-08-13T11:30:00+00:00"
+    },
+    {
+      "title": "Desinfec’t-AMA live auf Discord: Wir beantworten eure Fragen",
+      "link": "https://www.heise.de/news/Desinfec-t-AMA-live-auf-Discord-Wir-beantworten-eure-Fragen-11412932.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Am 13. August beantworten Peter Siering und Dennis Schirrmacher eure Fragen zu Desinfec’t 2026 live auf dem neuen heise- & c’t-Discord-Server.",
+      "source": "heise",
+      "pubDate": "2026-08-13T11:23:00+00:00"
+    },
+    {
+      "title": "Sicherheitslücken: Zwei Fehler hebeln TPM-Schutz aus",
+      "link": "https://www.golem.de/news/sicherheitsluecken-zwei-fehler-hebeln-tpm-schutz-aus-2608-211899.html",
+      "summary": "Eine weitverbreitete TPM-2.0-Implementierung hat Schwachstellen. Angreifer könnten Secure Boot aushebeln und Man-in-the-middle-Angriffe ausführen. ( Sicherheitslücke , Prozessor )",
+      "source": "golem",
+      "pubDate": "2026-08-13T11:17:02+00:00"
+    },
+    {
+      "title": "Claude: Nutzer äußern wegen des neuen Wasserzeichens Kritik an Anthropic",
+      "link": "https://www.heise.de/news/Claude-Nutzer-aeussern-wegen-des-neuen-Wasserzeichens-Kritik-an-Anthropic-11412904.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Einige Claude-Nutzer sind verärgert. Sie fürchten, dass ihre KI-Nutzung zeitnah leichter auffliegen kann. Aber auch diese Kritik bekommt Gegenstimmen.",
+      "source": "heise",
+      "pubDate": "2026-08-13T11:14:00+00:00"
+    },
+    {
+      "title": "Wettersatelliten liefern beeindruckende Aufnahmen der Sonnenfinsternis",
+      "link": "https://www.heise.de/news/Wettersatelliten-liefern-beeindruckende-Aufnahmen-der-Sonnenfinsternis-11412696.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Eine Sonnenfinsternis hat am Mittwochabend Westeuropa in den Bann gezogen. Zwei Wettersatelliten haben das Spektakel von sehr weit oben festgehalten.",
+      "source": "heise",
+      "pubDate": "2026-08-13T11:04:00+00:00"
+    },
+    {
+      "title": "LiteLLM-Angriff: Mehr als 2500 Unternehmen betroffen",
+      "link": "https://www.heise.de/news/LiteLLM-Angriff-Mehr-als-2500-Unternehmen-betroffen-11412654.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "IT-Forscher haben Zugriff auf die abgeflossenen Daten von tausenden Firmen beim LiteLLM-Supply-Chain-Angriff aus dem März erhalten.",
+      "source": "heise",
+      "pubDate": "2026-08-13T11:01:00+00:00"
+    },
     {
       "title": "Manipulative SEO-Taktik: Perplexity blockiert versteckte Werbung für KI-Bots",
       "link": "https://www.golem.de/news/manipulative-seo-taktik-perplexity-blockiert-versteckte-werbung-fuer-ki-bots-2608-211898.html",
@@ -176,7 +232,7 @@
     {
       "title": "Noch besser als Backrooms: Die Verfilmung von Exit 8 lässt uns im Kino mitspielen",
       "link": "https://www.golem.de/news/noch-besser-als-backrooms-die-verfilmung-von-exit-8-laesst-uns-im-kino-mitspielen-2608-211812.html",
-      "summary": "In Exit 8 versuchen wir mit dem Protagonisten einem sich wiederholenden Gängegewirr zu entkommen. Besser kann man ein Spiel fürs Kino nicht umsetzen. Eine Rezension von Daniel Pook ( Filmkritik , Film…",
+      "summary": "In Exit 8 versuchen wir mit dem Protagonisten einem sich wiederholenden Gängegewirr zu entkommen. Besser lässt sich ein Spiel fürs Kino nicht umsetzen. Eine Rezension von Daniel Pook ( Filmkritik , Fi…",
       "source": "golem",
       "pubDate": "2026-08-13T10:16:02+00:00"
     },
@@ -188,39 +244,11 @@
       "pubDate": "2026-08-13T10:09:00+00:00"
     },
     {
-      "title": "Jaguar Type 01: Tri-Motor-Elektro-GT mit über 736 Kilowatt vorgestellt",
-      "link": "https://www.heise.de/news/Jaguar-Type-01-Elektro-GT-mit-drei-Motoren-und-ueber-736-Kilowatt-angekuendigt-11412700.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Jaguar hat den Namen seines neuen E-Flaggschiffs enthüllt. Type 01 soll mit Tri-Motor-Antrieb mehr als 736 Kilowatt und über 700 Kilometer Reichweite bieten.",
-      "source": "heise",
-      "pubDate": "2026-08-13T10:07:00+00:00"
-    },
-    {
       "title": "Cyberangriff auf Taiwan: KI-Hacking-Tool kapert Behördenkonten und stiehlt Personaldaten",
       "link": "https://www.golem.de/news/cyberangriff-auf-taiwan-ki-hacking-tool-kapert-behoerdenkonten-und-stiehlt-personaldaten-2608-211891.html",
       "summary": "Taiwan ist im Juli 2026 einem KI-gestützten Cyberangriff ausgesetzt gewesen, den Analysten als neuartige Form des Angriffs bezeichnen. ( KI , Cyberwar )",
       "source": "golem",
       "pubDate": "2026-08-13T10:04:01+00:00"
-    },
-    {
-      "title": "heise+ | Googles TurboQuant-Verfahren: Praxistest auf einer AMD-GPU",
-      "link": "https://www.heise.de/ratgeber/Googles-TurboQuant-Verfahren-Praxistest-auf-einer-AMD-GPU-11409828.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Googles TurboQuant komprimiert den KV-Cache großer Sprachmodelle auf 3 Bit. Tests auf einer AMD-Karte zeigen: Das Kernversprechen stimmt — mit Nebeneffekten.",
-      "source": "heise",
-      "pubDate": "2026-08-13T10:00:00+00:00"
-    },
-    {
-      "title": "heise-Angebot: Konferenz zu Storage, Server, Network: S2N-Tickets noch zum Frühbucher-Preis",
-      "link": "https://www.heise.de/news/Konferenz-zu-Storage-Server-Network-S2N-Tickets-noch-zum-Fruehbucher-Preis-11411459.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Server- Storage- und Netzwerkexperten treffen sich am 3. und 4. November in Berlin. Bis zum 14. September gibt es noch Early-Bird-Tickets.",
-      "source": "heise",
-      "pubDate": "2026-08-13T10:00:00+00:00"
-    },
-    {
-      "title": "Apple erwägt, Verlagen Inhalte für Siri AI abzukaufen",
-      "link": "https://www.heise.de/news/Apple-erwaegt-Verlagen-Inhalte-fuer-Siri-AI-abzukaufen-11412559.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "KI-Konzerne wie OpenAI oder Anthropic haben bereits Verträge mit Inhalteanbietern geschlossen, um ihre KI zu verbessern. Bei Apple steht nun Ähnliches an.",
-      "source": "heise",
-      "pubDate": "2026-08-13T09:53:00+00:00"
     },
     {
       "title": "uBlock Origin: Beliebter Adblocker kapituliert vor Facebook-Werbung",
@@ -235,34 +263,6 @@
       "summary": "Amazon hat eine Dockingstation mit 15 Highspeed-Anschlüssen inklusive Dual-HDMI, Gigabit-Ethernet, PD 100 W und 25-W-Ladepad im Angebot. ( Dockingstation , Technik/Hardware )",
       "source": "golem",
       "pubDate": "2026-08-13T09:39:01+00:00"
-    },
-    {
-      "title": "Palo Alto Networks: Zahlreiche Sicherheitslücken in Prisma Browser geschlossen",
-      "link": "https://www.heise.de/news/Palo-Alto-Networks-Zahlreiche-Sicherheitsluecken-in-Prisma-Browser-geschlossen-11412581.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Es sind wichtige Sicherheitsupdates für Palo Alto Networks Unternehmensbrowser Prisma und die VPN-Lösung GlobalProtect App erschienen.",
-      "source": "heise",
-      "pubDate": "2026-08-13T09:35:00+00:00"
-    },
-    {
-      "title": "Lichtblick setzt bei Schnellladern erstmals auf Batteriespeicher",
-      "link": "https://www.heise.de/news/Schnellladen-auch-bei-schwachem-Netz-LichtBlick-ergaenzt-Ladeparks-um-Speicher-11412532.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "An zwei neuen Standorten in Norddeutschland kombiniert der Energieversorger Lichtblick Schnellladesäulen mit Batteriespeichern, um Netzengpässe zu überbrücken.",
-      "source": "heise",
-      "pubDate": "2026-08-13T09:30:00+00:00"
-    },
-    {
-      "title": "Jeddah Tower: Saudischer Megawolkenkratzer halb fertig",
-      "link": "https://www.golem.de/news/jeddah-tower-saudischer-megawolkenkratzer-halb-fertig-2608-211837.html",
-      "summary": "Der Jeddah Tower soll das bislang höchste Gebäude der Welt werden. Fast die Hälfte der architektonischen Großleistung ist fertiggestellt. ( Städte , Wissen )",
-      "source": "golem",
-      "pubDate": "2026-08-13T09:21:01+00:00"
-    },
-    {
-      "title": "Super Mario Bros: Unbekanntes Duck-Hunt-Modul nach 33 Jahren entdeckt",
-      "link": "https://www.golem.de/news/super-mario-bros-unbekanntes-duck-hunt-modul-nach-33-jahren-entdeckt-2608-211889.html",
-      "summary": "In den USA sind fast 100 Exemplare einer bislang unbekannten Variante von Super Mario Bros./Duck Hunt aufgetaucht ( Super Mario , Nintendo )",
-      "source": "golem",
-      "pubDate": "2026-08-13T09:09:02+00:00"
     }
   ]
 }
