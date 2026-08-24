@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-08-24T07:07:05.630313+00:00",
+  "updatedAt": "2026-08-24T07:52:00.810744+00:00",
   "wirtschaft": [
+    {
+      "title": "Große Milliardendeals : US-Investoren kaufen sich bei der deutschen Industrie ein",
+      "link": "https://www.n-tv.de/wirtschaft/US-Investoren-kaufen-sich-bei-der-deutschen-Industrie-ein-id31224932.html",
+      "summary": "In den USA beheimatete Investoren suchen zunehmend nach Geldanlagen im Ausland. Dabei steht einer Datenanalyse zufolge auch verstärkt die deutsche Industrie auf der Einkaufsliste. Dafür gibt es mehrer…",
+      "source": "n-tv",
+      "pubDate": "2026-08-24T07:47:33+00:00"
+    },
     {
       "title": "\"Lage ist mehr als kritisch\": Krise und große Sorgen - VW stehen turbulente Tage bevor",
       "link": "https://www.n-tv.de/wirtschaft/Krise-und-grosse-Sorgen-VW-stehen-turbulente-Tage-bevor-id31224621.html",
@@ -42,13 +49,6 @@
       "summary": "Donald Trump will Teheran mit einem wirtschaftlichen \"D-Day\" in die Knie zwingen. Ein dauerhafter Frieden oder eine Öffnung der Straße von Hormus rücken erneut in weite Ferne. Wie reagiert der Ölpreis…",
       "source": "n-tv",
       "pubDate": "2026-08-23T09:19:41+00:00"
-    },
-    {
-      "title": "Neue Spielregeln in Verträgen: KI läutet das Ende der goldenen Zeiten von Indiens IT-Riesen ein",
-      "link": "https://www.n-tv.de/wirtschaft/KI-laeutet-das-Ende-der-goldenen-Zeiten-von-Indiens-IT-Riesen-ein-id31218109.html",
-      "summary": "Die IT-Branche in Indien steht vor einer fundamentalen Neuausrichtung: Etliche Unternehmen verlieren ihre Aufträge, denn einfache Programmieraufgaben übernimmt immer öfter künstliche Intelligenz. Das …",
-      "source": "n-tv",
-      "pubDate": "2026-08-23T07:29:16+00:00"
     }
   ],
   "politik": [
@@ -124,6 +124,27 @@
     }
   ],
   "it": [
+    {
+      "title": "China verschiebt Start der Mondsonde Chang'e 7",
+      "link": "https://www.heise.de/news/China-verschiebt-Start-der-Mondsonde-Chang-e-7-11423241.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die nächste chinesische Mission zum Mond steht kurz vor ihrem Beginn. Ihr Ziel liegt diesmal am Südpol. Doch überraschend verschiebt die Behörde den Start.",
+      "source": "heise",
+      "pubDate": "2026-08-24T07:41:00+00:00"
+    },
+    {
+      "title": "Anzeige: Elektrische Luftpumpe von Bosch zum Sparpreis bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-elektrische-luftpumpe-von-bosch-zum-sparpreis-bei-amazon-2608-208929.html",
+      "summary": "Amazon hat eine elektrische Luftpumpe von Bosch im Angebot, die für Auto-, Motorrad- und Fahrradreifen geeignet und mobil einsetzbar ist. ( Bosch , Technik/Hardware )",
+      "source": "golem",
+      "pubDate": "2026-08-24T07:36:02+00:00"
+    },
+    {
+      "title": "Browser: Microsoft belohnt Edge-Downloads mit Extrapunkten",
+      "link": "https://www.golem.de/news/browser-microsoft-belohnt-edge-downloads-mit-extrapunkten-2608-212209.html",
+      "summary": "Nutzer von Microsoft Edge auf Android und iOS können nun Rewards-Punkte erhalten, wenn sie Neukunden anwerben. ( MS Edge , Microsoft )",
+      "source": "golem",
+      "pubDate": "2026-08-24T07:34:01+00:00"
+    },
     {
       "title": "Anthropic: Fable 5 verfehlt Erwartungen",
       "link": "https://www.golem.de/news/anthropic-fable-5-verfehlt-erwartungen-2608-212207.html",
@@ -230,13 +251,6 @@
       "pubDate": "2026-08-24T05:44:01+00:00"
     },
     {
-      "title": "heise+ | Altersvorsorge für Kinder: Die Frühstartrente erklärt",
-      "link": "https://www.heise.de/ratgeber/Altersvorsorge-fuer-Kinder-Die-Fruehstartrente-erklaert-11187303.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Die Frühstartrente soll schon bei Grundschülern den Grundstein für die Altersvorsorge legen. Wir erklären, wie das Depot mit staatlichem Zuschuss funktioniert.",
-      "source": "heise",
-      "pubDate": "2026-08-24T05:30:00+00:00"
-    },
-    {
       "title": "Anzeige: Microsoft Entra ID richtig absichern",
       "link": "https://www.golem.de/news/anzeige-microsoft-entra-id-richtig-absichern-2608-212191.html",
       "summary": "Die Absicherung von Cloud-Identitäten wird für Unternehmen immer wichtiger. Ein Workshop vermittelt praxisnahes Wissen zur Verwaltung und Härtung von Microsoft Entra ID. ( Golem Karrierewelt , Sicherh…",
@@ -249,20 +263,6 @@
       "summary": "Nach einem Windows-11-Update stürzt das Betriebssystem häufig mit einem Bluescreen ab. Das geschieht vor allem mitten in Games. ( Windows 11 , Microsoft )",
       "source": "golem",
       "pubDate": "2026-08-23T16:56:01+00:00"
-    },
-    {
-      "title": "Power Delivery: USB-Kabel zeigt Ladeleistung auf kleinem Display an",
-      "link": "https://www.golem.de/news/power-delivery-usb-kabel-zeigt-ladeleistung-auf-kleinem-display-an-2608-212202.html",
-      "summary": "Das Vogatiki informiert per Display über die aktuelle Stromstärke, Spannung und Leistung. Maximal sind 240 Watt möglich. ( Kickstarter , Crowdfunding )",
-      "source": "golem",
-      "pubDate": "2026-08-23T14:17:02+00:00"
-    },
-    {
-      "title": "Weltraumrecht: Der Mond droht zur Mülldeponie für die Raumfahrt zu werden",
-      "link": "https://www.golem.de/news/weltraumrecht-der-mond-droht-zur-muelldeponie-fuer-die-raumfahrt-zu-werden-2608-212198.html",
-      "summary": "Der Mond wird zur Mülldeponie für Raketen. Experten fordern strenge Regeln, bevor wertvolle Experimente oder Menschenleben bedroht sind. ( Falcon-9 , Raumfahrt )",
-      "source": "golem",
-      "pubDate": "2026-08-23T13:43:02+00:00"
     }
   ]
 }
