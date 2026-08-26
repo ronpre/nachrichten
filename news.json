@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T06:56:18.393596+00:00",
+  "updatedAt": "2026-08-26T07:40:06.599628+00:00",
   "wirtschaft": [
     {
       "title": "\"Tausende Flüge\" pro Jahr: SpaceX plant riesigen Weltraumbahnhof für 100 Milliarden Dollar",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Einsatz gegen US-Luftwaffe?: China entwickelt bedrohliche neue Waffe",
+      "link": "https://www.n-tv.de/politik/China-entwickelt-bedrohliche-neue-Waffe-id31233037.html",
+      "summary": "Die Streitkräfte der Volksrepublik China können offenbar auf eine neu entwickelte Waffe zurückgreifen. Dabei handelt es sich um einen Hyperschall-Sprengkopf, der besonders für einen Staat gefährlich w…",
+      "source": "n-tv",
+      "pubDate": "2026-08-26T07:35:55+00:00"
+    },
+    {
       "title": "Luftraum nicht verletzt: Wegen russischer Militärflugzeuge: Südkorea schickt Kampfjets los",
       "link": "https://www.n-tv.de/politik/Wegen-russischer-Militaerflugzeuge-Suedkorea-schickt-Kampfjets-los-id31232783.html",
       "summary": "Seoul hat sich den westlichen Sanktionen gegen Moskau angeschlossen - seitdem haben sich die Beziehungen verschlechtert. Nun dringen offenbar russische Militärflugzeuge in die südkoreanische Luftverte…",
@@ -135,16 +142,72 @@
       "summary": "Die für die Schifffahrt wichtige Straße von Hormus ist praktisch weiter geschlossen. Seit Wochen loten die Anrainer Iran und Oman Wege zu einer Öffnung aus. Beide Seiten berichten nun von wichtigen Fo…",
       "source": "n-tv",
       "pubDate": "2026-08-25T18:23:16+00:00"
-    },
-    {
-      "title": "Panne in Landeshauptstadt: Hunderte Wahlscheine in Magdeburg doppelt verschickt",
-      "link": "https://www.n-tv.de/politik/Ein-Wahlschein-kommt-selten-allein-Magdeburger-erhalten-Briefunterlagen-zweimal-id31232041.html",
-      "summary": "440 Magdeburger haben ihre Briefwahlunterlagen erhalten - und das in doppelter Ausführung. Das Wahlamt hat den Fehler bemerkt - und schickt die Unterlagen noch ein drittes Mal. Und nur diese enthalten…",
-      "source": "n-tv",
-      "pubDate": "2026-08-25T17:51:54+00:00"
     }
   ],
   "it": [
+    {
+      "title": "IT-Sicherheit: Führungskräfte nutzen KI trotz Sicherheitsrisiken",
+      "link": "https://www.golem.de/news/it-sicherheit-fuehrungskraefte-nutzen-ki-trotz-sicherheitsrisiken-2608-212302.html",
+      "summary": "Eine Umfrage zeigt erhebliche Unterschiede bei der KI-Nutzung und dem Umgang mit vertraulichen Daten im Büro. ( Security , Studien )",
+      "source": "golem",
+      "pubDate": "2026-08-26T07:38:01+00:00"
+    },
+    {
+      "title": "Spielekonsole: Lenovos Bios-Update macht Legion Go kaputt",
+      "link": "https://www.golem.de/news/spielekonsole-lenovos-bios-update-macht-legion-go-kaputt-2608-212301.html",
+      "summary": "Ein User musste wohl mehrere Hundert Euro für eine Reparatur zahlen, obwohl selbst Lenovo einen Fehler im Bios-Update eingesteht. ( Mobile Endgeräte , Lenovo )",
+      "source": "golem",
+      "pubDate": "2026-08-26T07:28:01+00:00"
+    },
+    {
+      "title": "WordPress-Plug-in TranslatePress ermöglicht Übernahme bei 400.000 Installationen",
+      "link": "https://www.heise.de/news/WordPress-Plug-in-TranslatePress-ermoeglicht-Uebernahme-bei-400-000-Installationen-11426021.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Eine Lücke im Plug-in TranslatePress für WordPress gefährdet 400.000 Instanzen. Angriffe laufen derweil auf miniOrange SAML.",
+      "source": "heise",
+      "pubDate": "2026-08-26T07:27:00+00:00"
+    },
+    {
+      "title": "58 Personen verhaftet: Großer Schlag gegen Onlinebetrug und Geldwäsche",
+      "link": "https://www.golem.de/news/58-personen-verhaftet-grosser-schlag-gegen-onlinebetrug-und-geldwaesche-2608-212299.html",
+      "summary": "Strafverfolgern ist erneut ein großer Schlag gegen Cybercrime gelungen. In mehreren Ländern wurden mutmaßliche Betrüger verhaftet. ( Cybercrime , Security )",
+      "source": "golem",
+      "pubDate": "2026-08-26T07:16:02+00:00"
+    },
+    {
+      "title": "Vorschau Metro 2039: Zurück in der Hölle unter Moskau",
+      "link": "https://www.golem.de/news/vorschau-metro-2039-zurueck-in-der-hoelle-unter-moskau-2608-212170.html",
+      "summary": "Golem hat Metro 2039 mehrere Stunden gespielt. Die Rückkehr nach Moskau ist düster, brutal - und vielversprechend. Von Peter Steinlechner ( Metro , Spiele )",
+      "source": "golem",
+      "pubDate": "2026-08-26T07:01:02+00:00"
+    },
+    {
+      "title": "Astronautin und Astronaut bringen neue Antenne an ISS an",
+      "link": "https://www.heise.de/news/Erfolgreicher-Ausseneinsatz-Neue-Antenne-fuer-die-Raumstation-ISS-11426107.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die Internationale Raumstation ISS gilt als Oldtimer im All und muss immer wieder gewartet werden. Nun wurde eine wichtige Kommunikationsantenne ersetzt.",
+      "source": "heise",
+      "pubDate": "2026-08-26T07:01:00+00:00"
+    },
+    {
+      "title": "heise+ | Intel Core 300: Die Technik der Billigprozessoren Wildcat Lake im Überblick",
+      "link": "https://www.heise.de/hintergrund/Intel-Core-300-Die-Technik-der-Billigprozessoren-Wildcat-Lake-im-Ueberblick-11413320.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Intel speckt die Wildcat-Lake-CPUs gegenüber Core Ultra 300 „Panther Lake“ spürbar ab. Wo der Hersteller genau den Rotstift ansetzt, zeigt unsere Analyse.",
+      "source": "heise",
+      "pubDate": "2026-08-26T07:00:00+00:00"
+    },
+    {
+      "title": "Deutsche Fachsprache, englischer Code: Wo verläuft die Grenze?",
+      "link": "https://www.heise.de/blog/Deutsche-Fachsprache-englischer-Code-Wo-verlaeuft-die-Grenze-11413690.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die Begriffe an der Workshop-Wand sind deutsch, der Code ist englisch. Diesen Übergang entscheidet fast nie jemand bewusst, und genau das wird teuer.",
+      "source": "heise",
+      "pubDate": "2026-08-26T07:00:00+00:00"
+    },
+    {
+      "title": "Studie: 35 Prozent neuer Webseiten zeigen Spuren von künstlicher Intelligenz",
+      "link": "https://www.golem.de/news/studie-35-prozent-neuer-webseiten-zeigen-spuren-von-kuenstlicher-intelligenz-2608-212300.html",
+      "summary": "Eine Studie des Pew Research Center zeigt einen deutlichen Anstieg KI-generierter Texte seit dem Start von ChatGPT. ( Studien , KI )",
+      "source": "golem",
+      "pubDate": "2026-08-26T06:56:02+00:00"
+    },
     {
       "title": "Zugriff auf X ohne Konto: Alternative „Nitter“ nach Anwaltsbrief geschlossen",
       "link": "https://www.heise.de/news/Zugriff-auf-X-ohne-Konto-Alternative-Nitter-nach-Anwaltsbrief-geschlossen-11425857.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -195,20 +258,6 @@
       "pubDate": "2026-08-26T06:00:00+00:00"
     },
     {
-      "title": "Gamescom: 5000 Fans feiern neue Spiele bei Gamescom-Eröffnungsshow",
-      "link": "https://www.heise.de/news/5000-Fans-feiern-neue-Spiele-bei-Gamescom-Eroeffnungsshow-11425841.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Eine Kölner Messe lädt zum Probespielen, und Hunderttausende Gaming-Fans werden kommen: Die Gamescom beginnt, fünf Tage lang wird es laut und bunt.",
-      "source": "heise",
-      "pubDate": "2026-08-26T05:35:00+00:00"
-    },
-    {
-      "title": "heise+ | Leiser China-Mini-PC mit sparsamem Intel-Wildcat-Lake-Prozessor im Test",
-      "link": "https://www.heise.de/tests/Leiser-China-Mini-PC-mit-sparsamem-Intel-Wildcat-Lake-Prozessor-im-Test-11387527.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Der Mini-PC Beelink Eqi Wildcat Lake Core 3 304 zählt zu den ersten mit einer Billig-CPU der Serie 300 und hat flotte Anschlüsse. Das leistet er im Büroalltag.",
-      "source": "heise",
-      "pubDate": "2026-08-26T05:30:00+00:00"
-    },
-    {
       "title": "Remaster: Upgrade für The Witcher 3 modernisiert Grafik, Kampf und Monster",
       "link": "https://www.golem.de/news/remaster-upgrade-fuer-the-witcher-3-modernisiert-grafik-kampf-und-monster-2608-212294.html",
       "summary": "Im September 2026 veröffentlicht CD Projekt Red ein Remaster von The Witcher 3. Auch zur Erweiterung Songs of the Past gibt es neue Infos. ( The Witcher 3 , Rollenspiel )",
@@ -223,21 +272,7 @@
       "pubDate": "2026-08-26T05:15:02+00:00"
     },
     {
-      "title": "Gamescom: „The Witcher 3“: Remaster kommt am 29. September – gratis für alle Besitzer",
-      "link": "https://www.heise.de/news/The-Witcher-3-Remaster-kommt-am-29-September-gratis-fuer-alle-Besitzer-11425763.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "CD Projekt RED veröffentlicht am 29. September ein Remaster von „The Witcher 3“. Alle Besitzer des Rollenspiels bekommen es gratis, ein neuer DLC folgt 2027.",
-      "source": "heise",
-      "pubDate": "2026-08-26T05:02:00+00:00"
-    },
-    {
-      "title": "heise+ | Elektroautos laden: Den rollenden Speicher wirtschaftlich nutzen",
-      "link": "https://www.heise.de/hintergrund/Elektroautos-laden-Den-rollenden-Speicher-wirtschaftlich-nutzen-11375562.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Den Energiegehalt von Batterien wirtschaftlich nutzen, um mit dem E-Auto am Strommarkt teilzunehmen? Der Rollout ist zäh, doch das dürfte sich rasch ändern.",
-      "source": "heise",
-      "pubDate": "2026-08-26T05:00:00+00:00"
-    },
-    {
-      "title": "Ubisoft: Rainbow Six Tactics bietet Elitensoldaten-Rundenstrategie",
+      "title": "Ubisoft: Rainbow Six Tactics bietet Elitesoldaten-Rundenstrategie",
       "link": "https://www.golem.de/news/ubisoft-rainbow-six-tactics-bietet-elitensoldaten-rundenstrategie-2608-212246.html",
       "summary": "Ubisoft macht aus Rainbow Six ein rundenbasiertes Taktikspiel mit Solo-Kampagne und ungewöhnlichen Echtzeitangriffen. ( Rainbow Six , Ubisoft )",
       "source": "golem",
@@ -249,41 +284,6 @@
       "summary": "Der Hauseigentümer, dem die Deutsche Telekom eigenmächtig Glasfaser im Gebäude verlegt hatte, hatte bereits einen fertigen Ausbauvertrag mit Tele Columbus (Pyur), die der Telekom sogar die Mitnutzung …",
       "source": "golem",
       "pubDate": "2026-08-25T17:01:01+00:00"
-    },
-    {
-      "title": "Anzeige: Balkonkraftwerk mit 1.000 Watt fällt bei Amazon befristet auf 230 Euro",
-      "link": "https://www.golem.de/news/anzeige-balkonkraftwerk-mit-1-000-watt-faellt-bei-amazon-befristet-auf-230-euro-2608-212290.html",
-      "summary": "Ein Balkonkraftwerk mit zwei bifazialen Modulen zu je 500 Wattpeak ist auf knapp unter 230 Euro gefallen. Der Kurs gilt bis Sonntag. ( Balkonkraftwerk , Technik/Hardware )",
-      "source": "golem",
-      "pubDate": "2026-08-25T16:57:01+00:00"
-    },
-    {
-      "title": "Anzeige: Zero Trust in Microsoft 365 richtig umsetzen",
-      "link": "https://www.golem.de/news/anzeige-zero-trust-in-microsoft-365-richtig-umsetzen-2608-212247.html",
-      "summary": "Klassische Netzwerkgrenzen verlieren an Bedeutung. Ein Workshop zeigt, wie Unternehmen ihre Microsoft-365-Umgebung nach dem Zero-Trust-Prinzip absichern. ( Golem Karrierewelt , Server-Applikationen )",
-      "source": "golem",
-      "pubDate": "2026-08-25T16:45:02+00:00"
-    },
-    {
-      "title": "Bis zu 115.000 Stellen: VW-Betriebsrat befürchtet hohe Jobverluste in Deutschland",
-      "link": "https://www.golem.de/news/bis-zu-115-000-stellen-vw-betriebsrat-befuerchtet-hohe-jobverluste-in-deutschland-2608-212289.html",
-      "summary": "VW-Chef Oliver Blume deutet die Streichung von weiteren 25.000 Stellen bei VW in Deutschland an. Die Schließung von vier Werken ist nicht vom Tisch. ( VW , Elektroauto )",
-      "source": "golem",
-      "pubDate": "2026-08-25T16:40:02+00:00"
-    },
-    {
-      "title": "MHP: Porsche verkauft seine IT-Beratung nach Indien",
-      "link": "https://www.golem.de/news/mhp-porsche-verkauft-seine-it-beratung-nach-indien-2608-212288.html",
-      "summary": "Der Sportwagenbauer fokussiert sich aufs Kerngeschäft und lagert seine IT-Zukunft aus: Mit dem Verkauf von MHP an Tata sichert sich Porsche das Know-how auf Kosten der Entwickler und IT-Berater. Eine …",
-      "source": "golem",
-      "pubDate": "2026-08-25T16:25:02+00:00"
-    },
-    {
-      "title": "(g+) Tech Asia: Google's China shift and the battle over AI models",
-      "link": "https://www.golem.de/news/tech-asia-google-s-china-shift-and-the-battle-over-ai-models-2608-212284.html",
-      "summary": "The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times ( TSMC , Google )",
-      "source": "golem",
-      "pubDate": "2026-08-25T16:00:02+00:00"
     }
   ]
 }
