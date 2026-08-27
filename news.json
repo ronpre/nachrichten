@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-08-27T16:04:50.726667+00:00",
+  "updatedAt": "2026-08-27T17:29:54.914909+00:00",
   "wirtschaft": [
+    {
+      "title": "US-Chip-Produktion soll wachsen: Bericht: Trump prüft Halbleiter-Zölle auf Laptops und Spielekonsolen",
+      "link": "https://www.n-tv.de/wirtschaft/Bericht-Trump-prueft-Halbleiter-Zoelle-auf-Laptops-und-Spielekonsolen-id31240088.html",
+      "summary": "Die US-Regierung spielt offenbar mit dem Gedanken, die Halbleiter-Zölle auf Produkte auszuweiten, in denen die Chips verbaut sind. Betroffen wären Laptops, Spielekonsolen und Server. Das Handelsminist…",
+      "source": "n-tv",
+      "pubDate": "2026-08-27T16:56:29+00:00"
+    },
     {
       "title": "Spirale von Vergeltungszöllen: Droht den USA eine Klopapier-Krise?",
       "link": "https://www.n-tv.de/wirtschaft/Droht-den-USA-eine-Klopapier-Krise-id31237674.html",
@@ -63,13 +70,6 @@
       "summary": "Nach dem Spreewald kommt Dummerstorf bei Rostock: Die Schwarz-Gruppe investiert erneut mehrere Milliarden in die Entstehung eines Rechenzentrums. Damit soll die \"digitale Souveränität\" Deutschlands ge…",
       "source": "n-tv",
       "pubDate": "2026-08-27T08:45:33+00:00"
-    },
-    {
-      "title": "Quelloffene KI-Plattform: Nvidia plant wohl milliardenschwere Hugging-Face-Übernahme",
-      "link": "https://www.n-tv.de/wirtschaft/Nvidia-plant-wohl-milliardenschwere-Hugging-Face-Uebernahme-id31237557.html",
-      "summary": "Das auf KI spezialisierte Startup Hugging Face steht Medienberichten zufolge vor einem milliardenschweren Verkauf. Der potenzielle Bieter soll Chip-Gigant Nvidia sein. Der Zukauf wäre von enormer Bede…",
-      "source": "n-tv",
-      "pubDate": "2026-08-27T08:39:43+00:00"
     }
   ],
   "politik": [
@@ -109,8 +109,8 @@
       "pubDate": "2026-08-27T13:00:47+00:00"
     },
     {
-      "title": "\"Kein Land für alle\": Wer sich in Sachsen-Anhalt bei einem AfD-Sieg fürchtet",
-      "link": "https://www.n-tv.de/politik/Wer-sich-in-Sachsen-Anhalt-bei-einem-AfD-Sieg-fuerchtet-id31238586.html",
+      "title": "\"Kein Land für alle\": Wer sich in Sachsen-Anhalt vor einem AfD-Sieg fürchtet",
+      "link": "https://www.n-tv.de/politik/Wer-sich-in-Sachsen-Anhalt-vor-einem-AfD-Sieg-fuerchtet-id31238586.html",
       "summary": "Nach der Wahl in Sachsen-Anhalt könnte es erstmals zu einer AfD-Landesregierung kommen. Was würde sich ändern, wenn die Forderungen der Partei umgesetzt werden? Eine RTL-Doku gibt Einblicke in das Leb…",
       "source": "n-tv",
       "pubDate": "2026-08-27T12:57:10+00:00"
@@ -145,6 +145,27 @@
     }
   ],
   "it": [
+    {
+      "title": "Anzeige: Mit Claude Code programmieren: Workshop für Entwickler",
+      "link": "https://www.golem.de/news/anzeige-mit-claude-code-programmieren-workshop-fuer-entwickler-2608-212343.html",
+      "summary": "KI-gestützte Codegenerierung verändert Entwicklerteams grundlegend. Ein praxisnaher Workshop vermittelt den strukturierten Einsatz agentischer Coding-Tools im Arbeitsalltag. ( Golem Karrierewelt , Pro…",
+      "source": "golem",
+      "pubDate": "2026-08-27T16:45:02+00:00"
+    },
+    {
+      "title": "Wetware statt Hardware: Universität bekommt erste Cloud mit Hirnzellen",
+      "link": "https://www.golem.de/news/wetware-statt-hardware-universitaet-bekommt-erste-cloud-mit-hirnzellen-2608-212379.html",
+      "summary": "Ein australisches Start-up baut Chips mit lebenden Neuronen. Erstmals bekommt eine Universität ein größeres eigenes System für die Forschung. ( Innovation & Forschung , KI )",
+      "source": "golem",
+      "pubDate": "2026-08-27T16:18:02+00:00"
+    },
+    {
+      "title": "Berlin: Cyberangriff auf Verwaltung begann lange vor der Entdeckung",
+      "link": "https://www.heise.de/news/Berlin-Cyberangriff-auf-Verwaltung-begann-lange-vor-der-Entdeckung-11432414.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Beim Hackerangriff auf die Berliner Verwaltung flossen über Tage Daten ab. Wann die Angreifer ins Landesnetz eindrangen, ist weiterhin unklar.",
+      "source": "heise",
+      "pubDate": "2026-08-27T16:09:00+00:00"
+    },
     {
       "title": "(g+) Tech Asia: Why open-weight AI is the new frontier in the US-China tech race",
       "link": "https://www.golem.de/news/tech-asia-why-open-weight-ai-is-the-new-frontier-in-the-us-china-tech-race-2608-212377.html",
@@ -230,9 +251,9 @@
       "pubDate": "2026-08-27T14:00:13+00:00"
     },
     {
-      "title": "Bluetti Balco Transfer Hub im Test: So wird jede Powerstation zum BKW-Speicher",
+      "title": "Bluetti Balco Transfer Hub im Test",
       "link": "https://www.heise.de/bestenlisten/testbericht/bluetti-balco-transfer-hub-im-test-so-wird-jede-powerstation-zum-bkw-speicher/9n97hf0?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Der Balco Transfer Hub macht Powerstations zum 800-W-Balkonspeicher. Dank Smart Meter klappt die dynamische Einspeisung im Test zuverlässig.",
+      "summary": "Der Balco Transfer Hub macht Powerstations zum 800-W-Balkonspeicher. Dank Smart Meter klappt die dynamische Einspeisung zuverlässig.",
       "source": "heise",
       "pubDate": "2026-08-27T14:00:00+00:00"
     },
@@ -263,27 +284,6 @@
       "summary": "Die US-Regierung befürchtet Hintertüren in Hochspannungskomponenten. Das könnte den Bau von Rechenzentren verzögern. ( Strom , KI )",
       "source": "golem",
       "pubDate": "2026-08-27T13:38:01+00:00"
-    },
-    {
-      "title": "Fehlkonfiguration bei IServ-Schwester ermöglichte Zugriff auf Cloud-Dienste",
-      "link": "https://www.heise.de/news/Fehlkonfiguration-bei-IServ-Schwester-ermoeglichte-Zugriff-auf-Cloud-Dienste-11417204.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Eine Fehlkonfiguration bei IServ-Schwester Virality ermöglichte unautorisierten Zugriff auf Cloud-Dienste. Laut IServ gibt es keine Hinweise auf Datenabfluss.",
-      "source": "heise",
-      "pubDate": "2026-08-27T13:36:00+00:00"
-    },
-    {
-      "title": "Aktionärsklage: US-Klage könnte Telekom 10 Milliarden kosten",
-      "link": "https://www.golem.de/news/aktionaersklage-us-klage-koennte-telekom-10-milliarden-kosten-2608-212367.html",
-      "summary": "US-Aktionäre möchten mehr Geld aus der Sprint-Übernahme herausholen. \"We give them nothing!!!\", soll Telekom-Chef Tim Höttges geschrieben haben. ( Timotheus Höttges , Telekom )",
-      "source": "golem",
-      "pubDate": "2026-08-27T13:22:01+00:00"
-    },
-    {
-      "title": "Jalapeño und Nvidias Zukunft: Wenn die besten Kunden Chips selbst bauen",
-      "link": "https://www.golem.de/news/jalapeno-und-nvidias-zukunft-wenn-die-besten-kunden-chips-selbst-bauen-2608-212362.html",
-      "summary": "Immer mehr Nvidia-Kunden bauen eigene Chips. Das klingt bedrohlicher, als es vorerst ist, zumal sich Nvidia absichert. Der Umsatz hält, die Marge nicht. Eine Analyse von Björn Meschkat ( Nvidia , KI )",
-      "source": "golem",
-      "pubDate": "2026-08-27T13:00:02+00:00"
     }
   ]
 }
