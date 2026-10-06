@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T06:30:05.970984+00:00",
+  "updatedAt": "2026-10-06T07:14:18.398478+00:00",
   "wirtschaft": [
     {
       "title": "Trendumkehr am Automarkt: Preisunterschied zwischen E-Autos und Verbrennern verringert sich wieder",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Geschenk im Wahlkampf: Trump verspricht steuerfreien Diesel per Dekret",
+      "link": "https://www.n-tv.de/politik/Trump-verspricht-steuerfreien-Diesel-per-Dekret-id31385149.html",
+      "summary": "Die hohen Spritpreise in den USA sind eines der entscheidenden Themen im Wahlkampf vor den Midterms. US-Präsident Trump versucht nun mit dem Zugang zu steuerfreiem Diesel die Menschen auf seine Seite …",
+      "source": "n-tv",
+      "pubDate": "2026-10-06T06:59:23+00:00"
+    },
+    {
       "title": "Gegenangriff der Ukraine: Russland: Kiew greift Moskau mit Hunderten Drohnen an",
       "link": "https://www.n-tv.de/politik/Russland-Kiew-greift-Moskau-mit-Hunderten-Drohnen-an-id31385140.html",
       "summary": "Das ukrainische Militär wehrt sich offenbar mit mehr als 600 Drohnen gegen den russischen Angriffskrieg. Dabei nimmt Kiew erneut die Hauptstadt Moskau ins Visier. Augenzeugen berichten zudem von einem…",
@@ -135,16 +142,58 @@
       "summary": "Der Militärgeheimdienst durchleuchtet seit Juli die Internetaktivitäten aller Bewerber für die Bundeswehr. Die speziell angepasste Software soll angesichts steigender Bewerberzahlen entlasten und hat …",
       "source": "n-tv",
       "pubDate": "2026-10-05T19:39:18+00:00"
-    },
-    {
-      "title": "Sanktionierte Güter: Schmuggel für Russland: Deutschrusse zu Haftstrafe verurteilt",
-      "link": "https://www.n-tv.de/politik/Schmuggel-fuer-Russland-Deutschrusse-zu-Haftstrafe-verurteilt-id31384352.html",
-      "summary": "Rund 20 Mal soll ein Deutschrusse die lettisch-russische Grenze überquert haben. Er spricht von humanitären Transporten, das Gericht stützt sich jedoch auf Nachrichten, Fotos und Videos von seinem Han…",
-      "source": "n-tv",
-      "pubDate": "2026-10-05T19:36:39+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Künstliche Intelligenz: OpenAI versieht ChatGPT-Texte in der EU mit Wasserzeichen",
+      "link": "https://www.golem.de/news/kuenstliche-intelligenz-openai-versieht-chatgpt-texte-in-der-eu-mit-wasserzeichen-2610-213740.html",
+      "summary": "Auch OpenAI markiert nun ChatGPT- und Codex-Texte in der EU. Den Detektor erhalten vorerst aber nur Forscher. ( OpenAI , KI )",
+      "source": "golem",
+      "pubDate": "2026-10-06T07:11:01+00:00"
+    },
+    {
+      "title": "Ninja Theory: Beim „Hellblade“-Studio beginnen die Entlassungen",
+      "link": "https://www.heise.de/news/Ninja-Theory-Beim-Hellblade-Studio-beginnen-die-Entlassungen-11477009.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Mitarbeiter des „Hellblade“-Studios Ninja Theory melden ihre Entlassung. Microsoft hatte ihr neues Spiel „Senua“ erst im Juni groß präsentiert.",
+      "source": "heise",
+      "pubDate": "2026-10-06T07:04:00+00:00"
+    },
+    {
+      "title": "Anzeige: Vertrauen als Voraussetzung erfolgreicher KI-Skalierung",
+      "link": "https://www.golem.de/news/anzeige-vertrauen-als-voraussetzung-erfolgreicher-ki-skalierung-2610-213687.html",
+      "summary": "KI-Piloten überzeugen schnell. Doch im produktiven Betrieb zählen andere Fragen: Welche Daten nutzt ein System, welche Rechte gelten, wer handelt - und wie bleibt jeder Schritt später nachvollziehbar?…",
+      "source": "golem",
+      "pubDate": "2026-10-06T07:00:02+00:00"
+    },
+    {
+      "title": "heise+ | Bastel-Projekt: Tragbares Flipperspiel im Selbstbau",
+      "link": "https://www.heise.de/ratgeber/Bastel-Projekt-Tragbares-Flipperspiel-im-Selbstbau-11436893.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Ein tragbares Flipperspiel für ein Festival zu bauen – das allein ist eine Herausforderung. Noch schwieriger wird es, wenn die eigenen Kinder mitbauen sollen.",
+      "source": "heise",
+      "pubDate": "2026-10-06T07:00:00+00:00"
+    },
+    {
+      "title": "Wheel-based Induction: Elektrobusse laden induktiv über Räder",
+      "link": "https://www.heise.de/news/Wheel-based-Induction-Elektrobusse-laden-induktiv-ueber-Raeder-11477017.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Winduction will induktives Laden von Elektrobussen effizienter machen und integriert Ladetechnik in die Fahrzeugräder.",
+      "source": "heise",
+      "pubDate": "2026-10-06T06:53:00+00:00"
+    },
+    {
+      "title": "Mein Irrtum: Warum die Grenzen von LLMs weiter entfernt sind, als ich dachte",
+      "link": "https://www.golem.de/news/mein-irrtum-warum-die-grenzen-von-llms-weiter-entfernt-sind-als-ich-dachte-2610-213065.html",
+      "summary": "Ich hielt LLMs für fast ausgereizt. Das war wohl falsch. Warum sie noch lange besser werden können - ohne dass uns das automatisch AGI bringt. Eine Analyse von Tim Elsner ( KI , Gordon Moore )",
+      "source": "golem",
+      "pubDate": "2026-10-06T06:42:01+00:00"
+    },
+    {
+      "title": "Amazon Prime Deal Days: Heißluftfritteusen, Rasenmähroboter & Co. zu Bestpreisen",
+      "link": "https://www.heise.de/bestenlisten/ratgeber/amazon-prime-deal-days-heissluftfritteusen-rasenmaehroboter-und-co-zu-bestpreisen/s5bv9x1?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Heute starten die Amazon Prime Deal Days 2026: Wir überprüfen die Preise und zeigen, welche Deals sich lohnen.",
+      "source": "heise",
+      "pubDate": "2026-10-06T06:33:00+00:00"
+    },
     {
       "title": "Anzeige: Mobile Wallbox mit 11 kW, Zubehör und App am Prime Day zum neuen Bestpreis",
       "link": "https://www.golem.de/news/anzeige-mobile-wallbox-mit-11-kw-zubehoer-und-app-am-prime-day-zum-neuen-bestpreis-2610-213738.html",
@@ -230,60 +279,11 @@
       "pubDate": "2026-10-06T05:06:00+00:00"
     },
     {
-      "title": "Inhalte bearbeitet: Auch Wikipedia war das Ziel „ausgebrochener“ KI-Agenten",
-      "link": "https://www.heise.de/news/Inhalte-bearbeitet-Auch-Wikipedia-war-das-Ziel-ausgebrochener-KI-Agenten-11476922.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Seit Wochen kommen immer neue Fälle von KI-Agenten ans Tageslicht, die Internetplattformen kompromittiert haben. Auch bei der Wikipedia ist man fündig geworden.",
-      "source": "heise",
-      "pubDate": "2026-10-06T04:46:00+00:00"
-    },
-    {
-      "title": "heise+ | E-Motorrad Flying Flea C6 im Fahrbericht: Fliegender Floh auf Strom",
-      "link": "https://www.heise.de/tests/E-Motorrad-Flying-Flea-C6-im-Fahrbericht-Fliegender-Floh-auf-Strom-11471305.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Cooles Design, verlockender Preis, beschwingtes Fahrgefühl: Wir haben Royal Enfields erstes Elektromotorrad Flying Flea C6 durch den Pariser Verkehr gejagt.",
-      "source": "heise",
-      "pubDate": "2026-10-06T04:30:00+00:00"
-    },
-    {
-      "title": "OpenAI versieht KI-Text mit Wasserzeichen – aber nur in der EU",
-      "link": "https://www.heise.de/news/OpenAI-versieht-KI-Text-mit-Wasserzeichen-aber-nur-in-der-EU-11476910.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "OpenAI fügt generiertem Text Wasserzeichen hinzu, um sie als KI-generiert erkennbar zu machen. Aber nicht überall.",
-      "source": "heise",
-      "pubDate": "2026-10-06T04:16:00+00:00"
-    },
-    {
-      "title": "Dienstag: Diskussion um neue Rechenzentren, Schneider Electric kauft groß ein",
-      "link": "https://www.heise.de/news/Dienstag-Diskussion-um-neue-Rechenzentren-Schneider-Electric-kauft-gross-ein-11476892.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Forderung vom Bundesumweltminister + Milliarden-Deal von Schneider Electric + Lithografie-Systeme nach China + Gemini-Zugriff eingeschränkt + Europas 6G-Dilemma",
-      "source": "heise",
-      "pubDate": "2026-10-06T04:15:00+00:00"
-    },
-    {
       "title": "Anzeige: Microsoft Purview: Daten schützen und Risiken steuern",
       "link": "https://www.golem.de/news/anzeige-microsoft-purview-daten-schuetzen-und-risiken-steuern-2610-213236.html",
       "summary": "Microsoft Purview bündelt Funktionen für Datenklassifizierung, DLP und Insider Risk. Die Golem Karrierewelt vermittelt den praktischen Einsatz in Microsoft 365. ( Golem Karrierewelt , Sicherheitslücke…",
       "source": "golem",
       "pubDate": "2026-10-06T04:00:02+00:00"
-    },
-    {
-      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-      "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-      "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
-      "source": "ars technica",
-      "pubDate": "2026-10-05T22:26:35+00:00"
-    },
-    {
-      "title": "Anzeige: Prime Deal Days 2026 - die besten Deals am zweiten Prime Day sichern",
-      "link": "https://www.golem.de/news/anzeige-prime-deal-days-2026-die-besten-deals-am-zweiten-prime-day-sichern-2610-213729.html",
-      "summary": "Nach langem Warten hat Amazon die Prime Deal Days gestartet. Mit dem zweiten Deal-Event des Jahres nach dem Prime Day geht die Schnäppchenjagd los. ( Prime Day , Amazon )",
-      "source": "golem",
-      "pubDate": "2026-10-05T22:01:02+00:00"
-    },
-    {
-      "title": "Festnetz-Provider: BT übernimmt Talk Talk in einem Rettungskauf",
-      "link": "https://www.golem.de/news/festnetz-provider-bt-uebernimmt-talk-talk-in-einem-rettungskauf-2610-213733.html",
-      "summary": "BT hat sich mit der britischen Regierung geeinigt, den Breitbandprovider Talk Talk trotz Wettbewerbsbedenken kaufen zu können. Es sei um eine Rettung im öffentlichen Interesse gegangen. ( Unternehmen …",
-      "source": "golem",
-      "pubDate": "2026-10-05T17:01:02+00:00"
     }
   ]
 }
