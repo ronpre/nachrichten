@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T06:31:42.671851+00:00",
+  "updatedAt": "2026-10-08T07:16:37.795882+00:00",
   "wirtschaft": [
     {
       "title": "Massive Staatsverschuldung: Ökonomin warnt vor \"dramatischer Gemengelage\" in Frankreich",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "\"Historische Bewährungsprobe\": Fraktionsspitzen schicken SMS nach Koalitionsausschuss",
+      "link": "https://www.n-tv.de/politik/Fraktionsspitzen-schicken-SMS-nach-Koalitionsausschuss-id31394770.html",
+      "summary": "Noch ist nicht klar, was der Koalitionsausschuss genau ergeben hat. Aber die Fraktionsspitzen der drei Parteien senden an den Bundestagsabgeordneten eine Botschaft: Schwarz-Rot sei sich seiner Verantw…",
+      "source": "n-tv",
+      "pubDate": "2026-10-08T06:31:44+00:00"
+    },
+    {
       "title": "Burnham will alles zurückdrehen: \"Die Brexit-Wette hat sich offensichtlich als dumm erwiesen\"",
       "link": "https://www.n-tv.de/politik/Die-Brexit-Wette-hat-sich-offensichtlich-als-dumm-erwiesen-id31386870.html",
       "summary": "Der britische Premier Burnham trifft heute Kanzler Merz. Burnham hat einen mutigen Schritt gewagt: Er fordert den Wiedereintritt Großbritanniens in die EU. Expertin Dennison attestiert dem Ministerprä…",
@@ -135,16 +142,58 @@
       "summary": "Tobias Rausch ist AfD-Landtagspräsident von Sachsen-Anhalt - und zugleich AfD-Generalsekretär. Bundestagspräsidentin Julia Klöckner hält diese Doppelrolle für unangebracht und fordert ihn auf, sein Pa…",
       "source": "n-tv",
       "pubDate": "2026-10-07T22:04:23+00:00"
-    },
-    {
-      "title": "\"Brauchen wir nicht schönreden\": Güler geht von CDU-Stimmen bei AfD-Wahl in Sachsen-Anhalt aus",
-      "link": "https://www.n-tv.de/politik/Gueler-geht-von-CDU-Stimmen-bei-AfD-Wahl-in-Sachsen-Anhalt-aus-id31394008.html",
-      "summary": "In Sachsen-Anhalt wählt das Parlament den AfD-Mann Tobias Rausch zum Landtagspräsidenten. Serap Güler hält es für wahrscheinlich, dass auch Christdemokraten bei der geheimen Wahl für ihn stimmten. Kon…",
-      "source": "n-tv",
-      "pubDate": "2026-10-07T21:15:26+00:00"
     }
   ],
   "it": [
+    {
+      "title": "KI: Claude Haiku 5.5 ist günstiger und schneller",
+      "link": "https://www.golem.de/news/ki-claude-haiku-5-5-ist-guenstiger-und-schneller-2610-213850.html",
+      "summary": "Anthropic hat Claude Haiku 5.5 veröffentlicht, das für Projekte mit hohem Anfragevolumen gedacht ist, bei denen es auf Geschwindigkeit und niedrige Kosten ankommt. ( Claude , KI )",
+      "source": "golem",
+      "pubDate": "2026-10-08T07:13:02+00:00"
+    },
+    {
+      "title": "Claude Haiku 5.5: Anthropic senkt API-Preise um bis zu 90 Prozent",
+      "link": "https://www.heise.de/news/Claude-Haiku-5-5-Anthropic-senkt-API-Preise-um-bis-zu-90-Prozent-11480214.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Haiku 5.5 legt in Benchmarks deutlich zu. Zugleich senkt Anthropic die API-Preise um bis zu 90 Prozent und reagiert damit auf den wachsenden Preisdruck.",
+      "source": "heise",
+      "pubDate": "2026-10-08T07:02:00+00:00"
+    },
+    {
+      "title": "Anzeige: Wearables - mehr als Schritte und Herzfrequenz",
+      "link": "https://www.golem.de/news/anzeige-wearables-mehr-als-schritte-und-herzfrequenz-2610-213831.html",
+      "summary": "Moderne Sport-Algorithmen können Bewegungen und Belastungen immer präziser auswerten. Was dahintersteckt und warum diese Technologie auch für den Breitensport interessant wird. ( Technik/Hardware , Hu…",
+      "source": "golem",
+      "pubDate": "2026-10-08T07:00:05+00:00"
+    },
+    {
+      "title": "heise+ | Moderne Cloud-Strategien flexibel und souverän umsetzen",
+      "link": "https://www.heise.de/hintergrund/Moderne-Cloud-Strategien-flexibel-und-souveraen-umsetzen-11475481.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Wir erklären, wie eine systematische, rationale Analyse die Grundlage für eine erfolgreiche hybride Strategie schafft, welche Abhängigkeiten gezielt reduziert.",
+      "source": "heise",
+      "pubDate": "2026-10-08T07:00:00+00:00"
+    },
+    {
+      "title": "Hybrid Intelligence: Microsoft öffnet Copilot den Zugriff auf Windows-Dateien",
+      "link": "https://www.golem.de/news/hybrid-intelligence-microsoft-oeffnet-copilot-den-zugriff-auf-windows-dateien-2610-213852.html",
+      "summary": "Copilot soll in Windows auf lokale Dateien zugreifen. Agenten laufen in Sandboxes, die KI-Modelle lokal oder in der Cloud. ( Copilot , Microsoft )",
+      "source": "golem",
+      "pubDate": "2026-10-08T06:59:02+00:00"
+    },
+    {
+      "title": "Angriffe auf Atlassian-Data-Center-Lücke haben begonnen",
+      "link": "https://www.heise.de/news/Angriffe-auf-Atlassian-Data-Center-Luecke-haben-begonnen-11480200.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Kurz nach der Warnung von Atlassian zur kritischen Sicherheitslücke wurden jetzt Angriffe beobachtet. Admins müssen handeln.",
+      "source": "heise",
+      "pubDate": "2026-10-08T06:57:00+00:00"
+    },
+    {
+      "title": "SynthID: Googles KI-Detektor kann jetzt generierte Bilder erkennen",
+      "link": "https://www.golem.de/news/synthid-googles-ki-detektor-kann-jetzt-generierte-bilder-erkennen-2610-213848.html",
+      "summary": "Mit dem SynthID-Detektor prüfen Nutzer selbst, ob Bilder, Videos oder Audiodateien von KI erzeugt wurden. Doch die Aussagekraft hat Grenzen. ( Google , KI )",
+      "source": "golem",
+      "pubDate": "2026-10-08T06:35:02+00:00"
+    },
     {
       "title": "RTX Spark: Microsofts Surface Laptop Ultra kostet bis zu 6.879 Euro",
       "link": "https://www.golem.de/news/rtx-spark-microsofts-surface-laptop-ultra-kostet-bis-zu-6-879-euro-2610-213845.html",
@@ -230,60 +279,11 @@
       "pubDate": "2026-10-08T03:32:00+00:00"
     },
     {
-      "title": "ChatGPT for Teens wird kaum exzessiv genutzt, aber Sicherheitsbedenken wachsen",
-      "link": "https://www.heise.de/news/ChatGPT-for-Teens-wird-kaum-exzessiv-genutzt-aber-Sicherheitsbedenken-wachsen-11480098.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Jugendliche nutzen den KI-Chatbot weniger als soziale Netze, sagt OpenAI. Doch eine unabhängige Prüfung will mangelnde Sicherheitsschranken gefunden haben.",
-      "source": "heise",
-      "pubDate": "2026-10-08T03:03:00+00:00"
-    },
-    {
       "title": "BMW iX4 und iX3 M60 xDrive: Coupé- und leistungsstarke M-Version des iX3 vorgestellt",
       "link": "https://www.golem.de/news/bmw-ix4-und-ix3-m60-xdrive-coupe-und-leistungsstarke-m-version-des-ix3-vorgestellt-2610-213847.html",
       "summary": "BMW erweitert sein Angebot des vollelektrischen iX3. Die Schrägheckversion kommt noch etwas weiter als das SUV, ist aber teurer ausgestattet. ( Elektroauto , Auto )",
       "source": "golem",
       "pubDate": "2026-10-07T22:30:02+00:00"
-    },
-    {
-      "title": "BMW iX4 vorgestellt: Die flotte Schwere",
-      "link": "https://www.heise.de/news/BMW-iX4-vorgestellt-Die-flotte-Schwere-11479668.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "BMW stellt dem erfolgreichen iX3 ein SUV-Coupé an die Seite. Grazile Eleganz stand nicht im Lastenheft, stattdessen dominiert Wucht – bei Antrieb und Design.",
-      "source": "heise",
-      "pubDate": "2026-10-07T22:01:00+00:00"
-    },
-    {
-      "title": "Hand-Dynamo überbrückt leeren Akku dieses vernetzten Türschlosses",
-      "link": "https://www.heise.de/news/Handy-Dynamo-ueberbrueckt-leeren-Akku-dieses-vernetzten-Tuerschlosses-11480016.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Vernetzte Türschlösser haben meist Batterien, die irgendwann leer sind. Amazon hat eine Lösung gebaut: Ein Dynamo lässt die Tür aufgehen wie Sesam.",
-      "source": "heise",
-      "pubDate": "2026-10-07T20:55:00+00:00"
-    },
-    {
-      "title": "Anzeige: Microsoft 365: Identitäten, Geräte und Daten absichern",
-      "link": "https://www.golem.de/news/anzeige-microsoft-365-identitaeten-geraete-und-daten-absichern-2610-213837.html",
-      "summary": "Microsoft 365 Security umfasst Identitäten, Geräte und Daten. Ein Online-Workshop vermittelt, wie Administratoren die Sicherheitsdienste konfigurieren. ( Golem Karrierewelt , Identitätsmanagement )",
-      "source": "golem",
-      "pubDate": "2026-10-07T18:30:02+00:00"
-    },
-    {
-      "title": "Finanzierungsrunde: Deepseek nimmt erheblich mehr ein als erwartet",
-      "link": "https://www.golem.de/news/finanzierungsrunde-deepseek-nimmt-erheblich-mehr-ein-als-erwartet-2610-213840.html",
-      "summary": "Mit einer massiven Finanzierung und Partnern wie Tencent und CATL treibt das chinesische KI-Start-up Deepseek seine Unabhängigkeit voran. ( Deepseek , API )",
-      "source": "golem",
-      "pubDate": "2026-10-07T17:01:01+00:00"
-    },
-    {
-      "title": "Anhörung zu Vorratsdatenspeicherung: Ermittler fordern Zugriff auf Inhaltsdaten bei Quick-Freeze",
-      "link": "https://www.golem.de/news/anhoerung-zu-vorratsdatenspeicherung-ermittler-fordern-zugriff-auf-inhaltsdaten-bei-quick-freeze-2610-213839.html",
-      "summary": "Internetprovider sollen künftig IP-Adressen drei Monate lang speichern. Kritiker sehen für die Speicherdauer keine Evidenz. Ein Bericht von Friedhelm Greis ( Vorratsdatenspeicherung , Politik )",
-      "source": "golem",
-      "pubDate": "2026-10-07T16:46:05+00:00"
-    },
-    {
-      "title": "Anzeige: 250-W-USB-Ladegerät von Anker mit 6 Ports zum Bestpreis bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-250-w-usb-ladegeraet-von-anker-mit-6-ports-zum-bestpreis-bei-amazon-2610-213838.html",
-      "summary": "Nur noch heute gibt es ein leistungsstarkes Sechs-Port-Ladegerät von Anker konkurrenzlos günstig bei Amazon. ( Prime Day , Amazon )",
-      "source": "golem",
-      "pubDate": "2026-10-07T16:35:02+00:00"
     }
   ]
 }
