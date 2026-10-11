@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T11:09:31.165696+00:00",
+  "updatedAt": "2026-10-11T12:21:25.643083+00:00",
   "wirtschaft": [
     {
       "title": "Havarie bei Ludwigshöhe: Tanker mit 250 Tonnen Wasserstoff sitzt im Rhein fest",
@@ -31,6 +31,20 @@
     }
   ],
   "politik": [
+    {
+      "title": "Miersch bringt Gipfel ins Spiel: Der Renten-Streit ist wieder voll im Gange",
+      "link": "https://www.n-tv.de/politik/Der-Renten-Streit-ist-wieder-voll-im-Gange-id31405167.html",
+      "summary": "SPD-Vertreter stellen die Rentenreformpläne immer wieder infrage. Nun schlägt Fraktionschef Miersch vor, weitere Akteure einzubeziehen. Die Koalition sieht er aber nicht auf der Kippe. Die Union forde…",
+      "source": "n-tv",
+      "pubDate": "2026-10-11T11:52:38+00:00"
+    },
+    {
+      "title": "Rede von Philippe Sands: Friedenspreisträger nennt deutsches Schweigen zu Israel \"unanständig\"",
+      "link": "https://www.n-tv.de/politik/Friedenspreistraeger-nennt-deutsches-Schweigen-zu-Israel-unanstaendig-id31405239.html",
+      "summary": "Der Friedenspreis des Deutschen Buchhandels geht in diesem Jahr an den französisch-britischen Völkerrechtsanwalt Philippe Sands. In seiner Rede in der Paulskirche fordert der ein Ende der \"Debattenbes…",
+      "source": "n-tv",
+      "pubDate": "2026-10-11T11:10:39+00:00"
+    },
     {
       "title": "\"Auf Seite des Mörders\": Politikerinnen attestieren Trump \"moralischen Bankrott\"",
       "link": "https://www.n-tv.de/politik/Politikerinnen-attestieren-Trump-moralischen-Bankrott-id31404940.html",
@@ -86,23 +100,44 @@
       "summary": "Zum zweiten Mal binnen weniger Tage wird der Flughafen von Riad zum Angriffsziel von Huthi-Raketen. Diesmal fordert der Beschuss mindestens zwölf Todesopfer. US-Präsident Trump erwägt ein Eingreifen d…",
       "source": "n-tv",
       "pubDate": "2026-10-11T05:10:00+00:00"
-    },
-    {
-      "title": "Rechenzentrum in Flammen: Drohnenangriff legt \"Russlands Google\" lahm",
-      "link": "https://www.n-tv.de/politik/Drohnenangriff-legt-Russlands-Google-lahm-id31404477.html",
-      "summary": "Yandex betreibt Russlands beliebteste Suchmaschine sowie Taxi- und Lieferdienste für Millionen Nutzer. Nach einem Drohnenangriff östlich von Moskau stehen die Aktivitäten des Rechenzentrums still. Es …",
-      "source": "n-tv",
-      "pubDate": "2026-10-11T04:57:43+00:00"
-    },
-    {
-      "title": "Große Kluft zwischen Ländern: Länge der Asylverfahren nimmt wieder zu",
-      "link": "https://www.n-tv.de/politik/Laenge-der-Asylverfahren-nimmt-wieder-zu-id31404392.html",
-      "summary": "Seit 2021 schaffen die Gerichte Asylklagen in immer kürzerer Zeit. Diese Entwicklung scheint vorerst zu Ende zu sein. Für das erste Halbjahr 2026 bilanziert die Bundesregierung eine durchschnittliche …",
-      "source": "n-tv",
-      "pubDate": "2026-10-11T03:14:17+00:00"
     }
   ],
   "it": [
+    {
+      "title": "ÖPNV: Hamburg kommt mit Wasserstoffbussen nicht voran",
+      "link": "https://www.golem.de/news/oepnv-hamburg-kommt-mit-wasserstoffbussen-nicht-voran-2610-213965.html",
+      "summary": "Brennstoffzellenantriebe werden als Alternative zu Elektrobussen gehandelt. In der Praxis gibt es technische Probleme und teuren grünen Wasserstoff. ( Elektrobus , Elektroauto )",
+      "source": "golem",
+      "pubDate": "2026-10-11T12:11:06+00:00"
+    },
+    {
+      "title": "Strukturierter Parteivortrag: Wie Hubig die KI-Flut an Gerichten eindämmen will",
+      "link": "https://www.golem.de/news/strukturierter-parteivortrag-wie-hubig-ki-flut-an-gerichten-eindaemmen-will-2610-213967.html",
+      "summary": "Vor allem an Sozialgerichten kämpfen Richter mit KI-generierten Schriftsätzen von mehreren Hundert Seiten. Dagegen will die Justizministerin vorgehen. Ein Bericht von Friedhelm Greis ( KI , Politik )",
+      "source": "golem",
+      "pubDate": "2026-10-11T12:11:02+00:00"
+    },
+    {
+      "title": "heise+ | c’t-Story: Lost Places",
+      "link": "https://www.heise.de/hintergrund/c-t-Story-Lost-Places-11422777.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Sind Spieleentwickler beneidenswerte Spaßfürsten? Manchmal vielleicht, aber widerspenstige Projekte und Terminstress können wie bleischwere Gewichte wirken.",
+      "source": "heise",
+      "pubDate": "2026-10-11T12:00:00+00:00"
+    },
+    {
+      "title": "Gigabyte bestätigt neue Intel-CPUs mit DDR4 für Anfang 2027",
+      "link": "https://www.heise.de/news/Gigabyte-bestaetigt-neue-Intel-CPUs-mit-DDR4-fuer-Anfang-2027-11483573.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Weil DDR5-DRAM weiterhin sehr teuer ist, will Intel alte Prozessordesigns neu auflegen. Dafür gibt es nun erstmals eine offizielle Bestätigung.",
+      "source": "heise",
+      "pubDate": "2026-10-11T12:00:00+00:00"
+    },
+    {
+      "title": "KI: Bundesregierung lässt Mistral fallen",
+      "link": "https://www.golem.de/news/ki-bundesregierung-laesst-mistral-fallen-2610-213963.html",
+      "summary": "Der geplante KI-Rahmenvertrag zwischen Deuschland, Mistral und SAP ist vorerst vom Tisch. ( Bundesregierung , KI )",
+      "source": "golem",
+      "pubDate": "2026-10-11T11:41:01+00:00"
+    },
     {
       "title": "Microsoft-Chef Nadella: KI darf sich nicht selbst kontrollieren",
       "link": "https://www.golem.de/news/microsoft-chef-nadella-ki-darf-sich-nicht-selbst-kontrollieren-2610-213964.html",
@@ -202,46 +237,11 @@
       "pubDate": "2026-10-11T06:22:00+00:00"
     },
     {
-      "title": "Brickboy im Test: So wird aus Lego ein echter Game Boy",
-      "link": "https://www.golem.de/news/brickboy-im-test-so-wird-aus-lego-ein-echter-game-boy-2610-213912.html",
-      "summary": "Lego hat einen Game Boy, auf dem man nicht spielen kann. Ein Schweizer Start-up liefert nun die Technik. Wir zeigen, wie gut der Umbau funktioniert. Von Oliver Nickel ( Kickstarter , Lego )",
-      "source": "golem",
-      "pubDate": "2026-10-11T05:30:02+00:00"
-    },
-    {
-      "title": "Anzeige: Jobs in SAP, DevOps, IT-Audit und Cloud Security",
-      "link": "https://www.golem.de/news/anzeige-jobs-in-sap-devops-it-audit-und-cloud-security-2610-213909.html",
-      "summary": "Arbeitgeber aus Energiewirtschaft, Forschung und Verwaltung haben sechs spannende Positionen von SAP bis Cloud Security im Angebot. ( Golem Karrierewelt , Unternehmenssoftware )",
-      "source": "golem",
-      "pubDate": "2026-10-11T05:00:02+00:00"
-    },
-    {
       "title": "Open-Source-Office OpenDesk: Zendis bringt agentische KI und Air-Gap-Modus",
       "link": "https://www.heise.de/news/Open-Source-Office-OpenDesk-Zendis-bringt-agentische-KI-und-Air-Gap-Modus-11483419.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Das Zentrum für digitale Souveränität zeigt auf der Smart Country Convention neue Funktionen für die Open-Source-Suite OpenDesk mit KI und Offline-Betrieb.",
       "source": "heise",
       "pubDate": "2026-10-10T16:21:00+00:00"
-    },
-    {
-      "title": "„Silver Pines“ angespielt: Schaurig hier, aber waren Sie mal in Silent Hill?",
-      "link": "https://www.heise.de/tests/Silver-Pines-angespielt-Liebesbrief-an-den-Horror-aber-ohne-Seele-11483389.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "„Silver Pines“ vereint in sich alle Elemente eines guten Horrorspiels, weil es sie sich von anderen geliehen hat. Doch eine eigene Identität bleibt aus.",
-      "source": "heise",
-      "pubDate": "2026-10-10T15:57:00+00:00"
-    },
-    {
-      "title": "Oberverwaltungsgericht NRW kippt Websperren für Pornhub und YouPorn",
-      "link": "https://www.heise.de/news/Oberverwaltungsgericht-NRW-kippt-Websperren-fuer-Pornhub-und-YouPorn-11483348.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das OVG NRW stoppt Eilverfügungen gegen Netzsperren für Pornoseiten. EU-Recht und Digital Services Act (DSA) blockieren deutsche Alleingänge beim Jugendschutz.",
-      "source": "heise",
-      "pubDate": "2026-10-10T15:41:00+00:00"
-    },
-    {
-      "title": "Speicherkrise: Intel plant offenbar neue CPUs für den Sockel LGA 1700",
-      "link": "https://www.golem.de/news/speicherkrise-intel-plant-offenbar-neue-cpus-fuer-den-sockel-lga-1700-2610-213956.html",
-      "summary": "Gigabyte bereitet Mainboards auf neue LGA-1700-CPUs vor. Sie sollen Anfang 2027 erscheinen und auch auf DDR4-Boards laufen. ( DDR4 , Prozessor )",
-      "source": "golem",
-      "pubDate": "2026-10-10T13:26:01+00:00"
     }
   ]
 }
