@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T07:11:07.155933+00:00",
+  "updatedAt": "2026-10-14T08:01:07.728273+00:00",
   "wirtschaft": [
     {
       "title": "Lange Haftstrafe droht: OpenAI-Mitarbeiter wird wegen verstecktem Abhörgerät festgenommen",
@@ -52,7 +52,7 @@
     },
     {
       "title": "Maue Konsumstimmung: Lebkuchen-Produktion fällt auf Siebenjahrestief",
-      "link": "https://www.n-tv.de/wirtschaft/Lebkuchen-Produktion-faellt-auf-Siebenjahrestief-id31413483.html",
+      "link": "https://www.n-tv.de/wirtschaft/Lebkuchen-Flaute-Produktion-faellt-auf-niedrigsten-Stand-seit-sieben-Jahren-id31413483.html",
       "summary": "Lebkuchen sind das wichtigste Herbstgebäck auf dem deutschen Markt. Doch im vergangenen Jahr sinkt die Produktion um zehn Prozent. Die Branche nennt mehrere Ursachen für die Flaute.",
       "source": "n-tv",
       "pubDate": "2026-10-13T13:37:49+00:00"
@@ -146,6 +146,55 @@
   ],
   "it": [
     {
+      "title": "Neue curl-Version entfernt SMB-Unterstützung und behebt 24 Sicherheitslücken",
+      "link": "https://www.heise.de/news/Neue-curl-Version-entfernt-SMB-Unterstuetzung-und-behebt-24-Sicherheitsluecken-11487340.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die schwerste behobene Lücke erlaubt Codeausführung über HTTP/2, gefunden hat sie Anthropic.",
+      "source": "heise",
+      "pubDate": "2026-10-14T07:47:00+00:00"
+    },
+    {
+      "title": "KI-Agenten: Aufseher in USA und Europa prüfen KI-Risiken bei Banken",
+      "link": "https://www.golem.de/news/ki-agenten-aufseher-in-usa-und-europa-pruefen-ki-risiken-bei-banken-2610-214079.html",
+      "summary": "US-Aufseher fragen Banken, wie sie KI-Agenten kontrollieren und abschalten. Auch in Europa wächst die Sorge. ( Wirtschaft , OpenAI )",
+      "source": "golem",
+      "pubDate": "2026-10-14T07:41:02+00:00"
+    },
+    {
+      "title": "Nvidia steigt bei Ärzteplattform Doctolib ein",
+      "link": "https://www.heise.de/news/Nvidia-steigt-bei-Aerzteplattform-Doctolib-ein-11487423.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der Chipgigant Nvidia wird Minderheitsaktionär bei der Ärzteplattform Doctolib. Das französische Unternehmen will damit seine KI-Technik weiterentwickeln.",
+      "source": "heise",
+      "pubDate": "2026-10-14T07:27:00+00:00"
+    },
+    {
+      "title": "Schatten-KI in der Personalabteilung: Wie KI heimlich Bewerbungen aussortiert",
+      "link": "https://www.heise.de/news/Schatten-KI-in-der-Personalabteilung-Wie-KI-heimlich-Bewerbungen-aussortiert-11487362.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Personaler werden von einer Menge von KI-generierten Bewerbungen überrumpelt. Im Alltag greifen sie dabei oftmals auf unerlaubte KI-Tools zur Bewertung zurück.",
+      "source": "heise",
+      "pubDate": "2026-10-14T07:17:00+00:00"
+    },
+    {
+      "title": "KI in der EU: Nvidia investiert in Doctolib",
+      "link": "https://www.golem.de/news/ki-in-der-eu-nvidia-investiert-in-doctolib-2610-214077.html",
+      "summary": "Doctolib will KI-Systeme für Patientendaten entwickeln. Nvidia soll die Grundlage dafür stellen. ( Nvidia , KI )",
+      "source": "golem",
+      "pubDate": "2026-10-14T07:16:02+00:00"
+    },
+    {
+      "title": "Cloudflare stoppt Deno-Runtime – Open-Source-Community soll übernehmen",
+      "link": "https://www.heise.de/news/Cloudflare-stoppt-Deno-Runtime-Open-Source-Community-soll-uebernehmen-11487276.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Mit der Übernahme von Deno durch Cloudflare soll die Weiterentwicklung der Runtime enden. Cloudflare interessiert sich für ein anderes Deno-Projekt.",
+      "source": "heise",
+      "pubDate": "2026-10-14T07:11:00+00:00"
+    },
+    {
+      "title": "Bald nur noch für Sammler: Analysten vergleichen Konsolen mit Plattenspielern",
+      "link": "https://www.heise.de/news/Cloud-Gaming-Analysten-sehen-Spielkonsolen-langfristig-vom-Aussterben-bedroht-11487296.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Cloud-Gaming soll bis 2035 zum 38-Milliarden-Dollar-Markt wachsen, prognostiziert Bloomberg Intelligence. Konsolen würden zum Nischenprodukt.",
+      "source": "heise",
+      "pubDate": "2026-10-14T07:06:00+00:00"
+    },
+    {
       "title": "„Passwort“ Folge 68: Alte Exploits in neuen Appliances",
       "link": "https://www.heise.de/news/Passwort-Folge-68-Alte-Exploits-in-neuen-Appliances-11482528.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Die Hosts fragen sich ob vieler altbekannter Bugs, ob sie versehentlich in die Neunziger zurückgereist sind. Immerhin gibt's echte PKI-Neuigkeiten.",
@@ -160,7 +209,7 @@
       "pubDate": "2026-10-14T07:00:00+00:00"
     },
     {
-      "title": "Patchday: Attacken auf verschiedene Windows-Versionen beobachtet",
+      "title": "Patchday: Angreifer nutzen Windows-Shell-Lücke aus",
       "link": "https://www.heise.de/news/Patchday-Attacken-auf-verschiedene-Windows-Versionen-beobachtet-11487264.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Microsoft hat mehr als 1400 Sicherheitslücken in Windows, Office & Co. geschlossen. Es laufen bereits Attacken.",
       "source": "heise",
@@ -188,13 +237,6 @@
       "pubDate": "2026-10-14T06:09:00+00:00"
     },
     {
-      "title": "Satellitennetz: EU-Telecomriesen schmieden Allianz gegen Elon Musks Starlink",
-      "link": "https://www.heise.de/news/Satellitennetz-EU-Telecomriesen-schmieden-Allianz-gegen-Elon-Musks-Starlink-11487200.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Mit Hilfe aus Paris und Brüssel wollen europäische Mobilfunker wie die Deutsche Telekom den Starlink-Vormarsch bei Satelliten-Direktverbindungen ausbremsen.",
-      "source": "heise",
-      "pubDate": "2026-10-14T06:03:00+00:00"
-    },
-    {
       "title": "Sicherheit: Cyberangriff legt Baustelle am Fehmarnbelt-Tunnel lahm",
       "link": "https://www.golem.de/news/sicherheit-cyberangriff-legt-baustelle-am-fehmarnbelt-tunnel-lahm-2610-214076.html",
       "summary": "Ein mutmaßlicher Cyberangriff hat die Arbeiten auf der Baustelle des Fehmarnbelt-Tunnels am Dienstag offenbar erheblich gestört. ( Cybercrime , Cyberwar )",
@@ -202,32 +244,11 @@
       "pubDate": "2026-10-14T06:01:02+00:00"
     },
     {
-      "title": "heise-Angebot: iX-Workshop: Active Directory hacken und schützen",
-      "link": "https://www.heise.de/news/iX-Workshop-Active-Directory-hacken-und-schuetzen-11472837.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Werden Sie selbst zum Hacker und lernen, wie Angreifer gezielt Schwachstellen in Active Directory ausnutzen, um Server und Domänencontroller zu kompromittieren.",
-      "source": "heise",
-      "pubDate": "2026-10-14T06:00:00+00:00"
-    },
-    {
-      "title": "Remote-Angestellte aus Nordkorea: Laptop-Farmen in Texas ausgehoben",
-      "link": "https://www.heise.de/news/Remote-Angestellte-aus-Nordkorea-Laptop-Farmen-in-Texas-ausgehoben-11487184.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Seit Jahren versuchen Nordkoreaner, im Ausland als Remote-Angestellte Geld für das Regime zu verdienen. In Texas wurde jetzt Infrastruktur dafür ausgehoben.",
-      "source": "heise",
-      "pubDate": "2026-10-14T05:59:00+00:00"
-    },
-    {
       "title": "Bulgarien: Brandanschlag auf Starlink-Antennen bei Sofia",
       "link": "https://www.golem.de/news/bulgarien-brandanschlag-auf-starlink-antennen-bei-sofia-2610-214074.html",
       "summary": "Maskierte Männer sollen in der Nacht zum 10. Oktober mehrere Starlink-Antennen in der Nähe der bulgarischen Hauptstadt in Brand gesteckt haben. ( Cybercrime , Security )",
       "source": "golem",
       "pubDate": "2026-10-14T05:37:02+00:00"
-    },
-    {
-      "title": "heise+ | Wiederkehrende Aufgaben mit selbstgebauten Werkzeugen vereinfachen",
-      "link": "https://www.heise.de/ratgeber/Wiederkehrende-Aufgaben-mit-selbstgebauten-Werkzeugen-vereinfachen-11481068.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Wer kreativ mit recyceltem Material arbeitet und an die Grenzen gängiger Werkzeuge stößt, braucht eigene Lösungen.",
-      "source": "heise",
-      "pubDate": "2026-10-14T05:30:00+00:00"
     },
     {
       "title": "LLM: Googles neue Top-KI Gemini 4 Argon ist da",
@@ -242,13 +263,6 @@
       "summary": "Microsoft 365 Administration umfasst auch die Einbindung lokaler Ressourcen. Ein Online-Workshop vermittelt Konfiguration, Migration und sichere Verwaltung. ( Golem Karrierewelt , Unternehmenssoftware…",
       "source": "golem",
       "pubDate": "2026-10-14T05:15:01+00:00"
-    },
-    {
-      "title": "Wanze in Konferenzraum versteckt: OpenAI-Angestellter festgenommen",
-      "link": "https://www.heise.de/news/Meetings-heimlich-aufgenommen-OpenAI-Angestellter-festgenommen-und-gefeuert-11487158.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "In einem Konferenzraum von OpenAI wurde ein verstecktes Aufzeichnungsgerät entdeckt. Der Mann, der es angebracht haben soll, wurde festgenommen – und gefeuert.",
-      "source": "heise",
-      "pubDate": "2026-10-14T04:58:00+00:00"
     },
     {
       "title": "Satellitenmobilfunk: Höttges warnt Netzbetreiber vor MVNO-Deals mit Starlink",
@@ -270,20 +284,6 @@
       "summary": "Die Sabrent-Dockingstation verbindet alte HDDs und SSDs per USB mit dem PC. Bei Amazon kostet sie mit Rabattcoupon unter 18 Euro. ( Dockingstation , Amazon )",
       "source": "golem",
       "pubDate": "2026-10-13T16:49:02+00:00"
-    },
-    {
-      "title": "Leere Regale: Supermarktlogistik durch Cyberangriff lahmgelegt",
-      "link": "https://www.golem.de/news/leere-regale-supermarktlogistik-durch-cyberangriff-lahmgelegt-2610-214069.html",
-      "summary": "Ein schwerwiegender IT-Ausfall trifft die Supermarktkette Albert Heijn. Lieferungen stocken, die Regale leeren sich. Auch andere Ketten sind betroffen. ( Security , Cyberwar )",
-      "source": "golem",
-      "pubDate": "2026-10-13T16:46:02+00:00"
-    },
-    {
-      "title": "Anzeige: Cloud Competence Center: Governance und Roadmap planen",
-      "link": "https://www.golem.de/news/anzeige-cloud-competence-center-governance-und-roadmap-planen-2610-213969.html",
-      "summary": "Cloud Governance umfasst Prozesse, Rollen und organisatorische Veränderungen. Ein Online-Workshop zeigt, wie Unternehmen diese Themen in einer Roadmap zusammenführen. ( Golem Karrierewelt , Verschlüss…",
-      "source": "golem",
-      "pubDate": "2026-10-13T16:45:03+00:00"
     }
   ]
 }
