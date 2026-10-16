@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-10-16T10:16:48.051825+00:00",
+  "updatedAt": "2026-10-16T11:10:17.693819+00:00",
   "wirtschaft": [
     {
-      "title": "Wenn Verbrenner-Aus fällt: Dudenhöffer fürchtet Verlust von Auto-Jobs in die USA",
-      "link": "https://www.n-tv.de/wirtschaft/Dudenhoeffer-fuerchtet-Verlust-von-Auto-Jobs-in-die-USA-id31424634.html",
+      "title": "\"Umfassendes\" Auto-Paket: Berlin und Paris einig über Aus vom Verbrenner-Aus",
+      "link": "https://www.n-tv.de/wirtschaft/Berlin-und-Paris-einig-ueber-Aus-vom-Verbrenner-Aus-id31425571.html",
+      "summary": "Bundeskanzler Merz und Frankreichs Präsident Macron verständigen sich auf ein Auto-Paket. Demnach wollen sie nicht nur verschärfte \"Made in Europe\"-Regeln. Es geht auch um eine Abkehr vom Verbrenner-A…",
+      "source": "n-tv",
+      "pubDate": "2026-10-16T11:03:36+00:00"
+    },
+    {
+      "title": "Wenn Verbrenner-Aus fällt: Dudenhöffer fürchtet Verlust von Auto-Jobs an die USA",
+      "link": "https://www.n-tv.de/wirtschaft/Dudenhoeffer-fuerchtet-Verlust-von-Auto-Jobs-an-die-USA-id31424634.html",
       "summary": "Mit der Aufweichung der Frist für das Verbrenner-Aus in der EU erhoffen sich Deutschland und Frankreich Vorteile für hiesige Autobauer. Die Rechnung könnte aber nicht aufgehen, erklärt Autoexperte Dud…",
       "source": "n-tv",
       "pubDate": "2026-10-16T08:45:06+00:00"
@@ -63,13 +70,6 @@
       "summary": "Anleger vieler gehypter Technologieaktien müssen in diesen Tagen stark sein. Inflationssorgen und Zweifel an der Finanzierung des KI-Booms sorgen für heftige Kursrücksetzer. Aber auch in anderen Berei…",
       "source": "n-tv",
       "pubDate": "2026-10-15T15:28:21+00:00"
-    },
-    {
-      "title": "Gericht deutet Entscheidung an: Quadrat-Riegel ist Ritter Sport \"überdurchschnittlich\" ähnlich",
-      "link": "https://www.n-tv.de/wirtschaft/Quadrat-Riegel-ist-Ritter-Sport-ueberdurchschnittlich-aehnlich-id31421629.html",
-      "summary": "Ein Gericht schickt sich an, den Markenrechtsstreit zwischen Ritter Sport und einer kleinen Mannheimer Firma anders zu entscheiden als die Vorinstanz. Die quadratische Verpackung des \"Monnemer Quadrat…",
-      "source": "n-tv",
-      "pubDate": "2026-10-15T12:57:27+00:00"
     }
   ],
   "politik": [
@@ -146,6 +146,55 @@
   ],
   "it": [
     {
+      "title": "KI im Recruiting: Wie McKinsey Bewerbende mit Chatbots testet",
+      "link": "https://www.heise.de/news/KI-im-Recruiting-Wie-McKinsey-Bewerbende-mit-Chatbots-testet-11490750.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das Beratungsunternehmen McKinsey setzt in Nordamerika auf künstliche Intelligenz, um Bewerbende in simulierten Kundengesprächen auf die Probe zu stellen.",
+      "source": "heise",
+      "pubDate": "2026-10-16T11:03:00+00:00"
+    },
+    {
+      "title": "Siri AI: Spekulationen um Support für HomePod 2",
+      "link": "https://www.heise.de/news/Siri-AI-Spekulationen-um-Support-fuer-HomePod-2-11488677.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Auch Altware von Apple könnte künftig Zugriff auf das neue KI-System bekommen – per Update. Zumindest gibt es Indizien.",
+      "source": "heise",
+      "pubDate": "2026-10-16T10:59:00+00:00"
+    },
+    {
+      "title": "Linux: Kennzeichnung von KI-Code soll entfallen – auch Torvalds nutzt LLMs",
+      "link": "https://www.heise.de/news/Linux-Kennzeichnung-von-KI-Code-soll-entfallen-auch-Torvalds-nutzt-LLMs-11490345.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Kernel-Maintainer wollen die Kennzeichnung für KI-Patches abschaffen, weil nur wenige sie setzen. Auch Linus Torvalds programmiert inzwischen mit KI.",
+      "source": "heise",
+      "pubDate": "2026-10-16T10:57:00+00:00"
+    },
+    {
+      "title": "Volkswagen bereitet Rückruf für verschiedene Elektroautos vor",
+      "link": "https://www.heise.de/news/Volkswagen-bereitet-Rueckruf-fuer-verschiedene-Elektroautos-vor-11490694.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "In diversen Elektroautos der Baujahre 2023 bis 2025 kann es durch einen Zelldefekt in der Batterie zu einem Brand kommen. Ein Rückruf ist in Vorbereitung.",
+      "source": "heise",
+      "pubDate": "2026-10-16T10:32:00+00:00"
+    },
+    {
+      "title": "Straßen aus Asphalt mit recyceltem Kunststoff können länger halten",
+      "link": "https://www.heise.de/news/Strassen-aus-Asphalt-mit-recyceltem-Kunststoff-koennen-laenger-halten-11490586.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Ein mit recyceltem Kunststoff versehener Asphalt ist abriebfester. Wird der enthaltene Kunststoff dabei wieder als Mikroplastik freigesetzt?",
+      "source": "heise",
+      "pubDate": "2026-10-16T10:28:00+00:00"
+    },
+    {
+      "title": "Microsoft untersucht Exchange-Probleme nach Updates",
+      "link": "https://www.heise.de/news/Oktober-Updates-legen-Exchange-Server-lahm-11490529.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Nach der Installation der Oktober-Updates für Windows Server kommt es auf Exchange-Servern zu Ausfällen. Microsoft untersucht das Problem.",
+      "source": "heise",
+      "pubDate": "2026-10-16T10:24:00+00:00"
+    },
+    {
+      "title": "Warnung des BSI: Angriffe auf Zero-Day-Lücke in Cisco Secure Email Gateway",
+      "link": "https://www.golem.de/news/warnung-des-bsi-angriffe-auf-zero-day-luecke-in-cisco-secure-email-gateway-2610-214183.html",
+      "summary": "Der Malware-Scanner von Ciscos Secure Email Gateway reagiert fehlerhaft auf speziell gestaltete E-Mails. Hacker erhalten so Root-Rechte. ( Sicherheitslücke , E-Mail )",
+      "source": "golem",
+      "pubDate": "2026-10-16T10:16:01+00:00"
+    },
+    {
       "title": "Elektroauto: Einfach durchrutschen im Smart #2",
       "link": "https://www.golem.de/news/elektroauto-einfach-durchrutschen-im-smart-2-2610-214177.html",
       "summary": "Der kleine Smart kehrt als Elektroauto zurück. Auf dem Pariser Autosalon überraschen praktische Details, doch die Ladeangaben werfen Fragen auf. Ein Bericht von Dirk Kunde ( Elektroauto , Auto )",
@@ -216,25 +265,11 @@
       "pubDate": "2026-10-16T08:50:00+00:00"
     },
     {
-      "title": "Sprout: iPod-Platine modernisiert Apples MP3-Spieler",
-      "link": "https://www.heise.de/news/Sprout-iPod-Platine-modernisiert-Apples-MP3-Spieler-11488731.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ein Projekt hat passende Elektronik für das Gehäuse alter iPods entwickelt, das die Geräte modernisieren soll. Demnächst startet ein Crowdfunding.",
-      "source": "heise",
-      "pubDate": "2026-10-16T08:50:00+00:00"
-    },
-    {
       "title": "Zweites Update in einer Woche: Google schließt erneut kritische Lücke in Chrome",
       "link": "https://www.golem.de/news/zweites-update-in-einer-woche-google-schliesst-erneut-kritische-luecke-in-chrome-2610-214175.html",
       "summary": "Das Update verhindert eine Remotecodeausführung außerhalb der Sandbox von Chrome. Die Lücke entdeckte ein Mitarbeiter von Anthropic. ( Chrome , Google )",
       "source": "golem",
       "pubDate": "2026-10-16T08:47:02+00:00"
-    },
-    {
-      "title": "Kolibri-1 denkt deutsch. Hilft das auch beim Antworten?",
-      "link": "https://www.heise.de/hintergrund/Kolibri-1-denkt-deutsch-Hilft-das-auch-beim-Antworten-11489670.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Aleph Alphas Kolibri-1 ist ein neues KI-Modell, das speziell für deutsche Texte optimiert wurde und auch auf Deutsch argumentiert. iX hat es ausprobiert.",
-      "source": "heise",
-      "pubDate": "2026-10-16T08:39:00+00:00"
     },
     {
       "title": "Mieterstrom: Wie kommt eine PV-Anlage aufs Dach einer WEG?",
@@ -244,46 +279,11 @@
       "pubDate": "2026-10-16T08:32:01+00:00"
     },
     {
-      "title": "heise+ | Mini-PC-Kaufberatung: Gute Wahl treffen in Zeiten teurer Speicherchips",
-      "link": "https://www.heise.de/ratgeber/Mini-PC-Kaufberatung-Gute-Wahl-treffen-in-Zeiten-teurer-Speicherchips-11422361.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Neue Mobilprozessoren bringen attraktive Verbesserungen für Mini-PCs. Doch Mondpreise für RAM und SSDs erzwingen eine besonders sorgfältige Kaufentscheidung.",
-      "source": "heise",
-      "pubDate": "2026-10-16T08:30:00+00:00"
-    },
-    {
-      "title": "Deutsch-französische Initiative soll Autoindustrie stärken",
-      "link": "https://www.heise.de/news/Deutsch-franzoesische-Initiative-soll-Autoindustrie-staerken-11490369.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Europas Autohersteller stehen unter Druck, auch durch Konkurrenz aus China. Frankreich und Deutschland wollen nun unterstützend eingreifen.",
-      "source": "heise",
-      "pubDate": "2026-10-16T08:26:00+00:00"
-    },
-    {
       "title": "Youtube: Microsofts Video zum Windows-10-Supportende hat 670 Millionen Aufrufe",
       "link": "https://www.golem.de/news/youtube-microsofts-video-zum-windows-10-supportende-hat-670-millionen-aufrufe-2610-214171.html",
       "summary": "Auf Youtube verabschieden sich User von Windows 10 und sagen Hallo zu Linux. ( Betriebssysteme , Microsoft )",
       "source": "golem",
       "pubDate": "2026-10-16T08:24:02+00:00"
-    },
-    {
-      "title": "Scraping in den Nutzungsbedingungen: Meta zwingt Webseiten KI-Zugriff zu erlauben",
-      "link": "https://www.golem.de/news/scraping-in-den-nutzungsbedingungen-meta-zwingt-webseiten-ki-zugriff-zu-erlauben-2610-214174.html",
-      "summary": "Die Meta-Nutzungsbedingungen sehen auch Test-Accounts für KI-Bots vor, um auf geschützte Inhalte für das LLM-Training zugreifen zu können. ( Meta , KI )",
-      "source": "golem",
-      "pubDate": "2026-10-16T08:11:02+00:00"
-    },
-    {
-      "title": "heise+ | Steam Frame im Test: Sehr bequem, aber noch nicht ganz fertig",
-      "link": "https://www.heise.de/tests/Steam-Frame-im-Test-Sehr-bequem-aber-noch-nicht-ganz-fertig-11486805.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Steam Frame bringt Linux federleicht auf den Kopf und viel unter einen Hut: VR, Non-VR, PC-Streaming, Windows- und Android-Apps. Manches wirkt jedoch überholt.",
-      "source": "heise",
-      "pubDate": "2026-10-16T07:00:00+00:00"
-    },
-    {
-      "title": "heise+ | Obsidian für Fortgeschrittene: Notizen organisieren mit Bases und Übersichten",
-      "link": "https://www.heise.de/ratgeber/Obsidian-fuer-Fortgeschrittene-Notizen-organisieren-mit-Bases-und-Uebersichten-11484119.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Viele Notizen und Ideen, aber wenig Überblick? Mit Projektstartseiten, Eigenschaften und „Bases“ machen Sie Ihre Obsidian-Sammlung fit für den Alltag.",
-      "source": "heise",
-      "pubDate": "2026-10-16T06:15:00+00:00"
     }
   ]
 }
