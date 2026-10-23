@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T12:19:10.945910+00:00",
+  "updatedAt": "2026-10-23T13:08:48.173653+00:00",
   "wirtschaft": [
     {
       "title": "Desaströses Quartal: Autobauer Volvo streicht 2500 Jobs",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Italiens Jugend revoltiert: Meloni reagiert mit harter Hand - der Samstag zeigt, ob das klappt",
+      "link": "https://www.n-tv.de/politik/Meloni-reagiert-mit-harter-Hand-der-Samstag-zeigt-ob-das-klappt-id31450661.html",
+      "summary": "Auf die Ausschreitungen in Italien antwortet die Meloni-Regierung mit höheren Strafandrohungen. Schüchtert der Druck die Jugendlichen ein oder fühlen sie sich herausgefordert?",
+      "source": "n-tv",
+      "pubDate": "2026-10-23T12:58:04+00:00"
+    },
+    {
       "title": "\"Eskalationsversuch Russlands\": Handelsschiff vor Rumänien angegriffen - Toter und Vermisste",
       "link": "https://www.n-tv.de/politik/Handelsschiff-vor-Rumaenien-angegriffen-Toter-und-Vermisste-id31451293.html",
       "summary": "Vor der rumänischen Schwarzmeerküste trifft eine Drohne ein ziviles Schiff. Ein Besatzungsmitglied kommt ums Leben - und die Zahl der Toten könnte noch steigen. Rumäniens Präsident Dan macht Russland …",
@@ -135,16 +142,65 @@
       "summary": "Eine Feuerwand breitet sich binnen Sekunden über einen kanadischen Militärstützpunkt aus und schließt zahlreiche Soldaten ein. Mehrere Menschen sterben, Dutzende werden verletzt. Nun ist klar, wie der…",
       "source": "n-tv",
       "pubDate": "2026-10-23T05:28:49+00:00"
-    },
-    {
-      "title": "Kampf gegen grüne Energie: Trump: Windkraftanlagen eine Gefahr für US-Sicherheit",
-      "link": "https://www.n-tv.de/politik/Trump-Windkraftanlagen-eine-Gefahr-fuer-US-Sicherheit-id31449432.html",
-      "summary": "Donald Trump geht erneut gegen die Windenergie vor und nimmt diesmal ausländische Hersteller ins Visier. Zunächst setzt der US-Präsident auf Verhandlungen, hält sich weitere Schritte aber ausdrücklich…",
-      "source": "n-tv",
-      "pubDate": "2026-10-23T05:27:37+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Anzeige: Whatsapp, X und Co.: Alternativen werden gesucht, die Großen bleiben",
+      "link": "https://www.golem.de/news/anzeige-whatsapp-x-und-co-alternativen-werden-gesucht-die-grossen-bleiben-2610-214403.html",
+      "summary": "In Deutschland bündeln einige wenige Social-Media-Plattformen nahezu alle User. Alternativen gibt es, aber nur in der Nische. ( Whatsapp , Software )",
+      "source": "golem",
+      "pubDate": "2026-10-23T13:00:02+00:00"
+    },
+    {
+      "title": "heise+ | Retrieval-Logs zur Priorisierung von Datenqualität nutzen",
+      "link": "https://www.heise.de/hintergrund/Retrieval-Logs-zur-Priorisierung-von-Datenqualitaet-nutzen-11494004.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "RAG-Systeme leiden oft unter unkuratierten Datenbeständen. Eine Analyse der Retrieval-Logs zeigt, welche Inhalte relevant sind und wo sich Pflege lohnt.",
+      "source": "heise",
+      "pubDate": "2026-10-23T13:00:00+00:00"
+    },
+    {
+      "title": "KI-Update Deep-Dive: Warum ControlAI ein Verbot von Superintelligenz fordert",
+      "link": "https://www.heise.de/news/KI-Update-Deep-Dive-Warum-ControlAI-ein-Verbot-von-Superintelligenz-fordert-11493868.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die NGO ControlAI warnt vor den Gefahren durch eine Superintelligenz, die den Menschen in allen Bereichen übertrifft, und fordert ein Entwicklungsverbot.",
+      "source": "heise",
+      "pubDate": "2026-10-23T13:00:00+00:00"
+    },
+    {
+      "title": "Kommentar: Hardware wird unbezahlbar, aber Spieler haben Auswege",
+      "link": "https://www.heise.de/meinung/Kommentar-Hardware-wird-unbezahlbar-aber-Spieler-haben-Auswege-11498098.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die Preise für PC-Hardware und Konsolen schießen in die Höhe. Viele spaßige Spiele benötigen allerdings kaum Rechenleistung. Ein Kommentar von Mark Mantel.",
+      "source": "heise",
+      "pubDate": "2026-10-23T12:46:00+00:00"
+    },
+    {
+      "title": "Bezahlsystem: GNU Taler gründet Betreibergesellschaft für Deutschlandstart",
+      "link": "https://www.golem.de/news/bezahlsystem-gnu-taler-gruendet-betreibergesellschaft-fuer-deutschlandstart-2610-214449.html",
+      "summary": "Das Bezahlsystem GNU Taler plant den Deutschlandstart mit einer neuen Betreiberfirma. Noch fehlen aber Kapital und die Zulassung der Bafin. ( Zahlungssysteme , Datenschutz )",
+      "source": "golem",
+      "pubDate": "2026-10-23T12:43:01+00:00"
+    },
+    {
+      "title": "Jailbreak für die Nintendo Switch 2: So hat ein Entwickler OpenAIs Codex genutzt",
+      "link": "https://www.heise.de/news/Jailbreak-fuer-die-Nintendo-Switch-2-So-hat-ein-Entwickler-OpenAIs-Codex-genutzt-11498446.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Ein Entwickler hat eine erste Version eines Jailbreaks für die Nintendo Switch 2 veröffentlicht. Den Hack konnte er dank KI-Hilfe realisieren.",
+      "source": "heise",
+      "pubDate": "2026-10-23T12:33:00+00:00"
+    },
+    {
+      "title": "Jetzt auch von Anthropic: Proaktiver KI-Agent für den Arbeitsalltag",
+      "link": "https://www.heise.de/news/Jetzt-auch-von-Anthropic-Proaktiver-KI-Agent-fuer-den-Arbeitsalltag-11498244.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Anthropic veröffentlicht mit Claude Duet nun auch einen persönlichen Agenten. Er zielt zunächst auf Fachleute und Kleinunternehmer und startet als Preview.",
+      "source": "heise",
+      "pubDate": "2026-10-23T12:30:00+00:00"
+    },
+    {
+      "title": "Daten-Omnibus: EU-Ministerrat will Datenschutz für KI-Training lockern",
+      "link": "https://www.golem.de/news/daten-omnibus-eu-ministerrat-will-datenschutz-fuer-ki-training-lockern-2610-214448.html",
+      "summary": "Der EU-Ministerrat hat sich beim Daten-Omnibus geeinigt. KI-Training mit persönlichen Daten soll einfacher werden. ( DSGVO , Datenschutz )",
+      "source": "golem",
+      "pubDate": "2026-10-23T12:27:01+00:00"
+    },
     {
       "title": "php2shell: Millionen PHP-Dienste in Deutschland verwundbar",
       "link": "https://www.heise.de/news/php2shell-Millionen-PHP-Dienste-in-Deutschland-verwundbar-11498464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -202,13 +258,6 @@
       "pubDate": "2026-10-23T11:30:00+00:00"
     },
     {
-      "title": "EU-Staaten lehnen technische Lösung für Cookie-Banner ab",
-      "link": "https://www.heise.de/news/EU-Staaten-lehnen-technische-Loesung-fuer-Cookie-Banner-ab-11498018.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die EU-Staaten lehnen eine technische Lösung zur Reduzierung von Cookie-Bannern ab. Sie wollen mehr Ausnahmen für Betreiber, auf Kosten des Datenschutzes.",
-      "source": "heise",
-      "pubDate": "2026-10-23T11:24:00+00:00"
-    },
-    {
       "title": "Bundesdigitalminister Karsten Wildberger: Deutschland-App liegt hinter Zeitplan zurück",
       "link": "https://www.golem.de/news/bundesdigitalminister-karsten-wildberger-deutschland-app-liegt-hinter-zeitplan-zurueck-2610-214444.html",
       "summary": "Der Probebetrieb in allen Pilotkommunen für die Deutschland-App sollte eigentlich Mitte September starten. Karsten Wildberger räumt Probleme ein, relativiert aber mit gestiegenen Ansprüchen. ( Digital…",
@@ -216,32 +265,11 @@
       "pubDate": "2026-10-23T11:06:01+00:00"
     },
     {
-      "title": "Microsoft hübscht den Authenticator auf",
-      "link": "https://www.heise.de/news/Microsoft-huebscht-den-Authenticator-auf-11498278.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Microsoft will den Authenticator für Android und iOS übersichtlicher und einfacher bedienbar machen. Die Verteilung läuft bereits.",
-      "source": "heise",
-      "pubDate": "2026-10-23T10:58:00+00:00"
-    },
-    {
       "title": "Anzeige: Bestseller-Smartwatch mit Telefon- und Gesundheitsfunktionen zum Amazon-Sparpreis",
       "link": "https://www.golem.de/news/anzeige-bestseller-smartwatch-mit-telefon-und-gesundheitsfunktionen-zum-amazon-sparpreis-2610-214443.html",
       "summary": "Die Ruimen-Smartwatch misst Puls, Schlaf und Blutsauerstoff, nimmt Anrufe am Handgelenk an und kostet einen Bruchteil der Konkurrenzmodelle. ( Technik/Hardware , Smartwatch )",
       "source": "golem",
       "pubDate": "2026-10-23T10:55:02+00:00"
-    },
-    {
-      "title": "Entra ID: Wer hat hier eigentlich die Schlüssel?",
-      "link": "https://www.heise.de/news/Entra-ID-Wer-hat-hier-eigentlich-die-Schluessel-11498161.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Entra ID birgt Risiken durch versteckte Berechtigungen. Lukas Petzi erklärt, wie Selbstaudits sie aufdecken und welche Prüfstandards helfen.",
-      "source": "heise",
-      "pubDate": "2026-10-23T10:54:00+00:00"
-    },
-    {
-      "title": "Gescheiterte Linux-Konsole: Atari beendet Support für VCS",
-      "link": "https://www.heise.de/news/Atari-stellt-Linux-Konsole-VCS-ein-Offline-Betrieb-weiterhin-moeglich-11498172.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Atari wird den VCS nicht weiterbetreiben. Damit die Linux-Konsole nicht unbrauchbar wird, will der Hersteller sie von der Infrastruktur abkoppeln.",
-      "source": "heise",
-      "pubDate": "2026-10-23T10:50:00+00:00"
     },
     {
       "title": "Spionage: Niederländer sollen Kushners Iphone gehackt haben",
@@ -256,34 +284,6 @@
       "summary": "Ein modulares Baukastensystem soll die Autofertigung bei Mercedes im kommenden Jahrzehnt vereinfachen und beschleunigen. ( Mercedes Benz , Elektroauto )",
       "source": "golem",
       "pubDate": "2026-10-23T10:33:01+00:00"
-    },
-    {
-      "title": "82 Prozent ungepatcht: Über 34 Millionen Systeme noch anfällig für PHP2Shell",
-      "link": "https://www.golem.de/news/82-prozent-ungepatcht-ueber-34-millionen-systeme-noch-anfaellig-fuer-php2shell-2610-214437.html",
-      "summary": "Laut Scans von Censys ist PHP2Shell auf den meisten Systemen im Netz noch ausnutzbar. Allein in Deutschland gibt es Millionen davon. ( Sicherheitslücke , PHP )",
-      "source": "golem",
-      "pubDate": "2026-10-23T10:15:02+00:00"
-    },
-    {
-      "title": "iPhone-Duo-Verkaufsstart: Geräte laufen ein – geringe Stückzahlen im Apple Store",
-      "link": "https://www.heise.de/news/iPhone-Duo-Verkaufsstart-Geraete-laufen-ein-geringe-Stueckzahlen-im-Apple-Store-11497588.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "In mindestens zwei Ländern hat es Apple nicht geschafft, das iPhone Duo zum Verkaufsstart in die Läden zu stellen. In Deutschland gibt es wenige Stücke.",
-      "source": "heise",
-      "pubDate": "2026-10-23T10:02:00+00:00"
-    },
-    {
-      "title": "KI-Boom auf Pump: Wie teures Geld den Ausbau der Rechenzentren belastet",
-      "link": "https://www.golem.de/news/ki-boom-auf-pump-wie-teures-geld-den-ausbau-der-rechenzentren-belastet-2610-214433.html",
-      "summary": "KI-Chips sind begehrt, doch der Ausbau der Rechenzentren wird zur Schuldenfalle. Beim Nasdaq-Unternehmen Coreweave schlagen Anleger bereits Alarm. Wie gefährlich wird das für den KI-Boom? Eine Analyse…",
-      "source": "golem",
-      "pubDate": "2026-10-23T10:00:02+00:00"
-    },
-    {
-      "title": "Konten und Daten gelöscht: Der Arc-Browser wird eingestellt",
-      "link": "https://www.golem.de/news/konten-und-daten-geloescht-der-arc-browser-wird-eingestellt-2610-214439.html",
-      "summary": "Ab Ende 2027 sollen Arc-User doch die Browser-Alternative Dia nutzen. Das kommt nicht gut an. ( Browser , KI )",
-      "source": "golem",
-      "pubDate": "2026-10-23T09:52:01+00:00"
     }
   ]
 }
