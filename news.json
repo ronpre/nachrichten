@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T06:36:58.743004+00:00",
+  "updatedAt": "2026-10-26T07:25:26.929176+00:00",
   "wirtschaft": [
     {
       "title": "Für Kauf von KI-Chips: SpaceX sichert sich Kredit über 40 Milliarden Dollar",
@@ -45,6 +45,13 @@
     }
   ],
   "politik": [
+    {
+      "title": "Lulas bemerkenswerte Aufholjagd: Brasiliens Linke ist aus ihrer Schockstarre erwacht",
+      "link": "https://www.n-tv.de/politik/Brasiliens-Linke-ist-aus-ihrer-Schockstarre-erwacht-id31457560.html",
+      "summary": "Bei der Stichwahl um das Präsidentenamt in Brasilien setzt sich Amtsinhaber Lula überraschend gegen Herausforderer Bolsonaro durch. Nun feiert das Lula-Lager, doch sein rechter Rivale will das Ergebni…",
+      "source": "n-tv",
+      "pubDate": "2026-10-26T07:14:47+00:00"
+    },
     {
       "title": "Werde \"immer die Wahrheit sagen\": Netanjahu-Herausforderer verteilt Seitenhiebe vor der Wahl",
       "link": "https://www.n-tv.de/politik/Netanjahu-Herausforderer-verteilt-Seitenhiebe-vor-der-Wahl-id31457373.html",
@@ -107,20 +114,13 @@
       "summary": "Seit der Entführung des venezolanischen Machthabers Maduro orchestrieren die USA eine neue politische Ordnung in dem Land. US-Außenminister Rubio erklärt, dass die Rückkehr von Friedensnobelpreisträge…",
       "source": "n-tv",
       "pubDate": "2026-10-25T21:33:22+00:00"
-    },
-    {
-      "title": "Ukraine-Krieg im Liveticker: +++ 21:01 Selenskyj: US-Warnungen vor russischen Raketenangriffen wiederhergestellt +++",
-      "link": "https://www.n-tv.de/politik/21-01-Selenskyj-US-Warnungen-vor-russischen-Raketenangriffen-wiederhergestellt-id31457115.html",
-      "summary": "",
-      "source": "n-tv",
-      "pubDate": "2026-10-25T21:00:00+00:00"
     }
   ],
   "it": [
     {
       "title": "Sicherheit: Polizei stoppt Cybertruck auf der A99",
       "link": "https://www.golem.de/news/sicherheit-polizei-stoppt-cybertruck-auf-der-a99-2610-214491.html",
-      "summary": "Ein 50-jähriger Schwede hat einen Tesla Cybertruck mit polnischem Kennzeichen über die A99 gelenkt - allerdings nicht lange. ( Tesla Cybertruck , Auto )",
+      "summary": "Ein 50-jähriger Schwede hat einen Tesla Cybertruck mit polnischem Kennzeichen über die A99 gelenkt - allerdings nicht lange. ( Tesla Cybertruck , Elektroauto )",
       "source": "golem",
       "pubDate": "2026-10-26T06:31:01+00:00"
     },
@@ -188,6 +188,20 @@
       "pubDate": "2026-10-25T15:38:00+00:00"
     },
     {
+      "title": "Dieses Klapprad-E-Bike schaltet von selbst: Uto Pro 20 mit Riemenantrieb im Test",
+      "link": "https://www.heise.de/bestenlisten/testbericht/dieses-klapprad-e-bike-schaltet-von-selbst-uto-pro-20-mit-riemenantrieb-im-test/cpln400?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Schnelles Falten, Zweigang-Automatik, Riemenantrieb: Das Klapprad-E-Bike Uto Pro 20 punktet in der Stadt. Was taugt es im Alltag?",
+      "source": "heise",
+      "pubDate": "2026-10-25T15:00:00+00:00"
+    },
+    {
+      "title": "Mistral- und DeepL-Chefs warnen vor KI-Kapitulation Europas",
+      "link": "https://www.heise.de/news/KI-Streit-in-Europa-EU-Tech-Chefs-wehren-sich-gegen-Kapitulation-11499445.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "EU-Spitzenpolitiker wie von der Leyen setzen bei KI neuerdings vor allem auf Anwendungen. Mistral und DeepL warnen vor verstärkter technologischer Abhängigkeit.",
+      "source": "heise",
+      "pubDate": "2026-10-25T13:28:00+00:00"
+    },
+    {
       "title": "Risikoprüfungen werden Pflicht: China will KI-Jobverluste abfedern",
       "link": "https://www.golem.de/news/risikopruefungen-werden-pflicht-china-will-ki-jobverluste-abfedern-2610-214487.html",
       "summary": "China will den KI-Einsatz am Arbeitsplatz steuern und Beschäftigte mit Risikoprüfungen, Umschulung und Schutz vor den Folgen der Automatisierung absichern. ( KI , Politik )",
@@ -195,14 +209,7 @@
       "pubDate": "2026-10-25T13:10:02+00:00"
     },
     {
-      "title": "heise+ | c’t-Story: Der menschliche Mähroboter",
-      "link": "https://www.heise.de/hintergrund/c-t-Story-Der-menschliche-Maehroboter-11459507.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Wenn hochmoderne autonome Luxustechnik im Garten niemanden mehr beeindruckt, ist die Stunde für revolutionäre retrofuturistische Dienstleistungen gekommen.",
-      "source": "heise",
-      "pubDate": "2026-10-25T13:00:00+00:00"
-    },
-    {
-      "title": "Rechenzentren: Google rodet Wald und lockt Wölfe in finnische Dörfer",
+      "title": "Rechenzentren: Google rodet Wald und treibt Wölfe in finnische Dörfer",
       "link": "https://www.golem.de/news/rechenzentren-google-rodet-wald-und-lockt-woelfe-in-finnische-doerfer-2610-214485.html",
       "summary": "Google muss den Bau eines Rechenzentrums in Finnland wohl vorerst stoppen. 250.000 Bäume sind ohne Genehmigung entfernt worden. ( Google , Rechenzentrum )",
       "source": "golem",
@@ -242,13 +249,6 @@
       "summary": "In einem X-Post wird klar, dass Musk wohl die Drosselung von Starlink beauftragt hat. Seine Aussage: \"Möget ihr in der Hölle schmoren.\" ( Elon Musk , Politik )",
       "source": "golem",
       "pubDate": "2026-10-25T10:04:02+00:00"
-    },
-    {
-      "title": "heise+ | Desinfec't: Defekten Grub-Bootloader unter Linux wiederherstellen",
-      "link": "https://www.heise.de/ratgeber/Desinfec-t-Defekten-Grub-Bootloader-unter-Linux-wiederherstellen-11488347.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Wenn Linux nicht mehr von selbst bootet, können Sie den Desinfec't-Bootloader benutzen oder mit Desinfec't Ihr installiertes Linux reparieren.",
-      "source": "heise",
-      "pubDate": "2026-10-25T10:00:00+00:00"
     },
     {
       "title": "Anzeige: Beliebteste elektrische Luftpumpe bei Amazon jetzt zum Angebotspreis",
