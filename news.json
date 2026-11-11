@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-11-11T12:13:04.279493+00:00",
+  "updatedAt": "2026-11-11T13:05:40.669514+00:00",
   "wirtschaft": [
+    {
+      "title": "Zweistelliges Wachstum: Siemens Energy sieht sich vor Boom-Jahren",
+      "link": "https://www.n-tv.de/wirtschaft/Siemens-Energy-sieht-sich-vor-Boom-Jahren-id31521799.html",
+      "summary": "Bis zum Ende des Jahrzehnts will der Energietechniker Siemens Energy jährlich zweistellig bei Umsatz und Ergebnis zulegen. Getrieben werde die Entwicklung vom weltweiten Energiehunger durch KI. Die Or…",
+      "source": "n-tv",
+      "pubDate": "2026-11-11T13:00:48+00:00"
+    },
     {
       "title": "Affäre um mutmaßliche Spionin: Was Nvidia-Boss Huang zu Fall bringen könnte",
       "link": "https://www.n-tv.de/wirtschaft/Wie-Nvidia-Boss-Jensen-Huang-stuerzen-koennte-id31520460.html",
@@ -63,13 +70,6 @@
       "summary": "Preise für den Wiederverkauf von Konzerttickets sollen durch ein Gesetz des Justizministeriums gedeckelt werden. Ministerin Hubig möchte damit gegen den Wucher auf Zweitplattformen vorgehen.",
       "source": "n-tv",
       "pubDate": "2026-11-10T15:31:33+00:00"
-    },
-    {
-      "title": "Einnahmen in Milliardenhöhe: Anthropic strebt Börsengang mit Billionen-Bewertung an",
-      "link": "https://www.n-tv.de/wirtschaft/Anthropic-strebt-Boersengang-mit-Billionen-Bewertung-an-id31517693.html",
-      "summary": "Der geplante Börsengang von Anthropic wird zum Belastungstest für die KI-Branche. Derzeit peilt das US-Unternehmen eine Bewertung von bis zu einer Billion US-Dollar an. Ursprünglich war von einer dopp…",
-      "source": "n-tv",
-      "pubDate": "2026-11-10T15:06:32+00:00"
     }
   ],
   "politik": [
@@ -146,6 +146,55 @@
   ],
   "it": [
     {
+      "title": "Downloadstart: DE-CIX verzeichnet wegen GTA VI neue Datenrekorde",
+      "link": "https://www.golem.de/news/downloadstart-de-cix-verzeichnet-wegen-gta-vi-neue-datenrekorde-2611-215089.html",
+      "summary": "Ein Spitzenwert von 22,30 Terabit pro Sekunde für den Vorab-Download für Grand Theft Auto VI. Auch weltweit verzeichnete der DE-CIX einen neuen Höchstwert. ( DE-CIX , Spiele )",
+      "source": "golem",
+      "pubDate": "2026-11-11T12:49:02+00:00"
+    },
+    {
+      "title": "Gemini Robotics 2.5 sortiert Metallteile bei Mercedes-Benz mit 96 Prozent Erfolg",
+      "link": "https://www.heise.de/news/Gemini-Robotics-2-5-sortiert-Metallteile-bei-Mercedes-Benz-mit-96-Prozent-Erfolg-11520722.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Google zeigt Gemini Robotics 2.5 – ein KI-Modell, das Roboter geschickter machen soll. Ein Experiment bei Mercedes-Benz erreichte 96 Prozent Erfolgsrate.",
+      "source": "heise",
+      "pubDate": "2026-11-11T12:42:00+00:00"
+    },
+    {
+      "title": "(g+) Softwareentwicklung: KI schreibt immer mehr Code - was bleibt für Entwickler?",
+      "link": "https://www.golem.de/news/softwareentwicklung-ki-schreibt-immer-mehr-code-was-bleibt-fuer-entwickler-2611-215040.html",
+      "summary": "KI schreibt immer mehr Code. Studien zeigen, welche Aufgaben Entwickler abgeben und wo ihre eigene Arbeit weiterhin entscheidend bleibt. Ein Ratgebertext von Klaus Manhart ( Stirbt das Coding? , KI )",
+      "source": "golem",
+      "pubDate": "2026-11-11T12:30:02+00:00"
+    },
+    {
+      "title": "heise+ | FiiO DM13 im Test: Tragbarer CD-Player mit Bluetooth und Rip-Funktion",
+      "link": "https://www.heise.de/tests/FiiO-DM13-im-Test-Tragbarer-CD-Player-mit-Bluetooth-und-Rip-Funktion-11436547.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Der tragbare CD-Player ist zurück und kann mehr als früher: Der DM13 treibt anspruchsvolle Kopfhörer an, funkt per Bluetooth und rippt CDs auf einen USB-Stick.",
+      "source": "heise",
+      "pubDate": "2026-11-11T12:30:00+00:00"
+    },
+    {
+      "title": "Anzeige: Doppeltes Datenvolumen zur Black Week im CallYa Jahrespaket M von Vodafone",
+      "link": "https://www.golem.de/news/anzeige-doppeltes-datenvolumen-zur-black-week-im-callya-jahrespaket-m-von-vodafone-2611-215060.html",
+      "summary": "Für die Black Week hat Vodafone auch ein CallYa-Jahrespaket verbessert. Das Jahrespaket M ist jetzt mit doppeltem Datenvolumen ausgestattet. ( Vodafone , Black Friday )",
+      "source": "golem",
+      "pubDate": "2026-11-11T12:20:01+00:00"
+    },
+    {
+      "title": "Code-Analyse: Telekom braucht rund um die Uhr KI-Modelle gegen Zero-Day-Lücken",
+      "link": "https://www.golem.de/news/code-analyse-telekom-braucht-rund-um-die-uhr-ki-modelle-gegen-zero-day-luecken-2611-215088.html",
+      "summary": "Der Chief Security Officer der Telekom räumt mit verbreiteten Mythen rund um KI auf. Ein besonderes Sicherheitsprobleme sieht er bei Open Source. ( Softwareentwicklung , KI )",
+      "source": "golem",
+      "pubDate": "2026-11-11T12:17:02+00:00"
+    },
+    {
+      "title": "Omnibus-Gesetze der EU und die Folgen für den Datenschutz",
+      "link": "https://www.heise.de/news/Omnibus-Gesetze-der-EU-und-die-Folgen-fuer-den-Datenschutz-11519738.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die EU will den Datenschutz vereinfachen. Auf der KI-Woche zeigte sich: Gute Regeln brauchen Aufsicht, doch es drohen Kürzungen.",
+      "source": "heise",
+      "pubDate": "2026-11-11T12:07:00+00:00"
+    },
+    {
       "title": "2-nm-Fertigung: Rapidus scheint Produktionsstart verschieben zu müssen",
       "link": "https://www.golem.de/news/2-nm-fertigung-rapidus-scheint-produktionsstart-verschieben-zu-muessen-2611-215085.html",
       "summary": "Das japanische Halbleiter-Start-up Rapidus plagen wohl noch diverse Probleme. Zentrale Schaltungsteile sollen nicht wie geplant funktionieren. ( Halbleiterfertigung , IBM )",
@@ -153,21 +202,21 @@
       "pubDate": "2026-11-11T12:04:02+00:00"
     },
     {
-      "title": "Klima-Zustandsbericht verzeichnet Rekordwerte für 2026",
+      "title": "Klima-Zustandsbericht: 2026 sprengt alle Rekorde",
       "link": "https://www.heise.de/news/Klima-Zustandsbericht-verzeichnet-Rekordwerte-fuer-2026-11520804.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Die vergangenen vier Jahre waren die wärmsten überhaupt. UN-Generalsekretär António Guterres spricht von einem neuen Zeitalter der Klimaextreme.",
       "source": "heise",
       "pubDate": "2026-11-11T12:01:00+00:00"
     },
     {
-      "title": "IBM präsentiert nächste Generation seines Quantenchips Nighthawk",
+      "title": "Nighthawk r3: IBMs neuer Quantenprozessor mit 520 Qubits",
       "link": "https://www.heise.de/news/IBM-praesentiert-naechste-Generation-seines-Quantenchips-Nighthawk-11520831.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Auf seiner Quanten-Entwicklerkonferenz stellte IBM seinen neuesten Quantenchip vor. Kommerziell relevante Anwendungen sollen schon sehr bald möglich sein.",
       "source": "heise",
       "pubDate": "2026-11-11T12:00:00+00:00"
     },
     {
-      "title": "Mozilla hebt VPN-Datenlimit in Firefox bis Ende Januar auf",
+      "title": "Firefox: Mozilla hebt Datenlimit für kostenloses VPN auf",
       "link": "https://www.heise.de/news/Mozilla-hebt-VPN-Datenlimit-in-Firefox-bis-Ende-Januar-auf-11520640.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
       "summary": "Ab jetzt bis zum 31. Januar 2027 will Mozilla das kostenlose VPN in Firefox ohne Datenlimit anbieten. Nicht zum ersten Mal.",
       "source": "heise",
@@ -235,55 +284,6 @@
       "summary": "Apple hat eine so merkwürdige wie kritikwürdige Entscheidung getroffen: Der Konzern schließt die seit Jahren vorhandenen Selbsthilfeforen. Warum, bleibt offen.",
       "source": "heise",
       "pubDate": "2026-11-11T11:12:00+00:00"
-    },
-    {
-      "title": "Custom-ROM-Hürde beseitigt: GrapheneOS für Pixel 11 kommt",
-      "link": "https://www.heise.de/news/Mit-Android-17-QPR2-GrapheneOS-kommt-doch-auf-das-Pixel-11-11520678.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das GrapheneOS-Team bringt sein Custom-ROM nun doch auf Googles Pixel-11-Modelle. Google hat eine wichtige Komponente mit Android 17 QPR2 zurückgebracht.",
-      "source": "heise",
-      "pubDate": "2026-11-11T11:04:00+00:00"
-    },
-    {
-      "title": "Die Ringe der Macht - Staffel 3: Endlich bekommen wir das Mittelerde-Epos, das wir wollten!",
-      "link": "https://www.golem.de/news/die-ringe-der-macht-staffel-3-endlich-bekommen-wir-das-mittelerde-epos-das-wir-wollten-2611-215078.html",
-      "summary": "Düsterer, größer, packender: In Staffel 3 von Die Ringe der Macht greifen alle Handlungsstränge ineinander. Aus dem zähen Aufbau wird ein gewaltiges Mittelerde-Epos. Eine Rezension von Peter Osteried …",
-      "source": "golem",
-      "pubDate": "2026-11-11T11:00:02+00:00"
-    },
-    {
-      "title": "heise+ | Quantensensoren aus Diamant: So findet QuantumDiamonds Fehler in Computerchips",
-      "link": "https://www.heise.de/hintergrund/Quantensensoren-aus-Diamant-So-findet-QuantumDiamonds-Fehler-in-Computerchips-11369223.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Die Sensoren vom Münchner Start-up QuantumDiamonds sollen Herstellungsfehler in Chips aufspüren. Nur: Wie viel „Quantum“ steckt tatsächlich drin?",
-      "source": "heise",
-      "pubDate": "2026-11-11T11:00:00+00:00"
-    },
-    {
-      "title": "Auto SR: Microsofts KI-Upscaler läuft auf der Xbox Ally X jetzt auch mobil",
-      "link": "https://www.heise.de/news/Auto-SR-Microsofts-KI-Upscaler-laeuft-auf-der-Xbox-Ally-X-jetzt-auch-mobil-11520596.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Microsofts KI-Upscaler Auto SR ist auf der ROG Xbox Ally X offiziell verfügbar und läuft nun auch im Handheld-Modus. Neu ist ein Modus für bis zu 120 fps.",
-      "source": "heise",
-      "pubDate": "2026-11-11T11:00:00+00:00"
-    },
-    {
-      "title": "Nach Sicherheitsvorfall mit OpenAI: Australien prüft Straftatbestand gegen unsichere KI",
-      "link": "https://www.golem.de/news/nach-sicherheitsvorfall-mit-openai-australien-prueft-straftatbestand-gegen-unsichere-ki-2611-215079.html",
-      "summary": "Neben der Schaffung einer neuen Sicherheitsbehörde will Australien Unternehmen, die wissentlich unsichere KI-Modelle auf den Markt bringen, bestrafen. ( KI , Politik )",
-      "source": "golem",
-      "pubDate": "2026-11-11T10:47:02+00:00"
-    },
-    {
-      "title": "Sony: Playstation wendet sich weiter vom PC ab",
-      "link": "https://www.golem.de/news/sony-playstation-wendet-sich-weiter-vom-pc-ab-2611-215077.html",
-      "summary": "PC-Spieler verlieren eine Möglichkeit, Konsolenspiele ohne Playstation zu nutzen: Sony verabschiedet sich von seiner PS-Plus-App für Windows. ( Playstation Plus , Sony )",
-      "source": "golem",
-      "pubDate": "2026-11-11T10:36:02+00:00"
-    },
-    {
-      "title": "IT-Jobs: Produktmanager sind Gewinner des KI-Zeitalters",
-      "link": "https://www.golem.de/news/it-jobs-produktmanager-sind-gewinner-des-ki-zeitalters-2611-215076.html",
-      "summary": "In den USA werden immer weniger Softwareentwickler eingestellt. Auch wird der Umgang mit KI zu einem essenziellen Skill bei der Jobsuche. ( Arbeit , Softwareentwicklung )",
-      "source": "golem",
-      "pubDate": "2026-11-11T10:22:01+00:00"
     }
   ]
 }
