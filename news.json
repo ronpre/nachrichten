@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T15:04:49.697579+00:00",
+  "updatedAt": "2026-11-15T16:05:08.724134+00:00",
   "wirtschaft": [
     {
       "title": "Noch immer teurer als 2022: Weihnachtsschokolade wird teilweise wieder günstiger",
@@ -52,6 +52,13 @@
     }
   ],
   "politik": [
+    {
+      "title": "Exil-Belarusse in Warschau: In Polen kippt die Stimmung gegen Ukrainer",
+      "link": "https://www.n-tv.de/politik/In-Polen-kippt-die-Stimmung-gegen-Ukrainer-id31531476.html",
+      "summary": "\"Ach, Belarussen, die mögen wir. Aber Ukrainer? Die mögen wir nicht.\" Solche Sätze hört der Belarusse Gleb Kowalew in Warschau neuerdings häufig. Er erzählt, warum manche Ukrainer auf den Straßen lieb…",
+      "source": "n-tv",
+      "pubDate": "2026-11-15T15:33:37+00:00"
+    },
     {
       "title": "An Meerenge Bab al-Mandab: Jemens Regierungstruppen ziehen sich vor Huthis zurück",
       "link": "https://www.n-tv.de/politik/Jemens-Regierungstruppen-ziehen-sich-vor-Huthis-zurueck-id31536018.html",
@@ -114,16 +121,23 @@
       "summary": "Der US-Präsident will einen Golfplatz im Zentrum von Washington für international bedeutende Turniere ausbauen. Dieser liegt in einem Park, 500 Bäume mussten bereits weichen. Im Laufe des Tages sollte…",
       "source": "n-tv",
       "pubDate": "2026-11-15T06:24:49+00:00"
-    },
-    {
-      "title": "Staats- und Marktversagen: \"Die Wohnkrise bedroht die Demokratie, denn sie blockiert Lebenspläne\"",
-      "link": "https://www.n-tv.de/politik/Die-Wohnkrise-bedroht-die-Demokratie-denn-sie-blockiert-Lebensplaene-id31531148.html",
-      "summary": "Sowohl der Staat als auch der Markt tragen eine Verantwortung für die Wohnungskrise, sagt der Soziologe Sebastian Kurtenbach. Für die Lösung der Wohnkrise sei entscheidend, dass die Kommunen wieder ha…",
-      "source": "n-tv",
-      "pubDate": "2026-11-15T06:20:11+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Angriffe auf UnrealIRCd: Sicherheitslücke ermöglicht Befehle mit Serverrechten",
+      "link": "https://www.heise.de/news/Angriffe-auf-UnrealIRCd-Sicherheitsluecke-ermoeglicht-Befehle-mit-Serverrechten-11525565.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der IRC-Server UnrealIRCd ist verwundbar und Angreifer nutzen derzeit eine Lücke aus. Ein Sicherheitspatch steht zum Download bereit.",
+      "source": "heise",
+      "pubDate": "2026-11-15T15:25:00+00:00"
+    },
+    {
+      "title": "Verkehrte Welt beim Milbensauger-Test: Kärcher kostet die Hälfte des Jimmy",
+      "link": "https://www.heise.de/bestenlisten/ratgeber/verkehrte-welt-beim-milbensauger-test-kaercher-kostet-die-haelfte-des-jimmy/c4vs6pm?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Kärchers Milbensauger kostet 89 Euro, der Jimmy BX7 Pro Max das Doppelte. Im Test holt der günstige Kärcher trotzdem mehr Staub aus der Matratze.",
+      "source": "heise",
+      "pubDate": "2026-11-15T15:00:00+00:00"
+    },
     {
       "title": "OpenAI startet ChatGPT Wallet: KI-Agenten kaufen für Nutzer ein",
       "link": "https://www.heise.de/news/OpenAI-startet-ChatGPT-Wallet-KI-Agenten-kaufen-fuer-Nutzer-ein-11525597.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -237,13 +251,6 @@
       "pubDate": "2026-11-15T10:14:00+00:00"
     },
     {
-      "title": "heise+ | Smart Home Bastelprojekt: Briefkastenmelder mit Zigbee und ESP32 bauen",
-      "link": "https://www.heise.de/ratgeber/Smart-Home-Bastelprojekt-Briefkastenmelder-mit-Zigbee-und-ESP32-bauen-11513083.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Ein ESP32-C5 überwacht mit zwei Sensoren, was im Briefkasten passiert, und funkt die Informationen per Zigbee an Home Assistant.",
-      "source": "heise",
-      "pubDate": "2026-11-15T10:00:00+00:00"
-    },
-    {
       "title": "DIY: Wir bauen einen Supercomputer!",
       "link": "https://www.golem.de/news/diy-wir-bauen-einen-supercomputer-2611-215201.html",
       "summary": "Zweimal im Jahr werden die leistungsfähigsten Supercomputer gekürt. Unser DIY-Modell wäre vor 30 Jahren der schnellste Computer der Welt gewesen. Eine Anleitung von Johannes Hiltscher ( Supercomputer …",
@@ -256,13 +263,6 @@
       "summary": "Starker Gaming-PC mit RX 9070 XT, 2 TB SSD und 32 GB RAM: Der Golem Performance wird zum Black November günstiger. ( Technik/Hardware , Spiele )",
       "source": "golem",
       "pubDate": "2026-11-15T09:40:02+00:00"
-    },
-    {
-      "title": "heise-Angebot: JavaLand 2027: Programm für die Community-Konferenz im Europa-Park Rust steht",
-      "link": "https://www.heise.de/news/JavaLand-2027-Programm-fuer-die-Community-Konferenz-im-Europa-Park-Rust-steht-11523976.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Im März 2027 findet die JavaLand-Konferenz im größten Freizeitpark Deutschlands statt. Das Programm bietet rund 120 Sessions und einen Workshoptag.",
-      "source": "heise",
-      "pubDate": "2026-11-15T09:00:00+00:00"
     }
   ]
 }
