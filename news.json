@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-11-24T07:04:52.536706+00:00",
+  "updatedAt": "2026-11-24T08:01:12.138785+00:00",
   "wirtschaft": [
+    {
+      "title": "Verkaufsverbote umgangen?: USA setzen Ex-Unternehmen der Huang-Affäre auf schwarze Liste",
+      "link": "https://www.n-tv.de/wirtschaft/USA-setzen-Ex-Unternehmen-der-Huang-Affaere-auf-schwarze-Liste-id31569808.html",
+      "summary": "US-Präsident Trump spielt die mögliche Huang-Affäre mit einer möglichen chinesischen Spionin herunter. Der Nvidia-Chef kann sogar in seine alte Rolle zurückkehren. Also alles nicht so schlimm? Dennoch…",
+      "source": "n-tv",
+      "pubDate": "2026-11-24T07:22:25+00:00"
+    },
     {
       "title": "Rückkehr an Konzern-Spitze: Ist Jensen Huang für die USA unverzichtbar geworden?",
       "link": "https://www.n-tv.de/wirtschaft/Ist-Jensen-Huang-fuer-die-USA-unverzichtbar-geworden-id31569666.html",
@@ -63,20 +70,13 @@
       "summary": "Der Wettbewerb zwischen den Baumärkten wird kleiner: Die Ketten Obi und Toom wollen fusionieren. Obi bleibt seinen Kunden mit gleichem Namen erhalten - und dürfte bald mehr als 600 Filialen in Deutsch…",
       "source": "n-tv",
       "pubDate": "2026-11-23T13:09:07+00:00"
-    },
-    {
-      "title": "Mögliche Wettbewerbsverstöße: EU ermittelt gegen Coca-Cola-Abfüller",
-      "link": "https://www.n-tv.de/wirtschaft/EU-ermittelt-wegen-Wettbewerbsverstoss-gegen-Coca-Cola-Abfueller-id31566554.html",
-      "summary": "Der größte Abfüller von Coca-Cola-Produkten in Europa verstößt möglicherweise gegen Wettbewerbsrecht. Der Verdacht: Strategien, die den innereuropäischen Handel behindern und Preise erhöhen.",
-      "source": "n-tv",
-      "pubDate": "2026-11-23T13:04:10+00:00"
     }
   ],
   "politik": [
     {
       "title": "Neuer Vorfall in der Nacht: Drohne dringt erneut in polnischen Luftraum ein",
       "link": "https://www.n-tv.de/politik/Drohne-dringt-erneut-in-polnischen-Luftraum-ein-id31569779.html",
-      "summary": "In der Nacht zu Dienstag fliegt eine Aufklärungsdrohne über den polnischen Grenzort Dorohusk. Der Vorfall ereignet sich nur wenige Tage nachdem drei russiche Marschflugkörper in Polen abstürzen. Auf e…",
+      "summary": "In der Nacht zu Dienstag fliegt eine Aufklärungsdrohne über den polnischen Grenzort Dorohusk. Der Vorfall ereignet sich nur wenige Tage, nachdem drei russische Marschflugkörper in Polen abstürzen. Auf…",
       "source": "n-tv",
       "pubDate": "2026-11-24T06:41:27+00:00"
     },
@@ -104,7 +104,7 @@
     {
       "title": "Deutsche wollen mehr Diplomatie: Umfrage: Mehrheit gegen militärische Ukraine-Unterstützung",
       "link": "https://www.n-tv.de/politik/Umfrage-Mehrheit-gegen-militaerische-Ukraine-Unterstuetzung-id31569373.html",
-      "summary": "Die Deutschen sind Kriegs- und Konflikt-müde: In einer Umfrage wollen nur noch 43 Prozent der Bundesbürger der Ukraine mit Waffen helfen. Vor einem Jahr waren fast 60 Prozent dafür. Stattdessen setzen…",
+      "summary": "Die Deutschen sind kriegs- und konfliktmüde: In einer Umfrage wollen nur noch 43 Prozent der Bundesbürger der Ukraine mit Waffen helfen. Vor einem Jahr waren fast 60 Prozent dafür. Stattdessen setzen …",
       "source": "n-tv",
       "pubDate": "2026-11-24T03:37:32+00:00"
     },
@@ -146,11 +146,81 @@
   ],
   "it": [
     {
+      "title": "Anzeige: Ultimea 5.1.2 Soundsystem mit Dolby Atmos für Prime-Mitglieder zum Tiefpreis bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-ultimea-5-1-2-soundsystem-mit-dolby-atmos-fuer-prime-mitglieder-zum-tiefpreis-bei-amazon-2611-215562.html",
+      "summary": "Die 5.1.2-Soundbar bringt Dolby Atmos mit Subwoofer und Rücklautsprechern ins Wohnzimmer und ist zum Black Friday wieder auf dem Tiefpreis. ( Technik/Hardware , Heimkino )",
+      "source": "golem",
+      "pubDate": "2026-11-24T07:56:01+00:00"
+    },
+    {
+      "title": "Cyberangriff auf Netbeat: Hoster setzt Passwörter seiner Kundschaft zurück",
+      "link": "https://www.golem.de/news/cyberangriff-auf-netbeat-hoster-setzt-passwoerter-seiner-kundschaft-zurueck-2611-215561.html",
+      "summary": "Der Hoster Netbeat hat unbefugte Zugriffe auf seine Systeme festgestellt. Dabei könnten etwa Zugangsdaten und API-Schlüssel abgeflossen sein. ( Datenleck , API )",
+      "source": "golem",
+      "pubDate": "2026-11-24T07:43:01+00:00"
+    },
+    {
+      "title": "Weniger Autos in Deutschland gestohlen",
+      "link": "https://www.heise.de/news/Weniger-Autos-in-Deutschland-gestohlen-11535508.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Die Zahl der Pkw-Diebstähle ist im vergangenen Jahr gesunken. Warum die Hoffnungen auf sinkende Beiträge für die Kfz‑Versicherung dennoch vergeblich sind.",
+      "source": "heise",
+      "pubDate": "2026-11-24T07:40:00+00:00"
+    },
+    {
+      "title": "Asynchrone Programmierung – Teil 5: Nebenläufigkeit effizient mit Rust und Tokio",
+      "link": "https://www.heise.de/hintergrund/Asynchrone-Programmierung-Teil-5-Nebenlaeufigkeit-effizient-mit-Rust-und-Tokio-11530471.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Rust bietet mit der Bibliothek Tokio sichere asynchrone Funktionen, die sich gegenüber anderen Sprachen durch schnelle Laufzeiten auszeichnet.",
+      "source": "heise",
+      "pubDate": "2026-11-24T07:38:00+00:00"
+    },
+    {
+      "title": "Anzeige: Bluetooth-Lautsprecher von JBL zum Black Friday günstig wie nie",
+      "link": "https://www.golem.de/news/anzeige-bluetooth-lautsprecher-von-jbl-zum-black-friday-guenstig-wie-nie-2611-215554.html",
+      "summary": "Der Bluetooth-Lautsprecher JBL Xtreme 4 mit bis zu 100 W und austauschbarem 24-Stunden-Akku ist zum Black Friday stark reduziert bei Amazon! ( Lautsprecher , Sound-Hardware )",
+      "source": "golem",
+      "pubDate": "2026-11-24T07:36:01+00:00"
+    },
+    {
+      "title": "Nach Exe-Leak: Modder arbeiten an inoffizieller PC-Version von „GTA 6“",
+      "link": "https://www.heise.de/news/Nach-Exe-Leak-Modder-arbeiten-an-inoffizieller-PC-Version-von-GTA-6-11535528.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der Leaker Cyberleek hat die fehlende Exe zum Xbox-Build von „GTA 6“ veröffentlicht. Modder arbeiten an einer PC-Version, spielbar ist sie noch nicht.",
+      "source": "heise",
+      "pubDate": "2026-11-24T07:30:00+00:00"
+    },
+    {
+      "title": "Cloud- und KI-Gesetz: Positionsentwurf des Europaparlaments liegt endlich vor",
+      "link": "https://www.heise.de/news/Cloud-und-KI-Gesetz-Positionsentwurf-des-Europaparlaments-liegt-endlich-vor-11535512.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Eigentlich sollte er seit Tagen da sein: der Entwurf der Berichterstatter des Europaparlaments zum „Cloud and AI Development Act“ (CADA) liegt endlich vor.",
+      "source": "heise",
+      "pubDate": "2026-11-24T07:19:00+00:00"
+    },
+    {
       "title": "Anzeige: GoEdit - Office-Anhänge direkt in Confluence bearbeiten",
       "link": "https://www.golem.de/news/anzeige-goedit-office-anhaenge-direkt-in-confluence-bearbeiten-2611-214055.html",
       "summary": "Mit GoEdit lassen sich Office-Dokumente in Confluence und Jira direkt im Browser gemeinsam bearbeiten - inklusive Schutz vor gegenseitigem Überschreiben. ( Software )",
       "source": "golem",
       "pubDate": "2026-11-24T07:00:01+00:00"
+    },
+    {
+      "title": "„Sehr talentierter junger Mann“: „GTA 6“-Hacker bekommt sieben Jahre Haft",
+      "link": "https://www.heise.de/news/GTA-6-Leak-Hacker-verurteilt-und-noch-am-selben-Tag-frei-11535502.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der Brite, der 2022 Videos aus „GTA 6“ geleakt hat, ist zu sieben Jahren Haft verurteilt worden. Er kam trotzdem direkt frei.",
+      "source": "heise",
+      "pubDate": "2026-11-24T07:00:00+00:00"
+    },
+    {
+      "title": "OpenAI veröffentlicht GPT-6.2 für ChatGPT",
+      "link": "https://www.heise.de/news/OpenAI-veroeffentlicht-GPT-6-2-fuer-ChatGPT-11535524.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "OpenAI aktualisiert ChatGPT für Nutzer ab dem Plus-Tarif. GPT-6.2 Sol soll komplexe Anfragen zuverlässiger bearbeiten und besser im Internet recherchieren.",
+      "source": "heise",
+      "pubDate": "2026-11-24T07:00:00+00:00"
+    },
+    {
+      "title": "heise-Angebot:  iX-Workshop: Wireshark Deep Dive – Netzwerkprobleme gezielt lösen",
+      "link": "https://www.heise.de/news/iX-Workshop-Wireshark-Deep-Dive-Netzwerkprobleme-gezielt-loesen-11526135.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Erweitern Sie Ihre Wireshark-Kenntnisse, indem Sie reale Netzwerkprobleme analysieren und Sicherheitsbedrohungen aufdecken.",
+      "source": "heise",
+      "pubDate": "2026-11-24T07:00:00+00:00"
     },
     {
       "title": "ESA-Sonde BepiColombo erreicht Merkur trotz Softwarefehler in stabilem Orbit",
@@ -195,55 +265,6 @@
       "pubDate": "2026-11-24T06:15:01+00:00"
     },
     {
-      "title": "Neues CachyOS mit Easy Anti-Cheat v2 und aufgehübschtem Paketmanager",
-      "link": "https://www.heise.de/news/Neues-CachyOS-mit-Easy-Anti-Cheat-v2-und-aufgehuebschtem-Paketmanager-11535274.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Bald Fortnite auf CachyOS? Die Linux-Distribution unterstützt jetzt Easy Anti-Cheat v2. Der Package Installer hat eine frische grafische Oberfläche erhalten.",
-      "source": "heise",
-      "pubDate": "2026-11-24T06:15:00+00:00"
-    },
-    {
-      "title": "Die Crews bedroht: USA vermuten Iran hinter Cyberangriffen auf Schiffe",
-      "link": "https://www.heise.de/news/Bis-zu-50-Schiffe-USA-vermuten-Iran-hinter-Cyberangriffen-auf-Frachtschiffe-11535470.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Frachtschiffe und Tanker sind weiterhin das Ziel von Cyberangriffen. Laut einem Zeitungsbericht werden dafür Lücken in Fortinet-Routern ausgenutzt.",
-      "source": "heise",
-      "pubDate": "2026-11-24T05:53:00+00:00"
-    },
-    {
-      "title": "Kommentar: Jensen Huang ist Nvidia – und das darf nicht so bleiben",
-      "link": "https://www.heise.de/meinung/Kommentar-Jensen-Huang-ist-Nvidia-und-das-darf-nicht-so-bleiben-11535160.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Huang ist wieder da, es gibt noch ein Gremium zur Untersuchung, also alles gut? Mitnichten, findet heise-online-Redakteur Nico Ernst.",
-      "source": "heise",
-      "pubDate": "2026-11-24T05:15:00+00:00"
-    },
-    {
-      "title": "Dienstag: Jensen Huang ist wieder da, CrowdStrike übernimmt Wettbewerber",
-      "link": "https://www.heise.de/news/Dienstag-Jensen-Huang-ist-wieder-da-CrowdStrike-uebernimmt-Wettbewerber-11535424.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Nvidia holt Jensen Huang zurück + CrowdStrike kauft Zscaler + USA jagen Binance-Milliarden + Starlink-Alternative zu teuer + Russlands Atomwaffenpläne für's All",
-      "source": "heise",
-      "pubDate": "2026-11-24T05:15:00+00:00"
-    },
-    {
-      "title": "Digitalsteuer, Frequenzen und Elektroschrott sollen EU-Ambitionen finanzieren",
-      "link": "https://www.heise.de/news/Digitalsteuer-Frequenzen-und-Elektroschrott-sollen-EU-Ambitionen-finanzieren-11535458.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die EU soll mehr tun. Das Geld dafür soll aus neuen Steuern und von den Mitgliedsstaaten kommen. Ratspräsident Costa hat Ideen, darunter Frequenzgebühren.",
-      "source": "heise",
-      "pubDate": "2026-11-24T04:45:00+00:00"
-    },
-    {
-      "title": "Nvidia-Affäre: USA verhängen Handelsverbot über Megaspeed",
-      "link": "https://www.heise.de/news/Nvidia-Affaere-USA-verhaengen-Handelsverbot-ueber-Megaspeed-11535434.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Megaspeed soll Nvidia-Chips für China organisiert haben. Spät reagieren die USA mit einem Handelsembargo. Das trifft auch eine Alibaba-Tochter.",
-      "source": "heise",
-      "pubDate": "2026-11-24T04:15:00+00:00"
-    },
-    {
-      "title": "Binance-Kryptodiebstahl: USA wollen eine Milliarde US-Dollar zurück",
-      "link": "https://www.heise.de/news/Binance-Kryptodiebstahl-USA-wollen-eine-Milliarde-US-Dollar-zurueck-11535386.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das US-Justizministerium jagt die Gelder aus dem Binance-Hack und will mehr als eine Milliarde Dollar in USDC-Stablecoin auf diversen Blockchains einziehen.",
-      "source": "heise",
-      "pubDate": "2026-11-23T21:18:00+00:00"
-    },
-    {
       "title": "AWS Trainium: Amazon kauft KI-Chip-Optimierung von Decart AI für 7,5 Milliarden US-Dollar",
       "link": "https://www.golem.de/news/aws-trainium-amazon-kauft-ki-chip-optimierung-von-decart-ai-fuer-7-5-milliarden-us-dollar-2611-215557.html",
       "summary": "Statt einer klassischen Firmenübernahme holt sich Amazon die Kern-Software und rund 100 Entwickler des KI-Startups Decart AI ins Haus. ( Amazon , Cuda )",
@@ -263,27 +284,6 @@
       "summary": "Kann KI ein Bewusstsein entwickeln? Im Gespräch mit der Financial Times erklärt Googles Philosoph Henry Shevlin, warum es leichtsinnig wäre, eine empfindungsfähige KI zu erschaffen. Von Cristina Cridd…",
       "source": "golem",
       "pubDate": "2026-11-23T17:00:01+00:00"
-    },
-    {
-      "title": "Mercedes Benz Ludwigsfelde: Gewerkschaftler ruft zum \"Flachlegen des Ladens, länger als ...",
-      "link": "https://www.golem.de/news/mercedes-benz-ludwigsfelde-gewerkschaftler-ruft-auf-zum-flachlegen-des-ladens-laenger-als-eine-woche-2611-215555.html",
-      "summary": "Unklare Perspektiven bei der Umstellung auf Elektro-Transporter treiben die Belegschaft am Mercedes-Benz-Werk in Ludwigsfelde auf die Barrikaden. ( Mercedes Benz , Wirtschaft )",
-      "source": "golem",
-      "pubDate": "2026-11-23T16:49:01+00:00"
-    },
-    {
-      "title": "Anzeige: Beliebtes Akku-Staubgebläse am Black Friday nur noch rund 34 Euro",
-      "link": "https://www.golem.de/news/anzeige-beliebtes-akku-staubgeblaese-am-black-friday-nur-noch-rund-34-euro-2611-215552.html",
-      "summary": "110.000 Umdrehungen pro Minute machen den Wolfbox MegaFlow 50 zur Druckluftdose mit Akku, die jetzt wieder günstiger ist. ( Technik/Hardware )",
-      "source": "golem",
-      "pubDate": "2026-11-23T15:53:01+00:00"
-    },
-    {
-      "title": "Excel, Word, Powerpoint: Airbus will seit acht Jahren weg von Microsoft Office",
-      "link": "https://www.golem.de/news/excel-word-powerpoint-airbus-will-seit-acht-jahren-weg-von-microsoft-office-2611-215547.html",
-      "summary": "Mittlerweile hat Vertragspartner Google auch viel getan, um die Umstellung zu vervollständigen. In Gänze wird das wohl nie geschehen. ( Office , Google )",
-      "source": "golem",
-      "pubDate": "2026-11-23T15:45:02+00:00"
     }
   ]
 }
