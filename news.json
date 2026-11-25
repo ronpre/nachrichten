@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-11-25T16:06:50.380042+00:00",
+  "updatedAt": "2026-11-25T17:03:19.853124+00:00",
   "wirtschaft": [
+    {
+      "title": "Teuer nicht nur wegen GTA 6: Warum Spielekonsolen fast überall ausverkauft sind",
+      "link": "https://www.n-tv.de/wirtschaft/Spielekonsolen-und-GTA6-warum-die-Konsolen-ausverkauft-sind-PS5-und-Xbox-id31577413.html",
+      "summary": "Das Videospiel GTA 6 sorgt für einen Ansturm auf Spielekonsolen. Die Geräte aber sind derzeit teuer oder komplett ausverkauft. Der Grund: in den Konsolen stecken Chips, die auch in der KI-Industrie be…",
+      "source": "n-tv",
+      "pubDate": "2026-11-25T16:32:14+00:00"
+    },
     {
       "title": "Konzern bis März finanziert: Galeria-Insolvenzverwalter: \"Werden deutlich tiefer schneiden müssen\"",
       "link": "https://www.n-tv.de/wirtschaft/Galeria-Insolvenzverwalter-Werden-deutlich-tiefer-schneiden-muessen-id31577178.html",
@@ -63,19 +70,12 @@
       "summary": "Das deutsche Wirtschaftswachstum fällt im dritten Quartal niedriger aus als von Analysten zunächst prognostiziert. Unter anderem gesunkene Exporte belasten die Konjunktur. Für das Gesamtjahr bleiben Ö…",
       "source": "n-tv",
       "pubDate": "2026-11-25T08:33:44+00:00"
-    },
-    {
-      "title": "Reicht zehnmal für Hamburg: Photovoltaik-Anlagen schaffen Meilenstein bei Stromerzeugung",
-      "link": "https://www.n-tv.de/wirtschaft/Photovoltaik-Anlagen-schaffen-Meilenstein-bei-Stromerzeugung-id31574248.html",
-      "summary": "Auch wenn die politischen Rahmenbedingungen sich zuletzt ein wenig schwieriger gestalten, Photovoltaik ist weiterhin gefragt. Der Ausbau geht 2026 voran, sodass nun ein weiterer Meilenstein bei der St…",
-      "source": "n-tv",
-      "pubDate": "2026-11-25T08:00:26+00:00"
     }
   ],
   "politik": [
     {
-      "title": "Schweigeminute zum Orange Day: Warum viele Abgeordnete heute orange tragen",
-      "link": "https://www.n-tv.de/politik/Warum-viele-Abgeordnete-heute-orange-tragen-id31577139.html",
+      "title": "Schweigeminute zum Orange Day: Warum viele Abgeordnete heute Orange tragen",
+      "link": "https://www.n-tv.de/politik/Warum-viele-Abgeordnete-heute-Orange-tragen-id31577139.html",
       "summary": "Die Farbe Orange steht am heutigen Orange Day für eine hellere, gewaltfreie Zukunft. Am Internationalen Tag zur Beseitigung von Gewalt gegen Frauen setzen auch im Bundestag viele Politikerinnen und Po…",
       "source": "n-tv",
       "pubDate": "2026-11-25T15:51:54+00:00"
@@ -123,8 +123,8 @@
       "pubDate": "2026-11-25T14:23:37+00:00"
     },
     {
-      "title": "\"Chance wieder vertan\": Teile der CDU empört über Prostitutionsvorschläge",
-      "link": "https://www.n-tv.de/politik/Teile-der-CDU-empoert-ueber-Prostitutionsvorschlaege-id31575769.html",
+      "title": "\"Chance wieder vertan\": Teile der CDU unzufrieden mit Vorschlägen zur Prostitution",
+      "link": "https://www.n-tv.de/politik/Teile-der-CDU-unzufrieden-mit-Vorschlaegen-zur-Prostitution-id31575769.html",
       "summary": "Der Sexkauf soll regulierter verlaufen, aber nicht verboten werden. So die Vorschläge der Kommission zum neuen Prostituiertenschutzgesetz. Teilen der CDU gehen die Vorschläge nicht weit genug. Sie for…",
       "source": "n-tv",
       "pubDate": "2026-11-25T13:14:56+00:00"
@@ -146,9 +146,51 @@
   ],
   "it": [
     {
-      "title": "Elektroautos: \"Geisterfabrik\" in China kostet Audi Hunderte Millionen",
+      "title": "(g+) Security: Die iranische Hackereinheit hinter den Kühlanlagen-Angriffen",
+      "link": "https://www.golem.de/news/security-die-iranische-hackereinheit-hinter-den-kuehlanlagen-angriffen-2611-215660.html",
+      "summary": "Die FT rekonstruiert mit Geheimdiensterkenntnissen und Expertenaussagen, wer mutmaßlich hinter den Angriffen auf Supermarkt-Kühlanlagen steckt. Von Tom Wilson ( Security , Stuxnet )",
+      "source": "golem",
+      "pubDate": "2026-11-25T17:00:02+00:00"
+    },
+    {
+      "title": "Vertragskündigung: Verbraucherzentrale verklagt OpenAI wegen ChatGPT-Abo",
+      "link": "https://www.golem.de/news/vertragskuendigung-verbraucherzentrale-verklagt-openai-wegen-chatgpt-abo-2611-215664.html",
+      "summary": "Nach Ansicht der Verbraucherzentrale Brandenburg sind die Hürden bei der Kündigung eines kostenpflichtigen ChatGPT-Abos zu hoch. ( ChatGPT , KI )",
+      "source": "golem",
+      "pubDate": "2026-11-25T16:58:02+00:00"
+    },
+    {
+      "title": "heise+ | Von Offroad bis Spazierfahrt: Fünf Spiele rund ums Autofahren im Test",
+      "link": "https://www.heise.de/tests/Von-Offroad-bis-Spazierfahrt-Fuenf-Spiele-rund-ums-Autofahren-im-Test-11501587.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+      "summary": "Viele Menschen fahren gern gemütlich Auto, doch Computerspiele stehen eher für Rennstress. Einige bringen schöne Erfahrungen jenseits von Raserei und Highscore.",
+      "source": "heise",
+      "pubDate": "2026-11-25T16:30:00+00:00"
+    },
+    {
+      "title": "Chatkontrolle: Irische Ratspräsidentschaft plant Umgehung der EU-Parlamentarier",
+      "link": "https://www.heise.de/news/Chatkontrolle-Ministerrat-will-EU-Fachpolitiker-bei-Massenueberwachung-umgehen-11538170.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Ein geleakter Bericht belegt: Im Streit über die Chatkontrolle will die irische Ratsspitze nur die Fraktionschefs einschalten. Berlin drängt auf breite Scans.",
+      "source": "heise",
+      "pubDate": "2026-11-25T16:24:00+00:00"
+    },
+    {
+      "title": "Anzeige: Nachtsichtgerät mit 4K zum Black Friday reduziert bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-nachtsichtgeraet-mit-4k-zum-black-friday-reduziert-bei-amazon-2611-215661.html",
+      "summary": "Amazon hat ein Nachtsichtgerät im Angebot, das mit 4K-Auflösung und einstellbarem Infrarotlicht detaillierte Bilder im Dunkeln liefert. ( Technik/Hardware , Black Friday )",
+      "source": "golem",
+      "pubDate": "2026-11-25T16:16:01+00:00"
+    },
+    {
+      "title": "Klinik-KI als Open Source: Leipzig teilt AMPEL-Code",
+      "link": "https://www.heise.de/news/Klinik-KI-als-Open-Source-Leipzig-teilt-AMPEL-Code-11538066.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das Uniklinikum Leipzig gibt den Code der AMPEL-Plattform frei. Kliniken sollen damit eigene Medizinprodukte entwickeln können.",
+      "source": "heise",
+      "pubDate": "2026-11-25T15:59:00+00:00"
+    },
+    {
+      "title": "Elektroautos: Audis \"Geisterfabrik\" in China steht fast immer still",
       "link": "https://www.golem.de/news/elektroautos-geisterfabrik-in-china-kostet-audi-hunderte-millionen-2611-215657.html",
-      "summary": "Audis neue Fabrik für Elektroautos in China ist kaum ausgelastet. E-Tron-Modelle wie der Q6 oder A6 verkaufen sich sehr schlecht. ( Audi , Technologie )",
+      "summary": "Audis neue Fabrik für Elektroautos in China läuft nur an wenigen Tagen im Monat. E-Tron-Modelle wie der Q6 oder A6 verkaufen sich sehr schlecht. ( Audi , Technologie )",
       "source": "golem",
       "pubDate": "2026-11-25T15:30:02+00:00"
     },
@@ -242,48 +284,6 @@
       "summary": "In mehreren VMware-Produkten klaffen Sicherheitslücken. Broadcom schließt 23 davon mit aktualisierter Software.",
       "source": "heise",
       "pubDate": "2026-11-25T14:10:00+00:00"
-    },
-    {
-      "title": "Honda Avancier: Sechssitzer-Hybrid-SUV mit E-Allradantrieb",
-      "link": "https://www.heise.de/news/Honda-Avancier-Hybrid-SUV-mit-drei-Sitzreihen-und-elektrischem-Allradantrieb-11537179.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Der Avancier ist das erste Honda-Modell der nächsten Hybridgeneration mit E-Allrad. Daten und Preise nennt Honda erst zum Verkaufsbeginn in Thailand.",
-      "source": "heise",
-      "pubDate": "2026-11-25T14:08:00+00:00"
-    },
-    {
-      "title": "heise+ | Datenspion Smart-TV: Wer schaut hier eigentlich wem zu?",
-      "link": "https://www.heise.de/tests/Datenspion-Smart-TV-Wer-schaut-hier-eigentlich-wem-zu-11322139.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Zwischen HDR-Glanz, Sprachassistent und Werbekarussell entscheidet sich, ob ein Smart-TV dem Zuschauer dient – oder seiner Plattform.",
-      "source": "heise",
-      "pubDate": "2026-11-25T14:00:00+00:00"
-    },
-    {
-      "title": "KI-Update kompakt: Nvidia, KI-Migrationsgesetz, Valiants Vermutung, Perplexity",
-      "link": "https://www.heise.de/news/KI-Update-kompakt-Nvidia-KI-Migrationsgesetz-Valiants-Vermutung-Perplexity-11536344.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Das „KI-Update“ liefert drei mal pro Woche eine Zusammenfassung der wichtigsten KI-Entwicklungen.",
-      "source": "heise",
-      "pubDate": "2026-11-25T14:00:00+00:00"
-    },
-    {
-      "title": "Anzeige: Ankers Soundcore-Lautsprecher zum Black Friday für 18 Euro bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-ankers-soundcore-lautsprecher-zum-black-friday-fuer-18-euro-bei-amazon-2611-215646.html",
-      "summary": "Er schwimmt sogar im Wasser: Der Bluetooth-Lautsprecher Anker Soundcore Select 4 Go ist bei Amazon zum Black Friday zum neuen Tiefstpreis zu haben. ( Black Friday , Sound-Hardware )",
-      "source": "golem",
-      "pubDate": "2026-11-25T13:41:01+00:00"
-    },
-    {
-      "title": "Actionspiel: Take-Two bestätigt Xbox-Leak von GTA 6",
-      "link": "https://www.golem.de/news/actionspiel-take-two-bestaetigt-xbox-leak-von-gta-6-2611-215647.html",
-      "summary": "Mehr als 3.000 Repositorys eines inoffiziellen PC-Ports von GTA 6 hat Github auf Betreiben von Take-Two gesperrt. ( GTA 6 , Take-Two )",
-      "source": "golem",
-      "pubDate": "2026-11-25T13:39:01+00:00"
-    },
-    {
-      "title": "Anzeige: Küchengeräte von Ninja im günstigen Black Friday Deal bei Back Market",
-      "link": "https://www.golem.de/news/anzeige-kuechengeraete-von-ninja-im-guenstigen-black-friday-deal-bei-back-market-2611-215642.html",
-      "summary": "Beliebte Küchengeräte von Ninja wie Heißluftfritteuse, Eismaschine und Mixer sind im Black Friday Deal bei Back Market besonders günstig. ( Haushaltsgeräte , Black Friday )",
-      "source": "golem",
-      "pubDate": "2026-11-25T13:02:02+00:00"
     }
   ]
 }
