@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T11:06:50.335546+00:00",
+  "updatedAt": "2026-11-25T12:14:12.048298+00:00",
   "wirtschaft": [
     {
       "title": "Kooperation im Fernverkehr: Deutsche Bahn verkauft jetzt auch Flixtrain-Tickets",
@@ -74,6 +74,13 @@
   ],
   "politik": [
     {
+      "title": "Hegseth wollte live übertragen: Verurteilter US-Amokläufer beantragt Aussetzung der Hinrichtung",
+      "link": "https://www.n-tv.de/politik/Verurteilter-US-Amoklaeufer-Nidal-Hasan-beantragt-Aussetzung-von-Hinrichtung-id31575589.html",
+      "summary": "Nidal Hasan tötet 2009 auf dem Militärstützpunkt 13 Menschen. Er wird dafür zum Tode verurteilt. Sein Fall wird zuletzt wieder öffentlich, weil US-Verteidigungsminister Hegseth seine Hinrichtung live …",
+      "source": "n-tv",
+      "pubDate": "2026-11-25T12:09:14+00:00"
+    },
+    {
       "title": "\"Haushalt ist Schuldenorgie\": Chrupalla kündigt Verfassungsbeschwerde gegen den Haushalt an",
       "link": "https://www.n-tv.de/politik/Chrupalla-kuendigt-Verfassungsbeschwerde-gegen-den-Haushalt-an-id31574755.html",
       "summary": "AfD-Fraktionschef Chrupalla wirft der Bundesregierung in der Generaldebatte politisches Versagen vor. Er fordert eine drastisch reduzierte Schuldenaufnahme, dafür mehr Geld für Bildung, Forschung und …",
@@ -135,16 +142,65 @@
       "summary": "Nach IT-Vorfällen bei der US-Flugsicherung, dem FBI und dem Landwirtschaftsministerium trifft es nun den US-Auslandsgeheimdienst CIA. Hacker sollen sich Zugriff auf bestimmte Daten verschafft haben, b…",
       "source": "n-tv",
       "pubDate": "2026-11-25T00:54:37+00:00"
-    },
-    {
-      "title": "Maischberger zu Russland: Atombombe im All? Ex-Botschafter: Putin wollte uns das wissen lassen",
-      "link": "https://www.n-tv.de/politik/Maischberger-vom-24-11-2026-id31573779.html",
-      "summary": "Die Nachricht von der russischen Atomwaffe im All könnte laut Putin-Kenner Rüdiger von Fritsch gezielt vom Kreml gestreut worden sein - auch mit Blick auf Trump und Xi. Aber das ist womöglich sogar ei…",
-      "source": "n-tv",
-      "pubDate": "2026-11-24T23:06:00+00:00"
     }
   ],
   "it": [
+    {
+      "title": "1Password drängt Nutzer der Legacy-Version ohne Cloud zum Wechsel",
+      "link": "https://www.heise.de/news/1Password-draengt-Nutzer-der-Legacy-Version-ohne-Cloud-zum-Wechsel-11536995.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Es gibt noch viele Nutzer, die 1Password 7 verwenden, da es ohne die Server des Unternehmens auskommt. Künftig wird es für diese noch ungemütlicher.",
+      "source": "heise",
+      "pubDate": "2026-11-25T12:03:00+00:00"
+    },
+    {
+      "title": "Flut an KI-Spielen bringt Atari-Entwickler-Wettbewerb zum Stillstand",
+      "link": "https://www.heise.de/news/Zu-viel-KI-Retro-Wettbewerb-der-Atari-Homebrew-Szene-faellt-aus-11537667.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Der Organisator sieht keine Möglichkeit mehr, menschliche Entwicklungsleistungen fair zu bewerten. Ähnliche Probleme kennen Open-Source-Projekte.",
+      "source": "heise",
+      "pubDate": "2026-11-25T11:46:00+00:00"
+    },
+    {
+      "title": "Keine nativen iOS-Browser in der EU: Google gibt Mozilla recht",
+      "link": "https://www.heise.de/news/iOS-Browser-Google-schliesst-sich-Mozilla-Kritik-an-Apple-an-11536991.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Das Mozilla-Projekt will, dass die EU gegen Apple vorgeht. Die angebliche Browser-Freiheit sei keine. Ein Google-Chrome-Team reagiert – und auch die Kommission.",
+      "source": "heise",
+      "pubDate": "2026-11-25T11:43:00+00:00"
+    },
+    {
+      "title": "Rollenspiel: Gothic 3 kommt mit Community-Patch auf Konsolen",
+      "link": "https://www.golem.de/news/rollenspiel-gothic-3-kommt-mit-community-patch-auf-konsolen-2611-215640.html",
+      "summary": "20 Jahre nach der PC-Veröffentlichung erscheint Gothic 3 für PS5 und Xbox Series X/S. Die Konsolenfassung enthält den Community-Patch 1.75. ( Gothic , Rollenspiel )",
+      "source": "golem",
+      "pubDate": "2026-11-25T11:30:01+00:00"
+    },
+    {
+      "title": "Celonis statt Palantir: NRW-Polizei setzt auf deutsche Software",
+      "link": "https://www.heise.de/news/Celonis-statt-Palantir-NRW-Polizei-setzt-auf-deutsche-Software-11537601.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Bei der NRW-Polizei läuft die Zusammenarbeit mit der umstrittenen US-Firma Palantir aus. Künftig setzt man auf Software des Münchner Unternehmens Celonis.",
+      "source": "heise",
+      "pubDate": "2026-11-25T11:28:00+00:00"
+    },
+    {
+      "title": "Musikstreaming: Tidal verbannt vollständig KI-generierte Musiktitel",
+      "link": "https://www.golem.de/news/musikstreaming-tidal-verbannt-vollstaendig-ki-generierte-musiktitel-2611-215635.html",
+      "summary": "Fast jeder zweite neu eingereichte Titel bei Tidal ist vollständig KI-generiert. Die Abonnenten interessieren sich allerdings kaum dafür. ( KI , Streaming )",
+      "source": "golem",
+      "pubDate": "2026-11-25T11:15:02+00:00"
+    },
+    {
+      "title": "EU-Kommission will Quantenindustrie pushen und Krypto-Umstieg erzwingen",
+      "link": "https://www.heise.de/news/EU-Kommission-will-Quantenindustrie-pushen-und-Krypto-Umstieg-erzwingen-11537554.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Mit einer Verordnung, einem Tech-Fonds und strengeren Vorgaben bei IT-Vergaben will Brüssel Europa beim Quantencomputing unabhängiger machen und Daten schützen.",
+      "source": "heise",
+      "pubDate": "2026-11-25T11:15:00+00:00"
+    },
+    {
+      "title": "Rote Geräte: Apple bringt „(Product)RED“ zurück",
+      "link": "https://www.heise.de/news/Rote-Geraete-Apple-bringt-Product-RED-zurueck-11536999.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Zum 20. Jubiläum der Anti-AIDS-Kampagne legt Apple mehrere Produkte im roten Design auf. Darunter sind auch besondere AirPods Max 2.",
+      "source": "heise",
+      "pubDate": "2026-11-25T11:06:00+00:00"
+    },
     {
       "title": "Steelseries Rival Pro im Test: Endlose Akkulaufzeit mit fünf Sekunden Wechselpause",
       "link": "https://www.golem.de/news/steelseries-rival-pro-im-test-endlose-akkulaufzeit-mit-fuenf-sekunden-wechselpause-2611-215179.html",
@@ -156,6 +212,13 @@
       "title": "heise+ | Over-Ear-Kopfhörer mit ANC im Test: Sony, Sonos, Sennheiser gegen Beats",
       "link": "https://www.heise.de/tests/Over-Ear-Kopfhoerer-mit-ANC-im-Test-Sony-Sonos-Sennheiser-gegen-Beats-11533690.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
       "summary": "Vier Over-Ear-Kopfhörer müssen zeigen, wie gut sie sich in Apples Gerätewelt einfügen – und welche Kompromisse bei Geräuschunterdrückung und Bedienung bleiben.",
+      "source": "heise",
+      "pubDate": "2026-11-25T11:00:00+00:00"
+    },
+    {
+      "title": "heise-Angebot: Hilfe bei Virenbefall: Desinfec't 2026/27 jetzt auf USB-Stick erhältlich",
+      "link": "https://www.heise.de/news/Hilfe-bei-Virenbefall-Desinfec-t-2026-27-jetzt-auf-USB-Stick-erhaeltlich-11534660.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Windows-Trojaner finden und unschädlich machen: Die neue Desinfec't-Version ist ab sofort mit einem c't-Sonderheft auf einem USB-Stick bestellbar.",
       "source": "heise",
       "pubDate": "2026-11-25T11:00:00+00:00"
     },
@@ -188,13 +251,6 @@
       "pubDate": "2026-11-25T10:38:01+00:00"
     },
     {
-      "title": "KI-Experiment: Anthropic führt KI-Agenten in Versuchung",
-      "link": "https://www.heise.de/news/KI-Experiment-Anthropic-fuehrt-KI-Agenten-in-Versuchung-11537463.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Anthropic untersucht mit einem Experiment, wie leicht sich KI-Agenten dazu verleiten lassen, Sicherheitslücken auszunutzen.",
-      "source": "heise",
-      "pubDate": "2026-11-25T10:38:00+00:00"
-    },
-    {
       "title": "Millionenfach genutzt: Über 300 illegale Streamingportale zerschlagen",
       "link": "https://www.golem.de/news/millionenfach-genutzt-ueber-300-illegale-streamingportale-zerschlagen-2611-215636.html",
       "summary": "Anbieter illegaler IPTV-Dienste lassen sich oft in Kryptowährungen bezahlen. Ermittler konnten einige Zahlungen verfolgen und Dienste vom Netz nehmen. ( IPTV , Streaming )",
@@ -216,13 +272,6 @@
       "pubDate": "2026-11-25T10:22:02+00:00"
     },
     {
-      "title": "„Gothic 3 Classic“: Rollenspiel kommt mit Fan-Patch auf PS5 und Xbox",
-      "link": "https://www.heise.de/news/Gothic-3-Classic-Rollenspiel-kommt-mit-Fan-Patch-auf-PS5-und-Xbox-11537480.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Zwei Jahrzehnte nach dem verpatzten PC-Start erscheint „Gothic 3“ erstmals für Konsolen. Technisch fußt die Umsetzung auf jahrelanger Arbeit der Community.",
-      "source": "heise",
-      "pubDate": "2026-11-25T10:15:00+00:00"
-    },
-    {
       "title": "Anzeige: Samsung Galaxy Tablet mit S-Pen zum günstigen Black Friday Preis",
       "link": "https://www.golem.de/news/anzeige-samsung-galaxy-tablet-mit-s-pen-zum-guenstigen-black-friday-preis-2611-215632.html",
       "summary": "Das Tablet Samsung Galaxy S10 FE mit 10,9''-Display, 90 Hz und 8 GByte RAM ist inklusive S-Pen zum Black Friday reduziert bei Amazon. ( Samsung Galaxy , Samsung )",
@@ -235,55 +284,6 @@
       "summary": "Sony unterstützt das polnische Studio bei der Werbung für das Rollenspiel. Eine ähnliche Zusammenarbeit gab es bereits bei GTA 6. ( The Witcher 4 , Rollenspiel )",
       "source": "golem",
       "pubDate": "2026-11-25T09:48:02+00:00"
-    },
-    {
-      "title": "Angriffswarnung: Drupal Core, AntiCsrf und Optimizely",
-      "link": "https://www.heise.de/news/Angriffswarnung-Drupal-Core-AntiCsrf-und-Optimizely-11537363.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Teils sind die Exploits schon bekannt, aber nun warnt die CISA vor beobachteten Attacken auf Drupal Core, AntiCsrf und Optimizely.",
-      "source": "heise",
-      "pubDate": "2026-11-25T09:40:00+00:00"
-    },
-    {
-      "title": "Suzuki Ignis vorgestellt: E-Kleinstwagen für die Stadt",
-      "link": "https://www.heise.de/news/Suzuki-Ignis-vorgestellt-E-Kleinstwagen-fuer-die-Stadt-11537235.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Kleine Autos sind rar. Der Suzuki Ignis soll diesem Mangel etwas entgegensetzen – mit den kompakten Abmessungen eines Kei Car und kleiner Batterie.",
-      "source": "heise",
-      "pubDate": "2026-11-25T09:34:00+00:00"
-    },
-    {
-      "title": "heise+ | Retro-Konsolengames nativ auf dem PC: Was KI leistet und welche Fan-Ports taugen",
-      "link": "https://www.heise.de/hintergrund/Retro-Konsolengames-nativ-auf-dem-PC-Was-KI-leistet-und-welche-Fan-Ports-taugen-11464630.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Fans bringen Konsolenklassiker ohne Emulator in 4K und mit 120 fps auf PC und Smartphone. Wie entstehen solche Ports, wo hilft KI und wo schadet sie?",
-      "source": "heise",
-      "pubDate": "2026-11-25T09:30:00+00:00"
-    },
-    {
-      "title": "CIA-System gehackt: Cyberangriff könnte Prioritäten der US-Geheimdienste offenlegen",
-      "link": "https://www.golem.de/news/us-geheimdienst-cyberangriff-trifft-analysesystem-der-cia-2611-215631.html",
-      "summary": "Angreifer haben wohl Zugriff auf ein Analysesystem der CIA erlangt. Die Daten sind zwar nicht geheim, bergen aber dennoch Risiken für US-Geheimdienste. ( Geheimdienste , KI )",
-      "source": "golem",
-      "pubDate": "2026-11-25T09:27:02+00:00"
-    },
-    {
-      "title": "Probefahrt mit dem Slate Truck: Der Billig-Pick-up für 25.000 US-Dollar",
-      "link": "https://www.golem.de/news/probefahrt-mit-dem-slate-truck-der-billig-pick-up-fuer-25-000-us-dollar-2611-215536.html",
-      "summary": "Ein Elektro-Pick-up für nur 25.000 Dollar, fast ohne Komfort: Das von Jeff Bezos mitfinanzierte Start-up Slate will mit einem Billigmodell punkten. Golem ist den Truck gefahren. Ein Bericht von Stefan…",
-      "source": "golem",
-      "pubDate": "2026-11-25T09:15:02+00:00"
-    },
-    {
-      "title": "Darum hört Nvidias Verwaltungsrat so gerne auf Donald Trump",
-      "link": "https://www.heise.de/hintergrund/Darum-hoert-Nvidias-Verwaltungsrat-so-gerne-auf-Donald-Trump-11536985.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Jensen Huangs Rückkehr in den Nvidia-Chefsessel liegt auch am Haftungsrisiko. „Ich gab ihnen genug Zusicherung“, bestätigt US-Präsident Trump.",
-      "source": "heise",
-      "pubDate": "2026-11-25T09:10:00+00:00"
-    },
-    {
-      "title": "heise-Angebot: Public IT 2027: c't sucht Vorträge aus dem öffentlichen Sektor",
-      "link": "https://www.heise.de/news/Public-IT-2027-c-t-sucht-Vortraege-aus-dem-oeffentlichen-Sektor-11536236.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Die c't-Konferenz Public IT dreht sich um IT und Digitalisierung im öffentlichen Sektor. Aktuell sucht die Redaktion praxisnahe Vorträge.",
-      "source": "heise",
-      "pubDate": "2026-11-25T09:00:00+00:00"
     }
   ]
 }
