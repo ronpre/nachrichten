@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T07:05:08.348893+00:00",
+  "updatedAt": "2026-11-27T08:01:06.600731+00:00",
   "wirtschaft": [
     {
       "title": "Berlin plant neue EU-Regel: KI-Anbieter sollen für erzeugte Texte, Musik und Videos zahlen",
@@ -74,6 +74,20 @@
   ],
   "politik": [
     {
+      "title": "Weidel schlägt Treffen aus: AfD streitet über Gaslieferungen aus Russland",
+      "link": "https://www.n-tv.de/politik/AfD-streitet-ueber-Gaslieferungen-aus-Russland-id31583774.html",
+      "summary": "Die AfD ist zu großen Teilen Russland sehr gewogen. Zudem will die Partei gegen erneuerbare Energien zu Felde ziehen. Da käme die Wiederaufnahme russischer Gaslieferungen gerade recht. Zeitnahe Verhan…",
+      "source": "n-tv",
+      "pubDate": "2026-11-27T07:43:58+00:00"
+    },
+    {
+      "title": "\"Würde das gerne sehen\": Trump fordert Putin auf, \"jegliche militärische Aggression\" in Europa zu beenden",
+      "link": "https://www.n-tv.de/politik/Trump-fordert-Putin-auf-jegliche-militaerische-Aggression-in-Europa-zu-beenden-id31582519.html",
+      "summary": "Nach einem Treffen mit Nato-Generalsekretär Rutte klingt der US-Präsident deutlich kritischer gegenüber Russland als zuletzt üblich. Er habe dem russischen Präsidenten Putin klargemacht, dass er seine…",
+      "source": "n-tv",
+      "pubDate": "2026-11-27T07:07:00+00:00"
+    },
+    {
       "title": "\"Lasten müssen fair sein\": EU-Gipfel abgebrochen - Merz will neue Schulden verhindern",
       "link": "https://www.n-tv.de/politik/Merz-verkuendet-vorzeitiges-Ende-des-EU-Sondergipfels-zum-Haushalt-id31582830.html",
       "summary": "Die 27 EU-Staaten vertagen die Beratungen über den nächsten mehrjährigen Haushalt. Einer der Streitpunkte sind die Ukraine-Hilfen. Kanzler Merz sieht keine Chance auf eine schnelle Verständigung in Br…",
@@ -128,23 +142,93 @@
       "summary": "In vier Wochen wird das Jahr 2027 vielerorts mit Pyrotechnik begrüßt. Fast 40 Prozent der Kliniken registrierte zuletzt mehr feuerwerksbedingte Verletzungen, sodass die Rufe nach einem Böllerverbot la…",
       "source": "n-tv",
       "pubDate": "2026-11-27T00:35:05+00:00"
-    },
-    {
-      "title": "Ärger um Südkorea-Aussage: Ukraine: Nordkorea hat Militärhilfe für Russland ausgesetzt",
-      "link": "https://www.n-tv.de/politik/Ukraine-Nordkorea-hat-Militaerhilfe-fuer-Russland-ausgesetzt-id31582707.html",
-      "summary": "Für seinen Angriffskrieg gegen die Ukraine setzt Russland auch auf Waffen und Soldaten aus Nordkorea. Doch nun soll die Beziehung zwischen Pjöngjang und Russland kühler geworden sein. Laut ukrainische…",
-      "source": "n-tv",
-      "pubDate": "2026-11-26T21:20:33+00:00"
-    },
-    {
-      "title": "Komitee untersucht 42 Fälle: Bericht: Israels Justiz billigt Folter palästinensischer Gefangener",
-      "link": "https://www.n-tv.de/politik/Bericht-Israels-Justiz-billigt-Folter-palaestinensischer-Gefangener-id31582259.html",
-      "summary": "Eine israelische Organisation klagt den eigenen Staat an: In Israels Gefängnissen soll es systematisch zum Einsatz von Folter gegen Palästinenser kommen. Das sei besonders vor dem Hintergrund eines um…",
-      "source": "n-tv",
-      "pubDate": "2026-11-26T19:53:25+00:00"
     }
   ],
   "it": [
+    {
+      "title": "Zugriff über Github: Cyberangriff auf SAP gefährdet Softwareprojekte",
+      "link": "https://www.golem.de/news/zugriff-ueber-github-cyberangriff-auf-sap-gefaehrdet-softwareprojekte-2611-215722.html",
+      "summary": "Berichten zufolge ist es Angreifern gelungen, Github-Zugänge von SAP-Mitarbeitern zu kapern und damit auf Quellcodes des Konzerns zuzugreifen. ( Cybercrime , KI )",
+      "source": "golem",
+      "pubDate": "2026-11-27T07:57:02+00:00"
+    },
+    {
+      "title": "Anzeige: PS5-Controller Dualsense am Black Friday unter 60 Euro bei Amazon",
+      "link": "https://www.golem.de/news/anzeige-ps5-controller-dualsense-am-black-friday-unter-60-euro-bei-amazon-2611-215723.html",
+      "summary": "Der Dualsense-Controller bringt haptisches Feedback und adaptive Trigger für GTA VI mit und ist jetzt deutlich günstiger zu haben. ( Technik/Hardware , Spiele )",
+      "source": "golem",
+      "pubDate": "2026-11-27T07:47:02+00:00"
+    },
+    {
+      "title": "„GTA 6“: Inoffizieller PC-Port macht große Fortschritte",
+      "link": "https://www.heise.de/news/GTA-6-Inoffizieller-PC-Port-macht-grosse-Fortschritte-11539997.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Auf dem PC läuft „GTA 6“ nun teilweise schon mit mehr als 30 FPS. Für die Community ist die Portierung eine Art Wettrennen.",
+      "source": "heise",
+      "pubDate": "2026-11-27T07:47:00+00:00"
+    },
+    {
+      "title": "Sicherheit: Hardwarelücken schwächen den PIN-Schutz von Windows",
+      "link": "https://www.golem.de/news/sicherheit-hardwareluecken-schwaechen-den-pin-schutz-von-windows-2611-215720.html",
+      "summary": "Die TU Berlin hat zwei Schwachstellen entdeckt, die das Erraten von PINs für die Windows-Anmeldung und Laufwerksverschlüsselung erleichtern. ( Windows Hello , Microsoft )",
+      "source": "golem",
+      "pubDate": "2026-11-27T07:40:01+00:00"
+    },
+    {
+      "title": "Bundesregierung will KI-Anbieter zur Kasse bitten",
+      "link": "https://www.heise.de/news/Bundesregierung-will-KI-Anbieter-zur-Kasse-bitten-11540057.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "KI-Systeme konkurrieren mit Werken von Kreativen. Die Bundesregierung fordert dafür eine Vergütung. Auch Medien sollen besser geschützt werden.",
+      "source": "heise",
+      "pubDate": "2026-11-27T07:31:00+00:00"
+    },
+    {
+      "title": "Nova Lake: Intels Topmodell kommt offenbar mit 144 MByte Cache",
+      "link": "https://www.golem.de/news/nova-lake-intels-topmodell-kommt-offenbar-mit-144-mbyte-cache-2611-215721.html",
+      "summary": "Ein Leak beschreibt sieben neue Nova-Lake-CPUs. Das Spitzenmodell soll 28 Kerne bieten und mit bis zu 5,5 GHz takten. ( Intel , Prozessor )",
+      "source": "golem",
+      "pubDate": "2026-11-27T07:30:02+00:00"
+    },
+    {
+      "title": "Onlineshopping: EU zwingt Temu zu eindeutigen Preisen und echten Bewertungen",
+      "link": "https://www.golem.de/news/onlineshopping-eu-zwingt-temu-zu-eindeutigen-preisen-und-echten-bewertungen-2611-215719.html",
+      "summary": "Temu will den eigenen Onlineshop verbraucherfreundlicher machen. Dazu gehören eindeutige Preise und Verhinderungen von Fake-Bewertungen. ( Temu , Onlineshop )",
+      "source": "golem",
+      "pubDate": "2026-11-27T07:24:01+00:00"
+    },
+    {
+      "title": "software-architektur.tv: Architektur verstehen heißt, das Team zu verstehen",
+      "link": "https://www.heise.de/news/software-architektur-tv-Architektur-verstehen-heisst-das-Team-zu-verstehen-11538637.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Viele Architektur-Reviews betrachten nur Code und Dokumentation. Eberhard Wolff zeigt im Livestream, warum Reviewer auch das Team verstehen müssen.",
+      "source": "heise",
+      "pubDate": "2026-11-27T07:12:00+00:00"
+    },
+    {
+      "title": "Cyberangriffe: Datenschutzbehörden melden deutlich mehr Datenpannen",
+      "link": "https://www.heise.de/news/Datenschutzbehoerden-warnen-vor-Cyberangriffen-und-planen-Orientierungshilfe-11539641.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Mehr Cyberangriffe, mehr gemeldete Datenpannen: Die Datenschutzkonferenz warnt nach ihrer 112. Tagung vor teils schwerwiegenden Vorfällen.",
+      "source": "heise",
+      "pubDate": "2026-11-27T07:03:00+00:00"
+    },
+    {
+      "title": "SAP: IT-Vorfall in Entwicklungssystemen",
+      "link": "https://www.heise.de/news/IT-Vorfall-bei-SAP-Entwicklungssysteme-betroffen-11539973.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "SAP hat einen IT-Vorfall eingeräumt. Betroffen sind Berichten zufolge Entwicklungssysteme auf der GitHub-Plattform.",
+      "source": "heise",
+      "pubDate": "2026-11-27T07:02:00+00:00"
+    },
+    {
+      "title": "heise-Angebot: Was passiert, wenn wir sie wirklich in Organisationen einsetzen?",
+      "link": "https://www.heise.de/news/Was-passiert-wenn-wir-sie-wirklich-in-Organisationen-einsetzen-11511204.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Was bleibt vom KI-Versprechen in der Praxis? Der OOP-Track „AI Beyond the Hype“ zeigt echte Erfahrungen, Zahlen und Trade-offs aus Softwareteams.",
+      "source": "heise",
+      "pubDate": "2026-11-27T07:00:00+00:00"
+    },
+    {
+      "title": "heise-Angebot: iX-Workshop: Linux-Server härten mit Verschlüsselung und Zugriffskontrolle",
+      "link": "https://www.heise.de/news/iX-Workshop-Linux-Server-haerten-mit-Verschluesselung-und-Zugriffskontrolle-11472905.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "summary": "Linux-Server und Netzwerkdienste effektiv und umfassend vor Angriffen schützen – von physischer Sicherheit über Verschlüsselung und 2FA bis hin zu SELinux.",
+      "source": "heise",
+      "pubDate": "2026-11-27T07:00:00+00:00"
+    },
     {
       "title": "Match Act: Niederlande kündigen Widerstand gegen neue US-Sanktionen für ASML an",
       "link": "https://www.heise.de/news/Match-Act-Niederlande-kuendigen-Widerstand-gegen-neue-US-Sanktionen-fuer-ASML-an-11539961.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -174,20 +258,6 @@
       "pubDate": "2026-11-27T06:41:00+00:00"
     },
     {
-      "title": "Kommentar: Wer die KI-Revolution verschläft, wacht als Kodak auf",
-      "link": "https://www.heise.de/meinung/Kommentar-Wer-die-KI-Revolution-verschlaeft-wacht-als-Kodak-auf-11536532.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "KI schreibt die Spielregeln schneller neu, als viele Unternehmen sie lesen können. Wer weiter wegschaut, riskiert mehr als einen Rückstand, meint Alisa Reznik.",
-      "source": "heise",
-      "pubDate": "2026-11-27T06:31:00+00:00"
-    },
-    {
-      "title": "heise+ | Werkstatt, Garage, Gästezimmer: So heizen Sie selten genutzte Räume effizient",
-      "link": "https://www.heise.de/ratgeber/Werkstatt-Garage-Gaestezimmer-So-heizen-Sie-selten-genutzte-Raeume-effizient-11501800.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Frösteln Sie im Homeoffice, zittern die Finger beim Basteln in der Werkstatt? Wie Sie Hobbyraum und Gartenhaus in Herbst und Winter sinnvoll warm bekommen.",
-      "source": "heise",
-      "pubDate": "2026-11-27T06:30:00+00:00"
-    },
-    {
       "title": "KI: OpenAI rüstet Nato-Cyberabwehr auf",
       "link": "https://www.golem.de/news/ki-openai-ruestet-nato-cyberabwehr-auf-2611-215717.html",
       "summary": "Die Nato und mehrere europäische Behörden setzen auf KI-Modelle von OpenAI, um Schwachstellen in Software schneller zu finden und zu schließen. ( OpenAI , KI )",
@@ -202,41 +272,6 @@
       "pubDate": "2026-11-27T06:15:02+00:00"
     },
     {
-      "title": "Einen Monat nach Milliardendiebstahl: Binance hebt letzte Restriktionen auf",
-      "link": "https://www.heise.de/news/Einen-Monat-nach-Milliardendiebstahl-Binance-hebt-letzte-Restriktionen-auf-11539955.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Nachdem Binance 6,3 Milliarden US-Dollar gestohlen wurden, hat das Unternehmen Ein- und Auszahlungen gestoppt. Nun wurden die letzten Beschränkungen aufgehoben.",
-      "source": "heise",
-      "pubDate": "2026-11-27T05:50:00+00:00"
-    },
-    {
-      "title": "Freitag: SAPs massiver Stellenabbau wegen KI, FBI-Falle für Ransomware-Betrüger",
-      "link": "https://www.heise.de/news/Freitag-SAPs-massiver-Stellenabbau-wegen-KI-FBI-Falle-fuer-Ransomware-Betrueger-11539951.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "KI bedroht 10.000 SAP-Stellen + Betrug an Ransomware-Opfern + Südostasien ohne Nvidias KI-Server + Temu in Europa für Verbraucherschutz + Datenschutz-Podcast",
-      "source": "heise",
-      "pubDate": "2026-11-27T05:15:00+00:00"
-    },
-    {
-      "title": "Auslegungssache 173: Datenschutz-Schnelldurchlauf",
-      "link": "https://www.heise.de/hintergrund/Auslegungssache-173-Datenschutz-Schnelldurchlauf-11538839.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Ohne Gast, dafür mit voller Themenliste: Der Podcast befasst sich mit Verarbeitungsverzeichnissen, Smart Glasses, IP-Speicherung und dem Ende des Pflicht-DSBs.",
-      "source": "heise",
-      "pubDate": "2026-11-27T05:10:00+00:00"
-    },
-    {
-      "title": "heise+ | Die Odyssee im 4K-Heimkinotest: Die dunkle Seite des IMAX-Erfolgs",
-      "link": "https://www.heise.de/tests/Die-Odyssee-im-4K-Heimkinotest-Die-dunkle-Seite-des-IMAX-Erfolgs-11500516.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "summary": "Im Kino war Nolans Odyssee das Ereignis des Jahres. Doch zu Hause offenbaren UHD, Blu-ray und Stream große Probleme bei Kontrast und Schattenzeichnung.",
-      "source": "heise",
-      "pubDate": "2026-11-27T05:02:00+00:00"
-    },
-    {
-      "title": "Nvidia stoppt offenbar Lieferungen von KI-Servern an einige Länder Südostasiens",
-      "link": "https://www.heise.de/news/Nvidia-stoppt-offenbar-Lieferungen-von-KI-Servern-an-einige-Laender-Suedostasiens-11539931.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-      "summary": "Nach dem gegen Chinas KI-Branche gerichteten US-Exportverbot sollen Dell und Supermicro auf Geheiß Nvidias keine Server mehr nach Südostasien verschicken.",
-      "source": "heise",
-      "pubDate": "2026-11-27T04:34:00+00:00"
-    },
-    {
       "title": "KI-orientierte Umstrukturierung: SAP erwägt erneut Abbau von mindestens 10.000 Arbeitsplätzen",
       "link": "https://www.golem.de/news/ki-orientierte-umstrukturierung-sap-erwaegt-erneut-abbau-von-mindestens-10-000-arbeitsplaetzen-2611-215715.html",
       "summary": "Nach dem Einstellungsstopp im Sommer plant SAP offenbar den nächsten großen Stellenabbau. Betroffen sein sollen vor allem Produktentwicklung und Vertrieb. ( SAP , KI )",
@@ -249,41 +284,6 @@
       "summary": "Wer darf vertrauliche Dateien teilen und was tut die IT bei einem Alarm? Fünf Workshops zeigen, wie Teams Microsoft 365 absichern. In der Black Week gibt es 20 Prozent Rabatt. ( Golem Karrierewelt , S…",
       "source": "golem",
       "pubDate": "2026-11-26T17:45:01+00:00"
-    },
-    {
-      "title": "Globale Aktionen: Amazon-Beschäftigte streiken am Black Friday an elf Standorten",
-      "link": "https://www.golem.de/news/globale-aktionen-amazon-beschaeftigte-streiken-am-black-friday-an-elf-standorten-2611-215713.html",
-      "summary": "Verdi wirft dem Konzern Einschüchterung und Falschinformationen zu Streiks vor. Amazon weist das entschieden zurück. ( Black Friday , Amazon )",
-      "source": "golem",
-      "pubDate": "2026-11-26T17:17:02+00:00"
-    },
-    {
-      "title": "Anzeige: Aufladbare Teelichter am Black Friday günstig bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-aufladbare-teelichter-am-black-friday-guenstig-bei-amazon-2611-215710.html",
-      "summary": "Aufladbare Teelichter mit Fernbedienung, Timer und Dimmfunktion gibt es am Black Friday bei Amazon im günstigen Sechserpack. ( Technik/Hardware , Black Friday )",
-      "source": "golem",
-      "pubDate": "2026-11-26T17:03:01+00:00"
-    },
-    {
-      "title": "(g+) Alice Huang: Aus Chinas Provinz ins Zentrum des Nvidia-Skandals",
-      "link": "https://www.golem.de/news/alice-huang-aus-chinas-provinz-ins-zentrum-des-nvidia-skandals-2611-215704.html",
-      "summary": "Die New York Times hat Alice Huangs Lebensweg in vier Ländern recherchiert, interne Firmendokumente ausgewertet und mit mehr als einem Dutzend Insidern gesprochen. Von Paul Mozur, Keith Bradsher und M…",
-      "source": "golem",
-      "pubDate": "2026-11-26T17:00:02+00:00"
-    },
-    {
-      "title": "Anzeige: Bestseller zum neuen Bestpreis: DJI Osmo Action 4 erstmals für 170 Euro bei Amazon",
-      "link": "https://www.golem.de/news/anzeige-bestseller-zum-neuen-bestpreis-dji-osmo-action-4-erstmals-fuer-170-euro-bei-amazon-2611-215707.html",
-      "summary": "Die DJI Osmo Action 4 filmt mit 1/1,3-Zoll-Sensor in 4K bei 120 fps und ist als Bestseller jetzt so günstig wie noch nie. ( Technik/Hardware , Ultra-HD )",
-      "source": "golem",
-      "pubDate": "2026-11-26T16:45:01+00:00"
-    },
-    {
-      "title": "Höhenwind: Windpark auf 5.100 Meter Höhe eröffnet",
-      "link": "https://www.golem.de/news/hoehenwind-windpark-auf-5-100-meter-hoehe-eroeffnet-2611-215712.html",
-      "summary": "Im Himalaya geht ein Windpark auf einem Gebirgskamm in Betrieb. Aufgrund stärkerer Winde soll der Ertrag deutlich höher sein als anderswo. ( Windkraft , Windpark )",
-      "source": "golem",
-      "pubDate": "2026-11-26T16:40:02+00:00"
     }
   ]
 }
